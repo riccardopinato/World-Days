@@ -28,6 +28,8 @@ jobs:
           python3 tool/validate_dataset.py
           python3 tool/build_editorial.py
           python3 tool/validate_editorial.py
+          python3 tool/build_editorial_locales.py
+          python3 tool/validate_editorial_locales.py
           python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
 
