@@ -24,7 +24,8 @@ final class HomeWidgetService {
       final schedule = <String, Object?>{};
       for (final day in days) {
         final key = _dateKey(day.date);
-        final primary = day.observances.firstOrNull;
+        final primary =
+            day.observances.isEmpty ? null : day.observances.first;
         schedule[key] = {
           'title': primary?.title ?? 'No verified observance',
           'authority': primary?.authority.name ?? 'World Days',
