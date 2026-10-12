@@ -30,6 +30,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final l10n = AppLocalizations.of(context);
     final record = widget.observance;
     final favorite = widget.controller.isFavorite(record.id);
+    final editorial = widget.controller.catalog?.editorialById[record.id];
     final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
@@ -91,6 +92,61 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ),
           ),
           const SizedBox(height: 24),
+          if (editorial != null) ...[
+            if (Localizations.localeOf(context).languageCode != 'en') ...[
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: Row(
+                    children: [
+                      const Icon(Icons.translate_rounded, size: 20),
+                      const SizedBox(width: 10),
+                      Expanded(child: Text(l10n.editorialEnglishOnly)),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+            ],
+            Text(
+              editorial.summary,
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    height: 1.5,
+                  ),
+            ),
+            const SizedBox(height: 26),
+            _EditorialSection(
+              icon: Icons.lightbulb_outline_rounded,
+              title: l10n.whyItMatters,
+              body: editorial.whyItMatters,
+            ),
+            const SizedBox(height: 24),
+            Text(
+              l10n.waysToTakePart,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w900,
+                  ),
+            ),
+            const SizedBox(height: 12),
+            for (final action in editorial.waysToTakePart) ...[
+              _ActionCard(text: action),
+              const SizedBox(height: 10),
+            ],
+            const SizedBox(height: 16),
+          ] else ...[
+            Text(
+              l10n.editorialComingNext,
+              style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.w800,
+                  ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              l10n.editorialPlaceholder,
+              style: Theme.of(context).textTheme.bodyLarge,
+            ),
+            const SizedBox(height: 24),
+          ],
           _InfoRow(label: l10n.authority, value: record.authority.name),
           if (record.authority.resolution case final resolution?)
             _InfoRow(label: l10n.resolution, value: resolution),
@@ -122,18 +178,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ),
             const SizedBox(height: 10),
           ],
-          const SizedBox(height: 18),
-          Text(
-            l10n.editorialComingNext,
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w800,
-                ),
-          ),
-          const SizedBox(height: 8),
-          Text(
-            l10n.editorialPlaceholder,
-            style: Theme.of(context).textTheme.bodyLarge,
-          ),
         ],
       ),
     );
@@ -145,6 +189,77 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     if (value == 'POPULAR') return l10n.popular;
     return l10n.institutional;
   }
+}
+
+
+class _EditorialSection extends StatelessWidget {
+  const _EditorialSection({
+    required this.icon,
+    required this.title,
+    required this.body,
+  });
+
+  final IconData icon;
+  final String title;
+  final String body;
+
+  @override
+  Widget build(BuildContext context) => Card(
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(icon),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      body,
+                      style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                            height: 1.45,
+                          ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+}
+
+class _ActionCard extends StatelessWidget {
+  const _ActionCard({required this.text});
+  final String text;
+
+  @override
+  Widget build(BuildContext context) => Card(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(
+                Icons.arrow_forward_rounded,
+                size: 20,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(width: 12),
+              Expanded(child: Text(text)),
+            ],
+          ),
+        ),
+      );
 }
 
 class _Badge extends StatelessWidget {
