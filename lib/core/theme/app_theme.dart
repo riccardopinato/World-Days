@@ -7,11 +7,15 @@ abstract final class AppTheme {
   static ThemeData dark() => _build(Brightness.dark);
 
   static ThemeData _build(Brightness brightness) {
-    final colors = ColorScheme.fromSeed(seedColor: seed, brightness: brightness);
+    final colors = ColorScheme.fromSeed(
+      seedColor: seed,
+      brightness: brightness,
+    );
     final base = ThemeData(
       useMaterial3: true,
       brightness: brightness,
       colorScheme: colors,
+      visualDensity: VisualDensity.standard,
     );
 
     return base.copyWith(
@@ -27,6 +31,7 @@ abstract final class AppTheme {
         color: colors.surfaceContainerLow,
         elevation: 0,
         margin: EdgeInsets.zero,
+        clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(24),
           side: BorderSide(color: colors.outlineVariant),
@@ -36,6 +41,15 @@ abstract final class AppTheme {
         height: 72,
         backgroundColor: colors.surface,
         indicatorColor: colors.secondaryContainer,
+        indicatorShape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(18),
+        ),
+        labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+      ),
+      navigationRailTheme: NavigationRailThemeData(
+        backgroundColor: colors.surface,
+        indicatorColor: colors.secondaryContainer,
+        useIndicator: true,
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
@@ -48,6 +62,24 @@ abstract final class AppTheme {
       chipTheme: base.chipTheme.copyWith(
         shape: const StadiumBorder(),
         side: BorderSide(color: colors.outlineVariant),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          minimumSize: const Size(48, 48),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          textStyle: const TextStyle(fontWeight: FontWeight.w700),
+        ),
+      ),
+      iconButtonTheme: IconButtonThemeData(
+        style: IconButton.styleFrom(
+          minimumSize: const Size(48, 48),
+        ),
+      ),
+      dividerTheme: DividerThemeData(
+        color: colors.outlineVariant,
+        space: 1,
       ),
     );
   }
