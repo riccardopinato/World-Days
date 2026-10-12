@@ -10,6 +10,8 @@ Future<AppController> _controller() async {
 }
 
 void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   test('launch markets expose only their national layer', () async {
     final controller = await _controller();
 
