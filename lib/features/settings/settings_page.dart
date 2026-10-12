@@ -39,7 +39,7 @@ class SettingsPage extends StatelessWidget {
           const SizedBox(height: 28),
           _SectionTitle(l10n.language),
           DropdownButtonFormField<String?>(
-            value: controller.preferences.localeCode,
+            initialValue: controller.preferences.localeCode,
             decoration: const InputDecoration(prefixIcon: Icon(Icons.language)),
             items: [
               DropdownMenuItem<String?>(value: null, child: Text(l10n.deviceLanguage)),
