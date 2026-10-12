@@ -7,6 +7,7 @@ import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
 import '../../l10n/app_localizations.dart';
+import 'around_the_world_page.dart';
 
 class DiscoverPage extends StatefulWidget {
   const DiscoverPage({super.key, required this.controller});
@@ -46,6 +47,25 @@ class _DiscoverPageState extends State<DiscoverPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  Card(
+                    child: ListTile(
+                      leading: const Icon(Icons.public_rounded),
+                      title: Text(
+                        l10n.aroundTheWorld,
+                        style: const TextStyle(fontWeight: FontWeight.w800),
+                      ),
+                      subtitle: Text(l10n.aroundTheWorldDescription),
+                      trailing: const Icon(Icons.chevron_right_rounded),
+                      onTap: () => Navigator.of(context).push(
+                        MaterialPageRoute<void>(
+                          builder: (_) => AroundTheWorldPage(
+                            controller: widget.controller,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 14),
                   TextField(
                     controller: _search,
                     onChanged: (_) => setState(() {}),
