@@ -3,6 +3,7 @@ set -euo pipefail
 
 python3 tool/build_dataset.py >/dev/null
 python3 tool/build_editorial.py >/dev/null
+python3 tool/build_editorial_locales.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then
   echo "Flutter is required" >&2
@@ -22,8 +23,5 @@ if [[ "$needs_create" -eq 1 ]]; then
     .
 fi
 
-
-# flutter create adds its default MyApp widget test; this project owns its tests.
 rm -f test/widget_test.dart
-
 python3 tool/configure_platforms.py
