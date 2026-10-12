@@ -31,7 +31,9 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final l10n = AppLocalizations.of(context);
     final record = widget.observance;
     final favorite = widget.controller.isFavorite(record.id);
-    final editorial = widget.controller.catalog?.editorialById[record.id];
+    final localeCode = Localizations.localeOf(context).languageCode;
+    final editorial = widget.controller.catalog?.editorialFor(record.id, localeCode);
+    final editorialFallback = editorial != null && editorial.locale != localeCode;
     final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
@@ -94,7 +96,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
-            if (Localizations.localeOf(context).languageCode != 'en') ...[
+            if (editorialFallback) ...[
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(14),
