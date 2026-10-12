@@ -41,6 +41,7 @@ final class Observance {
     required this.scope,
     required this.countries,
     required this.regions,
+    required this.categories,
     required this.authority,
     required this.sources,
     required this.rules,
@@ -53,6 +54,7 @@ final class Observance {
   final String scope;
   final List<String> countries;
   final List<String> regions;
+  final List<String> categories;
   final ObservanceAuthority authority;
   final List<ObservanceSource> sources;
   final List<RecurrenceRule> rules;
@@ -67,6 +69,9 @@ final class Observance {
             .map((e) => e.toString().toUpperCase())
             .toList(growable: false),
         regions: (json['regions'] as List? ?? const [])
+            .map((e) => e.toString())
+            .toList(growable: false),
+        categories: (json['categories'] as List? ?? const [])
             .map((e) => e.toString())
             .toList(growable: false),
         authority: ObservanceAuthority.fromJson(
