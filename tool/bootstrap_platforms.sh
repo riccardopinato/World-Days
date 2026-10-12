@@ -20,3 +20,7 @@ if [[ "$needs_create" -eq 1 ]]; then
     --project-name world_days \
     .
 fi
+
+
+# flutter create adds its default MyApp widget test; this project owns its tests.
+rm -f test/widget_test.dart
