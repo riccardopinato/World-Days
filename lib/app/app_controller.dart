@@ -352,24 +352,31 @@ final class AppController extends ChangeNotifier {
 
   Future<void> toggleFavorite(String id) async {
     final next = {...preferences.favoriteIds};
-    if (!next.add(id)) next.remove(id);
-    preferences = preferences.copyWith(favoriteIds: next);
+    final added = next.add(id);
+    if (!added) next.remove(id);
+
+    var reminderIds = preferences.favoriteReminderIds;
+    if (!added && reminderIds.contains(id)) {
+      reminderIds = {...reminderIds}..remove(id);
+    }
+
+    preferences = preferences.copyWith(
+      favoriteIds: next,
+      favoriteReminderIds: reminderIds,
+    );
     notifyListeners();
     await _preferencesRepository.save(preferences);
+    if (!added) await refreshRetentionSchedule();
   }
 
   Future<void> recordOpen(String id) async {
-    final next = [id, ...preferences.recentIds.where((value) => value != id)].take(20).toList();
+    final next =
+        [id, ...preferences.recentIds.where((value) => value != id)]
+            .take(20)
+            .toList();
     preferences = preferences.copyWith(recentIds: next);
     notifyListeners();
     await _preferencesRepository.save(preferences);
-    if (!next.contains(id) && preferences.favoriteReminderIds.contains(id)) {
-      final reminders = {...preferences.favoriteReminderIds}..remove(id);
-      preferences = preferences.copyWith(favoriteReminderIds: reminders);
-      notifyListeners();
-      await _preferencesRepository.save(preferences);
-      await refreshRetentionSchedule();
-    }
   }
 
   Future<void> setThemeMode(ThemeMode mode) async {
