@@ -15,17 +15,21 @@ jobs:
   materialize:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
       - name: Checkout bootstrap branch
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: bootstrap-foundation
 
-      - name: Materialize source tree
+      - name: Reassemble and verify source archive
         shell: bash
         run: |
           set -euo pipefail
-          base64 -d .bootstrap/worlddays_project.tar.gz.b64 > /tmp/worlddays_project.tar.gz
+          cat .bootstrap/chunks/chunk_* > /tmp/worlddays_project.tar.gz.b64
+          echo "acd327b70c461e0d42985fc8ea4fcb968ad50e1a8533bd3ac0ef7cf3ffa9ab0c  /tmp/worlddays_project.tar.gz.b64" | sha256sum -c -
+          base64 -d /tmp/worlddays_project.tar.gz.b64 > /tmp/worlddays_project.tar.gz
+          echo "6fdc614eb658f8a258a0965c9a4706288e5fe670f373e261c6c2ccb48b85f5d2  /tmp/worlddays_project.tar.gz" | sha256sum -c -
           tar -xzf /tmp/worlddays_project.tar.gz -C .
           rm -rf .bootstrap
 
