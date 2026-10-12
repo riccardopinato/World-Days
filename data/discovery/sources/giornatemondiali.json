@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "giornatemondiali",
+    "url": "https://www.giornatemondiali.it/",
+    "tier": "C_DISCOVERY",
+    "kind": "consumer_calendar",
+    "crosscheckOnly": false
+  },
+  "fetchedAt": "2026-10-12T12:16:27.990699+00:00",
+  "httpStatus": 200,
+  "fetchError": null,
+  "usedFallback": false,
+  "observationCount": 55,
+  "observations": [
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1 NOVEMBRE",
+      "rawTitleIt": "Giornata Mondiale Vegan",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 AGOSTO",
+      "rawTitleIt": "Giornata Mondiale del Leone",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 DICEMBRE",
+      "rawTitleIt": "Giornata Mondiale dei Diritti Umani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 DICEMBRE",
+      "rawTitleIt": "Giornata Internazionale della Montagna",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 LUGLIO",
+      "rawTitleIt": "Giornata Mondiale della Popolazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 AGOSTO",
+      "rawTitleIt": "Giornata Mondiale dell’Elefante",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 MARZO",
+      "rawTitleIt": "Giornata Internazionale di Azione per i Fiumi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 MARZO",
+      "rawTitleIt": "Giornata Mondiale dei Diritti dei Consumatori",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 FEBBRAIO",
+      "rawTitleIt": "Giornata Mondiale delle Balene",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale della Tartaruga Marina",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 MAGGIO",
+      "rawTitleIt": "Giornata Internazionale della Luce",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 SETTEMBRE",
+      "rawTitleIt": "Giornata per la Preservazione dello Strato di Ozono",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale contro la Desertificazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 GIUGNO",
+      "rawTitleIt": "Giornata della Gastronomia Sostenibile",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 SETTEMBRE",
+      "rawTitleIt": "Giornata Mondiale per il Monitoraggio delle Acque",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 AGOSTO",
+      "rawTitleIt": "Giornata Umanitaria Mondiale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 FEBBRAIO",
+      "rawTitleIt": "Giornata Mondiale delle Zone Umide",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 MAGGIO",
+      "rawTitleIt": "Giornata Mondiale del Tonno",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 MAGGIO",
+      "rawTitleIt": "Giornata Mondiale delle Api",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 MARZO",
+      "rawTitleIt": "Giornata Mondiale del Passero",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 APRILE",
+      "rawTitleIt": "Giornata Mondiale della Migrazione dei Pesci",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale della Giraffa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 MARZO",
+      "rawTitleIt": "Giornata Internazionale delle Foreste",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 MARZO",
+      "rawTitleIt": "Giornata Mondiale del Legno",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 MARZO",
+      "rawTitleIt": "Giornata Mondiale della Semina",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 SETTEMBRE",
+      "rawTitleIt": "Giornata Internazionale della Pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 SETTEMBRE",
+      "rawTitleIt": "Giornata Zero Emissioni",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 APRILE",
+      "rawTitleIt": "Giornata della Terra",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale della Foresta Pluviale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 MARZO",
+      "rawTitleIt": "Giornata Mondiale dell’Acqua",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 SETTEMBRE",
+      "rawTitleIt": "Giornata Mondiale senza Auto",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 MAGGIO",
+      "rawTitleIt": "Giornata Mondiale delle Tartarughe",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 OTTOBRE",
+      "rawTitleIt": "Giornata Internazionale del Leopardo delle Nevi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 APRILE",
+      "rawTitleIt": "Giornata Mondiale per gli Animali da Laboratorio",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 GENNAIO",
+      "rawTitleIt": "Giornata Internazionale dell’Educazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 MAGGIO",
+      "rawTitleIt": "Giornata Europea dei Parchi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 APRILE",
+      "rawTitleIt": "Giornata Mondiale del Pinguino",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 LUGLIO",
+      "rawTitleIt": "Giornata Internazionale per le Mangrovie",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 SETTEMBRE",
+      "rawTitleIt": "Giornata per l’eliminazione delle Armi Nucleari",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 FEBBRAIO",
+      "rawTitleIt": "Giornata Internazionale dell’Orso Polare",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 GENNAIO",
+      "rawTitleIt": "Giornata Internazionale Memoria Vittime Olocausto",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 LUGLIO",
+      "rawTitleIt": "Giornata Mondiale della Conservazione della Natura",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 LUGLIO",
+      "rawTitleIt": "Giornata Mondiale della Tigre",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 NOVEMBRE",
+      "rawTitleIt": "Giornata Internazionale del Giaguaro",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 MARZO",
+      "rawTitleIt": "Giornata Mondiale della Fauna Selvatica",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 LUGLIO",
+      "rawTitleIt": "Giornata Mondiale dell’Amicizia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 NOVEMBRE",
+      "rawTitleIt": "Giornata in Memoria Vittime Guerra Chimica",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "31 MAGGIO",
+      "rawTitleIt": "Giornata Mondiale senza Tabacco",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 GENNAIO",
+      "rawTitleIt": "Giornata Mondiale del Braille",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 OTTOBRE",
+      "rawTitleIt": "Giornata Mondiale degli Animali",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 DICEMBRE",
+      "rawTitleIt": "Giornata Mondiale del Suolo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale per l’Ambiente",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 SETTEMBRE",
+      "rawTitleIt": "Giornata Mondiale d’azione per l’Amazzonia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 APRILE",
+      "rawTitleIt": "Giornata Mondiale della Salute",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "giornatemondiali",
+      "sourceUrl": "https://www.giornatemondiali.it/",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "consumer_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 GIUGNO",
+      "rawTitleIt": "Giornata Mondiale per il Triangolo dei Coralli",
+      "extraction": "table"
+    }
+  ]
+}

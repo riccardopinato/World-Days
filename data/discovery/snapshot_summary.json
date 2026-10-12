@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "sourceId": "giornatemondiali",
+      "count": 55
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "count": 218
+    },
+    {
+      "sourceId": "unric_it",
+      "count": 15
+    },
+    {
+      "sourceId": "rai_scuola",
+      "count": 106
+    },
+    {
+      "sourceId": "pineta",
+      "count": 269
+    },
+    {
+      "sourceId": "unesco_it",
+      "count": 1
+    },
+    {
+      "sourceId": "coe_compass",
+      "count": 26
+    }
+  ]
+}

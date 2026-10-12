@@ -93,6 +93,18 @@ class _DiscoverPageState extends State<DiscoverPage> {
                         onSelected: (_) =>
                             setState(() => officiality = 'OFFICIAL_WHO'),
                       ),
+                      FilterChip(
+                        label: Text(l10n.recognized),
+                        selected: officiality == 'RECOGNIZED_NGO',
+                        onSelected: (_) =>
+                            setState(() => officiality = 'RECOGNIZED_NGO'),
+                      ),
+                      FilterChip(
+                        label: Text(l10n.popular),
+                        selected: officiality == 'POPULAR',
+                        onSelected: (_) =>
+                            setState(() => officiality = 'POPULAR'),
+                      ),
                     ],
                   ),
                   const SizedBox(height: 18),

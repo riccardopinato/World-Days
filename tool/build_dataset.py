@@ -2,7 +2,7 @@ import json, re, calendar
 from datetime import date, timedelta
 from pathlib import Path
 
-VERIFIED='2026-10-11'
+VERIFIED='2026-10-12'
 UN='https://www.un.org/en/observances/list-days-weeks'
 UNESCO='https://www.unesco.org/en/days/list'
 WHO='https://www.who.int/campaigns'
@@ -21,7 +21,7 @@ def auth(name='United Nations',typ='UN',officiality='OFFICIAL_UN',resolution=Non
 def src(url,tier='A_PRIMARY'):
     return {'tier':tier,'url':url,'verifiedAt':VERIFIED}
 
-def add(title, period, rules, authority, source_url, categories=None, aliases=None, notes=None):
+def add(title, period, rules, authority, source_url, categories=None, aliases=None, notes=None, source_tier='A_PRIMARY'):
     rid=slug(title)
     if any(r['id']==rid for r in records):
         raise ValueError('duplicate id '+rid)
@@ -36,7 +36,7 @@ def add(title, period, rules, authority, source_url, categories=None, aliases=No
         'regions':[],
         'authority':authority,
         'categories':categories or [],
-        'sources':[src(source_url)],
+        'sources':[src(source_url,source_tier)],
         'visualKey':None,
         'editorialStatus':'STUB',
         'notes':notes or [],
@@ -60,6 +60,30 @@ def multi_nth(title,rules,res=None,name='United Nations Environment Programme',t
 
 def override(title,year,m,d,res=None,name='United Nations',typ='UN',officiality='OFFICIAL_UN',source=UN,kind='AUTHORITY_DEFINED'):
     add(title,'DAY',[{'kind':kind,'overrides':{str(year):{'startDate':f'{year:04d}-{m:02d}-{d:02d}','endDate':f'{year:04d}-{m:02d}-{d:02d}'}}}],auth(name,typ,officiality,res),source)
+
+def consumer_fixed(title,m,d,name,typ,officiality,source,cats=None,aliases=None):
+    add(
+        title,
+        'DAY',
+        [{'kind':'FIXED_DATE','month':m,'day':d}],
+        auth(name,typ,officiality),
+        source,
+        cats,
+        aliases,
+        source_tier='D_ORIGINATOR',
+    )
+
+def consumer_nth(title,m,weekday,occ,name,typ,officiality,source,cats=None,aliases=None,source_tier='D_ORIGINATOR'):
+    add(
+        title,
+        'DAY',
+        [{'kind':'NTH_WEEKDAY','month':m,'weekday':weekday,'occurrence':occ}],
+        auth(name,typ,officiality),
+        source,
+        cats,
+        aliases,
+        source_tier=source_tier,
+    )
 
 # JANUARY
 fixed('World Braille Day',1,4,'A/RES/73/161')
@@ -355,6 +379,95 @@ fixed('International Anti-Cybercrime Day',12,24,'A/RES/79/243')
 fixed('International Day of Epidemic Preparedness',12,27,'A/RES/75/27')
 
 
+# CURATED CONSUMER / ORIGINATOR-BACKED OBSERVANCES
+# These records are intentionally distinct from the UN/UNESCO/WHO official core.
+# They are published only when an originator or primary institutional source is known.
+consumer_fixed(
+    'World Cancer Day',2,4,
+    'Union for International Cancer Control','UICC','RECOGNIZED_NGO',
+    'https://www.uicc.org/what-we-do/events/world-cancer-day',
+    ['Health'],
+)
+consumer_nth(
+    'Safer Internet Day',2,2,2,
+    'Better Internet for Kids / European Commission','EU_BIK','OFFICIAL_INSTITUTIONAL',
+    'https://better-internet-for-kids.europa.eu/en/events/safer-internet-day-sid-2026',
+    ['Technology','Children'],
+    source_tier='A_PRIMARY',
+)
+consumer_fixed(
+    'World Theatre Day',3,27,
+    'International Theatre Institute','ITI','RECOGNIZED_NGO',
+    'https://www.iti-worldwide.org/pdfs/How_to_Celebrate_World_Theatre_Day_2024.pdf',
+    ['Culture'],
+)
+consumer_fixed(
+    'International Dance Day',4,29,
+    'International Theatre Institute / Dance Committee','ITI','RECOGNIZED_NGO',
+    'https://www.iti-worldwide.org/pdfs/2019IDD_EventReport.pdf',
+    ['Culture'],
+)
+consumer_fixed(
+    'International Nurses Day',5,12,
+    'International Council of Nurses','ICN','RECOGNIZED_NGO',
+    'https://admin.icn.ch/how-we-do-it/campaigns/international-nurses-day',
+    ['Health'],
+)
+consumer_fixed(
+    'International Museum Day',5,18,
+    'International Council of Museums','ICOM','RECOGNIZED_NGO',
+    'https://icom.museum/en/news/international-museum-day-2026-a-message-from-the-president/',
+    ['Culture','Education'],
+)
+consumer_fixed(
+    'World Turtle Day',5,23,
+    'American Tortoise Rescue','ATR','RECOGNIZED_NGO',
+    'https://worldturtleday.org/about/',
+    ['Animals','Environment'],
+)
+consumer_fixed(
+    'World MS Day',5,30,
+    'MS International Federation','MSIF','RECOGNIZED_NGO',
+    'https://worldmsday.org/about/',
+    ['Health'],
+)
+consumer_fixed(
+    'World Emoji Day',7,17,
+    'Emojipedia / Zedge','EMOJIPEDIA','POPULAR',
+    'https://emojipedia.org/en/world-emoji-day',
+    ['Technology','Culture'],
+)
+consumer_fixed(
+    'World Suicide Prevention Day',9,10,
+    'International Association for Suicide Prevention','IASP','RECOGNIZED_NGO',
+    'https://www.iasp.info/wspd/',
+    ['Health'],
+)
+consumer_fixed(
+    "World Alzheimer's Day",9,21,
+    "Alzheimer's Disease International",'ADI','RECOGNIZED_NGO',
+    'https://www.alzint.org/get-involved/world-alzheimers-month/frequently-asked-questions/',
+    ['Health'],
+)
+consumer_fixed(
+    'World Heart Day',9,29,
+    'World Heart Federation','WHF','RECOGNIZED_NGO',
+    'https://world-heart-federation.org/',
+    ['Health'],
+)
+consumer_fixed(
+    'World Vegan Day',11,1,
+    'The Vegan Society','VEGAN_SOCIETY','RECOGNIZED_NGO',
+    'https://www.vegansociety.com/news/blog/celebrate-world-vegan-month-november',
+    ['Food','Environment'],
+)
+consumer_fixed(
+    'World Kindness Day',11,13,
+    'World Kindness Movement','WKM','RECOGNIZED_NGO',
+    'https://www.theworldkindnessmovement.org/about-us-2/story/',
+    ['Culture','Rights'],
+)
+
 # 2026 annual campaign overrides known from primary WHO pages.
 year_overrides=[
     {
@@ -478,9 +591,9 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.10.11.1',
- 'generatedAt':'2026-10-11',
- 'coverage':'Official UN core plus verified UNESCO-only and WHO-official additions discovered in this pass.',
+ 'datasetVersion':'2026.10.12.2',
+ 'generatedAt':'2026-10-12',
+ 'coverage':'Verified UN/UNESCO/WHO institutional core plus a separately classified originator-backed consumer tranche.',
  'records':sorted(records,key=lambda r:r['id']),
  'yearOverrides':year_overrides,
 }

@@ -26,6 +26,7 @@ jobs:
         run: |
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
+          python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
 
       - name: Setup Flutter

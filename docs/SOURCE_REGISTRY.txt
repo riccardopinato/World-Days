@@ -1,5 +1,5 @@
-WORLD DAYS — SOURCE REGISTRY v0.1
-Verified: 2026-10-11
+WORLD DAYS — SOURCE REGISTRY v0.2
+Verified: 2026-10-12
 
 TIER A — PRIMARY / CANONICAL
 A01 United Nations — List of International Days and Weeks
@@ -12,45 +12,72 @@ URL: https://www.unesco.org/en/days
 List: https://www.unesco.org/en/days/list
 Role: UNESCO-only observances and UNESCO authority verification.
 Status: ACTIVE / PRIMARY
-Verified examples during this pass: World Logic Day (14 Jan), World Art Day (15 Apr), World Metrology Day (20 May), International Day for Biosphere Reserves (3 Nov), International Day of Intangible Cultural Heritage (17 Oct), World Coding Day (29 Oct).
 
 A03 WHO — Global health days and weeks
 URL: https://www.who.int/campaigns
 Role: WHO official global public-health days/weeks and campaign pages.
 Status: ACTIVE / PRIMARY
-WHO explicitly distinguishes 13 official days + 2 official weeks from other health observances.
 
 TIER B — INSTITUTIONAL / CROSS-CHECK
-B01 UNRIC Italia — Giornate internazionali ONU
-URL: https://unric.org/it/giornate-internazionali-onu/
-Role: Italian institutional cross-check, localized discovery and links back to UN system sources.
+B01 UNRIC Italia — Calendario giornate internazionali
+URL: https://unric.org/it/calendario-giornate-internazionali/
+Role: Italian institutional cross-check and localized discovery.
+Snapshot 2026-10-12: 15 fallback observations retained as cross-check-only because the live page did not expose extractable calendar rows to the runner.
 
 B02 Council of Europe — Human Rights Calendar
 URL: https://www.coe.int/it/web/compass/human-rights-calendar
 Role: human-rights/regional observance discovery and educational context.
 Important: not treated as an exhaustive or definitive global list.
+Snapshot 2026-10-12: 26 fallback observations because the GitHub-hosted runner received HTTP 403 from the source page.
+
+B03 UNESCO Italia — Giornate internazionali UNESCO
+URL: https://www.unesco.it/it/temi-in-evidenza/comunicazione-e-informazione/giornate-internazionali-dellunesco/
+Role: Italian institutional cross-check for UNESCO observances.
+Snapshot 2026-10-12: 1 fallback observation; canonical authority remains the international UNESCO primary source.
 
 TIER C — DISCOVERY / EDITORIAL
 C01 Giornatemondiali.it
 URL: https://www.giornatemondiali.it/
 Role: candidate discovery, Italian search vocabulary, category expectations.
+Snapshot 2026-10-12: 55 extracted observations.
 Important: its static list explicitly omits some movable observances; never canonical for recurrence.
 
 C02 Rai Scuola — Giornate nazionali e internazionali
 URL: https://www.raiscuola.rai.it/percorsi/giornate
 Role: discovery + educational/editorial topic ideas; not an exhaustive catalog.
+Snapshot 2026-10-12: 106 extracted observations.
 
-C03 Pineta Nature Resort — Calendario Giornate Mondiali 2026
+C03 Pineta Nature Resort — Calendario Giornate Mondiali
 URL: https://www.pinetanatureresort.it/blog/giornate-mondiali/
 Role: rich long-tail candidate discovery including popular/unofficial days.
-Important: contains institutional, national, commercial/popular and humorous observances in the same editorial list; every candidate requires classification and verification.
+Snapshot 2026-10-12: 269 extracted observations.
+Important: contains institutional, national, commercial/popular and humorous observances in the same editorial list; every candidate requires classification and originator verification.
 
 C04 Wikipedia IT — Giornate, anni e decenni internazionali
 URL: https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali
 Role: discovery/alias/resolution hints; follow citations to primary authority before publication.
+Snapshot 2026-10-12: 218 extracted observations.
+
+TIER D — ORIGINATOR / CONSUMER AUTHORITY
+Used for non-UN consumer observances when the organization that created, coordinates or formally maintains the observance is known.
+Examples in the first curated tranche: UICC, ITI, ICN, ICOM, American Tortoise Rescue, MSIF, Emojipedia/Zedge, IASP, ADI, World Heart Federation, The Vegan Society and World Kindness Movement.
+A D_ORIGINATOR source can support RECOGNIZED_NGO or POPULAR classification. It must never be converted to OFFICIAL_UN/WHO/UNESCO.
+
+DISCOVERY SNAPSHOT 2026-10-12
+Raw observations: 690
+Unified discovery candidates: 516
+Candidates seen in 2+ sources: 113
+Candidates with same-date canonical collision hints: 372
+Candidates with unresolved/movable dates: 59
+Publication default: FALSE for all discovery candidates.
 
 PROCESS
-DISCOVER -> NORMALIZE -> DEDUP -> VERIFY PRIMARY -> CLASSIFY OFFICIALITY -> ADD CANONICAL RECORD -> GENERATE OCCURRENCES -> QA
+DISCOVER -> SNAPSHOT -> NORMALIZE -> DEDUP HINTS -> VERIFY ORIGINATOR/PRIMARY -> CLASSIFY OFFICIALITY -> ADD CANONICAL RECORD -> GENERATE OCCURRENCES -> QA
+
+AUTOMATION POLICY
+The committed discovery backlog is validated in normal CI.
+The live refresh workflow is manual/read-only and uploads a review artifact.
+Live refreshes never commit directly to main and never promote a candidate automatically.
 
 COPYRIGHT / CONTENT RULE
 Use third-party pages to identify facts and candidates. Do not copy their prose, artwork or photos into World Days unless an explicit compatible license is recorded. World Days editorial copy is original and source-backed.

@@ -1,0 +1,1078 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "rai_scuola",
+    "url": "https://www.raiscuola.rai.it/percorsi/giornate",
+    "tier": "C_DISCOVERY",
+    "kind": "editorial_calendar",
+    "crosscheckOnly": false
+  },
+  "fetchedAt": "2026-10-12T12:16:29.654113+00:00",
+  "httpStatus": 200,
+  "fetchError": null,
+  "usedFallback": false,
+  "observationCount": 106,
+  "observations": [
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1 maggio",
+      "rawTitleIt": "Festa Internazionale dei Lavoratori",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 dicembre",
+      "rawTitleIt": "Giornata Mondiale dei Diritti Umani",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 novembre",
+      "rawTitleIt": "Giornata mondiale della Scienza per la Pace e lo Sviluppo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 dicembre",
+      "rawTitleIt": "Geografia articolo Giornata Internazionale della Montagna",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 febbraio",
+      "rawTitleIt": "Giornata mondiale delle donne e delle ragazze nella scienza",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 ottobre",
+      "rawTitleIt": "Giornata Internazionale delle giovani ragazze",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 aprile",
+      "rawTitleIt": "Giornata Internazionale dei Viaggi dell'Uomo nello Spazio",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 febbraio",
+      "rawTitleIt": "Darwin Day",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 giugno",
+      "rawTitleIt": "Giornata Mondiale contro il Lavoro Minorile",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 ottobre",
+      "rawTitleIt": "Columbus Day",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 febbraio",
+      "rawTitleIt": "Giornata Mondiale della Radio",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 ottobre",
+      "rawTitleIt": "Giornata Internazionale per la Riduzione del Rischio dei Disastri Naturali",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 ottobre",
+      "rawTitleIt": "Giornata mondiale della vista",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 giugno",
+      "rawTitleIt": "Giornata mondiale del donatore di sangue",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 marzo",
+      "rawTitleIt": "dell'Arte articolo Giornata Nazionale del Paesaggio",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 aprile",
+      "rawTitleIt": "L'eccellenza italiana lancio Giornata Nazionale del Made in Italy",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 maggio",
+      "rawTitleIt": "Giornata Internazionale della Famiglia",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 marzo",
+      "rawTitleIt": "Medicina e salute laboratorio Giornata per i disturbi alimentari",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 aprile",
+      "rawTitleIt": "Musica articolo Giornata Mondiale della Voce",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 maggio",
+      "rawTitleIt": "Giornata Internazionale della Luce",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 ottobre",
+      "rawTitleIt": "e salute percorso Giornata Mondiale dell'Alimentazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 ottobre",
+      "rawTitleIt": "Giornata Mondiale dell'Alimentazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 febbraio",
+      "rawTitleIt": "Festa Nazionale del Gatto",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 giugno",
+      "rawTitleIt": "Giornata Mondiale per la Lotta alla Desertificazione e alla Siccità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 maggio",
+      "rawTitleIt": "sociali articolo Giornata Mondiale delle Telecomunicazioni e delle Società d'Informazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 ottobre",
+      "rawTitleIt": "sociali articolo Giornata internazionale per l'eliminazione della povertà",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 dicembre",
+      "rawTitleIt": "Lezione lancio Giornata Internazionale dei Migranti",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 luglio",
+      "rawTitleIt": "Nelson Mandela International Day",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 maggio",
+      "rawTitleIt": "Storia dell'Arte percorso Giornata Internazionale dei Musei",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 agosto",
+      "rawTitleIt": "dell'Arte articolo Giornata Mondiale della Fotografia",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 aprile",
+      "rawTitleIt": "Giornata Mondiale per la consapevolezza dell'Autismo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 dicembre",
+      "rawTitleIt": "Lezione lancio Giornata Internazionale per l'abolizione della schiavitù",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 febbraio",
+      "rawTitleIt": "Giornata mondiale delle zone umide",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 giugno",
+      "rawTitleIt": "Festa della Repubblica",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 giugno",
+      "rawTitleIt": "Giornata mondiale dei disturbi del comportamento alimentare",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 luglio",
+      "rawTitleIt": "Giornata Internazionale degli Scacchi",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 maggio",
+      "rawTitleIt": "Giornata Mondiale delle Api",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 marzo",
+      "rawTitleIt": "Giornata Internazionale della Felicità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 novembre",
+      "rawTitleIt": "Giornata Internazionale dei diritti dell'Infanzia e dell'adolescenza",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 aprile",
+      "rawTitleIt": "Giornata Mondiale della Creatività e dell'Innovazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 giugno",
+      "rawTitleIt": "Musica articolo Giornata Europea della Musica",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 maggio",
+      "rawTitleIt": "Giornata Internazionale del tè",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "civica percorso Giornata della memoria e dell'impegno in ricordo delle vittime innocenti delle mafie",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "Giornata Internazionale delle Foreste",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "Giornata Mondiale dei Ghiacciai",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 novembre",
+      "rawTitleIt": "sociali articolo Giornata Mondiale della Televisione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 settembre",
+      "rawTitleIt": "Giornata Mondiale dell'Alzheimer",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 aprile",
+      "rawTitleIt": "Giornata Mondiale della Terra",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 maggio",
+      "rawTitleIt": "Giornata mondiale della Biodiversità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 maggio",
+      "rawTitleIt": "Giornate lancio Giornata Nazionale dell'Associazione Dimore Storiche",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 marzo",
+      "rawTitleIt": "Giornata Mondiale dell'Acqua",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 aprile",
+      "rawTitleIt": "Giornata Mondiale del Libro e del Diritto d'Autore",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 maggio",
+      "rawTitleIt": "Giornata della Legalità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 marzo",
+      "rawTitleIt": "Giornata Mondiale della Meteorologia",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 ottobre",
+      "rawTitleIt": "Mole Day",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24-25 settembre",
+      "rawTitleIt": "dell'Arte articolo Giornate Europee del Patrimonio",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 gennaio",
+      "rawTitleIt": "Giornata Internazionale dell'Educazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 aprile",
+      "rawTitleIt": "Festa della Liberazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 gennaio",
+      "rawTitleIt": "Giornata Nazionale della prevenzione veterinaria",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 maggio",
+      "rawTitleIt": "sociali articolo Giornata dell'Africa",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 novembre",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione della violenza contro le donne",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 novembre",
+      "rawTitleIt": "sociali articolo Giornata Internazionale per l'Eliminazione della Violenza sulle Donne",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 aprile",
+      "rawTitleIt": "Giornata Internazionale in commemorazione del disastro di Chernobyl",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 novembre",
+      "rawTitleIt": "La Giornata Mondiale del Trasporto Sostenibile",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 settembre",
+      "rawTitleIt": "Letteratura italiana articolo Giornata Europea delle lingue",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 aprile",
+      "rawTitleIt": "dell'Arte articolo Giornata Mondiale del Disegno",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 dicembre",
+      "rawTitleIt": "Giornata Internazionale di Preparazione alle Epidemie",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 gennaio",
+      "rawTitleIt": "Il Giorno della Memoria",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 marzo",
+      "rawTitleIt": "Giornata Mondiale del Teatro",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 ottobre",
+      "rawTitleIt": "Cinema articolo Giornata Mondiale del Patrimonio Audiovisivo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 settembre",
+      "rawTitleIt": "Giornata Mondiale del Turismo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 aprile",
+      "rawTitleIt": "Giornata Mondiale per la salute e la sicurezza sul lavoro",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 aprile",
+      "rawTitleIt": "Giornata Mondiale della Danza",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 luglio",
+      "rawTitleIt": "Giornata Mondiale della tigre",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 dicembre",
+      "rawTitleIt": "Giornata Internazionale delle Persone con Disabilità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 giugno",
+      "rawTitleIt": "motorie articolo Giornata Mondiale della Bicicletta",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 marzo",
+      "rawTitleIt": "Giornata Mondiale della Natura Selvatica",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 ottobre",
+      "rawTitleIt": "sociali articolo Giornata nazionale in memoria delle vittime dell'immigrazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 giugno",
+      "rawTitleIt": "Giornata Internazionale degli Asteroidi",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 settembre",
+      "rawTitleIt": "Giornata mondiale della traduzione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 settembre",
+      "rawTitleIt": "Orientamento articolo Giornata Mondiale Marittima",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "31 maggio",
+      "rawTitleIt": "Giornata Mondiale senza Tabacco",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 maggio",
+      "rawTitleIt": "motorie articolo Giornata Mondiale del Calcio",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 ottobre",
+      "rawTitleIt": "event Il Giorno del Dono",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 dicembre",
+      "rawTitleIt": "Giornata Mondiale del Suolo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 febbraio",
+      "rawTitleIt": "Giornata Nazionale di prevenzione dello spreco alimentare",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 giugno",
+      "rawTitleIt": "Scienze percorso Giornata Mondiale dell'Ambiente",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 maggio",
+      "rawTitleIt": "sociali articolo Giornata Mondiale della Risata",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 novembre",
+      "rawTitleIt": "Giornata Mondiale della consapevolezza del rischio tsunami",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 ottobre",
+      "rawTitleIt": "sociali articolo Giornata Mondiale degli Insegnanti",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 maggio",
+      "rawTitleIt": "Giornata Mondiale della Lentezza",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 marzo",
+      "rawTitleIt": "La Giornata dei Giusti dell'umanità",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 aprile",
+      "rawTitleIt": "Giornata Mondiale della Salute",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 dicembre",
+      "rawTitleIt": "Giornata Internazionale dell'Aviazione Civile",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 febbraio",
+      "rawTitleIt": "civica percorso Giornata contro il bullismo e il cyberbullismo",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 giugno",
+      "rawTitleIt": "Giornata Mondiale degli Oceani",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 maggio",
+      "rawTitleIt": "Percorsi lancio Giornata Mondiale della Croce Rossa e della Mezzaluna Rossa",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 marzo",
+      "rawTitleIt": "Giornata Internazionale della Donna",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 marzo",
+      "rawTitleIt": "La Giornata Internazionale della donna",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 maggio",
+      "rawTitleIt": "Giornata dell'Europa",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Il primo lunedì di ottobre",
+      "rawTitleIt": "Giornata Mondiale dell'Habitat",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Il quarto giovedì di aprile",
+      "rawTitleIt": "Giornata Internazionale delle Ragazze nelle Tecnologie dell'Informazione e della Comunicazione",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Il secondo martedì del mese di febbraio",
+      "rawTitleIt": "Giornate lancio Safer Internet Day",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Il secondo sabato dei mesi di maggio e ottobre",
+      "rawTitleIt": "Giornata Mondiale degli Uccelli Migratori",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Il terzo giovedì del mese di novembre",
+      "rawTitleIt": "Giornata mondiale della Filosofia",
+      "extraction": "link"
+    },
+    {
+      "sourceId": "rai_scuola",
+      "sourceUrl": "https://www.raiscuola.rai.it/percorsi/giornate",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "editorial_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "seconda domenica di ottobre",
+      "rawTitleIt": "Giornata per le vittime degli incidenti sul lavoro La",
+      "extraction": "link"
+    }
+  ]
+}

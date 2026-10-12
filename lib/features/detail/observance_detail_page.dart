@@ -141,6 +141,8 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
 
   String _officialityLabel(String value, AppLocalizations l10n) {
     if (value.startsWith('OFFICIAL_')) return l10n.official;
+    if (value == 'RECOGNIZED_NGO') return l10n.recognized;
+    if (value == 'POPULAR') return l10n.popular;
     return l10n.institutional;
   }
 }

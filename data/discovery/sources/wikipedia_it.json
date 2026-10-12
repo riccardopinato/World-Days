@@ -1,0 +1,2198 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "wikipedia_it",
+    "url": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+    "tier": "C_DISCOVERY",
+    "kind": "reference_calendar",
+    "crosscheckOnly": false
+  },
+  "fetchedAt": "2026-10-12T12:16:28.463550+00:00",
+  "httpStatus": 200,
+  "fetchError": null,
+  "usedFallback": false,
+  "observationCount": 218,
+  "observations": [
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1 giugno",
+      "rawTitleIt": "Giornata mondiale della barriera corallina",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 dicembre",
+      "rawTitleIt": "Giornata mondiale dei diritti umani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 febbraio",
+      "rawTitleIt": "Giorno del ricordo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 giugno",
+      "rawTitleIt": "Giornata internazionale del dialogo tra le civiltà",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 maggio",
+      "rawTitleIt": "Giornata internazionale dell'argan",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 marzo",
+      "rawTitleIt": "Giornata internazionale delle donne in magistratura",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "10 ottobre",
+      "rawTitleIt": "Giornata mondiale contro la pena di morte [ 109 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 dicembre",
+      "rawTitleIt": "Giornata internazionale della montagna",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 febbraio",
+      "rawTitleIt": "Giornata mondiale del malato",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 giugno",
+      "rawTitleIt": "Giornata internazionale del gioco",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "11 luglio",
+      "rawTitleIt": "Giornata mondiale della popolazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 agosto",
+      "rawTitleIt": "Giornata internazionale della gioventù",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 aprile",
+      "rawTitleIt": "Giornata internazionale dei viaggi dell'uomo nello spazio",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 dicembre",
+      "rawTitleIt": "Giornata mondiale della Copertura Sanitaria Universale [ 126 ] [ 127 ] [ 128 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 febbraio",
+      "rawTitleIt": "Darwin Day",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 giugno",
+      "rawTitleIt": "Giornata mondiale contro il lavoro minorile",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 maggio",
+      "rawTitleIt": "Giornata internazionale dell'infermiere",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 agosto",
+      "rawTitleIt": "Giornata internazionale dei mancini",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 febbraio",
+      "rawTitleIt": "Giornata mondiale della radio",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 giugno",
+      "rawTitleIt": "Giornata internazionale dell'albinismo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 novembre",
+      "rawTitleIt": "Giornata mondiale della gentilezza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "13 ottobre",
+      "rawTitleIt": "Giornata internazionale per la riduzione del rischio da disastri naturali",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 aprile",
+      "rawTitleIt": "Giornata internazionale della malattia di Chagas",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 gennaio",
+      "rawTitleIt": "Giornata mondiale della logica",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 giugno",
+      "rawTitleIt": "Giornata mondiale del donatore di sangue",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 marzo",
+      "rawTitleIt": "Giornata internazionale del Pi greco",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 novembre",
+      "rawTitleIt": "Giornata mondiale del diabete",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "14 ottobre",
+      "rawTitleIt": "Giornata mondiale dell'indipendenza degli army",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 aprile",
+      "rawTitleIt": "Giornata mondiale dell'arte",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 giugno",
+      "rawTitleIt": "Giornata mondiale contro l'abuso sugli anziani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 luglio",
+      "rawTitleIt": "Giornata mondiale delle capacità dei Giovani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 maggio",
+      "rawTitleIt": "Giornata internazionale delle famiglie",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 marzo",
+      "rawTitleIt": "Giornata internazionale contro i disturbi alimentari",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "15 marzo",
+      "rawTitleIt": "Giornata internazionale per la lotta all'islamofobia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 giugno",
+      "rawTitleIt": "Giornata mondiale delle rimesse familiari",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 maggio",
+      "rawTitleIt": "Giornata Internazionale del vivere insieme in pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 novembre",
+      "rawTitleIt": "Giornata internazionale della tolleranza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 ottobre",
+      "rawTitleIt": "Giornata mondiale dell'alimentazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "16 settembre",
+      "rawTitleIt": "Giornata internazionale sulla protezione della fascia di ozono stratosferico",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 febbraio",
+      "rawTitleIt": "Giornata nazionale del gatto",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 giugno",
+      "rawTitleIt": "Giornata mondiale per la lotta alla desertificazione e alla siccità",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 maggio",
+      "rawTitleIt": "Giornata mondiale delle telecomunicazioni e delle società d'informazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 marzo",
+      "rawTitleIt": "Giornata mondiale del sonno",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 novembre",
+      "rawTitleIt": "Giornata internazionale degli studenti",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 ottobre",
+      "rawTitleIt": "Giornata mondiale del rifiuto della miseria",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 settembre",
+      "rawTitleIt": "Giornata internazionale della sicurezza del paziente",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 dicembre",
+      "rawTitleIt": "Giornata internazionale dei migranti",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 febbraio",
+      "rawTitleIt": "Giornata mondiale della sindrome di Asperger",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 giugno",
+      "rawTitleIt": "Giornata internazionale per la gastronomia sostenibile",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 luglio",
+      "rawTitleIt": "Nelson Mandela International Day",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 marzo",
+      "rawTitleIt": "Giornata nazionale in memoria di tutte le vittime dell'epidemia da coronavirus",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "18 novembre",
+      "rawTitleIt": "Giornata europea per la protezione dei minori contro lo sfruttamento e l’abuso sessuale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 agosto",
+      "rawTitleIt": "Giornata mondiale dell'aiuto umanitario",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 giugno",
+      "rawTitleIt": "Giornata internazionale contro la violenza sessuale nei conflitti armati",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 maggio",
+      "rawTitleIt": "Giornata internazionale del fair play",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 novembre",
+      "rawTitleIt": "Giornata internazionale dell'uomo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "19 settembre",
+      "rawTitleIt": "International Talk Like a Pirate Day",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º dicembre",
+      "rawTitleIt": "Giornata mondiale contro l'AIDS",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º gennaio",
+      "rawTitleIt": "Giornata mondiale della pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º maggio",
+      "rawTitleIt": "Festa dei lavoratori",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º marzo",
+      "rawTitleIt": "Giornata internazionale contro le discriminazioni",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º novembre",
+      "rawTitleIt": "Giornata mondiale del veganismo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1º ottobre",
+      "rawTitleIt": "Giornata internazionale delle persone anziane",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 aprile",
+      "rawTitleIt": "Giornata mondiale per l'autismo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 dicembre",
+      "rawTitleIt": "Giornata internazionale per l'abolizione della schiavitù",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 febbraio",
+      "rawTitleIt": "Giornata mondiale delle zone umide",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 giugno",
+      "rawTitleIt": "Giornata mondiale sui disturbi del comportamento alimentare [ 80 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2 ottobre",
+      "rawTitleIt": "Giornata internazionale della nonviolenza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 agosto",
+      "rawTitleIt": "Giornata Mondiale della Zanzara [ 94 ] [ 95 ] [ 96 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 aprile",
+      "rawTitleIt": "Giornata della lingua cinese nelle Nazioni Unite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 dicembre",
+      "rawTitleIt": "Giornata internazionale della solidarietà umana",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 febbraio",
+      "rawTitleIt": "Giornata mondiale della giustizia sociale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 giugno",
+      "rawTitleIt": "Giornata mondiale dei profughi (World Refugee Day)",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 maggio",
+      "rawTitleIt": "Giornata mondiale delle api",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 marzo",
+      "rawTitleIt": "Giornata internazionale della felicità",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 novembre",
+      "rawTitleIt": "Giornata internazionale dell'industrializzazione dell'Africa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 aprile",
+      "rawTitleIt": "Giornata mondiale della creatività e dell'innovazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 febbraio",
+      "rawTitleIt": "Giornata internazionale della lingua madre",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 giugno",
+      "rawTitleIt": "Giornata internazionale dello Yoga",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 maggio",
+      "rawTitleIt": "Giornata mondiale per la diversità culturale per il dialogo e lo sviluppo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione della discriminazione razziale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 novembre",
+      "rawTitleIt": "Giornata mondiale della televisione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 settembre",
+      "rawTitleIt": "Giornata internazionale della pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 aprile",
+      "rawTitleIt": "Giornata della Terra",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 maggio",
+      "rawTitleIt": "Giornata internazionale della biodiversità",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 marzo",
+      "rawTitleIt": "Giornata mondiale dell'acqua",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 novembre",
+      "rawTitleIt": "Giornata nazionale per la sicurezza nelle scuole",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 agosto",
+      "rawTitleIt": "Giornata internazionale per la commemorazione della tratta degli schiavi e della sua abolizione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 aprile",
+      "rawTitleIt": "Giornata della lingua inglese nelle Nazioni Unite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 giugno",
+      "rawTitleIt": "Giornata delle Nazioni Unite per il Servizio Pubblico",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 maggio",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione della fistola ostetrica",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 marzo",
+      "rawTitleIt": "Giornata mondiale della meteorologia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 aprile",
+      "rawTitleIt": "Giornata mondiale contro la meningite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 gennaio",
+      "rawTitleIt": "Giornata internazionale dell'educazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 giugno",
+      "rawTitleIt": "Giornata internazionale delle donne in diplomazia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 maggio",
+      "rawTitleIt": "Giornata europea dei parchi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 marzo",
+      "rawTitleIt": "Giornata internazionale per il diritto alla verità sulle gravi violazioni dei diritti umani e per la dignità delle vittime",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 ottobre",
+      "rawTitleIt": "Giornata delle Nazioni Unite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 aprile",
+      "rawTitleIt": "Giornata mondiale della malaria",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 giugno",
+      "rawTitleIt": "Giornata dei lavoratori marittimi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 maggio",
+      "rawTitleIt": "Giornata mondiale dell'Africa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 marzo",
+      "rawTitleIt": "Giornata internazionale di commemorazione delle vittime della schiavitù e della tratta transatlantica degli schiavi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "25 novembre",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione della violenza contro le donne",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 aprile",
+      "rawTitleIt": "Giornata mondiale della proprietà intellettuale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 gennaio",
+      "rawTitleIt": "Giornata internazionale dell'energia pulita",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 giugno",
+      "rawTitleIt": "Giornata internazionale contro l'abuso ed il traffico illecito di stupefacenti",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 settembre",
+      "rawTitleIt": "Giornata europea delle lingue",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 aprile",
+      "rawTitleIt": "Giornata mondiale del disegno",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 dicembre",
+      "rawTitleIt": "Giornata internazionale per la preparazione contro le epidemie",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 gennaio",
+      "rawTitleIt": "Giorno della Memoria",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 giugno",
+      "rawTitleIt": "Giornata delle micro, piccole e medie imprese",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 marzo",
+      "rawTitleIt": "Giornata mondiale del teatro",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 ottobre",
+      "rawTitleIt": "Giornata mondiale del patrimonio audiovisivo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 settembre",
+      "rawTitleIt": "Giornata mondiale del turismo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 aprile",
+      "rawTitleIt": "Giornata mondiale per la salute e la sicurezza sul lavoro",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 febbraio (29 negli anni bisestili)",
+      "rawTitleIt": "Giornata internazionale delle malattie rare ( Rare Disease Day )",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 gennaio",
+      "rawTitleIt": "Giornata europea della protezione dei dati personali",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 luglio",
+      "rawTitleIt": "Giornata Mondiale contro l’Epatite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 settembre",
+      "rawTitleIt": "Giornata internazionale per l'accesso universale alle informazioni",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 aprile",
+      "rawTitleIt": "Giornata internazionale della danza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 giugno",
+      "rawTitleIt": "International Day of the Tropics",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 maggio",
+      "rawTitleIt": "Giornata internazionale dei peacekeeper",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 novembre",
+      "rawTitleIt": "Giornata internazionale di solidarietà per il popolo palestinese",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 settembre",
+      "rawTitleIt": "Giornata mondiale del cuore [ 107 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 dicembre",
+      "rawTitleIt": "Giornata internazionale delle persone con disabilità",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 giugno",
+      "rawTitleIt": "Giornata mondiale della bicicletta",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 Luglio",
+      "rawTitleIt": "Giornata mondiale della canottiera",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 maggio",
+      "rawTitleIt": "Giornata mondiale della libertà di stampa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "3 marzo",
+      "rawTitleIt": "Giornata internazionale dell'udito",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 agosto",
+      "rawTitleIt": "Giornata internazionale dei desaparecidos",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 aprile",
+      "rawTitleIt": "Giornata internazionale del jazz",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 gennaio",
+      "rawTitleIt": "Giornata mondiale delle malattie tropicali neglette",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 giugno",
+      "rawTitleIt": "Giornata Internazionale degli asteroidi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 luglio",
+      "rawTitleIt": "Giornata mondiale dell'amicizia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "30 maggio",
+      "rawTitleIt": "Giornata internazionale della patata",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "31 agosto",
+      "rawTitleIt": "Giornata internazionale per le persone di discendenza africana",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "31 maggio",
+      "rawTitleIt": "Giornata mondiale senza tabacco",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 aprile",
+      "rawTitleIt": "Giornata internazionale per la sensibilizzazione sulle mine e l’azione contro le mine",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 febbraio",
+      "rawTitleIt": "Giornata Internazionale della Fratellanza Umana",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 gennaio",
+      "rawTitleIt": "Giornata mondiale del Braille",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 giugno",
+      "rawTitleIt": "Giornata internazionale dei bambini innocenti vittime di aggressioni",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 marzo",
+      "rawTitleIt": "Giornata mondiale dell'ingegneria per lo sviluppo sostenibile",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 settembre",
+      "rawTitleIt": "Giornata mondiale del benessere sessuale [ 100 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 aprile",
+      "rawTitleIt": "Giornata internazionale della coscienza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 dicembre",
+      "rawTitleIt": "Giornata internazionale del volontariato per lo sviluppo economico e sociale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 giugno",
+      "rawTitleIt": "Giornata mondiale dell'ambiente",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 luglio",
+      "rawTitleIt": "Giornata di azione europea raccolta coperchi di plastica",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 maggio",
+      "rawTitleIt": "Giornata internazionale delle ostetriche",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 marzo",
+      "rawTitleIt": "Giornata internazionale di sensibilizzazione al disarmo e alla non proliferazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 ottobre",
+      "rawTitleIt": "Giornata mondiale degli insegnanti",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 aprile",
+      "rawTitleIt": "Giornata internazionale dello sport per lo sviluppo e la pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 febbraio",
+      "rawTitleIt": "Giornata internazionale contro le mutilazioni genitali femminili",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 giugno",
+      "rawTitleIt": "Giornata della lingua russa nelle Nazioni Unite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 luglio",
+      "rawTitleIt": "Giornata internazionale del bacio",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "6 novembre",
+      "rawTitleIt": "Giornata internazionale per la prevenzione dello sfruttamento dell'ambiente nella guerra e nei conflitti armati",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 aprile",
+      "rawTitleIt": "Giornata internazionale della salute",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 dicembre",
+      "rawTitleIt": "Giornata internazionale dell'aviazione civile",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 febbraio",
+      "rawTitleIt": "Giornata nazionale contro il bullismo e il cyberbullismo a scuola",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 giugno",
+      "rawTitleIt": "Giornata mondiale della sicurezza alimentare",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 settembre",
+      "rawTitleIt": "Giornata internazionale dell'aria pulita per i cieli blu [ 101 ] [ 102 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 agosto",
+      "rawTitleIt": "Giornata internazionale del gatto",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 giugno",
+      "rawTitleIt": "Giornata mondiale degli oceani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 maggio",
+      "rawTitleIt": "Giornata mondiale della Croce Rossa e Mezzaluna Rossa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 marzo",
+      "rawTitleIt": "Giornata internazionale della donna",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 ottobre",
+      "rawTitleIt": "Giornata internazionale degli zombie",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 settembre",
+      "rawTitleIt": "Giornata internazionale dell'alfabetizzazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 agosto",
+      "rawTitleIt": "Giornata internazionale dei popoli indigeni",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 dicembre",
+      "rawTitleIt": "Giornata internazionale contro la corruzione [ 122 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 luglio",
+      "rawTitleIt": "Giornata mondiale della massellanza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 maggio",
+      "rawTitleIt": "Giornata mondiale della lentezza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "9 ottobre",
+      "rawTitleIt": "Giornata mondiale della posta",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "(A/RES/52/149)",
+      "rawTitleIt": "Giornata internazionale per le vittime di tortura",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "(A/RES/65/189)",
+      "rawTitleIt": "Giornata Internazionale delle vedove",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "(A/RES/72/278)",
+      "rawTitleIt": "Giornata Internazionale del Parlamentarismo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "(A/RES/73/300)",
+      "rawTitleIt": "Giornata internazionale della celebrazione del solstizio d'estate",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "(A/RES/79/294)",
+      "rawTitleIt": "Giornata internazionale della sordocecità",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "OMS [ 33 ]",
+      "rawTitleIt": "Giornata mondiale per la lotta alla tubercolosi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "OMS [ 56 ]",
+      "rawTitleIt": "Giornata mondiale dell'igiene delle mani",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU [ 2 ] - Risoluzione (A/RES/70/474/Add.2)",
+      "rawTitleIt": "Giornata internazionale delle donne e delle ragazze nella scienza",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU [ 2 ] - Risoluzione (A/RES/73/251)",
+      "rawTitleIt": "Giornata mondiale dei legumi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU [ 2 ] - Risoluzione (A/RES/77/295)",
+      "rawTitleIt": "Giornata internazionale del leopardo arabo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (28 C/Resolution 3.18) [ 47 ]",
+      "rawTitleIt": "Giornata mondiale del libro e del diritto d'autore",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (30 C/Resolution 29) [ 28 ]",
+      "rawTitleIt": "Giornata mondiale della poesia",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU [ 49 ]",
+      "rawTitleIt": "Giornata internazionale delle ragazze nelle tecnologie dell'informazione e della comunicazione",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/49/59) [ 35 ] [ 36 ]",
+      "rawTitleIt": "Giornata internazionale della solidarietà per i membri del personale ONU arrestati o scomparsi",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/54/115) [ 64 ]",
+      "rawTitleIt": "Giornata internazionale del Vesak",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/58/234) [ 40 ]",
+      "rawTitleIt": "Giornata della memoria del genocidio del 1994 contro i Tutsi in Ruanda",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/64/253) [ 29 ]",
+      "rawTitleIt": "Giornata internazionale del Nowruz",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/66/149) [ 30 ]",
+      "rawTitleIt": "Giornata mondiale per la sindrome di Down",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/67/200) [ 27 ]",
+      "rawTitleIt": "Giornata internazionale delle foreste",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/68/205) [ 18 ]",
+      "rawTitleIt": "Giornata mondiale della natura ( World Wildlife Day )",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "( ONU ) (A/RES/68/32) [ 105 ]",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione totale delle armi nucleari",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/71/124) [ 55 ]",
+      "rawTitleIt": "Giornata mondiale del tonno",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/71/125) [ 52 ]",
+      "rawTitleIt": "Giornata Internazionale della Memoria del Disastro di Černobyl'",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/72/72) [ 84 ]",
+      "rawTitleIt": "Giornata internazionale contro la pesca illegale, non dichiarata e non regolamentata",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/73/127) [ 48 ]",
+      "rawTitleIt": "Giornata internazionale del multilateralismo e della diplomazia per la pace",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/74/241) [ 72 ]",
+      "rawTitleIt": "Giornata internazionale del tè",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/76/256) [ 63 ]",
+      "rawTitleIt": "Giornata mondiale della salute delle piante",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/76/265) [ 16 ]",
+      "rawTitleIt": "Giornata mondiale delle fanerogame marine",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/78/278) [ 75 ]",
+      "rawTitleIt": "Giornata Internazionale del Markhor",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ONU (A/RES/78/281) [ 76 ]",
+      "rawTitleIt": "Giornata mondiale del calcio",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Prima domenica di maggio",
+      "rawTitleIt": "Giornata mondiale della risata",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Primo lunedì di ottobre",
+      "rawTitleIt": "Giornata mondiale dell'habitat",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Primo sabato di luglio",
+      "rawTitleIt": "Giornata internazionale delle cooperative",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Primo venerdì di febbraio",
+      "rawTitleIt": "Giornata nazionale dei calzini spaiati (Italia)",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Secondo giovedì di ottobre",
+      "rawTitleIt": "Giornata mondiale della vista [ 108 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Secondo martedì di febbraio",
+      "rawTitleIt": "Giornata mondiale per la sicurezza in rete",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Terza domenica di febbraio",
+      "rawTitleIt": "Giornata mondiale delle balene ( World Whale Day ) [ 9 ]",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Terzo martedì di marzo",
+      "rawTitleIt": "Giornata mondiale del servizio sociale",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UE [ 60 ]",
+      "rawTitleIt": "Giornata dell'Europa",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ultima domenica di gennaio",
+      "rawTitleIt": "Giornata mondiale per i malati di lebbra",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "ultima domenica di settembre",
+      "rawTitleIt": "Giornata mondiale del sordo",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UNEP [ 62 ]",
+      "rawTitleIt": "Giornata mondiale degli uccelli migratori",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UNESCO [ 4 ]",
+      "rawTitleIt": "Giornata mondiale della cultura africana e afro-discendente",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UNESCO [ 57 ]",
+      "rawTitleIt": "Giornata della lingua portoghese nelle Nazioni Unite",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UNESCO [ 58 ]",
+      "rawTitleIt": "Giornata del patrimonio mondiale africano",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "UNESCO [ 67 ]",
+      "rawTitleIt": "Giornata internazionale della luce",
+      "extraction": "table"
+    },
+    {
+      "sourceId": "wikipedia_it",
+      "sourceUrl": "https://it.wikipedia.org/wiki/Giornate,_anni_e_decenni_internazionali",
+      "sourceTier": "C_DISCOVERY",
+      "sourceKind": "reference_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "Unione europea [ 13 ]",
+      "rawTitleIt": "Giornata europea del Numero di emergenza unico europeo ( 112 Day )",
+      "extraction": "table"
+    }
+  ]
+}

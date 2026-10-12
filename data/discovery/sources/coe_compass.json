@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "coe_compass",
+    "url": "https://www.coe.int/it/web/compass/human-rights-calendar",
+    "tier": "B_INSTITUTIONAL",
+    "kind": "mixed_human_rights_calendar",
+    "crosscheckOnly": false
+  },
+  "fetchedAt": "2026-10-12T12:16:34.015342+00:00",
+  "httpStatus": 403,
+  "fetchError": "HTTPError: 403 Client Error: Forbidden for url: https://www.coe.int/it/web/compass/human-rights-calendar",
+  "usedFallback": true,
+  "observationCount": 26,
+  "observations": [
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "1° sabato di luglio",
+      "rawTitleIt": "Giornata internazionale delle cooperative",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 febbraio",
+      "rawTitleIt": "La giornata con le mani nel sacco",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 giugno",
+      "rawTitleIt": "Giornata mondiale contro il lavoro infantile",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "12 marzo",
+      "rawTitleIt": "Giornata mondiale contro la censura virtuale",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "17 giugno",
+      "rawTitleIt": "Giornata mondiale contro la desertificazione e la siccità",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "2° martedi di aprile",
+      "rawTitleIt": "Giornata Europea dell'uguaglianza dei salari",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "20 giugno",
+      "rawTitleIt": "Giornata mondiale dei rifugiati",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 febbraio",
+      "rawTitleIt": "Giornata internazionale della lingua madre",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "Giornata internazionale per l'eliminazione della discriminazione razziale",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "21 marzo",
+      "rawTitleIt": "Giornata mondiale della poesia",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "22 marzo",
+      "rawTitleIt": "Giornata mondiale dell'acqua",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 giugno",
+      "rawTitleIt": "Giornata delle Nazioni Unite per il servizio pubblico",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "23 marzo",
+      "rawTitleIt": "Giornata mondiale della meteorologia",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "24 marzo",
+      "rawTitleIt": "Giornata mondiale della tubercolosi",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 giugno",
+      "rawTitleIt": "Giornata internazionale contro l'abuso di droga e il traffico illecito",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "26 giugno",
+      "rawTitleIt": "Giornata internazionale delle Nazioni Unite a sostegno delle vittime di tortura",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "27 gennaio",
+      "rawTitleIt": "Giorno della memoria dell'olocausto",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "28 maggio",
+      "rawTitleIt": "Giornata europea del vicinato",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "29 maggio",
+      "rawTitleIt": "Giornata internazionale dei corpi di pace delle Nazioni Unite",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "31 maggio",
+      "rawTitleIt": "Giornata mondiale contro il tabacco",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "4 giugno",
+      "rawTitleIt": "Giornata internazionale dei bambini vittime innocenti di aggressione",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "5 giugno",
+      "rawTitleIt": "Giornata mondiale dell'ambiente",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 aprile",
+      "rawTitleIt": "Giornata Mondiale della Memoria in onore delle vittime del genocidio in Ruanda del 1994",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "7 aprile",
+      "rawTitleIt": "Giornata mondiale della salute",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 febbraio",
+      "rawTitleIt": "La giornata per internet sicuro",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "coe_compass",
+      "sourceUrl": "https://www.coe.int/it/web/compass/human-rights-calendar",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "mixed_human_rights_calendar",
+      "crosscheckOnly": false,
+      "rawDateLabel": "8 marzo",
+      "rawTitleIt": "Giornata internazionale della donna",
+      "extraction": "fallback_web_verified_2026-10-12"
+    }
+  ]
+}
