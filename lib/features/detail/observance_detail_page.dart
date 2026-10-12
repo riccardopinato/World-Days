@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/market_options.dart';
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
 
@@ -150,7 +151,14 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           _InfoRow(label: l10n.authority, value: record.authority.name),
           if (record.authority.resolution case final resolution?)
             _InfoRow(label: l10n.resolution, value: resolution),
-          _InfoRow(label: l10n.global, value: record.scope),
+          _InfoRow(
+            label: l10n.market,
+            value: record.scope == 'GLOBAL'
+                ? l10n.globalMarket
+                : record.countries
+                    .map((code) => marketLabel(l10n, code))
+                    .join(', '),
+          ),
           const SizedBox(height: 20),
           Text(
             l10n.sources,
