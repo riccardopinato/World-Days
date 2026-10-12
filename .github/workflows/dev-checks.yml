@@ -26,6 +26,7 @@ jobs:
         run: |
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
+          python3 tool/validate_localizations.py
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0

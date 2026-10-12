@@ -24,27 +24,48 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(l10n.settings)),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 0, 16, 28),
+        padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
         children: [
           _SectionTitle(l10n.theme),
           SegmentedButton<ThemeMode>(
             segments: [
-              ButtonSegment(value: ThemeMode.system, label: Text(l10n.system), icon: const Icon(Icons.phone_android)),
-              ButtonSegment(value: ThemeMode.light, label: Text(l10n.light), icon: const Icon(Icons.light_mode)),
-              ButtonSegment(value: ThemeMode.dark, label: Text(l10n.dark), icon: const Icon(Icons.dark_mode)),
+              ButtonSegment(
+                value: ThemeMode.system,
+                label: Text(l10n.system),
+                icon: const Icon(Icons.phone_android_rounded),
+              ),
+              ButtonSegment(
+                value: ThemeMode.light,
+                label: Text(l10n.light),
+                icon: const Icon(Icons.light_mode_rounded),
+              ),
+              ButtonSegment(
+                value: ThemeMode.dark,
+                label: Text(l10n.dark),
+                icon: const Icon(Icons.dark_mode_rounded),
+              ),
             ],
             selected: {controller.preferences.themeMode},
-            onSelectionChanged: (values) => controller.setThemeMode(values.single),
+            onSelectionChanged: (values) =>
+                controller.setThemeMode(values.single),
           ),
           const SizedBox(height: 28),
           _SectionTitle(l10n.language),
           DropdownButtonFormField<String?>(
             initialValue: controller.preferences.localeCode,
-            decoration: const InputDecoration(prefixIcon: Icon(Icons.language)),
+            decoration: const InputDecoration(
+              prefixIcon: Icon(Icons.language_rounded),
+            ),
             items: [
-              DropdownMenuItem<String?>(value: null, child: Text(l10n.deviceLanguage)),
+              DropdownMenuItem<String?>(
+                value: null,
+                child: Text(l10n.deviceLanguage),
+              ),
               for (final entry in localeOptions.entries)
-                DropdownMenuItem<String?>(value: entry.key, child: Text(entry.value)),
+                DropdownMenuItem<String?>(
+                  value: entry.key,
+                  child: Text(entry.value),
+                ),
             ],
             onChanged: controller.setLocale,
           ),
@@ -54,15 +75,17 @@ class SettingsPage extends StatelessWidget {
             child: ListTile(
               leading: const Icon(Icons.dataset_outlined),
               title: Text(l10n.dataset),
-              subtitle: Text('$recordCount ${l10n.observances} · bundled offline-first'),
+              subtitle: Text(
+                '$recordCount ${l10n.observances} · ${l10n.offlineFirst}',
+              ),
             ),
           ),
           const SizedBox(height: 10),
-          const Card(
+          Card(
             child: ListTile(
-              leading: Icon(Icons.verified_outlined),
-              title: Text('Data policy'),
-              subtitle: Text('Official badges require primary/originator evidence. Discovery candidates remain separate until verified.'),
+              leading: const Icon(Icons.verified_outlined),
+              title: Text(l10n.dataPolicy),
+              subtitle: Text(l10n.dataPolicyDescription),
             ),
           ),
         ],
@@ -78,6 +101,11 @@ class _SectionTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.only(bottom: 12),
-        child: Text(text, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
+        child: Text(
+          text,
+          style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                fontWeight: FontWeight.w800,
+              ),
+        ),
       );
 }

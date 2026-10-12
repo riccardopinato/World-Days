@@ -36,23 +36,30 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
       appBar: AppBar(
         actions: [
           IconButton(
-            tooltip: favorite ? 'Remove favorite' : 'Add favorite',
+            tooltip: favorite ? l10n.removeFavorite : l10n.addFavorite,
             onPressed: () async {
               await widget.controller.toggleFavorite(record.id);
               if (mounted) setState(() {});
             },
-            icon: Icon(favorite ? Icons.favorite : Icons.favorite_border),
+            icon: Icon(
+              favorite
+                  ? Icons.favorite_rounded
+                  : Icons.favorite_border_rounded,
+            ),
           ),
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+        padding: const EdgeInsets.fromLTRB(20, 8, 20, 36),
         children: [
           Container(
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [colors.primaryContainer, colors.tertiaryContainer],
+                colors: [
+                  colors.primaryContainer,
+                  colors.tertiaryContainer,
+                ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
@@ -61,12 +68,17 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                _Badge(text: _officialityLabel(record.authority.officiality, l10n)),
+                _Badge(
+                  text: _officialityLabel(
+                    record.authority.officiality,
+                    l10n,
+                  ),
+                ),
                 const SizedBox(height: 18),
                 Text(
                   record.title,
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                        fontWeight: FontWeight.w800,
+                        fontWeight: FontWeight.w900,
                         height: 1.05,
                       ),
                 ),
@@ -84,30 +96,42 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             _InfoRow(label: l10n.resolution, value: resolution),
           _InfoRow(label: l10n.global, value: record.scope),
           const SizedBox(height: 20),
-          Text(l10n.sources, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700)),
+          Text(
+            l10n.sources,
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                ),
+          ),
           const SizedBox(height: 12),
-          for (final source in record.sources)
+          for (final source in record.sources) ...[
             Card(
               child: Padding(
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(source.tier, style: Theme.of(context).textTheme.labelMedium),
+                    Text(
+                      source.tier,
+                      style: Theme.of(context).textTheme.labelMedium,
+                    ),
                     const SizedBox(height: 6),
                     SelectableText(source.url),
                   ],
                 ),
               ),
             ),
-          const SizedBox(height: 24),
+            const SizedBox(height: 10),
+          ],
+          const SizedBox(height: 18),
           Text(
-            'Editorial article coming next',
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+            l10n.editorialComingNext,
+            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w800,
+                ),
           ),
           const SizedBox(height: 8),
           Text(
-            'The first repository pass keeps factual identity and provenance separate from future original editorial copy.',
+            l10n.editorialPlaceholder,
             style: Theme.of(context).textTheme.bodyLarge,
           ),
         ],
@@ -132,7 +156,12 @@ class _Badge extends StatelessWidget {
           color: Theme.of(context).colorScheme.surface.withValues(alpha: 0.72),
           borderRadius: BorderRadius.circular(999),
         ),
-        child: Text(text, style: Theme.of(context).textTheme.labelLarge),
+        child: Text(
+          text,
+          style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                fontWeight: FontWeight.w700,
+              ),
+        ),
       );
 }
 
@@ -149,7 +178,10 @@ class _InfoRow extends StatelessWidget {
           children: [
             SizedBox(
               width: 110,
-              child: Text(label, style: Theme.of(context).textTheme.labelLarge),
+              child: Text(
+                label,
+                style: Theme.of(context).textTheme.labelLarge,
+              ),
             ),
             Expanded(child: Text(value)),
           ],

@@ -31,76 +31,131 @@ class _DiscoverPageState extends State<DiscoverPage> {
     final l10n = AppLocalizations.of(context);
     var records = widget.controller.search(_search.text);
     if (officiality != null) {
-      records = records.where((item) => item.authority.officiality == officiality).toList(growable: false);
+      records = records
+          .where((item) => item.authority.officiality == officiality)
+          .toList(growable: false);
     }
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.discover)),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 0, 16, 28),
-        children: [
-          TextField(
-            controller: _search,
-            onChanged: (_) => setState(() {}),
-            decoration: InputDecoration(
-              hintText: l10n.searchHint,
-              prefixIcon: const Icon(Icons.search),
-              suffixIcon: _search.text.isEmpty
-                  ? null
-                  : IconButton(
-                      onPressed: () {
-                        _search.clear();
-                        setState(() {});
-                      },
-                      icon: const Icon(Icons.close),
+      body: CustomScrollView(
+        slivers: [
+          SliverPadding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 18),
+            sliver: SliverToBoxAdapter(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  TextField(
+                    controller: _search,
+                    onChanged: (_) => setState(() {}),
+                    textInputAction: TextInputAction.search,
+                    decoration: InputDecoration(
+                      hintText: l10n.searchHint,
+                      prefixIcon: const Icon(Icons.search_rounded),
+                      suffixIcon: _search.text.isEmpty
+                          ? null
+                          : IconButton(
+                              tooltip: l10n.clearSearch,
+                              onPressed: () {
+                                _search.clear();
+                                setState(() {});
+                              },
+                              icon: const Icon(Icons.close_rounded),
+                            ),
                     ),
+                  ),
+                  const SizedBox(height: 14),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      FilterChip(
+                        label: Text(l10n.all),
+                        selected: officiality == null,
+                        onSelected: (_) => setState(() => officiality = null),
+                      ),
+                      FilterChip(
+                        label: const Text('UN'),
+                        selected: officiality == 'OFFICIAL_UN',
+                        onSelected: (_) =>
+                            setState(() => officiality = 'OFFICIAL_UN'),
+                      ),
+                      FilterChip(
+                        label: const Text('UNESCO'),
+                        selected: officiality == 'OFFICIAL_UNESCO',
+                        onSelected: (_) =>
+                            setState(() => officiality = 'OFFICIAL_UNESCO'),
+                      ),
+                      FilterChip(
+                        label: const Text('WHO'),
+                        selected: officiality == 'OFFICIAL_WHO',
+                        onSelected: (_) =>
+                            setState(() => officiality = 'OFFICIAL_WHO'),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 18),
+                  FilledButton.icon(
+                    onPressed: records.isEmpty
+                        ? null
+                        : () => _open(
+                              records[Random().nextInt(records.length)],
+                            ),
+                    icon: const Icon(Icons.casino_rounded),
+                    label: Text(l10n.surpriseMe),
+                  ),
+                  const SizedBox(height: 22),
+                  Text(
+                    '${records.length} ${l10n.observances}',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                ],
+              ),
             ),
           ),
-          const SizedBox(height: 14),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              FilterChip(
-                label: Text(l10n.all),
-                selected: officiality == null,
-                onSelected: (_) => setState(() => officiality = null),
+          if (records.isEmpty)
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
+              sliver: SliverToBoxAdapter(
+                child: Card(
+                  child: Padding(
+                    padding: const EdgeInsets.all(24),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.search_off_rounded),
+                        const SizedBox(width: 12),
+                        Expanded(child: Text(l10n.noSearchResults)),
+                      ],
+                    ),
+                  ),
+                ),
               ),
-              FilterChip(
-                label: const Text('UN'),
-                selected: officiality == 'OFFICIAL_UN',
-                onSelected: (_) => setState(() => officiality = 'OFFICIAL_UN'),
+            )
+          else
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
+              sliver: SliverList(
+                delegate: SliverChildBuilderDelegate(
+                  (context, index) {
+                    final record = records[index];
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 10),
+                      child: ObservanceCard(
+                        observance: record,
+                        favorite: widget.controller.isFavorite(record.id),
+                        onFavorite: () =>
+                            widget.controller.toggleFavorite(record.id),
+                        onTap: () => _open(record),
+                      ),
+                    );
+                  },
+                  childCount: records.length,
+                ),
               ),
-              FilterChip(
-                label: const Text('UNESCO'),
-                selected: officiality == 'OFFICIAL_UNESCO',
-                onSelected: (_) => setState(() => officiality = 'OFFICIAL_UNESCO'),
-              ),
-              FilterChip(
-                label: const Text('WHO'),
-                selected: officiality == 'OFFICIAL_WHO',
-                onSelected: (_) => setState(() => officiality = 'OFFICIAL_WHO'),
-              ),
-            ],
-          ),
-          const SizedBox(height: 18),
-          FilledButton.icon(
-            onPressed: records.isEmpty ? null : () => _open(records[Random().nextInt(records.length)]),
-            icon: const Icon(Icons.casino_rounded),
-            label: Text(l10n.surpriseMe),
-          ),
-          const SizedBox(height: 22),
-          Text('${records.length} ${l10n.observances}', style: Theme.of(context).textTheme.titleMedium),
-          const SizedBox(height: 12),
-          for (final record in records.take(100)) ...[
-            ObservanceCard(
-              observance: record,
-              favorite: widget.controller.isFavorite(record.id),
-              onFavorite: () => widget.controller.toggleFavorite(record.id),
-              onTap: () => _open(record),
             ),
-            const SizedBox(height: 10),
-          ],
         ],
       ),
     );
@@ -109,7 +164,10 @@ class _DiscoverPageState extends State<DiscoverPage> {
   void _open(Observance record) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => ObservanceDetailPage(observance: record, controller: widget.controller),
+        builder: (_) => ObservanceDetailPage(
+          observance: record,
+          controller: widget.controller,
+        ),
       ),
     );
   }

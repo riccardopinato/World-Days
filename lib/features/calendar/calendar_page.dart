@@ -46,13 +46,15 @@ class _CalendarPageState extends State<CalendarPage> {
                   month = DateTime(month.year, month.month - 1);
                   selected = DateTime(month.year, month.month, 1);
                 }),
-                icon: const Icon(Icons.chevron_left),
+                icon: const Icon(Icons.chevron_left_rounded),
               ),
               Expanded(
                 child: Text(
                   DateFormat.yMMMM(locale).format(month),
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.w900,
+                      ),
                 ),
               ),
               IconButton(
@@ -61,7 +63,7 @@ class _CalendarPageState extends State<CalendarPage> {
                   month = DateTime(month.year, month.month + 1);
                   selected = DateTime(month.year, month.month, 1);
                 }),
-                icon: const Icon(Icons.chevron_right),
+                icon: const Icon(Icons.chevron_right_rounded),
               ),
             ],
           ),
@@ -70,12 +72,16 @@ class _CalendarPageState extends State<CalendarPage> {
             month: month,
             selected: selected,
             controller: widget.controller,
+            locale: locale,
+            observancesLabel: l10n.observances,
             onSelected: (date) => setState(() => selected = date),
           ),
           const SizedBox(height: 22),
           Text(
             DateFormat.yMMMMd(locale).format(selected),
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w900,
+                ),
           ),
           const SizedBox(height: 12),
           if (records.isEmpty)
@@ -85,7 +91,13 @@ class _CalendarPageState extends State<CalendarPage> {
             )
           else
             for (final record in records) ...[
-              ObservanceCard(observance: record, onTap: () => _open(record)),
+              ObservanceCard(
+                observance: record,
+                favorite: widget.controller.isFavorite(record.id),
+                onFavorite: () =>
+                    widget.controller.toggleFavorite(record.id),
+                onTap: () => _open(record),
+              ),
               const SizedBox(height: 10),
             ],
         ],
@@ -96,7 +108,10 @@ class _CalendarPageState extends State<CalendarPage> {
   void _open(Observance record) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => ObservanceDetailPage(observance: record, controller: widget.controller),
+        builder: (_) => ObservanceDetailPage(
+          observance: record,
+          controller: widget.controller,
+        ),
       ),
     );
   }
@@ -107,12 +122,16 @@ class _MonthGrid extends StatelessWidget {
     required this.month,
     required this.selected,
     required this.controller,
+    required this.locale,
+    required this.observancesLabel,
     required this.onSelected,
   });
 
   final DateTime month;
   final DateTime selected;
   final AppController controller;
+  final String locale;
+  final String observancesLabel;
   final ValueChanged<DateTime> onSelected;
 
   @override
@@ -127,8 +146,9 @@ class _MonthGrid extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 7,
-        mainAxisSpacing: 6,
-        crossAxisSpacing: 6,
+        mainAxisSpacing: 4,
+        crossAxisSpacing: 4,
+        mainAxisExtent: 48,
       ),
       itemCount: itemCount,
       itemBuilder: (context, index) {
@@ -137,29 +157,52 @@ class _MonthGrid extends StatelessWidget {
         final date = DateTime(month.year, month.month, day);
         final count = controller.observancesForDate(date).length;
         final active = _sameDate(date, selected);
-        return InkWell(
-          borderRadius: BorderRadius.circular(14),
-          onTap: () => onSelected(date),
-          child: DecoratedBox(
-            decoration: BoxDecoration(
-              color: active ? Theme.of(context).colorScheme.primaryContainer : null,
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text('$day', style: const TextStyle(fontWeight: FontWeight.w700)),
-                const SizedBox(height: 3),
-                if (count > 0)
-                  Container(
-                    width: 6,
-                    height: 6,
-                    decoration: BoxDecoration(
-                      color: Theme.of(context).colorScheme.primary,
-                      shape: BoxShape.circle,
+        final dateLabel = DateFormat.yMMMMd(locale).format(date);
+        final semanticLabel = count == 0
+            ? dateLabel
+            : '$dateLabel, $count $observancesLabel';
+
+        return Semantics(
+          button: true,
+          selected: active,
+          label: semanticLabel,
+          child: InkWell(
+            borderRadius: BorderRadius.circular(14),
+            onTap: () => onSelected(date),
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                color: active
+                    ? Theme.of(context).colorScheme.primaryContainer
+                    : null,
+                borderRadius: BorderRadius.circular(14),
+                border: active
+                    ? Border.all(
+                        color: Theme.of(context).colorScheme.primary,
+                        width: 1.5,
+                      )
+                    : null,
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    '$day',
+                    style: TextStyle(
+                      fontWeight: active ? FontWeight.w900 : FontWeight.w700,
                     ),
                   ),
-              ],
+                  const SizedBox(height: 3),
+                  if (count > 0)
+                    Container(
+                      width: 6,
+                      height: 6,
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary,
+                        shape: BoxShape.circle,
+                      ),
+                    ),
+                ],
+              ),
             ),
           ),
         );
@@ -167,5 +210,6 @@ class _MonthGrid extends StatelessWidget {
     );
   }
 
-  bool _sameDate(DateTime a, DateTime b) => a.year == b.year && a.month == b.month && a.day == b.day;
+  bool _sameDate(DateTime a, DateTime b) =>
+      a.year == b.year && a.month == b.month && a.day == b.day;
 }

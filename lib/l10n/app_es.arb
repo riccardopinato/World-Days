@@ -35,5 +35,15 @@
   "global": "Global",
   "month": "Mes",
   "previousMonth": "Mes anterior",
-  "nextMonth": "Mes siguiente"
+  "nextMonth": "Mes siguiente",
+  "catalogLoadFailed": "World Days no pudo cargar el catálogo sin conexión.",
+  "addFavorite": "Añadir a favoritos",
+  "removeFavorite": "Quitar de favoritos",
+  "offlineFirst": "Disponible sin conexión",
+  "dataPolicy": "Política de datos",
+  "dataPolicyDescription": "Las etiquetas oficiales requieren una fuente primaria o del organizador. Los candidatos de descubrimiento permanecen separados hasta ser verificados.",
+  "editorialComingNext": "Contenido editorial próximamente",
+  "editorialPlaceholder": "Esta primera versión mantiene la identidad verificada y la procedencia separadas del futuro contenido editorial original.",
+  "noSearchResults": "Ninguna conmemoración coincide con estos filtros.",
+  "clearSearch": "Borrar búsqueda"
 }
