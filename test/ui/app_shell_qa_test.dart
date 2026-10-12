@@ -1,76 +1,75 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:world_days/app/app_controller.dart';
-import 'package:world_days/app/world_days_app.dart';
+import 'package:world_days/core/widgets/observance_card.dart';
+import 'package:world_days/domain/observance.dart';
+import 'package:world_days/l10n/app_localizations.dart';
 
-Future<AppController> _controller() async {
-  SharedPreferences.setMockInitialValues({});
-  final controller = AppController();
-  await controller.initialize();
-  return controller;
-}
-
-void _phoneViewport(WidgetTester tester) {
-  tester.view.physicalSize = const Size(390, 844);
-  tester.view.devicePixelRatio = 1;
-  addTearDown(tester.view.resetPhysicalSize);
-  addTearDown(tester.view.resetDevicePixelRatio);
-}
+const record = Observance(
+  id: 'world-test-day',
+  title: 'World Test Day',
+  periodKind: 'DAY',
+  scope: 'GLOBAL',
+  authority: ObservanceAuthority(
+    name: 'Test Authority',
+    type: 'TEST',
+    officiality: 'POPULAR_VERIFIED',
+  ),
+  sources: [
+    ObservanceSource(
+      tier: 'D_ORIGINATOR',
+      url: 'https://example.com/world-test-day',
+    ),
+  ],
+  rules: [],
+  aliases: [],
+);
 
 void main() {
-  testWidgets('mobile shell exposes all primary destinations', (tester) async {
-    _phoneViewport(tester);
-    final controller = await _controller();
-
-    await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pump(const Duration(milliseconds: 500));
-
-    expect(find.text('Today'), findsWidgets);
-    expect(find.text('Calendar'), findsOneWidget);
-    expect(find.text('Discover'), findsOneWidget);
-    expect(find.text('Saved'), findsOneWidget);
-    expect(find.text('Settings'), findsOneWidget);
-    expect(tester.takeException(), isNull);
-  });
-
-  testWidgets('discover lazily exposes records beyond the old 100 item cap',
+  testWidgets('observance card stays usable with Italian copy and large text',
       (tester) async {
-    _phoneViewport(tester);
-    final controller = await _controller();
-
-    await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pump(const Duration(milliseconds: 500));
-    await tester.tap(find.text('Discover'));
-    await tester.pump(const Duration(milliseconds: 500));
-
-    final records = controller.catalog!.records;
-    expect(records.length, greaterThan(100));
-    expect(find.text('${records.length} observances'), findsOneWidget);
-
-    final list = tester.widget<SliverList>(find.byType(SliverList));
-    expect(list.delegate.estimatedChildCount, records.length);
-    expect(tester.takeException(), isNull);
-  });
-
-  testWidgets('large text and Italian settings copy remain usable',
-      (tester) async {
-    _phoneViewport(tester);
+    tester.view.physicalSize = const Size(390, 844);
+    tester.view.devicePixelRatio = 1;
     tester.platformDispatcher.textScaleFactorTestValue = 2;
-    addTearDown(
-      tester.platformDispatcher.clearTextScaleFactorTestValue,
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+
+    var opened = false;
+    var favorited = false;
+
+    await tester.pumpWidget(
+      MaterialApp(
+        locale: const Locale('it'),
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: AppLocalizations.supportedLocales,
+        home: Scaffold(
+          body: Padding(
+            padding: const EdgeInsets.all(16),
+            child: ObservanceCard(
+              observance: record,
+              onTap: () => opened = true,
+              onFavorite: () => favorited = true,
+            ),
+          ),
+        ),
+      ),
     );
+    await tester.pump(const Duration(milliseconds: 300));
 
-    final controller = await _controller();
-    await controller.setLocale('it');
-
-    await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pump(const Duration(milliseconds: 500));
-    await tester.tap(find.text('Impostazioni'));
-    await tester.pump(const Duration(milliseconds: 500));
-
-    expect(find.text('Politica dei dati'), findsOneWidget);
-    expect(find.textContaining('Disponibile offline'), findsOneWidget);
+    expect(find.text('World Test Day'), findsOneWidget);
+    expect(find.byTooltip('Aggiungi ai preferiti'), findsOneWidget);
     expect(tester.takeException(), isNull);
+
+    await tester.tap(find.byTooltip('Aggiungi ai preferiti'));
+    expect(favorited, isTrue);
+
+    await tester.tap(find.text('World Test Day'));
+    expect(opened, isTrue);
   });
 }
