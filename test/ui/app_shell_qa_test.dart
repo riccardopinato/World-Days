@@ -24,7 +24,7 @@ void main() {
     final controller = await _controller();
 
     await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 500));
 
     expect(find.text('Today'), findsWidgets);
     expect(find.text('Calendar'), findsOneWidget);
@@ -40,9 +40,9 @@ void main() {
     final controller = await _controller();
 
     await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 500));
     await tester.tap(find.text('Discover'));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 500));
 
     final records = controller.catalog!.records;
     expect(records.length, greaterThan(100));
@@ -65,9 +65,9 @@ void main() {
     await controller.setLocale('it');
 
     await tester.pumpWidget(WorldDaysApp(controller: controller));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 500));
     await tester.tap(find.text('Impostazioni'));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 500));
 
     expect(find.text('Politica dei dati'), findsOneWidget);
     expect(find.textContaining('Disponibile offline'), findsOneWidget);
