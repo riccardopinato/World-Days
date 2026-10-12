@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
 import '../../core/sharing/share_card_sheet.dart';
-import '../../core/sharing/share_card_sheet.dart';
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
 
