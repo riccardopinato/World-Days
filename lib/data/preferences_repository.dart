@@ -9,6 +9,7 @@ final class UserPreferences {
     this.recentIds = const <String>[],
     this.themeMode = ThemeMode.system,
     this.localeCode,
+    this.marketCode = 'GLOBAL',
     this.streak = 0,
     this.lastOpenDate,
   });
@@ -17,6 +18,7 @@ final class UserPreferences {
   final List<String> recentIds;
   final ThemeMode themeMode;
   final String? localeCode;
+  final String marketCode;
   final int streak;
   final String? lastOpenDate;
 
@@ -26,6 +28,7 @@ final class UserPreferences {
     ThemeMode? themeMode,
     String? localeCode,
     bool clearLocale = false,
+    String? marketCode,
     int? streak,
     String? lastOpenDate,
   }) =>
@@ -34,6 +37,7 @@ final class UserPreferences {
         recentIds: recentIds ?? this.recentIds,
         themeMode: themeMode ?? this.themeMode,
         localeCode: clearLocale ? null : (localeCode ?? this.localeCode),
+        marketCode: marketCode ?? this.marketCode,
         streak: streak ?? this.streak,
         lastOpenDate: lastOpenDate ?? this.lastOpenDate,
       );
@@ -43,6 +47,7 @@ final class UserPreferences {
         'recentIds': recentIds,
         'themeMode': themeMode.name,
         'localeCode': localeCode,
+        'marketCode': marketCode,
         'streak': streak,
         'lastOpenDate': lastOpenDate,
       };
@@ -61,6 +66,7 @@ final class UserPreferences {
           .toList(growable: false),
       themeMode: theme,
       localeCode: json['localeCode']?.toString(),
+      marketCode: (json['marketCode']?.toString().toUpperCase() ?? 'GLOBAL'),
       streak: (json['streak'] as num?)?.toInt() ?? 0,
       lastOpenDate: json['lastOpenDate']?.toString(),
     );
