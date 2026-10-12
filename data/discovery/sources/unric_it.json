@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "unric_it",
+    "url": "https://unric.org/it/calendario-giornate-internazionali/",
+    "tier": "B_INSTITUTIONAL",
+    "kind": "official_crosscheck",
+    "crosscheckOnly": true
+  },
+  "fetchedAt": "2026-10-12T12:16:28.781690+00:00",
+  "httpStatus": 200,
+  "fetchError": null,
+  "usedFallback": true,
+  "observationCount": 15,
+  "observations": [
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "12 Agosto",
+      "rawTitleIt": "Giornata Internazionale della Gioventù",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "15 Luglio",
+      "rawTitleIt": "Giornata Mondiale delle Capacità dei Giovani",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "15 Settembre",
+      "rawTitleIt": "Giornata Internazionale della Democrazia",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "18 Luglio",
+      "rawTitleIt": "Giornata Mondiale per Nelson Mandela",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "19 Agosto",
+      "rawTitleIt": "Giornata Mondiale dell'Aiuto Umanitario",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "20 Luglio",
+      "rawTitleIt": "Giornata Mondiale degli Scacchi",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "21 Settembre",
+      "rawTitleIt": "Giornata Internazionale della Pace",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "25 Luglio",
+      "rawTitleIt": "Giornata Internazionale per il Benessere giudiziario",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "27 Agosto",
+      "rawTitleIt": "Giornata Mondiale dei Laghi",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "27 Settembre",
+      "rawTitleIt": "Giornata Mondiale del Turismo",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "30 Luglio",
+      "rawTitleIt": "Giornata Internazionale dell'Amicizia",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "30 Luglio",
+      "rawTitleIt": "Giornata Mondiale contro la Tratta di Esseri Umani",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "5 Settembre",
+      "rawTitleIt": "Giornata Internazionale della Carità",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "7 Settembre",
+      "rawTitleIt": "Giornata Internazionale dell'Aria Pulita per Cieli Azzurri",
+      "extraction": "fallback_web_verified_2026-10-12"
+    },
+    {
+      "sourceId": "unric_it",
+      "sourceUrl": "https://unric.org/it/calendario-giornate-internazionali/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "9 Agosto",
+      "rawTitleIt": "Giornata Internazionale dei Popoli Indigeni",
+      "extraction": "fallback_web_verified_2026-10-12"
+    }
+  ]
+}

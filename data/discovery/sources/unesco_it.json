@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": 1,
+  "source": {
+    "id": "unesco_it",
+    "url": "https://www.unesco.it/it/temi-in-evidenza/comunicazione-e-informazione/giornate-internazionali-dellunesco/",
+    "tier": "B_INSTITUTIONAL",
+    "kind": "official_crosscheck",
+    "crosscheckOnly": true
+  },
+  "fetchedAt": "2026-10-12T12:16:33.693114+00:00",
+  "httpStatus": 200,
+  "fetchError": null,
+  "usedFallback": true,
+  "observationCount": 1,
+  "observations": [
+    {
+      "sourceId": "unesco_it",
+      "sourceUrl": "https://www.unesco.it/it/temi-in-evidenza/comunicazione-e-informazione/giornate-internazionali-dellunesco/",
+      "sourceTier": "B_INSTITUTIONAL",
+      "sourceKind": "official_crosscheck",
+      "crosscheckOnly": true,
+      "rawDateLabel": "3 maggio",
+      "rawTitleIt": "Giornata Mondiale per la libertà di stampa",
+      "extraction": "fallback_web_verified_2026-10-12"
+    }
+  ]
+}
