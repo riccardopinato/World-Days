@@ -31,3 +31,8 @@ flutter:
     - assets/data/official_core.json
     - assets/data/occurrences_2026.json
     - assets/data/editorial_en.json
+    - assets/data/editorial_it.json
+    - assets/data/editorial_es.json
+    - assets/data/editorial_fr.json
+    - assets/data/editorial_de.json
+    - assets/data/editorial_pt.json
