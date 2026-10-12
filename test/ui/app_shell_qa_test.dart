@@ -12,6 +12,7 @@ const record = Observance(
   scope: 'GLOBAL',
   countries: [],
   regions: [],
+  categories: [],
   authority: ObservanceAuthority(
     name: 'Test Authority',
     type: 'TEST',
