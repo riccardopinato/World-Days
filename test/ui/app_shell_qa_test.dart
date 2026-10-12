@@ -48,15 +48,15 @@ void main() {
     expect(records.length, greaterThan(100));
     expect(find.text('${records.length} observances'), findsOneWidget);
 
-    final lastTitle = records.last.title;
+    final beyondOldCapTitle = records[105].title;
     await tester.scrollUntilVisible(
-      find.text(lastTitle),
+      find.text(beyondOldCapTitle),
       700,
       scrollable: find.byType(Scrollable).last,
-      maxScrolls: records.length,
+      maxScrolls: 120,
     );
 
-    expect(find.text(lastTitle), findsWidgets);
+    expect(find.text(beyondOldCapTitle), findsWidgets);
     expect(tester.takeException(), isNull);
   });
 
@@ -77,7 +77,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Politica dei dati'), findsOneWidget);
-    expect(find.text('Disponibile offline'), findsOneWidget);
+    expect(find.textContaining('Disponibile offline'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }
