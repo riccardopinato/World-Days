@@ -82,6 +82,10 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.widget.RemoteViews
 import es.antonborri.home_widget.HomeWidgetProvider
+import org.json.JSONObject
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
 
 class WorldDaysWidgetProvider : HomeWidgetProvider() {
     override fun onUpdate(
@@ -91,9 +95,16 @@ class WorldDaysWidgetProvider : HomeWidgetProvider() {
         widgetData: SharedPreferences,
     ) {
         appWidgetIds.forEach { widgetId ->
-            val title = widgetData.getString("today_title", "World Days") ?: "World Days"
-            val date = widgetData.getString("today_date", "") ?: ""
-            val authority = widgetData.getString("today_authority", "") ?: ""
+            val date = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
+            val schedule = widgetData.getString("schedule_json", "{}") ?: "{}"
+            val today = try {
+                JSONObject(schedule).optJSONObject(date)
+            } catch (_: Exception) {
+                null
+            }
+            val title = today?.optString("title")?.takeIf { it.isNotBlank() } ?: "World Days"
+            val authority = today?.optString("authority")?.takeIf { it.isNotBlank() }
+                ?: "Open the app to refresh"
 
             val openIntent = Intent(context, MainActivity::class.java)
             val pendingIntent = PendingIntent.getActivity(
