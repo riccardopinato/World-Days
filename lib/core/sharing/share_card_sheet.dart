@@ -164,6 +164,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
     setState(() => _sharing = true);
     try {
       await WidgetsBinding.instance.endOfFrame;
+      if (!mounted) return;
       final boundary =
           _boundaryKey.currentContext?.findRenderObject()
               as RenderRepaintBoundary?;
