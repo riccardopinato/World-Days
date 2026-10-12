@@ -58,6 +58,9 @@ jobs:
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
 
-      - name: Build Android ARM64 gate
+      - name: Build Android native debug gate
+        run: flutter build apk --debug
+
+      - name: Build Android ARM64 release gate
         if: github.event_name != 'pull_request'
         run: flutter build apk --release --split-per-abi --tree-shake-icons

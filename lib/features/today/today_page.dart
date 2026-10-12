@@ -5,6 +5,7 @@ import '../../app/app_controller.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
+import '../../features/discover/daily_quiz_page.dart';
 import '../../l10n/app_localizations.dart';
 
 class TodayPage extends StatelessWidget {
@@ -72,6 +73,23 @@ class TodayPage extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+              ),
+              const SizedBox(height: 18),
+              Card(
+                child: ListTile(
+                  leading: const Icon(Icons.quiz_outlined),
+                  title: Text(
+                    l10n.dailyQuiz,
+                    style: const TextStyle(fontWeight: FontWeight.w800),
+                  ),
+                  subtitle: Text(l10n.quizOpen),
+                  trailing: const Icon(Icons.chevron_right_rounded),
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => DailyQuizPage(controller: controller),
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 24),

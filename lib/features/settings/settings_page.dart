@@ -71,6 +71,70 @@ class SettingsPage extends StatelessWidget {
             onChanged: controller.setLocale,
           ),
           const SizedBox(height: 28),
+          _SectionTitle(l10n.notifications),
+          Card(
+            child: Column(
+              children: [
+                SwitchListTile(
+                  secondary: const Icon(Icons.notifications_active_outlined),
+                  title: Text(l10n.dailyReminder),
+                  subtitle: Text(l10n.dailyReminderDescription),
+                  value: controller.preferences.dailyReminderEnabled,
+                  onChanged: (value) async {
+                    final ok = await controller.setDailyReminder(value);
+                    if (!ok && context.mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(l10n.notificationPermissionDenied),
+                        ),
+                      );
+                    }
+                  },
+                ),
+                if (controller.preferences.dailyReminderEnabled)
+                  ListTile(
+                    leading: const Icon(Icons.schedule_rounded),
+                    title: Text(l10n.reminderTime),
+                    trailing: Text(
+                      TimeOfDay(
+                        hour: controller.preferences.dailyReminderHour,
+                        minute: controller.preferences.dailyReminderMinute,
+                      ).format(context),
+                    ),
+                    onTap: () async {
+                      final current = TimeOfDay(
+                        hour: controller.preferences.dailyReminderHour,
+                        minute: controller.preferences.dailyReminderMinute,
+                      );
+                      final picked = await showTimePicker(
+                        context: context,
+                        initialTime: current,
+                      );
+                      if (picked != null) {
+                        await controller.setDailyReminderTime(picked);
+                      }
+                    },
+                  ),
+                SwitchListTile(
+                  secondary: const Icon(Icons.view_week_outlined),
+                  title: Text(l10n.weeklyDigest),
+                  subtitle: Text(l10n.weeklyDigestDescription),
+                  value: controller.preferences.weeklyDigestEnabled,
+                  onChanged: (value) async {
+                    final ok = await controller.setWeeklyDigest(value);
+                    if (!ok && context.mounted) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(l10n.notificationPermissionDenied),
+                        ),
+                      );
+                    }
+                  },
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 28),
           _SectionTitle(l10n.market),
           Text(
             l10n.marketDescription,

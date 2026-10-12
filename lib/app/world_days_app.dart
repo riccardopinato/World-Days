@@ -4,11 +4,14 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import '../core/theme/app_theme.dart';
 import '../features/calendar/calendar_page.dart';
 import '../features/discover/discover_page.dart';
+import '../features/detail/observance_detail_page.dart';
 import '../features/saved/saved_page.dart';
 import '../features/settings/settings_page.dart';
 import '../features/today/today_page.dart';
 import '../l10n/app_localizations.dart';
 import 'app_controller.dart';
+
+final _navigatorKey = GlobalKey<NavigatorState>();
 
 class WorldDaysApp extends StatelessWidget {
   const WorldDaysApp({super.key, required this.controller});
@@ -19,7 +22,24 @@ class WorldDaysApp extends StatelessWidget {
     return AnimatedBuilder(
       animation: controller,
       builder: (context, _) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          final id = controller.takeNotificationTarget();
+          if (id == null) return;
+          final record = controller.catalog?.byId[id];
+          final navigator = _navigatorKey.currentState;
+          if (record == null || navigator == null) return;
+          navigator.push(
+            MaterialPageRoute<void>(
+              builder: (_) => ObservanceDetailPage(
+                observance: record,
+                controller: controller,
+              ),
+            ),
+          );
+        });
+
         return MaterialApp(
+          navigatorKey: _navigatorKey,
           debugShowCheckedModeBanner: false,
           title: 'World Days',
           theme: AppTheme.light(),

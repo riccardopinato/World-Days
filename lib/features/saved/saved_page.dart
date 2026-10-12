@@ -20,6 +20,7 @@ class SavedPage extends StatelessWidget {
             .map((id) => catalog.byId[id])
             .whereType<Observance>()
             .toList(growable: false);
+    final categories = controller.availableCategories();
     final recent = catalog == null
         ? const <Observance>[]
         : controller.preferences.recentIds
@@ -35,7 +36,10 @@ class SavedPage extends StatelessWidget {
           Text(l10n.favorites, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
           const SizedBox(height: 12),
           if (favorites.isEmpty)
-            Padding(padding: const EdgeInsets.symmetric(vertical: 20), child: Text(l10n.noFavorites))
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20),
+              child: Text(l10n.noFavorites),
+            )
           else
             for (final record in favorites) ...[
               ObservanceCard(
@@ -44,10 +48,65 @@ class SavedPage extends StatelessWidget {
                 onFavorite: () => controller.toggleFavorite(record.id),
                 onTap: () => _open(context, record),
               ),
+              SwitchListTile(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 4),
+                secondary: const Icon(Icons.notifications_outlined),
+                title: Text(l10n.remindMe),
+                value: controller.hasFavoriteReminder(record.id),
+                onChanged: (_) async {
+                  final ok = await controller.toggleFavoriteReminder(record.id);
+                  if (!ok && context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(l10n.notificationPermissionDenied),
+                      ),
+                    );
+                  }
+                },
+              ),
               const SizedBox(height: 10),
             ],
           const SizedBox(height: 24),
-          Text(l10n.recent, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
+          Text(
+            l10n.followedCategories,
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                ),
+          ),
+          const SizedBox(height: 6),
+          Text(l10n.categoryRemindersDescription),
+          const SizedBox(height: 12),
+          if (categories.isEmpty)
+            Text(l10n.noCategoriesFollowed)
+          else
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                for (final category in categories)
+                  FilterChip(
+                    label: Text(category),
+                    selected: controller.followsCategory(category),
+                    onSelected: (_) async {
+                      final ok = await controller.toggleCategoryFollow(category);
+                      if (!ok && context.mounted) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(l10n.notificationPermissionDenied),
+                          ),
+                        );
+                      }
+                    },
+                  ),
+              ],
+            ),
+          const SizedBox(height: 28),
+          Text(
+            l10n.recent,
+            style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                  fontWeight: FontWeight.w800,
+                ),
+          ),
           const SizedBox(height: 12),
           if (recent.isEmpty)
             Padding(padding: const EdgeInsets.symmetric(vertical: 20), child: Text(l10n.noRecent))
