@@ -12,21 +12,42 @@ void main() {
     expect(snapshot.occurrences2026.length, greaterThanOrEqualTo(260));
   });
 
-  test('reviewed English editorial pack is linked by canonical id', () async {
+  test('reviewed editorial packs keep locale parity and fallback', () async {
     final snapshot = await const CatalogRepository().load();
 
     expect(snapshot.editorialById.length, greaterThanOrEqualTo(28));
+    expect(snapshot.editorialByLocale.keys.toSet(), {
+      'en', 'it', 'es', 'fr', 'de', 'pt',
+    });
 
-    final water = snapshot.editorialById['world-water-day'];
-    expect(water, isNotNull);
-    expect(water!.locale, 'en');
-    expect(water.status, 'REVIEWED');
-    expect(water.summary.length, greaterThan(80));
-    expect(water.waysToTakePart.length, 3);
+    final english = snapshot.editorialFor('world-water-day', 'en');
+    final italian = snapshot.editorialFor('world-water-day', 'it');
+    final spanish = snapshot.editorialFor('world-water-day', 'es');
+    final fallback = snapshot.editorialFor('world-water-day', 'nl');
 
-    final cancer = snapshot.editorialById['world-cancer-day'];
-    expect(cancer, isNotNull);
-    expect(cancer!.whyItMatters, isNotEmpty);
+    expect(english, isNotNull);
+    expect(english!.locale, 'en');
+    expect(english.status, 'REVIEWED');
+
+    expect(italian, isNotNull);
+    expect(italian!.locale, 'it');
+    expect(italian.status, 'REVIEWED_TRANSLATION');
+    expect(italian.summary, isNot(english.summary));
+
+    expect(spanish, isNotNull);
+    expect(spanish!.locale, 'es');
+    expect(spanish.waysToTakePart.length, english.waysToTakePart.length);
+
+    expect(fallback, isNotNull);
+    expect(fallback!.locale, 'en');
+
+    for (final locale in ['it', 'es', 'fr', 'de', 'pt']) {
+      expect(
+        snapshot.editorialByLocale[locale]!.keys.toSet(),
+        snapshot.editorialById.keys.toSet(),
+        reason: locale,
+      );
+    }
   });
 
   test('curated consumer records preserve provenance and classification', () async {
