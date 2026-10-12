@@ -10,6 +10,8 @@ const record = Observance(
   title: 'World Test Day',
   periodKind: 'DAY',
   scope: 'GLOBAL',
+  countries: [],
+  regions: [],
   authority: ObservanceAuthority(
     name: 'Test Authority',
     type: 'TEST',
