@@ -41,3 +41,23 @@ Initial Step 5 coverage: **28 reviewed English entries**.
 ## Fallback
 
 Observances without a reviewed article continue to show canonical authority/provenance and an editorial-coming-next state. Missing editorial content must never hide the observance itself.
+
+
+## Localized editorial packs
+
+The English pack remains the editorial master.
+
+Runtime locale packs are generated for:
+- Italian (`it`)
+- Spanish (`es`)
+- French (`fr`)
+- German (`de`)
+- Portuguese (`pt`)
+
+Each localized pack must contain the same reviewed `observanceId` set as English, in the same order, with the same number of participation actions per entry. Localized entries use `status=REVIEWED_TRANSLATION` and `translationOf=en`.
+
+Translations may adapt sentence structure for natural language, but must not introduce new factual claims, statistics, yearly campaign themes or changes to authority/officiality.
+
+If a requested locale pack or entry is unavailable, runtime falls back to the reviewed English entry. Fallback is editorial-only and never changes the user's UI locale or market preference.
+
+Current Step 7 coverage: **28 reviewed articles × 6 locales = 168 runtime editorial entries**.
