@@ -132,3 +132,13 @@ Third-party prose is not copied.
 - no duplicate occurrence for same observance/date/rule
 - every date Jan 1-Dec 31 can be queried, even if result=[]
 - leap day works in leap years
+
+
+12. MARKET LAYER CONTRACT
+- Locale and market are independent. Locale must never infer or overwrite the market.
+- GLOBAL market displays only GLOBAL records in the normal Today/Calendar/Discover surfaces.
+- A selected market displays GLOBAL records plus NATIONAL/REGIONAL records whose countries[] contains that market code.
+- NATIONAL records must contain exactly one ISO 3166-1 alpha-2 country code in countries[].
+- Around the World may browse NATIONAL records directly without reclassifying them as global.
+- National officiality uses OFFICIAL_INSTITUTIONAL and requires an A_PRIMARY establishing/maintaining public source.
+- The market layer is not a public-holiday planner; inclusion is product-curated and observance-focused.
