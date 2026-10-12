@@ -25,6 +25,23 @@ expected_consumer = {
     'world-vegan-day',
     'world-kindness-day',
 }
+
+expected_market = {
+    'italys-day-of-remembrance': 'IT',
+    'italian-republic-day': 'IT',
+    'national-day-of-spain': 'ES',
+    'constitution-day-spain': 'ES',
+    'national-day-of-the-resistance-france': 'FR',
+    'french-national-day': 'FR',
+    'german-unity-day': 'DE',
+    'portugal-day': 'PT',
+    'republic-day-portugal': 'PT',
+    'armed-forces-day-uk': 'GB',
+    'martin-luther-king-jr-day': 'US',
+    'memorial-day-us': 'US',
+    'independence-day-us': 'US',
+    'veterans-day-us': 'US',
+}
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -39,8 +56,19 @@ for record in records:
         assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
     if officiality in {'RECOGNIZED_NGO', 'POPULAR'}:
         assert any((s.get('tier') == 'D_ORIGINATOR') for s in sources), record.get('id')
+    if record.get('scope') == 'NATIONAL':
+        countries = record.get('countries', [])
+        assert len(countries) == 1, f"national record must have one country: {record.get('id')}"
+        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US'}, record.get('id')
+        assert officiality == 'OFFICIAL_INSTITUTIONAL', record.get('id')
+        assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
 
 assert expected_consumer.issubset(known), f"missing curated consumer ids: {sorted(expected_consumer - known)}"
+assert set(expected_market).issubset(known), f"missing market ids: {sorted(set(expected_market) - known)}"
+for market_id, country in expected_market.items():
+    record = next(r for r in records if r.get('id') == market_id)
+    assert record['scope'] == 'NATIONAL', market_id
+    assert record['countries'] == [country], (market_id, record['countries'])
 
 emoji = next(r for r in records if r.get('id') == 'world-emoji-day')
 assert emoji['authority']['officiality'] == 'POPULAR'
@@ -56,7 +84,22 @@ safer_dates = sorted(
 )
 assert safer_dates == ['2026-02-10'], safer_dates
 
+market_vectors = {
+    'martin-luther-king-jr-day': ['2026-01-19'],
+    'memorial-day-us': ['2026-05-25'],
+    'armed-forces-day-uk': ['2026-06-27'],
+    'italian-republic-day': ['2026-06-02'],
+    'national-day-of-spain': ['2026-10-12'],
+}
+for observance_id, expected_dates in market_vectors.items():
+    actual = sorted(
+        item['startDate']
+        for item in occ.get('occurrences', [])
+        if item.get('observanceId') == observance_id
+    )
+    assert actual == expected_dates, (observance_id, actual, expected_dates)
+
 print(
     f"dataset ok: {len(records)} records, {len(occ.get('occurrences', []))} occurrences, "
-    f"{len(expected_consumer)} curated consumer records, 365 days"
+    f"{len(expected_consumer)} curated consumer records, {len(expected_market)} market records, 365 days"
 )
