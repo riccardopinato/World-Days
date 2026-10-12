@@ -163,21 +163,18 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
   Future<void> _share() async {
     setState(() => _sharing = true);
     try {
-      await WidgetsBinding.instance.endOfFrame;
-      if (!mounted) return;
       final boundary =
           _boundaryKey.currentContext?.findRenderObject()
               as RenderRepaintBoundary?;
       if (boundary == null) throw StateError('share_card_not_rendered');
 
+      final box = context.findRenderObject() as RenderBox?;
+      final origin =
+          box == null ? null : box.localToGlobal(Offset.zero) & box.size;
+
       final image = await boundary.toImage(pixelRatio: 2.5);
       final bytes = await image.toByteData(format: ui.ImageByteFormat.png);
       if (bytes == null) throw StateError('share_card_encoding_failed');
-
-      final box = context.findRenderObject() as RenderBox?;
-      final origin = box == null
-          ? null
-          : box.localToGlobal(Offset.zero) & box.size;
 
       await SharePlus.instance.share(
         ShareParams(
