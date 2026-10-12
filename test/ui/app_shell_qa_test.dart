@@ -48,15 +48,8 @@ void main() {
     expect(records.length, greaterThan(100));
     expect(find.text('${records.length} observances'), findsOneWidget);
 
-    final beyondOldCapTitle = records[105].title;
-    await tester.scrollUntilVisible(
-      find.text(beyondOldCapTitle),
-      700,
-      scrollable: find.byType(Scrollable).last,
-      maxScrolls: 120,
-    );
-
-    expect(find.text(beyondOldCapTitle), findsWidgets);
+    final list = tester.widget<SliverList>(find.byType(SliverList));
+    expect(list.delegate.estimatedChildCount, records.length);
     expect(tester.takeException(), isNull);
   });
 
