@@ -51,23 +51,41 @@ final class AppController extends ChangeNotifier {
     for (final occurrence in occurrences) {
       if (!occurrence.contains(date)) continue;
       final record = value.byId[occurrence.observanceId];
-      if (record != null) result.add(record);
+      if (record != null && isVisibleForMarket(record)) result.add(record);
     }
     return result;
+  }
+
+  bool isVisibleForMarket(Observance record, [String? marketCode]) {
+    final market = (marketCode ?? preferences.marketCode).toUpperCase();
+    if (record.scope == 'GLOBAL') return true;
+    if (market == 'GLOBAL') return false;
+    return record.countries.contains(market);
+  }
+
+  List<Observance> recordsForMarket(
+    String marketCode, {
+    bool includeGlobal = false,
+  }) {
+    final value = catalog;
+    if (value == null) return const [];
+    final market = marketCode.toUpperCase();
+    return value.records.where((record) {
+      if (record.scope == 'GLOBAL') return includeGlobal;
+      return record.countries.contains(market);
+    }).toList(growable: false);
   }
 
   List<Observance> search(String query) {
     final value = catalog;
     if (value == null) return const [];
     final normalized = query.trim().toLowerCase();
-    if (normalized.isEmpty) return value.records;
-    return value.records
-        .where(
-          (item) =>
-              item.title.toLowerCase().contains(normalized) ||
-              item.aliases.any((alias) => alias.toLowerCase().contains(normalized)),
-        )
-        .toList(growable: false);
+    return value.records.where((item) {
+      if (!isVisibleForMarket(item)) return false;
+      if (normalized.isEmpty) return true;
+      return item.title.toLowerCase().contains(normalized) ||
+          item.aliases.any((alias) => alias.toLowerCase().contains(normalized));
+    }).toList(growable: false);
   }
 
   bool isFavorite(String id) => preferences.favoriteIds.contains(id);
@@ -97,6 +115,17 @@ final class AppController extends ChangeNotifier {
     preferences = code == null
         ? preferences.copyWith(clearLocale: true)
         : preferences.copyWith(localeCode: code);
+    notifyListeners();
+    await _preferencesRepository.save(preferences);
+  }
+
+  Future<void> setMarket(String code) async {
+    final normalized = code.toUpperCase();
+    const allowed = {'GLOBAL', 'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US'};
+    if (!allowed.contains(normalized)) {
+      throw ArgumentError.value(code, 'code', 'Unsupported market');
+    }
+    preferences = preferences.copyWith(marketCode: normalized);
     notifyListeners();
     await _preferencesRepository.save(preferences);
   }
