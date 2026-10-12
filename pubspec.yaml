@@ -1,0 +1,27 @@
+name: world_days
+description: Discover what the world observes today.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/data/official_core.json
+    - assets/data/occurrences_2026.json

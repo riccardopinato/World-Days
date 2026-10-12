@@ -1,0 +1,134 @@
+WORLD DAYS — CANONICAL DATA CONTRACT v0.2
+Date: 2026-10-11
+
+1. CORE PRINCIPLE
+Catalog truth and yearly occurrence truth are separate.
+Never hard-code a movable observance as permanently fixed because it happened on that date in one year.
+
+2. ENUMS
+periodKind:
+- DAY
+- WEEK
+- MONTH
+- YEAR
+- DECADE
+
+recurrenceKind:
+- FIXED_DATE
+- NTH_WEEKDAY
+- LAST_WEEKDAY
+- LAST_DAY_OF_MONTH
+- FIXED_RANGE
+- MULTI_RULE
+- LUNAR
+- AUTHORITY_DEFINED
+- ONE_OFF
+
+officiality:
+- OFFICIAL_UN
+- OFFICIAL_UN_AGENCY
+- OFFICIAL_UNESCO
+- OFFICIAL_WHO
+- OFFICIAL_INSTITUTIONAL
+- RECOGNIZED_NGO
+- POPULAR
+- DISCOVERY_UNVERIFIED
+
+sourceTier:
+- A_PRIMARY
+- B_INSTITUTIONAL
+- C_DISCOVERY
+- D_ORIGINATOR
+
+3. OBSERVANCE
+Required JSON shape:
+{
+  "id": "world-braille-day",
+  "canonicalTitleEn": "World Braille Day",
+  "aliases": [],
+  "periodKind": "DAY",
+  "recurrenceRules": [
+    {"kind":"FIXED_DATE","month":1,"day":4}
+  ],
+  "scope": "GLOBAL",
+  "countries": [],
+  "regions": [],
+  "authority": {
+    "name": "United Nations",
+    "type": "UN",
+    "officiality": "OFFICIAL_UN",
+    "resolution": "A/RES/73/161"
+  },
+  "categories": ["ACCESSIBILITY","HUMAN_RIGHTS"],
+  "sources": [
+    {
+      "tier":"A_PRIMARY",
+      "url":"https://www.un.org/en/observances/list-days-weeks",
+      "verifiedAt":"2026-10-11"
+    }
+  ],
+  "firstEstablishedYear": null,
+  "validFrom": null,
+  "validTo": null,
+  "visualKey": "accessibility-braille",
+  "editorialStatus": "STUB",
+  "lastVerifiedAt": "2026-10-11"
+}
+
+4. OCCURRENCE
+Generated, never hand-maintained for ordinary recurrence rules:
+{
+  "observanceId":"world-braille-day",
+  "year":2026,
+  "startDate":"2026-01-04",
+  "endDate":"2026-01-04",
+  "derivedFromRule":true,
+  "ruleIndex":0
+}
+
+5. YEAR OVERRIDE
+Use only for campaign-specific or exceptional yearly facts:
+{
+  "observanceId":"world-health-day",
+  "year":2026,
+  "campaignTheme":"Together for health. Stand with science",
+  "campaignUrl":"https://www.who.int/campaigns/world-health-day",
+  "notes":[]
+}
+
+6. MULTIPLE OCCURRENCES
+An observance may have more than one recurrence rule.
+Example: World Migratory Bird Day has a spring and autumn occurrence.
+Do NOT duplicate the canonical observance.
+
+7. OFFICIALITY / SOURCE RULES
+- Official badge requires Tier A evidence.
+- Tier C discovery sources never upgrade officiality.
+- If primary evidence is not yet found, keep DISCOVERY_UNVERIFIED and exclude from the public canonical catalog by default.
+- Conflicts: primary authority wins; store the conflicting candidate as review metadata, not as a second canonical truth.
+- Exact titles should follow the establishing/current authority in English.
+
+8. DEDUP KEY
+Preferred: stable curated id.
+Secondary duplicate signals:
+- normalized English title
+- known aliases
+- same authority + same recurrence
+- same resolution/declaration
+
+9. EDITORIAL CONTRACT
+English is canonical editorial source.
+Translations are derivative records, not independent factual sources.
+Third-party prose is not copied.
+
+10. QA INVARIANTS
+- id unique
+- at least one source per publishable observance
+- officiality OFFICIAL_* requires at least one A_PRIMARY source
+- every recurrence can generate or resolve an occurrence for supported years unless explicitly AUTHORITY_DEFINED/LUNAR
+- generated occurrence start <= end
+- dates belong to requested year unless a cross-year range explicitly allows otherwise
+- aliases do not duplicate another canonical id
+- no duplicate occurrence for same observance/date/rule
+- every date Jan 1-Dec 31 can be queried, even if result=[]
+- leap day works in leap years
