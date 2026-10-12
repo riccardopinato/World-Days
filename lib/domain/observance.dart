@@ -1,0 +1,125 @@
+import 'recurrence_engine.dart';
+
+final class ObservanceSource {
+  const ObservanceSource({required this.tier, required this.url});
+  final String tier;
+  final String url;
+
+  factory ObservanceSource.fromJson(Map<String, dynamic> json) => ObservanceSource(
+        tier: json['tier']?.toString() ?? 'UNKNOWN',
+        url: json['url']?.toString() ?? '',
+      );
+}
+
+final class ObservanceAuthority {
+  const ObservanceAuthority({
+    required this.name,
+    required this.type,
+    required this.officiality,
+    this.resolution,
+  });
+
+  final String name;
+  final String type;
+  final String officiality;
+  final String? resolution;
+
+  factory ObservanceAuthority.fromJson(Map<String, dynamic> json) =>
+      ObservanceAuthority(
+        name: json['name']?.toString() ?? 'Unknown',
+        type: json['type']?.toString() ?? 'OTHER',
+        officiality: json['officiality']?.toString() ?? 'UNKNOWN',
+        resolution: json['resolution']?.toString(),
+      );
+}
+
+final class Observance {
+  const Observance({
+    required this.id,
+    required this.title,
+    required this.periodKind,
+    required this.scope,
+    required this.authority,
+    required this.sources,
+    required this.rules,
+    required this.aliases,
+  });
+
+  final String id;
+  final String title;
+  final String periodKind;
+  final String scope;
+  final ObservanceAuthority authority;
+  final List<ObservanceSource> sources;
+  final List<RecurrenceRule> rules;
+  final List<String> aliases;
+
+  factory Observance.fromJson(Map<String, dynamic> json) => Observance(
+        id: json['id'] as String,
+        title: json['canonicalTitleEn'] as String,
+        periodKind: json['periodKind']?.toString() ?? 'DAY',
+        scope: json['scope']?.toString() ?? 'GLOBAL',
+        authority: ObservanceAuthority.fromJson(
+          Map<String, dynamic>.from(json['authority'] as Map),
+        ),
+        sources: (json['sources'] as List? ?? const [])
+            .map((e) => ObservanceSource.fromJson(Map<String, dynamic>.from(e as Map)))
+            .toList(growable: false),
+        rules: (json['recurrenceRules'] as List? ?? const [])
+            .map((e) => recurrenceRuleFromJson(Map<String, dynamic>.from(e as Map)))
+            .toList(growable: false),
+        aliases: (json['aliases'] as List? ?? const [])
+            .map((e) => e.toString())
+            .toList(growable: false),
+      );
+}
+
+RecurrenceRule recurrenceRuleFromJson(Map<String, dynamic> json) {
+  switch (json['kind']) {
+    case 'FIXED_DATE':
+      return FixedDateRule(month: json['month'] as int, day: json['day'] as int);
+    case 'NTH_WEEKDAY':
+      return NthWeekdayRule(
+        month: json['month'] as int,
+        weekday: json['weekday'] as int,
+        occurrence: json['occurrence'] as int,
+      );
+    case 'LAST_WEEKDAY':
+      return LastWeekdayRule(
+        month: json['month'] as int,
+        weekday: json['weekday'] as int,
+      );
+    case 'FIXED_RANGE':
+      return FixedRangeRule(
+        startMonth: json['startMonth'] as int,
+        startDay: json['startDay'] as int,
+        endMonth: json['endMonth'] as int,
+        endDay: json['endDay'] as int,
+      );
+    case 'LUNAR':
+      return LunarRule(overrides: _parseOverrides(json['overrides']));
+    case 'AUTHORITY_DEFINED':
+      return AuthorityDefinedRule(overrides: _parseOverrides(json['overrides']));
+    default:
+      throw FormatException('Unsupported recurrence kind: ${json['kind']}');
+  }
+}
+
+Map<int, DateSpan> _parseOverrides(Object? raw) {
+  if (raw is! Map) return const {};
+  final result = <int, DateSpan>{};
+  for (final entry in raw.entries) {
+    final year = int.tryParse(entry.key.toString());
+    if (year == null || entry.value is! Map) continue;
+    final value = Map<String, dynamic>.from(entry.value as Map);
+    final start = DateTime.tryParse(value['startDate']?.toString() ?? '');
+    final end = DateTime.tryParse(value['endDate']?.toString() ?? '');
+    if (start != null && end != null) {
+      result[year] = DateSpan(
+        start: DateTime.utc(start.year, start.month, start.day),
+        end: DateTime.utc(end.year, end.month, end.day),
+      );
+    }
+  }
+  return result;
+}

@@ -1,0 +1,271 @@
+WORLD DAYS — PRODUCT BIBLE v0.1
+Date: 2026-10-11
+Factory baseline: riccardopinato/App-Factory-Core @ fa3c0679de393f1cb13c2fed2be314d1a1269353
+Master: v25.1
+Golden Index: v10
+
+1. PRODUCT
+Name: World Days
+Store subtitle: Discover what the world celebrates today
+Positioning: visual, daily-return consumer app for international/world observances.
+Primary language: English.
+Launch locales: en, it, es, fr, de, pt.
+Platforms: Android, iOS, Flutter Web Preview.
+Core promise: open the app and understand in seconds what is observed today, why it exists, who recognizes it, and what is coming next.
+
+2. PRODUCT PRINCIPLES
+- English master content; translations are derived from the canonical English editorial record.
+- Local-first: bundled catalog works offline.
+- No login required in v1.
+- Transparent provenance: each observance has authority/source and officiality.
+- Official, institutional and popular observances are never flattened into one undifferentiated list.
+- Very visual editorial UI, but lightweight assets and no local AI model.
+- Retention comes from useful daily discovery, not permission walls or ad friction.
+- Ads never block core use.
+
+3. INFORMATION ARCHITECTURE
+Today:
+- date hero
+- primary observance hero card
+- additional observances
+- today-in-30-seconds editorial summary
+- daily quiz / surprise me
+- tomorrow preview
+
+Calendar:
+- month grid
+- date detail
+- filters: officiality/category/scope/country
+- days/weeks/months
+- upcoming 7/30 days
+
+Discover:
+- categories
+- Around the World
+- random observance
+- themed collections
+- quizzes
+
+Saved:
+- favorites
+- followed categories
+- reminder subscriptions
+- recently viewed
+
+Settings/Profile:
+- language
+- theme
+- country/market
+- notification preferences
+- privacy choices
+- remove ads
+- data sources/about/version
+
+4. DATA MODEL
+Canonical entity: Observance
+Required fields:
+- id / slug
+- canonical_title_en
+- localized_titles
+- period_kind: day | week | month | year | decade
+- recurrence_kind: fixed | nth_weekday | date_range | lunar | authority_defined | one_off
+- recurrence_rule
+- scope: global | regional | national
+- countries/regions
+- authority_name
+- authority_type
+- officiality: official_un | official_agency | official_institutional | recognized_ngo | popular
+- resolution_or_declaration
+- categories
+- source_refs[]
+- source_tier
+- first_established_year
+- valid_from / valid_to
+- short_summary_en
+- long_story_en
+- origin_en
+- why_it_matters_en
+- facts_en[]
+- actions_en[]
+- related_observance_ids[]
+- visual_key
+- image/license metadata when real media are used
+- editorial_status
+- last_verified_at
+
+Generated entity: ObservanceOccurrence
+- observance_id
+- year
+- start_date
+- end_date
+- occurrence_status
+- derived_from_rule
+
+Year override:
+- observance_id
+- year
+- campaign_theme
+- campaign_url
+- official_assets metadata
+- year-specific notes
+
+5. SOURCE AUTHORITY
+Tier A — canonical primary:
+- United Nations Observances / resolutions
+- UNESCO International Days
+- WHO official global public-health days/weeks
+- specialized UN agencies where they are the establishing authority (FAO, ILO, ITU, WMO, WIPO, IMO, UN Tourism, etc.)
+
+Tier B — institutional/cross-check:
+- UNRIC calendar
+- Council of Europe
+- EU/national institutional sources
+
+Tier C — editorial discovery:
+- giornatemondiali.it
+- Rai Scuola
+- Pineta Nature Resort calendar
+- Wikipedia lists
+
+Conflict rule: Tier A wins. Tier C never upgrades an observance to “official”.
+Editorial prose/images from third-party sites are not copied; World Days produces original copy and keeps source/provenance metadata.
+
+6. DATASET ACCEPTANCE — 1 JANUARY TO 31 DECEMBER
+- Every calendar date is navigable, including dates with zero official observances.
+- 100% of the current UN list of International Days and Weeks is represented.
+- UNESCO-only and WHO-official observances not already represented are merged and de-duplicated.
+- User-provided sources are processed as discovery candidates, then verified/classified before publication.
+- Fixed and movable observances use recurrence rules, not hard-coded pseudo-fixed dates.
+- Weeks/months can overlap day observances.
+- Every published observance has at least one source; official badges require primary authority evidence.
+- Duplicate semantic observances are merged using aliases, not duplicated.
+- Dataset ships versioned and records last verification date.
+- Leap day supported.
+- Tests generate occurrences for at least 2026, 2027 and 2028.
+
+7. EDITORIAL TEMPLATE
+Each observance detail can contain:
+- 1-sentence hook
+- What is it?
+- Why this date?
+- Origin/history
+- Why it matters
+- 3–5 quick facts
+- What you can do today
+- Related observances
+- Sources
+- annual theme when available
+
+8. VISUAL SYSTEM
+Brand direction: editorial calendar + globe, colorful and modern, not generic Material UI.
+Use Material 3 only as technical foundation; custom hero cards, category gradients, editorial typography, large date treatment, swipe transitions and locally-generated share cards define the consumer identity.
+Use reusable visual_key/category illustration packs rather than one heavy image per observance.
+Target lightweight ARM64 build; no local LLM/model pack.
+
+9. RETENTION
+- daily “Today is…” return loop
+- configurable daily notification
+- tomorrow / next-7-days preview
+- favorite observance reminders
+- followed category reminders
+- daily quiz
+- random discovery
+- non-punitive learning streak
+- home-screen widget after core launch
+- share cards
+- weekly digest
+- seasonal collections
+
+10. MONETIZATION
+AdMob mobile only; Web Preview uses no-op/mock boundary.
+Primary formats:
+- Large Anchored Adaptive banner in dedicated safe slots
+- Inline Adaptive ads in long discovery/calendar feeds
+- Interstitial only at natural completion points such as a completed quiz/session, with internal frequency caps
+Do not show interstitials on launch, tab switch, Back, article open, settings, or notification deep-link.
+Debug/QA/manual testing uses test ads only.
+UMP consent is refreshed each launch and ad requests wait for canRequestAds().
+No-Ads purchase target: lifetime EUR 2.99 (final store price can be localized).
+No core content paywall in v1.
+
+11. ANALYTICS / PRODUCT KPIs
+Events: app_open, today_view, observance_open, favorite, reminder_set, share, random_open, quiz_start, quiz_complete, search, filter, notification_tap, ad_loaded, ad_impression, ad_failed, remove_ads_purchase.
+Primary KPIs: D1/D7/D30 retention, DAU/MAU, sessions/DAU, observances opened/session, notification opt-in and tap rate, favorite/share rate, quiz completion, ad impressions/DAU, ARPDAU, crash-free users.
+
+12. GOLDEN ASSEMBLY
+COPY-READY to copy/parameterize now:
+- GOLDEN_LOCALIZATION_FLUTTER_v1
+- GOLDEN_THEME_M3_FLUTTER_v1
+- GOLDEN_PROFILE_STANDARD_FLUTTER_v1
+- GOLDEN_NOTIFICATION_RELIABILITY_FLUTTER_v1
+- GOLDEN_CI_RELEASE_WEB_DEPLOY_FLUTTER_v2
+
+Use with per-app audit because still DRAFT/CANDIDATE:
+- GOLDEN_APP_BOOTSTRAP_FLUTTER_v1_DRAFT
+- GOLDEN_APP_ICON_BRANDING_FLUTTER_v1_DRAFT
+- GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT
+- GOLDEN_ONBOARDING_FIRST_RUN_FLUTTER_v1_DRAFT
+- GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT
+- GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT (for later catalog updates)
+- GOLDEN_RELEASE_REALITY_PHYSICAL_VALIDATION_v1_DRAFT
+- GOLDEN_ANDROID_SIGNING_RELEASE_IDENTITY_v1_DRAFT
+
+Do not describe DRAFT/CANDIDATE modules as Certified Goldens.
+
+13. ROADMAP
+STEP 0 — Product/data freeze
+Product Bible, source registry, naming, officiality taxonomy, recurrence rules, dataset QA contract.
+
+STEP 1 — App Factory bootstrap
+Flutter project, identity, production-intent icon, localization, theme, profile/settings, responsive shell, CI/Web Preview.
+
+STEP 2 — Calendar/Data Core
+Canonical schema, recurrence engine, occurrence generator, 365/366 calendar, official source seed, dedup/alias logic, search/filter indexes, tests.
+
+STEP 3 — Today + Calendar MVP
+Today hero, multiple observances per day, month calendar, detail screen, categories, search, source badges, offline behavior.
+
+STEP 4 — Editorial & Visual Layer
+Original English editorial templates, visual_key artwork system, share cards, related content, themed collections.
+
+STEP 5 — Retention Engine
+Favorites, recent history, daily/weekly loops, random discovery, quiz, streak, local notifications; widget after core is stable.
+
+STEP 6 — Localization & Market Layer
+Full UI en/it/es/fr/de/pt; content pack translation pipeline; separate locale from country/market; country/regional observance filtering.
+
+STEP 7 — AdMob + Consent + Measurement
+UMP, adaptive banner/inline placements, conservative interstitial controller, test traffic, analytics, no-ads entitlement, app-ads.txt/store readiness.
+
+STEP 8 — Updatable Content Packs
+Bundled fallback + optional remote versioned catalog packs with manifest/checksum/staged activation/rollback; annual theme overrides.
+
+STEP 9 — QA / Release
+Analyze/test/build, Web Preview visual QA, AppLab/runtime, notification physical validation, release signing, exact-artifact SHA-256, Store Ready gates.
+
+14. V1 NON-GOALS
+- mandatory account/login
+- social network/comments
+- user-generated observance publishing
+- runtime generative AI
+- heavy local AI models
+- full public-holiday planner
+- two-way external calendar sync
+
+
+15. STEP 0/2 IMPLEMENTATION FREEZE — 2026-10-11
+- Package/bundle baseline: com.riccardopinato.worlddays
+- Canonical recurrence field is recurrenceRules[] (plural), because one observance can occur more than once per year.
+- First-party recurrence engine chosen instead of adding full RFC5545 `rrule` dependency.
+- Deterministic supported rules: FIXED_DATE, NTH_WEEKDAY, LAST_WEEKDAY, LAST_DAY_OF_MONTH, FIXED_RANGE, MULTI_RULE; LUNAR/AUTHORITY_DEFINED require verified yearly overrides.
+- Official core seed v2026.10.11.1: 268 canonical observances assembled from current UN core plus verified UNESCO-only / WHO-official additions in this pass.
+- 2026 occurrence index: 269 occurrences across 365 dates; 221 dates have >=1 current official/institutional observance and 144 are currently empty at the official-core layer.
+- 2026 deterministic recurrence vectors PASS.
+- Cross-year vectors PASS for 2026/2027/2028: International Day of Cooperatives, World Habitat Day, World Migratory Bird Day, World Maritime Day, World Day of Remembrance for Road Traffic Victims, World Philosophy Day, International Girls in ICT Day.
+- Vesak remains authority/lunar override based: 2026 resolved from current UN calendar; 2027/2028 deliberately unresolved until primary yearly evidence is added.
+- Discovery backlog v0.1 contains 156 Pineta 2026 raw candidates not promoted to app-facing canonical truth until verification/dedup/classification.
+
+16. CURRENT EXECUTION STATUS
+STEP 0: substantially complete; long-tail discovery verification continues.
+STEP 1: manifest/spec ready; actual Flutter project creation requires the target app repository/worktree.
+STEP 2: recurrence engine + tests + official seed + 2026 date index implemented as handoff files; Dart runtime execution still requires a Flutter/Dart environment.

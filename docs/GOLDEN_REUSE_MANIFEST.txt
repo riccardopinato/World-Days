@@ -1,0 +1,121 @@
+WORLD DAYS — GOLDEN REUSE MANIFEST v0.1
+Factory baseline: riccardopinato/App-Factory-Core @ fa3c0679de393f1cb13c2fed2be314d1a1269353
+
+RULE
+COPY FIRST. EXTEND BEFORE DUPLICATE.
+The files below are the exact Core sources to use. Do not regenerate equivalent infrastructure unless World Days has a documented delta.
+
+A. COPY-READY GOLDENS — REUSE DIRECTLY
+
+1) Localization
+Source:
+  golden/ui/GOLDEN_LOCALIZATION_FLUTTER_v1.txt
+Status:
+  COPY-READY GOLDEN
+World Days targets extracted from Golden:
+  lib/core/localization/app_language.dart
+  lib/core/localization/locale_preference.dart
+  l10n.yaml
+  lib/l10n/app_en.arb
+  lib/l10n/app_it.arb
+  lib/l10n/app_es.arb
+  lib/l10n/app_fr.arb
+  lib/l10n/app_de.arb
+  lib/l10n/app_pt.arb
+Required World Days delta:
+  replace APP_NAME
+  add all World Days UI strings
+  preserve EN template/fallback, device default and persistent manual override
+Freshness:
+  Registry says NEEDS_REVIEW because provider-sensitive. The structural ARB/gen_l10n pattern remains the selected Golden; re-check package compatibility when Flutter baseline is fixed.
+
+2) Theme Material 3
+Source:
+  golden/ui/GOLDEN_THEME_M3_FLUTTER_v1.txt
+Status:
+  COPY-READY GOLDEN
+World Days targets extracted from Golden:
+  lib/core/theme/app_design_tokens.dart
+  lib/core/theme/app_theme.dart
+Required World Days delta:
+  brand seed + editorial consumer components only
+  keep touch targets >=48dp and light/dark/system
+Do NOT replace the token system with scattered per-widget styling.
+
+3) Profile Standard
+Source:
+  golden/identity/GOLDEN_PROFILE_STANDARD_FLUTTER_v1.txt
+Status:
+  COPY-READY GOLDEN
+World Days targets extracted from Golden:
+  lib/features/profile/domain/profile_preferences.dart
+  lib/features/profile/domain/profile_repository.dart
+  lib/features/profile/data/shared_preferences_profile_repository.dart
+  lib/features/profile/presentation/profile_scope.dart
+  lib/features/profile/presentation/profile_page.dart
+World Days delta:
+  no mandatory account section
+  add market/country preference, notification preferences entry, Privacy Choices and Remove Ads entry
+  local preferences must work without login
+
+4) Notification Reliability
+Source:
+  golden/notifications/GOLDEN_NOTIFICATION_RELIABILITY_FLUTTER_v1.txt
+Status:
+  COPY-READY GOLDEN
+World Days use:
+  daily Today reminder
+  favorite observance reminder
+  followed-category reminder
+Rules inherited:
+  notification failure must never corrupt/save-block core data
+  stable notification IDs
+  permission just-in-time
+  scheduled-vs-delivered diagnostic truth
+  physical device validation before certification
+Freshness:
+  NEEDS_REVIEW in Registry; re-check flutter_local_notifications/platform setup before production release.
+
+5) CI + Android Release + Web Deploy
+Source:
+  golden/release/GOLDEN_CI_RELEASE_WEB_DEPLOY_FLUTTER_v2.txt
+Status:
+  COPY-READY GOLDEN
+Freshness:
+  CURRENT; provider verified 2026-10-09, content reviewed 2026-10-11.
+Copy/parameterize:
+  .github/workflows/dev-checks.yml
+  .github/workflows/build-release.yml
+  .github/workflows/deploy-pages.yml
+World Days placeholders:
+  ARTIFACT_PREFIX=world-days
+  REPO_NAME=<actual repo name>
+  FLUTTER_VERSION=<pin after project bootstrap>
+Keep immutable GitHub Action SHA pins from the Golden.
+Production signing remains a separate gate; CI green != production signing verified.
+
+B. CANDIDATE / PROCESS GOLDENS — APPLY, DO NOT CLAIM CERTIFIED
+- golden/governance/GOLDEN_APP_BOOTSTRAP_FLUTTER_v1_DRAFT.txt
+- golden/ui/GOLDEN_APP_ICON_BRANDING_FLUTTER_v1_DRAFT.txt
+- golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
+- golden/ui/GOLDEN_ONBOARDING_FIRST_RUN_FLUTTER_v1_DRAFT.txt
+- golden/monetization/GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT.txt
+- golden/data/GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT.txt
+- golden/release/GOLDEN_RELEASE_REALITY_PHYSICAL_VALIDATION_v1_DRAFT.txt
+- golden/release/GOLDEN_ANDROID_SIGNING_RELEASE_IDENTITY_v1_DRAFT.txt
+
+C. ADMOB BOUNDARY
+The AdMob Golden is candidate, not copy-ready.
+Before production integration re-check Google provider docs/current google_mobile_ads compatibility.
+Web Preview uses stub/no-op; no google_mobile_ads initialization on Web.
+Premium/No Ads must prevent ad REQUESTS, not merely hide loaded ads.
+
+D. DOMAIN CODE THAT IS WORLD-DAYS SPECIFIC
+Do not search for or create another generic framework around it:
+- Observance model
+- recurrence engine
+- occurrence generator
+- catalog validator
+- source/provenance model
+- editorial content model
+These are small domain modules and live outside the cross-app Golden library until proven reusable.

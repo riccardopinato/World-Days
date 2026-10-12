@@ -1,0 +1,43 @@
+WORLD DAYS — OSS REUSE / PROVENANCE LEDGER v0.1
+Date: 2026-10-11
+
+MODULE: recurrence engine
+
+1. JonasWanke/rrule
+URL: https://github.com/JonasWanke/rrule
+Package: https://pub.dev/packages/rrule
+License: Apache-2.0
+Observed version: 0.2.18
+Strengths: RFC 5545 recurrence parsing/calculation; Android/iOS/Web/Desktop; actively maintained.
+Decision: REFERENCE ONLY for v1, not imported.
+Reason: World Days needs a much narrower rule set; adding full RRULE parsing increases dependency surface, transitive dependencies and migration risk without current product value.
+
+2. jkbrzt/rrule
+URL: https://github.com/jkbrzt/rrule
+License: repository OSS; JS/TS recurrence implementation.
+Decision: CONCEPTUAL REFERENCE ONLY.
+Reason: non-Dart runtime; useful as established RFC recurrence reference, not a dependency.
+
+3. zyllus17/Flutter-Calendar
+URL: https://github.com/zyllus17/Flutter-Calendar
+Purpose: static Flutter calendar with holiday markers.
+Decision: DO NOT REUSE CODE.
+Reason: small/simple demo; World Days needs editorial cards, provenance, multi-observance dates, recurrence and responsive visual system beyond this donor.
+
+4. Syncfusion recurrence Flutter example
+URL: https://github.com/SyncfusionExamples/get-recurrence-properties-from-rrule-in-flutter-calendar
+Decision: DO NOT REUSE CODE.
+Reason: tied to a broader calendar component approach; unnecessary for a bespoke World Days month grid and data model.
+
+WORLD DAYS DECISION
+Build a small first-party recurrence engine supporting only:
+- fixed date
+- Nth weekday
+- last weekday
+- last day of month
+- fixed range
+- annual authoritative override
+- multiple rules per canonical observance
+- explicit unresolved state for lunar/authority-defined cases
+
+This follows App Factory Dependency Admission: do not add a package for stable logic that remains small and testable.
