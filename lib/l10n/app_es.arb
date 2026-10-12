@@ -63,5 +63,22 @@
   "countryGermany": "Alemania",
   "countryPortugal": "Portugal",
   "countryUnitedKingdom": "Reino Unido",
-  "countryUnitedStates": "Estados Unidos"
+  "countryUnitedStates": "Estados Unidos",
+  "notifications": "Notificaciones",
+  "dailyReminder": "Recordatorio diario",
+  "dailyReminderDescription": "Recibe por la mañana un recordatorio de las conmemoraciones verificadas de tu mercado.",
+  "reminderTime": "Hora del recordatorio",
+  "weeklyDigest": "Resumen semanal",
+  "weeklyDigestDescription": "Recibe el domingo una vista previa de la próxima semana de World Days.",
+  "notificationPermissionDenied": "No se concedió el permiso de notificaciones.",
+  "favoriteReminders": "Recordatorios de favoritos",
+  "remindMe": "Recordármelo",
+  "followedCategories": "Categorías seguidas",
+  "categoryRemindersDescription": "Sigue categorías para recibir un aviso la tarde anterior.",
+  "noCategoriesFollowed": "Aún no sigues categorías.",
+  "share": "Compartir",
+  "shareCard": "Tarjeta para compartir",
+  "shareCardSubtitle": "Crea una tarjeta visual de World Days para compartir.",
+  "shareFailed": "Compartir no está disponible ahora.",
+  "todayOnWorldDays": "Hoy en World Days"
 }
