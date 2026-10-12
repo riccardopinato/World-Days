@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
+import '../../core/sharing/share_card_sheet.dart';
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
 
@@ -37,6 +38,18 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     return Scaffold(
       appBar: AppBar(
         actions: [
+          IconButton(
+            tooltip: l10n.share,
+            onPressed: () => showShareCardSheet(
+              context: context,
+              observance: record,
+              shareLabel: l10n.share,
+              subtitle: l10n.shareCardSubtitle,
+              failedMessage: l10n.shareFailed,
+              todayLabel: l10n.todayOnWorldDays,
+            ),
+            icon: const Icon(Icons.ios_share_rounded),
+          ),
           IconButton(
             tooltip: favorite ? l10n.removeFavorite : l10n.addFavorite,
             onPressed: () async {
