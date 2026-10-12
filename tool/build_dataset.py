@@ -2,6 +2,8 @@ import json, re, calendar
 from datetime import date, timedelta
 from pathlib import Path
 
+from market_catalog import MARKET_RECORDS
+
 VERIFIED='2026-10-12'
 UN='https://www.un.org/en/observances/list-days-weeks'
 UNESCO='https://www.unesco.org/en/days/list'
@@ -468,6 +470,12 @@ consumer_fixed(
     ['Culture','Rights'],
 )
 
+# VERIFIED MARKET / AROUND THE WORLD LAYER
+for market_record in MARKET_RECORDS:
+    if any(r['id'] == market_record['id'] for r in records):
+        raise ValueError('duplicate id ' + market_record['id'])
+    records.append(market_record)
+
 # 2026 annual campaign overrides known from primary WHO pages.
 year_overrides=[
     {
@@ -591,9 +599,9 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.10.12.2',
+ 'datasetVersion':'2026.10.12.3',
  'generatedAt':'2026-10-12',
- 'coverage':'Verified UN/UNESCO/WHO institutional core plus a separately classified originator-backed consumer tranche.',
+ 'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers.',
  'records':sorted(records,key=lambda r:r['id']),
  'yearOverrides':year_overrides,
 }

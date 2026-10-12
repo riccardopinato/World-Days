@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/market_options.dart';
 import '../../l10n/app_localizations.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -68,6 +69,31 @@ class SettingsPage extends StatelessWidget {
                 ),
             ],
             onChanged: controller.setLocale,
+          ),
+          const SizedBox(height: 28),
+          _SectionTitle(l10n.market),
+          Text(
+            l10n.marketDescription,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+          const SizedBox(height: 12),
+          DropdownButtonFormField<String>(
+            initialValue: controller.preferences.marketCode,
+            decoration: const InputDecoration(
+              prefixIcon: Icon(Icons.public_rounded),
+            ),
+            items: [
+              for (final option in marketOptions)
+                DropdownMenuItem<String>(
+                  value: option.code,
+                  child: Text(
+                    '${option.emoji}  ${marketLabel(l10n, option.code)}',
+                  ),
+                ),
+            ],
+            onChanged: (value) {
+              if (value != null) controller.setMarket(value);
+            },
           ),
           const SizedBox(height: 28),
           _SectionTitle(l10n.about),

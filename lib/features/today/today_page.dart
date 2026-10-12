@@ -110,7 +110,11 @@ class TodayPage extends StatelessWidget {
     for (final occurrence in occurrences) {
       if (occurrence.end.isBefore(start)) continue;
       final record = catalog.byId[occurrence.observanceId];
-      if (record != null && seen.add(record.id)) result.add(record);
+      if (record != null &&
+          controller.isVisibleForMarket(record) &&
+          seen.add(record.id)) {
+        result.add(record);
+      }
       if (result.length >= 8) break;
     }
     return result;

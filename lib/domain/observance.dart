@@ -39,6 +39,8 @@ final class Observance {
     required this.title,
     required this.periodKind,
     required this.scope,
+    required this.countries,
+    required this.regions,
     required this.authority,
     required this.sources,
     required this.rules,
@@ -49,6 +51,8 @@ final class Observance {
   final String title;
   final String periodKind;
   final String scope;
+  final List<String> countries;
+  final List<String> regions;
   final ObservanceAuthority authority;
   final List<ObservanceSource> sources;
   final List<RecurrenceRule> rules;
@@ -59,6 +63,12 @@ final class Observance {
         title: json['canonicalTitleEn'] as String,
         periodKind: json['periodKind']?.toString() ?? 'DAY',
         scope: json['scope']?.toString() ?? 'GLOBAL',
+        countries: (json['countries'] as List? ?? const [])
+            .map((e) => e.toString().toUpperCase())
+            .toList(growable: false),
+        regions: (json['regions'] as List? ?? const [])
+            .map((e) => e.toString())
+            .toList(growable: false),
         authority: ObservanceAuthority.fromJson(
           Map<String, dynamic>.from(json['authority'] as Map),
         ),
