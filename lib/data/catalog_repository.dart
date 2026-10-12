@@ -12,13 +12,22 @@ final class CatalogSnapshot {
     required this.records,
     required this.byId,
     required this.occurrences2026,
-    required this.editorialById,
+    required this.editorialByLocale,
   });
 
   final List<Observance> records;
   final Map<String, Observance> byId;
   final List<ObservanceOccurrence> occurrences2026;
-  final Map<String, EditorialEntry> editorialById;
+  final Map<String, Map<String, EditorialEntry>> editorialByLocale;
+
+  Map<String, EditorialEntry> get editorialById =>
+      editorialByLocale['en'] ?? const <String, EditorialEntry>{};
+
+  EditorialEntry? editorialFor(String observanceId, String localeCode) {
+    final normalized = localeCode.toLowerCase();
+    return editorialByLocale[normalized]?[observanceId] ??
+        editorialByLocale['en']?[observanceId];
+  }
 }
 
 final class CatalogRepository {
@@ -27,11 +36,16 @@ final class CatalogRepository {
   Future<CatalogSnapshot> load() async {
     final seedRaw = await rootBundle.loadString('assets/data/official_core.json');
     final occurrenceRaw = await rootBundle.loadString('assets/data/occurrences_2026.json');
-    final editorialRaw = await rootBundle.loadString('assets/data/editorial_en.json');
+    const editorialLocales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+    final editorialRaw = <String, String>{};
+    for (final locale in editorialLocales) {
+      editorialRaw[locale] = await rootBundle.loadString(
+        'assets/data/editorial_$locale.json',
+      );
+    }
 
     final seed = jsonDecode(seedRaw) as Map<String, dynamic>;
     final occurrence = jsonDecode(occurrenceRaw) as Map<String, dynamic>;
-    final editorial = jsonDecode(editorialRaw) as Map<String, dynamic>;
 
     final records = (seed['records'] as List)
         .map((e) => Observance.fromJson(Map<String, dynamic>.from(e as Map)))
@@ -44,18 +58,27 @@ final class CatalogRepository {
         .toList(growable: false)
       ..sort((a, b) => a.start.compareTo(b.start));
 
-    final editorialEntries = (editorial['entries'] as List? ?? const [])
-        .map((e) => EditorialEntry.fromJson(Map<String, dynamic>.from(e as Map)))
-        .toList(growable: false);
-    final editorialById = {
-      for (final item in editorialEntries) item.observanceId: item,
-    };
+    final editorialByLocale = <String, Map<String, EditorialEntry>>{};
+    for (final locale in editorialLocales) {
+      final payload =
+          jsonDecode(editorialRaw[locale]!) as Map<String, dynamic>;
+      final entries = (payload['entries'] as List? ?? const [])
+          .map(
+            (e) => EditorialEntry.fromJson(
+              Map<String, dynamic>.from(e as Map),
+            ),
+          )
+          .toList(growable: false);
+      editorialByLocale[locale] = {
+        for (final item in entries) item.observanceId: item,
+      };
+    }
 
     return CatalogSnapshot(
       records: records,
       byId: byId,
       occurrences2026: occurrences,
-      editorialById: editorialById,
+      editorialByLocale: editorialByLocale,
     );
   }
 
