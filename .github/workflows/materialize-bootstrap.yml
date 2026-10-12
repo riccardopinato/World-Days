@@ -31,7 +31,9 @@ jobs:
           base64 -d /tmp/worlddays_project.tar.gz.b64 > /tmp/worlddays_project.tar.gz
           echo "6fdc614eb658f8a258a0965c9a4706288e5fe670f373e261c6c2ccb48b85f5d2  /tmp/worlddays_project.tar.gz" | sha256sum -c -
           tar -xzf /tmp/worlddays_project.tar.gz -C .
-          rm -rf .bootstrap
+          rm -rf .bootstrap tool/__pycache__
+          # Workflow files are written by the GitHub connector after materialization.
+          rm -f .github/workflows/dev-checks.yml .github/workflows/deploy-pages.yml
 
       - name: Commit materialized foundation
         shell: bash
