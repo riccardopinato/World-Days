@@ -12,6 +12,23 @@ void main() {
     expect(snapshot.occurrences2026.length, greaterThanOrEqualTo(260));
   });
 
+  test('reviewed English editorial pack is linked by canonical id', () async {
+    final snapshot = await const CatalogRepository().load();
+
+    expect(snapshot.editorialById.length, greaterThanOrEqualTo(28));
+
+    final water = snapshot.editorialById['world-water-day'];
+    expect(water, isNotNull);
+    expect(water!.locale, 'en');
+    expect(water.status, 'REVIEWED');
+    expect(water.summary.length, greaterThan(80));
+    expect(water.waysToTakePart.length, 3);
+
+    final cancer = snapshot.editorialById['world-cancer-day'];
+    expect(cancer, isNotNull);
+    expect(cancer!.whyItMatters, isNotEmpty);
+  });
+
   test('curated consumer records preserve provenance and classification', () async {
     final snapshot = await const CatalogRepository().load();
 

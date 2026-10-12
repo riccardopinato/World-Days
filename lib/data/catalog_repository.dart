@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+import '../domain/editorial_entry.dart';
 import '../domain/observance.dart';
 import '../domain/occurrence.dart';
 import '../domain/recurrence_engine.dart';
@@ -11,11 +12,13 @@ final class CatalogSnapshot {
     required this.records,
     required this.byId,
     required this.occurrences2026,
+    required this.editorialById,
   });
 
   final List<Observance> records;
   final Map<String, Observance> byId;
   final List<ObservanceOccurrence> occurrences2026;
+  final Map<String, EditorialEntry> editorialById;
 }
 
 final class CatalogRepository {
@@ -24,9 +27,11 @@ final class CatalogRepository {
   Future<CatalogSnapshot> load() async {
     final seedRaw = await rootBundle.loadString('assets/data/official_core.json');
     final occurrenceRaw = await rootBundle.loadString('assets/data/occurrences_2026.json');
+    final editorialRaw = await rootBundle.loadString('assets/data/editorial_en.json');
 
     final seed = jsonDecode(seedRaw) as Map<String, dynamic>;
     final occurrence = jsonDecode(occurrenceRaw) as Map<String, dynamic>;
+    final editorial = jsonDecode(editorialRaw) as Map<String, dynamic>;
 
     final records = (seed['records'] as List)
         .map((e) => Observance.fromJson(Map<String, dynamic>.from(e as Map)))
@@ -39,10 +44,18 @@ final class CatalogRepository {
         .toList(growable: false)
       ..sort((a, b) => a.start.compareTo(b.start));
 
+    final editorialEntries = (editorial['entries'] as List? ?? const [])
+        .map((e) => EditorialEntry.fromJson(Map<String, dynamic>.from(e as Map)))
+        .toList(growable: false);
+    final editorialById = {
+      for (final item in editorialEntries) item.observanceId: item,
+    };
+
     return CatalogSnapshot(
       records: records,
       byId: byId,
       occurrences2026: occurrences,
+      editorialById: editorialById,
     );
   }
 
