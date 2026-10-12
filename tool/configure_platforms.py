@@ -189,7 +189,6 @@ class WorldDaysWidgetProvider : HomeWidgetProvider() {
     (xml_dir / "world_days_widget_info.xml").write_text(
         """<?xml version="1.0" encoding="utf-8"?>
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:description="@string/app_name"
     android:initialLayout="@layout/world_days_widget"
     android:minHeight="110dp"
     android:minWidth="180dp"
@@ -243,9 +242,14 @@ def configure_ios() -> None:
     if not project.exists():
         raise RuntimeError("iOS scaffold is missing")
     text = project.read_text(encoding="utf-8")
-    text = text.replace("com.riccardopinato.worldDays", CANONICAL_ID)
-    text = text.replace("com.riccardopinato.world_days", CANONICAL_ID)
-    project.write_text(text, encoding="utf-8")
+    lines = []
+    for line in text.splitlines():
+        if "PRODUCT_BUNDLE_IDENTIFIER =" in line:
+            indent = line[: len(line) - len(line.lstrip())]
+            suffix = ".RunnerTests" if "RunnerTests" in line else ""
+            line = f"{indent}PRODUCT_BUNDLE_IDENTIFIER = {CANONICAL_ID}{suffix};"
+        lines.append(line)
+    project.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def validate_identity() -> None:
