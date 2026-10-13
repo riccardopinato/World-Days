@@ -494,6 +494,36 @@ for market_record in MARKET_RECORDS:
         raise ValueError('duplicate id ' + market_record['id'])
     records.append(market_record)
 
+# LOCALIZED OBSERVANCE TITLES
+# Canonical identity remains English; display titles are static, offline and
+# versioned separately so locale changes never alter IDs or recurrence data.
+TITLE_LOCALES = ('it', 'es', 'fr', 'de', 'pt')
+TITLE_SOURCE_DIR = Path(__file__).resolve().parents[1] / 'data' / 'titles'
+canonical_titles = {record['canonicalTitleEn'] for record in records}
+title_localizations = {}
+
+for locale in TITLE_LOCALES:
+    path = TITLE_SOURCE_DIR / f'{locale}.json'
+    payload = json.loads(path.read_text(encoding='utf-8'))
+    assert payload.get('locale') == locale, (path, payload.get('locale'))
+    titles = payload.get('titles') or {}
+    missing = sorted(canonical_titles - set(titles))
+    extra = sorted(set(titles) - canonical_titles)
+    assert not missing, f'{locale} missing title translations: {missing}'
+    assert not extra, f'{locale} has unknown title translations: {extra}'
+    assert all(str(value).strip() for value in titles.values()), f'{locale} contains empty title translations'
+    title_localizations[locale] = titles
+
+for record in records:
+    canonical = record['canonicalTitleEn']
+    record['localizedTitles'] = {
+        'en': canonical,
+        **{
+            locale: title_localizations[locale][canonical]
+            for locale in TITLE_LOCALES
+        },
+    }
+
 # 2026 annual campaign overrides known from primary WHO pages.
 year_overrides=[
     {
