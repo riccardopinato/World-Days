@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
 import '../../core/visual/observance_visuals.dart';
+import '../../core/visual/visual_content_labels.dart';
 import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
@@ -42,7 +43,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
       appBar: AppBar(
         actions: [
           IconButton(
-            tooltip: l10n.shareThisDay,
+            tooltip: VisualContentLabels.of(context).shareThisDay,
             onPressed: () => showWorldDaysShareCard(
               context: context,
               observance: record,
