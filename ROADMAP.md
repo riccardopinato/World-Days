@@ -1,51 +1,37 @@
 # World Days — Active roadmap
 
-Only open/future work is listed here.
+Execution numbering reflects the current implementation sequence. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
-## Step 1 — Flutter real validation
-- generate platform scaffold with the pinned Flutter toolchain;
-- run `flutter pub get` and commit `pubspec.lock` after resolution is proven;
-- make `flutter analyze`, `flutter test`, Web build and Android build green;
-- repair every compile/runtime issue found by CI.
+## Completed through Step 8
 
-## Step 2 — Repository / CI baseline
-- merge the validated foundation PR to `main`;
-- enable stable GitHub Pages Web Preview;
-- keep `main` green and move later features through PRs.
+Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion, reviewed multilingual editorial content, market/Around-the-World layers and the current consumer shell.
 
-## Step 3 — Device / UX QA
-- Android physical QA for all five primary destinations;
-- responsive/dark/font-scale checks;
-- notification deep-link and launcher tests once notifications land.
+### Step 8 — Visual Content Upgrade
+- deterministic `visualKey` for every generated catalog record;
+- reusable first-party procedural illustration system;
+- editorial Today/detail hero treatment and richer observance cards;
+- themed Discover collections;
+- locally generated 4:5 PNG share cards;
+- visual/media licensing contract with offline fallback;
+- localization parity and visual/widget regression coverage.
 
-## Step 4 — Consumer catalog expansion
-- verify discovery candidates against their originators;
-- deduplicate aliases and classify officiality;
-- expand popular/consumer observances without contaminating the official catalog.
-
-## Step 5 — Editorial content
-- original English-first summaries, history, facts, actions and related observances;
-- licensed/owned visual content only.
-
-## Step 6 — Markets / Around the World
-- broaden verified country/regional layers;
-- keep locale separate from market.
-
-## Step 7 — Retention/native layer
-- notification reliability Golden;
+## Step 9 — Retention / native layer
+- notification reliability Golden review against current providers;
 - daily/weekly/category/favorite reminders;
 - Android Home Screen Widget;
-- share cards and physical QA.
+- physical notification/deep-link/widget QA.
 
-## Step 8 — Monetization
+## Step 10 — Monetization
 - UMP + AdMob adaptive placements using test traffic until production;
-- lifetime Remove Ads via store product and sandbox validation.
+- lifetime Remove Ads entitlement;
+- sandbox billing/consent validation and no-ad-request premium behavior.
 
-## Step 9 — Remote catalog updates
+## Step 11 — Remote catalog updates
 - production content hosting;
-- signed/versioned manifest, checksum, staging, atomic activation and rollback.
+- signed/versioned manifest, checksum, staging, atomic activation and rollback;
+- annual campaign/theme overrides.
 
-## Step 10 — Production release
+## Step 12 — Production release
 - permanent Android signing identity and first production signing run;
-- exact-artifact QA, APK/AAB hashes, update-in-place;
+- exact-artifact QA, APK/AAB hashes and update-in-place;
 - Play Console, Data Safety, privacy/store assets and release.

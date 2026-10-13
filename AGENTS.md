@@ -2,7 +2,7 @@
 
 Source of product truth: `docs/PRODUCT_BIBLE.txt`.
 Source of execution truth: `ROADMAP.md`.
-App Factory baseline for this repository bootstrap: `App-Factory-Core@fa3c0679de393f1cb13c2fed2be314d1a1269353`.
+App Factory baseline for this repository bootstrap: `App-Factory-Core@23c5b0f6b5f02a93e03bb36106f12575a58129d3`.
 
 Rules:
 - Flutter/Dart is the default stack.
@@ -13,3 +13,4 @@ Rules:
 - Web Preview proves shared UI/navigation only; it does not certify native capabilities.
 - Keep `main` stable; use PRs for substantive changes.
 - Update README/ROADMAP whenever product state materially changes.
+- Visual content keeps a lightweight offline fallback; third-party media requires explicit license/provenance metadata.

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
+import '../visual/observance_visuals.dart';
 
 class ObservanceCard extends StatelessWidget {
   const ObservanceCard({
@@ -21,6 +22,8 @@ class ObservanceCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
     final l10n = AppLocalizations.of(context);
+    final visual = ObservanceVisuals.resolve(observance);
+    final compactArtwork = MediaQuery.textScalerOf(context).scale(1) >= 1.7;
 
     return Semantics(
       container: true,
@@ -30,55 +33,54 @@ class ObservanceCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(24),
           onTap: onTap,
           child: Padding(
-            padding: const EdgeInsets.all(18),
+            padding: const EdgeInsets.all(16),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 ExcludeSemantics(
-                  child: Container(
-                    width: 52,
-                    height: 52,
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          colors.primaryContainer,
-                          colors.tertiaryContainer,
-                        ],
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
+                  child: SizedBox.square(
+                    dimension: compactArtwork ? 58 : 72,
+                    child: ObservanceArtwork(
+                      style: visual,
+                      borderRadius: BorderRadius.circular(20),
+                      foreground: Center(
+                        child: Icon(
+                          visual.icon,
+                          color: Colors.white,
+                          size: compactArtwork ? 24 : 28,
+                        ),
                       ),
-                      borderRadius: BorderRadius.circular(18),
-                    ),
-                    child: Icon(
-                      _iconFor(observance.title),
-                      color: colors.onPrimaryContainer,
                     ),
                   ),
                 ),
                 const SizedBox(width: 14),
                 Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        observance.title,
-                        maxLines: 3,
-                        overflow: TextOverflow.ellipsis,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w800,
-                              height: 1.15,
-                            ),
-                      ),
-                      const SizedBox(height: 7),
-                      Text(
-                        observance.authority.name,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: colors.onSurfaceVariant,
-                            ),
-                      ),
-                    ],
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          observance.title,
+                          maxLines: 4,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                fontWeight: FontWeight.w900,
+                                height: 1.12,
+                              ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          observance.authority.name,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                color: colors.onSurfaceVariant,
+                                height: 1.25,
+                              ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 if (onFavorite != null)
@@ -97,35 +99,5 @@ class ObservanceCard extends StatelessWidget {
         ),
       ),
     );
-  }
-
-  static IconData _iconFor(String title) {
-    final value = title.toLowerCase();
-    if (value.contains('health') || value.contains('disease')) {
-      return Icons.favorite_rounded;
-    }
-    if (value.contains('water') ||
-        value.contains('ocean') ||
-        value.contains('sea')) {
-      return Icons.water_drop_rounded;
-    }
-    if (value.contains('environment') ||
-        value.contains('forest') ||
-        value.contains('earth')) {
-      return Icons.eco_rounded;
-    }
-    if (value.contains('women') || value.contains('girl')) {
-      return Icons.diversity_1_rounded;
-    }
-    if (value.contains('science') || value.contains('space')) {
-      return Icons.science_rounded;
-    }
-    if (value.contains('education') || value.contains('language')) {
-      return Icons.school_rounded;
-    }
-    if (value.contains('peace') || value.contains('rights')) {
-      return Icons.public_rounded;
-    }
-    return Icons.auto_awesome_rounded;
   }
 }

@@ -35,7 +35,7 @@ def _record(
         "authority": _authority(authority, resolution=resolution),
         "categories": categories,
         "sources": [_source(source)],
-        "visualKey": f"market-{country.lower()}",
+        "visualKey": "people",
         "editorialStatus": "STUB",
         "notes": ["Curated market-layer observance. Locale and market are intentionally independent."],
         "lastVerifiedAt": VERIFIED,

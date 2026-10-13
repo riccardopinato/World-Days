@@ -23,6 +23,24 @@ def auth(name='United Nations',typ='UN',officiality='OFFICIAL_UN',resolution=Non
 def src(url,tier='A_PRIMARY'):
     return {'tier':tier,'url':url,'verifiedAt':VERIFIED}
 
+VISUAL_KEYS = {'planet','health','people','learning','culture','food','future','community'}
+
+def infer_visual_key(title, categories=None):
+    hay = ' '.join([title] + list(categories or [])).lower().replace('_', ' ')
+    groups = [
+        ('health', ('health','disease','cancer','nurse','heart','tuberculosis','mental','alzheimer','suicide','aids','malaria','hepatitis','blood','patient','diabetes')),
+        ('planet', ('water','ocean','sea','forest','earth','environment','wildlife','wetland','climate','biodiversity','desert','glacier','mountain','soil','ozone','meteorological','turtle','seagrass','animal')),
+        ('learning', ('education','science','braille','language','literacy','logic','teacher','mathematics','learning')),
+        ('culture', ('culture','poetry','radio','theatre','dance','museum','jazz','art','music','emoji','tourism','heritage')),
+        ('food', ('food','vegan','pulse','gastronomy','tea','coffee','agriculture')),
+        ('people', ('women','girl','rights','refugee','peace','justice','discrimination','slavery','fraternity','social','family','children','youth','kindness','solidarity','democracy','indigenous','disability','civic','history','remembrance')),
+        ('future', ('space','telecommunication','internet','innovation','technology','industrial','energy','digital','coding')),
+    ]
+    for visual_key, terms in groups:
+        if any(term in hay for term in terms):
+            return visual_key
+    return 'community'
+
 def add(title, period, rules, authority, source_url, categories=None, aliases=None, notes=None, source_tier='A_PRIMARY'):
     rid=slug(title)
     if any(r['id']==rid for r in records):
@@ -39,7 +57,7 @@ def add(title, period, rules, authority, source_url, categories=None, aliases=No
         'authority':authority,
         'categories':categories or [],
         'sources':[src(source_url,source_tier)],
-        'visualKey':None,
+        'visualKey':infer_visual_key(title, categories),
         'editorialStatus':'STUB',
         'notes':notes or [],
         'lastVerifiedAt':VERIFIED,
@@ -599,8 +617,8 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.10.12.3',
- 'generatedAt':'2026-10-12',
+ 'datasetVersion':'2026.10.13.1',
+ 'generatedAt':'2026-10-13',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers.',
  'records':sorted(records,key=lambda r:r['id']),
  'yearOverrides':year_overrides,

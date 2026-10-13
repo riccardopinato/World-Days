@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
@@ -20,6 +21,7 @@ class DiscoverPage extends StatefulWidget {
 class _DiscoverPageState extends State<DiscoverPage> {
   final _search = TextEditingController();
   String? officiality;
+  String? visualCollectionKey;
 
   @override
   void dispose() {
@@ -31,6 +33,9 @@ class _DiscoverPageState extends State<DiscoverPage> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     var records = widget.controller.search(_search.text);
+    if (visualCollectionKey != null) {
+      records = records.where((item) => ObservanceVisuals.resolve(item).key == visualCollectionKey).toList(growable: false);
+    }
     if (officiality != null) {
       records = records
           .where((item) => item.authority.officiality == officiality)
@@ -65,7 +70,34 @@ class _DiscoverPageState extends State<DiscoverPage> {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 14),
+                  const SizedBox(height: 18),
+                  Text(
+                    l10n.themedCollections,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w900,
+                        ),
+                  ),
+                  const SizedBox(height: 10),
+                  Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      for (final key in ObservanceVisuals.collectionKeys)
+                        FilterChip(
+                          avatar: Icon(
+                            ObservanceVisuals.forKey(key).icon,
+                            size: 18,
+                          ),
+                          label: Text(_collectionLabel(key, l10n)),
+                          selected: visualCollectionKey == key,
+                          onSelected: (_) => setState(
+                            () => visualCollectionKey =
+                                visualCollectionKey == key ? null : key,
+                          ),
+                        ),
+                    ],
+                  ),
+                  const SizedBox(height: 18),
                   TextField(
                     controller: _search,
                     onChanged: (_) => setState(() {}),
@@ -191,6 +223,18 @@ class _DiscoverPageState extends State<DiscoverPage> {
         ],
       ),
     );
+  }
+
+  String _collectionLabel(String key, AppLocalizations l10n) {
+    return switch (key) {
+      'planet' => l10n.collectionPlanet,
+      'health' => l10n.collectionHealth,
+      'people' => l10n.collectionPeople,
+      'learning' => l10n.collectionLearning,
+      'culture' => l10n.collectionCulture,
+      'food' => l10n.collectionFood,
+      _ => key,
+    };
   }
 
   void _open(Observance record) {

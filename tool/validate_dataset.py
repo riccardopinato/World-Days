@@ -8,6 +8,7 @@ occ = json.loads((root / 'assets/data/occurrences_2026.json').read_text(encoding
 
 records = seed.get('records', [])
 ids = [r.get('id') for r in records]
+visual_keys = {'planet','health','people','learning','culture','food','future','community'}
 
 expected_consumer = {
     'world-cancer-day',
@@ -49,6 +50,7 @@ known = set(ids)
 for item in occ.get('occurrences', []):
     assert item.get('observanceId') in known, f"unknown occurrence id: {item.get('observanceId')}"
 for record in records:
+    assert record.get('visualKey') in visual_keys, (record.get('id'), record.get('visualKey'))
     authority = record.get('authority') or {}
     officiality = str(authority.get('officiality', ''))
     sources = record.get('sources', [])

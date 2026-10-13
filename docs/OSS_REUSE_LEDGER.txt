@@ -41,3 +41,24 @@ Build a small first-party recurrence engine supporting only:
 - explicit unresolved state for lunar/authority-defined cases
 
 This follows App Factory Dependency Admission: do not add a package for stable logic that remains small and testable.
+
+
+5. World Days Step 8 procedural visual system
+Origin type: NEW_IMPLEMENTATION
+Source: first-party World Days code
+License: project-owned
+Decision: IMPLEMENTED
+Scope: deterministic visual keys, reusable gradient/geometry artwork, hero/card/collection/share-card composition.
+Dependencies added: none for rendering.
+External media copied: none.
+Validation: dataset visual-key validation + Flutter visual/widget tests + CI build gates.
+
+6. share_plus 12.0.2
+URL: https://pub.dev/packages/share_plus/versions/12.0.2
+Publisher: fluttercommunity.dev
+License: BSD-3-Clause
+Decision: RUNTIME DEPENDENCY for sharing locally rendered PNG cards.
+Reason: provides maintained Android/iOS/Web share-sheet integration without adding a media backend.
+Provider verification: 2026-10-13.
+Verified requirements: Flutter >=3.22, Dart >=3.4, Java 17, Kotlin 2.2.0, Android Gradle Plugin >=8.12.1, Gradle >=8.13.
+Known boundary: share success with third-party target apps is platform/receiver dependent; iPad requires sharePositionOrigin, which World Days supplies.

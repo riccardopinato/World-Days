@@ -45,6 +45,8 @@ final class Observance {
     required this.sources,
     required this.rules,
     required this.aliases,
+    this.categories = const [],
+    this.visualKey,
   });
 
   final String id;
@@ -57,6 +59,8 @@ final class Observance {
   final List<ObservanceSource> sources;
   final List<RecurrenceRule> rules;
   final List<String> aliases;
+  final List<String> categories;
+  final String? visualKey;
 
   factory Observance.fromJson(Map<String, dynamic> json) => Observance(
         id: json['id'] as String,
@@ -81,6 +85,10 @@ final class Observance {
         aliases: (json['aliases'] as List? ?? const [])
             .map((e) => e.toString())
             .toList(growable: false),
+        categories: (json['categories'] as List? ?? const [])
+            .map((e) => e.toString())
+            .toList(growable: false),
+        visualKey: json['visualKey']?.toString(),
       );
 }
 

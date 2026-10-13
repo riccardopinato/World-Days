@@ -1,5 +1,5 @@
 WORLD DAYS — GOLDEN REUSE MANIFEST v0.1
-Factory baseline: riccardopinato/App-Factory-Core @ fa3c0679de393f1cb13c2fed2be314d1a1269353
+Factory baseline: riccardopinato/App-Factory-Core @ 23c5b0f6b5f02a93e03bb36106f12575a58129d3
 
 RULE
 COPY FIRST. EXTEND BEFORE DUPLICATE.
@@ -119,3 +119,18 @@ Do not search for or create another generic framework around it:
 - source/provenance model
 - editorial content model
 These are small domain modules and live outside the cross-app Golden library until proven reusable.
+
+
+E. STEP 8 — VISUAL CONTENT UPGRADE
+
+Relevant Factory guidance:
+- golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
+- golden/data/GOLDEN_MEDIA_ASSET_STORE_FLUTTER_v1_DRAFT.txt
+- golden/governance/GOLDEN_PROVENANCE_REUSE_LEDGER_v1_DRAFT.txt
+- golden/governance/GOLDEN_CODE_HYGIENE_v1_DRAFT.txt
+
+World Days delta:
+- procedural first-party artwork is the mandatory offline fallback;
+- real photography stays gated by explicit license/provenance metadata;
+- title-keyword icon rendering is superseded by the shared visual-key resolver;
+- share_plus is admitted only for native/Web share of locally rendered cards and remains provider-sensitive.
