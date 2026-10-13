@@ -2,7 +2,7 @@
 
 Execution numbering reflects the current implementation sequence. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
-## Completed through Step 8
+## Completed through Step 8.2
 
 Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion, reviewed multilingual editorial content, market/Around-the-World layers and the current consumer shell.
 
@@ -14,6 +14,17 @@ Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion
 - locally generated 4:5 PNG share cards;
 - visual/media licensing contract with offline fallback;
 - localization parity and visual/widget regression coverage.
+
+### Step 8.1 — Share Card Refinement
+- removed the officiality pill from exported 4:5 share artwork;
+- preserved the established visual baseline and local PNG sharing pipeline.
+
+### Step 8.2 — Complete Observance Title Localization
+- all 296 current observance titles available offline in EN/IT/ES/FR/DE/PT;
+- canonical IDs and English source titles remain stable across locale changes;
+- English fallback for unsupported/missing locales;
+- multilingual search covers canonical English, localized titles and aliases;
+- dataset generation fails closed on missing, extra or empty title translations.
 
 ## Step 9 — Retention / native layer
 - notification reliability Golden review against current providers;
