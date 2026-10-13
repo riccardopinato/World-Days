@@ -74,7 +74,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   ),
                   const SizedBox(height: 18),
                   Text(
-                    l10n.themedCollections,
+                    visualLabels.themedCollections,
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           fontWeight: FontWeight.w900,
                         ),
@@ -90,7 +90,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             ObservanceVisuals.forKey(key).icon,
                             size: 18,
                           ),
-                          label: Text(collectionLabels[key] ?? key),
+                          label: Text(visualLabels.collection(key)),
                           selected: visualCollectionKey == key,
                           onSelected: (_) => setState(
                             () => visualCollectionKey =
