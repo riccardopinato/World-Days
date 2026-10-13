@@ -43,9 +43,8 @@ class TodayPage extends StatelessWidget {
                 ObservanceHero(
                   observance: records.first,
                   eyebrow: DateFormat.EEEE(locale).format(now),
-                  subtitle: controller.preferences.streak.toString() +
-                      ' ' +
-                      l10n.streak,
+                  subtitle:
+                      '${controller.preferences.streak} ${l10n.streak}',
                   accentText: now.day.toString(),
                   minHeight: 254,
                 )

@@ -211,6 +211,11 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
     setState(() => _sharing = true);
 
     try {
+      final box = buttonContext.findRenderObject() as RenderBox?;
+      final origin = box != null && box.hasSize
+          ? box.localToGlobal(Offset.zero) & box.size
+          : const Rect.fromLTWH(1, 1, 1, 1);
+
       await WidgetsBinding.instance.endOfFrame;
       final boundary = _boundaryKey.currentContext?.findRenderObject()
           as RenderRepaintBoundary?;
@@ -228,11 +233,6 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
         data.offsetInBytes,
         data.lengthInBytes,
       );
-      final box = buttonContext.findRenderObject() as RenderBox?;
-      final origin = box != null && box.hasSize
-          ? box.localToGlobal(Offset.zero) & box.size
-          : const Rect.fromLTWH(1, 1, 1, 1);
-
       await SharePlus.instance.share(
         ShareParams(
           files: [
@@ -242,7 +242,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
             ),
           ],
           fileNameOverrides: [
-            'world-days-' + widget.observance.id + '.png',
+            'world-days-${widget.observance.id}.png',
           ],
           sharePositionOrigin: origin,
         ),

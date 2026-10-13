@@ -27,7 +27,7 @@ class ObservanceCard extends StatelessWidget {
 
     return Semantics(
       container: true,
-      label: observance.title + '. ' + observance.authority.name,
+      label: '${observance.title}. ${observance.authority.name}',
       child: Card(
         child: InkWell(
           borderRadius: BorderRadius.circular(24),

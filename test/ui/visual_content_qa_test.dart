@@ -52,7 +52,7 @@ void main() {
   testWidgets('hero survives large text scale without layout exceptions',
       (tester) async {
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: MediaQuery(
             data: const MediaQueryData(
@@ -79,7 +79,7 @@ void main() {
 
   testWidgets('share card renders at large text scale', (tester) async {
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: MediaQuery(
             data: const MediaQueryData(
