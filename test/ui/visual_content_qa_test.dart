@@ -107,7 +107,6 @@ void main() {
     expect(find.text('Official'), findsNothing);
     expect(tester.takeException(), isNull);
   });
-}
 
   testWidgets('hero uses the active locale title', (tester) async {
     await tester.pumpWidget(
@@ -129,3 +128,4 @@ void main() {
     expect(find.text('World Water Day'), findsNothing);
     expect(tester.takeException(), isNull);
   });
+}
