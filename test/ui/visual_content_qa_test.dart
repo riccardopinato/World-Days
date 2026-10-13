@@ -55,11 +55,11 @@ void main() {
       const MaterialApp(
         home: Scaffold(
           body: MediaQuery(
-            data: const MediaQueryData(
+            data: MediaQueryData(
               size: Size(390, 844),
               textScaler: TextScaler.linear(2),
             ),
-            child: const SingleChildScrollView(
+            child: SingleChildScrollView(
               padding: EdgeInsets.all(20),
               child: ObservanceHero(
                 observance: _water,
@@ -82,11 +82,11 @@ void main() {
       const MaterialApp(
         home: Scaffold(
           body: MediaQuery(
-            data: const MediaQueryData(
+            data: MediaQueryData(
               size: Size(390, 844),
               textScaler: TextScaler.linear(1.6),
             ),
-            child: const Center(
+            child: Center(
               child: SizedBox(
                 width: 320,
                 child: WorldDaysShareCard(
