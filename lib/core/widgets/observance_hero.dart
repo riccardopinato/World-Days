@@ -24,6 +24,8 @@ class ObservanceHero extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final style = ObservanceVisuals.resolve(observance);
+    final textScale = MediaQuery.textScalerOf(context).scale(1);
+    final height = textScale >= 1.5 ? minHeight + 96 : minHeight;
 
     return Semantics(
       container: true,
