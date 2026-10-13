@@ -33,14 +33,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    final collectionLabels = <String, String>{
-      'planet': l10n.collectionPlanet,
-      'health': l10n.collectionHealth,
-      'people': l10n.collectionPeople,
-      'learning': l10n.collectionLearning,
-      'culture': l10n.collectionCulture,
-      'food': l10n.collectionFood,
-    };
+    final visualLabels = VisualContentLabels.of(context);
     var records = widget.controller.search(_search.text);
     if (visualCollectionKey != null) {
       records = records.where((item) => ObservanceVisuals.resolve(item).key == visualCollectionKey).toList(growable: false);
