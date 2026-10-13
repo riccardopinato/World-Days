@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/visual/observance_visuals.dart';
+import '../../core/visual/visual_content_labels.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
