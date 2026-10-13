@@ -3,6 +3,7 @@ import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/widgets/observance_card.dart';
+import '../../core/widgets/observance_hero.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
 import '../../l10n/app_localizations.dart';
@@ -38,7 +39,18 @@ class TodayPage extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(20, 0, 20, 32),
           sliver: SliverList.list(
             children: [
-              Container(
+              if (records.isNotEmpty)
+                ObservanceHero(
+                  observance: records.first,
+                  eyebrow: DateFormat.EEEE(locale).format(now),
+                  subtitle: controller.preferences.streak.toString() +
+                      ' ' +
+                      l10n.streak,
+                  accentText: now.day.toString(),
+                  minHeight: 254,
+                )
+              else
+                Container(
                 padding: const EdgeInsets.all(22),
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
