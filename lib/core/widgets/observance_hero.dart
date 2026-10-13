@@ -24,12 +24,15 @@ class ObservanceHero extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final style = ObservanceVisuals.resolve(observance);
+    final title = observance.titleForLocale(
+      Localizations.localeOf(context).languageCode,
+    );
     final textScale = MediaQuery.textScalerOf(context).scale(1);
     final height = textScale >= 1.5 ? minHeight + 96 : minHeight;
 
     return Semantics(
       container: true,
-      label: observance.title,
+      label: title,
       child: SizedBox(
         height: height,
         child: ObservanceArtwork(
@@ -79,7 +82,7 @@ class ObservanceHero extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     Text(
-                      observance.title,
+                      title,
                       maxLines: 4,
                       overflow: TextOverflow.ellipsis,
                       style: Theme.of(context).textTheme.headlineMedium?.copyWith(
