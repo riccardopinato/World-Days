@@ -276,7 +276,7 @@ class ObservanceArtwork extends StatelessWidget {
                     angle: -.28,
                     child: Icon(
                       style.icon,
-                      size: math.max(44, shortest * .58),
+                      size: math.max(44.0, shortest * .58),
                       color: Colors.white.withValues(alpha: .16),
                     ),
                   ),
