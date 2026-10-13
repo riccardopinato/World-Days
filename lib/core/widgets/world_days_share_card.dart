@@ -22,9 +22,13 @@ class WorldDaysShareCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final style = ObservanceVisuals.resolve(observance);
 
-    return AspectRatio(
-      aspectRatio: 4 / 5,
-      child: ObservanceArtwork(
+    return MediaQuery(
+      data: MediaQuery.of(context).copyWith(
+        textScaler: TextScaler.noScaling,
+      ),
+      child: AspectRatio(
+        aspectRatio: 4 / 5,
+        child: ObservanceArtwork(
         style: style,
         borderRadius: BorderRadius.circular(34),
         foreground: Padding(
@@ -88,17 +92,22 @@ class WorldDaysShareCard extends StatelessWidget {
               const SizedBox(height: 28),
               Row(
                 children: [
-                  Text(
-                    'WORLD DAYS',
-                    style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 1.4,
-                        ),
+                  Expanded(
+                    child: Text(
+                      'WORLD DAYS',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: 1.4,
+                          ),
+                    ),
                   ),
-                  const Spacer(),
+                  const SizedBox(width: 12),
                   Text(
-                    'world days · discover daily',
+                    'discover daily',
+                    maxLines: 1,
                     style: Theme.of(context).textTheme.labelSmall?.copyWith(
                           color: Colors.white.withValues(alpha: .72),
                         ),
@@ -106,6 +115,7 @@ class WorldDaysShareCard extends StatelessWidget {
                 ],
               ),
             ],
+          ),
           ),
         ),
       ),
