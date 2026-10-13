@@ -74,7 +74,9 @@ class TodayPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            records.isEmpty ? l10n.noObservancesToday : records.first.title,
+                            records.isEmpty
+                                ? l10n.noObservancesToday
+                                : records.first.titleForLocale(locale),
                             style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
                           ),
                           const SizedBox(height: 8),
