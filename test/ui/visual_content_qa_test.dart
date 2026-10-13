@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:world_days/core/visual/observance_visuals.dart';
@@ -112,6 +113,11 @@ void main() {
     await tester.pumpWidget(
       const MaterialApp(
         locale: Locale('it'),
+        supportedLocales: [
+          Locale('en'),
+          Locale('it'),
+        ],
+        localizationsDelegates: GlobalMaterialLocalizations.delegates,
         home: Scaffold(
           body: SizedBox(
             width: 390,
