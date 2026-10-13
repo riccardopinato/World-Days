@@ -93,6 +93,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
                 Text(
                   record.title,
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                        color: Colors.white,
                         fontWeight: FontWeight.w900,
                         height: 1.05,
                       ),
@@ -100,7 +101,10 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
                 const SizedBox(height: 14),
                 Text(
                   record.authority.name,
-                  style: Theme.of(context).textTheme.titleMedium,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Colors.white.withValues(alpha: .88),
+                        fontWeight: FontWeight.w600,
+                      ),
                 ),
               ],
             ),
