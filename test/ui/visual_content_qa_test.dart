@@ -24,6 +24,9 @@ const _water = Observance(
   rules: [],
   aliases: [],
   categories: ['WATER', 'ENVIRONMENT'],
+  localizedTitles: {
+    'it': 'Giornata mondiale dell’acqua',
+  },
   visualKey: 'planet',
 );
 
@@ -91,7 +94,6 @@ void main() {
                 width: 320,
                 child: WorldDaysShareCard(
                   observance: _water,
-                  badgeText: 'Official',
                 ),
               ),
             ),
@@ -102,6 +104,28 @@ void main() {
 
     expect(find.text('WORLD DAYS'), findsOneWidget);
     expect(find.text('World Water Day'), findsOneWidget);
+    expect(find.text('Official'), findsNothing);
     expect(tester.takeException(), isNull);
   });
 }
+
+  testWidgets('hero uses the active locale title', (tester) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        locale: Locale('it'),
+        home: Scaffold(
+          body: SizedBox(
+            width: 390,
+            child: ObservanceHero(
+              observance: _water,
+              eyebrow: 'Domenica',
+            ),
+          ),
+        ),
+      ),
+    );
+
+    expect(find.text('Giornata mondiale dell’acqua'), findsOneWidget);
+    expect(find.text('World Water Day'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
