@@ -30,8 +30,8 @@ class ObservanceHero extends StatelessWidget {
     return Semantics(
       container: true,
       label: observance.title,
-      child: ConstrainedBox(
-        constraints: BoxConstraints(minHeight: minHeight),
+      child: SizedBox(
+        height: height,
         child: ObservanceArtwork(
           style: style,
           borderRadius: BorderRadius.circular(32),
