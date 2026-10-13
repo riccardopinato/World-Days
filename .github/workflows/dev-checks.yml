@@ -46,6 +46,9 @@ jobs:
       - name: Resolve dependencies
         run: flutter pub get
 
+      - name: Verify committed dependency lock
+        run: git diff --exit-code -- pubspec.lock
+
       - name: Generate localization
         run: flutter gen-l10n
 

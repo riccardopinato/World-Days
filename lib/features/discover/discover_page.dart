@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/visual/observance_visuals.dart';
-import '../../core/visual/visual_content_labels.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
 import '../../features/detail/observance_detail_page.dart';
@@ -33,7 +32,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    final visualLabels = VisualContentLabels.of(context);
     var records = widget.controller.search(_search.text);
     if (visualCollectionKey != null) {
       records = records.where((item) => ObservanceVisuals.resolve(item).key == visualCollectionKey).toList(growable: false);
@@ -74,7 +72,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   ),
                   const SizedBox(height: 18),
                   Text(
-                    visualLabels.themedCollections,
+                    l10n.themedCollections,
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           fontWeight: FontWeight.w900,
                         ),
@@ -90,7 +88,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             ObservanceVisuals.forKey(key).icon,
                             size: 18,
                           ),
-                          label: Text(visualLabels.collection(key)),
+                          label: Text(_collectionLabel(key, l10n)),
                           selected: visualCollectionKey == key,
                           onSelected: (_) => setState(
                             () => visualCollectionKey =
@@ -225,6 +223,18 @@ class _DiscoverPageState extends State<DiscoverPage> {
         ],
       ),
     );
+  }
+
+  String _collectionLabel(String key, AppLocalizations l10n) {
+    return switch (key) {
+      'planet' => l10n.collectionPlanet,
+      'health' => l10n.collectionHealth,
+      'people' => l10n.collectionPeople,
+      'learning' => l10n.collectionLearning,
+      'culture' => l10n.collectionCulture,
+      'food' => l10n.collectionFood,
+      _ => key,
+    };
   }
 
   void _open(Observance record) {

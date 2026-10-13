@@ -5,7 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../../domain/observance.dart';
-import '../visual/visual_content_labels.dart';
+import '../../l10n/app_localizations.dart';
 import '../visual/observance_visuals.dart';
 
 class WorldDaysShareCard extends StatelessWidget {
@@ -149,7 +149,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final labels = VisualContentLabels.of(context);
+    final l10n = AppLocalizations.of(context);
 
     return SingleChildScrollView(
       padding: EdgeInsets.fromLTRB(
@@ -162,14 +162,14 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            labels.shareCard,
+            l10n.shareCard,
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                   fontWeight: FontWeight.w900,
                 ),
           ),
           const SizedBox(height: 6),
           Text(
-            labels.shareCardDescription,
+            l10n.shareCardDescription,
             style: Theme.of(context).textTheme.bodyMedium,
           ),
           const SizedBox(height: 18),
@@ -198,7 +198,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
                       child: CircularProgressIndicator(strokeWidth: 2.4),
                     )
                   : const Icon(Icons.ios_share_rounded),
-              label: Text(labels.shareThisDay),
+              label: Text(l10n.shareThisDay),
             ),
           ),
         ],
@@ -207,7 +207,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
   }
 
   Future<void> _share(BuildContext buttonContext) async {
-    final labels = VisualContentLabels.of(context);
+    final l10n = AppLocalizations.of(context);
     setState(() => _sharing = true);
 
     try {
@@ -250,7 +250,7 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
     } catch (_) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(labels.shareFailed)),
+          SnackBar(content: Text(l10n.shareFailed)),
         );
       }
     } finally {
