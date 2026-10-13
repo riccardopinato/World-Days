@@ -617,8 +617,8 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.10.12.3',
- 'generatedAt':'2026-10-12',
+ 'datasetVersion':'2026.10.13.1',
+ 'generatedAt':'2026-10-13',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers.',
  'records':sorted(records,key=lambda r:r['id']),
  'yearOverrides':year_overrides,

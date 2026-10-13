@@ -6,7 +6,7 @@ World Days is an English-first, multilingual Flutter consumer app for internatio
 
 ## Current implementation
 
-This repository starts from the verified World Days product/data foundation and the App Factory baseline `fa3c0679de393f1cb13c2fed2be314d1a1269353`.
+This repository starts from the verified World Days product/data foundation and the App Factory baseline `23c5b0f6b5f02a93e03bb36106f12575a58129d3`.
 
 Implemented in this first real repository pass:
 - bundled official catalog and 2026 occurrence index;
@@ -14,7 +14,7 @@ Implemented in this first real repository pass:
 - Today, Calendar, Discover, Saved and Settings navigation;
 - observance detail/source transparency;
 - local favorites, recents, streak and profile preferences;
-- EN/IT/ES/FR/DE/PT UI localization foundation;
+- EN/IT/ES/FR/DE/PT UI localization plus reviewed editorial locale packs;
 - responsive Material 3 theme;
 - lightweight visual-key artwork across Today, cards and detail;
 - themed Discover collections and locally generated share cards;
@@ -50,3 +50,10 @@ flutter build web --release --base-href "/World-Days/"
 - Discovery-source ingestion is a later content PR; the first CI baseline uses only the canonical generated catalog.
 
 A discovery listing is never promoted to an official badge merely because an editorial calendar lists it.
+
+
+## Visual content
+
+Step 8 uses a deterministic first-party procedural illustration system as the guaranteed offline visual layer. The same visual keys drive Today/detail heroes, observance cards, Discover collections and generated 4:5 share cards.
+
+Third-party photography is optional and cannot ship without creator, source, license, attribution and checksum metadata. See `docs/VISUAL_CONTENT_POLICY.md`.

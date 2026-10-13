@@ -266,6 +266,10 @@ Analyze/test/build, Web Preview visual QA, AppLab/runtime, notification physical
 - Discovery backlog v0.1 contains 156 Pineta 2026 raw candidates not promoted to app-facing canonical truth until verification/dedup/classification.
 
 16. CURRENT EXECUTION STATUS
-STEP 0: substantially complete; long-tail discovery verification continues.
-STEP 1: manifest/spec ready; actual Flutter project creation requires the target app repository/worktree.
-STEP 2: recurrence engine + tests + official seed + 2026 date index implemented as handoff files; Dart runtime execution still requires a Flutter/Dart environment.
+STEP 0–3: implemented foundation, recurrence/catalog core and primary consumer surfaces.
+STEP 4: curated consumer catalog expansion implemented with originator/authority separation.
+STEP 5: 28 reviewed English editorial entries implemented.
+STEP 6: verified market/Around-the-World layer implemented.
+STEP 7: reviewed editorial translations implemented for EN/IT/ES/FR/DE/PT.
+STEP 8: Visual Content Upgrade implemented: deterministic visual keys, procedural offline artwork, editorial heroes/cards, themed collections, generated share cards and media-license policy.
+NEXT: retention/native layer, monetization, remote content packs and production release gates.
