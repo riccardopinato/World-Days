@@ -10,7 +10,7 @@ void main() {
     expect(snapshot.byId.length, snapshot.records.length);
     final habitat = snapshot.byId['world-habitat-day'];
     expect(habitat?.title, 'World Habitat Day');
-    expect(habitat?.titleForLocale('it'), 'Giornata mondiale dell’habitat');
+    expect(habitat?.titleForLocale('it'), 'Giornata mondiale dell'habitat');
     expect(habitat?.titleForLocale('nl'), 'World Habitat Day');
     expect(habitat?.localizedTitles.keys.toSet(), {
       'en', 'it', 'es', 'fr', 'de', 'pt',
