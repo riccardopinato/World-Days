@@ -16,6 +16,8 @@ Implemented in this first real repository pass:
 - local favorites, recents, streak and profile preferences;
 - EN/IT/ES/FR/DE/PT UI localization foundation;
 - responsive Material 3 theme;
+- lightweight visual-key artwork across Today, cards and detail;
+- themed Discover collections and locally generated share cards;
 - dataset tests and recurrence tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
