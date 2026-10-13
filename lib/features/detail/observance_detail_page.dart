@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
+import '../../core/visual/observance_visuals.dart';
+import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
 import '../../l10n/app_localizations.dart';
 
@@ -34,11 +36,20 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final localeCode = Localizations.localeOf(context).languageCode;
     final editorial = widget.controller.catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
-    final colors = Theme.of(context).colorScheme;
+    final visual = ObservanceVisuals.resolve(record);
 
     return Scaffold(
       appBar: AppBar(
         actions: [
+          IconButton(
+            tooltip: l10n.shareThisDay,
+            onPressed: () => showWorldDaysShareCard(
+              context: context,
+              observance: record,
+              badgeText: _officialityLabel(record.authority.officiality, l10n),
+            ),
+            icon: const Icon(Icons.ios_share_rounded),
+          ),
           IconButton(
             tooltip: favorite ? l10n.removeFavorite : l10n.addFavorite,
             onPressed: () async {
@@ -61,8 +72,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  colors.primaryContainer,
-                  colors.tertiaryContainer,
+                  ...visual.colors,
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
