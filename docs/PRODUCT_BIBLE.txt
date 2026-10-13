@@ -272,4 +272,6 @@ STEP 5: 28 reviewed English editorial entries implemented.
 STEP 6: verified market/Around-the-World layer implemented.
 STEP 7: reviewed editorial translations implemented for EN/IT/ES/FR/DE/PT.
 STEP 8: Visual Content Upgrade implemented: deterministic visual keys, procedural offline artwork, editorial heroes/cards, themed collections, generated share cards and media-license policy.
+STEP 8.1: share card refinement implemented: officiality pill removed from exported artwork while preserving the established visual baseline.
+STEP 8.2: complete observance-title localization implemented for all 296 current records in EN/IT/ES/FR/DE/PT, with stable canonical IDs, English fallback and multilingual search.
 NEXT: retention/native layer, monetization, remote content packs and production release gates.
