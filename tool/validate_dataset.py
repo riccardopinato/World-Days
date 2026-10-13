@@ -9,6 +9,7 @@ occ = json.loads((root / 'assets/data/occurrences_2026.json').read_text(encoding
 records = seed.get('records', [])
 ids = [r.get('id') for r in records]
 visual_keys = {'planet','health','people','learning','culture','food','future','community'}
+title_locales = {'en', 'it', 'es', 'fr', 'de', 'pt'}
 
 expected_consumer = {
     'world-cancer-day',
@@ -51,6 +52,13 @@ for item in occ.get('occurrences', []):
     assert item.get('observanceId') in known, f"unknown occurrence id: {item.get('observanceId')}"
 for record in records:
     assert record.get('visualKey') in visual_keys, (record.get('id'), record.get('visualKey'))
+    localized_titles = record.get('localizedTitles') or {}
+    assert set(localized_titles) == title_locales, (
+        record.get('id'),
+        sorted(localized_titles),
+    )
+    assert localized_titles['en'] == record.get('canonicalTitleEn'), record.get('id')
+    assert all(str(value).strip() for value in localized_titles.values()), record.get('id')
     authority = record.get('authority') or {}
     officiality = str(authority.get('officiality', ''))
     sources = record.get('sources', [])
@@ -103,5 +111,6 @@ for observance_id, expected_dates in market_vectors.items():
 
 print(
     f"dataset ok: {len(records)} records, {len(occ.get('occurrences', []))} occurrences, "
-    f"{len(expected_consumer)} curated consumer records, {len(expected_market)} market records, 365 days"
+    f"{len(expected_consumer)} curated consumer records, {len(expected_market)} market records, "
+    f"{len(title_locales)} title locales, 365 days"
 )
