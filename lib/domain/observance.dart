@@ -46,6 +46,7 @@ final class Observance {
     required this.rules,
     required this.aliases,
     this.categories = const [],
+    this.localizedTitles = const {},
     this.visualKey,
   });
 
@@ -60,7 +61,23 @@ final class Observance {
   final List<RecurrenceRule> rules;
   final List<String> aliases;
   final List<String> categories;
+  final Map<String, String> localizedTitles;
   final String? visualKey;
+
+  String titleForLocale(String? localeCode) {
+    final normalized = (localeCode ?? '')
+        .toLowerCase()
+        .split(RegExp('[-_]'))
+        .first;
+    if (normalized.isEmpty || normalized == 'en') return title;
+    final localized = localizedTitles[normalized]?.trim();
+    return localized == null || localized.isEmpty ? title : localized;
+  }
+
+  Iterable<String> get searchableTitles sync* {
+    yield title;
+    yield* localizedTitles.values;
+  }
 
   factory Observance.fromJson(Map<String, dynamic> json) => Observance(
         id: json['id'] as String,
@@ -88,6 +105,13 @@ final class Observance {
         categories: (json['categories'] as List? ?? const [])
             .map((e) => e.toString())
             .toList(growable: false),
+        localizedTitles: (json['localizedTitles'] as Map? ?? const {})
+            .map(
+              (key, value) => MapEntry(
+                key.toString().toLowerCase(),
+                value.toString(),
+              ),
+            ),
         visualKey: json['visualKey']?.toString(),
       );
 }

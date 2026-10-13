@@ -12,15 +12,16 @@ class WorldDaysShareCard extends StatelessWidget {
   const WorldDaysShareCard({
     super.key,
     required this.observance,
-    required this.badgeText,
   });
 
   final Observance observance;
-  final String badgeText;
 
   @override
   Widget build(BuildContext context) {
     final style = ObservanceVisuals.resolve(observance);
+    final title = observance.titleForLocale(
+      Localizations.localeOf(context).languageCode,
+    );
 
     return MediaQuery(
       data: MediaQuery.of(context).copyWith(
@@ -36,41 +37,19 @@ class WorldDaysShareCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 11,
-                      vertical: 7,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withValues(alpha: .18),
-                      borderRadius: BorderRadius.circular(999),
-                      border: Border.all(
-                        color: Colors.white.withValues(alpha: .22),
-                      ),
-                    ),
-                    child: Text(
-                      badgeText,
-                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w800,
-                          ),
-                    ),
-                  ),
-                  const Spacer(),
-                  const Icon(
-                    Icons.public_rounded,
-                    color: Colors.white,
-                    size: 30,
-                  ),
-                ],
+              const Align(
+                alignment: Alignment.topRight,
+                child: Icon(
+                  Icons.public_rounded,
+                  color: Colors.white,
+                  size: 30,
+                ),
               ),
               const Spacer(),
               Icon(style.icon, color: Colors.white, size: 46),
               const SizedBox(height: 16),
               Text(
-                observance.title,
+                title,
                 maxLines: 5,
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(context).textTheme.headlineLarge?.copyWith(
@@ -126,7 +105,6 @@ class WorldDaysShareCard extends StatelessWidget {
 Future<void> showWorldDaysShareCard({
   required BuildContext context,
   required Observance observance,
-  required String badgeText,
 }) {
   return showModalBottomSheet<void>(
     context: context,
@@ -135,7 +113,6 @@ Future<void> showWorldDaysShareCard({
     showDragHandle: true,
     builder: (context) => _ShareCardSheet(
       observance: observance,
-      badgeText: badgeText,
     ),
   );
 }
@@ -143,11 +120,9 @@ Future<void> showWorldDaysShareCard({
 class _ShareCardSheet extends StatefulWidget {
   const _ShareCardSheet({
     required this.observance,
-    required this.badgeText,
   });
 
   final Observance observance;
-  final String badgeText;
 
   @override
   State<_ShareCardSheet> createState() => _ShareCardSheetState();
@@ -192,7 +167,6 @@ class _ShareCardSheetState extends State<_ShareCardSheet> {
                   type: MaterialType.transparency,
                   child: WorldDaysShareCard(
                     observance: widget.observance,
-                    badgeText: widget.badgeText,
                   ),
                 ),
               ),

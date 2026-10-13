@@ -34,6 +34,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final record = widget.observance;
     final favorite = widget.controller.isFavorite(record.id);
     final localeCode = Localizations.localeOf(context).languageCode;
+    final localizedTitle = record.titleForLocale(localeCode);
     final editorial = widget.controller.catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
     final visual = ObservanceVisuals.resolve(record);
@@ -46,7 +47,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             onPressed: () => showWorldDaysShareCard(
               context: context,
               observance: record,
-              badgeText: _officialityLabel(record.authority.officiality, l10n),
             ),
             icon: const Icon(Icons.ios_share_rounded),
           ),
@@ -90,7 +90,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
                 ),
                 const SizedBox(height: 18),
                 Text(
-                  record.title,
+                  localizedTitle,
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.w900,

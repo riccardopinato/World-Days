@@ -23,11 +23,14 @@ class ObservanceCard extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
     final l10n = AppLocalizations.of(context);
     final visual = ObservanceVisuals.resolve(observance);
+    final title = observance.titleForLocale(
+      Localizations.localeOf(context).languageCode,
+    );
     final compactArtwork = MediaQuery.textScalerOf(context).scale(1) >= 1.7;
 
     return Semantics(
       container: true,
-      label: '${observance.title}. ${observance.authority.name}',
+      label: '$title. ${observance.authority.name}',
       child: Card(
         child: InkWell(
           borderRadius: BorderRadius.circular(24),
@@ -61,7 +64,7 @@ class ObservanceCard extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          observance.title,
+                          title,
                           maxLines: 4,
                           overflow: TextOverflow.ellipsis,
                           style: Theme.of(context).textTheme.titleMedium?.copyWith(

@@ -4,6 +4,10 @@
 
 World Days is an English-first, multilingual Flutter consumer app for international and world observances. The product keeps canonical verified observances separate from editorial/discovery candidates and preserves provenance for every record.
 
+
+### Localized observance titles
+World Days keeps stable canonical observance IDs while displaying all 296 current titles in English, Italian, Spanish, French, German and Portuguese. The title packs are static and bundled at build time, so language switching and search stay fully offline. Search accepts both localized and canonical English titles.
+
 ## Current implementation
 
 This repository starts from the verified World Days product/data foundation and the App Factory baseline `23c5b0f6b5f02a93e03bb36106f12575a58129d3`.

@@ -83,8 +83,12 @@ final class AppController extends ChangeNotifier {
     return value.records.where((item) {
       if (!isVisibleForMarket(item)) return false;
       if (normalized.isEmpty) return true;
-      return item.title.toLowerCase().contains(normalized) ||
-          item.aliases.any((alias) => alias.toLowerCase().contains(normalized));
+      return item.searchableTitles.any(
+            (title) => title.toLowerCase().contains(normalized),
+          ) ||
+          item.aliases.any(
+            (alias) => alias.toLowerCase().contains(normalized),
+          );
     }).toList(growable: false);
   }
 
