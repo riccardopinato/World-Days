@@ -62,3 +62,31 @@ Reason: provides maintained Android/iOS/Web share-sheet integration without addi
 Provider verification: 2026-10-13.
 Verified requirements: Flutter >=3.22, Dart >=3.4, Java 17, Kotlin 2.2.0, Android Gradle Plugin >=8.12.1, Gradle >=8.13.
 Known boundary: share success with third-party target apps is platform/receiver dependent; iPad requires sharePositionOrigin, which World Days supplies.
+
+7. flutter_local_notifications 22.3.1
+URL: https://pub.dev/packages/flutter_local_notifications/versions/22.3.1
+License: BSD-3-Clause
+Decision: RUNTIME DEPENDENCY for local daily/weekly/favorite/category reminders.
+Reason: COPY-READY App Factory notification Golden donor dependency; supports scheduled local notifications, permission state, channels, pending requests and tap payloads.
+World Days delta: uses inexactAllowWhileIdle only; no SCHEDULE_EXACT_ALARM permission because observance reminders are not exact-alarm critical.
+Provider verification: 2026-10-14.
+
+8. flutter_timezone 5.1.0
+URL: https://pub.dev/packages/flutter_timezone/versions/5.1.0
+License: Apache-2.0
+Decision: RUNTIME DEPENDENCY for resolving the device IANA timezone before scheduling reminders.
+Provider verification: 2026-10-14.
+
+9. timezone 0.11.1
+URL: https://pub.dev/packages/timezone/versions/0.11.1
+License: BSD-2-Clause
+Decision: DIRECT RUNTIME DEPENDENCY for timezone-aware scheduled notifications.
+Provider verification: 2026-10-14.
+
+10. home_widget 0.10.0
+URL: https://pub.dev/packages/home_widget/versions/0.10.0
+License: BSD-3-Clause
+Decision: RUNTIME DEPENDENCY for the Android Home Screen Widget data bridge, update requests, pin request and widget launch URI.
+World Days delta: native widget uses lightweight XML/RemoteViews instead of Glance/Compose; Flutter sends a 45-day offline JSON projection so date rollover works without network access.
+Provider verification: 2026-10-14.
+

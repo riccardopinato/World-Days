@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import '../core/retention/retention_target.dart';
 import '../core/theme/app_theme.dart';
 import '../features/calendar/calendar_page.dart';
+import '../features/detail/observance_detail_page.dart';
 import '../features/discover/discover_page.dart';
 import '../features/saved/saved_page.dart';
 import '../features/settings/settings_page.dart';
@@ -100,6 +102,63 @@ class _AppShell extends StatefulWidget {
 
 class _AppShellState extends State<_AppShell> {
   var index = 0;
+  var _navigationScheduled = false;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.controller.addListener(_onControllerChanged);
+    _onControllerChanged();
+  }
+
+  @override
+  void didUpdateWidget(covariant _AppShell oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.controller != widget.controller) {
+      oldWidget.controller.removeListener(_onControllerChanged);
+      widget.controller.addListener(_onControllerChanged);
+      _onControllerChanged();
+    }
+  }
+
+  @override
+  void dispose() {
+    widget.controller.removeListener(_onControllerChanged);
+    super.dispose();
+  }
+
+  void _onControllerChanged() {
+    if (!mounted || _navigationScheduled) return;
+    _navigationScheduled = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _navigationScheduled = false;
+      if (!mounted) return;
+      final target = widget.controller.takeRetentionTarget();
+      if (target == null) return;
+
+      final targetIndex = switch (target.tab) {
+        RetentionTab.today => 0,
+        RetentionTab.calendar => 1,
+        null => null,
+      };
+      if (targetIndex != null && index != targetIndex) {
+        setState(() => index = targetIndex);
+      }
+
+      final observanceId = target.observanceId;
+      if (observanceId == null) return;
+      final record = widget.controller.catalog?.byId[observanceId];
+      if (record == null) return;
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder: (_) => ObservanceDetailPage(
+            observance: record,
+            controller: widget.controller,
+          ),
+        ),
+      );
+    });
+  }
 
   @override
   Widget build(BuildContext context) {

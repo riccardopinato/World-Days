@@ -26,3 +26,5 @@ fi
 
 # flutter create adds its default MyApp widget test; this project owns its tests.
 rm -f test/widget_test.dart
+
+python3 tool/configure_native_retention.py

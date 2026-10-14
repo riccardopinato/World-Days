@@ -43,6 +43,9 @@ jobs:
       - name: Generate platform scaffold
         run: ./tool/bootstrap_platforms.sh
 
+      - name: Validate native retention scaffold
+        run: python3 tool/validate_native_retention.py
+
       - name: Resolve dependencies
         run: flutter pub get
 

@@ -22,10 +22,13 @@ Implemented in this first real repository pass:
 - responsive Material 3 theme;
 - lightweight visual-key artwork across Today, cards and detail;
 - themed Discover collections and locally generated share cards;
-- dataset tests and recurrence tests;
+- configurable daily/weekly/favorite/category local reminders with notification diagnostics;
+- Android Today Home Screen Widget backed by a 45-day offline projection;
+- deterministic notification/widget deep links;
+- dataset, recurrence and retention projection tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Provider-sensitive modules such as AdMob, purchases, production signing and native widgets are intentionally layered only after the first Flutter CI baseline is green.
+Provider-sensitive monetization and production signing remain layered after the green Flutter baseline. Native notifications/widget are now implemented in Step 9 but require exact-artifact physical-device acceptance before certification.
 
 ## Bootstrap
 

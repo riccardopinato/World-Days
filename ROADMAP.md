@@ -2,7 +2,7 @@
 
 Execution numbering reflects the current implementation sequence. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
-## Completed through Step 8.2
+## Completed through Step 9 implementation
 
 Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion, reviewed multilingual editorial content, market/Around-the-World layers and the current consumer shell.
 
@@ -27,10 +27,16 @@ Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion
 - dataset generation fails closed on missing, extra or empty title translations.
 
 ## Step 9 — Retention / native layer
-- notification reliability Golden review against current providers;
-- daily/weekly/category/favorite reminders;
-- Android Home Screen Widget;
-- physical notification/deep-link/widget QA.
+Implementation:
+- notification reliability Golden applied with timezone-aware inexact scheduling, stable IDs, health/diagnostics and deterministic reconciliation;
+- daily/weekly/category/favorite reminder plans with bounded pending-notification horizon;
+- notification tap and Home Widget deep-link routing;
+- lightweight Android XML/RemoteViews Home Screen Widget with a 45-day offline projection;
+- generated Android/iOS native setup plus CI validation.
+
+Open evidence gate:
+- physical notification/deep-link/widget QA on the exact release APK remains NOT VERIFIED;
+- legacy AppLab Trusted Runtime hang remains tracked as infrastructure/non-blocking because the APK installs, launches and completes the Maestro flow before the workflow later stalls.
 
 ## Step 10 — Monetization
 - UMP + AdMob adaptive placements using test traffic until production;
