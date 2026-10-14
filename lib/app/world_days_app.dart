@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import '../core/monetization/adaptive_banner_slot.dart';
 import '../core/retention/retention_target.dart';
 import '../core/theme/app_theme.dart';
 import '../features/calendar/calendar_page.dart';
@@ -204,28 +205,41 @@ class _AppShellState extends State<_AppShell> {
         if (constraints.maxWidth >= 900) {
           return Scaffold(
             body: SafeArea(
-              child: Row(
+              child: Column(
                 children: [
-                  NavigationRail(
-                    selectedIndex: index,
-                    onDestinationSelected: (value) => setState(() => index = value),
-                    labelType: NavigationRailLabelType.all,
-                    destinations: [
-                      for (final destination in destinations)
-                        NavigationRailDestination(
-                          icon: destination.icon,
-                          selectedIcon: destination.selectedIcon,
-                          label: Text(destination.label),
-                        ),
-                    ],
+                  AdaptiveBannerSlot(
+                    controller: widget.controller.monetization,
                   ),
-                  const VerticalDivider(width: 1),
                   Expanded(
-                    child: Center(
-                      child: ConstrainedBox(
-                        constraints: const BoxConstraints(maxWidth: 960),
-                        child: IndexedStack(index: index, children: pages),
-                      ),
+                    child: Row(
+                      children: [
+                        NavigationRail(
+                          selectedIndex: index,
+                          onDestinationSelected: (value) =>
+                              setState(() => index = value),
+                          labelType: NavigationRailLabelType.all,
+                          destinations: [
+                            for (final destination in destinations)
+                              NavigationRailDestination(
+                                icon: destination.icon,
+                                selectedIcon: destination.selectedIcon,
+                                label: Text(destination.label),
+                              ),
+                          ],
+                        ),
+                        const VerticalDivider(width: 1),
+                        Expanded(
+                          child: Center(
+                            child: ConstrainedBox(
+                              constraints: const BoxConstraints(maxWidth: 960),
+                              child: IndexedStack(
+                                index: index,
+                                children: pages,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                 ],
@@ -235,7 +249,16 @@ class _AppShellState extends State<_AppShell> {
         }
 
         return Scaffold(
-          body: IndexedStack(index: index, children: pages),
+          body: Column(
+            children: [
+              AdaptiveBannerSlot(
+                controller: widget.controller.monetization,
+              ),
+              Expanded(
+                child: IndexedStack(index: index, children: pages),
+              ),
+            ],
+          ),
           bottomNavigationBar: NavigationBar(
             selectedIndex: index,
             onDestinationSelected: (value) => setState(() => index = value),
