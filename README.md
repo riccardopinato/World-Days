@@ -25,6 +25,9 @@ Implemented in this first real repository pass:
 - configurable daily/weekly/favorite/category local reminders with notification diagnostics;
 - Android Today Home Screen Widget backed by a 45-day offline projection;
 - deterministic notification/widget deep links;
+- branded World Days launcher icon;
+- UMP-gated top adaptive AdMob banner in QA test-traffic mode;
+- stable Android release identity workflow for future in-place APK updates;
 - dataset, recurrence and retention projection tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 

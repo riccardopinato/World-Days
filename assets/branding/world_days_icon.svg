@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="80" x2="900" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#083CFF"/>
+      <stop offset="0.38" stop-color="#09C8F8"/>
+      <stop offset="0.68" stop-color="#7A25F7"/>
+      <stop offset="0.84" stop-color="#F52B9B"/>
+      <stop offset="1" stop-color="#FFC928"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="250" y1="230" x2="650" y2="780" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23D7F7"/>
+      <stop offset="0.48" stop-color="#087BEE"/>
+      <stop offset="1" stop-color="#1636C7"/>
+    </linearGradient>
+    <linearGradient id="land" x1="240" y1="250" x2="700" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BDEFFF"/>
+    </linearGradient>
+    <linearGradient id="calHead" x1="610" y1="540" x2="860" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF734D"/>
+      <stop offset="0.55" stop-color="#FF335E"/>
+      <stop offset="1" stop-color="#D80D7B"/>
+    </linearGradient>
+    <linearGradient id="hotDay" x1="730" y1="700" x2="800" y2="780" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC126"/>
+      <stop offset="1" stop-color="#FF3854"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="38" y="38" width="948" height="948" rx="205" fill="url(#bg)"/>
+  <path d="M90 190C240 360 420 405 610 396C785 388 900 330 972 245V80H130C103 108 91 143 90 190Z" fill="#42DDFF" opacity=".26"/>
+  <path d="M44 685C202 844 384 932 590 984H190C105 984 40 916 40 830L44 685Z" fill="#5B21FF" opacity=".38"/>
+
+  <circle cx="455" cy="480" r="276" fill="url(#ocean)" stroke="#C9F6FF" stroke-width="18"/>
+  <g fill="none" stroke="#C9F6FF" stroke-width="12" opacity=".92">
+    <ellipse cx="455" cy="480" rx="125" ry="276"/>
+    <ellipse cx="455" cy="480" rx="276" ry="118"/>
+    <path d="M455 204V756"/>
+    <path d="M194 385C278 430 635 441 714 378"/>
+    <path d="M205 610C302 672 610 683 699 621"/>
+  </g>
+
+  <g fill="url(#land)">
+    <path d="M236 315C260 279 308 250 364 244L414 256L437 283L405 310L361 311L338 335L300 337L281 367L247 367L225 347Z"/>
+    <path d="M205 375L244 363L272 380L283 415L320 430L326 466L301 484L280 520L255 526L230 506L211 469L194 435Z"/>
+    <path d="M318 527L360 510L407 525L439 552L452 592L489 622L470 663L442 682L423 733L390 769L361 736L346 689L323 650L302 604Z"/>
+    <path d="M502 270L545 249L603 256L621 283L657 291L678 325L661 353L627 351L607 376L575 375L552 403L514 390L487 355L482 314Z"/>
+    <path d="M582 394L623 366L665 368L684 397L718 410L729 448L711 476L688 468L672 489L642 480L630 516L600 520L580 494L550 490L536 455L552 426Z"/>
+    <path d="M576 513L634 487L695 500L739 535L736 570L701 589L675 622L631 637L598 620L568 584L558 546Z"/>
+    <path d="M703 620L747 606L785 625L793 656L767 677L728 671L710 650Z"/>
+  </g>
+
+  <g transform="rotate(-8 760 730)">
+    <rect x="592" y="545" width="340" height="345" rx="78" fill="#FAF8FF"/>
+    <path d="M592 623C592 580 627 545 670 545H854C897 545 932 580 932 623V664H592Z" fill="url(#calHead)"/>
+    <g fill="#DAD2E8">
+      <rect x="638" y="704" width="55" height="55" rx="13"/>
+      <rect x="717" y="704" width="55" height="55" rx="13"/>
+      <rect x="796" y="704" width="55" height="55" rx="13"/>
+      <rect x="638" y="782" width="55" height="55" rx="13"/>
+      <rect x="717" y="782" width="55" height="55" rx="13"/>
+      <rect x="796" y="782" width="55" height="55" rx="13"/>
+    </g>
+    <rect x="796" y="704" width="55" height="55" rx="13" fill="url(#hotDay)"/>
+    <g>
+      <ellipse cx="678" cy="585" rx="31" ry="39" fill="#970057"/>
+      <ellipse cx="842" cy="585" rx="31" ry="39" fill="#970057"/>
+      <rect x="660" y="516" width="36" height="92" rx="18" fill="#FFFFFF"/>
+      <rect x="824" y="516" width="36" height="92" rx="18" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../core/monetization/monetization_controller.dart';
 import '../core/notifications/notification_health.dart';
 import '../core/notifications/notification_service.dart';
 import '../core/notifications/reminder_plan.dart';
@@ -18,7 +19,9 @@ final class AppController extends ChangeNotifier {
     PreferencesRepository? preferencesRepository,
     NotificationService? notificationService,
     WorldDaysHomeWidgetService? homeWidgetService,
-  })  : _catalogRepository = catalogRepository ?? const CatalogRepository(),
+    MonetizationController? monetizationController,
+  })  : monetization = monetizationController ?? MonetizationController(),
+        _catalogRepository = catalogRepository ?? const CatalogRepository(),
         _preferencesRepository =
             preferencesRepository ?? PreferencesRepository(),
         _notificationService =
@@ -26,6 +29,7 @@ final class AppController extends ChangeNotifier {
         _homeWidgetService =
             homeWidgetService ?? WorldDaysHomeWidgetService.instance;
 
+  final MonetizationController monetization;
   final CatalogRepository _catalogRepository;
   final PreferencesRepository _preferencesRepository;
   final NotificationService _notificationService;
@@ -166,6 +170,16 @@ final class AppController extends ChangeNotifier {
     preferences = preferences.copyWith(marketCode: normalized);
     notifyListeners();
     await _savePreferencesAndReconcile();
+  }
+
+  bool _monetizationListenerAttached = false;
+
+  Future<void> initializeMonetization() async {
+    if (!_monetizationListenerAttached) {
+      monetization.addListener(_onMonetizationChanged);
+      _monetizationListenerAttached = true;
+    }
+    await monetization.initialize();
   }
 
   Future<bool> requestNotificationPermission() async {
@@ -421,10 +435,18 @@ final class AppController extends ChangeNotifier {
       '${date.month.toString().padLeft(2, '0')}-'
       '${date.day.toString().padLeft(2, '0')}';
 
+  void _onMonetizationChanged() {
+    if (!loading) notifyListeners();
+  }
+
   @override
   void dispose() {
     _notificationTapSubscription?.cancel();
     _widgetTapSubscription?.cancel();
+    if (_monetizationListenerAttached) {
+      monetization.removeListener(_onMonetizationChanged);
+    }
+    monetization.dispose();
     super.dispose();
   }
 }
