@@ -43,14 +43,22 @@ jobs:
       - name: Generate platform scaffold
         run: ./tool/bootstrap_platforms.sh
 
-      - name: Validate native retention scaffold
-        run: python3 tool/validate_native_retention.py
+      - name: Validate native scaffold
+        run: |
+          python3 tool/validate_native_retention.py
+          python3 tool/validate_native_monetization.py
 
       - name: Resolve dependencies
         run: flutter pub get
 
       - name: Verify committed dependency lock
         run: git diff --exit-code -- pubspec.lock
+
+      - name: Generate launcher icons
+        run: dart run launcher_icons
+
+      - name: Validate branding
+        run: python3 tool/validate_branding.py
 
       - name: Generate localization
         run: flutter gen-l10n
@@ -72,7 +80,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          name: world-days-android-arm64-release
+          name: world-days-android-arm64-internal
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           if-no-files-found: error
           retention-days: 14
