@@ -136,13 +136,13 @@ class _AppShellState extends State<_AppShell> {
       final target = widget.controller.takeRetentionTarget();
       if (target == null) return;
 
-      switch (target.tab) {
-        case RetentionTab.today:
-          if (index != 0) setState(() => index = 0);
-        case RetentionTab.calendar:
-          if (index != 1) setState(() => index = 1);
-        case null:
-          break;
+      final targetIndex = switch (target.tab) {
+        RetentionTab.today => 0,
+        RetentionTab.calendar => 1,
+        null => null,
+      };
+      if (targetIndex != null && index != targetIndex) {
+        setState(() => index = targetIndex);
       }
 
       final observanceId = target.observanceId;
