@@ -114,5 +114,10 @@
   "categoryFuture": "Futur et technologie",
   "categoryCommunity": "Communauté et société",
   "exactAlarmAvailable": "Alarme exacte disponible",
-  "exactAlarmFallback": "Alarme exacte indisponible · mode inexact actif"
+  "exactAlarmFallback": "Alarme exacte indisponible · mode inexact actif",
+  "monetization": "Publicité et confidentialité",
+  "privacyChoices": "Choix de confidentialité",
+  "privacyChoicesDescription": "Consultez ou modifiez vos choix de consentement publicitaire.",
+  "privacyChoicesUpdated": "Choix de confidentialité mis à jour.",
+  "privacyChoicesFailed": "Impossible d’ouvrir les options de confidentialité."
 }
