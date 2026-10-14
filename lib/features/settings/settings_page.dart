@@ -318,6 +318,20 @@ class _SettingsPageState extends State<SettingsPage> {
               ),
             ),
           ],
+          if (widget.controller.monetization.supported &&
+              widget.controller.monetization.privacyOptionsRequired) ...[
+            const SizedBox(height: 28),
+            _SectionTitle(l10n.monetization),
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.privacy_tip_outlined),
+                title: Text(l10n.privacyChoices),
+                subtitle: Text(l10n.privacyChoicesDescription),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () => _openPrivacyChoices(context),
+              ),
+            ),
+          ],
           const SizedBox(height: 28),
           _SectionTitle(l10n.about),
           Card(
@@ -504,6 +518,16 @@ class _SettingsPageState extends State<SettingsPage> {
       result.ok ? l10n.notificationTestOk : l10n.notificationTestFailed,
     );
     await _refreshNativeState();
+  }
+
+  Future<void> _openPrivacyChoices(BuildContext context) async {
+    final ok = await widget.controller.monetization.showPrivacyOptions();
+    if (!context.mounted) return;
+    final l10n = AppLocalizations.of(context);
+    _showMessage(
+      context,
+      ok ? l10n.privacyChoicesUpdated : l10n.privacyChoicesFailed,
+    );
   }
 
   Future<void> _pinWidget(BuildContext context) async {
