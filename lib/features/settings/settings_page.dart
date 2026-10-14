@@ -391,6 +391,14 @@ class _SettingsPageState extends State<SettingsPage> {
                     : l10n.reminderChannelBlocked,
               ),
               _StatusLine(
+                icon: health.exactAlarmsEnabled
+                    ? Icons.alarm_on_rounded
+                    : Icons.timelapse_rounded,
+                text: health.exactAlarmsEnabled
+                    ? l10n.exactAlarmAvailable
+                    : l10n.exactAlarmFallback,
+              ),
+              _StatusLine(
                 icon: Icons.schedule_rounded,
                 text:
                     '${l10n.pendingNotifications}: ${health.pendingCount}',
