@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ANDROID = ROOT / "android" / "app" / "src" / "main"
+ANDROID_APP = ROOT / "android" / "app"
 IOS_APP_DELEGATE = ROOT / "ios" / "Runner" / "AppDelegate.swift"
 
 PERMISSIONS = """    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -181,6 +182,11 @@ STRINGS = r'''<?xml version="1.0" encoding="utf-8"?>
 </resources>
 '''
 
+KEEP_RESOURCES = r'''<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@mipmap/ic_launcher" />
+'''
+
 
 def write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -192,7 +198,10 @@ def patch_android_manifest() -> None:
     text = path.read_text(encoding="utf-8")
 
     if "android.permission.POST_NOTIFICATIONS" not in text:
-        manifest_close = text.find(">")
+        manifest_start = text.find("<manifest")
+        if manifest_start < 0:
+            raise RuntimeError("invalid_android_manifest")
+        manifest_close = text.find(">", manifest_start)
         if manifest_close < 0:
             raise RuntimeError("invalid_android_manifest")
         text = (
@@ -222,6 +231,78 @@ def patch_android_manifest() -> None:
         text = text[:app_close] + RECEIVERS + text[app_close:]
 
     path.write_text(text, encoding="utf-8")
+
+
+def patch_android_gradle() -> None:
+    kts = ANDROID_APP / "build.gradle.kts"
+    groovy = ANDROID_APP / "build.gradle"
+
+    if kts.exists():
+        text = kts.read_text(encoding="utf-8")
+        text = text.replace("JavaVersion.VERSION_11", "JavaVersion.VERSION_17")
+        text = text.replace("JavaVersion.VERSION_1_8", "JavaVersion.VERSION_17")
+        if "isCoreLibraryDesugaringEnabled = true" not in text:
+            marker = "    compileOptions {\n"
+            if marker not in text:
+                raise RuntimeError("android_compile_options_not_found")
+            text = text.replace(
+                marker,
+                marker + "        isCoreLibraryDesugaringEnabled = true\n",
+                1,
+            )
+        if "multiDexEnabled = true" not in text:
+            marker = "    defaultConfig {\n"
+            if marker not in text:
+                raise RuntimeError("android_default_config_not_found")
+            text = text.replace(
+                marker,
+                marker + "        multiDexEnabled = true\n",
+                1,
+            )
+        if "coreLibraryDesugaring(" not in text:
+            text = text.rstrip() + (
+                "\n\ndependencies {\n"
+                "    coreLibraryDesugaring("
+                "\"com.android.tools:desugar_jdk_libs:2.1.4\""
+                ")\n"
+                "}\n"
+            )
+        kts.write_text(text, encoding="utf-8")
+        return
+
+    if groovy.exists():
+        text = groovy.read_text(encoding="utf-8")
+        text = text.replace("JavaVersion.VERSION_11", "JavaVersion.VERSION_17")
+        text = text.replace("JavaVersion.VERSION_1_8", "JavaVersion.VERSION_17")
+        if "coreLibraryDesugaringEnabled true" not in text:
+            marker = "    compileOptions {\n"
+            if marker not in text:
+                raise RuntimeError("android_compile_options_not_found")
+            text = text.replace(
+                marker,
+                marker + "        coreLibraryDesugaringEnabled true\n",
+                1,
+            )
+        if "multiDexEnabled true" not in text:
+            marker = "    defaultConfig {\n"
+            if marker not in text:
+                raise RuntimeError("android_default_config_not_found")
+            text = text.replace(
+                marker,
+                marker + "        multiDexEnabled true\n",
+                1,
+            )
+        if "coreLibraryDesugaring " not in text:
+            text = text.rstrip() + (
+                "\n\ndependencies {\n"
+                "    coreLibraryDesugaring "
+                "'com.android.tools:desugar_jdk_libs:2.1.4'\n"
+                "}\n"
+            )
+        groovy.write_text(text, encoding="utf-8")
+        return
+
+    raise RuntimeError("android_app_gradle_not_found")
 
 
 def patch_ios_app_delegate() -> None:
@@ -267,6 +348,8 @@ def main() -> None:
         WIDGET_INFO,
     )
     write(ANDROID / "res" / "values" / "world_days_retention_strings.xml", STRINGS)
+    write(ANDROID / "res" / "raw" / "world_days_keep.xml", KEEP_RESOURCES)
+    patch_android_gradle()
     patch_ios_app_delegate()
     print("native retention config ok")
 
