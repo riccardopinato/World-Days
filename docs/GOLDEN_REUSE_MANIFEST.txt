@@ -152,3 +152,18 @@ World Days implementation:
 - native Android/iOS configuration is generated deterministically by tool/configure_native_retention.py;
 - physical notification/deep-link/widget verification remains mandatory before CERTIFIED and is tracked separately from CI/AppLab evidence.
 
+G. STEP 10 — BRANDING / SIGNING / ADMOB
+
+Factory guidance:
+- golden/monetization/GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT.txt
+- golden/release/GOLDEN_ANDROID_SIGNING_RELEASE_IDENTITY_v1_DRAFT.txt
+
+World Days implementation:
+- dedicated top large anchored adaptive banner slot; never overlays product content;
+- UMP update on each launch, loadAndShowConsentFormIfRequired, canRequestAds gate and privacy-options entry point;
+- Google test App IDs/ad unit IDs are used in QA builds; production banner IDs fail closed when production mode is enabled;
+- Web monetization path is a no-op;
+- permanent Android signing identity is external to Git, restored only from GitHub Actions secrets;
+- signed QA workflow verifies the APK certificate SHA-256 and artifact hashes before upload;
+- direct APK update continuity begins with the first permanently signed APK; legacy ephemeral-signing builds require one final reinstall.
+
