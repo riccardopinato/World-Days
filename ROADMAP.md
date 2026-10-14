@@ -43,6 +43,7 @@ Open evidence gate:
 - approved World Days launcher icon pipeline for Android/iOS;
 - UMP-gated large anchored adaptive banner in a dedicated top slot;
 - Web Preview no-op and Google sample test traffic for QA/manual builds;
+- public Privacy Policy hosted by GitHub Pages at `/World-Days/privacy.html`;
 - permanent Android signing identity + signer verification workflow;
 - fail-closed Android production lane for real AdMob App ID/Banner ID;
 - one legacy-signing transition reinstall remains unavoidable before update-in-place continuity begins.

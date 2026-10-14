@@ -27,11 +27,18 @@ Implemented in this first real repository pass:
 - deterministic notification/widget deep links;
 - branded World Days launcher icon;
 - UMP-gated top adaptive AdMob banner in QA test-traffic mode;
+- public production privacy policy hosted with the Web Preview;
 - stable Android release identity workflow for future in-place APK updates;
 - dataset, recurrence and retention projection tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
 Provider-sensitive monetization and production signing remain layered after the green Flutter baseline. Native notifications/widget are now implemented in Step 9 but require exact-artifact physical-device acceptance before certification.
+
+## Privacy
+
+Canonical public Privacy Policy:
+
+https://riccardopinato.github.io/World-Days/privacy.html
 
 ## Bootstrap
 
