@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import 'app/app_controller.dart';
@@ -8,4 +10,5 @@ Future<void> main() async {
   final controller = AppController();
   await controller.initialize();
   runApp(WorldDaysApp(controller: controller));
+  unawaited(controller.initializeMonetization());
 }
