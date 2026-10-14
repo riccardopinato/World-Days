@@ -43,8 +43,6 @@ app_delegate = (ROOT / "ios/Runner/AppDelegate.swift").read_text(
 assert "import UserNotifications" in app_delegate
 assert "UNUserNotificationCenter.current().delegate" in app_delegate
 
-print("native retention validation ok")
-
 gradle_candidates = [
     ROOT / "android/app/build.gradle.kts",
     ROOT / "android/app/build.gradle",
@@ -57,3 +55,5 @@ assert (
     "isCoreLibraryDesugaringEnabled = true" in gradle_text
     or "coreLibraryDesugaringEnabled true" in gradle_text
 )
+
+print("native retention validation ok")
