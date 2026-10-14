@@ -39,9 +39,18 @@ Open evidence gate:
 - legacy AppLab Trusted Runtime hang remains tracked as infrastructure/non-blocking because the APK installs, launches and completes the Maestro flow before the workflow later stalls.
 
 ## Step 10 — Monetization
-- UMP + AdMob adaptive placements using test traffic until production;
+### Step 10.1 — Branding, signing continuity and top banner ✅ implementation
+- approved World Days launcher icon pipeline for Android/iOS;
+- UMP-gated large anchored adaptive banner in a dedicated top slot;
+- Web Preview no-op and Google sample test traffic for QA/manual builds;
+- permanent Android signing identity + signer verification workflow;
+- fail-closed Android production lane for real AdMob App ID/Banner ID;
+- one legacy-signing transition reinstall remains unavoidable before update-in-place continuity begins.
+
+### Step 10.2 — Remove Ads entitlement
 - lifetime Remove Ads entitlement;
-- sandbox billing/consent validation and no-ad-request premium behavior.
+- sandbox billing validation;
+- Premium/Remove Ads must suppress the ad request itself, not only hide the banner.
 
 ## Step 11 — Remote catalog updates
 - production content hosting;
