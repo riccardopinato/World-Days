@@ -114,5 +114,10 @@
   "categoryFuture": "Zukunft & Technologie",
   "categoryCommunity": "Gemeinschaft & Gesellschaft",
   "exactAlarmAvailable": "Exakter Alarm verfügbar",
-  "exactAlarmFallback": "Exakter Alarm nicht verfügbar · ungenauer Fallback aktiv"
+  "exactAlarmFallback": "Exakter Alarm nicht verfügbar · ungenauer Fallback aktiv",
+  "monetization": "Werbung & Datenschutz",
+  "privacyChoices": "Datenschutzauswahl",
+  "privacyChoicesDescription": "Überprüfe oder ändere deine Einwilligung für Werbung.",
+  "privacyChoicesUpdated": "Datenschutzauswahl aktualisiert.",
+  "privacyChoicesFailed": "Datenschutzoptionen konnten nicht geöffnet werden."
 }
