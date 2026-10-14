@@ -114,5 +114,10 @@
   "categoryFuture": "Future & technology",
   "categoryCommunity": "Community & society",
   "exactAlarmAvailable": "Exact alarm available",
-  "exactAlarmFallback": "Exact alarm unavailable · inexact fallback active"
+  "exactAlarmFallback": "Exact alarm unavailable · inexact fallback active",
+  "monetization": "Ads & privacy",
+  "privacyChoices": "Privacy choices",
+  "privacyChoicesDescription": "Review or change your advertising consent choices.",
+  "privacyChoicesUpdated": "Privacy choices updated.",
+  "privacyChoicesFailed": "Privacy options could not be opened."
 }
