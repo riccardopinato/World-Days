@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: world-days-dev-${{ github.ref }}
@@ -48,20 +48,6 @@ jobs:
 
       - name: Resolve dependencies
         run: flutter pub get
-
-      - name: Commit resolved dependency lock
-        if: github.event_name == 'pull_request'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          HEAD_REF: ${{ github.head_ref }}
-        run: |
-          if git diff --quiet -- pubspec.lock; then
-            echo "pubspec.lock already stable"
-            exit 0
-          fi
-          CURRENT_SHA="$(gh api "repos/${GITHUB_REPOSITORY}/contents/pubspec.lock?ref=${HEAD_REF}" --jq .sha)"
-          CONTENT="$(base64 -w0 pubspec.lock)"
-          gh api             --method PUT             "repos/${GITHUB_REPOSITORY}/contents/pubspec.lock"             -f message="chore: lock Step 9 dependencies"             -f content="$CONTENT"             -f sha="$CURRENT_SHA"             -f branch="$HEAD_REF" >/dev/null
 
       - name: Verify committed dependency lock
         run: git diff --exit-code -- pubspec.lock
