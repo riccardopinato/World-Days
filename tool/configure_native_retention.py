@@ -320,10 +320,14 @@ def patch_ios_app_delegate() -> None:
         "self as? UNUserNotificationCenterDelegate\n"
     )
     if "UNUserNotificationCenter.current().delegate" not in text:
-        marker = "    GeneratedPluginRegistrant.register(with: self)\n"
-        if marker not in text:
-            raise RuntimeError("ios_plugin_registrant_marker_not_found")
-        text = text.replace(marker, marker + hook, 1)
+        launch_marker = "didFinishLaunchingWithOptions"
+        launch_index = text.find(launch_marker)
+        if launch_index < 0:
+            raise RuntimeError("ios_launch_method_not_found")
+        body_open = text.find("{", launch_index)
+        if body_open < 0:
+            raise RuntimeError("ios_launch_body_not_found")
+        text = text[: body_open + 1] + "\n" + hook + text[body_open + 1 :]
     IOS_APP_DELEGATE.write_text(text, encoding="utf-8")
 
 
