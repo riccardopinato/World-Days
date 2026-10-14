@@ -90,3 +90,17 @@ Decision: RUNTIME DEPENDENCY for the Android Home Screen Widget data bridge, upd
 World Days delta: native widget uses lightweight XML/RemoteViews instead of Glance/Compose; Flutter sends a 45-day offline JSON projection so date rollover works without network access.
 Provider verification: 2026-10-14.
 
+11. google_mobile_ads 9.1.0
+URL: https://pub.dev/packages/google_mobile_ads/versions/9.1.0
+Publisher: google.dev
+License: Apache-2.0
+Decision: RUNTIME DEPENDENCY for UMP consent and top anchored adaptive AdMob banner.
+World Days policy: test traffic only during QA; UMP consent information is refreshed on each launch; ads are requested only when canRequestAds() is true; Web is a no-op through conditional exports.
+Provider verification: 2026-10-14.
+
+12. launcher_icons 0.16.0
+URL: https://pub.dev/packages/launcher_icons/versions/0.16.0
+License: Apache-2.0
+Decision: DEV TOOL for deterministic Android/iOS launcher icon generation from the project-owned World Days icon source.
+Provider verification: 2026-10-14.
+
