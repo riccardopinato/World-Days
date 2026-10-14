@@ -98,7 +98,7 @@ final class ReminderPreferences {
     int max,
   ) {
     final parsed = value is num ? value.toInt() : fallback;
-    return parsed.clamp(min, max);
+    return parsed.clamp(min, max).toInt();
   }
 }
 
