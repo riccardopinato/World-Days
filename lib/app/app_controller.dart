@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../core/monetization/monetization_controller.dart';
 import '../core/notifications/notification_health.dart';
 import '../core/notifications/notification_service.dart';
 import '../core/notifications/reminder_plan.dart';
@@ -18,7 +19,9 @@ final class AppController extends ChangeNotifier {
     PreferencesRepository? preferencesRepository,
     NotificationService? notificationService,
     WorldDaysHomeWidgetService? homeWidgetService,
-  })  : _catalogRepository = catalogRepository ?? const CatalogRepository(),
+    MonetizationController? monetizationController,
+  })  : monetization = monetizationController ?? MonetizationController(),
+        _catalogRepository = catalogRepository ?? const CatalogRepository(),
         _preferencesRepository =
             preferencesRepository ?? PreferencesRepository(),
         _notificationService =
@@ -26,6 +29,7 @@ final class AppController extends ChangeNotifier {
         _homeWidgetService =
             homeWidgetService ?? WorldDaysHomeWidgetService.instance;
 
+  final MonetizationController monetization;
   final CatalogRepository _catalogRepository;
   final PreferencesRepository _preferencesRepository;
   final NotificationService _notificationService;
@@ -62,6 +66,8 @@ final class AppController extends ChangeNotifier {
       } catch (_) {
         // Native retention is a projection. It must never block core startup.
       }
+      monetization.addListener(_onMonetizationChanged);
+      unawaited(monetization.initialize());
     }
 
     loading = false;
@@ -421,10 +427,16 @@ final class AppController extends ChangeNotifier {
       '${date.month.toString().padLeft(2, '0')}-'
       '${date.day.toString().padLeft(2, '0')}';
 
+  void _onMonetizationChanged() {
+    if (!loading) notifyListeners();
+  }
+
   @override
   void dispose() {
     _notificationTapSubscription?.cancel();
     _widgetTapSubscription?.cancel();
+    monetization.removeListener(_onMonetizationChanged);
+    monetization.dispose();
     super.dispose();
   }
 }
