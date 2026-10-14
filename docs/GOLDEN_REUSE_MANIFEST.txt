@@ -134,3 +134,21 @@ World Days delta:
 - real photography stays gated by explicit license/provenance metadata;
 - title-keyword icon rendering is superseded by the shared visual-key resolver;
 - share_plus is admitted only for native/Web share of locally rendered cards and remains provider-sensitive.
+
+F. STEP 9 — RETENTION / NATIVE LAYER
+
+Primary Factory guidance:
+- golden/notifications/GOLDEN_NOTIFICATION_RELIABILITY_FLUTTER_v1.txt
+  Status: COPY-READY GOLDEN.
+- golden/release/GOLDEN_RELEASE_REALITY_PHYSICAL_VALIDATION_v1_DRAFT.txt
+  Status: DRAFT / PROCESS CANDIDATE.
+
+World Days implementation:
+- local notification service preserves stable IDs, channel/permission health, timezone initialization, tap payloads and immediate/scheduled diagnostics;
+- reminder data in SharedPreferences is source of truth; pending plugin requests are only a projection;
+- no exact-alarm permission is requested because daily/weekly observance reminders tolerate inexact delivery;
+- reminder planning is bounded below common pending-notification limits and reconciled after preference/locale/market/favorite changes and app startup;
+- Android widget is a lightweight XML/RemoteViews provider fed by a 45-day offline projection through home_widget;
+- native Android/iOS configuration is generated deterministically by tool/configure_native_retention.py;
+- physical notification/deep-link/widget verification remains mandatory before CERTIFIED and is tracked separately from CI/AppLab evidence.
+
