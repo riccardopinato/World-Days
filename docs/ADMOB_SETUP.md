@@ -35,6 +35,15 @@ The workflow fails closed when:
 - a Google sample/test ID is used in the production lane;
 - the resulting APK signer differs from the permanent World Days certificate.
 
+## Public privacy policy
+
+Canonical production URL:
+
+`https://riccardopinato.github.io/World-Days/privacy.html`
+
+The page is part of the GitHub Pages artifact generated from `web/privacy.html`.
+Keep the policy aligned with the production app whenever data practices, SDKs or backend behavior change.
+
 ## AdMob console / UMP server-side gate
 
 The APK integration alone is not enough for production monetization.
@@ -43,7 +52,7 @@ Before distributing the production build:
 1. create/register World Days in AdMob;
 2. create the Android banner ad unit;
 3. configure and publish the European regulations/UMP message for World Days;
-4. provide a real public privacy-policy URL;
+4. use `https://riccardopinato.github.io/World-Days/privacy.html` as the public privacy-policy URL;
 5. configure the required languages and consent choices;
 6. verify Privacy Options/revocation on a physical device when UMP requires the entry point;
 7. configure/verify app-ads.txt when required for the release channel.
