@@ -1,0 +1,33 @@
+name: Export Android apksigner tooling
+
+on:
+  push:
+    branches: [tooling-export-official-apksigner]
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Export latest installed apksigner
+        shell: bash
+        run: |
+          TOOL="$(find "$ANDROID_HOME/build-tools" -type f -name apksigner | sort -V | tail -n 1)"
+          test -x "$TOOL"
+          ROOT="$(dirname "$TOOL")"
+          mkdir -p out/lib
+          cp "$TOOL" out/apksigner
+          cp "$ROOT/lib/apksigner.jar" out/lib/apksigner.jar
+          chmod +x out/apksigner
+          "$TOOL" version > out/version.txt
+
+      - name: Upload official tooling
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: official-android-apksigner
+          path: out
+          if-no-files-found: error
+          retention-days: 1
