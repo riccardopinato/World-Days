@@ -66,8 +66,6 @@ final class AppController extends ChangeNotifier {
       } catch (_) {
         // Native retention is a projection. It must never block core startup.
       }
-      monetization.addListener(_onMonetizationChanged);
-      unawaited(monetization.initialize());
     }
 
     loading = false;
@@ -172,6 +170,16 @@ final class AppController extends ChangeNotifier {
     preferences = preferences.copyWith(marketCode: normalized);
     notifyListeners();
     await _savePreferencesAndReconcile();
+  }
+
+  bool _monetizationListenerAttached = false;
+
+  Future<void> initializeMonetization() async {
+    if (!_monetizationListenerAttached) {
+      monetization.addListener(_onMonetizationChanged);
+      _monetizationListenerAttached = true;
+    }
+    await monetization.initialize();
   }
 
   Future<bool> requestNotificationPermission() async {
@@ -435,7 +443,9 @@ final class AppController extends ChangeNotifier {
   void dispose() {
     _notificationTapSubscription?.cancel();
     _widgetTapSubscription?.cancel();
-    monetization.removeListener(_onMonetizationChanged);
+    if (_monetizationListenerAttached) {
+      monetization.removeListener(_onMonetizationChanged);
+    }
     monetization.dispose();
     super.dispose();
   }
