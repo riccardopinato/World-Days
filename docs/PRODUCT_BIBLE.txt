@@ -1,7 +1,7 @@
 WORLD DAYS — PRODUCT BIBLE v0.1
 Date: 2026-10-11
-Factory baseline: riccardopinato/App-Factory-Core @ fa3c0679de393f1cb13c2fed2be314d1a1269353
-Master: v25.1
+Factory baseline: riccardopinato/App-Factory-Core @ 23c5b0f6b5f02a93e03bb36106f12575a58129d3
+Master: v26.1
 Golden Index: v10
 
 1. PRODUCT
@@ -274,4 +274,5 @@ STEP 7: reviewed editorial translations implemented for EN/IT/ES/FR/DE/PT.
 STEP 8: Visual Content Upgrade implemented: deterministic visual keys, procedural offline artwork, editorial heroes/cards, themed collections, generated share cards and media-license policy.
 STEP 8.1: share card refinement implemented: officiality pill removed from exported artwork while preserving the established visual baseline.
 STEP 8.2: complete observance-title localization implemented for all 296 current records in EN/IT/ES/FR/DE/PT, with stable canonical IDs, English fallback and multilingual search.
-NEXT: retention/native layer, monetization, remote content packs and production release gates.
+STEP 9: Retention/native layer implementation adds bounded local reminder planning, notification health/diagnostics, notification/widget deep-link routing and an Android Home Screen Widget. Physical device notification/widget acceptance remains an explicit release-evidence gate.
+NEXT: close Step 9 physical-device acceptance, then monetization, remote content packs and production release gates.
