@@ -23,6 +23,7 @@ required_files = [
     "android/app/src/main/res/drawable/world_days_widget_background.xml",
     "android/app/src/main/res/xml/world_days_widget_info.xml",
     "android/app/src/main/res/values/world_days_retention_strings.xml",
+    "android/app/src/main/res/raw/world_days_keep.xml",
 ]
 for relative in required_files:
     assert (ROOT / relative).is_file(), relative
@@ -43,3 +44,16 @@ assert "import UserNotifications" in app_delegate
 assert "UNUserNotificationCenter.current().delegate" in app_delegate
 
 print("native retention validation ok")
+
+gradle_candidates = [
+    ROOT / "android/app/build.gradle.kts",
+    ROOT / "android/app/build.gradle",
+]
+gradle = next((path for path in gradle_candidates if path.is_file()), None)
+assert gradle is not None, "android app gradle missing"
+gradle_text = gradle.read_text(encoding="utf-8")
+assert "desugar_jdk_libs:2.1.4" in gradle_text
+assert (
+    "isCoreLibraryDesugaringEnabled = true" in gradle_text
+    or "coreLibraryDesugaringEnabled true" in gradle_text
+)
