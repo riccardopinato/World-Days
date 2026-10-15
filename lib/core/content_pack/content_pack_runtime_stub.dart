@@ -36,7 +36,10 @@ class _UnsupportedStorage implements ContentPackStorage {
   bool get supported => false;
 
   @override
-  Future<void> activate(manifest, bytes) =>
+  Future<void> activate(
+    ContentPackManifest manifest,
+    List<int> bytes,
+  ) =>
       Future.error(UnsupportedError('content_pack_storage_unsupported'));
 
   @override
