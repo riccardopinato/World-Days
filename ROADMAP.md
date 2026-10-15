@@ -54,7 +54,7 @@ The app is NOT Store Ready until the gates below are closed.
 
 ### Phase C — Editorial completion — BLOCKING
 Current reviewed editorial coverage: 28 / 296.
-- [ ] Extend editorial schema to include Why this date, Origin/history, quick facts, related observances and annual theme.
+- [x] Extend editorial schema to include hook, Why this date, Origin/history, quick facts and related observances; annual campaign themes are consumed from year overrides.
 - [ ] Complete original English editorial coverage for all launch records.
 - [ ] Review primary-source grounding and provenance.
 - [ ] Translate reviewed editorial content to IT/ES/FR/DE/PT.
