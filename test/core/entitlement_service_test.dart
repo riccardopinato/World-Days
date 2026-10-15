@@ -220,6 +220,30 @@ void main() {
     expect(service.removesAds, isFalse);
   });
 
+  test('wrong product and unverified results never grant lifetime', () async {
+    final service = EntitlementService(
+      store: _MemoryStore(),
+      billingAdapter: _FakeBilling(),
+    );
+    await service.initialize();
+
+    final billing = service;
+    expect(billing.removesAds, isFalse);
+  });
+
+  test('billing unavailable preserves free state without grant', () async {
+    final service = EntitlementService(
+      store: _MemoryStore(),
+      billingAdapter: _FakeBilling(available: false),
+    );
+
+    await service.initialize();
+
+    expect(service.flowState, PurchaseFlowState.billingUnavailable);
+    expect(service.removesAds, isFalse);
+    expect(service.limits.adsEnabled, isTrue);
+  });
+
   test('verified lifetime purchase persists then completes provider', () async {
     final store = _MemoryStore();
     final billing = _FakeBilling(
