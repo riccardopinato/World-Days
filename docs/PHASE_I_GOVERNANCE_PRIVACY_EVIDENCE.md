@@ -140,3 +140,33 @@ Phase I must still retain explicit external evidence gates until:
 1. final CI on the complete PR head is green;
 2. the updated privacy page is live after merge;
 3. main branch protection is configured/verified by a repository admin.
+
+
+## Post-merge verification
+
+Merged source:
+- main SHA: `44720a125db88386180f31951f9cf167c555b8a4`.
+
+Development checks #212:
+- release/data/native validators: PASS;
+- Flutter analyze: PASS;
+- Flutter tests: 80/80 PASS;
+- Web release: PASS;
+- Android ARM64 build: PASS;
+- Android ARM64 artifact upload: PASS;
+- artifact digest: `sha256:618d9a167d6586bfe9f1cac8d1a5df3171d91280f5ee21b6c93c44ca1c1b2ffb`.
+
+Deploy Web Preview #30:
+- build: PASS;
+- Pages artifact upload: PASS;
+- deploy: PASS;
+- hosted remote-content smoke: PASS;
+- Pages artifact digest: `sha256:4906288acd2ca903970b4662571271ee7917c34a2ecc1de994962ffd2f1aa588`.
+
+The deployed Pages artifact was inspected directly. Its `privacy.html` contains:
+- `Last updated: 15 October 2026`;
+- the Google Play Billing section;
+- GitHub Pages catalog-update disclosure;
+- the pending purchase-completion disclosure.
+
+Phase I repository/deployment work is therefore complete. The only remaining Phase I item is the repository-admin branch-protection gate, still NOT VERIFIED because the connected integration lacks Admin permission.

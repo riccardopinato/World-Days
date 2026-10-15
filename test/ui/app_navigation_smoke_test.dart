@@ -29,6 +29,52 @@ void main() {
     }
   });
 
+  testWidgets('primary navigation has deterministic focus order and safe tap targets',
+      (tester) async {
+    tester.view.physicalSize = const Size(390, 844);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    final controller = await buildLoadedTestController();
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(WorldDaysApp(controller: controller));
+    await tester.pumpAndSettle();
+
+    const expected = ['Today', 'Calendar', 'Discover', 'Saved', 'Settings'];
+    final group = tester.widget<FocusTraversalGroup>(
+      find.byKey(
+        const ValueKey<String>('primary-navigation-focus-group'),
+      ),
+    );
+    expect(group.policy, isA<WidgetOrderTraversalPolicy>());
+
+    final bar = tester.widget<NavigationBar>(find.byType(NavigationBar));
+    expect(
+      bar.destinations
+          .cast<NavigationDestination>()
+          .map((destination) => destination.label)
+          .toList(growable: false),
+      expected,
+    );
+
+    for (final label in expected) {
+      await tester.tap(find.text(label).last);
+      await tester.pumpAndSettle();
+      expect(
+        tester,
+        meetsGuideline(androidTapTargetGuideline),
+        reason: 'Android tap target guideline on $label',
+      );
+      expect(
+        tester,
+        meetsGuideline(labeledTapTargetGuideline),
+        reason: 'Labeled tap target guideline on $label',
+      );
+    }
+  });
+
   testWidgets('app shell survives small phone large text and exposes nav labels',
       (tester) async {
     tester.view.physicalSize = const Size(360, 800);
@@ -45,9 +91,24 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byType(NavigationBar), findsNothing);
-    for (final label in ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']) {
-      expect(find.byTooltip(label), findsOneWidget);
-    }
+    final compactGroup = tester.widget<FocusTraversalGroup>(
+      find.byKey(
+        const ValueKey<String>('primary-navigation-focus-group'),
+      ),
+    );
+    expect(compactGroup.policy, isA<WidgetOrderTraversalPolicy>());
+    final tooltips = tester
+        .widgetList<Tooltip>(
+          find.descendant(
+            of: find.byKey(
+              const ValueKey<String>('primary-navigation-focus-group'),
+            ),
+            matching: find.byType(Tooltip),
+          ),
+        )
+        .map((tooltip) => tooltip.message)
+        .toList(growable: false);
+    expect(tooltips, ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']);
     final largeTextException = tester.takeException();
     if (largeTextException != null) {
       debugDumpRenderTree();
@@ -69,6 +130,19 @@ void main() {
 
     expect(find.byType(NavigationRail), findsOneWidget);
     expect(find.byType(NavigationBar), findsNothing);
+    final railGroup = tester.widget<FocusTraversalGroup>(
+      find.byKey(
+        const ValueKey<String>('primary-navigation-focus-group'),
+      ),
+    );
+    expect(railGroup.policy, isA<WidgetOrderTraversalPolicy>());
+    final rail = tester.widget<NavigationRail>(find.byType(NavigationRail));
+    expect(
+      rail.destinations
+          .map((destination) => (destination.label as Text).data)
+          .toList(growable: false),
+      ['Today', 'Calendar', 'Discover', 'Saved', 'Settings'],
+    );
     expect(tester.takeException(), isNull);
   });
 
