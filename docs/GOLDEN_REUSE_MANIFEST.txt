@@ -195,10 +195,14 @@ Primary Factory guidance:
 World Days implementation:
 - bundled catalog remains the immutable local-first fallback and is not replaced in-place;
 - remote manifest and immutable versioned payload are hosted below the existing GitHub Pages origin;
+- runtime payload URLs are pinned to that approved origin/path and immutable filename shape;
+- payload transfer is streamed through a hard manifest-sized byte cap before materialization;
 - payload activation requires expected byte size, SHA-256 and full World Days catalog parsing/domain validation;
 - pack files are staged separately before the active/previous pointer is switched;
 - pointer backup plus previous verified version provide crash recovery and rollback;
 - user-owned favorites, preferences, streak and entitlement data are outside pack storage;
 - annual campaign/theme and authoritative date overrides ride in the canonical official_core payload;
 - mobile exposes explicit Settings controls; Web intentionally remains bundled-only;
-- tests cover checksum mismatch, manifest/payload network failures, corrupt-active rollback, bundled fallback and unsafe manifest metadata.
+- tests cover checksum mismatch, manifest/payload network failures, corrupt-active rollback, bundled fallback, off-origin/unsafe manifest metadata and byte-cap overflow;
+- signed QA and production release lanes run the content/native validation gates;
+- Pages deployment closes with a public manifest/payload size + checksum smoke gate.
