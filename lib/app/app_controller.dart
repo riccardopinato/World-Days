@@ -358,6 +358,19 @@ final class AppController extends ChangeNotifier {
     await _savePreferencesAndReconcile();
   }
 
+  Future<void> setWeeklyReminderWeekday(int weekday) async {
+    if (weekday < DateTime.monday || weekday > DateTime.sunday) {
+      throw ArgumentError.value(weekday, 'weekday', 'Unsupported weekday');
+    }
+    preferences = preferences.copyWith(
+      reminders: preferences.reminders.copyWith(
+        weeklyWeekday: weekday,
+      ),
+    );
+    notifyListeners();
+    await _savePreferencesAndReconcile();
+  }
+
   Future<void> setWeeklyReminderTime(TimeOfDay time) async {
     preferences = preferences.copyWith(
       reminders: preferences.reminders.copyWith(
