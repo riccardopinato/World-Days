@@ -93,13 +93,20 @@ final class CatalogRepository {
       return Map<String, dynamic>.from(value);
     }
 
+    final seed = requiredFile('official_core.json');
+    final payloadVersion = payload['version']?.toString() ?? '';
+    final seedVersion = seed['datasetVersion']?.toString() ?? '';
+    if (payloadVersion.isEmpty || payloadVersion != seedVersion) {
+      throw const FormatException('content_pack_version_mismatch');
+    }
+
     final editorial = <String, Map<String, dynamic>>{};
     for (final locale in editorialLocales) {
       editorial[locale] = requiredFile('editorial_$locale.json');
     }
 
     return _decodeSnapshot(
-      seed: requiredFile('official_core.json'),
+      seed: seed,
       occurrence: requiredFile('occurrences_2026.json'),
       editorial: editorial,
     );
