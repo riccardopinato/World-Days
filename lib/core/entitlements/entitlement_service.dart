@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'billing_adapter.dart';
 import 'entitlement_models.dart';
 import 'entitlement_store.dart';
+import 'store_billing_adapter.dart';
 
 class EntitlementService extends ChangeNotifier {
   EntitlementService({
@@ -12,7 +13,7 @@ class EntitlementService extends ChangeNotifier {
     BillingAdapter? billingAdapter,
     DateTime Function()? clock,
   })  : _store = store ?? const SharedPreferencesEntitlementStore(),
-        _billing = billingAdapter ?? const UnavailableBillingAdapter(),
+        _billing = billingAdapter ?? createStoreBillingAdapter(),
         _clock = clock ?? DateTime.now;
 
   final EntitlementStore _store;
@@ -83,7 +84,11 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.purchaseRemoveAds();
-      await _applyBillingResult(result);
+      if (!removesAds ||
+          result.state == PurchaseFlowState.purchased ||
+          result.state == PurchaseFlowState.restored) {
+        await _applyBillingResult(result);
+      }
     } catch (error) {
       _flowState = PurchaseFlowState.failed;
       _lastError = 'billing_purchase:$error';
@@ -105,7 +110,11 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.restoreRemoveAds();
-      await _applyBillingResult(result);
+      if (!removesAds ||
+          result.state == PurchaseFlowState.purchased ||
+          result.state == PurchaseFlowState.restored) {
+        await _applyBillingResult(result);
+      }
     } catch (error) {
       _flowState = PurchaseFlowState.failed;
       _lastError = 'billing_restore:$error';
