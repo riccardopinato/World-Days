@@ -41,6 +41,36 @@ def infer_visual_key(title, categories=None):
             return visual_key
     return 'community'
 
+SEMANTIC_CATEGORY_KEYS = (
+    'PLANET',
+    'HEALTH',
+    'PEOPLE',
+    'LEARNING',
+    'CULTURE',
+    'FOOD',
+    'FUTURE',
+    'COMMUNITY',
+)
+
+def infer_semantic_categories(title, categories=None):
+    hay = ' '.join([title] + list(categories or [])).lower().replace('_', ' ')
+    groups = [
+        ('HEALTH', ('health','disease','cancer','nurse','heart','tuberculosis','mental','alzheimer','suicide','aids','malaria','hepatitis','blood','patient','diabetes','medicine','safety')),
+        ('PLANET', ('water','ocean','sea','forest','earth','environment','wildlife','wetland','climate','biodiversity','desert','glacier','mountain','soil','ozone','meteorological','turtle','seagrass','animal','nature')),
+        ('LEARNING', ('education','science','braille','language','literacy','logic','teacher','mathematics','learning','book','school')),
+        ('CULTURE', ('culture','poetry','radio','theatre','dance','museum','jazz','art','music','emoji','tourism','heritage','creative')),
+        ('FOOD', ('food','vegan','pulse','gastronomy','tea','coffee','agriculture','nutrition','farm')),
+        ('FUTURE', ('space','telecommunication','internet','innovation','technology','industrial','energy','digital','coding','engineering')),
+        ('PEOPLE', ('women','girl','rights','refugee','peace','justice','discrimination','slavery','fraternity','social','family','children','youth','kindness','solidarity','democracy','indigenous','disability','civic','history','remembrance','population','humanitarian','migrant')),
+    ]
+    result = []
+    for category, terms in groups:
+        if any(term in hay for term in terms):
+            result.append(category)
+    if not result:
+        result.append('COMMUNITY')
+    return [key for key in SEMANTIC_CATEGORY_KEYS if key in result]
+
 def add(title, period, rules, authority, source_url, categories=None, aliases=None, notes=None, source_tier='A_PRIMARY'):
     rid=slug(title)
     if any(r['id']==rid for r in records):
@@ -493,6 +523,17 @@ for market_record in MARKET_RECORDS:
     if any(r['id'] == market_record['id'] for r in records):
         raise ValueError('duplicate id ' + market_record['id'])
     records.append(market_record)
+
+# SEMANTIC CATEGORY NORMALIZATION
+# Categories describe subject matter and are intentionally independent from
+# visualKey, which controls artwork only.
+for record in records:
+    record['categories'] = infer_semantic_categories(
+        record['canonicalTitleEn'],
+        record.get('categories') or [],
+    )
+    assert record['categories'], record['id']
+    assert set(record['categories']).issubset(SEMANTIC_CATEGORY_KEYS), record['id']
 
 # LOCALIZED OBSERVANCE TITLES
 # Canonical identity remains English; display titles are static, offline and
