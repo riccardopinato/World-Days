@@ -110,7 +110,7 @@ ContentPackManifest _manifest(
       sizeBytes: bytes.length,
       sha256: hashOverride ?? sha256.convert(bytes).toString(),
       payloadUrl:
-          'https://riccardopinato.github.io/World-Days/content/pack-$version.json',
+          'https://riccardopinato.github.io/World-Days/content/world-days-content-$version.json',
       generatedAt: '2026-10-15',
     );
 
