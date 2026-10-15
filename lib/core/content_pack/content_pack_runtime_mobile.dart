@@ -25,7 +25,9 @@ class _HttpContentPackTransport implements ContentPackTransport {
 
   @override
   Future<String> getText(Uri uri) async {
-    final response = await _client.get(uri);
+    final response = await _client
+        .get(uri)
+        .timeout(const Duration(seconds: 15));
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_manifest_http_${response.statusCode}',
@@ -37,7 +39,9 @@ class _HttpContentPackTransport implements ContentPackTransport {
 
   @override
   Future<List<int>> getBytes(Uri uri) async {
-    final response = await _client.get(uri);
+    final response = await _client
+        .get(uri)
+        .timeout(const Duration(seconds: 30));
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_payload_http_${response.statusCode}',
@@ -71,6 +75,10 @@ class _FileContentPackStorage implements ContentPackStorage {
 
   Future<File> _pointerFile() async =>
       File('${(await _root()).path}${Platform.pathSeparator}pointer.json');
+
+  Future<File> _pointerBackupFile() async => File(
+        '${(await _root()).path}${Platform.pathSeparator}pointer.backup.json',
+      );
 
   Future<File> _manifestFile(String version) async => File(
         '${(await _root()).path}${Platform.pathSeparator}'
@@ -114,14 +122,23 @@ class _FileContentPackStorage implements ContentPackStorage {
   }
 
   Future<ContentPackPointer?> _readPointer() async {
-    final file = await _pointerFile();
-    if (!await file.exists()) return null;
-    final decoded = jsonDecode(await file.readAsString());
-    if (decoded is! Map) return null;
-    final pointer = ContentPackPointer.fromJson(
-      Map<String, dynamic>.from(decoded),
-    );
-    return pointer.activeVersion.isEmpty ? null : pointer;
+    final primary = await _pointerFile();
+    final backup = await _pointerBackupFile();
+
+    for (final file in [primary, backup]) {
+      if (!await file.exists()) continue;
+      try {
+        final decoded = jsonDecode(await file.readAsString());
+        if (decoded is! Map) continue;
+        final pointer = ContentPackPointer.fromJson(
+          Map<String, dynamic>.from(decoded),
+        );
+        if (pointer.activeVersion.isNotEmpty) return pointer;
+      } catch (_) {
+        // Try the crash-safe backup pointer before giving up.
+      }
+    }
+    return null;
   }
 
   @override
@@ -156,6 +173,12 @@ class _FileContentPackStorage implements ContentPackStorage {
         previousVersion: previous,
       ),
     );
+    await _purgeUnused(
+      keepVersions: {
+        manifest.version,
+        if (previous != null) previous,
+      },
+    );
   }
 
   @override
@@ -176,10 +199,54 @@ class _FileContentPackStorage implements ContentPackStorage {
 
   Future<void> _writePointer(ContentPackPointer pointer) async {
     final target = await _pointerFile();
-    final temp = File('${target.path}.tmp');
+    final backup = await _pointerBackupFile();
+    final temp = File('${target.path}.next');
+
     await _deleteIfExists(temp);
     await temp.writeAsString(jsonEncode(pointer.toJson()), flush: true);
+
+    if (await target.exists()) {
+      await _deleteIfExists(backup);
+      await target.copy(backup.path);
+    }
+
     await _replaceFile(temp, target);
+  }
+
+  Future<void> _purgeUnused({
+    required Set<String> keepVersions,
+  }) async {
+    final root = await _root();
+    await for (final entity in root.list()) {
+      if (entity is! File) continue;
+      final name = entity.uri.pathSegments.last;
+      final match = RegExp(r'^(?:manifest|pack)_(.+)\.json
+  Future<void> _replaceFile(File source, File target) async {
+    if (await target.exists()) await target.delete();
+    await source.rename(target.path);
+  }
+
+  Future<void> _deleteIfExists(File file) async {
+    if (await file.exists()) await file.delete();
+  }
+
+  String _safeVersion(String value) {
+    if (!RegExp(r'^[A-Za-z0-9._-]+$').hasMatch(value)) {
+      throw const FormatException('invalid_content_pack_version');
+    }
+    return value;
+  }
+
+  @override
+  Future<void> close() async {}
+}
+).firstMatch(name);
+      if (match == null) continue;
+      final version = match.group(1);
+      if (version != null && !keepVersions.contains(version)) {
+        await _deleteIfExists(entity);
+      }
+    }
   }
 
   Future<void> _replaceFile(File source, File target) async {
