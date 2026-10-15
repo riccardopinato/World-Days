@@ -336,7 +336,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
   }
 }
 
-
 class _EditorialSection extends StatelessWidget {
   const _EditorialSection({
     required this.icon,
