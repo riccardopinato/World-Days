@@ -66,14 +66,14 @@ class WorldDaysHomeWidgetService implements HomeWidgetGateway {
   StreamSubscription<Uri?>? _widgetClickSubscription;
 
   @override
-bool get supported =>
+  bool get supported =>
       !kIsWeb && defaultTargetPlatform == TargetPlatform.android;
 
   @override
-Stream<Uri> get clickStream => _clickController.stream;
+  Stream<Uri> get clickStream => _clickController.stream;
 
   @override
-Future<Uri?> initialize() async {
+  Future<Uri?> initialize() async {
     if (!supported) return null;
     _widgetClickSubscription ??= HomeWidget.widgetClicked.listen((uri) {
       if (uri != null) _clickController.add(uri);
@@ -86,7 +86,7 @@ Future<Uri?> initialize() async {
   }
 
   @override
-Future<void> sync({
+  Future<void> sync({
     required String localeCode,
     required WidgetObservancesForDate observancesForDate,
   }) async {
@@ -109,7 +109,7 @@ Future<void> sync({
   }
 
   @override
-Future<bool> isPinSupported() async {
+  Future<bool> isPinSupported() async {
     if (!supported) return false;
     try {
       return await HomeWidget.isRequestPinWidgetSupported() ?? false;
@@ -119,7 +119,7 @@ Future<bool> isPinSupported() async {
   }
 
   @override
-Future<bool> requestPin() async {
+  Future<bool> requestPin() async {
     if (!await isPinSupported()) return false;
     try {
       await HomeWidget.requestPinWidget(
@@ -132,7 +132,7 @@ Future<bool> requestPin() async {
   }
 
   @override
-void dispose() {
+  void dispose() {
     _widgetClickSubscription?.cancel();
     _clickController.close();
   }
