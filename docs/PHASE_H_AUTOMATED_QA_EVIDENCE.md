@@ -111,7 +111,7 @@ This does not affect the Android/Web Phase-H gate. It must be resolved before Ap
 
 ## CI acceptance
 
-The merge head must satisfy the repository Development checks:
+The merge head must satisfy the pull-request Development checks:
 
 - dataset/editorial/content-pack validators;
 - native scaffold validation;
@@ -119,11 +119,11 @@ The merge head must satisfy the repository Development checks:
 - branding/localization validation;
 - Flutter analyze;
 - **76 Flutter tests**;
-- Web release build;
-- Android ARM64 gate;
-- APK artifact upload.
+- Web release build.
 
-PR #28 must not be merged while this workflow is red.
+The workflow's Android ARM64 build/artifact steps are conditional and are skipped in the PR context. They are therefore **not** claimed as PR evidence. The post-merge `main` workflow remains the Android build gate and must be checked after squash merge.
+
+PR #28 must not be merged while its required workflow is red.
 
 ## Residual work intentionally outside Phase H
 
