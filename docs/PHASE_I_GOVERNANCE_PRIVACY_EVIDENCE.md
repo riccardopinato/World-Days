@@ -119,22 +119,24 @@ These remain BLOCKED / NOT VERIFIED until performed in Play Console and on a Pla
 
 ## Validation status
 
-Final PR CI: PENDING.
+Development checks #210 on functional head 6777a602308f63f6fa02760074cb7ac7331dd1f6:
 
-Required before merge:
-- release-governance validator PASS;
-- dataset/localization/native validators PASS;
-- Flutter analyze PASS;
-- Flutter tests PASS;
-- Web release PASS.
+- release-governance validator: PASS;
+- dataset/localization/native validators: PASS;
+- Flutter analyze: PASS;
+- Flutter tests: **80/80 PASS**;
+- Web release: PASS;
+- Android ARM64 PR step: skipped by workflow design.
+
+This evidence update is documentation-only. Final CI on the complete PR head remains required before squash merge.
 
 Android ARM64 remains the post-merge main gate in Development checks.
 
 ## Verdict
 
-Phase I repository implementation is ready for CI validation.
+Phase I repository implementation is complete and functionally validated.
 
-It must not be described as fully closed until:
-1. final PR CI is green;
+Phase I must still retain explicit external evidence gates until:
+1. final CI on the complete PR head is green;
 2. the updated privacy page is live after merge;
 3. main branch protection is configured/verified by a repository admin.
