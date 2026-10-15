@@ -1,5 +1,5 @@
 WORLD DAYS — GOLDEN REUSE MANIFEST v0.1
-Factory baseline: riccardopinato/App-Factory-Core @ 23c5b0f6b5f02a93e03bb36106f12575a58129d3
+Factory baseline: riccardopinato/App-Factory-Core @ 5f6b2489df2ac85fb85ccfea059983a090689de4
 
 RULE
 COPY FIRST. EXTEND BEFORE DUPLICATE.
@@ -167,3 +167,16 @@ World Days implementation:
 - signed QA workflow verifies the APK certificate SHA-256 and artifact hashes before upload;
 - direct APK update continuity begins with the first permanently signed APK; legacy ephemeral-signing builds require one final reinstall.
 
+
+
+H. POST-AUDIT STRUCTURAL DELTA — 2026-10-15
+
+Applied against Factory baseline 5f6b2489df2ac85fb85ccfea059983a090689de4:
+- semantic observance categories are independent from visualKey;
+- legacy followedVisualKeys preferences migrate to followedCategories;
+- occurrence/date indexes are cached and cross-year carry-over ranges are included;
+- Today primary selection uses deterministic authority/scope/day ranking;
+- Around the World browsing is transient and cannot mutate profile market;
+- recurrence runtime/data contract now agree on LAST_DAY_OF_MONTH and ONE_OFF;
+- production Android signing and AdMob/UMP physical validation are complete;
+- Remove Ads, remote content packs and exact-artifact retention QA remain open gates.
