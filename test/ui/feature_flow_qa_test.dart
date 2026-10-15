@@ -25,7 +25,7 @@ void main() {
 
     expect(find.text('Today in 30 seconds'), findsOneWidget);
     expect(
-      find.textContaining('Global Test Day is a verified global observance'),
+      find.textContaining('Global Test Day is a verified observance in the World Days catalog'),
       findsOneWidget,
     );
     expect(tester.takeException(), isNull);
