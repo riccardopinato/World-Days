@@ -6,6 +6,7 @@ import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest.dart' as tz_data;
 import 'package:timezone/timezone.dart' as tz;
 
+import 'notification_gateway.dart';
 import 'notification_health.dart';
 import 'reminder_plan.dart';
 
@@ -15,7 +16,7 @@ void notificationTapBackground(NotificationResponse response) {
   // navigation is handled on the main isolate when the app opens.
 }
 
-class NotificationService {
+class NotificationService implements NotificationGateway {
   NotificationService._();
 
   static final NotificationService instance = NotificationService._();
