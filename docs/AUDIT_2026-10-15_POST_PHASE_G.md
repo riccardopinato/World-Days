@@ -278,7 +278,7 @@ The next work should close release evidence and content completeness, not replac
 
 ## 9. Phase B + G.1 remediation — 2026-10-15
 
-The following audit findings were closed by PR #25:
+The following audit findings were closed by PR #25 / merge `2a177fc00d6f6a5f041034e7c8e00f8cd651c0bb`:
 - full-catalog recurrence acceptance now exercises 2026, 2027 and 2028;
 - runtime/CI enforce source presence and verification metadata;
 - generated occurrence uniqueness and cross-year ranges have explicit gates;
@@ -286,5 +286,7 @@ The following audit findings were closed by PR #25:
 - payload transfer is streamed through a hard manifest-sized byte cap;
 - signed QA and production release workflows run content-pack/native-content validation;
 - GitHub Pages deployment now performs a public manifest/payload propagation + checksum smoke check.
+
+Post-merge evidence: analyze PASS, 44 Flutter tests PASS, Web PASS, Android ARM64 PASS, GitHub Pages deploy PASS, and hosted manifest/payload checksum smoke PASS for version `2026.10.14.1`.
 
 These items are therefore no longer on the critical path. Remaining v1 blockers start with Phase C, E, F and I/J in `ROADMAP.md`.
