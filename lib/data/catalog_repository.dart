@@ -41,7 +41,7 @@ final class CatalogSnapshot {
   ) {
     final record = byId[observanceId];
     if (record == null) return null;
-    return VerifiedMetadataSummary.forObservance(record, localeCode);
+    return VerifiedRecordOverview.fromObservance(record, localeCode);
   }
 
   bool hasRichEditorial(String observanceId) =>
