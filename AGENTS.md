@@ -2,7 +2,7 @@
 
 Source of product truth: `docs/PRODUCT_BIBLE.txt`.
 Source of execution truth: `ROADMAP.md`.
-App Factory baseline for this repository bootstrap: `App-Factory-Core@23c5b0f6b5f02a93e03bb36106f12575a58129d3`.
+App Factory baseline for this repository bootstrap: `App-Factory-Core@5f6b2489df2ac85fb85ccfea059983a090689de4`.
 
 Rules:
 - Flutter/Dart is the default stack.
