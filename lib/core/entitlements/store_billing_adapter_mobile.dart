@@ -153,8 +153,9 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
       await _ensurePurchaseListener();
       await _store.restorePurchases();
       return BillingResult(
-        state: PurchaseFlowState.restoring,
+        state: PurchaseFlowState.ready,
         productId: _productId,
+        errorCode: 'restore_completed_without_match',
       );
     } catch (error) {
       return BillingResult(
