@@ -68,7 +68,7 @@ void main() {
 
     expect(find.text('Global Test Day'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('Italy Test Day'),
+      find.text('Italy Test Day').first,
       180,
     );
     expect(find.text('Italy Test Day'), findsOneWidget);
@@ -83,7 +83,7 @@ void main() {
 
     expect(find.text('Global Test Day'), findsNothing);
     await tester.scrollUntilVisible(
-      find.text('Italy Test Day'),
+      find.text('Italy Test Day').first,
       180,
     );
     expect(find.text('Italy Test Day'), findsOneWidget);
