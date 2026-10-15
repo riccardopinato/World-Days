@@ -37,13 +37,13 @@ class NotificationService implements NotificationGateway {
   String? _initialPayload;
 
   @override
-bool get supported =>
+  bool get supported =>
       !kIsWeb &&
       (defaultTargetPlatform == TargetPlatform.android ||
           defaultTargetPlatform == TargetPlatform.iOS);
 
   @override
-Stream<String> get notificationTapStream => _tapController.stream;
+  Stream<String> get notificationTapStream => _tapController.stream;
 
   @override
 String? takeInitialPayload() {
@@ -53,7 +53,7 @@ String? takeInitialPayload() {
   }
 
   @override
-Future<void> initialize({bool force = false}) async {
+  Future<void> initialize({bool force = false}) async {
     if (_initialized && !force) return;
     if (!supported) {
       _initialized = true;
@@ -129,7 +129,7 @@ Future<void> initialize({bool force = false}) async {
   }
 
   @override
-Future<bool> requestPermissions() async {
+  Future<bool> requestPermissions() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return false;
 
@@ -163,7 +163,7 @@ Future<bool> requestPermissions() async {
   }
 
   @override
-Future<NotificationHealth> health() async {
+  Future<NotificationHealth> health() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) {
       return NotificationHealth(
@@ -221,7 +221,7 @@ Future<NotificationHealth> health() async {
   }
 
   @override
-Future<void> openSystemSettings() async {
+  Future<void> openSystemSettings() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return;
     try {
@@ -292,7 +292,7 @@ Future<void> openSystemSettings() async {
   }
 
   @override
-Future<void> reconcile(Iterable<PlannedNotification> plan) async {
+  Future<void> reconcile(Iterable<PlannedNotification> plan) async {
     await initialize();
     if (!_available) return;
     try {
@@ -306,7 +306,7 @@ Future<void> reconcile(Iterable<PlannedNotification> plan) async {
   }
 
   @override
-Future<LocalNotificationDiagnostic> runLocalDiagnostic({
+  Future<LocalNotificationDiagnostic> runLocalDiagnostic({
     required String immediateTitle,
     required String immediateBody,
     required String scheduledTitle,
@@ -384,7 +384,7 @@ Future<LocalNotificationDiagnostic> runLocalDiagnostic({
   }
 
   @override
-void dispose() {
+  void dispose() {
     _tapController.close();
   }
 }
