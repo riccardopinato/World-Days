@@ -146,5 +146,16 @@
   "quickFacts": "Kurzfakten",
   "annualTheme": "Jahresthema",
   "relatedObservances": "Verwandte Aktionstage",
-  "editorialCoveragePending": "Die erweiterten redaktionellen Details zu diesem Aktionstag werden noch anhand der Quellen geprüft."
+  "editorialCoveragePending": "Die erweiterten redaktionellen Details zu diesem Aktionstag werden noch anhand der Quellen geprüft.",
+  "removeAds": "Werbung entfernen",
+  "removeAdsDescription": "Einmaliger Kauf. Die Kerninhalte bleiben kostenlos.",
+  "removeAdsOwned": "Werbung ist auf diesem Gerät entfernt.",
+  "removeAdsPurchase": "Werbung entfernen kaufen",
+  "restorePurchases": "Käufe wiederherstellen",
+  "purchasePending": "Kauf ausstehend. Werbung bleibt aktiv, bis der Store den Kauf bestätigt.",
+  "purchaseSucceeded": "Werbung entfernen freigeschaltet.",
+  "purchaseCancelled": "Kauf abgebrochen.",
+  "purchaseFailed": "Kauf konnte nicht abgeschlossen werden.",
+  "restoreSucceeded": "Werbung entfernen wiederhergestellt.",
+  "billingUnavailable": "Der Store-Kauf ist derzeit nicht verfügbar."
 }
