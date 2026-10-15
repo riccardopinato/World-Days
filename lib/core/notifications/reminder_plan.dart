@@ -10,6 +10,7 @@ class PlannedNotification {
     required this.body,
     required this.when,
     required this.payload,
+    this.repeatDaily = false,
   });
 
   final String stableId;
@@ -17,6 +18,7 @@ class PlannedNotification {
   final String body;
   final DateTime when;
   final String payload;
+  final bool repeatDaily;
 }
 
 class ReminderPlanBuilder {
@@ -58,6 +60,26 @@ class ReminderPlanBuilder {
           ),
         );
       }
+
+      final fallbackDate = start.add(const Duration(days: 21));
+      var fallbackWhen = _at(
+        fallbackDate,
+        settings.dailyHour,
+        settings.dailyMinute,
+      );
+      if (!fallbackWhen.isAfter(clock)) {
+        fallbackWhen = fallbackWhen.add(const Duration(days: 1));
+      }
+      plan.add(
+        PlannedNotification(
+          stableId: 'daily:rolling-fallback',
+          title: copy.dailyGenericTitle,
+          body: copy.dailyBody,
+          when: fallbackWhen,
+          payload: 'tab:today',
+          repeatDaily: true,
+        ),
+      );
     }
 
     if (settings.weeklyEnabled) {
