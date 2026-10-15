@@ -81,6 +81,12 @@ class _Root extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
+                    const SizedBox(height: 16),
+                    FilledButton.icon(
+                      onPressed: controller.reload,
+                      icon: const Icon(Icons.refresh_rounded),
+                      label: const Text('Retry'),
+                    ),
                   ],
                 ),
               ),
