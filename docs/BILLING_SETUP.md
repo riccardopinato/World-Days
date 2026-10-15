@@ -22,10 +22,12 @@ one-time product.
 
 Required configuration:
 1. Product ID exactly `world_days_remove_ads_lifetime`.
-2. Non-consumable / permanent entitlement semantics.
-3. Active Buy purchase option.
-4. Base/reference price targeting EUR 2.99, then review localized prices.
-5. Publish/activate the product before sandbox validation.
+2. One-time product with non-consumable / permanent entitlement semantics.
+3. At least one active **Buy** purchase option; do not use Rent for Remove Ads.
+4. Configure availability and the EUR reference price on the Buy purchase option, then review Play-localized regional prices.
+5. Publish/activate the product and purchase option before sandbox validation.
+
+Google's current one-time-product model places price and regional availability on purchase options rather than on a single legacy default-price field.
 
 Testing:
 1. Add the tester account under Play Console license testing.
@@ -76,6 +78,10 @@ operation rather than a best-effort one-shot callback.
 Provider guidance re-verified 2026-10-15 against:
 - https://pub.dev/packages/in_app_purchase
 - https://developer.android.com/google/play/billing/integrate
+- https://developer.android.com/google/play/billing/one-time-products
+- https://support.google.com/googleplay/android-developer/answer/16430488
+- https://support.google.com/googleplay/android-developer/answer/6062777
+- https://support.google.com/googleplay/android-developer/answer/9845334
 
 ## Verification boundary
 
@@ -105,3 +111,12 @@ release candidate:
 - forced completion failure followed by process restart reconciles and
   completes the same transaction without revoking entitlement;
 - production build remains signed by the pinned World Days certificate.
+
+
+## External Play Console gate
+
+Repository/runtime work for Phase E is implemented and automatically tested.
+
+The remaining product creation, internal-track upload, license-tester enrollment and purchase/restore evidence require access to the World Days Play Console account. The connected GitHub tooling cannot create Play Console products or enroll license testers, and no direct Play Console connector is available in the current ChatGPT toolset.
+
+Treat those items as **BLOCKED / NOT VERIFIED**, never PASS, until executed in Play Console and on a Play-installed artifact.

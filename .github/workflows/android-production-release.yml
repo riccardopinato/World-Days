@@ -19,8 +19,29 @@ jobs:
       ADMOB_ANDROID_APP_ID: ${{ secrets.ADMOB_ANDROID_APP_ID }}
       ADMOB_ANDROID_BANNER_ID: ${{ secrets.ADMOB_ANDROID_BANNER_ID }}
     steps:
+      - name: Require approved release source
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
+            echo "::error::Production Android Release must run from main; got $GITHUB_REF"
+            exit 1
+          fi
+
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Resolve source version identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION_SPEC="$(awk '$1 == "version:" {print $2}' pubspec.yaml)"
+          if [[ ! "$VERSION_SPEC" =~ ^([0-9]+\.[0-9]+\.[0-9]+)\+([1-9][0-9]*)$ ]]; then
+            echo "::error::pubspec version must be MAJOR.MINOR.PATCH+positiveBuildNumber; got $VERSION_SPEC"
+            exit 1
+          fi
+          echo "WORLD_DAYS_VERSION_NAME=${BASH_REMATCH[1]}" >> "$GITHUB_ENV"
+          echo "WORLD_DAYS_VERSION_CODE=${BASH_REMATCH[2]}" >> "$GITHUB_ENV"
 
       - name: Require production signing and AdMob secrets
         env:
@@ -61,6 +82,7 @@ jobs:
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
+          python3 tool/validate_release_governance.py
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
@@ -125,14 +147,16 @@ jobs:
             --release \
             --split-per-abi \
             --tree-shake-icons \
-            --build-number "$GITHUB_RUN_NUMBER" \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE" \
             --dart-define=WORLD_DAYS_ADS_PRODUCTION=true \
             --dart-define=ADMOB_ANDROID_BANNER_ID="$ADMOB_ANDROID_BANNER_ID"
 
           flutter build appbundle \
             --release \
             --tree-shake-icons \
-            --build-number "$GITHUB_RUN_NUMBER" \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE" \
             --dart-define=WORLD_DAYS_ADS_PRODUCTION=true \
             --dart-define=ADMOB_ANDROID_BANNER_ID="$ADMOB_ANDROID_BANNER_ID"
 
@@ -165,13 +189,13 @@ jobs:
             exit 1
           fi
 
-          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionCode=%s\nadmobLane=production\n' \
-            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_NUMBER" \
+          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionName=%s\nversionCode=%s\nadmobLane=production\n' \
+            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$WORLD_DAYS_VERSION_NAME" "$WORLD_DAYS_VERSION_CODE" \
             > build/production-release-evidence.txt
           sha256sum "$APK" "$AAB" > build/production-artifact-sha256.txt
 
       - name: Upload production Android artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: world-days-production-android
           path: |

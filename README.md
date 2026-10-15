@@ -2,7 +2,7 @@
 
 **Discover what the world observes today.**
 
-World Days is an English-first, multilingual Flutter consumer app for international and world observances. The product keeps canonical verified observances separate from editorial/discovery candidates and preserves provenance for every record.
+World Days is an English-first, multilingual Flutter consumer app for international and world observances. V1 production scope is Android-first with a Flutter Web Preview; iOS production release is post-v1. The product keeps canonical verified observances separate from editorial/discovery candidates and preserves provenance for every record.
 
 
 ### Localized observance titles
@@ -27,15 +27,16 @@ Implemented in this first real repository pass:
 - Android Today Home Screen Widget backed by a 45-day offline projection;
 - deterministic notification/widget deep links;
 - branded World Days launcher icon;
-- UMP-gated top adaptive AdMob banner with separate QA/test and production lanes;
+- UMP-gated top adaptive AdMob banner with separate QA/test and production lanes; inline/interstitial ads are outside v1;
 - public production privacy policy hosted with the Web Preview;
 - permanent Android release identity with verified production APK/AAB signer continuity;
 - provider-agnostic lifetime Remove Ads entitlement core plus official Flutter store-billing adapter;
+- source-bound production Android workflow: main-only, pubspec versionName/versionCode, signer/hash evidence;
 - verified Remote Content Pack v1 with HTTPS manifest, SHA-256 gate, staged activation, rollback and immutable bundled fallback;
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Verified Overview coverage is 296/296 in EN/IT/ES/FR/DE/PT; Rich Editorial remains a separate curated layer at 28/296 reviewed records. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. V1 has no separate first-party analytics SDK/event pipeline. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Verified Overview coverage is 296/296 in EN/IT/ES/FR/DE/PT; Rich Editorial remains a separate curated layer at 28/296 reviewed records. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
 ## Privacy
 
@@ -89,3 +90,10 @@ a previous verified version for rollback; if remote content is unavailable or
 invalid, bundled assets remain usable. Web intentionally stays bundled-only.
 
 See `docs/REMOTE_CONTENT_PACK.md`.
+
+
+## Release governance
+
+Release identity and evidence conventions are defined in `docs/RELEASE_GOVERNANCE.md`. Privacy/Data Safety engineering inputs are frozen in `docs/DATA_SAFETY_INPUTS.md`.
+
+Production Android builds are accepted only from `main` and derive `versionName` / `versionCode` from the committed `pubspec.yaml`. GitHub branch-protection administration remains a repository-owner gate because the connected GitHub integration does not have Admin permission.

@@ -1,7 +1,7 @@
 name: world_days
 description: Discover what the world observes today.
 publish_to: 'none'
-version: 0.3.0+3
+version: 0.4.0+4
 
 environment:
   sdk: '>=3.13.0 <4.0.0'
