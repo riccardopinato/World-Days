@@ -4,6 +4,7 @@ set -euo pipefail
 python3 tool/build_dataset.py >/dev/null
 python3 tool/build_editorial.py >/dev/null
 python3 tool/build_editorial_locales.py >/dev/null
+python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then
   echo "Flutter is required" >&2
