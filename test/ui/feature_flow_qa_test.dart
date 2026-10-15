@@ -43,10 +43,10 @@ void main() {
     expect(notifications.reconcileCalls, greaterThanOrEqualTo(1));
 
     await tester.scrollUntilVisible(
-      find.text('Add home screen widget'),
+      find.text('Add Today widget'),
       300,
     );
-    await tester.tap(find.text('Add home screen widget'));
+    await tester.tap(find.text('Add Today widget'));
     await tester.pumpAndSettle();
 
     expect(widget.syncCalls, greaterThanOrEqualTo(1));
@@ -70,17 +70,16 @@ void main() {
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(find.text('Spain Test Day'), findsNothing);
 
-    await tester.tap(find.byTooltip('Filter calendar'));
+    await tester.tap(find.byTooltip('Calendar filters'));
     await tester.pumpAndSettle();
     await tester.tap(find.text('National').last);
+    await tester.pump();
+    Navigator.of(tester.element(find.text('National').last)).pop();
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsNothing);
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(controller.preferences.marketCode, 'IT');
-
-    Navigator.of(tester.element(find.text('Italy Test Day'))).pop();
-    await tester.pumpAndSettle();
     expect(tester.takeException(), isNull);
   });
 
