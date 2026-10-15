@@ -153,8 +153,13 @@ void main() {
     final repository = const CatalogRepository();
     final snapshot = await repository.load();
 
+    String dateKey(DateTime value) =>
+        '${value.year.toString().padLeft(4, '0')}-'
+        '${value.month.toString().padLeft(2, '0')}-'
+        '${value.day.toString().padLeft(2, '0')}';
+
     String spanKey(String id, DateSpan span) =>
-        '$id|${span.start.toIso8601String()}|${span.end.toIso8601String()}';
+        '$id|${dateKey(span.start)}|${dateKey(span.end)}';
 
     for (final year in [2026, 2027, 2028]) {
       final occurrences = repository.occurrencesForYear(year, snapshot);
@@ -193,7 +198,7 @@ void main() {
             expect(span.end.isBefore(span.start), isFalse);
             expect(
               perRuleKeys.add(
-                '${record.id}|$ruleIndex|${span.start.toIso8601String()}|${span.end.toIso8601String()}',
+                '${record.id}|$ruleIndex|${dateKey(span.start)}|${dateKey(span.end)}',
               ),
               isTrue,
               reason:
@@ -222,7 +227,7 @@ void main() {
           actualById
               .putIfAbsent(occurrence.observanceId, () => <String>{})
               .add(
-                '${occurrence.observanceId}|${occurrence.start.toIso8601String()}|${occurrence.end.toIso8601String()}',
+                '${occurrence.observanceId}|${dateKey(occurrence.start)}|${dateKey(occurrence.end)}',
               );
         }
 
