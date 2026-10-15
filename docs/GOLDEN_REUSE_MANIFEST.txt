@@ -1,5 +1,5 @@
 WORLD DAYS — GOLDEN REUSE MANIFEST v0.1
-Factory baseline: riccardopinato/App-Factory-Core @ 5f6b2489df2ac85fb85ccfea059983a090689de4
+Factory baseline: riccardopinato/App-Factory-Core @ 47c47f49a7b46812e3bd6f1231c3524f2b52b826
 
 RULE
 COPY FIRST. EXTEND BEFORE DUPLICATE.
@@ -100,7 +100,8 @@ B. CANDIDATE / PROCESS GOLDENS — APPLY, DO NOT CLAIM CERTIFIED
 - golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
 - golden/ui/GOLDEN_ONBOARDING_FIRST_RUN_FLUTTER_v1_DRAFT.txt
 - golden/monetization/GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT.txt
-- golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1_DRAFT.txt
+- golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1.txt
+- golden/monetization/GOLDEN_PLAY_BILLING_LIFETIME_ENTITLEMENT_FLUTTER_v1_DRAFT.txt
 - golden/data/GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT.txt
 - golden/release/GOLDEN_RELEASE_REALITY_PHYSICAL_VALIDATION_v1_DRAFT.txt
 - golden/release/GOLDEN_ANDROID_SIGNING_RELEASE_IDENTITY_v1_DRAFT.txt
@@ -172,7 +173,7 @@ World Days implementation:
 
 H. POST-AUDIT STRUCTURAL DELTA — 2026-10-15
 
-Applied against Factory baseline 5f6b2489df2ac85fb85ccfea059983a090689de4:
+Applied against Factory baseline 47c47f49a7b46812e3bd6f1231c3524f2b52b826:
 - semantic observance categories are independent from visualKey;
 - legacy followedVisualKeys preferences migrate to followedCategories;
 - occurrence/date indexes are cached and cross-year carry-over ranges are included;
@@ -206,3 +207,27 @@ World Days implementation:
 - tests cover checksum mismatch, manifest/payload network failures, corrupt-active rollback, bundled fallback, off-origin/unsafe manifest metadata and byte-cap overflow;
 - signed QA and production release lanes run the content/native validation gates;
 - Pages deployment closes with a public manifest/payload size + checksum smoke gate.
+
+
+J. PHASE E — BILLING FINALIZATION RECOVERY
+
+Factory guidance:
+- golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1.txt
+  Status: COPY-READY GOLDEN — PROVIDER-AGNOSTIC.
+- golden/monetization/GOLDEN_PLAY_BILLING_LIFETIME_ENTITLEMENT_FLUTTER_v1_DRAFT.txt
+  Status: DRAFT / PROVIDER CANDIDATE — STORE SANDBOX NOT VERIFIED.
+- golden/governance/GOLDEN_CODE_HYGIENE_v1.txt
+  Status: CERTIFIED PROCESS.
+
+World Days implementation:
+- provider SDK remains isolated behind BillingAdapter;
+- lifetime entitlement remains durable and provider-agnostic;
+- purchaseStream is attached during billing startup even when lifetime access is already cached;
+- provider completion requirement is represented explicitly in BillingResult;
+- pending completion identity is persisted before completePurchase is attempted;
+- failed completion preserves user access and leaves a durable retry marker;
+- next launch reconciles unfinished provider state and completes the same transaction when re-delivered;
+- wrong-product or unverified PURCHASED/RESTORED results fail closed and never surface purchase-success UX;
+- normal Restore remains user initiated; automatic reconciliation is limited to previously delivered unfinished transactions;
+- provider guidance was re-verified on 2026-10-15 against current Flutter in_app_purchase and Google Play Billing documentation;
+- Play catalog/internal-test physical evidence remains NOT VERIFIED and is an external gate.
