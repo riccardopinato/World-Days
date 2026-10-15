@@ -265,13 +265,25 @@ class _AppShellState extends State<_AppShell> {
               ),
             ],
           ),
-          bottomNavigationBar: NavigationBar(
-            height: MediaQuery.textScalerOf(context).scale(1) >= 1.5
-                ? 104
-                : 80,
-            selectedIndex: index,
-            onDestinationSelected: (value) => setState(() => index = value),
-            destinations: destinations,
+          bottomNavigationBar: Builder(
+            builder: (context) {
+              final textScale = MediaQuery.textScalerOf(context).scale(1);
+              final compactLabels =
+                  constraints.maxWidth < 430 || textScale >= 1.3;
+              return MediaQuery.withClampedTextScaling(
+                maxScaleFactor: 1.5,
+                child: NavigationBar(
+                  height: textScale >= 1.5 ? 96 : 80,
+                  labelBehavior: compactLabels
+                      ? NavigationDestinationLabelBehavior.onlyShowSelected
+                      : NavigationDestinationLabelBehavior.alwaysShow,
+                  selectedIndex: index,
+                  onDestinationSelected: (value) =>
+                      setState(() => index = value),
+                  destinations: destinations,
+                ),
+              );
+            },
           ),
         );
       },
