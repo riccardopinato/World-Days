@@ -93,6 +93,7 @@ class _SettingsPageState extends State<SettingsPage> {
           const SizedBox(height: 28),
           _SectionTitle(l10n.language),
           DropdownButtonFormField<String?>(
+            isExpanded: true,
             initialValue: widget.controller.preferences.localeCode,
             decoration: const InputDecoration(
               prefixIcon: Icon(Icons.language_rounded),
@@ -100,12 +101,20 @@ class _SettingsPageState extends State<SettingsPage> {
             items: [
               DropdownMenuItem<String?>(
                 value: null,
-                child: Text(l10n.deviceLanguage),
+                child: Text(
+                  l10n.deviceLanguage,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
               for (final entry in SettingsPage.localeOptions.entries)
                 DropdownMenuItem<String?>(
                   value: entry.key,
-                  child: Text(entry.value),
+                  child: Text(
+                    entry.value,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
             ],
             onChanged: widget.controller.setLocale,
@@ -118,6 +127,7 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
           const SizedBox(height: 12),
           DropdownButtonFormField<String>(
+            isExpanded: true,
             initialValue: widget.controller.preferences.marketCode,
             decoration: const InputDecoration(
               prefixIcon: Icon(Icons.public_rounded),
@@ -128,6 +138,8 @@ class _SettingsPageState extends State<SettingsPage> {
                   value: option.code,
                   child: Text(
                     '${option.emoji}  ${marketLabel(l10n, option.code)}',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
             ],
