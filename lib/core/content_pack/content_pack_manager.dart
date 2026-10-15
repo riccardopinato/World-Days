@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_initializing_formals
+
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
@@ -9,12 +11,15 @@ import 'content_pack_models.dart';
 typedef ContentPayloadValidator = void Function(Map<String, dynamic> payload);
 
 class ContentPackManager extends ChangeNotifier {
-  ContentPackManager(
-    this._transport,
-    this._storage,
-    this._validator, {
+  ContentPackManager({
+    required ContentPackTransport transport,
+    required ContentPackStorage storage,
+    required ContentPayloadValidator validator,
     Uri? manifestUri,
-  }) : manifestUri = manifestUri ??
+  })  : _transport = transport,
+        _storage = storage,
+        _validator = validator,
+        manifestUri = manifestUri ??
             Uri.parse(
               'https://riccardopinato.github.io/World-Days/content/manifest.json',
             );
