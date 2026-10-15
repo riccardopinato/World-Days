@@ -9,8 +9,8 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 
 World Days is technically healthy but **NOT Store Ready**.
 
-Current automated evidence (Phase H merge candidate):
-- Pull-request Development checks: analyze + **76 Flutter tests** + Web release PASS.
+Current automated evidence:
+- Phase A/D functional-head Development checks #174: analyze + **78 Flutter tests** + Web release PASS.
 - The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
@@ -27,7 +27,7 @@ Blocking sequence:
 
 **C → E → F → I → J → K**
 
-Phase D/H work can proceed in parallel where it does not destabilize the release candidate.
+Phase A/B/D/G/H implementation scope is closed; release work now follows the blocking sequence above.
 
 ---
 
