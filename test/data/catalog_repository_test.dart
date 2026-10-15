@@ -1,3 +1,6 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:world_days/data/catalog_repository.dart';
 
@@ -94,6 +97,55 @@ void main() {
     expect(annual.campaignUrl, isNotEmpty);
     expect(annual.verifiedAt, isNotEmpty);
     expect(snapshot.yearOverrideFor('world-health-day', 2027), isNull);
+  });
+
+  test('remote content pack decoder preserves bundled catalog semantics', () async {
+    Future<Map<String, dynamic>> loadJson(String path) async {
+      final raw = await rootBundle.loadString(path);
+      return Map<String, dynamic>.from(jsonDecode(raw) as Map);
+    }
+
+    final seed = await loadJson('assets/data/official_core.json');
+    final files = <String, dynamic>{
+      'official_core.json': seed,
+      'occurrences_2026.json':
+          await loadJson('assets/data/occurrences_2026.json'),
+      for (final locale in CatalogRepository.editorialLocales)
+        'editorial_$locale.json':
+            await loadJson('assets/data/editorial_$locale.json'),
+    };
+
+    final snapshot = CatalogRepository.decodeContentPack({
+      'schemaVersion': 1,
+      'packId': 'world-days-catalog',
+      'version': seed['datasetVersion'],
+      'files': files,
+    });
+
+    expect(snapshot.datasetVersion, seed['datasetVersion']);
+    expect(snapshot.records.length, greaterThanOrEqualTo(260));
+    expect(snapshot.byId['world-water-day'], isNotNull);
+    expect(snapshot.editorialFor('world-water-day', 'it'), isNotNull);
+  });
+
+  test('remote content pack rejects version drift', () async {
+    final raw = await rootBundle.loadString('assets/data/official_core.json');
+    final seed = Map<String, dynamic>.from(jsonDecode(raw) as Map);
+
+    expect(
+      () => CatalogRepository.decodeContentPack({
+        'schemaVersion': 1,
+        'packId': 'world-days-catalog',
+        'version': 'different-version',
+        'files': {
+          'official_core.json': seed,
+          'occurrences_2026.json': const {'occurrences': []},
+          for (final locale in CatalogRepository.editorialLocales)
+            'editorial_$locale.json': const {'entries': []},
+        },
+      }),
+      throwsFormatException,
+    );
   });
 
   test('curated consumer records preserve provenance and classification', () async {
