@@ -131,6 +131,10 @@ RecurrenceRule recurrenceRuleFromJson(Map<String, dynamic> json) {
         month: json['month'] as int,
         weekday: json['weekday'] as int,
       );
+    case 'LAST_DAY_OF_MONTH':
+      return LastDayOfMonthRule(
+        month: json['month'] as int,
+      );
     case 'FIXED_RANGE':
       return FixedRangeRule(
         startMonth: json['startMonth'] as int,
@@ -142,6 +146,8 @@ RecurrenceRule recurrenceRuleFromJson(Map<String, dynamic> json) {
       return LunarRule(overrides: _parseOverrides(json['overrides']));
     case 'AUTHORITY_DEFINED':
       return AuthorityDefinedRule(overrides: _parseOverrides(json['overrides']));
+    case 'ONE_OFF':
+      return OneOffRule(span: _parseOneOff(json));
     default:
       throw FormatException('Unsupported recurrence kind: ${json['kind']}');
   }
@@ -164,4 +170,21 @@ Map<int, DateSpan> _parseOverrides(Object? raw) {
     }
   }
   return result;
+}
+
+
+DateSpan _parseOneOff(Map<String, dynamic> json) {
+  final start = DateTime.tryParse(json['startDate']?.toString() ?? '');
+  final end = DateTime.tryParse(
+    json['endDate']?.toString() ?? json['startDate']?.toString() ?? '',
+  );
+  if (start == null || end == null) {
+    throw const FormatException('ONE_OFF requires startDate/endDate');
+  }
+  final startDay = DateTime.utc(start.year, start.month, start.day);
+  final endDay = DateTime.utc(end.year, end.month, end.day);
+  if (endDay.isBefore(startDay)) {
+    throw const FormatException('ONE_OFF endDate precedes startDate');
+  }
+  return DateSpan(start: startDay, end: endDay);
 }
