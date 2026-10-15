@@ -50,8 +50,9 @@ Discover:
 Saved:
 - favorites
 - followed categories
-- reminder subscriptions
+- reminder subscription summary
 - recently viewed
+- detailed reminder timing/configuration remains in Settings
 
 Settings/Profile:
 - language
@@ -175,7 +176,7 @@ Target lightweight ARM64 build; no local LLM/model pack.
 - home-screen widget after core launch
 - share cards
 - weekly digest
-- seasonal collections
+- seasonal collections after v1/editorial coverage expansion
 
 10. MONETIZATION
 AdMob mobile only; Web Preview uses no-op/mock boundary.
