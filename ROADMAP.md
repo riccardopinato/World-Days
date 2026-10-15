@@ -10,13 +10,13 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 World Days is technically healthy but **NOT Store Ready**.
 
 Current automated evidence:
-- Phase A/D functional-head Development checks #174: analyze + **78 Flutter tests** + Web release PASS.
+- Phase C final PR Development checks #208: analyze + **80 Flutter tests** + Web release PASS.
 - The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
 - Hosted payload smoke: version `2026.10.14.1`, 501,993 bytes, SHA-256 `38e6ee66d3646c0c313ca7b4b8e395a79b2456ecfc5522cd25c948b0f624d8b7`.
 - ARM64 internal release gate: ~24.1 MB.
-- Phase B and G.1 implementation merge: `2a177fc00d6f6a5f041034e7c8e00f8cd651c0bb`.
+- Phase C implementation merge: `446d1d5edb2a4cd52a773808f3a59d9f4a072bcf`.
 - Permanent Android signing + production AdMob/UMP have prior physical evidence.
 
 Important: the previous production/physical monetization evidence predates the current Phase-B/G.1 code. Final certification must use a new exact candidate artifact.
@@ -133,7 +133,7 @@ Post-v1 content program:
 - [x] Locale and market remain independent, including transient Around-the-World browsing.
 - [x] Seasonal collection expansion explicitly deferred post-v1 until editorial coverage is broader.
 
-## Phase E — Remove Ads lifetime entitlement — BLOCKING
+## Phase E — Remove Ads lifetime entitlement — EXTERNAL PLAY GATE
 
 Implemented:
 - [x] Provider-agnostic entitlement contract.
@@ -166,7 +166,7 @@ Sandbox evidence:
 - [ ] Purchase is completed/acknowledged without repeat delivery.
 
 Risk boundary:
-- [ ] Reassess client-only verification before any higher-value/account-bound monetization.
+- [x] Client-only store-state verification is explicitly bounded to the low-value v1 Remove Ads entitlement; any higher-value, subscription or account-bound monetization must reopen trusted-backend verification.
 
 ## Phase F — Retention physical QA — BLOCKING
 
@@ -247,33 +247,34 @@ Deferred / bounded follow-up:
 
 Evidence: `docs/PHASE_H_AUTOMATED_QA_EVIDENCE.md`.
 
-## Phase I — Governance / product-truth / privacy alignment — BLOCKING
+## Phase I — Governance / product-truth / privacy alignment — IMPLEMENTATION COMPLETE / ADMIN + DEPLOY EVIDENCE GATES
 
 Completed:
 - [x] Canonical Android ID is `com.riccardopinato.world_days`.
-- [x] App Factory baseline aligned to `5f6b2489df2ac85fb85ccfea059983a090689de4`.
+- [x] App Factory baseline aligned to `47c47f49a7b46812e3bd6f1231c3524f2b52b826` (Master v26.6 / Golden Index v18).
 - [x] README, Android signing, AdMob docs and Golden reuse manifest reflect current subsystem state.
 - [x] Post-Phase-G audit recorded.
 
 Governance:
-- [ ] Define release version-name / version-code policy.
-- [ ] Define release tag/changelog/evidence convention.
-- [ ] Protect `main` with required green checks / PR rules where repository permissions allow.
-- [ ] Restrict Production Android Release to approved `main`/release-tag source identity.
+- [x] Release version-name/version-code policy defined; committed `pubspec.yaml` is the production source of truth.
+- [x] Release tag/changelog/evidence convention defined in `docs/RELEASE_GOVERNANCE.md` and `CHANGELOG.md`.
+- [ ] USER-ACTION: protect `main` with required PR/green-check rules. Connected GitHub integration has no Admin permission (branch-protection endpoint returns 403).
+- [x] Production Android Release fails closed unless dispatched from `main`; artifact version identity is source-bound rather than run-number-bound.
 
 Product-truth decisions:
-- [ ] Decide **Android-first v1 + Web Preview** versus full Android+iOS v1.
-- [ ] If Android-first is selected, move iOS production release to post-v1 in Product Bible.
-- [ ] If iOS remains in v1, add production iOS AdMob ID, signing, App Store pipeline and physical QA.
-- [ ] Resolve monetization scope mismatch: top banner only vs Product Bible inline/interstitial formats.
-- [ ] Resolve analytics scope mismatch: explicitly defer v1 analytics or implement a privacy-reviewed measurement boundary.
-- [ ] Resolve Saved IA mismatch from Phase A.
+- [x] V1 production scope frozen to **Android-first + Flutter Web Preview**.
+- [x] iOS production/App Store release moved post-v1 in Product Bible.
+- [x] No iOS production signing/AdMob/App Store pipeline is claimed for v1.
+- [x] V1 monetization frozen to the safe top anchored adaptive banner + lifetime Remove Ads; inline/interstitial formats moved post-v1.
+- [x] First-party analytics/event pipeline explicitly deferred post-v1.
+- [x] Saved IA aligned in Phase A: favorites, followed categories, reminder subscriptions and recents.
 
 Privacy:
-- [ ] Update public Privacy Policy for Play billing / purchase processing.
-- [ ] Update policy for mobile GitHub Pages remote-content requests.
-- [ ] Update `Last updated` date and redeploy.
-- [ ] Freeze final privacy/Data Safety inputs only after analytics and platform scope decisions.
+- [x] Privacy Policy source updated for Google Play Billing / purchase processing and minimal local entitlement/finalization state.
+- [x] Privacy Policy source updated for mobile GitHub Pages remote-content requests.
+- [x] Privacy Policy `Last updated` set to 15 October 2026.
+- [x] Privacy/Data Safety engineering inputs frozen in `docs/DATA_SAFETY_INPUTS.md` after Android-first / no-analytics decisions.
+- [ ] POST-MERGE EVIDENCE: verify the updated Privacy Policy is actually redeployed and reachable on GitHub Pages.
 
 ## Phase J — Exact-artifact regression / release certification — BLOCKING
 
