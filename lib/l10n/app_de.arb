@@ -175,5 +175,10 @@
   "noReminderSubscriptions": "Es sind keine Erinnerungen aktiviert.",
   "noFollowedCategories": "Du folgst noch keinen Kategorien.",
   "manageInSettings": "In den Einstellungen verwalten",
-  "verifiedOverview": "Verifizierter Überblick"
+  "verifiedOverview": "Verifizierter Überblick",
+  "verifiedOverviewSummary": "{title} ist ein verifizierter Gedenk- oder Aktionstag im World-Days-Katalog. Geltungsbereich: {scope}. Zuständige Stelle: {authority}.",
+  "verifiedOverviewNote": "Diese Übersicht verwendet nur verifizierte Metadaten des Datensatzes. Ausführlicher redaktioneller Kontext wird erst nach Quellenprüfung angezeigt.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "National",
+  "verifiedScopeRegional": "Regional"
 }
