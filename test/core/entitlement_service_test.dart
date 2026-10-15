@@ -221,14 +221,37 @@ void main() {
   });
 
   test('wrong product and unverified results never grant lifetime', () async {
+    final billing = _FakeBilling(
+      purchaseResult: const BillingResult(
+        state: PurchaseFlowState.purchased,
+        productId: 'different_product',
+        transactionId: 'wrong-product',
+        verified: true,
+        completionRequired: true,
+      ),
+    );
     final service = EntitlementService(
       store: _MemoryStore(),
-      billingAdapter: _FakeBilling(),
+      billingAdapter: billing,
     );
     await service.initialize();
+    await service.refreshBillingProduct();
 
-    final billing = service;
-    expect(billing.removesAds, isFalse);
+    expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchased);
+    expect(service.removesAds, isFalse);
+    expect(billing.completionCalls, 0);
+
+    billing.purchaseResult = const BillingResult(
+      state: PurchaseFlowState.purchased,
+      productId: _FakeBilling.productId,
+      transactionId: 'unverified',
+      verified: false,
+      completionRequired: true,
+    );
+
+    expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchased);
+    expect(service.removesAds, isFalse);
+    expect(billing.completionCalls, 0);
   });
 
   test('billing unavailable preserves free state without grant', () async {
