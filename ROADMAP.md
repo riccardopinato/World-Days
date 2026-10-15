@@ -247,7 +247,7 @@ Deferred / bounded follow-up:
 
 Evidence: `docs/PHASE_H_AUTOMATED_QA_EVIDENCE.md`.
 
-## Phase I — Governance / product-truth / privacy alignment — IMPLEMENTATION COMPLETE / ADMIN + DEPLOY EVIDENCE GATES
+## Phase I — Governance / product-truth / privacy alignment — REPOSITORY COMPLETE / ADMIN GATE REMAINS
 
 Completed:
 - [x] Canonical Android ID is `com.riccardopinato.world_days`.
@@ -274,7 +274,7 @@ Privacy:
 - [x] Privacy Policy source updated for mobile GitHub Pages remote-content requests.
 - [x] Privacy Policy `Last updated` set to 15 October 2026.
 - [x] Privacy/Data Safety engineering inputs frozen in `docs/DATA_SAFETY_INPUTS.md` after Android-first / no-analytics decisions.
-- [ ] POST-MERGE EVIDENCE: verify the updated Privacy Policy is actually redeployed and reachable on GitHub Pages.
+- [x] Post-merge Pages #30 PASS; deployed artifact contains the 15 October 2026 Privacy Policy with Google Play Billing and remote-content disclosures.
 
 ## Phase J — Exact-artifact regression / release certification — BLOCKING
 
