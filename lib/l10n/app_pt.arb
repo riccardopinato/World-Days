@@ -157,5 +157,6 @@
   "purchaseCancelled": "Compra cancelada.",
   "purchaseFailed": "Não foi possível concluir a compra.",
   "restoreSucceeded": "Remoção de anúncios restaurada.",
-  "billingUnavailable": "A compra na loja não está disponível neste momento."
+  "billingUnavailable": "A compra na loja não está disponível neste momento.",
+  "restoreChecked": "Verificação de restauro concluída. Se for encontrada uma compra elegível, Remover anúncios será desbloqueado automaticamente."
 }
