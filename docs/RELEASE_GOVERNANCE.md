@@ -33,7 +33,7 @@ Historical signed production baseline:
 - workflow run: 38702763793
 - source SHA: 16a1b744d9f6d5e6d256a2b749aa680c26c31d58
 
-Therefore the next Play/internal-test candidate must use versionCode **4 or higher**.
+Therefore every new Play/internal-test candidate must use versionCode **4 or higher**. The current source identity is **0.4.0+4**.
 
 ## 3. Version-name policy
 
