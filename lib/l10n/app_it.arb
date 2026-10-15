@@ -157,5 +157,6 @@
   "purchaseCancelled": "Acquisto annullato.",
   "purchaseFailed": "Impossibile completare l'acquisto.",
   "restoreSucceeded": "Rimozione pubblicità ripristinata.",
-  "billingUnavailable": "L'acquisto dallo store non è al momento disponibile."
+  "billingUnavailable": "L'acquisto dallo store non è al momento disponibile.",
+  "restoreChecked": "Controllo ripristino completato. Se viene trovato un acquisto idoneo, Rimuovi pubblicità si sbloccherà automaticamente."
 }
