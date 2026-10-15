@@ -30,5 +30,6 @@ rm -f test/widget_test.dart
 
 python3 tool/configure_native_retention.py
 python3 tool/configure_native_monetization.py
+python3 tool/configure_native_content_pack.py
 python3 tool/configure_android_signing.py
 
