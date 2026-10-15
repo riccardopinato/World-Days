@@ -253,7 +253,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ),
             const SizedBox(height: 10),
             Text(
-              verifiedOverview.note,
+              l10n.verifiedOverviewNote,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
