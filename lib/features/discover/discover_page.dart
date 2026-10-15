@@ -146,6 +146,20 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             setState(() => officiality = 'OFFICIAL_WHO'),
                       ),
                       FilterChip(
+                        label: Text(l10n.unAgencies),
+                        selected: officiality == 'OFFICIAL_UN_AGENCY',
+                        onSelected: (_) => setState(
+                          () => officiality = 'OFFICIAL_UN_AGENCY',
+                        ),
+                      ),
+                      FilterChip(
+                        label: Text(l10n.institutional),
+                        selected: officiality == 'OFFICIAL_INSTITUTIONAL',
+                        onSelected: (_) => setState(
+                          () => officiality = 'OFFICIAL_INSTITUTIONAL',
+                        ),
+                      ),
+                      FilterChip(
                         label: Text(l10n.recognized),
                         selected: officiality == 'RECOGNIZED_NGO',
                         onSelected: (_) =>
@@ -233,6 +247,8 @@ class _DiscoverPageState extends State<DiscoverPage> {
       'learning' => l10n.collectionLearning,
       'culture' => l10n.collectionCulture,
       'food' => l10n.collectionFood,
+      'future' => l10n.categoryFuture,
+      'community' => l10n.categoryCommunity,
       _ => key,
     };
   }
