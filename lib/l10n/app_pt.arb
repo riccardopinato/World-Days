@@ -175,5 +175,10 @@
   "noReminderSubscriptions": "Não existem lembretes ativos.",
   "noFollowedCategories": "Ainda não segue nenhuma categoria.",
   "manageInSettings": "Gerir nas Definições",
-  "verifiedOverview": "Resumo verificado"
+  "verifiedOverview": "Resumo verificado",
+  "verifiedOverviewSummary": "{title} é uma data verificada no catálogo World Days. Âmbito: {scope}. Autoridade: {authority}.",
+  "verifiedOverviewNote": "Este resumo utiliza apenas metadados verificados do registo. O contexto editorial mais completo só é apresentado depois da revisão das fontes.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "Nacional",
+  "verifiedScopeRegional": "Regional"
 }
