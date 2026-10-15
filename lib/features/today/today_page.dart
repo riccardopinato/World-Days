@@ -10,6 +10,7 @@ import '../../l10n/app_localizations.dart';
 
 class TodayPage extends StatelessWidget {
   const TodayPage({super.key, required this.controller});
+
   final AppController controller;
 
   @override
@@ -43,53 +44,60 @@ class TodayPage extends StatelessWidget {
                 ObservanceHero(
                   observance: records.first,
                   eyebrow: DateFormat.EEEE(locale).format(now),
-                  subtitle:
-                      '${controller.preferences.streak} ${l10n.streak}',
+                  subtitle: '${controller.preferences.streak} ${l10n.streak}',
                   accentText: now.day.toString(),
                   minHeight: 254,
+                  onTap: () => _open(context, records.first),
                 )
               else
                 Container(
-                padding: const EdgeInsets.all(22),
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [colors.primaryContainer, colors.secondaryContainer],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
+                  padding: const EdgeInsets.all(22),
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        colors.primaryContainer,
+                        colors.secondaryContainer,
+                      ],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                    borderRadius: BorderRadius.circular(30),
                   ),
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: Row(
-                  children: [
-                    Text(
-                      '${now.day}',
-                      style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                            fontWeight: FontWeight.w900,
-                            height: .9,
-                          ),
-                    ),
-                    const SizedBox(width: 18),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            records.isEmpty
-                                ? l10n.noObservancesToday
-                                : records.first.titleForLocale(locale),
-                            style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
-                          ),
-                          const SizedBox(height: 8),
-                          Text('${controller.preferences.streak} ${l10n.streak}'),
-                        ],
+                  child: Row(
+                    children: [
+                      Text(
+                        '${now.day}',
+                        style:
+                            Theme.of(context).textTheme.displayLarge?.copyWith(
+                                  fontWeight: FontWeight.w900,
+                                  height: .9,
+                                ),
                       ),
-                    ),
-                  ],
+                      const SizedBox(width: 18),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              l10n.noObservancesToday,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.w800),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              '${controller.preferences.streak} ${l10n.streak}',
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              const SizedBox(height: 24),
-              if (records.isNotEmpty) ...[
-                for (final record in records) ...[
+              if (records.length > 1) ...[
+                const SizedBox(height: 24),
+                for (final record in records.skip(1)) ...[
                   ObservanceCard(
                     observance: record,
                     favorite: controller.isFavorite(record.id),
@@ -99,12 +107,30 @@ class TodayPage extends StatelessWidget {
                   const SizedBox(height: 12),
                 ],
               ],
+              const SizedBox(height: 24),
+              Text(
+                l10n.upNext,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
+              ),
               const SizedBox(height: 12),
-              Text(l10n.upNext, style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800)),
-              const SizedBox(height: 12),
-              for (final record in next.take(5)) ...[
-                ObservanceCard(observance: record, onTap: () => _open(context, record)),
-                const SizedBox(height: 12),
+              for (final item in next.take(5)) ...[
+                Padding(
+                  padding: const EdgeInsets.only(left: 4, bottom: 8),
+                  child: Text(
+                    DateFormat.MMMd(locale).format(item.date),
+                    style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                ),
+                ObservanceCard(
+                  observance: item.observance,
+                  onTap: () => _open(context, item.observance),
+                ),
+                const SizedBox(height: 14),
               ],
             ],
           ),
@@ -113,22 +139,21 @@ class TodayPage extends StatelessWidget {
     );
   }
 
-  List<Observance> _nextObservances(AppController controller, DateTime date) {
-    final catalog = controller.catalog;
-    if (catalog == null) return const [];
-    final occurrences = controller.occurrencesForYear(date.year);
-    final start = DateTime(date.year, date.month, date.day).add(const Duration(days: 1));
+  List<_UpcomingObservance> _nextObservances(
+    AppController controller,
+    DateTime date,
+  ) {
+    final start = DateTime(date.year, date.month, date.day);
     final seen = <String>{};
-    final result = <Observance>[];
-    for (final occurrence in occurrences) {
-      if (occurrence.end.isBefore(start)) continue;
-      final record = catalog.byId[occurrence.observanceId];
-      if (record != null &&
-          controller.isVisibleForMarket(record) &&
-          seen.add(record.id)) {
-        result.add(record);
+    final result = <_UpcomingObservance>[];
+
+    for (var offset = 1; offset <= 366 && result.length < 8; offset++) {
+      final candidate = start.add(Duration(days: offset));
+      for (final record in controller.observancesForDate(candidate)) {
+        if (!seen.add(record.id)) continue;
+        result.add(_UpcomingObservance(date: candidate, observance: record));
+        if (result.length >= 8) break;
       }
-      if (result.length >= 8) break;
     }
     return result;
   }
@@ -136,8 +161,21 @@ class TodayPage extends StatelessWidget {
   void _open(BuildContext context, Observance record) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => ObservanceDetailPage(observance: record, controller: controller),
+        builder: (_) => ObservanceDetailPage(
+          observance: record,
+          controller: controller,
+        ),
       ),
     );
   }
+}
+
+class _UpcomingObservance {
+  const _UpcomingObservance({
+    required this.date,
+    required this.observance,
+  });
+
+  final DateTime date;
+  final Observance observance;
 }
