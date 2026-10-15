@@ -157,7 +157,7 @@
   "purchaseCancelled": "Purchase cancelled.",
   "purchaseFailed": "Purchase could not be completed.",
   "restoreSucceeded": "Remove Ads restored.",
-  "billingUnavailable": "Store purchase is currently unavailable.",
+  "billingUnavailable": "Store connection is unavailable right now. Ads stay unchanged; try again later.",
   "restoreChecked": "Restore check completed. If an eligible purchase is found, Remove Ads will unlock automatically.",
   "contentUpdates": "Content updates",
   "contentUsingBundled": "Using the built-in catalog.",
@@ -169,5 +169,12 @@
   "checkForUpdates": "Check for updates",
   "installUpdate": "Install update",
   "contentUpdateInstalled": "Catalog update installed.",
-  "contentUpdateFailed": "Catalog update could not be installed."
+  "contentUpdateFailed": "Content updates are unavailable right now. Your current verified catalog remains available.",
+  "chooseCountry": "Choose a country",
+  "chooseCountryDescription": "Choose a country to browse its verified national observances. This does not change your profile market.",
+  "noCountryObservances": "No verified national observances are available for this country yet.",
+  "reminderSubscriptions": "Reminder subscriptions",
+  "noReminderSubscriptions": "No reminder subscriptions are enabled.",
+  "noFollowedCategories": "No followed categories yet.",
+  "manageInSettings": "Manage in Settings"
 }

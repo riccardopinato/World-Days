@@ -5,6 +5,7 @@ import '../../app/app_controller.dart';
 import '../../core/content_pack/content_pack_models.dart';
 import '../../core/entitlements/entitlement_models.dart';
 import '../../core/market_options.dart';
+import '../../core/semantic_categories.dart';
 import '../../l10n/app_localizations.dart';
 import 'notification_diagnostics_page.dart';
 
@@ -27,17 +28,6 @@ class SettingsPage extends StatefulWidget {
 
 class _SettingsPageState extends State<SettingsPage> {
   bool _widgetPinSupported = false;
-
-  static const _categoryKeys = <String>[
-    'PLANET',
-    'HEALTH',
-    'PEOPLE',
-    'LEARNING',
-    'CULTURE',
-    'FOOD',
-    'FUTURE',
-    'COMMUNITY',
-  ];
 
   @override
   void initState() {
@@ -302,11 +292,11 @@ class _SettingsPageState extends State<SettingsPage> {
                       spacing: 8,
                       runSpacing: 8,
                       children: [
-                        for (final key in _categoryKeys)
+                        for (final key in semanticCategoryKeys)
                           FilterChip(
                             selected:
                                 reminders.followedCategories.contains(key),
-                            label: Text(_categoryLabel(l10n, key)),
+                            label: Text(semanticCategoryLabel(l10n, key)),
                             onSelected: (_) => widget.controller
                                 .toggleFollowedCategory(key),
                           ),
@@ -628,18 +618,6 @@ class _SettingsPageState extends State<SettingsPage> {
       ..showSnackBar(SnackBar(content: Text(message)));
   }
 
-  String _categoryLabel(AppLocalizations l10n, String key) =>
-      switch (key.toUpperCase()) {
-        'PLANET' => l10n.categoryPlanet,
-        'HEALTH' => l10n.categoryHealth,
-        'PEOPLE' => l10n.categoryPeople,
-        'LEARNING' => l10n.categoryLearning,
-        'CULTURE' => l10n.categoryCulture,
-        'FOOD' => l10n.categoryFood,
-        'FUTURE' => l10n.categoryFuture,
-        'COMMUNITY' => l10n.categoryCommunity,
-        _ => key,
-      };
 }
 
 class _ThemeModeSelector extends StatelessWidget {

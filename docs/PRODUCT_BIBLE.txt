@@ -1,8 +1,8 @@
 WORLD DAYS — PRODUCT BIBLE v0.1
 Date: 2026-10-11
-Factory baseline: riccardopinato/App-Factory-Core @ 5f6b2489df2ac85fb85ccfea059983a090689de4
-Master: v26.5
-Golden Index: v17
+Factory baseline: riccardopinato/App-Factory-Core @ 47c47f49a7b46812e3bd6f1231c3524f2b52b826
+Master: v26.6
+Golden Index: v18
 
 1. PRODUCT
 Name: World Days
@@ -36,12 +36,13 @@ Calendar:
 - month grid
 - date detail
 - filters: officiality/category/scope/country
-- days/weeks/months
 - upcoming 7/30 days
+- dedicated day/week modes are post-v1 candidates, not v1 requirements
 
 Discover:
 - categories
-- Around the World
+- Around the World with explicit transient country selection
+- v1 national seed: IT/ES/FR/DE/PT/GB/US; broader country coverage is post-v1
 - random observance
 - themed collections
 - quizzes
@@ -49,8 +50,9 @@ Discover:
 Saved:
 - favorites
 - followed categories
-- reminder subscriptions
+- reminder subscription summary
 - recently viewed
+- detailed reminder timing/configuration remains in Settings
 
 Settings/Profile:
 - language
@@ -174,7 +176,7 @@ Target lightweight ARM64 build; no local LLM/model pack.
 - home-screen widget after core launch
 - share cards
 - weekly digest
-- seasonal collections
+- seasonal collections after v1/editorial coverage expansion
 
 10. MONETIZATION
 AdMob mobile only; Web Preview uses no-op/mock boundary.

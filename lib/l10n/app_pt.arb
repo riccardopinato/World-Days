@@ -157,7 +157,7 @@
   "purchaseCancelled": "Compra cancelada.",
   "purchaseFailed": "Não foi possível concluir a compra.",
   "restoreSucceeded": "Remoção de anúncios restaurada.",
-  "billingUnavailable": "A compra na loja não está disponível neste momento.",
+  "billingUnavailable": "A loja está indisponível neste momento. Tente novamente mais tarde.",
   "restoreChecked": "Verificação de restauro concluída. Se for encontrada uma compra elegível, Remover anúncios será desbloqueado automaticamente.",
   "contentUpdates": "Atualizações de conteúdo",
   "contentUsingBundled": "Está a ser usado o catálogo incluído.",
@@ -169,5 +169,12 @@
   "checkForUpdates": "Procurar atualizações",
   "installUpdate": "Instalar atualização",
   "contentUpdateInstalled": "Atualização do catálogo instalada.",
-  "contentUpdateFailed": "Não foi possível instalar a atualização do catálogo."
+  "contentUpdateFailed": "As atualizações estão indisponíveis neste momento. O catálogo verificado atual continua disponível.",
+  "chooseCountry": "Escolher um país",
+  "chooseCountryDescription": "Escolha um país para explorar as suas datas nacionais verificadas. Isto não altera o mercado do seu perfil.",
+  "noCountryObservances": "Ainda não existem datas nacionais verificadas disponíveis para este país.",
+  "reminderSubscriptions": "Subscrições de lembretes",
+  "noReminderSubscriptions": "Não existem lembretes ativos.",
+  "noFollowedCategories": "Ainda não segue nenhuma categoria.",
+  "manageInSettings": "Gerir nas Definições"
 }

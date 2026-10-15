@@ -157,7 +157,7 @@
   "purchaseCancelled": "Kauf abgebrochen.",
   "purchaseFailed": "Kauf konnte nicht abgeschlossen werden.",
   "restoreSucceeded": "Werbung entfernen wiederhergestellt.",
-  "billingUnavailable": "Der Store-Kauf ist derzeit nicht verfügbar.",
+  "billingUnavailable": "Der Store ist derzeit nicht verfügbar. Versuche es später erneut.",
   "restoreChecked": "Wiederherstellungsprüfung abgeschlossen. Wenn ein berechtigter Kauf gefunden wird, wird Werbung entfernen automatisch freigeschaltet.",
   "contentUpdates": "Inhaltsaktualisierungen",
   "contentUsingBundled": "Der integrierte Katalog wird verwendet.",
@@ -169,5 +169,12 @@
   "checkForUpdates": "Nach Updates suchen",
   "installUpdate": "Update installieren",
   "contentUpdateInstalled": "Katalogaktualisierung installiert.",
-  "contentUpdateFailed": "Katalogaktualisierung konnte nicht installiert werden."
+  "contentUpdateFailed": "Updates sind derzeit nicht verfügbar. Dein aktueller verifizierter Katalog bleibt verfügbar.",
+  "chooseCountry": "Land auswählen",
+  "chooseCountryDescription": "Wähle ein Land aus, um seine verifizierten nationalen Gedenk- und Aktionstage zu entdecken. Dein Profilmarkt wird dadurch nicht geändert.",
+  "noCountryObservances": "Für dieses Land sind derzeit noch keine verifizierten nationalen Gedenk- oder Aktionstage verfügbar.",
+  "reminderSubscriptions": "Erinnerungsabonnements",
+  "noReminderSubscriptions": "Es sind keine Erinnerungen aktiviert.",
+  "noFollowedCategories": "Du folgst noch keinen Kategorien.",
+  "manageInSettings": "In den Einstellungen verwalten"
 }

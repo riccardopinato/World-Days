@@ -9,8 +9,8 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 
 World Days is technically healthy but **NOT Store Ready**.
 
-Current automated evidence (Phase H merge candidate):
-- Pull-request Development checks: analyze + **76 Flutter tests** + Web release PASS.
+Current automated evidence:
+- Phase A/D functional-head Development checks #174: analyze + **78 Flutter tests** + Web release PASS.
 - The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
@@ -27,7 +27,7 @@ Blocking sequence:
 
 **C → E → F → I → J → K**
 
-Phase D/H work can proceed in parallel where it does not destabilize the release candidate.
+Phase A/B/D/G/H implementation scope is closed; release work now follows the blocking sequence above.
 
 ---
 
@@ -63,7 +63,7 @@ The integration remains valid, but current-main exact-artifact certification is 
 
 ---
 
-## Phase A — Consumer UX alignment — NEAR COMPLETE
+## Phase A — Consumer UX alignment ✅
 
 Completed:
 - [x] Around the World browsing does not mutate profile market.
@@ -73,11 +73,10 @@ Completed:
 - [x] Catalog load failure exposes Retry.
 - [x] Source-card provenance preserves verification metadata.
 
-Open:
-- [ ] Align Saved IA with Product Bible: either surface followed categories/reminder subscriptions in Saved or formally move that responsibility to Settings in product truth.
-- [ ] Add an explicit Around-the-World empty state before market coverage expands.
-- [ ] Replace the arbitrary Italy default for GLOBAL users with an explicit transient browse-market choice or another documented neutral rule.
-- [ ] Final consumer copy/error-state sweep for content update, billing-unavailable and offline cases.
+- [x] Saved now surfaces followed categories and reminder subscription state while detailed reminder controls remain in Settings.
+- [x] Around the World has explicit choose-country and no-verified-country-content empty states.
+- [x] GLOBAL users no longer inherit an arbitrary Italy browse default; country browsing is explicit and transient.
+- [x] Consumer failure copy for content updates and billing preserves current-state truth and recovery.
 
 ## Phase B — Data/runtime acceptance ✅
 
@@ -112,7 +111,7 @@ Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
 - [ ] Replace generic editorial-coming-next states only when reviewed source-backed content exists.
 - [ ] Re-run locale parity/editorial validators at 100% target coverage.
 
-## Phase D — Today / Calendar / Discover / market completion
+## Phase D — Today / Calendar / Discover / market completion ✅
 
 - [x] Today in 30 seconds for reviewed editorial entries.
 - [x] Daily quiz / lightweight learning loop.
@@ -120,10 +119,10 @@ Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
 - [x] Calendar officiality/category/scope/country filters.
 - [x] Upcoming 7 / 30 days.
 - [x] Random discovery and themed collections.
-- [ ] Decide whether day/week calendar modes add enough value for v1; otherwise remove that v1 expectation from Product Bible.
-- [ ] Expand Around the World national coverage beyond the thin launch seed.
-- [ ] Keep locale and market independent in every new flow.
-- [ ] Add seasonal collection curation only after editorial coverage is sufficiently broad.
+- [x] v1 Calendar scope frozen to month + date detail + upcoming 7/30; dedicated day/week modes moved post-v1.
+- [x] v1 Around-the-World scope frozen to the verified IT/ES/FR/DE/PT/GB/US seed; broader national coverage moved post-v1 so Phase C remains the content priority.
+- [x] Locale and market remain independent, including transient Around-the-World browsing.
+- [x] Seasonal collection expansion explicitly deferred post-v1 until editorial coverage is broader.
 
 ## Phase E — Remove Ads lifetime entitlement — BLOCKING
 
