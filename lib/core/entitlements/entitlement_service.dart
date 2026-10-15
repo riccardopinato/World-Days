@@ -235,8 +235,13 @@ class EntitlementService extends ChangeNotifier {
       return;
     }
 
-    _flowState = result.state;
-    _lastError = result.errorCode;
+    final terminalUnverified =
+        result.state == PurchaseFlowState.purchased ||
+            result.state == PurchaseFlowState.restored;
+    _flowState =
+        terminalUnverified ? PurchaseFlowState.failed : result.state;
+    _lastError = result.errorCode ??
+        (terminalUnverified ? 'billing_entitlement_not_verified' : null);
     notifyListeners();
   }
 
