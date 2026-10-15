@@ -5,8 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:home_widget/home_widget.dart';
 
 import '../../domain/observance.dart';
-
-typedef WidgetObservancesForDate = List<Observance> Function(DateTime date);
+import 'home_widget_gateway.dart';
 
 class WorldDaysWidgetProjection {
   const WorldDaysWidgetProjection._();
@@ -54,7 +53,7 @@ class WorldDaysWidgetProjection {
   }
 }
 
-class WorldDaysHomeWidgetService {
+class WorldDaysHomeWidgetService implements HomeWidgetGateway {
   WorldDaysHomeWidgetService._();
 
   static final WorldDaysHomeWidgetService instance =
