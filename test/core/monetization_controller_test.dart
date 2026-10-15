@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:world_days/core/monetization/monetization_controller.dart';
+import 'package:world_days/core/monetization/monetization_controller_mobile.dart';
 import 'package:world_days/core/monetization/monetization_platform_mobile.dart';
 
 class _FakePlatform implements MonetizationPlatform {
@@ -66,6 +66,31 @@ class _FakePlatform implements MonetizationPlatform {
 }
 
 void main() {
+  test('unsupported platform performs no provider work', () async {
+    final platform = _FakePlatform(supported: false);
+    final controller = MonetizationController(platform: platform);
+
+    await controller.initialize();
+
+    expect(controller.initialized, isFalse);
+    expect(controller.canRequestAds, isFalse);
+    expect(platform.updateCalls, 0);
+  });
+
+  test('consent form error is surfaced without bypassing eligibility', () async {
+    final platform = _FakePlatform(
+      canRequest: false,
+      formError: '3:form_failed',
+    );
+    final controller = MonetizationController(platform: platform);
+
+    await controller.initialize();
+
+    expect(controller.canRequestAds, isFalse);
+    expect(controller.lastError, contains('ump_form'));
+    expect(platform.adsInitializeCalls, 0);
+  });
+
   test('eligible consent flow initializes Mobile Ads once', () async {
     final platform = _FakePlatform(
       canRequest: true,
