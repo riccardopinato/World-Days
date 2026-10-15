@@ -133,7 +133,7 @@ class TodayPage extends StatelessWidget {
                                 primary.id,
                                 locale.languageCode,
                               )!
-                              .summary,
+                              .title,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             height: 1.45,
                           ),
