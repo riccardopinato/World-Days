@@ -22,6 +22,7 @@ const _planet = Observance(
   sources: [],
   rules: [],
   aliases: [],
+  categories: ['PLANET'],
   localizedTitles: {
     'it': 'Giornata del pianeta',
   },
@@ -39,6 +40,7 @@ const _health = Observance(
   sources: [],
   rules: [],
   aliases: [],
+  categories: ['HEALTH'],
   localizedTitles: {
     'it': 'Giornata della salute',
   },
@@ -61,7 +63,7 @@ void main() {
     expect(preferences.dailyMinute, 0);
     expect(preferences.weeklyWeekday, DateTime.sunday);
     expect(preferences.favoriteEnabled, isTrue);
-    expect(preferences.followedVisualKeys, {'planet', 'health'});
+    expect(preferences.followedCategories, {'PLANET', 'HEALTH'});
 
     final roundTrip = ReminderPreferences.fromJson(preferences.toJson());
     expect(roundTrip.toJson(), preferences.toJson());
@@ -107,7 +109,7 @@ void main() {
       weeklyMinute: 0,
       favoriteEnabled: true,
       categoryEnabled: true,
-      followedVisualKeys: {'planet'},
+      followedCategories: {'PLANET'},
     );
 
     List<Observance> recordsForDate(DateTime date) {
