@@ -7,6 +7,7 @@ import '../domain/observance.dart';
 import '../domain/occurrence.dart';
 import '../domain/recurrence_engine.dart';
 import '../domain/year_override.dart';
+import '../domain/verified_metadata_summary.dart';
 
 final class CatalogSnapshot {
   const CatalogSnapshot({
