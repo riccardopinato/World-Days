@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
@@ -75,6 +76,7 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    final locale = Localizations.localeOf(context).toLanguageTag();
     final recordCount = widget.controller.catalog?.records.length ?? 0;
     final reminders = widget.controller.preferences.reminders;
 
@@ -207,6 +209,40 @@ class _SettingsPageState extends State<SettingsPage> {
                     _setReminderToggle(
                   () => widget.controller
                       .setWeeklyReminderEnabled(value),
+                ),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                enabled: reminders.weeklyEnabled,
+                leading: const Icon(Icons.calendar_view_week_rounded),
+                title: Text(l10n.weeklyDay),
+                trailing: DropdownButton<int>(
+                  value: reminders.weeklyWeekday,
+                  underline: const SizedBox.shrink(),
+                  items: [
+                    for (var weekday = DateTime.monday;
+                        weekday <= DateTime.sunday;
+                        weekday++)
+                      DropdownMenuItem<int>(
+                        value: weekday,
+                        child: Text(
+                          DateFormat.EEEE(locale).format(
+                            DateTime(2026, 1, 5).add(
+                              Duration(days: weekday - DateTime.monday),
+                            ),
+                          ),
+                        ),
+                      ),
+                  ],
+                  onChanged: reminders.weeklyEnabled
+                      ? (value) {
+                          if (value != null) {
+                            widget.controller
+                                .setWeeklyReminderWeekday(value);
+                          }
+                        }
+                      : null,
                 ),
               ),
             ),
