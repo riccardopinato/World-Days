@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 
 import 'billing_adapter.dart';
@@ -16,6 +18,7 @@ class EntitlementService extends ChangeNotifier {
   final EntitlementStore _store;
   final BillingAdapter _billing;
   final DateTime Function() _clock;
+  StreamSubscription<BillingResult>? _billingSubscription;
 
   EntitlementSnapshot _snapshot = const EntitlementSnapshot.free();
   PurchaseFlowState _flowState = PurchaseFlowState.idle;
@@ -35,6 +38,14 @@ class EntitlementService extends ChangeNotifier {
   Future<void> initialize() async {
     if (_initialized) return;
     _snapshot = await _store.load();
+    _billingSubscription ??= _billing.updates.listen(
+      (result) => unawaited(_applyBillingResult(result)),
+      onError: (Object error) {
+        _flowState = PurchaseFlowState.failed;
+        _lastError = 'billing_update:$error';
+        notifyListeners();
+      },
+    );
     _initialized = true;
 
     if (!_billing.supported) {
@@ -125,7 +136,8 @@ class EntitlementService extends ChangeNotifier {
 
   @override
   void dispose() {
-    _billing.dispose();
+    _billingSubscription?.cancel();
+    unawaited(_billing.dispose());
     super.dispose();
   }
 }
