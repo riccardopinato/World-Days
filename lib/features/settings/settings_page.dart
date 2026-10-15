@@ -27,15 +27,15 @@ class _SettingsPageState extends State<SettingsPage> {
   bool _loadingHealth = false;
   bool _widgetPinSupported = false;
 
-  static const _visualKeys = <String>[
-    'planet',
-    'health',
-    'people',
-    'learning',
-    'culture',
-    'food',
-    'future',
-    'community',
+  static const _categoryKeys = <String>[
+    'PLANET',
+    'HEALTH',
+    'PEOPLE',
+    'LEARNING',
+    'CULTURE',
+    'FOOD',
+    'FUTURE',
+    'COMMUNITY',
   ];
 
   @override
@@ -272,13 +272,13 @@ class _SettingsPageState extends State<SettingsPage> {
                       spacing: 8,
                       runSpacing: 8,
                       children: [
-                        for (final key in _visualKeys)
+                        for (final key in _categoryKeys)
                           FilterChip(
                             selected:
-                                reminders.followedVisualKeys.contains(key),
+                                reminders.followedCategories.contains(key),
                             label: Text(_categoryLabel(l10n, key)),
                             onSelected: (_) => widget.controller
-                                .toggleFollowedVisualKey(key),
+                                .toggleFollowedCategory(key),
                           ),
                       ],
                     ),
@@ -547,15 +547,15 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   String _categoryLabel(AppLocalizations l10n, String key) =>
-      switch (key) {
-        'planet' => l10n.categoryPlanet,
-        'health' => l10n.categoryHealth,
-        'people' => l10n.categoryPeople,
-        'learning' => l10n.categoryLearning,
-        'culture' => l10n.categoryCulture,
-        'food' => l10n.categoryFood,
-        'future' => l10n.categoryFuture,
-        'community' => l10n.categoryCommunity,
+      switch (key.toUpperCase()) {
+        'PLANET' => l10n.categoryPlanet,
+        'HEALTH' => l10n.categoryHealth,
+        'PEOPLE' => l10n.categoryPeople,
+        'LEARNING' => l10n.categoryLearning,
+        'CULTURE' => l10n.categoryCulture,
+        'FOOD' => l10n.categoryFood,
+        'FUTURE' => l10n.categoryFuture,
+        'COMMUNITY' => l10n.categoryCommunity,
         _ => key,
       };
 }
