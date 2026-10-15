@@ -154,7 +154,7 @@ void main() {
     final brokenManifest = _manifest(
       '2',
       newBytes,
-      hashOverride: '0' * 64,
+      hashOverride: List.filled(64, '0').join(),
     );
     final storage = _MemoryStorage()
       ..active = StoredContentPack(
@@ -244,7 +244,7 @@ void main() {
     final corruptManifest = _manifest(
       '2',
       corruptBytes,
-      hashOverride: 'f' * 64,
+      hashOverride: List.filled(64, 'f').join(),
     );
 
     final storage = _MemoryStorage()
