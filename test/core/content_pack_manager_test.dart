@@ -29,8 +29,14 @@ class _FakeTransport implements ContentPackTransport {
   }
 
   @override
-  Future<List<int>> getBytes(Uri uri) async {
+  Future<List<int>> getBytes(
+    Uri uri, {
+    required int maxBytes,
+  }) async {
     if (failPayload) throw StateError('payload_network_down');
+    if (payloadBytes.length > maxBytes) {
+      throw const FormatException('content_payload_exceeds_byte_cap');
+    }
     return payloadBytes;
   }
 
@@ -104,7 +110,7 @@ ContentPackManifest _manifest(
       sizeBytes: bytes.length,
       sha256: hashOverride ?? sha256.convert(bytes).toString(),
       payloadUrl:
-          'https://riccardopinato.github.io/World-Days/content/pack-$version.json',
+          'https://riccardopinato.github.io/World-Days/content/world-days-content-$version.json',
       generatedAt: '2026-10-15',
     );
 
@@ -120,6 +126,28 @@ void _validator(Map<String, dynamic> payload) {
 }
 
 void main() {
+  test('bounded stream collector accepts exact cap and rejects overflow', () async {
+    final exact = await collectBoundedContentBytes(
+      Stream<List<int>>.fromIterable([
+        [1, 2],
+        [3],
+      ]),
+      maxBytes: 3,
+    );
+    expect(exact, [1, 2, 3]);
+
+    await expectLater(
+      collectBoundedContentBytes(
+        Stream<List<int>>.fromIterable([
+          [1, 2],
+          [3],
+        ]),
+        maxBytes: 2,
+      ),
+      throwsFormatException,
+    );
+  });
+
   test('remote version equal to bundled catalog is not reinstalled', () async {
     final bytes = _payloadBytes('1');
     final manifest = _manifest('1', bytes);
@@ -163,7 +191,38 @@ void main() {
         'kind': 'catalog',
         'sizeBytes': 10,
         'sha256': List.filled(64, 'a').join(),
-        'payloadUrl': 'https://example.test/pack.json',
+        'payloadUrl':
+            'https://riccardopinato.github.io/World-Days/content/world-days-content-2.json',
+        'generatedAt': '2026-10-15',
+      }),
+      throwsFormatException,
+    );
+
+    expect(
+      () => ContentPackManifest.fromJson({
+        'schemaVersion': 1,
+        'packId': 'world-days-catalog',
+        'version': '2',
+        'kind': 'catalog',
+        'sizeBytes': 10,
+        'sha256': List.filled(64, 'a').join(),
+        'payloadUrl':
+            'https://example.test/World-Days/content/world-days-content-2.json',
+        'generatedAt': '2026-10-15',
+      }),
+      throwsFormatException,
+    );
+
+    expect(
+      () => ContentPackManifest.fromJson({
+        'schemaVersion': 1,
+        'packId': 'world-days-catalog',
+        'version': '2',
+        'kind': 'catalog',
+        'sizeBytes': 10,
+        'sha256': List.filled(64, 'a').join(),
+        'payloadUrl':
+            'https://riccardopinato.github.io/other/world-days-content-2.json',
         'generatedAt': '2026-10-15',
       }),
       throwsFormatException,

@@ -18,7 +18,10 @@ class _UnsupportedTransport implements ContentPackTransport {
   bool get supported => false;
 
   @override
-  Future<List<int>> getBytes(Uri uri) =>
+  Future<List<int>> getBytes(
+    Uri uri, {
+    required int maxBytes,
+  }) =>
       Future.error(UnsupportedError('content_pack_transport_unsupported'));
 
   @override

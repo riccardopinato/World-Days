@@ -35,7 +35,7 @@ Implemented in this first real repository pass:
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product, durable provider-finalization recovery and sandbox evidence remain open. Remote Content Pack v1 is implemented with bundled fallback and GitHub Pages hosting, with final release hardening tracked in the roadmap. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product, durable provider-finalization recovery and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
 ## Privacy
 
@@ -82,7 +82,8 @@ Third-party photography is optional and cannot ship without creator, source, lic
 ## Remote content updates
 
 Mobile builds can consume a versioned World Days catalog pack from GitHub Pages.
-The app verifies HTTPS manifest metadata, expected byte size, SHA-256 and the
+The app pins payloads to the approved GitHub Pages content origin, streams them
+through the manifest byte cap, and verifies expected byte size, SHA-256 and the
 full catalog domain contract before switching the active pack. Activation keeps
 a previous verified version for rollback; if remote content is unavailable or
 invalid, bundled assets remain usable. Web intentionally stays bundled-only.

@@ -37,16 +37,35 @@ class _HttpContentPackTransport implements ContentPackTransport {
   }
 
   @override
-  Future<List<int>> getBytes(Uri uri) async {
-    final response =
-        await _client.get(uri).timeout(const Duration(seconds: 30));
+  Future<List<int>> getBytes(
+    Uri uri, {
+    required int maxBytes,
+  }) async {
+    if (maxBytes <= 0) {
+      throw const FormatException('content_payload_invalid_max_bytes');
+    }
+
+    final request = http.Request('GET', uri);
+    final response = await _client
+        .send(request)
+        .timeout(const Duration(seconds: 15));
+
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_payload_http_${response.statusCode}',
         uri: uri,
       );
     }
-    return response.bodyBytes;
+
+    final declaredLength = response.contentLength;
+    if (declaredLength != null && declaredLength > maxBytes) {
+      throw const FormatException('content_payload_exceeds_byte_cap');
+    }
+
+    return collectBoundedContentBytes(
+      response.stream.timeout(const Duration(seconds: 30)),
+      maxBytes: maxBytes,
+    );
   }
 
   @override

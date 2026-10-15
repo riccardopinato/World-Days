@@ -49,9 +49,27 @@ assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
 known = set(ids)
+occurrence_keys = set()
 for item in occ.get('occurrences', []):
     assert item.get('observanceId') in known, f"unknown occurrence id: {item.get('observanceId')}"
+    start = item.get('startDate')
+    end = item.get('endDate')
+    assert start and end and start <= end, ('invalid occurrence span', item)
+    rule_index = item.get('ruleIndex')
+    assert isinstance(rule_index, int) and rule_index >= 0, ('invalid ruleIndex', item)
+    key = (item.get('observanceId'), start, end, rule_index)
+    assert key not in occurrence_keys, ('duplicate occurrence', key)
+    occurrence_keys.add(key)
 for record in records:
+    assert record.get('sources'), f"missing sources: {record.get('id')}"
+    assert str(record.get('lastVerifiedAt') or '').strip(), (
+        'missing lastVerifiedAt',
+        record.get('id'),
+    )
+    assert all(
+        str(source.get('verifiedAt') or '').strip()
+        for source in record.get('sources', [])
+    ), ('missing source verifiedAt', record.get('id'))
     assert record.get('visualKey') in visual_keys, (record.get('id'), record.get('visualKey'))
     categories = record.get('categories') or []
     assert categories, f"missing semantic categories: {record.get('id')}"

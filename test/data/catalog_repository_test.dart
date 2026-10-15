@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:world_days/data/catalog_repository.dart';
+import 'package:world_days/domain/recurrence_engine.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -146,6 +147,116 @@ void main() {
       }),
       throwsFormatException,
     );
+  });
+
+  test('full catalog recurrence acceptance covers 2026 through 2028', () async {
+    final repository = const CatalogRepository();
+    final snapshot = await repository.load();
+
+    String dateKey(DateTime value) =>
+        '${value.year.toString().padLeft(4, '0')}-'
+        '${value.month.toString().padLeft(2, '0')}-'
+        '${value.day.toString().padLeft(2, '0')}';
+
+    String spanKey(String id, DateSpan span) =>
+        '$id|${dateKey(span.start)}|${dateKey(span.end)}';
+
+    for (final year in [2026, 2027, 2028]) {
+      final occurrences = repository.occurrencesForYear(year, snapshot);
+      final occurrenceKeys = <String>{};
+
+      for (final occurrence in occurrences) {
+        expect(snapshot.byId.containsKey(occurrence.observanceId), isTrue);
+        expect(occurrence.end.isBefore(occurrence.start), isFalse);
+        final overlapsYear = !occurrence.end.isBefore(DateTime.utc(year, 1, 1)) &&
+            !occurrence.start.isAfter(DateTime.utc(year, 12, 31));
+        expect(
+          overlapsYear,
+          isTrue,
+          reason:
+              '${occurrence.observanceId} does not overlap requested year $year',
+        );
+        expect(
+          occurrenceKeys.add(
+            '${occurrence.observanceId}|${occurrence.start.toIso8601String()}|${occurrence.end.toIso8601String()}',
+          ),
+          isTrue,
+          reason: 'duplicate runtime occurrence in $year',
+        );
+      }
+
+      final perRuleKeys = <String>{};
+      for (final record in snapshot.records) {
+        for (var ruleIndex = 0;
+            ruleIndex < record.rules.length;
+            ruleIndex++) {
+          final resolution = RecurrenceEngine.resolve(
+            year: year,
+            rules: [record.rules[ruleIndex]],
+          );
+          for (final span in resolution.spans) {
+            expect(span.end.isBefore(span.start), isFalse);
+            expect(
+              perRuleKeys.add(
+                '${record.id}|$ruleIndex|${dateKey(span.start)}|${dateKey(span.end)}',
+              ),
+              isTrue,
+              reason:
+                  'duplicate occurrence for ${record.id} rule $ruleIndex in $year',
+            );
+          }
+        }
+      }
+
+      expect(perRuleKeys, isNotEmpty, reason: 'no catalog rules resolved in $year');
+
+      if (year == 2026) {
+        final expectedById = <String, Set<String>>{};
+        for (final record in snapshot.records) {
+          final resolution = RecurrenceEngine.resolve(
+            year: year,
+            rules: record.rules,
+          );
+          expectedById[record.id] = {
+            for (final span in resolution.spans) spanKey(record.id, span),
+          };
+        }
+
+        final actualById = <String, Set<String>>{};
+        for (final occurrence in snapshot.occurrences2026) {
+          actualById
+              .putIfAbsent(occurrence.observanceId, () => <String>{})
+              .add(
+                '${occurrence.observanceId}|${dateKey(occurrence.start)}|${dateKey(occurrence.end)}',
+              );
+        }
+
+        for (final record in snapshot.records) {
+          expect(
+            actualById[record.id] ?? const <String>{},
+            expectedById[record.id],
+            reason: '2026 generated occurrence drift for ${record.id}',
+          );
+        }
+      }
+    }
+  });
+
+  test('cross-year fixed ranges carry into the following year', () {
+    const rule = FixedRangeRule(
+      startMonth: 12,
+      startDay: 30,
+      endMonth: 1,
+      endDay: 2,
+    );
+
+    final resolution =
+        RecurrenceEngine.resolve(year: 2027, rules: const [rule]);
+
+    expect(resolution.resolved, isTrue);
+    expect(resolution.spans, hasLength(1));
+    expect(resolution.spans.single.start, DateTime.utc(2027, 12, 30));
+    expect(resolution.spans.single.end, DateTime.utc(2028, 1, 2));
   });
 
   test('curated consumer records preserve provenance and classification', () async {

@@ -128,7 +128,10 @@ class ContentPackManager extends ChangeNotifier {
     notifyListeners();
 
     try {
-      final bytes = await _transport.getBytes(Uri.parse(manifest.payloadUrl));
+      final bytes = await _transport.getBytes(
+        Uri.parse(manifest.payloadUrl),
+        maxBytes: manifest.sizeBytes,
+      );
       _state = ContentPackState.verifying;
       notifyListeners();
 

@@ -56,15 +56,27 @@ final class ContentPackManifest {
     final safeVersion = RegExp(r'^[A-Za-z0-9._-]+$').hasMatch(version);
     final safeSha = RegExp(r'^[0-9a-f]{64}$').hasMatch(sha256);
     const maxPackBytes = 5 * 1024 * 1024;
+    const allowedHost = 'riccardopinato.github.io';
+    const allowedPathPrefix = '/World-Days/content/';
+
+    final safePayloadUri = uri != null &&
+        uri.scheme == 'https' &&
+        uri.host == allowedHost &&
+        uri.port == 443 &&
+        uri.userInfo.isEmpty &&
+        uri.query.isEmpty &&
+        uri.fragment.isEmpty &&
+        uri.path.startsWith(allowedPathPrefix) &&
+        uri.pathSegments.isNotEmpty &&
+        RegExp(r'^world-days-content-[A-Za-z0-9._-]+\.json$')
+            .hasMatch(uri.pathSegments.last);
 
     if (!safeVersion ||
         kind != 'catalog' ||
         sizeBytes <= 0 ||
         sizeBytes > maxPackBytes ||
         !safeSha ||
-        uri == null ||
-        uri.scheme != 'https' ||
-        uri.host.isEmpty) {
+        !safePayloadUri) {
       throw const FormatException('invalid_content_manifest');
     }
   }

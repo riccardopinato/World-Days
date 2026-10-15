@@ -22,7 +22,7 @@ Important: the previous production/physical evidence predates the current Phase-
 
 Blocking sequence:
 
-**B → C → E → F → G.1 → I → J → K**
+**C → E → F → I → J → K**
 
 Phase D/H work can proceed in parallel where it does not destabilize the release candidate.
 
@@ -76,7 +76,7 @@ Open:
 - [ ] Replace the arbitrary Italy default for GLOBAL users with an explicit transient browse-market choice or another documented neutral rule.
 - [ ] Final consumer copy/error-state sweep for content update, billing-unavailable and offline cases.
 
-## Phase B — Data/runtime acceptance — BLOCKING BEFORE CERTIFICATION
+## Phase B — Data/runtime acceptance ✅
 
 Completed:
 - [x] Cache yearly occurrences and date indexes.
@@ -90,11 +90,12 @@ Completed:
 - [x] Runtime source verification metadata preserved.
 
 Audit-required hardening:
-- [ ] Add full-catalog occurrence acceptance for **2026, 2027 and 2028**, not only representative recurrence vectors.
-- [ ] Enforce in `validate_dataset.py` that every publishable record has at least one source.
-- [ ] Enforce non-empty `lastVerifiedAt` for every publishable record.
-- [ ] Add no-duplicate occurrence invariant for observance/date/rule across generated years.
-- [ ] Add cross-year range acceptance coverage to the full-catalog gate.
+- [x] Full-catalog occurrence acceptance for **2026, 2027 and 2028**, not only representative recurrence vectors.
+- [x] `validate_dataset.py` requires at least one source for every publishable record.
+- [x] Non-empty observance/source verification metadata is enforced in CI and runtime catalog decoding.
+- [x] No-duplicate occurrence invariant covers observance/date/rule across generated years.
+- [x] Cross-year range acceptance has explicit regression coverage.
+- [x] 2026 generated occurrence output is cross-checked against the runtime recurrence engine.
 
 ## Phase C — Editorial completion — BLOCKING
 
@@ -191,17 +192,18 @@ Core implementation complete:
 - [x] Offline/network/checksum/corrupt-active tests.
 - [x] Web explicitly remains bundled-only.
 
-### Phase G.1 — Remote content hardening — BLOCKING BEFORE FINAL CERTIFICATION
+### Phase G.1 — Remote content hardening ✅
 
 Audit findings:
-- [ ] Restrict runtime `payloadUrl` to the approved `riccardopinato.github.io/World-Days/content/` origin/path instead of accepting any HTTPS host.
-- [ ] Replace fully buffered payload download with streamed/hard-capped download so the actual response cannot exceed the configured pack limit in memory.
-- [ ] Add `validate_content_pack.py` to Signed Android QA.
-- [ ] Add `validate_content_pack.py` to Production Android Release.
-- [ ] Add `validate_native_content_pack.py` to Signed Android QA.
-- [ ] Add `validate_native_content_pack.py` to Production Android Release.
-- [ ] Add a post-Pages-deploy smoke check for hosted manifest/payload reachability and checksum agreement.
-- [ ] Keep signed-manifest cryptography as a future escalation only if the hosting/threat model changes.
+- [x] Runtime `payloadUrl` is pinned to `riccardopinato.github.io/World-Days/content/` with a constrained immutable filename shape.
+- [x] Payload download is streamed through a hard byte cap before materialization.
+- [x] Bounded stream overflow has direct automated coverage.
+- [x] `validate_content_pack.py` added to Signed Android QA.
+- [x] `validate_content_pack.py` added to Production Android Release.
+- [x] `validate_native_content_pack.py` added to Signed Android QA.
+- [x] `validate_native_content_pack.py` added to Production Android Release.
+- [x] Post-Pages-deploy smoke gate checks hosted manifest/payload propagation, size and SHA-256 agreement.
+- [x] Signed-manifest cryptography remains a future escalation only if the hosting/threat model changes.
 
 ## Phase H — Code hygiene / automated QA expansion
 
@@ -291,7 +293,7 @@ Evidence:
 
 ## Phase K — Store readiness — FINAL ONLY
 
-Do not start final submission until C, E, F, G.1, I and J are closed.
+Do not start final submission until C, E, F, I and J are closed.
 
 Developer website / app-ads:
 - [ ] Choose final developer website hostname.

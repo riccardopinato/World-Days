@@ -274,3 +274,17 @@ The next work should close release evidence and content completeness, not replac
 9. Produce exact final candidate and run full regression.
 10. Configure developer website/app-ads.txt + Play Console release assets.
 11. Final Evidence Bundle and CERTIFIED / NOT CERTIFIED verdict.
+
+
+## 9. Phase B + G.1 remediation — 2026-10-15
+
+The following audit findings were closed by PR #25:
+- full-catalog recurrence acceptance now exercises 2026, 2027 and 2028;
+- runtime/CI enforce source presence and verification metadata;
+- generated occurrence uniqueness and cross-year ranges have explicit gates;
+- content payload URLs are pinned to the approved GitHub Pages origin/path;
+- payload transfer is streamed through a hard manifest-sized byte cap;
+- signed QA and production release workflows run content-pack/native-content validation;
+- GitHub Pages deployment now performs a public manifest/payload propagation + checksum smoke check.
+
+These items are therefore no longer on the critical path. Remaining v1 blockers start with Phase C, E, F and I/J in `ROADMAP.md`.

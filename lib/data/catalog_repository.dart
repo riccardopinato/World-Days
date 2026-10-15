@@ -140,6 +140,25 @@ final class CatalogRepository {
       if (!ids.add(record.id)) {
         throw FormatException('duplicate_observance_id:${record.id}');
       }
+      if (record.sources.isEmpty) {
+        throw FormatException('observance_sources_missing:${record.id}');
+      }
+      if (record.lastVerifiedAt?.trim().isNotEmpty != true) {
+        throw FormatException(
+          'observance_last_verified_missing:${record.id}',
+        );
+      }
+      if (record.rules.isEmpty) {
+        throw FormatException('observance_rules_missing:${record.id}');
+      }
+      for (final source in record.sources) {
+        if (source.url.trim().isEmpty ||
+            source.verifiedAt?.trim().isNotEmpty != true) {
+          throw FormatException(
+            'observance_source_verification_missing:${record.id}',
+          );
+        }
+      }
     }
 
     final yearOverrides = (seed['yearOverrides'] as List? ?? const [])
