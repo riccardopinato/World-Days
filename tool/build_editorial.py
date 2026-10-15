@@ -6,14 +6,30 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets' / 'data' / 'editorial_en.json'
 REVIEWED = '2026-10-12'
 
-def e(observance_id, summary, why, actions):
+def e(
+    observance_id,
+    summary,
+    why,
+    actions,
+    *,
+    hook='',
+    why_this_date='',
+    origin='',
+    quick_facts=None,
+    related_ids=None,
+):
     return {
         'observanceId': observance_id,
         'locale': 'en',
         'status': 'REVIEWED',
+        'hook': hook,
         'summary': summary,
+        'whyThisDate': why_this_date,
+        'origin': origin,
         'whyItMatters': why,
+        'quickFacts': list(quick_facts or []),
         'waysToTakePart': actions,
+        'relatedObservanceIds': list(related_ids or []),
         'lastReviewedAt': REVIEWED,
         'sourcePolicy': 'Backed by the canonical authority/originator sources attached to the observance record.',
     }
@@ -135,9 +151,9 @@ entries = [
 ]
 
 payload = {
-    'schemaVersion': 1,
+    'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.10.12.1',
+    'datasetVersion': '2026.10.15.2',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),
