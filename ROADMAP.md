@@ -1,64 +1,133 @@
 # World Days — Active roadmap
 
-Execution numbering reflects the current implementation sequence. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
+Execution truth for the repository. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
-## Completed through Step 9 implementation
+## Completed foundation
 
-Steps 1–7 established the real Flutter/CI baseline, verified catalog expansion, reviewed multilingual editorial content, market/Around-the-World layers and the current consumer shell.
+Steps 1–8.2 established the Flutter/CI baseline, canonical catalog, multilingual titles, market layer, visual system and share cards.
 
-### Step 8 — Visual Content Upgrade
-- deterministic `visualKey` for every generated catalog record;
-- reusable first-party procedural illustration system;
-- editorial Today/detail hero treatment and richer observance cards;
-- themed Discover collections;
-- locally generated 4:5 PNG share cards;
-- visual/media licensing contract with offline fallback;
-- localization parity and visual/widget regression coverage.
+### Step 9 — Retention / native layer
+Implementation complete:
+- timezone-aware inexact local scheduling with stable IDs;
+- daily/weekly/favorite/category reminder plans;
+- notification diagnostics and deterministic reconciliation;
+- notification tap + Home Widget deep links;
+- Android XML/RemoteViews widget with offline projection;
+- generated Android/iOS native setup and CI validation.
 
-### Step 8.1 — Share Card Refinement
-- removed the officiality pill from exported 4:5 share artwork;
-- preserved the established visual baseline and local PNG sharing pipeline.
+Open release evidence:
+- exact-artifact physical notification/deep-link/widget QA remains required.
 
-### Step 8.2 — Complete Observance Title Localization
-- all 296 current observance titles available offline in EN/IT/ES/FR/DE/PT;
-- canonical IDs and English source titles remain stable across locale changes;
-- English fallback for unsupported/missing locales;
-- multilingual search covers canonical English, localized titles and aliases;
-- dataset generation fails closed on missing, extra or empty title translations.
+### Step 10.1 — AdMob / UMP / permanent Android release identity ✅
+Completed and physically validated on Android:
+- permanent signing identity and production signer verification;
+- production APK + AAB workflow;
+- UMP consent appears on clean state;
+- deny-consent path verified;
+- Privacy Choices reopens and allows changing the decision;
+- production adaptive banner loads;
+- public Privacy Policy published.
 
-## Step 9 — Retention / native layer
-Implementation:
-- notification reliability Golden applied with timezone-aware inexact scheduling, stable IDs, health/diagnostics and deterministic reconciliation;
-- daily/weekly/category/favorite reminder plans with bounded pending-notification horizon;
-- notification tap and Home Widget deep-link routing;
-- lightweight Android XML/RemoteViews Home Screen Widget with a 45-day offline projection;
-- generated Android/iOS native setup plus CI validation.
+## Post-audit completion roadmap — 2026-10-15
 
-Open evidence gate:
-- physical notification/deep-link/widget QA on the exact release APK remains NOT VERIFIED;
-- legacy AppLab Trusted Runtime hang remains tracked as infrastructure/non-blocking because the APK installs, launches and completes the Maestro flow before the workflow later stalls.
+The app is NOT Store Ready until the gates below are closed.
 
-## Step 10 — Monetization
-### Step 10.1 — Branding, signing continuity and top banner ✅ implementation
-- approved World Days launcher icon pipeline for Android/iOS;
-- UMP-gated large anchored adaptive banner in a dedicated top slot;
-- Web Preview no-op and Google sample test traffic for QA/manual builds;
-- public Privacy Policy hosted by GitHub Pages at `/World-Days/privacy.html`;
-- permanent Android signing identity + signer verification workflow;
-- fail-closed Android production lane for real AdMob App ID/Banner ID;
-- one legacy-signing transition reinstall remains unavoidable before update-in-place continuity begins.
+### Phase A — Functional UX fixes — IN PROGRESS
+- [x] Around the World browsing no longer mutates the user's profile market.
+- [x] Today primary hero is interactive and no longer immediately duplicated.
+- [x] Up Next shows occurrence dates.
+- [x] Calendar adds weekday headers, Today jump and current-day affordance.
+- [x] Catalog load failure exposes a retry path.
+- [ ] Finish source-card UX and remaining consumer error/empty states.
 
-### Step 10.2 — Remove Ads entitlement
-- lifetime Remove Ads entitlement;
-- sandbox billing validation;
-- Premium/Remove Ads must suppress the ad request itself, not only hide the banner.
+### Phase B — Data/runtime structural fixes — IN PROGRESS
+- [x] Cache yearly occurrences and date indexes instead of recomputing per calendar cell.
+- [x] Include previous-year carry-over ranges when indexing a year.
+- [x] Introduce deterministic primary-observance ranking.
+- [x] Separate semantic categories from `visualKey`.
+- [x] Migrate category reminders from visual keys to semantic categories with legacy preference migration.
+- [x] Expose all visual collections and complete officiality filters in Discover.
+- [x] Align runtime recurrence support with LAST_DAY_OF_MONTH and ONE_OFF.
+- [x] Align the data contract with the actual recurrence representation.
+- [ ] Represent unresolved authority/lunar dates explicitly in future-year UI instead of silently disappearing.
 
-## Step 11 — Remote catalog updates
-- production content hosting;
-- signed/versioned manifest, checksum, staging, atomic activation and rollback;
-- annual campaign/theme overrides.
+### Phase C — Editorial completion — BLOCKING
+Current reviewed editorial coverage: 28 / 296.
+- [ ] Extend editorial schema to include Why this date, Origin/history, quick facts, related observances and annual theme.
+- [ ] Complete original English editorial coverage for all launch records.
+- [ ] Review primary-source grounding and provenance.
+- [ ] Translate reviewed editorial content to IT/ES/FR/DE/PT.
+- [ ] Replace generic placeholders with explicit fallback states only where evidence is intentionally pending.
 
-## Step 12 — Production release
-- permanent Android signing identity and first production signing run;
-- exact-artifact QA, APK/AAB hashes and update-in-place;
-- Play Console, Data Safety, privacy/store assets and release.
+### Phase D — Today / Calendar / Discover completion
+- [ ] Today in 30 seconds.
+- [ ] Daily quiz / lightweight learning loop.
+- [ ] Tomorrow preview.
+- [ ] Calendar officiality/category/scope/country filters.
+- [ ] Upcoming 7 / 30 days views.
+- [ ] Decide whether day/week modes add enough value for v1.
+- [ ] Expand Around the World national coverage beyond the current thin seed.
+- [ ] Keep locale and market independent in every flow.
+
+### Phase E — Remove Ads lifetime entitlement — BLOCKING
+- [ ] One-time Remove Ads purchase.
+- [ ] Restore/reconcile entitlement.
+- [ ] Sandbox billing QA.
+- [ ] Entitled users must suppress the ad request itself, not merely hide the banner.
+- [ ] Add Settings purchase/status UX.
+
+### Phase F — Retention physical QA — BLOCKING
+- [ ] Immediate notification on exact production candidate.
+- [ ] Scheduled notification.
+- [ ] Notification tap/deep link.
+- [ ] Reboot/app-update reconciliation.
+- [ ] Home Widget add/update/date rollover.
+- [ ] Widget tap/deep link.
+- [ ] Revisit finite daily reminder horizon so the retention loop does not silently expire.
+
+### Phase G — Remote Content Pack v1 — BLOCKING BEFORE LONG-TERM CONTENT OPERATIONS
+- [ ] Bundled catalog remains immutable fallback.
+- [ ] Versioned remote manifest.
+- [ ] Checksum/integrity verification.
+- [ ] Staged download and validation.
+- [ ] Atomic activation.
+- [ ] Rollback to last-known-good.
+- [ ] Annual campaign/theme override channel.
+- [ ] Offline/network-failure tests.
+
+### Phase H — Code hygiene / QA expansion
+- [x] Remove obsolete `synthetic-package` l10n option.
+- [ ] Split consumer Settings from developer diagnostics.
+- [ ] Preserve source verification metadata in the runtime model.
+- [ ] Expand AppController / Settings / Calendar / Around-the-World tests.
+- [ ] Add monetization state tests where platform boundaries permit.
+- [ ] Add maintained integration smoke test.
+- [ ] Review dependency warnings for Flutter/Kotlin plugin migration.
+
+### Phase I — Governance / identity alignment — IN PROGRESS
+- [x] Canonical Android application ID fixed to `com.riccardopinato.world_days` in product truth.
+- [x] Repository Factory baseline aligned to `5f6b2489df2ac85fb85ccfea059983a090689de4`.
+- [ ] Update README, signing/AdMob docs and Golden reuse manifest to the post-production state.
+- [ ] Establish release versioning policy.
+- [ ] Protect `main` with required green checks/ruleset before store release.
+
+### Phase J — Exact-artifact regression / certification
+- [ ] Generate release candidate APK + AAB.
+- [ ] Verify signer SHA-256 and artifact hashes.
+- [ ] Full offline/navigation/search/favorites/share/localization regression.
+- [ ] Accessibility and large-text regression.
+- [ ] Upgrade/install-in-place check.
+- [ ] Final CERTIFIED / NOT CERTIFIED evidence bundle.
+
+### Phase K — Store readiness — FINAL ONLY
+Do not start until Phases C, E, F and J are closed.
+- [ ] app-ads.txt.
+- [ ] Play Console app setup.
+- [ ] Data Safety.
+- [ ] Store listing/localizations.
+- [ ] Screenshots/feature graphic/icon verification.
+- [ ] Production rollout plan.
+
+## Release policy
+
+A green CI build is necessary but not sufficient. World Days is publishable only after the exact candidate artifact satisfies the physical and evidence gates above.
