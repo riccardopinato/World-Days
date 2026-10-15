@@ -37,6 +37,7 @@ class _FakeBilling implements BillingAdapter {
   BillingResult purchaseResult;
   BillingResult restoreResult;
   bool available;
+  BillingResult? completedResult;
   final StreamController<BillingResult> _updates =
       StreamController<BillingResult>.broadcast();
 
@@ -64,6 +65,11 @@ class _FakeBilling implements BillingAdapter {
 
   @override
   Future<BillingResult> restoreRemoveAds() async => restoreResult;
+
+  @override
+  Future<void> completePurchase(BillingResult result) async {
+    completedResult = result;
+  }
 
   @override
   Future<void> dispose() async {
@@ -138,6 +144,7 @@ void main() {
       purchaseResult: const BillingResult(
         state: PurchaseFlowState.purchased,
         productId: _FakeBilling.productId,
+        transactionId: 'purchase-1',
         verified: true,
       ),
     );
@@ -153,6 +160,7 @@ void main() {
     expect(service.snapshot.source, EntitlementSource.providerVerified);
     expect(service.removesAds, isTrue);
     expect(store.value.plan, AppPlan.lifetime);
+    expect(billing.completedResult?.transactionId, 'purchase-1');
   });
 
   test('verified asynchronous store update grants entitlement', () async {
