@@ -8,10 +8,12 @@ import '../core/content_pack/content_pack_runtime.dart';
 import '../core/entitlements/entitlement_models.dart';
 import '../core/entitlements/entitlement_service.dart';
 import '../core/monetization/monetization_controller.dart';
+import '../core/notifications/notification_gateway.dart';
 import '../core/notifications/notification_health.dart';
 import '../core/notifications/notification_service.dart';
 import '../core/notifications/reminder_plan.dart';
 import '../core/retention/retention_target.dart';
+import '../core/widget/home_widget_gateway.dart';
 import '../core/widget/world_days_home_widget_service.dart';
 import '../data/catalog_repository.dart';
 import '../data/preferences_repository.dart';
@@ -22,8 +24,8 @@ final class AppController extends ChangeNotifier {
   AppController({
     CatalogRepository? catalogRepository,
     PreferencesRepository? preferencesRepository,
-    NotificationService? notificationService,
-    WorldDaysHomeWidgetService? homeWidgetService,
+    NotificationGateway? notificationService,
+    HomeWidgetGateway? homeWidgetService,
     MonetizationController? monetizationController,
     EntitlementService? entitlementService,
     ContentPackManager? contentPackManager,
@@ -46,8 +48,8 @@ final class AppController extends ChangeNotifier {
   final ContentPackManager contentPacks;
   final CatalogRepository _catalogRepository;
   final PreferencesRepository _preferencesRepository;
-  final NotificationService _notificationService;
-  final WorldDaysHomeWidgetService _homeWidgetService;
+  final NotificationGateway _notificationService;
+  final HomeWidgetGateway _homeWidgetService;
 
   StreamSubscription<String>? _notificationTapSubscription;
   StreamSubscription<Uri>? _widgetTapSubscription;
