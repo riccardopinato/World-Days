@@ -175,5 +175,10 @@
   "noReminderSubscriptions": "Nessun promemoria attivo.",
   "noFollowedCategories": "Non segui ancora nessuna categoria.",
   "manageInSettings": "Gestisci nelle Impostazioni",
-  "verifiedOverview": "Panoramica verificata"
+  "verifiedOverview": "Panoramica verificata",
+  "verifiedOverviewSummary": "{title} è una ricorrenza verificata nel catalogo World Days. Ambito: {scope}. Autorità: {authority}.",
+  "verifiedOverviewNote": "Questa panoramica usa solo metadati verificati del record. Il contesto editoriale più ricco viene mostrato soltanto dopo la revisione delle fonti.",
+  "verifiedScopeGlobal": "Globale",
+  "verifiedScopeNational": "Nazionale",
+  "verifiedScopeRegional": "Regionale"
 }
