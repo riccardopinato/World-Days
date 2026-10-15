@@ -126,6 +126,28 @@ void _validator(Map<String, dynamic> payload) {
 }
 
 void main() {
+  test('bounded stream collector accepts exact cap and rejects overflow', () async {
+    final exact = await collectBoundedContentBytes(
+      Stream<List<int>>.fromIterable([
+        [1, 2],
+        [3],
+      ]),
+      maxBytes: 3,
+    );
+    expect(exact, [1, 2, 3]);
+
+    await expectLater(
+      collectBoundedContentBytes(
+        Stream<List<int>>.fromIterable([
+          [1, 2],
+          [3],
+        ]),
+        maxBytes: 2,
+      ),
+      throwsFormatException,
+    );
+  });
+
   test('remote version equal to bundled catalog is not reinstalled', () async {
     final bytes = _payloadBytes('1');
     final manifest = _manifest('1', bytes);
