@@ -6,6 +6,7 @@ import '../domain/editorial_entry.dart';
 import '../domain/observance.dart';
 import '../domain/occurrence.dart';
 import '../domain/recurrence_engine.dart';
+import '../domain/year_override.dart';
 
 final class CatalogSnapshot {
   const CatalogSnapshot({
@@ -13,12 +14,14 @@ final class CatalogSnapshot {
     required this.byId,
     required this.occurrences2026,
     required this.editorialByLocale,
+    required this.yearOverrides,
   });
 
   final List<Observance> records;
   final Map<String, Observance> byId;
   final List<ObservanceOccurrence> occurrences2026;
   final Map<String, Map<String, EditorialEntry>> editorialByLocale;
+  final List<ObservanceYearOverride> yearOverrides;
 
   Map<String, EditorialEntry> get editorialById =>
       editorialByLocale['en'] ?? const <String, EditorialEntry>{};
@@ -27,6 +30,13 @@ final class CatalogSnapshot {
     final normalized = localeCode.toLowerCase();
     return editorialByLocale[normalized]?[observanceId] ??
         editorialByLocale['en']?[observanceId];
+  }
+
+  ObservanceYearOverride? yearOverrideFor(String observanceId, int year) {
+    for (final item in yearOverrides) {
+      if (item.observanceId == observanceId && item.year == year) return item;
+    }
+    return null;
   }
 }
 
@@ -51,6 +61,15 @@ final class CatalogRepository {
         .map((e) => Observance.fromJson(Map<String, dynamic>.from(e as Map)))
         .toList(growable: false)
       ..sort((a, b) => a.title.compareTo(b.title));
+
+    final yearOverrides = (seed['yearOverrides'] as List? ?? const [])
+        .map(
+          (e) => ObservanceYearOverride.fromJson(
+            Map<String, dynamic>.from(e as Map),
+          ),
+        )
+        .where((item) => item.observanceId.isNotEmpty && item.year > 0)
+        .toList(growable: false);
 
     final byId = {for (final item in records) item.id: item};
     final occurrences = (occurrence['occurrences'] as List)
@@ -79,6 +98,7 @@ final class CatalogRepository {
       byId: byId,
       occurrences2026: occurrences,
       editorialByLocale: editorialByLocale,
+      yearOverrides: yearOverrides,
     );
   }
 

@@ -35,8 +35,16 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final favorite = widget.controller.isFavorite(record.id);
     final localeCode = Localizations.localeOf(context).languageCode;
     final localizedTitle = record.titleForLocale(localeCode);
-    final editorial = widget.controller.catalog?.editorialFor(record.id, localeCode);
+    final catalog = widget.controller.catalog;
+    final editorial = catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
+    final annualOverride = catalog?.yearOverrideFor(record.id, DateTime.now().year);
+    final related = editorial == null
+        ? const <Observance>[]
+        : editorial.relatedObservanceIds
+            .map((id) => catalog?.byId[id])
+            .whereType<Observance>()
+            .toList(growable: false);
     final visual = ObservanceVisuals.resolve(record);
 
     return Scaffold(
@@ -125,18 +133,76 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
               ),
               const SizedBox(height: 16),
             ],
+            if (editorial.hook.trim().isNotEmpty) ...[
+              Text(
+                editorial.hook,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                      height: 1.25,
+                    ),
+              ),
+              const SizedBox(height: 12),
+            ],
             Text(
               editorial.summary,
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     height: 1.5,
                   ),
             ),
-            const SizedBox(height: 26),
+            if (annualOverride != null &&
+                annualOverride.campaignTheme.trim().isNotEmpty) ...[
+              const SizedBox(height: 22),
+              _EditorialSection(
+                icon: Icons.campaign_outlined,
+                title: l10n.annualTheme,
+                body: annualOverride.campaignTheme,
+              ),
+            ],
+            if (editorial.whyThisDate.trim().isNotEmpty) ...[
+              const SizedBox(height: 22),
+              _EditorialSection(
+                icon: Icons.event_available_outlined,
+                title: l10n.whyThisDate,
+                body: editorial.whyThisDate,
+              ),
+            ],
+            if (editorial.origin.trim().isNotEmpty) ...[
+              const SizedBox(height: 22),
+              _EditorialSection(
+                icon: Icons.history_edu_outlined,
+                title: l10n.originHistory,
+                body: editorial.origin,
+              ),
+            ],
+            const SizedBox(height: 22),
             _EditorialSection(
               icon: Icons.lightbulb_outline_rounded,
               title: l10n.whyItMatters,
               body: editorial.whyItMatters,
             ),
+            if (editorial.quickFacts.isNotEmpty) ...[
+              const SizedBox(height: 24),
+              Text(
+                l10n.quickFacts,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                    ),
+              ),
+              const SizedBox(height: 12),
+              for (final fact in editorial.quickFacts) ...[
+                _FactCard(text: fact),
+                const SizedBox(height: 10),
+              ],
+            ],
+            if (!editorial.hasExtendedEditorial) ...[
+              const SizedBox(height: 18),
+              Text(
+                l10n.editorialCoveragePending,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+              ),
+            ],
             const SizedBox(height: 24),
             Text(
               l10n.waysToTakePart,
@@ -148,6 +214,32 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             for (final action in editorial.waysToTakePart) ...[
               _ActionCard(text: action),
               const SizedBox(height: 10),
+            ],
+            if (related.isNotEmpty) ...[
+              const SizedBox(height: 18),
+              Text(
+                l10n.relatedObservances,
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                    ),
+              ),
+              const SizedBox(height: 12),
+              for (final relatedRecord in related)
+                Card(
+                  child: ListTile(
+                    leading: const Icon(Icons.link_rounded),
+                    title: Text(relatedRecord.titleForLocale(localeCode)),
+                    trailing: const Icon(Icons.chevron_right_rounded),
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => ObservanceDetailPage(
+                          observance: relatedRecord,
+                          controller: widget.controller,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
             ],
             const SizedBox(height: 16),
           ] else ...[
@@ -285,6 +377,31 @@ class _EditorialSection extends StatelessWidget {
                   ],
                 ),
               ),
+            ],
+          ),
+        ),
+      );
+}
+
+class _FactCard extends StatelessWidget {
+  const _FactCard({required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) => Card(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Icon(
+                Icons.check_circle_outline_rounded,
+                size: 20,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              const SizedBox(width: 12),
+              Expanded(child: Text(text)),
             ],
           ),
         ),

@@ -13,6 +13,7 @@ known = {item['id'] for item in catalog.get('records', [])}
 entries = editorial.get('entries', [])
 ids = [item.get('observanceId') for item in entries]
 
+assert editorial.get('schemaVersion') == 2
 assert editorial.get('locale') == 'en'
 assert editorial.get('entryCount') == len(entries)
 assert len(entries) >= 28, f"editorial coverage unexpectedly low: {len(entries)}"
@@ -22,14 +23,33 @@ assert set(ids).issubset(known), f"unknown editorial ids: {sorted(set(ids) - kno
 for item in entries:
     oid = item['observanceId']
     assert item.get('status') == 'REVIEWED', oid
+    for key in (
+        'hook',
+        'summary',
+        'whyThisDate',
+        'origin',
+        'whyItMatters',
+        'quickFacts',
+        'waysToTakePart',
+        'relatedObservanceIds',
+    ):
+        assert key in item, (oid, key)
     assert len(item.get('summary', '').strip()) >= 80, oid
     assert len(item.get('whyItMatters', '').strip()) >= 80, oid
     actions = item.get('waysToTakePart', [])
     assert 2 <= len(actions) <= 4, oid
     assert all(len(action.strip()) >= 20 for action in actions), oid
+    facts = item.get('quickFacts', [])
+    assert len(facts) <= 5, oid
+    assert all(len(fact.strip()) >= 20 for fact in facts), oid
+    related = item.get('relatedObservanceIds', [])
+    assert len(related) == len(set(related)), oid
+    assert set(related).issubset(known), (oid, sorted(set(related) - known))
+    assert oid not in related, oid
     assert item.get('lastReviewedAt') == '2026-10-12', oid
-    assert 'http://' not in item.get('summary', '')
-    assert 'https://' not in item.get('summary', '')
+    for key in ('hook', 'summary', 'whyThisDate', 'origin', 'whyItMatters'):
+        assert 'http://' not in item.get(key, ''), (oid, key)
+        assert 'https://' not in item.get(key, ''), (oid, key)
 
 consumer_required = {
     'world-cancer-day', 'safer-internet-day', 'world-theatre-day',

@@ -77,6 +77,25 @@ void main() {
     }
   });
 
+  test('extended editorial schema and annual override load safely', () async {
+    final snapshot = await const CatalogRepository().load();
+
+    final editorial = snapshot.editorialFor('world-health-day', 'en');
+    expect(editorial, isNotNull);
+    expect(editorial!.hook, isA<String>());
+    expect(editorial.whyThisDate, isA<String>());
+    expect(editorial.origin, isA<String>());
+    expect(editorial.quickFacts, isA<List<String>>());
+    expect(editorial.relatedObservanceIds, isA<List<String>>());
+
+    final annual = snapshot.yearOverrideFor('world-health-day', 2026);
+    expect(annual, isNotNull);
+    expect(annual!.campaignTheme, isNotEmpty);
+    expect(annual.campaignUrl, isNotEmpty);
+    expect(annual.verifiedAt, isNotEmpty);
+    expect(snapshot.yearOverrideFor('world-health-day', 2027), isNull);
+  });
+
   test('curated consumer records preserve provenance and classification', () async {
     final snapshot = await const CatalogRepository().load();
 
