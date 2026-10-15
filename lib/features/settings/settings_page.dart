@@ -69,8 +69,8 @@ class _SettingsPageState extends State<SettingsPage> {
     final locale = Localizations.localeOf(context).toLanguageTag();
     final recordCount = widget.controller.catalog?.records.length ?? 0;
     final reminders = widget.controller.preferences.reminders;
-    final showRemoveAds = widget.controller.entitlements.billingSupported ||
-        widget.controller.removeAdsEntitled;
+    final showRemoveAds = widget.controller.removeAdsEntitled ||
+        widget.controller.removeAdsProduct != null;
     final showPrivacyChoices =
         widget.controller.monetization.supported &&
         widget.controller.monetization.privacyOptionsRequired;
