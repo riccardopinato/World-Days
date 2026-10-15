@@ -81,6 +81,41 @@ void main() {
     }
   });
 
+  test('all launch records have six-locale verified concise coverage', () async {
+    final snapshot = await const CatalogRepository().load();
+    const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+
+    expect(snapshot.editorialById.length, 28);
+
+    for (final record in snapshot.records) {
+      for (final locale in locales) {
+        final metadata = snapshot.verifiedMetadataFor(record.id, locale);
+        expect(metadata, isNotNull, reason: '${record.id}/$locale');
+        expect(metadata!.locale, locale, reason: '${record.id}/$locale');
+        expect(metadata.summary.trim(), isNotEmpty, reason: '${record.id}/$locale');
+        expect(metadata.note.trim(), isNotEmpty, reason: '${record.id}/$locale');
+        expect(
+          metadata.sourceVerifiedAt.trim(),
+          isNotEmpty,
+          reason: '${record.id}/$locale',
+        );
+        expect(
+          metadata.summary,
+          contains(record.titleForLocale(locale)),
+          reason: '${record.id}/$locale',
+        );
+      }
+    }
+
+    expect(snapshot.editorialFor('world-habitat-day', 'en'), isNull);
+    final english =
+        snapshot.verifiedMetadataFor('world-habitat-day', 'en')!;
+    final italian =
+        snapshot.verifiedMetadataFor('world-habitat-day', 'it')!;
+    expect(english.summary, isNot(italian.summary));
+    expect(english.authorityName, isNotEmpty);
+  });
+
   test('extended editorial schema and annual override load safely', () async {
     final snapshot = await const CatalogRepository().load();
 
