@@ -120,6 +120,56 @@ void _validator(Map<String, dynamic> payload) {
 }
 
 void main() {
+  test('remote version equal to bundled catalog is not reinstalled', () async {
+    final bytes = _payloadBytes('1');
+    final manifest = _manifest('1', bytes);
+    final manager = ContentPackManager(
+      transport: _FakeTransport(
+        manifestText: _manifestJson(manifest),
+        payloadBytes: bytes,
+      ),
+      storage: _MemoryStorage(),
+      validator: _validator,
+    );
+
+    await manager.initialize();
+    manager.setBundledVersion('1');
+
+    expect(await manager.checkForUpdate(), isFalse);
+    expect(manager.state, ContentPackState.ready);
+    expect(manager.status.activeVersion, '1');
+  });
+
+  test('manifest requires bounded HTTPS payload metadata', () {
+    expect(
+      () => ContentPackManifest.fromJson({
+        'schemaVersion': 1,
+        'packId': 'world-days-catalog',
+        'version': '2',
+        'kind': 'catalog',
+        'sizeBytes': 10,
+        'sha256': List.filled(64, 'a').join(),
+        'payloadUrl': 'http://example.test/pack.json',
+        'generatedAt': '2026-10-15',
+      }),
+      throwsFormatException,
+    );
+
+    expect(
+      () => ContentPackManifest.fromJson({
+        'schemaVersion': 1,
+        'packId': 'world-days-catalog',
+        'version': '../unsafe',
+        'kind': 'catalog',
+        'sizeBytes': 10,
+        'sha256': List.filled(64, 'a').join(),
+        'payloadUrl': 'https://example.test/pack.json',
+        'generatedAt': '2026-10-15',
+      }),
+      throwsFormatException,
+    );
+  });
+
   test('fresh verified update becomes active only after validation', () async {
     final bytes = _payloadBytes('2');
     final manifest = _manifest('2', bytes);
