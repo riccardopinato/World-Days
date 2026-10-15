@@ -8,18 +8,33 @@ class MonetizationController extends ChangeNotifier {
   bool _canRequestAds = false;
   bool _privacyOptionsRequired = false;
   bool _mobileAdsInitialized = false;
+  bool _adsSuppressed = false;
   String? _lastError;
 
   bool get supported =>
       defaultTargetPlatform == TargetPlatform.android ||
       defaultTargetPlatform == TargetPlatform.iOS;
   bool get initialized => _initialized;
-  bool get canRequestAds => _canRequestAds;
+  bool get canRequestAds => !_adsSuppressed && _canRequestAds;
+  bool get adsSuppressed => _adsSuppressed;
   bool get privacyOptionsRequired => _privacyOptionsRequired;
   String? get lastError => _lastError;
 
+  void setAdsSuppressed(bool value) {
+    if (_adsSuppressed == value) return;
+    _adsSuppressed = value;
+    if (value) _canRequestAds = false;
+    notifyListeners();
+  }
+
   Future<void> initialize() async {
     if (_initialized || !supported) return;
+    if (_adsSuppressed) {
+      _initialized = true;
+      _canRequestAds = false;
+      notifyListeners();
+      return;
+    }
     _lastError = null;
 
     try {
@@ -105,8 +120,8 @@ class MonetizationController extends ChangeNotifier {
 
   Future<void> _resolveAdEligibility() async {
     final allowed = await ConsentInformation.instance.canRequestAds();
-    _canRequestAds = allowed;
-    if (allowed && !_mobileAdsInitialized) {
+    _canRequestAds = !_adsSuppressed && allowed;
+    if (_canRequestAds && !_mobileAdsInitialized) {
       await MobileAds.instance.initialize();
       _mobileAdsInitialized = true;
     }
