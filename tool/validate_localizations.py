@@ -28,8 +28,7 @@ required = {
     'offlineFirst',
     'dataPolicy',
     'dataPolicyDescription',
-    'editorialComingNext',
-    'editorialPlaceholder',
+    'verifiedOverview',
     'noSearchResults',
     'clearSearch',
 }
