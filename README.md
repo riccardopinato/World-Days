@@ -35,7 +35,7 @@ Implemented in this first real repository pass:
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Remove Ads code paths now include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 is implemented with bundled fallback and GitHub Pages hosting. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial completion and final store gates remain open; see `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product, durable provider-finalization recovery and sandbox evidence remain open. Remote Content Pack v1 is implemented with bundled fallback and GitHub Pages hosting, with final release hardening tracked in the roadmap. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
 ## Privacy
 
