@@ -9,6 +9,7 @@ occ = json.loads((root / 'assets/data/occurrences_2026.json').read_text(encoding
 records = seed.get('records', [])
 ids = [r.get('id') for r in records]
 visual_keys = {'planet','health','people','learning','culture','food','future','community'}
+semantic_categories = {'PLANET','HEALTH','PEOPLE','LEARNING','CULTURE','FOOD','FUTURE','COMMUNITY'}
 title_locales = {'en', 'it', 'es', 'fr', 'de', 'pt'}
 
 expected_consumer = {
@@ -52,6 +53,9 @@ for item in occ.get('occurrences', []):
     assert item.get('observanceId') in known, f"unknown occurrence id: {item.get('observanceId')}"
 for record in records:
     assert record.get('visualKey') in visual_keys, (record.get('id'), record.get('visualKey'))
+    categories = record.get('categories') or []
+    assert categories, f"missing semantic categories: {record.get('id')}"
+    assert set(categories).issubset(semantic_categories), (record.get('id'), categories)
     localized_titles = record.get('localizedTitles') or {}
     assert set(localized_titles) == title_locales, (
         record.get('id'),
