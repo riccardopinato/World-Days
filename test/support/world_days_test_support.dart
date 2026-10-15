@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -367,7 +368,9 @@ Future<AppController> buildLoadedTestController({
   FakeHomeWidgetGateway? widget,
   CatalogSnapshot? catalog,
 }) async {
-  SharedPreferences.setMockInitialValues(preferences.toJson());
+  SharedPreferences.setMockInitialValues({
+    'world_days_preferences_v1': jsonEncode(preferences.toJson()),
+  });
   final controller = AppController(
     notificationService: notifications ?? FakeNotificationGateway(),
     homeWidgetService: widget ?? FakeHomeWidgetGateway(),
