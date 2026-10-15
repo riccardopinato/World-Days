@@ -119,19 +119,24 @@ class ReminderPlanBuilder {
     }
 
     if (settings.categoryEnabled &&
-        settings.followedVisualKeys.isNotEmpty) {
+        settings.followedCategories.isNotEmpty) {
       var scheduled = 0;
       for (var offset = 0; offset <= 90 && scheduled < 10; offset++) {
         final date = start.add(Duration(days: offset));
         final records = observancesForDate(date);
         Observance? match;
+        String? matchedCategory;
         for (final record in records) {
-          if (settings.followedVisualKeys.contains(record.visualKey)) {
-            match = record;
-            break;
+          for (final category in record.categories) {
+            if (settings.followedCategories.contains(category.toUpperCase())) {
+              match = record;
+              matchedCategory = category.toUpperCase();
+              break;
+            }
           }
+          if (match != null) break;
         }
-        if (match == null) continue;
+        if (match == null || matchedCategory == null) continue;
         final when = _at(
           date,
           settings.dailyHour,
@@ -140,7 +145,7 @@ class ReminderPlanBuilder {
         if (!when.isAfter(clock)) continue;
         plan.add(
           PlannedNotification(
-            stableId: 'category:${_dateKey(date)}:${match.visualKey}',
+            stableId: 'category:${_dateKey(date)}:$matchedCategory',
             title: match.titleForLocale(locale),
             body: copy.categoryBody,
             when: when,

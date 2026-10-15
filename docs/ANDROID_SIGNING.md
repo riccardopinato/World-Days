@@ -1,6 +1,6 @@
 # Android signing identity — World Days
 
-Status: **USER-ACTION GATE / NOT YET PRODUCTION VERIFIED**
+Status: **PRODUCTION VERIFIED — 2026-10-15**
 
 ## Stable product identity
 
@@ -33,6 +33,8 @@ Add these repository secrets before running **Signed Android QA**:
 
 The workflow reconstructs the keystore only at runtime, verifies the resulting APK certificate against the expected fingerprint, hashes the artifacts, and never uploads the keystore.
 
-## Evidence gate
+## Evidence
 
-Production signing is **not verified** until a real Signed Android QA workflow run passes certificate verification. After the first stable APK is installed, perform an N → N+1 in-place update test using the same workflow identity.
+Production Android Release run `38702763793` passed build, signer verification and artifact upload on 2026-10-15. The APK signer matched the pinned permanent certificate SHA-256 above.
+
+Remaining release evidence: perform an N → N+1 in-place update test with two permanently signed versionCodes before final store certification.

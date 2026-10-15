@@ -2,9 +2,11 @@ enum RecurrenceKind {
   fixedDate,
   nthWeekday,
   lastWeekday,
+  lastDayOfMonth,
   fixedRange,
   authorityDefined,
   lunar,
+  oneOff,
 }
 
 final class DateSpan implements Comparable<DateSpan> {
@@ -60,6 +62,13 @@ final class LastWeekdayRule extends RecurrenceRule {
   final int weekday;
 }
 
+final class LastDayOfMonthRule extends RecurrenceRule {
+  const LastDayOfMonthRule({required this.month})
+      : super(RecurrenceKind.lastDayOfMonth);
+
+  final int month;
+}
+
 final class FixedRangeRule extends RecurrenceRule {
   const FixedRangeRule({
     required this.startMonth,
@@ -84,6 +93,12 @@ final class LunarRule extends RecurrenceRule {
   final Map<int, DateSpan> overrides;
 }
 
+final class OneOffRule extends RecurrenceRule {
+  const OneOffRule({required this.span}) : super(RecurrenceKind.oneOff);
+
+  final DateSpan span;
+}
+
 final class RecurrenceResolution {
   const RecurrenceResolution({required this.spans, required this.resolved});
   final List<DateSpan> spans;
@@ -99,6 +114,11 @@ abstract final class RecurrenceEngine {
     var resolved = true;
 
     for (final rule in rules) {
+      if (rule is OneOffRule) {
+        if (_overlapsYear(rule.span, year)) spans.add(rule.span);
+        continue;
+      }
+
       final span = _resolveOne(year, rule);
       if (span == null) {
         resolved = false;
@@ -111,7 +131,8 @@ abstract final class RecurrenceEngine {
     final seen = <String>{};
     final unique = <DateSpan>[];
     for (final span in spans) {
-      final key = '${span.start.microsecondsSinceEpoch}:${span.end.microsecondsSinceEpoch}';
+      final key =
+          '${span.start.microsecondsSinceEpoch}:${span.end.microsecondsSinceEpoch}';
       if (seen.add(key)) unique.add(span);
     }
 
@@ -127,6 +148,9 @@ abstract final class RecurrenceEngine {
       LastWeekdayRule r => _single(
           _lastWeekday(year, r.month, r.weekday),
         ),
+      LastDayOfMonthRule r => _single(
+          DateTime.utc(year, r.month + 1, 0),
+        ),
       FixedRangeRule r => DateSpan(
           start: _checkedDate(year, r.startMonth, r.startDay),
           end: _checkedDate(
@@ -137,7 +161,14 @@ abstract final class RecurrenceEngine {
         ),
       AuthorityDefinedRule r => r.overrides[year],
       LunarRule r => r.overrides[year],
+      OneOffRule _ => throw StateError('One-off rules are resolved separately'),
     };
+  }
+
+  static bool _overlapsYear(DateSpan span, int year) {
+    final first = DateTime.utc(year, 1, 1);
+    final last = DateTime.utc(year, 12, 31);
+    return !span.end.isBefore(first) && !span.start.isAfter(last);
   }
 
   static DateTime _nthWeekday(

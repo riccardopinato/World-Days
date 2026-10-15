@@ -1,6 +1,6 @@
 # AdMob / UMP production setup — World Days
 
-Status: **CLIENT IMPLEMENTED / PRODUCTION CONFIG USER-ACTION GATE**
+Status: **ANDROID BANNER + UMP PRODUCTION PHYSICALLY VERIFIED — 2026-10-15**
 
 World Days now has two deliberately separate advertising lanes.
 
@@ -48,14 +48,17 @@ Keep the policy aligned with the production app whenever data practices, SDKs or
 
 The APK integration alone is not enough for production monetization.
 
-Before distributing the production build:
-1. create/register World Days in AdMob;
-2. create the Android banner ad unit;
-3. configure and publish the European regulations/UMP message for World Days;
-4. use `https://riccardopinato.github.io/World-Days/privacy.html` as the public privacy-policy URL;
-5. configure the required languages and consent choices;
-6. verify Privacy Options/revocation on a physical device when UMP requires the entry point;
-7. configure/verify app-ads.txt when required for the release channel.
+Completed on 2026-10-15:
+1. World Days registered in AdMob;
+2. production Android banner ad unit configured;
+3. European regulations/UMP message published for World Days;
+4. canonical Privacy Policy URL configured;
+5. clean-state consent form verified on a physical Android device;
+6. deny-consent flow verified;
+7. Privacy Choices/revocation entry point verified;
+8. production banner serving verified.
+
+Remaining pre-store item: configure/verify app-ads.txt when the final release channel and developer website identity are fixed.
 
 ## Banner placement
 
@@ -74,4 +77,4 @@ It has a dedicated layout slot:
 - Ad request eligible != ad loaded.
 - Ad loaded != physical impression verified.
 
-Production monetization remains **NOT CERTIFIED** until the exact signed production artifact is tested on-device with the real AdMob configuration.
+The Android banner + UMP block is physically verified on the exact production lane. Full monetization is still incomplete until the lifetime Remove Ads entitlement and its no-request behavior pass sandbox and physical QA.

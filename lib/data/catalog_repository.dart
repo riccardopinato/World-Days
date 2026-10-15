@@ -82,6 +82,22 @@ final class CatalogRepository {
     );
   }
 
+
+  List<Observance> unresolvedForYear(
+    int year,
+    CatalogSnapshot snapshot,
+  ) {
+    final result = <Observance>[];
+    for (final record in snapshot.records) {
+      final resolution = RecurrenceEngine.resolve(
+        year: year,
+        rules: record.rules,
+      );
+      if (!resolution.resolved) result.add(record);
+    }
+    return result;
+  }
+
   List<ObservanceOccurrence> occurrencesForYear(
     int year,
     CatalogSnapshot snapshot,

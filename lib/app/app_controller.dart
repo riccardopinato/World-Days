@@ -39,6 +39,10 @@ final class AppController extends ChangeNotifier {
   StreamSubscription<Uri>? _widgetTapSubscription;
   RetentionTarget? _pendingRetentionTarget;
 
+  final Map<int, List<ObservanceOccurrence>> _occurrencesByYear = {};
+  final Map<int, Map<String, List<ObservanceOccurrence>>> _occurrenceIndexByYear = {};
+  final Map<int, List<Observance>> _unresolvedByYear = {};
+
   CatalogSnapshot? catalog;
   UserPreferences preferences = const UserPreferences();
   Object? error;
@@ -48,12 +52,17 @@ final class AppController extends ChangeNotifier {
   bool get androidWidgetAvailable => _homeWidgetService.supported;
 
   Future<void> initialize() async {
+    loading = true;
+    error = null;
     try {
       final values = await Future.wait([
         _catalogRepository.load(),
         _preferencesRepository.load(),
       ]);
       catalog = values[0] as CatalogSnapshot;
+      _occurrencesByYear.clear();
+      _occurrenceIndexByYear.clear();
+      _unresolvedByYear.clear();
       preferences = values[1] as UserPreferences;
       await _updateStreak();
     } catch (e) {
@@ -72,23 +81,103 @@ final class AppController extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> reload() async {
+    loading = true;
+    error = null;
+    notifyListeners();
+    await initialize();
+  }
+
   List<ObservanceOccurrence> occurrencesForYear(int year) {
     final value = catalog;
     if (value == null) return const [];
-    return _catalogRepository.occurrencesForYear(year, value);
+    return _occurrencesByYear.putIfAbsent(
+      year,
+      () => _catalogRepository.occurrencesForYear(year, value),
+    );
+  }
+
+  List<Observance> unresolvedObservancesForYear(int year) {
+    final value = catalog;
+    if (value == null) return const [];
+    return _unresolvedByYear.putIfAbsent(
+      year,
+      () => _catalogRepository.unresolvedForYear(year, value),
+    );
   }
 
   List<Observance> observancesForDate(DateTime date) {
     final value = catalog;
     if (value == null) return const [];
-    final occurrences = occurrencesForYear(date.year);
+    final occurrences =
+        _occurrenceIndexForYear(date.year)[_dateKey(date)] ?? const [];
     final result = <Observance>[];
     for (final occurrence in occurrences) {
-      if (!occurrence.contains(date)) continue;
       final record = value.byId[occurrence.observanceId];
       if (record != null && isVisibleForMarket(record)) result.add(record);
     }
+    result.sort(_compareObservances);
     return result;
+  }
+
+  Map<String, List<ObservanceOccurrence>> _occurrenceIndexForYear(int year) {
+    return _occurrenceIndexByYear.putIfAbsent(year, () {
+      final index = <String, List<ObservanceOccurrence>>{};
+      final yearStart = DateTime(year, 1, 1);
+      final yearEnd = DateTime(year, 12, 31);
+      final candidates = <ObservanceOccurrence>[
+        ...occurrencesForYear(year - 1),
+        ...occurrencesForYear(year),
+      ];
+
+      for (final occurrence in candidates) {
+        var start = DateTime(
+          occurrence.start.year,
+          occurrence.start.month,
+          occurrence.start.day,
+        );
+        var end = DateTime(
+          occurrence.end.year,
+          occurrence.end.month,
+          occurrence.end.day,
+        );
+        if (end.isBefore(yearStart) || start.isAfter(yearEnd)) continue;
+        if (start.isBefore(yearStart)) start = yearStart;
+        if (end.isAfter(yearEnd)) end = yearEnd;
+
+        for (var cursor = start;
+            !cursor.isAfter(end);
+            cursor = cursor.add(const Duration(days: 1))) {
+          index.putIfAbsent(_dateKey(cursor), () => []).add(occurrence);
+        }
+      }
+      return index;
+    });
+  }
+
+  int _compareObservances(Observance a, Observance b) {
+    final score = _observancePriority(b).compareTo(_observancePriority(a));
+    if (score != 0) return score;
+    return a.title.compareTo(b.title);
+  }
+
+  int _observancePriority(Observance record) {
+    var score = switch (record.authority.officiality) {
+      'OFFICIAL_UN' => 600,
+      'OFFICIAL_UN_AGENCY' => 560,
+      'OFFICIAL_UNESCO' => 550,
+      'OFFICIAL_WHO' => 550,
+      'OFFICIAL_INSTITUTIONAL' => 450,
+      'RECOGNIZED_NGO' => 300,
+      'POPULAR' => 200,
+      _ => 100,
+    };
+    if (record.scope == 'GLOBAL') score += 20;
+    if (record.periodKind == 'DAY') score += 10;
+    if (catalog?.editorialByLocale['en']?.containsKey(record.id) ?? false) {
+      score += 5;
+    }
+    return score;
   }
 
   bool isVisibleForMarket(Observance record, [String? marketCode]) {
@@ -275,24 +364,25 @@ final class AppController extends ChangeNotifier {
     await _savePreferencesAndReconcile();
   }
 
-  Future<void> toggleFollowedVisualKey(String key) async {
+  Future<void> toggleFollowedCategory(String key) async {
     const allowed = {
-      'planet',
-      'health',
-      'people',
-      'learning',
-      'culture',
-      'food',
-      'future',
-      'community',
+      'PLANET',
+      'HEALTH',
+      'PEOPLE',
+      'LEARNING',
+      'CULTURE',
+      'FOOD',
+      'FUTURE',
+      'COMMUNITY',
     };
-    if (!allowed.contains(key)) {
-      throw ArgumentError.value(key, 'key', 'Unsupported visual category');
+    final normalized = key.trim().toUpperCase();
+    if (!allowed.contains(normalized)) {
+      throw ArgumentError.value(key, 'key', 'Unsupported semantic category');
     }
-    final next = {...preferences.reminders.followedVisualKeys};
-    if (!next.add(key)) next.remove(key);
+    final next = {...preferences.reminders.followedCategories};
+    if (!next.add(normalized)) next.remove(normalized);
     preferences = preferences.copyWith(
-      reminders: preferences.reminders.copyWith(followedVisualKeys: next),
+      reminders: preferences.reminders.copyWith(followedCategories: next),
     );
     notifyListeners();
     await _savePreferencesAndReconcile();

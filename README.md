@@ -10,10 +10,11 @@ World Days keeps stable canonical observance IDs while displaying all 296 curren
 
 ## Current implementation
 
-This repository starts from the verified World Days product/data foundation and the App Factory baseline `23c5b0f6b5f02a93e03bb36106f12575a58129d3`.
+This repository starts from the verified World Days product/data foundation and the App Factory baseline `5f6b2489df2ac85fb85ccfea059983a090689de4`.
 
 Implemented in this first real repository pass:
-- bundled official catalog and 2026 occurrence index;
+- bundled canonical catalog and 2026 occurrence index;
+- semantic category taxonomy independent from visual artwork keys;
 - deterministic recurrence engine;
 - Today, Calendar, Discover, Saved and Settings navigation;
 - observance detail/source transparency;
@@ -26,13 +27,13 @@ Implemented in this first real repository pass:
 - Android Today Home Screen Widget backed by a 45-day offline projection;
 - deterministic notification/widget deep links;
 - branded World Days launcher icon;
-- UMP-gated top adaptive AdMob banner in QA test-traffic mode;
+- UMP-gated top adaptive AdMob banner with separate QA/test and production lanes;
 - public production privacy policy hosted with the Web Preview;
-- stable Android release identity workflow for future in-place APK updates;
+- permanent Android release identity with verified production APK/AAB signer continuity;
 - dataset, recurrence and retention projection tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Provider-sensitive monetization and production signing remain layered after the green Flutter baseline. Native notifications/widget are now implemented in Step 9 but require exact-artifact physical-device acceptance before certification.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Native notifications/widget still require exact-artifact physical-device acceptance. Remove Ads, editorial completion, remote content packs and final store gates remain open; see `ROADMAP.md`.
 
 ## Privacy
 

@@ -9,6 +9,7 @@ import '../../l10n/app_localizations.dart';
 
 class CalendarPage extends StatefulWidget {
   const CalendarPage({super.key, required this.controller});
+
   final AppController controller;
 
   @override
@@ -22,6 +23,10 @@ class _CalendarPageState extends State<CalendarPage> {
   @override
   void initState() {
     super.initState();
+    _jumpToToday();
+  }
+
+  void _jumpToToday() {
     final now = DateTime.now();
     month = DateTime(now.year, now.month);
     selected = DateTime(now.year, now.month, now.day);
@@ -32,9 +37,21 @@ class _CalendarPageState extends State<CalendarPage> {
     final l10n = AppLocalizations.of(context);
     final locale = Localizations.localeOf(context).toLanguageTag();
     final records = widget.controller.observancesForDate(selected);
+    final unresolved =
+        widget.controller.unresolvedObservancesForYear(month.year);
 
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.calendar)),
+      appBar: AppBar(
+        title: Text(l10n.calendar),
+        actions: [
+          TextButton.icon(
+            onPressed: () => setState(_jumpToToday),
+            icon: const Icon(Icons.today_rounded),
+            label: Text(l10n.today),
+          ),
+          const SizedBox(width: 8),
+        ],
+      ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 0, 16, 28),
         children: [
@@ -67,7 +84,28 @@ class _CalendarPageState extends State<CalendarPage> {
               ),
             ],
           ),
-          const SizedBox(height: 12),
+          if (unresolved.isNotEmpty) ...[
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.event_busy_outlined),
+                title: Text(l10n.unresolvedDatesNotice),
+                subtitle: Text(
+                  unresolved
+                      .map(
+                        (record) => record.titleForLocale(
+                          Localizations.localeOf(context).languageCode,
+                        ),
+                      )
+                      .take(3)
+                      .join(' · '),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+          ],
+          const SizedBox(height: 8),
+          _WeekdayHeader(locale: locale),
+          const SizedBox(height: 4),
           _MonthGrid(
             month: month,
             selected: selected,
@@ -117,6 +155,36 @@ class _CalendarPageState extends State<CalendarPage> {
   }
 }
 
+class _WeekdayHeader extends StatelessWidget {
+  const _WeekdayHeader({required this.locale});
+
+  final String locale;
+
+  @override
+  Widget build(BuildContext context) {
+    final monday = DateTime(2026, 1, 5);
+    return Row(
+      children: [
+        for (var offset = 0; offset < 7; offset++)
+          Expanded(
+            child: Text(
+              DateFormat.E(locale).format(
+                monday.add(Duration(days: offset)),
+              ),
+              textAlign: TextAlign.center,
+              maxLines: 1,
+              overflow: TextOverflow.fade,
+              style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    fontWeight: FontWeight.w700,
+                  ),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
 class _MonthGrid extends StatelessWidget {
   const _MonthGrid({
     required this.month,
@@ -157,6 +225,7 @@ class _MonthGrid extends StatelessWidget {
         final date = DateTime(month.year, month.month, day);
         final count = controller.observancesForDate(date).length;
         final active = _sameDate(date, selected);
+        final isToday = _sameDate(date, DateTime.now());
         final dateLabel = DateFormat.yMMMMd(locale).format(date);
         final semanticLabel = count == 0
             ? dateLabel
@@ -175,10 +244,12 @@ class _MonthGrid extends StatelessWidget {
                     ? Theme.of(context).colorScheme.primaryContainer
                     : null,
                 borderRadius: BorderRadius.circular(14),
-                border: active
+                border: active || isToday
                     ? Border.all(
-                        color: Theme.of(context).colorScheme.primary,
-                        width: 1.5,
+                        color: active
+                            ? Theme.of(context).colorScheme.primary
+                            : Theme.of(context).colorScheme.outline,
+                        width: active ? 1.5 : 1,
                       )
                     : null,
               ),
@@ -188,7 +259,9 @@ class _MonthGrid extends StatelessWidget {
                   Text(
                     '$day',
                     style: TextStyle(
-                      fontWeight: active ? FontWeight.w900 : FontWeight.w700,
+                      fontWeight: active || isToday
+                          ? FontWeight.w900
+                          : FontWeight.w700,
                     ),
                   ),
                   const SizedBox(height: 3),

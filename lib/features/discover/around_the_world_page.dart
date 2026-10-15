@@ -68,10 +68,9 @@ class _AroundTheWorldPageState extends State<AroundTheWorldPage> {
                           ),
                         ),
                     ],
-                    onChanged: (value) async {
+                    onChanged: (value) {
                       if (value == null) return;
                       setState(() => marketCode = value);
-                      await widget.controller.setMarket(value);
                     },
                   ),
                 ],
