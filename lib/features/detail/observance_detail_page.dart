@@ -190,12 +190,31 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      source.tier,
-                      style: Theme.of(context).textTheme.labelMedium,
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            _sourceTierLabel(source.tier, l10n),
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleSmall
+                                ?.copyWith(fontWeight: FontWeight.w800),
+                          ),
+                        ),
+                        if (source.verifiedAt case final verifiedAt?)
+                          Text(
+                            '${l10n.verifiedOn} $verifiedAt',
+                            style: Theme.of(context).textTheme.labelSmall,
+                          ),
+                      ],
                     ),
-                    const SizedBox(height: 6),
-                    SelectableText(source.url),
+                    const SizedBox(height: 8),
+                    SelectableText(
+                      source.url,
+                      style: TextStyle(
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -206,6 +225,16 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
       ),
     );
   }
+
+
+  String _sourceTierLabel(String value, AppLocalizations l10n) =>
+      switch (value) {
+        'A_PRIMARY' => l10n.sourcePrimary,
+        'B_INSTITUTIONAL' => l10n.sourceInstitutional,
+        'C_DISCOVERY' => l10n.sourceDiscovery,
+        'D_ORIGINATOR' => l10n.sourceOriginator,
+        _ => l10n.source,
+      };
 
   String _officialityLabel(String value, AppLocalizations l10n) {
     if (value.startsWith('OFFICIAL_')) return l10n.official;
