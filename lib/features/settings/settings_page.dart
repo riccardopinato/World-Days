@@ -504,7 +504,8 @@ class _SettingsPageState extends State<SettingsPage> {
         PurchaseFlowState.cancelled => l10n.purchaseCancelled,
         PurchaseFlowState.billingUnavailable => l10n.billingUnavailable,
         PurchaseFlowState.failed => l10n.purchaseFailed,
-        _ => restoring ? l10n.purchaseFailed : l10n.purchaseFailed,
+        PurchaseFlowState.ready when restoring => l10n.restoreChecked,
+        _ => l10n.purchaseFailed,
       };
 
   Future<void> _openPrivacyChoices(BuildContext context) async {
