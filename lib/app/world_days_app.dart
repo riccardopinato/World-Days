@@ -349,7 +349,8 @@ class _CompactAccessibleNavigationBar extends StatelessWidget {
                                     : colors.onSurfaceVariant,
                               ),
                               child: i == selectedIndex
-                                  ? destinations[i].selectedIcon
+                                  ? (destinations[i].selectedIcon ??
+                                      destinations[i].icon)
                                   : destinations[i].icon,
                             ),
                           ),
