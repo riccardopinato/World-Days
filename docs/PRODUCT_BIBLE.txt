@@ -10,7 +10,7 @@ Store subtitle: Discover what the world celebrates today
 Positioning: visual, daily-return consumer app for international/world observances.
 Primary language: English.
 Launch locales: en, it, es, fr, de, pt.
-Platforms: Android, iOS, Flutter Web Preview.
+Platforms: Android production v1 + Flutter Web Preview. iOS production release is post-v1.
 Core promise: open the app and understand in seconds what is observed today, why it exists, who recognizes it, and what is coming next.
 
 2. PRODUCT PRINCIPLES
@@ -192,20 +192,23 @@ Target lightweight ARM64 build; no local LLM/model pack.
 - seasonal collections after v1/editorial coverage expansion
 
 10. MONETIZATION
-AdMob mobile only; Web Preview uses no-op/mock boundary.
-Primary formats:
-- Large Anchored Adaptive banner in dedicated safe slots
-- Inline Adaptive ads in long discovery/calendar feeds
-- Interstitial only at natural completion points such as a completed quiz/session, with internal frequency caps
-Do not show interstitials on launch, tab switch, Back, article open, settings, or notification deep-link.
+AdMob mobile only; Web Preview uses a no-op boundary.
+V1 production format:
+- one Large Anchored Adaptive top banner in the dedicated safe slot.
+
+V1 does NOT ship Inline Adaptive or Interstitial placements. Those remain post-v1 candidates and require their own UX/policy/physical validation before activation.
 Debug/QA/manual testing uses test ads only.
 UMP consent is refreshed each launch and ad requests wait for canRequestAds().
-No-Ads purchase target: lifetime EUR 2.99 (final store price can be localized).
+No-Ads purchase target: lifetime one-time product around EUR 2.99; the final displayed price is supplied/localized by Google Play.
+Remove Ads must suppress the ad request itself, not merely hide a loaded ad.
 No core content paywall in v1.
 
 11. ANALYTICS / PRODUCT KPIs
-Events: app_open, today_view, observance_open, favorite, reminder_set, share, random_open, quiz_start, quiz_complete, search, filter, notification_tap, ad_loaded, ad_impression, ad_failed, remove_ads_purchase.
-Primary KPIs: D1/D7/D30 retention, DAU/MAU, sessions/DAU, observances opened/session, notification opt-in and tap rate, favorite/share rate, quiz completion, ad impressions/DAU, ARPDAU, crash-free users.
+V1 does not include a separate first-party analytics SDK, remote event pipeline, or user-account measurement backend.
+The event/KPI taxonomy remains a post-v1 measurement plan and is not a claim about current production collection.
+Advertising/billing providers may process their own operational, diagnostic or measurement data under their policies and the final store/privacy declarations.
+Post-v1 candidate events: app_open, today_view, observance_open, favorite, reminder_set, share, random_open, quiz_start, quiz_complete, search, filter, notification_tap, ad_loaded, ad_impression, ad_failed, remove_ads_purchase.
+Post-v1 candidate KPIs: D1/D7/D30 retention, DAU/MAU, sessions/DAU, observances opened/session, notification opt-in/tap rate, favorite/share rate, quiz completion, ad impressions/DAU, ARPDAU and crash-free users.
 
 12. GOLDEN ASSEMBLY
 COPY-READY to copy/parameterize now:
@@ -249,8 +252,8 @@ Favorites, recent history, daily/weekly loops, random discovery, quiz, streak, l
 STEP 6 — Localization & Market Layer
 Full UI en/it/es/fr/de/pt; content pack translation pipeline; separate locale from country/market; country/regional observance filtering.
 
-STEP 7 — AdMob + Consent + Measurement
-UMP, adaptive banner/inline placements, conservative interstitial controller, test traffic, analytics, no-ads entitlement, app-ads.txt/store readiness.
+STEP 7 — AdMob + Consent + Remove Ads
+UMP, safe top adaptive banner, test traffic, lifetime Remove Ads entitlement and store-readiness boundaries. Inline/interstitial formats and first-party analytics are post-v1.
 
 STEP 8 — Updatable Content Packs
 Bundled fallback + optional remote versioned catalog packs with manifest/checksum/staged activation/rollback; annual theme overrides.
@@ -259,6 +262,9 @@ STEP 9 — QA / Release
 Analyze/test/build, Web Preview visual QA, AppLab/runtime, notification physical validation, release signing, exact-artifact SHA-256, Store Ready gates.
 
 14. V1 NON-GOALS
+- iOS production/App Store release
+- first-party analytics/event pipeline
+- inline/interstitial ad formats
 - mandatory account/login
 - social network/comments
 - user-generated observance publishing
