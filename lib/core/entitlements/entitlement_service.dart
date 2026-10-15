@@ -126,6 +126,16 @@ class EntitlementService extends ChangeNotifier {
       _flowState = result.state;
       _lastError = null;
       notifyListeners();
+
+      try {
+        await _billing.completePurchase(result);
+      } catch (error) {
+        // Entitlement delivery already succeeded. Keep access and surface the
+        // provider-finalization issue for diagnostics/retry rather than
+        // revoking a user-owned purchase.
+        _lastError = 'billing_complete:$error';
+        notifyListeners();
+      }
       return;
     }
 
