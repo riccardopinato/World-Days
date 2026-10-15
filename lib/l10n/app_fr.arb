@@ -157,5 +157,6 @@
   "purchaseCancelled": "Achat annulé.",
   "purchaseFailed": "Impossible de finaliser l’achat.",
   "restoreSucceeded": "Suppression des publicités restaurée.",
-  "billingUnavailable": "L’achat via la boutique est actuellement indisponible."
+  "billingUnavailable": "L’achat via la boutique est actuellement indisponible.",
+  "restoreChecked": "Vérification de restauration terminée. Si un achat éligible est trouvé, la suppression des publicités sera débloquée automatiquement."
 }
