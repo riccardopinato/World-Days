@@ -68,7 +68,7 @@ void main() {
 
     expect(find.text('Global Test Day'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('Italy Test Day').first,
+      find.text('Italy Test Day'),
       180,
       scrollable: find.byType(Scrollable).first,
     );
@@ -84,7 +84,7 @@ void main() {
 
     expect(find.text('Global Test Day'), findsNothing);
     await tester.scrollUntilVisible(
-      find.text('Italy Test Day').first,
+      find.text('Italy Test Day'),
       180,
       scrollable: find.byType(Scrollable).first,
     );
