@@ -119,7 +119,7 @@ class TodayPage extends StatelessWidget {
                   const SizedBox(height: 12),
                 ],
               ],
-              if (editorial != null) ...[
+              if (primary != null) ...[
                 const SizedBox(height: 24),
                 _SectionTitle(l10n.todayIn30Seconds),
                 Card(
