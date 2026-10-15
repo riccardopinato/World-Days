@@ -49,6 +49,7 @@ jobs:
         run: |
           python3 tool/validate_native_retention.py
           python3 tool/validate_native_monetization.py
+          python3 tool/validate_native_content_pack.py
 
       - name: Resolve dependencies
         run: flutter pub get
