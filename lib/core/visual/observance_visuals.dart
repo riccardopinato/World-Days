@@ -283,7 +283,7 @@ class ObservanceArtwork extends StatelessWidget {
                     ),
                   ),
                 ),
-                if (foreground != null) foreground!,
+                ?foreground,
               ],
             );
           },
