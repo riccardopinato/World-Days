@@ -2,11 +2,38 @@
 
 Execution truth for the repository. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
+Audit baseline: `245f82148c1ca5ceee0977b82bf51a21b5b76a12`  
+Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
+
+## Current release state
+
+World Days is technically healthy but **NOT Store Ready**.
+
+Post-Phase-G evidence on main:
+- Development checks: analyze + 41 Flutter tests + Web release + Android ARM64 build PASS.
+- GitHub Pages deployment PASS.
+- Generated remote catalog: 296 records / 297 2026 occurrences.
+- ARM64 internal release gate: ~24.1 MB.
+- Permanent Android signing + production AdMob/UMP have prior physical evidence.
+
+Important: the previous production/physical evidence predates the current Phase-G main SHA. Final certification must use a new exact candidate artifact.
+
+## Critical path to v1
+
+Blocking sequence:
+
+**B → C → E → F → G.1 → I → J → K**
+
+Phase D/H work can proceed in parallel where it does not destabilize the release candidate.
+
+---
+
 ## Completed foundation
 
 Steps 1–8.2 established the Flutter/CI baseline, canonical catalog, multilingual titles, market layer, visual system and share cards.
 
 ### Step 9 — Retention / native layer
+
 Implementation complete:
 - timezone-aware inexact local scheduling with stable IDs;
 - daily/weekly/favorite/category reminder plans;
@@ -16,124 +43,298 @@ Implementation complete:
 - generated Android/iOS native setup and CI validation.
 
 Open release evidence:
-- exact-artifact physical notification/deep-link/widget QA remains required.
+- exact-artifact physical notification/deep-link/widget QA remains required in Phase F.
 
 ### Step 10.1 — AdMob / UMP / permanent Android release identity ✅
+
 Completed and physically validated on Android:
 - permanent signing identity and production signer verification;
 - production APK + AAB workflow;
-- UMP consent appears on clean state;
-- deny-consent path verified;
-- Privacy Choices reopens and allows changing the decision;
-- production adaptive banner loads;
-- public Privacy Policy published.
+- UMP consent on clean state;
+- deny-consent path;
+- Privacy Choices/revocation;
+- production adaptive banner serving;
+- public Privacy Policy.
 
-## Post-audit completion roadmap — 2026-10-15
+The integration remains valid, but current-main exact-artifact certification is reopened by later code changes and belongs to Phase J.
 
-The app is NOT Store Ready until the gates below are closed.
+---
 
-### Phase A — Functional UX fixes — IN PROGRESS
-- [x] Around the World browsing no longer mutates the user's profile market.
-- [x] Today primary hero is interactive and no longer immediately duplicated.
+## Phase A — Consumer UX alignment — NEAR COMPLETE
+
+Completed:
+- [x] Around the World browsing does not mutate profile market.
+- [x] Today primary hero is interactive and not duplicated immediately.
 - [x] Up Next shows occurrence dates.
-- [x] Calendar adds weekday headers, Today jump and current-day affordance.
-- [x] Catalog load failure exposes a retry path.
-- [x] Improve source-card provenance UX and preserve verification metadata.
-- [ ] Finish remaining consumer error/empty states.
+- [x] Calendar has weekday headers, Today jump and current-day affordance.
+- [x] Catalog load failure exposes Retry.
+- [x] Source-card provenance preserves verification metadata.
 
-### Phase B — Data/runtime structural fixes — IN PROGRESS
-- [x] Cache yearly occurrences and date indexes instead of recomputing per calendar cell.
-- [x] Include previous-year carry-over ranges when indexing a year.
-- [x] Introduce deterministic primary-observance ranking.
-- [x] Separate semantic categories from `visualKey`.
-- [x] Migrate category reminders from visual keys to semantic categories with legacy preference migration.
-- [x] Expose all visual collections and complete officiality filters in Discover.
-- [x] Align runtime recurrence support with LAST_DAY_OF_MONTH and ONE_OFF.
-- [x] Align the data contract with the actual recurrence representation.
-- [x] Represent unresolved authority/lunar dates explicitly in future-year UI instead of silently disappearing.
+Open:
+- [ ] Align Saved IA with Product Bible: either surface followed categories/reminder subscriptions in Saved or formally move that responsibility to Settings in product truth.
+- [ ] Add an explicit Around-the-World empty state before market coverage expands.
+- [ ] Replace the arbitrary Italy default for GLOBAL users with an explicit transient browse-market choice or another documented neutral rule.
+- [ ] Final consumer copy/error-state sweep for content update, billing-unavailable and offline cases.
 
-### Phase C — Editorial completion — BLOCKING
-Current reviewed editorial coverage: 28 / 296.
-- [x] Extend editorial schema to include hook, Why this date, Origin/history, quick facts and related observances; annual campaign themes are consumed from year overrides.
+## Phase B — Data/runtime acceptance — BLOCKING BEFORE CERTIFICATION
+
+Completed:
+- [x] Cache yearly occurrences and date indexes.
+- [x] Include previous-year carry-over ranges.
+- [x] Deterministic primary-observance ranking.
+- [x] Semantic categories separated from `visualKey`.
+- [x] Legacy visual-key reminder migration to semantic categories.
+- [x] Visual collections and officiality filters.
+- [x] Runtime/data-contract support for LAST_DAY_OF_MONTH and ONE_OFF.
+- [x] Explicit unresolved authority/lunar future dates.
+- [x] Runtime source verification metadata preserved.
+
+Audit-required hardening:
+- [ ] Add full-catalog occurrence acceptance for **2026, 2027 and 2028**, not only representative recurrence vectors.
+- [ ] Enforce in `validate_dataset.py` that every publishable record has at least one source.
+- [ ] Enforce non-empty `lastVerifiedAt` for every publishable record.
+- [ ] Add no-duplicate occurrence invariant for observance/date/rule across generated years.
+- [ ] Add cross-year range acceptance coverage to the full-catalog gate.
+
+## Phase C — Editorial completion — BLOCKING
+
+Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
+
+- [x] Extended editorial schema: hook, Why this date, Origin/history, quick facts, related observances.
+- [x] Annual campaign themes consumed from year overrides.
 - [ ] Complete original English editorial coverage for all launch records.
-- [ ] Review primary-source grounding and provenance.
+- [ ] Review primary/originator grounding and provenance for every reviewed article.
 - [ ] Translate reviewed editorial content to IT/ES/FR/DE/PT.
-- [ ] Replace generic placeholders with explicit fallback states only where evidence is intentionally pending.
+- [ ] Replace generic editorial-coming-next states only when reviewed source-backed content exists.
+- [ ] Re-run locale parity/editorial validators at 100% target coverage.
 
-### Phase D — Today / Calendar / Discover completion
+## Phase D — Today / Calendar / Discover / market completion
+
 - [x] Today in 30 seconds for reviewed editorial entries.
 - [x] Daily quiz / lightweight learning loop.
 - [x] Tomorrow preview.
 - [x] Calendar officiality/category/scope/country filters.
-- [x] Upcoming 7 / 30 days views.
-- [ ] Decide whether day/week modes add enough value for v1.
-- [ ] Expand Around the World national coverage beyond the current thin seed.
-- [ ] Keep locale and market independent in every flow.
+- [x] Upcoming 7 / 30 days.
+- [x] Random discovery and themed collections.
+- [ ] Decide whether day/week calendar modes add enough value for v1; otherwise remove that v1 expectation from Product Bible.
+- [ ] Expand Around the World national coverage beyond the thin launch seed.
+- [ ] Keep locale and market independent in every new flow.
+- [ ] Add seasonal collection curation only after editorial coverage is sufficiently broad.
 
-### Phase E — Remove Ads lifetime entitlement — BLOCKING
-- [x] Provider-agnostic entitlement contract, persistent lifetime cache and centralized ProductLimits.
-- [x] Official Flutter in_app_purchase store adapter for a one-time non-consumable Remove Ads product.
-- [ ] Create/activate Play one-time product `world_days_remove_ads_lifetime` and localized pricing (target EUR 2.99).
-- [x] Purchase-stream, restore, pending/cancel/error and post-delivery completePurchase paths implemented.
-- [ ] Sandbox billing QA on an internal Play testing build, including reinstall/restore.
-- [x] Entitled users suppress the ad request itself, not merely hide the banner.
-- [x] Settings purchase/status UX is wired to the entitlement boundary and only appears after the store product resolves.
-- [ ] Reassess client-only verification risk before adding any higher-value/account-bound monetization.
+## Phase E — Remove Ads lifetime entitlement — BLOCKING
 
-### Phase F — Retention physical QA — BLOCKING
-- [ ] Immediate notification on exact production candidate.
-- [ ] Scheduled notification.
+Implemented:
+- [x] Provider-agnostic entitlement contract.
+- [x] Persistent lifetime cache and centralized ProductLimits.
+- [x] Official Flutter `in_app_purchase` adapter.
+- [x] Purchase stream / restore / pending / cancel / error handling.
+- [x] Entitled users suppress the ad request itself.
+- [x] Settings purchase/status UX is connected to the entitlement boundary.
+
+Store work:
+- [ ] Create and activate Play one-time product `world_days_remove_ads_lifetime`.
+- [ ] Review localized pricing around target EUR 2.99.
+- [ ] Upload production-signed AAB to Play internal testing.
+- [ ] Add license/internal tester configuration.
+
+Audit blocker — provider finalization:
+- [ ] Add durable/idempotent `completePurchase` recovery after completion failure or process restart.
+- [ ] Ensure cached lifetime entitlement does not prevent recovery of an unfinished Play transaction.
+- [ ] Add automated tests for failed completion → restart → retry → completed transaction.
+
+Sandbox evidence:
+- [ ] Product resolves with Play-localized price.
+- [ ] Successful test purchase unlocks Remove Ads.
+- [ ] Pending/cancel/error never unlock.
+- [ ] Existing banner disappears and later ad requests are suppressed.
+- [ ] Restart preserves entitlement.
+- [ ] Reinstall/clear-local-state restore succeeds.
+- [ ] Purchase is completed/acknowledged without repeat delivery.
+
+Risk boundary:
+- [ ] Reassess client-only verification before any higher-value/account-bound monetization.
+
+## Phase F — Retention physical QA — BLOCKING
+
+Run on the exact release candidate:
+
+- [ ] Notification permission-denied behavior.
+- [ ] Immediate diagnostic notification.
+- [ ] Scheduled diagnostic notification.
+- [ ] Daily/favorite/category notification delivery.
 - [ ] Notification tap/deep link.
-- [ ] Reboot/app-update reconciliation.
-- [ ] Home Widget add/update/date rollover.
+- [ ] Channel-disabled diagnostic.
+- [ ] Reboot reconciliation.
+- [ ] N → N+1 app-update reconciliation.
+- [ ] Home Widget add/pin.
+- [ ] Widget current content.
+- [ ] Widget date rollover.
+- [ ] Widget locale/market refresh.
 - [ ] Widget tap/deep link.
-- [x] Add a rolling generic daily fallback after the 21-day tailored reminder horizon.
+- [x] Rolling generic daily fallback beyond the tailored 21-day horizon.
 
-### Phase G — Remote Content Pack v1 ✅
-- [x] Bundled catalog remains immutable fallback.
-- [x] Versioned remote manifest hosted with the GitHub Pages content channel.
-- [x] Bounded HTTPS payload, byte-size and SHA-256 integrity verification.
-- [x] Staged download plus full World Days catalog/domain validation before activation.
-- [x] Crash-resilient active/previous pointer swap after verified file staging.
-- [x] Rollback to last-known-good and bundled fallback when stored content is invalid.
-- [x] Annual campaign/theme and authoritative date overrides travel through the canonical pack.
-- [x] Offline, manifest-network, payload-network, checksum and corrupt-active rollback tests.
-- [x] Settings exposes mobile check/install/status controls; Web remains explicitly bundled-only.
+Evidence must record source SHA, APK SHA-256, device and Android version.
 
-### Phase H — Code hygiene / QA expansion
-- [x] Remove obsolete `synthetic-package` l10n option.
-- [x] Split notification diagnostics from the main consumer Settings surface.
-- [x] Preserve source verification metadata in the runtime model.
-- [ ] Expand AppController / Settings / Calendar / Around-the-World tests.
-- [ ] Add monetization state tests where platform boundaries permit.
-- [ ] Add maintained integration smoke test.
-- [ ] Review dependency warnings for Flutter/Kotlin plugin migration.
-- [x] Allow users to choose the weekly reminder weekday.
+## Phase G — Remote Content Pack v1 ✅
 
-### Phase I — Governance / identity alignment — IN PROGRESS
-- [x] Canonical Android application ID fixed to `com.riccardopinato.world_days` in product truth.
-- [x] Repository Factory baseline aligned to `5f6b2489df2ac85fb85ccfea059983a090689de4`.
-- [ ] Update README, signing/AdMob docs and Golden reuse manifest to the post-production state.
-- [ ] Establish release versioning policy.
-- [ ] Protect `main` with required green checks/ruleset before store release.
+Core implementation complete:
+- [x] Immutable bundled fallback.
+- [x] Versioned manifest on GitHub Pages.
+- [x] HTTPS, expected byte size and SHA-256 verification.
+- [x] Full World Days catalog/domain validation before activation.
+- [x] Versioned staged storage.
+- [x] Crash-resilient active/previous pointer.
+- [x] Rollback to previous verified content.
+- [x] Bundled fallback after invalid stored state.
+- [x] Annual campaign/theme and authoritative date overrides.
+- [x] Settings check/install/status UX.
+- [x] Offline/network/checksum/corrupt-active tests.
+- [x] Web explicitly remains bundled-only.
 
-### Phase J — Exact-artifact regression / certification
-- [ ] Generate release candidate APK + AAB.
-- [ ] Verify signer SHA-256 and artifact hashes.
-- [ ] Full offline/navigation/search/favorites/share/localization regression.
-- [ ] Accessibility and large-text regression.
-- [ ] Upgrade/install-in-place check.
-- [ ] Final CERTIFIED / NOT CERTIFIED evidence bundle.
+### Phase G.1 — Remote content hardening — BLOCKING BEFORE FINAL CERTIFICATION
 
-### Phase K — Store readiness — FINAL ONLY
-Do not start until Phases C, E, F and J are closed.
-- [ ] app-ads.txt.
-- [ ] Play Console app setup.
-- [ ] Data Safety.
-- [ ] Store listing/localizations.
-- [ ] Screenshots/feature graphic/icon verification.
-- [ ] Production rollout plan.
+Audit findings:
+- [ ] Restrict runtime `payloadUrl` to the approved `riccardopinato.github.io/World-Days/content/` origin/path instead of accepting any HTTPS host.
+- [ ] Replace fully buffered payload download with streamed/hard-capped download so the actual response cannot exceed the configured pack limit in memory.
+- [ ] Add `validate_content_pack.py` to Signed Android QA.
+- [ ] Add `validate_content_pack.py` to Production Android Release.
+- [ ] Add `validate_native_content_pack.py` to Signed Android QA.
+- [ ] Add `validate_native_content_pack.py` to Production Android Release.
+- [ ] Add a post-Pages-deploy smoke check for hosted manifest/payload reachability and checksum agreement.
+- [ ] Keep signed-manifest cryptography as a future escalation only if the hosting/threat model changes.
+
+## Phase H — Code hygiene / automated QA expansion
+
+Completed:
+- [x] Obsolete synthetic-package l10n option removed.
+- [x] Notification diagnostics split from consumer Settings.
+- [x] Source verification metadata preserved.
+- [x] Weekly reminder weekday is user-selectable.
+- [x] Current main passes analyze + 41 Flutter tests + Web + Android ARM64 CI.
+
+Open:
+- [ ] Add maintained `integration_test` smoke: launch → Today → detail → favorite → Saved → Calendar → Settings.
+- [ ] Expand AppController tests with injected entitlement/content/retention fakes.
+- [ ] Add Settings interaction/widget tests.
+- [ ] Add Calendar filter/navigation tests.
+- [ ] Add Around-the-World transient-state tests.
+- [ ] Add Saved/detail navigation tests.
+- [ ] Add monetization-controller tests behind a fake consent/ads boundary where practical.
+- [ ] Add billing-adapter lifecycle tests including finalization recovery.
+- [ ] Add filesystem content-pack storage tests.
+- [ ] Add deterministic notification/widget adapter tests where platform abstraction permits.
+- [ ] Review Flutter/Kotlin/dependency migration warnings before final freeze.
+- [ ] Split oversized orchestration/UI files when touching them next: `AppController`, Settings and Calendar first.
+- [ ] Final accessibility automation expansion: semantics, focus order and touch-target checks.
+
+## Phase I — Governance / product-truth / privacy alignment — BLOCKING
+
+Completed:
+- [x] Canonical Android ID is `com.riccardopinato.world_days`.
+- [x] App Factory baseline aligned to `5f6b2489df2ac85fb85ccfea059983a090689de4`.
+- [x] README, Android signing, AdMob docs and Golden reuse manifest reflect current subsystem state.
+- [x] Post-Phase-G audit recorded.
+
+Governance:
+- [ ] Define release version-name / version-code policy.
+- [ ] Define release tag/changelog/evidence convention.
+- [ ] Protect `main` with required green checks / PR rules where repository permissions allow.
+- [ ] Restrict Production Android Release to approved `main`/release-tag source identity.
+
+Product-truth decisions:
+- [ ] Decide **Android-first v1 + Web Preview** versus full Android+iOS v1.
+- [ ] If Android-first is selected, move iOS production release to post-v1 in Product Bible.
+- [ ] If iOS remains in v1, add production iOS AdMob ID, signing, App Store pipeline and physical QA.
+- [ ] Resolve monetization scope mismatch: top banner only vs Product Bible inline/interstitial formats.
+- [ ] Resolve analytics scope mismatch: explicitly defer v1 analytics or implement a privacy-reviewed measurement boundary.
+- [ ] Resolve Saved IA mismatch from Phase A.
+
+Privacy:
+- [ ] Update public Privacy Policy for Play billing / purchase processing.
+- [ ] Update policy for mobile GitHub Pages remote-content requests.
+- [ ] Update `Last updated` date and redeploy.
+- [ ] Freeze final privacy/Data Safety inputs only after analytics and platform scope decisions.
+
+## Phase J — Exact-artifact regression / release certification — BLOCKING
+
+Release candidate:
+- [ ] Freeze source SHA after blocking phases are closed.
+- [ ] Generate production APK + AAB from the approved source.
+- [ ] Verify permanent direct-APK signer SHA-256.
+- [ ] Capture APK/AAB SHA-256.
+- [ ] Verify production workflow source identity.
+- [ ] Run N → N+1 update-in-place using two permanent-signature builds.
+
+Play identity:
+- [ ] Configure/confirm Play App Signing.
+- [ ] Record upload certificate fingerprint.
+- [ ] Record Play app-signing certificate fingerprint.
+- [ ] Confirm expected distinction from direct-distribution signing where applicable.
+
+Regression:
+- [ ] Full offline startup/navigation.
+- [ ] Today/Calendar/Discover/Saved/Settings.
+- [ ] Search/filter/market/localization.
+- [ ] Favorites/recents/streak.
+- [ ] Share cards.
+- [ ] Remote content update/rollback/offline fallback.
+- [ ] AdMob consent/banner/Privacy Choices.
+- [ ] Remove Ads Play sandbox.
+- [ ] Retention physical QA.
+- [ ] Accessibility/large-text/screen-reader/focus regression.
+- [ ] Upgrade/install-in-place regression.
+- [ ] Crash-free smoke over repeated cold/warm launches.
+
+Evidence:
+- [ ] Build final Evidence Bundle.
+- [ ] Verdict: **CERTIFIED / NOT CERTIFIED / BLOCKED**.
+
+## Phase K — Store readiness — FINAL ONLY
+
+Do not start final submission until C, E, F, G.1, I and J are closed.
+
+Developer website / app-ads:
+- [ ] Choose final developer website hostname.
+- [ ] Publish the exact AdMob-provided `app-ads.txt` snippet at **hostname root**.
+- [ ] Do not rely only on `/World-Days/app-ads.txt`; AdMob resolves the store developer-site hostname and checks `/app-ads.txt`.
+- [ ] Link the same developer website in Play listing.
+- [ ] Verify AdMob crawler status after publication.
+
+Play Console:
+- [ ] App setup / package association.
+- [ ] Internal test release and billing evidence.
+- [ ] Data Safety aligned to final SDK/network set.
+- [ ] Content rating / target audience / ads declarations.
+- [ ] Store listing EN canonical + planned localizations.
+- [ ] Screenshots.
+- [ ] Feature graphic.
+- [ ] Icon verification.
+- [ ] Privacy Policy URL.
+- [ ] Support/developer website.
+- [ ] Production rollout/staged rollout plan.
+
+If iOS remains in v1:
+- [ ] Add equivalent App Store Connect readiness track before final certification.
+
+---
+
+## Post-v1 candidates
+
+- Broader national/regional market coverage.
+- iOS production release if v1 becomes Android-first.
+- Analytics/KPI pipeline if intentionally deferred from v1.
+- Inline adaptive ads / conservative completion-point interstitials if intentionally deferred.
+- Additional seasonal collections.
+- Optional signed content manifests only if threat model requires them.
 
 ## Release policy
 
-A green CI build is necessary but not sufficient. World Days is publishable only after the exact candidate artifact satisfies the physical and evidence gates above.
+Green CI is necessary but not sufficient.
+
+World Days is publishable only when the **same exact candidate** satisfies:
+1. automated gates,
+2. store/provider sandbox gates,
+3. physical-device gates,
+4. signer/artifact identity evidence,
+5. privacy/store metadata consistency,
+6. final Evidence Bundle verdict.
