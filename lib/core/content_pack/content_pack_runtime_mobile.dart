@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
@@ -63,17 +62,10 @@ class _HttpContentPackTransport implements ContentPackTransport {
       throw const FormatException('content_payload_exceeds_byte_cap');
     }
 
-    final buffer = BytesBuilder(copy: false);
-    var received = 0;
-    await for (final chunk
-        in response.stream.timeout(const Duration(seconds: 30))) {
-      received += chunk.length;
-      if (received > maxBytes) {
-        throw const FormatException('content_payload_exceeds_byte_cap');
-      }
-      buffer.add(chunk);
-    }
-    return buffer.takeBytes();
+    return collectBoundedContentBytes(
+      response.stream.timeout(const Duration(seconds: 30)),
+      maxBytes: maxBytes,
+    );
   }
 
   @override
