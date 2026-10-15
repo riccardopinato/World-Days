@@ -158,5 +158,16 @@
   "purchaseFailed": "Impossibile completare l'acquisto.",
   "restoreSucceeded": "Rimozione pubblicità ripristinata.",
   "billingUnavailable": "L'acquisto dallo store non è al momento disponibile.",
-  "restoreChecked": "Controllo ripristino completato. Se viene trovato un acquisto idoneo, Rimuovi pubblicità si sbloccherà automaticamente."
+  "restoreChecked": "Controllo ripristino completato. Se viene trovato un acquisto idoneo, Rimuovi pubblicità si sbloccherà automaticamente.",
+  "contentUpdates": "Aggiornamenti contenuti",
+  "contentUsingBundled": "Stai usando il catalogo integrato.",
+  "contentChecking": "Controllo aggiornamenti del catalogo…",
+  "contentUpdateAvailable": "È disponibile un aggiornamento verificato del catalogo.",
+  "contentDownloading": "Download aggiornamento catalogo…",
+  "contentVerifying": "Verifica integrità del catalogo…",
+  "contentUpToDate": "Il catalogo attivo è aggiornato.",
+  "checkForUpdates": "Controlla aggiornamenti",
+  "installUpdate": "Installa aggiornamento",
+  "contentUpdateInstalled": "Aggiornamento catalogo installato.",
+  "contentUpdateFailed": "Impossibile installare l'aggiornamento del catalogo."
 }

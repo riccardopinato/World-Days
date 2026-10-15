@@ -89,15 +89,16 @@ Current reviewed editorial coverage: 28 / 296.
 - [ ] Widget tap/deep link.
 - [x] Add a rolling generic daily fallback after the 21-day tailored reminder horizon.
 
-### Phase G — Remote Content Pack v1 — BLOCKING BEFORE LONG-TERM CONTENT OPERATIONS
-- [ ] Bundled catalog remains immutable fallback.
-- [ ] Versioned remote manifest.
-- [ ] Checksum/integrity verification.
-- [ ] Staged download and validation.
-- [ ] Atomic activation.
-- [ ] Rollback to last-known-good.
-- [ ] Annual campaign/theme override channel.
-- [ ] Offline/network-failure tests.
+### Phase G — Remote Content Pack v1 ✅
+- [x] Bundled catalog remains immutable fallback.
+- [x] Versioned remote manifest hosted with the GitHub Pages content channel.
+- [x] Bounded HTTPS payload, byte-size and SHA-256 integrity verification.
+- [x] Staged download plus full World Days catalog/domain validation before activation.
+- [x] Crash-resilient active/previous pointer swap after verified file staging.
+- [x] Rollback to last-known-good and bundled fallback when stored content is invalid.
+- [x] Annual campaign/theme and authoritative date overrides travel through the canonical pack.
+- [x] Offline, manifest-network, payload-network, checksum and corrupt-active rollback tests.
+- [x] Settings exposes mobile check/install/status controls; Web remains explicitly bundled-only.
 
 ### Phase H — Code hygiene / QA expansion
 - [x] Remove obsolete `synthetic-package` l10n option.

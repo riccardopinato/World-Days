@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_initializing_formals
+
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -12,14 +14,15 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
   InAppPurchaseBillingAdapter({
     InAppPurchase? store,
     String? productId,
-  })  : _store = store ?? InAppPurchase.instance,
+  })  : _store = store,
         _productId = productId ??
             const String.fromEnvironment(
               'WORLD_DAYS_REMOVE_ADS_PRODUCT_ID',
               defaultValue: 'world_days_remove_ads_lifetime',
             );
 
-  final InAppPurchase _store;
+  InAppPurchase? _store;
+  InAppPurchase get _storeClient => _store ??= InAppPurchase.instance;
   final String _productId;
   final StreamController<BillingResult> _updates =
       StreamController<BillingResult>.broadcast();
@@ -43,7 +46,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
 
   Future<void> _ensurePurchaseListener() async {
     if (_purchaseSubscription != null || !supported || _disposed) return;
-    _purchaseSubscription = _store.purchaseStream.listen(
+    _purchaseSubscription = _storeClient.purchaseStream.listen(
       (items) => unawaited(_handlePurchases(items)),
       onError: (Object error) {
         if (_disposed) return;
@@ -63,11 +66,11 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
     if (!supported || _disposed) return null;
 
     try {
-      _storeAvailable = await _store.isAvailable();
+      _storeAvailable = await _storeClient.isAvailable();
       if (!_storeAvailable) return null;
 
       await _ensurePurchaseListener();
-      final response = await _store.queryProductDetails({_productId});
+      final response = await _storeClient.queryProductDetails({_productId});
       if (response.error != null ||
           response.notFoundIDs.contains(_productId)) {
         return null;
@@ -114,7 +117,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
 
     await _ensurePurchaseListener();
     try {
-      final started = await _store.buyNonConsumable(
+      final started = await _storeClient.buyNonConsumable(
         purchaseParam: PurchaseParam(productDetails: product),
       );
       return BillingResult(
@@ -142,7 +145,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
     }
 
     try {
-      _storeAvailable = await _store.isAvailable();
+      _storeAvailable = await _storeClient.isAvailable();
       if (!_storeAvailable) {
         return BillingResult(
           state: PurchaseFlowState.billingUnavailable,
@@ -151,7 +154,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
         );
       }
       await _ensurePurchaseListener();
-      await _store.restorePurchases();
+      await _storeClient.restorePurchases();
       return BillingResult(
         state: PurchaseFlowState.ready,
         productId: _productId,
@@ -249,7 +252,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
     if (transactionId == null) return;
     final purchase = _awaitingCompletion[transactionId];
     if (purchase == null || !purchase.pendingCompletePurchase) return;
-    await _store.completePurchase(purchase);
+    await _storeClient.completePurchase(purchase);
     _awaitingCompletion.remove(transactionId);
   }
 

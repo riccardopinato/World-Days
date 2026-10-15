@@ -123,3 +123,29 @@ World Days boundary:
   it does not claim server-side receipt/token verification.
 Provider verification: 2026-10-15.
 Current package support noted during verification: Android SDK 24+, iOS 13+.
+
+
+14. crypto 3.0.7
+URL: https://pub.dev/packages/crypto/versions/3.0.7
+License: BSD-3-Clause
+Decision: DIRECT RUNTIME DEPENDENCY for SHA-256 verification of downloaded
+catalog packs before activation.
+Provider verification: locked by pubspec.lock on 2026-10-15.
+
+15. http 1.6.0
+URL: https://pub.dev/packages/http/versions/1.6.0
+License: BSD-3-Clause
+Decision: DIRECT RUNTIME DEPENDENCY for bounded HTTPS manifest/payload
+retrieval on supported mobile platforms.
+World Days boundary: fixed HTTPS content channel; manifest/payload failures
+must preserve the current or bundled catalog.
+Provider verification: locked by pubspec.lock on 2026-10-15.
+
+16. path_provider 2.1.6
+URL: https://pub.dev/packages/path_provider/versions/2.1.6
+License: BSD-3-Clause
+Decision: DIRECT RUNTIME DEPENDENCY for application-support storage of
+versioned catalog packs and active/previous pointer metadata.
+World Days boundary: pack storage never contains user-owned preferences,
+favorites, streaks or purchase entitlements.
+Provider verification: locked by pubspec.lock on 2026-10-15.

@@ -2,6 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../core/content_pack/content_pack_manager.dart';
+import '../core/content_pack/content_pack_models.dart';
+import '../core/content_pack/content_pack_runtime.dart';
 import '../core/entitlements/entitlement_models.dart';
 import '../core/entitlements/entitlement_service.dart';
 import '../core/monetization/monetization_controller.dart';
@@ -23,8 +26,13 @@ final class AppController extends ChangeNotifier {
     WorldDaysHomeWidgetService? homeWidgetService,
     MonetizationController? monetizationController,
     EntitlementService? entitlementService,
+    ContentPackManager? contentPackManager,
   })  : monetization = monetizationController ?? MonetizationController(),
         entitlements = entitlementService ?? EntitlementService(),
+        contentPacks = contentPackManager ??
+            createContentPackManager(
+              validator: CatalogRepository.validateContentPackPayload,
+            ),
         _catalogRepository = catalogRepository ?? const CatalogRepository(),
         _preferencesRepository =
             preferencesRepository ?? PreferencesRepository(),
@@ -35,6 +43,7 @@ final class AppController extends ChangeNotifier {
 
   final MonetizationController monetization;
   final EntitlementService entitlements;
+  final ContentPackManager contentPacks;
   final CatalogRepository _catalogRepository;
   final PreferencesRepository _preferencesRepository;
   final NotificationService _notificationService;
@@ -64,6 +73,17 @@ final class AppController extends ChangeNotifier {
       entitlements.addListener(_onEntitlementChanged);
       _entitlementListenerAttached = true;
     }
+    if (!_contentPackListenerAttached) {
+      contentPacks.addListener(_onContentPackChanged);
+      _contentPackListenerAttached = true;
+    }
+
+    try {
+      await contentPacks.initialize();
+    } catch (_) {
+      // Remote content is optional. Bundled assets remain the source fallback.
+    }
+
     try {
       await entitlements.initialize();
       monetization.setAdsSuppressed(entitlements.removesAds);
@@ -73,13 +93,14 @@ final class AppController extends ChangeNotifier {
 
     try {
       final values = await Future.wait([
-        _catalogRepository.load(),
+        _catalogRepository.load(contentPack: contentPacks.activePayload),
         _preferencesRepository.load(),
       ]);
-      catalog = values[0] as CatalogSnapshot;
-      _occurrencesByYear.clear();
-      _occurrenceIndexByYear.clear();
-      _unresolvedByYear.clear();
+      final loadedCatalog = values[0] as CatalogSnapshot;
+      _replaceCatalog(loadedCatalog);
+      if (contentPacks.activePayload == null) {
+        contentPacks.setBundledVersion(loadedCatalog.datasetVersion);
+      }
       preferences = values[1] as UserPreferences;
       await _updateStreak();
     } catch (e) {
@@ -96,6 +117,51 @@ final class AppController extends ChangeNotifier {
 
     loading = false;
     notifyListeners();
+
+    if (error == null && contentPacks.supported) {
+      unawaited(contentPacks.checkForUpdate());
+    }
+  }
+
+  Future<bool> checkContentUpdates() => contentPacks.checkForUpdate();
+
+  Future<bool> installContentUpdate() async {
+    final installed = await contentPacks.installAvailableUpdate();
+    if (!installed) return false;
+
+    try {
+      final next = await _catalogRepository.load(
+        contentPack: contentPacks.activePayload,
+      );
+      _replaceCatalog(next);
+      await _reconcileNativeRetention();
+      notifyListeners();
+      return true;
+    } catch (_) {
+      await contentPacks.rollback();
+      try {
+        final recovered = await _catalogRepository.load(
+          contentPack: contentPacks.activePayload,
+        );
+        _replaceCatalog(recovered);
+      } catch (_) {
+        final bundled = await _catalogRepository.load();
+        _replaceCatalog(bundled);
+        contentPacks.setBundledVersion(bundled.datasetVersion);
+      }
+      await _reconcileNativeRetention();
+      notifyListeners();
+      return false;
+    }
+  }
+
+  ContentPackStatus get contentPackStatus => contentPacks.status;
+
+  void _replaceCatalog(CatalogSnapshot next) {
+    catalog = next;
+    _occurrencesByYear.clear();
+    _occurrenceIndexByYear.clear();
+    _unresolvedByYear.clear();
   }
 
   Future<void> reload() async {
@@ -285,6 +351,7 @@ final class AppController extends ChangeNotifier {
 
   bool _monetizationListenerAttached = false;
   bool _entitlementListenerAttached = false;
+  bool _contentPackListenerAttached = false;
 
   bool get removeAdsEntitled => entitlements.removesAds;
   ProductLimits get productLimits => entitlements.limits;
@@ -581,6 +648,10 @@ final class AppController extends ChangeNotifier {
     if (!loading) notifyListeners();
   }
 
+  void _onContentPackChanged() {
+    if (!loading) notifyListeners();
+  }
+
   @override
   void dispose() {
     _notificationTapSubscription?.cancel();
@@ -591,6 +662,10 @@ final class AppController extends ChangeNotifier {
     if (_entitlementListenerAttached) {
       entitlements.removeListener(_onEntitlementChanged);
     }
+    if (_contentPackListenerAttached) {
+      contentPacks.removeListener(_onContentPackChanged);
+    }
+    contentPacks.dispose();
     entitlements.dispose();
     monetization.dispose();
     super.dispose();

@@ -158,5 +158,16 @@
   "purchaseFailed": "No se pudo completar la compra.",
   "restoreSucceeded": "Quitar anuncios restaurado.",
   "billingUnavailable": "La compra en la tienda no está disponible en este momento.",
-  "restoreChecked": "Comprobación de restauración completada. Si se encuentra una compra válida, Quitar anuncios se desbloqueará automáticamente."
+  "restoreChecked": "Comprobación de restauración completada. Si se encuentra una compra válida, Quitar anuncios se desbloqueará automáticamente.",
+  "contentUpdates": "Actualizaciones de contenido",
+  "contentUsingBundled": "Se está usando el catálogo incluido.",
+  "contentChecking": "Buscando actualizaciones del catálogo…",
+  "contentUpdateAvailable": "Hay una actualización verificada del catálogo.",
+  "contentDownloading": "Descargando actualización del catálogo…",
+  "contentVerifying": "Verificando la integridad del catálogo…",
+  "contentUpToDate": "El catálogo activo está actualizado.",
+  "checkForUpdates": "Buscar actualizaciones",
+  "installUpdate": "Instalar actualización",
+  "contentUpdateInstalled": "Actualización del catálogo instalada.",
+  "contentUpdateFailed": "No se pudo instalar la actualización del catálogo."
 }

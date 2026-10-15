@@ -182,4 +182,23 @@ Applied against Factory baseline 5f6b2489df2ac85fb85ccfea059983a090689de4:
 - production Android signing and AdMob/UMP physical validation are complete;
 - Remove Ads now has a provider-agnostic entitlement/ProductLimits boundary with persistent lifetime cache; the store adapter and sandbox evidence remain open;
 - entitlement state suppresses AdMob requests at the monetization boundary, rather than merely hiding the banner;
-- remote content packs and exact-artifact retention QA remain open gates.
+- Remote Content Pack v1 now applies GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT with HTTPS manifest, bounded payload, SHA-256/domain validation, staged activation, crash-safe active/previous pointer, rollback and immutable bundled fallback;
+- exact-artifact retention QA remains an open gate.
+
+
+I. PHASE G — REMOTE CONTENT PACK V1
+
+Primary Factory guidance:
+- golden/data/GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT.txt
+  Status: DRAFT / CANDIDATE.
+
+World Days implementation:
+- bundled catalog remains the immutable local-first fallback and is not replaced in-place;
+- remote manifest and immutable versioned payload are hosted below the existing GitHub Pages origin;
+- payload activation requires expected byte size, SHA-256 and full World Days catalog parsing/domain validation;
+- pack files are staged separately before the active/previous pointer is switched;
+- pointer backup plus previous verified version provide crash recovery and rollback;
+- user-owned favorites, preferences, streak and entitlement data are outside pack storage;
+- annual campaign/theme and authoritative date overrides ride in the canonical official_core payload;
+- mobile exposes explicit Settings controls; Web intentionally remains bundled-only;
+- tests cover checksum mismatch, manifest/payload network failures, corrupt-active rollback, bundled fallback and unsafe manifest metadata.

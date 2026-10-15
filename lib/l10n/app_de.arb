@@ -158,5 +158,16 @@
   "purchaseFailed": "Kauf konnte nicht abgeschlossen werden.",
   "restoreSucceeded": "Werbung entfernen wiederhergestellt.",
   "billingUnavailable": "Der Store-Kauf ist derzeit nicht verfügbar.",
-  "restoreChecked": "Wiederherstellungsprüfung abgeschlossen. Wenn ein berechtigter Kauf gefunden wird, wird Werbung entfernen automatisch freigeschaltet."
+  "restoreChecked": "Wiederherstellungsprüfung abgeschlossen. Wenn ein berechtigter Kauf gefunden wird, wird Werbung entfernen automatisch freigeschaltet.",
+  "contentUpdates": "Inhaltsaktualisierungen",
+  "contentUsingBundled": "Der integrierte Katalog wird verwendet.",
+  "contentChecking": "Katalogaktualisierungen werden gesucht…",
+  "contentUpdateAvailable": "Eine geprüfte Katalogaktualisierung ist verfügbar.",
+  "contentDownloading": "Katalogaktualisierung wird heruntergeladen…",
+  "contentVerifying": "Katalogintegrität wird geprüft…",
+  "contentUpToDate": "Der aktive Katalog ist aktuell.",
+  "checkForUpdates": "Nach Updates suchen",
+  "installUpdate": "Update installieren",
+  "contentUpdateInstalled": "Katalogaktualisierung installiert.",
+  "contentUpdateFailed": "Katalogaktualisierung konnte nicht installiert werden."
 }

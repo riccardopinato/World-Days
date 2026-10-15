@@ -30,6 +30,8 @@ jobs:
           python3 tool/validate_editorial.py
           python3 tool/build_editorial_locales.py
           python3 tool/validate_editorial_locales.py
+          python3 tool/build_content_pack.py
+          python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
 
@@ -47,6 +49,7 @@ jobs:
         run: |
           python3 tool/validate_native_retention.py
           python3 tool/validate_native_monetization.py
+          python3 tool/validate_native_content_pack.py
 
       - name: Resolve dependencies
         run: flutter pub get

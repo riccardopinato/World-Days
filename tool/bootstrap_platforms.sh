@@ -4,6 +4,7 @@ set -euo pipefail
 python3 tool/build_dataset.py >/dev/null
 python3 tool/build_editorial.py >/dev/null
 python3 tool/build_editorial_locales.py >/dev/null
+python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then
   echo "Flutter is required" >&2
@@ -29,5 +30,6 @@ rm -f test/widget_test.dart
 
 python3 tool/configure_native_retention.py
 python3 tool/configure_native_monetization.py
+python3 tool/configure_native_content_pack.py
 python3 tool/configure_android_signing.py
 

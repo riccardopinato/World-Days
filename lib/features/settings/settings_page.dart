@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/content_pack/content_pack_models.dart';
 import '../../core/entitlements/entitlement_models.dart';
 import '../../core/market_options.dart';
 import '../../l10n/app_localizations.dart';
@@ -74,6 +75,7 @@ class _SettingsPageState extends State<SettingsPage> {
     final showPrivacyChoices =
         widget.controller.monetization.supported &&
         widget.controller.monetization.privacyOptionsRequired;
+    final contentStatus = widget.controller.contentPackStatus;
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.settings)),
@@ -362,6 +364,70 @@ class _SettingsPageState extends State<SettingsPage> {
               ),
             ),
           ],
+          if (widget.controller.contentPacks.supported) ...[
+            const SizedBox(height: 28),
+            _SectionTitle(l10n.contentUpdates),
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Icon(Icons.cloud_download_outlined),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                _contentStatusText(l10n, contentStatus.state),
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .bodyMedium,
+                              ),
+                              if (contentStatus.activeVersion != null) ...[
+                                const SizedBox(height: 6),
+                                Text(
+                                  'v${contentStatus.activeVersion}',
+                                  style: Theme.of(context)
+                                      .textTheme
+                                      .bodySmall,
+                                ),
+                              ],
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 14),
+                    if (contentStatus.state ==
+                        ContentPackState.updateAvailable)
+                      FilledButton.icon(
+                        onPressed: () => _installContentUpdate(context),
+                        icon: const Icon(Icons.system_update_alt_rounded),
+                        label: Text(l10n.installUpdate),
+                      )
+                    else
+                      OutlinedButton.icon(
+                        onPressed: contentStatus.state ==
+                                    ContentPackState.checking ||
+                                contentStatus.state ==
+                                    ContentPackState.downloading ||
+                                contentStatus.state ==
+                                    ContentPackState.verifying
+                            ? null
+                            : () => _checkContentUpdates(context),
+                        icon: const Icon(Icons.refresh_rounded),
+                        label: Text(l10n.checkForUpdates),
+                      ),
+                  ],
+                ),
+              ),
+            ),
+          ],
           if (showRemoveAds || showPrivacyChoices) ...[
             const SizedBox(height: 28),
             _SectionTitle(l10n.monetization),
@@ -477,6 +543,37 @@ class _SettingsPageState extends State<SettingsPage> {
     await widget.controller.setWeeklyReminderTime(result);
     await _refreshNativeState();
   }
+
+  Future<void> _checkContentUpdates(BuildContext context) async {
+    await widget.controller.checkContentUpdates();
+    if (!context.mounted) return;
+    setState(() {});
+  }
+
+  Future<void> _installContentUpdate(BuildContext context) async {
+    final ok = await widget.controller.installContentUpdate();
+    if (!context.mounted) return;
+    final l10n = AppLocalizations.of(context);
+    _showMessage(
+      context,
+      ok ? l10n.contentUpdateInstalled : l10n.contentUpdateFailed,
+    );
+    setState(() {});
+  }
+
+  String _contentStatusText(
+    AppLocalizations l10n,
+    ContentPackState state,
+  ) =>
+      switch (state) {
+        ContentPackState.bundled => l10n.contentUsingBundled,
+        ContentPackState.checking => l10n.contentChecking,
+        ContentPackState.updateAvailable => l10n.contentUpdateAvailable,
+        ContentPackState.downloading => l10n.contentDownloading,
+        ContentPackState.verifying => l10n.contentVerifying,
+        ContentPackState.ready => l10n.contentUpToDate,
+        ContentPackState.failed => l10n.contentUpdateFailed,
+      };
 
   Future<void> _purchaseRemoveAds(BuildContext context) async {
     final state = await widget.controller.purchaseRemoveAds();
