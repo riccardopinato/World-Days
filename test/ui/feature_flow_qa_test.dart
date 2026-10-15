@@ -67,6 +67,10 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('Italy Test Day'),
+      180,
+    );
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(find.text('Spain Test Day'), findsNothing);
 
@@ -78,6 +82,10 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsNothing);
+    await tester.scrollUntilVisible(
+      find.text('Italy Test Day'),
+      180,
+    );
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(controller.preferences.marketCode, 'IT');
     expect(tester.takeException(), isNull);
