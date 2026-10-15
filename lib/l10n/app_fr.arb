@@ -169,5 +169,12 @@
   "checkForUpdates": "Rechercher des mises à jour",
   "installUpdate": "Installer la mise à jour",
   "contentUpdateInstalled": "Mise à jour du catalogue installée.",
-  "contentUpdateFailed": "Impossible d’installer la mise à jour du catalogue."
+  "contentUpdateFailed": "Impossible d’installer la mise à jour du catalogue.",
+  "chooseCountry": "Choisir un pays",
+  "chooseCountryDescription": "Choisissez un pays pour explorer ses célébrations nationales vérifiées. Cela ne modifie pas le marché de votre profil.",
+  "noCountryObservances": "Aucune célébration nationale vérifiée n’est encore disponible pour ce pays.",
+  "reminderSubscriptions": "Abonnements aux rappels",
+  "noReminderSubscriptions": "Aucun rappel n’est activé.",
+  "noFollowedCategories": "Vous ne suivez encore aucune catégorie.",
+  "manageInSettings": "Gérer dans les paramètres"
 }
