@@ -44,9 +44,9 @@ void main() {
     await tester.pumpWidget(WorldDaysApp(controller: controller));
     await tester.pumpAndSettle();
 
-    expect(find.byType(NavigationBar), findsOneWidget);
+    expect(find.byType(NavigationBar), findsNothing);
     for (final label in ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']) {
-      expect(find.text(label), findsWidgets);
+      expect(find.byTooltip(label), findsOneWidget);
     }
     expect(tester.takeException(), isNull);
   });
