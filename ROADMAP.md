@@ -9,14 +9,16 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 
 World Days is technically healthy but **NOT Store Ready**.
 
-Post-Phase-G evidence on main:
-- Development checks: analyze + 41 Flutter tests + Web release + Android ARM64 build PASS.
-- GitHub Pages deployment PASS.
+Post-Phase-B/G.1 evidence on main:
+- Development checks: analyze + **44 Flutter tests** + Web release + Android ARM64 build PASS.
+- GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
+- Hosted payload smoke: version `2026.10.14.1`, 501,993 bytes, SHA-256 `38e6ee66d3646c0c313ca7b4b8e395a79b2456ecfc5522cd25c948b0f624d8b7`.
 - ARM64 internal release gate: ~24.1 MB.
+- Phase B and G.1 implementation merge: `2a177fc00d6f6a5f041034e7c8e00f8cd651c0bb`.
 - Permanent Android signing + production AdMob/UMP have prior physical evidence.
 
-Important: the previous production/physical evidence predates the current Phase-G main SHA. Final certification must use a new exact candidate artifact.
+Important: the previous production/physical monetization evidence predates the current Phase-B/G.1 code. Final certification must use a new exact candidate artifact.
 
 ## Critical path to v1
 
@@ -212,7 +214,7 @@ Completed:
 - [x] Notification diagnostics split from consumer Settings.
 - [x] Source verification metadata preserved.
 - [x] Weekly reminder weekday is user-selectable.
-- [x] Current main passes analyze + 41 Flutter tests + Web + Android ARM64 CI.
+- [x] Current main passes analyze + 44 Flutter tests + Web + Android ARM64 CI.
 
 Open:
 - [ ] Add maintained `integration_test` smoke: launch → Today → detail → favorite → Saved → Calendar → Settings.
