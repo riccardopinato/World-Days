@@ -71,11 +71,12 @@ Current reviewed editorial coverage: 28 / 296.
 - [ ] Keep locale and market independent in every flow.
 
 ### Phase E — Remove Ads lifetime entitlement — BLOCKING
-- [ ] One-time Remove Ads purchase.
-- [ ] Restore/reconcile entitlement.
+- [x] Provider-agnostic entitlement contract, persistent lifetime cache and centralized ProductLimits.
+- [ ] One-time Remove Ads store adapter/product.
+- [ ] Restore/reconcile entitlement against the configured store.
 - [ ] Sandbox billing QA.
-- [ ] Entitled users must suppress the ad request itself, not merely hide the banner.
-- [ ] Add Settings purchase/status UX.
+- [x] Entitled users suppress the ad request itself, not merely hide the banner.
+- [x] Settings purchase/status UX is wired to the entitlement boundary and activates when billing is configured.
 
 ### Phase F — Retention physical QA — BLOCKING
 - [ ] Immediate notification on exact production candidate.
