@@ -122,5 +122,18 @@
   "privacyChoicesFailed": "No se pudieron abrir las opciones de privacidad.",
   "retry": "Reintentar",
   "unAgencies": "Agencias de la ONU",
-  "unresolvedDatesNotice": "Algunas fechas lunares o definidas por autoridades para este año aún no están verificadas."
+  "unresolvedDatesNotice": "Algunas fechas lunares o definidas por autoridades para este año aún no están verificadas.",
+  "sourcePrimary": "Fuente oficial primaria",
+  "sourceInstitutional": "Fuente institucional",
+  "sourceDiscovery": "Fuente de descubrimiento",
+  "sourceOriginator": "Fuente del organizador",
+  "verifiedOn": "Verificada",
+  "todayIn30Seconds": "Hoy en 30 segundos",
+  "tomorrow": "Mañana",
+  "dailyQuiz": "Quiz diario",
+  "quizPrompt": "¿Quién reconoce esta conmemoración?",
+  "quizCorrect": "Correcto",
+  "quizTryAgain": "No exactamente — inténtalo de nuevo",
+  "upcoming7Days": "Próximos 7 días",
+  "upcoming30Days": "Próximos 30 días"
 }
