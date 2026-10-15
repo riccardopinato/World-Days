@@ -48,7 +48,11 @@ void main() {
     for (final label in ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']) {
       expect(find.byTooltip(label), findsOneWidget);
     }
-    expect(tester.takeException(), isNull);
+    final largeTextException = tester.takeException();
+    if (largeTextException != null) {
+      debugDumpRenderTree();
+    }
+    expect(largeTextException, isNull);
   });
 
   testWidgets('wide shell switches to NavigationRail', (tester) async {
