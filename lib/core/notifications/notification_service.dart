@@ -36,20 +36,24 @@ class NotificationService implements NotificationGateway {
   String? _lastError;
   String? _initialPayload;
 
-  bool get supported =>
+  @override
+bool get supported =>
       !kIsWeb &&
       (defaultTargetPlatform == TargetPlatform.android ||
           defaultTargetPlatform == TargetPlatform.iOS);
 
-  Stream<String> get notificationTapStream => _tapController.stream;
+  @override
+Stream<String> get notificationTapStream => _tapController.stream;
 
-  String? takeInitialPayload() {
+  @override
+String? takeInitialPayload() {
     final payload = _initialPayload;
     _initialPayload = null;
     return payload;
   }
 
-  Future<void> initialize({bool force = false}) async {
+  @override
+Future<void> initialize({bool force = false}) async {
     if (_initialized && !force) return;
     if (!supported) {
       _initialized = true;
@@ -124,7 +128,8 @@ class NotificationService implements NotificationGateway {
     }
   }
 
-  Future<bool> requestPermissions() async {
+  @override
+Future<bool> requestPermissions() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return false;
 
@@ -157,7 +162,8 @@ class NotificationService implements NotificationGateway {
     return granted;
   }
 
-  Future<NotificationHealth> health() async {
+  @override
+Future<NotificationHealth> health() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) {
       return NotificationHealth(
@@ -214,7 +220,8 @@ class NotificationService implements NotificationGateway {
     );
   }
 
-  Future<void> openSystemSettings() async {
+  @override
+Future<void> openSystemSettings() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return;
     try {
@@ -284,7 +291,8 @@ class NotificationService implements NotificationGateway {
     }
   }
 
-  Future<void> reconcile(Iterable<PlannedNotification> plan) async {
+  @override
+Future<void> reconcile(Iterable<PlannedNotification> plan) async {
     await initialize();
     if (!_available) return;
     try {
@@ -297,7 +305,8 @@ class NotificationService implements NotificationGateway {
     }
   }
 
-  Future<LocalNotificationDiagnostic> runLocalDiagnostic({
+  @override
+Future<LocalNotificationDiagnostic> runLocalDiagnostic({
     required String immediateTitle,
     required String immediateBody,
     required String scheduledTitle,
@@ -374,7 +383,8 @@ class NotificationService implements NotificationGateway {
     return hash;
   }
 
-  void dispose() {
+  @override
+void dispose() {
     _tapController.close();
   }
 }
