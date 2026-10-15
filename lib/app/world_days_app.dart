@@ -85,7 +85,7 @@ class _Root extends StatelessWidget {
                     FilledButton.icon(
                       onPressed: controller.reload,
                       icon: const Icon(Icons.refresh_rounded),
-                      label: const Text('Retry'),
+                      label: Text(l10n.retry),
                     ),
                   ],
                 ),
