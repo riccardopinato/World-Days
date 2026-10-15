@@ -15,6 +15,7 @@ final class CatalogSnapshot {
     required this.occurrences2026,
     required this.editorialByLocale,
     required this.yearOverrides,
+    required this.datasetVersion,
   });
 
   final List<Observance> records;
@@ -22,6 +23,7 @@ final class CatalogSnapshot {
   final List<ObservanceOccurrence> occurrences2026;
   final Map<String, Map<String, EditorialEntry>> editorialByLocale;
   final List<ObservanceYearOverride> yearOverrides;
+  final String datasetVersion;
 
   Map<String, EditorialEntry> get editorialById =>
       editorialByLocale['en'] ?? const <String, EditorialEntry>{};
@@ -196,6 +198,7 @@ final class CatalogRepository {
       occurrences2026: occurrences,
       editorialByLocale: editorialByLocale,
       yearOverrides: yearOverrides,
+      datasetVersion: seed['datasetVersion']?.toString() ?? 'bundled',
     );
   }
 
