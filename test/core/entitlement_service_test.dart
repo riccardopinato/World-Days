@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:world_days/core/entitlements/billing_adapter.dart';
 import 'package:world_days/core/entitlements/entitlement_models.dart';
@@ -35,12 +37,19 @@ class _FakeBilling implements BillingAdapter {
   BillingResult purchaseResult;
   BillingResult restoreResult;
   bool available;
+  final StreamController<BillingResult> _updates =
+      StreamController<BillingResult>.broadcast();
+
+  void emit(BillingResult result) => _updates.add(result);
 
   @override
   bool get supported => available;
 
   @override
   String get removeAdsProductId => productId;
+
+  @override
+  Stream<BillingResult> get updates => _updates.stream;
 
   @override
   Future<BillingProductInfo?> loadRemoveAdsProduct() async => available
@@ -57,7 +66,9 @@ class _FakeBilling implements BillingAdapter {
   Future<BillingResult> restoreRemoveAds() async => restoreResult;
 
   @override
-  Future<void> dispose() async {}
+  Future<void> dispose() async {
+    await _updates.close();
+  }
 }
 
 void main() {
@@ -142,6 +153,36 @@ void main() {
     expect(service.snapshot.source, EntitlementSource.providerVerified);
     expect(service.removesAds, isTrue);
     expect(store.value.plan, AppPlan.lifetime);
+  });
+
+  test('verified asynchronous store update grants entitlement', () async {
+    final store = _MemoryStore();
+    final billing = _FakeBilling(
+      purchaseResult: const BillingResult(
+        state: PurchaseFlowState.purchasing,
+        productId: _FakeBilling.productId,
+      ),
+    );
+    final service = EntitlementService(
+      store: store,
+      billingAdapter: billing,
+    );
+    await service.initialize();
+
+    expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchasing);
+    expect(service.removesAds, isFalse);
+
+    billing.emit(
+      const BillingResult(
+        state: PurchaseFlowState.purchased,
+        productId: _FakeBilling.productId,
+        verified: true,
+      ),
+    );
+    await Future<void>.delayed(Duration.zero);
+
+    expect(service.removesAds, isTrue);
+    expect(service.flowState, PurchaseFlowState.purchased);
   });
 
   test('restore requires verified expected product', () async {
