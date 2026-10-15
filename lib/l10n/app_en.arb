@@ -175,5 +175,23 @@
   "noReminderSubscriptions": "No reminder subscriptions are enabled.",
   "noFollowedCategories": "No followed categories yet.",
   "manageInSettings": "Manage in Settings",
-  "verifiedOverview": "Verified overview"
+  "verifiedOverview": "Verified overview",
+  "verifiedOverviewSummary": "{title} is a verified observance in the World Days catalog. Scope: {scope}. Authority: {authority}.",
+  "@verifiedOverviewSummary": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "scope": {
+        "type": "String"
+      },
+      "authority": {
+        "type": "String"
+      }
+    }
+  },
+  "verifiedOverviewNote": "This overview uses only verified record metadata. Richer editorial context is shown only after source review.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "National",
+  "verifiedScopeRegional": "Regional"
 }
