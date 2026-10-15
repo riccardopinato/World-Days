@@ -9,7 +9,9 @@ EDITORIAL = ROOT / 'assets' / 'data' / 'editorial_en.json'
 catalog = json.loads(CATALOG.read_text(encoding='utf-8'))
 editorial = json.loads(EDITORIAL.read_text(encoding='utf-8'))
 
-known = {item['id'] for item in catalog.get('records', [])}
+records_by_id = {item['id']: item for item in catalog.get('records', [])}
+known = set(records_by_id)
+strong_source_tiers = {'A_PRIMARY', 'B_INSTITUTIONAL', 'D_ORIGINATOR'}
 entries = editorial.get('entries', [])
 ids = [item.get('observanceId') for item in entries]
 
@@ -23,6 +25,17 @@ assert set(ids).issubset(known), f"unknown editorial ids: {sorted(set(ids) - kno
 for item in entries:
     oid = item['observanceId']
     assert item.get('status') == 'REVIEWED', oid
+    record = records_by_id[oid]
+    authority = record.get('authority') or {}
+    sources = record.get('sources') or []
+    assert str(authority.get('name', '')).strip(), (oid, 'authority')
+    assert any(
+        source.get('tier') in strong_source_tiers and
+        str(source.get('url', '')).strip() and
+        str(source.get('verifiedAt', '')).strip()
+        for source in sources
+    ), (oid, 'strong_source')
+    assert str(item.get('sourcePolicy', '')).strip(), (oid, 'sourcePolicy')
     for key in (
         'hook',
         'summary',
