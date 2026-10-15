@@ -1,5 +1,6 @@
 import 'content_pack_io.dart';
 import 'content_pack_manager.dart';
+import 'content_pack_models.dart';
 
 ContentPackManager createContentPackManager({
   required ContentPayloadValidator validator,
