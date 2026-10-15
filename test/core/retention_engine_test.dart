@@ -133,14 +133,19 @@ void main() {
       now: now,
     );
 
-    expect(plan.where((item) => item.stableId.startsWith('daily:')), hasLength(21));
+    expect(plan.where((item) => item.stableId.startsWith('daily:')), hasLength(22));
     expect(plan.where((item) => item.stableId.startsWith('weekly:')), hasLength(6));
     expect(plan.where((item) => item.stableId.startsWith('favorite:')), hasLength(1));
     expect(plan.where((item) => item.stableId.startsWith('category:')), hasLength(10));
-    expect(plan.length, 38);
+    expect(plan.length, 39);
     expect(plan.length, lessThan(50));
     expect(plan.map((item) => item.stableId).toSet(), hasLength(plan.length));
     expect(plan.every((item) => item.when.isAfter(now)), isTrue);
+    final rollingFallback = plan.singleWhere(
+      (item) => item.stableId == 'daily:rolling-fallback',
+    );
+    expect(rollingFallback.repeatDaily, isTrue);
+    expect(rollingFallback.payload, 'tab:today');
 
     final favorite = plan.singleWhere(
       (item) => item.stableId.startsWith('favorite:'),
