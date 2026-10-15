@@ -175,5 +175,10 @@
   "noReminderSubscriptions": "Aucun rappel n’est activé.",
   "noFollowedCategories": "Vous ne suivez encore aucune catégorie.",
   "manageInSettings": "Gérer dans les paramètres",
-  "verifiedOverview": "Aperçu vérifié"
+  "verifiedOverview": "Aperçu vérifié",
+  "verifiedOverviewSummary": "{title} est une célébration vérifiée dans le catalogue World Days. Portée : {scope}. Autorité : {authority}.",
+  "verifiedOverviewNote": "Cet aperçu utilise uniquement les métadonnées vérifiées de la fiche. Un contexte éditorial plus riche n’est affiché qu’après révision des sources.",
+  "verifiedScopeGlobal": "Mondiale",
+  "verifiedScopeNational": "Nationale",
+  "verifiedScopeRegional": "Régionale"
 }
