@@ -107,14 +107,33 @@ jobs:
           APK="build/app/outputs/flutter-apk/app-arm64-v8a-release.apk"
           APKSIGNER="$(find "$ANDROID_HOME/build-tools" -type f -name apksigner | sort -V | tail -n 1)"
           test -x "$APKSIGNER"
-          ACTUAL="$("$APKSIGNER" verify --print-certs "$APK" | sed -n 's/^Signer #1 certificate SHA-256 digest: //p' | head -n 1 | tr -d ':' | tr '[:lower:]' '[:upper:]')"
-          test -n "$ACTUAL"
-          if [[ "$ACTUAL" != "$EXPECTED_CERT_SHA256" ]]; then
-            echo "Signing certificate mismatch" >&2
+
+          CERT_OUTPUT="$RUNNER_TEMP/apksigner-cert-output.txt"
+          "$APKSIGNER" verify --print-certs "$APK" | tee "$CERT_OUTPUT"
+
+          ACTUAL="$(
+            grep -Ei 'certificate SHA-256 digest:' "$CERT_OUTPUT" |
+              head -n 1 |
+              grep -Eo '[0-9A-Fa-f]{64}' |
+              tr '[:lower:]' '[:upper:]'
+          )"
+
+          if [[ -z "$ACTUAL" ]]; then
+            echo "Unable to extract APK signing certificate SHA-256 from apksigner output" >&2
             exit 1
           fi
-          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionCode=%s\n'             "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_NUMBER"             > build/signing-evidence.txt
-          sha256sum "$APK" build/app/outputs/bundle/release/app-release.aab             > build/artifact-sha256.txt
+
+          echo "APK signer SHA-256: $ACTUAL"
+          if [[ "$ACTUAL" != "$EXPECTED_CERT_SHA256" ]]; then
+            echo "Signing certificate mismatch: expected $EXPECTED_CERT_SHA256, got $ACTUAL" >&2
+            exit 1
+          fi
+
+          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionCode=%s\n' \
+            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_NUMBER" \
+            > build/signing-evidence.txt
+          sha256sum "$APK" build/app/outputs/bundle/release/app-release.aab \
+            > build/artifact-sha256.txt
 
       - name: Upload signed QA artifacts
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
