@@ -5,6 +5,7 @@ import '../../core/market_options.dart';
 import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
+import '../../domain/verified_metadata_summary.dart';
 import '../../l10n/app_localizations.dart';
 
 class ObservanceDetailPage extends StatefulWidget {
