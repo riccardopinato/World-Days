@@ -111,7 +111,7 @@ Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
 - [ ] Replace generic editorial-coming-next states only when reviewed source-backed content exists.
 - [ ] Re-run locale parity/editorial validators at 100% target coverage.
 
-## Phase D — Today / Calendar / Discover / market completion
+## Phase D — Today / Calendar / Discover / market completion ✅
 
 - [x] Today in 30 seconds for reviewed editorial entries.
 - [x] Daily quiz / lightweight learning loop.
@@ -119,10 +119,10 @@ Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
 - [x] Calendar officiality/category/scope/country filters.
 - [x] Upcoming 7 / 30 days.
 - [x] Random discovery and themed collections.
-- [ ] Decide whether day/week calendar modes add enough value for v1; otherwise remove that v1 expectation from Product Bible.
-- [ ] Expand Around the World national coverage beyond the thin launch seed.
-- [ ] Keep locale and market independent in every new flow.
-- [ ] Add seasonal collection curation only after editorial coverage is sufficiently broad.
+- [x] v1 Calendar scope frozen to month + date detail + upcoming 7/30; dedicated day/week modes moved post-v1.
+- [x] v1 Around-the-World scope frozen to the verified IT/ES/FR/DE/PT/GB/US seed; broader national coverage moved post-v1 so Phase C remains the content priority.
+- [x] Locale and market remain independent, including transient Around-the-World browsing.
+- [x] Seasonal collection expansion explicitly deferred post-v1 until editorial coverage is broader.
 
 ## Phase E — Remove Ads lifetime entitlement — BLOCKING
 
