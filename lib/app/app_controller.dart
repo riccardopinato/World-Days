@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../core/entitlements/entitlement_models.dart';
+import '../core/entitlements/entitlement_service.dart';
 import '../core/monetization/monetization_controller.dart';
 import '../core/notifications/notification_health.dart';
 import '../core/notifications/notification_service.dart';
@@ -20,7 +22,9 @@ final class AppController extends ChangeNotifier {
     NotificationService? notificationService,
     WorldDaysHomeWidgetService? homeWidgetService,
     MonetizationController? monetizationController,
+    EntitlementService? entitlementService,
   })  : monetization = monetizationController ?? MonetizationController(),
+        entitlements = entitlementService ?? EntitlementService(),
         _catalogRepository = catalogRepository ?? const CatalogRepository(),
         _preferencesRepository =
             preferencesRepository ?? PreferencesRepository(),
@@ -30,6 +34,7 @@ final class AppController extends ChangeNotifier {
             homeWidgetService ?? WorldDaysHomeWidgetService.instance;
 
   final MonetizationController monetization;
+  final EntitlementService entitlements;
   final CatalogRepository _catalogRepository;
   final PreferencesRepository _preferencesRepository;
   final NotificationService _notificationService;
@@ -54,6 +59,18 @@ final class AppController extends ChangeNotifier {
   Future<void> initialize() async {
     loading = true;
     error = null;
+
+    if (!_entitlementListenerAttached) {
+      entitlements.addListener(_onEntitlementChanged);
+      _entitlementListenerAttached = true;
+    }
+    try {
+      await entitlements.initialize();
+      monetization.setAdsSuppressed(entitlements.removesAds);
+    } catch (_) {
+      // Entitlement bootstrap must not block local-first core startup.
+    }
+
     try {
       final values = await Future.wait([
         _catalogRepository.load(),
@@ -267,6 +284,18 @@ final class AppController extends ChangeNotifier {
   }
 
   bool _monetizationListenerAttached = false;
+  bool _entitlementListenerAttached = false;
+
+  bool get removeAdsEntitled => entitlements.removesAds;
+  ProductLimits get productLimits => entitlements.limits;
+  PurchaseFlowState get purchaseFlowState => entitlements.flowState;
+  BillingProductInfo? get removeAdsProduct => entitlements.product;
+
+  Future<PurchaseFlowState> purchaseRemoveAds() =>
+      entitlements.purchaseRemoveAds();
+
+  Future<PurchaseFlowState> restoreRemoveAds() =>
+      entitlements.restoreRemoveAds();
 
   Future<void> initializeMonetization() async {
     if (!_monetizationListenerAttached) {
@@ -547,6 +576,11 @@ final class AppController extends ChangeNotifier {
     if (!loading) notifyListeners();
   }
 
+  void _onEntitlementChanged() {
+    monetization.setAdsSuppressed(entitlements.removesAds);
+    if (!loading) notifyListeners();
+  }
+
   @override
   void dispose() {
     _notificationTapSubscription?.cancel();
@@ -554,6 +588,10 @@ final class AppController extends ChangeNotifier {
     if (_monetizationListenerAttached) {
       monetization.removeListener(_onMonetizationChanged);
     }
+    if (_entitlementListenerAttached) {
+      entitlements.removeListener(_onEntitlementChanged);
+    }
+    entitlements.dispose();
     monetization.dispose();
     super.dispose();
   }

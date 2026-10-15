@@ -146,5 +146,16 @@
   "quickFacts": "Datos rápidos",
   "annualTheme": "Tema anual",
   "relatedObservances": "Conmemoraciones relacionadas",
-  "editorialCoveragePending": "Los detalles editoriales ampliados de esta conmemoración aún se están revisando con las fuentes."
+  "editorialCoveragePending": "Los detalles editoriales ampliados de esta conmemoración aún se están revisando con las fuentes.",
+  "removeAds": "Quitar anuncios",
+  "removeAdsDescription": "Compra única. El contenido principal seguirá siendo gratuito.",
+  "removeAdsOwned": "Los anuncios están desactivados en este dispositivo.",
+  "removeAdsPurchase": "Comprar Quitar anuncios",
+  "restorePurchases": "Restaurar compras",
+  "purchasePending": "Compra pendiente. Los anuncios seguirán activos hasta que la tienda la confirme.",
+  "purchaseSucceeded": "Quitar anuncios desbloqueado.",
+  "purchaseCancelled": "Compra cancelada.",
+  "purchaseFailed": "No se pudo completar la compra.",
+  "restoreSucceeded": "Quitar anuncios restaurado.",
+  "billingUnavailable": "La compra en la tienda no está disponible en este momento."
 }

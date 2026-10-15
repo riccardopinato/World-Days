@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/entitlements/entitlement_models.dart';
 import '../../core/market_options.dart';
 import '../../l10n/app_localizations.dart';
 import 'notification_diagnostics_page.dart';
@@ -68,6 +69,11 @@ class _SettingsPageState extends State<SettingsPage> {
     final locale = Localizations.localeOf(context).toLanguageTag();
     final recordCount = widget.controller.catalog?.records.length ?? 0;
     final reminders = widget.controller.preferences.reminders;
+    final showRemoveAds = widget.controller.entitlements.billingSupported ||
+        widget.controller.removeAdsEntitled;
+    final showPrivacyChoices =
+        widget.controller.monetization.supported &&
+        widget.controller.monetization.privacyOptionsRequired;
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.settings)),
@@ -356,19 +362,55 @@ class _SettingsPageState extends State<SettingsPage> {
               ),
             ),
           ],
-          if (widget.controller.monetization.supported &&
-              widget.controller.monetization.privacyOptionsRequired) ...[
+          if (showRemoveAds || showPrivacyChoices) ...[
             const SizedBox(height: 28),
             _SectionTitle(l10n.monetization),
-            Card(
-              child: ListTile(
-                leading: const Icon(Icons.privacy_tip_outlined),
-                title: Text(l10n.privacyChoices),
-                subtitle: Text(l10n.privacyChoicesDescription),
-                trailing: const Icon(Icons.chevron_right_rounded),
-                onTap: () => _openPrivacyChoices(context),
+            if (showRemoveAds) ...[
+              Card(
+                child: ListTile(
+                  leading: Icon(
+                    widget.controller.removeAdsEntitled
+                        ? Icons.verified_rounded
+                        : Icons.block_rounded,
+                  ),
+                  title: Text(l10n.removeAds),
+                  subtitle: Text(
+                    widget.controller.removeAdsEntitled
+                        ? l10n.removeAdsOwned
+                        : [
+                            l10n.removeAdsDescription,
+                            if (widget.controller.removeAdsProduct != null)
+                              widget.controller.removeAdsProduct!.displayPrice,
+                          ].join(' · '),
+                  ),
+                  trailing: widget.controller.removeAdsEntitled
+                      ? const Icon(Icons.check_circle_rounded)
+                      : const Icon(Icons.chevron_right_rounded),
+                  onTap: widget.controller.removeAdsEntitled
+                      ? null
+                      : () => _purchaseRemoveAds(context),
+                ),
               ),
-            ),
+              if (!widget.controller.removeAdsEntitled)
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: TextButton.icon(
+                    onPressed: () => _restoreRemoveAds(context),
+                    icon: const Icon(Icons.restore_rounded),
+                    label: Text(l10n.restorePurchases),
+                  ),
+                ),
+            ],
+            if (showPrivacyChoices)
+              Card(
+                child: ListTile(
+                  leading: const Icon(Icons.privacy_tip_outlined),
+                  title: Text(l10n.privacyChoices),
+                  subtitle: Text(l10n.privacyChoicesDescription),
+                  trailing: const Icon(Icons.chevron_right_rounded),
+                  onTap: () => _openPrivacyChoices(context),
+                ),
+              ),
           ],
           const SizedBox(height: 28),
           _SectionTitle(l10n.about),
@@ -435,6 +477,35 @@ class _SettingsPageState extends State<SettingsPage> {
     await widget.controller.setWeeklyReminderTime(result);
     await _refreshNativeState();
   }
+
+  Future<void> _purchaseRemoveAds(BuildContext context) async {
+    final state = await widget.controller.purchaseRemoveAds();
+    if (!context.mounted) return;
+    final l10n = AppLocalizations.of(context);
+    _showMessage(context, _purchaseMessage(l10n, state, restoring: false));
+  }
+
+  Future<void> _restoreRemoveAds(BuildContext context) async {
+    final state = await widget.controller.restoreRemoveAds();
+    if (!context.mounted) return;
+    final l10n = AppLocalizations.of(context);
+    _showMessage(context, _purchaseMessage(l10n, state, restoring: true));
+  }
+
+  String _purchaseMessage(
+    AppLocalizations l10n,
+    PurchaseFlowState state, {
+    required bool restoring,
+  }) =>
+      switch (state) {
+        PurchaseFlowState.purchased => l10n.purchaseSucceeded,
+        PurchaseFlowState.restored => l10n.restoreSucceeded,
+        PurchaseFlowState.pending => l10n.purchasePending,
+        PurchaseFlowState.cancelled => l10n.purchaseCancelled,
+        PurchaseFlowState.billingUnavailable => l10n.billingUnavailable,
+        PurchaseFlowState.failed => l10n.purchaseFailed,
+        _ => restoring ? l10n.purchaseFailed : l10n.purchaseFailed,
+      };
 
   Future<void> _openPrivacyChoices(BuildContext context) async {
     final ok = await widget.controller.monetization.showPrivacyOptions();

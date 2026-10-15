@@ -146,5 +146,16 @@
   "quickFacts": "Quick facts",
   "annualTheme": "Annual theme",
   "relatedObservances": "Related observances",
-  "editorialCoveragePending": "Extended editorial details are still being source-reviewed for this observance."
+  "editorialCoveragePending": "Extended editorial details are still being source-reviewed for this observance.",
+  "removeAds": "Remove ads",
+  "removeAdsDescription": "One-time purchase. Core content stays free.",
+  "removeAdsOwned": "Ads are removed on this device.",
+  "removeAdsPurchase": "Buy Remove Ads",
+  "restorePurchases": "Restore purchases",
+  "purchasePending": "Purchase pending. Ads remain enabled until the store confirms it.",
+  "purchaseSucceeded": "Remove Ads unlocked.",
+  "purchaseCancelled": "Purchase cancelled.",
+  "purchaseFailed": "Purchase could not be completed.",
+  "restoreSucceeded": "Remove Ads restored.",
+  "billingUnavailable": "Store purchase is currently unavailable."
 }

@@ -100,6 +100,7 @@ B. CANDIDATE / PROCESS GOLDENS — APPLY, DO NOT CLAIM CERTIFIED
 - golden/ui/GOLDEN_APP_SHELL_RESPONSIVE_VISUAL_QA_FLUTTER_v1_DRAFT.txt
 - golden/ui/GOLDEN_ONBOARDING_FIRST_RUN_FLUTTER_v1_DRAFT.txt
 - golden/monetization/GOLDEN_ADMOB_SAFE_ADAPTIVE_MONETIZATION_v1_DRAFT.txt
+- golden/monetization/GOLDEN_ENTITLEMENT_CONTRACT_FLUTTER_v1_DRAFT.txt
 - golden/data/GOLDEN_OFFLINE_CONTENT_PACKS_FLUTTER_v1_DRAFT.txt
 - golden/release/GOLDEN_RELEASE_REALITY_PHYSICAL_VALIDATION_v1_DRAFT.txt
 - golden/release/GOLDEN_ANDROID_SIGNING_RELEASE_IDENTITY_v1_DRAFT.txt
@@ -179,4 +180,6 @@ Applied against Factory baseline 5f6b2489df2ac85fb85ccfea059983a090689de4:
 - Around the World browsing is transient and cannot mutate profile market;
 - recurrence runtime/data contract now agree on LAST_DAY_OF_MONTH and ONE_OFF;
 - production Android signing and AdMob/UMP physical validation are complete;
-- Remove Ads, remote content packs and exact-artifact retention QA remain open gates.
+- Remove Ads now has a provider-agnostic entitlement/ProductLimits boundary with persistent lifetime cache; the store adapter and sandbox evidence remain open;
+- entitlement state suppresses AdMob requests at the monetization boundary, rather than merely hiding the banner;
+- remote content packs and exact-artifact retention QA remain open gates.

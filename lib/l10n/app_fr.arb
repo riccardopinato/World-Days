@@ -146,5 +146,16 @@
   "quickFacts": "Faits rapides",
   "annualTheme": "Thème annuel",
   "relatedObservances": "Journées liées",
-  "editorialCoveragePending": "Les détails éditoriaux enrichis de cette journée sont encore en cours de vérification à partir des sources."
+  "editorialCoveragePending": "Les détails éditoriaux enrichis de cette journée sont encore en cours de vérification à partir des sources.",
+  "removeAds": "Supprimer les publicités",
+  "removeAdsDescription": "Achat unique. Le contenu principal reste gratuit.",
+  "removeAdsOwned": "Les publicités sont supprimées sur cet appareil.",
+  "removeAdsPurchase": "Acheter Supprimer les publicités",
+  "restorePurchases": "Restaurer les achats",
+  "purchasePending": "Achat en attente. Les publicités restent actives jusqu’à confirmation par la boutique.",
+  "purchaseSucceeded": "Suppression des publicités débloquée.",
+  "purchaseCancelled": "Achat annulé.",
+  "purchaseFailed": "Impossible de finaliser l’achat.",
+  "restoreSucceeded": "Suppression des publicités restaurée.",
+  "billingUnavailable": "L’achat via la boutique est actuellement indisponible."
 }
