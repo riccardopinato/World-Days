@@ -175,5 +175,10 @@
   "noReminderSubscriptions": "No hay recordatorios activados.",
   "noFollowedCategories": "Todavía no sigues ninguna categoría.",
   "manageInSettings": "Gestionar en Ajustes",
-  "verifiedOverview": "Resumen verificado"
+  "verifiedOverview": "Resumen verificado",
+  "verifiedOverviewSummary": "{title} es una celebración verificada en el catálogo de World Days. Ámbito: {scope}. Autoridad: {authority}.",
+  "verifiedOverviewNote": "Este resumen utiliza únicamente metadatos verificados del registro. El contexto editorial más amplio solo se muestra después de revisar las fuentes.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "Nacional",
+  "verifiedScopeRegional": "Regional"
 }
