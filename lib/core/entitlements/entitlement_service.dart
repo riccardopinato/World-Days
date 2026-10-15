@@ -1,8 +1,11 @@
+import 'dart:async';
+
 import 'package:flutter/foundation.dart';
 
 import 'billing_adapter.dart';
 import 'entitlement_models.dart';
 import 'entitlement_store.dart';
+import 'store_billing_adapter.dart';
 
 class EntitlementService extends ChangeNotifier {
   EntitlementService({
@@ -10,12 +13,13 @@ class EntitlementService extends ChangeNotifier {
     BillingAdapter? billingAdapter,
     DateTime Function()? clock,
   })  : _store = store ?? const SharedPreferencesEntitlementStore(),
-        _billing = billingAdapter ?? const UnavailableBillingAdapter(),
+        _billing = billingAdapter ?? createStoreBillingAdapter(),
         _clock = clock ?? DateTime.now;
 
   final EntitlementStore _store;
   final BillingAdapter _billing;
   final DateTime Function() _clock;
+  StreamSubscription<BillingResult>? _billingSubscription;
 
   EntitlementSnapshot _snapshot = const EntitlementSnapshot.free();
   PurchaseFlowState _flowState = PurchaseFlowState.idle;
@@ -35,6 +39,14 @@ class EntitlementService extends ChangeNotifier {
   Future<void> initialize() async {
     if (_initialized) return;
     _snapshot = await _store.load();
+    _billingSubscription ??= _billing.updates.listen(
+      (result) => unawaited(_applyBillingResult(result)),
+      onError: (Object error) {
+        _flowState = PurchaseFlowState.failed;
+        _lastError = 'billing_update:$error';
+        notifyListeners();
+      },
+    );
     _initialized = true;
 
     if (!_billing.supported) {
@@ -43,7 +55,22 @@ class EntitlementService extends ChangeNotifier {
       return;
     }
 
+    if (_snapshot.removesAds) {
+      _flowState = PurchaseFlowState.purchased;
+      notifyListeners();
+      return;
+    }
+
     _flowState = PurchaseFlowState.loadingProduct;
+    notifyListeners();
+    unawaited(refreshBillingProduct());
+  }
+
+  Future<void> refreshBillingProduct() async {
+    if (!_initialized || !_billing.supported || _snapshot.removesAds) return;
+
+    _flowState = PurchaseFlowState.loadingProduct;
+    _lastError = null;
     notifyListeners();
 
     try {
@@ -72,7 +99,11 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.purchaseRemoveAds();
-      await _applyBillingResult(result);
+      if (_flowState == PurchaseFlowState.purchasing ||
+          result.state == PurchaseFlowState.purchased ||
+          result.state == PurchaseFlowState.restored) {
+        await _applyBillingResult(result);
+      }
     } catch (error) {
       _flowState = PurchaseFlowState.failed;
       _lastError = 'billing_purchase:$error';
@@ -94,7 +125,11 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.restoreRemoveAds();
-      await _applyBillingResult(result);
+      if (_flowState == PurchaseFlowState.restoring ||
+          result.state == PurchaseFlowState.purchased ||
+          result.state == PurchaseFlowState.restored) {
+        await _applyBillingResult(result);
+      }
     } catch (error) {
       _flowState = PurchaseFlowState.failed;
       _lastError = 'billing_restore:$error';
@@ -115,6 +150,16 @@ class EntitlementService extends ChangeNotifier {
       _flowState = result.state;
       _lastError = null;
       notifyListeners();
+
+      try {
+        await _billing.completePurchase(result);
+      } catch (error) {
+        // Entitlement delivery already succeeded. Keep access and surface the
+        // provider-finalization issue for diagnostics/retry rather than
+        // revoking a user-owned purchase.
+        _lastError = 'billing_complete:$error';
+        notifyListeners();
+      }
       return;
     }
 
@@ -125,7 +170,8 @@ class EntitlementService extends ChangeNotifier {
 
   @override
   void dispose() {
-    _billing.dispose();
+    _billingSubscription?.cancel();
+    unawaited(_billing.dispose());
     super.dispose();
   }
 }

@@ -96,15 +96,18 @@ class BillingResult {
   const BillingResult({
     required this.state,
     this.productId,
+    this.transactionId,
     this.verified = false,
     this.errorCode,
   });
 
   final PurchaseFlowState state;
   final String? productId;
+  final String? transactionId;
 
-  /// True only after the billing adapter has validated provider state and
-  /// mapped the transaction to the expected product.
+  /// True only after the billing adapter has validated the store-reported
+  /// state and mapped it to the expected product. This flag does not claim
+  /// server-side receipt verification.
   final bool verified;
   final String? errorCode;
 

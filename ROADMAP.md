@@ -72,11 +72,13 @@ Current reviewed editorial coverage: 28 / 296.
 
 ### Phase E — Remove Ads lifetime entitlement — BLOCKING
 - [x] Provider-agnostic entitlement contract, persistent lifetime cache and centralized ProductLimits.
-- [ ] One-time Remove Ads store adapter/product.
-- [ ] Restore/reconcile entitlement against the configured store.
-- [ ] Sandbox billing QA.
+- [x] Official Flutter in_app_purchase store adapter for a one-time non-consumable Remove Ads product.
+- [ ] Create/activate Play one-time product `world_days_remove_ads_lifetime` and localized pricing (target EUR 2.99).
+- [x] Purchase-stream, restore, pending/cancel/error and post-delivery completePurchase paths implemented.
+- [ ] Sandbox billing QA on an internal Play testing build, including reinstall/restore.
 - [x] Entitled users suppress the ad request itself, not merely hide the banner.
-- [x] Settings purchase/status UX is wired to the entitlement boundary and activates when billing is configured.
+- [x] Settings purchase/status UX is wired to the entitlement boundary and only appears after the store product resolves.
+- [ ] Reassess client-only verification risk before adding any higher-value/account-bound monetization.
 
 ### Phase F — Retention physical QA — BLOCKING
 - [ ] Immediate notification on exact production candidate.

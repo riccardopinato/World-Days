@@ -5,11 +5,20 @@ abstract interface class BillingAdapter {
 
   String get removeAdsProductId;
 
+  /// Provider purchase updates. A purchase or restore call can return before a
+  /// store transaction reaches its final state; the verified terminal state
+  /// arrives through this stream.
+  Stream<BillingResult> get updates;
+
   Future<BillingProductInfo?> loadRemoveAdsProduct();
 
   Future<BillingResult> purchaseRemoveAds();
 
   Future<BillingResult> restoreRemoveAds();
+
+  /// Finalizes a provider transaction only after the entitlement layer has
+  /// persisted/delivered the verified capability.
+  Future<void> completePurchase(BillingResult result);
 
   Future<void> dispose();
 }
@@ -28,6 +37,9 @@ class UnavailableBillingAdapter implements BillingAdapter {
   String get removeAdsProductId => productId;
 
   @override
+  Stream<BillingResult> get updates => const Stream<BillingResult>.empty();
+
+  @override
   Future<BillingProductInfo?> loadRemoveAdsProduct() async => null;
 
   @override
@@ -41,6 +53,9 @@ class UnavailableBillingAdapter implements BillingAdapter {
         state: PurchaseFlowState.billingUnavailable,
         errorCode: 'billing_unavailable',
       );
+
+  @override
+  Future<void> completePurchase(BillingResult result) async {}
 
   @override
   Future<void> dispose() async {}

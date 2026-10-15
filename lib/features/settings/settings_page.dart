@@ -69,8 +69,8 @@ class _SettingsPageState extends State<SettingsPage> {
     final locale = Localizations.localeOf(context).toLanguageTag();
     final recordCount = widget.controller.catalog?.records.length ?? 0;
     final reminders = widget.controller.preferences.reminders;
-    final showRemoveAds = widget.controller.entitlements.billingSupported ||
-        widget.controller.removeAdsEntitled;
+    final showRemoveAds = widget.controller.removeAdsEntitled ||
+        widget.controller.removeAdsProduct != null;
     final showPrivacyChoices =
         widget.controller.monetization.supported &&
         widget.controller.monetization.privacyOptionsRequired;
@@ -504,7 +504,8 @@ class _SettingsPageState extends State<SettingsPage> {
         PurchaseFlowState.cancelled => l10n.purchaseCancelled,
         PurchaseFlowState.billingUnavailable => l10n.billingUnavailable,
         PurchaseFlowState.failed => l10n.purchaseFailed,
-        _ => restoring ? l10n.purchaseFailed : l10n.purchaseFailed,
+        PurchaseFlowState.ready when restoring => l10n.restoreChecked,
+        _ => l10n.purchaseFailed,
       };
 
   Future<void> _openPrivacyChoices(BuildContext context) async {

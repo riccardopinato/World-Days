@@ -104,3 +104,22 @@ License: Apache-2.0
 Decision: DEV TOOL for deterministic Android/iOS launcher icon generation from the project-owned World Days icon source.
 Provider verification: 2026-10-14.
 
+
+
+13. in_app_purchase 3.3.1
+URL: https://pub.dev/packages/in_app_purchase/versions/3.3.1
+Publisher: flutter.dev
+License: BSD-3-Clause
+Decision: RUNTIME DEPENDENCY for the lifetime Remove Ads store adapter.
+Reason: official Flutter storefront-independent API for Google Play and App
+Store non-consumable purchases, purchase-stream updates, restore and
+completePurchase.
+World Days boundary:
+- exact product id world_days_remove_ads_lifetime;
+- pending/cancel/error states never grant entitlement;
+- entitlement is persisted before completePurchase finalizes an accepted
+  transaction;
+- current v1 accepts client-side store-reported state plus verification data;
+  it does not claim server-side receipt/token verification.
+Provider verification: 2026-10-15.
+Current package support noted during verification: Android SDK 24+, iOS 13+.

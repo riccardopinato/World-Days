@@ -30,10 +30,11 @@ Implemented in this first real repository pass:
 - UMP-gated top adaptive AdMob banner with separate QA/test and production lanes;
 - public production privacy policy hosted with the Web Preview;
 - permanent Android release identity with verified production APK/AAB signer continuity;
+- provider-agnostic lifetime Remove Ads entitlement core plus official Flutter store-billing adapter;
 - dataset, recurrence and retention projection tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Native notifications/widget still require exact-artifact physical-device acceptance. Remove Ads, editorial completion, remote content packs and final store gates remain open; see `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Remove Ads code paths now include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product and sandbox evidence remain open. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial completion, remote content packs and final store gates remain open; see `ROADMAP.md`.
 
 ## Privacy
 
