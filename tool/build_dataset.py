@@ -605,6 +605,17 @@ def resolve_rule(rule,year):
         delta=(last.weekday()-target)%7
         d=last_day-delta
         return [(date(year,rule['month'],d),date(year,rule['month'],d))]
+    if k=='LAST_DAY_OF_MONTH':
+        last_day=calendar.monthrange(year,rule['month'])[1]
+        return [(date(year,rule['month'],last_day),date(year,rule['month'],last_day))]
+    if k=='ONE_OFF':
+        start=date.fromisoformat(rule['startDate'])
+        end=date.fromisoformat(rule.get('endDate',rule['startDate']))
+        if end < start:
+            raise ValueError('ONE_OFF endDate precedes startDate')
+        if end.year < year or start.year > year:
+            return []
+        return [(start,end)]
     if k in ('AUTHORITY_DEFINED','LUNAR'):
         ov=rule.get('overrides',{}).get(str(year))
         if not ov:
