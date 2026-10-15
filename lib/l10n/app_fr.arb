@@ -122,5 +122,18 @@
   "privacyChoicesFailed": "Impossible d’ouvrir les options de confidentialité.",
   "retry": "Réessayer",
   "unAgencies": "Agences de l’ONU",
-  "unresolvedDatesNotice": "Certaines dates lunaires ou définies par une autorité pour cette année ne sont pas encore vérifiées."
+  "unresolvedDatesNotice": "Certaines dates lunaires ou définies par une autorité pour cette année ne sont pas encore vérifiées.",
+  "sourcePrimary": "Source officielle primaire",
+  "sourceInstitutional": "Source institutionnelle",
+  "sourceDiscovery": "Source de découverte",
+  "sourceOriginator": "Source de l’organisateur",
+  "verifiedOn": "Vérifiée",
+  "todayIn30Seconds": "Aujourd’hui en 30 secondes",
+  "tomorrow": "Demain",
+  "dailyQuiz": "Quiz du jour",
+  "quizPrompt": "Qui reconnaît cette journée ?",
+  "quizCorrect": "Correct",
+  "quizTryAgain": "Pas tout à fait — réessayez",
+  "upcoming7Days": "7 prochains jours",
+  "upcoming30Days": "30 prochains jours"
 }
