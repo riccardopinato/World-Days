@@ -169,5 +169,12 @@
   "checkForUpdates": "Buscar actualizaciones",
   "installUpdate": "Instalar actualización",
   "contentUpdateInstalled": "Actualización del catálogo instalada.",
-  "contentUpdateFailed": "No se pudo instalar la actualización del catálogo."
+  "contentUpdateFailed": "No se pudo instalar la actualización del catálogo.",
+  "chooseCountry": "Elige un país",
+  "chooseCountryDescription": "Elige un país para explorar sus celebraciones nacionales verificadas. Esto no cambia el mercado de tu perfil.",
+  "noCountryObservances": "Todavía no hay celebraciones nacionales verificadas disponibles para este país.",
+  "reminderSubscriptions": "Suscripciones a recordatorios",
+  "noReminderSubscriptions": "No hay recordatorios activados.",
+  "noFollowedCategories": "Todavía no sigues ninguna categoría.",
+  "manageInSettings": "Gestionar en Ajustes"
 }
