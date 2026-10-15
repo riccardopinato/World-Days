@@ -42,8 +42,6 @@
   "offlineFirst": "Disponible hors ligne",
   "dataPolicy": "Politique des données",
   "dataPolicyDescription": "Les badges officiels nécessitent une source primaire ou de l’organisateur. Les candidats de découverte restent séparés jusqu’à leur vérification.",
-  "editorialComingNext": "Contenu éditorial à venir",
-  "editorialPlaceholder": "Cette première version sépare l’identité vérifiée et la provenance du futur contenu éditorial original.",
   "noSearchResults": "Aucune journée ne correspond à ces filtres.",
   "clearSearch": "Effacer la recherche",
   "recognized": "Reconnue",
@@ -176,5 +174,11 @@
   "reminderSubscriptions": "Abonnements aux rappels",
   "noReminderSubscriptions": "Aucun rappel n’est activé.",
   "noFollowedCategories": "Vous ne suivez encore aucune catégorie.",
-  "manageInSettings": "Gérer dans les paramètres"
+  "manageInSettings": "Gérer dans les paramètres",
+  "verifiedOverview": "Aperçu vérifié",
+  "verifiedOverviewSummary": "{title} est une célébration vérifiée dans le catalogue World Days. Portée : {scope}. Autorité : {authority}.",
+  "verifiedOverviewNote": "Cet aperçu utilise uniquement les métadonnées vérifiées de la fiche. Un contexte éditorial plus riche n’est affiché qu’après révision des sources.",
+  "verifiedScopeGlobal": "Mondiale",
+  "verifiedScopeNational": "Nationale",
+  "verifiedScopeRegional": "Régionale"
 }

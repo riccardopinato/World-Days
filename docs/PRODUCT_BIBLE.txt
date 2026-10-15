@@ -145,18 +145,31 @@ Editorial prose/images from third-party sites are not copied; World Days produce
 - Leap day supported.
 - Tests generate occurrences for at least 2026, 2027 and 2028.
 
-7. EDITORIAL TEMPLATE
-Each observance detail can contain:
-- 1-sentence hook
-- What is it?
-- Why this date?
-- Origin/history
-- Why it matters
-- 3–5 quick facts
-- What you can do today
-- Related observances
-- Sources
-- annual theme when available
+7. CONTENT UNDERSTANDING LAYERS
+
+V1 requires a concise verified overview for every launch observance in EN/IT/ES/FR/DE/PT.
+
+Tier 1 — Verified Overview (required for 100% of launch records):
+- generated only from canonical verified record metadata;
+- localized observance title;
+- authority and scope;
+- source-verification provenance;
+- no inferred history, date rationale, facts or campaign claims;
+- clearly presented as verified metadata, not as a reviewed editorial article.
+
+Tier 2 — Rich Editorial (curated quality layer):
+- 1-sentence hook;
+- What is it?;
+- Why this date?;
+- Origin/history;
+- Why it matters;
+- 3–5 quick facts where source-supported;
+- What you can do today;
+- Related observances;
+- Sources;
+- annual theme when available.
+
+Rich Editorial is published only after source review. The initial v1 rich layer contains the existing reviewed set; expanding rich long-form coverage across the full catalog is a post-v1 content program and must never be simulated by relabeling generated metadata as REVIEWED.
 
 8. VISUAL SYSTEM
 Brand direction: editorial calendar + globe, colorful and modern, not generic Material UI.

@@ -42,8 +42,6 @@
   "offlineFirst": "Disponível offline",
   "dataPolicy": "Política de dados",
   "dataPolicyDescription": "Os selos oficiais exigem uma fonte primária ou do organizador. Os candidatos de descoberta permanecem separados até serem verificados.",
-  "editorialComingNext": "Conteúdo editorial em breve",
-  "editorialPlaceholder": "Esta primeira versão mantém identidade verificada e proveniência separadas do futuro conteúdo editorial original.",
   "noSearchResults": "Nenhuma observância corresponde a estes filtros.",
   "clearSearch": "Limpar pesquisa",
   "recognized": "Reconhecida",
@@ -176,5 +174,11 @@
   "reminderSubscriptions": "Subscrições de lembretes",
   "noReminderSubscriptions": "Não existem lembretes ativos.",
   "noFollowedCategories": "Ainda não segue nenhuma categoria.",
-  "manageInSettings": "Gerir nas Definições"
+  "manageInSettings": "Gerir nas Definições",
+  "verifiedOverview": "Resumo verificado",
+  "verifiedOverviewSummary": "{title} é uma data verificada no catálogo World Days. Âmbito: {scope}. Autoridade: {authority}.",
+  "verifiedOverviewNote": "Este resumo utiliza apenas metadados verificados do registo. O contexto editorial mais completo só é apresentado depois da revisão das fontes.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "Nacional",
+  "verifiedScopeRegional": "Regional"
 }

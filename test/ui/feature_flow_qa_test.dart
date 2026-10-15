@@ -6,11 +6,30 @@ import 'package:world_days/features/calendar/calendar_page.dart';
 import 'package:world_days/features/discover/around_the_world_page.dart';
 import 'package:world_days/features/saved/saved_page.dart';
 import 'package:world_days/features/settings/settings_page.dart';
+import 'package:world_days/features/today/today_page.dart';
 
 import '../support/world_days_test_support.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+
+  testWidgets('Today uses verified metadata when rich editorial is absent',
+      (tester) async {
+    final controller = await buildLoadedTestController();
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(
+      wrapTestApp(TodayPage(controller: controller)),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Today in 30 seconds'), findsOneWidget);
+    expect(
+      find.textContaining('Global Test Day is a verified observance in the World Days catalog'),
+      findsOneWidget,
+    );
+    expect(tester.takeException(), isNull);
+  });
 
   testWidgets('Settings theme, reminder and widget actions remain interactive',
       (tester) async {
@@ -195,6 +214,8 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsWidgets);
+    expect(find.text('Verified overview'), findsOneWidget);
+    expect(find.text('Editorial article coming next'), findsNothing);
     expect(controller.isFavorite('global-test-day'), isTrue);
     expect(tester.takeException(), isNull);
   });

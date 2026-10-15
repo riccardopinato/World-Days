@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/verified_overview_copy.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../core/widgets/observance_hero.dart';
 import '../../domain/observance.dart';
@@ -119,14 +120,22 @@ class TodayPage extends StatelessWidget {
                   const SizedBox(height: 12),
                 ],
               ],
-              if (editorial != null) ...[
+              if (primary != null) ...[
                 const SizedBox(height: 24),
                 _SectionTitle(l10n.todayIn30Seconds),
                 Card(
                   child: Padding(
                     padding: const EdgeInsets.all(18),
                     child: Text(
-                      editorial.summary,
+                      editorial?.summary ??
+                          verifiedOverviewCopy(
+                            l10n,
+                            controller.catalog!
+                                .verifiedMetadataFor(
+                                  primary.id,
+                                  locale.languageCode,
+                                )!,
+                          ),
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             height: 1.45,
                           ),

@@ -42,8 +42,6 @@
   "offlineFirst": "Disponible sin conexión",
   "dataPolicy": "Política de datos",
   "dataPolicyDescription": "Las etiquetas oficiales requieren una fuente primaria o del organizador. Los candidatos de descubrimiento permanecen separados hasta ser verificados.",
-  "editorialComingNext": "Contenido editorial próximamente",
-  "editorialPlaceholder": "Esta primera versión mantiene la identidad verificada y la procedencia separadas del futuro contenido editorial original.",
   "noSearchResults": "Ninguna conmemoración coincide con estos filtros.",
   "clearSearch": "Borrar búsqueda",
   "recognized": "Reconocida",
@@ -176,5 +174,11 @@
   "reminderSubscriptions": "Suscripciones a recordatorios",
   "noReminderSubscriptions": "No hay recordatorios activados.",
   "noFollowedCategories": "Todavía no sigues ninguna categoría.",
-  "manageInSettings": "Gestionar en Ajustes"
+  "manageInSettings": "Gestionar en Ajustes",
+  "verifiedOverview": "Resumen verificado",
+  "verifiedOverviewSummary": "{title} es una celebración verificada en el catálogo de World Days. Ámbito: {scope}. Autoridad: {authority}.",
+  "verifiedOverviewNote": "Este resumen utiliza únicamente metadatos verificados del registro. El contexto editorial más amplio solo se muestra después de revisar las fuentes.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "Nacional",
+  "verifiedScopeRegional": "Regional"
 }

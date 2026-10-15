@@ -7,6 +7,7 @@ import '../domain/observance.dart';
 import '../domain/occurrence.dart';
 import '../domain/recurrence_engine.dart';
 import '../domain/year_override.dart';
+import '../domain/verified_record_overview.dart';
 
 final class CatalogSnapshot {
   const CatalogSnapshot({
@@ -32,6 +33,15 @@ final class CatalogSnapshot {
     final normalized = localeCode.toLowerCase();
     return editorialByLocale[normalized]?[observanceId] ??
         editorialByLocale['en']?[observanceId];
+  }
+
+  VerifiedRecordOverview? verifiedMetadataFor(
+    String observanceId,
+    String localeCode,
+  ) {
+    final record = byId[observanceId];
+    if (record == null) return null;
+    return VerifiedRecordOverview.fromObservance(record, localeCode);
   }
 
   ObservanceYearOverride? yearOverrideFor(String observanceId, int year) {

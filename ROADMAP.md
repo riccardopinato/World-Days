@@ -25,9 +25,9 @@ Important: the previous production/physical monetization evidence predates the c
 
 Blocking sequence:
 
-**C → E → F → I → J → K**
+**E → F → I → J → K**
 
-Phase A/B/D/G/H implementation scope is closed; release work now follows the blocking sequence above.
+Phase A/B/C/D/G/H implementation scope is closed; release work now follows the blocking sequence above.
 
 ---
 
@@ -99,17 +99,26 @@ Audit-required hardening:
 - [x] Cross-year range acceptance has explicit regression coverage.
 - [x] 2026 generated occurrence output is cross-checked against the runtime recurrence engine.
 
-## Phase C — Editorial completion — BLOCKING
+## Phase C — Content understanding / editorial completion ✅
 
-Current reviewed editorial coverage: **28 / 296 (~9.5%)**.
+V1 coverage is intentionally two-tier and provenance-safe:
 
-- [x] Extended editorial schema: hook, Why this date, Origin/history, quick facts, related observances.
+- **Verified Overview:** 296 / 296 launch records × EN/IT/ES/FR/DE/PT.
+- **Rich Editorial:** 28 / 296 curated records, preserved as the reviewed long-form layer.
+
+Completed:
+- [x] Extended Rich Editorial schema: hook, Why this date, Origin/history, quick facts, related observances.
 - [x] Annual campaign themes consumed from year overrides.
-- [ ] Complete original English editorial coverage for all launch records.
-- [ ] Review primary/originator grounding and provenance for every reviewed article.
-- [ ] Translate reviewed editorial content to IT/ES/FR/DE/PT.
-- [ ] Replace generic editorial-coming-next states only when reviewed source-backed content exists.
-- [ ] Re-run locale parity/editorial validators at 100% target coverage.
+- [x] Every launch record has a concise Verified Overview derived only from canonical verified metadata.
+- [x] Verified Overview copy is centralized in ARB localization resources and never relabeled as REVIEWED editorial.
+- [x] Every reviewed Rich Editorial article is gated by canonical authority/source provenance with a strong primary/institutional/originator source.
+- [x] Existing reviewed Rich Editorial content has EN/IT/ES/FR/DE/PT locale parity.
+- [x] Generic “editorial coming next” placeholders are removed from consumer detail flows.
+- [x] Full-catalog six-locale coverage is regression-tested.
+
+Post-v1 content program:
+- [ ] Expand Rich Editorial beyond the current 28 reviewed records only after source review.
+- [ ] Add richer Why-this-date/origin/facts/actions where canonical sources support those claims.
 
 ## Phase D — Today / Calendar / Discover / market completion ✅
 

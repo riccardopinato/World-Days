@@ -42,8 +42,6 @@
   "offlineFirst": "Offline verfügbar",
   "dataPolicy": "Datenrichtlinie",
   "dataPolicyDescription": "Offizielle Kennzeichnungen erfordern eine Primärquelle oder Quelle des Veranstalters. Discovery-Kandidaten bleiben bis zur Verifizierung getrennt.",
-  "editorialComingNext": "Redaktioneller Inhalt folgt",
-  "editorialPlaceholder": "Diese erste Version hält verifizierte Identität und Herkunft von zukünftigen eigenen redaktionellen Inhalten getrennt.",
   "noSearchResults": "Keine Gedenktage entsprechen diesen Filtern.",
   "clearSearch": "Suche löschen",
   "recognized": "Anerkannt",
@@ -176,5 +174,11 @@
   "reminderSubscriptions": "Erinnerungsabonnements",
   "noReminderSubscriptions": "Es sind keine Erinnerungen aktiviert.",
   "noFollowedCategories": "Du folgst noch keinen Kategorien.",
-  "manageInSettings": "In den Einstellungen verwalten"
+  "manageInSettings": "In den Einstellungen verwalten",
+  "verifiedOverview": "Verifizierter Überblick",
+  "verifiedOverviewSummary": "{title} ist ein verifizierter Gedenk- oder Aktionstag im World-Days-Katalog. Geltungsbereich: {scope}. Zuständige Stelle: {authority}.",
+  "verifiedOverviewNote": "Diese Übersicht verwendet nur verifizierte Metadaten des Datensatzes. Ausführlicher redaktioneller Kontext wird erst nach Quellenprüfung angezeigt.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "National",
+  "verifiedScopeRegional": "Regional"
 }

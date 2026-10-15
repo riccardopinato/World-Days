@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
+import '../../core/verified_overview_copy.dart';
 import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
+import '../../domain/verified_record_overview.dart';
 import '../../l10n/app_localizations.dart';
 
 class ObservanceDetailPage extends StatefulWidget {
@@ -38,6 +40,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final catalog = widget.controller.catalog;
     final editorial = catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
+    final verifiedOverview = VerifiedRecordOverview.fromObservance(record, localeCode);
     final annualOverride = catalog?.yearOverrideFor(record.id, DateTime.now().year);
     final related = editorial == null
         ? const <Observance>[]
@@ -243,16 +246,17 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ],
             const SizedBox(height: 16),
           ] else ...[
-            Text(
-              l10n.editorialComingNext,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w800,
-                  ),
+            _EditorialSection(
+              icon: Icons.verified_outlined,
+              title: l10n.verifiedOverview,
+              body: verifiedOverviewCopy(l10n, verifiedOverview),
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 10),
             Text(
-              l10n.editorialPlaceholder,
-              style: Theme.of(context).textTheme.bodyLarge,
+              l10n.verifiedOverviewNote,
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
             ),
             const SizedBox(height: 24),
           ],
@@ -335,7 +339,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     return l10n.institutional;
   }
 }
-
 
 class _EditorialSection extends StatelessWidget {
   const _EditorialSection({

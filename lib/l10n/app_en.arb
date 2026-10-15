@@ -42,8 +42,6 @@
   "offlineFirst": "Available offline",
   "dataPolicy": "Data policy",
   "dataPolicyDescription": "Official badges require primary or originator evidence. Discovery candidates stay separate until verified.",
-  "editorialComingNext": "Editorial article coming next",
-  "editorialPlaceholder": "This first release keeps verified identity and provenance separate from future original editorial content.",
   "noSearchResults": "No observances match these filters.",
   "clearSearch": "Clear search",
   "recognized": "Recognized",
@@ -176,5 +174,24 @@
   "reminderSubscriptions": "Reminder subscriptions",
   "noReminderSubscriptions": "No reminder subscriptions are enabled.",
   "noFollowedCategories": "No followed categories yet.",
-  "manageInSettings": "Manage in Settings"
+  "manageInSettings": "Manage in Settings",
+  "verifiedOverview": "Verified overview",
+  "verifiedOverviewSummary": "{title} is a verified observance in the World Days catalog. Scope: {scope}. Authority: {authority}.",
+  "@verifiedOverviewSummary": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "scope": {
+        "type": "String"
+      },
+      "authority": {
+        "type": "String"
+      }
+    }
+  },
+  "verifiedOverviewNote": "This overview uses only verified record metadata. Richer editorial context is shown only after source review.",
+  "verifiedScopeGlobal": "Global",
+  "verifiedScopeNational": "National",
+  "verifiedScopeRegional": "Regional"
 }

@@ -42,8 +42,6 @@
   "offlineFirst": "Disponibile offline",
   "dataPolicy": "Politica dei dati",
   "dataPolicyDescription": "I badge ufficiali richiedono una fonte primaria o dell'organizzatore. Le ricorrenze discovery restano separate finché non vengono verificate.",
-  "editorialComingNext": "Contenuto editoriale in arrivo",
-  "editorialPlaceholder": "Questa prima release mantiene identità verificata e provenienza separate dai futuri contenuti editoriali originali.",
   "noSearchResults": "Nessuna ricorrenza corrisponde a questi filtri.",
   "clearSearch": "Cancella ricerca",
   "recognized": "Riconosciuta",
@@ -176,5 +174,11 @@
   "reminderSubscriptions": "Iscrizioni ai promemoria",
   "noReminderSubscriptions": "Nessun promemoria attivo.",
   "noFollowedCategories": "Non segui ancora nessuna categoria.",
-  "manageInSettings": "Gestisci nelle Impostazioni"
+  "manageInSettings": "Gestisci nelle Impostazioni",
+  "verifiedOverview": "Panoramica verificata",
+  "verifiedOverviewSummary": "{title} è una ricorrenza verificata nel catalogo World Days. Ambito: {scope}. Autorità: {authority}.",
+  "verifiedOverviewNote": "Questa panoramica usa solo metadati verificati del record. Il contesto editoriale più ricco viene mostrato soltanto dopo la revisione delle fonti.",
+  "verifiedScopeGlobal": "Globale",
+  "verifiedScopeNational": "Nazionale",
+  "verifiedScopeRegional": "Regionale"
 }

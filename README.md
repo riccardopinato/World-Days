@@ -19,7 +19,7 @@ Implemented in this first real repository pass:
 - Today, Calendar, Discover, Saved and Settings navigation;
 - observance detail/source transparency;
 - local favorites, recents, streak and profile preferences;
-- EN/IT/ES/FR/DE/PT UI localization plus reviewed editorial locale packs;
+- EN/IT/ES/FR/DE/PT UI localization plus 296/296 localized Verified Overviews and reviewed rich editorial locale packs;
 - responsive Material 3 theme;
 - lightweight visual-key artwork across Today, cards and detail;
 - themed Discover collections and locally generated share cards;
@@ -35,7 +35,7 @@ Implemented in this first real repository pass:
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Verified Overview coverage is 296/296 in EN/IT/ES/FR/DE/PT; Rich Editorial remains a separate curated layer at 28/296 reviewed records. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
 ## Privacy
 
