@@ -31,6 +31,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
+      - name: Resolve source version identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION_SPEC="$(awk '$1 == "version:" {print $2}' pubspec.yaml)"
+          if [[ ! "$VERSION_SPEC" =~ ^([0-9]+\.[0-9]+\.[0-9]+)\+([1-9][0-9]*)$ ]]; then
+            echo "::error::pubspec version must be MAJOR.MINOR.PATCH+positiveBuildNumber; got $VERSION_SPEC"
+            exit 1
+          fi
+          echo "WORLD_DAYS_VERSION_NAME=${BASH_REMATCH[1]}" >> "$GITHUB_ENV"
+          echo "WORLD_DAYS_VERSION_CODE=${BASH_REMATCH[2]}" >> "$GITHUB_ENV"
+
       - name: Require production signing and AdMob secrets
         env:
           KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -134,14 +146,16 @@ jobs:
             --release \
             --split-per-abi \
             --tree-shake-icons \
-            --build-number "$GITHUB_RUN_NUMBER" \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE" \
             --dart-define=WORLD_DAYS_ADS_PRODUCTION=true \
             --dart-define=ADMOB_ANDROID_BANNER_ID="$ADMOB_ANDROID_BANNER_ID"
 
           flutter build appbundle \
             --release \
             --tree-shake-icons \
-            --build-number "$GITHUB_RUN_NUMBER" \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE" \
             --dart-define=WORLD_DAYS_ADS_PRODUCTION=true \
             --dart-define=ADMOB_ANDROID_BANNER_ID="$ADMOB_ANDROID_BANNER_ID"
 
@@ -174,8 +188,8 @@ jobs:
             exit 1
           fi
 
-          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionCode=%s\nadmobLane=production\n' \
-            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_NUMBER" \
+          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionName=%s\nversionCode=%s\nadmobLane=production\n' \
+            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$WORLD_DAYS_VERSION_NAME" "$WORLD_DAYS_VERSION_CODE" \
             > build/production-release-evidence.txt
           sha256sum "$APK" "$AAB" > build/production-artifact-sha256.txt
 
