@@ -169,5 +169,12 @@
   "checkForUpdates": "Controlla aggiornamenti",
   "installUpdate": "Installa aggiornamento",
   "contentUpdateInstalled": "Aggiornamento catalogo installato.",
-  "contentUpdateFailed": "Impossibile installare l'aggiornamento del catalogo."
+  "contentUpdateFailed": "Impossibile installare l'aggiornamento del catalogo.",
+  "chooseCountry": "Scegli un Paese",
+  "chooseCountryDescription": "Scegli un Paese per esplorare le ricorrenze nazionali verificate. Questa scelta non modifica il mercato del tuo profilo.",
+  "noCountryObservances": "Non ci sono ancora ricorrenze nazionali verificate disponibili per questo Paese.",
+  "reminderSubscriptions": "Iscrizioni ai promemoria",
+  "noReminderSubscriptions": "Nessun promemoria attivo.",
+  "noFollowedCategories": "Non segui ancora nessuna categoria.",
+  "manageInSettings": "Gestisci nelle Impostazioni"
 }
