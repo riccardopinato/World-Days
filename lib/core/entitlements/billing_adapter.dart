@@ -16,6 +16,10 @@ abstract interface class BillingAdapter {
 
   Future<BillingResult> restoreRemoveAds();
 
+  /// Finalizes a provider transaction only after the entitlement layer has
+  /// persisted/delivered the verified capability.
+  Future<void> completePurchase(BillingResult result);
+
   Future<void> dispose();
 }
 
@@ -49,6 +53,9 @@ class UnavailableBillingAdapter implements BillingAdapter {
         state: PurchaseFlowState.billingUnavailable,
         errorCode: 'billing_unavailable',
       );
+
+  @override
+  Future<void> completePurchase(BillingResult result) async {}
 
   @override
   Future<void> dispose() async {}
