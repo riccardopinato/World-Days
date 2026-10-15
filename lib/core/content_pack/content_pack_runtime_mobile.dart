@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:typed_data';
 
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
@@ -37,16 +38,42 @@ class _HttpContentPackTransport implements ContentPackTransport {
   }
 
   @override
-  Future<List<int>> getBytes(Uri uri) async {
-    final response =
-        await _client.get(uri).timeout(const Duration(seconds: 30));
+  Future<List<int>> getBytes(
+    Uri uri, {
+    required int maxBytes,
+  }) async {
+    if (maxBytes <= 0) {
+      throw const FormatException('content_payload_invalid_max_bytes');
+    }
+
+    final request = http.Request('GET', uri);
+    final response = await _client
+        .send(request)
+        .timeout(const Duration(seconds: 15));
+
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_payload_http_${response.statusCode}',
         uri: uri,
       );
     }
-    return response.bodyBytes;
+
+    final declaredLength = response.contentLength;
+    if (declaredLength != null && declaredLength > maxBytes) {
+      throw const FormatException('content_payload_exceeds_byte_cap');
+    }
+
+    final buffer = BytesBuilder(copy: false);
+    var received = 0;
+    await for (final chunk
+        in response.stream.timeout(const Duration(seconds: 30))) {
+      received += chunk.length;
+      if (received > maxBytes) {
+        throw const FormatException('content_payload_exceeds_byte_cap');
+      }
+      buffer.add(chunk);
+    }
+    return buffer.takeBytes();
   }
 
   @override
