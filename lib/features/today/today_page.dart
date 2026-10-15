@@ -126,7 +126,13 @@ class TodayPage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(18),
                     child: Text(
-                      editorial.summary,
+                      editorial?.summary ??
+                          controller.catalog!
+                              .verifiedMetadataFor(
+                                primary.id,
+                                locale.languageCode,
+                              )!
+                              .summary,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             height: 1.45,
                           ),
