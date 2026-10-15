@@ -1,6 +1,6 @@
 # World Days — Remote Content Pack v1
 
-Status: code-complete Phase G implementation. Store/release certification remains governed by the exact-artifact gates in `ROADMAP.md`.
+Status: **Phase G + G.1 implementation complete**. Store/release certification remains governed by the exact-artifact gates in `ROADMAP.md`.
 
 ## Purpose
 
@@ -40,16 +40,20 @@ Schema v1 fields:
 Runtime rejects:
 - unsupported schema/pack IDs;
 - unsafe version strings;
-- non-HTTPS payloads;
+- payload URLs outside the pinned `https://riccardopinato.github.io/World-Days/content/` origin/path;
+- unexpected payload filename shapes, query strings or fragments;
 - non-hex SHA-256 values;
 - zero/oversized packs;
+- source/provenance records without verification metadata;
 - size mismatches;
 - checksum mismatches;
 - payloads that fail catalog parsing/domain validation;
 - pack-version vs canonical dataset-version drift.
 
-The v1 safety cap is 5 MiB. This is intentionally well above the current
-catalog size while bounding an in-memory JSON download.
+The v1 safety cap is 5 MiB. The mobile transport now streams response chunks
+through a hard byte cutoff derived from the manifest before the JSON bytes are
+materialized, so an origin cannot exceed the declared download budget merely
+by returning a larger body.
 
 ## Pack contents
 
@@ -69,7 +73,8 @@ updates annual campaign/theme metadata and authoritative date overrides.
 3. If the active pack is corrupt, the manager attempts the previous verified
    version.
 4. Manifest checks run asynchronously and never block local startup.
-5. Downloaded bytes stay inactive until size, SHA-256 and catalog validation
+5. Payload bytes are streamed through a hard maximum equal to the signed-off
+   manifest size and stay inactive until size, SHA-256 and catalog validation
    all pass.
 6. Versioned payload/manifest files are written first.
 7. A small active/previous pointer switches only after successful validation.
@@ -112,7 +117,9 @@ manifest from generated catalog assets.
 - SHA-256;
 - required files;
 - record identity integrity;
-- occurrence/editorial references.
+- occurrence/editorial references;
+- source + verification metadata;
+- approved payload origin/path and filename shape.
 
 Flutter tests cover:
 - clean verified install;
@@ -122,15 +129,29 @@ Flutter tests cover:
 - payload network failure;
 - rollback from corrupt active content;
 - offline/bundled fallback;
-- unsafe manifest rejection;
+- unsafe/off-origin manifest rejection;
+- hard streamed byte-cap overflow;
 - actual World Days content-pack decoding and version coherence.
 
 ## Explicit v1 boundaries
 
-- JSON pack download is intentionally small and memory-bounded; resumable
-  large-file transfer is not needed.
+- JSON pack download is intentionally small, streamed and hard-capped;
+  resumable large-file transfer is not needed.
 - Web stays on bundled content.
 - No content update can mutate user-owned state.
 - The remote channel is not a code/config execution channel.
 - Content quality/provenance remains governed by the existing editorial/data
   policies; checksum verification proves integrity, not truthfulness.
+
+
+## Phase G.1 release parity
+
+Signed Android QA and Production Android Release both execute the same
+content-pack build/validation and native-network validation gates used by
+development CI.
+
+After GitHub Pages deploys, `tool/smoke_remote_content_pack.py` polls the
+public manifest until the new version propagates, then verifies the public
+payload byte length, SHA-256, version and pack identity against the locally
+generated manifest. This closes the gap between build-time validation and the
+actual hosted content channel.
