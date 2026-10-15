@@ -44,7 +44,8 @@ void main() {
     expect(previous?.manifest.version, '1');
     expect(previous?.bytes, v1);
 
-    final files = await root.list().whereType<File>().toList();
+    final entities = await root.list().toList();
+    final files = entities.whereType<File>();
     final names = files.map((file) => file.uri.pathSegments.last).toSet();
     expect(names, contains('pointer.json'));
     expect(names, contains('pointer.backup.json'));
