@@ -32,22 +32,26 @@ class TodayPage extends StatelessWidget {
 
     return CustomScrollView(
       slivers: [
-        SliverAppBar.large(
-          title: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(l10n.today),
-              Text(
-                DateFormat.yMMMMd(localeTag).format(now),
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
-            ],
+        if (MediaQuery.textScalerOf(context).scale(1) >= 1.5)
+          SliverAppBar(
+            title: Text(l10n.today),
+          )
+        else
+          SliverAppBar.large(
+            title: Text(l10n.today),
           ),
-        ),
         SliverPadding(
           padding: const EdgeInsets.fromLTRB(20, 0, 20, 32),
           sliver: SliverList.list(
             children: [
+              Text(
+                DateFormat.yMMMMd(localeTag).format(now),
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      fontWeight: FontWeight.w600,
+                    ),
+              ),
+              const SizedBox(height: 12),
               if (primary != null)
                 ObservanceHero(
                   observance: primary,

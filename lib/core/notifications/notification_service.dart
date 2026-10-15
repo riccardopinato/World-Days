@@ -6,6 +6,7 @@ import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest.dart' as tz_data;
 import 'package:timezone/timezone.dart' as tz;
 
+import 'notification_gateway.dart';
 import 'notification_health.dart';
 import 'reminder_plan.dart';
 
@@ -15,7 +16,7 @@ void notificationTapBackground(NotificationResponse response) {
   // navigation is handled on the main isolate when the app opens.
 }
 
-class NotificationService {
+class NotificationService implements NotificationGateway {
   NotificationService._();
 
   static final NotificationService instance = NotificationService._();
@@ -35,19 +36,23 @@ class NotificationService {
   String? _lastError;
   String? _initialPayload;
 
+  @override
   bool get supported =>
       !kIsWeb &&
       (defaultTargetPlatform == TargetPlatform.android ||
           defaultTargetPlatform == TargetPlatform.iOS);
 
+  @override
   Stream<String> get notificationTapStream => _tapController.stream;
 
-  String? takeInitialPayload() {
+  @override
+String? takeInitialPayload() {
     final payload = _initialPayload;
     _initialPayload = null;
     return payload;
   }
 
+  @override
   Future<void> initialize({bool force = false}) async {
     if (_initialized && !force) return;
     if (!supported) {
@@ -123,6 +128,7 @@ class NotificationService {
     }
   }
 
+  @override
   Future<bool> requestPermissions() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return false;
@@ -156,6 +162,7 @@ class NotificationService {
     return granted;
   }
 
+  @override
   Future<NotificationHealth> health() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) {
@@ -213,6 +220,7 @@ class NotificationService {
     );
   }
 
+  @override
   Future<void> openSystemSettings() async {
     await initialize(force: !_initialized || !_available);
     if (!_available) return;
@@ -283,6 +291,7 @@ class NotificationService {
     }
   }
 
+  @override
   Future<void> reconcile(Iterable<PlannedNotification> plan) async {
     await initialize();
     if (!_available) return;
@@ -296,6 +305,7 @@ class NotificationService {
     }
   }
 
+  @override
   Future<LocalNotificationDiagnostic> runLocalDiagnostic({
     required String immediateTitle,
     required String immediateBody,
@@ -373,6 +383,7 @@ class NotificationService {
     return hash;
   }
 
+  @override
   void dispose() {
     _tapController.close();
   }

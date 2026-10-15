@@ -265,13 +265,104 @@ class _AppShellState extends State<_AppShell> {
               ),
             ],
           ),
-          bottomNavigationBar: NavigationBar(
-            selectedIndex: index,
-            onDestinationSelected: (value) => setState(() => index = value),
-            destinations: destinations,
+          bottomNavigationBar: Builder(
+            builder: (context) {
+              final textScale = MediaQuery.textScalerOf(context).scale(1);
+              if (textScale >= 1.5) {
+                return _CompactAccessibleNavigationBar(
+                  destinations: destinations,
+                  selectedIndex: index,
+                  onDestinationSelected: (value) =>
+                      setState(() => index = value),
+                );
+              }
+
+              return NavigationBar(
+                height: 80,
+                labelBehavior: constraints.maxWidth < 430
+                    ? NavigationDestinationLabelBehavior.onlyShowSelected
+                    : NavigationDestinationLabelBehavior.alwaysShow,
+                selectedIndex: index,
+                onDestinationSelected: (value) =>
+                    setState(() => index = value),
+                destinations: destinations,
+              );
+            },
           ),
         );
       },
+    );
+  }
+}
+
+
+class _CompactAccessibleNavigationBar extends StatelessWidget {
+  const _CompactAccessibleNavigationBar({
+    required this.destinations,
+    required this.selectedIndex,
+    required this.onDestinationSelected,
+  });
+
+  final List<NavigationDestination> destinations;
+  final int selectedIndex;
+  final ValueChanged<int> onDestinationSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return Material(
+      color: colors.surfaceContainer,
+      child: SafeArea(
+        top: false,
+        child: SizedBox(
+          height: 72,
+          child: Row(
+            children: [
+              for (var i = 0; i < destinations.length; i++)
+                Expanded(
+                  child: Semantics(
+                    button: true,
+                    selected: i == selectedIndex,
+                    label: destinations[i].label,
+                    child: Tooltip(
+                      message: destinations[i].label,
+                      child: InkResponse(
+                        onTap: () => onDestinationSelected(i),
+                        radius: 28,
+                        child: Center(
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 180),
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 14,
+                              vertical: 8,
+                            ),
+                            decoration: BoxDecoration(
+                              color: i == selectedIndex
+                                  ? colors.secondaryContainer
+                                  : Colors.transparent,
+                              borderRadius: BorderRadius.circular(22),
+                            ),
+                            child: IconTheme(
+                              data: IconThemeData(
+                                color: i == selectedIndex
+                                    ? colors.onSecondaryContainer
+                                    : colors.onSurfaceVariant,
+                              ),
+                              child: i == selectedIndex
+                                  ? (destinations[i].selectedIcon ??
+                                      destinations[i].icon)
+                                  : destinations[i].icon,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

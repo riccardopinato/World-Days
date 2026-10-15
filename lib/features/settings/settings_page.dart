@@ -83,31 +83,17 @@ class _SettingsPageState extends State<SettingsPage> {
         padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
         children: [
           _SectionTitle(l10n.theme),
-          SegmentedButton<ThemeMode>(
-            segments: [
-              ButtonSegment(
-                value: ThemeMode.system,
-                label: Text(l10n.system),
-                icon: const Icon(Icons.phone_android_rounded),
-              ),
-              ButtonSegment(
-                value: ThemeMode.light,
-                label: Text(l10n.light),
-                icon: const Icon(Icons.light_mode_rounded),
-              ),
-              ButtonSegment(
-                value: ThemeMode.dark,
-                label: Text(l10n.dark),
-                icon: const Icon(Icons.dark_mode_rounded),
-              ),
-            ],
-            selected: {widget.controller.preferences.themeMode},
-            onSelectionChanged: (values) =>
-                widget.controller.setThemeMode(values.single),
+          _ThemeModeSelector(
+            value: widget.controller.preferences.themeMode,
+            systemLabel: l10n.system,
+            lightLabel: l10n.light,
+            darkLabel: l10n.dark,
+            onChanged: widget.controller.setThemeMode,
           ),
           const SizedBox(height: 28),
           _SectionTitle(l10n.language),
           DropdownButtonFormField<String?>(
+            isExpanded: true,
             initialValue: widget.controller.preferences.localeCode,
             decoration: const InputDecoration(
               prefixIcon: Icon(Icons.language_rounded),
@@ -115,12 +101,20 @@ class _SettingsPageState extends State<SettingsPage> {
             items: [
               DropdownMenuItem<String?>(
                 value: null,
-                child: Text(l10n.deviceLanguage),
+                child: Text(
+                  l10n.deviceLanguage,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
               for (final entry in SettingsPage.localeOptions.entries)
                 DropdownMenuItem<String?>(
                   value: entry.key,
-                  child: Text(entry.value),
+                  child: Text(
+                    entry.value,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
                 ),
             ],
             onChanged: widget.controller.setLocale,
@@ -133,6 +127,7 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
           const SizedBox(height: 12),
           DropdownButtonFormField<String>(
+            isExpanded: true,
             initialValue: widget.controller.preferences.marketCode,
             decoration: const InputDecoration(
               prefixIcon: Icon(Icons.public_rounded),
@@ -143,6 +138,8 @@ class _SettingsPageState extends State<SettingsPage> {
                   value: option.code,
                   child: Text(
                     '${option.emoji}  ${marketLabel(l10n, option.code)}',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ),
             ],
@@ -643,6 +640,65 @@ class _SettingsPageState extends State<SettingsPage> {
         'COMMUNITY' => l10n.categoryCommunity,
         _ => key,
       };
+}
+
+class _ThemeModeSelector extends StatelessWidget {
+  const _ThemeModeSelector({
+    required this.value,
+    required this.systemLabel,
+    required this.lightLabel,
+    required this.darkLabel,
+    required this.onChanged,
+  });
+
+  final ThemeMode value;
+  final String systemLabel;
+  final String lightLabel;
+  final String darkLabel;
+  final ValueChanged<ThemeMode> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    final scale = MediaQuery.textScalerOf(context).scale(1);
+    final options = <(ThemeMode, String, IconData)>[
+      (ThemeMode.system, systemLabel, Icons.phone_android_rounded),
+      (ThemeMode.light, lightLabel, Icons.light_mode_rounded),
+      (ThemeMode.dark, darkLabel, Icons.dark_mode_rounded),
+    ];
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        if (constraints.maxWidth < 420 || scale >= 1.4) {
+          return Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              for (final option in options)
+                ChoiceChip(
+                  avatar: Icon(option.$3, size: 18),
+                  label: Text(option.$2),
+                  selected: value == option.$1,
+                  onSelected: (_) => onChanged(option.$1),
+                ),
+            ],
+          );
+        }
+
+        return SegmentedButton<ThemeMode>(
+          segments: [
+            for (final option in options)
+              ButtonSegment(
+                value: option.$1,
+                label: Text(option.$2),
+                icon: Icon(option.$3),
+              ),
+          ],
+          selected: {value},
+          onSelectionChanged: (values) => onChanged(values.single),
+        );
+      },
+    );
+  }
 }
 
 class _SectionTitle extends StatelessWidget {

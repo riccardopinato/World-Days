@@ -4,9 +4,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:home_widget/home_widget.dart';
 
-import '../../domain/observance.dart';
-
-typedef WidgetObservancesForDate = List<Observance> Function(DateTime date);
+import 'home_widget_gateway.dart';
 
 class WorldDaysWidgetProjection {
   const WorldDaysWidgetProjection._();
@@ -54,7 +52,7 @@ class WorldDaysWidgetProjection {
   }
 }
 
-class WorldDaysHomeWidgetService {
+class WorldDaysHomeWidgetService implements HomeWidgetGateway {
   WorldDaysHomeWidgetService._();
 
   static final WorldDaysHomeWidgetService instance =
@@ -67,11 +65,14 @@ class WorldDaysHomeWidgetService {
       StreamController<Uri>.broadcast();
   StreamSubscription<Uri?>? _widgetClickSubscription;
 
+  @override
   bool get supported =>
       !kIsWeb && defaultTargetPlatform == TargetPlatform.android;
 
+  @override
   Stream<Uri> get clickStream => _clickController.stream;
 
+  @override
   Future<Uri?> initialize() async {
     if (!supported) return null;
     _widgetClickSubscription ??= HomeWidget.widgetClicked.listen((uri) {
@@ -84,6 +85,7 @@ class WorldDaysHomeWidgetService {
     }
   }
 
+  @override
   Future<void> sync({
     required String localeCode,
     required WidgetObservancesForDate observancesForDate,
@@ -106,6 +108,7 @@ class WorldDaysHomeWidgetService {
     }
   }
 
+  @override
   Future<bool> isPinSupported() async {
     if (!supported) return false;
     try {
@@ -115,6 +118,7 @@ class WorldDaysHomeWidgetService {
     }
   }
 
+  @override
   Future<bool> requestPin() async {
     if (!await isPinSupported()) return false;
     try {
@@ -127,6 +131,7 @@ class WorldDaysHomeWidgetService {
     }
   }
 
+  @override
   void dispose() {
     _widgetClickSubscription?.cancel();
     _clickController.close();

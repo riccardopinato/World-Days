@@ -9,8 +9,9 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 
 World Days is technically healthy but **NOT Store Ready**.
 
-Post-Phase-B/G.1 evidence on main:
-- Development checks: analyze + **44 Flutter tests** + Web release + Android ARM64 build PASS.
+Current automated evidence (Phase H merge candidate):
+- Pull-request Development checks: analyze + **76 Flutter tests** + Web release PASS.
+- The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
 - Hosted payload smoke: version `2026.10.14.1`, 501,993 bytes, SHA-256 `38e6ee66d3646c0c313ca7b4b8e395a79b2456ecfc5522cd25c948b0f624d8b7`.
@@ -209,29 +210,34 @@ Audit findings:
 - [x] Post-Pages-deploy smoke gate checks hosted manifest/payload propagation, size and SHA-256 agreement.
 - [x] Signed-manifest cryptography remains a future escalation only if the hosting/threat model changes.
 
-## Phase H — Code hygiene / automated QA expansion
+## Phase H — Code hygiene / automated QA expansion ✅
 
 Completed:
 - [x] Obsolete synthetic-package l10n option removed.
 - [x] Notification diagnostics split from consumer Settings.
 - [x] Source verification metadata preserved.
 - [x] Weekly reminder weekday is user-selectable.
-- [x] Current main passes analyze + 44 Flutter tests + Web + Android ARM64 CI.
+- [x] Maintained `integration_test` journey: launch → Today → detail → favorite → Saved → Calendar → Settings.
+- [x] AppController tests use injected entitlement/content/notification/widget boundaries.
+- [x] Settings interaction/widget actions have widget-test coverage.
+- [x] Calendar filter/navigation behavior has regression coverage.
+- [x] Around-the-World browsing is regression-tested as transient to profile market.
+- [x] Saved → detail navigation and favorite persistence have regression coverage.
+- [x] Monetization controller is tested behind a fake UMP/Mobile Ads platform boundary.
+- [x] Entitlement recovery covers failed finalization, restart/redelivery and durable completion markers.
+- [x] Filesystem content-pack storage has active/previous, rollback and corrupt-pointer recovery tests.
+- [x] Notification/widget retention adapters are injectable and deterministic controller behavior is covered.
+- [x] Responsive/accessibility smoke covers 360×800 at 200% text scale, wide NavigationRail switching and calendar button semantics.
+- [x] Large-text overflow in `ObservanceHero` fixed without capping the platform text scale.
+- [x] Flutter/Kotlin/dependency warning sweep found no Phase-H blocker; the generated iOS launcher-icon alpha warning remains a Phase-I/store-scope concern if iOS stays in v1.
+- [x] Pull-request Development checks pass analyze + 76 Flutter tests + Web release; Android ARM64 remains the conditional post-merge `main` gate.
 
-Open:
-- [ ] Add maintained `integration_test` smoke: launch → Today → detail → favorite → Saved → Calendar → Settings.
-- [ ] Expand AppController tests with injected entitlement/content/retention fakes.
-- [ ] Add Settings interaction/widget tests.
-- [ ] Add Calendar filter/navigation tests.
-- [ ] Add Around-the-World transient-state tests.
-- [ ] Add Saved/detail navigation tests.
-- [ ] Add monetization-controller tests behind a fake consent/ads boundary where practical.
-- [ ] Add billing-adapter lifecycle tests including finalization recovery.
-- [ ] Add filesystem content-pack storage tests.
-- [ ] Add deterministic notification/widget adapter tests where platform abstraction permits.
-- [ ] Review Flutter/Kotlin/dependency migration warnings before final freeze.
-- [ ] Split oversized orchestration/UI files when touching them next: `AppController`, Settings and Calendar first.
-- [ ] Final accessibility automation expansion: semantics, focus order and touch-target checks.
+Deferred / bounded follow-up:
+- [ ] Split oversized orchestration/UI files only when next touched: `AppController`, Settings and Calendar first.
+- [ ] Extend accessibility automation beyond the current semantics/large-text smoke to explicit focus-order and touch-target assertions before final Phase J certification.
+- [ ] Keep provider/plugin-specific Play billing behavior in the Phase E sandbox and Phase J exact-artifact gates rather than simulating store behavior in unit tests.
+
+Evidence: `docs/PHASE_H_AUTOMATED_QA_EVIDENCE.md`.
 
 ## Phase I — Governance / product-truth / privacy alignment — BLOCKING
 
