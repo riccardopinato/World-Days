@@ -46,17 +46,28 @@ def main():
                 "locale": locale,
                 "translationOf": "en",
                 "status": "REVIEWED_TRANSLATION",
+                "hook": item.get("hook", "").strip(),
                 "summary": item["summary"].strip(),
+                "whyThisDate": item.get("whyThisDate", "").strip(),
+                "origin": item.get("origin", "").strip(),
                 "whyItMatters": item["whyItMatters"].strip(),
+                "quickFacts": [
+                    value.strip() for value in item.get("quickFacts", [])
+                    if value.strip()
+                ],
                 "waysToTakePart": [value.strip() for value in item["waysToTakePart"]],
+                "relatedObservanceIds": [
+                    value.strip() for value in item.get("relatedObservanceIds", [])
+                    if value.strip()
+                ],
                 "lastReviewedAt": REVIEWED,
                 "sourcePolicy": "Translation of the reviewed English editorial master; factual claims remain governed by the canonical observance sources.",
             })
 
         payload = {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.10.12.1",
+            "datasetVersion": "2026.10.15.2",
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),
