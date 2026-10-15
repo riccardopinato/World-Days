@@ -96,7 +96,11 @@ final class AppController extends ChangeNotifier {
         _catalogRepository.load(contentPack: contentPacks.activePayload),
         _preferencesRepository.load(),
       ]);
-      _replaceCatalog(values[0] as CatalogSnapshot);
+      final loadedCatalog = values[0] as CatalogSnapshot;
+      _replaceCatalog(loadedCatalog);
+      if (contentPacks.activePayload == null) {
+        contentPacks.setBundledVersion(loadedCatalog.datasetVersion);
+      }
       preferences = values[1] as UserPreferences;
       await _updateStreak();
     } catch (e) {
@@ -141,7 +145,9 @@ final class AppController extends ChangeNotifier {
         );
         _replaceCatalog(recovered);
       } catch (_) {
-        _replaceCatalog(await _catalogRepository.load());
+        final bundled = await _catalogRepository.load();
+        _replaceCatalog(bundled);
+        contentPacks.setBundledVersion(bundled.datasetVersion);
       }
       await _reconcileNativeRetention();
       notifyListeners();
