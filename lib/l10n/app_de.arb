@@ -169,5 +169,12 @@
   "checkForUpdates": "Nach Updates suchen",
   "installUpdate": "Update installieren",
   "contentUpdateInstalled": "Katalogaktualisierung installiert.",
-  "contentUpdateFailed": "Katalogaktualisierung konnte nicht installiert werden."
+  "contentUpdateFailed": "Katalogaktualisierung konnte nicht installiert werden.",
+  "chooseCountry": "Land auswählen",
+  "chooseCountryDescription": "Wähle ein Land aus, um seine verifizierten nationalen Gedenk- und Aktionstage zu entdecken. Dein Profilmarkt wird dadurch nicht geändert.",
+  "noCountryObservances": "Für dieses Land sind derzeit noch keine verifizierten nationalen Gedenk- oder Aktionstage verfügbar.",
+  "reminderSubscriptions": "Erinnerungsabonnements",
+  "noReminderSubscriptions": "Es sind keine Erinnerungen aktiviert.",
+  "noFollowedCategories": "Du folgst noch keinen Kategorien.",
+  "manageInSettings": "In den Einstellungen verwalten"
 }
