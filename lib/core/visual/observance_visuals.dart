@@ -35,6 +35,8 @@ abstract final class ObservanceVisuals {
     'learning',
     'culture',
     'food',
+    'future',
+    'community',
   ];
 
   static ObservanceVisualStyle resolve(Observance observance) {
