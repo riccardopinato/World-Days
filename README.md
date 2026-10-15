@@ -31,10 +31,11 @@ Implemented in this first real repository pass:
 - public production privacy policy hosted with the Web Preview;
 - permanent Android release identity with verified production APK/AAB signer continuity;
 - provider-agnostic lifetime Remove Ads entitlement core plus official Flutter store-billing adapter;
-- dataset, recurrence and retention projection tests;
+- verified Remote Content Pack v1 with HTTPS manifest, SHA-256 gate, staged activation, rollback and immutable bundled fallback;
+- dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Remove Ads code paths now include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product and sandbox evidence remain open. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial completion, remote content packs and final store gates remain open; see `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have been physically/CI validated. Remove Ads code paths now include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 is implemented with bundled fallback and GitHub Pages hosting. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial completion and final store gates remain open; see `ROADMAP.md`.
 
 ## Privacy
 
@@ -76,3 +77,14 @@ A discovery listing is never promoted to an official badge merely because an edi
 Step 8 uses a deterministic first-party procedural illustration system as the guaranteed offline visual layer. The same visual keys drive Today/detail heroes, observance cards, Discover collections and generated 4:5 share cards.
 
 Third-party photography is optional and cannot ship without creator, source, license, attribution and checksum metadata. See `docs/VISUAL_CONTENT_POLICY.md`.
+
+
+## Remote content updates
+
+Mobile builds can consume a versioned World Days catalog pack from GitHub Pages.
+The app verifies HTTPS manifest metadata, expected byte size, SHA-256 and the
+full catalog domain contract before switching the active pack. Activation keeps
+a previous verified version for rollback; if remote content is unavailable or
+invalid, bundled assets remain usable. Web intentionally stays bundled-only.
+
+See `docs/REMOTE_CONTENT_PACK.md`.
