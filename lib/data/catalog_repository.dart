@@ -43,24 +43,95 @@ final class CatalogSnapshot {
 final class CatalogRepository {
   const CatalogRepository();
 
-  Future<CatalogSnapshot> load() async {
-    final seedRaw = await rootBundle.loadString('assets/data/official_core.json');
-    final occurrenceRaw = await rootBundle.loadString('assets/data/occurrences_2026.json');
-    const editorialLocales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
-    final editorialRaw = <String, String>{};
-    for (final locale in editorialLocales) {
-      editorialRaw[locale] = await rootBundle.loadString(
-        'assets/data/editorial_$locale.json',
-      );
+  static const editorialLocales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+
+  Future<CatalogSnapshot> load({
+    Map<String, dynamic>? contentPack,
+  }) async {
+    if (contentPack != null) {
+      return decodeContentPack(contentPack);
     }
 
-    final seed = jsonDecode(seedRaw) as Map<String, dynamic>;
-    final occurrence = jsonDecode(occurrenceRaw) as Map<String, dynamic>;
+    final seed = await _bundleJson('assets/data/official_core.json');
+    final occurrence =
+        await _bundleJson('assets/data/occurrences_2026.json');
+    final editorial = <String, Map<String, dynamic>>{};
+    for (final locale in editorialLocales) {
+      editorial[locale] =
+          await _bundleJson('assets/data/editorial_$locale.json');
+    }
+    return _decodeSnapshot(
+      seed: seed,
+      occurrence: occurrence,
+      editorial: editorial,
+    );
+  }
 
-    final records = (seed['records'] as List)
+  static void validateContentPackPayload(Map<String, dynamic> payload) {
+    decodeContentPack(payload);
+  }
+
+  static CatalogSnapshot decodeContentPack(Map<String, dynamic> payload) {
+    if ((payload['schemaVersion'] as num?)?.toInt() != 1 ||
+        payload['packId']?.toString() != 'world-days-catalog') {
+      throw const FormatException('unsupported_world_days_content_pack');
+    }
+
+    final rawFiles = payload['files'];
+    if (rawFiles is! Map) {
+      throw const FormatException('content_pack_files_missing');
+    }
+    final files = Map<String, dynamic>.from(rawFiles);
+
+    Map<String, dynamic> requiredFile(String name) {
+      final value = files[name];
+      if (value is! Map) {
+        throw FormatException('content_pack_file_missing:$name');
+      }
+      return Map<String, dynamic>.from(value);
+    }
+
+    final editorial = <String, Map<String, dynamic>>{};
+    for (final locale in editorialLocales) {
+      editorial[locale] = requiredFile('editorial_$locale.json');
+    }
+
+    return _decodeSnapshot(
+      seed: requiredFile('official_core.json'),
+      occurrence: requiredFile('occurrences_2026.json'),
+      editorial: editorial,
+    );
+  }
+
+  static Future<Map<String, dynamic>> _bundleJson(String path) async {
+    final raw = await rootBundle.loadString(path);
+    final decoded = jsonDecode(raw);
+    if (decoded is! Map) {
+      throw FormatException('bundle_json_not_object:$path');
+    }
+    return Map<String, dynamic>.from(decoded);
+  }
+
+  static CatalogSnapshot _decodeSnapshot({
+    required Map<String, dynamic> seed,
+    required Map<String, dynamic> occurrence,
+    required Map<String, Map<String, dynamic>> editorial,
+  }) {
+    final rawRecords = seed['records'];
+    if (rawRecords is! List || rawRecords.isEmpty) {
+      throw const FormatException('catalog_records_missing');
+    }
+    final records = rawRecords
         .map((e) => Observance.fromJson(Map<String, dynamic>.from(e as Map)))
         .toList(growable: false)
       ..sort((a, b) => a.title.compareTo(b.title));
+
+    final ids = <String>{};
+    for (final record in records) {
+      if (!ids.add(record.id)) {
+        throw FormatException('duplicate_observance_id:${record.id}');
+      }
+    }
 
     final yearOverrides = (seed['yearOverrides'] as List? ?? const [])
         .map(
@@ -72,15 +143,34 @@ final class CatalogRepository {
         .toList(growable: false);
 
     final byId = {for (final item in records) item.id: item};
-    final occurrences = (occurrence['occurrences'] as List)
-        .map((e) => ObservanceOccurrence.fromJson(Map<String, dynamic>.from(e as Map)))
+
+    final rawOccurrences = occurrence['occurrences'];
+    if (rawOccurrences is! List) {
+      throw const FormatException('catalog_occurrences_missing');
+    }
+    final occurrences = rawOccurrences
+        .map(
+          (e) => ObservanceOccurrence.fromJson(
+            Map<String, dynamic>.from(e as Map),
+          ),
+        )
         .toList(growable: false)
       ..sort((a, b) => a.start.compareTo(b.start));
 
+    for (final item in occurrences) {
+      if (!byId.containsKey(item.observanceId)) {
+        throw FormatException(
+          'occurrence_unknown_observance:${item.observanceId}',
+        );
+      }
+    }
+
     final editorialByLocale = <String, Map<String, EditorialEntry>>{};
     for (final locale in editorialLocales) {
-      final payload =
-          jsonDecode(editorialRaw[locale]!) as Map<String, dynamic>;
+      final payload = editorial[locale];
+      if (payload == null) {
+        throw FormatException('editorial_locale_missing:$locale');
+      }
       final entries = (payload['entries'] as List? ?? const [])
           .map(
             (e) => EditorialEntry.fromJson(
@@ -88,6 +178,13 @@ final class CatalogRepository {
             ),
           )
           .toList(growable: false);
+      for (final item in entries) {
+        if (!byId.containsKey(item.observanceId)) {
+          throw FormatException(
+            'editorial_unknown_observance:${item.observanceId}',
+          );
+        }
+      }
       editorialByLocale[locale] = {
         for (final item in entries) item.observanceId: item,
       };
@@ -101,7 +198,6 @@ final class CatalogRepository {
       yearOverrides: yearOverrides,
     );
   }
-
 
   List<Observance> unresolvedForYear(
     int year,
@@ -126,7 +222,10 @@ final class CatalogRepository {
 
     final result = <ObservanceOccurrence>[];
     for (final record in snapshot.records) {
-      final resolution = RecurrenceEngine.resolve(year: year, rules: record.rules);
+      final resolution = RecurrenceEngine.resolve(
+        year: year,
+        rules: record.rules,
+      );
       for (final span in resolution.spans) {
         result.add(
           ObservanceOccurrence(
