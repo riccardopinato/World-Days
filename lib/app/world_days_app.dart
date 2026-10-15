@@ -266,6 +266,9 @@ class _AppShellState extends State<_AppShell> {
             ],
           ),
           bottomNavigationBar: NavigationBar(
+            height: MediaQuery.textScalerOf(context).scale(1) >= 1.5
+                ? 104
+                : 80,
             selectedIndex: index,
             onDestinationSelected: (value) => setState(() => index = value),
             destinations: destinations,
