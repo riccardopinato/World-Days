@@ -63,7 +63,7 @@ The integration remains valid, but current-main exact-artifact certification is 
 
 ---
 
-## Phase A — Consumer UX alignment — NEAR COMPLETE
+## Phase A — Consumer UX alignment ✅
 
 Completed:
 - [x] Around the World browsing does not mutate profile market.
@@ -73,11 +73,10 @@ Completed:
 - [x] Catalog load failure exposes Retry.
 - [x] Source-card provenance preserves verification metadata.
 
-Open:
-- [ ] Align Saved IA with Product Bible: either surface followed categories/reminder subscriptions in Saved or formally move that responsibility to Settings in product truth.
-- [ ] Add an explicit Around-the-World empty state before market coverage expands.
-- [ ] Replace the arbitrary Italy default for GLOBAL users with an explicit transient browse-market choice or another documented neutral rule.
-- [ ] Final consumer copy/error-state sweep for content update, billing-unavailable and offline cases.
+- [x] Saved now surfaces followed categories and reminder subscription state while detailed reminder controls remain in Settings.
+- [x] Around the World has explicit choose-country and no-verified-country-content empty states.
+- [x] GLOBAL users no longer inherit an arbitrary Italy browse default; country browsing is explicit and transient.
+- [x] Consumer failure copy for content updates and billing preserves current-state truth and recovery.
 
 ## Phase B — Data/runtime acceptance ✅
 
