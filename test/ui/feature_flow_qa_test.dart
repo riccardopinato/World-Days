@@ -70,6 +70,7 @@ void main() {
     await tester.scrollUntilVisible(
       find.text('Italy Test Day').first,
       180,
+      scrollable: find.byType(Scrollable).first,
     );
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(find.text('Spain Test Day'), findsNothing);
@@ -85,6 +86,7 @@ void main() {
     await tester.scrollUntilVisible(
       find.text('Italy Test Day').first,
       180,
+      scrollable: find.byType(Scrollable).first,
     );
     expect(find.text('Italy Test Day'), findsOneWidget);
     expect(controller.preferences.marketCode, 'IT');
