@@ -30,7 +30,8 @@ class ObservanceHero extends StatelessWidget {
       Localizations.localeOf(context).languageCode,
     );
     final textScale = MediaQuery.textScalerOf(context).scale(1);
-    final height = textScale >= 1.5 ? minHeight + 96 : minHeight;
+    final scaleDelta = (textScale - 1).clamp(0.0, 2.0).toDouble();
+    final height = minHeight + (scaleDelta * 220.0);
 
     return Semantics(
       container: true,
