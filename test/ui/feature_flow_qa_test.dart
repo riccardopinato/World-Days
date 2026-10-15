@@ -107,7 +107,7 @@ void main() {
 
     expect(find.text('Italy Test Day'), findsOneWidget);
 
-    await tester.tap(find.byType(DropdownButtonFormField<String>));
+    await tester.tap(find.byType(DropdownButtonFormField<String?>));
     await tester.pumpAndSettle();
     await tester.tap(find.textContaining('Spain').last);
     await tester.pumpAndSettle();
@@ -115,6 +115,62 @@ void main() {
     expect(find.text('Spain Test Day'), findsOneWidget);
     expect(find.text('Italy Test Day'), findsNothing);
     expect(controller.preferences.marketCode, 'IT');
+  });
+
+  testWidgets('GLOBAL Around the World starts neutral and exposes empty states',
+      (tester) async {
+    final controller = await buildLoadedTestController();
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(
+      wrapTestApp(AroundTheWorldPage(controller: controller)),
+    );
+    await tester.pumpAndSettle();
+
+    expect(controller.preferences.marketCode, 'GLOBAL');
+    expect(find.text('Choose a country'), findsWidgets);
+    expect(find.text('Italy Test Day'), findsNothing);
+
+    await tester.tap(find.byType(DropdownButtonFormField<String?>));
+    await tester.pumpAndSettle();
+    await tester.tap(find.textContaining('France').last);
+    await tester.pumpAndSettle();
+
+    expect(find.text('No verified national observances are available for this country yet.'), findsOneWidget);
+    expect(controller.preferences.marketCode, 'GLOBAL');
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('Saved surfaces followed categories and reminder subscriptions',
+      (tester) async {
+    final controller = await buildLoadedTestController(
+      preferences: const UserPreferences(
+        reminders: ReminderPreferences(
+          dailyEnabled: true,
+          categoryEnabled: true,
+          followedCategories: {'HEALTH'},
+        ),
+      ),
+    );
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(
+      wrapTestApp(SavedPage(controller: controller)),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Followed categories'), findsOneWidget);
+    expect(find.text('Health & wellbeing'), findsOneWidget);
+    expect(find.text('Reminder subscriptions'), findsOneWidget);
+    expect(find.text('Daily reminder'), findsOneWidget);
+    expect(find.text('Category reminders'), findsOneWidget);
+    expect(find.text('Manage in Settings'), findsOneWidget);
+
+    await tester.tap(find.text('Manage in Settings'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Settings'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('Saved favorite opens detail without losing saved state',
