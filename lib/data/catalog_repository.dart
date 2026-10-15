@@ -35,7 +35,7 @@ final class CatalogSnapshot {
         editorialByLocale['en']?[observanceId];
   }
 
-  VerifiedMetadataSummary? verifiedMetadataFor(
+  VerifiedRecordOverview? verifiedMetadataFor(
     String observanceId,
     String localeCode,
   ) {
