@@ -237,8 +237,9 @@ void main() {
     await service.initialize();
     await service.refreshBillingProduct();
 
-    expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchased);
+    expect(await service.purchaseRemoveAds(), PurchaseFlowState.failed);
     expect(service.removesAds, isFalse);
+    expect(service.lastError, 'billing_entitlement_not_verified');
     expect(billing.completionCalls, 0);
 
     billing.purchaseResult = const BillingResult(
@@ -249,8 +250,9 @@ void main() {
       completionRequired: true,
     );
 
-    expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchased);
+    expect(await service.purchaseRemoveAds(), PurchaseFlowState.failed);
     expect(service.removesAds, isFalse);
+    expect(service.lastError, 'billing_entitlement_not_verified');
     expect(billing.completionCalls, 0);
   });
 
