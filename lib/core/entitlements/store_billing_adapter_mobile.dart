@@ -247,9 +247,10 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
   Future<void> completePurchase(BillingResult result) async {
     final transactionId = result.transactionId;
     if (transactionId == null) return;
-    final purchase = _awaitingCompletion.remove(transactionId);
+    final purchase = _awaitingCompletion[transactionId];
     if (purchase == null || !purchase.pendingCompletePurchase) return;
     await _store.completePurchase(purchase);
+    _awaitingCompletion.remove(transactionId);
   }
 
   @override
