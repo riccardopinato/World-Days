@@ -219,19 +219,25 @@ class _AppShellState extends State<_AppShell> {
                   Expanded(
                     child: Row(
                       children: [
-                        NavigationRail(
-                          selectedIndex: index,
-                          onDestinationSelected: (value) =>
-                              setState(() => index = value),
-                          labelType: NavigationRailLabelType.all,
-                          destinations: [
-                            for (final destination in destinations)
-                              NavigationRailDestination(
-                                icon: destination.icon,
-                                selectedIcon: destination.selectedIcon,
-                                label: Text(destination.label),
-                              ),
-                          ],
+                        FocusTraversalGroup(
+                          key: const ValueKey<String>(
+                            'primary-navigation-focus-group',
+                          ),
+                          policy: WidgetOrderTraversalPolicy(),
+                          child: NavigationRail(
+                            selectedIndex: index,
+                            onDestinationSelected: (value) =>
+                                setState(() => index = value),
+                            labelType: NavigationRailLabelType.all,
+                            destinations: [
+                              for (final destination in destinations)
+                                NavigationRailDestination(
+                                  icon: destination.icon,
+                                  selectedIcon: destination.selectedIcon,
+                                  label: Text(destination.label),
+                                ),
+                            ],
+                          ),
                         ),
                         const VerticalDivider(width: 1),
                         Expanded(
@@ -277,15 +283,21 @@ class _AppShellState extends State<_AppShell> {
                 );
               }
 
-              return NavigationBar(
-                height: 80,
-                labelBehavior: constraints.maxWidth < 430
-                    ? NavigationDestinationLabelBehavior.onlyShowSelected
-                    : NavigationDestinationLabelBehavior.alwaysShow,
-                selectedIndex: index,
-                onDestinationSelected: (value) =>
-                    setState(() => index = value),
-                destinations: destinations,
+              return FocusTraversalGroup(
+                key: const ValueKey<String>(
+                  'primary-navigation-focus-group',
+                ),
+                policy: WidgetOrderTraversalPolicy(),
+                child: NavigationBar(
+                  height: 80,
+                  labelBehavior: constraints.maxWidth < 430
+                      ? NavigationDestinationLabelBehavior.onlyShowSelected
+                      : NavigationDestinationLabelBehavior.alwaysShow,
+                  selectedIndex: index,
+                  onDestinationSelected: (value) =>
+                      setState(() => index = value),
+                  destinations: destinations,
+                ),
               );
             },
           ),
@@ -310,9 +322,12 @@ class _CompactAccessibleNavigationBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = Theme.of(context).colorScheme;
-    return Material(
-      color: colors.surfaceContainer,
-      child: SafeArea(
+    return FocusTraversalGroup(
+      key: const ValueKey<String>('primary-navigation-focus-group'),
+      policy: WidgetOrderTraversalPolicy(),
+      child: Material(
+        color: colors.surfaceContainer,
+        child: SafeArea(
         top: false,
         child: SizedBox(
           height: 72,
@@ -360,6 +375,7 @@ class _CompactAccessibleNavigationBar extends StatelessWidget {
                   ),
                 ),
             ],
+          ),
           ),
         ),
       ),
