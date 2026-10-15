@@ -1,9 +1,14 @@
-import 'dart:async';
-
 import 'package:flutter/foundation.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+
+import 'monetization_platform_mobile.dart';
 
 class MonetizationController extends ChangeNotifier {
+  MonetizationController({
+    MonetizationPlatform? platform,
+  }) : _platform = platform ?? const GoogleMonetizationPlatform();
+
+  final MonetizationPlatform _platform;
+
   bool _initialized = false;
   bool _canRequestAds = false;
   bool _privacyOptionsRequired = false;
@@ -11,9 +16,7 @@ class MonetizationController extends ChangeNotifier {
   bool _adsSuppressed = false;
   String? _lastError;
 
-  bool get supported =>
-      defaultTargetPlatform == TargetPlatform.android ||
-      defaultTargetPlatform == TargetPlatform.iOS;
+  bool get supported => _platform.supported;
   bool get initialized => _initialized;
   bool get canRequestAds => !_adsSuppressed && _canRequestAds;
   bool get adsSuppressed => _adsSuppressed;
@@ -38,14 +41,13 @@ class MonetizationController extends ChangeNotifier {
     _lastError = null;
 
     try {
-      await _requestConsentInfoUpdate();
+      await _platform.requestConsentInfoUpdate();
       await _refreshPrivacyOptionsRequirement();
       await _resolveAdEligibility();
 
-      final formError = await _loadAndShowConsentFormIfRequired();
+      final formError = await _platform.loadAndShowConsentFormIfRequired();
       if (formError != null) {
-        _lastError =
-            'ump_form:${formError.errorCode}:${formError.message}';
+        _lastError = 'ump_form:$formError';
       }
 
       await _refreshPrivacyOptionsRequirement();
@@ -66,15 +68,10 @@ class MonetizationController extends ChangeNotifier {
 
   Future<bool> showPrivacyOptions() async {
     if (!supported) return false;
-    final completer = Completer<FormError?>();
     try {
-      await ConsentForm.showPrivacyOptionsForm((error) {
-        if (!completer.isCompleted) completer.complete(error);
-      });
-      final error = await completer.future;
+      final error = await _platform.showPrivacyOptionsForm();
       if (error != null) {
-        _lastError =
-            'ump_privacy_options:${error.errorCode}:${error.message}';
+        _lastError = 'ump_privacy_options:$error';
         notifyListeners();
         return false;
       }
@@ -89,40 +86,15 @@ class MonetizationController extends ChangeNotifier {
     }
   }
 
-  Future<void> _requestConsentInfoUpdate() {
-    final completer = Completer<void>();
-    ConsentInformation.instance.requestConsentInfoUpdate(
-      ConsentRequestParameters(),
-      () {
-        if (!completer.isCompleted) completer.complete();
-      },
-      (error) {
-        if (!completer.isCompleted) completer.completeError(error);
-      },
-    );
-    return completer.future;
-  }
-
-  Future<FormError?> _loadAndShowConsentFormIfRequired() {
-    final completer = Completer<FormError?>();
-    ConsentForm.loadAndShowConsentFormIfRequired((error) {
-      if (!completer.isCompleted) completer.complete(error);
-    });
-    return completer.future;
-  }
-
   Future<void> _refreshPrivacyOptionsRequirement() async {
-    final status = await ConsentInformation.instance
-        .getPrivacyOptionsRequirementStatus();
-    _privacyOptionsRequired =
-        status == PrivacyOptionsRequirementStatus.required;
+    _privacyOptionsRequired = await _platform.privacyOptionsRequired();
   }
 
   Future<void> _resolveAdEligibility() async {
-    final allowed = await ConsentInformation.instance.canRequestAds();
+    final allowed = await _platform.canRequestAds();
     _canRequestAds = !_adsSuppressed && allowed;
     if (_canRequestAds && !_mobileAdsInitialized) {
-      await MobileAds.instance.initialize();
+      await _platform.initializeAds();
       _mobileAdsInitialized = true;
     }
   }
