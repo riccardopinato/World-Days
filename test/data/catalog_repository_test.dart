@@ -16,6 +16,27 @@ void main() {
       'en', 'it', 'es', 'fr', 'de', 'pt',
     });
     expect(snapshot.occurrences2026.length, greaterThanOrEqualTo(260));
+    expect(
+      snapshot.records.every((record) => record.categories.isNotEmpty),
+      isTrue,
+    );
+    expect(
+      snapshot.records
+          .expand((record) => record.sources)
+          .every((source) => source.verifiedAt != null),
+      isTrue,
+    );
+  });
+
+  test('unresolved future dates remain explicit instead of disappearing', () async {
+    final repository = const CatalogRepository();
+    final snapshot = await repository.load();
+    final unresolved = repository.unresolvedForYear(2027, snapshot);
+
+    expect(
+      unresolved.map((record) => record.id),
+      contains('vesak-the-day-of-the-full-moon'),
+    );
   });
 
   test('reviewed editorial packs keep locale parity and fallback', () async {
