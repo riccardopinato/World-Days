@@ -10,7 +10,8 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 World Days is technically healthy but **NOT Store Ready**.
 
 Current automated evidence (Phase H merge candidate):
-- Development checks: analyze + **76 Flutter tests** + Web release + Android ARM64 build PASS.
+- Pull-request Development checks: analyze + **76 Flutter tests** + Web release PASS.
+- The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
 - Hosted payload smoke: version `2026.10.14.1`, 501,993 bytes, SHA-256 `38e6ee66d3646c0c313ca7b4b8e395a79b2456ecfc5522cd25c948b0f624d8b7`.
@@ -229,7 +230,7 @@ Completed:
 - [x] Responsive/accessibility smoke covers 360×800 at 200% text scale, wide NavigationRail switching and calendar button semantics.
 - [x] Large-text overflow in `ObservanceHero` fixed without capping the platform text scale.
 - [x] Flutter/Kotlin/dependency warning sweep found no Phase-H blocker; the generated iOS launcher-icon alpha warning remains a Phase-I/store-scope concern if iOS stays in v1.
-- [x] Development checks pass analyze + 76 Flutter tests + Web release + Android ARM64 gate.
+- [x] Pull-request Development checks pass analyze + 76 Flutter tests + Web release; Android ARM64 remains the conditional post-merge `main` gate.
 
 Deferred / bounded follow-up:
 - [ ] Split oversized orchestration/UI files only when next touched: `AppController`, Settings and Calendar first.
