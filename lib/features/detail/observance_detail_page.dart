@@ -249,7 +249,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             _EditorialSection(
               icon: Icons.verified_outlined,
               title: l10n.verifiedOverview,
-              body: verifiedOverview.summary,
+              body: verifiedOverviewCopy(l10n, verifiedOverview),
             ),
             const SizedBox(height: 10),
             Text(
