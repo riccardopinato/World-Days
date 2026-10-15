@@ -47,10 +47,9 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
   @override
   Future<void> initialize() async {
     if (!supported || _disposed) return;
-    _storeAvailable = await _storeClient.isAvailable();
-    if (_storeAvailable) {
-      await _ensurePurchaseListener();
-    }
+    // Flutter recommends attaching to purchaseStream as early as possible so
+    // updates from previous sessions are not missed.
+    await _ensurePurchaseListener();
   }
 
   @override
