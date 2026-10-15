@@ -10,7 +10,7 @@ World Days keeps stable canonical observance IDs while displaying all 296 curren
 
 ## Current implementation
 
-This repository starts from the verified World Days product/data foundation and the App Factory baseline `5f6b2489df2ac85fb85ccfea059983a090689de4`.
+This repository uses App Factory baseline `47c47f49a7b46812e3bd6f1231c3524f2b52b826` (Master v26.6 / Golden Index v18).
 
 Implemented in this first real repository pass:
 - bundled canonical catalog and 2026 occurrence index;
@@ -35,7 +35,7 @@ Implemented in this first real repository pass:
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
 - GitHub Actions for real Flutter analyze/test/Web/Android validation.
 
-Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling and ad-request suppression; the Play one-time product, durable provider-finalization recovery and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
+Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Editorial coverage is currently 28/296. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
 ## Privacy
 
