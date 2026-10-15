@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
-import '../../core/notifications/notification_health.dart';
 import '../../l10n/app_localizations.dart';
+import 'notification_diagnostics_page.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key, required this.controller});
@@ -23,8 +24,6 @@ class SettingsPage extends StatefulWidget {
 }
 
 class _SettingsPageState extends State<SettingsPage> {
-  NotificationHealth? _health;
-  bool _loadingHealth = false;
   bool _widgetPinSupported = false;
 
   static const _categoryKeys = <String>[
@@ -54,27 +53,19 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _refreshNativeState() async {
     if (!mounted) return;
-    setState(() => _loadingHealth = true);
-    NotificationHealth? health;
     var widgetPinSupported = false;
-    if (widget.controller.nativeNotificationsAvailable) {
-      health = await widget.controller.notificationHealth();
-    }
     if (widget.controller.androidWidgetAvailable) {
       widgetPinSupported =
           await widget.controller.isHomeWidgetPinSupported();
     }
     if (!mounted) return;
-    setState(() {
-      _health = health;
-      _widgetPinSupported = widgetPinSupported;
-      _loadingHealth = false;
-    });
+    setState(() => _widgetPinSupported = widgetPinSupported);
   }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
+    final locale = Localizations.localeOf(context).toLanguageTag();
     final recordCount = widget.controller.catalog?.records.length ?? 0;
     final reminders = widget.controller.preferences.reminders;
 
@@ -213,6 +204,40 @@ class _SettingsPageState extends State<SettingsPage> {
             Card(
               child: ListTile(
                 enabled: reminders.weeklyEnabled,
+                leading: const Icon(Icons.calendar_view_week_rounded),
+                title: Text(l10n.weeklyDay),
+                trailing: DropdownButton<int>(
+                  value: reminders.weeklyWeekday,
+                  underline: const SizedBox.shrink(),
+                  items: [
+                    for (var weekday = DateTime.monday;
+                        weekday <= DateTime.sunday;
+                        weekday++)
+                      DropdownMenuItem<int>(
+                        value: weekday,
+                        child: Text(
+                          DateFormat.EEEE(locale).format(
+                            DateTime(2026, 1, 5).add(
+                              Duration(days: weekday - DateTime.monday),
+                            ),
+                          ),
+                        ),
+                      ),
+                  ],
+                  onChanged: reminders.weeklyEnabled
+                      ? (value) {
+                          if (value != null) {
+                            widget.controller
+                                .setWeeklyReminderWeekday(value);
+                          }
+                        }
+                      : null,
+                ),
+              ),
+            ),
+            Card(
+              child: ListTile(
+                enabled: reminders.weeklyEnabled,
                 leading: const Icon(Icons.schedule_rounded),
                 title: Text(l10n.weeklyTime),
                 trailing: Text(
@@ -286,7 +311,20 @@ class _SettingsPageState extends State<SettingsPage> {
                 ),
               ),
             ),
-            _notificationHealthCard(context, l10n),
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.health_and_safety_outlined),
+                title: Text(l10n.notificationStatus),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => NotificationDiagnosticsPage(
+                      controller: widget.controller,
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
           if (widget.controller.androidWidgetAvailable) ...[
             const SizedBox(height: 28),
@@ -356,117 +394,6 @@ class _SettingsPageState extends State<SettingsPage> {
     );
   }
 
-  Widget _notificationHealthCard(
-    BuildContext context,
-    AppLocalizations l10n,
-  ) {
-    final health = _health;
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                const Icon(Icons.health_and_safety_outlined),
-                const SizedBox(width: 10),
-                Expanded(
-                  child: Text(
-                    l10n.notificationStatus,
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.w800,
-                        ),
-                  ),
-                ),
-                if (_loadingHealth)
-                  const SizedBox.square(
-                    dimension: 18,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  ),
-              ],
-            ),
-            if (health != null) ...[
-              const SizedBox(height: 12),
-              _StatusLine(
-                icon: health.notificationsEnabled
-                    ? Icons.check_circle_rounded
-                    : Icons.notifications_off_rounded,
-                text: health.notificationsEnabled
-                    ? l10n.notificationsEnabled
-                    : l10n.notificationsDisabled,
-              ),
-              _StatusLine(
-                icon: health.reminderChannelEnabled
-                    ? Icons.check_circle_rounded
-                    : Icons.block_rounded,
-                text: health.reminderChannelEnabled
-                    ? l10n.reminderChannelReady
-                    : l10n.reminderChannelBlocked,
-              ),
-              _StatusLine(
-                icon: health.exactAlarmsEnabled
-                    ? Icons.alarm_on_rounded
-                    : Icons.timelapse_rounded,
-                text: health.exactAlarmsEnabled
-                    ? l10n.exactAlarmAvailable
-                    : l10n.exactAlarmFallback,
-              ),
-              _StatusLine(
-                icon: Icons.schedule_rounded,
-                text:
-                    '${l10n.pendingNotifications}: ${health.pendingCount}',
-              ),
-              if (health.lastError case final lastError?)
-                Padding(
-                  padding: const EdgeInsets.only(top: 8),
-                  child: SelectableText(
-                    lastError,
-                    style: Theme.of(context).textTheme.bodySmall,
-                  ),
-                ),
-            ],
-            const SizedBox(height: 14),
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: [
-                OutlinedButton.icon(
-                  onPressed: () async {
-                    final granted = await widget.controller
-                        .requestNotificationPermission();
-                    if (!granted && context.mounted) {
-                      _showMessage(
-                        context,
-                        l10n.notificationPermissionDenied,
-                      );
-                    }
-                    await _refreshNativeState();
-                  },
-                  icon: const Icon(Icons.notifications_active_rounded),
-                  label: Text(l10n.enableNotifications),
-                ),
-                OutlinedButton.icon(
-                  onPressed: () => _runDiagnostic(context),
-                  icon: const Icon(Icons.science_outlined),
-                  label: Text(l10n.testNotifications),
-                ),
-                TextButton.icon(
-                  onPressed: () async {
-                    await widget.controller.openNotificationSettings();
-                    await _refreshNativeState();
-                  },
-                  icon: const Icon(Icons.settings_outlined),
-                  label: Text(l10n.openSystemNotificationSettings),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
   Future<void> _setReminderToggle(
     Future<bool> Function() action,
   ) async {
@@ -509,17 +436,6 @@ class _SettingsPageState extends State<SettingsPage> {
     await _refreshNativeState();
   }
 
-  Future<void> _runDiagnostic(BuildContext context) async {
-    final result = await widget.controller.runNotificationDiagnostic();
-    if (!context.mounted) return;
-    final l10n = AppLocalizations.of(context);
-    _showMessage(
-      context,
-      result.ok ? l10n.notificationTestOk : l10n.notificationTestFailed,
-    );
-    await _refreshNativeState();
-  }
-
   Future<void> _openPrivacyChoices(BuildContext context) async {
     final ok = await widget.controller.monetization.showPrivacyOptions();
     if (!context.mounted) return;
@@ -558,25 +474,6 @@ class _SettingsPageState extends State<SettingsPage> {
         'COMMUNITY' => l10n.categoryCommunity,
         _ => key,
       };
-}
-
-class _StatusLine extends StatelessWidget {
-  const _StatusLine({required this.icon, required this.text});
-
-  final IconData icon;
-  final String text;
-
-  @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.symmetric(vertical: 3),
-        child: Row(
-          children: [
-            Icon(icon, size: 18),
-            const SizedBox(width: 8),
-            Expanded(child: Text(text)),
-          ],
-        ),
-      );
 }
 
 class _SectionTitle extends StatelessWidget {

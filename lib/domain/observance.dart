@@ -1,13 +1,21 @@
 import 'recurrence_engine.dart';
 
 final class ObservanceSource {
-  const ObservanceSource({required this.tier, required this.url});
+  const ObservanceSource({
+    required this.tier,
+    required this.url,
+    this.verifiedAt,
+  });
+
   final String tier;
   final String url;
+  final String? verifiedAt;
 
-  factory ObservanceSource.fromJson(Map<String, dynamic> json) => ObservanceSource(
+  factory ObservanceSource.fromJson(Map<String, dynamic> json) =>
+      ObservanceSource(
         tier: json['tier']?.toString() ?? 'UNKNOWN',
         url: json['url']?.toString() ?? '',
+        verifiedAt: json['verifiedAt']?.toString(),
       );
 }
 
@@ -48,6 +56,8 @@ final class Observance {
     this.categories = const [],
     this.localizedTitles = const {},
     this.visualKey,
+    this.editorialStatus,
+    this.lastVerifiedAt,
   });
 
   final String id;
@@ -63,6 +73,8 @@ final class Observance {
   final List<String> categories;
   final Map<String, String> localizedTitles;
   final String? visualKey;
+  final String? editorialStatus;
+  final String? lastVerifiedAt;
 
   String titleForLocale(String? localeCode) {
     final normalized = (localeCode ?? '')
@@ -113,6 +125,8 @@ final class Observance {
               ),
             ),
         visualKey: json['visualKey']?.toString(),
+        editorialStatus: json['editorialStatus']?.toString(),
+        lastVerifiedAt: json['lastVerifiedAt']?.toString(),
       );
 }
 

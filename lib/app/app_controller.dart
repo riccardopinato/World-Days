@@ -106,7 +106,10 @@ final class AppController extends ChangeNotifier {
     );
   }
 
-  List<Observance> observancesForDate(DateTime date) {
+  List<Observance> observancesForDate(
+    DateTime date, {
+    String? marketCode,
+  }) {
     final value = catalog;
     if (value == null) return const [];
     final occurrences =
@@ -114,7 +117,9 @@ final class AppController extends ChangeNotifier {
     final result = <Observance>[];
     for (final occurrence in occurrences) {
       final record = value.byId[occurrence.observanceId];
-      if (record != null && isVisibleForMarket(record)) result.add(record);
+      if (record != null && isVisibleForMarket(record, marketCode)) {
+        result.add(record);
+      }
     }
     result.sort(_compareObservances);
     return result;
@@ -347,6 +352,19 @@ final class AppController extends ChangeNotifier {
       reminders: preferences.reminders.copyWith(
         dailyHour: time.hour,
         dailyMinute: time.minute,
+      ),
+    );
+    notifyListeners();
+    await _savePreferencesAndReconcile();
+  }
+
+  Future<void> setWeeklyReminderWeekday(int weekday) async {
+    if (weekday < DateTime.monday || weekday > DateTime.sunday) {
+      throw ArgumentError.value(weekday, 'weekday', 'Unsupported weekday');
+    }
+    preferences = preferences.copyWith(
+      reminders: preferences.reminders.copyWith(
+        weeklyWeekday: weekday,
       ),
     );
     notifyListeners();

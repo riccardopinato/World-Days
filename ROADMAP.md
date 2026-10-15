@@ -38,7 +38,8 @@ The app is NOT Store Ready until the gates below are closed.
 - [x] Up Next shows occurrence dates.
 - [x] Calendar adds weekday headers, Today jump and current-day affordance.
 - [x] Catalog load failure exposes a retry path.
-- [ ] Finish source-card UX and remaining consumer error/empty states.
+- [x] Improve source-card provenance UX and preserve verification metadata.
+- [ ] Finish remaining consumer error/empty states.
 
 ### Phase B — Data/runtime structural fixes — IN PROGRESS
 - [x] Cache yearly occurrences and date indexes instead of recomputing per calendar cell.
@@ -49,7 +50,7 @@ The app is NOT Store Ready until the gates below are closed.
 - [x] Expose all visual collections and complete officiality filters in Discover.
 - [x] Align runtime recurrence support with LAST_DAY_OF_MONTH and ONE_OFF.
 - [x] Align the data contract with the actual recurrence representation.
-- [ ] Represent unresolved authority/lunar dates explicitly in future-year UI instead of silently disappearing.
+- [x] Represent unresolved authority/lunar dates explicitly in future-year UI instead of silently disappearing.
 
 ### Phase C — Editorial completion — BLOCKING
 Current reviewed editorial coverage: 28 / 296.
@@ -60,11 +61,11 @@ Current reviewed editorial coverage: 28 / 296.
 - [ ] Replace generic placeholders with explicit fallback states only where evidence is intentionally pending.
 
 ### Phase D — Today / Calendar / Discover completion
-- [ ] Today in 30 seconds.
-- [ ] Daily quiz / lightweight learning loop.
-- [ ] Tomorrow preview.
-- [ ] Calendar officiality/category/scope/country filters.
-- [ ] Upcoming 7 / 30 days views.
+- [x] Today in 30 seconds for reviewed editorial entries.
+- [x] Daily quiz / lightweight learning loop.
+- [x] Tomorrow preview.
+- [x] Calendar officiality/category/scope/country filters.
+- [x] Upcoming 7 / 30 days views.
 - [ ] Decide whether day/week modes add enough value for v1.
 - [ ] Expand Around the World national coverage beyond the current thin seed.
 - [ ] Keep locale and market independent in every flow.
@@ -83,7 +84,7 @@ Current reviewed editorial coverage: 28 / 296.
 - [ ] Reboot/app-update reconciliation.
 - [ ] Home Widget add/update/date rollover.
 - [ ] Widget tap/deep link.
-- [ ] Revisit finite daily reminder horizon so the retention loop does not silently expire.
+- [x] Add a rolling generic daily fallback after the 21-day tailored reminder horizon.
 
 ### Phase G — Remote Content Pack v1 — BLOCKING BEFORE LONG-TERM CONTENT OPERATIONS
 - [ ] Bundled catalog remains immutable fallback.
@@ -97,12 +98,13 @@ Current reviewed editorial coverage: 28 / 296.
 
 ### Phase H — Code hygiene / QA expansion
 - [x] Remove obsolete `synthetic-package` l10n option.
-- [ ] Split consumer Settings from developer diagnostics.
-- [ ] Preserve source verification metadata in the runtime model.
+- [x] Split notification diagnostics from the main consumer Settings surface.
+- [x] Preserve source verification metadata in the runtime model.
 - [ ] Expand AppController / Settings / Calendar / Around-the-World tests.
 - [ ] Add monetization state tests where platform boundaries permit.
 - [ ] Add maintained integration smoke test.
 - [ ] Review dependency warnings for Flutter/Kotlin plugin migration.
+- [x] Allow users to choose the weekly reminder weekday.
 
 ### Phase I — Governance / identity alignment — IN PROGRESS
 - [x] Canonical Android application ID fixed to `com.riccardopinato.world_days` in product truth.
