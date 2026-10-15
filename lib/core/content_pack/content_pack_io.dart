@@ -5,7 +5,10 @@ abstract interface class ContentPackTransport {
 
   Future<String> getText(Uri uri);
 
-  Future<List<int>> getBytes(Uri uri);
+  Future<List<int>> getBytes(
+    Uri uri, {
+    required int maxBytes,
+  });
 
   Future<void> close();
 }
