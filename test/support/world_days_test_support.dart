@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:world_days/app/app_controller.dart';
@@ -21,6 +22,7 @@ import 'package:world_days/data/catalog_repository.dart';
 import 'package:world_days/data/preferences_repository.dart';
 import 'package:world_days/domain/observance.dart';
 import 'package:world_days/domain/occurrence.dart';
+import 'package:world_days/l10n/app_localizations.dart';
 
 const testAuthority = ObservanceAuthority(
   name: 'World Days Test Authority',
@@ -388,4 +390,29 @@ Future<AppController> buildLoadedTestController({
 ThemeData testTheme() => ThemeData(
       useMaterial3: true,
       colorSchemeSeed: Colors.indigo,
+    );
+
+
+Widget wrapTestApp(
+  Widget home, {
+  Locale locale = const Locale('en'),
+  ThemeMode themeMode = ThemeMode.light,
+}) =>
+    MaterialApp(
+      locale: locale,
+      theme: testTheme(),
+      darkTheme: ThemeData(
+        useMaterial3: true,
+        brightness: Brightness.dark,
+        colorSchemeSeed: Colors.indigo,
+      ),
+      themeMode: themeMode,
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: AppLocalizations.supportedLocales,
+      home: home,
     );
