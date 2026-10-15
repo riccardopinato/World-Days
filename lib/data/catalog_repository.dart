@@ -35,6 +35,18 @@ final class CatalogSnapshot {
         editorialByLocale['en']?[observanceId];
   }
 
+  VerifiedMetadataSummary? verifiedMetadataFor(
+    String observanceId,
+    String localeCode,
+  ) {
+    final record = byId[observanceId];
+    if (record == null) return null;
+    return VerifiedMetadataSummary.forObservance(record, localeCode);
+  }
+
+  bool hasRichEditorial(String observanceId) =>
+      editorialByLocale['en']?.containsKey(observanceId) ?? false;
+
   ObservanceYearOverride? yearOverrideFor(String observanceId, int year) {
     for (final item in yearOverrides) {
       if (item.observanceId == observanceId && item.year == year) return item;
