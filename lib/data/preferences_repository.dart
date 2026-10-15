@@ -14,7 +14,7 @@ final class ReminderPreferences {
     this.weeklyMinute = 0,
     this.favoriteEnabled = false,
     this.categoryEnabled = false,
-    this.followedVisualKeys = const <String>{},
+    this.followedCategories = const <String>{},
   });
 
   final bool dailyEnabled;
@@ -26,7 +26,7 @@ final class ReminderPreferences {
   final int weeklyMinute;
   final bool favoriteEnabled;
   final bool categoryEnabled;
-  final Set<String> followedVisualKeys;
+  final Set<String> followedCategories;
 
   bool get anyEnabled =>
       dailyEnabled || weeklyEnabled || favoriteEnabled || categoryEnabled;
@@ -41,7 +41,7 @@ final class ReminderPreferences {
     int? weeklyMinute,
     bool? favoriteEnabled,
     bool? categoryEnabled,
-    Set<String>? followedVisualKeys,
+    Set<String>? followedCategories,
   }) =>
       ReminderPreferences(
         dailyEnabled: dailyEnabled ?? this.dailyEnabled,
@@ -53,7 +53,7 @@ final class ReminderPreferences {
         weeklyMinute: weeklyMinute ?? this.weeklyMinute,
         favoriteEnabled: favoriteEnabled ?? this.favoriteEnabled,
         categoryEnabled: categoryEnabled ?? this.categoryEnabled,
-        followedVisualKeys: followedVisualKeys ?? this.followedVisualKeys,
+        followedCategories: followedCategories ?? this.followedCategories,
       );
 
   Map<String, dynamic> toJson() => {
@@ -66,30 +66,50 @@ final class ReminderPreferences {
         'weeklyMinute': weeklyMinute,
         'favoriteEnabled': favoriteEnabled,
         'categoryEnabled': categoryEnabled,
-        'followedVisualKeys': followedVisualKeys.toList()..sort(),
+        'followedCategories': followedCategories.toList()..sort(),
       };
 
-  factory ReminderPreferences.fromJson(Map<String, dynamic> json) =>
-      ReminderPreferences(
-        dailyEnabled: json['dailyEnabled'] == true,
-        dailyHour: _boundedInt(json['dailyHour'], 9, 0, 23),
-        dailyMinute: _boundedInt(json['dailyMinute'], 0, 0, 59),
-        weeklyEnabled: json['weeklyEnabled'] == true,
-        weeklyWeekday: _boundedInt(
-          json['weeklyWeekday'],
-          DateTime.sunday,
-          DateTime.monday,
-          DateTime.sunday,
-        ),
-        weeklyHour: _boundedInt(json['weeklyHour'], 18, 0, 23),
-        weeklyMinute: _boundedInt(json['weeklyMinute'], 0, 0, 59),
-        favoriteEnabled: json['favoriteEnabled'] == true,
-        categoryEnabled: json['categoryEnabled'] == true,
-        followedVisualKeys:
-            ((json['followedVisualKeys'] as List?) ?? const [])
-                .map((e) => e.toString())
-                .toSet(),
-      );
+  factory ReminderPreferences.fromJson(Map<String, dynamic> json) {
+    final current = json['followedCategories'];
+    final legacy = json['followedVisualKeys'];
+    final raw = current is List
+        ? current
+        : legacy is List
+            ? legacy
+            : const <dynamic>[];
+
+    return ReminderPreferences(
+      dailyEnabled: json['dailyEnabled'] == true,
+      dailyHour: _boundedInt(json['dailyHour'], 9, 0, 23),
+      dailyMinute: _boundedInt(json['dailyMinute'], 0, 0, 59),
+      weeklyEnabled: json['weeklyEnabled'] == true,
+      weeklyWeekday: _boundedInt(
+        json['weeklyWeekday'],
+        DateTime.sunday,
+        DateTime.monday,
+        DateTime.sunday,
+      ),
+      weeklyHour: _boundedInt(json['weeklyHour'], 18, 0, 23),
+      weeklyMinute: _boundedInt(json['weeklyMinute'], 0, 0, 59),
+      favoriteEnabled: json['favoriteEnabled'] == true,
+      categoryEnabled: json['categoryEnabled'] == true,
+      followedCategories: raw
+          .map((e) => e.toString().trim().toUpperCase())
+          .where(_isSupportedCategory)
+          .toSet(),
+    );
+  }
+
+  static bool _isSupportedCategory(String value) => const {
+        'PLANET',
+        'HEALTH',
+        'PEOPLE',
+        'LEARNING',
+        'CULTURE',
+        'FOOD',
+        'FUTURE',
+        'COMMUNITY',
+      }.contains(value);
 
   static int _boundedInt(
     Object? value,
