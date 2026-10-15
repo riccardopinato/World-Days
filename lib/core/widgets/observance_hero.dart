@@ -11,6 +11,7 @@ class ObservanceHero extends StatelessWidget {
     this.subtitle,
     this.accentText,
     this.badge,
+    this.onTap,
     this.minHeight = 244,
   });
 
@@ -19,6 +20,7 @@ class ObservanceHero extends StatelessWidget {
   final String? subtitle;
   final String? accentText;
   final Widget? badge;
+  final VoidCallback? onTap;
   final double minHeight;
 
   @override
@@ -32,15 +34,21 @@ class ObservanceHero extends StatelessWidget {
 
     return Semantics(
       container: true,
+      button: onTap != null,
       label: title,
       child: SizedBox(
         height: height,
-        child: ObservanceArtwork(
-          style: style,
-          borderRadius: BorderRadius.circular(32),
-          foreground: Stack(
-            fit: StackFit.expand,
-            children: [
+        child: Material(
+          type: MaterialType.transparency,
+          child: InkWell(
+            borderRadius: BorderRadius.circular(32),
+            onTap: onTap,
+            child: ObservanceArtwork(
+              style: style,
+              borderRadius: BorderRadius.circular(32),
+              foreground: Stack(
+                fit: StackFit.expand,
+                children: [
               if (accentText != null)
                 Positioned(
                   right: 18,
@@ -107,6 +115,9 @@ class ObservanceHero extends StatelessWidget {
                 ),
               ),
             ],
+                ),
+              ),
+            ),
           ),
         ),
       ),
