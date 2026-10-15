@@ -92,18 +92,18 @@ void main() {
         final metadata = snapshot.verifiedMetadataFor(record.id, locale);
         expect(metadata, isNotNull, reason: '${record.id}/$locale');
         expect(metadata!.locale, locale, reason: '${record.id}/$locale');
-        expect(metadata.summary.trim(), isNotEmpty, reason: '${record.id}/$locale');
-        expect(metadata.note.trim(), isNotEmpty, reason: '${record.id}/$locale');
         expect(
-          metadata.sourceVerifiedAt.trim(),
+          metadata.verifiedAt.trim(),
           isNotEmpty,
           reason: '${record.id}/$locale',
         );
         expect(
-          metadata.summary,
-          contains(record.titleForLocale(locale)),
+          metadata.title,
+          record.titleForLocale(locale),
           reason: '${record.id}/$locale',
         );
+        expect(metadata.authorityName.trim(), isNotEmpty);
+        expect(metadata.scope.trim(), isNotEmpty);
       }
     }
 
@@ -112,7 +112,7 @@ void main() {
         snapshot.verifiedMetadataFor('world-habitat-day', 'en')!;
     final italian =
         snapshot.verifiedMetadataFor('world-habitat-day', 'it')!;
-    expect(english.summary, isNot(italian.summary));
+    expect(english.title, isNot(italian.title));
     expect(english.authorityName, isNotEmpty);
   });
 
