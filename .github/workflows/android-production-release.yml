@@ -140,10 +140,25 @@ jobs:
           AAB="build/app/outputs/bundle/release/app-release.aab"
           APKSIGNER="$(find "$ANDROID_HOME/build-tools" -type f -name apksigner | sort -V | tail -n 1)"
           test -x "$APKSIGNER"
-          ACTUAL="$("$APKSIGNER" verify --print-certs "$APK" | sed -n 's/^Signer #1 certificate SHA-256 digest: //p' | head -n 1 | tr -d ':' | tr '[:lower:]' '[:upper:]')"
-          test -n "$ACTUAL"
+
+          CERT_OUTPUT="$RUNNER_TEMP/apksigner-cert-output.txt"
+          "$APKSIGNER" verify --print-certs "$APK" | tee "$CERT_OUTPUT"
+
+          ACTUAL="$(
+            grep -Ei 'certificate SHA-256 digest:' "$CERT_OUTPUT" |
+              head -n 1 |
+              grep -Eo '[0-9A-Fa-f]{64}' |
+              tr '[:lower:]' '[:upper:]'
+          )"
+
+          if [[ -z "$ACTUAL" ]]; then
+            echo "Unable to extract APK signing certificate SHA-256 from apksigner output" >&2
+            exit 1
+          fi
+
+          echo "APK signer SHA-256: $ACTUAL"
           if [[ "$ACTUAL" != "$EXPECTED_CERT_SHA256" ]]; then
-            echo "Signing certificate mismatch" >&2
+            echo "Signing certificate mismatch: expected $EXPECTED_CERT_SHA256, got $ACTUAL" >&2
             exit 1
           fi
 
