@@ -85,6 +85,7 @@ void main() {
     );
 
     await service.initialize();
+    await service.refreshBillingProduct();
 
     expect(service.snapshot.plan, AppPlan.free);
     expect(service.limits.adsEnabled, isTrue);
@@ -125,6 +126,7 @@ void main() {
       billingAdapter: billing,
     );
     await service.initialize();
+    await service.refreshBillingProduct();
 
     expect(await service.purchaseRemoveAds(), PurchaseFlowState.pending);
     expect(service.removesAds, isFalse);
@@ -154,6 +156,7 @@ void main() {
       clock: () => DateTime.utc(2026, 10, 15, 12),
     );
     await service.initialize();
+    await service.refreshBillingProduct();
 
     expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchased);
     expect(service.snapshot.plan, AppPlan.lifetime);
@@ -176,6 +179,7 @@ void main() {
       billingAdapter: billing,
     );
     await service.initialize();
+    await service.refreshBillingProduct();
 
     expect(await service.purchaseRemoveAds(), PurchaseFlowState.purchasing);
     expect(service.removesAds, isFalse);
