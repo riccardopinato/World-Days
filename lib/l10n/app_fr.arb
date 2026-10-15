@@ -158,5 +158,16 @@
   "purchaseFailed": "Impossible de finaliser l’achat.",
   "restoreSucceeded": "Suppression des publicités restaurée.",
   "billingUnavailable": "L’achat via la boutique est actuellement indisponible.",
-  "restoreChecked": "Vérification de restauration terminée. Si un achat éligible est trouvé, la suppression des publicités sera débloquée automatiquement."
+  "restoreChecked": "Vérification de restauration terminée. Si un achat éligible est trouvé, la suppression des publicités sera débloquée automatiquement.",
+  "contentUpdates": "Mises à jour du contenu",
+  "contentUsingBundled": "Le catalogue intégré est utilisé.",
+  "contentChecking": "Recherche de mises à jour du catalogue…",
+  "contentUpdateAvailable": "Une mise à jour vérifiée du catalogue est disponible.",
+  "contentDownloading": "Téléchargement de la mise à jour du catalogue…",
+  "contentVerifying": "Vérification de l’intégrité du catalogue…",
+  "contentUpToDate": "Le catalogue actif est à jour.",
+  "checkForUpdates": "Rechercher des mises à jour",
+  "installUpdate": "Installer la mise à jour",
+  "contentUpdateInstalled": "Mise à jour du catalogue installée.",
+  "contentUpdateFailed": "Impossible d’installer la mise à jour du catalogue."
 }
