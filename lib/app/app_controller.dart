@@ -353,24 +353,25 @@ final class AppController extends ChangeNotifier {
     await _savePreferencesAndReconcile();
   }
 
-  Future<void> toggleFollowedVisualKey(String key) async {
+  Future<void> toggleFollowedCategory(String key) async {
     const allowed = {
-      'planet',
-      'health',
-      'people',
-      'learning',
-      'culture',
-      'food',
-      'future',
-      'community',
+      'PLANET',
+      'HEALTH',
+      'PEOPLE',
+      'LEARNING',
+      'CULTURE',
+      'FOOD',
+      'FUTURE',
+      'COMMUNITY',
     };
-    if (!allowed.contains(key)) {
-      throw ArgumentError.value(key, 'key', 'Unsupported visual category');
+    final normalized = key.trim().toUpperCase();
+    if (!allowed.contains(normalized)) {
+      throw ArgumentError.value(key, 'key', 'Unsupported semantic category');
     }
-    final next = {...preferences.reminders.followedVisualKeys};
-    if (!next.add(key)) next.remove(key);
+    final next = {...preferences.reminders.followedCategories};
+    if (!next.add(normalized)) next.remove(normalized);
     preferences = preferences.copyWith(
-      reminders: preferences.reminders.copyWith(followedVisualKeys: next),
+      reminders: preferences.reminders.copyWith(followedCategories: next),
     );
     notifyListeners();
     await _savePreferencesAndReconcile();
