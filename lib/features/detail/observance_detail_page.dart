@@ -245,16 +245,17 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ],
             const SizedBox(height: 16),
           ] else ...[
-            Text(
-              l10n.editorialComingNext,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w800,
-                  ),
+            _EditorialSection(
+              icon: Icons.verified_outlined,
+              title: l10n.verifiedOverview,
+              body: verifiedOverview.summary,
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 10),
             Text(
-              l10n.editorialPlaceholder,
-              style: Theme.of(context).textTheme.bodyLarge,
+              verifiedOverview.note,
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+                  ),
             ),
             const SizedBox(height: 24),
           ],
