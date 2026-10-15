@@ -47,17 +47,17 @@ void main() {
   });
 
   test('One-off rules resolve only for overlapping years', () {
-    const rule = OneOffRule(
+    final rule = OneOffRule(
       span: DateSpan(
         start: DateTime.utc(2026, 12, 31),
         end: DateTime.utc(2027, 1, 2),
       ),
     );
-    expect(starts(2026, const [rule]), ['2026-12-31']);
-    expect(starts(2027, const [rule]), ['2026-12-31']);
-    expect(starts(2028, const [rule]), isEmpty);
+    expect(starts(2026, [rule]), ['2026-12-31']);
+    expect(starts(2027, [rule]), ['2026-12-31']);
+    expect(starts(2028, [rule]), isEmpty);
     expect(
-      RecurrenceEngine.resolve(year: 2028, rules: const [rule]).resolved,
+      RecurrenceEngine.resolve(year: 2028, rules: [rule]).resolved,
       isTrue,
     );
   });
