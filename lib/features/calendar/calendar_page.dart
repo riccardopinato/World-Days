@@ -37,6 +37,8 @@ class _CalendarPageState extends State<CalendarPage> {
     final l10n = AppLocalizations.of(context);
     final locale = Localizations.localeOf(context).toLanguageTag();
     final records = widget.controller.observancesForDate(selected);
+    final unresolved =
+        widget.controller.unresolvedObservancesForYear(month.year);
 
     return Scaffold(
       appBar: AppBar(
@@ -82,6 +84,25 @@ class _CalendarPageState extends State<CalendarPage> {
               ),
             ],
           ),
+          if (unresolved.isNotEmpty) ...[
+            Card(
+              child: ListTile(
+                leading: const Icon(Icons.event_busy_outlined),
+                title: Text(l10n.unresolvedDatesNotice),
+                subtitle: Text(
+                  unresolved
+                      .map(
+                        (record) => record.titleForLocale(
+                          Localizations.localeOf(context).languageCode,
+                        ),
+                      )
+                      .take(3)
+                      .join(' · '),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+          ],
           const SizedBox(height: 8),
           _WeekdayHeader(locale: locale),
           const SizedBox(height: 4),
