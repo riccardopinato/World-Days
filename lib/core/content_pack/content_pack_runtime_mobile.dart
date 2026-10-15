@@ -25,9 +25,8 @@ class _HttpContentPackTransport implements ContentPackTransport {
 
   @override
   Future<String> getText(Uri uri) async {
-    final response = await _client
-        .get(uri)
-        .timeout(const Duration(seconds: 15));
+    final response =
+        await _client.get(uri).timeout(const Duration(seconds: 15));
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_manifest_http_${response.statusCode}',
@@ -39,9 +38,8 @@ class _HttpContentPackTransport implements ContentPackTransport {
 
   @override
   Future<List<int>> getBytes(Uri uri) async {
-    final response = await _client
-        .get(uri)
-        .timeout(const Duration(seconds: 30));
+    final response =
+        await _client.get(uri).timeout(const Duration(seconds: 30));
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_payload_http_${response.statusCode}',
@@ -167,16 +165,18 @@ class _FileContentPackStorage implements ContentPackStorage {
     final previous = current?.activeVersion == manifest.version
         ? current?.previousVersion
         : current?.activeVersion;
+
     await _writePointer(
       ContentPackPointer(
         activeVersion: manifest.version,
         previousVersion: previous,
       ),
     );
+
     await _purgeUnused(
       keepVersions: {
         manifest.version,
-        if (previous != null) previous,
+        ?previous,
       },
     );
   }
@@ -220,27 +220,8 @@ class _FileContentPackStorage implements ContentPackStorage {
     await for (final entity in root.list()) {
       if (entity is! File) continue;
       final name = entity.uri.pathSegments.last;
-      final match = RegExp(r'^(?:manifest|pack)_(.+)\.json
-  Future<void> _replaceFile(File source, File target) async {
-    if (await target.exists()) await target.delete();
-    await source.rename(target.path);
-  }
-
-  Future<void> _deleteIfExists(File file) async {
-    if (await file.exists()) await file.delete();
-  }
-
-  String _safeVersion(String value) {
-    if (!RegExp(r'^[A-Za-z0-9._-]+$').hasMatch(value)) {
-      throw const FormatException('invalid_content_pack_version');
-    }
-    return value;
-  }
-
-  @override
-  Future<void> close() async {}
-}
-).firstMatch(name);
+      final match =
+          RegExp(r'^(?:manifest|pack)_(.+)\.json$').firstMatch(name);
       if (match == null) continue;
       final version = match.group(1);
       if (version != null && !keepVersions.contains(version)) {
