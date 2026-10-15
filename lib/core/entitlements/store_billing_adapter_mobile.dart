@@ -44,6 +44,26 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
   @override
   Stream<BillingResult> get updates => _updates.stream;
 
+  @override
+  Future<void> initialize() async {
+    if (!supported || _disposed) return;
+    _storeAvailable = await _storeClient.isAvailable();
+    if (_storeAvailable) {
+      await _ensurePurchaseListener();
+    }
+  }
+
+  @override
+  Future<void> reconcilePendingPurchases() async {
+    if (!supported || _disposed) return;
+    _storeAvailable = await _storeClient.isAvailable();
+    if (!_storeAvailable) {
+      throw StateError('store_unavailable');
+    }
+    await _ensurePurchaseListener();
+    await _storeClient.restorePurchases();
+  }
+
   Future<void> _ensurePurchaseListener() async {
     if (_purchaseSubscription != null || !supported || _disposed) return;
     _purchaseSubscription = _storeClient.purchaseStream.listen(
@@ -239,6 +259,7 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
               productId: _productId,
               transactionId: transactionId,
               verified: true,
+              completionRequired: purchase.pendingCompletePurchase,
             ),
           );
           break;
@@ -248,10 +269,23 @@ class InAppPurchaseBillingAdapter implements BillingAdapter {
 
   @override
   Future<void> completePurchase(BillingResult result) async {
+    if (!result.completionRequired) return;
+
     final transactionId = result.transactionId;
-    if (transactionId == null) return;
+    if (transactionId == null || transactionId.isEmpty) {
+      throw StateError('purchase_completion_transaction_missing');
+    }
+
     final purchase = _awaitingCompletion[transactionId];
-    if (purchase == null || !purchase.pendingCompletePurchase) return;
+    if (purchase == null) {
+      throw StateError('purchase_completion_context_missing');
+    }
+
+    if (!purchase.pendingCompletePurchase) {
+      _awaitingCompletion.remove(transactionId);
+      return;
+    }
+
     await _storeClient.completePurchase(purchase);
     _awaitingCompletion.remove(transactionId);
   }
