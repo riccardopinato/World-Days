@@ -1,5 +1,5 @@
-WORLD DAYS — CANONICAL DATA CONTRACT v0.2
-Date: 2026-10-11
+WORLD DAYS — CANONICAL DATA CONTRACT v0.3
+Date: 2026-10-15
 
 1. CORE PRINCIPLE
 Catalog truth and yearly occurrence truth are separate.
@@ -19,10 +19,12 @@ recurrenceKind:
 - LAST_WEEKDAY
 - LAST_DAY_OF_MONTH
 - FIXED_RANGE
-- MULTI_RULE
 - LUNAR
 - AUTHORITY_DEFINED
 - ONE_OFF
+
+Multiple annual occurrences are represented by multiple items in recurrenceRules[].
+MULTI_RULE is therefore a composition concept, not a serialized recurrence kind.
 
 officiality:
 - OFFICIAL_UN
@@ -39,6 +41,16 @@ sourceTier:
 - B_INSTITUTIONAL
 - C_DISCOVERY
 - D_ORIGINATOR
+
+semanticCategory:
+- PLANET
+- HEALTH
+- PEOPLE
+- LEARNING
+- CULTURE
+- FOOD
+- FUTURE
+- COMMUNITY
 
 3. OBSERVANCE
 Required JSON shape:
@@ -59,7 +71,7 @@ Required JSON shape:
     "officiality": "OFFICIAL_UN",
     "resolution": "A/RES/73/161"
   },
-  "categories": ["ACCESSIBILITY","HUMAN_RIGHTS"],
+  "categories": ["LEARNING","PEOPLE"],
   "sources": [
     {
       "tier":"A_PRIMARY",
@@ -70,12 +82,43 @@ Required JSON shape:
   "firstEstablishedYear": null,
   "validFrom": null,
   "validTo": null,
-  "visualKey": "accessibility-braille",
+  "visualKey": "learning",
   "editorialStatus": "STUB",
   "lastVerifiedAt": "2026-10-11"
 }
 
-4. OCCURRENCE
+categories[] describes subject matter and is independent from visualKey.
+A record may have more than one semantic category.
+visualKey controls presentation only and must never be used as the canonical category source.
+
+4. RECURRENCE SHAPES
+FIXED_DATE:
+{"kind":"FIXED_DATE","month":1,"day":4}
+
+NTH_WEEKDAY:
+{"kind":"NTH_WEEKDAY","month":7,"weekday":6,"occurrence":1}
+
+LAST_WEEKDAY:
+{"kind":"LAST_WEEKDAY","month":9,"weekday":4}
+
+LAST_DAY_OF_MONTH:
+{"kind":"LAST_DAY_OF_MONTH","month":2}
+
+FIXED_RANGE:
+{"kind":"FIXED_RANGE","startMonth":2,"startDay":1,"endMonth":2,"endDay":7}
+
+LUNAR / AUTHORITY_DEFINED:
+{
+  "kind":"LUNAR",
+  "overrides":{
+    "2026":{"startDate":"2026-05-01","endDate":"2026-05-01"}
+  }
+}
+
+ONE_OFF:
+{"kind":"ONE_OFF","startDate":"2026-12-31","endDate":"2027-01-02"}
+
+5. OCCURRENCE
 Generated, never hand-maintained for ordinary recurrence rules:
 {
   "observanceId":"world-braille-day",
@@ -86,7 +129,7 @@ Generated, never hand-maintained for ordinary recurrence rules:
   "ruleIndex":0
 }
 
-5. YEAR OVERRIDE
+6. YEAR OVERRIDE
 Use only for campaign-specific or exceptional yearly facts:
 {
   "observanceId":"world-health-day",
@@ -96,19 +139,20 @@ Use only for campaign-specific or exceptional yearly facts:
   "notes":[]
 }
 
-6. MULTIPLE OCCURRENCES
+7. MULTIPLE OCCURRENCES
 An observance may have more than one recurrence rule.
 Example: World Migratory Bird Day has a spring and autumn occurrence.
 Do NOT duplicate the canonical observance.
 
-7. OFFICIALITY / SOURCE RULES
+8. OFFICIALITY / SOURCE RULES
 - Official badge requires Tier A evidence.
 - Tier C discovery sources never upgrade officiality.
 - If primary evidence is not yet found, keep DISCOVERY_UNVERIFIED and exclude from the public canonical catalog by default.
 - Conflicts: primary authority wins; store the conflicting candidate as review metadata, not as a second canonical truth.
 - Exact titles should follow the establishing/current authority in English.
+- source.verifiedAt and observance.lastVerifiedAt must survive into the runtime model when source transparency is shown to users.
 
-8. DEDUP KEY
+9. DEDUP KEY
 Preferred: stable curated id.
 Secondary duplicate signals:
 - normalized English title
@@ -116,16 +160,19 @@ Secondary duplicate signals:
 - same authority + same recurrence
 - same resolution/declaration
 
-9. EDITORIAL CONTRACT
+10. EDITORIAL CONTRACT
 English is canonical editorial source.
 Translations are derivative records, not independent factual sources.
 Third-party prose is not copied.
 
-10. QA INVARIANTS
+11. QA INVARIANTS
 - id unique
+- at least one semantic category per publishable observance
+- semantic categories belong to the canonical category enum
 - at least one source per publishable observance
 - officiality OFFICIAL_* requires at least one A_PRIMARY source
 - every recurrence can generate or resolve an occurrence for supported years unless explicitly AUTHORITY_DEFINED/LUNAR
+- ONE_OFF outside the queried year is resolved with zero occurrences, not treated as unresolved
 - generated occurrence start <= end
 - dates belong to requested year unless a cross-year range explicitly allows otherwise
 - aliases do not duplicate another canonical id
@@ -133,12 +180,11 @@ Third-party prose is not copied.
 - every date Jan 1-Dec 31 can be queried, even if result=[]
 - leap day works in leap years
 
-
 12. MARKET LAYER CONTRACT
 - Locale and market are independent. Locale must never infer or overwrite the market.
 - GLOBAL market displays only GLOBAL records in the normal Today/Calendar/Discover surfaces.
 - A selected market displays GLOBAL records plus NATIONAL/REGIONAL records whose countries[] contains that market code.
 - NATIONAL records must contain exactly one ISO 3166-1 alpha-2 country code in countries[].
-- Around the World may browse NATIONAL records directly without reclassifying them as global.
+- Around the World browsing is transient and must never overwrite the profile market.
 - National officiality uses OFFICIAL_INSTITUTIONAL and requires an A_PRIMARY establishing/maintaining public source.
 - The market layer is not a public-holiday planner; inclusion is product-curated and observance-focused.
