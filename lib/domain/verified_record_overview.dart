@@ -1,6 +1,8 @@
 import 'observance.dart';
 
 final class VerifiedRecordOverview {
+  static const status = 'VERIFIED_METADATA';
+
   const VerifiedRecordOverview({
     required this.observanceId,
     required this.locale,
