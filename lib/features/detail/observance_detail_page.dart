@@ -39,6 +39,7 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final catalog = widget.controller.catalog;
     final editorial = catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
+    final verifiedOverview = VerifiedMetadataSummary.forObservance(record, localeCode);
     final annualOverride = catalog?.yearOverrideFor(record.id, DateTime.now().year);
     final related = editorial == null
         ? const <Observance>[]
