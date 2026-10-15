@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
+import '../../core/verified_overview_copy.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../core/widgets/observance_hero.dart';
 import '../../domain/observance.dart';
