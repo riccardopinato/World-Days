@@ -272,6 +272,8 @@ class NotificationService {
         notificationDetails: _standardDetails,
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
         payload: item.payload,
+        matchDateTimeComponents:
+            item.repeatDaily ? DateTimeComponents.time : null,
       );
       _lastError = null;
       return true;
