@@ -44,9 +44,6 @@ final class CatalogSnapshot {
     return VerifiedRecordOverview.fromObservance(record, localeCode);
   }
 
-  bool hasRichEditorial(String observanceId) =>
-      editorialByLocale['en']?.containsKey(observanceId) ?? false;
-
   ObservanceYearOverride? yearOverrideFor(String observanceId, int year) {
     for (final item in yearOverrides) {
       if (item.observanceId == observanceId && item.year == year) return item;
