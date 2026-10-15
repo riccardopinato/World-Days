@@ -22,10 +22,12 @@ class EntitlementService extends ChangeNotifier {
   StreamSubscription<BillingResult>? _billingSubscription;
 
   EntitlementSnapshot _snapshot = const EntitlementSnapshot.free();
+  PendingPurchaseCompletion? _pendingCompletion;
   PurchaseFlowState _flowState = PurchaseFlowState.idle;
   BillingProductInfo? _product;
   String? _lastError;
   bool _initialized = false;
+  bool _reconciliationInFlight = false;
 
   EntitlementSnapshot get snapshot => _snapshot;
   ProductLimits get limits => ProductLimits.fromEntitlement(_snapshot);
@@ -35,10 +37,14 @@ class EntitlementService extends ChangeNotifier {
   bool get initialized => _initialized;
   bool get billingSupported => _billing.supported;
   bool get removesAds => _snapshot.removesAds;
+  bool get hasPendingCompletion => _pendingCompletion != null;
 
   Future<void> initialize() async {
     if (_initialized) return;
+
     _snapshot = await _store.load();
+    _pendingCompletion = await _store.loadPendingCompletion();
+
     _billingSubscription ??= _billing.updates.listen(
       (result) => unawaited(_applyBillingResult(result)),
       onError: (Object error) {
@@ -47,12 +53,27 @@ class EntitlementService extends ChangeNotifier {
         notifyListeners();
       },
     );
+
     _initialized = true;
 
     if (!_billing.supported) {
-      _flowState = PurchaseFlowState.billingUnavailable;
+      _flowState = _snapshot.removesAds
+          ? PurchaseFlowState.purchased
+          : PurchaseFlowState.billingUnavailable;
       notifyListeners();
       return;
+    }
+
+    try {
+      // Listener attachment is intentionally performed even for cached
+      // lifetime owners so unfinished store transactions can be redelivered.
+      await _billing.initialize();
+    } catch (error) {
+      _lastError = 'billing_initialize:$error';
+    }
+
+    if (_pendingCompletion != null) {
+      unawaited(_reconcilePendingCompletion());
     }
 
     if (_snapshot.removesAds) {
@@ -138,6 +159,24 @@ class EntitlementService extends ChangeNotifier {
     return _flowState;
   }
 
+  Future<void> _reconcilePendingCompletion() async {
+    if (_reconciliationInFlight ||
+        !_billing.supported ||
+        _pendingCompletion == null) {
+      return;
+    }
+
+    _reconciliationInFlight = true;
+    try {
+      await _billing.reconcilePendingPurchases();
+    } catch (error) {
+      _lastError = 'billing_completion_reconcile:$error';
+      notifyListeners();
+    } finally {
+      _reconciliationInFlight = false;
+    }
+  }
+
   Future<void> _applyBillingResult(BillingResult result) async {
     if (result.grantsLifetime(_billing.removeAdsProductId)) {
       final source = EntitlementSnapshot(
@@ -151,13 +190,46 @@ class EntitlementService extends ChangeNotifier {
       _lastError = null;
       notifyListeners();
 
-      try {
-        await _billing.completePurchase(result);
-      } catch (error) {
-        // Entitlement delivery already succeeded. Keep access and surface the
-        // provider-finalization issue for diagnostics/retry rather than
-        // revoking a user-owned purchase.
-        _lastError = 'billing_complete:$error';
+      final transactionId = result.transactionId?.trim();
+      if (result.completionRequired) {
+        if (transactionId == null || transactionId.isEmpty) {
+          _lastError = 'billing_completion_transaction_missing';
+          notifyListeners();
+          return;
+        }
+
+        final pending = PendingPurchaseCompletion(
+          productId: result.productId ?? _billing.removeAdsProductId,
+          transactionId: transactionId,
+          recordedAt: _clock().toUtc(),
+        );
+        await _store.savePendingCompletion(pending);
+        _pendingCompletion = pending;
+
+        try {
+          await _billing.completePurchase(result);
+          await _store.clearPendingCompletion(
+            transactionId: transactionId,
+          );
+          _pendingCompletion = null;
+        } catch (error) {
+          // Entitlement delivery already succeeded. Keep access and persist a
+          // durable recovery marker so the provider can redeliver/finalize on
+          // a later app launch.
+          _lastError = 'billing_complete:$error';
+        }
+        notifyListeners();
+        return;
+      }
+
+      final pending = _pendingCompletion;
+      if (transactionId != null &&
+          pending != null &&
+          pending.transactionId == transactionId) {
+        await _store.clearPendingCompletion(
+          transactionId: transactionId,
+        );
+        _pendingCompletion = null;
         notifyListeners();
       }
       return;
