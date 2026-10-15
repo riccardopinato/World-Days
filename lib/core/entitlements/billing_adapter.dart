@@ -10,6 +10,14 @@ abstract interface class BillingAdapter {
   /// arrives through this stream.
   Stream<BillingResult> get updates;
 
+  /// Attaches provider listeners during app startup even when an entitlement
+  /// is already cached, so unfinished transactions can be redelivered.
+  Future<void> initialize();
+
+  /// Requests provider reconciliation for an unfinished transaction recorded
+  /// by the entitlement layer. Implementations must be idempotent.
+  Future<void> reconcilePendingPurchases();
+
   Future<BillingProductInfo?> loadRemoveAdsProduct();
 
   Future<BillingResult> purchaseRemoveAds();
@@ -38,6 +46,12 @@ class UnavailableBillingAdapter implements BillingAdapter {
 
   @override
   Stream<BillingResult> get updates => const Stream<BillingResult>.empty();
+
+  @override
+  Future<void> initialize() async {}
+
+  @override
+  Future<void> reconcilePendingPurchases() async {}
 
   @override
   Future<BillingProductInfo?> loadRemoveAdsProduct() async => null;

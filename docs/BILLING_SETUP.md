@@ -1,6 +1,6 @@
 # World Days — Remove Ads billing setup
 
-Status: provider adapter implemented; store catalog and sandbox evidence still required.
+Status: provider adapter + durable completion-recovery implemented; Play catalog and sandbox evidence still required.
 
 ## Product contract
 
@@ -53,12 +53,29 @@ State handling:
   are required before the entitlement layer accepts the store-reported state;
 - entitlement state is persisted before `completePurchase` finalizes a
   transaction;
+- when provider finalization is required, a durable transaction marker is
+  stored before `completePurchase`;
+- if finalization fails, access is preserved and the marker survives process
+  death;
+- on a later launch the purchase stream is attached even for cached lifetime
+  owners and provider reconciliation is triggered so an unfinished purchase
+  can be re-delivered and finalized idempotently;
+- a provider result showing no remaining completion requirement clears a
+  matching stale marker;
 - cached lifetime ownership suppresses AdMob before monetization initializes;
-- restore is always user initiated.
+- restore is user initiated for normal recovery, while unfinished provider
+  completion has its own automatic reconciliation path.
 
-The generic Flutter billing API requires completed purchases to be finalized
-with `completePurchase`. Unfinished Android purchases can be refunded after
-the provider deadline, so transaction completion remains a release gate.
+The Flutter `in_app_purchase` API requires completed purchases to be
+finalized with `completePurchase` when `pendingCompletePurchase` is true.
+Google Play requires acknowledgement after entitlement delivery; unacknowledged
+non-consumable purchases can be automatically refunded after the provider
+window. World Days therefore treats completion as a durable recoverable
+operation rather than a best-effort one-shot callback.
+
+Provider guidance re-verified 2026-10-15 against:
+- https://pub.dev/packages/in_app_purchase
+- https://developer.android.com/google/play/billing/integrate
 
 ## Verification boundary
 
@@ -85,4 +102,6 @@ release candidate:
 - app restart preserves Remove Ads;
 - restore succeeds after reinstall/cleared local state;
 - purchase transaction is completed/acknowledged without repeated delivery;
+- forced completion failure followed by process restart reconciles and
+  completes the same transaction without revoking entitlement;
 - production build remains signed by the pinned World Days certificate.

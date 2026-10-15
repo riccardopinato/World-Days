@@ -57,6 +57,41 @@ class EntitlementSnapshot {
   }
 }
 
+class PendingPurchaseCompletion {
+  const PendingPurchaseCompletion({
+    required this.productId,
+    required this.transactionId,
+    required this.recordedAt,
+  });
+
+  final String productId;
+  final String transactionId;
+  final DateTime recordedAt;
+
+  Map<String, dynamic> toJson() => {
+        'productId': productId,
+        'transactionId': transactionId,
+        'recordedAt': recordedAt.toUtc().toIso8601String(),
+      };
+
+  factory PendingPurchaseCompletion.fromJson(Map<String, dynamic> json) {
+    final productId = json['productId']?.toString().trim() ?? '';
+    final transactionId = json['transactionId']?.toString().trim() ?? '';
+    final recordedAt =
+        DateTime.tryParse(json['recordedAt']?.toString() ?? '')?.toUtc();
+
+    if (productId.isEmpty || transactionId.isEmpty || recordedAt == null) {
+      throw const FormatException('invalid_pending_purchase_completion');
+    }
+
+    return PendingPurchaseCompletion(
+      productId: productId,
+      transactionId: transactionId,
+      recordedAt: recordedAt,
+    );
+  }
+}
+
 class ProductLimits {
   const ProductLimits({required this.adsEnabled});
 
@@ -98,6 +133,7 @@ class BillingResult {
     this.productId,
     this.transactionId,
     this.verified = false,
+    this.completionRequired = false,
     this.errorCode,
   });
 
@@ -109,6 +145,10 @@ class BillingResult {
   /// state and mapped it to the expected product. This flag does not claim
   /// server-side receipt verification.
   final bool verified;
+
+  /// True when the store reports that this transaction still requires
+  /// provider finalization/acknowledgement after entitlement delivery.
+  final bool completionRequired;
   final String? errorCode;
 
   bool grantsLifetime(String expectedProductId) =>

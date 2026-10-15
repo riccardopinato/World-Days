@@ -141,9 +141,11 @@ Store work:
 - [ ] Add license/internal tester configuration.
 
 Audit blocker — provider finalization:
-- [ ] Add durable/idempotent `completePurchase` recovery after completion failure or process restart.
-- [ ] Ensure cached lifetime entitlement does not prevent recovery of an unfinished Play transaction.
-- [ ] Add automated tests for failed completion → restart → retry → completed transaction.
+- [x] Durable/idempotent `completePurchase` recovery after completion failure or process restart.
+- [x] Cached lifetime entitlement still attaches the store listener and does not prevent unfinished-transaction reconciliation.
+- [x] Durable pending-completion marker is persisted before provider finalization and cleared only after successful/confirmed completion.
+- [x] Automated tests cover failed completion → restart → provider redelivery → completed transaction.
+- [x] Unverified/wrong-product terminal store results fail closed instead of surfacing a false purchase-success state.
 
 Sandbox evidence:
 - [ ] Product resolves with Play-localized price.
