@@ -9,15 +9,12 @@ import 'content_pack_models.dart';
 typedef ContentPayloadValidator = void Function(Map<String, dynamic> payload);
 
 class ContentPackManager extends ChangeNotifier {
-  ContentPackManager({
-    required ContentPackTransport transport,
-    required ContentPackStorage storage,
-    required ContentPayloadValidator validator,
+  ContentPackManager(
+    this._transport,
+    this._storage,
+    this._validator, {
     Uri? manifestUri,
-  })  : _transport = transport,
-        _storage = storage,
-        _validator = validator,
-        manifestUri = manifestUri ??
+  }) : manifestUri = manifestUri ??
             Uri.parse(
               'https://riccardopinato.github.io/World-Days/content/manifest.json',
             );
