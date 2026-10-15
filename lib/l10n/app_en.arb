@@ -157,5 +157,6 @@
   "purchaseCancelled": "Purchase cancelled.",
   "purchaseFailed": "Purchase could not be completed.",
   "restoreSucceeded": "Remove Ads restored.",
-  "billingUnavailable": "Store purchase is currently unavailable."
+  "billingUnavailable": "Store purchase is currently unavailable.",
+  "restoreChecked": "Restore check completed. If an eligible purchase is found, Remove Ads will unlock automatically."
 }
