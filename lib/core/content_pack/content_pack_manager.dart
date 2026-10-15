@@ -32,6 +32,7 @@ class ContentPackManager extends ChangeNotifier {
   ContentPackManifest? _remoteManifest;
   Map<String, dynamic>? _activePayload;
   String? _lastError;
+  String? _bundledVersion;
 
   bool get supported => _transport.supported && _storage.supported;
   ContentPackState get state => _state;
@@ -39,10 +40,18 @@ class ContentPackManager extends ChangeNotifier {
   ContentPackManifest? get remoteManifest => _remoteManifest;
   Map<String, dynamic>? get activePayload => _activePayload;
   String? get lastError => _lastError;
+  String? get bundledVersion => _bundledVersion;
+
+  void setBundledVersion(String version) {
+    final normalized = version.trim();
+    if (normalized.isEmpty || _bundledVersion == normalized) return;
+    _bundledVersion = normalized;
+    notifyListeners();
+  }
 
   ContentPackStatus get status => ContentPackStatus(
         state: _state,
-        activeVersion: _activeManifest?.version,
+        activeVersion: _activeManifest?.version ?? _bundledVersion,
         remoteVersion: _remoteManifest?.version,
         lastError: _lastError,
       );
@@ -90,7 +99,8 @@ class ContentPackManager extends ChangeNotifier {
       );
       _remoteManifest = manifest;
 
-      if (_activeManifest?.version == manifest.version) {
+      final currentVersion = _activeManifest?.version ?? _bundledVersion;
+      if (currentVersion == manifest.version) {
         _state = ContentPackState.ready;
         notifyListeners();
         return false;
