@@ -79,6 +79,6 @@ void main() {
 
     final todayLabel = DateTime.now().day.toString();
     final semantics = tester.getSemantics(find.text(todayLabel).first);
-    expect(semantics.hasFlag(SemanticsFlag.isButton), isTrue);
+    expect(semantics.flagsCollection.isButton, isTrue);
   });
 }
