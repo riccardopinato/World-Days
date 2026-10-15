@@ -41,6 +41,7 @@ final class AppController extends ChangeNotifier {
 
   final Map<int, List<ObservanceOccurrence>> _occurrencesByYear = {};
   final Map<int, Map<String, List<ObservanceOccurrence>>> _occurrenceIndexByYear = {};
+  final Map<int, List<Observance>> _unresolvedByYear = {};
 
   CatalogSnapshot? catalog;
   UserPreferences preferences = const UserPreferences();
@@ -61,6 +62,7 @@ final class AppController extends ChangeNotifier {
       catalog = values[0] as CatalogSnapshot;
       _occurrencesByYear.clear();
       _occurrenceIndexByYear.clear();
+      _unresolvedByYear.clear();
       preferences = values[1] as UserPreferences;
       await _updateStreak();
     } catch (e) {
@@ -92,6 +94,15 @@ final class AppController extends ChangeNotifier {
     return _occurrencesByYear.putIfAbsent(
       year,
       () => _catalogRepository.occurrencesForYear(year, value),
+    );
+  }
+
+  List<Observance> unresolvedObservancesForYear(int year) {
+    final value = catalog;
+    if (value == null) return const [];
+    return _unresolvedByYear.putIfAbsent(
+      year,
+      () => _catalogRepository.unresolvedForYear(year, value),
     );
   }
 
