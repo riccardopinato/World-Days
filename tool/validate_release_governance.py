@@ -17,7 +17,7 @@ match = re.search(
 assert match, "pubspec version must be MAJOR.MINOR.PATCH+positiveBuildNumber"
 
 version_name, version_code = match.groups()
-assert int(version_code) > 0
+assert int(version_code) >= 4, "versionCode must not regress below the post-0.3 production floor"
 
 assert 'refs/heads/main' in workflow, "production workflow must require main"
 assert 'WORLD_DAYS_VERSION_NAME' in workflow
