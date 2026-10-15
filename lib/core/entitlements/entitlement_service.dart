@@ -55,7 +55,22 @@ class EntitlementService extends ChangeNotifier {
       return;
     }
 
+    if (_snapshot.removesAds) {
+      _flowState = PurchaseFlowState.purchased;
+      notifyListeners();
+      return;
+    }
+
     _flowState = PurchaseFlowState.loadingProduct;
+    notifyListeners();
+    unawaited(refreshBillingProduct());
+  }
+
+  Future<void> refreshBillingProduct() async {
+    if (!_initialized || !_billing.supported || _snapshot.removesAds) return;
+
+    _flowState = PurchaseFlowState.loadingProduct;
+    _lastError = null;
     notifyListeners();
 
     try {
@@ -84,7 +99,7 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.purchaseRemoveAds();
-      if (!removesAds ||
+      if (_flowState == PurchaseFlowState.purchasing ||
           result.state == PurchaseFlowState.purchased ||
           result.state == PurchaseFlowState.restored) {
         await _applyBillingResult(result);
@@ -110,7 +125,7 @@ class EntitlementService extends ChangeNotifier {
 
     try {
       final result = await _billing.restoreRemoveAds();
-      if (!removesAds ||
+      if (_flowState == PurchaseFlowState.restoring ||
           result.state == PurchaseFlowState.purchased ||
           result.state == PurchaseFlowState.restored) {
         await _applyBillingResult(result);
