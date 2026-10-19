@@ -122,7 +122,7 @@ jobs:
           grep -F "android:value=\"$ADMOB_ANDROID_APP_ID\"" android/app/src/main/AndroidManifest.xml
 
       - name: Resolve dependencies
-        run: flutter pub get
+        run: flutter pub get --enforce-lockfile
 
       - name: Verify committed dependency lock
         run: git diff --exit-code -- pubspec.lock
