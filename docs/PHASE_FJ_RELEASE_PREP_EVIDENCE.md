@@ -79,6 +79,18 @@ The final Phase F/J candidate should use the APK and AAB from the same Productio
 - both signed lanes to invoke the exact-artifact manifest writer;
 - both signed lanes to upload their expected manifest.
 
+## Dependency-lock determinism
+
+The first PR CI exposed a time-dependent lock drift during platform scaffold generation: `flutter create` performed an implicit package resolution and refreshed transitive packages before the explicit lock check.
+
+The release preparation now prevents that class of drift:
+
+- `tool/bootstrap_platforms.sh` invokes `flutter create --no-pub`;
+- Development checks, Pages deploy, Signed Android QA and Production Android Release use `flutter pub get --enforce-lockfile`;
+- the committed `pubspec.lock` remains the dependency source of truth instead of being opportunistically refreshed during CI.
+
+This is a CI reproducibility fix, not a dependency upgrade.
+
 ## Accessibility pre-certification
 
 The compact large-text mobile navigation now has:
