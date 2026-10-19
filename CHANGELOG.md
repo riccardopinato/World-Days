@@ -24,3 +24,4 @@ All notable user-facing and release-relevant changes to World Days are recorded 
 - Added full-catalog recurrence, content, retention, billing, remote-content and responsive/accessibility regressions.
 - Added machine-readable exact-artifact manifests for signed QA/production APK+AAB outputs.
 - Added deterministic release-evidence tests plus explicit compact-navigation focus-order and >=48dp touch-target assertions.
+- CI platform bootstrap no longer performs implicit dependency resolution; all release/deploy lanes enforce the committed Flutter lockfile.
