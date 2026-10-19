@@ -15,7 +15,11 @@ void main() {
 
   testWidgets('Today uses verified metadata when rich editorial is absent',
       (tester) async {
-    final controller = await buildLoadedTestController();
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
+    final controller = await buildLoadedTestController(
+      catalog: buildTestCatalog(date: today),
+    );
     addTearDown(controller.dispose);
 
     await tester.pumpWidget(
@@ -75,8 +79,11 @@ void main() {
 
   testWidgets('Calendar filters national records without mutating profile market',
       (tester) async {
+    final now = DateTime.now();
+    final today = DateTime(now.year, now.month, now.day);
     final controller = await buildLoadedTestController(
       preferences: const UserPreferences(marketCode: 'IT'),
+      catalog: buildTestCatalog(date: today),
     );
     addTearDown(controller.dispose);
 
