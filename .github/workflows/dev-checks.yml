@@ -54,7 +54,7 @@ jobs:
           python3 tool/validate_native_content_pack.py
 
       - name: Resolve dependencies
-        run: flutter pub get --enforce-lockfile
+        run: flutter pub get
 
       - name: Verify committed dependency lock
         run: git diff --exit-code -- pubspec.lock
