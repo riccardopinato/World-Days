@@ -46,8 +46,36 @@ void main() {
 
     expect(find.byType(NavigationBar), findsNothing);
     for (final label in ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']) {
-      expect(find.byTooltip(label), findsOneWidget);
+      final tooltip = find.byTooltip(label);
+      expect(tooltip, findsOneWidget);
+
+      final touchTarget = find.descendant(
+        of: tooltip,
+        matching: find.byType(InkResponse),
+      );
+      expect(touchTarget, findsOneWidget);
+      final size = tester.getSize(touchTarget);
+      expect(size.width, greaterThanOrEqualTo(48));
+      expect(size.height, greaterThanOrEqualTo(48));
     }
+
+    final compactNavGroup = find.ancestor(
+      of: find.byTooltip('Today'),
+      matching: find.byType(FocusTraversalGroup),
+    );
+    expect(compactNavGroup, findsOneWidget);
+
+    final focusOrders = tester
+        .widgetList<FocusTraversalOrder>(
+          find.descendant(
+            of: compactNavGroup,
+            matching: find.byType(FocusTraversalOrder),
+          ),
+        )
+        .map((widget) => (widget.order as NumericFocusOrder).order)
+        .toList();
+    expect(focusOrders, <double>[0, 1, 2, 3, 4]);
+
     final largeTextException = tester.takeException();
     if (largeTextException != null) {
       debugDumpRenderTree();
