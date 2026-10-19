@@ -34,7 +34,7 @@ Implemented in this first real repository pass:
 - source-bound signed Android workflows: pubspec versionName/versionCode plus machine-readable source/signer/APK/AAB identity manifests;
 - verified Remote Content Pack v1 with HTTPS manifest, SHA-256 gate, staged activation, rollback and immutable bundled fallback;
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
-- GitHub Actions for real Flutter analyze/test/Web/Android validation.
+- GitHub Actions for real Flutter analyze/test/Web/Android validation with enforced committed dependency lock resolution.
 
 Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. V1 has no separate first-party analytics SDK/event pipeline. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Verified Overview coverage is 296/296 in EN/IT/ES/FR/DE/PT; Rich Editorial remains a separate curated layer at 28/296 reviewed records. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
