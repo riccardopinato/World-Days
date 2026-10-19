@@ -25,3 +25,4 @@ All notable user-facing and release-relevant changes to World Days are recorded 
 - Added machine-readable exact-artifact manifests for signed QA/production APK+AAB outputs.
 - Added deterministic release-evidence tests plus explicit compact-navigation focus-order and >=48dp touch-target assertions.
 - CI platform bootstrap no longer performs implicit dependency resolution; all release/deploy lanes enforce the committed Flutter lockfile.
+- Refreshed only the two transitive lock entries required by the current resolver: `in_app_purchase_storekit 0.4.14` and `shared_preferences_android 2.5.0`.
