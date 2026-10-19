@@ -89,7 +89,7 @@ The release preparation now prevents that class of drift:
 - Development checks, Pages deploy, Signed Android QA and Production Android Release use `flutter pub get --enforce-lockfile`;
 - the committed `pubspec.lock` remains the dependency source of truth instead of being opportunistically refreshed during CI.
 
-This is a CI reproducibility fix, not a dependency upgrade.
+The lock refresh is intentionally bounded to the two transitive entries the previous non-enforced CI resolution changed: `in_app_purchase_storekit 0.4.13+3 → 0.4.14` and `shared_preferences_android 2.4.28 → 2.5.0`. No direct dependency constraint changed.
 
 ## Accessibility pre-certification
 
