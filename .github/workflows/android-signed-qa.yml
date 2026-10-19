@@ -20,6 +20,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
+      - name: Resolve source version identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION_SPEC="$(awk '$1 == "version:" {print $2}' pubspec.yaml)"
+          if [[ ! "$VERSION_SPEC" =~ ^([0-9]+\.[0-9]+\.[0-9]+)\+([1-9][0-9]*)$ ]]; then
+            echo "::error::pubspec version must be MAJOR.MINOR.PATCH+positiveBuildNumber; got $VERSION_SPEC"
+            exit 1
+          fi
+          echo "WORLD_DAYS_VERSION_NAME=${BASH_REMATCH[1]}" >> "$GITHUB_ENV"
+          echo "WORLD_DAYS_VERSION_CODE=${BASH_REMATCH[2]}" >> "$GITHUB_ENV"
+
       - name: Require stable signing secrets
         env:
           KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -44,6 +56,8 @@ jobs:
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
+          python3 tool/validate_release_governance.py
+          python3 tool/test_release_evidence.py
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
@@ -101,8 +115,17 @@ jobs:
 
       - name: Build signed Android artifacts
         run: |
-          flutter build apk --release --split-per-abi --tree-shake-icons --build-number "$GITHUB_RUN_NUMBER"
-          flutter build appbundle --release --tree-shake-icons --build-number "$GITHUB_RUN_NUMBER"
+          flutter build apk \
+            --release \
+            --split-per-abi \
+            --tree-shake-icons \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE"
+          flutter build appbundle \
+            --release \
+            --tree-shake-icons \
+            --build-name "$WORLD_DAYS_VERSION_NAME" \
+            --build-number "$WORLD_DAYS_VERSION_CODE"
 
       - name: Verify signing certificate
         shell: bash
@@ -132,11 +155,21 @@ jobs:
             exit 1
           fi
 
-          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionCode=%s\n' \
-            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$GITHUB_RUN_NUMBER" \
+          AAB="build/app/outputs/bundle/release/app-release.aab"
+          printf 'certificateSha256=%s\nsourceSha=%s\nrunId=%s\nversionName=%s\nversionCode=%s\n' \
+            "$ACTUAL" "$GITHUB_SHA" "$GITHUB_RUN_ID" "$WORLD_DAYS_VERSION_NAME" "$WORLD_DAYS_VERSION_CODE" \
             > build/signing-evidence.txt
-          sha256sum "$APK" build/app/outputs/bundle/release/app-release.aab \
-            > build/artifact-sha256.txt
+          sha256sum "$APK" "$AAB" > build/artifact-sha256.txt
+          python3 tool/write_android_artifact_manifest.py \
+            --output build/signed-qa-artifact-manifest.json \
+            --lane signed-qa \
+            --source-sha "$GITHUB_SHA" \
+            --run-id "$GITHUB_RUN_ID" \
+            --version-name "$WORLD_DAYS_VERSION_NAME" \
+            --version-code "$WORLD_DAYS_VERSION_CODE" \
+            --certificate-sha256 "$ACTUAL" \
+            --apk "$APK" \
+            --aab "$AAB"
 
       - name: Upload signed QA artifacts
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -147,6 +180,7 @@ jobs:
             build/app/outputs/bundle/release/app-release.aab
             build/signing-evidence.txt
             build/artifact-sha256.txt
+            build/signed-qa-artifact-manifest.json
           if-no-files-found: error
           retention-days: 14
 
