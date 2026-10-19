@@ -21,6 +21,7 @@ if [[ "$needs_create" -eq 1 ]]; then
     --platforms=android,ios,web \
     --org com.riccardopinato \
     --project-name world_days \
+    --no-pub \
     .
 fi
 

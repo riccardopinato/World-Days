@@ -316,50 +316,56 @@ class _CompactAccessibleNavigationBar extends StatelessWidget {
         top: false,
         child: SizedBox(
           height: 72,
-          child: Row(
-            children: [
-              for (var i = 0; i < destinations.length; i++)
-                Expanded(
-                  child: Semantics(
-                    button: true,
-                    selected: i == selectedIndex,
-                    label: destinations[i].label,
-                    child: Tooltip(
-                      message: destinations[i].label,
-                      child: InkResponse(
-                        onTap: () => onDestinationSelected(i),
-                        radius: 28,
-                        child: Center(
-                          child: AnimatedContainer(
-                            duration: const Duration(milliseconds: 180),
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 14,
-                              vertical: 8,
-                            ),
-                            decoration: BoxDecoration(
-                              color: i == selectedIndex
-                                  ? colors.secondaryContainer
-                                  : Colors.transparent,
-                              borderRadius: BorderRadius.circular(22),
-                            ),
-                            child: IconTheme(
-                              data: IconThemeData(
-                                color: i == selectedIndex
-                                    ? colors.onSecondaryContainer
-                                    : colors.onSurfaceVariant,
+          child: FocusTraversalGroup(
+            policy: OrderedTraversalPolicy(),
+            child: Row(
+              children: [
+                for (var i = 0; i < destinations.length; i++)
+                  Expanded(
+                    child: FocusTraversalOrder(
+                      order: NumericFocusOrder(i.toDouble()),
+                      child: Semantics(
+                        button: true,
+                        selected: i == selectedIndex,
+                        label: destinations[i].label,
+                        child: Tooltip(
+                          message: destinations[i].label,
+                          child: InkResponse(
+                            onTap: () => onDestinationSelected(i),
+                            radius: 28,
+                            child: Center(
+                              child: AnimatedContainer(
+                                duration: const Duration(milliseconds: 180),
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 14,
+                                  vertical: 8,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: i == selectedIndex
+                                      ? colors.secondaryContainer
+                                      : Colors.transparent,
+                                  borderRadius: BorderRadius.circular(22),
+                                ),
+                                child: IconTheme(
+                                  data: IconThemeData(
+                                    color: i == selectedIndex
+                                        ? colors.onSecondaryContainer
+                                        : colors.onSurfaceVariant,
+                                  ),
+                                  child: i == selectedIndex
+                                      ? (destinations[i].selectedIcon ??
+                                          destinations[i].icon)
+                                      : destinations[i].icon,
+                                ),
                               ),
-                              child: i == selectedIndex
-                                  ? (destinations[i].selectedIcon ??
-                                      destinations[i].icon)
-                                  : destinations[i].icon,
                             ),
                           ),
                         ),
                       ),
                     ),
                   ),
-                ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

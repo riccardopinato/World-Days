@@ -31,10 +31,10 @@ Implemented in this first real repository pass:
 - public production privacy policy hosted with the Web Preview;
 - permanent Android release identity with verified production APK/AAB signer continuity;
 - provider-agnostic lifetime Remove Ads entitlement core plus official Flutter store-billing adapter;
-- source-bound production Android workflow: main-only, pubspec versionName/versionCode, signer/hash evidence;
+- source-bound signed Android workflows: pubspec versionName/versionCode plus machine-readable source/signer/APK/AAB identity manifests;
 - verified Remote Content Pack v1 with HTTPS manifest, SHA-256 gate, staged activation, rollback and immutable bundled fallback;
 - dataset, recurrence, retention, entitlement and remote-content failure/rollback tests;
-- GitHub Actions for real Flutter analyze/test/Web/Android validation.
+- GitHub Actions for real Flutter analyze/test/Web/Android validation with explicit dependency resolution and a fail-on-lock-drift gate.
 
 Production UMP consent, Privacy Choices, banner serving and permanent Android signing have prior physical/CI validation. V1 has no separate first-party analytics SDK/event pipeline. Remove Ads code paths include non-consumable purchase, restore, pending/cancel/error handling, durable provider-finalization recovery and ad-request suppression; the Play one-time product and sandbox evidence remain open. Remote Content Pack v1 + G.1 hardening are implemented with bundled fallback, pinned GitHub Pages origin, hard-capped streamed downloads, staged rollback and hosted checksum smoke validation. Native notifications/widget still require exact-artifact physical-device acceptance. Verified Overview coverage is 296/296 in EN/IT/ES/FR/DE/PT; Rich Editorial remains a separate curated layer at 28/296 reviewed records. The post-Phase-G audit reopens exact-artifact certification for the current main SHA; see `docs/AUDIT_2026-10-15_POST_PHASE_G.md` and `ROADMAP.md`.
 
@@ -96,4 +96,4 @@ See `docs/REMOTE_CONTENT_PACK.md`.
 
 Release identity and evidence conventions are defined in `docs/RELEASE_GOVERNANCE.md`. Privacy/Data Safety engineering inputs are frozen in `docs/DATA_SAFETY_INPUTS.md`.
 
-Production Android builds are accepted only from `main` and derive `versionName` / `versionCode` from the committed `pubspec.yaml`. GitHub branch-protection administration remains a repository-owner gate because the connected GitHub integration does not have Admin permission.
+Production Android builds are accepted only from `main` and derive `versionName` / `versionCode` from the committed `pubspec.yaml`. Signed QA uses the same source-controlled version identity instead of the workflow run number. Both signed lanes emit an exact-artifact manifest binding source SHA, workflow run, signer and APK/AAB hashes; see `docs/PHASE_FJ_RELEASE_PREP_EVIDENCE.md`. GitHub branch-protection administration remains a repository-owner gate because the connected GitHub integration does not have Admin permission.

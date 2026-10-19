@@ -10,8 +10,9 @@ Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 World Days is technically healthy but **NOT Store Ready**.
 
 Current automated evidence:
-- Phase C final PR Development checks #208: analyze + **80 Flutter tests** + Web release PASS.
-- The Android ARM64 step is conditional and skipped in PR validation; the post-merge `main` run remains the Android build gate.
+- Phase I merge `44720a125db88386180f31951f9cf167c555b8a4` is the current `main` baseline at `0.4.0+4`.
+- Post-merge Development checks #212: validators + analyze + **80 Flutter tests** + Web release + Android ARM64 build/upload PASS.
+- The Android ARM64 step is conditional and skipped in PR validation; post-merge `main` remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.
 - Generated remote catalog: 296 records / 297 2026 occurrences.
 - Hosted payload smoke: version `2026.10.14.1`, 501,993 bytes, SHA-256 `38e6ee66d3646c0c313ca7b4b8e395a79b2456ecfc5522cd25c948b0f624d8b7`.
@@ -25,9 +26,9 @@ Important: the previous production/physical monetization evidence predates the c
 
 Blocking sequence:
 
-**E → F → I → J → K**
+**E → F → J → K**
 
-Phase A/B/C/D/G/H implementation scope is closed; release work now follows the blocking sequence above.
+Phase A/B/C/D/G/H implementation scope is closed. Phase I repository implementation is also closed; its remaining repository-admin/live-URL evidence items run in parallel and must be truthful before final store release.
 
 ---
 
@@ -170,6 +171,12 @@ Risk boundary:
 
 ## Phase F — Retention physical QA — BLOCKING
 
+Preparation now implemented:
+- [x] Signed QA and Production lanes bind artifacts to the committed `pubspec.yaml` version identity.
+- [x] Both signed lanes emit a machine-readable artifact manifest with source SHA, workflow run, version, signer and APK/AAB SHA-256/size.
+- [x] Physical checklist requires hash verification before testing and forbids transferring PASS evidence to rebuilt bytes.
+- [x] Compact large-text navigation has explicit focus order and automated >=48dp touch-target assertions.
+
 Run on the exact release candidate:
 
 - [ ] Notification permission-denied behavior.
@@ -242,7 +249,7 @@ Completed:
 
 Deferred / bounded follow-up:
 - [ ] Split oversized orchestration/UI files only when next touched: `AppController`, Settings and Calendar first.
-- [ ] Extend accessibility automation beyond the current semantics/large-text smoke to explicit focus-order and touch-target assertions before final Phase J certification.
+- [x] Extend accessibility automation with explicit compact-navigation focus order and >=48dp touch-target assertions; screen-reader/contrast remain physical Phase J checks.
 - [ ] Keep provider/plugin-specific Play billing behavior in the Phase E sandbox and Phase J exact-artifact gates rather than simulating store behavior in unit tests.
 
 Evidence: `docs/PHASE_H_AUTOMATED_QA_EVIDENCE.md`.
@@ -274,9 +281,15 @@ Privacy:
 - [x] Privacy Policy source updated for mobile GitHub Pages remote-content requests.
 - [x] Privacy Policy `Last updated` set to 15 October 2026.
 - [x] Privacy/Data Safety engineering inputs frozen in `docs/DATA_SAFETY_INPUTS.md` after Android-first / no-analytics decisions.
-- [ ] POST-MERGE EVIDENCE: verify the updated Privacy Policy is actually redeployed and reachable on GitHub Pages.
+- [x] POST-MERGE DEPLOY: GitHub Pages deployment completed successfully after Phase I merge.
+- [ ] POST-MERGE LIVE URL: independently verify the canonical privacy URL serves the 15 October 2026 text; current external fetch tooling cannot reach that Pages URL.
 
 ## Phase J — Exact-artifact regression / release certification — BLOCKING
+
+Release-prep automation:
+- [x] Production workflow emits `production-artifact-manifest.json` binding source SHA, workflow run, versionName/versionCode, signer and exact APK/AAB hashes.
+- [x] Release-governance validation prevents regression to workflow-run-number versionCode in both production and signed-QA lanes.
+- [x] Release-evidence writer has deterministic Python tests in Development checks.
 
 Release candidate:
 - [ ] Freeze source SHA after blocking phases are closed.
