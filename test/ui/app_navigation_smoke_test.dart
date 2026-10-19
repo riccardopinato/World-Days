@@ -61,7 +61,11 @@ void main() {
 
     final compactNavGroup = find.ancestor(
       of: find.byTooltip('Today'),
-      matching: find.byType(FocusTraversalGroup),
+      matching: find.byWidgetPredicate(
+        (widget) =>
+            widget is FocusTraversalGroup &&
+            widget.policy is OrderedTraversalPolicy,
+      ),
     );
     expect(compactNavGroup, findsOneWidget);
 
