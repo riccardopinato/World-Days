@@ -35,6 +35,7 @@ jobs:
           python3 tool/validate_discovery.py
           python3 tool/validate_localizations.py
           python3 tool/validate_release_governance.py
+          python3 tool/test_release_evidence.py
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
