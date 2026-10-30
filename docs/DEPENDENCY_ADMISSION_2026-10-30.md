@@ -1,40 +1,38 @@
-# Flutter 3.47.3 dependency lock admission — 2026-10-30
+# Flutter 3.47.3 lockfile drift — root cause and rejected dependency admission
 
-**Status: PROPOSED / NOT ADMITTED FOR RELEASE.** This change belongs to a dedicated dependency PR, independent of the test-only Design-App Visual QA pilot (#34). No direct `pubspec.yaml` constraints, application source, data schema or feature flags are changed.
+Date: 2026-10-30. **Status: ROOT CAUSE REPRODUCED / NO DEPENDENCY UPGRADE APPROVED.**
 
-## Reproducible provenance
-- Base: `main@622e5c2f00c08b0905207c6765c9b51e199e706f`.
-- CI reproducer: https://github.com/riccardopinato/World-Days/actions/runs/41082944034 (Development checks, `flutter pub get`, Flutter 3.47.3).
-- The original CI diagnostic says "Changed 111 dependencies", but the **actual committed lockfile diff changes exactly seven transitive packages** (versions and pub.dev SHA-256 hashes); no package is added/removed. The 111 number is resolver output, not 111 lockfile version changes.
-- Candidate lockfile blob: `67b95e7eea87920c0dbb8bbd7f64520bd9ebbbb8`, copied verbatim from the seven CI diff hunks.
+## Root cause (independently reproduced)
+- Existing World Days `pubspec.lock` contains 112 locked packages (878 lines).
+- The platform bootstrap calls `flutter create --no-pub .` to regenerate Android/iOS/Web scaffold. **Despite `--no-pub`, this command overwrites the app lockfile with a 74-line Flutter template lockfile**.
+- Exact proof: [strict-lock diagnostic workflow](https://github.com/riccardopinato/World-Days/actions/runs/41083986503) — `flutter pub get --enforce-lockfile` **passed before** platform scaffolding; `git diff --exit-code -- pubspec.lock` **failed immediately after** scaffolding, before any explicit post-scaffold dependency resolution.
+- The original development workflow then ran `flutter pub get` on the template lock, which reconstructed the graph and opportunistically updated seven transitive packages. The resolver's **111 changed dependencies** was primarily the template-to-app reconstruction, **not** 111 new package upgrades.
+- Original failure: https://github.com/riccardopinato/World-Days/actions/runs/41082944034.
 
-## Exact transitive changes and admission review
+## Corrective design
+- `tool/bootstrap_platforms.sh` preserves the exact existing `pubspec.lock` bytes in a temporary file, invokes Flutter platform creation, restores the bytes if Flutter replaced the lock, then removes the temporary file.
+- The original lockfile blob **`68b7cc13d6bf5fbe058857f740b386789198101c`** is retained. **Zero** direct or transitive dependency versions are changed by this PR.
+- Independent CI validates `flutter pub get --enforce-lockfile` **before and after** platform creation, checks `git diff --exit-code -- pubspec.lock`, analyzes/tests/builds Web, and compiles a non-production Android ARM64 release-mode APK with SHA-256/byte-size evidence.
+- `--enforce-lockfile` is the strict fail-closed gate; restoring the pre-existing lockfile is not permission to change its dependency graph.
+- No production app behavior, data, entitlements, billing integration or package constraints are intentionally changed.
 
-| Package | Previous -> candidate | License | Change surface |
-| --- | --- | --- | --- |
-| `in_app_purchase_android` | 0.5.4 -> **0.5.5** | BSD-3-Clause | **HIGH: Play Billing 8.0.0 -> 9.1.0; minimum Android SDK 23; billingUnavailable behavior. Candidate is marked UNLISTED on pub.dev (2026-10-30). Do not release or merge solely on static CI.** |
-| `in_app_purchase_storekit` | 0.4.14 -> 0.4.15 | BSD-3-Clause | iOS StoreKit 2 exposes SK2Transaction; confirm restore/completion behavior. |
-| `jni` | 1.1.0 -> 1.1.1 | BSD-3-Clause | ProGuard consumer rules for suspend-function Kotlin classes. |
-| `posix` | 6.5.2 -> 6.5.4 | MIT | Native string/buffer hardening (6.5.3) and documentation/lints (6.5.4). |
-| `shared_preferences_android` | 2.5.0 -> 2.5.4 | BSD-3-Clause | JNI/R8, DataStore and deferred disk I/O changes; verify persisted favorites, locale/market, reminders and entitlement after app update. |
-| `web` | 1.1.1 -> 1.1.2 | BSD-3-Clause | Dart 3.13 dart-fix migrations; no direct app API change. |
-| `webview_flutter_wkwebview` | 3.27.0 -> 3.27.2 | BSD-3-Clause | iOS/macOS minimum version restored to iOS 13/macOS 10.15; warning fixes. |
+## Seven opportunistic transitive changes **REJECTED** (not in this PR)
+The initial post-scaffold resolution would have upgraded:
+- `in_app_purchase_android` 0.5.4 → 0.5.5 (**Play Billing 8 → 9**, different billingUnavailable semantics);
+- `in_app_purchase_storekit` 0.4.14 → 0.4.15;
+- `jni` 1.1.0 → 1.1.1;
+- `posix` 6.5.2 → 6.5.4;
+- `shared_preferences_android` 2.5.0 → 2.5.4;
+- `web` 1.1.1 → 1.1.2;
+- `webview_flutter_wkwebview` 3.27.0 → 3.27.2.
 
-Provider changelogs:
-- https://pub.dev/packages/in_app_purchase_android/changelog
-- https://pub.dev/packages/in_app_purchase_storekit/changelog
-- https://pub.dev/packages/shared_preferences_android/changelog
-- https://pub.dev/packages/jni/changelog
-- https://pub.dev/packages/posix/changelog
-- https://pub.dev/packages/web/changelog
-- https://pub.dev/packages/webview_flutter_wkwebview/changelog
+Those packages have separate provider changelogs and licensing, but **no dependency admission or Play Billing upgrade is requested here**. Existing `in_app_purchase_android 0.5.4` and candidate 0.5.5 both appear unlisted on pub.dev, so the unlisted flag alone was not a new candidate regression.
 
-## Admission gates (do not bypass)
-- [ ] Exact-head Development checks **GREEN**, including unchanged lockfile check, analyze, all tests and Web build.
-- [ ] Independent dependency vulnerability/advisory audit (not yet executed; license/changelog review is not an OSV clearance).
-- [ ] Confirm whether unlisted `in_app_purchase_android 0.5.5` is an intentional supported release; prefer a listed compatible version if viable. **Fail closed** on uncertain Play Billing upgrade.
-- [ ] Test purchase pending/cancel/error, completion/restart, restore and Remove Ads on Play internal testing with exact signed candidate. Verify new `billingUnavailable` handling.
-- [ ] Test persisted preferences after upgrade on real Android, and iOS StoreKit/restore on real supported device if shipping iOS.
-- [ ] Record exact-source APK/AAB SHA-256, signing identity, size delta and provenance; do not infer device or store PASS from CI.
+## Gates
+- [ ] Exact-head strict-lock pre/post scaffold PASS, no lock diff.
+- [ ] Exact-head Development checks PASS (validators, analyze, tests, Web).
+- [ ] Exact-head Android compile/size evidence PASS; artifact is **not** production-signed or device-certified.
+- [ ] Pilot #34 full CI GREEN on an integrated head **after** this PR merges; do not merge pilot based on isolated widget tests.
+- [ ] Hardware/Play release acceptance remains a separate later gate.
 
-This PR is a candidate for dependency admission, not approval for production. World-Days #35 stays open until the dependency and release gates are verified.
+Source of truth: `App-Factory-Core/CURRENT.yaml` v27 pinned at `f8ec5a324823d79353a056f0d4c12d2979a18b4e`; project roadmap and Product Bible still govern release.
