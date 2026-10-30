@@ -30,6 +30,12 @@ jobs:
           channel: stable
           cache: true
 
+      - name: Preflight strict lock before scaffold
+        run: |
+          test -s pubspec.lock
+          flutter pub get --enforce-lockfile
+          git diff --exit-code -- pubspec.lock
+
       - name: Generate canonical bundled content
         run: |
           python3 tool/build_dataset.py
@@ -39,6 +45,9 @@ jobs:
 
       - name: Bootstrap native platforms
         run: ./tool/bootstrap_platforms.sh
+
+      - name: Verify scaffold did not mutate lockfile
+        run: git diff --exit-code -- pubspec.lock
 
       - name: Strict dependency lock and immutable tree
         run: |
