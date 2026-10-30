@@ -1,0 +1,35 @@
+name: Design-App Visual QA Pilot
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "test/ui/design_app_visual_pilot_test.dart"
+      - "docs/DESIGN_APP_VISUAL_QA_PILOT.md"
+      - ".github/workflows/design-app-pilot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: "3.47.3"
+          channel: stable
+          cache: true
+      - name: Resolve workspace and generate localization (no lockfile commit)
+        run: |
+          flutter pub get
+          flutter gen-l10n
+      - name: Test actual World Days visual component
+        run: flutter test test/ui/design_app_visual_pilot_test.dart --reporter expanded
+      - name: Report lock drift as unresolved separate release gate
+        run: |
+          if ! git diff --quiet -- pubspec.lock; then
+            echo "::warning::World Days existing pubspec.lock is not reproducible with Flutter 3.47.3; main Development checks remain blocking."
+          fi
