@@ -17,12 +17,31 @@ needs_create=0
 [[ -f web/index.html ]] || needs_create=1
 
 if [[ "$needs_create" -eq 1 ]]; then
+  # flutter create --no-pub still writes a template pubspec.lock when
+  # regenerating missing platform directories. Preserve the app's exact
+  # committed (or locally edited) dependency resolution across scaffolding.
+  lock_backup=""
+  if [[ -f pubspec.lock ]]; then
+    lock_backup="$(mktemp)"
+    cp pubspec.lock "$lock_backup"
+    trap 'rm -f "$lock_backup"' EXIT
+  fi
+
   flutter create \
     --platforms=android,ios,web \
     --org com.riccardopinato \
     --project-name world_days \
     --no-pub \
     .
+
+  if [[ -n "$lock_backup" ]]; then
+    if ! cmp -s pubspec.lock "$lock_backup"; then
+      cp "$lock_backup" pubspec.lock
+      echo "Restored original pubspec.lock after Flutter platform scaffolding"
+    fi
+    rm -f "$lock_backup"
+    trap - EXIT
+  fi
 fi
 
 
