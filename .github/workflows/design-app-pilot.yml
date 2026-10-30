@@ -22,6 +22,12 @@ jobs:
           flutter-version: "3.47.3"
           channel: stable
           cache: true
+      - name: Generate the same local bundled dataset as the app CI
+        run: |
+          python3 tool/build_dataset.py
+          python3 tool/build_editorial.py
+          python3 tool/build_editorial_locales.py
+          python3 tool/build_content_pack.py
       - name: Resolve workspace and generate localization (no lockfile commit)
         run: |
           flutter pub get
