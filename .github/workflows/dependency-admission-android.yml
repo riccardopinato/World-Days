@@ -6,6 +6,7 @@ on:
     paths:
       - pubspec.yaml
       - pubspec.lock
+      - tool/bootstrap_platforms.sh
       - .github/workflows/dependency-admission-android.yml
 
 permissions:
@@ -47,7 +48,7 @@ jobs:
         run: ./tool/bootstrap_platforms.sh
 
       - name: Verify scaffold did not mutate lockfile
-        run: git diff --exit-code -- pubspec.lock
+        run: git diff --exit-code -- pubspec.lock pubspec.yaml
 
       - name: Strict dependency lock and immutable tree
         run: |
