@@ -22,6 +22,9 @@ version_name, version_code = match.groups()
 assert int(version_code) >= 4, "versionCode must not regress below the post-0.3 production floor"
 
 assert 'refs/heads/main' in workflow, "production workflow must require main"
+assert 'python3 tool/verify_main_ruleset.py' in workflow, (
+    "production workflow must fail closed on missing main ruleset"
+)
 assert 'WORLD_DAYS_VERSION_NAME' in workflow
 assert 'WORLD_DAYS_VERSION_CODE' in workflow
 assert '--build-name "$WORLD_DAYS_VERSION_NAME"' in workflow
