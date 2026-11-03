@@ -9,9 +9,15 @@ import '../support/world_days_test_support.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
+  // Bundled asset loading must complete outside WidgetTester's fake-async
+  // zone: awaiting rootBundle inside testWidgets may stall flutter test.
+  late CatalogSnapshot snapshot;
+  setUpAll(() async {
+    snapshot = await const CatalogRepository().load();
+  });
+
   testWidgets('Africa detail shows source-backed 1989 and original Italian story',
       (tester) async {
-    final snapshot = await const CatalogRepository().load();
     final record = snapshot.byId['africa-industrialization-day']!;
     final controller = await buildLoadedTestController(catalog: snapshot);
     addTearDown(controller.dispose);
@@ -45,7 +51,6 @@ void main() {
 
   testWidgets('unknown establishment is shown as *, never invented',
       (tester) async {
-    final snapshot = await const CatalogRepository().load();
     final record = snapshot.byId['world-habitat-day']!;
     final controller = await buildLoadedTestController(catalog: snapshot);
     addTearDown(controller.dispose);
@@ -71,7 +76,6 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
     addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
 
-    final snapshot = await const CatalogRepository().load();
     final record = snapshot.byId['africa-industrialization-day']!;
     final controller = await buildLoadedTestController(catalog: snapshot);
     addTearDown(controller.dispose);
