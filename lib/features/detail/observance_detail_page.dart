@@ -7,6 +7,7 @@ import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
 import '../../domain/observance_detail_facts.dart';
+import '../../domain/related_observances.dart';
 import '../../l10n/app_localizations.dart';
 
 class ObservanceDetailPage extends StatefulWidget {
@@ -41,12 +42,16 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final editorial = catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
     final annualOverride = catalog?.yearOverrideFor(record.id, DateTime.now().year);
-    final related = editorial == null
+    // Every detail page has a grounded continuation path, including
+    // entries whose long-form history is still under research.
+    final related = catalog == null
         ? const <Observance>[]
-        : editorial.relatedObservanceIds
-            .map((id) => catalog?.byId[id])
-            .whereType<Observance>()
-            .toList(growable: false);
+        : RelatedObservances.suggest(
+            current: record,
+            records: catalog.records,
+            curatedIds: editorial?.relatedObservanceIds ?? const <String>[],
+            reviewedIds: catalog.editorialById.keys.toSet(),
+          );
     final visual = ObservanceVisuals.resolve(record);
 
     return Scaffold(
@@ -230,32 +235,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
               _ActionCard(text: action),
               const SizedBox(height: 10),
             ],
-            if (related.isNotEmpty) ...[
-              const SizedBox(height: 18),
-              Text(
-                l10n.relatedObservances,
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.w900,
-                    ),
-              ),
-              const SizedBox(height: 12),
-              for (final relatedRecord in related)
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.link_rounded),
-                    title: Text(relatedRecord.titleForLocale(localeCode)),
-                    trailing: const Icon(Icons.chevron_right_rounded),
-                    onTap: () => Navigator.of(context).push(
-                      MaterialPageRoute<void>(
-                        builder: (_) => ObservanceDetailPage(
-                          observance: relatedRecord,
-                          controller: widget.controller,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-            ],
             const SizedBox(height: 16),
           ] else ...[
             _EditorialSection(
@@ -273,6 +252,32 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
               body: l10n.detailHistoryPending,
             ),
             const SizedBox(height: 24),
+          ],
+          if (related.isNotEmpty) ...[
+            const SizedBox(height: 18),
+            Text(
+              l10n.relatedObservances,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w900,
+                  ),
+            ),
+            const SizedBox(height: 12),
+            for (final relatedRecord in related)
+              Card(
+                child: ListTile(
+                  leading: const Icon(Icons.explore_outlined),
+                  title: Text(relatedRecord.titleForLocale(localeCode)),
+                  trailing: const Icon(Icons.chevron_right_rounded),
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => ObservanceDetailPage(
+                        observance: relatedRecord,
+                        controller: widget.controller,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
           ],
           const SizedBox(height: 20),
           Text(
