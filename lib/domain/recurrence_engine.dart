@@ -1,3 +1,5 @@
+import 'golden_civil_date.dart' as golden;
+
 enum RecurrenceKind {
   fixedDate,
   nthWeekday,
@@ -149,7 +151,8 @@ abstract final class RecurrenceEngine {
           _lastWeekday(year, r.month, r.weekday),
         ),
       LastDayOfMonthRule r => _single(
-          DateTime.utc(year, r.month + 1, 0),
+          DateTime.utc(year, r.month,
+            golden.CivilDate.daysInMonth(year, r.month)),
         ),
       FixedRangeRule r => DateSpan(
           start: _checkedDate(year, r.startMonth, r.startDay),
@@ -172,34 +175,15 @@ abstract final class RecurrenceEngine {
   }
 
   static DateTime _nthWeekday(
-    int year,
-    int month,
-    int weekday,
-    int occurrence,
-  ) {
-    final first = DateTime.utc(year, month, 1);
-    final offset = (weekday - first.weekday + 7) % 7;
-    final day = 1 + offset + ((occurrence - 1) * 7);
-    final candidate = DateTime.utc(year, month, day);
-    if (candidate.month != month) {
-      throw StateError('Invalid weekday occurrence');
-    }
-    return candidate;
-  }
+    int year, int month, int weekday, int occurrence,
+  ) => golden.CivilRecurrence
+      .nthWeekday(year, month, weekday, occurrence).toUtcDateTime();
 
-  static DateTime _lastWeekday(int year, int month, int weekday) {
-    final last = DateTime.utc(year, month + 1, 0);
-    final offset = (last.weekday - weekday + 7) % 7;
-    return DateTime.utc(year, month, last.day - offset);
-  }
+  static DateTime _lastWeekday(int year, int month, int weekday) =>
+      golden.CivilRecurrence.lastWeekday(year, month, weekday).toUtcDateTime();
 
-  static DateTime _checkedDate(int year, int month, int day) {
-    final date = DateTime.utc(year, month, day);
-    if (date.year != year || date.month != month || date.day != day) {
-      throw ArgumentError('Invalid date: $year-$month-$day');
-    }
-    return date;
-  }
+  static DateTime _checkedDate(int year, int month, int day) =>
+      golden.CivilDate(year, month, day).toUtcDateTime();
 
   static DateSpan _single(DateTime date) => DateSpan(start: date, end: date);
 }
