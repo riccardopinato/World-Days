@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
@@ -20,21 +21,28 @@ class HttpContentPackTransport implements ContentPackTransport {
       : _client = client ?? http.Client();
 
   final http.Client _client;
+  static const int maxManifestBytes = 64 * 1024;
 
   @override
   bool get supported => true;
 
   @override
   Future<String> getText(Uri uri) async {
-    final response =
-        await _client.get(uri).timeout(const Duration(seconds: 15));
+    // Reject redirects rather than following an unpinned content origin.
+    final request = http.Request('GET', uri)..followRedirects = false;
+    final response = await _client.send(request)
+        .timeout(const Duration(seconds: 15));
     if (response.statusCode != HttpStatus.ok) {
       throw HttpException(
         'content_manifest_http_${response.statusCode}',
         uri: uri,
       );
     }
-    return response.body;
+    final bytes = await collectBoundedContentBytes(
+      response.stream.timeout(const Duration(seconds: 30)),
+      maxBytes: maxManifestBytes,
+    );
+    return utf8.decode(bytes);
   }
 
   @override
@@ -46,7 +54,7 @@ class HttpContentPackTransport implements ContentPackTransport {
       throw const FormatException('content_payload_invalid_max_bytes');
     }
 
-    final request = http.Request('GET', uri);
+    final request = http.Request('GET', uri)..followRedirects = false;
     final response = await _client
         .send(request)
         .timeout(const Duration(seconds: 15));

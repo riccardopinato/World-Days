@@ -31,6 +31,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
+      - name: Verify active protected main ruleset (fail closed)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tool/verify_main_ruleset.py
+
       - name: Resolve source version identity
         shell: bash
         run: |
@@ -204,6 +209,13 @@ jobs:
             --certificate-sha256 "$ACTUAL" \
             --apk "$APK" \
             --aab "$AAB"
+          python3 tool/verify_release_bundle.py \
+            --manifest "build/production-artifact-manifest.json" \
+            --apk "$APK" \
+            --aab "$AAB" \
+            --expected-source-sha "$GITHUB_SHA" \
+            --expected-certificate-sha256 "$ACTUAL" \
+            --output build/phase-fj-physical-qa-handoff.md
 
       - name: Upload production Android artifacts
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -215,6 +227,7 @@ jobs:
             build/production-release-evidence.txt
             build/production-artifact-sha256.txt
             build/production-artifact-manifest.json
+            build/phase-fj-physical-qa-handoff.md
           if-no-files-found: error
           retention-days: 14
 

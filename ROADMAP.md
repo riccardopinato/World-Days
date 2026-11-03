@@ -2,15 +2,39 @@
 
 Execution truth for the repository. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
-Audit baseline: `245f82148c1ca5ceee0977b82bf51a21b5b76a12`  
-Full audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
+Audit baseline (historical): `245f82148c1ca5ceee0977b82bf51a21b5b76a12`  
+Full historical audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
+
+## Execution refresh — 2026-11-03
+
+Current `main`: `474fdc405217bf05ab28bd250b2e613c86e0506e`,
+version `0.4.0+4`. [Development checks #41555187283](https://github.com/riccardopinato/World-Days/actions/runs/41555187283)
+passed **84 Flutter tests**, Flutter analyze, Web and Android ARM64.
+Web deploy #41555187317 passed. Main remains **NOT Store Ready**.
+
+Proposed/unmerged streams (no release claims):
+- PR #39: DST-safe local civil days/Today refresh, 89 Flutter tests +
+  9 Europe/Rome dedicated tests PASS on its own head.
+- PR #40: AdMob consent race, content manifest boundary, version rollback
+  protection and source lock preservation. Exact-head CI status must be checked.
+- PR #41: Design-App responsive Visual QA + standard navigation focus order.
+  Requires latest-head CI; physical accessibility remains Phase J.
+- PR #42: release manifest byte verifier and deterministic blocked physical
+  QA handoff templates (not signed artifact or physical evidence).
+
+Main branch protection remains absent (issue #37), and the Play purchase,
+device notification/widget, signed exact-candidate and final store gates remain
+OPEN. Do not merge any PR by bypassing governance or claim user-device PASS.
+
+The older October evidence below remains historical, not current-head release
+certification.
 
 ## Current release state
 
 World Days is technically healthy but **NOT Store Ready**.
 
 Current automated evidence:
-- Phase I merge `44720a125db88386180f31951f9cf167c555b8a4` is the current `main` baseline at `0.4.0+4`.
+- Phase I merge `44720a125db88386180f31951f9cf167c555b8a4` was the October baseline at `0.4.0+4`; superseded as main SHA by the November 3 Golden CivilDate integration.
 - Post-merge Development checks #212: validators + analyze + **80 Flutter tests** + Web release + Android ARM64 build/upload PASS.
 - The Android ARM64 step is conditional and skipped in PR validation; post-merge `main` remains the Android build gate.
 - GitHub Pages deployment + hosted remote-content smoke PASS.

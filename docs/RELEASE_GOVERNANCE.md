@@ -118,3 +118,23 @@ V1 production monetization:
 Inline adaptive ads and interstitials are post-v1.
 
 V1 has no separate first-party analytics SDK/event pipeline. Any future analytics addition reopens privacy/Data Safety review before release.
+
+
+## 10. Automated branch-protection release gate (2026-11-03)
+
+Current GitHub ruleset: [World Days — Main Protection #26445843](https://github.com/riccardopinato/World-Days/rules/26445843).
+At the last API read, it was **disabled**, targeted no branches and
+required no checks. This is NOT equivalent to protecting main.
+
+The production workflow now runs `tool/verify_main_ruleset.py` before
+processing release secrets. It fails closed unless the current remote
+ruleset is active, targets `main`, requires PR review-thread resolution,
+requires strict up-to-date `validate`, blocks force pushes and deletion,
+and has no bypass actors. Offline regression tests exercise disabled,
+missing-target, missing-check and bypass configurations.
+
+GitHub authentication uses the workflow's ephemeral `GITHUB_TOKEN`;
+no long-lived credential is committed. A successful ruleset API gate
+does not replace admin verification of actual GitHub merge enforcement.
+The status of Play Billing, signing, physical Android and store metadata
+must still be independently evidenced per Phase J/K.

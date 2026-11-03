@@ -10,7 +10,7 @@ World Days keeps stable canonical observance IDs while displaying all 296 curren
 
 ## Current implementation
 
-This repository uses App Factory baseline `47c47f49a7b46812e3bd6f1231c3524f2b52b826` (Master v26.6 / Golden Index v18).
+The foundation references App Factory baseline `47c47f49a7b46812e3bd6f1231c3524f2b52b826` (Master v26.6 / Golden Index v18). The Golden v28 CivilDate reference was integrated as a scoped, byte-identical vendored source pilot in PR #38; this is **not** a full migration of every app subsystem to Factory v28.
 
 Implemented in this first real repository pass:
 - bundled canonical catalog and 2026 occurrence index;
