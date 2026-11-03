@@ -13,10 +13,12 @@ group in both standard phone and wide NavigationRail; the existing
 large-text compact navigation retains explicit numeric focus order and
 >=48dp touch targets. Tests confirm all three navigation layouts.
 
-The maintained `integration_test/app_smoke_test.dart` navigation
-journey is now invoked explicitly in CI with its fake local services.
-If this cannot run under the headless runner, the exact-head CI
-will fail and this lane must be corrected without bypassing test gates.
+The existing `integration_test/app_smoke_test.dart` journey stays
+maintained but is **not** run on headless GitHub Linux/Web: Flutter
+3.47 reports "Web devices are not supported for integration tests yet"
+(run #41625795376). It requires a connected Android device/emulator
+and an explicitly recorded Phase F/J device test. The ordinary
+Flutter widget/navigation suite remains a required CI check.
 
 **Certification boundary:** widget/integration host tests cannot certify
 Android real launcher, screen reader, UMP, Play Billing or notification
