@@ -53,7 +53,7 @@ jobs:
           python3 tool/validate_native_monetization.py
           python3 tool/validate_native_content_pack.py
 
-      - name: Resolve dependencies
+      - name: Resolve dependencies and verify committed lockfile
         run: flutter pub get
 
       - name: Verify committed dependency lock
