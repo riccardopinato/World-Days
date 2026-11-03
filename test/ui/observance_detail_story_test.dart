@@ -86,8 +86,17 @@ void main() {
     ));
     await tester.pump(const Duration(milliseconds: 200));
 
-    expect(find.byKey(const ValueKey<String>('detail-facts-card')),
-        findsOneWidget);
+    // The large-text hero is taller than a 360x800 viewport, so the
+    // lazy ListView doesn't build the facts card until it enters view.
+    // Verify it becomes reachable by actual user scrolling.
+    final facts = find.byKey(
+      const ValueKey<String>('detail-facts-card'),
+    );
+    for (var i = 0; i < 12 && facts.evaluate().isEmpty; i++) {
+      await tester.drag(find.byType(ListView).first, const Offset(0, -240));
+      await tester.pump(const Duration(milliseconds: 40));
+    }
+    expect(facts, findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }
