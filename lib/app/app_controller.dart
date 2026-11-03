@@ -112,7 +112,7 @@ final class AppController extends ChangeNotifier {
             storedVersion,
           );
       final loadedCatalog = useStored
-          ? CatalogRepository.decodeContentPack(stored!)
+          ? CatalogRepository.decodeContentPack(stored)
           : bundledCatalog;
       _replaceCatalog(loadedCatalog);
       contentPacks.setBundledVersion(bundledCatalog.datasetVersion);
