@@ -231,13 +231,7 @@ class ContentPackManager extends ChangeNotifier {
   /// comparable; preserve previous v1 behavior for opaque version labels.
   static int _compareNumericVersions(String remote, String current) {
     if (remote == current) return 0;
-    final format = RegExp(r'^\\d+(?:\\.\\d+)*
-    _transport.close();
-    _storage.close();
-    super.dispose();
-  }
-}
-);
+    final format = RegExp(r'^\d+(?:\.\d+)*$');
     if (!format.hasMatch(remote) || !format.hasMatch(current)) return 1;
     final a = remote.split('.').map(int.tryParse).toList();
     final b = current.split('.').map(int.tryParse).toList();

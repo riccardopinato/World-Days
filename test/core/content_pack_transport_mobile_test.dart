@@ -18,7 +18,7 @@ void main() {
 
   test('unbounded manifest response is rejected before materialization', () async {
     final client = MockClient((_) async => http.Response(
-      'x' * (HttpContentPackTransport.maxManifestBytes + 1), 200,
+      List<String>.filled(HttpContentPackTransport.maxManifestBytes + 1, 'x').join(), 200,
     ));
     final transport = HttpContentPackTransport(client: client);
     await expectLater(transport.getText(uri), throwsFormatException);
