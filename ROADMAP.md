@@ -419,3 +419,16 @@ World Days is publishable only when the **same exact candidate** satisfies:
 4. signer/artifact identity evidence,
 5. privacy/store metadata consistency,
 6. final Evidence Bundle verdict.
+
+
+## Source-reviewed stories: batch 01 — pending PR (2026-11-03)
+
+- [ ] Add and validate source chronology for Education 2018, Environment
+  1972, Oceans 2008 and Wildlife 2013, preserving distinctions between
+  UN proclamation, date origin and first observance.
+- [ ] Review multilingual wording across EN, IT, ES, FR, DE, PT;
+  30/296 detailed histories after merging this batch; remaining 266.
+- [ ] Pass full current CI and source checks, merge through protected
+  main, then verify Web/Android and update issue #47.
+- [ ] Continue further batches of source-audited stories until 296/296,
+  not generic machine-generated filler.

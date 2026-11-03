@@ -108,3 +108,34 @@ older cached 2026.10.14.1 pack), while a genuinely newer installed pack
 continues to win. The on-disk pack is not deleted; user-owned state and
 rollback capability remain untouched. The remote update checker uses
 the higher active/bundled version to refuse CDN downgrade.
+
+
+## UN historical sources — batch 01 (2026-11-03)
+
+Proposed content revision `2026.11.03.2` adds four source-backed
+establishment years and expands four narratives in all six locales:
+
+- International Day of Education — **2018**, resolution A/RES/73/25;
+  [United Nations background](https://www.un.org/en/node/49970).
+- World Environment Day — **1972**, resolution 2994 (XXVII),
+  [UN historical background](https://www.un.org/en/observances/environment-day/background);
+  first marked in 1973.
+- World Oceans Day — **2008**, resolution A/RES/63/111,
+  [UN historical background](https://www.un.org/en/observances/oceans-day/background).
+  The concept arose in 1992; annual UN designation began from 2009.
+- World Wildlife Day — **2013**, resolution A/RES/68/205,
+  [UN historical background](https://www.un.org/en/node/56929);
+  3 March commemorates the CITES treaty's 1973 signing, which is
+  not the year this observance was established.
+
+The original 29 reviewed entries become **30** after adding Wildlife.
+Four source narratives are added or enriched in EN/IT/ES/FR/DE/PT,
+without overwriting canonical IDs or user preferences. The 4 years
+were not inferred from date rules or resolution numbering: the cited
+UN history establishes them directly.
+
+These are editorial proposals on a separate branch; treat actual CI
+pass and protected-main merge as necessary acceptance conditions.
+The remaining **266** unexpanded histories and **290** unverified
+establishment years continue to display transparent fallback rather
+than invented claims.
