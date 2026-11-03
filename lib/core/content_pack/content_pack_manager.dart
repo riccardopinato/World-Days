@@ -51,9 +51,25 @@ class ContentPackManager extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// An app upgrade must not become older than a cached content pack.
+  static bool bundledIsNewerThanStored(
+    String bundledVersion,
+    String? installedVersion,
+  ) =>
+      installedVersion != null &&
+      _compareNumericVersions(bundledVersion, installedVersion) > 0;
+
+  String? get _effectiveVersion {
+    final stored = _activeManifest?.version;
+    final bundled = _bundledVersion;
+    if (stored == null) return bundled;
+    if (bundled == null) return stored;
+    return bundledIsNewerThanStored(bundled, stored) ? bundled : stored;
+  }
+
   ContentPackStatus get status => ContentPackStatus(
         state: _state,
-        activeVersion: _activeManifest?.version ?? _bundledVersion,
+        activeVersion: _effectiveVersion,
         remoteVersion: _remoteManifest?.version,
         lastError: _lastError,
       );
@@ -99,7 +115,7 @@ class ContentPackManager extends ChangeNotifier {
       final manifest = ContentPackManifest.fromJson(
         Map<String, dynamic>.from(decoded),
       );
-      final currentVersion = _activeManifest?.version ?? _bundledVersion;
+      final currentVersion = _effectiveVersion;
       if (currentVersion != null &&
           _compareNumericVersions(manifest.version, currentVersion) <= 0) {
         // A stale CDN response must never replace an installed newer pack.

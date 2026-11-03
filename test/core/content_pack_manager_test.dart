@@ -424,4 +424,45 @@ void main() {
     expect(storage.activationCount, 0);
     expect(manager.lastError, 'remote_pack_not_newer');
   });
+
+  test('newer bundled catalog wins over an older cached verified pack', () async {
+    final oldBytes = _payloadBytes('2026.10.14.1');
+    final oldManifest = _manifest('2026.10.14.1', oldBytes);
+    final storage = _MemoryStorage()
+      ..active = StoredContentPack(manifest: oldManifest, bytes: oldBytes);
+    final manager = ContentPackManager(
+      transport: _FakeTransport(
+        manifestText: _manifestJson(oldManifest),
+        payloadBytes: oldBytes,
+      ),
+      storage: storage,
+      validator: _validator,
+    );
+    await manager.initialize();
+    expect(manager.status.activeVersion, '2026.10.14.1');
+    manager.setBundledVersion('2026.11.03.1');
+
+    expect(
+      ContentPackManager.bundledIsNewerThanStored(
+        '2026.11.03.1',
+        '2026.10.14.1',
+      ),
+      isTrue,
+    );
+    expect(manager.status.activeVersion, '2026.11.03.1');
+    expect(await manager.checkForUpdate(), isFalse);
+    expect(manager.lastError, 'remote_pack_not_newer');
+    expect(storage.active?.manifest.version, '2026.10.14.1',
+        reason: 'stored fallback is preserved, not deleted');
+  });
+
+  test('a newer installed catalog still wins over older bundled assets', () {
+    expect(
+      ContentPackManager.bundledIsNewerThanStored(
+        '2026.11.03.1',
+        '2026.12.01.1',
+      ),
+      isFalse,
+    );
+  });
 }

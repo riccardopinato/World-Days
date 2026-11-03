@@ -97,3 +97,14 @@ World Water Day are `2026-11-03`, while the other 27 articles retain
 their original `2026-10-12` review dates. Six-locale validators compare
 each translation's date to its English source; they do not silently
 claim that older articles received a new review.
+
+
+## Old downloaded pack vs newer bundled content
+
+The app now compares the source-catalog revision with any previously
+downloaded catalog on startup. A **newer bundled** catalog wins for
+rendering (so the 2026.11.03.1 reviewed articles cannot be hidden by an
+older cached 2026.10.14.1 pack), while a genuinely newer installed pack
+continues to win. The on-disk pack is not deleted; user-owned state and
+rollback capability remain untouched. The remote update checker uses
+the higher active/bundled version to refuse CDN downgrade.
