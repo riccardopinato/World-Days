@@ -219,7 +219,10 @@ class _AppShellState extends State<_AppShell> {
                   Expanded(
                     child: Row(
                       children: [
-                        NavigationRail(
+                        FocusTraversalGroup(
+                          key: const ValueKey<String>('standard-navigation-focus-group'),
+                          policy: WidgetOrderTraversalPolicy(),
+                          child: NavigationRail(
                           selectedIndex: index,
                           onDestinationSelected: (value) =>
                               setState(() => index = value),
@@ -232,6 +235,7 @@ class _AppShellState extends State<_AppShell> {
                                 label: Text(destination.label),
                               ),
                           ],
+                          ),
                         ),
                         const VerticalDivider(width: 1),
                         Expanded(
@@ -277,7 +281,10 @@ class _AppShellState extends State<_AppShell> {
                 );
               }
 
-              return NavigationBar(
+              return FocusTraversalGroup(
+                key: const ValueKey<String>('standard-navigation-focus-group'),
+                policy: WidgetOrderTraversalPolicy(),
+                child: NavigationBar(
                 height: 80,
                 labelBehavior: constraints.maxWidth < 430
                     ? NavigationDestinationLabelBehavior.onlyShowSelected
@@ -286,6 +293,7 @@ class _AppShellState extends State<_AppShell> {
                 onDestinationSelected: (value) =>
                     setState(() => index = value),
                 destinations: destinations,
+                ),
               );
             },
           ),

@@ -74,6 +74,9 @@ jobs:
       - name: Test
         run: flutter test
 
+      - name: Integration navigation journey (deterministic fake providers)
+        run: flutter test integration_test/app_smoke_test.dart
+
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
 

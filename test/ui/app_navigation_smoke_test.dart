@@ -21,6 +21,11 @@ void main() {
     await tester.pumpWidget(WorldDaysApp(controller: controller));
     await tester.pumpAndSettle();
 
+    final focusGroup = tester.widget<FocusTraversalGroup>(
+      find.byKey(const ValueKey<String>('standard-navigation-focus-group')),
+    );
+    expect(focusGroup.policy, isA<WidgetOrderTraversalPolicy>());
+
     for (final label in ['Today', 'Calendar', 'Discover', 'Saved', 'Settings']) {
       await tester.tap(find.text(label).last);
       await tester.pumpAndSettle();
@@ -101,6 +106,10 @@ void main() {
 
     expect(find.byType(NavigationRail), findsOneWidget);
     expect(find.byType(NavigationBar), findsNothing);
+    final focusGroup = tester.widget<FocusTraversalGroup>(
+      find.byKey(const ValueKey<String>('standard-navigation-focus-group')),
+    );
+    expect(focusGroup.policy, isA<WidgetOrderTraversalPolicy>());
     expect(tester.takeException(), isNull);
   });
 
