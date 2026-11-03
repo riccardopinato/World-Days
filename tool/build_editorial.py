@@ -150,6 +150,27 @@ entries = [
       ['Do one useful thing for someone without expecting recognition.', 'Make a routine interaction more considerate.', 'Support a community initiative that turns goodwill into practical help.']),
 ]
 
+# Verified editorial expansion (Africa: OAU and UN, December 1989; sources in
+# INTRODUCTION_EVIDENCE). Reviewed in the six supported locales.
+entries.append(e(
+    'africa-industrialization-day',
+    "Every 20 November, Africa Industrialization Day brings attention to the ideas, skills and businesses that turn local resources into lasting opportunities. The conversation goes beyond factories: it is about research, responsible investment, decent work and the ability of communities to shape their own economic future.",
+    "Industrial development can diversify economies, build skilled jobs and expand local production when it is connected to education, infrastructure and people. The day's message is about more than economic indicators: it invites a closer look at whose opportunities grow and how industrial progress can benefit communities.",
+    ["Discover a manufacturing or technology initiative led by African entrepreneurs.","Explore how local training and supply chains shape job opportunities.","Share an official UN or African Union resource about inclusive industrial development."],
+    hook="What if more of Africa's future could be made in Africa? 🌍",
+    why_this_date="20 November was selected by the Organization of African Unity in 1989 and subsequently affirmed by the UN General Assembly.",
+    origin="In July 1989, the Organization of African Unity called for 20 November to be marked as Africa Industrialization Day. In December 1989, the United Nations General Assembly proclaimed the observance in resolution A/RES/44/237, within the Second Industrial Development Decade for Africa (1991–2000).",
+    quick_facts=["The Organization of African Unity and the UN General Assembly recognized the day in 1989.","The observance falls on 20 November every year."],
+))
+
+# World Water Day: 1992 proclamation is distinct from first observance 1993.
+for item in entries:
+    if item['observanceId'] == 'world-water-day':
+        item['hook'] = "One simple glass of water has a story much bigger than the tap. 💧"
+        item['origin'] = "The idea for a worldwide water observance emerged from the 1992 United Nations Conference on Environment and Development. On 22 December 1992, the UN General Assembly adopted resolution A/RES/47/193 and designated 22 March as World Water Day, beginning with its first observance in 1993."
+        item['whyThisDate'] = "UN General Assembly resolution A/RES/47/193 explicitly chose 22 March, beginning in 1993."
+        break
+
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
