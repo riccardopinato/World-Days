@@ -22,6 +22,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   final _search = TextEditingController();
   String? officiality;
   String? visualCollectionKey;
+  bool inDepthStoriesOnly = false;
 
   @override
   void dispose() {
@@ -33,6 +34,8 @@ class _DiscoverPageState extends State<DiscoverPage> {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
     var records = widget.controller.search(_search.text);
+    final reviewedIds = widget.controller.catalog?.editorialById.keys.toSet() ??
+        const <String>{};
     if (visualCollectionKey != null) {
       records = records.where((item) => ObservanceVisuals.resolve(item).key == visualCollectionKey).toList(growable: false);
     }
@@ -41,6 +44,19 @@ class _DiscoverPageState extends State<DiscoverPage> {
           .where((item) => item.authority.officiality == officiality)
           .toList(growable: false);
     }
+    // Only display stories that have actual reviewed in-depth articles.
+    // Unreviewed days remain visible via Discover when this is off.
+    if (inDepthStoriesOnly) {
+      records = records
+          .where((item) => reviewedIds.contains(item.id))
+          .toList(growable: false);
+    }
+    // The existing surprise button favours meaningful, substantive
+    // reading within the selected filters, without hiding shorter pages.
+    final detailed = records
+        .where((item) => reviewedIds.contains(item.id))
+        .toList(growable: false);
+    final surprisePool = detailed.isEmpty ? records : detailed;
 
     return Scaffold(
       appBar: AppBar(title: Text(l10n.discover)),
@@ -123,6 +139,14 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     runSpacing: 8,
                     children: [
                       FilterChip(
+                        key: const ValueKey<String>('discover-in-depth-filter'),
+                        avatar: const Icon(Icons.auto_stories_outlined, size: 18),
+                        label: Text(l10n.inDepthStories),
+                        selected: inDepthStoriesOnly,
+                        onSelected: (selected) =>
+                            setState(() => inDepthStoriesOnly = selected),
+                      ),
+                      FilterChip(
                         label: Text(l10n.all),
                         selected: officiality == null,
                         onSelected: (_) => setState(() => officiality = null),
@@ -175,10 +199,10 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   ),
                   const SizedBox(height: 18),
                   FilledButton.icon(
-                    onPressed: records.isEmpty
+                    onPressed: surprisePool.isEmpty
                         ? null
                         : () => _open(
-                              records[Random().nextInt(records.length)],
+                              surprisePool[Random().nextInt(surprisePool.length)],
                             ),
                     icon: const Icon(Icons.casino_rounded),
                     label: Text(l10n.surpriseMe),

@@ -166,3 +166,20 @@ review or live verification of every external source's availability.
 
 Content catalog revision `2026.11.03.3` must be monotonic.
 User data, favorites, ads consent and purchase state must remain unchanged.
+
+
+## Reader-first discovery and ethical monetization (2026-11-03)
+
+The Discover screen offers an explicit `In-depth stories` filter across
+the six locales. It selects only reviewed editorial IDs; remaining
+observances continue to be discoverable without the filter. “Surprise
+me” prefers a reviewed story within the current search/market/authority
+filters so readers do not mostly encounter the short fallback. It
+does not require login, collect per-user reading telemetry, add any
+ad placements, interrupt reading, or force navigation.
+
+Richer content can support a more useful visit, but **increased session
+time and ad revenue are hypotheses** until validated by actual
+privacy-compliant product metrics after Play release. Never count
+filler copy as reviewed content or add interstitials merely to increase
+impressions.
