@@ -18,7 +18,7 @@ ids = [item.get('observanceId') for item in entries]
 assert editorial.get('schemaVersion') == 2
 assert editorial.get('locale') == 'en'
 assert editorial.get('entryCount') == len(entries)
-assert len(entries) == 41, f"editorial coverage mismatch: {len(entries)}"
+assert len(entries) == 56, f"editorial coverage mismatch: {len(entries)}"
 assert len(ids) == len(set(ids)), 'duplicate editorial ids'
 assert set(ids).issubset(known), f"unknown editorial ids: {sorted(set(ids) - known)}"
 
@@ -63,6 +63,10 @@ for item in entries:
         (ROOT / 'data/editorial/batches/un_primary_2026_11_03_02.json').read_text(encoding='utf-8')
     )
     source_batch_ids = {row['id'] for row in current_batch['entries']}
+    wave03 = json.loads(
+        (ROOT / 'data/editorial/batches/un_primary_2026_11_03_03.json').read_text(encoding='utf-8')
+    )
+    source_batch_ids.update(row['id'] for row in wave03['entries'])
     previous_batch_ids = {
         'africa-industrialization-day', 'world-water-day',
         'international-day-of-education', 'world-environment-day',
