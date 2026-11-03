@@ -5,6 +5,7 @@ import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../domain/observance.dart';
+import '../../domain/local_civil_day.dart';
 import '../../features/detail/observance_detail_page.dart';
 import '../../l10n/app_localizations.dart';
 
@@ -363,8 +364,7 @@ class _CalendarPageState extends State<CalendarPage> {
     final start = DateTime.now();
     final entries = <_UpcomingDay>[];
     for (var offset = 1; offset <= days; offset++) {
-      final date = DateTime(start.year, start.month, start.day)
-          .add(Duration(days: offset));
+      final date = LocalCivilDay.add(start, offset);
       final records = _recordsForDate(date);
       if (records.isNotEmpty) {
         entries.add(_UpcomingDay(date: date, records: records));
@@ -458,7 +458,7 @@ class _WeekdayHeader extends StatelessWidget {
           Expanded(
             child: Text(
               DateFormat.E(locale).format(
-                monday.add(Duration(days: offset)),
+                LocalCivilDay.add(monday, offset),
               ),
               textAlign: TextAlign.center,
               maxLines: 1,

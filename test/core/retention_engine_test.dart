@@ -172,4 +172,49 @@ void main() {
       'Nessuna ricorrenza verificata',
     );
   });
+
+  test('daily and weekly reminder IDs remain unique across DST', () {
+    for (final start in [
+      DateTime(2026, 3, 28, 8),
+      DateTime(2026, 10, 24, 8),
+    ]) {
+      final plan = ReminderPlanBuilder.build(
+        settings: const ReminderPreferences(
+          dailyEnabled: true, dailyHour: 9, weeklyEnabled: true,
+          weeklyWeekday: DateTime.monday, weeklyHour: 10,
+        ),
+        favoriteIds: const {},
+        localeCode: 'en',
+        observancesForDate: (_) => const [],
+        now: start,
+      );
+      final daily = plan.where((item) =>
+          item.stableId.startsWith('daily:') &&
+          item.stableId != 'daily:rolling-fallback').toList();
+      expect(daily, hasLength(21));
+      expect(daily.map((item) => item.stableId).toSet(), hasLength(21));
+      expect(daily.every((item) => item.when.hour == 9), isTrue);
+      final weekly = plan.where((item) =>
+          item.stableId.startsWith('weekly:')).toList();
+      expect(weekly, hasLength(6));
+      expect(weekly.map((item) => item.stableId).toSet(), hasLength(6));
+    }
+  });
+
+  test('widget projection crosses DST and new year without duplicate days', () {
+    for (final sample in [
+      (DateTime(2026, 3, 28),
+        ['2026-03-28', '2026-03-29', '2026-03-30', '2026-03-31']),
+      (DateTime(2026, 10, 24),
+        ['2026-10-24', '2026-10-25', '2026-10-26', '2026-10-27']),
+      (DateTime(2026, 12, 30),
+        ['2026-12-30', '2026-12-31', '2027-01-01', '2027-01-02']),
+    ]) {
+      final projection = WorldDaysWidgetProjection.build(
+        localeCode: 'en', now: sample.$1, days: 4,
+        observancesForDate: (_) => const [],
+      );
+      expect(projection.keys.toList(), sample.$2);
+    }
+  });
 }
