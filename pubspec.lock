@@ -5,7 +5,7 @@ packages:
     dependency: transitive
     description:
       name: archive
-      sha256: "de5ac590b8155e4e676088d714bd41ea620449a6adc0f7950c5073874b287ddb"
+      sha256: de5ac590b8155e4e676088d714bd41ea620449a6adc0f7950c5073874b287ddb
       url: "https://pub.dev"
     source: hosted
     version: "4.6.0"
@@ -291,7 +291,7 @@ packages:
     dependency: transitive
     description:
       name: in_app_purchase_android
-      sha256: "b76ab601573f8a848e72d015496257235066ba3479bef6300482239f417e0d72"
+      sha256: b76ab601573f8a848e72d015496257235066ba3479bef6300482239f417e0d72
       url: "https://pub.dev"
     source: hosted
     version: "0.5.5"
@@ -307,7 +307,7 @@ packages:
     dependency: transitive
     description:
       name: in_app_purchase_storekit
-      sha256: "fb2744b928bb0fcbfc95d1833469b3f638a44670aac3e278695930d3727011b6"
+      sha256: fb2744b928bb0fcbfc95d1833469b3f638a44670aac3e278695930d3727011b6
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
@@ -328,7 +328,7 @@ packages:
     dependency: transitive
     description:
       name: jni
-      sha256: "d8df6dab6847855512fe44dd9032b0bbe34dda7bf7597e41d30750879779813f"
+      sha256: d8df6dab6847855512fe44dd9032b0bbe34dda7bf7597e41d30750879779813f
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
@@ -797,7 +797,7 @@ packages:
     dependency: transitive
     description:
       name: web
-      sha256: "e119e82ac4795c7925103b7cf3768191f33941b99e7ccffbd6c645201d9f606b"
+      sha256: e119e82ac4795c7925103b7cf3768191f33941b99e7ccffbd6c645201d9f606b
       url: "https://pub.dev"
     source: hosted
     version: "1.1.2"
@@ -837,7 +837,7 @@ packages:
     dependency: transitive
     description:
       name: webview_flutter_wkwebview
-      sha256: "acac45e0a8d7beb1d0805521f44842f406c46eb5a69410f53d935e3c62138afc"
+      sha256: acac45e0a8d7beb1d0805521f44842f406c46eb5a69410f53d935e3c62138afc
       url: "https://pub.dev"
     source: hosted
     version: "3.27.2"
