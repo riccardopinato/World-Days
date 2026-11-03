@@ -403,4 +403,25 @@ void main() {
     expect(manager.state, ContentPackState.bundled);
     expect(manager.activeManifest, isNull);
   });
+
+  test('numeric version comparison rejects CDN downgrade after newer bundled pack', () async {
+    final oldBytes = _payloadBytes('2026.10.14.9');
+    final manifest = _manifest('2026.10.14.9', oldBytes);
+    final storage = _MemoryStorage();
+    final manager = ContentPackManager(
+      transport: _FakeTransport(
+        manifestText: _manifestJson(manifest),
+        payloadBytes: oldBytes,
+      ),
+      storage: storage,
+      validator: _validator,
+    );
+    await manager.initialize();
+    manager.setBundledVersion('2026.10.14.10');
+    expect(await manager.checkForUpdate(), isFalse);
+    expect(manager.status.activeVersion, '2026.10.14.10');
+    expect(manager.remoteManifest, isNull);
+    expect(storage.activationCount, 0);
+    expect(manager.lastError, 'remote_pack_not_newer');
+  });
 }

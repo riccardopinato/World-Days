@@ -99,14 +99,18 @@ class ContentPackManager extends ChangeNotifier {
       final manifest = ContentPackManifest.fromJson(
         Map<String, dynamic>.from(decoded),
       );
-      _remoteManifest = manifest;
-
       final currentVersion = _activeManifest?.version ?? _bundledVersion;
-      if (currentVersion == manifest.version) {
+      if (currentVersion != null &&
+          _compareNumericVersions(manifest.version, currentVersion) <= 0) {
+        // A stale CDN response must never replace an installed newer pack.
+        _remoteManifest = null;
         _state = ContentPackState.ready;
+        _lastError = currentVersion == manifest.version
+            ? null : 'remote_pack_not_newer';
         notifyListeners();
         return false;
       }
+      _remoteManifest = manifest;
       _state = ContentPackState.updateAvailable;
       notifyListeners();
       return true;
@@ -219,6 +223,32 @@ class ContentPackManager extends ChangeNotifier {
     final payload = Map<String, dynamic>.from(decoded);
     _validator(payload);
     return payload;
+  }
+
+  /// Returns -1, 0 or 1 for versioned numeric catalogs.
+  ///
+  /// When one side is not a dotted numeric version, only exact identity is
+  /// comparable; preserve previous v1 behavior for opaque version labels.
+  static int _compareNumericVersions(String remote, String current) {
+    if (remote == current) return 0;
+    final format = RegExp(r'^\\d+(?:\\.\\d+)*
+    _transport.close();
+    _storage.close();
+    super.dispose();
+  }
+}
+);
+    if (!format.hasMatch(remote) || !format.hasMatch(current)) return 1;
+    final a = remote.split('.').map(int.tryParse).toList();
+    final b = current.split('.').map(int.tryParse).toList();
+    if (a.contains(null) || b.contains(null)) return 1;
+    final count = a.length > b.length ? a.length : b.length;
+    for (var i = 0; i < count; i++) {
+      final left = i < a.length ? a[i]! : 0;
+      final right = i < b.length ? b[i]! : 0;
+      if (left != right) return left.compareTo(right);
+    }
+    return 0;
   }
 
   @override

@@ -16,6 +16,12 @@ needs_create=0
 [[ -f ios/Runner/Info.plist ]] || needs_create=1
 [[ -f web/index.html ]] || needs_create=1
 
+# Flutter platform scaffolding must never silently replace the committed
+# dependency lock (observed with Flutter 3.47.3 and --no-pub).
+lock_snapshot="$(mktemp)"
+cp pubspec.lock "$lock_snapshot"
+trap 'rm -f "$lock_snapshot"' EXIT
+
 if [[ "$needs_create" -eq 1 ]]; then
   flutter create \
     --platforms=android,ios,web \
@@ -25,6 +31,10 @@ if [[ "$needs_create" -eq 1 ]]; then
     .
 fi
 
+# Restore source-controlled resolution before explicit flutter pub get.
+if ! cmp -s pubspec.lock "$lock_snapshot"; then
+  cp "$lock_snapshot" pubspec.lock
+fi
 
 # flutter create adds its default MyApp widget test; this project owns its tests.
 rm -f test/widget_test.dart
