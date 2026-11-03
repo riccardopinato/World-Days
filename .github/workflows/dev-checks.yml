@@ -74,6 +74,12 @@ jobs:
       - name: Test
         run: flutter test
 
+      - name: Test civil dates in Europe/Rome timezone
+        env:
+          TZ: Europe/Rome
+        run: |
+          flutter test test/domain/local_civil_day_test.dart test/core/retention_engine_test.dart
+
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
 

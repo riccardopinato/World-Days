@@ -1,5 +1,6 @@
 import '../../data/preferences_repository.dart';
 import '../../domain/observance.dart';
+import '../../domain/local_civil_day.dart';
 
 typedef ObservancesForDate = List<Observance> Function(DateTime date);
 
@@ -32,14 +33,14 @@ class ReminderPlanBuilder {
     DateTime? now,
   }) {
     final clock = now ?? DateTime.now();
-    final start = DateTime(clock.year, clock.month, clock.day);
+    final start = LocalCivilDay.start(clock);
     final locale = _normalizeLocale(localeCode);
     final copy = _ReminderCopy.forLocale(locale);
     final plan = <PlannedNotification>[];
 
     if (settings.dailyEnabled) {
       for (var offset = 0; offset < 21; offset++) {
-        final date = start.add(Duration(days: offset));
+        final date = LocalCivilDay.add(start, offset);
         final when = _at(
           date,
           settings.dailyHour,
@@ -61,14 +62,15 @@ class ReminderPlanBuilder {
         );
       }
 
-      final fallbackDate = start.add(const Duration(days: 21));
+      final fallbackDate = LocalCivilDay.add(start, 21);
       var fallbackWhen = _at(
         fallbackDate,
         settings.dailyHour,
         settings.dailyMinute,
       );
       if (!fallbackWhen.isAfter(clock)) {
-        fallbackWhen = fallbackWhen.add(const Duration(days: 1));
+        fallbackWhen = _at(LocalCivilDay.add(fallbackDate, 1),
+            settings.dailyHour, settings.dailyMinute);
       }
       plan.add(
         PlannedNotification(
@@ -85,10 +87,10 @@ class ReminderPlanBuilder {
     if (settings.weeklyEnabled) {
       var date = start;
       while (date.weekday != settings.weeklyWeekday) {
-        date = date.add(const Duration(days: 1));
+        date = LocalCivilDay.add(date, 1);
       }
       for (var index = 0; index < 6; index++) {
-        final candidate = date.add(Duration(days: index * 7));
+        final candidate = LocalCivilDay.add(date, index * 7);
         final when = _at(
           candidate,
           settings.weeklyHour,
@@ -112,7 +114,7 @@ class ReminderPlanBuilder {
       for (var offset = 0;
           offset <= 366 && scheduledFavorites.length < 12;
           offset++) {
-        final date = start.add(Duration(days: offset));
+        final date = LocalCivilDay.add(start, offset);
         final records = observancesForDate(date);
         for (final record in records) {
           if (!favoriteIds.contains(record.id) ||
@@ -144,7 +146,7 @@ class ReminderPlanBuilder {
         settings.followedCategories.isNotEmpty) {
       var scheduled = 0;
       for (var offset = 0; offset <= 90 && scheduled < 10; offset++) {
-        final date = start.add(Duration(days: offset));
+        final date = LocalCivilDay.add(start, offset);
         final records = observancesForDate(date);
         Observance? match;
         String? matchedCategory;
@@ -183,12 +185,9 @@ class ReminderPlanBuilder {
   }
 
   static DateTime _at(DateTime date, int hour, int minute) =>
-      DateTime(date.year, date.month, date.day, hour, minute);
+      LocalCivilDay.at(date, hour, minute);
 
-  static String _dateKey(DateTime date) =>
-      '${date.year.toString().padLeft(4, '0')}-'
-      '${date.month.toString().padLeft(2, '0')}-'
-      '${date.day.toString().padLeft(2, '0')}';
+  static String _dateKey(DateTime date) => LocalCivilDay.key(date);
 
   static String _normalizeLocale(String value) {
     final normalized = value.toLowerCase().split(RegExp('[-_]')).first;

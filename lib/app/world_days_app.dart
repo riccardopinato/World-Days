@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -10,6 +12,7 @@ import '../features/discover/discover_page.dart';
 import '../features/saved/saved_page.dart';
 import '../features/settings/settings_page.dart';
 import '../features/today/today_page.dart';
+import '../domain/local_civil_day.dart';
 import '../l10n/app_localizations.dart';
 import 'app_controller.dart';
 
@@ -107,13 +110,18 @@ class _AppShell extends StatefulWidget {
   State<_AppShell> createState() => _AppShellState();
 }
 
-class _AppShellState extends State<_AppShell> {
+class _AppShellState extends State<_AppShell> with WidgetsBindingObserver {
   var index = 0;
   var _navigationScheduled = false;
+  Timer? _midnightTimer;
+  late String _visibleCivilDay;
 
   @override
   void initState() {
     super.initState();
+    _visibleCivilDay = LocalCivilDay.key(DateTime.now());
+    WidgetsBinding.instance.addObserver(this);
+    _scheduleNextMidnight();
     widget.controller.addListener(_onControllerChanged);
     _onControllerChanged();
   }
@@ -129,7 +137,35 @@ class _AppShellState extends State<_AppShell> {
   }
 
   @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) _refreshCivilDay();
+  }
+
+  void _scheduleNextMidnight() {
+    _midnightTimer?.cancel();
+    final now = DateTime.now();
+    final next = LocalCivilDay.nextMidnight(now);
+    _midnightTimer = Timer(
+      next.difference(now) + const Duration(milliseconds: 250),
+      _refreshCivilDay,
+    );
+  }
+
+  void _refreshCivilDay() {
+    if (!mounted) return;
+    final today = LocalCivilDay.key(DateTime.now());
+    if (today != _visibleCivilDay) {
+      _visibleCivilDay = today;
+      setState(() {});
+      unawaited(widget.controller.refreshForCurrentDay());
+    }
+    _scheduleNextMidnight();
+  }
+
+  @override
   void dispose() {
+    _midnightTimer?.cancel();
+    WidgetsBinding.instance.removeObserver(this);
     widget.controller.removeListener(_onControllerChanged);
     super.dispose();
   }
@@ -219,7 +255,10 @@ class _AppShellState extends State<_AppShell> {
                   Expanded(
                     child: Row(
                       children: [
-                        NavigationRail(
+                        FocusTraversalGroup(
+                          key: const ValueKey<String>('standard-navigation-focus-group'),
+                          policy: WidgetOrderTraversalPolicy(),
+                          child: NavigationRail(
                           selectedIndex: index,
                           onDestinationSelected: (value) =>
                               setState(() => index = value),
@@ -232,6 +271,7 @@ class _AppShellState extends State<_AppShell> {
                                 label: Text(destination.label),
                               ),
                           ],
+                          ),
                         ),
                         const VerticalDivider(width: 1),
                         Expanded(
@@ -277,7 +317,10 @@ class _AppShellState extends State<_AppShell> {
                 );
               }
 
-              return NavigationBar(
+              return FocusTraversalGroup(
+                key: const ValueKey<String>('standard-navigation-focus-group'),
+                policy: WidgetOrderTraversalPolicy(),
+                child: NavigationBar(
                 height: 80,
                 labelBehavior: constraints.maxWidth < 430
                     ? NavigationDestinationLabelBehavior.onlyShowSelected
@@ -286,6 +329,7 @@ class _AppShellState extends State<_AppShell> {
                 onDestinationSelected: (value) =>
                     setState(() => index = value),
                 destinations: destinations,
+                ),
               );
             },
           ),

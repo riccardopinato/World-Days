@@ -9,6 +9,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from write_android_artifact_manifest import build_manifest
+from verify_release_bundle import verify_bundle, blocked_handoff
 
 
 class AndroidArtifactManifestTest(unittest.TestCase):
@@ -67,6 +68,79 @@ class AndroidArtifactManifestTest(unittest.TestCase):
                     certificate_sha256="c" * 64,
                     apk=apk,
                     aab=aab,
+                )
+
+
+class ArtifactVerifierTest(unittest.TestCase):
+    def test_exact_bundle_matches_and_starts_blocked(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            apk, aab = root / "app-arm64-v8a-release.apk", root / "app-release.aab"
+            apk.write_bytes(b"apk-binary")
+            aab.write_bytes(b"aab-binary")
+            data = build_manifest(
+                lane="production", source_sha="a" * 40,
+                run_id="987654", version_name="0.4.1", version_code="5",
+                certificate_sha256="b" * 64, apk=apk, aab=aab,
+            )
+            path = root / "manifest.json"
+            path.write_text(json.dumps(data), encoding="utf-8")
+            actual = verify_bundle(
+                manifest_path=path, apk_path=apk, aab_path=aab,
+                expected_source_sha="a" * 40,
+                expected_certificate_sha256="b" * 64,
+            )
+            self.assertEqual(actual["versionCode"], 5)
+            handoff = blocked_handoff(actual)
+            self.assertIn("VERDICT: BLOCKED / NOT CERTIFIED", handoff)
+            self.assertIn(apk.name, handoff)
+            self.assertIn(aab.name, handoff)
+
+    def test_mutated_artifact_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            apk, aab = root / "a.apk", root / "b.aab"
+            apk.write_bytes(b"abc")
+            aab.write_bytes(b"def")
+            data = build_manifest(
+                lane="signed-qa", source_sha="a" * 40,
+                run_id="1", version_name="0.4.1", version_code="5",
+                certificate_sha256="b" * 64, apk=apk, aab=aab,
+            )
+            path = root / "manifest.json"
+            path.write_text(json.dumps(data), encoding="utf-8")
+            apk.write_bytes(b"MODIFIED")
+            with self.assertRaisesRegex(ValueError, "size mismatch"):
+                verify_bundle(
+                    manifest_path=path, apk_path=apk, aab_path=aab,
+                    expected_source_sha="a" * 40,
+                    expected_certificate_sha256="b" * 64,
+                )
+
+    def test_wrong_signer_or_source_fails_closed(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            apk, aab = root / "a.apk", root / "b.aab"
+            apk.write_bytes(b"abc")
+            aab.write_bytes(b"def")
+            data = build_manifest(
+                lane="production", source_sha="a" * 40,
+                run_id="1", version_name="0.4.1", version_code="5",
+                certificate_sha256="b" * 64, apk=apk, aab=aab,
+            )
+            path = root / "manifest.json"
+            path.write_text(json.dumps(data), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "signing certificate"):
+                verify_bundle(
+                    manifest_path=path, apk_path=apk, aab_path=aab,
+                    expected_source_sha="a" * 40,
+                    expected_certificate_sha256="c" * 64,
+                )
+            with self.assertRaisesRegex(ValueError, "source SHA"):
+                verify_bundle(
+                    manifest_path=path, apk_path=apk, aab_path=aab,
+                    expected_source_sha="d" * 40,
+                    expected_certificate_sha256="b" * 64,
                 )
 
 

@@ -19,6 +19,7 @@ import '../data/catalog_repository.dart';
 import '../data/preferences_repository.dart';
 import '../domain/observance.dart';
 import '../domain/occurrence.dart';
+import '../domain/local_civil_day.dart';
 
 final class AppController extends ChangeNotifier {
   AppController({
@@ -63,6 +64,7 @@ final class AppController extends ChangeNotifier {
   UserPreferences preferences = const UserPreferences();
   Object? error;
   bool loading = true;
+  String? _lastProjectedCivilDay;
 
   bool get nativeNotificationsAvailable => _notificationService.supported;
   bool get androidWidgetAvailable => _homeWidgetService.supported;
@@ -105,6 +107,7 @@ final class AppController extends ChangeNotifier {
       }
       preferences = values[1] as UserPreferences;
       await _updateStreak();
+      _lastProjectedCivilDay = LocalCivilDay.key(DateTime.now());
     } catch (e) {
       error = e;
     }
@@ -123,6 +126,25 @@ final class AppController extends ChangeNotifier {
     if (error == null && contentPacks.supported) {
       unawaited(contentPacks.checkForUpdate());
     }
+  }
+
+  /// Refresh Today and retention projections once per local calendar day.
+  Future<void> refreshForCurrentDay() async {
+    if (loading || catalog == null) return;
+    final today = LocalCivilDay.key(DateTime.now());
+    if (_lastProjectedCivilDay == today) return;
+    _lastProjectedCivilDay = today;
+    try {
+      await _updateStreak();
+    } catch (_) {
+      // Persistence errors must not prevent the daily screen refresh.
+    }
+    try {
+      await _reconcileNativeRetention();
+    } catch (_) {
+      // Native adapters must not interrupt local-first navigation.
+    }
+    notifyListeners();
   }
 
   Future<bool> checkContentUpdates() => contentPacks.checkForUpdate();
@@ -237,7 +259,7 @@ final class AppController extends ChangeNotifier {
 
         for (var cursor = start;
             !cursor.isAfter(end);
-            cursor = cursor.add(const Duration(days: 1))) {
+            cursor = LocalCivilDay.add(cursor, 1)) {
           index.putIfAbsent(_dateKey(cursor), () => []).add(occurrence);
         }
       }
@@ -584,8 +606,7 @@ final class AppController extends ChangeNotifier {
     if (previous != null) {
       final parsed = DateTime.tryParse(previous);
       if (parsed != null) {
-        final yesterday = DateTime(now.year, now.month, now.day)
-            .subtract(const Duration(days: 1));
+        final yesterday = LocalCivilDay.add(now, -1);
         if (_dateKey(parsed) == _dateKey(yesterday)) {
           streak = preferences.streak + 1;
         }
@@ -636,10 +657,7 @@ final class AppController extends ChangeNotifier {
           ),
       };
 
-  static String _dateKey(DateTime date) =>
-      '${date.year.toString().padLeft(4, '0')}-'
-      '${date.month.toString().padLeft(2, '0')}-'
-      '${date.day.toString().padLeft(2, '0')}';
+  static String _dateKey(DateTime date) => LocalCivilDay.key(date);
 
   void _onMonetizationChanged() {
     if (!loading) notifyListeners();

@@ -6,6 +6,7 @@ import '../../core/verified_overview_copy.dart';
 import '../../core/widgets/observance_card.dart';
 import '../../core/widgets/observance_hero.dart';
 import '../../domain/observance.dart';
+import '../../domain/local_civil_day.dart';
 import '../../features/detail/observance_detail_page.dart';
 import '../../l10n/app_localizations.dart';
 
@@ -25,8 +26,7 @@ class TodayPage extends StatelessWidget {
     final editorial = primary == null
         ? null
         : controller.catalog?.editorialFor(primary.id, locale.languageCode);
-    final tomorrowDate = DateTime(now.year, now.month, now.day)
-        .add(const Duration(days: 1));
+    final tomorrowDate = LocalCivilDay.add(now, 1);
     final tomorrowRecords = controller.observancesForDate(tomorrowDate);
     final next = _nextObservances(controller, now, startOffset: 2);
     final colors = Theme.of(context).colorScheme;
@@ -147,6 +147,7 @@ class TodayPage extends StatelessWidget {
                 const SizedBox(height: 24),
                 _SectionTitle(l10n.dailyQuiz),
                 _DailyQuizCard(
+                  key: ValueKey(LocalCivilDay.key(now)),
                   primary: primary,
                   controller: controller,
                 ),
@@ -207,14 +208,14 @@ class TodayPage extends StatelessWidget {
     DateTime date, {
     int startOffset = 1,
   }) {
-    final start = DateTime(date.year, date.month, date.day);
+    final start = LocalCivilDay.start(date);
     final seen = <String>{};
     final result = <_UpcomingObservance>[];
 
     for (var offset = startOffset;
         offset <= 366 && result.length < 8;
         offset++) {
-      final candidate = start.add(Duration(days: offset));
+      final candidate = LocalCivilDay.add(start, offset);
       for (final record in controller.observancesForDate(candidate)) {
         if (!seen.add(record.id)) continue;
         result.add(_UpcomingObservance(date: candidate, observance: record));
@@ -238,6 +239,7 @@ class TodayPage extends StatelessWidget {
 
 class _DailyQuizCard extends StatefulWidget {
   const _DailyQuizCard({
+    super.key,
     required this.primary,
     required this.controller,
   });

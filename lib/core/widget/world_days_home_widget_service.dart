@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:home_widget/home_widget.dart';
 
 import 'home_widget_gateway.dart';
+import '../../domain/local_civil_day.dart';
 
 class WorldDaysWidgetProjection {
   const WorldDaysWidgetProjection._();
@@ -18,11 +19,11 @@ class WorldDaysWidgetProjection {
     final locale = _normalizeLocale(localeCode);
     final copy = _WidgetCopy.forLocale(locale);
     final clock = now ?? DateTime.now();
-    final start = DateTime(clock.year, clock.month, clock.day);
+    final start = LocalCivilDay.start(clock);
     final schedule = <String, Map<String, String>>{};
 
     for (var offset = 0; offset < days; offset++) {
-      final date = start.add(Duration(days: offset));
+      final date = LocalCivilDay.add(start, offset);
       final records = observancesForDate(date);
       final first = records.isEmpty ? null : records.first;
       schedule[_dateKey(date)] = {
@@ -40,10 +41,7 @@ class WorldDaysWidgetProjection {
     return schedule;
   }
 
-  static String _dateKey(DateTime date) =>
-      '${date.year.toString().padLeft(4, '0')}-'
-      '${date.month.toString().padLeft(2, '0')}-'
-      '${date.day.toString().padLeft(2, '0')}';
+  static String _dateKey(DateTime date) => LocalCivilDay.key(date);
 
   static String _normalizeLocale(String value) {
     final normalized = value.toLowerCase().split(RegExp('[-_]')).first;
