@@ -40,6 +40,18 @@ ARM64 build evidence.
 The older October evidence below remains **historical**. Do not use
 it as exact-head Store release certification.
 
+## Editorial detail next wave — proposed 2026-11-03
+
+- [ ] For all 296 canonical records: show verified date/period, authority,
+      geography, establishment year when sourced (otherwise `*`), and source links
+      in the original lightly tinted facts card.
+- [ ] Expand source-reviewed historical narrative in **all six locales**.
+      Pilot adds Africa Industrialization Day and enriches World Water Day;
+      the remaining 267 still require individual primary-source and human
+      editorial review, not generic AI-generated historical claims.
+- [ ] Validate Rich Editorial and localized fallback, unknown years and
+      large-text layout across mobile/Web on an exact GitHub CI head.
+
 ## Current release state
 
 World Days is technically healthy but **NOT Store Ready**.

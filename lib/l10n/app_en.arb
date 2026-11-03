@@ -193,5 +193,23 @@
   "verifiedOverviewNote": "This overview uses only verified record metadata. Richer editorial context is shown only after source review.",
   "verifiedScopeGlobal": "Global",
   "verifiedScopeNational": "National",
-  "verifiedScopeRegional": "Regional"
+  "verifiedScopeRegional": "Regional",
+  "detailAtAGlance": "At a glance",
+  "dateOrPeriod": "Date or period",
+  "introducedIn": "Established",
+  "introYearUnknown": "* Establishment year has not been confirmed by the reviewed sources.",
+  "dateNotResolved": "Date not yet verified",
+  "detailStoryTitle": "The story behind this day",
+  "detailStoryFallback": "There's more to {title} than a date on the calendar. 🌍 It's a moment to explore {topic}, the people involved and the questions worth asking. Where to begin? With the verified date, the organizing authority and the original sources below. ✨",
+  "detailHistoryPending": "The specific origin and historical milestones of this observance are still being reviewed against primary sources. We prefer a transparent gap to an invented story.",
+  "@detailStoryFallback": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "topic": {
+        "type": "String"
+      }
+    }
+  }
 }

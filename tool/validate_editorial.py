@@ -59,7 +59,12 @@ for item in entries:
     assert len(related) == len(set(related)), oid
     assert set(related).issubset(known), (oid, sorted(set(related) - known))
     assert oid not in related, oid
-    assert item.get('lastReviewedAt') == '2026-10-12', oid
+    expected_review = (
+        '2026-11-03'
+        if oid in {'africa-industrialization-day', 'world-water-day'}
+        else '2026-10-12'
+    )
+    assert item.get('lastReviewedAt') == expected_review, oid
     for key in ('hook', 'summary', 'whyThisDate', 'origin', 'whyItMatters'):
         assert 'http://' not in item.get(key, ''), (oid, key)
         assert 'https://' not in item.get(key, ''), (oid, key)

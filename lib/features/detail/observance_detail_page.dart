@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
 import '../../core/market_options.dart';
-import '../../core/verified_overview_copy.dart';
 import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/world_days_share_card.dart';
 import '../../domain/observance.dart';
-import '../../domain/verified_record_overview.dart';
+import '../../domain/observance_detail_facts.dart';
 import '../../l10n/app_localizations.dart';
 
 class ObservanceDetailPage extends StatefulWidget {
@@ -40,7 +40,6 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     final catalog = widget.controller.catalog;
     final editorial = catalog?.editorialFor(record.id, localeCode);
     final editorialFallback = editorial != null && editorial.locale != localeCode;
-    final verifiedOverview = VerifiedRecordOverview.fromObservance(record, localeCode);
     final annualOverride = catalog?.yearOverrideFor(record.id, DateTime.now().year);
     final related = editorial == null
         ? const <Observance>[]
@@ -119,6 +118,12 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
               ],
             ),
           ),
+          const SizedBox(height: 18),
+          _ObservanceFactsCard(
+            record: record,
+            localeCode: localeCode,
+            l10n: l10n,
+          ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
             if (editorialFallback) ...[
@@ -136,6 +141,13 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
               ),
               const SizedBox(height: 16),
             ],
+            Text(
+              l10n.detailStoryTitle,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w900,
+                  ),
+            ),
+            const SizedBox(height: 14),
             if (editorial.hook.trim().isNotEmpty) ...[
               Text(
                 editorial.hook,
@@ -247,30 +259,21 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             const SizedBox(height: 16),
           ] else ...[
             _EditorialSection(
-              icon: Icons.verified_outlined,
-              title: l10n.verifiedOverview,
-              body: verifiedOverviewCopy(l10n, verifiedOverview),
+              icon: Icons.auto_stories_outlined,
+              title: l10n.detailStoryTitle,
+              body: l10n.detailStoryFallback(
+                localizedTitle,
+                _detailTopicLabel(record, l10n),
+              ),
             ),
-            const SizedBox(height: 10),
-            Text(
-              l10n.verifiedOverviewNote,
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
+            const SizedBox(height: 12),
+            _EditorialSection(
+              icon: Icons.history_edu_outlined,
+              title: l10n.originHistory,
+              body: l10n.detailHistoryPending,
             ),
             const SizedBox(height: 24),
           ],
-          _InfoRow(label: l10n.authority, value: record.authority.name),
-          if (record.authority.resolution case final resolution?)
-            _InfoRow(label: l10n.resolution, value: resolution),
-          _InfoRow(
-            label: l10n.market,
-            value: record.scope == 'GLOBAL'
-                ? l10n.globalMarket
-                : record.countries
-                    .map((code) => marketLabel(l10n, code))
-                    .join(', '),
-          ),
           const SizedBox(height: 20),
           Text(
             l10n.sources,
@@ -323,6 +326,22 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
   }
 
 
+  String _detailTopicLabel(Observance record, AppLocalizations l10n) {
+    final category = record.categories.isNotEmpty
+        ? record.categories.first
+        : 'COMMUNITY';
+    return switch (category) {
+      'PLANET' => l10n.categoryPlanet,
+      'HEALTH' => l10n.categoryHealth,
+      'PEOPLE' => l10n.categoryPeople,
+      'LEARNING' => l10n.categoryLearning,
+      'CULTURE' => l10n.categoryCulture,
+      'FOOD' => l10n.categoryFood,
+      'FUTURE' => l10n.categoryFuture,
+      _ => l10n.categoryCommunity,
+    };
+  }
+
   String _sourceTierLabel(String value, AppLocalizations l10n) =>
       switch (value) {
         'A_PRIMARY' => l10n.sourcePrimary,
@@ -337,6 +356,92 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
     if (value == 'RECOGNIZED_NGO') return l10n.recognized;
     if (value == 'POPULAR') return l10n.popular;
     return l10n.institutional;
+  }
+}
+
+
+class _ObservanceFactsCard extends StatelessWidget {
+  const _ObservanceFactsCard({
+    required this.record,
+    required this.localeCode,
+    required this.l10n,
+  });
+
+  final Observance record;
+  final String localeCode;
+  final AppLocalizations l10n;
+
+  @override
+  Widget build(BuildContext context) {
+    final facts = ObservanceDetailFacts.forYear(
+      record,
+      DateTime.now().year,
+    );
+    final formatter = DateFormat.yMMMMd(localeCode);
+    final dates = facts.spans.map((span) {
+      final start = formatter.format(span.start);
+      if (span.start == span.end) return start;
+      return '$start — ${formatter.format(span.end)}';
+    }).join(' · ');
+
+    // Use the same default Card surface as the previous lilac
+    // "Verified overview" block. Do not change the visual palette.
+    return Card(
+      key: const ValueKey<String>('detail-facts-card'),
+      child: Padding(
+        padding: const EdgeInsets.all(18),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                const Icon(Icons.fact_check_outlined, size: 22),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(
+                    l10n.detailAtAGlance,
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w900,
+                        ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 12),
+            _InfoRow(
+              label: l10n.dateOrPeriod,
+              value: dates.isEmpty ? l10n.dateNotResolved : dates,
+            ),
+            _InfoRow(
+              label: l10n.introducedIn,
+              value: facts.introducedYear?.toString() ?? '*',
+            ),
+            _InfoRow(label: l10n.authority, value: record.authority.name),
+            if (record.authority.resolution case final resolution?)
+              _InfoRow(label: l10n.resolution, value: resolution),
+            _InfoRow(
+              label: l10n.scope,
+              value: record.scope == 'GLOBAL'
+                  ? l10n.verifiedScopeGlobal
+                  : record.countries.isEmpty
+                      ? l10n.verifiedScopeRegional
+                      : record.countries
+                          .map((code) => marketLabel(l10n, code))
+                          .join(', '),
+            ),
+            if (record.lastVerifiedAt case final verifiedAt?)
+              _InfoRow(label: l10n.verifiedOn, value: verifiedAt),
+            if (facts.introducedYear == null) ...[
+              const SizedBox(height: 4),
+              Text(
+                l10n.introYearUnknown,
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
   }
 }
 

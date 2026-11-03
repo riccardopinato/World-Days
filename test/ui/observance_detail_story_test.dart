@@ -1,0 +1,102 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+import 'package:world_days/data/catalog_repository.dart';
+import 'package:world_days/features/detail/observance_detail_page.dart';
+
+import '../support/world_days_test_support.dart';
+
+void main() {
+  TestWidgetsFlutterBinding.ensureInitialized();
+
+  // Bundled asset loading must complete outside WidgetTester's fake-async
+  // zone: awaiting rootBundle inside testWidgets may stall flutter test.
+  late CatalogSnapshot snapshot;
+  setUpAll(() async {
+    snapshot = await const CatalogRepository().load();
+  });
+
+  testWidgets('Africa detail shows source-backed 1989 and original Italian story',
+      (tester) async {
+    final record = snapshot.byId['africa-industrialization-day']!;
+    final controller = await buildLoadedTestController(catalog: snapshot);
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(
+      wrapTestApp(
+        ObservanceDetailPage(observance: record, controller: controller),
+        locale: const Locale('it'),
+      ),
+    );
+    await tester.pump(const Duration(milliseconds: 200));
+
+    final facts = find.byKey(
+      const ValueKey<String>('detail-facts-card'),
+    );
+    expect(facts, findsOneWidget);
+    expect(tester.widget<Card>(facts).color, isNull,
+        reason: 'Existing lavender theme/card surface must be unchanged');
+    expect(find.text('In breve'), findsOneWidget);
+    expect(find.text('1989'), findsOneWidget);
+    expect(find.textContaining('novembre'), findsWidgets);
+    expect(tester.takeException(), isNull);
+
+    final italianStory =
+        snapshot.editorialFor('africa-industrialization-day', 'it')!;
+    expect(italianStory.hook, contains('E se una parte'));
+    expect(italianStory.origin, contains('1989'));
+    expect(italianStory.whyThisDate, isNotEmpty);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('unknown establishment is shown as *, never invented',
+      (tester) async {
+    final record = snapshot.byId['world-habitat-day']!;
+    final controller = await buildLoadedTestController(catalog: snapshot);
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(wrapTestApp(
+      ObservanceDetailPage(observance: record, controller: controller),
+      locale: const Locale('it'),
+    ));
+    await tester.pump(const Duration(milliseconds: 200));
+
+    expect(find.text('In breve'), findsOneWidget);
+    expect(find.text('*'), findsOneWidget);
+    expect(find.textContaining("L'anno di istituzione"), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('facts card survives small phone and 200 percent text scale',
+      (tester) async {
+    tester.view.physicalSize = const Size(360, 800);
+    tester.view.devicePixelRatio = 1;
+    tester.platformDispatcher.textScaleFactorTestValue = 2;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+    addTearDown(tester.platformDispatcher.clearTextScaleFactorTestValue);
+
+    final record = snapshot.byId['africa-industrialization-day']!;
+    final controller = await buildLoadedTestController(catalog: snapshot);
+    addTearDown(controller.dispose);
+
+    await tester.pumpWidget(wrapTestApp(
+      ObservanceDetailPage(observance: record, controller: controller),
+      locale: const Locale('it'),
+    ));
+    await tester.pump(const Duration(milliseconds: 200));
+
+    // The large-text hero is taller than a 360x800 viewport, so the
+    // lazy ListView doesn't build the facts card until it enters view.
+    // Verify it becomes reachable by actual user scrolling.
+    final facts = find.byKey(
+      const ValueKey<String>('detail-facts-card'),
+    );
+    for (var i = 0; i < 12 && facts.evaluate().isEmpty; i++) {
+      await tester.drag(find.byType(ListView).first, const Offset(0, -240));
+      await tester.pump(const Duration(milliseconds: 40));
+    }
+    expect(facts, findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+}

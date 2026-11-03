@@ -27,6 +27,7 @@ def source_entries(locale: str):
 def main():
     master = load_json(MASTER_PATH)
     master_ids = [item["observanceId"] for item in master.get("entries", [])]
+    master_by_id = {item["observanceId"]: item for item in master["entries"]}
     assert master_ids, "English editorial master is empty"
 
     for locale in LOCALES:
@@ -60,14 +61,14 @@ def main():
                     value.strip() for value in item.get("relatedObservanceIds", [])
                     if value.strip()
                 ],
-                "lastReviewedAt": REVIEWED,
+                "lastReviewedAt": master_by_id[observance_id]["lastReviewedAt"],
                 "sourcePolicy": "Translation of the reviewed English editorial master; factual claims remain governed by the canonical observance sources.",
             })
 
         payload = {
             "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.10.15.2",
+            "datasetVersion": "2026.11.03.1",
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),

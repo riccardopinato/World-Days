@@ -14,6 +14,7 @@ master = load("en")
 assert master.get("schemaVersion") == 2
 master_entries = master.get("entries", [])
 master_ids = [item["observanceId"] for item in master_entries]
+master_by_id = {item["observanceId"]: item for item in master_entries}
 master_actions = {
     item["observanceId"]: len(item.get("waysToTakePart", []))
     for item in master_entries
@@ -56,7 +57,9 @@ for locale in LOCALES:
             for master_item in master_entries
             if master_item["observanceId"] == oid
         ), (locale, oid, "related")
-        assert item.get("lastReviewedAt") == "2026-10-12", (locale, oid)
+        assert item.get("lastReviewedAt") == master_by_id[oid]["lastReviewedAt"], (
+            locale, oid, "review_date",
+        )
         assert item.get("locale") == locale, (locale, oid)
 
 print(

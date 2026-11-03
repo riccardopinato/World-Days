@@ -119,3 +119,14 @@ A final CI run on the complete PR head is still required before squash merge.
 Phase C v1 content-understanding implementation is complete once the final PR head is green.
 
 The release blocking sequence is now E -> F -> I -> J -> K.
+
+
+## 2026-11-03 addendum (later than the original Phase C pilot)
+
+The 28-record reviewed baseline documented above is historical.
+The new detail overhaul proposes 29 reviewed entries and separates a
+universal source-backed facts card from the reviewed narrative.
+An unknown introduction year is explicitly shown as `*` rather than
+inferred from a recurrence rule. Existing Today metadata summaries are
+unmodified. The feature PR requires its own exact-head CI and source-review
+before merging; this addendum is not independent certification.

@@ -221,7 +221,13 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsWidgets);
-    expect(find.text('Verified overview'), findsOneWidget);
+    expect(find.text('At a glance'), findsOneWidget);
+    expect(find.text('Established'), findsOneWidget);
+    expect(find.text('*'), findsOneWidget);
+    // The narrative is lower in the lazy ListView; this saved-state
+    // regression only needs to assert the above-the-fold facts card.
+    expect(find.byKey(const ValueKey<String>('detail-facts-card')),
+        findsOneWidget);
     expect(find.text('Editorial article coming next'), findsNothing);
     expect(controller.isFavorite('global-test-day'), isTrue);
     expect(tester.takeException(), isNull);

@@ -85,7 +85,19 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 28);
+    expect(snapshot.editorialById.length, 29);
+    expect(
+      snapshot.byId['africa-industrialization-day']!.introducedYear,
+      1989,
+    );
+    expect(
+      snapshot.byId['world-water-day']!.introducedYear,
+      1992,
+    );
+    expect(
+      snapshot.editorialFor('africa-industrialization-day', 'it')!.origin,
+      isNotEmpty,
+    );
 
     for (final record in snapshot.records) {
       for (final locale in locales) {

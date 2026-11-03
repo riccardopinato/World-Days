@@ -180,5 +180,13 @@
   "verifiedOverviewNote": "Diese Übersicht verwendet nur verifizierte Metadaten des Datensatzes. Ausführlicher redaktioneller Kontext wird erst nach Quellenprüfung angezeigt.",
   "verifiedScopeGlobal": "Global",
   "verifiedScopeNational": "National",
-  "verifiedScopeRegional": "Regional"
+  "verifiedScopeRegional": "Regional",
+  "detailAtAGlance": "Auf einen Blick",
+  "dateOrPeriod": "Datum oder Zeitraum",
+  "introducedIn": "Eingeführt",
+  "introYearUnknown": "* Das Einführungsjahr ist durch die geprüften Quellen noch nicht belegt.",
+  "dateNotResolved": "Datum noch nicht bestätigt",
+  "detailStoryTitle": "Die Geschichte hinter diesem Tag",
+  "detailStoryFallback": "Hinter {title} steckt mehr als ein Datum im Kalender. 🌍 Es ist eine Gelegenheit, {topic}, die beteiligten Menschen und die wichtigen Fragen zu entdecken. Wo anfangen? Beim bestätigten Datum, der zuständigen Organisation und den Originalquellen unten. ✨",
+  "detailHistoryPending": "Der konkrete Ursprung und die historischen Meilensteine dieses Gedenktags werden noch anhand von Primärquellen geprüft. Wir benennen lieber offene Fragen, als Geschichte zu erfinden."
 }

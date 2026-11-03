@@ -97,14 +97,25 @@ final class AppController extends ChangeNotifier {
 
     try {
       final values = await Future.wait([
-        _catalogRepository.load(contentPack: contentPacks.activePayload),
+        _catalogRepository.load(),
         _preferencesRepository.load(),
       ]);
-      final loadedCatalog = values[0] as CatalogSnapshot;
+      final bundledCatalog = values[0] as CatalogSnapshot;
+      final stored = contentPacks.activePayload;
+      final storedVersion = contentPacks.activeManifest?.version;
+      // A previously downloaded, older pack must not shadow newly bundled
+      // reviewed history after an app upgrade. Keep the stored pack intact
+      // for explicit rollback; never migrate or delete user preferences.
+      final useStored = stored != null &&
+          !ContentPackManager.bundledIsNewerThanStored(
+            bundledCatalog.datasetVersion,
+            storedVersion,
+          );
+      final loadedCatalog = useStored
+          ? CatalogRepository.decodeContentPack(stored)
+          : bundledCatalog;
       _replaceCatalog(loadedCatalog);
-      if (contentPacks.activePayload == null) {
-        contentPacks.setBundledVersion(loadedCatalog.datasetVersion);
-      }
+      contentPacks.setBundledVersion(bundledCatalog.datasetVersion);
       preferences = values[1] as UserPreferences;
       await _updateStreak();
       _lastProjectedCivilDay = LocalCivilDay.key(DateTime.now());
