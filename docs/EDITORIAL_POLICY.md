@@ -139,3 +139,30 @@ pass and protected-main merge as necessary acceptance conditions.
 The remaining **266** unexpanded histories and **290** unverified
 establishment years continue to display transparent fallback rather
 than invented claims.
+
+
+## UN/UNESCO source-backed batch 02 — 2026-11-03
+
+Research batch: `data/editorial/batches/un_primary_2026_11_03_02.json`.
+**14 independently documented establishment years**, including
+1981 → 2001 for the International Day of Peace and 1948 → 1950 for
+Human Rights Day. These years are attached to individual institutional
+documents, not inferred from resolution numbering. The batch adds
+**11 original long-form narratives** and source-grounded history
+to 3 existing articles, with distinct text in all 6 languages.
+
+Editorial coverage after acceptance: **41/296**; the other **255**
+still need individual research and translation before we may close
+issue #47. Source-backed establishment dates: **20/296**; unknown
+**276/296** remain displayed as `*`. Never convert an unknown
+into a guessed year.
+
+The new research file keeps per-entry traceable sources, reviewed dates,
+primary-source history and corresponding translations in one location.
+`tool/validate_editorial_batch.py` validates source host, dates,
+six-locale parity and key chronology distinctions. Automated checks
+can catch omissions but do not replace independent human editorial
+review or live verification of every external source's availability.
+
+Content catalog revision `2026.11.03.3` must be monotonic.
+User data, favorites, ads consent and purchase state must remain unchanged.

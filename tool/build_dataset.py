@@ -539,6 +539,19 @@ INTRODUCTION_EVIDENCE = {
     'world-oceans-day': (2008, 'https://www.un.org/en/observances/oceans-day/background'),
     'world-wildlife-day': (2013, 'https://www.un.org/en/node/56929'),
 }
+# Research-controlled expansion: every new year must cite an original
+# authority page or resolution independently from the recurring date.
+SOURCE_BATCH = json.loads(
+    (Path(__file__).resolve().parents[1] /
+     'data/editorial/batches/un_primary_2026_11_03_02.json').read_text(encoding='utf-8')
+)
+for item in SOURCE_BATCH['establishment']:
+    oid = item['id']
+    assert oid not in INTRODUCTION_EVIDENCE, (
+        'duplicate establishment evidence', oid,
+    )
+    INTRODUCTION_EVIDENCE[oid] = (item['year'], item['source'])
+
 for record in records:
     evidence = INTRODUCTION_EVIDENCE.get(record['id'])
     if evidence is None:
@@ -728,7 +741,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.03.2',
+ 'datasetVersion':'2026.11.03.3',
  'generatedAt':'2026-11-03',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),

@@ -201,10 +201,54 @@ for item in entries:
     if item['observanceId'] in ["international-day-of-education","world-environment-day","world-oceans-day","world-wildlife-day"]:
         item['lastReviewedAt'] = '2026-11-03'
 
+# Second primary-source editorial batch: independently sourced historical
+# claims and original prose in six locales. No user data or remote AI.
+BATCH = json.loads(
+    (ROOT / 'data/editorial/batches/un_primary_2026_11_03_02.json').read_text(encoding='utf-8')
+)
+existing = {item['observanceId']: item for item in entries}
+for row in BATCH['entries']:
+    oid = row['id']
+    english = row['translations']['en']
+    item = existing.get(oid)
+    if item is None:
+        required = ('summary', 'whyItMatters', 'waysToTakePart')
+        assert all(field in english for field in required), oid
+        item = e(
+            oid,
+            english['summary'],
+            english['whyItMatters'],
+            english['waysToTakePart'],
+            hook=english.get('hook', ''),
+            why_this_date=english.get('whyThisDate', ''),
+            origin=english.get('origin', ''),
+            quick_facts=english.get('quickFacts', []),
+            related_ids=english.get('relatedObservanceIds', []),
+        )
+        entries.append(item)
+        existing[oid] = item
+    else:
+        # Updates retain the previous reviewed summary/action paragraphs
+        # when the source batch only adds a researched chronology.
+        for field, value in english.items():
+            if field in (
+                'hook', 'summary', 'whyThisDate', 'origin',
+                'whyItMatters', 'quickFacts', 'waysToTakePart',
+                'relatedObservanceIds',
+            ):
+                item[field] = value
+    item['lastReviewedAt'] = BATCH['reviewedAt']
+    matched = next(x for x in BATCH['establishment'] if x['id'] == oid)
+    item['sourcePolicy'] = (
+        'Primary institutional history: ' + matched['source'] +
+        '. Original editorial writing; historical years and milestones '
+        'must remain traceable to the canonical record.'
+    )
+
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.11.03.2',
+    'datasetVersion': '2026.11.03.3',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),

@@ -18,7 +18,7 @@ ids = [item.get('observanceId') for item in entries]
 assert editorial.get('schemaVersion') == 2
 assert editorial.get('locale') == 'en'
 assert editorial.get('entryCount') == len(entries)
-assert len(entries) >= 28, f"editorial coverage unexpectedly low: {len(entries)}"
+assert len(entries) == 41, f"editorial coverage mismatch: {len(entries)}"
 assert len(ids) == len(set(ids)), 'duplicate editorial ids'
 assert set(ids).issubset(known), f"unknown editorial ids: {sorted(set(ids) - known)}"
 
@@ -59,13 +59,17 @@ for item in entries:
     assert len(related) == len(set(related)), oid
     assert set(related).issubset(known), (oid, sorted(set(related) - known))
     assert oid not in related, oid
+    current_batch = json.loads(
+        (ROOT / 'data/editorial/batches/un_primary_2026_11_03_02.json').read_text(encoding='utf-8')
+    )
+    source_batch_ids = {row['id'] for row in current_batch['entries']}
+    previous_batch_ids = {
+        'africa-industrialization-day', 'world-water-day',
+        'international-day-of-education', 'world-environment-day',
+        'world-oceans-day', 'world-wildlife-day',
+    }
     expected_review = (
-        '2026-11-03'
-        if oid in {
-            'africa-industrialization-day', 'world-water-day',
-            'international-day-of-education', 'world-environment-day',
-            'world-oceans-day', 'world-wildlife-day',
-        }
+        '2026-11-03' if oid in (source_batch_ids | previous_batch_ids)
         else '2026-10-12'
     )
     assert item.get('lastReviewedAt') == expected_review, oid

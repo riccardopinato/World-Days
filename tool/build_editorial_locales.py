@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "data" / "editorial" / "translations"
+SOURCE_BATCH_PATH = ROOT / "data" / "editorial" / "batches" / "un_primary_2026_11_03_02.json"
 ASSET_DIR = ROOT / "assets" / "data"
 MASTER_PATH = ASSET_DIR / "editorial_en.json"
 LOCALES = ("it", "es", "fr", "de", "pt")
@@ -21,6 +22,17 @@ def source_entries(locale: str):
         payload = load_json(path)
         assert payload.get("locale") == locale, path
         merged.extend(payload.get("entries", []))
+    batch = load_json(SOURCE_BATCH_PATH)
+    by_id = {item['observanceId']: item for item in merged}
+    for row in batch['entries']:
+        translated = row['translations'][locale]
+        oid = row['id']
+        if oid in by_id:
+            by_id[oid].update(translated)
+        else:
+            item = {'observanceId': oid, **translated}
+            merged.append(item)
+            by_id[oid] = item
     return merged
 
 
@@ -57,10 +69,9 @@ def main():
                     if value.strip()
                 ],
                 "waysToTakePart": [value.strip() for value in item["waysToTakePart"]],
-                "relatedObservanceIds": [
-                    value.strip() for value in item.get("relatedObservanceIds", [])
-                    if value.strip()
-                ],
+                "relatedObservanceIds": list(
+                    master_by_id[observance_id].get("relatedObservanceIds", [])
+                ),
                 "lastReviewedAt": master_by_id[observance_id]["lastReviewedAt"],
                 "sourcePolicy": "Translation of the reviewed English editorial master; factual claims remain governed by the canonical observance sources.",
             })
@@ -68,7 +79,7 @@ def main():
         payload = {
             "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.11.03.2",
+            "datasetVersion": "2026.11.03.3",
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),

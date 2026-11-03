@@ -432,3 +432,19 @@ World Days is publishable only when the **same exact candidate** satisfies:
   main, then verify Web/Android and update issue #47.
 - [ ] Continue further batches of source-audited stories until 296/296,
   not generic machine-generated filler.
+
+
+## Editorial + discovery implementation — 2026-11-03 (PR pending)
+
+- Source-backed research batch 02 proposes 11 additional histories
+  and 14 first-party founding-year citations; expected coverage
+  **41/296 stories, 20/296 establishment years** after acceptance.
+- Every one of the 296 detail pages gains a deterministic
+  “Related observances” continuation section, prioritizing topic
+  relevance and source-reviewed articles, without new tracking or
+  extra advertising slots. Every user-initiated navigation is voluntary.
+- No unsourced date/year is added. **255 stories and 276 years**
+  are still incomplete and remain issue #47 work.
+- After CI: protected-main review/merge, remote Web content smoke,
+  strict-lock Android ARM64 compilation, device accessibility QA and
+  retention measurement only with privacy-compliant analytics.
