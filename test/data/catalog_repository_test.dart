@@ -85,7 +85,41 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 41);
+    expect(snapshot.editorialById.length, 56);
+    for (final item in <String, int>{
+      'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
+      'international-day-of-clean-energy': 2023,
+      'world-interfaith-harmony-week': 2010,
+      'world-radio-day': 2011,
+      'world-day-of-social-justice': 2007,
+      'international-day-of-forests': 2012,
+      'international-day-for-the-elimination-of-racial-discrimination': 1966,
+      'world-poetry-day': 1999,
+      'world-down-syndrome-day': 2011,
+      'international-day-of-zero-waste': 2022,
+      'international-day-of-sport-for-development-and-peace': 2013,
+      'world-book-and-copyright-day': 1995,
+      'world-press-freedom-day': 1993,
+      'world-bee-day': 2017,
+      'international-jazz-day': 2011,
+    }.entries) {
+      final record = snapshot.byId[item.key]!;
+      expect(record.introducedYear, item.value);
+      expect(record.introducedYearSource, isNotEmpty);
+      expect(record.sources.map((source) => source.url),
+          contains(record.introducedYearSource));
+      final english = snapshot.editorialFor(item.key, 'en')!;
+      expect(english.origin, isNotEmpty);
+      expect(english.relatedObservanceIds, isNotEmpty);
+      for (final locale in <String>['it', 'es', 'fr', 'de', 'pt']) {
+        final copy = snapshot.editorialFor(item.key, locale)!;
+        expect(copy.locale, locale);
+        expect(copy.summary, isNotEmpty);
+        expect(copy.origin, isNot(english.origin));
+        expect(copy.waysToTakePart, hasLength(2));
+        expect(copy.relatedObservanceIds, english.relatedObservanceIds);
+      }
+    }
     for (final item in <String, int>{
       'international-mother-language-day': 1999,
       'international-day-of-happiness': 2012,

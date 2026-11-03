@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = ROOT / "data" / "editorial" / "translations"
 SOURCE_BATCH_PATH = ROOT / "data" / "editorial" / "batches" / "un_primary_2026_11_03_02.json"
+WAVE03_PATH = ROOT / 'data/editorial/batches/un_primary_2026_11_03_03.json'
 ASSET_DIR = ROOT / "assets" / "data"
 MASTER_PATH = ASSET_DIR / "editorial_en.json"
 LOCALES = ("it", "es", "fr", "de", "pt")
@@ -33,6 +34,14 @@ def source_entries(locale: str):
             item = {'observanceId': oid, **translated}
             merged.append(item)
             by_id[oid] = item
+    wave03 = load_json(WAVE03_PATH)
+    for row in wave03['entries']:
+        oid = row['id']
+        assert oid not in by_id, ('wave03_duplicate', oid)
+        translated = row['translations'][locale]
+        item = {'observanceId': oid, **translated}
+        merged.append(item)
+        by_id[oid] = item
     return merged
 
 
@@ -79,7 +88,7 @@ def main():
         payload = {
             "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.11.03.3",
+            "datasetVersion": "2026.11.03.4",
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),

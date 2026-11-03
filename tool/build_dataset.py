@@ -552,6 +552,15 @@ for item in SOURCE_BATCH['establishment']:
     )
     INTRODUCTION_EVIDENCE[oid] = (item['year'], item['source'])
 
+# Source-backed introduction years from wave03.
+WAVE03 = json.loads(
+    (Path(__file__).resolve().parents[1] / 'data/editorial/batches/un_primary_2026_11_03_03.json').read_text(encoding='utf-8')
+)
+for item in WAVE03['entries']:
+    oid = item['id']
+    assert oid not in INTRODUCTION_EVIDENCE, ('wave03_duplicate', oid)
+    INTRODUCTION_EVIDENCE[oid] = (item['year'], item['source'])
+
 for record in records:
     evidence = INTRODUCTION_EVIDENCE.get(record['id'])
     if evidence is None:
@@ -741,7 +750,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.03.3',
+ 'datasetVersion':'2026.11.03.4',
  'generatedAt':'2026-11-03',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),

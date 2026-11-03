@@ -245,10 +245,33 @@ for row in BATCH['entries']:
         'must remain traceable to the canonical record.'
     )
 
+# Individually researched original stories, with five native translations.
+WAVE03 = json.loads(
+    (ROOT / 'data/editorial/batches/un_primary_2026_11_03_03.json').read_text(encoding='utf-8')
+)
+existing_ids = {item['observanceId'] for item in entries}
+for row in WAVE03['entries']:
+    oid = row['id']
+    assert oid not in existing_ids, ('duplicate_wave03', oid)
+    eng = row['translations']['en']
+    item = e(
+        oid, eng['summary'], eng['whyItMatters'], eng['waysToTakePart'],
+        hook=eng['hook'], why_this_date=eng['whyThisDate'],
+        origin=eng['origin'], quick_facts=eng.get('quickFacts', []),
+        related_ids=eng.get('relatedObservanceIds', []),
+    )
+    item['lastReviewedAt'] = WAVE03['reviewedAt']
+    item['sourcePolicy'] = (
+        'Institutional historical source: ' + row['source'] +
+        '. Founding year distinguished from commemorated milestones.'
+    )
+    entries.append(item)
+    existing_ids.add(oid)
+
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.11.03.3',
+    'datasetVersion': '2026.11.03.4',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),
