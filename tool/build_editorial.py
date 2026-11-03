@@ -163,9 +163,15 @@ entries.append(e(
     quick_facts=["The Organization of African Unity and the UN General Assembly recognized the day in 1989.","The observance falls on 20 November every year."],
 ))
 
+for item in entries:
+    if item['observanceId'] == 'africa-industrialization-day':
+        item['lastReviewedAt'] = '2026-11-03'
+        break
+
 # World Water Day: 1992 proclamation is distinct from first observance 1993.
 for item in entries:
     if item['observanceId'] == 'world-water-day':
+        item['lastReviewedAt'] = '2026-11-03'
         item['hook'] = "One simple glass of water has a story much bigger than the tap. 💧"
         item['origin'] = "The idea for a worldwide water observance emerged from the 1992 United Nations Conference on Environment and Development. On 22 December 1992, the UN General Assembly adopted resolution A/RES/47/193 and designated 22 March as World Water Day, beginning with its first observance in 1993."
         item['whyThisDate'] = "UN General Assembly resolution A/RES/47/193 explicitly chose 22 March, beginning in 1993."
@@ -174,7 +180,7 @@ for item in entries:
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.10.15.2',
+    'datasetVersion': '2026.11.03.1',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),

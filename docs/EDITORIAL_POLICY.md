@@ -86,3 +86,14 @@ timeline for World Water Day.
   fact/editorial separation, source provenance, translation parity and
   human review contract. No new persistent state or unverified import engine
   was introduced; the Golden remains a draft, not a certification.
+
+
+## 2026-11-03 content delivery/versioning
+
+The generated canonical catalog, six editorial packs and remote content
+manifest now carry revision `2026.11.03.1`, a numeric bump from
+`2026.10.14.1`. The review timestamps of Africa Industrialization Day and
+World Water Day are `2026-11-03`, while the other 27 articles retain
+their original `2026-10-12` review dates. Six-locale validators compare
+each translation's date to its English source; they do not silently
+claim that older articles received a new review.

@@ -224,6 +224,11 @@ void main() {
     expect(find.text('At a glance'), findsOneWidget);
     expect(find.text('Established'), findsOneWidget);
     expect(find.text('*'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('The story behind this day'),
+      250,
+      scrollable: find.byType(Scrollable).last,
+    );
     expect(find.text('The story behind this day'), findsOneWidget);
     expect(find.text('Editorial article coming next'), findsNothing);
     expect(controller.isFavorite('global-test-day'), isTrue);
