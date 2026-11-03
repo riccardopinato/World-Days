@@ -180,5 +180,13 @@
   "verifiedOverviewNote": "Este resumen utiliza únicamente metadatos verificados del registro. El contexto editorial más amplio solo se muestra después de revisar las fuentes.",
   "verifiedScopeGlobal": "Global",
   "verifiedScopeNational": "Nacional",
-  "verifiedScopeRegional": "Regional"
+  "verifiedScopeRegional": "Regional",
+  "detailAtAGlance": "En pocas palabras",
+  "dateOrPeriod": "Fecha o período",
+  "introducedIn": "Instituido en",
+  "introYearUnknown": "* El año de institución aún no está confirmado por las fuentes revisadas.",
+  "dateNotResolved": "Fecha aún no verificada",
+  "detailStoryTitle": "La historia detrás de este día",
+  "detailStoryFallback": "Detrás de {title} hay más que una fecha en el calendario. 🌍 Es una oportunidad para descubrir {topic}, las personas implicadas y las preguntas que importan. ¿Por dónde empezar? Por la fecha verificada, la entidad organizadora y las fuentes originales. ✨",
+  "detailHistoryPending": "El origen y los hitos históricos concretos de esta conmemoración siguen en revisión con fuentes primarias. Preferimos indicar lo desconocido a inventar una historia."
 }

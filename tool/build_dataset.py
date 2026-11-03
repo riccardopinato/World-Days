@@ -524,6 +524,31 @@ for market_record in MARKET_RECORDS:
         raise ValueError('duplicate id ' + market_record['id'])
     records.append(market_record)
 
+# Verified establishment years are independent from the date of first
+# celebration and must link to a specifically reviewed primary document.
+# Unknown years remain absent and render as '*' in all six app locales.
+INTRODUCTION_EVIDENCE = {
+    'africa-industrialization-day': (
+        1989, 'https://www.un.org/en/observances/africa-industrialization-day',
+    ),
+    'world-water-day': (
+        1992, 'https://digitallibrary.un.org/record/159180?ln=en',
+    ),
+}
+for record in records:
+    evidence = INTRODUCTION_EVIDENCE.get(record['id'])
+    if evidence is None:
+        continue
+    year, url = evidence
+    record['introducedYear'] = year
+    record['introducedYearSource'] = url
+    if not any(item['url'] == url for item in record['sources']):
+        record['sources'].append({
+            'tier': 'A_PRIMARY',
+            'url': url,
+            'verifiedAt': '2026-11-03',
+        })
+
 # SEMANTIC CATEGORY NORMALIZATION
 # Categories describe subject matter and are intentionally independent from
 # visualKey, which controls artwork only.

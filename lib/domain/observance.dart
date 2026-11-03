@@ -58,6 +58,8 @@ final class Observance {
     this.visualKey,
     this.editorialStatus,
     this.lastVerifiedAt,
+    this.introducedYear,
+    this.introducedYearSource,
   });
 
   final String id;
@@ -75,6 +77,10 @@ final class Observance {
   final String? visualKey;
   final String? editorialStatus;
   final String? lastVerifiedAt;
+
+  /// Source-verified year of formal introduction/proclamation, not first event.
+  final int? introducedYear;
+  final String? introducedYearSource;
 
   String titleForLocale(String? localeCode) {
     final normalized = (localeCode ?? '')
@@ -127,6 +133,10 @@ final class Observance {
         visualKey: json['visualKey']?.toString(),
         editorialStatus: json['editorialStatus']?.toString(),
         lastVerifiedAt: json['lastVerifiedAt']?.toString(),
+        introducedYear: json['introducedYear'] is int
+            ? json['introducedYear'] as int
+            : null,
+        introducedYearSource: json['introducedYearSource']?.toString(),
       );
 }
 

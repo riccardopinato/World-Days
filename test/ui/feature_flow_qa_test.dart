@@ -221,7 +221,10 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Global Test Day'), findsWidgets);
-    expect(find.text('Verified overview'), findsOneWidget);
+    expect(find.text('At a glance'), findsOneWidget);
+    expect(find.text('Established'), findsOneWidget);
+    expect(find.text('*'), findsOneWidget);
+    expect(find.text('The story behind this day'), findsOneWidget);
     expect(find.text('Editorial article coming next'), findsNothing);
     expect(controller.isFavorite('global-test-day'), isTrue);
     expect(tester.takeException(), isNull);

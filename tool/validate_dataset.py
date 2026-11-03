@@ -61,6 +61,22 @@ for item in occ.get('occurrences', []):
     assert key not in occurrence_keys, ('duplicate occurrence', key)
     occurrence_keys.add(key)
 for record in records:
+    introduced_year = record.get('introducedYear')
+    introduced_source = record.get('introducedYearSource')
+    if introduced_year is not None:
+        assert type(introduced_year) is int and 1800 <= introduced_year <= 2026, (
+            'invalid introduction year', record.get('id'),
+        )
+        assert isinstance(introduced_source, str) and introduced_source.startswith('https://'), (
+            'introduction year missing primary evidence', record.get('id'),
+        )
+        assert introduced_source in [item.get('url') for item in record.get('sources', [])], (
+            'introduction evidence not in canonical sources', record.get('id'),
+        )
+    else:
+        assert introduced_source is None, (
+            'unsourced introduction year URL', record.get('id'),
+        )
     assert record.get('sources'), f"missing sources: {record.get('id')}"
     assert str(record.get('lastVerifiedAt') or '').strip(), (
         'missing lastVerifiedAt',
