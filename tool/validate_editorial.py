@@ -61,7 +61,11 @@ for item in entries:
     assert oid not in related, oid
     expected_review = (
         '2026-11-03'
-        if oid in {'africa-industrialization-day', 'world-water-day'}
+        if oid in {
+            'africa-industrialization-day', 'world-water-day',
+            'international-day-of-education', 'world-environment-day',
+            'world-oceans-day', 'world-wildlife-day',
+        }
         else '2026-10-12'
     )
     assert item.get('lastReviewedAt') == expected_review, oid
