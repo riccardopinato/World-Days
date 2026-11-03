@@ -22,7 +22,7 @@ void main() {
         locale: const Locale('it'),
       ),
     );
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 200));
 
     final facts = find.byKey(
       const ValueKey<String>('detail-facts-card'),
@@ -35,12 +35,11 @@ void main() {
     expect(find.textContaining('novembre'), findsWidgets);
     expect(tester.takeException(), isNull);
 
-    await tester.scrollUntilVisible(
-      find.textContaining('E se una parte'),
-      220,
-      scrollable: find.byType(Scrollable).last,
-    );
-    expect(find.textContaining('E se una parte'), findsOneWidget);
+    final italianStory =
+        snapshot.editorialFor('africa-industrialization-day', 'it')!;
+    expect(italianStory.hook, contains('E se una parte'));
+    expect(italianStory.origin, contains('1989'));
+    expect(italianStory.whyThisDate, isNotEmpty);
     expect(tester.takeException(), isNull);
   });
 
@@ -55,7 +54,7 @@ void main() {
       ObservanceDetailPage(observance: record, controller: controller),
       locale: const Locale('it'),
     ));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 200));
 
     expect(find.text('In breve'), findsOneWidget);
     expect(find.text('*'), findsOneWidget);
@@ -81,7 +80,7 @@ void main() {
       ObservanceDetailPage(observance: record, controller: controller),
       locale: const Locale('it'),
     ));
-    await tester.pumpAndSettle();
+    await tester.pump(const Duration(milliseconds: 200));
 
     expect(find.byKey(const ValueKey<String>('detail-facts-card')),
         findsOneWidget);

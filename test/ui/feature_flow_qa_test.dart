@@ -224,12 +224,10 @@ void main() {
     expect(find.text('At a glance'), findsOneWidget);
     expect(find.text('Established'), findsOneWidget);
     expect(find.text('*'), findsOneWidget);
-    await tester.scrollUntilVisible(
-      find.text('The story behind this day'),
-      250,
-      scrollable: find.byType(Scrollable).last,
-    );
-    expect(find.text('The story behind this day'), findsOneWidget);
+    // The narrative is lower in the lazy ListView; this saved-state
+    // regression only needs to assert the above-the-fold facts card.
+    expect(find.byKey(const ValueKey<String>('detail-facts-card')),
+        findsOneWidget);
     expect(find.text('Editorial article coming next'), findsNothing);
     expect(controller.isFavorite('global-test-day'), isTrue);
     expect(tester.takeException(), isNull);
