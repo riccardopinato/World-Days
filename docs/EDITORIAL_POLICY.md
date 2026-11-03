@@ -183,3 +183,33 @@ time and ad revenue are hypotheses** until validated by actual
 privacy-compliant product metrics after Play release. Never count
 filler copy as reviewed content or add interstitials merely to increase
 impressions.
+
+
+## Original historical stories, Wave 03 — 2026-11-03
+
+Source file `data/editorial/batches/un_primary_2026_11_03_03.json`
+provides **15 distinct, researched founding histories** with original
+long-form EN and localized IT/ES/FR/DE/PT:
+Holocaust commemoration, Clean Energy, Interfaith Harmony Week,
+Radio, Social Justice, Forests, Elimination of Racial Discrimination,
+Poetry, Down Syndrome, Zero Waste, Sport for Peace, Books and Copyright,
+Press Freedom, Bees, Jazz. Each story includes a unique hook,
+historical origin, why this calendar date, why it matters and two
+concrete ways to learn or participate.
+
+Important chronology distinctions:
+- Auschwitz-Birkenau liberated in 1945; UN remembrance day 2005.
+- IRENA founded in 2009; clean energy day proclaimed 2023.
+- Sharpeville massacre in 1960; anti-racism day proclaimed 1966.
+- Windhoek Declaration in 1991; press-freedom day in 1993.
+- Birth of Anton Janša in 1734; World Bee Day founded 2017.
+- UNESCO Radio Day 2011; UN endorsement 2012; UN Radio founded 1946.
+
+Every listed introduction year has a supporting institutional URL,
+also incorporated as a visible source on the corresponding observance.
+Numeric content revision `2026.11.03.4`; localized parity and
+chronological milestones are automatically checked. New coverage after
+CI and protected-main merge: **56/296 researched histories** and
+**35/296 source-backed introduction years**. The remaining **240**
+unresearched stories and **261** unknown years remain open; no
+generic filler qualifies as a completed historical article.

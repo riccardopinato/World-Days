@@ -448,3 +448,15 @@ World Days is publishable only when the **same exact candidate** satisfies:
 - After CI: protected-main review/merge, remote Web content smoke,
   strict-lock Android ARM64 compilation, device accessibility QA and
   retention measurement only with privacy-compliant analytics.
+
+
+## Wave 03 — research and localization acceptance gate (2026-11-03)
+
+- [ ] Accept 15 new factual historical narratives in six languages,
+  each with a distinct institutional source and dated timeline.
+- [ ] Pass dedicated `tool/validate_editorial_wave03.py`, full
+  catalog/translation validation, all Flutter tests, Rome DST and Web.
+- [ ] Merge only via protected main; verify current source SHA's Web
+  content pack and ARM64 Android artifact independently.
+- [ ] Continue remaining **240/296** sourced histories and
+  **261/296** unverified establishment years through issue #47.
