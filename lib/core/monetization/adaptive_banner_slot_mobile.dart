@@ -146,10 +146,12 @@ class _AdaptiveBannerSlotState extends State<AdaptiveBannerSlot> {
             '${error.code} ${error.domain} ${error.message}',
           );
           _finishPending(generation);
-          if (mounted) setState(() {
-            _banner = null;
-            _size = null;
-          });
+          if (mounted) {
+            setState(() {
+              _banner = null;
+              _size = null;
+            });
+          }
         },
       ),
     );
