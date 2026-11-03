@@ -12,6 +12,12 @@ All notable user-facing and release-relevant changes to World Days are recorded 
 - Verified remote content-pack update/rollback flow.
 
 ### Changed
+
+- Civil-day calculations now advance by local calendar dates across March/October DST, rather than adding fixed 24-hour durations; Today refreshes on local midnight and app resume.
+- Anchored adaptive banner requests revalidate ad eligibility through asynchronous loading; revoking consent or activating Remove Ads invalidates stale requests.
+- Remote content manifests are bounded (64 KiB), remote redirects are rejected and older numeric catalog versions cannot silently replace newer installed versions.
+- The current Flutter lockfile is preserved during native platform bootstrapping, with strict pre/post-bootstrap Android admission.
+
 - V1 scope is Android-first with Flutter Web Preview; iOS production release is post-v1.
 - V1 advertising is limited to the safe top anchored adaptive banner.
 - First-party analytics/event collection is deferred beyond v1.
@@ -20,6 +26,13 @@ All notable user-facing and release-relevant changes to World Days are recorded 
 - Privacy Policy now documents Google Play Billing and mobile GitHub Pages catalog-update requests.
 
 ### Quality
+- Integrated [PR #44](https://github.com/riccardopinato/World-Days/pull/44)
+  into protected `main` with 104 Flutter plus 9 Europe/Rome DST
+  regression tests on the integrated candidate.
+- Added real ObservanceCard responsive/large-text visual tests and
+  focus-traversal assertions for standard phone and desktop navigation.
+- Added production fail-closed GitHub ruleset preflight and independent
+  APK/AAB checksum/manifest verifier; physical/store QA remains separate.
 - Expanded automated coverage to 80 Flutter tests before Phase I.
 - Added full-catalog recurrence, content, retention, billing, remote-content and responsive/accessibility regressions.
 - Added machine-readable exact-artifact manifests for signed QA/production APK+AAB outputs.

@@ -5,29 +5,40 @@ Execution truth for the repository. Product scope remains governed by `docs/PROD
 Audit baseline (historical): `245f82148c1ca5ceee0977b82bf51a21b5b76a12`  
 Full historical audit: `docs/AUDIT_2026-10-15_POST_PHASE_G.md`
 
-## Execution refresh — 2026-11-03
+## Execution refresh — 2026-11-03, post-PR #44
 
-Current `main`: `474fdc405217bf05ab28bd250b2e613c86e0506e`,
-version `0.4.0+4`. [Development checks #41555187283](https://github.com/riccardopinato/World-Days/actions/runs/41555187283)
-passed **84 Flutter tests**, Flutter analyze, Web and Android ARM64.
-Web deploy #41555187317 passed. Main remains **NOT Store Ready**.
+**Source stabilization integrated, NOT STORE CERTIFIED.**
 
-Proposed/unmerged streams (no release claims):
-- PR #39: DST-safe local civil days/Today refresh, 89 Flutter tests +
-  9 Europe/Rome dedicated tests PASS on its own head.
-- PR #40: AdMob consent race, content manifest boundary, version rollback
-  protection and source lock preservation. Exact-head CI status must be checked.
-- PR #41: Design-App responsive Visual QA + standard navigation focus order.
-  Requires latest-head CI; physical accessibility remains Phase J.
-- PR #42: release manifest byte verifier and deterministic blocked physical
-  QA handoff templates (not signed artifact or physical evidence).
+- [PR #44](https://github.com/riccardopinato/World-Days/pull/44) was
+  squash-merged through the active protected-main ruleset. The exact
+  stabilization commit is `7c67f553b371d5b5e7a1d04b629d8ef7aa3a6dbe`
+  and the source version remains `0.4.0+4`.
+- The previous separate PRs #39–#42 were closed as superseded, not
+  independently merged again.
+- [Main branch protection #37](https://github.com/riccardopinato/World-Days/issues/37)
+  has been **verified active and closed**: ruleset #26445843 targets the
+  default `main` branch, requires PR with resolved conversations,
+  up-to-date `validate` checks, blocks force-push/deletion and has
+  no bypass.
+- The integrated candidate's [Development checks #41630766103](https://github.com/riccardopinato/World-Days/actions/runs/41630766103)
+  passed **104 Flutter + 9 Europe/Rome DST** tests, Flutter analyze and
+  Web release; [Android admission #41630765848](https://github.com/riccardopinato/World-Days/actions/runs/41630765848)
+  passed strict pre/post-scaffold dependency lock and ARM64 compile.
+- Post-merge main [Development checks #41637425080](https://github.com/riccardopinato/World-Days/actions/runs/41637425080)
+  and [Deploy Web Preview #41637424946](https://github.com/riccardopinato/World-Days/actions/runs/41637424946)
+  are the **separate authoritative post-merge gates**. Always inspect
+  their final conclusions and artifacts; a PR's green check cannot
+  be substituted for post-merge source certification.
 
-Main branch protection remains absent (issue #37), and the Play purchase,
-device notification/widget, signed exact-candidate and final store gates remain
-OPEN. Do not merge any PR by bypassing governance or claim user-device PASS.
+**Critical path remains Phase E → F → J → K**, tracked in
+[release issue #43](https://github.com/riccardopinato/World-Days/issues/43):
+Play Billing sandbox, exact-source signed APK/AAB, Android physical
+notifications/widget/UX QA, AdMob domain-root app-ads.txt and official
+Play Console declarations. None is closed by internal non-production
+ARM64 build evidence.
 
-The older October evidence below remains historical, not current-head release
-certification.
+The older October evidence below remains **historical**. Do not use
+it as exact-head Store release certification.
 
 ## Current release state
 

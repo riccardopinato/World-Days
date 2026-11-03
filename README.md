@@ -8,6 +8,23 @@ World Days is an English-first, multilingual Flutter consumer app for internatio
 ### Localized observance titles
 World Days keeps stable canonical observance IDs while displaying all 296 current titles in English, Italian, Spanish, French, German and Portuguese. The title packs are static and bundled at build time, so language switching and search stay fully offline. Search accepts both localized and canonical English titles.
 
+## Delivery status — 3 November 2026
+
+The scoped stabilization changes from
+[PR #44](https://github.com/riccardopinato/World-Days/pull/44)
+are merged on protected `main`. Automated Flutter tests, timezone
+regressions and Web/Android build checks are distinct from production
+release certification.
+
+**World Days is NOT yet published/certified.** The next external
+release gates are tracked in
+[issue #43](https://github.com/riccardopinato/World-Days/issues/43):
+a Play-installed test AAB, one-time Remove Ads purchase/restore,
+exact-source signed artifact, real Android notification/widget tests,
+AdMob verification and Play Data Safety/Store metadata. A release
+must not be tagged until these are recorded against the identical
+source/artifact hashes.
+
 ## Current implementation
 
 The foundation references App Factory baseline `47c47f49a7b46812e3bd6f1231c3524f2b52b826` (Master v26.6 / Golden Index v18). The Golden v28 CivilDate reference was integrated as a scoped, byte-identical vendored source pilot in PR #38; this is **not** a full migration of every app subsystem to Factory v28.
