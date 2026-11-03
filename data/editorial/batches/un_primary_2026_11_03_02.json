@@ -1,0 +1,341 @@
+{
+  "batchId": "UN-PRIMARY-2026-11-03-02",
+  "reviewedAt": "2026-11-03",
+  "datasetVersion": "2026.11.03.3",
+  "establishment": [
+    {
+      "id": "international-mother-language-day",
+      "year": 1999,
+      "source": "https://www.unesco.org/en/days/mother-language"
+    },
+    {
+      "id": "international-day-of-happiness",
+      "year": 2012,
+      "source": "https://www.un.org/observances/happiness-day"
+    },
+    {
+      "id": "world-autism-awareness-day",
+      "year": 2007,
+      "source": "https://www.un.org/en/observances/autism-day"
+    },
+    {
+      "id": "international-day-of-families",
+      "year": 1993,
+      "source": "https://digitallibrary.un.org/record/177297"
+    },
+    {
+      "id": "world-refugee-day",
+      "year": 2000,
+      "source": "https://digitallibrary.un.org/record/428904"
+    },
+    {
+      "id": "international-youth-day",
+      "year": 1999,
+      "source": "https://www.un.org/development/desa/youth/what-we-do-/international-youth-day.html"
+    },
+    {
+      "id": "international-day-of-peace",
+      "year": 1981,
+      "source": "https://www.un.org/en/peaceandsecurity/the-history-of-the-international-day-of-peace"
+    },
+    {
+      "id": "international-day-of-democracy",
+      "year": 2007,
+      "source": "https://digitallibrary.un.org/record/611350"
+    },
+    {
+      "id": "international-day-of-older-persons",
+      "year": 1990,
+      "source": "https://www.un.org/en/observances/older-persons-day"
+    },
+    {
+      "id": "human-rights-day",
+      "year": 1950,
+      "source": "https://mandates.un.org/mandate/A/RES/423%28V%29"
+    },
+    {
+      "id": "international-day-of-persons-with-disabilities",
+      "year": 1992,
+      "source": "https://www.un.org/en/observances/day-of-persons-with-disabilities/background"
+    },
+    {
+      "id": "international-volunteer-day-for-economic-and-social-development",
+      "year": 1985,
+      "source": "https://www.un.org/en/observances/volunteer-day/background"
+    },
+    {
+      "id": "international-anti-corruption-day",
+      "year": 2003,
+      "source": "https://digitallibrary.un.org/record/505186?ln=en"
+    },
+    {
+      "id": "international-literacy-day",
+      "year": 1966,
+      "source": "https://www.unesco.org/en/days/literacy"
+    }
+  ],
+  "entries": [
+    {
+      "id": "international-mother-language-day",
+      "translations": {
+        "en": {
+          "hook": "A language is more than words: it's a way to carry memories forward. 🗣️",
+          "summary": "On 21 February, International Mother Language Day celebrates the languages through which people learn, connect and keep cultural knowledge alive. Every language carries stories, expressions and ways of understanding the world. When a community loses access to its language in school or public life, it can also lose a voice in its own future.",
+          "origin": "Bangladesh proposed an international day dedicated to mother languages, and UNESCO's General Conference approved it in 1999. The first worldwide observance followed in 2000. The date remembers the 1952 Bengali Language Movement, when protesters in what is now Bangladesh were killed while defending recognition for their language. This historical origin is distinct from UNESCO's 1999 proclamation.",
+          "whyThisDate": "21 February recalls the 1952 Bengali Language Movement; UNESCO approved the worldwide day in 1999.",
+          "whyItMatters": "Multilingual education and access to public information can help speakers participate without giving up their identities. Linguistic diversity also preserves knowledge passed between generations. The day invites us to support language rights and understand whose languages are missing from services and classrooms.",
+          "waysToTakePart": [
+            "Learn a greeting or story from a language spoken in your community, with its speakers' guidance.",
+            "Explore educational resources and services offered in minority or indigenous languages."
+          ],
+          "relatedObservanceIds": [
+            "international-literacy-day",
+            "international-day-of-education"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-happiness",
+      "translations": {
+        "en": {
+          "hook": "Happiness isn't only a feeling. What helps people live well? ✨",
+          "summary": "Every 20 March, the International Day of Happiness asks us to think about well-being beyond individual mood. Safety, connection, opportunity, health and a fair chance to participate can shape how people experience daily life. Celebrating happiness can also mean asking what makes life difficult for others.",
+          "origin": "On 28 June 2012, the United Nations General Assembly adopted resolution A/RES/66/281 and proclaimed 20 March the International Day of Happiness. The decision recognized happiness and well-being as universal aspirations and called for a more inclusive, balanced approach to development. The first annual observance followed the proclamation.",
+          "whyThisDate": "20 March is the date explicitly selected by UN General Assembly resolution 66/281 in 2012.",
+          "whyItMatters": "Well-being cannot be reduced to purchases or cheerful slogans. Communities benefit from access to support, social ties and opportunities. This day is a chance to consider how personal choices and public decisions can both make a difference.",
+          "waysToTakePart": [
+            "Ask someone what would make their week easier and listen without judgement.",
+            "Read a credible report on well-being and discuss an idea that could improve your community."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-peace",
+            "international-day-of-families"
+          ]
+        }
+      }
+    },
+    {
+      "id": "world-autism-awareness-day",
+      "translations": {
+        "en": {
+          "hook": "Real inclusion begins by listening to autistic voices. ♾️",
+          "summary": "On 2 April, World Autism Awareness Day draws attention to autistic people, their rights and the importance of full participation in society. Awareness alone is not the destination: acceptance, accessible environments and respect for different communication and sensory needs matter in everyday life.",
+          "origin": "The United Nations General Assembly adopted resolution A/RES/62/139 on 18 December 2007, establishing 2 April as World Autism Awareness Day starting in 2008. The UN observance has increasingly highlighted the lived experience and leadership of autistic people, alongside inclusion and equal rights.",
+          "whyThisDate": "2 April was formally designated in the UN resolution adopted in 2007, with annual observance beginning in 2008.",
+          "whyItMatters": "Autistic people are not a single story or stereotype. Schools, workplaces and services can reduce avoidable barriers by listening to autistic people and making reasonable adaptations. This is about dignity and participation, not diagnosing or changing anyone.",
+          "waysToTakePart": [
+            "Read perspectives written by autistic advocates and organizations led by autistic people.",
+            "Check whether an event or workplace provides clear communication and sensory-accessibility options."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-persons-with-disabilities",
+            "international-day-of-education"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-families",
+      "translations": {
+        "en": {
+          "hook": "Families can look different. The need for care and connection does not. 🏠",
+          "summary": "On 15 May, the International Day of Families invites reflection on the many ways people give and receive care. Families may include different generations, structures and experiences. What matters for everyday well-being is that support, time and opportunity are not taken for granted.",
+          "origin": "On 20 September 1993, the UN General Assembly adopted resolution A/RES/47/237 in preparation for the 1994 International Year of the Family. It decided that 15 May would be observed annually as the International Day of Families beginning in 1994. The decision was part of wider UN work on social development and family well-being.",
+          "whyThisDate": "The UN resolution adopted in 1993 selected 15 May as the annual day beginning in 1994.",
+          "whyItMatters": "Access to childcare, safe housing, education and support for caregivers can shape family life. Rather than prescribing one ideal family, the day encourages attention to varied needs and the policies and community networks that respond to them.",
+          "waysToTakePart": [
+            "Reach out to a caregiver or relative and ask what practical support they would welcome.",
+            "Explore local services that help families with caregiving, education or social inclusion."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-older-persons",
+            "international-youth-day"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-youth-day",
+      "translations": {
+        "en": {
+          "hook": "Young people are not only the future. Their ideas matter now. 🌟",
+          "summary": "On 12 August, International Youth Day highlights young people's perspectives on education, work, participation and community life. It is a chance to listen to what younger generations are already doing and to examine the barriers that prevent their voices from shaping decisions.",
+          "origin": "The World Conference of Ministers Responsible for Youth in Lisbon recommended a youth day in 1998. On 17 December 1999, the UN General Assembly endorsed that recommendation through resolution A/RES/54/120, establishing 12 August as International Youth Day. The observance complements the wider World Programme of Action for Youth.",
+          "whyThisDate": "The UN General Assembly endorsed 12 August in December 1999, following a 1998 recommendation from youth ministers.",
+          "whyItMatters": "Youth participation is not a decoration for decisions already made. Education, fair work, civic spaces and access to information help young people act on ideas that matter to them. The day encourages concrete opportunities for meaningful participation.",
+          "waysToTakePart": [
+            "Find a youth-led local initiative and learn what resources its organizers actually need.",
+            "Invite young people to participate in decisions that affect them rather than only asking for feedback afterward."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-education",
+            "international-day-of-democracy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-democracy",
+      "translations": {
+        "en": {
+          "hook": "Democracy grows when more people can take part. 🗳️",
+          "summary": "The International Day of Democracy, observed on 15 September, is an invitation to examine how public decisions are made and who gets to participate. Elections matter, but democratic life also depends on accountability, freedom of expression, institutions and meaningful public involvement between elections.",
+          "origin": "On 8 November 2007, the UN General Assembly adopted resolution A/RES/62/7 and established 15 September as the International Day of Democracy. The resolution encouraged governments, civil society and international organizations to use the day to increase public awareness and support democratic participation.",
+          "whyThisDate": "15 September was designated by the UN General Assembly in its 2007 resolution A/RES/62/7.",
+          "whyItMatters": "Democratic institutions are strongest when people can seek information, debate respectfully and hold decision-makers accountable. The day focuses on participation and rights rather than endorsing a political party or a specific government.",
+          "waysToTakePart": [
+            "Read a nonpartisan guide to how local public decisions are made.",
+            "Attend an open civic meeting or learn how residents can submit questions or proposals."
+          ],
+          "relatedObservanceIds": [
+            "human-rights-day",
+            "international-day-of-peace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-older-persons",
+      "translations": {
+        "en": {
+          "hook": "Growing older should never mean becoming invisible. 🤝",
+          "summary": "On 1 October, the International Day of Older Persons recognizes older people's contributions and draws attention to dignity, participation and age-friendly communities. Ageing brings different experiences; the day invites us to replace stereotypes with listening and practical inclusion.",
+          "origin": "On 14 December 1990, the UN General Assembly designated 1 October as the International Day of Older Persons through resolution A/RES/45/106. It followed earlier UN work on ageing, including the 1982 Vienna International Plan of Action, and preceded the 1991 United Nations Principles for Older Persons.",
+          "whyThisDate": "1 October was designated by UN General Assembly resolution A/RES/45/106 in 1990.",
+          "whyItMatters": "Accessible transport, digital services, housing and social connections affect how easily older people can remain involved in their communities. The day is not about treating all older people alike: it is about listening to diverse experiences and reducing avoidable barriers.",
+          "waysToTakePart": [
+            "Ask an older neighbour or relative which local service could be more accessible.",
+            "Explore an intergenerational project that brings people together to exchange skills and experiences."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-families",
+            "international-day-of-persons-with-disabilities"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-persons-with-disabilities",
+      "translations": {
+        "en": {
+          "hook": "Access is not a favour. It opens the door to participation. ♿",
+          "summary": "Observed on 3 December, the International Day of Persons with Disabilities highlights rights, equal participation and the removal of barriers. Disabilities and experiences are diverse; accessible environments help people study, work, move and participate on their own terms.",
+          "origin": "On 14 October 1992, the UN General Assembly proclaimed 3 December the International Day of Disabled Persons through resolution A/RES/47/3. The observance followed decades of work on disability rights. The UN Convention on the Rights of Persons with Disabilities, adopted in 2006, later strengthened the international rights framework.",
+          "whyThisDate": "3 December was established by the UN General Assembly in 1992; the disability rights convention followed in 2006.",
+          "whyItMatters": "An inaccessible website, building or service can exclude people before they have the chance to contribute. Inclusive design is a shared responsibility, guided by disabled people's lived experience and leadership rather than assumptions about their needs.",
+          "waysToTakePart": [
+            "Check a website or event for keyboard access, captions and clear navigation.",
+            "Listen to disability-led organizations about barriers and priorities in your community."
+          ],
+          "relatedObservanceIds": [
+            "world-autism-awareness-day",
+            "human-rights-day"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-volunteer-day-for-economic-and-social-development",
+      "translations": {
+        "en": {
+          "hook": "Small acts of service can connect entire communities. 💛",
+          "summary": "On 5 December, International Volunteer Day celebrates people who contribute their time and skills to communities, often without public recognition. Volunteering takes many forms, from informal neighbourly support to organized efforts in education, emergencies and local development.",
+          "origin": "On 17 December 1985, the UN General Assembly adopted resolution A/RES/40/212, inviting governments to observe 5 December each year as International Volunteer Day for Economic and Social Development. The aim was to recognize volunteer service and encourage greater understanding of its contribution at home and internationally.",
+          "whyThisDate": "5 December was set by UN General Assembly resolution A/RES/40/212 in 1985.",
+          "whyItMatters": "Volunteers can contribute trust, skills and local knowledge to work that matters. Effective volunteering depends on clear needs, safety and respect for the people receiving support—not simply counting hours or posting photographs.",
+          "waysToTakePart": [
+            "Ask a local nonprofit what help it currently needs before offering your time.",
+            "Recognize an often-unseen volunteer and share a reliable way for others to participate."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-families",
+            "international-youth-day"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-anti-corruption-day",
+      "translations": {
+        "en": {
+          "hook": "Trust grows when rules apply to everyone. 🔎",
+          "summary": "International Anti-Corruption Day, on 9 December, invites reflection on how integrity and accountable institutions affect everyday life. Corruption can undermine access to services, fair opportunities and confidence in public decisions. Prevention requires transparent processes, reliable information and institutions people can question.",
+          "origin": "On 31 October 2003, the UN General Assembly adopted resolution A/RES/58/4, including the United Nations Convention against Corruption and designating 9 December as International Anti-Corruption Day. The date was connected to the convention's opening for signature in Mérida, Mexico, on 9–11 December 2003.",
+          "whyThisDate": "The UN selected 9 December in 2003 in connection with the signing of its Convention against Corruption.",
+          "whyItMatters": "Transparency is not only a slogan: access to understandable budgets, fair procedures and safe accountability channels helps institutions serve the public. The day encourages fact-based civic awareness, not unsupported accusations against individuals.",
+          "waysToTakePart": [
+            "Explore a reputable public guide to transparency and access to information.",
+            "Learn which official channels in your area accept documented public-interest concerns."
+          ],
+          "relatedObservanceIds": [
+            "international-day-of-democracy",
+            "human-rights-day"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-literacy-day",
+      "translations": {
+        "en": {
+          "hook": "Being able to read opens doors that can otherwise stay closed. 📖",
+          "summary": "On 8 September, International Literacy Day celebrates literacy as a foundation for learning, access to information and participation. Reading and writing are not simply classroom achievements: they can shape someone's ability to understand services, express ideas and make choices.",
+          "origin": "UNESCO's General Conference proclaimed International Literacy Day in 1966, during its 14th session. The observance has been marked on 8 September since 1967. Its purpose is to keep attention on literacy and the barriers that prevent people of different ages from accessing meaningful learning opportunities.",
+          "whyThisDate": "8 September is the date established by UNESCO in 1966, with the first annual observance held in 1967.",
+          "whyItMatters": "Literacy supports many other rights and opportunities, yet people can face language, disability, cost and access barriers. Meaningful progress includes useful materials, supportive teaching and the chance to keep learning throughout life.",
+          "waysToTakePart": [
+            "Support a local library or community literacy program with materials it actually requests.",
+            "Find an accessible or multilingual reading resource to recommend to a learner."
+          ],
+          "relatedObservanceIds": [
+            "international-mother-language-day",
+            "international-day-of-education"
+          ]
+        }
+      }
+    },
+    {
+      "id": "world-refugee-day",
+      "translations": {
+        "en": {
+          "hook": "Behind every journey is a person, a name and a life interrupted. 🕊️",
+          "origin": "The UN General Assembly adopted resolution A/RES/55/76 on 4 December 2000, deciding that 20 June would be observed as World Refugee Day from 2001. The decision connected the international day with the fiftieth anniversary of UNHCR and recognition of the contributions of people helping displaced communities.",
+          "whyThisDate": "20 June was designated in December 2000, with the global observance beginning in 2001.",
+          "relatedObservanceIds": [
+            "human-rights-day",
+            "international-day-of-peace"
+          ]
+        }
+      }
+    },
+    {
+      "id": "international-day-of-peace",
+      "translations": {
+        "en": {
+          "hook": "What would a full day without violence make possible? 🕊️",
+          "origin": "The UN General Assembly created the International Day of Peace through resolution A/RES/36/67 on 30 November 1981. It was first observed in 1982, originally linked to the third Tuesday of September. On 7 September 2001, resolution A/RES/55/282 established a fixed date of 21 September and designated the observance as a day of global ceasefire and non-violence.",
+          "whyThisDate": "The day dates to 1981; the current fixed date of 21 September was adopted by the UN in 2001.",
+          "relatedObservanceIds": [
+            "human-rights-day",
+            "international-day-of-democracy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "human-rights-day",
+      "translations": {
+        "en": {
+          "hook": "Rights matter most when people can use them in everyday life. ⚖️",
+          "origin": "On 10 December 1948, the UN General Assembly adopted the Universal Declaration of Human Rights. On 4 December 1950, it adopted resolution A/RES/423(V), inviting states and interested organizations to mark that anniversary annually as Human Rights Day. The 1948 declaration and the 1950 designation of the observance are distinct milestones.",
+          "whyThisDate": "10 December commemorates the 1948 Universal Declaration; the annual Human Rights Day was designated in 1950.",
+          "relatedObservanceIds": [
+            "international-day-of-democracy",
+            "international-day-of-persons-with-disabilities"
+          ]
+        }
+      }
+    }
+  ]
+}
