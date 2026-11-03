@@ -85,7 +85,16 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 29);
+    expect(snapshot.editorialById.length, 30);
+    for (final item in <String, int>{
+      'international-day-of-education': 2018,
+      'world-environment-day': 1972,
+      'world-oceans-day': 2008,
+      'world-wildlife-day': 2013,
+    }.entries) {
+      expect(snapshot.byId[item.key]!.introducedYear, item.value);
+      expect(snapshot.editorialFor(item.key, 'en')!.origin, isNotEmpty);
+    }
     expect(
       snapshot.byId['africa-industrialization-day']!.introducedYear,
       1989,

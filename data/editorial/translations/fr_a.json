@@ -19,7 +19,10 @@
         "Soutenez une initiative locale d’apprentissage ou d’alphabétisation.",
         "Renseignez-vous sur les obstacles à l’éducation dans votre communauté.",
         "Partagez une ressource éducative ouverte réellement utile."
-      ]
+      ],
+      "hook": "Apprendre peut changer une vie. Qui attend encore cette chance ? 📚",
+      "origin": "Le 3 décembre 2018, l'Assemblée générale des Nations unies a proclamé le 24 janvier Journée internationale de l'éducation par la résolution A/RES/73/25. L'UNESCO contribue à l'organisation annuelle de cette journée consacrée à l'éducation pour la paix et le développement.",
+      "whyThisDate": "Le 24 janvier a été retenu par l'Assemblée générale de l'ONU en décembre 2018."
     },
     {
       "observanceId": "international-day-of-women-and-girls-in-science",
@@ -82,7 +85,10 @@
         "Participez à une action environnementale locale crédible.",
         "Réduisez une source de déchets évitables.",
         "Renseignez-vous sur le thème officiel et les actions recommandées."
-      ]
+      ],
+      "hook": "Une seule planète. Une responsabilité qui dure plus d'un jour. 🌱",
+      "origin": "La Journée mondiale de l'environnement découle de la Conférence des Nations unies sur l'environnement humain, ouverte à Stockholm le 5 juin 1972. Le 15 décembre de la même année, la résolution 2994 (XXVII) a fixé le 5 juin. La première célébration a eu lieu en 1973.",
+      "whyThisDate": "Le 5 juin rappelle l'ouverture de la conférence des Nations unies à Stockholm en 1972."
     },
     {
       "observanceId": "world-oceans-day",
@@ -92,7 +98,10 @@
         "Réduisez les objets à usage unique susceptibles de devenir des déchets marins.",
         "Découvrez une aire marine protégée.",
         "Choisissez des produits de la mer en suivant des conseils fiables de durabilité."
-      ]
+      ],
+      "hook": "Même loin des côtes, l'océan fait partie de notre vie. 🌊",
+      "origin": "L'idée d'une journée consacrée aux océans est apparue au Sommet de la Terre de Rio de Janeiro en 1992. Le 5 décembre 2008, l'Assemblée générale de l'ONU a officiellement désigné le 8 juin comme Journée mondiale des océans par la résolution A/RES/63/111, à partir de 2009.",
+      "whyThisDate": "Le 8 juin renvoie à l'initiative de 1992, reconnue officiellement par l'ONU en 2008 pour une célébration dès 2009."
     },
     {
       "observanceId": "world-refugee-day",

@@ -177,10 +177,34 @@ for item in entries:
         item['whyThisDate'] = "UN General Assembly resolution A/RES/47/193 explicitly chose 22 March, beginning in 1993."
         break
 
+# Reviewed 2026-11-03: four more UN-origin historical timelines.
+for item in entries:
+    if item['observanceId'] == "international-day-of-education":
+        item['hook'] = "Learning can change a life. Who still needs the chance? 📚"
+        item['origin'] = "On 3 December 2018, the UN General Assembly proclaimed 24 January the International Day of Education through resolution A/RES/73/25. UNESCO helps coordinate the annual observance. The date celebrates learning as a path to peace and development."
+        item['whyThisDate'] = "24 January was chosen by the UN General Assembly in December 2018 through resolution A/RES/73/25."
+        break
+for item in entries:
+    if item['observanceId'] == "world-environment-day":
+        item['hook'] = "One planet. More than one day of responsibility. 🌱"
+        item['origin'] = "World Environment Day began with the 1972 UN Conference on the Human Environment, which opened in Stockholm on 5 June. On 15 December 1972, the UN General Assembly designated 5 June through resolution 2994 (XXVII). The first celebration took place in 1973."
+        item['whyThisDate'] = "5 June commemorates the opening of the UN Stockholm environmental conference in 1972."
+        break
+for item in entries:
+    if item['observanceId'] == "world-oceans-day":
+        item['hook'] = "Even far from the coast, the ocean is part of your life. 🌊"
+        item['origin'] = "The idea of Oceans Day appeared at the 1992 Earth Summit in Rio de Janeiro. On 5 December 2008, the UN General Assembly formally designated 8 June as World Oceans Day through resolution A/RES/63/111, with UN-wide observance beginning in 2009."
+        item['whyThisDate'] = "8 June reflects the 1992 oceans initiative and was officially designated by the UN in 2008, effective in 2009."
+        break
+entries.append(e("world-wildlife-day", "Every 3 March, World Wildlife Day celebrates the diversity of wild animals and plants and the communities working to conserve them. Behind each species lies a bigger story about ecosystems, habitats, responsible trade and the choices that shape our shared future.", "Wild species sustain ecological systems and cultural heritage. Habitat destruction and unsustainable wildlife trade threaten that balance. Real conservation involves evidence, community partnerships and laws that protect species without ignoring the people living alongside them.", ["Learn about a threatened native species from a reliable conservation authority.","Choose not to buy wildlife products of unclear legal or sustainable origin.","Support a documented habitat protection or biodiversity monitoring project."], hook="Every species has a role in a much bigger story. 🐾", why_this_date="3 March recalls the CITES convention signed in 1973; World Wildlife Day was proclaimed in 2013.", origin="On 20 December 2013, the UN General Assembly proclaimed 3 March as World Wildlife Day through resolution A/RES/68/205. The date recalls the signing of CITES on 3 March 1973. That 1973 treaty anniversary is distinct from the establishment of World Wildlife Day in 2013.", quick_facts=["World Wildlife Day was proclaimed by the United Nations in December 2013.","The annual date marks the 1973 signing of the CITES convention."]))
+for item in entries:
+    if item['observanceId'] in ["international-day-of-education","world-environment-day","world-oceans-day","world-wildlife-day"]:
+        item['lastReviewedAt'] = '2026-11-03'
+
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.11.03.1',
+    'datasetVersion': '2026.11.03.2',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),

@@ -534,6 +534,10 @@ INTRODUCTION_EVIDENCE = {
     'world-water-day': (
         1992, 'https://digitallibrary.un.org/record/159180?ln=en',
     ),
+    'international-day-of-education': (2018, 'https://www.un.org/en/node/49970'),
+    'world-environment-day': (1972, 'https://www.un.org/en/observances/environment-day/background'),
+    'world-oceans-day': (2008, 'https://www.un.org/en/observances/oceans-day/background'),
+    'world-wildlife-day': (2013, 'https://www.un.org/en/node/56929'),
 }
 for record in records:
     evidence = INTRODUCTION_EVIDENCE.get(record['id'])
@@ -724,7 +728,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.03.1',
+ 'datasetVersion':'2026.11.03.2',
  'generatedAt':'2026-11-03',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),
