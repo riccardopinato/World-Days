@@ -379,6 +379,10 @@ fixed('World Tsunami Awareness Day',11,5,'A/RES/70/203')
 fixed('International Day for Preventing the Exploitation of the Environment in War and Armed Conflict',11,6,'A/RES/56/4')
 rng('International Week of Science and Peace',11,9,11,15,'A/RES/43/61')
 fixed('World Science Day for Peace and Development',11,10,'31 C/Resolution 20','UNESCO','UNESCO','OFFICIAL_UNESCO',UN)
+# UNESCO Wave05: distinct annual international days, each cited to its originator.
+fixed('World Day of Romani Language',11,5,'38 C/Resolution 74','UNESCO','UNESCO','OFFICIAL_UNESCO','https://www.unesco.org/es/days/romani-language')
+fixed('International Day against Illicit Trafficking in Cultural Property',11,14,'40 C/Resolution','UNESCO','UNESCO','OFFICIAL_UNESCO','https://www.unesco.org/en/days/against-illicit-trafficking')
+fixed('International Day of Islamic Art',11,18,'40 C/Resolution','UNESCO','UNESCO','OFFICIAL_UNESCO','https://www.unesco.org/en/days/islamic-art')
 fixed('World Diabetes Day',11,14,'A/RES/61/225')
 fixed('International Day for the Prevention of and Fight against All Forms of Transnational Organized Crime',11,15,'A/RES/78/267')
 fixed('World Prematurity Day',11,15,None,'World Health Organization','WHO','OFFICIAL_WHO',WHO)
@@ -529,6 +533,17 @@ for market_record in [*MARKET_RECORDS, *build_expansion_records()]:
 # celebration and must link to a specifically reviewed primary document.
 # Unknown years remain absent and render as '*' in all six app locales.
 INTRODUCTION_EVIDENCE = {
+    # The UNESCO documents explicitly date the formal proclamation.
+    # These are NOT assumed first celebration years.
+    'world-day-of-romani-language': (
+        2015, 'https://www.unesco.org/es/days/romani-language',
+    ),
+    'international-day-against-illicit-trafficking-in-cultural-property': (
+        2019, 'https://www.unesco.org/en/days/against-illicit-trafficking',
+    ),
+    'international-day-of-islamic-art': (
+        2019, 'https://www.unesco.org/en/days/islamic-art',
+    ),
     'africa-industrialization-day': (
         1989, 'https://www.un.org/en/observances/africa-industrialization-day',
     ),
@@ -753,7 +768,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.09.4',
+ 'datasetVersion':'2026.11.09.5',
  'generatedAt':'2026-11-09',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),
