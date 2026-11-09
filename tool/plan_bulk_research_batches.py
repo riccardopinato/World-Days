@@ -79,6 +79,11 @@ def main():
     }
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    for b in batches:
+        for row in b["items"]:
+            print("FAST CANDIDATE | " + " | ".join([
+                b["batchId"], row["country"], row["date2026"],
+                row["title"], row["officialCalendarUrl"]]))
     print("FAST BULK QUEUE PASS "+json.dumps({
         "batches":[{"id":b["batchId"],"count":b["count"],"countries":b["countryCounts"]} for b in batches],
         "readyForRuntime":0,"pendingSemanticOrDateChecks":22,
