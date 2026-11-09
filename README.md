@@ -1,3 +1,12 @@
+## Wave06 — seven further Japanese statutory holidays, stacked on Wave05 (9 November 2026)
+
+[Wave06 source and test dossier](docs/CATALOG_WAVE06_JAPAN_SEVEN_2026-11-09.md). Independent stacked source PR adds seven Japanese holidays beyond PR #65 (**462 → 469**, 285 global and 184 national), with legal recurrent dates, original Cabinet Office authority, six offline language titles and structured test gates. Japanese country layer rises from six to 13; all 28 country selectors remain available. 2028 dates are computed from Article 2 law, not incorrectly described as an already published 2028 public holiday calendar.
+
+**Neither PR #65 nor its dependent Wave06 is merged or released on main; main remains 456.** Editorial/native-speaker approval for the newly displayed titles and full narratives is pending, and all seven are STUBs. Keep APK, signing, Play and production deploy suspended.
+
+
+---
+
 ## Wave05 candidate integration — UNESCO + Japan (9 November 2026)
 
 This source branch proposes a **metadata-only** additive catalog change: **456 → 462 distinct observances** (**285 GLOBAL + 177 NATIONAL**, unchanged 28 country choices). Six entries are backed by original UNESCO/Japan government sources with full EN/IT/ES/FR/DE/PT display titles and 2026–2028 recurrence checks. All original 456 IDs are retained; **56 rich stories remain reviewed**, new entries are `STUB`, and qualified native-language/editorial approval is still required for full stories. **Main remains 456 until an independently checked merge**; nothing has been deployed to production. APK, Android signing and Google Play remain suspended.
