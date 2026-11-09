@@ -59,6 +59,50 @@ void main() {
     ('IN', 2, 'de'),
     ('JP', 3, 'it'),
   ];
+  // Source-verified Wave04: all fifteen new countries must remain selectable.
+  const wave04Markets = <(String, int, String)>[
+    ('CZ', 7, 'it'),
+    ('SK', 6, 'es'),
+    ('NO', 5, 'fr'),
+    ('FI', 15, 'de'),
+    ('SE', 1, 'pt'),
+    ('PL', 5, 'en'),
+    ('IE', 2, 'it'),
+    ('NL', 2, 'es'),
+    ('ZA', 6, 'fr'),
+    ('PH', 7, 'de'),
+    ('NZ', 3, 'pt'),
+    ('SG', 2, 'en'),
+    ('KR', 7, 'it'),
+    ('AR', 8, 'es'),
+    ('PE', 7, 'fr'),
+  ];
+  for (final market in wave04Markets) {
+    testWidgets('Wave04 ${market.$1}: national/global 320px without overflow',
+        (tester) async {
+      tester.view.physicalSize = const Size(320, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      final controller = await buildLoadedTestController(
+        catalog: catalog,
+        preferences: UserPreferences(marketCode: market.$1),
+      );
+      addTearDown(controller.dispose);
+      await tester.pumpWidget(
+        wrapTestApp(
+          AroundTheWorldPage(controller: controller),
+          locale: Locale(market.$3),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(controller.recordsForMarket(market.$1), hasLength(market.$2));
+      expect(find.byType(ChoiceChip), findsNWidgets(3));
+      expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
+      expect(tester.takeException(), isNull);
+    });
+  }
+
   for (final market in markets) {
     testWidgets('Wave03 ${market.$1} is browseable in ${market.$3} at 320px',
         (tester) async {
@@ -89,8 +133,8 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 373);
-    expect(national.length, 91);
+    expect(catalog.records.length, 456);
+    expect(national.length, 174);
     expect(global.length, 282);
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
