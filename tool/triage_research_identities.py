@@ -136,9 +136,9 @@ def main():
     counts = Counter(row["reviewLane"] for row in rows)
     assert len(rows) == 153
     assert counts["EXCLUDE_ALREADY_CANONICAL"] == 24
-    assert counts["PR67_CONSOLIDATED_EDITORIAL_GATE"] == 16
+    assert counts["PR67_CONSOLIDATED_EDITORIAL_GATE"] == 36
     assert counts["PRIMARY_SOURCE_PDF_AND_SCOPE_FIRST"] == 9
-    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 104
+    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 84
     assert all(x["autoAdmit"] is False for x in rows)
     report = {
         "schemaVersion": 1,
