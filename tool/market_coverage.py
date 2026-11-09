@@ -27,8 +27,8 @@ def coverage_report():
     strata = {
         "REVIEWED_RUNTIME": {r["observanceId"] for r in reviewed["entries"]},
         "WAVE04_DRAFT_SIX_LOCALES": {r["id"] for r in wave04["records"]},
-        "COUNTRY_WAVE01_DRAFT_EN_IT": {r["id"] for r in wave01["entries"]},
-        "COUNTRY_WAVE02_DRAFT_EN_IT": {r["id"] for r in wave02["entries"]},
+        "COUNTRY_WAVE01_DRAFT_SIX_LOCALES": {r["id"] for r in wave01["entries"]},
+        "COUNTRY_WAVE02_DRAFT_SIX_LOCALES": {r["id"] for r in wave02["entries"]},
     }
     known, seen = set(ids), set()
     for label, entries in strata.items():
