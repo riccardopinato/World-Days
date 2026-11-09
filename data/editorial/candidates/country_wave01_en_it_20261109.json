@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "candidateBatchId": "COUNTRY-RICH-WAVE01-2026-11-09",
+  "createdAt": "2026-11-09",
+  "sourceStatus": "EXTERNAL_INSTITUTIONAL_FACTS_RESEARCHED",
+  "editorialStatus": "DRAFT_PENDING_HUMAN_AND_ALL_SIX_LOCALES",
+  "existingRuntimeReviewed": 56,
+  "localeCoverage": [
+    "en",
+    "it"
+  ],
+  "remainingTargetLocales": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "entryCount": 9,
+  "entries": [
+    {
+      "id": "italian-mafia-victims-remembrance-day",
+      "primarySource": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=17G00034&atto.dataPubblicazioneGazzetta=2017-03-10&tipoSerie=serie_generale&tipoVigenza=originario",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "Behind every name is a life that must not disappear.",
+          "summary": "Italy's Day of Remembrance and Commitment for the Victims of the Mafias is more than a date on a calendar. It creates space to remember people killed by organized crime and to recognize the families, educators and civic organizations that keep their stories alive. Schools and communities use the day to ask how democracy, accountability and everyday responsibility can resist intimidation and silence.",
+          "origin": "The Italian Parliament formally recognized 21 March as a national remembrance day through Law No. 20 of 8 March 2017. The law gives public recognition to remembrance and civic engagement, with particular attention to education. The earlier history of civic remembrance must be researched separately from the year of legal recognition; 2017 is not claimed to be the first occasion on which families remembered victims.",
+          "whyThisDate": "21 March is the date recognized by Italian Law 20/2017; the proclamation year is distinct from the personal histories commemorated.",
+          "whyItMatters": "Remembering victims by their names avoids reducing organized crime to an abstract headline. Reliable archives, public discussion and local education can help people understand the consequences of violence and the importance of institutions that protect rights.",
+          "quickFacts": [
+            "Italy recognized the national day in Law No. 20 of 2017.",
+            "The law expressly includes remembrance and civic commitment."
+          ],
+          "waysToTakePart": [
+            "Read a victim's documented life story from a reputable archive.",
+            "Support a local educational initiative that explains how organized crime affects communities."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Ogni nome custodisce una vita che non deve essere dimenticata.",
+          "summary": "La Giornata della memoria e dell'impegno in ricordo delle vittime delle mafie non è soltanto una data sul calendario. Invita a ricordare le persone uccise dalla criminalità organizzata e a riconoscere il lavoro delle famiglie, delle scuole e delle associazioni che ne mantengono viva la memoria. È anche un'occasione per parlare di responsabilità civica e del contrasto all'omertà.",
+          "origin": "Con la legge n. 20 dell'8 marzo 2017 il Parlamento italiano ha riconosciuto ufficialmente il 21 marzo come giornata nazionale dedicata alla memoria e all'impegno. Il provvedimento valorizza in particolare le iniziative educative. Il 2017 indica l'anno del riconoscimento legislativo, non la data in cui le famiglie hanno cominciato a ricordare i propri cari.",
+          "whyThisDate": "Il 21 marzo è la data riconosciuta dalla legge 20/2017; non coincide con i singoli eventi ricordati.",
+          "whyItMatters": "Raccontare le vittime attraverso nomi e storie documentate impedisce di ridurre la violenza mafiosa a un fatto astratto. Archivi affidabili, scuola e iniziative locali possono rafforzare la conoscenza dei diritti e delle responsabilità comuni.",
+          "quickFacts": [
+            "La giornata nazionale è stata riconosciuta con la legge n. 20 del 2017.",
+            "La legge collega esplicitamente memoria e impegno civile."
+          ],
+          "waysToTakePart": [
+            "Leggi una storia personale verificata in un archivio autorevole.",
+            "Conosci un progetto educativo locale sul contrasto alle mafie."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "italian-unity-constitution-anthem-flag-day",
+      "primarySource": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "additionalSources": [
+        "https://www.quirinale.it/it/notizie/presidente-mattarella-rende-omaggio-milite-ignoto"
+      ],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "A shared flag can open a conversation about a complex national history.",
+          "summary": "On 17 March, Italy recalls national unification while reflecting on the Constitution, anthem and flag. The observance joins historical remembrance and civic education, encouraging people to ask how political unity was achieved and how democratic principles shape the Republic today. A national anniversary is an opportunity to study both achievement and the different experiences of the people involved.",
+          "origin": "On 17 March 1861, the Kingdom of Italy was proclaimed in Turin, a major turning point in the movement toward unification. Italian Law No. 222 of 23 November 2012 introduced the annual Day of National Unity, Constitution, Anthem and Flag on that anniversary. The founding of the Kingdom in 1861 must not be confused with the modern commemorative law of 2012 or the later birth of the Italian Republic.",
+          "whyThisDate": "17 March commemorates the 1861 proclamation of Italian unity; the named annual commemorative day was established in 2012.",
+          "whyItMatters": "Learning the difference between a historic proclamation and today's civic institutions helps readers understand both continuity and change. The Constitution and national symbols can provide a starting point for discussing responsibilities, citizenship and democratic participation.",
+          "quickFacts": [
+            "Italian unity was proclaimed in Turin on 17 March 1861.",
+            "Law 222/2012 instituted the present commemorative day."
+          ],
+          "waysToTakePart": [
+            "Read a reliable historical timeline of the unification movement.",
+            "Explore how one constitutional principle applies to public life today."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Una bandiera può raccontare una storia nazionale complessa.",
+          "summary": "Il 17 marzo l'Italia ricorda l'Unità nazionale e invita a riflettere sulla Costituzione, sull'inno e sulla bandiera. La giornata unisce memoria storica ed educazione civica: non chiede soltanto di celebrare, ma di comprendere come si è arrivati all'unificazione e quali valori guidano oggi la Repubblica. Studiare una ricorrenza significa conoscere anche esperienze e punti di vista diversi.",
+          "origin": "Il 17 marzo 1861 venne proclamato a Torino il Regno d'Italia, una tappa centrale del Risorgimento. Con la legge n. 222 del 23 novembre 2012 fu istituita la Giornata dell'Unità nazionale, della Costituzione, dell'inno e della bandiera. La proclamazione del 1861 è diversa dall'istituzione della giornata del 2012 e dalla successiva nascita della Repubblica italiana.",
+          "whyThisDate": "Il 17 marzo ricorda il 1861; la commemorazione annuale nella sua forma attuale è stata istituita nel 2012.",
+          "whyItMatters": "Distinguere un fatto storico dalle istituzioni attuali aiuta a capire continuità e cambiamenti. La giornata offre l'occasione di riflettere su cittadinanza, Costituzione e partecipazione democratica, evitando una lettura superficiale dei simboli.",
+          "quickFacts": [
+            "L'Unità d'Italia fu proclamata a Torino il 17 marzo 1861.",
+            "La legge 222/2012 ha istituito la ricorrenza attuale."
+          ],
+          "waysToTakePart": [
+            "Esplora una cronologia documentata degli eventi del Risorgimento.",
+            "Leggi un articolo della Costituzione e collegalo alla vita quotidiana."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "italian-liberation-anniversary",
+      "primarySource": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "Freedom is remembered through the people who worked and fought for it.",
+          "summary": "Italy marks 25 April to remember liberation from Nazi occupation and Fascism in 1945. The date connects the struggle of the Resistance, the end of the war in Italy and the difficult path toward democratic institutions. It honours personal sacrifices without pretending that every town or region experienced liberation on precisely the same day.",
+          "origin": "On 25 April 1945, the resistance movement proclaimed a general uprising in several northern Italian cities as the Nazi-Fascist regime collapsed. Liberation took place through different local events over days and weeks. The nationwide holiday remembers this turning point, while the constitutional and republican changes that followed have their own dates and historical processes.",
+          "whyThisDate": "25 April recalls the 1945 liberation struggle in northern Italy; it is not the date on which the Republic was founded.",
+          "whyItMatters": "The anniversary encourages study of occupation, resistance, civil rights and the transition toward democratic institutions. Reliable testimony and archives help explain the decisions people faced and the costs borne by civilians.",
+          "quickFacts": [
+            "25 April is a national public holiday in Italy.",
+            "Liberation and the 1946 republican referendum are distinct events."
+          ],
+          "waysToTakePart": [
+            "Visit a local memorial and read its historical context.",
+            "Listen to recorded testimony from a reputable Resistance history archive."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La libertà si ricorda attraverso le persone che hanno lottato per conquistarla.",
+          "summary": "Il 25 aprile l'Italia celebra la Liberazione dal nazifascismo del 1945. La ricorrenza mette in relazione la Resistenza, la fine della guerra sul territorio italiano e il percorso verso le istituzioni democratiche. Ricorda sacrifici individuali e collettivi, senza far credere che ogni città sia stata liberata nello stesso identico giorno.",
+          "origin": "Il 25 aprile 1945 l'insurrezione proclamata dalla Resistenza interessò diverse città dell'Italia settentrionale, mentre il regime nazifascista crollava. La liberazione avvenne attraverso eventi locali distribuiti su più giorni e settimane. La festa nazionale ricorda questa svolta, distinta sia dal referendum del 1946 sia dalla successiva Costituzione repubblicana.",
+          "whyThisDate": "Il 25 aprile richiama gli eventi della Liberazione del 1945; non è la data di fondazione della Repubblica.",
+          "whyItMatters": "La giornata invita a conoscere l'occupazione, la Resistenza e la costruzione della democrazia. Testimonianze, musei e archivi permettono di comprendere le scelte delle persone e le conseguenze vissute dalla popolazione civile.",
+          "quickFacts": [
+            "Il 25 aprile è una festività nazionale italiana.",
+            "Liberazione, referendum repubblicano e Costituzione sono passaggi distinti."
+          ],
+          "waysToTakePart": [
+            "Visita un luogo della memoria della tua zona e approfondiscine la storia.",
+            "Consulta una raccolta di testimonianze archivistiche sulla Resistenza."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "spain-democratic-memory-victims-day",
+      "primarySource": "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "Remembering victims requires more than a date: it requires evidence.",
+          "summary": "Spain observes 31 October as a day of remembrance and tribute to victims of the 1936 coup, the Civil War and the dictatorship. Its purpose is to recognize people affected by violence and repression and to preserve historical memory through evidence, dignity and public understanding.",
+          "origin": "Article 7 of Spain's Democratic Memory Law 20/2022 established 31 October as an annual day of remembrance and tribute. The law is a contemporary measure dealing with the legacy of the 1936 coup, the Civil War and the subsequent dictatorship. The date of the law's adoption in 2022 should not be confused with the historical events themselves.",
+          "whyThisDate": "31 October is the date specified in Article 7 of Law 20/2022, not the anniversary of a single event in the Civil War.",
+          "whyItMatters": "A responsible account of the past helps families, educators and institutions work with documents and acknowledge harms without reducing individual lives to political symbols. The observance offers a reason to consult archives and carefully distinguish documented facts from interpretation.",
+          "quickFacts": [
+            "Article 7 of Law 20/2022 establishes the annual day.",
+            "The same law separately establishes an exile victims' day on 8 May."
+          ],
+          "waysToTakePart": [
+            "Read the legal text and a reputable historical archive on democratic memory.",
+            "Visit a local public-history or memorial project and examine its documentary sources."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Ricordare le vittime significa anche studiare i documenti.",
+          "summary": "In Spagna il 31 ottobre è dedicato al ricordo e all'omaggio alle vittime del colpo di Stato del 1936, della Guerra civile e della dittatura. La giornata cerca di riconoscere le persone colpite dalla repressione e di conservare la memoria attraverso documenti, dignità e conoscenza pubblica.",
+          "origin": "L'articolo 7 della legge spagnola 20/2022 sulla memoria democratica ha stabilito il 31 ottobre come giornata annuale di ricordo e omaggio. La norma contemporanea affronta l'eredità del colpo di Stato del 1936, della guerra e della successiva dittatura. Il 2022 è l'anno della legge, non quello degli eventi commemorati.",
+          "whyThisDate": "Il 31 ottobre è la data fissata dall'articolo 7 della legge 20/2022; non identifica un unico avvenimento della guerra.",
+          "whyItMatters": "Studiare il passato attraverso fonti verificabili aiuta famiglie, scuole e istituzioni a riconoscere sofferenze e responsabilità. La ricorrenza invita a distinguere i fatti documentati dalle interpretazioni e a mantenere attenzione alle singole persone.",
+          "quickFacts": [
+            "La giornata è prevista dall'articolo 7 della legge 20/2022.",
+            "La stessa legge dedica l'8 maggio alle persone costrette all'esilio."
+          ],
+          "waysToTakePart": [
+            "Leggi il testo della legge e approfondisci un archivio storico affidabile.",
+            "Visita un progetto di memoria pubblica e consulta le sue fonti documentali."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "france-national-slavery-memory-day",
+      "primarySource": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000692257/2017-10-25",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "History needs the voices that older accounts left out.",
+          "summary": "France's 10 May remembrance day is dedicated to the history of the slave trade, slavery and abolition. It invites the public to explore how these histories shaped people, territories and institutions, including places beyond metropolitan France. The date calls for education and acknowledgement rather than reducing the subject to a slogan.",
+          "origin": "French legislation recognizes 10 May as a national day dedicated to the memories of the slave trade, slavery and their abolition. The legal and commemorative framework also distinguishes a national tribute on 23 May and specific overseas remembrance dates. Those commemorations share a theme but cannot be collapsed into one event or treated as interchangeable.",
+          "whyThisDate": "10 May is the national remembrance date specified in French law; 23 May and overseas dates have separate commemorative meanings.",
+          "whyItMatters": "An accurate account of slavery and abolition must include the experiences of enslaved people and their descendants, as well as the legal, economic and social structures that shaped these histories. Studying reliable sources helps avoid both denial and oversimplification.",
+          "quickFacts": [
+            "French law distinguishes 10 May and 23 May observances.",
+            "Some overseas territories have separate dates for abolition commemorations."
+          ],
+          "waysToTakePart": [
+            "Read archival material from a French public museum or historical institution.",
+            "Compare two official commemorative dates and learn why their meanings differ."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La storia ha bisogno anche delle voci rimaste ai margini.",
+          "summary": "In Francia il 10 maggio è dedicato alla memoria della tratta, della schiavitù e delle abolizioni. Invita a studiare come queste vicende abbiano segnato persone, territori e istituzioni, anche oltre la Francia metropolitana. La ricorrenza propone un lavoro di conoscenza e riconoscimento, non una celebrazione superficiale.",
+          "origin": "La legislazione francese riconosce il 10 maggio come giornata nazionale delle memorie della tratta, della schiavitù e delle abolizioni. Il quadro normativo distingue anche l'omaggio del 23 maggio e le date commemorative proprie di diversi territori d'oltremare. Sono ricorrenze collegate, ma non equivalenti e non vanno fuse senza spiegazione.",
+          "whyThisDate": "Il 10 maggio è la data nazionale prevista dalla normativa francese; il 23 maggio e alcune date d'oltremare hanno significati distinti.",
+          "whyItMatters": "Una ricostruzione accurata della schiavitù e delle abolizioni deve dare spazio alle persone ridotte in schiavitù e ai loro discendenti, oltre che ai sistemi politici ed economici coinvolti. Le fonti storiche aiutano a evitare negazionismo e semplificazioni.",
+          "quickFacts": [
+            "La Francia distingue le ricorrenze nazionali del 10 e del 23 maggio.",
+            "Nei territori d'oltremare esistono ulteriori date commemorative."
+          ],
+          "waysToTakePart": [
+            "Consulta un archivio o un museo pubblico francese dedicato a queste vicende.",
+            "Confronta il significato di due date ufficiali della memoria della schiavitù."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "uk-national-windrush-day",
+      "primarySource": "https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation",
+      "additionalSources": [
+        "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/postwar-caribbean-migration/"
+      ],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "One ship's story opens a much wider history of migration.",
+          "summary": "National Windrush Day on 22 June recognizes the contribution of the Windrush generation and their descendants to the United Kingdom. The date offers a starting point for exploring postwar Caribbean migration, work, community life and experiences of discrimination, rather than presenting the arrival of one ship as the beginning of all Caribbean presence in Britain.",
+          "origin": "The HMT Empire Windrush arrived at Tilbury in June 1948; many passengers disembarked on 22 June. Government records and the passenger list also document a 21 June docking date, so arrival and disembarkation must be distinguished. The UK Government announced a national annual Windrush Day on 18 June 2018, making the modern commemoration separate from the 1948 migration milestone.",
+          "whyThisDate": "22 June recalls passenger disembarkation in 1948; the nationally supported day was announced in 2018.",
+          "whyItMatters": "The people who moved from the Caribbean helped rebuild services, enrich culture and shape modern Britain. Personal stories, passenger records and community histories offer a fuller picture than a simplified account of a single vessel.",
+          "quickFacts": [
+            "The Empire Windrush docked on 21 June 1948, with passengers disembarking on 22 June.",
+            "The UK Government announced the annual national day in 2018."
+          ],
+          "waysToTakePart": [
+            "Explore the Empire Windrush passenger records in The National Archives.",
+            "Read an oral history project about Caribbean migration and British community life."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La storia di una nave apre un racconto molto più grande.",
+          "summary": "Il National Windrush Day, il 22 giugno, riconosce il contributo della generazione Windrush e dei suoi discendenti alla vita britannica. La giornata permette di conoscere le migrazioni caraibiche del dopoguerra, il lavoro, le comunità e le esperienze di discriminazione, senza far credere che la presenza caraibica nel Regno Unito inizi con una sola nave.",
+          "origin": "La HMT Empire Windrush arrivò a Tilbury nel giugno 1948; molti passeggeri sbarcarono il 22 giugno. Documenti governativi e registri di bordo riportano anche il 21 giugno come data di attracco: arrivo e sbarco non sono quindi sinonimi. Il Governo britannico annunciò una giornata nazionale annuale il 18 giugno 2018, distinta dall'evento storico del 1948.",
+          "whyThisDate": "Il 22 giugno ricorda lo sbarco dei passeggeri nel 1948; l'istituzione della ricorrenza nazionale risale al 2018.",
+          "whyItMatters": "Le persone arrivate dai Caraibi contribuirono al lavoro nei servizi, alla cultura e alla vita sociale britannica. Storie personali, liste passeggeri e archivi raccontano un quadro più completo della singola traversata.",
+          "quickFacts": [
+            "La nave attraccò il 21 giugno 1948 e lo sbarco avvenne il giorno seguente.",
+            "La giornata nazionale è stata annunciata dal Governo nel 2018."
+          ],
+          "waysToTakePart": [
+            "Esplora i registri dei passeggeri conservati negli archivi nazionali britannici.",
+            "Leggi una testimonianza sulle comunità caraibiche nel Regno Unito."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "germany-basic-law-day",
+      "primarySource": "https://www.bundesregierung.de/breg-de/aktuelles/tag-des-grundgesetzes-2349926",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "A constitutional anniversary can be a lesson in democratic responsibility.",
+          "summary": "Germany marks 23 May as Basic Law Day, recalling the constitutional foundation of the Federal Republic of Germany. The day connects the text of the Grundgesetz with rights, democracy and the responsibilities of public institutions. It also offers a way to understand why postwar constitutional rebuilding remains central to Germany's civic identity.",
+          "origin": "The Parliamentary Council proclaimed the Basic Law in Bonn on 23 May 1949, four years after the end of the Second World War. It originally applied to West Germany. Following reunification in 1990, the Basic Law became the constitutional framework for a united Germany. The year 1949 dates the constitutional text, not necessarily the first celebration of this commemorative day.",
+          "whyThisDate": "23 May commemorates the 1949 promulgation of the Basic Law; Germany's reunification followed in 1990.",
+          "whyItMatters": "Constitutional principles become meaningful through institutions, laws and everyday access to rights. Comparing historical circumstances with the present helps readers understand democratic checks and why they need continued attention.",
+          "quickFacts": [
+            "The Basic Law was proclaimed in Bonn on 23 May 1949.",
+            "Since reunification in 1990 it has applied across Germany."
+          ],
+          "waysToTakePart": [
+            "Read the preamble or a basic-rights article of the German Basic Law.",
+            "Explore a Bundestag educational resource about the parliamentary system."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Un anniversario costituzionale può raccontare il valore della democrazia.",
+          "summary": "Il 23 maggio la Germania ricorda la Legge fondamentale, il testo alla base delle sue istituzioni democratiche. La giornata invita a conoscere diritti, responsabilità e controlli sul potere pubblico. Aiuta anche a capire perché la ricostruzione costituzionale dopo la Seconda guerra mondiale resti centrale nell'identità civica tedesca.",
+          "origin": "Il Consiglio parlamentare proclamò la Legge fondamentale a Bonn il 23 maggio 1949, quattro anni dopo la fine della guerra. Inizialmente il testo si applicava alla Germania occidentale. Dopo la riunificazione del 1990, divenne il quadro costituzionale dell'intero Paese. Il 1949 indica la nascita del documento, non necessariamente la prima celebrazione della giornata.",
+          "whyThisDate": "Il 23 maggio ricorda la promulgazione del testo nel 1949; la riunificazione tedesca avvenne nel 1990.",
+          "whyItMatters": "I principi costituzionali prendono forma nelle istituzioni e nell'accesso concreto ai diritti. Studiare il contesto storico aiuta a comprendere i meccanismi democratici e l'importanza di mantenerli effettivi.",
+          "quickFacts": [
+            "La Legge fondamentale fu proclamata a Bonn il 23 maggio 1949.",
+            "Dalla riunificazione del 1990 si applica all'intera Germania."
+          ],
+          "waysToTakePart": [
+            "Leggi il preambolo o un articolo sui diritti fondamentali.",
+            "Consulta una risorsa educativa del Bundestag sul sistema parlamentare."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "portugal-freedom-day",
+      "primarySource": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/355-1983-439421",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "A spring morning changed the political future of Portugal.",
+          "summary": "Portugal's Freedom Day on 25 April remembers the 1974 Carnation Revolution, which ended the Estado Novo dictatorship and opened the transition toward democracy. It is both an anniversary of political change and an opportunity to study civic participation, constitutional freedoms and the experiences of people living through that period.",
+          "origin": "On 25 April 1974, a military movement overthrew the authoritarian regime in Portugal, beginning a wider transition to democratic institutions. Official Portuguese legal texts later regulated annual commemorations of the date. Decree-Law 39-A/78 formalized the name Dia da Liberdade, and Decree-Law 355/83 organized official ceremonies. These are legal milestones after the revolution, not competing dates for it.",
+          "whyThisDate": "25 April refers to the revolution in 1974; the later 1978 and 1983 laws concern the official name and ceremonies.",
+          "whyItMatters": "Understanding the transition from dictatorship to democracy highlights the role of rights, public debate and accountable institutions. Historical accounts are strongest when they include different participants and distinguish the revolution from the years of change that followed.",
+          "quickFacts": [
+            "The Carnation Revolution took place on 25 April 1974.",
+            "Portuguese decrees in 1978 and 1983 defined the name and commemorative arrangements."
+          ],
+          "waysToTakePart": [
+            "Visit an archive or exhibition about Portugal's transition to democracy.",
+            "Read an original document from the 1974 period and its historical explanation."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Una mattina di primavera cambiò il futuro politico del Portogallo.",
+          "summary": "Il Dia da Liberdade, il 25 aprile, ricorda la Rivoluzione dei Garofani del 1974, che pose fine alla dittatura dell'Estado Novo e aprì la transizione democratica. È una data per approfondire diritti, partecipazione civica e vicende di chi visse quel cambiamento politico e sociale.",
+          "origin": "Il 25 aprile 1974 un movimento militare rovesciò il regime autoritario portoghese, avviando un percorso più lungo verso le istituzioni democratiche. Successivamente le norme ufficiali disciplinarono le celebrazioni annuali: il decreto legge 39-A/78 stabilì la denominazione Dia da Liberdade e il decreto 355/83 organizzò le cerimonie. Queste norme sono posteriori alla rivoluzione.",
+          "whyThisDate": "Il 25 aprile richiama la rivoluzione del 1974; i decreti del 1978 e del 1983 regolano il nome e le commemorazioni.",
+          "whyItMatters": "Studiare il passaggio da una dittatura a un ordinamento democratico permette di capire quanto contino libertà, partecipazione e responsabilità delle istituzioni. Le testimonianze storiche devono distinguere la giornata rivoluzionaria dai cambiamenti successivi.",
+          "quickFacts": [
+            "La Rivoluzione dei Garofani avvenne il 25 aprile 1974.",
+            "I decreti del 1978 e del 1983 disciplinarono aspetti della ricorrenza."
+          ],
+          "waysToTakePart": [
+            "Visita un museo o archivio sul percorso democratico portoghese.",
+            "Leggi una fonte storica del 1974 accompagnata da un commento documentato."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    },
+    {
+      "id": "us-juneteenth-national-independence-day",
+      "primarySource": "https://www.archives.gov/news/topics/juneteenth",
+      "additionalSources": [
+        "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      ],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "locales": {
+        "en": {
+          "hook": "Freedom announced in Texas came after years of struggle.",
+          "summary": "Juneteenth commemorates 19 June 1865, when the United States Army announced emancipation in Galveston, Texas. The day grew from African American community celebrations and is now a federal holiday. Its story invites readers to distinguish the Emancipation Proclamation, wartime enforcement of freedom and the constitutional abolition of slavery.",
+          "origin": "President Lincoln's Emancipation Proclamation took effect in 1863, but freedom was not enforced everywhere at once. On 19 June 1865, Major General Gordon Granger issued General Order No. 3 in Galveston, informing people in Texas that enslaved people were free. The Thirteenth Amendment was ratified in December 1865. Federal recognition of Juneteenth as a holiday came much later, on 17 June 2021.",
+          "whyThisDate": "19 June is the 1865 date of General Order No. 3 in Texas; federal holiday status dates to 2021.",
+          "whyItMatters": "Juneteenth makes visible both the importance of emancipation and the gap between legal promises and lived freedom. Archival documents and first-person histories offer a better understanding than a single simplified account of the end of slavery.",
+          "quickFacts": [
+            "The Galveston military order was issued on 19 June 1865.",
+            "Juneteenth became a US federal holiday in June 2021."
+          ],
+          "waysToTakePart": [
+            "Read General Order No. 3 in the US National Archives.",
+            "Explore an African American community history collection about emancipation celebrations."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La libertà annunciata in Texas arrivò dopo anni di lotte.",
+          "summary": "Il Juneteenth ricorda il 19 giugno 1865, quando l'esercito statunitense annunciò l'emancipazione a Galveston, in Texas. Nato dalle commemorazioni delle comunità afroamericane, oggi è una festività federale. La storia invita a distinguere la Proclamazione di emancipazione, l'effettiva applicazione della libertà e l'abolizione costituzionale della schiavitù.",
+          "origin": "La Proclamazione di emancipazione di Lincoln entrò in vigore nel 1863, ma non venne applicata ovunque nello stesso momento. Il 19 giugno 1865 il generale Gordon Granger diffuse a Galveston l'Ordine generale n. 3, informando la popolazione che le persone schiavizzate in Texas erano libere. Il Tredicesimo emendamento fu ratificato nel dicembre 1865. Il riconoscimento federale del Juneteenth risale al 17 giugno 2021.",
+          "whyThisDate": "Il 19 giugno ricorda l'ordine del 1865 in Texas; la festa è diventata federale nel 2021.",
+          "whyItMatters": "Il Juneteenth mostra sia l'importanza dell'emancipazione sia la distanza che può esistere tra una promessa legale e la libertà realmente vissuta. Documenti d'archivio e testimonianze aiutano a comprendere una storia complessa.",
+          "quickFacts": [
+            "L'Ordine generale n. 3 fu emanato a Galveston il 19 giugno 1865.",
+            "Il Juneteenth è diventato una festa federale nel giugno 2021."
+          ],
+          "waysToTakePart": [
+            "Leggi l'Ordine generale n. 3 negli Archivi Nazionali statunitensi.",
+            "Esplora una raccolta storica afroamericana sulle celebrazioni dell'emancipazione."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      },
+      "publishedToApp": false
+    }
+  ]
+}
