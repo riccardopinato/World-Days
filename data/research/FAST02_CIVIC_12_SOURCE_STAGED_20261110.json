@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-fast02-12-civic-six-new-markets-2026-11-10",
+  "count": 12,
+  "sourceReviewDate": "2026-11-10",
+  "countryCounts": {
+    "BD": 2,
+    "ID": 2,
+    "KH": 3,
+    "MY": 2,
+    "VN": 2,
+    "LA": 1
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "admission": "SOURCE_STAGED_MARKET_EXPANSION_REQUIRED",
+  "baseCatalog": 492,
+  "proposedCatalogIfAllQualifiedAndIntegrated": 504,
+  "records": [
+    {
+      "id": "bangladesh-independence-day",
+      "country": "BD",
+      "canonicalTitleEn": "Bangladesh Independence and National Day",
+      "localizedTitles": {
+        "en": "Bangladesh Independence and National Day",
+        "it": "Giorno dell'indipendenza del Bangladesh",
+        "es": "Día de la Independencia de Bangladés",
+        "fr": "Fête de l'indépendance du Bangladesh",
+        "de": "Unabhängigkeitstag von Bangladesch",
+        "pt": "Dia da Independência do Bangladesh"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 26
+        }
+      ],
+      "source": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "authority": "Bangladesh Bank",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "bangladesh-victory-day",
+      "country": "BD",
+      "canonicalTitleEn": "Victory Day (Bangladesh)",
+      "localizedTitles": {
+        "en": "Victory Day (Bangladesh)",
+        "it": "Giorno della vittoria — Bangladesh",
+        "es": "Día de la Victoria — Bangladés",
+        "fr": "Jour de la Victoire — Bangladesh",
+        "de": "Tag des Sieges — Bangladesch",
+        "pt": "Dia da Vitória — Bangladesh"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 16
+        }
+      ],
+      "source": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "authority": "Bangladesh Bank",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "indonesia-independence-day",
+      "country": "ID",
+      "canonicalTitleEn": "Indonesian Independence Day",
+      "localizedTitles": {
+        "en": "Indonesian Independence Day",
+        "it": "Giorno dell'indipendenza indonesiana",
+        "es": "Día de la Independencia de Indonesia",
+        "fr": "Fête de l'indépendance de l'Indonésie",
+        "de": "Unabhängigkeitstag Indonesiens",
+        "pt": "Dia da Independência da Indonésia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 17
+        }
+      ],
+      "source": "https://www.setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2026",
+      "authority": "State Secretariat of Indonesia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "indonesia-pancasila-day",
+      "country": "ID",
+      "canonicalTitleEn": "Pancasila Day",
+      "localizedTitles": {
+        "en": "Pancasila Day",
+        "it": "Giornata della Pancasila — Indonesia",
+        "es": "Día de la Pancasila — Indonesia",
+        "fr": "Journée du Pancasila — Indonésie",
+        "de": "Pancasila-Tag — Indonesien",
+        "pt": "Dia da Pancasila — Indonésia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 1
+        }
+      ],
+      "source": "https://www.setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2026",
+      "authority": "State Secretariat of Indonesia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "cambodia-victory-over-genocide-day",
+      "country": "KH",
+      "canonicalTitleEn": "Victory over Genocide Day",
+      "localizedTitles": {
+        "en": "Victory over Genocide Day",
+        "it": "Giornata della vittoria sul genocidio — Cambogia",
+        "es": "Día de la Victoria sobre el Genocidio — Camboya",
+        "fr": "Jour de la victoire sur le génocide — Cambodge",
+        "de": "Tag des Sieges über das Genozidregime — Kambodscha",
+        "pt": "Dia da Vitória sobre o Genocídio — Camboja"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 7
+        }
+      ],
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "authority": "National Bank of Cambodia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "cambodia-constitution-day",
+      "country": "KH",
+      "canonicalTitleEn": "Constitution Day (Cambodia)",
+      "localizedTitles": {
+        "en": "Constitution Day (Cambodia)",
+        "it": "Giorno della Costituzione — Cambogia",
+        "es": "Día de la Constitución — Camboya",
+        "fr": "Jour de la Constitution — Cambodge",
+        "de": "Tag der Verfassung — Kambodscha",
+        "pt": "Dia da Constituição — Camboja"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 24
+        }
+      ],
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "authority": "National Bank of Cambodia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "cambodia-independence-day",
+      "country": "KH",
+      "canonicalTitleEn": "Independence Day (Cambodia)",
+      "localizedTitles": {
+        "en": "Independence Day (Cambodia)",
+        "it": "Giorno dell'indipendenza — Cambogia",
+        "es": "Día de la Independencia — Camboya",
+        "fr": "Fête de l'indépendance — Cambodge",
+        "de": "Unabhängigkeitstag — Kambodscha",
+        "pt": "Dia da Independência — Camboja"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 9
+        }
+      ],
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "authority": "National Bank of Cambodia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "malaysia-independence-day",
+      "country": "MY",
+      "canonicalTitleEn": "Malaysia Independence Day (Hari Merdeka)",
+      "localizedTitles": {
+        "en": "Malaysia Independence Day (Hari Merdeka)",
+        "it": "Giorno dell'indipendenza della Malaysia",
+        "es": "Día de la Independencia de Malasia",
+        "fr": "Fête de l'indépendance de la Malaisie",
+        "de": "Unabhängigkeitstag Malaysias",
+        "pt": "Dia da Independência da Malásia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 31
+        }
+      ],
+      "source": "https://www.kln.gov.my/web/gbr_london/holidays",
+      "authority": "Ministry of Foreign Affairs, Malaysia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "malaysia-day",
+      "country": "MY",
+      "canonicalTitleEn": "Malaysia Day",
+      "localizedTitles": {
+        "en": "Malaysia Day",
+        "it": "Giornata della Malaysia",
+        "es": "Día de Malasia",
+        "fr": "Journée de la Malaisie",
+        "de": "Malaysia-Tag",
+        "pt": "Dia da Malásia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 16
+        }
+      ],
+      "source": "https://www.kln.gov.my/web/gbr_london/holidays",
+      "authority": "Ministry of Foreign Affairs, Malaysia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "vietnam-reunification-day",
+      "country": "VN",
+      "canonicalTitleEn": "Reunification Day (Vietnam)",
+      "localizedTitles": {
+        "en": "Reunification Day (Vietnam)",
+        "it": "Giornata della riunificazione — Vietnam",
+        "es": "Día de la Reunificación — Vietnam",
+        "fr": "Jour de la Réunification — Viêt Nam",
+        "de": "Tag der Wiedervereinigung — Vietnam",
+        "pt": "Dia da Reunificação — Vietname"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 30
+        }
+      ],
+      "source": "https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm",
+      "authority": "Government of Vietnam",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "vietnam-national-day",
+      "country": "VN",
+      "canonicalTitleEn": "National Day (Vietnam)",
+      "localizedTitles": {
+        "en": "National Day (Vietnam)",
+        "it": "Festa nazionale del Vietnam",
+        "es": "Día Nacional de Vietnam",
+        "fr": "Fête nationale du Viêt Nam",
+        "de": "Nationalfeiertag Vietnams",
+        "pt": "Dia Nacional do Vietname"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 2
+        }
+      ],
+      "source": "https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm",
+      "authority": "Government of Vietnam",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    },
+    {
+      "id": "laos-national-day",
+      "country": "LA",
+      "canonicalTitleEn": "Lao National Day",
+      "localizedTitles": {
+        "en": "Lao National Day",
+        "it": "Festa nazionale del Laos",
+        "es": "Día Nacional de Laos",
+        "fr": "Fête nationale du Laos",
+        "de": "Nationalfeiertag von Laos",
+        "pt": "Dia Nacional do Laos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 2
+        }
+      ],
+      "source": "https://laoevisa.gov.la/info",
+      "authority": "Consular Department, Lao Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-10",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "admission": "SOURCE_STAGED_NOT_RUNTIME",
+      "scope": "NATIONAL",
+      "countryExpansionRequired": true,
+      "holidayClassification": "ANNUAL_NATIONAL_CIVIC_DATE",
+      "chronologyNote": "The primary national authority publishes this named civic commemoration on the specified day in its 2026 calendar. This record does not equate the historic founding or independence year with the formal first designation of a public holiday.",
+      "dateRationale": "The date is preserved as the named commemorative day, not a substitute office closure. The 2027 and 2028 dates are calendar projections from a civil fixed-date recurrence and need future governmental calendar checks if the legal status changes.",
+      "researchSummary": "This national civic commemoration is documented by the country's institutional calendar and is not a new global UN holiday. Historical narrative, legal continuity and translations are awaiting qualified editorial review."
+    }
+  ]
+}

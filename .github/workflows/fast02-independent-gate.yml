@@ -1,0 +1,32 @@
+name: FAST02 — Civic Source Admission Gate
+on:
+  push:
+    branches: [content/fast02-civic-20261110]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Verify 12 new fixed civic research metadata records
+        run: python3 tool/validate_fast02_civic_source.py
+      - name: Rebuild complete 504-record runtime and verify six new countries
+        run: |
+          python3 tool/market_wave09.py
+          python3 tool/build_dataset.py
+          python3 tool/validate_dataset.py
+          python3 tool/validate_wave09_content.py
+      - name: Confirm exactly twelve source-stage IDs appear only once in the proposal
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open('data/market/wave09_six_markets_civic_20261110.json'))
+          c=json.load(open('assets/data/official_core.json'))
+          ids=[x['id'] for x in c['records']]
+          assert len(ids)==len(set(ids))==504
+          assert all(ids.count(x['id'])==1 for x in d['records'])
+          print('FAST02 PROPOSED 504 PASS: 12 exact national IDs, six new markets, source review still pending')
+          PY

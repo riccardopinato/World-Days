@@ -2,7 +2,7 @@ name: Development checks
 
 on:
   push:
-    branches: [main, content/wave06-japan-seven-official-20261109, content/wave07-india-three-national-20261109]
+    branches: [main, content/wave06-japan-seven-official-20261109, content/wave07-india-three-national-20261109, content/fast02-civic-20261110]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -29,12 +29,14 @@ jobs:
           python3 tool/market_wave06.py
           python3 tool/market_wave07.py
           python3 tool/market_wave08.py
+          python3 tool/market_wave09.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/validate_wave05_content.py
           python3 tool/validate_wave06_content.py
           python3 tool/validate_wave07_content.py
           python3 tool/validate_wave08_content.py
+          python3 tool/validate_wave09_content.py
           python3 tool/build_editorial.py
           python3 tool/validate_editorial_batch.py
           python3 tool/validate_editorial_wave03.py

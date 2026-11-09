@@ -29,6 +29,12 @@ void main() {
       'MX': 3,
       'IN': 5,
       'JP': 13,
+      'BD': 2,
+      'ID': 2,
+      'KH': 3,
+      'MY': 2,
+      'VN': 2,
+      'LA': 1,
       'CZ': 7,
       'SK': 6,
       'NO': 5,
@@ -67,14 +73,14 @@ void main() {
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
     expect(global, hasLength(285));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
-    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE']) {
+    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'BD', 'ID', 'KH', 'MY', 'VN', 'LA']) {
       final national = controller.recordsForMarket(country);
       final all = controller.recordsForMarket(country, includeGlobal: true);
       expect(all.length, national.length + global.length, reason: country);
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 492);
+    expect(controller.catalog!.records.length, 504);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });

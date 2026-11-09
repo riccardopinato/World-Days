@@ -37,6 +37,12 @@ const marketOptions = <MarketOption>[
   MarketOption('KR', '🇰🇷'),
   MarketOption('AR', '🇦🇷'),
   MarketOption('PE', '🇵🇪'),
+  MarketOption('BD', '🇧🇩'),
+  MarketOption('ID', '🇮🇩'),
+  MarketOption('KH', '🇰🇭'),
+  MarketOption('MY', '🇲🇾'),
+  MarketOption('VN', '🇻🇳'),
+  MarketOption('LA', '🇱🇦'),
 ];
 
 String marketLabel(AppLocalizations l10n, String code) {
@@ -97,6 +103,18 @@ String marketLabel(AppLocalizations l10n, String code) {
       return l10n.countryArgentina;
     case 'PE':
       return l10n.countryPeru;
+    case 'BD':
+      return l10n.countryBangladesh;
+    case 'ID':
+      return l10n.countryIndonesia;
+    case 'KH':
+      return l10n.countryCambodia;
+    case 'MY':
+      return l10n.countryMalaysia;
+    case 'VN':
+      return l10n.countryVietnam;
+    case 'LA':
+      return l10n.countryLaos;
     default:
       return l10n.globalMarket;
   }

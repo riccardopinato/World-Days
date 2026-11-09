@@ -78,12 +78,12 @@ def coverage_report():
     )
     assert sum(report["nationalByCountry"].values()) == report["nationalUnique"]
     assert sum(report["editorialStages"].values()) == len(ids)
-    assert report["catalogTotalUnique"] == 492
+    assert report["catalogTotalUnique"] == 504
     assert report["globalUnique"] == 285
-    assert report["nationalUnique"] == 207
+    assert report["nationalUnique"] == 219
     assert report["introducedYearProven"] == 72
     assert report["editorialStages"]["REVIEWED_RUNTIME"] == 56
-    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 411
+    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 423
     return report
 
 
