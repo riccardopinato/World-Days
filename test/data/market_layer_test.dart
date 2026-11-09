@@ -16,13 +16,13 @@ void main() {
     final controller = await _controller();
 
     final expected = <String, int>{
-      'IT': 2,
-      'ES': 2,
-      'FR': 2,
-      'DE': 1,
-      'PT': 2,
-      'GB': 1,
-      'US': 4,
+      'IT': 25,
+      'ES': 4,
+      'FR': 9,
+      'DE': 2,
+      'PT': 4,
+      'GB': 4,
+      'US': 9,
     };
 
     for (final entry in expected.entries) {
@@ -39,6 +39,23 @@ void main() {
         reason: entry.key,
       );
     }
+  });
+
+  test('each country also has the shared global layer without false national authority', () async {
+    final controller = await _controller();
+    final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
+    expect(global, hasLength(282));
+    expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
+    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US']) {
+      final national = controller.recordsForMarket(country);
+      final all = controller.recordsForMarket(country, includeGlobal: true);
+      expect(all.length, national.length + global.length, reason: country);
+      expect(all.map((x) => x.id).toSet().length, all.length);
+      expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
+    }
+    expect(controller.catalog!.records.length, 339);
+    // initialize() may have an unawaited remote update probe; do not dispose
+    // this controller during the current test zone while that probe runs.
   });
 
   test('market and locale preferences remain independent', () async {

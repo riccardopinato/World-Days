@@ -1,5 +1,17 @@
 # World Days — Active roadmap
 
+## Content-first priority — 9 November 2026 (owner-approved)
+
+**APK generation, Android physical certification, Play Console/Google Play and Store publication: ON HOLD.** Issues #43 and #54 are preserved, not closed. Continue Flutter source QA, data validation, richer stories, authority/source review and country discovery.
+
+[Catalog Growth Wave01](docs/CATALOG_GROWTH_COUNTRY_STORIES_2026-11-09.md) introduces **43 sourced national/civic records**, preserving existing 296 IDs and producing **339 unique records: 282 GLOBAL / 57 NATIONAL**. Seven country views display each country's official/national layer separately from 282 shared world observances; the latter are not counted as new national announcements. Counts: IT 25, ES 4, FR 9, DE 2, PT 4, GB 4, US 9; combined browse totals range 284–307. UI uses lazy slivers, not 300 eager cards.
+
+**Editorial coverage is not promoted by this expansion:** 56 reviewed rich stories; 8 Wave04 six-language drafts pending human approval; 9 new Country Wave01 EN+IT historical drafts requiring four additional languages and review; 266 records without researched full narrative. Source-backed formal years = 41; otherwise * remains. This is distinct from the 339 available six-locale metadata overviews.
+
+**Next content-first five maxi-steps:** (1) complete exact-head CI/locale and calendar regression for 339; (2) expand low-coverage national markets ES/DE/PT/GB with individual official sources, no guessed dates; (3) research and human-review 8+9 queued histories in EN/IT/ES/FR/DE/PT; (4) extend global/region/originator coverage, de-duplicate and enrich history/info in batches of 20–30; (5) run full additive Audit 360 Flutter source scan + both lists after growth. Long-term 1,000+ distinct sourced events is a **target, not an established count**.
+
+**Acceptance:** new primary-source ID/date/country/authority and six titles; deterministic recurrence 2026–2028; no overlabeling GLOBAL as NATIONAL; source-backed year or *; preserved preferences/content-pack rollback; reviewed narrative is promoted only after independent editorial and native-language checks; existing color system and light offline fallback retained. No native APK/Play gate is resumed without explicit user request.
+
 ## Execution update — 9 November 2026, five maxi-steps and full Audit 360
 
 [Full source-bound Audit 360](docs/AUDIT_2026-11-09_FIVE_MAXISTEPS_360.md) supersedes earlier coverage counters **only for their factual statuses**; earlier roadmap sections are retained as historical execution records. Factory baseline used: App-Factory-Core@2b3ae9e, Master v27 / Golden Index v29.

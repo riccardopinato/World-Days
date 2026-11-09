@@ -297,3 +297,17 @@ STEP 8.1: share card refinement implemented: officiality pill removed from expor
 STEP 8.2: complete observance-title localization implemented for all 296 current records in EN/IT/ES/FR/DE/PT, with stable canonical IDs, English fallback and multilingual search.
 STEP 9: Retention/native layer implementation adds bounded local reminder planning, notification health/diagnostics, notification/widget deep-link routing and an Android Home Screen Widget. Physical device notification/widget acceptance remains an explicit release-evidence gate.
 NEXT: execute the post-audit completion roadmap: structural UX/data fixes, editorial coverage, Remove Ads, physical retention QA, remote content packs, hygiene/regression, then store readiness.
+
+
+16. APPROVED CONTENT-FIRST EXPANSION — 2026-11-09
+
+User decision: postpone APK work, Android certification, Google Play and publication. Prioritize a large, useful, source-grounded World Days encyclopedia with stronger country discovery, history and context. This section updates product/content scope without certifying any release.
+
+- The previous seven-country seed remains supported: IT, ES, FR, DE, PT, GB, US. This expansion adds 43 explicitly sourced national/civic commemorations, not a comprehensive public-holiday planner; it preserves the original 296 canonical records and IDs. Resulting candidate generation: 339 unique observances = 282 global + 57 national.
+- Around the World must show national and international observances as DISTINCT scopes when browsing a country, with accurate counts and efficient lazy UI. A global UN observance must never be labeled as declared by a given country merely because it appears in its global section.
+- Every added day requires a credible official institution/originator source, valid recurrence, country, uniqueness, authority/officiality, English master title and 5 localized titles. Multiple-country or regional observances need accurate scope modeling; do not present Commonwealth/EU days as unique to a national government without evidence.
+- Year of introduction is the formal institution/proclamation year only when sourced; historic anniversary year, first celebration, first holiday or shift in public-holiday status must not be mislabeled. Without proof show *.
+- Verified Overview from official metadata stays separate from Rich Editorial (original historical narrative, date rationale, hook, facts, participation ideas and exact sources). At this point 56/339 articles are already reviewed and shipped, 8 additional Wave04 six-locale drafts and 9 country EN/IT drafts are strictly pending human fact/language review; all others retain transparent fallback.
+- Editorial publication requires EN/IT/ES/FR/DE/PT parity, chronology review, copyright compliance and an incremented content pack version with original UI, favorites, ads consent and purchases unaffected.
+- Long-term ambition: progressively widen the eligible countries and target a genuinely broad 1,000+-record catalog combining institutional global days, distinctive national/regional observances and carefully labeled recognized/personal-interest days. This is a research target, NOT a claim that 1,000 official dates currently exist or have been reviewed.
+- Publication and device performance certification remain on hold at owner request; source/Flutter CI may continue. Reopen release gates only after explicit new user authorization.

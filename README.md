@@ -1,5 +1,16 @@
 # World Days
 
+## Country catalog expansion — 9 November 2026
+
+**Source feature:** [World Days catalog growth and history program](docs/CATALOG_GROWTH_COUNTRY_STORIES_2026-11-09.md). Source-only development, **APK and Google Play / Android certification currently ON HOLD by user request**.
+
+- Offline canonical seed now builds **339 distinct observances (282 GLOBAL + 57 NATIONAL)**, adding 43 government-backed national/civic dates to the previous 296 without changing existing IDs or saved preferences. Seven markets: IT 25, ES 4, FR 9, DE 2, PT 4, GB 4, US 9. National and international sections are deliberately distinct.
+- The new country discovery screen offers **All / National / Global** filters with counts and lazy list construction (no eager 300-card widget tree). Dates include fixed and nth/last-weekday rules; official documentation backs each new record and six-locale titles. Country overview content remains useful offline.
+- Rich Editorial reviewed **56/339**. There are 8 six-language Wave04 draft stories plus 9 new EN/IT country-history drafts pending editorial and translation approval; **266** are still without a researched full narrative. Verified formal founding years = **41/339**; unknowns display *.
+- The app's previous verified previews, ad settings, favorites, reminders, billing and existing remote-pack semantics are retained; content revision **2026.11.09.1** is monotonic. These changes are **not** proof of Android device behavior or publication readiness.
+
+Older counters in this README are historical snapshots; use this section and the live sources/tests for the current state.
+
 ## Verified source status — 9 November 2026
 
 The [five-maxi-step Audit 360](docs/AUDIT_2026-11-09_FIVE_MAXISTEPS_360.md) separates implemented source and CI evidence from physical device, Play Store and editorial review.

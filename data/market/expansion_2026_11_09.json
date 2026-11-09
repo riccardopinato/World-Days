@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-expansion-2026-11-09",
+  "status": "SOURCE_CURATED_METADATA_NO_RICH_EDITORIAL",
+  "sourceReviewDate": "2026-11-09",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 43,
+  "countryCounts": {
+    "IT": 23,
+    "ES": 2,
+    "FR": 7,
+    "DE": 1,
+    "PT": 2,
+    "GB": 3,
+    "US": 5
+  },
+  "sourcePolicy": "Records only for confirmed national/civic commemorations. A linked calendar is not a complete history. All unproven founding years remain absent. These are NOT full public-holiday schedules; no observed substitute days.",
+  "records": [
+    {
+      "id": "italian-national-flag-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Flag Day — Italy",
+      "localizedTitles": {
+        "en": "National Flag Day — Italy",
+        "it": "Festa del Tricolore",
+        "es": "Día de la Bandera Italiana",
+        "fr": "Journée du drapeau italien",
+        "de": "Tag der italienischen Flagge",
+        "pt": "Dia da Bandeira de Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 7
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-alpini-remembrance-day",
+      "country": "IT",
+      "canonicalTitleEn": "Alpini Remembrance Day — Italy",
+      "localizedTitles": {
+        "en": "Alpini Remembrance Day — Italy",
+        "it": "Giornata della memoria e del sacrificio degli Alpini",
+        "es": "Día en memoria de los Alpini",
+        "fr": "Journée du souvenir des Alpini",
+        "de": "Gedenktag der Alpini",
+        "pt": "Dia em memória dos Alpini"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 26
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-awareness-day-vegetative-states",
+      "country": "IT",
+      "canonicalTitleEn": "Vegetative States Awareness Day — Italy",
+      "localizedTitles": {
+        "en": "Vegetative States Awareness Day — Italy",
+        "it": "Giornata nazionale degli stati vegetativi",
+        "es": "Día de sensibilización sobre los estados vegetativos",
+        "fr": "Journée de sensibilisation aux états végétatifs",
+        "de": "Tag des Bewusstseins für vegetative Zustände",
+        "pt": "Dia de sensibilização para os estados vegetativos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 9
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-braille-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Braille Day — Italy",
+      "localizedTitles": {
+        "en": "National Braille Day — Italy",
+        "it": "Giornata nazionale del Braille",
+        "es": "Día nacional del Braille en Italia",
+        "fr": "Journée nationale du braille en Italie",
+        "de": "Nationaler Braille-Tag in Italien",
+        "pt": "Dia nacional do Braille em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 21
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-unity-constitution-anthem-flag-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Unity, Constitution, Anthem and Flag Day — Italy",
+      "localizedTitles": {
+        "en": "National Unity, Constitution, Anthem and Flag Day — Italy",
+        "it": "Giornata dell'Unità nazionale, della Costituzione, dell'inno e della bandiera",
+        "es": "Día de la Unidad Nacional, la Constitución, el Himno y la Bandera",
+        "fr": "Journée de l'unité nationale, de la Constitution, de l'hymne et du drapeau",
+        "de": "Tag der nationalen Einheit, der Verfassung, Hymne und Flagge",
+        "pt": "Dia da Unidade Nacional, Constituição, Hino e Bandeira"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 17
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": "Law 222/2012",
+      "proposedIntroducedYear": 2012,
+      "introducedYearSource": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-mafia-victims-remembrance-day",
+      "country": "IT",
+      "canonicalTitleEn": "Day of Remembrance of Victims of the Mafia — Italy",
+      "localizedTitles": {
+        "en": "Day of Remembrance of Victims of the Mafia — Italy",
+        "it": "Giornata della memoria e dell'impegno in ricordo delle vittime delle mafie",
+        "es": "Día del recuerdo de las víctimas de las mafias",
+        "fr": "Journée du souvenir des victimes des mafias",
+        "de": "Gedenktag für die Opfer der Mafia",
+        "pt": "Dia em memória das vítimas das máfias"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 21
+        }
+      ],
+      "source": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=17G00034&atto.dataPubblicazioneGazzetta=2017-03-10&tipoSerie=serie_generale&tipoVigenza=originario",
+      "authority": "Italian Government",
+      "resolution": "Law 20/2017",
+      "proposedIntroducedYear": 2017,
+      "introducedYearSource": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=17G00034&atto.dataPubblicazioneGazzetta=2017-03-10&tipoSerie=serie_generale&tipoVigenza=originario",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-reading-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Reading Promotion Day — Italy",
+      "localizedTitles": {
+        "en": "National Reading Promotion Day — Italy",
+        "it": "Giornata nazionale per la promozione della lettura",
+        "es": "Día nacional de promoción de la lectura",
+        "fr": "Journée nationale de promotion de la lecture",
+        "de": "Nationaler Leseförderungstag in Italien",
+        "pt": "Dia nacional de promoção da leitura"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 24
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-spinal-cord-injury-day",
+      "country": "IT",
+      "canonicalTitleEn": "Spinal Cord Injury Awareness Day — Italy",
+      "localizedTitles": {
+        "en": "Spinal Cord Injury Awareness Day — Italy",
+        "it": "Giornata nazionale della persona con lesione al midollo spinale",
+        "es": "Día de sensibilización sobre lesiones medulares",
+        "fr": "Journée de sensibilisation aux lésions médullaires",
+        "de": "Nationaler Tag für Menschen mit Rückenmarksverletzungen",
+        "pt": "Dia nacional das pessoas com lesão medular"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 4
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-liberation-anniversary",
+      "country": "IT",
+      "canonicalTitleEn": "Liberation Day — Italy",
+      "localizedTitles": {
+        "en": "Liberation Day — Italy",
+        "it": "Festa della Liberazione",
+        "es": "Día de la Liberación de Italia",
+        "fr": "Fête de la Libération de l'Italie",
+        "de": "Tag der Befreiung Italiens",
+        "pt": "Dia da Libertação de Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 25
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-day-against-child-abuse",
+      "country": "IT",
+      "canonicalTitleEn": "National Day against Child Abuse — Italy",
+      "localizedTitles": {
+        "en": "National Day against Child Abuse — Italy",
+        "it": "Giornata nazionale contro la pedofilia e la pedopornografia",
+        "es": "Día nacional contra el abuso sexual infantil",
+        "fr": "Journée nationale contre les abus sexuels sur mineurs",
+        "de": "Nationaler Tag gegen sexuellen Kindesmissbrauch",
+        "pt": "Dia nacional contra o abuso sexual infantil"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-terrorism-victims-remembrance",
+      "country": "IT",
+      "canonicalTitleEn": "Terrorism Victims Remembrance Day — Italy",
+      "localizedTitles": {
+        "en": "Terrorism Victims Remembrance Day — Italy",
+        "it": "Giorno della memoria delle vittime del terrorismo",
+        "es": "Día en memoria de las víctimas del terrorismo en Italia",
+        "fr": "Journée du souvenir des victimes du terrorisme en Italie",
+        "de": "Gedenktag für Terroropfer in Italien",
+        "pt": "Dia em memória das vítimas do terrorismo em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 9
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-sports-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Sports Day — Italy",
+      "localizedTitles": {
+        "en": "National Sports Day — Italy",
+        "it": "Giornata nazionale dello sport",
+        "es": "Día nacional del deporte en Italia",
+        "fr": "Journée nationale du sport en Italie",
+        "de": "Nationaler Sporttag in Italien",
+        "pt": "Dia nacional do desporto em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 6,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "COMMUNITY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-innovation-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Innovation Day — Italy",
+      "localizedTitles": {
+        "en": "National Innovation Day — Italy",
+        "it": "Giornata nazionale dell'innovazione",
+        "es": "Día nacional de la innovación en Italia",
+        "fr": "Journée nationale de l'innovation en Italie",
+        "de": "Nationaler Innovationstag in Italien",
+        "pt": "Dia nacional da inovação em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 6,
+          "weekday": 2,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "FUTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-workers-abroad-remembrance",
+      "country": "IT",
+      "canonicalTitleEn": "Italian Workers Abroad Remembrance Day",
+      "localizedTitles": {
+        "en": "Italian Workers Abroad Remembrance Day",
+        "it": "Giornata nazionale del sacrificio del lavoro italiano nel mondo",
+        "es": "Día de recuerdo de los trabajadores italianos en el extranjero",
+        "fr": "Journée du souvenir des travailleurs italiens à l'étranger",
+        "de": "Gedenktag für italienische Arbeitnehmer im Ausland",
+        "pt": "Dia em memória dos trabalhadores italianos no estrangeiro"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 8
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-peace-fraternity-dialogue-day",
+      "country": "IT",
+      "canonicalTitleEn": "Peace, Fraternity and Intercultural Dialogue Day — Italy",
+      "localizedTitles": {
+        "en": "Peace, Fraternity and Intercultural Dialogue Day — Italy",
+        "it": "Giornata della pace, della fraternità e del dialogo",
+        "es": "Día de la paz, la fraternidad y el diálogo intercultural en Italia",
+        "fr": "Journée de la paix, de la fraternité et du dialogue en Italie",
+        "de": "Tag des Friedens, der Brüderlichkeit und des Dialogs in Italien",
+        "pt": "Dia da paz, fraternidade e diálogo em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 4
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-accessibility-barriers-day",
+      "country": "IT",
+      "canonicalTitleEn": "Architectural Accessibility Day — Italy",
+      "localizedTitles": {
+        "en": "Architectural Accessibility Day — Italy",
+        "it": "Giornata nazionale per l'abbattimento delle barriere architettoniche",
+        "es": "Día nacional por la eliminación de barreras arquitectónicas",
+        "fr": "Journée nationale pour la suppression des barrières architecturales",
+        "de": "Nationaler Tag zum Abbau baulicher Barrieren",
+        "pt": "Dia nacional para a eliminação de barreiras arquitetónicas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-work-accident-victims-day",
+      "country": "IT",
+      "canonicalTitleEn": "Workplace Accident Victims Day — Italy",
+      "localizedTitles": {
+        "en": "Workplace Accident Victims Day — Italy",
+        "it": "Giornata per le vittime degli incidenti sul lavoro",
+        "es": "Día de recuerdo de las víctimas de accidentes laborales",
+        "fr": "Journée de mémoire des victimes d'accidents du travail",
+        "de": "Gedenktag für Opfer von Arbeitsunfällen",
+        "pt": "Dia em memória das vítimas de acidentes de trabalho"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 7,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-christopher-columbus-day",
+      "country": "IT",
+      "canonicalTitleEn": "Christopher Columbus Commemoration — Italy",
+      "localizedTitles": {
+        "en": "Christopher Columbus Commemoration — Italy",
+        "it": "Giornata nazionale di Cristoforo Colombo",
+        "es": "Día de Cristóbal Colón en Italia",
+        "fr": "Journée de Christophe Colomb en Italie",
+        "de": "Kolumbus-Gedenktag in Italien",
+        "pt": "Dia de Cristóvão Colombo em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 12
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-freedom-berlin-wall-day",
+      "country": "IT",
+      "canonicalTitleEn": "Freedom Day — Fall of the Berlin Wall (Italy)",
+      "localizedTitles": {
+        "en": "Freedom Day — Fall of the Berlin Wall (Italy)",
+        "it": "Giornata della libertà in ricordo della caduta del Muro di Berlino",
+        "es": "Día de la Libertad en Italia: caída del Muro de Berlín",
+        "fr": "Journée de la liberté en Italie : chute du mur de Berlin",
+        "de": "Italienischer Freiheitstag zum Mauerfall",
+        "pt": "Dia da Liberdade em Itália: queda do Muro de Berlim"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 9
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-epilepsy-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Epilepsy Awareness Day — Italy",
+      "localizedTitles": {
+        "en": "National Epilepsy Awareness Day — Italy",
+        "it": "Giornata nazionale dell'epilessia",
+        "es": "Día nacional de concienciación sobre la epilepsia",
+        "fr": "Journée nationale de sensibilisation à l'épilepsie",
+        "de": "Nationaler Epilepsie-Aktionstag in Italien",
+        "pt": "Dia nacional de sensibilização para a epilepsia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 5,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HEALTH",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-pain-relief-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Pain Relief Day — Italy",
+      "localizedTitles": {
+        "en": "National Pain Relief Day — Italy",
+        "it": "Giornata nazionale del sollievo",
+        "es": "Día nacional del alivio del dolor en Italia",
+        "fr": "Journée nationale du soulagement de la douleur",
+        "de": "Nationaler Tag der Schmerzlinderung in Italien",
+        "pt": "Dia nacional do alívio da dor em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "LAST_WEEKDAY",
+          "month": 5,
+          "weekday": 7
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HEALTH",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-folk-music-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Folk Music Day — Italy",
+      "localizedTitles": {
+        "en": "National Folk Music Day — Italy",
+        "it": "Giornata nazionale della musica popolare",
+        "es": "Día nacional de la música popular en Italia",
+        "fr": "Journée nationale de la musique populaire en Italie",
+        "de": "Nationaler Tag der Volksmusik in Italien",
+        "pt": "Dia nacional da música popular em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 5,
+          "weekday": 7,
+          "occurrence": 3
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "italian-national-cancer-patients-day",
+      "country": "IT",
+      "canonicalTitleEn": "National Cancer Patients Day — Italy",
+      "localizedTitles": {
+        "en": "National Cancer Patients Day — Italy",
+        "it": "Giornata nazionale del malato oncologico",
+        "es": "Día nacional de los pacientes con cáncer en Italia",
+        "fr": "Journée nationale des personnes atteintes de cancer en Italie",
+        "de": "Nationaler Tag der Krebspatienten in Italien",
+        "pt": "Dia nacional da pessoa com cancro em Itália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 5,
+          "weekday": 7,
+          "occurrence": 3
+        }
+      ],
+      "source": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "authority": "Italian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HEALTH",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "spain-democratic-memory-victims-day",
+      "country": "ES",
+      "canonicalTitleEn": "Democratic Memory Victims Day — Spain",
+      "localizedTitles": {
+        "en": "Democratic Memory Victims Day — Spain",
+        "it": "Giornata della memoria democratica delle vittime — Spagna",
+        "es": "Día de recuerdo y homenaje a todas las víctimas de la Guerra y la Dictadura",
+        "fr": "Journée de mémoire des victimes de la guerre et de la dictature en Espagne",
+        "de": "Spanischer Gedenktag für Opfer von Krieg und Diktatur",
+        "pt": "Dia de memória das vítimas da Guerra e da Ditadura em Espanha"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 31
+        }
+      ],
+      "source": "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+      "authority": "Kingdom of Spain",
+      "resolution": "Law 20/2022 Article 7",
+      "proposedIntroducedYear": 2022,
+      "introducedYearSource": "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "spain-exile-victims-remembrance-day",
+      "country": "ES",
+      "canonicalTitleEn": "Day of Remembrance of Exile Victims — Spain",
+      "localizedTitles": {
+        "en": "Day of Remembrance of Exile Victims — Spain",
+        "it": "Giornata spagnola in ricordo delle vittime dell'esilio",
+        "es": "Día de homenaje a las víctimas del exilio",
+        "fr": "Journée espagnole d'hommage aux victimes de l'exil",
+        "de": "Spanischer Gedenktag für Opfer des Exils",
+        "pt": "Dia espanhol de homenagem às vítimas do exílio"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "source": "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+      "authority": "Kingdom of Spain",
+      "resolution": "Law 20/2022 Article 8",
+      "proposedIntroducedYear": 2022,
+      "introducedYearSource": "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-victory-1945-day",
+      "country": "FR",
+      "canonicalTitleEn": "Victory in Europe 1945 Commemoration — France",
+      "localizedTitles": {
+        "en": "Victory in Europe 1945 Commemoration — France",
+        "it": "Commemorazione della vittoria del 1945 — Francia",
+        "es": "Conmemoración de la victoria de 1945 en Francia",
+        "fr": "Commémoration de la victoire de 1945 en France",
+        "de": "Gedenktag zum Sieg 1945 in Frankreich",
+        "pt": "Comemoração da vitória de 1945 em França"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "source": "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-national-slavery-memory-day",
+      "country": "FR",
+      "canonicalTitleEn": "National Day of Remembrance of Slavery — France",
+      "localizedTitles": {
+        "en": "National Day of Remembrance of Slavery — France",
+        "it": "Giornata nazionale della memoria della schiavitù — Francia",
+        "es": "Día nacional de memoria de la esclavitud en Francia",
+        "fr": "Journée nationale des mémoires de la traite et de l'esclavage",
+        "de": "Nationaler Gedenktag an den Sklavenhandel in Frankreich",
+        "pt": "Dia nacional de memória da escravatura em França"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 10
+        }
+      ],
+      "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000692257/2017-10-25",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-slavery-victims-tribute-day",
+      "country": "FR",
+      "canonicalTitleEn": "National Tribute to Slavery Victims — France",
+      "localizedTitles": {
+        "en": "National Tribute to Slavery Victims — France",
+        "it": "Giornata nazionale in omaggio alle vittime della schiavitù — Francia",
+        "es": "Día nacional de homenaje a las víctimas de la esclavitud en Francia",
+        "fr": "Journée nationale en hommage aux victimes de l'esclavage",
+        "de": "Nationaler Tag zum Gedenken an die Opfer der Sklaverei in Frankreich",
+        "pt": "Dia nacional em homenagem às vítimas da escravatura em França"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 23
+        }
+      ],
+      "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000692257/2017-10-25",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-armistice-1918-day",
+      "country": "FR",
+      "canonicalTitleEn": "1918 Armistice Commemoration — France",
+      "localizedTitles": {
+        "en": "1918 Armistice Commemoration — France",
+        "it": "Commemorazione dell'armistizio del 1918 — Francia",
+        "es": "Conmemoración del armisticio de 1918 en Francia",
+        "fr": "Commémoration de l'armistice de 1918",
+        "de": "Gedenktag an den Waffenstillstand von 1918 in Frankreich",
+        "pt": "Comemoração do armistício de 1918 em França"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 11
+        }
+      ],
+      "source": "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-algerian-war-remembrance-day",
+      "country": "FR",
+      "canonicalTitleEn": "Algerian War Remembrance Day — France",
+      "localizedTitles": {
+        "en": "Algerian War Remembrance Day — France",
+        "it": "Giornata francese in memoria della guerra d'Algeria",
+        "es": "Día francés de memoria de la guerra de Argelia",
+        "fr": "Journée nationale du souvenir de la guerre d'Algérie",
+        "de": "Französischer Gedenktag zum Algerienkrieg",
+        "pt": "Dia francês de memória da Guerra da Argélia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 19
+        }
+      ],
+      "source": "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-harkis-remembrance-day",
+      "country": "FR",
+      "canonicalTitleEn": "National Day of Tribute to the Harkis — France",
+      "localizedTitles": {
+        "en": "National Day of Tribute to the Harkis — France",
+        "it": "Giornata francese in omaggio agli Harkis",
+        "es": "Día francés de homenaje a los harkis",
+        "fr": "Journée nationale d'hommage aux harkis",
+        "de": "Französischer Gedenktag für die Harkis",
+        "pt": "Dia francês de homenagem aos harkis"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 25
+        }
+      ],
+      "source": "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "france-deportation-victims-remembrance-day",
+      "country": "FR",
+      "canonicalTitleEn": "Deportation Victims Remembrance Day — France",
+      "localizedTitles": {
+        "en": "Deportation Victims Remembrance Day — France",
+        "it": "Giornata francese in ricordo delle vittime delle deportazioni",
+        "es": "Día francés de recuerdo de las víctimas de las deportaciones",
+        "fr": "Journée nationale du souvenir des victimes de la Déportation",
+        "de": "Französischer Gedenktag für Deportationsopfer",
+        "pt": "Dia francês em memória das vítimas das deportações"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "LAST_WEEKDAY",
+          "month": 4,
+          "weekday": 7
+        }
+      ],
+      "source": "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales",
+      "authority": "French Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "germany-basic-law-day",
+      "country": "DE",
+      "canonicalTitleEn": "Basic Law Day — Germany",
+      "localizedTitles": {
+        "en": "Basic Law Day — Germany",
+        "it": "Giornata della Legge fondamentale — Germania",
+        "es": "Día de la Ley Fundamental de Alemania",
+        "fr": "Journée de la Loi fondamentale allemande",
+        "de": "Tag des Grundgesetzes",
+        "pt": "Dia da Lei Fundamental da Alemanha"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 23
+        }
+      ],
+      "source": "https://www.bundesregierung.de/breg-de/aktuelles/tag-des-grundgesetzes-2349926",
+      "authority": "Federal Government of Germany",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "portugal-freedom-day",
+      "country": "PT",
+      "canonicalTitleEn": "Freedom Day — Portugal",
+      "localizedTitles": {
+        "en": "Freedom Day — Portugal",
+        "it": "Festa della Libertà — Portogallo",
+        "es": "Día de la Libertad de Portugal",
+        "fr": "Fête de la Liberté au Portugal",
+        "de": "Tag der Freiheit in Portugal",
+        "pt": "Dia da Liberdade"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 25
+        }
+      ],
+      "source": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/355-1983-439421",
+      "authority": "Portuguese Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "portugal-restoration-of-independence-day",
+      "country": "PT",
+      "canonicalTitleEn": "Restoration of Independence Day — Portugal",
+      "localizedTitles": {
+        "en": "Restoration of Independence Day — Portugal",
+        "it": "Festa della Restaurazione dell'indipendenza — Portogallo",
+        "es": "Día de la Restauración de la Independencia de Portugal",
+        "fr": "Fête de la Restauration de l'indépendance au Portugal",
+        "de": "Tag der Wiederherstellung der Unabhängigkeit Portugals",
+        "pt": "Dia da Restauração da Independência"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 1
+        }
+      ],
+      "source": "https://portugal.gov.pt/gc21/comunicacao/noticias/20161201-pm-1dezembro",
+      "authority": "Portuguese Republic",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "uk-national-windrush-day",
+      "country": "GB",
+      "canonicalTitleEn": "National Windrush Day — United Kingdom",
+      "localizedTitles": {
+        "en": "National Windrush Day — United Kingdom",
+        "it": "Giornata nazionale Windrush — Regno Unito",
+        "es": "Día nacional Windrush del Reino Unido",
+        "fr": "Journée nationale Windrush au Royaume-Uni",
+        "de": "Nationaler Windrush-Tag im Vereinigten Königreich",
+        "pt": "Dia nacional Windrush do Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 22
+        }
+      ],
+      "source": "https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation",
+      "authority": "United Kingdom Government",
+      "resolution": null,
+      "proposedIntroducedYear": 2018,
+      "introducedYearSource": "https://www.gov.uk/government/news/annual-day-of-celebrations-for-the-windrush-generation",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "uk-remembrance-sunday",
+      "country": "GB",
+      "canonicalTitleEn": "Remembrance Sunday — United Kingdom",
+      "localizedTitles": {
+        "en": "Remembrance Sunday — United Kingdom",
+        "it": "Domenica della Memoria — Regno Unito",
+        "es": "Domingo del Recuerdo en el Reino Unido",
+        "fr": "Dimanche du Souvenir au Royaume-Uni",
+        "de": "Volkstrauertag Remembrance Sunday im Vereinigten Königreich",
+        "pt": "Domingo da Memória no Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 11,
+          "weekday": 7,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://www.gov.uk/guidance/designated-days-for-union-flag-flying",
+      "authority": "United Kingdom Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "uk-merchant-navy-day",
+      "country": "GB",
+      "canonicalTitleEn": "Merchant Navy Day — United Kingdom",
+      "localizedTitles": {
+        "en": "Merchant Navy Day — United Kingdom",
+        "it": "Giornata della Marina mercantile — Regno Unito",
+        "es": "Día de la Marina Mercante del Reino Unido",
+        "fr": "Journée de la marine marchande au Royaume-Uni",
+        "de": "Tag der Handelsmarine im Vereinigten Königreich",
+        "pt": "Dia da Marinha Mercante do Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 3
+        }
+      ],
+      "source": "https://insidemca.blog.gov.uk/2026/09/03/from-cadet-to-captain-a-merchant-navy-story/",
+      "authority": "United Kingdom Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "us-washingtons-birthday",
+      "country": "US",
+      "canonicalTitleEn": "Washington's Birthday — United States",
+      "localizedTitles": {
+        "en": "Washington's Birthday — United States",
+        "it": "Commemorazione del compleanno di Washington — Stati Uniti",
+        "es": "Natalicio de Washington en Estados Unidos",
+        "fr": "Anniversaire de Washington aux États-Unis",
+        "de": "Washingtons Geburtstag in den USA",
+        "pt": "Aniversário de Washington nos Estados Unidos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 2,
+          "weekday": 1,
+          "occurrence": 3
+        }
+      ],
+      "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "authority": "United States Federal Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "us-juneteenth-national-independence-day",
+      "country": "US",
+      "canonicalTitleEn": "Juneteenth National Independence Day — United States",
+      "localizedTitles": {
+        "en": "Juneteenth National Independence Day — United States",
+        "it": "Juneteenth: giornata dell'emancipazione — Stati Uniti",
+        "es": "Juneteenth: Día de la Emancipación en Estados Unidos",
+        "fr": "Juneteenth : journée de l'émancipation aux États-Unis",
+        "de": "Juneteenth: Gedenktag der Emanzipation in den USA",
+        "pt": "Juneteenth: Dia da Emancipação nos Estados Unidos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 19
+        }
+      ],
+      "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "authority": "United States Federal Government",
+      "resolution": null,
+      "proposedIntroducedYear": 2021,
+      "introducedYearSource": "https://www.archives.gov/news/topics/juneteenth",
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "additionalSources": [
+        "https://www.archives.gov/news/topics/juneteenth"
+      ]
+    },
+    {
+      "id": "us-labor-day",
+      "country": "US",
+      "canonicalTitleEn": "Labor Day — United States",
+      "localizedTitles": {
+        "en": "Labor Day — United States",
+        "it": "Festa dei lavoratori — Stati Uniti",
+        "es": "Día del Trabajo en Estados Unidos",
+        "fr": "Fête du Travail aux États-Unis",
+        "de": "Tag der Arbeit in den USA",
+        "pt": "Dia do Trabalhador nos Estados Unidos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 9,
+          "weekday": 1,
+          "occurrence": 1
+        }
+      ],
+      "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "authority": "United States Federal Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "us-columbus-day",
+      "country": "US",
+      "canonicalTitleEn": "Columbus Day — United States",
+      "localizedTitles": {
+        "en": "Columbus Day — United States",
+        "it": "Columbus Day — Stati Uniti",
+        "es": "Día de Colón en Estados Unidos",
+        "fr": "Journée de Christophe Colomb aux États-Unis",
+        "de": "Kolumbus-Tag in den USA",
+        "pt": "Dia de Colombo nos Estados Unidos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 1,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "authority": "United States Federal Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    },
+    {
+      "id": "us-thanksgiving-day",
+      "country": "US",
+      "canonicalTitleEn": "Thanksgiving Day — United States",
+      "localizedTitles": {
+        "en": "Thanksgiving Day — United States",
+        "it": "Giorno del Ringraziamento — Stati Uniti",
+        "es": "Día de Acción de Gracias en Estados Unidos",
+        "fr": "Action de grâce aux États-Unis",
+        "de": "Thanksgiving-Tag in den USA",
+        "pt": "Dia de Ação de Graças nos Estados Unidos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 11,
+          "weekday": 4,
+          "occurrence": 4
+        }
+      ],
+      "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "authority": "United States Federal Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CIVIC_HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+    }
+  ]
+}
