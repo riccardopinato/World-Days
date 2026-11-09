@@ -114,6 +114,8 @@ def main():
             lane = "EXCLUDE_ALREADY_CANONICAL"
         elif phase == "IN_UNMERGED_CONTENT_PR_67":
             lane = "PR67_CONSOLIDATED_EDITORIAL_GATE"
+        elif phase == "IN_UNMERGED_CONTENT_PR_68":
+            lane = "PR68_EDITORIAL_AND_MARKET_GATE"
         elif phase == "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":
             lane = "PRIMARY_SOURCE_PDF_AND_SCOPE_FIRST"
         elif flags:
@@ -137,8 +139,9 @@ def main():
     assert len(rows) == 153
     assert counts["EXCLUDE_ALREADY_CANONICAL"] == 24
     assert counts["PR67_CONSOLIDATED_EDITORIAL_GATE"] == 36
+    assert counts["PR68_EDITORIAL_AND_MARKET_GATE"] == 12
     assert counts["PRIMARY_SOURCE_PDF_AND_SCOPE_FIRST"] == 9
-    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 84
+    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 72
     assert all(x["autoAdmit"] is False for x in rows)
     report = {
         "schemaVersion": 1,
