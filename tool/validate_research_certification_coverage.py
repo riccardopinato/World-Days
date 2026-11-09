@@ -51,8 +51,18 @@ def main():
       ("wave06_japan_philippines_india_2026.json","Coming of Age Day"),
       ("wave06_japan_philippines_india_2026.json","Emperor's Birthday"),
       ("wave06_japan_philippines_india_2026.json","Showa Day"),
+      ("wave06_japan_philippines_india_2026.json","Greenery Day"),
+      ("wave06_japan_philippines_india_2026.json","Children\'s Day (Japan)"),
+      ("wave06_japan_philippines_india_2026.json","Marine Day (Japan)"),
+      ("wave06_japan_philippines_india_2026.json","Mountain Day (Japan)"),
+      ("wave06_japan_philippines_india_2026.json","Respect for the Aged Day"),
+      ("wave06_japan_philippines_india_2026.json","Sports Day (Japan)"),
+      ("wave06_japan_philippines_india_2026.json","Labor Thanksgiving Day (Japan)"),
+      ("wave06_japan_philippines_india_2026.json","Republic Day (India)"),
+      ("wave06_japan_philippines_india_2026.json","Independence Day (India)"),
+      ("wave06_japan_philippines_india_2026.json","Gandhi Jayanti"),
     }
-    assert len(pr65)==6
+    assert len(pr65)==16
     duplicate_decisions = {k for k,v in decisions.items() if v["decision"] == "SAME_EXISTING_OBSERVANCE"}
     assert not (pr65 & duplicate_decisions)
     # UNESCO Islamic Art and Japan Children's Day can appear in the 20
@@ -75,8 +85,8 @@ def main():
             status="ALREADY_IN_MAIN_456"
             note="Existing source-backed canonical observance; do not admit another ID."
         elif k in pr65:
-            status="IN_UNMERGED_PR_65"
-            note="Source-build CI passed on separate PR, not in main, human editorial approval outstanding."
+            status="IN_UNMERGED_CONTENT_PR_67"
+            note="Sixteen source-build tested IDs consolidated in PR #67 to main, but unmerged; human editorial approval outstanding."
         elif k in evidence:
             status="PRIMARY_CALENDAR_2026_DATE_CONFIRMED"
             note="2026 occurrence/source certified only; annual recurrence, semantic uniqueness and six-locale editorial blocked."
@@ -115,8 +125,8 @@ def main():
     counts=Counter(r["status"] for r in rows)
     assert counts=={
       "ALREADY_IN_MAIN_456":24,
-      "IN_UNMERGED_PR_65":6,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":114,
+      "IN_UNMERGED_CONTENT_PR_67":16,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":104,
       "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":9,
     },counts
     assert sum(counts.values())==153
@@ -125,7 +135,9 @@ def main():
       "schemaVersion":1,"auditBaseMainCount":456,"targetCatalog":1000,
       "remainingToTargetBeforePR65":544,
       "catalogAfterPR65IfMerged":462,
+      "catalogAfterConsolidatedPR67IfMerged":472,
       "remainingAfterPR65IfMerged":538,
+      "remainingAfterConsolidatedPR67IfMerged":528,
       "researchRecords":len(rows),
       "statuses":dict(sorted(counts.items())),
       "notYetVerifiedUnique":len(rows)-counts["ALREADY_IN_MAIN_456"],
