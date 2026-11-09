@@ -115,7 +115,7 @@ for record in records:
     if record.get('scope') == 'NATIONAL':
         countries = record.get('countries', [])
         assert len(countries) == 1, f"national record must have one country: {record.get('id')}"
-        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US'}, record.get('id')
+        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP'}, record.get('id')
         assert officiality == 'OFFICIAL_INSTITUTIONAL', record.get('id')
         assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
 
