@@ -88,7 +88,7 @@ def main():
         payload = {
             "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.11.09.4",
+            "datasetVersion": "2026.11.09.5",
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),
