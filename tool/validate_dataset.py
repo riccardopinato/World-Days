@@ -4,6 +4,7 @@ from pathlib import Path
 from market_expansion import load_expansion, load_wave02, load_wave03
 from market_wave04 import load_wave04
 from market_wave05 import load_wave05_japan
+from market_wave06 import load_wave06_japan
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -58,7 +59,9 @@ wave04 = load_wave04()
 expected_market.update({row['id']: row['country'] for row in wave04})
 wave05_japan = load_wave05_japan()
 expected_market.update({row['id']: row['country'] for row in wave05_japan})
-assert len(ids) == len(records) == 462, ('catalog growth total', len(records))
+wave06_japan=load_wave06_japan()
+expected_market.update({row['id']: row['country'] for row in wave06_japan})
+assert len(ids) == len(records) == 469, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -194,6 +197,13 @@ market_vectors = {
     'japan-coming-of-age-day': ['2026-01-12'],
     'japan-emperors-birthday': ['2026-02-23'],
     'japan-showa-day': ['2026-04-29'],
+    'japan-greenery-day': ['2026-05-04'],
+    'japan-childrens-day': ['2026-05-05'],
+    'japan-marine-day': ['2026-07-20'],
+    'japan-mountain-day': ['2026-08-11'],
+    'japan-respect-for-the-aged-day': ['2026-09-21'],
+    'japan-sports-day': ['2026-10-12'],
+    'japan-labor-thanksgiving-day': ['2026-11-23'],
     'world-day-of-romani-language': ['2026-11-05'],
     'international-day-against-illicit-trafficking-in-cultural-property': ['2026-11-14'],
     'international-day-of-islamic-art': ['2026-11-18'],
