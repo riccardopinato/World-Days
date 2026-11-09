@@ -46,24 +46,26 @@
       "canonicalTitleEn": "Malaysia Independence Day (Hari Merdeka)",
       "occurrence2026": "2026-08-31",
       "recurrenceRule": "FIXED",
-      "source": "https://my.nepalembassy.gov.np/pages/public-holidays--2083---2026-27-/",
+      "source": "https://www.kln.gov.my/web/gbr_london/holidays",
       "scope": "NATIONAL",
       "establishmentYear": null,
-      "sourceVerification": "OFFICIAL_REGISTER_OR_EMBASSY; SECONDARY_DATE_CROSSCHECK_REQUIRED_FOR_NEPAL",
+      "sourceVerification": "MALAYSIAN_MINISTRY_OF_FOREIGN_AFFAIRS_2026_CALENDAR; VERIFIED_FIXED_2026_DATE; ANNUAL_SCOPE_REVIEW_PENDING",
       "semanticDedup": "PENDING_FULL_GENERATED_CATALOG",
-      "admission": "RESEARCH_ONLY"
+      "admission": "RESEARCH_ONLY",
+      "secondarySource": "https://wbf.jknns.moh.gov.my/app/tetapanUtama"
     },
     {
       "country": "MY",
       "canonicalTitleEn": "Malaysia Day",
       "occurrence2026": "2026-09-16",
       "recurrenceRule": "FIXED",
-      "source": "https://my.nepalembassy.gov.np/pages/public-holidays--2083---2026-27-/",
+      "source": "https://www.kln.gov.my/web/gbr_london/holidays",
       "scope": "NATIONAL",
       "establishmentYear": null,
-      "sourceVerification": "OFFICIAL_REGISTER_OR_EMBASSY; SECONDARY_DATE_CROSSCHECK_REQUIRED_FOR_NEPAL",
+      "sourceVerification": "MALAYSIAN_MINISTRY_OF_FOREIGN_AFFAIRS_2026_CALENDAR; VERIFIED_FIXED_2026_DATE; ANNUAL_SCOPE_REVIEW_PENDING",
       "semanticDedup": "PENDING_FULL_GENERATED_CATALOG",
-      "admission": "RESEARCH_ONLY"
+      "admission": "RESEARCH_ONLY",
+      "secondarySource": "https://wbf.jknns.moh.gov.my/app/tetapanUtama"
     },
     {
       "country": "MY",
