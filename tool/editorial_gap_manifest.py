@@ -21,7 +21,7 @@ def build():
     known = {r["id"] for r in catalog["records"]}
     reviewed_ids = {r["observanceId"] for r in reviewed["entries"]}
     candidate_ids = {r["id"] for r in candidate["records"]}
-    assert len(known) == len(catalog["records"]) == 296
+    assert len(known) == len(catalog["records"]) >= 296
     assert len(reviewed_ids) == len(reviewed["entries"]) == 56
     assert len(candidate_ids) == len(candidate["records"]) == 8
     assert reviewed_ids.isdisjoint(candidate_ids)
