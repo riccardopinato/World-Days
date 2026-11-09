@@ -1,5 +1,15 @@
 # World Days
 
+## Content-first Wave04 — 456 distinct observances, 28 countries (9 November 2026)
+
+[Wave04 source and methodology](docs/CATALOG_WAVE04_15_COUNTRIES_2026-11-09.md). The offline catalog is expanded from 373 to **456 canonical identities**: **282 global** entries preserved and **174 national/institutionally recognized** entries (+83). The country selector grows from 13 to **28 countries**, adding Czechia, Slovakia, Norway, Finland, Sweden, Poland, Ireland, Netherlands, South Africa, Philippines, New Zealand, Singapore, South Korea, Argentina and Peru. New titles are localized for EN/IT/ES/FR/DE/PT, and fixed/movable recurrence rules are source-gated.
+
+**Truth and editorial distinction:** 56 Rich Editorial stories currently REVIEWED and shipped; 25 complete six-locale candidate drafts remain **PENDING qualified human/source review**, not runtime approved; 375 records still lack researched in-depth narratives. 65 introduced years are source-supported, unknown 391 show `*`. The new metadata records are not misrepresented as 83 approved histories. The Finnish Almanac customary flag days are *institutionally recognized*, not government-established statutory holidays.
+
+Content revision **2026.11.09.4**, original 373 IDs and user preferences preserved. The 1,000+ unique-date ambition remains **open (544+ new sourced records still required)**.
+
+**Owner pause:** APK creation/signing, Android physical certification, Play Billing and Google Play release all remain SUSPENDED. Only source Flutter CI and Web Preview may run. Old figures farther down this README remain historical snapshots, not the latest source truth.
+
 ## Content Wave03 — 13 countries, 373 verified-identity observances (9 November 2026)
 
 Source candidate built by [World Days Country Wave03](docs/COUNTRY_WAVE03_SIX_NEW_MARKETS_2026-11-09.md): **373 canonical observances** = **282 GLOBAL + 91 NATIONAL**, adding 19 primary-source country records beyond the previous 354. Six additional selectable countries **Canada, Australia, Brazil, Mexico, India and Japan** bring the total to **13** countries. Their names and all record titles are available across EN/IT/ES/FR/DE/PT. National observances and shared global days remain separate in country browsing. Content version **2026.11.09.3**.

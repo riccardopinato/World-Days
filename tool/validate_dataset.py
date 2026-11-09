@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 from market_expansion import load_expansion, load_wave02, load_wave03
+from market_wave04 import load_wave04
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -52,7 +53,9 @@ wave02 = load_wave02()
 expected_market.update({row['id']: row['country'] for row in wave02['records']})
 wave03 = load_wave03()
 expected_market.update({row['id']: row['country'] for row in wave03['records']})
-assert len(ids) == len(records) == 373, ('catalog growth total', len(records))
+wave04 = load_wave04()
+expected_market.update({row['id']: row['country'] for row in wave04})
+assert len(ids) == len(records) == 456, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -115,9 +118,13 @@ for record in records:
     if record.get('scope') == 'NATIONAL':
         countries = record.get('countries', [])
         assert len(countries) == 1, f"national record must have one country: {record.get('id')}"
-        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP'}, record.get('id')
-        assert officiality == 'OFFICIAL_INSTITUTIONAL', record.get('id')
-        assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
+        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE'}, record.get('id')
+        assert officiality in {'OFFICIAL_INSTITUTIONAL', 'RECOGNIZED_INSTITUTIONAL'}, record.get('id')
+        if officiality == 'OFFICIAL_INSTITUTIONAL':
+            assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
+        else:
+            assert record['authority']['type'] == 'UNIVERSITY', record.get('id')
+            assert any((s.get('tier') == 'D_ORIGINATOR') for s in sources), record.get('id')
 
 assert expected_consumer.issubset(known), f"missing curated consumer ids: {sorted(expected_consumer - known)}"
 assert set(expected_market).issubset(known), f"missing market ids: {sorted(set(expected_market) - known)}"
@@ -181,6 +188,30 @@ market_vectors = {
     'japan-national-foundation-day': ['2026-02-11'],
     'japan-constitution-memorial-day': ['2026-05-03'],
     'japan-culture-day': ['2026-11-03'],
+    'cz-independent-state-restoration': ['2026-01-01'],
+    'cz-czechoslovak-independence-day': ['2026-10-28'],
+    'sk-national-uprising-day': ['2026-08-29'],
+    'no-constitution-day': ['2026-05-17'],
+    'fi-kalevala-day': ['2026-02-28'],
+    'fi-finnish-nature-day': ['2026-08-29'],
+    'se-national-day': ['2026-06-06'],
+    'pl-flag-day': ['2026-05-02'],
+    'ie-st-brigids-day': ['2026-02-01'],
+    'nl-kings-day': ['2026-04-27'],
+    'za-human-rights-day': ['2026-03-21'],
+    'za-reconciliation-day': ['2026-12-16'],
+    'ph-edsa-people-power-anniversary': ['2026-02-25'],
+    'ph-national-heroes-day': ['2026-08-31'],
+    'nz-waitangi-day': ['2026-02-06'],
+    'nz-labour-day': ['2026-10-26'],
+    'sg-total-defence-day': ['2026-02-15'],
+    'sg-national-day': ['2026-08-09'],
+    'kr-hangeul-day': ['2026-10-09'],
+    'kr-constitution-day': ['2026-07-17'],
+    'ar-memory-truth-justice-day': ['2026-03-24'],
+    'ar-national-sovereignty-day': ['2026-11-20'],
+    'pe-battle-of-arica-flag-day': ['2026-06-07'],
+    'pe-battle-of-ayacucho-day': ['2026-12-09'],
 }
 for observance_id, expected_dates in market_vectors.items():
     actual = sorted(
