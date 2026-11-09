@@ -13,6 +13,12 @@ import '../support/world_days_test_support.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
+  late CatalogSnapshot catalog;
+  setUpAll(() async {
+    // Load asset bundles outside testWidgets' fake-async zone.
+    catalog = await const CatalogRepository().load();
+  });
+
   testWidgets('Saved handles all bundled observances marked as favorites',
       (tester) async {
     tester.view.physicalSize = const Size(390, 844);
@@ -20,7 +26,6 @@ void main() {
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
 
-    final catalog = await const CatalogRepository().load();
     final favorites = {for (final item in catalog.records) item.id};
     final controller = await buildLoadedTestController(
       catalog: catalog,
@@ -55,5 +60,5 @@ void main() {
       'pump_wall_ms': stopwatch.elapsedMicroseconds / 1000,
     };
     debugPrint('WORLD_DAYS_SAVED_STRESS|${jsonEncode(metrics)}');
-  });
+  }, timeout: const Timeout(Duration(seconds: 60)));
 }
