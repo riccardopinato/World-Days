@@ -12,6 +12,7 @@ from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 SRC=ROOT/"data/research/FAST01_PARALLEL_22_DATE_AND_SCOPE_20261110.json"
 QUEUE=ROOT/"reports/research_fast_batches.json"
+STAGED=ROOT/"data/research/staged_pr68_civic_12_20261110.json"
 COUNTS={"BD":3,"CA":1,"ID":2,"IN":1,"KH":8,"LA":2,"MY":2,"PH":1,"VN":2}
 MUST_HAVE={
 "National Day of Observance for COVID-19":"RECENT_OR_DISCRETIONARY_DESIGNATION",
@@ -30,9 +31,21 @@ def main():
     assert d["schemaVersion"]==1
     assert d["candidateCount"]==len(d["records"])==22
     assert d["countryCounts"]==COUNTS
-    assert q["fastLaneTotal"]==22
-    assert len(q["batches"])==1 and q["batches"][0]["count"]==22
+    assert q["fastLaneTotal"]==10
+    assert len(q["batches"])==1 and q["batches"][0]["count"]==10
     expected={(r["country"],r["title"],r["date2026"]):r for r in q["batches"][0]["items"]}
+    staged=json.loads(STAGED.read_text(encoding="utf-8"))
+    assert staged["recordCount"]==len(staged["items"])==12
+    staged_keys={(r["country"],r["candidateTitle"]) for r in staged["items"]}
+    assert len(staged_keys)==12
+    for candidate in d["records"]:
+        ck=(candidate["country"],candidate["title"])
+        if ck in staged_keys:
+            key=(*ck,candidate["occurrence2026"])
+            assert key not in expected
+            expected[key]={"officialCalendarUrl":candidate["source"],"stagedInPR":68}
+    assert len(expected)==22
+    assert len(staged_keys & {(v["country"],v["title"]) for v in d["records"]})==12
     seen=set()
     for r in d["records"]:
         key=r["country"],r["title"],r["occurrence2026"]
