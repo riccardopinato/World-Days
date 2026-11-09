@@ -1,5 +1,17 @@
 # World Days — Active roadmap
 
+## Content-first Wave04 — 83 sourced days / 15 new markets (9 November 2026)
+
+[Source-level catalog, 83 individual records and provenance](docs/CATALOG_WAVE04_15_COUNTRIES_2026-11-09.md). Approved content-first implementation **adds 83 unique national/civic and institutionally recognized events**, making **456 unique observances (282 GLOBAL, 174 NATIONAL) across 28 country choices**. Retains all 373 canonical IDs and original colors/UX; published content revision `2026.11.09.4` after exact-source CI. New annual rules include last Monday of August (Philippines), last Saturday in August (Finnish Nature Day), fourth Monday in October (New Zealand Labour Day), along with statutorily fixed commemorations. The cultural St Brigid date remains 1 February, distinct from Ireland's conditional Monday employment holiday.
+
+**Authority separation:** government holiday calendars are `OFFICIAL_INSTITUTIONAL` and university catalogued Finnish customary flag days are `RECOGNIZED_INSTITUTIONAL` with originator evidence. Never multiply a shared GLOBAL entry into a country-specific official claim. **Only one new formal introduction year is proven**, giving 65/456, unknown 391 marked `*`.
+
+**Editorial:** 56 runtime reviewed, 25 complete six-locale drafts **awaiting human editorial and native-language review**, 375 with no researched full narrative. The Wave04 national titles and source summaries are NOT human-approved stories.
+
+**Next five maxi-steps:** (1) validate exact-head 456-record catalog, 28-market six-locale and responsive tests, original ID retention and source-tier consistency; (2) continue primary-government-source expansion in batches 50–100 with regional/source country research, aiming first at 600, then 800, then 1,000+ without duplicated international dates; (3) review the 25 drafted six-locale histories with qualified human signoff and promote per-article only when approved; (4) produce new source-backed in-depth history batches for the growing uncovered set; (5) rerun additive Audit 360 on exact-source Flutter code and country/global browsing.
+
+**Owner exclusions still active:** APK, production signing, Play Console, Android physical certification and Google Play distribution ON HOLD. Open #43/#54 are not considered completed; source-only CI and Web Preview can run. No Store-ready claim.
+
 ## Content-first milestone 03 — six new markets and 25 six-locale story candidates (9 November 2026)
 
 **Source:** [Wave03 13-country expansion](docs/COUNTRY_WAVE03_SIX_NEW_MARKETS_2026-11-09.md) and [25-story review dossier](docs/EDITORIAL_25_SIX_LOCALE_DRAFT_QA_2026-11-09.md).
