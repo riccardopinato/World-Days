@@ -54,7 +54,7 @@ def main():
     # Group by country and then title so one government calendar can be
     # checked in a single pass, instead of 5 website searches per event.
     fast.sort(key=lambda x:(x["country"],x["title"].casefold()))
-    assert len(fast)==42,len(fast)
+    assert len(fast)==22,len(fast)
     assert len(complex_items)==62,len(complex_items)
     batches=[]
     for pos in range(0,len(fast),BATCH_SIZE):
@@ -66,13 +66,13 @@ def main():
             "countryCounts":dict(sorted(Counter(x["country"] for x in rows).items())),
             "admission":"RESEARCH_REVIEW_ONLY",
         })
-    assert sum(b["count"] for b in batches)==42
-    assert [b["count"] for b in batches]==[30,12]
+    assert sum(b["count"] for b in batches)==22
+    assert [b["count"] for b in batches]==[22]
     output={
         "schemaVersion":1,"catalogMain":456,
-        "stagedInConsolidatedPR67":16,
-        "confirmedDateResearchButNotAdmitted":104,
-        "fastLaneTotal":42,"complexLaneTotal":62,
+        "stagedInConsolidatedPR67":36,
+        "confirmedDateResearchButNotAdmitted":84,
+        "fastLaneTotal":22,"complexLaneTotal":62,
         "nepalBlock":9,"alreadyCataloguedDuplicates":24,
         "batchSize":BATCH_SIZE,"batches":batches,
         "note":"Queue priority is not certification. Government primary 2026 date can be checked once per official register; 5 mirrors do not add independence, and annual identity/semantic/translation checks remain mandatory.",
@@ -81,6 +81,6 @@ def main():
     OUTPUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("FAST BULK QUEUE PASS "+json.dumps({
         "batches":[{"id":b["batchId"],"count":b["count"],"countries":b["countryCounts"]} for b in batches],
-        "readyForRuntime":0,"pendingSemanticOrDateChecks":42,
+        "readyForRuntime":0,"pendingSemanticOrDateChecks":22,
     },sort_keys=True))
 if __name__=="__main__":main()
