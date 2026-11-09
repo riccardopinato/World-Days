@@ -311,3 +311,15 @@ User decision: postpone APK work, Android certification, Google Play and publica
 - Editorial publication requires EN/IT/ES/FR/DE/PT parity, chronology review, copyright compliance and an incremented content pack version with original UI, favorites, ads consent and purchases unaffected.
 - Long-term ambition: progressively widen the eligible countries and target a genuinely broad 1,000+-record catalog combining institutional global days, distinctive national/regional observances and carefully labeled recognized/personal-interest days. This is a research target, NOT a claim that 1,000 official dates currently exist or have been reviewed.
 - Publication and device performance certification remain on hold at owner request; source/Flutter CI may continue. Reopen release gates only after explicit new user authorization.
+
+17. CONTENT-FIRST COUNTRY WAVE02 — 2026-11-09
+
+Execution details of the already approved content-first expansion in Section 16; not a new release authorization.
+
+- Add 15 source-backed national and civic commemorations: ES +4, DE +2, PT +5, GB +4. Target canonical catalog 354 DISTINCT identities = 282 GLOBAL + 72 NATIONAL, version 2026.11.09.2. Existing 339 canonical IDs, favorites, recurrences and localized UI remain stable.
+- Current per-country NATIONAL totals after this wave: IT 25, ES 8, FR 9, DE 4, PT 9, GB 8, US 9. International items remain in a separate shared global section, not duplicated seven times or renamed as nationally proclaimed.
+- Every new record must point to exact government, statute or official institutional source evidence; the national recognition year is distinct from the older historical event, the first celebration and public holiday status.
+- An English chronology/rationale in the research ledger is metadata evidence, NOT a published REVIEWED history. The new 8 original EN/IT long-form drafts remain PENDING editorial + translation for ES/FR/DE/PT. Existing 56 runtime reviewed articles and earlier 17 drafts remain unchanged.
+- Aggregate editorial stages: 56 reviewed, 8 Wave04 six-language drafts, 9 Country Wave01 EN/IT drafts, 8 Country Wave02 EN/IT drafts and 273 entries without researched full narrative. Introduced years explicitly proved by primary evidence: 51; unknown remains *.
+- Six-locale titles and reliable offline metadata are allowed for the new records; auto-publishing six-locale historical prose before human review is NOT approved. Changes to Ads, Billing, Login, native permissions, signed APK, Android testing and Play Console are excluded/on hold.
+- Source of this wave: docs/CATALOG_GROWTH_COUNTRY_WAVE02_2026-11-09.md; verification gates are the source-pinned Market Wave02 validator and Flutter development checks.
