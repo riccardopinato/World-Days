@@ -53,7 +53,9 @@ def main():
     # UNESCO Islamic Art and Japan Children's Day can appear in the 20
     # similarity flags as DISTINCT events, without becoming a duplicate.
     assert not (pr65 & set(evidence))
-    assert not (set(evidence) & set(decisions))
+    assert not (set(evidence) & duplicate_decisions)
+    # Date verification may overlap a dismissed similarity alert (e.g.
+    # Japanese Children\'s Day versus UN World Children\'s Day).
     source_rows={key(x["researchFile"],x["title"]):x for x in a["candidateResults"]}
     assert len(source_rows)==153
     assert set(decisions)<=set(source_rows)
