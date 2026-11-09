@@ -1,0 +1,1490 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-national-wave04-europe-2026-11-09",
+  "reviewStatus": "SOURCE_VERIFIED_METADATA_ONLY_HUMAN_EDITORIAL_NOT_APPROVED",
+  "sourceReviewedOn": "2026-11-09",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 43,
+  "countryCounts": {
+    "CZ": 7,
+    "SK": 6,
+    "NO": 5,
+    "FI": 15,
+    "SE": 1,
+    "PL": 5,
+    "IE": 2,
+    "NL": 2
+  },
+  "records": [
+    {
+      "id": "cz-independent-state-restoration",
+      "country": "CZ",
+      "canonicalTitleEn": "Independent Czech State Restoration Day — Czechia",
+      "localizedTitles": {
+        "en": "Independent Czech State Restoration Day — Czechia",
+        "it": "Giornata della restaurazione dello Stato ceco — Cechia",
+        "es": "Día de la restauración del Estado checo — Chequia",
+        "fr": "Jour du rétablissement de l’État tchèque — Tchéquie",
+        "de": "Tag der Wiederherstellung des tschechischen Staates — Tschechien",
+        "pt": "Dia da restauração do Estado checo — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 1
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Independent Czech State Restoration Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":1,\"day\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Independent Czech State Restoration Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-victory-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Victory Day — Czechia",
+      "localizedTitles": {
+        "en": "Victory Day — Czechia",
+        "it": "Giornata della Vittoria — Cechia",
+        "es": "Día de la Victoria — Chequia",
+        "fr": "Jour de la Victoire — Tchéquie",
+        "de": "Tag des Sieges — Tschechien",
+        "pt": "Dia da Vitória — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Victory Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":8}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Victory Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-cyril-methodius-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Saints Cyril and Methodius Day — Czechia",
+      "localizedTitles": {
+        "en": "Saints Cyril and Methodius Day — Czechia",
+        "it": "Giornata dei santi Cirillo e Metodio — Cechia",
+        "es": "Día de los santos Cirilo y Metodio — Chequia",
+        "fr": "Fête des saints Cyrille et Méthode — Tchéquie",
+        "de": "Tag der heiligen Kyrill und Method — Tschechien",
+        "pt": "Dia dos santos Cirilo e Metódio — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 5
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Saints Cyril and Methodius Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":5}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Saints Cyril and Methodius Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-jan-hus-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Jan Hus Remembrance Day — Czechia",
+      "localizedTitles": {
+        "en": "Jan Hus Remembrance Day — Czechia",
+        "it": "Giornata in memoria di Jan Hus — Cechia",
+        "es": "Día en memoria de Jan Hus — Chequia",
+        "fr": "Journée du souvenir de Jan Hus — Tchéquie",
+        "de": "Jan-Hus-Gedenktag — Tschechien",
+        "pt": "Dia em memória de Jan Hus — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 6
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Jan Hus Remembrance Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Jan Hus Remembrance Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-statehood-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Statehood Day — Czechia",
+      "localizedTitles": {
+        "en": "Czech Statehood Day — Czechia",
+        "it": "Giornata della statualità ceca — Cechia",
+        "es": "Día de la Estatalidad Checa — Chequia",
+        "fr": "Journée de l’État tchèque — Tchéquie",
+        "de": "Tag der tschechischen Staatlichkeit — Tschechien",
+        "pt": "Dia da Estatalidade Checa — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 28
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Czech Statehood Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":9,\"day\":28}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Czech Statehood Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-czechoslovak-independence-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czechoslovak Independence Commemoration — Czechia",
+      "localizedTitles": {
+        "en": "Czechoslovak Independence Commemoration — Czechia",
+        "it": "Commemorazione dell’indipendenza cecoslovacca — Cechia",
+        "es": "Conmemoración de la independencia checoslovaca — Chequia",
+        "fr": "Commémoration de l’indépendance tchécoslovaque — Tchéquie",
+        "de": "Gedenken an die tschechoslowakische Unabhängigkeit — Tschechien",
+        "pt": "Comemoração da independência checoslovaca — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 28
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Czechoslovak Independence Commemoration on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":28}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Czechoslovak Independence Commemoration. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "cz-freedom-democracy-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Struggle for Freedom and Democracy Day — Czechia",
+      "localizedTitles": {
+        "en": "Struggle for Freedom and Democracy Day — Czechia",
+        "it": "Giornata della lotta per la libertà e la democrazia — Cechia",
+        "es": "Día de la Lucha por la Libertad y la Democracia — Chequia",
+        "fr": "Journée de la lutte pour la liberté et la démocratie — Tchéquie",
+        "de": "Tag des Kampfes für Freiheit und Demokratie — Tschechien",
+        "pt": "Dia da Luta pela Liberdade e Democracia — Chéquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 17
+        }
+      ],
+      "source": "https://e-sbirka.gov.cz/sb/2000/245",
+      "authority": "Parliament of Czechia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Parliament of Czechia documents Struggle for Freedom and Democracy Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":17}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Struggle for Freedom and Democracy Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-slovak-state-establishment-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Republic Establishment Day — Slovakia",
+      "localizedTitles": {
+        "en": "Slovak Republic Establishment Day — Slovakia",
+        "it": "Giornata della nascita della Repubblica slovacca — Slovacchia",
+        "es": "Día de la Constitución de la República Eslovaca — Eslovaquia",
+        "fr": "Jour de la création de la République slovaque — Slovaquie",
+        "de": "Tag der Gründung der Slowakischen Republik — Slowakei",
+        "pt": "Dia da Criação da República Eslovaca — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 1
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Slovak Republic Establishment Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":1,\"day\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Slovak Republic Establishment Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-cyril-methodius-day",
+      "country": "SK",
+      "canonicalTitleEn": "Saints Cyril and Methodius Day — Slovakia",
+      "localizedTitles": {
+        "en": "Saints Cyril and Methodius Day — Slovakia",
+        "it": "Giornata dei santi Cirillo e Metodio — Slovacchia",
+        "es": "Día de los santos Cirilo y Metodio — Eslovaquia",
+        "fr": "Fête des saints Cyrille et Méthode — Slovaquie",
+        "de": "Tag der heiligen Kyrill und Method — Slowakei",
+        "pt": "Dia dos santos Cirilo e Metódio — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 5
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Saints Cyril and Methodius Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":5}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Saints Cyril and Methodius Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-national-uprising-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak National Uprising Anniversary — Slovakia",
+      "localizedTitles": {
+        "en": "Slovak National Uprising Anniversary — Slovakia",
+        "it": "Anniversario dell'insurrezione nazionale slovacca — Slovacchia",
+        "es": "Aniversario del Levantamiento Nacional Eslovaco — Eslovaquia",
+        "fr": "Anniversaire du soulèvement national slovaque — Slovaquie",
+        "de": "Jahrestag des Slowakischen Nationalaufstands — Slowakei",
+        "pt": "Aniversário da Insurreição Nacional Eslovaca — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 29
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Slovak National Uprising Anniversary on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":29}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Slovak National Uprising Anniversary. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-constitution-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Constitution Day — Slovakia",
+      "localizedTitles": {
+        "en": "Slovak Constitution Day — Slovakia",
+        "it": "Giornata della Costituzione slovacca — Slovacchia",
+        "es": "Día de la Constitución Eslovaca — Eslovaquia",
+        "fr": "Jour de la Constitution slovaque — Slovaquie",
+        "de": "Tag der slowakischen Verfassung — Slowakei",
+        "pt": "Dia da Constituição Eslovaca — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 1
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Slovak Constitution Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":9,\"day\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Slovak Constitution Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-czechoslovak-state-day",
+      "country": "SK",
+      "canonicalTitleEn": "Czechoslovak State Establishment Day — Slovakia",
+      "localizedTitles": {
+        "en": "Czechoslovak State Establishment Day — Slovakia",
+        "it": "Giornata della nascita dello Stato cecoslovacco — Slovacchia",
+        "es": "Día de la fundación del Estado checoslovaco — Eslovaquia",
+        "fr": "Jour de la création de l’État tchécoslovaque — Slovaquie",
+        "de": "Tag der Gründung des tschechoslowakischen Staates — Slowakei",
+        "pt": "Dia da Criação do Estado Checoslovaco — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 28
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Czechoslovak State Establishment Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":28}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Czechoslovak State Establishment Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "sk-freedom-democracy-day",
+      "country": "SK",
+      "canonicalTitleEn": "Struggle for Freedom and Democracy Day — Slovakia",
+      "localizedTitles": {
+        "en": "Struggle for Freedom and Democracy Day — Slovakia",
+        "it": "Giornata della lotta per la libertà e la democrazia — Slovacchia",
+        "es": "Día de la Lucha por la Libertad y la Democracia — Eslovaquia",
+        "fr": "Journée de la lutte pour la liberté et la démocratie — Slovaquie",
+        "de": "Tag des Kampfes für Freiheit und Demokratie — Slowakei",
+        "pt": "Dia da Luta pela Liberdade e Democracia — Eslováquia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 17
+        }
+      ],
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "authority": "Government of the Slovak Republic",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Slovak Republic documents Struggle for Freedom and Democracy Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":17}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Struggle for Freedom and Democracy Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "no-sami-peoples-day",
+      "country": "NO",
+      "canonicalTitleEn": "Sámi People's Day — Norway",
+      "localizedTitles": {
+        "en": "Sámi People's Day — Norway",
+        "it": "Giornata del popolo sámi — Norvegia",
+        "es": "Día del Pueblo Sami — Noruega",
+        "fr": "Journée du peuple sámi — Norvège",
+        "de": "Tag des samischen Volkes — Norwegen",
+        "pt": "Dia do Povo Sámi — Noruega"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 6
+        }
+      ],
+      "source": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "authority": "Norwegian Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Norwegian Ministry of Foreign Affairs documents Sámi People's Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Sámi People's Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "no-liberation-day",
+      "country": "NO",
+      "canonicalTitleEn": "Liberation Day — Norway",
+      "localizedTitles": {
+        "en": "Liberation Day — Norway",
+        "it": "Giornata della Liberazione — Norvegia",
+        "es": "Día de la Liberación — Noruega",
+        "fr": "Jour de la Libération — Norvège",
+        "de": "Tag der Befreiung — Norwegen",
+        "pt": "Dia da Libertação — Noruega"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "source": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "authority": "Norwegian Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Norwegian Ministry of Foreign Affairs documents Liberation Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":8}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Liberation Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "no-constitution-day",
+      "country": "NO",
+      "canonicalTitleEn": "Constitution Day — Norway",
+      "localizedTitles": {
+        "en": "Constitution Day — Norway",
+        "it": "Giornata della Costituzione — Norvegia",
+        "es": "Día de la Constitución — Noruega",
+        "fr": "Fête de la Constitution — Norvège",
+        "de": "Tag der Verfassung — Norwegen",
+        "pt": "Dia da Constituição — Noruega"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 17
+        }
+      ],
+      "source": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "authority": "Norwegian Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Norwegian Ministry of Foreign Affairs documents Constitution Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":17}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Constitution Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "no-union-dissolution-day",
+      "country": "NO",
+      "canonicalTitleEn": "Union Dissolution Commemoration — Norway",
+      "localizedTitles": {
+        "en": "Union Dissolution Commemoration — Norway",
+        "it": "Commemorazione dello scioglimento dell'Unione — Norvegia",
+        "es": "Conmemoración de la disolución de la Unión — Noruega",
+        "fr": "Commémoration de la dissolution de l’Union — Norvège",
+        "de": "Gedenken an die Auflösung der Union — Norwegen",
+        "pt": "Comemoração da Dissolução da União — Noruega"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 7
+        }
+      ],
+      "source": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "authority": "Norwegian Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Norwegian Ministry of Foreign Affairs documents Union Dissolution Commemoration on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":7}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Union Dissolution Commemoration. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "no-st-olav-day",
+      "country": "NO",
+      "canonicalTitleEn": "Saint Olav Day — Norway",
+      "localizedTitles": {
+        "en": "Saint Olav Day — Norway",
+        "it": "Giornata di sant'Olav — Norvegia",
+        "es": "Día de San Olaf — Noruega",
+        "fr": "Fête de saint Olaf — Norvège",
+        "de": "Sankt-Olav-Tag — Norwegen",
+        "pt": "Dia de Santo Olavo — Noruega"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 29
+        }
+      ],
+      "source": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "authority": "Norwegian Ministry of Foreign Affairs",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Norwegian Ministry of Foreign Affairs documents Saint Olav Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":29}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Saint Olav Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-finnish-architecture-design-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Architecture and Design Day — Finland",
+      "localizedTitles": {
+        "en": "Finnish Architecture and Design Day — Finland",
+        "it": "Giornata finlandese dell'architettura e del design — Finlandia",
+        "es": "Día finlandés de la Arquitectura y el Diseño — Finlandia",
+        "fr": "Journée finlandaise de l’architecture et du design — Finlande",
+        "de": "Finnischer Tag der Architektur und des Designs — Finnland",
+        "pt": "Dia Finlandês da Arquitetura e do Design — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 3
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "RECOMMENDED_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Finnish Architecture and Design Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":3}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Finnish Architecture and Design Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-runeberg-day",
+      "country": "FI",
+      "canonicalTitleEn": "J. L. Runeberg Day — Finland",
+      "localizedTitles": {
+        "en": "J. L. Runeberg Day — Finland",
+        "it": "Giornata di J. L. Runeberg — Finlandia",
+        "es": "Día de J. L. Runeberg — Finlandia",
+        "fr": "Journée de J. L. Runeberg — Finlande",
+        "de": "J.-L.-Runeberg-Tag — Finnland",
+        "pt": "Dia de J. L. Runeberg — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 5
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents J. L. Runeberg Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":5}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for J. L. Runeberg Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-kalevala-day",
+      "country": "FI",
+      "canonicalTitleEn": "Kalevala and Finnish Culture Day — Finland",
+      "localizedTitles": {
+        "en": "Kalevala and Finnish Culture Day — Finland",
+        "it": "Giornata del Kalevala e della cultura finlandese — Finlandia",
+        "es": "Día del Kalevala y de la cultura finlandesa — Finlandia",
+        "fr": "Journée du Kalevala et de la culture finlandaise — Finlande",
+        "de": "Kalevala-Tag und Tag der finnischen Kultur — Finnland",
+        "pt": "Dia do Kalevala e da Cultura Finlandesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 28
+        }
+      ],
+      "source": "https://www.finlex.fi/en/legislation/collection/2025/1259",
+      "authority": "Government of Finland / Finlex",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Kalevala and Finnish Culture Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":28}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Kalevala and Finnish Culture Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-equality-minna-canth-day",
+      "country": "FI",
+      "canonicalTitleEn": "Minna Canth and Equality Day — Finland",
+      "localizedTitles": {
+        "en": "Minna Canth and Equality Day — Finland",
+        "it": "Giornata di Minna Canth e dell'uguaglianza — Finlandia",
+        "es": "Día de Minna Canth y de la Igualdad — Finlandia",
+        "fr": "Journée de Minna Canth et de l’égalité — Finlande",
+        "de": "Minna-Canth-Tag und Gleichstellungstag — Finnland",
+        "pt": "Dia de Minna Canth e da Igualdade — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 19
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Minna Canth and Equality Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":3,\"day\":19}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Minna Canth and Equality Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-finnish-language-day",
+      "country": "FI",
+      "canonicalTitleEn": "Mikael Agricola and Finnish Language Day — Finland",
+      "localizedTitles": {
+        "en": "Mikael Agricola and Finnish Language Day — Finland",
+        "it": "Giornata di Mikael Agricola e della lingua finlandese — Finlandia",
+        "es": "Día de Mikael Agricola y de la Lengua Finlandesa — Finlandia",
+        "fr": "Journée de Mikael Agricola et de la langue finnoise — Finlande",
+        "de": "Mikael-Agricola-Tag und Tag der finnischen Sprache — Finnland",
+        "pt": "Dia de Mikael Agricola e da Língua Finlandesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 9
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Mikael Agricola and Finnish Language Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":9}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Mikael Agricola and Finnish Language Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-war-veterans-day",
+      "country": "FI",
+      "canonicalTitleEn": "National War Veterans' Day — Finland",
+      "localizedTitles": {
+        "en": "National War Veterans' Day — Finland",
+        "it": "Giornata nazionale dei veterani di guerra — Finlandia",
+        "es": "Día Nacional de los Veteranos de Guerra — Finlandia",
+        "fr": "Journée nationale des anciens combattants — Finlande",
+        "de": "Nationaler Tag der Kriegsveteranen — Finnland",
+        "pt": "Dia Nacional dos Veteranos de Guerra — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 27
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents National War Veterans' Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":27}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for National War Veterans' Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-snellman-heritage-day",
+      "country": "FI",
+      "canonicalTitleEn": "J. V. Snellman and Finnish Heritage Day — Finland",
+      "localizedTitles": {
+        "en": "J. V. Snellman and Finnish Heritage Day — Finland",
+        "it": "Giornata di J. V. Snellman e del patrimonio finlandese — Finlandia",
+        "es": "Día de J. V. Snellman y del Patrimonio Finlandés — Finlandia",
+        "fr": "Journée de J. V. Snellman et du patrimoine finlandais — Finlande",
+        "de": "J.-V.-Snellman-Tag und Tag des finnischen Kulturerbes — Finnland",
+        "pt": "Dia de J. V. Snellman e do Património Finlandês — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 12
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents J. V. Snellman and Finnish Heritage Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":12}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for J. V. Snellman and Finnish Heritage Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-defence-forces-flag-day",
+      "country": "FI",
+      "canonicalTitleEn": "Defence Forces Flag Day — Finland",
+      "localizedTitles": {
+        "en": "Defence Forces Flag Day — Finland",
+        "it": "Giornata della bandiera delle Forze di difesa — Finlandia",
+        "es": "Día de la Bandera de las Fuerzas de Defensa — Finlandia",
+        "fr": "Journée du drapeau des forces de défense — Finlande",
+        "de": "Flaggentag der Verteidigungskräfte — Finnland",
+        "pt": "Dia da Bandeira das Forças de Defesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 4
+        }
+      ],
+      "source": "https://www.finlex.fi/en/legislation/collection/2025/1259",
+      "authority": "Government of Finland / Finlex",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Defence Forces Flag Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":4}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Defence Forces Flag Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-eino-leino-poetry-day",
+      "country": "FI",
+      "canonicalTitleEn": "Eino Leino and Poetry Day — Finland",
+      "localizedTitles": {
+        "en": "Eino Leino and Poetry Day — Finland",
+        "it": "Giornata di Eino Leino e della poesia — Finlandia",
+        "es": "Día de Eino Leino y de la Poesía — Finlandia",
+        "fr": "Journée d’Eino Leino et de la poésie — Finlande",
+        "de": "Eino-Leino-Tag und Tag der Dichtung — Finnland",
+        "pt": "Dia de Eino Leino e da Poesia — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 6
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Eino Leino and Poetry Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Eino Leino and Poetry Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-finnish-nature-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Nature Day — Finland",
+      "localizedTitles": {
+        "en": "Finnish Nature Day — Finland",
+        "it": "Giornata della natura finlandese — Finlandia",
+        "es": "Día de la Naturaleza Finlandesa — Finlandia",
+        "fr": "Journée de la nature finlandaise — Finlande",
+        "de": "Tag der finnischen Natur — Finnland",
+        "pt": "Dia da Natureza Finlandesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "LAST_WEEKDAY",
+          "month": 8,
+          "weekday": 6
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "PLANET",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Finnish Nature Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"LAST_WEEKDAY\",\"month\":8,\"weekday\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Finnish Nature Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-civic-participation-day",
+      "country": "FI",
+      "canonicalTitleEn": "Miina Sillanpää and Civic Participation Day — Finland",
+      "localizedTitles": {
+        "en": "Miina Sillanpää and Civic Participation Day — Finland",
+        "it": "Giornata di Miina Sillanpää e della partecipazione civica — Finlandia",
+        "es": "Día de Miina Sillanpää y de la Participación Cívica — Finlandia",
+        "fr": "Journée de Miina Sillanpää et de la participation civique — Finlande",
+        "de": "Miina-Sillanpää-Tag und Tag der Bürgerbeteiligung — Finnland",
+        "pt": "Dia de Miina Sillanpää e da Participação Cívica — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 1
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Miina Sillanpää and Civic Participation Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Miina Sillanpää and Civic Participation Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-finnish-literature-day",
+      "country": "FI",
+      "canonicalTitleEn": "Aleksis Kivi and Finnish Literature Day — Finland",
+      "localizedTitles": {
+        "en": "Aleksis Kivi and Finnish Literature Day — Finland",
+        "it": "Giornata di Aleksis Kivi e della letteratura finlandese — Finlandia",
+        "es": "Día de Aleksis Kivi y de la Literatura Finlandesa — Finlandia",
+        "fr": "Journée d’Aleksis Kivi et de la littérature finlandaise — Finlande",
+        "de": "Aleksis-Kivi-Tag und Tag der finnischen Literatur — Finnland",
+        "pt": "Dia de Aleksis Kivi e da Literatura Finlandesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 10
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Aleksis Kivi and Finnish Literature Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":10}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Aleksis Kivi and Finnish Literature Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-swedish-heritage-day",
+      "country": "FI",
+      "canonicalTitleEn": "Swedish Heritage Day — Finland",
+      "localizedTitles": {
+        "en": "Swedish Heritage Day — Finland",
+        "it": "Giornata del patrimonio svedese in Finlandia — Finlandia",
+        "es": "Día del Patrimonio Sueco en Finlandia — Finlandia",
+        "fr": "Journée du patrimoine suédois en Finlande — Finlande",
+        "de": "Tag des schwedischen Kulturerbes in Finnland — Finnland",
+        "pt": "Dia do Património Sueco na Finlândia — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 6
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Swedish Heritage Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Swedish Heritage Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-finnish-independence-day",
+      "country": "FI",
+      "canonicalTitleEn": "Independence Day — Finland",
+      "localizedTitles": {
+        "en": "Independence Day — Finland",
+        "it": "Giornata dell'Indipendenza — Finlandia",
+        "es": "Día de la Independencia — Finlandia",
+        "fr": "Fête de l’Indépendance — Finlande",
+        "de": "Unabhängigkeitstag — Finnland",
+        "pt": "Dia da Independência — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 6
+        }
+      ],
+      "source": "https://www.finlex.fi/en/legislation/collection/2025/1259",
+      "authority": "Government of Finland / Finlex",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Independence Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Independence Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "fi-sibelius-finnish-music-day",
+      "country": "FI",
+      "canonicalTitleEn": "Jean Sibelius and Finnish Music Day — Finland",
+      "localizedTitles": {
+        "en": "Jean Sibelius and Finnish Music Day — Finland",
+        "it": "Giornata di Jean Sibelius e della musica finlandese — Finlandia",
+        "es": "Día de Jean Sibelius y de la Música Finlandesa — Finlandia",
+        "fr": "Journée de Jean Sibelius et de la musique finlandaise — Finlande",
+        "de": "Jean-Sibelius-Tag und Tag der finnischen Musik — Finnland",
+        "pt": "Dia de Jean Sibelius e da Música Finlandesa — Finlândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 8
+        }
+      ],
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "sourceTier": "D_ORIGINATOR",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "CUSTOMARY_FLAG_DAY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "University of Helsinki Almanac Office documents Jean Sibelius and Finnish Music Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":8}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Jean Sibelius and Finnish Music Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "se-national-day",
+      "country": "SE",
+      "canonicalTitleEn": "National Day — Sweden",
+      "localizedTitles": {
+        "en": "National Day — Sweden",
+        "it": "Giornata nazionale — Svezia",
+        "es": "Día Nacional — Suecia",
+        "fr": "Fête nationale — Suède",
+        "de": "Nationalfeiertag — Schweden",
+        "pt": "Dia Nacional — Suécia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 6
+        }
+      ],
+      "source": "https://government.se/press-releases/2025/11/circular-note-22025-public-holidays-in-sweden-2026/",
+      "authority": "Government of Sweden",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Sweden documents National Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":6}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for National Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "pl-flag-day",
+      "country": "PL",
+      "canonicalTitleEn": "National Flag Day — Poland",
+      "localizedTitles": {
+        "en": "National Flag Day — Poland",
+        "it": "Giornata della bandiera nazionale — Polonia",
+        "es": "Día de la Bandera Nacional — Polonia",
+        "fr": "Journée du drapeau national — Pologne",
+        "de": "Tag der Nationalflagge — Polen",
+        "pt": "Dia da Bandeira Nacional — Polónia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 2
+        }
+      ],
+      "source": "https://www.gov.pl/web/dyplomacja/dzien-flagi-rzeczypospolitej-polskiej",
+      "authority": "Government of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": 2004,
+      "introducedYearSource": "https://www.gov.pl/web/dyplomacja/dzien-flagi-rzeczypospolitej-polskiej",
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Poland documents National Flag Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":2}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for National Flag Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "pl-constitution-day",
+      "country": "PL",
+      "canonicalTitleEn": "Constitution of 3 May Day — Poland",
+      "localizedTitles": {
+        "en": "Constitution of 3 May Day — Poland",
+        "it": "Festa della Costituzione del 3 maggio — Polonia",
+        "es": "Día de la Constitución del 3 de Mayo — Polonia",
+        "fr": "Fête de la Constitution du 3 mai — Pologne",
+        "de": "Tag der Verfassung vom 3. Mai — Polen",
+        "pt": "Dia da Constituição de 3 de Maio — Polónia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 3
+        }
+      ],
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "authority": "Government of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Poland documents Constitution of 3 May Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":3}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Constitution of 3 May Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "pl-armed-forces-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish Armed Forces Day — Poland",
+      "localizedTitles": {
+        "en": "Polish Armed Forces Day — Poland",
+        "it": "Giornata delle Forze armate polacche — Polonia",
+        "es": "Día de las Fuerzas Armadas Polacas — Polonia",
+        "fr": "Journée des forces armées polonaises — Pologne",
+        "de": "Tag der polnischen Streitkräfte — Polen",
+        "pt": "Dia das Forças Armadas Polacas — Polónia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 15
+        }
+      ],
+      "source": "https://www.gov.pl/web/obrona-narodowa/swieto-wojska-polskiego-2026",
+      "authority": "Government of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Poland documents Polish Armed Forces Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":15}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Polish Armed Forces Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "pl-independence-day",
+      "country": "PL",
+      "canonicalTitleEn": "National Independence Day — Poland",
+      "localizedTitles": {
+        "en": "National Independence Day — Poland",
+        "it": "Giornata nazionale dell'indipendenza — Polonia",
+        "es": "Día Nacional de la Independencia — Polonia",
+        "fr": "Fête nationale de l’indépendance — Pologne",
+        "de": "Nationaler Unabhängigkeitstag — Polen",
+        "pt": "Dia Nacional da Independência — Polónia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 11
+        }
+      ],
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "authority": "Government of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Poland documents National Independence Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":11}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for National Independence Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "pl-greater-poland-uprising-victory-day",
+      "country": "PL",
+      "canonicalTitleEn": "Greater Poland Uprising Victory Day — Poland",
+      "localizedTitles": {
+        "en": "Greater Poland Uprising Victory Day — Poland",
+        "it": "Giornata della vittoria dell'insurrezione della Grande Polonia — Polonia",
+        "es": "Día de la Victoria del Levantamiento de Gran Polonia — Polonia",
+        "fr": "Journée de la victoire de l’insurrection de Grande-Pologne — Pologne",
+        "de": "Tag des Sieges des Großpolnischen Aufstands — Polen",
+        "pt": "Dia da Vitória da Insurreição da Grande Polónia — Polónia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 27
+        }
+      ],
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "authority": "Government of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of Poland documents Greater Poland Uprising Victory Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":27}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Greater Poland Uprising Victory Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "ie-st-brigids-public-holiday",
+      "country": "IE",
+      "canonicalTitleEn": "Saint Brigid's Public Holiday — Ireland",
+      "localizedTitles": {
+        "en": "Saint Brigid's Public Holiday — Ireland",
+        "it": "Festa pubblica di santa Brigida — Irlanda",
+        "es": "Festivo de Santa Brígida — Irlanda",
+        "fr": "Jour férié de sainte Brigitte — Irlande",
+        "de": "Feiertag der heiligen Brigid — Irland",
+        "pt": "Feriado de Santa Brígida — Irlanda"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 2,
+          "weekday": 1,
+          "occurrence": 1
+        }
+      ],
+      "source": "https://www.gov.ie/en/department-of-the-taoiseach/press-releases/government-agrees-covid-recognition-payment-and-new-public-holiday/",
+      "authority": "Workplace Relations Commission / Government of Ireland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": 2023,
+      "introducedYearSource": "https://www.gov.ie/en/department-of-the-taoiseach/press-releases/government-agrees-covid-recognition-payment-and-new-public-holiday/",
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Workplace Relations Commission / Government of Ireland documents Saint Brigid's Public Holiday on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"NTH_WEEKDAY\",\"month\":2,\"weekday\":1,\"occurrence\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Saint Brigid's Public Holiday. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "ie-st-patricks-day",
+      "country": "IE",
+      "canonicalTitleEn": "Saint Patrick's Day — Ireland",
+      "localizedTitles": {
+        "en": "Saint Patrick's Day — Ireland",
+        "it": "Giornata di san Patrizio — Irlanda",
+        "es": "Día de San Patricio — Irlanda",
+        "fr": "Fête de la Saint-Patrick — Irlande",
+        "de": "St.-Patrick-Tag — Irland",
+        "pt": "Dia de São Patrício — Irlanda"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 17
+        }
+      ],
+      "source": "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/",
+      "authority": "Workplace Relations Commission / Government of Ireland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Workplace Relations Commission / Government of Ireland documents Saint Patrick's Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":3,\"day\":17}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Saint Patrick's Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "nl-kings-day",
+      "country": "NL",
+      "canonicalTitleEn": "King's Day — Netherlands",
+      "localizedTitles": {
+        "en": "King's Day — Netherlands",
+        "it": "Festa del Re — Paesi Bassi",
+        "es": "Día del Rey — Países Bajos",
+        "fr": "Fête du Roi — Pays-Bas",
+        "de": "Königstag — Niederlande",
+        "pt": "Dia do Rei — Países Baixos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 27
+        }
+      ],
+      "source": "https://www.government.nl/home/question-and-answer/work/public-holidays-in-the-netherlands",
+      "authority": "Government of the Netherlands",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Netherlands documents King's Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":27}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for King's Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    },
+    {
+      "id": "nl-liberation-day",
+      "country": "NL",
+      "canonicalTitleEn": "Liberation Day — Netherlands",
+      "localizedTitles": {
+        "en": "Liberation Day — Netherlands",
+        "it": "Giornata della Liberazione — Paesi Bassi",
+        "es": "Día de la Liberación — Países Bajos",
+        "fr": "Fête de la Libération — Pays-Bas",
+        "de": "Befreiungstag — Niederlande",
+        "pt": "Dia da Libertação — Países Baixos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "source": "https://www.government.nl/home/question-and-answer/work/public-holidays-in-the-netherlands",
+      "authority": "Government of the Netherlands",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "Government of the Netherlands documents Liberation Day on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":5}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
+      "dateRationale": "The official or institutional register gives the annual observance date for Liberation Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+    }
+  ]
+}
