@@ -27,7 +27,7 @@ void main() {
       'AU': 3,
       'BR': 3,
       'MX': 3,
-      'IN': 2,
+      'IN': 5,
       'JP': 13,
       'CZ': 7,
       'SK': 6,
@@ -74,7 +74,7 @@ void main() {
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 469);
+    expect(controller.catalog!.records.length, 472);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });
