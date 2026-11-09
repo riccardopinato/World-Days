@@ -17,7 +17,7 @@ RESEARCH = ROOT / "data/research"
 OUT = ROOT / "reports/research_certification_coverage.json"
 AUDIT = ROOT / "reports/research_semantic_audit.json"
 DECISIONS = RESEARCH / "semantic_overlap_decisions_20261109.json"
-EVIDENCE = RESEARCH / "primary_2026_calendar_verified_34_20261109.json"
+EVIDENCE = RESEARCH / "primary_2026_calendar_verified_65_20261109.json"
 LOCALES = {"en","it","es","fr","de","pt"}
 
 def key(file, title):
