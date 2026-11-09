@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "datasetId": "world-days-wave05-global-four-candidates-2026-11-09",
+  "datasetId": "world-days-wave05-three-remaining-candidates-2026-11-09",
   "candidateOnly": true,
   "baseMainSha": "9e312432b7fb46be1fc66437587d4cbe49033ad9",
-  "recordCount": 4,
+  "recordCount": 3,
   "locales": [
     "en",
     "it",
@@ -13,35 +13,8 @@
     "pt"
   ],
   "sourceReviewDate": "2026-11-09",
-  "notes": "Research pack not loaded by runtime. Exact 456-ID semantic dedup and locale/content QA required. Proclamation year differs from first observance year.",
+  "notes": "Research only. 19/22 existing globally: 18 title matches plus antimicrobial-resistance synonym; Indigenous Women and Girls already present in tool/build_dataset.py via double-quoted fixed() call. Remaining three are candidate-only, pending full 456-ID semantic dedupe, localized review and CI.",
   "records": [
-    {
-      "id": "international-day-of-the-worlds-indigenous-women-and-girls",
-      "canonicalTitleEn": "International Day of the World's Indigenous Women and Girls",
-      "date": {
-        "kind": "FIXED_DATE",
-        "month": 9,
-        "day": 5
-      },
-      "authority": "United Nations General Assembly",
-      "officiality": "OFFICIAL_UN",
-      "resolution": "A/RES/80/10",
-      "source": "https://www.un.org/en/observances/indigenous-women-day",
-      "proclamationYear": 2025,
-      "localizedTitles": {
-        "en": "International Day of the World's Indigenous Women and Girls",
-        "it": "Giornata internazionale delle donne e delle ragazze indigene del mondo",
-        "es": "Día Internacional de las Mujeres y las Niñas Indígenas del Mundo",
-        "fr": "Journée internationale des femmes et des filles autochtones du monde",
-        "de": "Internationaler Tag der indigenen Frauen und Mädchen der Welt",
-        "pt": "Dia Internacional das Mulheres e Meninas Indígenas do Mundo"
-      },
-      "scope": "GLOBAL",
-      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
-      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
-      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
-      "humanEditorialStatus": "NOT_REVIEWED"
-    },
     {
       "id": "world-day-of-romani-language",
       "canonicalTitleEn": "World Day of Romani Language",
@@ -53,7 +26,7 @@
       "authority": "UNESCO General Conference",
       "officiality": "OFFICIAL_UNESCO",
       "resolution": "38 C, 2015",
-      "source": "https://www.unesco.org/es/days/romani-language",
+      "source": "https://www.unesco.org/en/days/list",
       "proclamationYear": 2015,
       "localizedTitles": {
         "en": "World Day of Romani Language",
@@ -67,7 +40,8 @@
       "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
       "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
       "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
-      "humanEditorialStatus": "NOT_REVIEWED"
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
     },
     {
       "id": "international-day-against-illicit-trafficking-in-cultural-property",
@@ -94,7 +68,8 @@
       "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
       "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
       "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
-      "humanEditorialStatus": "NOT_REVIEWED"
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
     },
     {
       "id": "international-day-of-islamic-art",
@@ -121,7 +96,8 @@
       "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
       "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
       "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
-      "humanEditorialStatus": "NOT_REVIEWED"
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
     }
   ]
 }
