@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "wave10-asia-sri-lanka-bangladesh-laos-2026",
+  "candidateOnly": true,
+  "recordCount": 22,
+  "notes": "Sri Lanka central bank; Bangladesh Bank; Lao Ministry of Foreign Affairs eVisa. 2026 dates are occurrences only for full-moon/lunisolar/solar calendar rules. Do not count already international Mother Language Day twice. Full generated 456-catalog semantic and aliases check pending.",
+  "records": [
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Duruthu Full Moon Poya Day",
+      "occurrence2026": "2026-01-03",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Navam Full Moon Poya Day",
+      "occurrence2026": "2026-02-01",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Medin Full Moon Poya Day",
+      "occurrence2026": "2026-03-02",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Bak Full Moon Poya Day",
+      "occurrence2026": "2026-04-01",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Adhi Poson Full Moon Poya Day",
+      "occurrence2026": "2026-05-30",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Poson Full Moon Poya Day",
+      "occurrence2026": "2026-06-29",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Esala Full Moon Poya Day",
+      "occurrence2026": "2026-07-29",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Nikini Full Moon Poya Day",
+      "occurrence2026": "2026-08-27",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Binara Full Moon Poya Day",
+      "occurrence2026": "2026-09-26",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Vap Full Moon Poya Day",
+      "occurrence2026": "2026-10-25",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Ill Full Moon Poya Day",
+      "occurrence2026": "2026-11-24",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Unduvap Full Moon Poya Day",
+      "occurrence2026": "2026-12-23",
+      "recurrenceRule": "SRI_LANKA_FULL_MOON_POYA",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LK",
+      "canonicalTitleEn": "Sinhala and Tamil New Year Day",
+      "occurrence2026": "2026-04-14",
+      "recurrenceRule": "SRI_LANKAN_SOLAR_NEW_YEAR",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.cbsl.gov.lk/en/node/19362",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "Language Martyrs' Day (Shaheed Dibosh)",
+      "occurrence2026": "2026-02-21",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "Bangladesh Independence and National Day",
+      "occurrence2026": "2026-03-26",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "Pahela Baishakh (Bangladesh Bengali New Year)",
+      "occurrence2026": "2026-04-14",
+      "recurrenceRule": "BENGALI_SOLAR_CALENDAR",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "July Mass Uprising Day (Bangladesh)",
+      "occurrence2026": "2026-08-05",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "Victory Day (Bangladesh)",
+      "occurrence2026": "2026-12-16",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "BD",
+      "canonicalTitleEn": "Chaitra Sankranti (Bangladesh Hill Districts)",
+      "occurrence2026": "2026-04-13",
+      "recurrenceRule": "BENGALI_SOLAR_CALENDAR",
+      "scope": "REGIONAL_HILL_DISTRICTS",
+      "primarySource": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LA",
+      "canonicalTitleEn": "Lao New Year (Pi Mai)",
+      "occurrence2026": "2026-04-14",
+      "recurrenceRule": "MULTIDAY_APRIL_14_16",
+      "scope": "NATIONAL",
+      "primarySource": "https://laoevisa.gov.la/info",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LA",
+      "canonicalTitleEn": "Lao Women's Union Founding Day",
+      "occurrence2026": "2026-07-20",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://laoevisa.gov.la/info",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    },
+    {
+      "country": "LA",
+      "canonicalTitleEn": "Lao National Day",
+      "occurrence2026": "2026-12-02",
+      "recurrenceRule": "FIXED",
+      "scope": "NATIONAL",
+      "primarySource": "https://laoevisa.gov.la/info",
+      "establishedYear": null,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY"
+    }
+  ]
+}
