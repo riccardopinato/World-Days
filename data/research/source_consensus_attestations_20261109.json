@@ -365,6 +365,15 @@
           "reportedDate": "2026-03-21",
           "displayedEvent": "Hari Raya Puasa",
           "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://www.muis.gov.sg/resources/media-releases/announcement-by-mufti-for-the-month-of-syawal-1447h-2026-for-singapore/",
+          "publisher": "Islamic Religious Council of Singapore (MUIS)",
+          "documentOrigin": "muis-official-mufti-announcement-syawal-1447",
+          "authorityClass": "PRIMARY_ORIGINATOR",
+          "reportedDate": "2026-03-21",
+          "displayedEvent": "Mufti of Singapore confirms first day of Syawal on Saturday 21 March 2026",
+          "checkedOn": "2026-11-09"
         }
       ]
     },
@@ -390,6 +399,15 @@
           "authorityClass": "PRIMARY_GOVERNMENT",
           "reportedDate": "2026-05-27",
           "displayedEvent": "Hari Raya Haji",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://www.muis.gov.sg/resources/media-releases/prayer-arrangement-for-hari-raya-aidiladha-2026-1447h/",
+          "publisher": "Islamic Religious Council of Singapore (MUIS)",
+          "documentOrigin": "muis-official-aidiladha-2026-prayer-announcement",
+          "authorityClass": "PRIMARY_ORIGINATOR",
+          "reportedDate": "2026-05-27",
+          "displayedEvent": "MUIS confirms Hari Raya Aidiladha will be observed Wednesday 27 May 2026",
           "checkedOn": "2026-11-09"
         }
       ]
@@ -447,5 +465,5 @@
       ]
     }
   ],
-  "disclaimer": "Calendar dates only, not unique identity, multi-year recurrence, editorial localization or runtime admission. Singapore Eid dates may remain subject to confirmation."
+  "disclaimer": "Calendar dates only, not unique identity, multi-year recurrence, editorial localization or runtime admission. Singapore Eid dates may remain subject to confirmation. MUIS official 2026 post-observation announcements independently confirm 21 March Hari Raya Puasa and 27 May Hari Raya Haji; the earlier MOM list marked both as subject to confirmation."
 }
