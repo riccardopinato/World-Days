@@ -8,6 +8,7 @@ on:
       - "tool/audit_research_candidates.py"
       - "tool/test_research_semantic_audit.py"
       - "tool/validate_research_overlap_decisions.py"
+      - "tool/validate_research_certification_coverage.py"
       - ".github/workflows/research-semantic-audit.yml"
   workflow_dispatch:
 
@@ -32,11 +33,15 @@ jobs:
         run: python3 tool/audit_research_candidates.py
       - name: Verify all 20 flagged candidates against year/date and country
         run: python3 tool/validate_research_overlap_decisions.py
+      - name: Verify provenance and certification boundaries for all 153 candidates
+        run: python3 tool/validate_research_certification_coverage.py
       - name: Upload inspectable research semantic-audit report
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: world-days-research-semantic-audit
-          path: reports/research_semantic_audit.json
+          path: |
+            reports/research_semantic_audit.json
+            reports/research_certification_coverage.json
           if-no-files-found: warn
           retention-days: 21
