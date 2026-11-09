@@ -13,15 +13,15 @@
 
 | Stato | Schede | Interpretazione esatta |
 | --- | ---: | --- |
-| `ALREADY_IN_MAIN_456` | **17** | Ricorrenze già presenti; non duplicarle |
+| `ALREADY_IN_MAIN_456` | **24** | Ricorrenze già presenti; non duplicarle |
 | `IN_UNMERGED_PR_65` | **6** | Sei record tecnici testati in PR distinta, non in main |
-| `PRIMARY_CALENDAR_2026_DATE_CONFIRMED` | **121** | Fonte istituzionale/di origine consultata e singola data o data iniziale **2026** controllata; tutte restano in research |
+| `PRIMARY_CALENDAR_2026_DATE_CONFIRMED` | **114** | Fonte istituzionale/di origine consultata e singola data o data iniziale **2026** controllata; tutte restano in research |
 | `PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE` | **9** | Nepal: il registro ufficiale 2083 è disponibile come PDF nepalese, ma non è stata completata verifica indipendente delle conversioni e delle date |
 | **Totale** | **153** | Nessuna ammissione extra dalla PR di ricerca |
 
-**Contabilità residua:** le 121 candidate con calendario 2026 documentato NON sono tutte provate come nuove uniche e annuali. In `main` restano **456**: gap **544** verso 1.000. Se PR #65 viene approvata/unita: **462**, gap **538**. La ricerca disponibile non prova che esistano già 538 nuove ricorrenze pronte.
+**Contabilità residua:** 121 schede hanno una data 2026 documentata, ma **sette sono già presenti nel catalogo** e soltanto **114 restano candidate non duplicate secondo i controlli effettuati**. Queste 114 non sono automaticamente nuove uniche/annuali certificate. In `main` restano **456**: gap **544** verso 1.000. Se PR #65 viene approvata/unita: **462**, gap **538**. La ricerca disponibile non prova che esistano già 538 nuove ricorrenze pronte.
 
-## Origini dei 121 riscontri nel 2026
+## Origini dei 121 riscontri di calendario (compresi 7 duplicati)
 
 | Paese | Voci | Fonte primaria |
 | --- | ---: | --- |
@@ -40,9 +40,15 @@
 | India IN | 13 | https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist |
 | Corea del Sud KR | 4 | https://www.bok.or.kr/eng/main/contents.do?menuNo=400373 |
 | Malaysia MY | 3 | https://wbf.jknns.moh.gov.my/app/tetapanUtama |
-| **Totale** | **121** | |
+| **Totale delle evidenze** | **121** | Include 7 record già in main |
 
 Il file `data/research/primary_2026_calendar_verified_20261109.json` contiene la matrice **voce per voce**, esatta data 2026, ambito e URL originale. È una certificazione circoscritta della fonte/occorrenza 2026.
+
+### Sette alias già presenti, scoperti dal controllo Paese + data
+
+Il confronto esclusivamente lessicale aveva riconosciuto 17 duplicati. Un controllo ulteriore contro il catalogo Wave04 (stesso Paese, stessa data, stessa commemorazione e fonte originaria) ne ha individuati **sette aggiuntivi**: ZA Freedom Day, Youth Day, National Women's Day e Heritage Day; PH Araw ng Kagitingan / Day of Valor e Philippine Independence Day; KR Memorial Day / National Memorial Day. La differenza nel posizionamento del Paese nel titolo nascondeva gli alias. I sette sono provati voce per voce in `data/research/semantic_additional_country_date_duplicates_20261109.json` e `tool/validate_additional_country_date_duplicates.py`. **Totale 24 duplicati, non 17.** Per trasparenza, le sette date ufficiali restano nel sottoinsieme delle 121 evidenze 2026, ma escono dalle 114 candidate rimaste dopo l'esclusione.
+
+La matrice delle altre 114 candidate viene prioritarizzata da `tool/triage_research_identities.py`: gruppi culturalmente sovrapposti, calendari lunari, intercalari, anniversari legali, date mobili e dubbi sul livello regionale. L'etichetta automatica `CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW` significa **solo priorità di controllo**, non approvazione di pubblicazione.
 
 ### Precisazioni anti-errore importanti
 
