@@ -1,3 +1,9 @@
+## Lotto unico Wave05–08: 36 nuove ricorrenze, proposta 492 (9 novembre 2026)
+
+La PR #67 verso `main` incorpora ora 3 UNESCO, 10 Giappone, 3 India e **20 commemorazioni canadesi** in un solo ciclo CI/revisione. Totale proposto **492** (285 globali, 207 nazionali), Canada **5→25** e gli stessi 28 Paesi. Origine canonica delle 20 nuove date: [calendario Canadian Heritage e fonti legislative](docs/CATALOG_WAVE08_CANADA_20_20261109.md). È una verifica dei **metadati e della data fissa**; 36 titoli nelle sei lingue necessitano ancora revisione editoriale e le nuove storie lunghe restano STUB. Main rimane a 456 fino a merge autorizzato. Nessun APK, Play o deploy produzione.
+
+---
+
 ## Consolidamento Wave05–07 — 16 nuove ricorrenze in una sola PR verso main (9 novembre 2026)
 
 Le Wave05, Wave06 e Wave07 sono consolidate in **un solo lotto di review verso main**: il catalogo di questo branch è **472 (285 GLOBAL + 187 NATIONAL)** contro **456 su main**. Le precedenti indicazioni 'stacked PR #65/#66' descrivono il precedente processo di sviluppo e NON il nuovo gate di merge. Una sola revisione editoriale e una sola CI exact-head verificano le 16 giornate; nessuna lingua è autoapprovata. Dettaglio: [dossier di review consolidata](docs/CATALOG_WAVE05_07_CONSOLIDATED_REVIEW_20261109.md). Nessun deploy APK/Play o produzione.
