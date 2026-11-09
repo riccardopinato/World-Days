@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json
 from pathlib import Path
-from market_expansion import load_expansion
+from market_expansion import load_expansion, load_wave02
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -48,7 +48,9 @@ expected_market = {
 }
 expansion = load_expansion()
 expected_market.update({row['id']: row['country'] for row in expansion['records']})
-assert len(ids) == len(records) == 339, ('catalog growth total', len(records))
+wave02 = load_wave02()
+expected_market.update({row['id']: row['country'] for row in wave02['records']})
+assert len(ids) == len(records) == 354, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -151,6 +153,19 @@ market_vectors = {
     'us-thanksgiving-day': ['2026-11-26'],
     'us-labor-day': ['2026-09-07'],
     'portugal-freedom-day': ['2026-04-25'],
+    'spain-roma-people-recognition-day': ['2026-04-08'],
+    'spain-national-sign-languages-day': ['2026-06-14'],
+    'spain-victims-of-terrorism-tribute-day': ['2026-06-27'],
+    'germany-nazi-persecution-victims-remembrance-day': ['2026-01-27'],
+    'germany-flight-and-expulsion-victims-day': ['2026-06-20'],
+    'portugal-national-students-day': ['2026-03-24'],
+    'portugal-national-blood-donors-day': ['2026-03-27'],
+    'portugal-national-grandparents-day': ['2026-07-26'],
+    'portugal-national-sea-day': ['2026-11-16'],
+    'uk-holocaust-memorial-day': ['2026-01-27'],
+    'uk-stephen-lawrence-day': ['2026-04-22'],
+    'uk-victory-in-europe-commemoration': ['2026-05-08'],
+    'uk-victory-over-japan-commemoration': ['2026-08-15'],
 }
 for observance_id, expected_dates in market_vectors.items():
     actual = sorted(
