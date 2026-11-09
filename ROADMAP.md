@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## Content-first progress — Country Wave02, 9 November 2026
+
+[Research, dates, provenance and history status](docs/CATALOG_GROWTH_COUNTRY_WAVE02_2026-11-09.md). Second content batch proposes **15 source-supported national days** beyond the 339 baseline, giving **354 unique events = 282 GLOBAL + 72 NATIONAL**. New market totals: IT 25, ES **8**, FR 9, DE **4**, PT **9**, GB **8**, US 9; no duplicated UN days and no replacement of approved IDs. Versioned bundled content: **2026.11.09.2**. Ten new establishment years are source-backed, increasing the total from 41 to **51**, without inferring unknown dates.
+
+**Stories:** 56 reviewed and currently served; eight older Wave04 six-language candidates, nine older Wave01 EN/IT candidates, **eight new Wave02 EN/IT** candidate histories (25 drafts total, none counted as reviewed), **273** remaining without a researched long story. Wave02 drafts include original origins, date context and actions but require human fact verification + four additional language translations before approval.
+
+**Next content-first order:** (1) exact-head CI + editorial gap run + source audit, (2) more primary-source dates for undercovered ES/DE/PT/GB and carefully admitted additional countries, (3) independent content review and six-language completion for 25 queued stories, (4) structured origin/quick facts/related-day UI with current design, (5) catalog-scale list/performance regression and incremental audit.
+
+**Explicit pause remains in force:** NO APK, signed release, Play Console or native Android certification. Keep #43 and #54 paused/open. Source-only Flutter CI and Web Preview can run. New dates must not be mislabeled as national holidays, and an unknown introduced year stays `*`. This update supersedes older numeric snapshots for factual status while preserving them in historical roadmap sections.
+
 ## Content-first priority — 9 November 2026 (owner-approved)
 
 **APK generation, Android physical certification, Play Console/Google Play and Store publication: ON HOLD.** Issues #43 and #54 are preserved, not closed. Continue Flutter source QA, data validation, richer stories, authority/source review and country discovery.

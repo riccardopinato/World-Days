@@ -22,6 +22,11 @@ def build():
         (ROOT / "data/editorial/candidates/country_wave01_en_it_20261109.json")
         .read_text(encoding="utf-8")
     )
+    country_wave02 = json.loads(
+        (ROOT / "data/editorial/candidates/country_wave02_en_it_20261109.json")
+        .read_text(encoding="utf-8")
+    )
+    wave02_ids = {item["id"] for item in country_wave02["entries"]}
     country_draft_ids = {item["id"] for item in country_drafts["entries"]}
     known = {r["id"] for r in catalog["records"]}
     reviewed_ids = {r["observanceId"] for r in reviewed["entries"]}
@@ -32,7 +37,10 @@ def build():
     assert reviewed_ids.isdisjoint(candidate_ids)
     assert reviewed_ids.isdisjoint(country_draft_ids)
     assert candidate_ids.isdisjoint(country_draft_ids)
-    assert reviewed_ids | candidate_ids | country_draft_ids <= known
+    assert reviewed_ids.isdisjoint(wave02_ids)
+    assert candidate_ids.isdisjoint(wave02_ids)
+    assert country_draft_ids.isdisjoint(wave02_ids)
+    assert reviewed_ids | candidate_ids | country_draft_ids | wave02_ids <= known
     rows = []
     for record in catalog["records"]:
         oid = record["id"]
@@ -40,6 +48,7 @@ def build():
             "RUNTIME_REVIEWED" if oid in reviewed_ids else
             "WAVE04_DRAFT_PENDING_HUMAN" if oid in candidate_ids else
             "COUNTRY_WAVE01_DRAFT_EN_IT" if oid in country_draft_ids else
+            "COUNTRY_WAVE02_DRAFT_EN_IT" if oid in wave02_ids else
             "NOT_RESEARCHED"
         )
         rows.append({
@@ -63,7 +72,7 @@ def build():
         "generationMethod": "Deterministic join by canonical observance ID; no generated historical stories.",
         "notes": [
             "WAVE04 six-locale drafts are not runtime reviewed.",
-            "COUNTRY_WAVE01 bilingual drafts also need 4 translations and human review.",
+            "COUNTRY_WAVE01 and WAVE02 bilingual drafts need 4 translations and human review.",
             "An empty introducedYear means unknown and must display *.",
             "Source URLs are provenance pointers; a batch story needs individual review.",
         ],

@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "candidateBatchId": "COUNTRY-RICH-WAVE02-2026-11-09",
+  "createdAt": "2026-11-09",
+  "sourceStatus": "PRIMARY_GOVERNMENT_RESEARCH_CANDIDATES",
+  "editorialStatus": "DRAFT_PENDING_HUMAN_AND_ALL_SIX_LOCALES",
+  "existingRuntimeReviewed": 56,
+  "localeCoverage": [
+    "en",
+    "it"
+  ],
+  "remainingTargetLocales": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "entryCount": 8,
+  "entries": [
+    {
+      "id": "spain-roma-people-recognition-day",
+      "primarySource": "https://www.lamoncloa.gob.es/consejodeministros/paginas/enlaces/060418-enlacegitano.aspx",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "A flag, an anthem, and the right to be heard: a day about a living community.",
+          "summary": "Spain's Roma People Day on 8 April gives public recognition to the country's Roma communities, their culture and their continuing contributions. The date is not the beginning of Roma history. It is an invitation to explore a history shaped by cultural creativity, discrimination, demands for equality and the work of Roma associations that defend civil rights.",
+          "origin": "Spain's Council of Ministers formally recognized 8 April as Día del Pueblo Gitano in an agreement on 6 April 2018. At the same time, the government acknowledged the Roma flag and the song Gelem Gelem for use in institutional events. The day already existed in international Roma commemoration before the Spanish government's decision; 2018 dates Spain's national recognition, not the origins of Roma identity or the international observance.",
+          "whyThisDate": "Spain chose 8 April because the date was already commemorated by Roma communities internationally; the Spanish recognition followed in 2018.",
+          "whyItMatters": "Learning about Roma history through Roma voices helps challenge stereotypes and improve public understanding. Recognition of symbols is meaningful, but the day also raises questions about education, participation and equal treatment in everyday life.",
+          "quickFacts": [
+            "The Spanish national recognition was agreed on 6 April 2018.",
+            "The agreement also recognized the Roma flag and Gelem Gelem as symbols."
+          ],
+          "waysToTakePart": [
+            "Read an educational resource produced with Spanish Roma organizations.",
+            "Explore a community museum or cultural event and listen to Roma perspectives."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Una bandiera, un inno e il diritto di essere ascoltati.",
+          "summary": "L'8 aprile la Spagna riconosce il Día del Pueblo Gitano, dedicato alle comunità rom, alla loro cultura e al contributo alla società. Non è la data in cui comincia la loro storia: è un'occasione per conoscere tradizioni, vicende di discriminazione, richieste di uguaglianza e il lavoro delle associazioni che difendono i diritti.",
+          "origin": "Con un accordo del 6 aprile 2018, il Consiglio dei ministri spagnolo ha riconosciuto ufficialmente l'8 aprile come Día del Pueblo Gitano. Nella stessa decisione ha riconosciuto la bandiera rom e l'inno Gelem Gelem per l'utilizzo in iniziative istituzionali. La ricorrenza era già presente nel contesto internazionale: il 2018 rappresenta il riconoscimento nazionale spagnolo, non l'origine della comunità o della giornata nel mondo.",
+          "whyThisDate": "La Spagna ha adottato l'8 aprile, data già riconosciuta nelle commemorazioni internazionali del popolo rom; il riconoscimento nazionale risale al 2018.",
+          "whyItMatters": "Conoscere la storia rom attraverso le voci delle comunità aiuta a contrastare gli stereotipi. I simboli sono importanti, ma la giornata invita anche a riflettere su scuola, diritti, partecipazione e uguaglianza concreta.",
+          "quickFacts": [
+            "Il riconoscimento nazionale spagnolo risale al 6 aprile 2018.",
+            "L'accordo riconosce anche la bandiera rom e l'inno Gelem Gelem."
+          ],
+          "waysToTakePart": [
+            "Leggi una risorsa educativa realizzata con le comunità rom spagnole.",
+            "Partecipa a un'iniziativa culturale ascoltando testimonianze dirette."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "spain-national-sign-languages-day",
+      "primarySource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2014/refc20140613.aspx",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "Communication becomes more accessible when languages are recognized and respected.",
+          "summary": "Spain's National Spanish Sign Languages Day celebrates the languages used by signing communities and the right to communicate and learn on equal terms. It recognizes Spanish Sign Language and Catalan Sign Language. The day is a reminder that sign languages have their own linguistic structures and cultural histories; they are not simply gestures added to spoken language.",
+          "origin": "On 13 June 2014 Spain's Council of Ministers approved an agreement establishing 14 June as National Spanish Sign Languages Day, with the annual celebration beginning the following day. The decision highlighted the long struggle of signing communities and associations for recognition and for opportunities to learn and use these languages beyond limited settings. It does not imply that sign languages first appeared in 2014.",
+          "whyThisDate": "14 June is the date designated by the Spanish government's 2014 agreement; the languages and their communities long predate it.",
+          "whyItMatters": "Accessible communication supports participation in education, healthcare, work and public life. Recognizing languages is one step; ensuring appropriate interpretation and linguistic access is a separate practical challenge.",
+          "quickFacts": [
+            "The Council of Ministers adopted the agreement on 13 June 2014.",
+            "The recognition concerns both Spanish and Catalan sign languages."
+          ],
+          "waysToTakePart": [
+            "Learn about the structure and history of a sign language from a Deaf-led organization.",
+            "Check whether a cultural venue offers accessible sign-language information or interpretation."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La comunicazione è davvero accessibile quando le lingue vengono rispettate.",
+          "summary": "La Giornata nazionale delle lingue dei segni spagnole riconosce le comunità segnanti e il diritto di comunicare e apprendere in condizioni di uguaglianza. Riguarda sia la lingua dei segni spagnola sia quella catalana. Queste lingue possiedono una propria struttura e una storia culturale: non sono una semplice traduzione gestuale della lingua parlata.",
+          "origin": "Il 13 giugno 2014 il Consiglio dei ministri spagnolo ha approvato un accordo che istituisce il 14 giugno come giornata nazionale, con la prima celebrazione dal giorno successivo. Il provvedimento riconosce la lunga mobilitazione delle comunità sorde e delle associazioni per poter utilizzare e apprendere le proprie lingue anche oltre gli ambiti familiari e sanitari. Il 2014 è l'anno dell'istituzione della giornata, non della nascita delle lingue dei segni.",
+          "whyThisDate": "Il 14 giugno è il giorno fissato dall'accordo governativo del 2014; la storia delle lingue dei segni è molto più antica.",
+          "whyItMatters": "La comunicazione accessibile rende possibile partecipare a scuola, nel lavoro, nella sanità e nella vita pubblica. Il riconoscimento ufficiale è importante, ma occorrono anche servizi e strumenti concreti di accessibilità linguistica.",
+          "quickFacts": [
+            "L'accordo del Consiglio dei ministri risale al 13 giugno 2014.",
+            "Sono riconosciute le lingue dei segni spagnola e catalana."
+          ],
+          "waysToTakePart": [
+            "Approfondisci una lingua dei segni attraverso un'associazione guidata da persone sorde.",
+            "Verifica quali servizi di interpretariato sono disponibili in un luogo pubblico."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "germany-nazi-persecution-victims-remembrance-day",
+      "primarySource": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/27-januar-tag-des-gedenkens-fuer-die-opfer-des-nationalsozialismus-proklamation-des-bundespraesidenten-805822",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "Remembrance cannot be reduced to one place, one date or one group of victims.",
+          "summary": "Germany marks 27 January as a national day of remembrance for people persecuted and murdered by the National Socialist regime. The date calls for attention to the Holocaust and to other groups targeted by Nazi persecution. Its purpose is not simply to recall the past, but to encourage careful historical study, human dignity and vigilance against racist and authoritarian violence.",
+          "origin": "On 3 January 1996 Federal President Roman Herzog proclaimed 27 January the Day of Remembrance for Victims of National Socialism. The date refers to the liberation of Auschwitz on 27 January 1945. The German national proclamation came before the United Nations established its separate international Holocaust remembrance day in 2005. The two observances share a date but have distinct institutional histories.",
+          "whyThisDate": "27 January marks Auschwitz's liberation in 1945; Germany formally established this national remembrance day in 1996.",
+          "whyItMatters": "Preserving testimony and verified records supports understanding of the consequences of antisemitism, racism and dictatorship. The national day calls for remembrance of victims as individuals and for renewed attention to the conditions that allow persecution.",
+          "quickFacts": [
+            "Federal President Roman Herzog issued the proclamation on 3 January 1996.",
+            "27 January refers to the liberation of Auschwitz in 1945."
+          ],
+          "waysToTakePart": [
+            "Read survivor testimony or archival material published by a memorial institution.",
+            "Learn how a local school or community remembers people persecuted under Nazism."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "La memoria non può essere ridotta a un solo luogo o a un solo gruppo di vittime.",
+          "summary": "Il 27 gennaio la Germania ricorda le persone perseguitate e uccise dal regime nazionalsocialista. La giornata richiama la Shoah e le altre persecuzioni condotte dal nazismo. Non serve soltanto a commemorare: invita a studiare documenti, testimonianze e conseguenze della violenza razzista e autoritaria, con attenzione alla dignità delle persone.",
+          "origin": "Il 3 gennaio 1996 il presidente federale Roman Herzog proclamò il 27 gennaio Giornata della memoria delle vittime del nazionalsocialismo. La data richiama la liberazione di Auschwitz del 27 gennaio 1945. Il riconoscimento nazionale tedesco precede l'istituzione nel 2005 della distinta giornata internazionale ONU della memoria delle vittime dell'Olocausto. Le due ricorrenze condividono la data ma hanno origini istituzionali differenti.",
+          "whyThisDate": "Il 27 gennaio ricorda la liberazione di Auschwitz nel 1945; la ricorrenza nazionale tedesca è stata istituita nel 1996.",
+          "whyItMatters": "Conservare testimonianze e documenti verificati permette di capire le conseguenze di antisemitismo, razzismo e dittature. La giornata invita a ricordare le vittime come persone e a riconoscere i segnali della persecuzione.",
+          "quickFacts": [
+            "Roman Herzog proclamò la giornata il 3 gennaio 1996.",
+            "Il 27 gennaio 1945 venne liberato il campo di Auschwitz."
+          ],
+          "waysToTakePart": [
+            "Consulta una testimonianza conservata in un archivio o memoriale autorevole.",
+            "Scopri come una scuola o una comunità locale ricorda le vittime delle persecuzioni."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "germany-flight-and-expulsion-victims-day",
+      "primarySource": "https://www.bundesregierung.de/breg-de/aktuelles/bundesregierung-gedenkt-zum-12-mal-der-opfer-von-flucht-und-vertreibung-2437922",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "Forced displacement leaves stories that continue beyond a border crossing.",
+          "summary": "Germany's day of remembrance on 20 June focuses on victims of flight and expulsion. It includes reflection on German expellees after the Second World War and on the experiences of people forced to leave their homes around the world. By sharing the date with UN World Refugee Day, the German commemoration connects a particular national history with wider human experiences of displacement.",
+          "origin": "The German Federal Government began marking the Day of Remembrance for Victims of Flight and Expulsion in 2015. Official government material confirms the annual observance on 20 June and explains its deliberate link to World Refugee Day. The years of wartime and postwar displacement are not the same as the 2015 introduction of this modern national observance.",
+          "whyThisDate": "20 June aligns with UN World Refugee Day; Germany first marked its national commemorative day in 2015.",
+          "whyItMatters": "Personal testimony can show the impact of losing a home, family connections or a sense of belonging. Responsible remembrance requires both historical context and empathy for people displaced in different times and places, without treating their experiences as identical.",
+          "quickFacts": [
+            "The German government has observed the national day since 2015.",
+            "It deliberately shares the date of UN World Refugee Day."
+          ],
+          "waysToTakePart": [
+            "Read a documented account of a family affected by postwar displacement.",
+            "Compare reliable reports about the causes and consequences of displacement today."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "L'esilio forzato lascia storie che proseguono ben oltre un confine.",
+          "summary": "Il 20 giugno la Germania ricorda le vittime della fuga e dell'espulsione. La giornata include la memoria degli espulsi tedeschi nel secondo dopoguerra e le vicende di persone costrette a lasciare la propria casa nel mondo. La coincidenza con la Giornata mondiale del rifugiato collega una storia nazionale a esperienze umane più ampie di sradicamento.",
+          "origin": "Il Governo federale tedesco ha iniziato a celebrare il Gedenktag für die Opfer von Flucht und Vertreibung nel 2015. Le fonti governative confermano la ricorrenza annuale del 20 giugno e spiegano il collegamento voluto con la Giornata mondiale del rifugiato dell'ONU. Gli eventi della guerra e del dopoguerra non vanno confusi con l'anno 2015, che riguarda l'istituzione della commemorazione moderna.",
+          "whyThisDate": "Il 20 giugno coincide con la giornata ONU dei rifugiati; la commemorazione tedesca risale al 2015.",
+          "whyItMatters": "Le testimonianze personali mostrano cosa significhi perdere casa, legami e appartenenza. Una memoria responsabile ha bisogno di contesto storico e attenzione ai diversi percorsi di chi subisce spostamenti forzati.",
+          "quickFacts": [
+            "La commemorazione federale tedesca è osservata dal 2015.",
+            "La scelta del 20 giugno è collegata alla Giornata mondiale del rifugiato."
+          ],
+          "waysToTakePart": [
+            "Leggi una storia documentata di una famiglia colpita dalle espulsioni del dopoguerra.",
+            "Confronta fonti affidabili sulle cause degli spostamenti forzati contemporanei."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "portugal-national-students-day",
+      "primarySource": "https://diariodarepublica.pt/dr/detalhe/lei/19-1987-421862",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "A day for students is also a day about participation and democracy.",
+          "summary": "Portugal observes National Students' Day on 24 March to highlight student participation in schools and society. It celebrates cooperation, representation and the role young people can play in educational communities. Rather than merely praising achievement, the day asks how education can become more democratic and connected to public life.",
+          "origin": "Portugal's Assembly of the Republic enacted Law No. 19/87 on 1 June 1987. Article 1 establishes 24 March as National Students' Day, while subsequent articles describe participation, cooperation, development of education and support for activities organized by student associations. The 1987 law marks the formal creation of the observance, not the beginning of student activism in Portugal.",
+          "whyThisDate": "24 March is the date specified in Article 1 of Portugal's Law 19/87, enacted in 1987.",
+          "whyItMatters": "Students often experience decisions about education first-hand. Creating space for their voices, participation and cooperation can improve school life while teaching the practical meaning of democratic institutions.",
+          "quickFacts": [
+            "Law 19/87 formally established the day in 1987.",
+            "The law assigns a central role to student associations in organizing activities."
+          ],
+          "waysToTakePart": [
+            "Find out how students can contribute to decisions at a school or university.",
+            "Read Portugal's original law to compare its aims with present-day student participation."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Una giornata per gli studenti parla anche di partecipazione e democrazia.",
+          "summary": "Il Portogallo celebra il 24 marzo la Giornata nazionale degli studenti, dedicata alla partecipazione nella scuola e nella società. Invita a riflettere sul diritto di essere ascoltati, sulla cooperazione e sul contributo dei giovani alle comunità educative. Non riguarda soltanto i voti o il rendimento, ma anche il ruolo attivo degli studenti.",
+          "origin": "L'Assemblea della Repubblica portoghese approvò la legge n. 19/87 del 1° giugno 1987. L'articolo 1 istituisce il 24 marzo come giornata nazionale; quelli successivi indicano partecipazione, collaborazione, sviluppo dell'istruzione e supporto alle iniziative delle associazioni studentesche. Il 1987 segna la nascita formale della ricorrenza, non quella dell'attivismo studentesco in Portogallo.",
+          "whyThisDate": "Il 24 marzo è la data stabilita dall'articolo 1 della legge portoghese 19/87, promulgata nel 1987.",
+          "whyItMatters": "Gli studenti vivono direttamente molte decisioni che riguardano l'istruzione. Dare spazio alla loro voce e alla cooperazione può migliorare la scuola e rendere concreta l'educazione alla cittadinanza.",
+          "quickFacts": [
+            "La legge 19/87 istituì ufficialmente la giornata nel 1987.",
+            "La norma attribuisce un ruolo alle associazioni degli studenti."
+          ],
+          "waysToTakePart": [
+            "Scopri come gli studenti possono partecipare alle decisioni nella tua scuola.",
+            "Leggi gli obiettivi della legge portoghese e confrontali con la vita studentesca attuale."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "portugal-national-blood-donors-day",
+      "primarySource": "https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/40-1986-227068",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "A donation can be voluntary, anonymous and still deeply important.",
+          "summary": "Portugal's National Blood Donors' Day recognizes people who donate blood voluntarily to support patient care. The date encourages public understanding of donation and of the organizations working with health services to make it safe. It should not be treated as a medical eligibility checklist: individual suitability is determined by qualified services.",
+          "origin": "Portugal's Council of Ministers issued Resolution No. 40/86 in 1986, establishing 27 March as National Blood Donors' Day. The resolution highlights voluntary, unpaid donation and selects the date to commemorate the founding of the Portuguese Federation of Voluntary Blood Donors. The legal foundation of the national day is distinct from the longer history of transfusion medicine and donation organizations.",
+          "whyThisDate": "The 1986 resolution chose 27 March in connection with the founding of Portugal's voluntary blood donors' federation.",
+          "whyItMatters": "Blood is needed for many treatments, but supply depends on reliable collection systems, voluntary participation and appropriate safeguards. Informed public discussion is more useful than pressure on individuals who may not be eligible to donate.",
+          "quickFacts": [
+            "Council of Ministers Resolution 40/86 established the annual day.",
+            "The resolution recognizes voluntary and unpaid blood donation."
+          ],
+          "waysToTakePart": [
+            "Read guidance from the national blood service about how donation works.",
+            "Learn what volunteer donor associations do in collaboration with public health services."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Un gesto volontario può essere importante anche quando resta anonimo.",
+          "summary": "La Giornata nazionale dei donatori di sangue in Portogallo riconosce le persone che donano volontariamente per contribuire alle cure dei pazienti. Invita a conoscere la donazione e il lavoro dei servizi sanitari e delle associazioni. Non sostituisce le valutazioni mediche: l'idoneità individuale deve essere stabilita da personale qualificato.",
+          "origin": "Nel 1986 il Consiglio dei ministri portoghese approvò la risoluzione n. 40/86, istituendo il 27 marzo come giornata nazionale. Il testo valorizza la donazione gratuita e volontaria e collega la scelta della data alla fondazione della Federazione portoghese dei donatori volontari di sangue. Il 1986 è l'anno del provvedimento istitutivo, non l'inizio della storia delle trasfusioni o delle associazioni.",
+          "whyThisDate": "La risoluzione del 1986 ha scelto il 27 marzo ricordando la fondazione della federazione nazionale dei donatori volontari.",
+          "whyItMatters": "Molte terapie richiedono sangue, ma la disponibilità dipende da servizi affidabili, sicurezza e partecipazione consapevole. Informare correttamente è preferibile a esercitare pressione su persone che potrebbero non essere idonee alla donazione.",
+          "quickFacts": [
+            "La giornata fu istituita dalla risoluzione del Consiglio dei ministri n. 40/86.",
+            "La norma valorizza la donazione volontaria e non retribuita."
+          ],
+          "waysToTakePart": [
+            "Consulta le indicazioni del servizio nazionale del sangue sul percorso del donatore.",
+            "Scopri come le associazioni locali collaborano con i servizi sanitari pubblici."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "portugal-national-grandparents-day",
+      "primarySource": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/50-2003-553423",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "Grandparents hold memories, relationships and sometimes entire family histories.",
+          "summary": "Portugal's National Grandparents Day on 26 July acknowledges the relationships between grandparents, grandchildren and wider families. Its recognition invites reflection on caregiving, memories and connections between generations. Families are varied, so the day can also be an opportunity to listen without assuming that everyone's experience of grandparenthood is the same.",
+          "origin": "The Assembly of the Republic adopted Resolution No. 50/2003 on 22 May 2003, published on 4 June, formally introducing 26 July as Portugal's National Grandparents Day. The selected date draws on an existing cultural and religious association in many communities, but the parliamentary resolution is the proof of the national observance's legal year, not of those older traditions.",
+          "whyThisDate": "Portugal's Parliament established 26 July as National Grandparents Day in Resolution 50/2003.",
+          "whyItMatters": "Intergenerational relationships can preserve local and family histories, pass on skills and provide support. Listening to older people's experiences can strengthen connections while making room for different family structures and circumstances.",
+          "quickFacts": [
+            "Portugal's parliamentary Resolution 50/2003 established the day.",
+            "The annual observance is on 26 July."
+          ],
+          "waysToTakePart": [
+            "Record an older relative's story with their permission and preserve its context.",
+            "Learn about an intergenerational community project in your area."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "I nonni custodiscono spesso ricordi, legami e intere storie familiari.",
+          "summary": "Il Portogallo celebra il 26 luglio la Giornata nazionale dei nonni, dedicata ai rapporti fra generazioni e alla memoria delle famiglie. Può essere l'occasione per riconoscere cura, sostegno e trasmissione di esperienze. Le famiglie sono diverse fra loro: anche questa ricorrenza può essere vissuta ascoltando, senza imporre un unico modello.",
+          "origin": "L'Assemblea della Repubblica approvò la risoluzione n. 50/2003 il 22 maggio 2003, pubblicata il 4 giugno, che istituì ufficialmente il 26 luglio come Giornata nazionale dei nonni. La data si collega a tradizioni culturali e religiose già diffuse in alcune comunità. Il 2003 è l'anno del riconoscimento parlamentare, non l'origine di quelle tradizioni.",
+          "whyThisDate": "La risoluzione parlamentare portoghese 50/2003 ha fissato la celebrazione nazionale al 26 luglio.",
+          "whyItMatters": "I rapporti fra generazioni possono conservare racconti, conoscenze e legami. Ascoltare chi ha vissuto epoche diverse aiuta a comprendere storia familiare e cambiamenti sociali, rispettando esperienze e situazioni differenti.",
+          "quickFacts": [
+            "La giornata è prevista dalla risoluzione parlamentare 50/2003.",
+            "Il 26 luglio è la data scelta dal Parlamento portoghese."
+          ],
+          "waysToTakePart": [
+            "Raccogli con il consenso una testimonianza di un familiare anziano.",
+            "Cerca un progetto culturale che favorisca l'incontro fra diverse generazioni."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    },
+    {
+      "id": "uk-holocaust-memorial-day",
+      "primarySource": "https://www.executiveoffice-ni.gov.uk/articles/holocaust-memorial-day",
+      "additionalSources": [],
+      "reviewStatus": "DRAFT_PENDING_FACT_AND_HUMAN_EDIT",
+      "publishedToApp": false,
+      "locales": {
+        "en": {
+          "hook": "An annual silence can create space for learning, not just looking back.",
+          "summary": "The United Kingdom's Holocaust Memorial Day on 27 January is a moment to remember people murdered during the Holocaust and to reflect on later genocides. It is observed through public ceremonies, schools and community activities. The date connects remembrance to the liberation of Auschwitz in 1945, but the modern UK's commemorative history must not be confused with that historic event.",
+          "origin": "The Northern Ireland Executive Office explains that Holocaust Memorial Day was established internationally in 2000, with a UK Commemorative Ceremony observed since 2001. The original date, 27 January, marks the liberation of Auschwitz-Birkenau in 1945. The UN later declared its own international day on the same date in 2005. These institutional milestones are separate, even though the day and the focus on remembrance overlap.",
+          "whyThisDate": "27 January recalls Auschwitz's liberation in 1945; UK ceremonies have been held annually since 2001.",
+          "whyItMatters": "Survivor testimony, research and careful historical education help people understand the mechanisms of persecution and the responsibility to protect dignity and rights. The goal is not to equate different histories, but to listen to evidence and remember victims as individuals.",
+          "quickFacts": [
+            "UK commemorative ceremonies have been held since 2001.",
+            "The date marks the liberation of Auschwitz-Birkenau in 1945."
+          ],
+          "waysToTakePart": [
+            "Read survivor testimony from an accredited Holocaust education or memorial organization.",
+            "Join an educational remembrance event that uses documentary evidence and respectful language."
+          ],
+          "reviewStatus": "DRAFT"
+        },
+        "it": {
+          "hook": "Un momento di silenzio può aprire spazio alla conoscenza.",
+          "summary": "Nel Regno Unito il 27 gennaio è dedicato alla memoria delle persone uccise durante la Shoah e alla riflessione su genocidi successivi. Scuole, associazioni e istituzioni partecipano a cerimonie e iniziative di studio. La data ricorda la liberazione di Auschwitz nel 1945, ma la storia della ricorrenza moderna britannica è distinta dall'evento storico.",
+          "origin": "Secondo l'Executive Office dell'Irlanda del Nord, l'Holocaust Memorial Day fu istituito a livello internazionale nel 2000 e dal 2001 viene celebrato nel Regno Unito con una cerimonia commemorativa. Il 27 gennaio ricorda la liberazione di Auschwitz-Birkenau nel 1945. L'ONU istituì successivamente, nel 2005, una propria giornata internazionale nella stessa data. Le diverse decisioni istituzionali non vanno fuse in un'unica origine.",
+          "whyThisDate": "Il 27 gennaio richiama la liberazione di Auschwitz nel 1945; le cerimonie nazionali britanniche si svolgono dal 2001.",
+          "whyItMatters": "Testimonianze dei sopravvissuti, ricerca storica e formazione aiutano a comprendere i meccanismi della persecuzione e l'importanza dei diritti. Non si tratta di rendere equivalenti storie differenti, ma di ascoltare fonti e ricordare le persone.",
+          "quickFacts": [
+            "Le cerimonie britanniche si tengono dal 2001.",
+            "Il 27 gennaio 1945 venne liberato il campo di Auschwitz-Birkenau."
+          ],
+          "waysToTakePart": [
+            "Leggi una testimonianza custodita da un centro di memoria riconosciuto.",
+            "Segui un evento educativo basato su documenti e ricostruzioni storiche verificate."
+          ],
+          "reviewStatus": "DRAFT"
+        }
+      }
+    }
+  ]
+}

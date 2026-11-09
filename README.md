@@ -1,5 +1,17 @@
 # World Days
 
+## Content-first update — Wave02, 9 November 2026
+
+The catalog now builds **354 distinct source-linked observances** (282 GLOBAL + **72 NATIONAL**) following a second wave of **15** national/civic dates: Spain +4 (total 8), Germany +2 (total 4), Portugal +5 (total 9), United Kingdom +4 (total 8). Italy 25, France 9 and United States 9 remain unchanged. Each new entry has official institutional provenance, a correct fixed recurrence and unique titles in **EN/IT/ES/FR/DE/PT**.
+
+- Content revision **2026.11.09.2**; original 339 IDs untouched. Country browsing keeps separate international and national sections.
+- **56 REVIEWED** historical articles in the runtime. Another **25 are DRAFT only**: Wave04 8 (six locales), Country Wave01 9 (EN/IT) and Country Wave02 8 (EN/IT). **273** records still lack researched long-form histories; their source-overview remains available.
+- **51** formal establishment years have a source; unknown years remain *.
+- [Wave02 complete source-by-source ledger and history status](docs/CATALOG_GROWTH_COUNTRY_WAVE02_2026-11-09.md). Human historical and translation approval is required before publishing drafts.
+- **APK production, signing, Android certification and Google Play are ON HOLD** by user decision; the new Flutter source/CI checks are allowed. This source update does not certify hardware or Store behavior.
+
+Earlier content totals further down this README describe historical phases, not the latest main.
+
 ## Country catalog expansion — 9 November 2026
 
 **Source feature:** [World Days catalog growth and history program](docs/CATALOG_GROWTH_COUNTRY_STORIES_2026-11-09.md). Source-only development, **APK and Google Play / Android certification currently ON HOLD by user request**.

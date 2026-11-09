@@ -17,11 +17,11 @@ void main() {
 
     final expected = <String, int>{
       'IT': 25,
-      'ES': 4,
+      'ES': 8,
       'FR': 9,
-      'DE': 2,
-      'PT': 4,
-      'GB': 4,
+      'DE': 4,
+      'PT': 9,
+      'GB': 8,
       'US': 9,
     };
 
@@ -53,7 +53,7 @@ void main() {
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 339);
+    expect(controller.catalog!.records.length, 354);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });
