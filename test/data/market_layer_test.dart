@@ -54,7 +54,8 @@ void main() {
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
     expect(controller.catalog!.records.length, 339);
-    controller.dispose();
+    // initialize() may have an unawaited remote update probe; do not dispose
+    // this controller during the current test zone while that probe runs.
   });
 
   test('market and locale preferences remain independent', () async {
