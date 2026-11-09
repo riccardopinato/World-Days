@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from market_wave04 import load_wave04
 from market_wave05 import load_wave05_japan
+from market_wave06 import load_wave06_japan
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -184,7 +185,7 @@ def load_wave03():
 
 def all_expansion_rows():
     prior = [*load_expansion()["records"], *load_wave02()["records"], *load_wave03()["records"]]
-    next_wave = [*load_wave04(), *load_wave05_japan()]
+    next_wave = [*load_wave04(), *load_wave05_japan(), *load_wave06_japan()]
     ids = {item["id"] for item in prior}
     titles = {item["canonicalTitleEn"] for item in prior}
     new_ids = [item["id"] for item in next_wave]
