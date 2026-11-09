@@ -36,7 +36,6 @@ locs = {"en", "it", "es", "fr", "de", "pt"}
 for ident, (scope, country, when, year, evidence_url) in expected.items():
     r = by_id[ident]
     assert r["scope"] == scope and r["countries"] == ([country] if country else [])
-    assert r["introducedYear"] == year if "introducedYear" in r else year is None
     assert r.get("introducedYear") == year
     assert r.get("introducedYearSource") == evidence_url
     assert r["editorialStatus"] == "STUB", ident
