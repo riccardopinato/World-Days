@@ -48,7 +48,10 @@ def main():
       ("wave06_japan_philippines_india_2026.json","Showa Day"),
     }
     assert len(pr65)==6
-    assert not (pr65 & set(decisions))
+    duplicate_decisions = {k for k,v in decisions.items() if v["decision"] == "SAME_EXISTING_OBSERVANCE"}
+    assert not (pr65 & duplicate_decisions)
+    # UNESCO Islamic Art and Japan Children's Day can appear in the 20
+    # similarity flags as DISTINCT events, without becoming a duplicate.
     assert not (pr65 & set(evidence))
     assert not (set(evidence) & set(decisions))
     source_rows={key(x["researchFile"],x["title"]):x for x in a["candidateResults"]}
