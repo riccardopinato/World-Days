@@ -1,3 +1,9 @@
+## Consolidamento Wave05–07 — 16 nuove ricorrenze in una sola PR verso main (9 novembre 2026)
+
+Le Wave05, Wave06 e Wave07 sono consolidate in **un solo lotto di review verso main**: il catalogo di questo branch è **472 (285 GLOBAL + 187 NATIONAL)** contro **456 su main**. Le precedenti indicazioni 'stacked PR #65/#66' descrivono il precedente processo di sviluppo e NON il nuovo gate di merge. Una sola revisione editoriale e una sola CI exact-head verificano le 16 giornate; nessuna lingua è autoapprovata. Dettaglio: [dossier di review consolidata](docs/CATALOG_WAVE05_07_CONSOLIDATED_REVIEW_20261109.md). Nessun deploy APK/Play o produzione.
+
+---
+
 ## Wave07 — Three national civic holidays of India (stacked)
 
 [Wave07 government-source dossier](docs/CATALOG_WAVE07_INDIA_2026-11-09.md): metadata-only three Indian fixed-date civic identities (Republic Day, Independence Day and Gandhi Jayanti) add three records on top of Wave06, proposing **472 unique** (285 global + 187 national), India 2→5. Parent PR #65 and stacked PR #66 must merge first, and qualified native-language/editorial approval remains pending. No live app release, APK, Play, or public Web deployment.
