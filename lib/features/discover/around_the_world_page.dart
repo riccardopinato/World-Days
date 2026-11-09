@@ -70,7 +70,7 @@ class _AroundTheWorldPageState extends State<AroundTheWorldPage> {
                             DropdownMenuItem<String?>(
                               value: option.code,
                               child: Text(
-                                option.emoji + '  ' + marketLabel(l10n, option.code),
+                                '${option.emoji}  ${marketLabel(l10n, option.code)}',
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
                               ),
@@ -107,17 +107,17 @@ class _AroundTheWorldPageState extends State<AroundTheWorldPage> {
                   runSpacing: 8,
                   children: [
                     ChoiceChip(
-                      label: Text(l10n.all + ' · ' + (national.length + global.length).toString()),
+                      label: Text('${l10n.all} · ${national.length + global.length}'),
                       selected: scopeFilter == _ScopeFilter.all,
                       onSelected: (_) => setState(() => scopeFilter = _ScopeFilter.all),
                     ),
                     ChoiceChip(
-                      label: Text(l10n.national + ' · ' + national.length.toString()),
+                      label: Text('${l10n.national} · ${national.length}'),
                       selected: scopeFilter == _ScopeFilter.national,
                       onSelected: (_) => setState(() => scopeFilter = _ScopeFilter.national),
                     ),
                     ChoiceChip(
-                      label: Text(l10n.global + ' · ' + global.length.toString()),
+                      label: Text('${l10n.global} · ${global.length}'),
                       selected: scopeFilter == _ScopeFilter.global,
                       onSelected: (_) => setState(() => scopeFilter = _ScopeFilter.global),
                     ),
