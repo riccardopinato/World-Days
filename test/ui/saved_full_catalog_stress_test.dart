@@ -46,13 +46,14 @@ void main() {
     expect(tester.takeException(), isNull);
 
     // Explicitly widget-test CI wall time; NOT Android profile frame/GPU/RAM.
-    print('WORLD_DAYS_SAVED_STRESS|' + jsonEncode({
+    final metrics = <String, Object>{
       'metric': 'flutter_widget_test_wall_clock_not_android_device',
       'viewport_logical_px': '390x844',
       'favorite_count': favorites.length,
       'declared_children': declaredChildren,
       'mounted_cards': mountedCards,
       'pump_wall_ms': stopwatch.elapsedMicroseconds / 1000,
-    }));
+    };
+    debugPrint('WORLD_DAYS_SAVED_STRESS|${jsonEncode(metrics)}');
   });
 }
