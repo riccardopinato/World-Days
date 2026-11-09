@@ -56,7 +56,7 @@ void main() {
     ('AU', 3, 'en'),
     ('BR', 3, 'pt'),
     ('MX', 3, 'es'),
-    ('IN', 2, 'de'),
+    ('IN', 5, 'de'),
     ('JP', 13, 'it'),
   ];
   // Source-verified Wave04: all fifteen new countries must remain selectable.
@@ -133,8 +133,8 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 469);
-    expect(national.length, 184);
+    expect(catalog.records.length, 472);
+    expect(national.length, 187);
     expect(global.length, 285);
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
