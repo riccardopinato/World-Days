@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave02-2026-11-09",
+  "status": "PRIMARY_SOURCE_RESEARCHED_METADATA_NO_RICH_EDITORIAL",
+  "sourceReviewDate": "2026-11-09",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 15,
+  "countryCounts": {
+    "ES": 4,
+    "DE": 2,
+    "PT": 5,
+    "GB": 4
+  },
+  "sourcePolicy": "National government recognitions are separate from global UN origins; ceremonial public days are not necessarily legal holidays. Unknown founding year remains null, rendered as *. Source-based metadata is not a human-reviewed narrative.",
+  "records": [
+    {
+      "id": "spain-roma-people-recognition-day",
+      "country": "ES",
+      "canonicalTitleEn": "Roma People Day — Spain",
+      "localizedTitles": {
+        "en": "Roma People Day — Spain",
+        "it": "Giornata del popolo rom — Spagna",
+        "es": "Día del Pueblo Gitano — España",
+        "fr": "Journée du peuple rom en Espagne",
+        "de": "Tag des Roma-Volkes in Spanien",
+        "pt": "Dia do Povo Cigano em Espanha"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 8
+        }
+      ],
+      "source": "https://www.lamoncloa.gob.es/consejodeministros/paginas/enlaces/060418-enlacegitano.aspx",
+      "additionalSources": [],
+      "authority": "Council of Ministers of Spain",
+      "resolution": "Council of Ministers Agreement 6 April 2018",
+      "proposedIntroducedYear": 2018,
+      "introducedYearSource": "https://www.lamoncloa.gob.es/consejodeministros/paginas/enlaces/060418-enlacegitano.aspx",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Spain's Council of Ministers recognized 8 April as Día del Pueblo Gitano in 2018; this is a national recognition of an internationally observed date, not the creation of Roma history.",
+      "dateRationale": "8 April is internationally recognized for Roma communities; Spanish government recognition was adopted on 6 April 2018."
+    },
+    {
+      "id": "spain-national-sign-languages-day",
+      "country": "ES",
+      "canonicalTitleEn": "National Spanish Sign Languages Day",
+      "localizedTitles": {
+        "en": "National Spanish Sign Languages Day",
+        "it": "Giornata nazionale delle lingue dei segni spagnole",
+        "es": "Día Nacional de las Lenguas de Signos Españolas",
+        "fr": "Journée nationale des langues des signes espagnoles",
+        "de": "Nationaler Tag der spanischen Gebärdensprachen",
+        "pt": "Dia Nacional das Línguas Gestuais Espanholas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 14
+        }
+      ],
+      "source": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2014/refc20140613.aspx",
+      "additionalSources": [],
+      "authority": "Council of Ministers of Spain",
+      "resolution": "Agreement 13 June 2014",
+      "proposedIntroducedYear": 2014,
+      "introducedYearSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2014/refc20140613.aspx",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Council of Ministers established 14 June as an annual day in 2014, explicitly recognizing both Spanish and Catalan sign languages and their linguistic communities.",
+      "dateRationale": "14 June is the date fixed by the Council of Ministers' 2014 agreement."
+    },
+    {
+      "id": "spain-victims-of-terrorism-tribute-day",
+      "country": "ES",
+      "canonicalTitleEn": "Day of Remembrance for Victims of Terrorism — Spain",
+      "localizedTitles": {
+        "en": "Day of Remembrance for Victims of Terrorism — Spain",
+        "it": "Giornata spagnola in memoria delle vittime del terrorismo",
+        "es": "Día de recuerdo y homenaje a las víctimas del terrorismo",
+        "fr": "Journée espagnole du souvenir des victimes du terrorisme",
+        "de": "Spanischer Gedenktag für Terroropfer",
+        "pt": "Dia espanhol de homenagem às vítimas do terrorismo"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 27
+        }
+      ],
+      "source": "https://boe.es/diario_boe/txt.php?id=BOE-A-2011-15039&lang=es",
+      "additionalSources": [],
+      "authority": "Kingdom of Spain",
+      "resolution": "Law 29/2011, Article 60",
+      "proposedIntroducedYear": 2011,
+      "introducedYearSource": "https://boe.es/diario_boe/txt.php?id=BOE-A-2011-15039&lang=es",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Article 60 of Law 29/2011 declares 27 June the Spanish day of remembrance and tribute, and separately acknowledges 11 March as the European remembrance day.",
+      "dateRationale": "27 June is the annual Spanish date in Article 60; it is distinct from the European 11 March observance."
+    },
+    {
+      "id": "spain-acquired-brain-injury-day",
+      "country": "ES",
+      "canonicalTitleEn": "National Acquired Brain Injury Day — Spain",
+      "localizedTitles": {
+        "en": "National Acquired Brain Injury Day — Spain",
+        "it": "Giornata nazionale spagnola del danno cerebrale acquisito",
+        "es": "Día Nacional del Daño Cerebral Adquirido",
+        "fr": "Journée nationale des lésions cérébrales acquises en Espagne",
+        "de": "Nationaler Tag erworbener Hirnschädigung in Spanien",
+        "pt": "Dia nacional da lesão cerebral adquirida em Espanha"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 26
+        }
+      ],
+      "source": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx",
+      "additionalSources": [],
+      "authority": "Council of Ministers of Spain",
+      "resolution": "Council of Ministers Agreement 24 August 2007",
+      "proposedIntroducedYear": 2007,
+      "introducedYearSource": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx",
+      "aliases": [],
+      "subject": "HEALTH",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Spanish Council of Ministers designated 26 October as a national day in 2007 to support awareness, rehabilitation and participation for people with acquired brain injury.",
+      "dateRationale": "The annual 26 October date was established through a 2007 Council of Ministers decision."
+    },
+    {
+      "id": "germany-nazi-persecution-victims-remembrance-day",
+      "country": "DE",
+      "canonicalTitleEn": "Day of Remembrance for Victims of National Socialism — Germany",
+      "localizedTitles": {
+        "en": "Day of Remembrance for Victims of National Socialism — Germany",
+        "it": "Giornata tedesca della memoria delle vittime del nazionalsocialismo",
+        "es": "Día de memoria de las víctimas del nacionalsocialismo en Alemania",
+        "fr": "Journée allemande du souvenir des victimes du nazisme",
+        "de": "Tag des Gedenkens an die Opfer des Nationalsozialismus",
+        "pt": "Dia alemão de memória das vítimas do nazismo"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 27
+        }
+      ],
+      "source": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/27-januar-tag-des-gedenkens-fuer-die-opfer-des-nationalsozialismus-proklamation-des-bundespraesidenten-805822",
+      "additionalSources": [],
+      "authority": "Federal President of Germany",
+      "resolution": "Proclamation 3 January 1996",
+      "proposedIntroducedYear": 1996,
+      "introducedYearSource": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/27-januar-tag-des-gedenkens-fuer-die-opfer-des-nationalsozialismus-proklamation-des-bundespraesidenten-805822",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "President Roman Herzog proclaimed 27 January in 1996, recalling the liberation of Auschwitz in 1945; the UN's separate international Holocaust remembrance day was declared in 2005.",
+      "dateRationale": "The national day was proclaimed in 1996; 27 January recalls Auschwitz's liberation in 1945."
+    },
+    {
+      "id": "germany-flight-and-expulsion-victims-day",
+      "country": "DE",
+      "canonicalTitleEn": "Day of Remembrance for Victims of Flight and Expulsion — Germany",
+      "localizedTitles": {
+        "en": "Day of Remembrance for Victims of Flight and Expulsion — Germany",
+        "it": "Giornata tedesca in memoria delle vittime di fuga ed espulsione",
+        "es": "Día alemán de memoria de las víctimas del desplazamiento",
+        "fr": "Journée allemande du souvenir des victimes de l'exil et des expulsions",
+        "de": "Gedenktag für die Opfer von Flucht und Vertreibung",
+        "pt": "Dia alemão em memória das vítimas de fuga e expulsão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 20
+        }
+      ],
+      "source": "https://www.bundesregierung.de/breg-de/aktuelles/bundesregierung-gedenkt-zum-12-mal-der-opfer-von-flucht-und-vertreibung-2437922",
+      "additionalSources": [],
+      "authority": "Federal Government of Germany",
+      "resolution": "Federal Government observance beginning 2015",
+      "proposedIntroducedYear": 2015,
+      "introducedYearSource": "https://www.bundesregierung.de/breg-de/aktuelles/bundesregierung-gedenkt-zum-12-mal-der-opfer-von-flucht-und-vertreibung-2437922",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Germany has marked 20 June annually since 2015 to commemorate victims of flight and expulsion, deliberately aligning this national reflection with UN World Refugee Day.",
+      "dateRationale": "20 June overlaps the UN World Refugee Day; German annual commemoration began in 2015."
+    },
+    {
+      "id": "portugal-national-students-day",
+      "country": "PT",
+      "canonicalTitleEn": "National Students' Day — Portugal",
+      "localizedTitles": {
+        "en": "National Students' Day — Portugal",
+        "it": "Giornata nazionale degli studenti — Portogallo",
+        "es": "Día nacional del estudiante — Portugal",
+        "fr": "Journée nationale des étudiants — Portugal",
+        "de": "Nationaler Studierendentag in Portugal",
+        "pt": "Dia Nacional do Estudante"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 24
+        }
+      ],
+      "source": "https://diariodarepublica.pt/dr/detalhe/lei/19-1987-421862",
+      "additionalSources": [],
+      "authority": "Assembly of the Republic of Portugal",
+      "resolution": "Law 19/87 Article 1",
+      "proposedIntroducedYear": 1987,
+      "introducedYearSource": "https://diariodarepublica.pt/dr/detalhe/lei/19-1987-421862",
+      "aliases": [],
+      "subject": "LEARNING",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Portuguese Law 19/87 formally designated 24 March as National Students' Day, emphasizing participation in school and society, cooperation and democratic education.",
+      "dateRationale": "The annual 24 March observance was established by Law 19/87 in 1987."
+    },
+    {
+      "id": "portugal-national-blood-donors-day",
+      "country": "PT",
+      "canonicalTitleEn": "National Blood Donors' Day — Portugal",
+      "localizedTitles": {
+        "en": "National Blood Donors' Day — Portugal",
+        "it": "Giornata nazionale dei donatori di sangue — Portogallo",
+        "es": "Día nacional del donante de sangre — Portugal",
+        "fr": "Journée nationale des donneurs de sang — Portugal",
+        "de": "Nationaler Blutspendetag in Portugal",
+        "pt": "Dia Nacional do Dador de Sangue"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 27
+        }
+      ],
+      "source": "https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/40-1986-227068",
+      "additionalSources": [],
+      "authority": "Council of Ministers of Portugal",
+      "resolution": "Resolution 40/86",
+      "proposedIntroducedYear": 1986,
+      "introducedYearSource": "https://diariodarepublica.pt/dr/detalhe/resolucao-conselho-ministros/40-1986-227068",
+      "aliases": [],
+      "subject": "HEALTH",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Council of Ministers Resolution 40/86 instituted 27 March as the national day to recognize voluntary and unpaid blood donors and the value of donation for treating patients.",
+      "dateRationale": "The 27 March date is specified by Resolution 40/86 of 1986."
+    },
+    {
+      "id": "portugal-national-historic-centres-day",
+      "country": "PT",
+      "canonicalTitleEn": "National Historic Centres Day — Portugal",
+      "localizedTitles": {
+        "en": "National Historic Centres Day — Portugal",
+        "it": "Giornata nazionale dei centri storici — Portogallo",
+        "es": "Día nacional de los centros históricos — Portugal",
+        "fr": "Journée nationale des centres historiques — Portugal",
+        "de": "Nationaler Tag historischer Stadtzentren in Portugal",
+        "pt": "Dia Nacional dos Centros Históricos"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 28
+        }
+      ],
+      "source": "https://diariodarepublica.pt/dr/detalhe/regulamento/198-2026-1063935595",
+      "additionalSources": [],
+      "authority": "Portuguese municipal public authorities",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The 28 March observance is explicitly listed in a 2026 Portuguese municipal museum regulation. That proves contemporary recognition of the date, not its original national founding year.",
+      "dateRationale": "28 March is recorded in an official Portuguese municipal regulation; creation year is not established by this source."
+    },
+    {
+      "id": "portugal-national-grandparents-day",
+      "country": "PT",
+      "canonicalTitleEn": "National Grandparents Day — Portugal",
+      "localizedTitles": {
+        "en": "National Grandparents Day — Portugal",
+        "it": "Giornata nazionale dei nonni — Portogallo",
+        "es": "Día nacional de los abuelos — Portugal",
+        "fr": "Journée nationale des grands-parents — Portugal",
+        "de": "Nationaler Großelterntag in Portugal",
+        "pt": "Dia Nacional dos Avós"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 26
+        }
+      ],
+      "source": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/50-2003-553423",
+      "additionalSources": [],
+      "authority": "Assembly of the Republic of Portugal",
+      "resolution": "Parliamentary Resolution 50/2003",
+      "proposedIntroducedYear": 2003,
+      "introducedYearSource": "https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/50-2003-553423",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Assembly of the Republic introduced 26 July as National Grandparents Day through Resolution 50/2003, distinguishing its legal establishment from older familial traditions.",
+      "dateRationale": "26 July is prescribed by Parliamentary Resolution 50/2003."
+    },
+    {
+      "id": "portugal-national-sea-day",
+      "country": "PT",
+      "canonicalTitleEn": "National Sea Day — Portugal",
+      "localizedTitles": {
+        "en": "National Sea Day — Portugal",
+        "it": "Giornata nazionale del mare — Portogallo",
+        "es": "Día nacional del mar — Portugal",
+        "fr": "Journée nationale de la mer — Portugal",
+        "de": "Nationaler Tag des Meeres in Portugal",
+        "pt": "Dia Nacional do Mar"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 16
+        }
+      ],
+      "source": "https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar",
+      "additionalSources": [
+        "https://portugal.gov.pt/gc23/comunicacao/comunicados/governo-assinala-dia-nacional-do-mar"
+      ],
+      "authority": "Government of Portugal",
+      "resolution": "National observance instituted in 1998",
+      "proposedIntroducedYear": 1998,
+      "introducedYearSource": "https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar",
+      "aliases": [],
+      "subject": "PLANET",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Portugal's government reports National Sea Day was instituted in 1998; 16 November recalls UNCLOS entering into force in 1994, not the creation year of the observance.",
+      "dateRationale": "16 November commemorates the 1994 entry into force of the UN Convention on the Law of the Sea; national day began in 1998."
+    },
+    {
+      "id": "uk-holocaust-memorial-day",
+      "country": "GB",
+      "canonicalTitleEn": "Holocaust Memorial Day — United Kingdom",
+      "localizedTitles": {
+        "en": "Holocaust Memorial Day — United Kingdom",
+        "it": "Giornata britannica della memoria dell'Olocausto",
+        "es": "Día de memoria del Holocausto — Reino Unido",
+        "fr": "Journée de mémoire de l'Holocauste au Royaume-Uni",
+        "de": "Holocaust-Gedenktag im Vereinigten Königreich",
+        "pt": "Dia de Memória do Holocausto — Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 27
+        }
+      ],
+      "source": "https://www.executiveoffice-ni.gov.uk/articles/holocaust-memorial-day",
+      "additionalSources": [],
+      "authority": "United Kingdom government commemorations",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Government source says the initiative was established in 2000 and UK annual ceremonies have taken place since 2001; 27 January recalls liberation of Auschwitz in 1945, and matches the global UN Holocaust remembrance date.",
+      "dateRationale": "27 January marks the liberation of Auschwitz in 1945. UK national remembrance and the UN global observance have distinct institutional histories."
+    },
+    {
+      "id": "uk-stephen-lawrence-day",
+      "country": "GB",
+      "canonicalTitleEn": "Stephen Lawrence Day — United Kingdom",
+      "localizedTitles": {
+        "en": "Stephen Lawrence Day — United Kingdom",
+        "it": "Giornata di Stephen Lawrence — Regno Unito",
+        "es": "Día de Stephen Lawrence — Reino Unido",
+        "fr": "Journée Stephen Lawrence — Royaume-Uni",
+        "de": "Stephen-Lawrence-Tag im Vereinigten Königreich",
+        "pt": "Dia de Stephen Lawrence — Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 22
+        }
+      ],
+      "source": "https://www.cps.gov.uk/london-south/news/reflecting-stephen-lawrences-life",
+      "additionalSources": [],
+      "authority": "United Kingdom public institutions",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The UK Crown Prosecution Service confirms Stephen Lawrence Day is held annually on 22 April in memory of his life and the 1993 racist murder; this source does not establish a legislative proclamation year.",
+      "dateRationale": "22 April is the anniversary of Stephen Lawrence's murder in 1993; no formal institution year is asserted here."
+    },
+    {
+      "id": "uk-victory-in-europe-commemoration",
+      "country": "GB",
+      "canonicalTitleEn": "Victory in Europe Day — United Kingdom",
+      "localizedTitles": {
+        "en": "Victory in Europe Day — United Kingdom",
+        "it": "Giornata britannica della vittoria in Europa",
+        "es": "Día de la Victoria en Europa — Reino Unido",
+        "fr": "Journée de la Victoire en Europe — Royaume-Uni",
+        "de": "Tag des Sieges in Europa im Vereinigten Königreich",
+        "pt": "Dia da Vitória na Europa — Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "source": "https://www.gov.uk/government/topical-events/ve-day-and-vj-day-80th-anniversaries",
+      "additionalSources": [],
+      "authority": "Government of the United Kingdom",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The UK Government identifies 8 May as VE Day and organised national remembrance for the 80th anniversary in 2025; the source proves an official national commemoration, not a permanently legislated annual public holiday.",
+      "dateRationale": "8 May recalls victory in Europe in 1945; annual public-holiday entitlement is not implied."
+    },
+    {
+      "id": "uk-victory-over-japan-commemoration",
+      "country": "GB",
+      "canonicalTitleEn": "Victory over Japan Day — United Kingdom",
+      "localizedTitles": {
+        "en": "Victory over Japan Day — United Kingdom",
+        "it": "Giornata britannica della vittoria sul Giappone",
+        "es": "Día de la Victoria sobre Japón — Reino Unido",
+        "fr": "Journée de la Victoire sur le Japon — Royaume-Uni",
+        "de": "Tag des Sieges über Japan im Vereinigten Königreich",
+        "pt": "Dia da Vitória sobre o Japão — Reino Unido"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 15
+        }
+      ],
+      "source": "https://www.gov.uk/government/topical-events/ve-day-and-vj-day-80th-anniversaries",
+      "additionalSources": [],
+      "authority": "Government of the United Kingdom",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The UK Government identifies 15 August as VJ Day, used for national commemoration of the ending of war in the Far East in 1945; this is a remembrance date, not a general annual bank holiday.",
+      "dateRationale": "15 August commemorates the end of conflict in East Asia in 1945 within the UK VJ Day tradition."
+    }
+  ]
+}
