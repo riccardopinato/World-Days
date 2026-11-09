@@ -1,3 +1,5 @@
+> **Aggiornamento 9 novembre 2026, controllo Paese+data:** questo rapporto fotografa il precedente scanner di soli 20 match. In un secondo controllo sui 160 record nazionali dei lotti Wave01–04 sono emersi altri **7 sinonimi canonici** (4 ZA, 2 PH, 1 KR) non rilevati dallo scanner lessicale. Il totale ufficiale di ricerca diventa **24 già esistenti**, **6 nella PR #65**, **114 con data 2026 riscontrata da registri istituzionali (non ancora identità uniche approvate)** e **9 Nepal pending**. Le 121 righe del registro 2026 includono 7 già esistenti. Vedi `semantic_additional_country_date_duplicates_20261109.json`, `tool/validate_additional_country_date_duplicates.py` e `docs/research/WAVE05_10_CERTIFICATION_COVERAGE_2026-11-09.md`. I conteggi 17/136 sottostanti sono **storici**, non lo stato più recente.
+
 # Wave05–10 — Full generated-catalog collision review, 9 November 2026
 
 ## Evidence level
