@@ -1,5 +1,21 @@
 # World Days — Active roadmap
 
+## Execution update — 9 November 2026, five maxi-steps and full Audit 360
+
+[Full source-bound Audit 360](docs/AUDIT_2026-11-09_FIVE_MAXISTEPS_360.md) supersedes earlier coverage counters **only for their factual statuses**; earlier roadmap sections are retained as historical execution records. Factory baseline used: App-Factory-Core@2b3ae9e, Master v27 / Golden Index v29.
+
+| Workstream | Verified implementation or preparation | Unclosed acceptance |
+|---|---|---|
+| Saved physical performance (issue #54) | [PR #55](https://github.com/riccardopinato/World-Days/pull/55) includes clean-device Flutter profile mode for 0/50/150/296 favorites, raw FrameTiming driver, fail-closed report parser and device instructions | **DEVICE_NOT_VERIFIED**; no measured GPU/jank/RAM on phone |
+| List architecture | Existing Saved/Around the World rendering unchanged: no physical regression proves a need for ListView.builder | optimization **CONDITIONAL**, not preapproved |
+| Release P0 (issue #43) | Source/release-readiness matrix and existing signed APK+AAB workflow reviewed; native source gates pass on relevant PR SHAs | **BLOCKED** Google Play Console sandbox, owner-managed versionCode, manual signed production candidate, notifications, widget, Device/Play/App Ads |
+| 296 histories (issue #47) | 296 canonical titles/verified overview metadata; **56 REVIEWED** rich articles in six locales; **8 NEW DRAFT** historical articles in six locales [PR #56](https://github.com/riccardopinato/World-Days/pull/56) | 8 drafts require human editorial+translation review, **232** entries still lacking researched rich articles; 8 proposal years are NOT visible in app |
+| Full Audit 360 | 2026-11-09 comprehensive [report](docs/AUDIT_2026-11-09_FIVE_MAXISTEPS_360.md) with issue matrix, release evidence, lifetime purchase gate and cross-app audit addendum | runtime Store/devices NOT VERIFIED; next audit after physical acceptance |
+
+Actual source state after the implementation merges: main@2c85501adce13dcad88e20f04715d96658916c70 before this audit-only documentation PR. The Flutter 3.47.3 on-PR gates are PASS: [QA PR #55 run 42547952400](https://github.com/riccardopinato/World-Days/actions/runs/42547952400); [editorial PR #56 source run 42547327148](https://github.com/riccardopinato/World-Days/actions/runs/42547327148) and [candidate validator 42547327160](https://github.com/riccardopinato/World-Days/actions/runs/42547327160). Every main SHA needs its **own** post-merge evidence.
+
+**Critical path remains release E → F → J → K (issue #43)**. No automatic Play publish, no payment product activation, no fabricated device evidence; a verified signed APK/AAB requires an explicit owner/manual production workflow and one immutable signer/source/artifact manifest.
+
 Execution truth for the repository. Product scope remains governed by `docs/PRODUCT_BIBLE.txt`.
 
 Audit baseline (historical): `245f82148c1ca5ceee0977b82bf51a21b5b76a12`  

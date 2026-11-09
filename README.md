@@ -1,5 +1,16 @@
 # World Days
 
+## Verified source status — 9 November 2026
+
+The [five-maxi-step Audit 360](docs/AUDIT_2026-11-09_FIVE_MAXISTEPS_360.md) separates implemented source and CI evidence from physical device, Play Store and editorial review.
+
+- The canonical catalog includes **296 observances** with offline six-locale title/overview support.
+- **56/296 Rich Editorial articles** are already reviewed across EN/IT/ES/FR/DE/PT. Eight additional historical narratives in six locales were authored as **draft editorial candidates only** ([Wave04 review gate](docs/EDITORIAL_WAVE04_CANDIDATES_2026-11-09.md)); **232 records** still lack a researched full story. Source-proven introduction years remain **35/296**; proposed new years are not published.
+- The around-the-world 390px layout issue #52 is fixed. Saved 296-favorite widget test is green in CI, but actual Android scrolling FPS/jank and RAM remain **NOT MEASURED**. The physical profile instrumentation is in [#54 runbook](docs/SAVED_ANDROID_PROFILE_RUNBOOK_2026-11-09.md).
+- Production Release remains **BLOCKED** by [#43](https://github.com/riccardopinato/World-Days/issues/43) until Play Billing sandbox, owner controls, signed exact-source APK/AAB, notifications/widget on a physical phone and Play/AdMob declarations are documented. The source ARM64 build is not production signing.
+
+Historical numbers and dates farther down this README describe older phases and must not override the statuses in this section.
+
 **Discover what the world observes today.**
 
 World Days is an English-first, multilingual Flutter consumer app for international and world observances. V1 production scope is Android-first with a Flutter Web Preview; iOS production release is post-v1. The product keeps canonical verified observances separate from editorial/discovery candidates and preserves provenance for every record.
