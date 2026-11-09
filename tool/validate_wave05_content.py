@@ -13,10 +13,10 @@ catalog = json.loads((ROOT / "assets/data/official_core.json").read_text(encodin
 occurrences = json.loads((ROOT / "assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records = catalog["records"]
 by_id = {r["id"]: r for r in records}
-assert len(records) == len(by_id) == 472
-assert catalog["datasetVersion"] == "2026.11.09.7"
+assert len(records) == len(by_id) == 492
+assert catalog["datasetVersion"] == "2026.11.09.8"
 assert len([r for r in records if r["scope"] == "GLOBAL"]) == 285
-assert len([r for r in records if r["scope"] == "NATIONAL"]) == 187
+assert len([r for r in records if r["scope"] == "NATIONAL"]) == 207
 
 expected = {
     "world-day-of-romani-language": ("GLOBAL", "", "2026-11-05", 2015,
@@ -64,6 +64,6 @@ assert len([r for r in records if r["countries"] == ["JP"]]) == 13
 
 assert all(x["observanceId"] in by_id for x in occurrences["occurrences"])
 assert len(occurrences["dateIndex"]) == 365
-print("WAVE05 ADMISSION QA PASS: 456 retained + 3 UNESCO + 3 Japan + 7 Japan Wave06 + 3 India Wave07 = 472; "
+print("WAVE05 ADMISSION QA PASS: 456 retained + 3 UNESCO + 3 Japan + 7 Japan Wave06 + 3 India Wave07 = 492; "
       "six locales, official sources, identity, date rules. "
       "Long-form human editorial and mobile release NOT certified.")
