@@ -1,0 +1,15 @@
+name: FAST02 — Legal Scope Verification
+on:
+  push:
+    branches: [research/fast02-legal-scope-20261110]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scope-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate all ten legal scope and continuity decisions
+        run: python3 tool/validate_fast02_legal_scope.py
