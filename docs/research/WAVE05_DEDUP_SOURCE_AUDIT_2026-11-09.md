@@ -1,57 +1,36 @@
-# CORREZIONE VINCOLANTE — audit Wave05 (09/11/2026)
+# Wave05 — Dedup audit corretto (2026-11-09)
 
-**Il conteggio precedente di 17 corrispondenze esatte + 1 alias + 4 candidate è ERRATO.** La scansione preliminare non riconosceva le chiamate `fixed("...")` con virgolette doppie. Il generatore contiene già `fixed("International Day of the World's Indigenous Women and Girls",9,5,'A/RES/80/10')` (linea 318 circa, verificare posizione corrente). Pertanto **19/22 sono già nel generatore** (18 corrispondenze titolo, inclusa la voce indigene, + 1 alias AMR), e **solo 3 candidate UNESCO** rimangono da sottoporre al confronto completo con i 456 record. Nessun incremento certificato: 456.
+Baseline: `main@9e312432b7fb46be1fc66437587d4cbe49033ad9` = **456 ricorrenze** (282 globali + 174 nazionali).
 
-**Pack candidato attuale:** `data/research/wave05_four_official_candidates_20261109.json` mantiene un nome storico per compatibilità con la PR, ma ora contiene **esattamente 3 record**. Non interpretare il nome file come conteggio. Nessuna integrazione runtime.
+## Esito delle 22 candidate iniziali
 
-Fonti primarie: ONU https://www.un.org/en/observances/indigenous-women-day ; UNESCO https://www.unesco.org/en/days/list ; https://www.unesco.org/en/days/against-illicit-trafficking ; https://www.unesco.org/en/days/islamic-art .
+- **18** già presenti nel generatore globale con lo stesso titolo canonico. Include `International Day of the World's Indigenous Women and Girls`: nel sorgente la chiamata `fixed("...")` usa virgolette doppie e il primo grep l'aveva omessa.
+- **1** già presente con denominazione estesa: `World AMR Awareness Week` = `World Antimicrobial Resistance Awareness Week`.
+- **3** candidate residue UNESCO, **non integrate** e ancora soggette a confronto completo con i 456 record generati.
 
----
+| Candidate | Ricorrenza | Fonte istituzionale | Stato |
+|---|---|---|---|
+| World Day of Romani Language | 5 novembre | https://www.unesco.org/en/days/list | RESEARCH_ONLY |
+| International Day against Illicit Trafficking in Cultural Property | 14 novembre | https://www.unesco.org/en/days/against-illicit-trafficking | RESEARCH_ONLY |
+| International Day of Islamic Art | 18 novembre | https://www.unesco.org/en/days/islamic-art | RESEARCH_ONLY |
 
-# Wave05 — audit preliminare storico (superato dalla correzione in testa)
+Il pack storico `data/research/wave05_four_official_candidates_20261109.json` contiene ora **3 record** (`recordCount=3`), non quattro. Il nome file è mantenuto per stabilità della PR, non esprime il conteggio attuale.
 
-**BASE:** `main@9e312432b7fb46be1fc66437587d4cbe49033ad9` = 456 ID (282 GLOBAL / 174 NATIONAL).
-**GATE:** RESEARCH ONLY; **0** nuove ricorrenze pubblicate. Non confondere le candidate con la copertura dell'app.
+## QA e limiti
 
-## Risultato della prima deduplicazione
+- `tool/check_wave05_candidates.py`: verifica sintattica AST dei titoli Python, lettura delle sorgenti JSON di mercato, collisioni di slug e presenza delle sei lingue; non esegue dedup semantico completo su output generato.
+- `.github/workflows/wave05-research-check.yml`: workflow PR dedicato, da verificare su exact HEAD; **nessun PASS dichiarato senza esecuzione**.
+- Le traduzioni sono bozze non revisionate da madrelingua.
+- Le fonti e gli anni di proclamazione non equivalgono automaticamente all'anno di prima celebrazione.
+- Per l'ONU AI Day il 31 agosto è osservato dal 2027; per WHO World Prematurity Day il 15 novembre vale dal 2026. Non inserire dati falsi per anni precedenti.
+- Nessuna modifica ai 456 record runtime, ai generatori di asset, ad APK, Play o pubblicazione.
 
-Sulle 22 voci della ricerca preliminare, il confronto con le chiamate canoniche `fixed/rng/nth/lastwd/...` di `tool/build_dataset.py` mostra:
-- **17 corrispondenze testuali dirette** già implementate: voci #1, #3–#12, #16–#21.
-- **1 corrispondenza semantica/alias**: #22 «World AMR Awareness Week» = `World Antimicrobial Resistance Awareness Week` già nel generatore. NON aggiungere come nuova identità.
-- **4 candidate non presenti con il medesimo titolo nel generatore globale**: #2, #13, #14, #15. Richiedono verifica di `market_expansion`, alias e pack finale prima dell'ammissione. Non chiamarle ancora «4 nuove giornate integrate».
+## Gate prima dell'ammissione
 
-### Quattro schede candidate con fonti individuali
+1. Eseguire script CI e correggere eventuali errori.
+2. Confrontare titoli, ID e alias contro **l'output completo** di 456 record, non solo contro i sorgenti.
+3. Verificare le tre pagine ufficiali, ricorrenze e anno di introduzione con prova primaria.
+4. Integrare localizzazioni EN/IT/ES/FR/DE/PT e test di ricorrenza 2026–2028 in una **PR contenuti separata**.
+5. Mergiare soltanto con gate exact-head verdi e nessun conflitto.
 
-| Ricorrenza | Data annuale | Origine e status | Anno di proclamazione documentabile | Fonte primaria | Stato |
-|---|---|---|---|---|---|
-| International Day of the World's Indigenous Women and Girls | 5 settembre | ONU, Assemblea Generale, A/RES/80/10 | 2025 | https://www.un.org/en/observances/indigenous-women-day | Global candidate; duplicate check partial |
-| World Day of Romani Language | 5 novembre | UNESCO, Conferenza Generale 38a | 2015 | https://www.unesco.org/es/days/romani-language | Global candidate; duplicate check partial |
-| International Day against Illicit Trafficking in Cultural Property | 14 novembre | UNESCO, Conferenza Generale 40a | 2019 | https://www.unesco.org/en/days/against-illicit-trafficking | Global candidate; duplicate check partial |
-| International Day of Islamic Art | 18 novembre | UNESCO, Conferenza Generale 40a | 2019 | https://www.unesco.org/en/days/islamic-art | Global candidate; duplicate check partial |
-
-**Nota cronologica:** «anno di proclamazione» non implica automaticamente prima celebrazione. Il campo `introducedYear` del catalogo va compilato solo dopo avere verificato l'esatto significato richiesto dallo schema.
-
-### Revisione dati esistenti: due date importanti
-
-- `International Day of Safe, Secure and Trustworthy Artificial Intelligence` esiste già. A/RES/80/302 proclama **31 agosto** con osservanza **a partire dal 2027**: https://mandates.un.org/mandate/A/RES/80/302. Evitare una falsa celebrazione 2026.
-- `World Prematurity Day` esiste già. L'OMS indica **15 novembre dal 2026**, in precedenza 17 novembre: https://www.who.int/campaigns/world-prematurity-day/2026. Verificare e correggere eventuali record/test di anni precedenti, senza introdurre una seconda giornata.
-
-## Coverage math on exact source
-
-| Stage | Global current | National current | Totale nel runtime | Candidati unici ammissibili adesso |
-|---|---:|---:|---:|---:|
-| HEAD main | 282 | 174 | **456** | 0 |
-| Research after screening | 282 | 174 | **456** | **4 da verificare**, non aggiunte |
-| If all 4 pass admission | 286 | 174 | **460** | Condizionale, non attuale |
-
-Restano almeno **544** nuove identità fino a 1000. Le fonti ONU/UNESCO/OMS da sole non sono sufficienti a sostenere l'espansione: le 18 già presenti tra 22 candidate mostrano l'alto tasso di sovrapposizione. Priorità successiva: registri statali / commemorazioni regionali con perimetro geografico chiaro e classificazione diversa dagli eventi mondiali.
-
-## Release-gate per implementazione successiva
-
-1. Estrarre **tutti** i 456 ID generati, inclusi `market_catalog` e `market_expansion` e controllare titolo/alias/regole/autorità (non basta grep).
-2. Eseguire match letterali e semantici per le 4 candidate, poi creare ID canonici solo se indipendenti.
-3. Tradurre EN/IT/ES/FR/DE/PT, con `overview` e provenance; mantenere flag editoriale separato per storie lunghe.
-4. Verificare recurrence 2026–2028, condizioni 2027 per AI, e vecchia data OMS per gli anni passati.
-5. Eseguire CI esatta su branch e solo allora una PR contenuti separata (non dichiarare PASS qui).
-
-Nessuna modifica a APK, Play, signing, billing, advertising, dati utente o runtime.
+Obiettivo: >=1000 identità uniche. **544** mancanti, invariati in questa PR di sola ricerca.
