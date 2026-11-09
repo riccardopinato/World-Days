@@ -24,6 +24,7 @@ jobs:
 
       - name: Build and validate dataset
         run: |
+          python3 tool/market_wave04.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/build_editorial.py
@@ -91,7 +92,7 @@ jobs:
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
 
-      - name: Archive 354-record catalog coverage and draft gates
+      - name: Archive source-bound catalog coverage and draft gates
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: world-days-catalog-coverage
