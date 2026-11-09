@@ -22,6 +22,21 @@ const marketOptions = <MarketOption>[
   MarketOption('MX', '🇲🇽'),
   MarketOption('IN', '🇮🇳'),
   MarketOption('JP', '🇯🇵'),
+  MarketOption('CZ', '🇨🇿'),
+  MarketOption('SK', '🇸🇰'),
+  MarketOption('NO', '🇳🇴'),
+  MarketOption('FI', '🇫🇮'),
+  MarketOption('SE', '🇸🇪'),
+  MarketOption('PL', '🇵🇱'),
+  MarketOption('IE', '🇮🇪'),
+  MarketOption('NL', '🇳🇱'),
+  MarketOption('ZA', '🇿🇦'),
+  MarketOption('PH', '🇵🇭'),
+  MarketOption('NZ', '🇳🇿'),
+  MarketOption('SG', '🇸🇬'),
+  MarketOption('KR', '🇰🇷'),
+  MarketOption('AR', '🇦🇷'),
+  MarketOption('PE', '🇵🇪'),
 ];
 
 String marketLabel(AppLocalizations l10n, String code) {
@@ -52,6 +67,36 @@ String marketLabel(AppLocalizations l10n, String code) {
       return l10n.countryIndia;
     case 'JP':
       return l10n.countryJapan;
+    case 'CZ':
+      return l10n.countryCzechia;
+    case 'SK':
+      return l10n.countrySlovakia;
+    case 'NO':
+      return l10n.countryNorway;
+    case 'FI':
+      return l10n.countryFinland;
+    case 'SE':
+      return l10n.countrySweden;
+    case 'PL':
+      return l10n.countryPoland;
+    case 'IE':
+      return l10n.countryIreland;
+    case 'NL':
+      return l10n.countryNetherlands;
+    case 'ZA':
+      return l10n.countrySouthAfrica;
+    case 'PH':
+      return l10n.countryPhilippines;
+    case 'NZ':
+      return l10n.countryNewZealand;
+    case 'SG':
+      return l10n.countrySingapore;
+    case 'KR':
+      return l10n.countrySouthKorea;
+    case 'AR':
+      return l10n.countryArgentina;
+    case 'PE':
+      return l10n.countryPeru;
     default:
       return l10n.globalMarket;
   }
