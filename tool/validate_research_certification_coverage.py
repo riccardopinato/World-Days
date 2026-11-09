@@ -30,11 +30,11 @@ def main():
     assert a["catalogCount"] == d["catalogBaseCount"] == 456
     assert a["candidateRecordCount"] == 153, "source inventory drift"
     assert len(a["candidateResults"]) == 153
-    assert e["recordCount"] == len(e["records"]) == 34
-    assert e["countryCounts"] == {"KH":12,"LK":13,"BD":6,"LA":3}
+    assert e["recordCount"] == len(e["records"]) == 65
+    assert e["countryCounts"] == {"KH":12,"LK":13,"BD":6,"LA":3,"JP":9,"TH":13,"SG":5,"VN":4}
     decisions = {key(x["candidateFile"],x["candidateTitle"]):x for x in d["reviewDecisions"]}
     evidence = {key(x["researchFile"],x["title"]):x for x in e["records"]}
-    assert len(decisions)==20 and len(evidence)==34
+    assert len(decisions)==20 and len(evidence)==65
     assert all(x["decision"] in {"SAME_EXISTING_OBSERVANCE","DIFFERENT_FROM_FLAGGED_MATCH"} for x in decisions.values())
     assert len([x for x in decisions.values() if x["decision"]=="SAME_EXISTING_OBSERVANCE"]) == 17
     assert len([x for x in decisions.values() if x["decision"]=="DIFFERENT_FROM_FLAGGED_MATCH"]) == 3
@@ -102,8 +102,8 @@ def main():
     assert counts=={
       "ALREADY_IN_MAIN_456":17,
       "IN_UNMERGED_PR_65":6,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":34,
-      "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":96,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":65,
+      "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":65,
     },counts
     assert sum(counts.values())==153
     assert sum(r["runtimeAdded"] for r in rows)==0
