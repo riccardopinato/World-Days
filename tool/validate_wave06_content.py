@@ -10,7 +10,7 @@ r=catalog["records"];by_id={z["id"]:z for z in r}
 assert len(by_id)==len(r)==492
 assert catalog["datasetVersion"]=="2026.11.09.8"
 assert sum(z["scope"]=="GLOBAL" for z in r)==285
-assert sum(z["scope"]=="NATIONAL" for z in r)==187
+assert sum(z["scope"]=="NATIONAL" for z in r)==207
 assert sum(z["countries"]==["JP"] for z in r)==13
 fresh=load_wave06_japan()
 assert {x["id"] for x in fresh}==set(EXPECTED)
