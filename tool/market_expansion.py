@@ -16,7 +16,7 @@ SOURCE_HOSTS = {
     "www.boe.es", "www.cheminsdememoire.gouv.fr",
     "www.legifrance.gouv.fr", "www.bundesregierung.de",
     "diariodarepublica.pt", "portugal.gov.pt", "www.gov.uk",
-    "insidemca.blog.gov.uk", "www.opm.gov",
+    "insidemca.blog.gov.uk", "www.opm.gov", "www.archives.gov",
 }
 VALID_RULES = {"FIXED_DATE", "NTH_WEEKDAY", "LAST_WEEKDAY"}
 
@@ -55,12 +55,18 @@ def load_expansion():
         source = urlsplit(item["source"])
         assert source.scheme == "https" and source.hostname in SOURCE_HOSTS, ident
         assert source.path and source.path != "/"
+        extra_sources = item.get("additionalSources", [])
+        assert len(extra_sources) == len(set(extra_sources)), ident
+        for extra in extra_sources:
+            extra_url = urlsplit(extra)
+            assert extra_url.scheme == "https" and extra_url.hostname in SOURCE_HOSTS
+            assert extra_url.path not in ("", "/")
         year = item["proposedIntroducedYear"]
         if year is None:
             assert item["introducedYearSource"] is None
         else:
             assert 1800 <= year <= 2026
-            assert item["introducedYearSource"] == item["source"]
+            assert item["introducedYearSource"] in [item["source"], *extra_sources]
         assert item["sourceReviewedOn"] == "2026-11-09"
     assert data["countryCounts"] == {
         code: sum(x["country"] == code for x in data["records"])
@@ -100,11 +106,10 @@ def build_expansion_records():
                 "resolution": item["resolution"],
             },
             "categories": [item["subject"], "CIVIC"],
-            "sources": [{
-                "tier": "A_PRIMARY",
-                "url": item["source"],
-                "verifiedAt": item["sourceReviewedOn"],
-            }],
+            "sources": [
+                {"tier": "A_PRIMARY", "url": url, "verifiedAt": item["sourceReviewedOn"]}
+                for url in [item["source"], *item.get("additionalSources", [])]
+            ],
             "visualKey": "people",
             "editorialStatus": "STUB",
             "notes": [
