@@ -1,4 +1,14 @@
-# Wave05 — Deduplicazione rigorosa e quattro nuove candidate (09/11/2026)
+# CORREZIONE VINCOLANTE — audit Wave05 (09/11/2026)
+
+**Il conteggio precedente di 17 corrispondenze esatte + 1 alias + 4 candidate è ERRATO.** La scansione preliminare non riconosceva le chiamate `fixed("...")` con virgolette doppie. Il generatore contiene già `fixed("International Day of the World's Indigenous Women and Girls",9,5,'A/RES/80/10')` (linea 318 circa, verificare posizione corrente). Pertanto **19/22 sono già nel generatore** (18 corrispondenze titolo, inclusa la voce indigene, + 1 alias AMR), e **solo 3 candidate UNESCO** rimangono da sottoporre al confronto completo con i 456 record. Nessun incremento certificato: 456.
+
+**Pack candidato attuale:** `data/research/wave05_four_official_candidates_20261109.json` mantiene un nome storico per compatibilità con la PR, ma ora contiene **esattamente 3 record**. Non interpretare il nome file come conteggio. Nessuna integrazione runtime.
+
+Fonti primarie: ONU https://www.un.org/en/observances/indigenous-women-day ; UNESCO https://www.unesco.org/en/days/list ; https://www.unesco.org/en/days/against-illicit-trafficking ; https://www.unesco.org/en/days/islamic-art .
+
+---
+
+# Wave05 — audit preliminare storico (superato dalla correzione in testa)
 
 **BASE:** `main@9e312432b7fb46be1fc66437587d4cbe49033ad9` = 456 ID (282 GLOBAL / 174 NATIONAL).
 **GATE:** RESEARCH ONLY; **0** nuove ricorrenze pubblicate. Non confondere le candidate con la copertura dell'app.
