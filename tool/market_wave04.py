@@ -7,6 +7,7 @@ No artificial UN/national duplicates; source-only metadata, not Rich Editorial.
 """
 from __future__ import annotations
 from calendar import monthrange
+from datetime import date, timedelta
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -53,6 +54,24 @@ def _validate_rule(r):
             assert set(r) == {"kind", "month", "weekday", "occurrence"}
         else:
             assert set(r) == {"kind", "month", "weekday"}
+
+
+def _resolved_date(rule, year):
+    """Prove dates for fixed/nth/last weekdays in 2026–2028, never workplace substitutes."""
+    month = rule["month"]
+    if rule["kind"] == "FIXED_DATE":
+        return date(year, month, rule["day"])
+    first = date(year, month, 1)
+    weekday = rule["weekday"] - 1  # ISO Monday = 1, Python Monday = 0
+    if rule["kind"] == "NTH_WEEKDAY":
+        first_offset = (weekday - first.weekday()) % 7
+        day = 1 + first_offset + (rule["occurrence"] - 1) * 7
+    else:
+        last_day = monthrange(year, month)[1]
+        last = date(year, month, last_day)
+        day = last_day - (last.weekday() - weekday) % 7
+    assert 1 <= day <= monthrange(year, month)[1], rule
+    return date(year, month, day)
 
 
 def load_wave04():
@@ -114,6 +133,21 @@ def load_wave04():
     titles = [r["canonicalTitleEn"] for r in rows]
     assert len(rows) == len(set(ids)) == len(set(titles)) == 83
     assert {x: sum(r["country"] == x for r in rows) for x in COUNTRY_COUNTS} == COUNTRY_COUNTS
+    for item in rows:
+        for year in (2026, 2027, 2028):
+            observed = _resolved_date(item["recurrenceRules"][0], year)
+            assert observed.year == year, (item["id"], year)
+    by_id = {item["id"]: item for item in rows}
+    expected_vectors = {
+        "fi-finnish-nature-day": ("2026-08-29", "2027-08-28", "2028-08-26"),
+        "ph-national-heroes-day": ("2026-08-31", "2027-08-30", "2028-08-28"),
+        "nz-labour-day": ("2026-10-26", "2027-10-25", "2028-10-23"),
+        "ie-st-brigids-day": ("2026-02-01", "2027-02-01", "2028-02-01"),
+    }
+    for rid, want in expected_vectors.items():
+        got = tuple(_resolved_date(by_id[rid]["recurrenceRules"][0], year).isoformat()
+                    for year in (2026, 2027, 2028))
+        assert got == want, (rid, got, want)
     assert sum(r["proposedIntroducedYear"] is not None for r in rows) == 1
     return rows
 
