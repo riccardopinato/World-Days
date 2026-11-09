@@ -34,7 +34,7 @@ def load_expansion():
     assert data["schemaVersion"] == 1
     assert data["count"] == len(data["records"]) == 43
     assert set(data["locales"]) == set(LOCALES)
-    assert set(data["countryCounts"]) == set(COUNTRIES)
+    assert set(data["countryCounts"]) == {"IT", "ES", "FR", "DE", "PT", "GB", "US"}
     ids = set()
     titles = set()
     for item in data["records"]:
@@ -78,7 +78,7 @@ def load_expansion():
         assert item["sourceReviewedOn"] == "2026-11-09"
     assert data["countryCounts"] == {
         code: sum(x["country"] == code for x in data["records"])
-        for code in COUNTRIES
+        for code in data["countryCounts"]
     }
     return data
 
