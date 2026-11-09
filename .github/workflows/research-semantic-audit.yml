@@ -1,0 +1,39 @@
+name: Research candidates — generated catalog semantic overlap audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/research/**"
+      - "tool/audit_research_candidates.py"
+      - "tool/test_research_semantic_audit.py"
+      - ".github/workflows/research-semantic-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout exact candidate source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Build actual canonical 456-record dataset from repository generators
+        run: |
+          python3 tool/market_wave04.py
+          python3 tool/build_dataset.py > /tmp/world-days-dataset-build.log
+          python3 tool/validate_dataset.py
+      - name: Negative and positive collision screen tests
+        run: python3 -m unittest discover -s tool -p 'test_research_semantic_audit.py' -v
+      - name: Audit ALL candidate waves against generated IDs aliases titles locales
+        run: python3 tool/audit_research_candidates.py
+      - name: Upload inspectable research semantic-audit report
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-research-semantic-audit
+          path: reports/research_semantic_audit.json
+          if-no-files-found: warn
+          retention-days: 21
