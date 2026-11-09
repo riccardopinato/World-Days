@@ -9,6 +9,8 @@ on:
       - "tool/test_research_semantic_audit.py"
       - "tool/validate_research_overlap_decisions.py"
       - "tool/validate_research_certification_coverage.py"
+      - "tool/triage_research_identities.py"
+      - "tool/test_research_identity_triage.py"
       - ".github/workflows/research-semantic-audit.yml"
   workflow_dispatch:
 
@@ -35,6 +37,10 @@ jobs:
         run: python3 tool/validate_research_overlap_decisions.py
       - name: Verify provenance and certification boundaries for all 153 candidates
         run: python3 tool/validate_research_certification_coverage.py
+      - name: Test semantic and movable-date safety cases
+        run: python3 -m unittest discover -s tool -p 'test_research_identity_triage.py' -v
+      - name: Generate all-candidate semantic triage queue (no auto-admission)
+        run: python3 tool/triage_research_identities.py
       - name: Upload inspectable research semantic-audit report
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -43,5 +49,6 @@ jobs:
           path: |
             reports/research_semantic_audit.json
             reports/research_certification_coverage.json
+            reports/research_semantic_triage.json
           if-no-files-found: warn
           retention-days: 21
