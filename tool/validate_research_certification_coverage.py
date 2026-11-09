@@ -18,7 +18,7 @@ OUT = ROOT / "reports/research_certification_coverage.json"
 AUDIT = ROOT / "reports/research_semantic_audit.json"
 DECISIONS = RESEARCH / "semantic_overlap_decisions_20261109.json"
 EVIDENCE = RESEARCH / "primary_2026_calendar_verified_20261109.json"
-EXTRA_DUPLICATES = RESEARCH / "semantic_additional_za_duplicates_20261109.json"
+EXTRA_DUPLICATES = RESEARCH / "semantic_additional_country_date_duplicates_20261109.json"
 LOCALES = {"en","it","es","fr","de","pt"}
 
 def key(file, title):
@@ -38,7 +38,7 @@ def main():
     evidence = {key(x["researchFile"],x["title"]):x for x in e["records"]}
     assert len(decisions)==20 and len(evidence)==121
     extra = {key(r["candidateFile"], r["candidateTitle"]):r for r in x["records"]}
-    assert x["reviewedCount"] == len(extra) == 4
+    assert x["reviewedCount"] == len(extra) == 7
     assert not (set(extra) & set(decisions))
     assert all(x["decision"] in {"SAME_EXISTING_OBSERVANCE","DIFFERENT_FROM_FLAGGED_MATCH"} for x in decisions.values())
     assert len([x for x in decisions.values() if x["decision"]=="SAME_EXISTING_OBSERVANCE"]) == 17
@@ -114,9 +114,9 @@ def main():
         })
     counts=Counter(r["status"] for r in rows)
     assert counts=={
-      "ALREADY_IN_MAIN_456":21,
+      "ALREADY_IN_MAIN_456":24,
       "IN_UNMERGED_PR_65":6,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":117,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":114,
       "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":9,
     },counts
     assert sum(counts.values())==153
