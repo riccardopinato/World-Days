@@ -44,7 +44,7 @@ def main():
     assert len([x for x in decisions.values() if x["decision"]=="SAME_EXISTING_OBSERVANCE"]) == 17
     assert len([x for x in decisions.values() if x["decision"]=="DIFFERENT_FROM_FLAGGED_MATCH"]) == 3
 
-    pr65 = {
+    pr67 = {
       ("wave05_four_official_candidates_20261109.json","World Day of Romani Language"),
       ("wave05_four_official_candidates_20261109.json","International Day against Illicit Trafficking in Cultural Property"),
       ("wave05_four_official_candidates_20261109.json","International Day of Islamic Art"),
@@ -62,12 +62,13 @@ def main():
       ("wave06_japan_philippines_india_2026.json","Independence Day (India)"),
       ("wave06_japan_philippines_india_2026.json","Gandhi Jayanti"),
     }
-    assert len(pr65)==16
+    assert len(pr67)==16
     duplicate_decisions = {k for k,v in decisions.items() if v["decision"] == "SAME_EXISTING_OBSERVANCE"}
-    assert not (pr65 & duplicate_decisions)
+    assert not (pr67 & duplicate_decisions)
     # UNESCO Islamic Art and Japan Children's Day can appear in the 20
     # similarity flags as DISTINCT events, without becoming a duplicate.
-    assert not (pr65 & set(evidence))
+    # Ten staged PR67 source records have 2026 date evidence; those rows are
+    # counted as IN_UNMERGED_CONTENT_PR_67, not admitted as new research.
     assert not (set(evidence) & duplicate_decisions)
     # Date verification may overlap a dismissed similarity alert (e.g.
     # Japanese Children\'s Day versus UN World Children\'s Day).
@@ -75,7 +76,7 @@ def main():
     assert len(source_rows)==153
     assert set(decisions)<=set(source_rows)
     assert set(evidence)<=set(source_rows)
-    assert pr65<=set(source_rows)
+    assert pr67<=set(source_rows)
     assert set(extra)<=set(source_rows)
     assert set(extra)<=set(evidence)
     rows=[]
@@ -84,7 +85,7 @@ def main():
         if (k in decisions and decisions[k]["decision"]=="SAME_EXISTING_OBSERVANCE") or k in extra:
             status="ALREADY_IN_MAIN_456"
             note="Existing source-backed canonical observance; do not admit another ID."
-        elif k in pr65:
+        elif k in pr67:
             status="IN_UNMERGED_CONTENT_PR_67"
             note="Sixteen source-build tested IDs consolidated in PR #67 to main, but unmerged; human editorial approval outstanding."
         elif k in evidence:
