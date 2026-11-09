@@ -1,5 +1,17 @@
 # World Days — Active roadmap
 
+## Content-first milestone 03 — six new markets and 25 six-locale story candidates (9 November 2026)
+
+**Source:** [Wave03 13-country expansion](docs/COUNTRY_WAVE03_SIX_NEW_MARKETS_2026-11-09.md) and [25-story review dossier](docs/EDITORIAL_25_SIX_LOCALE_DRAFT_QA_2026-11-09.md).
+
+**Catalog:** from 354 to **373 distinct** records: 282 GLOBAL (unchanged), **91 NATIONAL** (+19), 13 countries (+6: CA 5, AU 3, BR 3, MX 3, IN 2, JP 3); EN/IT/ES/FR/DE/PT titles, original IDs and local-first behavior preserved. **64 documented formal institution years**, 309 unknown `*`. Versioned pack **2026.11.09.3**. Mexico shifted workday dates and Japan substitute holidays must not be confused with canonical dates.
+
+**Historical stories:** 56 in runtime REVIEWED; all **25 candidates have six-locale texts** (the 8 older global candidates + 17 country drafts translated into ES/FR/DE/PT) with provenance, origin, significance, facts and participation suggestions. This meets structural completion of the translations, **not qualified human editorial/linguistic approval**. Source-specific chronology and translation parity CI controls prohibit accidental runtime promotion. **292 days still lack fully researched long-form stories**.
+
+**Next 5 maxi-steps:** (1) exact-head CI Flutter data tests, 13-country UI at 320/390px, six locales, content-pack integrity; (2) qualified source/linguistic human review of 25 six-locale candidate stories and controlled per-story promotion; (3) additional country expansion and stable source-ledger by region/officiality, progressively toward 1,000+ distinct days; (4) structured long-form editorial expansion across remaining 292 days, maintaining date/source/year provenance; (5) additive Audit 360 + cross-application Flutter scanner/performance regression after every content milestone.
+
+**User exclusions persist:** APK, signing, physical Android/Play testing and Google Play Console publication SUSPENDED. Do not reopen issues #43/#54 as active release work; the existing source CI may run without authorizing a mobile release.
+
 ## Content-first progress — Country Wave02, 9 November 2026
 
 [Research, dates, provenance and history status](docs/CATALOG_GROWTH_COUNTRY_WAVE02_2026-11-09.md). Second content batch proposes **15 source-supported national days** beyond the 339 baseline, giving **354 unique events = 282 GLOBAL + 72 NATIONAL**. New market totals: IT 25, ES **8**, FR 9, DE **4**, PT **9**, GB **8**, US 9; no duplicated UN days and no replacement of approved IDs. Versioned bundled content: **2026.11.09.2**. Ten new establishment years are source-backed, increasing the total from 41 to **51**, without inferring unknown dates.

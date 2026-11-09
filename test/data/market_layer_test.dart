@@ -23,6 +23,12 @@ void main() {
       'PT': 9,
       'GB': 8,
       'US': 9,
+      'CA': 5,
+      'AU': 3,
+      'BR': 3,
+      'MX': 3,
+      'IN': 2,
+      'JP': 3,
     };
 
     for (final entry in expected.entries) {
@@ -46,14 +52,14 @@ void main() {
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
     expect(global, hasLength(282));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
-    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US']) {
+    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP']) {
       final national = controller.recordsForMarket(country);
       final all = controller.recordsForMarket(country, includeGlobal: true);
       expect(all.length, national.length + global.length, reason: country);
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 354);
+    expect(controller.catalog!.records.length, 373);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });

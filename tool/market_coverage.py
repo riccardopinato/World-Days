@@ -27,8 +27,8 @@ def coverage_report():
     strata = {
         "REVIEWED_RUNTIME": {r["observanceId"] for r in reviewed["entries"]},
         "WAVE04_DRAFT_SIX_LOCALES": {r["id"] for r in wave04["records"]},
-        "COUNTRY_WAVE01_DRAFT_EN_IT": {r["id"] for r in wave01["entries"]},
-        "COUNTRY_WAVE02_DRAFT_EN_IT": {r["id"] for r in wave02["entries"]},
+        "COUNTRY_WAVE01_DRAFT_SIX_LOCALES": {r["id"] for r in wave01["entries"]},
+        "COUNTRY_WAVE02_DRAFT_SIX_LOCALES": {r["id"] for r in wave02["entries"]},
     }
     known, seen = set(ids), set()
     for label, entries in strata.items():
@@ -78,12 +78,12 @@ def coverage_report():
     )
     assert sum(report["nationalByCountry"].values()) == report["nationalUnique"]
     assert sum(report["editorialStages"].values()) == len(ids)
-    assert report["catalogTotalUnique"] == 354
+    assert report["catalogTotalUnique"] == 373
     assert report["globalUnique"] == 282
-    assert report["nationalUnique"] == 72
-    assert report["introducedYearProven"] == 51
+    assert report["nationalUnique"] == 91
+    assert report["introducedYearProven"] == 64
     assert report["editorialStages"]["REVIEWED_RUNTIME"] == 56
-    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 273
+    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 292
     return report
 
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json
 from pathlib import Path
-from market_expansion import load_expansion, load_wave02
+from market_expansion import load_expansion, load_wave02, load_wave03
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -50,7 +50,9 @@ expansion = load_expansion()
 expected_market.update({row['id']: row['country'] for row in expansion['records']})
 wave02 = load_wave02()
 expected_market.update({row['id']: row['country'] for row in wave02['records']})
-assert len(ids) == len(records) == 354, ('catalog growth total', len(records))
+wave03 = load_wave03()
+expected_market.update({row['id']: row['country'] for row in wave03['records']})
+assert len(ids) == len(records) == 373, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -113,7 +115,7 @@ for record in records:
     if record.get('scope') == 'NATIONAL':
         countries = record.get('countries', [])
         assert len(countries) == 1, f"national record must have one country: {record.get('id')}"
-        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US'}, record.get('id')
+        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP'}, record.get('id')
         assert officiality == 'OFFICIAL_INSTITUTIONAL', record.get('id')
         assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
 
@@ -166,6 +168,19 @@ market_vectors = {
     'uk-stephen-lawrence-day': ['2026-04-22'],
     'uk-victory-in-europe-commemoration': ['2026-05-08'],
     'uk-victory-over-japan-commemoration': ['2026-08-15'],
+    'canada-national-flag-day': ['2026-02-15'],
+    'canada-national-indigenous-peoples-day': ['2026-06-21'],
+    'australia-national-sorry-day': ['2026-05-26'],
+    'australia-anzac-day': ['2026-04-25'],
+    'brazil-indigenous-peoples-day': ['2026-04-19'],
+    'brazil-black-consciousness-day': ['2026-11-20'],
+    'mexico-national-flag-day': ['2026-02-24'],
+    'mexico-constitution-day': ['2026-02-05'],
+    'india-national-voters-day': ['2026-01-25'],
+    'india-national-science-day': ['2026-02-28'],
+    'japan-national-foundation-day': ['2026-02-11'],
+    'japan-constitution-memorial-day': ['2026-05-03'],
+    'japan-culture-day': ['2026-11-03'],
 }
 for observance_id, expected_dates in market_vectors.items():
     actual = sorted(
