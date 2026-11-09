@@ -18,6 +18,7 @@ OUT = ROOT / "reports/research_certification_coverage.json"
 AUDIT = ROOT / "reports/research_semantic_audit.json"
 DECISIONS = RESEARCH / "semantic_overlap_decisions_20261109.json"
 EVIDENCE = RESEARCH / "primary_2026_calendar_verified_20261109.json"
+EXTRA_DUPLICATES = RESEARCH / "semantic_additional_za_duplicates_20261109.json"
 LOCALES = {"en","it","es","fr","de","pt"}
 
 def key(file, title):
@@ -27,6 +28,7 @@ def main():
     a = json.loads(AUDIT.read_text(encoding="utf-8"))
     d = json.loads(DECISIONS.read_text(encoding="utf-8"))
     e = json.loads(EVIDENCE.read_text(encoding="utf-8"))
+    x = json.loads(EXTRA_DUPLICATES.read_text(encoding="utf-8"))
     assert a["catalogCount"] == d["catalogBaseCount"] == 456
     assert a["candidateRecordCount"] == 153, "source inventory drift"
     assert len(a["candidateResults"]) == 153
@@ -35,6 +37,9 @@ def main():
     decisions = {key(x["candidateFile"],x["candidateTitle"]):x for x in d["reviewDecisions"]}
     evidence = {key(x["researchFile"],x["title"]):x for x in e["records"]}
     assert len(decisions)==20 and len(evidence)==121
+    extra = {key(r["candidateFile"], r["candidateTitle"]):r for r in x["records"]}
+    assert x["reviewedCount"] == len(extra) == 4
+    assert not (set(extra) & set(decisions))
     assert all(x["decision"] in {"SAME_EXISTING_OBSERVANCE","DIFFERENT_FROM_FLAGGED_MATCH"} for x in decisions.values())
     assert len([x for x in decisions.values() if x["decision"]=="SAME_EXISTING_OBSERVANCE"]) == 17
     assert len([x for x in decisions.values() if x["decision"]=="DIFFERENT_FROM_FLAGGED_MATCH"]) == 3
@@ -61,10 +66,12 @@ def main():
     assert set(decisions)<=set(source_rows)
     assert set(evidence)<=set(source_rows)
     assert pr65<=set(source_rows)
+    assert set(extra)<=set(source_rows)
+    assert set(extra)<=set(evidence)
     rows=[]
     for idx,r in enumerate(a["candidateResults"]):
         k=key(r["researchFile"],r["title"])
-        if k in decisions and decisions[k]["decision"]=="SAME_EXISTING_OBSERVANCE":
+        if (k in decisions and decisions[k]["decision"]=="SAME_EXISTING_OBSERVANCE") or k in extra:
             status="ALREADY_IN_MAIN_456"
             note="Existing source-backed canonical observance; do not admit another ID."
         elif k in pr65:
@@ -98,7 +105,7 @@ def main():
             "country":r["country"],
             "2026Date":r["occurrence2026"],
             "status":status,
-            "existingCanonicalId":decisions[k]["existingId"] if status=="ALREADY_IN_MAIN_456" else None,
+            "existingCanonicalId":(decisions.get(k) or extra.get(k))["existingId"] if status=="ALREADY_IN_MAIN_456" else None,
             "sourceEvidence":ov["officialCalendarUrl"] if ov else None,
             "sourceNote":ov["notes"] if ov else note,
             "annualRecurrenceCert":bool(ov and ov["annualRecurrenceCertified"]),
@@ -107,9 +114,9 @@ def main():
         })
     counts=Counter(r["status"] for r in rows)
     assert counts=={
-      "ALREADY_IN_MAIN_456":17,
+      "ALREADY_IN_MAIN_456":21,
       "IN_UNMERGED_PR_65":6,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":121,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":117,
       "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":9,
     },counts
     assert sum(counts.values())==153
@@ -122,6 +129,7 @@ def main():
       "researchRecords":len(rows),
       "statuses":dict(sorted(counts.items())),
       "notYetVerifiedUnique":len(rows)-counts["ALREADY_IN_MAIN_456"],
+      "primaryDateEvidenceTotalIncludingCanonicalDuplicates":len(evidence),
       "publicationGate":"BLOCKED_PENDING_SOURCE_AND_HUMAN_EDITORIAL_APPROVAL",
       "disclaimer":"2026 verified occurrence != multi-year annual identity; PR65 not in main; all other research remains blocked.",
       "records":rows
