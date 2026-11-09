@@ -1350,23 +1350,22 @@
       "dateRationale": "The official or institutional register gives the annual observance date for Greater Poland Uprising Victory Day. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
     },
     {
-      "id": "ie-st-brigids-public-holiday",
+      "id": "ie-st-brigids-day",
       "country": "IE",
-      "canonicalTitleEn": "Saint Brigid's Public Holiday — Ireland",
+      "canonicalTitleEn": "Saint Brigid's Day — Ireland",
       "localizedTitles": {
-        "en": "Saint Brigid's Public Holiday — Ireland",
-        "it": "Festa pubblica di santa Brigida — Irlanda",
-        "es": "Festivo de Santa Brígida — Irlanda",
-        "fr": "Jour férié de sainte Brigitte — Irlande",
-        "de": "Feiertag der heiligen Brigid — Irland",
-        "pt": "Feriado de Santa Brígida — Irlanda"
+        "en": "Saint Brigid's Day — Ireland",
+        "it": "Giornata di santa Brigida — Irlanda",
+        "es": "Día de Santa Brígida — Irlanda",
+        "fr": "Journée de sainte Brigitte — Irlande",
+        "de": "St.-Brigid-Tag — Irland",
+        "pt": "Dia de Santa Brígida — Irlanda"
       },
       "recurrenceRules": [
         {
-          "kind": "NTH_WEEKDAY",
+          "kind": "FIXED_DATE",
           "month": 2,
-          "weekday": 1,
-          "occurrence": 1
+          "day": 1
         }
       ],
       "source": "https://www.gov.ie/en/department-of-the-taoiseach/press-releases/government-agrees-covid-recognition-payment-and-new-public-holiday/",
@@ -1376,13 +1375,13 @@
       "sourceTier": "A_PRIMARY",
       "category": "CIVIC_HISTORY",
       "historicalYear": null,
-      "proposedIntroducedYear": 2023,
-      "introducedYearSource": "https://www.gov.ie/en/department-of-the-taoiseach/press-releases/government-agrees-covid-recognition-payment-and-new-public-holiday/",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
       "designation": "OFFICIAL_NATIONAL_COMMEMORATION",
       "sourceReviewedOn": "2026-11-09",
       "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
-      "researchSummary": "Workplace Relations Commission / Government of Ireland documents Saint Brigid's Public Holiday on the listed annual commemorative date. The preserved calendar rule is {\"kind\":\"NTH_WEEKDAY\",\"month\":2,\"weekday\":1,\"occurrence\":1}; this year-specific listing does not independently prove the first celebration or founding year unless the record has separate direct evidence.",
-      "dateRationale": "The official or institutional register gives the annual observance date for Saint Brigid's Public Holiday. This canonical date is distinct from compensatory working-holiday arrangements and is not a claim that every country observes it."
+      "researchSummary": "Saint Brigid's traditional commemoration falls on 1 February. The government holiday introduced in 2023 is normally the first Monday in February, with a Friday 1 February exception; that employment date is a DIFFERENT schedule and must not be represented by a fixed or simple first-Monday recurrence.",
+      "dateRationale": "This record identifies the traditional 1 February Saint Brigid observance, not the public-holiday working-day entitlement (which has an exception when 1 February is Friday). No formal founding year for the cultural observance is asserted."
     },
     {
       "id": "ie-st-patricks-day",
