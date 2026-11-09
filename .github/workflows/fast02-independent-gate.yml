@@ -1,0 +1,29 @@
+name: FAST02 — Movable Calendar and Alias Review
+on:
+  push:
+    branches: [research/fast02-calendar-alias-20261110]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  calendar-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Generate baseline data and 153-record semantic triage
+        run: |
+          python3 tool/build_dataset.py
+          python3 tool/audit_research_candidates.py
+          python3 tool/validate_research_overlap_decisions.py
+          python3 tool/validate_additional_country_date_duplicates.py
+          python3 tool/validate_research_certification_coverage.py
+          python3 tool/triage_research_identities.py
+      - name: Publish 62-item risk-classified calendar and alias register
+        run: python3 tool/fast02_movable_alias_triage.py
+      - name: Archive machine-readable results
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: fast02-movable-alias-review
+          path: reports/research_fast02_movable_alias.json
+          retention-days: 21
