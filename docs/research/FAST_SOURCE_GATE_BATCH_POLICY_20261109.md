@@ -36,15 +36,19 @@ Le due pagine cambogiane usano il medesimo registro delle festività nazionali 2
 
 ## Prossima sequenza accelerata
 
-1. **Ricerca in blocco:** per le **114 candidate** con riscontro 2026 non già duplicate, ripartire dalla coda di 51 a data/rule più semplice, lanciando gruppi di 20–40 (non micro-PR da 3). Risolvere poi le 63 con rischi semantici o calendari mobili; 9 Nepal restano in attesa della lettura del PDF ministeriale B.S. 2083.
+1. **Ricerca in blocco:** per le **104 candidate** con riscontro 2026 non già duplicate né incluse nella PR #67, ripartire dalle **42** a verifica più semplice a data/rule più semplice, lanciando gruppi di 20–40 (non micro-PR da 3). Risolvere poi le **62** con rischi semantici o calendari mobili; 9 Nepal restano in attesa della lettura del PDF ministeriale B.S. 2083.
 2. **Data gate:** acquisire fonte originaria e 2026 date per tutte le voci di un calendario in una singola lettura; ulteriori fonti indipendenti soltanto per conflitti o ambiguità. Non fare 5 ricerche quando un ministero competente pubblica l'intera tabella.
 3. **Identity gate:** confrontare Paese, ID, alias, significato e data nel catalogo completo (già 24 duplicati identificati). Lo stesso giorno e lo stesso Paese da soli sono un *segnale*, non dimostrano coincidenza semantica.
 4. **Annual rule gate:** per FIXED_DATE verificare normativa e continuità; per lunari/astronomiche usare override ufficiali anno per anno, non dedurre date 2027/2028 per analogia.
 5. **Batch source PR:** integrare 20–40 ID distinti alla volta con sei titoli localizzati, fonti e CI integrata. Consolidare le 16 giornate delle PR precedenti in una sola PR #67 verso main prima dei nuovi lotti. L'approvazione editoriale qualificata resta indipendente dai test automatici.
 
+## Coda automatica pronta
+
+`tool/plan_bulk_research_batches.py` produce `reports/research_fast_batches.json` dai report GitHub di deduplicazione e controllo delle date: **42 candidate in due lotti** (`FAST-01` da 30 e `FAST-02` da 12), raggruppate per Paese per verificare un registro governativo per volta. I **16 record già nella PR #67** non vengono inclusi. Ogni scheda contiene il link ufficiale, l'eventuale riscontro diretto dell'estratto e i gate mancanti. Questi lotti sono pacchetti di lavoro, **non 42 identità già certificate per il runtime**.
+
 ## Stato e protezioni
 
-- `main`: 456; PR consolidata #67: 472 *proposti*, non ancora uniti; 24 duplicati già scoperti, 114 candidate 2026 non duplicate al primo gate, 9 Nepal incomplete.
+- `main`: 456; PR consolidata #67: 472 *proposti*, non ancora uniti; 24 duplicati già scoperti, 16 in PR #67, 104 ulteriori candidate 2026 (42 coda rapida, 62 complessa), 9 Nepal incomplete.
 - Nessun accesso di terze parti o AI può produrre false attestazioni. Il solo URL e il numero di siti non attestano che una specifica riga del calendario sia stata verificata.
 - Vietato promuovere automaticamente record di sola ricerca a `OFFICIAL_*`, `REVIEWED` o runtime: fonte originaria e controllo semantico effettivi sono obbligatori.
 - Solo Chat; nessuna automazione programmata; APK, firma, Play e deploy produzione sospesi.
