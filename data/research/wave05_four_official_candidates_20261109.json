@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-wave05-global-four-candidates-2026-11-09",
+  "candidateOnly": true,
+  "baseMainSha": "9e312432b7fb46be1fc66437587d4cbe49033ad9",
+  "recordCount": 4,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "sourceReviewDate": "2026-11-09",
+  "notes": "Research pack not loaded by runtime. Exact 456-ID semantic dedup and locale/content QA required. Proclamation year differs from first observance year.",
+  "records": [
+    {
+      "id": "international-day-of-the-worlds-indigenous-women-and-girls",
+      "canonicalTitleEn": "International Day of the World's Indigenous Women and Girls",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 9,
+        "day": 5
+      },
+      "authority": "United Nations General Assembly",
+      "officiality": "OFFICIAL_UN",
+      "resolution": "A/RES/80/10",
+      "source": "https://www.un.org/en/observances/indigenous-women-day",
+      "proclamationYear": 2025,
+      "localizedTitles": {
+        "en": "International Day of the World's Indigenous Women and Girls",
+        "it": "Giornata internazionale delle donne e delle ragazze indigene del mondo",
+        "es": "Día Internacional de las Mujeres y las Niñas Indígenas del Mundo",
+        "fr": "Journée internationale des femmes et des filles autochtones du monde",
+        "de": "Internationaler Tag der indigenen Frauen und Mädchen der Welt",
+        "pt": "Dia Internacional das Mulheres e Meninas Indígenas do Mundo"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "world-day-of-romani-language",
+      "canonicalTitleEn": "World Day of Romani Language",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 5
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "38 C, 2015",
+      "source": "https://www.unesco.org/es/days/romani-language",
+      "proclamationYear": 2015,
+      "localizedTitles": {
+        "en": "World Day of Romani Language",
+        "it": "Giornata mondiale della lingua romaní",
+        "es": "Día Mundial de la Lengua Romaní",
+        "fr": "Journée mondiale de la langue romani",
+        "de": "Welttag der Romani-Sprache",
+        "pt": "Dia Mundial da Língua Romani"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "international-day-against-illicit-trafficking-in-cultural-property",
+      "canonicalTitleEn": "International Day against Illicit Trafficking in Cultural Property",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 14
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "40 C, 2019",
+      "source": "https://www.unesco.org/en/days/against-illicit-trafficking",
+      "proclamationYear": 2019,
+      "localizedTitles": {
+        "en": "International Day against Illicit Trafficking in Cultural Property",
+        "it": "Giornata internazionale contro il traffico illecito di beni culturali",
+        "es": "Día Internacional contra el Tráfico Ilícito de Bienes Culturales",
+        "fr": "Journée internationale contre le trafic illicite de biens culturels",
+        "de": "Internationaler Tag gegen den illegalen Handel mit Kulturgut",
+        "pt": "Dia Internacional contra o Tráfico Ilícito de Bens Culturais"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED"
+    },
+    {
+      "id": "international-day-of-islamic-art",
+      "canonicalTitleEn": "International Day of Islamic Art",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 18
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "40 C, 2019",
+      "source": "https://www.unesco.org/en/days/islamic-art",
+      "proclamationYear": 2019,
+      "localizedTitles": {
+        "en": "International Day of Islamic Art",
+        "it": "Giornata internazionale dell'arte islamica",
+        "es": "Día Internacional del Arte Islámico",
+        "fr": "Journée internationale de l'art islamique",
+        "de": "Internationaler Tag der islamischen Kunst",
+        "pt": "Dia Internacional da Arte Islâmica"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED"
+    }
+  ]
+}
