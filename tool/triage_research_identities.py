@@ -135,7 +135,7 @@ def main():
         })
     counts = Counter(row["reviewLane"] for row in rows)
     assert len(rows) == 153
-    assert counts["EXCLUDE_ALREADY_CANONICAL"] == 17
+    assert counts["EXCLUDE_ALREADY_CANONICAL"] == 24
     assert counts["PR65_EDITORIAL_GATE"] == 6
     assert counts["PRIMARY_SOURCE_PDF_AND_SCOPE_FIRST"] == 9
     assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 121
