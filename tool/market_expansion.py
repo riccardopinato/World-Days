@@ -11,6 +11,7 @@ from market_wave05 import load_wave05_japan
 from market_wave06 import load_wave06_japan
 from market_wave07 import load_wave07_india
 from market_wave08 import load_wave08_canada
+from market_wave09 import load_wave09_civic
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -187,7 +188,7 @@ def load_wave03():
 
 def all_expansion_rows():
     prior = [*load_expansion()["records"], *load_wave02()["records"], *load_wave03()["records"]]
-    next_wave = [*load_wave04(), *load_wave05_japan(), *load_wave06_japan(), *load_wave07_india(), *load_wave08_canada()]
+    next_wave = [*load_wave04(), *load_wave05_japan(), *load_wave06_japan(), *load_wave07_india(), *load_wave08_canada(), *load_wave09_civic()]
     ids = {item["id"] for item in prior}
     titles = {item["canonicalTitleEn"] for item in prior}
     new_ids = [item["id"] for item in next_wave]
