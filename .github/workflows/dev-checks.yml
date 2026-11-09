@@ -28,11 +28,13 @@ jobs:
           python3 tool/market_wave05.py
           python3 tool/market_wave06.py
           python3 tool/market_wave07.py
+          python3 tool/market_wave08.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/validate_wave05_content.py
           python3 tool/validate_wave06_content.py
           python3 tool/validate_wave07_content.py
+          python3 tool/validate_wave08_content.py
           python3 tool/build_editorial.py
           python3 tool/validate_editorial_batch.py
           python3 tool/validate_editorial_wave03.py
