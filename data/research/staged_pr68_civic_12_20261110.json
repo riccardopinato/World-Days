@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "sourcePrNumber": 68,
+  "sourceBranch": "content/fast02-civic-20261110",
+  "sourceFile": "data/market/wave09_six_markets_civic_20261110.json",
+  "classification": "IN_UNMERGED_CONTENT_PR_68_HUMAN_REVIEW_PENDING",
+  "recordCount": 12,
+  "items": [
+    {
+      "candidateFile": "wave10_asia_sri_lanka_bangladesh_laos_2026.json",
+      "candidateTitle": "Bangladesh Independence and National Day",
+      "country": "BD",
+      "canonicalId": "bangladesh-independence-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave10_asia_sri_lanka_bangladesh_laos_2026.json",
+      "candidateTitle": "Victory Day (Bangladesh)",
+      "country": "BD",
+      "canonicalId": "bangladesh-victory-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave08_asia_indonesia_malaysia_nepal_2026.json",
+      "candidateTitle": "Indonesian Independence Day",
+      "country": "ID",
+      "canonicalId": "indonesia-independence-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave08_asia_indonesia_malaysia_nepal_2026.json",
+      "candidateTitle": "Pancasila Day",
+      "country": "ID",
+      "canonicalId": "indonesia-pancasila-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "candidateTitle": "Victory over Genocide Day",
+      "country": "KH",
+      "canonicalId": "cambodia-victory-over-genocide-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "candidateTitle": "Constitution Day (Cambodia)",
+      "country": "KH",
+      "canonicalId": "cambodia-constitution-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "candidateTitle": "Independence Day (Cambodia)",
+      "country": "KH",
+      "canonicalId": "cambodia-independence-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave08_asia_indonesia_malaysia_nepal_2026.json",
+      "candidateTitle": "Malaysia Independence Day (Hari Merdeka)",
+      "country": "MY",
+      "canonicalId": "malaysia-independence-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave08_asia_indonesia_malaysia_nepal_2026.json",
+      "candidateTitle": "Malaysia Day",
+      "country": "MY",
+      "canonicalId": "malaysia-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "candidateTitle": "Reunification Day (Vietnam)",
+      "country": "VN",
+      "canonicalId": "vietnam-reunification-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "candidateTitle": "National Day (Vietnam)",
+      "country": "VN",
+      "canonicalId": "vietnam-national-day",
+      "proposedPr": 68
+    },
+    {
+      "candidateFile": "wave10_asia_sri_lanka_bangladesh_laos_2026.json",
+      "candidateTitle": "Lao National Day",
+      "country": "LA",
+      "canonicalId": "laos-national-day",
+      "proposedPr": 68
+    }
+  ]
+}
