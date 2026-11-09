@@ -12,6 +12,9 @@ import '../test/support/world_days_test_support.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+  // Let the actual Android scheduler drive frame timing during flings.
+  // The default test policy may suppress frames and bias measurements.
+  binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
 
   late CatalogSnapshot snapshot;
   setUpAll(() async {
@@ -34,7 +37,7 @@ void main() {
       await tester.pumpWidget(
         wrapTestApp(SavedPage(controller: controller)),
       );
-      await tester.pumpAndSettle();
+      await tester.pumpAndSettle(const Duration(milliseconds: 16));
       expect(tester.takeException(), isNull);
       expect(controller.preferences.favoriteIds.length, count);
 
@@ -42,7 +45,7 @@ void main() {
       // Warmup (excluded from FrameTiming capture).
       if (count > 0) {
         await tester.fling(scrollable, const Offset(0, -450), 1300);
-        await tester.pumpAndSettle();
+        await tester.pumpAndSettle(const Duration(milliseconds: 16));
       }
 
       // Flutter engine frame timings on-device. The integration driver
@@ -54,7 +57,7 @@ void main() {
             Offset(0, repeat.isEven ? -650 : 650),
             1650,
           );
-          await tester.pumpAndSettle();
+          await tester.pumpAndSettle(const Duration(milliseconds: 16));
         }
       }, reportKey: 'saved_scroll_$count' '_favorites');
 
