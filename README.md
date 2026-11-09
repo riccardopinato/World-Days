@@ -1,5 +1,16 @@
 # World Days
 
+## Content Wave03 — 13 countries, 373 verified-identity observances (9 November 2026)
+
+Source candidate built by [World Days Country Wave03](docs/COUNTRY_WAVE03_SIX_NEW_MARKETS_2026-11-09.md): **373 canonical observances** = **282 GLOBAL + 91 NATIONAL**, adding 19 primary-source country records beyond the previous 354. Six additional selectable countries **Canada, Australia, Brazil, Mexico, India and Japan** bring the total to **13** countries. Their names and all record titles are available across EN/IT/ES/FR/DE/PT. National observances and shared global days remain separate in country browsing. Content version **2026.11.09.3**.
+
+- 64 introduction years with explicit official evidence; 309 unknown founding years render as `*`. Workday substitute holidays are NOT treated as new commemorative dates.
+- **56 Rich Editorial articles REVIEWED and shipped**; **25 stories now have six-language candidate texts** (150 editions: 8 Wave04, 9 Country Wave01, 8 Country Wave02). These are AI-assisted drafts requiring **qualified human factual and linguistic review**, not runtime-approved articles. Remaining **292** canonical IDs lack researched long-form narratives. [Exact editorial matrix](docs/EDITORIAL_25_SIX_LOCALE_DRAFT_QA_2026-11-09.md).
+- The Wave03 dataset and 25-story completeness are validated in CI, with inspectable country/year/review-state artifacts. Existing 354 IDs, offline fallback and user preferences are preserved.
+- **APK/signing, physical Android certification and Google Play publication remain ON HOLD** under the current product decision. Web source QA and Web Preview are allowed. Do not infer a signed mobile release from green Flutter CI.
+
+Older counters below this heading are past snapshots and do not override this source state.
+
 ## Content-first update — Wave02, 9 November 2026
 
 The catalog now builds **354 distinct source-linked observances** (282 GLOBAL + **72 NATIONAL**) following a second wave of **15** national/civic dates: Spain +4 (total 8), Germany +2 (total 4), Portugal +5 (total 9), United Kingdom +4 (total 8). Italy 25, France 9 and United States 9 remain unchanged. Each new entry has official institutional provenance, a correct fixed recurrence and unique titles in **EN/IT/ES/FR/DE/PT**.
