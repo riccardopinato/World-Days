@@ -271,7 +271,7 @@ for row in WAVE03['entries']:
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.11.03.4',
+    'datasetVersion': '2026.11.09.1',
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),
