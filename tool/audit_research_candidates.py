@@ -227,6 +227,17 @@ def main():
         "runtimeNewAdmissions": 0,
         "note": "No automated match does NOT equal certified unique."
     }, indent=2))
+    for result in report["candidateResults"]:
+        if result["status"] != "NO_AUTOMATED_CATALOG_MATCH":
+            match_ids = [
+                hit["id"] for hit in
+                (result["directMatches"] + result["possibleMatches"])
+            ]
+            print(
+                "REVIEW_ITEM ",
+                result["status"], result["country"] or "GLOBAL",
+                result["title"], "=>", ", ".join(match_ids[:8]),
+            )
     if report["catalogCount"] < 456:
         raise SystemExit("ERROR: canonical catalog unexpectedly shrank below 456")
 
