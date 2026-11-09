@@ -9,6 +9,7 @@ on:
       - "tool/test_research_semantic_audit.py"
       - "tool/validate_research_overlap_decisions.py"
       - "tool/validate_research_certification_coverage.py"
+      - "tool/validate_additional_country_date_duplicates.py"
       - "tool/triage_research_identities.py"
       - "tool/test_research_identity_triage.py"
       - ".github/workflows/research-semantic-audit.yml"
@@ -35,6 +36,8 @@ jobs:
         run: python3 tool/audit_research_candidates.py
       - name: Verify all 20 flagged candidates against year/date and country
         run: python3 tool/validate_research_overlap_decisions.py
+      - name: Gate seven newly identified canonical national duplicates
+        run: python3 tool/validate_additional_country_date_duplicates.py
       - name: Verify provenance and certification boundaries for all 153 candidates
         run: python3 tool/validate_research_certification_coverage.py
       - name: Test semantic and movable-date safety cases
