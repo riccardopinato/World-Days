@@ -39,6 +39,7 @@ jobs:
           python3 tool/validate_release_governance.py
           python3 tool/test_release_evidence.py
           python3 tool/test_ruleset_guard.py
+          python3 tool/test_saved_profile_report.py
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
