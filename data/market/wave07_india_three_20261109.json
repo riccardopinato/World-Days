@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave07-india-2026-11-09",
+  "sourceReviewDate": "2026-11-09",
+  "reviewStatus": "SOURCE_VERIFIED_METADATA_ONLY_HUMAN_EDITORIAL_NOT_APPROVED",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 3,
+  "countryCounts": {
+    "IN": 3
+  },
+  "dependency": "PR #65 and PR #66 stacked source branches must merge in order",
+  "records": [
+    {
+      "id": "india-republic-day",
+      "country": "IN",
+      "canonicalTitleEn": "Republic Day — India",
+      "localizedTitles": {
+        "en": "Republic Day — India",
+        "it": "Festa della Repubblica — India",
+        "es": "Día de la República — India",
+        "fr": "Fête de la République — Inde",
+        "de": "Tag der Republik — Indien",
+        "pt": "Dia da República — Índia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 26
+        }
+      ],
+      "source": "https://www.indiapost.gov.in/holidays-list",
+      "additionalSources": [
+        "https://www.ursc.gov.in/holidays.jsp"
+      ],
+      "authority": "Government of India, Department of Posts",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CIVIC_HISTORY",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "NATIONWIDE_CIVIC_HOLIDAY",
+      "chronologyNote": "Republic Day — India is a distinct national commemoration appearing in the Government of India 2026 all-India holiday list. The historical event date may be well documented but the formal first-year holiday designation is not proven by the 2026 calendar, so introducedYear remains unknown.",
+      "dateRationale": "The official India Post all-India 2026 calendar records 26 1 as a fixed civic date. Recurrences in 2027 and 2028 are derived from the fixed calendar date, not misrepresented as 2027/2028 published holiday schedules.",
+      "researchSummary": "Republic Day commemorates the Constitution of India coming into force on 26 January 1950 and the establishment of the republic. It is distinct from Independence Day and is recognized as an all-India national holiday. The full historical narrative still awaits qualified editorial review."
+    },
+    {
+      "id": "india-independence-day",
+      "country": "IN",
+      "canonicalTitleEn": "Independence Day — India",
+      "localizedTitles": {
+        "en": "Independence Day — India",
+        "it": "Giorno dell'Indipendenza — India",
+        "es": "Día de la Independencia — India",
+        "fr": "Fête de l'Indépendance — Inde",
+        "de": "Unabhängigkeitstag — Indien",
+        "pt": "Dia da Independência — Índia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 15
+        }
+      ],
+      "source": "https://www.indiapost.gov.in/holidays-list",
+      "additionalSources": [
+        "https://www.ursc.gov.in/holidays.jsp"
+      ],
+      "authority": "Government of India, Department of Posts",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CIVIC_HISTORY",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "NATIONWIDE_CIVIC_HOLIDAY",
+      "chronologyNote": "Independence Day — India is a distinct national commemoration appearing in the Government of India 2026 all-India holiday list. The historical event date may be well documented but the formal first-year holiday designation is not proven by the 2026 calendar, so introducedYear remains unknown.",
+      "dateRationale": "The official India Post all-India 2026 calendar records 15 8 as a fixed civic date. Recurrences in 2027 and 2028 are derived from the fixed calendar date, not misrepresented as 2027/2028 published holiday schedules.",
+      "researchSummary": "Independence Day marks India's independence on 15 August 1947. The Government of India's official annual holiday calendars identify 15 August as the civic commemoration; this is a distinct national event, not another country's independence day."
+    },
+    {
+      "id": "india-gandhi-jayanti",
+      "country": "IN",
+      "canonicalTitleEn": "Gandhi Jayanti — India",
+      "localizedTitles": {
+        "en": "Gandhi Jayanti — India",
+        "it": "Gandhi Jayanti — India",
+        "es": "Gandhi Jayanti — India",
+        "fr": "Gandhi Jayanti — Inde",
+        "de": "Gandhi Jayanti — Indien",
+        "pt": "Gandhi Jayanti — Índia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 2
+        }
+      ],
+      "source": "https://www.indiapost.gov.in/holidays-list",
+      "additionalSources": [
+        "https://www.ursc.gov.in/holidays.jsp"
+      ],
+      "authority": "Government of India, Department of Posts",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PEOPLE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "NATIONWIDE_CIVIC_HOLIDAY",
+      "chronologyNote": "Gandhi Jayanti — India is a distinct national commemoration appearing in the Government of India 2026 all-India holiday list. The historical event date may be well documented but the formal first-year holiday designation is not proven by the 2026 calendar, so introducedYear remains unknown.",
+      "dateRationale": "The official India Post all-India 2026 calendar records 2 10 as a fixed civic date. Recurrences in 2027 and 2028 are derived from the fixed calendar date, not misrepresented as 2027/2028 published holiday schedules.",
+      "researchSummary": "Gandhi Jayanti is the Indian national holiday marking the birth anniversary of Mahatma Gandhi on 2 October 1869. It has a national civic identity even though the date is also observed globally as the International Day of Non-Violence."
+    }
+  ]
+}
