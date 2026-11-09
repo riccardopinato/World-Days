@@ -30,11 +30,11 @@ def main():
     assert a["catalogCount"] == d["catalogBaseCount"] == 456
     assert a["candidateRecordCount"] == 153, "source inventory drift"
     assert len(a["candidateResults"]) == 153
-    assert e["recordCount"] == len(e["records"]) == 120
-    assert e["countryCounts"] == {"KH":12,"LK":13,"BD":6,"LA":3,"JP":9,"TH":13,"SG":5,"VN":4,"CA":22,"ZA":5,"ID":3,"PH":5,"IN":13,"KR":4,"MY":3}
+    assert e["recordCount"] == len(e["records"]) == 121
+    assert e["countryCounts"] == {"KH":12,"LK":13,"BD":6,"LA":3,"JP":9,"TH":13,"SG":5,"VN":4,"CA":22,"ZA":6,"ID":3,"PH":5,"IN":13,"KR":4,"MY":3}
     decisions = {key(x["candidateFile"],x["candidateTitle"]):x for x in d["reviewDecisions"]}
     evidence = {key(x["researchFile"],x["title"]):x for x in e["records"]}
-    assert len(decisions)==20 and len(evidence)==120
+    assert len(decisions)==20 and len(evidence)==121
     assert all(x["decision"] in {"SAME_EXISTING_OBSERVANCE","DIFFERENT_FROM_FLAGGED_MATCH"} for x in decisions.values())
     assert len([x for x in decisions.values() if x["decision"]=="SAME_EXISTING_OBSERVANCE"]) == 17
     assert len([x for x in decisions.values() if x["decision"]=="DIFFERENT_FROM_FLAGGED_MATCH"]) == 3
@@ -79,8 +79,13 @@ def main():
         ov=evidence.get(k)
         if ov is not None:
             assert ov["country"]==r["country"],(k,"country mismatch")
-            assert ov["occurrence2026"] == r["occurrence2026"],(k,"date mismatch")
-            assert ov["annualRecurrenceCertified"] is False
+            if ov["title"] == "South Africa Family Day":
+                assert r["occurrence2026"] is None, ("expected computed Easter holiday", k)
+                assert ov["occurrence2026"] == "2026-04-06"
+                assert ov["annualRecurrenceCertified"] is True
+            else:
+                assert ov["occurrence2026"] == r["occurrence2026"],(k,"date mismatch")
+                assert ov["annualRecurrenceCertified"] is False
             assert ov["semanticUniquenessCertified"] is False
             assert ov["localizationCertified"] is False
             assert ov["runtimeAdmission"]=="BLOCKED"
@@ -96,7 +101,7 @@ def main():
             "existingCanonicalId":decisions[k]["existingId"] if status=="ALREADY_IN_MAIN_456" else None,
             "sourceEvidence":ov["officialCalendarUrl"] if ov else None,
             "sourceNote":ov["notes"] if ov else note,
-            "annualRecurrenceCert":False,
+            "annualRecurrenceCert":bool(ov and ov["annualRecurrenceCertified"]),
             "sixLocaleEditorialCert":False,
             "runtimeAdded":False
         })
@@ -104,8 +109,8 @@ def main():
     assert counts=={
       "ALREADY_IN_MAIN_456":17,
       "IN_UNMERGED_PR_65":6,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":120,
-      "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":10,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":121,
+      "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":9,
     },counts
     assert sum(counts.values())==153
     assert sum(r["runtimeAdded"] for r in rows)==0
