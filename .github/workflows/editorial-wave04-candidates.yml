@@ -1,0 +1,38 @@
+name: Editorial Wave04 — provenance, six-locale draft and gap inventory
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/editorial/candidates/**"
+      - "tool/validate_editorial_wave04_candidates.py"
+      - "tool/editorial_gap_manifest.py"
+      - ".github/workflows/editorial-wave04-candidates.yml"
+  push:
+    branches: [content/world-days-editorial-wave04-20261109]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-research-drafts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout full source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate six draft translations and founding-year references
+        run: python3 tool/validate_editorial_wave04_candidates.py
+      - name: Generate canonical catalog and existing 56 reviewed articles
+        run: |
+          python3 tool/build_dataset.py > /tmp/world-days-dataset-log.txt
+          python3 tool/build_editorial.py
+          python3 tool/editorial_gap_manifest.py
+      - name: Keep 296-item gap manifest as review evidence
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-wave04-296-gap-manifest
+          path: reports/editorial_gap_manifest.json
+          if-no-files-found: error
+          retention-days: 20
