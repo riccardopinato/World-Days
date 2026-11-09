@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 from pathlib import Path
+from market_expansion import load_expansion
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -45,6 +46,9 @@ expected_market = {
     'independence-day-us': 'US',
     'veterans-day-us': 'US',
 }
+expansion = load_expansion()
+expected_market.update({row['id']: row['country'] for row in expansion['records']})
+assert len(ids) == len(records) == 339, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -138,6 +142,15 @@ market_vectors = {
     'armed-forces-day-uk': ['2026-06-27'],
     'italian-republic-day': ['2026-06-02'],
     'national-day-of-spain': ['2026-10-12'],
+    'italian-national-flag-day': ['2026-01-07'],
+    'italian-mafia-victims-remembrance-day': ['2026-03-21'],
+    'italian-national-innovation-day': ['2026-06-09'],
+    'italian-national-sports-day': ['2026-06-07'],
+    'france-deportation-victims-remembrance-day': ['2026-04-26'],
+    'uk-remembrance-sunday': ['2026-11-08'],
+    'us-thanksgiving-day': ['2026-11-26'],
+    'us-labor-day': ['2026-09-07'],
+    'portugal-freedom-day': ['2026-04-25'],
 }
 for observance_id, expected_dates in market_vectors.items():
     actual = sorted(
