@@ -1,47 +1,78 @@
-# World Days — certificazione delle 153 schede di ricerca (9 novembre 2026)
+# World Days — certificazione sorgenti Wave05–10 (9 novembre 2026)
 
-**Stato: controllo documentale progressivo, non pubblicazione.** Baseline App Factory Core `d4ed1185d36d419228fba6b57a979cde308bd321`; `main` World Days `9e312432b7fb46be1fc66437587d4cbe49033ad9` = **456** ricorrenze.
+## La distinzione fondamentale
 
-## Registro di certificazione completo e verificabile
+**Certificare la DATA del 2026 su un calendario governativo non equivale a certificare una nuova identità unica, la ricorrenza nel 2027–2028, le traduzioni o la pubblicazione nell'app.** Non usare conteggi di ricerca per aggiornare il catalogo runtime.
 
-| Stato documentale | Schede | Significato |
-|---|---:|---|
-| ALREADY_IN_MAIN_456 | **17** | Festività già presenti, stesso paese e commemorazione. Non duplicare. |
-| IN_UNMERGED_PR_65 | **6** | Tre UNESCO e tre Giappone, test sorgente/Web PASS nella PR #65; non ancora su main, approvazione editoriale umana mancante. |
-| PRIMARY_CALENDAR_2026_DATE_CONFIRMED | **65** | 12 Cambogia, 13 Sri Lanka, 6 Bangladesh, 3 Laos, 9 Giappone, 13 Thailandia, 5 Singapore, 4 Vietnam. Date e identità calendari 2026 verificate in fonti ufficiali; **non** prova di ricorrenza annuale multi-anno, unicità semantica o traduzioni. |
-| PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE | **65** | Ricerca raccolta, ma fonte precisa, distinzione d'identità, anno e regola di ricorrenza non ancora interamente certificati. |
-| **Totale** | **153** | Tutte le schede classificate, zero nuove pubblicate su main. |
+- App Factory Core baseline: `d4ed1185d36d419228fba6b57a979cde308bd321`, Master 27 / Golden Index 29.
+- World Days `main` baseline: `9e312432b7fb46be1fc66437587d4cbe49033ad9` = **456** ricorrenze.
+- PR #65 separata, metadata-only, CI PASS, 3 UNESCO + 3 Giappone, **462 solo se unita** (ancora non in main, umano/editoriale non approvato).
+- Questo registro verifica **tutte le 153 schede** delle Wave05–10 con i criteri documentali realmente soddisfatti.
 
-La PR #65, se approvata e unita, porterebbe **462** ricorrenze distinte (285 GLOBAL + 177 NATIONAL); il divario verso 1.000 scenderebbe da **544** a **538**. Le altre **130** schede (65 con data 2026 ufficiale + 65 non ancora verificate in modo completo) non sono tutte necessariamente nuove: un titolo diverso non dimostra un'osservanza distinta.
+## Classificazione completa e verificabile
 
-La classificazione completa, voce per voce, viene generata da `tool/validate_research_certification_coverage.py` in `reports/research_certification_coverage.json` dopo aver ricostruito il catalogo reale e classificato i 153 record. La CI blocca un conteggio errato; conserva file di ricerca senza modificare runtime, APK o Play.
+| Stato | Schede | Interpretazione esatta |
+| --- | ---: | --- |
+| `ALREADY_IN_MAIN_456` | **17** | Ricorrenze già presenti; non duplicarle |
+| `IN_UNMERGED_PR_65` | **6** | Sei record tecnici testati in PR distinta, non in main |
+| `PRIMARY_CALENDAR_2026_DATE_CONFIRMED` | **121** | Fonte istituzionale/di origine consultata e singola data o data iniziale **2026** controllata; tutte restano in research |
+| `PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE` | **9** | Nepal: il registro ufficiale 2083 è disponibile come PDF nepalese, ma non è stata completata verifica indipendente delle conversioni e delle date |
+| **Totale** | **153** | Nessuna ammissione extra dalla PR di ricerca |
 
-## Fonte primaria: 65 date del 2026 controllate
+**Contabilità residua:** le 121 candidate con calendario 2026 documentato NON sono tutte provate come nuove uniche e annuali. In `main` restano **456**: gap **544** verso 1.000. Se PR #65 viene approvata/unita: **462**, gap **538**. La ricerca disponibile non prova che esistano già 538 nuove ricorrenze pronte.
 
-**Cambogia (12):** National Bank of Cambodia, https://www.nbc.gov.kh/english/news_and_events/official_holiday.php ; riscontro indipendente presso il Ministero dell'Economia e delle Finanze, https://mef.gov.kh/public-holiday-2026/. Khmer New Year (14–16 aprile), Pchum Ben (10–12 ottobre) e Bon Om Touk (23–25 novembre) sono **tre identità**, non otto giornate distinte. La data iniziale della festa nel 2026 è certificata, non la regola degli anni futuri.
+## Origini dei 121 riscontri nel 2026
 
-**Sri Lanka (13):** Central Bank of Sri Lanka, https://www.cbsl.gov.lk/en/node/19362 . Dodici ricorrenze Poya nominalmente diverse più Capodanno singalese e tamil. `Adhi Poson` è una festività di mese intercalare presente nel 2026: non dichiararla evento fisso tutti gli anni. Le date dei pleniluni dipendono dal calendario ufficiale; niente ripetizione fittizia delle date del 2026.
+| Paese | Voci | Fonte primaria |
+| --- | ---: | --- |
+| Canada CA | 22 | https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html |
+| Sudafrica ZA | 6 | https://www.gov.za/about-sa/public-holidays |
+| Indonesia ID | 3 | https://www.setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2026 |
+| Giappone JP | 9 | https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html |
+| Thailandia TH | 13 | https://www.bot.or.th/en/financial-institutions-holiday.html |
+| Singapore SG | 5 | https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026 |
+| Vietnam VN | 4 | https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm |
+| Cambogia KH | 12 | https://www.nbc.gov.kh/english/news_and_events/official_holiday.php ; https://mef.gov.kh/public-holiday-2026/ |
+| Sri Lanka LK | 13 | https://www.cbsl.gov.lk/en/node/19362 |
+| Bangladesh BD | 6 | https://www.bb.org.bd/en/index.php/mediaroom/holiday |
+| Laos LA | 3 | https://laoevisa.gov.la/info |
+| Filippine PH | 5 | https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678 |
+| India IN | 13 | https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist |
+| Corea del Sud KR | 4 | https://www.bok.or.kr/eng/main/contents.do?menuNo=400373 |
+| Malaysia MY | 3 | https://wbf.jknns.moh.gov.my/app/tetapanUtama |
+| **Totale** | **121** | |
 
-**Bangladesh (6):** Bangladesh Bank, https://www.bb.org.bd/en/index.php/mediaroom/holiday e circolare ufficiale https://www.bb.org.bd/mediaroom/circulars/dos/nov162025dosl20e.pdf . `Chaitra Sankranti` riguarda specificamente i distretti di Rangamati, Khagrachari e Bandarban, **non** l'intero Bangladesh. `Language Martyrs' Day` è simultaneo e storicamente legato a International Mother Language Day: valutare con attenzione l'identità nazionale prima di creare un altro evento globale. `July Mass Uprising Day` compare ufficialmente il 5 agosto 2026, ma la presenza nel calendario non prova da sola il numero di anni di esistenza futura.
+Il file `data/research/primary_2026_calendar_verified_20261109.json` contiene la matrice **voce per voce**, esatta data 2026, ambito e URL originale. È una certificazione circoscritta della fonte/occorrenza 2026.
 
-**Laos (3):** Consular Department / Lao Ministry of Foreign Affairs, https://laoevisa.gov.la/info . `Lao New Year` è una singola ricorrenza dal 14 al 16 aprile 2026. La fonte dice `Lao Women's Union Day`, ma non certifica *Founding Day* come denominazione ufficiale o anno di fondazione: correggere il titolo solo dopo un riscontro storico preciso. Festa nazionale 2 dicembre.
+### Precisazioni anti-errore importanti
 
-**Giappone (9 non già presenti né nella PR #65):** Ufficio di Gabinetto https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html . Le date pubblicate per il 2026 sono allineate per Greenery Day, Children's Day, Marine Day, Mountain Day, Respect for the Aged, Sports Day, Labor Thanksgiving e due equinozi. **Equinozi:** data da rivedere ogni anno con l'annuncio ufficiale, mai codificata come 20/23 marzo/settembre permanente. Le tre festività già presenti e le tre in PR #65 non vengono ricontate nella nuova verifica del lotto.
+1. **Nepal (9):** Ministero dell'Interno `https://moha.gov.np/en/page/government-and-public-holidays-in-2083` pubblica il calendario B.S. 2083 tramite PDF da 8,22 MB. La verifica diretta del PDF/conversione gregoriana non è stata completata: non attribuire per analogia una data 2026 né un ambito nazionale alle festività regionali Gai Jatra/Indra Jatra/Jitiya. Nove voci restano in stato PENDING. La disponibilità del PDF non implica che sia stato letto o certificato.
+2. **Sudafrica Family Day:** 6 aprile 2026 / 29 marzo 2027 sono date riportate nel calendario ufficiale; la regola è Easter Monday. Per il 2028 si calcola il 17 aprile, da convalidare sul calendario pubblicato dall'autorità. Non usare il 6 aprile come giorno fisso annuale; possibile alias di Easter Monday mondiale da valutare prima di creare una nuova identità.
+3. **Sri Lanka:** Adhi Poson 2026 è intercalare, non ricorrenza che debba comparire in modo invariato ogni anno. Ogni Poya dipende dal calendario lunare locale.
+4. **Bangladesh:** Chaitra Sankranti è limitata ai tre distretti collinari nominati nel calendario della Bangladesh Bank; Language Martyrs Day condivide data e storia con International Mother Language Day ma ha origine nazionale specifica.
+5. **Laos:** il registro ministeriale dice `Lao Women's Union Day`, non prova che `Founding Day` sia la denominazione legale. Lao New Year 14–16 aprile è una sola festa.
+6. **Filippine:** Proclamation 1006 comprende alcune giornate speciali valide nel **2026**: la presenza non prova una ricorrenza annuale permanente (ad esempio All Souls' Day come giorno aggiuntivo). Non duplicare i giorni di ferie.
+7. **Giappone:** l'equinozio è dichiarato ufficialmente ogni anno, non una data gregoriana fissa. Giorni sostitutivi esclusi.
+8. **Thailandia:** 31 maggio è Visakha Bucha nel 2026, mentre 1 giugno è giorno sostitutivo; il 5 dicembre è la commemorazione, non il sostitutivo del 7 dicembre. Il calendario è degli istituti finanziari, non prova uniformità per tutti i lavoratori.
+9. **Singapore, India, Corea, Vietnam:** Seollal, Tết, Capodanno cinese, Eid, Vesak, Buddha Purnima, Deepavali e festività analoghe non si moltiplicano automaticamente per Paese; il catalogo richiede una decisione semantica sulle celebrazioni locali.
+10. **Malaysia:** l'anniversario ufficiale del sovrano va riesaminato annualmente. Le date sono quelle pubblicate per il 2026, non un contratto perpetuo.
 
-**Thailandia (13):** Bank of Thailand https://www.bot.or.th/en/financial-institutions-holiday.html . Le date del 2026 sono confermate dal registro delle festività degli istituti finanziari, che NON garantisce automaticamente identico trattamento per tutti i lavoratori. Il giorno sostitutivo di Visakha Bucha è 1 giugno, ma la data religiosa è **31 maggio**; il giorno sostitutivo del 7 dicembre NON sostituisce l'identità del compleanno di re Bhumibol e festa nazionale del **5 dicembre**.
+## Gate obbligatori prima di ammettere altre identità
 
-**Singapore (5 escluse la giornata nazionale già catalogata):** Ministry of Manpower https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026 . Il Capodanno cinese dura dal 17 al 18 febbraio ma è **una sola identità**. Hari Raya Puasa, Hari Raya Haji, Vesak e Deepavali hanno date 2026 ufficialmente pubblicate, soggette alle conferme previste; non duplicare feste religiose mondiali già catalogate.
+- Confrontare alias, paese, scope, istituzione e storia con tutti i 456 record generati e con le 6 identità in PR #65.
+- Confirmare regola annuale e date per 2026, 2027, 2028, o mantenere un `AUTHORITY_DEFINED` annuale senza inventare occorrenze.
+- Introdurre anno soltanto con fonte primaria adeguata; altrimenti `*`.
+- Scrivere tutti i sei titoli EN/IT/ES/FR/DE/PT ed eventuale articolo storico; QA linguistico/editoriale qualificato resta un gate separato, non auto-approvato.
+- PR contenuto a batch limitato, CI exact-head generator + Flutter analyze/test/Web. Non merge PR di ricerca come se fosse un catalogo pubblicabile.
+- Sospensione APK, firma, Android e Google Play invariata.
 
-**Vietnam (4):** Portale del governo https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm e https://en.baochinhphu.vn/viet-nam-to-have-two-public-holidays-in-april-111260306171800163.htm . Tết cade nel periodo di ferie 14–22 febbraio, con giorno di inizio del nuovo anno lunare il **17 febbraio**; la sospensione dal lavoro non è identità nuova. Commemorazione re Hùng il 26 aprile, riposo sostitutivo il 27; Reunification Day il 30 aprile e National Day il 2 settembre.
+## Evidenza CI
 
-Registro JSON canonico `data/research/primary_2026_calendar_verified_65_20261109.json`; le **65 schede restanti** richiedono ancora ricerca e riconciliazione documentale.
+Il job `Research candidates — generated catalog semantic overlap audit` esegue:
 
-## Blocchi di qualità non aggirabili
-1. Identità e alias cross-country: Capodanno lunare (Tet/Seollal/Chinese New Year), Buddha/Vesak, Holi/Diwali/Deepavali, Maha Bucha, festività civili nazionali e globali. Mantenere separati solo eventi istituzionalmente o culturalmente distinti e descritti senza duplicare la stessa identità per mercato.
-2. Date lunari/astronomiche, calendario nepalese, Pasqua, festività regali e date regionali: implementare o verificare `LUNAR/AUTHORITY_DEFINED` con override **per anno**; non trattare `occurrence2026` come regola fissa fino al 2028.
-3. Fonti: autorità governativa o originator, URL specifico, esatto rango di fonte, scope nazionale/regionale, istituzione `*` se non documentata.
-4. Sei lingue EN/IT/ES/FR/DE/PT, contenuti storici, revisione editoriale qualificata distinti dalla sola ammissione dei metadati. Non inventare approvazioni.
-5. Per ogni batch ammesso: controlli su **catalogo generato** (ID/alias/fonte), conteggi, integrazione runtime, regressione Flutter, Web Preview; PR e CI esatta HEAD prima di merge.
-6. Solo Chat. APK/firma/Play sospesi, senza deploy di produzione.
+1. `tool/build_dataset.py` + `tool/validate_dataset.py`: 456 identità su main.
+2. `tool/audit_research_candidates.py`: 153 candidati contro ID, alias, 6 lingue.
+3. `tool/validate_research_overlap_decisions.py`: 17 già esistenti, 3 falsi positivi.
+4. `tool/validate_research_certification_coverage.py`: 153 identificati univocamente in 4 livelli e verifica URL+data 2026. Produce `reports/research_certification_coverage.json` come artifact.
 
-**Obiettivo 1.000:** non ancora conseguito. Per certificare *tutte* le mancanti oltre alle candidate già inventariate, servirà raccogliere e verificare altre ricorrenze reali. Nessuna fonte esaminata giustifica dichiarare 544 giornate già certificate.
+**CI PASS del registro non certifica storia, unicità di 121 candidati, anno di istituzione o release su dispositivo.**
