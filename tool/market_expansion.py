@@ -208,7 +208,7 @@ def build_expansion_records():
         record = {
             "id": item["id"],
             "canonicalTitleEn": item["canonicalTitleEn"],
-            "aliases": item["aliases"],
+            "aliases": item.get("aliases", []),
             "periodKind": "DAY",
             "recurrenceRules": item["recurrenceRules"],
             "scope": "NATIONAL",
@@ -218,9 +218,9 @@ def build_expansion_records():
                 "name": item["authority"],
                 "type": item.get("authorityType", "GOVERNMENT"),
                 "officiality": item.get("officiality", "OFFICIAL_INSTITUTIONAL"),
-                "resolution": item["resolution"],
+                "resolution": item.get("resolution"),
             },
-            "categories": [item["subject"], "CIVIC"],
+            "categories": [item.get("subject", item.get("category", "CIVIC_HISTORY")), "CIVIC"],
             "sources": [
                 {"tier": item.get("sourceTier", "A_PRIMARY"), "url": url, "verifiedAt": item["sourceReviewedOn"]}
                 for url in [item["source"], *item.get("additionalSources", [])]
