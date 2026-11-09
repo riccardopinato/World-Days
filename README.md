@@ -1,3 +1,11 @@
+## Wave05 candidate integration — UNESCO + Japan (9 November 2026)
+
+This source branch proposes a **metadata-only** additive catalog change: **456 → 462 distinct observances** (**285 GLOBAL + 177 NATIONAL**, unchanged 28 country choices). Six entries are backed by original UNESCO/Japan government sources with full EN/IT/ES/FR/DE/PT display titles and 2026–2028 recurrence checks. All original 456 IDs are retained; **56 rich stories remain reviewed**, new entries are `STUB`, and qualified native-language/editorial approval is still required for full stories. **Main remains 456 until an independently checked merge**; nothing has been deployed to production. APK, Android signing and Google Play remain suspended.
+
+[Wave05 provenance, expected totals and gates](docs/CATALOG_WAVE05_UNESCO_JAPAN_2026-11-09.md).
+
+---
+
 # World Days
 
 ## Content-first Wave04 — 456 distinct observances, 28 countries (9 November 2026)
