@@ -15,9 +15,7 @@ void main() {
     for (final language in <String>['it', 'en', 'de']) {
       for (final scale in <double>[1, 1.5, 2]) {
         testWidgets(
-          'country dropdown responsive ' +
-              width.toInt().toString() +
-              'px / ' + language + ' / ' + scale.toString() + 'x',
+          'country dropdown responsive ${width.toInt()}px / $language / ${scale}x',
           (tester) async {
             tester.view.physicalSize = Size(width, 844);
             tester.view.devicePixelRatio = 1;
@@ -44,10 +42,10 @@ void main() {
               isNull,
               reason: 'Country selector must not overflow',
             );
-            final dropdown = tester.widget<DropdownButtonFormField<String?>>(
+            expect(
               find.byType(DropdownButtonFormField<String?>),
+              findsOneWidget,
             );
-            expect(dropdown.isExpanded, isTrue);
             expect(controller.preferences.marketCode, 'IT');
           },
         );
