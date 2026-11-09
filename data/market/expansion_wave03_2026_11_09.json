@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave03-2026-11-09",
+  "status": "PRIMARY_SOURCE_RESEARCHED_METADATA_NOT_HUMAN_REVIEWED",
+  "sourceReviewDate": "2026-11-09",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 19,
+  "countryCounts": {
+    "CA": 5,
+    "AU": 3,
+    "BR": 3,
+    "MX": 3,
+    "IN": 2,
+    "JP": 3
+  },
+  "sourcePolicy": "19 distinct new country records, never duplicate GLOBAL days. All source dates and titles evidenced by official government or first-party state records. Unknown founding year kept null. Legal holiday status and historical anniversary handled separately.",
+  "records": [
+    {
+      "id": "canada-national-flag-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Flag of Canada Day",
+      "localizedTitles": {
+        "en": "National Flag of Canada Day",
+        "it": "Giornata della bandiera canadese",
+        "es": "Día de la Bandera de Canadá",
+        "fr": "Journée du drapeau national du Canada",
+        "de": "Tag der kanadischen Nationalflagge",
+        "pt": "Dia da Bandeira Nacional do Canadá"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 15
+        }
+      ],
+      "source": "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html",
+      "additionalSources": [],
+      "authority": "Canadian Heritage / Government of Canada",
+      "resolution": null,
+      "proposedIntroducedYear": 1996,
+      "introducedYearSource": "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html",
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "On 15 February 1965 the maple leaf flag was first raised over Parliament Hill. Prime Minister Jean Chrétien formally declared National Flag of Canada Day on 15 February 1996. The first flag raising and later commemorative declaration are distinct milestones.",
+      "dateRationale": "The date recalls the first raising of the current national flag on 15 February 1965; the national day was declared in 1996.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "canada-national-indigenous-peoples-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Indigenous Peoples Day — Canada",
+      "localizedTitles": {
+        "en": "National Indigenous Peoples Day — Canada",
+        "it": "Giornata nazionale dei popoli indigeni — Canada",
+        "es": "Día nacional de los pueblos indígenas — Canadá",
+        "fr": "Journée nationale des peuples autochtones — Canada",
+        "de": "Nationaler Tag der indigenen Völker — Kanada",
+        "pt": "Dia Nacional dos Povos Indígenas — Canadá"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 21
+        }
+      ],
+      "source": "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html",
+      "additionalSources": [],
+      "authority": "Canadian Heritage / Government of Canada",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Government of Canada observes 21 June to celebrate First Nations, Inuit and Métis histories and contributions. The observance was earlier known as National Aboriginal Day. This institutional page documents the current date, not an exact founding-year statute.",
+      "dateRationale": "21 June is a nationally observed recognition date in Canada; the founding year remains unasserted here without direct proclamation evidence.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "canada-multiculturalism-day",
+      "country": "CA",
+      "canonicalTitleEn": "Canadian Multiculturalism Day",
+      "localizedTitles": {
+        "en": "Canadian Multiculturalism Day",
+        "it": "Giornata canadese del multiculturalismo",
+        "es": "Día del Multiculturalismo Canadiense",
+        "fr": "Journée canadienne du multiculturalisme",
+        "de": "Kanadischer Tag des Multikulturalismus",
+        "pt": "Dia Canadiano do Multiculturalismo"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 27
+        }
+      ],
+      "source": "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html",
+      "additionalSources": [],
+      "authority": "Canadian Heritage / Government of Canada",
+      "resolution": null,
+      "proposedIntroducedYear": 2002,
+      "introducedYearSource": "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html",
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Government of Canada material describes a royal proclamation in 2002 declaring 27 June Canadian Multiculturalism Day. Another government page identifies the first annual celebration in 2003; those two dates must not be conflated.",
+      "dateRationale": "27 June was set by a royal proclamation in 2002; first celebration followed in 2003.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "canada-national-acadian-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Acadian Day — Canada",
+      "localizedTitles": {
+        "en": "National Acadian Day — Canada",
+        "it": "Giornata nazionale acadiana — Canada",
+        "es": "Día Nacional Acadiano — Canadá",
+        "fr": "Fête nationale de l'Acadie — Canada",
+        "de": "Nationaler Akadier-Tag — Kanada",
+        "pt": "Dia Nacional Acadiano — Canadá"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 15
+        }
+      ],
+      "source": "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html",
+      "additionalSources": [],
+      "authority": "Canadian Heritage / Government of Canada",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Canadian Heritage lists National Acadian Day on 15 August and recognizes Acadian cultural contributions and identity. The source documents the ongoing celebration but does not by itself prove the original year of government recognition.",
+      "dateRationale": "15 August is the national Acadian commemoration shown on the Canadian government calendar; founding year unconfirmed in this citation.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "canada-truth-and-reconciliation-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Day for Truth and Reconciliation — Canada",
+      "localizedTitles": {
+        "en": "National Day for Truth and Reconciliation — Canada",
+        "it": "Giornata nazionale della verità e riconciliazione — Canada",
+        "es": "Día Nacional de la Verdad y la Reconciliación — Canadá",
+        "fr": "Journée nationale de la vérité et de la réconciliation — Canada",
+        "de": "Nationaler Tag für Wahrheit und Versöhnung — Kanada",
+        "pt": "Dia Nacional da Verdade e Reconciliação — Canadá"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 30
+        }
+      ],
+      "source": "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html",
+      "additionalSources": [],
+      "authority": "Canadian Heritage / Government of Canada",
+      "resolution": null,
+      "proposedIntroducedYear": 2021,
+      "introducedYearSource": "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The National Day for Truth and Reconciliation was inaugurated in Canada in 2021, aligned with Orange Shirt Day on 30 September. It recognizes residential-school Survivors, families and communities, distinguishing this new federal observance from the older history it addresses.",
+      "dateRationale": "30 September aligns with Orange Shirt Day, while formal national observance began in 2021.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "australia-national-sorry-day",
+      "country": "AU",
+      "canonicalTitleEn": "National Sorry Day — Australia",
+      "localizedTitles": {
+        "en": "National Sorry Day — Australia",
+        "it": "Giornata nazionale del ricordo e delle scuse — Australia",
+        "es": "Día Nacional del Perdón — Australia",
+        "fr": "Journée nationale du pardon — Australie",
+        "de": "Nationaler Sorry Day — Australien",
+        "pt": "Dia Nacional do Pedido de Desculpas — Austrália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 26
+        }
+      ],
+      "source": "https://ministers.pmc.gov.au/mccarthy/additional-funding-support-stolen-generations-survivors",
+      "additionalSources": [],
+      "authority": "Australian Government",
+      "resolution": null,
+      "proposedIntroducedYear": 1998,
+      "introducedYearSource": "https://ministers.pmc.gov.au/mccarthy/additional-funding-support-stolen-generations-survivors",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Australia's first National Sorry Day was held in 1998, one year after the Bringing Them Home report on the forced removals of Aboriginal and Torres Strait Islander children. The Australian government commemorates the day on 26 May.",
+      "dateRationale": "26 May marks National Sorry Day; first held in 1998 after the 1997 Bringing Them Home report.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "australia-harmony-day",
+      "country": "AU",
+      "canonicalTitleEn": "Harmony Day — Australia",
+      "localizedTitles": {
+        "en": "Harmony Day — Australia",
+        "it": "Giornata dell'armonia — Australia",
+        "es": "Día de la Armonía — Australia",
+        "fr": "Journée de l'harmonie — Australie",
+        "de": "Tag der Harmonie — Australien",
+        "pt": "Dia da Harmonia — Austrália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 21
+        }
+      ],
+      "source": "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags",
+      "additionalSources": [],
+      "authority": "Australian Government",
+      "resolution": null,
+      "proposedIntroducedYear": 1999,
+      "introducedYearSource": "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags",
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Australian government flag guidance lists Harmony Day on 21 March and states that Harmony Day began in 1999. The celebration of a diverse society shares its date with the UN International Day for the Elimination of Racial Discrimination, but the two institutions are distinct.",
+      "dateRationale": "21 March corresponds to Harmony Day in Australia since 1999 and coincides with a separate global UN observance.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "australia-anzac-day",
+      "country": "AU",
+      "canonicalTitleEn": "Anzac Day — Australia",
+      "localizedTitles": {
+        "en": "Anzac Day — Australia",
+        "it": "Giornata ANZAC — Australia",
+        "es": "Día de ANZAC — Australia",
+        "fr": "Journée de l'ANZAC — Australie",
+        "de": "ANZAC-Gedenktag — Australien",
+        "pt": "Dia ANZAC — Austrália"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 25
+        }
+      ],
+      "source": "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags",
+      "additionalSources": [],
+      "authority": "Australian Government",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Australian Government identifies 25 April as Anzac Day, commemorating military service and sacrifice, originally tied to the 1915 Gallipoli campaign. That 1915 historical event is not used as an unverified statutory introduction year.",
+      "dateRationale": "25 April recalls the Gallipoli landing in 1915; the exact founding year of the modern holiday is not claimed here.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "brazil-indigenous-peoples-day",
+      "country": "BR",
+      "canonicalTitleEn": "Indigenous Peoples Day — Brazil",
+      "localizedTitles": {
+        "en": "Indigenous Peoples Day — Brazil",
+        "it": "Giornata dei popoli indigeni — Brasile",
+        "es": "Día de los Pueblos Indígenas — Brasil",
+        "fr": "Journée des peuples autochtones — Brésil",
+        "de": "Tag der indigenen Völker — Brasilien",
+        "pt": "Dia dos Povos Indígenas — Brasil"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 19
+        }
+      ],
+      "source": "https://planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm",
+      "additionalSources": [],
+      "authority": "Federal Government of Brazil",
+      "resolution": null,
+      "proposedIntroducedYear": 2022,
+      "introducedYearSource": "https://planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm",
+      "aliases": [],
+      "subject": "PEOPLE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Brazilian Federal Law 14.402 of 8 July 2022 established 19 April as Dia dos Povos Indígenas and revoked the older 1943 decree using the former name. The 2022 legal replacement is not the origin of Indigenous peoples or of all forms of remembrance on this date.",
+      "dateRationale": "19 April is now the federally instituted Day of Indigenous Peoples; current legal wording dates to 2022.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "brazil-black-consciousness-day",
+      "country": "BR",
+      "canonicalTitleEn": "Black Consciousness Day — Brazil",
+      "localizedTitles": {
+        "en": "Black Consciousness Day — Brazil",
+        "it": "Giornata della coscienza nera — Brasile",
+        "es": "Día de la Conciencia Negra — Brasil",
+        "fr": "Journée de la conscience noire — Brésil",
+        "de": "Tag des Schwarzen Bewusstseins — Brasilien",
+        "pt": "Dia da Consciência Negra — Brasil"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 20
+        }
+      ],
+      "source": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm",
+      "additionalSources": [],
+      "authority": "Federal Government of Brazil",
+      "resolution": null,
+      "proposedIntroducedYear": 2003,
+      "introducedYearSource": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm",
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Law 10.639/2003 added 20 November to the school calendar as National Black Consciousness Day. Federal Law 14.759/2023 subsequently made it a national public holiday. The 2003 educational recognition and 2023 holiday status are different legal milestones.",
+      "dateRationale": "20 November recalls Zumbi's death in 1695; school recognition came in 2003 and national holiday status in 2023.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "brazil-national-physicist-day",
+      "country": "BR",
+      "canonicalTitleEn": "National Physicist Day — Brazil",
+      "localizedTitles": {
+        "en": "National Physicist Day — Brazil",
+        "it": "Giornata nazionale del fisico — Brasile",
+        "es": "Día Nacional del Físico — Brasil",
+        "fr": "Journée nationale du physicien — Brésil",
+        "de": "Nationaler Tag der Physikfachleute — Brasilien",
+        "pt": "Dia Nacional do Físico — Brasil"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 19
+        }
+      ],
+      "source": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14769-22-dezembro-2023-795112-publicacaooriginal-170562-pl.html",
+      "additionalSources": [],
+      "authority": "Federal Government of Brazil",
+      "resolution": null,
+      "proposedIntroducedYear": 2023,
+      "introducedYearSource": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14769-22-dezembro-2023-795112-publicacaooriginal-170562-pl.html",
+      "aliases": [],
+      "subject": "LEARNING",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Brazil's Law 14.769 of 22 December 2023 established 19 May as the National Physicist Day, to be included in the official calendar. The legislation directly proves both the chosen date and the modern institution year.",
+      "dateRationale": "19 May is explicitly prescribed in Federal Law 14.769/2023.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "mexico-national-flag-day",
+      "country": "MX",
+      "canonicalTitleEn": "Flag Day — Mexico",
+      "localizedTitles": {
+        "en": "Flag Day — Mexico",
+        "it": "Giornata della bandiera — Messico",
+        "es": "Día de la Bandera — México",
+        "fr": "Journée du drapeau — Mexique",
+        "de": "Tag der Nationalflagge — Mexiko",
+        "pt": "Dia da Bandeira — México"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 24
+        }
+      ],
+      "source": "https://sidof.segob.gob.mx/notas/docFuente/4652786",
+      "additionalSources": [],
+      "authority": "Government of Mexico",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Mexico's national flag law prescribes 24 February as Flag Day in Article 10 and civic flag-honouring ceremonies. The official statute demonstrates today's annual date but not necessarily the first-ever proclamation of the celebration.",
+      "dateRationale": "24 February is listed in Article 10 of the federal flag law; no unsupported founding year is assigned.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "mexico-constitution-day",
+      "country": "MX",
+      "canonicalTitleEn": "Constitution Day — Mexico",
+      "localizedTitles": {
+        "en": "Constitution Day — Mexico",
+        "it": "Giornata della Costituzione — Messico",
+        "es": "Día de la Constitución — México",
+        "fr": "Journée de la Constitution — Mexique",
+        "de": "Tag der Verfassung — Mexiko",
+        "pt": "Dia da Constituição — México"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 5
+        }
+      ],
+      "source": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "additionalSources": [],
+      "authority": "Government of Mexico",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Mexico's 1917 Constitution was promulgated on 5 February. The Federal Labour Law prescribes the first Monday of February as the paid rest day commemorating 5 February; World Days keeps the historical observance on the fifth, not the substitute Monday.",
+      "dateRationale": "5 February commemorates the 1917 Constitution; the compensated day off may fall on the first Monday of February.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "mexico-independence-day",
+      "country": "MX",
+      "canonicalTitleEn": "Independence Day — Mexico",
+      "localizedTitles": {
+        "en": "Independence Day — Mexico",
+        "it": "Giornata dell'indipendenza — Messico",
+        "es": "Día de la Independencia — México",
+        "fr": "Fête de l'indépendance — Mexique",
+        "de": "Unabhängigkeitstag — Mexiko",
+        "pt": "Dia da Independência — México"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 16
+        }
+      ],
+      "source": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "additionalSources": [],
+      "authority": "Government of Mexico",
+      "resolution": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Mexico's Federal Labour Law explicitly names 16 September as a compulsory holiday, recalling the 1810 independence movement. The historical date and later legal working-holiday provisions must not be treated as the same foundation year.",
+      "dateRationale": "16 September remembers the 1810 movement for independence and is explicitly listed in the Federal Labour Law.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "india-national-voters-day",
+      "country": "IN",
+      "canonicalTitleEn": "National Voters' Day — India",
+      "localizedTitles": {
+        "en": "National Voters' Day — India",
+        "it": "Giornata nazionale degli elettori — India",
+        "es": "Día Nacional del Elector — India",
+        "fr": "Journée nationale des électeurs — Inde",
+        "de": "Nationaler Wählertag — Indien",
+        "pt": "Dia Nacional dos Eleitores — Índia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 25
+        }
+      ],
+      "source": "https://www.eci.gov.in/voicenet/ArticleDECUS.htm",
+      "additionalSources": [],
+      "authority": "Government of India",
+      "resolution": null,
+      "proposedIntroducedYear": 2011,
+      "introducedYearSource": "https://www.eci.gov.in/voicenet/ArticleDECUS.htm",
+      "aliases": [],
+      "subject": "COMMUNITY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "The Election Commission of India began National Voters' Day celebrations in 2011, choosing its own foundation day of 25 January. The commemoration promotes electoral registration and participation, distinct from the original founding of the Commission.",
+      "dateRationale": "25 January is the Election Commission's foundation anniversary; National Voters' Day began in 2011.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "india-national-science-day",
+      "country": "IN",
+      "canonicalTitleEn": "National Science Day — India",
+      "localizedTitles": {
+        "en": "National Science Day — India",
+        "it": "Giornata nazionale della scienza — India",
+        "es": "Día Nacional de la Ciencia — India",
+        "fr": "Journée nationale de la science — Inde",
+        "de": "Nationaler Wissenschaftstag — Indien",
+        "pt": "Dia Nacional da Ciência — Índia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 28
+        }
+      ],
+      "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468",
+      "additionalSources": [],
+      "authority": "Government of India",
+      "resolution": null,
+      "proposedIntroducedYear": 1986,
+      "introducedYearSource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468",
+      "aliases": [],
+      "subject": "LEARNING",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "India's government designated 28 February National Science Day in 1986, after the National Council for Science and Technology Communication proposal; it was celebrated from 1987. The date honours C. V. Raman's 1928 discovery and must not be confused with its designation year.",
+      "dateRationale": "28 February remembers Raman's scientific discovery of 1928; the government designation was in 1986 and first celebration in 1987.",
+      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+    },
+    {
+      "id": "japan-national-foundation-day",
+      "country": "JP",
+      "canonicalTitleEn": "National Foundation Day — Japan",
+      "localizedTitles": {
+        "en": "National Foundation Day — Japan",
+        "it": "Giornata della fondazione nazionale — Giappone",
+        "es": "Día de la Fundación Nacional — Japón",
+        "fr": "Fête de la fondation nationale — Japon",
+        "de": "Tag der Staatsgründung — Japan",
+        "pt": "Dia da Fundação Nacional — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 11
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "additionalSources": [],
+      "authority": "Cabinet Office, Government of Japan",
+      "resolution": null,
+      "proposedIntroducedYear": 1966,
+      "introducedYearSource": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Japan's Cabinet Office explains National Foundation Day was provided for by the 1966 revision of the National Holidays Law and its date fixed as 11 February by government order. It is a modern statutory holiday commemorating national foundation, not a documented contemporary date of ancient founding.",
+      "dateRationale": "11 February is fixed by Japan's 1966 implementing order; no ancient literal foundation year is inferred.",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY"
+    },
+    {
+      "id": "japan-constitution-memorial-day",
+      "country": "JP",
+      "canonicalTitleEn": "Constitution Memorial Day — Japan",
+      "localizedTitles": {
+        "en": "Constitution Memorial Day — Japan",
+        "it": "Giornata della Costituzione — Giappone",
+        "es": "Día de la Constitución — Japón",
+        "fr": "Fête de la Constitution — Japon",
+        "de": "Tag der Verfassung — Japan",
+        "pt": "Dia da Constituição — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 3
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "additionalSources": [],
+      "authority": "Cabinet Office, Government of Japan",
+      "resolution": null,
+      "proposedIntroducedYear": 1948,
+      "introducedYearSource": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "aliases": [],
+      "subject": "HISTORY",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Japan's National Holidays Law of 1948 recognizes Constitution Memorial Day on 3 May. The current Constitution entered into force on 3 May 1947, while the law defining the modern holiday followed in 1948.",
+      "dateRationale": "3 May commemorates the 1947 enforcement of Japan's Constitution; the present holiday law was adopted in 1948.",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY"
+    },
+    {
+      "id": "japan-culture-day",
+      "country": "JP",
+      "canonicalTitleEn": "Culture Day — Japan",
+      "localizedTitles": {
+        "en": "Culture Day — Japan",
+        "it": "Giornata della cultura — Giappone",
+        "es": "Día de la Cultura — Japón",
+        "fr": "Journée de la culture — Japon",
+        "de": "Tag der Kultur — Japan",
+        "pt": "Dia da Cultura — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 3
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "additionalSources": [],
+      "authority": "Cabinet Office, Government of Japan",
+      "resolution": null,
+      "proposedIntroducedYear": 1948,
+      "introducedYearSource": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "aliases": [],
+      "subject": "CULTURE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "chronologyNote": "Japan's Cabinet Office documents Culture Day as one of the original 1948 national holidays. Its 3 November date coincides with the 1946 promulgation of the Constitution and previously carried other historical associations. The day now emphasizes freedom, peace and culture.",
+      "dateRationale": "3 November is Culture Day under the National Holidays Law of 1948, separate from the 1946 Constitution promulgation.",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY"
+    }
+  ]
+}
