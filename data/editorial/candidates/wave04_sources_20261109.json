@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "batchId": "PRIMARY-WAVE04-2026-11-09",
+  "createdAt": "2026-11-09",
+  "evidenceStage": "PRIMARY_SOURCE_RESEARCHED_AND_HUMAN_EDITORIAL_REVIEW_PENDING",
+  "sourcePolicy": "Original prose only. Human content approval required before copying any row to REVIEWED runtime packs; neither translations nor historical years are automatically promoted.",
+  "sourceOfTruth": "UN, UNESCO and WHO primary/originator webpages; review date 2026-11-09",
+  "localeCodes": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 8,
+  "records": [
+    {
+      "id": "world-wetlands-day",
+      "proposedIntroducedYear": 2021,
+      "primarySource": "https://www.un.org/en/observances/world-wetlands-day/background",
+      "milestones": [
+        1971,
+        2021
+      ],
+      "chronologyNote": "The 1971 Ramsar Convention is the historical date; the UN observance was proclaimed in 2021.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "international-day-of-light",
+      "proposedIntroducedYear": 2017,
+      "primarySource": "https://www.unesco.org/en/articles/unesco-general-conference-proclaims-16-may-international-day-light",
+      "milestones": [
+        1960,
+        2017,
+        2018
+      ],
+      "chronologyNote": "The first laser operation occurred in 1960; UNESCO proclaimed the day in 2017; celebrations began in 2018.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "world-bicycle-day",
+      "proposedIntroducedYear": 2018,
+      "primarySource": "https://mandates.un.org/mandate/A/RES/72/272",
+      "milestones": [
+        2018
+      ],
+      "chronologyNote": "The General Assembly adopted resolution A/RES/72/272 in 2018; no earlier bicycle history is claimed as proclamation.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "international-day-of-yoga",
+      "proposedIntroducedYear": 2014,
+      "primarySource": "https://www.un.org/en/observances/yoga-day",
+      "milestones": [
+        2014
+      ],
+      "chronologyNote": "Yoga has much older Indian origins; the annual UN designation is from resolution 69/131 in 2014.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "world-food-safety-day",
+      "proposedIntroducedYear": 2018,
+      "primarySource": "https://www.un.org/en/observances/food-safety-day/background",
+      "milestones": [
+        2018,
+        2019
+      ],
+      "chronologyNote": "Proclaimed by UN General Assembly resolution 73/250 in 2018; first annual observance on 7 June 2019, not a proclamation in 2019.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "world-no-tobacco-day",
+      "proposedIntroducedYear": 1987,
+      "primarySource": "https://www.who.int/campaigns/world-no-tobacco-day",
+      "milestones": [
+        1987,
+        1988
+      ],
+      "chronologyNote": "WHO Member States created the observance in 1987; the annual 31 May date followed in 1988.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "world-population-day",
+      "proposedIntroducedYear": 1989,
+      "primarySource": "https://www.un.org/en/observances/world-population-day/background",
+      "milestones": [
+        1987,
+        1989,
+        1990
+      ],
+      "chronologyNote": "1987 Five Billion milestone, 1989 UNDP establishment, first observance 1990, 1990 UNGA continuation decision.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    },
+    {
+      "id": "world-teachers-day",
+      "proposedIntroducedYear": 1994,
+      "primarySource": "https://www.unesco.org/en/days/teachers",
+      "milestones": [
+        1966,
+        1994
+      ],
+      "chronologyNote": "1994 World Teachers' Day is distinct from the 1966 ILO/UNESCO teachers' recommendation it commemorates.",
+      "factualSourceReviewedAt": "2026-11-09",
+      "humanEditorialReview": "PENDING",
+      "translationReview": "PENDING_HUMAN",
+      "runtimePublished": false
+    }
+  ]
+}
