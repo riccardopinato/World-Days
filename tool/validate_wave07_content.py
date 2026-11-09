@@ -10,7 +10,7 @@ records=cat["records"];byid={r["id"]:r for r in records}
 assert len(records)==len(byid)==492
 assert cat["datasetVersion"]=="2026.11.09.8"
 assert sum(r["scope"]=="GLOBAL" for r in records)==285
-assert sum(r["scope"]=="NATIONAL" for r in records)==187
+assert sum(r["scope"]=="NATIONAL" for r in records)==207
 assert sum(r["countries"]==["IN"] for r in records)==5
 fresh=load_wave07_india()
 assert len(fresh)==3 and {x["id"] for x in fresh}==set(EXPECTED)
