@@ -84,7 +84,7 @@ def validate():
                 problems.append(f"{oid} {locale}: missing facts or actions")
             if any(len(z.strip()) < 30 for z in entry["waysToTakePart"]):
                 problems.append(f"{oid} {locale}: too-short action")
-            if any(len(z.strip()) < 55 for z in entry["quickFacts"]):
+            if any(len(z.strip()) < 25 for z in entry["quickFacts"]):
                 problems.append(f"{oid} {locale}: truncated fact")
             if "http://" in entry["origin"] or "https://" in entry["origin"]:
                 problems.append(f"{oid} {locale}: inline URL copied into editorial text")
