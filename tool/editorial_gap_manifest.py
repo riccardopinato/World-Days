@@ -47,8 +47,8 @@ def build():
         stage = (
             "RUNTIME_REVIEWED" if oid in reviewed_ids else
             "WAVE04_DRAFT_PENDING_HUMAN" if oid in candidate_ids else
-            "COUNTRY_WAVE01_DRAFT_EN_IT" if oid in country_draft_ids else
-            "COUNTRY_WAVE02_DRAFT_EN_IT" if oid in wave02_ids else
+            "COUNTRY_WAVE01_DRAFT_SIX_LOCALES" if oid in country_draft_ids else
+            "COUNTRY_WAVE02_DRAFT_SIX_LOCALES" if oid in wave02_ids else
             "NOT_RESEARCHED"
         )
         rows.append({
@@ -72,7 +72,7 @@ def build():
         "generationMethod": "Deterministic join by canonical observance ID; no generated historical stories.",
         "notes": [
             "WAVE04 six-locale drafts are not runtime reviewed.",
-            "COUNTRY_WAVE01 and WAVE02 bilingual drafts need 4 translations and human review.",
+            "COUNTRY_WAVE01 and WAVE02 each have six draft locales but still require qualified human editorial and linguistic approval.",
             "An empty introducedYear means unknown and must display *.",
             "Source URLs are provenance pointers; a batch story needs individual review.",
         ],
