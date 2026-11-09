@@ -1,0 +1,1387 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-national-wave04-global-2026-11-09",
+  "reviewStatus": "SOURCE_VERIFIED_METADATA_ONLY_HUMAN_EDITORIAL_NOT_APPROVED",
+  "sourceReviewedOn": "2026-11-09",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 40,
+  "countryCounts": {
+    "ZA": 6,
+    "PH": 7,
+    "NZ": 3,
+    "SG": 2,
+    "KR": 7,
+    "AR": 8,
+    "PE": 7
+  },
+  "records": [
+    {
+      "id": "za-human-rights-day",
+      "country": "ZA",
+      "canonicalTitleEn": "Human Rights Day — South Africa",
+      "localizedTitles": {
+        "en": "Human Rights Day — South Africa",
+        "it": "Giornata dei diritti umani — Sudafrica",
+        "es": "Día de los Derechos Humanos — Sudáfrica",
+        "fr": "Journée des droits humains — Afrique du Sud",
+        "de": "Tag der Menschenrechte — Südafrika",
+        "pt": "Dia dos Direitos Humanos — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 21
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists Human Rights Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":3,\"day\":21} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Human Rights Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "za-freedom-day",
+      "country": "ZA",
+      "canonicalTitleEn": "Freedom Day — South Africa",
+      "localizedTitles": {
+        "en": "Freedom Day — South Africa",
+        "it": "Giornata della libertà — Sudafrica",
+        "es": "Día de la Libertad — Sudáfrica",
+        "fr": "Journée de la liberté — Afrique du Sud",
+        "de": "Tag der Freiheit — Südafrika",
+        "pt": "Dia da Liberdade — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 27
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists Freedom Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":27} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Freedom Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "za-youth-day",
+      "country": "ZA",
+      "canonicalTitleEn": "Youth Day — South Africa",
+      "localizedTitles": {
+        "en": "Youth Day — South Africa",
+        "it": "Giornata della gioventù — Sudafrica",
+        "es": "Día de la Juventud — Sudáfrica",
+        "fr": "Journée de la jeunesse — Afrique du Sud",
+        "de": "Tag der Jugend — Südafrika",
+        "pt": "Dia da Juventude — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 16
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists Youth Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":16} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Youth Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "za-national-womens-day",
+      "country": "ZA",
+      "canonicalTitleEn": "National Women's Day — South Africa",
+      "localizedTitles": {
+        "en": "National Women's Day — South Africa",
+        "it": "Giornata nazionale delle donne — Sudafrica",
+        "es": "Día Nacional de la Mujer — Sudáfrica",
+        "fr": "Journée nationale des femmes — Afrique du Sud",
+        "de": "Nationaler Frauentag — Südafrika",
+        "pt": "Dia Nacional da Mulher — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 9
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists National Women's Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Women's Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "za-heritage-day",
+      "country": "ZA",
+      "canonicalTitleEn": "Heritage Day — South Africa",
+      "localizedTitles": {
+        "en": "Heritage Day — South Africa",
+        "it": "Giornata del patrimonio culturale — Sudafrica",
+        "es": "Día del Patrimonio Cultural — Sudáfrica",
+        "fr": "Journée du patrimoine — Afrique du Sud",
+        "de": "Tag des Kulturerbes — Südafrika",
+        "pt": "Dia do Património — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 24
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists Heritage Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":9,\"day\":24} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Heritage Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "za-reconciliation-day",
+      "country": "ZA",
+      "canonicalTitleEn": "Day of Reconciliation — South Africa",
+      "localizedTitles": {
+        "en": "Day of Reconciliation — South Africa",
+        "it": "Giornata della riconciliazione — Sudafrica",
+        "es": "Día de la Reconciliación — Sudáfrica",
+        "fr": "Journée de la réconciliation — Afrique du Sud",
+        "de": "Tag der Versöhnung — Südafrika",
+        "pt": "Dia da Reconciliação — África do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 16
+        }
+      ],
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "authority": "Government of South Africa",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of South Africa calendar lists Day of Reconciliation on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":16} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Day of Reconciliation is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-edsa-people-power-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "EDSA People Power Revolution Anniversary — Philippines",
+      "localizedTitles": {
+        "en": "EDSA People Power Revolution Anniversary — Philippines",
+        "it": "Anniversario della rivoluzione People Power EDSA — Filippine",
+        "es": "Aniversario de la Revolución EDSA — Filipinas",
+        "fr": "Anniversaire de la révolution populaire EDSA — Philippines",
+        "de": "Jahrestag der EDSA-People-Power-Revolution — Philippinen",
+        "pt": "Aniversário da Revolução Popular EDSA — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 25
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "SPECIAL_WORKING_COMMENCEMENT",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists EDSA People Power Revolution Anniversary on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":25} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for EDSA People Power Revolution Anniversary is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-day-of-valor",
+      "country": "PH",
+      "canonicalTitleEn": "Araw ng Kagitingan — Day of Valor — Philippines",
+      "localizedTitles": {
+        "en": "Araw ng Kagitingan — Day of Valor — Philippines",
+        "it": "Araw ng Kagitingan — Giornata del valore — Filippine",
+        "es": "Araw ng Kagitingan — Día del Valor — Filipinas",
+        "fr": "Araw ng Kagitingan — Journée de la bravoure — Philippines",
+        "de": "Araw ng Kagitingan — Tag der Tapferkeit — Philippinen",
+        "pt": "Araw ng Kagitingan — Dia da Coragem — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 9
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists Araw ng Kagitingan — Day of Valor on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Araw ng Kagitingan — Day of Valor is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-independence-day",
+      "country": "PH",
+      "canonicalTitleEn": "Independence Day — Philippines",
+      "localizedTitles": {
+        "en": "Independence Day — Philippines",
+        "it": "Giornata dell'indipendenza — Filippine",
+        "es": "Día de la Independencia — Filipinas",
+        "fr": "Fête de l’Indépendance — Philippines",
+        "de": "Unabhängigkeitstag — Philippinen",
+        "pt": "Dia da Independência — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 12
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists Independence Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":12} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Independence Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-ninoy-aquino-day",
+      "country": "PH",
+      "canonicalTitleEn": "Ninoy Aquino Day — Philippines",
+      "localizedTitles": {
+        "en": "Ninoy Aquino Day — Philippines",
+        "it": "Giornata di Ninoy Aquino — Filippine",
+        "es": "Día de Ninoy Aquino — Filipinas",
+        "fr": "Journée Ninoy Aquino — Philippines",
+        "de": "Ninoy-Aquino-Tag — Philippinen",
+        "pt": "Dia de Ninoy Aquino — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 21
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists Ninoy Aquino Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":21} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Ninoy Aquino Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-national-heroes-day",
+      "country": "PH",
+      "canonicalTitleEn": "National Heroes Day — Philippines",
+      "localizedTitles": {
+        "en": "National Heroes Day — Philippines",
+        "it": "Giornata degli eroi nazionali — Filippine",
+        "es": "Día de los Héroes Nacionales — Filipinas",
+        "fr": "Journée des héros nationaux — Philippines",
+        "de": "Tag der Nationalhelden — Philippinen",
+        "pt": "Dia dos Heróis Nacionais — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "LAST_WEEKDAY",
+          "month": 8,
+          "weekday": 1
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists National Heroes Day on its annual anniversary or rule. World Days stores {\"kind\":\"LAST_WEEKDAY\",\"month\":8,\"weekday\":1} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Heroes Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-bonifacio-day",
+      "country": "PH",
+      "canonicalTitleEn": "Bonifacio Day — Philippines",
+      "localizedTitles": {
+        "en": "Bonifacio Day — Philippines",
+        "it": "Giornata di Bonifacio — Filippine",
+        "es": "Día de Bonifacio — Filipinas",
+        "fr": "Journée Bonifacio — Philippines",
+        "de": "Bonifacio-Tag — Philippinen",
+        "pt": "Dia de Bonifacio — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 30
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists Bonifacio Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":30} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Bonifacio Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ph-rizal-day",
+      "country": "PH",
+      "canonicalTitleEn": "Rizal Day — Philippines",
+      "localizedTitles": {
+        "en": "Rizal Day — Philippines",
+        "it": "Giornata di Rizal — Filippine",
+        "es": "Día de Rizal — Filipinas",
+        "fr": "Journée Rizal — Philippines",
+        "de": "Rizal-Tag — Philippinen",
+        "pt": "Dia de Rizal — Filipinas"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 30
+        }
+      ],
+      "source": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "authority": "Presidential Communications Office of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Presidential Communications Office of the Philippines calendar lists Rizal Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":30} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Rizal Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "nz-waitangi-day",
+      "country": "NZ",
+      "canonicalTitleEn": "Waitangi Day — New Zealand",
+      "localizedTitles": {
+        "en": "Waitangi Day — New Zealand",
+        "it": "Giornata di Waitangi — Nuova Zelanda",
+        "es": "Día de Waitangi — Nueva Zelanda",
+        "fr": "Journée de Waitangi — Nouvelle-Zélande",
+        "de": "Waitangi-Tag — Neuseeland",
+        "pt": "Dia de Waitangi — Nova Zelândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 6
+        }
+      ],
+      "source": "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates",
+      "authority": "Employment New Zealand / Government of New Zealand",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Employment New Zealand / Government of New Zealand calendar lists Waitangi Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":6} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Waitangi Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "nz-anzac-day",
+      "country": "NZ",
+      "canonicalTitleEn": "Anzac Day — New Zealand",
+      "localizedTitles": {
+        "en": "Anzac Day — New Zealand",
+        "it": "Giornata Anzac — Nuova Zelanda",
+        "es": "Día de Anzac — Nueva Zelanda",
+        "fr": "Journée Anzac — Nouvelle-Zélande",
+        "de": "Anzac-Tag — Neuseeland",
+        "pt": "Dia Anzac — Nova Zelândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 25
+        }
+      ],
+      "source": "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates",
+      "authority": "Employment New Zealand / Government of New Zealand",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Employment New Zealand / Government of New Zealand calendar lists Anzac Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":25} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Anzac Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "nz-labour-day",
+      "country": "NZ",
+      "canonicalTitleEn": "Labour Day — New Zealand",
+      "localizedTitles": {
+        "en": "Labour Day — New Zealand",
+        "it": "Festa del lavoro — Nuova Zelanda",
+        "es": "Día del Trabajo — Nueva Zelanda",
+        "fr": "Fête du Travail — Nouvelle-Zélande",
+        "de": "Tag der Arbeit — Neuseeland",
+        "pt": "Dia do Trabalhador — Nova Zelândia"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 1,
+          "occurrence": 4
+        }
+      ],
+      "source": "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates",
+      "authority": "Employment New Zealand / Government of New Zealand",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Employment New Zealand / Government of New Zealand calendar lists Labour Day on its annual anniversary or rule. World Days stores {\"kind\":\"NTH_WEEKDAY\",\"month\":10,\"weekday\":1,\"occurrence\":4} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Labour Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "sg-total-defence-day",
+      "country": "SG",
+      "canonicalTitleEn": "Total Defence Day — Singapore",
+      "localizedTitles": {
+        "en": "Total Defence Day — Singapore",
+        "it": "Giornata della difesa totale — Singapore",
+        "es": "Día de la Defensa Total — Singapur",
+        "fr": "Journée de la défense totale — Singapour",
+        "de": "Tag der Gesamtverteidigung — Singapur",
+        "pt": "Dia da Defesa Total — Singapura"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 15
+        }
+      ],
+      "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/1feb26-nr/",
+      "authority": "Singapore Ministry of Defence",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "OFFICIAL_CIVIC_COMMENCEMENT",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Singapore calendar lists Total Defence Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":2,\"day\":15} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Total Defence Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "sg-national-day",
+      "country": "SG",
+      "canonicalTitleEn": "National Day — Singapore",
+      "localizedTitles": {
+        "en": "National Day — Singapore",
+        "it": "Giornata nazionale — Singapore",
+        "es": "Día Nacional — Singapur",
+        "fr": "Fête nationale — Singapour",
+        "de": "Nationalfeiertag — Singapur",
+        "pt": "Dia Nacional — Singapura"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 9
+        }
+      ],
+      "source": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+      "authority": "Government of Singapore",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Singapore calendar lists National Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-march-first-independence-movement-day",
+      "country": "KR",
+      "canonicalTitleEn": "March First Independence Movement Day — South Korea",
+      "localizedTitles": {
+        "en": "March First Independence Movement Day — South Korea",
+        "it": "Giornata del movimento d'indipendenza del primo marzo — Corea del Sud",
+        "es": "Día del Movimiento de Independencia del Primero de Marzo — Corea del Sur",
+        "fr": "Journée du mouvement d’indépendance du 1er mars — Corée du Sud",
+        "de": "Tag der Unabhängigkeitsbewegung vom 1. März — Südkorea",
+        "pt": "Dia do Movimento de Independência de Primeiro de Março — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 1
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists March First Independence Movement Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":3,\"day\":1} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for March First Independence Movement Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-childrens-day",
+      "country": "KR",
+      "canonicalTitleEn": "Children's Day — South Korea",
+      "localizedTitles": {
+        "en": "Children's Day — South Korea",
+        "it": "Giornata dei bambini — Corea del Sud",
+        "es": "Día del Niño — Corea del Sur",
+        "fr": "Journée des enfants — Corée du Sud",
+        "de": "Kindertag — Südkorea",
+        "pt": "Dia das Crianças — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists Children's Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":5} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Children's Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-memorial-day",
+      "country": "KR",
+      "canonicalTitleEn": "National Memorial Day — South Korea",
+      "localizedTitles": {
+        "en": "National Memorial Day — South Korea",
+        "it": "Giornata della memoria nazionale — Corea del Sud",
+        "es": "Día de la Memoria Nacional — Corea del Sur",
+        "fr": "Journée nationale du souvenir — Corée du Sud",
+        "de": "Nationaler Gedenktag — Südkorea",
+        "pt": "Dia Nacional da Memória — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 6
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists National Memorial Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":6} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Memorial Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-constitution-day",
+      "country": "KR",
+      "canonicalTitleEn": "Constitution Day — South Korea",
+      "localizedTitles": {
+        "en": "Constitution Day — South Korea",
+        "it": "Giornata della Costituzione — Corea del Sud",
+        "es": "Día de la Constitución — Corea del Sur",
+        "fr": "Journée de la Constitution — Corée du Sud",
+        "de": "Tag der Verfassung — Südkorea",
+        "pt": "Dia da Constituição — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 17
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists Constitution Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":17} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Constitution Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-liberation-day",
+      "country": "KR",
+      "canonicalTitleEn": "Liberation Day — South Korea",
+      "localizedTitles": {
+        "en": "Liberation Day — South Korea",
+        "it": "Giornata della liberazione — Corea del Sud",
+        "es": "Día de la Liberación — Corea del Sur",
+        "fr": "Jour de la Libération — Corée du Sud",
+        "de": "Tag der Befreiung — Südkorea",
+        "pt": "Dia da Libertação — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 15
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists Liberation Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":15} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Liberation Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-national-foundation-day",
+      "country": "KR",
+      "canonicalTitleEn": "National Foundation Day — South Korea",
+      "localizedTitles": {
+        "en": "National Foundation Day — South Korea",
+        "it": "Giornata della fondazione nazionale — Corea del Sud",
+        "es": "Día de la Fundación Nacional — Corea del Sur",
+        "fr": "Jour de la fondation nationale — Corée du Sud",
+        "de": "Tag der Staatsgründung — Südkorea",
+        "pt": "Dia da Fundação Nacional — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 3
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists National Foundation Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":3} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Foundation Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "kr-hangeul-day",
+      "country": "KR",
+      "canonicalTitleEn": "Hangeul Day — South Korea",
+      "localizedTitles": {
+        "en": "Hangeul Day — South Korea",
+        "it": "Giornata dell'alfabeto hangeul — Corea del Sud",
+        "es": "Día del Alfabeto Hangeul — Corea del Sur",
+        "fr": "Journée de l’alphabet hangeul — Corée du Sud",
+        "de": "Hangeul-Tag — Südkorea",
+        "pt": "Dia do Alfabeto Hangeul — Coreia do Sul"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 9
+        }
+      ],
+      "source": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "authority": "Korea Tourism Organization / Korean Government",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Korea Tourism Organization / Korean Government calendar lists Hangeul Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Hangeul Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-memory-truth-justice-day",
+      "country": "AR",
+      "canonicalTitleEn": "Day of Memory, Truth and Justice — Argentina",
+      "localizedTitles": {
+        "en": "Day of Memory, Truth and Justice — Argentina",
+        "it": "Giornata della memoria, verità e giustizia — Argentina",
+        "es": "Día de la Memoria, la Verdad y la Justicia — Argentina",
+        "fr": "Journée de la mémoire, de la vérité et de la justice — Argentine",
+        "de": "Tag des Gedenkens, der Wahrheit und Gerechtigkeit — Argentinien",
+        "pt": "Dia da Memória, Verdade e Justiça — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 24
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists Day of Memory, Truth and Justice on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":3,\"day\":24} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Day of Memory, Truth and Justice is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-malvinas-veterans-day",
+      "country": "AR",
+      "canonicalTitleEn": "Malvinas Veterans and Fallen Remembrance Day — Argentina",
+      "localizedTitles": {
+        "en": "Malvinas Veterans and Fallen Remembrance Day — Argentina",
+        "it": "Giornata dei veterani e dei caduti delle Malvinas — Argentina",
+        "es": "Día de los Veteranos y Caídos en Malvinas — Argentina",
+        "fr": "Journée des anciens combattants et morts des Malouines — Argentine",
+        "de": "Gedenktag der Malvinas-Veteranen und Gefallenen — Argentinien",
+        "pt": "Dia dos Veteranos e Caídos das Malvinas — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 2
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists Malvinas Veterans and Fallen Remembrance Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":4,\"day\":2} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Malvinas Veterans and Fallen Remembrance Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-may-revolution-day",
+      "country": "AR",
+      "canonicalTitleEn": "May Revolution Day — Argentina",
+      "localizedTitles": {
+        "en": "May Revolution Day — Argentina",
+        "it": "Giornata della Rivoluzione di Maggio — Argentina",
+        "es": "Día de la Revolución de Mayo — Argentina",
+        "fr": "Journée de la révolution de Mai — Argentine",
+        "de": "Tag der Mairevolution — Argentinien",
+        "pt": "Dia da Revolução de Maio — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 25
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists May Revolution Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":5,\"day\":25} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for May Revolution Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-manuel-belgrano-remembrance",
+      "country": "AR",
+      "canonicalTitleEn": "General Manuel Belgrano Remembrance Day — Argentina",
+      "localizedTitles": {
+        "en": "General Manuel Belgrano Remembrance Day — Argentina",
+        "it": "Giornata in memoria del generale Manuel Belgrano — Argentina",
+        "es": "Día de Manuel Belgrano — Argentina",
+        "fr": "Journée du souvenir de Manuel Belgrano — Argentine",
+        "de": "Manuel-Belgrano-Gedenktag — Argentinien",
+        "pt": "Dia em Memória do General Manuel Belgrano — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 20
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists General Manuel Belgrano Remembrance Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":20} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for General Manuel Belgrano Remembrance Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-independence-day",
+      "country": "AR",
+      "canonicalTitleEn": "Independence Day — Argentina",
+      "localizedTitles": {
+        "en": "Independence Day — Argentina",
+        "it": "Giornata dell'indipendenza — Argentina",
+        "es": "Día de la Independencia — Argentina",
+        "fr": "Fête de l’Indépendance — Argentine",
+        "de": "Unabhängigkeitstag — Argentinien",
+        "pt": "Dia da Independência — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 9
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists Independence Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Independence Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-san-martin-remembrance",
+      "country": "AR",
+      "canonicalTitleEn": "General José de San Martín Remembrance Day — Argentina",
+      "localizedTitles": {
+        "en": "General José de San Martín Remembrance Day — Argentina",
+        "it": "Giornata in memoria del generale José de San Martín — Argentina",
+        "es": "Día de José de San Martín — Argentina",
+        "fr": "Journée du souvenir de José de San Martín — Argentine",
+        "de": "José-de-San-Martín-Gedenktag — Argentinien",
+        "pt": "Dia em Memória do General José de San Martín — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 17
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists General José de San Martín Remembrance Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":17} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for General José de San Martín Remembrance Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-cultural-diversity-day",
+      "country": "AR",
+      "canonicalTitleEn": "Day of Respect for Cultural Diversity — Argentina",
+      "localizedTitles": {
+        "en": "Day of Respect for Cultural Diversity — Argentina",
+        "it": "Giornata del rispetto della diversità culturale — Argentina",
+        "es": "Día del Respeto a la Diversidad Cultural — Argentina",
+        "fr": "Journée du respect de la diversité culturelle — Argentine",
+        "de": "Tag des Respekts für kulturelle Vielfalt — Argentinien",
+        "pt": "Dia do Respeito pela Diversidade Cultural — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 12
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists Day of Respect for Cultural Diversity on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":12} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Day of Respect for Cultural Diversity is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "ar-national-sovereignty-day",
+      "country": "AR",
+      "canonicalTitleEn": "National Sovereignty Day — Argentina",
+      "localizedTitles": {
+        "en": "National Sovereignty Day — Argentina",
+        "it": "Giornata della sovranità nazionale — Argentina",
+        "es": "Día de la Soberanía Nacional — Argentina",
+        "fr": "Journée de la souveraineté nationale — Argentine",
+        "de": "Tag der nationalen Souveränität — Argentinien",
+        "pt": "Dia da Soberania Nacional — Argentina"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 20
+        }
+      ],
+      "source": "https://www.argentina.gob.ar/normativa/nacional/ley-27399-281835/texto",
+      "authority": "Argentine National Congress",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Argentine National Congress calendar lists National Sovereignty Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":11,\"day\":20} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for National Sovereignty Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-battle-of-arica-flag-day",
+      "country": "PE",
+      "canonicalTitleEn": "Battle of Arica and Flag Day — Peru",
+      "localizedTitles": {
+        "en": "Battle of Arica and Flag Day — Peru",
+        "it": "Giornata della battaglia di Arica e della bandiera — Perù",
+        "es": "Día de la Batalla de Arica y de la Bandera — Perú",
+        "fr": "Journée de la bataille d’Arica et du drapeau — Pérou",
+        "de": "Tag der Schlacht von Arica und der Flagge — Peru",
+        "pt": "Dia da Batalha de Arica e da Bandeira — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 7
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Battle of Arica and Flag Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":6,\"day\":7} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Battle of Arica and Flag Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-air-force-day",
+      "country": "PE",
+      "canonicalTitleEn": "Peruvian Air Force Day — Peru",
+      "localizedTitles": {
+        "en": "Peruvian Air Force Day — Peru",
+        "it": "Giornata dell'aeronautica peruviana — Perù",
+        "es": "Día de la Fuerza Aérea del Perú — Perú",
+        "fr": "Journée de l’armée de l’air péruvienne — Pérou",
+        "de": "Tag der peruanischen Luftwaffe — Peru",
+        "pt": "Dia da Força Aérea Peruana — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 23
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Peruvian Air Force Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":23} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Peruvian Air Force Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-independence-day",
+      "country": "PE",
+      "canonicalTitleEn": "Independence Day — Peru",
+      "localizedTitles": {
+        "en": "Independence Day — Peru",
+        "it": "Giornata dell'indipendenza — Perù",
+        "es": "Día de la Independencia — Perú",
+        "fr": "Fête de l’Indépendance — Pérou",
+        "de": "Unabhängigkeitstag — Peru",
+        "pt": "Dia da Independência — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 28
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Independence Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":7,\"day\":28} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Independence Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-battle-of-junin-day",
+      "country": "PE",
+      "canonicalTitleEn": "Battle of Junín Day — Peru",
+      "localizedTitles": {
+        "en": "Battle of Junín Day — Peru",
+        "it": "Giornata della battaglia di Junín — Perù",
+        "es": "Día de la Batalla de Junín — Perú",
+        "fr": "Journée de la bataille de Junín — Pérou",
+        "de": "Tag der Schlacht von Junín — Peru",
+        "pt": "Dia da Batalha de Junín — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 6
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Battle of Junín Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":6} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Battle of Junín Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-santa-rosa-de-lima-day",
+      "country": "PE",
+      "canonicalTitleEn": "Saint Rose of Lima Day — Peru",
+      "localizedTitles": {
+        "en": "Saint Rose of Lima Day — Peru",
+        "it": "Giornata di santa Rosa da Lima — Perù",
+        "es": "Día de Santa Rosa de Lima — Perú",
+        "fr": "Journée de sainte Rose de Lima — Pérou",
+        "de": "Tag der heiligen Rosa von Lima — Peru",
+        "pt": "Dia de Santa Rosa de Lima — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 30
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Saint Rose of Lima Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":8,\"day\":30} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Saint Rose of Lima Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-battle-of-angamos-day",
+      "country": "PE",
+      "canonicalTitleEn": "Battle of Angamos Day — Peru",
+      "localizedTitles": {
+        "en": "Battle of Angamos Day — Peru",
+        "it": "Giornata della battaglia di Angamos — Perù",
+        "es": "Día del Combate de Angamos — Perú",
+        "fr": "Journée du combat d’Angamos — Pérou",
+        "de": "Tag des Gefechts von Angamos — Peru",
+        "pt": "Dia da Batalha de Angamos — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 8
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Battle of Angamos Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":10,\"day\":8} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Battle of Angamos Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    },
+    {
+      "id": "pe-battle-of-ayacucho-day",
+      "country": "PE",
+      "canonicalTitleEn": "Battle of Ayacucho Day — Peru",
+      "localizedTitles": {
+        "en": "Battle of Ayacucho Day — Peru",
+        "it": "Giornata della battaglia di Ayacucho — Perù",
+        "es": "Día de la Batalla de Ayacucho — Perú",
+        "fr": "Journée de la bataille d’Ayacucho — Pérou",
+        "de": "Tag der Schlacht von Ayacucho — Peru",
+        "pt": "Dia da Batalha de Ayacucho — Peru"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 9
+        }
+      ],
+      "source": "https://www.gob.pe/feriados",
+      "authority": "Government of Peru",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "historicalYear": null,
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "researchSummary": "The published Government of Peru calendar lists Battle of Ayacucho Day on its annual anniversary or rule. World Days stores {\"kind\":\"FIXED_DATE\",\"month\":12,\"day\":9} as the commemorative occurrence, rather than inventing a new observance for a substitute working day.",
+      "dateRationale": "The date for Battle of Ayacucho Day is attested by the cited country-level institutional authority. A national observance is not necessarily an annual day off for all workers, and the holiday law may have separate conditions."
+    }
+  ]
+}
