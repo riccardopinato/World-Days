@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-09",
+  "baseCatalogCount": 456,
+  "kind": "CROSS_COUNTRY_PREFIX_SUFFIX_AND_DATE",
+  "outcome": "RESEARCH_DUPLICATE_DO_NOT_ADMIT",
+  "reviewedCount": 4,
+  "records": [
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Freedom Day",
+      "country": "ZA",
+      "existingId": "za-freedom-day",
+      "canonicalTitle": "Freedom Day — South Africa",
+      "occurrence2026": "2026-04-27",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Youth Day",
+      "country": "ZA",
+      "existingId": "za-youth-day",
+      "canonicalTitle": "Youth Day — South Africa",
+      "occurrence2026": "2026-06-16",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa National Women's Day",
+      "country": "ZA",
+      "existingId": "za-national-womens-day",
+      "canonicalTitle": "National Women's Day — South Africa",
+      "occurrence2026": "2026-08-09",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Heritage Day",
+      "country": "ZA",
+      "existingId": "za-heritage-day",
+      "canonicalTitle": "Heritage Day — South Africa",
+      "occurrence2026": "2026-09-24",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    }
+  ]
+}
