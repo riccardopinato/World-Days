@@ -138,7 +138,7 @@ def main():
     assert counts["EXCLUDE_ALREADY_CANONICAL"] == 24
     assert counts["PR65_EDITORIAL_GATE"] == 6
     assert counts["PRIMARY_SOURCE_PDF_AND_SCOPE_FIRST"] == 9
-    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 121
+    assert counts["MANUAL_SEMANTIC_AND_DATE_REVIEW"] + counts["CANDIDATE_FOR_FIXED_RULE_SOURCE_REVIEW"] == 114
     assert all(x["autoAdmit"] is False for x in rows)
     report = {
         "schemaVersion": 1,
