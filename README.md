@@ -1,3 +1,10 @@
+## Wave07 — Three national civic holidays of India (stacked)
+
+[Wave07 government-source dossier](docs/CATALOG_WAVE07_INDIA_2026-11-09.md): metadata-only three Indian fixed-date civic identities (Republic Day, Independence Day and Gandhi Jayanti) add three records on top of Wave06, proposing **472 unique** (285 global + 187 national), India 2→5. Parent PR #65 and stacked PR #66 must merge first, and qualified native-language/editorial approval remains pending. No live app release, APK, Play, or public Web deployment.
+
+
+---
+
 ## Wave06 — seven further Japanese statutory holidays, stacked on Wave05 (9 November 2026)
 
 [Wave06 source and test dossier](docs/CATALOG_WAVE06_JAPAN_SEVEN_2026-11-09.md). Independent stacked source PR adds seven Japanese holidays beyond PR #65 (**462 → 469**, 285 global and 184 national), with legal recurrent dates, original Cabinet Office authority, six offline language titles and structured test gates. Japanese country layer rises from six to 13; all 28 country selectors remain available. 2028 dates are computed from Article 2 law, not incorrectly described as an already published 2028 public holiday calendar.
