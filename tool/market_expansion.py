@@ -6,6 +6,7 @@ The six localized titles live in the same reviewed source payload.
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
+from market_wave04 import load_wave04
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -181,7 +182,13 @@ def load_wave03():
 
 
 def all_expansion_rows():
-    return [*load_expansion()["records"], *load_wave02()["records"], *load_wave03()["records"]]
+    prior = [*load_expansion()["records"], *load_wave02()["records"], *load_wave03()["records"]]
+    next_wave = load_wave04()
+    ids = {item["id"] for item in prior}
+    titles = {item["canonicalTitleEn"] for item in prior}
+    assert all(item["id"] not in ids for item in next_wave), "cross-wave duplicate ID"
+    assert all(item["canonicalTitleEn"] not in titles for item in next_wave), "cross-wave title collision"
+    return [*prior, *next_wave]
 
 
 def expanded_title_map():
@@ -209,13 +216,13 @@ def build_expansion_records():
             "regions": [],
             "authority": {
                 "name": item["authority"],
-                "type": "GOVERNMENT",
-                "officiality": "OFFICIAL_INSTITUTIONAL",
+                "type": item.get("authorityType", "GOVERNMENT"),
+                "officiality": item.get("officiality", "OFFICIAL_INSTITUTIONAL"),
                 "resolution": item["resolution"],
             },
             "categories": [item["subject"], "CIVIC"],
             "sources": [
-                {"tier": "A_PRIMARY", "url": url, "verifiedAt": item["sourceReviewedOn"]}
+                {"tier": item.get("sourceTier", "A_PRIMARY"), "url": url, "verifiedAt": item["sourceReviewedOn"]}
                 for url in [item["source"], *item.get("additionalSources", [])]
             ],
             "visualKey": "people",
