@@ -19,6 +19,7 @@ AUDIT = ROOT / "reports/research_semantic_audit.json"
 DECISIONS = RESEARCH / "semantic_overlap_decisions_20261109.json"
 EVIDENCE = RESEARCH / "primary_2026_calendar_verified_20261109.json"
 STAGED_CA = RESEARCH / "staged_pr67_canada_20_20261109.json"
+STAGED_CIVIC68 = RESEARCH / "staged_pr68_civic_12_20261110.json"
 EXTRA_DUPLICATES = RESEARCH / "semantic_additional_country_date_duplicates_20261109.json"
 LOCALES = {"en","it","es","fr","de","pt"}
 
@@ -30,6 +31,8 @@ def main():
     d = json.loads(DECISIONS.read_text(encoding="utf-8"))
     e = json.loads(EVIDENCE.read_text(encoding="utf-8"))
     staged_ca = json.loads(STAGED_CA.read_text(encoding="utf-8"))
+    staged_68 = json.loads(STAGED_CIVIC68.read_text(encoding="utf-8"))
+    assert staged_68["recordCount"] == len(staged_68["items"]) == 12
     assert staged_ca["recordCount"] == len(staged_ca["items"]) == 20
     x = json.loads(EXTRA_DUPLICATES.read_text(encoding="utf-8"))
     assert a["catalogCount"] == d["catalogBaseCount"] == 456
@@ -71,6 +74,8 @@ def main():
     assert not (canadian_stage & pr67)
     pr67.update(canadian_stage)
     assert len(pr67) == 36
+    pr68 = {key(x["candidateFile"],x["candidateTitle"]) for x in staged_68["items"]}
+    assert len(pr68)==12 and not (pr68 & pr67)
     duplicate_decisions = {k for k,v in decisions.items() if v["decision"] == "SAME_EXISTING_OBSERVANCE"}
     assert not (pr67 & duplicate_decisions)
     # UNESCO Islamic Art and Japan Children's Day can appear in the 20
@@ -85,6 +90,9 @@ def main():
     assert set(decisions)<=set(source_rows)
     assert set(evidence)<=set(source_rows)
     assert pr67<=set(source_rows)
+    assert pr68<=set(source_rows)
+    assert not (pr68 & duplicate_decisions)
+    assert not (pr68 & set(extra))
     assert set(extra)<=set(source_rows)
     assert set(extra)<=set(evidence)
     rows=[]
@@ -96,6 +104,9 @@ def main():
         elif k in pr67:
             status="IN_UNMERGED_CONTENT_PR_67"
             note="36 staged metadata IDs in PR #67 targeting main, but unmerged and qualified human/editorial approval outstanding."
+        elif k in pr68:
+            status="IN_UNMERGED_CONTENT_PR_68"
+            note="12 additional fixed civic entries in unmerged PR #68, pending source/editorial approval."
         elif k in evidence:
             status="PRIMARY_CALENDAR_2026_DATE_CONFIRMED"
             note="2026 occurrence/source certified only; annual recurrence, semantic uniqueness and six-locale editorial blocked."
@@ -135,7 +146,8 @@ def main():
     assert counts=={
       "ALREADY_IN_MAIN_456":24,
       "IN_UNMERGED_CONTENT_PR_67":36,
-      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":84,
+      "IN_UNMERGED_CONTENT_PR_68":12,
+      "PRIMARY_CALENDAR_2026_DATE_CONFIRMED":72,
       "PENDING_PRIMARY_SOURCE_IDENTITY_AND_RECURRENCE":9,
     },counts
     assert sum(counts.values())==153
@@ -147,6 +159,8 @@ def main():
       "catalogAfterConsolidatedPR67IfMerged":492,
       "remainingAfterPR65IfMerged":538,
       "remainingAfterConsolidatedPR67IfMerged":508,
+      "catalogAfterPR67AndPR68IfBothMerged":504,
+      "remainingAfterPR67AndPR68IfBothMerged":496,
       "researchRecords":len(rows),
       "statuses":dict(sorted(counts.items())),
       "notYetVerifiedUnique":len(rows)-counts["ALREADY_IN_MAIN_456"],
