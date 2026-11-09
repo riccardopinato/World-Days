@@ -1185,12 +1185,15 @@
       "source": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "authority": "United States Federal Government",
       "resolution": null,
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
+      "proposedIntroducedYear": 2021,
+      "introducedYearSource": "https://www.archives.gov/news/topics/juneteenth",
       "aliases": [],
       "subject": "CIVIC_HISTORY",
       "sourceReviewedOn": "2026-11-09",
-      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "additionalSources": [
+        "https://www.archives.gov/news/topics/juneteenth"
+      ]
     },
     {
       "id": "us-labor-day",
