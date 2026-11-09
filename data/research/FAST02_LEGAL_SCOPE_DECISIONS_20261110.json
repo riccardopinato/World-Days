@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-10",
+  "status": "HUMAN_OR_AUTHORITY_REVIEW_REQUIRED",
+  "recordCount": 10,
+  "records": [
+    {
+      "title": "July Mass Uprising Day (Bangladesh)",
+      "country": "BD",
+      "date2026": "2026-08-05",
+      "source": "https://www.bb.org.bd/en/index.php/mediaroom/holiday",
+      "risk": "RECENT_LEGAL_DESIGNATION",
+      "required": "Verify statutory 2027 continuity, not solely 2026 bank closure."
+    },
+    {
+      "title": "National Day of Observance for COVID-19",
+      "country": "CA",
+      "date2026": "2026-03-11",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "risk": "CONTINUING_DESIGNATION",
+      "required": "Check permanent observance versus time-limited commemorative policy."
+    },
+    {
+      "title": "Rabindranath Tagore Jayanti",
+      "country": "IN",
+      "date2026": "2026-05-09",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "risk": "RESTRICTED_NOT_ALL_INDIA_COMPULSORY",
+      "required": "Classify restricted/optional and cultural regional scope; do not mark nationwide compulsory leave."
+    },
+    {
+      "title": "Lao Women's Union Founding Day",
+      "country": "LA",
+      "date2026": "2026-07-20",
+      "source": "https://laoevisa.gov.la/info",
+      "risk": "OFFICIAL_NAMING_AND_GENDER_SPECIFIC_ENTITLEMENT",
+      "required": "Check official Lao Women's Union Day name and entitlement, founding-year history separately."
+    },
+    {
+      "title": "Immaculate Conception Day (Philippines)",
+      "country": "PH",
+      "date2026": "2026-12-08",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "risk": "SHARED_WORLD_RELIGIOUS_IDENTITY",
+      "required": "Prove national statutory identity separate from shared Catholic commemoration; special non-working classification."
+    },
+    {
+      "title": "King Norodom Sihamoni's Birthday",
+      "country": "KH",
+      "date2026": "2026-05-14",
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "risk": "MONARCH_DEPENDENT",
+      "required": "Recheck status and date after succession, do not encode immutable legal status."
+    },
+    {
+      "title": "Queen Mother Norodom Monineath Sihanouk's Birthday",
+      "country": "KH",
+      "date2026": "2026-06-18",
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "risk": "MONARCH_DEPENDENT",
+      "required": "Separate source verified 2026 date from future state-dependent designation."
+    },
+    {
+      "title": "King Norodom Sihamoni Coronation Day",
+      "country": "KH",
+      "date2026": "2026-10-29",
+      "source": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+      "risk": "MONARCH_DEPENDENT",
+      "required": "Check whether anniversary remains a statutory holiday following change of reign."
+    },
+    {
+      "title": "Peace Day in Cambodia",
+      "country": "KH",
+      "date2026": "2026-12-29",
+      "source": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+      "risk": "RECENT_DESIGNATION",
+      "required": "Verify origin/history and continued 2027 public holiday before asserting annual designation."
+    },
+    {
+      "title": "National Day (Vietnam)",
+      "country": "VN",
+      "date2026": "2026-09-02",
+      "source": "https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm",
+      "risk": "MULTIDAY_LEAVE_VERSUS_EVENT_IDENTITY",
+      "required": "Treat September 2 as national holiday identity; additional days off must not produce duplicate observances."
+    }
+  ]
+}
