@@ -37,7 +37,8 @@ void main() {
     expect(find.text('All · 307'), findsOneWidget);
     expect(find.text('National · 25'), findsOneWidget);
     expect(find.text('Global · 282'), findsOneWidget);
-    expect(find.byType(SliverList), findsNWidgets(2));
+    // The second sliver is below the viewport and should not be mounted yet.
+    expect(find.byType(SliverList), findsOneWidget);
     expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
     expect(tester.takeException(), isNull);
 
