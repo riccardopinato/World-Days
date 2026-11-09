@@ -1,3 +1,11 @@
+## Wave05 candidate content integration — UNESCO + Japan, 9 November 2026
+
+**Branch-scoped implementation, not a published release:** [source-bound Wave05](docs/CATALOG_WAVE05_UNESCO_JAPAN_2026-11-09.md) proposes 3 distinct UNESCO global observances and 3 Japan-only national holidays, taking the generated catalog from **456 to 462** after source CI passes. Japan remains an existing selectable market; no country expansion and no duplicate world-national records. Source identities, years of formal introduction (when evidenced), six-locale metadata and 2026–2028 date vectors are recorded. **Human-reviewed long-form stories remain at 56**; six new STUB entries do not assert editorial approval. Existing Wave05–10 research in Draft PR #64 is independent and untouched.
+
+**Next five content maxi-steps:** (1) run exact-head generator, six-locale, recurrence, Flutter analyze/test and Web build gates on Wave05 branch; (2) resolve source, translation and editorial review notes without changing 456 legacy IDs; (3) merge only when branch/check/review gates allow and then verify main output and Web Preview separately; (4) screen the remaining 136 research records for semantic and calendar-rule issues in batches; (5) open the next tightly scoped, primary-source admission PR after dedupe. **APK, signing, physical Android and Google Play remain suspended.**
+
+---
+
 # World Days — Active roadmap
 
 ## Content-first Wave04 — 83 sourced days / 15 new markets (9 November 2026)
