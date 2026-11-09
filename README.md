@@ -1,3 +1,39 @@
+## Lotto unico Wave05–08: 36 nuove ricorrenze, proposta 492 (9 novembre 2026)
+
+La PR #67 verso `main` incorpora ora 3 UNESCO, 10 Giappone, 3 India e **20 commemorazioni canadesi** in un solo ciclo CI/revisione. Totale proposto **492** (285 globali, 207 nazionali), Canada **5→25** e gli stessi 28 Paesi. Origine canonica delle 20 nuove date: [calendario Canadian Heritage e fonti legislative](docs/CATALOG_WAVE08_CANADA_20_20261109.md). È una verifica dei **metadati e della data fissa**; 36 titoli nelle sei lingue necessitano ancora revisione editoriale e le nuove storie lunghe restano STUB. Main rimane a 456 fino a merge autorizzato. Nessun APK, Play o deploy produzione.
+
+---
+
+## Consolidamento Wave05–07 — 16 nuove ricorrenze in una sola PR verso main (9 novembre 2026)
+
+Le Wave05, Wave06 e Wave07 sono consolidate in **un solo lotto di review verso main**: il catalogo di questo branch è **472 (285 GLOBAL + 187 NATIONAL)** contro **456 su main**. Le precedenti indicazioni 'stacked PR #65/#66' descrivono il precedente processo di sviluppo e NON il nuovo gate di merge. Una sola revisione editoriale e una sola CI exact-head verificano le 16 giornate; nessuna lingua è autoapprovata. Dettaglio: [dossier di review consolidata](docs/CATALOG_WAVE05_07_CONSOLIDATED_REVIEW_20261109.md). Nessun deploy APK/Play o produzione.
+
+---
+
+## Wave07 — Three national civic holidays of India (stacked)
+
+[Wave07 government-source dossier](docs/CATALOG_WAVE07_INDIA_2026-11-09.md): metadata-only three Indian fixed-date civic identities (Republic Day, Independence Day and Gandhi Jayanti) add three records on top of Wave06, proposing **472 unique** (285 global + 187 national), India 2→5. Parent PR #65 and stacked PR #66 must merge first, and qualified native-language/editorial approval remains pending. No live app release, APK, Play, or public Web deployment.
+
+
+---
+
+## Wave06 — seven further Japanese statutory holidays, stacked on Wave05 (9 November 2026)
+
+[Wave06 source and test dossier](docs/CATALOG_WAVE06_JAPAN_SEVEN_2026-11-09.md). Independent stacked source PR adds seven Japanese holidays beyond PR #65 (**462 → 469**, 285 global and 184 national), with legal recurrent dates, original Cabinet Office authority, six offline language titles and structured test gates. Japanese country layer rises from six to 13; all 28 country selectors remain available. 2028 dates are computed from Article 2 law, not incorrectly described as an already published 2028 public holiday calendar.
+
+**Neither PR #65 nor its dependent Wave06 is merged or released on main; main remains 456.** Editorial/native-speaker approval for the newly displayed titles and full narratives is pending, and all seven are STUBs. Keep APK, signing, Play and production deploy suspended.
+
+
+---
+
+## Wave05 candidate integration — UNESCO + Japan (9 November 2026)
+
+This source branch proposes a **metadata-only** additive catalog change: **456 → 462 distinct observances** (**285 GLOBAL + 177 NATIONAL**, unchanged 28 country choices). Six entries are backed by original UNESCO/Japan government sources with full EN/IT/ES/FR/DE/PT display titles and 2026–2028 recurrence checks. All original 456 IDs are retained; **56 rich stories remain reviewed**, new entries are `STUB`, and qualified native-language/editorial approval is still required for full stories. **Main remains 456 until an independently checked merge**; nothing has been deployed to production. APK, Android signing and Google Play remain suspended.
+
+[Wave05 provenance, expected totals and gates](docs/CATALOG_WAVE05_UNESCO_JAPAN_2026-11-09.md).
+
+---
+
 # World Days
 
 ## Content-first Wave04 — 456 distinct observances, 28 countries (9 November 2026)

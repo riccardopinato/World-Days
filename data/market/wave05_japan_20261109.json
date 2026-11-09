@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave05-japan-2026-11-09",
+  "sourceReviewDate": "2026-11-09",
+  "reviewStatus": "SOURCE_VERIFIED_METADATA_ONLY_HUMAN_EDITORIAL_NOT_APPROVED",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 3,
+  "countryCounts": {
+    "JP": 3
+  },
+  "records": [
+    {
+      "id": "japan-coming-of-age-day",
+      "country": "JP",
+      "canonicalTitleEn": "Coming of Age Day — Japan",
+      "localizedTitles": {
+        "en": "Coming of Age Day — Japan",
+        "it": "Giornata della maggiore età — Giappone",
+        "es": "Día de la Mayoría de Edad — Japón",
+        "fr": "Journée de la majorité — Japon",
+        "de": "Tag der Volljährigkeit — Japan",
+        "pt": "Dia da Maioridade — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 1,
+          "weekday": 1,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PEOPLE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": 1948,
+      "introducedYearSource": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Japan's national holiday law created Coming of Age Day in 1948. The Cabinet Office now specifies the second Monday of January; this is the commemorative holiday rather than a weekday substitute. The legal date rule, not 2026's isolated date, is persisted.",
+      "dateRationale": "The Cabinet Office's National Holidays Act and 2026–2027 calendar identify the second Monday in January. Computed dates: 2026-01-12, 2027-01-11, 2028-01-10.",
+      "researchSummary": "Coming of Age Day celebrates young people entering adulthood and their responsibility in Japanese society. The official Cabinet Office provides the holiday's legal history and its rule; no full human-reviewed historical article has yet been approved."
+    },
+    {
+      "id": "japan-emperors-birthday",
+      "country": "JP",
+      "canonicalTitleEn": "Emperor's Birthday — Japan",
+      "localizedTitles": {
+        "en": "Emperor's Birthday — Japan",
+        "it": "Compleanno dell'imperatore — Giappone",
+        "es": "Cumpleaños del emperador — Japón",
+        "fr": "Anniversaire de l'empereur — Japon",
+        "de": "Geburtstag des Kaisers — Japan",
+        "pt": "Aniversário do imperador — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 23
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "COMMUNITY",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Japan's national holiday for the reigning emperor's birthday has existed since the National Holidays Act. Its date has changed with imperial succession; 23 February is explicitly the date under the current legal calendar. We do not imply the fixed day survives future successions.",
+      "dateRationale": "The Japanese Cabinet Office official 2026 and 2027 holiday calendars and law currently identify 23 February. A future imperial succession would require reassessment rather than blindly retaining the date.",
+      "researchSummary": "The Emperor's Birthday is a Japanese national holiday marking the reigning emperor's birthday. The official national-holidays law names 23 February for the present reign; historical year is intentionally unknown for this specific current-date identity."
+    },
+    {
+      "id": "japan-showa-day",
+      "country": "JP",
+      "canonicalTitleEn": "Showa Day — Japan",
+      "localizedTitles": {
+        "en": "Showa Day — Japan",
+        "it": "Giornata Shōwa — Giappone",
+        "es": "Día de Shōwa — Japón",
+        "fr": "Jour de Shōwa — Japon",
+        "de": "Shōwa-Tag — Japan",
+        "pt": "Dia de Shōwa — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 29
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": 2007,
+      "introducedYearSource": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Shōwa Day as such was introduced as a national holiday in 2007, following the 2005 amendment to Japan's National Holidays Act. The same calendar date served other holidays under previous names, so 2007 is not misrepresented as the first commemoration of 29 April.",
+      "dateRationale": "The Cabinet Office's National Holidays Act and explanation both specify 29 April. It is the actual annual anniversary, not a substitute weekday or 2026-specific office closure.",
+      "researchSummary": "Shōwa Day invites reflection on Japan's twentieth-century Shōwa era and its transformation from upheaval to reconstruction. The Cabinet Office confirms the holiday's 2007 adoption; a longer editorial story still requires separate review."
+    }
+  ]
+}

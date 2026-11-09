@@ -7,6 +7,10 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 from market_wave04 import load_wave04
+from market_wave05 import load_wave05_japan
+from market_wave06 import load_wave06_japan
+from market_wave07 import load_wave07_india
+from market_wave08 import load_wave08_canada
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -183,9 +187,13 @@ def load_wave03():
 
 def all_expansion_rows():
     prior = [*load_expansion()["records"], *load_wave02()["records"], *load_wave03()["records"]]
-    next_wave = load_wave04()
+    next_wave = [*load_wave04(), *load_wave05_japan(), *load_wave06_japan(), *load_wave07_india(), *load_wave08_canada()]
     ids = {item["id"] for item in prior}
     titles = {item["canonicalTitleEn"] for item in prior}
+    new_ids = [item["id"] for item in next_wave]
+    new_titles = [item["canonicalTitleEn"] for item in next_wave]
+    assert len(new_ids) == len(set(new_ids)), "cross-wave new duplicate ID"
+    assert len(new_titles) == len(set(new_titles)), "cross-wave new duplicate title"
     assert all(item["id"] not in ids for item in next_wave), "cross-wave duplicate ID"
     assert all(item["canonicalTitleEn"] not in titles for item in next_wave), "cross-wave title collision"
     return [*prior, *next_wave]

@@ -3,6 +3,10 @@ import json
 from pathlib import Path
 from market_expansion import load_expansion, load_wave02, load_wave03
 from market_wave04 import load_wave04
+from market_wave05 import load_wave05_japan
+from market_wave06 import load_wave06_japan
+from market_wave07 import load_wave07_india
+from market_wave08 import load_wave08_canada
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -55,7 +59,15 @@ wave03 = load_wave03()
 expected_market.update({row['id']: row['country'] for row in wave03['records']})
 wave04 = load_wave04()
 expected_market.update({row['id']: row['country'] for row in wave04})
-assert len(ids) == len(records) == 456, ('catalog growth total', len(records))
+wave05_japan = load_wave05_japan()
+expected_market.update({row['id']: row['country'] for row in wave05_japan})
+wave06_japan=load_wave06_japan()
+expected_market.update({row['id']: row['country'] for row in wave06_japan})
+wave07_india=load_wave07_india()
+expected_market.update({row['id']: row['country'] for row in wave07_india})
+wave08_canada=load_wave08_canada()
+expected_market.update({row['id']:row['country'] for row in wave08_canada})
+assert len(ids) == len(records) == 492, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -188,6 +200,22 @@ market_vectors = {
     'japan-national-foundation-day': ['2026-02-11'],
     'japan-constitution-memorial-day': ['2026-05-03'],
     'japan-culture-day': ['2026-11-03'],
+    'japan-coming-of-age-day': ['2026-01-12'],
+    'japan-emperors-birthday': ['2026-02-23'],
+    'japan-showa-day': ['2026-04-29'],
+    'japan-greenery-day': ['2026-05-04'],
+    'japan-childrens-day': ['2026-05-05'],
+    'japan-marine-day': ['2026-07-20'],
+    'japan-mountain-day': ['2026-08-11'],
+    'japan-respect-for-the-aged-day': ['2026-09-21'],
+    'japan-sports-day': ['2026-10-12'],
+    'japan-labor-thanksgiving-day': ['2026-11-23'],
+    'india-republic-day': ['2026-01-26'],
+    'india-independence-day': ['2026-08-15'],
+    'india-gandhi-jayanti': ['2026-10-02'],
+    'world-day-of-romani-language': ['2026-11-05'],
+    'international-day-against-illicit-trafficking-in-cultural-property': ['2026-11-14'],
+    'international-day-of-islamic-art': ['2026-11-18'],
     'cz-independent-state-restoration': ['2026-01-01'],
     'cz-czechoslovak-independence-day': ['2026-10-28'],
     'sk-national-uprising-day': ['2026-08-29'],

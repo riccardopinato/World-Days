@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave06-japan-2026-11-09",
+  "sourceReviewDate": "2026-11-09",
+  "reviewStatus": "SOURCE_VERIFIED_METADATA_ONLY_HUMAN_EDITORIAL_NOT_APPROVED",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 7,
+  "countryCounts": {
+    "JP": 7
+  },
+  "dependency": "Content Wave05 PR #65 must merge first; preserve all 462 baseline IDs",
+  "records": [
+    {
+      "id": "japan-greenery-day",
+      "country": "JP",
+      "canonicalTitleEn": "Greenery Day — Japan",
+      "localizedTitles": {
+        "en": "Greenery Day — Japan",
+        "it": "Giornata del verde — Giappone",
+        "es": "Día de la Naturaleza — Japón",
+        "fr": "Journée de la verdure — Japon",
+        "de": "Tag des Grüns — Japan",
+        "pt": "Dia da Natureza — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 4
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "CULTURE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Greenery Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is fixed on 5/4; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Greenery Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-childrens-day",
+      "country": "JP",
+      "canonicalTitleEn": "Children's Day — Japan",
+      "localizedTitles": {
+        "en": "Children's Day — Japan",
+        "it": "Festa dei bambini — Giappone",
+        "es": "Día del Niño — Japón",
+        "fr": "Fête des enfants — Japon",
+        "de": "Kindertag — Japan",
+        "pt": "Dia das Crianças — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PEOPLE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Children's Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is fixed on 5/5; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Children's Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-marine-day",
+      "country": "JP",
+      "canonicalTitleEn": "Marine Day — Japan",
+      "localizedTitles": {
+        "en": "Marine Day — Japan",
+        "it": "Giornata del mare — Giappone",
+        "es": "Día del Mar — Japón",
+        "fr": "Journée de la mer — Japon",
+        "de": "Tag des Meeres — Japan",
+        "pt": "Dia do Mar — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 7,
+          "weekday": 1,
+          "occurrence": 3
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PLANET",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Marine Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is the third Monday of month 7; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Marine Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-mountain-day",
+      "country": "JP",
+      "canonicalTitleEn": "Mountain Day — Japan",
+      "localizedTitles": {
+        "en": "Mountain Day — Japan",
+        "it": "Giornata della montagna — Giappone",
+        "es": "Día de la Montaña — Japón",
+        "fr": "Journée de la montagne — Japon",
+        "de": "Tag des Berges — Japan",
+        "pt": "Dia da Montanha — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 11
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PLANET",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Mountain Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is fixed on 8/11; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Mountain Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-respect-for-the-aged-day",
+      "country": "JP",
+      "canonicalTitleEn": "Respect for the Aged Day — Japan",
+      "localizedTitles": {
+        "en": "Respect for the Aged Day — Japan",
+        "it": "Giornata del rispetto degli anziani — Giappone",
+        "es": "Día de Respeto a las Personas Mayores — Japón",
+        "fr": "Journée du respect des personnes âgées — Japon",
+        "de": "Tag der Ehrung älterer Menschen — Japan",
+        "pt": "Dia do Respeito aos Idosos — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 9,
+          "weekday": 1,
+          "occurrence": 3
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PEOPLE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Respect for the Aged Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is the third Monday of month 9; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Respect for the Aged Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-sports-day",
+      "country": "JP",
+      "canonicalTitleEn": "Sports Day — Japan",
+      "localizedTitles": {
+        "en": "Sports Day — Japan",
+        "it": "Giornata dello sport — Giappone",
+        "es": "Día del Deporte — Japón",
+        "fr": "Journée du sport — Japon",
+        "de": "Tag des Sports — Japan",
+        "pt": "Dia do Desporto — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 1,
+          "occurrence": 2
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "HEALTH",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Sports Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is the second Monday of month 10; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Sports Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    },
+    {
+      "id": "japan-labor-thanksgiving-day",
+      "country": "JP",
+      "canonicalTitleEn": "Labor Thanksgiving Day — Japan",
+      "localizedTitles": {
+        "en": "Labor Thanksgiving Day — Japan",
+        "it": "Giornata del ringraziamento per il lavoro — Giappone",
+        "es": "Día de Agradecimiento por el Trabajo — Japón",
+        "fr": "Journée de reconnaissance du travail — Japon",
+        "de": "Tag des Dankes für die Arbeit — Japan",
+        "pt": "Dia de Agradecimento pelo Trabalho — Japão"
+      },
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 23
+        }
+      ],
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "additionalSources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "authority": "Cabinet Office, Government of Japan",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "sourceTier": "A_PRIMARY",
+      "category": "CIVIC_HISTORY",
+      "subject": "PEOPLE",
+      "designation": "NATIONAL_CIVIC_OR_STATUTORY_OBSERVANCE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "sourceReviewedOn": "2026-11-09",
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY",
+      "chronologyNote": "Labor Thanksgiving Day — Japan is an independently named statutory national observance in Article 2 of the Japanese National Holidays Act. Its purpose and annual recurrence are published by the Cabinet Office. Legal founding year is left unknown pending a source-specific historical amendment check.",
+      "dateRationale": "The Cabinet Office's 2026 and 2027 tables and Article 2 identify the actual named holiday, not a substitution closure. The annual rule is fixed on 11/23; 2028 is computed from that law, subject to later legal change.",
+      "researchSummary": "Labor Thanksgiving Day — Japan is a distinct Japanese public holiday, with its subject defined by the National Holidays Act and official dates on the Cabinet Office calendar. No rich editorial story has been qualified for publication, and this is not a duplicated global observance automatically assigned to Japan."
+    }
+  ]
+}

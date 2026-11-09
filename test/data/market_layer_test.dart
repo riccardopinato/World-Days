@@ -23,12 +23,12 @@ void main() {
       'PT': 9,
       'GB': 8,
       'US': 9,
-      'CA': 5,
+      'CA': 25,
       'AU': 3,
       'BR': 3,
       'MX': 3,
-      'IN': 2,
-      'JP': 3,
+      'IN': 5,
+      'JP': 13,
       'CZ': 7,
       'SK': 6,
       'NO': 5,
@@ -65,7 +65,7 @@ void main() {
   test('each country also has the shared global layer without false national authority', () async {
     final controller = await _controller();
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
-    expect(global, hasLength(282));
+    expect(global, hasLength(285));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
     for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE']) {
       final national = controller.recordsForMarket(country);
@@ -74,7 +74,7 @@ void main() {
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 456);
+    expect(controller.catalog!.records.length, 492);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });
