@@ -55,6 +55,7 @@ class _AroundTheWorldPageState extends State<AroundTheWorldPage> {
                   Text(l10n.aroundTheWorldDescription),
                   const SizedBox(height: 18),
                   DropdownButtonFormField<String?>(
+                    isExpanded: true,
                     initialValue: marketCode,
                     decoration: InputDecoration(
                       labelText: l10n.market,
@@ -69,6 +70,8 @@ class _AroundTheWorldPageState extends State<AroundTheWorldPage> {
                           value: option.code,
                           child: Text(
                             '${option.emoji}  ${marketLabel(l10n, option.code)}',
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                     ],
