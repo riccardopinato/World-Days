@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+## Institutional Wave05 — 7 global records (10 November 2026; source PR)
+
+- [x] Document official UNESCO and WHO observances and detect the World TB Day alias without duplicating it.
+- [x] Propose seven canonical source-backed entries with fixed-date rules, six display-title locales and five evidence-backed founding years; preserve two unknown years.
+- [x] Add dedicated source/date/no-rich-editorial regression and development-workflow check.
+- [ ] Pass exact-commit CI and Flutter/Web checks; review missing user-facing provenance and no duplicate identities.
+- [ ] Review translations with qualified locale checks and keep original long-form narratives unapproved until reviewed.
+- [ ] Merge through guarded PR, verify generated catalog revision `2026.11.10.1` on main, and then validate Web Preview content delivery.
+- [ ] Continue 30–50 record institutional batches with independent author/date/recurrence/ID review; do not conflate batch candidates with published records.
+
+**Proposed catalog after merge:** 463 unique (289 global + 174 national). Rich Editorial remains **56 reviewed**. No APK, Android signing, billing, Play or production rollout in this task.
+
+
 ## Content-first Wave04 — 83 sourced days / 15 new markets (9 November 2026)
 
 [Source-level catalog, 83 individual records and provenance](docs/CATALOG_WAVE04_15_COUNTRIES_2026-11-09.md). Approved content-first implementation **adds 83 unique national/civic and institutionally recognized events**, making **456 unique observances (282 GLOBAL, 174 NATIONAL) across 28 country choices**. Retains all 373 canonical IDs and original colors/UX; published content revision `2026.11.09.4` after exact-source CI. New annual rules include last Monday of August (Philippines), last Saturday in August (Finnish Nature Day), fourth Monday in October (New Zealand Labour Day), along with statutorily fixed commemorations. The cultural St Brigid date remains 1 February, distinct from Ireland's conditional Monday employment holiday.
