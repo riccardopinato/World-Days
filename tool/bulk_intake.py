@@ -17,7 +17,10 @@ def day(rule,year):
     if kind=="FIXED_DATE":return date(year,m,rule["day"]).isoformat()
     if kind=="NTH_WEEKDAY":
         d=date(year,m,1)
-        return (d+timedelta(days=(rule["weekday"]-d.isoweekday())%7+7*(rule["occurrence"]-1))).isoformat()
+        assert 1<=rule["weekday"]<=7 and 1<=rule["occurrence"]<=5
+        result=d+timedelta(days=(rule["weekday"]-d.isoweekday())%7+7*(rule["occurrence"]-1))
+        assert result.month==m,"fifth weekday does not exist"
+        return result.isoformat()
     if kind=="LAST_WEEKDAY":
         d=(date(year+1,1,1) if m==12 else date(year,m+1,1))-timedelta(days=1)
         while d.isoweekday()!=rule["weekday"]:d-=timedelta(days=1)
@@ -26,14 +29,27 @@ def day(rule,year):
 def inspect(batch,canonical,market_codes):
     existing_ids={r["id"] for r in canonical}
     existing_names={normalized(s) for r in canonical for s in [r["canonicalTitleEn"],*r.get("aliases",[])] if s}
-    seen=set();rows=[]
+    seen=set();seen_names=set();rows=[]
+    primary_hosts={urlsplit(s["url"]).hostname for r in canonical for s in r.get("sources",[]) if s.get("tier")=="A_PRIMARY"}
     for r in batch["records"]:
         issues=[];rid=r.get("id","");title=r.get("canonicalTitleEn","")
         if not rid or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*",rid):issues.append("BAD_ID")
         if rid in existing_ids or rid in seen:issues.append("DUPLICATE_ID")
         seen.add(rid)
-        if not title or normalized(title) in existing_names:issues.append("TITLE_OR_ALIAS_COLLISION")
+        if not title or normalized(title) in existing_names or normalized(title) in seen_names:issues.append("TITLE_OR_ALIAS_COLLISION")
+        seen_names.add(normalized(title))
         if any(normalized(a) in existing_names for a in r.get("aliases",[])):issues.append("ALIAS_COLLISION")
+        authority=r.get("authority",{})
+        if not all(authority.get(k) for k in ("name","type","officiality")):
+            issues.append("AUTHORITY_METADATA_MISSING")
+        if authority.get("officiality") not in {"OFFICIAL_UN","OFFICIAL_UNESCO","OFFICIAL_UN_AGENCY","OFFICIAL_WHO","OFFICIAL_INSTITUTIONAL","RECOGNIZED_INSTITUTIONAL"}:
+            issues.append("AUTHORITY_CLASS_UNSUPPORTED")
+        if r.get("categories") and not set(r["categories"]).issubset({"PLANET","HEALTH","PEOPLE","LEARNING","CULTURE","FOOD","FUTURE","COMMUNITY"}):
+            issues.append("BAD_SEMANTIC_CATEGORY")
+        if r.get("visualKey") and r["visualKey"] not in {"planet","health","people","learning","culture","food","future","community"}:
+            issues.append("BAD_VISUAL_CATEGORY")
+        if not r.get("sourceReviewedOn"):
+            issues.append("SOURCE_REVIEW_DATE_MISSING")
         if r.get("scope")=="NATIONAL":
             if r.get("country") not in market_codes:issues.append("UNSUPPORTED_COUNTRY")
         elif r.get("scope")!="GLOBAL" or r.get("country") not in (None,""):issues.append("BAD_SCOPE")
@@ -54,6 +70,8 @@ def inspect(batch,canonical,market_codes):
                 urls.add(a["url"])
                 assert a["publisher"] and len(a["originId"])>5 and len(a["eventExcerpt"])>=8
                 assert a["sourceClass"] in PRIMARY|{"REPUTABLE_INDEPENDENT","SECONDARY_REPOST"}
+                if a["sourceClass"] in PRIMARY and u.hostname not in primary_hosts:
+                    issues.append("PRIMARY_HOST_NOT_IN_EXISTING_TRUSTED_CATALOG")
                 assert date.fromisoformat(a["reportedDate"]).year==2026
                 origins[a["originId"]].add(a["sourceClass"])
                 if dates and a["reportedDate"]!=dates["2026"]:conflict=True
