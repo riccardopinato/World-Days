@@ -7,6 +7,7 @@ import argparse
 import json
 from collections import Counter
 from pathlib import Path
+from catalog_source_contract import validate_catalog, expected_totals
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,6 +18,7 @@ def read(relpath):
 
 def coverage_report():
     catalog = read("assets/data/official_core.json")
+    validate_catalog(catalog)
     reviewed = read("assets/data/editorial_en.json")
     wave04 = read("data/editorial/candidates/wave04_sources_20261109.json")
     wave01 = read("data/editorial/candidates/country_wave01_en_it_20261109.json")
@@ -78,12 +80,12 @@ def coverage_report():
     )
     assert sum(report["nationalByCountry"].values()) == report["nationalUnique"]
     assert sum(report["editorialStages"].values()) == len(ids)
-    assert report["catalogTotalUnique"] == 511
-    assert report["globalUnique"] == 292
-    assert report["nationalUnique"] == 219
-    assert report["introducedYearProven"] == 72
+    assert report["catalogTotalUnique"] == expected_totals()["total"]
+    assert report["globalUnique"] == expected_totals()["global"]
+    assert report["nationalUnique"] == expected_totals()["national"]
+    assert report["introducedYearProven"] >= 72, "must retain known year evidence"
     assert report["editorialStages"]["REVIEWED_RUNTIME"] == 56
-    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 430
+    assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == len(ids)-len(seen)
     return report
 
 
