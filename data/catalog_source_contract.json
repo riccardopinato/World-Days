@@ -54,5 +54,6 @@
     "de",
     "pt"
   ],
-  "releaseConstraints": "Computed count is not human editorial certification, public deployment or native APK approval."
+  "releaseConstraints": "Computed count is not human editorial certification, public deployment or native APK approval.",
+  "datasetVersionBase": "2026.11.10.10"
 }
