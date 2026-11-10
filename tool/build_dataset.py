@@ -1,3 +1,4 @@
+from catalog_source_contract import dataset_version
 import json, re, calendar
 from datetime import date, timedelta
 from pathlib import Path
@@ -799,7 +800,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.10.10',
+ 'datasetVersion':dataset_version(),
  'generatedAt':'2026-11-09',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),
