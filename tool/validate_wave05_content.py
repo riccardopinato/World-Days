@@ -1,3 +1,4 @@
+from catalog_source_contract import expected_totals, dataset_version
 #!/usr/bin/env python3
 """Wave05 content admission gate: catalog identities, provenance and real 2026-28 dates.
 
@@ -13,10 +14,10 @@ catalog = json.loads((ROOT / "assets/data/official_core.json").read_text(encodin
 occurrences = json.loads((ROOT / "assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records = catalog["records"]
 by_id = {r["id"]: r for r in records}
-assert len(records) == len(by_id) == 511
-assert catalog["datasetVersion"] == "2026.11.10.10"
-assert len([r for r in records if r["scope"] == "GLOBAL"]) == 292
-assert len([r for r in records if r["scope"] == "NATIONAL"]) == 219
+assert len(records) == len(by_id) == expected_totals()["total"]
+assert catalog["datasetVersion"] == dataset_version()
+assert len([r for r in records if r["scope"] == "GLOBAL"]) == expected_totals()["global"]
+assert len([r for r in records if r["scope"] == "NATIONAL"]) == expected_totals()["national"]
 
 expected = {
     "world-day-of-romani-language": ("GLOBAL", "", "2026-11-05", 2015,
