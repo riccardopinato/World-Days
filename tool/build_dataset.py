@@ -731,6 +731,12 @@ def resolve_rule(rule,year):
         delta=(target-first.weekday())%7
         d=1+delta+7*(rule['occurrence']-1)
         return [(date(year,rule['month'],d),date(year,rule['month'],d))]
+    if k=='WEEKDAY_ON_OR_AFTER':
+        first=date(year,rule['month'],rule['day'])
+        delta=(rule['weekday']-1-first.weekday())%7
+        target=first+timedelta(days=delta)
+        assert target.month==rule['month'],rule
+        return [(target,target)]
     if k=='LAST_WEEKDAY':
         target=rule['weekday']-1
         last_day=calendar.monthrange(year,rule['month'])[1]
