@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from market_wave04 import load_wave04
 from market_wave06 import load_wave06
+from market_wave07 import load_wave07
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -194,7 +195,12 @@ def all_expansion_rows():
     existing_titles = titles | {row['canonicalTitleEn'] for row in next_wave}
     assert all(item['id'] not in existing_ids for item in wave06), 'Wave06 canonical ID collision'
     assert all(item['canonicalTitleEn'] not in existing_titles for item in wave06), 'Wave06 title collision'
-    return [*prior, *next_wave, *wave06]
+    wave07 = load_wave07()
+    previous_ids = existing_ids | {row['id'] for row in wave06}
+    previous_titles = existing_titles | {row['canonicalTitleEn'] for row in wave06}
+    assert all(item['id'] not in previous_ids for item in wave07), 'Wave07 canonical ID collision'
+    assert all(item['canonicalTitleEn'] not in previous_titles for item in wave07), 'Wave07 title collision'
+    return [*prior, *next_wave, *wave06, *wave07]
 
 
 def expanded_title_map():
