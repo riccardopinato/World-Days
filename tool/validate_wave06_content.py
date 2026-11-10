@@ -1,3 +1,4 @@
+from catalog_source_contract import expected_totals, dataset_version
 #!/usr/bin/env python3
 """Wave06 additive 7-record metadata admission gate (dependent on Wave05 PR #65)."""
 import json
@@ -7,10 +8,10 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 r=catalog["records"];by_id={z["id"]:z for z in r}
-assert len(by_id)==len(r)==511
-assert catalog["datasetVersion"]=="2026.11.10.10"
-assert sum(z["scope"]=="GLOBAL" for z in r)==292
-assert sum(z["scope"]=="NATIONAL" for z in r)==219
+assert len(by_id)==len(r)== expected_totals()["total"]
+assert catalog["datasetVersion"]== dataset_version()
+assert sum(z["scope"]=="GLOBAL" for z in r)== expected_totals()["global"]
+assert sum(z["scope"]=="NATIONAL" for z in r)== expected_totals()["national"]
 assert sum(z["countries"]==["JP"] for z in r)==13
 fresh=load_wave06_japan()
 assert {x["id"] for x in fresh}==set(EXPECTED)

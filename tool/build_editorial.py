@@ -1,3 +1,4 @@
+from catalog_source_contract import dataset_version
 #!/usr/bin/env python3
 import json
 from pathlib import Path
@@ -271,7 +272,7 @@ for row in WAVE03['entries']:
 payload = {
     'schemaVersion': 2,
     'datasetId': 'world-days-editorial-en',
-    'datasetVersion': '2026.11.10.10',
+    'datasetVersion': dataset_version(),
     'locale': 'en',
     'entryCount': len(entries),
     'entries': sorted(entries, key=lambda item: item['observanceId']),

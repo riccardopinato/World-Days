@@ -1,3 +1,4 @@
+from catalog_source_contract import expected_totals, dataset_version
 #!/usr/bin/env python3
 """Strict runtime Wave09 admission checks for six new markets, exact dates and localization."""
 from collections import Counter
@@ -11,8 +12,8 @@ index=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="
 old=json.loads((ROOT/"data/research/FAST02_CIVIC_12_SOURCE_STAGED_20261110.json").read_text(encoding="utf8"))
 rows=catalog["records"]
 ids={r["id"]:r for r in rows}
-assert len(ids)==len(rows)==511
-assert catalog["datasetVersion"]=="2026.11.10.10"
+assert len(ids)==len(rows)== expected_totals()["total"]
+assert catalog["datasetVersion"]== dataset_version()
 assert Counter(r["scope"] for r in rows)=={"GLOBAL":292,"NATIONAL":219}
 assert len(index["dateIndex"])==365
 new=load_wave09_civic()
@@ -38,5 +39,5 @@ for item in new:
     assert year_dates[0]==f'2026-{rule["month"]:02d}-{rule["day"]:02d}'
     obs=[o["startDate"] for o in index["occurrences"] if o["observanceId"]==item["id"]]
     assert obs==[year_dates[0]],(item["id"],obs)
-assert len({r["id"] for r in rows})==511
+assert len({r["id"] for r in rows})== expected_totals()["total"]
 print("WAVE09 CONTENT PASS: 504 unique records, 285 global + 219 national, 34 countries; 12 new STUBs and 6 locale titles, no human review or production release")

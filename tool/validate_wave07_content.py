@@ -1,3 +1,4 @@
+from catalog_source_contract import expected_totals, dataset_version
 #!/usr/bin/env python3
 """Wave07 India content admission gate, stacked after PR #65 + PR #66."""
 import json
@@ -7,10 +8,10 @@ ROOT=Path(__file__).resolve().parents[1]
 cat=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records=cat["records"];byid={r["id"]:r for r in records}
-assert len(records)==len(byid)==511
-assert cat["datasetVersion"]=="2026.11.10.10"
-assert sum(r["scope"]=="GLOBAL" for r in records)==292
-assert sum(r["scope"]=="NATIONAL" for r in records)==219
+assert len(records)==len(byid)== expected_totals()["total"]
+assert cat["datasetVersion"]== dataset_version()
+assert sum(r["scope"]=="GLOBAL" for r in records)== expected_totals()["global"]
+assert sum(r["scope"]=="NATIONAL" for r in records)== expected_totals()["national"]
 assert sum(r["countries"]==["IN"] for r in records)==5
 fresh=load_wave07_india()
 assert len(fresh)==3 and {x["id"] for x in fresh}==set(EXPECTED)

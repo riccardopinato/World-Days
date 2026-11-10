@@ -1,3 +1,17 @@
+## Pipeline massiva istituzionale — ingestione 30–50 giornate (10 novembre 2026)
+
+È disponibile una pipeline **source-first** per importare lotti da 30–50 ricorrenze in un solo file JSON e una sola PR, senza modifiche manuali ripetute ai conteggi dei test Python/Dart. Vedi [manuale operativo](docs/BULK_INTAKE_INSTITUTIONAL_PIPELINE_20261110.md).
+
+- `tool/bulk_intake.py`: confronto degli alias con il catalogo, date 2026–2028, una sola origine documentale per siti che copiano lo stesso atto, conflitti, fonti primarie, sei lingue e verifica editoriale. I record incompleti restano in ricerca.
+- `data/intake/institutional_batch_template.json`: modello sicuro iniziale, **zero nuovi record ammessi**. `data/market/bulk_approved/` accetta solo file passati esplicitamente dai gate e dal revisore.
+- `tool/catalog_source_contract.py`: totalizza da baseline 456 + manifest delle wave + nuovi file approvati e genera versione progressiva; test Python e Flutter derivano i valori correnti mantenendo i minimi storici.
+- Due CI: una veloce per fonti/duplicati e quella completa Flutter + Web, entrambe senza pubblicazione Android/Play.
+
+**Stato reale:** il ramo di infrastruttura parte dalla PR #73, il cui catalogo proposto è 511 (292 globali e 219 nazionali) ma `main` resta 456. Questa pipeline non aggiunge nuove giornate né autorizza merge o deploy; le traduzioni e storie richiedono la revisione editoriale realmente prevista.
+
+
+---
+
 ## FAST02 Wave09 — six Asian markets, 12 national civic observances (2026-11-10)
 
 The dependency PR #68 proposes **504 unique source records** (285 global, 219 national) after PR #67's 492. Bangladesh, Indonesia, Cambodia, Malaysia, Vietnam and Laos become selectable (34 markets total) with all six supported country-name translations, 12 fixed annual civic metadata records, original government 2026 sources and explicit 2026–2028 fixed-date tests. The original main branch is **456** pending qualified editorial review and ordered merges. The 12 new records remain `STUB`, not human-reviewed long stories. [Read country/source and quality boundaries](docs/CATALOG_FAST02_12_CIVIC_SIX_COUNTRIES_20261110.md). No APK, Play or public production deploy.

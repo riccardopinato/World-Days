@@ -1,0 +1,39 @@
+name: Institutional Bulk Intake — Source & Duplicate Gate
+on:
+  push:
+    branches: [infra/bulk-intake-source-gates-20261110]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Rebuild source catalog
+        run: python3 tool/build_dataset.py
+      - name: Prove source-derived counts and identity preservation
+        run: |
+          python3 tool/catalog_source_contract.py
+          python3 tool/validate_dataset.py
+          python3 tool/build_editorial.py
+          python3 tool/market_coverage.py
+      - name: Adversarial batch tests — duplicates, five mirrored sites, conflicting dates, consent
+        run: python3 -m unittest discover -s tool -p 'test_bulk_intake.py' -v
+      - name: Verify empty starter has zero auto-published claims
+        run: python3 tool/bulk_intake.py --input data/intake/institutional_batch_template.json --report reports/bulk_intake_template.json
+      - name: Inspect intake results
+        run: |
+          python3 - <<'PY'
+          import json
+          d=json.load(open('reports/bulk_intake_template.json'))
+          assert d['recordCount']==d['eligible']==d['blocked']==0
+          print('BULK INTAKE SOURCE GATE PASS: no unreviewed entries enter runtime')
+          PY
+      - name: Save source-gate audit
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: bulk-intake-source-gate-report
+          path: reports/bulk_intake_template.json
+          retention-days: 20

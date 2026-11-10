@@ -1,3 +1,4 @@
+from catalog_source_contract import dataset_version
 #!/usr/bin/env python3
 import json
 from pathlib import Path
@@ -88,7 +89,7 @@ def main():
         payload = {
             "schemaVersion": 2,
             "datasetId": f"world-days-editorial-{locale}",
-            "datasetVersion": "2026.11.10.10",
+            "datasetVersion": dataset_version(),
             "locale": locale,
             "sourceLocale": "en",
             "entryCount": len(entries),

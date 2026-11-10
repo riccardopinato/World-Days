@@ -1,9 +1,11 @@
+from catalog_source_contract import dataset_version
 import json, re, calendar
 from datetime import date, timedelta
 from pathlib import Path
 
 from market_catalog import MARKET_RECORDS
 from market_expansion import build_expansion_records, expanded_title_map
+from bulk_approved import approved_rows, approved_titles
 
 VERIFIED='2026-10-12'
 UN='https://www.un.org/en/observances/list-days-weeks'
@@ -549,6 +551,15 @@ for market_record in [*MARKET_RECORDS, *build_expansion_records()]:
         raise ValueError('duplicate id ' + market_record['id'])
     records.append(market_record)
 
+# Any fully reviewed, source-and-language-approved future 30–50-row batches
+# are imported by the same generator. The approved directory is empty at boot.
+for bulk_record in approved_rows():
+    if any(r['id']==bulk_record['id'] for r in records):
+        raise ValueError('duplicate bulk import ID '+bulk_record['id'])
+    if any(r['canonicalTitleEn']==bulk_record['canonicalTitleEn'] for r in records):
+        raise ValueError('duplicate bulk import title '+bulk_record['canonicalTitleEn'])
+    records.append(bulk_record)
+
 # Verified establishment years are independent from the date of first
 # celebration and must link to a specifically reviewed primary document.
 # Unknown years remain absent and render as '*' in all six app locales.
@@ -629,6 +640,7 @@ TITLE_LOCALES = ('it', 'es', 'fr', 'de', 'pt')
 TITLE_SOURCE_DIR = Path(__file__).resolve().parents[1] / 'data' / 'titles'
 canonical_titles = {record['canonicalTitleEn'] for record in records}
 expanded_titles = expanded_title_map()
+bulk_titles = approved_titles()
 title_localizations = {}
 
 for locale in TITLE_LOCALES:
@@ -636,13 +648,13 @@ for locale in TITLE_LOCALES:
     payload = json.loads(path.read_text(encoding='utf-8'))
     assert payload.get('locale') == locale, (path, payload.get('locale'))
     titles = payload.get('titles') or {}
-    all_titles = {**titles, **expanded_titles[locale]}
+    all_titles = {**titles, **expanded_titles[locale], **bulk_titles[locale]}
     missing = sorted(canonical_titles - set(all_titles))
     extra = sorted(set(all_titles) - canonical_titles)
     assert not missing, f'{locale} missing title translations: {missing}'
     assert not extra, f'{locale} has unknown title translations: {extra}'
     assert all(str(value).strip() for value in all_titles.values()), f'{locale} contains empty title translations'
-    title_localizations[locale] = {**titles, **expanded_titles[locale]}
+    title_localizations[locale] = all_titles
 
 for record in records:
     canonical = record['canonicalTitleEn']
@@ -788,7 +800,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.10.10',
+ 'datasetVersion':dataset_version(),
  'generatedAt':'2026-11-09',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),

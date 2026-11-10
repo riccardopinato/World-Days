@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "batchId": "institutional-next-batch-template",
+  "count": 0,
+  "records": [],
+  "instructions": {
+    "batchSize": "Up to 50 source-backed distinct events per file. 30–50 is the target; zero-entry template is intentionally safe.",
+    "requiredPerRecord": [
+      "id",
+      "canonicalTitleEn",
+      "aliases",
+      "scope",
+      "country",
+      "localizedTitles (en,it,es,fr,de,pt)",
+      "recurrenceRules (FIXED_DATE/NTH_WEEKDAY/LAST_WEEKDAY)",
+      "dateVectors 2026–2028",
+      "attestations with primary originator date/issuer/excerpt",
+      "annualRuleEvidenceUrl",
+      "identityReviewed + identityEvidenceUrl",
+      "editorialApproval(status, reviewer, evidenceUrl)"
+    ],
+    "note": "Only directly verified government/institutional source excerpts count. Five mirrored pages count one document origin. Missing editorial approval blocks --emit-approved."
+  }
+}

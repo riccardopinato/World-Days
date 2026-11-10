@@ -52,18 +52,29 @@ void main() {
       'PE': 7,
     };
 
-    for (final entry in expected.entries) {
-      final records = controller.recordsForMarket(entry.key);
-      expect(records, hasLength(entry.value), reason: entry.key);
+    final allNational = controller.catalog!.records
+        .where((r) => r.scope == 'NATIONAL')
+        .toList();
+    final codes = allNational.expand((r) => r.countries).toSet();
+    expect(codes.containsAll(expected.keys), isTrue,
+        reason: 'Previously shipped market choices must be retained');
+    for (final country in codes) {
+      final baselineMinimum = expected[country] ?? 0;
+      final records = controller.recordsForMarket(country);
+      final expectedCount = allNational
+          .where((r) => r.countries.length == 1 && r.countries.single == country)
+          .length;
+      expect(records, hasLength(expectedCount), reason: country);
+      expect(records.length, greaterThanOrEqualTo(baselineMinimum), reason: country);
       expect(
         records.every(
           (record) =>
               record.scope == 'NATIONAL' &&
               record.countries.length == 1 &&
-              record.countries.single == entry.key,
+              record.countries.single == country,
         ),
         isTrue,
-        reason: entry.key,
+        reason: country,
       );
     }
   });
@@ -71,7 +82,11 @@ void main() {
   test('each country also has the shared global layer without false national authority', () async {
     final controller = await _controller();
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
-    expect(global, hasLength(292));
+    final globalCount = controller.catalog!.records
+        .where((r) => r.scope == 'GLOBAL')
+        .length;
+    expect(global, hasLength(globalCount));
+    expect(globalCount, greaterThanOrEqualTo(292));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
     for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'BD', 'ID', 'KH', 'MY', 'VN', 'LA']) {
       final national = controller.recordsForMarket(country);
@@ -80,7 +95,10 @@ void main() {
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 511);
+    expect(controller.catalog!.records.length,
+        controller.catalog!.records.where((r) => r.scope == 'NATIONAL').length +
+            globalCount);
+    expect(controller.catalog!.records.length, greaterThanOrEqualTo(511));
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });

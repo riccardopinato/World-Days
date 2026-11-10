@@ -2,7 +2,7 @@ name: Development checks
 
 on:
   push:
-    branches: [main, content/wave06-japan-seven-official-20261109, content/wave07-india-three-national-20261109, content/fast02-civic-20261110, content/institutional-wave10-20261110]
+    branches: [main, content/wave06-japan-seven-official-20261109, content/wave07-india-three-national-20261109, content/fast02-civic-20261110, content/institutional-wave10-20261110, infra/bulk-intake-source-gates-20261110]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -31,6 +31,9 @@ jobs:
           python3 tool/market_wave08.py
           python3 tool/market_wave09.py
           python3 tool/build_dataset.py
+          python3 tool/catalog_source_contract.py
+          python3 -m unittest discover -s tool -p 'test_bulk_intake.py' -v
+          python3 tool/bulk_intake.py --input data/intake/institutional_batch_template.json --report reports/bulk_intake_template.json
           python3 tool/validate_dataset.py
           python3 tool/validate_wave05_content.py
           python3 tool/validate_wave06_content.py
