@@ -1,5 +1,14 @@
 # World Days
 
+## Wave07 — 32 documented national days across five additional markets (PR pending)
+
+The proposed source pack `2026.11.10.3` adds **32 canonical national observances** in **Estonia (17), Latvia (5), Lithuania (6), Iceland (3), Luxembourg (1)**. Distinct source-level identities grow **479 → 511**, with **289 global + 222 national** records, **36 country choices**, and English plus IT/ES/FR/DE/PT display titles. Previous IDs, favorite identity and calendar visuals remain untouched. **This is a PR proposal until reviewed, validated and merged**.
+
+Primary sources: [Estonia national and flag days](https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays); [Latvian Ministry of Foreign Affairs](https://www.mfa.gov.lv/en/latvian-national-holidays); [Lithuanian Seimas labour code, Article 123](https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x); [Central Bank of Iceland 2026](https://cb.is/about-the-bank/public-holidays-in-iceland); [Luxembourg Labour Inspectorate](https://itm.public.lu/en/conditions-travail/conges/jours-feries.html).
+
+Unknown first-established years remain `null`, not guesses. Rich editorial remains **56 reviewed**, all new 32 entries `STUB`, **430 still NOT_RESEARCHED_LONG_FORM**, **70 supported introduced years**, **441 unknown**. Localized display titles are implementation drafts, not professional native-linguistic certifications. No APK, signing, Android physical QA, Play Store or release actions authorized.
+
+
 ## Wave06 primary-national catalog — 16 source-backed observances in 3 new markets (PR pending)
 
 Wave06 proposal adds **16 fixed-date national observances** across **Malta (8), Croatia (4) and Cyprus (4)**, sourced from government or competent public-authority 2026 holiday calendars. Proposed catalog **479 canonical identities = 289 global + 190 national**, with **31 market choices** and complete six-language display-title coverage. Original 463 IDs remain stable. The seven UNESCO/WHO additions in PR #76 have been merged; this change is **not yet merged**.
