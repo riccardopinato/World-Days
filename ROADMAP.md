@@ -1,5 +1,19 @@
 # World Days — Active roadmap
 
+## Wave07 — 32 national institutional observances / five new markets (10 November 2026)
+
+- [x] Prepare five separately sourced national authority lists: Estonia, Latvia, Lithuania, Iceland, Luxembourg.
+- [x] Add 32 unique nationally scoped identifiers and their fixed or `NTH_WEEKDAY` recurrence rules; no EURES index-only auto-admission.
+- [x] Add six title locales, new market labels/options, 2026–2028 recurrence validation, generated data and 320px browse tests.
+- [ ] Run and pass protected PR exact-head CI and review comments.
+- [ ] Merge and confirm **511** canonical observances (**289 GLOBAL + 222 NATIONAL**) across **36 markets**.
+- [ ] Rich history and professional locale review remains separate; **56** preexisting source-reviewed stories preserved.
+- [ ] Following Wave07 merge, target 1,000 needs **489** more distinct and source-qualified records.
+- [ ] Continue 50–100 entry multi-country governmental batches, automated reconciliation and source-based acceptance.
+
+No APK, Android signing, physical certification or Play release.
+
+
 ## Wave06 — three new institutionally sourced national markets (10 November 2026)
 
 - [x] Research 2026 competent-authority calendars for Malta, Croatia and Cyprus.
