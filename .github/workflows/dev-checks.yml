@@ -26,6 +26,7 @@ jobs:
         run: |
           python3 tool/market_wave04.py
           python3 tool/market_wave06.py
+          python3 tool/market_wave07.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/validate_wave06_generated.py
