@@ -7,8 +7,8 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 r=catalog["records"];by_id={z["id"]:z for z in r}
-assert len(by_id)==len(r)==504
-assert catalog["datasetVersion"]=="2026.11.10.9"
+assert len(by_id)==len(r)==511
+assert catalog["datasetVersion"]=="2026.11.10.10"
 assert sum(z["scope"]=="GLOBAL" for z in r)==285
 assert sum(z["scope"]=="NATIONAL" for z in r)==219
 assert sum(z["countries"]==["JP"] for z in r)==13
@@ -28,4 +28,4 @@ for x in fresh:
     generated=[o["startDate"] for o in occ["occurrences"] if o["observanceId"]==x["id"]]
     assert generated==[EXPECTED[x["id"]][0]],(x["id"],generated)
 assert len(occ["dateIndex"])==365
-print("WAVE06 JP ADDITIVE PASS: 504 catalog entries, 285 world + 219 national, JP 13; 7 new six-locales source metadata STUB")
+print("WAVE06 JP ADDITIVE PASS: 511 catalog entries, 285 world + 219 national, JP 13; 7 new six-locales source metadata STUB")
