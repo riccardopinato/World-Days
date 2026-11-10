@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave06-primary-2026-11-10",
+  "sourceReviewDate": "2026-11-10",
+  "count": 16,
+  "countryCounts": {
+    "MT": 8,
+    "HR": 4,
+    "CY": 4
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "editorialReview": "SOURCE_METADATA_ONLY_NOT_RICH_HISTORY",
+  "records": [
+    {
+      "id": "mt-freedom-day",
+      "country": "MT",
+      "canonicalTitleEn": "Malta Freedom Day",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 31
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Malta Freedom Day",
+        "it": "Giornata della libertà di Malta",
+        "es": "Día de la Libertad de Malta",
+        "fr": "Journée de la liberté de Malte",
+        "de": "Tag der Freiheit Maltas",
+        "pt": "Dia da Liberdade de Malta"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-sette-giugno",
+      "country": "MT",
+      "canonicalTitleEn": "Sette Giugno (Malta)",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 7
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Sette Giugno (Malta)",
+        "it": "Sette Giugno (Malta)",
+        "es": "Sette Giugno (Malta)",
+        "fr": "Sette Giugno (Malte)",
+        "de": "Sette Giugno (Malta)",
+        "pt": "Sette Giugno (Malta)"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-independence-day",
+      "country": "MT",
+      "canonicalTitleEn": "Malta Independence Day",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Malta Independence Day",
+        "it": "Giornata dell'indipendenza di Malta",
+        "es": "Día de la Independencia de Malta",
+        "fr": "Fête de l'indépendance de Malte",
+        "de": "Unabhängigkeitstag Maltas",
+        "pt": "Dia da Independência de Malta"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-republic-day",
+      "country": "MT",
+      "canonicalTitleEn": "Malta Republic Day",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 13
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Malta Republic Day",
+        "it": "Festa della Repubblica di Malta",
+        "es": "Día de la República de Malta",
+        "fr": "Fête de la République de Malte",
+        "de": "Tag der Republik Malta",
+        "pt": "Dia da República de Malta"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-victory-day",
+      "country": "MT",
+      "canonicalTitleEn": "Malta Victory Day",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Malta Victory Day",
+        "it": "Giornata della Vittoria di Malta",
+        "es": "Día de la Victoria de Malta",
+        "fr": "Jour de la Victoire de Malte",
+        "de": "Siegestag Maltas",
+        "pt": "Dia da Vitória de Malta"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-st-pauls-shipwreck-day",
+      "country": "MT",
+      "canonicalTitleEn": "Feast of St. Paul's Shipwreck (Malta)",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 10
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Feast of St. Paul's Shipwreck (Malta)",
+        "it": "Festa del naufragio di San Paolo (Malta)",
+        "es": "Fiesta del Naufragio de San Pablo (Malta)",
+        "fr": "Fête du naufrage de saint Paul (Malte)",
+        "de": "Fest des Schiffbruchs des heiligen Paulus (Malta)",
+        "pt": "Festa do Naufrágio de São Paulo (Malta)"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-feast-of-st-joseph",
+      "country": "MT",
+      "canonicalTitleEn": "Feast of St. Joseph (Malta)",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 19
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Feast of St. Joseph (Malta)",
+        "it": "Festa di San Giuseppe (Malta)",
+        "es": "Fiesta de San José (Malta)",
+        "fr": "Fête de saint Joseph (Malte)",
+        "de": "Josefstag (Malta)",
+        "pt": "Festa de São José (Malta)"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "mt-feast-of-st-peter-and-paul",
+      "country": "MT",
+      "canonicalTitleEn": "Feast of St. Peter and St. Paul (Malta)",
+      "aliases": [],
+      "authority": "Government of Malta",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 29
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Feast of St. Peter and St. Paul (Malta)",
+        "it": "Festa dei Santi Pietro e Paolo (Malta)",
+        "es": "Fiesta de San Pedro y San Pablo (Malta)",
+        "fr": "Fête de saint Pierre et saint Paul (Malte)",
+        "de": "Peter-und-Paul-Fest (Malta)",
+        "pt": "Festa de São Pedro e São Paulo (Malta)"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "hr-statehood-day",
+      "country": "HR",
+      "canonicalTitleEn": "Croatia Statehood Day",
+      "aliases": [],
+      "authority": "Government of the Republic of Croatia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://mvep.gov.hr/print.aspx?id=180285&url=print",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Croatia Statehood Day",
+        "it": "Giornata della statualità della Croazia",
+        "es": "Día de la Estatalidad de Croacia",
+        "fr": "Journée de l'État croate",
+        "de": "Staatlichkeitstag Kroatiens",
+        "pt": "Dia da Estatalidade da Croácia"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "hr-antifascist-resistance-day",
+      "country": "HR",
+      "canonicalTitleEn": "Croatia Anti-Fascist Resistance Day",
+      "aliases": [],
+      "authority": "Government of the Republic of Croatia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://mvep.gov.hr/print.aspx?id=180285&url=print",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 22
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Croatia Anti-Fascist Resistance Day",
+        "it": "Giornata della resistenza antifascista croata",
+        "es": "Día de la Resistencia Antifascista de Croacia",
+        "fr": "Journée de la résistance antifasciste croate",
+        "de": "Tag des antifaschistischen Widerstands in Kroatien",
+        "pt": "Dia da Resistência Antifascista da Croácia"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "hr-victory-and-homeland-thanksgiving-day",
+      "country": "HR",
+      "canonicalTitleEn": "Croatia Victory and Homeland Thanksgiving Day",
+      "aliases": [],
+      "authority": "Government of the Republic of Croatia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://mvep.gov.hr/print.aspx?id=180285&url=print",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 5
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Croatia Victory and Homeland Thanksgiving Day",
+        "it": "Giornata croata della vittoria e del ringraziamento alla patria",
+        "es": "Día de la Victoria y Acción de Gracias a la Patria de Croacia",
+        "fr": "Journée croate de la victoire et de la reconnaissance à la patrie",
+        "de": "Tag des Sieges und der Heimatdankbarkeit Kroatiens",
+        "pt": "Dia da Vitória e Ação de Graças à Pátria da Croácia"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "hr-homeland-war-remembrance-day",
+      "country": "HR",
+      "canonicalTitleEn": "Croatia Homeland War Victims Remembrance Day",
+      "aliases": [],
+      "authority": "Government of the Republic of Croatia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://mvep.gov.hr/print.aspx?id=180285&url=print",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 18
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Croatia Homeland War Victims Remembrance Day",
+        "it": "Giornata croata del ricordo delle vittime della guerra d'indipendenza",
+        "es": "Día de Recuerdo de las Víctimas de la Guerra de Independencia Croata",
+        "fr": "Journée du souvenir des victimes de la guerre de Croatie",
+        "de": "Kroatischer Gedenktag für die Opfer des Heimatkriegs",
+        "pt": "Dia de Memória das Vítimas da Guerra da Croácia"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "cy-national-day",
+      "country": "CY",
+      "canonicalTitleEn": "Cyprus National Day",
+      "aliases": [],
+      "authority": "Republic of Cyprus",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.cysec.gov.cy/en-GB/cysec/about-us/public-holidays/",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Cyprus National Day",
+        "it": "Giornata nazionale di Cipro",
+        "es": "Día Nacional de Chipre",
+        "fr": "Fête nationale de Chypre",
+        "de": "Nationalfeiertag Zyperns",
+        "pt": "Dia Nacional de Chipre"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "cy-independence-day",
+      "country": "CY",
+      "canonicalTitleEn": "Cyprus Independence Day",
+      "aliases": [],
+      "authority": "Republic of Cyprus",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.cysec.gov.cy/en-GB/cysec/about-us/public-holidays/",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Cyprus Independence Day",
+        "it": "Giornata dell'indipendenza di Cipro",
+        "es": "Día de la Independencia de Chipre",
+        "fr": "Fête de l'indépendance de Chypre",
+        "de": "Unabhängigkeitstag Zyperns",
+        "pt": "Dia da Independência de Chipre"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "cy-greek-national-day",
+      "country": "CY",
+      "canonicalTitleEn": "Greek National Day Observed in Cyprus",
+      "aliases": [],
+      "authority": "Republic of Cyprus",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.cysec.gov.cy/en-GB/cysec/about-us/public-holidays/",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 25
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Greek National Day Observed in Cyprus",
+        "it": "Giornata nazionale greca celebrata a Cipro",
+        "es": "Día Nacional de Grecia celebrado en Chipre",
+        "fr": "Fête nationale grecque célébrée à Chypre",
+        "de": "Griechischer Nationalfeiertag in Zypern",
+        "pt": "Dia Nacional Grego celebrado em Chipre"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    },
+    {
+      "id": "cy-ochi-day",
+      "country": "CY",
+      "canonicalTitleEn": "Ochi Day Observed in Cyprus",
+      "aliases": [],
+      "authority": "Republic of Cyprus",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "scope": "NATIONAL",
+      "source": "https://www.cysec.gov.cy/en-GB/cysec/about-us/public-holidays/",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 28
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Ochi Day Observed in Cyprus",
+        "it": "Giornata dell'Ochi celebrata a Cipro",
+        "es": "Día del Oji celebrado en Chipre",
+        "fr": "Journée du Non célébrée à Chypre",
+        "de": "Ochi-Tag in Zypern",
+        "pt": "Dia do Não celebrado em Chipre"
+      },
+      "chronologyNote": "The competent government publishes this date in its 2026 national public holiday schedule. This batch does not infer the year of origin or a full institutional chronology.",
+      "dateRationale": "The government or competent public authority lists the named observance on this day in 2026; only a fixed commemorative anniversary is admitted here."
+    }
+  ]
+}

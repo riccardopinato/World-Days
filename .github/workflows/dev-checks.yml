@@ -25,8 +25,10 @@ jobs:
       - name: Build and validate dataset
         run: |
           python3 tool/market_wave04.py
+          python3 tool/market_wave06.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
+          python3 tool/validate_wave06_generated.py
           python3 tool/validate_institutional_wave05.py
           python3 tool/build_editorial.py
           python3 tool/validate_editorial_batch.py

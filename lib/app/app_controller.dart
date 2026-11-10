@@ -8,6 +8,7 @@ import '../core/content_pack/content_pack_runtime.dart';
 import '../core/entitlements/entitlement_models.dart';
 import '../core/entitlements/entitlement_service.dart';
 import '../core/monetization/monetization_controller.dart';
+import '../core/market_options.dart';
 import '../core/notifications/notification_gateway.dart';
 import '../core/notifications/notification_health.dart';
 import '../core/notifications/notification_service.dart';
@@ -375,7 +376,7 @@ final class AppController extends ChangeNotifier {
 
   Future<void> setMarket(String code) async {
     final normalized = code.toUpperCase();
-    const allowed = {'GLOBAL', 'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US'};
+    final allowed = marketOptions.map((option) => option.code).toSet();
     if (!allowed.contains(normalized)) {
       throw ArgumentError.value(code, 'code', 'Unsupported market');
     }

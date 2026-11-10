@@ -1,5 +1,14 @@
 # World Days
 
+## Wave06 primary-national catalog — 16 source-backed observances in 3 new markets (PR pending)
+
+Wave06 proposal adds **16 fixed-date national observances** across **Malta (8), Croatia (4) and Cyprus (4)**, sourced from government or competent public-authority 2026 holiday calendars. Proposed catalog **479 canonical identities = 289 global + 190 national**, with **31 market choices** and complete six-language display-title coverage. Original 463 IDs remain stable. The seven UNESCO/WHO additions in PR #76 have been merged; this change is **not yet merged**.
+
+The 16 Wave06 entries have `editorialStatus=STUB` and no fabricated introduction years. Existing **56 source-reviewed rich histories** remain unchanged. The tally of sourced introduction years stays **70**, with **409 unknown** (displaying `*`). **398 catalog entries are still classified NOT_RESEARCHED_LONG_FORM**, excluding separate candidate stages. Translations require qualified linguistic acceptance before asserting editorial approval. No APK, signing, native device certification, billing or Play release.
+
+[Source batch](data/market/wave06_primary_mt_hr_cy_20261110.json) · [dedicated validator](tool/market_wave06.py) · [generated catalog gate](tool/validate_wave06_generated.py).
+
+
 ## Institutional Wave05 — seven global admissions (10 November 2026, PR pending)
 
 Candidate version `2026.11.10.1` adds **7 institutionally documented global records** (UNESCO ×6, WHO ×1) to the deterministic catalog: **463 distinct records** = **289 global + 174 national**. Existing IDs are retained, and all seven title translations are supplied in EN/IT/ES/FR/DE/PT. Exactly **five** new establishment-year fields are supported by originator documentation; two are intentionally left unknown. Source-reviewed **Rich Editorial remains 56**, with **382 records** lacking approved long-form stories; 70 introduction years have documented sources and the remaining 393 display `*`. All seven new entries remain editorial **STUB**; translated display titles are pending native-language certification.
