@@ -17,7 +17,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-peaceful-coexistence",
+        "canonicalTitleEn": "International Day of Peaceful Coexistence",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-greening-the-planet",
@@ -31,7 +39,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-greening-the-planet",
+        "canonicalTitleEn": "International Day of Greening the Planet",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-safe-secure-and-trustworthy-artificial-intelligence",
@@ -45,7 +61,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-safe-secure-and-trustworthy-artificial-intelligence",
+        "canonicalTitleEn": "International Day of Safe, Secure and Trustworthy Artificial Intelligence",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-the-mediterranean-diet",
@@ -59,7 +83,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-the-mediterranean-diet",
+        "canonicalTitleEn": "International Day of the Mediterranean Diet",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-the-arabian-leopard",
@@ -73,7 +105,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-the-arabian-leopard",
+        "canonicalTitleEn": "International Day of the Arabian Leopard",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-women-judges",
@@ -87,7 +127,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-women-judges",
+        "canonicalTitleEn": "International Day of Women Judges",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-day-for-glaciers",
@@ -101,7 +149,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-day-for-glaciers",
+        "canonicalTitleEn": "World Day for Glaciers",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-the-markhor",
@@ -115,7 +171,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-the-markhor",
+        "canonicalTitleEn": "International Day of the Markhor",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-fair-play-day",
@@ -129,7 +193,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-fair-play-day",
+        "canonicalTitleEn": "World Fair Play Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-the-snow-leopard",
@@ -143,7 +215,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-the-snow-leopard",
+        "canonicalTitleEn": "International Day of the Snow Leopard",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-logic-day",
@@ -157,7 +237,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-logic-day",
+        "canonicalTitleEn": "World Logic Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-day-for-african-and-afrodescendant-culture",
@@ -171,7 +259,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-day-for-african-and-afrodescendant-culture",
+        "canonicalTitleEn": "World Day for African and Afrodescendant Culture",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-women-in-multilateralism",
@@ -185,7 +281,19 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/women-multilateralism",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED",
+      "proposedIntroducedYear": 2021,
+      "introducedYearSource": "https://www.unesco.org/en/days/women-multilateralism",
+      "establishmentEvidenceNote": "UNESCO General Conference Resolution 41 C/57 adopted on 23 November 2021"
     },
     {
       "candidateId": "world-engineering-day-for-sustainable-development",
@@ -199,7 +307,19 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/engineering-sustainable-development",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED",
+      "proposedIntroducedYear": 2019,
+      "introducedYearSource": "https://www.unesco.org/en/days/engineering-sustainable-development",
+      "establishmentEvidenceNote": "UNESCO 2019 proclamation; annual 4 March observance"
     },
     {
       "candidateId": "international-day-of-mathematics",
@@ -213,7 +333,16 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/mathematics",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED"
     },
     {
       "candidateId": "international-day-for-digital-learning",
@@ -227,7 +356,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-for-digital-learning",
+        "canonicalTitleEn": "International Day for Digital Learning",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-for-the-conservation-of-the-mangrove-ecosystem",
@@ -241,7 +378,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-for-the-conservation-of-the-mangrove-ecosystem",
+        "canonicalTitleEn": "International Day for the Conservation of the Mangrove Ecosystem",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-for-caves-and-karst",
@@ -255,7 +400,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-for-caves-and-karst",
+        "canonicalTitleEn": "International Day for Caves and Karst",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-day-of-romani-language",
@@ -269,7 +422,16 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/list",
+      "perEntryEvidenceStatus": "OFFICIAL_CALENDAR_DATE_ONLY"
     },
     {
       "candidateId": "international-day-against-illicit-trafficking-in-cultural-property",
@@ -283,7 +445,19 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/against-illicit-trafficking",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED",
+      "proposedIntroducedYear": 2019,
+      "introducedYearSource": "https://www.unesco.org/en/days/against-illicit-trafficking",
+      "establishmentEvidenceNote": "UNESCO 40th General Conference 2019"
     },
     {
       "candidateId": "international-day-of-islamic-art",
@@ -297,7 +471,19 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.unesco.org/en/days/islamic-art",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED",
+      "proposedIntroducedYear": 2019,
+      "introducedYearSource": "https://www.unesco.org/en/days/islamic-art",
+      "establishmentEvidenceNote": "UNESCO 40th General Conference 2019"
     },
     {
       "candidateId": "world-neglected-tropical-diseases-day",
@@ -311,7 +497,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-neglected-tropical-diseases-day",
+        "canonicalTitleEn": "World Neglected Tropical Diseases Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-tb-day",
@@ -325,7 +519,15 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_ALIAS",
+        "canonicalId": "world-tuberculosis-day",
+        "canonicalTitleEn": "World Tuberculosis Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-health-day",
@@ -339,7 +541,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-health-day",
+        "canonicalTitleEn": "World Health Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-chagas-disease-day",
@@ -353,7 +563,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-chagas-disease-day",
+        "canonicalTitleEn": "World Chagas Disease Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-malaria-day",
@@ -367,7 +585,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-malaria-day",
+        "canonicalTitleEn": "World Malaria Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-no-tobacco-day",
@@ -381,7 +607,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-no-tobacco-day",
+        "canonicalTitleEn": "World No Tobacco Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-blood-donor-day",
@@ -395,7 +629,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-blood-donor-day",
+        "canonicalTitleEn": "World Blood Donor Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-drowning-prevention-day",
@@ -409,7 +651,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-drowning-prevention-day",
+        "canonicalTitleEn": "World Drowning Prevention Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-hepatitis-day",
@@ -423,7 +673,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-hepatitis-day",
+        "canonicalTitleEn": "World Hepatitis Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-patient-safety-day",
@@ -437,7 +695,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-patient-safety-day",
+        "canonicalTitleEn": "World Patient Safety Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-prematurity-day",
@@ -451,7 +717,18 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-prematurity-day",
+        "canonicalTitleEn": "World Prematurity Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK",
+        "dateStatus": "2026_11_15_CONFIRMED_WHO",
+        "dateNote": "WHO notes prior 17 November observance and 15 November from 2026 onward; do not overwrite historical dates."
+      },
+      "observanceSourceUrl": "https://www.who.int/campaigns/world-prematurity-day/2026",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED"
     },
     {
       "candidateId": "world-cervical-cancer-elimination-day",
@@ -465,7 +742,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-cervical-cancer-elimination-day",
+        "canonicalTitleEn": "World Cervical Cancer Elimination Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-aids-day",
@@ -479,7 +764,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-aids-day",
+        "canonicalTitleEn": "World AIDS Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-hearing-day",
@@ -493,7 +786,16 @@
       "action": "CHECK_CANONICAL_ID_AND_IMPORT",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "NEW_CANONICAL_CANDIDATE",
+        "canonicalId": null,
+        "canonicalTitleEn": null,
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "observanceSourceUrl": "https://www.who.int/campaigns/world-hearing-day",
+      "perEntryEvidenceStatus": "OFFICIAL_ORIGINATOR_PAGE_DATE_CHECKED"
     },
     {
       "candidateId": "world-mental-health-day",
@@ -507,7 +809,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-mental-health-day",
+        "canonicalTitleEn": "World Mental Health Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-pulses-day",
@@ -521,7 +831,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-pulses-day",
+        "canonicalTitleEn": "World Pulses Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-plant-health",
@@ -535,7 +853,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-plant-health",
+        "canonicalTitleEn": "International Day of Plant Health",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "world-bee-day",
@@ -549,7 +875,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "world-bee-day",
+        "canonicalTitleEn": "World Bee Day",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     },
     {
       "candidateId": "international-day-of-potato",
@@ -563,7 +897,15 @@
       "action": "RECONCILE_EXISTING",
       "evidenceStatus": "OFFICIAL_INDEX_MATCHED_ENTRY_UNREVIEWED",
       "establishedYear": null,
-      "editorialStatus": "NOT_REVIEWED"
+      "editorialStatus": "NOT_REVIEWED",
+      "reconciliation": {
+        "checkedAgainst": "tool/build_dataset.py@7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+        "status": "EXISTING_EXACT_TITLE",
+        "canonicalId": "international-day-of-potato",
+        "canonicalTitleEn": "International Day of Potato",
+        "evidenceScope": "STATIC_GENERATOR_IDENTITY_CHECK"
+      },
+      "perEntryEvidenceStatus": "INSTITUTIONAL_INDEX_ONLY_FURTHER_REVIEW_REQUIRED"
     }
   ],
   "knownDatePolicyExceptions": [
@@ -583,5 +925,20 @@
     "Do not infer established year; retain null until documentary verification",
     "Create original editorial and independent EN/IT/ES/FR/DE/PT review before rich editorial status",
     "Run existing dataset and editorial tests plus exact-head CI in a separate promotion PR"
-  ]
+  ],
+  "reconciliationSummary": {
+    "sourceGeneratorSha": "7f7bfe9d0bbe55a0897c14a3b446be78853b92d0",
+    "exactExisting": 32,
+    "aliasExisting": 1,
+    "newCanonicalCandidates": 7,
+    "originatorDatePagesChecked": 7,
+    "yearEvidenceProposals": 4,
+    "reviewStatus": "PARTIAL_PER_ENTRY_RESEARCH_NON_PUBLISHABLE",
+    "caveats": [
+      "Static generator extraction does not certify output JSON or runtime presence.",
+      "No 40/40 individual establishing-resolution check has been performed.",
+      "Historical date exceptions need a separate recurrence migration gate.",
+      "No human-approved rich editorial or locale translation review."
+    ]
+  }
 }
