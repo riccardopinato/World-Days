@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-10",
+  "institution": "WHO",
+  "count": 5,
+  "certification": "PRIMARY_SOURCE_DATE_AND_AUTHORITY_ONLY",
+  "notCertified": [
+    "human_review",
+    "automatic_UN_official_designation",
+    "historical_introduction_other_than_source",
+    "product_merge"
+  ],
+  "records": [
+    {
+      "name": "World Hearing Day",
+      "rule": "FIXED_DATE",
+      "month": 3,
+      "day": 3,
+      "source": "https://www.who.int/campaigns/world-hearing-day",
+      "note": "WHO-led annual campaign; not falsely a WHA-mandated official global health day",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    },
+    {
+      "name": "World Hand Hygiene Day",
+      "rule": "FIXED_DATE",
+      "month": 5,
+      "day": 5,
+      "source": "https://www.who.int/campaigns/world-hand-hygiene-day",
+      "note": "WHO led SAVE LIVES: Clean Your Hands awareness campaign",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    },
+    {
+      "name": "World Rabies Day",
+      "rule": "FIXED_DATE",
+      "month": 9,
+      "day": 28,
+      "source": "https://www.who.int/campaigns/world-rabies-day",
+      "note": "WHO supports the global annual rabies campaign",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    },
+    {
+      "name": "World Polio Day",
+      "rule": "FIXED_DATE",
+      "month": 10,
+      "day": 24,
+      "source": "https://www.who.int/europe/campaigns/world-polio-day",
+      "note": "WHO/Europe institutional annual Polio day, not proof of WHA designation",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    },
+    {
+      "name": "World Leprosy Day",
+      "rule": "LAST_WEEKDAY",
+      "month": 1,
+      "day": 7,
+      "source": "https://www.who.int/campaigns/world-leprosy-day",
+      "note": "WHO confirms last Sunday January globally; India separately observes January 30",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    }
+  ]
+}
