@@ -77,6 +77,38 @@ void main() {
     ('AR', 8, 'es'),
     ('PE', 7, 'fr'),
   ];
+  // Wave06: source-approved national market admissions must render with locale fallback.
+  const wave06Markets = <(String, int, String)>[
+    ('MT', 8, 'it'),
+    ('HR', 4, 'de'),
+    ('CY', 4, 'fr'),
+  ];
+  for (final market in wave06Markets) {
+    testWidgets('Wave06 ${market.$1}: available in ${market.$3} at 320px',
+        (tester) async {
+      tester.view.physicalSize = const Size(320, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      final controller = await buildLoadedTestController(
+        catalog: catalog,
+        preferences: UserPreferences(marketCode: market.$1),
+      );
+      addTearDown(controller.dispose);
+      await tester.pumpWidget(
+        wrapTestApp(
+          AroundTheWorldPage(controller: controller),
+          locale: Locale(market.$3),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(controller.recordsForMarket(market.$1), hasLength(market.$2));
+      expect(find.byType(ChoiceChip), findsNWidgets(3));
+      expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
+      expect(tester.takeException(), isNull);
+    });
+  }
+
   for (final market in wave04Markets) {
     testWidgets('Wave04 ${market.$1}: national/global 320px without overflow',
         (tester) async {
