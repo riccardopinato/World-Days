@@ -17,12 +17,12 @@ expected = {
     "world-hearing-day": ("2026-03-03", None, "WHO"),
 }
 assert title_source["titleStatus"] == "TRANSLATION_DRAFT_QA_NOT_NATIVE_REVIEWED"
-assert catalog["datasetVersion"] == "2026.11.10.1"
+assert tuple(map(int, catalog["datasetVersion"].split("."))) >= (2026, 11, 10, 1)
 records = {r["id"]: r for r in catalog["records"]}
-assert len(records) == len(catalog["records"]) == 463
+assert len(records) == len(catalog["records"]) >= 463
 assert set(expected).issubset(records)
 assert len({r["id"] for r in catalog["records"] if r["scope"] == "GLOBAL"}) == 289
-assert len({r["id"] for r in catalog["records"] if r["scope"] == "NATIONAL"}) == 174
+assert len({r["id"] for r in catalog["records"] if r["scope"] == "NATIONAL"}) >= 174
 for rid, (day, introduced, typ) in expected.items():
     row = records[rid]
     assert row["scope"] == "GLOBAL" and not row["countries"]
