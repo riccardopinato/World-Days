@@ -39,4 +39,24 @@ assert exception[0]["candidateId"] == "world-prematurity-day"
 assert exception[0]["effectiveFromYear"] == 2026
 assert exception[0]["annualDateFrom2026"] == "11-15"
 assert exception[0]["historicalDate"] == "11-17"
-print("PASS: 40 index-backed candidates / research-only / 4 institutions / date-transition exception")
+statuses = {"EXISTING_EXACT_TITLE": 32, "EXISTING_ALIAS": 1, "NEW_CANONICAL_CANDIDATE": 7}
+assert {s: sum(row["reconciliation"]["status"] == s for row in rows) for s in statuses} == statuses
+assert batch["reconciliationSummary"]["exactExisting"] == 32
+assert batch["reconciliationSummary"]["aliasExisting"] == 1
+assert batch["reconciliationSummary"]["newCanonicalCandidates"] == 7
+assert sum("proposedIntroducedYear" in row for row in rows) == 4
+for row in rows:
+    status = row["reconciliation"]["status"]
+    assert status in statuses
+    assert row["reconciliation"]["checkedAgainst"].startswith("tool/build_dataset.py@")
+    if status == "NEW_CANONICAL_CANDIDATE":
+        assert row["reconciliation"]["canonicalId"] is None
+    else:
+        assert row["reconciliation"]["canonicalId"]
+        assert row["reconciliation"]["canonicalTitleEn"]
+    if "proposedIntroducedYear" in row:
+        assert row["proposedIntroducedYear"] <= 2026
+        assert row["introducedYearSource"] == row["observanceSourceUrl"]
+assert next(row for row in rows if row["candidateId"] == "world-tb-day")["reconciliation"]["status"] == "EXISTING_ALIAS"
+assert next(row for row in rows if row["candidateId"] == "world-prematurity-day")["reconciliation"]["dateStatus"] == "2026_11_15_CONFIRMED_WHO"
+print("PASS: 40 candidates / 32 exact / 1 alias / 7 new candidates / 4 sourced year proposals / no runtime promotion")
