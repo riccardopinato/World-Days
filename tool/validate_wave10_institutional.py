@@ -1,3 +1,4 @@
+from catalog_source_contract import expected_totals, dataset_version
 #!/usr/bin/env python3
 """Source-originator admission audit for WHO/UNESCO Wave10.
 
@@ -22,10 +23,10 @@ expected={
 "international-day-of-women-in-multilateralism":("UNESCO","https://www.unesco.org/en/days/women-multilateralism",("2026-01-25","2027-01-25","2028-01-25"),"FIXED_DATE"),
 "international-day-against-violence-and-bullying-at-school-including-cyberbullying":("UNESCO","https://www.unesco.org/en/days/against-school-violence-and-bullying",("2026-11-05","2027-11-04","2028-11-02"),"NTH_WEEKDAY"),
 }
-assert core["datasetVersion"]=="2026.11.10.10"
-assert len(rows)==len(by_id)==511
-assert sum(r["scope"]=="GLOBAL" for r in rows)==292
-assert sum(r["scope"]=="NATIONAL" for r in rows)==219
+assert core["datasetVersion"]== dataset_version()
+assert len(rows)==len(by_id)== expected_totals()["total"]
+assert sum(r["scope"]=="GLOBAL" for r in rows)== expected_totals()["global"]
+assert sum(r["scope"]=="NATIONAL" for r in rows)== expected_totals()["national"]
 assert len(calendar["dateIndex"])==365
 assert set(expected).issubset(by_id)
 for rid,(agency,source,dates,kind) in expected.items():
