@@ -82,6 +82,20 @@ void main() {
     // this controller during the current test zone while that probe runs.
   });
 
+  test('every market dropdown option can be persisted, unsupported code rejected', () async {
+    final controller = await _controller();
+    for (final code in <String>['CA', 'CZ', 'NL', 'MT', 'HR', 'CY']) {
+      await controller.setMarket(code);
+      expect(controller.preferences.marketCode, code);
+      expect(controller.recordsForMarket(code), isNotEmpty);
+    }
+    expect(
+      () => controller.setMarket('XX'),
+      throwsArgumentError,
+    );
+    // Remote-content pack and native device certification are separate gates.
+  });
+
   test('market and locale preferences remain independent', () async {
     final controller = await _controller();
 
