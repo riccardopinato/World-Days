@@ -71,7 +71,7 @@ void main() {
   test('each country also has the shared global layer without false national authority', () async {
     final controller = await _controller();
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
-    expect(global, hasLength(285));
+    expect(global, hasLength(292));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
     for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'BD', 'ID', 'KH', 'MY', 'VN', 'LA']) {
       final national = controller.recordsForMarket(country);
