@@ -15,7 +15,7 @@ records = catalog["records"]
 by_id = {r["id"]: r for r in records}
 assert len(records) == len(by_id) == 511
 assert catalog["datasetVersion"] == "2026.11.10.10"
-assert len([r for r in records if r["scope"] == "GLOBAL"]) == 285
+assert len([r for r in records if r["scope"] == "GLOBAL"]) == 292
 assert len([r for r in records if r["scope"] == "NATIONAL"]) == 219
 
 expected = {
