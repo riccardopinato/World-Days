@@ -11,6 +11,8 @@ def sample():
     title="Synthetic Test Observance — Not a Real Day"
     return {
       "id":"synthetic-test-not-real","canonicalTitleEn":title,
+      "authority":{"name":"Synthetic Institutional Test","type":"UNESCO","officiality":"OFFICIAL_UNESCO"},
+      "sourceReviewedOn":"2026-11-10",
       "aliases":[],"scope":"GLOBAL","country":None,
       "localizedTitles":{l:title for l in ("en","it","es","fr","de","pt")},
       "recurrenceRules":[{"kind":"FIXED_DATE","month":4,"day":4}],
@@ -28,9 +30,12 @@ def sample():
         "evidenceUrl":base,
       },
     }
+def trust_fixture():
+    return {"id":"known-test-host","canonicalTitleEn":"Synthetic Host Fixture",
+            "aliases":[],"sources":[{"tier":"A_PRIMARY","url":"https://www.unesco.org/en/days/fixture"}]}
 def check(record,original=None):
     return inspect({"schemaVersion":1,"batchId":"synthetic-test","count":1,"records":[record]},
-                   original or [],{"IT","US"})["records"][0]
+                   [trust_fixture(),*(original or [])],{"IT","US"})["records"][0]
 
 class BulkGateTests(unittest.TestCase):
     def test_synthetic_complete_structural_record(self):
@@ -74,7 +79,7 @@ class BulkGateTests(unittest.TestCase):
         batch=[]
         for i in range(50):
             r=sample();r["id"]=f"synthetic-test-{i}";r["canonicalTitleEn"]+=f" {i}";r["localizedTitles"]={l:r["canonicalTitleEn"] for l in r["localizedTitles"]};batch.append(r)
-        result=inspect({"schemaVersion":1,"batchId":"synthetic-50","count":50,"records":batch},[],set())
+        result=inspect({"schemaVersion":1,"batchId":"synthetic-50","count":50,"records":batch},[trust_fixture()],set())
         self.assertEqual(result["recordCount"],50)
         self.assertEqual(result["eligible"],50)
     def test_empty_template_is_safe(self):
