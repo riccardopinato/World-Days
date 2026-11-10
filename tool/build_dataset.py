@@ -579,11 +579,11 @@ for record in records:
 # INSTITUTIONAL ADMISSION WAVE05 — verified institutional calendars (2026-11-10).
 # Source-level facts only; no rich-editorial REVIEWED claim and no inferred years.
 def _wave05_fixed(title, month, day, authority, authority_type, officiality, url,
-                  resolution=None, introduced_year=None, aliases=None):
+                  resolution=None, introduced_year=None, aliases=None, categories=None):
     add(
         title, 'DAY', [{'kind': 'FIXED_DATE', 'month': month, 'day': day}],
         auth(authority, authority_type, officiality, resolution),
-        url, aliases=aliases,
+        url, cats=categories, aliases=aliases,
     )
     record = records[-1]
     record['lastVerifiedAt'] = '2026-11-10'
@@ -597,41 +597,46 @@ _wave05_fixed(
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/women-multilateralism',
     resolution='41 C/Resolution 57', introduced_year=2021,
+    categories=['PEOPLE'],
 )
 _wave05_fixed(
     'World Engineering Day for Sustainable Development', 3, 4,
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/engineering-sustainable-development',
     resolution='40 C/Resolution 31', introduced_year=2019,
+    categories=['FUTURE'],
 )
 _wave05_fixed(
     'International Day of Mathematics', 3, 14,
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/mathematics',
     resolution='40 C/Resolution 30', introduced_year=2019,
+    categories=['LEARNING'],
 )
 _wave05_fixed(
     'World Day of Romani Language', 11, 5,
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/list',
+    categories=['CULTURE', 'LEARNING'],
 )
 _wave05_fixed(
     'International Day against Illicit Trafficking in Cultural Property', 11, 14,
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/against-illicit-trafficking',
-    introduced_year=2019,
+    introduced_year=2019, categories=['CULTURE'],
 )
 _wave05_fixed(
     'International Day of Islamic Art', 11, 18,
     'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
     'https://www.unesco.org/en/days/islamic-art',
-    introduced_year=2019,
+    introduced_year=2019, categories=['CULTURE'],
 )
 _wave05_fixed(
     'World Hearing Day', 3, 3,
     'World Health Organization', 'WHO', 'OFFICIAL_WHO',
     'https://www.who.int/campaigns/world-hearing-day',
     aliases=['International Ear Care Day', 'International Day for Ear and Hearing Care'],
+    categories=['HEALTH'],
 )
 
 # SEMANTIC CATEGORY NORMALIZATION
