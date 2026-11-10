@@ -109,6 +109,39 @@ void main() {
     });
   }
 
+  const wave07Markets = <(String, int, String)>[
+    ('EE', 17, 'it'),
+    ('LV', 5, 'es'),
+    ('LT', 6, 'fr'),
+    ('IS', 3, 'de'),
+    ('LU', 1, 'pt'),
+  ];
+  for (final market in wave07Markets) {
+    testWidgets('Wave07 ${market.$1} locale ${market.$3} 320px browse',
+        (tester) async {
+      tester.view.physicalSize = const Size(320, 844);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      final controller = await buildLoadedTestController(
+        catalog: catalog,
+        preferences: UserPreferences(marketCode: market.$1),
+      );
+      addTearDown(controller.dispose);
+      await tester.pumpWidget(
+        wrapTestApp(
+          AroundTheWorldPage(controller: controller),
+          locale: Locale(market.$3),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(controller.recordsForMarket(market.$1), hasLength(market.$2));
+      expect(find.byType(ChoiceChip), findsNWidgets(3));
+      expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
+      expect(tester.takeException(), isNull);
+    });
+  }
+
   for (final market in wave04Markets) {
     testWidgets('Wave04 ${market.$1}: national/global 320px without overflow',
         (tester) async {
