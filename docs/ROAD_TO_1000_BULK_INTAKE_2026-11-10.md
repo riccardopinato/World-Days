@@ -2,9 +2,9 @@
 
 ## Actual counts vs target (2026-11-10)
 
-- Main baseline: **456** canonical observances.
-- Pending source-admission PR #76: **7** distinct additions → **463** *only after green CI and merge*.
-- Target: **1,000 distinct canonical observances**, so **537 further distinct records required after PR #76**.
+- **Current main (after merged PR #76): 463** canonical observances.
+- The seven UNESCO/WHO source admissions in PR #76 are already merged, with green CI.
+- Target: **1,000 distinct canonical observances**, so **537 further distinct records are required**.
 - Existing reviewed rich articles: **56**; 1,000 titles do **not** equal 1,000 source-reviewed histories.
 
 ## Fast pipeline
@@ -39,4 +39,4 @@ The planned quotas depend on real source coverage; do **not** fill them with dup
 
 ## Acceptance gate
 
-`python3 tool/test_discover_eures_institutional.py` tests offline parsing and research-only isolation. Its PASS **does not certify** an actual external source response or its contents. A real remote ingestion still requires snapshot review, full deduplication and per-entry legal provenance. PR #76 must be resolved before this branch is merged into main.
+`python3 tool/test_discover_eures_institutional.py` tests offline parsing and research-only isolation. Its PASS **does not certify** an actual external source response or its contents. A real remote ingestion still requires snapshot review, full deduplication and per-entry legal provenance. PR #76 is already merged; this research-only intake PR now targets main. Its CI and source-parsing gates remain mandatory.
