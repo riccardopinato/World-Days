@@ -20,6 +20,7 @@ def contract():
     assert len(set(d["globalStageIds"]))==len(d["globalStageIds"])
     extra_ids=set(d["globalStageIds"])
     bycountry=Counter()
+    added_global=0
     for stage in d["nationalWaves"]:
         src=read(ROOT/stage["file"])
         rows=src["records"]
@@ -39,10 +40,11 @@ def contract():
             assert r["id"] not in extra_ids,("bulk collision",r["id"])
             extra_ids.add(r["id"])
             if r["scope"]=="NATIONAL":bycountry[r["country"]]+=1
+            else:
+                assert r["scope"]=="GLOBAL"
+                added_global+=1
     return {
-        "global":base["global"]+len(d["globalStageIds"])+sum(
-            len(read(f)["records"]) if False else 0 for f in []
-        ),
+        "global":base["global"]+len(d["globalStageIds"])+added_global,
         "national":base["national"]+sum(bycountry.values()),
         "baseTotal":base["total"],
         "sourceDeclaredIds":len(extra_ids),
