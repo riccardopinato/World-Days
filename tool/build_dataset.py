@@ -434,6 +434,26 @@ fixed('International Anti-Cybercrime Day',12,24,'A/RES/79/243')
 fixed('International Day of Epidemic Preparedness',12,27,'A/RES/75/27')
 
 
+# Wave10: genuine missing institution-originator observances (source, not generic NGO lists).
+# WHO annual campaigns are WHO-led, NOT automatically WHA-mandated "official days".
+fixed('World Hearing Day',3,3,None,'World Health Organization','WHO','OFFICIAL_WHO',
+      'https://www.who.int/campaigns/world-hearing-day')
+fixed('World Hand Hygiene Day',5,5,None,'World Health Organization','WHO','OFFICIAL_WHO',
+      'https://www.who.int/campaigns/world-hand-hygiene-day')
+fixed('World Rabies Day',9,28,None,'World Health Organization','WHO','OFFICIAL_WHO',
+      'https://www.who.int/campaigns/world-rabies-day')
+fixed('World Polio Day',10,24,None,'World Health Organization','WHO','OFFICIAL_WHO',
+      'https://www.who.int/europe/campaigns/world-polio-day')
+lastwd('World Leprosy Day',1,7,None,'World Health Organization','WHO','OFFICIAL_WHO',
+      'https://www.who.int/campaigns/world-leprosy-day')
+fixed('International Day of Women in Multilateralism',1,25,'41 C/Resolution 57',
+      'UNESCO','UNESCO','OFFICIAL_UNESCO',
+      'https://www.unesco.org/en/days/women-multilateralism')
+nth('International Day against Violence and Bullying at School, including Cyberbullying',
+    11,4,1,None,'UNESCO','UNESCO','OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/against-school-violence-and-bullying')
+
+
 # CURATED CONSUMER / ORIGINATOR-BACKED OBSERVANCES
 # These records are intentionally distinct from the UN/UNESCO/WHO official core.
 # They are published only when an originator or primary institutional source is known.
@@ -768,7 +788,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.10.9',
+ 'datasetVersion':'2026.11.10.10',
  'generatedAt':'2026-11-09',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),
