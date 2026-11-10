@@ -35,7 +35,7 @@ The classification is *provisional* (keyword heuristic), with `admissionReady=fa
 
 ## Adoption rule for the 1,000 distinct-record goal
 
-At the time of this research, PR #76 merged seven sourced global records, reaching **463 canonical observances** on main. **537 more distinct canonical identities** are needed to reach 1,000. This EU source provides a candidate discovery pool rather than 290 additions.
+After successful merges #76 and #78, main contains **479 canonical observances**. **521 more distinct canonical identities** are needed to reach 1,000. This EU source provides a candidate discovery pool rather than 290 additions.
 
 For the next canonical batch, select country-unique civic commemorations, then require:
 1. Country-specific competent government law / current official calendar for correct designation and geographical coverage;
