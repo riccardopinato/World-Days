@@ -7,8 +7,8 @@ ROOT=Path(__file__).resolve().parents[1]
 cat=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records=cat["records"];byid={r["id"]:r for r in records}
-assert len(records)==len(byid)==504
-assert cat["datasetVersion"]=="2026.11.10.9"
+assert len(records)==len(byid)==511
+assert cat["datasetVersion"]=="2026.11.10.10"
 assert sum(r["scope"]=="GLOBAL" for r in records)==285
 assert sum(r["scope"]=="NATIONAL" for r in records)==219
 assert sum(r["countries"]==["IN"] for r in records)==5
@@ -29,4 +29,4 @@ for x in fresh:
     dates=[o["startDate"] for o in occ["occurrences"] if o["observanceId"]==x["id"]]
     assert dates==[EXPECTED[x["id"]][2]],(x["id"],dates)
 assert len(occ["dateIndex"])==365
-print("WAVE07 IN CONTENT PASS: 504 unique; 285 global, 207 national, India five; three 6-locales original source STUBs; no release or human content approval.")
+print("WAVE07 IN CONTENT PASS: 511 unique; 285 global, 207 national, India five; three 6-locales original source STUBs; no release or human content approval.")
