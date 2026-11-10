@@ -13,6 +13,14 @@ ROOT=Path(__file__).resolve().parents[1]
 MANIFEST=ROOT/"data/catalog_source_contract.json"
 def read(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
+def dataset_version():
+    d=read(MANIFEST)
+    base=d["datasetVersionBase"]
+    parts=base.split(".")
+    assert len(parts)==4 and all(p.isdigit() for p in parts)
+    approved=list((ROOT/d["intakeApprovedDir"]).glob("*.json"))
+    return ".".join([*parts[:3],str(int(parts[3])+len(approved))])
+
 def contract():
     d=read(MANIFEST)
     base=d["base"]
