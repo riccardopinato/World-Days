@@ -71,7 +71,7 @@ void main() {
           (record) =>
               record.scope == 'NATIONAL' &&
               record.countries.length == 1 &&
-              record.countries.single == entry.key,
+              record.countries.single == country,
         ),
         isTrue,
         reason: country,
