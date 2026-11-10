@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 from market_wave04 import load_wave04
+from market_wave06 import load_wave06
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -188,7 +189,12 @@ def all_expansion_rows():
     titles = {item["canonicalTitleEn"] for item in prior}
     assert all(item["id"] not in ids for item in next_wave), "cross-wave duplicate ID"
     assert all(item["canonicalTitleEn"] not in titles for item in next_wave), "cross-wave title collision"
-    return [*prior, *next_wave]
+    wave06 = load_wave06()
+    existing_ids = ids | {row['id'] for row in next_wave}
+    existing_titles = titles | {row['canonicalTitleEn'] for row in next_wave}
+    assert all(item['id'] not in existing_ids for item in wave06), 'Wave06 canonical ID collision'
+    assert all(item['canonicalTitleEn'] not in existing_titles for item in wave06), 'Wave06 title collision'
+    return [*prior, *next_wave, *wave06]
 
 
 def expanded_title_map():
