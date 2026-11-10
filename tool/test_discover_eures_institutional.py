@@ -16,4 +16,11 @@ assert {r["country"] for r in records} == {"AT", "BE"}
 assert all(r["status"] == "DISCOVERY_ONLY" and r["primaryLegalSource"] is None for r in records)
 assert all(r["introducedYear"] is None and r["recurrenceRule"] is None for r in records)
 assert not any(r["titleEn"] == "Future Record" for r in records)
+
+# Alias and transnational duplicates cannot silently become national identities.
+sample={"records":[{"id":"world-holiday","canonicalTitleEn":"Armistice Day","aliases":["Remembrance Day"],"scope":"GLOBAL"}]}
+result=mod.reconcile(records,sample)
+assert any(row["titleEn"]=="Armistice Day" and row["dedupStatus"]=="MATCHED_EXISTING_TITLE_OR_ALIAS" for row in result)
+assert any(row["titleEn"]=="National Holiday" and row["dedupStatus"]=="GENERIC_TRANSNATIONAL_LABEL_REQUIRES_IDENTITY_REVIEW" for row in result)
+
 print("PASS: bulk importer source isolation, duplicate prevention, invalid dates, no publication")
