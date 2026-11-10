@@ -9,9 +9,10 @@ catalog=json.loads((root/"assets/data/official_core.json").read_text(encoding="u
 occ=json.loads((root/"assets/data/occurrences_2026.json").read_text(encoding="utf8"))
 known={r["id"]:r for r in catalog["records"]}
 rows=load_wave06()
-assert catalog["datasetVersion"]=="2026.11.10.2"
-assert len(known)==len(catalog["records"])==479
-assert Counter(r["scope"] for r in known.values())=={"GLOBAL":289,"NATIONAL":190}
+assert tuple(map(int,catalog["datasetVersion"].split("."))) >= (2026,11,10,2)
+assert len(known)==len(catalog["records"])>=479
+assert Counter(r["scope"] for r in known.values())["GLOBAL"]==289
+assert Counter(r["scope"] for r in known.values())["NATIONAL"]>=190
 for source in rows:
  rid=source["id"];r=known[rid]
  assert r["countries"]==[source["country"]],rid

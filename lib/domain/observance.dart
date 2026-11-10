@@ -150,6 +150,12 @@ RecurrenceRule recurrenceRuleFromJson(Map<String, dynamic> json) {
         weekday: json['weekday'] as int,
         occurrence: json['occurrence'] as int,
       );
+    case 'WEEKDAY_ON_OR_AFTER':
+      return WeekdayOnOrAfterRule(
+        month: json['month'] as int,
+        day: json['day'] as int,
+        weekday: json['weekday'] as int,
+      );
     case 'LAST_WEEKDAY':
       return LastWeekdayRule(
         month: json['month'] as int,

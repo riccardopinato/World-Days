@@ -40,6 +40,11 @@ const marketOptions = <MarketOption>[
   MarketOption('MT', '🇲🇹'),
   MarketOption('HR', '🇭🇷'),
   MarketOption('CY', '🇨🇾'),
+  MarketOption('EE', '🇪🇪'),
+  MarketOption('LV', '🇱🇻'),
+  MarketOption('LT', '🇱🇹'),
+  MarketOption('IS', '🇮🇸'),
+  MarketOption('LU', '🇱🇺'),
 ];
 
 String marketLabel(AppLocalizations l10n, String code) {
@@ -106,6 +111,16 @@ String marketLabel(AppLocalizations l10n, String code) {
       return l10n.countryCroatia;
     case 'CY':
       return l10n.countryCyprus;
+    case 'EE':
+      return l10n.countryEstonia;
+    case 'LV':
+      return l10n.countryLatvia;
+    case 'LT':
+      return l10n.countryLithuania;
+    case 'IS':
+      return l10n.countryIceland;
+    case 'LU':
+      return l10n.countryLuxembourg;
     default:
       return l10n.globalMarket;
   }

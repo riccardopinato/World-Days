@@ -26,9 +26,11 @@ jobs:
         run: |
           python3 tool/market_wave04.py
           python3 tool/market_wave06.py
+          python3 tool/market_wave07.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/validate_wave06_generated.py
+          python3 tool/validate_wave07_generated.py
           python3 tool/test_discover_eures_institutional.py
           python3 tool/validate_eures_research_batch.py
           python3 tool/triage_bulk_institutional.py

@@ -3,6 +3,7 @@ import 'golden_civil_date.dart' as golden;
 enum RecurrenceKind {
   fixedDate,
   nthWeekday,
+  weekdayOnOrAfter,
   lastWeekday,
   lastDayOfMonth,
   fixedRange,
@@ -55,6 +56,21 @@ final class NthWeekdayRule extends RecurrenceRule {
   final int month;
   final int weekday;
   final int occurrence;
+}
+
+/// First ISO weekday on or after a fixed day of month (e.g. Iceland summer).
+final class WeekdayOnOrAfterRule extends RecurrenceRule {
+  const WeekdayOnOrAfterRule({
+    required this.month,
+    required this.day,
+    required this.weekday,
+  })  : assert(month >= 1 && month <= 12),
+        assert(day >= 1 && day <= 24),
+        assert(weekday >= 1 && weekday <= 7),
+        super(RecurrenceKind.weekdayOnOrAfter);
+  final int month;
+  final int day;
+  final int weekday;
 }
 
 final class LastWeekdayRule extends RecurrenceRule {
@@ -147,6 +163,9 @@ abstract final class RecurrenceEngine {
       NthWeekdayRule r => _single(
           _nthWeekday(year, r.month, r.weekday, r.occurrence),
         ),
+      WeekdayOnOrAfterRule r => _single(
+          _weekdayOnOrAfter(year, r.month, r.day, r.weekday),
+        ),
       LastWeekdayRule r => _single(
           _lastWeekday(year, r.month, r.weekday),
         ),
@@ -178,6 +197,14 @@ abstract final class RecurrenceEngine {
     int year, int month, int weekday, int occurrence,
   ) => golden.CivilRecurrence
       .nthWeekday(year, month, weekday, occurrence).toUtcDateTime();
+
+  static DateTime _weekdayOnOrAfter(
+    int year, int month, int day, int weekday,
+  ) {
+    final first = _checkedDate(year, month, day);
+    final offset = (weekday - first.weekday + 7) % 7;
+    return first.add(Duration(days: offset));
+  }
 
   static DateTime _lastWeekday(int year, int month, int weekday) =>
       golden.CivilRecurrence.lastWeekday(year, month, weekday).toUtcDateTime();

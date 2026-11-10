@@ -1,0 +1,1124 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave07-primary-2026-11-10",
+  "sourceReviewDate": "2026-11-10",
+  "count": 32,
+  "countryCounts": {
+    "EE": 17,
+    "LV": 5,
+    "LT": 6,
+    "IS": 3,
+    "LU": 1
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "editorialReview": "SOURCE_METADATA_ONLY_NOT_RICH_HISTORY",
+  "records": [
+    {
+      "id": "ee-war-of-independence-remembrance",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian War of Independence Remembrance Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 3
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian War of Independence Remembrance Day",
+        "it": "Giornata del ricordo della guerra d'indipendenza estone",
+        "es": "Día del recuerdo de la Guerra de Independencia de Estonia",
+        "fr": "Journée du souvenir de la guerre d'indépendance estonienne",
+        "de": "Gedenktag des estnischen Unabhängigkeitskriegs",
+        "pt": "Dia da Memória da Guerra de Independência da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-estonian-literature-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Literature Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Literature Day",
+        "it": "Giornata della letteratura estone",
+        "es": "Día de la Literatura Estonia",
+        "fr": "Journée de la littérature estonienne",
+        "de": "Tag der estnischen Literatur",
+        "pt": "Dia da Literatura Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-tartu-peace-treaty-day",
+      "country": "EE",
+      "canonicalTitleEn": "Tartu Peace Treaty Anniversary",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 2
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Tartu Peace Treaty Anniversary",
+        "it": "Anniversario del trattato di pace di Tartu",
+        "es": "Aniversario del Tratado de Paz de Tartu",
+        "fr": "Anniversaire du traité de paix de Tartu",
+        "de": "Jahrestag des Friedensvertrags von Tartu",
+        "pt": "Aniversário do Tratado de Paz de Tartu"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-independence-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonia Independence Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonia Independence Day",
+        "it": "Giornata dell'indipendenza estone",
+        "es": "Día de la Independencia de Estonia",
+        "fr": "Fête de l'indépendance de l'Estonie",
+        "de": "Unabhängigkeitstag Estlands",
+        "pt": "Dia da Independência da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-mother-tongue-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Mother Tongue Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 14
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Mother Tongue Day",
+        "it": "Giornata della lingua madre estone",
+        "es": "Día de la Lengua Materna Estonia",
+        "fr": "Journée de la langue maternelle estonienne",
+        "de": "Tag der estnischen Muttersprache",
+        "pt": "Dia da Língua Materna Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-veterans-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Veterans Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Veterans Day",
+        "it": "Giornata dei veterani estoni",
+        "es": "Día de los Veteranos Estonios",
+        "fr": "Journée des anciens combattants estoniens",
+        "de": "Tag der estnischen Veteranen",
+        "pt": "Dia dos Veteranos Estónios"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-flag-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Flag Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Flag Day",
+        "it": "Giornata della bandiera estone",
+        "es": "Día de la Bandera Estonia",
+        "fr": "Journée du drapeau estonien",
+        "de": "Tag der estnischen Flagge",
+        "pt": "Dia da Bandeira Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-day-of-mourning",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Day of Mourning",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 14
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Day of Mourning",
+        "it": "Giornata del lutto estone",
+        "es": "Día de Duelo de Estonia",
+        "fr": "Journée de deuil estonienne",
+        "de": "Estnischer Trauertag",
+        "pt": "Dia de Luto da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-victory-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonia Victory Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonia Victory Day",
+        "it": "Giornata della vittoria estone",
+        "es": "Día de la Victoria de Estonia",
+        "fr": "Jour de la victoire estonienne",
+        "de": "Siegestag Estlands",
+        "pt": "Dia da Vitória da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-midsummer-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Midsummer Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Midsummer Day",
+        "it": "Festa estone di mezza estate",
+        "es": "Día de San Juan en Estonia",
+        "fr": "Fête de la Saint-Jean en Estonie",
+        "de": "Estnischer Mittsommertag",
+        "pt": "Dia do Solstício de Verão da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-restoration-of-independence-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonia Restoration of Independence Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 20
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonia Restoration of Independence Day",
+        "it": "Giornata del ripristino dell'indipendenza estone",
+        "es": "Día de la Restauración de la Independencia de Estonia",
+        "fr": "Journée du rétablissement de l'indépendance estonienne",
+        "de": "Tag der Wiederherstellung der Unabhängigkeit Estlands",
+        "pt": "Dia da Restauração da Independência da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-knowledge-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Knowledge Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Knowledge Day",
+        "it": "Giornata della conoscenza estone",
+        "es": "Día del Conocimiento en Estonia",
+        "fr": "Journée de la connaissance en Estonie",
+        "de": "Tag des Wissens in Estland",
+        "pt": "Dia do Conhecimento na Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-resistance-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Resistance Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 22
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Resistance Day",
+        "it": "Giornata della resistenza estone",
+        "es": "Día de la Resistencia Estonia",
+        "fr": "Journée de la résistance estonienne",
+        "de": "Estnischer Widerstandstag",
+        "pt": "Dia da Resistência Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-local-government-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Local Self-Government Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Local Self-Government Day",
+        "it": "Giornata dell'autogoverno locale estone",
+        "es": "Día del Autogobierno Local de Estonia",
+        "fr": "Journée de l'autonomie locale estonienne",
+        "de": "Tag der estnischen kommunalen Selbstverwaltung",
+        "pt": "Dia da Autonomia Local da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-finno-ugric-peoples-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Finno-Ugric Peoples Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 6,
+          "occurrence": 3
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Finno-Ugric Peoples Day",
+        "it": "Giornata estone dei popoli ugrofinnici",
+        "es": "Día de los Pueblos Finoúgricos de Estonia",
+        "fr": "Journée des peuples finno-ougriens en Estonie",
+        "de": "Estnischer Tag der finno-ugrischen Völker",
+        "pt": "Dia dos Povos Fino-Úgricos na Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-sovereignty-declaration-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Sovereignty Declaration Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 16
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Sovereignty Declaration Day",
+        "it": "Giornata della dichiarazione di sovranità estone",
+        "es": "Día de la Declaración de Soberanía de Estonia",
+        "fr": "Journée de la déclaration de souveraineté estonienne",
+        "de": "Tag der estnischen Souveränitätserklärung",
+        "pt": "Dia da Declaração de Soberania da Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "ee-grandparents-day",
+      "country": "EE",
+      "canonicalTitleEn": "Estonian Grandparents Day",
+      "aliases": [],
+      "authority": "Estonian Information System Authority",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 9,
+          "weekday": 7,
+          "occurrence": 2
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Estonian Grandparents Day",
+        "it": "Giornata dei nonni in Estonia",
+        "es": "Día de los Abuelos en Estonia",
+        "fr": "Fête des grands-parents en Estonie",
+        "de": "Großelterntag in Estland",
+        "pt": "Dia dos Avós na Estónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lv-constituent-assembly-day",
+      "country": "LV",
+      "canonicalTitleEn": "Latvia Constituent Assembly Convocation Day",
+      "aliases": [],
+      "authority": "Ministry of Foreign Affairs of Latvia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.mfa.gov.lv/en/latvian-national-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Latvia Constituent Assembly Convocation Day",
+        "it": "Giornata della convocazione dell'Assemblea costituente lettone",
+        "es": "Día de la Convocatoria de la Asamblea Constituyente de Letonia",
+        "fr": "Journée de convocation de l'Assemblée constituante lettone",
+        "de": "Tag der Einberufung der lettischen Verfassungsversammlung",
+        "pt": "Dia da Convocação da Assembleia Constituinte da Letónia"
+      },
+      "chronologyNote": "The Bank of Latvia national public holiday calendar explicitly calls May 1 Labour Day and the Convocation of the Constituent Assembly of the Republic of Latvia. This verifies the civic designation but does not establish a formal introduction year.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates.",
+      "additionalSources": [
+        "https://www.bank.lv/en/about-us/useful/public-holidays-in-latvia"
+      ]
+    },
+    {
+      "id": "lv-declaration-of-independence-day",
+      "country": "LV",
+      "canonicalTitleEn": "Latvia Declaration of Independence Day",
+      "aliases": [],
+      "authority": "Ministry of Foreign Affairs of Latvia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.mfa.gov.lv/en/latvian-national-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Latvia Declaration of Independence Day",
+        "it": "Giornata della dichiarazione d'indipendenza lettone",
+        "es": "Día de la Declaración de Independencia de Letonia",
+        "fr": "Journée de la déclaration d'indépendance lettone",
+        "de": "Tag der lettischen Unabhängigkeitserklärung",
+        "pt": "Dia da Declaração de Independência da Letónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lv-ligo-evening",
+      "country": "LV",
+      "canonicalTitleEn": "Latvia Līgo Evening",
+      "aliases": [],
+      "authority": "Ministry of Foreign Affairs of Latvia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.mfa.gov.lv/en/latvian-national-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Latvia Līgo Evening",
+        "it": "Vigilia di Līgo in Lettonia",
+        "es": "Víspera de Līgo en Letonia",
+        "fr": "Veillée de Līgo en Lettonie",
+        "de": "Līgo-Abend in Lettland",
+        "pt": "Véspera de Līgo na Letónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lv-jani-day",
+      "country": "LV",
+      "canonicalTitleEn": "Latvia Jāņi Day",
+      "aliases": [],
+      "authority": "Ministry of Foreign Affairs of Latvia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.mfa.gov.lv/en/latvian-national-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Latvia Jāņi Day",
+        "it": "Festa di Jāņi in Lettonia",
+        "es": "Día de Jāņi en Letonia",
+        "fr": "Fête de Jāņi en Lettonie",
+        "de": "Jāņi-Tag in Lettland",
+        "pt": "Dia de Jāņi na Letónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lv-republic-proclamation-day",
+      "country": "LV",
+      "canonicalTitleEn": "Latvia Republic Proclamation Day",
+      "aliases": [],
+      "authority": "Ministry of Foreign Affairs of Latvia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://www.mfa.gov.lv/en/latvian-national-holidays",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 18
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Latvia Republic Proclamation Day",
+        "it": "Giornata della proclamazione della Repubblica di Lettonia",
+        "es": "Día de la Proclamación de la República de Letonia",
+        "fr": "Journée de la proclamation de la République de Lettonie",
+        "de": "Tag der Ausrufung der Republik Lettland",
+        "pt": "Dia da Proclamação da República da Letónia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-state-restoration-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania State Restoration Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 16
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania State Restoration Day",
+        "it": "Giornata della restaurazione dello Stato lituano",
+        "es": "Día de la Restauración del Estado de Lituania",
+        "fr": "Journée de la restauration de l'État lituanien",
+        "de": "Tag der Wiederherstellung des litauischen Staates",
+        "pt": "Dia da Restauração do Estado Lituano"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-independence-restoration-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania Independence Restoration Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania Independence Restoration Day",
+        "it": "Giornata del ripristino dell'indipendenza lituana",
+        "es": "Día de la Restauración de la Independencia de Lituania",
+        "fr": "Journée du rétablissement de l'indépendance lituanienne",
+        "de": "Tag der Wiederherstellung der Unabhängigkeit Litauens",
+        "pt": "Dia da Restauração da Independência da Lituânia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-jonines-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania Joninės Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania Joninės Day",
+        "it": "Festa di Joninės in Lituania",
+        "es": "Día de Joninės en Lituania",
+        "fr": "Fête de Joninės en Lituanie",
+        "de": "Joninės-Tag in Litauen",
+        "pt": "Dia de Joninės na Lituânia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-mindaugas-coronation-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania King Mindaugas Coronation Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania King Mindaugas Coronation Day",
+        "it": "Giornata dell'incoronazione di re Mindaugas in Lituania",
+        "es": "Día de la Coronación del Rey Mindaugas en Lituania",
+        "fr": "Journée du couronnement du roi Mindaugas en Lituanie",
+        "de": "Krönungstag von König Mindaugas in Litauen",
+        "pt": "Dia da Coroação do Rei Mindaugas na Lituânia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-mothers-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania Mothers Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 5,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania Mothers Day",
+        "it": "Festa della mamma in Lituania",
+        "es": "Día de la Madre en Lituania",
+        "fr": "Fête des mères en Lituanie",
+        "de": "Muttertag in Litauen",
+        "pt": "Dia da Mãe na Lituânia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lt-fathers-day",
+      "country": "LT",
+      "canonicalTitleEn": "Lithuania Fathers Day",
+      "aliases": [],
+      "authority": "Seimas of the Republic of Lithuania",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://e-seimas.lrs.lt/portal/legalActPrint/lt?actualEditionId=bappumbxwA&category=TAD&documentId=10c6bfd07bd511e6a0f68fd135e6f40c&jfwid=-zl0c8j43x",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 6,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lithuania Fathers Day",
+        "it": "Festa del papà in Lituania",
+        "es": "Día del Padre en Lituania",
+        "fr": "Fête des pères en Lituanie",
+        "de": "Vatertag in Litauen",
+        "pt": "Dia do Pai na Lituânia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "is-first-day-of-summer",
+      "country": "IS",
+      "canonicalTitleEn": "Iceland First Day of Summer",
+      "aliases": [],
+      "authority": "Central Bank of Iceland",
+      "authorityType": "CENTRAL_BANK",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://cb.is/about-the-bank/public-holidays-in-iceland",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "WEEKDAY_ON_OR_AFTER",
+          "month": 4,
+          "day": 19,
+          "weekday": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Iceland First Day of Summer",
+        "it": "Primo giorno d'estate in Islanda",
+        "es": "Primer Día del Verano en Islandia",
+        "fr": "Premier jour de l'été en Islande",
+        "de": "Erster Sommertag in Island",
+        "pt": "Primeiro Dia de Verão na Islândia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The City of Reykjavík establishes the first day of summer as the Thursday between 19 and 25 April, not invariably the fourth Thursday. The rule uses the first Thursday on or after April 19, valid across years.",
+      "additionalSources": [
+        "https://reykjavik.is/en/holidays-and-festive-days"
+      ]
+    },
+    {
+      "id": "is-independence-day",
+      "country": "IS",
+      "canonicalTitleEn": "Iceland Independence Day",
+      "aliases": [],
+      "authority": "Central Bank of Iceland",
+      "authorityType": "CENTRAL_BANK",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://cb.is/about-the-bank/public-holidays-in-iceland",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 17
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Iceland Independence Day",
+        "it": "Giornata dell'indipendenza islandese",
+        "es": "Día de la Independencia de Islandia",
+        "fr": "Fête de l'indépendance de l'Islande",
+        "de": "Unabhängigkeitstag Islands",
+        "pt": "Dia da Independência da Islândia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "is-commerce-day",
+      "country": "IS",
+      "canonicalTitleEn": "Iceland Commerce Day",
+      "aliases": [],
+      "authority": "Central Bank of Iceland",
+      "authorityType": "CENTRAL_BANK",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://cb.is/about-the-bank/public-holidays-in-iceland",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 8,
+          "weekday": 1,
+          "occurrence": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Iceland Commerce Day",
+        "it": "Giornata del commercio in Islanda",
+        "es": "Día del Comercio en Islandia",
+        "fr": "Journée du commerce en Islande",
+        "de": "Handelstag in Island",
+        "pt": "Dia do Comércio na Islândia"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    },
+    {
+      "id": "lu-national-day",
+      "country": "LU",
+      "canonicalTitleEn": "Luxembourg National Day",
+      "aliases": [],
+      "authority": "Luxembourg Labour and Mines Inspectorate",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_PUBLIC_HOLIDAY",
+      "source": "https://itm.public.lu/en/conditions-travail/conges/jours-feries.html",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-10",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Luxembourg National Day",
+        "it": "Festa nazionale del Lussemburgo",
+        "es": "Día Nacional de Luxemburgo",
+        "fr": "Fête nationale du Luxembourg",
+        "de": "Nationalfeiertag Luxemburgs",
+        "pt": "Dia Nacional do Luxemburgo"
+      },
+      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+    }
+  ]
+}
