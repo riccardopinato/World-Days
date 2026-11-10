@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-10",
+  "institution": "UNESCO",
+  "count": 2,
+  "certification": "PRIMARY_SOURCE_DATE_AND_AUTHORITY_ONLY",
+  "notCertified": [
+    "human_review",
+    "automatic_UN_official_designation",
+    "historical_introduction_other_than_source",
+    "product_merge"
+  ],
+  "records": [
+    {
+      "name": "International Day of Women in Multilateralism",
+      "rule": "FIXED_DATE",
+      "month": 1,
+      "day": 25,
+      "source": "https://www.unesco.org/en/days/women-multilateralism",
+      "note": "UNESCO 41 C/57 adopted November 23 2021, not a general UNGA resolution",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    },
+    {
+      "name": "International Day against Violence and Bullying at School, including Cyberbullying",
+      "rule": "NTH_WEEKDAY",
+      "month": 11,
+      "day": 4,
+      "source": "https://www.unesco.org/en/days/against-school-violence-and-bullying",
+      "note": "UNESCO: first Thursday November; 2026 Nov 5, 2027 Nov 4, 2028 Nov 2",
+      "status": "SOURCE_DATE_AUTHENTICATED_NOT_MERGED"
+    }
+  ]
+}
