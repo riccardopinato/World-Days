@@ -1,0 +1,15 @@
+name: UNESCO institutional source/date audit
+on:
+  push:
+    branches: [research/institutions-unesco-20261110]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate original institution date identity and annual rules
+        run: python3 tool/validate_primary_institution_lane.py
