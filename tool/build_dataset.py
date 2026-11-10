@@ -576,6 +576,64 @@ for record in records:
             'verifiedAt': '2026-11-03',
         })
 
+# INSTITUTIONAL ADMISSION WAVE05 — verified institutional calendars (2026-11-10).
+# Source-level facts only; no rich-editorial REVIEWED claim and no inferred years.
+def _wave05_fixed(title, month, day, authority, authority_type, officiality, url,
+                  resolution=None, introduced_year=None, aliases=None):
+    add(
+        title, 'DAY', [{'kind': 'FIXED_DATE', 'month': month, 'day': day}],
+        auth(authority, authority_type, officiality, resolution),
+        url, aliases=aliases,
+    )
+    record = records[-1]
+    record['lastVerifiedAt'] = '2026-11-10'
+    record['sources'][0]['verifiedAt'] = '2026-11-10'
+    if introduced_year is not None:
+        record['introducedYear'] = introduced_year
+        record['introducedYearSource'] = url
+
+_wave05_fixed(
+    'International Day of Women in Multilateralism', 1, 25,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/women-multilateralism',
+    resolution='41 C/Resolution 57', introduced_year=2021,
+)
+_wave05_fixed(
+    'World Engineering Day for Sustainable Development', 3, 4,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/engineering-sustainable-development',
+    resolution='40 C/Resolution 31', introduced_year=2019,
+)
+_wave05_fixed(
+    'International Day of Mathematics', 3, 14,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/mathematics',
+    resolution='40 C/Resolution 30', introduced_year=2019,
+)
+_wave05_fixed(
+    'World Day of Romani Language', 11, 5,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/list',
+)
+_wave05_fixed(
+    'International Day against Illicit Trafficking in Cultural Property', 11, 14,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/against-illicit-trafficking',
+    introduced_year=2019,
+)
+_wave05_fixed(
+    'International Day of Islamic Art', 11, 18,
+    'UNESCO', 'UNESCO', 'OFFICIAL_UNESCO',
+    'https://www.unesco.org/en/days/islamic-art',
+    introduced_year=2019,
+)
+_wave05_fixed(
+    'World Hearing Day', 3, 3,
+    'World Health Organization', 'WHO', 'OFFICIAL_WHO',
+    'https://www.who.int/campaigns/world-hearing-day',
+    aliases=['International Ear Care Day', 'International Day for Ear and Hearing Care'],
+)
+
 # SEMANTIC CATEGORY NORMALIZATION
 # Categories describe subject matter and are intentionally independent from
 # visualKey, which controls artwork only.
@@ -594,6 +652,22 @@ TITLE_LOCALES = ('it', 'es', 'fr', 'de', 'pt')
 TITLE_SOURCE_DIR = Path(__file__).resolve().parents[1] / 'data' / 'titles'
 canonical_titles = {record['canonicalTitleEn'] for record in records}
 expanded_titles = expanded_title_map()
+wave05_titles = json.loads(
+    (TITLE_SOURCE_DIR / 'institutional_wave05.json').read_text(encoding='utf-8')
+)
+assert wave05_titles['batchId'] == 'WD-INSTITUTIONAL-SEVEN-2026-11-10'
+assert set(wave05_titles['titles']) == set(TITLE_LOCALES)
+wave05_en = {
+    'International Day of Women in Multilateralism',
+    'World Engineering Day for Sustainable Development',
+    'International Day of Mathematics',
+    'World Day of Romani Language',
+    'International Day against Illicit Trafficking in Cultural Property',
+    'International Day of Islamic Art',
+    'World Hearing Day',
+}
+assert all(set(wave05_titles['titles'][loc]) == wave05_en for loc in TITLE_LOCALES)
+
 title_localizations = {}
 
 for locale in TITLE_LOCALES:
@@ -601,13 +675,13 @@ for locale in TITLE_LOCALES:
     payload = json.loads(path.read_text(encoding='utf-8'))
     assert payload.get('locale') == locale, (path, payload.get('locale'))
     titles = payload.get('titles') or {}
-    all_titles = {**titles, **expanded_titles[locale]}
+    all_titles = {**titles, **expanded_titles[locale], **wave05_titles['titles'][locale]}
     missing = sorted(canonical_titles - set(all_titles))
     extra = sorted(set(all_titles) - canonical_titles)
     assert not missing, f'{locale} missing title translations: {missing}'
     assert not extra, f'{locale} has unknown title translations: {extra}'
     assert all(str(value).strip() for value in all_titles.values()), f'{locale} contains empty title translations'
-    title_localizations[locale] = {**titles, **expanded_titles[locale]}
+    title_localizations[locale] = all_titles
 
 for record in records:
     canonical = record['canonicalTitleEn']
@@ -753,8 +827,8 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.09.4',
- 'generatedAt':'2026-11-09',
+ 'datasetVersion':'2026.11.10.1',
+ 'generatedAt':'2026-11-10',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),
  'yearOverrides':year_overrides,
