@@ -8,9 +8,9 @@ ROOT=Path(__file__).resolve().parents[1]
 cat=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records=cat["records"];ids={r["id"]:r for r in records}
-assert len(records)==len(ids)==504,("invalid catalog size",len(records))
-assert cat["datasetVersion"]=="2026.11.10.9"
-assert sum(r["scope"]=="GLOBAL" for r in records)==285
+assert len(records)==len(ids)==511,("invalid catalog size",len(records))
+assert cat["datasetVersion"]=="2026.11.10.10"
+assert sum(r["scope"]=="GLOBAL" for r in records)==292
 assert sum(r["scope"]=="NATIONAL" for r in records)==219
 assert sum(r["countries"]==["CA"] for r in records)==25
 fresh=load_wave08_canada()

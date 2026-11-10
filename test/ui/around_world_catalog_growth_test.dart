@@ -16,7 +16,7 @@ void main() {
     catalog = await const CatalogRepository().load();
   });
 
-  testWidgets('Italy shows 25 national + 285 global, separated and lazily built',
+  testWidgets('Italy shows 25 national + 292 global, separated and lazily built',
       (tester) async {
     tester.view.physicalSize = const Size(390, 844);
     tester.view.devicePixelRatio = 1;
@@ -34,17 +34,17 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('All · 310'), findsOneWidget);
+    expect(find.text('All · 317'), findsOneWidget);
     expect(find.text('National · 25'), findsOneWidget);
-    expect(find.text('Global · 285'), findsOneWidget);
+    expect(find.text('Global · 292'), findsOneWidget);
     // The second sliver is below the viewport and should not be mounted yet.
     expect(find.byType(SliverList), findsOneWidget);
     expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
     expect(tester.takeException(), isNull);
 
-    await tester.tap(find.text('Global · 285'));
+    await tester.tap(find.text('Global · 292'));
     await tester.pumpAndSettle();
-    expect(find.text('Global · 285'), findsOneWidget);
+    expect(find.text('Global · 292'), findsOneWidget);
     expect(find.byType(SliverList), findsOneWidget);
     expect(controller.preferences.marketCode, 'IT');
     expect(tester.takeException(), isNull);
@@ -139,9 +139,9 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 504);
+    expect(catalog.records.length, 511);
     expect(national.length, 219);
-    expect(global.length, 285);
+    expect(global.length, 292);
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
     expect(catalog.byId.containsKey('italian-mafia-victims-remembrance-day'), isTrue);
