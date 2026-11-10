@@ -9,7 +9,7 @@ occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="ut
 r=catalog["records"];by_id={z["id"]:z for z in r}
 assert len(by_id)==len(r)==511
 assert catalog["datasetVersion"]=="2026.11.10.10"
-assert sum(z["scope"]=="GLOBAL" for z in r)==285
+assert sum(z["scope"]=="GLOBAL" for z in r)==292
 assert sum(z["scope"]=="NATIONAL" for z in r)==219
 assert sum(z["countries"]==["JP"] for z in r)==13
 fresh=load_wave06_japan()
