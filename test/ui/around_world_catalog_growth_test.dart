@@ -139,7 +139,7 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 504);
+    expect(catalog.records.length, 511);
     expect(national.length, 219);
     expect(global.length, 285);
     expect(national.every((r) => r.countries.length == 1), isTrue);
