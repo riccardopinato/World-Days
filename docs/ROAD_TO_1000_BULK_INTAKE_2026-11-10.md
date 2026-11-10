@@ -2,9 +2,9 @@
 
 ## Actual counts vs target (2026-11-10)
 
-- **Current main (after merged PR #76): 463** canonical observances.
+- **Current main (after merged PRs #76 and #78): 479** canonical observances.
 - The seven UNESCO/WHO source admissions in PR #76 are already merged, with green CI.
-- Target: **1,000 distinct canonical observances**, so **537 further distinct records are required**.
+- Target: **1,000 distinct canonical observances**, so **521 further distinct records are required**.
 - Existing reviewed rich articles: **56**; 1,000 titles do **not** equal 1,000 source-reviewed histories.
 
 ## Fast pipeline
@@ -20,10 +20,10 @@
 
 | Wave | Unique verified canonical admissions required | Cumulative goal |
 |---|---:|---:|
-| W06 | 150 | 613 |
-| W07 | 150 | 763 |
-| W08 | 150 | 913 |
-| W09 | 87 | 1000 |
+| Next 1 | 150 | 629 |
+| Next 2 | 150 | 779 |
+| Next 3 | 150 | 929 |
+| Final | 71 | 1000 |
 
 The planned quotas depend on real source coverage; do **not** fill them with duplicate international days, one-off holiday substitution dates, non-institutional invented labels or unsourced regional days.
 
@@ -39,4 +39,4 @@ The planned quotas depend on real source coverage; do **not** fill them with dup
 
 ## Acceptance gate
 
-`python3 tool/test_discover_eures_institutional.py` tests offline parsing and research-only isolation. Its PASS **does not certify** an actual external source response or its contents. A real remote ingestion still requires snapshot review, full deduplication and per-entry legal provenance. PR #76 is already merged; this research-only intake PR now targets main. Its CI and source-parsing gates remain mandatory.
+`python3 tool/test_discover_eures_institutional.py` tests offline parsing and research-only isolation. Its PASS **does not certify** an actual external source response or its contents. A real remote ingestion still requires snapshot review, full deduplication and per-entry legal provenance. PRs #76 and #78 are already merged. This research-only intake branch is rebased as a clean branch off the 479-record main. Its CI and source-parsing gates remain mandatory.
