@@ -17,6 +17,7 @@ jobs:
         run: |
           python3 tool/catalog_source_contract.py
           python3 tool/validate_dataset.py
+          python3 tool/build_editorial.py
           python3 tool/market_coverage.py
       - name: Adversarial batch tests — duplicates, five mirrored sites, conflicting dates, consent
         run: python3 -m unittest discover -s tool -p 'test_bulk_intake.py' -v
