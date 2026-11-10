@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "base": {
+    "sourceMainSha": "9e312432b7fb46be1fc66437587d4cbe49033ad9",
+    "global": 282,
+    "national": 174,
+    "total": 456
+  },
+  "globalStageIds": [
+    "world-day-of-romani-language",
+    "international-day-against-illicit-trafficking-in-cultural-property",
+    "international-day-of-islamic-art",
+    "world-hearing-day",
+    "world-hand-hygiene-day",
+    "world-rabies-day",
+    "world-polio-day",
+    "world-leprosy-day",
+    "international-day-of-women-in-multilateralism",
+    "international-day-against-violence-and-bullying-at-school-including-cyberbullying"
+  ],
+  "nationalWaves": [
+    {
+      "file": "data/market/wave05_japan_20261109.json",
+      "country": "JP",
+      "count": 3
+    },
+    {
+      "file": "data/market/wave06_japan_seven_20261109.json",
+      "country": "JP",
+      "count": 7
+    },
+    {
+      "file": "data/market/wave07_india_three_20261109.json",
+      "country": "IN",
+      "count": 3
+    },
+    {
+      "file": "data/market/wave08_canada_twenty_20261109.json",
+      "country": "CA",
+      "count": 20
+    },
+    {
+      "file": "data/market/wave09_six_markets_civic_20261110.json",
+      "country": null,
+      "count": 12
+    }
+  ],
+  "intakeApprovedDir": "data/market/bulk_approved",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "releaseConstraints": "Computed count is not human editorial certification, public deployment or native APK approval."
+}
