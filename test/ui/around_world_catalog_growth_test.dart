@@ -34,7 +34,7 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('All · 307'), findsOneWidget);
+    expect(find.text('All · 314'), findsOneWidget);
     expect(find.text('National · 25'), findsOneWidget);
     expect(find.text('Global · 289'), findsOneWidget);
     // The second sliver is below the viewport and should not be mounted yet.
