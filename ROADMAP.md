@@ -1,5 +1,19 @@
 # World Days — Active roadmap
 
+## Wave06 — three new institutionally sourced national markets (10 November 2026)
+
+- [x] Research 2026 competent-authority calendars for Malta, Croatia and Cyprus.
+- [x] Add 16 distinct national source records with fixed recurring dates and verified authority links.
+- [x] Integrate country options, six display locales and stable offline ID generation.
+- [x] Add dedicated dataset, date, provenance and Flutter 320px browse regression tests.
+- [ ] Obtain exact-head CI and review feedback; do not infer a green check from successful source commits.
+- [ ] Merge protected-main PR; confirm catalog version `2026.11.10.2`, **479 IDs**, **31 market options** and unchanged reviewed editorial histories.
+- [ ] Expand additional national calendars in larger evidence-backed waves; 1,000 still requires **521 further unique canonical identities** if this PR lands.
+- [ ] Qualified translations and full editorial stories are independent acceptance gates.
+
+Owner's Android APK / signing / device / Play pause still applies.
+
+
 ## Institutional Wave05 — 7 global records (10 November 2026; source PR)
 
 - [x] Document official UNESCO and WHO observances and detect the World TB Day alias without duplicating it.
