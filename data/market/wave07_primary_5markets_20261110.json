@@ -631,8 +631,11 @@
         "de": "Tag der Einberufung der lettischen Verfassungsversammlung",
         "pt": "Dia da Convocação da Assembleia Constituinte da Letónia"
       },
-      "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
-      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+      "chronologyNote": "The Bank of Latvia national public holiday calendar explicitly calls May 1 Labour Day and the Convocation of the Constituent Assembly of the Republic of Latvia. This verifies the civic designation but does not establish a formal introduction year.",
+      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates.",
+      "additionalSources": [
+        "https://www.bank.lv/en/about-us/useful/public-holidays-in-latvia"
+      ]
     },
     {
       "id": "lv-declaration-of-independence-day",
@@ -990,10 +993,10 @@
       "sourceReviewedOn": "2026-11-10",
       "recurrenceRules": [
         {
-          "kind": "NTH_WEEKDAY",
+          "kind": "WEEKDAY_ON_OR_AFTER",
           "month": 4,
-          "weekday": 4,
-          "occurrence": 4
+          "day": 19,
+          "weekday": 4
         }
       ],
       "subject": "PEOPLE",
@@ -1009,7 +1012,10 @@
         "pt": "Primeiro Dia de Verão na Islândia"
       },
       "chronologyNote": "This observance is named and dated by the relevant national public institution. The source supports its presence in the official calendar but does not establish a founding year for this record.",
-      "dateRationale": "The competent national government, legislature or central bank gives this annual fixed date or weekday pattern. Substitute days are not used as canonical dates."
+      "dateRationale": "The City of Reykjavík establishes the first day of summer as the Thursday between 19 and 25 April, not invariably the fourth Thursday. The rule uses the first Thursday on or after April 19, valid across years.",
+      "additionalSources": [
+        "https://reykjavik.is/en/holidays-and-festive-days"
+      ]
     },
     {
       "id": "is-independence-day",
