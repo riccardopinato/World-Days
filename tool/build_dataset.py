@@ -583,7 +583,7 @@ def _wave05_fixed(title, month, day, authority, authority_type, officiality, url
     add(
         title, 'DAY', [{'kind': 'FIXED_DATE', 'month': month, 'day': day}],
         auth(authority, authority_type, officiality, resolution),
-        url, cats=categories, aliases=aliases,
+        url, categories=categories, aliases=aliases,
     )
     record = records[-1]
     record['lastVerifiedAt'] = '2026-11-10'
