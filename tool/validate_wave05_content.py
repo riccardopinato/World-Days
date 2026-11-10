@@ -13,8 +13,8 @@ catalog = json.loads((ROOT / "assets/data/official_core.json").read_text(encodin
 occurrences = json.loads((ROOT / "assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 records = catalog["records"]
 by_id = {r["id"]: r for r in records}
-assert len(records) == len(by_id) == 504
-assert catalog["datasetVersion"] == "2026.11.10.9"
+assert len(records) == len(by_id) == 511
+assert catalog["datasetVersion"] == "2026.11.10.10"
 assert len([r for r in records if r["scope"] == "GLOBAL"]) == 285
 assert len([r for r in records if r["scope"] == "NATIONAL"]) == 219
 
