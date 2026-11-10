@@ -89,10 +89,7 @@ void main() {
       expect(controller.preferences.marketCode, code);
       expect(controller.recordsForMarket(code), isNotEmpty);
     }
-    expect(
-      () => controller.setMarket('XX'),
-      throwsArgumentError,
-    );
+    await expectLater(controller.setMarket('XX'), throwsArgumentError);
     // Remote-content pack and native device certification are separate gates.
   });
 
