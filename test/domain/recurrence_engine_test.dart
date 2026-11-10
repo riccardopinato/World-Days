@@ -11,6 +11,18 @@ List<String> starts(int year, List<RecurrenceRule> rules) =>
         .toList(growable: false);
 
 void main() {
+  test('Iceland First Day of Summer is Thursday April 19–25, not always fourth Thursday', () {
+    const rule = WeekdayOnOrAfterRule(
+      month: 4,
+      day: 19,
+      weekday: DateTime.thursday,
+    );
+    expect(starts(2026, const [rule]), ['2026-04-23']);
+    expect(starts(2027, const [rule]), ['2027-04-22']);
+    expect(starts(2028, const [rule]), ['2028-04-20']);
+    expect(starts(2029, const [rule]), ['2029-04-19']);
+  });
+
   test('International Day of Cooperatives = first Saturday of July', () {
     const rule = NthWeekdayRule(
       month: 7,
