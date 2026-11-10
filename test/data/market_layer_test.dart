@@ -47,6 +47,11 @@ void main() {
       'MT': 8,
       'HR': 4,
       'CY': 4,
+      'EE': 17,
+      'LV': 5,
+      'LT': 6,
+      'IS': 3,
+      'LU': 1,
     };
 
     for (final entry in expected.entries) {
@@ -70,21 +75,21 @@ void main() {
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
     expect(global, hasLength(289));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
-    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY']) {
+    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU']) {
       final national = controller.recordsForMarket(country);
       final all = controller.recordsForMarket(country, includeGlobal: true);
       expect(all.length, national.length + global.length, reason: country);
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 479);
+    expect(controller.catalog!.records.length, 511);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });
 
   test('every market dropdown option can be persisted, unsupported code rejected', () async {
     final controller = await _controller();
-    for (final code in <String>['CA', 'CZ', 'NL', 'MT', 'HR', 'CY']) {
+    for (final code in <String>['CA', 'CZ', 'NL', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU']) {
       await controller.setMarket(code);
       expect(controller.preferences.marketCode, code);
       expect(controller.recordsForMarket(code), isNotEmpty);
