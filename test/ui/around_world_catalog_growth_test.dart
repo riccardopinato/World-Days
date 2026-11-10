@@ -16,7 +16,7 @@ void main() {
     catalog = await const CatalogRepository().load();
   });
 
-  testWidgets('Italy shows 25 national + 292 global, separated and lazily built',
+  testWidgets('Italy keeps national/global filters accurate as catalog grows',
       (tester) async {
     tester.view.physicalSize = const Size(390, 844);
     tester.view.devicePixelRatio = 1;
@@ -29,22 +29,26 @@ void main() {
     );
     addTearDown(controller.dispose);
 
+    final nationalCount = controller.recordsForMarket('IT').length;
+    final globalCount = catalog.records.where((r) => r.scope == 'GLOBAL').length;
+    expect(nationalCount, greaterThanOrEqualTo(25));
+    expect(globalCount, greaterThanOrEqualTo(292));
     await tester.pumpWidget(
       wrapTestApp(AroundTheWorldPage(controller: controller)),
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('All · 317'), findsOneWidget);
-    expect(find.text('National · 25'), findsOneWidget);
-    expect(find.text('Global · 292'), findsOneWidget);
+    expect(find.text('All · ${nationalCount + globalCount}'), findsOneWidget);
+    expect(find.text('National · $nationalCount'), findsOneWidget);
+    expect(find.text('Global · $globalCount'), findsOneWidget);
     // The second sliver is below the viewport and should not be mounted yet.
     expect(find.byType(SliverList), findsOneWidget);
     expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
     expect(tester.takeException(), isNull);
 
-    await tester.tap(find.text('Global · 292'));
+    await tester.tap(find.text('Global · $globalCount'));
     await tester.pumpAndSettle();
-    expect(find.text('Global · 292'), findsOneWidget);
+    expect(find.text('Global · $globalCount'), findsOneWidget);
     expect(find.byType(SliverList), findsOneWidget);
     expect(controller.preferences.marketCode, 'IT');
     expect(tester.takeException(), isNull);
@@ -102,7 +106,12 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      expect(controller.recordsForMarket(market.$1), hasLength(market.$2));
+      final national = controller.recordsForMarket(market.$1);
+      final sourceCount = catalog.records
+          .where((r) => r.scope == 'NATIONAL' && r.countries.contains(market.$1))
+          .length;
+      expect(national.length, sourceCount);
+      expect(national.length, greaterThanOrEqualTo(market.$2));
       expect(find.byType(ChoiceChip), findsNWidgets(3));
       expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
       expect(tester.takeException(), isNull);
@@ -128,7 +137,12 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      expect(controller.recordsForMarket(market.$1), hasLength(market.$2));
+      final national = controller.recordsForMarket(market.$1);
+      final sourceCount = catalog.records
+          .where((r) => r.scope == 'NATIONAL' && r.countries.contains(market.$1))
+          .length;
+      expect(national.length, sourceCount);
+      expect(national.length, greaterThanOrEqualTo(market.$2));
       expect(find.byType(ChoiceChip), findsNWidgets(3));
       expect(find.byType(ObservanceCard).evaluate().length, lessThan(30));
       expect(controller.preferences.marketCode, market.$1);
@@ -139,9 +153,10 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 511);
-    expect(national.length, 219);
-    expect(global.length, 292);
+    expect(catalog.records.length, national.length + global.length);
+    expect(catalog.records.length, greaterThanOrEqualTo(511));
+    expect(national.length, greaterThanOrEqualTo(219));
+    expect(global.length, greaterThanOrEqualTo(292));
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
     expect(catalog.byId.containsKey('italian-mafia-victims-remembrance-day'), isTrue);
