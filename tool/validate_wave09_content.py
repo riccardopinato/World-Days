@@ -13,7 +13,7 @@ rows=catalog["records"]
 ids={r["id"]:r for r in rows}
 assert len(ids)==len(rows)==511
 assert catalog["datasetVersion"]=="2026.11.10.10"
-assert Counter(r["scope"] for r in rows)=={"GLOBAL":285,"NATIONAL":219}
+assert Counter(r["scope"] for r in rows)=={"GLOBAL":292,"NATIONAL":219}
 assert len(index["dateIndex"])==365
 new=load_wave09_civic()
 assert len(new)==12 and len(old["records"])==12
