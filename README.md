@@ -1,5 +1,12 @@
 # World Days
 
+## Institutional Wave05 — seven global admissions (10 November 2026, PR pending)
+
+Candidate version `2026.11.10.1` adds **7 institutionally documented global records** (UNESCO ×6, WHO ×1) to the deterministic catalog: **463 distinct records** = **289 global + 174 national**. Existing IDs are retained, and all seven title translations are supplied in EN/IT/ES/FR/DE/PT. Exactly **five** new establishment-year fields are supported by originator documentation; two are intentionally left unknown. Source-reviewed **Rich Editorial remains 56**, with **382 records** lacking approved long-form stories; 70 introduction years have documented sources and the remaining 393 display `*`. All seven new entries remain editorial **STUB**; translated display titles are pending native-language certification.
+
+This is **source-code PR state only** until exact-head CI and merge. The Wave04 section below is a historical baseline. Owner pause on APK/signing/Android physical QA/Play release stays in force.
+
+
 ## Content-first Wave04 — 456 distinct observances, 28 countries (9 November 2026)
 
 [Wave04 source and methodology](docs/CATALOG_WAVE04_15_COUNTRIES_2026-11-09.md). The offline catalog is expanded from 373 to **456 canonical identities**: **282 global** entries preserved and **174 national/institutionally recognized** entries (+83). The country selector grows from 13 to **28 countries**, adding Czechia, Slovakia, Norway, Finland, Sweden, Poland, Ireland, Netherlands, South Africa, Philippines, New Zealand, Singapore, South Korea, Argentina and Peru. New titles are localized for EN/IT/ES/FR/DE/PT, and fixed/movable recurrence rules are source-gated.
