@@ -55,7 +55,7 @@ wave03 = load_wave03()
 expected_market.update({row['id']: row['country'] for row in wave03['records']})
 wave04 = load_wave04()
 expected_market.update({row['id']: row['country'] for row in wave04})
-assert len(ids) == len(records) == 456, ('catalog growth total', len(records))
+assert len(ids) == len(records) == 463, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
