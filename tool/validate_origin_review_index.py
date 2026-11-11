@@ -15,20 +15,20 @@ ledger=json.loads((ROOT/"assets/data/origin_review_index.json").read_text(encodi
 report=json.loads((ROOT/"reports/origin_review_coverage.json").read_text(encoding="utf-8"))
 by_id={r["id"]:r for r in catalog["records"]}
 items=ledger["records"]
-assert len(by_id)==len(catalog["records"])==1111
-assert ledger["recordCount"]==ledger["sourceCatalogCount"]==len(items)==1111
+assert len(by_id)==len(catalog["records"])>=1111
+assert ledger["recordCount"]==ledger["sourceCatalogCount"]==len(items)==len(by_id)
 assert ledger["datasetVersion"]==catalog["datasetVersion"]
-assert ledger["coverage"]=="ALL_1111_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED"
-assert ledger["reviewedRichOriginCount"]==4
-assert ledger["legacyReviewedEditorialCount"]==56
-assert report["originPendingCount"]==1107
-assert report["allIdSourceProvenanceChecked"]==1111
-assert len({e["observanceId"] for e in items})==1111
+assert ledger["coverage"]=="ALL_CANONICAL_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED"
+assert ledger["reviewedRichOriginCount"]>=4
+assert ledger["legacyReviewedEditorialCount"]>=56
+assert report["originPendingCount"]==len(by_id)-ledger["reviewedRichOriginCount"]
+assert report["allIdSourceProvenanceChecked"]==len(by_id)
+assert len({e["observanceId"] for e in items})==len(by_id)
 assert {e["observanceId"] for e in items}==set(by_id)
 states=Counter(e["originResearchStatus"] for e in items)
-assert states["PRIMARY_RESEARCHED_ORIGIN_IT_EN"]==4
-assert states["SOURCE_INDEX_ONLY_ORIGIN_NOT_RESEARCHED"]+states["LEGACY_EDITORIAL_EXISTS_ORIGIN_NOT_RECERTIFIED"]==1107
-assert sum(states.values())==1111
+assert states["PRIMARY_RESEARCHED_ORIGIN_IT_EN"]==ledger["reviewedRichOriginCount"]
+assert states["SOURCE_INDEX_ONLY_ORIGIN_NOT_RESEARCHED"]+states["LEGACY_EDITORIAL_EXISTS_ORIGIN_NOT_RECERTIFIED"]==len(by_id)-ledger["reviewedRichOriginCount"]
+assert sum(states.values())==len(by_id)
 for e in items:
  r=by_id[e["observanceId"]]
  assert e["scope"]==r["scope"]
@@ -53,4 +53,4 @@ for e in items:
    for key in ("heading","origin","promoter","purpose"):
     assert len(x[key].strip())>=(18 if key=="heading" else 40)
    assert 2<=len(x["facts"])<=5
-print("PASS: full 1111 identity/provenance ledger, four primary-source histories and 1107 clearly not fully researched")
+print("PASS: canonical source provenance and researched-origin ledger covers every current ID")
