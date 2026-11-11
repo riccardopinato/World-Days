@@ -56,3 +56,20 @@ Wave12's `RECOGNIZED_INSTITUTIONAL` denotes recognition by **Australia's governm
 The draft catalog is **1011** (289 GLOBAL + 722 NATIONAL), **192 countries**, datasetVersion `2026.11.11.5`. This is NOT a claim that 1011 is merged on `main`; `main` remains 711 until protected merge. It is **100 additional source-qualified identities short of the minimum milestone 1111**; the requested one-block merge gate continues to apply. The separate Wikidata P837 300-row list remains a quarantined research register and is NOT counted in the above 300 new canonical records.
 
 New regression: `tool/market_wave12.py`, `tool/validate_wave12_generated.py`, `test/data/market_layer_test.dart`, and Flutter Web release. Require CI green, no unresolved substantive source issues, and at least 1111 deduplicated source-based IDs before merging PR #85 to `main`.
+
+## Wave13 milestone: 1,111 unique draft catalogue identities (11 November 2026)
+
+The first one-block +400 milestone is **implemented in the PR branch** as source-indexed entries (not yet merged, and not 400 completed long-form stories):
+
+- `main` prior baseline: **711** distinct records = 289 GLOBAL + 422 NATIONAL.
+- Wave11: **144** Philippine NCCA historical and cultural anniversaries.
+- Wave12: **156** foreign national occasions **as listed in Australia's DFAT diplomatic-protocol calendar**; this is Australian diplomatic institutional recognition, not proof of each foreign jurisdiction's statutory calendar.
+- Wave13: **100** further source-index identities, consisting of 43 Philippine NCCA annual periods/days (28 months + 11 weeks + 4 distinct days) and 57 European Commission EURES country-specific holiday-calendar entries. The latter can share a holiday name across different *national calendar jurisdictions*; those are not new independent global awareness days. EURES is an EU institutional calendar source, not a substitute for national legislation.
+- Draft total: **1,111** unique IDs = 289 GLOBAL + 822 NATIONAL, supporting **193** country markets. Denmark is introduced through three EURES national calendar entries; no Danish royal birthday recurrence is inferred.
+- Period semantics preserved: full months except February, fixed date ranges, and four named weekday observances with annual 2026-2029 vectors.
+
+Six initial PH duplicate concepts (EDSA anniversary, Araw ng Kagitingan, Independence Day, Ninoy Aquino Day, Bonifacio Day, Rizal Day) were **excluded** and replaced by NCCA-listed distinct movable days and special weeks. Previous wave validators now enforce historical admission minima without forbidding additional, valid later market growth. The CI gate `tool/validate_wave13_generated.py` enforces exactly 1,111 scoped canonical IDs and individual 2026 start/end occurrence vectors.
+
+**Important quality scope:** All newly imported source-index records remain editorial `STUB`, most introduction years are intentionally null, and Italian/Spanish/French/German/Portuguese titles are visibly EN fallback. They are *not* independently certified national statutes, culturally complete biographies or professional native translations. The separate 300 Wikidata P837 discovery leads remain excluded from canonical count.
+
+**Merge gate:** only approve PR #85 after successful CI on its exact head, no unresolved substantive source issues, and verify merged main actually generates 1,111 distinct IDs. **Continue growing beyond 1,111** under the enabled hourly World Days catalog task; do not stop at this minimum milestone. No Android APK, signing, physical testing, Play Store or production deploy activity.
