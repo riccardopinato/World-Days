@@ -1,5 +1,20 @@
 # World Days — Active roadmap
 
+## Wave10 — complete next +100 identity threshold (11 November 2026)
+
+- [x] Version 100 source-index records: 50 Korean government commemorations, 50 Philippine National Commission cultural anniversaries
+- [x] Exclude known Korean Children's Day and National Memorial Day IDs from double counting
+- [x] Keep country/authority/source, original Korean terms, date-rule semantics and nonstatutory cultural classification
+- [x] Add exact 711-ID catalog validator, 2026–2029 recurring date tests, locale fallback disclosure, market/UI expectation updates
+- [ ] Pass CI and review original institutional source date/identity matches, particularly Philippine cultural anniversary descriptions
+- [ ] Merge protected PR after exact-head successful checks and substantive review
+- [ ] After approved merge, target 1,000 will require **289 additional distinct identities**
+- [ ] Native title translations for 100 Wave10 records, and separately 100+ previous Wave09/wave08 editorial debts, are not yet complete
+- [ ] Long-form editorial remains a separate research-and-translation pipeline
+
+No APK, native physical QA or Play publishing.
+
+
 ## Wave09 — 73 verified-source national record admissions; 100-item canonical growth
 
 - [x] Source 73 national civic/memorial/flag days from six first-party government or institution-maintained registers.
