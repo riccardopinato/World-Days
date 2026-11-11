@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+## Wave11–13 / PR #85 — staged, acceptance BLOCKED (11 November 2026)
+
+- [x] Stage 144 NCCA + 156 DFAT + 100 NCCA/EURES scoped records; expected generator count 1,111, subject to current-head recomputation.
+- [x] Document that 1,111 is a minimum, not an expansion ceiling, and that staged is not verified/admitted.
+- [ ] **P1:** Correct Ireland St Brigid's Day February public-holiday recurrence (first Monday of February, exception when February 1 is Friday), with 2026–2029 regression tests; fixed February 2 is incorrect in 2027/2028.
+- [ ] Verify each DFAT and EURES candidate against its country's primary legal/organizer source; reject unsupported annual claims and jurisdictional relabeling.
+- [ ] Reconcile semantic duplicates and incorrect dates; report candidate/accepted/excluded counts separately.
+- [ ] Recompute main and PR head from generated outputs and validate Python, Flutter/Web, review threads and exact-head CI.
+- [ ] Merge only after substantive review resolution and green exact-head checks, with at least 1,111 **accepted** identities; continue incrementally beyond the threshold afterward.
+
+The previous Wave10 roadmap statement of 289 remaining identities applied to an earlier 711-to-1,000 milestone and is historical, **not** the current acceptance count.
+
+
 ## Wave10 — complete next +100 identity threshold (11 November 2026)
 
 - [x] Version 100 source-index records: 50 Korean government commemorations, 50 Philippine National Commission cultural anniversaries
