@@ -26,11 +26,14 @@ FIRST_FOUR = {
 def build():
     audit = build_audit()
     # Future-proof: read the actual source-researched batch when integrated.
-    origin_batch = ROOT / "data/editorial/batches/origin_stories_primary_20261111.json"
+    root_batches = ROOT / "data/editorial/batches"
+    origin_files = [root_batches / "origin_stories_primary_20261111.json"]
+    origin_files += sorted(root_batches.glob("origin_stories_wave*.json"))
     excluded = set(FIRST_FOUR)
-    if origin_batch.exists():
-        origin = json.loads(origin_batch.read_text(encoding="utf-8"))
-        excluded.update(r["observanceId"] for r in origin["records"])
+    for origin_batch in origin_files:
+        if origin_batch.exists():
+            origin = json.loads(origin_batch.read_text(encoding="utf-8"))
+            excluded.update(r["observanceId"] for r in origin["records"])
 
     eligible = []
     for r in audit["rows"]:
