@@ -10,18 +10,39 @@ QUERY="""SELECT DISTINCT ?item ?itemLabel ?dayLabel ?countryLabel WHERE {
   ?day rdfs:label ?dayLabel .
   FILTER(LANG(?dayLabel) = "en")
   OPTIONAL { ?item wdt:P17 ?country . ?country rdfs:label ?countryLabel . FILTER(LANG(?countryLabel) = "en") }
-} LIMIT 1000"""
+} LIMIT 7000"""
 URL="https://query.wikidata.org/sparql?"+urllib.parse.urlencode({"query":QUERY,"format":"json"})
 def main():
  req=urllib.request.Request(URL,headers={"Accept":"application/sparql-results+json","User-Agent":"WorldDays-research/0.1 (documentation only; source metadata QA)"})
  try:
-  with urllib.request.urlopen(req,timeout=28) as r:
+  with urllib.request.urlopen(req,timeout=50) as r:
    data=json.load(r)
  except Exception as exc:
   print("WDQS_PROBE_BLOCKED:",repr(exc));return
  rows=data.get("results",{}).get("bindings",[])
  print("WDQS_PROBE_TOTAL",len(rows))
- for row in rows[:25]:
-  print("WDQS_SAMPLE",json.dumps({k:v.get("value") for k,v in row.items()},ensure_ascii=False))
+ import datetime
+ MONTHS={name:i for i,name in enumerate(("January","February","March","April","May","June","July","August","September","October","November","December"),1)}
+ match=0
+ for row in rows:
+  x={k:v.get("value") for k,v in row.items()}
+  day=(x.get("dayLabel") or "").strip()
+  m=re.fullmatch(r"([A-Za-z]+) ([1-9]|[12][0-9]|3[01])",day)
+  if not m:
+   m=re.fullmatch(r"([1-9]|[12][0-9]|3[01]) ([A-Za-z]+)",day)
+   if not m:continue
+   mday=int(m.group(1));month=MONTHS.get(m.group(2))
+  else:
+   mday=int(m.group(2));month=MONTHS.get(m.group(1))
+  if month is None:continue
+  try:datetime.date(2026,month,mday)
+  except ValueError:continue
+  label=x.get("itemLabel") or ""
+  if not label or re.fullmatch(r"Q[0-9]+",label):continue
+  if not re.search(r"(day|festival|holiday|anniversary|celebration|feast|week|memorial|observance)",label,re.I):continue
+  x["month"]=month;x["day"]=mday;x["item"]=x["item"].rsplit("/",1)[-1]
+  print("WDQS_RECORD",json.dumps(x,ensure_ascii=False,separators=(",",":")))
+  match+=1
+ print("WDQS_FILTERED_DATE_LABEL_MATCHES",match)
  print("WDQS_RESEARCH_ONLY: no automatic catalog publication.")
 if __name__=="__main__":main()
