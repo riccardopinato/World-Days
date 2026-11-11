@@ -10,6 +10,7 @@ from market_wave09 import load_wave09
 from market_wave10 import load_wave10
 from market_wave11 import load_wave11
 from market_wave12 import load_wave12
+from market_wave13 import load_wave13
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -76,7 +77,9 @@ wave11 = load_wave11()
 expected_market.update({row['id']: row['country'] for row in wave11})
 wave12 = load_wave12()
 expected_market.update({row['id']: row['country'] for row in wave12})
-assert len(ids) == len(records) == 1011, ('catalog growth total', len(records))
+wave13 = load_wave13()
+expected_market.update({row['id']: row['country'] for row in wave13})
+assert len(ids) == len(records) == 1111, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -153,7 +156,15 @@ for record in records:
                     for s in sources
                 )
             )
-            assert university_originator or government_protocol, record.get('id')
+            eures_calendar = (
+                record['authority']['type'] == 'EU_INSTITUTION'
+                and any(
+                    s.get('tier') == 'B_INSTITUTIONAL'
+                    and s.get('url') == 'https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en'
+                    for s in sources
+                )
+            )
+            assert university_originator or government_protocol or eures_calendar, record.get('id')
 
 assert expected_consumer.issubset(known), f"missing curated consumer ids: {sorted(expected_consumer - known)}"
 assert set(expected_market).issubset(known), f"missing market ids: {sorted(set(expected_market) - known)}"
