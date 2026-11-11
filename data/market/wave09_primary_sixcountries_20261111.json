@@ -1,0 +1,2583 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-national-wave09-73-2026-11-11",
+  "sourceReviewDate": "2026-11-11",
+  "count": 73,
+  "countryCounts": {
+    "SK": 23,
+    "CZ": 18,
+    "PL": 13,
+    "SE": 9,
+    "NO": 5,
+    "FI": 5
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "titleReviewStatus": "EN_SOURCE_FALLBACK_FOR_FIVE_NON_EN_LOCALES_NATIVE_REVIEW_REQUIRED",
+  "editorialReview": "SOURCE_METADATA_ONLY_NOT_RICH_HISTORY",
+  "records": [
+    {
+      "id": "sk-covid-19-pandemic-victims-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "COVID-19 Pandemic Victims Remembrance Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "it": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "es": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "fr": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "de": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "pt": "COVID-19 Pandemic Victims Remembrance Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-day-of-the-struggle-for-human-rights",
+      "country": "SK",
+      "canonicalTitleEn": "Day of the Struggle for Human Rights — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 25
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Day of the Struggle for Human Rights — SK",
+        "it": "Day of the Struggle for Human Rights — SK",
+        "es": "Day of the Struggle for Human Rights — SK",
+        "fr": "Day of the Struggle for Human Rights — SK",
+        "de": "Day of the Struggle for Human Rights — SK",
+        "pt": "Day of the Struggle for Human Rights — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-day-of-the-unjustly-prosecuted",
+      "country": "SK",
+      "canonicalTitleEn": "Day of the Unjustly Prosecuted — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 13
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Day of the Unjustly Prosecuted — SK",
+        "it": "Day of the Unjustly Prosecuted — SK",
+        "es": "Day of the Unjustly Prosecuted — SK",
+        "fr": "Day of the Unjustly Prosecuted — SK",
+        "de": "Day of the Unjustly Prosecuted — SK",
+        "pt": "Day of the Unjustly Prosecuted — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-slovakia-s-accession-to-the-european-union-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovakia's Accession to the European Union Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Slovakia's Accession to the European Union Day — SK",
+        "it": "Slovakia's Accession to the European Union Day — SK",
+        "es": "Slovakia's Accession to the European Union Day — SK",
+        "fr": "Slovakia's Accession to the European Union Day — SK",
+        "de": "Slovakia's Accession to the European Union Day — SK",
+        "pt": "Slovakia's Accession to the European Union Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-milan-rastislav-stefanik-death-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Milan Rastislav Stefanik Death Anniversary — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "it": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "es": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "fr": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "de": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "pt": "Milan Rastislav Stefanik Death Anniversary — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-slovak-nation-memorandum-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Nation Memorandum Anniversary — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 7
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Slovak Nation Memorandum Anniversary — SK",
+        "it": "Slovak Nation Memorandum Anniversary — SK",
+        "es": "Slovak Nation Memorandum Anniversary — SK",
+        "fr": "Slovak Nation Memorandum Anniversary — SK",
+        "de": "Slovak Nation Memorandum Anniversary — SK",
+        "pt": "Slovak Nation Memorandum Anniversary — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-soviet-occupation-troops-departure-day",
+      "country": "SK",
+      "canonicalTitleEn": "Soviet Occupation Troops Departure Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Soviet Occupation Troops Departure Day — SK",
+        "it": "Soviet Occupation Troops Departure Day — SK",
+        "es": "Soviet Occupation Troops Departure Day — SK",
+        "fr": "Soviet Occupation Troops Departure Day — SK",
+        "de": "Soviet Occupation Troops Departure Day — SK",
+        "pt": "Soviet Occupation Troops Departure Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-victims-of-the-communist-regime-memorial-day",
+      "country": "SK",
+      "canonicalTitleEn": "Victims of the Communist Regime Memorial Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Victims of the Communist Regime Memorial Day — SK",
+        "it": "Victims of the Communist Regime Memorial Day — SK",
+        "es": "Victims of the Communist Regime Memorial Day — SK",
+        "fr": "Victims of the Communist Regime Memorial Day — SK",
+        "de": "Victims of the Communist Regime Memorial Day — SK",
+        "pt": "Victims of the Communist Regime Memorial Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-day-of-slovaks-living-abroad",
+      "country": "SK",
+      "canonicalTitleEn": "Day of Slovaks Living Abroad — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 5
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Day of Slovaks Living Abroad — SK",
+        "it": "Day of Slovaks Living Abroad — SK",
+        "es": "Day of Slovaks Living Abroad — SK",
+        "fr": "Day of Slovaks Living Abroad — SK",
+        "de": "Day of Slovaks Living Abroad — SK",
+        "pt": "Day of Slovaks Living Abroad — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-slovak-sovereignty-declaration-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Sovereignty Declaration Anniversary — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 17
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Slovak Sovereignty Declaration Anniversary — SK",
+        "it": "Slovak Sovereignty Declaration Anniversary — SK",
+        "es": "Slovak Sovereignty Declaration Anniversary — SK",
+        "fr": "Slovak Sovereignty Declaration Anniversary — SK",
+        "de": "Slovak Sovereignty Declaration Anniversary — SK",
+        "pt": "Slovak Sovereignty Declaration Anniversary — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-matica-slovenska-day",
+      "country": "SK",
+      "canonicalTitleEn": "Matica Slovenska Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Matica Slovenska Day — SK",
+        "it": "Matica Slovenska Day — SK",
+        "es": "Matica Slovenska Day — SK",
+        "fr": "Matica Slovenska Day — SK",
+        "de": "Matica Slovenska Day — SK",
+        "pt": "Matica Slovenska Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-mining-disaster-victims-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "Mining Disaster Victims Remembrance Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 10
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Mining Disaster Victims Remembrance Day — SK",
+        "it": "Mining Disaster Victims Remembrance Day — SK",
+        "es": "Mining Disaster Victims Remembrance Day — SK",
+        "fr": "Mining Disaster Victims Remembrance Day — SK",
+        "de": "Mining Disaster Victims Remembrance Day — SK",
+        "pt": "Mining Disaster Victims Remembrance Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-victims-of-the-1968-czechoslovakia-occupation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "it": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "es": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "fr": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "de": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "pt": "Victims of the 1968 Czechoslovakia Occupation Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-holocaust-and-racial-violence-victims-memorial-day",
+      "country": "SK",
+      "canonicalTitleEn": "Holocaust and Racial Violence Victims Memorial Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 9
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "it": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "es": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "fr": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "de": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "pt": "Holocaust and Racial Violence Victims Memorial Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-slovak-national-council-establishment-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak National Council Establishment Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 19
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Slovak National Council Establishment Day — SK",
+        "it": "Slovak National Council Establishment Day — SK",
+        "es": "Slovak National Council Establishment Day — SK",
+        "fr": "Slovak National Council Establishment Day — SK",
+        "de": "Slovak National Council Establishment Day — SK",
+        "pt": "Slovak National Council Establishment Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-day-against-hate-speech-targeting-children",
+      "country": "SK",
+      "canonicalTitleEn": "Day Against Hate Speech Targeting Children — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 22
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Day Against Hate Speech Targeting Children — SK",
+        "it": "Day Against Hate Speech Targeting Children — SK",
+        "es": "Day Against Hate Speech Targeting Children — SK",
+        "fr": "Day Against Hate Speech Targeting Children — SK",
+        "de": "Day Against Hate Speech Targeting Children — SK",
+        "pt": "Day Against Hate Speech Targeting Children — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-carpathian-dukla-operation-heroes-day",
+      "country": "SK",
+      "canonicalTitleEn": "Carpathian Dukla Operation Heroes Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Carpathian Dukla Operation Heroes Day — SK",
+        "it": "Carpathian Dukla Operation Heroes Day — SK",
+        "es": "Carpathian Dukla Operation Heroes Day — SK",
+        "fr": "Carpathian Dukla Operation Heroes Day — SK",
+        "de": "Carpathian Dukla Operation Heroes Day — SK",
+        "pt": "Carpathian Dukla Operation Heroes Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-samizdat-day",
+      "country": "SK",
+      "canonicalTitleEn": "Samizdat Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Samizdat Day — SK",
+        "it": "Samizdat Day — SK",
+        "es": "Samizdat Day — SK",
+        "fr": "Samizdat Day — SK",
+        "de": "Samizdat Day — SK",
+        "pt": "Samizdat Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-cernova-tragedy-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "Cernova Tragedy Remembrance Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 27
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Cernova Tragedy Remembrance Day — SK",
+        "it": "Cernova Tragedy Remembrance Day — SK",
+        "es": "Cernova Tragedy Remembrance Day — SK",
+        "fr": "Cernova Tragedy Remembrance Day — SK",
+        "de": "Cernova Tragedy Remembrance Day — SK",
+        "pt": "Cernova Tragedy Remembrance Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-ludovit-stur-birthday",
+      "country": "SK",
+      "canonicalTitleEn": "Ludovit Stur Birthday — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 29
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Ludovit Stur Birthday — SK",
+        "it": "Ludovit Stur Birthday — SK",
+        "es": "Ludovit Stur Birthday — SK",
+        "fr": "Ludovit Stur Birthday — SK",
+        "de": "Ludovit Stur Birthday — SK",
+        "pt": "Ludovit Stur Birthday — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-slovak-nation-declaration-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Nation Declaration Anniversary — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Slovak Nation Declaration Anniversary — SK",
+        "it": "Slovak Nation Declaration Anniversary — SK",
+        "es": "Slovak Nation Declaration Anniversary — SK",
+        "fr": "Slovak Nation Declaration Anniversary — SK",
+        "de": "Slovak Nation Declaration Anniversary — SK",
+        "pt": "Slovak Nation Declaration Anniversary — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-reformation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Reformation Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 31
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Reformation Day — SK",
+        "it": "Reformation Day — SK",
+        "es": "Reformation Day — SK",
+        "fr": "Reformation Day — SK",
+        "de": "Reformation Day — SK",
+        "pt": "Reformation Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "sk-independent-slovak-ecclesiastical-province-proclamation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+      "aliases": [],
+      "authority": "Government Office of Slovakia",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "it": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "es": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "fr": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "de": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "pt": "Independent Slovak Ecclesiastical Province Proclamation Day — SK"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-jan-palach-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Jan Palach Remembrance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 16
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Jan Palach Remembrance Day — CZ",
+        "it": "Jan Palach Remembrance Day — CZ",
+        "es": "Jan Palach Remembrance Day — CZ",
+        "fr": "Jan Palach Remembrance Day — CZ",
+        "de": "Jan Palach Remembrance Day — CZ",
+        "pt": "Jan Palach Remembrance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-terezin-family-camp-victims-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Terezin Family Camp Victims Remembrance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 9
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "it": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "es": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "fr": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "de": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "pt": "Terezin Family Camp Victims Remembrance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-accession-to-nato-anniversary",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Accession to NATO Anniversary — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Accession to NATO Anniversary — CZ",
+        "it": "Czech Accession to NATO Anniversary — CZ",
+        "es": "Czech Accession to NATO Anniversary — CZ",
+        "fr": "Czech Accession to NATO Anniversary — CZ",
+        "de": "Czech Accession to NATO Anniversary — CZ",
+        "pt": "Czech Accession to NATO Anniversary — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-jan-amos-comenius-birthday",
+      "country": "CZ",
+      "canonicalTitleEn": "Jan Amos Comenius Birthday — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 28
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Jan Amos Comenius Birthday — CZ",
+        "it": "Jan Amos Comenius Birthday — CZ",
+        "es": "Jan Amos Comenius Birthday — CZ",
+        "fr": "Jan Amos Comenius Birthday — CZ",
+        "de": "Jan Amos Comenius Birthday — CZ",
+        "pt": "Jan Amos Comenius Birthday — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-flag-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Flag Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Flag Day — CZ",
+        "it": "Czech Flag Day — CZ",
+        "es": "Czech Flag Day — CZ",
+        "fr": "Czech Flag Day — CZ",
+        "de": "Czech Flag Day — CZ",
+        "pt": "Czech Flag Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-education-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Education Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 7
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Education Day — CZ",
+        "it": "Czech Education Day — CZ",
+        "es": "Czech Education Day — CZ",
+        "fr": "Czech Education Day — CZ",
+        "de": "Czech Education Day — CZ",
+        "pt": "Czech Education Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-accession-to-the-european-union-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Accession to the European Union Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Accession to the European Union Day — CZ",
+        "it": "Czech Accession to the European Union Day — CZ",
+        "es": "Czech Accession to the European Union Day — CZ",
+        "fr": "Czech Accession to the European Union Day — CZ",
+        "de": "Czech Accession to the European Union Day — CZ",
+        "pt": "Czech Accession to the European Union Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-may-uprising-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech May Uprising Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech May Uprising Day — CZ",
+        "it": "Czech May Uprising Day — CZ",
+        "es": "Czech May Uprising Day — CZ",
+        "fr": "Czech May Uprising Day — CZ",
+        "de": "Czech May Uprising Day — CZ",
+        "pt": "Czech May Uprising Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-families-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Families Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 15
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Families Day — CZ",
+        "it": "Czech Families Day — CZ",
+        "es": "Czech Families Day — CZ",
+        "fr": "Czech Families Day — CZ",
+        "de": "Czech Families Day — CZ",
+        "pt": "Czech Families Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-national-resistance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech National Resistance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 27
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech National Resistance Day — CZ",
+        "it": "Czech National Resistance Day — CZ",
+        "es": "Czech National Resistance Day — CZ",
+        "fr": "Czech National Resistance Day — CZ",
+        "de": "Czech National Resistance Day — CZ",
+        "pt": "Czech National Resistance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-lidice-destruction-victims-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Lidice Destruction Victims Remembrance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 10
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Lidice Destruction Victims Remembrance Day — CZ",
+        "it": "Lidice Destruction Victims Remembrance Day — CZ",
+        "es": "Lidice Destruction Victims Remembrance Day — CZ",
+        "fr": "Lidice Destruction Victims Remembrance Day — CZ",
+        "de": "Lidice Destruction Victims Remembrance Day — CZ",
+        "pt": "Lidice Destruction Victims Remembrance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-second-resistance-heroes-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Second Resistance Heroes Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 18
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Second Resistance Heroes Day — CZ",
+        "it": "Czech Second Resistance Heroes Day — CZ",
+        "es": "Czech Second Resistance Heroes Day — CZ",
+        "fr": "Czech Second Resistance Heroes Day — CZ",
+        "de": "Czech Second Resistance Heroes Day — CZ",
+        "pt": "Czech Second Resistance Heroes Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-departure-of-soviet-occupation-troops-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Departure of Soviet Occupation Troops Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 25
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Departure of Soviet Occupation Troops Day — CZ",
+        "it": "Departure of Soviet Occupation Troops Day — CZ",
+        "es": "Departure of Soviet Occupation Troops Day — CZ",
+        "fr": "Departure of Soviet Occupation Troops Day — CZ",
+        "de": "Departure of Soviet Occupation Troops Day — CZ",
+        "pt": "Departure of Soviet Occupation Troops Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-victims-of-communist-regime-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Victims of Communist Regime Remembrance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 27
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Victims of Communist Regime Remembrance Day — CZ",
+        "it": "Victims of Communist Regime Remembrance Day — CZ",
+        "es": "Victims of Communist Regime Remembrance Day — CZ",
+        "fr": "Victims of Communist Regime Remembrance Day — CZ",
+        "de": "Victims of Communist Regime Remembrance Day — CZ",
+        "pt": "Victims of Communist Regime Remembrance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-warsaw-pact-invasion-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Warsaw Pact Invasion Remembrance Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "it": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "es": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "fr": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "de": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "pt": "Warsaw Pact Invasion Remembrance Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-sokol-memorial-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Sokol Memorial Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Sokol Memorial Day — CZ",
+        "it": "Sokol Memorial Day — CZ",
+        "es": "Sokol Memorial Day — CZ",
+        "fr": "Sokol Memorial Day — CZ",
+        "de": "Sokol Memorial Day — CZ",
+        "pt": "Sokol Memorial Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-samizdat-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Samizdat Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech Samizdat Day — CZ",
+        "it": "Czech Samizdat Day — CZ",
+        "es": "Czech Samizdat Day — CZ",
+        "fr": "Czech Samizdat Day — CZ",
+        "de": "Czech Samizdat Day — CZ",
+        "pt": "Czech Samizdat Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "cz-czech-war-veterans-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech War Veterans Day — CZ",
+      "aliases": [],
+      "authority": "Czech Ministry of Labour and Social Affairs / Czech Law 245/2000",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Czech War Veterans Day — CZ",
+        "it": "Czech War Veterans Day — CZ",
+        "es": "Czech War Veterans Day — CZ",
+        "fr": "Czech War Veterans Day — CZ",
+        "de": "Czech War Veterans Day — CZ",
+        "pt": "Czech War Veterans Day — CZ"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-home-army-soldiers-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Home Army Soldiers Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 14
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Home Army Soldiers Remembrance Day — PL",
+        "it": "Home Army Soldiers Remembrance Day — PL",
+        "es": "Home Army Soldiers Remembrance Day — PL",
+        "fr": "Home Army Soldiers Remembrance Day — PL",
+        "de": "Home Army Soldiers Remembrance Day — PL",
+        "pt": "Home Army Soldiers Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-polish-science-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish Science Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 19
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Polish Science Day — PL",
+        "it": "Polish Science Day — PL",
+        "es": "Polish Science Day — PL",
+        "fr": "Polish Science Day — PL",
+        "de": "Polish Science Day — PL",
+        "pt": "Polish Science Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-cursed-soldiers-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Cursed Soldiers Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Cursed Soldiers Remembrance Day — PL",
+        "it": "Cursed Soldiers Remembrance Day — PL",
+        "es": "Cursed Soldiers Remembrance Day — PL",
+        "fr": "Cursed Soldiers Remembrance Day — PL",
+        "de": "Cursed Soldiers Remembrance Day — PL",
+        "pt": "Cursed Soldiers Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-poles-who-saved-jews-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Poles Who Saved Jews Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Poles Who Saved Jews Remembrance Day — PL",
+        "it": "Poles Who Saved Jews Remembrance Day — PL",
+        "es": "Poles Who Saved Jews Remembrance Day — PL",
+        "fr": "Poles Who Saved Jews Remembrance Day — PL",
+        "de": "Poles Who Saved Jews Remembrance Day — PL",
+        "pt": "Poles Who Saved Jews Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-war-invalids-day",
+      "country": "PL",
+      "canonicalTitleEn": "War Invalids Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "War Invalids Day — PL",
+        "it": "War Invalids Day — PL",
+        "es": "War Invalids Day — PL",
+        "fr": "War Invalids Day — PL",
+        "de": "War Invalids Day — PL",
+        "pt": "War Invalids Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-baptism-of-poland-day",
+      "country": "PL",
+      "canonicalTitleEn": "Baptism of Poland Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 14
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Baptism of Poland Day — PL",
+        "it": "Baptism of Poland Day — PL",
+        "es": "Baptism of Poland Day — PL",
+        "fr": "Baptism of Poland Day — PL",
+        "de": "Baptism of Poland Day — PL",
+        "pt": "Baptism of Poland Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-polish-national-victory-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish National Victory Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Polish National Victory Day — PL",
+        "it": "Polish National Victory Day — PL",
+        "es": "Polish National Victory Day — PL",
+        "fr": "Polish National Victory Day — PL",
+        "de": "Polish National Victory Day — PL",
+        "pt": "Polish National Victory Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-silesian-uprisings-national-day",
+      "country": "PL",
+      "canonicalTitleEn": "Silesian Uprisings National Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 20
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Silesian Uprisings National Day — PL",
+        "it": "Silesian Uprisings National Day — PL",
+        "es": "Silesian Uprisings National Day — PL",
+        "fr": "Silesian Uprisings National Day — PL",
+        "de": "Silesian Uprisings National Day — PL",
+        "pt": "Silesian Uprisings National Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-polish-victims-of-oun-upa-genocide-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "it": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "es": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "fr": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "de": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "pt": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-struggle-and-martyrdom-of-polish-villages-day",
+      "country": "PL",
+      "canonicalTitleEn": "Struggle and Martyrdom of Polish Villages Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "it": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "es": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "fr": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "de": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "pt": "Struggle and Martyrdom of Polish Villages Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-warsaw-uprising-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Warsaw Uprising Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Warsaw Uprising Remembrance Day — PL",
+        "it": "Warsaw Uprising Remembrance Day — PL",
+        "es": "Warsaw Uprising Remembrance Day — PL",
+        "fr": "Warsaw Uprising Remembrance Day — PL",
+        "de": "Warsaw Uprising Remembrance Day — PL",
+        "pt": "Warsaw Uprising Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-solidarity-and-freedom-day",
+      "country": "PL",
+      "canonicalTitleEn": "Solidarity and Freedom Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 31
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Solidarity and Freedom Day — PL",
+        "it": "Solidarity and Freedom Day — PL",
+        "es": "Solidarity and Freedom Day — PL",
+        "fr": "Solidarity and Freedom Day — PL",
+        "de": "Solidarity and Freedom Day — PL",
+        "pt": "Solidarity and Freedom Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "pl-unbroken-clergy-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Unbroken Clergy Remembrance Day — PL",
+      "aliases": [],
+      "authority": "Ministry of Culture and National Heritage of Poland",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 19
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Unbroken Clergy Remembrance Day — PL",
+        "it": "Unbroken Clergy Remembrance Day — PL",
+        "es": "Unbroken Clergy Remembrance Day — PL",
+        "fr": "Unbroken Clergy Remembrance Day — PL",
+        "de": "Unbroken Clergy Remembrance Day — PL",
+        "pt": "Unbroken Clergy Remembrance Day — PL"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-king-carl-xvi-gustaf-name-day",
+      "country": "SE",
+      "canonicalTitleEn": "King Carl XVI Gustaf Name Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 28
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "King Carl XVI Gustaf Name Day — SE",
+        "it": "King Carl XVI Gustaf Name Day — SE",
+        "es": "King Carl XVI Gustaf Name Day — SE",
+        "fr": "King Carl XVI Gustaf Name Day — SE",
+        "de": "King Carl XVI Gustaf Name Day — SE",
+        "pt": "King Carl XVI Gustaf Name Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-crown-princess-victoria-name-day",
+      "country": "SE",
+      "canonicalTitleEn": "Crown Princess Victoria Name Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 12
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Crown Princess Victoria Name Day — SE",
+        "it": "Crown Princess Victoria Name Day — SE",
+        "es": "Crown Princess Victoria Name Day — SE",
+        "fr": "Crown Princess Victoria Name Day — SE",
+        "de": "Crown Princess Victoria Name Day — SE",
+        "pt": "Crown Princess Victoria Name Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-king-carl-xvi-gustaf-birthday",
+      "country": "SE",
+      "canonicalTitleEn": "King Carl XVI Gustaf Birthday — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 30
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "King Carl XVI Gustaf Birthday — SE",
+        "it": "King Carl XVI Gustaf Birthday — SE",
+        "es": "King Carl XVI Gustaf Birthday — SE",
+        "fr": "King Carl XVI Gustaf Birthday — SE",
+        "de": "King Carl XVI Gustaf Birthday — SE",
+        "pt": "King Carl XVI Gustaf Birthday — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-sweden-veterans-day",
+      "country": "SE",
+      "canonicalTitleEn": "Sweden Veterans Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 29
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Sweden Veterans Day — SE",
+        "it": "Sweden Veterans Day — SE",
+        "es": "Sweden Veterans Day — SE",
+        "fr": "Sweden Veterans Day — SE",
+        "de": "Sweden Veterans Day — SE",
+        "pt": "Sweden Veterans Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-crown-princess-victoria-birthday",
+      "country": "SE",
+      "canonicalTitleEn": "Crown Princess Victoria Birthday — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 14
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Crown Princess Victoria Birthday — SE",
+        "it": "Crown Princess Victoria Birthday — SE",
+        "es": "Crown Princess Victoria Birthday — SE",
+        "fr": "Crown Princess Victoria Birthday — SE",
+        "de": "Crown Princess Victoria Birthday — SE",
+        "pt": "Crown Princess Victoria Birthday — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-queen-silvia-name-day",
+      "country": "SE",
+      "canonicalTitleEn": "Queen Silvia Name Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Queen Silvia Name Day — SE",
+        "it": "Queen Silvia Name Day — SE",
+        "es": "Queen Silvia Name Day — SE",
+        "fr": "Queen Silvia Name Day — SE",
+        "de": "Queen Silvia Name Day — SE",
+        "pt": "Queen Silvia Name Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-gustavus-adolphus-day",
+      "country": "SE",
+      "canonicalTitleEn": "Gustavus Adolphus Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Gustavus Adolphus Day — SE",
+        "it": "Gustavus Adolphus Day — SE",
+        "es": "Gustavus Adolphus Day — SE",
+        "fr": "Gustavus Adolphus Day — SE",
+        "de": "Gustavus Adolphus Day — SE",
+        "pt": "Gustavus Adolphus Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-alfred-nobel-day",
+      "country": "SE",
+      "canonicalTitleEn": "Alfred Nobel Day — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 10
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Alfred Nobel Day — SE",
+        "it": "Alfred Nobel Day — SE",
+        "es": "Alfred Nobel Day — SE",
+        "fr": "Alfred Nobel Day — SE",
+        "de": "Alfred Nobel Day — SE",
+        "pt": "Alfred Nobel Day — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "se-queen-silvia-birthday",
+      "country": "SE",
+      "canonicalTitleEn": "Queen Silvia Birthday — SE",
+      "aliases": [],
+      "authority": "Riksdag of Sweden / SFS 1982:270",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Queen Silvia Birthday — SE",
+        "it": "Queen Silvia Birthday — SE",
+        "es": "Queen Silvia Birthday — SE",
+        "fr": "Queen Silvia Birthday — SE",
+        "de": "Queen Silvia Birthday — SE",
+        "pt": "Queen Silvia Birthday — SE"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "no-princess-ingrid-alexandra-birthday",
+      "country": "NO",
+      "canonicalTitleEn": "Princess Ingrid Alexandra Birthday — NO",
+      "aliases": [],
+      "authority": "Government of Norway / State Flag Regulations",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Princess Ingrid Alexandra Birthday — NO",
+        "it": "Princess Ingrid Alexandra Birthday — NO",
+        "es": "Princess Ingrid Alexandra Birthday — NO",
+        "fr": "Princess Ingrid Alexandra Birthday — NO",
+        "de": "Princess Ingrid Alexandra Birthday — NO",
+        "pt": "Princess Ingrid Alexandra Birthday — NO"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "no-king-harald-v-birthday",
+      "country": "NO",
+      "canonicalTitleEn": "King Harald V Birthday — NO",
+      "aliases": [],
+      "authority": "Government of Norway / State Flag Regulations",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "King Harald V Birthday — NO",
+        "it": "King Harald V Birthday — NO",
+        "es": "King Harald V Birthday — NO",
+        "fr": "King Harald V Birthday — NO",
+        "de": "King Harald V Birthday — NO",
+        "pt": "King Harald V Birthday — NO"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "no-queen-sonja-birthday",
+      "country": "NO",
+      "canonicalTitleEn": "Queen Sonja Birthday — NO",
+      "aliases": [],
+      "authority": "Government of Norway / State Flag Regulations",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Queen Sonja Birthday — NO",
+        "it": "Queen Sonja Birthday — NO",
+        "es": "Queen Sonja Birthday — NO",
+        "fr": "Queen Sonja Birthday — NO",
+        "de": "Queen Sonja Birthday — NO",
+        "pt": "Queen Sonja Birthday — NO"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "no-crown-prince-haakon-birthday",
+      "country": "NO",
+      "canonicalTitleEn": "Crown Prince Haakon Birthday — NO",
+      "aliases": [],
+      "authority": "Government of Norway / State Flag Regulations",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 20
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Crown Prince Haakon Birthday — NO",
+        "it": "Crown Prince Haakon Birthday — NO",
+        "es": "Crown Prince Haakon Birthday — NO",
+        "fr": "Crown Prince Haakon Birthday — NO",
+        "de": "Crown Prince Haakon Birthday — NO",
+        "pt": "Crown Prince Haakon Birthday — NO"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "no-crown-princess-mette-marit-birthday",
+      "country": "NO",
+      "canonicalTitleEn": "Crown Princess Mette-Marit Birthday — NO",
+      "aliases": [],
+      "authority": "Government of Norway / State Flag Regulations",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_NATIONAL_CIVIC_OR_FLAG_OBSERVANCE",
+      "source": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 19
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Crown Princess Mette-Marit Birthday — NO",
+        "it": "Crown Princess Mette-Marit Birthday — NO",
+        "es": "Crown Princess Mette-Marit Birthday — NO",
+        "fr": "Crown Princess Mette-Marit Birthday — NO",
+        "de": "Crown Princess Mette-Marit Birthday — NO",
+        "pt": "Crown Princess Mette-Marit Birthday — NO"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "fi-sami-national-day-observed-in-finland",
+      "country": "FI",
+      "canonicalTitleEn": "Sami National Day Observed in Finland — FI",
+      "aliases": [],
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_OR_RECOMMENDED_NATIONAL_FLAG_DAY",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "sourceTier": "D_ORIGINATOR",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 2,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Sami National Day Observed in Finland — FI",
+        "it": "Sami National Day Observed in Finland — FI",
+        "es": "Sami National Day Observed in Finland — FI",
+        "fr": "Sami National Day Observed in Finland — FI",
+        "de": "Sami National Day Observed in Finland — FI",
+        "pt": "Sami National Day Observed in Finland — FI"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "fi-evacuees-day-in-finland",
+      "country": "FI",
+      "canonicalTitleEn": "Evacuees Day in Finland — FI",
+      "aliases": [],
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_OR_RECOMMENDED_NATIONAL_FLAG_DAY",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "sourceTier": "D_ORIGINATOR",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 20
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Evacuees Day in Finland — FI",
+        "it": "Evacuees Day in Finland — FI",
+        "es": "Evacuees Day in Finland — FI",
+        "fr": "Evacuees Day in Finland — FI",
+        "de": "Evacuees Day in Finland — FI",
+        "pt": "Evacuees Day in Finland — FI"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "fi-finnish-remembrance-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Remembrance Day — FI",
+      "aliases": [],
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_OR_RECOMMENDED_NATIONAL_FLAG_DAY",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "sourceTier": "D_ORIGINATOR",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 5,
+          "weekday": 7,
+          "occurrence": 3
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Finnish Remembrance Day — FI",
+        "it": "Finnish Remembrance Day — FI",
+        "es": "Finnish Remembrance Day — FI",
+        "fr": "Finnish Remembrance Day — FI",
+        "de": "Finnish Remembrance Day — FI",
+        "pt": "Finnish Remembrance Day — FI"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "fi-finnish-flag-day-and-midsummer-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Flag Day and Midsummer Day — FI",
+      "aliases": [],
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_OR_RECOMMENDED_NATIONAL_FLAG_DAY",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "sourceTier": "D_ORIGINATOR",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "WEEKDAY_ON_OR_AFTER",
+          "month": 6,
+          "day": 20,
+          "weekday": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Finnish Flag Day and Midsummer Day — FI",
+        "it": "Finnish Flag Day and Midsummer Day — FI",
+        "es": "Finnish Flag Day and Midsummer Day — FI",
+        "fr": "Finnish Flag Day and Midsummer Day — FI",
+        "de": "Finnish Flag Day and Midsummer Day — FI",
+        "pt": "Finnish Flag Day and Midsummer Day — FI"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    },
+    {
+      "id": "fi-tove-jansson-and-finnish-art-day",
+      "country": "FI",
+      "canonicalTitleEn": "Tove Jansson and Finnish Art Day — FI",
+      "aliases": [],
+      "authority": "University of Helsinki Almanac Office",
+      "authorityType": "UNIVERSITY",
+      "officiality": "RECOGNIZED_INSTITUTIONAL",
+      "holidayClassification": "OFFICIAL_OR_RECOMMENDED_NATIONAL_FLAG_DAY",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "sourceTier": "D_ORIGINATOR",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 9
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "titleTranslationStatus": "ENGLISH_FALLBACK_REQUIRES_NATIVE_LOCALE_REVIEW",
+      "localizedTitles": {
+        "en": "Tove Jansson and Finnish Art Day — FI",
+        "it": "Tove Jansson and Finnish Art Day — FI",
+        "es": "Tove Jansson and Finnish Art Day — FI",
+        "fr": "Tove Jansson and Finnish Art Day — FI",
+        "de": "Tove Jansson and Finnish Art Day — FI",
+        "pt": "Tove Jansson and Finnish Art Day — FI"
+      },
+      "chronologyNote": "This recurring national remembrance or official flag-day designation is listed by a competent public authority or an institution with responsibility for the national calendar. This record does not infer the year of establishment or the historical origin of the observance.",
+      "dateRationale": "The cited primary government legislation or source calendar specifies the annual date or recurrence and its legal or traditional status; holiday entitlement is not inferred."
+    }
+  ]
+}
