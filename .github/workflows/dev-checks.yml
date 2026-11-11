@@ -32,6 +32,7 @@ jobs:
           python3 tool/market_wave10.py
           python3 tool/market_wave11.py
           python3 tool/market_wave12.py
+          python3 tool/market_wave13.py
           python3 tool/build_dataset.py
           python3 tool/validate_dataset.py
           python3 tool/validate_wave06_generated.py
@@ -41,6 +42,7 @@ jobs:
           python3 tool/validate_wave10_generated.py
           python3 tool/validate_wave11_generated.py
           python3 tool/validate_wave12_generated.py
+          python3 tool/validate_wave13_generated.py
           python3 tool/test_discover_eures_institutional.py
           python3 tool/validate_eures_research_batch.py
           python3 tool/triage_bulk_institutional.py
