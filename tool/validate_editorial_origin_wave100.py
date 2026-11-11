@@ -14,10 +14,10 @@ assert 0<=published["targetCount"]==published["recordCount"]==len(published["dos
 assert published["historicallyVerifiedCompletedStories"]==0
 assert published["reviewStatus"]==("100_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_100_APPROVED_STORIES"
         if published["recordCount"]==100 else
-        f"{published[\"recordCount\"]}_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_APPROVED_STORIES")
+        str(published["recordCount"])+"_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_APPROVED_STORIES")
 rows=published["dossiers"]
-assert len({r["observanceId"] for r in rows})==100
-assert [r["sequence"] for r in rows]==list(range(1,101))
+assert len({r["observanceId"] for r in rows})==len(rows)
+assert [r["sequence"] for r in rows]==list(range(1,len(rows)+1))
 for r in rows:
     assert r["storyStatus"]=="RESEARCH_NOT_PUBLISHED"
     assert r["priorEditorialStage"]=="NOT_RESEARCHED", "duplicate existing editorial draft"
