@@ -45,6 +45,7 @@ const marketOptions = <MarketOption>[
   MarketOption('LT', '🇱🇹'),
   MarketOption('IS', '🇮🇸'),
   MarketOption('LU', '🇱🇺'),
+  MarketOption('DK', '🇩🇰'),
   MarketOption('CU', '🇨🇺'),
   MarketOption('HT', '🇭🇹'),
   MarketOption('SD', '🇸🇩'),
@@ -204,6 +205,7 @@ const marketOptions = <MarketOption>[
 ];
 
 const _additionalCountryLabels = <String, String>{
+  'DK': 'Denmark',
   'CU': 'Cuba',
   'HT': 'Haiti',
   'SD': 'Sudan',
