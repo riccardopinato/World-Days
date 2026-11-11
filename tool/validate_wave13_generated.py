@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 cat=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 by_id={r["id"]:r for r in cat["records"]}
-assert cat["datasetVersion"]=="2026.11.11.6"
+assert cat["datasetVersion"]=="2026.11.11.7"
 assert len(cat["records"])==len(by_id)==1111
 assert Counter(r["scope"] for r in by_id.values())=={"GLOBAL":289,"NATIONAL":822}
 markets=Counter(r["countries"][0] for r in by_id.values() if r["scope"]=="NATIONAL")
