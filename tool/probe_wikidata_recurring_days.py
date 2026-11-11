@@ -10,12 +10,14 @@ QUERY="""SELECT DISTINCT ?item ?itemLabel ?dayLabel ?countryLabel WHERE {
   ?day rdfs:label ?dayLabel .
   FILTER(LANG(?dayLabel) = "en")
   OPTIONAL { ?item wdt:P17 ?country . ?country rdfs:label ?countryLabel . FILTER(LANG(?countryLabel) = "en") }
-} LIMIT 7000"""
+  FILTER(REGEX(STR(?itemLabel), "day|festival|holiday|anniversary|celebration|feast|week|memorial|observance", "i"))
+  FILTER(REGEX(STR(?dayLabel), "January|February|March|April|May|June|July|August|September|October|November|December", "i"))
+} LIMIT 1000"""
 URL="https://query.wikidata.org/sparql?"+urllib.parse.urlencode({"query":QUERY,"format":"json"})
 def main():
  req=urllib.request.Request(URL,headers={"Accept":"application/sparql-results+json","User-Agent":"WorldDays-research/0.1 (documentation only; source metadata QA)"})
  try:
-  with urllib.request.urlopen(req,timeout=50) as r:
+  with urllib.request.urlopen(req,timeout=30) as r:
    data=json.load(r)
  except Exception as exc:
   print("WDQS_PROBE_BLOCKED:",repr(exc));return
