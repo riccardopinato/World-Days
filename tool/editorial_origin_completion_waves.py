@@ -27,11 +27,16 @@ SOURCE_GATES = {
 }
 
 def _read_origin():
-    doc = json.loads(ORIGIN.read_text(encoding="utf-8"))
-    entries = doc["records"]
-    ids = [r["observanceId"] for r in entries]
-    assert len(ids) == len(set(ids)) == doc["count"] >= 4
-    assert set(doc["records"][0]["locale"]) >= {"en", "it"}
+    root_batches = ROOT / "data/editorial/batches"
+    files = [ORIGIN] + sorted(root_batches.glob("origin_stories_wave*.json"))
+    ids = []
+    for path in files:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        entries = doc["records"]
+        assert len(entries) == doc["count"], path
+        assert all({"en", "it"} <= set(r["locale"]) for r in entries), path
+        ids.extend(r["observanceId"] for r in entries)
+    assert len(ids) == len(set(ids)) >= 4, "duplicate or missing researched origins"
     return ids
 
 def _ordering(row):
