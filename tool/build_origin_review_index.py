@@ -77,11 +77,13 @@ def run():
    "introducedYear":year,
    "originResearchStatus":status,
    "editorialTranslationStatus":"IT_EN_RESEARCHED_OTHERS_FALLBACK_EN" if story else "NO_NEW_ORIGIN_TEXT",
+   "additionalTranslationDrafts":sorted(set(story["locale"])-{"it","en"}) if story else [],
    "primaryResearch":None,
   }
   if story:
    assert story["sources"] and all(urlsplit(u).scheme=="https" for u in story["sources"])
-   for locale in ("en","it"):
+   assert {"it","en"} <= set(story["locale"]) <= {"it","en","es","fr","de","pt"}
+   for locale in story["locale"]:
     content=story["locale"][locale]
     for field in ("heading","origin","promoter","purpose"):
      assert isinstance(content[field],str) and len(content[field])>(18 if field=="heading" else 40),(rid,locale,field)
