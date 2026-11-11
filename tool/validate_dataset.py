@@ -9,6 +9,7 @@ from market_wave08 import load_wave08
 from market_wave09 import load_wave09
 from market_wave10 import load_wave10
 from market_wave11 import load_wave11
+from market_wave12 import load_wave12
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -73,7 +74,9 @@ wave10 = load_wave10()
 expected_market.update({row['id']: row['country'] for row in wave10})
 wave11 = load_wave11()
 expected_market.update({row['id']: row['country'] for row in wave11})
-assert len(ids) == len(records) == 855, ('catalog growth total', len(records))
+wave12 = load_wave12()
+expected_market.update({row['id']: row['country'] for row in wave12})
+assert len(ids) == len(records) == 1011, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
@@ -136,7 +139,7 @@ for record in records:
     if record.get('scope') == 'NATIONAL':
         countries = record.get('countries', [])
         assert len(countries) == 1, f"national record must have one country: {record.get('id')}"
-        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU'}, record.get('id')
+        assert countries[0] in {'IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU', 'CU', 'HT', 'SD', 'MM', 'NR', 'LK', 'GD', 'IR', 'RS', 'GM', 'LC', 'BN', 'GY', 'KW', 'DO', 'BG', 'GH', 'MU', 'TN', 'NA', 'PK', 'GR', 'BD', 'SN', 'ZW', 'TZ', 'SL', 'TG', 'MH', 'PY', 'CM', 'TL', 'YE', 'EC', 'ER', 'JO', 'GE', 'AZ', 'ET', 'WS', 'RU', 'SC', 'MZ', 'SI', 'MG', 'DJ', 'CD', 'BI', 'SO', 'BY', 'CV', 'RW', 'VE', 'KM', 'MW', 'SB', 'SS', 'BS', 'MN', 'KI', 'ST', 'ME', 'CO', 'BE', 'EG', 'LR', 'MV', 'MA', 'VU', 'BJ', 'CH', 'CK', 'BO', 'JM', 'CI', 'TD', 'CG', 'LI', 'GA', 'ID', 'AF', 'HU', 'UA', 'UY', 'MD', 'KG', 'MY', 'TT', 'UZ', 'VN', 'SM', 'SZ', 'AD', 'MK', 'KP', 'TJ', 'CR', 'SV', 'GT', 'HN', 'NI', 'PG', 'CL', 'KN', 'NP', 'AM', 'BZ', 'ML', 'SA', 'GW', 'TM', 'BW', 'CN', 'GN', 'NG', 'PW', 'TV', 'IQ', 'LS', 'UG', 'FJ', 'GQ', 'NU', 'ZM', 'KZ', 'AT', 'VC', 'TR', 'DZ', 'AG', 'DM', 'FM', 'PA', 'TO', 'KH', 'AO', 'OM', 'MC', 'LB', 'BA', 'SR', 'AL', 'MR', 'BB', 'CF', 'RO', 'LA', 'AE', 'TH', 'BF', 'KE', 'BH', 'BT', 'NE', 'QA', 'LY'}, record.get('id')
         assert officiality in {'OFFICIAL_INSTITUTIONAL', 'RECOGNIZED_INSTITUTIONAL'}, record.get('id')
         if officiality == 'OFFICIAL_INSTITUTIONAL':
             assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
