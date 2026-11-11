@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "batchId": "WORLD_DAYS_BRIGID_EDITORIAL_20261111",
+  "sourceReviewedOn": "2026-11-11",
+  "count": 2,
+  "languagesVerified": [
+    "en"
+  ],
+  "secondaryLocaleStatus": "TRANSLATION_PENDING",
+  "description": "Two distinctly scoped Irish cultural and statutory records; source-backed narratives, not a claim of published long-form reviews.",
+  "records": [
+    {
+      "id": "ie-st-brigids-day",
+      "kind": "TRADITIONAL_CULTURAL_OBSERVANCE",
+      "locale": "en",
+      "headline": "St Brigid’s Day: Ireland’s spring tradition",
+      "origin": "The traditional date is 1 February, associated with Lá Fhéile Bríde and the older seasonal festival Imbolc. Ireland’s government describes Brigid’s cultural roots and connections with the return of spring.",
+      "why": "The date is rooted in Irish seasonal and religious heritage, not a modern statutory institution in the same way as a public holiday.",
+      "initiator": "UNKNOWN_AS_SINGLE_ORIGINATOR",
+      "introducedYear": null,
+      "whyThisDate": "1 February is the traditional feast and spring-season marker, distinct from the employment public holiday.",
+      "facts": [
+        "Imbolc marks a traditional point in the seasonal calendar.",
+        "The Irish public holiday created from 2023 can occur on a different date.",
+        "The traditional day is not proof that every workplace has a public-holiday entitlement on 1 February."
+      ],
+      "sources": [
+        "https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/inaugural-saint-brigids-day-bank-holiday-cultural-programme-launched-to-celebrate-women-in-ireland/",
+        "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/"
+      ],
+      "editorialState": "FACTS_PRIMARY_SOURCED_HUMAN_REVIEW_PENDING",
+      "authoringStatus": "ORIGINAL_SUMMARY_NOT_IMPORTED_TO_RUNTIME"
+    },
+    {
+      "id": "ie-w13-eures-st-brigid-s-day",
+      "kind": "STATUTORY_PUBLIC_HOLIDAY",
+      "locale": "en",
+      "headline": "Why Ireland added a St Brigid’s public holiday",
+      "origin": "The Irish government introduced a new annual public holiday from 2023 to coincide with the period around Imbolc and St Brigid’s Day. Ireland’s Workplace Relations Commission confirms the first-Monday-in-February rule with an exception when 1 February is Friday.",
+      "why": "The new public holiday recognizes a culturally significant point in the Irish calendar. The inaugural cultural programme also highlighted and celebrated women’s contributions.",
+      "initiator": "GOVERNMENT_OF_IRELAND",
+      "introducedYear": 2023,
+      "whyThisDate": "The first Monday of February, unless Friday 1 February is the holiday; the choice connects with the traditional 1 February observance.",
+      "facts": [
+        "The holiday first became permanent from 2023.",
+        "2026: Monday 2 February; 2027: Monday 1 February; 2028: Monday 7 February; 2029: Monday 5 February.",
+        "The Friday 1 February exception applies in 2030.",
+        "A public-holiday employment entitlement is not identical to a guaranteed day off for every worker."
+      ],
+      "sources": [
+        "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/",
+        "https://www.gov.ie/en/department-of-culture-communications-and-sport/press-releases/inaugural-saint-brigids-day-bank-holiday-cultural-programme-launched-to-celebrate-women-in-ireland/"
+      ],
+      "editorialState": "FACTS_PRIMARY_SOURCED_HUMAN_REVIEW_PENDING",
+      "authoringStatus": "ORIGINAL_SUMMARY_NOT_IMPORTED_TO_RUNTIME"
+    }
+  ]
+}

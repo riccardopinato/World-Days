@@ -1,5 +1,10 @@
 # World Days
 
+## Ireland February public-holiday source correction (2026-11-11)
+
+The 1 February *traditional cultural* Saint Brigid observation and the *statutory public holiday* are distinct canonical records. The statutory holiday began in 2023, and the Irish [Workplace Relations Commission](https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/) specifies the first Monday of February except when 1 February is a Friday, in which case Friday 1 February is the holiday. The record now has reviewed source-derived annual date overrides for 2023–2100; the app fails closed beyond that validated horizon. Flutter and Python tests cover the 2026/2027/2028/2029/2030 transitions. English source-backed origin summaries for the two related records are staged for human editorial review in `data/editorial/candidates/irish_brigid_two_stories_primary_20261111.json`; these are not falsely promoted as approved rich articles. The catalog remains 1,111 IDs; this patch corrects dating and primary-source provenance, not identity count. A full all-record cultural and statutory audit is outstanding.
+
+
 ## Wave10 — 100 national institutional-calendar additions (PR pending)
 
 The next exact 100-record source batch adds **50 commemorative days** listed by South Korea's Ministry of the Interior and Safety and **50 artist/cultural anniversaries and remembrance dates** indexed by the Philippine National Commission for Culture and the Arts. Proposed catalog: **611 → 711 unique canonical identities** (**289 global + 422 national**) with 36 country choices unchanged.

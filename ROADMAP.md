@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## Certification and editorial continuation — 2026-11-11
+
+- [x] Prepare Ireland St Brigid statutory holiday correction against [WRC public-holiday guidance](https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/): annual exceptions 2023–2100 and separate traditional 1 February record; **CI pending** until confirmed on the new PR head.
+- [x] Stage two distinct source-grounded English origin narratives for editorial review without increasing the runtime REVIEWED count prematurely.
+- [ ] Confirm exact-head Python validation, Flutter tests and Web release CI; reconcile main's actual Git commit to the 1,111-record generated dataset.
+- [ ] Review national legal dates and institutional index records (DFAT, EURES, NCCA), correct provenance/recurrence errors, and distinguish official public holidays from cultural anniversaries.
+- [ ] Build 1,111-entry editorial gap registry (source/why/creator/year/context), verify evidence per record, publish source-grounded stories in batches, and localize translations with review gates. Do not fabricate unknown details.
+- [ ] Never auto-upgrade English fallback STUB articles into REVIEWED or treat minimum 1,111 as maximum.
+
+
 ## Wave10 — complete next +100 identity threshold (11 November 2026)
 
 - [x] Version 100 source-index records: 50 Korean government commemorations, 50 Philippine National Commission cultural anniversaries
