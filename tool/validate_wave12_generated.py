@@ -26,7 +26,7 @@ for row in load_wave12():
  assert rec["countries"]==[row["country"]]
  assert rec["authority"]["name"]==row["authority"]
  assert rec["authority"]["type"]=="GOVERNMENT"
- assert rec["authority"]["officiality"]=="OFFICIAL_INSTITUTIONAL"
+ assert rec["authority"]["officiality"]=="RECOGNIZED_INSTITUTIONAL"
  assert rec["editorialStatus"]=="STUB"
  assert rec["sources"][0]["tier"]=="A_PRIMARY"
  assert rec["sources"][0]["url"]==row["source"]
