@@ -34,7 +34,8 @@ def build():
 
     eligible = []
     for r in audit["rows"]:
-        if r["id"] in excluded or r["storyPublished"] or r["researchDraft"]:
+        if (r["id"] in excluded or r["storyPublished"] or r["researchDraft"]
+                or r["editorialStage"] != "NOT_RESEARCHED"):
             continue
         if r["sourceQualityGate"] in BLOCKED_QUALITY:
             continue
@@ -70,6 +71,7 @@ def build():
             "catalogSourceUrls": r["sourceUrls"],
             "catalogSourceTiers": r["sourceTiers"],
             "sourceQualityGate": r["sourceQualityGate"],
+            "priorEditorialStage": r["editorialStage"],
             "historicalEvidenceStatus": "SOURCE_LINK_PRESENT_INDIVIDUAL_HISTORY_UNVERIFIED",
             "storyStatus": "RESEARCH_NOT_PUBLISHED",
             "storyDraft": {
