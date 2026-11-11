@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "datasetId": "world-days-wave12-dfat-158-countries-20261111",
-  "count": 158,
-  "countryCount": 158,
+  "datasetId": "world-days-wave12-dfat-156-countries-20261111",
+  "count": 156,
+  "countryCount": 156,
   "sourceReviewedOn": "2026-11-11",
   "source": "https://protocol.dfat.gov.au/Public/NationalDays",
   "sourceRole": "GOVERNMENT_DIPLOMATIC_PROTOCOL_NOT_NATIONAL_STATUTORY_LAW",
@@ -107,10 +107,6 @@
       "name": "Senegal"
     },
     {
-      "code": "SY",
-      "name": "Syria"
-    },
-    {
       "code": "ZW",
       "name": "Zimbabwe"
     },
@@ -157,10 +153,6 @@
     {
       "code": "JO",
       "name": "Jordan"
-    },
-    {
-      "code": "DK",
-      "name": "Denmark"
     },
     {
       "code": "GE",
@@ -1557,44 +1549,6 @@
       "dateRationale": "The Australian government's diplomatic protocol National Days calendar identifies this country, named occasion and date; foreign public-holiday legislation or date changes require separate verification."
     },
     {
-      "id": "sy-dfat-national-day",
-      "country": "SY",
-      "canonicalTitleEn": "National Day — Syria",
-      "aliases": [
-        "Syria: National Day"
-      ],
-      "authority": "Australian Department of Foreign Affairs and Trade — Diplomatic Protocol",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 4,
-          "day": 17
-        }
-      ],
-      "subject": "CULTURE",
-      "scope": "NATIONAL",
-      "holidayClassification": "AUSTRALIAN_DIPLOMATIC_PROTOCOL_NATIONAL_DAY_NOT_INDEPENDENTLY_VERIFIED_STATUTORY_HOLIDAY",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "humanEditorialStatus": "SOURCE_INDEX_ONLY_LONG_FORM_NOT_REVIEWED",
-      "titleTranslationStatus": "EN_FALLBACK_NOT_NATIVE_TRANSLATION",
-      "localizedTitles": {
-        "en": "National Day — Syria",
-        "it": "National Day — Syria",
-        "es": "National Day — Syria",
-        "fr": "National Day — Syria",
-        "de": "National Day — Syria",
-        "pt": "National Day — Syria"
-      },
-      "chronologyNote": "The Australian Department of Foreign Affairs and Trade's diplomatic protocol register lists this country's national occasion and calendar date. Inclusion does not establish the event's first year or independently certify a statutory paid holiday in that country.",
-      "dateRationale": "The Australian government's diplomatic protocol National Days calendar identifies this country, named occasion and date; foreign public-holiday legislation or date changes require separate verification."
-    },
-    {
       "id": "zw-dfat-national-day",
       "country": "ZW",
       "canonicalTitleEn": "National Day — Zimbabwe",
@@ -2046,44 +2000,6 @@
         "fr": "Independence Day — Jordan",
         "de": "Independence Day — Jordan",
         "pt": "Independence Day — Jordan"
-      },
-      "chronologyNote": "The Australian Department of Foreign Affairs and Trade's diplomatic protocol register lists this country's national occasion and calendar date. Inclusion does not establish the event's first year or independently certify a statutory paid holiday in that country.",
-      "dateRationale": "The Australian government's diplomatic protocol National Days calendar identifies this country, named occasion and date; foreign public-holiday legislation or date changes require separate verification."
-    },
-    {
-      "id": "dk-dfat-national-day",
-      "country": "DK",
-      "canonicalTitleEn": "King's Birthday — Denmark",
-      "aliases": [
-        "Denmark: King's Birthday"
-      ],
-      "authority": "Australian Department of Foreign Affairs and Trade — Diplomatic Protocol",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 5,
-          "day": 26
-        }
-      ],
-      "subject": "CULTURE",
-      "scope": "NATIONAL",
-      "holidayClassification": "AUSTRALIAN_DIPLOMATIC_PROTOCOL_NATIONAL_DAY_NOT_INDEPENDENTLY_VERIFIED_STATUTORY_HOLIDAY",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "humanEditorialStatus": "SOURCE_INDEX_ONLY_LONG_FORM_NOT_REVIEWED",
-      "titleTranslationStatus": "EN_FALLBACK_NOT_NATIVE_TRANSLATION",
-      "localizedTitles": {
-        "en": "King's Birthday — Denmark",
-        "it": "King's Birthday — Denmark",
-        "es": "King's Birthday — Denmark",
-        "fr": "King's Birthday — Denmark",
-        "de": "King's Birthday — Denmark",
-        "pt": "King's Birthday — Denmark"
       },
       "chronologyNote": "The Australian Department of Foreign Affairs and Trade's diplomatic protocol register lists this country's national occasion and calendar date. Inclusion does not establish the event's first year or independently certify a statutory paid holiday in that country.",
       "dateRationale": "The Australian government's diplomatic protocol National Days calendar identifies this country, named occasion and date; foreign public-holiday legislation or date changes require separate verification."
@@ -6647,6 +6563,18 @@
       },
       "chronologyNote": "The Australian Department of Foreign Affairs and Trade's diplomatic protocol register lists this country's national occasion and calendar date. Inclusion does not establish the event's first year or independently certify a statutory paid holiday in that country.",
       "dateRationale": "The Australian government's diplomatic protocol National Days calendar identifies this country, named occasion and date; foreign public-holiday legislation or date changes require separate verification."
+    }
+  ],
+  "excludedForDateOrContemporaryStatusReview": [
+    {
+      "country": "SY",
+      "title": "National Day — Syria",
+      "reason": "National-day identity/date requires confirmation against the country's post-2024 legal framework"
+    },
+    {
+      "country": "DK",
+      "title": "King's Birthday — Denmark",
+      "reason": "Current-reigning-monarch birthday: independent ongoing recurrence needs authority review"
     }
   ]
 }
