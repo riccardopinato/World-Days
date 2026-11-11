@@ -20,17 +20,29 @@ REPORT=ROOT/"reports/origin_review_coverage.json"
 def run():
  catalog=json.loads(CATALOG.read_text(encoding="utf-8"))
  legacy=json.loads(LEGACY.read_text(encoding="utf-8"))
- batch=json.loads(BATCH.read_text(encoding="utf-8"))
  records=catalog["records"]
  ids={r["id"] for r in records}
  assert len(ids)==len(records)>=1111
  old_ids={e["observanceId"] for e in legacy["entries"]}
  assert len(old_ids)==len(legacy["entries"])==56
  assert old_ids<=ids
- stories={r["observanceId"]:r for r in batch["records"]}
- assert len(stories)==len(batch["records"])==batch["count"]>=4
- assert set(stories)<=ids
- assert batch["status"]=="SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE"
+ # The initial four-stories file is immutable in meaning; later source-backed
+ # waves are separate append-only batches, discovered deterministically.
+ batch_files=[BATCH]+sorted((ROOT/"data/editorial/batches").glob("origin_stories_wave*.json"))
+ stories={}
+ story_reviewed_at={}
+ for batch_file in batch_files:
+  batch=json.loads(batch_file.read_text(encoding="utf-8"))
+  assert batch["status"]=="SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",batch_file
+  assert batch["count"]==len(batch["records"]),batch_file
+  assert batch["reviewedOn"] and len(batch["reviewedOn"])==10,batch_file
+  for item in batch["records"]:
+   oid=item["observanceId"]
+   assert oid not in stories,("duplicate source-researched origin",oid,batch_file)
+   assert oid in ids,("origin absent canonical catalog",oid,batch_file)
+   stories[oid]=item
+   story_reviewed_at[oid]=batch["reviewedOn"]
+ assert len(stories)>=4
  result=[]
  source_tiers=Counter()
  by_status=Counter()
@@ -92,7 +104,7 @@ def run():
    if year is not None:
     assert story["introducedYear"]==year,(rid,year,story["introducedYear"])
    entry["primaryResearch"]={
-    "reviewedAt":batch["reviewedOn"],
+    "reviewedAt":story_reviewed_at[rid],
     "sourceUrls":story["sources"],
     "introducedYear":story["introducedYear"],
     "firstObservedYear":story["firstObservedYear"],
