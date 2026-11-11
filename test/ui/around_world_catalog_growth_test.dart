@@ -52,7 +52,7 @@ void main() {
 
   // Country selector and lazy list must accept all six newly admitted markets.
   const markets = <(String, int, String)>[
-    ('CA', 5, 'fr'),
+    ('CA', 32, 'fr'),
     ('AU', 3, 'en'),
     ('BR', 3, 'pt'),
     ('MX', 3, 'es'),
