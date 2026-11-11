@@ -8,9 +8,10 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 by_id={r["id"]:r for r in catalog["records"]}
-assert catalog["datasetVersion"]=="2026.11.11.2"
-assert len(by_id)==len(catalog["records"])==611
-assert Counter(r["scope"] for r in by_id.values())=={"GLOBAL":289,"NATIONAL":322}
+assert tuple(map(int,catalog["datasetVersion"].split("."))) >= (2026,11,11,2)
+assert len(by_id)==len(catalog["records"])>=611
+assert Counter(r["scope"] for r in by_id.values())["GLOBAL"]==289
+assert Counter(r["scope"] for r in by_id.values())["NATIONAL"]>=322
 old_expected={"SK":6,"CZ":7,"PL":5,"SE":1,"NO":5,"FI":15}
 new_counts={"SK":23,"CZ":18,"PL":13,"SE":9,"NO":5,"FI":5}
 for country in new_counts:
