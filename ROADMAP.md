@@ -4,7 +4,7 @@
 
 - [x] Stage 144 NCCA + 156 DFAT + 100 NCCA/EURES scoped records; expected generator count 1,111, subject to current-head recomputation.
 - [x] Document that 1,111 is a minimum, not an expansion ceiling, and that staged is not verified/admitted.
-- [ ] **P1:** Correct Ireland St Brigid's Day February public-holiday recurrence (first Monday of February, exception when February 1 is Friday), with 2026–2029 regression tests; fixed February 2 is incorrect in 2027/2028.
+- [x] **P1 code correction staged:** Ireland St Brigid's Day public holiday now uses Workplace Relations Commission primary-source 2023–2100 authority-defined overrides (first Monday / Friday 1 February exception), with 2026–2029 and 2030 regression vectors; await exact-head CI before marking certified.
 - [ ] Verify each DFAT and EURES candidate against its country's primary legal/organizer source; reject unsupported annual claims and jurisdictional relabeling.
 - [ ] Reconcile semantic duplicates and incorrect dates; report candidate/accepted/excluded counts separately.
 - [ ] Recompute main and PR head from generated outputs and validate Python, Flutter/Web, review threads and exact-head CI.
