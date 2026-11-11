@@ -52,6 +52,7 @@ void main() {
       'LT': 8,
       'IS': 5,
       'LU': 3,
+      'DK': 3,
       'CU': 1,
       'HT': 1,
       'SD': 1,
@@ -231,7 +232,7 @@ void main() {
     final global = controller.recordsForMarket('GLOBAL', includeGlobal: true);
     expect(global, hasLength(289));
     expect(global.every((item) => item.scope == 'GLOBAL'), isTrue);
-    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU', 'CU', 'HT', 'SD', 'MM', 'NR', 'LK', 'GD', 'IR', 'RS', 'GM', 'LC', 'BN', 'GY', 'KW', 'DO', 'BG', 'GH', 'MU', 'TN', 'NA', 'PK', 'GR', 'BD', 'SN', 'ZW', 'TZ', 'SL', 'TG', 'MH', 'PY', 'CM', 'TL', 'YE', 'EC', 'ER', 'JO', 'GE', 'AZ', 'ET', 'WS', 'RU', 'SC', 'MZ', 'SI', 'MG', 'DJ', 'CD', 'BI', 'SO', 'BY', 'CV', 'RW', 'VE', 'KM', 'MW', 'SB', 'SS', 'BS', 'MN', 'KI', 'ST', 'ME', 'CO', 'BE', 'EG', 'LR', 'MV', 'MA', 'VU', 'BJ', 'CH', 'CK', 'BO', 'JM', 'CI', 'TD', 'CG', 'LI', 'GA', 'ID', 'AF', 'HU', 'UA', 'UY', 'MD', 'KG', 'MY', 'TT', 'UZ', 'VN', 'SM', 'SZ', 'AD', 'MK', 'KP', 'TJ', 'CR', 'SV', 'GT', 'HN', 'NI', 'PG', 'CL', 'KN', 'NP', 'AM', 'BZ', 'ML', 'SA', 'GW', 'TM', 'BW', 'CN', 'GN', 'NG', 'PW', 'TV', 'IQ', 'LS', 'UG', 'FJ', 'GQ', 'NU', 'ZM', 'KZ', 'AT', 'VC', 'TR', 'DZ', 'AG', 'DM', 'FM', 'PA', 'TO', 'KH', 'AO', 'OM', 'MC', 'LB', 'BA', 'SR', 'AL', 'MR', 'BB', 'CF', 'RO', 'LA', 'AE', 'TH', 'BF', 'KE', 'BH', 'BT', 'NE', 'QA', 'LY']) {
+    for (final country in <String>['IT', 'ES', 'FR', 'DE', 'PT', 'GB', 'US', 'CA', 'AU', 'BR', 'MX', 'IN', 'JP', 'CZ', 'SK', 'NO', 'FI', 'SE', 'PL', 'IE', 'NL', 'ZA', 'PH', 'NZ', 'SG', 'KR', 'AR', 'PE', 'MT', 'HR', 'CY', 'EE', 'LV', 'LT', 'IS', 'LU', 'CU', 'HT', 'SD', 'MM', 'NR', 'LK', 'GD', 'IR', 'RS', 'GM', 'LC', 'BN', 'GY', 'KW', 'DO', 'BG', 'GH', 'MU', 'TN', 'NA', 'PK', 'GR', 'BD', 'SN', 'ZW', 'TZ', 'SL', 'TG', 'MH', 'PY', 'CM', 'TL', 'YE', 'EC', 'ER', 'JO', 'GE', 'AZ', 'ET', 'WS', 'RU', 'SC', 'MZ', 'SI', 'MG', 'DJ', 'CD', 'BI', 'SO', 'BY', 'CV', 'RW', 'VE', 'KM', 'MW', 'SB', 'SS', 'BS', 'MN', 'KI', 'ST', 'ME', 'CO', 'BE', 'EG', 'LR', 'MV', 'MA', 'VU', 'BJ', 'CH', 'CK', 'BO', 'JM', 'CI', 'TD', 'CG', 'LI', 'GA', 'ID', 'AF', 'HU', 'UA', 'UY', 'MD', 'KG', 'MY', 'TT', 'UZ', 'VN', 'SM', 'SZ', 'AD', 'MK', 'KP', 'TJ', 'CR', 'SV', 'GT', 'HN', 'NI', 'PG', 'CL', 'KN', 'NP', 'AM', 'BZ', 'ML', 'SA', 'GW', 'TM', 'BW', 'CN', 'GN', 'NG', 'PW', 'TV', 'IQ', 'LS', 'UG', 'FJ', 'GQ', 'NU', 'ZM', 'KZ', 'AT', 'VC', 'TR', 'DZ', 'AG', 'DM', 'FM', 'PA', 'TO', 'KH', 'AO', 'OM', 'MC', 'LB', 'BA', 'SR', 'AL', 'MR', 'BB', 'CF', 'RO', 'LA', 'AE', 'TH', 'BF', 'KE', 'BH', 'BT', 'NE', 'QA', 'LY', 'DK']) {
       final national = controller.recordsForMarket(country);
       final all = controller.recordsForMarket(country, includeGlobal: true);
       expect(all.length, national.length + global.length, reason: country);
