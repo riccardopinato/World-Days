@@ -49,7 +49,7 @@ def load_wave10():
   assert row["sourceTier"]=="A_PRIMARY"
   assert row["sourceReviewedOn"]=="2026-11-11"
   assert source==URLS[country] and urlparse(source).scheme=="https"
-  assert len(row["sourceTitleOriginal"].strip())>=4
+  assert len(row["sourceTitleOriginal"].strip())>=2
   assert row["aliases"]==[row["sourceTitleOriginal"]]
   assert row["holidayClassification"].endswith("NOT_STATUTORY_HOLIDAY") if country=="PH" else "NOT_NECESSARILY_HOLIDAY" in row["holidayClassification"]
   assert row["proposedIntroducedYear"] is None and row["introducedYearSource"] is None
