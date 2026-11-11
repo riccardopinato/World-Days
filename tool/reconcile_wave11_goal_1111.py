@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Wave11 reconciliation: candidate identities do not count as canonical admissions."""
+"""Wave11 research-index identity reconciliation against the actual generated draft catalog."""
 import json,re,unicodedata
 from collections import Counter
 from difflib import SequenceMatcher
@@ -20,7 +20,7 @@ def event_identity(v):
  return action,norm(x)
 def main():
  data=json.loads(INPUT.read_text(encoding="utf-8"))
- prior=[r for r in all_expansion_rows() if r["country"]=="PH" and not r["id"].startswith("ph-w11-")]
+ prior=[r for r in all_expansion_rows() if r["country"]=="PH" and not r["id"].startswith("ph-w11-") and not r["id"].startswith("ph-w13-")]
  pairs=[]
  for row in data["records"]:
   rule=row["recurrenceRules"][0]
@@ -37,21 +37,29 @@ def main():
    sim=SequenceMatcher(None,subject,prev_subject).ratio()
    if sim>=0.76:possible.append({"id":prev["id"],"label":prevname,"similarity":round(sim,3)})
   if possible:pairs.append({"candidateId":row["id"],"sourceTitle":name,"possibleExisting":possible})
- result={"target":1111,"mainBaseline":711,"requiredNewCanonical":400,"primaryIndexedResearchRows":len(data["records"]),"possibleAliasOrDuplicateReview":pairs,
- "researchRowsNotReady":len(data["records"]),"additionalSourceQualifiedNewIdsNeededAtLeast":400-len(data["records"])+len(pairs),
- "canonicalAdmittedByThisPR":0,
- "remainingCanonicalAdmissionsNeeded":400,
- "potentialResearchCandidatesAfterSimilarityReviewAtMost":len(data["records"])-len(pairs),
- "countingPolicy":"Research-only candidates contribute ZERO to the canonical catalog until individually admitted. The 256+ discovery estimate assumes 144 future admissions and is NOT the current remaining-admissions count.",
- "note":"Source-only NCCA candidates and Wikidata discovery are not yet accepted into the runtime catalog; avoid 1111 claim before 400 distinct canonical identities are source reviewed, tested, merged."
+ catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
+ current=len(catalog["records"])
+ admitted=current-711
+ source_wave11=sum(1 for r in catalog["records"] if r["id"].startswith("ph-w11-"))
+ source_wave12=sum(1 for r in catalog["records"] if r["id"].endswith("-dfat-national-day"))
+ source_wave13=sum(1 for r in catalog["records"] if "-w13-" in r["id"])
+ result={
+  "targetMinimum":1111,"mainBaselinePriorToMerge":711,"draftCatalogTotal":current,
+  "draftNewCanonical":admitted,"minNetNewRequired":400,
+  "sourceBatchBreakdown":{"NCCA_WAVE11":source_wave11,"DFAT_WAVE12":source_wave12,"NCCA_EURES_WAVE13":source_wave13},
+  "historicalResearchIndexRows":len(data["records"]),
+  "existingIdentitySimilarityFlags":pairs,
+  "additionalIdentitiesNeededFor1111":max(0,1111-current),
+  "mainMergeNotProvenByThisReport":True,
+  "editorialQualification":"Source-index identity admission does not equal national statute certification, translated native titles or rich-history review",
+  "countingPolicy":"Only generated canonical IDs contribute to the 1111 total; separate research-only candidate indexes and Wikidata leads never add to the total."
  }
- assert len(prior)==57,("PH market drift",len(prior))
- assert result["primaryIndexedResearchRows"]==144
- assert result["canonicalAdmittedByThisPR"]==0
- assert result["remainingCanonicalAdmissionsNeeded"]==400
- assert result["additionalSourceQualifiedNewIdsNeededAtLeast"]>=256
+ assert len(prior)==57,("PH pre-wave market drift",len(prior))
+ assert len(data["records"])==144
+ assert (source_wave11,source_wave12,source_wave13)==(144,156,100)
+ assert current==1111 and admitted==400
  OUT.parent.mkdir(parents=True,exist_ok=True)
  OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
- print("WAVE11_RECONCILIATION",json.dumps({k:v for k,v in result.items() if k!="possibleAliasOrDuplicateReview"},sort_keys=True))
+ print("WAVE11_RECONCILIATION",json.dumps({k:v for k,v in result.items() if k!="existingIdentitySimilarityFlags"},sort_keys=True))
  print("WAVE11_SIMILARITY_FLAGS",json.dumps(pairs[:12],ensure_ascii=False))
 if __name__=="__main__":main()
