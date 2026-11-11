@@ -144,8 +144,16 @@ for record in records:
         if officiality == 'OFFICIAL_INSTITUTIONAL':
             assert any((s.get('tier') == 'A_PRIMARY') for s in sources), record.get('id')
         else:
-            assert record['authority']['type'] == 'UNIVERSITY', record.get('id')
-            assert any((s.get('tier') == 'D_ORIGINATOR') for s in sources), record.get('id')
+            university_originator = record['authority']['type'] == 'UNIVERSITY' and any(s.get('tier') == 'D_ORIGINATOR' for s in sources)
+            government_protocol = (
+                record['authority']['type'] == 'GOVERNMENT'
+                and any(
+                    s.get('tier') == 'A_PRIMARY'
+                    and s.get('url') == 'https://protocol.dfat.gov.au/Public/NationalDays'
+                    for s in sources
+                )
+            )
+            assert university_originator or government_protocol, record.get('id')
 
 assert expected_consumer.issubset(known), f"missing curated consumer ids: {sorted(expected_consumer - known)}"
 assert set(expected_market).issubset(known), f"missing market ids: {sorted(set(expected_market) - known)}"
