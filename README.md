@@ -1,5 +1,12 @@
 # World Days
 
+## Canadian Heritage Wave08 — 27 national commemorations (PR pending)
+
+A Canadian Government institutional-calendar batch proposes 27 additional Canadian civic/remembrance entries in the offline source generator, with six display-title locales and review-gated source metadata. Proposed catalog **538 unique = 289 global + 249 national**, with Canada increasing **5 → 32** records. No new country option, billing, APK, device or Play publishing. All 27 entries remain rich-editorial STUB without fabricated establishment years.
+
+Originating index: https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html . This includes national and recognized community observances, not necessarily statutory public holidays; do not conflate jurisdictional significance with holiday entitlement. Source-specific establishment acts and native-locale editorial approval are distinct future gates. Reviewed long-form narratives remain **56**. Do not claim these new records are on main until the protected CI and PR merge succeed.
+
+
 ## Wave07 — 32 documented national days across five additional markets (PR pending)
 
 The proposed source pack `2026.11.10.3` adds **32 canonical national observances** in **Estonia (17), Latvia (5), Lithuania (6), Iceland (3), Luxembourg (1)**. Distinct source-level identities grow **479 → 511**, with **289 global + 222 national** records, **36 country choices**, and English plus IT/ES/FR/DE/PT display titles. Previous IDs, favorite identity and calendar visuals remain untouched. **This is a PR proposal until reviewed, validated and merged**.

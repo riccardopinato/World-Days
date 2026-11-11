@@ -52,7 +52,7 @@ void main() {
 
   // Country selector and lazy list must accept all six newly admitted markets.
   const markets = <(String, int, String)>[
-    ('CA', 5, 'fr'),
+    ('CA', 32, 'fr'),
     ('AU', 3, 'en'),
     ('BR', 3, 'pt'),
     ('MX', 3, 'es'),
@@ -198,8 +198,8 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 511);
-    expect(national.length, 222);
+    expect(catalog.records.length, 538);
+    expect(national.length, 249);
     expect(global.length, 289);
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
