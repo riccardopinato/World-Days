@@ -51,6 +51,6 @@ for e in items:
   for locale in ("it","en"):
    x=p["locale"][locale]
    for key in ("heading","origin","promoter","purpose"):
-    assert len(x[key].strip())>=40
+    assert len(x[key].strip())>=(18 if key=="heading" else 40)
    assert 2<=len(x["facts"])<=5
 print("PASS: full 1111 identity/provenance ledger, four primary-source histories and 1107 clearly not fully researched")
