@@ -19,6 +19,10 @@ SOURCES={
 LOCALES={"en","it","es","fr","de","pt"}
 def dates(rule,year):
  k=rule["kind"]
+ if k=="AUTHORITY_DEFINED":
+  item=rule["overrides"].get(str(year))
+  assert item is not None, ("missing national holiday yearly override",year)
+  return date.fromisoformat(item["startDate"]),date.fromisoformat(item["endDate"])
  if k=="FIXED_DATE":
   d=date(year,rule["month"],rule["day"])
   return d,d
@@ -51,17 +55,25 @@ def load_wave13():
   country=row["country"];ph=country=="PH";r=row["recurrenceRules"]
   assert country.isupper() and len(country)==2
   assert row["scope"]=="NATIONAL"
-  assert row["officiality"]==("OFFICIAL_INSTITUTIONAL" if ph else "RECOGNIZED_INSTITUTIONAL")
-  assert row["authorityType"]==("GOVERNMENT" if ph else "EU_INSTITUTION")
-  assert row["source"]==SOURCES["PH" if ph else "EU"]
-  assert row["sourceTier"]==("A_PRIMARY" if ph else "B_INSTITUTIONAL")
+  special=row["id"]=="ie-w13-eures-st-brigid-s-day"
+  assert row["officiality"]==("OFFICIAL_INSTITUTIONAL" if ph or special else "RECOGNIZED_INSTITUTIONAL")
+  assert row["authorityType"]==("GOVERNMENT" if ph or special else "EU_INSTITUTION")
+  assert row["source"]==("https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/" if special else SOURCES["PH" if ph else "EU"])
+  assert row["sourceTier"]==("A_PRIMARY" if ph or special else "B_INSTITUTIONAL")
   assert row["sourceReviewedOn"]=="2026-11-11"
   assert row["humanEditorialStatus"]=="INDEXED_STUB_NO_LONG_FORM"
-  assert row["proposedIntroducedYear"] is None and row["introducedYearSource"] is None
+  assert (row["proposedIntroducedYear"]==2023 and row["introducedYearSource"]==row["source"]) if special else (row["proposedIntroducedYear"] is None and row["introducedYearSource"] is None)
   assert set(row["localizedTitles"])==LOCALES
   assert all(row["localizedTitles"][l]==row["canonicalTitleEn"] for l in LOCALES)
   assert row["titleTranslationStatus"]=="ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING"
   assert len(r)==1
+  if special:
+   assert r[0]["kind"]=="AUTHORITY_DEFINED"
+   assert len(r[0]["overrides"])==78
+   assert {year:dates(r[0],year)[0].isoformat() for year in (2026,2027,2028,2029,2030,2035)}=={
+    2026:"2026-02-02",2027:"2027-02-01",2028:"2028-02-07",
+    2029:"2029-02-05",2030:"2030-02-01",2035:"2035-02-05"}
+   assert all(dates(r[0],y)[0].weekday()==0 or (dates(r[0],y)[0].day==1 and dates(r[0],y)[0].weekday()==4) for y in range(2023,2101))
   for year in (2026,2027,2028,2029):
    start,end=dates(r[0],year)
    assert start.year==year
