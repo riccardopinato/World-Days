@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## Source-backed origin stories — implemented for 4/1,111, remaining 1,107 (11 November 2026)
+
+- [x] Add a per-ID offline research ledger and visible source-bound IT/EN origin, adopter/proposer (where known), why and contextual facts for four World Days; native localization beyond IT/EN remains pending.
+- [x] Preserve 56 previously reviewed English rich-editorial records as distinct from four additionally source-audited origin narratives; do not claim the remaining 1,107 have been researched.
+- [x] Build and validate the origin-index asset in development, dependency and platform bootstrap paths so Web and future Android compilation do not omit it.
+- [ ] Independently research origins and historical contexts for the remaining 1,107 canonical records; check dates, individual national law and cultural/institutional classification, especially EURES/DFAT/NCCA.
+- [ ] Extend source-reviewed IT/EN prose and later independently reviewed ES/FR/DE/PT. Never invent a historical proposer, year or holiday status. Continue expansion beyond 1,111 as source evidence supports.
+- [ ] Deploy only after CI, reviewer approval, and corrected origin/recurrence quality gates.
+
+
 ## Certification and editorial continuation — 2026-11-11
 
 - [x] Prepare Ireland St Brigid statutory holiday correction against [WRC public-holiday guidance](https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/): annual exceptions 2023–2100 and separate traditional 1 February record; **CI pending** until confirmed on the new PR head.

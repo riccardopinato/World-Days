@@ -3,6 +3,9 @@ set -euo pipefail
 
 python3 tool/build_dataset.py >/dev/null
 python3 tool/build_editorial.py >/dev/null
+# Required by pubspec.yaml for Web, QA, production and local entry points.
+python3 tool/build_origin_review_index.py >/dev/null
+python3 tool/validate_origin_review_index.py >/dev/null
 python3 tool/build_editorial_locales.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
