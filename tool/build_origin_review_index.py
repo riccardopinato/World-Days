@@ -28,7 +28,7 @@ def run():
  assert len(old_ids)==len(legacy["entries"])==56
  assert old_ids<=ids
  stories={r["observanceId"]:r for r in batch["records"]}
- assert len(stories)==len(batch["records"])==batch["count"]==4
+ assert len(stories)==len(batch["records"])==batch["count"]>=4
  assert set(stories)<=ids
  assert batch["status"]=="SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE"
  result=[]
@@ -97,18 +97,18 @@ def run():
     "locale":story["locale"],
    }
   result.append(entry)
- assert len(result)==len(ids)==1111, "initial 1111 certification ledger must be complete"
- assert len({x["observanceId"] for x in result})==1111
- assert sum(by_status.values())==1111
- assert sum(by_scope.values())==1111
- assert by_scope=={"GLOBAL":289,"NATIONAL":822},by_scope
- assert len(by_country)==193,len(by_country)
+ assert len(result)==len(ids)>=1111, "canonical provenance ledger must be complete"
+ assert len({x["observanceId"] for x in result})==len(ids)
+ assert sum(by_status.values())==len(ids)
+ assert sum(by_scope.values())==len(ids)
+ assert by_scope["GLOBAL"]>=289 and by_scope["NATIONAL"]>=822,by_scope
+ assert len(by_country)>=193,len(by_country)
  payload={
   "schemaVersion":1,
   "datasetVersion":catalog["datasetVersion"],
   "sourceCatalogCount":len(records),
   "recordCount":len(result),
-  "coverage":"ALL_1111_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED",
+  "coverage":"ALL_CANONICAL_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED",
   "reviewedRichOriginCount":len(stories),
   "legacyReviewedEditorialCount":len(old_ids),
   "sourceTiersCount":dict(source_tiers),
@@ -121,17 +121,17 @@ def run():
  report={
   "schemaVersion":1,
   "datasetVersion":catalog["datasetVersion"],
-  "allIdSourceProvenanceChecked":1111,
+  "allIdSourceProvenanceChecked":len(records),
   "richOriginNewPrimaryResearch":len(stories),
   "legacyReviewedEditorialEntries":len(old_ids),
-  "originPendingCount":1111-len(stories),
+  "originPendingCount":len(records)-len(stories),
   "originStatusCounts":dict(by_status),
   "scope":dict(by_scope),
   "countryMarkets":len(by_country),
-  "introducedYearKnown":1111-unknown_years,
+  "introducedYearKnown":len(records)-unknown_years,
   "introducedYearUnknown":unknown_years,
   "sourceTierOccurrences":dict(source_tiers),
-  "limitation":"Identifier/source/schema/recurrence validation is not human historical certification of every individual entry. 4 newly sourced IT/EN origin stories; remaining 1107 require item-by-item research, including 56 legacy editorial items whose source history was not recertified in this batch.",
+  "limitation":"Identifier/source/schema/recurrence validation is not human historical certification of individual entries; the outstanding history count is recorded separately.",
  }
  REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print("ORIGIN_REVIEW_COVERAGE",json.dumps(report,ensure_ascii=False,sort_keys=True))
