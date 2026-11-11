@@ -44,6 +44,7 @@ jobs:
           python3 tool/triage_bulk_institutional.py
           python3 tool/validate_institutional_wave05.py
           python3 tool/validate_wave11_bulk_research.py
+          python3 tool/validate_wave11_wikidata_300.py
           python3 tool/reconcile_wave11_goal_1111.py
           python3 tool/probe_wikidata_recurring_days.py
           python3 tool/build_editorial.py
