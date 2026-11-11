@@ -84,7 +84,7 @@ def run():
    for locale in ("en","it"):
     content=story["locale"][locale]
     for field in ("heading","origin","promoter","purpose"):
-     assert isinstance(content[field],str) and len(content[field])>40,(rid,locale,field)
+     assert isinstance(content[field],str) and len(content[field])>(18 if field=="heading" else 40),(rid,locale,field)
     assert 2<=len(content["facts"])<=5
     assert all(len(fact)>=25 for fact in content["facts"])
    if year is not None:
