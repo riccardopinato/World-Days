@@ -39,13 +39,13 @@ def build():
     reviewed={x["observanceId"]:x for x in editorial["entries"]}
     candidate={x["id"]:x for x in research["records"]}
     assert research["count"]==len(candidate)==2
-    assert not (set(candidate)&set(reviewed)), "do not stage already reviewed stories"
+    # A reviewed promotion must not break the historical research archive.
     assert set(candidate)<=set(records), "story candidate absent catalog"
-    assert len(records)==len(base["items"])==1111
+    assert len(records)==len(base["items"])>=1111
     result=[]
     for row in base["items"]:
         oid=row["id"]; record=records[oid]; rich=reviewed.get(oid)
-        draft=candidate.get(oid)
+        draft=candidate.get(oid) if oid not in reviewed else None
         stage=("SOURCE_RESEARCHED_STORY_DRAFT_PENDING_REVIEW" if draft else row["editorialStage"])
         quality=source_quality(record)
         source_urls=[x["url"] for x in record["sources"] if x.get("url")]
@@ -104,18 +104,18 @@ def build():
             "storyPublished":rich is not None,
             "verifiedTranslationsClaimed":False if not rich else None,
         })
-    assert len({r["id"] for r in result})==1111
+    assert len({r["id"] for r in result})==len(records)
     priority_counts=dict(sorted(Counter(x["priority"] for x in result).items()))
     stage_counts=dict(sorted(Counter(x["editorialStage"] for x in result).items()))
-    assert sum(priority_counts.values())==sum(stage_counts.values())==1111
-    assert sum(x["storyPublished"] for x in result)==56
-    assert stage_counts.get("SOURCE_RESEARCHED_STORY_DRAFT_PENDING_REVIEW")==2
+    assert sum(priority_counts.values())==sum(stage_counts.values())==len(records)
+    assert sum(x["storyPublished"] for x in result)==len(reviewed)>=56
+    assert stage_counts.get("SOURCE_RESEARCHED_STORY_DRAFT_PENDING_REVIEW",0)==len(set(candidate)-set(reviewed))
     ordered=sorted(result,key=lambda x:(x["priority"],x["canonicalTitleEn"].casefold(),x["id"]))
     return {
         "schemaVersion":1,"catalogVersion":catalog["datasetVersion"],
-        "catalogTotal":1111,
-        "publishedEnglishRichStories":56,
-        "irishPrimarySourcedDraftStories":2,
+        "catalogTotal":len(records),
+        "publishedEnglishRichStories":len(reviewed),
+        "irishPrimarySourcedDraftStories":len(set(candidate)-set(reviewed)),
         "priorityCounts":priority_counts,"stageCounts":stage_counts,
         "firstResearchQueue":[x["id"] for x in ordered if not x["storyPublished"]][:50],
         "sourcePolicy":"Never infer years, promoters, annual dates or legal holiday status from titles or diplomatic/EU index alone; preserve unknowns as null.",
@@ -129,7 +129,7 @@ def main():
     result=build()
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print("1111 RECORD EDITORIAL SOURCE AUDIT",json.dumps({
+    print("1111+ RECORD EDITORIAL SOURCE AUDIT",json.dumps({
         "catalogVersion":result["catalogVersion"],
         "count":result["catalogTotal"],"published":result["publishedEnglishRichStories"],
         "irishDrafts":result["irishPrimarySourcedDraftStories"],
