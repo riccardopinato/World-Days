@@ -1,5 +1,9 @@
 # World Days
 
+## Five UNESCO origin histories — 12 November 2026
+
+The source-linked history ledger now draws from append-only editorial origin files: the original four-story batch plus `data/editorial/batches/origin_stories_wave01_20261112.json` with five additional original IT/EN narratives. Topics: illicit trafficking in cultural property, Islamic art, mathematics, women in multilateralism, and sustainable engineering. Each is linked to individually identified UNESCO/IMU first-party pages, with unknown founders/date rationales explicitly left unattributed. The generated origin history coverage and all 100-ID work batches re-evaluate the IDs so researched items leave the backlog. On a stable 1,111-record dataset this increases primary-source researched origins from 4 to 9, with 1,102 outstanding. ES/FR/DE/PT translations and independent editorial approval remain pending; no production release is implied.
+
 ## 100-at-a-time historical stories — full coverage queue
 
 On the 1,111-observance checkpoint, four individually researched origin stories leave **1,107 histories pending origin-specific verification**. The source-aware worklist is now partitioned deterministically into 12 batches (eleven of 100 IDs, last of 7), retaining all canonical IDs and the first 100 research dossiers already introduced by PR #93. Legacy reviewed editorial articles and existing candidate drafts are preserved as separate review states, not auto-certified. Sources in the catalog are starting leads, not proof of a story's historic facts. See [100-batch editorial protocol](docs/EDITORIAL_ORIGIN_100_BATCHES_UNTIL_COMPLETE_20261112.md); CI produces `reports/editorial_origin_completion/` with one JSON per batch and a fail-closed coverage validator. **This prepares all batches; it does not assert that 1,107 new stories have been written.** Additional eligible observances remain welcome beyond 1,111.
