@@ -3,6 +3,7 @@ import 'golden_civil_date.dart' as golden;
 enum RecurrenceKind {
   fixedDate,
   nthWeekday,
+  firstMondayExceptFeb1Friday,
   weekdayOnOrAfter,
   lastWeekday,
   lastDayOfMonth,
@@ -56,6 +57,12 @@ final class NthWeekdayRule extends RecurrenceRule {
   final int month;
   final int weekday;
   final int occurrence;
+}
+
+/// Irish St Brigid public-holiday rule: first Monday in February unless Feb 1 is Friday.
+final class FirstMondayExceptFeb1FridayRule extends RecurrenceRule {
+  const FirstMondayExceptFeb1FridayRule()
+      : super(RecurrenceKind.firstMondayExceptFeb1Friday);
 }
 
 /// First ISO weekday on or after a fixed day of month (e.g. Iceland summer).
@@ -160,6 +167,9 @@ abstract final class RecurrenceEngine {
   static DateSpan? _resolveOne(int year, RecurrenceRule rule) {
     return switch (rule) {
       FixedDateRule r => _single(_checkedDate(year, r.month, r.day)),
+      FirstMondayExceptFeb1FridayRule _ => _single(
+          _irishBrigidHoliday(year),
+        ),
       NthWeekdayRule r => _single(
           _nthWeekday(year, r.month, r.weekday, r.occurrence),
         ),
@@ -191,6 +201,13 @@ abstract final class RecurrenceEngine {
     final first = DateTime.utc(year, 1, 1);
     final last = DateTime.utc(year, 12, 31);
     return !span.end.isBefore(first) && !span.start.isAfter(last);
+  }
+
+  static DateTime _irishBrigidHoliday(int year) {
+    final feb1 = _checkedDate(year, 2, 1);
+    if (feb1.weekday == DateTime.friday) return feb1;
+    final offset = (DateTime.monday - feb1.weekday + 7) % 7;
+    return feb1.add(Duration(days: offset));
   }
 
   static DateTime _nthWeekday(

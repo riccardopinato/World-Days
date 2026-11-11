@@ -144,6 +144,11 @@ RecurrenceRule recurrenceRuleFromJson(Map<String, dynamic> json) {
   switch (json['kind']) {
     case 'FIXED_DATE':
       return FixedDateRule(month: json['month'] as int, day: json['day'] as int);
+    case 'FIRST_MONDAY_EXCEPT_FEB1_FRIDAY':
+      if (json['month'] != 2) {
+        throw const FormatException('St Brigid public-holiday rule requires February');
+      }
+      return const FirstMondayExceptFeb1FridayRule();
     case 'NTH_WEEKDAY':
       return NthWeekdayRule(
         month: json['month'] as int,

@@ -724,6 +724,11 @@ def resolve_rule(rule,year):
         sy=year
         ey=year+1 if rule['endMonth'] < rule['startMonth'] else year
         return [(date(sy,rule['startMonth'],rule['startDay']), date(ey,rule['endMonth'],rule['endDay']))]
+    if k=='FIRST_MONDAY_EXCEPT_FEB1_FRIDAY':
+        assert rule['month']==2
+        first=date(year,2,1)
+        d=first if first.weekday()==4 else first+timedelta(days=(0-first.weekday())%7)
+        return [(d,d)]
     if k=='NTH_WEEKDAY':
         # Dart weekdays: Monday=1..Sunday=7; Python Monday=0..Sunday=6
         target=rule['weekday']-1
@@ -838,7 +843,7 @@ for rid,dates in expected.items():
 seed={
  'schemaVersion':1,
  'datasetId':'world-days-official-core',
- 'datasetVersion':'2026.11.11.6',
+ 'datasetVersion':'2026.11.11.7',
  'generatedAt':'2026-11-11',
  'coverage':'Verified UN/UNESCO/WHO institutional core plus originator-backed consumer and verified national market layers, with complete offline display-title localization for en/it/es/fr/de/pt.',
  'records':sorted(records,key=lambda r:r['id']),

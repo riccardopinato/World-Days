@@ -224,3 +224,19 @@ Production Android builds are accepted only from `main` and derive `versionName`
 ## Template Notion — riferimenti
 
 [Catalogo Template Notion](docs/TEMPLATE_NOTION/README.md): ricerca su modelli potenzialmente adattabili a World Days, nessuna importazione o funzionalità attivata.
+
+
+## Certification catalogo e storie delle giornate (11 novembre 2026)
+
+**Catalogo attuale su `main` prima della PR #86:** 1.111 identità canoniche distinte (289 GLOBAL, 822 NATIONAL, 193 mercati). La PR #86 certifica schema, provenienza, date calcolabili e regressioni della versione `2026.11.11.7`, **non** una revisione storica umana individuale di 1.111 schede.
+
+- `tool/build_origin_review_index.py` genera `assets/data/origin_review_index.json`, una voce per ogni ID presente, e `reports/origin_review_coverage.json`.
+- `tool/validate_origin_review_index.py` controlla univocità, completezza, fonti, anni dichiarati e provenienza delle storie pubblicate.
+- **4 storie aggiuntive con fonti istituzionali** sono disponibili in IT/EN: Braille, educazione, ambiente e festività pubblica di Santa Brigida in Irlanda. Ogni storia distingue come nasce la giornata, chi la istituisce, perché, significato della data, informazioni e fonti. Negli altri quattro idiomi è dichiarato il fallback inglese.
+- Il vecchio corpus comprende **56 schede editoriali in inglese**; 3 di queste sono anche nel nuovo batch storicamente ricercato. Non rappresentano automaticamente 56 storie storiche appena ricertificate.
+- **1.107 ID attendono ricerca storica aggiuntiva individuale** dopo il primo batch; 71 anni d'istituzione sono documentati e 1.040 rimangono sconosciuti. Mantenere il valore `*` quando mancano prove.
+- Il generatore dell'archivio storico viene eseguito nel bootstrap comune e nelle CI. Le correzioni alla ricorrenza mobile della festività irlandese sono testate nel periodo 2026–2031. La commemorazione tradizionale del 1° febbraio rimane distinta dal giorno festivo pubblico.
+- Le fonti per le nuove storie sono UN/UNEP, Workplace Relations Commission e governo irlandese: `data/editorial/batches/origin_stories_primary_20261111.json`. Testo editoriale originale, niente attribuzioni o anni ipotizzati.
+- La ricchezza dei contenuti cresce per lotti **senza limite a 1.111**: le schede non verificate mostrano lo stato di ricerca, non un racconto generico inventato.
+
+Il repository mantiene separate la certificazione **tecnica/source-bound**, la ricerca **storica individuale**, le traduzioni native e il collaudo fisico/Play. Nessuna di queste quattro verifiche sostituisce le altre.

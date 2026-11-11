@@ -1,3 +1,27 @@
+
+
+## Current editorial backlog — 11 November 2026 (PR #86, supersedes old 296-ID checkpoints)
+
+The historical 296-ID roadmap figures below belong to old catalog snapshots. Current dataset is **1111 identities** at release candidate `2026.11.11.7`: 289 GLOBAL, 822 NATIONAL, 193 market codes.
+
+### Source-bound certification
+- [x] One origin-review provenance ledger row per 1111 catalog ID, generated and checked by Python in CI.
+- [x] Correct Irish St Brigid's statutory holiday independently from the traditional fixed February 1 observance: first Monday in February except February 1 Friday, established in 2023; validate 2026–2031 in Flutter and Python.
+- [x] Record 71 primary-supported introduction years; **1040 unknown values must stay empty / display `*`**.
+- [x] Distinguish historical editorial coverage from schema/source-level checks: 56 legacy English entries versus only 4 newly researched historical origin stories.
+- [ ] Independently audit ALL individual underlying dates, source meanings, national holiday authority, modern changes and semantic duplicates for each country and calendar source. An institutional listing does not certify the primary legal statute or first celebration.
+
+### Interactive long-form content in every detail page, where proven
+- [x] Add source-grounded IT/EN history panels (how established, proposer/adopting institution, purpose, meaningful date, quick facts, evidence links) for four observances; explicitly disclose EN fallback in other languages.
+- [x] Preserve history-pending state for unresearched IDs and suppress contradictory placeholder where a new researched story is available.
+- [ ] Research the outstanding **1107** origins individually, starting with UN/WHO/UNESCO resolutions, then first-party national registries and NCCA cultural histories, then verified originators for popular days. Work in finite source-reviewed batches with CI.
+- [ ] For each source-reviewed story, distinguish legally proclaimed observance, cultural anniversary, research discovery, public holiday, commercial awareness day and one-off event. Do not assert a named proponent if the source only names an adopting institution.
+- [ ] Add native IT/ES/FR/DE/PT translations only after factual review. Do not count English fallback as reviewed native text.
+- [ ] Research additional facts, related observances, official annual themes and small optional reading sections where reliable sources provide them; measure retention after sufficient content is verified, without adding excessive ads.
+- [ ] Keep catalog expansion beyond 1111 on separate nonduplicative batches, synchronized with the per-ID source ledger and editorial story count.
+
+**Gate:** historical research count increments only for new individually sourced original articles with URLs and year/date evidence; per-item source metadata and a successful build are necessary but not sufficient to certify historical truth. Production deployment and APK/signing remain outside this roadmap step.
+
 # World Days — Active roadmap
 
 ## Wave10 — complete next +100 identity threshold (11 November 2026)

@@ -22,6 +22,11 @@ def dates(rule,year):
  if k=="FIXED_DATE":
   d=date(year,rule["month"],rule["day"])
   return d,d
+ if k=="FIRST_MONDAY_EXCEPT_FEB1_FRIDAY":
+  assert rule["month"]==2
+  first=date(year,2,1)
+  d=first if first.weekday()==4 else first+timedelta(days=(0-first.weekday())%7)
+  return d,d
  if k=="NTH_WEEKDAY":
   first=date(year,rule["month"],1)
   days=(rule["weekday"]-1-first.weekday())%7+7*(rule["occurrence"]-1)
@@ -51,13 +56,18 @@ def load_wave13():
   country=row["country"];ph=country=="PH";r=row["recurrenceRules"]
   assert country.isupper() and len(country)==2
   assert row["scope"]=="NATIONAL"
-  assert row["officiality"]==("OFFICIAL_INSTITUTIONAL" if ph else "RECOGNIZED_INSTITUTIONAL")
-  assert row["authorityType"]==("GOVERNMENT" if ph else "EU_INSTITUTION")
-  assert row["source"]==SOURCES["PH" if ph else "EU"]
-  assert row["sourceTier"]==("A_PRIMARY" if ph else "B_INSTITUTIONAL")
+  is_bridgid=row["id"]=="ie-w13-eures-st-brigid-s-day"
+  assert row["officiality"]==("OFFICIAL_INSTITUTIONAL" if (ph or is_bridgid) else "RECOGNIZED_INSTITUTIONAL")
+  assert row["authorityType"]==("GOVERNMENT" if (ph or is_bridgid) else "EU_INSTITUTION")
+  assert row["source"]==("https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/" if is_bridgid else SOURCES["PH" if ph else "EU"])
+  assert row["sourceTier"]==("A_PRIMARY" if (ph or is_bridgid) else "B_INSTITUTIONAL")
   assert row["sourceReviewedOn"]=="2026-11-11"
-  assert row["humanEditorialStatus"]=="INDEXED_STUB_NO_LONG_FORM"
-  assert row["proposedIntroducedYear"] is None and row["introducedYearSource"] is None
+  assert row["humanEditorialStatus"]==("SOURCE_PRIMARY_DATE_ESTABLISHMENT_VERIFIED_LONG_FORM_STUB" if is_bridgid else "INDEXED_STUB_NO_LONG_FORM")
+  if is_bridgid:
+   assert row["proposedIntroducedYear"]==2023
+   assert row["introducedYearSource"]==row["source"]
+  else:
+   assert row["proposedIntroducedYear"] is None and row["introducedYearSource"] is None
   assert set(row["localizedTitles"])==LOCALES
   assert all(row["localizedTitles"][l]==row["canonicalTitleEn"] for l in LOCALES)
   assert row["titleTranslationStatus"]=="ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING"

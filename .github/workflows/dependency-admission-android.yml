@@ -41,6 +41,8 @@ jobs:
         run: |
           python3 tool/build_dataset.py
           python3 tool/build_editorial.py
+          python3 tool/build_origin_review_index.py
+          python3 tool/validate_origin_review_index.py
           python3 tool/build_editorial_locales.py
           python3 tool/build_content_pack.py
 
