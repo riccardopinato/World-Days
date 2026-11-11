@@ -16,7 +16,7 @@ void main() {
     catalog = await const CatalogRepository().load();
   });
 
-  testWidgets('Italy shows 25 national + 289 global, separated and lazily built',
+  testWidgets('Italy shows 27 national + 289 global, separated and lazily built',
       (tester) async {
     tester.view.physicalSize = const Size(390, 844);
     tester.view.devicePixelRatio = 1;
@@ -34,8 +34,8 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('All · 314'), findsOneWidget);
-    expect(find.text('National · 25'), findsOneWidget);
+    expect(find.text('All · 316'), findsOneWidget);
+    expect(find.text('National · 27'), findsOneWidget);
     expect(find.text('Global · 289'), findsOneWidget);
     // The second sliver is below the viewport and should not be mounted yet.
     expect(find.byType(SliverList), findsOneWidget);
@@ -61,16 +61,16 @@ void main() {
   ];
   // Source-verified Wave04: all fifteen new countries must remain selectable.
   const wave04Markets = <(String, int, String)>[
-    ('CZ', 25, 'it'),
+    ('CZ', 28, 'it'),
     ('SK', 29, 'es'),
-    ('NO', 10, 'fr'),
-    ('FI', 20, 'de'),
+    ('NO', 12, 'fr'),
+    ('FI', 23, 'de'),
     ('SE', 10, 'pt'),
-    ('PL', 18, 'en'),
-    ('IE', 2, 'it'),
-    ('NL', 2, 'es'),
+    ('PL', 20, 'en'),
+    ('IE', 4, 'it'),
+    ('NL', 4, 'es'),
     ('ZA', 6, 'fr'),
-    ('PH', 201, 'de'),
+    ('PH', 244, 'de'),
     ('NZ', 3, 'pt'),
     ('SG', 2, 'en'),
     ('KR', 57, 'it'),
@@ -79,9 +79,9 @@ void main() {
   ];
   // Wave06: source-approved national market admissions must render with locale fallback.
   const wave06Markets = <(String, int, String)>[
-    ('MT', 8, 'it'),
-    ('HR', 4, 'de'),
-    ('CY', 4, 'fr'),
+    ('MT', 10, 'it'),
+    ('HR', 6, 'de'),
+    ('CY', 7, 'fr'),
   ];
   for (final market in wave06Markets) {
     testWidgets('Wave06 ${market.$1}: available in ${market.$3} at 320px',
@@ -110,11 +110,11 @@ void main() {
   }
 
   const wave07Markets = <(String, int, String)>[
-    ('EE', 17, 'it'),
-    ('LV', 5, 'es'),
-    ('LT', 6, 'fr'),
-    ('IS', 3, 'de'),
-    ('LU', 1, 'pt'),
+    ('EE', 20, 'it'),
+    ('LV', 7, 'es'),
+    ('LT', 8, 'fr'),
+    ('IS', 5, 'de'),
+    ('LU', 3, 'pt'),
   ];
   for (final market in wave07Markets) {
     testWidgets('Wave07 ${market.$1} locale ${market.$3} 320px browse',
