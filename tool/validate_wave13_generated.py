@@ -30,7 +30,11 @@ for row in new:
  assert r["sources"][0]["url"]==row["source"]
  assert r["localizedTitles"]==row["localizedTitles"]
  assert r["editorialStatus"]=="STUB"
- assert r.get("introducedYear") is None and r.get("introducedYearSource") is None
+ if rid=="ie-w13-eures-st-brigid-s-day":
+  assert r.get("introducedYear")==2023
+  assert r.get("introducedYearSource")==row["source"]
+ else:
+  assert r.get("introducedYear") is None and r.get("introducedYearSource") is None
  assert r["recurrenceRules"]==row["recurrenceRules"]
  start,end=dates(row["recurrenceRules"][0],2026)
  hits=[x for x in occ["occurrences"] if x["observanceId"]==rid]
@@ -38,4 +42,4 @@ for row in new:
  assert hits[0]["startDate"]==start.isoformat(),rid
  assert hits[0]["endDate"]==end.isoformat(),rid
 assert len([r for r in cat["records"] if r["id"].startswith("ph-w13-")])==43
-print("PASS: 1111 canonical IDs, +100 Wave13, 192 country markets, 28 months/11 periods/61 days, date occurrences match")
+print("PASS: 1111 canonical IDs, +100 Wave13, 193 country markets, Irish WRC movable February exception verified")
