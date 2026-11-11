@@ -39,7 +39,7 @@ def screen():
    for key,ids in titles.items():
     if abs(len(candidate)-len(key))>11:continue
     score=SequenceMatcher(None,candidate,key).ratio()
-    if score>=.92:near.extend((score, key, list(ids)[:2]))
+    if score>=.92:near.append((score, key, sorted(ids)[:2]))
    near.sort(key=lambda item: (item[0],item[1]), reverse=True)
   quality=[]
   if matches:quality.append("EXACT_OR_NORMALIZED_EXISTING_TITLE")
