@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## Primo lotto: 5 nuove storie UNESCO con fonti individuali (12 novembre 2026)
+
+- [x] Ricercare con pagine UNESCO e IMU cinque identità non ancora trattate nel nuovo ledger: traffico illecito di beni culturali (14 novembre), arte islamica (18 novembre), matematica (14 marzo), donne nel multilateralismo (25 gennaio) e ingegneria sostenibile (4 marzo).
+- [x] Redigere per ognuna testi originali IT/EN: origine e istituzione, promotore distinto dall'ente che ha proclamato, scopo e tre fatti circostanziati; ragioni della data sconosciute restano dichiarate non documentate.
+- [x] Collegare file di lotto `data/editorial/batches/origin_stories_wave01_20261112.json` al generatore del registro offline e alle code 100-ID; test fonte/anno/struttura.
+- [ ] Revisione editoriale e linguistica indipendente; completamento e verifica delle traduzioni ES/FR/DE/PT. Non equiparare bozza a pubblicazione editoriale plurilingue certificata.
+- [ ] Continuare il blocco 001 fino a 100 nuove origini storiche verificate, poi procedere al blocco successivo.
+
+**Checkpoint dopo questa integrazione (da confermare su CI):** 9 origini individualmente ricercate su 1.111; 1.102 ancora senza nuovo audit d'origine; 56 precedenti articoli REVIEWED restano una classificazione separata. La coda si rigenera da main, non conserva conteggi fissi.
+
 ## Programma storie: lotti consecutivi da 100 (12 novembre 2026)
 
 - [x] Predisporre la suddivisione riproducibile di **tutte** le origini da ricercare: 1.107 ID in 12 lotti (11 × 100 + 7), senza duplicazioni, mentre il catalogo resta a 1.111.
