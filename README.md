@@ -1,5 +1,14 @@
 # World Days
 
+## Wave09 — 73 national observances; 100 new canonical records across Wave08 + Wave09 (PR pending)
+
+This proposal adds **73 primary-institutional national calendar identities** in **Slovakia (23), Czechia (18), Poland (13), Sweden (9), Norway (5), Finland (5)**. Existing source-approved Wave08 contributes **27 new Canadian identities**. After a green CI and merge, these two waves together will have introduced **100 new canonical records** from the 511-record baseline, resulting in **611** (**289 global + 322 national**) with **36 markets** unchanged.
+
+Direct source authorities: [Slovak Government memorial-days law summary](https://www.vlada.gov.sk/slovensko/statne-sviatky/), [Czech Ministry legal text 245/2000](https://ppropo.mpsv.cz/zakon_245_2000), [Polish Culture Ministry official state-flag schedule](https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp), [Swedish Riksdag flag-day regulation](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/), [Norwegian Government state flag regulations](https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/), [University of Helsinki Almanac Office 2026](https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026).
+
+**Localization debt disclosed:** EN titles are currently intentional fallback texts in IT/ES/FR/DE/PT for the 73 Wave09 additions. UI works in six locales, but these **73 localized title translations have not yet been prepared or certified**. The new 73 remain `editorialStatus=STUB`, all founding years are unknown until independently supported, and the existing **56 reviewed long-form stories** are unchanged. No APK, Android signing, device, Play or production release.
+
+
 ## Canadian Heritage Wave08 — 27 national commemorations (PR pending)
 
 A Canadian Government institutional-calendar batch proposes 27 additional Canadian civic/remembrance entries in the offline source generator, with six display-title locales and review-gated source metadata. Proposed catalog **538 unique = 289 global + 249 national**, with Canada increasing **5 → 32** records. No new country option, billing, APK, device or Play publishing. All 27 entries remain rich-editorial STUB without fabricated establishment years.

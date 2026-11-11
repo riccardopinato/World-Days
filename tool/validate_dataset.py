@@ -6,6 +6,7 @@ from market_wave04 import load_wave04
 from market_wave06 import load_wave06
 from market_wave07 import load_wave07
 from market_wave08 import load_wave08
+from market_wave09 import load_wave09
 
 root = Path(__file__).resolve().parents[1]
 seed = json.loads((root / 'assets/data/official_core.json').read_text(encoding='utf-8'))
@@ -64,7 +65,9 @@ wave07 = load_wave07()
 expected_market.update({row['id']: row['country'] for row in wave07})
 wave08 = load_wave08()
 expected_market.update({row['id']: row['country'] for row in wave08})
-assert len(ids) == len(records) == 538, ('catalog growth total', len(records))
+wave09 = load_wave09()
+expected_market.update({row['id']: row['country'] for row in wave09})
+assert len(ids) == len(records) == 611, ('catalog growth total', len(records))
 assert len(ids) == len(set(ids)), 'duplicate canonical ids'
 assert all(ids), 'empty canonical id'
 assert len(occ.get('dateIndex', [])) == 365, '2026 date index must cover 365 days'
