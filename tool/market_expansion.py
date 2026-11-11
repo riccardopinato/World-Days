@@ -12,6 +12,9 @@ from market_wave07 import load_wave07
 from market_wave08 import load_wave08
 from market_wave09 import load_wave09
 from market_wave10 import load_wave10
+from market_wave11 import load_wave11
+from market_wave12 import load_wave12
+from market_wave13 import load_wave13
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -219,7 +222,27 @@ def all_expansion_rows():
     prior_titles = {r["canonicalTitleEn"] for r in all_prior}
     assert all(r["id"] not in prior_ids for r in wave10), "Wave10 existing-ID collision"
     assert all(r["canonicalTitleEn"] not in prior_titles for r in wave10), "Wave10 existing-title collision"
-    return [*all_prior, *wave10]
+    wave11 = load_wave11()
+    known = [*all_prior, *wave10]
+    known_id_set = {r["id"] for r in known}
+    known_title_set = {r["canonicalTitleEn"] for r in known}
+    assert all(x["id"] not in known_id_set for x in wave11), "Wave11 duplicate IDs"
+    assert all(x["canonicalTitleEn"] not in known_title_set for x in wave11), "Wave11 duplicate English titles"
+    wave12 = load_wave12()
+    previous = [*known, *wave11]
+    prior_ids = {x["id"] for x in previous}
+    prior_titles = {x["canonicalTitleEn"] for x in previous}
+    prior_markets = {x["country"] for x in previous}
+    assert all(x["id"] not in prior_ids for x in wave12), "Wave12 duplicate IDs"
+    assert all(x["canonicalTitleEn"] not in prior_titles for x in wave12), "Wave12 duplicate titles"
+    assert not ({x["country"] for x in wave12} & prior_markets), "Wave12 must add new countries"
+    wave13 = load_wave13()
+    admitted_prior = [*previous, *wave12]
+    prior_ids13 = {r["id"] for r in admitted_prior}
+    prior_titles13 = {r["canonicalTitleEn"] for r in admitted_prior}
+    assert all(r["id"] not in prior_ids13 for r in wave13), "Wave13 existing-ID collision"
+    assert all(r["canonicalTitleEn"] not in prior_titles13 for r in wave13), "Wave13 existing-title collision"
+    return [*admitted_prior, *wave13]
 
 
 def expanded_title_map():
@@ -240,7 +263,7 @@ def build_expansion_records():
             "id": item["id"],
             "canonicalTitleEn": item["canonicalTitleEn"],
             "aliases": item.get("aliases", []),
-            "periodKind": "DAY",
+            "periodKind": item.get("periodKind", "DAY"),
             "recurrenceRules": item["recurrenceRules"],
             "scope": "NATIONAL",
             "countries": [item["country"]],

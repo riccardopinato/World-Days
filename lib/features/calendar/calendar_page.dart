@@ -245,6 +245,7 @@ class _CalendarPageState extends State<CalendarPage> {
                   Text(l10n.market),
                   const SizedBox(height: 8),
                   DropdownButtonFormField<String>(
+                    isExpanded: true,
                     initialValue: marketCode,
                     items: [
                       for (final option in marketOptions)
@@ -252,6 +253,8 @@ class _CalendarPageState extends State<CalendarPage> {
                           value: option.code,
                           child: Text(
                             '${option.emoji}  ${marketLabel(l10n, option.code)}',
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
                           ),
                         ),
                     ],

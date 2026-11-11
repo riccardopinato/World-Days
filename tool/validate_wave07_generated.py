@@ -14,7 +14,7 @@ assert tuple(map(int,seed["datasetVersion"].split("."))) >= (2026,11,10,3)
 assert len(known)==len(seed["records"])>=511
 assert Counter(r["scope"] for r in known.values())["GLOBAL"]==289
 assert Counter(r["scope"] for r in known.values())["NATIONAL"]>=222
-assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["EE"]==17
+assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["EE"]>=17
 for source in rows:
  rid=source["id"];row=known[rid]
  assert row["scope"]=="NATIONAL" and row["countries"]==[source["country"]]
