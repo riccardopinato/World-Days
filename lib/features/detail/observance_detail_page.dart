@@ -243,19 +243,11 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             ],
             const SizedBox(height: 16),
           ] else ...[
-            _EditorialSection(
-              icon: Icons.auto_stories_outlined,
-              title: l10n.detailStoryTitle,
-              body: l10n.detailStoryFallback(
-                localizedTitle,
-                _detailTopicLabel(record, l10n),
-              ),
-            ),
-            const SizedBox(height: 12),
-            _EditorialSection(
-              icon: Icons.history_edu_outlined,
-              title: l10n.originHistory,
-              body: l10n.detailHistoryPending,
+            _PendingHistoryGate(
+              observanceId: record.id,
+              localizedTitle: localizedTitle,
+              topicLabel: _detailTopicLabel(record, l10n),
+              l10n: l10n,
             ),
             const SizedBox(height: 24),
           ],
@@ -632,6 +624,52 @@ class _OriginResearchPanel extends StatelessWidget {
                 ],
               ),
             ),
+          );
+        },
+      );
+}
+
+/// Do not show "no story yet" when this day already has a verified
+/// source-researched story in the origin review ledger.
+class _PendingHistoryGate extends StatelessWidget {
+  const _PendingHistoryGate({
+    required this.observanceId,
+    required this.localizedTitle,
+    required this.topicLabel,
+    required this.l10n,
+  });
+
+  final String observanceId;
+  final String localizedTitle;
+  final String topicLabel;
+  final AppLocalizations l10n;
+
+  @override
+  Widget build(BuildContext context) =>
+      FutureBuilder<Map<String, Map<String, dynamic>>>(
+        future: OriginReviewRepository.load(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState != ConnectionState.done) {
+            return const SizedBox.shrink();
+          }
+          if (snapshot.data?[observanceId]?['primaryResearch'] != null) {
+            return const SizedBox.shrink();
+          }
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _EditorialSection(
+                icon: Icons.auto_stories_outlined,
+                title: l10n.detailStoryTitle,
+                body: l10n.detailStoryFallback(localizedTitle, topicLabel),
+              ),
+              const SizedBox(height: 12),
+              _EditorialSection(
+                icon: Icons.history_edu_outlined,
+                title: l10n.originHistory,
+                body: l10n.detailHistoryPending,
+              ),
+            ],
           );
         },
       );
