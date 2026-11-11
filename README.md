@@ -1,5 +1,14 @@
 # World Days
 
+## Wave11–13 — staged catalog, NOT yet accepted (11 November 2026)
+
+The open [PR #85](https://github.com/riccardopinato/World-Days/pull/85) stages an **expected 1,111 scoped identities** (historical main baseline 711; +144 NCCA Wave11, +156 diplomatic Wave12, +100 NCCA/EURES Wave13). These are **staged generator inputs, not 400 independently certified new annual observances**. Counts must be recomputed from the exact current main and PR head before publication. The 1,111 threshold is a **minimum for the first approved batch, not a maximum**.
+
+Source admission is blocked pending primary-country verification, semantic deduplication, recurrence/date audit, editorial review and green CI on the exact head. The Australian DFAT national-days index is diplomatic, not proof of domestic legal public-holiday status; EURES is an EU institutional secondary index, not a substitute for national legislation. Philippine NCCA cultural anniversaries are not automatically statutory holidays. Localized English fallback and STUB history are disclosed, not represented as reviewed translations or full editorial articles.
+
+**Open review defects:** Ireland's St Brigid's Day is incorrectly represented as fixed February 2; the public holiday follows the first Monday of February (with a February 1 Friday exception). Correct its recurrence across 2026–2029 and add regression tests before admission. Keep this PR in draft until this and all other substantive review findings are resolved. No APK, Android signing, production deployment or Play Store actions are in scope.
+
+
 ## Wave10 — 100 national institutional-calendar additions (PR pending)
 
 The next exact 100-record source batch adds **50 commemorative days** listed by South Korea's Ministry of the Interior and Safety and **50 artist/cultural anniversaries and remembrance dates** indexed by the Philippine National Commission for Culture and the Arts. Proposed catalog: **611 → 711 unique canonical identities** (**289 global + 422 national**) with 36 country choices unchanged.
