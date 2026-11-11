@@ -57,6 +57,8 @@ jobs:
           python3 tool/validate_editorial_1111_source_audit.py
           python3 tool/editorial_origin_wave100.py
           python3 tool/validate_editorial_origin_wave100.py
+          python3 tool/build_origin_review_index.py
+          python3 tool/validate_origin_review_index.py
           python3 tool/validate_editorial_batch.py
           python3 tool/validate_editorial_wave03.py
           python3 tool/validate_country_editorial_candidates.py
@@ -120,6 +122,14 @@ jobs:
 
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
+
+      - name: Archive full origin-research evidence and pending-story coverage
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-origin-review-1111-plus
+          path: reports/origin_review_coverage.json
+          if-no-files-found: error
+          retention-days: 20
 
       - name: Archive source-bound catalog coverage and draft gates
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
