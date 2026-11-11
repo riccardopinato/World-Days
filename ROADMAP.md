@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+## Wave08 — Canada 27 actual canonical admissions; parallel discovery batch 100
+
+- [x] Build separate 27-entry Canadian Heritage national civic catalog packet, six title locales and supported annual dates
+- [x] Add 27 new non-overlapping canonical identities with `introducedYear=null`, preserving all previous stable IDs
+- [x] Update market count, analytics expectations and full Python/Flutter/Web CI gates
+- [ ] Review source authority and exact-head CI; merge source-only catalog PR after gate success
+- [ ] Target after merge **538 canonical records**, **462 additional identities required** for 1,000
+- [ ] Independently deduplicate separate 100-row institutional-index intake (Canada and Camden) before any future canonical promotion
+- [ ] Follow 100-record admission batches once primary source identity, rule, rights and locale are complete
+
+No Android APK, signing, device work or Play rollout.
+
+
 ## Wave07 — 32 national institutional observances / five new markets (10 November 2026)
 
 - [x] Prepare five separately sourced national authority lists: Estonia, Latvia, Lithuania, Iceland, Luxembourg.
