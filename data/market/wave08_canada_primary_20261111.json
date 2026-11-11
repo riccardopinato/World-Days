@@ -1,0 +1,967 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-market-wave08-canada-primary-2026-11-11",
+  "sourceReviewDate": "2026-11-11",
+  "count": 27,
+  "countryCounts": {
+    "CA": 27
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "editorialReview": "SOURCE_METADATA_ONLY_NOT_RICH_HISTORY",
+  "records": [
+    {
+      "id": "ca-ribbon-skirt-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Ribbon Skirt Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Ribbon Skirt Day (Canada)",
+        "it": "Giornata nazionale della gonna a nastro (Canada)",
+        "es": "Día Nacional de la Falda de Cintas (Canadá)",
+        "fr": "Journée nationale de la jupe à rubans (Canada)",
+        "de": "Nationaler Ribbon-Skirt-Tag (Kanada)",
+        "pt": "Dia Nacional da Saia de Fitas (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-air-disaster-victims-remembrance",
+      "country": "CA",
+      "canonicalTitleEn": "National Day of Remembrance for Victims of Air Disasters (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Day of Remembrance for Victims of Air Disasters (Canada)",
+        "it": "Giornata canadese delle vittime dei disastri aerei",
+        "es": "Día canadiense de recuerdo de víctimas de desastres aéreos",
+        "fr": "Journée canadienne du souvenir des victimes de catastrophes aériennes",
+        "de": "Kanadischer Gedenktag für Opfer von Flugkatastrophen",
+        "pt": "Dia canadiano de memória das vítimas de desastres aéreos"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-sir-john-a-macdonald-day",
+      "country": "CA",
+      "canonicalTitleEn": "Sir John A. Macdonald Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Sir John A. Macdonald Day (Canada)",
+        "it": "Giornata di Sir John A. Macdonald",
+        "es": "Día de Sir John A. Macdonald",
+        "fr": "Journée Sir John A. Macdonald",
+        "de": "Sir-John-A.-Macdonald-Tag",
+        "pt": "Dia de Sir John A. Macdonald"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-raoul-wallenberg-day",
+      "country": "CA",
+      "canonicalTitleEn": "Raoul Wallenberg Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 17
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Raoul Wallenberg Day (Canada)",
+        "it": "Giornata di Raoul Wallenberg (Canada)",
+        "es": "Día de Raoul Wallenberg (Canadá)",
+        "fr": "Journée Raoul Wallenberg (Canada)",
+        "de": "Raoul-Wallenberg-Tag (Kanada)",
+        "pt": "Dia de Raoul Wallenberg (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-lincoln-alexander-day",
+      "country": "CA",
+      "canonicalTitleEn": "Lincoln Alexander Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 21
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Lincoln Alexander Day (Canada)",
+        "it": "Giornata di Lincoln Alexander (Canada)",
+        "es": "Día de Lincoln Alexander (Canadá)",
+        "fr": "Journée Lincoln Alexander (Canada)",
+        "de": "Lincoln-Alexander-Tag (Kanada)",
+        "pt": "Dia de Lincoln Alexander (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-quebec-city-mosque-attack-remembrance",
+      "country": "CA",
+      "canonicalTitleEn": "National Day of Remembrance of the Quebec City Mosque Attack and Action Against Islamophobia",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 1,
+          "day": 29
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Day of Remembrance of the Quebec City Mosque Attack and Action Against Islamophobia",
+        "it": "Giornata canadese del ricordo dell'attacco alla moschea di Québec e contro l'islamofobia",
+        "es": "Día canadiense de recuerdo del ataque a la mezquita de Quebec y contra la islamofobia",
+        "fr": "Journée nationale de commémoration de l'attentat à la mosquée de Québec et d'action contre l'islamophobie",
+        "de": "Kanadischer Gedenktag für den Anschlag auf die Moschee von Québec und gegen Islamfeindlichkeit",
+        "pt": "Dia nacional de memória do ataque à mesquita de Quebec e de combate à islamofobia"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-covid-19-national-observance",
+      "country": "CA",
+      "canonicalTitleEn": "National Day of Observance for COVID-19 (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Day of Observance for COVID-19 (Canada)",
+        "it": "Giornata canadese di commemorazione del COVID-19",
+        "es": "Día canadiense de conmemoración de la COVID-19",
+        "fr": "Journée nationale de commémoration de la COVID-19 (Canada)",
+        "de": "Kanadischer COVID-19-Gedenktag",
+        "pt": "Dia canadiano de comemoração da COVID-19"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-indigenous-languages-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Indigenous Languages Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 3,
+          "day": 31
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Indigenous Languages Day (Canada)",
+        "it": "Giornata nazionale delle lingue indigene (Canada)",
+        "es": "Día Nacional de las Lenguas Indígenas (Canadá)",
+        "fr": "Journée nationale des langues autochtones (Canada)",
+        "de": "Nationaler Tag indigener Sprachen (Kanada)",
+        "pt": "Dia Nacional das Línguas Indígenas (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-vimy-ridge-battle-anniversary",
+      "country": "CA",
+      "canonicalTitleEn": "Anniversary of the Battle of Vimy Ridge (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 9
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Anniversary of the Battle of Vimy Ridge (Canada)",
+        "it": "Anniversario della battaglia di Vimy Ridge",
+        "es": "Aniversario de la batalla de Vimy Ridge",
+        "fr": "Anniversaire de la bataille de la crête de Vimy",
+        "de": "Jahrestag der Schlacht von Vimy",
+        "pt": "Aniversário da Batalha de Vimy Ridge"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-armenian-genocide-remembrance",
+      "country": "CA",
+      "canonicalTitleEn": "Armenian Genocide Remembrance Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 4,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Armenian Genocide Remembrance Day (Canada)",
+        "it": "Giornata canadese della memoria del genocidio armeno",
+        "es": "Día canadiense de conmemoración del genocidio armenio",
+        "fr": "Journée canadienne de commémoration du génocide arménien",
+        "de": "Kanadischer Gedenktag für den Völkermord an den Armeniern",
+        "pt": "Dia canadiano de memória do genocídio arménio"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-red-dress-day",
+      "country": "CA",
+      "canonicalTitleEn": "Red Dress Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Red Dress Day (Canada)",
+        "it": "Giornata dell'abito rosso (Canada)",
+        "es": "Día del Vestido Rojo (Canadá)",
+        "fr": "Journée de la robe rouge (Canada)",
+        "de": "Red-Dress-Tag (Kanada)",
+        "pt": "Dia do Vestido Vermelho (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-dutch-heritage-day",
+      "country": "CA",
+      "canonicalTitleEn": "Dutch Heritage Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 5,
+          "day": 5
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Dutch Heritage Day (Canada)",
+        "it": "Giornata del patrimonio olandese (Canada)",
+        "es": "Día del Patrimonio Neerlandés (Canadá)",
+        "fr": "Journée du patrimoine néerlandais (Canada)",
+        "de": "Tag des niederländischen Erbes (Kanada)",
+        "pt": "Dia do Património Neerlandês (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-armed-forces-day",
+      "country": "CA",
+      "canonicalTitleEn": "Canadian Armed Forces Day",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 6,
+          "weekday": 7,
+          "occurrence": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Canadian Armed Forces Day",
+        "it": "Giornata delle forze armate canadesi",
+        "es": "Día de las Fuerzas Armadas Canadienses",
+        "fr": "Journée des Forces armées canadiennes",
+        "de": "Tag der kanadischen Streitkräfte",
+        "pt": "Dia das Forças Armadas Canadianas"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-terrorism-victims-remembrance",
+      "country": "CA",
+      "canonicalTitleEn": "National Day of Remembrance for Victims of Terrorism (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 23
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Day of Remembrance for Victims of Terrorism (Canada)",
+        "it": "Giornata canadese in memoria delle vittime del terrorismo",
+        "es": "Día canadiense en recuerdo de las víctimas del terrorismo",
+        "fr": "Journée nationale du souvenir des victimes de terrorisme (Canada)",
+        "de": "Kanadischer Gedenktag für die Opfer des Terrorismus",
+        "pt": "Dia canadiano em memória das vítimas do terrorismo"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-saint-jean-baptiste-day",
+      "country": "CA",
+      "canonicalTitleEn": "Saint-Jean-Baptiste Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 6,
+          "day": 24
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Saint-Jean-Baptiste Day (Canada)",
+        "it": "Festa di San Giovanni Battista (Canada)",
+        "es": "Día de San Juan Bautista (Canadá)",
+        "fr": "Fête de la Saint-Jean-Baptiste (Canada)",
+        "de": "Johannistag (Kanada)",
+        "pt": "Dia de São João Batista (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-canada-day",
+      "country": "CA",
+      "canonicalTitleEn": "Canada Day",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Canada Day",
+        "it": "Festa del Canada",
+        "es": "Día de Canadá",
+        "fr": "Fête du Canada",
+        "de": "Kanada-Tag",
+        "pt": "Dia do Canadá"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-great-upheaval-commemoration",
+      "country": "CA",
+      "canonicalTitleEn": "Day of Commemoration of the Great Upheaval (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 7,
+          "day": 28
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Day of Commemoration of the Great Upheaval (Canada)",
+        "it": "Giornata canadese del ricordo della Grande Deportazione",
+        "es": "Día canadiense de conmemoración de la Gran Expulsión",
+        "fr": "Journée de commémoration du Grand Dérangement (Canada)",
+        "de": "Kanadischer Gedenktag an die Große Vertreibung",
+        "pt": "Dia canadiano da memória da Grande Expulsão"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-emancipation-day",
+      "country": "CA",
+      "canonicalTitleEn": "Emancipation Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 8,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Emancipation Day (Canada)",
+        "it": "Giornata dell'emancipazione (Canada)",
+        "es": "Día de la Emancipación (Canadá)",
+        "fr": "Journée de l'émancipation (Canada)",
+        "de": "Tag der Emanzipation (Kanada)",
+        "pt": "Dia da Emancipação (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-british-home-child-day",
+      "country": "CA",
+      "canonicalTitleEn": "British Home Child Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 9,
+          "day": 28
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "British Home Child Day (Canada)",
+        "it": "Giornata dei bambini britannici emigrati in Canada",
+        "es": "Día de los Niños Británicos Enviados a Canadá",
+        "fr": "Journée des petits immigrés britanniques au Canada",
+        "de": "Gedenktag der britischen Heimkinder (Kanada)",
+        "pt": "Dia das Crianças Britânicas Enviadas ao Canadá"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-national-seniors-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Seniors Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 1
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Seniors Day (Canada)",
+        "it": "Giornata nazionale degli anziani (Canada)",
+        "es": "Día Nacional de las Personas Mayores (Canadá)",
+        "fr": "Journée nationale des aînés (Canada)",
+        "de": "Nationaler Seniorentag (Kanada)",
+        "pt": "Dia Nacional das Pessoas Idosas (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-persons-day",
+      "country": "CA",
+      "canonicalTitleEn": "Persons Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 10,
+          "day": 18
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Persons Day (Canada)",
+        "it": "Giornata delle persone (Canada)",
+        "es": "Día de las Personas (Canadá)",
+        "fr": "Journée de l'affaire « personne » (Canada)",
+        "de": "Persons Day (Kanada)",
+        "pt": "Dia das Pessoas (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-indigenous-veterans-day",
+      "country": "CA",
+      "canonicalTitleEn": "Indigenous Veterans Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 8
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Indigenous Veterans Day (Canada)",
+        "it": "Giornata dei veterani indigeni (Canada)",
+        "es": "Día de los Veteranos Indígenas (Canadá)",
+        "fr": "Journée des vétérans autochtones (Canada)",
+        "de": "Tag indigener Veteranen (Kanada)",
+        "pt": "Dia dos Veteranos Indígenas (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-remembrance-day",
+      "country": "CA",
+      "canonicalTitleEn": "Remembrance Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Remembrance Day (Canada)",
+        "it": "Giorno della memoria dei caduti (Canada)",
+        "es": "Día del Recuerdo (Canadá)",
+        "fr": "Jour du Souvenir (Canada)",
+        "de": "Volkstrauertag in Kanada",
+        "pt": "Dia da Memória (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-national-child-day",
+      "country": "CA",
+      "canonicalTitleEn": "National Child Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 11,
+          "day": 20
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Child Day (Canada)",
+        "it": "Giornata nazionale dell'infanzia (Canada)",
+        "es": "Día Nacional de la Infancia (Canadá)",
+        "fr": "Journée nationale de l'enfant (Canada)",
+        "de": "Nationaler Kindertag (Kanada)",
+        "pt": "Dia Nacional da Criança (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-holodomor-memorial-day",
+      "country": "CA",
+      "canonicalTitleEn": "Holodomor Memorial Day (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 11,
+          "weekday": 6,
+          "occurrence": 4
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Holodomor Memorial Day (Canada)",
+        "it": "Giornata canadese della memoria dell'Holodomor",
+        "es": "Día canadiense de la Memoria del Holodomor",
+        "fr": "Journée canadienne de commémoration de l'Holodomor",
+        "de": "Kanadischer Holodomor-Gedenktag",
+        "pt": "Dia canadiano da Memória do Holodomor"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-violence-against-women-remembrance",
+      "country": "CA",
+      "canonicalTitleEn": "National Day of Remembrance and Action on Violence Against Women (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 6
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "National Day of Remembrance and Action on Violence Against Women (Canada)",
+        "it": "Giornata canadese del ricordo e dell'azione contro la violenza sulle donne",
+        "es": "Día canadiense de recuerdo y acción contra la violencia hacia las mujeres",
+        "fr": "Journée nationale de commémoration et d'action contre la violence faite aux femmes",
+        "de": "Kanadischer Gedenk- und Aktionstag gegen Gewalt an Frauen",
+        "pt": "Dia canadiano de memória e ação contra a violência sobre as mulheres"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    },
+    {
+      "id": "ca-statute-of-westminster-anniversary",
+      "country": "CA",
+      "canonicalTitleEn": "Anniversary of the Statute of Westminster (Canada)",
+      "aliases": [],
+      "authority": "Canadian Heritage — Government of Canada",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "holidayClassification": "NATIONAL_CIVIC_OR_COMMUNITY_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "additionalSources": [],
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_DATE",
+          "month": 12,
+          "day": 11
+        }
+      ],
+      "subject": "PEOPLE",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
+      "localizedTitles": {
+        "en": "Anniversary of the Statute of Westminster (Canada)",
+        "it": "Anniversario dello Statuto di Westminster (Canada)",
+        "es": "Aniversario del Estatuto de Westminster (Canadá)",
+        "fr": "Anniversaire du Statut de Westminster (Canada)",
+        "de": "Jahrestag des Statuts von Westminster (Kanada)",
+        "pt": "Aniversário do Estatuto de Westminster (Canadá)"
+      },
+      "chronologyNote": "Canadian Heritage lists the named observance in the Government of Canada commemorative calendar. A calendar listing does not by itself establish the first year of the observance or imply a statutory public holiday.",
+      "dateRationale": "The Government of Canada source lists the fixed calendar day or annual ordinal rule for this Canadian observance. The date is not inferred from a one-time holiday substitute."
+    }
+  ]
+}
