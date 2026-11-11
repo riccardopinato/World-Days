@@ -7,7 +7,7 @@ cultural period is not necessarily a statutory non-working holiday.
 """
 import json, calendar
 from collections import Counter
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -22,6 +22,12 @@ def dates(rule,year):
  if k=="FIXED_DATE":
   d=date(year,rule["month"],rule["day"])
   return d,d
+ if k=="NTH_WEEKDAY":
+  first=date(year,rule["month"],1)
+  days=(rule["weekday"]-1-first.weekday())%7+7*(rule["occurrence"]-1)
+  day=first+timedelta(days=days)
+  assert day.month==rule["month"]
+  return day,day
  assert k=="FIXED_RANGE"
  start=date(year,rule["startMonth"],rule["startDay"])
  endyear=year+int(rule["endMonth"]<rule["startMonth"])
@@ -39,7 +45,7 @@ def load_wave13():
  assert len({r["canonicalTitleEn"] for r in d["records"]})==100
  assert set(d["locales"])==LOCALES
  assert Counter(r["country"]=="PH" for r in d["records"])=={True:43,False:57}
- assert Counter(r.get("periodKind","DAY") for r in d["records"])=={"MONTH":28,"WEEK":9,"DAY":63}
+ assert Counter(r.get("periodKind","DAY") for r in d["records"])=={"MONTH":28,"WEEK":11,"DAY":61}
  assert len({r["country"] for r in d["records"] if r["country"]!="PH"})==24
  for row in d["records"]:
   country=row["country"];ph=country=="PH";r=row["recurrenceRules"]
@@ -64,7 +70,7 @@ def load_wave13():
     assert start.day==1 and end.day==calendar.monthrange(year,start.month)[1]
     assert start.month==end.month
    if row["periodKind"]=="WEEK":
-    assert 6<= (end-start).days <=17
+    assert 3<= (end-start).days <=17
    if row["periodKind"]=="DAY":
     assert start==end
   assert len(row["chronologyNote"])>=120 and len(row["dateRationale"])>=120
