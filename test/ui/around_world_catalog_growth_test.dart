@@ -70,7 +70,7 @@ void main() {
     ('IE', 2, 'it'),
     ('NL', 2, 'es'),
     ('ZA', 6, 'fr'),
-    ('PH', 57, 'de'),
+    ('PH', 201, 'de'),
     ('NZ', 3, 'pt'),
     ('SG', 2, 'en'),
     ('KR', 57, 'it'),
@@ -198,8 +198,8 @@ void main() {
   test('national source is not conflated with world scope', () async {
     final national = catalog.records.where((r) => r.scope == 'NATIONAL').toList();
     final global = catalog.records.where((r) => r.scope == 'GLOBAL').toList();
-    expect(catalog.records.length, 711);
-    expect(national.length, 422);
+    expect(catalog.records.length, 855);
+    expect(national.length, 566);
     expect(global.length, 289);
     expect(national.every((r) => r.countries.length == 1), isTrue);
     expect(global.every((r) => r.countries.isEmpty), isTrue);
