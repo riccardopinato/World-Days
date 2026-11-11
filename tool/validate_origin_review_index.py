@@ -42,13 +42,13 @@ for e in items:
   assert e["originResearchStatus"]!="PRIMARY_RESEARCHED_ORIGIN_IT_EN"
  else:
   assert e["originResearchStatus"]=="PRIMARY_RESEARCHED_ORIGIN_IT_EN"
-  assert p["sourceUrls"] and set(p["locale"])=={"it","en"}
+  assert p["sourceUrls"] and {"it","en"} <= set(p["locale"]) <= {"it","en","es","fr","de","pt"}
   assert p["reviewedAt"]=="2026-11-11"
   if r.get("introducedYear") is not None:
    assert p["introducedYear"]==r["introducedYear"]
   for url in p["sourceUrls"]:
    assert urlsplit(url).scheme=="https"
-  for locale in ("it","en"):
+  for locale in p["locale"]:
    x=p["locale"][locale]
    for key in ("heading","origin","promoter","purpose"):
     assert len(x[key].strip())>=(18 if key=="heading" else 40)
