@@ -31,3 +31,20 @@ UNESCO's current English international-days index also displays **6 November** f
 Source: https://www.unesco.org/en/days/list (accessed 2026-11-11). The English list directly confirms **International Day for Caves and Karst** (13 September), **World Coding Day** (29 October), **International Day of Engagement in Science for Sustainable Development** (27 November), and **World Futures Day** (2 December). This corrects two candidate English names, not four new admissions. UNESCO's same English index lists the anti-bullying observance at 6 November, conflicting with its movable first-Thursday observance convention; the index alone must not override the year-specific rule. Until original proclamation and recurrence are reconciled, **exclude the disputed date from import**. No record should be counted twice for translated aliases.
 
 Catalog comparison remains **BLOCKED** until the canonical generated catalog is available from the actual repository build artifacts or its authoritative source inputs. The attempted `assets/data/official_core.json` fetch returned 404 on both main and the PR branch; do not claim a zero-overlap result from this absence.
+
+## Canonical source-code cross-check — 2026-11-11 (follow-up)
+
+**Resolved the previously reported missing-artifact blocker for these eight candidates.** The authoritative global input is `tool/build_dataset.py` on `main`, not `assets/data/official_core.json` (which does not exist at that path). Exact canonical titles were inspected directly in the generator. All **8/8** candidates in the table above are **ALREADY PRESENT** as `fixed(...)` declarations in `main`, with matching month/day and institutional classification. They are **EXISTING, not NEW_VERIFIED**; do not admit a second copy or count any toward the +400 goal.
+
+| Candidate (same order as above) | Classification | Existing main generator declaration |
+|---|---|---|
+| Fight against Transnational Organized Crime | EXISTING | `fixed('International Day for the Prevention of and Fight against All Forms of Transnational Organized Crime',11,15,'A/RES/78/267')` |
+| Mediterranean Diet | EXISTING | `fixed('International Day of the Mediterranean Diet',11,16,'A/RES/80/174')` |
+| Conjoined Twins | EXISTING | `fixed('World Conjoined Twins Day',11,24,'A/RES/78/313')` |
+| Child, Early and Forced Marriage | EXISTING | `fixed('International Day for the Elimination of Child, Early and Forced Marriage',11,27,'A/RES/80/309')` |
+| Engagement in Science for Sustainable Development | EXISTING | `fixed('International Day of Engagement in Science for Sustainable Development',11,27,None,'UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)` |
+| Caves and Karst | EXISTING | `fixed('International Day for Caves and Karst',9,13,None,'UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)` |
+| World Coding Day | EXISTING | `fixed('World Coding Day',10,29,'42 C/Resolution 15','UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)` |
+| World Futures Day | EXISTING | `fixed('World Futures Day',12,2,None,'UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)` |
+
+**Result:** 8 source-calendar candidates screened, **8 already present**, **0 net-new identities**, **0 admissions**; no date corrections required for these eight. This is an exact source-code declaration check, not a complete semantic audit of all 711 IDs or the NCCA candidates. The separate UNESCO bullying-date discrepancy remains excluded pending primary rule verification. Preserve the draft PR and the 1,111-minimum gate.
