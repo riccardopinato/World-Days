@@ -43,3 +43,16 @@ A separate intake in `data/editorial/candidates/wave11_wikidata_300_discovery_20
 All 300 have `publishable=false`, `primarySource=null`, `authorityVerified=false`, `duplicateSemanticsVerified=false` and `recurrenceVerifiedBeyondWikidata=false`. They do **not** change the actual app's generated count of **855 on branch** or **711 on main**.
 
 For one protected import of at least 400 valid net-new canonicals (at least 1111 on main), require per-item first-party or originator references and year-independent recurrence rules. The staged 144 NCCA are still institutional-index source-level entries, not 144 completely researched historical narratives; all existing + new publisher quality caveats continue to apply.
+
+
+## 11 November: 300-ID draft milestone (144 Philippines + 156 new diplomatic country markets)
+
+The same protected PR #85 now contains exactly **300 net new distinct canonical IDs** relative to the original `main` baseline of 711:
+- **144** annual Filipino historical/cultural anniversaries indexed by the Philippine NCCA source, human editorial status STUB and original local language titles not completed;
+- **156** foreign national days in the public national-days diplomatic protocol registry of the Australian Department of Foreign Affairs and Trade. All **156 countries are new markets**, and the app's market dropdown, ISO flag and English display-name fallback have been expanded accordingly. The original first-party Australian diplomatic protocol source is `https://protocol.dfat.gov.au/Public/NationalDays`.
+
+Wave12's `RECOGNIZED_INSTITUTIONAL` denotes recognition by **Australia's government diplomatic protocol**, NOT verified foreign-country statutory national holidays. The introduction year remains unknown (null), history is STUB, and IT/ES/FR/DE/PT title locales explicitly fall back to English. Syria and Denmark have been excluded from Wave12 admissions because their current designation/year-independent recurrence needs specific checking, and are preserved only in the 158-row research transcription.
+
+The draft catalog is **1011** (289 GLOBAL + 722 NATIONAL), **192 countries**, datasetVersion `2026.11.11.5`. This is NOT a claim that 1011 is merged on `main`; `main` remains 711 until protected merge. It is **100 additional source-qualified identities short of the minimum milestone 1111**; the requested one-block merge gate continues to apply. The separate Wikidata P837 300-row list remains a quarantined research register and is NOT counted in the above 300 new canonical records.
+
+New regression: `tool/market_wave12.py`, `tool/validate_wave12_generated.py`, `test/data/market_layer_test.dart`, and Flutter Web release. Require CI green, no unresolved substantive source issues, and at least 1111 deduplicated source-based IDs before merging PR #85 to `main`.
