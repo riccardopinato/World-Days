@@ -17,7 +17,7 @@ final class OriginReviewRepository {
     final data = jsonDecode(raw) as Map<String, dynamic>;
     if (data['schemaVersion'] != 1 ||
         data['recordCount'] != (data['records'] as List).length ||
-        data['coverage'] != 'ALL_1111_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED') {
+        data['coverage'] != 'ALL_CANONICAL_ACCOUNTED_FOR_NOT_ALL_HISTORIES_CERTIFIED') {
       throw const FormatException('origin_research_ledger_invalid');
     }
     final items = <String, Map<String, dynamic>>{};
