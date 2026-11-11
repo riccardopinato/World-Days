@@ -14,6 +14,7 @@ from market_wave09 import load_wave09
 from market_wave10 import load_wave10
 from market_wave11 import load_wave11
 from market_wave12 import load_wave12
+from market_wave13 import load_wave13
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -235,7 +236,13 @@ def all_expansion_rows():
     assert all(x["id"] not in prior_ids for x in wave12), "Wave12 duplicate IDs"
     assert all(x["canonicalTitleEn"] not in prior_titles for x in wave12), "Wave12 duplicate titles"
     assert not ({x["country"] for x in wave12} & prior_markets), "Wave12 must add new countries"
-    return [*previous, *wave12]
+    wave13 = load_wave13()
+    admitted_prior = [*previous, *wave12]
+    prior_ids13 = {r["id"] for r in admitted_prior}
+    prior_titles13 = {r["canonicalTitleEn"] for r in admitted_prior}
+    assert all(r["id"] not in prior_ids13 for r in wave13), "Wave13 existing-ID collision"
+    assert all(r["canonicalTitleEn"] not in prior_titles13 for r in wave13), "Wave13 existing-title collision"
+    return [*admitted_prior, *wave13]
 
 
 def expanded_title_map():
@@ -256,7 +263,7 @@ def build_expansion_records():
             "id": item["id"],
             "canonicalTitleEn": item["canonicalTitleEn"],
             "aliases": item.get("aliases", []),
-            "periodKind": "DAY",
+            "periodKind": item.get("periodKind", "DAY"),
             "recurrenceRules": item["recurrenceRules"],
             "scope": "NATIONAL",
             "countries": [item["country"]],
