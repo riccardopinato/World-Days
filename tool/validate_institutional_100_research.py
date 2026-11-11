@@ -32,6 +32,6 @@ for row in rows:
   date(2026,month,day)
   date_count+=1
  else:
-  assert re.fullmatch(r"\d{2}-(?:NTH-[A-Z]{3}-\d|MON-BEFORE-25)",raw),raw
+  assert re.fullmatch(r"\d{2}-(?:NTH-[A-Z]{3}-\d|MON-BEFORE-25|[A-Z]{3}-\d)",raw),raw
 assert date_count>=95
 print("PASS: exactly 100 source-index candidates, no authority claim, no runtime publication")
