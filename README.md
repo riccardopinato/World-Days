@@ -1,5 +1,14 @@
 # World Days
 
+## Wave10 — 100 national institutional-calendar additions (PR pending)
+
+The next exact 100-record source batch adds **50 commemorative days** listed by South Korea's Ministry of the Interior and Safety and **50 artist/cultural anniversaries and remembrance dates** indexed by the Philippine National Commission for Culture and the Arts. Proposed catalog: **611 → 711 unique canonical identities** (**289 global + 422 national**) with 36 country choices unchanged.
+
+Authority: [Korean Ministry of the Interior and Safety official commemorations](https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do); [Philippine National Commission for Culture and the Arts official significant-date index](https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/). **Philippine artist birthday/death anniversaries are cultural calendar dates, NOT new legally designated public holidays.** Source status, Korean original titles, recurrence rules and source-classification boundaries are retained in the batch; NCCA's live page may deny automated access, so its web-index extract needs direct-page verification before final editorial certification.
+
+Six localization keys are present, but EN fallback in IT/ES/FR/DE/PT is flagged `ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING` for all 100. `introducedYear` remains absent unless separately established. The new 100 are `editorialStatus=STUB`, preserving the 56 existing source-reviewed long-form narratives. This is a catalog-only PR with no APK/signing/device/Play activity.
+
+
 ## Wave09 — 73 national observances; 100 new canonical records across Wave08 + Wave09 (PR pending)
 
 This proposal adds **73 primary-institutional national calendar identities** in **Slovakia (23), Czechia (18), Poland (13), Sweden (9), Norway (5), Finland (5)**. Existing source-approved Wave08 contributes **27 new Canadian identities**. After a green CI and merge, these two waves together will have introduced **100 new canonical records** from the 511-record baseline, resulting in **611** (**289 global + 322 national**) with **36 markets** unchanged.
