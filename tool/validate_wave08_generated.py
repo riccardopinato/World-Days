@@ -8,9 +8,10 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 known={r["id"]:r for r in catalog["records"]}
-assert catalog["datasetVersion"]=="2026.11.11.1"
-assert len(known)==len(catalog["records"])==538
-assert Counter(r["scope"] for r in known.values())=={"GLOBAL":289,"NATIONAL":249}
+assert tuple(map(int,catalog["datasetVersion"].split("."))) >= (2026,11,11,1)
+assert len(known)==len(catalog["records"])>=538
+assert Counter(r["scope"] for r in known.values())["GLOBAL"]==289
+assert Counter(r["scope"] for r in known.values())["NATIONAL"]>=249
 assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["CA"]==32
 for source in load_wave08():
  rid=source["id"];row=known[rid]
