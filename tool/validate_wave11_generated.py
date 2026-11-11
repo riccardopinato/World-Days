@@ -16,7 +16,7 @@ assert countries["PH"]==201
 for source in load_wave11():
  rid=source["id"]; r=index[rid]
  assert r["scope"]=="NATIONAL" and r["countries"]==["PH"]
- assert r["authority"]["officiality"]=="RECOGNIZED_INSTITUTIONAL"
+ assert r["authority"]["officiality"]=="OFFICIAL_INSTITUTIONAL"
  assert r["editorialStatus"]=="STUB"
  assert r.get("introducedYear") is None and r.get("introducedYearSource") is None
  assert r["sources"][0]["url"]==source["source"]
