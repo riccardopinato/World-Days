@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE01-UNESCO-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "sourcePolicy": "Original EN/IT narratives checked against individually named UNESCO and organizer pages; ES/FR/DE/PT pending editorial translation review. Missing date rationale deliberately not invented.",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 5,
+  "records": [
+    {
+      "observanceId": "international-day-against-illicit-trafficking-in-cultural-property",
+      "sources": [
+        "https://www.unesco.org/en/days/against-illicit-trafficking"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "When stolen heritage becomes a global concern",
+          "origin": "At its 40th General Conference in 2019, UNESCO designated 14 November as the International Day against Illicit Trafficking in Cultural Property. The observance gives visibility to theft, looting and illegal trade in objects that carry the memory and identity of communities. It builds on international cooperation established long before the commemorative day.",
+          "promoter": "UNESCO's General Conference adopted the observance. The cited institutional page does not identify a single person as its original proposer.",
+          "purpose": "Encourage the protection of cultural heritage, responsible investigation of an object's provenance and international cooperation to prevent illicit trade and support restitution.",
+          "facts": [
+            "The date is 14 November; UNESCO's institutional page does not explain a separate symbolic reason for this particular date.",
+            "The 1970 UNESCO Convention established an international framework against illicit import, export and transfer of ownership of cultural property.",
+            "Illicitly traded objects can pass through online markets as well as conventional auctions, making provenance checks important."
+          ]
+        },
+        "it": {
+          "heading": "Quando un patrimonio rubato diventa una questione mondiale",
+          "origin": "Nel 2019, durante la quarantesima Conferenza generale, l'UNESCO ha istituito il 14 novembre la Giornata internazionale contro il traffico illecito di beni culturali. La ricorrenza porta l'attenzione su furti, saccheggi e commercio illegale di oggetti che custodiscono memoria e identità delle comunità. Si inserisce in un lavoro di cooperazione internazionale iniziato ben prima della giornata.",
+          "promoter": "La giornata è stata proclamata dalla Conferenza generale dell'UNESCO. La fonte istituzionale consultata non attribuisce l'iniziativa iniziale a una singola persona.",
+          "purpose": "Promuovere la tutela del patrimonio, la verifica della provenienza dei beni culturali e la collaborazione tra Paesi per prevenire traffici illeciti e favorire le restituzioni.",
+          "facts": [
+            "La data è il 14 novembre; la pagina UNESCO non documenta uno specifico motivo simbolico per la scelta del giorno.",
+            "La Convenzione UNESCO del 1970 offre un quadro internazionale per contrastare importazione, esportazione e trasferimento illeciti di beni culturali.",
+            "Gli oggetti possono transitare anche attraverso mercati online e aste tradizionali: per questo la verifica della provenienza è essenziale."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "international-day-of-islamic-art",
+      "sources": [
+        "https://www.unesco.org/en/days/islamic-art"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Islamic art is a history of cultural encounters",
+          "origin": "UNESCO proclaimed 18 November the International Day of Islamic Art at its 40th General Conference in 2019. Rather than treating this artistic heritage as a single style, the day invites people to explore centuries of changing traditions and exchanges across regions, from historical forms to contemporary creativity.",
+          "promoter": "UNESCO's General Conference proclaimed the day. The UNESCO page does not establish the identity of a single original individual proposer.",
+          "purpose": "Promote knowledge of Islamic art across time and geography, encourage intercultural dialogue, protect cultural heritage and recognize creative diversity.",
+          "facts": [
+            "The observance falls on 18 November each year and was proclaimed by UNESCO in 2019.",
+            "UNESCO highlights forms including calligraphy, ceramics, dance, music and metalwork.",
+            "The cited page documents the designated calendar date but does not state a distinct historical reason for choosing 18 November."
+          ]
+        },
+        "it": {
+          "heading": "L'arte islamica racconta secoli di incontri",
+          "origin": "Nel 2019, durante la quarantesima Conferenza generale, l'UNESCO ha proclamato il 18 novembre Giornata internazionale dell'arte islamica. Non racconta un unico stile immutabile: invita a scoprire secoli di tradizioni ed esperienze artistiche diverse, nate e trasformate negli scambi tra territori e culture, fino alle espressioni contemporanee.",
+          "promoter": "La proclamazione è della Conferenza generale dell'UNESCO. La pagina istituzionale non identifica una singola persona come promotore originario.",
+          "purpose": "Far conoscere l'arte islamica nel tempo e nello spazio, valorizzare la diversità creativa, sostenere il dialogo interculturale e proteggere il patrimonio.",
+          "facts": [
+            "La giornata ricorre ogni 18 novembre ed è stata proclamata dall'UNESCO nel 2019.",
+            "L'UNESCO cita, fra le espressioni artistiche, calligrafia, ceramica, danza, musica e lavorazione dei metalli.",
+            "La fonte indica il 18 novembre ma non fornisce una motivazione storica specifica per la scelta di quella data."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "international-day-of-mathematics",
+      "sources": [
+        "https://www.unesco.org/en/days/mathematics",
+        "https://www.mathunion.org/outreach/IDM",
+        "https://www.idm314.org/about"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": 2020,
+      "locale": {
+        "en": {
+          "heading": "From Pi Day to a worldwide celebration of mathematics",
+          "origin": "In November 2019, UNESCO's 40th General Conference proclaimed 14 March the International Day of Mathematics. The International Mathematical Union led the initiative. The date builds on Pi Day, already celebrated as 3/14 in countries using month/day notation, referring to the familiar approximation 3.14 for pi. The first international observance took place in 2020.",
+          "promoter": "The International Mathematical Union developed and led the initiative; UNESCO's General Conference formally proclaimed the observance.",
+          "purpose": "Make mathematics accessible beyond classrooms, show its role in science, everyday life and sustainable development, and invite schools, museums and communities to take part.",
+          "facts": [
+            "March 14 is written 3/14 in some countries, recalling the approximation 3.14 of the constant pi.",
+            "UNESCO proclaimed the observance in 2019 and the first celebration occurred on 14 March 2020.",
+            "The inaugural 2020 theme was Mathematics is Everywhere."
+          ]
+        },
+        "it": {
+          "heading": "Dal Pi Greco Day a una festa mondiale della matematica",
+          "origin": "Nel novembre 2019 la quarantesima Conferenza generale dell'UNESCO ha proclamato il 14 marzo Giornata internazionale della matematica. L'iniziativa è stata portata avanti dall'Unione matematica internazionale. La data nasce dal Pi Greco Day: nella notazione mese/giorno, 14 marzo si scrive 3/14, come l'approssimazione 3,14 del numero pi greco. La prima celebrazione internazionale si è svolta nel 2020.",
+          "promoter": "L'Unione matematica internazionale ha ideato e promosso l'iniziativa; la proclamazione formale è stata adottata dalla Conferenza generale dell'UNESCO.",
+          "purpose": "Mostrare che la matematica riguarda la scienza e la vita quotidiana, favorire la partecipazione di studenti e cittadini e collegare la disciplina allo sviluppo sostenibile.",
+          "facts": [
+            "In alcuni Paesi il 14 marzo si scrive 3/14, richiamando il valore approssimato 3,14 di pi greco.",
+            "L'UNESCO ha proclamato la giornata nel 2019; la prima celebrazione si è tenuta il 14 marzo 2020.",
+            "Il tema della prima edizione, nel 2020, era Mathematics is Everywhere, cioè La matematica è ovunque."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "international-day-of-women-in-multilateralism",
+      "sources": [
+        "https://www.unesco.org/en/days/women-multilateralism"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Women's voices belong where global decisions are made",
+          "origin": "On 23 November 2021, UNESCO's General Conference adopted Resolution 41 C/57 proclaiming 25 January the International Day of Women in Multilateralism. The designation focuses attention on women working in international cooperation and on barriers to participation in negotiations and institutions. It is a modern recognition of contributions spanning many decades.",
+          "promoter": "UNESCO's General Conference proclaimed the day through Resolution 41 C/57. The institutional source does not identify one individual as its original proposer.",
+          "purpose": "Recognize women's roles in advancing human rights, peace and sustainable development in multilateral institutions and encourage more inclusive leadership.",
+          "facts": [
+            "UNESCO adopted Resolution 41 C/57 on 23 November 2021, designating 25 January every year.",
+            "The UNESCO source describes under-representation of women in spaces where peace, budgets and international standards are negotiated.",
+            "The source establishes the date but does not document a specific symbolic event behind 25 January."
+          ]
+        },
+        "it": {
+          "heading": "Le donne devono essere presenti dove si decide il futuro",
+          "origin": "Il 23 novembre 2021 la Conferenza generale dell'UNESCO ha adottato la risoluzione 41 C/57, proclamando il 25 gennaio Giornata internazionale delle donne nel multilateralismo. La ricorrenza dà visibilità al contributo delle donne nella cooperazione internazionale e agli ostacoli che ancora limitano la loro presenza nei luoghi delle decisioni. Riconosce un impegno costruito lungo molti decenni.",
+          "promoter": "La giornata è stata proclamata dalla Conferenza generale dell'UNESCO con la risoluzione 41 C/57. La fonte consultata non indica una singola persona quale ideatrice originaria.",
+          "purpose": "Riconoscere il ruolo delle donne nella promozione dei diritti umani, della pace e dello sviluppo sostenibile e sostenere una leadership più inclusiva nelle istituzioni internazionali.",
+          "facts": [
+            "L'UNESCO ha adottato la risoluzione 41 C/57 il 23 novembre 2021, fissando la ricorrenza al 25 gennaio.",
+            "La fonte evidenzia una rappresentanza femminile ancora insufficiente negli ambiti dove si negoziano pace, bilanci e norme internazionali.",
+            "La risoluzione stabilisce il 25 gennaio, ma la pagina UNESCO non documenta un episodio simbolico specifico legato alla scelta della data."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "world-engineering-day-for-sustainable-development",
+      "sources": [
+        "https://www.unesco.org/en/days/engineering-sustainable-development",
+        "https://www.unesco.org/en/articles/world-engineering-day-sustainable-development-2026"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Engineering as a tool for a sustainable future",
+          "origin": "UNESCO proclaimed 4 March World Engineering Day for Sustainable Development in 2019. The day draws attention to the engineers who turn scientific ideas into solutions for clean water, resilient infrastructure, energy and environmental protection. It also encourages young people to see engineering as a way to address problems affecting communities.",
+          "promoter": "UNESCO formally proclaimed the day. The cited UNESCO pages support the institution's decision but are not used here to assign the original proposal to a specific person.",
+          "purpose": "Recognize engineering's contribution to sustainable development and inspire new generations, especially women and young people, to participate in designing inclusive solutions.",
+          "facts": [
+            "UNESCO confirms that the observance was proclaimed in 2019 and is held annually on 4 March.",
+            "UNESCO links engineering to climate adaptation, resilient infrastructure and food and water security.",
+            "The cited UNESCO material does not establish a separate symbolic reason for the selection of 4 March."
+          ]
+        },
+        "it": {
+          "heading": "L'ingegneria al servizio di un futuro sostenibile",
+          "origin": "Nel 2019 l'UNESCO ha proclamato il 4 marzo Giornata mondiale dell'ingegneria per lo sviluppo sostenibile. La ricorrenza valorizza chi trasforma conoscenze scientifiche in soluzioni per acqua pulita, infrastrutture sicure, energia e tutela dell'ambiente. Invita inoltre ragazze e ragazzi a considerare l'ingegneria come uno strumento concreto per affrontare problemi delle comunità.",
+          "promoter": "La proclamazione formale è dell'UNESCO. Le pagine istituzionali citate documentano questa decisione, senza che qui venga attribuita l'idea iniziale a una persona specifica.",
+          "purpose": "Mettere in evidenza il contributo dell'ingegneria allo sviluppo sostenibile e incoraggiare la partecipazione di nuove generazioni, in particolare donne e giovani.",
+          "facts": [
+            "L'UNESCO conferma la proclamazione nel 2019 e la ricorrenza annuale del 4 marzo.",
+            "L'organizzazione collega l'ingegneria a clima, infrastrutture resilienti e sicurezza alimentare e idrica.",
+            "Le pagine UNESCO citate non documentano da sole un motivo simbolico distinto per la scelta del 4 marzo."
+          ]
+        }
+      }
+    }
+  ]
+}
