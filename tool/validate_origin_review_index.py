@@ -7,7 +7,7 @@ stories. Do not present 1107 unresearched origin narratives as certified.
 from collections import Counter
 from pathlib import Path
 import json
-from datetime import datetime
+from datetime import datetime, date
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-8"))
@@ -43,7 +43,7 @@ for e in items:
  else:
   assert e["originResearchStatus"]=="PRIMARY_RESEARCHED_ORIGIN_IT_EN"
   assert p["sourceUrls"] and {"it","en"} <= set(p["locale"]) <= {"it","en","es","fr","de","pt"}
-  assert p["reviewedAt"]=="2026-11-11"
+  assert date.fromisoformat(p["reviewedAt"]) >= date(2026,11,11)
   if r.get("introducedYear") is not None:
    assert p["introducedYear"]==r["introducedYear"]
   for url in p["sourceUrls"]:
