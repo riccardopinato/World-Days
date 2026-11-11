@@ -1,5 +1,16 @@
 # World Days — Active roadmap
 
+## Programma storie: lotti consecutivi da 100 (12 novembre 2026)
+
+- [x] Predisporre la suddivisione riproducibile di **tutte** le origini da ricercare: 1.107 ID in 12 lotti (11 × 100 + 7), senza duplicazioni, mentre il catalogo resta a 1.111.
+- [x] Riusare il primo lotto Wave100 (#93), completare i lotti successivi e certificare in CI gli ID, la copertura, la provenienza e lo stato delle bozze, senza fingere che i dossier siano racconti finiti.
+- [ ] Per ciascun lotto produrre effettivamente racconti individuali verificati in fonte primaria, anno fondazione se documentato, ragione data, promotore provato, contesto e curiosità.
+- [ ] Integrare testi originali e traduzioni EN/IT/ES/FR/DE/PT dopo revisione fattuale, editoriale e linguistica.
+- [ ] Aggiornare automaticamente i lotti rimasti man mano che gli approfondimenti diventano effettivamente certificati; nuove ricorrenze si aggiungono senza tetto massimo.
+
+Protocollo: [EDITORIAL_ORIGIN_100_BATCHES_UNTIL_COMPLETE_20261112.md](docs/EDITORIAL_ORIGIN_100_BATCHES_UNTIL_COMPLETE_20261112.md).
+**Avanzamento di ricerca iniziale:** 4 origini ricercate; 1.107 ancora da verificare individualmente. I 56 articoli legacy non vengono conteggiati come 56 nuove certificazioni di origine.
+
 ## Source-backed origin stories — implemented for 4/1,111, remaining 1,107 (11 November 2026)
 
 - [x] Add a per-ID offline research ledger and visible source-bound IT/EN origin, adopter/proposer (where known), why and contextual facts for four World Days; native localization beyond IT/EN remains pending.
