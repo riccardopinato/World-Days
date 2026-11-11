@@ -12,6 +12,7 @@ from market_wave07 import load_wave07
 from market_wave08 import load_wave08
 from market_wave09 import load_wave09
 from market_wave10 import load_wave10
+from market_wave11 import load_wave11
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "market" / "expansion_2026_11_09.json"
@@ -219,7 +220,13 @@ def all_expansion_rows():
     prior_titles = {r["canonicalTitleEn"] for r in all_prior}
     assert all(r["id"] not in prior_ids for r in wave10), "Wave10 existing-ID collision"
     assert all(r["canonicalTitleEn"] not in prior_titles for r in wave10), "Wave10 existing-title collision"
-    return [*all_prior, *wave10]
+    wave11 = load_wave11()
+    known = [*all_prior, *wave10]
+    known_id_set = {r["id"] for r in known}
+    known_title_set = {r["canonicalTitleEn"] for r in known}
+    assert all(x["id"] not in known_id_set for x in wave11), "Wave11 duplicate IDs"
+    assert all(x["canonicalTitleEn"] not in known_title_set for x in wave11), "Wave11 duplicate English titles"
+    return [*known, *wave11]
 
 
 def expanded_title_map():
