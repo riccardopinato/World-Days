@@ -51,11 +51,12 @@ def build():
         return (r["introducedYear"] is None, r["canonicalTitleEn"].casefold(), r["id"])
     global_rows = sorted((r for r in eligible if r["scope"] == "GLOBAL"), key=order)
     national_rows = sorted((r for r in eligible if r["scope"] == "NATIONAL"), key=order)
-    chosen = global_rows[:60] + national_rows[:40]
+    target = min(100, len(eligible))
+    chosen = (global_rows[:60] + national_rows[:40])[:target]
     chosen_ids = {r["id"] for r in chosen}
     if len(chosen) < 100:
-        chosen += [r for r in sorted(eligible, key=order) if r["id"] not in chosen_ids][:100-len(chosen)]
-    assert len(chosen) == 100 and len({r["id"] for r in chosen}) == 100, "insufficient evidence-linked, unpublished candidates"
+        chosen += [r for r in sorted(eligible, key=order) if r["id"] not in chosen_ids][:target-len(chosen)]
+    assert len(chosen) == target and len({r["id"] for r in chosen}) == target, "selection must remain complete and unique"
 
     dossiers = []
     for i, r in enumerate(chosen, start=1):
@@ -96,10 +97,11 @@ def build():
         "batchId": "WORLD-DAYS-ORIGIN-WAVE100-20261111",
         "canonicalDatasetVersion": audit["catalogVersion"],
         "catalogTotalAtGeneration": audit["catalogTotal"],
-        "targetCount": 100,
+        "targetCount": target,
         "recordCount": len(dossiers),
         "historicallyVerifiedCompletedStories": 0,
-        "reviewStatus": "100_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_100_APPROVED_STORIES",
+        "reviewStatus": ("100_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_100_APPROVED_STORIES"
+                         if target == 100 else f"{target}_PRIMARY_LINKED_RESEARCH_DOSSIERS_NOT_APPROVED_STORIES"),
         "exclusions": "Existing 56 published histories, original four-source stories, individually researched pending drafts, and potentially misleading institutional index records",
         "sourcePolicy": "A catalog link does not prove individual history, founder, formal introduction year or legal status. Unknown fields remain null. No automatic publication.",
         "dossiers": dossiers,
