@@ -40,11 +40,16 @@ def main():
  result={"target":1111,"mainBaseline":711,"requiredNewCanonical":400,"primaryIndexedResearchRows":len(data["records"]),"possibleAliasOrDuplicateReview":pairs,
  "researchRowsNotReady":len(data["records"]),"additionalSourceQualifiedNewIdsNeededAtLeast":400-len(data["records"])+len(pairs),
  "canonicalAdmittedByThisPR":0,
+ "remainingCanonicalAdmissionsNeeded":400,
+ "potentialResearchCandidatesAfterSimilarityReviewAtMost":len(data["records"])-len(pairs),
+ "countingPolicy":"Research-only candidates contribute ZERO to the canonical catalog until individually admitted. The 256+ discovery estimate assumes 144 future admissions and is NOT the current remaining-admissions count.",
  "note":"Source-only NCCA candidates and Wikidata discovery are not yet accepted into the runtime catalog; avoid 1111 claim before 400 distinct canonical identities are source reviewed, tested, merged."
  }
  assert len(prior)==57,("PH market drift",len(prior))
  assert result["primaryIndexedResearchRows"]==144
  assert result["canonicalAdmittedByThisPR"]==0
+ assert result["remainingCanonicalAdmissionsNeeded"]==400
+ assert result["additionalSourceQualifiedNewIdsNeededAtLeast"]>=256
  OUT.parent.mkdir(parents=True,exist_ok=True)
  OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print("WAVE11_RECONCILIATION",json.dumps({k:v for k,v in result.items() if k!="possibleAliasOrDuplicateReview"},sort_keys=True))
