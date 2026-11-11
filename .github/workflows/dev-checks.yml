@@ -34,6 +34,7 @@ jobs:
           python3 tool/validate_wave06_generated.py
           python3 tool/validate_wave07_generated.py
           python3 tool/validate_wave08_generated.py
+          python3 tool/validate_wave09_generated.py
           python3 tool/test_discover_eures_institutional.py
           python3 tool/validate_eures_research_batch.py
           python3 tool/triage_bulk_institutional.py
