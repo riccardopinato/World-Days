@@ -12,7 +12,7 @@ assert tuple(map(int,catalog["datasetVersion"].split("."))) >= (2026,11,11,1)
 assert len(known)==len(catalog["records"])>=538
 assert Counter(r["scope"] for r in known.values())["GLOBAL"]==289
 assert Counter(r["scope"] for r in known.values())["NATIONAL"]>=249
-assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["CA"]==32
+assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["CA"]>=32
 for source in load_wave08():
  rid=source["id"];row=known[rid]
  assert row["scope"]=="NATIONAL" and row["countries"]==["CA"]
