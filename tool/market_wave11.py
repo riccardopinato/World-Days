@@ -27,7 +27,7 @@ def load_wave11():
  assert len({x["canonicalTitleEn"] for x in rows})==144
  for x in rows:
   assert x["country"]=="PH" and x["id"].startswith("ph-w11-")
-  assert x["officiality"]=="RECOGNIZED_INSTITUTIONAL"
+  assert x["officiality"]=="OFFICIAL_INSTITUTIONAL"
   assert x["holidayClassification"]=="INSTITUTIONALLY_INDEXED_CULTURAL_HISTORICAL_ANNIVERSARY_NOT_STATUTORY_HOLIDAY"
   assert x["authorityType"]=="GOVERNMENT"
   assert x["sourceTier"]=="A_PRIMARY"
