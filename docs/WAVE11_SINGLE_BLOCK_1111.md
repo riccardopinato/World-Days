@@ -32,3 +32,14 @@ The source repository baseline is **711** catalog IDs on `main`, composed of 289
 - Once the first qualifying merge is confirmed on `main`, use `main` as the new baseline and continue reviewing, committing and merging additional nonduplicate source-verified batches in subsequent PRs. Avoid unnecessary empty PRs and avoid reprocessing previously rejected candidates without new evidence.
 - Report the actual main total, staged total, eligible new distinct identities, rejected candidates and missing count toward the **minimum**. After reaching 1111, report further net growth rather than a zero remaining quota.
 - Preserve the exact 711/855 counts in historical checkpoint tests as historical snapshots only; future production dataset checks must derive the actual totals and enforce minimum thresholds and invariants, not hard-coded equality to 1111.
+
+
+## 11 November: additional 300-lead discovery block (research, NOT 300 published days)
+
+A separate intake in `data/editorial/candidates/wave11_wikidata_300_discovery_20261111.json` contains exactly **300 unique Wikidata P837 QIDs** with a one-date indexed label, discovery URL, and optional country label. Built from a completed GitHub CI research run with 930 date-labelled search hits. The source contains common public holidays, non-holiday traditions, historical feasts, popular awareness dates, and country-specific date conventions: **the existence of 300 rows must NEVER be used as proof of 300 new genuine observances**.
+
+`tool/validate_wave11_wikidata_300.py` enforces the exact 300/QID/date and research-only flags; `tool/triage_wave11_wikidata_300.py` compares labels against the actual generated canonical catalogue (including all 144 NCCA staged records) and writes `reports/wave11_300_discovery_triage.json`, including suspicious duplicates and source/recurrence/authority gaps.
+
+All 300 have `publishable=false`, `primarySource=null`, `authorityVerified=false`, `duplicateSemanticsVerified=false` and `recurrenceVerifiedBeyondWikidata=false`. They do **not** change the actual app's generated count of **855 on branch** or **711 on main**.
+
+For one protected import of at least 400 valid net-new canonicals (at least 1111 on main), require per-item first-party or originator references and year-independent recurrence rules. The staged 144 NCCA are still institutional-index source-level entries, not 144 completely researched historical narratives; all existing + new publisher quality caveats continue to apply.
