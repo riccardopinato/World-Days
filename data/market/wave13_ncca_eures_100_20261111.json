@@ -1545,240 +1545,6 @@
       "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
     },
     {
-      "id": "ph-w13-edsa-people-power-revolution-anniversary",
-      "country": "PH",
-      "canonicalTitleEn": "EDSA People Power Revolution Anniversary — Philippines",
-      "aliases": [
-        "EDSA People Power Revolution Anniversary"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 2,
-          "day": 25
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "EDSA People Power Revolution Anniversary — Philippines",
-        "it": "EDSA People Power Revolution Anniversary — Philippines",
-        "es": "EDSA People Power Revolution Anniversary — Philippines",
-        "fr": "EDSA People Power Revolution Anniversary — Philippines",
-        "de": "EDSA People Power Revolution Anniversary — Philippines",
-        "pt": "EDSA People Power Revolution Anniversary — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
-      "id": "ph-w13-araw-ng-kagitingan",
-      "country": "PH",
-      "canonicalTitleEn": "Araw ng Kagitingan — Philippines",
-      "aliases": [
-        "Araw ng Kagitingan"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 4,
-          "day": 9
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "Araw ng Kagitingan — Philippines",
-        "it": "Araw ng Kagitingan — Philippines",
-        "es": "Araw ng Kagitingan — Philippines",
-        "fr": "Araw ng Kagitingan — Philippines",
-        "de": "Araw ng Kagitingan — Philippines",
-        "pt": "Araw ng Kagitingan — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
-      "id": "ph-w13-philippine-independence-day",
-      "country": "PH",
-      "canonicalTitleEn": "Philippine Independence Day — Philippines",
-      "aliases": [
-        "Philippine Independence Day"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 6,
-          "day": 12
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "Philippine Independence Day — Philippines",
-        "it": "Philippine Independence Day — Philippines",
-        "es": "Philippine Independence Day — Philippines",
-        "fr": "Philippine Independence Day — Philippines",
-        "de": "Philippine Independence Day — Philippines",
-        "pt": "Philippine Independence Day — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
-      "id": "ph-w13-ninoy-aquino-day",
-      "country": "PH",
-      "canonicalTitleEn": "Ninoy Aquino Day — Philippines",
-      "aliases": [
-        "Ninoy Aquino Day"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 8,
-          "day": 21
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "Ninoy Aquino Day — Philippines",
-        "it": "Ninoy Aquino Day — Philippines",
-        "es": "Ninoy Aquino Day — Philippines",
-        "fr": "Ninoy Aquino Day — Philippines",
-        "de": "Ninoy Aquino Day — Philippines",
-        "pt": "Ninoy Aquino Day — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
-      "id": "ph-w13-bonifacio-day",
-      "country": "PH",
-      "canonicalTitleEn": "Bonifacio Day — Philippines",
-      "aliases": [
-        "Bonifacio Day"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 11,
-          "day": 30
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "Bonifacio Day — Philippines",
-        "it": "Bonifacio Day — Philippines",
-        "es": "Bonifacio Day — Philippines",
-        "fr": "Bonifacio Day — Philippines",
-        "de": "Bonifacio Day — Philippines",
-        "pt": "Bonifacio Day — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
-      "id": "ph-w13-rizal-day",
-      "country": "PH",
-      "canonicalTitleEn": "Rizal Day — Philippines",
-      "aliases": [
-        "Rizal Day"
-      ],
-      "periodKind": "DAY",
-      "recurrenceRules": [
-        {
-          "kind": "FIXED_DATE",
-          "month": 12,
-          "day": 30
-        }
-      ],
-      "scope": "NATIONAL",
-      "authority": "National Commission for Culture and the Arts of the Philippines",
-      "authorityType": "GOVERNMENT",
-      "officiality": "OFFICIAL_INSTITUTIONAL",
-      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
-      "sourceTier": "A_PRIMARY",
-      "sourceReviewedOn": "2026-11-11",
-      "subject": "CULTURE",
-      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
-      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
-      "proposedIntroducedYear": null,
-      "introducedYearSource": null,
-      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
-      "localizedTitles": {
-        "en": "Rizal Day — Philippines",
-        "it": "Rizal Day — Philippines",
-        "es": "Rizal Day — Philippines",
-        "fr": "Rizal Day — Philippines",
-        "de": "Rizal Day — Philippines",
-        "pt": "Rizal Day — Philippines"
-      },
-      "chronologyNote": "The Philippine National Commission for Culture and the Arts lists this period or date among the country's recurring observances. The entry is a nationally indexed cultural calendar item and does not automatically establish statutory non-working holiday status.",
-      "dateRationale": "This month, fixed period or annual day is explicitly enumerated by the Philippine national cultural commission; the range is annual and sourced to its calendar, not inferred from a 2026 one-off."
-    },
-    {
       "id": "be-w13-eures-flemish-holiday",
       "country": "BE",
       "canonicalTitleEn": "Flemish Holiday — Belgium",
@@ -4000,6 +3766,280 @@
       },
       "chronologyNote": "The European Commission's EURES public-holidays calendar identifies this observance as a public-holiday entry for the specified country in 2026. A distinct country-level record denotes jurisdictional calendar treatment, not a newly invented international observance or independent certification of national statute.",
       "dateRationale": "The European Commission EURES calendar supplies the observed fixed date in 2026. The underlying annual commemoration is treated as recurring, although substitute days and country-level legislative changes require later verification."
+    },
+    {
+      "id": "ph-w13-unknown-citizens-day",
+      "country": "PH",
+      "canonicalTitleEn": "Unknown Citizens' Day — Philippines",
+      "aliases": [
+        "Unknown Citizens' Day"
+      ],
+      "periodKind": "DAY",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 1,
+          "weekday": 7,
+          "occurrence": 2
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "Unknown Citizens' Day — Philippines",
+        "it": "Unknown Citizens' Day — Philippines",
+        "es": "Unknown Citizens' Day — Philippines",
+        "fr": "Unknown Citizens' Day — Philippines",
+        "de": "Unknown Citizens' Day — Philippines",
+        "pt": "Unknown Citizens' Day — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    },
+    {
+      "id": "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+      "aliases": [
+        "Day of Sanctity and Protection of Human Life (Philippines)"
+      ],
+      "periodKind": "DAY",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 1,
+          "weekday": 7,
+          "occurrence": 3
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "it": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "es": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "fr": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "de": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "pt": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    },
+    {
+      "id": "ph-w13-children-s-day-philippines-january",
+      "country": "PH",
+      "canonicalTitleEn": "Children's Day (Philippines, January) — Philippines",
+      "aliases": [
+        "Children's Day (Philippines, January)"
+      ],
+      "periodKind": "DAY",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 1,
+          "weekday": 7,
+          "occurrence": 3
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "Children's Day (Philippines, January) — Philippines",
+        "it": "Children's Day (Philippines, January) — Philippines",
+        "es": "Children's Day (Philippines, January) — Philippines",
+        "fr": "Children's Day (Philippines, January) — Philippines",
+        "de": "Children's Day (Philippines, January) — Philippines",
+        "pt": "Children's Day (Philippines, January) — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    },
+    {
+      "id": "ph-w13-conflict-resolution-day-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Conflict Resolution Day (Philippines) — Philippines",
+      "aliases": [
+        "Conflict Resolution Day (Philippines)"
+      ],
+      "periodKind": "DAY",
+      "recurrenceRules": [
+        {
+          "kind": "NTH_WEEKDAY",
+          "month": 10,
+          "weekday": 4,
+          "occurrence": 3
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "Conflict Resolution Day (Philippines) — Philippines",
+        "it": "Conflict Resolution Day (Philippines) — Philippines",
+        "es": "Conflict Resolution Day (Philippines) — Philippines",
+        "fr": "Conflict Resolution Day (Philippines) — Philippines",
+        "de": "Conflict Resolution Day (Philippines) — Philippines",
+        "pt": "Conflict Resolution Day (Philippines) — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    },
+    {
+      "id": "ph-w13-edsa-people-power-commemoration-week",
+      "country": "PH",
+      "canonicalTitleEn": "EDSA People Power Commemoration Week — Philippines",
+      "aliases": [
+        "EDSA People Power Commemoration Week"
+      ],
+      "periodKind": "WEEK",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_RANGE",
+          "startMonth": 2,
+          "startDay": 22,
+          "endMonth": 2,
+          "endDay": 25
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "EDSA People Power Commemoration Week — Philippines",
+        "it": "EDSA People Power Commemoration Week — Philippines",
+        "es": "EDSA People Power Commemoration Week — Philippines",
+        "fr": "EDSA People Power Commemoration Week — Philippines",
+        "de": "EDSA People Power Commemoration Week — Philippines",
+        "pt": "EDSA People Power Commemoration Week — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    },
+    {
+      "id": "ph-w13-unesco-iti-world-theater-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+      "aliases": [
+        "UNESCO–ITI World Theater Week (Philippines)"
+      ],
+      "periodKind": "WEEK",
+      "recurrenceRules": [
+        {
+          "kind": "FIXED_RANGE",
+          "startMonth": 3,
+          "startDay": 21,
+          "endMonth": 3,
+          "endDay": 27
+        }
+      ],
+      "scope": "NATIONAL",
+      "authority": "National Commission for Culture and the Arts of the Philippines",
+      "authorityType": "GOVERNMENT",
+      "officiality": "OFFICIAL_INSTITUTIONAL",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "sourceTier": "A_PRIMARY",
+      "sourceReviewedOn": "2026-11-11",
+      "subject": "CULTURE",
+      "holidayClassification": "NCCA_INDEXED_NATIONAL_CULTURAL_MONTH_WEEK_OR_DAY_NOT_INFERRED_PAID_HOLIDAY",
+      "humanEditorialStatus": "INDEXED_STUB_NO_LONG_FORM",
+      "proposedIntroducedYear": null,
+      "introducedYearSource": null,
+      "titleTranslationStatus": "ENGLISH_FALLBACK_NATIVE_REVIEW_PENDING",
+      "localizedTitles": {
+        "en": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "it": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "es": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "fr": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "de": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "pt": "UNESCO–ITI World Theater Week (Philippines) — Philippines"
+      },
+      "chronologyNote": "The Philippine National Commission for Culture and the Arts identifies this commemorative day or week with its recurring day-of-week or fixed calendar period, drawing on an indexed official cultural calendar. The listing does not independently prove a statutory non-working public holiday.",
+      "dateRationale": "The cultural commission indexes this named annual period or movable observance; its recurrence has been encoded explicitly rather than inventing a fixed annual date."
+    }
+  ],
+  "duplicatesRemovedFromOriginalDraft": [
+    {
+      "id": "ph-w13-edsa-people-power-revolution-anniversary",
+      "title": "EDSA People Power Revolution Anniversary — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
+    },
+    {
+      "id": "ph-w13-araw-ng-kagitingan",
+      "title": "Araw ng Kagitingan — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
+    },
+    {
+      "id": "ph-w13-philippine-independence-day",
+      "title": "Philippine Independence Day — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
+    },
+    {
+      "id": "ph-w13-ninoy-aquino-day",
+      "title": "Ninoy Aquino Day — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
+    },
+    {
+      "id": "ph-w13-bonifacio-day",
+      "title": "Bonifacio Day — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
+    },
+    {
+      "id": "ph-w13-rizal-day",
+      "title": "Rizal Day — Philippines",
+      "reason": "Already present in pre-Wave13 Philippine national catalog, exact-title or semantically equivalent national day"
     }
   ]
 }
