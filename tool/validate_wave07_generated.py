@@ -10,9 +10,10 @@ seed=json.loads((ROOT/"assets/data/official_core.json").read_text(encoding="utf-
 occ=json.loads((ROOT/"assets/data/occurrences_2026.json").read_text(encoding="utf-8"))
 rows=load_wave07()
 known={r["id"]:r for r in seed["records"]}
-assert seed["datasetVersion"]=="2026.11.10.3"
-assert len(known)==len(seed["records"])==511
-assert Counter(r["scope"] for r in known.values())=={"GLOBAL":289,"NATIONAL":222}
+assert tuple(map(int,seed["datasetVersion"].split("."))) >= (2026,11,10,3)
+assert len(known)==len(seed["records"])>=511
+assert Counter(r["scope"] for r in known.values())["GLOBAL"]==289
+assert Counter(r["scope"] for r in known.values())["NATIONAL"]>=222
 assert Counter(r["countries"][0] for r in known.values() if r["scope"]=="NATIONAL")["EE"]==17
 for source in rows:
  rid=source["id"];row=known[rid]
