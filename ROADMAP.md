@@ -1,5 +1,20 @@
 # World Days — Active roadmap
 
+## Wave09 — 73 verified-source national record admissions; 100-item canonical growth
+
+- [x] Source 73 national civic/memorial/flag days from six first-party government or institution-maintained registers.
+- [x] Stage 23 Slovak, 18 Czech, 13 Polish, 9 Swedish, 5 Norwegian and 5 Finnish identities; no cross-wave ID/title collisions.
+- [x] Add deterministic 2026–2029 date validation; support Finnish Midsummer's weekday-on/after June 20 and third Sunday of May.
+- [x] Add officiality/source tier distinction: Finnish University Almanac Office originator records versus government statutory observances.
+- [x] Extend all Python and Flutter market-count, dataset and content-pack gates; preserve 27 already merged Canadian records.
+- [ ] Exact-head CI, review correction and protected PR merge to reach **611** canonical identities.
+- [ ] **Mandatory translation debt**: 73 EN fallbacks in five non-English title locales; source English is not certified native translation.
+- [ ] Complete source-reviewed long-form stories and authoritative introduction years separately from new ID admission.
+- [ ] After Wave09 merge **389 additional distinct records** remain for target 1,000. Next work must be a **100-source-verified-record batch**, not several 7–30 entry batches.
+
+No APK, signing, Android physical QA, billing or Play publishing.
+
+
 ## Wave08 — Canada 27 actual canonical admissions; parallel discovery batch 100
 
 - [x] Build separate 27-entry Canadian Heritage national civic catalog packet, six title locales and supported annual dates
