@@ -13,7 +13,8 @@ assert cat["datasetVersion"]=="2026.11.11.6"
 assert len(cat["records"])==len(by_id)==1111
 assert Counter(r["scope"] for r in by_id.values())=={"GLOBAL":289,"NATIONAL":822}
 markets=Counter(r["countries"][0] for r in by_id.values() if r["scope"]=="NATIONAL")
-assert len(markets)==192
+assert len(markets)==193
+assert markets['DK']==3
 assert markets["PH"]==244
 new=load_wave13()
 assert len(new)==100
