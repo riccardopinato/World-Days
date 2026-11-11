@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-09",
+  "baseCatalogCount": 456,
+  "kind": "SOURCE_CONFIRMED_COUNTRY_DATE_AND_SUBJECT_DUPLICATES",
+  "outcome": "RESEARCH_DUPLICATE_DO_NOT_ADMIT",
+  "reviewedCount": 7,
+  "records": [
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Freedom Day",
+      "country": "ZA",
+      "existingId": "za-freedom-day",
+      "canonicalTitle": "Freedom Day — South Africa",
+      "occurrence2026": "2026-04-27",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Youth Day",
+      "country": "ZA",
+      "existingId": "za-youth-day",
+      "canonicalTitle": "Youth Day — South Africa",
+      "occurrence2026": "2026-06-16",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa National Women's Day",
+      "country": "ZA",
+      "existingId": "za-national-womens-day",
+      "canonicalTitle": "National Women's Day — South Africa",
+      "occurrence2026": "2026-08-09",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave05_canada_south_africa_additional_20261109.json",
+      "candidateTitle": "South Africa Heritage Day",
+      "country": "ZA",
+      "existingId": "za-heritage-day",
+      "canonicalTitle": "Heritage Day — South Africa",
+      "occurrence2026": "2026-09-24",
+      "primaryUrl": "https://www.gov.za/about-sa/public-holidays",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "South Africa's official government calendar uses the same event title (country prefix/suffix only), 2026 date and statutory commemoration; canonical ID already in Wave04."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Araw ng Kagitingan",
+      "country": "PH",
+      "existingId": "ph-day-of-valor",
+      "canonicalTitle": "Araw ng Kagitingan — Day of Valor — Philippines",
+      "occurrence2026": "2026-04-09",
+      "primaryUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "The Filipino name Araw ng Kagitingan is the same legal commemoration as Day of Valor, the same 9 April 2026 observance in the Philippine presidential proclamation."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Philippine Independence Day",
+      "country": "PH",
+      "existingId": "ph-independence-day",
+      "canonicalTitle": "Independence Day — Philippines",
+      "occurrence2026": "2026-06-12",
+      "primaryUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Philippine Independence Day and Independence Day — Philippines are the same national celebration on 12 June 2026, listed once in the presidential proclamation."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "Memorial Day (South Korea)",
+      "country": "KR",
+      "existingId": "kr-memorial-day",
+      "canonicalTitle": "National Memorial Day — South Korea",
+      "occurrence2026": "2026-06-06",
+      "primaryUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Korean National Memorial Day and Memorial Day (South Korea) refer to the same national commemoration observed on 6 June 2026."
+    }
+  ]
+}

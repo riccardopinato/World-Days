@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "wave05-canada-government-research-intake-2026-11-09",
+  "candidateOnly": true,
+  "sourceRegister": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+  "candidateCount": 12,
+  "disclaimer": "These are source-grounded candidates, not certified unique additions; must reconcile against all 456 IDs and aliases. A government calendar is not itself evidence of a legislative proclamation. Source links are primary government/parliamentary sites. No runtime integration.",
+  "records": [
+    {
+      "id": "ca-national-day-of-remembrance-for-victims-of-air-disasters",
+      "canonicalTitleEn": "National Day of Remembrance for Victims of Air Disasters",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 8
+      },
+      "primarySource": "https://laws.justice.gc.ca/eng/regulations/SI-2021-2/page-1.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "PROCLAMATION",
+      "proclamationOrEnactmentYear": 2020,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Canadian statutory proclamation, annual 8 January"
+    },
+    {
+      "id": "ca-sir-john-a-macdonald-day",
+      "canonicalTitleEn": "Sir John A. Macdonald Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 11
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/sir-john-macdonald-day.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "ACT",
+      "proclamationOrEnactmentYear": 2002,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Canadian Heritage cites act entering into force March 2002"
+    },
+    {
+      "id": "ca-national-day-of-remembrance-of-the-quebec-city-mosque-attack-and-action-against-islamophobia",
+      "canonicalTitleEn": "National Day of Remembrance of the Quebec City Mosque Attack and Action against Islamophobia",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 29
+      },
+      "primarySource": "https://laws-lois.justice.gc.ca/eng/regulations/SI-2021-17/page-1.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "PROCLAMATION",
+      "proclamationOrEnactmentYear": 2021,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Annual 29 January; official statutory instrument"
+    },
+    {
+      "id": "ca-national-indigenous-languages-day",
+      "canonicalTitleEn": "National Indigenous Languages Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 3,
+        "day": 31
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Government calendar date; establishment year unverified"
+    },
+    {
+      "id": "ca-anniversary-of-the-battle-of-vimy-ridge",
+      "canonicalTitleEn": "Anniversary of the Battle of Vimy Ridge",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 4,
+        "day": 9
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Government calendar date; distinguish commemoration from event year"
+    },
+    {
+      "id": "ca-armenian-genocide-remembrance-day-canada",
+      "canonicalTitleEn": "Armenian Genocide Remembrance Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 4,
+        "day": 24
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Canadian commemorative calendar; scope and legal basis require review"
+    },
+    {
+      "id": "ca-canadian-multiculturalism-day",
+      "canonicalTitleEn": "Canadian Multiculturalism Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 6,
+        "day": 27
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Government calendar; founding year not verified"
+    },
+    {
+      "id": "ca-national-acadian-day",
+      "canonicalTitleEn": "National Acadian Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 8,
+        "day": 15
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Government calendar; do not confuse with global observances"
+    },
+    {
+      "id": "ca-british-home-child-day",
+      "canonicalTitleEn": "British Home Child Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 9,
+        "day": 28
+      },
+      "primarySource": "https://www.ourcommons.ca/members/en/guy-lauzon(25516)/motions/8853980",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "HOUSE_MOTION",
+      "proclamationOrEnactmentYear": 2018,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "House of Commons motion agreed 7 February 2018; distinguish motion from statute"
+    },
+    {
+      "id": "ca-persons-day-canada",
+      "canonicalTitleEn": "Persons Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 10,
+        "day": 18
+      },
+      "primarySource": "https://women-gender-equality.canada.ca/en/commemorations-celebrations/womens-history-month/persons-day.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "1929 is historical Persons Case, NOT assumed introduction year"
+    },
+    {
+      "id": "ca-indigenous-veterans-day-canada",
+      "canonicalTitleEn": "Indigenous Veterans Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 8
+      },
+      "primarySource": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "GOVERNMENT_CALENDAR",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "Government calendar; separate from Remembrance Day 11 Nov"
+    },
+    {
+      "id": "ca-national-day-of-remembrance-and-action-on-violence-against-women-canada",
+      "canonicalTitleEn": "National Day of Remembrance and Action on Violence Against Women (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 12,
+        "day": 6
+      },
+      "primarySource": "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/16-days/national-day-remembrance.html",
+      "sourceAuthority": "Government of Canada / Parliament of Canada",
+      "sourceBasis": "PARLIAMENTARY_DESIGNATION",
+      "proclamationOrEnactmentYear": null,
+      "introducedYear": null,
+      "introducedYearStatus": "NOT_VERIFIED_FOR_RUNTIME",
+      "duplicateReview": "PENDING_FULL_456_RECORD_SEMANTIC_MATCH",
+      "localizationStatus": "PENDING_SIX_LANGUAGES",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY",
+      "notes": "6 December is memorial day; 1989 is tragedy year, not designation year"
+    }
+  ]
+}

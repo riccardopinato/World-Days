@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-09",
+  "purpose": "Audit-trail of direct per-event 2026 dates from authoritative government online calendars; URLs are not independent sources when derived from one governmental schedule.",
+  "recordCount": 17,
+  "records": [
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Victory over Genocide Day",
+      "country": "KH",
+      "occurrence2026": "2026-01-07",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-01-07",
+          "displayedEvent": "Day of Victory over the Genocidal Regime",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-01-07",
+          "displayedEvent": "Victory Day over Genocide",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Khmer New Year",
+      "country": "KH",
+      "occurrence2026": "2026-04-14",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-04-14",
+          "displayedEvent": "Khmer New Year's Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-04-14",
+          "displayedEvent": "Khmer New Year",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Royal Ploughing Ceremony (Cambodia)",
+      "country": "KH",
+      "occurrence2026": "2026-05-05",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-05",
+          "displayedEvent": "Royal Ploughing Ceremony",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-05",
+          "displayedEvent": "Royal Ploughing Ceremony",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "King Norodom Sihamoni's Birthday",
+      "country": "KH",
+      "occurrence2026": "2026-05-14",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-14",
+          "displayedEvent": "Birthday of His Majesty",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-14",
+          "displayedEvent": "King Norodom Sihamoni’s Birthday",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Queen Mother Norodom Monineath Sihanouk's Birthday",
+      "country": "KH",
+      "occurrence2026": "2026-06-18",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-06-18",
+          "displayedEvent": "Birthday of Her Majesty the Queen-Mother",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-06-18",
+          "displayedEvent": "Queen Mother Norodom Monineath Sihanouk’s Birthday",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Constitution Day (Cambodia)",
+      "country": "KH",
+      "occurrence2026": "2026-09-24",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-09-24",
+          "displayedEvent": "Constitution Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-09-24",
+          "displayedEvent": "Constitutional Day",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Pchum Ben",
+      "country": "KH",
+      "occurrence2026": "2026-10-10",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-10",
+          "displayedEvent": "Pchum Ben Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-10",
+          "displayedEvent": "Pchum Ben Festival",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "King Father Norodom Sihanouk Commemoration Day",
+      "country": "KH",
+      "occurrence2026": "2026-10-15",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-15",
+          "displayedEvent": "Mourning Day of the Late King-Father",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-15",
+          "displayedEvent": "Commemoration Day of the King Father",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "King Norodom Sihamoni Coronation Day",
+      "country": "KH",
+      "occurrence2026": "2026-10-29",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-29",
+          "displayedEvent": "Coronation Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-10-29",
+          "displayedEvent": "King Norodom Sihamoni’s Coronation Day",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Independence Day (Cambodia)",
+      "country": "KH",
+      "occurrence2026": "2026-11-09",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-09",
+          "displayedEvent": "National Independence Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-09",
+          "displayedEvent": "National Independence Day",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Bon Om Touk Water Festival",
+      "country": "KH",
+      "occurrence2026": "2026-11-23",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-23",
+          "displayedEvent": "Water Festival",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-23",
+          "displayedEvent": "Water Festival (Bon Om Touk)",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave09_asia_cambodia_vietnam_2026.json",
+      "title": "Peace Day in Cambodia",
+      "country": "KH",
+      "occurrence2026": "2026-12-29",
+      "attestations": [
+        {
+          "url": "https://www.nbc.gov.kh/english/news_and_events/official_holiday.php",
+          "publisher": "National Bank of Cambodia",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-12-29",
+          "displayedEvent": "Peace Day in Cambodia",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://lrc.gov.kh/en/annual-holiday-calendar-2026/",
+          "publisher": "Cambodia Law Reform Commission",
+          "documentOrigin": "cambodia-public-holiday-2026-official-schedule",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-12-29",
+          "displayedEvent": "Peace Day in Cambodia",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave07_asia_th_kr_sg_2026.json",
+      "title": "Chinese New Year (Singapore)",
+      "country": "SG",
+      "occurrence2026": "2026-02-17",
+      "attestations": [
+        {
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+          "publisher": "Singapore Ministry of Manpower",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-02-17",
+          "displayedEvent": "Chinese New Year",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://data.gov.sg/datasets?resultId=d_149b61ad0a22f61c09dc80f2df5bbec8&sort=updatedAt",
+          "publisher": "Singapore Government Open Data (MOM dataset)",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-02-17",
+          "displayedEvent": "Chinese New Year",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave07_asia_th_kr_sg_2026.json",
+      "title": "Hari Raya Puasa (Singapore)",
+      "country": "SG",
+      "occurrence2026": "2026-03-21",
+      "attestations": [
+        {
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+          "publisher": "Singapore Ministry of Manpower",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-03-21",
+          "displayedEvent": "Hari Raya Puasa",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://data.gov.sg/datasets?resultId=d_149b61ad0a22f61c09dc80f2df5bbec8&sort=updatedAt",
+          "publisher": "Singapore Government Open Data (MOM dataset)",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-03-21",
+          "displayedEvent": "Hari Raya Puasa",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://www.muis.gov.sg/resources/media-releases/announcement-by-mufti-for-the-month-of-syawal-1447h-2026-for-singapore/",
+          "publisher": "Islamic Religious Council of Singapore (MUIS)",
+          "documentOrigin": "muis-official-mufti-announcement-syawal-1447",
+          "authorityClass": "PRIMARY_ORIGINATOR",
+          "reportedDate": "2026-03-21",
+          "displayedEvent": "Mufti of Singapore confirms first day of Syawal on Saturday 21 March 2026",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave07_asia_th_kr_sg_2026.json",
+      "title": "Hari Raya Haji (Singapore)",
+      "country": "SG",
+      "occurrence2026": "2026-05-27",
+      "attestations": [
+        {
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+          "publisher": "Singapore Ministry of Manpower",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-27",
+          "displayedEvent": "Hari Raya Haji",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://data.gov.sg/datasets?resultId=d_149b61ad0a22f61c09dc80f2df5bbec8&sort=updatedAt",
+          "publisher": "Singapore Government Open Data (MOM dataset)",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-27",
+          "displayedEvent": "Hari Raya Haji",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://www.muis.gov.sg/resources/media-releases/prayer-arrangement-for-hari-raya-aidiladha-2026-1447h/",
+          "publisher": "Islamic Religious Council of Singapore (MUIS)",
+          "documentOrigin": "muis-official-aidiladha-2026-prayer-announcement",
+          "authorityClass": "PRIMARY_ORIGINATOR",
+          "reportedDate": "2026-05-27",
+          "displayedEvent": "MUIS confirms Hari Raya Aidiladha will be observed Wednesday 27 May 2026",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave07_asia_th_kr_sg_2026.json",
+      "title": "Vesak Day (Singapore)",
+      "country": "SG",
+      "occurrence2026": "2026-05-31",
+      "attestations": [
+        {
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+          "publisher": "Singapore Ministry of Manpower",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-31",
+          "displayedEvent": "Vesak Day",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://data.gov.sg/datasets?resultId=d_149b61ad0a22f61c09dc80f2df5bbec8&sort=updatedAt",
+          "publisher": "Singapore Government Open Data (MOM dataset)",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-05-31",
+          "displayedEvent": "Vesak Day",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "researchFile": "wave07_asia_th_kr_sg_2026.json",
+      "title": "Deepavali (Singapore)",
+      "country": "SG",
+      "occurrence2026": "2026-11-08",
+      "attestations": [
+        {
+          "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+          "publisher": "Singapore Ministry of Manpower",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-08",
+          "displayedEvent": "Deepavali",
+          "checkedOn": "2026-11-09"
+        },
+        {
+          "url": "https://data.gov.sg/datasets?resultId=d_149b61ad0a22f61c09dc80f2df5bbec8&sort=updatedAt",
+          "publisher": "Singapore Government Open Data (MOM dataset)",
+          "documentOrigin": "singapore-mom-2026-holiday-register",
+          "authorityClass": "PRIMARY_GOVERNMENT",
+          "reportedDate": "2026-11-08",
+          "displayedEvent": "Deepavali",
+          "checkedOn": "2026-11-09"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "Calendar dates only, not unique identity, multi-year recurrence, editorial localization or runtime admission. Singapore Eid dates may remain subject to confirmation. MUIS official 2026 post-observation announcements independently confirm 21 March Hari Raya Puasa and 27 May Hari Raya Haji; the earlier MOM list marked both as subject to confirmation."
+}
