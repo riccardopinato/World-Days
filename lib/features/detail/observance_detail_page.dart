@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import '../../app/app_controller.dart';
+import '../../data/origin_review_repository.dart';
 import '../../core/market_options.dart';
 import '../../core/visual/observance_visuals.dart';
 import '../../core/widgets/world_days_share_card.dart';
@@ -128,6 +129,11 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
             record: record,
             localeCode: localeCode,
             l10n: l10n,
+          ),
+          const SizedBox(height: 18),
+          _OriginResearchPanel(
+            observanceId: record.id,
+            localeCode: localeCode,
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
@@ -541,6 +547,114 @@ class _ActionCard extends StatelessWidget {
               Expanded(child: Text(text)),
             ],
           ),
+        ),
+      );
+}
+
+/// Additional primary-sourced historical depth, entirely offline.
+/// The rest of the catalog retains the existing accurate 'research pending'
+/// presentation rather than receiving fabricated auto-generated histories.
+class _OriginResearchPanel extends StatelessWidget {
+  const _OriginResearchPanel({
+    required this.observanceId,
+    required this.localeCode,
+  });
+
+  final String observanceId;
+  final String localeCode;
+
+  @override
+  Widget build(BuildContext context) => FutureBuilder<Map<String, Map<String, dynamic>>>(
+        future: OriginReviewRepository.load(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) return const SizedBox.shrink();
+          final entry = snapshot.data![observanceId];
+          if (entry == null ||
+              entry['originResearchStatus'] != 'PRIMARY_RESEARCHED_ORIGIN_IT_EN') {
+            return const SizedBox.shrink();
+          }
+          final research = entry['primaryResearch'];
+          if (research is! Map) return const SizedBox.shrink();
+          final locales = research['locale'];
+          if (locales is! Map) return const SizedBox.shrink();
+          final italian = localeCode.toLowerCase() == 'it';
+          final content = locales[italian ? 'it' : 'en'];
+          if (content is! Map) return const SizedBox.shrink();
+          final facts = (content['facts'] as List? ?? const <dynamic>[])
+              .map((item) => item.toString())
+              .toList(growable: false);
+          final titles = italian
+              ? <String>['Come è nata', 'Chi l’ha istituita', 'Perché esiste', 'Da sapere']
+              : <String>['How it began', 'Who established it', 'Why it exists', 'Worth knowing'];
+          final sources = (research['sourceUrls'] as List? ?? const <dynamic>[])
+              .map((item) => item.toString())
+              .toList(growable: false);
+          return Card(
+            child: Padding(
+              padding: const EdgeInsets.all(18),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    content['heading'].toString(),
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                  if (!italian && localeCode.toLowerCase() != 'en') ...[
+                    const SizedBox(height: 8),
+                    const Text('Additional history is currently available in English.'),
+                  ],
+                  const SizedBox(height: 14),
+                  _OriginResearchParagraph(title: titles[0], body: content['origin'].toString()),
+                  _OriginResearchParagraph(title: titles[1], body: content['promoter'].toString()),
+                  _OriginResearchParagraph(title: titles[2], body: content['purpose'].toString()),
+                  Text(titles[3], style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 8),
+                  for (final fact in facts)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 8),
+                      child: Text('• $fact'),
+                    ),
+                  const SizedBox(height: 8),
+                  Text(
+                    italian ? 'Fonti della ricostruzione storica' : 'Historical research sources',
+                    style: Theme.of(context).textTheme.titleSmall,
+                  ),
+                  for (final url in sources)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 6),
+                      child: SelectableText(
+                        url,
+                        style: TextStyle(color: Theme.of(context).colorScheme.primary),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          );
+        },
+      );
+}
+
+class _OriginResearchParagraph extends StatelessWidget {
+  const _OriginResearchParagraph({required this.title, required this.body});
+
+  final String title;
+  final String body;
+
+  @override
+  Widget build(BuildContext context) => Padding(
+        padding: const EdgeInsets.only(bottom: 14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(title, style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w700,
+                )),
+            const SizedBox(height: 6),
+            Text(body, style: Theme.of(context).textTheme.bodyMedium?.copyWith(height: 1.45)),
+          ],
         ),
       );
 }
