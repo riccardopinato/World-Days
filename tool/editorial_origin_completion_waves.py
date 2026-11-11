@@ -111,9 +111,9 @@ def build():
     pending = set(by_id) - certified_origin_ids
     first = build_first_100()
     first_ids = [d["observanceId"] for d in first["dossiers"]]
-    # Preserve the original first 100 as wave 001; never reassign any of them
-    # within this catalog snapshot. Future catalog expansion is re-audited.
-    assert len(first_ids) == 100 and len(set(first_ids)) == 100
+    # Preserve the first Wave100 selection where available. It becomes
+    # partial or empty near the end of the catalog-wide research queue.
+    assert 0 <= len(first_ids) <= 100 and len(set(first_ids)) == len(first_ids)
     assert set(first_ids) <= pending
 
     remaining = sorted((by_id[oid] for oid in pending - set(first_ids)),
