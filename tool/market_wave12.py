@@ -21,7 +21,7 @@ def load_wave12():
  assert d["datasetId"]=="world-days-wave12-dfat-156-countries-20261111"
  assert d["count"]==d["countryCount"]==len(d["records"])==len(d["countries"])==156
  assert d["source"]==DFAT and d["sourceReviewedOn"]=="2026-11-11"
- assert d["sourceRole"]=="GOVERNMENT_DIPLOMATIC_PROTOCOL_NOT_NATIONAL_STATUTORY_LAW"
+ assert d["sourceRole"]=="GOVERNMENT_RECOGNIZED_DIPLOMATIC_PROTOCOL_NATIONAL_DAYS_NOT_NATIONAL_STATUTORY_LAW"
  assert {x["country"] for x in d["records"]}=={c["code"] for c in d["countries"]}
  assert len({r["id"] for r in d["records"]})==156
  assert len({r["canonicalTitleEn"] for r in d["records"]})==156
@@ -32,7 +32,7 @@ def load_wave12():
   assert rid==code.lower()+"-dfat-national-day"
   assert r["source"]==DFAT and r["sourceTier"]=="A_PRIMARY"
   assert r["authorityType"]=="GOVERNMENT"
-  assert r["officiality"]=="OFFICIAL_INSTITUTIONAL"
+  assert r["officiality"]=="RECOGNIZED_INSTITUTIONAL"
   assert r["holidayClassification"]=="AUSTRALIAN_DIPLOMATIC_PROTOCOL_NATIONAL_DAY_NOT_INDEPENDENTLY_VERIFIED_STATUTORY_HOLIDAY"
   assert r["sourceReviewedOn"]=="2026-11-11"
   assert r["proposedIntroducedYear"] is None and r["introducedYearSource"] is None
