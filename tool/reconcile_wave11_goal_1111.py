@@ -20,7 +20,7 @@ def event_identity(v):
  return action,norm(x)
 def main():
  data=json.loads(INPUT.read_text(encoding="utf-8"))
- prior=[r for r in all_expansion_rows() if r["country"]=="PH"]
+ prior=[r for r in all_expansion_rows() if r["country"]=="PH" and not r["id"].startswith("ph-w11-")]
  pairs=[]
  for row in data["records"]:
   rule=row["recurrenceRules"][0]
