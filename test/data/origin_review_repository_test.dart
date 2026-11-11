@@ -34,7 +34,8 @@ void main() {
       final r = research as Map;
       expect((r['sourceUrls'] as List).isNotEmpty, isTrue);
       expect((r['locale'] as Map).keys.toSet(), containsAll({'it', 'en'}));
-      expect((r['locale'] as Map).keys.toSet(), isSubsetOf({'it','en','es','fr','de','pt'}));
+      expect({'it', 'en', 'es', 'fr', 'de', 'pt'}
+          .containsAll((r['locale'] as Map).keys), isTrue);
       expect(entry['editorialTranslationStatus'],
           'IT_EN_RESEARCHED_OTHERS_FALLBACK_EN');
     }
