@@ -1,92 +1,340 @@
 {
   "schemaVersion": 1,
-  "batchId": "ORIGIN-WAVE05-UN-OCEANS-20261112",
+  "batchId": "ORIGIN-WAVE05-NINE-AUDITED-OF-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 1,
-  "sourcePolicy": "Primary UN, UNESCO IOC and originator historical sources. EN/IT source-reviewed; ES/FR/DE/PT drafts pending native review.",
+  "count": 9,
+  "sourcePolicy": "Nine individually researched origin histories converted from 100 original IT/EN drafts. Sources are original UNESCO/CIPSH and UN mandate/institutional records. Unknown founder/anniversary details explicitly unasserted, no human editorial/language signoff and no six-language promotion.",
   "records": [
     {
-      "observanceId": "world-oceans-day",
+      "observanceId": "world-logic-day",
       "sources": [
-        "https://www.un.org/depts/los/reference_files/worldoceansday.htm",
-        "https://unworldoceansday.org/about/",
-        "https://iocaribe.ioc-unesco.org/fr/node/722",
-        "https://worldoceanday.org/about/mission-history/"
+        "https://www.unesco.org/en/days/world-logic",
+        "https://wld.cipsh.international/background.html",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000372579"
       ],
-      "introducedYear": 2008,
-      "firstObservedYear": 2009,
+      "introducedYear": 2019,
+      "firstObservedYear": 2019,
       "locale": {
         "en": {
-          "heading": "Why 8 June became a day for the ocean",
-          "origin": "World Oceans Day has two different beginnings. At the 1992 Global Forum alongside the Rio Earth Summit, an Oceans Day event organized by the Oceans Institute of Canada helped establish 8 June as a day to speak for the sea. Civil-society celebrations continued before the United Nations General Assembly formally designated 8 June as World Oceans Day in resolution 63/111, adopted in December 2008. The first observance under the UN designation followed in 2009. The date therefore recalls the earlier Rio event rather than the day the UN resolution was adopted.",
-          "promoter": "The 1992 event was organized by the Oceans Institute of Canada with Canadian government support. Canada led the 2008 UN designation; the UN General Assembly adopted the resolution. The Ocean Project and World Ocean Network also campaigned for international recognition.",
-          "purpose": "The day draws attention to the ocean's contribution to climate, food, livelihoods and biodiversity, and to the shared responsibility to protect marine ecosystems and use ocean resources sustainably.",
+          "heading": "Why 14 January celebrates the power of logical thinking",
+          "origin": "Logic has been explored by different civilizations for centuries, but its international observance has a precise modern history. On 26 November 2019, UNESCO's 40th General Conference adopted Resolution 38, proclaiming 14 January World Logic Day in association with the International Council for Philosophy and Human Sciences (CIPSH). The international coordinating organization explains the unusual date: Alfred Tarski, a central figure in modern logic, was born on 14 January 1901; Kurt Gödel, whose work transformed mathematical logic, died on 14 January 1978. The day was celebrated internationally before the UNESCO proclamation, so the official 2019 designation was not the beginning of the discipline or its first informal commemoration.",
+          "promoter": "UNESCO's General Conference proclaimed the day with CIPSH as its institutional partner; CIPSH and its relevant member organizations coordinate celebrations. The date remembers Tarski and Gödel, neither of whom established the UNESCO observance.",
+          "purpose": "Help schools, universities and the wider public understand how reasoning, proof and critical argument inform mathematics, philosophy, science, computing and productive public discussion.",
           "facts": [
-            "The original 8 June 1992 Oceans Day event took place at the Global Forum alongside the Rio Earth Summit.",
-            "Resolution 63/111 designated 8 June as World Oceans Day for UN observance beginning in 2009.",
-            "The first UN observance in 2009 used the theme Our Oceans, Our Responsibility.",
-            "The 2017 UN Ocean Conference included a World Oceans Day event on 8 June."
+            "14 January connects Alfred Tarski's birth in 1901 and Kurt Gödel's death in 1978; both are milestones associated with the history of logic.",
+            "UNESCO proclaimed the observance in 2019 in association with CIPSH; its official resolution is 40 C/Resolution 38, not Resolution 39.",
+            "The CIPSH history describes 14 January 2020 as the second World Logic Day, showing that the celebration predates formal UNESCO recognition.",
+            "Logic reaches beyond academic philosophy into computer science, mathematical proof and methods for evaluating arguments."
           ]
         },
         "it": {
-          "heading": "Perché l'8 giugno è dedicato agli oceani",
-          "origin": "La Giornata mondiale degli oceani ha due inizi distinti. L'8 giugno 1992, durante il Global Forum collegato al Vertice della Terra di Rio, un evento organizzato dall'Oceans Institute of Canada contribuì a dare voce al mare. Le celebrazioni della società civile proseguirono negli anni successivi. Solo nel dicembre 2008 l'Assemblea generale delle Nazioni Unite adottò la risoluzione 63/111, designando ufficialmente l'8 giugno come Giornata mondiale degli oceani. La prima ricorrenza sotto l'egida ONU si svolse nel 2009. La data richiama quindi l'iniziativa di Rio, non il giorno in cui fu approvata la risoluzione.",
-          "promoter": "L'evento del 1992 fu organizzato dall'Oceans Institute of Canada con il sostegno del governo canadese. Il Canada guidò l'iniziativa ONU del 2008 e l'Assemblea generale adottò la risoluzione. Anche The Ocean Project e World Ocean Network sostennero il riconoscimento internazionale.",
-          "purpose": "La giornata invita a conoscere il ruolo degli oceani per clima, alimentazione, lavoro e biodiversità, e a condividere la responsabilità di proteggere gli ecosistemi marini e utilizzare le risorse in modo sostenibile.",
+          "heading": "Perché il 14 gennaio celebra la logica e due grandi studiosi",
+          "origin": "La logica attraversa da secoli culture, filosofia, matematica e scienza, ma l'origine della sua giornata internazionale è recente. Il 26 novembre 2019 la 40ª Conferenza generale UNESCO adottò la risoluzione 38, proclamando il 14 gennaio Giornata mondiale della logica in collaborazione con il Consiglio internazionale per la filosofia e le scienze umane (CIPSH). La scelta della data ha una spiegazione documentata dal CIPSH: Alfred Tarski, figura fondamentale della logica moderna, nacque il 14 gennaio 1901, mentre Kurt Gödel morì il 14 gennaio 1978. La ricorrenza esisteva già prima della proclamazione UNESCO: il 2019 riguarda il riconoscimento internazionale, non la nascita della disciplina.",
+          "promoter": "La Conferenza generale UNESCO adottò la proclamazione insieme al partner istituzionale CIPSH, che coordina le celebrazioni con le proprie organizzazioni aderenti. Tarski e Gödel sono ricordati dalla scelta della data, ma non furono i promotori dell'atto del 2019.",
+          "purpose": "Rendere comprensibile a scuole, università e cittadini il valore di ragionamento, dimostrazione e confronto critico per matematica, filosofia, scienza, informatica e dibattito pubblico.",
           "facts": [
-            "Il primo evento Oceans Day dell'8 giugno 1992 si tenne al Global Forum, in parallelo al Vertice della Terra di Rio.",
-            "La risoluzione ONU 63/111 stabilì l'8 giugno come ricorrenza ufficiale a partire dal 2009.",
-            "La prima edizione ONU del 2009 ebbe come tema Our Oceans, Our Responsibility.",
-            "La Conferenza ONU sugli oceani del 2017 ospitò un evento dedicato alla giornata l'8 giugno."
-          ]
-        },
-        "es": {
-          "heading": "Por qué el 8 de junio está dedicado a los océanos",
-          "origin": "El Día Mundial de los Océanos tiene dos comienzos diferentes. El 8 de junio de 1992, durante el Foro Global paralelo a la Cumbre de la Tierra de Río, un encuentro organizado por el Oceans Institute of Canada impulsó esta fecha. Las celebraciones de la sociedad civil continuaron hasta que, en diciembre de 2008, la Asamblea General de la ONU adoptó la resolución 63/111 y designó oficialmente el 8 de junio. La primera conmemoración de la ONU tuvo lugar en 2009. La fecha recuerda el encuentro de Río, no la aprobación de la resolución.",
-          "promoter": "El Oceans Institute of Canada organizó el encuentro de 1992 con apoyo del Gobierno canadiense. Canadá impulsó la designación de 2008 y la Asamblea General de la ONU la aprobó.",
-          "purpose": "Destacar la importancia del océano para el clima, la alimentación, los medios de vida y la biodiversidad, y promover su protección y uso sostenible.",
-          "facts": [
-            "El encuentro inicial tuvo lugar el 8 de junio de 1992 en el Foro Global de Río.",
-            "La resolución 63/111 estableció la celebración oficial de la ONU a partir de 2009.",
-            "El lema de la primera celebración de la ONU fue Our Oceans, Our Responsibility."
-          ]
-        },
-        "fr": {
-          "heading": "Pourquoi le 8 juin est consacré aux océans",
-          "origin": "La Journée mondiale de l'océan possède deux origines distinctes. Le 8 juin 1992, au Forum mondial organisé parallèlement au Sommet de la Terre de Rio, une rencontre de l'Oceans Institute of Canada a contribué à faire connaître cette date. Les initiatives citoyennes ont continué jusqu'à ce que l'Assemblée générale des Nations unies adopte, en décembre 2008, la résolution 63/111 désignant officiellement le 8 juin. La première célébration sous l'égide de l'ONU a eu lieu en 2009. La date rappelle donc l'événement de Rio et non le vote de la résolution.",
-          "promoter": "L'Oceans Institute of Canada a organisé la rencontre de 1992 avec le soutien du gouvernement canadien. Le Canada a porté la désignation de 2008, adoptée par l'Assemblée générale des Nations unies.",
-          "purpose": "Faire connaître le rôle de l'océan pour le climat, l'alimentation, les activités humaines et la biodiversité, et encourager sa protection durable.",
-          "facts": [
-            "La rencontre initiale s'est tenue le 8 juin 1992 au Forum mondial de Rio.",
-            "La résolution 63/111 a établi la célébration officielle de l'ONU à partir de 2009.",
-            "Le thème de la première édition de l'ONU était Our Oceans, Our Responsibility."
-          ]
-        },
-        "de": {
-          "heading": "Warum der 8. Juni den Ozeanen gewidmet ist",
-          "origin": "Der Welttag der Ozeane hat zwei unterschiedliche Anfänge. Am 8. Juni 1992 machte eine Veranstaltung des Oceans Institute of Canada beim Global Forum am Rande des Erdgipfels in Rio auf die Meere aufmerksam. Zivilgesellschaftliche Aktionen setzten sich fort, bis die UN-Generalversammlung im Dezember 2008 mit Resolution 63/111 den 8. Juni offiziell zum Welttag der Ozeane erklärte. Die erste UN-Begehung fand 2009 statt. Das Datum erinnert somit an die Veranstaltung in Rio und nicht an den Beschluss von 2008.",
-          "promoter": "Das Oceans Institute of Canada organisierte die Veranstaltung 1992 mit Unterstützung der kanadischen Regierung. Kanada trieb die UN-Anerkennung 2008 voran; die Generalversammlung verabschiedete die Resolution.",
-          "purpose": "Auf die Bedeutung der Ozeane für Klima, Ernährung, Lebensgrundlagen und Artenvielfalt aufmerksam machen und ihren nachhaltigen Schutz fördern.",
-          "facts": [
-            "Die frühe Veranstaltung fand am 8. Juni 1992 beim Global Forum in Rio statt.",
-            "Resolution 63/111 legte die offizielle UN-Begehung ab 2009 fest.",
-            "Das Motto der ersten UN-Begehung lautete Our Oceans, Our Responsibility."
-          ]
-        },
-        "pt": {
-          "heading": "Por que 8 de junho é dedicado aos oceanos",
-          "origin": "O Dia Mundial dos Oceanos tem duas origens distintas. Em 8 de junho de 1992, durante o Fórum Global paralelo à Cúpula da Terra no Rio de Janeiro, um evento organizado pelo Oceans Institute of Canada ajudou a divulgar a data. As comemorações da sociedade civil continuaram até que, em dezembro de 2008, a Assembleia Geral da ONU aprovou a resolução 63/111, designando oficialmente o dia 8 de junho. A primeira celebração da ONU ocorreu em 2009. A data recorda, portanto, o evento no Rio, não a votação da resolução.",
-          "promoter": "O Oceans Institute of Canada organizou o evento de 1992 com apoio do governo canadense. O Canadá liderou a iniciativa de 2008, adotada pela Assembleia Geral da ONU.",
-          "purpose": "Destacar a importância do oceano para o clima, a alimentação, os meios de subsistência e a biodiversidade, incentivando a sua proteção e utilização sustentável.",
-          "facts": [
-            "O evento inicial ocorreu em 8 de junho de 1992 no Fórum Global do Rio.",
-            "A resolução 63/111 estabeleceu a celebração oficial da ONU a partir de 2009.",
-            "O tema da primeira edição da ONU foi Our Oceans, Our Responsibility."
+            "Il 14 gennaio unisce due ricorrenze: la nascita di Alfred Tarski nel 1901 e la morte di Kurt Gödel nel 1978.",
+            "La risoluzione UNESCO corretta è la 40 C/38 del 2019, non la 40 C/39 riportata precedentemente nel catalogo.",
+            "La documentazione CIPSH definisce il 14 gennaio 2020 la seconda Giornata mondiale della logica, precedente quindi al riconoscimento UNESCO.",
+            "La logica è fondamentale non soltanto per la filosofia, ma anche per dimostrazioni matematiche, informatica e valutazione degli argomenti."
           ]
         }
       },
-      "sourceReviewNote": "EN/IT fact-checked against UN Division for Ocean Affairs and the Law of the Sea, UNESCO IOC and UN World Oceans Day organizer history. ES/FR/DE/PT are editorial drafts requiring independent native linguistic review; not certified translations."
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #1. Institutional act: UNESCO 40 C/Resolution 38 (corrected from erroneous 39). Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "world-day-for-african-and-afrodescendant-culture",
+      "sources": [
+        "https://www.unesco.org/en/days/african-culture",
+        "https://www.unesco.org/en/articles/world-day-african-and-afro-descendant-culture"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Why 24 January links African cultures to a continental charter",
+          "origin": "African and Afrodescendant cultures are not a single tradition: languages, arts, knowledge and living practices connect communities across Africa and its diasporas. UNESCO made that diversity the focus of a distinct observance at the 40th session of its General Conference in 2019. The date, 24 January, is not random. It marks the adoption in 2006 of the Charter for African Cultural Renaissance by African Union Heads of State and Government. The UNESCO observance therefore recalls an earlier African-led cultural policy milestone, while encouraging States to ratify and implement the Charter rather than treating culture as a decorative afterthought.",
+          "promoter": "UNESCO's General Conference instituted the annual day in 2019. The African Union Heads of State and Government had adopted the 2006 Charter it commemorates; the cited UNESCO pages do not establish a single individual founder.",
+          "purpose": "Promote the diversity of cultures of the African continent and Afrodescendant communities as living heritage and as a foundation for sustainable development, mutual respect, dialogue and peace.",
+          "facts": [
+            "24 January commemorates adoption of the Charter for African Cultural Renaissance by African Union leaders in 2006.",
+            "UNESCO adopted the world day in 2019, thirteen years after the original African Union cultural-policy milestone.",
+            "The day includes the cultures of African diasporas and Afrodescendant communities around the world, not only those on the African continent.",
+            "UNESCO associates the observance with increasing ratification and implementation of the Charter by African States."
+          ]
+        },
+        "it": {
+          "heading": "Il 24 gennaio unisce culture africane e una Carta del 2006",
+          "origin": "Le culture africane e afrodiscendenti non costituiscono una tradizione unica: lingue, arti e saperi si intrecciano tra il continente e le diaspore. L'UNESCO dedicò a questa pluralità una giornata specifica durante la 40ª Conferenza generale nel 2019. Il 24 gennaio non è una scelta casuale: ricorda il giorno in cui, nel 2006, i capi di Stato e di governo dell'Unione Africana adottarono la Carta per il Rinascimento culturale africano. La ricorrenza UNESCO richiama dunque un precedente passaggio politico e culturale promosso dall'Africa, invitando gli Stati a ratificare e applicare la Carta.",
+          "promoter": "La Conferenza generale UNESCO istituì la giornata nel 2019. I capi di Stato e di governo dell'Unione Africana adottarono invece la Carta del 2006 ricordata dalla data; le fonti UNESCO non documentano un singolo ideatore della ricorrenza.",
+          "purpose": "Valorizzare la diversità delle culture africane e afrodiscendenti come patrimonio vivo e risorsa per sviluppo sostenibile, rispetto reciproco, dialogo e pace.",
+          "facts": [
+            "Il 24 gennaio ricorda l'adozione della Carta per il Rinascimento culturale africano da parte dei leader dell'Unione Africana nel 2006.",
+            "La giornata UNESCO fu istituita nel 2019, tredici anni dopo il passaggio culturale dell'Unione Africana.",
+            "La ricorrenza riguarda anche le diaspore e le comunità afrodiscendenti in tutto il mondo, non soltanto gli Stati africani.",
+            "L'UNESCO collega la giornata alla ratifica e all'attuazione della Carta per il Rinascimento culturale africano."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #2. Institutional act: 40 C/Resolution 50. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "international-day-of-peaceful-coexistence",
+      "sources": [
+        "https://www.un.org/en/observances/peaceful-coexistence-day",
+        "https://mandates.un.org/mandate/A/RES/79/269"
+      ],
+      "introducedYear": 2025,
+      "firstObservedYear": 2026,
+      "locale": {
+        "en": {
+          "heading": "A new United Nations day born from an older culture-of-peace effort",
+          "origin": "Peaceful coexistence does not mean that different groups must abandon their languages, beliefs or convictions. It means handling differences without discrimination or violence. The United Nations gave this principle a specific annual day on 4 March 2025, when the General Assembly adopted resolution A/RES/79/269 designating 28 January. The resolution draws on the UN's earlier Declaration and Programme of Action on a Culture of Peace and recalls the separate 2017 decision establishing the International Day of Living Together in Peace. The first 28 January after its adoption was in 2026: the 2025 establishment and the annual calendar date are different milestones.",
+          "promoter": "The United Nations General Assembly formally established this day in 2025; the resolution invites Member States and civil society to participate. The official sources reviewed do not establish one individual proposer or a historical anniversary explaining exactly 28 January.",
+          "purpose": "Encourage tolerance, human rights, respectful dialogue and international cooperation to prevent conflict while recognizing the diversity of cultures, religions and convictions.",
+          "facts": [
+            "The General Assembly adopted A/RES/79/269 on 4 March 2025, setting 28 January as the annual day.",
+            "The first scheduled annual date after the 2025 declaration was 28 January 2026.",
+            "The 2025 resolution cites older United Nations efforts toward a culture of peace, not a newly invented definition of peace.",
+            "The resolution is distinct from the 2017 declaration of the International Day of Living Together in Peace on 16 May."
+          ]
+        },
+        "it": {
+          "heading": "Una nuova giornata ONU nata dal percorso per la cultura di pace",
+          "origin": "Coesistere pacificamente non significa rinunciare a lingue, convinzioni o culture diverse, ma affrontare le differenze senza discriminazioni e violenze. Il 4 marzo 2025 l'Assemblea generale ONU adottò la risoluzione A/RES/79/269, proclamando il 28 gennaio Giornata internazionale della coesistenza pacifica. Il testo richiama la Dichiarazione e il Programma d'azione ONU per una cultura di pace e ricorda la diversa giornata del vivere insieme in pace istituita nel 2017. Il primo 28 gennaio successivo alla proclamazione fu nel 2026: istituzione e data di celebrazione sono quindi momenti differenti.",
+          "promoter": "L'Assemblea generale ONU istituì formalmente la ricorrenza nel 2025 e invitò Stati e società civile a celebrarla. Le fonti consultate non identificano un unico proponente né un anniversario storico che spieghi precisamente la scelta del 28 gennaio.",
+          "purpose": "Sostenere tolleranza, diritti umani, dialogo rispettoso e cooperazione internazionale per prevenire conflitti riconoscendo diversità culturali, religiose e sociali.",
+          "facts": [
+            "La risoluzione A/RES/79/269 fu adottata il 4 marzo 2025 e indica il 28 gennaio come data annuale.",
+            "La prima ricorrenza annuale successiva alla proclamazione cade il 28 gennaio 2026.",
+            "La risoluzione si collega a precedenti iniziative ONU per una cultura di pace e non definisce la pace come semplice assenza di guerre.",
+            "La giornata è distinta da quella del vivere insieme in pace, celebrata il 16 maggio e istituita nel 2017."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #3. Institutional act: A/RES/79/269. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "international-day-of-human-fraternity",
+      "sources": [
+        "https://www.un.org/en/observances/human-fraternity",
+        "https://www.un.org/en/observances/international-day-human-fraternity",
+        "https://mandates.un.org/mandate/A/RES/75/200"
+      ],
+      "introducedYear": 2020,
+      "firstObservedYear": 2021,
+      "locale": {
+        "en": {
+          "heading": "From the Abu Dhabi declaration to a day of human fraternity",
+          "origin": "The International Day of Human Fraternity was born from a specific encounter, not an ancient global custom. On 4 February 2019, Pope Francis and the Grand Imam of Al-Azhar, Ahmad al-Tayyib, signed a document on human fraternity, world peace and living together in Abu Dhabi. The United Nations General Assembly later adopted resolution 75/200 on 21 December 2020, proclaiming 4 February as an annual observance beginning in 2021. Choosing that date directly recalls the 2019 signing. The international day is therefore different from the original meeting, while keeping dialogue across religious and cultural differences at its center.",
+          "promoter": "The United Nations General Assembly proclaimed the observance in 2020. Pope Francis and Grand Imam Ahmad al-Tayyib signed the 2019 document commemorated by its date; they are participants in the origin event, not the formal adopting UN organ.",
+          "purpose": "Promote equal human dignity, interreligious and intercultural dialogue, tolerance, inclusion and solidarity across differences in belief and background.",
+          "facts": [
+            "4 February commemorates the signing of the human-fraternity document in Abu Dhabi in 2019.",
+            "Pope Francis and the Grand Imam of Al-Azhar, Ahmad al-Tayyib, signed the original 2019 document.",
+            "The United Nations General Assembly proclaimed the international day on 21 December 2020 through A/RES/75/200.",
+            "The resolution specified annual observance beginning in 2021, rather than retroactively calling the 2019 meeting a UN day."
+          ]
+        },
+        "it": {
+          "heading": "Da Abu Dhabi a una giornata dedicata alla fratellanza umana",
+          "origin": "La Giornata internazionale della fratellanza umana nasce da un incontro documentato, non da un'antica festa universale. Il 4 febbraio 2019 papa Francesco e il Grande Imam di Al-Azhar, Ahmad al-Tayyib, firmarono ad Abu Dhabi un documento sulla fratellanza umana per la pace mondiale e la convivenza comune. Il 21 dicembre 2020 l'Assemblea generale ONU approvò la risoluzione 75/200, proclamando il 4 febbraio come giornata annuale a partire dal 2021. La data richiama direttamente la firma del 2019. Il documento, l'atto ONU e la prima celebrazione ufficiale rimangono tre tappe distinte.",
+          "promoter": "L'Assemblea generale ONU istituì la giornata nel 2020. Papa Francesco e Ahmad al-Tayyib firmarono il documento del 2019 commemorato dalla data: sono protagonisti dell'evento originario, non l'organo che adottò formalmente la ricorrenza ONU.",
+          "purpose": "Promuovere pari dignità, dialogo interreligioso e interculturale, tolleranza, inclusione e solidarietà tra persone di convinzioni e origini diverse.",
+          "facts": [
+            "Il 4 febbraio ricorda la firma del documento sulla fratellanza umana ad Abu Dhabi nel 2019.",
+            "I firmatari del documento erano papa Francesco e il Grande Imam di Al-Azhar, Ahmad al-Tayyib.",
+            "La proclamazione ONU avvenne il 21 dicembre 2020 mediante la risoluzione A/RES/75/200.",
+            "La stessa risoluzione stabilì che la celebrazione annuale iniziasse dal 2021, non dal giorno della firma del 2019."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #4. Institutional act: A/RES/75/200. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "world-pulses-day",
+      "sources": [
+        "https://www.un.org/en/node/226413",
+        "https://www.un.org/en/ga/73/resolutions.shtml",
+        "https://www.un.org/en/ga/second/73/proposals.shtml"
+      ],
+      "introducedYear": 2018,
+      "firstObservedYear": 2019,
+      "locale": {
+        "en": {
+          "heading": "From the International Year of Pulses to a permanent food day",
+          "origin": "Beans, lentils, chickpeas and peas are present in many food traditions, but their international day grew from a modern agricultural campaign. The UN General Assembly designated 2016 as the International Year of Pulses in 2013, with FAO leading public awareness about nutrition and sustainable production. Following that effort, Burkina Faso proposed a permanent World Pulses Day. The General Assembly adopted resolution A/RES/73/251 on 20 December 2018, selecting 10 February as the annual date. The first observance took place in 2019. The UN's background page loosely refers to a 2019 proclamation, but its recorded 2018 resolution date is the formal adoption year.",
+          "promoter": "Burkina Faso submitted the World Pulses Day proposal through the UN Second Committee, supported by other Member States. The UN General Assembly adopted it; FAO had coordinated the earlier International Year of Pulses and supports promotion of pulses.",
+          "purpose": "Increase awareness of the nutritional, agricultural and environmental role of pulses in food security and resilient food systems, connecting everyday meals to farmers and sustainable production.",
+          "facts": [
+            "The United Nations established an International Year of Pulses for 2016 before creating the permanent world day.",
+            "Burkina Faso put forward the draft, and the UN General Assembly adopted A/RES/73/251 on 20 December 2018.",
+            "World Pulses Day is set for 10 February each year and was first observed after the adoption in 2019.",
+            "Pulses include beans, lentils and chickpeas; their value extends to nutrition and farming systems, not merely recipes."
+          ]
+        },
+        "it": {
+          "heading": "Dall'Anno internazionale dei legumi a una ricorrenza permanente",
+          "origin": "Fagioli, lenticchie, ceci e piselli appartengono a tradizioni alimentari molto antiche, ma la loro giornata mondiale nasce da una campagna agricola recente. Nel 2013 l'Assemblea generale ONU proclamò il 2016 Anno internazionale dei legumi, affidando alla FAO un ruolo importante nella sensibilizzazione su alimentazione e produzione sostenibile. Dopo quell'esperienza, il Burkina Faso propose una ricorrenza permanente. L'Assemblea generale adottò la risoluzione A/RES/73/251 il 20 dicembre 2018, fissandola al 10 febbraio. La prima celebrazione seguì nel 2019. L'anno formale è il 2018, benché una pagina ONU riepilogativa collochi genericamente la proclamazione nel 2019.",
+          "promoter": "Il Burkina Faso presentò il progetto alle Nazioni Unite con il sostegno di altri Stati. L'Assemblea generale adottò la risoluzione; la FAO aveva coordinato l'Anno internazionale dei legumi e contribuisce alla valorizzazione di queste colture.",
+          "purpose": "Far conoscere il valore nutrizionale, agricolo e ambientale dei legumi per sicurezza alimentare e sistemi produttivi resilienti, collegando cucina quotidiana, agricoltori e sostenibilità.",
+          "facts": [
+            "L'ONU dedicò il 2016 ai legumi prima di istituire una giornata mondiale annuale.",
+            "Il Burkina Faso promosse il progetto e l'Assemblea generale adottò A/RES/73/251 il 20 dicembre 2018.",
+            "La data annuale è il 10 febbraio; la prima celebrazione successiva all'istituzione risale al 2019.",
+            "Tra i legumi secchi rientrano fagioli, lenticchie e ceci, importanti per alimentazione e sistemi agricoli."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #6. Institutional act: A/RES/73/251. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "international-day-of-the-arabian-leopard",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/295",
+        "https://www.un.org/en/observances/international-day-arabian-leopard",
+        "https://digitallibrary.un.org/record/4013440?ln=en"
+      ],
+      "introducedYear": 2023,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Why a rare Arabian predator gained a UN day",
+          "origin": "The Arabian leopard is a rare predator whose future depends on the conservation of habitats and prey across the Arabian Peninsula. In June 2023 the United Nations General Assembly adopted resolution A/RES/77/295 proclaiming 10 February the International Day of the Arabian Leopard. The adopted text calls for international and regional cooperation and identifies the animal as important to the peninsula's ecosystems. The decision also invites the United Nations Environment Programme to help facilitate observances. The resolution documents the annual date but does not identify a separate historic anniversary that explains precisely why 10 February was selected.",
+          "promoter": "The United Nations General Assembly proclaimed the day in 2023 and invited UNEP to facilitate its observance. The particular individual or proposing government behind the original idea is not established by the institutional sources cited here.",
+          "purpose": "Draw international attention to the protection of the Arabian leopard, its habitats and the ecological networks needed for a threatened large predator to survive.",
+          "facts": [
+            "UN General Assembly resolution A/RES/77/295 was adopted in June 2023 and designated 10 February for the Arabian leopard.",
+            "The adopted resolution specifically invites the United Nations Environment Programme to facilitate the annual day.",
+            "The text calls for international and regional cooperation to conserve the leopard across the Arabian Peninsula.",
+            "The resolution states the date but does not itself give a verified commemorative anniversary explaining the choice of 10 February."
+          ]
+        },
+        "it": {
+          "heading": "Perché un raro predatore arabo ha ottenuto una giornata ONU",
+          "origin": "Il leopardo arabico è un predatore raro la cui sopravvivenza dipende dalla tutela degli habitat e delle prede nella Penisola arabica. Nel giugno 2023 l'Assemblea generale ONU adottò la risoluzione A/RES/77/295, proclamando il 10 febbraio Giornata internazionale del leopardo arabico. Il documento chiede cooperazione internazionale e regionale, riconoscendo l'importanza dell'animale per gli ecosistemi della regione. Invita inoltre il Programma ONU per l'ambiente a facilitare la celebrazione. La risoluzione stabilisce la data annuale, ma non prova un anniversario storico preciso alla base del 10 febbraio.",
+          "promoter": "L'Assemblea generale ONU proclamò la giornata nel 2023 e invitò il Programma ONU per l'ambiente (UNEP) a facilitarla. Le fonti istituzionali consultate non consentono di attribuire con certezza la proposta originale a una persona o a uno Stato.",
+          "purpose": "Richiamare l'attenzione sulla protezione del leopardo arabico, dei suoi habitat e delle reti ecologiche necessarie alla sopravvivenza di un grande predatore minacciato.",
+          "facts": [
+            "La risoluzione A/RES/77/295 fu adottata nel giugno 2023 e dedicò il 10 febbraio al leopardo arabico.",
+            "La decisione invita esplicitamente il Programma ONU per l'ambiente (UNEP) a facilitare la celebrazione.",
+            "Il testo richiede collaborazione internazionale e regionale per tutelare la specie nella Penisola arabica.",
+            "Il documento indica la data del 10 febbraio senza dimostrarne uno specifico anniversario commemorativo."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #7. Institutional act: A/RES/77/295. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "international-day-of-women-and-girls-in-science",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/70/212",
+        "https://www.un.org/en/observances/women-and-girls-in-science-day",
+        "https://www.un.org/en/node/163596"
+      ],
+      "introducedYear": 2015,
+      "firstObservedYear": 2016,
+      "locale": {
+        "en": {
+          "heading": "From barriers in science to an international February observance",
+          "origin": "Women's scientific contributions stretch back far beyond the date of this observance, while access to research careers has often been unequal. On 22 December 2015, the United Nations General Assembly adopted resolution A/RES/70/212 declaring 11 February the International Day of Women and Girls in Science. Its first annual celebration took place in 2016. The resolution explicitly invites UNESCO and UN Women to cooperate on implementation and calls on schools, research institutions, Member States and civil society to remove barriers to full participation. The day is about access, recognition and opportunity; the resolution does not tie 11 February to one documented woman's scientific discovery.",
+          "promoter": "The UN General Assembly established the day in 2015. RASIT describes its role in facilitating and coordinating the observance; UNESCO and UN Women were expressly invited by the resolution to collaborate on implementation.",
+          "purpose": "Improve access to scientific education and careers for women and girls, increase the visibility of their contributions, and challenge legal, social and economic obstacles to equal participation.",
+          "facts": [
+            "Resolution A/RES/70/212 was adopted on 22 December 2015, designating 11 February as the annual science day.",
+            "The first international observance followed on 11 February 2016.",
+            "The General Assembly explicitly requested collaboration involving UNESCO and UN Women on activities for the day.",
+            "The resolution concerns equal participation in education, employment and scientific decision-making, not a single anniversary of an invention."
+          ]
+        },
+        "it": {
+          "heading": "Dalle barriere nella ricerca a una giornata ONU per la scienza",
+          "origin": "I contributi delle donne alla scienza hanno una storia ben più lunga della ricorrenza, mentre l'accesso alle carriere scientifiche è stato spesso diseguale. Il 22 dicembre 2015 l'Assemblea generale ONU adottò la risoluzione A/RES/70/212, proclamando l'11 febbraio Giornata internazionale delle donne e delle ragazze nella scienza. La prima celebrazione annuale seguì nel 2016. Il documento invita esplicitamente UNESCO e UN Women a cooperare e sollecita scuole, università, Stati e società civile a ridurre gli ostacoli alla piena partecipazione. Il testo non collega l'11 febbraio all'anniversario di una singola scoperta scientifica.",
+          "promoter": "L'Assemblea generale ONU istituì la giornata nel 2015. RASIT documenta il proprio ruolo nella promozione e nel coordinamento della ricorrenza; UNESCO e UN Women furono invitati dalla risoluzione a collaborare per realizzarla.",
+          "purpose": "Migliorare l'accesso di donne e ragazze a istruzione e carriere scientifiche, valorizzarne i contributi e contrastare ostacoli giuridici, economici e culturali alla partecipazione.",
+          "facts": [
+            "La risoluzione A/RES/70/212 fu adottata il 22 dicembre 2015 e fissò all'11 febbraio la ricorrenza annuale.",
+            "La prima celebrazione internazionale si svolse l'11 febbraio 2016.",
+            "La risoluzione invita esplicitamente UNESCO e UN Women a collaborare alle iniziative dedicate alla giornata.",
+            "Il provvedimento riguarda la partecipazione equa a formazione, lavoro e decisioni scientifiche, non l'anniversario di una scoperta."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #8. Institutional act: A/RES/70/212. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "international-day-for-the-prevention-of-violent-extremism-as-and-when-conducive-to-terrorism",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/243",
+        "https://digitallibrary.un.org/record/4000199?ln=en"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "The UN day that links preventing violence with education and rights",
+          "origin": "Violent extremism that can lead to terrorism is not solved by treating entire communities as suspects. On 20 December 2022, the UN General Assembly adopted resolution A/RES/77/243, designating 12 February as the International Day for the Prevention of Violent Extremism as and when Conducive to Terrorism. Its first scheduled annual observance was in 2023. The resolution emphasizes awareness, international cooperation and education involving governments, the UN system, civil society, academia and the media. It asks the UN Office of Counter-Terrorism to facilitate the day. No separate historical event is identified in this resolution as the reason for choosing 12 February.",
+          "promoter": "The United Nations General Assembly established the observance through resolution A/RES/77/243 in 2022; the UN Office of Counter-Terrorism was invited to facilitate implementation. The original individual proposer is not established by the cited public decision.",
+          "purpose": "Support evidence-based prevention of violent extremism that can contribute to terrorism through education, cross-border cooperation and respect for human rights.",
+          "facts": [
+            "The UN General Assembly adopted resolution A/RES/77/243 on 20 December 2022.",
+            "The decision designates 12 February for the annual observance and asks the UN Office of Counter-Terrorism to help facilitate it.",
+            "The resolution encourages awareness activities with educational institutions, media, civil society and other public and private stakeholders.",
+            "The adopted text does not document a separate historical anniversary motivating 12 February."
+          ]
+        },
+        "it": {
+          "heading": "Prevenire l'estremismo violento con istruzione e diritti",
+          "origin": "L'estremismo violento che può favorire il terrorismo non si affronta trattando intere comunità come sospette. Il 20 dicembre 2022 l'Assemblea generale ONU adottò la risoluzione A/RES/77/243, dedicando il 12 febbraio alla prevenzione dell'estremismo violento quando favorevole al terrorismo. La prima ricorrenza annuale successiva cadde nel 2023. Il documento sottolinea informazione, cooperazione internazionale e istruzione con il coinvolgimento di governi, sistema ONU, società civile, università e media. Chiede inoltre all'Ufficio ONU per l'antiterrorismo di facilitare la celebrazione. Non dimostra un evento storico preciso da cui derivi il 12 febbraio.",
+          "promoter": "La giornata fu istituita dall'Assemblea generale ONU nel 2022 tramite A/RES/77/243; all'Ufficio ONU per l'antiterrorismo fu chiesto di facilitarne la realizzazione. Le fonti non identificano un unico proponente personale.",
+          "purpose": "Sostenere una prevenzione dell'estremismo violento fondata su conoscenze affidabili, istruzione, collaborazione internazionale e rispetto dei diritti umani.",
+          "facts": [
+            "La risoluzione A/RES/77/243 fu adottata dall'Assemblea generale ONU il 20 dicembre 2022.",
+            "Il documento indica il 12 febbraio e invita l'Ufficio ONU per l'antiterrorismo a facilitarne la celebrazione.",
+            "La risoluzione promuove attività di sensibilizzazione con scuole, università, società civile, media e altre organizzazioni.",
+            "Il testo adottato non collega il 12 febbraio a uno specifico anniversario storico documentato."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #9. Institutional act: A/RES/77/243. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
+    },
+    {
+      "observanceId": "global-tourism-resilience-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/269",
+        "https://www.un.org/en/observances/tourism-resilience-day",
+        "https://digitallibrary.un.org/record/3999604"
+      ],
+      "introducedYear": 2023,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "How Jamaica helped turn tourism recovery into a global day",
+          "origin": "Tourism can connect communities, but floods, pandemics, conflict and economic disruption can also expose how vulnerable local livelihoods are. Jamaica and a group of Member States advanced a resolution for an annual observance in early 2023, following discussions about recovery from the COVID-19 crisis. On 6 February 2023, the UN General Assembly adopted resolution A/RES/77/269, designating 17 February as Global Tourism Resilience Day. The day encourages public-private cooperation and diversified tourism systems so that destinations can recover from shocks without neglecting environmental and social responsibility. The resolution specifies the date but does not prove an older commemorative anniversary behind 17 February.",
+          "promoter": "Jamaica introduced the draft on behalf of a core group of supporting UN Member States, as recorded in the original General Assembly documents; the Assembly adopted the resolution. UN Tourism is a partner in the resilience agenda, not the sole founding authority.",
+          "purpose": "Encourage tourism systems to prepare for, withstand and recover from disruptions while supporting sustainable livelihoods, communities and environmental protection.",
+          "facts": [
+            "The General Assembly proclaimed Global Tourism Resilience Day through resolution A/RES/77/269 in February 2023.",
+            "Jamaica introduced the draft on behalf of a wider group of Member States, rather than acting as a single individual founder.",
+            "The annual date is 17 February; the resolution emphasizes recovery strategies and public-private cooperation.",
+            "The UN's background material links tourism resilience to shocks such as pandemics, natural disasters and economic instability."
+          ]
+        },
+        "it": {
+          "heading": "Come la Giamaica ha portato la resilienza turistica all'ONU",
+          "origin": "Il turismo può collegare comunità e luoghi, ma alluvioni, pandemie, conflitti e crisi economiche mostrano quanto siano vulnerabili molti redditi locali. Dopo le discussioni sulla ripresa dalla pandemia, la Giamaica e un gruppo di Stati promossero una risoluzione per una ricorrenza annuale. Il 6 febbraio 2023 l'Assemblea generale ONU adottò A/RES/77/269, proclamando il 17 febbraio Giornata mondiale della resilienza del turismo. L'obiettivo è incoraggiare cooperazione tra pubblico e privato e sistemi turistici diversificati, capaci di reagire alle crisi rispettando comunità e ambiente. La risoluzione indica la data, ma non documenta un anniversario più antico legato al 17 febbraio.",
+          "promoter": "La Giamaica presentò il progetto a nome di un gruppo di Stati membri, secondo gli atti dell'Assemblea generale; quest'ultima adottò la decisione. UN Tourism contribuisce alle politiche di settore, ma non fu l'unico promotore della ricorrenza.",
+          "purpose": "Favorire un turismo capace di prepararsi, resistere e riprendersi dalle interruzioni, sostenendo lavoro, comunità locali e tutela dell'ambiente.",
+          "facts": [
+            "L'Assemblea generale ONU proclamò la giornata nel febbraio 2023 con la risoluzione A/RES/77/269.",
+            "La Giamaica presentò il progetto a nome di un gruppo di Stati, non come iniziativa di un singolo fondatore personale.",
+            "La data annuale è il 17 febbraio e il testo richiama strategie di ripresa e collaborazione tra istituzioni e imprese.",
+            "Le fonti ONU collegano la resilienza turistica a pandemie, calamità naturali e instabilità economica."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #10. Institutional act: A/RES/77/269. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT."
     }
   ]
 }

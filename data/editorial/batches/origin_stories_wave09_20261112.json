@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE09-WOMEN-JUDGES-ISLAMOPHOBIA-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 2,
+  "sourcePolicy": "Two original EN/IT stories individually grounded in UN primary records; unresolved proposer/date fields explicitly identified; no human native review or four additional locale approvals.",
+  "records": [
+    {
+      "observanceId": "international-day-of-women-judges",
+      "sources": [
+        "https://www.un.org/en/observances/women-judges-day",
+        "https://www.un.org/sustainabledevelopment/goal-of-the-month-editorial-march-2022/",
+        "https://digitallibrary.un.org/search?ln=en&p=A%2FRES%2F75%2F274",
+        "https://www.un.org/sg/en/content/highlight/2022-03-10.html"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": 2022,
+      "locale": {
+        "en": {
+          "heading": "Why the world marks women judges on 10 March",
+          "origin": "The UN General Assembly designated 10 March as the International Day of Women Judges through resolution A/RES/75/274 in 2021. The United Nations described the 2022 observance as the first International Day and UNODC announced its Women in Justice/For Justice initiative for that occasion. The UN observance explains why judicial representation matters, but the primary materials consulted do not establish why 10 March, rather than another date, was chosen. The original individual proposer has not been established here.",
+          "promoter": "United Nations General Assembly adopted the designation; original proposing state or person not individually verified.",
+          "purpose": "Promote women's full and equal participation in judicial institutions, including leadership, and strengthen fair, representative and accessible justice.",
+          "facts": [
+            "The General Assembly designated 10 March in resolution A/RES/75/274.",
+            "The United Nations described the March 2022 event as the first observance.",
+            "UNODC announced Women in Justice/For Justice to coincide with the first day.",
+            "The UN links women judges' representation to the legitimacy and accessibility of courts."
+          ]
+        },
+        "it": {
+          "heading": "Perché il 10 marzo si celebra la giornata delle donne giudici",
+          "origin": "L'Assemblea generale delle Nazioni Unite ha proclamato il 10 marzo Giornata internazionale delle donne giudici con la risoluzione A/RES/75/274 del 2021. Le Nazioni Unite hanno presentato la ricorrenza del 2022 come prima celebrazione e l'UNODC ha annunciato per l'occasione l'iniziativa Women in Justice/For Justice. La storia della presenza femminile nei tribunali precede naturalmente questa proclamazione: la giornata serve a riconoscere progressi e ostacoli ancora presenti. Le fonti consultate non chiariscono perché sia stato scelto precisamente il 10 marzo né identificano con certezza il primo proponente individuale.",
+          "promoter": "L'Assemblea generale ONU ha adottato la proclamazione; il Paese o la persona che presentò originariamente la proposta non è qui accertato.",
+          "purpose": "Favorire la partecipazione piena e paritaria delle donne nella magistratura e nei ruoli direttivi, per una giustizia più rappresentativa e accessibile.",
+          "facts": [
+            "La risoluzione A/RES/75/274 ha fissato la ricorrenza al 10 marzo.",
+            "L'ONU ha definito quella del marzo 2022 la prima celebrazione.",
+            "L'UNODC ha collegato alla prima giornata l'iniziativa Women in Justice/For Justice.",
+            "Secondo l'ONU, la presenza delle donne nei tribunali contribuisce alla legittimità e all'accessibilità della giustizia."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary UN observance and UN March 2022 editorial checked; 2021 formal designation vs 2022 first observance. Original sponsor and precise date rationale not verified. EN/IT AI-authored, no human review; ES/FR/DE/PT pending. Contemporaneous UN Secretary-General briefing on 10 March 2022 explicitly calls it the first International Day of Women Judges."
+    },
+    {
+      "observanceId": "international-day-to-combat-islamophobia",
+      "sources": [
+        "https://www.un.org/en/observances/anti-islamophobia-day",
+        "https://digitallibrary.un.org/record/3965353",
+        "https://webtv.un.org/en/asset/k1b/k1b5e0bu6t",
+        "https://turkiye.un.org/en/223089-un-observes-first-international-day-against-islamophobia",
+        "https://digitallibrary.un.org/nanna/record/4030568/files/A_78_591-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "15 March: remembering Christchurch and confronting anti-Muslim hatred",
+          "origin": "On 15 March 2022, the UN General Assembly adopted resolution A/RES/76/254 establishing the International Day to Combat Islamophobia. The date recalls the attacks on two mosques in Christchurch, New Zealand, on 15 March 2019. The UN identifies the initiative as supported by states of the Organization of Islamic Cooperation; the UN Digital Library preserves the original draft addendum and its named sponsors. UN reporting identifies the March 2023 commemoration as the first observance. The founding resolution must not be confused with the earlier tragedy or the subsequent 2024 measures resolution.",
+          "promoter": "The resolution was sponsored by member states of the Organization of Islamic Cooperation; the UN General Assembly formally adopted it.",
+          "purpose": "Oppose anti-Muslim hatred, stereotyping and discrimination while protecting freedom of religion, human rights and peaceful coexistence.",
+          "facts": [
+            "Resolution A/RES/76/254 was adopted on 15 March 2022.",
+            "15 March marks the anniversary of the 2019 Christchurch mosque attacks.",
+            "The UN Digital Library lists named co-sponsors in A/76/L.41/Add.1.",
+            "The UN reported its first international commemoration in March 2023."
+          ]
+        },
+        "it": {
+          "heading": "Il 15 marzo, dalla memoria di Christchurch alla lotta contro l'islamofobia",
+          "origin": "Il 15 marzo 2022 l'Assemblea generale ONU ha adottato la risoluzione A/RES/76/254, istituendo la Giornata internazionale contro l'islamofobia. La data richiama gli attacchi alle moschee di Christchurch, in Nuova Zelanda, avvenuti il 15 marzo 2019. La pagina ufficiale ONU attribuisce il sostegno alla proposta agli Stati membri dell'Organizzazione della cooperazione islamica, mentre la Biblioteca digitale ONU conserva il documento con i Paesi firmatari. La prima commemorazione internazionale è documentata nel marzo 2023: va distinta sia dall'evento tragico del 2019 sia dalle successive misure approvate nel 2024.",
+          "promoter": "Gli Stati membri dell'Organizzazione della cooperazione islamica sostennero la proposta; l'Assemblea generale ONU la adottò formalmente.",
+          "purpose": "Contrastare odio e discriminazione contro le persone musulmane, tutelando libertà religiosa, diritti umani e convivenza pacifica.",
+          "facts": [
+            "La risoluzione A/RES/76/254 è stata adottata il 15 marzo 2022.",
+            "Il 15 marzo ricorda gli attacchi alle moschee di Christchurch del 2019.",
+            "Il documento A/76/L.41/Add.1 identifica diversi Stati sostenitori della proposta.",
+            "L'ONU ha documentato la prima commemorazione internazionale nel marzo 2023."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary UN resolution record, UN observance, UN Web TV and UN 2023 report checked; formal designation 2022, first commemoration 2023, Christchurch date rationale documented. No human native review; ES/FR/DE/PT pending. UN A/78/591 explicitly records the first International Day commemoration in March 2023, convened by Pakistan."
+    }
+  ]
+}
