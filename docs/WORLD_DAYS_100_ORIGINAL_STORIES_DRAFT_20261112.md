@@ -1151,7 +1151,7 @@ Una piccola impresa può essere un laboratorio d'innovazione o un punto di rifer
 
 I Tropici comprendono ecosistemi, città e culture molto differenti. Foreste, barriere coralline e territori agricoli convivono con grandi sfide sociali e ambientali. La giornata invita a superare l'immagine turistica di queste regioni e a capire come biodiversità, sviluppo e cambiamenti climatici siano collegati.
 
-**Contesto istituzionale:** Il 14 giugno 2016 l'Assemblea generale ONU ha istituito la giornata con A/RES/70/267; il 29 giugno ricorda il primo State of the Tropics Report del 2014. La precedente attribuzione A/RES/71/279 era un errore del catalogo ed è stata corretta; questa versione rimane una bozza storica non approvata, con successore verificato in Wave19.
+**Contesto istituzionale:** La ricorrenza del 29 giugno è stata istituita dall'Assemblea generale ONU con A/RES/70/267, adottata il 14 giugno 2016. La data ricorda la pubblicazione, il 29 giugno 2014, del primo State of the Tropics Report, frutto della collaborazione di dodici istituzioni di ricerca. Questo è un riscontro correttivo dell'archivio: la versione precedente citava per errore A/RES/71/279, che riguarda invece le micro, piccole e medie imprese. La bozza resta non approvata; la storia source-researched è in Wave19.
 
 **Spiegazione:** La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.
 
