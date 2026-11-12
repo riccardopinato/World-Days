@@ -10,8 +10,8 @@
   "batchSizeLimit": 100,
   "recordCount": 100,
   "progress": {
-    "individuallyResearchedInThisBlock": 0,
-    "awaitingIndependentResearch": 100,
+    "individuallyResearchedInThisBlock": 20,
+    "awaitingIndependentResearch": 80,
     "blockedForMissingOriginalSource": 0,
     "qualifiedSixLocaleHumanReviewed": 0,
     "publishedAsRichEditorial": 0
@@ -32,15 +32,18 @@
       ],
       "titleEn": "African World Heritage Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/days/african-world-heritage",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000243325"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -56,15 +59,18 @@
       ],
       "titleEn": "Chinese Language Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://webtv.un.org/en/asset/k1y/k1yklg2iup",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -80,15 +86,18 @@
       ],
       "titleEn": "Day of the Seafarer",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
+      "firstObservedYearVerified": 2011,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.imo.org/en/mediacentre/meetingsummaries/pages/assembly-27th-session.aspx",
+        "https://www.imo.org/en/mediacentre/hottopics/pages/supporting-seafarers.aspx"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -104,15 +113,18 @@
       ],
       "titleEn": "Disarmament Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1978,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/disarmament-week/",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -128,15 +140,18 @@
       ],
       "titleEn": "English Language Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/english-language-day",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -152,15 +167,18 @@
       ],
       "titleEn": "French Language Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/french-language-day",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -176,15 +194,18 @@
       ],
       "titleEn": "Global Media and Information Literacy Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2021,
+      "firstObservedYearVerified": 2021,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/media-information-literacy-week",
+        "https://www.un.org/en/observances/global-media-and-information-literacy-week"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -248,15 +269,18 @@
       ],
       "titleEn": "International Day for the Conservation of the Mangrove Ecosystem",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/days/mangrove-ecosystem-conservation",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000243325"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -296,15 +320,18 @@
       ],
       "titleEn": "International Day of Cooperatives",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1992,
+      "firstObservedYearVerified": 1995,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://digitallibrary.un.org/record/158715",
+        "https://digitallibrary.un.org/record/172270"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -344,15 +371,18 @@
       ],
       "titleEn": "International Day of the Intangible Cultural Heritage",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2023,
+      "firstObservedYearVerified": 2024,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://ich.unesco.org/en/international-day-intangible-cultural-heritage",
+        "https://ich.unesco.org/en/01363"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -368,15 +398,18 @@
       ],
       "titleEn": "International Day of the World's Indigenous Peoples",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1994,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/indigenous-day/background",
+        "https://digitallibrary.un.org/record/198248"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -440,15 +473,18 @@
       ],
       "titleEn": "International Girls in ICT Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
+      "firstObservedYearVerified": 2011,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.itu.int/en/ITU-D/Digital-Inclusion/Women-and-Girls/Girls-in-ICT-Portal/Pages/GirlsInICTDay/2011/default.aspx",
+        "https://www.itu.int/en/ITU-D/Digital-Inclusion/Women-and-Girls/Documents/Resolutions/Resolution_70_2010.pdf"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -464,15 +500,18 @@
       ],
       "titleEn": "International Week of Science and Peace",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1988,
+      "firstObservedYearVerified": 1986,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/node/106610",
+        "https://digitallibrary.un.org/record/50478"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -488,15 +527,19 @@
       ],
       "titleEn": "International Widows' Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
+      "firstObservedYearVerified": 2011,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/chronicle/article/involving-forgotten-widows-and-global-sustainable-development",
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2011-06-23/secretary-generals-message-international-widows-day",
+        "https://www.un.org/en/events/widowsday/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -512,15 +555,18 @@
       ],
       "titleEn": "Russian Language Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/node/230062",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -704,15 +750,18 @@
       ],
       "titleEn": "World Chagas Disease Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2019,
+      "firstObservedYearVerified": 2020,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/publications/i/item/wha72.20",
+        "https://www.who.int/news-room/events/detail/2020/04/14/default-calendar/celebrating-world-chagas-disease-day-for-the-first-time-in-2020"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -824,15 +873,18 @@
       ],
       "titleEn": "World Habitat Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1985,
+      "firstObservedYearVerified": 1986,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/observances/habitat-day",
+        "https://www.un.org/unispal/document/auto-insert-207629/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -848,15 +900,18 @@
       ],
       "titleEn": "World Hearing Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2007,
+      "firstObservedYearVerified": 2007,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/campaigns/world-hearing-day/world-hearing-day-timeline",
+        "https://www.who.int/campaigns/world-hearing-day"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -920,15 +975,19 @@
       ],
       "titleEn": "World Intellectual Property Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2000,
+      "firstObservedYearVerified": 2001,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.wipo.int/pressroom/en/prdocs/2001/wipo_pr_2001_264.html",
+        "https://www.wipo.int/en/web/ipday",
+        "https://www.wipo.int/edocs/mdocs/govbody/en/wo_ga_26/wo_ga_26_2.pdf"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1040,15 +1099,18 @@
       ],
       "titleEn": "World Neglected Tropical Diseases Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2021,
+      "firstObservedYearVerified": 2020,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/news/item/27-05-2021-world-health-assembly-adopts-decision-to-recognize-30-january-as-world-ntd-day",
+        "https://www.who.int/campaigns/world-ntd-day"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -2523,5 +2585,6 @@
       "blockedReason": null,
       "storyFile": null
     }
-  ]
+  ],
+  "progressNote": "20 unique IT/EN historical research drafts are now persisted in the Wave20 source-batch file. They are not human-certified or rich-runtime approved; the remaining 80 IDs in this frozen first-100 cohort must be researched before the cohort can close."
 }
