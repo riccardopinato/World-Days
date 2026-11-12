@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "0bc89138ce792fd7f0a09d50a7a001324bdf0644",
-  "mainIndividuallyResearchedOriginsSnapshot": 63,
+  "mainSnapshot": "c702fe37a5e6b8c4709d781d6829bba9553ae291",
+  "mainIndividuallyResearchedOriginsSnapshot": 64,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 154,
-  "pendingPrCount": 6,
+  "pendingUniqueDraftCount": 153,
+  "pendingPrCount": 5,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 109,
-      "url": "https://github.com/riccardopinato/World-Days/pull/109",
-      "sourceFile": "data/editorial/batches/origin_stories_wave13_20261112.json",
-      "sourceCommit": "cf19ac55388cda7fd8173ad286a01d212295b9f4",
-      "sourceBlob": "aaa9bca5cf8f2104dc1c34b64b6d4d6b7ee210e5",
-      "storyCount": 1,
-      "observanceIds": [
-        "world-water-day"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 110,
       "url": "https://github.com/riccardopinato/World-Days/pull/110",
@@ -275,6 +256,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 64,
-  "registryChangeNote": "PR #108 Nowruz 2010 formal UN recognition distinct from millennia-old cultural tradition; pending 154 in PR #109–114, not six-locale approved."
+  "nextMergeExpectedIndividuallyResearchedCount": 65,
+  "registryChangeNote": "World Water Day A/RES/47/193 adopted 1992, first celebrated 22 March 1993. Source-linked IT/EN only, not six-language human-reviewed."
 }
