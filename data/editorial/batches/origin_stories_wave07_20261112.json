@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE07-FGM-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "One individually researched UN observance; separates UN 2012 recognition from earlier origins and keeps undocumented founding and date rationale unknown. No human review or six-locale approval.",
+  "records": [
+    {
+      "observanceId": "international-day-of-zero-tolerance-to-female-genital-mutilation",
+      "sources": [
+        "https://www.un.org/en/observances/female-genital-mutilation-day",
+        "https://www.unesco.org/en/articles/international-day-zero-tolerance-female-genital-mutilation",
+        "https://www.worldbank.org/en/brief/2023/05/10/compendium-of-international-and-national-legal-frameworks-on-female-genital-mutilation"
+      ],
+      "introducedYear": 2012,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Why 6 February calls for zero tolerance of female genital mutilation",
+          "origin": "The International Day of Zero Tolerance for Female Genital Mutilation is observed on 6 February. Its UN recognition followed earlier campaigns: on 20 December 2012, the General Assembly adopted resolution A/RES/67/146, calling on governments, the UN system and civil society to continue observing 6 February and turn awareness into concrete action. The resolution's wording matters: it recognized an existing observance rather than proving that the day began in 2012. The consulted UN and UNESCO records do not independently establish the first annual observance, the original individual proposer or why the date was initially chosen; those details remain unconfirmed here.",
+          "promoter": "The UN General Assembly adopted resolution A/RES/67/146 in 2012. UNFPA and UNICEF lead a joint elimination programme launched in 2008, but that operational role must not be confused with proof that either agency originally founded the 6 February observance.",
+          "purpose": "Raise awareness of a human-rights violation, support prevention and survivor-centred care, and encourage governments and communities to take sustained, practical action to end female genital mutilation.",
+          "facts": [
+            "The General Assembly adopted resolution A/RES/67/146 on 20 December 2012 and called for continued observance of 6 February.",
+            "UNFPA and UNICEF established their joint programme to accelerate the elimination of female genital mutilation in 2008.",
+            "The UN describes female genital mutilation as a violation of the rights of girls and women, with lasting health consequences.",
+            "The World Bank's legal compendium documents international and national measures addressing female genital mutilation."
+          ]
+        },
+        "it": {
+          "heading": "Perché il 6 febbraio richiama alla tolleranza zero verso le mutilazioni genitali femminili",
+          "origin": "La Giornata internazionale della tolleranza zero per le mutilazioni genitali femminili ricorre il 6 febbraio. Il riconoscimento delle Nazioni Unite si inserisce in una mobilitazione precedente: il 20 dicembre 2012 l'Assemblea generale adottò la risoluzione A/RES/67/146, invitando Stati, sistema ONU e società civile a continuare a osservare questa data e a trasformare la sensibilizzazione in azioni concrete. Il verbo «continuare» è significativo: il testo riconosce una ricorrenza già esistente e non dimostra che sia nata nel 2012. Le fonti ONU e UNESCO consultate non documentano autonomamente la prima celebrazione annuale, il singolo promotore originario o il motivo iniziale della scelta del 6 febbraio; questi dati restano non accertati.",
+          "promoter": "L'Assemblea generale ONU adottò nel 2012 la risoluzione A/RES/67/146. UNFPA e UNICEF coordinano dal 2008 un programma congiunto per l'eliminazione della pratica, ma questo ruolo operativo non dimostra che abbiano fondato la ricorrenza del 6 febbraio.",
+          "purpose": "Sensibilizzare su una violazione dei diritti umani, sostenere la prevenzione e l'assistenza centrata sulle sopravvissute e promuovere interventi concreti e continuativi di istituzioni e comunità per eliminare la pratica.",
+          "facts": [
+            "La risoluzione A/RES/67/146 fu adottata dall'Assemblea generale il 20 dicembre 2012 e chiede di continuare a osservare il 6 febbraio.",
+            "UNFPA e UNICEF avviarono nel 2008 il programma congiunto per accelerare l'eliminazione delle mutilazioni genitali femminili.",
+            "Le Nazioni Unite qualificano la pratica come violazione dei diritti delle donne e delle bambine, con possibili conseguenze sanitarie durature.",
+            "Il compendio giuridico della Banca mondiale documenta strumenti internazionali e norme nazionali contro questa pratica."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source check 2026-11-12: UN observance, UNESCO institutional account and World Bank legal compendium. 2012 is the UN resolution year, not asserted first observance. Original founding actor, first annual occurrence and initial date rationale unconfirmed. EN/IT AI-authored source-checked drafts; no human editorial or native-language signoff. ES/FR/DE/PT pending."
+    }
+  ]
+}

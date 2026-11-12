@@ -1,8 +1,8 @@
 name: Deploy Web Preview
 
+# Release is explicitly suspended: never deploy on a normal main push.
+# An authorized operator must manually start this workflow.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

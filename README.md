@@ -1,5 +1,19 @@
 # World Days
 
+## Existing story registration — source research is not editorial publication (12 November 2026)
+
+- **Current Wave09 integration checkpoint:** PR #105 adds two independently source-researched UN histories beyond Wave08 (Women Judges, 10 March; Combat Islamophobia, 15 March), yielding **61/1,111 source-linked IT/EN origins** and **1,050 remaining** after CI and merge. The 2022/2023 first annual observances are supported by separate original UN accounts. Formal proclamation is 2022 and first annual observance 2023; the specific reason for choosing 5 March remains unverified. This does **not** mean six-language human approval. The original historical origin is not asserted where the institutional sources do not establish it.
+- **157 additional unique IT/EN story drafts** remain in PRs #106–#114; the machine registry is updated to exclude the merged Wave07 PR, and the validator checks that pending IDs are disjoint from origins already integrated.
+
+
+
+- **Main before Wave07:** 57 individually source-linked origin histories in IT/EN out of 1,111 canonical IDs (55 at PR #101 plus 2 new seagrass/wildlife articles). The legacy **56 reviewed editorial articles** are a separate content layer.
+- **157 remaining existing draft articles** are registered by unique canonical ID and originating PR in [the machine-readable pending-story registry](data/editorial/registry/pending_origin_story_prs_20261112.json), covering PRs #106–#114 (9 PRs); the registry does not merge the drafts or inflate the source-researched total. PR #102 is merged and excluded from the pending count.
+- English and Italian research prose is NOT qualified human factual approval, and ES/FR/DE/PT have not received native-language signoff. The registry records no six-locale approvals.
+- In keeping with `docs/PRODUCT_BIBLE.txt` §§16–18, the generated origin research ledger is retained for research/traceability, but its stories are **not automatically published as rich editorial**. `runtimeRichEditorialApproved` fails closed until a separate evidenced six-locale/human review mechanism is authorized. The Flutter detail panel retains the honest pending-history fallback.
+- Existing source-linked drafts with open code-review findings (notably #104, #111, #112 and #114) remain pending. A passing automated CI is not a factual or native-language editorial signoff. No APK or Play Store release. **Operational caveat:** merging PR #102 automatically triggered the pre-existing GitHub Pages Web Preview deploy workflow (run 43277603486, successful); this PR changes `.github/workflows/deploy-pages.yml` to manual `workflow_dispatch` only to prevent further unattended deploys.
+
+
 ## First nine of the 100 original bilingual drafts — individual origin/source review (12 November 2026)
 
 The existing 100 original Italian/English narrative drafts are now being reviewed **one observance at a time** against individual original institutions and resolutions. Nine of the 100 have been rewritten as source-grounded historical origin articles in `data/editorial/batches/origin_stories_wave05_20261112.json`, available to the app's offline origin-review ledger, including founding/first-observance year distinctions, the reason for the day where documented, the adopting authority and original proposer only when supported, and four contextual facts per story. They cover Logic Day, African/Afrodescendant culture, peaceful coexistence, human fraternity, pulses, Arabian leopard, women and girls in science, prevention of violent extremism and tourism resilience. Read the [per-day evidence register](docs/EDITORIAL_FIRST_NINE_OF_100_FACT_REVIEW_20261112.md).
