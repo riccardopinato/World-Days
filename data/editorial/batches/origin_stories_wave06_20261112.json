@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE06-TWO-PRIMARY-SOURCE-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_HUMAN_REVIEWED",
+  "count": 2,
+  "sourcePolicy": "Two individual origin histories researched against original UN resolutions, CITES and Sri Lanka's UN mission. Unknown date rationale explicitly unasserted. English and Italian source-checked drafts only; four additional languages and human review pending.",
+  "records": [
+    {
+      "observanceId": "world-seagrass-day",
+      "sources": [
+        "https://digitallibrary.un.org/record/3975430/files/A_RES_76_265-EN.pdf",
+        "https://www.un.org/en/observances/seagrass-day",
+        "https://www.un.int/srilanka/news/united-nations-general-assembly-adopts-sri-lanka-sponsored-resolution-declare-march-1st-%E2%80%98world"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "How an island nation's proposal put seagrass meadows on the world calendar",
+          "origin": "On 23 May 2022, the UN General Assembly adopted resolution A/RES/76/265 designating 1 March as World Seagrass Day. Sri Lanka sponsored the initiative, supported by 24 co-sponsoring countries and the World Seagrass Association. Ambassador Mohan Pieris presented the proposal as a coastal country's response to the loss of underwater habitats. The first annual 1 March following the UN decision was in 2023; this is not evidence that conservation work began then. Neither the resolution nor the cited UN account explains why precisely 1 March was chosen.",
+          "promoter": "Sri Lanka sponsored and introduced the initiative, with support from the World Seagrass Association; the UN General Assembly formally proclaimed the day. These are distinct roles.",
+          "purpose": "Encourage governments, researchers and coastal communities to conserve and restore seagrass habitats, which support biodiversity, food security, climate resilience and shore protection.",
+          "facts": [
+            "The UN General Assembly adopted resolution A/RES/76/265 on 23 May 2022.",
+            "Sri Lanka's UN mission reports 24 co-sponsoring countries and support from the World Seagrass Association.",
+            "Seagrasses are flowering plants, not seaweeds; their submerged meadows provide shelter for fish and other marine life.",
+            "Seagrass beds can store carbon in their sediments and reduce wave energy along coasts."
+          ]
+        },
+        "it": {
+          "heading": "Come una proposta dello Sri Lanka ha dato una giornata alle praterie marine",
+          "origin": "Il 23 maggio 2022 l'Assemblea generale delle Nazioni Unite adottò la risoluzione A/RES/76/265, istituendo il 1° marzo come Giornata mondiale delle fanerogame marine. L'iniziativa fu presentata dallo Sri Lanka, con 24 Paesi copromotori e il sostegno della World Seagrass Association. L'ambasciatore Mohan Pieris spiegò il valore di questi habitat sommersi per gli Stati costieri. Il primo 1° marzo successivo alla decisione ONU fu nel 2023, ma la tutela di queste piante era già oggetto di ricerca e iniziative. Le fonti consultate non chiariscono perché sia stato scelto esattamente il 1° marzo.",
+          "promoter": "Lo Sri Lanka propose e sostenne diplomaticamente la ricorrenza, con l'appoggio della World Seagrass Association; l'Assemblea generale ONU la proclamò formalmente. Sono ruoli differenti.",
+          "purpose": "Promuovere la protezione e il ripristino delle praterie marine, importanti per biodiversità, pesca, clima e difesa delle coste.",
+          "facts": [
+            "L'Assemblea generale ONU adottò la risoluzione A/RES/76/265 il 23 maggio 2022.",
+            "La missione ONU dello Sri Lanka documenta 24 Paesi copromotori e il sostegno della World Seagrass Association.",
+            "Le fanerogame marine sono piante con fiori, non alghe: formano praterie che ospitano numerose specie.",
+            "Le praterie marine immagazzinano carbonio nei sedimenti e contribuiscono ad attenuare l'energia delle onde."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually checked against UN resolution, UN observance and sponsoring state's UN mission on 2026-11-12. Date rationale not documented; 2023 denotes first calendar occurrence after proclamation, not independently evidenced inaugural event. IT/EN source-checked model drafts, not human-reviewed; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-wildlife-day",
+      "sources": [
+        "https://www.un.org/en/observances/world-wildlife-day/background",
+        "https://cites.org/eng/disc/text.php",
+        "https://cites.org/sites/default/files/eng/cop/17/WorkingDocs/E-CoP17-19.pdf",
+        "https://www.unep.org/en/news-and-stories/press-release/un-general-assembly-proclaims-3-march-world-wildlife-day"
+      ],
+      "introducedYear": 2013,
+      "firstObservedYear": 2014,
+      "locale": {
+        "en": {
+          "heading": "Why 3 March links wildlife to a treaty signed in 1973",
+          "origin": "World Wildlife Day commemorates a specific treaty milestone. On 3 March 1973, the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) was signed in Washington. Forty years later, CITES parties meeting in Bangkok adopted Resolution Conf. 16.1 calling for an international wildlife day; Thailand sponsored that initiative. On 20 December 2013, the UN General Assembly proclaimed 3 March World Wildlife Day through resolution A/RES/68/205. Its first annual calendar occurrence after UN recognition was 3 March 2014. The treaty's signature, the CITES initiative and the UN proclamation are separate events.",
+          "promoter": "Thailand sponsored the CITES Conference of the Parties initiative in 2013; the UN General Assembly adopted the international proclamation. The CITES Secretariat coordinates implementation with UN partners.",
+          "purpose": "Celebrate wild animals and plants while drawing attention to threats from illegal and unsustainable wildlife trade and the importance of conservation.",
+          "facts": [
+            "The chosen date is the anniversary of the CITES treaty signed on 3 March 1973.",
+            "CITES parties endorsed the day at their 16th meeting in Bangkok in 2013, before UN recognition.",
+            "The UN General Assembly proclaimed the day on 20 December 2013 in resolution A/RES/68/205.",
+            "CITES regulates international trade in listed species; World Wildlife Day is a public-awareness observance, not the treaty itself."
+          ]
+        },
+        "it": {
+          "heading": "Perché il 3 marzo ricorda un trattato sulla fauna e flora selvatiche",
+          "origin": "La Giornata mondiale della fauna selvatica richiama un passaggio preciso: il 3 marzo 1973 venne firmata a Washington la Convenzione sul commercio internazionale delle specie di fauna e flora selvatiche minacciate di estinzione (CITES). Quarant'anni dopo, i Paesi riuniti alla conferenza CITES di Bangkok adottarono la risoluzione Conf. 16.1 per dedicare una giornata alla natura selvatica; la proposta fu sostenuta dalla Thailandia. Il 20 dicembre 2013 l'Assemblea generale ONU proclamò il 3 marzo con la risoluzione A/RES/68/205. Il primo 3 marzo dopo il riconoscimento ONU fu nel 2014. Firma del trattato, iniziativa CITES e proclamazione ONU non sono lo stesso evento.",
+          "promoter": "La Thailandia sostenne l'iniziativa della conferenza CITES nel 2013; l'Assemblea generale ONU proclamò la ricorrenza. Il Segretariato CITES ne facilita l'attuazione con partner ONU.",
+          "purpose": "Valorizzare animali e piante selvatiche e sensibilizzare sui danni del commercio illegale e insostenibile, promuovendo la conservazione.",
+          "facts": [
+            "Il 3 marzo ricorda la firma della convenzione CITES avvenuta nel 1973.",
+            "La conferenza CITES di Bangkok del 2013 approvò la giornata prima della proclamazione ONU.",
+            "L'Assemblea generale ONU proclamò la ricorrenza il 20 dicembre 2013 con A/RES/68/205.",
+            "La convenzione CITES disciplina il commercio internazionale di specie protette; la giornata è invece un'iniziativa di sensibilizzazione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification against UN background, CITES treaty text, CITES CoP17 retrospective and UNEP announcement on 2026-11-12. 2014 is first calendar occurrence after UN proclamation; no assertion of first-ever wildlife-awareness event. IT/EN model-drafted, human review and four further languages pending."
+    }
+  ]
+}
