@@ -268,3 +268,11 @@ Production Android builds are accepted only from `main` and derive `versionName`
 ## Template Notion — riferimenti
 
 [Catalogo Template Notion](docs/TEMPLATE_NOTION/README.md): ricerca su modelli potenzialmente adattabili a World Days, nessuna importazione o funzionalità attivata.
+
+## Origin research Wave16 — 26 new IT/EN histories, archived positions #75–100 (2026-11-12; PR pending)
+
+- Adds **26 original source-researched EN/IT histories** as append-only `data/editorial/batches/origin_stories_wave16_20261112.json`, with individual UN/UNESCO institutional URLs, founding acts, distinguishable first occurrences, originator attribution where verified, and 3 documented facts in each language. The archive of 100 original bilingual drafts stays immutable.
+- Read the complete [26-story bilingual booklet](docs/WORLD_DAYS_ORIGIN_WAVE16_26_STORIES_IT_EN_20261112.md), with provenance and item-by-item chronology in the [Wave16 source audit](docs/WORLD_DAYS_ORIGIN_WAVE16_SOURCE_AUDIT_20261112.md). Important chronology: Kiswahili UNESCO 2021 vs UN 2024; judicial well-being Nauru 2024 vs UN 2025; the **first UN AI day is 2027**, following adoption on 31 August 2026.
+- CI adds `tool/validate_editorial_origin_wave16_20261112.py` before Flutter tests and Web build. Source research and automated PASS are **not** human factual editing or native six-language approval. ES/FR/DE/PT remain pending.
+- Main remains at the last independently verified **55 / 1,111** origins. After Wave16-only acceptance this would be 81 / 1,111 with 1,030 outstanding; this is a projection. Wave14 (+16) and Wave15 (+32) remain separate unmerged PRs and must not be counted as current published content. Revisit blocked earlier positions and continue the all-catalog 100-ID queue after verification.
+- No APK, Play Store or production Web deployment; merge only when exact-head validation, review requirements and branch protections permit.
