@@ -57,7 +57,12 @@ for rec in wave["records"]:
 record = {r["observanceId"]: r for r in wave["records"]}
 assert record["world-kiswahili-language-day"]["introducedYear"] == 2024
 assert record["world-kiswahili-language-day"]["firstObservedYear"] == 2022
-assert record["international-day-of-friendship"]["firstObservedYear"] == 1958
+assert record["international-day-of-friendship"]["introducedYear"] == 2011
+assert record["international-day-of-friendship"]["firstObservedYear"] is None
+assert "3 May 2011" in record["international-day-of-friendship"]["locale"]["en"]["origin"]
+assert "3 maggio 2011" in record["international-day-of-friendship"]["locale"]["it"]["origin"]
+assert "1958" in record["international-day-of-friendship"]["locale"]["en"]["origin"]
+assert "digitallibrary.un.org/record/708162" in record["international-day-of-friendship"]["sources"]
 assert record["international-day-of-safe-secure-and-trustworthy-artificial-intelligence"]["introducedYear"] == 2026
 assert record["international-day-of-safe-secure-and-trustworthy-artificial-intelligence"]["firstObservedYear"] == 2027
 assert "2027" in record["international-day-of-safe-secure-and-trustworthy-artificial-intelligence"]["locale"]["it"]["origin"]
