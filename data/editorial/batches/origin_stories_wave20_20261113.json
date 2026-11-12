@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 13,
+  "count": 20,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -446,6 +446,246 @@
         }
       },
       "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "international-day-of-the-world-s-indigenous-peoples",
+      "introducedYear": 1994,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/observances/indigenous-day/background",
+        "https://digitallibrary.un.org/record/198248"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 August: indigenous rights and the first UN working-group meeting",
+          "origin": "The UN General Assembly adopted resolution A/RES/49/214 on 23 December 1994, designating 9 August as the annual International Day of the World's Indigenous Peoples during the international decade. The date recalls the first meeting of the UN Working Group on Indigenous Populations in 1982, rather than the adoption of the resolution. The decision followed the International Year in 1993 and preceded the 2007 UN Declaration on the Rights of Indigenous Peoples. The observance foregrounds indigenous languages, land rights, self-determination, education and meaningful participation. A first separately documented annual ceremony is not established by the original sources and remains unknown.",
+          "promoter": "The General Assembly formally established the day in 1994; indigenous representatives shaped the wider process, but no one individual original proposer is inferred.",
+          "purpose": "Protect indigenous peoples' collective rights, cultures and full participation in policies affecting their communities.",
+          "facts": [
+            "A/RES/49/214 was adopted on 23 December 1994.",
+            "9 August marks the anniversary of a Working Group meeting in 1982.",
+            "The UN Declaration on Indigenous Peoples' Rights followed in 2007."
+          ]
+        },
+        "it": {
+          "heading": "9 agosto: diritti dei popoli indigeni e prima riunione ONU",
+          "origin": "Il 23 dicembre 1994 l'Assemblea generale adottò A/RES/49/214, scegliendo il 9 agosto per la Giornata internazionale dei popoli indigeni durante il decennio a loro dedicato. La data ricorda la prima riunione del Gruppo di lavoro ONU sulle popolazioni indigene nel 1982 e non il giorno di adozione della risoluzione. La decisione seguì l'Anno internazionale del 1993 e precedette la Dichiarazione sui diritti dei popoli indigeni del 2007. La giornata richiama lingue, terre, autodeterminazione, istruzione e partecipazione alle scelte pubbliche. Le fonti originarie non individuano una specifica prima cerimonia annuale, che resta pertanto sconosciuta.",
+          "promoter": "L'Assemblea generale istituì formalmente la ricorrenza nel 1994; i rappresentanti indigeni parteciparono al percorso, ma non viene inventato un solo ideatore.",
+          "purpose": "Tutelare diritti collettivi, culture e partecipazione piena dei popoli indigeni alle decisioni che li riguardano.",
+          "facts": [
+            "A/RES/49/214 fu adottata il 23 dicembre 1994.",
+            "Il 9 agosto ricorda una riunione del Gruppo di lavoro del 1982.",
+            "La Dichiarazione ONU sui diritti dei popoli indigeni arrivò nel 2007."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "international-girls-in-ict-day",
+      "introducedYear": 2010,
+      "firstObservedYear": 2011,
+      "sources": [
+        "https://www.itu.int/en/ITU-D/Digital-Inclusion/Women-and-Girls/Girls-in-ICT-Portal/Pages/GirlsInICTDay/2011/default.aspx",
+        "https://www.itu.int/en/ITU-D/Digital-Inclusion/Women-and-Girls/Documents/Resolutions/Resolution_70_2010.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Fourth Thursday in April: opening ICT careers to girls",
+          "origin": "The International Telecommunication Union established Girls in ICT Day through resolution 70 at its Guadalajara Plenipotentiary Conference in October 2010. ITU announced the programme on 8 April 2011, and its contemporary archive records the first worldwide celebrations on 28 April 2011. The annual observance is scheduled for the fourth Thursday of April, rather than a fixed calendar number. ITU invited companies, universities and training institutions to organize activities and workplace visits for girls. The aim was to make technology study and careers more visible to young women and to challenge barriers to their participation.",
+          "promoter": "The ITU Plenipotentiary Conference adopted resolution 70; member states and ICT institutions were invited to organize activities.",
+          "purpose": "Encourage girls and young women to consider technology education, digital skills and careers in communications and computing.",
+          "facts": [
+            "Resolution 70 was adopted in Guadalajara in October 2010.",
+            "ITU records the first Girls in ICT Day on 28 April 2011.",
+            "The observance falls on the fourth Thursday in April each year."
+          ]
+        },
+        "it": {
+          "heading": "Quarto giovedì di aprile: nuove opportunità digitali per le ragazze",
+          "origin": "L'Unione internazionale delle telecomunicazioni istituì Girls in ICT Day attraverso la risoluzione 70 della Conferenza dei plenipotenziari di Guadalajara dell'ottobre 2010. L'ITU annunciò il programma l'8 aprile 2011 e l'archivio contemporaneo documenta la prima celebrazione mondiale il 28 aprile 2011. La ricorrenza cade il quarto giovedì di aprile e non in un giorno numerico fisso. L'organizzazione invitò aziende, università e centri di formazione a proporre incontri e visite dedicati alle ragazze. L'obiettivo era rendere più visibili studio e professioni tecnologiche e affrontare gli ostacoli che limitano la partecipazione delle giovani donne.",
+          "promoter": "La Conferenza ITU adottò la risoluzione 70; Stati membri e istituzioni ICT furono invitati a organizzare attività.",
+          "purpose": "Incoraggiare ragazze e giovani donne a sviluppare competenze digitali e scegliere percorsi di studio e lavoro nella tecnologia.",
+          "facts": [
+            "La risoluzione 70 venne approvata a Guadalajara nell'ottobre 2010.",
+            "L'ITU documenta la prima celebrazione il 28 aprile 2011.",
+            "La giornata cade ogni anno il quarto giovedì di aprile."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "international-week-of-science-and-peace",
+      "introducedYear": 1988,
+      "firstObservedYear": 1986,
+      "sources": [
+        "https://www.un.org/en/node/106610",
+        "https://digitallibrary.un.org/record/50478"
+      ],
+      "locale": {
+        "en": {
+          "heading": "A week including 11 November: science and peace in the UN calendar",
+          "origin": "The International Week of Science and Peace was first observed by non-governmental organizers in 1986 during the International Year of Peace. Those activities continued in subsequent years. The General Assembly adopted resolution A/RES/43/61 in December 1988, formally proclaiming a recurring international week that includes 11 November. The original civil-society observance and the subsequent UN adoption must not be confused. The initiative explores how scientific research, education and international cooperation can contribute to peaceful development rather than military conflict. The sources establish the annual week but do not independently prove a single historical anniversary that motivated every aspect of its calendar choice.",
+          "promoter": "Non-governmental groups initiated the first events in 1986; the General Assembly formally proclaimed the week in 1988.",
+          "purpose": "Connect scientific cooperation and education to conflict prevention, international understanding and peaceful development.",
+          "facts": [
+            "The first non-governmental observance took place in 1986.",
+            "The General Assembly adopted A/RES/43/61 in December 1988.",
+            "The annual week is the one containing 11 November."
+          ]
+        },
+        "it": {
+          "heading": "Una settimana con l'11 novembre: scienza e pace nel calendario ONU",
+          "origin": "La Settimana internazionale della scienza e della pace fu celebrata per la prima volta da organizzatori non governativi nel 1986, durante l'Anno internazionale della pace. Le attività continuarono negli anni successivi. Nel dicembre 1988 l'Assemblea generale ONU adottò A/RES/43/61, proclamando formalmente una settimana annuale comprendente l'11 novembre. Non bisogna confondere la prima osservanza della società civile con il successivo riconoscimento ONU. L'iniziativa mostra come ricerca, istruzione e cooperazione internazionale possano contribuire allo sviluppo pacifico anziché ai conflitti. Le fonti dimostrano il periodo scelto, ma non chiariscono separatamente un anniversario storico unico che abbia motivato ogni dettaglio della collocazione.",
+          "promoter": "Gruppi non governativi organizzarono le prime iniziative del 1986; l'Assemblea generale ONU proclamò la ricorrenza nel 1988.",
+          "purpose": "Collegare collaborazione scientifica e istruzione alla prevenzione dei conflitti e alla comprensione internazionale.",
+          "facts": [
+            "La prima osservanza non governativa risale al 1986.",
+            "Nel dicembre 1988 l'ONU adottò la risoluzione A/RES/43/61.",
+            "La settimana annuale è quella che comprende l'11 novembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "international-widows-day",
+      "introducedYear": 2010,
+      "firstObservedYear": 2011,
+      "sources": [
+        "https://www.un.org/en/chronicle/article/involving-forgotten-widows-and-global-sustainable-development",
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2011-06-23/secretary-generals-message-international-widows-day",
+        "https://www.un.org/en/events/widowsday/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 June: from the Loomba Foundation campaign to a UN day",
+          "origin": "The Loomba Foundation launched International Widows' Day in 2005 in the United Kingdom and advocated for a UN observance. The General Assembly adopted A/RES/65/189 in December 2010, recognizing 23 June. A contemporary Secretary-General message explicitly identifies 23 June 2011 as the first UN International Widows' Day. The date recalls 23 June 1954, when Pushpa Wati Loomba was widowed, inspiring her son's later charitable work. The day addresses not only bereavement but loss of access to land, inheritance, pensions and employment, as well as stigma and exclusion. The founding campaign and the General Assembly's later formal recognition are distinct events.",
+          "promoter": "The Loomba Foundation led the earlier campaign and Gabon supported the UN proposal; the General Assembly formally adopted it in 2010.",
+          "purpose": "Protect widows' rights and access to social protection, property, livelihoods and education while confronting discrimination.",
+          "facts": [
+            "The Loomba Foundation initiated the day in 2005.",
+            "Resolution A/RES/65/189 was adopted in December 2010.",
+            "A UN Secretary-General message confirms the first UN observance on 23 June 2011."
+          ]
+        },
+        "it": {
+          "heading": "23 giugno: dalla campagna della Loomba Foundation alla giornata ONU",
+          "origin": "Nel Regno Unito la Loomba Foundation avviò la Giornata internazionale delle vedove nel 2005 e ne chiese il riconoscimento ONU. L'Assemblea generale adottò A/RES/65/189 nel dicembre 2010, fissando la data del 23 giugno. Un messaggio contemporaneo del Segretario generale identifica esplicitamente il 23 giugno 2011 come prima giornata ufficiale ONU. La data ricorda il 23 giugno 1954, quando Pushpa Wati Loomba rimase vedova, un evento che ispirò in seguito l'attività benefica del figlio. La giornata riguarda, oltre al lutto, la perdita di accesso a terre, eredità, pensioni e lavoro, lo stigma e l'esclusione. La campagna originaria e il successivo riconoscimento dell'Assemblea sono fatti diversi.",
+          "promoter": "La Loomba Foundation guidò la campagna precedente e il Gabon sostenne la proposta ONU; l'Assemblea adottò l'atto nel 2010.",
+          "purpose": "Proteggere diritti delle vedove, accesso a beni, reddito, istruzione e assistenza, contrastando discriminazione.",
+          "facts": [
+            "La Loomba Foundation promosse la ricorrenza già nel 2005.",
+            "L'ONU adottò A/RES/65/189 nel dicembre 2010.",
+            "Il Segretario generale confermò la prima osservanza ONU il 23 giugno 2011."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "world-habitat-day",
+      "introducedYear": 1985,
+      "firstObservedYear": 1986,
+      "sources": [
+        "https://www.un.org/observances/habitat-day",
+        "https://www.un.org/unispal/document/auto-insert-207629/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "First Monday of October: a right to adequate shelter",
+          "origin": "In 1985 the United Nations General Assembly acted on a recommendation of the Commission on Human Settlements and adopted A/RES/40/202 A, designating the first Monday in October as World Habitat Day. The first observance in 1986 coincided with ten years since the first UN Conference on Human Settlements in Vancouver in 1976. This is a movable Monday, not a fixed numbered date. The observance asks people to reflect on their cities, housing and the basic right to adequate shelter. The UN-Habitat Scroll of Honour Award was introduced separately in 1989 and should not be mistaken for the founding decision of the international day.",
+          "promoter": "The UN General Assembly adopted the designation following an institutional recommendation from the Commission on Human Settlements.",
+          "purpose": "Raise awareness of affordable adequate housing, resilient communities and shared responsibility for cities and towns.",
+          "facts": [
+            "The General Assembly adopted A/RES/40/202 A in December 1985.",
+            "The first observance was held in 1986, ten years after the Vancouver Habitat conference.",
+            "The UN-Habitat Scroll of Honour award was established later in 1989."
+          ]
+        },
+        "it": {
+          "heading": "Primo lunedì di ottobre: il diritto a un'abitazione adeguata",
+          "origin": "Nel 1985 l'Assemblea generale ONU accolse una raccomandazione della Commissione per gli insediamenti umani e adottò A/RES/40/202 A, stabilendo il primo lunedì di ottobre come Giornata mondiale dell'habitat. La prima osservanza del 1986 coincise con il decennale della prima Conferenza ONU sugli insediamenti umani, tenuta a Vancouver nel 1976. Il periodo segue un lunedì mobile e non un giorno numerico fisso. La ricorrenza invita a riflettere su città, abitazioni e diritto fondamentale a un alloggio adeguato. Il premio UN-Habitat Scroll of Honour nacque separatamente nel 1989 e non va confuso con l'atto istitutivo.",
+          "promoter": "L'Assemblea ONU approvò la designazione su raccomandazione della Commissione per gli insediamenti umani.",
+          "purpose": "Sensibilizzare sul diritto a case adeguate, comunità resilienti e responsabilità condivisa per città e territori.",
+          "facts": [
+            "L'Assemblea generale adottò A/RES/40/202 A nel dicembre 1985.",
+            "La prima celebrazione si tenne nel 1986, dieci anni dopo la conferenza di Vancouver.",
+            "Il premio Scroll of Honour dell'UN-Habitat nacque successivamente nel 1989."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "world-neglected-tropical-diseases-day",
+      "introducedYear": 2021,
+      "firstObservedYear": 2020,
+      "sources": [
+        "https://www.who.int/news/item/27-05-2021-world-health-assembly-adopts-decision-to-recognize-30-january-as-world-ntd-day",
+        "https://www.who.int/campaigns/world-ntd-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 January: a neglected-diseases campaign gains WHO recognition",
+          "origin": "International partners first celebrated World NTD Day informally in January 2020. The World Health Assembly formally recognized 30 January through decision WHA74(18) in May 2021. WHO explicitly describes these separate stages, so the first campaign should not be misreported as a first event after institutional recognition. The date connects to earlier global cooperation milestones such as the London Declaration on neglected tropical diseases and disease-control road maps. These illnesses disproportionately affect communities facing poor access to healthcare and clean water. The day calls for prevention, diagnosis, treatment and sustained action towards eliminating neglected diseases.",
+          "promoter": "International disease-control partners began the campaign, while the World Health Assembly adopted the formal recognition in 2021.",
+          "purpose": "Make neglected tropical diseases visible and support equitable diagnosis, treatment, prevention and elimination.",
+          "facts": [
+            "Global partners celebrated the first World NTD Day informally in 2020.",
+            "The World Health Assembly recognized it with WHA74(18) in 2021.",
+            "WHO connects the 30 January date to earlier global disease-control milestones."
+          ]
+        },
+        "it": {
+          "heading": "30 gennaio: una campagna contro le malattie tropicali riconosciuta dall'OMS",
+          "origin": "Partner internazionali organizzarono informalmente la prima World NTD Day nel gennaio 2020. L'Assemblea mondiale della sanità riconobbe formalmente il 30 gennaio con la decisione WHA74(18) nel maggio 2021. L'OMS distingue espressamente le due tappe, quindi non è corretto collocare il primo evento dopo il riconoscimento istituzionale. La data si lega a precedenti iniziative globali, come la Dichiarazione di Londra sulle malattie tropicali neglette e le strategie per controllarle. Queste patologie colpiscono in modo sproporzionato comunità con scarso accesso a cure e acqua sicura. La giornata richiama prevenzione, diagnosi, trattamento e azioni continuative per l'eliminazione.",
+          "promoter": "I partner sanitari internazionali avviarono la campagna; l'Assemblea mondiale della sanità ne adottò il riconoscimento nel 2021.",
+          "purpose": "Rendere visibili le malattie tropicali neglette e sostenere diagnosi, cura e prevenzione per tutte le comunità.",
+          "facts": [
+            "I partner celebrarono informalmente la prima giornata nel 2020.",
+            "L'Assemblea mondiale della sanità approvò WHA74(18) nel 2021.",
+            "L'OMS collega il 30 gennaio a tappe della cooperazione sanitaria mondiale."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "world-intellectual-property-day",
+      "introducedYear": 2000,
+      "firstObservedYear": 2001,
+      "sources": [
+        "https://www.wipo.int/pressroom/en/prdocs/2001/wipo_pr_2001_264.html",
+        "https://www.wipo.int/en/web/ipday",
+        "https://www.wipo.int/edocs/mdocs/govbody/en/wo_ga_26/wo_ga_26_2.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 April: a legal-anniversary day for creativity and inventions",
+          "origin": "At their annual meetings in September 2000, WIPO member states designated 26 April as World Intellectual Property Day. A contemporaneous WIPO announcement confirms that the first celebration took place on 26 April 2001. The date was chosen because the convention establishing WIPO entered into force on 26 April 1970. A preparatory document from 2000 records that Algeria and China proposed this specific calendar date during consultations. The day encourages discussion of how patents, copyright, trademarks and designs can protect creators while also supporting public benefit and access to innovation.",
+          "promoter": "WIPO member states adopted the date in 2000; the original consultation report names Algeria and China as proponents of the calendar choice.",
+          "purpose": "Explain how intellectual-property systems affect artists, inventors, businesses, research and public access to new ideas.",
+          "facts": [
+            "WIPO members designated 26 April during meetings in September 2000.",
+            "The first international celebration occurred on 26 April 2001.",
+            "Algeria and China proposed the date, which recalls the 1970 WIPO Convention anniversary."
+          ]
+        },
+        "it": {
+          "heading": "26 aprile: un anniversario giuridico dedicato a creatività e invenzioni",
+          "origin": "Nelle riunioni annuali del settembre 2000 gli Stati membri dell'OMPI istituirono il 26 aprile come Giornata mondiale della proprietà intellettuale. Un comunicato contemporaneo dell'organizzazione conferma che la prima celebrazione si svolse il 26 aprile 2001. La data fu scelta perché la convenzione istitutiva dell'OMPI era entrata in vigore il 26 aprile 1970. Un documento preparatorio del 2000 registra che Algeria e Cina proposero questa precisa data durante le consultazioni. La giornata incoraggia il confronto su brevetti, diritto d'autore, marchi e disegni, con attenzione ai diritti dei creatori e all'accesso ai benefici dell'innovazione.",
+          "promoter": "Gli Stati membri OMPI approvarono la ricorrenza nel 2000; il rapporto originario indica Algeria e Cina come proponenti della scelta del giorno.",
+          "purpose": "Spiegare il ruolo della proprietà intellettuale per artisti, inventori, imprese, ricerca e accesso pubblico alle idee.",
+          "facts": [
+            "Gli Stati membri fissarono il 26 aprile nelle riunioni del settembre 2000.",
+            "La prima celebrazione internazionale si tenne il 26 aprile 2001.",
+            "Algeria e Cina proposero la data, legata alla convenzione OMPI del 1970."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
     }
   ]
 }
