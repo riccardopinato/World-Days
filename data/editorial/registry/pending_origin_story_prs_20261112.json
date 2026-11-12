@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "088d0bac2ec1e227959a205ca070bfbcebad3d5e",
-  "mainIndividuallyResearchedOriginsSnapshot": 62,
+  "mainSnapshot": "0bc89138ce792fd7f0a09d50a7a001324bdf0644",
+  "mainIndividuallyResearchedOriginsSnapshot": 63,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 155,
-  "pendingPrCount": 7,
+  "pendingUniqueDraftCount": 154,
+  "pendingPrCount": 6,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 108,
-      "url": "https://github.com/riccardopinato/World-Days/pull/108",
-      "sourceFile": "data/editorial/batches/origin_stories_wave12_20261112.json",
-      "sourceCommit": "3469c4caab41d623e72a90fbfd17a095be4e0430",
-      "sourceBlob": "b0218bb521fc55d1012865800aea39d4cbf82aee",
-      "storyCount": 1,
-      "observanceIds": [
-        "international-day-of-nowruz"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 109,
       "url": "https://github.com/riccardopinato/World-Days/pull/109",
@@ -294,6 +275,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 63,
-  "registryChangeNote": "Wave11 PR #107: UN General Assembly adopted in 2022, first March 21 2025 observance directly evidenced, Tajik cultural connection not claimed as UN legislative rationale. Six-locale human review pending, rich runtime gating false."
+  "nextMergeExpectedIndividuallyResearchedCount": 64,
+  "registryChangeNote": "PR #108 Nowruz 2010 formal UN recognition distinct from millennia-old cultural tradition; pending 154 in PR #109–114, not six-locale approved."
 }
