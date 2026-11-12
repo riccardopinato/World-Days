@@ -45,7 +45,7 @@ for r in batch["records"]:
     for url in r["sources"]:
         parsed = urlsplit(url)
         assert parsed.scheme == "https" and parsed.hostname in {
-            "www.un.org", "www.unesco.org", "www.who.int",
+            "www.un.org", "mandates.un.org", "www.unesco.org", "www.who.int",
             "fctc.who.int", "www.ramsar.org", "www.worldwetlandsday.org",
             "mfa.gov.tm",
         }, (oid, url)
