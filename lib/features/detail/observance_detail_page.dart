@@ -562,7 +562,8 @@ class _OriginResearchPanel extends StatelessWidget {
           if (!snapshot.hasData) return const SizedBox.shrink();
           final entry = snapshot.data![observanceId];
           if (entry == null ||
-              entry['originResearchStatus'] != 'PRIMARY_RESEARCHED_ORIGIN_IT_EN') {
+              entry['originResearchStatus'] != 'PRIMARY_RESEARCHED_ORIGIN_IT_EN' ||
+              entry['runtimeRichEditorialApproved'] != true) {
             return const SizedBox.shrink();
           }
           final research = entry['primaryResearch'];
@@ -652,7 +653,8 @@ class _PendingHistoryGate extends StatelessWidget {
           if (snapshot.connectionState != ConnectionState.done) {
             return const SizedBox.shrink();
           }
-          if (snapshot.data?[observanceId]?['primaryResearch'] != null) {
+          if (snapshot.data?[observanceId]?['runtimeRichEditorialApproved'] == true &&
+              snapshot.data?[observanceId]?['primaryResearch'] != null) {
             return const SizedBox.shrink();
           }
           return Column(
