@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 6,
+  "count": 13,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -208,6 +208,244 @@
         }
       },
       "sourceReviewNote": "Original per-ID primary institutional chronology individually checked for legal creation, earliest separately evidenced observance, and distinction between older tradition and formal designation. Missing evidence remains null; no automatic or human six-language review is asserted. This story stays unpublished as rich runtime editorial."
+    },
+    {
+      "observanceId": "chinese-language-day",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "sources": [
+        "https://webtv.un.org/en/asset/k1y/k1yklg2iup",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 April: Chinese characters and multilingual UN work",
+          "origin": "The UN celebrates Chinese Language Day on 20 April as part of the language-days initiative established by its Department of Global Communications in 2010. An official UN event description associates the date with Guyu, or Grain Rain, a traditional solar term, and with Cangjie, who is credited in legend with creating written characters. A legend is not archaeological proof that one person invented Chinese writing. The event instead gives visibility to Chinese language and culture as one of the six official language traditions of the United Nations.",
+          "promoter": "The UN Department of Global Communications created the six-language days initiative in 2010; Cangjie is the subject of a cultural legend rather than the modern organizer.",
+          "purpose": "Celebrate multilingualism and promote learning, literature and access across the UN's six official languages.",
+          "facts": [
+            "The UN's programme of six language days began in 2010.",
+            "The Chinese observance is held on 20 April and associated with the Guyu solar term.",
+            "UN events describe Cangjie as a legendary figure linked to Chinese writing."
+          ]
+        },
+        "it": {
+          "heading": "20 aprile: caratteri cinesi e multilinguismo delle Nazioni Unite",
+          "origin": "L'ONU celebra la Giornata della lingua cinese il 20 aprile nell'ambito del programma lanciato nel 2010 dal Dipartimento della comunicazione globale per le sei lingue ufficiali. La descrizione di un evento ONU collega la data a Guyu, la Pioggia del grano del calendario solare tradizionale, e a Cangjie, al quale la leggenda attribuisce l'invenzione dei caratteri. Una leggenda non è una prova archeologica che una sola persona abbia creato la scrittura cinese. La giornata dà invece visibilità alla lingua e alla cultura cinese nel contesto delle comunicazioni e del dialogo internazionale.",
+          "promoter": "Il Dipartimento ONU della comunicazione globale avviò il programma nel 2010; Cangjie è una figura leggendaria, non l'organizzatore della ricorrenza moderna.",
+          "purpose": "Valorizzare il multilinguismo e favorire studio, letteratura e accessibilità fra le sei lingue ufficiali ONU.",
+          "facts": [
+            "Le sei giornate linguistiche delle Nazioni Unite nacquero nel 2010.",
+            "La ricorrenza cinese cade il 20 aprile ed è associata al termine solare Guyu.",
+            "Le fonti ONU parlano di Cangjie come figura della tradizione leggendaria."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "english-language-day",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/observances/english-language-day",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 April: Shakespeare within a wider history of English",
+          "origin": "English Language Day is one of the UN's six official language days, introduced through a Department of Global Communications initiative in 2010. Its date, 23 April, is traditionally associated with both the birth and death of William Shakespeare. The playwright's writing profoundly influenced English literature and expressions, although the English language existed long before him and is used in many different cultures. The UN observance connects literature with equitable communication, interpretation, translation and multilingual understanding. A first separately documented ceremony is not established by the source reviewed, so no inaugural year is invented.",
+          "promoter": "The UN Department of Global Communications established the language-days initiative in 2010; Shakespeare explains the cultural calendar date rather than serving as the day’s modern proposer.",
+          "purpose": "Celebrate linguistic diversity and fair access to communication in English alongside the other five official UN languages.",
+          "facts": [
+            "The UN developed its six official language days through a programme begun in 2010.",
+            "The 23 April date is traditionally linked with Shakespeare's birth and death.",
+            "The initiative promotes multilingualism, not one language replacing the others."
+          ]
+        },
+        "it": {
+          "heading": "23 aprile: Shakespeare nella storia più ampia della lingua inglese",
+          "origin": "La Giornata della lingua inglese è una delle sei ricorrenze linguistiche ONU, introdotte attraverso un'iniziativa del Dipartimento della comunicazione globale nel 2010. La data del 23 aprile è tradizionalmente associata sia alla nascita sia alla morte di William Shakespeare. La sua opera ha influenzato profondamente la letteratura e molte espressioni inglesi, ma la lingua esisteva già prima di lui ed è parlata in culture differenti. La ricorrenza ONU collega la letteratura alla comunicazione equa, all'interpretariato, alla traduzione e alla comprensione multilingue. La prima cerimonia specifica non è documentata dalla fonte consultata e non viene quindi inventata.",
+          "promoter": "Il Dipartimento della comunicazione globale ONU avviò nel 2010 il programma; Shakespeare è il riferimento culturale della data.",
+          "purpose": "Celebrare la pluralità linguistica e l'accesso alla comunicazione in inglese insieme alle altre cinque lingue ufficiali ONU.",
+          "facts": [
+            "Le sei giornate linguistiche ONU fanno parte di un'iniziativa del 2010.",
+            "Il 23 aprile richiama tradizionalmente nascita e morte di Shakespeare.",
+            "L'obiettivo del programma è il multilinguismo, non la sostituzione degli altri idiomi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "french-language-day",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/observances/french-language-day",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 March: a Francophone anniversary in the UN calendar",
+          "origin": "French Language Day is celebrated at the United Nations on 20 March within the six-language programme initiated in 2010 by the Department of Global Communications. The date also corresponds to the wider Francophonie anniversary associated with intergovernmental cooperation among French-speaking countries begun on 20 March 1970. These are separate institutional histories: the earlier cooperation is not the founding vote for a UN language day. The event recognizes French used by diverse communities in Europe, Africa, the Americas and elsewhere, and the importance of translation and multilingual access across the UN system.",
+          "promoter": "The UN Department of Global Communications established the current UN programme; institutions of the Francophonie have their own distinct earlier history.",
+          "purpose": "Promote French linguistic diversity and equitable multilingual communication among the UN's six official languages.",
+          "facts": [
+            "The UN language-days programme began in 2010 and covers six official languages.",
+            "French Language Day takes place each year on 20 March.",
+            "The same date recalls an institutional Francophonie anniversary from 1970."
+          ]
+        },
+        "it": {
+          "heading": "20 marzo: l'anniversario francofono entra nel calendario ONU",
+          "origin": "La Giornata della lingua francese si celebra all'ONU il 20 marzo nell'ambito del programma per le sei lingue avviato nel 2010 dal Dipartimento della comunicazione globale. La stessa data corrisponde al più ampio anniversario della Francofonia, collegato alla cooperazione istituzionale fra paesi francofoni iniziata il 20 marzo 1970. Le due storie non vanno confuse: la cooperazione precedente non costituisce l'atto istitutivo della giornata ONU. L'evento valorizza il francese parlato in comunità diverse in Europa, Africa, Americhe e altrove e la necessità di traduzione e accesso linguistico nel sistema delle Nazioni Unite.",
+          "promoter": "Il Dipartimento ONU della comunicazione globale istituì il programma attuale; le istituzioni francofone seguono una precedente storia distinta.",
+          "purpose": "Promuovere la pluralità delle culture francofone e l'accesso equo alla comunicazione multilingue nell'ONU.",
+          "facts": [
+            "La ricorrenza fa parte del programma ONU delle sei lingue lanciato nel 2010.",
+            "La Giornata della lingua francese si celebra ogni 20 marzo.",
+            "Il giorno coincide anche con un anniversario istituzionale della Francofonia del 1970."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "russian-language-day",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/node/230062",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 June: Pushkin and the role of Russian in international dialogue",
+          "origin": "Russian Language Day at the United Nations is held on 6 June, the birthday of poet Alexander Pushkin, born in 1799. The observance forms part of the UN Department of Global Communications' language days established in 2010 for the Organization's six official languages. Pushkin is celebrated as a major figure in modern Russian literature, but he was not the institutional founder of the UN campaign. The day encourages interest in writing, translation, cultural achievement and multilingual communication, separating the poet's historical anniversary from the much later modern observance.",
+          "promoter": "The UN Department of Global Communications created the language-days programme in 2010; Pushkin supplies the cultural date association.",
+          "purpose": "Promote Russian language and culture and encourage equality and mutual understanding among the six UN official languages.",
+          "facts": [
+            "Russian Language Day takes place on 6 June, the anniversary of Pushkin's birth.",
+            "The United Nations created its official language-days initiative in 2010.",
+            "The observance is one of six dedicated to the UN's official languages."
+          ]
+        },
+        "it": {
+          "heading": "6 giugno: Puškin e il ruolo del russo nel dialogo internazionale",
+          "origin": "Il 6 giugno l'ONU celebra la Giornata della lingua russa, nel giorno della nascita del poeta Aleksandr Puškin, avvenuta nel 1799. La ricorrenza rientra nel programma creato nel 2010 dal Dipartimento della comunicazione globale per le sei lingue ufficiali delle Nazioni Unite. Puškin è riconosciuto come una figura fondamentale della letteratura russa moderna, ma non è il fondatore istituzionale della campagna ONU. La giornata invita a conoscere scrittura, traduzione, patrimonio culturale e comunicazione multilingue, distinguendo l'anniversario storico del poeta dall'osservanza contemporanea.",
+          "promoter": "Il Dipartimento ONU della comunicazione globale creò nel 2010 il programma, mentre Puškin costituisce il riferimento storico della data.",
+          "purpose": "Valorizzare lingua e cultura russe e favorire parità e comprensione fra le sei lingue ufficiali delle Nazioni Unite.",
+          "facts": [
+            "Il 6 giugno è l'anniversario della nascita di Aleksandr Puškin.",
+            "L'ONU ha avviato il programma delle giornate linguistiche nel 2010.",
+            "La giornata dedicata al russo è una delle sei ricorrenze delle lingue ufficiali."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "global-media-and-information-literacy-week",
+      "introducedYear": 2021,
+      "firstObservedYear": 2021,
+      "sources": [
+        "https://www.un.org/en/observances/media-information-literacy-week",
+        "https://www.un.org/en/observances/global-media-and-information-literacy-week"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24–31 October: stronger media literacy in the digital age",
+          "origin": "In 2021 the UN General Assembly decided to commemorate Global Media and Information Literacy Week, observed from 24 to 31 October. UNESCO and its educational partners had already developed media- and information-literacy initiatives, so the UN proclamation gave additional recognition to pre-existing work. The UN background stresses the need for clear, factual, accessible, science-based and multilingual information in a world affected by unequal digital access and contradictory messages. The week supports critical evaluation of information and responsible participation. Its starting date coincides with United Nations Day, although that alone does not prove the complete legislative reason for the chosen period.",
+          "promoter": "The UN General Assembly made the formal 2021 proclamation, building on earlier media-literacy initiatives of UNESCO and educational partners.",
+          "purpose": "Help people assess sources and misleading messages while improving access to trustworthy multilingual information.",
+          "facts": [
+            "The UN General Assembly recognized the week in 2021.",
+            "The annual period extends from 24 to 31 October.",
+            "UN materials emphasize reliable science-based information and the digital divide."
+          ]
+        },
+        "it": {
+          "heading": "24–31 ottobre: alfabetizzazione mediatica nell'epoca digitale",
+          "origin": "Nel 2021 l'Assemblea generale ONU ha deciso di celebrare la Settimana mondiale dell'alfabetizzazione mediatica e informativa dal 24 al 31 ottobre. L'UNESCO e i partner educativi sviluppavano già iniziative sul tema: la proclamazione delle Nazioni Unite ha quindi riconosciuto un lavoro precedente. La documentazione ONU sottolinea la necessità di informazioni chiare, attendibili, accessibili, multilingue e basate sulla scienza, in un mondo segnato da divari digitali e messaggi contraddittori. La settimana incoraggia valutazione critica delle fonti e partecipazione responsabile. L'inizio coincide con la Giornata delle Nazioni Unite, senza che ciò dimostri da solo tutta la motivazione formale del periodo scelto.",
+          "promoter": "L'Assemblea generale ha proclamato la settimana nel 2021, seguendo iniziative educative già promosse dall'UNESCO.",
+          "purpose": "Aiutare le persone a valutare le fonti e a riconoscere informazioni fuorvianti, migliorando l'accesso a contenuti affidabili.",
+          "facts": [
+            "L'Assemblea generale ONU ha riconosciuto la settimana nel 2021.",
+            "La ricorrenza si svolge annualmente dal 24 al 31 ottobre.",
+            "Le fonti ONU insistono su informazioni scientifiche e riduzione del divario digitale."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "international-day-for-the-conservation-of-the-mangrove-ecosystem",
+      "introducedYear": 2015,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.unesco.org/en/days/mangrove-ecosystem-conservation",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000243325"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 July: protecting the forests where land meets sea",
+          "origin": "UNESCO's General Conference proclaimed 26 July the International Day for the Conservation of the Mangrove Ecosystem in 2015. Its original decision acknowledges that civil-society groups were already observing 26 July as a day in defence of mangroves before formal designation by a UN agency. The earlier conservation movement and UNESCO's later institutional action are distinct. Mangroves protect coastlines against erosion and storms, host fish and other wildlife and store carbon in wetland soils. The first UNESCO-led annual event is not separately established by the reviewed records, so the first-observance field remains unasserted.",
+          "promoter": "The UNESCO General Conference established the official international day in 2015 and acknowledged earlier civil-society protection initiatives.",
+          "purpose": "Encourage research, conservation and sustainable management of mangroves for biodiversity and coastal communities.",
+          "facts": [
+            "The UNESCO designation was adopted in 2015 for an annual date of 26 July.",
+            "The original UNESCO record recognizes earlier non-UN celebrations of the date.",
+            "Mangrove habitats shelter coastal biodiversity and can reduce erosion."
+          ]
+        },
+        "it": {
+          "heading": "26 luglio: proteggere le foreste dove terra e mare si incontrano",
+          "origin": "Nel 2015 la Conferenza generale UNESCO ha proclamato il 26 luglio Giornata internazionale per la conservazione dell'ecosistema delle mangrovie. La decisione riconosce che organizzazioni della società civile celebravano già il 26 luglio come giorno in difesa di questi ambienti prima della designazione formale di un'agenzia ONU. Il movimento di tutela precedente e l'atto istituzionale successivo sono eventi distinti. Le mangrovie proteggono le coste da erosione e tempeste, offrono rifugio a pesci e fauna e conservano carbonio nei suoli umidi. La prima edizione annuale guidata dall'UNESCO non risulta accertata separatamente nei documenti esaminati.",
+          "promoter": "La Conferenza generale UNESCO istituì formalmente la giornata nel 2015 riconoscendo anche iniziative civiche preesistenti.",
+          "purpose": "Promuovere ricerca, conservazione e gestione sostenibile delle mangrovie per biodiversità e comunità costiere.",
+          "facts": [
+            "La proclamazione UNESCO fu adottata nel 2015 per il 26 luglio.",
+            "Il documento originario menziona precedenti celebrazioni non organizzate dall'ONU.",
+            "Le mangrovie proteggono le coste e offrono habitat a numerose specie."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
+    },
+    {
+      "observanceId": "international-day-of-the-intangible-cultural-heritage",
+      "introducedYear": 2023,
+      "firstObservedYear": 2024,
+      "sources": [
+        "https://ich.unesco.org/en/international-day-intangible-cultural-heritage",
+        "https://ich.unesco.org/en/01363"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 October: living cultural traditions and their communities",
+          "origin": "At its 42nd General Conference in November 2023, UNESCO proclaimed 17 October the International Day of the Intangible Cultural Heritage. This day concerns practices transmitted by communities, such as storytelling, performing arts, rituals, craft knowledge and traditions, rather than only monuments or museum objects. UNESCO describes its 2026 observance as the third edition, so the first annual edition followed in 2024, distinct from the founding vote in 2023. The date also recalls the adoption of the 2003 Convention for the Safeguarding of the Intangible Cultural Heritage. The community members who keep traditions alive remain central to their protection.",
+          "promoter": "The UNESCO General Conference made the 2023 proclamation; States Parties and community heritage bearers organize activities.",
+          "purpose": "Protect living traditions and foster respectful transmission, participation and cultural diversity.",
+          "facts": [
+            "UNESCO proclaimed the international day in November 2023.",
+            "UNESCO's third annual edition was in 2026, following the 2024 debut.",
+            "The focus is on living community practices and knowledge rather than monuments alone."
+          ]
+        },
+        "it": {
+          "heading": "17 ottobre: tradizioni culturali vive e comunità che le custodiscono",
+          "origin": "Nel novembre 2023 la 42ª Conferenza generale dell'UNESCO ha proclamato il 17 ottobre Giornata internazionale del patrimonio culturale immateriale. La ricorrenza riguarda pratiche trasmesse dalle comunità, tra cui racconti, arti performative, riti, saperi artigianali e tradizioni, non soltanto monumenti o oggetti da museo. L'UNESCO presenta l'osservanza del 2026 come terza edizione: la prima si colloca dunque nel 2024, dopo il voto istitutivo del 2023. La data richiama anche l'adozione della Convenzione del 2003 per la salvaguardia del patrimonio immateriale. Chi mantiene vive le tradizioni deve restare protagonista della loro tutela.",
+          "promoter": "La Conferenza generale UNESCO proclamò la giornata nel 2023; Stati e comunità custodi partecipano alle iniziative.",
+          "purpose": "Proteggere le tradizioni viventi e favorire trasmissione rispettosa, partecipazione e diversità culturale.",
+          "facts": [
+            "La proclamazione UNESCO risale al novembre 2023.",
+            "La terza edizione nel 2026 colloca la prima nel 2024.",
+            "Il patrimonio immateriale riguarda pratiche e conoscenze delle comunità."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually researched from the linked primary institution and earliest documented public observance. Do not infer an original individual sponsor, first ceremony or exact calendar rationale where the source does not demonstrate them. English and Italian are model-authored source research, not qualified human fact or six-locale native review; runtime rich approval remains false."
     }
   ]
 }
