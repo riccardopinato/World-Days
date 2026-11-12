@@ -268,3 +268,11 @@ Production Android builds are accepted only from `main` and derive `versionName`
 ## Template Notion — riferimenti
 
 [Catalogo Template Notion](docs/TEMPLATE_NOTION/README.md): ricerca su modelli potenzialmente adattabili a World Days, nessuna importazione o funzionalità attivata.
+
+## Editorial origin Wave17 — 28 new September–October bilingual histories (2026-11-12; PR pending)
+
+- Wave17 goes **beyond the first 100 archived original-story drafts**, researching 28 new canonical UN/UNESCO/WHO/FAO/WTO observance IDs from 5 September to 23 October. Source content: `data/editorial/batches/origin_stories_wave17_20261112.json`, imported into the local-first Flutter origin review index by the existing `tool/build_origin_review_index.py` generator; no duplicate origin IDs with any existing committed wave.
+- All 28 full original English/Italian histories, institutional origin, proposer and date reason where demonstrated, explicit unknowns and contextual facts: [Wave17 bilingual booklet](docs/WORLD_DAYS_ORIGIN_WAVE17_28_STORIES_IT_EN_20261112.md). Per-ID primary sources, chronology caveats and coverage: [Wave17 source audit](docs/WORLD_DAYS_ORIGIN_WAVE17_SOURCE_AUDIT_20261112.md).
+- Added `tool/validate_editorial_origin_wave17_20261112.py` to Development checks; requires exact-head Python dataset/origin/queue checks, Flutter analyze and test, release Web build and protected review/merge gates. **Model-written IT/EN source research is not human factual certification**. Four other locale drafts and qualified native reviews (ES/FR/DE/PT) remain pending; no six-language REVIEWED claim.
+- Main stays at the last independently verified **55/1,111** source-researched origin histories. **If accepted alone**, Wave17 would bring this to 83/1,111, with 1,028 pending. Wave14 (+16), Wave15 (+32) and Wave16 (+26) are separate still-open proposals and are not published counts. Do not conflate earlier 56 reviewed editorial articles with independently researched origin stories.
+- No APK, Play Store or production deployment. Once approved and merged, regenerate the canonical queue on main; revisit earlier source-blocked IDs and continue across all 1,111+ as evidence becomes available.
