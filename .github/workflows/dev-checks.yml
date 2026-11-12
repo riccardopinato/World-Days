@@ -59,6 +59,7 @@ jobs:
           python3 tool/validate_editorial_origin_wave100.py
           python3 tool/editorial_origin_completion_waves.py
           python3 tool/validate_editorial_origin_completion_waves.py
+          python3 tool/export_origin_block100_20261113.py
           python3 tool/test_editorial_origin_completion_partial.py
           python3 tool/build_origin_review_index.py
           python3 tool/validate_origin_review_index.py
