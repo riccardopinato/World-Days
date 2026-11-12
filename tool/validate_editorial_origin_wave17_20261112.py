@@ -66,7 +66,7 @@ for rec in b["records"]:
 
 by_id = {x["observanceId"]: x for x in b["records"]}
 assert by_id["united-nations-day-for-south-south-cooperation"]["introducedYear"] == 2003
-assert by_id["united-nations-day-for-south-south-cooperation"]["firstObservedYear"] == 2012
+assert by_id["united-nations-day-for-south-south-cooperation"]["firstObservedYear"] == 2004
 assert by_id["international-day-of-the-world-s-indigenous-women-and-girls"]["firstObservedYear"] == 2026
 assert by_id["international-day-of-sign-languages"]["firstObservedYear"] == 2018
 assert by_id["world-food-day"]["firstObservedYear"] == 1981
