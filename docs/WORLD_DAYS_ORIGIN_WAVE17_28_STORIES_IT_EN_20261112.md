@@ -202,7 +202,7 @@ In 2020 the General Assembly adopted A/RES/74/275, designating 9 September the I
 
 ## 6. United Nations Day for South-South Cooperation — 12 settembre
 
-**ID:** `united-nations-day-for-south-south-cooperation` · **Data:** 12/9 · **Istituzione:** 2003 · **Prima celebrazione documentata:** 2012
+**ID:** `united-nations-day-for-south-south-cooperation` · **Data:** 12/9 · **Istituzione:** 2003 · **Prima celebrazione documentata:** 2004
 
 ### Italiano — 12 settembre: una ricorrenza ONU che ha cambiato data
 
