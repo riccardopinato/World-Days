@@ -34,8 +34,11 @@ def check():
         assert item["originResearchStage"] == "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW", oid
         assert item["formalIntroductionYearVerified"] == story["introducedYear"], oid
         assert item["firstObservedYearVerified"] == story["firstObservedYear"], oid
-        if story["introducedYear"] is not None and story["firstObservedYear"] is not None:
-            assert story["firstObservedYear"] >= story["introducedYear"], oid
+        # An earlier unofficial observance may precede formal UN/institutional
+        # designation; preserve that distinction instead of rejecting history.
+        for year_field in ("introducedYear", "firstObservedYear"):
+            year = story[year_field]
+            assert year is None or (isinstance(year, int) and 1800 <= year <= 2100), (oid, year_field)
         sources = story["sources"]
         assert len(sources) >= 1 and len(sources) == len(set(sources)), oid
         assert all(url.startswith("https://") for url in sources), oid
