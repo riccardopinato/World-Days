@@ -1,0 +1,2527 @@
+{
+  "schemaVersion": 1,
+  "block": "WAVE20_ORIGIN_100",
+  "snapshotOn": "2026-11-13",
+  "baseMain": "799bb7f6d57995adcfed040c2563492a99c5d42a",
+  "catalogSnapshot": 1111,
+  "researchedBeforeSnapshot": 225,
+  "pendingBeforeSnapshot": 886,
+  "blockNumber": 1,
+  "batchSizeLimit": 100,
+  "recordCount": 100,
+  "progress": {
+    "individuallyResearchedInThisBlock": 0,
+    "awaitingIndependentResearch": 100,
+    "blockedForMissingOriginalSource": 0,
+    "qualifiedSixLocaleHumanReviewed": 0,
+    "publishedAsRichEditorial": 0
+  },
+  "meaning": "A 100-ID source-research cohort, NOT 100 completed stories. Source leads from catalog are not per-ID historical certification. Partial verified stories are stored separately in unique wave files and the progress must be updated after each green main merge.",
+  "items": [
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "african-world-heritage-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 1,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "African World Heritage Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "chinese-language-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 2,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Chinese Language Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "day-of-the-seafarer",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 3,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Day of the Seafarer",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "disarmament-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 4,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Disarmament Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "english-language-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 5,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "English Language Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "french-language-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 6,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "French Language Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "global-media-and-information-literacy-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 7,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Global Media and Information Literacy Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-coffee-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 8,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Coffee Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-for-small-island-developing-states",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 9,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "International Day for Small Island Developing States",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-for-the-conservation-of-the-mangrove-ecosystem",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 10,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "International Day for the Conservation of the Mangrove Ecosystem",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-awareness-of-the-special-development-needs-and-challenges-of-landlocked-developing-countries",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 11,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Day of Awareness of the Special Development Needs and Challenges of Landlocked Developing Countries",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-cooperatives",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 12,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Day of Cooperatives",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-nomadic-heritage",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 13,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "International Day of Nomadic Heritage",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-the-intangible-cultural-heritage",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 14,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "International Day of the Intangible Cultural Heritage",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-the-world-s-indigenous-peoples",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 15,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Day of the World's Indigenous Peoples",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-day-of-university-sport",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 16,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "International Day of University Sport",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-delegate-s-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 17,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Delegate's Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-girls-in-ict-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 18,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Girls in ICT Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-week-of-science-and-peace",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 19,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Week of Science and Peace",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "international-widows-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 20,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "International Widows' Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "russian-language-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 21,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Russian Language Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "spanish-language-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 22,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Spanish Language Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "vesak-the-day-of-the-full-moon",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 23,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Vesak, the Day of the Full Moon",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "week-of-solidarity-with-the-peoples-of-non-self-governing-territories",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 24,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Week of Solidarity with the Peoples of Non-Self-Governing Territories",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "week-of-solidarity-with-the-peoples-struggling-against-racism-and-racial-discrimination",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 25,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Week of Solidarity with the Peoples Struggling against Racism and Racial Discrimination",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-antimicrobial-resistance-awareness-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 26,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Antimicrobial Resistance Awareness Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-blood-donor-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 27,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Blood Donor Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-breastfeeding-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 28,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Breastfeeding Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-chagas-disease-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 29,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Chagas Disease Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-day-against-child-labour",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 30,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Day Against Child Labour",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-day-for-safety-and-health-at-work",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 31,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Day for Safety and Health at Work",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-day-of-remembrance-for-road-traffic-victims",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 32,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Day of Remembrance for Road Traffic Victims",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-day-of-romani-language",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 33,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "World Day of Romani Language",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-habitat-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 34,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Habitat Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-hearing-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 35,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.who.int/campaigns/world-hearing-day"
+      ],
+      "titleEn": "World Hearing Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-hepatitis-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 36,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Hepatitis Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-immunization-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 37,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Immunization Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-intellectual-property-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 38,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Intellectual Property Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-malaria-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 39,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Malaria Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-maritime-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 40,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Maritime Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-meteorological-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 41,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Meteorological Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-migratory-bird-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 42,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Migratory Bird Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-neglected-tropical-diseases-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 43,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.who.int/campaigns"
+      ],
+      "titleEn": "World Neglected Tropical Diseases Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-philosophy-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 44,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.unesco.org/en/days/list"
+      ],
+      "titleEn": "World Philosophy Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-post-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 45,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Post Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-space-week",
+      "introducedYearLead": null,
+      "periodKind": "WEEK",
+      "scope": "GLOBAL",
+      "sequence": 46,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Space Week",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "world-tuberculosis-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 47,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "World Tuberculosis Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "zero-discrimination-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "GLOBAL",
+      "sequence": 48,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "titleEn": "Zero Discrimination Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "BR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "brazil-black-consciousness-day",
+      "introducedYearLead": 2003,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 49,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm"
+      ],
+      "titleEn": "Black Consciousness Day — Brazil",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "canada-multiculturalism-day",
+      "introducedYearLead": 2002,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 50,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html"
+      ],
+      "titleEn": "Canadian Multiculturalism Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "JP"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "japan-constitution-memorial-day",
+      "introducedYearLead": 1948,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 51,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "titleEn": "Constitution Memorial Day — Japan",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "JP"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "japan-culture-day",
+      "introducedYearLead": 1948,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 52,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "titleEn": "Culture Day — Japan",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "ES"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "spain-victims-of-terrorism-tribute-day",
+      "introducedYearLead": 2011,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 53,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://boe.es/diario_boe/txt.php?id=BOE-A-2011-15039&lang=es"
+      ],
+      "titleEn": "Day of Remembrance for Victims of Terrorism — Spain",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "ES"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "spain-exile-victims-remembrance-day",
+      "introducedYearLead": 2022,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 54,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020"
+      ],
+      "titleEn": "Day of Remembrance of Exile Victims — Spain",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "AU"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "australia-harmony-day",
+      "introducedYearLead": 1999,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 55,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags"
+      ],
+      "titleEn": "Harmony Day — Australia",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "BR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "brazil-indigenous-peoples-day",
+      "introducedYearLead": 2022,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 56,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm"
+      ],
+      "titleEn": "Indigenous Peoples Day — Brazil",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "ES"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "spain-acquired-brain-injury-day",
+      "introducedYearLead": 2007,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 57,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx"
+      ],
+      "titleEn": "National Acquired Brain Injury Day — Spain",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "canada-truth-and-reconciliation-day",
+      "introducedYearLead": 2021,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 58,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html"
+      ],
+      "titleEn": "National Day for Truth and Reconciliation — Canada",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PL"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pl-flag-day",
+      "introducedYearLead": 2004,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 59,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gov.pl/web/dyplomacja/dzien-flagi-rzeczypospolitej-polskiej"
+      ],
+      "titleEn": "National Flag Day — Poland",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "canada-national-flag-day",
+      "introducedYearLead": 1996,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 60,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html"
+      ],
+      "titleEn": "National Flag of Canada Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "JP"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "japan-national-foundation-day",
+      "introducedYearLead": 1966,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 61,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html"
+      ],
+      "titleEn": "National Foundation Day — Japan",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "BR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "brazil-national-physicist-day",
+      "introducedYearLead": 2023,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 62,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14769-22-dezembro-2023-795112-publicacaooriginal-170562-pl.html"
+      ],
+      "titleEn": "National Physicist Day — Brazil",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "IN"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "india-national-science-day",
+      "introducedYearLead": 1986,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 63,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468"
+      ],
+      "titleEn": "National Science Day — India",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PT"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "portugal-national-sea-day",
+      "introducedYearLead": 1998,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 64,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar",
+        "https://portugal.gov.pt/gc23/comunicacao/comunicados/governo-assinala-dia-nacional-do-mar"
+      ],
+      "titleEn": "National Sea Day — Portugal",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "AU"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "australia-national-sorry-day",
+      "introducedYearLead": 1998,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 65,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://ministers.pmc.gov.au/mccarthy/additional-funding-support-stolen-generations-survivors"
+      ],
+      "titleEn": "National Sorry Day — Australia",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "IN"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "india-national-voters-day",
+      "introducedYearLead": 2011,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 66,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.eci.gov.in/voicenet/ArticleDECUS.htm"
+      ],
+      "titleEn": "National Voters' Day — India",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "FR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "france-armistice-1918-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 67,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales"
+      ],
+      "titleEn": "1918 Armistice Commemoration — France",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 68,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "Admiral Yi Sun-sin Birthday Commemoration — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-aerospace-day-in-korea",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 69,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "Aerospace Day in Korea — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "FI"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "fi-finnish-literature-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 70,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026"
+      ],
+      "titleEn": "Aleksis Kivi and Finnish Literature Day — Finland",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "SE"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "se-alfred-nobel-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 71,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/"
+      ],
+      "titleEn": "Alfred Nobel Day — SE",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "FR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "france-algerian-war-remembrance-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 72,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.cheminsdememoire.gouv.fr/fr/le-devenir-des-journees-nationales"
+      ],
+      "titleEn": "Algerian War Remembrance Day — France",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "IT"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "italian-alpini-remembrance-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 73,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html"
+      ],
+      "titleEn": "Alpini Remembrance Day — Italy",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-vimy-ridge-battle-anniversary",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 74,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "Anniversary of the Battle of Vimy Ridge (Canada)",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-statute-of-westminster-anniversary",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 75,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "Anniversary of the Statute of Westminster (Canada)",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "AU"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "australia-anzac-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 76,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags"
+      ],
+      "titleEn": "Anzac Day — Australia",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "NZ"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "nz-anzac-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 77,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates"
+      ],
+      "titleEn": "Anzac Day — New Zealand",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-april-19-revolution-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 78,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "April 19 Revolution Day — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PH"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ph-day-of-valor",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 79,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "titleEn": "Araw ng Kagitingan — Day of Valor — Philippines",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-arbor-day-in-korea",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 80,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "Arbor Day in Korea — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "IT"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "italian-accessibility-barriers-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 81,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html"
+      ],
+      "titleEn": "Architectural Accessibility Day — Italy",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "GB"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "armed-forces-day-uk",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 82,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.armedforcesday.org.uk/"
+      ],
+      "titleEn": "Armed Forces Day — United Kingdom",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-armenian-genocide-remembrance",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 83,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "Armenian Genocide Remembrance Day (Canada)",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PL"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pl-baptism-of-poland-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 84,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp"
+      ],
+      "titleEn": "Baptism of Poland Day — PL",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PE"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pe-battle-of-angamos-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 85,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gob.pe/feriados"
+      ],
+      "titleEn": "Battle of Angamos Day — Peru",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PE"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pe-battle-of-arica-flag-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 86,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gob.pe/feriados"
+      ],
+      "titleEn": "Battle of Arica and Flag Day — Peru",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PE"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pe-battle-of-ayacucho-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 87,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gob.pe/feriados"
+      ],
+      "titleEn": "Battle of Ayacucho Day — Peru",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PE"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "pe-battle-of-junin-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 88,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.gob.pe/feriados"
+      ],
+      "titleEn": "Battle of Junín Day — Peru",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "US"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "martin-luther-king-jr-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 89,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.opm.gov/frequently-asked-questions/pay-and-leave-faq/pay-administration/what-are-federal-holidays/"
+      ],
+      "titleEn": "Birthday of Martin Luther King, Jr.",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "PH"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ph-bonifacio-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 90,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "titleEn": "Bonifacio Day — Philippines",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-british-home-child-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 91,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "British Home Child Day (Canada)",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-bu-ma-democratic-protests-remembrance-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 92,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "Bu-Ma Democratic Protests Remembrance Day — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-canada-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 93,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "Canada Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "CA"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "ca-armed-forces-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 94,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "titleEn": "Canadian Armed Forces Day",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "SK"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "sk-carpathian-dukla-operation-heroes-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 95,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/"
+      ],
+      "titleEn": "Carpathian Dukla Operation Heroes Day — SK",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "SK"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "sk-cernova-tragedy-remembrance-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 96,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/"
+      ],
+      "titleEn": "Cernova Tragedy Remembrance Day — SK",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-childrens-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 97,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038"
+      ],
+      "titleEn": "Children's Day — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "IT"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "italian-christopher-columbus-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 98,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html"
+      ],
+      "titleEn": "Christopher Columbus Commemoration — Italy",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "US"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "us-columbus-day",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 99,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      ],
+      "titleEn": "Columbus Day — United States",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    },
+    {
+      "countries": [
+        "KR"
+      ],
+      "existingEditorialStage": "NOT_RESEARCHED",
+      "id": "kr-w10-coming-of-age-day-in-korea",
+      "introducedYearLead": null,
+      "periodKind": "DAY",
+      "scope": "NATIONAL",
+      "sequence": 100,
+      "sourceGate": "CANONICAL_LINK_PRESENT_INDIVIDUAL_STORY_STILL_TO_REVIEW",
+      "sourceLeads": [
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "titleEn": "Coming of Age Day in Korea — South Korea",
+      "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
+      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "formalIntroductionYearVerified": null,
+      "firstObservedYearVerified": null,
+      "verifiedFounderOrPromoter": null,
+      "dateRationaleVerified": null,
+      "primaryOriginActVerified": null,
+      "verifiedSourceUrls": [],
+      "blockedReason": null,
+      "storyFile": null
+    }
+  ]
+}
