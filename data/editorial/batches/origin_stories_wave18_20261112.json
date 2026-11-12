@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE18-BULK-OCT-DEC-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 43,
+  "count": 51,
   "sourcePolicy": "Individual institution-linked historical narratives and resolutions with explicit documented/unknown date rationales. Original English and Italian research drafts pending human fact/native review; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -1487,6 +1487,278 @@
         }
       },
       "sourceReviewNote": "Institutional chronology check for world-turkic-language-family-day, established 43 C/57, by first-party UN/UNESCO/FAO/ICAO sources. Historic date event, first celebration and formal recognition not conflated. Original IT/EN source-research drafts, no qualified human factual/native reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-migrants-day",
+      "introducedYear": 2000,
+      "firstObservedYear": 2001,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/55/93",
+        "https://www.un.org/en/observances/migrants-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 December: a migrant-rights treaty anniversary becomes an annual UN day",
+          "origin": "The General Assembly proclaimed 18 December International Migrants Day through A/RES/55/93 on 4 December 2000. The date remembers 18 December 1990, when the Assembly adopted the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families. The first annual UN date following proclamation was in December 2001. The convention's adoption and the day recognising migrants' contributions are separate milestones. The observance asks governments to protect fundamental rights regardless of the reasons people cross borders and to distinguish migration policy from dehumanising stereotypes.",
+          "promoter": "The General Assembly established the observance in 2000, drawing on the 1990 migrant-workers rights treaty and decades of advocacy by migrants and civil society.",
+          "purpose": "Protect migrants' fundamental rights and recognise their social, cultural and economic contributions through accurate public information and support.",
+          "facts": [
+            "The migrant-workers convention was adopted on 18 December 1990.",
+            "The General Assembly proclaimed International Migrants Day on 4 December 2000.",
+            "The first annual 18 December after adoption was in 2001."
+          ]
+        },
+        "it": {
+          "heading": "18 dicembre: l'anniversario della Convenzione sui lavoratori migranti",
+          "origin": "Il 4 dicembre 2000 l'Assemblea generale ONU approvò A/RES/55/93, proclamando il 18 dicembre Giornata internazionale dei migranti. La data ricorda l'adozione, il 18 dicembre 1990, della Convenzione sui diritti dei lavoratori migranti e dei loro familiari. La prima annualità ONU successiva alla proclamazione fu nel 2001. Trattato giuridico e giornata pubblica sono tappe distinte. La ricorrenza richiama il rispetto dei diritti fondamentali delle persone che attraversano confini e la necessità di distinguere politiche migratorie e stereotipi disumanizzanti.",
+          "promoter": "L'Assemblea generale istituì la ricorrenza nel 2000, riprendendo il trattato del 1990 e il lavoro precedente di migranti e organizzazioni civiche.",
+          "purpose": "Difendere i diritti dei migranti e riconoscerne contributi sociali, economici e culturali attraverso informazioni corrette e sostegno concreto.",
+          "facts": [
+            "La Convenzione sui lavoratori migranti fu adottata il 18 dicembre 1990.",
+            "L'ONU proclamò la giornata il 4 dicembre 2000.",
+            "La prima ricorrenza annuale successiva alla proclamazione cadde nel 2001."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for international-migrants-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "arabic-language-day",
+      "introducedYear": 2012,
+      "firstObservedYear": 2012,
+      "sources": [
+        "https://www.unesco.org/en/world-arabic-language-day",
+        "https://www.unesco.org/en/days/list"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 December: Arabic's recognition at the UN explains the language day",
+          "origin": "UNESCO has celebrated World Arabic Language Day on 18 December since 2012. The date recalls the General Assembly's decision of 18 December 1973 to adopt Arabic as the sixth official language of the United Nations. Arabic's diverse written, spoken and literary forms have long shaped scholarship, poetry, science and cultural exchange across regions. UNESCO's celebration should not be confused with the creation of the language or the UN's 1973 institutional decision itself: it is a later initiative to acknowledge linguistic diversity. The UNESCO programme promotes dialogue and access to knowledge through Arabic.",
+          "promoter": "UNESCO began the annual linguistic celebration in 2012, drawing on the United Nations' earlier 1973 recognition of Arabic as an official language.",
+          "purpose": "Celebrate Arabic's diverse linguistic and cultural heritage and promote language access, learning and mutual understanding across communities.",
+          "facts": [
+            "UNESCO has observed the annual day on 18 December since 2012.",
+            "The UN added Arabic as its sixth official language on 18 December 1973.",
+            "UNESCO highlights Arabic's rich literary traditions and diversity of spoken forms."
+          ]
+        },
+        "it": {
+          "heading": "18 dicembre: la lingua araba e il riconoscimento ONU del 1973",
+          "origin": "L'UNESCO celebra la Giornata mondiale della lingua araba ogni 18 dicembre dal 2012. La data ricorda la decisione dell'Assemblea generale ONU del 18 dicembre 1973, che riconobbe l'arabo come sesta lingua ufficiale dell'Organizzazione. Le diverse forme dell'arabo, scritte e parlate, hanno contribuito per secoli a poesia, studi scientifici e scambi culturali. La giornata UNESCO non coincide con la nascita della lingua né con la decisione ONU del 1973: è un'iniziativa successiva per valorizzare la diversità linguistica e il dialogo attraverso la conoscenza.",
+          "promoter": "L'UNESCO avviò la celebrazione annuale nel 2012, collegandola al precedente riconoscimento dell'arabo come lingua ufficiale dell'ONU.",
+          "purpose": "Valorizzare il patrimonio linguistico e letterario arabo e promuovere apprendimento, accessibilità e comprensione tra culture.",
+          "facts": [
+            "L'UNESCO celebra la ricorrenza dal 18 dicembre 2012.",
+            "L'ONU riconobbe l'arabo come sesta lingua ufficiale il 18 dicembre 1973.",
+            "L'UNESCO sottolinea la varietà di espressioni e tradizioni letterarie dell'arabo."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for arabic-language-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-recognition-for-women-searchers-of-missing-persons",
+      "introducedYear": 2026,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/80/301",
+        "https://public.e-delegate.un.org/reports/ga80_resolutions.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "19 December: women searching for missing relatives gain an international day",
+          "origin": "On 31 August 2026 the UN General Assembly adopted A/RES/80/301, designating 19 December as the International Day of Recognition for Women Searchers of Missing Persons. Women in many regions have organised searches, gathered evidence and advocated for truth and justice when relatives have disappeared, frequently facing threats and discrimination themselves. The resolution encourages their participation in decisions and stronger protection from violence. As of 12 November 2026 the first 19 December after adoption is still in the future, so this record does not claim a celebration has occurred. An exact historical anniversary behind the date is not verified.",
+          "promoter": "The General Assembly adopted the 2026 observance, recognising the pre-existing efforts of women searchers and family groups without inventing an individual founder.",
+          "purpose": "Recognise women searchers' work, defend their security and participation and support families' access to truth, information and justice.",
+          "facts": [
+            "The General Assembly adopted A/RES/80/301 on 31 August 2026.",
+            "The first annual 19 December date after proclamation has not yet occurred as of 12 November 2026.",
+            "The resolution explicitly calls for protection from discrimination and violence against women searchers."
+          ]
+        },
+        "it": {
+          "heading": "19 dicembre: riconoscere le donne che cercano persone scomparse",
+          "origin": "Il 31 agosto 2026 l'Assemblea generale ONU approvò A/RES/80/301, istituendo il 19 dicembre Giornata di riconoscimento delle donne che cercano persone scomparse. In diverse regioni le donne hanno organizzato ricerche, raccolto indizi e chiesto verità e giustizia per familiari scomparsi, affrontando spesso minacce e discriminazioni. La risoluzione incoraggia la loro partecipazione alle decisioni e una protezione concreta. Al 12 novembre 2026 la prima data annuale del 19 dicembre dopo l'atto è ancora futura e non va presentata come evento già celebrato. Non è provato un anniversario preciso.",
+          "promoter": "L'Assemblea generale istituì la ricorrenza nel 2026, riconoscendo iniziative precedenti delle donne e dei gruppi familiari senza inventare una fondatrice.",
+          "purpose": "Valorizzare il lavoro delle donne che cercano scomparsi, difenderne sicurezza e partecipazione e sostenere il diritto delle famiglie alla verità.",
+          "facts": [
+            "L'Assemblea generale adottò A/RES/80/301 il 31 agosto 2026.",
+            "Al 12 novembre 2026 la prima data del 19 dicembre dopo la proclamazione è ancora futura.",
+            "La risoluzione richiede protezione contro violenza e discriminazione delle donne impegnate nelle ricerche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for international-day-of-recognition-for-women-searchers-of-missing-persons: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-human-solidarity-day",
+      "introducedYear": 2005,
+      "firstObservedYear": 2006,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/60/209",
+        "https://www.un.org/en/observances/human-solidarity-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 December: solidarity becomes a stated international value",
+          "origin": "In December 2005 the UN General Assembly adopted A/RES/60/209, proclaiming 20 December International Human Solidarity Day. The first annual date after the proclamation was in 2006. The concept had already appeared in the 2000 Millennium Declaration, and the UN had established a World Solidarity Fund in 2002; those earlier instruments are not the 2005 day itself. The observance encourages practical international cooperation rather than treating solidarity as a purely sentimental slogan. Poverty reduction, shared responsibility and international commitments are central themes; the founding act does not establish a particular anniversary explaining 20 December.",
+          "promoter": "The General Assembly adopted the day in 2005, building on the Millennium Declaration and earlier World Solidarity Fund initiative.",
+          "purpose": "Turn solidarity into support for people facing poverty and exclusion, including cooperation on health, education and sustainable development.",
+          "facts": [
+            "The Millennium Declaration identified solidarity among core international values in 2000.",
+            "The General Assembly established a World Solidarity Fund in 2002.",
+            "The international day was proclaimed in A/RES/60/209 in 2005."
+          ]
+        },
+        "it": {
+          "heading": "20 dicembre: la solidarietà diventa un valore internazionale dichiarato",
+          "origin": "Nel dicembre 2005 l'Assemblea generale ONU adottò A/RES/60/209, istituendo il 20 dicembre Giornata internazionale della solidarietà umana. La prima annualità successiva cadde nel 2006. La solidarietà era già citata nella Dichiarazione del Millennio del 2000 e nel 2002 era stato creato un Fondo mondiale di solidarietà, strumenti differenti dalla proclamazione del 2005. La ricorrenza propone cooperazione concreta anziché un messaggio soltanto emotivo, collegando responsabilità condivise e riduzione delle disuguaglianze. Il motivo storico preciso della data non è dimostrato.",
+          "promoter": "L'Assemblea generale proclamò il giorno nel 2005, raccogliendo gli impegni della Dichiarazione del Millennio e del Fondo di solidarietà.",
+          "purpose": "Tradurre la solidarietà in aiuti e cooperazione per chi vive povertà ed esclusione, sostenendo salute, istruzione e sviluppo sostenibile.",
+          "facts": [
+            "La Dichiarazione del Millennio riconobbe la solidarietà come valore nel 2000.",
+            "L'Assemblea generale istituì il Fondo mondiale di solidarietà nel 2002.",
+            "La giornata internazionale fu proclamata con A/RES/60/209 nel 2005."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for international-human-solidarity-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-meditation-day",
+      "introducedYear": 2024,
+      "firstObservedYear": 2024,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/79/137",
+        "https://www.un.org/en/observances/world-meditation-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 December: an ancient practice receives a new UN designation",
+          "origin": "In December 2024 the General Assembly adopted A/RES/79/137, proclaiming 21 December World Meditation Day. Practices of contemplation and meditation have appeared in many religious and secular traditions for centuries; the UN did not create meditation or designate one method as universally correct. Instead, the observance encourages awareness of possible benefits for well-being and reflection, while respecting cultural diversity and individual choices. The calendar date was formally set by the Assembly, but the documents examined do not establish a precise historical anniversary explaining 21 December. The first annual date followed the 2024 adoption that same month.",
+          "promoter": "The UN General Assembly established the international observance in 2024; no single tradition or individual should be credited as founding all meditation practices.",
+          "purpose": "Promote accessible, voluntary reflection and mental well-being with respect for different cultural, spiritual and secular traditions.",
+          "facts": [
+            "The General Assembly proclaimed 21 December through A/RES/79/137 in 2024.",
+            "The resolution invites governments, UN agencies and civil society to observe the day.",
+            "Meditation includes practices developed across multiple cultural and historical traditions."
+          ]
+        },
+        "it": {
+          "heading": "21 dicembre: pratiche antiche, riconoscimento internazionale recente",
+          "origin": "Nel dicembre 2024 l'Assemblea generale ONU adottò A/RES/79/137, proclamando il 21 dicembre Giornata mondiale della meditazione. Pratiche contemplative e meditative esistono da secoli in tradizioni religiose e laiche diverse; l'ONU non ha inventato la meditazione né ha imposto un metodo unico. La giornata richiama attenzione a benessere e riflessione personale, rispettando pluralità culturale e libertà di scelta. La data è fissata dall'Assemblea, ma gli atti consultati non dimostrano un anniversario storico che spieghi il 21 dicembre. La prima annualità cade nello stesso mese della proclamazione.",
+          "promoter": "L'Assemblea generale istituisce la ricorrenza nel 2024, senza attribuire l'origine di tutte le pratiche di meditazione a una persona o tradizione.",
+          "purpose": "Promuovere riflessione libera e accessibile, benessere e rispetto di forme culturali, spirituali e laiche differenti.",
+          "facts": [
+            "L'ONU proclamò il 21 dicembre con A/RES/79/137 nel 2024.",
+            "La risoluzione invita Stati, organizzazioni ONU e società civile a partecipare.",
+            "La meditazione comprende pratiche nate in tradizioni storiche e culturali molteplici."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for world-meditation-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-basketball-day",
+      "introducedYear": 2023,
+      "firstObservedYear": 2023,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/324",
+        "https://www.un.org/en/observances/world-basketball-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 December: basketball's first game becomes a global anniversary",
+          "origin": "The first organised basketball game was played on 21 December 1891 at the International YMCA Training School in Springfield, Massachusetts, following rules created by James Naismith. On 25 August 2023 the General Assembly adopted A/RES/77/324, proclaiming that date World Basketball Day. The modern UN observance is thus linked to a specific anniversary but did not invent the game or its global community. The resolution highlights basketball as a way to encourage teamwork, inclusion, physical activity and contact across cultural barriers, including opportunities for girls and people with disabilities.",
+          "promoter": "The General Assembly proclaimed the international day in 2023, commemorating the game developed by James Naismith in 1891.",
+          "purpose": "Promote accessible sport, teamwork, healthy activity and inclusion through participation in and enjoyment of basketball.",
+          "facts": [
+            "The first basketball game was played on 21 December 1891.",
+            "James Naismith created the original rules while teaching in Springfield, Massachusetts.",
+            "The UN established World Basketball Day in August 2023 with A/RES/77/324."
+          ]
+        },
+        "it": {
+          "heading": "21 dicembre: la prima partita di basket diventa anniversario mondiale",
+          "origin": "La prima partita organizzata di pallacanestro si svolse il 21 dicembre 1891 presso la scuola internazionale YMCA di Springfield, negli Stati Uniti, sulla base delle regole ideate da James Naismith. Il 25 agosto 2023 l'Assemblea generale ONU approvò A/RES/77/324, proclamando quella data Giornata mondiale del basket. La ricorrenza moderna si collega a un anniversario preciso ma non rappresenta la nascita recente dello sport. L'atto valorizza gioco di squadra, attività fisica, inclusione e incontro fra persone e culture, con attenzione anche a ragazze e persone con disabilità.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 2023, ricordando l'invenzione del gioco realizzata da James Naismith nel 1891.",
+          "purpose": "Promuovere sport accessibile, collaborazione, benessere e partecipazione di tutti attraverso pratica e condivisione della pallacanestro.",
+          "facts": [
+            "La prima partita di basket si giocò il 21 dicembre 1891.",
+            "James Naismith ideò le regole originarie a Springfield, negli Stati Uniti.",
+            "L'ONU adottò A/RES/77/324 nell'agosto 2023."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for world-basketball-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-anti-cybercrime-day",
+      "introducedYear": 2024,
+      "firstObservedYear": 2025,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/79/243",
+        "https://www.un.org/en/observances/international-anti-cybercrime-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 December: the adoption of the UN cybercrime convention defines the date",
+          "origin": "On 24 December 2024 the General Assembly adopted A/RES/79/243, including the United Nations Convention against Cybercrime and a decision designating 24 December International Anti-Cybercrime Day. The date therefore directly recalls the convention's adoption rather than a widely celebrated pre-existing holiday. The treaty addresses cooperation on offences involving information systems and electronic evidence, while debate about rights safeguards, privacy and implementation remains important. The first annual 24 December after adoption was in 2025. Adopting a convention and bringing it into force are separate legal stages; the day cannot be presented as proof of universal implementation.",
+          "promoter": "The General Assembly proclaimed the observance in its 2024 cybercrime convention resolution; UNODC has a role in international cooperation on the convention.",
+          "purpose": "Raise awareness of cybercrime prevention and lawful international cooperation while maintaining attention to privacy, due process and fundamental rights.",
+          "facts": [
+            "The UN Convention against Cybercrime was adopted on 24 December 2024.",
+            "The observance is specified in operative paragraph 12 of A/RES/79/243.",
+            "The first annual 24 December after the resolution occurred in 2025."
+          ]
+        },
+        "it": {
+          "heading": "24 dicembre: la Convenzione ONU sulla criminalità informatica spiega la data",
+          "origin": "Il 24 dicembre 2024 l'Assemblea generale ONU approvò A/RES/79/243, comprendente la Convenzione contro la criminalità informatica e la decisione di istituire lo stesso 24 dicembre come giornata internazionale. La data ricorda quindi l'adozione del trattato, non una festività preesistente. La Convenzione affronta cooperazione sui reati informatici e prove digitali; restano rilevanti anche le discussioni su privacy, tutele giuridiche e applicazione concreta. La prima annualità successiva all'atto fu nel 2025. L'adozione di un trattato e la sua entrata in vigore sono fasi legali differenti.",
+          "promoter": "L'Assemblea generale proclamò la ricorrenza nella risoluzione ONU sulla Convenzione del 2024; UNODC sostiene la cooperazione internazionale in materia.",
+          "purpose": "Sensibilizzare sulla prevenzione dei reati informatici e sulla cooperazione lecita, mantenendo attenzione a privacy, giusto processo e diritti.",
+          "facts": [
+            "La Convenzione ONU sulla criminalità informatica fu adottata il 24 dicembre 2024.",
+            "La giornata è prevista espressamente dal paragrafo operativo 12 di A/RES/79/243.",
+            "La prima data annuale dopo l'adozione fu il 24 dicembre 2025."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for international-anti-cybercrime-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-epidemic-preparedness",
+      "introducedYear": 2020,
+      "firstObservedYear": 2021,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/75/27",
+        "https://www.un.org/en/observances/international-day-epidemic-preparadness"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 December: the COVID-19 era brings epidemic preparedness into the calendar",
+          "origin": "In December 2020, during the COVID-19 pandemic, the General Assembly adopted A/RES/75/27 and designated 27 December the International Day of Epidemic Preparedness. The first full annual date after adoption fell in 2021. The resolution highlights prevention, early detection, reliable communication, strong health systems and international cooperation before outbreaks become uncontrolled crises. Epidemics existed long before COVID-19; the pandemic supplied the immediate historical context for the new UN observance. The exact reason for choosing 27 December rather than another date is not proven by the original records consulted.",
+          "promoter": "The United Nations General Assembly established the international day in 2020 in the context of COVID-19 and long-standing public-health preparedness work.",
+          "purpose": "Strengthen epidemic surveillance, timely public communication, scientific collaboration and resilient local health systems.",
+          "facts": [
+            "The UN proclaimed the day through resolution A/RES/75/27 in December 2020.",
+            "The designation came during the first year of the COVID-19 pandemic.",
+            "The observance emphasises prevention, preparedness and coordinated response before outbreaks spread."
+          ]
+        },
+        "it": {
+          "heading": "27 dicembre: la pandemia rende prioritaria la preparazione alle epidemie",
+          "origin": "Nel dicembre 2020, durante la pandemia di COVID-19, l'Assemblea generale ONU approvò A/RES/75/27 e istituì il 27 dicembre Giornata internazionale di preparazione alle epidemie. La prima annualità completa successiva all'adozione fu nel 2021. La risoluzione richiama prevenzione, identificazione precoce, comunicazione affidabile, sistemi sanitari solidi e cooperazione internazionale prima che i focolai diventino crisi diffuse. Le epidemie esistevano molto prima del COVID-19, ma quella pandemia costituì il contesto storico immediato. Non è dimostrato un anniversario specifico che spieghi il 27 dicembre.",
+          "promoter": "L'Assemblea generale ONU istituì la ricorrenza nel 2020, durante il COVID-19, riprendendo un lungo percorso di preparazione sanitaria internazionale.",
+          "purpose": "Rafforzare sorveglianza sanitaria, comunicazione tempestiva, collaborazione scientifica e capacità dei servizi locali di affrontare nuovi focolai.",
+          "facts": [
+            "L'ONU proclamò la giornata nel dicembre 2020 con A/RES/75/27.",
+            "La decisione fu presa durante il primo anno della pandemia di COVID-19.",
+            "La ricorrenza sottolinea prevenzione, preparazione e coordinamento delle risposte."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual institution-level history for international-day-of-epidemic-preparedness: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending."
     }
   ]
 }
