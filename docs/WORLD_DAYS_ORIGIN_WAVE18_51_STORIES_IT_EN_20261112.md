@@ -938,40 +938,43 @@ The UN General Assembly proclaimed 24 November World Conjoined Twins Day through
 ## 24. International Day for the Elimination of Violence against Women — 25/11
 
 **ID:** `international-day-for-the-elimination-of-violence-against-women`  
-**Istituzione formale:** 2000 · **Prima osservanza verificata:** 1981  
+**Istituzione formale:** 1999 · **Prima osservanza verificata:** 1981  
 **Riferimento del catalogo:** A/RES/54/134
 
 ### Italiano — 25 novembre: le sorelle Mirabal e una memoria precedente all'ONU
 
-Le attiviste per i diritti delle donne celebrano il 25 novembre dal 1981, in ricordo delle tre sorelle Mirabal, oppositrici della dittatura dominicana uccise nel 1960. L'ONU adottò una dichiarazione sull'eliminazione della violenza contro le donne nel 1993 e il 7 febbraio 2000 istituì formalmente la giornata con A/RES/54/134. La storia mostra come un'iniziativa femminista nata in America Latina abbia ottenuto in seguito riconoscimento mondiale. La ricorrenza riguarda violenze nella vita pubblica e privata e non fu inventata dall'ONU nel 2000.
+Le attiviste per i diritti delle donne celebrano il 25 novembre dal 1981, in ricordo delle tre sorelle Mirabal, oppositrici della dittatura dominicana uccise nel 1960. L'ONU adottò una dichiarazione sull'eliminazione della violenza contro le donne nel 1993 e il 17 dicembre 1999 istituì formalmente la giornata con A/RES/54/134. La risoluzione fu pubblicata il 7 febbraio 2000: quella è la data di pubblicazione, non di adozione. La storia mostra come un'iniziativa femminista nata in America Latina abbia ottenuto in seguito riconoscimento mondiale. La ricorrenza riguarda violenze nella vita pubblica e privata e non fu inventata dall'ONU nel 2000.
 
-**Promotore:** Le associazioni femministe latinoamericane avviarono la commemorazione nel 1981; l'Assemblea generale ONU la riconobbe formalmente nel 2000.
+**Promotore:** Le associazioni femministe latinoamericane avviarono la commemorazione nel 1981; l'Assemblea generale ONU la riconobbe formalmente il 17 dicembre 1999.
 
 **Perché è importante:** Sostenere prevenzione, protezione delle vittime, giustizia e interventi concreti contro violenza e discriminazione di genere.
 
-**Tre fatti e curiosità documentati:**
+**Tre fatti e curiosità:**
 - Le sorelle Mirabal furono assassinate nella Repubblica Dominicana nel 1960.
 - Le iniziative femministe dedicate al 25 novembre iniziarono nel 1981.
-- L'ONU proclamò la giornata con A/RES/54/134 il 7 febbraio 2000.
+- L'Assemblea generale adottò A/RES/54/134 il 17 dicembre 1999; il documento venne pubblicato nel febbraio 2000.
 
 ### English — 25 November: the Mirabal sisters and a movement that predates the UN day
 
-Women's rights activists have commemorated 25 November since 1981, remembering three Mirabal sisters, political opponents of the Dominican dictatorship who were murdered in 1960. The UN adopted the Declaration on the Elimination of Violence against Women in 1993 and, on 7 February 2000, formally designated 25 November through A/RES/54/134. This history shows that a date shaped by regional feminist activism later gained global institutional recognition. The day addresses violence against women and girls in both public and private life; the United Nations did not originate the 1981 movement.
+Women's rights activists have commemorated 25 November since 1981, remembering three Mirabal sisters, political opponents of the Dominican dictatorship who were murdered in 1960. The UN adopted the Declaration on the Elimination of Violence against Women in 1993 and, on 17 December 1999, formally designated 25 November through A/RES/54/134. The resolution was published on 7 February 2000, but publication must not be mistaken for the Assembly's adoption date. This history shows that a date shaped by regional feminist activism later gained global institutional recognition. The day addresses violence against women and girls in both public and private life; the United Nations did not originate the 1981 movement.
 
-**Promoter:** Women's rights activists in Latin America initiated the annual 25 November campaign in 1981; the General Assembly formally adopted the observance in 2000.
+**Promoter:** Women's rights activists in Latin America initiated the annual 25 November campaign in 1981; the General Assembly formally adopted the observance on 17 December 1999.
 
 **Why it matters:** Promote prevention, survivor protection, justice and effective action against gender-based violence and discrimination.
 
 **Three documented facts:**
 - The Mirabal sisters were murdered in the Dominican Republic in 1960.
 - Women's rights activists began marking 25 November in 1981.
-- The General Assembly adopted A/RES/54/134 on 7 February 2000.
+- The General Assembly adopted resolution A/RES/54/134 on 17 December 1999; its publication followed in February 2000.
 
 **Fonti primarie / original institutional references:**
 - https://mandates.un.org/mandate/A/RES/54/134
 - https://www.un.org/en/observances/ending-violence-against-women-day/background
+- https://digitallibrary.un.org/record/404761
+- https://digitallibrary.un.org/record/404722
 
-**Confine editoriale:** 2026-11-12 individual institutional history for international-day-for-the-elimination-of-violence-against-women; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending.
+**Confine editoriale:** 2026-11-12 individual institutional history for international-day-for-the-elimination-of-violence-against-women; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending. UN Digital Library voting and meeting records establish adoption on 17 December 1999; 7 February 2000 is only the publication date. Formal year corrected to 1999, distinct from the 1981 Latin American commemoration.
+
 
 ---
 
@@ -1749,25 +1752,25 @@ At its forty-third General Conference in Samarkand on 3 November 2025, UNESCO ad
 ## 44. International Migrants Day — 18/12
 
 **ID:** `international-migrants-day`  
-**Istituzione formale:** 2000 · **Prima osservanza verificata:** 2001  
+**Istituzione formale:** 2000 · **Prima osservanza verificata:** 2000  
 **Riferimento del catalogo:** A/RES/55/93
 
 ### Italiano — 18 dicembre: l'anniversario della Convenzione sui lavoratori migranti
 
-Il 4 dicembre 2000 l'Assemblea generale ONU approvò A/RES/55/93, proclamando il 18 dicembre Giornata internazionale dei migranti. La data ricorda l'adozione, il 18 dicembre 1990, della Convenzione sui diritti dei lavoratori migranti e dei loro familiari. La prima annualità ONU successiva alla proclamazione fu nel 2001. Trattato giuridico e giornata pubblica sono tappe distinte. La ricorrenza richiama il rispetto dei diritti fondamentali delle persone che attraversano confini e la necessità di distinguere politiche migratorie e stereotipi disumanizzanti.
+Il 4 dicembre 2000 l'Assemblea generale ONU approvò A/RES/55/93, proclamando il 18 dicembre Giornata internazionale dei migranti. La data ricorda l'adozione, il 18 dicembre 1990, della Convenzione sui diritti dei lavoratori migranti e dei loro familiari. Una dichiarazione contemporanea dell'Organizzazione internazionale del lavoro chiama esplicitamente il 18 dicembre 2000 la prima Giornata internazionale dei migranti delle Nazioni Unite, nello stesso mese della proclamazione. Trattato giuridico e giornata pubblica sono tappe distinte. La ricorrenza richiama il rispetto dei diritti fondamentali delle persone che attraversano confini e la necessità di distinguere politiche migratorie e stereotipi disumanizzanti.
 
 **Promotore:** L'Assemblea generale istituì la ricorrenza nel 2000, riprendendo il trattato del 1990 e il lavoro precedente di migranti e organizzazioni civiche.
 
 **Perché è importante:** Difendere i diritti dei migranti e riconoscerne contributi sociali, economici e culturali attraverso informazioni corrette e sostegno concreto.
 
-**Tre fatti e curiosità documentati:**
+**Tre fatti e curiosità:**
 - La Convenzione sui lavoratori migranti fu adottata il 18 dicembre 1990.
 - L'ONU proclamò la giornata il 4 dicembre 2000.
-- La prima ricorrenza annuale successiva alla proclamazione cadde nel 2001.
+- L'OIL documentò già il 18 dicembre 2000 come prima Giornata internazionale ONU dei migranti.
 
 ### English — 18 December: a migrant-rights treaty anniversary becomes an annual UN day
 
-The General Assembly proclaimed 18 December International Migrants Day through A/RES/55/93 on 4 December 2000. The date remembers 18 December 1990, when the Assembly adopted the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families. The first annual UN date following proclamation was in December 2001. The convention's adoption and the day recognising migrants' contributions are separate milestones. The observance asks governments to protect fundamental rights regardless of the reasons people cross borders and to distinguish migration policy from dehumanising stereotypes.
+The General Assembly proclaimed 18 December International Migrants Day through A/RES/55/93 on 4 December 2000. The date remembers 18 December 1990, when the Assembly adopted the International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families. The International Labour Organization's contemporaneous statement explicitly calls 18 December 2000 the first UN International Migrants Day, in the same month as the formal proclamation. The convention's adoption and the day recognising migrants' contributions are separate milestones. The observance asks governments to protect fundamental rights regardless of the reasons people cross borders and to distinguish migration policy from dehumanising stereotypes.
 
 **Promoter:** The General Assembly established the observance in 2000, drawing on the 1990 migrant-workers rights treaty and decades of advocacy by migrants and civil society.
 
@@ -1776,13 +1779,15 @@ The General Assembly proclaimed 18 December International Migrants Day through A
 **Three documented facts:**
 - The migrant-workers convention was adopted on 18 December 1990.
 - The General Assembly proclaimed International Migrants Day on 4 December 2000.
-- The first annual 18 December after adoption was in 2001.
+- The ILO already marked 18 December 2000 as the first UN International Migrants Day.
 
 **Fonti primarie / original institutional references:**
 - https://mandates.un.org/mandate/A/RES/55/93
 - https://www.un.org/en/observances/migrants-day
+- https://www.ilo.org/resource/news/ilo-joins-celebration-united-nations-international-migrants-day
 
-**Confine editoriale:** Individual institution-level history for international-migrants-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending.
+**Confine editoriale:** Individual institution-level history for international-migrants-day: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending. A contemporaneous ILO release dated 18 December 2000 explicitly identifies that day as the first UN celebration, correcting the incorrect 2001 inference.
+
 
 ---
 
@@ -2029,25 +2034,25 @@ On 24 December 2024 the General Assembly adopted A/RES/79/243, including the Uni
 ## 51. International Day of Epidemic Preparedness — 27/12
 
 **ID:** `international-day-of-epidemic-preparedness`  
-**Istituzione formale:** 2020 · **Prima osservanza verificata:** 2021  
+**Istituzione formale:** 2020 · **Prima osservanza verificata:** 2020  
 **Riferimento del catalogo:** A/RES/75/27
 
 ### Italiano — 27 dicembre: la pandemia rende prioritaria la preparazione alle epidemie
 
-Nel dicembre 2020, durante la pandemia di COVID-19, l'Assemblea generale ONU approvò A/RES/75/27 e istituì il 27 dicembre Giornata internazionale di preparazione alle epidemie. La prima annualità completa successiva all'adozione fu nel 2021. La risoluzione richiama prevenzione, identificazione precoce, comunicazione affidabile, sistemi sanitari solidi e cooperazione internazionale prima che i focolai diventino crisi diffuse. Le epidemie esistevano molto prima del COVID-19, ma quella pandemia costituì il contesto storico immediato. Non è dimostrato un anniversario specifico che spieghi il 27 dicembre.
+Nel dicembre 2020, durante la pandemia di COVID-19, l'Assemblea generale ONU approvò A/RES/75/27 e istituì il 27 dicembre Giornata internazionale di preparazione alle epidemie. Il Segretario generale ONU celebrò la prima giornata il 27 dicembre 2020, poche settimane dopo l'adozione della risoluzione. La risoluzione richiama prevenzione, identificazione precoce, comunicazione affidabile, sistemi sanitari solidi e cooperazione internazionale prima che i focolai diventino crisi diffuse. Le epidemie esistevano molto prima del COVID-19, ma quella pandemia costituì il contesto storico immediato. Il messaggio inaugurale del Segretario generale collega espressamente il 27 dicembre alla data di nascita di Louis Pasteur, figura centrale nella storia dei vaccini.
 
 **Promotore:** L'Assemblea generale ONU istituì la ricorrenza nel 2020, durante il COVID-19, riprendendo un lungo percorso di preparazione sanitaria internazionale.
 
 **Perché è importante:** Rafforzare sorveglianza sanitaria, comunicazione tempestiva, collaborazione scientifica e capacità dei servizi locali di affrontare nuovi focolai.
 
-**Tre fatti e curiosità documentati:**
+**Tre fatti e curiosità:**
 - L'ONU proclamò la giornata nel dicembre 2020 con A/RES/75/27.
 - La decisione fu presa durante il primo anno della pandemia di COVID-19.
-- La ricorrenza sottolinea prevenzione, preparazione e coordinamento delle risposte.
+- La prima ricorrenza si tenne il 27 dicembre 2020: il Segretario generale collegò la data all'anniversario della nascita di Louis Pasteur.
 
 ### English — 27 December: the COVID-19 era brings epidemic preparedness into the calendar
 
-In December 2020, during the COVID-19 pandemic, the General Assembly adopted A/RES/75/27 and designated 27 December the International Day of Epidemic Preparedness. The first full annual date after adoption fell in 2021. The resolution highlights prevention, early detection, reliable communication, strong health systems and international cooperation before outbreaks become uncontrolled crises. Epidemics existed long before COVID-19; the pandemic supplied the immediate historical context for the new UN observance. The exact reason for choosing 27 December rather than another date is not proven by the original records consulted.
+In December 2020, during the COVID-19 pandemic, the General Assembly adopted A/RES/75/27 and designated 27 December the International Day of Epidemic Preparedness. The Secretary-General marked the first observance on 27 December 2020, within weeks of the resolution's adoption. The resolution highlights prevention, early detection, reliable communication, strong health systems and international cooperation before outbreaks become uncontrolled crises. Epidemics existed long before COVID-19; the pandemic supplied the immediate historical context for the new UN observance. The Secretary-General's inaugural message explicitly relates 27 December to the birthdate of Louis Pasteur, whose scientific work advanced vaccination.
 
 **Promoter:** The United Nations General Assembly established the international day in 2020 in the context of COVID-19 and long-standing public-health preparedness work.
 
@@ -2056,11 +2061,12 @@ In December 2020, during the COVID-19 pandemic, the General Assembly adopted A/R
 **Three documented facts:**
 - The UN proclaimed the day through resolution A/RES/75/27 in December 2020.
 - The designation came during the first year of the COVID-19 pandemic.
-- The observance emphasises prevention, preparedness and coordinated response before outbreaks spread.
+- The first observance was on 27 December 2020, and the UN Secretary-General connected the date to Louis Pasteur's birth anniversary.
 
 **Fonti primarie / original institutional references:**
 - https://mandates.un.org/mandate/A/RES/75/27
 - https://www.un.org/en/observances/international-day-epidemic-preparadness
+- https://www.un.org/sg/en/content/sg/statements/2020-12-27/secretary-generals-message-the-international-day-of-epidemic-preparedness-scroll-down-for-french-version
 
-**Confine editoriale:** Individual institution-level history for international-day-of-epidemic-preparedness: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending.
+**Confine editoriale:** Individual institution-level history for international-day-of-epidemic-preparedness: formal founding year, original advocate or issuer, date rationale if documented and first observed/scheduled distinction. English and Italian original source-linked drafts, not qualified human fact or native reviews. ES/FR/DE/PT pending. The UN Secretary-General's message dated 27 December 2020 expressly calls it the first observance and explains Pasteur's birthdate as the reason for the day.
 
