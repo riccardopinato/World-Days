@@ -534,7 +534,7 @@ INTRODUCTION_EVIDENCE = {
     'international-day-of-greening-the-planet': (2026, 'https://mandates.un.org/mandate/A/RES/80/300'),
     'international-day-in-memory-of-the-victims-of-earthquakes': (2025, 'https://digitallibrary.un.org/record/4081816'),
     'time-of-remembrance-and-reconciliation-for-those-who-lost-their-lives-during-the-second-world-war': (2004, 'https://digitallibrary.un.org/record/535436'),
-    'international-day-of-the-tropics': (2016, 'https://digitallibrary.un.org/record/832728'),
+    'international-day-of-the-tropics': (2016, 'https://www.un.org/en/observances/tropics-day'),
     # Wave05: nine original founding instruments / institution-specific pages (2026-11-12).
     'world-logic-day': (2019, 'https://www.unesco.org/en/days/world-logic'),
     'world-day-for-african-and-afrodescendant-culture': (2019, 'https://www.unesco.org/en/days/african-culture'),
