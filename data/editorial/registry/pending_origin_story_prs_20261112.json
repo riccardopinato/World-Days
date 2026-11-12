@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "b46ac086197ae3081d2484bb6551caec41557c5b",
-  "mainIndividuallyResearchedOriginsSnapshot": 57,
+  "mainSnapshot": "0f09aa07937aee4ef18eba57de11138fac2012e2",
+  "mainIndividuallyResearchedOriginsSnapshot": 58,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 160,
-  "pendingPrCount": 11,
+  "pendingUniqueDraftCount": 159,
+  "pendingPrCount": 10,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 104,
-      "url": "https://github.com/riccardopinato/World-Days/pull/104",
-      "sourceFile": "data/editorial/batches/origin_stories_wave08_20261112.json",
-      "sourceCommit": "05dfe2713948b5177fef4ae316be611ccf0a6934",
-      "sourceBlob": "83342a130a6d81c60950f7a93aa0ee0b3aaa7942",
-      "storyCount": 1,
-      "observanceIds": [
-        "international-day-for-disarmament-and-non-proliferation-awareness"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 1,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 105,
       "url": "https://github.com/riccardopinato/World-Days/pull/105",
@@ -371,6 +352,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 58,
-  "registryChangeNote": "PR #103 integration candidate; 1 sourced FGM history accounted for on main only after successful merge and CI; source text remains unapproved for runtime rich editorial."
+  "nextMergeExpectedIndividuallyResearchedCount": 59,
+  "registryChangeNote": "Wave08 PR #104 source-researched origin now on this PR head; after green merge 59/1111 source-linked IT/EN origins, 1052 pending. Human/editorial approval of six languages absent."
 }

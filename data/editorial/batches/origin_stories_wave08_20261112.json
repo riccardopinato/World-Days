@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE08-DISARMAMENT-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "One individually researched UN observance, source-backed in EN/IT; other languages and human review pending. Distinguishes 2022 adoption from 2023 first annual observance; exact rationale for 5 March not asserted.",
+  "records": [
+    {
+      "observanceId": "international-day-for-disarmament-and-non-proliferation-awareness",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/51",
+        "https://digitallibrary.un.org/record/3997753/files/A_RES_77_51-EN.pdf",
+        "https://digitallibrary.un.org/record/3990769/files/A_C.1_77_L.14-EN.pdf",
+        "https://www.un.org/en/observances/disarmament-non-proliferation-awareness-day",
+        "https://indico.un.org/event/1014650/attachments/22443/63852/full-en-yb-vol-48-2023.pdf"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "Why 5 March invites the world to learn about disarmament",
+          "origin": "The International Day for Disarmament and Non-Proliferation Awareness was established by the United Nations General Assembly on 7 December 2022 through resolution A/RES/77/51. Its first annual observance took place on 5 March 2023, as recorded in the United Nations Yearbook. A draft resolution dated 4 October 2022 was submitted by Kazakhstan, Kyrgyzstan, Nicaragua, the United States, Uzbekistan and Venezuela: these documented sponsors should not be confused with the General Assembly, which adopted the final resolution. The resolution fixes 5 March but does not explain why this particular calendar date was selected; the date rationale remains unverified.",
+          "promoter": "Six states named on draft A/C.1/77/L.14 sponsored the original text; the General Assembly formally proclaimed the observance. The UN Office for Disarmament Affairs was invited to facilitate commemorations, not identified as the original founder.",
+          "purpose": "Make disarmament and non-proliferation understandable to the public, especially younger people, and encourage education about how arms control and prevention of weapons proliferation can reduce suffering and strengthen international peace and security.",
+          "facts": [
+            "Resolution A/RES/77/51 was adopted on 7 December 2022 and explicitly proclaimed 5 March as the annual observance.",
+            "The original draft A/C.1/77/L.14 named six sponsoring countries, including Kazakhstan and the United States.",
+            "The United Nations Yearbook records the first International Day on 5 March 2023, three months after proclamation.",
+            "The resolution invites civil society, academia and the media to participate in education and public-awareness activities."
+          ]
+        },
+        "it": {
+          "heading": "Perché il 5 marzo si parla di disarmo e non proliferazione",
+          "origin": "La Giornata internazionale per la sensibilizzazione sul disarmo e la non proliferazione è stata istituita dall'Assemblea generale delle Nazioni Unite il 7 dicembre 2022 con la risoluzione A/RES/77/51. La prima celebrazione annuale risale al 5 marzo 2023, come documenta l'Annuario delle Nazioni Unite. Il progetto di risoluzione del 4 ottobre 2022 fu presentato da Kazakistan, Kirghizistan, Nicaragua, Stati Uniti, Uzbekistan e Venezuela: questi Stati sono i promotori documentati della proposta, mentre l'Assemblea generale è l'organo che adottò l'atto definitivo. La risoluzione stabilisce il 5 marzo, ma non chiarisce il motivo della scelta di quella data; la spiegazione storica resta quindi non verificata.",
+          "promoter": "I sei Paesi indicati nel progetto A/C.1/77/L.14 presentarono la proposta; l'Assemblea generale ONU proclamò formalmente la giornata. L'Ufficio ONU per gli affari del disarmo è incaricato di facilitarne la celebrazione, senza che ciò lo renda promotore originario.",
+          "purpose": "Aiutare cittadini e giovani a comprendere disarmo e non proliferazione, mostrando come il controllo degli armamenti e la prevenzione della diffusione di armi possano ridurre le sofferenze e contribuire alla pace e alla sicurezza internazionale.",
+          "facts": [
+            "La risoluzione A/RES/77/51 fu adottata il 7 dicembre 2022 e proclamò il 5 marzo giornata annuale.",
+            "Il progetto A/C.1/77/L.14 riportava sei Stati proponenti, tra cui Kazakistan e Stati Uniti.",
+            "L'Annuario ONU documenta la prima celebrazione il 5 marzo 2023, tre mesi dopo la proclamazione.",
+            "La risoluzione invita società civile, università e media a promuovere attività educative e di sensibilizzazione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary-source research 2026-11-12: UN resolution A/RES/77/51, six-country original draft A/C.1/77/L.14, UN Yearbook 2023 and official observance page. Formal introduction 2022, first observance 2023; reason for 5 March not established. EN/IT source-checked AI-authored editorial drafts; no human native-language approval. ES/FR/DE/PT pending."
+    }
+  ]
+}

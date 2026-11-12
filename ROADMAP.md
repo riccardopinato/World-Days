@@ -2,6 +2,10 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave08 PR #104: add independently sourced International Day for Disarmament and Non-Proliferation Awareness (5 March) with original 2022 General Assembly decision A/RES/77/51, six draft sponsors documented, first annual observance 2023, calendar-day choice not attributed without evidence. Source-linked total **59/1,111** upon successful merge; remaining **1,052**. Rich editorial six-language approval still false.
+- [x] Reconcile the Wave08 review finding by updating README and ROADMAP to 59 source-linked origins and **159 pending IT/EN drafts** in 10 open PRs (#105–#114), rather than reporting outdated 55/1,056 coverage.
+
+
 - [x] Wave07 PR #103: account for the source-researched 6 February FGM observance, with unknown early-history facts kept unasserted. Source-research total upon green merge: **58/1,111**; remaining **1,053**. Runtime six-locale approval remains false.
 - [x] Update the unique pending story register to **160 IDs in 11 PRs (#104–#114)**, with cross-check that none is already integrated on main.
 
