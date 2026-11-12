@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "c0b3362e61ed9f5e8fc670c66856fe20382c0f6a",
-  "mainIndividuallyResearchedOriginsSnapshot": 59,
+  "mainSnapshot": "c788cd7f8e2fd269c0ff3cb61ee8d506a16be6c0",
+  "mainIndividuallyResearchedOriginsSnapshot": 61,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 157,
-  "pendingPrCount": 9,
+  "pendingUniqueDraftCount": 156,
+  "pendingPrCount": 8,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 106,
-      "url": "https://github.com/riccardopinato/World-Days/pull/106",
-      "sourceFile": "data/editorial/batches/origin_stories_wave10_20261112.json",
-      "sourceCommit": "6ffb7e05df1c9d6888ec08a17be1245faba93ecd",
-      "sourceBlob": "53506b01e06d3572ea77e4a7c77b0d8bfda377e0",
-      "storyCount": 1,
-      "observanceIds": [
-        "international-day-for-digital-learning"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 107,
       "url": "https://github.com/riccardopinato/World-Days/pull/107",
@@ -332,6 +313,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 61,
-  "registryChangeNote": "Wave09 PR #105 adds 2 individually source-linked UN observances with first annual commemorations evidenced in UN 2022/2023 sources. No six-locale human approval; runtime rich editorial blocked."
+  "nextMergeExpectedIndividuallyResearchedCount": 62,
+  "registryChangeNote": "PR #106 adds one source-researched UNESCO International Day for Digital Learning with designation 2023 and first edition 2024. Source-researched draft only; six-language/human review not claimed."
 }
