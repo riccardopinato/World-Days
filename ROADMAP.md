@@ -2,6 +2,10 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave07 PR #103: account for the source-researched 6 February FGM observance, with unknown early-history facts kept unasserted. Source-research total upon green merge: **58/1,111**; remaining **1,053**. Runtime six-locale approval remains false.
+- [x] Update the unique pending story register to **160 IDs in 11 PRs (#104–#114)**, with cross-check that none is already integrated on main.
+
+
 - [x] Merge PR #102 with 2 source-linked IT/EN histories (seagrass and wildlife); main source-research count becomes **57/1,111**, pending **1,054** at this snapshot. This is not equivalent to 57 human-reviewed six-language articles.
 - [x] Register the **161 distinct IT/EN historical drafts** already present in open PR #103–#114 with canonical IDs, exact source batch paths, source commits, and review-status flags in `data/editorial/registry/pending_origin_story_prs_20261112.json`.
 - [x] Require explicit `runtimeRichEditorialApproved` in the generated origin ledger and Flutter detail panel; no approval is inferred from a verified source URL, CI check, or the presence of the text in a wave batch. Unapproved histories retain the fallback panel.
