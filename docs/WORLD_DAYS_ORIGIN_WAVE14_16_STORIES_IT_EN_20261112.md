@@ -694,6 +694,7 @@ The UN General Assembly adopted A/RES/76/256 on 29 March 2022, establishing 12 M
 
 **Fonti originali / Original institutional sources:**
 
+- https://digitallibrary.un.org/record/3967412/files/A_RES_76_256-EN.pdf
 - https://www.fao.org/newsroom/detail/fao-welcomes-decision-to-mark-international-day-of-plant-health/
 - https://www.fao.org/fileadmin/user_upload/gsb/Conference_Resolutions/Resolutions_c42/CB5554-Resolutions_C42_en.htm
 - https://www.fao.org/newsroom/story/Five-ways-climate-change-is-intensifying-the-threats-to-plant-health/en
