@@ -46,7 +46,7 @@ for r in batch["records"]:
         parsed = urlsplit(url)
         assert parsed.scheme == "https" and parsed.hostname in {
             "www.un.org", "mandates.un.org", "www.unesco.org", "www.who.int",
-            "fctc.who.int", "www.ramsar.org", "www.worldwetlandsday.org",
+            "fctc.who.int", "www.unfpa.org", "www.ramsar.org", "www.worldwetlandsday.org",
             "mfa.gov.tm",
         }, (oid, url)
     assert set(r["locale"]) == {"en", "it"}, "no unjustified six-locale reviewed claim"
