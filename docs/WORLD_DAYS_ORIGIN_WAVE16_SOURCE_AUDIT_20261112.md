@@ -17,7 +17,7 @@ Date: 2026-11-12. App Factory baseline read once: CURRENT Master v27 / Golden In
 - **#85** `international-day-of-women-and-girls-of-african-descent` — 25/7; **A/RES/78/323**; UN/UNESCO establishment 2024; first date 2025; 3 institutional source URLs
 - **#86** `world-drowning-prevention-day` — 25/7; **A/RES/75/273**; UN/UNESCO establishment 2021; first date 2021; 3 institutional source URLs
 - **#87** `international-day-for-judicial-well-being` — 25/7; **A/RES/79/266**; UN/UNESCO establishment 2025; first date 2025; 4 institutional source URLs
-- **#88** `international-day-of-friendship` — 30/7; **A/RES/65/275**; UN/UNESCO establishment 2011; first date 1958; 3 institutional source URLs
+- **#88** `international-day-of-friendship` — 30/7; **A/RES/65/275**; UN establishment 2011 (adopted 3 May); first formal UN observance unverified, local Paraguayan Friendship Week documented 1958; 4 institutional source URLs
 - **#89** `world-day-against-trafficking-in-persons` — 30/7; **A/RES/68/192**; UN/UNESCO establishment 2013; first date 2014; 3 institutional source URLs
 - **#90** `world-steelpan-day` — 11/8; **A/RES/77/316**; UN/UNESCO establishment 2023; first date 2023; 4 institutional source URLs
 - **#91** `world-humanitarian-day` — 19/8; **A/RES/63/139**; UN/UNESCO establishment 2008; first date 2009; 3 institutional source URLs
@@ -37,7 +37,7 @@ Date: 2026-11-12. App Factory baseline read once: CURRENT Master v27 / Golden In
 - **#82 Mandela:** 18 July birthday; first UN-designated annual day explicitly starts 2010 after 2009 resolution.
 - **#83 Chess:** FIDE date from 20 July 1924, international chess celebration from 1966, UN recognition only in 2019.
 - **#87 Judicial well-being:** Nauru Declaration signed 25 July 2024, UN adopted the international day in March 2025.
-- **#88 Friendship:** Dr Ramón Artemio Bracho initiated a Paraguayan friendship crusade in 1958, UN recognition in 2011; corroborated by Parliament of Paraguay.
+- **#88 Friendship:** Bracho's 1958 local initiative is distinct from UN A/RES/65/275 adopted on 3 May 2011; the first formal UN annual observance remains unknown, and a 2024 Paraguayan parliamentary declaration must not be mistaken for a 1958 vote.
 - **#94 Remembrance of slave trade/abolition:** UNESCO 23 August links to Saint-Domingue 1791; **not** the UN 25 March remembrance of transatlantic slavery victims.
 - **#96 Nuclear tests:** Kazakhstan's proposal and closure of Semipalatinsk 29 August 1991 explain the date; formal 2009 UN adoption and first 2010 observance separate.
 - **#99 Safe, secure, trustworthy AI:** 31 August 2026 resolution A/RES/80/302 proposed by Tajikistan under A/80/L.106; **first annual observance is in the future, 2027**, never 2026.
