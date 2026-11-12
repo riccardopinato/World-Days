@@ -276,7 +276,7 @@ fixed('International Day against Drug Abuse and Illicit Trafficking',6,26,'A/RES
 fixed('United Nations International Day in Support of Victims of Torture',6,26,'A/RES/52/149')
 fixed('International Day of Deafblindness',6,27,'A/RES/79/294')
 fixed('Micro-, Small and Medium-sized Enterprises Day',6,27,'A/RES/71/279')
-fixed('International Day of the Tropics',6,29,'A/RES/71/279')
+fixed('International Day of the Tropics',6,29,'A/RES/70/267')
 fixed('International Asteroid Day',6,30,'A/RES/71/90')
 fixed('International Day of Parliamentarism',6,30,'A/RES/72/278')
 
@@ -529,6 +529,12 @@ for market_record in [*MARKET_RECORDS, *build_expansion_records()]:
 # celebration and must link to a specifically reviewed primary document.
 # Unknown years remain absent and render as '*' in all six app locales.
 INTRODUCTION_EVIDENCE = {
+    # Wave19: individual primary establishing records, not guessed first events.
+    'international-wellness-day': (2026, 'https://mandates.un.org/mandate/A/RES/80/249'),
+    'international-day-of-greening-the-planet': (2026, 'https://mandates.un.org/mandate/A/RES/80/300'),
+    'international-day-in-memory-of-the-victims-of-earthquakes': (2025, 'https://digitallibrary.un.org/record/4081816'),
+    'time-of-remembrance-and-reconciliation-for-those-who-lost-their-lives-during-the-second-world-war': (2004, 'https://digitallibrary.un.org/record/535436'),
+    'international-day-of-the-tropics': (2016, 'https://digitallibrary.un.org/record/832728'),
     # Wave05: nine original founding instruments / institution-specific pages (2026-11-12).
     'world-logic-day': (2019, 'https://www.unesco.org/en/days/world-logic'),
     'world-day-for-african-and-afrodescendant-culture': (2019, 'https://www.unesco.org/en/days/african-culture'),
