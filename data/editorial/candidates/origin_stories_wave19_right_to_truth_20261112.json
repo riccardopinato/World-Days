@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE19-RIGHT-TO-TRUTH-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_DRAFT_HUMAN_REVIEW_PENDING",
+  "count": 1,
+  "publicationPolicy": "Source-researched EN/IT draft; ES/FR/DE/PT and qualified human editorial review pending. Not runtime rich editorial approved.",
+  "records": [
+    {
+      "observanceId": "international-day-for-the-right-to-the-truth-concerning-gross-human-rights-violations-and-for-the-dignity-of-victims",
+      "catalogIdNeedsExactMatchCheck": true,
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "firstObservedYearEvidence": "Not established from the sources checked; do not infer from the adoption year.",
+      "formalAdoptionDate": "2010-12-21",
+      "date": "03-24",
+      "promoter": "UN Human Rights Council adopted A/HRC/RES/14/7 on 17 June 2010; General Assembly adopted A/RES/65/196 on 21 December 2010. Draft A/C.3/65/L.59 lists sixteen original sponsoring countries; do not attribute sole founding to any one of them.",
+      "sources": [
+        "https://www.un.org/en/observances/right-to-truth-day",
+        "https://documents.un.org/api/symbol/access?l=en&s=A%2FRES%2F65%2F196&t=pdf",
+        "https://digitallibrary.un.org/record/691467",
+        "https://digitallibrary.un.org/record/692906",
+        "https://documents.un.org/access.nsf/get?DS=A%2F66%2F335&Lang=E&Open="
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 March: remembering Romero and defending the right to truth",
+          "origin": "On 21 December 2010, the United Nations General Assembly proclaimed 24 March the International Day for the Right to the Truth Concerning Gross Human Rights Violations and for the Dignity of Victims through resolution A/RES/65/196. This followed the Human Rights Council's resolution 14/7 of 17 June 2010. The date was not arbitrary: on 24 March 1980, Archbishop Óscar Arnulfo Romero was murdered in El Salvador after speaking out against abuses. The day links his memory to the right of victims and families to learn what happened, who was responsible and how violations were carried out. It also recognizes people who risked or lost their lives defending human rights.",
+          "purpose": "Encourage truth, justice, remembrance and dignity for victims of gross human rights violations.",
+          "facts": [
+            "The General Assembly adopted resolution A/RES/65/196 on 21 December 2010.",
+            "The Human Rights Council had already adopted resolution 14/7 on 17 June 2010.",
+            "The date commemorates the assassination of Archbishop Óscar Romero on 24 March 1980.",
+            "A 2006 OHCHR study described the right to truth as an autonomous and inalienable right.",
+            "The UN's 2011 implementation report is numbered A/66/335."
+          ]
+        },
+        "it": {
+          "heading": "24 marzo: ricordare Romero e difendere il diritto alla verità",
+          "origin": "Il 21 dicembre 2010 l'Assemblea generale delle Nazioni Unite ha proclamato il 24 marzo Giornata internazionale per il diritto alla verità sulle gravi violazioni dei diritti umani e per la dignità delle vittime, con la risoluzione A/RES/65/196. La decisione seguiva la risoluzione 14/7 adottata dal Consiglio dei diritti umani il 17 giugno dello stesso anno. La data ricorda l'assassinio dell'arcivescovo Óscar Arnulfo Romero, avvenuto il 24 marzo 1980 in El Salvador, dopo le sue denunce degli abusi contro le persone più vulnerabili. La ricorrenza lega questa memoria al diritto delle vittime e delle famiglie di conoscere le circostanze delle violazioni e le responsabilità, rendendo omaggio anche a chi ha rischiato o perso la vita per difendere i diritti umani.",
+          "purpose": "Promuovere verità, giustizia, memoria e dignità delle vittime delle gravi violazioni dei diritti umani.",
+          "facts": [
+            "L'Assemblea generale ha adottato la risoluzione A/RES/65/196 il 21 dicembre 2010.",
+            "Il Consiglio dei diritti umani aveva adottato la risoluzione 14/7 il 17 giugno 2010.",
+            "Il 24 marzo ricorda l'assassinio di Óscar Romero nel 1980.",
+            "Uno studio dell'Alto Commissariato ONU del 2006 ha qualificato il diritto alla verità come autonomo e inalienabile.",
+            "Il rapporto ONU del 2011 sull'attuazione della ricorrenza è A/66/335."
+          ]
+        }
+      },
+      "otherLocales": {
+        "es": "DRAFT_NOT_TRANSLATED",
+        "fr": "DRAFT_NOT_TRANSLATED",
+        "de": "DRAFT_NOT_TRANSLATED",
+        "pt": "DRAFT_NOT_TRANSLATED"
+      },
+      "runtimeRichEditorialApproved": false
+    }
+  ]
+}
