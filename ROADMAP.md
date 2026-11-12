@@ -2,6 +2,10 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave11 PR #107: World Day for Glaciers (21 March), UN adoption 2022 and primary UN event evidence for the first 2025 celebration. Source-linked origins **63/1,111** on successful merge; remaining **1,048**. Specific legislative date rationale remains unknown; six-locale signoff not claimed.
+- [x] Candidate registry updated to **155 unique IT/EN story drafts** across PR #108–#114, each distinct from already integrated source research.
+
+
 - [x] Wave10 PR #106: research UNESCO International Day for Digital Learning, 19 March, designation 2023 and first UNESCO edition in 2024, while leaving undocumented choice of the date unasserted. After green merge **62/1,111** researched origins, **1,049** pending; no six-language approval.
 - [x] Pending source-draft register reduced to **156 unique stories** in 8 open PRs (#107–#114), without duplicates or publishing a source draft as a reviewed runtime article.
 
