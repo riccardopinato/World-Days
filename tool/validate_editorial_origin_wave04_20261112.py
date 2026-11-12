@@ -66,7 +66,18 @@ for rec in new["records"]:
         previous = prior[lang]
         assert previous["origin"] in current["origin"], (rid,lang,"preserved original researched origin")
         assert previous["whyThisDate"] == current["facts"][0], (rid,lang,"date rationale preserved")
-        assert previous["whyItMatters"] in current["purpose"], (rid,lang,"historic significance preserved")
+        if previous.get("whyItMatters"):
+            assert previous["whyItMatters"] in current["purpose"], (rid,lang,"historic significance preserved")
+        else:
+            assert rid in {"world-refugee-day", "international-day-of-peace", "human-rights-day"}
+            assert len(current["purpose"].split()) >= 20, (rid, lang, "new factual significance required")
+        if previous.get("summary"):
+            assert previous["summary"] in current["origin"], (rid,lang,"original summary preserved")
+        else:
+            assert rid in {"world-refugee-day", "international-day-of-peace", "human-rights-day"}
+            assert len(current["origin"]) >= len(previous["origin"]) + 150, (rid,lang,"new summary required")
+        assert all("undefined" not in str(value) and "null " not in str(value)
+                   for value in current.values()), (rid,lang,"missing source text leaked into narrative")
         assert len(current["heading"].strip()) >= 20
         assert len(current["origin"].strip()) >= 170
         assert len(current["promoter"].strip()) >= 60
