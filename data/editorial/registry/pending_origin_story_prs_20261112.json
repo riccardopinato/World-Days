@@ -4,34 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "0f09aa07937aee4ef18eba57de11138fac2012e2",
-  "mainIndividuallyResearchedOriginsSnapshot": 58,
+  "mainSnapshot": "c0b3362e61ed9f5e8fc670c66856fe20382c0f6a",
+  "mainIndividuallyResearchedOriginsSnapshot": 59,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 159,
-  "pendingPrCount": 10,
+  "pendingUniqueDraftCount": 157,
+  "pendingPrCount": 9,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 105,
-      "url": "https://github.com/riccardopinato/World-Days/pull/105",
-      "sourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json",
-      "sourceCommit": "edc19fea276aa59f529eeaba16dcc1ccca9a815a",
-      "sourceBlob": "7b671ef6982f6e0d64489d8a110361495b0cef42",
-      "storyCount": 2,
-      "observanceIds": [
-        "international-day-of-women-judges",
-        "international-day-to-combat-islamophobia"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 106,
       "url": "https://github.com/riccardopinato/World-Days/pull/106",
@@ -352,6 +332,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 59,
-  "registryChangeNote": "Wave08 PR #104 source-researched origin now on this PR head; after green merge 59/1111 source-linked IT/EN origins, 1052 pending. Human/editorial approval of six languages absent."
+  "nextMergeExpectedIndividuallyResearchedCount": 61,
+  "registryChangeNote": "Wave09 PR #105 adds 2 individually source-linked UN observances with first annual commemorations evidenced in UN 2022/2023 sources. No six-locale human approval; runtime rich editorial blocked."
 }
