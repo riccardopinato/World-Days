@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE11-GLACIERS-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "Primary UN/UNESCO/WMO and Tajik government sources checked individually; EN/IT original stories, four other languages and qualified review pending.",
+  "records": [
+    {
+      "observanceId": "world-day-for-glaciers",
+      "sources": [
+        "https://www.un-glaciers.org/en/background",
+        "https://www.un-glaciers.org/en/world-day-glaciers",
+        "https://www.mfa.tj/en/newyork/view/11948/another-initiative-of-the-founder-of-peace-and-national-unity-leader-of-the-nation-president-of-the-republic-of-tajikistan-he-emomali-rahmon-to-declare-2025-the-international-year-for-the-gla",
+        "https://public.wmo.int/sites/default/files/2025-06/Dushanbe%20Glaciers%20Declaration-%20High-Level%20International%20Conference_v31May2025_final.pdf",
+        "https://www.meteo.tj/en/news/2025/03/17/-229"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2025,
+      "locale": {
+        "en": {
+          "heading": "21 March: the glaciers that hold our water",
+          "origin": "The United Nations General Assembly proclaimed 21 March as the annual World Day for Glaciers in resolution A/RES/77/158 adopted on 14 December 2022, with observances beginning in 2025. Tajikistan promoted the initiative, following a proposal by President Emomali Rahmon in 2021 to make glacier preservation an international priority. The same resolution declared 2025 the International Year of Glaciers' Preservation. UNESCO and the World Meteorological Organization were invited to help coordinate the initiative. Tajikistan's hydrometeorological agency also notes that 21 March coincides with Nowruz, an important celebration in Tajik culture; this is institutional contextual evidence for the date, not proof that the UN resolution formally stated that rationale.",
+          "promoter": "Tajikistan, with an initiative publicly advanced by President Emomali Rahmon; the United Nations General Assembly formally adopted the proclamation.",
+          "purpose": "Explain how glaciers support freshwater supplies, climate systems and mountain ecosystems, and mobilize science, adaptation and international cooperation as glaciers retreat.",
+          "facts": [
+            "Resolution A/RES/77/158 was adopted on 14 December 2022.",
+            "The first annual World Day for Glaciers was set for 21 March 2025, not 2022.",
+            "The same resolution designated 2025 the International Year of Glaciers' Preservation.",
+            "UNESCO and WMO coordinate international activities with partner organizations.",
+            "The 2025 Dushanbe conference adopted a declaration recalling the UN resolution."
+          ]
+        },
+        "it": {
+          "heading": "21 marzo: i ghiacciai che custodiscono l'acqua",
+          "origin": "L'Assemblea generale delle Nazioni Unite ha proclamato il 21 marzo Giornata mondiale dei ghiacciai con la risoluzione A/RES/77/158, adottata il 14 dicembre 2022, stabilendo l'avvio delle celebrazioni nel 2025. L'iniziativa fu promossa dal Tagikistan, dopo che il presidente Emomali Rahmon aveva proposto nel 2021 di portare la conservazione dei ghiacciai al centro dell'agenda internazionale. La stessa risoluzione ha dichiarato il 2025 Anno internazionale della conservazione dei ghiacciai, coinvolgendo UNESCO e Organizzazione meteorologica mondiale nel coordinamento. L'agenzia idrometeorologica tagika ricorda inoltre che il 21 marzo coincide con il Nowruz, importante festività culturale: è un collegamento istituzionale documentato, ma non equivale a una motivazione espressa formalmente nella risoluzione ONU.",
+          "promoter": "Il Tagikistan promosse l'iniziativa avanzata pubblicamente dal presidente Emomali Rahmon; l'Assemblea generale ONU adottò formalmente la proclamazione.",
+          "purpose": "Far comprendere il ruolo dei ghiacciai nelle riserve d'acqua dolce, nel clima e negli ecosistemi montani e sostenere ricerca, adattamento e cooperazione internazionale di fronte al loro ritiro.",
+          "facts": [
+            "La risoluzione A/RES/77/158 fu adottata il 14 dicembre 2022.",
+            "La prima ricorrenza annuale venne fissata al 21 marzo 2025, non al 2022.",
+            "La stessa risoluzione proclamò il 2025 Anno internazionale della conservazione dei ghiacciai.",
+            "UNESCO e OMM coordinano le iniziative internazionali insieme ai partner.",
+            "La conferenza di Dushanbe del 2025 adottò una dichiarazione che richiama la risoluzione ONU."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual first-party checks: UN glaciers coordination site, Tajik Permanent Mission, Tajik national hydrometeorological agency, WMO-hosted 2025 Dushanbe declaration. March 21 Nowruz connection described by national agency but not established as UN legislative motive. EN/IT AI-authored research, not human-reviewed; ES/FR/DE/PT pending."
+    }
+  ]
+}
