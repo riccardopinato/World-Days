@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE16-100-DRAFTS-75-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 16,
+  "count": 21,
   "sourcePolicy": "Individually researched EN/IT primary institutional origin histories with date/year distinctions, 3 facts and provenance per locale. All are research drafts pending qualified human factual and native-language signoff; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -569,6 +569,182 @@
         }
       },
       "sourceReviewNote": "Individual origin research linked to original 100-draft archive #90, resolution A/RES/77/316. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-humanitarian-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/63/139",
+        "https://www.un.org/observances/humanitarian-day",
+        "https://www.unocha.org/world-humanitarian-day"
+      ],
+      "introducedYear": 2008,
+      "firstObservedYear": 2009,
+      "locale": {
+        "en": {
+          "heading": "19 August: remembering the Canal Hotel attack and humanitarian workers",
+          "origin": "The United Nations General Assembly instituted World Humanitarian Day in resolution A/RES/63/139 in 2008, and the annual commemoration began in 2009. The date recalls a bombing at Baghdad's Canal Hotel on 19 August 2003 that killed 22 aid workers and other UN personnel, among them Special Representative Sergio Vieira de Mello. This tragedy shows that humanitarian action depends on the safety of those delivering food, health care and protection during crises. UN OCHA coordinates the global campaign, but its operational role must not be confused with the General Assembly's formal act or with the victims themselves.",
+          "promoter": "The General Assembly established the annual day in 2008, and the UN Office for the Coordination of Humanitarian Affairs organises the subsequent campaign.",
+          "purpose": "Honour people killed or injured in humanitarian work, demand protection for aid operations and support crisis-affected communities' dignity and survival.",
+          "facts": [
+            "The Canal Hotel bombing in Baghdad took place on 19 August 2003 and killed 22 people.",
+            "Sergio Vieira de Mello, the UN Special Representative in Iraq, died in the attack.",
+            "The General Assembly established World Humanitarian Day in 2008, with annual observances beginning in 2009."
+          ]
+        },
+        "it": {
+          "heading": "19 agosto: l'attacco all'Hotel Canal e gli operatori umanitari",
+          "origin": "L'Assemblea generale ONU istituì la Giornata mondiale umanitaria con la risoluzione A/RES/63/139 nel 2008 e la commemorazione annuale iniziò nel 2009. Il 19 agosto ricorda l'attentato all'Hotel Canal di Baghdad del 2003, che uccise 22 persone tra operatori e personale ONU, compreso il rappresentante speciale Sergio Vieira de Mello. La tragedia richiama i rischi affrontati da chi porta cibo, assistenza sanitaria e protezione durante le crisi. L'Ufficio ONU per il coordinamento degli affari umanitari organizza la campagna globale, ma questo ruolo non coincide con la fondazione formale della ricorrenza.",
+          "promoter": "L'Assemblea generale adottò l'atto nel 2008, mentre l'Ufficio ONU OCHA coordina la successiva campagna di sensibilizzazione.",
+          "purpose": "Onorare chi è stato ucciso o ferito mentre aiutava altri, chiedere sicurezza per i soccorsi e tutelare dignità e vita delle comunità in crisi.",
+          "facts": [
+            "L'attentato all'Hotel Canal di Baghdad avvenne il 19 agosto 2003 e uccise 22 persone.",
+            "Tra le vittime vi fu Sergio Vieira de Mello, rappresentante speciale dell'ONU in Iraq.",
+            "L'Assemblea generale istituì la giornata nel 2008, con celebrazioni annuali dal 2009."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #91, founding act A/RES/63/139; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
+    },
+    {
+      "observanceId": "international-day-of-remembrance-and-tribute-to-the-victims-of-terrorism",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/72/165",
+        "https://www.un.org/en/observances/terrorism-victims-day/",
+        "https://www.un.org/victimsofterrorism/en"
+      ],
+      "introducedYear": 2017,
+      "firstObservedYear": 2018,
+      "locale": {
+        "en": {
+          "heading": "21 August: survivors of terrorism are more than statistics",
+          "origin": "The General Assembly adopted A/RES/72/165 in December 2017 and designated 21 August the International Day of Remembrance and Tribute to the Victims of Terrorism, with the first annual UN observance in 2018. The day developed from demands that policies against terrorism also include the rights, needs and experiences of people who survived attacks and of families who lost loved ones. UN activities now emphasize long-term assistance, trauma-informed support, access to justice and meaningful survivor participation. The establishing resolution fixes the calendar date but does not prove a particular historical anniversary explaining 21 August.",
+          "promoter": "The General Assembly formally proclaimed the day through A/RES/72/165; survivor associations and UN victim-support initiatives supplied a broader advocacy context.",
+          "purpose": "Remember people affected by terrorism, uphold their human rights and promote practical, sustained care and support for survivors and families.",
+          "facts": [
+            "The founding resolution A/RES/72/165 was adopted in 2017.",
+            "The first annual United Nations commemoration followed on 21 August 2018.",
+            "UN victim-support work includes assistance, recognition of survivor voices and respect for human rights."
+          ]
+        },
+        "it": {
+          "heading": "21 agosto: le vittime del terrorismo oltre i numeri",
+          "origin": "Nel dicembre 2017 l'Assemblea generale ONU adottò A/RES/72/165, istituendo il 21 agosto come Giornata internazionale in ricordo e omaggio alle vittime del terrorismo, celebrata annualmente dal 2018. La ricorrenza nasce dall'esigenza che le politiche antiterrorismo considerino anche diritti, bisogni e testimonianze delle persone sopravvissute e dei familiari delle vittime. Le attività ONU sottolineano assistenza a lungo termine, sostegno ai traumi, accesso alla giustizia e partecipazione dei sopravvissuti. La risoluzione fissa il 21 agosto senza documentare con certezza un anniversario storico specifico.",
+          "promoter": "L'Assemblea generale proclamò formalmente la giornata con A/RES/72/165, in un contesto di iniziative ONU e associazioni delle vittime.",
+          "purpose": "Ricordare le persone colpite dal terrorismo, difenderne i diritti e rafforzare assistenza e sostegno duraturi a sopravvissuti e famiglie.",
+          "facts": [
+            "La risoluzione istitutiva A/RES/72/165 fu adottata nel 2017.",
+            "La prima commemorazione annuale ONU seguì il 21 agosto 2018.",
+            "Le iniziative ONU comprendono ascolto dei sopravvissuti, assistenza e tutela dei diritti umani."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #92, founding act A/RES/72/165; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
+    },
+    {
+      "observanceId": "international-day-commemorating-the-victims-of-acts-of-violence-based-on-religion-or-belief",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/73/296",
+        "https://www.un.org/en/observances/religious-based-violence-victims-day",
+        "https://www.ohchr.org/en/topic/freedom-religion-or-belief"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": 2019,
+      "locale": {
+        "en": {
+          "heading": "22 August: protecting people targeted for religion or belief",
+          "origin": "The UN General Assembly adopted A/RES/73/296 in May 2019, designating 22 August as the International Day Commemorating the Victims of Acts of Violence Based on Religion or Belief. The day immediately follows the UN's 21 August tribute to victims of terrorism, placing a distinct focus on people attacked because of their faith or their freedom not to profess one. The resolution reminds governments that freedom of religion or belief is connected to expression, peaceful assembly and equality before the law. The institutional material documents the new 2019 date but does not identify a separate anniversary explaining 22 August.",
+          "promoter": "The General Assembly adopted the proclamation in 2019; its formal role is distinct from faith communities and human-rights defenders who long advocated protection.",
+          "purpose": "Honour victims of faith-based violence, defend freedom of belief or non-belief and ensure protection, support and accountability without discrimination.",
+          "facts": [
+            "A/RES/73/296 proclaimed 22 August as the international remembrance day in 2019.",
+            "It follows immediately after the separate 21 August observance for terrorism victims.",
+            "UN human-rights instruments protect the freedom to change or hold no religion as well as to practise one."
+          ]
+        },
+        "it": {
+          "heading": "22 agosto: proteggere chi è colpito per fede o convinzioni",
+          "origin": "Nel maggio 2019 l'Assemblea generale ONU adottò A/RES/73/296, proclamando il 22 agosto Giornata internazionale per le vittime della violenza basata sulla religione o sul credo. La ricorrenza segue di un giorno quella del 21 agosto per le vittime del terrorismo, ma richiama in particolare chi subisce attacchi a causa della propria fede o della libertà di non professarne alcuna. La risoluzione collega libertà religiosa e di coscienza ad espressione, riunione pacifica e uguaglianza giuridica. I documenti esaminati stabiliscono il giorno ma non un diverso anniversario storico che ne spieghi la scelta.",
+          "promoter": "L'Assemblea generale approvò la proclamazione nel 2019; le comunità religiose e i difensori dei diritti sostenevano questa causa già da tempo.",
+          "purpose": "Onorare le vittime di violenza religiosa, difendere libertà di fede o non fede e garantire protezione e giustizia senza discriminazioni.",
+          "facts": [
+            "A/RES/73/296 proclamò il 22 agosto come giornata internazionale nel 2019.",
+            "La ricorrenza segue quella del 21 agosto dedicata alle vittime del terrorismo.",
+            "I diritti umani proteggono anche chi cambia religione o non ne professa alcuna."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #93, founding act A/RES/73/296; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
+    },
+    {
+      "observanceId": "international-day-for-the-remembrance-of-the-slave-trade-and-its-abolition",
+      "sources": [
+        "https://www.unesco.org/en/days/slave-trade-remembrance",
+        "https://whc.unesco.org/en/news/2469",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000105530"
+      ],
+      "introducedYear": 1997,
+      "firstObservedYear": 1998,
+      "locale": {
+        "en": {
+          "heading": "23 August: a night of revolt in Saint-Domingue changes history",
+          "origin": "UNESCO's 29th General Conference proclaimed 23 August the International Day for the Remembrance of the Slave Trade and its Abolition in 1997, through Resolution 40. The date recalls the night of 22 to 23 August 1791, when an uprising began in the French colony of Saint-Domingue, today Haiti, helping set in motion the Haitian Revolution and the struggle against slavery. UNESCO records early commemorations in Haiti in 1998 and on Gorée Island in Senegal in 1999. This UNESCO observance is different from the UN's 25 March remembrance of victims of the transatlantic slave trade; the two dates have distinct historical origins.",
+          "promoter": "UNESCO's General Conference proclaimed the day in 1997, within educational work later associated with its Routes of Enslaved Peoples project.",
+          "purpose": "Keep alive the history of enslavement, resistance and abolition and examine the enduring links between Africa, Europe, the Americas and the Caribbean.",
+          "facts": [
+            "The 23 August date recalls the slave uprising that began in Saint-Domingue in 1791.",
+            "UNESCO documents a first commemoration in Haiti in 1998 and in Gorée, Senegal, in 1999.",
+            "The UNESCO remembrance differs from the UN's separate 25 March commemoration."
+          ]
+        },
+        "it": {
+          "heading": "23 agosto: la rivolta di Saint-Domingue nella memoria mondiale",
+          "origin": "La 29ª Conferenza generale UNESCO proclamò il 23 agosto Giornata internazionale per il ricordo della tratta degli schiavi e della sua abolizione nel 1997, con la Risoluzione 40. La data ricorda la notte tra il 22 e il 23 agosto 1791, quando iniziò una rivolta nella colonia francese di Saint-Domingue, oggi Haiti, contribuendo alla Rivoluzione haitiana e alla lotta contro la schiavitù. L'UNESCO documenta celebrazioni ad Haiti nel 1998 e nell'isola di Gorée, in Senegal, nel 1999. Questa ricorrenza è distinta da quella ONU del 25 marzo dedicata alle vittime della tratta atlantica: le due date nascono da eventi storici differenti.",
+          "promoter": "La Conferenza generale UNESCO proclamò la giornata nel 1997, inserendola nel percorso educativo internazionale sulla memoria dei popoli ridotti in schiavitù.",
+          "purpose": "Custodire la storia della schiavitù, delle resistenze e dell'abolizione, approfondendo le relazioni storiche tra Africa, Europa, Americhe e Caraibi.",
+          "facts": [
+            "Il 23 agosto ricorda l'inizio della rivolta di Saint-Domingue nel 1791.",
+            "L'UNESCO documenta celebrazioni ad Haiti nel 1998 e a Gorée in Senegal nel 1999.",
+            "La giornata UNESCO è distinta dalla commemorazione ONU del 25 marzo."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #94, founding act 29 C/Resolution 40; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
+    },
+    {
+      "observanceId": "world-lake-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/79/142",
+        "https://digitallibrary.un.org/record/4071258",
+        "https://www.un.org/en/observances/world-lake-day-0",
+        "https://www.unep.org/topics/fresh-water"
+      ],
+      "introducedYear": 2024,
+      "firstObservedYear": 2025,
+      "locale": {
+        "en": {
+          "heading": "27 August: lakes need protection beyond their shorelines",
+          "origin": "On 12 December 2024, the UN General Assembly adopted A/RES/79/142, proclaiming 27 August World Lake Day. The first annual date after the resolution fell in August 2025. Lakes are essential freshwater ecosystems that store water, support biodiversity, moderate local conditions and sustain communities, yet pollution, warming, changing water levels and invasive species can degrade them. The new UN day seeks broader cooperation for lake management rather than celebrating one particular lake. The official act fixes 27 August, but the institutional records reviewed do not demonstrate a precise founding anniversary or sole proposer for that calendar date.",
+          "promoter": "The UN General Assembly approved the day in 2024 after a draft resolution A/79/L.39; the specific original individual proposer was not conclusively verified.",
+          "purpose": "Promote sustainable lake management, restoration of freshwater habitats and protection of communities relying on lakes for water, food and livelihoods.",
+          "facts": [
+            "The General Assembly adopted resolution A/RES/79/142 on 12 December 2024.",
+            "Its first annual 27 August date after formal adoption was in 2025.",
+            "Lakes are freshwater habitats important for biodiversity, local climate and the communities around them."
+          ]
+        },
+        "it": {
+          "heading": "27 agosto: i laghi meritano tutela anche oltre le rive",
+          "origin": "Il 12 dicembre 2024 l'Assemblea generale ONU adottò A/RES/79/142, proclamando il 27 agosto Giornata mondiale dei laghi. La prima annualità successiva alla proclamazione fu nell'agosto 2025. I laghi conservano acqua dolce, ospitano biodiversità, influenzano condizioni climatiche locali e sostengono comunità, ma inquinamento, riscaldamento, variazioni del livello e specie invasive possono danneggiarli. La nuova giornata promuove la gestione comune degli ecosistemi lacustri anziché celebrare un solo lago. I documenti esaminati fissano il 27 agosto senza provare un anniversario originario preciso né un proponente personale unico.",
+          "promoter": "L'Assemblea generale proclamò la giornata nel 2024 dopo il progetto A/79/L.39; il primo promotore individuale non è stato accertato con sicurezza.",
+          "purpose": "Favorire gestione sostenibile dei laghi, recupero degli ecosistemi d'acqua dolce e tutela delle comunità che dipendono da queste risorse.",
+          "facts": [
+            "La risoluzione A/RES/79/142 fu adottata il 12 dicembre 2024.",
+            "Il primo 27 agosto successivo alla proclamazione si è verificato nel 2025.",
+            "I laghi sostengono biodiversità, disponibilità d'acqua e attività delle comunità vicine."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #95, founding act A/RES/79/142; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
     }
   ]
 }
