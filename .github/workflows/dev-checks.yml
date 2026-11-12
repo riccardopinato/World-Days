@@ -53,6 +53,21 @@ jobs:
           python3 tool/reconcile_wave11_goal_1111.py
           python3 tool/probe_wikidata_recurring_days.py
           python3 tool/build_editorial.py
+          python3 tool/editorial_1111_source_audit_queue.py
+          python3 tool/validate_editorial_1111_source_audit.py
+          python3 tool/editorial_origin_wave100.py
+          python3 tool/validate_editorial_origin_wave100.py
+          python3 tool/editorial_origin_completion_waves.py
+          python3 tool/validate_editorial_origin_completion_waves.py
+          python3 tool/test_editorial_origin_completion_partial.py
+          python3 tool/build_origin_review_index.py
+          python3 tool/validate_origin_review_index.py
+          python3 tool/validate_editorial_origin_wave01_20261112.py
+          python3 tool/validate_editorial_origin_wave02_20261112.py
+          python3 tool/validate_editorial_origin_wave03_20261112.py
+          python3 tool/validate_editorial_origin_wave04_20261112.py
+          python3 tool/validate_editorial_origin_wave05_20261112.py
+          python3 tool/validate_origin_100_original_drafts_20261112.py
           python3 tool/validate_editorial_batch.py
           python3 tool/validate_editorial_wave03.py
           python3 tool/validate_country_editorial_candidates.py
@@ -117,6 +132,14 @@ jobs:
       - name: Build Web release
         run: flutter build web --release --base-href "/World-Days/"
 
+      - name: Archive full origin-research evidence and pending-story coverage
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-origin-review-1111-plus
+          path: reports/origin_review_coverage.json
+          if-no-files-found: error
+          retention-days: 20
+
       - name: Archive source-bound catalog coverage and draft gates
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
@@ -130,6 +153,30 @@ jobs:
         with:
           name: world-days-editorial-candidates-25
           path: reports/editorial_candidates_25_parity.json
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive source evidence and story research gaps across all days
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-editorial-source-audit-1111-plus
+          path: reports/editorial_1111_source_audit_queue.json
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive first 100 source-linked historical story research dossiers
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-first-100-origin-dossiers
+          path: reports/editorial_origin_wave100.json
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive all remaining origin-story 100-ID research waves
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-all-origin-waves-100
+          path: reports/editorial_origin_completion/
           if-no-files-found: error
           retention-days: 20
 

@@ -138,7 +138,7 @@ def consumer_nth(title,m,weekday,occ,name,typ,officiality,source,cats=None,alias
 
 # JANUARY
 fixed('World Braille Day',1,4,'A/RES/73/161')
-fixed('World Logic Day',1,14,'40 C/Resolution 39', 'UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)
+fixed('World Logic Day',1,14,'40 C/Resolution 38', 'UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)
 fixed('International Day of Education',1,24,'A/RES/73/25')
 fixed('World Day for African and Afrodescendant Culture',1,24,'40 C/Resolution 50','UNESCO','UNESCO','OFFICIAL_UNESCO',UNESCO)
 fixed('International Day of Clean Energy',1,26,'A/RES/77/327')
@@ -529,6 +529,27 @@ for market_record in [*MARKET_RECORDS, *build_expansion_records()]:
 # celebration and must link to a specifically reviewed primary document.
 # Unknown years remain absent and render as '*' in all six app locales.
 INTRODUCTION_EVIDENCE = {
+    # Wave05: nine original founding instruments / institution-specific pages (2026-11-12).
+    'world-logic-day': (2019, 'https://www.unesco.org/en/days/world-logic'),
+    'world-day-for-african-and-afrodescendant-culture': (2019, 'https://www.unesco.org/en/days/african-culture'),
+    'international-day-of-peaceful-coexistence': (2025, 'https://www.un.org/en/observances/peaceful-coexistence-day'),
+    'international-day-of-human-fraternity': (2020, 'https://www.un.org/en/observances/human-fraternity'),
+    'world-pulses-day': (2018, 'https://www.un.org/en/ga/73/resolutions.shtml'),
+    'international-day-of-the-arabian-leopard': (2023, 'https://mandates.un.org/mandate/A/RES/77/295'),
+    'international-day-of-women-and-girls-in-science': (2015, 'https://mandates.un.org/mandate/A/RES/70/212'),
+    'international-day-for-the-prevention-of-violent-extremism-as-and-when-conducive-to-terrorism': (2022, 'https://mandates.un.org/mandate/A/RES/77/243'),
+    'global-tourism-resilience-day': (2023, 'https://mandates.un.org/mandate/A/RES/77/269'),
+    # Wave02 — independently checked original institutional establishment dates.
+    # Historical event/first observance years are stored in the origin stories,
+    # not substituted for the formal adoption year below.
+    'world-wetlands-day': (2021, 'https://www.un.org/en/observances/world-wetlands-day/background'),
+    'international-day-of-light': (2017, 'https://www.unesco.org/en/articles/unesco-general-conference-proclaims-16-may-international-day-light'),
+    'world-bicycle-day': (2018, 'https://mandates.un.org/mandate/A/RES/72/272'),
+    'international-day-of-yoga': (2014, 'https://www.un.org/en/observances/yoga-day'),
+    'world-food-safety-day': (2018, 'https://www.un.org/en/observances/food-safety-day/background'),
+    'world-no-tobacco-day': (1987, 'https://www.who.int/campaigns/world-no-tobacco-day'),
+    'world-population-day': (1989, 'https://www.un.org/en/observances/world-population-day/background'),
+    'world-teachers-day': (1994, 'https://www.unesco.org/en/days/teachers'),
     'africa-industrialization-day': (
         1989, 'https://www.un.org/en/observances/africa-industrialization-day',
     ),

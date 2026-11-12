@@ -1,5 +1,92 @@
 # World Days — Active roadmap
 
+## Prime 9 origini certificate da fonti specifiche tra 100 bozze (12 novembre 2026)
+
+- [x] Analizzare singolarmente nove ricorrenze della PR #100 tramite fonti istitutive originali ONU, UNESCO e CIPSH; redigere nuova storia d'origine IT/EN con anno, prima osservanza quando provata, scelta della data, promotore e quattro fatti.
+- [x] Correggere l'errore documentale World Logic Day: la risoluzione UNESCO è **40 C/38**, non 40 C/39.
+- [x] Creare `origin_stories_wave05_20261112.json` e riferimenti cronologici; collegare il validatore `validate_editorial_origin_wave05_20261112.py` alla CI.
+- [x] Mantenere tutti i 100 testi iniziali nell'archivio: l'eventuale storia verificata è un successore autonomo del draft; non pubblicare automaticamente i 91 non verificati.
+- [ ] Superare i gate exact-head Flutter, Web, Python e review per integrare il branch.
+- [ ] Proseguire la ricerca per le altre 91 bozze del lotto da 100 e poi con la coda residua.
+- [ ] Tradurre e revisionare ES/FR/DE/PT e ottenere review editoriale/fattuale qualificata; non dichiarare tale passaggio già svolto.
+
+**Conteggio condizionato a CI/merge:** 55/1.111 origini IT/EN source-researched, 1.056 senza revisione individuale; 100 bozze narrative archiviate, nove promosse con successore documentato. Registro: `docs/EDITORIAL_FIRST_NINE_OF_100_FACT_REVIEW_20261112.md`.
+
+## Primo lotto da 100 racconti originali IT/EN (12 novembre 2026)
+
+- [x] Scrivere 100 testi narrativi unici, non dossier vuoti, con italiano e inglese, fonti istituzionali e numero di risoluzione riferito alla data.
+- [x] Conservare identità e date del catalogo, non riutilizzare i 46 ID delle origini ricercate, bloccare i segnaposto tecnici e associare stato bozza a tutti i testi.
+- [x] Pubblicare il testo consultabile in `docs/WORLD_DAYS_100_ORIGINAL_STORIES_DRAFT_20261112.md` e i dati strutturati in `data/editorial/candidates/origin_100_original_bilingual_drafts_20261112.json`.
+- [x] Aggiungere validatore CI `tool/validate_origin_100_original_drafts_20261112.py`, con guardrail di *non promozione* nel layer offline.
+- [ ] Per ognuna delle 100 bozze verificare l'atto istitutivo originario, anno di adozione, persona o Paese proponente (se noto), motivo della data e curiosità specifiche. La sola presenza nella lista ONU/UNESCO non è sufficiente.
+- [ ] Ampliare i testi in stile narrativo lungo, effettuare revisione fattuale, scrivere ES/FR/DE/PT e revisionare tutte le lingue prima della promozione.
+- [ ] Continuare per gruppi da 100 fino a coprire gli ID rimanenti.
+
+**Verità del checkpoint:** 100 bozze IT/EN redatte, ma **0 nuove origini di questo lotto dichiarate certificate**. I 46 approfondimenti storici IT/EN già integrati su main restano distinti; 1.065 identità richiedono ancora ricerca individuale. Nessun APK/Play/deploy.
+
+## Wave04 — 14 storie ONU/UNESCO dal lotto istituzionale precedente (12 novembre 2026)
+
+- [x] Recuperare 14 testi di origine individualmente ricercati nel precedente file `un_primary_2026_11_03_02.json` senza moltiplicare o sostituire i 1.111 ID canonici.
+- [x] Completare l'approfondimento IT/EN per ogni storia con fondazione, data storica, promotore o ente adottante dimostrato, finalità e fatti verificabili; mantenere sconosciute le circostanze non documentate.
+- [x] Aggiungere il batch append-only `origin_stories_wave04_20261112.json` e un gate Python di corrispondenza al precedente registro di fonti, anni, testi e status delle quattro lingue aggiuntive.
+- [ ] Verificare CI completa sul commit esatto; integrare soltanto dopo gate/review verdi.
+- [ ] Revisionare con competenza editoriale e linguistica ES/FR/DE/PT prima di dichiarare le storie certificate in sei lingue.
+- [ ] Proseguire in lotti fino al completamento, ricercando origini singole per le restanti 1.065 ricorrenze su 1.111, con priorità alle fonti istituzionali specifiche.
+
+**Checkpoint atteso dopo merge, a catalogo invariato:** 46 origini documentate IT/EN, 1.065 da completare; coda automatica 11 blocchi (10×100+65), 79 anni documentati già presenti. Le 56 storie editoriali legacy sono un conteggio distinto. Nessun APK/Play/produzione.
+
+## Wave03 — 15 storie storiche ONU/UNESCO già documentate, ora mostrate nell'app (12 novembre 2026)
+
+- [x] Riutilizzare le 15 schede fonte-ricercate in `data/editorial/batches/un_primary_2026_11_03_03.json` senza riscrivere o inventare cronologie; ricomporle in testi IT/EN per il pannello offline delle origini.
+- [x] Distinguere autorità istitutive, proposte documentate, anniversari commemorati e prime celebrazioni solo dove dimostrabili.
+- [x] Integrare un nuovo batch append-only `origin_stories_wave03_20261112.json` nel generatore esistente, con validazione CI sui 15 ID, provenienza, cronologia e testi IT/EN.
+- [ ] Completare review editoriale qualificata e traduzioni ES/FR/DE/PT, senza promuovere automaticamente draft.
+- [ ] Continuare per blocchi massimi da 100 sulle ricorrenze rimanenti, incluse le verifiche delle fonti nazionali e dei 56 articoli legacy.
+
+**Dopo merge e validazione:** 32 origini IT/EN documentate su 1.111, ancora 1.079; i 56 precedenti articoli runtime sono separati dalla nuova ricertificazione di origine. Nessun nuovo ID canonico.
+
+## Wave02 — otto nuove storie di origine con fonti primarie (12 novembre 2026)
+
+- [x] Collegare `origin_stories_wave02_20261112.json` come batch append-only di 8 origini documentate da ONU, UNESCO, OMS, Ramsar e fonti istituzionali originarie.
+- [x] Scrivere testi originali IT/EN con motivo della data (quando provato), istituzione, ente promotore documentato, primo evento e curiosità tracciabili; segnalare esplicitamente ciò che non è provato.
+- [x] Aggiungere gate Python per anni, URL istituzionali, dati già presenti nelle bozze Wave04 e assenza di attribuzioni arbitrarie; collegarlo alla CI.
+- [ ] Verificare i risultati CI Python, Flutter e Web sull'ultimo commit e le eventuali review prima del merge.
+- [ ] Svolgere revisione editoriale/linguistica qualificata delle lingue ES/FR/DE/PT: la loro presenza come bozze non costituisce certificazione.
+- [ ] Continuare sul primo blocco da 100 con nuovi racconti verificabili, senza saltare o riaprire ID già completati.
+
+**Conteggio atteso dopo CI e merge, a catalogo invariato:** 17/1.111 origini individualmente ricercate, 1.094 da approfondire, 56 vecchi articoli editoriali distinti.
+
+## Primo lotto: 5 nuove storie UNESCO con fonti individuali (12 novembre 2026)
+
+- [x] Ricercare con pagine UNESCO e IMU cinque identità non ancora trattate nel nuovo ledger: traffico illecito di beni culturali (14 novembre), arte islamica (18 novembre), matematica (14 marzo), donne nel multilateralismo (25 gennaio) e ingegneria sostenibile (4 marzo).
+- [x] Redigere per ognuna testi originali IT/EN: origine e istituzione, promotore distinto dall'ente che ha proclamato, scopo e tre fatti circostanziati; ragioni della data sconosciute restano dichiarate non documentate.
+- [x] Collegare file di lotto `data/editorial/batches/origin_stories_wave01_20261112.json` al generatore del registro offline e alle code 100-ID; test fonte/anno/struttura.
+- [ ] Revisione editoriale e linguistica indipendente; completamento e verifica delle traduzioni ES/FR/DE/PT. Non equiparare bozza a pubblicazione editoriale plurilingue certificata.
+- [ ] Continuare il blocco 001 fino a 100 nuove origini storiche verificate, poi procedere al blocco successivo.
+
+**Checkpoint dopo questa integrazione (da confermare su CI):** 9 origini individualmente ricercate su 1.111; 1.102 ancora senza nuovo audit d'origine; 56 precedenti articoli REVIEWED restano una classificazione separata. La coda si rigenera da main, non conserva conteggi fissi.
+
+## Programma storie: lotti consecutivi da 100 (12 novembre 2026)
+
+- [x] Predisporre la suddivisione riproducibile di **tutte** le origini da ricercare: 1.107 ID in 12 lotti (11 × 100 + 7), senza duplicazioni, mentre il catalogo resta a 1.111.
+- [x] Riusare il primo lotto Wave100 (#93), completare i lotti successivi e certificare in CI gli ID, la copertura, la provenienza e lo stato delle bozze, senza fingere che i dossier siano racconti finiti.
+- [ ] Per ciascun lotto produrre effettivamente racconti individuali verificati in fonte primaria, anno fondazione se documentato, ragione data, promotore provato, contesto e curiosità.
+- [ ] Integrare testi originali e traduzioni EN/IT/ES/FR/DE/PT dopo revisione fattuale, editoriale e linguistica.
+- [ ] Aggiornare automaticamente i lotti rimasti man mano che gli approfondimenti diventano effettivamente certificati; nuove ricorrenze si aggiungono senza tetto massimo.
+
+Protocollo: [EDITORIAL_ORIGIN_100_BATCHES_UNTIL_COMPLETE_20261112.md](docs/EDITORIAL_ORIGIN_100_BATCHES_UNTIL_COMPLETE_20261112.md).
+**Avanzamento di ricerca iniziale:** 4 origini ricercate; 1.107 ancora da verificare individualmente. I 56 articoli legacy non vengono conteggiati come 56 nuove certificazioni di origine.
+
+## Source-backed origin stories — implemented for 4/1,111, remaining 1,107 (11 November 2026)
+
+- [x] Add a per-ID offline research ledger and visible source-bound IT/EN origin, adopter/proposer (where known), why and contextual facts for four World Days; native localization beyond IT/EN remains pending.
+- [x] Preserve 56 previously reviewed English rich-editorial records as distinct from four additionally source-audited origin narratives; do not claim the remaining 1,107 have been researched.
+- [x] Build and validate the origin-index asset in development, dependency and platform bootstrap paths so Web and future Android compilation do not omit it.
+- [ ] Independently research origins and historical contexts for the remaining 1,107 canonical records; check dates, individual national law and cultural/institutional classification, especially EURES/DFAT/NCCA.
+- [ ] Extend source-reviewed IT/EN prose and later independently reviewed ES/FR/DE/PT. Never invent a historical proposer, year or holiday status. Continue expansion beyond 1,111 as source evidence supports.
+- [ ] Deploy only after CI, reviewer approval, and corrected origin/recurrence quality gates.
+
+
 ## Certification and editorial continuation — 2026-11-11
 
 - [x] Prepare Ireland St Brigid statutory holiday correction against [WRC public-holiday guidance](https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/): annual exceptions 2023–2100 and separate traditional 1 February record; **CI pending** until confirmed on the new PR head.

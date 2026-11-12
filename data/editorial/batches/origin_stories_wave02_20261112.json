@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE02-UN-UNESCO-WHO-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "sourcePolicy": "Original IT/EN narratives based on individual institution/originator sources, not human-approved translations in other locales. Initial establishment years distinguished from first events; no invented founders.",
+  "count": 8,
+  "records": [
+    {
+      "observanceId": "world-wetlands-day",
+      "sources": [
+        "https://www.un.org/en/observances/world-wetlands-day/background",
+        "https://www.ramsar.org/world-wetlands-day-1997",
+        "https://www.worldwetlandsday.org/about"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": 1997,
+      "locale": {
+        "en": {
+          "heading": "Wetlands: a global commitment that began long before the UN day",
+          "origin": "The story starts in Ramsar, Iran, where an international convention on wetlands was adopted on 2 February 1971. The Convention's partners began marking World Wetlands Day in 1997, to explain why marshes, lakes, mangroves and other wetlands deserve protection. On 30 August 2021, the United Nations General Assembly adopted resolution 75/317, giving the existing observance formal UN recognition. The treaty's origin, the first campaign and the UN proclamation therefore belong to three different decades.",
+          "promoter": "The Contracting Parties and Secretariat of the Convention on Wetlands developed the earlier awareness campaign. The United Nations General Assembly proclaimed the international day in 2021; the cited sources do not identify a single original individual as founder.",
+          "purpose": "Encourage people to conserve and restore wetlands, understand their role in biodiversity and water systems, and support wise use through community and public policy action.",
+          "facts": [
+            "2 February commemorates the adoption of the Ramsar Convention in 1971, not the date of the 2021 UN resolution.",
+            "World Wetlands Day was already celebrated in 1997, well before its formal UN recognition.",
+            "The Convention's Secretariat coordinates the global awareness campaign with participating countries.",
+            "Wetlands support biodiversity, water management and climate resilience."
+          ]
+        },
+        "it": {
+          "heading": "Zone umide: una storia iniziata molto prima della proclamazione ONU",
+          "origin": "La storia comincia a Ramsar, in Iran, dove il 2 febbraio 1971 fu adottata una convenzione internazionale per la tutela delle zone umide. I partner della Convenzione iniziarono a celebrare la Giornata mondiale delle zone umide nel 1997, per spiegare il valore di paludi, laghi, mangrovie e altri ecosistemi. Il 30 agosto 2021 l'Assemblea generale dell'ONU approvò la risoluzione 75/317, riconoscendo ufficialmente una ricorrenza già esistente. Convenzione, prime celebrazioni e riconoscimento ONU sono quindi tre tappe differenti.",
+          "promoter": "La campagna originaria è legata alle Parti contraenti e al Segretariato della Convenzione sulle zone umide. L'Assemblea generale ONU ha proclamato la giornata nel 2021; le fonti non indicano un singolo fondatore.",
+          "purpose": "Invitare alla conservazione e al ripristino delle zone umide, mostrando la loro importanza per biodiversità, acqua, clima e uso responsabile delle risorse.",
+          "facts": [
+            "Il 2 febbraio ricorda l'adozione della Convenzione di Ramsar nel 1971, non la risoluzione ONU del 2021.",
+            "La prima Giornata mondiale delle zone umide fu celebrata nel 1997, molti anni prima del riconoscimento ONU.",
+            "Il Segretariato della Convenzione coordina le attività di sensibilizzazione con i Paesi aderenti.",
+            "Le zone umide sostengono biodiversità, gestione dell'acqua e resilienza climatica."
+          ]
+        }
+      },
+      "sourceReviewNote": "First observance in 1997 preceded 2021 UN declaration; original treaty is 1971."
+    },
+    {
+      "observanceId": "international-day-of-light",
+      "sources": [
+        "https://www.unesco.org/en/articles/unesco-general-conference-proclaims-16-may-international-day-light",
+        "https://www.unesco.org/en/days/light",
+        "https://www.unesco.org/en/articles/unesco-celebrates-1st-international-day-light"
+      ],
+      "introducedYear": 2017,
+      "firstObservedYear": 2018,
+      "locale": {
+        "en": {
+          "heading": "A laser experiment became a worldwide celebration of light",
+          "origin": "On 13 November 2017, UNESCO's 39th General Conference proclaimed 16 May the International Day of Light. The date was not chosen at random: on 16 May 1960, physicist Theodore Maiman demonstrated the first working laser. A successful International Year of Light in 2015 had already shown how optics and photonics connect laboratories to daily life. UNESCO held the first International Day of Light celebration on 16 May 2018, turning a scientific anniversary into an invitation to reflect on light in science and culture.",
+          "promoter": "Ghana, Mexico, New Zealand and the Russian Federation introduced the proposal to UNESCO. The General Conference adopted it in 2017 with support from other countries; the event is not attributable solely to the scientist whose achievement it commemorates.",
+          "purpose": "Highlight how light and light-based technologies contribute to education, medicine, communication, culture, energy and sustainable development.",
+          "facts": [
+            "16 May marks Theodore Maiman's successful laser demonstration in 1960.",
+            "UNESCO's proclamation occurred in 2017, while the first annual celebration followed in 2018.",
+            "The proposal was introduced by Ghana, Mexico, New Zealand and the Russian Federation.",
+            "The 2015 International Year of Light helped inspire a lasting international observance."
+          ]
+        },
+        "it": {
+          "heading": "Da un laser del 1960 a una giornata mondiale della luce",
+          "origin": "Il 13 novembre 2017 la 39ª Conferenza generale dell'UNESCO proclamò il 16 maggio Giornata internazionale della luce. La scelta ricorda il 16 maggio 1960, quando il fisico Theodore Maiman mise in funzione il primo laser. Già l'Anno internazionale della luce del 2015 aveva mostrato i legami tra ottica, fotonica e vita quotidiana. La prima celebrazione della nuova giornata si svolse il 16 maggio 2018: un anniversario scientifico diventò un'occasione per parlare anche di cultura, comunicazione e sviluppo.",
+          "promoter": "La proposta fu presentata all'UNESCO da Ghana, Messico, Nuova Zelanda e Federazione Russa. Fu adottata dalla Conferenza generale nel 2017 con il sostegno di altri Paesi; Maiman è il protagonista dell'anniversario, non il promotore documentato della ricorrenza.",
+          "purpose": "Mostrare come la luce e le tecnologie ottiche contribuiscano a scuola, medicina, comunicazioni, cultura, energia e sviluppo sostenibile.",
+          "facts": [
+            "Il 16 maggio ricorda il primo laser funzionante dimostrato da Theodore Maiman nel 1960.",
+            "La proclamazione UNESCO è del 2017, mentre la prima celebrazione annuale si tenne nel 2018.",
+            "Ghana, Messico, Nuova Zelanda e Russia presentarono la proposta all'UNESCO.",
+            "L'Anno internazionale della luce del 2015 contribuì a ispirare una ricorrenza permanente."
+          ]
+        }
+      },
+      "sourceReviewNote": "Proposer countries directly named by UNESCO; 1960 is laser milestone, not founding year."
+    },
+    {
+      "observanceId": "world-bicycle-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/72/272",
+        "https://www.un.org/pga/72/2018/04/12/highlights-of-press-briefing-by-spokesperson-12-april-2018/",
+        "https://mfa.gov.tm/en/news/819"
+      ],
+      "introducedYear": 2018,
+      "firstObservedYear": 2018,
+      "locale": {
+        "en": {
+          "heading": "Why an everyday bicycle gained a day at the United Nations",
+          "origin": "On 12 April 2018, the United Nations General Assembly adopted resolution A/RES/72/272, proclaiming 3 June World Bicycle Day. Rather than commemorating the invention of a particular bicycle, the text emphasizes how a simple form of transport can support health, mobility, education and environmentally sustainable cities. The day was celebrated in 2018, including public rides organized in several countries. Its historical starting point is a UN decision, not an invented birthday for the bicycle.",
+          "promoter": "Turkmenistan advanced the proposal, with support from other Member States; its foreign ministry records 56 co-sponsors. The United Nations General Assembly adopted the resolution. The cited resolution does not give a symbolic historical reason for choosing exactly 3 June.",
+          "purpose": "Encourage cycling, safe mobility, active living, social inclusion and sustainable transport choices, while promoting infrastructure that protects people riding bicycles.",
+          "facts": [
+            "Resolution A/RES/72/272 was adopted on 12 April 2018 and names 3 June as World Bicycle Day.",
+            "Turkmenistan documents its initiative and support from 56 co-sponsoring countries.",
+            "The resolution calls attention to road safety as well as the health and environmental role of cycling.",
+            "The date is a designated annual awareness day, not the anniversary of one documented bicycle invention."
+          ]
+        },
+        "it": {
+          "heading": "Perché una semplice bicicletta ha ottenuto una giornata ONU",
+          "origin": "Il 12 aprile 2018 l'Assemblea generale delle Nazioni Unite approvò la risoluzione A/RES/72/272, proclamando il 3 giugno Giornata mondiale della bicicletta. Il documento non celebra l'invenzione di un particolare modello: sottolinea il valore di un mezzo semplice per salute, mobilità, istruzione e città più sostenibili. Già nel 2018 furono organizzate pedalate pubbliche in diversi Paesi. L'origine della ricorrenza è quindi una decisione ONU, non un presunto compleanno della bicicletta.",
+          "promoter": "La proposta fu promossa dal Turkmenistan con il sostegno di altri Stati; il suo Ministero degli Esteri riferisce 56 cofirmatari. L'Assemblea generale ONU adottò la risoluzione, che non documenta uno specifico anniversario storico alla base del 3 giugno.",
+          "purpose": "Promuovere la bicicletta, la mobilità sicura e attiva, l'inclusione sociale e i trasporti sostenibili, incoraggiando infrastrutture che tutelino chi pedala.",
+          "facts": [
+            "La risoluzione A/RES/72/272 è stata adottata il 12 aprile 2018 e fissa la data del 3 giugno.",
+            "Il Turkmenistan documenta la propria iniziativa e il sostegno di 56 Paesi cofirmatari.",
+            "La risoluzione richiama sia la sicurezza stradale sia i benefici per salute e ambiente.",
+            "La giornata non ricorda l'anniversario documentato di una specifica invenzione della bicicletta."
+          ]
+        }
+      },
+      "sourceReviewNote": "Turkmenistan documented as submitting state; avoid claims about historical 3 June symbolism."
+    },
+    {
+      "observanceId": "international-day-of-yoga",
+      "sources": [
+        "https://www.un.org/en/observances/yoga-day",
+        "https://www.un.org/pga/69/210615_statement-day-of-yoga/"
+      ],
+      "introducedYear": 2014,
+      "firstObservedYear": 2015,
+      "locale": {
+        "en": {
+          "heading": "Ancient yoga, a modern UN observance",
+          "origin": "Yoga has roots in India's long cultural history, but the International Day of Yoga is a much more recent observance. On 11 December 2014, the United Nations General Assembly proclaimed 21 June the annual day through resolution A/RES/69/131. India had presented the proposal after Prime Minister Narendra Modi raised the idea at the UN General Assembly. The first international celebration took place on 21 June 2015. The 2014 decision therefore should not be confused with the origins of the practice itself.",
+          "promoter": "India proposed the draft resolution, and the UN General Assembly adopted it with broad cross-regional support. The date of 21 June was established by that resolution; the cited UN page does not present an older founding event on 21 June.",
+          "purpose": "Invite people to learn about yoga as a physical, mental and contemplative practice and promote awareness of its potential role in well-being, without substituting it for medical care.",
+          "facts": [
+            "The UN adopted resolution A/RES/69/131 on 11 December 2014.",
+            "India formally proposed the observance after Narendra Modi's address to the General Assembly.",
+            "The first International Day of Yoga was marked on 21 June 2015.",
+            "The modern annual observance is distinct from yoga's much older cultural traditions."
+          ]
+        },
+        "it": {
+          "heading": "Una pratica antica, una ricorrenza ONU recente",
+          "origin": "Lo yoga nasce da una lunga storia culturale dell'India, ma la Giornata internazionale dello yoga è molto più recente. L'11 dicembre 2014 l'Assemblea generale ONU proclamò il 21 giugno giornata annuale mediante la risoluzione A/RES/69/131. L'India presentò la proposta dopo l'intervento del primo ministro Narendra Modi alle Nazioni Unite. La prima celebrazione internazionale si tenne il 21 giugno 2015. L'istituzione della giornata nel 2014 non va quindi confusa con la nascita millenaria della pratica.",
+          "promoter": "L'India propose la risoluzione, adottata dall'Assemblea generale ONU con ampio sostegno internazionale. Il 21 giugno è la data fissata dal provvedimento; la fonte ONU consultata non associa tale scelta alla fondazione storica dello yoga.",
+          "purpose": "Far conoscere lo yoga come pratica fisica, mentale e contemplativa e promuovere consapevolezza sul benessere, senza presentarlo come sostituto delle cure mediche.",
+          "facts": [
+            "L'ONU adottò la risoluzione A/RES/69/131 l'11 dicembre 2014.",
+            "La proposta fu avanzata dall'India dopo l'intervento di Narendra Modi all'Assemblea generale.",
+            "La prima Giornata internazionale dello yoga fu celebrata il 21 giugno 2015.",
+            "La giornata moderna è distinta dalle tradizioni culturali dello yoga, molto più antiche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Historic yoga origins not reducible to a single founding year; first UN observance documented 2015."
+    },
+    {
+      "observanceId": "world-food-safety-day",
+      "sources": [
+        "https://www.un.org/en/observances/food-safety-day/background",
+        "https://www.un.org/en/observances/list-days-weeks"
+      ],
+      "introducedYear": 2018,
+      "firstObservedYear": 2019,
+      "locale": {
+        "en": {
+          "heading": "Food safety, from laboratory standards to a worldwide day",
+          "origin": "Foodborne disease can begin anywhere along a chain stretching from farms to kitchens. The Codex Alimentarius Commission supported the idea of a permanent international day in 2016, followed by FAO and WHO support. Costa Rica announced plans to bring a draft to the UN in 2018. On 20 December 2018 the UN General Assembly adopted resolution A/RES/73/250, proclaiming 7 June World Food Safety Day. Its first annual observance followed in 2019, making the formal decision and inaugural celebration separate milestones.",
+          "promoter": "The UN General Assembly proclaimed the day. Costa Rica played an identifiable role in bringing the proposal forward; FAO, WHO and the Codex Alimentarius Commission supported the initiative. This does not mean one individual founded the observance.",
+          "purpose": "Raise awareness of foodborne risks and support prevention, testing and safer practices across production, transport, preparation and consumption.",
+          "facts": [
+            "The UN General Assembly proclaimed 7 June World Food Safety Day on 20 December 2018.",
+            "The first annual worldwide observance took place in 2019.",
+            "Costa Rica announced its intention to advance the proposal during 2018 UN discussions.",
+            "FAO and WHO cooperate on food safety across the food chain and public health."
+          ]
+        },
+        "it": {
+          "heading": "La sicurezza alimentare: dal lavoro scientifico a una giornata mondiale",
+          "origin": "Una malattia trasmessa dagli alimenti può avere origine in qualunque passaggio, dai campi alla cucina. Nel 2016 la Commissione del Codex Alimentarius sostenne l'idea di una giornata permanente, seguita dall'appoggio di FAO e OMS. Nel 2018 il Costa Rica annunciò l'intenzione di portare una proposta alle Nazioni Unite. Il 20 dicembre 2018 l'Assemblea generale approvò la risoluzione A/RES/73/250, proclamando il 7 giugno Giornata mondiale della sicurezza alimentare. La prima ricorrenza annuale si celebrò nel 2019.",
+          "promoter": "La giornata fu proclamata dall'Assemblea generale ONU. Il Costa Rica ebbe un ruolo documentato nella promozione della proposta, sostenuta da FAO, OMS e Codex Alimentarius; non è documentata l'attribuzione a un singolo fondatore.",
+          "purpose": "Sensibilizzare sui rischi alimentari e favorire prevenzione, controlli e pratiche sicure lungo produzione, distribuzione, preparazione e consumo.",
+          "facts": [
+            "L'Assemblea generale ONU proclamò la giornata il 20 dicembre 2018, fissandola al 7 giugno.",
+            "La prima celebrazione annuale si svolse nel 2019.",
+            "Il Costa Rica annunciò nel 2018 l'intenzione di promuovere la proposta presso l'ONU.",
+            "FAO e OMS collaborano per proteggere la sicurezza della filiera alimentare e la salute pubblica."
+          ]
+        }
+      },
+      "sourceReviewNote": "Origin chain includes Codex/FAO/WHO and Costa Rica proposal; avoid treating FAO or WHO as the sole adopter."
+    },
+    {
+      "observanceId": "world-no-tobacco-day",
+      "sources": [
+        "https://www.who.int/campaigns/world-no-tobacco-day",
+        "https://fctc.who.int/convention/history-of-the-who-fctc/process-for-the-who-fctc/"
+      ],
+      "introducedYear": 1987,
+      "firstObservedYear": 1988,
+      "locale": {
+        "en": {
+          "heading": "The anti-tobacco day began with a different date",
+          "origin": "In 1987, the World Health Assembly adopted resolution WHA40.38, calling for a world no-smoking day on 7 April 1988, the fortieth anniversary year of the World Health Organization. The campaign later developed into World No Tobacco Day on 31 May each year; WHO identifies resolution WHA42.19 as the basis for that recurring date. The first exceptional event and today's annual date are therefore not the same. The public-health goal is to draw attention to the avoidable harm caused by tobacco use and exposure.",
+          "promoter": "Member States acted collectively through the World Health Assembly. WHO coordinates the international campaign; the official sources do not single out an individual founder.",
+          "purpose": "Explain the health risks of tobacco, the influence of tobacco marketing and the prevention policies and support that can reduce tobacco-related disease.",
+          "facts": [
+            "The original World Health Assembly resolution WHA40.38 dates to 1987.",
+            "The first global no-smoking day was called for on 7 April 1988.",
+            "The now-familiar annual 31 May observance is linked to resolution WHA42.19.",
+            "WHO campaigns address both tobacco's health effects and tobacco-industry practices."
+          ]
+        },
+        "it": {
+          "heading": "La giornata contro il tabacco nacque con una data diversa",
+          "origin": "Nel 1987 l'Assemblea mondiale della sanità approvò la risoluzione WHA40.38, invitando a celebrare una giornata mondiale senza fumo il 7 aprile 1988, nell'anno del quarantesimo anniversario dell'OMS. La campagna si sviluppò poi nella Giornata mondiale senza tabacco del 31 maggio, collegata dall'OMS alla risoluzione WHA42.19. L'evento iniziale e la data annuale oggi conosciuta non coincidono quindi. L'obiettivo resta richiamare l'attenzione sui danni evitabili dovuti al tabacco.",
+          "promoter": "L'iniziativa fu adottata collettivamente dagli Stati membri tramite l'Assemblea mondiale della sanità. L'OMS coordina la campagna; le fonti ufficiali non attribuiscono la fondazione a una singola persona.",
+          "purpose": "Spiegare i rischi sanitari del tabacco, l'influenza del marketing e le misure di prevenzione e sostegno che possono ridurre le malattie correlate.",
+          "facts": [
+            "La prima risoluzione dell'Assemblea mondiale della sanità, WHA40.38, è del 1987.",
+            "La prima giornata mondiale senza fumo venne prevista per il 7 aprile 1988.",
+            "L'attuale data annuale del 31 maggio è collegata alla risoluzione WHA42.19.",
+            "Le campagne OMS affrontano sia gli effetti sanitari sia le pratiche dell'industria del tabacco."
+          ]
+        }
+      },
+      "sourceReviewNote": "WHO web summary has a year inconsistency for WHA42.19; resolution number/date not asserted beyond independently verified chronology."
+    },
+    {
+      "observanceId": "world-population-day",
+      "sources": [
+        "https://www.un.org/en/observances/world-population-day/background",
+        "https://www.unfpa.org/frequently-asked-questions-about-unfpa"
+      ],
+      "introducedYear": 1989,
+      "firstObservedYear": 1990,
+      "locale": {
+        "en": {
+          "heading": "Five billion people sparked a lasting day of reflection",
+          "origin": "The origin of World Population Day lies in the public attention generated when the world was estimated to reach five billion people on 11 July 1987. In 1989, the Governing Council of the United Nations Development Programme established 11 July as an annual observance. It was first marked on 11 July 1990 in more than ninety countries. In December 1990, the UN General Assembly adopted resolution 45/216 to continue the observance. Its history links a demographic milestone with a later institutional decision.",
+          "promoter": "The UNDP Governing Council established the day in 1989; the General Assembly later endorsed its continuation. UNFPA and partners now participate in organizing awareness activities.",
+          "purpose": "Encourage informed discussion about demographic change, rights, reproductive health, sustainable development and the conditions needed for people to make choices about their futures.",
+          "facts": [
+            "11 July recalls the 1987 Day of Five Billion, not a day invented for the 1989 decision.",
+            "UNDP's Governing Council established World Population Day in 1989.",
+            "The first observance in 1990 involved more than ninety countries.",
+            "UN General Assembly resolution 45/216 supported the continuation of the day later in 1990."
+          ]
+        },
+        "it": {
+          "heading": "Cinque miliardi di persone e una nuova occasione di riflessione",
+          "origin": "La Giornata mondiale della popolazione nasce dall'attenzione suscitata dalla stima dei cinque miliardi di abitanti raggiunti l'11 luglio 1987. Nel 1989 il Consiglio direttivo del Programma delle Nazioni Unite per lo sviluppo (UNDP) istituì l'11 luglio come ricorrenza annuale. Fu celebrata per la prima volta l'11 luglio 1990 in oltre novanta Paesi. Nel dicembre dello stesso anno l'Assemblea generale ONU approvò la risoluzione 45/216 per proseguirla. La sua storia unisce quindi una soglia demografica e una decisione istituzionale successiva.",
+          "promoter": "La giornata fu istituita nel 1989 dal Consiglio direttivo dell'UNDP; l'Assemblea generale ONU ne sostenne poi la prosecuzione. UNFPA e altri partner partecipano oggi alle attività di sensibilizzazione.",
+          "purpose": "Promuovere una discussione informata su cambiamenti demografici, diritti, salute riproduttiva e sviluppo sostenibile, valorizzando le possibilità di scelta delle persone.",
+          "facts": [
+            "L'11 luglio ricorda il Giorno dei cinque miliardi del 1987, non un evento del 1989.",
+            "Il Consiglio direttivo dell'UNDP istituì la giornata nel 1989.",
+            "La prima celebrazione del 1990 coinvolse oltre novanta Paesi.",
+            "La risoluzione ONU 45/216 ne sostenne la prosecuzione nel dicembre 1990."
+          ]
+        }
+      },
+      "sourceReviewNote": "UNDP establishment in 1989; first event 1990; UNGA continuation later 1990."
+    },
+    {
+      "observanceId": "world-teachers-day",
+      "sources": [
+        "https://www.unesco.org/en/days/teachers",
+        "https://www.unesco.org/en/articles/unesco-celebrates-world-teachers-day",
+        "https://www.unesco.org/en/legal-affairs/recommendation-concerning-status-teachers"
+      ],
+      "introducedYear": 1994,
+      "firstObservedYear": 1994,
+      "locale": {
+        "en": {
+          "heading": "Why teachers are celebrated on an anniversary from 1966",
+          "origin": "World Teachers' Day has been observed on 5 October since 1994, following UNESCO's designation. The date recalls 5 October 1966, when an international conference adopted the ILO/UNESCO Recommendation concerning the Status of Teachers. That agreement addressed teachers' responsibilities, professional preparation, recruitment and working conditions. The observance created in 1994 looks back to the earlier standard-setting milestone rather than claiming that the teaching profession began on that date.",
+          "promoter": "UNESCO proclaimed the day in 1994; UNESCO, the International Labour Organization, UNICEF and Education International cooperate in its observance. The cited institutional material does not establish a single individual as its original proposer.",
+          "purpose": "Recognize teachers' contributions to learning and reflect on the training, professional rights, conditions and support needed to provide quality education.",
+          "facts": [
+            "The date of 5 October marks the adoption of the ILO/UNESCO Recommendation in 1966.",
+            "The annual World Teachers' Day has been celebrated since 1994.",
+            "The 1966 recommendation sets international reference points for training and working conditions.",
+            "UNESCO convenes the observance with ILO, UNICEF and Education International."
+          ]
+        },
+        "it": {
+          "heading": "Perché celebriamo gli insegnanti ricordando un accordo del 1966",
+          "origin": "La Giornata mondiale degli insegnanti si celebra il 5 ottobre dal 1994, dopo la proclamazione dell'UNESCO. La data ricorda il 5 ottobre 1966, quando una conferenza internazionale adottò la Raccomandazione ILO/UNESCO sulla condizione degli insegnanti. Il testo affronta responsabilità, formazione, reclutamento e condizioni di lavoro della professione. La ricorrenza nata nel 1994 guarda quindi a un passaggio normativo precedente, senza sostenere che la professione sia cominciata nel 1966.",
+          "promoter": "L'UNESCO proclamò la giornata nel 1994; oggi collabora alla celebrazione con l'Organizzazione internazionale del lavoro, UNICEF ed Education International. Le fonti istituzionali non identificano un singolo ideatore.",
+          "purpose": "Riconoscere il ruolo degli insegnanti nell'istruzione e riflettere su formazione, diritti professionali, condizioni di lavoro e sostegno necessario per un'educazione di qualità.",
+          "facts": [
+            "Il 5 ottobre ricorda l'adozione della Raccomandazione ILO/UNESCO del 1966.",
+            "La Giornata mondiale degli insegnanti è celebrata annualmente dal 1994.",
+            "La Raccomandazione del 1966 definisce riferimenti internazionali per formazione e condizioni di lavoro.",
+            "UNESCO collabora con OIL, UNICEF ed Education International nelle celebrazioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "Distinguishes 1966 recommendation anniversary from first observance in 1994."
+    }
+  ]
+}
