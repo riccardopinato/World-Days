@@ -11,7 +11,7 @@
 - **3** · 7/9 · `international-day-of-police-cooperation` · founding year 2022; first observed 2023 · 3 individual institutional URLs
 - **4** · 7/9 · `world-duchenne-awareness-day` · founding year 2023; first observed 2024 · 4 individual institutional URLs
 - **5** · 9/9 · `international-day-to-protect-education-from-attack` · founding year 2020; first observed 2020 · 2 individual institutional URLs
-- **6** · 12/9 · `united-nations-day-for-south-south-cooperation` · founding year 2003; first observed 2012 · 4 individual institutional URLs
+- **6** · 12/9 · `united-nations-day-for-south-south-cooperation` · founding year 2003; first observed 2004 · 4 individual institutional URLs
 - **7** · 13/9 · `international-day-for-caves-and-karst` · founding year 2025; first observed 2026 · 2 individual institutional URLs
 - **8** · 16/9 · `international-day-of-science-technology-and-innovation-for-the-south` · founding year 2024; first observed 2024 · 2 individual institutional URLs
 - **9** · 16/9 · `international-day-for-interventional-cardiology` · founding year 2022; first observed UNKNOWN · 3 individual institutional URLs
