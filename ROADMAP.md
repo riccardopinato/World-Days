@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## All 155 pre-written IT/EN source histories integrated (conditional on CI, 12 November 2026)
+
+- [x] Wave12/13, 1+1 researched histories through PRs #108, #109; source-led coverage 65.
+- [x] Wave14–16, 16+32+26=74 researched histories through consolidated PR #112; coverage 139.
+- [x] Wave17–18, 28+51=79 source-linked researched histories in this PR #114, with distinct original dossiers, audits, and two per-wave Python checks.
+- [x] Remove these 79 unique IDs from the PR research register. The expected count after accepted merge is **218/1,111** researched IT/EN origin histories, **893** source-histories still missing; **0** outstanding previously-written PR draft histories.
+- [ ] Only complete source research is integrated here, not qualified editorial signoff. Native review of EN/IT/ES/FR/DE/PT and formal approval before any rich runtime article publication remain outstanding.
+- [ ] Keep source discovery going beyond the existing 1,111 minimum; do not create empty dossiers or publish unsupported assertions. No APK, Play or deploy.
+
+
 ## Research integration: Wave14–Wave16, 74 records (12 November 2026)
 
 - [x] Consolidate original source-bound IT/EN Wave14 **16**, Wave15 **32**, Wave16 **26** without changing canonical IDs or their primary-source documentary notes.

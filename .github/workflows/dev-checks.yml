@@ -66,6 +66,8 @@ jobs:
           python3 tool/validate_editorial_origin_wave14_20261112.py
           python3 tool/validate_editorial_origin_wave15_20261112.py
           python3 tool/validate_editorial_origin_wave16_20261112.py
+          python3 tool/validate_editorial_origin_wave17_20261112.py
+          python3 tool/validate_editorial_origin_wave18_20261112.py
           python3 tool/validate_editorial_origin_wave01_20261112.py
           python3 tool/validate_editorial_origin_wave02_20261112.py
           python3 tool/validate_editorial_origin_wave03_20261112.py
