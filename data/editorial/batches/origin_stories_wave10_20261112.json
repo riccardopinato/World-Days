@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE10-DIGITAL-LEARNING-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "Individually researched UNESCO observance with EN/IT original histories; precise calendar-date rationale unverified; ES/FR/DE/PT and human review pending.",
+  "records": [
+    {
+      "observanceId": "international-day-for-digital-learning",
+      "sources": [
+        "https://www.unesco.org/en/days/digital-learning",
+        "https://www.ibe.unesco.org/en/articles/international-day-digital-learning-innovating-inclusive-education",
+        "https://www.unesco.org/en/articles/unesco-spotlights-how-digital-learning-can-promote-equity-low-resource-contexts",
+        "https://www.unesco.org/en/articles/international-day-digital-learning-2026"
+      ],
+      "introducedYear": 2023,
+      "firstObservedYear": 2024,
+      "locale": {
+        "en": {
+          "heading": "19 March: why digital learning needs public purpose",
+          "origin": "UNESCO Member States proclaimed 19 March the International Day for Digital Learning at the 2023 General Conference (42 C/Resolution 14). UNESCO's International Bureau of Education describes the decision as a response to the disruptions and inequalities exposed when education moved online during the COVID-19 pandemic. A UNESCO account of the 2025 observance identifies the United Arab Emirates as the country that proposed the day. UNESCO labels the 2026 event the third edition, consistent with the first annual edition in 2024. The primary institutional material reviewed establishes the date but does not explain why 19 March specifically was chosen.",
+          "promoter": "The United Arab Emirates proposed the observance, according to UNESCO's 2025 institutional account; UNESCO Member States formally adopted it in 2023.",
+          "purpose": "Support accessible, equitable, safe and pedagogically sound digital learning, while acknowledging connectivity gaps, teacher support needs and risks of uncritical technology adoption.",
+          "facts": [
+            "UNESCO's 2023 General Conference established the day for 19 March.",
+            "UNESCO's International Bureau of Education linked the observance to inequalities highlighted by COVID-era remote schooling.",
+            "UNESCO identifies the United Arab Emirates as the proposing country.",
+            "The 2025 edition focused on digital learning in low-resource settings.",
+            "UNESCO described the 2026 celebration as its third edition."
+          ]
+        },
+        "it": {
+          "heading": "19 marzo: perché l'apprendimento digitale deve essere accessibile",
+          "origin": "Gli Stati membri dell'UNESCO hanno proclamato il 19 marzo Giornata internazionale dell'apprendimento digitale durante la Conferenza generale del 2023 (42 C/Risoluzione 14). L'Ufficio internazionale dell'educazione dell'UNESCO collega questa scelta alle disuguaglianze emerse durante la pandemia, quando la didattica a distanza ha mostrato opportunità ma anche gravi limiti di accesso. In un resoconto istituzionale del 2025, l'UNESCO attribuisce la proposta agli Emirati Arabi Uniti. L'edizione 2026 viene presentata come la terza, coerentemente con una prima celebrazione annuale nel 2024. Le fonti esaminate confermano il 19 marzo, ma non spiegano perché sia stata scelta precisamente questa data.",
+          "promoter": "Gli Emirati Arabi Uniti proposero la giornata secondo un resoconto UNESCO del 2025; gli Stati membri UNESCO ne approvarono formalmente l'istituzione nel 2023.",
+          "purpose": "Promuovere una didattica digitale accessibile, equa, sicura e utile all'apprendimento, affrontando divari di connettività, formazione degli insegnanti e rischi di adozione acritica delle tecnologie.",
+          "facts": [
+            "La Conferenza generale UNESCO del 2023 ha istituito la ricorrenza del 19 marzo.",
+            "L'Ufficio internazionale dell'educazione UNESCO ha collegato la giornata alle disuguaglianze emerse con la didattica a distanza durante la pandemia.",
+            "L'UNESCO identifica gli Emirati Arabi Uniti come Paese proponente.",
+            "L'edizione 2025 era dedicata all'apprendimento digitale in contesti con risorse limitate.",
+            "L'UNESCO ha presentato l'edizione 2026 come la terza."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary UNESCO observance, UNESCO-IBE 2024, UNESCO 2025 retrospective naming UAE proposer and UNESCO 2026 third-edition event. Formal 2023 adoption, first annual edition inferred from explicit 2026 third-edition chronology; precise rationale for March 19 not documented. AI-authored EN/IT research drafts, no qualified human review; four other locales pending."
+    }
+  ]
+}
