@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE03-UN-UNESCO-15-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 15,
+  "sourcePolicy": "Reuses previously source-researched original IT/EN prose with additional origin-specific authority, context, dates and two sourced facts; no native translations certified.",
+  "records": [
+    {
+      "observanceId": "international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust",
+      "sources": [
+        "https://www.un.org/en/observances/commemoration-holocaust-victims-day",
+        "https://digitallibrary.un.org/record/559922?ln=en",
+        "https://www.un.org/en/ga/63/plenary/D_holocaust.shtml"
+      ],
+      "introducedYear": 2005,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "A remembrance rooted in the liberation of Auschwitz-Birkenau",
+          "origin": "In 2005 the United Nations General Assembly adopted resolution A/RES/60/7, establishing 27 January as an annual international Holocaust remembrance day. The date commemorates the liberation of Auschwitz-Birkenau on 27 January 1945. This liberation happened sixty years before the UN proclamation; the tragedy cannot be reduced to a single camp or date. On 27 January the world remembers the six million Jewish people murdered in the Holocaust and the other people persecuted and killed by Nazi Germany and its collaborators. The day asks us to listen to survivors, safeguard evidence and confront antisemitism, denial and dehumanization.",
+          "promoter": "The UN General Assembly adopted the observance in 2005. Australia, Canada, Israel, the Russian Federation and the United States requested the Holocaust remembrance agenda item; this does not make the 1945 liberators the founders of the later commemorative day.",
+          "purpose": "The observance promotes informed public engagement. Historical truth depends on testimony, original records and responsible education. Remembering the victims as individuals makes the scale of this crime intelligible without erasing their lives, and challenges the prejudice that can lead to mass violence.",
+          "facts": [
+            "27 January marks the 1945 liberation of Auschwitz-Birkenau; the annual United Nations observance was created in 2005.",
+            "The United Nations created this observance in 2005. 27 January 1945 was the liberation of Auschwitz-Birkenau, not the founding year of the day."
+          ]
+        },
+        "it": {
+          "heading": "La memoria della Shoah e la liberazione di Auschwitz-Birkenau",
+          "origin": "Nel 2005 l'Assemblea generale ONU adottò la risoluzione A/RES/60/7, istituendo una giornata internazionale annuale della memoria. Il 27 gennaio ricorda la liberazione del campo di Auschwitz-Birkenau, avvenuta nel 1945, sessant'anni prima della proclamazione ONU. La storia della Shoah comprende molte persone e luoghi oltre a quel campo. Il 27 gennaio ricordiamo i sei milioni di ebrei assassinati nella Shoah e tutte le altre persone perseguitate e uccise dal regime nazista e dai suoi collaboratori. La giornata invita ad ascoltare i sopravvissuti, proteggere le testimonianze e contrastare antisemitismo, negazionismo e disumanizzazione.",
+          "promoter": "L'Assemblea generale ONU adottò la ricorrenza nel 2005. Australia, Canada, Israele, Federazione Russa e Stati Uniti chiesero di iscrivere la memoria della Shoah all'ordine del giorno: ciò non rende i liberatori del 1945 fondatori della successiva giornata.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Conoscere la storia richiede testimonianze, documenti e un'educazione rigorosa. Ricordare i nomi e le vite delle vittime aiuta a comprendere il crimine senza cancellare le loro identità e invita a riconoscere i pericoli del pregiudizio.",
+          "facts": [
+            "Il 27 gennaio ricorda la liberazione di Auschwitz-Birkenau nel 1945; la giornata ONU fu istituita nel 2005.",
+            "La risoluzione 60/7 del 2005 istituì anche un programma ONU di divulgazione e formazione sulla Shoah."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-day-of-clean-energy",
+      "sources": [
+        "https://www.irena.org/News/pressreleases/2023/Aug/UN-Declares-IRENAs-Founding-Date-as-International-Day-for-Clean-Energy",
+        "https://www.un.org/en/observances/clean-energy-day"
+      ],
+      "introducedYear": 2023,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "How the founding of IRENA became a day for clean energy",
+          "origin": "On 25 August 2023 the United Nations General Assembly proclaimed 26 January the International Day of Clean Energy, through resolution A/RES/77/327. The date is the anniversary of the founding of the International Renewable Energy Agency (IRENA) on 26 January 2009. The agency's creation and the later UN commemorative day are different historical milestones. Every 26 January invites us to ask who can access affordable, reliable energy without increasing climate pollution. Solar, wind and other cleaner technologies can help, but fair transitions also depend on resilient grids, skilled jobs and thoughtful planning for local communities.",
+          "promoter": "The UN General Assembly adopted resolution 77/327 in 2023. IRENA's founding supplies the calendar anniversary; the named sources do not establish one individual as the original proposer of the UN observance.",
+          "purpose": "The observance promotes informed public engagement. Energy access affects learning, health, employment and daily safety. Clean-energy transitions work best when they consider affordability, reliable supply and people whose jobs or communities are affected, rather than treating an installation alone as success.",
+          "facts": [
+            "The date recalls IRENA's foundation on 26 January 2009; the UN established this international day in 2023.",
+            "IRENA was established in 2009. The annual UN observance was proclaimed in 2023."
+          ]
+        },
+        "it": {
+          "heading": "Come la nascita di IRENA è diventata una giornata per l'energia pulita",
+          "origin": "Il 25 agosto 2023 l'Assemblea generale ONU proclamò il 26 gennaio Giornata internazionale dell'energia pulita con la risoluzione A/RES/77/327. La data ricorda la fondazione dell'Agenzia internazionale per le energie rinnovabili (IRENA), avvenuta il 26 gennaio 2009. Sono due eventi differenti, separati da quattordici anni. Il 26 gennaio ci invita a chiederci chi possa accedere a energia affidabile e sostenibile senza aumentare le emissioni. Sole, vento e altre soluzioni possono aiutare, ma una transizione giusta richiede anche reti resilienti, competenze e attenzione alle comunità.",
+          "promoter": "L'Assemblea generale ONU adottò la risoluzione 77/327 nel 2023. La fondazione di IRENA spiega l'anniversario, ma le fonti citate non identificano una singola persona quale promotore originario della giornata.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. L'accesso all'energia incide su scuola, salute, lavoro e sicurezza quotidiana. Una transizione equa considera costi, continuità delle forniture e persone coinvolte, invece di limitarsi al numero di nuovi impianti.",
+          "facts": [
+            "Il 26 gennaio ricorda la nascita di IRENA nel 2009; la giornata internazionale venne istituita nel 2023.",
+            "La fondazione di IRENA avvenne il 26 gennaio 2009, quattordici anni prima della proclamazione ONU."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-interfaith-harmony-week",
+      "sources": [
+        "https://www.un.org/en/observances/interfaith-harmony-week",
+        "https://mandates.un.org/mandate/A/RES/65/5"
+      ],
+      "introducedYear": 2010,
+      "firstObservedYear": 2011,
+      "locale": {
+        "en": {
+          "heading": "A week of dialogue proposed by Jordan's king",
+          "origin": "King Abdullah II of Jordan proposed the observance at the United Nations in 2010. On 20 October that year, the UN General Assembly adopted resolution A/RES/65/5 and designated the first week of February as World Interfaith Harmony Week, beginning in 2011. The resolution calls for voluntary initiatives across many places of worship and other community spaces. During the first week of February, World Interfaith Harmony Week invites religious communities and people of different convictions to practice understanding and peaceful coexistence. The goal is not to make beliefs identical, but to find ways of cooperating and respecting neighbours.",
+          "promoter": "King Abdullah II of Jordan proposed World Interfaith Harmony Week at the United Nations in 2010. The UN General Assembly adopted resolution 65/5 on 20 October that year.",
+          "purpose": "The observance promotes informed public engagement. People can disagree deeply while protecting one another's dignity. Dialogue is useful when it includes genuine listening, freedom of belief and concrete cooperation, not only ceremonial statements by leaders.",
+          "facts": [
+            "The General Assembly selected the first week of February in 2010; the first international week followed in 2011.",
+            "Jordan's king proposed the week in 2010. The UN resolution designated the first week of February."
+          ]
+        },
+        "it": {
+          "heading": "Una settimana di dialogo proposta dal re di Giordania",
+          "origin": "Re Abdullah II di Giordania propose l'iniziativa alle Nazioni Unite nel 2010. Il 20 ottobre dello stesso anno l'Assemblea generale ONU adottò la risoluzione A/RES/65/5, proclamando la prima settimana di febbraio Settimana mondiale dell'armonia interreligiosa. La prima celebrazione si svolse nel 2011 e prevedeva iniziative volontarie nei luoghi di culto e nelle comunità. Nella prima settimana di febbraio, questa ricorrenza promuove la comprensione tra comunità religiose e persone di diverse convinzioni. Non chiede di avere la stessa fede, ma di rispettarsi e trovare occasioni reali di collaborazione.",
+          "promoter": "Re Abdullah II di Giordania propose la Settimana mondiale dell'armonia interreligiosa alle Nazioni Unite nel 2010. L'Assemblea generale approvò la risoluzione 65/5 il 20 ottobre dello stesso anno.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Il rispetto reciproco non richiede accordo su tutto. Il dialogo funziona quando comprende ascolto autentico, libertà di credo e azioni condivise, invece di fermarsi a dichiarazioni di circostanza.",
+          "facts": [
+            "L'ONU scelse la prima settimana di febbraio nel 2010; le celebrazioni iniziarono nel 2011.",
+            "La risoluzione ONU invita a iniziative volontarie nelle comunità e nei luoghi di culto durante la prima settimana di febbraio."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-radio-day",
+      "sources": [
+        "https://www.un.org/en/observances/radio-day",
+        "https://www.unesco.org/en/articles/why-we-mark-world-radio-day-0"
+      ],
+      "introducedYear": 2011,
+      "firstObservedYear": 2012,
+      "locale": {
+        "en": {
+          "heading": "The birthday of UN Radio became a worldwide radio day",
+          "origin": "UNESCO proclaimed World Radio Day in 2011 and the United Nations General Assembly endorsed it in 2012 through resolution A/RES/67/124. The date, 13 February, recalls the establishment of United Nations Radio in 1946. These are three different moments: the historic broadcaster, UNESCO's declaration and later UN recognition. On 13 February, World Radio Day celebrates a medium that can reach people across distances, languages and changing technologies. Radio remains important for local information, public discussion, culture and emergency alerts, especially where digital connectivity is uneven.",
+          "promoter": "Spain initially proposed the day; UNESCO proclaimed it in 2011 and the UN General Assembly endorsed it in 2012. United Nations Radio's founding in 1946 is the commemorated event, not the authority that declared the day.",
+          "purpose": "The observance promotes informed public engagement. Independent and inclusive broadcasting gives communities a platform to hear different voices. Radio's value depends not merely on transmission technology but on trustworthy reporting, access and the people whose stories are given airtime.",
+          "facts": [
+            "13 February remembers the founding of United Nations Radio in 1946; UNESCO proclaimed the day in 2011.",
+            "UNESCO proclaimed World Radio Day in 2011. The UN General Assembly endorsed it in 2012."
+          ]
+        },
+        "it": {
+          "heading": "Dalla nascita di Radio ONU alla Giornata mondiale della radio",
+          "origin": "L'UNESCO proclamò la Giornata mondiale della radio nel 2011; l'Assemblea generale ONU la riconobbe nel 2012 con la risoluzione A/RES/67/124. La data del 13 febbraio ricorda la fondazione della Radio delle Nazioni Unite nel 1946. Sono tre tappe distinte: nascita dell'emittente, proclamazione UNESCO e successivo riconoscimento ONU. Il 13 febbraio si celebra la radio, un mezzo capace di attraversare distanze, lingue e cambiamenti tecnologici. Resta importante per l'informazione locale, il confronto pubblico, la cultura e gli avvisi di emergenza, soprattutto dove la connessione digitale è difficile.",
+          "promoter": "La proposta iniziale arrivò dalla Spagna; l'UNESCO proclamò la giornata nel 2011 e l'Assemblea generale ONU la riconobbe nel 2012. La fondazione di Radio ONU nel 1946 è l'evento ricordato, non l'atto istitutivo.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Una radio indipendente e inclusiva permette di ascoltare voci differenti. Il suo valore dipende dall'affidabilità delle notizie, dall'accessibilità e dalla capacità di dare spazio anche a comunità poco rappresentate.",
+          "facts": [
+            "Il 13 febbraio ricorda la nascita della Radio ONU nel 1946; l'UNESCO istituì la giornata nel 2011.",
+            "Radio ONU iniziò le trasmissioni il 13 febbraio 1946; la giornata UNESCO fu proclamata soltanto nel 2011."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-day-of-social-justice",
+      "sources": [
+        "https://www.un.org/en/observances/social-justice-day"
+      ],
+      "introducedYear": 2007,
+      "firstObservedYear": 2009,
+      "locale": {
+        "en": {
+          "heading": "Social justice as a condition for lasting peace",
+          "origin": "On 26 November 2007 the UN General Assembly adopted resolution A/RES/62/10, declaring that 20 February would be celebrated annually as World Day of Social Justice, with the first observance in 2009. The decision built on the commitments of the 1995 World Summit for Social Development, rather than marking a single historic accident or birthday. World Day of Social Justice on 20 February asks how societies can reduce barriers to decent work, essential services and participation. It connects large questions about economic development to everyday realities such as fair wages, inclusion and opportunity.",
+          "promoter": "The UN General Assembly established 20 February as World Day of Social Justice through resolution 62/10 in 2007. The International Labour Organization supports related work, but was not the General Assembly that proclaimed the day.",
+          "purpose": "The observance promotes informed public engagement. Social justice involves more than charity. Policies, working conditions, accessible services and equal treatment can influence who benefits from growth and who remains excluded. Learning about those mechanisms is the first step toward practical action.",
+          "facts": [
+            "20 February was chosen by the UN General Assembly in 2007; annual observance began in 2009.",
+            "The UN established this day in 2007. The first annual observance began in 2009."
+          ]
+        },
+        "it": {
+          "heading": "La giustizia sociale come condizione per una pace duratura",
+          "origin": "Il 26 novembre 2007 l'Assemblea generale ONU adottò la risoluzione A/RES/62/10, stabilendo che il 20 febbraio fosse celebrato come Giornata mondiale della giustizia sociale, con prima ricorrenza nel 2009. La decisione riprendeva gli impegni del Vertice mondiale sullo sviluppo sociale del 1995 e non un singolo anniversario. Il 20 febbraio invita a ragionare su come ridurre gli ostacoli al lavoro dignitoso, ai servizi essenziali e alla partecipazione. La giustizia sociale lega le grandi decisioni economiche a esperienze quotidiane come salari equi, inclusione e opportunità.",
+          "promoter": "L'Assemblea generale ONU istituì il 20 febbraio come Giornata mondiale della giustizia sociale con la risoluzione 62/10 del 2007. L'Organizzazione internazionale del lavoro contribuisce al tema, ma non adottò la risoluzione ONU.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. La giustizia sociale non coincide solo con la beneficenza: dipende da politiche pubbliche, condizioni di lavoro, servizi accessibili e pari trattamento. Comprendere questi meccanismi è utile per individuare interventi reali.",
+          "facts": [
+            "Il 20 febbraio fu designato dall'ONU nel 2007, con prima celebrazione nel 2009.",
+            "La prima celebrazione annuale fu prevista dal 2009, dopo una proclamazione adottata nel novembre 2007."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-day-of-forests",
+      "sources": [
+        "https://www.un.org/en/events/forestsday/",
+        "https://www.un.org/development/desa/en/news/forest/international-day-of-forests.html"
+      ],
+      "introducedYear": 2012,
+      "firstObservedYear": 2013,
+      "locale": {
+        "en": {
+          "heading": "Forests gained their own worldwide observance in 2012",
+          "origin": "In 2012 the UN General Assembly proclaimed 21 March the International Day of Forests. The Food and Agriculture Organization of the United Nations helps facilitate celebrations, and the inaugural international observance took place in 2013. The choice of 21 March belongs to the founding resolution; it is not the anniversary of a particular forest. On 21 March, the International Day of Forests invites us to explore ecosystems that support water, wildlife, climate and communities. Forests provide habitats and resources, but their value also lies in relationships that are hard to see from a single landscape photo.",
+          "promoter": "The United Nations General Assembly designated the day through resolution 67/200 in 2012. The FAO facilitates global observances with partners; the cited sources do not name a sole individual proposer.",
+          "purpose": "The observance promotes informed public engagement. Forest protection can safeguard watersheds, biodiversity and livelihoods. Healthy forests require sustainable management and attention to local and Indigenous communities, not merely counting seedlings after a one-day event.",
+          "facts": [
+            "The United Nations selected 21 March in 2012, with the first observance taking place in 2013.",
+            "The UN proclamation dates to 2012. The first International Day of Forests was celebrated in 2013."
+          ]
+        },
+        "it": {
+          "heading": "Nel 2012 le foreste ottennero una propria giornata internazionale",
+          "origin": "Nel 2012 l'Assemblea generale ONU proclamò il 21 marzo Giornata internazionale delle foreste. La FAO contribuisce a organizzarne le iniziative, con la prima celebrazione internazionale nel 2013. Il 21 marzo è una scelta della risoluzione istitutiva, non l'anniversario di un particolare bosco. Il 21 marzo invita a scoprire ecosistemi che sostengono acqua, biodiversità, clima e comunità. Le foreste offrono habitat e risorse, ma il loro valore comprende relazioni spesso invisibili in una fotografia di paesaggio.",
+          "promoter": "L'Assemblea generale delle Nazioni Unite istituì la giornata con la risoluzione 67/200 del 2012. La FAO collabora alle celebrazioni con altri partner; le fonti non individuano un unico promotore personale.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Proteggere le foreste significa tutelare bacini idrici, habitat e mezzi di sussistenza. La gestione sostenibile deve coinvolgere comunità locali e indigene e non limitarsi a contare gli alberi piantati in un giorno.",
+          "facts": [
+            "L'ONU scelse il 21 marzo nel 2012; la prima celebrazione avvenne nel 2013.",
+            "La prima celebrazione internazionale si tenne il 21 marzo 2013, anche presso la sede FAO a Roma."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-day-for-the-elimination-of-racial-discrimination",
+      "sources": [
+        "https://www.un.org/en/chronicle/article/long-road-durban-united-nations-role-fighting-racism-and-racial-discrimination",
+        "https://www.un.org/observances/end-racism-day"
+      ],
+      "introducedYear": 1966,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Why 21 March recalls the Sharpeville massacre",
+          "origin": "On 21 March 1960 police killed peaceful protesters opposing apartheid pass laws in Sharpeville, South Africa. On 26 October 1966 the United Nations General Assembly adopted resolution 2142 (XXI), proclaiming 21 March an annual international day to oppose racial discrimination. The massacre and the UN designation are separate events, six years apart. On 21 March, the International Day for the Elimination of Racial Discrimination calls for confronting racism in institutions and daily life. It is rooted in the lives lost in South Africa and asks how rights, accountability and public participation can help prevent discrimination.",
+          "promoter": "The United Nations General Assembly established the annual observance in 1966 through resolution 2142 (XXI). It followed the 1960 killings in Sharpeville and international opposition to apartheid; no single individual is credited as founder by the cited UN account.",
+          "purpose": "The observance promotes informed public engagement. Remembering Sharpeville means recognizing that discrimination can be enforced through law, policy and violence, not only private prejudice. Addressing it requires listening to affected communities and understanding how equal protection works in practice.",
+          "facts": [
+            "21 March commemorates the 1960 Sharpeville massacre; the United Nations established the day in 1966.",
+            "The Sharpeville killings took place in 1960. The UN established the annual remembrance in 1966."
+          ]
+        },
+        "it": {
+          "heading": "Perché il 21 marzo ricorda il massacro di Sharpeville",
+          "origin": "Il 21 marzo 1960, a Sharpeville, la polizia sudafricana uccise manifestanti pacifici contro le leggi dell'apartheid. Il 26 ottobre 1966 l'Assemblea generale ONU approvò la risoluzione 2142 (XXI), proclamando il 21 marzo giornata internazionale contro la discriminazione razziale. Il massacro e la decisione ONU sono eventi distinti, separati da sei anni. Il 21 marzo richiama la necessità di contrastare il razzismo nella vita quotidiana e nelle istituzioni. Nasce dal ricordo di persone uccise in Sudafrica e invita a capire come diritti, responsabilità e partecipazione possano prevenire la discriminazione.",
+          "promoter": "L'Assemblea generale ONU istituì la ricorrenza annuale nel 1966 con la risoluzione 2142 (XXI), dopo le uccisioni di Sharpeville del 1960 e nel quadro dell'opposizione internazionale all'apartheid. La fonte ONU non attribuisce l'istituzione a un singolo fondatore.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. La discriminazione può essere rafforzata da norme e istituzioni, non soltanto da opinioni individuali. Ricordare Sharpeville significa anche ascoltare chi subisce esclusione e difendere concretamente pari diritti.",
+          "facts": [
+            "Il 21 marzo ricorda il massacro di Sharpeville del 1960; l'ONU istituì la giornata nel 1966.",
+            "A Sharpeville, il 21 marzo 1960, la polizia uccise 69 manifestanti che protestavano pacificamente contro le leggi dell'apartheid."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-poetry-day",
+      "sources": [
+        "https://www.unesco.org/en/days/poetry",
+        "https://www.unesco.org/en/days/poetry?hub=66432"
+      ],
+      "introducedYear": 1999,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "A worldwide day for poetry and linguistic diversity",
+          "origin": "At its 30th General Conference in Paris in 1999, UNESCO designated 21 March as World Poetry Day. Its goals included celebrating linguistic diversity, supporting oral traditions and helping voices in endangered languages be heard. The date is a UNESCO cultural choice, not the anniversary of one universal poet. Every 21 March, World Poetry Day celebrates the power of words spoken, written and shared across languages. Poetry is not limited to books: it is part of oral traditions, songs, performances and the ways communities remember their experiences.",
+          "promoter": "UNESCO's General Conference proclaimed World Poetry Day in Paris in 1999. The cited institutional pages do not document one individual as the sole proposer of the international designation.",
+          "purpose": "The observance promotes informed public engagement. Poetry can make unfamiliar experiences understandable and provide space for personal or collective memory. Celebrating it means making room for different languages and forms of expression, including those rarely seen in mainstream publishing.",
+          "facts": [
+            "UNESCO selected 21 March at its 1999 General Conference to celebrate poetry and linguistic diversity.",
+            "UNESCO established the observance in 1999. Its purpose includes protecting linguistic diversity through poetry."
+          ]
+        },
+        "it": {
+          "heading": "Una giornata mondiale per la poesia e la diversità linguistica",
+          "origin": "Nel 1999 la trentesima Conferenza generale dell'UNESCO, riunita a Parigi, designò il 21 marzo Giornata mondiale della poesia. Fra gli obiettivi vi erano valorizzare la diversità linguistica, sostenere le tradizioni orali e dare voce a lingue in pericolo. La data è una scelta culturale UNESCO, non l'anniversario di un singolo poeta. Il 21 marzo celebra la forza delle parole scritte, pronunciate e condivise fra lingue diverse. La poesia non vive solo nei libri: appartiene anche a tradizioni orali, canti, spettacoli e memorie collettive.",
+          "promoter": "La Conferenza generale UNESCO proclamò la Giornata mondiale della poesia a Parigi nel 1999. Le fonti istituzionali citate non identificano una singola persona come unica ideatrice della proclamazione.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. La poesia rende accessibili emozioni e vissuti lontani e custodisce la memoria personale e collettiva. Celebrarla significa dare spazio anche alle lingue e alle forme espressive meno presenti nell'editoria.",
+          "facts": [
+            "L'UNESCO scelse il 21 marzo durante la Conferenza generale del 1999.",
+            "Tra gli obiettivi UNESCO rientrano la protezione della diversità linguistica e la valorizzazione delle tradizioni orali."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-down-syndrome-day",
+      "sources": [
+        "https://www.un.org/en/events/downsyndromeday/index.shtml",
+        "https://mandates.un.org/mandate/A/RES/66/149"
+      ],
+      "introducedYear": 2011,
+      "firstObservedYear": 2012,
+      "locale": {
+        "en": {
+          "heading": "Why the symbolic date is written 21/3",
+          "origin": "In December 2011 the United Nations General Assembly adopted resolution A/RES/66/149, designating 21 March as World Down Syndrome Day beginning in 2012. The date is symbolic: 21/3 refers to the three copies of chromosome 21 commonly associated with Down syndrome. The chromosome description and the 2011 proclamation are different kinds of facts. World Down Syndrome Day on 21 March celebrates people with Down syndrome and their right to participate fully in school, work and community life. Instead of reducing people to a diagnosis, the day encourages us to hear their goals and experiences directly.",
+          "promoter": "The UN General Assembly proclaimed 21 March World Down Syndrome Day in 2011 through resolution 66/149. The day is not the anniversary of the discovery of the condition, and the cited sources do not name a single proposer.",
+          "purpose": "The observance promotes informed public engagement. Inclusion means real choice and accessible support, not symbolic visibility alone. Quality education, work opportunities and respectful healthcare can help people decide how they participate without others speaking for them.",
+          "facts": [
+            "The 21st day of the third month symbolizes chromosome 21 trisomy; the UN designation dates to 2011.",
+            "The UN established this observance in 2011. It has been celebrated annually from 2012."
+          ]
+        },
+        "it": {
+          "heading": "Il significato simbolico del 21/3 per la sindrome di Down",
+          "origin": "Nel dicembre 2011 l'Assemblea generale ONU approvò la risoluzione A/RES/66/149, designando il 21 marzo Giornata mondiale della sindrome di Down dal 2012. La data ha un significato simbolico: il 21/3 richiama le tre copie del cromosoma 21 normalmente associate alla sindrome. Il riferimento genetico è diverso dall'anno della proclamazione. Il 21 marzo celebra le persone con sindrome di Down e il loro diritto a partecipare pienamente a scuola, al lavoro e nella comunità. Invece di ridurre le persone a una diagnosi, la giornata invita ad ascoltarne direttamente aspirazioni ed esperienze.",
+          "promoter": "L'Assemblea generale ONU proclamò il 21 marzo Giornata mondiale della sindrome di Down nel 2011 con la risoluzione 66/149. La data non è l'anniversario della scoperta della condizione e le fonti non indicano un singolo proponente.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Inclusione significa scelta e sostegni accessibili, non soltanto visibilità. Scuola di qualità, opportunità di lavoro e assistenza rispettosa permettono alle persone di decidere come partecipare alla società.",
+          "facts": [
+            "Il 21 del terzo mese richiama la trisomia del cromosoma 21; la proclamazione ONU risale al 2011.",
+            "Il 21/3 richiama simbolicamente le tre copie, complete o parziali, del cromosoma 21; la celebrazione ONU iniziò nel 2012."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-day-of-zero-waste",
+      "sources": [
+        "https://www.un.org/observances/zero-waste-day",
+        "https://www.un.org/en/observances/zero-waste-day"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "A UN day born from the challenge of reducing waste",
+          "origin": "On 14 December 2022 the United Nations General Assembly proclaimed 30 March International Day of Zero Waste, following a proposal led by Türkiye and other states. UN Environment and UN-Habitat jointly support the observance. The first annual day followed in 2023; its creation builds on earlier waste and pollution efforts. Every 30 March, International Day of Zero Waste invites us to examine how products, packaging and food move through everyday life. The goal is to prevent unnecessary waste, design better systems and keep useful materials in circulation.",
+          "promoter": "Türkiye and 105 other countries put forward the resolution adopted by the United Nations General Assembly in December 2022. UNEP and UN-Habitat jointly facilitate the annual observance, rather than being its sole adopters.",
+          "purpose": "The observance promotes informed public engagement. Less waste depends on design, collection systems and the options people can actually access. Repair, reuse and safer materials can reduce environmental pressure, but real improvement must also account for workers and communities handling waste.",
+          "facts": [
+            "The UN selected 30 March in its December 2022 decision; the first annual observance was in 2023.",
+            "The UN proclaimed this day in 2022. UNEP and UN-Habitat jointly facilitate the observance."
+          ]
+        },
+        "it": {
+          "heading": "Una giornata ONU nata dalla sfida di ridurre i rifiuti",
+          "origin": "Il 14 dicembre 2022 l'Assemblea generale ONU proclamò il 30 marzo Giornata internazionale Rifiuti Zero, a seguito di una proposta promossa dalla Turchia e da altri Paesi. UNEP e UN-Habitat ne sostengono le iniziative. La prima giornata annuale seguì nel 2023, raccogliendo un lavoro iniziato molto prima sui rifiuti e sull'inquinamento. Il 30 marzo invita a seguire il percorso di oggetti, imballaggi e cibo nella vita quotidiana. Prevenire gli sprechi, ripensare la progettazione e mantenere i materiali in uso sono più efficaci che occuparsi soltanto dello smaltimento.",
+          "promoter": "La Turchia, insieme ad altri 105 Paesi, presentò la risoluzione adottata dall'Assemblea generale ONU nel dicembre 2022. UNEP e UN-Habitat coordinano la ricorrenza annuale, ma non sono gli unici promotori della proposta.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Ridurre i rifiuti dipende dalla progettazione, dai servizi di raccolta e dalle opzioni davvero accessibili. Riparare, riutilizzare e scegliere materiali più sicuri può aiutare anche le comunità che gestiscono lo smaltimento.",
+          "facts": [
+            "L'ONU scelse il 30 marzo nel dicembre 2022; la prima celebrazione annuale avvenne nel 2023.",
+            "UNEP e UN-Habitat collaborano all'organizzazione delle attività internazionali della giornata del 30 marzo."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-day-of-sport-for-development-and-peace",
+      "sources": [
+        "https://www.un.org/en/un-chronicle/celebrating-international-day-sport-development-and-peace",
+        "https://www.un.org/en/observances/sport-day",
+        "https://www.olympics.com/ioc/news/athens-1896-the-renewal-of-an-ancient-tradition"
+      ],
+      "introducedYear": 2013,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "How the first modern Olympics shaped a UN observance",
+          "origin": "In 2013 the United Nations General Assembly proclaimed 6 April the International Day of Sport for Development and Peace. The date commemorates the opening of the first modern Olympic Games in Athens on 6 April 1896. The Olympics' historical starting point is not the year the UN created this observance. International Day of Sport for Development and Peace, on 6 April, celebrates physical activity as a means of connection, learning and inclusion. Sport can open doors across communities, yet access and safety matter as much as competition.",
+          "promoter": "The UN General Assembly established the International Day of Sport for Development and Peace in 2013 through resolution 67/296. The 1896 Athens Games supply its historical calendar reference, but their organizers did not institute the 2013 UN day.",
+          "purpose": "The observance promotes informed public engagement. Well-organized sport can promote teamwork and belonging, but programs must address barriers, discrimination and abuse. A meaningful celebration makes activity more accessible to people of different ages and abilities.",
+          "facts": [
+            "6 April recalls the opening of the first modern Olympics in 1896; the UN established the day in 2013.",
+            "The UN observance dates to 2013. The historical anniversary refers to Athens in 1896."
+          ]
+        },
+        "it": {
+          "heading": "Come i primi Giochi olimpici moderni hanno ispirato una giornata ONU",
+          "origin": "Nel 2013 l'Assemblea generale ONU proclamò il 6 aprile Giornata internazionale dello sport per lo sviluppo e la pace. La data ricorda l'apertura dei primi Giochi olimpici moderni ad Atene il 6 aprile 1896. L'evento sportivo del 1896 non è l'anno in cui l'ONU ha istituito la ricorrenza. Il 6 aprile celebra l'attività fisica come occasione di incontro, apprendimento e inclusione. Lo sport può creare relazioni fra persone diverse, ma accesso, sicurezza e rispetto contano quanto la competizione.",
+          "promoter": "L'Assemblea generale ONU istituì la Giornata internazionale dello sport per lo sviluppo e la pace nel 2013 con la risoluzione 67/296. I Giochi di Atene del 1896 spiegano l'anniversario, ma i loro organizzatori non istituirono la giornata ONU del 2013.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Lo sport ben organizzato favorisce appartenenza e lavoro di squadra, ma deve affrontare barriere, discriminazioni e comportamenti abusivi. Una vera celebrazione rende l'attività accessibile a persone con età e capacità diverse.",
+          "facts": [
+            "Il 6 aprile ricorda i primi Giochi olimpici moderni del 1896; la giornata ONU nacque nel 2013.",
+            "Il 6 aprile 1896 si aprirono ad Atene i primi Giochi olimpici dell'era moderna, ben prima della proclamazione ONU."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-book-and-copyright-day",
+      "sources": [
+        "https://www.unesco.org/en/fieldoffice/brasilia/expertise/book-day"
+      ],
+      "introducedYear": 1995,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "A literary anniversary for books and authors",
+          "origin": "In 1995 UNESCO's General Conference designated 23 April as World Book and Copyright Day. The date has a symbolic connection to famous writers, including Miguel de Cervantes, William Shakespeare and Inca Garcilaso de la Vega. UNESCO chose a literary anniversary, not the publication date of a single book. Every 23 April, World Book and Copyright Day celebrates stories, knowledge and the people who write, translate, publish and share them. Reading is both a personal pleasure and a way to access new ideas, while copyright raises questions about how creative work is recognized.",
+          "promoter": "UNESCO's General Conference established World Book and Copyright Day in 1995. The commemorated writers are a cultural reason for the chosen date, not the people who created the UNESCO observance.",
+          "purpose": "The observance promotes informed public engagement. Books help preserve culture and exchange knowledge, but reading opportunities depend on libraries, accessible formats and languages. Respect for creators should sit alongside practical ways for more people to find and enjoy books.",
+          "facts": [
+            "23 April was selected by UNESCO in 1995 because of its symbolic place in literary history.",
+            "UNESCO designated World Book and Copyright Day in 1995. The date draws on several literary anniversaries."
+          ]
+        },
+        "it": {
+          "heading": "Un anniversario letterario per libri e autori",
+          "origin": "Nel 1995 la Conferenza generale UNESCO istituì il 23 aprile Giornata mondiale del libro e del diritto d'autore. La data ha un legame simbolico con celebri scrittori, fra cui Miguel de Cervantes, William Shakespeare e Inca Garcilaso de la Vega. È un anniversario letterario, non la data di pubblicazione di un libro preciso. Il 23 aprile celebra storie, conoscenze e persone che scrivono, traducono, pubblicano e condividono libri. Leggere è un piacere personale e un modo per incontrare idee, mentre il diritto d'autore riguarda il riconoscimento del lavoro creativo.",
+          "promoter": "La Conferenza generale UNESCO istituì la Giornata mondiale del libro e del diritto d'autore nel 1995. Gli scrittori ricordati spiegano la scelta culturale della data, ma non sono gli ideatori della proclamazione UNESCO.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. I libri conservano culture e diffondono conoscenza, ma servono biblioteche, formati accessibili e traduzioni per garantire più opportunità di lettura. Rispettare gli autori deve accompagnarsi all'accesso alle opere.",
+          "facts": [
+            "L'UNESCO scelse il 23 aprile nel 1995 per il suo significato nella storia letteraria.",
+            "Il 23 aprile è legato a Cervantes, Shakespeare e Inca Garcilaso de la Vega, con una scelta simbolica che richiama più tradizioni letterarie."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-press-freedom-day",
+      "sources": [
+        "https://www.unesco.org/en/days/press-freedom"
+      ],
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "From the Windhoek Declaration to a global press-freedom day",
+          "origin": "The 1991 Windhoek Declaration, written by African journalists calling for independent and pluralistic media, inspired UNESCO's General Conference to recommend an international observance. The UN General Assembly proclaimed World Press Freedom Day in 1993, setting 3 May to recognize the principles raised in Windhoek. World Press Freedom Day on 3 May celebrates independent journalism while drawing attention to threats against reporters and access to information. It is both a moment to honor journalists who have died in their work and a chance to ask how people receive reliable news.",
+          "promoter": "African journalists who developed the 1991 Windhoek Declaration inspired UNESCO's recommendation. The UN General Assembly proclaimed the international day in 1993; neither UNESCO nor the journalists' declaration alone constituted the final UN decision.",
+          "purpose": "The observance promotes informed public engagement. Independent media help people understand decisions that affect them. Freedom of expression must be accompanied by journalists' safety, transparency and responsible reporting; it cannot be protected simply by celebrating headlines once a year.",
+          "facts": [
+            "3 May is linked to the 1991 Windhoek Declaration; the UN proclamation was in 1993.",
+            "The Windhoek Declaration dates to 1991. World Press Freedom Day was proclaimed by the UN in 1993."
+          ]
+        },
+        "it": {
+          "heading": "Dalla Dichiarazione di Windhoek alla giornata per la libertà di stampa",
+          "origin": "La Dichiarazione di Windhoek del 1991, elaborata da giornalisti africani per chiedere media indipendenti e pluralisti, ispirò una raccomandazione della Conferenza generale UNESCO. Nel 1993 l'Assemblea generale ONU proclamò il 3 maggio Giornata mondiale della libertà di stampa, riconoscendo i principi espressi a Windhoek. Il 3 maggio celebra il giornalismo indipendente e richiama l'attenzione sulle minacce ai cronisti e all'accesso alle informazioni. È un momento per ricordare chi è morto svolgendo questo lavoro e per chiedersi come arrivino a noi notizie affidabili.",
+          "promoter": "I giornalisti africani che elaborarono la Dichiarazione di Windhoek del 1991 ispirarono la raccomandazione UNESCO. L'Assemblea generale ONU proclamò la giornata nel 1993: la raccomandazione e la decisione finale restano atti distinti.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. I media indipendenti aiutano a comprendere decisioni di interesse pubblico. Libertà di stampa significa anche sicurezza dei giornalisti, trasparenza e responsabilità nell'informare, non un semplice omaggio ai titoli di giornale.",
+          "facts": [
+            "Il 3 maggio è legato alla Dichiarazione di Windhoek del 1991; la proclamazione ONU risale al 1993.",
+            "La Dichiarazione di Windhoek fu elaborata nel 1991 da giornalisti africani per chiedere una stampa indipendente e pluralista."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "world-bee-day",
+      "sources": [
+        "https://www.un.org/en/events/beeday/index.shtml"
+      ],
+      "introducedYear": 2017,
+      "firstObservedYear": 2018,
+      "locale": {
+        "en": {
+          "heading": "Slovenia turned a beekeeper's birthday into a worldwide day",
+          "origin": "Slovenia proposed World Bee Day with support from beekeeping partners. In 2017 the UN General Assembly proclaimed 20 May the annual day. The date is the birthday of Anton Janša, born in Slovenia on 20 May 1734 and remembered for his work in modern apiculture. The historical birthday and the UN proclamation are centuries apart. World Bee Day on 20 May draws attention to pollinators and the plants, food systems and habitats that depend on them. Bees are only part of a wider community of insects and animals that help flowering plants reproduce.",
+          "promoter": "The Government of Slovenia, supported by the international beekeepers' association Apimondia, promoted the proposal before the UN General Assembly adopted it in 2017. Anton Janša, whose birthday determines the date, lived centuries earlier and did not establish the observance.",
+          "purpose": "The observance promotes informed public engagement. Pollinators can be affected by habitat loss, pesticide exposure and changing environments. Protecting them means caring for varied plants, landscapes and sustainable farming practices, not just placing a decorative beehive.",
+          "facts": [
+            "20 May is Anton Janša's birthday in 1734; the United Nations instituted World Bee Day in 2017.",
+            "Anton Janša was born on 20 May 1734. The UN designated this observance in 2017."
+          ]
+        },
+        "it": {
+          "heading": "La Slovenia ha trasformato il compleanno di un apicoltore in una giornata mondiale",
+          "origin": "La Slovenia propose la Giornata mondiale delle api con il sostegno di organizzazioni dell'apicoltura. Nel 2017 l'Assemblea generale ONU proclamò il 20 maggio come ricorrenza annuale. La data coincide con la nascita di Anton Janša, avvenuta in Slovenia il 20 maggio 1734: un pioniere dell'apicoltura moderna, vissuto secoli prima della decisione ONU. Il 20 maggio richiama l'attenzione sulle api e sugli altri impollinatori da cui dipendono molte piante, colture e habitat. Le api fanno parte di una rete più ampia di insetti e animali che contribuiscono alla riproduzione delle piante da fiore.",
+          "promoter": "La Slovenia, con il sostegno dell'associazione internazionale degli apicoltori Apimondia, promosse la proposta adottata dall'Assemblea generale ONU nel 2017. Anton Janša, di cui si ricorda la nascita, visse secoli prima e non istituì la ricorrenza.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Gli impollinatori risentono della perdita di habitat, dei pesticidi e dei cambiamenti ambientali. Proteggerli richiede piante diverse e buone pratiche agricole, non soltanto installare un'arnia decorativa.",
+          "facts": [
+            "Il 20 maggio è l'anniversario della nascita di Anton Janša nel 1734; l'ONU istituì la giornata nel 2017.",
+            "Anton Janša nacque il 20 maggio 1734 in Slovenia; la prima Giornata mondiale delle api si tenne nel 2018."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    },
+    {
+      "observanceId": "international-jazz-day",
+      "sources": [
+        "https://www.unesco.org/en/international-jazz-day"
+      ],
+      "introducedYear": 2011,
+      "firstObservedYear": 2012,
+      "locale": {
+        "en": {
+          "heading": "Jazz as a language of dialogue and dignity",
+          "origin": "UNESCO proclaimed International Jazz Day in November 2011, choosing 30 April to promote dialogue, education and mutual understanding. The observance recognizes a living musical tradition and its connections to civil rights, not the anniversary of a single recording or performer. On 30 April, International Jazz Day celebrates improvisation, cultural exchange and a musical tradition shaped by Black American creativity and African heritage. Jazz has evolved through encounters between artists and communities, and continues to open conversations about freedom and expression.",
+          "promoter": "UNESCO's General Conference proclaimed 30 April International Jazz Day in November 2011. Musicians and UNESCO partners later helped organize celebrations, but the institutional proclamation is not credited to a sole performer.",
+          "purpose": "The observance promotes informed public engagement. Jazz shows how artistic ideas can cross languages and borders. Understanding its origins matters: appreciation includes crediting the communities and musicians who shaped the music, not treating it as a style without history.",
+          "facts": [
+            "UNESCO selected 30 April when it established International Jazz Day in 2011.",
+            "UNESCO proclaimed the annual day in 2011. The observance highlights jazz as a means of dialogue and education."
+          ]
+        },
+        "it": {
+          "heading": "Il jazz come linguaggio di dialogo e dignità",
+          "origin": "Nel novembre 2011 l'UNESCO proclamò la Giornata internazionale del jazz, scegliendo il 30 aprile per favorire educazione, dialogo e comprensione reciproca. La ricorrenza rende omaggio a una tradizione musicale viva e ai suoi rapporti con i diritti civili, non all'anniversario di un singolo musicista o disco. Il 30 aprile celebra improvvisazione, scambio culturale e una tradizione musicale plasmata dalla creatività afroamericana e dalle radici africane. Il jazz è cambiato incontrando artisti e comunità diverse e continua a stimolare il dialogo su libertà ed espressione.",
+          "promoter": "La Conferenza generale UNESCO proclamò il 30 aprile Giornata internazionale del jazz nel novembre 2011. Musicisti e partner UNESCO hanno contribuito alle celebrazioni, ma l'atto istitutivo non è attribuito a un singolo artista.",
+          "purpose": "La giornata promuove consapevolezza e partecipazione. Il jazz mostra come idee musicali possano attraversare lingue e frontiere. Capirne le origini significa riconoscere comunità e musicisti che lo hanno costruito, senza separarlo dalla sua storia.",
+          "facts": [
+            "L'UNESCO scelse il 30 aprile quando istituì la Giornata internazionale del jazz nel 2011.",
+            "La proclamazione UNESCO risale al novembre 2011; la giornata valorizza il jazz come mezzo di dialogo e di inclusione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Originally researched in source-bound UN/UNESCO wave03 (2026-11-03); transformed into an offline origin narrative on 2026-11-12. Publisher/founder distinction checked; specific links supplied. ES/FR/DE/PT remain unreviewed."
+    }
+  ]
+}
