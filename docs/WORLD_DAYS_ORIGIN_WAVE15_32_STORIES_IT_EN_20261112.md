@@ -848,11 +848,11 @@ The General Assembly designated 18 June the International Day for Countering Hat
 
 ## 23. International Day for the Elimination of Sexual Violence in Conflict — archive #64
 
-ID: `international-day-for-the-elimination-of-sexual-violence-in-conflict` · Ricorrenza: 19/6 · Atto: A/RES/69/293 · Anno istituzione: 2015 · Prima osservanza: 2015
+ID: `international-day-for-the-elimination-of-sexual-violence-in-conflict` · Ricorrenza: 19/6 · Atto: A/RES/69/293 · Anno istituzione: 2015 · Prima osservanza: 2016
 
 ### Italiano — 19 giugno: una risoluzione del Consiglio di sicurezza diventa memoria annuale
 
-Il 19 giugno 2008 il Consiglio di sicurezza ONU adottò la risoluzione 1820, riconoscendo la violenza sessuale come possibile tattica di guerra e minaccia alla pace. Sette anni dopo, il 19 giugno 2015, l'Assemblea generale istituì con A/RES/69/293 la Giornata internazionale per l'eliminazione della violenza sessuale nei conflitti. La data ricorda intenzionalmente quella decisione precedente. La ricorrenza mette al centro sopravvissute e sopravvissuti, accesso alla giustizia e contrasto all'impunità per gli abusi in guerra.
+Il 19 giugno 2008 il Consiglio di sicurezza ONU adottò la risoluzione 1820, riconoscendo la violenza sessuale come possibile tattica di guerra e minaccia alla pace. Sette anni dopo, il 19 giugno 2015, l'Assemblea generale istituì con A/RES/69/293 la Giornata internazionale per l'eliminazione della violenza sessuale nei conflitti. La data ricorda intenzionalmente quella decisione precedente. La ricorrenza mette al centro sopravvissute e sopravvissuti, accesso alla giustizia e contrasto all'impunità per gli abusi in guerra. L'ONU documenta il 19 giugno 2016 come prima celebrazione annuale formale, distinta dalla proclamazione del 2015.
 
 **Promotori e attribuzione.** Il Consiglio di sicurezza emanò la risoluzione fondamentale del 2008; l'Assemblea generale proclamò la giornata nel 2015.
 
@@ -860,12 +860,12 @@ Il 19 giugno 2008 il Consiglio di sicurezza ONU adottò la risoluzione 1820, ric
 
 **Tre fatti documentati:**
 - La risoluzione 1820 fu adottata dal Consiglio di sicurezza il 19 giugno 2008.
-- L'Assemblea generale istituì la giornata esattamente sette anni dopo.
+- L'Assemblea generale istituì la ricorrenza nel 2015; la prima celebrazione annuale formale ebbe luogo il 19 giugno 2016.
 - La definizione ONU comprende vittime di ogni genere ed età.
 
 ### English — 19 June: a Security Council decision becomes an annual warning
 
-On 19 June 2008 the Security Council adopted resolution 1820, recognising sexual violence as a tactic of war and a threat to peace and security. Seven years later, on 19 June 2015, the General Assembly established the International Day for the Elimination of Sexual Violence in Conflict with A/RES/69/293. The annual date deliberately commemorates the Security Council's earlier landmark action. It aims to centre the experiences of survivors, support access to justice and challenge impunity for wartime abuses against women, men, girls and boys.
+On 19 June 2008 the Security Council adopted resolution 1820, recognising sexual violence as a tactic of war and a threat to peace and security. Seven years later, on 19 June 2015, the General Assembly established the International Day for the Elimination of Sexual Violence in Conflict with A/RES/69/293. The annual date deliberately commemorates the Security Council's earlier landmark action. It aims to centre the experiences of survivors, support access to justice and challenge impunity for wartime abuses against women, men, girls and boys. The UN described 19 June 2016 as its first formal annual observance, distinct from the 2015 proclamation.
 
 **Original promoter and attribution.** The Security Council issued the 2008 landmark resolution; the General Assembly proclaimed the international day in 2015.
 
@@ -873,14 +873,15 @@ On 19 June 2008 the Security Council adopted resolution 1820, recognising sexual
 
 **Three documented facts:**
 - Security Council resolution 1820 was adopted on 19 June 2008.
-- The General Assembly established the day exactly seven years later.
+- The General Assembly established the day in 2015; the first formal annual observance took place on 19 June 2016.
 - The UN definition covers abuses against women, men, girls and boys.
 
 **Institutional sources:**
 - https://www.un.org/en/observances/end-sexual-violence-in-conflict-day
 - https://mandates.un.org/mandate/A/RES/69/293
+- https://childrenandarmedconflict.un.org/en/on-world-day-ban-declares-era-of-impunity-over-for-sexual-violence-in-war
 
-**Research boundary:** Individual source research 2026-11-12; founding resolution A/RES/69/293 and original 100-story archive sequence #64. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending.
+**Research boundary:** Individual source research 2026-11-12; founding resolution A/RES/69/293 and original 100-story archive sequence #64. First formal observance dated 19 June 2016 by a contemporaneous UN account; the founding year remains 2015 and the date recalls Security Council resolution 1820 (2008). Individual original proposer is not independently asserted. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending.
 
 ---
 
