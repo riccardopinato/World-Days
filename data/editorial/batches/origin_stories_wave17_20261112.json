@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE17-POST-FIRST-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 8,
+  "count": 16,
   "sourcePolicy": "Individually verified original chronology and primary UN/UNESCO source links for each id; date reason and proposer only when documented. EN/IT model-authored editorial research, pending qualified factual/native review; ES/FR/DE/PT pending. Not 6 locale certified.",
   "records": [
     {
@@ -283,6 +283,282 @@
         }
       },
       "sourceReviewNote": "Individual institutional primary-source research on 2026-11-12 for international-day-of-science-technology-and-innovation-for-the-south; A/RES/78/259 is distinct from earlier milestones and first annual observance. Model-authored IT/EN research text only, with no qualified human factual or native-language review. ES/FR/DE/PT not yet prepared."
+    },
+    {
+      "observanceId": "international-day-for-interventional-cardiology",
+      "introducedYear": 2022,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/76/302",
+        "https://www.un.org/en/observances/interventional-cardiology-day",
+        "https://documents.un.org/api/symbol/access?l=en&s=A%2F76%2FPV.98&t=pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 September: the anniversary of the first coronary angioplasty",
+          "origin": "The General Assembly recognised 16 September as the International Day for Interventional Cardiology through A/RES/76/302 in September 2022. The date is not arbitrary: on 16 September 1977 Dr Andreas Grüntzig carried out the first percutaneous transluminal coronary angioplasty in Zurich. The founding debate describes the procedure as a turning point in cardiovascular treatment, opening less invasive options for patients with blocked coronary arteries. The UN observance focuses on preventive cardiology, access to treatment and health systems capable of offering appropriate technology; the specialist physician is the historical subject of the date, not the author of the UN resolution.",
+          "promoter": "The General Assembly made the formal 2022 proclamation, commemorating the pioneering work of physician Andreas Grüntzig rather than presenting him as its original political sponsor.",
+          "purpose": "Raise awareness of cardiovascular diseases, prevention and fair access to modern treatment including catheter-based interventions.",
+          "facts": [
+            "On 16 September 1977 Andreas Grüntzig performed the first coronary balloon angioplasty in Zurich.",
+            "The General Assembly adopted the 2022 recognition through A/RES/76/302.",
+            "The original UN plenary discussion explicitly identifies the reason for the 16 September date."
+          ]
+        },
+        "it": {
+          "heading": "16 settembre: l'anniversario della prima angioplastica coronarica",
+          "origin": "Nel settembre 2022 l'Assemblea generale ONU istituì la Giornata internazionale della cardiologia interventistica con A/RES/76/302. La data non è casuale: il 16 settembre 1977 il medico Andreas Grüntzig eseguì a Zurigo la prima angioplastica coronarica transluminale percutanea. Il dibattito ONU descrive quell'intervento come una svolta verso trattamenti meno invasivi per alcuni pazienti con arterie coronarie ostruite. La ricorrenza richiama prevenzione cardiovascolare, accesso alle cure e tecnologie appropriate. Grüntzig è il protagonista dell'anniversario, non l'autore dell'atto istitutivo.",
+          "promoter": "L'Assemblea generale approvò la proclamazione nel 2022, ricordando il lavoro del medico Andreas Grüntzig senza attribuirgli la paternità politica della risoluzione.",
+          "purpose": "Sensibilizzare sulle malattie cardiovascolari, la prevenzione e l'accessibilità a trattamenti adeguati, compresi gli interventi tramite catetere.",
+          "facts": [
+            "Andreas Grüntzig effettuò la prima angioplastica coronarica il 16 settembre 1977 a Zurigo.",
+            "La proclamazione ONU del 2022 è contenuta in A/RES/76/302.",
+            "Il dibattito ufficiale dell'Assemblea chiarisce l'origine della scelta del 16 settembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/76/302 and original institution timeline for international-day-for-interventional-cardiology. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-preservation-of-the-ozone-layer",
+      "introducedYear": 1994,
+      "firstObservedYear": 1995,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/49/114",
+        "https://www.un.org/en/observances/ozone-day",
+        "https://digitallibrary.un.org/record/168181"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 September: the Montreal Protocol becomes an environmental anniversary",
+          "origin": "On 19 December 1994 the General Assembly adopted A/RES/49/114, designating 16 September the International Day for the Preservation of the Ozone Layer beginning in 1995. The anniversary remembers the signing of the Montreal Protocol on 16 September 1987, a treaty created to phase out substances that damage the protective stratospheric ozone layer. The earlier Vienna Convention of 1985 supplied a framework for scientific cooperation, while the later Kigali Amendment of 2016 addressed additional climate impacts of refrigerants. The date therefore has a documented treaty origin, rather than being a seasonal choice.",
+          "promoter": "The General Assembly formally established the day in 1994, following the collective international treaty process of the Montreal Protocol and its parties.",
+          "purpose": "Explain how science, international compliance and safer substitutes can protect the ozone layer while supporting effective climate policy.",
+          "facts": [
+            "The Montreal Protocol was signed on 16 September 1987, providing the day's precise anniversary.",
+            "Resolution A/RES/49/114 established annual observance beginning in 1995.",
+            "The Vienna Convention on the ozone layer was adopted in 1985, before the Montreal Protocol."
+          ]
+        },
+        "it": {
+          "heading": "16 settembre: il Protocollo di Montréal diventa anniversario ambientale",
+          "origin": "Il 19 dicembre 1994 l'Assemblea generale ONU adottò A/RES/49/114, istituendo la Giornata internazionale per la protezione dello strato di ozono dal 1995. Il 16 settembre ricorda la firma del Protocollo di Montréal nel 1987, trattato volto a eliminare progressivamente sostanze dannose per lo strato di ozono. La precedente Convenzione di Vienna del 1985 aveva impostato la cooperazione scientifica, mentre il successivo emendamento di Kigali del 2016 affrontò anche l'impatto climatico di alcuni refrigeranti. La scelta del giorno è quindi legata a un evento diplomatico documentato.",
+          "promoter": "L'Assemblea generale proclamò la ricorrenza nel 1994, riconoscendo il processo collettivo dei Paesi firmatari del Protocollo di Montréal.",
+          "purpose": "Spiegare come ricerca, impegni internazionali e sostituti meno dannosi possano proteggere l'ozono e sostenere politiche climatiche efficaci.",
+          "facts": [
+            "Il Protocollo di Montréal fu firmato il 16 settembre 1987, data che spiega la giornata.",
+            "A/RES/49/114 fissò l'inizio delle celebrazioni annuali nel 1995.",
+            "La Convenzione di Vienna sulla protezione dell'ozono era già stata adottata nel 1985."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/49/114 and original institution timeline for international-day-for-the-preservation-of-the-ozone-layer. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-patient-safety-day",
+      "introducedYear": 2019,
+      "firstObservedYear": 2019,
+      "sources": [
+        "https://mandates.un.org/mandate/WHA72.6",
+        "https://www.who.int/campaigns/world-patient-safety-day/",
+        "https://www.who.int/teams/integrated-health-services/patient-safety/policy/resolutions"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 September: preventing harm inside health care",
+          "origin": "The World Health Assembly adopted resolution WHA72.6 in May 2019, endorsing World Patient Safety Day every 17 September. The WHO campaign archive begins with its 2019 edition, making the institutional founding year and first annual observance consistent. The initiative responds to preventable harm from unsafe medication practices, infections, delayed diagnosis and other failures of care, not to a single historic medical accident. Earlier global discussions of patient safety included WHO resolution WHA55.18 in 2002. The specific reason for selecting 17 September is not established by the WHO founding pages reviewed.",
+          "promoter": "WHO Member States at the seventy-second World Health Assembly approved the day in 2019; WHO organises annual patient-safety campaigns.",
+          "purpose": "Encourage safer care, reporting and learning from mistakes, and patient participation in preventing avoidable harm across health systems.",
+          "facts": [
+            "The World Health Assembly adopted WHA72.6 in May 2019.",
+            "WHO's campaign archive documents a 17 September 2019 edition.",
+            "An earlier WHO resolution on quality of care and patient safety was adopted in 2002."
+          ]
+        },
+        "it": {
+          "heading": "17 settembre: evitare danni durante le cure",
+          "origin": "Nel maggio 2019 l'Assemblea mondiale della sanità adottò la risoluzione WHA72.6, riconoscendo il 17 settembre come Giornata mondiale per la sicurezza dei pazienti. L'archivio delle campagne OMS comprende una prima edizione nel 2019. L'iniziativa richiama danni evitabili dovuti a problemi nella gestione dei farmaci, infezioni, diagnosi tardive e altre criticità, senza essere legata a un singolo incidente. Un precedente impegno dell'OMS risaliva alla risoluzione WHA55.18 del 2002. Le pagine istitutive esaminate non documentano un anniversario particolare dietro il 17 settembre.",
+          "promoter": "Gli Stati membri dell'OMS approvarono la ricorrenza durante la 72ª Assemblea mondiale della sanità nel 2019; l'OMS organizza le campagne annuali.",
+          "purpose": "Rendere le cure più sicure, favorire segnalazione e apprendimento dagli errori e coinvolgere i pazienti nella prevenzione dei danni evitabili.",
+          "facts": [
+            "L'Assemblea mondiale della sanità adottò WHA72.6 nel maggio 2019.",
+            "L'archivio OMS registra la campagna del 17 settembre 2019.",
+            "Un documento OMS sulla sicurezza dei pazienti esisteva già nel 2002."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act WHA72.6 and original institution timeline for world-patient-safety-day. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-equal-pay-day",
+      "introducedYear": 2019,
+      "firstObservedYear": 2020,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/74/142",
+        "https://www.un.org/observances/equal-pay-day",
+        "https://www.un.org/sg/en/content/highlight/2020-09-18.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 September: equal pay is an enforceable goal, not a slogan",
+          "origin": "The General Assembly established 18 September as International Equal Pay Day in 2019 through A/RES/74/142. On 18 September 2020 the UN marked the inaugural celebration, highlighting persistent disparities between women's and men's earnings even where equal-pay principles are recognised by law. The day focuses on equal remuneration for work of equal value: it asks institutions to compare the actual demands and responsibilities of jobs, not only identical job titles. The International Labour Organization's Equal Remuneration Convention of 1951 is an important earlier legal milestone, separate from the later annual UN commemoration.",
+          "promoter": "The General Assembly proclaimed the day in 2019, drawing on decades of international labour and women's rights advocacy rather than creating equal-pay law for the first time.",
+          "purpose": "Support enforcement of equal remuneration, pay transparency, non-discriminatory hiring and progress in addressing structural earnings gaps.",
+          "facts": [
+            "The first UN observance took place on 18 September 2020.",
+            "The founding UN resolution is A/RES/74/142, adopted in 2019.",
+            "ILO Convention No. 100 on equal remuneration predates the UN day by many decades."
+          ]
+        },
+        "it": {
+          "heading": "18 settembre: pari retribuzione come obiettivo concreto",
+          "origin": "L'Assemblea generale ONU istituì il 18 settembre come Giornata internazionale della parità retributiva nel 2019, con A/RES/74/142. La prima celebrazione ONU si svolse il 18 settembre 2020 e richiamò le differenze salariali ancora presenti fra donne e uomini, anche dove esistono principi di uguaglianza nelle leggi. Pari retribuzione per un lavoro di pari valore significa confrontare responsabilità e competenze effettive, non soltanto professioni con lo stesso nome. La Convenzione OIL n. 100 del 1951 è un precedente giuridico distinto dalla giornata proclamata nel 2019.",
+          "promoter": "L'Assemblea generale istituì la ricorrenza nel 2019, dopo decenni di lavoro internazionale sui diritti delle donne e delle lavoratrici.",
+          "purpose": "Favorire applicazione della parità salariale, trasparenza delle retribuzioni e contrasto a discriminazioni e divari strutturali.",
+          "facts": [
+            "La prima celebrazione ONU si svolse il 18 settembre 2020.",
+            "La risoluzione istitutiva A/RES/74/142 fu adottata nel 2019.",
+            "La Convenzione OIL n. 100 sulla parità retributiva risale al 1951."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/74/142 and original institution timeline for international-equal-pay-day. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-cleanup-day",
+      "introducedYear": 2023,
+      "firstObservedYear": 2024,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/78/122",
+        "https://www.un.org/en/observances/cleanup-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 September: local cleanups gain a global UN anniversary",
+          "origin": "The UN General Assembly unanimously adopted A/RES/78/122 on 8 December 2023, proclaiming 20 September World Cleanup Day for annual observance from 2024. Local and national cleanup campaigns had existed for years, and the civil-society World Cleanup Day movement was already active before this UN designation. The resolution asks UN-Habitat to facilitate the international observance and connects litter prevention and responsible waste management with sustainable development. The particular choice of 20 September is fixed in the act; the reviewed UN account does not give a historical event that conclusively explains that date.",
+          "promoter": "The General Assembly established the UN-recognised day in 2023, acknowledging existing community initiatives; UN-Habitat facilitates the formal programme.",
+          "purpose": "Promote waste prevention, safe cleanup activities, reduced litter and shared responsibility for public and natural spaces.",
+          "facts": [
+            "A/RES/78/122 was unanimously adopted on 8 December 2023.",
+            "The UN-designated annual observance started in September 2024.",
+            "UN-Habitat is invited to facilitate the international day."
+          ]
+        },
+        "it": {
+          "heading": "20 settembre: le pulizie collettive ottengono un riconoscimento ONU",
+          "origin": "L'8 dicembre 2023 l'Assemblea generale ONU adottò all'unanimità A/RES/78/122, proclamando il 20 settembre Giornata mondiale della pulizia a partire dal 2024. Iniziative di quartiere, scuole e associazioni per raccogliere rifiuti esistevano già da molto tempo e un movimento internazionale era attivo prima della proclamazione. La risoluzione invita UN-Habitat a facilitare le attività, collegando riduzione dei rifiuti e cura degli spazi allo sviluppo sostenibile. La data è certa, ma la fonte ONU esaminata non ne spiega un preciso anniversario originario.",
+          "promoter": "L'Assemblea generale riconobbe formalmente la ricorrenza nel 2023, valorizzando iniziative civiche precedenti; UN-Habitat ne facilita l'organizzazione.",
+          "purpose": "Prevenire rifiuti e abbandono di materiali, rendere sicure le iniziative di pulizia e responsabilizzare le comunità verso spazi pubblici e ambienti naturali.",
+          "facts": [
+            "L'Assemblea generale approvò A/RES/78/122 all'unanimità l'8 dicembre 2023.",
+            "La prima annualità ONU dopo l'atto si tenne nel settembre 2024.",
+            "La risoluzione invita UN-Habitat a facilitare le celebrazioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/78/122 and original institution timeline for world-cleanup-day. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-sign-languages",
+      "introducedYear": 2017,
+      "firstObservedYear": 2018,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/72/161",
+        "https://www.un.org/en/observances/sign-languages-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 September: the World Federation of the Deaf explains the date",
+          "origin": "On 19 December 2017 the UN General Assembly adopted A/RES/72/161, declaring 23 September the International Day of Sign Languages. The World Federation of the Deaf proposed the initiative and Antigua and Barbuda sponsored the resolution, supported by 97 other UN Member States. The date commemorates the WFD's foundation on 23 September 1951, and the first UN celebration occurred in 2018 within the International Week of the Deaf. The day recognises that signed languages are full languages and that their early use supports education, identity, cultural diversity and equal participation.",
+          "promoter": "The World Federation of the Deaf initiated the proposal; Antigua and Barbuda sponsored the General Assembly text, which received 97 co-sponsors and was adopted by consensus.",
+          "purpose": "Defend national sign languages, accessible education and the human rights of deaf people, while recognising Deaf culture and community expertise.",
+          "facts": [
+            "The World Federation of the Deaf was founded on 23 September 1951.",
+            "The UN resolution was adopted by consensus on 19 December 2017.",
+            "The first UN day took place in September 2018 within International Week of the Deaf."
+          ]
+        },
+        "it": {
+          "heading": "23 settembre: la federazione dei sordi spiega la scelta della data",
+          "origin": "Il 19 dicembre 2017 l'Assemblea generale ONU adottò A/RES/72/161, istituendo il 23 settembre come Giornata internazionale delle lingue dei segni. L'iniziativa partì dalla Federazione mondiale dei sordi, mentre Antigua e Barbuda presentò il testo ONU, sostenuto da altri 97 Paesi. La data ricorda la fondazione della federazione, il 23 settembre 1951, e la prima celebrazione ONU si tenne nel 2018 durante la Settimana internazionale dei sordi. Le lingue dei segni sono lingue a pieno titolo, importanti per istruzione, identità culturale e partecipazione sociale.",
+          "promoter": "La Federazione mondiale dei sordi promosse la proposta; Antigua e Barbuda sponsorizzò il testo dell'Assemblea generale con altri 97 copromotori.",
+          "purpose": "Difendere le lingue dei segni nazionali, un'istruzione accessibile e i diritti delle persone sorde, riconoscendo cultura e competenze delle comunità.",
+          "facts": [
+            "La Federazione mondiale dei sordi nacque il 23 settembre 1951.",
+            "L'ONU adottò la risoluzione per consenso il 19 dicembre 2017.",
+            "La prima giornata ONU ricadde nella Settimana internazionale dei sordi del 2018."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/72/161 and original institution timeline for international-day-of-sign-languages. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-total-elimination-of-nuclear-weapons",
+      "introducedYear": 2013,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/68/32",
+        "https://www.un.org/en/observances/nuclear-weapons-elimination-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 September: a disarmament meeting becomes an international day",
+          "origin": "On 26 September 2013 the General Assembly held a high-level meeting dedicated to nuclear disarmament. In December that year it adopted A/RES/68/32, creating the International Day for the Total Elimination of Nuclear Weapons on the meeting's anniversary. The date therefore refers to a documented UN diplomatic occasion, not to a nuclear test or a bomb explosion. The day encourages public education and renewed negotiations on eliminating nuclear arsenals, building on disarmament debates that stretch back to the first UN General Assembly resolution in 1946. The exact first annual observance after proclamation is not independently documented here.",
+          "promoter": "The General Assembly established the international day in December 2013 following its own high-level disarmament meeting of September that year.",
+          "purpose": "Increase understanding of the humanitarian risks of nuclear weapons and encourage verifiable multilateral pathways toward their elimination.",
+          "facts": [
+            "The General Assembly met at high level on nuclear disarmament on 26 September 2013.",
+            "Resolution A/RES/68/32 established the international day later in 2013.",
+            "The UN General Assembly's very first 1946 resolution also concerned atomic energy and weapons."
+          ]
+        },
+        "it": {
+          "heading": "26 settembre: da un incontro ONU a una giornata sul disarmo nucleare",
+          "origin": "Il 26 settembre 2013 l'Assemblea generale ONU organizzò un incontro ad alto livello sul disarmo nucleare. Nel dicembre dello stesso anno adottò A/RES/68/32, istituendo per quella data la Giornata internazionale per l'eliminazione totale delle armi nucleari. La scelta ricorda dunque un evento diplomatico documentato, non un test o un'esplosione. L'obiettivo è accrescere conoscenza delle conseguenze umanitarie di queste armi e stimolare nuovi negoziati, in continuità con il lavoro ONU iniziato già nel 1946. La prima celebrazione annuale dopo la proclamazione non è stata verificata con sufficiente precisione in questa ricerca.",
+          "promoter": "L'Assemblea generale istituì la giornata nel dicembre 2013, a seguito del proprio incontro ad alto livello del settembre dello stesso anno.",
+          "purpose": "Diffondere consapevolezza dei rischi umanitari delle armi nucleari e sostenere percorsi multilaterali e verificabili verso il loro disarmo.",
+          "facts": [
+            "Il 26 settembre 2013 si tenne un incontro ONU ad alto livello sul disarmo.",
+            "La risoluzione A/RES/68/32 istituì la ricorrenza pochi mesi dopo.",
+            "La prima risoluzione dell'Assemblea generale nel 1946 affrontava già le armi atomiche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act A/RES/68/32 and original institution timeline for international-day-for-the-total-elimination-of-nuclear-weapons. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-tourism-day",
+      "introducedYear": 1979,
+      "firstObservedYear": 1980,
+      "sources": [
+        "https://www.un.org/en/observances/tourism-day/background",
+        "https://www.unwto.org/world-tourism-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 September: the statutes of world tourism explain the date",
+          "origin": "UN Tourism's predecessor decided in 1979 to create World Tourism Day, and the first celebration was held in 1980. The date recalls 27 September 1970, when the Statutes of the World Tourism Organization were adopted. By choosing the tenth anniversary, the organisation highlighted the growing importance of international travel, cultural exchange and the economic livelihoods linked to tourism. Today's campaigns also address accessibility, environmental impacts and resilience in destinations. This is a UN Tourism institutional observance, not a day created by a UN General Assembly resolution on the same date.",
+          "promoter": "The World Tourism Organization instituted the annual observance in 1979; UN Tourism is its present organiser and the 1970 statutes are the actual date milestone.",
+          "purpose": "Discuss tourism's contribution to employment and intercultural understanding, while promoting inclusive and environmentally sustainable travel.",
+          "facts": [
+            "The World Tourism Organization statutes were adopted on 27 September 1970.",
+            "The international tourism organisation instituted World Tourism Day in 1979.",
+            "The first observance was celebrated in 1980, the statutes' tenth anniversary."
+          ]
+        },
+        "it": {
+          "heading": "27 settembre: lo Statuto del turismo internazionale spiega la data",
+          "origin": "L'organizzazione internazionale oggi chiamata UN Tourism decise nel 1979 di istituire la Giornata mondiale del turismo, celebrata per la prima volta nel 1980. Il 27 settembre ricorda l'adozione nel 1970 degli Statuti dell'Organizzazione mondiale del turismo. La prima celebrazione coincise quindi con il decimo anniversario di quell'atto e richiamò l'importanza crescente dei viaggi, degli scambi culturali e dei lavori nel settore. Oggi la giornata affronta anche accessibilità, impatto ambientale e resilienza delle destinazioni. Si tratta di una ricorrenza dell'organizzazione turistica, non di una proclamazione originaria dell'Assemblea generale ONU.",
+          "promoter": "L'Organizzazione mondiale del turismo istituì la celebrazione nel 1979; l'attuale UN Tourism la organizza richiamando lo Statuto del 1970.",
+          "purpose": "Valorizzare lavoro e scambi culturali legati ai viaggi, promuovendo al tempo stesso un turismo inclusivo, sostenibile e rispettoso delle destinazioni.",
+          "facts": [
+            "Gli Statuti dell'Organizzazione mondiale del turismo furono adottati il 27 settembre 1970.",
+            "La Giornata mondiale del turismo venne istituita nel 1979.",
+            "La prima celebrazione risale al 1980, decennale dell'adozione degli Statuti."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source verification with founding act UN Tourism 1979 resolution and original institution timeline for world-tourism-day. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
     }
   ]
 }
