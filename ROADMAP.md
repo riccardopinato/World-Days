@@ -2,6 +2,10 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave09 PR #105: add source-linked histories for International Day of Women Judges (UN adoption 2021, first commemoration 2022) and International Day to Combat Islamophobia (UN adoption 2022, first commemorative event 2023), with original UN evidence for inaugural observances. Source-linked total **61/1,111** after green merge; **1,050** still lack individual source research.
+- [x] Update pending PR registry to **157 distinct IT/EN draft origins** from PR #106–#114 (9 open PRs); research drafts are not qualified human-reviewed rich articles and remain gated out of Flutter runtime.
+
+
 - [x] Wave08 PR #104: add independently sourced International Day for Disarmament and Non-Proliferation Awareness (5 March) with original 2022 General Assembly decision A/RES/77/51, six draft sponsors documented, first annual observance 2023, calendar-day choice not attributed without evidence. Source-linked total **59/1,111** upon successful merge; remaining **1,052**. Rich editorial six-language approval still false.
 - [x] Reconcile the Wave08 review finding by updating README and ROADMAP to 59 source-linked origins and **159 pending IT/EN drafts** in 10 open PRs (#105–#114), rather than reporting outdated 55/1,056 coverage.
 
