@@ -1147,15 +1147,15 @@ Una piccola impresa può essere un laboratorio d'innovazione o un punto di rifer
 
 ## 072. Giornata internazionale dei Tropici
 
-**Data:** 29/06 · **Riferimento:** A/RES/71/279 · **Stato:** BOZZA
+**Data:** 29/06 · **Riferimento:** A/RES/70/267 · **Stato:** BOZZA
 
 I Tropici comprendono ecosistemi, città e culture molto differenti. Foreste, barriere coralline e territori agricoli convivono con grandi sfide sociali e ambientali. La giornata invita a superare l'immagine turistica di queste regioni e a capire come biodiversità, sviluppo e cambiamenti climatici siano collegati.
 
-**Contesto istituzionale:** Il calendario istituzionale delle ricorrenze indica il 29 giugno e il riferimento A/RES/71/279. Questa evidenza identifica la celebrazione, ma da sola non prova chi ne propose originariamente l'istituzione né tutta la storia della scelta della data.
+**Contesto istituzionale:** La ricorrenza del 29 giugno è stata istituita dall'Assemblea generale ONU con A/RES/70/267, adottata il 14 giugno 2016. La data ricorda la pubblicazione, il 29 giugno 2014, del primo State of the Tropics Report, frutto della collaborazione di dodici istituzioni di ricerca. Questo è un riscontro correttivo dell'archivio: la versione precedente citava per errore A/RES/71/279, che riguarda invece le micro, piccole e medie imprese. La bozza resta non approvata; la storia source-researched è in Wave19.
 
 **Spiegazione:** La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.
 
-**Fonte:** https://www.un.org/en/observances/list-days-weeks
+**Fonte:** https://www.un.org/en/observances/tropics-day
 
 **English — International Day of the Tropics:** The Tropics contain very different ecosystems, cities and cultures. Forests, coral reefs and agricultural regions coexist with major social and environmental challenges. The day looks beyond postcard images to explore links among biodiversity, development and climate change.
 

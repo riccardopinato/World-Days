@@ -44,7 +44,13 @@ overlap = set(ids) & set(researched)
 assert len(overlap) <= 100
 for oid in overlap:
     successor = researched[oid]
-    assert successor["introducedYear"] is not None, ("unverified successor year", oid)
+    # Source research may prove the first historical observance without an
+    # independently identifiable formal founding act. Preserve null rather
+    # than inventing a year solely to pass this archival-overlap validator.
+    if successor["introducedYear"] is None:
+        assert oid == "international-day-of-solidarity-with-detained-and-missing-staff-members", oid
+        assert successor["firstObservedYear"] == 1986, oid
+        assert "no founding resolution" in successor["sourceReviewNote"].lower(), oid
     assert len(successor["sources"]) >= 1
     assert {"it", "en"} <= set(successor["locale"])
     assert all(len(successor["locale"][lang]["origin"]) >= 170

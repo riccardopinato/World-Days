@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+## Wave19 — last seven source gaps in the original 100 drafts (12 November 2026)
+
+- [x] Read one immutable App Factory `CURRENT.yaml` for this session (Master v27, Golden Index v29) and World Days `AGENTS.md` / Product Bible; use only Chat.
+- [x] Research the first missing original-100 draft ID **#22** (UN detained/missing staff), preserve formal founded year `null`, and establish 1986 as earliest annual observance from UN memorial records.
+- [x] Research original archival gaps **#28 Wellness (2026/2026), #30 Greening the Planet (2026/null), #34 earthquake victims (2025/2026), #37 WWII remembrance (2004/2005), #55 Oceans (2008/2009, reusing PR #99), #72 Tropics (2016/null)**; no guessed first events or sponsors.
+- [x] Correct incorrect Tropics resolution in canonical generator and archive to **A/RES/70/267**, preserving distinct MSME resolution A/RES/71/279.
+- [x] Add seven source-linked original bilingual narratives, dates, promoters or explicitly unknown, 3–4 contextual facts, individual first-party links, complete bilingual booklet, source audit and strict Python validator.
+- [x] Integrate dedicated exact-head CI test into existing Python/Flutter/Web validation; preserve the `runtimeRichEditorialApproved=false` publication gate.
+- [ ] Merge only when exact-head CI and review gates pass; then regenerate index and verify **225/1,111 individually researched, 886 pending**. Confirm **100/100 archival drafts** have separate researched successors, not six-language human approvals.
+- [ ] Continue through the **remaining 886** canonical IDs, in batches of at most 100. Investigate source-index-only EURES, DFAT and NCCA national/cultural days individually before declaring legal status.
+- [ ] Obtain qualified native language / factual reviews for EN/IT/ES/FR/DE/PT. No forced REVIEWED flags, APK, Play, or deployment.
+
+
 ## All 155 pre-written IT/EN source histories integrated (conditional on CI, 12 November 2026)
 
 - [x] Wave12/13, 1+1 researched histories through PRs #108, #109; source-led coverage 65.

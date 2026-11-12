@@ -1,5 +1,17 @@
 # World Days
 
+## Wave19: research the last seven gaps in the first 100 original bilingual drafts (12 November 2026)
+
+This PR integrates **7 new unique canonical source-researched origin histories**: detained/missing UN staff, International Wellness Day, International Day of Greening the Planet, earthquake victims, Second World War remembrance (8–9 May), World Oceans Day (reused from original PR #99), and International Day of the Tropics.
+
+- **After an exact-head successful merge:** source-researched IT/EN histories increase **218 → 225 / 1,111**, and individually unresearched origins decrease **893 → 886**. The original **100** index-only bilingual archival stories now each have a separate source-backed successor. This is a source-research milestone, not proof that all 1,111 are complete.
+- The Tropics founding resolution is **A/RES/70/267**, not the incorrect **A/RES/71/279** (the latter establishes the MSME observance). The calendar generator and corrected source-index archive are now aligned.
+- Five establishment years are added to canonical data with dedicated original primary-source URLs; the detained/missing staff day retains **null formal founding year** even though UN evidence confirms it has been marked since 1986. The new greening day and Tropics first annual observance remain unasserted where not individually documented.
+- Original narratives and contextual facts in **EN and IT** are preserved with first-party evidence in `data/editorial/batches/origin_stories_wave19_20261112.json`, illustrated in a [new booklet](docs/WORLD_DAYS_ORIGIN_WAVE19_07_STORIES_IT_EN_20261112.md) with an [individual source audit](docs/WORLD_DAYS_ORIGIN_WAVE19_SOURCE_AUDIT_20261112.md).
+- **No qualified human factual / native six-language certification is asserted.** The ES/FR/DE/PT texts in the oceans entry remain drafts; other new translations are pending. The Flutter offline origin-provenance bundle includes the research, but `runtimeRichEditorialApproved=false` keeps the user-facing rich history gated pending proper signoff.
+- No APK, Play, Pages deployment, or editor auto-publishing.
+
+
 ## Completion of 155 pre-existing PR histories (2026-11-12)
 
 This integration contains **79 unique IT/EN source-linked origin research histories**, preserving Wave17 (28) and Wave18 (51) separate booklets, individual institutional-source audits and validators. Together with already merged #108 (Nowruz 1), #109 (World Water Day 1), and consolidated #112 (Waves14–16: 74), these account for **all 155 already-prepared unique histories**. **After exact-head green merge:** individually sourced origins **218/1,111**, still requiring research **893**, and *zero* remaining source-linked histories in the tracked PR registry. No 6-language human editorial/native review is asserted; the research ledger is bundled as provenance only and the existing `runtimeRichEditorialApproved` flag continues to block display of unapproved rich history in Flutter. The prior 56 legacy reviewed editorials remain a separate metric. No APK, Play or deploy.
