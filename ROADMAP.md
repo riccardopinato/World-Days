@@ -1,5 +1,15 @@
 # World Days — Active roadmap
 
+## Wave03 — 15 storie storiche ONU/UNESCO già documentate, ora mostrate nell'app (12 novembre 2026)
+
+- [x] Riutilizzare le 15 schede fonte-ricercate in `data/editorial/batches/un_primary_2026_11_03_03.json` senza riscrivere o inventare cronologie; ricomporle in testi IT/EN per il pannello offline delle origini.
+- [x] Distinguere autorità istitutive, proposte documentate, anniversari commemorati e prime celebrazioni solo dove dimostrabili.
+- [x] Integrare un nuovo batch append-only `origin_stories_wave03_20261112.json` nel generatore esistente, con validazione CI sui 15 ID, provenienza, cronologia e testi IT/EN.
+- [ ] Completare review editoriale qualificata e traduzioni ES/FR/DE/PT, senza promuovere automaticamente draft.
+- [ ] Continuare per blocchi massimi da 100 sulle ricorrenze rimanenti, incluse le verifiche delle fonti nazionali e dei 56 articoli legacy.
+
+**Dopo merge e validazione:** 32 origini IT/EN documentate su 1.111, ancora 1.079; i 56 precedenti articoli runtime sono separati dalla nuova ricertificazione di origine. Nessun nuovo ID canonico.
+
 ## Wave02 — otto nuove storie di origine con fonti primarie (12 novembre 2026)
 
 - [x] Collegare `origin_stories_wave02_20261112.json` come batch append-only di 8 origini documentate da ONU, UNESCO, OMS, Ramsar e fonti istituzionali originarie.
