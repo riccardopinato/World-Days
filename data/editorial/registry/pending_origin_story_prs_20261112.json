@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "c788cd7f8e2fd269c0ff3cb61ee8d506a16be6c0",
-  "mainIndividuallyResearchedOriginsSnapshot": 61,
+  "mainSnapshot": "088d0bac2ec1e227959a205ca070bfbcebad3d5e",
+  "mainIndividuallyResearchedOriginsSnapshot": 62,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 156,
-  "pendingPrCount": 8,
+  "pendingUniqueDraftCount": 155,
+  "pendingPrCount": 7,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 107,
-      "url": "https://github.com/riccardopinato/World-Days/pull/107",
-      "sourceFile": "data/editorial/batches/origin_stories_wave11_20261112.json",
-      "sourceCommit": "926743f2c2aa2b010c5e42f6557631efb5b724de",
-      "sourceBlob": "46955e59c11de783d0e5c0046f4013a693cbf2b3",
-      "storyCount": 1,
-      "observanceIds": [
-        "world-day-for-glaciers"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 108,
       "url": "https://github.com/riccardopinato/World-Days/pull/108",
@@ -313,6 +294,6 @@
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
   ],
-  "nextMergeExpectedIndividuallyResearchedCount": 62,
-  "registryChangeNote": "PR #106 adds one source-researched UNESCO International Day for Digital Learning with designation 2023 and first edition 2024. Source-researched draft only; six-language/human review not claimed."
+  "nextMergeExpectedIndividuallyResearchedCount": 63,
+  "registryChangeNote": "Wave11 PR #107: UN General Assembly adopted in 2022, first March 21 2025 observance directly evidenced, Tajik cultural connection not claimed as UN legislative rationale. Six-locale human review pending, rich runtime gating false."
 }
