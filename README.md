@@ -1,5 +1,10 @@
 # World Days
 
+## Consolidated sourced origin research: 74 histories from Wave14–Wave16 (2026-11-12)
+
+This PR integrates **74 distinct ID-bound historical records** from the existing Wave14 (16), Wave15 (32), and Wave16 (26) research branches; the canonical catalog remains **1,111 IDs**. **After passing CI and merge** the source-researched IT/EN origin count becomes **139**, with **972** to research and **79 prepared research drafts** remaining in PR #113 (28) and #114 (51). No new six-locale human-reviewed Rich Editorial publication is claimed; the fail-closed `runtimeRichEditorialApproved` check remains `false` for this research layer. The individual booklet, institutional source audit, and Python validator files are preserved separately per wave. The originating PRs #110 and #111 are superseded only after the consolidated merge succeeds. No APK, Play or deployment.
+
+
 ## Existing story registration — source research is not editorial publication (12 November 2026)
 
 - **Current Wave13 checkpoint:** World Water Day added by PR #109 with UN General Assembly A/RES/47/193 (1992), first 22 March 1993. After validated merge **65/1,111** origin-researched in IT/EN; **1,046** still need research; **153** draft stories remain across PR #110–114. This does not constitute human-approved six-language rich editorial.
