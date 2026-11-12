@@ -2,6 +2,10 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave10 PR #106: research UNESCO International Day for Digital Learning, 19 March, designation 2023 and first UNESCO edition in 2024, while leaving undocumented choice of the date unasserted. After green merge **62/1,111** researched origins, **1,049** pending; no six-language approval.
+- [x] Pending source-draft register reduced to **156 unique stories** in 8 open PRs (#107–#114), without duplicates or publishing a source draft as a reviewed runtime article.
+
+
 - [x] Wave09 PR #105: add source-linked histories for International Day of Women Judges (UN adoption 2021, first commemoration 2022) and International Day to Combat Islamophobia (UN adoption 2022, first commemorative event 2023), with original UN evidence for inaugural observances. Source-linked total **61/1,111** after green merge; **1,050** still lack individual source research.
 - [x] Update pending PR registry to **157 distinct IT/EN draft origins** from PR #106–#114 (9 open PRs); research drafts are not qualified human-reviewed rich articles and remain gated out of Flutter runtime.
 
