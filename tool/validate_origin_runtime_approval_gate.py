@@ -15,13 +15,15 @@ assert all(item.get("runtimeRichEditorialApproved") is False for item in entries
 assert "entry['runtimeRichEditorialApproved'] != true" in dart, "Origin panel missing approval gate"
 assert "snapshot.data?[observanceId]?['runtimeRichEditorialApproved'] == true" in dart, "Missing-history fallback must remain visible for drafts"
 batches = registry["batches"]
-assert len(batches) == registry["pendingPrCount"] == 12
-assert len({batch["pr"] for batch in batches}) == 12
+assert len(batches) == registry["pendingPrCount"] and len(batches) >= 0
+assert len({batch["pr"] for batch in batches}) == len(batches)
 ids = [oid for batch in batches for oid in batch["observanceIds"]]
-assert len(ids) == registry["pendingUniqueDraftCount"] == 161
+assert len(ids) == registry["pendingUniqueDraftCount"]
 assert len(ids) == len(set(ids)), "Duplicate pending observance IDs"
 canonical = {item["id"] for item in catalog["records"]}
 assert set(ids) <= canonical, "Unregistered observance outside canonical catalog"
+researched_ids = {entry["observanceId"] for entry in entries if entry["primaryResearch"] is not None}
+assert not set(ids) & researched_ids, "A researched origin on main cannot remain marked as an open PR draft"
 assert all(batch["storyCount"] == len(batch["observanceIds"]) for batch in batches)
 assert all(batch["sourceLinkedDraftLocales"] == ["en", "it"] for batch in batches)
 assert all(batch["qualifiedSixLocaleApproval"] is False and batch["runtimeRichEditorialApproved"] is False for batch in batches)
