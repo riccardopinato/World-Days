@@ -4,33 +4,14 @@
   "repository": "riccardopinato/World-Days",
   "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
   "catalogCountSnapshot": 1111,
-  "mainSnapshot": "7d4c6ad44fffc90e6e66d7dbc34ae139bcf09352",
+  "mainSnapshot": "b46ac086197ae3081d2484bb6551caec41557c5b",
   "mainIndividuallyResearchedOriginsSnapshot": 57,
   "mainLegacyReviewedEditorialCountSnapshot": 56,
   "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
-  "pendingUniqueDraftCount": 161,
-  "pendingPrCount": 12,
+  "pendingUniqueDraftCount": 160,
+  "pendingPrCount": 11,
   "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
   "batches": [
-    {
-      "pr": 103,
-      "url": "https://github.com/riccardopinato/World-Days/pull/103",
-      "sourceFile": "data/editorial/batches/origin_stories_wave07_20261112.json",
-      "sourceCommit": "9c3c787db8907a92600949680c0ecae94486bad3",
-      "sourceBlob": "b28a05a05e1275a716705d7661f9b3041419ddbb",
-      "storyCount": 1,
-      "observanceIds": [
-        "international-day-of-zero-tolerance-to-female-genital-mutilation"
-      ],
-      "sourceLinkedDraftLocales": [
-        "en",
-        "it"
-      ],
-      "qualifiedSixLocaleApproval": false,
-      "runtimeRichEditorialApproved": false,
-      "openReviewFindings": 0,
-      "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
-    },
     {
       "pr": 104,
       "url": "https://github.com/riccardopinato/World-Days/pull/104",
@@ -389,5 +370,7 @@
       "openReviewFindings": 3,
       "registrationStatus": "OPEN_PR_NOT_MERGED_SOURCE_LINKED_IT_EN_DRAFT"
     }
-  ]
+  ],
+  "nextMergeExpectedIndividuallyResearchedCount": 58,
+  "registryChangeNote": "PR #103 integration candidate; 1 sourced FGM history accounted for on main only after successful merge and CI; source text remains unapproved for runtime rich editorial."
 }
