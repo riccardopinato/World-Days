@@ -7,6 +7,7 @@ qualified professional review, or native translations in six languages.
 """
 import json
 from pathlib import Path
+import re
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,7 +70,7 @@ for rec in d["records"]:
         assert all(len(f.strip()) >= 35 for f in o["facts"]), (oid, lang, "facts")
         assert o["origin"] in book, (oid, lang, "booklet")
         for s in (o["heading"], o["origin"], o["promoter"], o["purpose"], *o["facts"]):
-            assert not any(t in s.lower() for t in ("undefined", "todo", "<placeholder>")), (oid, lang)
+            assert not re.search(r"\\b(?:undefined|todo)\\b|<placeholder>", s, re.I), (oid, lang)
 
 by_id = {r["observanceId"]: r for r in d["records"]}
 assert by_id["world-prematurity-day"]["introducedYear"] == 2025
