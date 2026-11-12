@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE17-POST-FIRST-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 23,
+  "count": 28,
   "sourcePolicy": "Individually verified original chronology and primary UN/UNESCO source links for each id; date reason and proposer only when documented. EN/IT model-authored editorial research, pending qualified factual/native review; ES/FR/DE/PT pending. Not 6 locale certified.",
   "records": [
     {
@@ -803,6 +803,181 @@
         }
       },
       "sourceReviewNote": "Individual original source check for international-day-of-the-girl-child, act A/RES/66/170; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-day-for-disaster-risk-reduction",
+      "introducedYear": 2009,
+      "firstObservedYear": 1989,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/64/200",
+        "https://www.un.org/en/observances/disaster-reduction-day",
+        "https://digitallibrary.un.org/record/673701",
+        "https://sdgs.un.org/topics/disaster-risk-reduction"
+      ],
+      "locale": {
+        "en": {
+          "heading": "13 October: a disaster-awareness day changes its calendar rule",
+          "origin": "The United Nations began promoting an international day for disaster reduction in 1989, originally using the second Wednesday of October. On 21 December 2009 the General Assembly adopted A/RES/64/200, changing the commemoration to the fixed date of 13 October. That decision reflects a shift from responding only after disasters to anticipating risks through planning, resilient infrastructure and early-warning systems. The date change should not be mistaken for the beginning of international disaster-risk work. The original founding record reviewed does not provide a distinct historical anniversary explaining precisely why 13 October was selected.",
+          "promoter": "The General Assembly initiated the day through its 1989 disaster-reduction programme and specified the current fixed date in 2009.",
+          "purpose": "Promote risk-informed development, community preparedness and investments that reduce exposure and vulnerability before hazards become disasters.",
+          "facts": [
+            "The original UN day began in 1989 on the second Wednesday of October.",
+            "A/RES/64/200 fixed the annual observance on 13 October in December 2009.",
+            "The Sendai Framework on disaster risk reduction was adopted later, in 2015."
+          ]
+        },
+        "it": {
+          "heading": "13 ottobre: la giornata dei disastri cambia regola sul calendario",
+          "origin": "L'ONU iniziò a promuovere una giornata internazionale per la riduzione dei disastri nel 1989, celebrandola inizialmente il secondo mercoledì di ottobre. Il 21 dicembre 2009 l'Assemblea generale adottò A/RES/64/200 e fissò la ricorrenza al 13 ottobre. La decisione accompagna il passaggio dalla sola risposta alle emergenze alla prevenzione tramite pianificazione, infrastrutture resistenti e allerta precoce. Il cambio di data non va confuso con l'inizio degli interventi internazionali sul rischio. Le fonti esaminate non spiegano un anniversario specifico dietro la scelta del 13 ottobre.",
+          "promoter": "L'Assemblea generale avviò la ricorrenza nel 1989 e ne modificò la regola annuale nel 2009, scegliendo una data fissa.",
+          "purpose": "Favorire prevenzione, preparazione delle comunità e investimenti che riducano esposizione e vulnerabilità prima delle catastrofi.",
+          "facts": [
+            "La prima giornata ONU risale al 1989 e cadeva il secondo mercoledì di ottobre.",
+            "A/RES/64/200 stabilì il 13 ottobre come data fissa nel dicembre 2009.",
+            "Il successivo Quadro di Sendai per la riduzione dei disastri fu adottato nel 2015."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary UN/FAO founding chronology for international-day-for-disaster-risk-reduction and act A/RES/64/200. Prior advocacy, founding, first observed date and modern UN recognition explicitly differentiated. IT/EN model-authored research drafts; no human factual/native-language editorial review and no four other locales approved."
+    },
+    {
+      "observanceId": "international-day-of-rural-women",
+      "introducedYear": 2007,
+      "firstObservedYear": 2008,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/62/136",
+        "https://digitallibrary.un.org/record/614259",
+        "https://www.un.org/en/observances/rural-women-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 October: rural women become visible in global development policy",
+          "origin": "The General Assembly adopted A/RES/62/136 on 18 December 2007, proclaiming 15 October the International Day of Rural Women, with the first annual UN date in 2008. The resolution recognizes rural women's work in agriculture, family livelihoods and community governance, and urges access to land, services, education and technology. It was linked to earlier international commitments on women's equality, including the Beijing Platform for Action, rather than inventing the idea that women contribute to rural development. The founding text does not document one individual original founder or an anniversary that conclusively explains 15 October.",
+          "promoter": "The General Assembly made the formal designation in 2007; the UN Commission on the Status of Women and development agencies had advanced rural women's equality in prior work.",
+          "purpose": "Support rural women's rights, land and resource access, fair economic opportunities, education, health and participation in local decisions.",
+          "facts": [
+            "A/RES/62/136 was adopted by the General Assembly on 18 December 2007.",
+            "The resolution explicitly calls for rural women's participation in information and communications technology.",
+            "The first annual 15 October date after the 2007 proclamation fell in 2008."
+          ]
+        },
+        "it": {
+          "heading": "15 ottobre: il ruolo delle donne rurali nelle politiche di sviluppo",
+          "origin": "Il 18 dicembre 2007 l'Assemblea generale ONU adottò A/RES/62/136, istituendo il 15 ottobre come Giornata internazionale delle donne rurali, con prima annualità ONU nel 2008. La risoluzione riconosce il lavoro femminile nell'agricoltura, nei redditi familiari e nella vita delle comunità, chiedendo accesso a terra, servizi, istruzione e tecnologie. Si inserisce negli impegni precedenti sull'uguaglianza, come la Piattaforma di Pechino, senza inventare il contributo delle donne allo sviluppo rurale. Il testo non attribuisce la giornata a un'unica fondatrice né dimostra un anniversario preciso dietro il 15 ottobre.",
+          "promoter": "L'Assemblea generale formalizzò la designazione nel 2007, dopo precedenti iniziative ONU e della Commissione sulla condizione delle donne.",
+          "purpose": "Sostenere diritti, accesso alle risorse, opportunità economiche, salute, istruzione e partecipazione delle donne rurali alle decisioni locali.",
+          "facts": [
+            "L'Assemblea generale adottò A/RES/62/136 il 18 dicembre 2007.",
+            "La risoluzione cita espressamente la partecipazione femminile alle tecnologie dell'informazione.",
+            "La prima annualità dopo la proclamazione del 2007 cadde nel 2008."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary UN/FAO founding chronology for international-day-of-rural-women and act A/RES/62/136. Prior advocacy, founding, first observed date and modern UN recognition explicitly differentiated. IT/EN model-authored research drafts; no human factual/native-language editorial review and no four other locales approved."
+    },
+    {
+      "observanceId": "world-food-day",
+      "introducedYear": 1979,
+      "firstObservedYear": 1981,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/35/70",
+        "https://www.fao.org/fileadmin/templates/library/pdf/BulletinWorldFoodDay16Oct2018.pdf",
+        "https://www.fao.org/world-food-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 October: a FAO founding anniversary becomes World Food Day",
+          "origin": "At its twentieth Conference session in 1979, FAO resolved to establish World Food Day on 16 October, commemorating the organisation's foundation on 16 October 1945. FAO's own institutional archive confirms that the first celebration was in 1981. The UN General Assembly subsequently endorsed the international initiative through A/RES/35/70. The day encourages public understanding of hunger, agricultural livelihoods and secure access to adequate food. This date is a documented organisational anniversary, not the date of the first FAO Conference decision or an invented seasonal harvest custom.",
+          "promoter": "FAO's Conference initiated World Food Day in 1979, while the General Assembly later endorsed the observance; FAO remains its principal organising institution.",
+          "purpose": "Support action against hunger and malnutrition through resilient food systems, sustainable agriculture and equitable food access.",
+          "facts": [
+            "FAO was founded on 16 October 1945, explaining the annual anniversary.",
+            "FAO's twentieth Conference established World Food Day in 1979.",
+            "The FAO institutional archive identifies 1981 as the first World Food Day celebration."
+          ]
+        },
+        "it": {
+          "heading": "16 ottobre: la nascita della FAO diventa Giornata mondiale dell'alimentazione",
+          "origin": "Durante la ventesima Conferenza del 1979, la FAO decise di istituire la Giornata mondiale dell'alimentazione il 16 ottobre, ricordando la fondazione dell'organizzazione il 16 ottobre 1945. L'archivio storico della FAO conferma che la prima celebrazione si tenne nel 1981. L'Assemblea generale ONU sostenne poi l'iniziativa internazionale con A/RES/35/70. La giornata richiama fame, lavoro agricolo e diritto ad un'alimentazione adeguata. La data deriva da un anniversario istituzionale accertato, non da una generica festa del raccolto o dal giorno della decisione del 1979.",
+          "promoter": "La Conferenza FAO avviò la ricorrenza nel 1979 e l'Assemblea generale ONU la sostenne successivamente; la FAO è l'istituzione organizzatrice principale.",
+          "purpose": "Promuovere azioni contro fame e malnutrizione attraverso sistemi alimentari resilienti, agricoltura sostenibile e accesso equo al cibo.",
+          "facts": [
+            "La FAO fu fondata il 16 ottobre 1945, anniversario che spiega la giornata.",
+            "La ventesima Conferenza FAO istituì la ricorrenza nel 1979.",
+            "L'archivio storico FAO indica il 1981 come anno della prima celebrazione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary UN/FAO founding chronology for world-food-day and act A/RES/35/70. Prior advocacy, founding, first observed date and modern UN recognition explicitly differentiated. IT/EN model-authored research drafts; no human factual/native-language editorial review and no four other locales approved."
+    },
+    {
+      "observanceId": "international-day-for-the-eradication-of-poverty",
+      "introducedYear": 1992,
+      "firstObservedYear": 1987,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/47/196",
+        "https://www.un.org/en/observances/day-for-eradicating-poverty/background"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 October: a gathering at the Trocadéro inspires a UN day",
+          "origin": "More than one hundred thousand people gathered on 17 October 1987 at the Trocadéro in Paris to honour victims of extreme poverty, hunger and violence and affirm the need to respect human dignity. That grassroots event became the origin of the annual 17 October remembrance. Five years later, on 22 December 1992, the General Assembly adopted A/RES/47/196, designating the International Day for the Eradication of Poverty. The UN day follows a movement in which people living in poverty are participants and advocates, not merely recipients of assistance; the gathering explains the specific calendar date.",
+          "promoter": "The 1987 Trocadéro gathering arose from civil-society activism, including the ATD Fourth World movement; the General Assembly formally recognised the date in 1992.",
+          "purpose": "Centre the voices of people experiencing poverty, oppose exclusion and support practical policies that defend dignity and reduce deprivation.",
+          "facts": [
+            "The first gathering on 17 October 1987 took place at the Trocadéro in Paris.",
+            "Over one hundred thousand people assembled to honour victims of extreme poverty and hunger.",
+            "The General Assembly proclaimed the official UN day through A/RES/47/196 on 22 December 1992."
+          ]
+        },
+        "it": {
+          "heading": "17 ottobre: la manifestazione al Trocadéro all'origine della giornata",
+          "origin": "Il 17 ottobre 1987 oltre centomila persone si riunirono al Trocadéro di Parigi per ricordare le vittime della povertà estrema, della fame e della violenza e affermare il valore della dignità umana. Da quell'iniziativa della società civile nacque la ricorrenza del 17 ottobre. Cinque anni dopo, il 22 dicembre 1992, l'Assemblea generale ONU approvò A/RES/47/196, proclamando la Giornata internazionale per l'eliminazione della povertà. Il riconoscimento ONU segue un movimento in cui le persone povere hanno voce e ruolo attivo. L'evento del 1987 spiega la data.",
+          "promoter": "L'iniziativa del Trocadéro nacque nell'attivismo civile, anche collegato al movimento ATD Quarto Mondo; l'Assemblea generale riconobbe il giorno nel 1992.",
+          "purpose": "Mettere al centro le persone che vivono in povertà, contrastare esclusione e sostenere politiche che difendano dignità e opportunità concrete.",
+          "facts": [
+            "Il primo grande incontro si svolse il 17 ottobre 1987 al Trocadéro di Parigi.",
+            "Oltre centomila persone parteciparono alla commemorazione delle vittime della miseria.",
+            "L'Assemblea generale proclamò la giornata con A/RES/47/196 il 22 dicembre 1992."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary UN/FAO founding chronology for international-day-for-the-eradication-of-poverty and act A/RES/47/196. Prior advocacy, founding, first observed date and modern UN recognition explicitly differentiated. IT/EN model-authored research drafts; no human factual/native-language editorial review and no four other locales approved."
+    },
+    {
+      "observanceId": "international-day-of-the-snow-leopard",
+      "introducedYear": 2024,
+      "firstObservedYear": 2025,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/79/143",
+        "https://www.un.org/observances/snow-leopard-day",
+        "https://digitallibrary.un.org/record/4071259/files/A_RES_79_143-EN.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 October: the snow leopard becomes an international conservation symbol",
+          "origin": "On 12 December 2024 the General Assembly adopted A/RES/79/143, designating 23 October the International Day of the Snow Leopard. The first annual day after the formal act fell in October 2025. The resolution recognises that the high-mountain cat faces habitat fragmentation, depleted wild prey, poaching and climate change. International collaboration in Central Asian mountain ecosystems predates this UN proclamation, including programmes among snow-leopard range States. The founding resolution fixes 23 October, but the document reviewed does not establish a single individual founder or a precise original historical anniversary for this day.",
+          "promoter": "The General Assembly approved the formal 2024 observance and invited UNEP to facilitate international activities; conservation work by range countries preceded that act.",
+          "purpose": "Protect the snow leopard, its mountain habitat and ecological connectivity through community cooperation, science and action against illegal wildlife trade.",
+          "facts": [
+            "The UN General Assembly adopted A/RES/79/143 on 12 December 2024.",
+            "The first 23 October following the formal UN designation occurred in 2025.",
+            "The UN resolution specifically identifies habitat loss, poaching and prey decline as conservation threats."
+          ]
+        },
+        "it": {
+          "heading": "23 ottobre: il leopardo delle nevi come simbolo di tutela montana",
+          "origin": "Il 12 dicembre 2024 l'Assemblea generale ONU approvò A/RES/79/143, proclamando il 23 ottobre Giornata internazionale del leopardo delle nevi. La prima annualità successiva all'atto fu nell'ottobre 2025. La risoluzione riconosce i rischi per questo grande felino delle montagne asiatiche: frammentazione degli habitat, scarsità delle prede, bracconaggio e cambiamento climatico. La collaborazione fra i Paesi dell'areale esisteva già prima della proclamazione ONU. L'atto fissa il 23 ottobre ma non dimostra un fondatore individuale o un anniversario storico preciso.",
+          "promoter": "L'Assemblea generale proclamò la giornata nel 2024 e invitò UNEP a facilitare le iniziative; la collaborazione dei Paesi montani era precedente.",
+          "purpose": "Proteggere il leopardo delle nevi e la connettività degli ecosistemi montani tramite ricerca, cooperazione e contrasto al traffico illegale di fauna.",
+          "facts": [
+            "L'Assemblea generale adottò A/RES/79/143 il 12 dicembre 2024.",
+            "La prima data annuale dopo la proclamazione ONU fu il 23 ottobre 2025.",
+            "La risoluzione cita perdita di habitat, bracconaggio e diminuzione delle prede fra le minacce."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual primary UN/FAO founding chronology for international-day-of-the-snow-leopard and act A/RES/79/143. Prior advocacy, founding, first observed date and modern UN recognition explicitly differentiated. IT/EN model-authored research drafts; no human factual/native-language editorial review and no four other locales approved."
     }
   ]
 }
