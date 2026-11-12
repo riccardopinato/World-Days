@@ -70,7 +70,7 @@ The General Assembly proclaimed 19 May World Fair Play Day with A/RES/78/310 on 
 **Why it matters.** Promote ethical sport, participation without discrimination, solidarity, fair competition and respect for opponents.
 
 **Three documented facts:**
-- The 2024 proclamation is A/RES/78/310.
+- The 2024 UN proclamation of World Fair Play Day is resolution A/RES/78/310.
 - The UN calls 19 May 2025 the inaugural World Fair Play Day.
 - The resolution explicitly includes access to sport for people with disabilities.
 
@@ -362,7 +362,7 @@ Nel 1948 le Nazioni Unite avviarono la loro prima operazione di mantenimento del
 **Perché è importante.** Riconoscere il lavoro dei peacekeeper, commemorare le vittime e spiegare rischi e mandati delle missioni.
 
 **Tre fatti documentati:**
-- La missione UNTSO cominciò nel 1948.
+- La missione ONU UNTSO cominciò nel 1948, all'inizio delle operazioni di pace.
 - La ricorrenza fu proclamata nel 2002 e celebrata dal 2003.
 - Nelle operazioni di pace operano anche civili e agenti di polizia.
 
@@ -375,7 +375,7 @@ In 1948 the UN established its first peacekeeping operation, UNTSO, sending mili
 **Why it matters.** Recognize UN peacekeepers' contributions, honour fatalities and explain the risks and mandates of peace operations.
 
 **Three documented facts:**
-- UNTSO began operating in 1948.
+- The United Nations Truce Supervision Organization (UNTSO) began operating in 1948.
 - The international observance was established in 2002 and began in 2003.
 - Peacekeeping includes civilian and police as well as military personnel.
 
@@ -478,7 +478,7 @@ Nell'agosto 1982, durante una sessione speciale d'emergenza sulla Palestina, l'A
 
 **Tre fatti documentati:**
 - La giornata fu proclamata in una sessione speciale d'emergenza nel 1982.
-- L'atto istitutivo è A/RES/ES-7/8.
+- L'atto istitutivo della Giornata è la risoluzione ONU A/RES/ES-7/8 dell'Assemblea generale.
 - La finalità umanitaria oggi si estende oltre la crisi regionale iniziale.
 
 ### English — 4 June: children harmed by war must never be invisible
@@ -669,7 +669,7 @@ La Giornata mondiale contro gli abusi sugli anziani fu avviata nel 2006 dall'Int
 
 **Tre fatti documentati:**
 - L'INPEA iniziò la giornata nel 2006, cinque anni prima del riconoscimento ONU.
-- L'atto ONU è A/RES/66/127 del 2011.
+- L'atto di riconoscimento dell'ONU è la risoluzione A/RES/66/127, adottata nel 2011.
 - Gli abusi comprendono anche sfruttamento economico, oltre alla violenza fisica.
 
 ### English — 15 June: elder abuse was being discussed before the UN designation
@@ -950,7 +950,7 @@ The General Assembly designated 23 June United Nations Public Service Day on 20 
 
 **Three documented facts:**
 - The General Assembly established the day on 20 December 2002.
-- UN Public Service Awards began in 2003.
+- The United Nations Public Service Awards programme was established in 2003.
 - The UN public-service forum brings together officials and institutions to exchange practical improvements.
 
 **Institutional sources:**
@@ -1090,7 +1090,7 @@ Nel 2025 l'Assemblea generale ONU proclamò il 27 giugno Giornata internazionale
 **Perché è importante.** Promuovere accessibilità, supporti alla comunicazione, autonomia e pari partecipazione delle persone sordocieche.
 
 **Tre fatti documentati:**
-- Helen Keller nacque il 27 giugno 1880.
+- La data ricorda la nascita della scrittrice Helen Keller il 27 giugno 1880.
 - La giornata fu designata nel 2025 con A/RES/79/294.
 - L'ONU cita i bastoni bianchi e rossi come ausili usati da persone sordocieche.
 
@@ -1103,7 +1103,7 @@ The General Assembly proclaimed 27 June the International Day of Deafblindness t
 **Why it matters.** Support accessibility, appropriate communication assistance, autonomy and equal participation of deafblind people.
 
 **Three documented facts:**
-- Helen Keller was born on 27 June 1880.
+- The date commemorates the birth of writer Helen Keller on 27 June 1880.
 - The international day was designated in 2025 through A/RES/79/294.
 - The UN identifies red-and-white mobility canes as one tool used by deafblind people.
 
@@ -1205,7 +1205,7 @@ La Giornata internazionale del parlamentarismo fu istituita dall'Assemblea gener
 **Perché è importante.** Favorire assemblee rappresentative, controllo pubblico e cooperazione tra parlamenti.
 
 **Tre fatti documentati:**
-- L'IPU nacque il 30 giugno 1889.
+- L'Unione interparlamentare (IPU) fu fondata il 30 giugno 1889.
 - L'ONU proclamò la giornata specifica nel 2018.
 - L'IPU dispone dal 1976 di un comitato per i diritti umani dei parlamentari.
 
