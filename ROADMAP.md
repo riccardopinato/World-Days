@@ -2,6 +2,8 @@
 
 ## Existing stories: registry and publication gate (12 November 2026)
 
+- [x] Wave12 PR #108 records International Day of Nowruz with original 2010 UN resolution, 21 March first-year observance, and separation from earlier cultural tradition. **64/1,111** source-linked records after CI and merge, **1,047** pending; **154** distinct source-linked drafts left in PRs #109–#114. Human six-language approval not claimed.
+
 - [x] Wave11 PR #107: World Day for Glaciers (21 March), UN adoption 2022 and primary UN event evidence for the first 2025 celebration. Source-linked origins **63/1,111** on successful merge; remaining **1,048**. Specific legislative date rationale remains unknown; six-locale signoff not claimed.
 - [x] Candidate registry updated to **155 unique IT/EN story drafts** across PR #108–#114, each distinct from already integrated source research.
 
