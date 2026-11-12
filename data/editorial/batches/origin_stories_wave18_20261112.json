@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE18-BULK-OCT-DEC-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 10,
+  "count": 22,
   "sourcePolicy": "Individual institution-linked historical narratives and resolutions with explicit documented/unknown date rationales. Original English and Italian research drafts pending human fact/native review; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -349,6 +349,418 @@
         }
       },
       "sourceReviewNote": "Institutional original act/history for international-day-for-preventing-the-exploitation-of-the-environment-in-war-and-armed-conflict researched on 2026-11-12. Formal proclamation and older milestones separated; exact date explanation or proposer only when supported. Original EN/IT editorial research, not qualified human factual or native language approval. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-science-day-for-peace-and-development",
+      "introducedYear": 2001,
+      "firstObservedYear": 2002,
+      "sources": [
+        "https://www.unesco.org/en/days/science-peace-development",
+        "https://www.unesco.org/en/legal-affairs/gc-resolutions"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 November: science becomes a public conversation about peace",
+          "origin": "UNESCO proclaimed World Science Day for Peace and Development at its thirty-first General Conference in 2001, with the first annual events taking place in 2002. It arose from discussions about connecting scientists with wider society, notably following the World Conference on Science in Budapest in 1999. The observance does not celebrate one discovery or a single scientist; it highlights scientific evidence as a resource for peaceful cooperation and sustainable development. UNESCO's official page establishes the 10 November date without demonstrating a particular historic anniversary for its choice.",
+          "promoter": "UNESCO Member States adopted the 2001 proclamation, advancing the wider scientific-community discussions after the World Conference on Science.",
+          "purpose": "Strengthen public engagement with science, collaboration among researchers and responsible use of knowledge for peaceful and sustainable societies.",
+          "facts": [
+            "UNESCO proclaimed the international day in 2001 and first celebrated it in 2002.",
+            "The 1999 World Conference on Science in Budapest influenced the broader science-and-society agenda.",
+            "UNESCO uses the day to support dialogue between scientists, policy makers and the public."
+          ]
+        },
+        "it": {
+          "heading": "10 novembre: la scienza dialoga con la società per la pace",
+          "origin": "L'UNESCO proclamò la Giornata mondiale della scienza per la pace e lo sviluppo durante la trentunesima Conferenza generale del 2001; le prime iniziative annuali seguirono nel 2002. L'idea si inseriva nel dibattito per avvicinare ricerca e cittadini, alimentato anche dalla Conferenza mondiale sulla scienza di Budapest del 1999. Non si celebra una singola scoperta o uno scienziato, ma il valore delle conoscenze condivise per cooperazione e sostenibilità. La pagina UNESCO conferma il 10 novembre, senza dimostrare un anniversario storico preciso alla base della scelta.",
+          "promoter": "Gli Stati membri UNESCO approvarono la proclamazione nel 2001, raccogliendo anche gli orientamenti emersi nei precedenti incontri fra comunità scientifiche.",
+          "purpose": "Rafforzare la partecipazione pubblica alla scienza, la collaborazione fra ricercatori e l'uso responsabile delle conoscenze per società sostenibili.",
+          "facts": [
+            "L'UNESCO proclamò la giornata nel 2001 e la celebrò per la prima volta nel 2002.",
+            "La Conferenza mondiale sulla scienza del 1999 si svolse a Budapest.",
+            "La giornata sostiene il dialogo tra ricercatori, responsabili politici e cittadini."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-science-day-for-peace-and-development, established by 31 C/Resolution 20. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-diabetes-day",
+      "introducedYear": 2006,
+      "firstObservedYear": 1991,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/61/225",
+        "https://www.un.org/en/observances/world-diabetes-day",
+        "https://worlddiabetesday.org/about/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "14 November: Banting's birthday and the history of diabetes awareness",
+          "origin": "The International Diabetes Federation and WHO began World Diabetes Day in 1991 to draw attention to a condition affecting growing numbers of people. The date, 14 November, is the birthday of Frederick Banting, born in 1891, whose research with colleagues helped lead to the discovery of insulin. In December 2006 the UN General Assembly gave the existing campaign official international recognition in A/RES/61/225, beginning a new phase of advocacy. This distinction matters: insulin research, the first campaign and the UN proclamation are separate milestones.",
+          "promoter": "The International Diabetes Federation and WHO initiated the 1991 campaign; the General Assembly formally recognised it in 2006.",
+          "purpose": "Promote access to diagnosis, insulin and continuing care, and improve education about diabetes prevention and management.",
+          "facts": [
+            "The IDF and WHO launched the international campaign in 1991.",
+            "Frederick Banting was born on 14 November 1891, explaining the date.",
+            "The UN General Assembly endorsed the day in resolution A/RES/61/225 in 2006."
+          ]
+        },
+        "it": {
+          "heading": "14 novembre: il compleanno di Banting e la sensibilizzazione sul diabete",
+          "origin": "La Federazione internazionale del diabete e l'OMS avviarono la Giornata mondiale del diabete nel 1991 per sensibilizzare su una condizione sempre più diffusa. Il 14 novembre ricorda la nascita nel 1891 di Frederick Banting, che con altri ricercatori contribuì alla scoperta dell'insulina. Nel dicembre 2006 l'Assemblea generale ONU riconobbe ufficialmente la campagna con A/RES/61/225, aprendo una nuova fase dell'impegno internazionale. Ricerca sull'insulina, prima iniziativa di sensibilizzazione e proclamazione ONU sono quindi eventi storici diversi.",
+          "promoter": "La Federazione internazionale del diabete e l'OMS fondarono la campagna nel 1991; l'Assemblea generale aggiunse il riconoscimento ONU nel 2006.",
+          "purpose": "Promuovere diagnosi tempestiva, accesso all'insulina e alle cure continuative e informazione corretta su prevenzione e gestione della malattia.",
+          "facts": [
+            "La campagna mondiale fu avviata nel 1991 da IDF e OMS.",
+            "Frederick Banting nacque il 14 novembre 1891, anniversario scelto per la giornata.",
+            "La proclamazione ONU fu approvata nel 2006 con A/RES/61/225."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-diabetes-day, established by A/RES/61/225. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-prevention-of-and-fight-against-all-forms-of-transnational-organized-crime",
+      "introducedYear": 2024,
+      "firstObservedYear": 2024,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/78/267",
+        "https://www.un.org/en/observances/fight-against-transnational-crime-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 November: fighting organised crime across borders",
+          "origin": "In March 2024 the UN General Assembly adopted A/RES/78/267 and designated 15 November as the International Day for the Prevention of and Fight against All Forms of Transnational Organized Crime. The observance recalls the legal framework created when the Assembly adopted the Convention against Transnational Organized Crime in November 2000. Organised networks traffic people, drugs, wildlife and illicit goods, launder money and increasingly exploit online systems. The date invites cooperation between investigators and public institutions without conflating enforcement with a substitute for victim protection and the rule of law.",
+          "promoter": "The General Assembly proclaimed the international day in 2024, building on the Palermo Convention framework negotiated and adopted in 2000.",
+          "purpose": "Support prevention, cross-border legal cooperation, victim assistance and accountability for criminal networks that undermine governance and public safety.",
+          "facts": [
+            "The UN Convention against Transnational Organized Crime was adopted in November 2000.",
+            "The international day was proclaimed in March 2024 through A/RES/78/267.",
+            "The Convention has three complementary protocols addressing trafficking, migrant smuggling and illicit firearms."
+          ]
+        },
+        "it": {
+          "heading": "15 novembre: contrastare la criminalità organizzata oltre i confini",
+          "origin": "Nel marzo 2024 l'Assemblea generale ONU approvò A/RES/78/267, proclamando il 15 novembre Giornata internazionale contro le forme di criminalità organizzata transnazionale. La ricorrenza richiama il quadro giuridico nato con la Convenzione contro la criminalità organizzata adottata nel novembre 2000. Le reti criminali possono trafficare persone, droga, animali e merci illegali, riciclare denaro e sfruttare anche strumenti digitali. La giornata promuove collaborazione fra istituzioni senza confondere attività investigative, tutela delle vittime e rispetto dello Stato di diritto.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 2024, valorizzando la precedente Convenzione di Palermo negoziata e approvata nel 2000.",
+          "purpose": "Sostenere prevenzione, cooperazione giuridica internazionale, protezione delle vittime e responsabilità delle reti che minacciano la sicurezza.",
+          "facts": [
+            "La Convenzione ONU sulla criminalità organizzata fu adottata nel novembre 2000.",
+            "La giornata internazionale fu proclamata nel marzo 2024 con A/RES/78/267.",
+            "La Convenzione è accompagnata da protocolli su tratta, traffico di migranti e armi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for international-day-for-the-prevention-of-and-fight-against-all-forms-of-transnational-organized-crime, established by A/RES/78/267. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-prematurity-day",
+      "introducedYear": 2025,
+      "firstObservedYear": 2009,
+      "sources": [
+        "https://www.who.int/campaigns/world-prematurity-day",
+        "https://www.who.int/campaigns/world-prematurity-day/2026",
+        "https://www.gfcni.org/campaigns/world-prematurity-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 November: a prematurity campaign changes date as it joins WHO",
+          "origin": "The first World Prematurity Day initiatives were launched in 2008 by the European Foundation for the Care of Newborn Infants and parent organisations, with the first celebration in 2009. For years the movement marked 17 November. In 2025 the World Health Assembly incorporated the observance into WHO's official health calendar and the date was moved to 15 November, from 2026 onward, to avoid overlapping with World Cervical Cancer Elimination Day. The change does not erase the grassroots origins. The new date centres prevention, high-quality newborn care, family support and follow-up after intensive care.",
+          "promoter": "The European Foundation for the Care of Newborn Infants and parent organisations originated the campaign; the World Health Assembly formally brought it into WHO's calendar in 2025.",
+          "purpose": "Improve survival and long-term outcomes for preterm babies and provide families with accessible, coordinated neonatal and follow-up support.",
+          "facts": [
+            "Parent organisations initiated the campaign in 2008 and first celebrated it in 2009.",
+            "The World Health Assembly included the day in WHO's official calendar in 2025.",
+            "From 2026 the official WHO calendar date is 15 November, instead of the former 17 November."
+          ]
+        },
+        "it": {
+          "heading": "15 novembre: la giornata dei prematuri cambia data con il riconoscimento OMS",
+          "origin": "La prima iniziativa sulla prematurità fu avviata nel 2008 dalla European Foundation for the Care of Newborn Infants insieme ad associazioni di genitori e fu celebrata dal 2009. Per molti anni la ricorrenza cadeva il 17 novembre. Nel 2025 l'Assemblea mondiale della sanità la inserì nel calendario ufficiale OMS e, dal 2026, la data passò al 15 novembre per non sovrapporsi alla giornata sull'eliminazione del tumore cervicale. Il cambio non cancella le origini associative e richiama cure neonatali di qualità e sostegno anche dopo la dimissione.",
+          "promoter": "La fondazione europea per l'assistenza ai neonati e le associazioni di genitori avviarono la campagna; l'Assemblea mondiale della sanità la riconobbe nel 2025.",
+          "purpose": "Migliorare sopravvivenza e crescita dei bambini nati pretermine e offrire alle famiglie assistenza coordinata anche dopo la terapia intensiva.",
+          "facts": [
+            "La campagna fu avviata nel 2008 e celebrata per la prima volta nel 2009.",
+            "L'Assemblea mondiale della sanità la inserì nel calendario OMS nel 2025.",
+            "Dal 2026 la data OMS è il 15 novembre, mentre prima era il 17 novembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-prematurity-day, established by World Health Assembly 2025/WHO institutional history. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-the-mediterranean-diet",
+      "introducedYear": 2025,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/80/174",
+        "https://www.un.org/en/observances/international-day-of-the-mediterranean-diet"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 November: Mediterranean food heritage becomes a global observance",
+          "origin": "In 2025 the United Nations General Assembly adopted A/RES/80/174 and declared 16 November the International Day of the Mediterranean Diet. The observance highlights food culture rooted in olive oil, vegetables, cereals, legumes, seasonal practices and social meals around the Mediterranean. UNESCO's earlier recognition of the Mediterranean diet as intangible cultural heritage is a separate milestone, not the formal founding of the 2025 UN day. The official act fixes 16 November but the exact calendar-date reason and first annual event have not been independently established in the reviewed material.",
+          "promoter": "The UN General Assembly adopted the 2025 designation, building on cultural and food-system initiatives associated with Mediterranean communities rather than a single credited individual founder.",
+          "purpose": "Discuss balanced food traditions, biodiversity, local farming, social sharing and sustainable nutrition without prescribing one universal diet.",
+          "facts": [
+            "The General Assembly designated 16 November through A/RES/80/174 in 2025.",
+            "UNESCO had previously inscribed the Mediterranean diet as intangible cultural heritage.",
+            "The day links dietary traditions to sustainable food systems and community practices."
+          ]
+        },
+        "it": {
+          "heading": "16 novembre: il patrimonio alimentare mediterraneo ottiene una giornata ONU",
+          "origin": "Nel 2025 l'Assemblea generale ONU adottò A/RES/80/174, proclamando il 16 novembre Giornata internazionale della dieta mediterranea. La ricorrenza valorizza tradizioni alimentari basate su olio d'oliva, cereali, legumi, verdure, stagionalità e pasti condivisi nei territori mediterranei. Il precedente riconoscimento UNESCO del patrimonio culturale immateriale è una tappa distinta, non coincide con l'istituzione ONU del 2025. La risoluzione conferma il 16 novembre, ma non è stato verificato con certezza un evento storico specifico che spieghi la data né la prima celebrazione annuale.",
+          "promoter": "L'Assemblea generale approvò il riconoscimento nel 2025, dopo precedenti iniziative culturali e alimentari mediterranee senza un fondatore personale documentato.",
+          "purpose": "Valorizzare alimentazione equilibrata, biodiversità agricola, produzioni locali e dimensione sociale dei pasti senza imporre una dieta unica a tutti.",
+          "facts": [
+            "L'ONU proclamò la giornata nel 2025 con A/RES/80/174.",
+            "L'UNESCO aveva già riconosciuto la dieta mediterranea come patrimonio culturale immateriale.",
+            "La ricorrenza collega tradizioni culinarie e sostenibilità dei sistemi alimentari."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for international-day-of-the-mediterranean-diet, established by A/RES/80/174. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-tolerance",
+      "introducedYear": 1995,
+      "firstObservedYear": 1995,
+      "sources": [
+        "https://www.unesco.org/en/days/tolerance",
+        "https://www.unesco.org/en/legal-affairs/declaration-principles-tolerance"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 November: UNESCO's Declaration of Tolerance becomes an annual date",
+          "origin": "On 16 November 1995 UNESCO Member States adopted the Declaration of Principles on Tolerance at the twenty-eighth General Conference and proclaimed the same date as the International Day for Tolerance. The UN General Assembly later supported the observance through resolution 51/95 in 1996. The date therefore recalls the declaration's own signing, not an arbitrary anniversary. UNESCO stresses that tolerance is active respect for human rights and cultural difference, not approval of discrimination or indifference to injustice. The 1995 founding act and later UN endorsement must be kept distinct.",
+          "promoter": "UNESCO Member States adopted the declaration and created the day in 1995, while the General Assembly provided a separate endorsement in 1996.",
+          "purpose": "Promote education in respect, equal rights, cultural and religious diversity and constructive solutions to exclusion and prejudice.",
+          "facts": [
+            "The UNESCO Declaration of Principles on Tolerance was adopted on 16 November 1995.",
+            "UNESCO established the international day in 1995, a year before UN General Assembly endorsement.",
+            "General Assembly resolution 51/95 promoted the annual date in 1996."
+          ]
+        },
+        "it": {
+          "heading": "16 novembre: la Dichiarazione UNESCO sulla tolleranza diventa ricorrenza",
+          "origin": "Il 16 novembre 1995 gli Stati membri UNESCO adottarono la Dichiarazione dei principi sulla tolleranza nella ventottesima Conferenza generale, proclamando la stessa data come giornata internazionale. L'Assemblea generale ONU sostenne successivamente la ricorrenza con la risoluzione 51/95 del 1996. Il giorno richiama dunque l'approvazione della dichiarazione, non una data arbitraria. Per l'UNESCO la tolleranza è rispetto attivo dei diritti e della diversità, non indifferenza verso le ingiustizie o accettazione delle discriminazioni. Vanno distinti l'atto fondativo UNESCO e il successivo riconoscimento ONU.",
+          "promoter": "Gli Stati membri UNESCO istituirono la ricorrenza con la dichiarazione del 1995; l'Assemblea generale ONU la sostenne con un atto distinto nel 1996.",
+          "purpose": "Favorire educazione al rispetto, pari diritti e convivenza fra persone di culture e fedi diverse, contrastando pregiudizi ed esclusione.",
+          "facts": [
+            "La Dichiarazione UNESCO fu adottata il 16 novembre 1995.",
+            "La proclamazione UNESCO avvenne nel 1995, un anno prima del sostegno ONU.",
+            "L'Assemblea generale approvò la risoluzione 51/95 nel 1996."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for international-day-for-tolerance, established by 28 C/Resolution 5.61. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-cervical-cancer-elimination-day",
+      "introducedYear": 2025,
+      "firstObservedYear": 2020,
+      "sources": [
+        "https://www.who.int/campaigns/world-cervical-cancer-elimination-day",
+        "https://www.who.int/campaigns/world-cervical-cancer-elimination-day/2025"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 November: five years from a WHO strategy to a formally designated day",
+          "origin": "On 17 November 2020 WHO launched its Global Strategy to accelerate the elimination of cervical cancer as a public-health problem. Countries and advocates marked the anniversary through awareness events in subsequent years. In 2025 the seventy-eighth World Health Assembly adopted WHA78.8, giving 17 November official World Cervical Cancer Elimination Day status. The earlier movement and first formal health-day designation are different stages. WHO's 90–70–90 targets cover HPV vaccination, effective screening and treatment of cervical disease; prevention and early detection can save lives.",
+          "promoter": "The World Health Assembly formally recognised the day in 2025, following WHO's 2020 global strategy and advocacy by clinicians, countries and affected communities.",
+          "purpose": "Increase HPV vaccination, screening and treatment access so cervical cancer can be prevented and eliminated as a public-health problem.",
+          "facts": [
+            "WHO launched its global elimination strategy on 17 November 2020.",
+            "The seventy-eighth World Health Assembly officially established the health day in 2025.",
+            "WHO's 90–70–90 framework covers vaccination, screening and treatment by 2030."
+          ]
+        },
+        "it": {
+          "heading": "17 novembre: dalla strategia OMS del 2020 alla giornata ufficiale",
+          "origin": "Il 17 novembre 2020 l'OMS lanciò la Strategia globale per eliminare il tumore della cervice uterina come problema di salute pubblica. Paesi, operatori sanitari e associazioni iniziarono a commemorare l'anniversario negli anni successivi. Nel 2025 la settantottesima Assemblea mondiale della sanità approvò WHA78.8, riconoscendo formalmente il 17 novembre come giornata mondiale. La campagna precedente e l'istituzione sanitaria ufficiale sono tappe diverse. Gli obiettivi OMS 90–70–90 riguardano vaccinazione contro HPV, screening e trattamento, strumenti concreti per prevenire molte morti.",
+          "promoter": "L'Assemblea mondiale della sanità proclamò il giorno nel 2025, dopo la strategia OMS del 2020 e l'impegno di medici, Paesi e comunità interessate.",
+          "purpose": "Aumentare accesso a vaccinazione HPV, screening e trattamenti efficaci per eliminare il cancro cervicale come problema di salute pubblica.",
+          "facts": [
+            "L'OMS lanciò la strategia mondiale il 17 novembre 2020.",
+            "La settantottesima Assemblea mondiale della sanità approvò WHA78.8 nel 2025.",
+            "Gli obiettivi 90–70–90 riguardano vaccinazione, screening e trattamento entro il 2030."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-cervical-cancer-elimination-day, established by WHA78.8. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-day-for-the-prevention-of-and-healing-from-child-sexual-exploitation-abuse-and-violence",
+      "introducedYear": 2022,
+      "firstObservedYear": 2022,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/8",
+        "https://www.un.org/en/observances/child-sexual-exploitation-prevention-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 November: protecting children and supporting survivors of abuse",
+          "origin": "In November 2022 the UN General Assembly adopted A/RES/77/8, designating 18 November as a world day for preventing and healing from child sexual exploitation, abuse and violence. The observance takes a survivor-centred approach: preventing harm, providing confidential support and helping children recover are all essential, while the responsibility for abuse never lies with the victim. The UN resolution builds on the Convention on the Rights of the Child and earlier international child-protection standards. The founding record fixes 18 November but does not clearly establish a single personal promoter or a historical anniversary for that date.",
+          "promoter": "The General Assembly formally proclaimed the day in 2022, drawing on established child-protection obligations and the work of survivors and safeguarding advocates.",
+          "purpose": "Promote prevention, survivor-sensitive services, child-safe institutions and access to justice and healing without stigma.",
+          "facts": [
+            "The General Assembly adopted the founding resolution A/RES/77/8 in November 2022.",
+            "The day addresses both prevention of violence and recovery and support for survivors.",
+            "The UN Convention on the Rights of the Child is a foundational earlier protection framework."
+          ]
+        },
+        "it": {
+          "heading": "18 novembre: prevenire gli abusi sui minori e sostenere chi li ha subiti",
+          "origin": "Nel novembre 2022 l'Assemblea generale ONU approvò A/RES/77/8, istituendo il 18 novembre una giornata dedicata alla prevenzione e alla guarigione dalle violenze e dallo sfruttamento sessuale sui minori. Il punto centrale è ascoltare e proteggere le persone sopravvissute: prevenire il danno, offrire sostegno riservato e garantire percorsi di recupero sono azioni collegate. La responsabilità non ricade mai sul minore. La risoluzione si fonda anche sui diritti dell'infanzia riconosciuti in precedenza. Non è accertato un fondatore individuale o un anniversario specifico per la data.",
+          "promoter": "L'Assemblea generale istituì formalmente la giornata nel 2022, nel quadro degli obblighi di tutela dell'infanzia e di precedenti attività di prevenzione.",
+          "purpose": "Promuovere ambienti sicuri per i minori, assistenza rispettosa delle vittime e percorsi di cura e giustizia senza stigmatizzazione.",
+          "facts": [
+            "La risoluzione A/RES/77/8 fu approvata dall'ONU nel novembre 2022.",
+            "La ricorrenza unisce prevenzione e sostegno alla guarigione delle vittime.",
+            "La Convenzione sui diritti dell'infanzia costituisce una protezione internazionale precedente."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-day-for-the-prevention-of-and-healing-from-child-sexual-exploitation-abuse-and-violence, established by A/RES/77/8. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-toilet-day",
+      "introducedYear": 2013,
+      "firstObservedYear": 2001,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/67/291",
+        "https://www.un.org/en/observances/toilet-day",
+        "https://www.worldtoilet.org/world-toilet-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "19 November: a civil-society sanitation campaign becomes a UN day",
+          "origin": "The World Toilet Organization was founded on 19 November 2001, and its founder Jack Sim initiated an annual campaign to draw attention to inadequate sanitation. The UN General Assembly later designated 19 November World Toilet Day through A/RES/67/291 in 2013. The original initiative and the formal UN act are different milestones, while the calendar date remembers the organisation's founding. Safe toilets and sanitation protect health, privacy, water supplies and dignity, and the observance is linked to Sustainable Development Goal 6 on clean water and sanitation.",
+          "promoter": "Jack Sim and the World Toilet Organization originated the 2001 advocacy campaign; the General Assembly adopted the international UN recognition in 2013.",
+          "purpose": "Expand safe, accessible sanitation services, reduce open defecation and protect health, dignity and water resources.",
+          "facts": [
+            "The World Toilet Organization was founded on 19 November 2001.",
+            "The UN General Assembly recognised World Toilet Day in 2013 through A/RES/67/291.",
+            "Sanitation access is part of Sustainable Development Goal 6 on water and sanitation."
+          ]
+        },
+        "it": {
+          "heading": "19 novembre: una campagna per servizi igienici sicuri arriva all'ONU",
+          "origin": "La World Toilet Organization nacque il 19 novembre 2001 e il suo fondatore Jack Sim avviò una campagna per richiamare l'attenzione sulla mancanza di servizi igienici adeguati. L'Assemblea generale ONU riconobbe il 19 novembre come Giornata mondiale dei servizi igienici con A/RES/67/291 nel 2013. Iniziativa associativa e proclamazione ONU sono due momenti diversi, mentre la data richiama la fondazione dell'organizzazione. Servizi igienici sicuri proteggono salute, riservatezza, acqua e dignità, obiettivi collegati anche allo sviluppo sostenibile.",
+          "promoter": "Jack Sim e la World Toilet Organization promossero la campagna dal 2001; l'Assemblea generale ONU formalizzò il riconoscimento nel 2013.",
+          "purpose": "Ampliare servizi igienici accessibili e sicuri, contrastare la defecazione all'aperto e tutelare salute, dignità e risorse idriche.",
+          "facts": [
+            "La World Toilet Organization fu fondata il 19 novembre 2001.",
+            "L'ONU riconobbe la giornata nel 2013 con A/RES/67/291.",
+            "L'accesso ai servizi igienici fa parte dell'Obiettivo di sviluppo sostenibile 6."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-toilet-day, established by A/RES/67/291. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "africa-industrialization-day",
+      "introducedYear": 1989,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/44/237",
+        "https://www.un.org/en/observances/africa-industrialization-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 November: industrial development on Africa's own terms",
+          "origin": "At its July 1989 summit, the Organization of African Unity highlighted the importance of industrial development for African countries. Later that year the UN General Assembly adopted A/RES/44/237, proclaiming 20 November Africa Industrialization Day within preparations for the Second Industrial Development Decade for Africa. The observance places manufacturing, technical skills, energy and regional value chains within the development debate, rather than assuming industrialization means only large factories. UNIDO and African institutions have subsequently organised annual events and, since 2018, weeklong programmes. The original act does not prove a separate historical anniversary for 20 November.",
+          "promoter": "The Organization of African Unity promoted the issue in 1989 and the UN General Assembly adopted the official date that December.",
+          "purpose": "Support inclusive industrial skills, productive jobs, investment, regional trade and African-led economic transformation.",
+          "facts": [
+            "The Organization of African Unity raised the initiative at its Addis Ababa summit in 1989.",
+            "The General Assembly adopted A/RES/44/237 in December 1989.",
+            "Since 2018 observances have included Africa Industrialization Week activities."
+          ]
+        },
+        "it": {
+          "heading": "20 novembre: sviluppo industriale e trasformazione africana",
+          "origin": "Durante il vertice del luglio 1989 l'Organizzazione dell'Unità Africana richiamò l'importanza dell'industrializzazione del continente. Più tardi nello stesso anno l'Assemblea generale ONU approvò A/RES/44/237, proclamando il 20 novembre Giornata dell'industrializzazione dell'Africa nel quadro del secondo Decennio di sviluppo industriale africano. La ricorrenza riguarda manifattura, competenze tecniche, energia e filiere regionali, non soltanto grandi fabbriche. UNIDO e istituzioni africane organizzano iniziative anche settimanali dal 2018. Non è dimostrato un anniversario distinto che spieghi il 20 novembre.",
+          "promoter": "L'Organizzazione dell'Unità Africana promosse il tema nel 1989 e l'Assemblea generale istituì formalmente la giornata nel dicembre di quell'anno.",
+          "purpose": "Sostenere competenze industriali, occupazione produttiva, investimenti, commercio regionale e sviluppo economico guidato dai Paesi africani.",
+          "facts": [
+            "L'Organizzazione dell'Unità Africana discusse il tema ad Addis Abeba nel 1989.",
+            "L'Assemblea generale adottò A/RES/44/237 nel dicembre 1989.",
+            "Dal 2018 le attività sono state ampliate anche alla Settimana dell'industrializzazione africana."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for africa-industrialization-day, established by A/RES/44/237. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-children-s-day",
+      "introducedYear": 1954,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/836(IX)",
+        "https://www.un.org/en/observances/world-childrens-day/background",
+        "https://www.un.org/en/observances/world-childrens-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 November: children gain rights as well as a day of celebration",
+          "origin": "In December 1954 the General Assembly adopted resolution 836 (IX), recommending that all countries institute a Universal Children's Day while leaving the original observance date to national decisions. Today's UN date of 20 November recalls two later milestones: the Declaration of the Rights of the Child adopted on 20 November 1959 and the Convention on the Rights of the Child adopted on 20 November 1989. The 1954 recommendation, the 1959 declaration and the 1989 legally binding convention should never be treated as the same event. The day celebrates children's voices, safety and agency, not only childhood as an abstract idea.",
+          "promoter": "The General Assembly first recommended a universal children's observance in 1954; later UN child-rights instruments explain the contemporary 20 November date.",
+          "purpose": "Defend children's rights to safety, education, health, play and meaningful participation in decisions that affect their lives.",
+          "facts": [
+            "General Assembly resolution 836 (IX) of 1954 initially allowed countries to choose the observance date.",
+            "The Declaration of the Rights of the Child was adopted on 20 November 1959.",
+            "The Convention on the Rights of the Child was adopted on 20 November 1989."
+          ]
+        },
+        "it": {
+          "heading": "20 novembre: il giorno dei bambini e la storia dei loro diritti",
+          "origin": "Nel dicembre 1954 l'Assemblea generale ONU adottò la risoluzione 836 (IX), invitando tutti i Paesi a celebrare una giornata universale dei bambini ma lasciando inizialmente la data alla scelta nazionale. L'attuale 20 novembre richiama due atti successivi: la Dichiarazione dei diritti del fanciullo del 20 novembre 1959 e la Convenzione sui diritti dell'infanzia del 20 novembre 1989. Raccomandazione del 1954, dichiarazione del 1959 e convenzione giuridicamente vincolante del 1989 non vanno confuse. La ricorrenza celebra sicurezza, salute, istruzione e voce dei bambini.",
+          "promoter": "L'Assemblea generale raccomandò la prima giornata nel 1954; i successivi strumenti ONU sui diritti dell'infanzia spiegano la data contemporanea.",
+          "purpose": "Difendere i diritti dei minori a sicurezza, istruzione, salute, gioco e partecipazione effettiva nelle decisioni che li riguardano.",
+          "facts": [
+            "La risoluzione 836 (IX) del 1954 lasciava ai Paesi la scelta della data.",
+            "La Dichiarazione dei diritti del fanciullo fu adottata il 20 novembre 1959.",
+            "La Convenzione ONU sui diritti dell'infanzia fu adottata il 20 novembre 1989."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-children-s-day, established by A/RES/836(IX). Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-television-day",
+      "introducedYear": 1996,
+      "firstObservedYear": 1997,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/51/205",
+        "https://www.un.org/en/observances/world-television-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 November: the first World Television Forum gives its anniversary",
+          "origin": "On 21 and 22 November 1996 the United Nations hosted the first World Television Forum, bringing together broadcasting leaders to examine television's growing social and political influence. Italy subsequently supported a draft establishing 21 November as World Television Day, adopted by the General Assembly in A/RES/51/205 on 17 December 1996. The date recalls the opening day of that forum; the first annual UN day after adoption was in 1997. The observance is about access to information and global communication, not merely celebrating television hardware or entertainment programmes.",
+          "promoter": "The United Nations hosted the inaugural forum and Italy advanced the 1996 proposal; the General Assembly formally established the day.",
+          "purpose": "Encourage public-interest broadcasting, exchange of programmes and awareness of television's responsibilities in informing citizens.",
+          "facts": [
+            "The first World Television Forum met on 21–22 November 1996.",
+            "The General Assembly proclaimed the day in A/RES/51/205 on 17 December 1996.",
+            "Italy provided an explanatory memorandum and helped advance the proposal."
+          ]
+        },
+        "it": {
+          "heading": "21 novembre: un forum mondiale dà origine alla giornata della televisione",
+          "origin": "Il 21 e 22 novembre 1996 le Nazioni Unite ospitarono il primo World Television Forum, riunendo rappresentanti delle emittenti per discutere l'influenza sociale e politica della TV. L'Italia sostenne poi un progetto per istituire il 21 novembre come Giornata mondiale della televisione, approvato dall'Assemblea generale con A/RES/51/205 il 17 dicembre 1996. La data ricorda l'apertura del forum, mentre la prima annualità dopo l'atto fu nel 1997. La ricorrenza riguarda il ruolo dell'informazione e della comunicazione globale, non soltanto gli apparecchi televisivi.",
+          "promoter": "L'ONU ospitò il primo forum e l'Italia contribuì a promuovere la proposta del 1996; l'Assemblea generale proclamò la ricorrenza.",
+          "purpose": "Favorire trasmissioni di interesse pubblico, scambio internazionale di programmi e consapevolezza delle responsabilità dei media.",
+          "facts": [
+            "Il primo World Television Forum si svolse il 21 e 22 novembre 1996.",
+            "L'ONU proclamò la giornata il 17 dicembre 1996 con A/RES/51/205.",
+            "L'Italia contribuì al progetto mediante un memorandum esplicativo."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source-backed chronology for world-television-day, established by A/RES/51/205. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
     }
   ]
 }
