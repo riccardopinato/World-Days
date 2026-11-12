@@ -4,8 +4,8 @@
   "createdOn": "2026-11-12",
   "count": 100,
   "originMainBaseline": "d84976e1f9f210a4748fa193feae169e78de625f",
-  "researchStatus": "100_ORIGINAL_IT_EN_DRAFTS_INDIVIDUAL_ORIGIN_FACT_REVIEW_PENDING",
-  "publicationPolicy": "No automatic import into offline reviewed origin index; per-ID primary act, founding year, proposer, date rationale, and editor/translation review required before promotion.",
+  "researchStatus": "100_ORIGINAL_IT_EN_DRAFTS_WITH_INCREMENTAL_ORIGIN_FACT_REVIEW",
+  "publicationPolicy": "This historic bilingual draft set is immutable in publishing status; source-checked successor articles are stored separately in origin_stories_wave*.json. Individual historical sources, years, promoters and rationale remain null in the archival drafts; refer to the audited successor record, if any. Drafts must never be blindly promoted.",
   "locales": [
     "it",
     "en"
@@ -26,7 +26,7 @@
       "formalIntroductionYearConfirmed": null,
       "firstObservanceYearConfirmed": null,
       "reasonForDateConfirmed": null,
-      "resolutionOrDecision": "40 C/Resolution 39",
+      "resolutionOrDecision": "40 C/Resolution 38",
       "sourceLinks": [
         "https://www.unesco.org/en/days/list"
       ],
@@ -37,21 +37,21 @@
         "it": {
           "heading": "Giornata mondiale della logica",
           "story": "Una domanda apparentemente semplice può cambiare il modo in cui ragioniamo: che cosa segue davvero dalle prove disponibili? La logica attraversa filosofia, matematica, informatica e intelligenza artificiale. Questa giornata invita a riconoscere il valore del ragionamento rigoroso e a distinguere argomenti validi da convinzioni soltanto ripetute.",
-          "origin": "Il calendario istituzionale delle ricorrenze indica il 14 gennaio e il riferimento 40 C/Resolution 39. Questa evidenza identifica la celebrazione, ma da sola non prova chi ne propose originariamente l'istituzione né tutta la storia della scelta della data.",
+          "origin": "Il calendario istituzionale delle ricorrenze indica il 14 gennaio e il riferimento 40 C/Resolution 38. Questa evidenza identifica la celebrazione, ma da sola non prova chi ne propose originariamente l'istituzione né tutta la storia della scelta della data.",
           "purpose": "La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.",
           "facts": [
             "Il calendario delle ricorrenze istituzionali riporta il 14 gennaio.",
-            "Il riferimento indicato per questa ricorrenza è 40 C/Resolution 39; resta da verificare l'atto originario e il suo anno."
+            "Il riferimento indicato per questa ricorrenza è 40 C/Resolution 38; resta da verificare l'atto originario e il suo anno."
           ]
         },
         "en": {
           "heading": "World Logic Day",
           "story": "A seemingly simple question can change the way we reason: what actually follows from the evidence? Logic connects philosophy, mathematics, computing and artificial intelligence. This day invites us to value rigorous arguments and distinguish a justified conclusion from a claim repeated with confidence.",
-          "origin": "The official international observances calendar lists this date as 14 January and references 40 C/Resolution 39. That record identifies an institutional observance, but it does not by itself establish a verified individual proposer or the complete history behind the date.",
+          "origin": "The official international observances calendar lists this date as 14 January and references 40 C/Resolution 38. That record identifies an institutional observance, but it does not by itself establish a verified individual proposer or the complete history behind the date.",
           "purpose": "The observance creates an opportunity to explore the subject through original sources, testimony and reliable initiatives while distinguishing the history of the issue from the establishment of the day.",
           "facts": [
             "The institutional observances calendar lists 14 January.",
-            "The cited decision reference is 40 C/Resolution 39; the original establishing instrument and its year still require individual verification."
+            "The cited decision reference is 40 C/Resolution 38; the original establishing instrument and its year still require individual verification."
           ]
         }
       }
