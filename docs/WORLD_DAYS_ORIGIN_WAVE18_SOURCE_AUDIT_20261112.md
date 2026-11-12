@@ -29,7 +29,7 @@
 | 21 | 20/11 | `world-children-s-day` | 1954 | non accertata | 3 |
 | 22 | 21/11 | `world-television-day` | 1996 | 1997 | 2 |
 | 23 | 24/11 | `world-conjoined-twins-day` | 2024 | 2024 | 3 |
-| 24 | 25/11 | `international-day-for-the-elimination-of-violence-against-women` | 2000 | 1981 | 2 |
+| 24 | 25/11 | `international-day-for-the-elimination-of-violence-against-women` | 1999 | 1981 (Latin American precedent) | 4 |
 | 25 | 26/11 | `world-sustainable-transport-day` | 2023 | 2023 | 2 |
 | 26 | 26/11 | `world-olive-tree-day` | 2019 | non accertata | 2 |
 | 27 | 27/11 | `international-day-for-the-elimination-of-child-early-and-forced-marriage` | 2026 | non accertata | 3 |
@@ -49,14 +49,14 @@
 | 41 | 12/12 | `international-universal-health-coverage-day` | 2017 | 2018 | 3 |
 | 42 | 14/12 | `international-day-against-colonialism-in-all-its-forms-and-manifestations` | 2025 | 2025 | 2 |
 | 43 | 15/12 | `world-turkic-language-family-day` | 2025 | non accertata | 3 |
-| 44 | 18/12 | `international-migrants-day` | 2000 | 2001 | 2 |
+| 44 | 18/12 | `international-migrants-day` | 2000 | 2000 | 3 |
 | 45 | 18/12 | `arabic-language-day` | 2012 | 2012 | 2 |
 | 46 | 19/12 | `international-day-of-recognition-for-women-searchers-of-missing-persons` | 2026 | non accertata | 2 |
 | 47 | 20/12 | `international-human-solidarity-day` | 2005 | 2006 | 2 |
 | 48 | 21/12 | `world-meditation-day` | 2024 | 2024 | 2 |
 | 49 | 21/12 | `world-basketball-day` | 2023 | 2023 | 2 |
 | 50 | 24/12 | `international-anti-cybercrime-day` | 2024 | 2025 | 2 |
-| 51 | 27/12 | `international-day-of-epidemic-preparedness` | 2020 | 2021 | 2 |
+| 51 | 27/12 | `international-day-of-epidemic-preparedness` | 2020 | 2020 | 3 |
 
 **Totale:** 51 ID unici, 102 narrazioni lunghe IT/EN, 122 URL di documentazione; testi integrali e link per singolo ID nel [volume bilingue](WORLD_DAYS_ORIGIN_WAVE18_51_STORIES_IT_EN_20261112.md). Gli URL sono punti per la verifica, non attestati autonomi che qualcuno abbia convalidato ogni frase.
 
@@ -69,7 +69,7 @@
 - **16 novembre — tolleranza:** Dichiarazione e istituzione UNESCO nel 1995; successivo sostegno ONU nel 1996.
 - **17 novembre — tumore cervicale:** strategia OMS lanciata nel 2020, riconoscimento ufficiale nel 2025.
 - **20 novembre — bambini:** raccomandazione ONU del 1954 inizialmente con calendario nazionale flessibile, poi dichiarazione del 1959 e Convenzione del 1989 entrambe il 20 novembre.
-- **25 novembre — violenza sulle donne:** iniziative femministe del 1981, memoria delle sorelle Mirabal, riconoscimento ONU nel 2000.
+- **25 novembre — violenza sulle donne:** iniziative femministe del 1981, memoria delle sorelle Mirabal, riconoscimento ONU il 17 dicembre 1999 (documento pubblicato il 7 febbraio 2000).
 - **27 novembre — matrimoni infantili e forzati:** risoluzione del 2026, **prima giornata dopo l'adozione ancora futura al 12 novembre 2026**.
 - **30 novembre — armi chimiche:** commemorazione OPCW originariamente al 29 aprile dal 2005, spostata nel 2015 al 30 novembre o alla sessione della Conferenza.
 - **2 dicembre — abolizione schiavitù:** la Convenzione ONU del 1949 è origine della data, **non** prova dell'anno di istituzione separata della giornata; foundingYear=null e firstObservedYear=null.
@@ -79,6 +79,13 @@
 - **15 dicembre — lingue turche:** proposta di Paesi turcofoni, UNESCO 2025, Orkhon/Vilhelm Thomsen 1893; prima celebrazione annuale da accertare.
 - **19 dicembre — donne che cercano scomparsi:** nuova proclamazione 2026; al 12 novembre la ricorrenza è futura, senza primo evento documentato.
 - **24 dicembre — anticrimine informatico:** Convenzione ONU approvata 2024, prima annualità 2025; distinguere adozione dall'entrata in vigore.
+
+## Correzioni delle cronologie documentali (12 novembre 2026)
+
+- **18 dicembre — migranti:** la proclamazione del 4 dicembre 2000 precede la *prima* giornata ONU già celebrata il **18 dicembre 2000**, come attesta una dichiarazione dell'OIL di quella stessa data; il 2001 non è l'inizio.
+- **25 novembre — violenza contro le donne:** l'Assemblea generale adottò **A/RES/54/134 il 17 dicembre 1999**; il 7 febbraio 2000 riguarda la distribuzione del documento. Il 1981 è l'iniziativa femminista precedente, non la prima risoluzione ONU.
+- **27 dicembre — preparazione alle epidemie:** il Segretario generale ONU celebrò la prima giornata già il **27 dicembre 2020**, dopo la proclamazione del 7 dicembre. Il messaggio spiega che la data ricorda la nascita di Louis Pasteur.
+- Fonti primarie dettagliate e versioni IT/EN corrette figurano nel JSON e nel booklet del lotto. Revisione editoriale umana e quattro lingue ulteriori restano sospese.
 
 ## Governance, gate e copertura
 
