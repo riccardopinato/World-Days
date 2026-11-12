@@ -89,6 +89,9 @@ def run():
    "introducedYear":year,
    "originResearchStatus":status,
    "editorialTranslationStatus":"IT_EN_RESEARCHED_OTHERS_FALLBACK_EN" if story else "NO_NEW_ORIGIN_TEXT",
+   # Factual source research is not qualified six-locale rich-editorial approval.
+   # Fail closed until an independent approval record and reviewer gate exist.
+   "runtimeRichEditorialApproved":False,
    "additionalTranslationDrafts":sorted(set(story["locale"])-{"it","en"}) if story else [],
    "primaryResearch":None,
   }
