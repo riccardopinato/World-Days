@@ -268,3 +268,10 @@ Production Android builds are accepted only from `main` and derive `versionName`
 ## Template Notion — riferimenti
 
 [Catalogo Template Notion](docs/TEMPLATE_NOTION/README.md): ricerca su modelli potenzialmente adattabili a World Days, nessuna importazione o funzionalità attivata.
+
+## Editorial origin Wave15 — 32 source-referenced original IT/EN histories (12 November 2026; PR pending)
+
+- The new append-only file `data/editorial/batches/origin_stories_wave15_20261112.json` proposes 32 individual UN/UNESCO/FAO/ITU histories, covering archived #41–#74 except two deliberate exclusions. Read all complete Italian/English narratives in [Wave15 bilingual booklet](docs/WORLD_DAYS_ORIGIN_WAVE15_32_STORIES_IT_EN_20261112.md); see [source audit and blocked IDs](docs/WORLD_DAYS_ORIGIN_WAVE15_SOURCE_AUDIT_20261112.md).
+- #55 `world-oceans-day` is already in separate open PR #99, **do not duplicate**. #72 `international-day-of-the-tropics` is held for a source correction: official founding resolution **A/RES/70/267**, not A/RES/71/279 (which concerns MSME Day).
+- Main remains at last independently checked **55 / 1,111** individually source-researched origins. A successful Wave15-only approved merge would bring this to 87 / 1,111, with **1,024 pending**; this is a projection, not actual main status. Wave14 and other open PRs remain independent.
+- New Python gate `tool/validate_editorial_origin_wave15_20261112.py` runs inside Development checks before Flutter analyze/test and Web build. Structural CI and source URLs do **not** establish qualified human fact checking. EN/IT remain research drafts; ES/FR/DE/PT and all native reviews are **pending**. No APK, Play or production deploy.
