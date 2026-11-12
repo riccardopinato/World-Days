@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE16-100-DRAFTS-75-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 21,
+  "count": 26,
   "sourcePolicy": "Individually researched EN/IT primary institutional origin histories with date/year distinctions, 3 facts and provenance per locale. All are research drafts pending qualified human factual and native-language signoff; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -745,6 +745,182 @@
         }
       },
       "sourceReviewNote": "Individually sourced UN/UNESCO original historical research for 100-draft archive #95, founding act A/RES/79/142; formal origin and earlier commemorations differentiated. Exact original proposer or specific date anniversary explicitly unknown where not demonstrated. Human factual/native review and ES/FR/DE/PT still outstanding; original IT/EN written by model."
+    },
+    {
+      "observanceId": "international-day-against-nuclear-tests",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/64/35",
+        "https://www.un.org/en/observances/end-nuclear-tests-day",
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2010-08-29/secretary-generals-message-the-international-day-against-nuclear-tests"
+      ],
+      "introducedYear": 2009,
+      "firstObservedYear": 2010,
+      "locale": {
+        "en": {
+          "heading": "29 August: the closure of Semipalatinsk becomes a warning against nuclear tests",
+          "origin": "On 2 December 2009 the UN General Assembly adopted A/RES/64/35 unanimously, establishing 29 August as the International Day against Nuclear Tests. Kazakhstan proposed the international observance, recalling the closure of the Semipalatinsk nuclear test site on 29 August 1991. Hundreds of tests at the Soviet-era site left severe health and environmental consequences. The UN held its first annual commemoration in 2010 and continues to press for the end of testing and the entry into force of the Comprehensive Nuclear-Test-Ban Treaty. The anniversary is historically documented and must not be confused with the date of the 2009 resolution itself.",
+          "promoter": "Kazakhstan proposed the 2009 designation and a broad group of States supported it; the General Assembly formally adopted the international day.",
+          "purpose": "Explain the humanitarian and environmental harm from nuclear explosions, defend monitoring and encourage a global end to nuclear weapon tests.",
+          "facts": [
+            "The Semipalatinsk test site in Kazakhstan was closed on 29 August 1991.",
+            "The UN General Assembly unanimously adopted resolution A/RES/64/35 on 2 December 2009.",
+            "The inaugural international observance took place on 29 August 2010."
+          ]
+        },
+        "it": {
+          "heading": "29 agosto: la chiusura di Semipalatinsk contro i test nucleari",
+          "origin": "Il 2 dicembre 2009 l'Assemblea generale ONU approvò all'unanimità A/RES/64/35, istituendo il 29 agosto come Giornata internazionale contro gli esperimenti nucleari. La proposta del Kazakistan ricordava la chiusura del poligono di Semipalatinsk, avvenuta il 29 agosto 1991. Centinaia di esplosioni sperimentali in quel sito dell'epoca sovietica lasciarono conseguenze sanitarie e ambientali durature. La prima commemorazione ONU si tenne nel 2010 e la giornata sostiene la fine dei test e l'entrata in vigore del Trattato sulla messa al bando totale degli esperimenti nucleari. L'anniversario non va confuso con la data di adozione della risoluzione.",
+          "promoter": "Il Kazakistan presentò la proposta nel 2009 con il sostegno di numerosi Stati; l'Assemblea generale adottò formalmente la proclamazione.",
+          "purpose": "Spiegare i danni umani e ambientali delle esplosioni nucleari, sostenere il monitoraggio e promuovere la cessazione dei test sulle armi atomiche.",
+          "facts": [
+            "Il poligono di Semipalatinsk in Kazakistan fu chiuso il 29 agosto 1991.",
+            "L'Assemblea generale ONU approvò all'unanimità A/RES/64/35 il 2 dicembre 2009.",
+            "La prima commemorazione internazionale ebbe luogo il 29 agosto 2010."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source origin research for 100-story archival #96, formal resolution A/RES/64/35; distinguished founding act, first annual date and earlier real-world event. Unsupported personal founder or specific anniversary explicitly not claimed. IT/EN model-authored historical research; no human factual or native language review; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-the-victims-of-enforced-disappearances",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/65/209",
+        "https://www.un.org/en/observances/victims-enforced-disappearance",
+        "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-protection-all-persons-enforced"
+      ],
+      "introducedYear": 2010,
+      "firstObservedYear": 2011,
+      "locale": {
+        "en": {
+          "heading": "30 August: families deserve to know what happened to the disappeared",
+          "origin": "The General Assembly adopted A/RES/65/209 on 21 December 2010, establishing 30 August as the International Day of the Victims of Enforced Disappearances from 2011. Enforced disappearance involves a person being deprived of liberty by or with the involvement of state authorities and then concealed or denied legal protection, leaving relatives without reliable information. The UN had adopted its dedicated International Convention in 2006, so the 2010 observance followed earlier international legal work. The founding sources do not verify a particular historical anniversary behind 30 August, and no individual founder is inferred.",
+          "promoter": "The General Assembly formalised the observance in 2010, building on the international treaty adopted in 2006 and decades of families' human-rights advocacy.",
+          "purpose": "Support relatives' right to truth, victims' access to justice and reparations, and prevention of secret detention and enforced disappearance.",
+          "facts": [
+            "The International Convention against Enforced Disappearance was adopted in 2006.",
+            "The UN proclaimed the annual 30 August observance with resolution A/RES/65/209 in 2010.",
+            "The founding resolution expressly provided for celebrations to begin in 2011."
+          ]
+        },
+        "it": {
+          "heading": "30 agosto: il diritto delle famiglie a conoscere la sorte degli scomparsi",
+          "origin": "Il 21 dicembre 2010 l'Assemblea generale ONU adottò A/RES/65/209, proclamando il 30 agosto Giornata internazionale delle vittime di sparizioni forzate a partire dal 2011. La sparizione forzata comporta la privazione della libertà con coinvolgimento o acquiescenza delle autorità e la successiva negazione di informazioni, lasciando i familiari senza certezza e protezione giuridica. Nel 2006 l'ONU aveva già adottato una Convenzione specifica, dunque la giornata segue un percorso giuridico precedente. Le fonti istitutive non provano un anniversario preciso per il 30 agosto e non consentono di attribuire la fondazione a una singola persona.",
+          "promoter": "L'Assemblea generale rese formale la ricorrenza nel 2010, riprendendo un trattato del 2006 e decenni di mobilitazione delle famiglie.",
+          "purpose": "Difendere il diritto alla verità, l'accesso alla giustizia e al risarcimento e la prevenzione delle detenzioni segrete e delle sparizioni forzate.",
+          "facts": [
+            "La Convenzione internazionale sulle sparizioni forzate fu adottata dall'ONU nel 2006.",
+            "La giornata del 30 agosto è stata proclamata nel 2010 con A/RES/65/209.",
+            "La risoluzione previde espressamente l'inizio delle celebrazioni annuali nel 2011."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source origin research for 100-story archival #97, formal resolution A/RES/65/209; distinguished founding act, first annual date and earlier real-world event. Unsupported personal founder or specific anniversary explicitly not claimed. IT/EN model-authored historical research; no human factual or native language review; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-people-of-african-descent",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/75/170",
+        "https://www.un.org/en/observances/international-day-people-african-descent",
+        "https://www.un.org/en/fight-racism/vulnerable-groups/people-of-african-descent"
+      ],
+      "introducedYear": 2020,
+      "firstObservedYear": 2021,
+      "locale": {
+        "en": {
+          "heading": "31 August: people of African descent and the demand for equality",
+          "origin": "The General Assembly adopted A/RES/75/170 in December 2020, designating 31 August as the International Day for People of African Descent, with the first annual observance in 2021. The proclamation was part of a broader UN framework responding to racism and the lasting legacy of enslavement, colonialism and inequality, alongside the International Decade for People of African Descent launched in 2015. The day recognizes cultural and social contributions while calling for human rights, equality and participation. The institutional record fixes 31 August but does not demonstrate a unique anniversary or an original individual proposer.",
+          "promoter": "The General Assembly formally proclaimed the day in 2020, building upon the International Decade's commitments and advocacy by people of African descent.",
+          "purpose": "Recognize the achievements of people of African descent and counter structural racism and exclusion through equality, justice and meaningful representation.",
+          "facts": [
+            "The formal designation was adopted in December 2020 through A/RES/75/170.",
+            "The first annual UN observance took place on 31 August 2021.",
+            "The UN's International Decade for People of African Descent began in 2015."
+          ]
+        },
+        "it": {
+          "heading": "31 agosto: diritti e contributi delle persone afrodiscendenti",
+          "origin": "Nel dicembre 2020 l'Assemblea generale ONU adottò A/RES/75/170, proclamando il 31 agosto Giornata internazionale delle persone afrodiscendenti, celebrata annualmente dal 2021. L'atto si inserisce negli impegni dell'ONU contro razzismo e conseguenze storiche di schiavitù, colonialismo e disuguaglianza, accanto al Decennio internazionale per le persone di discendenza africana iniziato nel 2015. La giornata valorizza contributi culturali e sociali ma invita anche a garantire diritti, uguaglianza e partecipazione. La documentazione fissa il 31 agosto senza dimostrare un anniversario unico o un fondatore individuale della proposta.",
+          "promoter": "L'Assemblea generale proclamò la ricorrenza nel 2020, nel contesto del Decennio internazionale e della mobilitazione delle comunità afrodiscendenti.",
+          "purpose": "Riconoscere i contributi delle persone afrodiscendenti e contrastare razzismo strutturale ed esclusione con uguaglianza, giustizia e rappresentanza.",
+          "facts": [
+            "La proclamazione ONU risale al dicembre 2020 con A/RES/75/170.",
+            "La prima giornata annuale si tenne il 31 agosto 2021.",
+            "Il Decennio internazionale ONU per le persone afrodiscendenti iniziò nel 2015."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source origin research for 100-story archival #98, formal resolution A/RES/75/170; distinguished founding act, first annual date and earlier real-world event. Unsupported personal founder or specific anniversary explicitly not claimed. IT/EN model-authored historical research; no human factual or native language review; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-safe-secure-and-trustworthy-artificial-intelligence",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/80/302",
+        "https://public.e-delegate.un.org/reports/ga80_resolutions.html",
+        "https://igov.un.org/ga/plenary/80/proposals",
+        "https://www.un.org/en/observances/international-day-safe-secure-and-trustworthy-artificial-intelligence"
+      ],
+      "introducedYear": 2026,
+      "firstObservedYear": 2027,
+      "locale": {
+        "en": {
+          "heading": "31 August: a future AI day approved in 2026, beginning in 2027",
+          "origin": "On 31 August 2026 the General Assembly adopted A/RES/80/302, designating 31 August as the International Day of Safe, Secure and Trustworthy Artificial Intelligence, expressly to be observed annually beginning in 2027. UN plenary records identify Tajikistan as the sponsor of draft A/80/L.106 and record a vote of 144 in favour, two against and three abstentions. The resolution emphasizes AI capacity-building, responsible access to models, training resources and computing infrastructure, and participation by developing countries. The date was proclaimed on 31 August, but the record does not prove that the anniversary of adoption motivated the date choice. As of November 2026 the first UN annual observance has not yet occurred.",
+          "promoter": "Tajikistan sponsored the original 2026 draft A/80/L.106; the General Assembly adopted the final resolution in a recorded vote.",
+          "purpose": "Promote inclusive AI skills and international cooperation on safe, secure and trustworthy systems without excluding developing countries or small enterprises.",
+          "facts": [
+            "A/RES/80/302 was adopted on 31 August 2026, with 144 votes in favour, two against and three abstentions.",
+            "The resolution explicitly says the first annual observance is to take place in 2027.",
+            "UN plenary records identify Tajikistan as the sponsor of draft A/80/L.106."
+          ]
+        },
+        "it": {
+          "heading": "31 agosto: la giornata ONU sull'IA nasce nel 2026 ma parte nel 2027",
+          "origin": "Il 31 agosto 2026 l'Assemblea generale ONU adottò A/RES/80/302, istituendo il 31 agosto come Giornata internazionale dell'intelligenza artificiale sicura e affidabile, da celebrare annualmente **a partire dal 2027**. I registri ufficiali attribuiscono al Tagikistan la proposta A/80/L.106 e riportano 144 voti favorevoli, due contrari e tre astensioni. La risoluzione mette al centro formazione, sviluppo delle competenze, accesso responsabile a modelli e capacità di calcolo e partecipazione dei Paesi in via di sviluppo. L'adozione avvenne il 31 agosto, ma ciò non dimostra da solo la ragione storica della scelta della data. Nel novembre 2026 la prima celebrazione non si è ancora svolta.",
+          "promoter": "Il Tagikistan presentò il progetto originario A/80/L.106 nel 2026; l'Assemblea generale adottò il testo definitivo con votazione registrata.",
+          "purpose": "Promuovere competenze e cooperazione internazionale per sistemi IA sicuri e affidabili, includendo Paesi in via di sviluppo e piccole imprese.",
+          "facts": [
+            "La risoluzione A/RES/80/302 fu adottata il 31 agosto 2026 con 144 favorevoli, due contrari e tre astenuti.",
+            "Il testo prevede espressamente che la prima celebrazione annuale avvenga nel 2027.",
+            "I registri dell'Assemblea generale attribuiscono al Tagikistan il progetto A/80/L.106."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source origin research for 100-story archival #99, formal resolution A/RES/80/302; distinguished founding act, first annual date and earlier real-world event. Unsupported personal founder or specific anniversary explicitly not claimed. IT/EN model-authored historical research; no human factual or native language review; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-charity",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/67/105",
+        "https://www.un.org/en/observances/charity-day",
+        "https://digitallibrary.un.org/search?ln=en&p=A%2FRES%2F67%2F105"
+      ],
+      "introducedYear": 2012,
+      "firstObservedYear": 2013,
+      "locale": {
+        "en": {
+          "heading": "5 September: charity and Mother Teresa's legacy",
+          "origin": "The General Assembly established the International Day of Charity through resolution A/RES/67/105 in December 2012, designating 5 September for annual observance from 2013. The date commemorates the death of Mother Teresa of Calcutta on 5 September 1997. Her missionary work among people living in poverty and her receipt of the 1979 Nobel Peace Prize helped make the anniversary internationally recognizable; however, the international day acknowledges many forms of charitable activity rather than the work of a single organisation. The UN presents charity, volunteering and philanthropy as ways to relieve suffering and help communities build lasting resilience.",
+          "promoter": "The UN General Assembly adopted the 2012 proclamation, recognizing Mother Teresa's legacy; the source reviewed does not identify a single original State sponsor.",
+          "purpose": "Encourage ethical volunteer and philanthropic work that alleviates poverty, helps people facing hardship and supports sustainable development.",
+          "facts": [
+            "The annual date commemorates Mother Teresa's death on 5 September 1997.",
+            "Mother Teresa received the Nobel Peace Prize in 1979.",
+            "The General Assembly proclaimed the day in 2012 through A/RES/67/105, with annual observances from 2013."
+          ]
+        },
+        "it": {
+          "heading": "5 settembre: la carità e il ricordo di Madre Teresa",
+          "origin": "Nel dicembre 2012 l'Assemblea generale ONU istituì la Giornata internazionale della carità con A/RES/67/105, fissando il 5 settembre come ricorrenza annuale dal 2013. La data ricorda la morte di Madre Teresa di Calcutta il 5 settembre 1997. Il suo lavoro a favore delle persone povere e il Premio Nobel per la pace ricevuto nel 1979 hanno dato valore simbolico all'anniversario, ma la giornata ONU riconosce la solidarietà di molte organizzazioni e singoli volontari. Carità, volontariato e filantropia vengono presentati come strumenti per alleviare sofferenze e aiutare le comunità a migliorare le proprie condizioni di vita.",
+          "promoter": "L'Assemblea generale approvò la proclamazione nel 2012 ricordando Madre Teresa; le fonti esaminate non identificano un unico Stato promotore originario.",
+          "purpose": "Incoraggiare volontariato e filantropia responsabili contro povertà e sofferenza, sostenendo iniziative utili allo sviluppo delle comunità.",
+          "facts": [
+            "Il 5 settembre ricorda la morte di Madre Teresa avvenuta nel 1997.",
+            "Madre Teresa ricevette il Premio Nobel per la pace nel 1979.",
+            "La giornata ONU fu proclamata nel 2012 con A/RES/67/105 e celebrata dal 2013."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary-source origin research for 100-story archival #100, formal resolution A/RES/67/105; distinguished founding act, first annual date and earlier real-world event. Unsupported personal founder or specific anniversary explicitly not claimed. IT/EN model-authored historical research; no human factual or native language review; ES/FR/DE/PT pending."
     }
   ]
 }
