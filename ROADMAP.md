@@ -9,7 +9,8 @@
 - [ ] Secure qualified factual/linguistic review EN/IT/ES/FR/DE/PT and publication approval before any runtime rich-origin promotion. The 56 existing legacy reviewed editorial entries remain separate.
 - [ ] Recheck current main and regenerate the origin report after each further successful merge; update this 2026-11-12 checkpoint rather than treating the snapshot as a live counter.
 - [ ] Continue with the first outstanding canonical IDs in batches of at most 100, never mistake the archived draft corpus for approved content.
-- [ ] No APK, Play, deploy, or store promotion in this phase.
+- [x] Disable the existing `Deploy Web Preview` push-to-main trigger; use manual `workflow_dispatch` only. Note that PR #102 caused the previous automatic deployment run 43277603486 before this safety change.
+- [ ] No further APK, Play, deploy, or store promotion in this phase.
 
 
 ## Prime 9 origini certificate da fonti specifiche tra 100 bozze (12 novembre 2026)
