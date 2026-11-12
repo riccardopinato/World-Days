@@ -1,5 +1,17 @@
 # World Days — Active roadmap
 
+## Prime 9 origini certificate da fonti specifiche tra 100 bozze (12 novembre 2026)
+
+- [x] Analizzare singolarmente nove ricorrenze della PR #100 tramite fonti istitutive originali ONU, UNESCO e CIPSH; redigere nuova storia d'origine IT/EN con anno, prima osservanza quando provata, scelta della data, promotore e quattro fatti.
+- [x] Correggere l'errore documentale World Logic Day: la risoluzione UNESCO è **40 C/38**, non 40 C/39.
+- [x] Creare `origin_stories_wave05_20261112.json` e riferimenti cronologici; collegare il validatore `validate_editorial_origin_wave05_20261112.py` alla CI.
+- [x] Mantenere tutti i 100 testi iniziali nell'archivio: l'eventuale storia verificata è un successore autonomo del draft; non pubblicare automaticamente i 91 non verificati.
+- [ ] Superare i gate exact-head Flutter, Web, Python e review per integrare il branch.
+- [ ] Proseguire la ricerca per le altre 91 bozze del lotto da 100 e poi con la coda residua.
+- [ ] Tradurre e revisionare ES/FR/DE/PT e ottenere review editoriale/fattuale qualificata; non dichiarare tale passaggio già svolto.
+
+**Conteggio condizionato a CI/merge:** 55/1.111 origini IT/EN source-researched, 1.056 senza revisione individuale; 100 bozze narrative archiviate, nove promosse con successore documentato. Registro: `docs/EDITORIAL_FIRST_NINE_OF_100_FACT_REVIEW_20261112.md`.
+
 ## Primo lotto da 100 racconti originali IT/EN (12 novembre 2026)
 
 - [x] Scrivere 100 testi narrativi unici, non dossier vuoti, con italiano e inglese, fonti istituzionali e numero di risoluzione riferito alla data.

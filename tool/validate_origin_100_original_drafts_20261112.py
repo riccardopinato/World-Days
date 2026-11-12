@@ -20,22 +20,36 @@ data = json.loads(DATA.read_text(encoding="utf-8"))
 catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
 book = BOOK.read_text(encoding="utf-8")
 canonical = {r["id"]: r for r in catalog["records"]}
-researched = set()
+researched = {}
 for path in FILES:
     item = json.loads(path.read_text(encoding="utf-8"))
-    researched.update(r["observanceId"] for r in item["records"])
+    for r in item["records"]:
+        assert r["observanceId"] not in researched, ("duplicate origin", r["observanceId"])
+        researched[r["observanceId"]] = r
 
 assert len(canonical) == len(catalog["records"]) >= 1111, "unexpected canonical catalog"
 assert data["schemaVersion"] == 1
 assert data["count"] == len(data["drafts"]) == 100
 assert data["batchId"] == "WORLD-DAYS-NEW-100-ORIGINAL-STORY-DRAFTS-20261112"
 assert data["createdOn"] == "2026-11-12"
-assert data["researchStatus"] == "100_ORIGINAL_IT_EN_DRAFTS_INDIVIDUAL_ORIGIN_FACT_REVIEW_PENDING"
+assert data["researchStatus"] == "100_ORIGINAL_IT_EN_DRAFTS_WITH_INCREMENTAL_ORIGIN_FACT_REVIEW"
 assert data["locales"] == ["it", "en"]
 ids = [r["observanceId"] for r in data["drafts"]]
 assert len(ids) == len(set(ids)) == 100
 assert set(ids).issubset(canonical)
-assert set(ids).isdisjoint(researched), "never duplicate existing 46 reviewed origin IDs"
+# A historical draft is preserved even after its own independently verified
+# successor is promoted to the offline origin ledger. This does not turn the
+# unverified draft itself into a source-reviewed or app-published record.
+overlap = set(ids) & set(researched)
+assert len(overlap) <= 100
+for oid in overlap:
+    successor = researched[oid]
+    assert successor["introducedYear"] is not None, ("unverified successor year", oid)
+    assert len(successor["sources"]) >= 1
+    assert {"it", "en"} <= set(successor["locale"])
+    assert all(len(successor["locale"][lang]["origin"]) >= 170
+               for lang in ("it", "en")), ("incomplete successor", oid)
+    assert successor["sourceReviewNote"], ("missing successor research note", oid)
 assert book.count("\n## ") == 100, "100 readable stories must actually exist"
 assert book.count("**English — ") == 100
 assert book.count("**Contesto istituzionale:** ") == 100
@@ -56,7 +70,7 @@ for i, r in enumerate(data["drafts"], 1):
     assert isinstance(r["resolutionOrDecision"], str) and r["resolutionOrDecision"]
     assert r["sourceEvidenceLevel"] == "OFFICIAL_CALENDAR_INDEX_AND_RESOLUTION_ID_ONLY"
     assert r["editorialState"] == "ORIGINAL_BILINGUAL_STORY_DRAFT_FACT_REVIEW_REQUIRED"
-    assert r["publishedToApp"] is False
+    assert r["publishedToApp"] is False, "archival drafts themselves are never auto-published"
     for field in ("formalIntroductionYearConfirmed", "firstObservanceYearConfirmed",
                   "originalProposerConfirmed", "reasonForDateConfirmed"):
         assert r[field] is None, (oid, "unverified historical certainty")
@@ -86,4 +100,4 @@ for i, r in enumerate(data["drafts"], 1):
                       narrative["purpose"], *narrative["facts"]]:
             assert "undefined" not in value.lower() and " null " not in value.lower(), (oid,lang,"placeholder leaked")
             assert "<script" not in value.lower()
-print("PASS: exactly 100 original bilingual narrative drafts, unique unresearched canonical IDs, primary-index metadata, no false approvals")
+print(f"PASS: 100 original bilingual archival drafts, {len(overlap)} with independently source-researched successors, {100-len(overlap)} awaiting origin verification; no false draft approvals")

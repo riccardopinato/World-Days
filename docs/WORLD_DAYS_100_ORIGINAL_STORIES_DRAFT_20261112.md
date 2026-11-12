@@ -11,11 +11,11 @@ Il catalogo offline resta invariato fino alla verifica: questo file è una conse
 
 ## 001. Giornata mondiale della logica
 
-**Data:** 14/01 · **Riferimento:** 40 C/Resolution 39 · **Stato:** BOZZA
+**Data:** 14/01 · **Riferimento:** 40 C/Resolution 38 · **Stato:** BOZZA
 
 Una domanda apparentemente semplice può cambiare il modo in cui ragioniamo: che cosa segue davvero dalle prove disponibili? La logica attraversa filosofia, matematica, informatica e intelligenza artificiale. Questa giornata invita a riconoscere il valore del ragionamento rigoroso e a distinguere argomenti validi da convinzioni soltanto ripetute.
 
-**Contesto istituzionale:** Il calendario istituzionale delle ricorrenze indica il 14 gennaio e il riferimento 40 C/Resolution 39. Questa evidenza identifica la celebrazione, ma da sola non prova chi ne propose originariamente l'istituzione né tutta la storia della scelta della data.
+**Contesto istituzionale:** Il calendario istituzionale delle ricorrenze indica il 14 gennaio e il riferimento 40 C/Resolution 38. Questa evidenza identifica la celebrazione, ma da sola non prova chi ne propose originariamente l'istituzione né tutta la storia della scelta della data.
 
 **Spiegazione:** La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.
 
