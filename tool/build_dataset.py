@@ -529,6 +529,17 @@ for market_record in [*MARKET_RECORDS, *build_expansion_records()]:
 # celebration and must link to a specifically reviewed primary document.
 # Unknown years remain absent and render as '*' in all six app locales.
 INTRODUCTION_EVIDENCE = {
+    # Wave02 — independently checked original institutional establishment dates.
+    # Historical event/first observance years are stored in the origin stories,
+    # not substituted for the formal adoption year below.
+    'world-wetlands-day': (2021, 'https://www.un.org/en/observances/world-wetlands-day/background'),
+    'international-day-of-light': (2017, 'https://www.unesco.org/en/articles/unesco-general-conference-proclaims-16-may-international-day-light'),
+    'world-bicycle-day': (2018, 'https://mandates.un.org/mandate/A/RES/72/272'),
+    'international-day-of-yoga': (2014, 'https://www.un.org/en/observances/yoga-day'),
+    'world-food-safety-day': (2018, 'https://www.un.org/en/observances/food-safety-day/background'),
+    'world-no-tobacco-day': (1987, 'https://www.who.int/campaigns/world-no-tobacco-day'),
+    'world-population-day': (1989, 'https://www.un.org/en/observances/world-population-day/background'),
+    'world-teachers-day': (1994, 'https://www.unesco.org/en/days/teachers'),
     'africa-industrialization-day': (
         1989, 'https://www.un.org/en/observances/africa-industrialization-day',
     ),
