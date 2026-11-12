@@ -1,5 +1,14 @@
 # World Days — Active roadmap
 
+## Research integration: Wave14–Wave16, 74 records (12 November 2026)
+
+- [x] Consolidate original source-bound IT/EN Wave14 **16**, Wave15 **32**, Wave16 **26** without changing canonical IDs or their primary-source documentary notes.
+- [x] Preserve each wave's original booklet, source audit, and runnable Python-specific validator.
+- [x] Update pending PR inventory from 153 in five PRs to **79 in two PRs** (#113, #114), disjoint from researched origins after merge.
+- [ ] After exact-head CI and protected merge, update source-researched count from **65 to 139 of 1,111**; pending **972**, but six-language qualified human review remains outstanding.
+- [ ] Continue the remaining 79 in a separate block of at most 100; no APK, Play Store or deployments.
+
+
 ## Existing stories: registry and publication gate (12 November 2026)
 
 - [x] Wave13 PR #109: independently researched World Water Day, A/RES/47/193 formally adopted 1992, inaugural annual 1993. Upon exact-head green merge: **65/1,111** source-linked origins, **1,046** not yet researched and **153** proposals pending in PRs #110–114.
