@@ -1,5 +1,14 @@
 # World Days
 
+## Wave20: exactly 100 canonical IDs, ongoing historical research (13 November 2026)
+
+- After Wave19 merged: **225/1,111** individual source-linked IT/EN origin research records on `main`, **886** still missing; these are distinct from the 56 legacy-reviewed rich editorial records.
+- Cohort `data/editorial/research_batches/wave20_first100_20261113.json` fixes **100 unique missing IDs** (48 global, 52 national) and records each source lead, independent origin-review status and evidence gaps. **20/100** now have original IT+EN research drafts in `data/editorial/batches/origin_stories_wave20_20261113.json`; **80/100** remain not independently researched, not silently marked complete.
+- Readable <a>booklet</a> is `docs/WORLD_DAYS_ORIGIN_WAVE20_IT_EN_20261113.md` and primary-source audit is `docs/WORLD_DAYS_ORIGIN_WAVE20_SOURCE_AUDIT_20261113.md`. Each completed history has source URLs, separate formal vs earliest-observation years, promoter caveats, explanations and 3 source-linked facts per language.
+- Research drafts are not six-locale native-reviewed or independently human-certified. The `runtimeRichEditorialApproved=false` gate remains closed; no APK, Play, Pages deploy or publication is authorized.
+- Continue **the same fixed 100-ID cohort**, filling real research records for the remaining 80 in later exact-head validated PRs; do not start a new wave of 100 after only 20 are drafted. After CI+review-protected merge, a new tally of **245/1,111** source-researched and **866** outstanding would apply at unchanged catalog size; until then, the main count remains 225.
+
+
 ## Wave19: research the last seven gaps in the first 100 original bilingual drafts (12 November 2026)
 
 This PR integrates **7 new unique canonical source-researched origin histories**: detained/missing UN staff, International Wellness Day, International Day of Greening the Planet, earthquake victims, Second World War remembrance (8–9 May), World Oceans Day (reused from original PR #99), and International Day of the Tropics.
