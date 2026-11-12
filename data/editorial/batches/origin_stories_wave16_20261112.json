@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE16-100-DRAFTS-75-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 8,
+  "count": 16,
   "sourcePolicy": "Individually researched EN/IT primary institutional origin histories with date/year distinctions, 3 facts and provenance per locale. All are research drafts pending qualified human factual and native-language signoff; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -287,6 +287,288 @@
         }
       },
       "sourceReviewNote": "Individually source-researched historical origin for 100-draft archive sequence #82; primary act A/RES/64/13; founding year and any first occurrence distinguished. Unknown original personal founder or reason for exact date explicitly unasserted when unsupported. EN/IT model-authored drafts, no qualified human factual or native language approval; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-chess-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/74/22",
+        "https://www.un.org/en/observances/world-chess-day",
+        "https://www.fide.com/history"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": 1966,
+      "locale": {
+        "en": {
+          "heading": "20 July: the founding of FIDE behind World Chess Day",
+          "origin": "On 12 December 2019 the United Nations General Assembly proclaimed 20 July World Chess Day through A/RES/74/22. The date commemorates the founding of the International Chess Federation, FIDE, in Paris on 20 July 1924. Chess federations had already celebrated International Chess Day each year since 1966 at FIDE's initiative, so UN recognition was not the first commemoration. The game itself developed across cultures over many centuries, far earlier than either organisation. The international designation highlights chess as a bridge between education, intercultural understanding and peaceful competition.",
+          "promoter": "FIDE originated the long-running annual chess celebration in 1966; the General Assembly adopted the distinct formal UN recognition in 2019.",
+          "purpose": "Promote chess as an accessible educational and cultural activity that develops reasoning, patience, inclusion and friendly competition across generations.",
+          "facts": [
+            "FIDE was established in Paris on 20 July 1924, the anniversary behind the date.",
+            "International Chess Day was already observed under FIDE's initiative from 1966.",
+            "The General Assembly declared World Chess Day in resolution A/RES/74/22 in December 2019."
+          ]
+        },
+        "it": {
+          "heading": "20 luglio: la nascita della FIDE dietro la giornata degli scacchi",
+          "origin": "Il 12 dicembre 2019 l'Assemblea generale ONU proclamò il 20 luglio Giornata mondiale degli scacchi con A/RES/74/22. La data ricorda la fondazione a Parigi, il 20 luglio 1924, della Federazione internazionale degli scacchi (FIDE). Le federazioni celebravano già la Giornata internazionale degli scacchi dal 1966 su iniziativa della FIDE, quindi il riconoscimento ONU non coincide con la prima ricorrenza. Il gioco esiste da molti secoli e ha attraversato culture diverse. La nuova proclamazione valorizza scacchi, ragionamento, educazione e competizione rispettosa.",
+          "promoter": "La FIDE promosse la celebrazione annuale già nel 1966; l'Assemblea generale ONU ne approvò il successivo riconoscimento formale nel 2019.",
+          "purpose": "Diffondere gli scacchi come attività culturale ed educativa accessibile, capace di sviluppare ragionamento, pazienza, inclusione e relazioni tra generazioni.",
+          "facts": [
+            "La FIDE fu fondata a Parigi il 20 luglio 1924, anniversario che spiega la data.",
+            "La prima iniziativa internazionale della FIDE risale al 1966.",
+            "L'ONU riconobbe il 20 luglio con la risoluzione A/RES/74/22 del dicembre 2019."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #83, resolution A/RES/74/22. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-moon-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/76/76",
+        "https://www.un.org/en/observances/moon-day",
+        "https://www.unoosa.org/oosa/en/ourwork/topics/moon-day.html"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": 2022,
+      "locale": {
+        "en": {
+          "heading": "20 July: Apollo 11's first landing becomes a shared lunar anniversary",
+          "origin": "The UN General Assembly designated 20 July International Moon Day in its 2021 resolution A/RES/76/76 on cooperation in the peaceful uses of outer space. The date remembers the first human landing on the Moon by the Apollo 11 mission on 20 July 1969; it does not mark the spacecraft's launch or the start of lunar exploration. The first annual UN observance followed in 2022. The founding resolution also asks the international community to consider the achievements of all States and the responsible, sustainable exploration and use of the Moon, rather than treating the day solely as a US national celebration.",
+          "promoter": "The General Assembly created the international day in 2021; NASA achieved the 1969 landing, but neither astronauts nor the space agency founded the UN observance.",
+          "purpose": "Explain peaceful and sustainable lunar science, international cooperation and how humanity's first landing became part of shared space history.",
+          "facts": [
+            "Apollo 11 first landed humans on the lunar surface on 20 July 1969.",
+            "The international day was proclaimed in resolution A/RES/76/76 in 2021.",
+            "The resolution expressly calls for awareness of sustainable Moon exploration and use."
+          ]
+        },
+        "it": {
+          "heading": "20 luglio: dall'allunaggio di Apollo 11 a una giornata internazionale",
+          "origin": "Nel 2021 l'Assemblea generale ONU istituì il 20 luglio come Giornata internazionale della Luna con A/RES/76/76, una risoluzione sulla cooperazione negli usi pacifici dello spazio. Il giorno ricorda il primo allunaggio umano della missione Apollo 11 il 20 luglio 1969: non coincide con il lancio della navicella né con l'inizio dell'esplorazione lunare. La prima annualità ONU seguì nel 2022. Il testo invita a considerare anche i risultati di altri Paesi e la gestione sostenibile della Luna, senza ridurre la giornata a una ricorrenza nazionale statunitense.",
+          "promoter": "L'Assemblea generale proclamò la giornata nel 2021; la NASA realizzò l'impresa del 1969, ma ciò non significa che sia la fondatrice dell'atto ONU.",
+          "purpose": "Approfondire scienza lunare pacifica e sostenibile, cooperazione internazionale e significato storico del primo sbarco umano sulla Luna.",
+          "facts": [
+            "La missione Apollo 11 compì il primo allunaggio umano il 20 luglio 1969.",
+            "Il riconoscimento ONU fu approvato nel 2021 con A/RES/76/76.",
+            "La risoluzione chiede espressamente consapevolezza sull'uso sostenibile della Luna."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #84, resolution A/RES/76/76. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-women-and-girls-of-african-descent",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/78/323",
+        "https://www.un.org/en/observances/international-day-women-and-girls-african-descent",
+        "https://digitallibrary.un.org/record/4060789"
+      ],
+      "introducedYear": 2024,
+      "firstObservedYear": 2025,
+      "locale": {
+        "en": {
+          "heading": "25 July: visibility for women and girls of African descent",
+          "origin": "On 13 August 2024 the General Assembly adopted A/RES/78/323, proclaiming 25 July the International Day of Women and Girls of African Descent. Because July 2024 had already passed when the resolution was adopted, the first annual date following the formal designation was 25 July 2025; this must be distinguished from earlier advocacy by women and girls of African descent. The observance brings attention to discrimination at the intersection of gender and race, acknowledging contributions in public life, culture, science and community leadership. The founding documents consulted do not establish a single individual proposer or the precise historical reason for choosing 25 July.",
+          "promoter": "The UN General Assembly adopted the date following a 2024 draft resolution; the original advocacy of women of African descent predates the formal act.",
+          "purpose": "Celebrate achievements of women and girls of African descent and support equality, visibility, protection from discrimination and meaningful political participation.",
+          "facts": [
+            "A/RES/78/323 was adopted on 13 August 2024 after that year's 25 July had passed.",
+            "The formal day responds to intersecting barriers associated with racism and gender discrimination.",
+            "The UN observance is distinct from the longer International Decade for People of African Descent."
+          ]
+        },
+        "it": {
+          "heading": "25 luglio: riconoscere donne e ragazze afrodiscendenti",
+          "origin": "Il 13 agosto 2024 l'Assemblea generale ONU adottò A/RES/78/323, proclamando il 25 luglio Giornata internazionale delle donne e ragazze afrodiscendenti. Poiché il luglio 2024 era già trascorso, la prima data annuale successiva all'atto è il 25 luglio 2025: questo dato non va confuso con le iniziative precedenti delle comunità interessate. La ricorrenza affronta le discriminazioni che si intrecciano tra genere e origine razziale e valorizza contributi di donne afrodiscendenti nella scienza, nella cultura, nella politica e nella società. Le fonti consultate non identificano una fondatrice individuale né la ragione esatta della data.",
+          "promoter": "L'Assemblea generale istituì la giornata con una risoluzione del 2024; l'impegno delle comunità afrodiscendenti esisteva molto prima dell'atto.",
+          "purpose": "Valorizzare i contributi delle donne e ragazze afrodiscendenti e sostenere pari opportunità, visibilità e contrasto alle discriminazioni intersezionali.",
+          "facts": [
+            "La risoluzione A/RES/78/323 fu adottata il 13 agosto 2024, dopo il 25 luglio.",
+            "La giornata riguarda anche le discriminazioni connesse contemporaneamente a genere e razza.",
+            "La proclamazione è distinta dal più ampio Decennio internazionale per le persone di discendenza africana."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #85, resolution A/RES/78/323. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-drowning-prevention-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/75/273",
+        "https://www.un.org/en/observances/drowning-prevention-day",
+        "https://www.who.int/campaigns/world-drowning-prevention-day"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": 2021,
+      "locale": {
+        "en": {
+          "heading": "25 July: drowning prevention becomes an annual global commitment",
+          "origin": "In April 2021 the UN General Assembly adopted A/RES/75/273 declaring 25 July World Drowning Prevention Day. Drowning had been a major yet preventable cause of death for decades, especially among children and in countries with limited water-safety resources. WHO's work on drowning prevention preceded the UN designation, including a global report in 2014 and practical guidance for communities. The new day highlights supervised childcare, barriers near water, swimming and rescue education, and safe boating. The founding institutional sources establish 25 July but do not prove a specific historic anniversary behind that date.",
+          "promoter": "The General Assembly formally designated the day in 2021, building on WHO's global prevention work; the precise original proposing individual is not documented here.",
+          "purpose": "Promote proven, locally appropriate measures to prevent drowning deaths, especially among children and communities exposed to unsafe water environments.",
+          "facts": [
+            "The UN General Assembly declared the annual day in April 2021 by A/RES/75/273.",
+            "WHO had published a global report on drowning prevention in 2014, before the UN day existed.",
+            "UN and WHO guidance emphasizes multi-sectoral action, including barriers, water safety and supervision."
+          ]
+        },
+        "it": {
+          "heading": "25 luglio: prevenire gli annegamenti è possibile",
+          "origin": "Nell'aprile 2021 l'Assemblea generale ONU approvò A/RES/75/273, istituendo il 25 luglio come Giornata mondiale per la prevenzione degli annegamenti. Le morti in acqua colpivano già da decenni soprattutto bambini e comunità con poche risorse di sicurezza. Il lavoro dell'OMS precede la proclamazione, anche con un rapporto mondiale del 2014 e raccomandazioni pratiche. La giornata invita a rafforzare sorveglianza dei minori, protezioni vicino all'acqua, capacità di nuoto, soccorso e navigazione sicura. Le fonti istituzionali confermano il giorno, ma non ne dimostrano uno specifico anniversario storico.",
+          "promoter": "L'Assemblea generale proclamò formalmente la giornata nel 2021, dopo anni di lavoro dell'OMS; il primo ideatore individuale non è identificato nei documenti consultati.",
+          "purpose": "Diffondere misure locali efficaci contro gli annegamenti, soprattutto per bambini e comunità prive di infrastrutture di sicurezza adeguate.",
+          "facts": [
+            "L'Assemblea generale proclamò il giorno nell'aprile 2021 con A/RES/75/273.",
+            "L'OMS aveva pubblicato un rapporto globale sulla prevenzione nel 2014.",
+            "Le misure raccomandate comprendono sorveglianza, barriere, sicurezza e formazione al soccorso."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #86, resolution A/RES/75/273. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-judicial-well-being",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/79/266",
+        "https://www.un.org/en/observances/judicial-well-being-day",
+        "https://digitallibrary.un.org/record/4078960",
+        "https://www.cmja.org/nauru-declaration-on-judicial-wellbeing-25-july-2024/"
+      ],
+      "introducedYear": 2025,
+      "firstObservedYear": 2025,
+      "locale": {
+        "en": {
+          "heading": "25 July: judicial well-being and the Nauru Declaration",
+          "origin": "The General Assembly adopted A/RES/79/266 on 4 March 2025, proclaiming the International Day for Judicial Well-being on 25 July. The date has a documented earlier origin: on 25 July 2024 a regional judicial conference organised by the UN Office on Drugs and Crime and the Nauru Judiciary adopted the Nauru Declaration on Judicial Well-being. Judges' stress and working conditions may affect independence, ethical decision-making and access to justice. The declaration argues that well-being is not a sign of personal weakness but a shared institutional responsibility. The UN observance recognizes the issue at international level after the Pacific-led initiative.",
+          "promoter": "UNODC and the Nauru Judiciary organised the 2024 conference; the General Assembly formalised international recognition in 2025, without inventing a sole individual founder.",
+          "purpose": "Promote judicial independence and integrity by addressing judges' working conditions, mental well-being, ethical culture and institutional support.",
+          "facts": [
+            "The Nauru Declaration was adopted on 25 July 2024, explaining the annual date.",
+            "The UN General Assembly declared the day on 4 March 2025 by A/RES/79/266.",
+            "The original Nauru conference was organised with UNODC and the Nauru Judiciary."
+          ]
+        },
+        "it": {
+          "heading": "25 luglio: dal documento di Nauru al benessere dei giudici",
+          "origin": "Il 4 marzo 2025 l'Assemblea generale ONU adottò A/RES/79/266, proclamando il 25 luglio Giornata internazionale per il benessere giudiziario. La data ha un precedente documentato: il 25 luglio 2024 una conferenza regionale organizzata da UNODC e magistratura di Nauru approvò la Dichiarazione di Nauru sul benessere dei giudici. Stress, condizioni di lavoro e carenza di supporto possono influire su indipendenza, integrità e qualità delle decisioni giudiziarie. La dichiarazione afferma che il benessere non è debolezza individuale ma responsabilità anche delle istituzioni. Il riconoscimento ONU segue questa iniziativa del Pacifico.",
+          "promoter": "UNODC e la magistratura di Nauru organizzarono la conferenza del 2024; l'Assemblea generale ne formalizzò il riconoscimento nel 2025.",
+          "purpose": "Favorire indipendenza e integrità dei giudici affrontando stress, condizioni professionali, cultura etica e sostegno istituzionale.",
+          "facts": [
+            "La Dichiarazione di Nauru fu adottata il 25 luglio 2024 e spiega la data.",
+            "L'Assemblea generale proclamò la giornata il 4 marzo 2025 con A/RES/79/266.",
+            "Alla conferenza originaria parteciparono UNODC e la magistratura di Nauru."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #87, resolution A/RES/79/266. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-friendship",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/65/275",
+        "https://silpy.congreso.gov.py/web/descarga/resolucion-454359?preview=",
+        "https://cabildoccr.gov.py/publicacion/-dia-internacional-de-la-amistad--1494"
+      ],
+      "introducedYear": 2011,
+      "firstObservedYear": 1958,
+      "locale": {
+        "en": {
+          "heading": "30 July: a Paraguayan initiative reaches the United Nations",
+          "origin": "The UN General Assembly designated 30 July the International Day of Friendship through A/RES/65/275 on 27 April 2011. Yet the idea has an unusually traceable grassroots origin: a 2024 declaration of Paraguay's Chamber of Deputies credits Dr Ramón Artemio Bracho, who proposed a friendship day at Puerto Pinasco in 1958 and founded the World Friendship Crusade. Paraguay's celebration of 30 July therefore predates UN recognition by decades. The day uses friendship between people, cultures and nations as a language of peace and mutual understanding, but its original local history should not be confused with the later formal UN act.",
+          "promoter": "Dr Ramón Artemio Bracho developed the earlier Paraguayan Friendship Crusade in 1958; the UN General Assembly adopted its international recognition in 2011.",
+          "purpose": "Encourage friendships across cultures, tolerance, reconciliation and everyday solidarity as practical foundations for peace.",
+          "facts": [
+            "Paraguay's Chamber of Deputies recognised Dr Ramón Artemio Bracho as the original proposer in 1958.",
+            "The United Nations proclaimed 30 July through resolution A/RES/65/275 in 2011.",
+            "The Friendship Crusade's Paraguayan celebrations existed decades before the UN resolution."
+          ]
+        },
+        "it": {
+          "heading": "30 luglio: un'idea paraguayana conquista l'ONU",
+          "origin": "Il 27 aprile 2011 l'Assemblea generale ONU designò il 30 luglio come Giornata internazionale dell'amicizia con A/RES/65/275. Ma l'origine della proposta è molto precedente: una dichiarazione della Camera dei deputati del Paraguay del 2024 attribuisce l'idea al dottor Ramón Artemio Bracho, che la propose a Puerto Pinasco nel 1958 e fondò la Crociata mondiale dell'amicizia. La celebrazione paraguayana del 30 luglio precede quindi di decenni il riconoscimento ONU. La giornata propone l'amicizia tra persone, culture e nazioni come strumento di pace, distinguendo l'iniziativa locale dalla successiva risoluzione internazionale.",
+          "promoter": "Il dottor Ramón Artemio Bracho promosse nel 1958 l'iniziativa paraguayana; l'Assemblea generale ONU ne approvò il riconoscimento internazionale nel 2011.",
+          "purpose": "Incoraggiare amicizie tra culture, tolleranza, riconciliazione e solidarietà quotidiana come fondamenta concrete della pace.",
+          "facts": [
+            "La Camera dei deputati del Paraguay riconobbe Bracho come ideatore originario nel 1958.",
+            "L'ONU proclamò la ricorrenza con A/RES/65/275 nel 2011.",
+            "Le celebrazioni della Crociata mondiale dell'amicizia esistevano decenni prima della risoluzione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #88, resolution A/RES/65/275. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-day-against-trafficking-in-persons",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/68/192",
+        "https://www.un.org/en/observances/end-human-trafficking-day",
+        "https://www.unodc.org/unodc/en/human-trafficking/world-day-against-trafficking-in-persons.html"
+      ],
+      "introducedYear": 2013,
+      "firstObservedYear": 2014,
+      "locale": {
+        "en": {
+          "heading": "30 July: the UN makes trafficking victims visible",
+          "origin": "The General Assembly adopted A/RES/68/192 on 18 December 2013, establishing 30 July as the World Day against Trafficking in Persons, with its first annual UN observance in 2014. The designation is connected to the UN Global Plan of Action to Combat Trafficking in Persons and the United Nations system's work against exploitation in labour, sexual abuse and other forms of coercion. Victims may be trafficked within their own countries, so trafficking must not be confused only with cross-border movement. The resolution fixes 30 July without proving a specific anniversary or original individual founder in the primary documents reviewed.",
+          "promoter": "The General Assembly established the international day as part of implementing the UN Global Plan of Action; UNODC coordinates awareness activities but is not evidenced as a unique founder.",
+          "purpose": "Protect victims, improve identification and assistance, challenge exploitation and strengthen international cooperation against trafficking networks.",
+          "facts": [
+            "The General Assembly established the day through A/RES/68/192 in December 2013.",
+            "The first annual UN World Day against Trafficking in Persons followed in 2014.",
+            "Trafficking can occur within a country and is not limited to crossing international borders."
+          ]
+        },
+        "it": {
+          "heading": "30 luglio: dare visibilità alle vittime della tratta",
+          "origin": "Il 18 dicembre 2013 l'Assemblea generale ONU approvò A/RES/68/192, istituendo il 30 luglio come Giornata mondiale contro la tratta di esseri umani, con prima celebrazione annuale nel 2014. La decisione si collega al Piano d'azione mondiale dell'ONU e agli interventi contro sfruttamento lavorativo, sessuale e altre forme di coercizione. Una persona può essere vittima di tratta anche all'interno del proprio Paese: non va quindi confusa automaticamente con l'attraversamento delle frontiere. L'atto fissa il 30 luglio senza dimostrare un anniversario storico specifico o un fondatore personale.",
+          "promoter": "L'Assemblea generale istituì la giornata nel quadro del Piano d'azione mondiale; UNODC cura le campagne ma non è identificato come fondatore esclusivo.",
+          "purpose": "Proteggere le vittime, rafforzare identificazione e assistenza, contrastare lo sfruttamento e migliorare la cooperazione internazionale.",
+          "facts": [
+            "L'ONU approvò la giornata nel dicembre 2013 con A/RES/68/192.",
+            "La prima celebrazione mondiale dell'ONU si tenne nel 2014.",
+            "La tratta può avvenire anche senza attraversare una frontiera nazionale."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #89, resolution A/RES/68/192. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-steelpan-day",
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/316",
+        "https://www.un.org/en/observances/steelpan-day",
+        "https://digitallibrary.un.org/record/4017441",
+        "https://digitallibrary.un.org/record/4014636"
+      ],
+      "introducedYear": 2023,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "11 August: Trinidad and Tobago's steelpan becomes a world day",
+          "origin": "The steelpan, a tuned percussion instrument made from metal, emerged in Trinidad and Tobago through Carnival and local musical invention. In July 2023 the UN General Assembly adopted A/RES/77/316 to designate 11 August World Steelpan Day. The original draft A/77/L.80 listed Trinidad and Tobago among a broad group of Caribbean and other sponsoring states, rather than one individual inventor of the international day. The instrument is now heard in orchestras and classrooms worldwide, while its cultural roots remain central to the celebration. The founding record sets the date, but its precise historical anniversary is not established in the examined act.",
+          "promoter": "Trinidad and Tobago and other named state sponsors advanced draft A/77/L.80; the General Assembly adopted the international recognition in 2023.",
+          "purpose": "Celebrate steelpan music's Caribbean roots, cultural innovation, youth education, creative livelihoods and cross-cultural exchange.",
+          "facts": [
+            "The steelpan originated in Trinidad and Tobago and developed through Carnival music.",
+            "A/RES/77/316 was adopted in July 2023, ahead of the 11 August annual date.",
+            "The original draft A/77/L.80 lists many sponsors across several world regions."
+          ]
+        },
+        "it": {
+          "heading": "11 agosto: lo steelpan di Trinidad e Tobago diventa mondiale",
+          "origin": "Lo steelpan, strumento a percussione intonato ricavato dal metallo, si sviluppò a Trinidad e Tobago attraverso il carnevale e la creatività delle comunità locali. Nel luglio 2023 l'Assemblea generale ONU approvò A/RES/77/316, istituendo l'11 agosto Giornata mondiale dello steelpan. Il progetto A/77/L.80 indicava Trinidad e Tobago fra molti Stati promotori dei Caraibi e di altre regioni, senza individuare un unico inventore della ricorrenza. Oggi lo strumento risuona in orchestre e scuole di diversi Paesi, conservando radici culturali precise. L'atto non chiarisce un anniversario storico specifico dietro l'11 agosto.",
+          "promoter": "Trinidad e Tobago e altri Stati sostennero il progetto A/77/L.80; l'Assemblea generale approvò il riconoscimento internazionale nel 2023.",
+          "purpose": "Valorizzare le radici caraibiche dello steelpan, innovazione musicale, educazione dei giovani, lavoro creativo e scambio tra culture.",
+          "facts": [
+            "Lo steelpan nacque a Trinidad e Tobago nel contesto della cultura musicale del carnevale.",
+            "La risoluzione A/RES/77/316 fu adottata nel luglio 2023, prima dell'11 agosto.",
+            "Il progetto A/77/L.80 conteneva numerosi sponsor di regioni diverse."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual origin research linked to original 100-draft archive #90, resolution A/RES/77/316. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending."
     }
   ]
 }
