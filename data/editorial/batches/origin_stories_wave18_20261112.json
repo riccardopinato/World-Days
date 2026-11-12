@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE18-BULK-OCT-DEC-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 22,
+  "count": 34,
   "sourcePolicy": "Individual institution-linked historical narratives and resolutions with explicit documented/unknown date rationales. Original English and Italian research drafts pending human fact/native review; ES/FR/DE/PT pending.",
   "records": [
     {
@@ -761,6 +761,419 @@
         }
       },
       "sourceReviewNote": "Individual source-backed chronology for world-television-day, established by A/RES/51/205. Formal adoption versus prior campaign/anniversary explicitly separated. Original EN/IT drafts pending qualified human factual and native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-conjoined-twins-day",
+      "introducedYear": 2024,
+      "firstObservedYear": 2024,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/78/313",
+        "https://www.un.org/en/observances/conjoined-twins-day",
+        "https://digitallibrary.un.org/record/4049928?v=pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 November: families of conjoined twins receive global recognition",
+          "origin": "The UN General Assembly proclaimed 24 November World Conjoined Twins Day through A/RES/78/313 on 1 July 2024, explicitly setting observance from 2024. The original draft A/78/L.72 was introduced by Bahrain, Saudi Arabia and ten other countries from several regions. The condition arises during early embryonic development and may involve complex medical, family and accessibility needs. The new day emphasises respectful language, social inclusion and appropriate health support rather than treating affected children as curiosities. The original resolution does not explain a specific historic anniversary behind 24 November.",
+          "promoter": "Bahrain, Saudi Arabia and ten other sponsor States presented the 2024 draft; the General Assembly formally proclaimed the observance.",
+          "purpose": "Encourage awareness, family support, non-discrimination and access to appropriate, person-centred care for people born as conjoined twins.",
+          "facts": [
+            "The resolution A/RES/78/313 was adopted on 1 July 2024 without a vote.",
+            "The original draft A/78/L.72 named twelve sponsoring States.",
+            "The founding resolution says the annual UN observance begins in 2024."
+          ]
+        },
+        "it": {
+          "heading": "24 novembre: riconoscimento globale per i gemelli congiunti e le loro famiglie",
+          "origin": "Il 1º luglio 2024 l'Assemblea generale ONU adottò A/RES/78/313, proclamando il 24 novembre Giornata mondiale dei gemelli congiunti a partire dallo stesso anno. Il progetto A/78/L.72 fu presentato da Bahrein, Arabia Saudita e altri dieci Paesi. La condizione si forma durante lo sviluppo embrionale e può comportare bisogni medici e familiari complessi. La giornata chiede sostegno sanitario, inclusione e rispetto, evitando di presentare i bambini come curiosità. La risoluzione non dimostra un anniversario storico specifico per il 24 novembre.",
+          "promoter": "Bahrein, Arabia Saudita e altri dieci Stati sostennero il progetto del 2024, poi approvato formalmente dall'Assemblea generale ONU.",
+          "purpose": "Promuovere conoscenza, sostegno alle famiglie, non discriminazione e assistenza adeguata e rispettosa delle persone congiunte.",
+          "facts": [
+            "L'Assemblea generale approvò A/RES/78/313 il 1º luglio 2024 senza voto contrario.",
+            "Il progetto originario A/78/L.72 elencava dodici Paesi proponenti.",
+            "L'atto prevede esplicitamente la prima annualità ONU già nel 2024."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for world-conjoined-twins-day; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-elimination-of-violence-against-women",
+      "introducedYear": 2000,
+      "firstObservedYear": 1981,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/54/134",
+        "https://www.un.org/en/observances/ending-violence-against-women-day/background"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 November: the Mirabal sisters and a movement that predates the UN day",
+          "origin": "Women's rights activists have commemorated 25 November since 1981, remembering three Mirabal sisters, political opponents of the Dominican dictatorship who were murdered in 1960. The UN adopted the Declaration on the Elimination of Violence against Women in 1993 and, on 7 February 2000, formally designated 25 November through A/RES/54/134. This history shows that a date shaped by regional feminist activism later gained global institutional recognition. The day addresses violence against women and girls in both public and private life; the United Nations did not originate the 1981 movement.",
+          "promoter": "Women's rights activists in Latin America initiated the annual 25 November campaign in 1981; the General Assembly formally adopted the observance in 2000.",
+          "purpose": "Promote prevention, survivor protection, justice and effective action against gender-based violence and discrimination.",
+          "facts": [
+            "The Mirabal sisters were murdered in the Dominican Republic in 1960.",
+            "Women's rights activists began marking 25 November in 1981.",
+            "The General Assembly adopted A/RES/54/134 on 7 February 2000."
+          ]
+        },
+        "it": {
+          "heading": "25 novembre: le sorelle Mirabal e una memoria precedente all'ONU",
+          "origin": "Le attiviste per i diritti delle donne celebrano il 25 novembre dal 1981, in ricordo delle tre sorelle Mirabal, oppositrici della dittatura dominicana uccise nel 1960. L'ONU adottò una dichiarazione sull'eliminazione della violenza contro le donne nel 1993 e il 7 febbraio 2000 istituì formalmente la giornata con A/RES/54/134. La storia mostra come un'iniziativa femminista nata in America Latina abbia ottenuto in seguito riconoscimento mondiale. La ricorrenza riguarda violenze nella vita pubblica e privata e non fu inventata dall'ONU nel 2000.",
+          "promoter": "Le associazioni femministe latinoamericane avviarono la commemorazione nel 1981; l'Assemblea generale ONU la riconobbe formalmente nel 2000.",
+          "purpose": "Sostenere prevenzione, protezione delle vittime, giustizia e interventi concreti contro violenza e discriminazione di genere.",
+          "facts": [
+            "Le sorelle Mirabal furono assassinate nella Repubblica Dominicana nel 1960.",
+            "Le iniziative femministe dedicate al 25 novembre iniziarono nel 1981.",
+            "L'ONU proclamò la giornata con A/RES/54/134 il 7 febbraio 2000."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-for-the-elimination-of-violence-against-women; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-sustainable-transport-day",
+      "introducedYear": 2023,
+      "firstObservedYear": 2023,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/77/286",
+        "https://www.un.org/en/observances/sustainable-transport-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 November: transport is about access, not only vehicles",
+          "origin": "The UN General Assembly adopted A/RES/77/286 in 2023, proclaiming 26 November World Sustainable Transport Day. The resolution highlights safe, affordable and accessible ways for people and goods to move, from buses and railways to ports, roads and walking routes. Sustainable transport depends on planning and inclusion as well as cleaner vehicles: it can reduce pollution while opening access to schools, jobs and services. The 2023 designation follows decades of UN transport and development policy rather than creating mobility cooperation for the first time. The original act does not establish a specific anniversary explaining 26 November.",
+          "promoter": "The General Assembly adopted the 2023 observance; UN agencies and transport organisations support implementation but are not proven sole original proponents.",
+          "purpose": "Encourage safer, affordable and low-emission mobility, accessible public transit and infrastructure that serves communities equitably.",
+          "facts": [
+            "The founding resolution is A/RES/77/286, adopted in 2023.",
+            "The UN text covers roads, rail, waterways, ports and multimodal connections.",
+            "Sustainable transport is linked to lower emissions and access to essential services."
+          ]
+        },
+        "it": {
+          "heading": "26 novembre: la mobilità sostenibile riguarda accesso e diritti",
+          "origin": "Nel 2023 l'Assemblea generale ONU adottò A/RES/77/286, proclamando il 26 novembre Giornata mondiale del trasporto sostenibile. La risoluzione richiama collegamenti sicuri, economici e accessibili per persone e merci: autobus, treni, strade, porti e percorsi pedonali. La sostenibilità dipende anche dalla pianificazione e dall'inclusione, non soltanto da veicoli meno inquinanti; collegamenti affidabili aprono l'accesso a scuola, lavoro e servizi. La proclamazione segue decenni di politiche internazionali sulla mobilità, senza un anniversario specifico dimostrato per la data.",
+          "promoter": "L'Assemblea generale istituì il giorno nel 2023; le organizzazioni del trasporto partecipano alle attività senza essere documentate come autrici uniche.",
+          "purpose": "Incoraggiare mobilità sicura, accessibile e meno inquinante, trasporto pubblico inclusivo e infrastrutture al servizio delle comunità.",
+          "facts": [
+            "La risoluzione istitutiva è A/RES/77/286 del 2023.",
+            "L'ONU richiama strade, ferrovie, porti e collegamenti multimodali.",
+            "Il trasporto sostenibile facilita accesso ai servizi e riduzione delle emissioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for world-sustainable-transport-day; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-olive-tree-day",
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.unesco.org/en/days/world-olive-tree",
+        "https://www.unesco.org/en/legal-affairs/gc-resolutions"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 November: the olive tree as a symbol of peace and resilience",
+          "origin": "At the fortieth General Conference in 2019 UNESCO proclaimed 26 November World Olive Tree Day. Olive trees have shaped landscapes, agricultural economies and cultural traditions around the Mediterranean for thousands of years, and the olive branch has become a widely recognised symbol of peace. The new international day invites countries to consider biodiversity, heritage and sustainable management of ancient trees and cultivated groves. It is an act of UNESCO's Member States rather than the creation of olive farming itself. The official UNESCO page does not establish a unique original individual founder or a historical anniversary explaining 26 November.",
+          "promoter": "UNESCO's Member States at the 2019 General Conference formally designated the day, recognising traditions maintained over generations by agricultural communities.",
+          "purpose": "Protect olive-growing heritage, resilient landscapes and biodiversity while promoting sustainable agricultural practices and peace symbolism.",
+          "facts": [
+            "UNESCO proclaimed the day at its fortieth General Conference in 2019.",
+            "The olive branch has long been used as a symbol of peace and harmony.",
+            "UNESCO encourages lectures, cultural activities and education on olive-tree heritage."
+          ]
+        },
+        "it": {
+          "heading": "26 novembre: l'ulivo come simbolo di pace e resilienza",
+          "origin": "Nella quarantesima Conferenza generale del 2019 l'UNESCO proclamò il 26 novembre Giornata mondiale dell'ulivo. Questi alberi modellano da millenni paesaggi, agricoltura e tradizioni del Mediterraneo, mentre il ramo d'ulivo è diventato un simbolo diffuso di pace. La ricorrenza invita a riflettere su biodiversità, patrimonio culturale e gestione sostenibile degli uliveti antichi e contemporanei. La proclamazione è un atto degli Stati membri UNESCO, non l'origine della coltivazione. La pagina ufficiale non dimostra un fondatore personale unico né un anniversario preciso per la data.",
+          "promoter": "Gli Stati membri UNESCO approvarono il riconoscimento nel 2019, valorizzando tradizioni mantenute per generazioni dalle comunità agricole.",
+          "purpose": "Tutelare patrimonio degli uliveti, biodiversità e paesaggi resilienti, promuovendo agricoltura sostenibile e il significato culturale della pace.",
+          "facts": [
+            "L'UNESCO proclamò la ricorrenza nella Conferenza generale del 2019.",
+            "Il ramo d'ulivo è da secoli simbolo di pace e armonia.",
+            "L'UNESCO incoraggia incontri, mostre e attività culturali sull'ulivo."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for world-olive-tree-day; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-elimination-of-child-early-and-forced-marriage",
+      "introducedYear": 2026,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/80/309",
+        "https://www.un.org/en/observances/international-day-elimination-child-early-and-forced-marriage",
+        "https://public.e-delegate.un.org/reports/ga80_resolutions.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 November: a new UN commitment to end child and forced marriage",
+          "origin": "On 4 September 2026 the UN General Assembly adopted A/RES/80/309, declaring 27 November the International Day for the Elimination of Child, Early and Forced Marriage. The date falls later in 2026; as of 12 November its first annual UN observance has not yet occurred, so no completed 2026 commemoration can be claimed. The issue predates the new resolution by decades of work on children's rights, consent and women's equality. The day draws attention to the social and economic pressures that can deprive young people of education, safety and the ability to choose freely. The source does not explain an exact historical anniversary for 27 November.",
+          "promoter": "The General Assembly adopted the 2026 resolution, following long-standing advocacy by child-rights and women's-rights organisations; a single originating individual is not established.",
+          "purpose": "Prevent child and coerced marriages through rights-based education, protective laws, social services and support for young people and families.",
+          "facts": [
+            "The General Assembly adopted A/RES/80/309 on 4 September 2026.",
+            "The first scheduled 27 November after adoption is still in the future as of 12 November 2026.",
+            "The resolution recognises child, early and forced marriage as a human-rights issue."
+          ]
+        },
+        "it": {
+          "heading": "27 novembre: un nuovo impegno ONU contro i matrimoni precoci e forzati",
+          "origin": "Il 4 settembre 2026 l'Assemblea generale ONU adottò A/RES/80/309, istituendo il 27 novembre Giornata internazionale contro i matrimoni infantili, precoci e forzati. Al 12 novembre 2026 la prima data annuale successiva all'atto non si è ancora svolta e non va presentata come celebrazione compiuta. Il problema precede di molto la risoluzione ed è legato a diritti dell'infanzia, consenso, istruzione e uguaglianza. La giornata richiama le pressioni sociali ed economiche che possono impedire ai giovani di scegliere liberamente. La fonte non chiarisce un anniversario storico preciso per il 27 novembre.",
+          "promoter": "L'Assemblea generale approvò l'atto nel 2026 dopo decenni di mobilitazione per diritti di minori e donne, senza un ideatore personale unico provato.",
+          "purpose": "Contrastare matrimoni di minori e matrimoni imposti con istruzione, leggi protettive, servizi sociali e sostegno a ragazze, ragazzi e famiglie.",
+          "facts": [
+            "La risoluzione A/RES/80/309 fu adottata il 4 settembre 2026.",
+            "Al 12 novembre 2026 la prima annualità ufficiale non è ancora avvenuta.",
+            "La ricorrenza riguarda diritti umani, consenso e prevenzione delle nozze imposte."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-for-the-elimination-of-child-early-and-forced-marriage; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-engagement-in-science-for-sustainable-development",
+      "introducedYear": 2025,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.unesco.org/en/days/engagement-science-sustainable-development",
+        "https://www.unesco.org/en/general-conference/43"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 November: UNESCO brings the public into sustainable science",
+          "origin": "UNESCO's General Conference proclaimed 27 November the International Day of Engagement in Science for Sustainable Development in 2025. It is connected with the International Decade of Sciences for Sustainable Development, covering 2024–2033, and underlines that scientific knowledge cannot remain confined to specialised laboratories. Public participation, citizen science and dialogue between researchers and policymakers help communities shape practical solutions. The UNESCO page confirms the new date and origin but does not demonstrate a single original founder or a specific historical anniversary for 27 November. The first fully documented official annual event remains to be independently confirmed.",
+          "promoter": "UNESCO Member States proclaimed the date in 2025 as part of the wider Decade of Sciences programme, rather than attributing science engagement to a single person.",
+          "purpose": "Encourage open science, citizen participation, scientific education and responsible cooperation between researchers, schools and communities.",
+          "facts": [
+            "The UNESCO General Conference proclaimed the day in 2025.",
+            "The International Decade of Sciences for Sustainable Development covers 2024–2033.",
+            "UNESCO explicitly links the observance to citizen science and public engagement."
+          ]
+        },
+        "it": {
+          "heading": "27 novembre: la scienza sostenibile aperta alla partecipazione di tutti",
+          "origin": "La Conferenza generale UNESCO proclamò nel 2025 il 27 novembre Giornata internazionale della partecipazione alla scienza per lo sviluppo sostenibile. La ricorrenza si collega al Decennio internazionale delle scienze per lo sviluppo sostenibile 2024–2033 e ricorda che le conoscenze non devono restare soltanto nei laboratori. Scienza dei cittadini e dialogo fra ricercatori, scuole e comunità possono migliorare le decisioni e le soluzioni locali. La pagina UNESCO conferma la nuova data senza indicare con certezza un fondatore individuale o un anniversario storico del 27 novembre. La prima celebrazione ufficiale non è accertata.",
+          "promoter": "Gli Stati membri UNESCO proclamarono la giornata nel 2025 nell'ambito del Decennio delle scienze, senza attribuire la partecipazione scientifica a una persona sola.",
+          "purpose": "Incoraggiare scienza aperta, coinvolgimento dei cittadini, istruzione scientifica e collaborazione responsabile tra ricercatori e comunità.",
+          "facts": [
+            "La Conferenza generale UNESCO approvò la ricorrenza nel 2025.",
+            "Il Decennio internazionale delle scienze per lo sviluppo sostenibile copre il 2024–2033.",
+            "L'UNESCO promuove espressamente progetti di scienza partecipativa."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-of-engagement-in-science-for-sustainable-development; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-solidarity-with-the-palestinian-people",
+      "introducedYear": 1977,
+      "firstObservedYear": 1978,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/32/40B",
+        "https://www.un.org/en/observances/international-day-of-solidarity-with-the-palestinian-people",
+        "https://www.un.org/unispal/international-day-of-solidarity-with-the-palestinian-people/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 November: the 1947 partition resolution behind a solidarity day",
+          "origin": "In December 1977 the UN General Assembly called for an annual International Day of Solidarity with the Palestinian People through resolution 32/40 B. The 29 November date marks the adoption, on that day in 1947, of Assembly resolution 181 (II), which envisaged partition of Palestine into an Arab and a Jewish state with a special international regime for Jerusalem. The observance provides a forum for discussion of Palestinian rights and the United Nations' responsibilities. A historic UN decision and the later commemorative act are separate; the date does not imply that the 1947 proposal was implemented as written.",
+          "promoter": "The General Assembly created the annual commemoration in 1977; the Committee on the Exercise of the Inalienable Rights of the Palestinian People coordinates related activities.",
+          "purpose": "Keep attention on the rights and aspirations of Palestinians through peaceful, fact-based dialogue and UN diplomatic processes.",
+          "facts": [
+            "The General Assembly adopted partition resolution 181 (II) on 29 November 1947.",
+            "The solidarity day was established through resolution 32/40 B in December 1977.",
+            "UN commemoration can include formal meetings, exhibitions and cultural events."
+          ]
+        },
+        "it": {
+          "heading": "29 novembre: la risoluzione del 1947 dietro una giornata di solidarietà",
+          "origin": "Nel dicembre 1977 l'Assemblea generale ONU istituì la Giornata internazionale di solidarietà con il popolo palestinese tramite la risoluzione 32/40 B. La data ricorda il 29 novembre 1947, quando l'Assemblea adottò la risoluzione 181 (II) sulla proposta di divisione della Palestina in uno Stato arabo e uno ebraico, con un regime internazionale speciale per Gerusalemme. La ricorrenza richiama diritti e responsabilità diplomatiche delle Nazioni Unite. L'atto storico del 1947 e la giornata creata nel 1977 sono distinti; la data non implica che la proposta del 1947 sia stata attuata integralmente.",
+          "promoter": "L'Assemblea generale istituì la ricorrenza nel 1977; il Comitato ONU per i diritti inalienabili del popolo palestinese coordina diverse attività.",
+          "purpose": "Mantenere l'attenzione sui diritti dei palestinesi attraverso dialogo pacifico, informazioni storiche accurate e strumenti diplomatici ONU.",
+          "facts": [
+            "L'Assemblea generale adottò la risoluzione 181 (II) il 29 novembre 1947.",
+            "La giornata fu istituita con la risoluzione 32/40 B nel dicembre 1977.",
+            "La commemorazione ONU comprende riunioni, mostre e iniziative culturali."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-of-solidarity-with-the-palestinian-people; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "day-of-remembrance-for-all-victims-of-chemical-warfare",
+      "introducedYear": 2005,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.opcw.org/media-centre/news/2005/11/day-remembrance-all-victims-chemical-warfare-commemoration-day",
+        "https://www.un.org/en/observances/chemical-warfare-victims-day",
+        "https://www.opcw.org/remembrance"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 November: chemical-weapons remembrance moves from April",
+          "origin": "The Organisation for the Prohibition of Chemical Weapons established a memorial day for chemical-warfare victims in 2005, originally on 29 April, the anniversary of the 1997 entry into force of the Chemical Weapons Convention. At its twentieth session in 2015, the OPCW Conference of States Parties decided through C-20/DEC.10 to observe it on 30 November or, where appropriate, the first day of the regular Conference session. The present date therefore reflects a subsequent scheduling decision, not the original anniversary. The day honours victims while reaffirming the commitment to eliminating chemical weapons.",
+          "promoter": "The OPCW Conference of States Parties established the observance in 2005 and amended the annual date in 2015; the UN lists the resulting commemoration.",
+          "purpose": "Honour people harmed by chemical warfare and promote verification, implementation and universal adherence to the Chemical Weapons Convention.",
+          "facts": [
+            "The OPCW first established the remembrance day in 2005 for 29 April.",
+            "29 April recalls the Chemical Weapons Convention entering into force in 1997.",
+            "The 2015 OPCW decision C-20/DEC.10 moved observance to 30 November or the opening of the Conference."
+          ]
+        },
+        "it": {
+          "heading": "30 novembre: la memoria delle armi chimiche cambia data",
+          "origin": "L'Organizzazione per la proibizione delle armi chimiche istituì nel 2005 una giornata dedicata alle vittime della guerra chimica, inizialmente il 29 aprile, anniversario dell'entrata in vigore della Convenzione sulle armi chimiche nel 1997. Durante la ventesima sessione del 2015, la Conferenza degli Stati Parte approvò la decisione C-20/DEC.10 e spostò la commemorazione al 30 novembre oppure, quando opportuno, all'apertura della sessione ordinaria. La data attuale deriva quindi da una modifica organizzativa e non dall'anniversario originario. La giornata onora le vittime e l'obiettivo del disarmo.",
+          "promoter": "La Conferenza degli Stati Parte dell'OPCW istituì la commemorazione nel 2005 e ne modificò la data nel 2015; l'ONU riporta la ricorrenza.",
+          "purpose": "Ricordare le persone danneggiate dalle armi chimiche e sostenere verifica, applicazione e adesione universale alla Convenzione.",
+          "facts": [
+            "L'OPCW istituì inizialmente la giornata nel 2005 per il 29 aprile.",
+            "Il 29 aprile ricorda l'entrata in vigore della Convenzione nel 1997.",
+            "La decisione OPCW C-20/DEC.10 del 2015 spostò la data al 30 novembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for day-of-remembrance-for-all-victims-of-chemical-warfare; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-aids-day",
+      "introducedYear": 1988,
+      "firstObservedYear": 1988,
+      "sources": [
+        "https://www.un.org/en/observances/world-aids-day",
+        "https://www.unaids.org/en/World_AIDS_Day",
+        "https://www.who.int/campaigns/world-aids-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 December: the first global health day devoted to AIDS",
+          "origin": "World AIDS Day was first marked on 1 December 1988 as an international public-health campaign led through the World Health Organization, before the Joint United Nations Programme on HIV/AIDS was created. The date became a focus for solidarity with people living with HIV, remembrance of those lost and mobilising access to prevention and treatment. Scientific advances have transformed HIV care, but stigma and unequal access remain obstacles. The first campaign and later UNAIDS coordination are different historical stages. The founding institutional sources reviewed do not identify a specific anniversary behind the choice of 1 December.",
+          "promoter": "WHO's global AIDS programme launched the 1988 awareness initiative; UNAIDS became a later coordinating organisation, not the founder of the first day.",
+          "purpose": "Promote accurate HIV information, testing and treatment, fight stigma and stand with people affected by HIV and AIDS.",
+          "facts": [
+            "The first World AIDS Day was observed on 1 December 1988.",
+            "UNAIDS was established years after the first international awareness campaign.",
+            "The campaign brings together prevention, treatment, solidarity and remembrance."
+          ]
+        },
+        "it": {
+          "heading": "1 dicembre: la prima giornata sanitaria mondiale dedicata all'AIDS",
+          "origin": "La Giornata mondiale contro l'AIDS fu celebrata per la prima volta il 1º dicembre 1988 nell'ambito di una campagna sanitaria internazionale guidata dall'OMS, prima della nascita del programma comune UNAIDS. La ricorrenza unisce solidarietà con le persone che vivono con HIV, memoria delle vittime e mobilitazione per prevenzione e cure. Le conquiste scientifiche hanno trasformato la gestione dell'infezione, ma stigma e accesso diseguale restano problemi. Prima campagna e successivo coordinamento UNAIDS sono tappe storiche differenti. Non è dimostrato un anniversario specifico che spieghi il 1º dicembre.",
+          "promoter": "Il programma globale dell'OMS avviò la campagna nel 1988; UNAIDS assunse in seguito un ruolo di coordinamento e non fondò la prima ricorrenza.",
+          "purpose": "Diffondere informazioni affidabili su HIV, test e trattamenti, contrastare lo stigma e sostenere chi vive con HIV o AIDS.",
+          "facts": [
+            "La prima Giornata mondiale contro l'AIDS si tenne il 1º dicembre 1988.",
+            "UNAIDS nacque dopo l'avvio della prima campagna internazionale.",
+            "La ricorrenza affronta prevenzione, cure, solidarietà e memoria."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for world-aids-day; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-the-abolition-of-slavery",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/317(IV)",
+        "https://www.un.org/en/observances/slavery-abolition-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 December: a 1949 convention anchors today's anti-slavery observance",
+          "origin": "The International Day for the Abolition of Slavery is observed on 2 December, marking the General Assembly's adoption on 2 December 1949 of the Convention for the Suppression of the Traffic in Persons and of the Exploitation of the Prostitution of Others, resolution 317 (IV). That treaty is a firmly documented historical anchor, but its 1949 adoption alone does not prove the year in which the annual awareness day itself was formally instituted. Contemporary slavery can include forced labour, forced marriage, trafficking and exploitation of children. The precise first annual observance and individual founder are therefore left unverified.",
+          "promoter": "The United Nations General Assembly adopted the 1949 convention, which supplies the date's historical basis; the separate founder of the modern annual day is not demonstrated.",
+          "purpose": "Promote action against forced labour, trafficking, forced marriage and other practices that deprive people of freedom and dignity.",
+          "facts": [
+            "The date commemorates an anti-trafficking convention adopted on 2 December 1949.",
+            "Resolution 317 (IV) is the founding treaty reference, not automatically proof of the first annual day.",
+            "The UN connects the modern observance to several contemporary forms of slavery."
+          ]
+        },
+        "it": {
+          "heading": "2 dicembre: una Convenzione del 1949 dietro la lotta alla schiavitù",
+          "origin": "La Giornata internazionale per l'abolizione della schiavitù cade il 2 dicembre e ricorda l'adozione da parte dell'Assemblea generale, il 2 dicembre 1949, della Convenzione per reprimere la tratta delle persone e lo sfruttamento della prostituzione altrui, risoluzione 317 (IV). L'atto del 1949 è un riferimento storico certo ma non dimostra da solo quando sia stata istituita formalmente la celebrazione annuale. La schiavitù contemporanea può comprendere lavoro forzato, matrimoni imposti, tratta e sfruttamento dei minori. La prima annualità e un fondatore individuale restano non verificati.",
+          "promoter": "L'Assemblea generale approvò la Convenzione del 1949 che spiega la data; l'ideatore della successiva giornata annuale non è dimostrato.",
+          "purpose": "Contrastare lavoro forzato, tratta, matrimoni imposti e pratiche che negano a persone e minori libertà e dignità.",
+          "facts": [
+            "La data ricorda una Convenzione contro la tratta adottata il 2 dicembre 1949.",
+            "La risoluzione 317 (IV) riguarda il trattato e non prova da sola la prima giornata annuale.",
+            "L'ONU collega la ricorrenza anche a diverse forme moderne di schiavitù."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-for-the-abolition-of-slavery; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "world-futures-day",
+      "introducedYear": 2021,
+      "firstObservedYear": 2022,
+      "sources": [
+        "https://www.unesco.org/en/articles/celebration-world-futures-day-2022",
+        "https://www.unesco.org/en/articles/world-futures-day-2025-0"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 December: UNESCO asks everyone to think about possible futures",
+          "origin": "On 23 November 2021 UNESCO's forty-first General Conference proclaimed 2 December World Futures Day, with its first international celebration held at UNESCO headquarters in Paris in 2022. The initiative was supported by the United Arab Emirates and builds on UNESCO's work in futures literacy, the capacity to imagine different futures and use those possibilities to make better decisions now. This is not a prediction contest; it brings together researchers, young people, policymakers and communities to reflect on uncertainty and long-term resilience. The founding record does not establish a unique older anniversary for 2 December.",
+          "promoter": "UNESCO Member States adopted the declaration in 2021, with support from the United Arab Emirates delegation and futures-studies partners.",
+          "purpose": "Encourage futures literacy, foresight and inclusive debate about long-term social, technological and environmental choices.",
+          "facts": [
+            "The UNESCO General Conference proclaimed World Futures Day on 23 November 2021.",
+            "UNESCO describes its 2 December 2022 gathering as the inaugural celebration.",
+            "UNESCO uses futures literacy to explore possible futures rather than predict a single inevitable outcome."
+          ]
+        },
+        "it": {
+          "heading": "2 dicembre: immaginare futuri possibili per decidere meglio oggi",
+          "origin": "Il 23 novembre 2021 la quarantunesima Conferenza generale UNESCO proclamò il 2 dicembre Giornata mondiale dei futuri; la prima celebrazione internazionale si tenne nel 2022 presso la sede di Parigi. L'iniziativa, sostenuta dalla delegazione degli Emirati Arabi Uniti, si collega al lavoro UNESCO sull'alfabetizzazione al futuro, cioè la capacità di immaginare possibilità diverse per prendere decisioni migliori nel presente. Non si tratta di gare di previsioni: ricercatori, giovani e comunità discutono incertezza e resilienza. Un anniversario storico più antico per il 2 dicembre non è documentato.",
+          "promoter": "Gli Stati membri UNESCO adottarono la proclamazione nel 2021, con sostegno degli Emirati Arabi Uniti e collaborazione di esperti di studi sul futuro.",
+          "purpose": "Diffondere conoscenze e metodi per esplorare scenari futuri e prendere decisioni inclusive su tecnologia, società e ambiente.",
+          "facts": [
+            "La Conferenza generale UNESCO proclamò la giornata il 23 novembre 2021.",
+            "L'UNESCO definisce inaugurale l'evento di Parigi del 2 dicembre 2022.",
+            "L'alfabetizzazione ai futuri non consiste nel prevedere un unico esito inevitabile."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for world-futures-day; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-of-banks",
+      "introducedYear": 2019,
+      "firstObservedYear": 2020,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/74/245",
+        "https://www.un.org/en/observances/international-day-of-banks"
+      ],
+      "locale": {
+        "en": {
+          "heading": "4 December: recognising banks' role in financing sustainable development",
+          "origin": "On 19 December 2019 the United Nations General Assembly adopted A/RES/74/245, proclaiming 4 December International Day of Banks. The first annual date after the resolution was in December 2020. The original act recognises both multilateral development banks that finance long-term projects and domestic banking systems that support households and businesses. The observance does not suggest all banks operate identically or that access to credit alone solves inequality. It draws attention to financial inclusion, responsible governance and investment in infrastructure and development. The exact reason for selecting 4 December is not documented in the act reviewed.",
+          "promoter": "The UN General Assembly formally designated the day in 2019, recognising development-finance institutions and national banking systems without attributing it to a particular bank.",
+          "purpose": "Promote inclusive and responsible financial services, sustainable infrastructure investment and transparent banking practices.",
+          "facts": [
+            "The founding resolution A/RES/74/245 was adopted on 19 December 2019.",
+            "The first annual 4 December after adoption fell in 2020.",
+            "The UN explicitly recognises both multilateral development banks and national banking systems."
+          ]
+        },
+        "it": {
+          "heading": "4 dicembre: il ruolo delle banche nel finanziare lo sviluppo sostenibile",
+          "origin": "Il 19 dicembre 2019 l'Assemblea generale ONU approvò A/RES/74/245, proclamando il 4 dicembre Giornata internazionale delle banche. La prima annualità dopo la risoluzione cadde nel dicembre 2020. L'atto riconosce sia le banche multilaterali di sviluppo, che finanziano progetti di lunga durata, sia i sistemi bancari nazionali che sostengono famiglie e imprese. La giornata non presume che ogni banca operi allo stesso modo né che il credito risolva da solo le disuguaglianze. Richiama inclusione finanziaria, responsabilità e investimenti sostenibili; la ragione esatta della data non è documentata.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 2019 riconoscendo istituzioni finanziarie nazionali e internazionali, senza attribuirla a una banca specifica.",
+          "purpose": "Promuovere servizi finanziari inclusivi, investimenti in infrastrutture sostenibili e pratiche bancarie trasparenti e responsabili.",
+          "facts": [
+            "La risoluzione A/RES/74/245 fu adottata il 19 dicembre 2019.",
+            "La prima annualità del 4 dicembre dopo la proclamazione fu nel 2020.",
+            "L'ONU riconosce sia banche multilaterali di sviluppo sia sistemi bancari nazionali."
+          ]
+        }
+      },
+      "sourceReviewNote": "2026-11-12 individual institutional history for international-day-of-banks; formal establishment, original movement and observed versus scheduled dates are distinguished. Unknown first annual or originating person kept null/unknown. EN/IT original research drafts, not qualified human fact or native translation review. ES/FR/DE/PT pending."
     }
   ]
 }
