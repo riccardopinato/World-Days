@@ -518,40 +518,41 @@ The General Assembly adopted A/RES/79/266 on 4 March 2025, proclaiming the Inter
 
 ## 14. International Day of Friendship — archivio #88
 
-**ID:** `international-day-of-friendship` · **Data:** 30/7 · **Atto istitutivo:** A/RES/65/275 · **Anno di istituzione:** 2011 · **Prima celebrazione documentata:** 1958
+**ID:** `international-day-of-friendship` · **Data:** 30/7 · **Atto istitutivo:** A/RES/65/275 · **Anno di istituzione:** 2011 · **Prima celebrazione ONU documentata:** non accertata (1958 è un precedente locale)
 
-### Italiano — 30 luglio: un'idea paraguayana conquista l'ONU
+### Italiano — 30 luglio: la tradizione paraguayana e una distinta proclamazione ONU
 
-Il 27 aprile 2011 l'Assemblea generale ONU designò il 30 luglio come Giornata internazionale dell'amicizia con A/RES/65/275. Ma l'origine della proposta è molto precedente: una dichiarazione della Camera dei deputati del Paraguay del 2024 attribuisce l'idea al dottor Ramón Artemio Bracho, che la propose a Puerto Pinasco nel 1958 e fondò la Crociata mondiale dell'amicizia. La celebrazione paraguayana del 30 luglio precede quindi di decenni il riconoscimento ONU. La giornata propone l'amicizia tra persone, culture e nazioni come strumento di pace, distinguendo l'iniziativa locale dalla successiva risoluzione internazionale.
+L'Assemblea generale delle Nazioni Unite designò il 30 luglio Giornata internazionale dell'amicizia il 3 maggio 2011, con la risoluzione A/RES/65/275. Molto prima di quell'atto ONU, il dottor Ramón Artemio Bracho propose una ricorrenza dedicata all'amicizia il 20 giugno 1958 a Puerto Pinasco, in Paraguay, contribuendo alla nascita della Crociata mondiale dell'amicizia. Una fonte istituzionale paraguayana descrive la prima Settimana dell'amicizia dal 21 al 27 luglio 1958 e la successiva tradizione del 30 luglio. Una dichiarazione del 2024 della Camera dei deputati del Paraguay ha ricordato quell'iniziativa. Sono vicende storiche distinte: le celebrazioni locali del 1958 non sono la prima Giornata ONU e la risoluzione citata non dimostra che Bracho abbia personalmente presentato il progetto alle Nazioni Unite. L'anno della prima celebrazione ONU resta non accertato senza una fonte contemporanea specifica.
 
-**Promotore e attribuzione:** Il dottor Ramón Artemio Bracho promosse nel 1958 l'iniziativa paraguayana; l'Assemblea generale ONU ne approvò il riconoscimento internazionale nel 2011.
+**Promotore e attribuzione:** Bracho è documentato come promotore della tradizione paraguayana precedente. L'Assemblea generale ONU adottò la distinta giornata internazionale nel 2011; non viene attribuita senza un atto diretto la proposta ONU a una singola persona.
 
 **Perché è importante:** Incoraggiare amicizie tra culture, tolleranza, riconciliazione e solidarietà quotidiana come fondamenta concrete della pace.
 
 **Curiosità documentate:**
-- La Camera dei deputati del Paraguay riconobbe Bracho come ideatore originario nel 1958.
-- L'ONU proclamò la ricorrenza con A/RES/65/275 nel 2011.
-- Le celebrazioni della Crociata mondiale dell'amicizia esistevano decenni prima della risoluzione.
+- Bracho propose una ricorrenza dedicata all'amicizia in Paraguay il 20 giugno 1958; a luglio si tennero celebrazioni locali.
+- Nel 2024 una dichiarazione parlamentare paraguayana ricordò quell'iniziativa, senza che ciò significhi un voto della Camera nel 1958.
+- L'Assemblea generale ONU adottò A/RES/65/275 il 3 maggio 2011, un atto distinto dal precedente locale del 1958.
 
-### English — 30 July: a Paraguayan initiative reaches the United Nations
+### English — 30 July: a Paraguayan friendship tradition and a distinct UN declaration
 
-The UN General Assembly designated 30 July the International Day of Friendship through A/RES/65/275 on 27 April 2011. Yet the idea has an unusually traceable grassroots origin: a 2024 declaration of Paraguay's Chamber of Deputies credits Dr Ramón Artemio Bracho, who proposed a friendship day at Puerto Pinasco in 1958 and founded the World Friendship Crusade. Paraguay's celebration of 30 July therefore predates UN recognition by decades. The day uses friendship between people, cultures and nations as a language of peace and mutual understanding, but its original local history should not be confused with the later formal UN act.
+The United Nations General Assembly designated 30 July the International Day of Friendship on 3 May 2011, through resolution A/RES/65/275. Long before that formal UN decision, Dr Ramón Artemio Bracho proposed a friendship commemoration in Puerto Pinasco, Paraguay, on 20 June 1958 and helped found the World Friendship Crusade. A Paraguayan institutional account describes a first local Friendship Week during 21–27 July 1958 and a subsequent 30 July tradition. A 2024 declaration in Paraguay's Chamber of Deputies commemorated that earlier initiative. These are distinct historical events: the 1958 celebrations must not be presented as the first UN International Day, and the cited UN resolution does not establish that Bracho personally sponsored the 2011 UN draft. The first UN observance year is left unasserted without an individual contemporary source.
 
-**Promoter and attribution:** Dr Ramón Artemio Bracho developed the earlier Paraguayan Friendship Crusade in 1958; the UN General Assembly adopted its international recognition in 2011.
+**Promoter and attribution:** Bracho is documented as a promoter of the earlier Paraguayan friendship tradition. The United Nations General Assembly adopted the separate international observance in 2011; no individual sponsor of its UN draft is attributed here without a direct mandate record.
 
 **Why it matters:** Encourage friendships across cultures, tolerance, reconciliation and everyday solidarity as practical foundations for peace.
 
 **Documented facts:**
-- Paraguay's Chamber of Deputies recognised Dr Ramón Artemio Bracho as the original proposer in 1958.
-- The United Nations proclaimed 30 July through resolution A/RES/65/275 in 2011.
-- The Friendship Crusade's Paraguayan celebrations existed decades before the UN resolution.
+- Bracho proposed a friendship observance in Paraguay on 20 June 1958; local celebrations followed in July of that year.
+- A Paraguayan parliamentary declaration in 2024 recognized the earlier friendship initiative, not a 1958 parliamentary vote.
+- The UN General Assembly adopted A/RES/65/275 on 3 May 2011; this formal designation is separate from the local 1958 precedent.
 
 **Fonti istituzionali / institutional sources:**
 - https://mandates.un.org/mandate/A/RES/65/275
 - https://silpy.congreso.gov.py/web/descarga/resolucion-454359?preview=
 - https://cabildoccr.gov.py/publicacion/-dia-internacional-de-la-amistad--1494
+- https://digitallibrary.un.org/record/708162
 
-**Limite della verifica:** Individual origin research linked to original 100-draft archive #88, resolution A/RES/65/275. Proclamation, first annual observance and earlier cultural history are distinct; unknown exact anniversary or individual founder is explicitly unasserted. IT/EN are model-authored source-research drafts, not human factual or native-language reviews; ES/FR/DE/PT pending.
+**Limite della verifica:** Individually reviewed against the UN General Assembly vote record (3 May 2011), A/RES/65/275, and Paraguayan institutional history of the 1958 local initiative and 2024 parliamentary recognition. 1958 is a documented local Friendship Week, not a first UN observance. The formal UN inaugural annual celebration is not independently established (null). A personal UN draft sponsor is not inferred from Bracho's earlier initiative. EN/IT AI-authored source-research drafts, pending qualified historical and native six-language approval.
 
 ---
 
