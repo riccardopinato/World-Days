@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE12-NOWRUZ-PRIMARY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "Individual original UN resolution, UN founding-state background, UNESCO heritage documentation and UN first-observance message; EN/IT research drafts, human and other-language review pending.",
+  "records": [
+    {
+      "observanceId": "international-day-of-nowruz",
+      "sources": [
+        "https://documents.un.org/api/symbol/access?l=en&s=A%2FRES%2F64%2F253&t=pdf",
+        "https://indonesia.un.org/en/263630-international-nowruz-day-21-march",
+        "https://www.un.org/sg/en/content/former-secretary-general/statements/2010-03-21/secretary-generals-message-the-day-of-nowruz",
+        "https://www.unesco.org/en/days/nowruz"
+      ],
+      "introducedYear": 2010,
+      "firstObservedYear": 2010,
+      "locale": {
+        "en": {
+          "heading": "21 March: an ancient spring festival becomes an international day",
+          "origin": "Nowruz, a 'new day' celebrated across diverse cultures for more than three millennia, was already an established spring and new-year tradition long before the United Nations recognized it. On 23 February 2010, the UN General Assembly adopted resolution A/RES/64/253, recognizing 21 March as the International Day of Nowruz. The UN's account identifies eleven participating states behind the original draft, including Afghanistan, Azerbaijan, Iran, India, Kazakhstan, Kyrgyzstan, Tajikistan, Turkey and Turkmenistan; the Assembly was the adopting authority, not the original inventor of the festival. The 21 March date reflects the traditional association with the spring equinox, whose precise astronomical instant can vary by year and location. On 21 March 2010, the Secretary-General explicitly called the celebration the first International Day of Nowruz.",
+          "promoter": "An eleven-country initiative named in UN institutional documentation: Afghanistan, Albania, Azerbaijan, the former Yugoslav Republic of Macedonia, India, Iran, Kazakhstan, Kyrgyzstan, Tajikistan, Turkey and Turkmenistan; the General Assembly adopted the designation.",
+          "purpose": "Protect and share the diverse living traditions of Nowruz, foster intercultural understanding and intergenerational solidarity, and encourage peace, reconciliation and care for nature.",
+          "facts": [
+            "The General Assembly adopted A/RES/64/253 at its 71st plenary meeting on 23 February 2010.",
+            "The Secretary-General's 21 March 2010 message explicitly called it the first International Day of Nowruz.",
+            "UNESCO inscribed Nowruz on its Representative List of Intangible Cultural Heritage in 2009 and extended the multinational inscription in 2016.",
+            "Nowruz is celebrated under many spellings, including Navruz, Novruz, Nauryz and Nevruz.",
+            "UNESCO describes symbolic meals, family visits, gifts and varied community ceremonies among its living traditions."
+          ]
+        },
+        "it": {
+          "heading": "21 marzo: un'antica festa di primavera diventa una giornata internazionale",
+          "origin": "Il Nowruz, letteralmente «nuovo giorno», è una festa di primavera e di inizio dell'anno celebrata in culture diverse da oltre tremila anni: non è nata con una risoluzione dell'ONU. Il 23 febbraio 2010 l'Assemblea generale delle Nazioni Unite ha adottato la risoluzione A/RES/64/253, riconoscendo il 21 marzo come Giornata internazionale del Nowruz. La documentazione ONU indica un'iniziativa promossa da undici Stati, tra cui Afghanistan, Azerbaigian, Iran, India, Kazakistan, Kirghizistan, Tagikistan, Turchia e Turkmenistan: l'Assemblea ha formalizzato la ricorrenza internazionale, senza essere l'inventrice della festa tradizionale. Il 21 marzo richiama l'equinozio di primavera, il cui istante astronomico può variare secondo l'anno e il luogo. Nel messaggio del 21 marzo 2010, il Segretario generale ONU definì esplicitamente quella celebrazione la prima Giornata internazionale del Nowruz.",
+          "promoter": "Iniziativa multinazionale documentata dall'ONU: Afghanistan, Albania, Azerbaigian, ex Repubblica jugoslava di Macedonia, India, Iran, Kazakistan, Kirghizistan, Tagikistan, Turchia e Turkmenistan; l'Assemblea generale approvò la proclamazione.",
+          "purpose": "Valorizzare e trasmettere le diverse tradizioni vive del Nowruz, favorendo dialogo tra culture, solidarietà tra generazioni, pace, riconciliazione e rispetto della natura.",
+          "facts": [
+            "La risoluzione A/RES/64/253 fu adottata nella 71ª seduta plenaria dell'Assemblea generale il 23 febbraio 2010.",
+            "Nel messaggio del 21 marzo 2010 il Segretario generale ONU parlò espressamente della prima Giornata internazionale del Nowruz.",
+            "L'UNESCO iscrisse il Nowruz nel patrimonio culturale immateriale nel 2009 e ampliò l'iscrizione multinazionale nel 2016.",
+            "La ricorrenza è conosciuta anche con nomi come Navruz, Novruz, Nauryz e Nevruz.",
+            "L'UNESCO documenta pasti simbolici, visite familiari, doni e cerimonie differenti tra le comunità."
+          ]
+        }
+      },
+      "sourceReviewNote": "UN original 2010 resolution and 2010 first-observance message individually reviewed; 11-country initiative documented by UN national office. Equinox association explains the traditional date, not an independently evidenced negotiation rationale for the exact wording. AI-authored IT/EN; human native and ES/FR/DE/PT review not completed."
+    }
+  ]
+}

@@ -1,5 +1,40 @@
 # World Days — Active roadmap
 
+## Existing stories: registry and publication gate (12 November 2026)
+
+- [x] Wave12 PR #108 records International Day of Nowruz with original 2010 UN resolution, 21 March first-year observance, and separation from earlier cultural tradition. **64/1,111** source-linked records after CI and merge, **1,047** pending; **154** distinct source-linked drafts left in PRs #109–#114. Human six-language approval not claimed.
+
+- [x] Wave11 PR #107: World Day for Glaciers (21 March), UN adoption 2022 and primary UN event evidence for the first 2025 celebration. Source-linked origins **63/1,111** on successful merge; remaining **1,048**. Specific legislative date rationale remains unknown; six-locale signoff not claimed.
+- [x] Candidate registry updated to **155 unique IT/EN story drafts** across PR #108–#114, each distinct from already integrated source research.
+
+
+- [x] Wave10 PR #106: research UNESCO International Day for Digital Learning, 19 March, designation 2023 and first UNESCO edition in 2024, while leaving undocumented choice of the date unasserted. After green merge **62/1,111** researched origins, **1,049** pending; no six-language approval.
+- [x] Pending source-draft register reduced to **156 unique stories** in 8 open PRs (#107–#114), without duplicates or publishing a source draft as a reviewed runtime article.
+
+
+- [x] Wave09 PR #105: add source-linked histories for International Day of Women Judges (UN adoption 2021, first commemoration 2022) and International Day to Combat Islamophobia (UN adoption 2022, first commemorative event 2023), with original UN evidence for inaugural observances. Source-linked total **61/1,111** after green merge; **1,050** still lack individual source research.
+- [x] Update pending PR registry to **157 distinct IT/EN draft origins** from PR #106–#114 (9 open PRs); research drafts are not qualified human-reviewed rich articles and remain gated out of Flutter runtime.
+
+
+- [x] Wave08 PR #104: add independently sourced International Day for Disarmament and Non-Proliferation Awareness (5 March) with original 2022 General Assembly decision A/RES/77/51, six draft sponsors documented, first annual observance 2023, calendar-day choice not attributed without evidence. Source-linked total **59/1,111** upon successful merge; remaining **1,052**. Rich editorial six-language approval still false.
+- [x] Reconcile the Wave08 review finding by updating README and ROADMAP to 59 source-linked origins and **159 pending IT/EN drafts** in 10 open PRs (#105–#114), rather than reporting outdated 55/1,056 coverage.
+
+
+- [x] Wave07 PR #103: account for the source-researched 6 February FGM observance, with unknown early-history facts kept unasserted. Source-research total upon green merge: **58/1,111**; remaining **1,053**. Runtime six-locale approval remains false.
+- [x] Update the unique pending story register to **160 IDs in 11 PRs (#104–#114)**, with cross-check that none is already integrated on main.
+
+
+- [x] Merge PR #102 with 2 source-linked IT/EN histories (seagrass and wildlife); main source-research count becomes **57/1,111**, pending **1,054** at this snapshot. This is not equivalent to 57 human-reviewed six-language articles.
+- [x] Register the **161 distinct IT/EN historical drafts** already present in open PR #103–#114 with canonical IDs, exact source batch paths, source commits, and review-status flags in `data/editorial/registry/pending_origin_story_prs_20261112.json`.
+- [x] Require explicit `runtimeRichEditorialApproved` in the generated origin ledger and Flutter detail panel; no approval is inferred from a verified source URL, CI check, or the presence of the text in a wave batch. Unapproved histories retain the fallback panel.
+- [ ] Reconcile source and first-observance review findings in PR #104, #111, #112 and #114; repeat exact-head CI after fixes.
+- [ ] Secure qualified factual/linguistic review EN/IT/ES/FR/DE/PT and publication approval before any runtime rich-origin promotion. The 56 existing legacy reviewed editorial entries remain separate.
+- [ ] Recheck current main and regenerate the origin report after each further successful merge; update this 2026-11-12 checkpoint rather than treating the snapshot as a live counter.
+- [ ] Continue with the first outstanding canonical IDs in batches of at most 100, never mistake the archived draft corpus for approved content.
+- [x] Disable the existing `Deploy Web Preview` push-to-main trigger; use manual `workflow_dispatch` only. Note that PR #102 caused the previous automatic deployment run 43277603486 before this safety change.
+- [ ] No further APK, Play, deploy, or store promotion in this phase.
+
+
 ## Prime 9 origini certificate da fonti specifiche tra 100 bozze (12 novembre 2026)
 
 - [x] Analizzare singolarmente nove ricorrenze della PR #100 tramite fonti istitutive originali ONU, UNESCO e CIPSH; redigere nuova storia d'origine IT/EN con anno, prima osservanza quando provata, scelta della data, promotore e quattro fatti.
