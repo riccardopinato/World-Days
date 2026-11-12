@@ -1,5 +1,17 @@
 # World Days — Active roadmap
 
+## Primo lotto da 100 racconti originali IT/EN (12 novembre 2026)
+
+- [x] Scrivere 100 testi narrativi unici, non dossier vuoti, con italiano e inglese, fonti istituzionali e numero di risoluzione riferito alla data.
+- [x] Conservare identità e date del catalogo, non riutilizzare i 46 ID delle origini ricercate, bloccare i segnaposto tecnici e associare stato bozza a tutti i testi.
+- [x] Pubblicare il testo consultabile in `docs/WORLD_DAYS_100_ORIGINAL_STORIES_DRAFT_20261112.md` e i dati strutturati in `data/editorial/candidates/origin_100_original_bilingual_drafts_20261112.json`.
+- [x] Aggiungere validatore CI `tool/validate_origin_100_original_drafts_20261112.py`, con guardrail di *non promozione* nel layer offline.
+- [ ] Per ognuna delle 100 bozze verificare l'atto istitutivo originario, anno di adozione, persona o Paese proponente (se noto), motivo della data e curiosità specifiche. La sola presenza nella lista ONU/UNESCO non è sufficiente.
+- [ ] Ampliare i testi in stile narrativo lungo, effettuare revisione fattuale, scrivere ES/FR/DE/PT e revisionare tutte le lingue prima della promozione.
+- [ ] Continuare per gruppi da 100 fino a coprire gli ID rimanenti.
+
+**Verità del checkpoint:** 100 bozze IT/EN redatte, ma **0 nuove origini di questo lotto dichiarate certificate**. I 46 approfondimenti storici IT/EN già integrati su main restano distinti; 1.065 identità richiedono ancora ricerca individuale. Nessun APK/Play/deploy.
+
 ## Wave04 — 14 storie ONU/UNESCO dal lotto istituzionale precedente (12 novembre 2026)
 
 - [x] Recuperare 14 testi di origine individualmente ricercati nel precedente file `un_primary_2026_11_03_02.json` senza moltiplicare o sostituire i 1.111 ID canonici.
