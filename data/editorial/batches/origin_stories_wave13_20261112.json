@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE13-WORLD-WATER-DAY-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "One individually sourced UN water observance, bilingual original draft; 22 March chosen in original resolution but detailed rationale not established; no human native review or four other locale approvals.",
+  "records": [
+    {
+      "observanceId": "world-water-day",
+      "sources": [
+        "https://digitallibrary.un.org/record/159180",
+        "https://www.un.org/esa/dsd/dsd_aofw_wat/wat_inteacti_wwd.shtml",
+        "https://www.un.org/en/yearbook/article/happy-world-water-day",
+        "https://www.unwater.org/our-work/world-water-day",
+        "https://www.un.org/sites/un2.un.org/files/un_world_water_dev._report_2022.pdf"
+      ],
+      "introducedYear": 1992,
+      "firstObservedYear": 1993,
+      "locale": {
+        "en": {
+          "heading": "22 March: how World Water Day grew out of the Rio Earth Summit",
+          "origin": "World Water Day was established by the United Nations General Assembly on 22 December 1992 through resolution A/RES/47/193. The decision followed the 1992 UN Conference on Environment and Development in Rio de Janeiro, where Agenda 21, chapter 18, called attention to protecting freshwater resources. The resolution designated 22 March each year, beginning in 1993, as World Day for Water. This distinction matters: the founding act belongs to 1992, while the first annual observance was 22 March 1993. The General Assembly was the adopting authority and the Rio conference supplied the documented policy recommendation; an individual original proposer and a separate reason for selecting precisely 22 March are not established in the sources reviewed.",
+          "promoter": "The 1992 UN Conference on Environment and Development provided the documented recommendation; the UN General Assembly formally proclaimed the day. No specific individual founding proposer has been verified.",
+          "purpose": "Build public understanding of freshwater conservation, equitable access, sanitation and sustainable management, and encourage concrete national and community action.",
+          "facts": [
+            "Resolution A/RES/47/193 was adopted without a vote at the General Assembly's 93rd plenary meeting on 22 December 1992.",
+            "The original resolution explicitly set 22 March as an annual observance starting in 1993.",
+            "The recommendation was tied to chapter 18 of Agenda 21, the Rio Earth Summit's freshwater chapter.",
+            "UN-Water coordinates the modern campaign and chooses a distinct annual theme.",
+            "UN-Water's 2025 theme was glacier preservation and its 2026 theme is water and gender."
+          ]
+        },
+        "it": {
+          "heading": "22 marzo: come la Giornata mondiale dell'acqua nacque dopo il Vertice della Terra",
+          "origin": "La Giornata mondiale dell'acqua fu istituita dall'Assemblea generale delle Nazioni Unite il 22 dicembre 1992 con la risoluzione A/RES/47/193. La decisione seguì la Conferenza ONU su ambiente e sviluppo tenuta a Rio de Janeiro nel 1992: il capitolo 18 di Agenda 21 richiamava la necessità di tutelare le risorse d'acqua dolce. La risoluzione fissò il 22 marzo di ogni anno a partire dal 1993. Occorre distinguere l'atto istitutivo del 1992 dalla prima celebrazione annuale del 22 marzo 1993. L'Assemblea generale fu l'organo deliberante e il vertice di Rio fornì la raccomandazione documentata; le fonti consultate non identificano con certezza un singolo proponente originario né una spiegazione autonoma del perché sia stato scelto proprio il 22 marzo.",
+          "promoter": "La Conferenza ONU di Rio del 1992 formulò la raccomandazione documentata; l'Assemblea generale ONU proclamò formalmente la giornata. Non è accertato un singolo promotore individuale.",
+          "purpose": "Diffondere conoscenza sulla conservazione dell'acqua dolce, sull'accesso equo, sui servizi igienico-sanitari e sulla gestione sostenibile, stimolando iniziative concrete di comunità e governi.",
+          "facts": [
+            "La risoluzione A/RES/47/193 fu approvata senza votazione nella 93ª seduta plenaria ONU del 22 dicembre 1992.",
+            "L'atto originario fissava il 22 marzo come giornata annuale a partire dal 1993.",
+            "La raccomandazione richiamava il capitolo 18 di Agenda 21, dedicato all'acqua dolce.",
+            "UN-Water coordina oggi la campagna e definisce un tema annuale distinto.",
+            "Il tema del 2025 era la conservazione dei ghiacciai; quello del 2026 riguarda acqua e genere."
+          ]
+        }
+      },
+      "sourceReviewNote": "UN Digital Library original resolution and adoption metadata, UN DESA history, UN Yearbook and UN-Water official themes individually checked 2026-11-12. Formal adoption 1992 vs first annual observance 1993. Exact day-of-month rationale and individual original proposer not proven. EN/IT AI-authored source-researched drafts; qualified human factual and native language reviews pending, ES/FR/DE/PT pending."
+    }
+  ]
+}
