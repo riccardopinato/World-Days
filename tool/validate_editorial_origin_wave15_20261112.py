@@ -28,6 +28,13 @@ assert all(d["publishedToApp"] is False for d in drafts)
 assert not any(r["observanceId"] == "world-oceans-day" for r in wave["records"])
 assert not any(r["observanceId"] == "international-day-of-the-tropics" for r in wave["records"])
 
+# The UN contemporaneous report identifies 19 June 2016 as inaugural,
+# distinct from the adoption of A/RES/69/293 on 19 June 2015.
+sexual_violence = next(r for r in wave["records"] if r["observanceId"] == "international-day-for-the-elimination-of-sexual-violence-in-conflict")
+assert sexual_violence["introducedYear"] == 2015
+assert sexual_violence["firstObservedYear"] == 2016
+assert "childrenandarmedconflict.un.org/en/on-world-day-ban-declares-era-of-impunity-over-for-sexual-violence-in-war" in "\\n".join(sexual_violence["sources"])
+
 for rec in wave["records"]:
     oid = rec["observanceId"]
     draft = by_id[oid]
