@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "ORIGIN-WAVE05-UN-OCEANS-20261112",
+  "reviewedOn": "2026-11-12",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
+  "count": 1,
+  "sourcePolicy": "Primary UN, UNESCO IOC and originator historical sources. EN/IT source-reviewed; ES/FR/DE/PT drafts pending native review.",
+  "records": [
+    {
+      "observanceId": "world-oceans-day",
+      "sources": [
+        "https://www.un.org/depts/los/reference_files/worldoceansday.htm",
+        "https://unworldoceansday.org/about/",
+        "https://iocaribe.ioc-unesco.org/fr/node/722",
+        "https://worldoceanday.org/about/mission-history/"
+      ],
+      "introducedYear": 2008,
+      "firstObservedYear": 2009,
+      "locale": {
+        "en": {
+          "heading": "Why 8 June became a day for the ocean",
+          "origin": "World Oceans Day has two different beginnings. At the 1992 Global Forum alongside the Rio Earth Summit, an Oceans Day event organized by the Oceans Institute of Canada helped establish 8 June as a day to speak for the sea. Civil-society celebrations continued before the United Nations General Assembly formally designated 8 June as World Oceans Day in resolution 63/111, adopted in December 2008. The first observance under the UN designation followed in 2009. The date therefore recalls the earlier Rio event rather than the day the UN resolution was adopted.",
+          "promoter": "The 1992 event was organized by the Oceans Institute of Canada with Canadian government support. Canada led the 2008 UN designation; the UN General Assembly adopted the resolution. The Ocean Project and World Ocean Network also campaigned for international recognition.",
+          "purpose": "The day draws attention to the ocean's contribution to climate, food, livelihoods and biodiversity, and to the shared responsibility to protect marine ecosystems and use ocean resources sustainably.",
+          "facts": [
+            "The original 8 June 1992 Oceans Day event took place at the Global Forum alongside the Rio Earth Summit.",
+            "Resolution 63/111 designated 8 June as World Oceans Day for UN observance beginning in 2009.",
+            "The first UN observance in 2009 used the theme Our Oceans, Our Responsibility.",
+            "The 2017 UN Ocean Conference included a World Oceans Day event on 8 June."
+          ]
+        },
+        "it": {
+          "heading": "Perché l'8 giugno è dedicato agli oceani",
+          "origin": "La Giornata mondiale degli oceani ha due inizi distinti. L'8 giugno 1992, durante il Global Forum collegato al Vertice della Terra di Rio, un evento organizzato dall'Oceans Institute of Canada contribuì a dare voce al mare. Le celebrazioni della società civile proseguirono negli anni successivi. Solo nel dicembre 2008 l'Assemblea generale delle Nazioni Unite adottò la risoluzione 63/111, designando ufficialmente l'8 giugno come Giornata mondiale degli oceani. La prima ricorrenza sotto l'egida ONU si svolse nel 2009. La data richiama quindi l'iniziativa di Rio, non il giorno in cui fu approvata la risoluzione.",
+          "promoter": "L'evento del 1992 fu organizzato dall'Oceans Institute of Canada con il sostegno del governo canadese. Il Canada guidò l'iniziativa ONU del 2008 e l'Assemblea generale adottò la risoluzione. Anche The Ocean Project e World Ocean Network sostennero il riconoscimento internazionale.",
+          "purpose": "La giornata invita a conoscere il ruolo degli oceani per clima, alimentazione, lavoro e biodiversità, e a condividere la responsabilità di proteggere gli ecosistemi marini e utilizzare le risorse in modo sostenibile.",
+          "facts": [
+            "Il primo evento Oceans Day dell'8 giugno 1992 si tenne al Global Forum, in parallelo al Vertice della Terra di Rio.",
+            "La risoluzione ONU 63/111 stabilì l'8 giugno come ricorrenza ufficiale a partire dal 2009.",
+            "La prima edizione ONU del 2009 ebbe come tema Our Oceans, Our Responsibility.",
+            "La Conferenza ONU sugli oceani del 2017 ospitò un evento dedicato alla giornata l'8 giugno."
+          ]
+        },
+        "es": {
+          "heading": "Por qué el 8 de junio está dedicado a los océanos",
+          "origin": "El Día Mundial de los Océanos tiene dos comienzos diferentes. El 8 de junio de 1992, durante el Foro Global paralelo a la Cumbre de la Tierra de Río, un encuentro organizado por el Oceans Institute of Canada impulsó esta fecha. Las celebraciones de la sociedad civil continuaron hasta que, en diciembre de 2008, la Asamblea General de la ONU adoptó la resolución 63/111 y designó oficialmente el 8 de junio. La primera conmemoración de la ONU tuvo lugar en 2009. La fecha recuerda el encuentro de Río, no la aprobación de la resolución.",
+          "promoter": "El Oceans Institute of Canada organizó el encuentro de 1992 con apoyo del Gobierno canadiense. Canadá impulsó la designación de 2008 y la Asamblea General de la ONU la aprobó.",
+          "purpose": "Destacar la importancia del océano para el clima, la alimentación, los medios de vida y la biodiversidad, y promover su protección y uso sostenible.",
+          "facts": [
+            "El encuentro inicial tuvo lugar el 8 de junio de 1992 en el Foro Global de Río.",
+            "La resolución 63/111 estableció la celebración oficial de la ONU a partir de 2009.",
+            "El lema de la primera celebración de la ONU fue Our Oceans, Our Responsibility."
+          ]
+        },
+        "fr": {
+          "heading": "Pourquoi le 8 juin est consacré aux océans",
+          "origin": "La Journée mondiale de l'océan possède deux origines distinctes. Le 8 juin 1992, au Forum mondial organisé parallèlement au Sommet de la Terre de Rio, une rencontre de l'Oceans Institute of Canada a contribué à faire connaître cette date. Les initiatives citoyennes ont continué jusqu'à ce que l'Assemblée générale des Nations unies adopte, en décembre 2008, la résolution 63/111 désignant officiellement le 8 juin. La première célébration sous l'égide de l'ONU a eu lieu en 2009. La date rappelle donc l'événement de Rio et non le vote de la résolution.",
+          "promoter": "L'Oceans Institute of Canada a organisé la rencontre de 1992 avec le soutien du gouvernement canadien. Le Canada a porté la désignation de 2008, adoptée par l'Assemblée générale des Nations unies.",
+          "purpose": "Faire connaître le rôle de l'océan pour le climat, l'alimentation, les activités humaines et la biodiversité, et encourager sa protection durable.",
+          "facts": [
+            "La rencontre initiale s'est tenue le 8 juin 1992 au Forum mondial de Rio.",
+            "La résolution 63/111 a établi la célébration officielle de l'ONU à partir de 2009.",
+            "Le thème de la première édition de l'ONU était Our Oceans, Our Responsibility."
+          ]
+        },
+        "de": {
+          "heading": "Warum der 8. Juni den Ozeanen gewidmet ist",
+          "origin": "Der Welttag der Ozeane hat zwei unterschiedliche Anfänge. Am 8. Juni 1992 machte eine Veranstaltung des Oceans Institute of Canada beim Global Forum am Rande des Erdgipfels in Rio auf die Meere aufmerksam. Zivilgesellschaftliche Aktionen setzten sich fort, bis die UN-Generalversammlung im Dezember 2008 mit Resolution 63/111 den 8. Juni offiziell zum Welttag der Ozeane erklärte. Die erste UN-Begehung fand 2009 statt. Das Datum erinnert somit an die Veranstaltung in Rio und nicht an den Beschluss von 2008.",
+          "promoter": "Das Oceans Institute of Canada organisierte die Veranstaltung 1992 mit Unterstützung der kanadischen Regierung. Kanada trieb die UN-Anerkennung 2008 voran; die Generalversammlung verabschiedete die Resolution.",
+          "purpose": "Auf die Bedeutung der Ozeane für Klima, Ernährung, Lebensgrundlagen und Artenvielfalt aufmerksam machen und ihren nachhaltigen Schutz fördern.",
+          "facts": [
+            "Die frühe Veranstaltung fand am 8. Juni 1992 beim Global Forum in Rio statt.",
+            "Resolution 63/111 legte die offizielle UN-Begehung ab 2009 fest.",
+            "Das Motto der ersten UN-Begehung lautete Our Oceans, Our Responsibility."
+          ]
+        },
+        "pt": {
+          "heading": "Por que 8 de junho é dedicado aos oceanos",
+          "origin": "O Dia Mundial dos Oceanos tem duas origens distintas. Em 8 de junho de 1992, durante o Fórum Global paralelo à Cúpula da Terra no Rio de Janeiro, um evento organizado pelo Oceans Institute of Canada ajudou a divulgar a data. As comemorações da sociedade civil continuaram até que, em dezembro de 2008, a Assembleia Geral da ONU aprovou a resolução 63/111, designando oficialmente o dia 8 de junho. A primeira celebração da ONU ocorreu em 2009. A data recorda, portanto, o evento no Rio, não a votação da resolução.",
+          "promoter": "O Oceans Institute of Canada organizou o evento de 1992 com apoio do governo canadense. O Canadá liderou a iniciativa de 2008, adotada pela Assembleia Geral da ONU.",
+          "purpose": "Destacar a importância do oceano para o clima, a alimentação, os meios de subsistência e a biodiversidade, incentivando a sua proteção e utilização sustentável.",
+          "facts": [
+            "O evento inicial ocorreu em 8 de junho de 1992 no Fórum Global do Rio.",
+            "A resolução 63/111 estabeleceu a celebração oficial da ONU a partir de 2009.",
+            "O tema da primeira edição da ONU foi Our Oceans, Our Responsibility."
+          ]
+        }
+      },
+      "sourceReviewNote": "EN/IT fact-checked against UN Division for Ocean Affairs and the Law of the Sea, UNESCO IOC and UN World Oceans Day organizer history. ES/FR/DE/PT are editorial drafts requiring independent native linguistic review; not certified translations."
+    }
+  ]
+}
