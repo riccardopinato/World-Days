@@ -1,5 +1,16 @@
 # World Days — Active roadmap
 
+## Wave02 — otto nuove storie di origine con fonti primarie (12 novembre 2026)
+
+- [x] Collegare `origin_stories_wave02_20261112.json` come batch append-only di 8 origini documentate da ONU, UNESCO, OMS, Ramsar e fonti istituzionali originarie.
+- [x] Scrivere testi originali IT/EN con motivo della data (quando provato), istituzione, ente promotore documentato, primo evento e curiosità tracciabili; segnalare esplicitamente ciò che non è provato.
+- [x] Aggiungere gate Python per anni, URL istituzionali, dati già presenti nelle bozze Wave04 e assenza di attribuzioni arbitrarie; collegarlo alla CI.
+- [ ] Verificare i risultati CI Python, Flutter e Web sull'ultimo commit e le eventuali review prima del merge.
+- [ ] Svolgere revisione editoriale/linguistica qualificata delle lingue ES/FR/DE/PT: la loro presenza come bozze non costituisce certificazione.
+- [ ] Continuare sul primo blocco da 100 con nuovi racconti verificabili, senza saltare o riaprire ID già completati.
+
+**Conteggio atteso dopo CI e merge, a catalogo invariato:** 17/1.111 origini individualmente ricercate, 1.094 da approfondire, 56 vecchi articoli editoriali distinti.
+
 ## Primo lotto: 5 nuove storie UNESCO con fonti individuali (12 novembre 2026)
 
 - [x] Ricercare con pagine UNESCO e IMU cinque identità non ancora trattate nel nuovo ledger: traffico illecito di beni culturali (14 novembre), arte islamica (18 novembre), matematica (14 marzo), donne nel multilateralismo (25 gennaio) e ingegneria sostenibile (4 marzo).
