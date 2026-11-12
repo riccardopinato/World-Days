@@ -3,8 +3,8 @@
   "batchId": "ORIGIN-WAVE15-CUMULATIVE-MAY-JUNE-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 16,
-  "sourcePolicy": "Individual UN/UNESCO/FAO/ITU original act research, distinct original bilingual histories and documented unknowns; native 6-language review not claimed; records added cumulatively to this file.",
+  "count": 32,
+  "sourcePolicy": "Thirty-two individually researched origins; each IT/EN original narrative includes formal declaration versus earlier commemoration, documented date rationale or explicitly unknown, promoters, original primary-source links and three facts per locale. No native editorial signoff; four other locales pending.",
   "records": [
     {
       "observanceId": "world-telecommunication-and-information-society-day",
@@ -552,6 +552,555 @@
         }
       },
       "sourceReviewNote": "Individually researched UN/UNESCO/FAO/ITU institutional chronology: A/RES/78/268; original 100-draft queue #57; date rationale explicitly noted only when evidenced. Model-authored IT/EN source research, not qualified human/native review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-albinism-awareness-day",
+      "sources": [
+        "https://www.un.org/en/observances/albinism-day",
+        "https://mandates.un.org/mandate/A/RES/69/170"
+      ],
+      "introducedYear": 2014,
+      "firstObservedYear": 2015,
+      "locale": {
+        "en": {
+          "heading": "13 June: visibility is a human-rights issue",
+          "origin": "On 18 December 2014 the General Assembly adopted A/RES/69/170, proclaiming 13 June International Albinism Awareness Day with effect from 2015. The resolution followed a recommendation by the UN Human Rights Council, which had called attention to discrimination and violent attacks directed at persons with albinism. Albinism is a hereditary condition affecting pigmentation, not a person's dignity or capabilities. The observance combines access to accurate health information with protection from exclusion, myths and abuse. The founding text does not explain an earlier historical anniversary for 13 June.",
+          "promoter": "The Human Rights Council recommended proclamation and the General Assembly formally created the annual day in 2014.",
+          "purpose": "Defend the rights and safety of persons with albinism, challenge stigma and strengthen equal access to education, health and employment.",
+          "facts": [
+            "The 2014 UN resolution explicitly made the day effective from 2015.",
+            "The Human Rights Council had recommended establishing an international day.",
+            "The UN asks States to report measures protecting the rights of persons with albinism."
+          ]
+        },
+        "it": {
+          "heading": "13 giugno: l'albinismo è anche una questione di diritti",
+          "origin": "Il 18 dicembre 2014 l'Assemblea generale ONU adottò A/RES/69/170, proclamando il 13 giugno Giornata internazionale di sensibilizzazione sull'albinismo a partire dal 2015. La decisione seguì una raccomandazione del Consiglio ONU per i diritti umani, preoccupato per discriminazioni e aggressioni contro le persone con albinismo. L'albinismo è una condizione ereditaria che riguarda la pigmentazione, non il valore o le capacità di una persona. La ricorrenza unisce informazione sanitaria e tutela da stigma, falsi miti e abusi. Il testo non chiarisce un anniversario preciso dietro la data.",
+          "promoter": "Il Consiglio ONU per i diritti umani raccomandò la proclamazione; l'Assemblea generale istituì formalmente la giornata nel 2014.",
+          "purpose": "Difendere i diritti delle persone con albinismo, contrastare lo stigma e promuovere accesso equo a istruzione, salute e lavoro.",
+          "facts": [
+            "La risoluzione del 2014 fissò esplicitamente la prima annualità al 2015.",
+            "Il Consiglio per i diritti umani aveva raccomandato una giornata specifica.",
+            "L'ONU invita gli Stati a riferire sulle misure di protezione adottate."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/69/170 and original 100-story archive sequence #58. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "world-elder-abuse-awareness-day",
+      "sources": [
+        "https://www.un.org/en/node/77006",
+        "https://mandates.un.org/mandate/A/RES/66/127",
+        "https://www.un.org/en/observances/elder-abuse-awareness-day"
+      ],
+      "introducedYear": 2011,
+      "firstObservedYear": 2006,
+      "locale": {
+        "en": {
+          "heading": "15 June: elder abuse was being discussed before the UN designation",
+          "origin": "World Elder Abuse Awareness Day was initiated in 2006 by the International Network for the Prevention of Elder Abuse (INPEA). The United Nations General Assembly subsequently recognised the 15 June observance through A/RES/66/127 adopted in 2011. Those dates should not be confused: the civil-society initiative predates the formal UN declaration by five years. Violence against older people may involve physical or emotional harm, exploitation or neglect, and it often stays hidden where victims depend on those responsible for their care.",
+          "promoter": "INPEA initiated the observance in 2006; the General Assembly formally recognized it in 2011.",
+          "purpose": "Challenge violence and neglect against older persons and strengthen rights, detection and access to support.",
+          "facts": [
+            "INPEA began the day in 2006, five years before formal UN recognition.",
+            "The UN recognition came through A/RES/66/127 in 2011.",
+            "Elder abuse includes financial exploitation as well as physical or psychological mistreatment."
+          ]
+        },
+        "it": {
+          "heading": "15 giugno: gli abusi sugli anziani erano denunciati prima dell'ONU",
+          "origin": "La Giornata mondiale contro gli abusi sugli anziani fu avviata nel 2006 dall'International Network for the Prevention of Elder Abuse (INPEA). L'Assemblea generale delle Nazioni Unite riconobbe successivamente la data del 15 giugno con A/RES/66/127, adottata nel 2011. Le due tappe vanno distinte: l'iniziativa della società civile precede di cinque anni il riconoscimento ONU. Gli abusi possono essere fisici, psicologici, economici o derivare dall'incuria e spesso restano nascosti quando la vittima dipende da chi dovrebbe assisterla.",
+          "promoter": "L'INPEA avviò la ricorrenza nel 2006; l'Assemblea generale la riconobbe formalmente nel 2011.",
+          "purpose": "Contrastare violenza e trascuratezza verso le persone anziane, migliorando prevenzione e accesso all'aiuto.",
+          "facts": [
+            "L'INPEA iniziò la giornata nel 2006, cinque anni prima del riconoscimento ONU.",
+            "L'atto ONU è A/RES/66/127 del 2011.",
+            "Gli abusi comprendono anche sfruttamento economico, oltre alla violenza fisica."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/66/127 and original 100-story archive sequence #59. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-of-family-remittances",
+      "sources": [
+        "https://www.un.org/observances/remittances-day",
+        "https://mandates.un.org/mandate/A/RES/72/281"
+      ],
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "16 June: migrant earnings support families and communities",
+          "origin": "The International Day of Family Remittances grew out of work by the International Fund for Agricultural Development and its partners, who had advocated for public recognition of the money migrants send to relatives at home. The General Assembly gave the annual observance formal status with A/RES/72/281 in 2018, retaining 16 June. Remittances often help pay for food, school, housing and small businesses, but their impact depends on affordable and accessible transfer services. Earlier IFAD campaigns must not be confused with the later General Assembly resolution; the precise first celebration is not verified here.",
+          "promoter": "IFAD promoted the recognition through its earlier initiative; the General Assembly proclaimed the international day in 2018.",
+          "purpose": "Make remittance services safer and more affordable and recognize families' contributions to sustainable development.",
+          "facts": [
+            "The UN declaration was formalised in 2018 through A/RES/72/281.",
+            "Remittances are household transfers from migrants to families and communities.",
+            "IFAD connects the observance with rural development and financial inclusion."
+          ]
+        },
+        "it": {
+          "heading": "16 giugno: le rimesse dei migranti sostengono intere famiglie",
+          "origin": "La Giornata internazionale delle rimesse familiari nasce dal lavoro del Fondo internazionale per lo sviluppo agricolo (IFAD) e di partner che chiedevano maggiore attenzione al denaro inviato dai migranti ai familiari nei Paesi d'origine. L'Assemblea generale ONU riconobbe formalmente la ricorrenza con A/RES/72/281 nel 2018, confermando il 16 giugno. Le rimesse possono finanziare cibo, scuola, abitazioni e microattività, ma servono trasferimenti accessibili e sicuri. Le precedenti campagne IFAD non coincidono con l'atto ONU; la prima celebrazione esatta non è accertata qui.",
+          "promoter": "L'IFAD promosse il riconoscimento attraverso l'iniziativa precedente; l'Assemblea generale proclamò la giornata nel 2018.",
+          "purpose": "Rendere i trasferimenti più sicuri e meno costosi e riconoscere il contributo delle famiglie allo sviluppo.",
+          "facts": [
+            "La designazione ONU risale al 2018 con A/RES/72/281.",
+            "Le rimesse sono trasferimenti di denaro dei migranti verso famiglie e comunità.",
+            "L'IFAD collega la ricorrenza a sviluppo rurale e inclusione finanziaria."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/72/281 and original 100-story archive sequence #60. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "world-day-to-combat-desertification-and-drought",
+      "sources": [
+        "https://www.un.org/en/observances/desertification-day/background",
+        "https://mandates.un.org/mandate/A/RES/49/115"
+      ],
+      "introducedYear": 1994,
+      "firstObservedYear": 1995,
+      "locale": {
+        "en": {
+          "heading": "17 June: the anniversary of a treaty protecting drylands",
+          "origin": "The United Nations Convention to Combat Desertification was adopted in Paris on 17 June 1994, after the 1992 Rio Earth Summit had highlighted land degradation and drought. The General Assembly proclaimed 17 June World Day to Combat Desertification and Drought in A/RES/49/115 on 19 December 1994. The first annual observance took place in 1995. The calendar day recalls the Convention's adoption, rather than a general seasonal event. Protecting productive soil means supporting farmers, biodiversity and communities that depend on fragile drylands.",
+          "promoter": "UN negotiations created the Convention in 1994; the General Assembly formally established the associated awareness day later that year.",
+          "purpose": "Promote restoration of degraded land, responsible water management and cooperation to address drought.",
+          "facts": [
+            "The Convention was adopted in Paris on 17 June 1994.",
+            "The UN proclaimed the awareness day in December 1994.",
+            "The first annual world observance followed in 1995."
+          ]
+        },
+        "it": {
+          "heading": "17 giugno: la data di un trattato per difendere i territori aridi",
+          "origin": "La Convenzione ONU contro la desertificazione fu adottata a Parigi il 17 giugno 1994, dopo che il Vertice della Terra di Rio del 1992 aveva evidenziato degradazione del suolo e siccità. L'Assemblea generale proclamò il 17 giugno Giornata mondiale contro desertificazione e siccità con A/RES/49/115 il 19 dicembre 1994. La prima ricorrenza annuale si tenne nel 1995. La data ricorda quindi l'adozione della Convenzione, non un fenomeno stagionale generico. Difendere il suolo produttivo significa sostenere agricoltori, biodiversità e comunità vulnerabili.",
+          "promoter": "I negoziati ONU portarono alla Convenzione nel 1994; l'Assemblea generale istituì la giornata più tardi nello stesso anno.",
+          "purpose": "Promuovere recupero dei terreni degradati, gestione responsabile dell'acqua e cooperazione contro la siccità.",
+          "facts": [
+            "La Convenzione fu adottata a Parigi il 17 giugno 1994.",
+            "L'ONU istituì la ricorrenza nel dicembre dello stesso anno.",
+            "La prima celebrazione annuale fu nel 1995."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/49/115 and original 100-story archive sequence #61. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "sustainable-gastronomy-day",
+      "sources": [
+        "https://www.un.org/en/observances/sustainable-gastronomy-day",
+        "https://mandates.un.org/mandate/A/RES/71/246"
+      ],
+      "introducedYear": 2016,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "18 June: what food culture means for sustainability",
+          "origin": "Food traditions connect farms, markets, kitchens and landscapes. The General Assembly established 18 June as Sustainable Gastronomy Day in December 2016 through A/RES/71/246. Its founding text explicitly invited UNESCO and FAO to facilitate observances, recognising the cultural and agricultural dimensions of how food is produced and consumed. Sustainable gastronomy is more than an expensive restaurant experience: it asks whether ingredients, biodiversity, labour and food waste are considered responsibly. The exact anniversary behind 18 June and the first event have not been documented here.",
+          "promoter": "The General Assembly proclaimed the day and invited UNESCO and FAO to facilitate observances; no original individual founder is established.",
+          "purpose": "Promote responsible food production, cultural knowledge, biodiversity and reduced waste along the food chain.",
+          "facts": [
+            "The UN proclamation came in December 2016.",
+            "The resolution directly invites both FAO and UNESCO to support observances.",
+            "The day connects cultural heritage with agricultural and environmental choices."
+          ]
+        },
+        "it": {
+          "heading": "18 giugno: la cultura del cibo incontra la sostenibilità",
+          "origin": "Le tradizioni alimentari collegano campi, mercati, cucine e paesaggi. Nel dicembre 2016 l'Assemblea generale ONU istituì il 18 giugno come Giornata della gastronomia sostenibile con A/RES/71/246. Il testo invita espressamente UNESCO e FAO a facilitare le celebrazioni, riconoscendo dimensioni agricole e culturali della produzione e del consumo alimentare. Gastronomia sostenibile non significa soltanto cucina raffinata: riguarda ingredienti, biodiversità, lavoro e spreco alimentare. Un anniversario preciso dietro il 18 giugno e la prima edizione non sono accertati qui.",
+          "promoter": "L'Assemblea generale proclamò la giornata e invitò UNESCO e FAO a sostenerla; non emerge un fondatore individuale certo.",
+          "purpose": "Favorire filiere responsabili, saperi alimentari, biodiversità e riduzione degli sprechi.",
+          "facts": [
+            "La proclamazione ONU risale al dicembre 2016.",
+            "La risoluzione invita direttamente FAO e UNESCO a partecipare.",
+            "La ricorrenza collega patrimonio culturale e scelte agricole e ambientali."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/71/246 and original 100-story archive sequence #62. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-for-countering-hate-speech",
+      "sources": [
+        "https://www.un.org/en/observances/countering-hate-speech",
+        "https://mandates.un.org/mandate/A/RES/75/309"
+      ],
+      "introducedYear": 2021,
+      "firstObservedYear": 2022,
+      "locale": {
+        "en": {
+          "heading": "18 June: a date tied to the UN's first hate-speech strategy",
+          "origin": "The General Assembly designated 18 June the International Day for Countering Hate Speech in July 2021 through A/RES/75/309. The date is historically meaningful: on 18 June 2019 the Secretary-General launched the United Nations Strategy and Plan of Action on Hate Speech. The observance responds to hostility that can fuel discrimination, exclusion and violence, online and offline. The UN makes clear that tackling hate speech must be consistent with international human-rights standards; defending people from hatred cannot simply disregard freedom of expression.",
+          "promoter": "The General Assembly adopted the day in 2021, building on the Secretary-General's 2019 UN strategy; those are different institutional actions.",
+          "purpose": "Encourage education, responsible public discourse and rights-based strategies that prevent hatred and incitement.",
+          "facts": [
+            "The founding strategy was launched on 18 June 2019.",
+            "The General Assembly declared the international day in July 2021.",
+            "The UN stresses consistency with international human rights law."
+          ]
+        },
+        "it": {
+          "heading": "18 giugno: l'anniversario della strategia ONU contro l'odio",
+          "origin": "Nel luglio 2021 l'Assemblea generale ONU proclamò il 18 giugno Giornata internazionale per contrastare i discorsi d'odio con A/RES/75/309. La data ha una ragione storica: il 18 giugno 2019 il segretario generale aveva lanciato la Strategia e il Piano d'azione delle Nazioni Unite contro i discorsi d'odio. La giornata richiama ostilità che alimentano discriminazione, esclusione e violenza online e offline. L'ONU precisa che le risposte devono rispettare il diritto internazionale dei diritti umani, compresa la libertà di espressione.",
+          "promoter": "L'Assemblea generale adottò la giornata nel 2021, riprendendo la precedente strategia del segretario generale del 2019.",
+          "purpose": "Incoraggiare educazione, dibattito responsabile e prevenzione dell'incitamento all'odio nel rispetto dei diritti.",
+          "facts": [
+            "La strategia ONU originaria fu lanciata il 18 giugno 2019.",
+            "La giornata fu proclamata nel luglio 2021.",
+            "L'ONU richiede interventi compatibili con i diritti umani."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/75/309 and original 100-story archive sequence #63. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-for-the-elimination-of-sexual-violence-in-conflict",
+      "sources": [
+        "https://www.un.org/en/observances/end-sexual-violence-in-conflict-day",
+        "https://mandates.un.org/mandate/A/RES/69/293"
+      ],
+      "introducedYear": 2015,
+      "firstObservedYear": 2015,
+      "locale": {
+        "en": {
+          "heading": "19 June: a Security Council decision becomes an annual warning",
+          "origin": "On 19 June 2008 the Security Council adopted resolution 1820, recognising sexual violence as a tactic of war and a threat to peace and security. Seven years later, on 19 June 2015, the General Assembly established the International Day for the Elimination of Sexual Violence in Conflict with A/RES/69/293. The annual date deliberately commemorates the Security Council's earlier landmark action. It aims to centre the experiences of survivors, support access to justice and challenge impunity for wartime abuses against women, men, girls and boys.",
+          "promoter": "The Security Council issued the 2008 landmark resolution; the General Assembly proclaimed the international day in 2015.",
+          "purpose": "Support survivors, prevention, accountability and justice for conflict-related sexual violence.",
+          "facts": [
+            "Security Council resolution 1820 was adopted on 19 June 2008.",
+            "The General Assembly established the day exactly seven years later.",
+            "The UN definition covers abuses against women, men, girls and boys."
+          ]
+        },
+        "it": {
+          "heading": "19 giugno: una risoluzione del Consiglio di sicurezza diventa memoria annuale",
+          "origin": "Il 19 giugno 2008 il Consiglio di sicurezza ONU adottò la risoluzione 1820, riconoscendo la violenza sessuale come possibile tattica di guerra e minaccia alla pace. Sette anni dopo, il 19 giugno 2015, l'Assemblea generale istituì con A/RES/69/293 la Giornata internazionale per l'eliminazione della violenza sessuale nei conflitti. La data ricorda intenzionalmente quella decisione precedente. La ricorrenza mette al centro sopravvissute e sopravvissuti, accesso alla giustizia e contrasto all'impunità per gli abusi in guerra.",
+          "promoter": "Il Consiglio di sicurezza emanò la risoluzione fondamentale del 2008; l'Assemblea generale proclamò la giornata nel 2015.",
+          "purpose": "Sostenere sopravvissuti, prevenzione, accertamento delle responsabilità e giustizia.",
+          "facts": [
+            "La risoluzione 1820 fu adottata dal Consiglio di sicurezza il 19 giugno 2008.",
+            "L'Assemblea generale istituì la giornata esattamente sette anni dopo.",
+            "La definizione ONU comprende vittime di ogni genere ed età."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/69/293 and original 100-story archive sequence #64. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-of-the-celebration-of-the-solstice",
+      "sources": [
+        "https://www.un.org/en/observances/solstice-day",
+        "https://mandates.un.org/mandate/A/RES/73/300",
+        "https://digitallibrary.un.org/record/3810373"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "21 June: celebrating the cultural meanings of the solstice",
+          "origin": "Solstices mark the turning points in the Sun's apparent yearly path, carrying meanings for agricultural calendars and long-established seasonal festivals. On 20 June 2019 the UN General Assembly adopted A/RES/73/300, declaring 21 June the International Day of the Celebration of the Solstice. The chosen calendar date is associated with the June solstice, which corresponds to summer in the northern hemisphere and winter in the southern one; the exact astronomical moment does not always fall on the 21st. The day celebrates living traditions without suggesting the UN created them.",
+          "promoter": "The General Assembly made the formal 2019 proclamation; the long cultural traditions it celebrates have many communities rather than one founder.",
+          "purpose": "Respect seasonal cultural traditions and encourage intercultural dialogue around solstices and equinoxes.",
+          "facts": [
+            "The international day was proclaimed on 20 June 2019.",
+            "June's solstice represents opposite seasons in the two hemispheres.",
+            "The exact astronomical solstice can fall on different civil dates."
+          ]
+        },
+        "it": {
+          "heading": "21 giugno: il solstizio come patrimonio di comunità diverse",
+          "origin": "I solstizi segnano i punti estremi del percorso apparente del Sole nell'anno e sono da secoli legati a calendari agricoli e festività stagionali. Il 20 giugno 2019 l'Assemblea generale ONU adottò A/RES/73/300, proclamando il 21 giugno Giornata internazionale della celebrazione del solstizio. La data richiama il solstizio di giugno, che corrisponde all'estate nell'emisfero nord e all'inverno in quello sud: l'istante astronomico non cade sempre esattamente il 21. La giornata valorizza tradizioni antiche, senza attribuirne all'ONU l'invenzione.",
+          "promoter": "L'Assemblea generale adottò la proclamazione nel 2019; le tradizioni ricordate appartengono a comunità diverse e non a un fondatore unico.",
+          "purpose": "Rispettare le tradizioni stagionali e favorire dialogo culturale intorno a solstizi ed equinozi.",
+          "facts": [
+            "La proclamazione ONU avvenne il 20 giugno 2019.",
+            "Il solstizio di giugno segna stagioni opposte nei due emisferi.",
+            "Il solstizio astronomico può cadere in date civili diverse."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/73/300 and original 100-story archive sequence #65. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "united-nations-public-service-day",
+      "sources": [
+        "https://www.un.org/observances/public-service-day",
+        "https://mandates.un.org/mandate/A/RES/57/277"
+      ],
+      "introducedYear": 2002,
+      "firstObservedYear": 2003,
+      "locale": {
+        "en": {
+          "heading": "23 June: celebrating public service as a public good",
+          "origin": "The General Assembly designated 23 June United Nations Public Service Day on 20 December 2002 through A/RES/57/277. A year later, in 2003, the UN Public Service Awards were launched to recognise innovative and effective public administration. The observance is not restricted to civil servants receiving prizes: it asks how institutions can provide reliable services, build public trust and respond fairly to communities. The precise historical anniversary explaining 23 June is not identified in the cited institutional material.",
+          "promoter": "The UN General Assembly established the day; UN DESA organises the awards and public-service forum but is not established as the original political proposer.",
+          "purpose": "Highlight integrity, innovation and inclusion in public administration and the value of accessible government services.",
+          "facts": [
+            "The General Assembly established the day on 20 December 2002.",
+            "UN Public Service Awards began in 2003.",
+            "The UN public-service forum brings together officials and institutions to exchange practical improvements."
+          ]
+        },
+        "it": {
+          "heading": "23 giugno: i servizi pubblici come bene comune",
+          "origin": "Il 20 dicembre 2002 l'Assemblea generale ONU istituì il 23 giugno come Giornata delle Nazioni Unite per il servizio pubblico con A/RES/57/277. Nel 2003 nacquero gli UN Public Service Awards per riconoscere innovazione ed efficacia nelle amministrazioni. La ricorrenza non riguarda solo i premi: invita a capire come istituzioni affidabili possano fornire servizi accessibili, costruire fiducia e rispondere in modo equo ai bisogni. Le fonti consultate non individuano un anniversario preciso che spieghi il 23 giugno.",
+          "promoter": "L'Assemblea generale ONU istituì la giornata; UN DESA organizza premio e forum, senza che questo dimostri il ruolo di promotore politico originario.",
+          "purpose": "Valorizzare integrità, innovazione e inclusione nella pubblica amministrazione e accesso ai servizi.",
+          "facts": [
+            "L'atto istitutivo fu adottato il 20 dicembre 2002.",
+            "Gli UN Public Service Awards iniziarono nel 2003.",
+            "Il forum ONU riunisce istituzioni per condividere miglioramenti concreti."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/57/277 and original 100-story archive sequence #66. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-of-women-in-diplomacy",
+      "sources": [
+        "https://www.un.org/en/observances/women-in-diplomacy-day",
+        "https://mandates.un.org/mandate/A/RES/76/269"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "24 June: making women visible at the diplomatic table",
+          "origin": "The General Assembly adopted A/RES/76/269 in 2022, declaring 24 June the International Day of Women in Diplomacy. Diplomatic negotiations, peacebuilding and international representation had long relied on women's contributions even when formal leadership positions excluded them. The UN observance invites governments, associations of women diplomats and educational institutions to make equal participation a practical objective. The consulted resolution does not demonstrate an exact historical anniversary for the date, and the original individual proposing state has not been confirmed here.",
+          "promoter": "The General Assembly formally designated the day in 2022; the institutional page does not establish a particular individual founder.",
+          "purpose": "Recognize women diplomats' achievements and promote equal participation in negotiation, mediation and leadership.",
+          "facts": [
+            "The General Assembly declared 24 June in A/RES/76/269.",
+            "The resolution invites associations of women diplomats to participate.",
+            "The UN links women's involvement in peace processes to more inclusive and durable outcomes."
+          ]
+        },
+        "it": {
+          "heading": "24 giugno: le donne devono essere presenti ai tavoli diplomatici",
+          "origin": "Nel 2022 l'Assemblea generale ONU adottò A/RES/76/269, proclamando il 24 giugno Giornata internazionale delle donne nella diplomazia. Negoziati, costruzione della pace e rappresentanza internazionale hanno beneficiato per decenni del contributo femminile, anche quando gli incarichi direttivi erano preclusi alle donne. La giornata invita governi, associazioni professionali e istituzioni educative a rendere concreta la pari partecipazione. La risoluzione consultata non dimostra un anniversario specifico né un singolo Stato originatore della proposta.",
+          "promoter": "L'Assemblea generale proclamò formalmente la giornata nel 2022; la documentazione non individua una fondatrice individuale.",
+          "purpose": "Riconoscere i risultati delle diplomatiche e favorire pari opportunità in negoziati, mediazione e ruoli direttivi.",
+          "facts": [
+            "La data del 24 giugno è fissata da A/RES/76/269.",
+            "La risoluzione invita anche le associazioni di donne diplomatiche.",
+            "L'ONU collega la partecipazione femminile a processi di pace più inclusivi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/76/269 and original 100-story archive sequence #67. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-against-drug-abuse-and-illicit-trafficking",
+      "sources": [
+        "https://www.un.org/en/observances/end-drug-abuse-day/background",
+        "https://mandates.un.org/mandate/A/RES/42/112",
+        "https://digitallibrary.un.org/record/153012"
+      ],
+      "introducedYear": 1987,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "26 June: a conference decision behind World Drug Day",
+          "origin": "The General Assembly established 26 June as the International Day against Drug Abuse and Illicit Trafficking in A/RES/42/112, adopted on 7 December 1987. The date was chosen because the 1987 International Conference on Drug Abuse and Illicit Trafficking adopted its declaration and multidisciplinary outline on 26 June; the conference record explicitly considered that anniversary. Later UN policy increasingly emphasised health, evidence-based prevention and treatment alongside international cooperation against illicit markets. The first annual observance is not individually confirmed here.",
+          "promoter": "The 1987 International Conference recommended an international day; the General Assembly adopted the formal designation in December.",
+          "purpose": "Promote prevention, treatment, recovery and balanced international cooperation against illicit trafficking.",
+          "facts": [
+            "The international conference closed on 26 June 1987.",
+            "The General Assembly adopted A/RES/42/112 on 7 December 1987.",
+            "The conference record explicitly discusses choosing 26 June as the anniversary."
+          ]
+        },
+        "it": {
+          "heading": "26 giugno: dietro la giornata contro le droghe c'è una conferenza",
+          "origin": "L'Assemblea generale ONU istituì il 26 giugno come Giornata internazionale contro abuso e traffico illecito di droghe con A/RES/42/112, adottata il 7 dicembre 1987. La data fu scelta perché la Conferenza internazionale del 1987 adottò la propria dichiarazione e il programma multidisciplinare il 26 giugno: i verbali discutono esplicitamente quell'anniversario. La politica ONU ha poi dato crescente rilievo a prevenzione, cure e interventi basati su evidenze, insieme al contrasto ai mercati illeciti. La prima celebrazione annuale non è confermata qui.",
+          "promoter": "La Conferenza internazionale del 1987 raccomandò una giornata; l'Assemblea generale decise formalmente la data a dicembre.",
+          "purpose": "Promuovere prevenzione, terapie, recupero e cooperazione equilibrata contro il traffico illegale.",
+          "facts": [
+            "La conferenza internazionale si chiuse il 26 giugno 1987.",
+            "La risoluzione 42/112 fu adottata il 7 dicembre 1987.",
+            "I documenti della conferenza discutono espressamente l'anniversario del 26 giugno."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/42/112 and original 100-story archive sequence #68. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "united-nations-international-day-in-support-of-victims-of-torture",
+      "sources": [
+        "https://www.un.org/en/observances/torture-victims-day",
+        "https://mandates.un.org/mandate/A/RES/52/149",
+        "https://www.ohchr.org/en/treaty-bodies/cat"
+      ],
+      "introducedYear": 1997,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "26 June: the anniversary of the anti-torture treaty",
+          "origin": "The United Nations International Day in Support of Victims of Torture was established on 12 December 1997 through General Assembly resolution A/RES/52/149. The selected date, 26 June, commemorates the entry into force in 1987 of the UN Convention against Torture. Unlike a symbolic statement alone, that Convention sets obligations on States to prevent torture; the UN Voluntary Fund for Victims of Torture had already begun helping survivors through partner organisations in 1981. The day centres victims' rights to rehabilitation, truth and justice.",
+          "promoter": "The General Assembly established the day in 1997; the Convention's earlier negotiators and the UN Torture Fund are distinct institutional histories.",
+          "purpose": "Support survivors, demand accountability and reaffirm the absolute international prohibition on torture.",
+          "facts": [
+            "The Convention against Torture entered into force on 26 June 1987.",
+            "The UN designated the day in 1997, ten years later.",
+            "The UN Voluntary Fund for Victims of Torture dates back to 1981."
+          ]
+        },
+        "it": {
+          "heading": "26 giugno: l'anniversario della Convenzione contro la tortura",
+          "origin": "La Giornata ONU a sostegno delle vittime della tortura fu istituita il 12 dicembre 1997 con A/RES/52/149. Il 26 giugno ricorda l'entrata in vigore, nel 1987, della Convenzione delle Nazioni Unite contro la tortura. Non si tratta solo di una condanna simbolica: il trattato impone obblighi di prevenzione agli Stati. Il Fondo volontario ONU per le vittime della tortura aiutava già sopravvissuti e organizzazioni dal 1981. La ricorrenza mette al centro il diritto a riabilitazione, verità e giustizia.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 1997; la storia dei negoziatori del trattato e del fondo ONU è distinta.",
+          "purpose": "Sostenere le vittime, chiedere responsabilità e riaffermare il divieto assoluto della tortura.",
+          "facts": [
+            "La Convenzione contro la tortura entrò in vigore il 26 giugno 1987.",
+            "L'ONU proclamò la giornata nel 1997, dieci anni dopo.",
+            "Il Fondo volontario ONU esiste dal 1981."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/52/149 and original 100-story archive sequence #69. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-of-deafblindness",
+      "sources": [
+        "https://www.un.org/en/observances/deafblindness-day",
+        "https://mandates.un.org/mandate/A/RES/79/294"
+      ],
+      "introducedYear": 2025,
+      "firstObservedYear": 2025,
+      "locale": {
+        "en": {
+          "heading": "27 June: Helen Keller's birthday becomes a day for deafblind inclusion",
+          "origin": "The General Assembly proclaimed 27 June the International Day of Deafblindness through A/RES/79/294 in 2025. The date commemorates the birth of Helen Keller on 27 June 1880, recalling a prominent author and advocate whose life helped challenge assumptions about deafblind people's capabilities. The new UN day recognises deafblindness as a distinct disability experience with particular communication, mobility and support needs. The first UN annual occasion followed the 2025 proclamation, while communities' long-standing advocacy predates it.",
+          "promoter": "The General Assembly adopted the international designation; Helen Keller inspired the chosen anniversary but did not create the 2025 resolution.",
+          "purpose": "Support accessibility, appropriate communication assistance, autonomy and equal participation of deafblind people.",
+          "facts": [
+            "Helen Keller was born on 27 June 1880.",
+            "The international day was designated in 2025 through A/RES/79/294.",
+            "The UN identifies red-and-white mobility canes as one tool used by deafblind people."
+          ]
+        },
+        "it": {
+          "heading": "27 giugno: il compleanno di Helen Keller e l'inclusione delle persone sordocieche",
+          "origin": "Nel 2025 l'Assemblea generale ONU proclamò il 27 giugno Giornata internazionale della sordocecità con A/RES/79/294. La data ricorda la nascita di Helen Keller il 27 giugno 1880, scrittrice e attivista che contribuì a sfidare i pregiudizi sulle capacità delle persone sordocieche. La giornata riconosce la sordocecità come esperienza distinta, con specifiche esigenze di comunicazione, orientamento e sostegno. La nuova ricorrenza ONU non coincide con l'inizio dell'attivismo delle comunità interessate, molto precedente.",
+          "promoter": "L'Assemblea generale adottò l'atto; Helen Keller ispirò la scelta dell'anniversario, ma non fondò la giornata ONU del 2025.",
+          "purpose": "Promuovere accessibilità, supporti alla comunicazione, autonomia e pari partecipazione delle persone sordocieche.",
+          "facts": [
+            "Helen Keller nacque il 27 giugno 1880.",
+            "La giornata fu designata nel 2025 con A/RES/79/294.",
+            "L'ONU cita i bastoni bianchi e rossi come ausili usati da persone sordocieche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/79/294 and original 100-story archive sequence #70. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "micro-small-and-medium-sized-enterprises-day",
+      "sources": [
+        "https://www.un.org/en/observances/micro-small-medium-businesses-day",
+        "https://mandates.un.org/mandate/A/RES/71/279"
+      ],
+      "introducedYear": 2017,
+      "firstObservedYear": 2017,
+      "locale": {
+        "en": {
+          "heading": "27 June: small enterprises become visible in development policy",
+          "origin": "On 6 April 2017 the General Assembly adopted A/RES/71/279, designating 27 June Micro-, Small and Medium-sized Enterprises Day. The decision recognised that small firms, informal businesses and independent entrepreneurs contribute strongly to employment, household incomes and innovation, yet frequently struggle to access finance and markets. The UN's first annual observance was held in 2017. The institutional document fixes 27 June but does not explain a particular anniversary; the separate International Day of the Tropics is founded on a different resolution.",
+          "promoter": "The General Assembly adopted the day; the official UN record does not identify a single original founder.",
+          "purpose": "Focus attention on the financing, skills, market access and legal protections needed by small businesses.",
+          "facts": [
+            "A/RES/71/279 was adopted on 6 April 2017.",
+            "The UN estimates MSMEs account for about 90 percent of businesses worldwide.",
+            "This resolution is not the act establishing the International Day of the Tropics."
+          ]
+        },
+        "it": {
+          "heading": "27 giugno: le piccole imprese entrano nelle politiche di sviluppo",
+          "origin": "Il 6 aprile 2017 l'Assemblea generale ONU adottò A/RES/71/279, istituendo il 27 giugno come Giornata delle micro, piccole e medie imprese. La decisione riconosce il contributo di piccole aziende, attività informali e imprenditori autonomi a occupazione, redditi e innovazione, spesso con difficoltà di accesso a credito e mercati. La prima celebrazione ONU risale al 2017. Il documento non chiarisce un anniversario specifico per il 27 giugno; la Giornata dei Tropici è istituita con una risoluzione diversa.",
+          "promoter": "L'Assemblea generale proclamò la giornata; gli atti consultati non identificano un unico fondatore originario.",
+          "purpose": "Richiamare l'attenzione su finanziamenti, competenze, mercati e tutele necessarie alle piccole imprese.",
+          "facts": [
+            "La risoluzione 71/279 fu adottata il 6 aprile 2017.",
+            "L'ONU stima che le PMI rappresentino circa il 90 percento delle imprese mondiali.",
+            "La risoluzione non istituisce la distinta Giornata dei Tropici."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/71/279 and original 100-story archive sequence #71. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-asteroid-day",
+      "sources": [
+        "https://www.un.org/en/observances/asteroid-day",
+        "https://mandates.un.org/mandate/A/RES/71/90",
+        "https://www.unoosa.org/oosa/en/ourwork/topics/neos/index.html"
+      ],
+      "introducedYear": 2016,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "30 June: the Tunguska impact becomes a planetary-defence reminder",
+          "origin": "In December 2016 the General Assembly adopted A/RES/71/90, designating 30 June International Asteroid Day. The date remembers the Tunguska event of 30 June 1908 in Siberia, when a celestial body exploded above the landscape and devastated vast areas of forest. The proposal came from the Association of Space Explorers and was endorsed by the UN Committee on the Peaceful Uses of Outer Space (COPUOS). The day aims to replace fear with informed scientific monitoring, international data exchange and preparedness for credible near-Earth object threats.",
+          "promoter": "The Association of Space Explorers proposed the date; COPUOS endorsed it and the General Assembly made it an official observance.",
+          "purpose": "Promote asteroid detection, risk communication and international cooperation on planetary defence.",
+          "facts": [
+            "The Tunguska event occurred in Siberia on 30 June 1908.",
+            "COPUOS endorsed the proposal from the Association of Space Explorers.",
+            "The General Assembly proclaimed the date through A/RES/71/90 in 2016."
+          ]
+        },
+        "it": {
+          "heading": "30 giugno: Tunguska diventa un monito per la difesa planetaria",
+          "origin": "Nel dicembre 2016 l'Assemblea generale ONU adottò A/RES/71/90, fissando il 30 giugno come Giornata internazionale degli asteroidi. La data ricorda l'evento di Tunguska del 30 giugno 1908 in Siberia, quando un corpo celeste esplose nell'atmosfera devastando un'ampia superficie boschiva. La proposta venne dall'Association of Space Explorers e fu approvata dal Comitato ONU per gli usi pacifici dello spazio extra-atmosferico, COPUOS. La giornata invita a sostituire paura e speculazioni con monitoraggio scientifico e preparazione condivisa.",
+          "promoter": "L'Association of Space Explorers propose la ricorrenza, COPUOS la sostenne e l'Assemblea generale la proclamò.",
+          "purpose": "Promuovere ricerca sugli asteroidi, comunicazione dei rischi e cooperazione nella difesa planetaria.",
+          "facts": [
+            "L'evento di Tunguska avvenne il 30 giugno 1908 in Siberia.",
+            "COPUOS sostenne la proposta dell'Association of Space Explorers.",
+            "L'ONU proclamò la data nel 2016 con A/RES/71/90."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/71/90 and original 100-story archive sequence #73. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
+    },
+    {
+      "observanceId": "international-day-of-parliamentarism",
+      "sources": [
+        "https://www.un.org/en/observances/parliamentarism-day",
+        "https://mandates.un.org/mandate/A/RES/72/278"
+      ],
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "30 June: parliaments remember the founding of the IPU",
+          "origin": "The International Day of Parliamentarism was established by the United Nations General Assembly through A/RES/72/278 in 2018. The date, 30 June, marks the foundation of the Inter-Parliamentary Union (IPU) on 30 June 1889, when parliamentarians began building an international forum for dialogue. The anniversary gives modern parliaments a chance to assess representation, transparency, accountability and the inclusion of women and young people. The 2018 UN declaration is separate from the IPU's nineteenth-century founding.",
+          "promoter": "The UN General Assembly proclaimed the day, celebrating the historical origin of the Inter-Parliamentary Union rather than inventing parliamentarism.",
+          "purpose": "Encourage stronger, more representative legislatures, public oversight and cooperation among parliaments.",
+          "facts": [
+            "The Inter-Parliamentary Union was founded on 30 June 1889.",
+            "The UN proclaimed the dedicated observance in 2018.",
+            "The IPU maintains a Committee on the Human Rights of Parliamentarians established in 1976."
+          ]
+        },
+        "it": {
+          "heading": "30 giugno: i parlamenti ricordano la nascita dell'Unione interparlamentare",
+          "origin": "La Giornata internazionale del parlamentarismo fu istituita dall'Assemblea generale ONU con A/RES/72/278 nel 2018. Il 30 giugno ricorda la fondazione dell'Unione interparlamentare (IPU) il 30 giugno 1889, quando rappresentanti dei parlamenti iniziarono a costruire un forum internazionale di dialogo. L'anniversario invita oggi a valutare rappresentanza, trasparenza, responsabilità e partecipazione di donne e giovani. La dichiarazione ONU del 2018 è distinta dalla nascita dell'IPU nell'Ottocento.",
+          "promoter": "L'Assemblea generale ONU istituì la ricorrenza, valorizzando l'origine storica dell'IPU senza inventare il parlamentarismo.",
+          "purpose": "Favorire assemblee rappresentative, controllo pubblico e cooperazione tra parlamenti.",
+          "facts": [
+            "L'IPU nacque il 30 giugno 1889.",
+            "L'ONU proclamò la giornata specifica nel 2018.",
+            "L'IPU dispone dal 1976 di un comitato per i diritti umani dei parlamentari."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual source research 2026-11-12; founding resolution A/RES/72/278 and original 100-story archive sequence #74. Unknown first observed year, proposing person or date rationale not invented. Model-authored English and Italian research; native six-language editorial approval and four other language drafts pending."
     }
   ]
 }
