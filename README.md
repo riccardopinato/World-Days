@@ -1,5 +1,10 @@
 # World Days
 
+## Completion of 155 pre-existing PR histories (2026-11-12)
+
+This integration contains **79 unique IT/EN source-linked origin research histories**, preserving Wave17 (28) and Wave18 (51) separate booklets, individual institutional-source audits and validators. Together with already merged #108 (Nowruz 1), #109 (World Water Day 1), and consolidated #112 (Waves14–16: 74), these account for **all 155 already-prepared unique histories**. **After exact-head green merge:** individually sourced origins **218/1,111**, still requiring research **893**, and *zero* remaining source-linked histories in the tracked PR registry. No 6-language human editorial/native review is asserted; the research ledger is bundled as provenance only and the existing `runtimeRichEditorialApproved` flag continues to block display of unapproved rich history in Flutter. The prior 56 legacy reviewed editorials remain a separate metric. No APK, Play or deploy.
+
+
 ## Consolidated sourced origin research: 74 histories from Wave14–Wave16 (2026-11-12)
 
 This PR integrates **74 distinct ID-bound historical records** from the existing Wave14 (16), Wave15 (32), and Wave16 (26) research branches; the canonical catalog remains **1,111 IDs**. **After passing CI and merge** the source-researched IT/EN origin count becomes **139**, with **972** to research and **79 prepared research drafts** remaining in PR #113 (28) and #114 (51). No new six-locale human-reviewed Rich Editorial publication is claimed; the fail-closed `runtimeRichEditorialApproved` check remains `false` for this research layer. The individual booklet, institutional source audit, and Python validator files are preserved separately per wave. The originating PRs #110 and #111 are superseded only after the consolidated merge succeeds. No APK, Play or deployment.
