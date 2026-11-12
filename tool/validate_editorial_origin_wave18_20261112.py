@@ -85,12 +85,12 @@ assert by_id["international-civil-aviation-day"]["firstObservedYear"] == 1994
 # First-event evidence must not be replaced by the first anniversary in the next year.
 migrants = by_id["international-migrants-day"]
 assert migrants["introducedYear"] == migrants["firstObservedYear"] == 2000
-assert "www.ilo.org/resource/news/ilo-joins-celebration-united-nations-international-migrants-day" in migrants["sources"]
+assert any("www.ilo.org/resource/news/ilo-joins-celebration-united-nations-international-migrants-day" in u for u in migrants["sources"])
 assert "18 dicembre 2000" in migrants["locale"]["it"]["origin"]
 
 epidemic = by_id["international-day-of-epidemic-preparedness"]
 assert epidemic["introducedYear"] == epidemic["firstObservedYear"] == 2020
-assert "www.un.org/sg/en/content/sg/statements/2020-12-27/secretary-generals-message-the-international-day-of-epidemic-preparedness-scroll-down-for-french-version" in epidemic["sources"]
+assert any("www.un.org/sg/en/content/sg/statements/2020-12-27/secretary-generals-message-the-international-day-of-epidemic-preparedness-scroll-down-for-french-version" in u for u in epidemic["sources"])
 assert "Louis Pasteur" in epidemic["locale"]["en"]["origin"]
 
 violence = by_id["international-day-for-the-elimination-of-violence-against-women"]
@@ -98,5 +98,5 @@ assert violence["introducedYear"] == 1999
 assert violence["firstObservedYear"] == 1981  # earlier independent Latin American commemoration
 assert "17 December 1999" in violence["locale"]["en"]["origin"]
 assert "17 dicembre 1999" in violence["locale"]["it"]["origin"]
-assert "digitallibrary.un.org/record/404761" in violence["sources"]
+assert any("digitallibrary.un.org/record/404761" in u for u in violence["sources"])
 print("PASS: 51 source-bound original EN/IT histories, 102 narrative locales, qualified review pending")
