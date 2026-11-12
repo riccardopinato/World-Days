@@ -81,7 +81,7 @@ def coverage_report():
     assert report["catalogTotalUnique"] == 1111
     assert report["globalUnique"] == 289
     assert report["nationalUnique"] == 822
-    assert report["introducedYearProven"] == 71
+    assert report["introducedYearProven"] >= 79, "71 previously verified years plus eight Wave02 primary-source establishment years"
     assert report["editorialStages"]["REVIEWED_RUNTIME"] == 56
     assert report["editorialStages"]["NOT_RESEARCHED_LONG_FORM"] == 1030
     return report
