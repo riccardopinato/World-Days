@@ -1,5 +1,16 @@
 # World Days — Active roadmap
 
+## Wave04 — 14 storie ONU/UNESCO dal lotto istituzionale precedente (12 novembre 2026)
+
+- [x] Recuperare 14 testi di origine individualmente ricercati nel precedente file `un_primary_2026_11_03_02.json` senza moltiplicare o sostituire i 1.111 ID canonici.
+- [x] Completare l'approfondimento IT/EN per ogni storia con fondazione, data storica, promotore o ente adottante dimostrato, finalità e fatti verificabili; mantenere sconosciute le circostanze non documentate.
+- [x] Aggiungere il batch append-only `origin_stories_wave04_20261112.json` e un gate Python di corrispondenza al precedente registro di fonti, anni, testi e status delle quattro lingue aggiuntive.
+- [ ] Verificare CI completa sul commit esatto; integrare soltanto dopo gate/review verdi.
+- [ ] Revisionare con competenza editoriale e linguistica ES/FR/DE/PT prima di dichiarare le storie certificate in sei lingue.
+- [ ] Proseguire in lotti fino al completamento, ricercando origini singole per le restanti 1.065 ricorrenze su 1.111, con priorità alle fonti istituzionali specifiche.
+
+**Checkpoint atteso dopo merge, a catalogo invariato:** 46 origini documentate IT/EN, 1.065 da completare; coda automatica 11 blocchi (10×100+65), 79 anni documentati già presenti. Le 56 storie editoriali legacy sono un conteggio distinto. Nessun APK/Play/produzione.
+
 ## Wave03 — 15 storie storiche ONU/UNESCO già documentate, ora mostrate nell'app (12 novembre 2026)
 
 - [x] Riutilizzare le 15 schede fonte-ricercate in `data/editorial/batches/un_primary_2026_11_03_03.json` senza riscrivere o inventare cronologie; ricomporle in testi IT/EN per il pannello offline delle origini.
