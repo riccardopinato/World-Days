@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 batch = json.loads((ROOT / "data/editorial/batches/origin_stories_wave02_20261112.json").read_text(encoding="utf-8"))
 candidates = json.loads((ROOT / "data/editorial/candidates/wave04_sources_20261109.json").read_text(encoding="utf-8"))
 wave04 = {r["id"]: r for r in candidates["records"]}
+catalog = json.loads((ROOT / "assets/data/official_core.json").read_text(encoding="utf-8"))
+canonical = {r["id"]: r for r in catalog["records"]}
 expected = {
     "world-wetlands-day": (2021, 1997),
     "international-day-of-light": (2017, 2018),
@@ -34,6 +36,8 @@ for r in batch["records"]:
     oid = r["observanceId"]
     year, first = expected[oid]
     assert r["introducedYear"] == year == wave04[oid]["proposedIntroducedYear"], oid
+    assert canonical[oid]["introducedYear"] == year, ("catalog year must be source-surfaced", oid)
+    assert canonical[oid]["introducedYearSource"] == wave04[oid]["primarySource"], ("intro provenance", oid)
     assert r["firstObservedYear"] == first, oid
     assert r["firstObservedYear"] >= r["introducedYear"] or oid == "world-wetlands-day", oid
     assert r["sources"] and wave04[oid]["primarySource"] in r["sources"], oid
