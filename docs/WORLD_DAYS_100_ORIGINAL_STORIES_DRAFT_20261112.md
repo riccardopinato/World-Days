@@ -579,7 +579,7 @@ La lingua portoghese unisce comunità che vivono in continenti diversi e raccont
 
 **Spiegazione:** La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.
 
-**Fonte:** https://www.unesco.org/en/days/list
+**Fonte:** https://www.un.org/en/observances/list-days-weeks
 
 **English — World Portuguese Language Day:** Portuguese connects communities across continents whose experiences are far from uniform. Literature, music, migration and daily speech keep changing the language. The observance invites us to recognize a living linguistic heritage without flattening the variety of its accents and cultures.
 
@@ -1507,7 +1507,7 @@ La storia della tratta atlantica comprende violenza, resistenza e lotte per la l
 
 **Spiegazione:** La ricorrenza offre l'occasione di approfondire il tema attraverso fonti primarie, testimonianze e iniziative affidabili, distinguendo la storia del fenomeno dalla nascita della giornata.
 
-**Fonte:** https://www.unesco.org/en/days/list
+**Fonte:** https://www.un.org/en/observances/list-days-weeks
 
 **English — International Day for the Remembrance of the Slave Trade and Its Abolition:** The history of the Atlantic slave trade includes violence, resistance and struggles for freedom. The date of 23 August also recalls the uprising that began in 1791 in Saint-Domingue, a turning point in the Haitian Revolution. The day asks for careful historical study informed by testimony and evidence.
 
