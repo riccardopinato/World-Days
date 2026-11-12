@@ -26,7 +26,7 @@ Status: DRAFT, NOT MERGED, NOT HUMAN-CERTIFIED. One baseline App Factory CURRENT
 - #61: `world-day-to-combat-desertification-and-drought` — 17/6; A/RES/49/115; formal year 1994; earliest celebration 1995; 2 institutional URLs
 - #62: `sustainable-gastronomy-day` — 18/6; A/RES/71/246; formal year 2016; earliest celebration unknown; 2 institutional URLs
 - #63: `international-day-for-countering-hate-speech` — 18/6; A/RES/75/309; formal year 2021; earliest celebration 2022; 2 institutional URLs
-- #64: `international-day-for-the-elimination-of-sexual-violence-in-conflict` — 19/6; A/RES/69/293; formal year 2015; earliest celebration 2015; 2 institutional URLs
+- #64: `international-day-for-the-elimination-of-sexual-violence-in-conflict` — 19/6; A/RES/69/293; formal year 2015; earliest celebration 2016 (UN 19 June 2016 inaugural account); 3 institutional URLs
 - #65: `international-day-of-the-celebration-of-the-solstice` — 21/6; A/RES/73/300; formal year 2019; earliest celebration unknown; 3 institutional URLs
 - #66: `united-nations-public-service-day` — 23/6; A/RES/57/277; formal year 2002; earliest celebration 2003; 2 institutional URLs
 - #67: `international-day-of-women-in-diplomacy` — 24/6; A/RES/76/269; formal year 2022; earliest celebration unknown; 2 institutional URLs
