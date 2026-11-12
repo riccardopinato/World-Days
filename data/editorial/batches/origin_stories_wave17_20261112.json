@@ -3,7 +3,7 @@
   "batchId": "ORIGIN-WAVE17-POST-FIRST-100-20261112",
   "reviewedOn": "2026-11-12",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 16,
+  "count": 23,
   "sourcePolicy": "Individually verified original chronology and primary UN/UNESCO source links for each id; date reason and proposer only when documented. EN/IT model-authored editorial research, pending qualified factual/native review; ES/FR/DE/PT pending. Not 6 locale certified.",
   "records": [
     {
@@ -559,6 +559,250 @@
         }
       },
       "sourceReviewNote": "Individual source verification with founding act UN Tourism 1979 resolution and original institution timeline for world-tourism-day. Exact date rationale and first annual observance stated only if documented; otherwise unknown. Model-written EN/IT research drafts, not human source certification or native-language review. ES/FR/DE/PT pending."
+    },
+    {
+      "observanceId": "international-day-for-universal-access-to-information",
+      "introducedYear": 2019,
+      "firstObservedYear": 2016,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/74/5",
+        "https://www.un.org/en/observances/information-access-day",
+        "https://www.unesco.org/en/days/universal-access-information"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 September: an information-rights day predates UN adoption",
+          "origin": "UNESCO's General Conference declared 28 September the International Day for Universal Access to Information on 17 November 2015, and the first UNESCO annual observance followed in 2016. The UN General Assembly adopted the same date under A/RES/74/5 in 2019, extending recognition beyond UNESCO. The observance addresses the right to seek and obtain public-interest information and connects that access to press freedom, accountable government and inclusive participation. The founding documents acknowledge pre-existing advocacy; the specific original anniversary behind 28 September has not been individually established here.",
+          "promoter": "UNESCO first proclaimed the annual observance in 2015; the General Assembly made a separate later designation in 2019.",
+          "purpose": "Promote access-to-information laws, reliable public records, independent journalism and participation in public decisions.",
+          "facts": [
+            "UNESCO established 28 September as an observance in November 2015.",
+            "The first annual UNESCO observance followed in 2016.",
+            "The UN General Assembly recognized the same date through A/RES/74/5 in 2019."
+          ]
+        },
+        "it": {
+          "heading": "28 settembre: il diritto all'informazione riconosciuto prima dall'UNESCO",
+          "origin": "Il 17 novembre 2015 la Conferenza generale UNESCO proclamò il 28 settembre Giornata internazionale per l'accesso universale all'informazione, celebrata annualmente dal 2016. Nel 2019 l'Assemblea generale ONU confermò la stessa data con A/RES/74/5, ampliandone il riconoscimento. La ricorrenza riguarda la possibilità di ottenere informazioni d'interesse pubblico e si collega a libertà di stampa, trasparenza delle istituzioni e partecipazione democratica. Le fonti istituzionali riconoscono iniziative precedenti, ma qui non è dimostrato un anniversario preciso che spieghi la scelta originaria del 28 settembre.",
+          "promoter": "La Conferenza generale UNESCO istituì per prima la ricorrenza nel 2015; nel 2019 l'Assemblea generale ONU aggiunse una distinta proclamazione.",
+          "purpose": "Promuovere leggi sull'accesso ai documenti, registri pubblici affidabili, giornalismo indipendente e partecipazione alle decisioni collettive.",
+          "facts": [
+            "L'UNESCO proclamò la giornata nel novembre 2015.",
+            "La prima celebrazione annuale UNESCO seguì nel 2016.",
+            "La distinta proclamazione ONU avvenne nel 2019 con A/RES/74/5."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-day-for-universal-access-to-information, act A/RES/74/5; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-day-of-awareness-of-food-loss-and-waste",
+      "introducedYear": 2019,
+      "firstObservedYear": 2020,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/74/209",
+        "https://www.un.org/en/observances/end-food-waste-day",
+        "https://digitallibrary.un.org/record/3847702/files/A_RES_74_209-EN.pdf",
+        "https://www.un.org/en/delegate/new-un-day-inspires-us-stop-food-waste"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 September: the difference between food loss and food waste",
+          "origin": "On 19 December 2019 the General Assembly adopted A/RES/74/209, creating the International Day of Awareness of Food Loss and Waste for 29 September. The first observance was held in 2020, when the pandemic also exposed fragile food supply chains. Food loss may occur after harvest, during storage or transport; waste commonly happens at retail, restaurants and home. FAO and UNEP were invited to facilitate the international day, which is linked to Sustainable Development Goal target 12.3. The founding text fixes the day without identifying a proven original anniversary for 29 September.",
+          "promoter": "The General Assembly adopted the 2019 resolution and invited FAO to facilitate observance together with UNEP and other partners.",
+          "purpose": "Encourage better storage, distribution, purchasing and food-use practices to reduce avoidable losses and waste while strengthening food security.",
+          "facts": [
+            "The General Assembly adopted A/RES/74/209 on 19 December 2019.",
+            "The first global UN celebration occurred on 29 September 2020.",
+            "SDG target 12.3 concerns reducing food waste and losses along supply chains."
+          ]
+        },
+        "it": {
+          "heading": "29 settembre: la differenza fra perdita e spreco alimentare",
+          "origin": "Il 19 dicembre 2019 l'Assemblea generale ONU approvò A/RES/74/209, istituendo il 29 settembre come Giornata contro perdite e spreco alimentare. La prima celebrazione si svolse nel 2020, quando la pandemia mostrò anche la fragilità delle filiere. Le perdite possono verificarsi dopo il raccolto, durante conservazione e trasporto; lo spreco è spesso legato anche a negozi, ristorazione e consumi domestici. FAO e UNEP furono incaricati di facilitare le iniziative, collegate all'obiettivo di sviluppo sostenibile 12.3. La risoluzione fissa la data senza documentare un anniversario storico preciso.",
+          "promoter": "L'Assemblea generale adottò la risoluzione nel 2019 e invitò FAO, insieme a UNEP e altri partner, a facilitare la ricorrenza.",
+          "purpose": "Ridurre perdite e sprechi con migliore conservazione, distribuzione e consumo responsabile, proteggendo sicurezza alimentare e risorse.",
+          "facts": [
+            "L'Assemblea generale approvò A/RES/74/209 il 19 dicembre 2019.",
+            "La prima celebrazione ONU si tenne il 29 settembre 2020.",
+            "L'obiettivo SDG 12.3 riguarda la riduzione di spreco e perdite lungo le filiere."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-day-of-awareness-of-food-loss-and-waste, act A/RES/74/209; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-translation-day",
+      "introducedYear": 2017,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/71/288",
+        "https://www.un.org/en/events/translationday/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 September: translators remember Saint Jerome",
+          "origin": "On 24 May 2017 the UN General Assembly adopted A/RES/71/288, recognising 30 September as International Translation Day. The date is the feast of Saint Jerome, who died near Bethlehem on 30 September 420 and whose translation of biblical texts into Latin made him an enduring symbol for translators. Professional translation associations had celebrated the day before the formal UN recognition, so the 2017 resolution did not invent the tradition. The UN stresses that translators, interpreters and terminologists are essential for multilingual diplomacy, scientific exchange and accurate communication across languages.",
+          "promoter": "The General Assembly proclaimed the observance in 2017; professional translator organisations celebrated earlier, while Jerome is the historical figure commemorated rather than the modern political founder.",
+          "purpose": "Recognize translation and interpretation as skilled professional work that enables equal access to knowledge, understanding and international cooperation.",
+          "facts": [
+            "The General Assembly adopted resolution A/RES/71/288 on 24 May 2017.",
+            "The date commemorates Saint Jerome, who died on 30 September 420.",
+            "The UN also recognises interpretation and terminology as language professions beyond written translation."
+          ]
+        },
+        "it": {
+          "heading": "30 settembre: san Girolamo e il lavoro dei traduttori",
+          "origin": "Il 24 maggio 2017 l'Assemblea generale ONU adottò A/RES/71/288, riconoscendo il 30 settembre come Giornata internazionale della traduzione. La data coincide con la festa di san Girolamo, morto vicino a Betlemme il 30 settembre 420, celebre per il lavoro di traduzione dei testi biblici in latino. Associazioni professionali celebravano la giornata già prima del riconoscimento ONU, che quindi non ne costituisce la prima iniziativa. L'ONU ricorda il valore di traduttori, interpreti e terminologi per diplomazia, ricerca e scambi accurati fra lingue diverse.",
+          "promoter": "L'Assemblea generale proclamò la ricorrenza nel 2017; le associazioni di traduttori avevano iniziative precedenti e san Girolamo è il riferimento storico, non il fondatore politico.",
+          "purpose": "Riconoscere traduzione e interpretariato come professioni che rendono accessibili conoscenze e permettono comprensione e cooperazione internazionale.",
+          "facts": [
+            "L'ONU adottò la risoluzione A/RES/71/288 il 24 maggio 2017.",
+            "La giornata ricorda san Girolamo, morto il 30 settembre 420.",
+            "L'ONU include fra le professioni linguistiche anche interpretazione e terminologia."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-translation-day, act A/RES/71/288; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-day-of-non-violence",
+      "introducedYear": 2007,
+      "firstObservedYear": 2007,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/61/271",
+        "https://www.un.org/en/observances/non-violence-day",
+        "https://www.un.org/en/ga/president/62/pdf/statements/20071002-nonviolence.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 October: Gandhi's birthday gives non-violence a calendar date",
+          "origin": "The UN General Assembly proclaimed 2 October the International Day of Non-Violence through A/RES/61/271 on 15 June 2007. Its date commemorates the birth of Mahatma Gandhi on 2 October 1869, honouring the role of civil resistance and peaceful methods in his struggle against colonial rule. India introduced the resolution on behalf of a large group of co-sponsors, while the first UN observance took place in October 2007. The day asks schools, communities and institutions to teach practical ways of opposing violence without suggesting that Gandhi created every historical philosophy of non-violence.",
+          "promoter": "India presented the proposal on behalf of many co-sponsors; the UN General Assembly adopted the formal international designation.",
+          "purpose": "Promote education for peace, tolerance, civil dialogue and non-violent ways to address injustice and conflict.",
+          "facts": [
+            "The date honours Gandhi's birth on 2 October 1869.",
+            "The United Nations adopted the day on 15 June 2007 through A/RES/61/271.",
+            "A UN General Assembly President's statement documents an inaugural 2 October 2007 celebration."
+          ]
+        },
+        "it": {
+          "heading": "2 ottobre: il compleanno di Gandhi diventa giornata della nonviolenza",
+          "origin": "Il 15 giugno 2007 l'Assemblea generale ONU approvò A/RES/61/271, proclamando il 2 ottobre Giornata internazionale della nonviolenza. Il giorno ricorda la nascita di Mahatma Gandhi, avvenuta il 2 ottobre 1869, e l'importanza della resistenza civile e pacifica nella sua lotta contro il dominio coloniale. L'India presentò la proposta a nome di numerosi copromotori, mentre la prima commemorazione ONU ebbe luogo nell'ottobre 2007. La giornata invita scuole e cittadini a conoscere strumenti nonviolenti contro l'ingiustizia senza attribuire a Gandhi l'invenzione di ogni tradizione pacifista.",
+          "promoter": "L'India presentò la proposta sostenuta da numerosi Stati; l'Assemblea generale ONU approvò formalmente la proclamazione internazionale.",
+          "purpose": "Promuovere educazione alla pace, tolleranza, dialogo civile e risposte nonviolente alle ingiustizie e ai conflitti.",
+          "facts": [
+            "Il 2 ottobre celebra la nascita di Gandhi, avvenuta nel 1869.",
+            "L'Assemblea generale approvò A/RES/61/271 il 15 giugno 2007.",
+            "Un discorso del presidente dell'Assemblea documenta la prima celebrazione ONU nell'ottobre 2007."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-day-of-non-violence, act A/RES/61/271; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-geodiversity-day",
+      "introducedYear": 2021,
+      "firstObservedYear": 2022,
+      "sources": [
+        "https://www.unesco.org/en/days/geodiversity",
+        "https://www.unesco.org/en/articles/unesco-adopts-international-geodiversity-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 October: Earth's non-living diversity gains international recognition",
+          "origin": "UNESCO's General Conference approved 6 October as International Geodiversity Day on 22 November 2021, following a proposal from the International Union of Geological Sciences and 108 other scientific organisations. Its first annual celebration followed in 2022. Geodiversity encompasses rocks, fossils, minerals, soils and landforms, and even the geological processes that shape water, ecosystems and landscapes. The UNESCO observance is a reminder that biodiversity depends on soil and geological foundations. The official account confirms the date but does not identify a specific historical anniversary explaining why 6 October was chosen.",
+          "promoter": "The International Union of Geological Sciences and 108 collaborating scientific organisations proposed recognition; UNESCO's General Conference adopted it in 2021.",
+          "purpose": "Show how geological features sustain groundwater, soils, ecosystems, landscapes, science and responsible resource use.",
+          "facts": [
+            "UNESCO's General Conference approved the day on 22 November 2021.",
+            "The founding proposal came from IUGS and 108 other scientific organisations.",
+            "Geodiversity concerns non-living Earth materials and processes, complementing biodiversity."
+          ]
+        },
+        "it": {
+          "heading": "6 ottobre: la diversità geologica ottiene un riconoscimento UNESCO",
+          "origin": "Il 22 novembre 2021 la Conferenza generale UNESCO approvò il 6 ottobre come Giornata internazionale della geodiversità, su proposta dell'Unione internazionale delle scienze geologiche e di altre 108 organizzazioni scientifiche. La prima annualità seguì nel 2022. Geodiversità significa rocce, fossili, minerali, suoli e forme del paesaggio, oltre ai processi che modellano risorse idriche ed ecosistemi. La celebrazione ricorda che anche la biodiversità dipende dal suolo e dalla struttura geologica. La fonte ufficiale conferma la data, ma non ne motiva un anniversario storico specifico.",
+          "promoter": "L'Unione internazionale delle scienze geologiche e 108 organizzazioni proponenti ottennero il riconoscimento dalla Conferenza generale UNESCO nel 2021.",
+          "purpose": "Mostrare come suoli, acqua sotterranea e strutture geologiche sostengano ecosistemi, conoscenza scientifica e uso responsabile delle risorse.",
+          "facts": [
+            "L'UNESCO approvò la giornata il 22 novembre 2021.",
+            "L'iniziativa fu proposta dall'IUGS con 108 altre organizzazioni scientifiche.",
+            "La geodiversità riguarda anche processi e materiali della Terra non viventi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-geodiversity-day, act UNESCO General Conference 2021; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "world-cotton-day",
+      "introducedYear": 2021,
+      "firstObservedYear": 2019,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/75/318",
+        "https://www.wto.org/english/tratop_e/agric_e/wcd2019_e.htm",
+        "https://www.wto.org/english/news_e/news21_e/cott_16sep21_e.htm",
+        "https://www.wto.org/english/tratop_e/agric_e/cotton_e.htm"
+      ],
+      "locale": {
+        "en": {
+          "heading": "7 October: Cotton-4 farmers' initiative receives a UN day",
+          "origin": "The first World Cotton Day event was held at World Trade Organization headquarters in Geneva on 7 October 2019, at the initiative of the Cotton-4 countries Benin, Burkina Faso, Chad and Mali. On 30 August 2021 the UN General Assembly adopted A/RES/75/318, formally designating 7 October for annual observance after a proposal supported also by Côte d'Ivoire. This sequence separates grassroots diplomatic work and the first celebration from later UN status. Cotton supports farmers, transport, textile production and trade across continents, but many small producers struggle to capture value and manage environmental pressures.",
+          "promoter": "The Cotton-4 countries initiated the 2019 WTO observance; Benin, Burkina Faso, Chad, Côte d'Ivoire and Mali proposed the 2021 UN recognition.",
+          "purpose": "Recognize small cotton producers' livelihoods and promote fairer trade, responsible production and better value-chain opportunities.",
+          "facts": [
+            "The WTO hosted the first World Cotton Day on 7 October 2019.",
+            "The UN General Assembly formally recognised the day on 30 August 2021.",
+            "The Cotton-4 initiative consists of Benin, Burkina Faso, Chad and Mali."
+          ]
+        },
+        "it": {
+          "heading": "7 ottobre: l'iniziativa dei Paesi africani del cotone arriva all'ONU",
+          "origin": "La prima Giornata mondiale del cotone si svolse il 7 ottobre 2019 presso la sede dell'Organizzazione mondiale del commercio a Ginevra, su iniziativa dei Paesi Cotton-4: Benin, Burkina Faso, Ciad e Mali. Il 30 agosto 2021 l'Assemblea generale ONU adottò A/RES/75/318, riconoscendo formalmente il giorno dopo una proposta sostenuta anche dalla Costa d'Avorio. La cronologia distingue l'iniziativa dei produttori e l'evento originale dal successivo riconoscimento ONU. Il cotone sostiene agricoltura e industria tessile, ma molti piccoli produttori affrontano difficoltà commerciali e ambientali.",
+          "promoter": "I Paesi Cotton-4 promossero l'evento del 2019; Benin, Burkina Faso, Ciad, Costa d'Avorio e Mali sostennero il riconoscimento ONU del 2021.",
+          "purpose": "Valorizzare il lavoro dei piccoli coltivatori, commercio più equo, produzione responsabile e migliori opportunità lungo la filiera.",
+          "facts": [
+            "Il primo World Cotton Day si svolse all'OMC di Ginevra il 7 ottobre 2019.",
+            "L'Assemblea generale ONU approvò A/RES/75/318 il 30 agosto 2021.",
+            "Il gruppo Cotton-4 comprende Benin, Burkina Faso, Ciad e Mali."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for world-cotton-day, act A/RES/75/318; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
+    },
+    {
+      "observanceId": "international-day-of-the-girl-child",
+      "introducedYear": 2011,
+      "firstObservedYear": 2012,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/66/170",
+        "https://www.un.org/en/observances/girl-child-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 October: girls' rights gain a dedicated UN observance",
+          "origin": "On 19 December 2011 the United Nations General Assembly adopted A/RES/66/170 and designated 11 October the International Day of the Girl Child. The first annual celebration followed in 2012, drawing attention to challenges that girls face in education, protection from violence, health and participation in social life. The day builds on earlier children's and women's rights instruments, including the Convention on the Rights of the Child. It does not imply that girls' activism began in 2011. The original UN resolution fixes 11 October, while a particular anniversary explaining the selection has not been individually verified here.",
+          "promoter": "The General Assembly established the UN day in 2011, following sustained work by girls' rights organisations and Member States on equality and protection.",
+          "purpose": "Advance girls' access to education, health and safety, and support their leadership and participation in decisions affecting their lives.",
+          "facts": [
+            "The founding resolution A/RES/66/170 was adopted on 19 December 2011.",
+            "The first annual UN International Day of the Girl Child took place in 2012.",
+            "The celebration explicitly addresses girls' rights, opportunities and protection against discrimination."
+          ]
+        },
+        "it": {
+          "heading": "11 ottobre: un giorno ONU dedicato ai diritti delle ragazze",
+          "origin": "Il 19 dicembre 2011 l'Assemblea generale ONU adottò A/RES/66/170, istituendo l'11 ottobre Giornata internazionale delle bambine e delle ragazze. La prima celebrazione si svolse nel 2012 e richiamò difficoltà riguardanti istruzione, violenza, salute e partecipazione alla vita sociale. La giornata si inserisce in un percorso di tutela dei diritti dell'infanzia e delle donne, compresa la Convenzione sui diritti del fanciullo, e non significa che l'impegno delle ragazze sia iniziato nel 2011. L'atto conferma l'11 ottobre, ma non è stato verificato qui un preciso anniversario storico che abbia determinato la scelta.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 2011, dopo anni di lavoro di organizzazioni e Stati per uguaglianza, istruzione e protezione delle ragazze.",
+          "purpose": "Ampliare accesso a scuola, salute e sicurezza e sostenere leadership e partecipazione delle ragazze alle decisioni che le riguardano.",
+          "facts": [
+            "La risoluzione istitutiva A/RES/66/170 fu adottata il 19 dicembre 2011.",
+            "La prima Giornata internazionale ONU delle ragazze si svolse nel 2012.",
+            "La ricorrenza riguarda opportunità, diritti e protezione contro le discriminazioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-day-of-the-girl-child, act A/RES/66/170; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending."
     }
   ]
 }
