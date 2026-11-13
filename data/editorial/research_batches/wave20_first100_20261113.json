@@ -10,8 +10,8 @@
   "batchSizeLimit": 100,
   "recordCount": 100,
   "progress": {
-    "individuallyResearchedInThisBlock": 35,
-    "awaitingIndependentResearch": 65,
+    "individuallyResearchedInThisBlock": 60,
+    "awaitingIndependentResearch": 40,
     "blockedForMissingOriginalSource": 0,
     "qualifiedSixLocaleHumanReviewed": 0,
     "publishedAsRichEditorial": 0
@@ -425,15 +425,19 @@
       ],
       "titleEn": "International Day of University Sport",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
+      "firstObservedYearVerified": 2016,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/days/university-sport",
+        "https://www.fisu.net/2016/09/21/idus2016-celebrated-in-iran/",
+        "https://www.fisu.net/2016/09/19/idus-2016-message-from-unesco/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -585,15 +589,18 @@
       ],
       "titleEn": "Spanish Language Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
+      "firstObservedYearVerified": 2010,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/es/events/spanishlanguageday/2010/",
+        "https://www.un.org/en/observances/english-language-day/multilingualism-and-the-un"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -684,15 +691,19 @@
       ],
       "titleEn": "World Antimicrobial Resistance Awareness Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
+      "firstObservedYearVerified": 2015,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/news-room/events/detail/2015/11/16/default-calendar/world-antibiotic-awareness-week",
+        "https://www.who.int/news/item/06-06-2023-world-antimicrobial-awareness-week-%28waaw%29-will-now-be-world-amr-awareness-week",
+        "https://www.who.int/campaigns/world-amr-awareness-week/antibiotic-resistance"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -736,15 +747,18 @@
       ],
       "titleEn": "World Breastfeeding Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1992,
+      "firstObservedYearVerified": 1992,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://waba.org.my/wbw/",
+        "https://www.waba.org.my/oldernews-sec.htm"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -814,15 +828,18 @@
       ],
       "titleEn": "World Day for Safety and Health at Work",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2003,
+      "firstObservedYearVerified": 2003,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.ilo.org/resource/history-28-april",
+        "https://www.ilo.org/legacy/english/protection/safework/worldday/index_2003.htm"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -838,15 +855,19 @@
       ],
       "titleEn": "World Day of Remembrance for Road Traffic Victims",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2005,
+      "firstObservedYearVerified": 1993,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/groups/united-nations-road-safety-collaboration/world-day-of-remembrance",
+        "https://digitallibrary.un.org/record/558920",
+        "https://www.who.int/publications/i/item/9241594527"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -862,15 +883,18 @@
       ],
       "titleEn": "World Day of Romani Language",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/days/romani-language",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000235250"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -967,15 +991,18 @@
       ],
       "titleEn": "World Immunization Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2012,
+      "firstObservedYearVerified": 2012,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/news-room/events/detail/2012/04/24/default-calendar/world-immunization-2012",
+        "https://www.who.int/en/campaigns/world-immunization-week"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1046,15 +1073,18 @@
       ],
       "titleEn": "World Maritime Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1978,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.imo.org/en/mediacentre/secretarygeneral/pages/peruparallel.aspx",
+        "https://www.imo.org/en/about/events/pages/wmd-archives.aspx"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1070,15 +1100,19 @@
       ],
       "titleEn": "World Meteorological Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1960,
+      "firstObservedYearVerified": 1961,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://tools.wmo.int/wmo-resolutions/",
+        "https://public.wmo.int/events-and-meetings/world-met-day",
+        "https://wmo.int/media/magazine-article/wmo-bulletin-first-50-years"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1145,15 +1179,19 @@
       ],
       "titleEn": "World Philosophy Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2005,
+      "firstObservedYearVerified": 2002,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/articles/unesco-celebrates-world-philosophy-day-2014-0",
+        "https://www.unesco.org/en/articles/unesco-world-philosophizes",
+        "https://philosophyworldday.uoa.gr/en/world-philosophy-day/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1279,15 +1317,19 @@
       ],
       "titleEn": "Black Consciousness Day — Brazil",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2011,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html",
+        "https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional",
+        "https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1305,15 +1347,18 @@
       ],
       "titleEn": "Canadian Multiculturalism Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2002,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html",
+        "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1331,15 +1376,18 @@
       ],
       "titleEn": "Constitution Memorial Day — Japan",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1948,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1357,15 +1405,18 @@
       ],
       "titleEn": "Culture Day — Japan",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1948,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1438,15 +1489,18 @@
       ],
       "titleEn": "Harmony Day — Australia",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1999,
+      "firstObservedYearVerified": 1999,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.homeaffairs.gov.au/news-subsite/Pages/2019-Mar/celebrating%2020%20years%20of%20harmony%20celebrations.aspx",
+        "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1493,15 +1547,18 @@
       ],
       "titleEn": "National Acquired Brain Injury Day — Spain",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2007,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx",
+        "https://www.lamoncloa.gob.es/consejodeministros/Paginas/enlacetranscripciones/240807-delavega.aspx"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1548,15 +1605,18 @@
       ],
       "titleEn": "National Flag Day — Poland",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2004,
+      "firstObservedYearVerified": 2004,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.gov.pl/web/kultura/dzien-flagi-rzeczypospolitej-polskiej-oraz-dzien-polonii-i-polakow-za-granica",
+        "https://www.sejm.gov.pl/Sejm10.nsf/komunikat.xsp?documentId=13F1B5290B9C2DDCC1258B0E003F446F"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1603,15 +1663,18 @@
       ],
       "titleEn": "National Foundation Day — Japan",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1966,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1658,15 +1721,18 @@
       ],
       "titleEn": "National Science Day — India",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1986,
+      "firstObservedYearVerified": 1987,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=151846&lang=1&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468&lang=2&reg=48"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1711,15 +1777,18 @@
       ],
       "titleEn": "National Sorry Day — Australia",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1998,
+      "firstObservedYearVerified": 1998,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://aiatsis.gov.au/explore/stolen-generations",
+        "https://www.reconciliation.org.au/national-sorry-day-2020/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1737,15 +1806,18 @@
       ],
       "titleEn": "National Voters' Day — India",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2011,
+      "firstObservedYearVerified": 2011,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.eci.gov.in/voicenet/ArticleDECUS.htm",
+        "https://www.eci.gov.in/voicenet/Article_nvd2021.htm"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2205,15 +2277,19 @@
       ],
       "titleEn": "Baptism of Poland Day — PL",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2019,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://eli.gov.pl/api/acts/DU/2019/656/text.html",
+        "https://www.gov.pl/web/uw-lubuski/1055-rocznica-chrztu-polski",
+        "https://www.sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C826413CFA3F7FAC1258DD90025126D"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2335,15 +2411,18 @@
       ],
       "titleEn": "Birthday of Martin Luther King, Jr.",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1983,
+      "firstObservedYearVerified": 1986,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://history.house.gov/Historical-Highlights/1951-2000/The-creation-of-the-Martin-Luther-King-Jr--Holiday/",
+        "https://kinginstitute.stanford.edu/king-national-holiday"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2439,15 +2518,18 @@
       ],
       "titleEn": "Canada Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1879,
+      "firstObservedYearVerified": 1868,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2632,5 +2714,5 @@
       "storyFile": null
     }
   ],
-  "progressNote": "35 distinct IT/EN source-linked research drafts are committed in Wave20. All 100 IDs remain the active cohort; 65 still require original individually sourced histories. No human editorial/native six-locale certification or rich-runtime approval."
+  "progressNote": "60/100 unique canonical ID-bound IT/EN original source-researched stories now saved, with 40 canonical IDs remaining in the same fixed cohort. No six-language human or Rich Editorial approval claimed; unknown years remain null."
 }
