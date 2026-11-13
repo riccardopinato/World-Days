@@ -15,6 +15,7 @@ BATCHES = (
     "origin_stories_wave21_canada_a_20261113.json",
     "origin_stories_wave21_canada_b1_20261113.json",
     "origin_stories_wave21_canada_b2_20261113.json",
+    "origin_stories_wave21_canada_c_20261113.json",
 )
 DIR = ROOT / "data/editorial/batches"
 LOCALES = {"en", "it", "es", "fr", "de", "pt"}
@@ -31,7 +32,7 @@ def validate():
     other = [r for r in candidates if r.get("canonicalIdVerifiedByOtherWave")]
     pending = [r for r in candidates if not r.get("canonicalIdVerifiedByWave08")
                and not r.get("canonicalIdVerifiedByOtherWave")]
-    assert (len(national), len(other), len(pending)) == (27, 11, 8)
+    assert (len(national), len(other), len(pending)) == (27, 13, 6)
     canonical = json.loads(
         (ROOT / "data/market/wave08_canada_primary_20261111.json").read_text(encoding="utf-8")
     )
@@ -50,10 +51,10 @@ def validate():
             rid = row["observanceId"]
             assert rid not in prior and rid not in new, (rid, path)
             (new if path.name in BATCHES else prior)[rid] = row
-    assert len(new) == 21
-    assert set(new) == national_ids - set(prior)
+    assert len(new) == 23
+    assert (national_ids & set(new)) == national_ids - set(prior)
     assert len(national_ids & set(prior)) == 6
-    assert {r["canonicalIdVerifiedByOtherWave"] for r in other} <= set(prior)
+    assert {r["canonicalIdVerifiedByOtherWave"] for r in other} <= (set(prior) | set(new))
 
     for rid, record in new.items():
         assert set(record["locale"]) == LOCALES, rid
@@ -79,8 +80,8 @@ def validate():
             )
     assert not any(row.get("sixLocaleHumanReviewed") for row in candidates)
     print("CANADA_46_RECONCILED", 46, "NATIONAL", 27, "PRIOR_SOURCE", 6,
-          "NEW_SOURCE_SIX_LOCALE_DRAFT", len(new), "EXISTING_OTHER_ALIASES", 11,
-          "OTHER_IDENTITY_OR_ORIGIN_PENDING", 8, "HUMAN_REVIEW", "PENDING")
+          "NEW_SOURCE_SIX_LOCALE_DRAFT", len(new), "OTHER_IDENTIFIED_ALIASES", 13,
+          "OTHER_IDENTITY_OR_ORIGIN_PENDING", 6, "HUMAN_REVIEW", "PENDING")
 
 
 if __name__ == "__main__":
