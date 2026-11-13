@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 54,
+  "count": 59,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -1849,6 +1849,176 @@
         }
       },
       "sourceReviewNote": "Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content."
+    },
+    {
+      "observanceId": "japan-constitution-memorial-day",
+      "introducedYear": 1948,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 May: Japan's postwar Constitution becomes a national holiday",
+          "origin": "Japan's Constitution Memorial Day was established by the National Holidays Act, Law No. 178 of 20 July 1948. It is held on 3 May because the postwar Constitution of Japan entered into force on 3 May 1947, rather than on its earlier promulgation date, 3 November 1946. The government's historical account places Constitution Memorial Day among the nine holidays in the original 1948 law and explains its aim as remembering the Constitution's coming into effect while considering the nation's development. The legal celebration differs from the constitutional event itself. The founding statute does not independently document an inaugural public ceremony, so a first annual event year is not asserted.",
+          "promoter": "The Japanese Diet created the statutory holiday in 1948 through the National Holidays Act, not through an invented individual founder.",
+          "purpose": "Reflect on constitutional government, civic institutions and the development of postwar Japanese society.",
+          "facts": [
+            "Japan's Constitution entered into force on 3 May 1947.",
+            "The National Holidays Act was enacted on 20 July 1948.",
+            "Constitution Memorial Day was among the nine holidays in the original 1948 law."
+          ]
+        },
+        "it": {
+          "heading": "3 maggio: la Costituzione giapponese diventa una festa nazionale",
+          "origin": "In Giappone il Giorno della memoria della Costituzione fu istituito con la legge sulle festività nazionali n. 178 del 20 luglio 1948. Si celebra il 3 maggio perché la Costituzione del dopoguerra entrò in vigore il 3 maggio 1947, mentre la sua promulgazione era avvenuta il 3 novembre 1946. La ricostruzione del governo colloca la giornata fra le nove festività previste dalla legge originale del 1948 e la collega alla riflessione sul futuro del Paese. L'evento costituzionale del 1947 e l'istituzione della festa nel 1948 sono avvenimenti distinti. La legge non prova autonomamente una prima cerimonia pubblica, quindi tale dato rimane sconosciuto.",
+          "promoter": "La Dieta giapponese istituì la festività tramite la legge del 1948; non viene inventato un singolo fondatore personale.",
+          "purpose": "Ricordare il governo costituzionale e riflettere sull'evoluzione democratica e civile del Giappone.",
+          "facts": [
+            "La Costituzione entrò in vigore il 3 maggio 1947.",
+            "La legge sulle festività nazionali è del 20 luglio 1948.",
+            "Il 3 maggio figurava già nelle nove festività originali del 1948."
+          ]
+        }
+      },
+      "sourceReviewNote": "Japanese Cabinet Office origin history and full original National Holidays Act 178 of 1948 identify adoption and date rationale; inaugural ceremony not independently documented. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
+    },
+    {
+      "observanceId": "japan-culture-day",
+      "introducedYear": 1948,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 November: Japan chooses culture, freedom and peace after the war",
+          "origin": "Japan's Culture Day was established by Law No. 178 of 20 July 1948 as one of the nine national holidays in the first postwar National Holidays Act. The statute defines its purposes as loving freedom and peace and promoting culture. The date, 3 November, also marks the promulgation of Japan's postwar Constitution on 3 November 1946. It had earlier been celebrated as Emperor Meiji's birthday, but the 1948 statutory observance explicitly shifted the public meaning toward cultural achievement and peace. The Cabinet Office's institutional history and original 1948 law support these distinctions. The first specific public Culture Day ceremony after enactment has not been independently established and is not invented.",
+          "promoter": "The National Diet established Culture Day in 1948 and attached the specific civic ideals of culture, freedom and peace.",
+          "purpose": "Recognize cultural production and education while remembering Japan's postwar commitment to liberty and peace.",
+          "facts": [
+            "The National Holidays Act created Culture Day on 20 July 1948.",
+            "The law explicitly states freedom, peace and culture as its aims.",
+            "The same calendar date commemorates the Constitution's 1946 promulgation."
+          ]
+        },
+        "it": {
+          "heading": "3 novembre: il Giappone sceglie cultura, libertà e pace nel dopoguerra",
+          "origin": "Il Giorno della cultura giapponese nacque con la legge n. 178 del 20 luglio 1948, una delle nove festività nazionali originali del dopoguerra. Il testo indica come finalità l'amore per libertà e pace e la promozione della cultura. Il 3 novembre ricorda anche la promulgazione della Costituzione giapponese del 3 novembre 1946. La data era stata precedentemente associata al compleanno dell'imperatore Meiji, ma la nuova festività del 1948 volle sottolineare i valori civili e il patrimonio culturale. La ricostruzione governativa e la legge originale confermano questi passaggi. La prima specifica cerimonia pubblica dopo la legge non è documentata autonomamente e resta sconosciuta.",
+          "promoter": "La Dieta giapponese istituì il Giorno della cultura nel 1948, collegandolo esplicitamente a libertà, pace e cultura.",
+          "purpose": "Valorizzare attività culturali e formazione e ricordare i principi civili del Giappone del dopoguerra.",
+          "facts": [
+            "Culture Day fu istituito dalla legge n. 178 del 20 luglio 1948.",
+            "La legge cita esplicitamente libertà, pace e cultura.",
+            "La data corrisponde anche alla promulgazione della Costituzione del 3 novembre 1946."
+          ]
+        }
+      },
+      "sourceReviewNote": "Japan Cabinet Office authoritative holiday history and full original 1948 law provide legal establishment and stated aims; first observed specific ceremony unverified. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
+    },
+    {
+      "observanceId": "japan-national-foundation-day",
+      "introducedYear": 1966,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html",
+        "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 February: Japan establishes a national foundation remembrance day",
+          "origin": "Japan's National Foundation Day was introduced by a 1966 amendment to the National Holidays Act. Instead of writing a specific date directly into the act, lawmakers required the government to determine the date by cabinet order after a dedicated advisory council examined public opinion and historical considerations. The National Foundation Day Advisory Council recommended 11 February in December 1966; Cabinet Order No. 376 formalized that date in the same month. The holiday celebrates a symbolic national foundation and is distinct from proving one exact archaeological date for the country's birth. The government describes its civic purpose as reflecting on the nation's formation and future. A first individually documented public annual ceremony is not established by the founding records.",
+          "promoter": "The Japanese legislature amended the holiday law in 1966, and the Cabinet set 11 February after the advisory council's recommendation.",
+          "purpose": "Encourage reflection on Japan's historical development and cultural heritage without conflating tradition with independently proven ancient chronology.",
+          "facts": [
+            "The National Holidays Act was amended in 1966 to create the holiday.",
+            "A government advisory council recommended 11 February in December 1966.",
+            "Cabinet Order No. 376 officially set the date later in that month."
+          ]
+        },
+        "it": {
+          "heading": "11 febbraio: il Giappone istituisce il giorno della fondazione nazionale",
+          "origin": "Il Giorno della fondazione nazionale giapponese fu introdotto da una modifica del 1966 alla legge sulle festività. La legge non fissò direttamente il giorno del mese: incaricò il governo di decidere tramite decreto dopo la consultazione di un apposito consiglio di esperti e il confronto pubblico. Nel dicembre 1966 il consiglio propose l'11 febbraio, data poi formalizzata con il decreto governativo n. 376 nello stesso mese. La giornata ricorda simbolicamente le origini dello Stato e non dimostra una precisa cronologia archeologica della sua nascita. Il governo ne descrive il significato come riflessione sulla storia e sul futuro del Paese. Le fonti istitutive non documentano una prima singola cerimonia annuale, quindi l'anno rimane non accertato.",
+          "promoter": "Il Parlamento modificò la legge nel 1966, mentre il governo fissò l'11 febbraio dopo il parere del consiglio consultivo.",
+          "purpose": "Riflettere sul patrimonio storico del Giappone, distinguendo tradizione simbolica e ricostruzione storica.",
+          "facts": [
+            "La festività fu introdotta nella legge nel 1966.",
+            "Il consiglio consultivo propose l'11 febbraio nel dicembre dello stesso anno.",
+            "Il decreto governativo n. 376 fissò ufficialmente la data."
+          ]
+        }
+      },
+      "sourceReviewNote": "Japanese Cabinet Office directly documents 1966 law amendment and December Cabinet Order 376, without proof of first annual 1967 ceremony. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
+    },
+    {
+      "observanceId": "ca-canada-day",
+      "introducedYear": 1879,
+      "firstObservedYear": 1868,
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 July: from Confederation celebrations to the modern Canada Day",
+          "origin": "Canada's 1 July commemoration celebrates Confederation, formed on 1 July 1867 under the British North America Act. Governor General Lord Monck issued a proclamation on 20 June 1868 encouraging celebrations the following 1 July, making 1868 the earliest official civic anniversary identified here. In 1879 Parliament formally made 1 July a statutory holiday, known as Dominion Day. The holiday was renamed Canada Day on 27 October 1982, long after both the inaugural celebrations and its statutory establishment. Canadian Heritage preserves copies and explanations of the 1868 proclamation and 1879 statute. These dates must remain separate rather than incorrectly describing the holiday as having first begun in 1982.",
+          "promoter": "Governor General Lord Monck called for 1868 celebrations; Canada's Parliament legislated the holiday in 1879, and lawmakers renamed it in 1982.",
+          "purpose": "Remember Canada's Confederation while reflecting on the country's evolving identity, cultural diversity and civic participation.",
+          "facts": [
+            "Canadian Confederation took effect on 1 July 1867.",
+            "The first official national anniversary proclamation is dated 20 June 1868.",
+            "Parliament made the day a statutory holiday in 1879 and renamed it Canada Day in 1982."
+          ]
+        },
+        "it": {
+          "heading": "1º luglio: dalle prime feste della Confederazione alla moderna Canada Day",
+          "origin": "La ricorrenza canadese del 1º luglio celebra la Confederazione nata il 1º luglio 1867 con il British North America Act. Il governatore generale Lord Monck pubblicò il 20 giugno 1868 una proclamazione che invitava a festeggiare il successivo 1º luglio, la prima commemorazione civica ufficiale documentata qui. Nel 1879 il Parlamento rese il giorno una festività di legge con il nome Dominion Day. Soltanto il 27 ottobre 1982 la ricorrenza assunse il nome Canada Day, molto dopo le prime celebrazioni e l'istituzione del giorno festivo. Canadian Heritage conserva la storia e i riferimenti della proclamazione del 1868 e della legge del 1879. Queste tappe non vanno confuse: la storia della festa non inizia nel 1982.",
+          "promoter": "Lord Monck invitò alle celebrazioni del 1868; il Parlamento introdusse la festività nel 1879 e ne cambiò il nome nel 1982.",
+          "purpose": "Ricordare la Confederazione e riflettere sull'evoluzione della società e dell'identità civile canadese.",
+          "facts": [
+            "La Confederazione si formò il 1º luglio 1867.",
+            "Una proclamazione del 20 giugno 1868 invitò alla prima commemorazione ufficiale.",
+            "Nel 1879 il Parlamento introdusse il giorno festivo e nel 1982 lo rinominò Canada Day."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian Heritage original proclamation 1868, 1879 statutory history and 1982 rename individually distinguished; 1868 recorded as precursor first observed civic event. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
+    },
+    {
+      "observanceId": "martin-luther-king-jr-day",
+      "introducedYear": 1983,
+      "firstObservedYear": 1986,
+      "sources": [
+        "https://history.house.gov/Historical-Highlights/1951-2000/The-creation-of-the-Martin-Luther-King-Jr--Holiday/",
+        "https://kinginstitute.stanford.edu/king-national-holiday"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Monday in January: the long campaign for a Martin Luther King Jr. holiday",
+          "origin": "President Ronald Reagan signed Public Law 98-144 on 2 November 1983, making the third Monday of January a federal holiday commemorating civil-rights leader Martin Luther King Jr. The first nationwide federal observance took place on 20 January 1986. The law followed a sustained campaign that began soon after King's assassination in April 1968. Congressman John Conyers introduced an early federal holiday bill within days of the assassination, and later Representative Katie Hall helped guide legislation through the House. The third-Monday rule replaced a fixed 15 January date to reduce disruption of government operations. Later legislation in 1994 promoted the day as an opportunity for community service.",
+          "promoter": "The federal holiday arose from long civil-rights advocacy, early Congressional proposals by John Conyers and 1983 legislative efforts led in the House by Katie Hall.",
+          "purpose": "Remember Martin Luther King Jr.'s civil-rights work while encouraging equal rights, community service and democratic participation.",
+          "facts": [
+            "The federal holiday bill was signed on 2 November 1983.",
+            "Its first nationwide federal observance was on 20 January 1986.",
+            "The annual observance is the third Monday of January rather than always King's 15 January birthday."
+          ]
+        },
+        "it": {
+          "heading": "Terzo lunedì di gennaio: la lunga campagna per ricordare Martin Luther King",
+          "origin": "Il presidente Ronald Reagan firmò la legge federale 98-144 il 2 novembre 1983, istituendo il terzo lunedì di gennaio come festività nazionale dedicata a Martin Luther King Jr. La prima celebrazione federale in tutti gli Stati Uniti si svolse il 20 gennaio 1986. La legge arrivò dopo una lunga mobilitazione iniziata poco dopo l'assassinio di King nell'aprile 1968. Il deputato John Conyers presentò un primo progetto di legge nei giorni successivi alla morte; in seguito la deputata Katie Hall contribuì all'approvazione della proposta alla Camera. Il terzo lunedì sostituì la data fissa del 15 gennaio per ridurre le interruzioni delle attività governative. Un'altra legge del 1994 favorì la commemorazione attraverso il servizio alla comunità.",
+          "promoter": "La giornata nasce da iniziative del movimento per i diritti civili, progetti parlamentari di John Conyers e lavoro legislativo di Katie Hall nel 1983.",
+          "purpose": "Ricordare i diritti civili, il contrasto alle discriminazioni e l'impegno concreto nelle comunità.",
+          "facts": [
+            "La legge istitutiva fu firmata il 2 novembre 1983.",
+            "La prima festa federale si tenne il 20 gennaio 1986.",
+            "Si celebra il terzo lunedì di gennaio, non sempre il giorno esatto del compleanno di King."
+          ]
+        }
+      },
+      "sourceReviewNote": "U.S. House institutional archives and Stanford King Institute independently confirm exact statutory passage, specific advocates, first 1986 observance and third-Monday date rationale. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
     }
   ]
 }
