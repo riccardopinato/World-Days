@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 65,
+  "count": 70,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2227,6 +2227,178 @@
         }
       },
       "sourceReviewNote": "Veterans Affairs Canada official 2003 establishment and Governor General statement confirming annual ceremonies since 2003, with original event-date rationale. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval."
+    },
+    {
+      "observanceId": "australia-anzac-day",
+      "introducedYear": 1916,
+      "firstObservedYear": 1916,
+      "sources": [
+        "https://www.nma.gov.au/defining-moments/resources/first-anzac-day",
+        "https://www.awm.gov.au/commemoration/anzac-day/traditions",
+        "https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/special/souvenirs/anzac"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: the first Anzac Day remembers Gallipoli in 1916",
+          "origin": "Australia's first Anzac Day commemorations took place on 25 April 1916, the first anniversary of the Australian and New Zealand troops' landing on the Gallipoli peninsula on 25 April 1915. Acting Prime Minister and Defence Minister George Pearce officially named the commemorative day in 1916, when services and marches developed across Australia and among troops overseas. The original military operation had failed, with heavy losses, so the day centered on remembrance rather than celebrating a battlefield victory. After the war public ceremonies became more standardized. Only in 1927 did every Australian state observe some form of statutory public holiday for Anzac Day, separate from the first commemoration in 1916.",
+          "promoter": "Australian organizers and government authorities, with Acting Prime Minister George Pearce naming the date, launched the 1916 commemorations.",
+          "purpose": "Remember people who served and died in Australian and New Zealand military operations and reflect on their experiences.",
+          "facts": [
+            "Anzac Day was first marked on 25 April 1916.",
+            "The date recalls the Gallipoli landings of 25 April 1915.",
+            "All Australian states recognized some form of public holiday only from 1927."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: la prima Anzac Day australiana ricorda Gallipoli nel 1916",
+          "origin": "Le prime celebrazioni australiane dell'Anzac Day si svolsero il 25 aprile 1916, primo anniversario dello sbarco delle truppe australiane e neozelandesi sulla penisola di Gallipoli il 25 aprile 1915. Il primo ministro facente funzioni e ministro della Difesa George Pearce diede ufficialmente il nome alla giornata nel 1916; in Australia e fra i soldati all'estero si svilupparono cerimonie e cortei. L'operazione militare originale era fallita e aveva causato gravi perdite, perciò il ricordo non corrisponde a una vittoria sul campo. Dopo la guerra le cerimonie si stabilizzarono. Soltanto nel 1927 tutti gli Stati australiani osservarono una forma di giorno festivo, un passaggio distinto dalla prima commemorazione del 1916.",
+          "promoter": "Autorità e organizzatori australiani avviarono gli eventi del 1916; George Pearce diede ufficialmente il nome alla ricorrenza.",
+          "purpose": "Ricordare l'esperienza e il sacrificio dei militari che servirono in guerra e nelle successive missioni.",
+          "facts": [
+            "La prima Anzac Day australiana si svolse il 25 aprile 1916.",
+            "La data ricorda gli sbarchi di Gallipoli del 25 aprile 1915.",
+            "Solo dal 1927 tutti gli Stati australiani riconobbero una forma di giorno festivo."
+          ]
+        }
+      },
+      "sourceReviewNote": "National Museum and Australian War Memorial original collections independently establish inaugural 1916 observances, first naming, Gallipoli date and later all-state holiday status in 1927. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
+    },
+    {
+      "observanceId": "nz-anzac-day",
+      "introducedYear": 1916,
+      "firstObservedYear": 1916,
+      "sources": [
+        "https://nzhistory.govt.nz/media/photo/anzac-day-gazette-notice-1916",
+        "https://nzhistory.govt.nz/page/first-anzac-day",
+        "https://nzhistory.govt.nz/war/anzac-day-resources"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: New Zealand's original Anzac Day was a half-holiday in 1916",
+          "origin": "New Zealand's Prime Minister's Office issued a notice on 5 April 1916 inviting local authorities and religious groups to observe a half-day holiday on 25 April in remembrance of the 1915 Gallipoli landings. People assembled for services and memorial meetings throughout New Zealand on 25 April 1916, marking the first national Anzac Day. Government historical records preserve the original Gazette notice and describe gatherings in places including Petone and Ashburton. A new statutory Anzac Day Act was enacted in 1920 to establish a full public holiday, first observed in that status in 1921. The public observance therefore began in 1916, while the full statutory holiday dates from a later legislative change.",
+          "promoter": "The New Zealand Prime Minister's Office called for the first 1916 observance, supported by municipal leaders, clergy and veterans' groups.",
+          "purpose": "Remember servicemen and women, and acknowledge the social costs of the Gallipoli campaign and later conflicts.",
+          "facts": [
+            "The Prime Minister's Gazette notice is dated 5 April 1916.",
+            "The first commemorations took place on 25 April 1916 as a half-holiday.",
+            "The Anzac Day Act of 1920 established a full public holiday first observed in 1921."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: in Nuova Zelanda la prima Anzac Day fu una mezza giornata festiva nel 1916",
+          "origin": "Il 5 aprile 1916 l'Ufficio del primo ministro neozelandese pubblicò un avviso invitando autorità locali e comunità religiose a osservare una mezza giornata festiva il 25 aprile, ricordando gli sbarchi di Gallipoli del 1915. Il 25 aprile 1916 si tennero cerimonie e incontri commemorativi in tutto il Paese: fu la prima Anzac Day nazionale. Le fonti storiche del governo conservano l'avviso originale della Gazzetta e descrivono riunioni in località come Petone e Ashburton. Una legge del 1920 stabilì successivamente il giorno festivo nazionale completo, osservato per la prima volta in quella forma nel 1921. La ricorrenza pubblica nasce dunque nel 1916, mentre la sua piena disciplina giuridica arrivò dopo.",
+          "promoter": "L'Ufficio del primo ministro neozelandese invitò alle prime celebrazioni del 1916, sostenute da autorità locali e associazioni di veterani.",
+          "purpose": "Ricordare chi servì in guerra, le vittime e i costi umani della campagna di Gallipoli e dei conflitti successivi.",
+          "facts": [
+            "L'avviso originario del primo ministro risale al 5 aprile 1916.",
+            "Le prime cerimonie si tennero il 25 aprile 1916.",
+            "Una legge del 1920 rese la giornata pienamente festiva dal 1921."
+          ]
+        }
+      },
+      "sourceReviewNote": "New Zealand Ministry for Culture and Heritage archive preserves original 5 April 1916 Gazette notice, public first ceremony and distinct 1920 Act for full 1921 holiday. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
+    },
+    {
+      "observanceId": "france-algerian-war-remembrance-day",
+      "introducedYear": 2012,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026733612/",
+        "https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000026447687/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "19 March: France legally commemorates the Algerian War ceasefire",
+          "origin": "French Law No. 2012-1361 of 6 December 2012 established 19 March as a national day of remembrance for civilian and military victims of the Algerian War and of fighting in Tunisia and Morocco. The chosen date recalls the ceasefire in Algeria on 19 March 1962 after the Évian agreements. The French statute explicitly defines the occasion as neither a public holiday nor a day when work is suspended. The legislative record traces a long process, including proposals first advanced in the early 2000s and Constitutional Council review in November 2012. The date's role in the contested memory of decolonization must not be confused with a legal claim that every victim died before the ceasefire. The exact inaugural ceremony after the law is not documented by the founding text and remains unasserted.",
+          "promoter": "France's Parliament enacted Law 2012-1361, promulgated on 6 December 2012 after legislative and constitutional review.",
+          "purpose": "Remember civilian and military victims while encouraging historical understanding and public reflection on the conflicts.",
+          "facts": [
+            "The national remembrance law was promulgated on 6 December 2012.",
+            "19 March commemorates the 1962 ceasefire in Algeria.",
+            "The statute explicitly says the day is neither a public holiday nor a non-working day."
+          ]
+        },
+        "it": {
+          "heading": "19 marzo: la Francia ricorda per legge il cessate il fuoco della guerra d'Algeria",
+          "origin": "La legge francese n. 2012-1361 del 6 dicembre 2012 istituì il 19 marzo come giornata nazionale di memoria delle vittime civili e militari della guerra d'Algeria e dei combattimenti in Tunisia e Marocco. La data ricorda il cessate il fuoco del 19 marzo 1962, successivo agli accordi di Évian. La legge specifica che non è un giorno festivo né un giorno di sospensione dal lavoro. Il percorso legislativo fu lungo: il fascicolo ufficiale conserva proposte avanzate già nei primi anni Duemila e il controllo del Consiglio costituzionale del novembre 2012. Nel contesto della memoria complessa della decolonizzazione, la data non implica che tutte le vittime siano morte prima della tregua. Il testo istitutivo non documenta la prima cerimonia annuale precisa, lasciata quindi sconosciuta.",
+          "promoter": "Il Parlamento francese approvò la legge 2012-1361, promulgata il 6 dicembre 2012 dopo il controllo costituzionale.",
+          "purpose": "Ricordare le vittime civili e militari e favorire la conoscenza storica dei conflitti legati alla decolonizzazione.",
+          "facts": [
+            "La legge istitutiva fu promulgata il 6 dicembre 2012.",
+            "Il 19 marzo ricorda il cessate il fuoco del 1962 in Algeria.",
+            "La ricorrenza non è legalmente festiva né comporta la chiusura dei luoghi di lavoro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original French law and full parliamentary dossier specify 2012 formal institution, 19 March 1962 ceasefire rationale, non-holiday legal status; first post-law ceremony unverified. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
+    },
+    {
+      "observanceId": "italian-alpini-remembrance-day",
+      "introducedYear": 2022,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=22G00054&atto.dataPubblicazioneGazzetta=2022-05-07&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=multivigenza&title=lbl.dettaglioAtto",
+        "https://www.gazzettaufficiale.it/eli/id/2022/05/07/22G00054/sg"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 January: Italy establishes remembrance of the Alpini and Nikolajewka",
+          "origin": "Italy's Law No. 44 of 5 May 2022 formally recognizes 26 January each year as the National Day of Remembrance and Sacrifice of the Alpini. Article 1 specifically recalls the Alpini Corps' role in the battle of Nikolajewka during the Second World War, fought in January 1943 during the Italian retreat from the Soviet front. The legislation also emphasizes national service, civic participation, solidarity and volunteering associated with Alpini traditions. It states that commemorative initiatives generally take place on the last Sunday of January, which must be distinguished from the legally designated 26 January date. Because the law entered into force after January 2022, an inaugural commemorative ceremony under the statute cannot simply be assumed in that year; its first verified official event remains unknown here.",
+          "promoter": "The Italian Parliament enacted Law 44/2022, and the President of the Republic promulgated it; the law identifies an institutional act, not a single personal founder.",
+          "purpose": "Preserve historical remembrance while encouraging reflection on public service, solidarity and the experience of war.",
+          "facts": [
+            "Law 44 of 5 May 2022 established 26 January as the official day.",
+            "The chosen date recalls the Alpini action at Nikolajewka in January 1943.",
+            "The law allows initiatives generally on the final Sunday in January, separately from the legal 26 January date."
+          ]
+        },
+        "it": {
+          "heading": "26 gennaio: l'Italia istituisce la memoria degli Alpini e di Nikolajewka",
+          "origin": "La legge italiana n. 44 del 5 maggio 2022 ha riconosciuto il 26 gennaio come Giornata nazionale della memoria e del sacrificio degli Alpini. L'articolo 1 richiama espressamente il ruolo del Corpo d'armata alpino nella battaglia di Nikolajewka, combattuta nel gennaio 1943 durante la ritirata italiana dal fronte sovietico nella Seconda guerra mondiale. La legge valorizza anche partecipazione civile, solidarietà e volontariato legati alla tradizione degli Alpini. Precisa inoltre che le iniziative commemorative si svolgono di norma l'ultima domenica di gennaio, una data organizzativa distinta dal giorno ufficiale del 26 gennaio. Poiché la norma entrò in vigore dopo gennaio 2022, non è corretto supporre automaticamente una prima cerimonia annuale nello stesso anno; l'anno del primo evento ufficiale resta da verificare.",
+          "promoter": "Il Parlamento italiano approvò la legge 44/2022 e il Presidente della Repubblica la promulgò; non si inventa un singolo promotore.",
+          "purpose": "Preservare memoria storica e stimolare riflessione su servizio pubblico, solidarietà e conseguenze della guerra.",
+          "facts": [
+            "La legge n. 44 del 5 maggio 2022 istituisce la ricorrenza del 26 gennaio.",
+            "La data ricorda la battaglia di Nikolajewka del gennaio 1943.",
+            "Le iniziative si possono svolgere, di norma, l'ultima domenica di gennaio."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Law 44/2022 and official Italian gazette individually establish the exact legal remembrance, date and separate organizational Sunday; no first official ceremony inferred. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
+    },
+    {
+      "observanceId": "italian-accessibility-barriers-day",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=03A04897&atto.dataPubblicazioneGazzetta=2003-04-11&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/id/2003/04/11/03A04897/sg"
+      ],
+      "locale": {
+        "en": {
+          "heading": "First Sunday in October: Italy creates a day to remove architectural barriers",
+          "origin": "An Italian prime ministerial decree dated 28 February 2003 established the National Day for the Removal of Architectural Barriers, to be held every first Sunday in October. The original decree explicitly credits an initiative by the association FIABA, Fondo Italiano Abbattimento Barriere Architettoniche, and cites legislation from 1989, 1992 and 1996 on accessibility and disability rights. Public administrations are urged to coordinate information campaigns and practical action with civic organizations to make public and private spaces easier to access. The preamble also refers to the European Year of People with Disabilities in 2003. Its annual first-Sunday schedule is not a fixed calendar day, and the decree itself does not separately document an inaugural public ceremony.",
+          "promoter": "The FIABA association proposed the awareness day, and the Italian Prime Minister issued the establishing directive on 28 February 2003.",
+          "purpose": "Advance accessibility and equal participation for people with disabilities, older people and others facing mobility barriers.",
+          "facts": [
+            "The original establishing decree is dated 28 February 2003.",
+            "FIABA is named explicitly as the proposer in the decree's preamble.",
+            "The annual observance occurs on the first Sunday of October, not a fixed day of the month."
+          ]
+        },
+        "it": {
+          "heading": "Prima domenica d'ottobre: l'Italia istituisce la giornata contro le barriere architettoniche",
+          "origin": "Un decreto del Presidente del Consiglio dei ministri del 28 febbraio 2003 istituì in Italia la Giornata nazionale per l'abbattimento delle barriere architettoniche, da celebrare la prima domenica d'ottobre. Il testo originale cita espressamente la proposta dell'associazione FIABA, Fondo Italiano Abbattimento Barriere Architettoniche, e richiama le leggi del 1989, 1992 e 1996 sull'accessibilità e sui diritti delle persone con disabilità. Le amministrazioni pubbliche sono invitate a coordinare campagne informative e azioni concrete con le associazioni per rendere gli spazi fruibili a tutti. Il preambolo ricorda anche l'Anno europeo delle persone con disabilità del 2003. La data è una domenica mobile, non un giorno numerico fisso; il decreto non documenta una specifica cerimonia inaugurale.",
+          "promoter": "L'associazione FIABA propose la giornata; la Presidenza del Consiglio la istituì mediante direttiva del 28 febbraio 2003.",
+          "purpose": "Rimuovere ostacoli alla partecipazione di persone con disabilità, anziani e chi incontra difficoltà di mobilità.",
+          "facts": [
+            "Il decreto istitutivo è datato 28 febbraio 2003.",
+            "Il preambolo indica FIABA come promotrice della proposta originale.",
+            "La ricorrenza cade la prima domenica d'ottobre e prevede iniziative con le amministrazioni pubbliche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original government decree 28 Feb 2003 names FIABA as proposer, first-Sunday-of-October recurrence, earlier accessibility laws and European disability year; first actual annual ceremony not independently shown. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
     }
   ]
 }
