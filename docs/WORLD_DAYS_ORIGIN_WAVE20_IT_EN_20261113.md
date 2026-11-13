@@ -2055,11 +2055,11 @@ Brazil's federal Law 12.519 of 10 November 2011 formally instituted the National
 - The first nationwide holiday under the new law took place on 20 November 2024.
 
 **Source URLs:**
-- https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html
+- https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12519.htm
+- https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm
 - https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional
-- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
 
-**Limits:** Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content.
+**Limits:** Original federal Law 10.639/2003 placed Black Consciousness Day in the school calendar; original federal Law 12.519/2011 established National Day of Zumbi and Black Consciousness; government confirms a distinct nationwide statutory holiday since 2024 (Law 14.759/2023). Independent human factual review and qualified native six-language editorial review still required; rich runtime content not approved.
 
 ---
 
