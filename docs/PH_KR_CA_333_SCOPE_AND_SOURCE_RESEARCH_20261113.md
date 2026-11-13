@@ -78,12 +78,12 @@ an assumption from an open PR title.
 
 | Country | Retained candidates | Six-locale AI draft | EN/IT draft | No origin draft |
 | --- | ---: | ---: | ---: | ---: |
-| Philippines | 91 | **7** | **2** | **82** |
-| South Korea | 57 | **6** | **7** | **44** |
+| Philippines | 91 | **9** | **0** | **82** |
+| South Korea | 57 | **18** | **0** | **39** |
 | Canada | 32 | **32** | **0** | **0** |
-| **Total** | **180** | **45** | **9** | **126** |
+| **Total** | **180** | **59** | **0** | **121** |
 
-### Eleven new fully localized research dossiers in this PR
+### Sixteen new fully localized research dossiers in this PR
 - `ph-national-heroes-day` — original Act No. 3827 (1931), later last-Monday rule.
 - `ph-ninoy-aquino-day` — Republic Act No. 9256 (2004), special non-working holiday.
 - `ph-edsa-people-power-anniversary` — NHCP historical marker; special **working** day under 2026 proclamation.
@@ -96,7 +96,14 @@ an assumption from an open PR title.
 - `kr-national-foundation-day` — Dangun/Gojoseon founding **legend**, distinct from verifiable event; national day Act 1949.
 - `kr-memorial-day` — 1956 presidential decree and first annual observance; distinct from the five celebratory national days.
 
-**Six original locales** for every new dossier: English master plus Italian, Spanish, French, German and Portuguese. Each narrative includes heading, substantive history/origin, promoter, significance, three facts, and at least two evidence URLs. The eleven dossiers are stored in five JSON research files under `data/editorial/research_batches/` and are validated by `tool/validate_ph_kr_ca_180_origin_coverage.py`.
+- `kr-w10-february-28-democracy-movement-remembrance` — Daegu students' protest of 28 February 1960; statutory commemoration from 6 February 2018.
+- `kr-w10-march-8-democracy-uprising-remembrance` — Daejeon student protests, 8 March 1960; statutory day from 2 November 2018.
+- `kr-w10-march-15-democratic-uprising-remembrance` — Masan demonstrations of 15 March 1960; statutory recognition 12 March 2010.
+- `kr-w10-may-18-democratization-movement-remembrance` — Gwangju 1980; independent civic commemorations from 1981; legal national day created 9 May 1997.
+- `kr-w10-donghak-peasant-revolution-remembrance-day` — 1894 peasant revolution; Hwangtohyeon anniversary selected 2018; first national ceremony under 2019 designation on 11 May 2019.
+
+
+**Six original locales** for every new dossier: English master plus Italian, Spanish, French, German and Portuguese. Each narrative includes heading, substantive history/origin, promoter, significance, three facts, and at least two evidence URLs. The sixteen dossiers are stored in seven JSON research files under `data/editorial/research_batches/` and are validated by `tool/validate_ph_kr_ca_180_origin_coverage.py`.
 
 ### Correctness details that must survive downstream adoption
 - The 153 Philippine biographical anniversaries are excluded from *proposed editorial scope*, but historical figures' **legally established national days** (Ninoy Aquino Day, Rizal Day, Bonifacio Day) are not excluded.
@@ -115,3 +122,24 @@ Machine acceptance now enforces:
 `python3 tool/validate_ph_kr_ca_180_origin_coverage.py`.
 
 **Approval is still pending qualified factual/legal and native six-locale editorial reviews; this process cannot be substituted by AI translations or CI.** Source-linked drafting improves evidence and readiness, but does not activate `runtimeRichEditorialApproved`.
+
+### Nine Wave20 four-locale extensions without canonical-history duplication
+
+The **nine** source-backed PR #118 Wave20 original EN/IT records have been translated into **ES/FR/DE/PT** through three additive files in `data/editorial/locale_extensions/`:
+
+- `wave20_ph_kr_kr1_es_fr_de_pt_20261114.json` (3 Korean canonical IDs)
+- `wave20_ph_kr_kr2_es_fr_de_pt_20261114.json` (3 Korean canonical IDs)
+- `wave20_ph_kr_remaining_es_fr_de_pt_20261114.json` (1 Korean plus 2 Philippine canonical IDs)
+
+All extension records pin the **one canonical English/Italian origin** on PR #118 at `477557ee6a6115e2479c2009c6daecde5a590026`. The 9 multilingual stories are complete **only when two PR-layer contributions are combined**, not standalone on PR #120 or main; they must not be copied into an independent duplicate canonical story.
+
+### New source errata and approval locks
+
+`data/editorial/audits/ph_kr_wave20_source_errata_20261114.json` records **two unresolved source discrepancies**:
+
+1. **Philippine Day of Valor**: Proclamation No. 277 of 23 March **1956** declared Bataan Day 9 April 1956 a special nationwide holiday, before Republic Act No. 3022 of 6 April **1961** established the recurring legal holiday. The base PR #118 EN/IT article must incorporate this earlier official commemoration before signoff. Sources: Philippine Supreme Court E-Library Proclamation 277 and RA3022.
+2. **Bonifacio Day**: the Senate legislative register's approval metadata for Act No. 2946 displays **15 February 1921**, while the full legal text says **16 February 1921**. Preserve the secure year 1921 and resolve the source discrepancy before final publication of the day-level milestone.
+
+The three 1960 Korean movements **share a historical sequence** (and an explicit cluster ID), but are **distinct events with different local sites, dates, and statutory observance decisions**. They remain three distinct canonical commemorations, just as April 19 is separately official. Do not invent one new umbrella duplicate.
+
+**Current snapshot**: 59/180 candidate origin stories have six-locale AI drafts (32 CA, 18 KR, 9 PH), 0 bilingual-only, 121 without a draft. New original histories created on this PR: **16**, plus **9 four-locale Wave20 translation extensions**; 20 specific official status/date classifications cross-checked. All independent qualified factual/native-language approval gates remain **open**, with **0 new human-certified stories**. No main-branch content or runtime/published catalog changes.
