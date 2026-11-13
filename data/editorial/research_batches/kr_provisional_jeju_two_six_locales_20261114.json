@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "MOIS_MPVA_PRIMARY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-provisional-government-establishment-day",
+      "country": "KR",
+      "observanceDate": "04-11",
+      "introducedYear": 1989,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_PROVISIONAL_GOVERNMENT_1919_DATE_REVISED_2018",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5299&pageIndex=180&searchCnd=all&searchCtgry=&searchKrwd=",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5488&pageIndex=194&searchCnd=all&searchCtgry=&searchKrwd="
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 April: the Korean Provisional Government and a corrected anniversary",
+          "origin": "The Republic of Korea's Provisional Government traces its foundation to the Korean independence movement during Japanese colonial rule. On 11 April 1919, representatives adopted a provisional charter and established a name and administrative structure for the government; a declaration was made on 13 April. South Korea first designated a statutory commemoration on 30 December 1989, initially using 13 April. After scholarly research and public deliberation, authorities changed the annual commemorative date to 11 April on 2 November 2018. The change corrected the modern calendar, not the 1919 event.",
+          "promoter": "The independence movement established the Provisional Government in 1919; South Korean state authorities introduced and later revised its statutory anniversary.",
+          "purpose": "Recall the independence movement's institution-building and distinguish the 1919 events from later legal commemoration dates.",
+          "facts": [
+            "The provisional charter was adopted on 11 April 1919.",
+            "The statutory anniversary was instituted in December 1989.",
+            "In November 2018 the official date moved from 13 to 11 April."
+          ]
+        },
+        "it": {
+          "heading": "11 aprile: il Governo provvisorio coreano e la correzione dell'anniversario",
+          "origin": "Il Governo provvisorio della Repubblica di Corea nacque nel contesto della lotta per l'indipendenza sotto il dominio coloniale giapponese. L'11 aprile 1919 i rappresentanti adottarono una carta provvisoria e definirono nome e struttura amministrativa; il 13 aprile seguì una proclamazione. Lo Stato sudcoreano istituì una commemorazione legale il 30 dicembre 1989, inizialmente fissandola al 13 aprile. Dopo studi storici e confronti pubblici, il 2 novembre 2018 la ricorrenza fu spostata all'11 aprile. La modifica riguarda la data della commemorazione moderna, non cambia gli avvenimenti del 1919.",
+          "promoter": "Il movimento indipendentista fondò il Governo provvisorio nel 1919; lo Stato regolò e poi corresse la ricorrenza ufficiale.",
+          "purpose": "Ricordare le istituzioni del movimento indipendentista distinguendo gli eventi del 1919 dalle successive decisioni di calendario.",
+          "facts": [
+            "La carta provvisoria fu adottata l'11 aprile 1919.",
+            "La giornata nazionale venne riconosciuta nel dicembre 1989.",
+            "Nel 2018 la data passò dal 13 all'11 aprile."
+          ]
+        },
+        "es": {
+          "heading": "11 de abril: el Gobierno Provisional de Corea y su aniversario corregido",
+          "origin": "El Gobierno Provisional de la República de Corea surgió durante la lucha por la independencia frente al dominio colonial japonés. El 11 de abril de 1919 se aprobaron una carta provisional y las bases de su nombre y organización; el 13 de abril se realizó una proclamación. Corea del Sur estableció la conmemoración oficial el 30 de diciembre de 1989, inicialmente para el 13 de abril. Tras investigaciones históricas y consultas académicas, el 2 de noviembre de 2018 el Gobierno trasladó la fecha anual al 11 de abril. El cambio afecta al calendario oficial, no al acontecimiento histórico.",
+          "promoter": "El movimiento independentista creó el Gobierno Provisional en 1919; las instituciones surcoreanas regularon su aniversario.",
+          "purpose": "Recordar la construcción de instituciones para la independencia sin confundir hechos históricos y cambios de fecha.",
+          "facts": [
+            "La carta provisional fue aprobada el 11 de abril de 1919.",
+            "La conmemoración legal se creó en diciembre de 1989.",
+            "En 2018 el aniversario se trasladó del 13 al 11 de abril."
+          ]
+        },
+        "fr": {
+          "heading": "11 avril : le gouvernement provisoire coréen et son anniversaire révisé",
+          "origin": "Le Gouvernement provisoire de la République de Corée s'est formé dans le contexte de la lutte pour l'indépendance face à la domination coloniale japonaise. Le 11 avril 1919, ses représentants ont adopté une charte provisoire ainsi que le nom et l'organisation gouvernementale; une proclamation a suivi le 13 avril. L'État sud-coréen a institué la commémoration officielle le 30 décembre 1989, en retenant d'abord le 13 avril. Après recherches historiques et concertation, la date a été transférée au 11 avril le 2 novembre 2018. Cette correction du calendrier ne change pas les événements de 1919.",
+          "promoter": "Le mouvement indépendantiste a établi le Gouvernement provisoire; les autorités sud-coréennes ont fixé puis corrigé la commémoration.",
+          "purpose": "Rappeler la création d'institutions pour l'indépendance sans confondre l'histoire de 1919 et la législation ultérieure.",
+          "facts": [
+            "La charte provisoire date du 11 avril 1919.",
+            "La journée légale a été instituée en décembre 1989.",
+            "En 2018 la date est passée du 13 au 11 avril."
+          ]
+        },
+        "de": {
+          "heading": "11. April: Koreas Provisorische Regierung und ein korrigiertes Gedenkdatum",
+          "origin": "Die Provisorische Regierung der Republik Korea entstand im koreanischen Unabhängigkeitskampf gegen die japanische Kolonialherrschaft. Am 11. April 1919 beschlossen Vertreter eine provisorische Charta sowie den Namen und die Verwaltungsstruktur; eine Erklärung wurde am 13. April abgegeben. Südkorea führte am 30. Dezember 1989 einen gesetzlichen Gedenktag ein, zunächst für den 13. April. Nach historischer Forschung und fachlicher Beratung wurde das Datum am 2. November 2018 auf den 11. April verlegt. Die Änderung korrigiert den modernen Gedenkkalender und nicht das Ereignis von 1919.",
+          "promoter": "Die Unabhängigkeitsbewegung gründete 1919 die Provisorische Regierung; südkoreanische Behörden regelten den Gedenktag.",
+          "purpose": "An den institutionellen Aufbau der Unabhängigkeitsbewegung erinnern und historische Daten von späterer Gesetzgebung trennen.",
+          "facts": [
+            "Die provisorische Charta wurde am 11. April 1919 angenommen.",
+            "Die gesetzliche Gedenkfeier wurde im Dezember 1989 eingeführt.",
+            "2018 wechselte das Datum vom 13. zum 11. April."
+          ]
+        },
+        "pt": {
+          "heading": "11 de abril: o Governo Provisório da Coreia e a data corrigida",
+          "origin": "O Governo Provisório da República da Coreia surgiu no contexto da luta pela independência durante o domínio colonial japonês. Em 11 de abril de 1919, representantes adotaram uma carta provisória e definiram o nome e a organização administrativa; uma proclamação ocorreu em 13 de abril. A Coreia do Sul instituiu a data comemorativa oficial em 30 de dezembro de 1989, inicialmente no dia 13 de abril. Após investigação histórica e debate académico, a data anual passou para 11 de abril em 2 de novembro de 2018. Essa correção altera o calendário moderno, não os acontecimentos históricos de 1919.",
+          "promoter": "O movimento independentista criou o Governo Provisório em 1919; as autoridades sul-coreanas regularam depois a comemoração.",
+          "purpose": "Recordar a construção de instituições para a independência e distinguir os factos históricos das leis posteriores.",
+          "facts": [
+            "A carta provisória foi adotada em 11 de abril de 1919.",
+            "A data legal foi estabelecida em dezembro de 1989.",
+            "Em 2018 passou do dia 13 para o dia 11 de abril."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS legal chronology checked with MPVA public historical statement or government 2014 enactment notice. Localized AI research draft; independent qualified factual/native-language human approvals pending."
+    },
+    {
+      "observanceId": "kr-w10-jeju-april-3-victims-remembrance-day",
+      "country": "KR",
+      "observanceDate": "04-03",
+      "introducedYear": 2014,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_JEJU_1947_1954_MEMORIAL_RECONCILIATION",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=41459"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 April: remembrance of the victims of the Jeju events",
+          "origin": "The Jeju April 3 memorial day honours those affected by the violence and repression connected with the Jeju events, which began in the years surrounding 1948. For years families, local groups and the island's institutions sought acknowledgement of victims and recognition of their suffering. A special national law on fact-finding and restoration of victims' honour provided an institutional framework. South Korea's government formally designated 3 April a statutory memorial day in March 2014, following parliamentary work in 2013. The memorial day is intended for mourning and reconciliation, not for celebrating the violence.",
+          "promoter": "Victims' families and Jeju civic bodies pressed for recognition; South Korea's government established the national memorial day in 2014.",
+          "purpose": "Commemorate victims, console their families and support historical truth, reconciliation and respect for human dignity.",
+          "facts": [
+            "The remembrance concerns the Jeju April 3 events of the late 1940s.",
+            "The government announced the new legal memorial day in March 2014.",
+            "Its stated purpose includes mourning, reconciliation and recognition of families."
+          ]
+        },
+        "it": {
+          "heading": "3 aprile: la memoria delle vittime degli eventi di Jeju",
+          "origin": "La giornata del 3 aprile ricorda le vittime della violenza e della repressione legate agli eventi di Jeju, iniziati negli anni intorno al 1948. Per decenni familiari, associazioni e istituzioni dell'isola chiesero il riconoscimento delle persone colpite e delle loro sofferenze. Una legge nazionale speciale sulla ricostruzione dei fatti e sul ripristino dell'onore delle vittime fornì un quadro istituzionale. Dopo il percorso parlamentare del 2013, nel marzo 2014 il governo sudcoreano istituì il 3 aprile come giornata commemorativa legale. È una ricorrenza di lutto e riconciliazione, non una celebrazione della violenza.",
+          "promoter": "Familiari e organizzazioni di Jeju sollecitarono il riconoscimento; il governo creò la giornata nazionale nel 2014.",
+          "purpose": "Onorare le vittime, sostenere le famiglie e favorire memoria, verità storica e riconciliazione.",
+          "facts": [
+            "La ricorrenza riguarda gli eventi di Jeju della fine degli anni Quaranta.",
+            "Il riconoscimento legale arrivò nel marzo 2014.",
+            "La commemorazione è dedicata al lutto e alla riconciliazione."
+          ]
+        },
+        "es": {
+          "heading": "3 de abril: recuerdo de las víctimas de los hechos de Jeju",
+          "origin": "El día de recuerdo del 3 de abril honra a las víctimas de la violencia y la represión vinculadas con los acontecimientos de Jeju de finales de la década de 1940. Durante años, familias, asociaciones y entidades de la isla solicitaron que se reconociera su sufrimiento. Una ley nacional especial para esclarecer los hechos y restaurar el honor de las víctimas estableció un marco institucional. Tras iniciativas parlamentarias en 2013, el Gobierno surcoreano reconoció el 3 de abril como día memorial oficial en marzo de 2014. Su finalidad es el duelo y la reconciliación, no una celebración de la violencia.",
+          "promoter": "Familias y organizaciones de Jeju impulsaron el reconocimiento; el Gobierno estableció el día oficial en 2014.",
+          "purpose": "Honrar a las víctimas, acompañar a sus familias y promover verdad histórica, dignidad humana y reconciliación.",
+          "facts": [
+            "Se recuerdan los acontecimientos de Jeju de los años cuarenta.",
+            "La conmemoración legal se estableció en marzo de 2014.",
+            "El propósito oficial incluye duelo y reconciliación."
+          ]
+        },
+        "fr": {
+          "heading": "3 avril : la mémoire des victimes des événements de Jeju",
+          "origin": "La commémoration du 3 avril rend hommage aux victimes des violences et de la répression liées aux événements de Jeju à la fin des années 1940. Pendant des décennies, les familles, les associations et les institutions de l'île ont demandé la reconnaissance des victimes et de leurs souffrances. Une loi nationale spéciale sur l'établissement des faits et la restauration de leur honneur a ouvert une voie institutionnelle. Après des démarches parlementaires en 2013, le gouvernement sud-coréen a reconnu le 3 avril comme journée commémorative légale en mars 2014. Il s'agit d'un temps de deuil et de réconciliation, et non d'une célébration de la violence.",
+          "promoter": "Les familles et les organisations de Jeju ont porté la demande; l'État a créé la journée officielle en 2014.",
+          "purpose": "Honorer les victimes, soutenir les proches et favoriser vérité historique, dignité et réconciliation.",
+          "facts": [
+            "Cette journée rappelle les événements de Jeju de la fin des années 1940.",
+            "Son statut officiel date de mars 2014.",
+            "La commémoration poursuit un objectif de deuil et de réconciliation."
+          ]
+        },
+        "de": {
+          "heading": "3. April: Gedenken an die Opfer der Ereignisse auf Jeju",
+          "origin": "Der Gedenktag am 3. April erinnert an die Opfer der Gewalt und Unterdrückung im Zusammenhang mit den Ereignissen auf Jeju Ende der 1940er Jahre. Angehörige, gesellschaftliche Gruppen und die Inselverwaltung setzten sich über Jahrzehnte für eine Anerkennung des Leids ein. Ein nationales Sondergesetz zur Aufklärung der Ereignisse und zur Wiederherstellung der Würde der Opfer schuf einen rechtlichen Rahmen. Nach parlamentarischen Schritten 2013 legte die südkoreanische Regierung im März 2014 den 3. April als gesetzlichen Gedenktag fest. Der Tag dient Trauer und Versöhnung und soll die Gewalt nicht feiern.",
+          "promoter": "Opferfamilien und Gruppen auf Jeju forderten Anerkennung; die Regierung begründete den nationalen Gedenktag 2014.",
+          "purpose": "Der Opfer gedenken, die Angehörigen unterstützen und historische Aufklärung und Versöhnung fördern.",
+          "facts": [
+            "Die Erinnerung betrifft die Ereignisse auf Jeju Ende der 1940er Jahre.",
+            "Die staatliche Anerkennung erfolgte im März 2014.",
+            "Der Anlass ist Trauer und Versöhnung gewidmet."
+          ]
+        },
+        "pt": {
+          "heading": "3 de abril: a memória das vítimas dos acontecimentos de Jeju",
+          "origin": "A comemoração de 3 de abril homenageia as vítimas da violência e repressão associadas aos acontecimentos de Jeju no final da década de 1940. Durante décadas, famílias, associações e instituições da ilha pediram reconhecimento das pessoas atingidas e do seu sofrimento. Uma lei nacional especial para esclarecer os factos e restaurar a honra das vítimas criou uma base institucional. Após iniciativas parlamentares em 2013, o governo sul-coreano reconheceu oficialmente 3 de abril como data de memória em março de 2014. O objetivo é promover luto e reconciliação, não celebrar a violência.",
+          "promoter": "Familiares e organizações de Jeju impulsionaram o reconhecimento; o governo criou a data nacional em 2014.",
+          "purpose": "Homenagear as vítimas, apoiar as famílias e promover verdade histórica, dignidade humana e reconciliação.",
+          "facts": [
+            "A data recorda os acontecimentos de Jeju no final dos anos quarenta.",
+            "O reconhecimento oficial ocorreu em março de 2014.",
+            "A comemoração destina-se ao luto e à reconciliação."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS legal chronology checked with MPVA public historical statement or government 2014 enactment notice. Localized AI research draft; independent qualified factual/native-language human approvals pending."
+    }
+  ]
+}
