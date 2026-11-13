@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 import json
 import re
+import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DIR = ROOT / "data/editorial/batches"
@@ -52,7 +53,7 @@ def validate_locales(rid, story, *, research_only=False):
         missing_years = english_years - set(YEAR.findall(item["origin"]))
         assert not missing_years, (rid,lang,"missing chronology", sorted(missing_years))
 
-def validate():
+def validate(*, require_external_on_main=False):
     audit = json.loads(AUDIT.read_text(encoding="utf-8"))
     rows = audit["rows"]
     assert len(rows) == 46
@@ -143,6 +144,20 @@ def validate():
             assert r["sourceResearchSourceFile"].endswith(".json")
             assert r["sourceResearchBranch"] == "editorial/canada-46-origin-audit-20261113"
     assert len(externally_verified) == 9  # nine distinct existing Wave20 canonical origins on separate PR118
+    if require_external_on_main:
+        # Fail closed: a separate PR is not evidence of integration into main.
+        # Run this gate on a fresh checkout of main after PR #118 is merged.
+        main_wave20 = ROOT / "data/editorial/batches/origin_stories_wave20_20261113.json"
+        assert main_wave20.is_file(), "Wave20 source batch absent on main"
+        wave20 = json.loads(main_wave20.read_text(encoding="utf-8"))
+        by_id = {entry["observanceId"]: entry for entry in wave20["records"]}
+        assert len(by_id) == len(wave20["records"]), "duplicate Wave20 IDs"
+        for id_ in sorted(externally_verified):
+            assert id_ in by_id, ("Wave20 dependency absent", id_)
+            validate_locales(id_, by_id[id_])
+        # Never confuse machine completeness with human editorial approval.
+        print("CANADA46_EXTERNAL_MAIN_DEPENDENCIES", len(externally_verified),
+              "SIX_LOCALE_DRAFTS_PRESENT_NOT_HUMAN_APPROVED")
     booklet = (ROOT / "docs/WORLD_DAYS_CANADA_46_SIX_LOCALE_RESEARCH_BOOKLET_20261113.md").read_text(encoding="utf-8")
     assert booklet.count("\n## ") == 46, "one sourced chapter per indexed candidate"
     for tag in ("English (EN)", "Italiano (IT)", "Español (ES)", "Français (FR)", "Deutsch (DE)", "Português (PT)"):
@@ -161,4 +176,8 @@ def validate():
           "HUMAN_EDITORIAL_APPROVAL","PENDING")
 
 if __name__=="__main__":
-    validate()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--require-external-on-main", action="store_true",
+                        help="Fail unless all nine PR118 dependencies exist as six-locale drafts in this checkout; use only on updated main")
+    args = parser.parse_args()
+    validate(require_external_on_main=args.require_external_on_main)
