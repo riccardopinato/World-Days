@@ -10,8 +10,8 @@
     "all": 46,
     "canadianCanonical": 27,
     "canadaAlreadyInWave20": 6,
-    "nonCanadianOrOtherAliasesMatched": 11,
-    "pendingIdentityOrOriginResearch": 8
+    "nonCanadianOrOtherAliasesMatched": 13,
+    "pendingIdentityOrOriginResearch": 6
   },
   "rows": [
     {
@@ -483,16 +483,18 @@
       "dateNotation": "06-21",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "CANADIAN_NATIONAL_ALIAS_EXISTING_CANONICAL_SOURCE_STORY_NEW_IN_PR119",
+      "sourceResearchOnMain": "SOURCE_RESEARCHED_6_LOCALE_DRAFT_ON_PR119_NOT_MAIN",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
       "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "primarySourceStatus": "INDIVIDUAL_ORIGINAL_CANADIAN_LEGISLATION_VERIFIED",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE: SIX_LOCALE_HUMAN_FACT_NATIVE_REVIEW_PENDING",
+      "canonicalIdVerifiedByOtherWave": "canada-national-indigenous-peoples-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json"
     },
     {
       "sequence": 27,
@@ -611,16 +613,18 @@
       "dateNotation": "08-15",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "CANADIAN_NATIONAL_ALIAS_EXISTING_CANONICAL_SOURCE_STORY_NEW_IN_PR119",
+      "sourceResearchOnMain": "SOURCE_RESEARCHED_6_LOCALE_DRAFT_ON_PR119_NOT_MAIN",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
       "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "primarySourceStatus": "INDIVIDUAL_ORIGINAL_CANADIAN_LEGISLATION_VERIFIED",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE: SIX_LOCALE_HUMAN_FACT_NATIVE_REVIEW_PENDING",
+      "canonicalIdVerifiedByOtherWave": "canada-national-acadian-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json"
     },
     {
       "sequence": 34,
@@ -865,6 +869,6 @@
       "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
     }
   ],
-  "canonicalResearchCommittedOnCanadaBranch": 21,
-  "canonicalResearchSixLocaleDraftsOnCanadaBranch": 21
+  "canonicalResearchCommittedOnCanadaBranch": 23,
+  "canonicalResearchSixLocaleDraftsOnCanadaBranch": 23
 }
