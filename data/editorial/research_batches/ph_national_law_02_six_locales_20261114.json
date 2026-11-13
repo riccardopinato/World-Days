@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_LAW_SOURCE_RESEARCH_SIX_LOCALE_AI_DRAFT_AWAITING_HUMAN_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "scope": "PH legally established commemorations, not personal cultural anniversaries",
+  "records": [
+    {
+      "observanceId": "ph-national-heroes-day",
+      "country": "PH",
+      "observanceDate": "LAST_MONDAY_AUGUST",
+      "introducedYear": 1931,
+      "firstObservedYear": null,
+      "legalStatus": "REGULAR_HOLIDAY_2026",
+      "sources": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/19930",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209492",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "National Heroes Day: remembering many lives, not one name",
+          "origin": "The Philippine National Heroes Day honours people who contributed to the country's struggle for independence and to its civic history, rather than one named historical figure. Act No. 3827 established an official National Heroes Day in 1931 on the last Sunday of August. Later holiday legislation, including Republic Act No. 9492, placed the observance on the last Monday of August; the 2026 government calendar lists 31 August. The original law, later scheduling and the history being remembered are separate facts.",
+          "promoter": "The Philippine Legislature established the official observance through Act No. 3827; subsequent legislation adjusted the recurring holiday rule.",
+          "purpose": "Commemorate collective service and sacrifice in Philippine history without reducing national heroism to a single individual.",
+          "facts": [
+            "The founding holiday act dates to 1931.",
+            "The original recurring date was the last Sunday of August.",
+            "The 2026 national calendar places the holiday on 31 August."
+          ]
+        },
+        "it": {
+          "heading": "Giornata degli eroi nazionali: una memoria collettiva",
+          "origin": "Nelle Filippine la Giornata degli eroi nazionali ricorda le persone che contribuirono alla lotta per l'indipendenza e alla storia civile del Paese, senza limitarsi a un solo personaggio. L'Act n. 3827 istituì nel 1931 una giornata ufficiale nell'ultima domenica di agosto. La normativa successiva, compresa la Republic Act n. 9492, ha fissato la ricorrenza nell'ultimo lunedì del mese. Il calendario nazionale del 2026 indica il 31 agosto. La legge originaria e le successive regole del calendario sono momenti diversi.",
+          "promoter": "Il legislatore filippino istituì la giornata con l'Act n. 3827; leggi successive ne modificarono la collocazione annuale.",
+          "purpose": "Ricordare il contributo e il sacrificio collettivo nella storia filippina, senza attribuirli a un solo individuo.",
+          "facts": [
+            "La legge istitutiva risale al 1931.",
+            "In origine la ricorrenza cadeva nell'ultima domenica di agosto.",
+            "Per il 2026 la giornata ufficiale è il 31 agosto."
+          ]
+        },
+        "es": {
+          "heading": "Día de los Héroes Nacionales: una memoria compartida",
+          "origin": "En Filipinas, el Día de los Héroes Nacionales recuerda a muchas personas que participaron en la lucha por la independencia y en la vida cívica del país, no a una única figura. La Ley n.º 3827 estableció en 1931 una festividad oficial para el último domingo de agosto. La legislación posterior, incluida la Ley de la República n.º 9492, trasladó la celebración al último lunes de agosto. En el calendario oficial de 2026 corresponde al 31 de agosto. El acto de creación, los cambios de fecha y la historia conmemorada son cuestiones distintas.",
+          "promoter": "La legislatura filipina estableció la fecha mediante la Ley n.º 3827; normas posteriores modificaron su calendario.",
+          "purpose": "Reconocer las contribuciones y sacrificios colectivos de la historia filipina, más allá de un solo personaje.",
+          "facts": [
+            "La ley original es de 1931.",
+            "Al principio se celebraba el último domingo de agosto.",
+            "En 2026 el día festivo es el 31 de agosto."
+          ]
+        },
+        "fr": {
+          "heading": "Journée des héros nationaux : une mémoire collective",
+          "origin": "Aux Philippines, la Journée des héros nationaux rend hommage aux personnes qui ont contribué à l'indépendance et à l'histoire civique du pays, sans se limiter à un seul personnage. La loi nº 3827 de 1931 a créé une célébration officielle le dernier dimanche d'août. Des dispositions ultérieures, notamment la Republic Act nº 9492, ont fixé la date au dernier lundi du mois. Le calendrier gouvernemental de 2026 indique le 31 août. Il faut distinguer la création de la journée, l'évolution du calendrier et les événements historiques célébrés.",
+          "promoter": "Le législateur philippin a institué cette journée par la loi nº 3827, avant de nouvelles règles de calendrier.",
+          "purpose": "Honorer la contribution et les sacrifices collectifs dans l'histoire des Philippines, au-delà d'une seule personne.",
+          "facts": [
+            "La première loi remonte à 1931.",
+            "La date initiale était le dernier dimanche d'août.",
+            "En 2026, elle tombe le 31 août."
+          ]
+        },
+        "de": {
+          "heading": "Nationalheldentag: Erinnerung an viele statt an eine Person",
+          "origin": "Der philippinische Nationalheldentag würdigt Menschen, die zur Unabhängigkeit und zur gesellschaftlichen Geschichte des Landes beigetragen haben, und nicht nur eine einzelne Persönlichkeit. Mit Act Nr. 3827 wurde 1931 ein offizieller Gedenk- und Feiertag am letzten Sonntag im August eingerichtet. Spätere Gesetze, darunter Republic Act Nr. 9492, legten den letzten Montag im August fest. Im amtlichen Kalender 2026 fällt der Feiertag auf den 31. August. Die Entstehung des Feiertags, spätere Terminregeln und die historischen Ereignisse sind getrennt zu betrachten.",
+          "promoter": "Die philippinische Legislative schuf den Tag mit Act Nr. 3827; spätere Gesetze änderten seine Datumsregel.",
+          "purpose": "Gemeinsame Leistungen und Opfer in der philippinischen Geschichte würdigen, ohne sie auf eine Person zu reduzieren.",
+          "facts": [
+            "Das ursprüngliche Feiertagsgesetz stammt aus dem Jahr 1931.",
+            "Ursprünglich lag der Tag am letzten Sonntag im August.",
+            "2026 liegt er am 31. August."
+          ]
+        },
+        "pt": {
+          "heading": "Dia dos Heróis Nacionais: uma memória coletiva",
+          "origin": "Nas Filipinas, o Dia dos Heróis Nacionais presta homenagem às muitas pessoas que contribuíram para a independência e a história cívica do país, e não apenas a uma figura histórica. A Lei n.º 3827 instituiu em 1931 um feriado oficial no último domingo de agosto. Legislação posterior, incluindo a Lei da República n.º 9492, transferiu a comemoração para a última segunda-feira de agosto. O calendário oficial de 2026 assinala 31 de agosto. A criação do feriado, as regras posteriores e a história recordada são momentos distintos.",
+          "promoter": "A legislatura filipina criou a data pela Lei n.º 3827; leis posteriores alteraram a regra anual.",
+          "purpose": "Honrar as contribuições e os sacrifícios coletivos na história filipina, sem os reduzir a uma única pessoa.",
+          "facts": [
+            "A lei original foi aprovada em 1931.",
+            "A comemoração ocorria inicialmente no último domingo de agosto.",
+            "Em 2026, o feriado é a 31 de agosto."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original primary law and official calendar consulted; machine authoring reviewed for factual consistency by AI. Native-language and independent qualified human editorial signoff pending."
+    },
+    {
+      "observanceId": "ph-ninoy-aquino-day",
+      "country": "PH",
+      "observanceDate": "08-21",
+      "introducedYear": 2004,
+      "firstObservedYear": null,
+      "legalStatus": "SPECIAL_NONWORKING_HOLIDAY_2026",
+      "sources": [
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209256",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Presidential%20Decree%20No.%201886%2C%20s.%201983",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 August: a national remembrance of Ninoy Aquino",
+          "origin": "Ninoy Aquino Day recalls the assassination of former senator Benigno 'Ninoy' Aquino Jr. on 21 August 1983. The killing became a significant episode in the Philippines' path toward the restoration of democratic institutions. Republic Act No. 9256, approved on 25 February 2004, designated 21 August each year as a national special non-working holiday in his memory. The 2026 national proclamation lists it in that category. Although the date marks one person's death, this entry is a legally established national observance, not a personal anniversary merely indexed by a cultural calendar.",
+          "promoter": "The Philippine Congress and the president established the national holiday through Republic Act No. 9256 in 2004.",
+          "purpose": "Remember the 1983 assassination and reflect on civic participation, democratic freedoms and the political history of the Philippines.",
+          "facts": [
+            "The event remembered occurred on 21 August 1983.",
+            "Republic Act No. 9256 was approved on 25 February 2004.",
+            "The day is a national special non-working holiday in the 2026 calendar."
+          ]
+        },
+        "it": {
+          "heading": "21 agosto: il ricordo nazionale di Ninoy Aquino",
+          "origin": "Il Ninoy Aquino Day ricorda l'assassinio dell'ex senatore Benigno 'Ninoy' Aquino Jr., avvenuto il 21 agosto 1983. L'episodio diventò un passaggio significativo nel percorso delle Filippine verso il ripristino delle istituzioni democratiche. La Republic Act n. 9256, approvata il 25 febbraio 2004, istituì il 21 agosto come giorno festivo nazionale speciale non lavorativo. Anche il calendario ufficiale del 2026 lo classifica così. Non si tratta di una semplice ricorrenza biografica presente in un indice culturale, ma di una giornata nazionale istituita per legge.",
+          "promoter": "Il Congresso filippino e il presidente istituirono la ricorrenza nazionale mediante la Republic Act n. 9256 del 2004.",
+          "purpose": "Ricordare il fatto del 1983 e riflettere sulle libertà democratiche, la partecipazione civile e la storia politica filippina.",
+          "facts": [
+            "L'assassinio ricordato avvenne il 21 agosto 1983.",
+            "La legge n. 9256 fu approvata il 25 febbraio 2004.",
+            "Nel 2026 è una festività nazionale speciale non lavorativa."
+          ]
+        },
+        "es": {
+          "heading": "21 de agosto: Filipinas recuerda a Ninoy Aquino",
+          "origin": "El Día de Ninoy Aquino recuerda el asesinato del exsenador Benigno 'Ninoy' Aquino Jr. el 21 de agosto de 1983. El acontecimiento fue un episodio decisivo en la trayectoria filipina hacia la recuperación de las instituciones democráticas. La Ley de la República n.º 9256, aprobada el 25 de febrero de 2004, convirtió el 21 de agosto en una festividad nacional especial no laborable. El calendario oficial de 2026 mantiene esa clasificación. Aunque la fecha remite a la muerte de una persona, se trata de una conmemoración nacional establecida por ley.",
+          "promoter": "El Congreso y la presidencia de Filipinas establecieron el día nacional mediante la Ley n.º 9256 de 2004.",
+          "purpose": "Recordar el hecho de 1983 y reflexionar sobre la participación cívica, las libertades y la historia democrática.",
+          "facts": [
+            "El asesinato ocurrió el 21 de agosto de 1983.",
+            "La Ley n.º 9256 fue aprobada el 25 de febrero de 2004.",
+            "En 2026 figura como día especial no laborable."
+          ]
+        },
+        "fr": {
+          "heading": "21 août : les Philippines se souviennent de Ninoy Aquino",
+          "origin": "La journée Ninoy Aquino rappelle l'assassinat de l'ancien sénateur Benigno « Ninoy » Aquino Jr., le 21 août 1983. Cet événement a marqué l'histoire politique des Philippines et la mobilisation pour le rétablissement des institutions démocratiques. La loi de la République nº 9256, approuvée le 25 février 2004, a fait du 21 août un jour férié national spécial non travaillé. Le calendrier officiel de 2026 maintient cette catégorie. Même si la date correspond à un décès, c'est une commémoration nationale créée par la loi, et non une simple notice biographique.",
+          "promoter": "Le Congrès et la présidence des Philippines ont institué cette journée nationale par la loi nº 9256 en 2004.",
+          "purpose": "Se souvenir du drame de 1983 et réfléchir à la participation civique et aux libertés démocratiques.",
+          "facts": [
+            "L'assassinat date du 21 août 1983.",
+            "La loi nº 9256 fut approuvée le 25 février 2004.",
+            "Le calendrier 2026 indique un jour spécial non travaillé."
+          ]
+        },
+        "de": {
+          "heading": "21. August: Erinnerung an Ninoy Aquino",
+          "origin": "Der Ninoy-Aquino-Tag erinnert an die Ermordung des früheren Senators Benigno 'Ninoy' Aquino Jr. am 21. August 1983. Dieses Ereignis prägte die politische Geschichte der Philippinen und die spätere Bewegung für die Wiederherstellung demokratischer Institutionen. Das Republikgesetz Nr. 9256 vom 25. Februar 2004 erklärte den 21. August zu einem besonderen landesweiten arbeitsfreien Feiertag. Die staatliche Feiertagsliste für 2026 führt ihn in derselben Kategorie. Obwohl der Anlass der Tod einer Person ist, handelt es sich um einen gesetzlich begründeten nationalen Gedenktag.",
+          "promoter": "Der philippinische Kongress und das Präsidentenamt schufen 2004 den nationalen Feiertag durch Republikgesetz Nr. 9256.",
+          "purpose": "An das Ereignis von 1983 erinnern und über demokratische Freiheiten und bürgerschaftliches Engagement nachdenken.",
+          "facts": [
+            "Die Ermordung ereignete sich am 21. August 1983.",
+            "Republikgesetz Nr. 9256 wurde am 25. Februar 2004 verabschiedet.",
+            "2026 ist der Tag landesweit besonders arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "21 de agosto: as Filipinas recordam Ninoy Aquino",
+          "origin": "O Dia de Ninoy Aquino recorda o assassinato do antigo senador Benigno 'Ninoy' Aquino Jr., ocorrido em 21 de agosto de 1983. O episódio marcou a história política filipina e a mobilização pela recuperação das instituições democráticas. A Lei da República n.º 9256, aprovada em 25 de fevereiro de 2004, estabeleceu 21 de agosto como feriado nacional especial não laboral. A proclamação oficial de 2026 mantém essa classificação. Apesar de coincidir com a morte de uma pessoa, esta é uma comemoração nacional criada por lei e não uma simples data biográfica.",
+          "promoter": "O Congresso e a presidência das Filipinas estabeleceram o feriado pela Lei da República n.º 9256, de 2004.",
+          "purpose": "Recordar o acontecimento de 1983 e refletir sobre a participação cívica, as liberdades e a história democrática.",
+          "facts": [
+            "O assassinato aconteceu em 21 de agosto de 1983.",
+            "A Lei n.º 9256 foi aprovada em 25 de fevereiro de 2004.",
+            "Em 2026, é um feriado nacional especial não laboral."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original primary law and official calendar consulted; machine authoring reviewed for factual consistency by AI. Native-language and independent qualified human editorial signoff pending."
+    }
+  ]
+}
