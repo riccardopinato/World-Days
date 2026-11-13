@@ -764,3 +764,574 @@ At their annual meetings in September 2000, WIPO member states designated 26 Apr
 
 ---
 
+## 21. international-delegate-s-day
+
+**Formal year / Anno formale:** 2019 · **First observed / Prima osservanza:** *
+
+### Italiano — 25 aprile: il lavoro dei delegati che costruirono le Nazioni Unite
+
+L'Assemblea generale ONU proclamò la Giornata internazionale dei delegati con A/RES/73/286 il 2 aprile 2019. La data ricorda l'apertura della Conferenza di San Francisco il 25 aprile 1945, quando delegati di cinquanta Paesi iniziarono a discutere la Carta delle Nazioni Unite. Parteciparono circa 850 delegati, affiancati da consulenti e personale di segreteria. La Carta fu firmata il 26 giugno 1945, una tappa distinta sia dall'apertura della Conferenza sia dalla risoluzione commemorativa moderna. La giornata riconosce il lavoro paziente di scrittura, confronto e negoziazione fra governi. La prima celebrazione annuale specifica successiva al 2019 non è verificata individualmente nei documenti utilizzati.
+
+**Promotore:** L'Assemblea generale istituì la ricorrenza nel 2019; i delegati del 1945 ne sono il soggetto storico, non gli autori dell'atto moderno.
+
+**Perché è importante:** Valorizzare diplomazia, negoziato multilaterale e contributo dei delegati alla cooperazione e alla soluzione pacifica delle controversie.
+
+**Fatti documentati:**
+- L'ONU proclamò il 25 aprile con A/RES/73/286 nel 2019.
+- La Conferenza di San Francisco aprì il 25 aprile 1945 con cinquanta delegazioni.
+- La Carta delle Nazioni Unite venne firmata il 26 giugno 1945.
+
+### English — 25 April: delegates laid the foundations of the United Nations
+
+The UN General Assembly proclaimed International Delegate's Day in resolution A/RES/73/286 on 2 April 2019. The date commemorates the opening of the San Francisco Conference on 25 April 1945, when delegates of fifty nations began negotiations over the Charter of the United Nations. Around 850 delegates attended, supported by advisers and secretariat staff. The Charter was signed on 26 June 1945, a separate milestone from both the opening meeting and the modern commemorative resolution. The day recognizes the painstaking work of drafting, debating and negotiating agreements among governments. The earliest distinct annual celebration after the 2019 proclamation is not independently documented in the original source consulted.
+
+**Founder / institutional authority:** The United Nations General Assembly adopted the observance in 2019; the 1945 delegates are its historical subjects, not the founders of the modern resolution.
+
+**Why it matters:** Recognize diplomacy, multilateral negotiation and the contributions of delegates to international cooperation and peaceful settlement of differences.
+
+**Source-based contextual facts:**
+- The General Assembly proclaimed 25 April through A/RES/73/286 in 2019.
+- The San Francisco Conference opened on 25 April 1945 with delegates from fifty nations.
+- The UN Charter was signed later, on 26 June 1945.
+
+**Source URLs:**
+- https://www.un.org/en/observances/delegates-day
+- https://mandates.un.org/mandate/A/RES/73/286
+
+**Limits:** Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication.
+
+---
+
+## 22. vesak-the-day-of-the-full-moon
+
+**Formal year / Anno formale:** 1999 · **First observed / Prima osservanza:** *
+
+### Italiano — Vesak: una tradizione buddhista antica riconosciuta dall'ONU nel 1999
+
+Il Vesak è una celebrazione sacra per molte comunità buddhiste e segue il plenilunio del mese tradizionalmente collegato alla nascita, all'illuminazione e alla morte del Buddha. Il 15 dicembre 1999 l'Assemblea generale ONU adottò A/RES/54/115, riconoscendo l'osservanza internazionale del Vesak presso la sede delle Nazioni Unite e altri uffici. Il riconoscimento istituzionale non coincide con la nascita della tradizione, precedente di molti secoli. La risoluzione chiese di organizzare le iniziative senza nuovi oneri e consultando le missioni interessate. Il calendario segue tradizioni lunari e non una data gregoriana immutabile. La prima cerimonia specifica negli uffici ONU non è stabilita dal solo atto originario e resta non accertata.
+
+**Promotore:** L'Assemblea generale riconobbe il Vesak nel 1999, riprendendo una tradizione buddhista antica, senza identificarne un singolo fondatore moderno.
+
+**Perché è importante:** Favorire rispetto per la cultura buddhista e per insegnamenti legati a compassione, nonviolenza e responsabilità.
+
+**Fatti documentati:**
+- L'Assemblea generale adottò A/RES/54/115 il 15 dicembre 1999.
+- L'osservanza riconosciuta dall'ONU dipende da un plenilunio e non da un giorno gregoriano fisso.
+- La decisione del 1999 non creò la precedente celebrazione religiosa.
+
+### English — Vesak: an ancient Buddhist tradition recognized at the UN in 1999
+
+Vesak is a sacred celebration in Buddhist communities and follows the full moon of the month traditionally associated with the Buddha's birth, enlightenment and passing. On 15 December 1999, the UN General Assembly adopted A/RES/54/115, recognizing international observance of Vesak at UN Headquarters and other offices. This institutional recognition is not the origin of Vesak itself, which predates the UN by many centuries. The resolution requested arrangements without additional cost to the Organization and in consultation with relevant missions. The calendar date depends on lunar traditions rather than one invariant Gregorian day. A first distinct UN office ceremony is not established by the adoption record alone and remains unasserted.
+
+**Founder / institutional authority:** The General Assembly recognized international Vesak observance in 1999 following an ancient Buddhist tradition; no individual modern founder is inferred.
+
+**Why it matters:** Promote respect for Buddhist heritage and its teachings on compassion, non-violence and mindful responsibility.
+
+**Source-based contextual facts:**
+- The General Assembly adopted A/RES/54/115 on 15 December 1999.
+- The UN recognition concerns a lunar full-moon observance, not one fixed Gregorian date.
+- The 1999 decision did not create the much older religious celebration.
+
+**Source URLs:**
+- https://digitallibrary.un.org/record/404546
+- https://www.un.org/en/observances/vesak-day
+
+**Limits:** Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication.
+
+---
+
+## 23. world-day-against-child-labour
+
+**Formal year / Anno formale:** 2002 · **First observed / Prima osservanza:** 2002
+
+### Italiano — 12 giugno: l'Organizzazione internazionale del lavoro contro lo sfruttamento minorile
+
+L'Organizzazione internazionale del lavoro lanciò la prima Giornata mondiale contro il lavoro minorile il 12 giugno 2002. Il comunicato contemporaneo del 5 giugno invitava scuole, lavoratori, datori di lavoro e comunità a partecipare. Per l'11 giugno, vigilia della giornata, era previsto un evento inaugurale a Ginevra, mentre la ricorrenza internazionale rimaneva il 12. La campagna chiede di contrastare lavoro pericoloso e sfruttamento, senza considerare equivalenti tutte le attività domestiche adatte all'età. Sostiene inoltre le convenzioni OIL 138 sull'età minima e 182 sulle peggiori forme di lavoro minorile. Le fonti documentano l'avvio nel 2002, ma non provano un anniversario storico unico come motivo della scelta del 12 giugno.
+
+**Promotore:** L'Organizzazione internazionale del lavoro lanciò la giornata nel 2002; non viene attribuito senza prove un unico ideatore personale.
+
+**Perché è importante:** Promuovere diritti dell'infanzia e accesso alla scuola contrastando lavoro pericoloso, sfruttamento e forme coercitive.
+
+**Fatti documentati:**
+- La prima giornata mondiale si svolse il 12 giugno 2002.
+- L'OIL preparò un evento inaugurale distinto a Ginevra per l'11 giugno.
+- La campagna richiama le convenzioni internazionali OIL 138 e 182.
+
+### English — 12 June: the ILO confronts harmful child labour
+
+The International Labour Organization launched the first World Day Against Child Labour on 12 June 2002. Its own contemporary announcement, released on 5 June, invited schools, workers, employers and communities to participate. On the preceding day, 11 June, ILO planned a launch event in Geneva, while the international day itself remained 12 June. The campaign encouraged countries to confront exploitative and hazardous labour rather than treating every age-appropriate household activity as equivalent. It also built support for ILO Conventions 138, on minimum age, and 182, on the worst forms of child labour. The sources establish the modern 2002 launch but do not prove one historical anniversary that uniquely explains why 12 June was chosen.
+
+**Founder / institutional authority:** The International Labour Organization formally launched the international day in 2002; no single independent individual founder is documented beyond ILO leadership.
+
+**Why it matters:** Promote children's rights, safe childhoods and access to education while opposing hazardous, exploitative and forced child labour.
+
+**Source-based contextual facts:**
+- The first World Day Against Child Labour was held on 12 June 2002.
+- ILO announced a separate Geneva launch event for 11 June, the eve of the day.
+- The campaign draws attention to ILO Conventions 138 and 182.
+
+**Source URLs:**
+- https://www.ilo.org/resource/news/ilo-launches-first-world-day-against-child-labour-12-june-2002
+- https://www.ilo.org/resource/news/world-day-against-child-labour-will-be-observed-first-time
+
+**Limits:** Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication.
+
+---
+
+## 24. world-post-day
+
+**Formal year / Anno formale:** 1969 · **First observed / Prima osservanza:** *
+
+### Italiano — 9 ottobre: dal Trattato di Berna alla giornata postale mondiale
+
+Il Congresso dell'Unione postale universale, riunito a Tokyo nel 1969, proclamò il 9 ottobre giornata dedicata all'organizzazione postale internazionale. La data fu scelta perché il Trattato di Berna, che istituì l'Unione generale delle poste, era stato firmato il 9 ottobre 1874. Quel trattato ottocentesco è quindi l'anniversario, non l'atto che creò la campagna moderna. Una decisione congressuale del 1984 adottò poi il nome Giornata mondiale della posta, sostituendo la precedente denominazione UPU Day. Le amministrazioni postali celebrano l'occasione con attività pubbliche, mostre e iniziative sul ruolo delle comunicazioni per lo sviluppo economico e sociale. La fonte originaria non stabilisce con certezza la data del primo evento locale successivo alla proclamazione del 1969.
+
+**Promotore:** Il Congresso UPU di Tokyo istituì la giornata nel 1969; quello del 1984 adottò il nome moderno World Post Day.
+
+**Perché è importante:** Far comprendere il ruolo della rete postale per comunicazioni, accesso ai servizi e relazioni internazionali.
+
+**Fatti documentati:**
+- Il Congresso UPU del 1969 scelse il 9 ottobre.
+- La data ricorda il Trattato di Berna firmato il 9 ottobre 1874.
+- Il nome World Post Day sostituì UPU Day con una decisione del 1984.
+
+### English — 9 October: from the Treaty of Bern to a worldwide postal day
+
+The Universal Postal Congress meeting in Tokyo in 1969 proclaimed 9 October as the day to celebrate the international postal union. The date was chosen because the Treaty of Bern establishing the General Postal Union was signed on 9 October 1874. This means the nineteenth-century treaty was the anniversary, not the resolution that created the twentieth-century awareness campaign. A later 1984 congress decision officially adopted the name World Post Day, replacing the earlier UPU Day designation. Postal administrations use the annual date for public activities, exhibitions and discussions of the role of communications in economic and social development. The original source does not independently establish the first precisely dated local celebration after the 1969 proclamation.
+
+**Founder / institutional authority:** The 1969 Universal Postal Congress in Tokyo adopted the international day; the 1984 Congress adopted the modern World Post Day name.
+
+**Why it matters:** Help people understand the postal network's role in communication, access to services and international connections.
+
+**Source-based contextual facts:**
+- The 1969 UPU Congress chose 9 October for the postal observance.
+- The date recalls the Treaty of Bern signed on 9 October 1874.
+- The name World Post Day replaced UPU Day in a later 1984 congress decision.
+
+**Source URLs:**
+- https://www.upu.int/en/universal-postal-union/outreach-campaigns/world-post-day
+- https://www.upu.int/en/universal-postal-union/about-upu/history
+
+**Limits:** Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication.
+
+---
+
+## 25. zero-discrimination-day
+
+**Formal year / Anno formale:** 2013 · **First observed / Prima osservanza:** 2014
+
+### Italiano — 1° marzo: una campagna UNAIDS contro ogni forma di esclusione
+
+UNAIDS annunciò la campagna Zero Discrimination durante la Giornata mondiale contro l'AIDS, il 1° dicembre 2013, a Melbourne insieme alla sostenitrice Daw Aung San Suu Kyi. Il comunicato annunciava la prima giornata internazionale per il 1° marzo 2014, confermata da una successiva nota UNAIDS. Una farfalla divenne simbolo della trasformazione positiva proposta dalla campagna. Pur nata nel contesto della risposta all'HIV, l'iniziativa difende dignità e opportunità senza discriminazioni fondate sulle condizioni o sulle caratteristiche delle persone. Questa origine è diversa da una proclamazione dell'Assemblea generale: la giornata fu lanciata da UNAIDS e dai suoi partner, non da una risoluzione assembleare specifica qui dimostrata.
+
+**Promotore:** UNAIDS e la sostenitrice Daw Aung San Suu Kyi annunciarono la campagna nel dicembre 2013; UNAIDS organizzò la ricorrenza.
+
+**Perché è importante:** Contrastare stigma e discriminazioni e promuovere inclusione, dignità e pari accesso a diritti e servizi.
+
+**Fatti documentati:**
+- UNAIDS annunciò la campagna a Melbourne il 1° dicembre 2013.
+- La prima Zero Discrimination Day si celebrò il 1° marzo 2014.
+- La farfalla fu scelta come simbolo di trasformazione positiva.
+
+### English — 1 March: a UNAIDS campaign against every form of exclusion
+
+UNAIDS announced the Zero Discrimination campaign on World AIDS Day, 1 December 2013, in an event in Melbourne with advocate Daw Aung San Suu Kyi. The announcement said that the first Zero Discrimination Day would be celebrated on 1 March 2014, a date confirmed by a later UNAIDS press release. The butterfly became an emblem of positive transformation in the campaign. Although linked to the response to HIV, the initiative argues for dignity and equal opportunities regardless of people's characteristics or circumstances. This origin differs from a General Assembly proclamation: the day was launched by UNAIDS and its partners, not documented here as a separately adopted UN General Assembly resolution.
+
+**Founder / institutional authority:** UNAIDS and its then Goodwill Advocate Daw Aung San Suu Kyi announced the campaign in December 2013; UNAIDS organized the international day.
+
+**Why it matters:** Challenge stigma and discrimination and promote inclusion, dignity and equal access to rights and services.
+
+**Source-based contextual facts:**
+- The UNAIDS campaign launch was announced in Melbourne on 1 December 2013.
+- The first Zero Discrimination Day was held on 1 March 2014.
+- A butterfly was used as a symbol of transformation in the campaign.
+
+**Source URLs:**
+- https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2013/december/20131201zerodiscrimination
+- https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2015/february/20150226_PR_Zero_Discrimination_Day
+
+**Limits:** Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication.
+
+---
+
+## 26. world-space-week
+
+**Formal year / Anno formale:** 1999 · **First observed / Prima osservanza:** *
+
+### Italiano — 4–10 ottobre: due anniversari che aprirono l'era spaziale
+
+L'Assemblea generale ONU proclamò la Settimana mondiale dello spazio con A/RES/54/68, adottata il 6 dicembre 1999. Il periodo dal 4 al 10 ottobre riunisce due eventi fondamentali: il lancio di Sputnik 1, primo satellite artificiale, il 4 ottobre 1957 e l'entrata in vigore del Trattato sullo spazio extra-atmosferico il 10 ottobre 1967. Gli anniversari danno un contesto a una settimana moderna dedicata alla ricerca e agli usi pacifici della tecnologia spaziale. L'Ufficio ONU per gli affari spaziali collabora con i partner su temi e attività annuali. Il testo originario spiega le date, ma non documenta da solo la prima effettiva celebrazione annuale, che resta sconosciuta.
+
+**Promotore:** L'Assemblea generale istituì la settimana nel 1999; l'Ufficio ONU per gli affari spaziali sostiene le attività di divulgazione.
+
+**Perché è importante:** Mostrare come esplorazione spaziale e impieghi pacifici della scienza contribuiscano a istruzione, cooperazione e vita quotidiana.
+
+**Fatti documentati:**
+- A/RES/54/68 istituì la settimana il 6 dicembre 1999.
+- Il 4 ottobre ricorda il lancio di Sputnik 1 nel 1957.
+- Il 10 ottobre ricorda l'entrata in vigore del Trattato sullo spazio nel 1967.
+
+### English — 4–10 October: two milestones that opened the space age
+
+The General Assembly proclaimed World Space Week through resolution A/RES/54/68, adopted on 6 December 1999. The period from 4 through 10 October joins two important events: the launch of Sputnik 1, the first human-made satellite, on 4 October 1957, and the entry into force of the Outer Space Treaty on 10 October 1967. The anniversaries frame a modern week about space research and the peaceful uses of technology. The United Nations Office for Outer Space Affairs cooperates with partners to develop annual activities and themes. The original act explains the dates but does not alone verify the first actual annual celebration, which is left unknown.
+
+**Founder / institutional authority:** The United Nations General Assembly proclaimed the international week in 1999; the UN Office for Outer Space Affairs supports related outreach.
+
+**Why it matters:** Explain how space exploration and the peaceful application of science can contribute to education, cooperation and daily life.
+
+**Source-based contextual facts:**
+- A/RES/54/68 established the week on 6 December 1999.
+- 4 October recalls Sputnik 1, launched in 1957.
+- 10 October recalls the Outer Space Treaty taking effect in 1967.
+
+**Source URLs:**
+- https://www.un.org/en/observances/world-space-week
+- https://mandates.un.org/mandate/A/RES/54/68
+
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+
+---
+
+## 27. world-blood-donor-day
+
+**Formal year / Anno formale:** 2005 · **First observed / Prima osservanza:** 2004
+
+### Italiano — 14 giugno: ringraziare i donatori prima del riconoscimento formale OMS
+
+La prima Giornata mondiale del donatore di sangue si svolse il 14 giugno 2004, con un lancio internazionale a Johannesburg e iniziative in numerosi Paesi. Nel maggio 2005 l'Assemblea mondiale della sanità approvò WHA58.13, istituendo formalmente l'osservanza annuale. La data è il compleanno di Karl Landsteiner, nato nel 1868, le cui scoperte sui gruppi sanguigni trasformarono la sicurezza delle trasfusioni. Le fonti OMS spiegano che il progetto fu sostenuto dall'Organizzazione e da reti internazionali della Croce Rossa, di donatori e di specialisti delle trasfusioni. L'evento del 2004 e la proclamazione del 2005 sono quindi tappe distinte. La campagna ringrazia chi dona senza compenso e richiama il bisogno di sangue controllato e disponibile.
+
+**Promotore:** La campagna nacque con OMS, Croce Rossa e organizzazioni di donatori e trasfusionisti; l'Assemblea mondiale della sanità la riconobbe formalmente nel 2005.
+
+**Perché è importante:** Ringraziare i donatori volontari e promuovere disponibilità e sicurezza del sangue donato gratuitamente.
+
+**Fatti documentati:**
+- L'OMS documenta la prima celebrazione internazionale il 14 giugno 2004.
+- WHA58.13 istituì la giornata annuale nel maggio 2005.
+- Il 14 giugno ricorda la nascita di Karl Landsteiner e le scoperte sui gruppi sanguigni.
+
+### English — 14 June: thanking voluntary blood donors before the official WHO resolution
+
+The first World Blood Donor Day was held on 14 June 2004, with a global launch in Johannesburg and celebrations in many countries. The World Health Assembly later adopted resolution WHA58.13 in May 2005 to establish an annual global observance. The date is the birthday of Karl Landsteiner, born in 1868, whose discoveries of blood groups transformed transfusion safety. Original WHO records explain that the project was supported by WHO and international Red Cross and donor and transfusion organizations. The earlier 2004 event and later 2005 formal designation are therefore separate milestones. The campaign honours regular voluntary, unpaid donations while highlighting the importance of tested, available and safe blood.
+
+**Founder / institutional authority:** The original campaign was developed by WHO with Red Cross, blood-donor and transfusion organizations; the World Health Assembly formally recognized it in 2005.
+
+**Why it matters:** Thank voluntary blood donors and promote safe, sufficient and unpaid blood donation for patients needing transfusions.
+
+**Source-based contextual facts:**
+- WHO documents the first international celebration on 14 June 2004.
+- Resolution WHA58.13 formally designated the annual day in May 2005.
+- 14 June is Karl Landsteiner's birthday, connecting the date to blood-group science.
+
+**Source URLs:**
+- https://www.who.int/publications-detail-redirect/WHA58.13
+- https://www.who.int/westernpacific/newsroom/events/world-blood-donor-day
+- https://www.emro.who.int/press-releases/2005/world-blood-donor-day-2005.html
+
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+
+---
+
+## 28. world-malaria-day
+
+**Formal year / Anno formale:** 2007 · **First observed / Prima osservanza:** *
+
+### Italiano — 25 aprile: la Giornata mondiale della malaria istituita dall'Assemblea OMS
+
+Il 23 maggio 2007 la 60ª Assemblea mondiale della sanità adottò WHA60.18, istituendo formalmente il 25 aprile come Giornata mondiale della malaria e lasciando ai Paesi la possibilità di svolgere iniziative anche in altre date. La campagna OMS si collega a precedenti attività di sensibilizzazione, soprattutto in Africa, per una malattia trasmessa da zanzare infette ma prevenibile e curabile. La risoluzione chiede educazione sanitaria, investimenti costanti e prevenzione nelle comunità, non soltanto una cerimonia simbolica annuale. La decisione identifica la data, ma le fonti originarie consultate non dimostrano una prima singola celebrazione mondiale né un anniversario storico negoziale preciso che ne spieghi la scelta.
+
+**Promotore:** Gli Stati membri dell'OMS istituirono la ricorrenza con la risoluzione WHA60.18 dell'Assemblea mondiale della sanità nel 2007.
+
+**Perché è importante:** Diffondere conoscenze su prevenzione e cura della malaria e sostenere investimenti e cooperazione sanitaria.
+
+**Fatti documentati:**
+- La Giornata mondiale della malaria fu istituita dall'Assemblea mondiale della sanità nel 2007.
+- WHA60.18 fissa la ricorrenza annuale del 25 aprile.
+- La risoluzione permette ai singoli Stati di organizzare eventi anche in altre date.
+
+### English — 25 April: the World Health Assembly establishes Malaria Day
+
+At its 60th session on 23 May 2007, the World Health Assembly adopted resolution WHA60.18, formally establishing World Malaria Day as an annual observance on 25 April, while allowing countries to hold their own activities on other dates. The WHO campaign grew from earlier malaria-awareness initiatives, particularly within Africa, and is directed at a disease transmitted by infected mosquitoes that remains preventable and treatable. The resolution calls for education, sustained investment and community-based prevention, rather than only an annual symbolic ceremony. The founding decision fixes the date, but the specific first annual worldwide event and any single negotiated historical anniversary behind 25 April are not proven by the cited original records.
+
+**Founder / institutional authority:** WHO Member States formally established the observance through World Health Assembly resolution WHA60.18 in 2007.
+
+**Why it matters:** Increase knowledge of malaria prevention and treatment and sustain investment and cooperation for malaria control.
+
+**Source-based contextual facts:**
+- World Malaria Day was instituted by the World Health Assembly in 2007.
+- Resolution WHA60.18 establishes the annual date of 25 April.
+- The resolution allows individual Member States to choose other dates for activities.
+
+**Source URLs:**
+- https://www.who.int/campaigns/world-malaria-day
+- https://apps.who.int/gb/ebwha/pdf_files/WHA60/A60_R18-en.pdf
+
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+
+---
+
+## 29. world-tuberculosis-day
+
+**Formal year / Anno formale:** 1982 · **First observed / Prima osservanza:** 1982
+
+### Italiano — 24 marzo: una scoperta scientifica e un secolo di ricerca sulla tubercolosi
+
+La Giornata mondiale della tubercolosi ricorda il 24 marzo 1882, quando Robert Koch annunciò la scoperta del batterio responsabile della malattia. Una valutazione storica delle campagne OMS indica il 1982 come anno di istituzione, nel centenario della scoperta. La ricorrenza contemporanea ricorda che la tubercolosi resta un'infezione per la quale servono diagnosi accessibili, cure e sostegno della sanità pubblica. L'annuncio scientifico dell'Ottocento è un fatto fondamentale, ma non coincide con l'atto che ha creato la campagna moderna. Le fonti OMS sostengono la cronologia del centenario e la scelta della data, senza identificare una sola persona che abbia proposto originariamente la ricorrenza.
+
+**Promotore:** La campagna moderna risulta istituita nell'ambito delle organizzazioni sanitarie entro il 1982; Koch è lo scienziato ricordato, non il fondatore della giornata.
+
+**Perché è importante:** Sensibilizzare su prevenzione, diagnosi e cura della tubercolosi, sostenendo la riduzione di malattia e mortalità.
+
+**Fatti documentati:**
+- Il 24 marzo ricorda l'annuncio della scoperta di Koch nel 1882.
+- La ricostruzione OMS indica il 1982 come anno di istituzione, nel centenario.
+- Prevenzione, diagnosi e trattamento richiedono cooperazione sanitaria.
+
+### English — 24 March: one discovery and a century of tuberculosis research
+
+World Tuberculosis Day recalls 24 March 1882, when Robert Koch announced the discovery of the bacterium responsible for tuberculosis. WHO's historical campaign evaluation identifies 1982 as the establishment year of the day, marking the centenary of the discovery. The modern date reminds the public that tuberculosis remains an infectious disease requiring accessible diagnosis, treatment and public-health support. Koch's nineteenth-century scientific announcement is a milestone, but not the founding decision for the modern awareness campaign. The WHO sources support the 1982 centenary and its calendar rationale without naming a single modern individual who proposed the commemorative campaign.
+
+**Founder / institutional authority:** The modern campaign was established through public-health institutions by 1982, as documented by WHO; Koch was the historic scientist commemorated, not the founder of the observance.
+
+**Why it matters:** Increase awareness of tuberculosis prevention, diagnosis and treatment and support efforts to reduce illness and deaths.
+
+**Source-based contextual facts:**
+- 24 March recalls Robert Koch's scientific announcement in 1882.
+- WHO's historical evaluation lists establishment in the centenary year 1982.
+- Tuberculosis requires coordinated prevention, diagnosis and treatment.
+
+**Source URLs:**
+- https://www.who.int/europe/campaigns/world-tb-day
+- https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
+
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+
+---
+
+## 30. world-hepatitis-day
+
+**Formal year / Anno formale:** 2010 · **First observed / Prima osservanza:** *
+
+### Italiano — 28 luglio: ricordare lo scienziato che scoprì il virus dell'epatite B
+
+L'Organizzazione mondiale della sanità celebra il 28 luglio come Giornata mondiale contro l'epatite, scelta perché coincide con il compleanno di Baruch Blumberg, scienziato legato alla scoperta del virus dell'epatite B e allo sviluppo di metodi diagnostici e di un vaccino. La valutazione storica delle campagne OMS indica il 2010 come anno di riconoscimento istituzionale, pur essendoci state iniziative precedenti. La campagna promuove controlli, prevenzione, vaccinazione quando appropriata e accesso alle cure per diverse forme di epatite virale. La prima specifica celebrazione annuale dopo il riconoscimento OMS non è dimostrata individualmente dalle fonti consultate e rimane quindi sconosciuta.
+
+**Promotore:** Il processo degli Stati membri OMS riconobbe la ricorrenza nel 2010; Blumberg è lo scienziato ricordato, non un promotore istituzionale documentato.
+
+**Perché è importante:** Promuovere diagnosi, prevenzione, vaccinazione quando indicata e accesso alle cure dell'epatite.
+
+**Fatti documentati:**
+- L'OMS colloca il riconoscimento istituzionale della campagna nel 2010.
+- Il 28 luglio coincide con il compleanno del ricercatore Baruch Blumberg.
+- La campagna OMS valorizza diagnosi e cure oltre alla prevenzione.
+
+### English — 28 July: recalling the scientist behind hepatitis B discovery
+
+The World Health Organization recognizes 28 July as World Hepatitis Day, a date selected because it is the birthday of Baruch Blumberg, the scientist associated with the discovery of the hepatitis B virus and the development of diagnostic work and a vaccine. WHO's historical evaluation identifies 2010 as the formal institutional establishment year, although awareness efforts preceded that recognition. The modern campaign encourages testing, prevention, vaccination where applicable and access to treatment for different forms of viral hepatitis. The exact first independently documented annual celebration following WHO recognition is not established by the primary materials reviewed here and is left unknown.
+
+**Founder / institutional authority:** The World Health Organization's member-state process recognized the international day in 2010; Blumberg is the scientist commemorated rather than a documented promoter of the campaign.
+
+**Why it matters:** Promote testing, prevention, vaccination where appropriate and access to hepatitis care and treatment.
+
+**Source-based contextual facts:**
+- WHO places the formal international campaign's establishment in 2010.
+- 28 July is the birthday of hepatitis B researcher Baruch Blumberg.
+- The WHO campaign emphasizes testing and treatment as well as prevention.
+
+**Source URLs:**
+- https://www.who.int/campaigns/world-hepatitis-day/
+- https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
+
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+
+---
+
+## 31. brazil-indigenous-peoples-day
+
+**Formal year / Anno formale:** 2022 · **First observed / Prima osservanza:** *
+
+### Italiano — 19 aprile: il Brasile modifica il nome legale di una ricorrenza precedente
+
+Il Brasile promulgò la legge n. 14.402 l'8 luglio 2022, istituendo il 19 aprile come Dia dos Povos Indígenas e abrogando il precedente decreto legge n. 5.540 del 2 giugno 1943. La nuova denominazione sostituì il vecchio Dia do Índio e riconobbe la pluralità dei popoli indigeni, ciascuno con storia e identità proprie. La legge del 2022 non inventò la tradizione del 19 aprile: il precedente giorno ufficiale era già previsto nel 1943. Neppure l'anno della legge coincide con l'inizio delle rivendicazioni dei popoli indigeni. La prima celebrazione specificamente organizzata sotto la nuova formulazione legislativa non è documentata separatamente nel testo e rimane non accertata.
+
+**Promotore:** Il Congresso nazionale brasiliano approvò la legge 14.402, promulgata nel luglio 2022; il decreto del 1943 è un precedente giuridico distinto.
+
+**Perché è importante:** Riconoscere i popoli indigeni come comunità differenti e sostenere diritti linguistici, territoriali, culturali e collettivi.
+
+**Fatti documentati:**
+- La legge n. 14.402 venne promulgata l'8 luglio 2022.
+- Abrogò il decreto n. 5.540 del 1943 mantenendo la data del 19 aprile.
+- La nuova denominazione legale utilizza l'espressione plurale Povos Indígenas.
+
+### English — 19 April: Brazil changes the legal name of an older observance
+
+Brazil enacted Law No. 14,402 on 8 July 2022, establishing 19 April as Dia dos Povos Indígenas and repealing the earlier Decree-Law No. 5,540 of 2 June 1943. The new name replaced the earlier Dia do Índio formulation and recognized that Brazil contains diverse indigenous peoples with their own histories and identities. The 2022 law did not invent the 19 April calendar tradition: the earlier official date had been used since the 1943 decree. Nor does the statutory year determine when indigenous peoples began advocating for their rights. The first observance under the newly worded 2022 law is not established independently in this source and remains unasserted.
+
+**Founder / institutional authority:** Brazil's National Congress adopted Law 14,402 and the law was promulgated in July 2022; the earlier 1943 decree is a separate legal predecessor.
+
+**Why it matters:** Recognize indigenous peoples as distinct communities and support language, land, cultural and collective rights.
+
+**Source-based contextual facts:**
+- Law 14,402 was promulgated on 8 July 2022.
+- The law repealed Decree-Law 5,540 of 1943 and retained the annual date 19 April.
+- The new legal wording uses the plural expression Povos Indígenas.
+
+**Source URLs:**
+- https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm
+- https://www.gov.br/cultura/pt-br/assuntos/noticias/dia-dos-povos-indigenas
+
+**Limits:** Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved.
+
+---
+
+## 32. canada-national-flag-day
+
+**Formal year / Anno formale:** 1996 · **First observed / Prima osservanza:** 1996
+
+### Italiano — 15 febbraio: il Canada ricorda il primo alzabandiera della foglia d'acero
+
+Il 15 febbraio 1996 il primo ministro Jean Chrétien firmò una dichiarazione che istituiva la Giornata nazionale della bandiera canadese. La data ricorda il primo alzabandiera cerimoniale della nuova bandiera rossa e bianca con foglia d'acero, avvenuto a mezzogiorno il 15 febbraio 1965 sulla collina del Parlamento. La bandiera nazionale era stata approvata e proclamata nel 1964–65, oltre trent'anni prima dell'istituzione della giornata commemorativa. La dichiarazione canadese richiama valori come libertà, pace e rispetto reciproco. Non bisogna quindi confondere l'adozione della bandiera nel 1965 con la nascita della celebrazione annuale nel 1996.
+
+**Promotore:** Il primo ministro Jean Chrétien emise la dichiarazione originaria del 1996; il disegno e l'adozione della bandiera seguirono precedenti processi istituzionali.
+
+**Perché è importante:** Far conoscere la storia della bandiera canadese e il suo ruolo di simbolo civico condiviso da comunità differenti.
+
+**Fatti documentati:**
+- Jean Chrétien proclamò la giornata nazionale il 15 febbraio 1996.
+- La bandiera con la foglia d'acero venne alzata per la prima volta il 15 febbraio 1965.
+- L'adozione della bandiera precede di molti anni la ricorrenza commemorativa.
+
+### English — 15 February: Canada remembers the first maple-leaf flag raising
+
+On 15 February 1996 Prime Minister Jean Chrétien issued a declaration designating the annual National Flag of Canada Day. The date marks the first ceremonial raising, at noon on 15 February 1965, of the new red-and-white maple-leaf flag on Parliament Hill. The national flag itself had been approved and proclaimed earlier, in 1964–65, before the commemorative day was created three decades later. The original Canadian declaration stresses values including freedom, peace and mutual respect. It is therefore important not to mistake the adoption of the flag in 1965 for the founding of the annual observance in 1996.
+
+**Founder / institutional authority:** Prime Minister Jean Chrétien issued the original 1996 declaration; the design and adoption of the flag came through separate earlier national processes.
+
+**Why it matters:** Explore the history of Canada's national flag and its role as a shared civic symbol across diverse communities.
+
+**Source-based contextual facts:**
+- Jean Chrétien declared National Flag of Canada Day on 15 February 1996.
+- The maple-leaf flag was first raised on Parliament Hill at noon on 15 February 1965.
+- The flag was adopted decades before the later annual commemorative day.
+
+**Source URLs:**
+- https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day.html
+
+**Limits:** Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved.
+
+---
+
+## 33. canada-truth-and-reconciliation-day
+
+**Formal year / Anno formale:** 2021 · **First observed / Prima osservanza:** 2021
+
+### Italiano — 30 settembre: una giornata nazionale di verità e riconciliazione
+
+Il Canada inaugurò il 30 settembre 2021 la Giornata nazionale per la verità e la riconciliazione. La celebrazione federale si sovrappone alla precedente tradizione dell'Orange Shirt Day, dedicata alle persone indigene sopravvissute alle scuole residenziali e ai bambini che non tornarono a casa. La nuova ricorrenza ufficiale va distinta da decenni di memoria e mobilitazione di comunità First Nations, Inuit e Métis. Le fonti governative spiegano che quelle scuole separarono bambini da famiglie e comunità nell'ambito di politiche coloniali di assimilazione, con conseguenze ancora presenti. La giornata invita a riflessione, istruzione e impegni concreti, senza trattare una festa pubblica come soluzione completa.
+
+**Promotore:** Il governo federale canadese introdusse formalmente la giornata nel 2021, riprendendo l'Orange Shirt Day e l'azione delle comunità indigene.
+
+**Perché è importante:** Ricordare i sopravvissuti alle scuole residenziali e le famiglie, diffondere conoscenza storica e sostenere una riconciliazione guidata dalle comunità.
+
+**Fatti documentati:**
+- La prima ricorrenza federale si svolse il 30 settembre 2021.
+- Il calendario coincide con la precedente tradizione dell'Orange Shirt Day.
+- La giornata affronta gli effetti tuttora presenti delle scuole residenziali.
+
+### English — 30 September: a national day for truth, survivors and reconciliation
+
+Canada inaugurated the National Day for Truth and Reconciliation on 30 September 2021. The federal observance aligned with the earlier Orange Shirt Day tradition, which honoured Indigenous survivors of residential schools and the children who never returned home. The modern statutory day must be distinguished from decades of advocacy and remembrance by First Nations, Inuit and Métis communities. Canadian government sources describe the schools as institutions that removed children from families and communities under colonial assimilation policies, causing damage whose consequences remain today. The day calls for reflection, education and concrete commitment to reconciliation rather than treating one public holiday as a complete remedy.
+
+**Founder / institutional authority:** Canada's federal government introduced the formal annual observance in 2021, drawing on pre-existing Orange Shirt Day and Indigenous community advocacy.
+
+**Why it matters:** Honour residential-school survivors and affected families, improve historical education and support Indigenous-led reconciliation.
+
+**Source-based contextual facts:**
+- The federal National Day for Truth and Reconciliation began on 30 September 2021.
+- The observance coincides with the older Orange Shirt Day tradition.
+- The commemoration addresses the continuing impacts of Canada's residential-school system.
+
+**Source URLs:**
+- https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html
+
+**Limits:** Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved.
+
+---
+
+## 34. spain-exile-victims-remembrance-day
+
+**Formal year / Anno formale:** 2022 · **First observed / Prima osservanza:** *
+
+### Italiano — 8 maggio: l'esilio spagnolo entra nella legge sulla memoria democratica
+
+L'articolo 8 della legge spagnola 20/2022 del 19 ottobre istituì l'8 maggio come giornata annuale in memoria e omaggio alle donne e agli uomini costretti all'esilio a causa del colpo di Stato militare, della guerra civile e della dittatura. Il preambolo lega esplicitamente l'8 maggio alla vittoria europea sul fascismo e sul nazismo e riconosce il contributo delle persone esiliate a quella lotta. La decisione moderna va distinta dagli eventi degli anni Trenta e Quaranta e dalla separata giornata del 31 ottobre dedicata a tutte le vittime. La legge stabilisce la data annuale, ma non documenta una prima singola cerimonia successiva all'adozione, che resta non accertata.
+
+**Promotore:** Il Parlamento spagnolo approvò la legge 20/2022; l'articolo 8 istituisce la ricorrenza per l'esilio e l'articolo 7 una distinta giornata delle vittime.
+
+**Perché è importante:** Riconoscere le persone costrette all'esilio e conservarne la storia di resistenza democratica, migrazione forzata e repressione.
+
+**Fatti documentati:**
+- L'articolo 8 della legge 20/2022 fissa la ricorrenza dell'8 maggio.
+- Il preambolo collega la data alla vittoria in Europa sul fascismo del 1945.
+- L'articolo 7 stabilisce separatamente il 31 ottobre come giorno per tutte le vittime.
+
+### English — 8 May: Spain's exiles enter the democratic memory law
+
+Article 8 of Spain's Law 20/2022 of 19 October established 8 May as the annual day of remembrance and tribute to men and women who experienced exile because of the military coup, Civil War and dictatorship. The law's explanatory memorandum explicitly connects 8 May with victory in Europe over fascism and Nazism and acknowledges exiles' role in that struggle. This modern legal decision is distinct from the events of the 1930s and 1940s and from the separately established 31 October day for all victims. The act establishes the annual date but does not individually prove a first commemorative ceremony after its adoption, which remains unknown.
+
+**Founder / institutional authority:** Spain's Parliament enacted Law 20/2022; Article 8 establishes the exile-remembrance day, while Article 7 creates a separate victims' day.
+
+**Why it matters:** Recognize people forced into exile and preserve the history of democratic resistance, displacement and repression.
+
+**Source-based contextual facts:**
+- Article 8 of Law 20/2022 designates 8 May as the annual date.
+- The law's explanatory memorandum links it to victory over European fascism in 1945.
+- Article 7 separately designates 31 October for remembrance of all victims.
+
+**Source URLs:**
+- https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020
+- https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099
+
+**Limits:** Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved.
+
+---
+
+## 35. brazil-national-physicist-day
+
+**Formal year / Anno formale:** 2023 · **First observed / Prima osservanza:** *
+
+### Italiano — 19 maggio: il Brasile riconosce per legge la Giornata dei fisici
+
+La legge federale brasiliana n. 14.769, firmata il 22 dicembre 2023, istituì il 19 maggio come Giornata nazionale del fisico in tutto il Paese. Gli articoli inseriscono la data nel calendario ufficiale, distinguendo il riconoscimento giuridico della professione dalla storia molto più antica della fisica e della ricerca scientifica. La legge indica la ricorrenza annuale ma non spiega da sola perché sia stato scelto il 19 maggio invece di un altro giorno. Non documenta neppure la prima cerimonia nazionale successiva all'adozione, perciò non viene inventato un anno inaugurale. La giornata consente di parlare di ricerca, istruzione, laboratori e contributo dei fisici a medicina, industria e tecnologie quotidiane.
+
+**Promotore:** Il Congresso nazionale brasiliano approvò la norma firmata dal presidente Luiz Inácio Lula da Silva nel dicembre 2023; gli articoli non provano il singolo ideatore della data.
+
+**Perché è importante:** Riconoscere il contributo dei fisici e sostenere educazione scientifica, ricerca e comprensione pubblica della scienza.
+
+**Fatti documentati:**
+- La legge 14.769 fu firmata il 22 dicembre 2023.
+- Istituì il 19 maggio come giornata nazionale dei fisici in Brasile.
+- La ricorrenza entrò nel calendario ufficiale nazionale mediante la legge.
+
+### English — 19 May: Brazilian physicists receive a national day in law
+
+Brazil's Federal Law No. 14,769 was signed on 22 December 2023 and established 19 May as National Physicist Day throughout the country. Its articles add the date to the official national calendar, distinguishing the legal recognition of a profession from the much older history of physics and scientific research. The law names the day and its annual date but does not by itself establish why 19 May, rather than any other day, was selected. It also does not record a first national ceremony after adoption, so no inaugural year is asserted. The day provides an opportunity to discuss research, education, laboratories and the work of physicists in medicine, industry and daily technology.
+
+**Founder / institutional authority:** Brazil's National Congress enacted the law, signed by President Luiz Inácio Lula da Silva in December 2023; no single original date proposer is proven by its operative articles.
+
+**Why it matters:** Recognize the contribution of physicists and support scientific education, research and public understanding of science.
+
+**Source-based contextual facts:**
+- Law 14,769 was signed on 22 December 2023.
+- The law establishes 19 May as National Physicist Day across Brazil.
+- The day was added to the official national calendar by the statute.
+
+**Source URLs:**
+- https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14769.htm
+- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
+
+**Limits:** Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved.
+
+---
+
