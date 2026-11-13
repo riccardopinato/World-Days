@@ -388,9 +388,10 @@
 
 ### brazil-black-consciousness-day
 
-- https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html
+- https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12519.htm
+- https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm
 - https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional
-- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
+
 
 ### japan-constitution-memorial-day
 
