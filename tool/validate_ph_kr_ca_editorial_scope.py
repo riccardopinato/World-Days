@@ -56,3 +56,36 @@ assert scope["counts"]["total"] == 333
 assert scope["counts"]["excluded"] == 153
 assert scope["counts"]["remaining"] == 180
 print("PASS: PH 153 excluded + 91 retained; KR 57 retained; CA 32 retained; no human certification claimed")
+
+
+pilot = json.loads(
+    (AUDIT.parent / "research_batches" / "ph_kr_two_national_days_six_locale_research_20261113.json")
+    .read_text(encoding="utf-8")
+)
+assert pilot["schemaVersion"] == 1
+assert pilot["status"] == "SOURCE_CHECKED_EDITORIAL_NOT_HUMAN_CERTIFIED"
+assert pilot["count"] == len(pilot["records"]) == 2
+assert pilot["expectedLocales"] == ["en", "it", "es", "fr", "de", "pt"]
+assert {x["observanceId"] for x in pilot["records"]} == {
+    "ph-independence-day",
+    "kr-march-first-independence-movement-day",
+}
+for record in pilot["records"]:
+    assert expected[record["observanceId"]]["country"] == record["country"]
+    assert record["country"] in ("PH", "KR")
+    assert len(record["sources"]) >= 2
+    assert all(url.startswith("https://") for url in record["sources"])
+    assert len(record["locale"]) == 6
+    assert set(record["locale"]) == set(pilot["expectedLocales"])
+    assert record["introducedYear"] >= 1800
+    assert record["firstObservedYear"] <= record["introducedYear"] or record["country"] == "PH"
+    for locale, story in record["locale"].items():
+        assert set(story) == {"heading", "origin", "promoter", "purpose", "facts"}
+        assert len(story["heading"]) >= 15
+        assert len(story["origin"]) >= 300, (record["observanceId"], locale)
+        assert len(story["promoter"]) >= 50
+        assert len(story["purpose"]) >= 50
+        assert len(story["facts"]) == 3
+        assert all(len(fact) >= 30 for fact in story["facts"])
+    assert "pending" in record["sourceReviewNote"].lower() or "await" in record["sourceReviewNote"].lower()
+print("PASS: 2 new PH/KR source-backed six-locale dossiers, research-only; Canada PR119 reused")
