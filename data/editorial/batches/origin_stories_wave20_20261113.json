@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 48,
+  "count": 51,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -1644,6 +1644,108 @@
         }
       },
       "sourceReviewNote": "Canadian Heritage official 2017 first-party release confirms 13 November 2002 designation; contemporary government minister identifies Royal Proclamation. First actual annual ceremony not independently proved. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+    },
+    {
+      "observanceId": "india-national-science-day",
+      "introducedYear": 1986,
+      "firstObservedYear": 1987,
+      "sources": [
+        "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=151846&lang=1&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468&lang=2&reg=48"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 February: India remembers the Raman effect through science education",
+          "origin": "India designated 28 February National Science Day in 1986 after the National Council for Science and Technology Communication requested recognition from the government. The first official National Science Day followed on 28 February 1987. The date commemorates the announcement of the Raman effect on 28 February 1928, when physicist C. V. Raman presented the discovery concerning light scattering. Raman later received the 1930 Nobel Prize in Physics. The experiment, the government designation and the first public commemoration are three different events. Indian schools, universities and research institutes use the anniversary to share scientific discoveries and encourage critical inquiry.",
+          "promoter": "The National Council for Science and Technology Communication proposed the date in 1986 and the Indian government accepted it.",
+          "purpose": "Encourage science education, research literacy and interest in scientific careers and discoveries.",
+          "facts": [
+            "The Raman effect was announced on 28 February 1928.",
+            "The Indian government designated National Science Day in 1986.",
+            "The first annual National Science Day celebration followed in 1987."
+          ]
+        },
+        "it": {
+          "heading": "28 febbraio: l'India celebra la scoperta dell'effetto Raman",
+          "origin": "L'India designò il 28 febbraio Giornata nazionale della scienza nel 1986, dopo una richiesta del Consiglio nazionale per la comunicazione della scienza e della tecnologia al governo. La prima celebrazione ufficiale si svolse il 28 febbraio 1987. La data richiama l'annuncio dell'effetto Raman del 28 febbraio 1928, relativo alla diffusione della luce e al lavoro del fisico C. V. Raman, premiato con il Nobel nel 1930. Scoperta scientifica, provvedimento governativo e prima celebrazione sono tre eventi distinti. Scuole, università e laboratori indiani organizzano esperimenti e incontri per rendere la ricerca più accessibile al pubblico.",
+          "promoter": "Il Consiglio nazionale per la comunicazione scientifica propose la data nel 1986; il governo indiano la adottò.",
+          "purpose": "Promuovere divulgazione, curiosità scientifica e opportunità di formazione e ricerca.",
+          "facts": [
+            "Raman annunciò la scoperta il 28 febbraio 1928.",
+            "La designazione nazionale risale al 1986.",
+            "La prima celebrazione ufficiale si svolse nel 1987."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication."
+    },
+    {
+      "observanceId": "india-national-voters-day",
+      "introducedYear": 2011,
+      "firstObservedYear": 2011,
+      "sources": [
+        "https://www.eci.gov.in/voicenet/ArticleDECUS.htm",
+        "https://www.eci.gov.in/voicenet/Article_nvd2021.htm"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 January: India's election body welcomes new voters",
+          "origin": "In 2011 the Election Commission of India created National Voters' Day to be observed each 25 January, the anniversary of the Commission's establishment on 25 January 1950. The awareness day therefore began more than six decades after the founding of the institution it commemorates. Its activities focus on registration, knowledge of voting rights and participation, particularly for citizens reaching voting age. The Election Commission's own reports describe ceremonies at polling stations and at district, state and national levels, including the distribution of voter identity cards. The observance is an outreach campaign initiated by the electoral authority rather than a new election law.",
+          "promoter": "The Election Commission of India instituted the annual event in 2011 to mark its own foundation date.",
+          "purpose": "Increase informed electoral participation, voter registration and civic awareness, especially among younger eligible citizens.",
+          "facts": [
+            "The Election Commission of India was established on 25 January 1950.",
+            "The first National Voters' Day was celebrated in January 2011.",
+            "The programme includes voter registration information and identity-card distribution."
+          ]
+        },
+        "it": {
+          "heading": "25 gennaio: la commissione elettorale indiana accoglie i nuovi elettori",
+          "origin": "Nel 2011 la Commissione elettorale dell'India creò la Giornata nazionale degli elettori, fissata al 25 gennaio, anniversario della fondazione della stessa Commissione il 25 gennaio 1950. La campagna è quindi nata oltre sessant'anni dopo l'istituzione ricordata. Le iniziative riguardano l'iscrizione alle liste, la conoscenza dei diritti elettorali e la partecipazione, in particolare dei giovani che raggiungono l'età per votare. I resoconti della Commissione descrivono cerimonie nei seggi e a livello distrettuale, statale e nazionale, con la consegna di documenti elettorali. Si tratta di una campagna educativa dell'autorità elettorale, non di una nuova legge sulle elezioni.",
+          "promoter": "La Commissione elettorale indiana istituì la campagna nel 2011 per ricordare la propria fondazione.",
+          "purpose": "Aumentare registrazione, partecipazione informata e consapevolezza dei diritti civici.",
+          "facts": [
+            "La Commissione elettorale fu istituita il 25 gennaio 1950.",
+            "La prima giornata nazionale si svolse nel gennaio 2011.",
+            "Le attività includono informazioni elettorali e consegna di tessere agli elettori."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication."
+    },
+    {
+      "observanceId": "australia-national-sorry-day",
+      "introducedYear": 1998,
+      "firstObservedYear": 1998,
+      "sources": [
+        "https://aiatsis.gov.au/explore/stolen-generations",
+        "https://www.reconciliation.org.au/national-sorry-day-2020/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 May: Australia's first National Sorry Day follows a landmark inquiry",
+          "origin": "The first National Sorry Day was held in Australia on 26 May 1998, exactly a year after the Bringing Them Home report was presented to Parliament. That inquiry documented the forced removal of Aboriginal and Torres Strait Islander children from their families, remembered as the Stolen Generations. A grassroots Sorry Books campaign invited written messages of sorrow and solidarity, helping mobilize public commemoration. The Australian Institute of Aboriginal and Torres Strait Islander Studies distinguishes this early community observance from the national governmental apology delivered in February 2008. National Sorry Day remains an occasion to recognize survivors, listen to families and confront the consequences of past policies.",
+          "promoter": "Community reconciliation organizations and supporters of the Stolen Generations organized the original 1998 observance, not the later federal apology.",
+          "purpose": "Acknowledge forced child removals, centre survivor voices and support truthful remembrance and reconciliation.",
+          "facts": [
+            "The Bringing Them Home report was presented on 26 May 1997.",
+            "The first National Sorry Day was held on 26 May 1998.",
+            "The Australian Government's formal national apology followed in February 2008."
+          ]
+        },
+        "it": {
+          "heading": "26 maggio: in Australia il primo National Sorry Day dopo l'inchiesta storica",
+          "origin": "La prima National Sorry Day australiana si svolse il 26 maggio 1998, a un anno esatto dalla presentazione in Parlamento del rapporto Bringing Them Home. L'inchiesta aveva documentato l'allontanamento forzato di bambini aborigeni e delle isole dello Stretto di Torres dalle famiglie, ricordati come Generazioni rubate. La campagna civile dei Sorry Books raccolse messaggi di rammarico e solidarietà e contribuì alla mobilitazione. L'istituto australiano AIATSIS distingue questa prima commemorazione comunitaria dalle scuse formali del governo federale pronunciate nel febbraio 2008. La giornata resta dedicata all'ascolto dei sopravvissuti e al riconoscimento degli effetti delle politiche passate.",
+          "promoter": "Movimenti civici di riconciliazione e gruppi vicini ai sopravvissuti organizzarono la prima edizione del 1998.",
+          "purpose": "Riconoscere le rimozioni forzate, ascoltare i sopravvissuti e sostenere processi concreti di riconciliazione.",
+          "facts": [
+            "Il rapporto Bringing Them Home fu presentato il 26 maggio 1997.",
+            "La prima National Sorry Day si celebrò il 26 maggio 1998.",
+            "Le scuse formali del governo nazionale arrivarono nel febbraio 2008."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication."
     }
   ]
 }
