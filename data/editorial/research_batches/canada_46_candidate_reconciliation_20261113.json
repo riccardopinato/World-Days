@@ -9,8 +9,9 @@
   "stats": {
     "all": 46,
     "canadianCanonical": 27,
-    "withinWave20": 6,
-    "notMappedYet": 19
+    "canadaAlreadyInWave20": 6,
+    "nonCanadianOrOtherAliasesMatched": 11,
+    "pendingIdentityOrOriginResearch": 8
   },
   "rows": [
     {
@@ -110,8 +111,8 @@
       "dateNotation": "01-24",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -119,7 +120,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "world-day-for-african-and-afrodescendant-culture",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave05_20261112.json"
     },
     {
       "sequence": 7,
@@ -128,8 +131,8 @@
       "dateNotation": "01-27",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -137,7 +140,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json"
     },
     {
       "sequence": 8,
@@ -164,8 +169,8 @@
       "dateNotation": "02-15",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -173,7 +178,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "canada-national-flag-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "sequence": 10,
@@ -182,8 +189,8 @@
       "dateNotation": "02-21",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -191,7 +198,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-mother-language-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
     },
     {
       "sequence": 11,
@@ -254,8 +263,8 @@
       "dateNotation": "03-15",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -263,7 +272,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-day-to-combat-islamophobia",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json"
     },
     {
       "sequence": 15,
@@ -272,8 +283,8 @@
       "dateNotation": "03-21",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -281,7 +292,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-day-for-the-elimination-of-racial-discrimination",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json"
     },
     {
       "sequence": 16,
@@ -524,8 +537,8 @@
       "dateNotation": "06-27",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -533,7 +546,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "canada-multiculturalism-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "sequence": 30,
@@ -632,8 +647,8 @@
       "dateNotation": "09-30",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -641,7 +656,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "canada-truth-and-reconciliation-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "sequence": 36,
@@ -668,8 +685,8 @@
       "dateNotation": "10-11",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -677,7 +694,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-day-of-the-girl-child",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave17_20261112.json"
     },
     {
       "sequence": 38,
@@ -776,8 +795,8 @@
       "dateNotation": "12-03",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -785,7 +804,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "international-day-of-persons-with-disabilities",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
     },
     {
       "sequence": 44,
@@ -812,8 +833,8 @@
       "dateNotation": "12-10",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
-      "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
+      "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
+      "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
@@ -821,7 +842,9 @@
       "sourceSpecificUrls": [],
       "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "canonicalIdVerifiedByOtherWave": "human-rights-day",
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
     },
     {
       "sequence": 46,
@@ -841,5 +864,7 @@
       "sixLocaleHumanReviewed": false,
       "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
     }
-  ]
+  ],
+  "canonicalResearchCommittedOnCanadaBranch": 21,
+  "canonicalResearchSixLocaleDraftsOnCanadaBranch": 21
 }
