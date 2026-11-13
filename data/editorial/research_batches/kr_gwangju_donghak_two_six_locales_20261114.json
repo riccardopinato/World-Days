@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "MULTI_GOVERNMENT_PRIMARY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-may-18-democratization-movement-remembrance",
+      "country": "KR",
+      "observanceDate": "05-18",
+      "introducedYear": 1997,
+      "firstObservedYear": 1981,
+      "originClusterId": "KR_GWANGJU_1980_CIVIC_MEMORY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=792",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1192"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 May: Gwangju's struggle for democracy enters national remembrance",
+          "origin": "May 18 Democratization Movement Day remembers the demonstrations and violent repression in Gwangju and the wider Jeonnam area beginning in May 1980. Family groups and civic organizations held their own commemorations from 1981 to 1986 before the state officially recognized the date. South Korea's Ministry of Patriots and Veterans Affairs and Ministry of the Interior trace its designation as a statutory national commemorative day to 9 May 1997, with government ceremonies beginning that year. The events of 1980, earlier private acts of remembrance and the 1997 national recognition must not be conflated.",
+          "promoter": "Participants' families and civic organizations maintained remembrance before the South Korean government established the official day in 1997.",
+          "purpose": "Honour the victims, preserve the history of the Gwangju democratization movement and promote respect for democratic rights.",
+          "facts": [
+            "The movement began around 18 May 1980 in Gwangju.",
+            "Families and civic groups held commemorations from 1981 to 1986.",
+            "The state designated the official day on 9 May 1997."
+          ]
+        },
+        "it": {
+          "heading": "18 maggio: il movimento democratico di Gwangju nella memoria nazionale",
+          "origin": "Il 18 maggio ricorda le manifestazioni e la violenta repressione avvenute a Gwangju e nell'area di Jeonnam a partire dal maggio 1980. Le associazioni delle famiglie e i gruppi civici organizzarono commemorazioni autonome dal 1981 al 1986, prima del riconoscimento ufficiale dello Stato. Il Ministero dei Patrioti e dei Veterani e quello dell'Interno sudcoreani indicano il 9 maggio 1997 come data dell'istituzione della giornata commemorativa legale; nello stesso anno iniziarono le cerimonie governative. Gli eventi del 1980, le iniziative private di memoria e l'istituzione nazionale del 1997 sono passaggi differenti.",
+          "promoter": "Familiari e associazioni civiche conservarono la memoria degli eventi; il governo sudcoreano istituì la giornata ufficiale nel 1997.",
+          "purpose": "Onorare le vittime, conservare la storia di Gwangju e promuovere il rispetto dei diritti democratici.",
+          "facts": [
+            "Il movimento si sviluppò a Gwangju nel maggio 1980.",
+            "Associazioni e familiari commemorarono gli eventi già dal 1981.",
+            "Il riconoscimento nazionale è del 9 maggio 1997."
+          ]
+        },
+        "es": {
+          "heading": "18 de mayo: Gwangju y la memoria democrática nacional de Corea",
+          "origin": "El Día del Movimiento por la Democratización del 18 de Mayo recuerda las protestas y la represión violenta ocurridas en Gwangju y el área de Jeonnam desde mayo de 1980. Familiares y organizaciones cívicas organizaron sus propias conmemoraciones entre 1981 y 1986, antes de que el Estado reconociera oficialmente la fecha. El Ministerio de Patriotas y Veteranos y el Ministerio del Interior de Corea del Sur sitúan la creación del día nacional reglamentario el 9 de mayo de 1997; ese año comenzaron las ceremonias gubernamentales. Los acontecimientos de 1980, la memoria civil anterior y la decisión legal de 1997 son hechos distintos.",
+          "promoter": "Las familias y organizaciones cívicas mantuvieron el recuerdo, y el Gobierno surcoreano instituyó el día oficial en 1997.",
+          "purpose": "Honrar a las víctimas, preservar la historia de Gwangju y promover el respeto por los derechos democráticos.",
+          "facts": [
+            "El movimiento se desarrolló en Gwangju en mayo de 1980.",
+            "Familiares y asociaciones organizaron actos desde 1981.",
+            "El día oficial se creó el 9 de mayo de 1997."
+          ]
+        },
+        "fr": {
+          "heading": "18 mai : Gwangju entre dans la mémoire nationale démocratique",
+          "origin": "La Journée du mouvement démocratique du 18 mai rappelle les manifestations et la répression violente survenues à Gwangju et dans la région de Jeonnam à partir de mai 1980. Des familles et des organisations civiles ont organisé leurs propres cérémonies entre 1981 et 1986, avant la reconnaissance officielle de l'État. Le ministère des Patriotes et des Anciens combattants ainsi que le ministère de l'Intérieur situent l'institution du jour national au 9 mai 1997; les cérémonies gouvernementales ont commencé cette même année. Les événements de 1980, les hommages de la société civile et le statut légal de 1997 sont trois étapes différentes.",
+          "promoter": "Les familles des victimes et des associations ont préservé la mémoire; le gouvernement a instauré la journée en 1997.",
+          "purpose": "Honorer les victimes, préserver l'histoire de Gwangju et promouvoir les droits démocratiques.",
+          "facts": [
+            "Le mouvement a marqué Gwangju en mai 1980.",
+            "Les proches et associations ont organisé des commémorations dès 1981.",
+            "Le jour officiel a été établi le 9 mai 1997."
+          ]
+        },
+        "de": {
+          "heading": "18. Mai: Gwangjus Demokratiebewegung im nationalen Gedenken",
+          "origin": "Der Gedenktag für die Demokratiebewegung vom 18. Mai erinnert an Proteste und gewaltsame Unterdrückung in Gwangju und der Region Jeonnam im Mai 1980. Familien von Betroffenen und zivilgesellschaftliche Organisationen organisierten bereits zwischen 1981 und 1986 eigene Erinnerungsveranstaltungen, bevor der Staat den Tag offiziell anerkannte. Das südkoreanische Ministerium für Patrioten und Veteranen sowie das Innenministerium nennen den 9. Mai 1997 als Datum der gesetzlichen Einführung; staatliche Zeremonien begannen im selben Jahr. Die Ereignisse von 1980, frühes ziviles Gedenken und die Anerkennung von 1997 sind nicht gleichzusetzen.",
+          "promoter": "Angehörige und gesellschaftliche Gruppen bewahrten die Erinnerung; die Regierung führte den offiziellen Gedenktag 1997 ein.",
+          "purpose": "Der Opfer gedenken, die Geschichte Gwangjus erhalten und demokratische Rechte und Menschenwürde würdigen.",
+          "facts": [
+            "Die Demokratiebewegung ereignete sich im Mai 1980 in Gwangju.",
+            "Bürgergruppen hielten ab 1981 eigene Gedenkfeiern ab.",
+            "Die staatliche Anerkennung erfolgte am 9. Mai 1997."
+          ]
+        },
+        "pt": {
+          "heading": "18 de maio: a memória democrática de Gwangju na Coreia",
+          "origin": "O Dia do Movimento pela Democratização de 18 de Maio recorda os protestos e a repressão violenta ocorridos em Gwangju e na região de Jeonnam a partir de maio de 1980. Famílias de vítimas e organizações cívicas organizaram comemorações próprias entre 1981 e 1986, antes do reconhecimento oficial do Estado. O Ministério dos Patriotas e Veteranos e o Ministério do Interior da Coreia do Sul identificam 9 de maio de 1997 como a data de criação da comemoração nacional; as cerimónias governamentais começaram nesse ano. Os acontecimentos de 1980, a memória civil e o reconhecimento legal de 1997 são etapas distintas.",
+          "promoter": "Familiares e organizações cívicas preservaram a memória; o governo instituiu a data oficial em 1997.",
+          "purpose": "Homenagear as vítimas, conservar a história de Gwangju e promover o respeito pelos direitos democráticos.",
+          "facts": [
+            "O movimento ocorreu em Gwangju em maio de 1980.",
+            "Familiares e associações realizaram homenagens desde 1981.",
+            "O reconhecimento oficial data de 9 de maio de 1997."
+          ]
+        }
+      },
+      "sourceReviewNote": "Official MOIS chronology independently corroborated with MPVA (Gwangju) or Ministry of Culture (Donghak), including earlier civic remembrances, 2019 formal ceremonies, and statutory dates. AI drafted six locales; no qualified factual or native human review."
+    },
+    {
+      "observanceId": "kr-w10-donghak-peasant-revolution-remembrance-day",
+      "country": "KR",
+      "observanceDate": "05-11",
+      "introducedYear": 2019,
+      "firstObservedYear": 2019,
+      "originClusterId": "KR_DONGHAK_PEASANT_MOVEMENT_1894",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17118",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=17279",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=16984"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 May: remembering Korea's Donghak Peasant Revolution",
+          "origin": "The Donghak Peasant Revolution of 1894 challenged oppressive social structures and resisted foreign encroachment. The modern commemoration is held on 11 May to recall the peasant army's victory at Hwangtohyeon, selected after public hearings and expert assessment of possible historical dates in 2018. South Korea's Ministry of Culture, Sports and Tourism announced the legal designation in February 2019, and organized the first official national ceremony after designation on 11 May 2019. The revolution in 1894, the modern choice of anniversary date and the 2019 creation of a national remembrance day belong to separate historical stages.",
+          "promoter": "South Korea's Ministry of Culture, Sports and Tourism led the designation process in 2019, with public consultation and expert review.",
+          "purpose": "Remember participants in the Donghak movement, their demands for reform and the importance of documenting their historical experiences.",
+          "facts": [
+            "The peasant revolution took place in 1894.",
+            "The 11 May date commemorates the Hwangtohyeon victory.",
+            "The national commemorative day and its first official ceremony date to 2019."
+          ]
+        },
+        "it": {
+          "heading": "11 maggio: la memoria della Rivoluzione contadina Donghak",
+          "origin": "La Rivoluzione contadina Donghak del 1894 contestò strutture sociali oppressive e si oppose all'ingerenza straniera. La ricorrenza moderna cade l'11 maggio, data scelta per ricordare la vittoria dell'esercito contadino a Hwangtohyeon dopo audizioni pubbliche e una valutazione di esperti fra diverse date storiche nel 2018. Il Ministero sudcoreano della Cultura, dello Sport e del Turismo annunciò il riconoscimento ufficiale nel febbraio 2019 e organizzò la prima cerimonia nazionale dopo l'istituzione l'11 maggio 2019. La rivoluzione del 1894, la scelta della data commemorativa e la festa nazionale del 2019 sono fatti diversi.",
+          "promoter": "Il Ministero della Cultura, dello Sport e del Turismo ha guidato il riconoscimento nel 2019, dopo consultazioni e valutazioni storiche.",
+          "purpose": "Ricordare i partecipanti al movimento Donghak e le richieste di riforma, valorizzandone la memoria storica.",
+          "facts": [
+            "La Rivoluzione contadina Donghak avvenne nel 1894.",
+            "L'11 maggio ricorda la vittoria contadina di Hwangtohyeon.",
+            "La commemorazione nazionale e la prima cerimonia ufficiale risalgono al 2019."
+          ]
+        },
+        "es": {
+          "heading": "11 de mayo: memoria de la Revolución Campesina Donghak",
+          "origin": "La Revolución Campesina Donghak de 1894 se opuso a estructuras sociales opresivas y a la injerencia extranjera. La conmemoración moderna se celebra el 11 de mayo, fecha elegida para recordar la victoria del ejército campesino en Hwangtohyeon tras audiencias públicas y una evaluación de especialistas de varias fechas posibles en 2018. El Ministerio de Cultura, Deportes y Turismo de Corea del Sur anunció la designación oficial en febrero de 2019 y celebró la primera ceremonia nacional bajo esa denominación el 11 de mayo de 2019. La revolución histórica, la elección del aniversario y su reconocimiento legal pertenecen a etapas diferentes.",
+          "promoter": "El Ministerio de Cultura, Deportes y Turismo coordinó en 2019 el reconocimiento tras consultas y evaluaciones históricas.",
+          "purpose": "Recordar a los campesinos del movimiento Donghak y sus demandas de reforma social y política.",
+          "facts": [
+            "La Revolución Campesina Donghak tuvo lugar en 1894.",
+            "El 11 de mayo recuerda la victoria de Hwangtohyeon.",
+            "La designación y la primera ceremonia nacional se realizaron en 2019."
+          ]
+        },
+        "fr": {
+          "heading": "11 mai : mémoire de la révolution paysanne Donghak",
+          "origin": "La révolution paysanne Donghak de 1894 a contesté des structures sociales oppressives et des interventions étrangères. La commémoration actuelle a lieu le 11 mai, date choisie pour rappeler la victoire de l'armée paysanne à Hwangtohyeon après des consultations publiques et une expertise de plusieurs anniversaires possibles en 2018. Le ministère sud-coréen de la Culture, des Sports et du Tourisme a annoncé la reconnaissance officielle en février 2019 et organisé la première cérémonie nationale après cette décision le 11 mai 2019. La révolution de 1894, le choix d'une date mémorielle et son inscription légale en 2019 sont distincts.",
+          "promoter": "Le ministère sud-coréen de la Culture, des Sports et du Tourisme a dirigé le processus de désignation avec consultation d'experts.",
+          "purpose": "Rendre hommage aux participants du mouvement Donghak et à leurs revendications de réformes.",
+          "facts": [
+            "La révolution paysanne Donghak s'est déroulée en 1894.",
+            "Le 11 mai rappelle la victoire de Hwangtohyeon.",
+            "La reconnaissance et la première cérémonie nationale remontent à 2019."
+          ]
+        },
+        "de": {
+          "heading": "11. Mai: Erinnerung an die Donghak-Bauernrevolution",
+          "origin": "Die Donghak-Bauernrevolution von 1894 wandte sich gegen unterdrückende gesellschaftliche Strukturen und ausländische Einflussnahme. Der heutige Gedenktag fällt auf den 11. Mai und erinnert an den Sieg der Bauernarmee bei Hwangtohyeon. Das Datum wurde 2018 nach öffentlichen Anhörungen und einer Prüfung verschiedener historischer Jahrestage ausgewählt. Südkoreas Ministerium für Kultur, Sport und Tourismus gab die staatliche Anerkennung im Februar 2019 bekannt und veranstaltete am 11. Mai 2019 die erste nationale Feier nach dieser Entscheidung. Die Revolution von 1894, die Datumswahl und die amtliche Einführung sind getrennte Entwicklungen.",
+          "promoter": "Das südkoreanische Kulturministerium koordinierte die gesetzliche Anerkennung nach öffentlicher und fachlicher Beratung.",
+          "purpose": "Der Bauernbewegung Donghak und ihren Reformforderungen gedenken sowie ihre historische Bedeutung vermitteln.",
+          "facts": [
+            "Die Donghak-Bauernrevolution ereignete sich 1894.",
+            "Der 11. Mai bezieht sich auf den Sieg bei Hwangtohyeon.",
+            "Der offizielle Gedenktag und die erste staatliche Feier stammen aus 2019."
+          ]
+        },
+        "pt": {
+          "heading": "11 de maio: memória da Revolução Camponesa Donghak",
+          "origin": "A Revolução Camponesa Donghak de 1894 contestou estruturas sociais opressivas e a intervenção estrangeira. A comemoração moderna realiza-se em 11 de maio, data escolhida para recordar a vitória das forças camponesas em Hwangtohyeon após audiências públicas e avaliação de especialistas sobre diferentes datas históricas em 2018. O Ministério da Cultura, Desporto e Turismo da Coreia do Sul anunciou o reconhecimento oficial em fevereiro de 2019 e organizou a primeira cerimónia nacional após a designação em 11 de maio de 2019. A revolução de 1894, a escolha do aniversário e a institucionalização de 2019 são etapas diferentes.",
+          "promoter": "O Ministério da Cultura, Desporto e Turismo liderou o reconhecimento da data em 2019 após consultas e pareceres históricos.",
+          "purpose": "Recordar os participantes do movimento Donghak e as suas exigências de reformas sociais e políticas.",
+          "facts": [
+            "A revolução camponesa ocorreu em 1894.",
+            "O dia 11 de maio lembra a vitória em Hwangtohyeon.",
+            "A designação e a primeira cerimónia nacional ocorreram em 2019."
+          ]
+        }
+      },
+      "sourceReviewNote": "Official MOIS chronology independently corroborated with MPVA (Gwangju) or Ministry of Culture (Donghak), including earlier civic remembrances, 2019 formal ceremonies, and statutory dates. AI drafted six locales; no qualified factual or native human review."
+    }
+  ]
+}
