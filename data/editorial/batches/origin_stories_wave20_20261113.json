@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 25,
+  "count": 30,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -856,6 +856,177 @@
         }
       },
       "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
+    },
+    {
+      "observanceId": "world-space-week",
+      "introducedYear": 1999,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/observances/world-space-week",
+        "https://mandates.un.org/mandate/A/RES/54/68"
+      ],
+      "locale": {
+        "en": {
+          "heading": "4–10 October: two milestones that opened the space age",
+          "origin": "The General Assembly proclaimed World Space Week through resolution A/RES/54/68, adopted on 6 December 1999. The period from 4 through 10 October joins two important events: the launch of Sputnik 1, the first human-made satellite, on 4 October 1957, and the entry into force of the Outer Space Treaty on 10 October 1967. The anniversaries frame a modern week about space research and the peaceful uses of technology. The United Nations Office for Outer Space Affairs cooperates with partners to develop annual activities and themes. The original act explains the dates but does not alone verify the first actual annual celebration, which is left unknown.",
+          "promoter": "The United Nations General Assembly proclaimed the international week in 1999; the UN Office for Outer Space Affairs supports related outreach.",
+          "purpose": "Explain how space exploration and the peaceful application of science can contribute to education, cooperation and daily life.",
+          "facts": [
+            "A/RES/54/68 established the week on 6 December 1999.",
+            "4 October recalls Sputnik 1, launched in 1957.",
+            "10 October recalls the Outer Space Treaty taking effect in 1967."
+          ]
+        },
+        "it": {
+          "heading": "4–10 ottobre: due anniversari che aprirono l'era spaziale",
+          "origin": "L'Assemblea generale ONU proclamò la Settimana mondiale dello spazio con A/RES/54/68, adottata il 6 dicembre 1999. Il periodo dal 4 al 10 ottobre riunisce due eventi fondamentali: il lancio di Sputnik 1, primo satellite artificiale, il 4 ottobre 1957 e l'entrata in vigore del Trattato sullo spazio extra-atmosferico il 10 ottobre 1967. Gli anniversari danno un contesto a una settimana moderna dedicata alla ricerca e agli usi pacifici della tecnologia spaziale. L'Ufficio ONU per gli affari spaziali collabora con i partner su temi e attività annuali. Il testo originario spiega le date, ma non documenta da solo la prima effettiva celebrazione annuale, che resta sconosciuta.",
+          "promoter": "L'Assemblea generale istituì la settimana nel 1999; l'Ufficio ONU per gli affari spaziali sostiene le attività di divulgazione.",
+          "purpose": "Mostrare come esplorazione spaziale e impieghi pacifici della scienza contribuiscano a istruzione, cooperazione e vita quotidiana.",
+          "facts": [
+            "A/RES/54/68 istituì la settimana il 6 dicembre 1999.",
+            "Il 4 ottobre ricorda il lancio di Sputnik 1 nel 1957.",
+            "Il 10 ottobre ricorda l'entrata in vigore del Trattato sullo spazio nel 1967."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false."
+    },
+    {
+      "observanceId": "world-blood-donor-day",
+      "introducedYear": 2005,
+      "firstObservedYear": 2004,
+      "sources": [
+        "https://www.who.int/publications-detail-redirect/WHA58.13",
+        "https://www.who.int/westernpacific/newsroom/events/world-blood-donor-day",
+        "https://www.emro.who.int/press-releases/2005/world-blood-donor-day-2005.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "14 June: thanking voluntary blood donors before the official WHO resolution",
+          "origin": "The first World Blood Donor Day was held on 14 June 2004, with a global launch in Johannesburg and celebrations in many countries. The World Health Assembly later adopted resolution WHA58.13 in May 2005 to establish an annual global observance. The date is the birthday of Karl Landsteiner, born in 1868, whose discoveries of blood groups transformed transfusion safety. Original WHO records explain that the project was supported by WHO and international Red Cross and donor and transfusion organizations. The earlier 2004 event and later 2005 formal designation are therefore separate milestones. The campaign honours regular voluntary, unpaid donations while highlighting the importance of tested, available and safe blood.",
+          "promoter": "The original campaign was developed by WHO with Red Cross, blood-donor and transfusion organizations; the World Health Assembly formally recognized it in 2005.",
+          "purpose": "Thank voluntary blood donors and promote safe, sufficient and unpaid blood donation for patients needing transfusions.",
+          "facts": [
+            "WHO documents the first international celebration on 14 June 2004.",
+            "Resolution WHA58.13 formally designated the annual day in May 2005.",
+            "14 June is Karl Landsteiner's birthday, connecting the date to blood-group science."
+          ]
+        },
+        "it": {
+          "heading": "14 giugno: ringraziare i donatori prima del riconoscimento formale OMS",
+          "origin": "La prima Giornata mondiale del donatore di sangue si svolse il 14 giugno 2004, con un lancio internazionale a Johannesburg e iniziative in numerosi Paesi. Nel maggio 2005 l'Assemblea mondiale della sanità approvò WHA58.13, istituendo formalmente l'osservanza annuale. La data è il compleanno di Karl Landsteiner, nato nel 1868, le cui scoperte sui gruppi sanguigni trasformarono la sicurezza delle trasfusioni. Le fonti OMS spiegano che il progetto fu sostenuto dall'Organizzazione e da reti internazionali della Croce Rossa, di donatori e di specialisti delle trasfusioni. L'evento del 2004 e la proclamazione del 2005 sono quindi tappe distinte. La campagna ringrazia chi dona senza compenso e richiama il bisogno di sangue controllato e disponibile.",
+          "promoter": "La campagna nacque con OMS, Croce Rossa e organizzazioni di donatori e trasfusionisti; l'Assemblea mondiale della sanità la riconobbe formalmente nel 2005.",
+          "purpose": "Ringraziare i donatori volontari e promuovere disponibilità e sicurezza del sangue donato gratuitamente.",
+          "facts": [
+            "L'OMS documenta la prima celebrazione internazionale il 14 giugno 2004.",
+            "WHA58.13 istituì la giornata annuale nel maggio 2005.",
+            "Il 14 giugno ricorda la nascita di Karl Landsteiner e le scoperte sui gruppi sanguigni."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false."
+    },
+    {
+      "observanceId": "world-malaria-day",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.who.int/campaigns/world-malaria-day",
+        "https://apps.who.int/gb/ebwha/pdf_files/WHA60/A60_R18-en.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: the World Health Assembly establishes Malaria Day",
+          "origin": "At its 60th session on 23 May 2007, the World Health Assembly adopted resolution WHA60.18, formally establishing World Malaria Day as an annual observance on 25 April, while allowing countries to hold their own activities on other dates. The WHO campaign grew from earlier malaria-awareness initiatives, particularly within Africa, and is directed at a disease transmitted by infected mosquitoes that remains preventable and treatable. The resolution calls for education, sustained investment and community-based prevention, rather than only an annual symbolic ceremony. The founding decision fixes the date, but the specific first annual worldwide event and any single negotiated historical anniversary behind 25 April are not proven by the cited original records.",
+          "promoter": "WHO Member States formally established the observance through World Health Assembly resolution WHA60.18 in 2007.",
+          "purpose": "Increase knowledge of malaria prevention and treatment and sustain investment and cooperation for malaria control.",
+          "facts": [
+            "World Malaria Day was instituted by the World Health Assembly in 2007.",
+            "Resolution WHA60.18 establishes the annual date of 25 April.",
+            "The resolution allows individual Member States to choose other dates for activities."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: la Giornata mondiale della malaria istituita dall'Assemblea OMS",
+          "origin": "Il 23 maggio 2007 la 60ª Assemblea mondiale della sanità adottò WHA60.18, istituendo formalmente il 25 aprile come Giornata mondiale della malaria e lasciando ai Paesi la possibilità di svolgere iniziative anche in altre date. La campagna OMS si collega a precedenti attività di sensibilizzazione, soprattutto in Africa, per una malattia trasmessa da zanzare infette ma prevenibile e curabile. La risoluzione chiede educazione sanitaria, investimenti costanti e prevenzione nelle comunità, non soltanto una cerimonia simbolica annuale. La decisione identifica la data, ma le fonti originarie consultate non dimostrano una prima singola celebrazione mondiale né un anniversario storico negoziale preciso che ne spieghi la scelta.",
+          "promoter": "Gli Stati membri dell'OMS istituirono la ricorrenza con la risoluzione WHA60.18 dell'Assemblea mondiale della sanità nel 2007.",
+          "purpose": "Diffondere conoscenze su prevenzione e cura della malaria e sostenere investimenti e cooperazione sanitaria.",
+          "facts": [
+            "La Giornata mondiale della malaria fu istituita dall'Assemblea mondiale della sanità nel 2007.",
+            "WHA60.18 fissa la ricorrenza annuale del 25 aprile.",
+            "La risoluzione permette ai singoli Stati di organizzare eventi anche in altre date."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false."
+    },
+    {
+      "observanceId": "world-tuberculosis-day",
+      "introducedYear": 1982,
+      "firstObservedYear": 1982,
+      "sources": [
+        "https://www.who.int/europe/campaigns/world-tb-day",
+        "https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 March: one discovery and a century of tuberculosis research",
+          "origin": "World Tuberculosis Day recalls 24 March 1882, when Robert Koch announced the discovery of the bacterium responsible for tuberculosis. WHO's historical campaign evaluation identifies 1982 as the establishment year of the day, marking the centenary of the discovery. The modern date reminds the public that tuberculosis remains an infectious disease requiring accessible diagnosis, treatment and public-health support. Koch's nineteenth-century scientific announcement is a milestone, but not the founding decision for the modern awareness campaign. The WHO sources support the 1982 centenary and its calendar rationale without naming a single modern individual who proposed the commemorative campaign.",
+          "promoter": "The modern campaign was established through public-health institutions by 1982, as documented by WHO; Koch was the historic scientist commemorated, not the founder of the observance.",
+          "purpose": "Increase awareness of tuberculosis prevention, diagnosis and treatment and support efforts to reduce illness and deaths.",
+          "facts": [
+            "24 March recalls Robert Koch's scientific announcement in 1882.",
+            "WHO's historical evaluation lists establishment in the centenary year 1982.",
+            "Tuberculosis requires coordinated prevention, diagnosis and treatment."
+          ]
+        },
+        "it": {
+          "heading": "24 marzo: una scoperta scientifica e un secolo di ricerca sulla tubercolosi",
+          "origin": "La Giornata mondiale della tubercolosi ricorda il 24 marzo 1882, quando Robert Koch annunciò la scoperta del batterio responsabile della malattia. Una valutazione storica delle campagne OMS indica il 1982 come anno di istituzione, nel centenario della scoperta. La ricorrenza contemporanea ricorda che la tubercolosi resta un'infezione per la quale servono diagnosi accessibili, cure e sostegno della sanità pubblica. L'annuncio scientifico dell'Ottocento è un fatto fondamentale, ma non coincide con l'atto che ha creato la campagna moderna. Le fonti OMS sostengono la cronologia del centenario e la scelta della data, senza identificare una sola persona che abbia proposto originariamente la ricorrenza.",
+          "promoter": "La campagna moderna risulta istituita nell'ambito delle organizzazioni sanitarie entro il 1982; Koch è lo scienziato ricordato, non il fondatore della giornata.",
+          "purpose": "Sensibilizzare su prevenzione, diagnosi e cura della tubercolosi, sostenendo la riduzione di malattia e mortalità.",
+          "facts": [
+            "Il 24 marzo ricorda l'annuncio della scoperta di Koch nel 1882.",
+            "La ricostruzione OMS indica il 1982 come anno di istituzione, nel centenario.",
+            "Prevenzione, diagnosi e trattamento richiedono cooperazione sanitaria."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false."
+    },
+    {
+      "observanceId": "world-hepatitis-day",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.who.int/campaigns/world-hepatitis-day/",
+        "https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 July: recalling the scientist behind hepatitis B discovery",
+          "origin": "The World Health Organization recognizes 28 July as World Hepatitis Day, a date selected because it is the birthday of Baruch Blumberg, the scientist associated with the discovery of the hepatitis B virus and the development of diagnostic work and a vaccine. WHO's historical evaluation identifies 2010 as the formal institutional establishment year, although awareness efforts preceded that recognition. The modern campaign encourages testing, prevention, vaccination where applicable and access to treatment for different forms of viral hepatitis. The exact first independently documented annual celebration following WHO recognition is not established by the primary materials reviewed here and is left unknown.",
+          "promoter": "The World Health Organization's member-state process recognized the international day in 2010; Blumberg is the scientist commemorated rather than a documented promoter of the campaign.",
+          "purpose": "Promote testing, prevention, vaccination where appropriate and access to hepatitis care and treatment.",
+          "facts": [
+            "WHO places the formal international campaign's establishment in 2010.",
+            "28 July is the birthday of hepatitis B researcher Baruch Blumberg.",
+            "The WHO campaign emphasizes testing and treatment as well as prevention."
+          ]
+        },
+        "it": {
+          "heading": "28 luglio: ricordare lo scienziato che scoprì il virus dell'epatite B",
+          "origin": "L'Organizzazione mondiale della sanità celebra il 28 luglio come Giornata mondiale contro l'epatite, scelta perché coincide con il compleanno di Baruch Blumberg, scienziato legato alla scoperta del virus dell'epatite B e allo sviluppo di metodi diagnostici e di un vaccino. La valutazione storica delle campagne OMS indica il 2010 come anno di riconoscimento istituzionale, pur essendoci state iniziative precedenti. La campagna promuove controlli, prevenzione, vaccinazione quando appropriata e accesso alle cure per diverse forme di epatite virale. La prima specifica celebrazione annuale dopo il riconoscimento OMS non è dimostrata individualmente dalle fonti consultate e rimane quindi sconosciuta.",
+          "promoter": "Il processo degli Stati membri OMS riconobbe la ricorrenza nel 2010; Blumberg è lo scienziato ricordato, non un promotore istituzionale documentato.",
+          "purpose": "Promuovere diagnosi, prevenzione, vaccinazione quando indicata e accesso alle cure dell'epatite.",
+          "facts": [
+            "L'OMS colloca il riconoscimento istituzionale della campagna nel 2010.",
+            "Il 28 luglio coincide con il compleanno del ricercatore Baruch Blumberg.",
+            "La campagna OMS valorizza diagnosi e cure oltre alla prevenzione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false."
     }
   ]
 }
