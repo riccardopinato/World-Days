@@ -1511,7 +1511,7 @@
     {
       "observanceId": "world-maritime-day",
       "introducedYear": 1978,
-      "firstObservedYear": 1978,
+      "firstObservedYear": null,
       "sources": [
         "https://www.imo.org/en/mediacentre/secretarygeneral/pages/peruparallel.aspx",
         "https://www.imo.org/en/about/events/pages/wmd-archives.aspx"
@@ -1540,7 +1540,7 @@
           ]
         }
       },
-      "sourceReviewNote": "IMO Secretary-General's original history explicitly dates conception to 1978; first separate ceremonial meeting is not independently sourced, so the introduced year is verified and early inaugural year is inferred from institutional start only, requiring later editorial confirmation. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+      "sourceReviewNote": "IMO Secretary-General's original history explicitly dates conception to 1978; first separate ceremonial meeting is not independently sourced, so the introduced year 1978 is verified but firstObservedYear remains null. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
     },
     {
       "observanceId": "world-philosophy-day",
