@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 20,
+  "count": 25,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -686,6 +686,176 @@
         }
       },
       "sourceReviewNote": "Individual institutional sources document the founding decision, first observance when known, origin/date choice and history. This IT/EN model-written research requires qualified factual and six-language native editorial review. No unverified first event or personal promoter is invented; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "international-delegate-s-day",
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.un.org/en/observances/delegates-day",
+        "https://mandates.un.org/mandate/A/RES/73/286"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: delegates laid the foundations of the United Nations",
+          "origin": "The UN General Assembly proclaimed International Delegate's Day in resolution A/RES/73/286 on 2 April 2019. The date commemorates the opening of the San Francisco Conference on 25 April 1945, when delegates of fifty nations began negotiations over the Charter of the United Nations. Around 850 delegates attended, supported by advisers and secretariat staff. The Charter was signed on 26 June 1945, a separate milestone from both the opening meeting and the modern commemorative resolution. The day recognizes the painstaking work of drafting, debating and negotiating agreements among governments. The earliest distinct annual celebration after the 2019 proclamation is not independently documented in the original source consulted.",
+          "promoter": "The United Nations General Assembly adopted the observance in 2019; the 1945 delegates are its historical subjects, not the founders of the modern resolution.",
+          "purpose": "Recognize diplomacy, multilateral negotiation and the contributions of delegates to international cooperation and peaceful settlement of differences.",
+          "facts": [
+            "The General Assembly proclaimed 25 April through A/RES/73/286 in 2019.",
+            "The San Francisco Conference opened on 25 April 1945 with delegates from fifty nations.",
+            "The UN Charter was signed later, on 26 June 1945."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: il lavoro dei delegati che costruirono le Nazioni Unite",
+          "origin": "L'Assemblea generale ONU proclamò la Giornata internazionale dei delegati con A/RES/73/286 il 2 aprile 2019. La data ricorda l'apertura della Conferenza di San Francisco il 25 aprile 1945, quando delegati di cinquanta Paesi iniziarono a discutere la Carta delle Nazioni Unite. Parteciparono circa 850 delegati, affiancati da consulenti e personale di segreteria. La Carta fu firmata il 26 giugno 1945, una tappa distinta sia dall'apertura della Conferenza sia dalla risoluzione commemorativa moderna. La giornata riconosce il lavoro paziente di scrittura, confronto e negoziazione fra governi. La prima celebrazione annuale specifica successiva al 2019 non è verificata individualmente nei documenti utilizzati.",
+          "promoter": "L'Assemblea generale istituì la ricorrenza nel 2019; i delegati del 1945 ne sono il soggetto storico, non gli autori dell'atto moderno.",
+          "purpose": "Valorizzare diplomazia, negoziato multilaterale e contributo dei delegati alla cooperazione e alla soluzione pacifica delle controversie.",
+          "facts": [
+            "L'ONU proclamò il 25 aprile con A/RES/73/286 nel 2019.",
+            "La Conferenza di San Francisco aprì il 25 aprile 1945 con cinquanta delegazioni.",
+            "La Carta delle Nazioni Unite venne firmata il 26 giugno 1945."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
+    },
+    {
+      "observanceId": "vesak-the-day-of-the-full-moon",
+      "introducedYear": 1999,
+      "firstObservedYear": null,
+      "sources": [
+        "https://digitallibrary.un.org/record/404546",
+        "https://www.un.org/en/observances/vesak-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Vesak: an ancient Buddhist tradition recognized at the UN in 1999",
+          "origin": "Vesak is a sacred celebration in Buddhist communities and follows the full moon of the month traditionally associated with the Buddha's birth, enlightenment and passing. On 15 December 1999, the UN General Assembly adopted A/RES/54/115, recognizing international observance of Vesak at UN Headquarters and other offices. This institutional recognition is not the origin of Vesak itself, which predates the UN by many centuries. The resolution requested arrangements without additional cost to the Organization and in consultation with relevant missions. The calendar date depends on lunar traditions rather than one invariant Gregorian day. A first distinct UN office ceremony is not established by the adoption record alone and remains unasserted.",
+          "promoter": "The General Assembly recognized international Vesak observance in 1999 following an ancient Buddhist tradition; no individual modern founder is inferred.",
+          "purpose": "Promote respect for Buddhist heritage and its teachings on compassion, non-violence and mindful responsibility.",
+          "facts": [
+            "The General Assembly adopted A/RES/54/115 on 15 December 1999.",
+            "The UN recognition concerns a lunar full-moon observance, not one fixed Gregorian date.",
+            "The 1999 decision did not create the much older religious celebration."
+          ]
+        },
+        "it": {
+          "heading": "Vesak: una tradizione buddhista antica riconosciuta dall'ONU nel 1999",
+          "origin": "Il Vesak è una celebrazione sacra per molte comunità buddhiste e segue il plenilunio del mese tradizionalmente collegato alla nascita, all'illuminazione e alla morte del Buddha. Il 15 dicembre 1999 l'Assemblea generale ONU adottò A/RES/54/115, riconoscendo l'osservanza internazionale del Vesak presso la sede delle Nazioni Unite e altri uffici. Il riconoscimento istituzionale non coincide con la nascita della tradizione, precedente di molti secoli. La risoluzione chiese di organizzare le iniziative senza nuovi oneri e consultando le missioni interessate. Il calendario segue tradizioni lunari e non una data gregoriana immutabile. La prima cerimonia specifica negli uffici ONU non è stabilita dal solo atto originario e resta non accertata.",
+          "promoter": "L'Assemblea generale riconobbe il Vesak nel 1999, riprendendo una tradizione buddhista antica, senza identificarne un singolo fondatore moderno.",
+          "purpose": "Favorire rispetto per la cultura buddhista e per insegnamenti legati a compassione, nonviolenza e responsabilità.",
+          "facts": [
+            "L'Assemblea generale adottò A/RES/54/115 il 15 dicembre 1999.",
+            "L'osservanza riconosciuta dall'ONU dipende da un plenilunio e non da un giorno gregoriano fisso.",
+            "La decisione del 1999 non creò la precedente celebrazione religiosa."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
+    },
+    {
+      "observanceId": "world-day-against-child-labour",
+      "introducedYear": 2002,
+      "firstObservedYear": 2002,
+      "sources": [
+        "https://www.ilo.org/resource/news/ilo-launches-first-world-day-against-child-labour-12-june-2002",
+        "https://www.ilo.org/resource/news/world-day-against-child-labour-will-be-observed-first-time"
+      ],
+      "locale": {
+        "en": {
+          "heading": "12 June: the ILO confronts harmful child labour",
+          "origin": "The International Labour Organization launched the first World Day Against Child Labour on 12 June 2002. Its own contemporary announcement, released on 5 June, invited schools, workers, employers and communities to participate. On the preceding day, 11 June, ILO planned a launch event in Geneva, while the international day itself remained 12 June. The campaign encouraged countries to confront exploitative and hazardous labour rather than treating every age-appropriate household activity as equivalent. It also built support for ILO Conventions 138, on minimum age, and 182, on the worst forms of child labour. The sources establish the modern 2002 launch but do not prove one historical anniversary that uniquely explains why 12 June was chosen.",
+          "promoter": "The International Labour Organization formally launched the international day in 2002; no single independent individual founder is documented beyond ILO leadership.",
+          "purpose": "Promote children's rights, safe childhoods and access to education while opposing hazardous, exploitative and forced child labour.",
+          "facts": [
+            "The first World Day Against Child Labour was held on 12 June 2002.",
+            "ILO announced a separate Geneva launch event for 11 June, the eve of the day.",
+            "The campaign draws attention to ILO Conventions 138 and 182."
+          ]
+        },
+        "it": {
+          "heading": "12 giugno: l'Organizzazione internazionale del lavoro contro lo sfruttamento minorile",
+          "origin": "L'Organizzazione internazionale del lavoro lanciò la prima Giornata mondiale contro il lavoro minorile il 12 giugno 2002. Il comunicato contemporaneo del 5 giugno invitava scuole, lavoratori, datori di lavoro e comunità a partecipare. Per l'11 giugno, vigilia della giornata, era previsto un evento inaugurale a Ginevra, mentre la ricorrenza internazionale rimaneva il 12. La campagna chiede di contrastare lavoro pericoloso e sfruttamento, senza considerare equivalenti tutte le attività domestiche adatte all'età. Sostiene inoltre le convenzioni OIL 138 sull'età minima e 182 sulle peggiori forme di lavoro minorile. Le fonti documentano l'avvio nel 2002, ma non provano un anniversario storico unico come motivo della scelta del 12 giugno.",
+          "promoter": "L'Organizzazione internazionale del lavoro lanciò la giornata nel 2002; non viene attribuito senza prove un unico ideatore personale.",
+          "purpose": "Promuovere diritti dell'infanzia e accesso alla scuola contrastando lavoro pericoloso, sfruttamento e forme coercitive.",
+          "facts": [
+            "La prima giornata mondiale si svolse il 12 giugno 2002.",
+            "L'OIL preparò un evento inaugurale distinto a Ginevra per l'11 giugno.",
+            "La campagna richiama le convenzioni internazionali OIL 138 e 182."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
+    },
+    {
+      "observanceId": "world-post-day",
+      "introducedYear": 1969,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.upu.int/en/universal-postal-union/outreach-campaigns/world-post-day",
+        "https://www.upu.int/en/universal-postal-union/about-upu/history"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 October: from the Treaty of Bern to a worldwide postal day",
+          "origin": "The Universal Postal Congress meeting in Tokyo in 1969 proclaimed 9 October as the day to celebrate the international postal union. The date was chosen because the Treaty of Bern establishing the General Postal Union was signed on 9 October 1874. This means the nineteenth-century treaty was the anniversary, not the resolution that created the twentieth-century awareness campaign. A later 1984 congress decision officially adopted the name World Post Day, replacing the earlier UPU Day designation. Postal administrations use the annual date for public activities, exhibitions and discussions of the role of communications in economic and social development. The original source does not independently establish the first precisely dated local celebration after the 1969 proclamation.",
+          "promoter": "The 1969 Universal Postal Congress in Tokyo adopted the international day; the 1984 Congress adopted the modern World Post Day name.",
+          "purpose": "Help people understand the postal network's role in communication, access to services and international connections.",
+          "facts": [
+            "The 1969 UPU Congress chose 9 October for the postal observance.",
+            "The date recalls the Treaty of Bern signed on 9 October 1874.",
+            "The name World Post Day replaced UPU Day in a later 1984 congress decision."
+          ]
+        },
+        "it": {
+          "heading": "9 ottobre: dal Trattato di Berna alla giornata postale mondiale",
+          "origin": "Il Congresso dell'Unione postale universale, riunito a Tokyo nel 1969, proclamò il 9 ottobre giornata dedicata all'organizzazione postale internazionale. La data fu scelta perché il Trattato di Berna, che istituì l'Unione generale delle poste, era stato firmato il 9 ottobre 1874. Quel trattato ottocentesco è quindi l'anniversario, non l'atto che creò la campagna moderna. Una decisione congressuale del 1984 adottò poi il nome Giornata mondiale della posta, sostituendo la precedente denominazione UPU Day. Le amministrazioni postali celebrano l'occasione con attività pubbliche, mostre e iniziative sul ruolo delle comunicazioni per lo sviluppo economico e sociale. La fonte originaria non stabilisce con certezza la data del primo evento locale successivo alla proclamazione del 1969.",
+          "promoter": "Il Congresso UPU di Tokyo istituì la giornata nel 1969; quello del 1984 adottò il nome moderno World Post Day.",
+          "purpose": "Far comprendere il ruolo della rete postale per comunicazioni, accesso ai servizi e relazioni internazionali.",
+          "facts": [
+            "Il Congresso UPU del 1969 scelse il 9 ottobre.",
+            "La data ricorda il Trattato di Berna firmato il 9 ottobre 1874.",
+            "Il nome World Post Day sostituì UPU Day con una decisione del 1984."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
+    },
+    {
+      "observanceId": "zero-discrimination-day",
+      "introducedYear": 2013,
+      "firstObservedYear": 2014,
+      "sources": [
+        "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2013/december/20131201zerodiscrimination",
+        "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2015/february/20150226_PR_Zero_Discrimination_Day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 March: a UNAIDS campaign against every form of exclusion",
+          "origin": "UNAIDS announced the Zero Discrimination campaign on World AIDS Day, 1 December 2013, in an event in Melbourne with advocate Daw Aung San Suu Kyi. The announcement said that the first Zero Discrimination Day would be celebrated on 1 March 2014, a date confirmed by a later UNAIDS press release. The butterfly became an emblem of positive transformation in the campaign. Although linked to the response to HIV, the initiative argues for dignity and equal opportunities regardless of people's characteristics or circumstances. This origin differs from a General Assembly proclamation: the day was launched by UNAIDS and its partners, not documented here as a separately adopted UN General Assembly resolution.",
+          "promoter": "UNAIDS and its then Goodwill Advocate Daw Aung San Suu Kyi announced the campaign in December 2013; UNAIDS organized the international day.",
+          "purpose": "Challenge stigma and discrimination and promote inclusion, dignity and equal access to rights and services.",
+          "facts": [
+            "The UNAIDS campaign launch was announced in Melbourne on 1 December 2013.",
+            "The first Zero Discrimination Day was held on 1 March 2014.",
+            "A butterfly was used as a symbol of transformation in the campaign."
+          ]
+        },
+        "it": {
+          "heading": "1° marzo: una campagna UNAIDS contro ogni forma di esclusione",
+          "origin": "UNAIDS annunciò la campagna Zero Discrimination durante la Giornata mondiale contro l'AIDS, il 1° dicembre 2013, a Melbourne insieme alla sostenitrice Daw Aung San Suu Kyi. Il comunicato annunciava la prima giornata internazionale per il 1° marzo 2014, confermata da una successiva nota UNAIDS. Una farfalla divenne simbolo della trasformazione positiva proposta dalla campagna. Pur nata nel contesto della risposta all'HIV, l'iniziativa difende dignità e opportunità senza discriminazioni fondate sulle condizioni o sulle caratteristiche delle persone. Questa origine è diversa da una proclamazione dell'Assemblea generale: la giornata fu lanciata da UNAIDS e dai suoi partner, non da una risoluzione assembleare specifica qui dimostrata.",
+          "promoter": "UNAIDS e la sostenitrice Daw Aung San Suu Kyi annunciarono la campagna nel dicembre 2013; UNAIDS organizzò la ricorrenza.",
+          "purpose": "Contrastare stigma e discriminazioni e promuovere inclusione, dignità e pari accesso a diritti e servizi.",
+          "facts": [
+            "UNAIDS annunciò la campagna a Melbourne il 1° dicembre 2013.",
+            "La prima Zero Discrimination Day si celebrò il 1° marzo 2014.",
+            "La farfalla fu scelta come simbolo di trasformazione positiva."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original institutional or originator record identifies the establishing decision and separately evidences the first observance where known; unknown inaugural years remain null. Model-written IT/EN research requires qualified fact and native six-locale review, and is not approved for runtime rich publication."
     }
   ]
 }
