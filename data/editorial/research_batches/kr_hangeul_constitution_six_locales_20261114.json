@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_GOVERNMENT_HISTORY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-hangeul-day",
+      "country": "KR",
+      "observanceDate": "10-09",
+      "introducedYear": 2005,
+      "firstObservedYear": null,
+      "legalStatus": "CURRENT_NATIONAL_DAY_AND_PUBLIC_HOLIDAY_2026",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29382"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 October: celebrating the Korean alphabet",
+          "origin": "Hangeul Day celebrates the Korean writing system associated with King Sejong and its historic introduction to the public. The cultural achievement belongs to the fifteenth century, long before the modern holiday system. South Korea's Ministry of the Interior and Safety explains that Hangeul Day was added to the statutory national days by an amendment on 29 December 2005. The day had previously been a public holiday, was excluded from the public-holiday list from 1991 and returned as a day off in 2013. The creation of the script, statutory national-day status and employment-law holiday status are different milestones.",
+          "promoter": "King Sejong is remembered for the alphabet; the Republic of Korea's legislature and government later formalized its modern national recognition.",
+          "purpose": "Celebrate Korean language and literacy, and recognize the cultural significance of the Hangeul writing system.",
+          "facts": [
+            "Hangeul Day is observed annually on 9 October.",
+            "It was added to the statutory national-days list in 2005.",
+            "It became a public holiday again in 2013."
+          ]
+        },
+        "it": {
+          "heading": "9 ottobre: la giornata dell'alfabeto coreano",
+          "origin": "L'Hangeul Day celebra il sistema di scrittura coreano legato al re Sejong e alla sua introduzione storica nel XV secolo. Questo traguardo culturale precede di molti secoli le attuali leggi sui giorni festivi. Secondo il Ministero coreano dell'Interno e della Sicurezza, il 29 dicembre 2005 una modifica normativa aggiunse l'Hangeul Day alle giornate nazionali previste dalla legge. La giornata era stata in passato non lavorativa, fu esclusa dai giorni festivi dal 1991 e tornò festiva nel 2013. Origine dell'alfabeto, riconoscimento nazionale e status di festività sono fatti distinti.",
+          "promoter": "Il re Sejong è ricordato per la scrittura; il legislatore e il governo coreani ne hanno regolato il riconoscimento moderno.",
+          "purpose": "Celebrare lingua, alfabetizzazione e valore culturale del sistema di scrittura Hangeul.",
+          "facts": [
+            "La ricorrenza cade ogni 9 ottobre.",
+            "Il riconoscimento come giornata nazionale risale al 2005.",
+            "Dal 2013 è nuovamente un giorno festivo."
+          ]
+        },
+        "es": {
+          "heading": "9 de octubre: celebración del alfabeto coreano",
+          "origin": "El Día del Hangeul celebra la escritura coreana vinculada al rey Sejong y a su difusión histórica en el siglo XV. Aquel logro cultural precede en siglos al calendario moderno de festivos. El Ministerio del Interior y Seguridad de Corea explica que una reforma del 29 de diciembre de 2005 incluyó el Día del Hangeul entre los días nacionales regulados por ley. Había sido día festivo con anterioridad, salió de la lista de jornadas no laborables desde 1991 y recuperó esa condición en 2013. La creación de la escritura, su reconocimiento nacional y la condición de festivo son hechos distintos.",
+          "promoter": "El rey Sejong es recordado por la escritura; el Parlamento y el Gobierno coreanos fijaron después su reconocimiento moderno.",
+          "purpose": "Celebrar la lengua, la alfabetización y el valor cultural del sistema de escritura Hangeul.",
+          "facts": [
+            "El Día del Hangeul se observa el 9 de octubre.",
+            "Fue añadido a la ley de días nacionales en 2005.",
+            "Recuperó la condición de festivo en 2013."
+          ]
+        },
+        "fr": {
+          "heading": "9 octobre : célébrer l'alphabet coréen",
+          "origin": "La Journée du Hangeul célèbre l'écriture coréenne associée au roi Sejong et à sa diffusion au XVe siècle. Cette réalisation culturelle précède de plusieurs siècles le calendrier légal contemporain. Le ministère coréen de l'Intérieur et de la Sécurité précise qu'une modification du 29 décembre 2005 a ajouté cette journée à la liste des fêtes nationales légales. Elle avait autrefois été chômée, a cessé d'être un jour férié à partir de 1991, puis l'est redevenue en 2013. La création de l'alphabet, la reconnaissance nationale et le statut de jour chômé ne doivent pas être confondus.",
+          "promoter": "Le roi Sejong est associé à l'écriture; le Parlement et le gouvernement coréens ont ensuite défini la journée moderne.",
+          "purpose": "Célébrer la langue, l'alphabétisation et la valeur culturelle de l'écriture Hangeul.",
+          "facts": [
+            "La journée a lieu le 9 octobre.",
+            "Elle est devenue une fête nationale légale en 2005.",
+            "Elle est redevenue chômée en 2013."
+          ]
+        },
+        "de": {
+          "heading": "9. Oktober: der Tag des koreanischen Alphabets",
+          "origin": "Der Hangeul-Tag würdigt die koreanische Schrift, die mit König Sejong und ihrer Verbreitung im 15. Jahrhundert verbunden ist. Diese kulturelle Leistung liegt Jahrhunderte vor dem heutigen Feiertagsrecht. Nach Angaben des südkoreanischen Innen- und Sicherheitsministeriums wurde der Hangeul-Tag am 29. Dezember 2005 durch eine Gesetzesänderung als nationaler Gedenktag aufgenommen. Er war früher arbeitsfrei, wurde ab 1991 aus dem Feiertagskalender gestrichen und ist seit 2013 wieder ein gesetzlicher Feiertag. Entstehung der Schrift, nationaler Status und arbeitsfreier Tag sind verschiedene Schritte.",
+          "promoter": "König Sejong wird mit der Schrift verbunden; Gesetzgeber und Regierung regelten später ihre moderne nationale Würdigung.",
+          "purpose": "Die koreanische Sprache, Lesekompetenz und das kulturelle Erbe der Hangeul-Schrift würdigen.",
+          "facts": [
+            "Der Hangeul-Tag fällt auf den 9. Oktober.",
+            "2005 wurde er als nationaler Tag gesetzlich aufgenommen.",
+            "2013 wurde er wieder arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "9 de outubro: celebração do alfabeto coreano",
+          "origin": "O Dia do Hangeul celebra a escrita coreana associada ao rei Sejong e à sua divulgação no século XV. Essa realização cultural é muito anterior à legislação moderna sobre feriados. Segundo o Ministério do Interior e Segurança da Coreia, uma alteração de 29 de dezembro de 2005 incluiu o Dia do Hangeul nos dias nacionais previstos por lei. A data fora feriado no passado, deixou de ser dia não laboral a partir de 1991 e recuperou esse estatuto em 2013. A criação da escrita, o reconhecimento nacional e o caráter de feriado são marcos distintos.",
+          "promoter": "O rei Sejong é lembrado pela escrita; o parlamento e o governo coreanos definiram mais tarde o reconhecimento moderno.",
+          "purpose": "Celebrar a língua, a alfabetização e o valor cultural do sistema de escrita Hangeul.",
+          "facts": [
+            "O Dia do Hangeul realiza-se a 9 de outubro.",
+            "O reconhecimento legal como dia nacional data de 2005.",
+            "Voltou a ser feriado em 2013."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS government history, statutory national-days law, and government public-holiday updates consulted. Six original AI-localized drafts; no qualified human native or factual approval."
+    },
+    {
+      "observanceId": "kr-constitution-day",
+      "country": "KR",
+      "observanceDate": "07-17",
+      "introducedYear": 1949,
+      "firstObservedYear": null,
+      "legalStatus": "PUBLIC_HOLIDAY_RESTORED_2026",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29825",
+        "https://www.mois.go.kr/video/bbs/type019/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000255&nttId=123641"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 July: the Constitution of the Republic of Korea",
+          "origin": "Constitution Day commemorates the promulgation of the Republic of Korea's constitution on 17 July 1948. The new state established it as one of four national days under Act No. 53 in 1949. Yet the legal status of a national day must not be confused with permission to take time off work. Constitution Day ceased to be a public holiday from 2008; the government announced its restoration as a public holiday in 2026, after an eighteen-year interval. The event of 1948, national-day legislation and later working-day rules are three distinct parts of the history.",
+          "promoter": "The Republic of Korea's founding institutions promulgated the constitution; its National Assembly and government later established the national observance.",
+          "purpose": "Commemorate the constitutional order and reflect on democratic institutions, civic rights and the rule of law.",
+          "facts": [
+            "The constitution was promulgated on 17 July 1948.",
+            "Constitution Day was included in the 1949 National Days Act.",
+            "The public-holiday status was restored in 2026."
+          ]
+        },
+        "it": {
+          "heading": "17 luglio: la Costituzione della Repubblica di Corea",
+          "origin": "Il Constitution Day ricorda la promulgazione della Costituzione sudcoreana, avvenuta il 17 luglio 1948. Lo Stato la inserì fra le prime quattro giornate nazionali con la legge n. 53 del 1949. Tuttavia una giornata nazionale non coincide necessariamente con un giorno libero dal lavoro. Dal 2008 il Constitution Day non fu più festivo; nel 2026 il governo ne ha annunciato il ripristino come giorno festivo dopo diciotto anni. L'evento costituzionale del 1948, la legge sulle ricorrenze nazionali e le successive regole lavorative rappresentano tre passaggi diversi.",
+          "promoter": "Le istituzioni fondatrici della Repubblica di Corea promulgarono la Costituzione; il parlamento e il governo ne regolarono la ricorrenza.",
+          "purpose": "Ricordare il valore della Costituzione e riflettere su diritti civili, istituzioni democratiche e stato di diritto.",
+          "facts": [
+            "La Costituzione fu promulgata il 17 luglio 1948.",
+            "La legge nazionale sulle ricorrenze risale al 1949.",
+            "Nel 2026 è stato ripristinato il giorno festivo."
+          ]
+        },
+        "es": {
+          "heading": "17 de julio: la Constitución de la República de Corea",
+          "origin": "El Día de la Constitución recuerda la promulgación de la constitución surcoreana el 17 de julio de 1948. El nuevo Estado lo incluyó entre sus cuatro primeros días nacionales mediante la Ley n.º 53 de 1949. Sin embargo, el reconocimiento como día nacional no implica necesariamente que sea una jornada libre de trabajo. Desde 2008 dejó de ser festivo; en 2026 el Gobierno anunció su recuperación como día festivo tras dieciocho años. La promulgación de 1948, el reconocimiento de 1949 y las posteriores normas laborales son hechos que deben distinguirse.",
+          "promoter": "Las instituciones fundadoras de la República de Corea promulgaron la constitución; después, el Parlamento y el Gobierno regularon su celebración.",
+          "purpose": "Recordar el orden constitucional y reflexionar sobre derechos, instituciones democráticas y Estado de derecho.",
+          "facts": [
+            "La constitución se promulgó el 17 de julio de 1948.",
+            "El Día de la Constitución figura en la ley de 1949.",
+            "Recuperó la condición de festivo en 2026."
+          ]
+        },
+        "fr": {
+          "heading": "17 juillet : la Constitution de la République de Corée",
+          "origin": "La Journée de la Constitution commémore la promulgation de la constitution sud-coréenne le 17 juillet 1948. Le nouvel État l'a inscrite parmi ses quatre premières fêtes nationales par la loi nº 53 de 1949. Mais une fête nationale n'est pas nécessairement un jour chômé. La journée a perdu son statut férié à partir de 2008; le gouvernement a annoncé son rétablissement comme jour férié en 2026, après dix-huit ans. Il faut donc distinguer la promulgation de 1948, la création de la fête nationale et l'évolution ultérieure de son statut dans le calendrier du travail.",
+          "promoter": "Les institutions fondatrices de la République de Corée ont promulgué la constitution; le Parlement et le gouvernement ont fixé la commémoration.",
+          "purpose": "Rappeler l'importance de la constitution, des droits civiques et de l'État de droit.",
+          "facts": [
+            "La constitution a été promulguée le 17 juillet 1948.",
+            "La journée figure dans la loi de 1949.",
+            "Le statut de jour férié a été rétabli en 2026."
+          ]
+        },
+        "de": {
+          "heading": "17. Juli: Verfassungstag der Republik Korea",
+          "origin": "Der Verfassungstag erinnert an die Verkündung der südkoreanischen Verfassung am 17. Juli 1948. Der junge Staat nahm ihn durch Gesetz Nr. 53 im Jahr 1949 unter die vier ursprünglichen nationalen Gedenktage auf. Der Rang als Nationaltag bedeutet jedoch nicht automatisch Arbeitsfreiheit. Ab 2008 war der Verfassungstag kein arbeitsfreier Feiertag mehr; 2026 wurde seine Wiedereinführung nach achtzehn Jahren angekündigt. Verfassungsverkündung, nationale Anerkennung und die jeweils geltenden Feiertagsregeln bilden somit getrennte geschichtliche Etappen.",
+          "promoter": "Die Gründungsinstitutionen der Republik Korea verkündeten die Verfassung; Parlament und Regierung legten später den Gedenktag fest.",
+          "purpose": "An die verfassungsmäßige Ordnung, Bürgerrechte, demokratische Institutionen und den Rechtsstaat erinnern.",
+          "facts": [
+            "Die Verfassung wurde am 17. Juli 1948 verkündet.",
+            "Der Tag gehört zum Nationaltagegesetz von 1949.",
+            "Seit 2026 gilt er wieder als öffentlicher Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "17 de julho: a Constituição da República da Coreia",
+          "origin": "O Dia da Constituição assinala a promulgação da constituição sul-coreana em 17 de julho de 1948. O novo Estado incluiu a data entre os quatro primeiros dias nacionais através da Lei n.º 53, de 1949. Contudo, o reconhecimento nacional não significa necessariamente que seja um dia livre de trabalho. Desde 2008, a data deixou de ser feriado; em 2026 o governo anunciou o seu regresso à lista de feriados, após dezoito anos. A promulgação de 1948, a lei de 1949 e as alterações posteriores ao calendário laboral são momentos diferentes.",
+          "promoter": "As instituições fundadoras da República da Coreia promulgaram a constituição; o parlamento e o governo definiram a comemoração.",
+          "purpose": "Recordar a ordem constitucional e refletir sobre direitos cívicos, instituições democráticas e Estado de direito.",
+          "facts": [
+            "A constituição foi promulgada em 17 de julho de 1948.",
+            "A data consta da lei nacional de 1949.",
+            "O feriado foi restabelecido em 2026."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS government history, statutory national-days law, and government public-holiday updates consulted. Six original AI-localized drafts; no qualified human native or factual approval."
+    }
+  ]
+}
