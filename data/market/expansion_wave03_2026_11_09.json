@@ -339,18 +339,20 @@
         }
       ],
       "source": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm",
-      "additionalSources": [],
+      "additionalSources": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12519.htm"
+      ],
       "authority": "Federal Government of Brazil",
       "resolution": null,
-      "proposedIntroducedYear": 2003,
-      "introducedYearSource": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.639.htm",
+      "proposedIntroducedYear": 2011,
+      "introducedYearSource": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12519.htm",
       "aliases": [],
       "subject": "CULTURE",
       "sourceReviewedOn": "2026-11-09",
       "humanEditorialStatus": "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED",
-      "chronologyNote": "Law 10.639/2003 added 20 November to the school calendar as National Black Consciousness Day. Federal Law 14.759/2023 subsequently made it a national public holiday. The 2003 educational recognition and 2023 holiday status are different legal milestones.",
+      "chronologyNote": "Federal Law 10.639/2003 included 20 November in the school calendar for Black Consciousness; separate Law 12.519/2011 formally instituted the National Day of Zumbi and Black Consciousness throughout Brazil. Law 14.759/2023 subsequently established a nationwide statutory public holiday first effective for the November 2024 observance. These are separate 2003 educational, 2011 federal naming, and 2023/2024 statutory holiday milestones.",
       "dateRationale": "20 November recalls Zumbi's death in 1695; school recognition came in 2003 and national holiday status in 2023.",
-      "holidayClassification": "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"
+      "holidayClassification": "STATUTORY_NATIONAL_HOLIDAY"
     },
     {
       "id": "brazil-national-physicist-day",

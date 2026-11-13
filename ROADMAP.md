@@ -1,5 +1,85 @@
 # World Days — Active roadmap
 
+## Wave20 — frozen 100-ID source research completed (13 November 2026)
+
+- [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.
+- [x] Write and register 100/100 distinct IT/EN original source-linked histories with legal/cultural chronology, founders or explicit unknowns, significance and 2–5 contextual facts in each language.
+- [x] Complete the original bilingual 100-chapter booklet and full 100-record primary-source research audit and align the machine-readable progress ledger, with zero unresearched entries in the frozen cohort.
+- [x] Keep the human/native six-locale editorial and rich-runtime flags at zero; document source-quality limitations and unknown first ceremonies instead of inventing details.
+- [ ] Complete and verify exact-head CI (canonical build, source research index, all Python validators, Flutter analysis/tests and Web release build); resolve any review findings and merge only with protection gates satisfied.
+- [ ] Once merged, verify **325/1,111** unique researched IT/EN historical origins in `main`, **786** still missing; generate the next distinct group of 100 without duplicate IDs.
+- [ ] Independently fact-check and obtain qualified native EN/IT/ES/FR/DE/PT reviews before ever promoting source drafts to rich editorial. No APK, Play or deployment.
+
+
+## Wave19 — last seven source gaps in the original 100 drafts (12 November 2026)
+
+- [x] Read one immutable App Factory `CURRENT.yaml` for this session (Master v27, Golden Index v29) and World Days `AGENTS.md` / Product Bible; use only Chat.
+- [x] Research the first missing original-100 draft ID **#22** (UN detained/missing staff), preserve formal founded year `null`, and establish 1986 as earliest annual observance from UN memorial records.
+- [x] Research original archival gaps **#28 Wellness (2026/2026), #30 Greening the Planet (2026/null), #34 earthquake victims (2025/2026), #37 WWII remembrance (2004/2005), #55 Oceans (2008/2009, reusing PR #99), #72 Tropics (2016/null)**; no guessed first events or sponsors.
+- [x] Correct incorrect Tropics resolution in canonical generator and archive to **A/RES/70/267**, preserving distinct MSME resolution A/RES/71/279.
+- [x] Add seven source-linked original bilingual narratives, dates, promoters or explicitly unknown, 3–4 contextual facts, individual first-party links, complete bilingual booklet, source audit and strict Python validator.
+- [x] Integrate dedicated exact-head CI test into existing Python/Flutter/Web validation; preserve the `runtimeRichEditorialApproved=false` publication gate.
+- [ ] Merge only when exact-head CI and review gates pass; then regenerate index and verify **225/1,111 individually researched, 886 pending**. Confirm **100/100 archival drafts** have separate researched successors, not six-language human approvals.
+- [ ] Continue through the **remaining 886** canonical IDs, in batches of at most 100. Investigate source-index-only EURES, DFAT and NCCA national/cultural days individually before declaring legal status.
+- [ ] Obtain qualified native language / factual reviews for EN/IT/ES/FR/DE/PT. No forced REVIEWED flags, APK, Play, or deployment.
+
+
+## All 155 pre-written IT/EN source histories integrated (conditional on CI, 12 November 2026)
+
+- [x] Wave12/13, 1+1 researched histories through PRs #108, #109; source-led coverage 65.
+- [x] Wave14–16, 16+32+26=74 researched histories through consolidated PR #112; coverage 139.
+- [x] Wave17–18, 28+51=79 source-linked researched histories in this PR #114, with distinct original dossiers, audits, and two per-wave Python checks.
+- [x] Remove these 79 unique IDs from the PR research register. The expected count after accepted merge is **218/1,111** researched IT/EN origin histories, **893** source-histories still missing; **0** outstanding previously-written PR draft histories.
+- [ ] Only complete source research is integrated here, not qualified editorial signoff. Native review of EN/IT/ES/FR/DE/PT and formal approval before any rich runtime article publication remain outstanding.
+- [ ] Keep source discovery going beyond the existing 1,111 minimum; do not create empty dossiers or publish unsupported assertions. No APK, Play or deploy.
+
+
+## Research integration: Wave14–Wave16, 74 records (12 November 2026)
+
+- [x] Consolidate original source-bound IT/EN Wave14 **16**, Wave15 **32**, Wave16 **26** without changing canonical IDs or their primary-source documentary notes.
+- [x] Preserve each wave's original booklet, source audit, and runnable Python-specific validator.
+- [x] Update pending PR inventory from 153 in five PRs to **79 in two PRs** (#113, #114), disjoint from researched origins after merge.
+- [ ] After exact-head CI and protected merge, update source-researched count from **65 to 139 of 1,111**; pending **972**, but six-language qualified human review remains outstanding.
+- [ ] Continue the remaining 79 in a separate block of at most 100; no APK, Play Store or deployments.
+
+
+## Existing stories: registry and publication gate (12 November 2026)
+
+- [x] Wave13 PR #109: independently researched World Water Day, A/RES/47/193 formally adopted 1992, inaugural annual 1993. Upon exact-head green merge: **65/1,111** source-linked origins, **1,046** not yet researched and **153** proposals pending in PRs #110–114.
+
+- [x] Wave12 PR #108 records International Day of Nowruz with original 2010 UN resolution, 21 March first-year observance, and separation from earlier cultural tradition. **64/1,111** source-linked records after CI and merge, **1,047** pending; **154** distinct source-linked drafts left in PRs #109–#114. Human six-language approval not claimed.
+
+- [x] Wave11 PR #107: World Day for Glaciers (21 March), UN adoption 2022 and primary UN event evidence for the first 2025 celebration. Source-linked origins **63/1,111** on successful merge; remaining **1,048**. Specific legislative date rationale remains unknown; six-locale signoff not claimed.
+- [x] Candidate registry updated to **155 unique IT/EN story drafts** across PR #108–#114, each distinct from already integrated source research.
+
+
+- [x] Wave10 PR #106: research UNESCO International Day for Digital Learning, 19 March, designation 2023 and first UNESCO edition in 2024, while leaving undocumented choice of the date unasserted. After green merge **62/1,111** researched origins, **1,049** pending; no six-language approval.
+- [x] Pending source-draft register reduced to **156 unique stories** in 8 open PRs (#107–#114), without duplicates or publishing a source draft as a reviewed runtime article.
+
+
+- [x] Wave09 PR #105: add source-linked histories for International Day of Women Judges (UN adoption 2021, first commemoration 2022) and International Day to Combat Islamophobia (UN adoption 2022, first commemorative event 2023), with original UN evidence for inaugural observances. Source-linked total **61/1,111** after green merge; **1,050** still lack individual source research.
+- [x] Update pending PR registry to **157 distinct IT/EN draft origins** from PR #106–#114 (9 open PRs); research drafts are not qualified human-reviewed rich articles and remain gated out of Flutter runtime.
+
+
+- [x] Wave08 PR #104: add independently sourced International Day for Disarmament and Non-Proliferation Awareness (5 March) with original 2022 General Assembly decision A/RES/77/51, six draft sponsors documented, first annual observance 2023, calendar-day choice not attributed without evidence. Source-linked total **59/1,111** upon successful merge; remaining **1,052**. Rich editorial six-language approval still false.
+- [x] Reconcile the Wave08 review finding by updating README and ROADMAP to 59 source-linked origins and **159 pending IT/EN drafts** in 10 open PRs (#105–#114), rather than reporting outdated 55/1,056 coverage.
+
+
+- [x] Wave07 PR #103: account for the source-researched 6 February FGM observance, with unknown early-history facts kept unasserted. Source-research total upon green merge: **58/1,111**; remaining **1,053**. Runtime six-locale approval remains false.
+- [x] Update the unique pending story register to **160 IDs in 11 PRs (#104–#114)**, with cross-check that none is already integrated on main.
+
+
+- [x] Merge PR #102 with 2 source-linked IT/EN histories (seagrass and wildlife); main source-research count becomes **57/1,111**, pending **1,054** at this snapshot. This is not equivalent to 57 human-reviewed six-language articles.
+- [x] Register the **161 distinct IT/EN historical drafts** already present in open PR #103–#114 with canonical IDs, exact source batch paths, source commits, and review-status flags in `data/editorial/registry/pending_origin_story_prs_20261112.json`.
+- [x] Require explicit `runtimeRichEditorialApproved` in the generated origin ledger and Flutter detail panel; no approval is inferred from a verified source URL, CI check, or the presence of the text in a wave batch. Unapproved histories retain the fallback panel.
+- [ ] Reconcile source and first-observance review findings in PR #104, #111, #112 and #114; repeat exact-head CI after fixes.
+- [ ] Secure qualified factual/linguistic review EN/IT/ES/FR/DE/PT and publication approval before any runtime rich-origin promotion. The 56 existing legacy reviewed editorial entries remain separate.
+- [ ] Recheck current main and regenerate the origin report after each further successful merge; update this 2026-11-12 checkpoint rather than treating the snapshot as a live counter.
+- [ ] Continue with the first outstanding canonical IDs in batches of at most 100, never mistake the archived draft corpus for approved content.
+- [x] Disable the existing `Deploy Web Preview` push-to-main trigger; use manual `workflow_dispatch` only. Note that PR #102 caused the previous automatic deployment run 43277603486 before this safety change.
+- [ ] No further APK, Play, deploy, or store promotion in this phase.
+
+
 ## Prime 9 origini certificate da fonti specifiche tra 100 bozze (12 novembre 2026)
 
 - [x] Analizzare singolarmente nove ricorrenze della PR #100 tramite fonti istitutive originali ONU, UNESCO e CIPSH; redigere nuova storia d'origine IT/EN con anno, prima osservanza quando provata, scelta della data, promotore e quattro fatti.

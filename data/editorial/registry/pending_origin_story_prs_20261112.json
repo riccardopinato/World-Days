@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-12",
+  "repository": "riccardopinato/World-Days",
+  "sourceOfTruth": "GitHub pull requests; recheck state/head before merge",
+  "catalogCountSnapshot": 1111,
+  "mainSnapshot": "ecac52db6c5617c627d8e2d394b71ddc647e7f49",
+  "mainIndividuallyResearchedOriginsSnapshot": 139,
+  "mainLegacyReviewedEditorialCountSnapshot": 56,
+  "mainHumanApprovedSixLocaleOriginsSnapshot": 0,
+  "pendingUniqueDraftCount": 0,
+  "pendingPrCount": 0,
+  "meaning": "PR inventory only. Neither registered draft nor source-linked IT/EN means human approved or published in app. No new identity or source fact is asserted.",
+  "batches": [],
+  "nextMergeExpectedIndividuallyResearchedCount": 218,
+  "registryChangeNote": "Existing 155 researched IT/EN histories fully integrated by merge of PR #108 (1), #109 (1), #112 (74 sourced from #110-112), and #114 (79 sourced from #113-114), conditional on latest exact-head checks. Zero prepared PR research drafts remain; 893 of 1111 source histories unresearched, 56 separate legacy reviewed editorials. Human six-language signoff not claimed."
+}
