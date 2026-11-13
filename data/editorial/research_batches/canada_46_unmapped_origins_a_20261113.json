@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-13",
+  "sourcePolicy": "Canada 46 individual primary/organizer source research; these global/shared candidates are NOT additional Canadian canonical IDs, not native-reviewed.",
+  "status": "RESEARCH_ONLY_NOT_CANONICAL_SIX_LOCALE_DRAFT",
+  "count": 3,
+  "records": [
+    {
+      "candidateId": "ca-international-women-s-day",
+      "canonicalTitleEn": "International Women's Day",
+      "scope": "GLOBAL_SHARED_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "FIXED_DATE",
+        "month": 3,
+        "day": 8
+      },
+      "introducedYear": 1910,
+      "firstObservedYear": 1911,
+      "originalProposer": "International Socialist Women's Conference, Copenhagen, 1910; exact original mover not asserted",
+      "dateRationale": "8 March established by subsequent women's movements, not by the 1910 Copenhagen conference; UN began marking 8 March in 1975, General Assembly resolution followed in 1977.",
+      "sources": [
+        "https://static.un.org/womenwatch/feature/iwd/history.html",
+        "https://www.un.org/en/observances/womens-day/background",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/international-womens-day.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 March: from labour movements to an international day",
+          "origin": "International Women's Day grew from early twentieth-century labour and suffrage movements in Europe and North America. In 1910 an international conference of socialist women in Copenhagen approved the idea of a women's day, without fixing 8 March. Its first international celebrations occurred on 19 March 1911 in Austria, Denmark, Germany and Switzerland. The United Nations began commemorating the day on 8 March in 1975; in 1977 the General Assembly approved a broader resolution concerning women's rights and international peace. Canada marks the day without being the institution that founded it. These dates describe distinct stages, not contradictory founding years.",
+          "promoter": "The 1910 international women's conference promoted the original initiative; the UN later institutionalized international observance.",
+          "purpose": "Recognize women's achievements, political participation, and ongoing work for equal rights.",
+          "facts": [
+            "Copenhagen's 1910 conference did not select 8 March.",
+            "The first international events occurred on 19 March 1911.",
+            "The UN began its 8 March commemorations in 1975."
+          ]
+        },
+        "it": {
+          "heading": "8 marzo: dalle lotte del lavoro alla giornata internazionale",
+          "origin": "La Giornata internazionale della donna nacque dai movimenti operai e per il suffragio femminile dell'inizio del Novecento. Nel 1910 una conferenza internazionale delle donne socialiste a Copenaghen approvò l'idea di una giornata dedicata ai diritti femminili, senza fissarla all'8 marzo. Le prime celebrazioni internazionali si svolsero il 19 marzo 1911 in Austria, Danimarca, Germania e Svizzera. Le Nazioni Unite iniziarono a celebrare l'8 marzo nel 1975 e nel 1977 l'Assemblea generale approvò una successiva risoluzione sui diritti delle donne e la pace. Il Canada partecipa, ma non è l'istituzione fondatrice. I diversi anni indicano passaggi storici distinti.",
+          "promoter": "La conferenza internazionale femminile del 1910 promosse l'iniziativa originaria; l'ONU contribuì successivamente al riconoscimento.",
+          "purpose": "Riconoscere conquiste e lotte per partecipazione politica e parità di diritti.",
+          "facts": [
+            "A Copenaghen nel 1910 non fu scelta la data dell'8 marzo.",
+            "Le prime manifestazioni internazionali furono il 19 marzo 1911.",
+            "L'ONU iniziò le celebrazioni dell'8 marzo nel 1975."
+          ]
+        },
+        "es": {
+          "heading": "8 de marzo: del movimiento obrero a la jornada internacional",
+          "origin": "El Día Internacional de la Mujer surgió de los movimientos obreros y sufragistas de principios del siglo XX. En 1910, una conferencia internacional de mujeres socialistas celebrada en Copenhague aprobó la idea de un día para reclamar derechos, sin elegir el 8 de marzo. Las primeras celebraciones internacionales tuvieron lugar el 19 de marzo de 1911 en Austria, Dinamarca, Alemania y Suiza. Las Naciones Unidas comenzaron a conmemorarlo el 8 de marzo en 1975, mientras que la Asamblea General aprobó otra resolución sobre los derechos de la mujer y la paz en 1977. Canadá participa en la celebración, pero no creó esta jornada internacional.",
+          "promoter": "La conferencia internacional de 1910 promovió la iniciativa; las Naciones Unidas contribuyeron después a su reconocimiento.",
+          "purpose": "Reconocer las conquistas de las mujeres y promover derechos y participación igualitaria.",
+          "facts": [
+            "La conferencia de Copenhague de 1910 no fijó el 8 de marzo.",
+            "Las primeras celebraciones internacionales ocurrieron el 19 de marzo de 1911.",
+            "La ONU comenzó a celebrarlo el 8 de marzo en 1975."
+          ]
+        },
+        "fr": {
+          "heading": "8 mars : des mouvements ouvriers à la journée internationale",
+          "origin": "La Journée internationale des femmes est issue des luttes ouvrières et des mouvements pour le droit de vote au début du XXe siècle. En 1910, une conférence internationale de femmes socialistes réunie à Copenhague a soutenu l'idée d'une journée consacrée aux droits des femmes, sans retenir le 8 mars. Les premières célébrations internationales ont eu lieu le 19 mars 1911 en Autriche, au Danemark, en Allemagne et en Suisse. L'ONU a commencé à célébrer le 8 mars en 1975, puis l'Assemblée générale a adopté en 1977 une résolution sur les droits des femmes et la paix. Le Canada y participe, mais n'en est pas l'institution fondatrice.",
+          "promoter": "La conférence internationale de 1910 a lancé l'initiative; l'ONU a ensuite renforcé sa reconnaissance.",
+          "purpose": "Reconnaître les réalisations des femmes et poursuivre l'égalité des droits et de la participation.",
+          "facts": [
+            "La conférence de Copenhague en 1910 n'a pas fixé le 8 mars.",
+            "Les premières célébrations internationales se sont tenues le 19 mars 1911.",
+            "L'ONU a commencé à marquer le 8 mars en 1975."
+          ]
+        },
+        "de": {
+          "heading": "8. März: von Arbeiterinnenbewegungen zum internationalen Tag",
+          "origin": "Der Internationale Frauentag entstand aus Arbeits- und Wahlrechtsbewegungen zu Beginn des zwanzigsten Jahrhunderts. Auf einer internationalen Konferenz sozialistischer Frauen in Kopenhagen wurde 1910 ein Frauentag vorgeschlagen, aber der 8. März noch nicht festgelegt. Die ersten internationalen Veranstaltungen fanden am 19. März 1911 in Österreich, Dänemark, Deutschland und der Schweiz statt. Die Vereinten Nationen begannen 1975, den 8. März zu begehen, während die Generalversammlung 1977 eine spätere Resolution zu Frauenrechten und internationalem Frieden verabschiedete. Kanada beteiligt sich, war jedoch nicht der ursprüngliche Gründer der Feier.",
+          "promoter": "Die internationale Frauenkonferenz von 1910 trug den ursprünglichen Vorschlag; die UN förderte später die Anerkennung.",
+          "purpose": "Errungenschaften von Frauen und das anhaltende Ringen um politische und soziale Gleichberechtigung würdigen.",
+          "facts": [
+            "Die Konferenz von 1910 legte den 8. März nicht fest.",
+            "Die ersten internationalen Veranstaltungen fanden am 19. März 1911 statt.",
+            "Die Vereinten Nationen begannen 1975 mit der Begehung am 8. März."
+          ]
+        },
+        "pt": {
+          "heading": "8 de março: dos movimentos laborais ao dia internacional",
+          "origin": "O Dia Internacional da Mulher nasceu dos movimentos laborais e sufragistas do início do século XX. Em 1910, uma conferência internacional de mulheres socialistas em Copenhaga aprovou a ideia de um dia dedicado aos direitos das mulheres, mas não escolheu 8 de março. As primeiras celebrações internacionais ocorreram a 19 de março de 1911 na Áustria, Dinamarca, Alemanha e Suíça. As Nações Unidas começaram a assinalar 8 de março em 1975; em 1977, a Assembleia Geral adotou uma resolução posterior sobre os direitos das mulheres e a paz internacional. O Canadá participa nesta comemoração, mas não foi o seu fundador.",
+          "promoter": "A conferência internacional de 1910 promoveu a iniciativa; as Nações Unidas apoiaram mais tarde o reconhecimento.",
+          "purpose": "Valorizar as conquistas das mulheres e promover igualdade de direitos e participação.",
+          "facts": [
+            "A conferência de 1910 não escolheu a data de 8 de março.",
+            "As primeiras celebrações internacionais ocorreram em 19 de março de 1911.",
+            "A ONU começou a assinalar o 8 de março em 1975."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    },
+    {
+      "candidateId": "ca-commonwealth-day",
+      "canonicalTitleEn": "Commonwealth Day",
+      "scope": "GLOBAL_SHARED_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "NTH_WEEKDAY",
+        "month": 3,
+        "weekday": 1,
+        "occurrence": 2
+      },
+      "introducedYear": 1976,
+      "firstObservedYear": 1977,
+      "originalProposer": "National Council in Canada of the Royal Commonwealth Society (1973 suggestion), Canadian delegation proposal to Commonwealth officials in 1975–76",
+      "dateRationale": "Second Monday of March selected by senior officials in Canberra, 1976, because schoolchildren across Commonwealth countries would generally be in school.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/commonwealth-day.html",
+        "https://thecommonwealth.org/commonwealth-day-archives",
+        "https://thecommonwealth.org/history"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Second Monday in March: Canada's proposal becomes Commonwealth Day",
+          "origin": "The shared Commonwealth Day has a particularly Canadian institutional origin. In 1973 the National Council in Canada of the Royal Commonwealth Society wrote to Prime Minister Pierre Trudeau suggesting a simultaneous observance. Canada raised the idea at the 1975 Commonwealth Heads of Government meeting. Senior officials in Canberra selected the second Monday in March in 1976, allowing schoolchildren across many member countries to participate; the first simultaneous celebrations took place in 1977. Earlier Canadian observances had been linked informally to Victoria Day. The modern shared date is not a Canadian national statutory holiday.",
+          "promoter": "Canada's Royal Commonwealth Society council and Canada's delegation initiated the proposal, adopted collectively by Commonwealth officials.",
+          "purpose": "Learn about cooperation and the distinct cultures and histories of Commonwealth members.",
+          "facts": [
+            "The original Canadian suggestion dates to 1973.",
+            "Senior officials adopted the second Monday in March in 1976.",
+            "The first simultaneous Commonwealth Day was observed in 1977."
+          ]
+        },
+        "it": {
+          "heading": "Secondo lunedì di marzo: una proposta canadese diventa Commonwealth Day",
+          "origin": "L'origine del Commonwealth Day condiviso tra i paesi membri è strettamente legata al Canada. Nel 1973 il Consiglio nazionale canadese della Royal Commonwealth Society scrisse al primo ministro Pierre Trudeau proponendo una ricorrenza simultanea. Il Canada portò l'idea all'incontro dei capi di governo del Commonwealth nel 1975. Nel 1976 i funzionari riuniti a Canberra scelsero il secondo lunedì di marzo per favorire la partecipazione scolastica; le prime celebrazioni comuni seguirono nel 1977. In passato il Canada celebrava talvolta il Commonwealth insieme al Victoria Day. La ricorrenza moderna non è un giorno festivo canadese di legge.",
+          "promoter": "Il Consiglio canadese della Royal Commonwealth Society e la delegazione canadese avanzarono la proposta, approvata poi dagli organismi del Commonwealth.",
+          "purpose": "Approfondire collaborazione, storia e diversità culturale dei paesi membri.",
+          "facts": [
+            "La proposta canadese originaria risale al 1973.",
+            "Nel 1976 fu scelto il secondo lunedì di marzo.",
+            "La prima celebrazione simultanea si svolse nel 1977."
+          ]
+        },
+        "es": {
+          "heading": "Segundo lunes de marzo: una propuesta canadiense llega a todo el Commonwealth",
+          "origin": "El Commonwealth Day común tiene una importante raíz canadiense. En 1973, el Consejo Nacional canadiense de la Royal Commonwealth Society escribió al primer ministro Pierre Trudeau para proponer una celebración simultánea. Canadá presentó la idea a los dirigentes del Commonwealth en 1975. En 1976, los funcionarios reunidos en Canberra eligieron el segundo lunes de marzo para facilitar la participación de escolares; las primeras celebraciones simultáneas ocurrieron en 1977. Antes, Canadá había relacionado ocasionalmente la celebración con el Día de Victoria. La jornada actual no equivale a un feriado nacional obligatorio en Canadá.",
+          "promoter": "El consejo canadiense de la Royal Commonwealth Society y la delegación canadiense impulsaron la propuesta adoptada por los organismos del Commonwealth.",
+          "purpose": "Conocer la cooperación y la diversidad histórica y cultural entre sus miembros.",
+          "facts": [
+            "La sugerencia canadiense inicial data de 1973.",
+            "La fecha común se acordó en 1976.",
+            "La primera celebración simultánea ocurrió en 1977."
+          ]
+        },
+        "fr": {
+          "heading": "Deuxième lundi de mars : une initiative canadienne devient la Journée du Commonwealth",
+          "origin": "L'origine de la Journée du Commonwealth commune aux pays membres est étroitement liée au Canada. En 1973, le conseil national canadien de la Royal Commonwealth Society a écrit au premier ministre Pierre Trudeau pour proposer une journée célébrée simultanément. Le Canada a présenté l'idée à la réunion des chefs de gouvernement de 1975. En 1976, les responsables réunis à Canberra ont retenu le deuxième lundi de mars afin de permettre la participation des élèves; les premières célébrations simultanées ont suivi en 1977. Auparavant, le Canada associait parfois cette occasion à la fête de la Reine. La journée actuelle n'est pas un jour férié national légal.",
+          "promoter": "Le conseil canadien de la Royal Commonwealth Society et la délégation canadienne ont proposé l'initiative, adoptée collectivement par le Commonwealth.",
+          "purpose": "Faire découvrir la coopération et la diversité des histoires et cultures des pays membres.",
+          "facts": [
+            "La proposition canadienne initiale date de 1973.",
+            "Les responsables ont retenu le deuxième lundi de mars en 1976.",
+            "La première célébration simultanée s'est tenue en 1977."
+          ]
+        },
+        "de": {
+          "heading": "Zweiter Montag im März: ein kanadischer Vorschlag wird zum Commonwealth Day",
+          "origin": "Der gemeinsame Commonwealth Day geht wesentlich auf eine kanadische Initiative zurück. 1973 schrieb der kanadische Nationalrat der Royal Commonwealth Society an Premierminister Pierre Trudeau und schlug einen gleichzeitig begangenen Tag vor. Kanada brachte die Idee 1975 bei den Staats- und Regierungschefs des Commonwealth ein. 1976 einigten sich Beamte in Canberra auf den zweiten Montag im März, damit möglichst viele Schulkinder teilnehmen konnten; die ersten gemeinsamen Feiern folgten 1977. Zuvor verband Kanada solche Feiern teilweise mit dem Victoria Day. Der heutige Tag ist in Kanada kein gesetzlicher landesweiter Feiertag.",
+          "promoter": "Der kanadische Rat der Royal Commonwealth Society und die Delegation Kanadas schlugen die gemeinsame Feier vor.",
+          "purpose": "Zusammenarbeit und die unterschiedlichen Kulturen und Geschichten der Mitgliedsländer kennenlernen.",
+          "facts": [
+            "Der erste kanadische Vorschlag wurde 1973 gemacht.",
+            "Der zweite Montag im März wurde 1976 beschlossen.",
+            "Die erste gemeinsame Begehung fand 1977 statt."
+          ]
+        },
+        "pt": {
+          "heading": "Segunda segunda-feira de março: uma proposta do Canadá para a Commonwealth",
+          "origin": "A origem do Commonwealth Day celebrado em conjunto pelos membros está muito ligada ao Canadá. Em 1973, o conselho nacional canadiano da Royal Commonwealth Society escreveu ao primeiro-ministro Pierre Trudeau propondo uma comemoração simultânea. O Canadá apresentou a ideia aos chefes de governo em 1975. Em 1976, responsáveis reunidos em Camberra escolheram a segunda segunda-feira de março para permitir a participação de alunos; as primeiras celebrações conjuntas decorreram em 1977. Anteriormente, o Canadá associava por vezes a comemoração ao Victoria Day. A jornada atual não constitui um feriado nacional legal canadiano.",
+          "promoter": "O conselho canadiano da Royal Commonwealth Society e a delegação canadiana promoveram a proposta adotada pelos órgãos do Commonwealth.",
+          "purpose": "Conhecer a cooperação e a diversidade histórica e cultural dos países membros.",
+          "facts": [
+            "A proposta canadiana inicial surgiu em 1973.",
+            "A data comum foi acordada em 1976.",
+            "A primeira comemoração simultânea ocorreu em 1977."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    },
+    {
+      "candidateId": "ca-international-transgender-day-of-visibility",
+      "canonicalTitleEn": "International Transgender Day of Visibility",
+      "scope": "GLOBAL_SHARED_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "FIXED_DATE",
+        "month": 3,
+        "day": 31
+      },
+      "introducedYear": 2009,
+      "firstObservedYear": 2009,
+      "originalProposer": "Rachel Crandall-Crocker, founder and organizer, Transgender Michigan",
+      "dateRationale": "Rachel Crandall's original 31 March choice, documented as an affirming visibility day distinct from the November remembrance; an independent specific date-choice rationale is not proved by the examined sources.",
+      "sources": [
+        "https://www.transgendermichigan.org/who-we-are",
+        "https://pflag.org/transgender-day-of-visibility/",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "31 March: visibility alongside remembrance",
+          "origin": "International Transgender Day of Visibility was founded in 2009 by Rachel Crandall-Crocker, a transgender advocate and co-founder of Transgender Michigan. The 31 March observance was designed to recognize transgender people's achievements and everyday lives while drawing attention to discrimination. It provided an affirmative counterpart to the earlier Transgender Day of Remembrance, which focuses on people killed by anti-trans violence. The Canadian Heritage calendar lists the international day, but this does not mean Canada originally established it or created a federal holiday. The first-year origin and founder are documented; the exact reason for selecting 31 March is not established by the examined records.",
+          "promoter": "Rachel Crandall-Crocker founded the observance through her work with Transgender Michigan in 2009.",
+          "purpose": "Celebrate transgender and gender-diverse people's lives and challenge discrimination without erasing remembrance.",
+          "facts": [
+            "The international observance originated in 2009.",
+            "Rachel Crandall-Crocker is named as its founder by Transgender Michigan.",
+            "The annual date is 31 March, distinct from Transgender Day of Remembrance."
+          ]
+        },
+        "it": {
+          "heading": "31 marzo: visibilità accanto alla memoria",
+          "origin": "La Giornata internazionale della visibilità transgender fu fondata nel 2009 da Rachel Crandall-Crocker, attivista e cofondatrice di Transgender Michigan. La ricorrenza del 31 marzo valorizza risultati, esperienze e vita quotidiana delle persone transgender, richiamando al tempo stesso le discriminazioni ancora presenti. Nacque come occasione positiva accanto al precedente Transgender Day of Remembrance, dedicato invece alle vittime della violenza transfobica. Canadian Heritage include la giornata nel calendario, ma ciò non significa che il Canada l'abbia fondata o che sia una festività federale. Le fonti identificano promotrice e anno d'origine, non la precisa motivazione della scelta del 31 marzo.",
+          "promoter": "Rachel Crandall-Crocker fondò la giornata nel 2009 attraverso l'attività svolta con Transgender Michigan.",
+          "purpose": "Riconoscere la vita delle persone transgender e contrastare le discriminazioni senza dimenticare le vittime.",
+          "facts": [
+            "La ricorrenza internazionale fu fondata nel 2009.",
+            "Transgender Michigan attribuisce la fondazione a Rachel Crandall-Crocker.",
+            "La data annuale è il 31 marzo, distinta dal giorno della memoria."
+          ]
+        },
+        "es": {
+          "heading": "31 de marzo: visibilidad junto a la memoria",
+          "origin": "El Día Internacional de la Visibilidad Transgénero fue fundado en 2009 por Rachel Crandall-Crocker, activista y cofundadora de Transgender Michigan. La jornada del 31 de marzo busca reconocer los logros y las experiencias cotidianas de las personas trans y, al mismo tiempo, señalar la discriminación existente. Fue concebida como una celebración afirmativa junto al anterior Día de la Memoria Trans, dedicado a las víctimas de la violencia. El calendario de Canadian Heritage la incluye, pero Canadá no fue el fundador de la jornada internacional ni la convirtió por ello en feriado federal. Las fuentes acreditan a su promotora y el año, no el motivo exacto de la fecha.",
+          "promoter": "Rachel Crandall-Crocker fundó el día en 2009 a través de su trabajo con Transgender Michigan.",
+          "purpose": "Celebrar las vidas trans y combatir la discriminación sin olvidar a las víctimas de la violencia.",
+          "facts": [
+            "La jornada internacional nació en 2009.",
+            "Transgender Michigan identifica a Rachel Crandall-Crocker como fundadora.",
+            "La fecha anual es el 31 de marzo."
+          ]
+        },
+        "fr": {
+          "heading": "31 mars : la visibilité aux côtés du souvenir",
+          "origin": "La Journée internationale de la visibilité transgenre a été fondée en 2009 par Rachel Crandall-Crocker, militante et cofondatrice de Transgender Michigan. La journée du 31 mars célèbre les réalisations et la vie quotidienne des personnes transgenres tout en attirant l'attention sur les discriminations. Elle offre une occasion positive à côté de la Journée du souvenir trans, plus ancienne, qui rend hommage aux victimes de violences. Le calendrier de Patrimoine canadien la mentionne, mais le Canada n'en est pas le fondateur et elle ne constitue pas, pour autant, un jour férié fédéral. Les sources établissent sa fondatrice et son année, non le motif précis du choix du 31 mars.",
+          "promoter": "Rachel Crandall-Crocker a créé la journée en 2009 dans le cadre de son engagement auprès de Transgender Michigan.",
+          "purpose": "Célébrer les personnes transgenres et combattre la discrimination tout en préservant la mémoire.",
+          "facts": [
+            "La journée internationale a été créée en 2009.",
+            "Transgender Michigan reconnaît Rachel Crandall-Crocker comme fondatrice.",
+            "Elle a lieu chaque année le 31 mars."
+          ]
+        },
+        "de": {
+          "heading": "31. März: Sichtbarkeit neben dem Gedenken",
+          "origin": "Der Internationale Tag der Transgender-Sichtbarkeit wurde 2009 von Rachel Crandall-Crocker gegründet, einer Aktivistin und Mitgründerin von Transgender Michigan. Der 31. März soll Leistungen und Lebenswirklichkeit von trans Menschen sichtbar machen und zugleich auf Diskriminierung hinweisen. Er entstand als positive Ergänzung zum älteren Transgender Day of Remembrance, der an Opfer von Gewalt erinnert. Canadian Heritage listet den internationalen Tag, doch wurde er nicht von Kanada gegründet und ist deshalb kein bundesweiter gesetzlicher Feiertag. Die Quellen belegen Gründerin und Entstehungsjahr, nicht jedoch den genauen ursprünglichen Grund für die Wahl des 31. März.",
+          "promoter": "Rachel Crandall-Crocker gründete den Tag 2009 im Umfeld von Transgender Michigan.",
+          "purpose": "Das Leben und die Leistungen von trans Menschen würdigen und Diskriminierung abbauen.",
+          "facts": [
+            "Der internationale Tag entstand 2009.",
+            "Transgender Michigan nennt Rachel Crandall-Crocker als Gründerin.",
+            "Der jährlich wiederkehrende Termin ist der 31. März."
+          ]
+        },
+        "pt": {
+          "heading": "31 de março: visibilidade junto à memória",
+          "origin": "O Dia Internacional da Visibilidade Transgénero foi fundado em 2009 por Rachel Crandall-Crocker, ativista e cofundadora da Transgender Michigan. A data de 31 de março celebra conquistas e experiências quotidianas das pessoas trans, chamando também a atenção para a discriminação. Surgiu como ocasião afirmativa ao lado do anterior Dia da Memória Trans, dedicado às vítimas de violência. O calendário do património canadiano inclui a jornada, mas isso não significa que o Canadá a tenha criado ou declarado feriado federal. As fontes identificam a fundadora e o ano de origem, não a razão exata para a escolha do dia.",
+          "promoter": "Rachel Crandall-Crocker fundou a jornada em 2009 através do seu trabalho na Transgender Michigan.",
+          "purpose": "Celebrar vidas e conquistas das pessoas trans e combater a discriminação mantendo a memória das vítimas.",
+          "facts": [
+            "A jornada internacional surgiu em 2009.",
+            "Transgender Michigan identifica Rachel Crandall-Crocker como fundadora.",
+            "A data anual é 31 de março."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    }
+  ]
+}
