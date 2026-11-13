@@ -19,10 +19,10 @@
       },
       "KR": {
         "all": 57,
-        "six": 13,
+        "six": 18,
         "two": 0,
-        "none": 44,
-        "categoryCrosschecked": 6
+        "none": 39,
+        "categoryCrosschecked": 11
       },
       "CA": {
         "all": 32,
@@ -32,12 +32,13 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 54,
+    "sixLocaleDrafts": 59,
     "bilingualDrafts": 0,
-    "withoutOriginDraft": 126,
-    "governmentCategorySpotChecks": 15,
+    "withoutOriginDraft": 121,
+    "governmentCategorySpotChecks": 20,
     "humanCertified": 0,
-    "translationExtensions": 9
+    "translationExtensions": 9,
+    "newOriginDrafts": 16
   },
   "records": [
     {
@@ -1696,19 +1697,38 @@
       "inventorySourceUrl": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
       "inventoryAuthority": "Republic of Korea Ministry of the Interior and Safety",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
-      "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "originDraftPath": "data/editorial/research_batches/kr_gwangju_donghak_two_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17118",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=17279",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=16984"
+      ],
+      "proposedIntroducedYear": 2019,
+      "proposedFirstObservedYear": 2019,
+      "governmentCategory": "KR_STATUTORY_COMMORATIVE_DAY_2019",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=17118",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pMenuCD=0302000000&pSeq=17279",
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=16984"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "KR_DONGHAK_PEASANT_MOVEMENT_1894",
+      "factualReviewStatus": "AI_CROSSCHECKED_PRIMARY_OFFICIAL_SOURCES_PENDING_QUALIFIED_HUMAN"
     },
     {
       "id": "kr-w10-fallen-military-service-members-remembrance-day",
@@ -1759,19 +1779,34 @@
       "inventorySourceUrl": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
       "inventoryAuthority": "Republic of Korea Ministry of the Interior and Safety",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_1960_movements_three_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "proposedIntroducedYear": 2018,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "KR_STATUTORY_COMMORATIVE_DAY_2018",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "factualReviewStatus": "AI_CROSSCHECKED_PRIMARY_OFFICIAL_SOURCES_PENDING_QUALIFIED_HUMAN"
     },
     {
       "id": "kr-w10-information-and-communications-day-in-korea",
@@ -2011,19 +2046,34 @@
       "inventorySourceUrl": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
       "inventoryAuthority": "Republic of Korea Ministry of the Interior and Safety",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_1960_movements_three_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "proposedIntroducedYear": 2010,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "KR_STATUTORY_COMMORATIVE_DAY_2010",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "factualReviewStatus": "AI_CROSSCHECKED_PRIMARY_OFFICIAL_SOURCES_PENDING_QUALIFIED_HUMAN"
     },
     {
       "id": "kr-w10-march-8-democracy-uprising-remembrance",
@@ -2032,19 +2082,34 @@
       "inventorySourceUrl": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
       "inventoryAuthority": "Republic of Korea Ministry of the Interior and Safety",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_1960_movements_three_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "proposedIntroducedYear": 2018,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "KR_STATUTORY_COMMORATIVE_DAY_2018",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "factualReviewStatus": "AI_CROSSCHECKED_PRIMARY_OFFICIAL_SOURCES_PENDING_QUALIFIED_HUMAN"
     },
     {
       "id": "kr-w10-may-18-democratization-movement-remembrance",
@@ -2053,19 +2118,36 @@
       "inventorySourceUrl": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
       "inventoryAuthority": "Republic of Korea Ministry of the Interior and Safety",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
-      "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "originDraftPath": "data/editorial/research_batches/kr_gwangju_donghak_two_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=792",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1192"
+      ],
+      "proposedIntroducedYear": 1997,
+      "proposedFirstObservedYear": 1981,
+      "governmentCategory": "KR_STATUTORY_COMMORATIVE_DAY_1997",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/bohun/eventDetail.do?bsrlNo=792",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1192"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "KR_GWANGJU_1980_CIVIC_MEMORY",
+      "factualReviewStatus": "AI_CROSSCHECKED_PRIMARY_OFFICIAL_SOURCES_PENDING_QUALIFIED_HUMAN"
     },
     {
       "id": "kr-w10-north-korean-defectors-day",
@@ -4556,6 +4638,11 @@
     "kr-liberation-day",
     "kr-memorial-day",
     "kr-national-foundation-day",
+    "kr-w10-donghak-peasant-revolution-remembrance-day",
+    "kr-w10-february-28-democracy-movement-remembrance",
+    "kr-w10-march-15-democratic-uprising-remembrance",
+    "kr-w10-march-8-democracy-uprising-remembrance",
+    "kr-w10-may-18-democratization-movement-remembrance",
     "ph-edsa-people-power-anniversary",
     "ph-national-heroes-day",
     "ph-ninoy-aquino-day",
