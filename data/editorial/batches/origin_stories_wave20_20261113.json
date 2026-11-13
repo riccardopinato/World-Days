@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 70,
+  "count": 72,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2399,6 +2399,75 @@
         }
       },
       "sourceReviewNote": "Original government decree 28 Feb 2003 names FIABA as proposer, first-Sunday-of-October recurrence, earlier accessibility laws and European disability year; first actual annual ceremony not independently shown. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval."
+    },
+    {
+      "observanceId": "spain-victims-of-terrorism-tribute-day",
+      "introducedYear": 2011,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&p=20261021&tn=0",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&lang=es&p=&tn=1"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 June: Spain gives victims of terrorism a statutory remembrance day",
+          "origin": "Spain's Law 29/2011 of 22 September 2011 established 27 June as an annual day of remembrance and tribute to victims of terrorism in Article 60. The same article separately recognizes 11 March as the European Day of Remembrance of Victims of Terrorism. The law sets out protections and the duty of public institutions to honour victims and promote education about human rights, democracy and peace. The two dates have different legal identities and should not be confused. The law provides the 27 June date but its text does not establish an independently verified first ceremony or a specific historic anniversary explaining why that day was selected. Those details remain unasserted rather than inferred from the text.",
+          "promoter": "The Spanish Parliament established the national day through Law 29/2011, Article 60, while state institutions coordinate commemorations.",
+          "purpose": "Respect victims and survivors, defend human rights and promote democratic remembrance of the consequences of terrorism.",
+          "facts": [
+            "Article 60 of Law 29/2011 declares 27 June the Spanish annual tribute day.",
+            "The same law separately cites 11 March as a European remembrance day.",
+            "State institutions are directed to organize recognition and educational activities."
+          ]
+        },
+        "it": {
+          "heading": "27 giugno: la Spagna dà alle vittime del terrorismo una ricorrenza di legge",
+          "origin": "La legge spagnola 29/2011 del 22 settembre 2011 stabilì nell'articolo 60 il 27 giugno come giornata annuale del ricordo e dell'omaggio alle vittime del terrorismo. Lo stesso articolo riconosce separatamente l'11 marzo come Giornata europea dedicata alle vittime del terrorismo. Il provvedimento comprende norme di tutela e richiama il dovere delle istituzioni pubbliche di promuovere diritti umani, democrazia e pace. Le due date hanno significati giuridici distinti e non devono essere confuse. Il testo fissa il 27 giugno senza provare una prima cerimonia specifica né un anniversario storico particolare che abbia motivato la scelta. Questi dettagli restano quindi non verificati.",
+          "promoter": "Il Parlamento spagnolo istituì la giornata nazionale tramite l'articolo 60 della legge 29/2011.",
+          "purpose": "Riconoscere dignità e diritti delle vittime e favorire memoria democratica e prevenzione del terrorismo.",
+          "facts": [
+            "L'articolo 60 della legge 29/2011 fissa il 27 giugno.",
+            "La stessa norma distingue l'11 marzo europeo.",
+            "La legge richiede iniziative pubbliche di riconoscimento e informazione."
+          ]
+        }
+      },
+      "sourceReviewNote": "Spanish original 2011 official BOE law article 60 expressly sets 27 June and distinguishes European 11 March; initial ceremony and specific date rationale absent. Original model-authored source-linked EN/IT research, pending independent human factual review and qualified six-language native editorial review; no rich-runtime approval."
+    },
+    {
+      "observanceId": "france-armistice-1918-day",
+      "introducedYear": 1922,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.senat.fr/rap/l11-262/l11-2621.html",
+        "https://www.senat.fr/questions/base/2019/qSEQ191113088.html",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025414776"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 November: France turns the 1918 armistice into a national holiday",
+          "origin": "France's Parliament enacted the law of 24 October 1922 establishing 11 November as the annual public holiday commemorating victory and peace following the First World War. The selected date recalls the armistice signed on 11 November 1918, which brought fighting on the Western Front to an end. Public remembrance had already developed after the war, including a 1920 tribute to an unknown soldier, so the 1922 statute is not the original beginning of all remembrance. A separate law of 28 February 2012 expanded the annual homage to include all those who died for France, without replacing other national remembrance days. Parliamentary records independently establish the legal origins but do not identify one single inaugural 1922 ceremony as the first French memorial, so that year remains unverified.",
+          "promoter": "The French Parliament established 11 November as a statutory national commemoration in 1922; later legislators broadened its scope in 2012.",
+          "purpose": "Remember those who died in war and reflect on peace, mourning and the historical consequences of the armistice.",
+          "facts": [
+            "The armistice was signed on 11 November 1918.",
+            "The statutory national commemoration law is dated 24 October 1922.",
+            "The 2012 law extended the national tribute to all who died for France."
+          ]
+        },
+        "it": {
+          "heading": "11 novembre: la Francia trasforma l'armistizio del 1918 in festa nazionale",
+          "origin": "Il Parlamento francese approvò la legge del 24 ottobre 1922 che rese l'11 novembre una giornata festiva nazionale dedicata alla vittoria e alla pace dopo la Prima guerra mondiale. La data richiama l'armistizio firmato l'11 novembre 1918, che pose fine ai combattimenti sul fronte occidentale. La memoria pubblica si era già sviluppata negli anni precedenti, compreso l'omaggio al Milite ignoto nel 1920, quindi la legge del 1922 non rappresenta l'inizio di ogni forma di commemorazione. Una distinta legge del 28 febbraio 2012 estese l'omaggio annuale a tutti i caduti per la Francia, senza sopprimere altre giornate nazionali. Le fonti parlamentari dimostrano l'istituzione legislativa, ma non individuano una singola prima cerimonia nazionale sotto la legge.",
+          "promoter": "Il Parlamento francese istituì la commemorazione nazionale festiva nel 1922 e ne ampliò lo scopo nel 2012.",
+          "purpose": "Ricordare i morti di guerra, riflettere sul significato della pace e sulle conseguenze del conflitto.",
+          "facts": [
+            "L'armistizio fu firmato l'11 novembre 1918.",
+            "La legge istitutiva della festa nazionale è del 24 ottobre 1922.",
+            "La legge del 2012 include nel tributo tutti i caduti per la Francia."
+          ]
+        }
+      },
+      "sourceReviewNote": "French Sénat retrospective reproduces and attributes original 1922 national holiday law plus separate 2012 enlargement; no unverified first official ceremony asserted. Original model-authored source-linked EN/IT research, pending independent human factual review and qualified six-language native editorial review; no rich-runtime approval."
     }
   ]
 }
