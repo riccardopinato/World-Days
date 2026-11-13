@@ -1,5 +1,20 @@
 # World Days — Active roadmap
 
+## Canada 46 — merge readiness and next country (13 November 2026)
+
+- [x] Reconcile all **46 Canadian Heritage calendar candidate entries** against distinct canonical origin IDs and research-only entries, without creating duplicates.
+- [x] Save **46 source-linked six-locale draft dossiers / 276 locale sections** in `docs/WORLD_DAYS_CANADA_46_SIX_LOCALE_RESEARCH_BOOKLET_20261113.md` and the machine-readable provenance matrix.
+- [x] Draft **23 new distinct Canadian canonical origins** and add four supplemental locale drafts to **eight** pre-existing UN/UNESCO histories on PR #119; preserve original IT/EN histories and human review gate.
+- [x] Preserve the **nine distinct** Wave20 source-history dependencies on PR #118, without duplicating their JSON records into PR #119.
+- [x] Research the six otherwise unmapped index entries individually in six languages as **RESEARCH_ONLY**, not six automatically admitted canonical app observances. Five are international/shared; Victoria Day is Canadian. Unknown founding years or precise first celebrations remain null.
+- [x] Confirm PR #119 exact-head CI green at `003b7b7fa154cd24f7d4e0a5aa2cfae156416b8d` (GitHub Actions run `43422264780`); include a fail-closed `--require-external-on-main` validator for nine PR #118 dependencies.
+- [ ] **Gate 1 — Wave20:** finish the 100-record Wave20 six-locale drafting cohort on PR #118 (last directly checked 26/100 complete six-locale drafts), then pass its exact-head CI and branch protection before any merge.
+- [ ] **Gate 2 — Canada:** once PR #118 is on main, rebase/recheck PR #119 and execute `python3 tool/validate_canada_46_six_locale_drafts.py --require-external-on-main` against the updated checkout, followed by full exact-head CI.
+- [ ] **Gate 3 — editorial:** secure qualified source/factual and native-language reviews for the 46 dossiers, especially the six research-only entries; never infer approvals from machine checks or translations. Keep `runtimeRichEditorialApproved=false`.
+- [ ] **Gate 4 — canonical admission:** for the six research-only entries, decide canonical match or new entry with original authority, date recurrence and scope; distinguish international/shared from national. Do not claim these six are in the app until a separate accepted canonical change is merged.
+- [ ] **Gate 5 — protected merge:** merge PR #119 only after gates and GitHub protections permit; then regenerate source coverage from real `main` rather than assuming the projected 348/1,111.
+- [ ] **Next country:** choose the next nation only after Canada is merged and the remaining global/national source research queue is deduplicated. No APK, Play or deployment.
+
 ## Wave20 — frozen 100-ID source research completed (13 November 2026)
 
 - [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.
