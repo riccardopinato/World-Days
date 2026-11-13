@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "MOIS_MPVA_PRIMARY_RESEARCH_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-june-10-democracy-movement-remembrance",
+      "country": "KR",
+      "observanceDate": "06-10",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_JUNE_10_SAME_DATE_DIFFERENT_EVENTS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29040"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 June: the 1987 democratic uprising",
+          "origin": "On 10 June 1987, widespread civic protests in South Korea marked a crucial phase of the movement for democratic reform. The June Democratic Struggle brought together students, workers and citizens rather than a single constituency. The state later designated 10 June a statutory commemorative day on 2 May 2007, twenty years after the demonstrations. This 1987 event must not be confused with the anti-colonial independence protests held on the same calendar date in 1926: the two commemorations have different historical origins, legal dates and sponsoring ministries.",
+          "promoter": "The South Korean Ministry of the Interior is responsible for the national commemoration established in 2007.",
+          "purpose": "Remember collective civic participation in the democratic movement of 1987 and its relevance to political rights.",
+          "facts": [
+            "The June Democratic Struggle began on 10 June 1987.",
+            "The state established the commemorative day on 2 May 2007.",
+            "The separate 1926 June 10 Movement has a different origin and statutory day."
+          ]
+        },
+        "it": {
+          "heading": "10 giugno: la mobilitazione democratica del 1987",
+          "origin": "Il 10 giugno 1987 una vasta mobilitazione civica segnò in Corea del Sud una fase decisiva della richiesta di riforme democratiche. Il movimento coinvolse studenti, lavoratori e cittadini di diversi ambienti sociali, non una sola categoria. Lo Stato riconobbe il 10 giugno come giornata commemorativa ufficiale il 2 maggio 2007, vent'anni dopo le proteste. Questa vicenda del 1987 non coincide con le manifestazioni anticoloniali organizzate lo stesso giorno del 1926: sono due eventi con origini storiche, date normative e ministeri responsabili differenti.",
+          "promoter": "Il Ministero sudcoreano dell'Interno coordina la commemorazione nazionale istituita ufficialmente nel 2007.",
+          "purpose": "Ricordare la partecipazione collettiva alla mobilitazione democratica del 1987 e il valore dei diritti politici.",
+          "facts": [
+            "La mobilitazione democratica iniziò il 10 giugno 1987.",
+            "Il riconoscimento ufficiale risale al 2 maggio 2007.",
+            "La rivolta anticoloniale del 1926 è una commemorazione distinta."
+          ]
+        },
+        "es": {
+          "heading": "10 de junio: la movilización democrática de 1987",
+          "origin": "El 10 de junio de 1987 comenzó en Corea del Sur una amplia movilización ciudadana que marcó una etapa decisiva de la exigencia de reformas democráticas. En las protestas participaron estudiantes, trabajadores y personas de muchos sectores sociales. El Estado reconoció el 10 de junio como conmemoración oficial el 2 de mayo de 2007, veinte años después del levantamiento. No debe confundirse este acontecimiento de 1987 con las manifestaciones independentistas realizadas en la misma fecha de 1926: tienen orígenes, decisiones legales y organismos responsables diferentes.",
+          "promoter": "El Ministerio del Interior surcoreano coordina el recuerdo oficial de la movilización democrática reconocido en 2007.",
+          "purpose": "Recordar la participación ciudadana de 1987 y su importancia para los derechos políticos y la democracia.",
+          "facts": [
+            "La movilización democrática comenzó el 10 de junio de 1987.",
+            "El reconocimiento legal se produjo el 2 de mayo de 2007.",
+            "Las protestas independentistas de 1926 son una conmemoración distinta."
+          ]
+        },
+        "fr": {
+          "heading": "10 juin : la mobilisation démocratique de 1987",
+          "origin": "Le 10 juin 1987, une vaste mobilisation citoyenne a marqué un tournant dans la demande de réformes démocratiques en Corée du Sud. Étudiants, salariés et habitants de différents milieux ont participé au mouvement. L'État a institué une journée commémorative officielle le 2 mai 2007, vingt ans après les événements. Il ne faut pas confondre ce mouvement de 1987 avec les manifestations indépendantistes du 10 juin 1926 : ces deux épisodes partagent une date dans le calendrier, mais pas leur origine historique, leur reconnaissance juridique ni le ministère qui en est responsable.",
+          "promoter": "Le ministère sud-coréen de l'Intérieur coordonne la commémoration nationale officiellement reconnue en 2007.",
+          "purpose": "Préserver la mémoire de la mobilisation collective de 1987 et rappeler le rôle de l'engagement civique.",
+          "facts": [
+            "Les mobilisations démocratiques ont débuté le 10 juin 1987.",
+            "L'État a reconnu la journée le 2 mai 2007.",
+            "Le mouvement anticolonial du 10 juin 1926 constitue une autre commémoration."
+          ]
+        },
+        "de": {
+          "heading": "10. Juni: Südkoreas Demokratiebewegung von 1987",
+          "origin": "Am 10. Juni 1987 begann in Südkorea eine breite Protestbewegung für demokratische Reformen. An den Demonstrationen beteiligten sich Studierende, Beschäftigte und Menschen verschiedener gesellschaftlicher Gruppen. Erst am 2. Mai 2007 erklärte der Staat das Datum zu einem offiziellen Gedenktag, zwanzig Jahre nach dem Geschehen. Die Demokratieproteste von 1987 sind nicht mit der Unabhängigkeitsbewegung vom 10. Juni 1926 zu verwechseln: Beide Ereignisse fallen auf denselben Kalendertag, besitzen aber unterschiedliche historische Ursprünge, gesetzliche Anerkennungen und zuständige Ministerien.",
+          "promoter": "Das südkoreanische Innenministerium betreut den 2007 offiziell eingerichteten nationalen Gedenktag.",
+          "purpose": "An den gemeinsamen Einsatz für demokratische Reformen und die Bedeutung bürgerschaftlicher Rechte erinnern.",
+          "facts": [
+            "Die Demokratieproteste begannen am 10. Juni 1987.",
+            "Der staatliche Gedenktag wurde am 2. Mai 2007 eingeführt.",
+            "Die antikoloniale Bewegung von 1926 ist ein eigenständiger Anlass."
+          ]
+        },
+        "pt": {
+          "heading": "10 de junho: a mobilização democrática coreana de 1987",
+          "origin": "Em 10 de junho de 1987, uma ampla mobilização de cidadãos marcou um momento decisivo na luta por reformas democráticas na Coreia do Sul. Estudantes, trabalhadores e pessoas de diversos grupos sociais participaram nos protestos. O Estado estabeleceu uma comemoração oficial em 2 de maio de 2007, vinte anos após os acontecimentos. A jornada de 1987 não deve ser confundida com as manifestações pela independência realizadas em 10 de junho de 1926: embora partilhem a data do calendário, têm origens históricas, atos legais e ministérios responsáveis diferentes.",
+          "promoter": "O Ministério do Interior da Coreia do Sul coordena a comemoração nacional reconhecida oficialmente em 2007.",
+          "purpose": "Recordar a participação coletiva na luta democrática de 1987 e o seu significado para os direitos cívicos.",
+          "facts": [
+            "A mobilização democrática começou em 10 de junho de 1987.",
+            "A data foi reconhecida oficialmente em 2 de maio de 2007.",
+            "O movimento de independência de 1926 é uma comemoração distinta."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS statutory timeline cross-read against state ceremony/history records. Same June 10 date has two independent canonical observances (1926 and 1987), no origin duplication. Original six-locale AI copy, no qualified historical/native human approvals."
+    },
+    {
+      "observanceId": "kr-w10-june-10-independence-movement-remembrance",
+      "country": "KR",
+      "observanceDate": "06-10",
+      "introducedYear": 2020,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_JUNE_10_SAME_DATE_DIFFERENT_EVENTS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://culture.mpva.go.kr/prgrm/evnt/17",
+        "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&indepMeritSeq=1406"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 June: the anti-colonial independence movement of 1926",
+          "origin": "The June 10 Independence Movement took place in Seoul on 10 June 1926 during the funeral procession for Emperor Sunjong. Korean students and independence activists organized demonstrations against Japanese colonial rule, distributing leaflets and calling for independence. The movement became an important part of the longer history of Korean anti-colonial resistance. After campaigns for public recognition, the South Korean government designated 10 June a statutory remembrance day on 15 December 2020. It is not the 1987 June Democratic Struggle, which shares the date but remembers a later and entirely separate movement.",
+          "promoter": "Students and anti-colonial activists organized the 1926 protests; the government and veterans ministry administer the modern day.",
+          "purpose": "Commemorate organized resistance to colonial rule and the student activism of 1926 without conflating two June 10 events.",
+          "facts": [
+            "The demonstrations occurred on 10 June 1926 in Seoul.",
+            "The date coincided with the funeral procession of Emperor Sunjong.",
+            "The statutory remembrance day was designated on 15 December 2020."
+          ]
+        },
+        "it": {
+          "heading": "10 giugno: la protesta indipendentista del 1926",
+          "origin": "Il Movimento del 10 giugno nacque a Seul il 10 giugno 1926 durante il corteo funebre per l'imperatore Sunjong. Studenti e attivisti indipendentisti organizzarono manifestazioni contro il dominio coloniale giapponese, distribuendo volantini e invocando l'indipendenza. L'episodio appartiene alla più ampia storia della resistenza anticoloniale coreana. Dopo varie iniziative per il riconoscimento pubblico, il 15 dicembre 2020 il governo sudcoreano istituì ufficialmente la ricorrenza. Non è la mobilitazione democratica del giugno 1987: le due giornate condividono la data ma ricordano cause, protagonisti e periodi storici diversi.",
+          "promoter": "Studenti e indipendentisti promossero le proteste del 1926; oggi la ricorrenza è seguita dalle autorità per i veterani.",
+          "purpose": "Ricordare la resistenza organizzata al colonialismo e la partecipazione degli studenti senza confondere gli eventi del 1926 e 1987.",
+          "facts": [
+            "Le manifestazioni si svolsero a Seul il 10 giugno 1926.",
+            "La data coincise con il funerale dell'imperatore Sunjong.",
+            "Il riconoscimento come giornata ufficiale risale al 15 dicembre 2020."
+          ]
+        },
+        "es": {
+          "heading": "10 de junio: el movimiento independentista de 1926",
+          "origin": "El Movimiento por la Independencia del 10 de Junio se desarrolló en Seúl el 10 de junio de 1926, durante el cortejo fúnebre del emperador Sunjong. Estudiantes y activistas organizaron protestas contra el dominio colonial japonés, distribuyeron octavillas y reclamaron la independencia. El episodio forma parte de la larga trayectoria de resistencia anticolonial coreana. Después de campañas para reconocerlo, el Gobierno de Corea del Sur creó el día conmemorativo oficial el 15 de diciembre de 2020. No debe confundirse con la movilización democrática del 10 de junio de 1987, que corresponde a otro contexto y otra lucha.",
+          "promoter": "Los estudiantes y activistas anticoloniales impulsaron las protestas de 1926; el Estado reconoció la fecha en 2020.",
+          "purpose": "Recordar la resistencia colonial y el protagonismo estudiantil, distinguiendo los movimientos de 1926 y 1987.",
+          "facts": [
+            "Las manifestaciones tuvieron lugar en Seúl el 10 de junio de 1926.",
+            "Coincidieron con el cortejo funerario del emperador Sunjong.",
+            "La fecha fue reconocida oficialmente el 15 de diciembre de 2020."
+          ]
+        },
+        "fr": {
+          "heading": "10 juin : le mouvement indépendantiste coréen de 1926",
+          "origin": "Le Mouvement pour l'indépendance du 10 juin s'est déroulé à Séoul le 10 juin 1926, pendant les funérailles de l'empereur Sunjong. Des étudiants et des militants ont organisé des manifestations contre la domination coloniale japonaise, distribuant des tracts et réclamant l'indépendance. Cet épisode appartient à l'histoire de la résistance coréenne à la colonisation. Après plusieurs démarches pour le reconnaître, le gouvernement sud-coréen a créé une journée nationale commémorative le 15 décembre 2020. Elle ne doit pas être confondue avec le mouvement démocratique du 10 juin 1987, dont le contexte et les objectifs étaient différents.",
+          "promoter": "Les étudiants et militants anticoloniaux ont organisé les événements de 1926; l'État a ensuite institué la journée.",
+          "purpose": "Rendre hommage à la résistance coloniale et à l'engagement étudiant sans mélanger les deux mouvements du 10 juin.",
+          "facts": [
+            "Les manifestations ont eu lieu à Séoul le 10 juin 1926.",
+            "Elles se sont déroulées pendant les funérailles de l'empereur Sunjong.",
+            "La commémoration officielle date du 15 décembre 2020."
+          ]
+        },
+        "de": {
+          "heading": "10. Juni: Koreas Unabhängigkeitsbewegung von 1926",
+          "origin": "Die Unabhängigkeitsbewegung vom 10. Juni fand 1926 in Seoul während des Trauerzuges für Kaiser Sunjong statt. Studierende und Unabhängigkeitsaktivisten organisierten Demonstrationen gegen die japanische Kolonialherrschaft, verteilten Flugblätter und forderten die nationale Selbstbestimmung. Diese Ereignisse gehören zur längeren Geschichte des koreanischen antikolonialen Widerstands. Nach Bemühungen um staatliche Anerkennung führte die Regierung am 15. Dezember 2020 einen offiziellen Gedenktag ein. Der Anlass hat nichts mit der Demokratischen Bewegung vom 10. Juni 1987 gleichzusetzen, auch wenn beide auf denselben Kalendertag fallen.",
+          "promoter": "Studierende und Unabhängigkeitskämpfer organisierten die Proteste 1926; die staatliche Erinnerung wurde 2020 eingerichtet.",
+          "purpose": "An den Widerstand gegen die Kolonialherrschaft und den studentischen Einsatz von 1926 erinnern.",
+          "facts": [
+            "Die Demonstrationen fanden am 10. Juni 1926 in Seoul statt.",
+            "Sie begleiteten den Trauerzug für Kaiser Sunjong.",
+            "Der gesetzliche Gedenktag wurde am 15. Dezember 2020 eingerichtet."
+          ]
+        },
+        "pt": {
+          "heading": "10 de junho: o movimento de independência coreano de 1926",
+          "origin": "O Movimento de Independência de 10 de Junho decorreu em Seul, em 10 de junho de 1926, durante o cortejo fúnebre do imperador Sunjong. Estudantes e ativistas organizaram manifestações contra o domínio colonial japonês, distribuíram panfletos e defenderam a independência. O episódio pertence à história mais ampla da resistência coreana ao colonialismo. Após campanhas pelo reconhecimento, o governo sul-coreano instituiu uma data comemorativa oficial em 15 de dezembro de 2020. Não se trata da mobilização democrática de 10 de junho de 1987, que partilha a data mas corresponde a outro período e a outra luta.",
+          "promoter": "Estudantes e ativistas anticoloniais organizaram os protestos de 1926; o Estado reconheceu a data no ano de 2020.",
+          "purpose": "Preservar a memória da resistência ao colonialismo e do papel dos estudantes sem confundir os acontecimentos de 1926 e 1987.",
+          "facts": [
+            "As manifestações ocorreram em Seul em 10 de junho de 1926.",
+            "A data coincidiu com o funeral do imperador Sunjong.",
+            "A comemoração oficial foi criada em 15 de dezembro de 2020."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS statutory timeline cross-read against state ceremony/history records. Same June 10 date has two independent canonical observances (1926 and 1987), no origin duplication. Original six-locale AI copy, no qualified historical/native human approvals."
+    }
+  ]
+}
