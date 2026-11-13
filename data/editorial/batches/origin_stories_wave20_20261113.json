@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 77,
+  "count": 82,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2641,6 +2641,176 @@
         }
       },
       "sourceReviewNote": "Official Philippine Senate and Supreme Court original Act 2946 of February 1921 directly proves legal holiday; National Museum independently connects date to 1863 birth. Inaugural annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "portugal-national-sea-day",
+      "introducedYear": 1998,
+      "firstObservedYear": null,
+      "sources": [
+        "https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar",
+        "https://portugal.gov.pt/gc23/comunicacao/comunicados/governo-assinala-dia-nacional-do-mar"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 November: Portugal marks the sea and the law governing it",
+          "origin": "Portugal's National Sea Day was established in 1998, the year of Lisbon's Expo devoted to oceans and of the International Year of the Ocean. The Portuguese government's own account confirms that the 16 November date recalls the entry into force of the United Nations Convention on the Law of the Sea on 16 November 1994. The annual event invites public reflection on navigation, marine science, biodiversity, environmental protection and economic activity. At the 2020 edition the Minister of the Sea promoted ocean literacy and Portugal's proposed National Ocean Strategy 2021–2030. The historical legal entry into force in 1994 and the later Portuguese national day created in 1998 are distinct. The sources do not independently establish the first specific ceremonial event in 1998, so that year is not asserted as the first observed.",
+          "promoter": "The Portuguese Government instituted the national day in 1998; the UN Convention is its calendar rationale, not a Portuguese legislative founding act.",
+          "purpose": "Increase public understanding of marine ecosystems, ocean literacy and sustainable economic activity linked to the sea.",
+          "facts": [
+            "Portugal instituted the day in 1998 during the International Year of the Ocean.",
+            "16 November commemorates the law-of-the-sea convention entering into force in 1994.",
+            "The 2020 observance included public work on a national ocean strategy."
+          ]
+        },
+        "it": {
+          "heading": "16 novembre: il Portogallo ricorda il mare e il diritto internazionale",
+          "origin": "Il Giorno nazionale del mare portoghese fu istituito nel 1998, l'anno dell'Expo di Lisbona dedicata agli oceani e dell'Anno internazionale dell'oceano. Il governo portoghese conferma che il 16 novembre ricorda l'entrata in vigore, avvenuta il 16 novembre 1994, della Convenzione delle Nazioni Unite sul diritto del mare. La ricorrenza riguarda navigazione, ricerca marina, biodiversità, tutela ambientale e attività economiche. Nell'edizione del 2020 il ministro del Mare promosse l'alfabetizzazione oceanica e una nuova strategia nazionale 2021–2030. L'entrata in vigore del trattato del 1994 e la nascita della giornata nazionale nel 1998 sono eventi distinti. Le fonti utilizzate non individuano autonomamente una prima specifica cerimonia nel 1998, quindi quel dato resta non verificato.",
+          "promoter": "Il governo portoghese ha istituito la ricorrenza nel 1998; la convenzione ONU è il motivo della data, non l'atto nazionale istitutivo.",
+          "purpose": "Promuovere conoscenza degli oceani, tutela degli ecosistemi e sviluppo economico marittimo sostenibile.",
+          "facts": [
+            "Il Giorno nazionale del mare fu istituito in Portogallo nel 1998.",
+            "La data richiama l'entrata in vigore della Convenzione ONU il 16 novembre 1994.",
+            "Nel 2020 la giornata fu collegata a iniziative sulla strategia nazionale per il mare."
+          ]
+        }
+      },
+      "sourceReviewNote": "Portuguese Government original statement explicitly dates national institution 1998 and ties 16 November to UNCLOS entering force 1994. Independent specific inaugural public ceremony not identified. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "fi-finnish-literature-day",
+      "introducedYear": 1978,
+      "firstObservedYear": 1950,
+      "sources": [
+        "https://almanakka.helsinki.fi/ajankohtaista/aleksis-kiven-paivana-juhlitaan-suomalaista-kirjallisuutta",
+        "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-finland/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 October: Finland's literary flag day grew through three historical stages",
+          "origin": "Finland marks 10 October as Aleksis Kivi Day and Finnish Literature Day, recalling the birthday of novelist Aleksis Kivi, born in 1834 and author of Seven Brothers, published in 1870. The University of Helsinki Almanac Office documents the celebration's gradual recognition: the Aleksi name day was associated with Kivi from 1929, the day became a separate commemorative entry in 1950, and it was marked on flag-day lists from 1953. A flagging decree of 1978 added the description Finnish Literature Day to the existing observance. Accordingly 1950 is the earlier individually documented memorial, while 1978 recognizes the present combined literary-day title. Its customary flag-day status must not be confused with a statutory paid public holiday.",
+          "promoter": "The commemoration emerged through Finnish calendar and flag-day recognition; the University of Helsinki Almanac Office documents the chronology, without attributing it to one personal legislative sponsor.",
+          "purpose": "Celebrate Finnish-language literature, reading, literary education and the cultural legacy of Aleksis Kivi.",
+          "facts": [
+            "Kivi's birth anniversary is 10 October and his novel Seven Brothers appeared in 1870.",
+            "The separate Aleksis Kivi commemorative day entered calendars in 1950.",
+            "The 1978 flagging decree added the explicit title Finnish Literature Day."
+          ]
+        },
+        "it": {
+          "heading": "10 ottobre: una giornata per Aleksis Kivi diventata festa della letteratura finlandese",
+          "origin": "La Finlandia ricorda il 10 ottobre Aleksis Kivi, romanziere nato nel 1834 e autore di Sette fratelli, pubblicato nel 1870. L'Ufficio dell'almanacco dell'Università di Helsinki documenta un riconoscimento progressivo: dal 1929 il nome Aleksi fu collegato alla sua memoria, nel 1950 il calendario introdusse una giornata commemorativa autonoma e nel 1953 questa entrò negli elenchi dei giorni in cui esporre la bandiera. Un decreto del 1978 aggiunse al titolo esistente la definizione di Giornata della letteratura finlandese. Quindi la commemorazione autonoma del 1950 è precedente alla denominazione attuale del 1978. Il fatto che sia una giornata consuetudinaria per esporre la bandiera non la rende automaticamente un giorno festivo retribuito.",
+          "promoter": "La ricorrenza deriva dall'evoluzione del calendario e dalle consuetudini finlandesi documentate dall'Ufficio almanacco di Helsinki, senza un unico promotore legislativo accertato.",
+          "purpose": "Valorizzare la letteratura in lingua finlandese, la lettura e il contributo culturale di Aleksis Kivi.",
+          "facts": [
+            "Kivi nacque il 10 ottobre 1834 e Sette fratelli fu pubblicato nel 1870.",
+            "La giornata commemorativa autonoma apparve nel calendario del 1950.",
+            "La denominazione Giornata della letteratura finlandese fu aggiunta nel 1978."
+          ]
+        }
+      },
+      "sourceReviewNote": "University of Helsinki Almanac Office original history states 1929 name day, 1950 standalone day, 1953 customary flag listing and 1978 Finnish Literature Day title; dates are not conflated. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+      "introducedYear": 1967,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=49239",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 April: Korea gives Admiral Yi Sun-sin's birthday legal recognition",
+          "origin": "South Korea's government established 28 April as Admiral Yi Sun-sin Birthday Commemoration in 1967 through Ministry of Education Ordinance No. 179, according to a National Archives explanation published by the Ministry of the Interior in 2016. The state subsequently included it among official statutory commemorative days in 1973. The annual date commemorates the admiral's birthday, rather than the day of any particular naval victory. Yi Sun-sin is remembered for leading Korean naval defence during the Japanese invasions of the late sixteenth century. The founding ordinance and later 1973 recognition are separate milestones, and the original archives do not independently confirm a first distinct public ceremony, so the first observed year remains unasserted.",
+          "promoter": "South Korea's government created the birthday commemoration through Education Ministry Ordinance 179 in 1967, later placing it among statutory commemorative days in 1973.",
+          "purpose": "Preserve the history of naval defence, civic remembrance and the legacy of Admiral Yi Sun-sin.",
+          "facts": [
+            "The birthday observance was established in 1967 by Education Ministry Ordinance 179.",
+            "It entered the statutory commemorative list in 1973.",
+            "The annual date, 28 April, is the admiral's birthday rather than a battle anniversary."
+          ]
+        },
+        "it": {
+          "heading": "28 aprile: la Corea del Sud riconosce per legge il compleanno dell'ammiraglio Yi Sun-sin",
+          "origin": "Nel 1967 il governo della Corea del Sud istituì la commemorazione del compleanno dell'ammiraglio Yi Sun-sin il 28 aprile con il decreto n. 179 del Ministero dell'istruzione. Lo conferma una ricostruzione degli Archivi nazionali pubblicata nel 2016 dal Ministero dell'interno. Nel 1973 la ricorrenza venne poi inserita fra le giornate commemorative statutarie. La data è il compleanno dell'ammiraglio, non l'anniversario di una battaglia navale specifica. Yi Sun-sin è ricordato per la difesa marittima coreana durante le invasioni giapponesi della fine del Cinquecento. Il provvedimento del 1967 e l'inclusione formale del 1973 sono passaggi distinti; i documenti originari non provano una prima cerimonia pubblica specifica, perciò l'anno resta aperto.",
+          "promoter": "Il governo sudcoreano creò la commemorazione con il decreto ministeriale n. 179 nel 1967, inserendola nella lista delle giornate di legge nel 1973.",
+          "purpose": "Conservare la memoria della difesa marittima coreana e del ruolo storico dell'ammiraglio Yi Sun-sin.",
+          "facts": [
+            "La ricorrenza fu istituita nel 1967 con il decreto del Ministero dell'istruzione n. 179.",
+            "Nel 1973 entrò nella lista delle giornate commemorative statutarie.",
+            "Il 28 aprile ricorda la nascita dell'ammiraglio e non una vittoria navale."
+          ]
+        }
+      },
+      "sourceReviewNote": "South Korean Ministry of Interior/National Archives 2016 retrospective explicitly documents establishment in 1967, statutory inclusion 1973, and birthday date; first actual ceremony unproven. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-aerospace-day-in-korea",
+      "introducedYear": 2024,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 May: Korea introduces an Aerospace Day with a new agency",
+          "origin": "South Korea's Aerospace Day, 27 May, was added to the government's official list of commemorative days in November 2024. The Ministry of the Interior explains that the chosen date recalls the establishment of the Korea AeroSpace Administration on 27 May 2024. After the agency opened, it consulted research institutes, business groups and regional organizations and requested a designated annual observance in June. The formal listing in November therefore followed the agency's opening in May, and must not be confused with the establishment of the agency itself. The day seeks to improve public understanding of aerospace technology, research and the emerging space economy. The founding explanation does not independently establish a first nationally organized annual ceremony, so that detail remains null.",
+          "promoter": "The Korea AeroSpace Administration requested an official day in 2024 after consulting stakeholders, and the government added it to the commemorative list in November.",
+          "purpose": "Encourage public interest in aerospace science and technology and responsible industrial development.",
+          "facts": [
+            "The Korea AeroSpace Administration opened on 27 May 2024.",
+            "The agency requested a dedicated commemorative day in June 2024.",
+            "The government designated 27 May as Aerospace Day in November 2024."
+          ]
+        },
+        "it": {
+          "heading": "27 maggio: la Corea del Sud introduce l'Aerospace Day con una nuova agenzia",
+          "origin": "La Corea del Sud ha aggiunto il 27 maggio alle giornate commemorative ufficiali dedicate all'aerospazio nel novembre 2024. Il Ministero dell'interno spiega che la data ricorda l'apertura della Korea AeroSpace Administration avvenuta il 27 maggio 2024. Nei mesi successivi, l'agenzia consultò centri di ricerca, imprese e organizzazioni locali, chiedendo in giugno il riconoscimento di una ricorrenza annuale. L'inclusione nel calendario di novembre è quindi successiva all'apertura dell'agenzia in maggio, evento istituzionale distinto. La giornata vuole diffondere conoscenza delle tecnologie aerospaziali, ricerca e opportunità della nuova economia spaziale. La documentazione istitutiva non prova una prima cerimonia nazionale annuale, lasciata sconosciuta.",
+          "promoter": "La Korea AeroSpace Administration propose la giornata nel 2024, dopo consultazioni, e il governo la inserì nel calendario ufficiale a novembre.",
+          "purpose": "Favorire interesse pubblico per scienza e tecnologia aerospaziale e sviluppo industriale responsabile.",
+          "facts": [
+            "L'agenzia aerospaziale coreana aprì il 27 maggio 2024.",
+            "La richiesta di istituire una ricorrenza arrivò nel giugno 2024.",
+            "Il governo formalizzò la giornata nel novembre 2024."
+          ]
+        }
+      },
+      "sourceReviewNote": "Official Korean Ministry of Interior detailed commemorations historical table confirms establishment in November 2024, agency request from June and date from 27 May agency opening. First public ceremony unknown. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "ca-statute-of-westminster-anniversary",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/anniversary-statute-westminster.html",
+        "https://justice.canada.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t171.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 December: Canada flags a constitutional autonomy milestone",
+          "origin": "Canada's federal commemoration of the Statute of Westminster takes place each 11 December, on the anniversary of the British statute enacted on 11 December 1931. The Act followed the Imperial Conferences of 1926 and 1930, and recognized the legislative autonomy of self-governing dominions including Canada. Canadian Heritage explains that, where two flagpoles are available, federal buildings may fly the Royal Union Flag beside Canada's National Flag, with the Canadian flag taking precedence. The government's explanation describes the modern annual remembrance, while the Department of Justice reproduces the statute's original text. The Act of 1931 is the historical event being commemorated, not necessarily the legal instrument that created the later Canadian flag-day observance. No first formal proclamation or first annual flag ceremony has been individually sourced, so both fields remain unknown.",
+          "promoter": "Canada's federal flag protocol recognizes the annual anniversary, commemorating the 1931 British statute; no separate original Canadian public-observance proponent is established.",
+          "purpose": "Recall constitutional autonomy and the evolution of Canada's relationship with the United Kingdom and the Commonwealth.",
+          "facts": [
+            "The Statute of Westminster received enactment on 11 December 1931.",
+            "It followed agreements reached at Imperial Conferences in 1926 and 1930.",
+            "Canada's federal flag protocol allows the Royal Union Flag alongside the National Flag where facilities permit."
+          ]
+        },
+        "it": {
+          "heading": "11 dicembre: il Canada espone la bandiera per un passaggio dell'autonomia costituzionale",
+          "origin": "Il Canada ricorda l'anniversario dello Statuto di Westminster ogni 11 dicembre, data in cui entrò in vigore il provvedimento britannico dell'11 dicembre 1931. L'atto seguì le Conferenze imperiali del 1926 e del 1930 e riconobbe l'autonomia legislativa dei dominions, fra cui il Canada. Canadian Heritage spiega che, dove sono disponibili due pennoni, gli edifici federali possono esporre la bandiera britannica accanto a quella nazionale canadese, alla quale spetta la precedenza. La guida governativa descrive la ricorrenza attuale, mentre il Dipartimento della giustizia riproduce il testo originale dello Statuto. La legge del 1931 è l'avvenimento ricordato e non dimostra da sola quando sia nata la successiva consuetudine canadese di esporre le bandiere. Non risultano verificati né una prima proclamazione separata né un primo evento ufficiale annuale: entrambi restano sconosciuti.",
+          "promoter": "Il protocollo federale canadese riconosce la ricorrenza dello Statuto britannico del 1931; non viene inventato un promotore originario della giornata.",
+          "purpose": "Ricordare l'evoluzione dell'autonomia costituzionale canadese e il rapporto storico con il Regno Unito.",
+          "facts": [
+            "Lo Statuto di Westminster è datato 11 dicembre 1931.",
+            "Il documento seguì le Conferenze imperiali del 1926 e 1930.",
+            "Il protocollo canadese permette di esporre la bandiera britannica assieme a quella canadese secondo regole di precedenza."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian Heritage federal anniversary and first-party Canadian Department of Justice reproducing original 1931 Act verify historic commemorated event, but NOT founding year or inaugural year of distinct annual observance; both null. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
     }
   ]
 }
