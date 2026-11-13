@@ -12,15 +12,15 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 7,
-        "two": 2,
+        "six": 9,
+        "two": 0,
         "none": 82,
         "categoryCrosschecked": 9
       },
       "KR": {
         "all": 57,
-        "six": 6,
-        "two": 7,
+        "six": 13,
+        "two": 0,
         "none": 44,
         "categoryCrosschecked": 6
       },
@@ -32,11 +32,12 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 45,
-    "bilingualDrafts": 9,
+    "sixLocaleDrafts": 54,
+    "bilingualDrafts": 0,
     "withoutOriginDraft": 126,
     "governmentCategorySpotChecks": 15,
-    "humanCertified": 0
+    "humanCertified": 0,
+    "translationExtensions": 9
   },
   "records": [
     {
@@ -1048,7 +1049,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1062,7 +1067,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr1_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-constitution-day",
@@ -1286,7 +1305,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=49239",
@@ -1299,7 +1322,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr1_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-aerospace-day-in-korea",
@@ -1313,7 +1350,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1326,7 +1367,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr1_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-april-19-revolution-day",
@@ -1340,7 +1395,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1353,7 +1412,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr2_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-arbor-day-in-korea",
@@ -1367,7 +1440,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1380,7 +1457,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr2_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-bu-ma-democratic-protests-remembrance-day",
@@ -1394,7 +1485,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1407,7 +1502,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_kr2_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-coming-of-age-day-in-korea",
@@ -1421,7 +1530,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
@@ -1434,7 +1547,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_remaining_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "kr-w10-commerce-and-industry-day",
@@ -2372,7 +2499,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://ldr.senate.gov.ph/legislative-issuance/act-no-2946",
@@ -2388,7 +2519,21 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_remaining_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER"
     },
     {
       "id": "ph-day-of-valor",
@@ -2402,7 +2547,11 @@
       "originDraftPR": 118,
       "localeCoverage": [
         "en",
-        "it"
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
       ],
       "originSourceUrls": [
         "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818",
@@ -2418,7 +2567,27 @@
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "baseLocaleCoverage": [
+        "en",
+        "it"
+      ],
+      "localeExtensionCoverage": [
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "localeExtensionPath": "data/editorial/locale_extensions/wave20_ph_kr_remaining_es_fr_de_pt_20261114.json",
+      "localeExtensionPR": 120,
+      "localeExtensionBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originLayeringStatus": "ONE_CANONICAL_ORIGIN_WITH_ADDITIONAL_TRANSLATION_LAYER",
+      "factualCorrectionRequired": true,
+      "sourceReconciliationNote": "PR118 narrative must mention the 23 March 1956 special-holiday Proclamation 277 prior to 1961 RA3022; adding four translated locales does not repair EN/IT base source yet.",
+      "correctionSourceUrls": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/92421",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818"
+      ]
     },
     {
       "id": "ph-edsa-people-power-anniversary",
@@ -4394,5 +4563,17 @@
     "ph-w13-national-heritage-month",
     "ph-w13-rizal-month"
   ],
-  "baselineNotice": "PR #118 and #119 drafts remain separate and unmerged; PR #120 newly-authored research-only evidence has not been published or human-certified."
+  "baselineNotice": "PR #118 and #119 drafts remain separate and unmerged; PR #120 newly-authored research-only evidence has not been published or human-certified.",
+  "newTranslationIds": [
+    "kr-childrens-day",
+    "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+    "kr-w10-aerospace-day-in-korea",
+    "kr-w10-april-19-revolution-day",
+    "kr-w10-arbor-day-in-korea",
+    "kr-w10-bu-ma-democratic-protests-remembrance-day",
+    "kr-w10-coming-of-age-day-in-korea",
+    "ph-bonifacio-day",
+    "ph-day-of-valor"
+  ],
+  "caveat": "Nine PR118 EN/IT original dossiers have four-locale additive extensions on PR120; they have not been merged to one main branch or native-approved. PH Day of Valor English/Italian base text needs correction for 1956 special public holiday."
 }
