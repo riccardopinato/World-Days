@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-13",
+  "sourcePolicy": "Individual Canadian government and parliamentary primary sources; not qualified editorial approval",
+  "status": "SOURCE_RESEARCHED_IT_EN_DRAFT_PENDING_HUMAN_REVIEW",
+  "count": 6,
+  "records": [
+    {
+      "observanceId": "ca-terrorism-victims-remembrance",
+      "introducedYear": 2005,
+      "firstObservedYear": 2005,
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2011/06/national-day-remembrance-victims-terrorism.html",
+        "https://www.canada.ca/en/news/archive/2005/06/prime-minister-pays-canadians-respects-victims-air-india-disaster.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 June: remembering victims of terrorism",
+          "origin": "Canada's National Day of Remembrance for Victims of Terrorism was proclaimed and first observed in 2005. The date, 23 June, marks the 1985 bombing of Air India Flight 182, which killed all 329 passengers and crew, most of them Canadian. Prime Minister Paul Martin requested the proclamation during the twentieth-anniversary commemoration. The federal history confirms that the day remembers victims beyond one incident and extends to terrorism in other countries. The crime of 1985 and the official day created in 2005 are distinct events.",
+          "promoter": "Prime Minister Paul Martin recommended the annual proclamation in 2005.",
+          "purpose": "Remember victims and their families and support historical understanding and peace.",
+          "facts": [
+            "The federal commemoration began in 2005.",
+            "Air India Flight 182 was destroyed on 23 June 1985.",
+            "The bombing killed 329 passengers and crew."
+          ]
+        },
+        "it": {
+          "heading": "23 giugno: ricordare le vittime del terrorismo",
+          "origin": "La Giornata nazionale canadese in memoria delle vittime del terrorismo fu proclamata e celebrata per la prima volta nel 2005. Il 23 giugno ricorda l'attentato del 1985 al volo Air India 182, che uccise tutte le 329 persone a bordo, in maggioranza canadesi. Il primo ministro Paul Martin chiese la proclamazione durante le celebrazioni per il ventesimo anniversario. Le fonti federali confermano che la memoria si estende ad altre vittime del terrorismo anche fuori dal Canada. La strage del 1985 e la giornata ufficiale del 2005 sono due fatti distinti.",
+          "promoter": "Il primo ministro Paul Martin raccomandò la proclamazione annuale nel 2005.",
+          "purpose": "Ricordare vittime e familiari e sostenere una memoria storica orientata alla pace.",
+          "facts": [
+            "La commemorazione federale iniziò nel 2005.",
+            "Il volo Air India 182 fu distrutto il 23 giugno 1985.",
+            "L'attentato causò 329 morti fra passeggeri ed equipaggio."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    },
+    {
+      "observanceId": "ca-saint-jean-baptiste-day",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/saint-jean-baptiste-day",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 June: Francophone tradition and Quebec's national holiday",
+          "origin": "Saint-Jean-Baptiste Day is observed on 24 June by Francophone communities throughout Canada. Its date derives from the feast of Saint John the Baptist, a tradition older than the modern Canadian celebration. Federal language guidance specifies that it is a statutory holiday only in Quebec, where the formal name is Fête nationale du Québec. Cultural celebrations elsewhere cannot be treated as having the same provincial legal status. The consulted federal overview does not identify one original founding statute or one first annual ceremony valid for all of Canada, so those dates remain unknown.",
+          "promoter": "Francophone communities and Quebec institutions maintain distinct observances; a unique federal founder is not evidenced.",
+          "purpose": "Recognize Francophone cultural expression while accurately distinguishing provincial holiday legislation.",
+          "facts": [
+            "The observance takes place on 24 June.",
+            "It is a statutory holiday in Quebec only.",
+            "The provincial legal name is Fête nationale du Québec."
+          ]
+        },
+        "it": {
+          "heading": "24 giugno: tradizione francofona e festa nazionale del Québec",
+          "origin": "La festa di Saint-Jean-Baptiste viene celebrata il 24 giugno dalle comunità francofone di tutto il Canada. La data deriva dalla festività di san Giovanni Battista, una tradizione precedente alle moderne ricorrenze canadesi. Una guida federale specifica che la giornata è festiva per legge soltanto in Québec, dove la denominazione ufficiale è Fête nationale du Québec. Le celebrazioni culturali in altre province non hanno automaticamente lo stesso status giuridico. Le fonti consultate non stabiliscono una singola legge fondativa o una prima cerimonia annuale valida per l'intero Canada: le date restano sconosciute.",
+          "promoter": "Comunità francofone e istituzioni del Québec mantengono tradizioni differenti; un fondatore federale unico non è provato.",
+          "purpose": "Valorizzare la cultura francofona senza estendere impropriamente la disciplina provinciale.",
+          "facts": [
+            "La celebrazione annuale cade il 24 giugno.",
+            "È festiva per legge soltanto nella provincia del Québec.",
+            "La denominazione ufficiale provinciale è Fête nationale du Québec."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    },
+    {
+      "observanceId": "ca-great-upheaval-commemoration",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2005/06/government-canada-supports-commemoration-250th-anniversary-great-upheaval.html",
+        "https://www.canada.ca/en/canadian-heritage/news/2020/07/statement-by-minister-guilbeault-on-the-day-of-commemoration-of-the-great-upheaval.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 July: the Acadian Great Upheaval remembered",
+          "origin": "Every 28 July Canada remembers the Great Upheaval, the forced deportations of Acadian families under British rule that began in 1755 and continued for years. A 2005 federal release confirms that the day was recognized by Royal Proclamation and that public activities marking the 250th anniversary received government support. The release does not establish the proclamation's original date or prove that the 2005 events were the first ceremonies. Families were separated, villages dismantled and many Acadians dispersed to distant regions, while later generations preserved language and community identity.",
+          "promoter": "The Canadian government issued a Royal Proclamation; Acadian organizations maintain the commemoration, without a verified individual first proposer.",
+          "purpose": "Remember forced displacement and the survival and cultural resilience of Acadian communities.",
+          "facts": [
+            "The deportations began in 1755.",
+            "A federal 2005 source confirmed recognition by Royal Proclamation.",
+            "Activities for the 250th anniversary received public support in 2005."
+          ]
+        },
+        "it": {
+          "heading": "28 luglio: ricordare la Grande Deportazione acadiana",
+          "origin": "Ogni 28 luglio il Canada ricorda il Grand Dérangement, le deportazioni forzate di famiglie acadiane sotto il dominio britannico, iniziate nel 1755 e proseguite per anni. Un comunicato federale del 2005 conferma che il giorno era stato riconosciuto mediante proclamazione reale e che eventi per il 250º anniversario avevano ricevuto sostegno governativo. Il testo non data l'atto originario e non dimostra che gli eventi del 2005 fossero i primi. Famiglie furono separate, villaggi distrutti e persone disperse in luoghi lontani, mentre le generazioni successive conservarono lingua e identità comunitaria.",
+          "promoter": "Il governo canadese emise una proclamazione reale; organizzazioni acadiane mantengono la memoria, senza un singolo promotore verificato.",
+          "purpose": "Ricordare le deportazioni e la resilienza delle comunità acadiane.",
+          "facts": [
+            "Le deportazioni iniziarono nel 1755.",
+            "Una fonte federale del 2005 conferma una proclamazione reale.",
+            "Il 250º anniversario ricevette sostegno pubblico nel 2005."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    },
+    {
+      "observanceId": "ca-emancipation-day",
+      "introducedYear": 2021,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/emancipation-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 August: Canada's parliamentary recognition of emancipation",
+          "origin": "On 24 March 2021 Canada's House of Commons unanimously recognized 1 August as Emancipation Day. The historical date recalls 1 August 1834, when the British Slavery Abolition Act came into force following its passage in 1833. The history of enslavement affected Black and Indigenous people in territories that later formed Canada. The 2021 parliamentary recognition is different from the nineteenth-century law and from older community traditions; the first Canadian community ceremony is not individually established by the federal page. The day links the history of emancipation to present-day work against racism.",
+          "promoter": "The Canadian House of Commons adopted the official recognition in 2021; the earliest community sponsors are not individually identified.",
+          "purpose": "Examine enslavement and emancipation and oppose anti-Black and anti-Indigenous racism.",
+          "facts": [
+            "The parliamentary recognition was voted on 24 March 2021.",
+            "The British abolition measure took effect on 1 August 1834.",
+            "Enslavement affected Black and Indigenous people in what is now Canada."
+          ]
+        },
+        "it": {
+          "heading": "1º agosto: il Canada riconosce l'emancipazione",
+          "origin": "Il 24 marzo 2021 la Camera dei Comuni canadese riconobbe all'unanimità il 1º agosto come Emancipation Day. La data ricorda il 1º agosto 1834, quando entrò in vigore la legge britannica di abolizione della schiavitù, approvata l'anno precedente. La storia della schiavitù coinvolse anche persone nere e indigene nei territori destinati a formare il Canada. Il riconoscimento parlamentare del 2021 è distinto dalla legge ottocentesca e dalle tradizioni comunitarie più antiche; la prima cerimonia canadese non è individualmente documentata nella fonte federale. La giornata collega l'emancipazione alla lotta odierna contro il razzismo.",
+          "promoter": "La Camera dei Comuni approvò il riconoscimento nel 2021; i primi promotori comunitari non sono identificati con certezza.",
+          "purpose": "Studiare schiavitù ed emancipazione e contrastare il razzismo contro persone nere e indigene.",
+          "facts": [
+            "Il riconoscimento parlamentare avvenne il 24 marzo 2021.",
+            "La legge britannica entrò in vigore il 1º agosto 1834.",
+            "La schiavitù riguardò persone nere e indigene negli attuali territori canadesi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    },
+    {
+      "observanceId": "ca-national-seniors-day",
+      "introducedYear": 2010,
+      "firstObservedYear": 2011,
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2010/11/government-canada-establishes-national-seniors-day.html",
+        "https://www.canada.ca/en/employment-social-development/campaigns/national-seniors-day/nsd-guide.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 October: Canada establishes National Seniors Day",
+          "origin": "Bill C-40, introduced by Minister of State for Seniors Diane Ablonczy, received Royal Assent on 18 November 2010 and created Canada's National Seniors Day. It set the date at 1 October each year. A government guide explicitly confirms that the first celebration took place in 2011, a milestone distinct from the law. The date aligns with the United Nations' International Day of Older Persons, but Canada's legislative act is a separate national foundation. The observance highlights contributions by older people through volunteering, work, caregiving and experience and encourages intergenerational respect.",
+          "promoter": "Minister of State Diane Ablonczy introduced Bill C-40, which received Royal Assent in November 2010.",
+          "purpose": "Recognize older adults' contributions and encourage respect and intergenerational connection.",
+          "facts": [
+            "Bill C-40 received Royal Assent on 18 November 2010.",
+            "The first National Seniors Day was observed on 1 October 2011.",
+            "The designated recurring date is 1 October."
+          ]
+        },
+        "it": {
+          "heading": "1º ottobre: il Canada istituisce il National Seniors Day",
+          "origin": "Il disegno di legge C-40, presentato dalla ministra di Stato per gli anziani Diane Ablonczy, ricevette l'assenso reale il 18 novembre 2010 e istituì il National Seniors Day canadese. La data annuale venne fissata al 1º ottobre. Una guida governativa conferma esplicitamente che la prima celebrazione si tenne nel 2011, una tappa distinta dalla legge. La data coincide con la giornata ONU per le persone anziane, ma la norma canadese costituisce un passaggio istitutivo nazionale separato. La ricorrenza riconosce il contributo di esperienza, volontariato, lavoro e cura e promuove il rispetto fra generazioni.",
+          "promoter": "Diane Ablonczy presentò C-40, che ricevette l'assenso reale nel novembre 2010.",
+          "purpose": "Riconoscere il contributo delle persone anziane e favorire rispetto e dialogo intergenerazionale.",
+          "facts": [
+            "La legge C-40 ricevette l'assenso reale il 18 novembre 2010.",
+            "La prima ricorrenza si tenne il 1º ottobre 2011.",
+            "La data annuale stabilita è il 1º ottobre."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    },
+    {
+      "observanceId": "ca-persons-day",
+      "introducedYear": 1979,
+      "firstObservedYear": 1979,
+      "sources": [
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/womens-history-month/persons-day.html",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/gender-equality-week/gender-equality-timeline.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18 October: the Persons Case and women's political rights",
+          "origin": "Persons Day recalls the Privy Council decision of 18 October 1929 that recognized women as 'persons' for appointment to Canada's Senate. Five Alberta campaigners, known as the Famous Five, pursued the legal challenge after the Supreme Court had ruled against them. A federal gender-equality timeline records that October 18 became known as Persons Day in 1979, the fiftieth anniversary of the ruling, when commemorative awards were also created. The legal victory did not eliminate all exclusions affecting Indigenous and Asian Canadian women. The court decision and the commemorative day belong to different periods.",
+          "promoter": "The Famous Five began the original legal challenge; federal commemorative recognition dates to 1979.",
+          "purpose": "Understand women's political rights and the unfinished history of equality in Canada.",
+          "facts": [
+            "The Privy Council decision was made on 18 October 1929.",
+            "The commemorative designation arose in 1979.",
+            "The Famous Five began their challenge in 1927."
+          ]
+        },
+        "it": {
+          "heading": "18 ottobre: il Persons Case e i diritti politici femminili",
+          "origin": "Il Persons Day ricorda la decisione del Privy Council del 18 ottobre 1929, che riconobbe le donne come «persons» ai fini della nomina al Senato canadese. Cinque attiviste dell'Alberta, note come Famous Five, promossero la causa dopo un esito negativo alla Corte suprema. Una cronologia federale sulla parità riporta che nel 1979, cinquantesimo anniversario della sentenza, il 18 ottobre divenne noto come Persons Day e furono creati premi commemorativi. La vittoria giuridica non eliminò tutte le esclusioni subite da donne indigene e di origine asiatica. La sentenza e la ricorrenza appartengono a momenti diversi.",
+          "promoter": "Le Famous Five avviarono la causa originaria; il riconoscimento federale della commemorazione risale al 1979.",
+          "purpose": "Conoscere i diritti politici delle donne e la storia ancora incompleta della parità canadese.",
+          "facts": [
+            "La decisione del Privy Council fu il 18 ottobre 1929.",
+            "Il nome commemorativo Persons Day risale al 1979.",
+            "Le Famous Five iniziarono la battaglia giudiziaria nel 1927."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian primary-source research. Human factual and six-locale native editorial review pending; keep rich runtime disabled."
+    }
+  ]
+}
