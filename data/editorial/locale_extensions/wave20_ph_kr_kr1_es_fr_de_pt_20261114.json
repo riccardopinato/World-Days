@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "status": "FOUR_LOCALE_RESEARCH_EXTENSION_AI_DRAFT_NEEDS_QUALIFIED_REVIEW",
+  "baseRef": "editorial/wave20-six-locales-20261113@477557ee6a6115e2479c2009c6daecde5a590026",
+  "basePath": "data/editorial/batches/origin_stories_wave20_20261113.json",
+  "addedLocales": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-childrens-day",
+      "locale": {
+        "es": {
+          "heading": "5 de mayo: la celebración coreana de la infancia tiene raíces anteriores al festivo",
+          "origin": "El Día de la Infancia de Corea nació del movimiento por el respeto y los derechos de los niños, impulsado por Bang Jeong-hwan y asociaciones juveniles a comienzos del siglo XX. La primera campaña documentada se desarrolló alrededor del 1 de mayo de 1923, no del 5 de mayo actual. Tras la liberación, la celebración se retomó el 5 de mayo de 1946. La Ley de Bienestar Infantil fijó esa fecha en diciembre de 1961; en 1973 entró en la lista oficial de conmemoraciones y en 1975 se convirtió en festivo nacional. Son etapas diferentes.",
+          "promoter": "Bang Jeong-hwan y grupos juveniles promovieron el movimiento inicial; las instituciones surcoreanas formalizaron la fecha moderna.",
+          "purpose": "Reconocer la dignidad, los derechos, la protección y la educación de los niños y la responsabilidad de las comunidades.",
+          "facts": [
+            "La primera campaña por la infancia tuvo lugar alrededor del 1 de mayo de 1923.",
+            "La celebración se retomó el 5 de mayo de 1946.",
+            "La ley de 1961 fijó la fecha actual y el festivo se estableció en 1975."
+          ]
+        },
+        "fr": {
+          "heading": "5 mai : en Corée, la fête des enfants précède son statut férié",
+          "origin": "La Journée des enfants en Corée est née du mouvement pour la dignité et les droits de l'enfance animé par Bang Jeong-hwan et des associations de jeunes au début du XXe siècle. Les premières actions attestées se sont déroulées autour du 1er mai 1923, et non du 5 mai actuel. Après la libération, la célébration a repris le 5 mai 1946. La loi sur le bien-être de l'enfance a fixé cette date en décembre 1961; l'État l'a inscrite parmi les commémorations en 1973, puis en a fait un jour férié en 1975. Ces jalons ne doivent pas être confondus.",
+          "promoter": "Bang Jeong-hwan et des groupes de jeunes ont porté la campagne initiale; l'État sud-coréen a défini ensuite sa forme moderne.",
+          "purpose": "Promouvoir la dignité, les droits, l'éducation et la protection des enfants ainsi que la solidarité des familles.",
+          "facts": [
+            "Les premières campagnes datent des environs du 1er mai 1923.",
+            "La célébration a repris le 5 mai 1946 après la libération.",
+            "La date légale fut définie en 1961 et le jour est devenu férié en 1975."
+          ]
+        },
+        "de": {
+          "heading": "5. Mai: Koreas Kindertag ist älter als sein Feiertagsstatus",
+          "origin": "Der koreanische Kindertag entstand aus einer Bewegung für Kinderrechte und die Würde junger Menschen, getragen von Bang Jeong-hwan und Jugendvereinigungen im frühen 20. Jahrhundert. Erste belegte Aktionen fanden um den 1. Mai 1923 statt und nicht bereits am heutigen 5. Mai. Nach der Befreiung wurde die Feier am 5. Mai 1946 wieder aufgenommen. Das Kinderwohlfahrtsgesetz vom Dezember 1961 legte das moderne Datum fest. 1973 wurde der Tag in die staatliche Gedenkliste aufgenommen, und 1975 erhielt er den Status eines öffentlichen Feiertags. Diese Schritte sind voneinander zu unterscheiden.",
+          "promoter": "Bang Jeong-hwan und Jugendverbände begründeten die frühe Kampagne; später regelte der südkoreanische Staat den Feiertag.",
+          "purpose": "Die Würde, Rechte, Bildung und den Schutz von Kindern sowie die Verantwortung von Familie und Gesellschaft hervorheben.",
+          "facts": [
+            "Die erste Bewegung feierte um den 1. Mai 1923.",
+            "Am 5. Mai 1946 nahm man den Kindertag erneut auf.",
+            "1961 wurde das Datum festgelegt; 1975 wurde der Tag arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "5 de maio: o Dia da Criança coreano é anterior ao feriado atual",
+          "origin": "O Dia da Criança na Coreia surgiu do movimento de defesa da dignidade e dos direitos das crianças promovido por Bang Jeong-hwan e associações juvenis no início do século XX. As primeiras iniciativas documentadas ocorreram por volta de 1 de maio de 1923, não em 5 de maio. Após a libertação, a comemoração retomou-se em 5 de maio de 1946. A Lei do Bem-Estar Infantil fixou essa data em dezembro de 1961; a jornada integrou a lista oficial de comemorações em 1973 e passou a feriado em 1975. A campanha original e os diferentes atos legais não são o mesmo marco.",
+          "promoter": "Bang Jeong-hwan e movimentos juvenis iniciaram a campanha; o Estado sul-coreano oficializou mais tarde o calendário.",
+          "purpose": "Valorizar a dignidade, a proteção, a educação e os direitos das crianças, reforçando o apoio das comunidades.",
+          "facts": [
+            "As primeiras campanhas decorreram em torno de 1 de maio de 1923.",
+            "A celebração regressou em 5 de maio de 1946.",
+            "A data foi fixada em 1961 e o feriado nacional surgiu em 1975."
+          ]
+        }
+      },
+      "humanApproved": false
+    },
+    {
+      "observanceId": "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+      "locale": {
+        "es": {
+          "heading": "28 de abril: Corea conmemora oficialmente al almirante Yi Sun-sin",
+          "origin": "Corea del Sur estableció el 28 de abril como conmemoración del nacimiento del almirante Yi Sun-sin mediante la Orden n.º 179 del Ministerio de Educación en 1967, según la cronología de los Archivos Nacionales publicada por el Ministerio del Interior. En 1973, la jornada quedó incorporada a la lista de conmemoraciones oficiales reglamentarias. El almirante es recordado por su liderazgo en la defensa naval coreana frente a las invasiones japonesas de finales del siglo XVI. La fecha del 28 de abril recuerda su nacimiento, no una batalla específica. Las fuentes no identifican con certeza la primera ceremonia pública anual.",
+          "promoter": "El Gobierno surcoreano estableció la conmemoración por orden ministerial en 1967 y la incorporó al calendario oficial en 1973.",
+          "purpose": "Recordar la defensa marítima de Corea y reconocer el legado histórico del almirante Yi Sun-sin.",
+          "facts": [
+            "La Orden n.º 179 estableció la jornada en 1967.",
+            "La conmemoración entró en la lista legal en 1973.",
+            "El 28 de abril recuerda un nacimiento y no el aniversario de una batalla."
+          ]
+        },
+        "fr": {
+          "heading": "28 avril : hommage officiel à l'amiral Yi Sun-sin en Corée",
+          "origin": "La Corée du Sud a établi le 28 avril comme journée commémorative de la naissance de l'amiral Yi Sun-sin par l'arrêté nº 179 du ministère de l'Éducation en 1967. Cette chronologie est documentée par les Archives nationales dans une notice relayée par le ministère de l'Intérieur. En 1973, la journée a été inscrite dans la liste des commémorations réglementaires. L'amiral reste associé à la défense navale coréenne contre les invasions japonaises à la fin du XVIe siècle. Le 28 avril renvoie à sa naissance, non à une victoire maritime précise. La date de la première cérémonie publique annuelle n'est pas établie.",
+          "promoter": "Le gouvernement sud-coréen a instauré la commémoration par arrêté ministériel en 1967, puis l'a inscrite au calendrier légal en 1973.",
+          "purpose": "Faire connaître l'histoire de la défense maritime coréenne et préserver la mémoire de l'amiral Yi Sun-sin.",
+          "facts": [
+            "L'arrêté ministériel nº 179 date de 1967.",
+            "La commémoration est devenue réglementaire en 1973.",
+            "Le 28 avril correspond à la naissance de l'amiral, pas à une bataille."
+          ]
+        },
+        "de": {
+          "heading": "28. April: Südkorea ehrt Admiral Yi Sun-sins Geburtstag",
+          "origin": "Südkorea führte den 28. April im Jahr 1967 durch die Verordnung Nr. 179 des Bildungsministeriums als Gedenktag für den Geburtstag von Admiral Yi Sun-sin ein. Diese Entstehungsgeschichte wird in einer Darstellung des Nationalarchivs beim Innenministerium dokumentiert. 1973 nahm der Staat den Tag in die gesetzliche Liste nationaler Gedenktage auf. Yi Sun-sin wird für die Führung der koreanischen Seeverteidigung während der japanischen Invasionen am Ende des 16. Jahrhunderts gewürdigt. Das Datum erinnert an seine Geburt und nicht an eine bestimmte Seeschlacht. Die erste jährliche staatliche Feier ist nicht eindeutig belegt.",
+          "promoter": "Die südkoreanische Regierung schuf den Gedenktag 1967 durch eine Ministerialverordnung und erkannte ihn 1973 gesetzlich an.",
+          "purpose": "An Koreas historische Seeverteidigung und den Beitrag von Admiral Yi Sun-sin erinnern.",
+          "facts": [
+            "Der Geburtstag wurde 1967 per Bildungsministeriumsverordnung anerkannt.",
+            "Die gesetzliche Liste wurde 1973 ergänzt.",
+            "Der 28. April ist ein Geburtstag und kein Schlachtjubiläum."
+          ]
+        },
+        "pt": {
+          "heading": "28 de abril: homenagem oficial ao almirante Yi Sun-sin",
+          "origin": "A Coreia do Sul instituiu 28 de abril como comemoração do nascimento do almirante Yi Sun-sin pela Portaria n.º 179 do Ministério da Educação, em 1967, segundo uma cronologia dos Arquivos Nacionais divulgada pelo Ministério do Interior. Em 1973, a data entrou na lista de comemorações oficiais regulamentadas. O almirante é lembrado pela liderança na defesa naval coreana durante as invasões japonesas do final do século XVI. O dia 28 de abril recorda o seu nascimento, não uma batalha marítima específica. As fontes consultadas não comprovam a data da primeira cerimónia pública anual.",
+          "promoter": "O governo sul-coreano criou a data por portaria ministerial em 1967 e incluiu-a nas comemorações legais em 1973.",
+          "purpose": "Preservar a memória da defesa naval da Coreia e o legado histórico do almirante Yi Sun-sin.",
+          "facts": [
+            "A Portaria n.º 179 criou a comemoração em 1967.",
+            "A integração na lista oficial ocorreu em 1973.",
+            "A data corresponde ao nascimento do almirante, e não a uma batalha."
+          ]
+        }
+      },
+      "humanApproved": false
+    },
+    {
+      "observanceId": "kr-w10-aerospace-day-in-korea",
+      "locale": {
+        "es": {
+          "heading": "27 de mayo: Corea crea un día nacional dedicado al espacio",
+          "origin": "El Día Aeroespacial de Corea del Sur se celebra el 27 de mayo y se incorporó a la lista estatal de conmemoraciones en noviembre de 2024. La fecha se eligió porque la Administración Aeroespacial de Corea abrió oficialmente el 27 de mayo de 2024. Después de la inauguración, el organismo consultó a centros de investigación, empresas y organizaciones regionales y solicitó en junio la creación de una fecha anual. Por tanto, la apertura de la agencia en mayo y la designación oficial del día en noviembre son dos actos distintos. La información institucional no acredita una primera ceremonia anual específica.",
+          "promoter": "La Administración Aeroespacial de Corea propuso la jornada en 2024; el Gobierno la incorporó a las conmemoraciones oficiales.",
+          "purpose": "Promover la ciencia aeroespacial, el conocimiento público y el desarrollo responsable de la industria espacial.",
+          "facts": [
+            "La agencia aeroespacial abrió el 27 de mayo de 2024.",
+            "La solicitud de una jornada anual llegó en junio de 2024.",
+            "La designación oficial se realizó en noviembre de 2024."
+          ]
+        },
+        "fr": {
+          "heading": "27 mai : la Corée institue une journée de l'aérospatiale",
+          "origin": "En Corée du Sud, la Journée de l'aérospatiale a lieu le 27 mai. Le gouvernement l'a inscrite parmi les commémorations officielles en novembre 2024 pour rappeler l'ouverture de l'Administration aérospatiale coréenne le 27 mai 2024. Après son lancement, l'agence a consulté des instituts de recherche, des entreprises et des organismes régionaux, puis a demandé en juin la création d'une date annuelle. L'ouverture administrative de mai et la reconnaissance juridique de novembre constituent donc deux événements distincts. Les sources gouvernementales ne permettent pas de dater une première cérémonie nationale annuelle.",
+          "promoter": "L'Administration aérospatiale coréenne a proposé cette journée en 2024; le gouvernement l'a rendue officielle en novembre.",
+          "purpose": "Faire connaître les sciences spatiales et soutenir un développement responsable des technologies et de l'industrie.",
+          "facts": [
+            "L'agence a été inaugurée le 27 mai 2024.",
+            "La demande officielle a été formulée en juin 2024.",
+            "La journée commémorative a été créée en novembre 2024."
+          ]
+        },
+        "de": {
+          "heading": "27. Mai: Korea führt einen nationalen Tag der Raumfahrt ein",
+          "origin": "Südkoreas Tag der Luft- und Raumfahrt fällt auf den 27. Mai und wurde im November 2024 in die staatliche Liste der Gedenktage aufgenommen. Das Datum erinnert an die Eröffnung der Korea AeroSpace Administration am 27. Mai 2024. Nach dem Start konsultierte die Behörde Forschungsinstitute, Unternehmensverbände und regionale Einrichtungen und beantragte im Juni einen eigenen jährlichen Gedenktag. Die Behördenöffnung im Mai und die offizielle Festlegung im November sind deshalb verschiedene Ereignisse. Ein erster tatsächlich durchgeführter jährlicher Nationalfestakt lässt sich aus den Quellen nicht belegen.",
+          "promoter": "Die koreanische Raumfahrtbehörde schlug den Gedenktag 2024 vor; die Regierung nahm ihn im November offiziell auf.",
+          "purpose": "Das öffentliche Interesse an der Raumfahrtforschung und an verantwortlicher technologischer Entwicklung stärken.",
+          "facts": [
+            "Die koreanische Raumfahrtbehörde nahm am 27. Mai 2024 die Arbeit auf.",
+            "Sie beantragte den jährlichen Gedenktag im Juni 2024.",
+            "Die staatliche Aufnahme in den Kalender folgte im November 2024."
+          ]
+        },
+        "pt": {
+          "heading": "27 de maio: a Coreia cria o Dia da Aeronáutica e do Espaço",
+          "origin": "O Dia Aeroespacial da Coreia do Sul realiza-se em 27 de maio e foi incluído na lista oficial de comemorações em novembro de 2024. A data lembra a abertura da Administração Aeroespacial da Coreia em 27 de maio de 2024. Após começar a funcionar, a agência consultou centros de investigação, empresas e organizações regionais e pediu, em junho, a criação de uma comemoração anual. Por isso, a abertura da agência em maio e o reconhecimento oficial da jornada em novembro são acontecimentos distintos. A documentação governamental não confirma quando ocorreu a primeira cerimónia anual nacional.",
+          "promoter": "A Administração Aeroespacial da Coreia propôs a data em 2024 e o governo integrou-a na lista oficial em novembro.",
+          "purpose": "Despertar interesse pela ciência aeroespacial e favorecer a inovação e o desenvolvimento industrial responsável.",
+          "facts": [
+            "A agência aeroespacial abriu em 27 de maio de 2024.",
+            "O pedido de comemoração foi apresentado em junho de 2024.",
+            "O dia foi oficialmente designado em novembro de 2024."
+          ]
+        }
+      },
+      "humanApproved": false
+    }
+  ]
+}
