@@ -10,8 +10,8 @@
   "batchSizeLimit": 100,
   "recordCount": 100,
   "progress": {
-    "individuallyResearchedInThisBlock": 20,
-    "awaitingIndependentResearch": 80,
+    "individuallyResearchedInThisBlock": 35,
+    "awaitingIndependentResearch": 65,
     "blockedForMissingOriginalSource": 0,
     "qualifiedSixLocaleHumanReviewed": 0,
     "publishedAsRichEditorial": 0
@@ -449,15 +449,18 @@
       ],
       "titleEn": "International Delegate's Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2019,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/delegates-day",
+        "https://mandates.un.org/mandate/A/RES/73/286"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -606,15 +609,18 @@
       ],
       "titleEn": "Vesak, the Day of the Full Moon",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1999,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://digitallibrary.un.org/record/404546",
+        "https://www.un.org/en/observances/vesak-day"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -702,15 +708,19 @@
       ],
       "titleEn": "World Blood Donor Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2005,
+      "firstObservedYearVerified": 2004,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/publications-detail-redirect/WHA58.13",
+        "https://www.who.int/westernpacific/newsroom/events/world-blood-donor-day",
+        "https://www.emro.who.int/press-releases/2005/world-blood-donor-day-2005.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -777,15 +787,18 @@
       ],
       "titleEn": "World Day Against Child Labour",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2002,
+      "firstObservedYearVerified": 2002,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.ilo.org/resource/news/ilo-launches-first-world-day-against-child-labour-12-june-2002",
+        "https://www.ilo.org/resource/news/world-day-against-child-labour-will-be-observed-first-time"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -927,15 +940,18 @@
       ],
       "titleEn": "World Hepatitis Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2010,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/campaigns/world-hepatitis-day/",
+        "https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1003,15 +1019,18 @@
       ],
       "titleEn": "World Malaria Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2007,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/campaigns/world-malaria-day",
+        "https://apps.who.int/gb/ebwha/pdf_files/WHA60/A60_R18-en.pdf"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1150,15 +1169,18 @@
       ],
       "titleEn": "World Post Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1969,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.upu.int/en/universal-postal-union/outreach-campaigns/world-post-day",
+        "https://www.upu.int/en/universal-postal-union/about-upu/history"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1174,15 +1196,18 @@
       ],
       "titleEn": "World Space Week",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1999,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/world-space-week",
+        "https://mandates.un.org/mandate/A/RES/54/68"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1198,15 +1223,18 @@
       ],
       "titleEn": "World Tuberculosis Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1982,
+      "firstObservedYearVerified": 1982,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.who.int/europe/campaigns/world-tb-day",
+        "https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1222,15 +1250,18 @@
       ],
       "titleEn": "Zero Discrimination Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2013,
+      "firstObservedYearVerified": 2014,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2013/december/20131201zerodiscrimination",
+        "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2015/february/20150226_PR_Zero_Discrimination_Day"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1378,15 +1409,18 @@
       ],
       "titleEn": "Day of Remembrance of Exile Victims — Spain",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2022,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1430,15 +1464,18 @@
       ],
       "titleEn": "Indigenous Peoples Day — Brazil",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2022,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm",
+        "https://www.gov.br/cultura/pt-br/assuntos/noticias/dia-dos-povos-indigenas"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1482,15 +1519,18 @@
       ],
       "titleEn": "National Day for Truth and Reconciliation — Canada",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2021,
+      "firstObservedYearVerified": 2021,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1534,15 +1574,18 @@
       ],
       "titleEn": "National Flag of Canada Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1996,
+      "firstObservedYearVerified": 1996,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1586,15 +1629,18 @@
       ],
       "titleEn": "National Physicist Day — Brazil",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2023,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14769.htm",
+        "https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2586,5 +2632,5 @@
       "storyFile": null
     }
   ],
-  "progressNote": "20 unique IT/EN historical research drafts are now persisted in the Wave20 source-batch file. They are not human-certified or rich-runtime approved; the remaining 80 IDs in this frozen first-100 cohort must be researched before the cohort can close."
+  "progressNote": "35 distinct IT/EN source-linked research drafts are committed in Wave20. All 100 IDs remain the active cohort; 65 still require original individually sourced histories. No human editorial/native six-locale certification or rich-runtime approval."
 }
