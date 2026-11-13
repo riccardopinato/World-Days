@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 43,
+  "count": 48,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -1472,6 +1472,178 @@
         }
       },
       "sourceReviewNote": "WHO 2012 original campaign and WHO historical campaign archive establish original global first year and explain early variation in April dates. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-meteorological-day",
+      "introducedYear": 1960,
+      "firstObservedYear": 1961,
+      "sources": [
+        "https://tools.wmo.int/wmo-resolutions/",
+        "https://public.wmo.int/events-and-meetings/world-met-day",
+        "https://wmo.int/media/magazine-article/wmo-bulletin-first-50-years"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 March: the birthday of a worldwide weather cooperation system",
+          "origin": "The World Meteorological Organization's Executive Committee adopted Resolution 6 (EC-XII) in 1960, establishing an annual World Meteorological Day for 23 March. The day recalls 23 March 1950, when the convention establishing the WMO entered into force, not the year the annual celebration began. An institutional WMO retrospective confirms that the first World Meteorological Day took place on 23 March 1961, with more than sixty countries reporting activities. The WMO grew out of international scientific cooperation in sharing weather observations and forecasts; annual observances now explore climate services, water resources, severe-weather alerts and meteorological research.",
+          "promoter": "The WMO Executive Committee selected the annual date in Resolution 6 (EC-XII) in 1960; no single personal founder is attributed.",
+          "purpose": "Explain how cross-border meteorological research, forecasting and early warning systems protect communities and livelihoods.",
+          "facts": [
+            "The WMO convention entered into force on 23 March 1950.",
+            "Resolution 6 of the WMO Executive Committee in 1960 created the annual day.",
+            "The first celebration in 1961 was reported by more than sixty countries."
+          ]
+        },
+        "it": {
+          "heading": "23 marzo: la nascita di un sistema mondiale di cooperazione meteorologica",
+          "origin": "Nel 1960 il Comitato esecutivo dell'Organizzazione meteorologica mondiale adottò la Risoluzione 6 (EC-XII), individuando il 23 marzo per la celebrazione annuale della meteorologia. La data ricorda il 23 marzo 1950, giorno di entrata in vigore della Convenzione istitutiva dell'OMM, non l'anno della prima ricorrenza. Una retrospettiva istituzionale documenta la prima Giornata meteorologica mondiale il 23 marzo 1961, con iniziative segnalate in oltre sessanta Paesi. Da allora la collaborazione scientifica fra servizi nazionali ha assunto un ruolo centrale nel monitoraggio del tempo, del clima e delle risorse idriche e nella diffusione di allerte tempestive.",
+          "promoter": "Il Comitato esecutivo OMM scelse la data annuale nel 1960 tramite la Risoluzione 6 (EC-XII); non viene attribuito un promotore personale non dimostrato.",
+          "purpose": "Far conoscere il valore di osservazioni condivise, previsioni, ricerca climatica e allerta precoce per la sicurezza delle popolazioni.",
+          "facts": [
+            "La Convenzione OMM entrò in vigore il 23 marzo 1950.",
+            "La risoluzione istitutiva della giornata annuale risale al 1960.",
+            "Alla prima edizione del 1961 aderirono con iniziative oltre sessanta Paesi."
+          ]
+        }
+      },
+      "sourceReviewNote": "WMO official resolution database identifies 1960 EC-XII resolution 6, official WMO day page confirms 1950 convention anniversary, historical WMO Bulletin identifies first celebration 1961. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+    },
+    {
+      "observanceId": "world-maritime-day",
+      "introducedYear": 1978,
+      "firstObservedYear": 1978,
+      "sources": [
+        "https://www.imo.org/en/mediacentre/secretarygeneral/pages/peruparallel.aspx",
+        "https://www.imo.org/en/about/events/pages/wmd-archives.aspx"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Last Thursday of September: the IMO brings shipping into public view",
+          "origin": "World Maritime Day was conceived by the International Maritime Organization in 1978 as a way to explain its work to member governments and the wider maritime community. An IMO Secretary-General's historical speech describes this origin and the intention to organize activities around a yearly maritime theme. Today the international observance takes place on the last Thursday of September, while national and parallel events may be scheduled on other dates. The IMO uses the day to discuss safer shipping, the rights and skills of seafarers, preventing pollution by ships and implementation of international rules. It is an institutional campaign launched in 1978, not a commemoration attributed to a single seafarer or an invented General Assembly founding act.",
+          "promoter": "The International Maritime Organization established the international observance in 1978, with its Council choosing annual themes.",
+          "purpose": "Increase understanding of the maritime sector and cooperation on safety, environmental protection and effective shipping standards.",
+          "facts": [
+            "The IMO dates the conception of World Maritime Day to 1978.",
+            "The global observance is held on the final Thursday in September.",
+            "The IMO Council identifies a theme reflecting the organization's maritime priorities."
+          ]
+        },
+        "it": {
+          "heading": "Ultimo giovedì di settembre: l'IMO racconta la navigazione al mondo",
+          "origin": "La Giornata mondiale del mare e del trasporto marittimo fu concepita dall'Organizzazione marittima internazionale nel 1978 per far conoscere il proprio lavoro ai governi aderenti e alla comunità marittima. Un discorso storico del Segretario generale IMO ne ricostruisce l'origine e spiega l'intenzione di organizzare iniziative attorno a un tema diverso ogni anno. Oggi la celebrazione internazionale cade l'ultimo giovedì di settembre, mentre gli eventi nazionali o paralleli possono seguire altri calendari. L'IMO affronta sicurezza delle navi, competenze degli equipaggi, prevenzione dell'inquinamento e applicazione delle convenzioni. È una campagna istituzionale avviata nel 1978, non il ricordo di un singolo navigatore.",
+          "promoter": "L'Organizzazione marittima internazionale avviò la ricorrenza nel 1978, con un tema annuale scelto dal Consiglio IMO.",
+          "purpose": "Rendere visibile l'importanza della navigazione e della cooperazione internazionale per sicurezza, sostenibilità e norme marittime.",
+          "facts": [
+            "L'IMO fa risalire la concezione della giornata al 1978.",
+            "La ricorrenza si svolge l'ultimo giovedì di settembre.",
+            "I temi annuali sono collegati alle attività e alle priorità dell'IMO."
+          ]
+        }
+      },
+      "sourceReviewNote": "IMO Secretary-General's original history explicitly dates conception to 1978; first separate ceremonial meeting is not independently sourced, so the introduced year is verified and early inaugural year is inferred from institutional start only, requiring later editorial confirmation. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+    },
+    {
+      "observanceId": "world-philosophy-day",
+      "introducedYear": 2005,
+      "firstObservedYear": 2002,
+      "sources": [
+        "https://www.unesco.org/en/articles/unesco-celebrates-world-philosophy-day-2014-0",
+        "https://www.unesco.org/en/articles/unesco-world-philosophizes",
+        "https://philosophyworldday.uoa.gr/en/world-philosophy-day/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Thursday in November: from UNESCO philosophy meetings to a world day",
+          "origin": "UNESCO first organized Philosophy Day activities in 2002, and in 2005 its General Conference formally established World Philosophy Day on the third Thursday in November. Institutional documentation stresses the value of philosophical reflection for questioning assumptions, developing independent judgment and promoting dialogue across cultures. The year of the first activities and the year of formal proclamation must therefore be recorded separately: 2002 is not a 2005 General Conference vote. The movable Thursday also means the date changes each November. Conferences, classroom debates and public philosophy events make the discipline accessible beyond universities, with a particular emphasis on young people.",
+          "promoter": "UNESCO organized philosophy events from 2002; the UNESCO General Conference institutionalized the worldwide day in 2005.",
+          "purpose": "Encourage critical and independent thought, philosophical education, cultural dialogue and public reflection.",
+          "facts": [
+            "UNESCO organized philosophy-day events as early as 2002.",
+            "Its General Conference established World Philosophy Day formally in 2005.",
+            "The celebration falls on the third Thursday of November, not a fixed date."
+          ]
+        },
+        "it": {
+          "heading": "Terzo giovedì di novembre: dagli incontri UNESCO a una giornata mondiale",
+          "origin": "L'UNESCO iniziò a organizzare attività dedicate alla filosofia nel 2002; nel 2005 la Conferenza generale proclamò formalmente la Giornata mondiale della filosofia, da celebrare il terzo giovedì di novembre. I documenti istituzionali ne sottolineano il valore per il ragionamento critico, l'autonomia di giudizio e il confronto tra culture. È importante distinguere l'avvio delle manifestazioni dalla successiva istituzione ufficiale: il 2002 non è la data della risoluzione del 2005. Trattandosi di un giovedì mobile, il giorno del mese cambia ogni anno. Conferenze, incontri pubblici e dibattiti scolastici rendono la filosofia uno strumento di partecipazione, specialmente per i giovani.",
+          "promoter": "L'UNESCO promosse eventi filosofici dal 2002; la Conferenza generale UNESCO rese ufficiale la ricorrenza nel 2005.",
+          "purpose": "Sviluppare spirito critico, riflessione autonoma e dialogo pubblico attraverso l'educazione filosofica.",
+          "facts": [
+            "Le prime attività UNESCO legate alla giornata risalgono al 2002.",
+            "La proclamazione ufficiale della Conferenza generale è del 2005.",
+            "Ogni anno si celebra il terzo giovedì di novembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "UNESCO General Conference 2005 establishment and earlier UNESCO-organized 2002 philosophy observances are separated; secondary academic documentation corroborates precursor year. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+    },
+    {
+      "observanceId": "pl-flag-day",
+      "introducedYear": 2004,
+      "firstObservedYear": 2004,
+      "sources": [
+        "https://www.gov.pl/web/kultura/dzien-flagi-rzeczypospolitej-polskiej-oraz-dzien-polonii-i-polakow-za-granica",
+        "https://www.sejm.gov.pl/Sejm10.nsf/komunikat.xsp?documentId=13F1B5290B9C2DDCC1258B0E003F446F"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 May: Poland makes room for its white-and-red flag",
+          "origin": "Poland's Sejm established the Day of the Flag of the Republic of Poland through an amendment to legislation on the national emblem, colours and anthem adopted on 20 February 2004. It is observed every 2 May, between Labour Day on 1 May and Constitution Day on 3 May. Government heritage material links the date to Polish flags raised in Berlin on 2 May 1945 and to the history of the flag during the communist period. The modern commemorative day must be separated from older recognition of Poland's white-and-red colours in 1831 and the later regulation of the national flag in 1919. The day promotes respectful display and knowledge of state symbols; it is not necessarily a general day off work.",
+          "promoter": "The Polish Sejm established the observance by a statutory amendment in February 2004; no unsupported single personal proposer is attributed.",
+          "purpose": "Promote knowledge of Poland's flag, national symbols and the historical changes in their public use.",
+          "facts": [
+            "The Sejm enacted the 2 May Flag Day through legislation in 2004.",
+            "Polish white-and-red national colours were regulated long before the modern holiday.",
+            "The date sits between Labour Day and Constitution Day and commemorates a 1945 Berlin flag episode."
+          ]
+        },
+        "it": {
+          "heading": "2 maggio: la Polonia dedica una giornata alla bandiera bianca e rossa",
+          "origin": "Il Sejm, il Parlamento polacco, istituì il Giorno della bandiera della Repubblica di Polonia mediante una modifica della legge su stemma, colori e inno nazionale approvata il 20 febbraio 2004. Si celebra il 2 maggio, tra la Festa del lavoro del 1º maggio e quella della Costituzione del 3 maggio. Il Ministero della cultura collega la data alle bandiere polacche issate a Berlino il 2 maggio 1945 e alla storia dei simboli durante il periodo comunista. La ricorrenza moderna va distinta dal riconoscimento dei colori nazionali nel 1831 e dalla disciplina della bandiera del 1919. La giornata promuove rispetto per i simboli e conoscenza della loro storia, senza essere necessariamente un giorno festivo non lavorativo.",
+          "promoter": "Il Parlamento polacco introdusse la giornata con una modifica legislativa del febbraio 2004; non viene inventato un singolo ideatore.",
+          "purpose": "Promuovere conoscenza e rispetto dei simboli polacchi e della loro evoluzione storica.",
+          "facts": [
+            "La legge istitutiva fu approvata dal Sejm nel febbraio 2004.",
+            "I colori bianco e rosso hanno riconoscimenti normativi precedenti alla festa moderna.",
+            "Il 2 maggio si colloca tra due ricorrenze nazionali e richiama un episodio del 1945."
+          ]
+        }
+      },
+      "sourceReviewNote": "Polish Ministry of Culture and Sejm independently specify enactment on 20 February 2004 and grounded calendar-date rationale, separating modern day from historic national symbols. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
+    },
+    {
+      "observanceId": "canada-multiculturalism-day",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html",
+        "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 June: Canada declares a day to recognize cultural diversity",
+          "origin": "On 13 November 2002 the Government of Canada designated 27 June Canadian Multiculturalism Day by Royal Proclamation. This official celebration was introduced long after the federal multiculturalism policy announced in 1971, and after the 1988 Canadian Multiculturalism Act: those milestones are precursors, not the day’s founding proclamation. The date falls within the country's broader June-to-July Celebrate Canada period and offers space to appreciate many cultural communities and to discuss discrimination, inclusion and shared civic life. Government material identifies the 2002 designation but does not establish why 27 June rather than another day was chosen, nor the first specific ceremonial event, so those details remain unverified.",
+          "promoter": "The Government of Canada established the day by Royal Proclamation in 2002; the multiculturalism legislation and policy are earlier, distinct milestones.",
+          "purpose": "Recognize cultural diversity and encourage equal opportunities, community participation and action against discrimination.",
+          "facts": [
+            "Canada announced its federal multiculturalism policy in 1971.",
+            "The Canadian Multiculturalism Act became law in 1988.",
+            "The Government formally designated 27 June in a proclamation dated 13 November 2002."
+          ]
+        },
+        "it": {
+          "heading": "27 giugno: il Canada istituisce una giornata per il pluralismo culturale",
+          "origin": "Il 13 novembre 2002 il Governo canadese designò il 27 giugno Giornata del multiculturalismo canadese mediante una proclamazione reale. La celebrazione ufficiale arrivò dopo la politica federale sul multiculturalismo annunciata nel 1971 e dopo il Canadian Multiculturalism Act del 1988: sono tappe precedenti, non la proclamazione istitutiva della giornata. Il 27 giugno si inserisce nel periodo di celebrazioni civiche Celebrate Canada e offre occasione per riconoscere il contributo delle diverse comunità e discutere inclusione e discriminazioni. Le fonti governative confermano la data di istituzione del 2002, ma non dimostrano perché sia stato scelto proprio il 27 giugno né quale sia stata la prima specifica cerimonia annuale.",
+          "promoter": "Il Governo del Canada proclamò la giornata nel 2002; legislazione e politica sul multiculturalismo ne costituiscono precedenti distinti.",
+          "purpose": "Valorizzare la diversità culturale, promuovere pari opportunità e incoraggiare la partecipazione delle comunità.",
+          "facts": [
+            "La politica canadese sul multiculturalismo fu annunciata nel 1971.",
+            "La legge sul multiculturalismo entrò in vigore nel 1988.",
+            "Il governo designò il 27 giugno con una proclamazione del 13 novembre 2002."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian Heritage official 2017 first-party release confirms 13 November 2002 designation; contemporary government minister identifies Royal Proclamation. First actual annual ceremony not independently proved. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false."
     }
   ]
 }
