@@ -28,7 +28,22 @@ for e in new["records"]:
     assert e["firstObservedYear"] is None or e["firstObservedYear"] >= e["introducedYear"], oid
     assert base["source"] in e["sources"]
     assert len(e["sources"]) == len(set(e["sources"]))
-    assert set(e["locale"]) == {"en", "it"}, "no unsupported six-locale certification"
+    assert {"en","it"} <= set(e["locale"]) <= {"en","it","es","fr","de","pt"}, "unknown locale or missing original"
+    assert not e.get("runtimeRichEditorialApproved", False), "six-locale draft is not approved rich editorial"
+    for supplemental_lang in set(e["locale"]) - {"en","it"}:
+        supplemental = e["locale"][supplemental_lang]
+        assert set(supplemental) == {"heading","origin","promoter","purpose","facts"}, (e["observanceId"], supplemental_lang)
+        assert len(supplemental["heading"].strip()) >= 19
+        assert len(supplemental["origin"].strip()) >= 260
+        assert len(supplemental["promoter"].strip()) >= 40
+        assert len(supplemental["purpose"].strip()) >= 40
+        assert 2 <= len(supplemental["facts"]) <= 5
+        assert all(len(f.strip()) >= 25 for f in supplemental["facts"])
+        # Draft translations must retain every explicit historical year in English.
+        import re
+        en_years = set(re.findall(r"\b(?:18|19|20)\d{2}\b", e["locale"]["en"]["origin"]))
+        translated_years = set(re.findall(r"\b(?:18|19|20)\d{2}\b", supplemental["origin"]))
+        assert en_years <= translated_years, (e["observanceId"], supplemental_lang, sorted(en_years-translated_years))
     assert e["sourceReviewNote"] and len(e["sourceReviewNote"]) >= 60
     for u in e["sources"]:
         p = urlsplit(u)
