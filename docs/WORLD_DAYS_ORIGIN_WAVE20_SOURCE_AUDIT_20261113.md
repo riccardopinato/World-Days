@@ -4,8 +4,8 @@
 
 - Catalog on initial main: **1,111** canonical IDs; origin research already present on main: **225**, pending globally: **886**.
 - Active frozen cohort: **100** distinct IDs (48 global + 52 national) in `data/editorial/research_batches/wave20_first100_20261113.json`.
-- Historical narratives **actually written and primary-source-linked in this PR: 35/100** (35 original IT/EN model-authored drafts, not 100 approved).
-- **65/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
+- Historical narratives **actually written and primary-source-linked in this PR: 60/100** (60 original IT/EN model-authored drafts, not 100 approved).
+- **40/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
 - Qualified six-locale human factual/native approvals **0**; Rich Editorial runtime publication approvals **0** for this wave.
 - A URL validates provenance format but does not prove every historical claim without independent fact checking. Consult individually every linked source, including exact law or founding record, before human editorial signoff.
 
@@ -49,6 +49,32 @@
 | 33 | `canada-truth-and-reconciliation-day` | 2021 | 2021 | 2 | IT+EN research draft / human review pending |
 | 34 | `spain-exile-victims-remembrance-day` | 2022 | * | 2 | IT+EN research draft / human review pending |
 | 35 | `brazil-national-physicist-day` | 2023 | * | 2 | IT+EN research draft / human review pending |
+
+| 36 | `spanish-language-day` | 2010 | 2010 | 2 | IT+EN research draft / human review pending |
+| 37 | `international-day-of-university-sport` | 2015 | 2016 | 3 | IT+EN research draft / human review pending |
+| 38 | `world-antimicrobial-resistance-awareness-week` | 2015 | 2015 | 3 | IT+EN research draft / human review pending |
+| 39 | `world-breastfeeding-week` | 1992 | 1992 | 2 | IT+EN research draft / human review pending |
+| 40 | `world-day-for-safety-and-health-at-work` | 2003 | 2003 | 2 | IT+EN research draft / human review pending |
+| 41 | `world-day-of-remembrance-for-road-traffic-victims` | 2005 | 1993 | 3 | IT+EN research draft / human review pending |
+| 42 | `world-day-of-romani-language` | 2015 | * | 2 | IT+EN research draft / human review pending |
+| 43 | `world-immunization-week` | 2012 | 2012 | 2 | IT+EN research draft / human review pending |
+| 44 | `world-meteorological-day` | 1960 | 1961 | 3 | IT+EN research draft / human review pending |
+| 45 | `world-maritime-day` | 1978 | * | 2 | IT+EN research draft / human review pending |
+| 46 | `world-philosophy-day` | 2005 | 2002 | 3 | IT+EN research draft / human review pending |
+| 47 | `pl-flag-day` | 2004 | 2004 | 2 | IT+EN research draft / human review pending |
+| 48 | `canada-multiculturalism-day` | 2002 | * | 2 | IT+EN research draft / human review pending |
+| 49 | `india-national-science-day` | 1986 | 1987 | 2 | IT+EN research draft / human review pending |
+| 50 | `india-national-voters-day` | 2011 | 2011 | 2 | IT+EN research draft / human review pending |
+| 51 | `australia-national-sorry-day` | 1998 | 1998 | 2 | IT+EN research draft / human review pending |
+| 52 | `spain-acquired-brain-injury-day` | 2007 | * | 2 | IT+EN research draft / human review pending |
+| 53 | `australia-harmony-day` | 1999 | 1999 | 2 | IT+EN research draft / human review pending |
+| 54 | `brazil-black-consciousness-day` | 2011 | * | 3 | IT+EN research draft / human review pending |
+| 55 | `japan-constitution-memorial-day` | 1948 | * | 2 | IT+EN research draft / human review pending |
+| 56 | `japan-culture-day` | 1948 | * | 2 | IT+EN research draft / human review pending |
+| 57 | `japan-national-foundation-day` | 1966 | * | 2 | IT+EN research draft / human review pending |
+| 58 | `ca-canada-day` | 1879 | 1868 | 2 | IT+EN research draft / human review pending |
+| 59 | `martin-luther-king-jr-day` | 1983 | 1986 | 2 | IT+EN research draft / human review pending |
+| 60 | `pl-baptism-of-poland-day` | 2019 | * | 3 | IT+EN research draft / human review pending |
 
 ## Remaining source-index and documentary risks
 
@@ -263,6 +289,139 @@
 
 - https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14769.htm
 - https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
+
+
+### spanish-language-day
+
+- https://www.un.org/es/events/spanishlanguageday/2010/
+- https://www.un.org/en/observances/english-language-day/multilingualism-and-the-un
+
+### international-day-of-university-sport
+
+- https://www.unesco.org/en/days/university-sport
+- https://www.fisu.net/2016/09/21/idus2016-celebrated-in-iran/
+- https://www.fisu.net/2016/09/19/idus-2016-message-from-unesco/
+
+### world-antimicrobial-resistance-awareness-week
+
+- https://www.who.int/news-room/events/detail/2015/11/16/default-calendar/world-antibiotic-awareness-week
+- https://www.who.int/news/item/06-06-2023-world-antimicrobial-awareness-week-%28waaw%29-will-now-be-world-amr-awareness-week
+- https://www.who.int/campaigns/world-amr-awareness-week/antibiotic-resistance
+
+### world-breastfeeding-week
+
+- https://waba.org.my/wbw/
+- https://www.waba.org.my/oldernews-sec.htm
+
+### world-day-for-safety-and-health-at-work
+
+- https://www.ilo.org/resource/history-28-april
+- https://www.ilo.org/legacy/english/protection/safework/worldday/index_2003.htm
+
+### world-day-of-remembrance-for-road-traffic-victims
+
+- https://www.who.int/groups/united-nations-road-safety-collaboration/world-day-of-remembrance
+- https://digitallibrary.un.org/record/558920
+- https://www.who.int/publications/i/item/9241594527
+
+### world-day-of-romani-language
+
+- https://www.unesco.org/en/days/romani-language
+- https://unesdoc.unesco.org/ark:/48223/pf0000235250
+
+### world-immunization-week
+
+- https://www.who.int/news-room/events/detail/2012/04/24/default-calendar/world-immunization-2012
+- https://www.who.int/en/campaigns/world-immunization-week
+
+### world-meteorological-day
+
+- https://tools.wmo.int/wmo-resolutions/
+- https://public.wmo.int/events-and-meetings/world-met-day
+- https://wmo.int/media/magazine-article/wmo-bulletin-first-50-years
+
+### world-maritime-day
+
+- https://www.imo.org/en/mediacentre/secretarygeneral/pages/peruparallel.aspx
+- https://www.imo.org/en/about/events/pages/wmd-archives.aspx
+
+### world-philosophy-day
+
+- https://www.unesco.org/en/articles/unesco-celebrates-world-philosophy-day-2014-0
+- https://www.unesco.org/en/articles/unesco-world-philosophizes
+- https://philosophyworldday.uoa.gr/en/world-philosophy-day/
+
+### pl-flag-day
+
+- https://www.gov.pl/web/kultura/dzien-flagi-rzeczypospolitej-polskiej-oraz-dzien-polonii-i-polakow-za-granica
+- https://www.sejm.gov.pl/Sejm10.nsf/komunikat.xsp?documentId=13F1B5290B9C2DDCC1258B0E003F446F
+
+### canada-multiculturalism-day
+
+- https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html
+- https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html
+
+### india-national-science-day
+
+- https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=151846&lang=1&reg=3
+- https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468&lang=2&reg=48
+
+### india-national-voters-day
+
+- https://www.eci.gov.in/voicenet/ArticleDECUS.htm
+- https://www.eci.gov.in/voicenet/Article_nvd2021.htm
+
+### australia-national-sorry-day
+
+- https://aiatsis.gov.au/explore/stolen-generations
+- https://www.reconciliation.org.au/national-sorry-day-2020/
+
+### spain-acquired-brain-injury-day
+
+- https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx
+- https://www.lamoncloa.gob.es/consejodeministros/Paginas/enlacetranscripciones/240807-delavega.aspx
+
+### australia-harmony-day
+
+- https://www.homeaffairs.gov.au/news-subsite/Pages/2019-Mar/celebrating%2020%20years%20of%20harmony%20celebrations.aspx
+- https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags
+
+### brazil-black-consciousness-day
+
+- https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html
+- https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional
+- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
+
+### japan-constitution-memorial-day
+
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en
+
+### japan-culture-day
+
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en
+
+### japan-national-foundation-day
+
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+
+### ca-canada-day
+
+- https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html
+
+### martin-luther-king-jr-day
+
+- https://history.house.gov/Historical-Highlights/1951-2000/The-creation-of-the-Martin-Luther-King-Jr--Holiday/
+- https://kinginstitute.stanford.edu/king-national-holiday
+
+### pl-baptism-of-poland-day
+
+- https://eli.gov.pl/api/acts/DU/2019/656/text.html
+- https://www.gov.pl/web/uw-lubuski/1055-rocznica-chrztu-polski
+- https://www.sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C826413CFA3F7FAC1258DD90025126D
 
 
 ## Publication gate and next execution
