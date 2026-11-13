@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 82,
+  "count": 87,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2811,6 +2811,177 @@
         }
       },
       "sourceReviewNote": "Canadian Heritage federal anniversary and first-party Canadian Department of Justice reproducing original 1931 Act verify historic commemorated event, but NOT founding year or inaugural year of distinct annual observance; both null. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-april-19-revolution-day",
+      "introducedYear": 1973,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "19 April: Korea's 1960 democratic uprising becomes an official remembrance day",
+          "origin": "The Republic of Korea's April 19 Revolution Day recalls the student-led and citizen protests of 19 April 1960 against fraudulent elections and authoritarian rule. South Korea's Ministry of the Interior traces a separate commemorative process: the authorities recommended student ceremonies on 19 April 1962, then formally established a statutory commemoration under the national commemorative-days regulation on 30 March 1973. Its official designation was renamed from April 19 Uprising Day to April 19 Revolution Day on 31 December 1994. The event of 1960, the recommendation of 1962, the formal listing in 1973 and the name change in 1994 are different historical milestones. The source does not document the first ceremony carried out under the 1973 regulation, so that year remains unverified.",
+          "promoter": "South Korea's government made the day a statutory commemoration in 1973, following student remembrance efforts and the 1962 recommendation.",
+          "purpose": "Remember the victims and participants of the 1960 movement and promote the historical significance of democratic accountability and civic rights.",
+          "facts": [
+            "The protests associated with the day occurred on 19 April 1960.",
+            "Student remembrance ceremonies were encouraged in April 1962.",
+            "The day entered the statutory list in March 1973 and received its present name in 1994."
+          ]
+        },
+        "it": {
+          "heading": "19 aprile: l'insurrezione democratica coreana del 1960 diventa ricorrenza ufficiale",
+          "origin": "La Giornata coreana della rivoluzione del 19 aprile ricorda le proteste studentesche e popolari del 19 aprile 1960 contro brogli elettorali e potere autoritario. Il Ministero dell'interno sudcoreano distingue le diverse fasi della commemorazione: nel 1962 le autorità incoraggiarono cerimonie studentesche, poi il 30 marzo 1973 la giornata entrò formalmente nel regolamento sulle ricorrenze statutarie. Il 31 dicembre 1994 la denominazione mutò da Giornata della rivolta del 19 aprile a Giornata della rivoluzione del 19 aprile. L'evento del 1960, la raccomandazione del 1962, l'istituzione del 1973 e il cambiamento del nome nel 1994 sono passaggi diversi. La fonte non documenta la prima cerimonia effettiva sotto il regolamento del 1973 e questo dato resta sconosciuto.",
+          "promoter": "Il governo sudcoreano riconobbe la giornata come ricorrenza statutaria nel 1973, dopo le iniziative di memoria degli studenti.",
+          "purpose": "Ricordare le vittime e i partecipanti del movimento del 1960 e il valore storico della partecipazione democratica.",
+          "facts": [
+            "Le proteste ricordate risalgono al 19 aprile 1960.",
+            "Nel 1962 furono incoraggiate cerimonie organizzate dagli studenti.",
+            "Il riconoscimento di legge avvenne nel 1973 e il nome attuale fu introdotto nel 1994."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean Ministry of Interior original commemorative chronology separately records 1960 events, 1962 recommendation, 30 March 1973 statutory listing and 1994 official rename. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-arbor-day-in-korea",
+      "introducedYear": 1949,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 April: Korea's Arbor Day shifts from public holiday to civic campaign",
+          "origin": "South Korea's Arbor Day on 5 April is linked to a longer history of national tree-planting initiatives. The Korean Ministry of the Interior notes that a 1910 tree-planting ceremony under the Korean Empire preceded the modern observance; during Japanese rule, a different Arbor Day date, 3 April, was also used. A presidential decree on 4 June 1949 made 5 April a statutory public holiday. The day was temporarily changed in 1960 and restored to 5 April in 1961, then included as a statutory commemoration in 1982. From June 2005 the date ceased to be a general public holiday while remaining a commemorative day. These shifts show why the modern date and civic status cannot be described as unchanged since 1910.",
+          "promoter": "South Korea's government established the modern statutory 5 April holiday by presidential decree in 1949, building on earlier tree-planting customs.",
+          "purpose": "Encourage tree planting, forest restoration and public understanding of the role of healthy forests.",
+          "facts": [
+            "A presidential decree made Arbor Day a public holiday in 1949.",
+            "The date shifted in 1960 and returned to 5 April in 1961.",
+            "Arbor Day ceased to be a general public holiday in 2005 but remains a commemorative day."
+          ]
+        },
+        "it": {
+          "heading": "5 aprile: in Corea la Festa degli alberi cambia da giorno festivo a iniziativa civica",
+          "origin": "La Festa degli alberi sudcoreana del 5 aprile si collega a precedenti attività nazionali di piantumazione. Il Ministero dell'interno ricorda una cerimonia del 1910, risalente all'Impero coreano, e un periodo sotto il dominio giapponese in cui la ricorrenza cadeva il 3 aprile. Il 4 giugno 1949 un decreto presidenziale rese il 5 aprile un giorno festivo nazionale. Nel 1960 la data venne temporaneamente modificata, ma tornò al 5 aprile nel 1961; nel 1982 fu inserita nella lista delle giornate commemorative statutarie. Dal giugno 2005 non è più una festività generale pur restando una ricorrenza civile. Questi cambiamenti spiegano perché data e status della giornata moderna non siano rimasti identici dal 1910.",
+          "promoter": "Il governo sudcoreano istituì la moderna festa nazionale del 5 aprile nel 1949 tramite decreto presidenziale, raccogliendo tradizioni precedenti.",
+          "purpose": "Promuovere piantumazione, ripristino forestale e conoscenza dell'importanza degli alberi.",
+          "facts": [
+            "Nel 1949 un decreto presidenziale rese la Festa degli alberi un giorno festivo.",
+            "Dopo una modifica nel 1960, il 5 aprile fu ripristinato nel 1961.",
+            "Dal 2005 non è più una festività generale ma continua a essere ricordata."
+          ]
+        }
+      },
+      "sourceReviewNote": "South Korean Ministry of Interior original chronological government notes explicitly separate 1910 precursor, 1949 holiday decree, 1960/1961 date changes, 1982 statutory commemoration and 2005 removal of public holiday. First specifically observed modern event unknown. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-bu-ma-democratic-protests-remembrance-day",
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "16 October: Busan and Masan democratic protests receive a national day",
+          "origin": "The Bu-Ma Democratic Protests began on 16 October 1979, with demonstrations by Pusan National University students against authoritarian rule. By 18 October the protests had spread to Masan and Changwon. South Korea's Ministry of the Interior distinguishes local and national remembrance decisions: Changwon established a municipal commemorative day on 7 February 2017 using the date of 18 October, and the government created a national statutory commemoration on 24 September 2019 using 16 October, the date of the first protests. These decisions reflected recognition of the historical struggle for democracy but did not originate that movement. A first actual ceremony under the 2019 national statute is not established in the institutional chronology and is left unknown.",
+          "promoter": "South Korea's government instituted national Bu-Ma Democratic Protests Remembrance Day in September 2019 after earlier local commemoration.",
+          "purpose": "Preserve the history of democratic protest, civic courage and the contribution of students and citizens to political change.",
+          "facts": [
+            "The initial Busan student protests began on 16 October 1979.",
+            "The movement spread to Masan and Changwon around 18 October 1979.",
+            "A local memorial day was established in 2017 and the national one in 2019."
+          ]
+        },
+        "it": {
+          "heading": "16 ottobre: le proteste democratiche di Busan e Masan diventano giornata nazionale",
+          "origin": "Le proteste democratiche Bu-Ma iniziarono il 16 ottobre 1979 con manifestazioni degli studenti dell'Università nazionale di Pusan contro il governo autoritario. Entro il 18 ottobre il movimento si diffuse a Masan e Changwon. Il Ministero dell'interno distingue le decisioni successive: il 7 febbraio 2017 la città di Changwon istituì una ricorrenza locale per il 18 ottobre, mentre il governo nazionale stabilì il 24 settembre 2019 la giornata statutaria del 16 ottobre, anniversario dell'inizio delle proteste. Questi provvedimenti riconobbero un movimento storico preesistente, senza averlo fondato. La fonte governativa non identifica una prima specifica cerimonia nazionale dopo la legge del 2019; l'anno resta quindi sconosciuto.",
+          "promoter": "Il governo sudcoreano istituì la giornata nazionale nel settembre 2019, dopo una precedente commemorazione municipale.",
+          "purpose": "Preservare la memoria della protesta democratica, del coraggio degli studenti e del ruolo della cittadinanza nei cambiamenti politici.",
+          "facts": [
+            "Le prime proteste si svolsero a Busan il 16 ottobre 1979.",
+            "Entro il 18 ottobre il movimento raggiunse Masan e Changwon.",
+            "La giornata locale è del 2017; il riconoscimento nazionale è del 2019."
+          ]
+        }
+      },
+      "sourceReviewNote": "South Korean Ministry of Interior original historical table confirms 1979 protest date, 2017 Changwon municipal recognition and 24 September 2019 statutory national day, without independent inaugural annual ceremony. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-w10-coming-of-age-day-in-korea",
+      "introducedYear": 1973,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Monday in May: Korea's coming-of-age tradition becomes a modern public day",
+          "origin": "South Korea's Coming of Age Day celebrates the responsibilities and civic standing of people entering adulthood. The Ministry of the Interior traces the much older Korean coming-of-age tradition to historical court records, including a Goryeo ceremony in 965. The modern statutory commemorative day was designated on 30 March 1973, originally falling on 20 April. The government changed it to 6 May in 1975 and to the third Monday in May in September 1984, establishing today's movable schedule. These shifts explain why the date is not a fixed traditional birthday or an unchanged medieval anniversary. The 1973 statutory recognition is distinct from earlier family and court coming-of-age ceremonies. No independently verified inaugural modern government ceremony is claimed.",
+          "promoter": "South Korea's government placed Coming of Age Day on the statutory commemorative list in 1973, recognizing an earlier social tradition.",
+          "purpose": "Invite young adults to reflect on rights, responsibilities, independence and participation in society.",
+          "facts": [
+            "The government created the modern statutory day on 30 March 1973.",
+            "The date changed from 20 April to 6 May in 1975.",
+            "Since 1984 the day has fallen on the third Monday in May."
+          ]
+        },
+        "it": {
+          "heading": "Terzo lunedì di maggio: un'antica tradizione coreana diventa giornata pubblica moderna",
+          "origin": "La Giornata coreana del raggiungimento della maggiore età richiama responsabilità e partecipazione civica di chi entra nell'età adulta. Il Ministero dell'interno collega la tradizione storica a cerimonie di corte, ricordando anche documenti del regno di Goryeo del 965. La ricorrenza statutaria moderna venne introdotta il 30 marzo 1973, inizialmente il 20 aprile. Il governo la spostò al 6 maggio nel 1975 e al terzo lunedì di maggio nel settembre 1984, fissando l'attuale calendario mobile. Perciò non si tratta di una festa che ha mantenuto un'unica data fin dal Medioevo. Il riconoscimento del 1973 è distinto dalle cerimonie familiari e di corte precedenti; la prima celebrazione governativa specifica non è documentata autonomamente.",
+          "promoter": "Il governo sudcoreano introdusse la giornata statutaria nel 1973, raccogliendo una tradizione sociale molto più antica.",
+          "purpose": "Invitare i giovani adulti a riflettere su diritti, autonomia, responsabilità e partecipazione alla società.",
+          "facts": [
+            "La giornata pubblica moderna fu riconosciuta nel marzo 1973.",
+            "Nel 1975 la data fu cambiata dal 20 aprile al 6 maggio.",
+            "Dal 1984 cade il terzo lunedì di maggio."
+          ]
+        }
+      },
+      "sourceReviewNote": "South Korean Ministry of Interior chronology documents ancient Goryeo precursor, 1973 statutory designation, 1975 shift and 1984 third-Monday date rule; inauguration unverified. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "kr-childrens-day",
+      "introducedYear": 1961,
+      "firstObservedYear": 1923,
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+        "https://contents.history.go.kr/front/hm/view.do?levelId=hm_136_0070"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 May: Korean Children's Day predates the current statutory holiday",
+          "origin": "Children's Day in Korea originated in the early twentieth-century children's rights movement led by Bang Jeong-hwan and youth groups. A primary 1923 newspaper source, preserved by the Korean History Institute, calls for recognition and respect for children, documenting the first commemorative activities around 1 May 1923. After liberation, South Korean organizers resumed celebrations on 5 May in 1946. The government designated 5 May as Children's Day in the Child Welfare Act of 30 December 1961, listed it among statutory commemorations in 1973 and made it a statutory public holiday in January 1975. The original 1923 campaign, 1961 legal date and 1975 holiday status are distinct. No 1923 event should be presented as already having taken place on the modern 5 May date.",
+          "promoter": "Bang Jeong-hwan and Korean youth associations pioneered the 1923 movement; South Korean lawmakers subsequently recognized the modern 5 May date in 1961.",
+          "purpose": "Highlight children's dignity, protection, education and rights and encourage family and community support.",
+          "facts": [
+            "The first Children's Day campaign took place around 1 May 1923.",
+            "The annual observance was restored on 5 May in 1946.",
+            "The 1961 Child Welfare Act set the modern date; public-holiday status came in 1975."
+          ]
+        },
+        "it": {
+          "heading": "5 maggio: la Giornata coreana dei bambini precede il giorno festivo moderno",
+          "origin": "La Giornata dei bambini in Corea nacque dal movimento per i diritti dell'infanzia dei primi decenni del Novecento, legato a Bang Jeong-hwan e alle associazioni giovanili. Una fonte giornalistica del 1923 conservata dagli storici coreani invita a riconoscere dignità e rispetto dei bambini e documenta le prime attività attorno al 1º maggio 1923. Dopo la liberazione, nel 1946 le celebrazioni ripresero il 5 maggio. Il governo sudcoreano indicò il 5 maggio nella legge sul benessere dell'infanzia del 30 dicembre 1961, inserì la giornata nelle commemorazioni ufficiali nel 1973 e la rese giorno festivo nazionale nel gennaio 1975. Campagna del 1923, data legale del 1961 e festività del 1975 sono fasi distinte. Non bisogna descrivere la prima edizione del 1923 come se si fosse già svolta il 5 maggio.",
+          "promoter": "Bang Jeong-hwan e le associazioni giovanili diedero impulso al movimento del 1923; il legislatore sudcoreano riconobbe successivamente la data moderna nel 1961.",
+          "purpose": "Valorizzare diritti, educazione, protezione e dignità dei bambini e il sostegno delle comunità.",
+          "facts": [
+            "Le prime iniziative si tennero attorno al 1º maggio 1923.",
+            "Il 5 maggio fu adottato per la commemorazione ripresa nel 1946.",
+            "La legge del 1961 fissò la data moderna; lo status festivo arrivò nel 1975."
+          ]
+        }
+      },
+      "sourceReviewNote": "South Korean Ministry of Interior original timeline and Korean government primary historical 1923 source independently separate 1923 first observance, 1946 shift to 5 May, 1961 legal date and 1975 public-holiday status. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
     }
   ]
 }
