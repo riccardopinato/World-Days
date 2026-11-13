@@ -142,7 +142,7 @@ def validate():
             assert r["sourceSpecificUrls"] == entry["sources"]
             assert r["sourceResearchSourceFile"].endswith(".json")
             assert r["sourceResearchBranch"] == "editorial/canada-46-origin-audit-20261113"
-    assert len(externally_verified) == 6  # nine candidate aliases map to six Wave20 IDs
+    assert len(externally_verified) == 9  # nine distinct existing Wave20 canonical origins on separate PR118
     booklet = (ROOT / "docs/WORLD_DAYS_CANADA_46_SIX_LOCALE_RESEARCH_BOOKLET_20261113.md").read_text(encoding="utf-8")
     assert booklet.count("\n## ") == 46, "one sourced chapter per indexed candidate"
     for tag in ("English (EN)", "Italiano (IT)", "Español (ES)", "Français (FR)", "Deutsch (DE)", "Português (PT)"):
