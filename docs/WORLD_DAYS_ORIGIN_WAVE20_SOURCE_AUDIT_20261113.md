@@ -5,9 +5,32 @@
 - Catalog on initial main: **1,111** canonical IDs; origin research already present on main: **225**, pending globally: **886**.
 - Active frozen cohort: **100** distinct IDs (48 global + 52 national) in `data/editorial/research_batches/wave20_first100_20261113.json`.
 - Historical narratives **actually written and primary-source-linked in this PR: 70/100** (70 original IT/EN model-authored drafts, not 100 approved).
-- **30/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
+- **13/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
 - Qualified six-locale human factual/native approvals **0**; Rich Editorial runtime publication approvals **0** for this wave.
 - A URL validates provenance format but does not prove every historical claim without independent fact checking. Consult individually every linked source, including exact law or founding record, before human editorial signoff.
+
+
+## Current exact-cohort reconciliation (13 November 2026)
+
+The canonical Wave20 JSON currently contains **87 distinct IT/EN source-linked draft records**, leaving **13 of the frozen 100 IDs without an individual history**. This is source-research draft coverage only, not independent native/factual editorial certification. No new runtime rich editorial approval is granted.
+
+Unresearched canonical IDs (original cohort sequence):
+
+13. `international-day-of-nomadic-heritage`
+79. `ph-day-of-valor`
+83. `ca-armenian-genocide-remembrance`
+85. `pe-battle-of-angamos-day`
+86. `pe-battle-of-arica-flag-day`
+87. `pe-battle-of-ayacucho-day`
+88. `pe-battle-of-junin-day`
+91. `ca-british-home-child-day`
+94. `ca-armed-forces-day`
+95. `sk-carpathian-dukla-operation-heroes-day`
+96. `sk-cernova-tragedy-remembrance-day`
+98. `italian-christopher-columbus-day`
+99. `us-columbus-day`
+
+These 13 are pending individual original-source research, **not proven source-blocked**; retain null for unverified founding, first observance and date rationale. Do not advance to Wave21 or merge the incomplete 100-ID cohort. The per-ID table below is a historical partial audit and must be extended to all 87 records before editorial signoff.
 
 ## Per-ID source-linked records
 
