@@ -10,8 +10,8 @@
   "batchSizeLimit": 100,
   "recordCount": 100,
   "progress": {
-    "individuallyResearchedInThisBlock": 60,
-    "awaitingIndependentResearch": 40,
+    "individuallyResearchedInThisBlock": 70,
+    "awaitingIndependentResearch": 30,
     "blockedForMissingOriginalSource": 0,
     "qualifiedSixLocaleHumanReviewed": 0,
     "publishedAsRichEditorial": 0
@@ -221,15 +221,19 @@
       ],
       "titleEn": "International Coffee Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2014,
+      "firstObservedYearVerified": 2015,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://ico.org/international-coffee-day/",
+        "https://dev.ico.org/show_news.asp?id=366",
+        "https://dev.ico.org/show_news.asp?id=490"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -643,15 +647,18 @@
       ],
       "titleEn": "Week of Solidarity with the Peoples of Non-Self-Governing Territories",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1999,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.un.org/en/observances/non-self-governing-week",
+        "https://www.un.org/unispal/document/auto-insert-207629/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1128,15 +1135,19 @@
       ],
       "titleEn": "World Migratory Bird Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2006,
+      "firstObservedYearVerified": 2006,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unep-aewa.org/page/world-migratory-bird-day-campaign",
+        "https://www.unep-aewa.org/es/node/29200",
+        "https://www.unep-aewa.org/about/brief-history-aewa"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1965,15 +1976,18 @@
       ],
       "titleEn": "Algerian War Remembrance Day — France",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2012,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026733612/",
+        "https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000026447687/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1991,15 +2005,18 @@
       ],
       "titleEn": "Alpini Remembrance Day — Italy",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2022,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=22G00054&atto.dataPubblicazioneGazzetta=2022-05-07&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=multivigenza&title=lbl.dettaglioAtto",
+        "https://www.gazzettaufficiale.it/eli/id/2022/05/07/22G00054/sg"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2017,15 +2034,18 @@
       ],
       "titleEn": "Anniversary of the Battle of Vimy Ridge (Canada)",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2003,
+      "firstObservedYearVerified": 2003,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2016/04/marking-99-years-since-the-battle-of-vimy-ridge.html",
+        "https://www.canada.ca/en/news/archive/2013/04/message-from-excellency-right-honourable-david-johnston-governor-general-canada-occasion-vimy-ridge-day.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2069,15 +2089,19 @@
       ],
       "titleEn": "Anzac Day — Australia",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1916,
+      "firstObservedYearVerified": 1916,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.nma.gov.au/defining-moments/resources/first-anzac-day",
+        "https://www.awm.gov.au/commemoration/anzac-day/traditions",
+        "https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/special/souvenirs/anzac"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2095,15 +2119,19 @@
       ],
       "titleEn": "Anzac Day — New Zealand",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1916,
+      "firstObservedYearVerified": 1916,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://nzhistory.govt.nz/media/photo/anzac-day-gazette-notice-1916",
+        "https://nzhistory.govt.nz/page/first-anzac-day",
+        "https://nzhistory.govt.nz/war/anzac-day-resources"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2199,15 +2227,18 @@
       ],
       "titleEn": "Architectural Accessibility Day — Italy",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2003,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=03A04897&atto.dataPubblicazioneGazzetta=2003-04-11&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://www.gazzettaufficiale.it/eli/id/2003/04/11/03A04897/sg"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2225,15 +2256,19 @@
       ],
       "titleEn": "Armed Forces Day — United Kingdom",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2009,
+      "firstObservedYearVerified": 2009,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.gov.uk/government/news/nottingham-to-host-armed-forces-day-2013",
+        "https://www.gov.uk/government/news/public-shows-support-on-armed-forces-day",
+        "https://www.armedforcesday.org.uk/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2714,5 +2749,5 @@
       "storyFile": null
     }
   ],
-  "progressNote": "60/100 unique canonical ID-bound IT/EN original source-researched stories now saved, with 40 canonical IDs remaining in the same fixed cohort. No six-language human or Rich Editorial approval claimed; unknown years remain null."
+  "progressNote": "70/100 distinct canonical source-researched EN/IT draft origin stories; 30 outstanding in same frozen 100-ID cohort. No human six-language editorial signoff and no rich-runtime publishing."
 }
