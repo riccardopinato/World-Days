@@ -1,5 +1,16 @@
 # World Days — Active roadmap
 
+## Wave20 — frozen 100-ID source research completed (13 November 2026)
+
+- [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.
+- [x] Write and register 100/100 distinct IT/EN original source-linked histories with legal/cultural chronology, founders or explicit unknowns, significance and 2–5 contextual facts in each language.
+- [x] Complete the original bilingual 100-chapter booklet and full 100-record primary-source research audit and align the machine-readable progress ledger, with zero unresearched entries in the frozen cohort.
+- [x] Keep the human/native six-locale editorial and rich-runtime flags at zero; document source-quality limitations and unknown first ceremonies instead of inventing details.
+- [ ] Complete and verify exact-head CI (canonical build, source research index, all Python validators, Flutter analysis/tests and Web release build); resolve any review findings and merge only with protection gates satisfied.
+- [ ] Once merged, verify **325/1,111** unique researched IT/EN historical origins in `main`, **786** still missing; generate the next distinct group of 100 without duplicate IDs.
+- [ ] Independently fact-check and obtain qualified native EN/IT/ES/FR/DE/PT reviews before ever promoting source drafts to rich editorial. No APK, Play or deployment.
+
+
 ## Wave19 — last seven source gaps in the original 100 drafts (12 November 2026)
 
 - [x] Read one immutable App Factory `CURRENT.yaml` for this session (Master v27, Golden Index v29) and World Days `AGENTS.md` / Product Bible; use only Chat.

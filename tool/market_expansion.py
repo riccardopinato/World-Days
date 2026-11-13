@@ -163,7 +163,7 @@ def load_wave03():
         assert item["country"] in expected
         assert item["humanEditorialStatus"] == "METADATA_PRIMARY_VERIFIED_STORY_NOT_REVIEWED"
         assert item["holidayClassification"] in {"STATUTORY_NATIONAL_HOLIDAY", "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"}
-        assert item["holidayClassification"] == ("STATUTORY_NATIONAL_HOLIDAY" if item["country"] == "JP" else "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY")
+        assert item["holidayClassification"] == ("STATUTORY_NATIONAL_HOLIDAY" if item["country"] == "JP" or rid == "brazil-black-consciousness-day" else "NATIONAL_CIVIC_OBSERVANCE_NOT_AUTOMATIC_PUBLIC_HOLIDAY"), rid
         assert set(item["localizedTitles"]) == set(LOCALES)
         assert item["localizedTitles"]["en"] == title
         assert all(item["localizedTitles"][l].strip() for l in LOCALES)

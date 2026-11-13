@@ -1,5 +1,14 @@
 # World Days
 
+## Wave20 — complete 100-ID source-researched IT/EN cohort (13 November 2026)
+
+- **100/100 distinct canonical IDs** (48 global, 52 national) have individually source-linked original IT+EN historical narratives in `data/editorial/batches/origin_stories_wave20_20261113.json`. All 100 manifest entries are reconciled; **0/100** remains without a draft history.
+- Their dates, formal institution years versus earlier observances, promoters, date explanations or expressly unknown facts, and 2–5 contextual facts per language are described in the [100-story bilingual booklet](docs/WORLD_DAYS_ORIGIN_WAVE20_IT_EN_20261113.md) and the [100-ID source audit](docs/WORLD_DAYS_ORIGIN_WAVE20_SOURCE_AUDIT_20261113.md).
+- **On the protected exact-head CI-positive merge only:** the historical research ledger increases from **225/1,111** to **325/1,111** unique canonical source-linked IT/EN histories; **786** origin histories remain unresearched at the unchanged 1,111-ID catalog size. Before merge `main` remains at **225**.
+- These are **model-authored source-researched drafts, not qualified human factual or native language certification**. No six-locale human approval is claimed; `runtimeRichEditorialApproved=false` remains a fail-closed gate for public Rich Editorial.
+- Wave20 source texts are preserved separately from 56 legacy reviewed editorial articles. No APK, Play Store, Pages deployment or rich runtime publication is authorized.
+
+
 ## Wave19: research the last seven gaps in the first 100 original bilingual drafts (12 November 2026)
 
 This PR integrates **7 new unique canonical source-researched origin histories**: detained/missing UN staff, International Wellness Day, International Day of Greening the Planet, earthquake victims, Second World War remembrance (8–9 May), World Oceans Day (reused from original PR #99), and International Day of the Tropics.
