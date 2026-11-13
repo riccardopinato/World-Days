@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-14",
+  "purpose": "Primary-source discrepancies found while extending PR118 EN/IT origin histories to ES/FR/DE/PT. Must be reconciled in canonical base record before editorial approval.",
+  "status": "OPEN_CANONICAL_EN_IT_CORRECTION_REQUIRED",
+  "sourceBasePR": 118,
+  "sourceBaseHead": "477557ee6a6115e2479c2009c6daecde5a590026",
+  "sourceBasePath": "data/editorial/batches/origin_stories_wave20_20261113.json",
+  "qualifiedHumanApproval": false,
+  "items": [
+    {
+      "id": "ph-day-of-valor",
+      "severity": "MAJOR_ORIGIN_TIMELINE_OMISSION",
+      "currentBaseClaim": "Republic Act No. 3022, approved 6 April 1961, proclaimed annual 9 April Bataan Day as legal holiday.",
+      "missingBefore": "Philippine President Ramon Magsaysay had already proclaimed 9 April 1956 Bataan Day and a special nationwide public holiday, via Proclamation No. 277 dated 23 March 1956.",
+      "correctedChronology": [
+        "1942-04-09: Bataan forces surrendered; ensuing forced march",
+        "1956-03-23: Proclamation No. 277 declared 9 April 1956 a special public holiday for Bataan Day",
+        "1961-04-06: Republic Act No. 3022 made 9 April an annual legal holiday with one minute of silence at 16:30",
+        "1987: Executive Order 203 used Araw ng Kagitingan/Day of Valor among regular holidays"
+      ],
+      "sources": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/92421",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/8049"
+      ],
+      "requiredChange": "Amend PR118 canonical EN/IT to mention 1956 special nationwide proclamation before 1961 annual holiday law. Original master chronology currently incomplete, not false that the 1961 law was established.",
+      "published": false
+    },
+    {
+      "id": "ph-bonifacio-day",
+      "severity": "SOURCE_METADATA_INCONSISTENCY",
+      "currentBaseClaim": "Act No. 2946, approved 16 February 1921",
+      "discrepancy": "Senate Legislative Reference Bureau header says Date of Approval: February 15, 1921, while official full text directly underneath says Approved, February 16, 1921. The PDF/full law and Supreme Court edition should be checked to establish controlling date.",
+      "sources": [
+        "https://ldr.senate.gov.ph/legislative-issuance/act-no-2946",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/36191"
+      ],
+      "requiredChange": "Keep legally secure year 1921; either use February 1921 without precise day in final article until verified, or resolve inconsistency with primary reproduction; do not silently prefer metadata to full text.",
+      "published": false
+    }
+  ]
+}
