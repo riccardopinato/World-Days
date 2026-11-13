@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 87,
+  "count": 91,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2982,6 +2982,143 @@
         }
       },
       "sourceReviewNote": "South Korean Ministry of Interior original timeline and Korean government primary historical 1923 source independently separate 1923 first observance, 1946 shift to 5 May, 1961 legal date and 1975 public-holiday status. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "pe-battle-of-angamos-day",
+      "introducedYear": 1940,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.congreso.gob.pe/Docs/DGP/DIDP/procedimientos-autografas-ENVIADAS-2021-2026.html",
+        "https://www.gob.pe/27103-historia-de-la-marina-de-guerra-del-peru-siglo-xix",
+        "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Mociones_de_Orden_del_Dia/Saludo/MC0710920181005.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 October: Peru commemorates Miguel Grau and the naval battle of Angamos",
+          "origin": "Peru remembers the naval Battle of Angamos, fought on 8 October 1879 during the War of the Pacific, when Admiral Miguel Grau was killed aboard the monitor Huáscar. The date also became part of the national Navy Day tradition. The Peruvian Congress' historical legal account identifies Law 9126 of 3 June 1940, which formally declared 8 October a national tribute to Grau and his companions and dedicated it to the flag oath of naval cadets. It followed an earlier 1921 law that already tied Navy Day to the naval battle, while further changes to Navy Day's own calendar followed in 1945. The 1940 tribute and the 1879 battle are distinct; the first actual ceremony under the 1940 commemorative act is not independently documented in the original sources, and remains unknown.",
+          "promoter": "Peru's Congress established the 8 October memorial tribute through Law 9126 in 1940, building on earlier Navy Day recognition and historical remembrance of Miguel Grau.",
+          "purpose": "Honour the fallen sailors and preserve knowledge of Peru's maritime history, the Huáscar and the War of the Pacific.",
+          "facts": [
+            "The Battle of Angamos occurred on 8 October 1879.",
+            "Law 9126 of June 1940 established an 8 October tribute to Admiral Grau.",
+            "The Peruvian Navy also observes its own anniversary on 8 October."
+          ]
+        },
+        "it": {
+          "heading": "8 ottobre: il Perù ricorda Miguel Grau e la battaglia navale di Angamos",
+          "origin": "Il Perù ricorda la battaglia navale di Angamos, combattuta l'8 ottobre 1879 durante la guerra del Pacifico, in cui l'ammiraglio Miguel Grau morì a bordo del monitor Huáscar. La data è associata anche alla tradizione della Giornata della Marina militare. Una ricostruzione legale del Congresso peruviano cita la legge 9126 del 3 giugno 1940, che designò l'8 ottobre come giorno di omaggio nazionale a Grau e ai suoi compagni e lo collegò al giuramento alla bandiera dei cadetti navali. Esisteva già una legge del 1921 che univa la Giornata della Marina alla battaglia, mentre altri cambiamenti del calendario navale seguirono nel 1945. L'omaggio del 1940 è un fatto distinto dallo scontro del 1879; la prima cerimonia svolta sotto quella specifica norma non è documentata indipendentemente e resta sconosciuta.",
+          "promoter": "Il Congresso peruviano istituì l'omaggio nazionale con la legge 9126 del 1940, su una tradizione di memoria navale precedente.",
+          "purpose": "Ricordare i marinai caduti e approfondire la storia della Marina del Perù, del Huáscar e della guerra del Pacifico.",
+          "facts": [
+            "La battaglia di Angamos si svolse l'8 ottobre 1879.",
+            "La legge 9126 del giugno 1940 dichiarò il giorno omaggio nazionale a Miguel Grau.",
+            "L'8 ottobre è associato anche alla giornata della Marina militare peruviana."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Peruvian Law 9126 text cited by congressional motion names 8 Oct memorial under 1940 law, preceded by 1921 navy day; first ceremony specifically under 1940 act remains unverified. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false."
+    },
+    {
+      "observanceId": "pe-battle-of-arica-flag-day",
+      "introducedYear": 2023,
+      "firstObservedYear": null,
+      "sources": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/2187453-1/",
+        "https://www.elperuano.pe/noticia/215409-ley-no-31788-declaran-feriado-nacional-el-7-de-junio-por-el-dia-de-la-bandera"
+      ],
+      "locale": {
+        "en": {
+          "heading": "7 June: Peru distinguishes the Battle of Arica and modern Flag Day law",
+          "origin": "Peru's Law 31788, published on 15 June 2023 after approval by Congress, made 7 June a national paid holiday commemorating both the Battle of Arica and Flag Day. The legislation amended Legislative Decree 713 on annual holidays and required public institutions to renew the oath of fidelity to the Peruvian flag. The date recalls the Battle of Arica of 7 June 1880 during the War of the Pacific, a historical event remembered long before the new nationwide non-working holiday. The first June 7 after the 2023 law was 2024, but the founding act does not itself identify a first official ceremony, so that first event remains unverified rather than being presumed. The law's current statutory status must not be confused with older local and military flag traditions.",
+          "promoter": "Peru's Congress enacted Law 31788 in 2023 to provide a nationwide paid holiday for the existing 7 June battle-and-flag commemoration.",
+          "purpose": "Remember the Battle of Arica, the symbolism of the national flag and historical civic traditions.",
+          "facts": [
+            "Law 31788 was published in June 2023, after the year's June 7 date.",
+            "It added the day to the national paid-holiday list under Decree 713.",
+            "The law requires renewal of the pledge of fidelity to the flag in public institutions."
+          ]
+        },
+        "it": {
+          "heading": "7 giugno: in Perù la battaglia di Arica e il giorno della bandiera diventano festivi",
+          "origin": "La legge peruviana 31788, pubblicata il 15 giugno 2023 dopo l'approvazione del Congresso, rese il 7 giugno un giorno festivo nazionale retribuito dedicato alla battaglia di Arica e alla bandiera. Il provvedimento modificò il decreto legislativo 713 e impose alle amministrazioni il rinnovo del giuramento di fedeltà alla bandiera. La data ricorda la battaglia di Arica del 7 giugno 1880 durante la guerra del Pacifico, commemorata ben prima dell'introduzione del nuovo giorno non lavorativo su scala nazionale. Il primo 7 giugno successivo alla legge fu quello del 2024, ma l'atto non identifica una prima cerimonia specifica, quindi il dato rimane non accertato. La nuova festività statale non deve essere confusa con tradizioni militari o civiche precedenti.",
+          "promoter": "Il Congresso del Perù approvò nel 2023 la legge 31788 che rese festiva a livello nazionale la ricorrenza precedente del 7 giugno.",
+          "purpose": "Ricordare la battaglia di Arica, il significato della bandiera e la storia civica della nazione.",
+          "facts": [
+            "La legge 31788 fu pubblicata nel giugno 2023, dopo il 7 giugno di quell'anno.",
+            "Il provvedimento aggiunse la data fra le festività retribuite nazionali.",
+            "La legge richiese il rinnovo del giuramento alla bandiera nelle istituzioni pubbliche."
+          ]
+        }
+      },
+      "sourceReviewNote": "El Peruano original Law 31788 and official legislative explanation distinguish historical 1880 battle, June 2023 statutory holiday, mandatory flag oath; first ceremony under new law remains null. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false."
+    },
+    {
+      "observanceId": "pe-battle-of-ayacucho-day",
+      "introducedYear": 2013,
+      "firstObservedYear": null,
+      "sources": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/1025734-1",
+        "https://comunicaciones.congreso.gob.pe/noticias/declaran-feriado-el-9-de-diciembre-al-conmemorarse-la-batalla-de-ayacucho/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 December: Peru legislates remembrance before making Ayacucho a holiday",
+          "origin": "Peru's Law 30123, promulgated on 9 December 2013 and published the following day, formally declared 9 December the Day of the Battle of Ayacucho and the Consolidation of Independence of Peru. The date commemorates the major patriot victory in the battle fought on 9 December 1824, a milestone in ending Spanish rule on the South American continent. A second law, 31381, adopted in December 2021, made the same date a nationwide non-working public holiday, a legal status separate from the earlier national commemorative designation. The congressional record for that change names Germán Tacuri Valdivia as sponsor of a 2021 proposal, without attributing the older 2013 law to him. The initial year of public ceremonial celebrations under Law 30123 has not been individually verified.",
+          "promoter": "Peru's Congress established the commemorative day in Law 30123 in 2013, with a separate public-holiday statute in 2021.",
+          "purpose": "Remember the Battle of Ayacucho and its contribution to Peru's independence and regional history.",
+          "facts": [
+            "The Battle of Ayacucho was fought on 9 December 1824.",
+            "Law 30123 recognized the 9 December commemorative day in 2013.",
+            "Law 31381 added national non-working holiday status in 2021."
+          ]
+        },
+        "it": {
+          "heading": "9 dicembre: il Perù riconosce la battaglia di Ayacucho prima di renderla festiva",
+          "origin": "La legge peruviana 30123, promulgata il 9 dicembre 2013 e pubblicata il giorno successivo, dichiarò ufficialmente il 9 dicembre Giorno della battaglia di Ayacucho e della consolidazione dell'indipendenza del Perù. La data ricorda la vittoria dei patrioti del 9 dicembre 1824, un evento decisivo per la fine del dominio spagnolo in Sudamerica. Una seconda legge, la 31381 del dicembre 2021, trasformò la stessa ricorrenza in giorno festivo nazionale non lavorativo, uno status diverso dalla designazione del 2013. Il fascicolo parlamentare di questa modifica cita Germán Tacuri Valdivia quale promotore di una proposta del 2021, senza attribuirgli l'atto originario del 2013. L'anno della prima cerimonia pubblica svolta sotto la legge 30123 non è stato dimostrato individualmente.",
+          "promoter": "Il Congresso del Perù istituì il giorno commemorativo nel 2013 con la legge 30123 e stabilì una distinta festività nazionale nel 2021.",
+          "purpose": "Preservare il ricordo della battaglia di Ayacucho e il suo ruolo nell'indipendenza peruviana e sudamericana.",
+          "facts": [
+            "La battaglia di Ayacucho si svolse il 9 dicembre 1824.",
+            "La legge 30123 riconobbe formalmente il giorno nel 2013.",
+            "La legge 31381 lo rese festivo nazionale nel 2021."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original 2013 El Peruano Law 30123 and Peruvian Congress 2021 holiday passage independently confirm commemorative recognition in 2013 and later 2021 holiday, without invented first ceremony or earlier legislator sponsor. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false."
+    },
+    {
+      "observanceId": "pe-battle-of-junin-day",
+      "introducedYear": 2022,
+      "firstObservedYear": 2022,
+      "sources": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/2089960-2",
+        "https://www.gob.pe/institucion/sunafil/noticias/637979-feriado-del-6-de-agosto-deberas-recibir-un-pago-adicional-si-trabajas-este-dia"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 August: Peru introduces a nationwide holiday for the Battle of Junín",
+          "origin": "On 26 July 2022 Peru published Law 31530, declaring 6 August a national paid public holiday in memory of the Battle of Junín. The law amended Legislative Decree 713 on paid holidays. The historical battle took place on 6 August 1824 during the campaign for independence from Spain. A contemporaneous statement issued by the labour inspectorate SUNAFIL on 5 August 2022 confirmed that the newly created holiday would be observed by public and private workers the following day, establishing 2022 as its first actual nationwide holiday under this statute. This does not prove that no regional commemorations occurred before 2022; local initiatives in Junín long predated the new nationwide law. The date commemorates the battle anniversary, while formal nationwide holiday recognition is recent.",
+          "promoter": "The Peruvian Congress and Government established nationwide statutory holiday status through Law 31530 in 2022.",
+          "purpose": "Remember the Battle of Junín and explain the legal and historical distinctions between the 1824 battle and its modern national holiday.",
+          "facts": [
+            "Law 31530 was published on 26 July 2022.",
+            "A government labour office confirmed the first nationwide holiday for 6 August 2022.",
+            "The date remembers the Battle of Junín fought on 6 August 1824."
+          ]
+        },
+        "it": {
+          "heading": "6 agosto: il Perù introduce una festività nazionale per la battaglia di Junín",
+          "origin": "Il 26 luglio 2022 il Perù pubblicò la legge 31530, che dichiarava il 6 agosto giorno festivo nazionale retribuito in ricordo della battaglia di Junín. Il provvedimento modificò il decreto legislativo 713 sulle festività lavorative. La battaglia storica si svolse il 6 agosto 1824 durante la campagna per l'indipendenza dalla Spagna. Un comunicato contemporaneo dell'ispettorato del lavoro SUNAFIL, datato 5 agosto 2022, conferma che la nuova festività sarebbe stata osservata dai lavoratori pubblici e privati il giorno seguente: il 2022 è quindi il primo anno della festività nazionale prevista da questa norma. Ciò non nega le commemorazioni regionali precedenti nella zona di Junín, che hanno una storia separata. La data ricorda il combattimento del 1824, ma il riconoscimento nazionale è molto più recente.",
+          "promoter": "Il Congresso e il governo peruviano istituirono il giorno festivo nazionale mediante la legge 31530 del 2022.",
+          "purpose": "Ricordare la battaglia di Junín e distinguere l'avvenimento storico dalla successiva legge nazionale.",
+          "facts": [
+            "La legge 31530 fu pubblicata il 26 luglio 2022.",
+            "L'ispettorato del lavoro confermò la nuova festività del 6 agosto 2022.",
+            "La data ricorda la battaglia del 6 agosto 1824."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Peruvian Law 31530 promulgated July 2022 and contemporaneous SUNAFIL labour circular 5 August prove first next-day nationwide statutory holiday in 2022, distinct from earlier regional remembrance. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false."
     }
   ]
 }
