@@ -3,11 +3,11 @@
 ## Wave20: work through 100 actual missing origins, not seven (13 November 2026)
 
 - [x] Create a frozen canonical cohort of exactly **100 distinct missing IDs**, 48 global and 52 national; archive the source-level per-ID lead and quality gate in a machine-readable registry.
-- [x] Research and write original IT/EN histories with source links, formal versus original ceremony chronology, traceable institutional proponents or explicit unknowns, contextual significance and multiple concrete facts for **35/100**.
+- [x] Research and write original IT/EN histories with source links, formal versus original ceremony chronology, traceable institutional proponents or explicit unknowns, contextual significance and multiple concrete facts for **60/100**.
 - [x] Generate the readable bilingual booklet and per-ID primary-source audit without marking drafts as professionally reviewed or user-visible Rich Editorial.
-- [ ] Complete origin-specific research for the remaining **65/100**; country records need distinct original governmental sources and legal/cultural status, not just a calendar index.
+- [ ] Complete origin-specific research for the remaining **40/100**; country records need distinct original governmental sources and legal/cultural status, not just a calendar index.
 - [ ] Integrate through exact-head source/coverage Python validation, Flutter analysis/tests and Web build, review and guarded merge; do not force CI and do not publish APK/Play/deploy.
-- [ ] After green merge regenerate canonical worklist; **225/1,111** on main prior to this branch, expected **260/1,111** and **851** globally pending when all current 35 are accepted. Keep all remaining 65 in the same frozen cohort until they are researched, then proceed to the next 100.
+- [ ] After green merge regenerate canonical worklist; **225/1,111** on main prior to this branch, expected **285/1,111** and **826** globally pending when all current 60 are accepted. Keep all remaining 40 in the same frozen cohort until they are researched, then proceed to the next 100.
 - [ ] Qualified native EN/IT/ES/FR/DE/PT and factual human signoff not achieved for this new wave. Maintain `runtimeRichEditorialApproved=false`.
 
 
