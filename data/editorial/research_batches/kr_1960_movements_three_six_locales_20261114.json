@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_MOIS_HISTORY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 3,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "evidenceNote": "MOIS provides primary official chronology; linked index and history are two views of one ministry, not independent authorities.",
+  "records": [
+    {
+      "observanceId": "kr-w10-february-28-democracy-movement-remembrance",
+      "country": "KR",
+      "observanceDate": "02-28",
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 February: the Daegu student protests that preceded April 1960",
+          "origin": "On 28 February 1960, students and citizens in Daegu protested against the authoritarian political climate in South Korea. The government history of the 2·28 Democratic Movement describes it as an early student-led challenge that helped set the stage for the 15 March demonstrations and the 19 April Revolution later that year. More than half a century afterwards, the Republic of Korea formally designated 28 February an official commemorative day on 6 February 2018. The original protest, its influence on subsequent democratic movements and its much later legal recognition are different events.",
+          "promoter": "The 1960 demonstrations involved Daegu students and citizens; the South Korean government created the official remembrance day in February 2018.",
+          "purpose": "Remember the students' civic courage and explain how the Daegu mobilization contributed to Korea's wider democratization movement.",
+          "facts": [
+            "The Daegu demonstrations took place on 28 February 1960.",
+            "The protests preceded the 15 March and 19 April movements of the same year.",
+            "The official commemorative day was established on 6 February 2018."
+          ]
+        },
+        "it": {
+          "heading": "28 febbraio: la protesta studentesca di Daegu prima dell'aprile 1960",
+          "origin": "Il 28 febbraio 1960 studenti e cittadini di Daegu protestarono contro il clima politico autoritario in Corea del Sud. La ricostruzione del governo identifica il movimento democratico del 2·28 come una delle prime mobilitazioni studentesche che prepararono il terreno per le proteste del 15 marzo e la Rivoluzione del 19 aprile dello stesso anno. Molti decenni più tardi, il 6 febbraio 2018, la Repubblica di Corea riconobbe ufficialmente il 28 febbraio come giornata commemorativa. La protesta originaria, il suo ruolo nella successiva mobilitazione democratica e il riconoscimento legale del 2018 sono eventi distinti.",
+          "promoter": "Le proteste del 1960 coinvolsero studenti e cittadini di Daegu; il governo sudcoreano istituì la giornata ufficiale nel febbraio 2018.",
+          "purpose": "Ricordare il coraggio civile degli studenti e il ruolo della mobilitazione di Daegu nel processo di democratizzazione coreano.",
+          "facts": [
+            "Le manifestazioni di Daegu avvennero il 28 febbraio 1960.",
+            "Precedettero i movimenti del 15 marzo e del 19 aprile 1960.",
+            "La giornata commemorativa legale fu istituita il 6 febbraio 2018."
+          ]
+        },
+        "es": {
+          "heading": "28 de febrero: la protesta de Daegu que precedió a abril de 1960",
+          "origin": "El 28 de febrero de 1960, estudiantes y ciudadanos de Daegu protestaron contra el clima político autoritario de Corea del Sur. La historia institucional del Movimiento Democrático del 2·28 lo describe como una de las primeras iniciativas estudiantiles que prepararon el camino para las movilizaciones del 15 de marzo y la Revolución del 19 de abril de ese mismo año. Muchas décadas después, el Gobierno surcoreano estableció oficialmente el 28 de febrero como día conmemorativo el 6 de febrero de 2018. Los hechos de 1960 y su reconocimiento legal en 2018 no deben confundirse.",
+          "promoter": "Los estudiantes y ciudadanos de Daegu participaron en 1960; el Gobierno surcoreano creó la fecha oficial en febrero de 2018.",
+          "purpose": "Recordar la valentía de los estudiantes y explicar su papel en el proceso de democratización coreano.",
+          "facts": [
+            "Las protestas de Daegu se produjeron el 28 de febrero de 1960.",
+            "El movimiento precedió a las movilizaciones del 15 de marzo y 19 de abril.",
+            "La conmemoración oficial fue creada el 6 de febrero de 2018."
+          ]
+        },
+        "fr": {
+          "heading": "28 février : Daegu et les protestations avant avril 1960",
+          "origin": "Le 28 février 1960, des étudiants et des habitants de Daegu se sont mobilisés contre le climat politique autoritaire en Corée du Sud. La chronologie gouvernementale présente le mouvement démocratique du 2·28 comme une première mobilisation étudiante qui a contribué à préparer les protestations du 15 mars et la révolution du 19 avril de la même année. Ce n'est que plusieurs décennies plus tard, le 6 février 2018, que le gouvernement sud-coréen a inscrit le 28 février parmi les journées commémoratives officielles. La mobilisation historique de 1960 et sa reconnaissance légale de 2018 constituent deux étapes distinctes.",
+          "promoter": "Les étudiants et habitants de Daegu furent les acteurs de 1960; le gouvernement institua la journée nationale en 2018.",
+          "purpose": "Honorer l'engagement civique des jeunes et expliquer la place de Daegu dans l'histoire démocratique coréenne.",
+          "facts": [
+            "Les manifestations de Daegu se sont déroulées le 28 février 1960.",
+            "Elles ont précédé les mobilisations du 15 mars et du 19 avril.",
+            "Le jour commémoratif a été institué le 6 février 2018."
+          ]
+        },
+        "de": {
+          "heading": "28. Februar: Die Studentenproteste in Daegu vor der Revolution 1960",
+          "origin": "Am 28. Februar 1960 protestierten Studierende und Bürger in Daegu gegen das autoritäre politische Klima in Südkorea. Die Chronik der Regierung ordnet die demokratische Bewegung vom 2·28 als frühe studentische Mobilisierung ein, die den späteren Protesten vom 15. März und der Revolution vom 19. April desselben Jahres vorausging. Erst viele Jahrzehnte später wurde der 28. Februar am 6. Februar 2018 als offizieller staatlicher Gedenktag anerkannt. Die Ereignisse des Jahres 1960, ihre Wirkung auf die Demokratiebewegung und die rechtliche Anerkennung im Jahr 2018 sind unterschiedliche Stationen.",
+          "promoter": "Die historischen Demonstrationen wurden von Studierenden und Einwohnern Daegus getragen; die Regierung schuf 2018 den Gedenktag.",
+          "purpose": "Den Einsatz der jungen Menschen würdigen und ihren Beitrag zur demokratischen Entwicklung Koreas erläutern.",
+          "facts": [
+            "Die Proteste in Daegu fanden am 28. Februar 1960 statt.",
+            "Sie gingen den Bewegungen vom 15. März und 19. April voraus.",
+            "Der staatliche Gedenktag wurde am 6. Februar 2018 eingeführt."
+          ]
+        },
+        "pt": {
+          "heading": "28 de fevereiro: os protestos de Daegu antes de abril de 1960",
+          "origin": "Em 28 de fevereiro de 1960, estudantes e cidadãos de Daegu manifestaram-se contra o ambiente político autoritário na Coreia do Sul. A cronologia oficial descreve o Movimento Democrático de 2·28 como uma das primeiras mobilizações estudantis que antecederam as manifestações de 15 de março e a Revolução de 19 de abril desse ano. Apenas muitas décadas mais tarde, em 6 de fevereiro de 2018, o governo sul-coreano reconheceu oficialmente o 28 de fevereiro como data comemorativa. Os acontecimentos de 1960, a sua influência no movimento democrático e o reconhecimento de 2018 são momentos distintos.",
+          "promoter": "Estudantes e habitantes de Daegu protagonizaram as manifestações; o governo instituiu a comemoração em fevereiro de 2018.",
+          "purpose": "Homenagear a coragem cívica dos estudantes e explicar o papel de Daegu na democratização coreana.",
+          "facts": [
+            "As manifestações de Daegu decorreram em 28 de fevereiro de 1960.",
+            "Antecederam os movimentos de 15 de março e 19 de abril.",
+            "O dia oficial foi criado em 6 de fevereiro de 2018."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original 1960 dates and later statutory designations verified in primary MOIS institutional chronology. Distinct local events share a democratization sequence origin cluster; no duplicate canonical IDs. Qualified human factual and native-locale reviews not performed."
+    },
+    {
+      "observanceId": "kr-w10-march-8-democracy-uprising-remembrance",
+      "country": "KR",
+      "observanceDate": "03-08",
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 March: Daejeon students in the 1960 democracy movement",
+          "origin": "On 8 March 1960, more than a thousand Daejeon High School students protested against electoral corruption, the ruling political establishment and restrictions on academic freedom. South Korea's Ministry of the Interior places the demonstration alongside the Daegu movement of 28 February and the Masan uprising of 15 March as events leading toward the April 19 Revolution. The government created a statutory day of remembrance for the 8 March uprising on 2 November 2018. The commemoration is linked to, but not identical with, the national April 19 observance: each remembers a distinct local event and has a separate date and legal history.",
+          "promoter": "Daejeon students organized the original 1960 demonstration; the South Korean government established its legal commemorative day in 2018.",
+          "purpose": "Preserve the memory of students' demands for fair elections and educational freedom, and explain their role in democratic change.",
+          "facts": [
+            "More than one thousand students protested in Daejeon on 8 March 1960.",
+            "The movement formed part of the sequence leading to April 19.",
+            "The statutory commemorative day was adopted on 2 November 2018."
+          ]
+        },
+        "it": {
+          "heading": "8 marzo: gli studenti di Daejeon nel movimento democratico del 1960",
+          "origin": "L'8 marzo 1960 oltre mille studenti della Daejeon High School protestarono contro la corruzione elettorale, il regime politico e le restrizioni alla libertà scolastica. Il Ministero dell'interno sudcoreano colloca questa manifestazione, insieme al movimento di Daegu del 28 febbraio e alla rivolta di Masan del 15 marzo, tra gli avvenimenti che prepararono la Rivoluzione del 19 aprile. Il governo istituì una giornata commemorativa ufficiale per i fatti dell'8 marzo il 2 novembre 2018. Le diverse ricorrenze sono collegate dalla stessa stagione di mobilitazione, ma ricordano eventi locali distinti e possiedono date e percorsi normativi separati.",
+          "promoter": "Gli studenti di Daejeon guidarono la protesta del 1960; il governo sudcoreano istituì la ricorrenza legale nel 2018.",
+          "purpose": "Preservare la memoria delle richieste studentesche di elezioni corrette e libertà scolastica nel processo democratico.",
+          "facts": [
+            "Oltre mille studenti manifestarono a Daejeon l'8 marzo 1960.",
+            "L'evento precedette la Rivoluzione del 19 aprile.",
+            "La giornata ufficiale venne istituita il 2 novembre 2018."
+          ]
+        },
+        "es": {
+          "heading": "8 de marzo: estudiantes de Daejeon en el movimiento democrático de 1960",
+          "origin": "El 8 de marzo de 1960, más de mil alumnos de Daejeon High School protestaron contra la corrupción electoral, el poder autoritario y las restricciones a la libertad académica. El Ministerio del Interior de Corea del Sur sitúa esta movilización junto a las de Daegu del 28 de febrero y Masan del 15 de marzo entre los antecedentes de la Revolución del 19 de abril. El Gobierno estableció una conmemoración oficial del levantamiento del 8 de marzo el 2 de noviembre de 2018. Aunque relacionadas, estas jornadas recuerdan acontecimientos locales diferentes y tienen fechas e historias legales propias.",
+          "promoter": "Los estudiantes de Daejeon participaron en 1960; el Gobierno creó el día conmemorativo en noviembre de 2018.",
+          "purpose": "Recordar la demanda de elecciones justas y libertad educativa y su contribución al cambio democrático.",
+          "facts": [
+            "Más de mil estudiantes protestaron el 8 de marzo de 1960.",
+            "La manifestación fue anterior a la Revolución del 19 de abril.",
+            "La conmemoración legal se creó el 2 de noviembre de 2018."
+          ]
+        },
+        "fr": {
+          "heading": "8 mars : les élèves de Daejeon et la démocratie en 1960",
+          "origin": "Le 8 mars 1960, plus d'un millier d'élèves du lycée de Daejeon ont manifesté contre les fraudes électorales, le régime autoritaire et les restrictions à la liberté d'étudier. Le ministère sud-coréen de l'Intérieur place cette action, avec celles de Daegu le 28 février et de Masan le 15 mars, parmi les événements qui ont préparé la révolution du 19 avril. Le gouvernement a créé la journée commémorative légale du 8 mars le 2 novembre 2018. Ces différentes commémorations appartiennent à une même séquence politique, mais correspondent à des mobilisations locales distinctes, chacune avec son propre calendrier.",
+          "promoter": "Les élèves de Daejeon ont pris part au mouvement de 1960; l'État a institué le jour commémoratif en 2018.",
+          "purpose": "Préserver la mémoire des revendications pour des élections honnêtes et la liberté éducative.",
+          "facts": [
+            "Plus de mille élèves ont manifesté le 8 mars 1960.",
+            "L'événement a précédé la révolution du 19 avril.",
+            "La journée légale a été établie le 2 novembre 2018."
+          ]
+        },
+        "de": {
+          "heading": "8. März: Studierende in Daejeon und der Demokratiekampf 1960",
+          "origin": "Am 8. März 1960 protestierten mehr als tausend Schüler der Daejeon High School gegen Wahlkorruption, autoritäre Politik und Einschränkungen der Freiheit an Schulen. Das südkoreanische Innenministerium ordnet diese Demonstration neben den Protesten von Daegu am 28. Februar und Masan am 15. März als eine der Voraussetzungen der Revolution vom 19. April ein. Die Regierung erkannte den 8. März am 2. November 2018 als gesetzlichen Gedenktag an. Die Gedenktage gehören zu derselben demokratischen Bewegung, beziehen sich aber auf unterschiedliche lokale Ereignisse mit eigenen Daten und rechtlichen Grundlagen.",
+          "promoter": "Schüler aus Daejeon trugen den Protest von 1960; die Regierung schuf den gesetzlichen Erinnerungstag 2018.",
+          "purpose": "An die Forderungen nach fairen Wahlen und Bildungsfreiheit erinnern und ihre historische Bedeutung erklären.",
+          "facts": [
+            "Über tausend Schüler demonstrierten am 8. März 1960.",
+            "Die Proteste gingen der Revolution vom 19. April voraus.",
+            "Der offizielle Gedenktag wurde am 2. November 2018 beschlossen."
+          ]
+        },
+        "pt": {
+          "heading": "8 de março: estudantes de Daejeon e a democracia coreana em 1960",
+          "origin": "Em 8 de março de 1960, mais de mil alunos da Daejeon High School manifestaram-se contra a corrupção eleitoral, o regime autoritário e as restrições à liberdade académica. O Ministério do Interior da Coreia do Sul inclui esta ação, ao lado dos protestos de Daegu em 28 de fevereiro e de Masan em 15 de março, entre os acontecimentos que antecederam a Revolução de 19 de abril. O governo instituiu uma data comemorativa oficial em 2 de novembro de 2018. Embora relacionadas, essas datas recordam mobilizações locais diferentes, com calendários e decisões legais próprias.",
+          "promoter": "Os alunos de Daejeon protagonizaram a manifestação em 1960; o governo criou o dia legal em 2018.",
+          "purpose": "Preservar a memória da luta estudantil por eleições justas e liberdade de ensino e o seu papel democrático.",
+          "facts": [
+            "Mais de mil estudantes protestaram em 8 de março de 1960.",
+            "A manifestação antecedeu a Revolução de 19 de abril.",
+            "O dia oficial foi criado em 2 de novembro de 2018."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original 1960 dates and later statutory designations verified in primary MOIS institutional chronology. Distinct local events share a democratization sequence origin cluster; no duplicate canonical IDs. Qualified human factual and native-locale reviews not performed."
+    },
+    {
+      "observanceId": "kr-w10-march-15-democratic-uprising-remembrance",
+      "country": "KR",
+      "observanceDate": "03-15",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "originClusterId": "KR_1960_DEMOCRATIZATION_CHAIN_DISTINCT_OFFICIAL_DAYS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 March: Masan protests and South Korea's democratic turning point",
+          "origin": "The March 15 Democratic Uprising commemorates protests by citizens and students in Masan on 15 March 1960 against fraudulent elections. South Korea's Ministry of the Interior identifies these demonstrations as a major part of the mounting opposition that culminated in the April 19 Revolution. The government designated 15 March a statutory commemorative day on 12 March 2010, fifty years after the events. This anniversary is related to the 28 February, 8 March and 19 April commemorations because the movements form a historical sequence, yet it preserves the distinct Masan episode and its own official recognition date.",
+          "promoter": "The 1960 protests involved Masan residents and students; the government instituted the statutory remembrance day in March 2010.",
+          "purpose": "Remember the Masan participants, the demand for fair elections and the local events that helped shape Korea's democratization.",
+          "facts": [
+            "Masan students and residents protested on 15 March 1960.",
+            "The protests formed part of the movement leading to 19 April.",
+            "The statutory commemoration was designated on 12 March 2010."
+          ]
+        },
+        "it": {
+          "heading": "15 marzo: le proteste di Masan nella svolta democratica coreana",
+          "origin": "Il movimento democratico del 15 marzo ricorda le proteste di studenti e cittadini di Masan contro i brogli elettorali, avvenute il 15 marzo 1960. Secondo il Ministero dell'interno sudcoreano, la mobilitazione rappresentò uno dei passaggi principali dell'opposizione che portò alla Rivoluzione del 19 aprile. Il governo istituì il 15 marzo come giornata commemorativa ufficiale il 12 marzo 2010, cinquant'anni dopo i fatti. È una storia collegata alle ricorrenze del 28 febbraio, dell'8 marzo e del 19 aprile, ma conserva il proprio evento locale e il diverso momento di riconoscimento legale.",
+          "promoter": "Gli studenti e i cittadini di Masan parteciparono agli eventi del 1960; il governo istituì la giornata ufficiale nel marzo 2010.",
+          "purpose": "Ricordare i protagonisti di Masan, la richiesta di elezioni corrette e il contributo locale alla democratizzazione.",
+          "facts": [
+            "Le manifestazioni a Masan si svolsero il 15 marzo 1960.",
+            "Fecero parte del movimento che condusse al 19 aprile.",
+            "Il riconoscimento nazionale venne adottato il 12 marzo 2010."
+          ]
+        },
+        "es": {
+          "heading": "15 de marzo: las protestas de Masan y el cambio democrático",
+          "origin": "El Levantamiento Democrático del 15 de Marzo recuerda las protestas de estudiantes y ciudadanos de Masan contra el fraude electoral el 15 de marzo de 1960. El Ministerio del Interior surcoreano identifica aquellos acontecimientos como parte importante de la oposición que culminó en la Revolución del 19 de abril. El Gobierno reconoció el 15 de marzo como conmemoración oficial el 12 de marzo de 2010, cincuenta años después de las manifestaciones. Aunque relacionada con las jornadas del 28 de febrero, 8 de marzo y 19 de abril, esta fecha recuerda el episodio propio de Masan y conserva una historia jurídica distinta.",
+          "promoter": "Los estudiantes y ciudadanos de Masan participaron en 1960; el Gobierno creó la conmemoración oficial en marzo de 2010.",
+          "purpose": "Recordar a quienes exigieron elecciones limpias y el papel de Masan en la democratización coreana.",
+          "facts": [
+            "Las protestas de Masan ocurrieron el 15 de marzo de 1960.",
+            "Fueron parte de la movilización que condujo a abril.",
+            "El día conmemorativo se estableció el 12 de marzo de 2010."
+          ]
+        },
+        "fr": {
+          "heading": "15 mars : Masan et les contestations démocratiques de 1960",
+          "origin": "Le soulèvement démocratique du 15 mars commémore les manifestations d'étudiants et de citoyens de Masan contre les fraudes électorales, le 15 mars 1960. Le ministère sud-coréen de l'Intérieur les situe parmi les étapes majeures de la contestation qui a conduit à la révolution du 19 avril. L'État a créé une journée légale de commémoration le 12 mars 2010, cinquante ans après les événements. Cette journée appartient à la même séquence historique que les commémorations du 28 février, du 8 mars et du 19 avril, mais elle reste consacrée à l'épisode propre à Masan et possède sa propre histoire juridique.",
+          "promoter": "Les habitants et étudiants de Masan ont participé aux événements de 1960; le gouvernement a institué la journée en 2010.",
+          "purpose": "Se souvenir des manifestants et de leur engagement pour des élections libres et la démocratie.",
+          "facts": [
+            "Les manifestations à Masan ont eu lieu le 15 mars 1960.",
+            "Elles ont précédé la révolution du 19 avril.",
+            "La journée officielle a été créée le 12 mars 2010."
+          ]
+        },
+        "de": {
+          "heading": "15. März: Die Masan-Proteste als Wendepunkt der Demokratiebewegung",
+          "origin": "Der demokratische Aufstand vom 15. März erinnert an Demonstrationen von Schülern, Studierenden und Bürgern in Masan gegen Wahlfälschungen am 15. März 1960. Das südkoreanische Innenministerium ordnet diese Proteste als wichtigen Teil der oppositionellen Bewegung ein, die schließlich zur Revolution vom 19. April führte. Die Regierung führte am 12. März 2010, fünfzig Jahre nach den Ereignissen, einen gesetzlichen Gedenktag ein. Er steht in engem Zusammenhang mit den Gedenktagen für den 28. Februar, 8. März und 19. April, bleibt aber der eigenständigen lokalen Geschichte von Masan gewidmet.",
+          "promoter": "Bürger und Studierende von Masan trugen die Proteste von 1960; die Regierung schuf den Gedenktag im März 2010.",
+          "purpose": "An den Einsatz gegen Wahlfälschungen und Masans Beitrag zur Entwicklung der Demokratie erinnern.",
+          "facts": [
+            "Die Proteste in Masan fanden am 15. März 1960 statt.",
+            "Sie waren Teil des Weges zur Revolution vom 19. April.",
+            "Die gesetzliche Anerkennung erfolgte am 12. März 2010."
+          ]
+        },
+        "pt": {
+          "heading": "15 de março: os protestos de Masan e a mudança democrática",
+          "origin": "A Revolta Democrática de 15 de Março recorda as manifestações de estudantes e cidadãos de Masan contra a fraude eleitoral, ocorridas em 15 de março de 1960. O Ministério do Interior sul-coreano considera esses protestos uma parte importante do movimento de oposição que culminou na Revolução de 19 de abril. O governo estabeleceu uma data comemorativa oficial em 12 de março de 2010, cinquenta anos depois dos acontecimentos. A jornada está ligada às comemorações de 28 de fevereiro, 8 de março e 19 de abril, mas mantém a memória do episódio próprio de Masan e uma origem legal distinta.",
+          "promoter": "Estudantes e habitantes de Masan participaram em 1960; o governo instituiu a comemoração oficial no março de 2010.",
+          "purpose": "Recordar quem exigiu eleições justas e o papel dos protestos de Masan na democratização coreana.",
+          "facts": [
+            "As manifestações decorreram em Masan em 15 de março de 1960.",
+            "O episódio antecedeu a Revolução de 19 de abril.",
+            "A comemoração legal foi criada em 12 de março de 2010."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original 1960 dates and later statutory designations verified in primary MOIS institutional chronology. Distinct local events share a democratization sequence origin cluster; no duplicate canonical IDs. Qualified human factual and native-locale reviews not performed."
+    }
+  ]
+}
