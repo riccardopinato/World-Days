@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 59,
+  "count": 60,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2019,6 +2019,41 @@
         }
       },
       "sourceReviewNote": "U.S. House institutional archives and Stanford King Institute independently confirm exact statutory passage, specific advocates, first 1986 observance and third-Monday date rationale. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved."
+    },
+    {
+      "observanceId": "pl-baptism-of-poland-day",
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "sources": [
+        "https://eli.gov.pl/api/acts/DU/2019/656/text.html",
+        "https://www.gov.pl/web/uw-lubuski/1055-rocznica-chrztu-polski",
+        "https://www.sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C826413CFA3F7FAC1258DD90025126D"
+      ],
+      "locale": {
+        "en": {
+          "heading": "14 April: Poland establishes a modern holiday for a medieval baptism",
+          "origin": "Poland's Sejm enacted a law on 22 February 2019 creating the Baptism of Poland Day on 14 April, with legal effect from publication on 9 April 2019. The day recalls the baptism of ruler Mieszko I in 966, an event widely treated as a symbolic beginning of Polish statehood and Poland's connection to Latin Christianity. The chosen date of 14 April reflects the traditional hypothesis that the ceremony took place on Holy Saturday in 966. The Polish government's historical account explicitly cautions that neither the exact day nor the site of the baptism is established with certainty. The modern statutory holiday is distinct from the medieval ceremony and from earlier jubilee observances; a first separately documented annual celebration under the 2019 law is not asserted.",
+          "promoter": "The Polish Sejm legislated the state observance in 2019 through the Act of 22 February 2019; the first personal modern proposer is not established in these sources.",
+          "purpose": "Encourage historical reflection on the emergence of Polish statehood and its cultural and political developments.",
+          "facts": [
+            "The law creating Baptism of Poland Day was adopted on 22 February 2019.",
+            "Its date, 14 April, follows a traditional reconstruction of Mieszko I's baptism in 966.",
+            "Polish government historians caution that the exact location and date of the medieval baptism remain uncertain."
+          ]
+        },
+        "it": {
+          "heading": "14 aprile: la Polonia istituisce una festa moderna per un battesimo medievale",
+          "origin": "Il Sejm polacco approvò il 22 febbraio 2019 una legge che istituiva il Giorno del battesimo della Polonia il 14 aprile, entrata in vigore con la pubblicazione del 9 aprile 2019. La ricorrenza ricorda il battesimo del sovrano Mieszko I nel 966, considerato simbolicamente l'inizio dello Stato polacco e un passaggio verso la cristianità latina. Il 14 aprile deriva dall'ipotesi tradizionale secondo cui la cerimonia si svolse durante il Sabato Santo di quell'anno. Una ricostruzione ufficiale del governo polacco sottolinea però che giorno e luogo esatti del battesimo non sono storicamente accertati. La festa istituita nel 2019 non coincide con l'evento medievale né con precedenti giubilei; una prima specifica celebrazione annuale dopo la legge non è qui provata.",
+          "promoter": "Il Sejm polacco introdusse la festa di Stato con la legge del 22 febbraio 2019; le fonti non attribuiscono la proposta moderna a un singolo individuo verificato.",
+          "purpose": "Invitare a riflettere sulla formazione dello Stato polacco e sulla storia delle sue tradizioni culturali e politiche.",
+          "facts": [
+            "La legge istitutiva risale al 22 febbraio 2019.",
+            "Il 14 aprile richiama una ricostruzione tradizionale del battesimo di Mieszko I nel 966.",
+            "Fonti ufficiali ammettono che luogo e data esatti dell'evento medievale rimangono incerti."
+          ]
+        }
+      },
+      "sourceReviewNote": "Polish Sejm statutory act 22 February 2019 (published effective 9 April 2019), official 2021 historical caution, and Sejm 2026 first-party retrospective independently separate modern law, ancient traditional date and uncertainty. No first inaugural annual public ceremony is claimed. IT/EN model-authored research requires qualified human factual and native six-locale editorial review; runtime rich article unapproved."
     }
   ]
 }
