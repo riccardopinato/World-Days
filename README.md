@@ -1,12 +1,12 @@
 # World Days
 
-## Wave20: exactly 100 canonical IDs, ongoing historical research (13 November 2026)
+## Wave20 — complete 100-ID source-researched IT/EN cohort (13 November 2026)
 
-- After Wave19 merged: **225/1,111** individual source-linked IT/EN origin research records on `main`, **886** still missing; these are distinct from the 56 legacy-reviewed rich editorial records.
-- Cohort `data/editorial/research_batches/wave20_first100_20261113.json` fixes **100 unique missing IDs** (48 global, 52 national) and records each source lead, independent origin-review status and evidence gaps. **70/100** now have original IT+EN research drafts in `data/editorial/batches/origin_stories_wave20_20261113.json`; **30/100** remain not independently researched, not silently marked complete.
-- Readable <a>booklet</a> is `docs/WORLD_DAYS_ORIGIN_WAVE20_IT_EN_20261113.md` and primary-source audit is `docs/WORLD_DAYS_ORIGIN_WAVE20_SOURCE_AUDIT_20261113.md`. Each completed history has source URLs, separate formal vs earliest-observation years, promoter caveats, explanations and 3 source-linked facts per language.
-- Research drafts are not six-locale native-reviewed or independently human-certified. The `runtimeRichEditorialApproved=false` gate remains closed; no APK, Play, Pages deploy or publication is authorized.
-- Continue **the same fixed 100-ID cohort**, filling real research records for the remaining 30 in later exact-head validated PRs; do not start a new wave of 100 after only 70 are drafted. After CI+review-protected merge, a new tally of **295/1,111** source-researched and **816** outstanding would apply at unchanged catalog size; until then, the main count remains 225.
+- **100/100 distinct canonical IDs** (48 global, 52 national) have individually source-linked original IT+EN historical narratives in `data/editorial/batches/origin_stories_wave20_20261113.json`. All 100 manifest entries are reconciled; **0/100** remains without a draft history.
+- Their dates, formal institution years versus earlier observances, promoters, date explanations or expressly unknown facts, and 2–5 contextual facts per language are described in the [100-story bilingual booklet](docs/WORLD_DAYS_ORIGIN_WAVE20_IT_EN_20261113.md) and the [100-ID source audit](docs/WORLD_DAYS_ORIGIN_WAVE20_SOURCE_AUDIT_20261113.md).
+- **On the protected exact-head CI-positive merge only:** the historical research ledger increases from **225/1,111** to **325/1,111** unique canonical source-linked IT/EN histories; **786** origin histories remain unresearched at the unchanged 1,111-ID catalog size. Before merge `main` remains at **225**.
+- These are **model-authored source-researched drafts, not qualified human factual or native language certification**. No six-locale human approval is claimed; `runtimeRichEditorialApproved=false` remains a fail-closed gate for public Rich Editorial.
+- Wave20 source texts are preserved separately from 56 legacy reviewed editorial articles. No APK, Play Store, Pages deployment or rich runtime publication is authorized.
 
 
 ## Wave19: research the last seven gaps in the first 100 original bilingual drafts (12 November 2026)
