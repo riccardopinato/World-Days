@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 72,
+  "count": 77,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -2468,6 +2468,179 @@
         }
       },
       "sourceReviewNote": "French Sénat retrospective reproduces and attributes original 1922 national holiday law plus separate 2012 enlargement; no unverified first official ceremony asserted. Original model-authored source-linked EN/IT research, pending independent human factual review and qualified six-language native editorial review; no rich-runtime approval."
+    },
+    {
+      "observanceId": "international-day-for-small-island-developing-states",
+      "introducedYear": 2025,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.unesco.org/en/days/sids",
+        "https://www.unesco.org/en/general-conference/43"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: UNESCO dedicates a day to small island developing states",
+          "origin": "UNESCO proclaimed 25 April the International Day for Small Island Developing States in 2025 through its General Conference. The annual date recalls the first global conference on small island developing states, held in Barbados in 1994, rather than the year UNESCO adopted the day. The new recognition focuses on the distinctive strengths and vulnerabilities of island societies: ocean knowledge, cultural heritage, education, freshwater resources, and the threats associated with climate change and coastal damage. UNESCO's 2023–2029 operational strategy for small island developing states already set out six accelerator programmes. That strategy preceded the commemorative decision and is not itself the establishing instrument. The original sources confirm the 2025 proclamation and 25 April calendar rationale, but do not independently establish an inaugural annual ceremony, so the first observed year is not asserted.",
+          "promoter": "The UNESCO General Conference proclaimed the day in 2025, building on its programmes and cooperation with small island developing states; no individually evidenced personal proposer is assigned.",
+          "purpose": "Promote recognition of small island states' resilience, heritage and development needs and encourage international partnerships on ocean, climate and education.",
+          "facts": [
+            "UNESCO designated 25 April in 2025.",
+            "The date recalls the first global conference on small island developing states in Barbados in 1994.",
+            "UNESCO already had a 2023–2029 strategy with six accelerator programmes for island countries."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: una giornata UNESCO per i piccoli Stati insulari in via di sviluppo",
+          "origin": "L'UNESCO ha proclamato nel 2025 il 25 aprile Giornata internazionale dei piccoli Stati insulari in via di sviluppo, attraverso la Conferenza generale. La data ricorda la prima conferenza mondiale dedicata a questi Stati, organizzata a Barbados nel 1994, e non l'anno della decisione UNESCO. La ricorrenza riguarda le risorse e le fragilità delle società insulari: patrimonio culturale, conoscenza degli oceani, istruzione, approvvigionamento idrico e minacce del cambiamento climatico. Già la strategia UNESCO 2023–2029 per queste regioni prevedeva sei programmi acceleratori, un'iniziativa precedente alla proclamazione e distinta dall'atto istitutivo. Le fonti confermano il 2025 e il motivo della scelta del 25 aprile, ma non stabiliscono individualmente la prima cerimonia annuale, che rimane non accertata.",
+          "promoter": "La Conferenza generale dell'UNESCO ha proclamato la giornata nel 2025, sulla base della cooperazione con gli Stati insulari; non è documentato un singolo ideatore personale.",
+          "purpose": "Valorizzare comunità e culture insulari e rafforzare cooperazione su oceani, clima, patrimonio e istruzione.",
+          "facts": [
+            "La proclamazione UNESCO risale al 2025.",
+            "Il 25 aprile richiama la prima conferenza globale degli Stati insulari, tenuta a Barbados nel 1994.",
+            "La strategia UNESCO 2023–2029 già prevedeva sei programmi per queste regioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "UNESCO first-party observance specifically states 2025 proclamation, 25 April and original Barbados 1994 event/date rationale. Actual inaugural annual event is not established by the cited page and remains null. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "international-day-of-awareness-of-the-special-development-needs-and-challenges-of-landlocked-developing-countries",
+      "introducedYear": 2025,
+      "firstObservedYear": 2025,
+      "sources": [
+        "https://digitallibrary.un.org/record/4086742",
+        "https://www.un.org/en/observances/landlocked-developing-countries-day",
+        "https://digitallibrary.un.org/record/4085601"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 August: the first UN day for landlocked developing countries begins in Awaza",
+          "origin": "On 25 July 2025 the UN General Assembly adopted resolution A/RES/79/320, proclaiming 6 August the International Day of Awareness of the Special Development Needs and Challenges of Landlocked Developing Countries. The resolution explicitly directed its first observance for 2025 during the Third UN Conference on Landlocked Developing Countries, meeting in Awaza, Turkmenistan, from 5 to 8 August. A separate UN observance page confirms that the first celebration took place at that conference. The choice of date thus links the new annual day to an active meeting on transport, trade, development and the obstacles faced by countries without a coastline. The original draft A/79/L.108 lists landlocked developing countries as co-sponsors; the General Assembly is the adopting authority. UN data identify 32 landlocked developing countries across Africa, Asia, Europe and South America.",
+          "promoter": "A group of landlocked developing countries co-sponsored original draft A/79/L.108; the UN General Assembly formally instituted the day through A/RES/79/320.",
+          "purpose": "Explain why lack of direct sea access can raise trade costs and development barriers and why coordinated regional infrastructure and policy matter.",
+          "facts": [
+            "The General Assembly adopted the founding resolution on 25 July 2025.",
+            "The first celebration occurred on 6 August 2025 at the Third LLDC Conference in Awaza.",
+            "The UN identifies 32 landlocked developing countries in four continental regions."
+          ]
+        },
+        "it": {
+          "heading": "6 agosto: la prima giornata ONU per i Paesi in via di sviluppo senza sbocco sul mare",
+          "origin": "Il 25 luglio 2025 l'Assemblea generale ONU ha adottato A/RES/79/320, proclamando il 6 agosto Giornata internazionale per le esigenze e le sfide dei Paesi in via di sviluppo senza sbocco sul mare. La stessa risoluzione stabiliva la prima celebrazione già nel 2025 durante la terza conferenza ONU dedicata a questi Paesi, riunita ad Awaza, in Turkmenistan, dal 5 all'8 agosto. Un'altra pagina istituzionale conferma che la prima edizione si svolse effettivamente durante quella conferenza. La data collega quindi la giornata a un negoziato internazionale su infrastrutture, commercio, trasporti e difficoltà dovute all'assenza di coste. La bozza originale A/79/L.108 elenca diversi Paesi senza sbocco al mare fra i promotori; la decisione formale appartiene all'Assemblea. I dati ONU individuano 32 Paesi appartenenti a questa categoria.",
+          "promoter": "Un gruppo di Paesi in via di sviluppo senza sbocco al mare sostenne la bozza A/79/L.108; l'Assemblea generale ONU istituì la giornata con A/RES/79/320.",
+          "purpose": "Far comprendere i costi di trasporto e le difficoltà commerciali legati all'assenza di accesso diretto al mare e incoraggiare cooperazione regionale.",
+          "facts": [
+            "La risoluzione istitutiva fu adottata il 25 luglio 2025.",
+            "La prima celebrazione ebbe luogo il 6 agosto 2025 durante la conferenza di Awaza.",
+            "L'ONU classifica 32 Stati in via di sviluppo come Paesi senza sbocco sul mare."
+          ]
+        }
+      },
+      "sourceReviewNote": "UN primary resolution metadata and UN contemporary observance record explicitly identify 25 July 2025 founding vote and inaugural 6 August 2025 event at Awaza; UN draft records original co-sponsors. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "week-of-solidarity-with-the-peoples-struggling-against-racism-and-racial-discrimination",
+      "introducedYear": 1979,
+      "firstObservedYear": null,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/34/24",
+        "https://ask.un.org/faq/306811",
+        "https://www.un.org/en/observances/end-racism-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "From 21 March: a UN week calls for solidarity against racism",
+          "origin": "The UN General Assembly adopted resolution A/RES/34/24 on 15 November 1979, calling for a Week of Solidarity with the Peoples Struggling against Racism and Racial Discrimination, starting annually on 21 March. Its programme called on states to educate the public, involve young people, protect migrants and oppose organizations propagating racial hatred. The 21 March opening coincides with the separate International Day for the Elimination of Racial Discrimination, established after the police killings at Sharpeville, South Africa, on 21 March 1960. The 1979 week followed that earlier single-day commemoration; it did not create or replace it. The original mandate prescribes an annual week but does not establish a specific first ceremony and the first observed year remains unasserted.",
+          "promoter": "The UN General Assembly established the annual solidarity week in 1979 through A/RES/34/24 as part of anti-racism education and policy measures.",
+          "purpose": "Encourage international action against racial discrimination, protect human dignity and support communities confronting racism.",
+          "facts": [
+            "A/RES/34/24 was adopted in November 1979.",
+            "The solidarity week is organized annually beginning on 21 March.",
+            "The opening date recalls the separate anti-discrimination day associated with Sharpeville in 1960."
+          ]
+        },
+        "it": {
+          "heading": "Dal 21 marzo: una settimana ONU di solidarietà contro il razzismo",
+          "origin": "Il 15 novembre 1979 l'Assemblea generale ONU adottò la risoluzione A/RES/34/24, chiedendo di organizzare ogni anno una Settimana di solidarietà con i popoli che lottano contro razzismo e discriminazione razziale, a partire dal 21 marzo. Il programma invitava gli Stati a informare la popolazione, coinvolgere i giovani, tutelare i lavoratori migranti e contrastare organizzazioni basate sull'odio razziale. Il 21 marzo coincide con la distinta Giornata internazionale per l'eliminazione della discriminazione razziale, collegata all'uccisione di manifestanti a Sharpeville, in Sudafrica, il 21 marzo 1960. La settimana decisa nel 1979 si aggiunse alla ricorrenza precedente, senza crearla né sostituirla. L'atto dispone l'organizzazione annuale ma non documenta una prima cerimonia specifica, quindi l'anno della prima celebrazione resta sconosciuto.",
+          "promoter": "L'Assemblea generale ONU istituì la settimana nel 1979 con A/RES/34/24, nel quadro di misure educative e politiche contro il razzismo.",
+          "purpose": "Incoraggiare azioni internazionali per la dignità delle persone e il contrasto di discriminazione, esclusione e odio.",
+          "facts": [
+            "A/RES/34/24 fu adottata nel novembre 1979.",
+            "La settimana inizia annualmente il 21 marzo.",
+            "La data si collega alla distinta giornata ONU che ricorda Sharpeville nel 1960."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original UN A/RES/34/24 operative paragraph 14 establishes a week beginning 21 March; UN institutional historical racism observance and mandate indicate its distinct origin; first annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "se-alfred-nobel-day",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+        "https://www.nobelprize.org/ceremonies/the-nobel-prize-award-ceremony-1901/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 December: Sweden's flag-day recognition of Alfred Nobel",
+          "origin": "Sweden's ordinance on official flag days, Regulation (1982:270), expressly includes 10 December as Nobeldagen, Nobel Day. The official online text is the consolidated version updated through 2023, so its presence does not by itself prove in which year 10 December first entered the regulation. For that reason the formal introduction year of the current flag-day observance is not asserted here. The day is linked to Alfred Nobel's death on 10 December 1896 and to the Nobel Prize award ceremonies, first held in Stockholm in 1901. These are distinct events: Nobel's death is the calendar rationale, the first prize ceremony precedes the current regulation, and the Swedish flag-day listing establishes contemporary civic status. The original first official ceremony for the flag-day category remains independently unverified.",
+          "promoter": "Swedish state authorities recognize 10 December among general flag days under Regulation 1982:270; Alfred Nobel and the Nobel Foundation are historic antecedents, not modern statutory proposers.",
+          "purpose": "Recognize Alfred Nobel's legacy, scientific and cultural achievements, and the Nobel Prize tradition while respecting the separate legal status of Swedish flag days.",
+          "facts": [
+            "Sweden's consolidated ordinance lists 10 December as the official Nobel flag day.",
+            "Alfred Nobel died on 10 December 1896, giving the date its meaning.",
+            "The first Nobel Prize award ceremony was held in 1901, before today's flag-day regulation."
+          ]
+        },
+        "it": {
+          "heading": "10 dicembre: il Nobel Day è un giorno ufficiale per la bandiera svedese",
+          "origin": "Il regolamento svedese sulle giornate ufficiali in cui esporre la bandiera, il n. 1982:270, elenca espressamente il 10 dicembre come Nobeldagen, Giorno del Nobel. Il testo online è una versione consolidata con modifiche fino al 2023: la sola presenza nell'elenco non prova in quale anno il 10 dicembre vi sia stato inserito per la prima volta. Perciò l'anno istitutivo preciso della ricorrenza in quella veste non viene inventato. La data si collega alla morte di Alfred Nobel il 10 dicembre 1896 e alle cerimonie dei premi, tenute per la prima volta a Stoccolma nel 1901. Sono fatti distinti: la morte spiega il calendario, la premiazione cominciò molto prima e l'elenco normativo identifica lo status civico attuale. La prima cerimonia riferita alla bandiera ufficiale non è accertata.",
+          "promoter": "Le autorità svedesi riconoscono il 10 dicembre come giorno ufficiale della bandiera nel regolamento 1982:270; Alfred Nobel non è il promotore della norma contemporanea.",
+          "purpose": "Valorizzare il lascito di Nobel e le attività scientifiche e culturali legate al premio, distinguendo la tradizione dal regime normativo delle bandiere.",
+          "facts": [
+            "Il regolamento svedese vigente comprende il 10 dicembre tra i giorni ufficiali per la bandiera.",
+            "Alfred Nobel morì il 10 dicembre 1896.",
+            "I primi premi Nobel furono consegnati nel 1901, prima del regolamento attuale."
+          ]
+        }
+      },
+      "sourceReviewNote": "Swedish Parliament consolidated primary Regulation 1982:270 confirms annual official flag-day designation but cannot individually establish original insertion year; Nobel Foundation original 1901 ceremony history explains earlier separate tradition. Formal year and first official ceremony intentionally null. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+    },
+    {
+      "observanceId": "ph-bonifacio-day",
+      "introducedYear": 1921,
+      "firstObservedYear": null,
+      "sources": [
+        "https://ldr.senate.gov.ph/legislative-issuance/act-no-2946",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/36191",
+        "https://www.nationalmuseum.gov.ph/2021/11/30/bonifacio-day-onthisday-feature/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 November: the Philippines honours revolutionary Andrés Bonifacio by law",
+          "origin": "Philippine Act No. 2946, approved on 16 February 1921, amended the Administrative Code to make 30 November of each year a legal holiday. The National Museum of the Philippines identifies the date as the birth anniversary of Andrés Bonifacio, born on 30 November 1863, a key figure in the struggle against Spanish colonial rule. The act's original text and Senate legislative register establish the legal founding milestone; the museum provides the historical connection to Bonifacio's role in the Katipunan revolutionary organization. The designation is not the date of the Philippine Revolution itself, and the law does not independently document the first annual public ceremony after approval. Accordingly the first observed year is left unknown rather than assumed to be 1921.",
+          "promoter": "The Fifth Philippine Legislature enacted Act No. 2946 in February 1921; Bonifacio is the historical figure commemorated, not the statute's personal drafter.",
+          "purpose": "Remember revolutionary contributions to Philippine independence and encourage historical and civic education.",
+          "facts": [
+            "Act No. 2946 was approved on 16 February 1921.",
+            "The act made 30 November each year a legal holiday.",
+            "30 November is the birthday of Andrés Bonifacio, born in 1863."
+          ]
+        },
+        "it": {
+          "heading": "30 novembre: le Filippine ricordano per legge il rivoluzionario Andrés Bonifacio",
+          "origin": "La legge filippina Act No. 2946, approvata il 16 febbraio 1921, modificò il Codice amministrativo dichiarando il 30 novembre di ogni anno giorno festivo. Il Museo nazionale delle Filippine collega la data all'anniversario della nascita di Andrés Bonifacio, avvenuta il 30 novembre 1863, figura centrale della lotta contro il dominio coloniale spagnolo. Il testo originale della legge e il registro del Senato provano il passaggio giuridico; il Museo documenta il legame storico con la società rivoluzionaria Katipunan. Il giorno scelto non coincide con l'avvio della rivoluzione filippina e la legge non dimostra autonomamente la prima cerimonia annuale dopo l'adozione. L'anno della prima celebrazione ufficiale rimane quindi sconosciuto, senza dedurlo dal 1921.",
+          "promoter": "La Quinta legislatura filippina approvò Act No. 2946 nel febbraio 1921; Bonifacio è il protagonista ricordato, non il redattore individuale della legge.",
+          "purpose": "Ricordare il contributo rivoluzionario alla storia dell'indipendenza e favorire educazione storica e civica.",
+          "facts": [
+            "Act No. 2946 fu approvata il 16 febbraio 1921.",
+            "La legge rese festivo il 30 novembre di ogni anno.",
+            "Il 30 novembre è l'anniversario della nascita di Andrés Bonifacio nel 1863."
+          ]
+        }
+      },
+      "sourceReviewNote": "Official Philippine Senate and Supreme Court original Act 2946 of February 1921 directly proves legal holiday; National Museum independently connects date to 1863 birth. Inaugural annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
     }
   ]
 }
