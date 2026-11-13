@@ -2292,3 +2292,388 @@ Poland's Sejm enacted a law on 22 February 2019 creating the Baptism of Poland D
 
 ---
 
+## 61. international-coffee-day
+
+**Formal year / Anno formale:** 2014 · **First observed / Prima osservanza:** 2015
+
+### Italiano — 1º ottobre: produttori e consumatori di caffè trovano una data comune
+
+Nel marzo 2014 il Consiglio internazionale del caffè, organo dell'Organizzazione internazionale del caffè (ICO), approvò una Giornata internazionale del caffè da celebrare il 1º ottobre. La prima manifestazione ufficiale si svolse il 1º ottobre 2015 durante il Consiglio ICO e il primo Global Coffee Forum all'Expo di Milano, con la partecipazione di Paesi produttori e consumatori. La campagna non inventò le feste del caffè: prima di allora diversi Stati avevano ricorrenze nazionali in giorni differenti. Il 1º ottobre fu selezionato dopo consultazioni fra i Paesi membri, non perché esista un anniversario storico universale del raccolto. Un comunicato dell'ICO documenta associazioni e partecipanti e collega la giornata al riconoscimento dei coltivatori e alla sostenibilità.
+
+**Promotore:** Gli Stati membri ICO approvarono la scelta della data nel marzo 2014; l'organizzazione coordinò l'edizione inaugurale del 2015.
+
+**Perché è importante:** Valorizzare l'intera filiera del caffè, il lavoro dei coltivatori e i problemi sociali e ambientali della produzione.
+
+**Fatti documentati:**
+- Il Consiglio ICO concordò il 1º ottobre nel marzo 2014.
+- La prima giornata ufficiale fu lanciata all'Expo di Milano il 1º ottobre 2015.
+- Esistevano già feste nazionali del caffè in date diverse dalla celebrazione internazionale.
+
+### English — 1 October: coffee growers and consumers get a shared international date
+
+In March 2014 the International Coffee Council, acting through the International Coffee Organization (ICO), agreed to establish an annual International Coffee Day on 1 October. The first international event took place on 1 October 2015 during the ICO Council session and the first Global Coffee Forum at Expo Milano, bringing together producing and consuming countries. This institutional campaign did not invent coffee celebrations: countries previously marked national coffee days on different dates. The 1 October date was selected after consultations with member states, rather than because of a universally accepted historical harvest anniversary. An ICO announcement records the participation of member states and coffee associations, with goals including recognizing growers, workers and sustainable production.
+
+**Founder / institutional authority:** The ICO Member States, through the International Coffee Council, selected the common date in March 2014 and coordinated the inaugural 2015 launch.
+
+**Why it matters:** Recognize the entire coffee supply chain, the people who grow and prepare coffee, and the sustainability challenges of producing communities.
+
+**Source-based contextual facts:**
+- The International Coffee Council agreed the unified 1 October date in March 2014.
+- The first official international event was launched at Expo Milano on 1 October 2015.
+- Many countries had separate national coffee celebrations before the ICO's unified day.
+
+**Source URLs:**
+- https://ico.org/international-coffee-day/
+- https://dev.ico.org/show_news.asp?id=366
+- https://dev.ico.org/show_news.asp?id=490
+
+**Limits:** Original International Coffee Council decision in March 2014 and contemporaneous first 2015 event press notice distinguish founding decision and first observable ceremony. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval.
+
+---
+
+## 62. week-of-solidarity-with-the-peoples-of-non-self-governing-territories
+
+**Formal year / Anno formale:** 1999 · **First observed / Prima osservanza:** *
+
+### Italiano — Dal 25 maggio: l'ONU collega la decolonizzazione a una settimana di solidarietà
+
+L'Assemblea generale ONU chiese di celebrare ogni anno la Settimana di solidarietà con i popoli dei territori non autonomi tramite A/RES/54/91, adottata il 6 dicembre 1999. La settimana comincia il 25 maggio e richiama le responsabilità delle potenze amministratrici nei confronti delle popolazioni prive di pieno autogoverno. Il contesto giuridico comprende la Carta delle Nazioni Unite e la Dichiarazione del 1960 sull'indipendenza dei Paesi e dei popoli coloniali. La risoluzione domanda sostegno alla protezione delle risorse naturali, dei diritti patrimoniali e della partecipazione politica. L'atto fu approvato dopo maggio 1999: le fonti consultate non dimostrano una prima celebrazione annuale specifica, dunque l'anno non viene ricavato a posteriori dalla data.
+
+**Promotore:** L'Assemblea generale istituì il periodo tramite A/RES/54/91, chiedendo al Comitato speciale per la decolonizzazione di osservarlo.
+
+**Perché è importante:** Richiamare il diritto all'autodeterminazione e la situazione delle comunità nei territori ancora non autonomi.
+
+**Fatti documentati:**
+- A/RES/54/91 fu adottata il 6 dicembre 1999.
+- La settimana si apre annualmente il 25 maggio.
+- La Carta ONU prevede obblighi informativi per le potenze che amministrano tali territori.
+
+### English — Starting 25 May: the UN links decolonization to a week of solidarity
+
+The United Nations General Assembly called for an annual Week of Solidarity with the Peoples of Non-Self-Governing Territories in resolution A/RES/54/91, adopted on 6 December 1999. The week begins on 25 May and highlights the continuing obligations of administering powers toward peoples who have not achieved full self-government. Its political background is the United Nations Charter and the Declaration on the Granting of Independence to Colonial Countries and Peoples of 1960. The General Assembly's decision asked for support in safeguarding natural resources, property rights and access to political participation. The founding act was adopted after May 1999; the institutional evidence consulted does not independently establish a first actual annual week, so its year is left unknown rather than retroactively assigned to an earlier date.
+
+**Founder / institutional authority:** The UN General Assembly created the annual solidarity week through A/RES/54/91; the Special Committee on Decolonization is requested to observe it.
+
+**Why it matters:** Raise awareness of self-determination and support communities in territories governed by administering powers.
+
+**Source-based contextual facts:**
+- A/RES/54/91 was adopted on 6 December 1999.
+- The solidarity week is scheduled to begin on 25 May annually.
+- The UN Charter asks administering powers to transmit information on conditions in the territories.
+
+**Source URLs:**
+- https://www.un.org/en/observances/non-self-governing-week
+- https://www.un.org/unispal/document/auto-insert-207629/
+
+**Limits:** UN dedicated observance page and original UN decolonization legal-account distinguish December 1999 decision from May annual observance and do not invent first ceremony. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval.
+
+---
+
+## 63. world-migratory-bird-day
+
+**Formal year / Anno formale:** 2006 · **First observed / Prima osservanza:** 2006
+
+### Italiano — Dall'aprile 2006 a due date annuali per proteggere gli uccelli migratori
+
+I segretariati dell'Accordo per gli uccelli acquatici migratori afro-eurasiatici (AEWA) e della Convenzione sulle specie migratrici (CMS) organizzarono la prima Giornata mondiale degli uccelli migratori l'8 e 9 aprile 2006. L'iniziativa inaugurale contrastava la rappresentazione fuorviante degli uccelli migratori come principale causa della diffusione dell'influenza aviaria H5N1 e spiegava il valore degli habitat sani. La cronaca originale AEWA descrive il lancio WINGS in Kenya e 68 attività collegate nel mondo. Nel 2018 gli organizzatori unirono questa campagna con l'International Migratory Bird Day delle Americhe, adottando una denominazione comune e due appuntamenti annuali, il secondo sabato di maggio e di ottobre. Il calendario attuale è quindi successivo alla prima edizione del 2006.
+
+**Promotore:** I segretariati AEWA e CMS crearono la campagna nel 2006, collaborando dal 2018 con Environment for the Americas.
+
+**Perché è importante:** Promuovere la protezione internazionale degli uccelli migratori e degli habitat lungo le rotte di spostamento.
+
+**Fatti documentati:**
+- La prima edizione si tenne l'8 e 9 aprile 2006.
+- Il lancio WINGS avvenne in Kenya insieme a 68 eventi collegati.
+- Dal 2018 la campagna unificata ha due date annuali di osservanza.
+
+### English — From an April 2006 bird-conservation campaign to two migration dates
+
+The secretariats of the African-Eurasian Migratory Waterbird Agreement (AEWA) and the Convention on Migratory Species (CMS) launched the first World Migratory Bird Day on 8–9 April 2006. The inaugural initiative aimed to challenge misleading publicity blaming migratory birds for the spread of avian influenza H5N1 and to explain why healthy habitats are essential. AEWA's own event record describes the launch event WINGS in Kenya and 68 associated activities worldwide. An important later change came in 2018: the organizers joined forces with the Americas-based International Migratory Bird Day campaign to use one global name and two annual celebration dates, the second Saturdays in May and October. The two-day modern calendar did not exist in the inaugural 2006 format.
+
+**Founder / institutional authority:** AEWA and CMS secretariats originated the 2006 campaign and in 2018 joined the Environment for the Americas initiative to coordinate a common worldwide campaign.
+
+**Why it matters:** Encourage international protection of migratory birds, their habitats, and the ecological connections between countries.
+
+**Source-based contextual facts:**
+- The first World Migratory Bird Day was 8–9 April 2006.
+- The inaugural WINGS event was held in Kenya with 68 associated events.
+- The coordinated biannual observance began under the common name in 2018.
+
+**Source URLs:**
+- https://www.unep-aewa.org/page/world-migratory-bird-day-campaign
+- https://www.unep-aewa.org/es/node/29200
+- https://www.unep-aewa.org/about/brief-history-aewa
+
+**Limits:** AEWA's original 2006 campaign page and treaty history document first launch, its original purpose, Kenya venue, and later 2018 biannual merger. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval.
+
+---
+
+## 64. armed-forces-day-uk
+
+**Formal year / Anno formale:** 2009 · **First observed / Prima osservanza:** 2009
+
+### Italiano — A fine giugno: l'Armed Forces Day britannico comincia a Chatham nel 2009
+
+La prima manifestazione nazionale britannica dell'Armed Forces Day si svolse nel 2009 nello storico cantiere navale di Chatham, nel Kent. Una ricostruzione del Ministero della Difesa conferma Chatham come sede inaugurale, seguita da Cardiff nel 2010 ed Edimburgo nel 2011. La nuova ricorrenza ampliò precedenti iniziative dedicate ai veterani includendo personale in servizio, cadetti e famiglie. A differenza del Remembrance Day dell'11 novembre, la giornata offre soprattutto un'occasione pubblica per ringraziare i militari e conoscerne il lavoro attraverso eventi comunitari e dimostrazioni. La celebrazione principale cambia città di anno in anno e cade di sabato verso la fine di giugno.
+
+**Promotore:** Il Ministero della Difesa britannico coordinò la campagna nazionale, inaugurata a Chatham nel 2009.
+
+**Perché è importante:** Riconoscere il contributo del personale militare, dei veterani e delle loro famiglie alla vita del Paese.
+
+**Fatti documentati:**
+- La prima manifestazione nazionale si tenne a Chatham nel 2009.
+- Cardiff ospitò la seconda celebrazione nel 2010, Edimburgo nel 2011.
+- La sede dell'evento nazionale cambia ogni anno.
+
+### English — Late June: Britain's Armed Forces Day begins with Chatham in 2009
+
+The United Kingdom's first Armed Forces Day national event was held in 2009 at the Historic Dockyard in Chatham, Kent. The Ministry of Defence's retrospective identifies Chatham as the inaugural host, followed by Cardiff in 2010 and Edinburgh in 2011. The occasion grew out of initiatives recognizing serving personnel, veterans, cadets and families, expanding the earlier Veterans Day programme into a broader public celebration. Unlike Remembrance Day on 11 November, Armed Forces Day is intended to thank active and former service members through community events, concerts and military displays. The national event rotates between cities, and the annual public campaign falls on a Saturday in late June.
+
+**Founder / institutional authority:** The UK Ministry of Defence organized the national Armed Forces Day programme, with its inaugural event at Chatham in 2009.
+
+**Why it matters:** Recognize the contribution and service of military personnel and their families, with opportunities for public engagement.
+
+**Source-based contextual facts:**
+- The first national Armed Forces Day event was held in Chatham in 2009.
+- Cardiff hosted the national event in 2010 and Edinburgh in 2011.
+- The national celebration rotates between host cities rather than always taking place in London.
+
+**Source URLs:**
+- https://www.gov.uk/government/news/nottingham-to-host-armed-forces-day-2013
+- https://www.gov.uk/government/news/public-shows-support-on-armed-forces-day
+- https://www.armedforcesday.org.uk/
+
+**Limits:** UK Ministry of Defence 2012 contemporary retrospective and public campaign document 2009 Chatham first national celebration; historical national service focus distinct from 11 November remembrance. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval.
+
+---
+
+## 65. ca-vimy-ridge-battle-anniversary
+
+**Formal year / Anno formale:** 2003 · **First observed / Prima osservanza:** 2003
+
+### Italiano — 9 aprile: il Canada dedica una giornata nazionale alla battaglia di Vimy Ridge
+
+Il 3 aprile 2003 il governo canadese designò ufficialmente il 9 aprile come giornata nazionale di memoria della battaglia di Vimy Ridge, combattuta durante la Prima guerra mondiale nel nord della Francia. Lo scontro iniziò il 9 aprile 1917, spiegando la data della ricorrenza moderna. Veterans Affairs Canada documenta la decisione del 2003 e un messaggio del governatore generale, dieci anni dopo, ricorda le celebrazioni annuali iniziate allora. Circa 3.600 soldati canadesi persero la vita durante l'operazione e oltre 7.000 rimasero feriti. La decisione commemorativa del 2003 è un fatto distinto dalla battaglia del 1917 e dalle iniziative per il centenario del 2017.
+
+**Promotore:** Il governo canadese istituì il 9 aprile come giornata nazionale nel 2003, con il sostegno di associazioni di veterani e iniziative pubbliche.
+
+**Perché è importante:** Ricordare chi combatté e morì durante la Prima guerra mondiale e trasmettere la conoscenza storica della battaglia.
+
+**Fatti documentati:**
+- Il riconoscimento nazionale della giornata risale al 3 aprile 2003.
+- La battaglia iniziò il 9 aprile 1917 nel nord della Francia.
+- Morirono circa 3.600 militari canadesi e oltre 7.000 furono feriti.
+
+### English — 9 April: Canada gives the Battle of Vimy Ridge a national remembrance day
+
+On 3 April 2003 Canada's government officially designated 9 April as a national day of remembrance for the Battle of Vimy Ridge, the 1917 First World War engagement in northern France. The battle began on 9 April 1917, giving the modern observance its historical calendar date. Veterans Affairs Canada documents the 2003 designation, and a message from the Governor General ten years later recalls that Canadians had gathered each 9 April since 2003 to honour the battle. About 3,600 Canadians died during the operation and more than 7,000 were wounded. The 2003 commemorative decision is distinct from the event of 1917 and the later centenary ceremonies in 2017.
+
+**Founder / institutional authority:** The Government of Canada designated 9 April as a national Vimy Ridge commemoration in 2003, supported by veterans' associations and public remembrance activities.
+
+**Why it matters:** Honour those who fought and died in the First World War while preserving historical knowledge about the battle.
+
+**Source-based contextual facts:**
+- The first modern national designation of Vimy Ridge Day was on 3 April 2003.
+- The historical battle opened on 9 April 1917 in northern France.
+- Approximately 3,600 Canadian soldiers died and over 7,000 were wounded.
+
+**Source URLs:**
+- https://www.canada.ca/en/veterans-affairs-canada/news/2016/04/marking-99-years-since-the-battle-of-vimy-ridge.html
+- https://www.canada.ca/en/news/archive/2013/04/message-from-excellency-right-honourable-david-johnston-governor-general-canada-occasion-vimy-ridge-day.html
+
+**Limits:** Veterans Affairs Canada official 2003 establishment and Governor General statement confirming annual ceremonies since 2003, with original event-date rationale. Original bilingual research is pending qualified independent human factual and EN/IT/ES/FR/DE/PT native editorial review. No rich runtime approval.
+
+---
+
+## 66. australia-anzac-day
+
+**Formal year / Anno formale:** 1916 · **First observed / Prima osservanza:** 1916
+
+### Italiano — 25 aprile: la prima Anzac Day australiana ricorda Gallipoli nel 1916
+
+Le prime celebrazioni australiane dell'Anzac Day si svolsero il 25 aprile 1916, primo anniversario dello sbarco delle truppe australiane e neozelandesi sulla penisola di Gallipoli il 25 aprile 1915. Il primo ministro facente funzioni e ministro della Difesa George Pearce diede ufficialmente il nome alla giornata nel 1916; in Australia e fra i soldati all'estero si svilupparono cerimonie e cortei. L'operazione militare originale era fallita e aveva causato gravi perdite, perciò il ricordo non corrisponde a una vittoria sul campo. Dopo la guerra le cerimonie si stabilizzarono. Soltanto nel 1927 tutti gli Stati australiani osservarono una forma di giorno festivo, un passaggio distinto dalla prima commemorazione del 1916.
+
+**Promotore:** Autorità e organizzatori australiani avviarono gli eventi del 1916; George Pearce diede ufficialmente il nome alla ricorrenza.
+
+**Perché è importante:** Ricordare l'esperienza e il sacrificio dei militari che servirono in guerra e nelle successive missioni.
+
+**Fatti documentati:**
+- La prima Anzac Day australiana si svolse il 25 aprile 1916.
+- La data ricorda gli sbarchi di Gallipoli del 25 aprile 1915.
+- Solo dal 1927 tutti gli Stati australiani riconobbero una forma di giorno festivo.
+
+### English — 25 April: the first Anzac Day remembers Gallipoli in 1916
+
+Australia's first Anzac Day commemorations took place on 25 April 1916, the first anniversary of the Australian and New Zealand troops' landing on the Gallipoli peninsula on 25 April 1915. Acting Prime Minister and Defence Minister George Pearce officially named the commemorative day in 1916, when services and marches developed across Australia and among troops overseas. The original military operation had failed, with heavy losses, so the day centered on remembrance rather than celebrating a battlefield victory. After the war public ceremonies became more standardized. Only in 1927 did every Australian state observe some form of statutory public holiday for Anzac Day, separate from the first commemoration in 1916.
+
+**Founder / institutional authority:** Australian organizers and government authorities, with Acting Prime Minister George Pearce naming the date, launched the 1916 commemorations.
+
+**Why it matters:** Remember people who served and died in Australian and New Zealand military operations and reflect on their experiences.
+
+**Source-based contextual facts:**
+- Anzac Day was first marked on 25 April 1916.
+- The date recalls the Gallipoli landings of 25 April 1915.
+- All Australian states recognized some form of public holiday only from 1927.
+
+**Source URLs:**
+- https://www.nma.gov.au/defining-moments/resources/first-anzac-day
+- https://www.awm.gov.au/commemoration/anzac-day/traditions
+- https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/special/souvenirs/anzac
+
+**Limits:** National Museum and Australian War Memorial original collections independently establish inaugural 1916 observances, first naming, Gallipoli date and later all-state holiday status in 1927. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval.
+
+---
+
+## 67. nz-anzac-day
+
+**Formal year / Anno formale:** 1916 · **First observed / Prima osservanza:** 1916
+
+### Italiano — 25 aprile: in Nuova Zelanda la prima Anzac Day fu una mezza giornata festiva nel 1916
+
+Il 5 aprile 1916 l'Ufficio del primo ministro neozelandese pubblicò un avviso invitando autorità locali e comunità religiose a osservare una mezza giornata festiva il 25 aprile, ricordando gli sbarchi di Gallipoli del 1915. Il 25 aprile 1916 si tennero cerimonie e incontri commemorativi in tutto il Paese: fu la prima Anzac Day nazionale. Le fonti storiche del governo conservano l'avviso originale della Gazzetta e descrivono riunioni in località come Petone e Ashburton. Una legge del 1920 stabilì successivamente il giorno festivo nazionale completo, osservato per la prima volta in quella forma nel 1921. La ricorrenza pubblica nasce dunque nel 1916, mentre la sua piena disciplina giuridica arrivò dopo.
+
+**Promotore:** L'Ufficio del primo ministro neozelandese invitò alle prime celebrazioni del 1916, sostenute da autorità locali e associazioni di veterani.
+
+**Perché è importante:** Ricordare chi servì in guerra, le vittime e i costi umani della campagna di Gallipoli e dei conflitti successivi.
+
+**Fatti documentati:**
+- L'avviso originario del primo ministro risale al 5 aprile 1916.
+- Le prime cerimonie si tennero il 25 aprile 1916.
+- Una legge del 1920 rese la giornata pienamente festiva dal 1921.
+
+### English — 25 April: New Zealand's original Anzac Day was a half-holiday in 1916
+
+New Zealand's Prime Minister's Office issued a notice on 5 April 1916 inviting local authorities and religious groups to observe a half-day holiday on 25 April in remembrance of the 1915 Gallipoli landings. People assembled for services and memorial meetings throughout New Zealand on 25 April 1916, marking the first national Anzac Day. Government historical records preserve the original Gazette notice and describe gatherings in places including Petone and Ashburton. A new statutory Anzac Day Act was enacted in 1920 to establish a full public holiday, first observed in that status in 1921. The public observance therefore began in 1916, while the full statutory holiday dates from a later legislative change.
+
+**Founder / institutional authority:** The New Zealand Prime Minister's Office called for the first 1916 observance, supported by municipal leaders, clergy and veterans' groups.
+
+**Why it matters:** Remember servicemen and women, and acknowledge the social costs of the Gallipoli campaign and later conflicts.
+
+**Source-based contextual facts:**
+- The Prime Minister's Gazette notice is dated 5 April 1916.
+- The first commemorations took place on 25 April 1916 as a half-holiday.
+- The Anzac Day Act of 1920 established a full public holiday first observed in 1921.
+
+**Source URLs:**
+- https://nzhistory.govt.nz/media/photo/anzac-day-gazette-notice-1916
+- https://nzhistory.govt.nz/page/first-anzac-day
+- https://nzhistory.govt.nz/war/anzac-day-resources
+
+**Limits:** New Zealand Ministry for Culture and Heritage archive preserves original 5 April 1916 Gazette notice, public first ceremony and distinct 1920 Act for full 1921 holiday. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval.
+
+---
+
+## 68. france-algerian-war-remembrance-day
+
+**Formal year / Anno formale:** 2012 · **First observed / Prima osservanza:** *
+
+### Italiano — 19 marzo: la Francia ricorda per legge il cessate il fuoco della guerra d'Algeria
+
+La legge francese n. 2012-1361 del 6 dicembre 2012 istituì il 19 marzo come giornata nazionale di memoria delle vittime civili e militari della guerra d'Algeria e dei combattimenti in Tunisia e Marocco. La data ricorda il cessate il fuoco del 19 marzo 1962, successivo agli accordi di Évian. La legge specifica che non è un giorno festivo né un giorno di sospensione dal lavoro. Il percorso legislativo fu lungo: il fascicolo ufficiale conserva proposte avanzate già nei primi anni Duemila e il controllo del Consiglio costituzionale del novembre 2012. Nel contesto della memoria complessa della decolonizzazione, la data non implica che tutte le vittime siano morte prima della tregua. Il testo istitutivo non documenta la prima cerimonia annuale precisa, lasciata quindi sconosciuta.
+
+**Promotore:** Il Parlamento francese approvò la legge 2012-1361, promulgata il 6 dicembre 2012 dopo il controllo costituzionale.
+
+**Perché è importante:** Ricordare le vittime civili e militari e favorire la conoscenza storica dei conflitti legati alla decolonizzazione.
+
+**Fatti documentati:**
+- La legge istitutiva fu promulgata il 6 dicembre 2012.
+- Il 19 marzo ricorda il cessate il fuoco del 1962 in Algeria.
+- La ricorrenza non è legalmente festiva né comporta la chiusura dei luoghi di lavoro.
+
+### English — 19 March: France legally commemorates the Algerian War ceasefire
+
+French Law No. 2012-1361 of 6 December 2012 established 19 March as a national day of remembrance for civilian and military victims of the Algerian War and of fighting in Tunisia and Morocco. The chosen date recalls the ceasefire in Algeria on 19 March 1962 after the Évian agreements. The French statute explicitly defines the occasion as neither a public holiday nor a day when work is suspended. The legislative record traces a long process, including proposals first advanced in the early 2000s and Constitutional Council review in November 2012. The date's role in the contested memory of decolonization must not be confused with a legal claim that every victim died before the ceasefire. The exact inaugural ceremony after the law is not documented by the founding text and remains unasserted.
+
+**Founder / institutional authority:** France's Parliament enacted Law 2012-1361, promulgated on 6 December 2012 after legislative and constitutional review.
+
+**Why it matters:** Remember civilian and military victims while encouraging historical understanding and public reflection on the conflicts.
+
+**Source-based contextual facts:**
+- The national remembrance law was promulgated on 6 December 2012.
+- 19 March commemorates the 1962 ceasefire in Algeria.
+- The statute explicitly says the day is neither a public holiday nor a non-working day.
+
+**Source URLs:**
+- https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026733612/
+- https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000026447687/
+
+**Limits:** Original French law and full parliamentary dossier specify 2012 formal institution, 19 March 1962 ceasefire rationale, non-holiday legal status; first post-law ceremony unverified. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval.
+
+---
+
+## 69. italian-alpini-remembrance-day
+
+**Formal year / Anno formale:** 2022 · **First observed / Prima osservanza:** *
+
+### Italiano — 26 gennaio: l'Italia istituisce la memoria degli Alpini e di Nikolajewka
+
+La legge italiana n. 44 del 5 maggio 2022 ha riconosciuto il 26 gennaio come Giornata nazionale della memoria e del sacrificio degli Alpini. L'articolo 1 richiama espressamente il ruolo del Corpo d'armata alpino nella battaglia di Nikolajewka, combattuta nel gennaio 1943 durante la ritirata italiana dal fronte sovietico nella Seconda guerra mondiale. La legge valorizza anche partecipazione civile, solidarietà e volontariato legati alla tradizione degli Alpini. Precisa inoltre che le iniziative commemorative si svolgono di norma l'ultima domenica di gennaio, una data organizzativa distinta dal giorno ufficiale del 26 gennaio. Poiché la norma entrò in vigore dopo gennaio 2022, non è corretto supporre automaticamente una prima cerimonia annuale nello stesso anno; l'anno del primo evento ufficiale resta da verificare.
+
+**Promotore:** Il Parlamento italiano approvò la legge 44/2022 e il Presidente della Repubblica la promulgò; non si inventa un singolo promotore.
+
+**Perché è importante:** Preservare memoria storica e stimolare riflessione su servizio pubblico, solidarietà e conseguenze della guerra.
+
+**Fatti documentati:**
+- La legge n. 44 del 5 maggio 2022 istituisce la ricorrenza del 26 gennaio.
+- La data ricorda la battaglia di Nikolajewka del gennaio 1943.
+- Le iniziative si possono svolgere, di norma, l'ultima domenica di gennaio.
+
+### English — 26 January: Italy establishes remembrance of the Alpini and Nikolajewka
+
+Italy's Law No. 44 of 5 May 2022 formally recognizes 26 January each year as the National Day of Remembrance and Sacrifice of the Alpini. Article 1 specifically recalls the Alpini Corps' role in the battle of Nikolajewka during the Second World War, fought in January 1943 during the Italian retreat from the Soviet front. The legislation also emphasizes national service, civic participation, solidarity and volunteering associated with Alpini traditions. It states that commemorative initiatives generally take place on the last Sunday of January, which must be distinguished from the legally designated 26 January date. Because the law entered into force after January 2022, an inaugural commemorative ceremony under the statute cannot simply be assumed in that year; its first verified official event remains unknown here.
+
+**Founder / institutional authority:** The Italian Parliament enacted Law 44/2022, and the President of the Republic promulgated it; the law identifies an institutional act, not a single personal founder.
+
+**Why it matters:** Preserve historical remembrance while encouraging reflection on public service, solidarity and the experience of war.
+
+**Source-based contextual facts:**
+- Law 44 of 5 May 2022 established 26 January as the official day.
+- The chosen date recalls the Alpini action at Nikolajewka in January 1943.
+- The law allows initiatives generally on the final Sunday in January, separately from the legal 26 January date.
+
+**Source URLs:**
+- https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=22G00054&atto.dataPubblicazioneGazzetta=2022-05-07&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=multivigenza&title=lbl.dettaglioAtto
+- https://www.gazzettaufficiale.it/eli/id/2022/05/07/22G00054/sg
+
+**Limits:** Original Law 44/2022 and official Italian gazette individually establish the exact legal remembrance, date and separate organizational Sunday; no first official ceremony inferred. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval.
+
+---
+
+## 70. italian-accessibility-barriers-day
+
+**Formal year / Anno formale:** 2003 · **First observed / Prima osservanza:** *
+
+### Italiano — Prima domenica d'ottobre: l'Italia istituisce la giornata contro le barriere architettoniche
+
+Un decreto del Presidente del Consiglio dei ministri del 28 febbraio 2003 istituì in Italia la Giornata nazionale per l'abbattimento delle barriere architettoniche, da celebrare la prima domenica d'ottobre. Il testo originale cita espressamente la proposta dell'associazione FIABA, Fondo Italiano Abbattimento Barriere Architettoniche, e richiama le leggi del 1989, 1992 e 1996 sull'accessibilità e sui diritti delle persone con disabilità. Le amministrazioni pubbliche sono invitate a coordinare campagne informative e azioni concrete con le associazioni per rendere gli spazi fruibili a tutti. Il preambolo ricorda anche l'Anno europeo delle persone con disabilità del 2003. La data è una domenica mobile, non un giorno numerico fisso; il decreto non documenta una specifica cerimonia inaugurale.
+
+**Promotore:** L'associazione FIABA propose la giornata; la Presidenza del Consiglio la istituì mediante direttiva del 28 febbraio 2003.
+
+**Perché è importante:** Rimuovere ostacoli alla partecipazione di persone con disabilità, anziani e chi incontra difficoltà di mobilità.
+
+**Fatti documentati:**
+- Il decreto istitutivo è datato 28 febbraio 2003.
+- Il preambolo indica FIABA come promotrice della proposta originale.
+- La ricorrenza cade la prima domenica d'ottobre e prevede iniziative con le amministrazioni pubbliche.
+
+### English — First Sunday in October: Italy creates a day to remove architectural barriers
+
+An Italian prime ministerial decree dated 28 February 2003 established the National Day for the Removal of Architectural Barriers, to be held every first Sunday in October. The original decree explicitly credits an initiative by the association FIABA, Fondo Italiano Abbattimento Barriere Architettoniche, and cites legislation from 1989, 1992 and 1996 on accessibility and disability rights. Public administrations are urged to coordinate information campaigns and practical action with civic organizations to make public and private spaces easier to access. The preamble also refers to the European Year of People with Disabilities in 2003. Its annual first-Sunday schedule is not a fixed calendar day, and the decree itself does not separately document an inaugural public ceremony.
+
+**Founder / institutional authority:** The FIABA association proposed the awareness day, and the Italian Prime Minister issued the establishing directive on 28 February 2003.
+
+**Why it matters:** Advance accessibility and equal participation for people with disabilities, older people and others facing mobility barriers.
+
+**Source-based contextual facts:**
+- The original establishing decree is dated 28 February 2003.
+- FIABA is named explicitly as the proposer in the decree's preamble.
+- The annual observance occurs on the first Sunday of October, not a fixed day of the month.
+
+**Source URLs:**
+- https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=03A04897&atto.dataPubblicazioneGazzetta=2003-04-11&tipoSerie=serie_generale&tipoVigenza=originario
+- https://www.gazzettaufficiale.it/eli/id/2003/04/11/03A04897/sg
+
+**Limits:** Original government decree 28 Feb 2003 names FIABA as proposer, first-Sunday-of-October recurrence, earlier accessibility laws and European disability year; first actual annual ceremony not independently shown. These original bilingual research texts are pending independently qualified human factual and native six-language editorial review; no rich runtime approval.
+
+---
+
