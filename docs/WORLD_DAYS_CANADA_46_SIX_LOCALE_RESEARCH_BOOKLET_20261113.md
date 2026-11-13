@@ -4,7 +4,7 @@
 **Source-index scope:** 46 entries listed by Canadian Heritage. They are not 46 distinct new Canadian national observances.
 **Editorial approval:** NONE. All narratives are original-source-informed machine-assisted drafts; qualified factual and six-native-language editorial review remains PENDING.
 **Runtime:** no record here is marked `runtimeRichEditorialApproved`; six research-only entries are not present in the app's canonical catalog.
-**Repository provenance:** 31 canonical candidate records source-backed on PR #119; 9 candidate references to six existing Wave20 canonical records in PR #118; six research-only candidates without canonical identity. Merge of PR #119 cannot substitute for PR #118.
+**Repository provenance:** 31 canonical candidate records source-backed on PR #119; 9 candidate references to nine distinct existing Wave20 canonical records in PR #118; six research-only candidates without canonical identity. Merge of PR #119 cannot substitute for PR #118.
 
 This booklet is an inspectable *snapshot of research texts*, not an automatically published six-locale article collection. It preserves an exact canonical/reference distinction and source links for each dossier.
 
