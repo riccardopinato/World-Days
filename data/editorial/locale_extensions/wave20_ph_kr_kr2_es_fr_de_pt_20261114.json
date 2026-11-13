@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "status": "FOUR_LOCALE_RESEARCH_EXTENSION_AI_DRAFT_NEEDS_QUALIFIED_REVIEW",
+  "baseRef": "editorial/wave20-six-locales-20261113@477557ee6a6115e2479c2009c6daecde5a590026",
+  "basePath": "data/editorial/batches/origin_stories_wave20_20261113.json",
+  "addedLocales": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-april-19-revolution-day",
+      "locale": {
+        "es": {
+          "heading": "19 de abril: la revolución democrática coreana entra en la memoria oficial",
+          "origin": "El Día de la Revolución del 19 de Abril recuerda las movilizaciones de estudiantes y ciudadanos del 19 de abril de 1960 contra el fraude electoral y el régimen autoritario en Corea del Sur. El Ministerio del Interior separa los hechos de la creación posterior de la conmemoración: en 1962 se recomendaron ceremonias organizadas por estudiantes y el 30 de marzo de 1973 la fecha fue reconocida oficialmente. El 31 de diciembre de 1994 cambió su denominación legal de Día del Levantamiento a Día de la Revolución. Es preciso distinguir el movimiento de 1960, la recomendación de 1962, el reconocimiento de 1973 y el cambio de nombre de 1994.",
+          "promoter": "El Gobierno surcoreano reconoció la fecha como conmemoración legal en 1973, después de las iniciativas estudiantiles.",
+          "purpose": "Recordar a quienes participaron o murieron en las protestas y reflexionar sobre los derechos y la democracia.",
+          "facts": [
+            "Las manifestaciones recordadas se produjeron el 19 de abril de 1960.",
+            "Las autoridades recomendaron actos estudiantiles en 1962.",
+            "La fecha fue reconocida en 1973 y recibió su nombre actual en 1994."
+          ]
+        },
+        "fr": {
+          "heading": "19 avril : la révolution démocratique coréenne devient un hommage officiel",
+          "origin": "La Journée de la révolution du 19 avril rappelle les manifestations étudiantes et citoyennes du 19 avril 1960 contre les fraudes électorales et le pouvoir autoritaire en Corée du Sud. Le ministère de l'Intérieur distingue l'événement des décisions commémoratives ultérieures : des cérémonies étudiantes ont été encouragées en 1962, puis la date a été officiellement reconnue le 30 mars 1973. Le 31 décembre 1994, la dénomination a changé, de Journée du soulèvement à Journée de la révolution du 19 avril. L'événement de 1960, les cérémonies de 1962, l'inscription de 1973 et le changement de nom sont quatre étapes différentes.",
+          "promoter": "Le gouvernement sud-coréen a institué la commémoration réglementaire en 1973, dans le prolongement des initiatives étudiantes.",
+          "purpose": "Rendre hommage aux participants et aux victimes et souligner l'importance de la responsabilité démocratique.",
+          "facts": [
+            "Les manifestations ont marqué le 19 avril 1960.",
+            "Les cérémonies étudiantes ont été encouragées en 1962.",
+            "L'inscription légale date de 1973; le nom actuel fut adopté en 1994."
+          ]
+        },
+        "de": {
+          "heading": "19. April: Südkoreas Demokratiebewegung wird offizieller Gedenktag",
+          "origin": "Der Tag der Revolution vom 19. April erinnert an studentische und bürgerschaftliche Proteste am 19. April 1960 gegen Wahlfälschung und autoritäre Herrschaft in Südkorea. Das Innenministerium trennt diese Ereignisse von der späteren staatlichen Erinnerung: 1962 wurden studentische Gedenkfeiern empfohlen, und am 30. März 1973 wurde der Tag gesetzlich aufgenommen. Am 31. Dezember 1994 erhielt er seine heutige Bezeichnung als Revolutionstag statt Aufstandstag. Der Protest von 1960, die Empfehlung von 1962, die gesetzliche Anerkennung von 1973 und die Umbenennung von 1994 sind eigenständige historische Stationen.",
+          "promoter": "Die südkoreanische Regierung führte 1973 den gesetzlichen Gedenktag ein, gestützt auf frühere studentische Initiativen.",
+          "purpose": "Der Opfer und Beteiligten gedenken und die Bedeutung von Bürgerrechten und demokratischer Kontrolle erläutern.",
+          "facts": [
+            "Die erinnerten Proteste fanden am 19. April 1960 statt.",
+            "Die Empfehlung für studentische Gedenkfeiern erfolgte 1962.",
+            "1973 wurde der Tag anerkannt; die Umbenennung folgte 1994."
+          ]
+        },
+        "pt": {
+          "heading": "19 de abril: a revolução democrática coreana torna-se comemoração oficial",
+          "origin": "O Dia da Revolução de 19 de Abril recorda as manifestações de estudantes e cidadãos de 19 de abril de 1960 contra a fraude eleitoral e o regime autoritário na Coreia do Sul. O Ministério do Interior distingue o acontecimento da comemoração posterior: em 1962 foram recomendadas cerimónias estudantis e em 30 de março de 1973 a data entrou oficialmente no calendário legal. Em 31 de dezembro de 1994, a designação mudou de Dia do Levantamento para Dia da Revolução de 19 de Abril. Os protestos de 1960, a recomendação de 1962, o reconhecimento de 1973 e a alteração do nome em 1994 são marcos diferentes.",
+          "promoter": "O governo sul-coreano tornou a data oficial em 1973, após iniciativas de memória promovidas por estudantes.",
+          "purpose": "Homenagear participantes e vítimas e refletir sobre direitos cívicos e responsabilidade democrática.",
+          "facts": [
+            "Os protestos ocorreram em 19 de abril de 1960.",
+            "As cerimónias estudantis foram incentivadas em 1962.",
+            "A inscrição legal data de 1973 e o nome atual de 1994."
+          ]
+        }
+      },
+      "humanApproved": false
+    },
+    {
+      "observanceId": "kr-w10-arbor-day-in-korea",
+      "locale": {
+        "es": {
+          "heading": "5 de abril: el Día del Árbol en Corea cambia de condición legal",
+          "origin": "El Día del Árbol surcoreano del 5 de abril tiene antecedentes en actos de plantación promovidos durante el Imperio coreano, incluido uno de 1910. Bajo la dominación japonesa también se empleó el 3 de abril. El Gobierno surcoreano convirtió el 5 de abril en festivo mediante decreto presidencial del 4 de junio de 1949. La fecha cambió temporalmente en 1960 y volvió al 5 de abril en 1961. La jornada entró en las conmemoraciones reglamentarias en 1982 y dejó de ser festivo general en 2005, aunque sigue celebrándose. Por ello, no puede presentarse su fecha ni su condición laboral como invariables desde 1910.",
+          "promoter": "El Gobierno surcoreano institucionalizó el actual 5 de abril en 1949, después de antecedentes anteriores de plantación.",
+          "purpose": "Fomentar la plantación de árboles, la restauración de bosques y la conciencia sobre los ecosistemas forestales.",
+          "facts": [
+            "Un decreto presidencial estableció el festivo en 1949.",
+            "El calendario cambió en 1960 y recuperó el 5 de abril en 1961.",
+            "Desde 2005 ya no es un festivo general, aunque continúa la conmemoración."
+          ]
+        },
+        "fr": {
+          "heading": "5 avril : la Journée de l'arbre change de statut en Corée du Sud",
+          "origin": "La Journée de l'arbre du 5 avril en Corée du Sud s'inscrit dans une longue histoire de campagnes de plantation. Le ministère de l'Intérieur rappelle notamment une cérémonie de 1910 sous l'Empire coréen; une autre date, le 3 avril, fut utilisée pendant la période coloniale japonaise. Un décret présidentiel du 4 juin 1949 a fait du 5 avril un jour férié. La date a brièvement changé en 1960, puis est revenue au 5 avril en 1961. La journée a rejoint la liste des commémorations en 1982 et a perdu son statut de jour férié général en 2005, sans disparaître comme campagne civique.",
+          "promoter": "Le gouvernement sud-coréen a établi la date fériée moderne par décret en 1949 en s'appuyant sur des pratiques plus anciennes.",
+          "purpose": "Encourager la plantation d'arbres, la restauration des forêts et la protection de l'environnement.",
+          "facts": [
+            "Un décret présidentiel a établi le jour férié en 1949.",
+            "Après une modification en 1960, le 5 avril fut rétabli en 1961.",
+            "Depuis 2005, la journée n'est plus un jour férié général."
+          ]
+        },
+        "de": {
+          "heading": "5. April: Koreas Tag des Baumes verliert seinen Feiertagsstatus",
+          "origin": "Der südkoreanische Tag des Baumes am 5. April geht auf ältere nationale Pflanzaktionen zurück, darunter eine Zeremonie aus dem Jahr 1910 im Koreanischen Kaiserreich. Unter der japanischen Kolonialherrschaft wurde zeitweise der 3. April begangen. Durch Präsidialverordnung vom 4. Juni 1949 wurde der 5. April zu einem gesetzlichen Feiertag. 1960 wechselte das Datum kurzzeitig, bevor es 1961 zum 5. April zurückkehrte. 1982 wurde der Tag als staatlicher Gedenktag eingeordnet; 2005 endete seine Stellung als allgemeiner arbeitsfreier Feiertag. Als Anlass für Waldschutz und Baumpflanzungen besteht er weiterhin.",
+          "promoter": "Die südkoreanische Regierung begründete den modernen staatlichen Feiertag im Jahr 1949 nach älteren Pflanztraditionen.",
+          "purpose": "Baumpflanzungen, Wiederaufforstung und das öffentliche Verständnis für gesunde Wälder fördern.",
+          "facts": [
+            "Eine Präsidialverordnung machte den Tag 1949 zum Feiertag.",
+            "Das Datum kehrte nach einer Änderung 1961 zum 5. April zurück.",
+            "Seit 2005 ist der Tag nicht mehr allgemein arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "5 de abril: o Dia da Árvore na Coreia muda de estatuto",
+          "origin": "O Dia da Árvore da Coreia do Sul, em 5 de abril, tem antecedentes em ações nacionais de plantação, incluindo uma cerimónia realizada em 1910 durante o Império Coreano. No período colonial japonês, a comemoração chegou a usar 3 de abril. Um decreto presidencial de 4 de junho de 1949 tornou 5 de abril feriado nacional. A data foi temporariamente alterada em 1960 e regressou ao dia 5 em 1961. A comemoração entrou na lista legal em 1982 e deixou de ser feriado geral em 2005, sem perder o seu papel cívico. Por isso, a data e o estatuto não permaneceram idênticos desde 1910.",
+          "promoter": "O governo sul-coreano instituiu o feriado moderno em 1949, tendo como antecedentes práticas anteriores de plantação.",
+          "purpose": "Estimular a plantação de árvores, a recuperação florestal e a sensibilização para o meio ambiente.",
+          "facts": [
+            "Um decreto presidencial instituiu o feriado em 1949.",
+            "A data foi alterada em 1960 e regressou ao 5 de abril em 1961.",
+            "Em 2005 deixou de ser feriado geral, mantendo a comemoração."
+          ]
+        }
+      },
+      "humanApproved": false
+    },
+    {
+      "observanceId": "kr-w10-bu-ma-democratic-protests-remembrance-day",
+      "locale": {
+        "es": {
+          "heading": "16 de octubre: Corea recuerda las protestas democráticas de Bu-Ma",
+          "origin": "Las protestas democráticas de Bu-Ma comenzaron el 16 de octubre de 1979 con manifestaciones de estudiantes de la Universidad Nacional de Pusan contra el régimen autoritario. Hacia el 18 de octubre las movilizaciones se extendieron a Masan y Changwon. La cronología del Ministerio del Interior distingue los reconocimientos posteriores: Changwon aprobó una conmemoración municipal el 7 de febrero de 2017 para el 18 de octubre, mientras que el Gobierno nacional estableció el 24 de septiembre de 2019 un día oficial para el 16 de octubre, aniversario del comienzo de las protestas. La creación de los días conmemorativos no fue el origen del movimiento.",
+          "promoter": "El Gobierno surcoreano creó la conmemoración nacional en 2019 tras una iniciativa de memoria municipal de 2017.",
+          "purpose": "Preservar la memoria de estudiantes y ciudadanos que reclamaron democracia y reconocimiento de derechos.",
+          "facts": [
+            "Las primeras protestas tuvieron lugar en Busan el 16 de octubre de 1979.",
+            "Las movilizaciones llegaron a Masan y Changwon hacia el 18 de octubre.",
+            "La conmemoración local comenzó en 2017 y la nacional en 2019."
+          ]
+        },
+        "fr": {
+          "heading": "16 octobre : la Corée commémore les manifestations démocratiques Bu-Ma",
+          "origin": "Les manifestations démocratiques Bu-Ma ont commencé le 16 octobre 1979 avec des protestations étudiantes à l'Université nationale de Pusan contre le régime autoritaire. Le mouvement a atteint Masan et Changwon vers le 18 octobre. Le ministère de l'Intérieur distingue les décisions de mémoire : Changwon a établi une journée municipale le 7 février 2017, fixée au 18 octobre, puis le gouvernement national a instauré le 24 septembre 2019 une journée officielle au 16 octobre, date des premières manifestations. Ces choix institutionnels ont reconnu le mouvement après les faits; ils n'en constituent pas la naissance historique.",
+          "promoter": "Le gouvernement sud-coréen a créé la journée nationale en 2019 après une commémoration municipale instituée en 2017.",
+          "purpose": "Préserver la mémoire des étudiants et des citoyens mobilisés pour les libertés et la démocratie.",
+          "facts": [
+            "Les manifestations de Busan ont commencé le 16 octobre 1979.",
+            "Le mouvement s'est étendu à Masan et Changwon autour du 18 octobre.",
+            "Les reconnaissances locale et nationale datent de 2017 et 2019."
+          ]
+        },
+        "de": {
+          "heading": "16. Oktober: Korea erinnert an die demokratischen Bu-Ma-Proteste",
+          "origin": "Die demokratischen Bu-Ma-Proteste begannen am 16. Oktober 1979 mit Demonstrationen von Studierenden der Pusan National University gegen die autoritäre Regierung. Bis zum 18. Oktober erreichten die Proteste Masan und Changwon. Das südkoreanische Innenministerium trennt die späteren Gedenkentscheidungen: Changwon schuf am 7. Februar 2017 einen lokalen Gedenktag für den 18. Oktober; die Regierung führte am 24. September 2019 einen nationalen Gedenktag am 16. Oktober ein, dem Tag des Protestbeginns. Beide staatlichen Entscheidungen würdigten eine bereits bestehende historische Bewegung und begründeten sie nicht erst.",
+          "promoter": "Die Regierung Südkoreas führte 2019 den Nationalgedenktag ein, nach der lokalen Anerkennung durch Changwon 2017.",
+          "purpose": "An studentischen und bürgerschaftlichen Einsatz für Demokratie und politische Rechte erinnern.",
+          "facts": [
+            "Die Proteste in Busan begannen am 16. Oktober 1979.",
+            "Am 18. Oktober erreichten sie Masan und Changwon.",
+            "Lokale und nationale Gedenktage wurden 2017 und 2019 beschlossen."
+          ]
+        },
+        "pt": {
+          "heading": "16 de outubro: a Coreia recorda os protestos democráticos Bu-Ma",
+          "origin": "Os protestos democráticos Bu-Ma começaram em 16 de outubro de 1979 com manifestações de estudantes da Universidade Nacional de Pusan contra o regime autoritário. Até 18 de outubro, o movimento estendeu-se a Masan e Changwon. O Ministério do Interior distingue os reconhecimentos posteriores: em 7 de fevereiro de 2017, Changwon criou uma comemoração municipal no dia 18 de outubro; em 24 de setembro de 2019, o governo nacional instituiu a data oficial de 16 de outubro, aniversário do início dos protestos. Essas decisões reconheceram uma luta histórica já existente e não devem ser confundidas com a sua origem.",
+          "promoter": "O governo sul-coreano criou a comemoração nacional em 2019, depois do reconhecimento municipal de 2017.",
+          "purpose": "Preservar a memória da coragem de estudantes e cidadãos na defesa da democracia e dos direitos cívicos.",
+          "facts": [
+            "As primeiras manifestações ocorreram em Busan em 16 de outubro de 1979.",
+            "O movimento estendeu-se a Masan e Changwon em torno de 18 de outubro.",
+            "O reconhecimento local data de 2017 e o nacional de 2019."
+          ]
+        }
+      },
+      "humanApproved": false
+    }
+  ]
+}
