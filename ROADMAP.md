@@ -1,14 +1,14 @@
 # World Days — Active roadmap
 
-## Wave20: work through 100 actual missing origins, not seven (13 November 2026)
+## Wave20 — frozen 100-ID source research completed (13 November 2026)
 
-- [x] Create a frozen canonical cohort of exactly **100 distinct missing IDs**, 48 global and 52 national; archive the source-level per-ID lead and quality gate in a machine-readable registry.
-- [x] Research and write original IT/EN histories with source links, formal versus original ceremony chronology, traceable institutional proponents or explicit unknowns, contextual significance and multiple concrete facts for **70/100**.
-- [x] Generate the readable bilingual booklet and per-ID primary-source audit without marking drafts as professionally reviewed or user-visible Rich Editorial.
-- [ ] Complete origin-specific research for the remaining **30/100**; country records need distinct original governmental sources and legal/cultural status, not just a calendar index.
-- [ ] Integrate through exact-head source/coverage Python validation, Flutter analysis/tests and Web build, review and guarded merge; do not force CI and do not publish APK/Play/deploy.
-- [ ] After green merge regenerate canonical worklist; **225/1,111** on main prior to this branch, expected **295/1,111** and **816** globally pending when all current 70 are accepted. Keep all remaining 30 in the same frozen cohort until they are researched, then proceed to the next 100.
-- [ ] Qualified native EN/IT/ES/FR/DE/PT and factual human signoff not achieved for this new wave. Maintain `runtimeRichEditorialApproved=false`.
+- [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.
+- [x] Write and register 100/100 distinct IT/EN original source-linked histories with legal/cultural chronology, founders or explicit unknowns, significance and 2–5 contextual facts in each language.
+- [x] Complete the original bilingual 100-chapter booklet and full 100-record primary-source research audit and align the machine-readable progress ledger, with zero unresearched entries in the frozen cohort.
+- [x] Keep the human/native six-locale editorial and rich-runtime flags at zero; document source-quality limitations and unknown first ceremonies instead of inventing details.
+- [ ] Complete and verify exact-head CI (canonical build, source research index, all Python validators, Flutter analysis/tests and Web release build); resolve any review findings and merge only with protection gates satisfied.
+- [ ] Once merged, verify **325/1,111** unique researched IT/EN historical origins in `main`, **786** still missing; generate the next distinct group of 100 without duplicate IDs.
+- [ ] Independently fact-check and obtain qualified native EN/IT/ES/FR/DE/PT reviews before ever promoting source drafts to rich editorial. No APK, Play or deployment.
 
 
 ## Wave19 — last seven source gaps in the original 100 drafts (12 November 2026)
