@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "MOIS_PRIMARY_HISTORY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-korean-war-remembrance-day",
+      "country": "KR",
+      "observanceDate": "06-25",
+      "introducedYear": 1973,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_KOREAN_WAR_1950_1953",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=209&key=92&nttNo=273478"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 June: remembrance of the Korean War",
+          "origin": "Korean War Remembrance Day marks the outbreak of the Korean War on 25 June 1950. The conflict brought immense loss of life, displacement and destruction, with fighting continuing until the 1953 armistice. The South Korean Ministry of the Interior records that official ceremonies were held after the armistice under ministries responsible for defence and public information. The Republic of Korea made 25 June a statutory commemorative day on 30 March 1973 and changed the official Korean designation in June 2013 to explicitly refer to the war. The start of fighting in 1950 and the later legal observance are distinct milestones.",
+          "promoter": "The Republic of Korea's government established the statutory remembrance in 1973, with veterans' institutions responsible for ceremonies.",
+          "purpose": "Remember the human cost of the war, honour veterans and encourage informed remembrance of the conflict and its consequences.",
+          "facts": [
+            "The war began on 25 June 1950.",
+            "The official statutory commemoration was established on 30 March 1973.",
+            "The government updated the name of the commemorative day in June 2013."
+          ]
+        },
+        "it": {
+          "heading": "25 giugno: il ricordo della guerra di Corea",
+          "origin": "La Giornata della memoria della guerra di Corea ricorda l'inizio del conflitto il 25 giugno 1950. La guerra provocò perdite umane, sfollamenti e distruzioni, con i combattimenti protratti fino all'armistizio del 1953. Il Ministero sudcoreano dell'Interno ricorda le cerimonie organizzate già dopo l'armistizio dalle autorità competenti per difesa e informazione pubblica. Il governo istituì la ricorrenza legale il 30 marzo 1973 e ne aggiornò il nome ufficiale nel giugno 2013 per menzionare esplicitamente la guerra. L'evento del 1950 e il riconoscimento del 1973 devono rimanere distinti.",
+          "promoter": "Il governo della Repubblica di Corea istituzionalizzò il ricordo nel 1973; gli enti per i veterani curano le cerimonie.",
+          "purpose": "Ricordare il costo umano del conflitto e onorare i veterani, favorendo una memoria storica consapevole.",
+          "facts": [
+            "Il conflitto iniziò il 25 giugno 1950.",
+            "La giornata legale fu istituita il 30 marzo 1973.",
+            "La denominazione ufficiale venne aggiornata nel giugno 2013."
+          ]
+        },
+        "es": {
+          "heading": "25 de junio: recuerdo de la guerra de Corea",
+          "origin": "El Día de la Memoria de la Guerra de Corea recuerda el inicio del conflicto el 25 de junio de 1950. La guerra causó numerosas muertes, desplazamientos y destrucción, y los combates continuaron hasta el armisticio de 1953. El Ministerio del Interior surcoreano documenta ceremonias organizadas después del armisticio bajo organismos de defensa e información pública. El Estado estableció el 25 de junio como conmemoración legal el 30 de marzo de 1973 y modificó su denominación oficial en junio de 2013 para referirse explícitamente a la guerra. El acontecimiento de 1950 y la fecha legal de 1973 no son lo mismo.",
+          "promoter": "El Gobierno de Corea del Sur estableció la conmemoración oficial en 1973; las entidades de veteranos participan en ella.",
+          "purpose": "Recordar el sufrimiento humano de la guerra y honrar a los veteranos promoviendo una memoria histórica rigurosa.",
+          "facts": [
+            "La guerra comenzó el 25 de junio de 1950.",
+            "La conmemoración legal fue instituida el 30 de marzo de 1973.",
+            "La denominación oficial se actualizó en junio de 2013."
+          ]
+        },
+        "fr": {
+          "heading": "25 juin : le souvenir de la guerre de Corée",
+          "origin": "La journée du 25 juin rappelle le déclenchement de la guerre de Corée le 25 juin 1950. Ce conflit a causé des pertes humaines considérables, des déplacements et des destructions, les combats se poursuivant jusqu'à l'armistice de 1953. Le ministère sud-coréen de l'Intérieur mentionne des cérémonies organisées après l'armistice sous la responsabilité d'institutions liées à la défense et à l'information. L'État a inscrit le 25 juin parmi les commémorations légales le 30 mars 1973 et a modifié son nom officiel en juin 2013 pour désigner clairement la guerre. L'événement de 1950 et sa reconnaissance juridique sont distincts.",
+          "promoter": "Le gouvernement sud-coréen a institué la journée officielle en 1973; les organismes chargés des anciens combattants y participent.",
+          "purpose": "Honorer les victimes et les anciens combattants et transmettre une mémoire attentive aux conséquences humaines du conflit.",
+          "facts": [
+            "La guerre a commencé le 25 juin 1950.",
+            "La journée légale a été instituée le 30 mars 1973.",
+            "Sa dénomination officielle a changé en juin 2013."
+          ]
+        },
+        "de": {
+          "heading": "25. Juni: Gedenken an den Koreakrieg",
+          "origin": "Der Gedenktag am 25. Juni erinnert an den Beginn des Koreakriegs am 25. Juni 1950. Der Konflikt brachte enorme menschliche Verluste, Vertreibung und Zerstörung; die Kampfhandlungen dauerten bis zum Waffenstillstand von 1953. Das südkoreanische Innenministerium dokumentiert staatlich organisierte Erinnerungsveranstaltungen nach dem Waffenstillstand durch Einrichtungen für Verteidigung und öffentliche Information. Am 30. März 1973 erhielt der Tag seinen gesetzlichen Gedenkstatus. Im Juni 2013 wurde die amtliche Bezeichnung geändert, um den Krieg ausdrücklich zu benennen. Kriegsausbruch und späterer Gedenktag sind nicht gleichzusetzen.",
+          "promoter": "Die Regierung Südkoreas legte den gesetzlichen Gedenktag 1973 fest; Veteranenbehörden organisieren staatliche Veranstaltungen.",
+          "purpose": "An das menschliche Leid des Krieges erinnern, Veteranen würdigen und die historischen Folgen bewusst machen.",
+          "facts": [
+            "Der Koreakrieg begann am 25. Juni 1950.",
+            "Der gesetzliche Gedenktag wurde am 30. März 1973 eingeführt.",
+            "Die amtliche Bezeichnung wurde im Juni 2013 geändert."
+          ]
+        },
+        "pt": {
+          "heading": "25 de junho: memória da Guerra da Coreia",
+          "origin": "O Dia da Memória da Guerra da Coreia assinala o começo do conflito em 25 de junho de 1950. A guerra provocou enormes perdas humanas, deslocações e destruição, e os combates prosseguiram até ao armistício de 1953. O Ministério do Interior sul-coreano regista cerimónias organizadas após o armistício por organismos responsáveis pela defesa e informação pública. O Estado instituiu 25 de junho como comemoração oficial em 30 de março de 1973 e atualizou a designação em junho de 2013 para mencionar diretamente a guerra. A eclosão do conflito em 1950 e a criação legal da data são acontecimentos distintos.",
+          "promoter": "O governo sul-coreano formalizou a data em 1973, com a participação das instituições ligadas aos veteranos.",
+          "purpose": "Recordar o sofrimento provocado pela guerra, homenagear veteranos e transmitir as suas consequências históricas.",
+          "facts": [
+            "A Guerra da Coreia começou em 25 de junho de 1950.",
+            "A comemoração legal foi criada em 30 de março de 1973.",
+            "A designação oficial foi alterada em junho de 2013."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government MOIS and state archives/MPVA primary history chronology reviewed; separate earliest acts and statutory adoption. Six original AI locales drafted without independent qualified human historical or native-language approvals."
+    },
+    {
+      "observanceId": "kr-w10-patriotic-martyrs-remembrance-day",
+      "country": "KR",
+      "observanceDate": "11-17",
+      "introducedYear": 1997,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_PATRIOTIC_MARTYRS_1939_EXILE_ORIGIN",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=44245"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 November: honouring Korea's independence martyrs",
+          "origin": "Patriotic Martyrs Remembrance Day commemorates people who died resisting the loss of Korean sovereignty and colonial domination. Its roots precede the modern Republic of Korea: on 21 November 1939, the Korean Provisional Government decided to observe 17 November as a collective memorial day, recalling the coerced Eulsa Treaty of 17 November 1905. Memorial ceremonies continued through the independence era and were later supported by civilian and government groups. South Korea gave the observance statutory commemorative status on 9 May 1997. The 1905 treaty, the 1939 founding resolution and the 1997 law are separate events.",
+          "promoter": "The Korean Provisional Government initiated the collective remembrance in 1939; South Korea formalized its legal status in 1997.",
+          "purpose": "Honour those who died pursuing Korean independence and preserve historical understanding of colonial resistance.",
+          "facts": [
+            "The remembrance date recalls the Eulsa Treaty of 17 November 1905.",
+            "The Provisional Government adopted the collective memorial observance in 1939.",
+            "The Republic of Korea recognized the statutory day on 9 May 1997."
+          ]
+        },
+        "it": {
+          "heading": "17 novembre: il ricordo dei martiri dell'indipendenza coreana",
+          "origin": "La giornata dei martiri patriottici coreani ricorda le persone morte resistendo alla perdita della sovranità e al dominio coloniale. Le sue origini precedono la Repubblica di Corea moderna: il 21 novembre 1939 il Governo provvisorio decise di dedicare il 17 novembre a una commemorazione collettiva, richiamando il trattato di Eulsa imposto il 17 novembre 1905. Le cerimonie proseguirono attraverso diverse fasi, sostenute da associazioni civiche e autorità. Solo il 9 maggio 1997 lo Stato sudcoreano riconobbe formalmente la ricorrenza per legge. Trattato del 1905, decisione del 1939 e riconoscimento del 1997 sono fatti differenti.",
+          "promoter": "Il Governo provvisorio coreano avviò il ricordo collettivo nel 1939; la Repubblica di Corea ne sancì lo status nel 1997.",
+          "purpose": "Onorare chi morì per l'indipendenza e preservare la memoria della resistenza al colonialismo.",
+          "facts": [
+            "La data richiama il trattato di Eulsa del 17 novembre 1905.",
+            "Il Governo provvisorio approvò la commemorazione nel 1939.",
+            "Il riconoscimento legale è del 9 maggio 1997."
+          ]
+        },
+        "es": {
+          "heading": "17 de noviembre: homenaje a los mártires de la independencia coreana",
+          "origin": "El Día de los Mártires Patrióticos recuerda a quienes murieron resistiendo la pérdida de soberanía coreana y el dominio colonial. Su origen es anterior a la República de Corea actual: el 21 de noviembre de 1939 el Gobierno Provisional acordó celebrar una jornada colectiva el 17 de noviembre, en recuerdo del Tratado de Eulsa impuesto el 17 de noviembre de 1905. Las ceremonias continuaron después con participación de asociaciones civiles y autoridades. El Estado surcoreano reconoció legalmente la fecha el 9 de mayo de 1997. Es preciso distinguir el tratado de 1905, la decisión de 1939 y la legislación de 1997.",
+          "promoter": "El Gobierno Provisional inició la conmemoración en 1939; el Estado surcoreano le dio reconocimiento legal en 1997.",
+          "purpose": "Honrar a quienes murieron por la independencia y transmitir la historia de la resistencia al colonialismo.",
+          "facts": [
+            "La fecha recuerda el Tratado de Eulsa del 17 de noviembre de 1905.",
+            "El Gobierno Provisional aprobó la conmemoración en 1939.",
+            "El reconocimiento legal se produjo el 9 de mayo de 1997."
+          ]
+        },
+        "fr": {
+          "heading": "17 novembre : hommage aux martyrs de l'indépendance coréenne",
+          "origin": "La Journée des martyrs patriotiques rend hommage aux personnes mortes en résistant à la perte de souveraineté de la Corée et à la domination coloniale. Son origine précède l'État sud-coréen moderne : le 21 novembre 1939, le Gouvernement provisoire a décidé de réserver le 17 novembre au souvenir collectif, en référence au traité d'Eulsa imposé le 17 novembre 1905. Des cérémonies ont ensuite été organisées par des groupes civils et des organismes publics. Le 9 mai 1997, l'État a donné un statut commémoratif légal à cette journée. Le traité de 1905, la résolution de 1939 et la loi de 1997 sont distincts.",
+          "promoter": "Le Gouvernement provisoire a instauré l'hommage en 1939; la République de Corée l'a reconnu légalement en 1997.",
+          "purpose": "Rendre hommage aux personnes mortes pour l'indépendance et transmettre la mémoire de la résistance coloniale.",
+          "facts": [
+            "La date rappelle le traité d'Eulsa du 17 novembre 1905.",
+            "La résolution du Gouvernement provisoire date de 1939.",
+            "La reconnaissance légale a été accordée le 9 mai 1997."
+          ]
+        },
+        "de": {
+          "heading": "17. November: Koreas Gedenktag für gefallene Unabhängigkeitskämpfer",
+          "origin": "Der Gedenktag der patriotischen Märtyrer würdigt Menschen, die im Widerstand gegen den Verlust koreanischer Souveränität und die Kolonialherrschaft starben. Sein Ursprung liegt vor der heutigen Republik: Am 21. November 1939 beschloss die Provisorische Regierung, den 17. November zum gemeinsamen Gedenktag zu machen. Das Datum erinnert an den erzwungenen Eulsa-Vertrag vom 17. November 1905. Gedenkfeiern wurden später von bürgerschaftlichen und staatlichen Gruppen fortgeführt. Erst am 9. Mai 1997 wurde der Tag gesetzlich anerkannt. Vertrag, ursprünglicher Beschluss und Gesetz sind drei unterschiedliche Meilensteine.",
+          "promoter": "Die koreanische Provisorische Regierung begründete 1939 das Gedenken; die Republik Korea erkannte es 1997 gesetzlich an.",
+          "purpose": "Menschen ehren, die für die Unabhängigkeit starben, und die Geschichte des antikolonialen Widerstands bewahren.",
+          "facts": [
+            "Der Tag erinnert an den Eulsa-Vertrag vom 17. November 1905.",
+            "Die ursprüngliche Gedenkentscheidung wurde 1939 getroffen.",
+            "Die gesetzliche Anerkennung erfolgte am 9. Mai 1997."
+          ]
+        },
+        "pt": {
+          "heading": "17 de novembro: memória dos mártires da independência coreana",
+          "origin": "O Dia dos Mártires Patrióticos recorda as pessoas que morreram a resistir à perda de soberania da Coreia e ao domínio colonial. A origem é anterior à República da Coreia atual: em 21 de novembro de 1939, o Governo Provisório decidiu assinalar 17 de novembro como dia de memória coletiva, evocando o Tratado de Eulsa imposto em 17 de novembro de 1905. As cerimónias continuaram depois com participação de organizações civis e entidades públicas. Apenas em 9 de maio de 1997 o Estado sul-coreano reconheceu legalmente a data. O tratado, a decisão de 1939 e o reconhecimento de 1997 são momentos distintos.",
+          "promoter": "O Governo Provisório criou a memória coletiva em 1939; a República da Coreia reconheceu-a legalmente em 1997.",
+          "purpose": "Homenagear quem morreu pela independência e preservar a história da resistência ao colonialismo.",
+          "facts": [
+            "A data recorda o Tratado de Eulsa de 17 de novembro de 1905.",
+            "O Governo Provisório instituiu a memória coletiva em 1939.",
+            "O reconhecimento legal ocorreu em 9 de maio de 1997."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government MOIS and state archives/MPVA primary history chronology reviewed; separate earliest acts and statutory adoption. Six original AI locales drafted without independent qualified human historical or native-language approvals."
+    }
+  ]
+}
