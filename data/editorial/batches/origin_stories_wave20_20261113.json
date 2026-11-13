@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 51,
+  "count": 54,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -1746,6 +1746,109 @@
         }
       },
       "sourceReviewNote": "Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication."
+    },
+    {
+      "observanceId": "spain-acquired-brain-injury-day",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx",
+        "https://www.lamoncloa.gob.es/consejodeministros/Paginas/enlacetranscripciones/240807-delavega.aspx"
+      ],
+      "locale": {
+        "en": {
+          "heading": "26 October: Spain gives acquired brain injury national visibility",
+          "origin": "Spain's Council of Ministers decided on 24 August 2007 to designate 26 October National Acquired Brain Injury Day. Its contemporaneous press summary explains that stroke and traumatic brain injuries can leave long-lasting physical, psychological, sensory and cognitive consequences. The decision aimed to mobilize public attention and involve affected people, families, associations and national, regional and local administrations. A government press conference from the same date confirms this purpose. The documents establish the day in 2007 but do not independently identify a first annual event or a specific historical anniversary explaining the choice of 26 October. Those details therefore remain unknown rather than inferred.",
+          "promoter": "The Spanish Council of Ministers formally established the national observance on 24 August 2007.",
+          "purpose": "Promote awareness, access to care, prevention and social support for people living with acquired brain injury.",
+          "facts": [
+            "The Council of Ministers took its decision on 24 August 2007.",
+            "The declared national observance takes place on 26 October.",
+            "The decision explicitly involved affected families, associations and public institutions."
+          ]
+        },
+        "it": {
+          "heading": "26 ottobre: la Spagna dà visibilità al danno cerebrale acquisito",
+          "origin": "Il Consiglio dei ministri spagnolo decise il 24 agosto 2007 di designare il 26 ottobre Giornata nazionale del danno cerebrale acquisito. Il comunicato diffuso allora spiegava che ictus e traumi cranici possono lasciare conseguenze fisiche, psicologiche, sensoriali e cognitive durature. La scelta intendeva mobilitare l'attenzione pubblica e coinvolgere persone interessate, famiglie, associazioni e amministrazioni statali e locali. Una conferenza stampa governativa dello stesso giorno conferma le finalità. Gli atti attestano l'istituzione nel 2007, ma non dimostrano una prima cerimonia annuale o un anniversario preciso che spieghi la scelta del 26 ottobre: i due dati restano sconosciuti.",
+          "promoter": "Il Consiglio dei ministri spagnolo istituì formalmente la ricorrenza il 24 agosto 2007.",
+          "purpose": "Diffondere consapevolezza, sostegno e iniziative di prevenzione per le persone con danno cerebrale acquisito.",
+          "facts": [
+            "Il Consiglio dei ministri decise il 24 agosto 2007.",
+            "La data nazionale annuale è il 26 ottobre.",
+            "La decisione invitava a coinvolgere famiglie, associazioni e istituzioni pubbliche."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content."
+    },
+    {
+      "observanceId": "australia-harmony-day",
+      "introducedYear": 1999,
+      "firstObservedYear": 1999,
+      "sources": [
+        "https://www.homeaffairs.gov.au/news-subsite/Pages/2019-Mar/celebrating%2020%20years%20of%20harmony%20celebrations.aspx",
+        "https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 March: Australia's community celebration of cultural inclusion",
+          "origin": "The Australian Government introduced Harmony Day in 1999 to encourage communities to celebrate cultural diversity, mutual respect and belonging. The original 21 March date coincides with the United Nations International Day for the Elimination of Racial Discrimination, though the Australian initiative has a different institutional origin. The Australian Department of Home Affairs confirmed in a twentieth-anniversary statement that the first Harmony Day took place in 1999. Community events grew through schools, neighbourhood groups and workplaces, eventually developing into Harmony Week with activities across multiple days. The government's own flags booklet lists the 21 March commemoration. These sources demonstrate a public community campaign rather than an independently identified statutory founding act or personal founder.",
+          "promoter": "The Australian Government launched Harmony Day in 1999; schools, communities and organizations developed its activities.",
+          "purpose": "Promote inclusion, intercultural understanding, shared participation and opposition to discrimination.",
+          "facts": [
+            "The first Harmony Day was celebrated in Australia in 1999.",
+            "The annual date is 21 March, coinciding with a separate UN anti-racism observance.",
+            "By 2019 the public programme had expanded into Harmony Week."
+          ]
+        },
+        "it": {
+          "heading": "21 marzo: una celebrazione australiana dell'inclusione culturale",
+          "origin": "Il governo australiano introdusse Harmony Day nel 1999 per incoraggiare le comunità a celebrare diversità culturale, rispetto reciproco e appartenenza. La data originaria del 21 marzo coincide con la Giornata ONU per l'eliminazione della discriminazione razziale, pur avendo un'origine istituzionale australiana distinta. Nel ventesimo anniversario, il Dipartimento dell'interno confermò che la prima edizione era stata organizzata nel 1999. Le iniziative crebbero fra scuole, quartieri e luoghi di lavoro, evolvendosi in Harmony Week, con attività su più giorni. Anche la guida governativa alle bandiere elenca la ricorrenza del 21 marzo. Le fonti documentano una campagna pubblica comunitaria, non un atto legislativo o un fondatore personale individuato singolarmente.",
+          "promoter": "Il governo australiano lanciò Harmony Day nel 1999; scuole e associazioni ne hanno sviluppato le attività.",
+          "purpose": "Promuovere inclusione, dialogo interculturale e partecipazione delle comunità contro i pregiudizi.",
+          "facts": [
+            "La prima Harmony Day australiana si svolse nel 1999.",
+            "La data del 21 marzo coincide con una diversa ricorrenza ONU.",
+            "Nel 2019 le celebrazioni erano diventate anche Harmony Week."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content."
+    },
+    {
+      "observanceId": "brazil-black-consciousness-day",
+      "introducedYear": 2011,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html",
+        "https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional",
+        "https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 November: Brazil recognizes Black Consciousness before making it a federal holiday",
+          "origin": "Brazil's federal Law 12.519 of 10 November 2011 formally instituted the National Day of Zumbi and Black Consciousness on 20 November. It honours the historical memory of Zumbi dos Palmares and recognizes Afro-Brazilian resistance and culture. Commemorative initiatives preceded that federal law, so 2011 should not be presented as the first time civil society marked the date. Another legal milestone occurred on 21 December 2023, when Law 14.759 made 20 November a nationwide public holiday. Brazil's government described 20 November 2024 as the first celebration of the holiday in that nationwide legal form. Neither statute proves the year of the first grassroots commemoration, which is left unknown.",
+          "promoter": "The Brazilian federal legislature established national recognition in 2011 and a distinct nationwide public-holiday status in 2023.",
+          "purpose": "Recognize Afro-Brazilian history and resistance, encourage discussion of racism and celebrate cultural contributions.",
+          "facts": [
+            "Law 12.519 established the national commemorative date in 2011.",
+            "Law 14.759 in 2023 created nationwide public-holiday status.",
+            "The first nationwide holiday under the new law took place on 20 November 2024."
+          ]
+        },
+        "it": {
+          "heading": "20 novembre: il Brasile riconosce la coscienza nera prima del giorno festivo nazionale",
+          "origin": "La legge federale brasiliana 12.519 del 10 novembre 2011 istituì formalmente il Giorno nazionale di Zumbi e della coscienza nera il 20 novembre. La data ricorda Zumbi dos Palmares, la memoria della resistenza afro-brasiliana e il contributo delle comunità nere. Le iniziative commemorative della società civile erano precedenti, quindi il 2011 non può essere indicato come prima celebrazione assoluta. Una seconda tappa giuridica arrivò il 21 dicembre 2023: la legge 14.759 rese il 20 novembre un giorno festivo nazionale. Il governo descrisse quello del 20 novembre 2024 come il primo festivo osservato in tutto il Paese in quella forma. Nessuno dei due provvedimenti documenta l'anno della prima iniziativa civile, che resta non verificato.",
+          "promoter": "Il legislatore federale brasiliano riconobbe la ricorrenza nel 2011 e ne stabilì il carattere festivo nazionale nel 2023.",
+          "purpose": "Riconoscere storia e resistenza afro-brasiliane e promuovere educazione e contrasto alle discriminazioni.",
+          "facts": [
+            "La legge 12.519 istituì la ricorrenza nazionale nel 2011.",
+            "La legge 14.759 introdusse il giorno festivo nazionale nel 2023.",
+            "Il primo festivo nazionale in quella forma fu il 20 novembre 2024."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content."
     }
   ]
 }
