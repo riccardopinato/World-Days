@@ -4,8 +4,8 @@
 
 - Catalog on initial main: **1,111** canonical IDs; origin research already present on main: **225**, pending globally: **886**.
 - Active frozen cohort: **100** distinct IDs (48 global + 52 national) in `data/editorial/research_batches/wave20_first100_20261113.json`.
-- Historical narratives **actually written and primary-source-linked in this PR: 20/100** (20 original IT/EN model-authored drafts, not 100 approved).
-- **80/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
+- Historical narratives **actually written and primary-source-linked in this PR: 35/100** (35 original IT/EN model-authored drafts, not 100 approved).
+- **65/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
 - Qualified six-locale human factual/native approvals **0**; Rich Editorial runtime publication approvals **0** for this wave.
 - A URL validates provenance format but does not prove every historical claim without independent fact checking. Consult individually every linked source, including exact law or founding record, before human editorial signoff.
 
@@ -33,6 +33,22 @@
 | 18 | `world-habitat-day` | 1985 | 1986 | 2 | IT+EN research draft / human review pending |
 | 19 | `world-neglected-tropical-diseases-day` | 2021 | 2020 | 2 | IT+EN research draft / human review pending |
 | 20 | `world-intellectual-property-day` | 2000 | 2001 | 3 | IT+EN research draft / human review pending |
+
+| 21 | `international-delegate-s-day` | 2019 | * | 2 | IT+EN research draft / human review pending |
+| 22 | `vesak-the-day-of-the-full-moon` | 1999 | * | 2 | IT+EN research draft / human review pending |
+| 23 | `world-day-against-child-labour` | 2002 | 2002 | 2 | IT+EN research draft / human review pending |
+| 24 | `world-post-day` | 1969 | * | 2 | IT+EN research draft / human review pending |
+| 25 | `zero-discrimination-day` | 2013 | 2014 | 2 | IT+EN research draft / human review pending |
+| 26 | `world-space-week` | 1999 | * | 2 | IT+EN research draft / human review pending |
+| 27 | `world-blood-donor-day` | 2005 | 2004 | 3 | IT+EN research draft / human review pending |
+| 28 | `world-malaria-day` | 2007 | * | 2 | IT+EN research draft / human review pending |
+| 29 | `world-tuberculosis-day` | 1982 | 1982 | 2 | IT+EN research draft / human review pending |
+| 30 | `world-hepatitis-day` | 2010 | * | 2 | IT+EN research draft / human review pending |
+| 31 | `brazil-indigenous-peoples-day` | 2022 | * | 2 | IT+EN research draft / human review pending |
+| 32 | `canada-national-flag-day` | 1996 | 1996 | 2 | IT+EN research draft / human review pending |
+| 33 | `canada-truth-and-reconciliation-day` | 2021 | 2021 | 2 | IT+EN research draft / human review pending |
+| 34 | `spain-exile-victims-remembrance-day` | 2022 | * | 2 | IT+EN research draft / human review pending |
+| 35 | `brazil-national-physicist-day` | 2023 | * | 2 | IT+EN research draft / human review pending |
 
 ## Remaining source-index and documentary risks
 
@@ -170,6 +186,83 @@
 - https://www.wipo.int/en/web/ipday
 - https://www.wipo.int/edocs/mdocs/govbody/en/wo_ga_26/wo_ga_26_2.pdf
 
+
+
+### international-delegate-s-day
+
+- https://www.un.org/en/observances/delegates-day
+- https://mandates.un.org/mandate/A/RES/73/286
+
+### vesak-the-day-of-the-full-moon
+
+- https://digitallibrary.un.org/record/404546
+- https://www.un.org/en/observances/vesak-day
+
+### world-day-against-child-labour
+
+- https://www.ilo.org/resource/news/ilo-launches-first-world-day-against-child-labour-12-june-2002
+- https://www.ilo.org/resource/news/world-day-against-child-labour-will-be-observed-first-time
+
+### world-post-day
+
+- https://www.upu.int/en/universal-postal-union/outreach-campaigns/world-post-day
+- https://www.upu.int/en/universal-postal-union/about-upu/history
+
+### zero-discrimination-day
+
+- https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2013/december/20131201zerodiscrimination
+- https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2015/february/20150226_PR_Zero_Discrimination_Day
+
+### world-space-week
+
+- https://www.un.org/en/observances/world-space-week
+- https://mandates.un.org/mandate/A/RES/54/68
+
+### world-blood-donor-day
+
+- https://www.who.int/publications-detail-redirect/WHA58.13
+- https://www.who.int/westernpacific/newsroom/events/world-blood-donor-day
+- https://www.emro.who.int/press-releases/2005/world-blood-donor-day-2005.html
+
+### world-malaria-day
+
+- https://www.who.int/campaigns/world-malaria-day
+- https://apps.who.int/gb/ebwha/pdf_files/WHA60/A60_R18-en.pdf
+
+### world-tuberculosis-day
+
+- https://www.who.int/europe/campaigns/world-tb-day
+- https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
+
+### world-hepatitis-day
+
+- https://www.who.int/campaigns/world-hepatitis-day/
+- https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
+
+### brazil-indigenous-peoples-day
+
+- https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14402.htm
+- https://www.gov.br/cultura/pt-br/assuntos/noticias/dia-dos-povos-indigenas
+
+### canada-national-flag-day
+
+- https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day.html
+
+### canada-truth-and-reconciliation-day
+
+- https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html
+
+### spain-exile-victims-remembrance-day
+
+- https://www.boe.es/eli/es/l/2022/10/19/20/con/20221020
+- https://www.boe.es/buscar/doc.php?id=BOE-A-2022-17099
+
+### brazil-national-physicist-day
+
+- https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14769.htm
+- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
 
 
 ## Publication gate and next execution
