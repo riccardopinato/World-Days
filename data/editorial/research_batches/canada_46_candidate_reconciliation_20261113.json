@@ -9,9 +9,13 @@
   "stats": {
     "all": 46,
     "canadianCanonical": 27,
-    "canadaAlreadyInWave20": 6,
     "nonCanadianOrOtherAliasesMatched": 13,
-    "pendingIdentityOrOriginResearch": 6
+    "sourceResearchedSixLocaleDraftCandidateCoverage": 46,
+    "existingCanonicalDraftsOnPR119": 31,
+    "existingCanonicalDraftsOnPR118": 9,
+    "fullResearchOnlyNotCanonical": 6,
+    "identityResearchOutstanding": 0,
+    "qualifiedHumanSixLocaleReviews": 0
   },
   "rows": [
     {
@@ -24,13 +28,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2022,
+      "firstObservedYearVerified": 2023,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2022/12/bill-s-219-an-act-respecting-a-national-ribbon-skirt-day-receives-royal-assent.html",
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2024/01/ministers-anandasangaree-vandal-hajdu-and-parliamentary-secretary-atwin-issue-a-statement-of-support-on-national-ribbon-skirt-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 2,
@@ -42,13 +52,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2020,
+      "firstObservedYearVerified": 2021,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://orders-in-council.canada.ca/attachment.php?attach=40149&lang=en",
+        "https://international.canada.ca/en/global-affairs/corporate/reports/flight-ps752/report-2022"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 3,
@@ -60,13 +76,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2002,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/sir-john-macdonald-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 4,
@@ -81,10 +103,16 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/news/2020/01/statement-by-minister-chagger-on-raoul-wallenberg-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/canada-holocaust/resources.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 5,
@@ -96,13 +124,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2014,
+      "firstObservedYearVerified": 2015,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2015/01/statement-minister-glover-honouring-exemplary-life-lincoln-alexander.html",
+        "https://www.canada.ca/en/news/archive/2015/01/minister-kenney-issues-statement-lincoln-alexander-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 6,
@@ -114,15 +148,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2019,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.unesco.org/en/days/african-culture",
+        "https://www.unesco.org/en/articles/world-day-african-and-afro-descendant-culture"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "world-day-for-african-and-afrodescendant-culture",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave05_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave05_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave05_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 7,
@@ -134,15 +174,22 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2005,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.un.org/en/observances/commemoration-holocaust-victims-day",
+        "https://digitallibrary.un.org/record/559922?ln=en",
+        "https://www.un.org/en/ga/63/plenary/D_holocaust.shtml"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 8,
@@ -157,10 +204,16 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/news/2021/01/the-government-of-canada-intends-to-create-national-day-of-remembrance-of-the-quebec-city-mosque-attack-and-action-against-islamophobia.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 9,
@@ -172,15 +225,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1996,
+      "firstObservedYearVerified": 1996,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
       "canonicalIdVerifiedByOtherWave": "canada-national-flag-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 10,
@@ -192,15 +251,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1999,
+      "firstObservedYearVerified": 2000,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.unesco.org/en/days/mother-language",
+        "https://www.un.org/en/observances/mother-language-day"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-mother-language-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 11,
@@ -209,16 +274,23 @@
       "dateNotation": "03-08",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "originalIndividualFoundingAct": "International Socialist Women's Conference, Copenhagen, 1910; exact original mover not asserted",
+      "yearEstablishedVerified": 1910,
+      "firstObservedYearVerified": 1911,
+      "earliestDateRationaleVerified": "8 March established by subsequent women's movements, not by the 1910 Copenhagen conference; UN began marking 8 March in 1975, General Assembly resolution followed in 1977.",
+      "sourceSpecificUrls": [
+        "https://static.un.org/womenwatch/feature/iwd/history.html",
+        "https://www.un.org/en/observances/womens-day/background",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/international-womens-day.html"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 12,
@@ -230,13 +302,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2021,
+      "firstObservedYearVerified": 2021,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/public-health/news/2021/03/statement-from-the-chief-public-health-officer-of-canada-on-march-11-2021.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 13,
@@ -245,16 +323,23 @@
       "dateNotation": "03-14",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "originalIndividualFoundingAct": "National Council in Canada of the Royal Commonwealth Society (1973 suggestion), Canadian delegation proposal to Commonwealth officials in 1975–76",
+      "yearEstablishedVerified": 1976,
+      "firstObservedYearVerified": 1977,
+      "earliestDateRationaleVerified": "Second Monday of March selected by senior officials in Canberra, 1976, because schoolchildren across Commonwealth countries would generally be in school.",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/commonwealth-day.html",
+        "https://thecommonwealth.org/commonwealth-day-archives",
+        "https://thecommonwealth.org/history"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 14,
@@ -266,15 +351,24 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2022,
+      "firstObservedYearVerified": 2023,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.un.org/en/observances/anti-islamophobia-day",
+        "https://digitallibrary.un.org/record/3965353",
+        "https://webtv.un.org/en/asset/k1b/k1b5e0bu6t",
+        "https://turkiye.un.org/en/223089-un-observes-first-international-day-against-islamophobia",
+        "https://digitallibrary.un.org/nanna/record/4030568/files/A_78_591-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-day-to-combat-islamophobia",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 15,
@@ -286,15 +380,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1966,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.un.org/en/chronicle/article/long-road-durban-united-nations-role-fighting-racism-and-racial-discrimination",
+        "https://www.un.org/observances/end-racism-day"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-day-for-the-elimination-of-racial-discrimination",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave03_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 16,
@@ -303,16 +403,23 @@
       "dateNotation": "03-31",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "originalIndividualFoundingAct": "Rachel Crandall-Crocker, founder and organizer, Transgender Michigan",
+      "yearEstablishedVerified": 2009,
+      "firstObservedYearVerified": 2009,
+      "earliestDateRationaleVerified": "Rachel Crandall's original 31 March choice, documented as an affirming visibility day distinct from the November remembrance; an independent specific date-choice rationale is not proved by the examined sources.",
+      "sourceSpecificUrls": [
+        "https://www.transgendermichigan.org/who-we-are",
+        "https://pflag.org/transgender-day-of-visibility/",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 17,
@@ -327,10 +434,16 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/news/2026/03/joint-statement-by-ministers-miller-alty-chartrand-and-gull-masty-on-national-indigenous-languages-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 18,
@@ -342,13 +455,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_WAVE20",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2003,
+      "firstObservedYearVerified": 2003,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2016/04/marking-99-years-since-the-battle-of-vimy-ridge.html",
+        "https://www.canada.ca/en/news/archive/2013/04/message-from-excellency-right-honourable-david-johnston-governor-general-canada-occasion-vimy-ridge-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 19,
@@ -357,16 +476,24 @@
       "dateNotation": "04-NTH-WED-2",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
+      "originalIndividualFoundingAct": "Canadian Jer's Vision (now Canadian Centre for Gender and Sexual Diversity) advanced an international observance; original international launch act/year not independently established.",
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "earliestDateRationaleVerified": "Second Wednesday in April is the organizer's recurring date; exact original reason for choosing this weekday is not established.",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2014/04/statement-from-minister-blaney-mark-international-day-pink.html",
+        "https://ontario.psac.com/international-day-of-pink/",
+        "https://www.dayofpink.org/gala",
+        "https://www.etfo.ca/calendar/day-of-pink-1ca6409241f0b4a61482b74bd7703a00"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_b_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 20,
@@ -378,13 +505,20 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_WAVE20",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2015,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.ourcommons.ca/members/en/brad-butt%2830314%29/motions/7892046",
+        "https://www.pm.gc.ca/en/news/statements/2022/04/24/statement-prime-minister-armenian-genocide-memorial-day",
+        "https://canada.mfa.am/en/news/2016/04/24/yeganian_parliamentspeech/3261"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 21,
@@ -397,12 +531,18 @@
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
       "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "firstObservedYearVerified": 2010,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/05/ministers-anandasangaree-hajdu-and-guilbeault-issue-statement-on-red-dress-day-2025.html",
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2022/05/ministers-hajdu-miller-and-vandal-issue-a-statement-on-red-dress-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 22,
@@ -414,13 +554,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2019,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.ourcommons.ca/documentviewer/en/42-1/house/sitting-402/journals?col=2",
+        "https://www.ourcommons.ca/documentviewer/en/42-1/house/sitting-401/order-notice/page-6"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 23,
@@ -429,16 +575,23 @@
       "dateNotation": "05-17",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "originalIndividualFoundingAct": "IDAHO Committee, later international IDAHOBIT organizing network; founder individual not asserted from these sources.",
+      "yearEstablishedVerified": 2004,
+      "firstObservedYearVerified": 2005,
+      "earliestDateRationaleVerified": "17 May marks the 1990 World Health Organization decision to remove homosexuality from its International Classification of Diseases.",
+      "sourceSpecificUrls": [
+        "https://may17.org/idahobit/",
+        "https://may17.org/faq/",
+        "https://www.canada.ca/en/global-affairs/news/2025/05/statement-on-international-day-against-homophobia-biphobia-and-transphobia.html"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_b_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 24,
@@ -447,16 +600,23 @@
       "dateNotation": "05-MON-BEFORE-25",
       "indexUrl": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
       "canonicalIdVerifiedByWave08": null,
-      "classification": "GLOBAL_SHARED_OR_ADDITIONAL_IDENTITY_DEDUP_PENDING",
+      "classification": "SOURCE_BACKED_SIX_LOCALE_RESEARCH_ONLY_NOT_IN_CANONICAL_CATALOG",
       "sourceResearchOnMain": "UNKNOWN_CHECK_ORIGINAL_CATALOG",
-      "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "originalIndividualFoundingAct": "Legislature of the Province of Canada declared Queen Victoria's birthday a holiday in 1845; Parliament formally enacted Victoria Day in 1901; current Monday placement follows 1952 statutory change.",
+      "yearEstablishedVerified": 1845,
       "firstObservedYearVerified": null,
-      "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "earliestDateRationaleVerified": "Queen Victoria was born on 24 May 1819. The 1952 amendment established the Monday before 25 May; 2023 proclamation linked this date to the Sovereign's birthday.",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/victoria-day.html",
+        "https://our-languages.canada.ca/en/writing-tips-plus/victoria-day-fete-de-la-reine",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+      ],
+      "primarySourceStatus": "INDIVIDUAL_ORIGIN_RESEARCH_COMPLETED_RESEARCH_ONLY",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "IDENTITY_DEDUP_WITH_GLOBAL_RESEARCH_AND_ORIGINATOR"
+      "nextAction": "Source researched; canonical identity/source/scope still require separate registry acceptance; do not duplicate or auto-publish",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/research_batches/canada_46_unmapped_origins_b_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 25,
@@ -468,13 +628,20 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_WAVE20",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2002,
+      "firstObservedYearVerified": 2002,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2005/06/canadians-celebrate-canadian-forces-day-june-5.html",
+        "https://www.canada.ca/en/news/archive/2015/06/associate-minister-national-defence-julian-fantino-statement-celebrating-canadian-armed-forces-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 26,
@@ -486,15 +653,22 @@
       "classification": "CANADIAN_NATIONAL_ALIAS_EXISTING_CANONICAL_SOURCE_STORY_NEW_IN_PR119",
       "sourceResearchOnMain": "SOURCE_RESEARCHED_6_LOCALE_DRAFT_ON_PR119_NOT_MAIN",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1996,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDIVIDUAL_ORIGINAL_CANADIAN_LEGISLATION_VERIFIED",
+      "sourceSpecificUrls": [
+        "https://laws-lois.justice.gc.ca/eng/regulations/si-96-55/page-1.html",
+        "https://laws-lois.justice.gc.ca/eng/regulations/SI-2018-55/page-1.html",
+        "https://www.rcaanc.gc.ca/eng/1100100013718/1708446948967"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE: SIX_LOCALE_HUMAN_FACT_NATIVE_REVIEW_PENDING",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "canada-national-indigenous-peoples-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 27,
@@ -506,13 +680,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2005,
+      "firstObservedYearVerified": 2005,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2011/06/national-day-remembrance-victims-terrorism.html",
+        "https://www.canada.ca/en/news/archive/2005/06/prime-minister-pays-canadians-respects-victims-air-india-disaster.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 28,
@@ -527,10 +707,16 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/saint-jean-baptiste-day",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 29,
@@ -542,15 +728,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2002,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html",
+        "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
       "canonicalIdVerifiedByOtherWave": "canada-multiculturalism-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 30,
@@ -562,13 +754,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_WAVE20",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1879,
+      "firstObservedYearVerified": 1868,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 31,
@@ -583,10 +781,16 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2005/06/government-canada-supports-commemoration-250th-anniversary-great-upheaval.html",
+        "https://www.canada.ca/en/canadian-heritage/news/2020/07/statement-by-minister-guilbeault-on-the-day-of-commemoration-of-the-great-upheaval.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 32,
@@ -598,13 +802,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2021,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/emancipation-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 33,
@@ -616,15 +826,22 @@
       "classification": "CANADIAN_NATIONAL_ALIAS_EXISTING_CANONICAL_SOURCE_STORY_NEW_IN_PR119",
       "sourceResearchOnMain": "SOURCE_RESEARCHED_6_LOCALE_DRAFT_ON_PR119_NOT_MAIN",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2003,
+      "firstObservedYearVerified": 1881,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDIVIDUAL_ORIGINAL_CANADIAN_LEGISLATION_VERIFIED",
+      "sourceSpecificUrls": [
+        "https://laws.justice.gc.ca/eng/acts/N-1.4/page-1.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada/acadian-day.html",
+        "https://www.parl.ca/LegisInfo/en/bill/37-1/S-37"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE: SIX_LOCALE_HUMAN_FACT_NATIVE_REVIEW_PENDING",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "canada-national-acadian-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 34,
@@ -636,13 +853,20 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_WAVE20",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2018,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.ourcommons.ca/members/en/25516/motions/8853980",
+        "https://www.ontario.ca/laws/statute/s11014",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 35,
@@ -654,15 +878,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2021,
+      "firstObservedYearVerified": 2021,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
       "canonicalIdVerifiedByOtherWave": "canada-truth-and-reconciliation-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     },
     {
       "sequence": 36,
@@ -674,13 +904,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2010,
+      "firstObservedYearVerified": 2011,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2010/11/government-canada-establishes-national-seniors-day.html",
+        "https://www.canada.ca/en/employment-social-development/campaigns/national-seniors-day/nsd-guide.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 37,
@@ -692,15 +928,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 2011,
+      "firstObservedYearVerified": 2012,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://mandates.un.org/mandate/A/RES/66/170",
+        "https://www.un.org/en/observances/girl-child-day"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-day-of-the-girl-child",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave17_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave17_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave17_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 38,
@@ -712,13 +954,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1979,
+      "firstObservedYearVerified": 1979,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/womens-history-month/persons-day.html",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/gender-equality-week/gender-equality-timeline.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 39,
@@ -730,13 +978,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1994,
+      "firstObservedYearVerified": 1994,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2020/11/government-of-canada-marks-indigenous-veterans-day.html",
+        "https://www.canada.ca/en/department-national-defence/maple-leaf/defence/2025/11/beyond-remembrance-the-meaning-of-indigenous-veterans-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 40,
@@ -748,13 +1002,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
-      "firstObservedYearVerified": null,
+      "yearEstablishedVerified": 1931,
+      "firstObservedYearVerified": 1919,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/remembrance-ceremony/2.html",
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2021/11/ministers-of-veterans-affairs-national-defence-and-public-safety-mark-remembrance-day.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 41,
@@ -766,13 +1026,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1993,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/public-health/services/national-child-day/children-s-rights-activity-guide.html",
+        "https://www.canada.ca/en/public-health/services/national-child-day/celebrate-national-child-day-november-20.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 42,
@@ -784,13 +1050,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 2008,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/news/archive/2011/11/statement-prime-minister-canada-78th-anniversary-holodomor.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 43,
@@ -802,15 +1074,21 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1992,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.un.org/en/observances/day-of-persons-with-disabilities/background",
+        "https://digitallibrary.un.org/record/155059?ln=en"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "international-day-of-persons-with-disabilities",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 44,
@@ -822,13 +1100,19 @@
       "classification": "CANADIAN_NATIONAL_CANONICAL_EXISTS",
       "sourceResearchOnMain": "CANONICAL_METADATA_ONLY_OR_NOT_YET_SOURCE_HISTORY",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1991,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/women-gender-equality/gender-based-violence/federal-action-gender-based-violence/chronology.html",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/16-days/national-day-remembrance.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "SOURCE_RESEARCH_IN_EXISTING_CANONICAL_ID"
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 45,
@@ -840,15 +1124,20 @@
       "classification": "ALIAS_OF_EXISTING_ORIGINAL_SOURCE_RESEARCH_CANONICAL",
       "sourceResearchOnMain": "EN_IT_SOURCE_HISTORY_ALREADY_RESEARCHED",
       "originalIndividualFoundingAct": null,
-      "yearEstablishedVerified": null,
+      "yearEstablishedVerified": 1950,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://mandates.un.org/mandate/A/RES/423%28V%29"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR119",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE; LOCALIZE_EXISTING_CANONICAL_STORY_IF_NOT_ALREADY_6_LOCALES",
+      "nextAction": "Verify PR119 exact-head CI and review; do not label human-certified",
       "canonicalIdVerifiedByOtherWave": "human-rights-day",
-      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json"
+      "originResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave04_20261112.json",
+      "sourceResearchBranch": "editorial/canada-46-origin-audit-20261113"
     },
     {
       "sequence": 46,
@@ -863,12 +1152,20 @@
       "yearEstablishedVerified": null,
       "firstObservedYearVerified": null,
       "earliestDateRationaleVerified": null,
-      "sourceSpecificUrls": [],
-      "primarySourceStatus": "INDEX_ONLY_UNTIL_PER_ID_ACT_CHECK",
+      "sourceSpecificUrls": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/anniversary-statute-westminster.html",
+        "https://justice.canada.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t171.html"
+      ],
+      "primarySourceStatus": "SOURCE_BACKED_SIX_LOCALE_DRAFT_EXISTS_IN_PR118_NOT_MAIN",
       "sixLocaleHumanReviewed": false,
-      "nextAction": "NO_DUPLICATE_LOCALIZE_ON_PR118_IF_NEEDED"
+      "nextAction": "Wait PR118 complete/green; no overwrite original bilingual or duplicate this story",
+      "sixLocaleDraftCoverage": true,
+      "sourceResearchSourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
+      "sourceResearchBranch": "editorial/wave20-six-locales-20261113"
     }
   ],
   "canonicalResearchCommittedOnCanadaBranch": 23,
-  "canonicalResearchSixLocaleDraftsOnCanadaBranch": 23
+  "canonicalResearchSixLocaleDraftsOnCanadaBranch": 23,
+  "sourceResearchCompleteAsDraft": true,
+  "originResearchClosureNote": "46/46 original Canadian Heritage index entries source-researched with six draft locales, not 46 new unique canonical observances; 9 depend on separate draft PR118, 6 remain research-only and not incorporated into canonical catalog. No human editorial/natives reviews."
 }
