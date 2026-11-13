@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-13",
+  "sourcePolicy": "Canada 46 research batch, organizer and federal primary references, not qualified human editorial certification. Non-canonical research does not create new records in the app.",
+  "status": "RESEARCH_ONLY_NOT_CANONICAL_SIX_LOCALE_DRAFT",
+  "count": 3,
+  "records": [
+    {
+      "candidateId": "ca-international-day-of-pink",
+      "canonicalTitleEn": "International Day of Pink",
+      "scope": "GLOBAL_SHARED_CANADIAN_ORIGIN_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "NTH_WEEKDAY",
+        "month": 4,
+        "weekday": 3,
+        "occurrence": 2
+      },
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "originalProposer": "Canadian Jer's Vision (now Canadian Centre for Gender and Sexual Diversity) advanced an international observance; original international launch act/year not independently established.",
+      "dateRationale": "Second Wednesday in April is the organizer's recurring date; exact original reason for choosing this weekday is not established.",
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2014/04/statement-from-minister-blaney-mark-international-day-pink.html",
+        "https://ontario.psac.com/international-day-of-pink/",
+        "https://www.dayofpink.org/gala",
+        "https://www.etfo.ca/calendar/day-of-pink-1ca6409241f0b4a61482b74bd7703a00"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Second Wednesday in April: a pink-shirt protest becomes an international day",
+          "origin": "International Day of Pink grew from a 2007 anti-bullying action in Nova Scotia. After another student was targeted for wearing a pink shirt, classmates David Shepherd and Travis Price organized a collective response and distributed pink shirts. The Canadian group Jer's Vision, later renamed the Canadian Centre for Gender and Sexual Diversity, developed an international campaign focused on bullying, homophobia and other discrimination. A Canadian federal statement in 2014 confirms the annual second-Wednesday-of-April date. The school action of 2007 is not proof of the international campaign's exact founding year, and the original reason for the weekday choice is not established by the sources.",
+          "promoter": "Students David Shepherd and Travis Price organized the 2007 local action; Jer's Vision developed the international campaign.",
+          "purpose": "Encourage solidarity against bullying, discrimination and exclusion, especially in schools.",
+          "facts": [
+            "The school action in Nova Scotia occurred in 2007.",
+            "The international campaign is linked to Jer's Vision.",
+            "The recurring observance falls on the second Wednesday in April."
+          ]
+        },
+        "it": {
+          "heading": "Secondo mercoledì di aprile: la maglietta rosa diventa una campagna internazionale",
+          "origin": "L'International Day of Pink affonda le radici in una protesta contro il bullismo avvenuta nel 2007 in Nuova Scozia. Dopo che uno studente era stato preso di mira per una maglietta rosa, i compagni David Shepherd e Travis Price organizzarono una risposta collettiva distribuendo magliette dello stesso colore. Il gruppo canadese Jer's Vision, poi diventato Canadian Centre for Gender and Sexual Diversity, sviluppò una campagna internazionale contro bullismo, omofobia e discriminazioni. Un comunicato federale del 2014 conferma la ricorrenza al secondo mercoledì di aprile. L'azione scolastica del 2007 non prova l'anno esatto di istituzione della campagna internazionale, né il motivo originario del mercoledì.",
+          "promoter": "David Shepherd e Travis Price organizzarono la protesta scolastica del 2007; Jer's Vision promosse la campagna internazionale.",
+          "purpose": "Promuovere solidarietà contro bullismo, discriminazioni ed esclusione, soprattutto a scuola.",
+          "facts": [
+            "L'iniziativa scolastica ebbe luogo in Nuova Scozia nel 2007.",
+            "La campagna internazionale è collegata a Jer's Vision.",
+            "La ricorrenza cade il secondo mercoledì di aprile."
+          ]
+        },
+        "es": {
+          "heading": "Segundo miércoles de abril: una camiseta rosa impulsa una campaña mundial",
+          "origin": "El Día Internacional de Rosa surgió a partir de una protesta contra el acoso escolar realizada en Nueva Escocia en 2007. Después de que un estudiante sufriera burlas por llevar una camiseta rosa, David Shepherd y Travis Price organizaron una respuesta colectiva y repartieron camisetas del mismo color. La organización canadiense Jer's Vision, posteriormente Canadian Centre for Gender and Sexual Diversity, impulsó una campaña internacional contra el acoso, la homofobia y la discriminación. Una declaración federal de 2014 confirma el segundo miércoles de abril. La protesta de 2007 no demuestra el año exacto de creación de la campaña internacional ni el motivo original del día elegido.",
+          "promoter": "David Shepherd y Travis Price organizaron la protesta de 2007; Jer's Vision desarrolló la campaña internacional.",
+          "purpose": "Fomentar la solidaridad y prevenir el acoso y la discriminación en las escuelas.",
+          "facts": [
+            "La protesta escolar sucedió en Nueva Escocia en 2007.",
+            "La campaña internacional está relacionada con Jer's Vision.",
+            "El día se celebra el segundo miércoles de abril."
+          ]
+        },
+        "fr": {
+          "heading": "Deuxième mercredi d'avril : un chandail rose devient une campagne internationale",
+          "origin": "La Journée internationale du rose prend racine dans une action contre l'intimidation menée en Nouvelle-Écosse en 2007. Après qu'un élève eut été intimidé pour avoir porté un chandail rose, David Shepherd et Travis Price ont organisé une réponse collective en distribuant des chandails de cette couleur. L'organisme canadien Jer's Vision, devenu Canadian Centre for Gender and Sexual Diversity, a ensuite développé une campagne internationale contre l'intimidation, l'homophobie et la discrimination. Une déclaration fédérale de 2014 confirme la tenue du deuxième mercredi d'avril. L'action de 2007 ne prouve ni l'année exacte de création de la campagne internationale ni la raison précise de ce choix calendaire.",
+          "promoter": "David Shepherd et Travis Price ont organisé l'action de 2007; Jer's Vision a développé la campagne internationale.",
+          "purpose": "Encourager la solidarité contre l'intimidation et la discrimination, notamment dans les écoles.",
+          "facts": [
+            "L'action scolaire s'est déroulée en Nouvelle-Écosse en 2007.",
+            "La campagne internationale est liée à Jer's Vision.",
+            "La journée a lieu le deuxième mercredi d'avril."
+          ]
+        },
+        "de": {
+          "heading": "Zweiter Mittwoch im April: ein rosa T-Shirt wird zum internationalen Zeichen",
+          "origin": "Der International Day of Pink geht auf eine Aktion gegen Mobbing im Jahr 2007 in Nova Scotia zurück. Nachdem ein Schüler wegen eines rosa T-Shirts schikaniert worden war, organisierten David Shepherd und Travis Price eine solidarische Reaktion und verteilten rosa T-Shirts. Die kanadische Organisation Jer's Vision, später Canadian Centre for Gender and Sexual Diversity, entwickelte daraus eine internationale Kampagne gegen Mobbing, Homophobie und Diskriminierung. Eine kanadische Regierungserklärung von 2014 bestätigt den zweiten Mittwoch im April als Termin. Die Schulaktion von 2007 belegt nicht das genaue Gründungsjahr der internationalen Kampagne oder den ursprünglichen Grund für die Wochentagswahl.",
+          "promoter": "David Shepherd und Travis Price organisierten 2007 die Schulaktion; Jer's Vision förderte die internationale Kampagne.",
+          "purpose": "Solidarität gegen Mobbing, Ausgrenzung und Diskriminierung besonders in Schulen stärken.",
+          "facts": [
+            "Die ursprüngliche Schulaktion fand 2007 in Nova Scotia statt.",
+            "Die internationale Kampagne ist mit Jer's Vision verbunden.",
+            "Der Termin ist der zweite Mittwoch im April."
+          ]
+        },
+        "pt": {
+          "heading": "Segunda quarta-feira de abril: uma camisola rosa inspira uma campanha internacional",
+          "origin": "O Dia Internacional do Rosa tem raízes numa ação contra o bullying realizada em 2007 na Nova Escócia. Depois de um aluno ter sido intimidado por usar uma camisola rosa, David Shepherd e Travis Price organizaram uma resposta solidária e distribuíram camisolas da mesma cor. A associação canadiana Jer's Vision, mais tarde denominada Canadian Centre for Gender and Sexual Diversity, desenvolveu uma campanha internacional contra o bullying, a homofobia e a discriminação. Uma declaração federal de 2014 confirma a segunda quarta-feira de abril. A ação escolar de 2007 não comprova o ano exato de criação da campanha internacional nem a razão original da escolha da data.",
+          "promoter": "David Shepherd e Travis Price organizaram a ação escolar de 2007; Jer's Vision desenvolveu a campanha internacional.",
+          "purpose": "Incentivar a solidariedade e combater o bullying e a discriminação, sobretudo nas escolas.",
+          "facts": [
+            "A ação escolar ocorreu na Nova Escócia em 2007.",
+            "A campanha internacional está ligada à Jer's Vision.",
+            "A comemoração ocorre na segunda quarta-feira de abril."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    },
+    {
+      "candidateId": "ca-international-day-against-homophobia-transphobia-and-biphobia",
+      "canonicalTitleEn": "International Day Against Homophobia, Transphobia and Biphobia",
+      "scope": "GLOBAL_SHARED_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "FIXED_DATE",
+        "month": 5,
+        "day": 17
+      },
+      "introducedYear": 2004,
+      "firstObservedYear": 2005,
+      "originalProposer": "IDAHO Committee, later international IDAHOBIT organizing network; founder individual not asserted from these sources.",
+      "dateRationale": "17 May marks the 1990 World Health Organization decision to remove homosexuality from its International Classification of Diseases.",
+      "sources": [
+        "https://may17.org/idahobit/",
+        "https://may17.org/faq/",
+        "https://www.canada.ca/en/global-affairs/news/2025/05/statement-on-international-day-against-homophobia-biphobia-and-transphobia.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 May: a global movement marks a change in medical classification",
+          "origin": "The International Day Against Homophobia, Transphobia and Biphobia emerged through the IDAHO Committee created in 2004. Communities in numerous countries first marked the International Day Against Homophobia in 2005; later the expanded name reflected additional forms of discrimination. Organizers deliberately chose 17 May to recall the World Health Organization's decision on that date in 1990 to remove homosexuality from its classification of diseases. The date therefore refers to the medical milestone, not the day the observance was founded. Canada regularly recognizes the international initiative but did not create it as a Canadian statutory public holiday.",
+          "promoter": "The international IDAHO organizing committee launched the 2004 initiative, with decentralized communities taking part in 2005.",
+          "purpose": "Raise awareness of discrimination and violence and promote equal human rights across diverse communities.",
+          "facts": [
+            "The international committee began work in 2004.",
+            "Communities held the first international observances in 2005.",
+            "The 17 May date commemorates a 1990 WHO decision."
+          ]
+        },
+        "it": {
+          "heading": "17 maggio: una mobilitazione mondiale ricorda una svolta nella classificazione medica",
+          "origin": "La Giornata internazionale contro omofobia, transfobia e bifobia si sviluppò dal comitato IDAHO, creato nel 2004. Comunità di molti paesi celebrarono per la prima volta la Giornata internazionale contro l'omofobia nel 2005; la denominazione si ampliò in seguito per includere altre forme di discriminazione. Gli organizzatori scelsero il 17 maggio per ricordare la decisione dell'Organizzazione mondiale della sanità che in quella data, nel 1990, eliminò l'omosessualità dalla classificazione delle malattie. La data commemorata non coincide quindi con la fondazione del 2004. Il Canada aderisce alla mobilitazione, ma non l'ha istituita come festività legale nazionale.",
+          "promoter": "Il comitato internazionale IDAHO avviò l'iniziativa nel 2004; le comunità tennero le prime iniziative nel 2005.",
+          "purpose": "Sensibilizzare su discriminazione e violenza e difendere i diritti umani di tutte le persone.",
+          "facts": [
+            "Il comitato internazionale fu creato nel 2004.",
+            "Le prime celebrazioni internazionali seguirono nel 2005.",
+            "Il 17 maggio richiama una decisione OMS del 1990."
+          ]
+        },
+        "es": {
+          "heading": "17 de mayo: una movilización mundial recuerda un cambio médico",
+          "origin": "El Día Internacional contra la Homofobia, la Transfobia y la Bifobia surgió del comité IDAHO, creado en 2004. Comunidades de diversos países celebraron el primer Día Internacional contra la Homofobia en 2005; después, su nombre incorporó otras formas de discriminación. Los organizadores eligieron el 17 de mayo para recordar la decisión de la Organización Mundial de la Salud que en esa fecha de 1990 eliminó la homosexualidad de su clasificación de enfermedades. La fecha conmemora un cambio médico, no la fundación de 2004. Canadá participa en esta iniciativa internacional, pero no la creó como feriado federal legal.",
+          "promoter": "El comité internacional IDAHO inició la campaña en 2004 y las primeras conmemoraciones llegaron en 2005.",
+          "purpose": "Combatir la violencia y la discriminación y promover los derechos humanos.",
+          "facts": [
+            "El comité organizador se creó en 2004.",
+            "La primera conmemoración internacional fue en 2005.",
+            "El 17 de mayo recuerda una decisión de la OMS de 1990."
+          ]
+        },
+        "fr": {
+          "heading": "17 mai : une mobilisation mondiale rappelle un changement médical",
+          "origin": "La Journée internationale contre l'homophobie, la transphobie et la biphobie s'est développée à partir du comité IDAHO, créé en 2004. Des communautés de nombreux pays ont marqué pour la première fois la Journée internationale contre l'homophobie en 2005; son nom s'est ensuite élargi à d'autres discriminations. Les organisateurs ont choisi le 17 mai en souvenir de la décision prise ce jour-là en 1990 par l'Organisation mondiale de la santé de retirer l'homosexualité de la classification des maladies. La date rappelle donc un événement médical et non la fondation de 2004. Le Canada soutient cette initiative mondiale sans en avoir fait une fête légale fédérale.",
+          "promoter": "Le comité international IDAHO a lancé l'initiative en 2004; des communautés ont organisé la première journée en 2005.",
+          "purpose": "Lutter contre les discriminations et les violences et promouvoir les droits humains.",
+          "facts": [
+            "Le comité international a été constitué en 2004.",
+            "Les premières commémorations internationales ont eu lieu en 2005.",
+            "Le 17 mai renvoie à une décision de l'OMS en 1990."
+          ]
+        },
+        "de": {
+          "heading": "17. Mai: eine weltweite Bewegung erinnert an eine medizinische Wende",
+          "origin": "Der Internationale Tag gegen Homophobie, Transphobie und Biphobie geht auf das 2004 gegründete IDAHO-Komitee zurück. Gemeinschaften in vielen Ländern begingen den Internationalen Tag gegen Homophobie erstmals 2005; später wurde der Name um weitere Formen der Diskriminierung erweitert. Die Organisatoren wählten den 17. Mai, weil die Weltgesundheitsorganisation an diesem Tag im Jahr 1990 Homosexualität aus ihrer Klassifikation der Krankheiten strich. Das Datum erinnert somit an die medizinische Entscheidung und nicht an die Gründung von 2004. Kanada beteiligt sich an der internationalen Initiative, ohne sie als gesetzlichen Bundesfeiertag geschaffen zu haben.",
+          "promoter": "Das internationale IDAHO-Komitee startete die Initiative 2004; Gemeinschaften nahmen ab 2005 teil.",
+          "purpose": "Diskriminierung und Gewalt bekämpfen und gleiche Menschenrechte fördern.",
+          "facts": [
+            "Das internationale IDAHO-Komitee entstand 2004.",
+            "Die ersten internationalen Feiern fanden 2005 statt.",
+            "Der 17. Mai erinnert an die Entscheidung der WHO von 1990."
+          ]
+        },
+        "pt": {
+          "heading": "17 de maio: uma mobilização mundial recorda uma mudança médica",
+          "origin": "O Dia Internacional contra a Homofobia, a Transfobia e a Bifobia surgiu do comité IDAHO, criado em 2004. Comunidades de vários países assinalaram pela primeira vez o Dia Internacional contra a Homofobia em 2005; mais tarde, o nome passou a incluir outras formas de discriminação. Os organizadores escolheram 17 de maio para recordar a decisão da Organização Mundial da Saúde que, nessa data de 1990, retirou a homossexualidade da classificação das doenças. A data recorda o marco médico, não a fundação de 2004. O Canadá participa na iniciativa internacional sem a ter instituído como feriado federal legal.",
+          "promoter": "O comité internacional IDAHO iniciou a campanha em 2004; as primeiras comemorações surgiram em 2005.",
+          "purpose": "Combater a discriminação e a violência e defender a igualdade de direitos humanos.",
+          "facts": [
+            "O comité internacional foi criado em 2004.",
+            "As primeiras comemorações internacionais ocorreram em 2005.",
+            "A data de 17 de maio evoca a decisão da OMS de 1990."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    },
+    {
+      "candidateId": "ca-victoria-day",
+      "canonicalTitleEn": "Victoria Day",
+      "scope": "CANADA_NATIONAL_RESEARCH_ONLY",
+      "dateRule": {
+        "kind": "MONDAY_BEFORE_DAY",
+        "month": 5,
+        "day": 25
+      },
+      "introducedYear": 1845,
+      "firstObservedYear": null,
+      "originalProposer": "Legislature of the Province of Canada declared Queen Victoria's birthday a holiday in 1845; Parliament formally enacted Victoria Day in 1901; current Monday placement follows 1952 statutory change.",
+      "dateRationale": "Queen Victoria was born on 24 May 1819. The 1952 amendment established the Monday before 25 May; 2023 proclamation linked this date to the Sovereign's birthday.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/victoria-day.html",
+        "https://our-languages.canada.ca/en/writing-tips-plus/victoria-day-fete-de-la-reine",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "The Monday before 25 May: Victoria Day's changing legal history",
+          "origin": "Victoria Day commemorates Queen Victoria's birthday, 24 May 1819. The Legislature of the Province of Canada declared that birthday a holiday in 1845. Following her death in 1901, Parliament passed legislation formally naming a legal holiday Victoria Day; a 1952 change established the present placement on the Monday before 25 May. A separate proclamation in 2023 connected that day with the official celebration of the reigning Sovereign's birthday. These acts show that the 1845 precedent, the 1901 law and the 1952 timing rule have different functions. The anniversary is not a public holiday in every Canadian province, and Quebec has its own National Patriots' Day.",
+          "promoter": "The Province of Canada's legislature initiated the 1845 holiday; Canada's Parliament legislated the modern Victoria Day framework.",
+          "purpose": "Understand how a royal birthday observance became a changing Canadian civic and legal tradition.",
+          "facts": [
+            "Victoria's birthday was declared a holiday in 1845.",
+            "Parliament formally established Victoria Day in 1901.",
+            "The Monday-before-25-May rule dates to 1952."
+          ]
+        },
+        "it": {
+          "heading": "Lunedì prima del 25 maggio: la storia giuridica del Victoria Day",
+          "origin": "Il Victoria Day richiama il compleanno della regina Vittoria, nata il 24 maggio 1819. L'assemblea legislativa della Provincia del Canada dichiarò festiva la ricorrenza nel 1845. Dopo la morte della sovrana, nel 1901 il Parlamento approvò una legge che istituiva formalmente il Victoria Day; nel 1952 una modifica fissò la collocazione attuale al lunedì precedente il 25 maggio. Una proclamazione del 2023 collegò questa data al compleanno ufficiale del sovrano regnante. Il precedente del 1845, la legge del 1901 e la regola del 1952 hanno dunque funzioni diverse. Non è una festa legale in ogni provincia, e il Québec celebra il National Patriots' Day.",
+          "promoter": "L'assemblea della Provincia del Canada introdusse il riconoscimento nel 1845; il Parlamento federale disciplinò in seguito il Victoria Day.",
+          "purpose": "Conoscere come l'anniversario reale è diventato una tradizione civica e giuridica canadese.",
+          "facts": [
+            "Il compleanno di Vittoria fu dichiarato festivo nel 1845.",
+            "Il Parlamento istituì formalmente il Victoria Day nel 1901.",
+            "La regola del lunedì prima del 25 maggio risale al 1952."
+          ]
+        },
+        "es": {
+          "heading": "Lunes anterior al 25 de mayo: la evolución jurídica del Día de Victoria",
+          "origin": "El Día de Victoria recuerda el cumpleaños de la reina Victoria, nacida el 24 de mayo de 1819. La Asamblea Legislativa de la Provincia de Canadá declaró festivo ese aniversario en 1845. Después de su muerte, el Parlamento aprobó en 1901 una ley que establecía formalmente la fiesta de Victoria; una reforma de 1952 fijó la fecha actual en el lunes anterior al 25 de mayo. Una proclamación de 2023 vinculó esta jornada al cumpleaños oficial del soberano reinante. La norma de 1845, la ley de 1901 y el cambio de 1952 representan etapas distintas. No es un feriado legal en todas las provincias; Quebec celebra su Día Nacional de los Patriotas.",
+          "promoter": "La Asamblea de la Provincia de Canadá estableció la fiesta de 1845; el Parlamento federal reguló la celebración posterior.",
+          "purpose": "Comprender la evolución de una celebración real y su situación jurídica en Canadá.",
+          "facts": [
+            "El cumpleaños de Victoria se declaró festivo en 1845.",
+            "La ley federal del Victoria Day data de 1901.",
+            "La regla del lunes anterior al 25 de mayo se estableció en 1952."
+          ]
+        },
+        "fr": {
+          "heading": "Lundi précédant le 25 mai : l'évolution juridique de la fête de la Reine",
+          "origin": "La fête de la Reine rappelle l'anniversaire de la reine Victoria, née le 24 mai 1819. L'Assemblée législative de la Province du Canada a déclaré cet anniversaire jour férié en 1845. Après la mort de la souveraine, le Parlement a adopté en 1901 une loi établissant officiellement Victoria Day; une modification de 1952 a fixé la date au lundi précédant le 25 mai. Une proclamation de 2023 a lié cette journée à l'anniversaire officiel du souverain régnant. Le précédent de 1845, la loi de 1901 et la règle de 1952 ne doivent pas être confondus. Ce n'est pas un jour férié dans toutes les provinces; le Québec célèbre la Journée nationale des patriotes.",
+          "promoter": "L'Assemblée de la Province du Canada a instauré le jour férié en 1845; le Parlement fédéral a ensuite défini le cadre moderne.",
+          "purpose": "Comprendre comment une fête royale est devenue une tradition civique et légale canadienne.",
+          "facts": [
+            "L'anniversaire de Victoria a été déclaré férié en 1845.",
+            "Le Parlement a formalisé Victoria Day en 1901.",
+            "La règle du lundi précédant le 25 mai date de 1952."
+          ]
+        },
+        "de": {
+          "heading": "Montag vor dem 25. Mai: die wechselnde Rechtsgeschichte des Victoria Day",
+          "origin": "Der Victoria Day erinnert an den Geburtstag von Königin Victoria, die am 24. Mai 1819 geboren wurde. Die gesetzgebende Versammlung der Province of Canada erklärte diesen Geburtstag 1845 zum Feiertag. Nach ihrem Tod erließ das kanadische Parlament 1901 ein Gesetz zur offiziellen Benennung als Victoria Day; 1952 wurde der Termin auf den Montag vor dem 25. Mai gelegt. Eine Proklamation von 2023 verband den Tag mit dem offiziellen Geburtstag des amtierenden Monarchen. Der Ursprung 1845, das Gesetz 1901 und die Terminänderung 1952 sind getrennte Rechtsstationen. Nicht alle kanadischen Provinzen haben diesen gesetzlichen Feiertag; in Québec wird der National Patriots' Day begangen.",
+          "promoter": "Die Versammlung der Province of Canada erkannte den Tag 1845 an; das Bundesparlament gestaltete später die Regelung.",
+          "purpose": "Die Entwicklung eines königlichen Jahrestags zur kanadischen Rechtstradition nachvollziehen.",
+          "facts": [
+            "Victorias Geburtstag wurde 1845 zum Feiertag erklärt.",
+            "Der formelle Victoria Day wurde 1901 gesetzlich festgelegt.",
+            "Die Regel für den Montag vor dem 25. Mai stammt von 1952."
+          ]
+        },
+        "pt": {
+          "heading": "Segunda-feira antes de 25 de maio: a história legal do Victoria Day",
+          "origin": "O Victoria Day recorda o aniversário da rainha Vitória, nascida em 24 de maio de 1819. A Assembleia Legislativa da Província do Canadá declarou o aniversário feriado em 1845. Após a morte da monarca, em 1901 o Parlamento aprovou uma lei que estabeleceu oficialmente o Victoria Day; em 1952 foi fixada a regra atual da segunda-feira anterior a 25 de maio. Uma proclamação de 2023 associou a comemoração ao aniversário oficial do soberano reinante. A iniciativa de 1845, a lei de 1901 e a alteração de 1952 são marcos jurídicos distintos. A data não é feriado legal em todas as províncias; o Quebec celebra o Dia Nacional dos Patriotas.",
+          "promoter": "A Assembleia da Província do Canadá instituiu o feriado de 1845; o Parlamento federal regulamentou a forma moderna.",
+          "purpose": "Conhecer a evolução de uma data real para uma tradição cívica e legal canadiana.",
+          "facts": [
+            "O aniversário de Vitória foi declarado feriado em 1845.",
+            "O Victoria Day recebeu reconhecimento legal em 1901.",
+            "A regra da segunda-feira anterior a 25 de maio surgiu em 1952."
+          ]
+        }
+      },
+      "humanFactualEditorialApproved": false,
+      "allSixLocaleNativeReviewed": false,
+      "runtimeRichEditorialApproved": false,
+      "firstCanadianCelebrationYear": null
+    }
+  ]
+}

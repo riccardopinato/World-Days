@@ -61,7 +61,22 @@ for rec in batch["records"]:
     assert any(urlsplit(u).hostname in {"mandates.un.org", "www.unesco.org",
                "www.un.org", "wld.cipsh.international"} for u in rec["sources"])
     assert len(rec["sourceReviewNote"]) > 110
-    assert set(rec["locale"]) == {"en", "it"}, "not six reviewed translations"
+    assert {"en","it"} <= set(rec["locale"]) <= {"en","it","es","fr","de","pt"}, "unknown locale or missing original"
+    assert not rec.get("runtimeRichEditorialApproved", False), "six-locale draft is not approved rich editorial"
+    for supplemental_lang in set(rec["locale"]) - {"en","it"}:
+        supplemental = rec["locale"][supplemental_lang]
+        assert set(supplemental) == {"heading","origin","promoter","purpose","facts"}, (rec["observanceId"], supplemental_lang)
+        assert len(supplemental["heading"].strip()) >= 19
+        assert len(supplemental["origin"].strip()) >= 260
+        assert len(supplemental["promoter"].strip()) >= 40
+        assert len(supplemental["purpose"].strip()) >= 40
+        assert 2 <= len(supplemental["facts"]) <= 5
+        assert all(len(f.strip()) >= 25 for f in supplemental["facts"])
+        # Draft translations must retain every explicit historical year in English.
+        import re
+        en_years = set(re.findall(r"\b(?:18|19|20)\d{2}\b", rec["locale"]["en"]["origin"]))
+        translated_years = set(re.findall(r"\b(?:18|19|20)\d{2}\b", supplemental["origin"]))
+        assert en_years <= translated_years, (rec["observanceId"], supplemental_lang, sorted(en_years-translated_years))
     for lang in ("en", "it"):
         entry = rec["locale"][lang]
         assert set(entry) == {"heading", "origin", "promoter", "purpose", "facts"}
