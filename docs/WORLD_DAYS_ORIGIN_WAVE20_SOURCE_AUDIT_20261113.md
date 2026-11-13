@@ -4,8 +4,8 @@
 
 - Catalog on initial main: **1,111** canonical IDs; origin research already present on main: **225**, pending globally: **886**.
 - Active frozen cohort: **100** distinct IDs (48 global + 52 national) in `data/editorial/research_batches/wave20_first100_20261113.json`.
-- Historical narratives **actually written and primary-source-linked in this PR: 60/100** (60 original IT/EN model-authored drafts, not 100 approved).
-- **40/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
+- Historical narratives **actually written and primary-source-linked in this PR: 70/100** (70 original IT/EN model-authored drafts, not 100 approved).
+- **30/100** remaining ID dossiers have no separately verified origin text and must stay blocked from publication.
 - Qualified six-locale human factual/native approvals **0**; Rich Editorial runtime publication approvals **0** for this wave.
 - A URL validates provenance format but does not prove every historical claim without independent fact checking. Consult individually every linked source, including exact law or founding record, before human editorial signoff.
 
@@ -75,6 +75,17 @@
 | 58 | `ca-canada-day` | 1879 | 1868 | 2 | IT+EN research draft / human review pending |
 | 59 | `martin-luther-king-jr-day` | 1983 | 1986 | 2 | IT+EN research draft / human review pending |
 | 60 | `pl-baptism-of-poland-day` | 2019 | * | 3 | IT+EN research draft / human review pending |
+
+| 61 | `international-coffee-day` | 2014 | 2015 | 3 | IT+EN research draft / human review pending |
+| 62 | `week-of-solidarity-with-the-peoples-of-non-self-governing-territories` | 1999 | * | 2 | IT+EN research draft / human review pending |
+| 63 | `world-migratory-bird-day` | 2006 | 2006 | 3 | IT+EN research draft / human review pending |
+| 64 | `armed-forces-day-uk` | 2009 | 2009 | 3 | IT+EN research draft / human review pending |
+| 65 | `ca-vimy-ridge-battle-anniversary` | 2003 | 2003 | 2 | IT+EN research draft / human review pending |
+| 66 | `australia-anzac-day` | 1916 | 1916 | 3 | IT+EN research draft / human review pending |
+| 67 | `nz-anzac-day` | 1916 | 1916 | 3 | IT+EN research draft / human review pending |
+| 68 | `france-algerian-war-remembrance-day` | 2012 | * | 2 | IT+EN research draft / human review pending |
+| 69 | `italian-alpini-remembrance-day` | 2022 | * | 2 | IT+EN research draft / human review pending |
+| 70 | `italian-accessibility-barriers-day` | 2003 | * | 2 | IT+EN research draft / human review pending |
 
 ## Remaining source-index and documentary risks
 
@@ -423,6 +434,62 @@
 - https://eli.gov.pl/api/acts/DU/2019/656/text.html
 - https://www.gov.pl/web/uw-lubuski/1055-rocznica-chrztu-polski
 - https://www.sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C826413CFA3F7FAC1258DD90025126D
+
+
+### international-coffee-day
+
+- https://ico.org/international-coffee-day/
+- https://dev.ico.org/show_news.asp?id=366
+- https://dev.ico.org/show_news.asp?id=490
+
+### week-of-solidarity-with-the-peoples-of-non-self-governing-territories
+
+- https://www.un.org/en/observances/non-self-governing-week
+- https://www.un.org/unispal/document/auto-insert-207629/
+
+### world-migratory-bird-day
+
+- https://www.unep-aewa.org/page/world-migratory-bird-day-campaign
+- https://www.unep-aewa.org/es/node/29200
+- https://www.unep-aewa.org/about/brief-history-aewa
+
+### armed-forces-day-uk
+
+- https://www.gov.uk/government/news/nottingham-to-host-armed-forces-day-2013
+- https://www.gov.uk/government/news/public-shows-support-on-armed-forces-day
+- https://www.armedforcesday.org.uk/
+
+### ca-vimy-ridge-battle-anniversary
+
+- https://www.canada.ca/en/veterans-affairs-canada/news/2016/04/marking-99-years-since-the-battle-of-vimy-ridge.html
+- https://www.canada.ca/en/news/archive/2013/04/message-from-excellency-right-honourable-david-johnston-governor-general-canada-occasion-vimy-ridge-day.html
+
+### australia-anzac-day
+
+- https://www.nma.gov.au/defining-moments/resources/first-anzac-day
+- https://www.awm.gov.au/commemoration/anzac-day/traditions
+- https://www.awm.gov.au/collection/accessing-records-at-the-memorial/findingaids/special/souvenirs/anzac
+
+### nz-anzac-day
+
+- https://nzhistory.govt.nz/media/photo/anzac-day-gazette-notice-1916
+- https://nzhistory.govt.nz/page/first-anzac-day
+- https://nzhistory.govt.nz/war/anzac-day-resources
+
+### france-algerian-war-remembrance-day
+
+- https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026733612/
+- https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000026447687/
+
+### italian-alpini-remembrance-day
+
+- https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=22G00054&atto.dataPubblicazioneGazzetta=2022-05-07&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=&generaTabId=true&qId=&tabID=&tipoDettaglio=multivigenza&title=lbl.dettaglioAtto
+- https://www.gazzettaufficiale.it/eli/id/2022/05/07/22G00054/sg
+
+### italian-accessibility-barriers-day
+
+- https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=03A04897&atto.dataPubblicazioneGazzetta=2003-04-11&tipoSerie=serie_generale&tipoVigenza=originario
+- https://www.gazzettaufficiale.it/eli/id/2003/04/11/03A04897/sg
 
 
 ## Publication gate and next execution
