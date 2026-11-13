@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-13",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_HUMAN_CERTIFIED",
+  "sourcePolicy": "Original narratives based on primary government/parliamentary sources. Research-only; no native human editorial review or runtime publication.",
+  "count": 2,
+  "expectedLocales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "relatedExistingCanada": "PR #119 already contains 23 new Canadian-origin six-locale drafts; do not duplicate ca-ribbon-skirt-day or conflate an indexed candidate with a new canonical story.",
+  "records": [
+    {
+      "observanceId": "ph-independence-day",
+      "country": "PH",
+      "observanceDate": "06-12",
+      "introducedYear": 1964,
+      "firstObservedYear": 1964,
+      "sources": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/site-of-the-proclamation-of-philippine-independence/",
+        "https://lawphil.net/executive/proc/proc1964/proc_252_1964.html",
+        "https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-4166"
+      ],
+      "locale": {
+        "en": {
+          "heading": "12 June: the Philippine declaration of independence",
+          "origin": "On 12 June 1898, Filipino revolutionaries proclaimed independence at Emilio Aguinaldo's home in Kawit, Cavite. The date recalls an assertion of national self-determination, not the year when the modern holiday law was enacted. President Diosdado Macapagal declared 12 June 1964 a special public holiday through Proclamation No. 252. Republic Act No. 4166, approved on 4 August 1964, then changed the legal date of Independence Day from 4 July to 12 June and designated 4 July as Philippine Republic Day. These historical, commemorative and legislative milestones are distinct.",
+          "promoter": "Filipino revolutionaries led by Emilio Aguinaldo; President Diosdado Macapagal and the Philippine Congress later established the modern June observance.",
+          "purpose": "Recall the 1898 declaration and reflect on Filipino independence, national history and self-determination.",
+          "facts": [
+            "The declaration took place at Kawit, Cavite on 12 June 1898.",
+            "Proclamation No. 252 covered 12 June 1964.",
+            "Republic Act No. 4166 changed the legal Independence Day date in August 1964."
+          ]
+        },
+        "it": {
+          "heading": "12 giugno: la dichiarazione d'indipendenza delle Filippine",
+          "origin": "Il 12 giugno 1898 i rivoluzionari filippini proclamarono l'indipendenza nella casa di Emilio Aguinaldo a Kawit, nella provincia di Cavite. Questa è la data dell'evento storico, non dell'istituzione della ricorrenza moderna. Con il Proclama n. 252, il presidente Diosdado Macapagal dichiarò il 12 giugno 1964 giornata festiva speciale. La legge della Repubblica n. 4166, approvata il 4 agosto 1964, spostò poi ufficialmente la festa dell'indipendenza dal 4 luglio al 12 giugno, attribuendo al 4 luglio il nome di Giorno della Repubblica filippina. Evento storico, proclama e legge non vanno confusi.",
+          "promoter": "I rivoluzionari guidati da Emilio Aguinaldo; in seguito Diosdado Macapagal e il Congresso filippino definirono la ricorrenza moderna.",
+          "purpose": "Ricordare la dichiarazione del 1898 e riflettere sull'indipendenza e sull'autodeterminazione filippina.",
+          "facts": [
+            "La dichiarazione avvenne il 12 giugno 1898 a Kawit.",
+            "Il Proclama n. 252 riguardava il 12 giugno 1964.",
+            "La legge n. 4166 cambiò la data ufficiale nell'agosto 1964."
+          ]
+        },
+        "es": {
+          "heading": "12 de junio: la declaración de independencia filipina",
+          "origin": "El 12 de junio de 1898, revolucionarios filipinos proclamaron la independencia en la casa de Emilio Aguinaldo en Kawit, Cavite. La fecha recuerda ese acontecimiento, no el año de creación de la fiesta moderna. Mediante la Proclamación n.º 252, el presidente Diosdado Macapagal declaró festivo especial el 12 de junio de 1964. La Ley de la República n.º 4166, aprobada el 4 de agosto de 1964, trasladó después la fecha legal del Día de la Independencia del 4 de julio al 12 de junio y denominó el 4 de julio Día de la República Filipina. Declaración, proclamación y ley corresponden a etapas diferentes.",
+          "promoter": "Los revolucionarios dirigidos por Emilio Aguinaldo; posteriormente el presidente Macapagal y el Congreso establecieron la celebración moderna.",
+          "purpose": "Recordar la declaración de 1898 y reflexionar sobre la independencia y la autodeterminación filipinas.",
+          "facts": [
+            "La declaración tuvo lugar en Kawit el 12 de junio de 1898.",
+            "La Proclamación n.º 252 se refería al 12 de junio de 1964.",
+            "La Ley n.º 4166 cambió la fecha legal en agosto de 1964."
+          ]
+        },
+        "fr": {
+          "heading": "12 juin : la déclaration d'indépendance des Philippines",
+          "origin": "Le 12 juin 1898, des révolutionnaires philippins ont proclamé l'indépendance au domicile d'Emilio Aguinaldo, à Kawit dans la province de Cavite. Cette date renvoie à l'événement historique et non à l'adoption de la loi moderne. Par la proclamation nº 252, le président Diosdado Macapagal a fait du 12 juin 1964 un jour férié spécial. La loi de la République nº 4166, approuvée le 4 août 1964, a ensuite déplacé officiellement la fête de l'indépendance du 4 juillet au 12 juin et renommé le 4 juillet Journée de la République philippine. Déclaration, proclamation présidentielle et loi sont trois jalons différents.",
+          "promoter": "Les révolutionnaires menés par Emilio Aguinaldo ; puis Diosdado Macapagal et le Congrès ont fixé la commémoration moderne.",
+          "purpose": "Se souvenir de la déclaration de 1898 et réfléchir à l'histoire de l'indépendance philippine.",
+          "facts": [
+            "La déclaration eut lieu à Kawit le 12 juin 1898.",
+            "La proclamation nº 252 visait le 12 juin 1964.",
+            "La loi nº 4166 a déplacé la date légale en août 1964."
+          ]
+        },
+        "de": {
+          "heading": "12. Juni: die philippinische Unabhängigkeitserklärung",
+          "origin": "Am 12. Juni 1898 erklärten philippinische Revolutionäre im Haus von Emilio Aguinaldo in Kawit, Cavite, die Unabhängigkeit. Dieses Datum bezeichnet das historische Ereignis und nicht die spätere gesetzliche Festlegung. Präsident Diosdado Macapagal erklärte den 12. Juni 1964 mit Proklamation Nr. 252 zu einem besonderen Feiertag. Das am 4. August 1964 verabschiedete Republikgesetz Nr. 4166 verlegte den offiziellen Unabhängigkeitstag vom 4. Juli auf den 12. Juni und bestimmte den 4. Juli zum Tag der philippinischen Republik. Erklärung von 1898, Proklamation und Gesetz von 1964 sind getrennte Etappen.",
+          "promoter": "Philippinische Revolutionäre unter Emilio Aguinaldo; später Präsident Macapagal und der Kongress bei der Festlegung des Feiertags.",
+          "purpose": "An die Erklärung von 1898 erinnern und über die Unabhängigkeit und Selbstbestimmung nachdenken.",
+          "facts": [
+            "Die Erklärung erfolgte am 12. Juni 1898 in Kawit.",
+            "Proklamation Nr. 252 betraf den 12. Juni 1964.",
+            "Republikgesetz Nr. 4166 änderte das gesetzliche Datum im August 1964."
+          ]
+        },
+        "pt": {
+          "heading": "12 de junho: a declaração de independência das Filipinas",
+          "origin": "Em 12 de junho de 1898, revolucionários filipinos proclamaram a independência na casa de Emilio Aguinaldo, em Kawit, Cavite. A data recorda o acontecimento histórico, não o ano da lei que definiu a comemoração moderna. Pela Proclamação n.º 252, o presidente Diosdado Macapagal declarou 12 de junho de 1964 feriado especial. A Lei da República n.º 4166, aprovada em 4 de agosto de 1964, transferiu depois a data legal do Dia da Independência de 4 de julho para 12 de junho e designou 4 de julho como Dia da República Filipina. A declaração, a proclamação e a lei são marcos diferentes.",
+          "promoter": "Revolucionários liderados por Emilio Aguinaldo; posteriormente Macapagal e o Congresso definiram a comemoração moderna.",
+          "purpose": "Recordar a declaração de 1898 e refletir sobre a independência e autodeterminação filipinas.",
+          "facts": [
+            "A declaração ocorreu em Kawit, em 12 de junho de 1898.",
+            "A Proclamação n.º 252 abrangia 12 de junho de 1964.",
+            "A Lei n.º 4166 alterou a data legal em agosto de 1964."
+          ]
+        }
+      },
+      "sourceReviewNote": "Law, presidential proclamation and NHCP marker support chronology. Six-locale text is an AI editorial DRAFT; qualified native review and formal editorial approval missing. Not published."
+    },
+    {
+      "observanceId": "kr-march-first-independence-movement-day",
+      "country": "KR",
+      "observanceDate": "03-01",
+      "introducedYear": 1949,
+      "firstObservedYear": 1920,
+      "sources": [
+        "https://www.mpva.go.kr/english/contents.do?key=1007",
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://overseas.mofa.go.kr/au-sydney-en/brd/m_2362/view.do?seq=760627"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 March: a movement remembered across Korea",
+          "origin": "On 1 March 1919, Koreans publicly demanded independence from Japanese colonial rule. Peaceful demonstrations spread beyond their starting points and became a landmark of the independence movement. In December 1919 the Provisional Government designated 1 March as an independence commemoration in its calendar; its first commemorative events followed in 1920. The Republic of Korea later included the March First Movement among its national days under the 1949 National Days Act. The original protests of 1919, the early commemorations and formal postwar designation must be understood as separate moments.",
+          "promoter": "Participants in Korea's 1919 independence movement; subsequently the Provisional Government and the Republic of Korea institutionalized the remembrance.",
+          "purpose": "Honour the pursuit of independence, civic courage and the historical memory of the March First Movement.",
+          "facts": [
+            "Mass independence demonstrations began on 1 March 1919.",
+            "The Provisional Government commemorated the movement in 1920.",
+            "The Republic of Korea adopted its National Days Act in 1949."
+          ]
+        },
+        "it": {
+          "heading": "1° marzo: la Corea ricorda il movimento per l'indipendenza",
+          "origin": "Il 1° marzo 1919, i coreani manifestarono pubblicamente per l'indipendenza dal dominio coloniale giapponese. Le proteste, in larga parte non violente, si diffusero in tutto il Paese e segnarono la storia del movimento indipendentista. Nel dicembre 1919 il governo provvisorio inserì il 1° marzo nel proprio calendario commemorativo, e nel 1920 si svolsero le prime celebrazioni. La Repubblica di Corea incluse successivamente la ricorrenza tra le giornate nazionali con la legge del 1949. Le manifestazioni del 1919, le celebrazioni iniziali e il riconoscimento legislativo del dopoguerra sono passaggi distinti.",
+          "promoter": "I partecipanti al movimento del 1919; in seguito il governo provvisorio e la Repubblica di Corea ne istituzionalizzarono il ricordo.",
+          "purpose": "Ricordare la lotta per l'indipendenza, il coraggio civile e la memoria storica del Primo Marzo.",
+          "facts": [
+            "Le manifestazioni per l'indipendenza iniziarono il 1° marzo 1919.",
+            "Il governo provvisorio celebrò la ricorrenza nel 1920.",
+            "La legge coreana sulle giornate nazionali risale al 1949."
+          ]
+        },
+        "es": {
+          "heading": "1 de marzo: Corea recuerda su movimiento independentista",
+          "origin": "El 1 de marzo de 1919, coreanos de distintas regiones reclamaron públicamente la independencia frente al dominio colonial japonés. Las protestas, en gran parte pacíficas, se extendieron y se convirtieron en un hito del movimiento independentista. En diciembre de 1919, el Gobierno Provisional incorporó el 1 de marzo a su calendario conmemorativo y las primeras celebraciones siguieron en 1920. Más tarde, la República de Corea incluyó esta fecha entre los días nacionales mediante la ley de 1949. Las protestas de 1919, las primeras conmemoraciones y el reconocimiento legislativo fueron etapas diferentes.",
+          "promoter": "Los participantes en el movimiento de 1919; más tarde, el Gobierno Provisional y la República de Corea consolidaron su recuerdo.",
+          "purpose": "Honrar la búsqueda de independencia, el valor cívico y la memoria histórica del movimiento.",
+          "facts": [
+            "Las protestas independentistas comenzaron el 1 de marzo de 1919.",
+            "El Gobierno Provisional organizó conmemoraciones en 1920.",
+            "La Ley de Días Nacionales de Corea se aprobó en 1949."
+          ]
+        },
+        "fr": {
+          "heading": "1er mars : la Corée commémore son mouvement indépendantiste",
+          "origin": "Le 1er mars 1919, des Coréens ont publiquement revendiqué l'indépendance face à la domination coloniale japonaise. Les manifestations, largement non violentes, se sont propagées et ont marqué l'histoire du mouvement indépendantiste. En décembre 1919, le Gouvernement provisoire a inscrit le 1er mars dans son calendrier commémoratif ; les premières cérémonies ont suivi en 1920. La République de Corée a ensuite reconnu cette date parmi ses journées nationales par la loi de 1949. Les mobilisations de 1919, les premières commémorations et la reconnaissance légale sont des étapes distinctes.",
+          "promoter": "Les participants au mouvement de 1919, puis le Gouvernement provisoire et la République de Corée pour sa reconnaissance officielle.",
+          "purpose": "Honorer la recherche de l'indépendance, le courage civique et la mémoire du mouvement du 1er mars.",
+          "facts": [
+            "Les manifestations ont débuté le 1er mars 1919.",
+            "Le Gouvernement provisoire a commémoré la date dès 1920.",
+            "La loi coréenne sur les journées nationales date de 1949."
+          ]
+        },
+        "de": {
+          "heading": "1. März: Korea erinnert an die Unabhängigkeitsbewegung",
+          "origin": "Am 1. März 1919 forderten Koreaner öffentlich die Unabhängigkeit von der japanischen Kolonialherrschaft. Die weitgehend gewaltfreien Demonstrationen breiteten sich aus und wurden zu einem wichtigen Kapitel der Unabhängigkeitsbewegung. Im Dezember 1919 nahm die Provisorische Regierung den 1. März in ihren Gedenkkalender auf; erste Gedenkveranstaltungen folgten 1920. Die Republik Korea erkannte den Tag später mit dem Nationalfeiertagsgesetz von 1949 als nationalen Gedenktag an. Die Proteste von 1919, die ersten Gedenkfeiern und die gesetzliche Anerkennung sind unterschiedliche Stationen.",
+          "promoter": "Die Teilnehmenden der Bewegung von 1919; später verankerten die Provisorische Regierung und die Republik Korea den Gedenktag.",
+          "purpose": "An den Unabhängigkeitskampf, Zivilcourage und die historische Bedeutung der Bewegung erinnern.",
+          "facts": [
+            "Am 1. März 1919 begannen Unabhängigkeitsdemonstrationen.",
+            "Die Provisorische Regierung beging den Tag 1920.",
+            "Das koreanische Gesetz über nationale Gedenktage stammt von 1949."
+          ]
+        },
+        "pt": {
+          "heading": "1 de março: a Coreia recorda o movimento pela independência",
+          "origin": "Em 1 de março de 1919, coreanos exigiram publicamente a independência face ao domínio colonial japonês. Os protestos, em grande parte pacíficos, espalharam-se e tornaram-se um marco do movimento independentista. Em dezembro de 1919, o Governo Provisório incluiu o dia 1 de março no seu calendário comemorativo, realizando-se as primeiras celebrações em 1920. Mais tarde, a República da Coreia reconheceu a data entre os dias nacionais através da lei de 1949. Os protestos de 1919, as primeiras comemorações e o reconhecimento legal são momentos distintos.",
+          "promoter": "Os participantes no movimento de 1919; posteriormente, o Governo Provisório e a República da Coreia institucionalizaram a memória.",
+          "purpose": "Honrar a procura da independência, a coragem cívica e a memória histórica do movimento.",
+          "facts": [
+            "As manifestações pela independência começaram em 1 de março de 1919.",
+            "O Governo Provisório realizou comemorações em 1920.",
+            "A lei coreana dos dias nacionais foi aprovada em 1949."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS, MPVA and Korean MFA/Presidential address corroborate dates. Six-locale AI draft only; native/human review pending. No rich runtime publication."
+    }
+  ]
+}
