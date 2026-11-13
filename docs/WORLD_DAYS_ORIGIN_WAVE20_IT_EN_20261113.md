@@ -988,7 +988,7 @@ The General Assembly proclaimed World Space Week through resolution A/RES/54/68,
 - https://www.un.org/en/observances/world-space-week
 - https://mandates.un.org/mandate/A/RES/54/68
 
-**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false. Human factual review and qualified native EN/IT/ES/FR/DE/PT language review remain pending; these are research drafts, not approved rich editorial.
 
 ---
 
@@ -1027,7 +1027,7 @@ The first World Blood Donor Day was held on 14 June 2004, with a global launch i
 - https://www.who.int/westernpacific/newsroom/events/world-blood-donor-day
 - https://www.emro.who.int/press-releases/2005/world-blood-donor-day-2005.html
 
-**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false. Human factual review and qualified native EN/IT/ES/FR/DE/PT language review remain pending; these are research drafts, not approved rich editorial.
 
 ---
 
@@ -1065,7 +1065,7 @@ At its 60th session on 23 May 2007, the World Health Assembly adopted resolution
 - https://www.who.int/campaigns/world-malaria-day
 - https://apps.who.int/gb/ebwha/pdf_files/WHA60/A60_R18-en.pdf
 
-**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false. Human factual review and qualified native EN/IT/ES/FR/DE/PT language review remain pending; these are research drafts, not approved rich editorial.
 
 ---
 
@@ -1103,7 +1103,7 @@ World Tuberculosis Day recalls 24 March 1882, when Robert Koch announced the dis
 - https://www.who.int/europe/campaigns/world-tb-day
 - https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
 
-**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false. Human factual review and qualified native EN/IT/ES/FR/DE/PT language review remain pending; these are research drafts, not approved rich editorial.
 
 ---
 
@@ -1141,7 +1141,7 @@ The World Health Organization recognizes 28 July as World Hepatitis Day, a date 
 - https://www.who.int/campaigns/world-hepatitis-day/
 - https://cdn.who.int/media/docs/default-source/evaluation-office/report_who-globalhealthdays.pdf?download=true
 
-**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false.
+**Limits:** Individually examined WHO or UN primary records distinguish founding year, earliest confirmed event and evidence for calendar date; unknown first events are null. Original model-written IT/EN research, not qualified human fact or native six-language signoff, so rich runtime editorial approval stays false. Human factual review and qualified native EN/IT/ES/FR/DE/PT language review remain pending; these are research drafts, not approved rich editorial.
 
 ---
 
