@@ -1335,3 +1335,960 @@ Brazil's Federal Law No. 14,769 was signed on 22 December 2023 and established 1
 
 ---
 
+## 36. spanish-language-day
+
+**Formal year / Anno formale:** 2010 · **First observed / Prima osservanza:** 2010
+
+### Italiano — 23 aprile: lo spagnolo entra nelle sei giornate linguistiche ONU
+
+Nel 2010 il Dipartimento dell'informazione pubblica dell'ONU, poi rinominato Dipartimento della comunicazione globale, avviò le giornate dedicate alle sei lingue ufficiali delle Nazioni Unite. Per lo spagnolo fu scelto il 23 aprile, data tradizionalmente legata alla morte di Miguel de Cervantes, autore fondamentale della letteratura in lingua spagnola. Il sito istituzionale conserva già una pagina della celebrazione del 2010: non occorre attribuire l'istituzione a una risoluzione dell'Assemblea generale che non è stata identificata. Il significato non è solo letterario: traduzione, interpretariato e accesso multilingue permettono di partecipare al dialogo internazionale.
+
+**Promotore:** Il Dipartimento dell'informazione pubblica ONU lanciò il programma nel 2010; Cervantes è il personaggio ricordato, non il promotore moderno.
+
+**Perché è importante:** Valorizzare lo spagnolo e il multilinguismo come strumenti di cultura, diplomazia e accesso equo alle informazioni.
+
+**Fatti documentati:**
+- Le giornate delle sei lingue ufficiali iniziarono per iniziativa del dipartimento ONU nel 2010.
+- Il 23 aprile ricorda la figura letteraria di Miguel de Cervantes.
+- Lo spagnolo condivide questa data con la Giornata ONU della lingua inglese.
+
+### English — 23 April: Spanish joins the UN's six language days
+
+In 2010 the United Nations Department of Public Information, later renamed the Department of Global Communications, began a programme of six language days to foster equal treatment of the UN's official languages. Spanish Language Day falls on 23 April, a date associated with the death of Miguel de Cervantes, a landmark of Spanish literature. The UN's own 2010 Spanish-language observance page records the first programme rather than requiring an invented General Assembly proclamation. The celebration is as much about language access and multilingual diplomacy as it is about literary heritage. It should not be confused with a state law creating a worldwide public holiday.
+
+**Founder / institutional authority:** The UN Department of Public Information initiated the six-day programme in 2010; Cervantes is commemorated, not its modern founder.
+
+**Why it matters:** Explain the role of Spanish and the other five official languages in international communication, access to information and cultural understanding.
+
+**Source-based contextual facts:**
+- The language-days initiative was launched by the UN information department in 2010.
+- The date 23 April commemorates Miguel de Cervantes.
+- Spanish shares this calendar date with the UN English Language Day.
+
+**Source URLs:**
+- https://www.un.org/es/events/spanishlanguageday/2010/
+- https://www.un.org/en/observances/english-language-day/multilingualism-and-the-un
+
+**Limits:** Primary United Nations 2010 Spanish observance and UN multilingualism explainer; no separate General Assembly founding act asserted. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 37. international-day-of-university-sport
+
+**Formal year / Anno formale:** 2015 · **First observed / Prima osservanza:** 2016
+
+### Italiano — 20 settembre: lo sport universitario diventa una giornata UNESCO
+
+Il 17 novembre 2015 la Conferenza generale UNESCO proclamò il 20 settembre Giornata internazionale dello sport universitario, accogliendo una proposta della Federazione internazionale dello sport universitario, FISU. La prima edizione si svolse nel 2016; una testimonianza contemporanea FISU racconta anche l'evento inaugurale all'Università di Teheran, in collaborazione con la Commissione nazionale iraniana per l'UNESCO. Secondo la federazione, il giorno coincide con l'avvio dell'anno accademico in molti Paesi e richiama i primi campionati mondiali studenteschi del 1924. La ricorrenza collega attività fisica, salute, formazione e dialogo tra studenti e università.
+
+**Promotore:** La FISU propose la giornata; gli Stati membri UNESCO la proclamarono formalmente durante la 38ª Conferenza generale.
+
+**Perché è importante:** Favorire lo sport accessibile negli atenei, l'inclusione, il fair play e il benessere degli studenti.
+
+**Fatti documentati:**
+- La Conferenza generale UNESCO proclamò la giornata nel novembre 2015.
+- La prima edizione fu celebrata il 20 settembre 2016.
+- Nel 2016 l'Università di Teheran organizzò una celebrazione con il coinvolgimento UNESCO.
+
+### English — 20 September: university sport becomes a UNESCO day
+
+UNESCO's General Conference officially proclaimed 20 September the International Day of University Sport on 17 November 2015, following a proposal from the International University Sports Federation (FISU). It was celebrated for the first time in 2016. A contemporary FISU report describes an inaugural event at the University of Tehran in cooperation with the Iranian National Commission for UNESCO. FISU explains the calendar choice through the beginning of the academic year in many countries and the historical first Student World Championships in 1924. The day brings physical activity into university life and links student wellbeing with fair play and civic participation.
+
+**Founder / institutional authority:** FISU proposed the international day; UNESCO Member States, assembled at the 38th General Conference, formally proclaimed it.
+
+**Why it matters:** Encourage accessible university sport and its educational role in cooperation, fair play, healthy living and social engagement.
+
+**Source-based contextual facts:**
+- The UNESCO General Conference adopted the proclamation in November 2015.
+- The first International Day was celebrated on 20 September 2016.
+- The University of Tehran hosted an inaugural celebration in 2016.
+
+**Source URLs:**
+- https://www.unesco.org/en/days/university-sport
+- https://www.fisu.net/2016/09/21/idus2016-celebrated-in-iran/
+- https://www.fisu.net/2016/09/19/idus-2016-message-from-unesco/
+
+**Limits:** UNESCO founding action and FISU contemporaneous founding and first-celebration reports identify proposer, date rationale and 2016 inaugural activity. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 38. world-antimicrobial-resistance-awareness-week
+
+**Formal year / Anno formale:** 2015 · **First observed / Prima osservanza:** 2015
+
+### Italiano — 18–24 novembre: dagli antibiotici a una campagna mondiale One Health
+
+L'Organizzazione mondiale della sanità organizzò la prima Settimana mondiale per la consapevolezza sugli antibiotici dal 16 al 22 novembre 2015, nell'ambito del piano globale contro la resistenza antimicrobica approvato nello stesso anno. L'iniziativa inizialmente si concentrava sugli antibiotici e sul rischio di batteri resistenti. Dal 2020 la campagna si è estesa anche agli altri antimicrobici, inclusi antivirali, antifungini e antiparassitari, stabilendo la finestra annuale del 18–24 novembre. Nel 2023 OMS, FAO, UNEP e WOAH hanno introdotto il nome World AMR Awareness Week. Non si tratta di una giornata nata nel 2023: prima edizione, ampliamento e nuova denominazione sono passaggi diversi.
+
+**Promotore:** L'OMS avviò la campagna nel 2015; successivamente le quattro organizzazioni internazionali ne hanno coordinato l'approccio One Health.
+
+**Perché è importante:** Promuovere un uso appropriato degli antimicrobici e prevenire la diffusione di infezioni resistenti a cure importanti.
+
+**Fatti documentati:**
+- La prima campagna si svolse dal 16 al 22 novembre 2015.
+- Nel 2020 l'attenzione fu ampliata oltre i soli antibiotici.
+- Il nome attuale venne adottato dal partenariato Quadripartite nel 2023.
+
+### English — 18–24 November: an antibiotic campaign grows into a One Health movement
+
+WHO's first World Antibiotic Awareness Week took place 16–22 November 2015 as part of a global action plan adopted by the World Health Assembly that year. The original campaign focused on responsible use of antibiotics and the growing threat of resistant bacteria. In 2020 the scope broadened to all antimicrobials, including antifungals, antivirals and antiparasitics, and the annual 18–24 November interval became fixed. Following inter-agency consultation, the WHO, FAO, UNEP and WOAH partnership renamed it World AMR Awareness Week in 2023. Thus its first observance was 2015, even though today's name and date range came later.
+
+**Founder / institutional authority:** The World Health Organization initiated the 2015 campaign; the later Quadripartite partnership coordinates the broadened One Health framing.
+
+**Why it matters:** Help professionals and the public use antimicrobial medicines appropriately while reducing the development and spread of resistant infections.
+
+**Source-based contextual facts:**
+- The inaugural week ran from 16 to 22 November 2015.
+- The campaign expanded beyond antibiotics in 2020.
+- The four-organization Quadripartite adopted the current World AMR Awareness Week name in 2023.
+
+**Source URLs:**
+- https://www.who.int/news-room/events/detail/2015/11/16/default-calendar/world-antibiotic-awareness-week
+- https://www.who.int/news/item/06-06-2023-world-antimicrobial-awareness-week-%28waaw%29-will-now-be-world-amr-awareness-week
+- https://www.who.int/campaigns/world-amr-awareness-week/antibiotic-resistance
+
+**Limits:** WHO's contemporary 2015 event page and June 2023 rebranding decision separately establish original first campaign and later nomenclature; 18–24 Nov fixed only in 2020. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 39. world-breastfeeding-week
+
+**Formal year / Anno formale:** 1992 · **First observed / Prima osservanza:** 1992
+
+### Italiano — 1–7 agosto: una settimana mondiale nata nel 1992
+
+La World Alliance for Breastfeeding Action, WABA, nacque nel 1991 per tradurre in iniziative concrete la Dichiarazione degli Innocenti del 1990 sulla protezione e sul sostegno dell'allattamento. L'idea iniziale di una singola giornata si trasformò nella Settimana mondiale per l'allattamento, celebrata per la prima volta nel 1992 dal 1º al 7 agosto. La sua origine è un percorso di mobilitazione sanitaria, non una risoluzione istitutiva dell'Assemblea generale ONU. Il periodo richiama i giorni in cui fu definita a Firenze la dichiarazione del 1990 durante un incontro promosso da OMS e UNICEF. WABA continua a coordinare campagne e temi annuali, poi collegati anche agli Obiettivi di sviluppo sostenibile.
+
+**Promotore:** La rete WABA ideò e coordina l'iniziativa, ispirata alla Dichiarazione degli Innocenti formulata nel 1990 da partecipanti all'incontro OMS/UNICEF.
+
+**Perché è importante:** Sostenere informazione affidabile, diritti delle famiglie e condizioni sanitarie e lavorative favorevoli alle decisioni sull'alimentazione infantile.
+
+**Fatti documentati:**
+- La WABA fu fondata nel 1991 in seguito alla Dichiarazione del 1990.
+- La prima Settimana mondiale per l'allattamento si svolse nel 1992.
+- La settimana si tiene ogni anno dall'1 al 7 agosto e propone un tema specifico.
+
+### English — 1–7 August: a global breastfeeding week begins in 1992
+
+The World Alliance for Breastfeeding Action, WABA, was created in 1991 to help implement the 1990 Innocenti Declaration on protecting, promoting and supporting breastfeeding. Its initial idea of a single day evolved into World Breastfeeding Week, held for the first time in 1992 and observed each 1–7 August. The first campaign grew from organized public-health advocacy rather than a United Nations General Assembly proclamation. The date range recalls the beginning of August, when the Innocenti Declaration was finalized at a WHO/UNICEF policy meeting in Florence in 1990. WABA continues to coordinate annual themes; the campaign later linked its messaging to the Sustainable Development Goals.
+
+**Founder / institutional authority:** WABA originated and coordinates World Breastfeeding Week, building on the 1990 Innocenti Declaration developed by WHO/UNICEF meeting participants.
+
+**Why it matters:** Support breastfeeding rights, accessible evidence-based information, and policies that make informed infant-feeding choices possible.
+
+**Source-based contextual facts:**
+- WABA was founded in 1991 following the Innocenti Declaration of 1990.
+- The first World Breastfeeding Week occurred in 1992.
+- The annual campaign runs from 1 through 7 August and now addresses varied family and workplace issues.
+
+**Source URLs:**
+- https://waba.org.my/wbw/
+- https://www.waba.org.my/oldernews-sec.htm
+
+**Limits:** Original WABA campaign history distinguishes 1990 Innocenti Declaration, 1991 WABA creation and inaugural 1992 campaign; no fabricated UN founding resolution. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 40. world-day-for-safety-and-health-at-work
+
+**Formal year / Anno formale:** 2003 · **First observed / Prima osservanza:** 2003
+
+### Italiano — 28 aprile: dalla memoria dei lavoratori alla prevenzione degli infortuni
+
+L'Organizzazione internazionale del lavoro iniziò a celebrare il 28 aprile la Giornata mondiale per la sicurezza e la salute sul lavoro nel 2003, su richiesta del movimento sindacale internazionale. Riprendeva un'esperienza precedente: dal 1996 i sindacati ricordavano nella stessa data i lavoratori morti o feriti per incidenti e malattie professionali. La campagna OIL del 2003 pose l'accento sulla prevenzione e sulla responsabilità condivisa di governi, datori di lavoro e lavoratori. Memoria delle vittime e cultura della sicurezza sono dunque storie collegate, ma non identiche. Il materiale ufficiale dell'edizione inaugurale descrive attività e iniziative in diversi Paesi.
+
+**Promotore:** L'OIL istituì la propria campagna nel 2003 accogliendo la richiesta del mondo sindacale che celebrava già il 28 aprile.
+
+**Perché è importante:** Ridurre infortuni e malattie professionali attraverso prevenzione, formazione e dialogo tra le parti sociali.
+
+**Fatti documentati:**
+- La commemorazione sindacale internazionale delle vittime iniziò nel 1996.
+- La prima giornata mondiale organizzata dall'OIL si tenne nel 2003.
+- La prevenzione coinvolge congiuntamente lavoratori, imprese e istituzioni.
+
+### English — 28 April: from workers' remembrance to prevention at work
+
+The International Labour Organization began observing World Day for Safety and Health at Work on 28 April 2003 after a request from the international trade-union movement. The day built on Workers' Memorial Day, marked by unions since 1996 in memory of people killed or injured by occupational accidents and diseases. The ILO's inaugural 2003 material emphasized a preventive safety and health culture and the joint roles of governments, employers and workers. The two traditions share the calendar date but differ in emphasis: remembrance of victims and coordinated action to prevent future harm. An original ILO press account documents activities planned across countries in April 2003.
+
+**Founder / institutional authority:** The International Labour Organization instituted its worldwide campaign in 2003, responding to the trade-union movement's earlier 28 April remembrance initiative.
+
+**Why it matters:** Improve prevention of work-related injury and illness, encourage safer working conditions and strengthen social dialogue.
+
+**Source-based contextual facts:**
+- International trade unions marked Workers' Memorial Day on 28 April from 1996.
+- ILO's first global safety-and-health day was observed on 28 April 2003.
+- The ILO campaign explicitly brings together workers, employers and governments.
+
+**Source URLs:**
+- https://www.ilo.org/resource/history-28-april
+- https://www.ilo.org/legacy/english/protection/safework/worldday/index_2003.htm
+
+**Limits:** ILO's first-party historical explanation and inaugural 2003 programme establish the trade union precursor, ILO launch year and 28 April. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 41. world-day-of-remembrance-for-road-traffic-victims
+
+**Formal year / Anno formale:** 2005 · **First observed / Prima osservanza:** 1993
+
+### Italiano — Terza domenica di novembre: il ricordo delle vittime della strada arriva all'ONU
+
+L'associazione britannica RoadPeace iniziò nel 1993 una commemorazione delle persone morte o ferite negli incidenti stradali e delle loro famiglie. Organizzazioni analoghe diffusero l'iniziativa in altri Paesi. Il 26 ottobre 2005 l'Assemblea generale ONU adottò A/RES/60/5, invitando a riconoscere la terza domenica di novembre come Giornata mondiale in memoria delle vittime della strada. Il riconoscimento ONU non coincide con la nascita del movimento civile, precedente di dodici anni. La domenica mobile favorisce cerimonie, testimonianze e iniziative sulla sicurezza, ricordando che molti incidenti e le loro conseguenze possono essere prevenuti. L'OMS sostiene le attività insieme alle associazioni di vittime e agli operatori della sicurezza stradale.
+
+**Promotore:** RoadPeace avviò la commemorazione nel 1993; l'Assemblea generale ONU la riconobbe a livello mondiale nel 2005.
+
+**Perché è importante:** Ricordare vittime e familiari, promuovere strade sicure e sostenere politiche concrete contro gli incidenti evitabili.
+
+**Fatti documentati:**
+- RoadPeace promosse le prime iniziative nel 1993.
+- L'ONU approvò A/RES/60/5 nell'ottobre 2005.
+- La ricorrenza cade ogni anno la terza domenica di novembre.
+
+### English — Third Sunday in November: a road-victims remembrance reaches the UN
+
+The British road-victims organization RoadPeace began a remembrance event in 1993 for people killed and injured in traffic crashes and for bereaved families. Similar initiatives spread through road-victim groups in other countries. On 26 October 2005 the United Nations General Assembly adopted resolution A/RES/60/5, inviting the world to recognize the third Sunday in November as the World Day of Remembrance for Road Traffic Victims. The UN acknowledgement did not originate the earlier civil-society tradition. The movable Sunday supports worldwide ceremonies and public discussion of preventable deaths, safe roads and support for survivors. WHO works with victims' organizations and road-safety partners to sustain the commemoration.
+
+**Founder / institutional authority:** RoadPeace initiated the remembrance in 1993; the UN General Assembly formally recognized the worldwide day in 2005 through A/RES/60/5.
+
+**Why it matters:** Remember those harmed by road crashes while advocating safer transport, support for victims and prevention of avoidable traffic fatalities.
+
+**Source-based contextual facts:**
+- RoadPeace began remembrance activities in 1993 before UN recognition.
+- The General Assembly adopted resolution A/RES/60/5 in October 2005.
+- The annual date is the third Sunday in November rather than a fixed day of the month.
+
+**Source URLs:**
+- https://www.who.int/groups/united-nations-road-safety-collaboration/world-day-of-remembrance
+- https://digitallibrary.un.org/record/558920
+- https://www.who.int/publications/i/item/9241594527
+
+**Limits:** UN original resolution A/RES/60/5 and WHO/RoadPeace organizer chronology distinguish 1993 grassroots first observance from 2005 institutional recognition. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 42. world-day-of-romani-language
+
+**Formal year / Anno formale:** 2015 · **First observed / Prima osservanza:** *
+
+### Italiano — 5 novembre: l'UNESCO riconosce lingua e identità romaní
+
+La Conferenza generale UNESCO proclamò il 5 novembre Giornata mondiale della lingua romaní nel 2015, durante la sua 38ª sessione. Si tratta di un riconoscimento culturale ed educativo destinato a sostenere la lingua e i diritti delle comunità che la parlano. La proclamazione non ha creato la lingua né le sue tradizioni, che sono naturalmente molto precedenti. L'UNESCO richiama l'importanza dei diversi dialetti, dello studio linguistico e della trasmissione fra generazioni. Le fonti istituzionali utilizzate non individuano in modo indipendente né la prima cerimonia annuale organizzata sotto la nuova proclamazione né il motivo storico esatto della scelta del 5 novembre: questi dati restano aperti.
+
+**Promotore:** Gli Stati membri riuniti nella Conferenza generale UNESCO adottarono il riconoscimento nel 2015, senza individuare un singolo fondatore personale verificato.
+
+**Perché è importante:** Difendere il pluralismo linguistico, l'educazione e la continuità della cultura e del patrimonio romaní.
+
+**Fatti documentati:**
+- La proclamazione UNESCO avvenne alla 38ª Conferenza generale del 2015.
+- La ricorrenza annuale è fissata al 5 novembre.
+- La tutela linguistica si collega al dialogo interculturale e alla trasmissione della cultura.
+
+### English — 5 November: UNESCO recognizes Romani language and identity
+
+UNESCO's General Conference proclaimed 5 November World Day of Romani Language at its 38th session in 2015. The resolution is a cultural and educational recognition intended to strengthen the preservation of the Romani language and the cultural rights of Romani-speaking communities. The observance does not create the language or its linguistic traditions: it gives institutional visibility to a heritage that existed long before UNESCO. The agency highlights dialectal diversity, research and the importance of teaching and sharing the language across generations. The individual year of a first UNESCO-organized annual ceremony and the exact historical reason for choosing 5 November are not established by the documents reviewed, so neither is invented.
+
+**Founder / institutional authority:** UNESCO's Member States proclaimed the international day in 2015; its purpose reflects advocacy for Romani-language preservation, without assigning an unverified individual founder.
+
+**Why it matters:** Support linguistic diversity, access to education, cultural recognition and the transmission of Romani heritage.
+
+**Source-based contextual facts:**
+- UNESCO proclaimed the observance during its 38th General Conference in 2015.
+- The calendar date is 5 November, with no first annual event verified here.
+- The observance specifically concerns language preservation and intercultural understanding.
+
+**Source URLs:**
+- https://www.unesco.org/en/days/romani-language
+- https://unesdoc.unesco.org/ark:/48223/pf0000235250
+
+**Limits:** UNESCO original proclamation and official observance verify 2015 formal year; distinct earliest UN-organized ceremony and exact date anniversary left null. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 43. world-immunization-week
+
+**Formal year / Anno formale:** 2012 · **First observed / Prima osservanza:** 2012
+
+### Italiano — 24–30 aprile: le campagne vaccinali regionali diventano una settimana globale OMS
+
+Nel 2012 l'Organizzazione mondiale della sanità avviò una Settimana mondiale dell'immunizzazione coordinata su scala globale, facendo convergere campagne vaccinali già esistenti in varie regioni. La pagina ufficiale della prima edizione documenta l'obiettivo di sensibilizzare sull'importanza delle vaccinazioni contro le malattie infettive. Oggi il calendario indica generalmente il 24–30 aprile, mentre alcuni materiali della prima edizione riportavano una finestra leggermente diversa, dal 21 al 28 aprile. Non si attribuisce quindi l'origine a una inesistente risoluzione istitutiva dell'Assemblea generale. L'OMS insiste su accesso equo, comunità meno servite e continuità dei programmi vaccinali.
+
+**Promotore:** L'OMS coordinò la prima settimana mondiale nel 2012, sviluppando campagne regionali precedenti.
+
+**Perché è importante:** Diffondere informazioni scientificamente fondate sui vaccini e migliorare la protezione delle persone dalle infezioni prevenibili.
+
+**Fatti documentati:**
+- La prima campagna globale OMS venne organizzata nell'aprile 2012.
+- La finestra annuale oggi utilizzata è generalmente il 24–30 aprile.
+- L'iniziativa nacque dall'estensione di precedenti campagne di immunizzazione regionali.
+
+### English — 24–30 April: regional vaccination campaigns become one global WHO week
+
+In April 2012 the World Health Organization organized World Immunization Week as a worldwide coordinated campaign following earlier vaccination weeks in several of its regions. The WHO's own first global 2012 campaign page documents the transition to a common international awareness initiative, with activities linked to the protection vaccines provide against infectious diseases. Its date range is now generally 24–30 April, although some 2012 materials use the slightly different 21–28 April period. It should not be misrepresented as an observance founded by a specific UN General Assembly resolution. The WHO campaign emphasizes reaching underserved communities, maintaining vaccination systems and protecting people throughout life.
+
+**Founder / institutional authority:** The World Health Organization coordinated the first global World Immunization Week in 2012, building on previous regional immunization campaigns.
+
+**Why it matters:** Promote evidence-based vaccination, equitable access to immunization and protection from preventable infectious diseases.
+
+**Source-based contextual facts:**
+- WHO's first global campaign is recorded in April 2012.
+- Its annual modern campaign interval is 24–30 April.
+- The campaign builds on earlier regional vaccination weeks, rather than replacing their history.
+
+**Source URLs:**
+- https://www.who.int/news-room/events/detail/2012/04/24/default-calendar/world-immunization-2012
+- https://www.who.int/en/campaigns/world-immunization-week
+
+**Limits:** WHO 2012 original campaign and WHO historical campaign archive establish original global first year and explain early variation in April dates. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved.
+
+---
+
+## 44. world-meteorological-day
+
+**Formal year / Anno formale:** 1960 · **First observed / Prima osservanza:** 1961
+
+### Italiano — 23 marzo: la nascita di un sistema mondiale di cooperazione meteorologica
+
+Nel 1960 il Comitato esecutivo dell'Organizzazione meteorologica mondiale adottò la Risoluzione 6 (EC-XII), individuando il 23 marzo per la celebrazione annuale della meteorologia. La data ricorda il 23 marzo 1950, giorno di entrata in vigore della Convenzione istitutiva dell'OMM, non l'anno della prima ricorrenza. Una retrospettiva istituzionale documenta la prima Giornata meteorologica mondiale il 23 marzo 1961, con iniziative segnalate in oltre sessanta Paesi. Da allora la collaborazione scientifica fra servizi nazionali ha assunto un ruolo centrale nel monitoraggio del tempo, del clima e delle risorse idriche e nella diffusione di allerte tempestive.
+
+**Promotore:** Il Comitato esecutivo OMM scelse la data annuale nel 1960 tramite la Risoluzione 6 (EC-XII); non viene attribuito un promotore personale non dimostrato.
+
+**Perché è importante:** Far conoscere il valore di osservazioni condivise, previsioni, ricerca climatica e allerta precoce per la sicurezza delle popolazioni.
+
+**Fatti documentati:**
+- La Convenzione OMM entrò in vigore il 23 marzo 1950.
+- La risoluzione istitutiva della giornata annuale risale al 1960.
+- Alla prima edizione del 1961 aderirono con iniziative oltre sessanta Paesi.
+
+### English — 23 March: the birthday of a worldwide weather cooperation system
+
+The World Meteorological Organization's Executive Committee adopted Resolution 6 (EC-XII) in 1960, establishing an annual World Meteorological Day for 23 March. The day recalls 23 March 1950, when the convention establishing the WMO entered into force, not the year the annual celebration began. An institutional WMO retrospective confirms that the first World Meteorological Day took place on 23 March 1961, with more than sixty countries reporting activities. The WMO grew out of international scientific cooperation in sharing weather observations and forecasts; annual observances now explore climate services, water resources, severe-weather alerts and meteorological research.
+
+**Founder / institutional authority:** The WMO Executive Committee selected the annual date in Resolution 6 (EC-XII) in 1960; no single personal founder is attributed.
+
+**Why it matters:** Explain how cross-border meteorological research, forecasting and early warning systems protect communities and livelihoods.
+
+**Source-based contextual facts:**
+- The WMO convention entered into force on 23 March 1950.
+- Resolution 6 of the WMO Executive Committee in 1960 created the annual day.
+- The first celebration in 1961 was reported by more than sixty countries.
+
+**Source URLs:**
+- https://tools.wmo.int/wmo-resolutions/
+- https://public.wmo.int/events-and-meetings/world-met-day
+- https://wmo.int/media/magazine-article/wmo-bulletin-first-50-years
+
+**Limits:** WMO official resolution database identifies 1960 EC-XII resolution 6, official WMO day page confirms 1950 convention anniversary, historical WMO Bulletin identifies first celebration 1961. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false.
+
+---
+
+## 45. world-maritime-day
+
+**Formal year / Anno formale:** 1978 · **First observed / Prima osservanza:** *
+
+### Italiano — Ultimo giovedì di settembre: l'IMO racconta la navigazione al mondo
+
+La Giornata mondiale del mare e del trasporto marittimo fu concepita dall'Organizzazione marittima internazionale nel 1978 per far conoscere il proprio lavoro ai governi aderenti e alla comunità marittima. Un discorso storico del Segretario generale IMO ne ricostruisce l'origine e spiega l'intenzione di organizzare iniziative attorno a un tema diverso ogni anno. Oggi la celebrazione internazionale cade l'ultimo giovedì di settembre, mentre gli eventi nazionali o paralleli possono seguire altri calendari. L'IMO affronta sicurezza delle navi, competenze degli equipaggi, prevenzione dell'inquinamento e applicazione delle convenzioni. È una campagna istituzionale avviata nel 1978, non il ricordo di un singolo navigatore.
+
+**Promotore:** L'Organizzazione marittima internazionale avviò la ricorrenza nel 1978, con un tema annuale scelto dal Consiglio IMO.
+
+**Perché è importante:** Rendere visibile l'importanza della navigazione e della cooperazione internazionale per sicurezza, sostenibilità e norme marittime.
+
+**Fatti documentati:**
+- L'IMO fa risalire la concezione della giornata al 1978.
+- La ricorrenza si svolge l'ultimo giovedì di settembre.
+- I temi annuali sono collegati alle attività e alle priorità dell'IMO.
+
+### English — Last Thursday of September: the IMO brings shipping into public view
+
+World Maritime Day was conceived by the International Maritime Organization in 1978 as a way to explain its work to member governments and the wider maritime community. An IMO Secretary-General's historical speech describes this origin and the intention to organize activities around a yearly maritime theme. Today the international observance takes place on the last Thursday of September, while national and parallel events may be scheduled on other dates. The IMO uses the day to discuss safer shipping, the rights and skills of seafarers, preventing pollution by ships and implementation of international rules. It is an institutional campaign launched in 1978, not a commemoration attributed to a single seafarer or an invented General Assembly founding act.
+
+**Founder / institutional authority:** The International Maritime Organization established the international observance in 1978, with its Council choosing annual themes.
+
+**Why it matters:** Increase understanding of the maritime sector and cooperation on safety, environmental protection and effective shipping standards.
+
+**Source-based contextual facts:**
+- The IMO dates the conception of World Maritime Day to 1978.
+- The global observance is held on the final Thursday in September.
+- The IMO Council identifies a theme reflecting the organization's maritime priorities.
+
+**Source URLs:**
+- https://www.imo.org/en/mediacentre/secretarygeneral/pages/peruparallel.aspx
+- https://www.imo.org/en/about/events/pages/wmd-archives.aspx
+
+**Limits:** IMO Secretary-General's original history explicitly dates conception to 1978; first separate ceremonial meeting is not independently sourced, so the introduced year 1978 is verified but firstObservedYear remains null. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false.
+
+---
+
+## 46. world-philosophy-day
+
+**Formal year / Anno formale:** 2005 · **First observed / Prima osservanza:** 2002
+
+### Italiano — Terzo giovedì di novembre: dagli incontri UNESCO a una giornata mondiale
+
+L'UNESCO iniziò a organizzare attività dedicate alla filosofia nel 2002; nel 2005 la Conferenza generale proclamò formalmente la Giornata mondiale della filosofia, da celebrare il terzo giovedì di novembre. I documenti istituzionali ne sottolineano il valore per il ragionamento critico, l'autonomia di giudizio e il confronto tra culture. È importante distinguere l'avvio delle manifestazioni dalla successiva istituzione ufficiale: il 2002 non è la data della risoluzione del 2005. Trattandosi di un giovedì mobile, il giorno del mese cambia ogni anno. Conferenze, incontri pubblici e dibattiti scolastici rendono la filosofia uno strumento di partecipazione, specialmente per i giovani.
+
+**Promotore:** L'UNESCO promosse eventi filosofici dal 2002; la Conferenza generale UNESCO rese ufficiale la ricorrenza nel 2005.
+
+**Perché è importante:** Sviluppare spirito critico, riflessione autonoma e dialogo pubblico attraverso l'educazione filosofica.
+
+**Fatti documentati:**
+- Le prime attività UNESCO legate alla giornata risalgono al 2002.
+- La proclamazione ufficiale della Conferenza generale è del 2005.
+- Ogni anno si celebra il terzo giovedì di novembre.
+
+### English — Third Thursday in November: from UNESCO philosophy meetings to a world day
+
+UNESCO first organized Philosophy Day activities in 2002, and in 2005 its General Conference formally established World Philosophy Day on the third Thursday in November. Institutional documentation stresses the value of philosophical reflection for questioning assumptions, developing independent judgment and promoting dialogue across cultures. The year of the first activities and the year of formal proclamation must therefore be recorded separately: 2002 is not a 2005 General Conference vote. The movable Thursday also means the date changes each November. Conferences, classroom debates and public philosophy events make the discipline accessible beyond universities, with a particular emphasis on young people.
+
+**Founder / institutional authority:** UNESCO organized philosophy events from 2002; the UNESCO General Conference institutionalized the worldwide day in 2005.
+
+**Why it matters:** Encourage critical and independent thought, philosophical education, cultural dialogue and public reflection.
+
+**Source-based contextual facts:**
+- UNESCO organized philosophy-day events as early as 2002.
+- Its General Conference established World Philosophy Day formally in 2005.
+- The celebration falls on the third Thursday of November, not a fixed date.
+
+**Source URLs:**
+- https://www.unesco.org/en/articles/unesco-celebrates-world-philosophy-day-2014-0
+- https://www.unesco.org/en/articles/unesco-world-philosophizes
+- https://philosophyworldday.uoa.gr/en/world-philosophy-day/
+
+**Limits:** UNESCO General Conference 2005 establishment and earlier UNESCO-organized 2002 philosophy observances are separated; secondary academic documentation corroborates precursor year. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false.
+
+---
+
+## 47. pl-flag-day
+
+**Formal year / Anno formale:** 2004 · **First observed / Prima osservanza:** 2004
+
+### Italiano — 2 maggio: la Polonia dedica una giornata alla bandiera bianca e rossa
+
+Il Sejm, il Parlamento polacco, istituì il Giorno della bandiera della Repubblica di Polonia mediante una modifica della legge su stemma, colori e inno nazionale approvata il 20 febbraio 2004. Si celebra il 2 maggio, tra la Festa del lavoro del 1º maggio e quella della Costituzione del 3 maggio. Il Ministero della cultura collega la data alle bandiere polacche issate a Berlino il 2 maggio 1945 e alla storia dei simboli durante il periodo comunista. La ricorrenza moderna va distinta dal riconoscimento dei colori nazionali nel 1831 e dalla disciplina della bandiera del 1919. La giornata promuove rispetto per i simboli e conoscenza della loro storia, senza essere necessariamente un giorno festivo non lavorativo.
+
+**Promotore:** Il Parlamento polacco introdusse la giornata con una modifica legislativa del febbraio 2004; non viene inventato un singolo ideatore.
+
+**Perché è importante:** Promuovere conoscenza e rispetto dei simboli polacchi e della loro evoluzione storica.
+
+**Fatti documentati:**
+- La legge istitutiva fu approvata dal Sejm nel febbraio 2004.
+- I colori bianco e rosso hanno riconoscimenti normativi precedenti alla festa moderna.
+- Il 2 maggio si colloca tra due ricorrenze nazionali e richiama un episodio del 1945.
+
+### English — 2 May: Poland makes room for its white-and-red flag
+
+Poland's Sejm established the Day of the Flag of the Republic of Poland through an amendment to legislation on the national emblem, colours and anthem adopted on 20 February 2004. It is observed every 2 May, between Labour Day on 1 May and Constitution Day on 3 May. Government heritage material links the date to Polish flags raised in Berlin on 2 May 1945 and to the history of the flag during the communist period. The modern commemorative day must be separated from older recognition of Poland's white-and-red colours in 1831 and the later regulation of the national flag in 1919. The day promotes respectful display and knowledge of state symbols; it is not necessarily a general day off work.
+
+**Founder / institutional authority:** The Polish Sejm established the observance by a statutory amendment in February 2004; no unsupported single personal proposer is attributed.
+
+**Why it matters:** Promote knowledge of Poland's flag, national symbols and the historical changes in their public use.
+
+**Source-based contextual facts:**
+- The Sejm enacted the 2 May Flag Day through legislation in 2004.
+- Polish white-and-red national colours were regulated long before the modern holiday.
+- The date sits between Labour Day and Constitution Day and commemorates a 1945 Berlin flag episode.
+
+**Source URLs:**
+- https://www.gov.pl/web/kultura/dzien-flagi-rzeczypospolitej-polskiej-oraz-dzien-polonii-i-polakow-za-granica
+- https://www.sejm.gov.pl/Sejm10.nsf/komunikat.xsp?documentId=13F1B5290B9C2DDCC1258B0E003F446F
+
+**Limits:** Polish Ministry of Culture and Sejm independently specify enactment on 20 February 2004 and grounded calendar-date rationale, separating modern day from historic national symbols. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false.
+
+---
+
+## 48. canada-multiculturalism-day
+
+**Formal year / Anno formale:** 2002 · **First observed / Prima osservanza:** *
+
+### Italiano — 27 giugno: il Canada istituisce una giornata per il pluralismo culturale
+
+Il 13 novembre 2002 il Governo canadese designò il 27 giugno Giornata del multiculturalismo canadese mediante una proclamazione reale. La celebrazione ufficiale arrivò dopo la politica federale sul multiculturalismo annunciata nel 1971 e dopo il Canadian Multiculturalism Act del 1988: sono tappe precedenti, non la proclamazione istitutiva della giornata. Il 27 giugno si inserisce nel periodo di celebrazioni civiche Celebrate Canada e offre occasione per riconoscere il contributo delle diverse comunità e discutere inclusione e discriminazioni. Le fonti governative confermano la data di istituzione del 2002, ma non dimostrano perché sia stato scelto proprio il 27 giugno né quale sia stata la prima specifica cerimonia annuale.
+
+**Promotore:** Il Governo del Canada proclamò la giornata nel 2002; legislazione e politica sul multiculturalismo ne costituiscono precedenti distinti.
+
+**Perché è importante:** Valorizzare la diversità culturale, promuovere pari opportunità e incoraggiare la partecipazione delle comunità.
+
+**Fatti documentati:**
+- La politica canadese sul multiculturalismo fu annunciata nel 1971.
+- La legge sul multiculturalismo entrò in vigore nel 1988.
+- Il governo designò il 27 giugno con una proclamazione del 13 novembre 2002.
+
+### English — 27 June: Canada declares a day to recognize cultural diversity
+
+On 13 November 2002 the Government of Canada designated 27 June Canadian Multiculturalism Day by Royal Proclamation. This official celebration was introduced long after the federal multiculturalism policy announced in 1971, and after the 1988 Canadian Multiculturalism Act: those milestones are precursors, not the day’s founding proclamation. The date falls within the country's broader June-to-July Celebrate Canada period and offers space to appreciate many cultural communities and to discuss discrimination, inclusion and shared civic life. Government material identifies the 2002 designation but does not establish why 27 June rather than another day was chosen, nor the first specific ceremonial event, so those details remain unverified.
+
+**Founder / institutional authority:** The Government of Canada established the day by Royal Proclamation in 2002; the multiculturalism legislation and policy are earlier, distinct milestones.
+
+**Why it matters:** Recognize cultural diversity and encourage equal opportunities, community participation and action against discrimination.
+
+**Source-based contextual facts:**
+- Canada announced its federal multiculturalism policy in 1971.
+- The Canadian Multiculturalism Act became law in 1988.
+- The Government formally designated 27 June in a proclamation dated 13 November 2002.
+
+**Source URLs:**
+- https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html
+- https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html
+
+**Limits:** Canadian Heritage official 2017 first-party release confirms 13 November 2002 designation; contemporary government minister identifies Royal Proclamation. First actual annual ceremony not independently proved. This is original model-authored English/Italian research and requires independent human factual review and qualified EN/IT/ES/FR/DE/PT native editorial review; runtimeRichEditorialApproved remains false.
+
+---
+
+## 49. india-national-science-day
+
+**Formal year / Anno formale:** 1986 · **First observed / Prima osservanza:** 1987
+
+### Italiano — 28 febbraio: l'India celebra la scoperta dell'effetto Raman
+
+L'India designò il 28 febbraio Giornata nazionale della scienza nel 1986, dopo una richiesta del Consiglio nazionale per la comunicazione della scienza e della tecnologia al governo. La prima celebrazione ufficiale si svolse il 28 febbraio 1987. La data richiama l'annuncio dell'effetto Raman del 28 febbraio 1928, relativo alla diffusione della luce e al lavoro del fisico C. V. Raman, premiato con il Nobel nel 1930. Scoperta scientifica, provvedimento governativo e prima celebrazione sono tre eventi distinti. Scuole, università e laboratori indiani organizzano esperimenti e incontri per rendere la ricerca più accessibile al pubblico.
+
+**Promotore:** Il Consiglio nazionale per la comunicazione scientifica propose la data nel 1986; il governo indiano la adottò.
+
+**Perché è importante:** Promuovere divulgazione, curiosità scientifica e opportunità di formazione e ricerca.
+
+**Fatti documentati:**
+- Raman annunciò la scoperta il 28 febbraio 1928.
+- La designazione nazionale risale al 1986.
+- La prima celebrazione ufficiale si svolse nel 1987.
+
+### English — 28 February: India remembers the Raman effect through science education
+
+India designated 28 February National Science Day in 1986 after the National Council for Science and Technology Communication requested recognition from the government. The first official National Science Day followed on 28 February 1987. The date commemorates the announcement of the Raman effect on 28 February 1928, when physicist C. V. Raman presented the discovery concerning light scattering. Raman later received the 1930 Nobel Prize in Physics. The experiment, the government designation and the first public commemoration are three different events. Indian schools, universities and research institutes use the anniversary to share scientific discoveries and encourage critical inquiry.
+
+**Founder / institutional authority:** The National Council for Science and Technology Communication proposed the date in 1986 and the Indian government accepted it.
+
+**Why it matters:** Encourage science education, research literacy and interest in scientific careers and discoveries.
+
+**Source-based contextual facts:**
+- The Raman effect was announced on 28 February 1928.
+- The Indian government designated National Science Day in 1986.
+- The first annual National Science Day celebration followed in 1987.
+
+**Source URLs:**
+- https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=151846&lang=1&reg=3
+- https://www.pib.gov.in/PressReleasePage.aspx?PRID=1604468&lang=2&reg=48
+
+**Limits:** Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication.
+
+---
+
+## 50. india-national-voters-day
+
+**Formal year / Anno formale:** 2011 · **First observed / Prima osservanza:** 2011
+
+### Italiano — 25 gennaio: la commissione elettorale indiana accoglie i nuovi elettori
+
+Nel 2011 la Commissione elettorale dell'India creò la Giornata nazionale degli elettori, fissata al 25 gennaio, anniversario della fondazione della stessa Commissione il 25 gennaio 1950. La campagna è quindi nata oltre sessant'anni dopo l'istituzione ricordata. Le iniziative riguardano l'iscrizione alle liste, la conoscenza dei diritti elettorali e la partecipazione, in particolare dei giovani che raggiungono l'età per votare. I resoconti della Commissione descrivono cerimonie nei seggi e a livello distrettuale, statale e nazionale, con la consegna di documenti elettorali. Si tratta di una campagna educativa dell'autorità elettorale, non di una nuova legge sulle elezioni.
+
+**Promotore:** La Commissione elettorale indiana istituì la campagna nel 2011 per ricordare la propria fondazione.
+
+**Perché è importante:** Aumentare registrazione, partecipazione informata e consapevolezza dei diritti civici.
+
+**Fatti documentati:**
+- La Commissione elettorale fu istituita il 25 gennaio 1950.
+- La prima giornata nazionale si svolse nel gennaio 2011.
+- Le attività includono informazioni elettorali e consegna di tessere agli elettori.
+
+### English — 25 January: India's election body welcomes new voters
+
+In 2011 the Election Commission of India created National Voters' Day to be observed each 25 January, the anniversary of the Commission's establishment on 25 January 1950. The awareness day therefore began more than six decades after the founding of the institution it commemorates. Its activities focus on registration, knowledge of voting rights and participation, particularly for citizens reaching voting age. The Election Commission's own reports describe ceremonies at polling stations and at district, state and national levels, including the distribution of voter identity cards. The observance is an outreach campaign initiated by the electoral authority rather than a new election law.
+
+**Founder / institutional authority:** The Election Commission of India instituted the annual event in 2011 to mark its own foundation date.
+
+**Why it matters:** Increase informed electoral participation, voter registration and civic awareness, especially among younger eligible citizens.
+
+**Source-based contextual facts:**
+- The Election Commission of India was established on 25 January 1950.
+- The first National Voters' Day was celebrated in January 2011.
+- The programme includes voter registration information and identity-card distribution.
+
+**Source URLs:**
+- https://www.eci.gov.in/voicenet/ArticleDECUS.htm
+- https://www.eci.gov.in/voicenet/Article_nvd2021.htm
+
+**Limits:** Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication.
+
+---
+
+## 51. australia-national-sorry-day
+
+**Formal year / Anno formale:** 1998 · **First observed / Prima osservanza:** 1998
+
+### Italiano — 26 maggio: in Australia il primo National Sorry Day dopo l'inchiesta storica
+
+La prima National Sorry Day australiana si svolse il 26 maggio 1998, a un anno esatto dalla presentazione in Parlamento del rapporto Bringing Them Home. L'inchiesta aveva documentato l'allontanamento forzato di bambini aborigeni e delle isole dello Stretto di Torres dalle famiglie, ricordati come Generazioni rubate. La campagna civile dei Sorry Books raccolse messaggi di rammarico e solidarietà e contribuì alla mobilitazione. L'istituto australiano AIATSIS distingue questa prima commemorazione comunitaria dalle scuse formali del governo federale pronunciate nel febbraio 2008. La giornata resta dedicata all'ascolto dei sopravvissuti e al riconoscimento degli effetti delle politiche passate.
+
+**Promotore:** Movimenti civici di riconciliazione e gruppi vicini ai sopravvissuti organizzarono la prima edizione del 1998.
+
+**Perché è importante:** Riconoscere le rimozioni forzate, ascoltare i sopravvissuti e sostenere processi concreti di riconciliazione.
+
+**Fatti documentati:**
+- Il rapporto Bringing Them Home fu presentato il 26 maggio 1997.
+- La prima National Sorry Day si celebrò il 26 maggio 1998.
+- Le scuse formali del governo nazionale arrivarono nel febbraio 2008.
+
+### English — 26 May: Australia's first National Sorry Day follows a landmark inquiry
+
+The first National Sorry Day was held in Australia on 26 May 1998, exactly a year after the Bringing Them Home report was presented to Parliament. That inquiry documented the forced removal of Aboriginal and Torres Strait Islander children from their families, remembered as the Stolen Generations. A grassroots Sorry Books campaign invited written messages of sorrow and solidarity, helping mobilize public commemoration. The Australian Institute of Aboriginal and Torres Strait Islander Studies distinguishes this early community observance from the national governmental apology delivered in February 2008. National Sorry Day remains an occasion to recognize survivors, listen to families and confront the consequences of past policies.
+
+**Founder / institutional authority:** Community reconciliation organizations and supporters of the Stolen Generations organized the original 1998 observance, not the later federal apology.
+
+**Why it matters:** Acknowledge forced child removals, centre survivor voices and support truthful remembrance and reconciliation.
+
+**Source-based contextual facts:**
+- The Bringing Them Home report was presented on 26 May 1997.
+- The first National Sorry Day was held on 26 May 1998.
+- The Australian Government's formal national apology followed in February 2008.
+
+**Source URLs:**
+- https://aiatsis.gov.au/explore/stolen-generations
+- https://www.reconciliation.org.au/national-sorry-day-2020/
+
+**Limits:** Original government, election-authority or community-originator sources individually establish first date, origin and institutional history. This is model-authored IT/EN source research pending independent human factual review and qualified native six-language editorial review; not approved for rich runtime publication.
+
+---
+
+## 52. spain-acquired-brain-injury-day
+
+**Formal year / Anno formale:** 2007 · **First observed / Prima osservanza:** *
+
+### Italiano — 26 ottobre: la Spagna dà visibilità al danno cerebrale acquisito
+
+Il Consiglio dei ministri spagnolo decise il 24 agosto 2007 di designare il 26 ottobre Giornata nazionale del danno cerebrale acquisito. Il comunicato diffuso allora spiegava che ictus e traumi cranici possono lasciare conseguenze fisiche, psicologiche, sensoriali e cognitive durature. La scelta intendeva mobilitare l'attenzione pubblica e coinvolgere persone interessate, famiglie, associazioni e amministrazioni statali e locali. Una conferenza stampa governativa dello stesso giorno conferma le finalità. Gli atti attestano l'istituzione nel 2007, ma non dimostrano una prima cerimonia annuale o un anniversario preciso che spieghi la scelta del 26 ottobre: i due dati restano sconosciuti.
+
+**Promotore:** Il Consiglio dei ministri spagnolo istituì formalmente la ricorrenza il 24 agosto 2007.
+
+**Perché è importante:** Diffondere consapevolezza, sostegno e iniziative di prevenzione per le persone con danno cerebrale acquisito.
+
+**Fatti documentati:**
+- Il Consiglio dei ministri decise il 24 agosto 2007.
+- La data nazionale annuale è il 26 ottobre.
+- La decisione invitava a coinvolgere famiglie, associazioni e istituzioni pubbliche.
+
+### English — 26 October: Spain gives acquired brain injury national visibility
+
+Spain's Council of Ministers decided on 24 August 2007 to designate 26 October National Acquired Brain Injury Day. Its contemporaneous press summary explains that stroke and traumatic brain injuries can leave long-lasting physical, psychological, sensory and cognitive consequences. The decision aimed to mobilize public attention and involve affected people, families, associations and national, regional and local administrations. A government press conference from the same date confirms this purpose. The documents establish the day in 2007 but do not independently identify a first annual event or a specific historical anniversary explaining the choice of 26 October. Those details therefore remain unknown rather than inferred.
+
+**Founder / institutional authority:** The Spanish Council of Ministers formally established the national observance on 24 August 2007.
+
+**Why it matters:** Promote awareness, access to care, prevention and social support for people living with acquired brain injury.
+
+**Source-based contextual facts:**
+- The Council of Ministers took its decision on 24 August 2007.
+- The declared national observance takes place on 26 October.
+- The decision explicitly involved affected families, associations and public institutions.
+
+**Source URLs:**
+- https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2007/refc20070824.aspx
+- https://www.lamoncloa.gob.es/consejodeministros/Paginas/enlacetranscripciones/240807-delavega.aspx
+
+**Limits:** Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content.
+
+---
+
+## 53. australia-harmony-day
+
+**Formal year / Anno formale:** 1999 · **First observed / Prima osservanza:** 1999
+
+### Italiano — 21 marzo: una celebrazione australiana dell'inclusione culturale
+
+Il governo australiano introdusse Harmony Day nel 1999 per incoraggiare le comunità a celebrare diversità culturale, rispetto reciproco e appartenenza. La data originaria del 21 marzo coincide con la Giornata ONU per l'eliminazione della discriminazione razziale, pur avendo un'origine istituzionale australiana distinta. Nel ventesimo anniversario, il Dipartimento dell'interno confermò che la prima edizione era stata organizzata nel 1999. Le iniziative crebbero fra scuole, quartieri e luoghi di lavoro, evolvendosi in Harmony Week, con attività su più giorni. Anche la guida governativa alle bandiere elenca la ricorrenza del 21 marzo. Le fonti documentano una campagna pubblica comunitaria, non un atto legislativo o un fondatore personale individuato singolarmente.
+
+**Promotore:** Il governo australiano lanciò Harmony Day nel 1999; scuole e associazioni ne hanno sviluppato le attività.
+
+**Perché è importante:** Promuovere inclusione, dialogo interculturale e partecipazione delle comunità contro i pregiudizi.
+
+**Fatti documentati:**
+- La prima Harmony Day australiana si svolse nel 1999.
+- La data del 21 marzo coincide con una diversa ricorrenza ONU.
+- Nel 2019 le celebrazioni erano diventate anche Harmony Week.
+
+### English — 21 March: Australia's community celebration of cultural inclusion
+
+The Australian Government introduced Harmony Day in 1999 to encourage communities to celebrate cultural diversity, mutual respect and belonging. The original 21 March date coincides with the United Nations International Day for the Elimination of Racial Discrimination, though the Australian initiative has a different institutional origin. The Australian Department of Home Affairs confirmed in a twentieth-anniversary statement that the first Harmony Day took place in 1999. Community events grew through schools, neighbourhood groups and workplaces, eventually developing into Harmony Week with activities across multiple days. The government's own flags booklet lists the 21 March commemoration. These sources demonstrate a public community campaign rather than an independently identified statutory founding act or personal founder.
+
+**Founder / institutional authority:** The Australian Government launched Harmony Day in 1999; schools, communities and organizations developed its activities.
+
+**Why it matters:** Promote inclusion, intercultural understanding, shared participation and opposition to discrimination.
+
+**Source-based contextual facts:**
+- The first Harmony Day was celebrated in Australia in 1999.
+- The annual date is 21 March, coinciding with a separate UN anti-racism observance.
+- By 2019 the public programme had expanded into Harmony Week.
+
+**Source URLs:**
+- https://www.homeaffairs.gov.au/news-subsite/Pages/2019-Mar/celebrating%2020%20years%20of%20harmony%20celebrations.aspx
+- https://www.pmc.gov.au/resources/australian-flags-booklet/part-2-protocols-appropriate-use-and-flying-flag/special-days-flying-flags
+
+**Limits:** Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content.
+
+---
+
+## 54. brazil-black-consciousness-day
+
+**Formal year / Anno formale:** 2011 · **First observed / Prima osservanza:** *
+
+### Italiano — 20 novembre: il Brasile riconosce la coscienza nera prima del giorno festivo nazionale
+
+La legge federale brasiliana 12.519 del 10 novembre 2011 istituì formalmente il Giorno nazionale di Zumbi e della coscienza nera il 20 novembre. La data ricorda Zumbi dos Palmares, la memoria della resistenza afro-brasiliana e il contributo delle comunità nere. Le iniziative commemorative della società civile erano precedenti, quindi il 2011 non può essere indicato come prima celebrazione assoluta. Una seconda tappa giuridica arrivò il 21 dicembre 2023: la legge 14.759 rese il 20 novembre un giorno festivo nazionale. Il governo descrisse quello del 20 novembre 2024 come il primo festivo osservato in tutto il Paese in quella forma. Nessuno dei due provvedimenti documenta l'anno della prima iniziativa civile, che resta non verificato.
+
+**Promotore:** Il legislatore federale brasiliano riconobbe la ricorrenza nel 2011 e ne stabilì il carattere festivo nazionale nel 2023.
+
+**Perché è importante:** Riconoscere storia e resistenza afro-brasiliane e promuovere educazione e contrasto alle discriminazioni.
+
+**Fatti documentati:**
+- La legge 12.519 istituì la ricorrenza nazionale nel 2011.
+- La legge 14.759 introdusse il giorno festivo nazionale nel 2023.
+- Il primo festivo nazionale in quella forma fu il 20 novembre 2024.
+
+### English — 20 November: Brazil recognizes Black Consciousness before making it a federal holiday
+
+Brazil's federal Law 12.519 of 10 November 2011 formally instituted the National Day of Zumbi and Black Consciousness on 20 November. It honours the historical memory of Zumbi dos Palmares and recognizes Afro-Brazilian resistance and culture. Commemorative initiatives preceded that federal law, so 2011 should not be presented as the first time civil society marked the date. Another legal milestone occurred on 21 December 2023, when Law 14.759 made 20 November a nationwide public holiday. Brazil's government described 20 November 2024 as the first celebration of the holiday in that nationwide legal form. Neither statute proves the year of the first grassroots commemoration, which is left unknown.
+
+**Founder / institutional authority:** The Brazilian federal legislature established national recognition in 2011 and a distinct nationwide public-holiday status in 2023.
+
+**Why it matters:** Recognize Afro-Brazilian history and resistance, encourage discussion of racism and celebrate cultural contributions.
+
+**Source-based contextual facts:**
+- Law 12.519 established the national commemorative date in 2011.
+- Law 14.759 in 2023 created nationwide public-holiday status.
+- The first nationwide holiday under the new law took place on 20 November 2024.
+
+**Source URLs:**
+- https://www4.planalto.gov.br/legislacao/legislacao/portal-legis/legislacao-1/leis-ordinarias/2011-leis-ordinarias-1.html
+- https://www.gov.br/mds/pt-br/noticias-e-conteudos/Noticias/2024/pela-primeira-vez-feriado-da-consciencia-negra-e-nacional
+- https://www.gov.br/cultura/pt-br/acesso-a-informacao/institucional/atos-normativos/lei-ordinarias
+
+**Limits:** Individually verified original governmental or federal statutory documents distinguish origin year, first celebration when established, legal status and earlier history. These are model-authored IT/EN research drafts awaiting independent human factual review and six-language qualified native editorial review, not approved rich runtime content.
+
+---
+
+## 55. japan-constitution-memorial-day
+
+**Formal year / Anno formale:** 1948 · **First observed / Prima osservanza:** *
+
+### Italiano — 3 maggio: la Costituzione giapponese diventa una festa nazionale
+
+In Giappone il Giorno della memoria della Costituzione fu istituito con la legge sulle festività nazionali n. 178 del 20 luglio 1948. Si celebra il 3 maggio perché la Costituzione del dopoguerra entrò in vigore il 3 maggio 1947, mentre la sua promulgazione era avvenuta il 3 novembre 1946. La ricostruzione del governo colloca la giornata fra le nove festività previste dalla legge originale del 1948 e la collega alla riflessione sul futuro del Paese. L'evento costituzionale del 1947 e l'istituzione della festa nel 1948 sono avvenimenti distinti. La legge non prova autonomamente una prima cerimonia pubblica, quindi tale dato rimane sconosciuto.
+
+**Promotore:** La Dieta giapponese istituì la festività tramite la legge del 1948; non viene inventato un singolo fondatore personale.
+
+**Perché è importante:** Ricordare il governo costituzionale e riflettere sull'evoluzione democratica e civile del Giappone.
+
+**Fatti documentati:**
+- La Costituzione entrò in vigore il 3 maggio 1947.
+- La legge sulle festività nazionali è del 20 luglio 1948.
+- Il 3 maggio figurava già nelle nove festività originali del 1948.
+
+### English — 3 May: Japan's postwar Constitution becomes a national holiday
+
+Japan's Constitution Memorial Day was established by the National Holidays Act, Law No. 178 of 20 July 1948. It is held on 3 May because the postwar Constitution of Japan entered into force on 3 May 1947, rather than on its earlier promulgation date, 3 November 1946. The government's historical account places Constitution Memorial Day among the nine holidays in the original 1948 law and explains its aim as remembering the Constitution's coming into effect while considering the nation's development. The legal celebration differs from the constitutional event itself. The founding statute does not independently document an inaugural public ceremony, so a first annual event year is not asserted.
+
+**Founder / institutional authority:** The Japanese Diet created the statutory holiday in 1948 through the National Holidays Act, not through an invented individual founder.
+
+**Why it matters:** Reflect on constitutional government, civic institutions and the development of postwar Japanese society.
+
+**Source-based contextual facts:**
+- Japan's Constitution entered into force on 3 May 1947.
+- The National Holidays Act was enacted on 20 July 1948.
+- Constitution Memorial Day was among the nine holidays in the original 1948 law.
+
+**Source URLs:**
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en
+
+**Limits:** Japanese Cabinet Office origin history and full original National Holidays Act 178 of 1948 identify adoption and date rationale; inaugural ceremony not independently documented. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved.
+
+---
+
+## 56. japan-culture-day
+
+**Formal year / Anno formale:** 1948 · **First observed / Prima osservanza:** *
+
+### Italiano — 3 novembre: il Giappone sceglie cultura, libertà e pace nel dopoguerra
+
+Il Giorno della cultura giapponese nacque con la legge n. 178 del 20 luglio 1948, una delle nove festività nazionali originali del dopoguerra. Il testo indica come finalità l'amore per libertà e pace e la promozione della cultura. Il 3 novembre ricorda anche la promulgazione della Costituzione giapponese del 3 novembre 1946. La data era stata precedentemente associata al compleanno dell'imperatore Meiji, ma la nuova festività del 1948 volle sottolineare i valori civili e il patrimonio culturale. La ricostruzione governativa e la legge originale confermano questi passaggi. La prima specifica cerimonia pubblica dopo la legge non è documentata autonomamente e resta sconosciuta.
+
+**Promotore:** La Dieta giapponese istituì il Giorno della cultura nel 1948, collegandolo esplicitamente a libertà, pace e cultura.
+
+**Perché è importante:** Valorizzare attività culturali e formazione e ricordare i principi civili del Giappone del dopoguerra.
+
+**Fatti documentati:**
+- Culture Day fu istituito dalla legge n. 178 del 20 luglio 1948.
+- La legge cita esplicitamente libertà, pace e cultura.
+- La data corrisponde anche alla promulgazione della Costituzione del 3 novembre 1946.
+
+### English — 3 November: Japan chooses culture, freedom and peace after the war
+
+Japan's Culture Day was established by Law No. 178 of 20 July 1948 as one of the nine national holidays in the first postwar National Holidays Act. The statute defines its purposes as loving freedom and peace and promoting culture. The date, 3 November, also marks the promulgation of Japan's postwar Constitution on 3 November 1946. It had earlier been celebrated as Emperor Meiji's birthday, but the 1948 statutory observance explicitly shifted the public meaning toward cultural achievement and peace. The Cabinet Office's institutional history and original 1948 law support these distinctions. The first specific public Culture Day ceremony after enactment has not been independently established and is not invented.
+
+**Founder / institutional authority:** The National Diet established Culture Day in 1948 and attached the specific civic ideals of culture, freedom and peace.
+
+**Why it matters:** Recognize cultural production and education while remembering Japan's postwar commitment to liberty and peace.
+
+**Source-based contextual facts:**
+- The National Holidays Act created Culture Day on 20 July 1948.
+- The law explicitly states freedom, peace and culture as its aims.
+- The same calendar date commemorates the Constitution's 1946 promulgation.
+
+**Source URLs:**
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://jahis.law.nagoya-u.ac.jp/lawdb/l/323a0178en
+
+**Limits:** Japan Cabinet Office authoritative holiday history and full original 1948 law provide legal establishment and stated aims; first observed specific ceremony unverified. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved.
+
+---
+
+## 57. japan-national-foundation-day
+
+**Formal year / Anno formale:** 1966 · **First observed / Prima osservanza:** *
+
+### Italiano — 11 febbraio: il Giappone istituisce il giorno della fondazione nazionale
+
+Il Giorno della fondazione nazionale giapponese fu introdotto da una modifica del 1966 alla legge sulle festività. La legge non fissò direttamente il giorno del mese: incaricò il governo di decidere tramite decreto dopo la consultazione di un apposito consiglio di esperti e il confronto pubblico. Nel dicembre 1966 il consiglio propose l'11 febbraio, data poi formalizzata con il decreto governativo n. 376 nello stesso mese. La giornata ricorda simbolicamente le origini dello Stato e non dimostra una precisa cronologia archeologica della sua nascita. Il governo ne descrive il significato come riflessione sulla storia e sul futuro del Paese. Le fonti istitutive non documentano una prima singola cerimonia annuale, quindi l'anno rimane non accertato.
+
+**Promotore:** Il Parlamento modificò la legge nel 1966, mentre il governo fissò l'11 febbraio dopo il parere del consiglio consultivo.
+
+**Perché è importante:** Riflettere sul patrimonio storico del Giappone, distinguendo tradizione simbolica e ricostruzione storica.
+
+**Fatti documentati:**
+- La festività fu introdotta nella legge nel 1966.
+- Il consiglio consultivo propose l'11 febbraio nel dicembre dello stesso anno.
+- Il decreto governativo n. 376 fissò ufficialmente la data.
+
+### English — 11 February: Japan establishes a national foundation remembrance day
+
+Japan's National Foundation Day was introduced by a 1966 amendment to the National Holidays Act. Instead of writing a specific date directly into the act, lawmakers required the government to determine the date by cabinet order after a dedicated advisory council examined public opinion and historical considerations. The National Foundation Day Advisory Council recommended 11 February in December 1966; Cabinet Order No. 376 formalized that date in the same month. The holiday celebrates a symbolic national foundation and is distinct from proving one exact archaeological date for the country's birth. The government describes its civic purpose as reflecting on the nation's formation and future. A first individually documented public annual ceremony is not established by the founding records.
+
+**Founder / institutional authority:** The Japanese legislature amended the holiday law in 1966, and the Cabinet set 11 February after the advisory council's recommendation.
+
+**Why it matters:** Encourage reflection on Japan's historical development and cultural heritage without conflating tradition with independently proven ancient chronology.
+
+**Source-based contextual facts:**
+- The National Holidays Act was amended in 1966 to create the holiday.
+- A government advisory council recommended 11 February in December 1966.
+- Cabinet Order No. 376 officially set the date later in that month.
+
+**Source URLs:**
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou/kaku.html
+- https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+
+**Limits:** Japanese Cabinet Office directly documents 1966 law amendment and December Cabinet Order 376, without proof of first annual 1967 ceremony. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved.
+
+---
+
+## 58. ca-canada-day
+
+**Formal year / Anno formale:** 1879 · **First observed / Prima osservanza:** 1868
+
+### Italiano — 1º luglio: dalle prime feste della Confederazione alla moderna Canada Day
+
+La ricorrenza canadese del 1º luglio celebra la Confederazione nata il 1º luglio 1867 con il British North America Act. Il governatore generale Lord Monck pubblicò il 20 giugno 1868 una proclamazione che invitava a festeggiare il successivo 1º luglio, la prima commemorazione civica ufficiale documentata qui. Nel 1879 il Parlamento rese il giorno una festività di legge con il nome Dominion Day. Soltanto il 27 ottobre 1982 la ricorrenza assunse il nome Canada Day, molto dopo le prime celebrazioni e l'istituzione del giorno festivo. Canadian Heritage conserva la storia e i riferimenti della proclamazione del 1868 e della legge del 1879. Queste tappe non vanno confuse: la storia della festa non inizia nel 1982.
+
+**Promotore:** Lord Monck invitò alle celebrazioni del 1868; il Parlamento introdusse la festività nel 1879 e ne cambiò il nome nel 1982.
+
+**Perché è importante:** Ricordare la Confederazione e riflettere sull'evoluzione della società e dell'identità civile canadese.
+
+**Fatti documentati:**
+- La Confederazione si formò il 1º luglio 1867.
+- Una proclamazione del 20 giugno 1868 invitò alla prima commemorazione ufficiale.
+- Nel 1879 il Parlamento introdusse il giorno festivo e nel 1982 lo rinominò Canada Day.
+
+### English — 1 July: from Confederation celebrations to the modern Canada Day
+
+Canada's 1 July commemoration celebrates Confederation, formed on 1 July 1867 under the British North America Act. Governor General Lord Monck issued a proclamation on 20 June 1868 encouraging celebrations the following 1 July, making 1868 the earliest official civic anniversary identified here. In 1879 Parliament formally made 1 July a statutory holiday, known as Dominion Day. The holiday was renamed Canada Day on 27 October 1982, long after both the inaugural celebrations and its statutory establishment. Canadian Heritage preserves copies and explanations of the 1868 proclamation and 1879 statute. These dates must remain separate rather than incorrectly describing the holiday as having first begun in 1982.
+
+**Founder / institutional authority:** Governor General Lord Monck called for 1868 celebrations; Canada's Parliament legislated the holiday in 1879, and lawmakers renamed it in 1982.
+
+**Why it matters:** Remember Canada's Confederation while reflecting on the country's evolving identity, cultural diversity and civic participation.
+
+**Source-based contextual facts:**
+- Canadian Confederation took effect on 1 July 1867.
+- The first official national anniversary proclamation is dated 20 June 1868.
+- Parliament made the day a statutory holiday in 1879 and renamed it Canada Day in 1982.
+
+**Source URLs:**
+- https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html
+- https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html
+
+**Limits:** Canadian Heritage original proclamation 1868, 1879 statutory history and 1982 rename individually distinguished; 1868 recorded as precursor first observed civic event. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved.
+
+---
+
+## 59. martin-luther-king-jr-day
+
+**Formal year / Anno formale:** 1983 · **First observed / Prima osservanza:** 1986
+
+### Italiano — Terzo lunedì di gennaio: la lunga campagna per ricordare Martin Luther King
+
+Il presidente Ronald Reagan firmò la legge federale 98-144 il 2 novembre 1983, istituendo il terzo lunedì di gennaio come festività nazionale dedicata a Martin Luther King Jr. La prima celebrazione federale in tutti gli Stati Uniti si svolse il 20 gennaio 1986. La legge arrivò dopo una lunga mobilitazione iniziata poco dopo l'assassinio di King nell'aprile 1968. Il deputato John Conyers presentò un primo progetto di legge nei giorni successivi alla morte; in seguito la deputata Katie Hall contribuì all'approvazione della proposta alla Camera. Il terzo lunedì sostituì la data fissa del 15 gennaio per ridurre le interruzioni delle attività governative. Un'altra legge del 1994 favorì la commemorazione attraverso il servizio alla comunità.
+
+**Promotore:** La giornata nasce da iniziative del movimento per i diritti civili, progetti parlamentari di John Conyers e lavoro legislativo di Katie Hall nel 1983.
+
+**Perché è importante:** Ricordare i diritti civili, il contrasto alle discriminazioni e l'impegno concreto nelle comunità.
+
+**Fatti documentati:**
+- La legge istitutiva fu firmata il 2 novembre 1983.
+- La prima festa federale si tenne il 20 gennaio 1986.
+- Si celebra il terzo lunedì di gennaio, non sempre il giorno esatto del compleanno di King.
+
+### English — Third Monday in January: the long campaign for a Martin Luther King Jr. holiday
+
+President Ronald Reagan signed Public Law 98-144 on 2 November 1983, making the third Monday of January a federal holiday commemorating civil-rights leader Martin Luther King Jr. The first nationwide federal observance took place on 20 January 1986. The law followed a sustained campaign that began soon after King's assassination in April 1968. Congressman John Conyers introduced an early federal holiday bill within days of the assassination, and later Representative Katie Hall helped guide legislation through the House. The third-Monday rule replaced a fixed 15 January date to reduce disruption of government operations. Later legislation in 1994 promoted the day as an opportunity for community service.
+
+**Founder / institutional authority:** The federal holiday arose from long civil-rights advocacy, early Congressional proposals by John Conyers and 1983 legislative efforts led in the House by Katie Hall.
+
+**Why it matters:** Remember Martin Luther King Jr.'s civil-rights work while encouraging equal rights, community service and democratic participation.
+
+**Source-based contextual facts:**
+- The federal holiday bill was signed on 2 November 1983.
+- Its first nationwide federal observance was on 20 January 1986.
+- The annual observance is the third Monday of January rather than always King's 15 January birthday.
+
+**Source URLs:**
+- https://history.house.gov/Historical-Highlights/1951-2000/The-creation-of-the-Martin-Luther-King-Jr--Holiday/
+- https://kinginstitute.stanford.edu/king-national-holiday
+
+**Limits:** U.S. House institutional archives and Stanford King Institute independently confirm exact statutory passage, specific advocates, first 1986 observance and third-Monday date rationale. This original IT/EN research record still requires independent human fact review and qualified six-language native editorial review; rich runtime publication is unapproved.
+
+---
+
+## 60. pl-baptism-of-poland-day
+
+**Formal year / Anno formale:** 2019 · **First observed / Prima osservanza:** *
+
+### Italiano — 14 aprile: la Polonia istituisce una festa moderna per un battesimo medievale
+
+Il Sejm polacco approvò il 22 febbraio 2019 una legge che istituiva il Giorno del battesimo della Polonia il 14 aprile, entrata in vigore con la pubblicazione del 9 aprile 2019. La ricorrenza ricorda il battesimo del sovrano Mieszko I nel 966, considerato simbolicamente l'inizio dello Stato polacco e un passaggio verso la cristianità latina. Il 14 aprile deriva dall'ipotesi tradizionale secondo cui la cerimonia si svolse durante il Sabato Santo di quell'anno. Una ricostruzione ufficiale del governo polacco sottolinea però che giorno e luogo esatti del battesimo non sono storicamente accertati. La festa istituita nel 2019 non coincide con l'evento medievale né con precedenti giubilei; una prima specifica celebrazione annuale dopo la legge non è qui provata.
+
+**Promotore:** Il Sejm polacco introdusse la festa di Stato con la legge del 22 febbraio 2019; le fonti non attribuiscono la proposta moderna a un singolo individuo verificato.
+
+**Perché è importante:** Invitare a riflettere sulla formazione dello Stato polacco e sulla storia delle sue tradizioni culturali e politiche.
+
+**Fatti documentati:**
+- La legge istitutiva risale al 22 febbraio 2019.
+- Il 14 aprile richiama una ricostruzione tradizionale del battesimo di Mieszko I nel 966.
+- Fonti ufficiali ammettono che luogo e data esatti dell'evento medievale rimangono incerti.
+
+### English — 14 April: Poland establishes a modern holiday for a medieval baptism
+
+Poland's Sejm enacted a law on 22 February 2019 creating the Baptism of Poland Day on 14 April, with legal effect from publication on 9 April 2019. The day recalls the baptism of ruler Mieszko I in 966, an event widely treated as a symbolic beginning of Polish statehood and Poland's connection to Latin Christianity. The chosen date of 14 April reflects the traditional hypothesis that the ceremony took place on Holy Saturday in 966. The Polish government's historical account explicitly cautions that neither the exact day nor the site of the baptism is established with certainty. The modern statutory holiday is distinct from the medieval ceremony and from earlier jubilee observances; a first separately documented annual celebration under the 2019 law is not asserted.
+
+**Founder / institutional authority:** The Polish Sejm legislated the state observance in 2019 through the Act of 22 February 2019; the first personal modern proposer is not established in these sources.
+
+**Why it matters:** Encourage historical reflection on the emergence of Polish statehood and its cultural and political developments.
+
+**Source-based contextual facts:**
+- The law creating Baptism of Poland Day was adopted on 22 February 2019.
+- Its date, 14 April, follows a traditional reconstruction of Mieszko I's baptism in 966.
+- Polish government historians caution that the exact location and date of the medieval baptism remain uncertain.
+
+**Source URLs:**
+- https://eli.gov.pl/api/acts/DU/2019/656/text.html
+- https://www.gov.pl/web/uw-lubuski/1055-rocznica-chrztu-polski
+- https://www.sejm.gov.pl/sejm10.nsf/komunikat.xsp?documentId=8C826413CFA3F7FAC1258DD90025126D
+
+**Limits:** Polish Sejm statutory act 22 February 2019 (published effective 9 April 2019), official 2021 historical caution, and Sejm 2026 first-party retrospective independently separate modern law, ancient traditional date and uncertainty. No first inaugural annual public ceremony is claimed. IT/EN model-authored research requires qualified human factual and native six-locale editorial review; runtime rich article unapproved.
+
+---
+
