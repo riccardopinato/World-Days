@@ -2677,3 +2677,1159 @@ An Italian prime ministerial decree dated 28 February 2003 established the Natio
 
 ---
 
+## 71. spain-victims-of-terrorism-tribute-day
+
+**Formal year / Anno formale:** 2011 · **First observed / Prima osservanza:** *
+
+### Italiano — 27 giugno: la Spagna dà alle vittime del terrorismo una ricorrenza di legge
+
+La legge spagnola 29/2011 del 22 settembre 2011 stabilì nell'articolo 60 il 27 giugno come giornata annuale del ricordo e dell'omaggio alle vittime del terrorismo. Lo stesso articolo riconosce separatamente l'11 marzo come Giornata europea dedicata alle vittime del terrorismo. Il provvedimento comprende norme di tutela e richiama il dovere delle istituzioni pubbliche di promuovere diritti umani, democrazia e pace. Le due date hanno significati giuridici distinti e non devono essere confuse. Il testo fissa il 27 giugno senza provare una prima cerimonia specifica né un anniversario storico particolare che abbia motivato la scelta. Questi dettagli restano quindi non verificati.
+
+**Promotore:** Il Parlamento spagnolo istituì la giornata nazionale tramite l'articolo 60 della legge 29/2011.
+
+**Perché è importante:** Riconoscere dignità e diritti delle vittime e favorire memoria democratica e prevenzione del terrorismo.
+
+**Fatti documentati:**
+- L'articolo 60 della legge 29/2011 fissa il 27 giugno.
+- La stessa norma distingue l'11 marzo europeo.
+- La legge richiede iniziative pubbliche di riconoscimento e informazione.
+
+### English — 27 June: Spain gives victims of terrorism a statutory remembrance day
+
+Spain's Law 29/2011 of 22 September 2011 established 27 June as an annual day of remembrance and tribute to victims of terrorism in Article 60. The same article separately recognizes 11 March as the European Day of Remembrance of Victims of Terrorism. The law sets out protections and the duty of public institutions to honour victims and promote education about human rights, democracy and peace. The two dates have different legal identities and should not be confused. The law provides the 27 June date but its text does not establish an independently verified first ceremony or a specific historic anniversary explaining why that day was selected. Those details remain unasserted rather than inferred from the text.
+
+**Founder / institutional authority:** The Spanish Parliament established the national day through Law 29/2011, Article 60, while state institutions coordinate commemorations.
+
+**Why it matters:** Respect victims and survivors, defend human rights and promote democratic remembrance of the consequences of terrorism.
+
+**Source-based contextual facts:**
+- Article 60 of Law 29/2011 declares 27 June the Spanish annual tribute day.
+- The same law separately cites 11 March as a European remembrance day.
+- State institutions are directed to organize recognition and educational activities.
+
+**Source URLs:**
+- https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&p=20261021&tn=0
+- https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&lang=es&p=&tn=1
+
+**Limits:** Spanish original 2011 official BOE law article 60 expressly sets 27 June and distinguishes European 11 March; initial ceremony and specific date rationale absent. Original model-authored source-linked EN/IT research, pending independent human factual review and qualified six-language native editorial review; no rich-runtime approval.
+
+---
+
+## 72. france-armistice-1918-day
+
+**Formal year / Anno formale:** 1922 · **First observed / Prima osservanza:** *
+
+### Italiano — 11 novembre: la Francia trasforma l'armistizio del 1918 in festa nazionale
+
+Il Parlamento francese approvò la legge del 24 ottobre 1922 che rese l'11 novembre una giornata festiva nazionale dedicata alla vittoria e alla pace dopo la Prima guerra mondiale. La data richiama l'armistizio firmato l'11 novembre 1918, che pose fine ai combattimenti sul fronte occidentale. La memoria pubblica si era già sviluppata negli anni precedenti, compreso l'omaggio al Milite ignoto nel 1920, quindi la legge del 1922 non rappresenta l'inizio di ogni forma di commemorazione. Una distinta legge del 28 febbraio 2012 estese l'omaggio annuale a tutti i caduti per la Francia, senza sopprimere altre giornate nazionali. Le fonti parlamentari dimostrano l'istituzione legislativa, ma non individuano una singola prima cerimonia nazionale sotto la legge.
+
+**Promotore:** Il Parlamento francese istituì la commemorazione nazionale festiva nel 1922 e ne ampliò lo scopo nel 2012.
+
+**Perché è importante:** Ricordare i morti di guerra, riflettere sul significato della pace e sulle conseguenze del conflitto.
+
+**Fatti documentati:**
+- L'armistizio fu firmato l'11 novembre 1918.
+- La legge istitutiva della festa nazionale è del 24 ottobre 1922.
+- La legge del 2012 include nel tributo tutti i caduti per la Francia.
+
+### English — 11 November: France turns the 1918 armistice into a national holiday
+
+France's Parliament enacted the law of 24 October 1922 establishing 11 November as the annual public holiday commemorating victory and peace following the First World War. The selected date recalls the armistice signed on 11 November 1918, which brought fighting on the Western Front to an end. Public remembrance had already developed after the war, including a 1920 tribute to an unknown soldier, so the 1922 statute is not the original beginning of all remembrance. A separate law of 28 February 2012 expanded the annual homage to include all those who died for France, without replacing other national remembrance days. Parliamentary records independently establish the legal origins but do not identify one single inaugural 1922 ceremony as the first French memorial, so that year remains unverified.
+
+**Founder / institutional authority:** The French Parliament established 11 November as a statutory national commemoration in 1922; later legislators broadened its scope in 2012.
+
+**Why it matters:** Remember those who died in war and reflect on peace, mourning and the historical consequences of the armistice.
+
+**Source-based contextual facts:**
+- The armistice was signed on 11 November 1918.
+- The statutory national commemoration law is dated 24 October 1922.
+- The 2012 law extended the national tribute to all who died for France.
+
+**Source URLs:**
+- https://www.senat.fr/rap/l11-262/l11-2621.html
+- https://www.senat.fr/questions/base/2019/qSEQ191113088.html
+- https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025414776
+
+**Limits:** French Sénat retrospective reproduces and attributes original 1922 national holiday law plus separate 2012 enlargement; no unverified first official ceremony asserted. Original model-authored source-linked EN/IT research, pending independent human factual review and qualified six-language native editorial review; no rich-runtime approval.
+
+---
+
+## 73. international-day-for-small-island-developing-states
+
+**Formal year / Anno formale:** 2025 · **First observed / Prima osservanza:** *
+
+### Italiano — 25 aprile: una giornata UNESCO per i piccoli Stati insulari in via di sviluppo
+
+L'UNESCO ha proclamato nel 2025 il 25 aprile Giornata internazionale dei piccoli Stati insulari in via di sviluppo, attraverso la Conferenza generale. La data ricorda la prima conferenza mondiale dedicata a questi Stati, organizzata a Barbados nel 1994, e non l'anno della decisione UNESCO. La ricorrenza riguarda le risorse e le fragilità delle società insulari: patrimonio culturale, conoscenza degli oceani, istruzione, approvvigionamento idrico e minacce del cambiamento climatico. Già la strategia UNESCO 2023–2029 per queste regioni prevedeva sei programmi acceleratori, un'iniziativa precedente alla proclamazione e distinta dall'atto istitutivo. Le fonti confermano il 2025 e il motivo della scelta del 25 aprile, ma non stabiliscono individualmente la prima cerimonia annuale, che rimane non accertata.
+
+**Promotore:** La Conferenza generale dell'UNESCO ha proclamato la giornata nel 2025, sulla base della cooperazione con gli Stati insulari; non è documentato un singolo ideatore personale.
+
+**Perché è importante:** Valorizzare comunità e culture insulari e rafforzare cooperazione su oceani, clima, patrimonio e istruzione.
+
+**Fatti documentati:**
+- La proclamazione UNESCO risale al 2025.
+- Il 25 aprile richiama la prima conferenza globale degli Stati insulari, tenuta a Barbados nel 1994.
+- La strategia UNESCO 2023–2029 già prevedeva sei programmi per queste regioni.
+
+### English — 25 April: UNESCO dedicates a day to small island developing states
+
+UNESCO proclaimed 25 April the International Day for Small Island Developing States in 2025 through its General Conference. The annual date recalls the first global conference on small island developing states, held in Barbados in 1994, rather than the year UNESCO adopted the day. The new recognition focuses on the distinctive strengths and vulnerabilities of island societies: ocean knowledge, cultural heritage, education, freshwater resources, and the threats associated with climate change and coastal damage. UNESCO's 2023–2029 operational strategy for small island developing states already set out six accelerator programmes. That strategy preceded the commemorative decision and is not itself the establishing instrument. The original sources confirm the 2025 proclamation and 25 April calendar rationale, but do not independently establish an inaugural annual ceremony, so the first observed year is not asserted.
+
+**Founder / institutional authority:** The UNESCO General Conference proclaimed the day in 2025, building on its programmes and cooperation with small island developing states; no individually evidenced personal proposer is assigned.
+
+**Why it matters:** Promote recognition of small island states' resilience, heritage and development needs and encourage international partnerships on ocean, climate and education.
+
+**Source-based contextual facts:**
+- UNESCO designated 25 April in 2025.
+- The date recalls the first global conference on small island developing states in Barbados in 1994.
+- UNESCO already had a 2023–2029 strategy with six accelerator programmes for island countries.
+
+**Source URLs:**
+- https://www.unesco.org/en/days/sids
+- https://www.unesco.org/en/general-conference/43
+
+**Limits:** UNESCO first-party observance specifically states 2025 proclamation, 25 April and original Barbados 1994 event/date rationale. Actual inaugural annual event is not established by the cited page and remains null. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 74. international-day-of-awareness-of-the-special-development-needs-and-challenges-of-landlocked-developing-countries
+
+**Formal year / Anno formale:** 2025 · **First observed / Prima osservanza:** 2025
+
+### Italiano — 6 agosto: la prima giornata ONU per i Paesi in via di sviluppo senza sbocco sul mare
+
+Il 25 luglio 2025 l'Assemblea generale ONU ha adottato A/RES/79/320, proclamando il 6 agosto Giornata internazionale per le esigenze e le sfide dei Paesi in via di sviluppo senza sbocco sul mare. La stessa risoluzione stabiliva la prima celebrazione già nel 2025 durante la terza conferenza ONU dedicata a questi Paesi, riunita ad Awaza, in Turkmenistan, dal 5 all'8 agosto. Un'altra pagina istituzionale conferma che la prima edizione si svolse effettivamente durante quella conferenza. La data collega quindi la giornata a un negoziato internazionale su infrastrutture, commercio, trasporti e difficoltà dovute all'assenza di coste. La bozza originale A/79/L.108 elenca diversi Paesi senza sbocco al mare fra i promotori; la decisione formale appartiene all'Assemblea. I dati ONU individuano 32 Paesi appartenenti a questa categoria.
+
+**Promotore:** Un gruppo di Paesi in via di sviluppo senza sbocco al mare sostenne la bozza A/79/L.108; l'Assemblea generale ONU istituì la giornata con A/RES/79/320.
+
+**Perché è importante:** Far comprendere i costi di trasporto e le difficoltà commerciali legati all'assenza di accesso diretto al mare e incoraggiare cooperazione regionale.
+
+**Fatti documentati:**
+- La risoluzione istitutiva fu adottata il 25 luglio 2025.
+- La prima celebrazione ebbe luogo il 6 agosto 2025 durante la conferenza di Awaza.
+- L'ONU classifica 32 Stati in via di sviluppo come Paesi senza sbocco sul mare.
+
+### English — 6 August: the first UN day for landlocked developing countries begins in Awaza
+
+On 25 July 2025 the UN General Assembly adopted resolution A/RES/79/320, proclaiming 6 August the International Day of Awareness of the Special Development Needs and Challenges of Landlocked Developing Countries. The resolution explicitly directed its first observance for 2025 during the Third UN Conference on Landlocked Developing Countries, meeting in Awaza, Turkmenistan, from 5 to 8 August. A separate UN observance page confirms that the first celebration took place at that conference. The choice of date thus links the new annual day to an active meeting on transport, trade, development and the obstacles faced by countries without a coastline. The original draft A/79/L.108 lists landlocked developing countries as co-sponsors; the General Assembly is the adopting authority. UN data identify 32 landlocked developing countries across Africa, Asia, Europe and South America.
+
+**Founder / institutional authority:** A group of landlocked developing countries co-sponsored original draft A/79/L.108; the UN General Assembly formally instituted the day through A/RES/79/320.
+
+**Why it matters:** Explain why lack of direct sea access can raise trade costs and development barriers and why coordinated regional infrastructure and policy matter.
+
+**Source-based contextual facts:**
+- The General Assembly adopted the founding resolution on 25 July 2025.
+- The first celebration occurred on 6 August 2025 at the Third LLDC Conference in Awaza.
+- The UN identifies 32 landlocked developing countries in four continental regions.
+
+**Source URLs:**
+- https://digitallibrary.un.org/record/4086742
+- https://www.un.org/en/observances/landlocked-developing-countries-day
+- https://digitallibrary.un.org/record/4085601
+
+**Limits:** UN primary resolution metadata and UN contemporary observance record explicitly identify 25 July 2025 founding vote and inaugural 6 August 2025 event at Awaza; UN draft records original co-sponsors. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 75. week-of-solidarity-with-the-peoples-struggling-against-racism-and-racial-discrimination
+
+**Formal year / Anno formale:** 1979 · **First observed / Prima osservanza:** *
+
+### Italiano — Dal 21 marzo: una settimana ONU di solidarietà contro il razzismo
+
+Il 15 novembre 1979 l'Assemblea generale ONU adottò la risoluzione A/RES/34/24, chiedendo di organizzare ogni anno una Settimana di solidarietà con i popoli che lottano contro razzismo e discriminazione razziale, a partire dal 21 marzo. Il programma invitava gli Stati a informare la popolazione, coinvolgere i giovani, tutelare i lavoratori migranti e contrastare organizzazioni basate sull'odio razziale. Il 21 marzo coincide con la distinta Giornata internazionale per l'eliminazione della discriminazione razziale, collegata all'uccisione di manifestanti a Sharpeville, in Sudafrica, il 21 marzo 1960. La settimana decisa nel 1979 si aggiunse alla ricorrenza precedente, senza crearla né sostituirla. L'atto dispone l'organizzazione annuale ma non documenta una prima cerimonia specifica, quindi l'anno della prima celebrazione resta sconosciuto.
+
+**Promotore:** L'Assemblea generale ONU istituì la settimana nel 1979 con A/RES/34/24, nel quadro di misure educative e politiche contro il razzismo.
+
+**Perché è importante:** Incoraggiare azioni internazionali per la dignità delle persone e il contrasto di discriminazione, esclusione e odio.
+
+**Fatti documentati:**
+- A/RES/34/24 fu adottata nel novembre 1979.
+- La settimana inizia annualmente il 21 marzo.
+- La data si collega alla distinta giornata ONU che ricorda Sharpeville nel 1960.
+
+### English — From 21 March: a UN week calls for solidarity against racism
+
+The UN General Assembly adopted resolution A/RES/34/24 on 15 November 1979, calling for a Week of Solidarity with the Peoples Struggling against Racism and Racial Discrimination, starting annually on 21 March. Its programme called on states to educate the public, involve young people, protect migrants and oppose organizations propagating racial hatred. The 21 March opening coincides with the separate International Day for the Elimination of Racial Discrimination, established after the police killings at Sharpeville, South Africa, on 21 March 1960. The 1979 week followed that earlier single-day commemoration; it did not create or replace it. The original mandate prescribes an annual week but does not establish a specific first ceremony and the first observed year remains unasserted.
+
+**Founder / institutional authority:** The UN General Assembly established the annual solidarity week in 1979 through A/RES/34/24 as part of anti-racism education and policy measures.
+
+**Why it matters:** Encourage international action against racial discrimination, protect human dignity and support communities confronting racism.
+
+**Source-based contextual facts:**
+- A/RES/34/24 was adopted in November 1979.
+- The solidarity week is organized annually beginning on 21 March.
+- The opening date recalls the separate anti-discrimination day associated with Sharpeville in 1960.
+
+**Source URLs:**
+- https://mandates.un.org/mandate/A/RES/34/24
+- https://ask.un.org/faq/306811
+- https://www.un.org/en/observances/end-racism-day
+
+**Limits:** Original UN A/RES/34/24 operative paragraph 14 establishes a week beginning 21 March; UN institutional historical racism observance and mandate indicate its distinct origin; first annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 76. se-alfred-nobel-day
+
+**Formal year / Anno formale:** * · **First observed / Prima osservanza:** *
+
+### Italiano — 10 dicembre: il Nobel Day è un giorno ufficiale per la bandiera svedese
+
+Il regolamento svedese sulle giornate ufficiali in cui esporre la bandiera, il n. 1982:270, elenca espressamente il 10 dicembre come Nobeldagen, Giorno del Nobel. Il testo online è una versione consolidata con modifiche fino al 2023: la sola presenza nell'elenco non prova in quale anno il 10 dicembre vi sia stato inserito per la prima volta. Perciò l'anno istitutivo preciso della ricorrenza in quella veste non viene inventato. La data si collega alla morte di Alfred Nobel il 10 dicembre 1896 e alle cerimonie dei premi, tenute per la prima volta a Stoccolma nel 1901. Sono fatti distinti: la morte spiega il calendario, la premiazione cominciò molto prima e l'elenco normativo identifica lo status civico attuale. La prima cerimonia riferita alla bandiera ufficiale non è accertata.
+
+**Promotore:** Le autorità svedesi riconoscono il 10 dicembre come giorno ufficiale della bandiera nel regolamento 1982:270; Alfred Nobel non è il promotore della norma contemporanea.
+
+**Perché è importante:** Valorizzare il lascito di Nobel e le attività scientifiche e culturali legate al premio, distinguendo la tradizione dal regime normativo delle bandiere.
+
+**Fatti documentati:**
+- Il regolamento svedese vigente comprende il 10 dicembre tra i giorni ufficiali per la bandiera.
+- Alfred Nobel morì il 10 dicembre 1896.
+- I primi premi Nobel furono consegnati nel 1901, prima del regolamento attuale.
+
+### English — 10 December: Sweden's flag-day recognition of Alfred Nobel
+
+Sweden's ordinance on official flag days, Regulation (1982:270), expressly includes 10 December as Nobeldagen, Nobel Day. The official online text is the consolidated version updated through 2023, so its presence does not by itself prove in which year 10 December first entered the regulation. For that reason the formal introduction year of the current flag-day observance is not asserted here. The day is linked to Alfred Nobel's death on 10 December 1896 and to the Nobel Prize award ceremonies, first held in Stockholm in 1901. These are distinct events: Nobel's death is the calendar rationale, the first prize ceremony precedes the current regulation, and the Swedish flag-day listing establishes contemporary civic status. The original first official ceremony for the flag-day category remains independently unverified.
+
+**Founder / institutional authority:** Swedish state authorities recognize 10 December among general flag days under Regulation 1982:270; Alfred Nobel and the Nobel Foundation are historic antecedents, not modern statutory proposers.
+
+**Why it matters:** Recognize Alfred Nobel's legacy, scientific and cultural achievements, and the Nobel Prize tradition while respecting the separate legal status of Swedish flag days.
+
+**Source-based contextual facts:**
+- Sweden's consolidated ordinance lists 10 December as the official Nobel flag day.
+- Alfred Nobel died on 10 December 1896, giving the date its meaning.
+- The first Nobel Prize award ceremony was held in 1901, before today's flag-day regulation.
+
+**Source URLs:**
+- https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/
+- https://www.nobelprize.org/ceremonies/the-nobel-prize-award-ceremony-1901/
+
+**Limits:** Swedish Parliament consolidated primary Regulation 1982:270 confirms annual official flag-day designation but cannot individually establish original insertion year; Nobel Foundation original 1901 ceremony history explains earlier separate tradition. Formal year and first official ceremony intentionally null. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 77. ph-bonifacio-day
+
+**Formal year / Anno formale:** 1921 · **First observed / Prima osservanza:** *
+
+### Italiano — 30 novembre: le Filippine ricordano per legge il rivoluzionario Andrés Bonifacio
+
+La legge filippina Act No. 2946, approvata il 16 febbraio 1921, modificò il Codice amministrativo dichiarando il 30 novembre di ogni anno giorno festivo. Il Museo nazionale delle Filippine collega la data all'anniversario della nascita di Andrés Bonifacio, avvenuta il 30 novembre 1863, figura centrale della lotta contro il dominio coloniale spagnolo. Il testo originale della legge e il registro del Senato provano il passaggio giuridico; il Museo documenta il legame storico con la società rivoluzionaria Katipunan. Il giorno scelto non coincide con l'avvio della rivoluzione filippina e la legge non dimostra autonomamente la prima cerimonia annuale dopo l'adozione. L'anno della prima celebrazione ufficiale rimane quindi sconosciuto, senza dedurlo dal 1921.
+
+**Promotore:** La Quinta legislatura filippina approvò Act No. 2946 nel febbraio 1921; Bonifacio è il protagonista ricordato, non il redattore individuale della legge.
+
+**Perché è importante:** Ricordare il contributo rivoluzionario alla storia dell'indipendenza e favorire educazione storica e civica.
+
+**Fatti documentati:**
+- Act No. 2946 fu approvata il 16 febbraio 1921.
+- La legge rese festivo il 30 novembre di ogni anno.
+- Il 30 novembre è l'anniversario della nascita di Andrés Bonifacio nel 1863.
+
+### English — 30 November: the Philippines honours revolutionary Andrés Bonifacio by law
+
+Philippine Act No. 2946, approved on 16 February 1921, amended the Administrative Code to make 30 November of each year a legal holiday. The National Museum of the Philippines identifies the date as the birth anniversary of Andrés Bonifacio, born on 30 November 1863, a key figure in the struggle against Spanish colonial rule. The act's original text and Senate legislative register establish the legal founding milestone; the museum provides the historical connection to Bonifacio's role in the Katipunan revolutionary organization. The designation is not the date of the Philippine Revolution itself, and the law does not independently document the first annual public ceremony after approval. Accordingly the first observed year is left unknown rather than assumed to be 1921.
+
+**Founder / institutional authority:** The Fifth Philippine Legislature enacted Act No. 2946 in February 1921; Bonifacio is the historical figure commemorated, not the statute's personal drafter.
+
+**Why it matters:** Remember revolutionary contributions to Philippine independence and encourage historical and civic education.
+
+**Source-based contextual facts:**
+- Act No. 2946 was approved on 16 February 1921.
+- The act made 30 November each year a legal holiday.
+- 30 November is the birthday of Andrés Bonifacio, born in 1863.
+
+**Source URLs:**
+- https://ldr.senate.gov.ph/legislative-issuance/act-no-2946
+- https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/36191
+- https://www.nationalmuseum.gov.ph/2021/11/30/bonifacio-day-onthisday-feature/
+
+**Limits:** Official Philippine Senate and Supreme Court original Act 2946 of February 1921 directly proves legal holiday; National Museum independently connects date to 1863 birth. Inaugural annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 78. portugal-national-sea-day
+
+**Formal year / Anno formale:** 1998 · **First observed / Prima osservanza:** *
+
+### Italiano — 16 novembre: il Portogallo ricorda il mare e il diritto internazionale
+
+Il Giorno nazionale del mare portoghese fu istituito nel 1998, l'anno dell'Expo di Lisbona dedicata agli oceani e dell'Anno internazionale dell'oceano. Il governo portoghese conferma che il 16 novembre ricorda l'entrata in vigore, avvenuta il 16 novembre 1994, della Convenzione delle Nazioni Unite sul diritto del mare. La ricorrenza riguarda navigazione, ricerca marina, biodiversità, tutela ambientale e attività economiche. Nell'edizione del 2020 il ministro del Mare promosse l'alfabetizzazione oceanica e una nuova strategia nazionale 2021–2030. L'entrata in vigore del trattato del 1994 e la nascita della giornata nazionale nel 1998 sono eventi distinti. Le fonti utilizzate non individuano autonomamente una prima specifica cerimonia nel 1998, quindi quel dato resta non verificato.
+
+**Promotore:** Il governo portoghese ha istituito la ricorrenza nel 1998; la convenzione ONU è il motivo della data, non l'atto nazionale istitutivo.
+
+**Perché è importante:** Promuovere conoscenza degli oceani, tutela degli ecosistemi e sviluppo economico marittimo sostenibile.
+
+**Fatti documentati:**
+- Il Giorno nazionale del mare fu istituito in Portogallo nel 1998.
+- La data richiama l'entrata in vigore della Convenzione ONU il 16 novembre 1994.
+- Nel 2020 la giornata fu collegata a iniziative sulla strategia nazionale per il mare.
+
+### English — 16 November: Portugal marks the sea and the law governing it
+
+Portugal's National Sea Day was established in 1998, the year of Lisbon's Expo devoted to oceans and of the International Year of the Ocean. The Portuguese government's own account confirms that the 16 November date recalls the entry into force of the United Nations Convention on the Law of the Sea on 16 November 1994. The annual event invites public reflection on navigation, marine science, biodiversity, environmental protection and economic activity. At the 2020 edition the Minister of the Sea promoted ocean literacy and Portugal's proposed National Ocean Strategy 2021–2030. The historical legal entry into force in 1994 and the later Portuguese national day created in 1998 are distinct. The sources do not independently establish the first specific ceremonial event in 1998, so that year is not asserted as the first observed.
+
+**Founder / institutional authority:** The Portuguese Government instituted the national day in 1998; the UN Convention is its calendar rationale, not a Portuguese legislative founding act.
+
+**Why it matters:** Increase public understanding of marine ecosystems, ocean literacy and sustainable economic activity linked to the sea.
+
+**Source-based contextual facts:**
+- Portugal instituted the day in 1998 during the International Year of the Ocean.
+- 16 November commemorates the law-of-the-sea convention entering into force in 1994.
+- The 2020 observance included public work on a national ocean strategy.
+
+**Source URLs:**
+- https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar
+- https://portugal.gov.pt/gc23/comunicacao/comunicados/governo-assinala-dia-nacional-do-mar
+
+**Limits:** Portuguese Government original statement explicitly dates national institution 1998 and ties 16 November to UNCLOS entering force 1994. Independent specific inaugural public ceremony not identified. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false.
+
+---
+
+## 79. fi-finnish-literature-day
+
+**Formal year / Anno formale:** 1978 · **First observed / Prima osservanza:** 1950
+
+### Italiano — 10 ottobre: una giornata per Aleksis Kivi diventata festa della letteratura finlandese
+
+La Finlandia ricorda il 10 ottobre Aleksis Kivi, romanziere nato nel 1834 e autore di Sette fratelli, pubblicato nel 1870. L'Ufficio dell'almanacco dell'Università di Helsinki documenta un riconoscimento progressivo: dal 1929 il nome Aleksi fu collegato alla sua memoria, nel 1950 il calendario introdusse una giornata commemorativa autonoma e nel 1953 questa entrò negli elenchi dei giorni in cui esporre la bandiera. Un decreto del 1978 aggiunse al titolo esistente la definizione di Giornata della letteratura finlandese. Quindi la commemorazione autonoma del 1950 è precedente alla denominazione attuale del 1978. Il fatto che sia una giornata consuetudinaria per esporre la bandiera non la rende automaticamente un giorno festivo retribuito.
+
+**Promotore:** La ricorrenza deriva dall'evoluzione del calendario e dalle consuetudini finlandesi documentate dall'Ufficio almanacco di Helsinki, senza un unico promotore legislativo accertato.
+
+**Perché è importante:** Valorizzare la letteratura in lingua finlandese, la lettura e il contributo culturale di Aleksis Kivi.
+
+**Fatti documentati:**
+- Kivi nacque il 10 ottobre 1834 e Sette fratelli fu pubblicato nel 1870.
+- La giornata commemorativa autonoma apparve nel calendario del 1950.
+- La denominazione Giornata della letteratura finlandese fu aggiunta nel 1978.
+
+### English — 10 October: Finland's literary flag day grew through three historical stages
+
+Finland marks 10 October as Aleksis Kivi Day and Finnish Literature Day, recalling the birthday of novelist Aleksis Kivi, born in 1834 and author of Seven Brothers, published in 1870. The University of Helsinki Almanac Office documents the celebration's gradual recognition: the Aleksi name day was associated with Kivi from 1929, the day became a separate commemorative entry in 1950, and it was marked on flag-day lists from 1953. A flagging decree of 1978 added the description Finnish Literature Day to the existing observance. Accordingly 1950 is the earlier individually documented memorial, while 1978 recognizes the present combined literary-day title. Its customary flag-day status must not be confused with a statutory paid public holiday.
+
+**Founder / institutional authority:** The commemoration emerged through Finnish calendar and flag-day recognition; the University of Helsinki Almanac Office documents the chronology, without attributing it to one personal legislative sponsor.
+
+**Why it matters:** Celebrate Finnish-language literature, reading, literary education and the cultural legacy of Aleksis Kivi.
+
+**Source-based contextual facts:**
+- Kivi's birth anniversary is 10 October and his novel Seven Brothers appeared in 1870.
+- The separate Aleksis Kivi commemorative day entered calendars in 1950.
+- The 1978 flagging decree added the explicit title Finnish Literature Day.
+
+**Source URLs:**
+- https://almanakka.helsinki.fi/ajankohtaista/aleksis-kiven-paivana-juhlitaan-suomalaista-kirjallisuutta
+- https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-finland/
+
+**Limits:** University of Helsinki Almanac Office original history states 1929 name day, 1950 standalone day, 1953 customary flag listing and 1978 Finnish Literature Day title; dates are not conflated. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false.
+
+---
+
+## 80. kr-w10-admiral-yi-sun-sin-birthday-commemoration
+
+**Formal year / Anno formale:** 1967 · **First observed / Prima osservanza:** *
+
+### Italiano — 28 aprile: la Corea del Sud riconosce per legge il compleanno dell'ammiraglio Yi Sun-sin
+
+Nel 1967 il governo della Corea del Sud istituì la commemorazione del compleanno dell'ammiraglio Yi Sun-sin il 28 aprile con il decreto n. 179 del Ministero dell'istruzione. Lo conferma una ricostruzione degli Archivi nazionali pubblicata nel 2016 dal Ministero dell'interno. Nel 1973 la ricorrenza venne poi inserita fra le giornate commemorative statutarie. La data è il compleanno dell'ammiraglio, non l'anniversario di una battaglia navale specifica. Yi Sun-sin è ricordato per la difesa marittima coreana durante le invasioni giapponesi della fine del Cinquecento. Il provvedimento del 1967 e l'inclusione formale del 1973 sono passaggi distinti; i documenti originari non provano una prima cerimonia pubblica specifica, perciò l'anno resta aperto.
+
+**Promotore:** Il governo sudcoreano creò la commemorazione con il decreto ministeriale n. 179 nel 1967, inserendola nella lista delle giornate di legge nel 1973.
+
+**Perché è importante:** Conservare la memoria della difesa marittima coreana e del ruolo storico dell'ammiraglio Yi Sun-sin.
+
+**Fatti documentati:**
+- La ricorrenza fu istituita nel 1967 con il decreto del Ministero dell'istruzione n. 179.
+- Nel 1973 entrò nella lista delle giornate commemorative statutarie.
+- Il 28 aprile ricorda la nascita dell'ammiraglio e non una vittoria navale.
+
+### English — 28 April: Korea gives Admiral Yi Sun-sin's birthday legal recognition
+
+South Korea's government established 28 April as Admiral Yi Sun-sin Birthday Commemoration in 1967 through Ministry of Education Ordinance No. 179, according to a National Archives explanation published by the Ministry of the Interior in 2016. The state subsequently included it among official statutory commemorative days in 1973. The annual date commemorates the admiral's birthday, rather than the day of any particular naval victory. Yi Sun-sin is remembered for leading Korean naval defence during the Japanese invasions of the late sixteenth century. The founding ordinance and later 1973 recognition are separate milestones, and the original archives do not independently confirm a first distinct public ceremony, so the first observed year remains unasserted.
+
+**Founder / institutional authority:** South Korea's government created the birthday commemoration through Education Ministry Ordinance 179 in 1967, later placing it among statutory commemorative days in 1973.
+
+**Why it matters:** Preserve the history of naval defence, civic remembrance and the legacy of Admiral Yi Sun-sin.
+
+**Source-based contextual facts:**
+- The birthday observance was established in 1967 by Education Ministry Ordinance 179.
+- It entered the statutory commemorative list in 1973.
+- The annual date, 28 April, is the admiral's birthday rather than a battle anniversary.
+
+**Source URLs:**
+- https://mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=49239
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** South Korean Ministry of Interior/National Archives 2016 retrospective explicitly documents establishment in 1967, statutory inclusion 1973, and birthday date; first actual ceremony unproven. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false.
+
+---
+
+## 81. kr-w10-aerospace-day-in-korea
+
+**Formal year / Anno formale:** 2024 · **First observed / Prima osservanza:** *
+
+### Italiano — 27 maggio: la Corea del Sud introduce l'Aerospace Day con una nuova agenzia
+
+La Corea del Sud ha aggiunto il 27 maggio alle giornate commemorative ufficiali dedicate all'aerospazio nel novembre 2024. Il Ministero dell'interno spiega che la data ricorda l'apertura della Korea AeroSpace Administration avvenuta il 27 maggio 2024. Nei mesi successivi, l'agenzia consultò centri di ricerca, imprese e organizzazioni locali, chiedendo in giugno il riconoscimento di una ricorrenza annuale. L'inclusione nel calendario di novembre è quindi successiva all'apertura dell'agenzia in maggio, evento istituzionale distinto. La giornata vuole diffondere conoscenza delle tecnologie aerospaziali, ricerca e opportunità della nuova economia spaziale. La documentazione istitutiva non prova una prima cerimonia nazionale annuale, lasciata sconosciuta.
+
+**Promotore:** La Korea AeroSpace Administration propose la giornata nel 2024, dopo consultazioni, e il governo la inserì nel calendario ufficiale a novembre.
+
+**Perché è importante:** Favorire interesse pubblico per scienza e tecnologia aerospaziale e sviluppo industriale responsabile.
+
+**Fatti documentati:**
+- L'agenzia aerospaziale coreana aprì il 27 maggio 2024.
+- La richiesta di istituire una ricorrenza arrivò nel giugno 2024.
+- Il governo formalizzò la giornata nel novembre 2024.
+
+### English — 27 May: Korea introduces an Aerospace Day with a new agency
+
+South Korea's Aerospace Day, 27 May, was added to the government's official list of commemorative days in November 2024. The Ministry of the Interior explains that the chosen date recalls the establishment of the Korea AeroSpace Administration on 27 May 2024. After the agency opened, it consulted research institutes, business groups and regional organizations and requested a designated annual observance in June. The formal listing in November therefore followed the agency's opening in May, and must not be confused with the establishment of the agency itself. The day seeks to improve public understanding of aerospace technology, research and the emerging space economy. The founding explanation does not independently establish a first nationally organized annual ceremony, so that detail remains null.
+
+**Founder / institutional authority:** The Korea AeroSpace Administration requested an official day in 2024 after consulting stakeholders, and the government added it to the commemorative list in November.
+
+**Why it matters:** Encourage public interest in aerospace science and technology and responsible industrial development.
+
+**Source-based contextual facts:**
+- The Korea AeroSpace Administration opened on 27 May 2024.
+- The agency requested a dedicated commemorative day in June 2024.
+- The government designated 27 May as Aerospace Day in November 2024.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** Official Korean Ministry of Interior detailed commemorations historical table confirms establishment in November 2024, agency request from June and date from 27 May agency opening. First public ceremony unknown. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false.
+
+---
+
+## 82. ca-statute-of-westminster-anniversary
+
+**Formal year / Anno formale:** * · **First observed / Prima osservanza:** *
+
+### Italiano — 11 dicembre: il Canada espone la bandiera per un passaggio dell'autonomia costituzionale
+
+Il Canada ricorda l'anniversario dello Statuto di Westminster ogni 11 dicembre, data in cui entrò in vigore il provvedimento britannico dell'11 dicembre 1931. L'atto seguì le Conferenze imperiali del 1926 e del 1930 e riconobbe l'autonomia legislativa dei dominions, fra cui il Canada. Canadian Heritage spiega che, dove sono disponibili due pennoni, gli edifici federali possono esporre la bandiera britannica accanto a quella nazionale canadese, alla quale spetta la precedenza. La guida governativa descrive la ricorrenza attuale, mentre il Dipartimento della giustizia riproduce il testo originale dello Statuto. La legge del 1931 è l'avvenimento ricordato e non dimostra da sola quando sia nata la successiva consuetudine canadese di esporre le bandiere. Non risultano verificati né una prima proclamazione separata né un primo evento ufficiale annuale: entrambi restano sconosciuti.
+
+**Promotore:** Il protocollo federale canadese riconosce la ricorrenza dello Statuto britannico del 1931; non viene inventato un promotore originario della giornata.
+
+**Perché è importante:** Ricordare l'evoluzione dell'autonomia costituzionale canadese e il rapporto storico con il Regno Unito.
+
+**Fatti documentati:**
+- Lo Statuto di Westminster è datato 11 dicembre 1931.
+- Il documento seguì le Conferenze imperiali del 1926 e 1930.
+- Il protocollo canadese permette di esporre la bandiera britannica assieme a quella canadese secondo regole di precedenza.
+
+### English — 11 December: Canada flags a constitutional autonomy milestone
+
+Canada's federal commemoration of the Statute of Westminster takes place each 11 December, on the anniversary of the British statute enacted on 11 December 1931. The Act followed the Imperial Conferences of 1926 and 1930, and recognized the legislative autonomy of self-governing dominions including Canada. Canadian Heritage explains that, where two flagpoles are available, federal buildings may fly the Royal Union Flag beside Canada's National Flag, with the Canadian flag taking precedence. The government's explanation describes the modern annual remembrance, while the Department of Justice reproduces the statute's original text. The Act of 1931 is the historical event being commemorated, not necessarily the legal instrument that created the later Canadian flag-day observance. No first formal proclamation or first annual flag ceremony has been individually sourced, so both fields remain unknown.
+
+**Founder / institutional authority:** Canada's federal flag protocol recognizes the annual anniversary, commemorating the 1931 British statute; no separate original Canadian public-observance proponent is established.
+
+**Why it matters:** Recall constitutional autonomy and the evolution of Canada's relationship with the United Kingdom and the Commonwealth.
+
+**Source-based contextual facts:**
+- The Statute of Westminster received enactment on 11 December 1931.
+- It followed agreements reached at Imperial Conferences in 1926 and 1930.
+- Canada's federal flag protocol allows the Royal Union Flag alongside the National Flag where facilities permit.
+
+**Source URLs:**
+- https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/anniversary-statute-westminster.html
+- https://justice.canada.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t171.html
+
+**Limits:** Canadian Heritage federal anniversary and first-party Canadian Department of Justice reproducing original 1931 Act verify historic commemorated event, but NOT founding year or inaugural year of distinct annual observance; both null. Original model-authored source-linked English/Italian narrative, pending independent human factual and qualified native six-language editorial review. runtimeRichEditorialApproved=false.
+
+---
+
+## 83. kr-w10-april-19-revolution-day
+
+**Formal year / Anno formale:** 1973 · **First observed / Prima osservanza:** *
+
+### Italiano — 19 aprile: l'insurrezione democratica coreana del 1960 diventa ricorrenza ufficiale
+
+La Giornata coreana della rivoluzione del 19 aprile ricorda le proteste studentesche e popolari del 19 aprile 1960 contro brogli elettorali e potere autoritario. Il Ministero dell'interno sudcoreano distingue le diverse fasi della commemorazione: nel 1962 le autorità incoraggiarono cerimonie studentesche, poi il 30 marzo 1973 la giornata entrò formalmente nel regolamento sulle ricorrenze statutarie. Il 31 dicembre 1994 la denominazione mutò da Giornata della rivolta del 19 aprile a Giornata della rivoluzione del 19 aprile. L'evento del 1960, la raccomandazione del 1962, l'istituzione del 1973 e il cambiamento del nome nel 1994 sono passaggi diversi. La fonte non documenta la prima cerimonia effettiva sotto il regolamento del 1973 e questo dato resta sconosciuto.
+
+**Promotore:** Il governo sudcoreano riconobbe la giornata come ricorrenza statutaria nel 1973, dopo le iniziative di memoria degli studenti.
+
+**Perché è importante:** Ricordare le vittime e i partecipanti del movimento del 1960 e il valore storico della partecipazione democratica.
+
+**Fatti documentati:**
+- Le proteste ricordate risalgono al 19 aprile 1960.
+- Nel 1962 furono incoraggiate cerimonie organizzate dagli studenti.
+- Il riconoscimento di legge avvenne nel 1973 e il nome attuale fu introdotto nel 1994.
+
+### English — 19 April: Korea's 1960 democratic uprising becomes an official remembrance day
+
+The Republic of Korea's April 19 Revolution Day recalls the student-led and citizen protests of 19 April 1960 against fraudulent elections and authoritarian rule. South Korea's Ministry of the Interior traces a separate commemorative process: the authorities recommended student ceremonies on 19 April 1962, then formally established a statutory commemoration under the national commemorative-days regulation on 30 March 1973. Its official designation was renamed from April 19 Uprising Day to April 19 Revolution Day on 31 December 1994. The event of 1960, the recommendation of 1962, the formal listing in 1973 and the name change in 1994 are different historical milestones. The source does not document the first ceremony carried out under the 1973 regulation, so that year remains unverified.
+
+**Founder / institutional authority:** South Korea's government made the day a statutory commemoration in 1973, following student remembrance efforts and the 1962 recommendation.
+
+**Why it matters:** Remember the victims and participants of the 1960 movement and promote the historical significance of democratic accountability and civic rights.
+
+**Source-based contextual facts:**
+- The protests associated with the day occurred on 19 April 1960.
+- Student remembrance ceremonies were encouraged in April 1962.
+- The day entered the statutory list in March 1973 and received its present name in 1994.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** Korean Ministry of Interior original commemorative chronology separately records 1960 events, 1962 recommendation, 30 March 1973 statutory listing and 1994 official rename. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 84. kr-w10-arbor-day-in-korea
+
+**Formal year / Anno formale:** 1949 · **First observed / Prima osservanza:** *
+
+### Italiano — 5 aprile: in Corea la Festa degli alberi cambia da giorno festivo a iniziativa civica
+
+La Festa degli alberi sudcoreana del 5 aprile si collega a precedenti attività nazionali di piantumazione. Il Ministero dell'interno ricorda una cerimonia del 1910, risalente all'Impero coreano, e un periodo sotto il dominio giapponese in cui la ricorrenza cadeva il 3 aprile. Il 4 giugno 1949 un decreto presidenziale rese il 5 aprile un giorno festivo nazionale. Nel 1960 la data venne temporaneamente modificata, ma tornò al 5 aprile nel 1961; nel 1982 fu inserita nella lista delle giornate commemorative statutarie. Dal giugno 2005 non è più una festività generale pur restando una ricorrenza civile. Questi cambiamenti spiegano perché data e status della giornata moderna non siano rimasti identici dal 1910.
+
+**Promotore:** Il governo sudcoreano istituì la moderna festa nazionale del 5 aprile nel 1949 tramite decreto presidenziale, raccogliendo tradizioni precedenti.
+
+**Perché è importante:** Promuovere piantumazione, ripristino forestale e conoscenza dell'importanza degli alberi.
+
+**Fatti documentati:**
+- Nel 1949 un decreto presidenziale rese la Festa degli alberi un giorno festivo.
+- Dopo una modifica nel 1960, il 5 aprile fu ripristinato nel 1961.
+- Dal 2005 non è più una festività generale ma continua a essere ricordata.
+
+### English — 5 April: Korea's Arbor Day shifts from public holiday to civic campaign
+
+South Korea's Arbor Day on 5 April is linked to a longer history of national tree-planting initiatives. The Korean Ministry of the Interior notes that a 1910 tree-planting ceremony under the Korean Empire preceded the modern observance; during Japanese rule, a different Arbor Day date, 3 April, was also used. A presidential decree on 4 June 1949 made 5 April a statutory public holiday. The day was temporarily changed in 1960 and restored to 5 April in 1961, then included as a statutory commemoration in 1982. From June 2005 the date ceased to be a general public holiday while remaining a commemorative day. These shifts show why the modern date and civic status cannot be described as unchanged since 1910.
+
+**Founder / institutional authority:** South Korea's government established the modern statutory 5 April holiday by presidential decree in 1949, building on earlier tree-planting customs.
+
+**Why it matters:** Encourage tree planting, forest restoration and public understanding of the role of healthy forests.
+
+**Source-based contextual facts:**
+- A presidential decree made Arbor Day a public holiday in 1949.
+- The date shifted in 1960 and returned to 5 April in 1961.
+- Arbor Day ceased to be a general public holiday in 2005 but remains a commemorative day.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** South Korean Ministry of Interior original chronological government notes explicitly separate 1910 precursor, 1949 holiday decree, 1960/1961 date changes, 1982 statutory commemoration and 2005 removal of public holiday. First specifically observed modern event unknown. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 85. kr-w10-bu-ma-democratic-protests-remembrance-day
+
+**Formal year / Anno formale:** 2019 · **First observed / Prima osservanza:** *
+
+### Italiano — 16 ottobre: le proteste democratiche di Busan e Masan diventano giornata nazionale
+
+Le proteste democratiche Bu-Ma iniziarono il 16 ottobre 1979 con manifestazioni degli studenti dell'Università nazionale di Pusan contro il governo autoritario. Entro il 18 ottobre il movimento si diffuse a Masan e Changwon. Il Ministero dell'interno distingue le decisioni successive: il 7 febbraio 2017 la città di Changwon istituì una ricorrenza locale per il 18 ottobre, mentre il governo nazionale stabilì il 24 settembre 2019 la giornata statutaria del 16 ottobre, anniversario dell'inizio delle proteste. Questi provvedimenti riconobbero un movimento storico preesistente, senza averlo fondato. La fonte governativa non identifica una prima specifica cerimonia nazionale dopo la legge del 2019; l'anno resta quindi sconosciuto.
+
+**Promotore:** Il governo sudcoreano istituì la giornata nazionale nel settembre 2019, dopo una precedente commemorazione municipale.
+
+**Perché è importante:** Preservare la memoria della protesta democratica, del coraggio degli studenti e del ruolo della cittadinanza nei cambiamenti politici.
+
+**Fatti documentati:**
+- Le prime proteste si svolsero a Busan il 16 ottobre 1979.
+- Entro il 18 ottobre il movimento raggiunse Masan e Changwon.
+- La giornata locale è del 2017; il riconoscimento nazionale è del 2019.
+
+### English — 16 October: Busan and Masan democratic protests receive a national day
+
+The Bu-Ma Democratic Protests began on 16 October 1979, with demonstrations by Pusan National University students against authoritarian rule. By 18 October the protests had spread to Masan and Changwon. South Korea's Ministry of the Interior distinguishes local and national remembrance decisions: Changwon established a municipal commemorative day on 7 February 2017 using the date of 18 October, and the government created a national statutory commemoration on 24 September 2019 using 16 October, the date of the first protests. These decisions reflected recognition of the historical struggle for democracy but did not originate that movement. A first actual ceremony under the 2019 national statute is not established in the institutional chronology and is left unknown.
+
+**Founder / institutional authority:** South Korea's government instituted national Bu-Ma Democratic Protests Remembrance Day in September 2019 after earlier local commemoration.
+
+**Why it matters:** Preserve the history of democratic protest, civic courage and the contribution of students and citizens to political change.
+
+**Source-based contextual facts:**
+- The initial Busan student protests began on 16 October 1979.
+- The movement spread to Masan and Changwon around 18 October 1979.
+- A local memorial day was established in 2017 and the national one in 2019.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** South Korean Ministry of Interior original historical table confirms 1979 protest date, 2017 Changwon municipal recognition and 24 September 2019 statutory national day, without independent inaugural annual ceremony. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 86. kr-w10-coming-of-age-day-in-korea
+
+**Formal year / Anno formale:** 1973 · **First observed / Prima osservanza:** *
+
+### Italiano — Terzo lunedì di maggio: un'antica tradizione coreana diventa giornata pubblica moderna
+
+La Giornata coreana del raggiungimento della maggiore età richiama responsabilità e partecipazione civica di chi entra nell'età adulta. Il Ministero dell'interno collega la tradizione storica a cerimonie di corte, ricordando anche documenti del regno di Goryeo del 965. La ricorrenza statutaria moderna venne introdotta il 30 marzo 1973, inizialmente il 20 aprile. Il governo la spostò al 6 maggio nel 1975 e al terzo lunedì di maggio nel settembre 1984, fissando l'attuale calendario mobile. Perciò non si tratta di una festa che ha mantenuto un'unica data fin dal Medioevo. Il riconoscimento del 1973 è distinto dalle cerimonie familiari e di corte precedenti; la prima celebrazione governativa specifica non è documentata autonomamente.
+
+**Promotore:** Il governo sudcoreano introdusse la giornata statutaria nel 1973, raccogliendo una tradizione sociale molto più antica.
+
+**Perché è importante:** Invitare i giovani adulti a riflettere su diritti, autonomia, responsabilità e partecipazione alla società.
+
+**Fatti documentati:**
+- La giornata pubblica moderna fu riconosciuta nel marzo 1973.
+- Nel 1975 la data fu cambiata dal 20 aprile al 6 maggio.
+- Dal 1984 cade il terzo lunedì di maggio.
+
+### English — Third Monday in May: Korea's coming-of-age tradition becomes a modern public day
+
+South Korea's Coming of Age Day celebrates the responsibilities and civic standing of people entering adulthood. The Ministry of the Interior traces the much older Korean coming-of-age tradition to historical court records, including a Goryeo ceremony in 965. The modern statutory commemorative day was designated on 30 March 1973, originally falling on 20 April. The government changed it to 6 May in 1975 and to the third Monday in May in September 1984, establishing today's movable schedule. These shifts explain why the date is not a fixed traditional birthday or an unchanged medieval anniversary. The 1973 statutory recognition is distinct from earlier family and court coming-of-age ceremonies. No independently verified inaugural modern government ceremony is claimed.
+
+**Founder / institutional authority:** South Korea's government placed Coming of Age Day on the statutory commemorative list in 1973, recognizing an earlier social tradition.
+
+**Why it matters:** Invite young adults to reflect on rights, responsibilities, independence and participation in society.
+
+**Source-based contextual facts:**
+- The government created the modern statutory day on 30 March 1973.
+- The date changed from 20 April to 6 May in 1975.
+- Since 1984 the day has fallen on the third Monday in May.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+
+**Limits:** South Korean Ministry of Interior chronology documents ancient Goryeo precursor, 1973 statutory designation, 1975 shift and 1984 third-Monday date rule; inauguration unverified. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 87. kr-childrens-day
+
+**Formal year / Anno formale:** 1961 · **First observed / Prima osservanza:** 1923
+
+### Italiano — 5 maggio: la Giornata coreana dei bambini precede il giorno festivo moderno
+
+La Giornata dei bambini in Corea nacque dal movimento per i diritti dell'infanzia dei primi decenni del Novecento, legato a Bang Jeong-hwan e alle associazioni giovanili. Una fonte giornalistica del 1923 conservata dagli storici coreani invita a riconoscere dignità e rispetto dei bambini e documenta le prime attività attorno al 1º maggio 1923. Dopo la liberazione, nel 1946 le celebrazioni ripresero il 5 maggio. Il governo sudcoreano indicò il 5 maggio nella legge sul benessere dell'infanzia del 30 dicembre 1961, inserì la giornata nelle commemorazioni ufficiali nel 1973 e la rese giorno festivo nazionale nel gennaio 1975. Campagna del 1923, data legale del 1961 e festività del 1975 sono fasi distinte. Non bisogna descrivere la prima edizione del 1923 come se si fosse già svolta il 5 maggio.
+
+**Promotore:** Bang Jeong-hwan e le associazioni giovanili diedero impulso al movimento del 1923; il legislatore sudcoreano riconobbe successivamente la data moderna nel 1961.
+
+**Perché è importante:** Valorizzare diritti, educazione, protezione e dignità dei bambini e il sostegno delle comunità.
+
+**Fatti documentati:**
+- Le prime iniziative si tennero attorno al 1º maggio 1923.
+- Il 5 maggio fu adottato per la commemorazione ripresa nel 1946.
+- La legge del 1961 fissò la data moderna; lo status festivo arrivò nel 1975.
+
+### English — 5 May: Korean Children's Day predates the current statutory holiday
+
+Children's Day in Korea originated in the early twentieth-century children's rights movement led by Bang Jeong-hwan and youth groups. A primary 1923 newspaper source, preserved by the Korean History Institute, calls for recognition and respect for children, documenting the first commemorative activities around 1 May 1923. After liberation, South Korean organizers resumed celebrations on 5 May in 1946. The government designated 5 May as Children's Day in the Child Welfare Act of 30 December 1961, listed it among statutory commemorations in 1973 and made it a statutory public holiday in January 1975. The original 1923 campaign, 1961 legal date and 1975 holiday status are distinct. No 1923 event should be presented as already having taken place on the modern 5 May date.
+
+**Founder / institutional authority:** Bang Jeong-hwan and Korean youth associations pioneered the 1923 movement; South Korean lawmakers subsequently recognized the modern 5 May date in 1961.
+
+**Why it matters:** Highlight children's dignity, protection, education and rights and encourage family and community support.
+
+**Source-based contextual facts:**
+- The first Children's Day campaign took place around 1 May 1923.
+- The annual observance was restored on 5 May in 1946.
+- The 1961 Child Welfare Act set the modern date; public-holiday status came in 1975.
+
+**Source URLs:**
+- https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do
+- https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do
+- https://contents.history.go.kr/front/hm/view.do?levelId=hm_136_0070
+
+**Limits:** South Korean Ministry of Interior original timeline and Korean government primary historical 1923 source independently separate 1923 first observance, 1946 shift to 5 May, 1961 legal date and 1975 public-holiday status. Original IT/EN model-authored source-linked research. Independent human factual review and qualified six-language native editorial review are pending; runtimeRichEditorialApproved=false.
+
+---
+
+## 88. pe-battle-of-angamos-day
+
+**Formal year / Anno formale:** 1940 · **First observed / Prima osservanza:** *
+
+### Italiano — 8 ottobre: il Perù ricorda Miguel Grau e la battaglia navale di Angamos
+
+Il Perù ricorda la battaglia navale di Angamos, combattuta l'8 ottobre 1879 durante la guerra del Pacifico, in cui l'ammiraglio Miguel Grau morì a bordo del monitor Huáscar. La data è associata anche alla tradizione della Giornata della Marina militare. Una ricostruzione legale del Congresso peruviano cita la legge 9126 del 3 giugno 1940, che designò l'8 ottobre come giorno di omaggio nazionale a Grau e ai suoi compagni e lo collegò al giuramento alla bandiera dei cadetti navali. Esisteva già una legge del 1921 che univa la Giornata della Marina alla battaglia, mentre altri cambiamenti del calendario navale seguirono nel 1945. L'omaggio del 1940 è un fatto distinto dallo scontro del 1879; la prima cerimonia svolta sotto quella specifica norma non è documentata indipendentemente e resta sconosciuta.
+
+**Promotore:** Il Congresso peruviano istituì l'omaggio nazionale con la legge 9126 del 1940, su una tradizione di memoria navale precedente.
+
+**Perché è importante:** Ricordare i marinai caduti e approfondire la storia della Marina del Perù, del Huáscar e della guerra del Pacifico.
+
+**Fatti documentati:**
+- La battaglia di Angamos si svolse l'8 ottobre 1879.
+- La legge 9126 del giugno 1940 dichiarò il giorno omaggio nazionale a Miguel Grau.
+- L'8 ottobre è associato anche alla giornata della Marina militare peruviana.
+
+### English — 8 October: Peru commemorates Miguel Grau and the naval battle of Angamos
+
+Peru remembers the naval Battle of Angamos, fought on 8 October 1879 during the War of the Pacific, when Admiral Miguel Grau was killed aboard the monitor Huáscar. The date also became part of the national Navy Day tradition. The Peruvian Congress' historical legal account identifies Law 9126 of 3 June 1940, which formally declared 8 October a national tribute to Grau and his companions and dedicated it to the flag oath of naval cadets. It followed an earlier 1921 law that already tied Navy Day to the naval battle, while further changes to Navy Day's own calendar followed in 1945. The 1940 tribute and the 1879 battle are distinct; the first actual ceremony under the 1940 commemorative act is not independently documented in the original sources, and remains unknown.
+
+**Founder / institutional authority:** Peru's Congress established the 8 October memorial tribute through Law 9126 in 1940, building on earlier Navy Day recognition and historical remembrance of Miguel Grau.
+
+**Why it matters:** Honour the fallen sailors and preserve knowledge of Peru's maritime history, the Huáscar and the War of the Pacific.
+
+**Source-based contextual facts:**
+- The Battle of Angamos occurred on 8 October 1879.
+- Law 9126 of June 1940 established an 8 October tribute to Admiral Grau.
+- The Peruvian Navy also observes its own anniversary on 8 October.
+
+**Source URLs:**
+- https://www.congreso.gob.pe/Docs/DGP/DIDP/procedimientos-autografas-ENVIADAS-2021-2026.html
+- https://www.gob.pe/27103-historia-de-la-marina-de-guerra-del-peru-siglo-xix
+- https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Mociones_de_Orden_del_Dia/Saludo/MC0710920181005.pdf
+
+**Limits:** Original Peruvian Law 9126 text cited by congressional motion names 8 Oct memorial under 1940 law, preceded by 1921 navy day; first ceremony specifically under 1940 act remains unverified. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false.
+
+---
+
+## 89. pe-battle-of-arica-flag-day
+
+**Formal year / Anno formale:** 2023 · **First observed / Prima osservanza:** *
+
+### Italiano — 7 giugno: in Perù la battaglia di Arica e il giorno della bandiera diventano festivi
+
+La legge peruviana 31788, pubblicata il 15 giugno 2023 dopo l'approvazione del Congresso, rese il 7 giugno un giorno festivo nazionale retribuito dedicato alla battaglia di Arica e alla bandiera. Il provvedimento modificò il decreto legislativo 713 e impose alle amministrazioni il rinnovo del giuramento di fedeltà alla bandiera. La data ricorda la battaglia di Arica del 7 giugno 1880 durante la guerra del Pacifico, commemorata ben prima dell'introduzione del nuovo giorno non lavorativo su scala nazionale. Il primo 7 giugno successivo alla legge fu quello del 2024, ma l'atto non identifica una prima cerimonia specifica, quindi il dato rimane non accertato. La nuova festività statale non deve essere confusa con tradizioni militari o civiche precedenti.
+
+**Promotore:** Il Congresso del Perù approvò nel 2023 la legge 31788 che rese festiva a livello nazionale la ricorrenza precedente del 7 giugno.
+
+**Perché è importante:** Ricordare la battaglia di Arica, il significato della bandiera e la storia civica della nazione.
+
+**Fatti documentati:**
+- La legge 31788 fu pubblicata nel giugno 2023, dopo il 7 giugno di quell'anno.
+- Il provvedimento aggiunse la data fra le festività retribuite nazionali.
+- La legge richiese il rinnovo del giuramento alla bandiera nelle istituzioni pubbliche.
+
+### English — 7 June: Peru distinguishes the Battle of Arica and modern Flag Day law
+
+Peru's Law 31788, published on 15 June 2023 after approval by Congress, made 7 June a national paid holiday commemorating both the Battle of Arica and Flag Day. The legislation amended Legislative Decree 713 on annual holidays and required public institutions to renew the oath of fidelity to the Peruvian flag. The date recalls the Battle of Arica of 7 June 1880 during the War of the Pacific, a historical event remembered long before the new nationwide non-working holiday. The first June 7 after the 2023 law was 2024, but the founding act does not itself identify a first official ceremony, so that first event remains unverified rather than being presumed. The law's current statutory status must not be confused with older local and military flag traditions.
+
+**Founder / institutional authority:** Peru's Congress enacted Law 31788 in 2023 to provide a nationwide paid holiday for the existing 7 June battle-and-flag commemoration.
+
+**Why it matters:** Remember the Battle of Arica, the symbolism of the national flag and historical civic traditions.
+
+**Source-based contextual facts:**
+- Law 31788 was published in June 2023, after the year's June 7 date.
+- It added the day to the national paid-holiday list under Decree 713.
+- The law requires renewal of the pledge of fidelity to the flag in public institutions.
+
+**Source URLs:**
+- https://busquedas.elperuano.pe/dispositivo/NL/2187453-1/
+- https://www.elperuano.pe/noticia/215409-ley-no-31788-declaran-feriado-nacional-el-7-de-junio-por-el-dia-de-la-bandera
+
+**Limits:** El Peruano original Law 31788 and official legislative explanation distinguish historical 1880 battle, June 2023 statutory holiday, mandatory flag oath; first ceremony under new law remains null. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false.
+
+---
+
+## 90. pe-battle-of-ayacucho-day
+
+**Formal year / Anno formale:** 2013 · **First observed / Prima osservanza:** *
+
+### Italiano — 9 dicembre: il Perù riconosce la battaglia di Ayacucho prima di renderla festiva
+
+La legge peruviana 30123, promulgata il 9 dicembre 2013 e pubblicata il giorno successivo, dichiarò ufficialmente il 9 dicembre Giorno della battaglia di Ayacucho e della consolidazione dell'indipendenza del Perù. La data ricorda la vittoria dei patrioti del 9 dicembre 1824, un evento decisivo per la fine del dominio spagnolo in Sudamerica. Una seconda legge, la 31381 del dicembre 2021, trasformò la stessa ricorrenza in giorno festivo nazionale non lavorativo, uno status diverso dalla designazione del 2013. Il fascicolo parlamentare di questa modifica cita Germán Tacuri Valdivia quale promotore di una proposta del 2021, senza attribuirgli l'atto originario del 2013. L'anno della prima cerimonia pubblica svolta sotto la legge 30123 non è stato dimostrato individualmente.
+
+**Promotore:** Il Congresso del Perù istituì il giorno commemorativo nel 2013 con la legge 30123 e stabilì una distinta festività nazionale nel 2021.
+
+**Perché è importante:** Preservare il ricordo della battaglia di Ayacucho e il suo ruolo nell'indipendenza peruviana e sudamericana.
+
+**Fatti documentati:**
+- La battaglia di Ayacucho si svolse il 9 dicembre 1824.
+- La legge 30123 riconobbe formalmente il giorno nel 2013.
+- La legge 31381 lo rese festivo nazionale nel 2021.
+
+### English — 9 December: Peru legislates remembrance before making Ayacucho a holiday
+
+Peru's Law 30123, promulgated on 9 December 2013 and published the following day, formally declared 9 December the Day of the Battle of Ayacucho and the Consolidation of Independence of Peru. The date commemorates the major patriot victory in the battle fought on 9 December 1824, a milestone in ending Spanish rule on the South American continent. A second law, 31381, adopted in December 2021, made the same date a nationwide non-working public holiday, a legal status separate from the earlier national commemorative designation. The congressional record for that change names Germán Tacuri Valdivia as sponsor of a 2021 proposal, without attributing the older 2013 law to him. The initial year of public ceremonial celebrations under Law 30123 has not been individually verified.
+
+**Founder / institutional authority:** Peru's Congress established the commemorative day in Law 30123 in 2013, with a separate public-holiday statute in 2021.
+
+**Why it matters:** Remember the Battle of Ayacucho and its contribution to Peru's independence and regional history.
+
+**Source-based contextual facts:**
+- The Battle of Ayacucho was fought on 9 December 1824.
+- Law 30123 recognized the 9 December commemorative day in 2013.
+- Law 31381 added national non-working holiday status in 2021.
+
+**Source URLs:**
+- https://busquedas.elperuano.pe/dispositivo/NL/1025734-1
+- https://comunicaciones.congreso.gob.pe/noticias/declaran-feriado-el-9-de-diciembre-al-conmemorarse-la-batalla-de-ayacucho/
+
+**Limits:** Original 2013 El Peruano Law 30123 and Peruvian Congress 2021 holiday passage independently confirm commemorative recognition in 2013 and later 2021 holiday, without invented first ceremony or earlier legislator sponsor. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false.
+
+---
+
+## 91. pe-battle-of-junin-day
+
+**Formal year / Anno formale:** 2022 · **First observed / Prima osservanza:** 2022
+
+### Italiano — 6 agosto: il Perù introduce una festività nazionale per la battaglia di Junín
+
+Il 26 luglio 2022 il Perù pubblicò la legge 31530, che dichiarava il 6 agosto giorno festivo nazionale retribuito in ricordo della battaglia di Junín. Il provvedimento modificò il decreto legislativo 713 sulle festività lavorative. La battaglia storica si svolse il 6 agosto 1824 durante la campagna per l'indipendenza dalla Spagna. Un comunicato contemporaneo dell'ispettorato del lavoro SUNAFIL, datato 5 agosto 2022, conferma che la nuova festività sarebbe stata osservata dai lavoratori pubblici e privati il giorno seguente: il 2022 è quindi il primo anno della festività nazionale prevista da questa norma. Ciò non nega le commemorazioni regionali precedenti nella zona di Junín, che hanno una storia separata. La data ricorda il combattimento del 1824, ma il riconoscimento nazionale è molto più recente.
+
+**Promotore:** Il Congresso e il governo peruviano istituirono il giorno festivo nazionale mediante la legge 31530 del 2022.
+
+**Perché è importante:** Ricordare la battaglia di Junín e distinguere l'avvenimento storico dalla successiva legge nazionale.
+
+**Fatti documentati:**
+- La legge 31530 fu pubblicata il 26 luglio 2022.
+- L'ispettorato del lavoro confermò la nuova festività del 6 agosto 2022.
+- La data ricorda la battaglia del 6 agosto 1824.
+
+### English — 6 August: Peru introduces a nationwide holiday for the Battle of Junín
+
+On 26 July 2022 Peru published Law 31530, declaring 6 August a national paid public holiday in memory of the Battle of Junín. The law amended Legislative Decree 713 on paid holidays. The historical battle took place on 6 August 1824 during the campaign for independence from Spain. A contemporaneous statement issued by the labour inspectorate SUNAFIL on 5 August 2022 confirmed that the newly created holiday would be observed by public and private workers the following day, establishing 2022 as its first actual nationwide holiday under this statute. This does not prove that no regional commemorations occurred before 2022; local initiatives in Junín long predated the new nationwide law. The date commemorates the battle anniversary, while formal nationwide holiday recognition is recent.
+
+**Founder / institutional authority:** The Peruvian Congress and Government established nationwide statutory holiday status through Law 31530 in 2022.
+
+**Why it matters:** Remember the Battle of Junín and explain the legal and historical distinctions between the 1824 battle and its modern national holiday.
+
+**Source-based contextual facts:**
+- Law 31530 was published on 26 July 2022.
+- A government labour office confirmed the first nationwide holiday for 6 August 2022.
+- The date remembers the Battle of Junín fought on 6 August 1824.
+
+**Source URLs:**
+- https://busquedas.elperuano.pe/dispositivo/NL/2089960-2
+- https://www.gob.pe/institucion/sunafil/noticias/637979-feriado-del-6-de-agosto-deberas-recibir-un-pago-adicional-si-trabajas-este-dia
+
+**Limits:** Original Peruvian Law 31530 promulgated July 2022 and contemporaneous SUNAFIL labour circular 5 August prove first next-day nationwide statutory holiday in 2022, distinct from earlier regional remembrance. Individually source-linked original IT/EN research draft. Independent human factual and qualified six-language native editorial review remain pending; rich runtime approval false.
+
+---
+
+## 92. international-day-of-nomadic-heritage
+
+**Formal year / Anno formale:** 2025 · **First observed / Prima osservanza:** *
+
+### Italiano — 22 settembre: l'UNESCO riconosce il patrimonio vivente delle comunità nomadi
+
+Il 6 novembre 2025, a Samarcanda, la 43ª Conferenza generale UNESCO adottò la proclamazione del 22 settembre come Giornata internazionale del patrimonio nomade, nell'ambito del documento 43 C/51. La proposta fu avviata dal Kirghizistan e sostenuta fra gli altri dal Kazakistan, secondo i resoconti governativi della conferenza. Il Ministero degli esteri kazako collega il 22 settembre all'equinozio d'autunno, simbolo di armonia fra persone e natura. La giornata promuove conoscenze pastorali, migrazioni stagionali, artigianato e trasmissione fra generazioni, senza pretendere che le tradizioni nomadi nascano con la decisione UNESCO. Una distinta decisione UNESCO ha già riconosciuto pratiche come la migrazione pastorale mongola. La proclamazione seguì il settembre 2025 e le fonti consultate non dimostrano specificamente la prima celebrazione annuale nel settembre 2026: il dato rimane aperto.
+
+**Promotore:** Il Kirghizistan propose la giornata, il Kazakistan la sostenne e la Conferenza generale UNESCO adottò formalmente il provvedimento nel novembre 2025.
+
+**Perché è importante:** Tutelare le conoscenze delle comunità nomadi, l'allevamento sostenibile e il dialogo fra culture.
+
+**Fatti documentati:**
+- La Conferenza generale UNESCO adottò la proposta il 6 novembre 2025.
+- Il 22 settembre è collegato all'equinozio d'autunno.
+- L'iniziativa partì dal Kirghizistan e ricevette sostegno dal Kazakistan.
+
+### English — 22 September: UNESCO recognizes the living heritage of nomadic communities
+
+On 6 November 2025 UNESCO's 43rd General Conference, meeting in Samarkand, adopted the proclamation of 22 September as International Day of Nomadic Heritage under agenda document 43 C/51. Kyrgyzstan initiated the proposal, with Kazakhstan among its co-sponsors, as confirmed by governmental accounts of the conference. Kazakhstan's foreign ministry explains that 22 September was associated with the autumn equinox, symbolizing harmony between people and nature. The day seeks greater recognition of pastoralist knowledge, seasonal migration, traditional crafts and intergenerational teaching, without implying nomadic ways of life began with UNESCO's declaration. Separate UNESCO intangible-heritage decisions have already recognized practices such as Mongol nomad migration. The proclamation followed September 2025, and no first annual observance in September 2026 is individually evidenced by the consulted original documents; the inaugural-year field remains unknown.
+
+**Founder / institutional authority:** Kyrgyzstan initiated the original UNESCO proposal; Kazakhstan co-sponsored it, and UNESCO's General Conference adopted the resolution in November 2025.
+
+**Why it matters:** Support the transmission of nomadic cultural knowledge, sustainable pastoral practices and intercultural recognition.
+
+**Source-based contextual facts:**
+- UNESCO's 43rd General Conference adopted the proposal on 6 November 2025.
+- The annual date of 22 September evokes the autumn equinox.
+- Kyrgyzstan initiated the proposal, with Kazakhstan as a supporting state.
+
+**Source URLs:**
+- https://www.unesco.org/en/general-conference/43/commissions/shs
+- https://www.gov.kz/memleket/entities/mfa/press/news/details/1104712?lang=en
+- https://ich.unesco.org/en/Decisions/19.COM/7.b.49
+
+**Limits:** Original UNESCO 43C commission record proves adoption without amendment 6 Nov 2025; Kazakhstan MFA first-party record confirms 22 September equinox and co-sponsorship, and Kyrgyzstan proposal; no verified first yearly ceremony. Individual primary-source-linked model-authored IT/EN text; independent human factual review and qualified native six-language editorial review pending; runtime rich editorial approval false.
+
+---
+
+## 93. ph-day-of-valor
+
+**Formal year / Anno formale:** 1961 · **First observed / Prima osservanza:** *
+
+### Italiano — 9 aprile: le Filippine ricordano Bataan con una Giornata del valore di legge
+
+La legge filippina Republic Act 3022, approvata il 6 aprile 1961, proclamò il 9 aprile Bataan Day, riconoscendolo come giorno festivo in ricordo di militari e civili che difesero la penisola durante la Seconda guerra mondiale. La data ricorda la resa delle forze di Bataan il 9 aprile 1942, precedente alla brutale marcia della morte. L'articolo 1 della legge del 1961 chiede espressamente un minuto di silenzio alle 16:30. Nel 1987 l'ordine esecutivo 203 della presidente Corazon Aquino incluse la ricorrenza fra i giorni festivi con il nome Araw ng Kagitingan, Giornata del valore, riferendola a Bataan e Corregidor. La legge del 1961, l'evento militare del 1942 e la denominazione del 1987 sono fatti distinti; la fonte non prova autonomamente la prima cerimonia pubblica dopo l'approvazione.
+
+**Promotore:** Il Congresso filippino istituì Bataan Day il 9 aprile con la legge 3022 del 1961; i successivi provvedimenti adottarono la denominazione Giornata del valore.
+
+**Perché è importante:** Ricordare servizio, vittime e sofferenze della campagna di Bataan nella guerra del Pacifico.
+
+**Fatti documentati:**
+- La Republic Act 3022 fu approvata il 6 aprile 1961.
+- La legge prescriveva un minuto di silenzio alle 16:30.
+- Nel 1987 il calendario governativo indicò il nome Araw ng Kagitingan.
+
+### English — 9 April: the Philippines remembers Bataan with a statutory Day of Valor
+
+The Philippines' Republic Act No. 3022, approved on 6 April 1961, proclaimed 9 April Bataan Day and established it as a legal holiday in memory of the soldiers and civilians who defended the Bataan Peninsula during the Second World War. The date recalls the surrender of forces on Bataan on 9 April 1942, preceding the brutal Bataan Death March. Article 1 of the 1961 statute explicitly asks people to observe one minute of silence at 4:30 in the afternoon. In 1987 President Corazon Aquino's Executive Order 203 listed the date among regular holidays under the name Araw ng Kagitingan, or Day of Valor, commemorating Bataan and Corregidor. The 1961 founding law, 1942 military event and 1987 name are distinct; the source does not independently prove the first official public ceremony after adoption.
+
+**Founder / institutional authority:** The Philippine Congress established 9 April Bataan Day through Republic Act 3022 in 1961; later government decrees adopted the Day of Valor designation.
+
+**Why it matters:** Remember service and suffering during the Pacific War and the experiences of those subjected to the Bataan campaign and death march.
+
+**Source-based contextual facts:**
+- Republic Act 3022 was approved on 6 April 1961.
+- The 1961 law called for one minute of silence at 4:30 p.m.
+- The 1987 holiday listing uses the name Araw ng Kagitingan, or Day of Valor.
+
+**Source URLs:**
+- https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818
+- https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/8049
+- https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/9/5743
+
+**Limits:** Original Philippine Supreme Court hosted Republic Act 3022 and original 1987 Executive Order 203 establish founding law, prescribed minute of silence, April 9 date and subsequent name; first public post-law ceremony unverified. Individual primary-source-linked model-authored IT/EN text; independent human factual review and qualified native six-language editorial review pending; runtime rich editorial approval false.
+
+---
+
+## 94. italian-christopher-columbus-day
+
+**Formal year / Anno formale:** 2004 · **First observed / Prima osservanza:** *
+
+### Italiano — 12 ottobre: l'Italia istituisce nel 2004 una moderna giornata per Cristoforo Colombo
+
+Una direttiva del Presidente del Consiglio dei ministri del 20 febbraio 2004 designò il 12 ottobre di ogni anno come Giornata nazionale di Cristoforo Colombo. La proposta proveniva dal ministro per gli Italiani nel mondo Mirko Tremaglia e fu firmata dal presidente del Consiglio Silvio Berlusconi. La direttiva invitava le amministrazioni pubbliche a sostenere iniziative dedicate al viaggio storico che raggiunse le Americhe il 12 ottobre 1492. Prevedeva inoltre un comitato d'onore per coordinare gli eventi; l'archivio del Quirinale conferma che il presidente Carlo Azeglio Ciampi incontrò il comitato il 5 ottobre 2004, in occasione della presentazione del logo ufficiale. Lo sbarco del 1492, la direttiva del 2004 e l'incontro preparatorio sono fatti diversi: quest'ultimo non dimostra una prima celebrazione annuale completa il 12 ottobre. La ricorrenza offre anche l'occasione di affrontare gli effetti gravi della colonizzazione europea sulle popolazioni indigene.
+
+**Promotore:** Il ministro Mirko Tremaglia propose l'iniziativa e la direttiva firmata da Silvio Berlusconi la istituì il 20 febbraio 2004.
+
+**Perché è importante:** Approfondire la storia della navigazione, delle migrazioni e delle conseguenze anche controverse dell'espansione coloniale europea.
+
+**Fatti documentati:**
+- La direttiva istitutiva risale al 20 febbraio 2004.
+- La data ricorda lo sbarco del 12 ottobre 1492.
+- Il presidente Ciampi incontrò il comitato organizzatore il 5 ottobre 2004.
+
+### English — 12 October: Italy creates a modern Christopher Columbus observance in 2004
+
+An Italian Prime Minister's Directive dated 20 February 2004 designated 12 October every year as National Christopher Columbus Day. The directive was proposed by the Minister for Italians Abroad, Mirko Tremaglia, and signed by Prime Minister Silvio Berlusconi. It instructed public administrations to support initiatives about the historical voyage that reached the Americas on 12 October 1492. The act also created an honorary committee to coordinate activities, and the Italian Presidency's records show that President Carlo Azeglio Ciampi received the committee on 5 October 2004, when the official logo was presented. The historical landfall in 1492, the 2004 formal decree and that October preparatory event are separate; the latter does not independently prove the first full annual ceremony on 12 October. The voyage is an appropriate topic for considering both transatlantic contacts and the grave consequences of European colonization for Indigenous peoples.
+
+**Founder / institutional authority:** Minister Mirko Tremaglia proposed the celebration to the Italian Prime Minister, whose directive of 20 February 2004 formally created it.
+
+**Why it matters:** Encourage historically informed study of transatlantic navigation, Italian migration and the contested legacy of European colonial expansion.
+
+**Source-based contextual facts:**
+- The Prime Minister's directive was dated 20 February 2004.
+- The day commemorates the 12 October 1492 transatlantic landing.
+- Italy's President met the organizing honorary committee on 5 October 2004.
+
+**Source URLs:**
+- https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=04A03601&atto.dataPubblicazioneGazzetta=2004-04-13&atto.tipoProvvedimento=DIRETTIVA+DEL+PRESIDENTE+DEL+CONSIGLIO+DEI+MINISTRI
+- https://archivio.quirinale.it/aspr/comunicati/PRESSRELEASE-001-004027/presidente/carlo-azeglio-ciampi/il-presidente-ciampi-ha-ricevuto-comitato-nazionale-celebrazioni-cristoforo-colombo
+- https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html
+
+**Limits:** Original Italian 20 February 2004 government directive and Quirinale contemporary 5 October 2004 committee record identify adopting act, proposer, date rationale and historical committee meeting; no unsupported first full annual ceremony. Individual primary-source-linked model-authored IT/EN text; independent human factual review and qualified native six-language editorial review pending; runtime rich editorial approval false.
+
+---
+
+## 95. us-columbus-day
+
+**Formal year / Anno formale:** 1968 · **First observed / Prima osservanza:** 1971
+
+### Italiano — Secondo lunedì di ottobre: negli USA il Columbus Day diventa festa federale
+
+Negli Stati Uniti il Congresso adottò il 30 aprile 1934 una risoluzione con cui invitava il Presidente a proclamare annualmente il Columbus Day, riprendendo celebrazioni comunitarie già esistenti, specialmente fra gli italoamericani. Il giorno festivo federale vero e proprio fu invece introdotto dall'Uniform Monday Holiday Act del 1968, entrato in vigore nel 1971: per questo la festa cade il secondo lunedì di ottobre e non sempre il 12 ottobre, data tradizionalmente collegata allo sbarco di Colombo nei Caraibi nel 1492. Gli Archivi nazionali distinguono la richiesta di proclamazioni del 1934 dalla legge federale del 1968 e dall'applicazione del 1971. I proclami presidenziali conservati nell'archivio della Casa Bianca mostrano la continuità delle celebrazioni. La storia è oggetto di discussione perché il viaggio aprì anche una fase di conquista europea, spostamenti forzati e violenze contro i popoli indigeni. Questo contesto non va ignorato né confuso con l'istituzione della festa.
+
+**Promotore:** Il Congresso degli Stati Uniti introdusse la festività federale con la legge del 1968, dopo una precedente risoluzione del 1934 sui proclami presidenziali.
+
+**Perché è importante:** Conoscere la storia dei contatti atlantici e le differenti interpretazioni del loro impatto, dalla cultura italoamericana alle conseguenze per le popolazioni indigene.
+
+**Fatti documentati:**
+- Nel 1934 una risoluzione richiese proclami presidenziali annuali.
+- La legge del 1968 creò la festa federale operativa dal 1971.
+- Il giorno festivo nazionale ricorre il secondo lunedì di ottobre.
+
+### English — Second Monday in October: Columbus Day becomes a United States federal holiday
+
+The United States Congress first adopted a joint resolution on 30 April 1934 requesting annual presidential Columbus Day proclamations, reflecting older community celebrations associated with Italian-American heritage. The federal holiday itself was created in the Uniform Monday Holiday Act of 1968 and took effect in 1971, placing the observance on the second Monday of October rather than always 12 October, the date associated with Columbus's 1492 landfall in the Caribbean. The National Archives distinguishes the 1934 proclamation requirement from the 1968 federal holiday law and its actual start in 1971. Archived White House proclamations show presidents continuing the annual ceremony under 36 U.S.C. 107. The historical legacy is contested: the voyage also opened an era of European conquest, forced displacement and violence against Indigenous peoples. That complex history should be part of educational context without falsely suggesting Congress had enacted a federal holiday in 1934.
+
+**Founder / institutional authority:** The US Congress established the federal public holiday through the Uniform Monday Holiday Act in 1968; an earlier 1934 congressional resolution requested presidential proclamations.
+
+**Why it matters:** Examine the historical legacy of transatlantic contact and its continuing interpretations, including Italian-American heritage and the effects on Indigenous societies.
+
+**Source-based contextual facts:**
+- A 1934 congressional resolution requested annual presidential proclamations.
+- The 1968 Uniform Monday Holiday Act created a federal holiday effective in 1971.
+- The federal observance now falls on the second Monday of October.
+
+**Source URLs:**
+- https://text-message.blogs.archives.gov/2024/02/27/when-will-you-be-in-the-office-1959/
+- https://georgewbush-whitehouse.archives.gov/news/releases/2001/10/20011008-9.html
+- https://www.archives.gov/publications/prologue/2004/winter/gw-birthday-1.html
+
+**Limits:** US National Archives 1968/1971 Monday holiday history and original White House proclamation citing 1934 joint resolution distinguish proclamations from the actual statutory federal holiday; original date 12 October 1492 and contested legacy contextualized. Individual primary-source-linked model-authored IT/EN text; independent human factual review and qualified native six-language editorial review pending; runtime rich editorial approval false.
+
+---
+
+## 96. ca-armenian-genocide-remembrance
+
+**Formal year / Anno formale:** 2015 · **First observed / Prima osservanza:** *
+
+### Italiano — 24 aprile: il riconoscimento parlamentare canadese della memoria armena
+
+Il 24 aprile 2015 la Camera dei Comuni canadese approvò la mozione M-587, proposta dal deputato Brad Butt. Ribadiva il riconoscimento del genocidio armeno espresso dalla Camera il 21 aprile 2004, designava aprile come mese del ricordo, della condanna e della prevenzione dei genocidi e indicava il 24 aprile come Giornata della memoria del genocidio armeno. La data ricorda gli arresti di intellettuali armeni a Costantinopoli il 24 aprile 1915, richiamati anche in una dichiarazione dell'ambasciatore armeno a Ottawa. Il riconoscimento del genocidio nel 2004 e la menzione parlamentare della ricorrenza nel 2015 sono due passaggi distinti. La mozione non istituisce di per sé una festività federale non lavorativa; le fonti non individuano la primissima celebrazione comunitaria in Canada.
+
+**Promotore:** Il deputato Brad Butt presentò la mozione M-587, adottata il 24 aprile 2015; la memoria nelle comunità armene canadesi è precedente.
+
+**Perché è importante:** Ricordare vittime e sopravvissuti del genocidio armeno e sostenere educazione storica e prevenzione delle atrocità.
+
+**Fatti documentati:**
+- La Camera canadese riconobbe il genocidio armeno nell'aprile 2004.
+- La mozione M-587 del 2015 menziona il 24 aprile come giorno della memoria.
+- La data richiama gli arresti di intellettuali armeni del 1915 a Costantinopoli.
+
+### English — 24 April: Canada's parliamentary recognition of Armenian genocide remembrance
+
+On 24 April 2015 the Canadian House of Commons adopted Motion M-587, moved by MP Brad Butt. It reaffirmed the House's earlier Armenian-genocide recognition resolution of 21 April 2004, recognized April as Genocide Remembrance, Condemnation and Prevention Month and expressly identified 24 April as Armenian Genocide Memorial Day. The date recalls the arrests of Armenian intellectuals in Constantinople on 24 April 1915, explained in a contemporary statement by the Armenian ambassador in Ottawa. The 2004 genocide recognition and 2015 explicit parliamentary memorial-day acknowledgment are separate milestones, and the 2015 motion is not itself an act establishing a nationwide statutory day off. A first community observance in Canada predating Parliament's acknowledgment cannot be fixed from those records.
+
+**Founder / institutional authority:** MP Brad Butt introduced House Motion M-587, accepted on 24 April 2015; Armenian Canadian remembrance precedes the parliamentary recognition.
+
+**Why it matters:** Honour Armenian genocide victims, survivors and descendants and promote education and prevention of mass atrocities.
+
+**Source-based contextual facts:**
+- Canada's Commons had recognized the Armenian genocide in April 2004.
+- Motion M-587 acknowledging 24 April as the memorial day was adopted in April 2015.
+- The date refers to the 1915 arrests of Armenian intellectuals in Constantinople.
+
+**Source URLs:**
+- https://www.ourcommons.ca/members/en/brad-butt%2830314%29/motions/7892046
+- https://www.pm.gc.ca/en/news/statements/2022/04/24/statement-prime-minister-armenian-genocide-memorial-day
+- https://canada.mfa.am/en/news/2016/04/24/yeganian_parliamentspeech/3261
+
+**Limits:** Original 2015 Canadian House Motion M-587, subsequent prime-ministerial explanation and original Armenian embassy commemorative speech establish designation, distinction from 2004 and historical date. First Canadian community observance unknown; House motion not federal public holiday statute. IT/EN research needs independent human factual and qualified native six-language review; Rich Editorial not approved.
+
+---
+
+## 97. ca-british-home-child-day
+
+**Formal year / Anno formale:** 2018 · **First observed / Prima osservanza:** *
+
+### Italiano — 28 settembre: il Canada ricorda i British Home Children
+
+Il 7 febbraio 2018 la Camera dei Comuni canadese approvò la mozione M-133 del deputato Guy Lauzon, chiedendo di riconoscere ogni 28 settembre la giornata dei British Home Children a livello nazionale. Il testo ricorda oltre 100.000 bambini trasferiti dalla Gran Bretagna in Canada tramite programmi di migrazione minorile; molti furono allontanati dai familiari e affidati a lavori agricoli o domestici. Il riconoscimento federale seguì una legge provinciale: il British Home Child Day Act dell'Ontario ricevette l'assenso reale il 1º giugno 2011 e stabilì la stessa data. I due atti hanno diversa natura: quello dell'Ontario è una legge, mentre la mozione esprime l'indirizzo della Camera e non crea una festività federale non lavorativa. Le fonti non provano perché fu scelto originariamente il 28 settembre né quando si tenne la prima cerimonia nazionale.
+
+**Promotore:** Guy Lauzon presentò la mozione federale del 2018; il legislatore dell'Ontario aveva approvato una legge provinciale nel 2011.
+
+**Perché è importante:** Riconoscere le esperienze e le difficoltà dei British Home Children e diffondere conoscenza sulla migrazione infantile.
+
+**Fatti documentati:**
+- L'Ontario approvò la legge provinciale il 1º giugno 2011.
+- La Camera dei Comuni adottò la mozione M-133 il 7 febbraio 2018.
+- La mozione ricorda oltre 100.000 bambini trasferiti in Canada.
+
+### English — 28 September: Canada remembers the British Home Children
+
+On 7 February 2018 the Canadian House of Commons approved Motion M-133, moved by MP Guy Lauzon, urging national recognition of British Home Child Day each 28 September. The motion honours over 100,000 children brought to Canada from Britain through child-migration programmes; many were separated from their families and placed in agricultural or domestic labour. The national parliamentary acknowledgment followed a provincial statute: Ontario's British Home Child Day Act received Royal Assent on 1 June 2011 and designated the same September date. The two legal milestones must not be conflated: Ontario enacted a binding provincial law, whereas M-133 expressed the federal House's view rather than legislating a new national public holiday. The original specific reason for selecting 28 September and the first nationally organized ceremony are not demonstrated in these two measures.
+
+**Founder / institutional authority:** MP Guy Lauzon brought the federal House motion in 2018; Ontario's provincial legislature established the day for that province in 2011.
+
+**Why it matters:** Honour the contributions and hardships of British Home Children and educate Canadians about the history of child migration.
+
+**Source-based contextual facts:**
+- Ontario's British Home Child Day Act received Royal Assent on 1 June 2011.
+- Canada's House of Commons adopted Motion M-133 on 7 February 2018.
+- The federal motion refers to more than 100,000 British Home Children sent to Canada.
+
+**Source URLs:**
+- https://www.ourcommons.ca/members/en/25516/motions/8853980
+- https://www.ontario.ca/laws/statute/s11014
+- https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html
+
+**Limits:** Primary Canadian House Motion M-133 of February 2018 and Ontario original 2011 British Home Child Day statute independently distinguish federal parliamentary endorsement from provincial legislation. The earliest Canadian national commemoration and the initial reason for the chosen date remain unverified. IT/EN research pending human factual and qualified native six-language editorial review; Rich Editorial not approved.
+
+---
+
+## 98. ca-armed-forces-day
+
+**Formal year / Anno formale:** 2002 · **First observed / Prima osservanza:** 2002
+
+### Italiano — Prima domenica di giugno: il Canada ringrazia le proprie Forze armate
+
+Il 31 maggio 2002 il primo ministro canadese proclamò la prima domenica di giugno Canadian Forces Day, accogliendo una mozione parlamentare d'iniziativa individuale approvata all'unanimità. Un comunicato del Ministero della difesa del 2005 definì la celebrazione del 5 giugno di quell'anno la quarta edizione annuale: la sequenza contemporanea conferma quindi il debutto nel 2002. In seguito si è diffuso il nome Canadian Armed Forces Day. La giornata riconosce il contributo del personale in servizio e di riserva, delle famiglie e delle missioni in Canada e all'estero, compresi soccorsi, operazioni di pace e aiuti umanitari. Poiché cade la prima domenica di giugno, il giorno del mese varia ogni anno. È una ricorrenza pubblica distinta dal Remembrance Day e non un anniversario numerico fisso.
+
+**Promotore:** Il primo ministro emise la proclamazione nel 2002 dopo una mozione parlamentare unanime; il Ministero della difesa partecipa alle attività.
+
+**Perché è importante:** Riconoscere il servizio del personale delle Forze armate e delle famiglie e spiegarne il ruolo alla popolazione.
+
+**Fatti documentati:**
+- Il primo ministro proclamò la giornata il 31 maggio 2002.
+- Il comunicato federale del 2005 parlava della quarta edizione annuale.
+- La data è la prima domenica di giugno, quindi cambia numero ogni anno.
+
+### English — First Sunday in June: Canada's day to thank its armed forces
+
+On 31 May 2002 Canada's prime minister proclaimed the first Sunday in June as Canadian Forces Day, responding to a unanimously supported private member's motion. The 2005 Department of National Defence announcement explicitly called that year's 5 June celebration the fourth annual Canadian Forces Day: this contemporaneous sequence independently confirms the inaugural year of 2002. Later public statements use the name Canadian Armed Forces Day. The annual commemoration recognizes regular and reserve personnel, their families and service at home and abroad, including disaster response, peace operations and humanitarian support. Because its recurrence is the first Sunday of June, the numbered date changes each year. It is a public recognition day rather than a fixed calendar anniversary or a substitute for Remembrance Day.
+
+**Founder / institutional authority:** The prime minister issued the 2002 proclamation following a unanimously adopted private member's motion; the Department of National Defence oversees public recognition events.
+
+**Why it matters:** Recognize the service of Canadian Armed Forces members and their families and increase public awareness of their work.
+
+**Source-based contextual facts:**
+- Canada's prime minister made the annual proclamation on 31 May 2002.
+- The federal 2005 announcement describes its edition as the fourth annual Canadian Forces Day.
+- The date is the first Sunday of June, not a permanently fixed numbered date.
+
+**Source URLs:**
+- https://www.canada.ca/en/news/archive/2005/06/canadians-celebrate-canadian-forces-day-june-5.html
+- https://www.canada.ca/en/news/archive/2015/06/associate-minister-national-defence-julian-fantino-statement-celebrating-canadian-armed-forces-day.html
+- https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html
+
+**Limits:** Canadian National Defence first-party 2005 retrospective quotes original 31 May 2002 proclamation and calls 2005 fourth annual, grounding founding and initial observance; a separate 2015 official statement documents modern title. IT/EN draft remains subject to independent factual and qualified native six-language human review, not Rich Editorial approved.
+
+---
+
+## 99. sk-carpathian-dukla-operation-heroes-day
+
+**Formal year / Anno formale:** 1993 · **First observed / Prima osservanza:** *
+
+### Italiano — 6 ottobre: la Slovacchia cambia il nome della memoria di Dukla
+
+Il Consiglio nazionale slovacco approvò il 20 ottobre 1993 la legge n. 241/1993, inserendo il 6 ottobre fra le giornate commemorative con il nome originale Giorno delle vittime di Dukla. Il 24 novembre 2015 il Parlamento adottò la legge n. 409/2015, efficace dal 1º gennaio 2016, che rinominò la stessa data Giorno degli eroi dell'operazione dei Carpazi-Dukla. L'episodio ricordato è il passaggio del confine cecoslovacco da parte delle avanguardie del Primo corpo d'armata cecoslovacco al passo di Dukla il 6 ottobre 1944, nella guerra contro la Germania nazista. L'operazione militare era iniziata l'8 settembre e proseguì fino a fine ottobre. L'Istituto slovacco per la memoria nazionale documenta la campagna e le perdite umane. Evento del 1944, prima legge commemorativa del 1993 e cambio di nome del 2015/2016 sono tappe distinte; non è provata una precisa cerimonia inaugurale dopo la legge.
+
+**Promotore:** Il Consiglio nazionale slovacco riconobbe legalmente la ricorrenza nel 1993 e ne modificò il nome con la legge del 2015.
+
+**Perché è importante:** Onorare i caduti dell'operazione di Dukla e promuovere una ricostruzione storica accurata della Seconda guerra mondiale.
+
+**Fatti documentati:**
+- Nel 1993 la legge parlava di Giorno delle vittime di Dukla.
+- La legge 409/2015 introdusse la denominazione attuale dal 2016.
+- Il 6 ottobre 1944 reparti cecoslovacchi varcarono il confine al passo di Dukla.
+
+### English — 6 October: Slovak Dukla remembrance changes name but retains its wartime date
+
+Slovakia's National Council adopted Act No. 241/1993 on 20 October 1993 and included 6 October among national memorial days under the original name Day of the Victims of Dukla. On 24 November 2015 lawmakers adopted Act No. 409/2015, effective 1 January 2016, which renamed the existing date Day of the Heroes of the Carpathian-Dukla Operation. The historical reference is the crossing of the Czechoslovak border by advance elements of the First Czechoslovak Army Corps at Dukla Pass on 6 October 1944 during the fight against Nazi Germany. The military operation itself began on 8 September 1944 and continued until late October. The National Memory Institute documents the campaign and its losses. The event of 1944, first memorial-day law of 1993, and change of official title in 2015/2016 must not be confused; an individually evidenced inaugural 1993 or 1994 memorial ceremony remains unknown.
+
+**Founder / institutional authority:** Slovakia's National Council formally recognized the October memorial through Act 241/1993 and renamed it in Act 409/2015.
+
+**Why it matters:** Remember people who fought and died during the Dukla operation while strengthening careful public historical understanding of World War II.
+
+**Source-based contextual facts:**
+- The original 1993 statutory name was Day of the Victims of Dukla.
+- Law 409/2015 renamed the date Day of the Heroes of the Carpathian-Dukla Operation from January 2016.
+- The commemoration recalls the Czechoslovak border crossing at Dukla Pass on 6 October 1944.
+
+**Source URLs:**
+- https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html
+- https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2015/409/20160101.html
+- https://www.upn.gov.sk/sk/8-september-1944-zaciatok-karpatsko-duklianskej-operacie/
+
+**Limits:** Original Slovak statute 241/1993 §3 designated October 6 Day of Dukla Victims; statute 409/2015 changed the name with effect from January 2016. National Memory Institute wartime history confirms October 6 border crossing and September operation start. No first annual post-enactment ceremony evidenced. Model-authored IT/EN source research, independent human factual and qualified native six-language editorial review pending; Rich Editorial not approved.
+
+---
+
+## 100. sk-cernova-tragedy-remembrance-day
+
+**Formal year / Anno formale:** 1993 · **First observed / Prima osservanza:** *
+
+### Italiano — 27 ottobre: la Slovacchia ricorda la tragedia di Černová
+
+La legge slovacca 241/1993, adottata dal Consiglio nazionale il 20 ottobre 1993, designò il 27 ottobre come giornata commemorativa nazionale della tragedia di Černová. La data richiama il 27 ottobre 1907, quando a Černová, oggi parte di Ružomberok, i gendarmi del Regno d'Ungheria spararono contro una folla che protestava per la prevista consacrazione di una nuova chiesa senza il sacerdote locale Andrej Hlinka. Hlinka era stato sospeso e gli abitanti chiedevano di rinviare la cerimonia. Morirono quindici persone e altre furono ferite. Nel 2007 il Parlamento slovacco commemorò il centenario, ricordando quindici morti, dodici feriti gravi e successivi processi contro i residenti. L'episodio entrò nella memoria storica nazionale e nel dibattito sui diritti delle minoranze e sulla repressione. Sparatoria del 1907, riconoscimento legislativo del 1993 e risoluzione del centenario del 2007 sono passaggi distinti; la prima cerimonia annuale sotto la legge non è provata.
+
+**Promotore:** Il Consiglio nazionale slovacco istituì la data commemorativa nella legge 241/1993, dedicandola alle vittime dell'episodio del 1907.
+
+**Perché è importante:** Ricordare le persone uccise e promuovere la riflessione storica su diritti civili, identità culturale e violenza istituzionale.
+
+**Fatti documentati:**
+- La sparatoria di Černová avvenne il 27 ottobre 1907.
+- La legge 241/1993 riconobbe il 27 ottobre come data commemorativa nazionale.
+- Il Parlamento nel 2007 ricordò quindici morti e dodici feriti gravi.
+
+### English — 27 October: Slovakia remembers the Černová shooting of 1907
+
+The original Slovak Act 241/1993, adopted by the National Council on 20 October 1993, designated 27 October a national memorial day for the Černová tragedy. The date refers to 27 October 1907 in Černová, now a district of Ružomberok, when gendarmes of the Kingdom of Hungary shot into a crowd protesting the planned consecration of a new church without local-born priest Andrej Hlinka. Hlinka had been suspended, and villagers demanded the event be delayed. Fifteen people died and others were injured. In 2007, Slovakia's parliament marked the centenary, describing fifteen deaths, twelve serious injuries and subsequent prosecutions of residents. These events became central to Slovak historical memory and contemporary discussion of minority rights and government repression. The shooting in 1907, statutory memorial designation in 1993 and centenary resolution in 2007 are separate milestones; the first annual state ceremony under the 1993 law cannot be established from these documents.
+
+**Founder / institutional authority:** The National Council of the Slovak Republic established the commemorative date in Act 241/1993; its subject is the villagers affected by the 1907 shooting.
+
+**Why it matters:** Remember people killed in Černová and encourage historical study of civil rights, community identity and the consequences of repression.
+
+**Source-based contextual facts:**
+- The Černová shooting took place on 27 October 1907.
+- Act 241/1993 listed 27 October among Slovakia's national memorial dates.
+- The Slovak parliament's 2007 centenary text identified fifteen deaths and twelve seriously injured people.
+
+**Source URLs:**
+- https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html
+- https://www.nrsr.sk/web/Default.aspx?MasterID=33608&sid=udalosti%2Fudalost
+- https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=267360
+- https://www.vlada.gov.sk/slovensko/statne-sviatky/
+
+**Limits:** Original Slovak Act 241/1993 §3 formally lists the 27 October Černová memorial; Slovak National Council original 2007 centenary account supports historical cause and casualty counts. First specific annual ceremony not independently documented. Model-authored original IT/EN research awaiting independent human historical and qualified six-language native review; Rich Editorial not approved.
+
+---
+
