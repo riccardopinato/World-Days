@@ -12,17 +12,17 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 1,
+        "six": 7,
         "two": 2,
-        "none": 88,
-        "categoryCrosschecked": 8
+        "none": 82,
+        "categoryCrosschecked": 9
       },
       "KR": {
         "all": 57,
-        "six": 1,
+        "six": 6,
         "two": 7,
-        "none": 49,
-        "categoryCrosschecked": 5
+        "none": 44,
+        "categoryCrosschecked": 6
       },
       "CA": {
         "all": 32,
@@ -32,10 +32,10 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 34,
+    "sixLocaleDrafts": 45,
     "bilingualDrafts": 9,
-    "withoutOriginDraft": 137,
-    "governmentCategorySpotChecks": 13,
+    "withoutOriginDraft": 126,
+    "governmentCategorySpotChecks": 15,
     "humanCertified": 0
   },
   "records": [
@@ -1071,16 +1071,29 @@
       "inventorySourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
       "inventoryAuthority": "Korea Tourism Organization / Korean Government",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_hangeul_constitution_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29825",
+        "https://www.mois.go.kr/video/bbs/type019/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000255&nttId=123641"
+      ],
+      "proposedIntroducedYear": 1949,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "KR_NATIONAL_DAY_1949_ACT_CURRENT_TEXT",
+      "governmentCategory": "KR_NATIONAL_DAY_PUBLIC_HOLIDAY_RESTORED_2026",
       "governmentSources": [
-        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369"
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29825",
+        "https://www.mois.go.kr/video/bbs/type019/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000255&nttId=123641"
       ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
@@ -1094,16 +1107,29 @@
       "inventorySourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
       "inventoryAuthority": "Korea Tourism Organization / Korean Government",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_hangeul_constitution_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29382"
+      ],
+      "proposedIntroducedYear": 2005,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "KR_NATIONAL_DAY_1949_ACT_CURRENT_TEXT",
+      "governmentCategory": "KR_NATIONAL_DAY_ADDED_2005_PUBLIC_HOLIDAY_RETURNED_2013",
       "governmentSources": [
-        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369"
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29382"
       ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
@@ -1117,12 +1143,23 @@
       "inventorySourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
       "inventoryAuthority": "Korea Tourism Organization / Korean Government",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=128756"
+      ],
+      "proposedIntroducedYear": 1949,
       "proposedFirstObservedYear": null,
       "governmentCategory": "KR_NATIONAL_DAY_1949_ACT_CURRENT_TEXT",
       "governmentSources": [
@@ -1174,15 +1211,30 @@
       "inventorySourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
       "inventoryAuthority": "Korea Tourism Organization / Korean Government",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
-      "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "originDraftPath": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1191",
+        "https://www.mpva.go.kr/mpva/selectCmmrInfoWebView.do?cmmrNo=10&key=214&pageIndex=1&pageUnit=12&searchCnd=all&searchUseAt=Y"
+      ],
+      "proposedIntroducedYear": 1956,
+      "proposedFirstObservedYear": 1956,
+      "governmentCategory": "OFFICIAL_GOVERNMENT_MEMORIAL_DAY_DISTINCT_FROM_FIVE_NATIONAL_DAYS",
+      "governmentSources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1191",
+        "https://www.mpva.go.kr/mpva/selectCmmrInfoWebView.do?cmmrNo=10&key=214&pageIndex=1&pageUnit=12&searchCnd=all&searchUseAt=Y"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
@@ -1195,12 +1247,23 @@
       "inventorySourceUrl": "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
       "inventoryAuthority": "Korea Tourism Organization / Korean Government",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/celebrationDay/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369"
+      ],
+      "proposedIntroducedYear": 1949,
       "proposedFirstObservedYear": null,
       "governmentCategory": "KR_NATIONAL_DAY_1949_ACT_CURRENT_TEXT",
       "governmentSources": [
@@ -2364,11 +2427,22 @@
       "inventorySourceUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
       "inventoryAuthority": "Presidential Communications Office of the Philippines",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
+      "originDraftPath": "data/editorial/research_batches/ph_edsa_heritage_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/edsa-people-power/",
+        "https://chief.lawphil.net/executive/proc/proc2025/proc_1006_2025.html",
+        "https://pco.gov.ph/news_releases/pbbm-declares-2027-regular-and-special-holidays/"
+      ],
       "proposedIntroducedYear": null,
       "proposedFirstObservedYear": null,
       "governmentCategory": "PH_SPECIAL_WORKING_DAY_2026",
@@ -2421,12 +2495,23 @@
       "inventorySourceUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
       "inventoryAuthority": "Presidential Communications Office of the Philippines",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_national_law_02_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/19930",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209492",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "proposedIntroducedYear": 1931,
       "proposedFirstObservedYear": null,
       "governmentCategory": "PH_REGULAR_HOLIDAY_2026",
       "governmentSources": [
@@ -2445,12 +2530,23 @@
       "inventorySourceUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
       "inventoryAuthority": "Presidential Communications Office of the Philippines",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_national_law_02_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209256",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Presidential%20Decree%20No.%201886%2C%20s.%201983",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "proposedIntroducedYear": 2004,
       "proposedFirstObservedYear": null,
       "governmentCategory": "PH_SPECIAL_NONWORKING_HOLIDAY_2026",
       "governmentSources": [
@@ -2468,12 +2564,23 @@
       "inventorySourceUrl": "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/",
       "inventoryAuthority": "Presidential Communications Office of the Philippines",
       "sourceFile": "data/market/wave04_global_20261109.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_rizal_day_and_month_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://ncca.gov.ph/about-culture-and-arts/culture-profile/selection-and-proclamation-of-national-heroes-and-laws-honoring-filipino-historical-figures/",
+        "https://lawphil.net/statutes/acts/act1902/act_345_1902.html",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "proposedIntroducedYear": 1902,
       "proposedFirstObservedYear": null,
       "governmentCategory": "PH_REGULAR_HOLIDAY_2026",
       "governmentSources": [
@@ -3793,12 +3900,22 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_edsa_heritage_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2003/proc_439_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2003,
       "proposedFirstObservedYear": null,
       "governmentCategory": "PH_ANNUAL_CULTURAL_MONTH_NOT_HOLIDAY",
       "governmentSources": [
@@ -4026,15 +4143,28 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_rizal_day_and_month_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2001/proc_126_2001.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2001,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "CULTURAL_AWARENESS_MONTH_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2001/proc_126_2001.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
@@ -4250,5 +4380,19 @@
       "qualifiedEditorialApproval": false,
       "richEditorialPublished": false
     }
-  ]
+  ],
+  "originNewDraftIds": [
+    "kr-constitution-day",
+    "kr-hangeul-day",
+    "kr-liberation-day",
+    "kr-memorial-day",
+    "kr-national-foundation-day",
+    "ph-edsa-people-power-anniversary",
+    "ph-national-heroes-day",
+    "ph-ninoy-aquino-day",
+    "ph-rizal-day",
+    "ph-w13-national-heritage-month",
+    "ph-w13-rizal-month"
+  ],
+  "baselineNotice": "PR #118 and #119 drafts remain separate and unmerged; PR #120 newly-authored research-only evidence has not been published or human-certified."
 }
