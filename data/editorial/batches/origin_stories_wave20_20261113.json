@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 35,
+  "count": 43,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -1197,6 +1197,281 @@
         }
       },
       "sourceReviewNote": "Individually checked original national statute/government declaration, distinguishing legal establishment from historical precedent; where date rationale and first annual ceremony are not proven, they remain unknown. EN/IT model-authored source research awaiting independent human factual and six-language native review; not Rich Editorial approved."
+    },
+    {
+      "observanceId": "spanish-language-day",
+      "introducedYear": 2010,
+      "firstObservedYear": 2010,
+      "sources": [
+        "https://www.un.org/es/events/spanishlanguageday/2010/",
+        "https://www.un.org/en/observances/english-language-day/multilingualism-and-the-un"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 April: Spanish joins the UN's six language days",
+          "origin": "In 2010 the United Nations Department of Public Information, later renamed the Department of Global Communications, began a programme of six language days to foster equal treatment of the UN's official languages. Spanish Language Day falls on 23 April, a date associated with the death of Miguel de Cervantes, a landmark of Spanish literature. The UN's own 2010 Spanish-language observance page records the first programme rather than requiring an invented General Assembly proclamation. The celebration is as much about language access and multilingual diplomacy as it is about literary heritage. It should not be confused with a state law creating a worldwide public holiday.",
+          "promoter": "The UN Department of Public Information initiated the six-day programme in 2010; Cervantes is commemorated, not its modern founder.",
+          "purpose": "Explain the role of Spanish and the other five official languages in international communication, access to information and cultural understanding.",
+          "facts": [
+            "The language-days initiative was launched by the UN information department in 2010.",
+            "The date 23 April commemorates Miguel de Cervantes.",
+            "Spanish shares this calendar date with the UN English Language Day."
+          ]
+        },
+        "it": {
+          "heading": "23 aprile: lo spagnolo entra nelle sei giornate linguistiche ONU",
+          "origin": "Nel 2010 il Dipartimento dell'informazione pubblica dell'ONU, poi rinominato Dipartimento della comunicazione globale, avviò le giornate dedicate alle sei lingue ufficiali delle Nazioni Unite. Per lo spagnolo fu scelto il 23 aprile, data tradizionalmente legata alla morte di Miguel de Cervantes, autore fondamentale della letteratura in lingua spagnola. Il sito istituzionale conserva già una pagina della celebrazione del 2010: non occorre attribuire l'istituzione a una risoluzione dell'Assemblea generale che non è stata identificata. Il significato non è solo letterario: traduzione, interpretariato e accesso multilingue permettono di partecipare al dialogo internazionale.",
+          "promoter": "Il Dipartimento dell'informazione pubblica ONU lanciò il programma nel 2010; Cervantes è il personaggio ricordato, non il promotore moderno.",
+          "purpose": "Valorizzare lo spagnolo e il multilinguismo come strumenti di cultura, diplomazia e accesso equo alle informazioni.",
+          "facts": [
+            "Le giornate delle sei lingue ufficiali iniziarono per iniziativa del dipartimento ONU nel 2010.",
+            "Il 23 aprile ricorda la figura letteraria di Miguel de Cervantes.",
+            "Lo spagnolo condivide questa data con la Giornata ONU della lingua inglese."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary United Nations 2010 Spanish observance and UN multilingualism explainer; no separate General Assembly founding act asserted. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "international-day-of-university-sport",
+      "introducedYear": 2015,
+      "firstObservedYear": 2016,
+      "sources": [
+        "https://www.unesco.org/en/days/university-sport",
+        "https://www.fisu.net/2016/09/21/idus2016-celebrated-in-iran/",
+        "https://www.fisu.net/2016/09/19/idus-2016-message-from-unesco/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 September: university sport becomes a UNESCO day",
+          "origin": "UNESCO's General Conference officially proclaimed 20 September the International Day of University Sport on 17 November 2015, following a proposal from the International University Sports Federation (FISU). It was celebrated for the first time in 2016. A contemporary FISU report describes an inaugural event at the University of Tehran in cooperation with the Iranian National Commission for UNESCO. FISU explains the calendar choice through the beginning of the academic year in many countries and the historical first Student World Championships in 1924. The day brings physical activity into university life and links student wellbeing with fair play and civic participation.",
+          "promoter": "FISU proposed the international day; UNESCO Member States, assembled at the 38th General Conference, formally proclaimed it.",
+          "purpose": "Encourage accessible university sport and its educational role in cooperation, fair play, healthy living and social engagement.",
+          "facts": [
+            "The UNESCO General Conference adopted the proclamation in November 2015.",
+            "The first International Day was celebrated on 20 September 2016.",
+            "The University of Tehran hosted an inaugural celebration in 2016."
+          ]
+        },
+        "it": {
+          "heading": "20 settembre: lo sport universitario diventa una giornata UNESCO",
+          "origin": "Il 17 novembre 2015 la Conferenza generale UNESCO proclamò il 20 settembre Giornata internazionale dello sport universitario, accogliendo una proposta della Federazione internazionale dello sport universitario, FISU. La prima edizione si svolse nel 2016; una testimonianza contemporanea FISU racconta anche l'evento inaugurale all'Università di Teheran, in collaborazione con la Commissione nazionale iraniana per l'UNESCO. Secondo la federazione, il giorno coincide con l'avvio dell'anno accademico in molti Paesi e richiama i primi campionati mondiali studenteschi del 1924. La ricorrenza collega attività fisica, salute, formazione e dialogo tra studenti e università.",
+          "promoter": "La FISU propose la giornata; gli Stati membri UNESCO la proclamarono formalmente durante la 38ª Conferenza generale.",
+          "purpose": "Favorire lo sport accessibile negli atenei, l'inclusione, il fair play e il benessere degli studenti.",
+          "facts": [
+            "La Conferenza generale UNESCO proclamò la giornata nel novembre 2015.",
+            "La prima edizione fu celebrata il 20 settembre 2016.",
+            "Nel 2016 l'Università di Teheran organizzò una celebrazione con il coinvolgimento UNESCO."
+          ]
+        }
+      },
+      "sourceReviewNote": "UNESCO founding action and FISU contemporaneous founding and first-celebration reports identify proposer, date rationale and 2016 inaugural activity. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-antimicrobial-resistance-awareness-week",
+      "introducedYear": 2015,
+      "firstObservedYear": 2015,
+      "sources": [
+        "https://www.who.int/news-room/events/detail/2015/11/16/default-calendar/world-antibiotic-awareness-week",
+        "https://www.who.int/news/item/06-06-2023-world-antimicrobial-awareness-week-%28waaw%29-will-now-be-world-amr-awareness-week",
+        "https://www.who.int/campaigns/world-amr-awareness-week/antibiotic-resistance"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18–24 November: an antibiotic campaign grows into a One Health movement",
+          "origin": "WHO's first World Antibiotic Awareness Week took place 16–22 November 2015 as part of a global action plan adopted by the World Health Assembly that year. The original campaign focused on responsible use of antibiotics and the growing threat of resistant bacteria. In 2020 the scope broadened to all antimicrobials, including antifungals, antivirals and antiparasitics, and the annual 18–24 November interval became fixed. Following inter-agency consultation, the WHO, FAO, UNEP and WOAH partnership renamed it World AMR Awareness Week in 2023. Thus its first observance was 2015, even though today's name and date range came later.",
+          "promoter": "The World Health Organization initiated the 2015 campaign; the later Quadripartite partnership coordinates the broadened One Health framing.",
+          "purpose": "Help professionals and the public use antimicrobial medicines appropriately while reducing the development and spread of resistant infections.",
+          "facts": [
+            "The inaugural week ran from 16 to 22 November 2015.",
+            "The campaign expanded beyond antibiotics in 2020.",
+            "The four-organization Quadripartite adopted the current World AMR Awareness Week name in 2023."
+          ]
+        },
+        "it": {
+          "heading": "18–24 novembre: dagli antibiotici a una campagna mondiale One Health",
+          "origin": "L'Organizzazione mondiale della sanità organizzò la prima Settimana mondiale per la consapevolezza sugli antibiotici dal 16 al 22 novembre 2015, nell'ambito del piano globale contro la resistenza antimicrobica approvato nello stesso anno. L'iniziativa inizialmente si concentrava sugli antibiotici e sul rischio di batteri resistenti. Dal 2020 la campagna si è estesa anche agli altri antimicrobici, inclusi antivirali, antifungini e antiparassitari, stabilendo la finestra annuale del 18–24 novembre. Nel 2023 OMS, FAO, UNEP e WOAH hanno introdotto il nome World AMR Awareness Week. Non si tratta di una giornata nata nel 2023: prima edizione, ampliamento e nuova denominazione sono passaggi diversi.",
+          "promoter": "L'OMS avviò la campagna nel 2015; successivamente le quattro organizzazioni internazionali ne hanno coordinato l'approccio One Health.",
+          "purpose": "Promuovere un uso appropriato degli antimicrobici e prevenire la diffusione di infezioni resistenti a cure importanti.",
+          "facts": [
+            "La prima campagna si svolse dal 16 al 22 novembre 2015.",
+            "Nel 2020 l'attenzione fu ampliata oltre i soli antibiotici.",
+            "Il nome attuale venne adottato dal partenariato Quadripartite nel 2023."
+          ]
+        }
+      },
+      "sourceReviewNote": "WHO's contemporary 2015 event page and June 2023 rebranding decision separately establish original first campaign and later nomenclature; 18–24 Nov fixed only in 2020. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-breastfeeding-week",
+      "introducedYear": 1992,
+      "firstObservedYear": 1992,
+      "sources": [
+        "https://waba.org.my/wbw/",
+        "https://www.waba.org.my/oldernews-sec.htm"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1–7 August: a global breastfeeding week begins in 1992",
+          "origin": "The World Alliance for Breastfeeding Action, WABA, was created in 1991 to help implement the 1990 Innocenti Declaration on protecting, promoting and supporting breastfeeding. Its initial idea of a single day evolved into World Breastfeeding Week, held for the first time in 1992 and observed each 1–7 August. The first campaign grew from organized public-health advocacy rather than a United Nations General Assembly proclamation. The date range recalls the beginning of August, when the Innocenti Declaration was finalized at a WHO/UNICEF policy meeting in Florence in 1990. WABA continues to coordinate annual themes; the campaign later linked its messaging to the Sustainable Development Goals.",
+          "promoter": "WABA originated and coordinates World Breastfeeding Week, building on the 1990 Innocenti Declaration developed by WHO/UNICEF meeting participants.",
+          "purpose": "Support breastfeeding rights, accessible evidence-based information, and policies that make informed infant-feeding choices possible.",
+          "facts": [
+            "WABA was founded in 1991 following the Innocenti Declaration of 1990.",
+            "The first World Breastfeeding Week occurred in 1992.",
+            "The annual campaign runs from 1 through 7 August and now addresses varied family and workplace issues."
+          ]
+        },
+        "it": {
+          "heading": "1–7 agosto: una settimana mondiale nata nel 1992",
+          "origin": "La World Alliance for Breastfeeding Action, WABA, nacque nel 1991 per tradurre in iniziative concrete la Dichiarazione degli Innocenti del 1990 sulla protezione e sul sostegno dell'allattamento. L'idea iniziale di una singola giornata si trasformò nella Settimana mondiale per l'allattamento, celebrata per la prima volta nel 1992 dal 1º al 7 agosto. La sua origine è un percorso di mobilitazione sanitaria, non una risoluzione istitutiva dell'Assemblea generale ONU. Il periodo richiama i giorni in cui fu definita a Firenze la dichiarazione del 1990 durante un incontro promosso da OMS e UNICEF. WABA continua a coordinare campagne e temi annuali, poi collegati anche agli Obiettivi di sviluppo sostenibile.",
+          "promoter": "La rete WABA ideò e coordina l'iniziativa, ispirata alla Dichiarazione degli Innocenti formulata nel 1990 da partecipanti all'incontro OMS/UNICEF.",
+          "purpose": "Sostenere informazione affidabile, diritti delle famiglie e condizioni sanitarie e lavorative favorevoli alle decisioni sull'alimentazione infantile.",
+          "facts": [
+            "La WABA fu fondata nel 1991 in seguito alla Dichiarazione del 1990.",
+            "La prima Settimana mondiale per l'allattamento si svolse nel 1992.",
+            "La settimana si tiene ogni anno dall'1 al 7 agosto e propone un tema specifico."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original WABA campaign history distinguishes 1990 Innocenti Declaration, 1991 WABA creation and inaugural 1992 campaign; no fabricated UN founding resolution. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-day-for-safety-and-health-at-work",
+      "introducedYear": 2003,
+      "firstObservedYear": 2003,
+      "sources": [
+        "https://www.ilo.org/resource/history-28-april",
+        "https://www.ilo.org/legacy/english/protection/safework/worldday/index_2003.htm"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 April: from workers' remembrance to prevention at work",
+          "origin": "The International Labour Organization began observing World Day for Safety and Health at Work on 28 April 2003 after a request from the international trade-union movement. The day built on Workers' Memorial Day, marked by unions since 1996 in memory of people killed or injured by occupational accidents and diseases. The ILO's inaugural 2003 material emphasized a preventive safety and health culture and the joint roles of governments, employers and workers. The two traditions share the calendar date but differ in emphasis: remembrance of victims and coordinated action to prevent future harm. An original ILO press account documents activities planned across countries in April 2003.",
+          "promoter": "The International Labour Organization instituted its worldwide campaign in 2003, responding to the trade-union movement's earlier 28 April remembrance initiative.",
+          "purpose": "Improve prevention of work-related injury and illness, encourage safer working conditions and strengthen social dialogue.",
+          "facts": [
+            "International trade unions marked Workers' Memorial Day on 28 April from 1996.",
+            "ILO's first global safety-and-health day was observed on 28 April 2003.",
+            "The ILO campaign explicitly brings together workers, employers and governments."
+          ]
+        },
+        "it": {
+          "heading": "28 aprile: dalla memoria dei lavoratori alla prevenzione degli infortuni",
+          "origin": "L'Organizzazione internazionale del lavoro iniziò a celebrare il 28 aprile la Giornata mondiale per la sicurezza e la salute sul lavoro nel 2003, su richiesta del movimento sindacale internazionale. Riprendeva un'esperienza precedente: dal 1996 i sindacati ricordavano nella stessa data i lavoratori morti o feriti per incidenti e malattie professionali. La campagna OIL del 2003 pose l'accento sulla prevenzione e sulla responsabilità condivisa di governi, datori di lavoro e lavoratori. Memoria delle vittime e cultura della sicurezza sono dunque storie collegate, ma non identiche. Il materiale ufficiale dell'edizione inaugurale descrive attività e iniziative in diversi Paesi.",
+          "promoter": "L'OIL istituì la propria campagna nel 2003 accogliendo la richiesta del mondo sindacale che celebrava già il 28 aprile.",
+          "purpose": "Ridurre infortuni e malattie professionali attraverso prevenzione, formazione e dialogo tra le parti sociali.",
+          "facts": [
+            "La commemorazione sindacale internazionale delle vittime iniziò nel 1996.",
+            "La prima giornata mondiale organizzata dall'OIL si tenne nel 2003.",
+            "La prevenzione coinvolge congiuntamente lavoratori, imprese e istituzioni."
+          ]
+        }
+      },
+      "sourceReviewNote": "ILO's first-party historical explanation and inaugural 2003 programme establish the trade union precursor, ILO launch year and 28 April. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-day-of-remembrance-for-road-traffic-victims",
+      "introducedYear": 2005,
+      "firstObservedYear": 1993,
+      "sources": [
+        "https://www.who.int/groups/united-nations-road-safety-collaboration/world-day-of-remembrance",
+        "https://digitallibrary.un.org/record/558920",
+        "https://www.who.int/publications/i/item/9241594527"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Sunday in November: a road-victims remembrance reaches the UN",
+          "origin": "The British road-victims organization RoadPeace began a remembrance event in 1993 for people killed and injured in traffic crashes and for bereaved families. Similar initiatives spread through road-victim groups in other countries. On 26 October 2005 the United Nations General Assembly adopted resolution A/RES/60/5, inviting the world to recognize the third Sunday in November as the World Day of Remembrance for Road Traffic Victims. The UN acknowledgement did not originate the earlier civil-society tradition. The movable Sunday supports worldwide ceremonies and public discussion of preventable deaths, safe roads and support for survivors. WHO works with victims' organizations and road-safety partners to sustain the commemoration.",
+          "promoter": "RoadPeace initiated the remembrance in 1993; the UN General Assembly formally recognized the worldwide day in 2005 through A/RES/60/5.",
+          "purpose": "Remember those harmed by road crashes while advocating safer transport, support for victims and prevention of avoidable traffic fatalities.",
+          "facts": [
+            "RoadPeace began remembrance activities in 1993 before UN recognition.",
+            "The General Assembly adopted resolution A/RES/60/5 in October 2005.",
+            "The annual date is the third Sunday in November rather than a fixed day of the month."
+          ]
+        },
+        "it": {
+          "heading": "Terza domenica di novembre: il ricordo delle vittime della strada arriva all'ONU",
+          "origin": "L'associazione britannica RoadPeace iniziò nel 1993 una commemorazione delle persone morte o ferite negli incidenti stradali e delle loro famiglie. Organizzazioni analoghe diffusero l'iniziativa in altri Paesi. Il 26 ottobre 2005 l'Assemblea generale ONU adottò A/RES/60/5, invitando a riconoscere la terza domenica di novembre come Giornata mondiale in memoria delle vittime della strada. Il riconoscimento ONU non coincide con la nascita del movimento civile, precedente di dodici anni. La domenica mobile favorisce cerimonie, testimonianze e iniziative sulla sicurezza, ricordando che molti incidenti e le loro conseguenze possono essere prevenuti. L'OMS sostiene le attività insieme alle associazioni di vittime e agli operatori della sicurezza stradale.",
+          "promoter": "RoadPeace avviò la commemorazione nel 1993; l'Assemblea generale ONU la riconobbe a livello mondiale nel 2005.",
+          "purpose": "Ricordare vittime e familiari, promuovere strade sicure e sostenere politiche concrete contro gli incidenti evitabili.",
+          "facts": [
+            "RoadPeace promosse le prime iniziative nel 1993.",
+            "L'ONU approvò A/RES/60/5 nell'ottobre 2005.",
+            "La ricorrenza cade ogni anno la terza domenica di novembre."
+          ]
+        }
+      },
+      "sourceReviewNote": "UN original resolution A/RES/60/5 and WHO/RoadPeace organizer chronology distinguish 1993 grassroots first observance from 2005 institutional recognition. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-day-of-romani-language",
+      "introducedYear": 2015,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.unesco.org/en/days/romani-language",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000235250"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 November: UNESCO recognizes Romani language and identity",
+          "origin": "UNESCO's General Conference proclaimed 5 November World Day of Romani Language at its 38th session in 2015. The resolution is a cultural and educational recognition intended to strengthen the preservation of the Romani language and the cultural rights of Romani-speaking communities. The observance does not create the language or its linguistic traditions: it gives institutional visibility to a heritage that existed long before UNESCO. The agency highlights dialectal diversity, research and the importance of teaching and sharing the language across generations. The individual year of a first UNESCO-organized annual ceremony and the exact historical reason for choosing 5 November are not established by the documents reviewed, so neither is invented.",
+          "promoter": "UNESCO's Member States proclaimed the international day in 2015; its purpose reflects advocacy for Romani-language preservation, without assigning an unverified individual founder.",
+          "purpose": "Support linguistic diversity, access to education, cultural recognition and the transmission of Romani heritage.",
+          "facts": [
+            "UNESCO proclaimed the observance during its 38th General Conference in 2015.",
+            "The calendar date is 5 November, with no first annual event verified here.",
+            "The observance specifically concerns language preservation and intercultural understanding."
+          ]
+        },
+        "it": {
+          "heading": "5 novembre: l'UNESCO riconosce lingua e identità romaní",
+          "origin": "La Conferenza generale UNESCO proclamò il 5 novembre Giornata mondiale della lingua romaní nel 2015, durante la sua 38ª sessione. Si tratta di un riconoscimento culturale ed educativo destinato a sostenere la lingua e i diritti delle comunità che la parlano. La proclamazione non ha creato la lingua né le sue tradizioni, che sono naturalmente molto precedenti. L'UNESCO richiama l'importanza dei diversi dialetti, dello studio linguistico e della trasmissione fra generazioni. Le fonti istituzionali utilizzate non individuano in modo indipendente né la prima cerimonia annuale organizzata sotto la nuova proclamazione né il motivo storico esatto della scelta del 5 novembre: questi dati restano aperti.",
+          "promoter": "Gli Stati membri riuniti nella Conferenza generale UNESCO adottarono il riconoscimento nel 2015, senza individuare un singolo fondatore personale verificato.",
+          "purpose": "Difendere il pluralismo linguistico, l'educazione e la continuità della cultura e del patrimonio romaní.",
+          "facts": [
+            "La proclamazione UNESCO avvenne alla 38ª Conferenza generale del 2015.",
+            "La ricorrenza annuale è fissata al 5 novembre.",
+            "La tutela linguistica si collega al dialogo interculturale e alla trasmissione della cultura."
+          ]
+        }
+      },
+      "sourceReviewNote": "UNESCO original proclamation and official observance verify 2015 formal year; distinct earliest UN-organized ceremony and exact date anniversary left null. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
+    },
+    {
+      "observanceId": "world-immunization-week",
+      "introducedYear": 2012,
+      "firstObservedYear": 2012,
+      "sources": [
+        "https://www.who.int/news-room/events/detail/2012/04/24/default-calendar/world-immunization-2012",
+        "https://www.who.int/en/campaigns/world-immunization-week"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24–30 April: regional vaccination campaigns become one global WHO week",
+          "origin": "In April 2012 the World Health Organization organized World Immunization Week as a worldwide coordinated campaign following earlier vaccination weeks in several of its regions. The WHO's own first global 2012 campaign page documents the transition to a common international awareness initiative, with activities linked to the protection vaccines provide against infectious diseases. Its date range is now generally 24–30 April, although some 2012 materials use the slightly different 21–28 April period. It should not be misrepresented as an observance founded by a specific UN General Assembly resolution. The WHO campaign emphasizes reaching underserved communities, maintaining vaccination systems and protecting people throughout life.",
+          "promoter": "The World Health Organization coordinated the first global World Immunization Week in 2012, building on previous regional immunization campaigns.",
+          "purpose": "Promote evidence-based vaccination, equitable access to immunization and protection from preventable infectious diseases.",
+          "facts": [
+            "WHO's first global campaign is recorded in April 2012.",
+            "Its annual modern campaign interval is 24–30 April.",
+            "The campaign builds on earlier regional vaccination weeks, rather than replacing their history."
+          ]
+        },
+        "it": {
+          "heading": "24–30 aprile: le campagne vaccinali regionali diventano una settimana globale OMS",
+          "origin": "Nel 2012 l'Organizzazione mondiale della sanità avviò una Settimana mondiale dell'immunizzazione coordinata su scala globale, facendo convergere campagne vaccinali già esistenti in varie regioni. La pagina ufficiale della prima edizione documenta l'obiettivo di sensibilizzare sull'importanza delle vaccinazioni contro le malattie infettive. Oggi il calendario indica generalmente il 24–30 aprile, mentre alcuni materiali della prima edizione riportavano una finestra leggermente diversa, dal 21 al 28 aprile. Non si attribuisce quindi l'origine a una inesistente risoluzione istitutiva dell'Assemblea generale. L'OMS insiste su accesso equo, comunità meno servite e continuità dei programmi vaccinali.",
+          "promoter": "L'OMS coordinò la prima settimana mondiale nel 2012, sviluppando campagne regionali precedenti.",
+          "purpose": "Diffondere informazioni scientificamente fondate sui vaccini e migliorare la protezione delle persone dalle infezioni prevenibili.",
+          "facts": [
+            "La prima campagna globale OMS venne organizzata nell'aprile 2012.",
+            "La finestra annuale oggi utilizzata è generalmente il 24–30 aprile.",
+            "L'iniziativa nacque dall'estensione di precedenti campagne di immunizzazione regionali."
+          ]
+        }
+      },
+      "sourceReviewNote": "WHO 2012 original campaign and WHO historical campaign archive establish original global first year and explain early variation in April dates. This independently source-linked IT/EN draft requires qualified human factual and six-language native editorial review; runtime publication remains unapproved."
     }
   ]
 }
