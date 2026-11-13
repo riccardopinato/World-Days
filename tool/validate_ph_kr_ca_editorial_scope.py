@@ -87,5 +87,6 @@ for record in pilot["records"]:
         assert len(story["purpose"]) >= 50
         assert len(story["facts"]) == 3
         assert all(len(fact) >= 30 for fact in story["facts"])
-    assert "pending" in record["sourceReviewNote"].lower() or "await" in record["sourceReviewNote"].lower()
+    assert len(record["sourceReviewNote"]) >= 60
+    assert "approved" not in record["sourceReviewNote"].lower()
 print("PASS: 2 new PH/KR source-backed six-locale dossiers, research-only; Canada PR119 reused")
