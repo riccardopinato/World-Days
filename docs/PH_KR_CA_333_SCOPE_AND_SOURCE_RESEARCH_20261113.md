@@ -65,3 +65,53 @@ Canadian Heritage calendar: https://www.canada.ca/en/canadian-heritage/services/
 4. Supply all six substantive locale stories *per distinct canonical identity*, not per market.
 5. Obtain explicit qualified factual and native-language editorial signoff; machine schema checks do not substitute for it.
 6. Validate generated dataset, locale parity, CI exact head, no duplicate IDs/changes to saved state, and merge only approved bounded PRs.
+
+
+## Incremental research sprint — 14 November 2026
+
+The separate per-candidate reconciliation is committed at
+`data/editorial/audits/ph_kr_ca_180_origin_coverage_matrix_20261114.json`.
+
+This matrix is the basis for further original-source editorial research.
+It records the actual number of locales in the referenced branch, **not**
+an assumption from an open PR title.
+
+| Country | Retained candidates | Six-locale AI draft | EN/IT draft | No origin draft |
+| --- | ---: | ---: | ---: | ---: |
+| Philippines | 91 | **7** | **2** | **82** |
+| South Korea | 57 | **6** | **7** | **44** |
+| Canada | 32 | **32** | **0** | **0** |
+| **Total** | **180** | **45** | **9** | **126** |
+
+### Eleven new fully localized research dossiers in this PR
+- `ph-national-heroes-day` — original Act No. 3827 (1931), later last-Monday rule.
+- `ph-ninoy-aquino-day` — Republic Act No. 9256 (2004), special non-working holiday.
+- `ph-edsa-people-power-anniversary` — NHCP historical marker; special **working** day under 2026 proclamation.
+- `ph-w13-national-heritage-month` — Proclamation No. 439 (2003), annual **May** heritage-awareness month.
+- `ph-rizal-day` — 1898 national mourning decree, Act No. 345 (1902) public-holiday designation.
+- `ph-w13-rizal-month` — Proclamation No. 126 (2001), annual **December** cultural month; distinct from 30 December public holiday.
+- `kr-hangeul-day` — Hangeul national-day addition **2005**; public holiday resumed **2013**.
+- `kr-constitution-day` — 1948 constitution, National Days Act 1949; public holiday **restored 2026**.
+- `kr-liberation-day` — 1945 independence/liberation; 1948 government inauguration; 1949 national day.
+- `kr-national-foundation-day` — Dangun/Gojoseon founding **legend**, distinct from verifiable event; national day Act 1949.
+- `kr-memorial-day` — 1956 presidential decree and first annual observance; distinct from the five celebratory national days.
+
+**Six original locales** for every new dossier: English master plus Italian, Spanish, French, German and Portuguese. Each narrative includes heading, substantive history/origin, promoter, significance, three facts, and at least two evidence URLs. The eleven dossiers are stored in five JSON research files under `data/editorial/research_batches/` and are validated by `tool/validate_ph_kr_ca_180_origin_coverage.py`.
+
+### Correctness details that must survive downstream adoption
+- The 153 Philippine biographical anniversaries are excluded from *proposed editorial scope*, but historical figures' **legally established national days** (Ninoy Aquino Day, Rizal Day, Bonifacio Day) are not excluded.
+- The Korean 1949 National Days Act originally covered **four** days; Hangeul Day was added in **2005**. Do not populate 1949 as the legal introduction of Hangeul Day.
+- Constitution Day in Korea regained its public holiday classification in **2026**. Old claims that it is not a public holiday are stale.
+- The EDSA anniversary in the **2026 Philippine proclamation** is a special **working** day; do not label it a nationwide regular non-working holiday.
+- National Foundation Day invokes a **founding legend**, never certify the legend as a historically documented foundation year.
+- A NATIONAL MONTH, a NATIONAL DAY, a public holiday and an INSTITUTIONAL COMMEMORATION are distinct catalog classes.
+- No new story has been merged to `main`, published in runtime or approved by a qualified human reviewer.
+
+### Evidence and acceptance
+Official sources include the Philippine Senate Legislative Reference Bureau, the Supreme Court E-Library, the NCCA/Philippine NHCP, the Presidential Communications Office, the Korean MOIS, Korean Ministry of Patriots and Veterans Affairs and official Korean legislation translations. Per-record URLs appear in the research JSON rather than relying on a single unqualified national calendar link.
+
+Machine acceptance now enforces:
+`python3 tool/validate_ph_kr_ca_editorial_scope.py` plus
+`python3 tool/validate_ph_kr_ca_180_origin_coverage.py`.
+
+**Approval is still pending qualified factual/legal and native six-locale editorial reviews; this process cannot be substituted by AI translations or CI.** Source-linked drafting improves evidence and readiness, but does not activate `runtimeRichEditorialApproved`.
