@@ -10,8 +10,8 @@
   "batchSizeLimit": 100,
   "recordCount": 100,
   "progress": {
-    "individuallyResearchedInThisBlock": 87,
-    "awaitingIndependentResearch": 13,
+    "individuallyResearchedInThisBlock": 100,
+    "awaitingIndependentResearch": 0,
     "blockedForMissingOriginalSource": 0,
     "qualifiedSixLocaleHumanReviewed": 0,
     "publishedAsRichEditorial": 0
@@ -249,15 +249,18 @@
       ],
       "titleEn": "International Day for Small Island Developing States",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2025,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/days/sids",
+        "https://www.unesco.org/en/general-conference/43"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -300,15 +303,19 @@
       ],
       "titleEn": "International Day of Awareness of the Special Development Needs and Challenges of Landlocked Developing Countries",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2025,
+      "firstObservedYearVerified": 2025,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://digitallibrary.un.org/record/4086742",
+        "https://www.un.org/en/observances/landlocked-developing-countries-day",
+        "https://digitallibrary.un.org/record/4085601"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -351,15 +358,19 @@
       ],
       "titleEn": "International Day of Nomadic Heritage",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2025,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.unesco.org/en/general-conference/43/commissions/shs",
+        "https://www.gov.kz/memleket/entities/mfa/press/news/details/1104712?lang=en",
+        "https://ich.unesco.org/en/Decisions/19.COM/7.b.49"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -674,15 +685,19 @@
       ],
       "titleEn": "Week of Solidarity with the Peoples Struggling against Racism and Racial Discrimination",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1979,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://mandates.un.org/mandate/A/RES/34/24",
+        "https://ask.un.org/faq/306811",
+        "https://www.un.org/en/observances/end-racism-day"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [],
@@ -1445,15 +1460,18 @@
       ],
       "titleEn": "Day of Remembrance for Victims of Terrorism — Spain",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2011,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&p=20261021&tn=0",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15039&lang=es&p=&tn=1"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1762,15 +1780,18 @@
       ],
       "titleEn": "National Sea Day — Portugal",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1998,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://portugal.gov.pt/gc22/comunicacao/noticias/ministro-incentiva-maior-aproximacao-dos-portugueses-ao-mar",
+        "https://portugal.gov.pt/gc23/comunicacao/comunicados/governo-assinala-dia-nacional-do-mar"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1846,15 +1867,19 @@
       ],
       "titleEn": "1918 Armistice Commemoration — France",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1922,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.senat.fr/rap/l11-262/l11-2621.html",
+        "https://www.senat.fr/questions/base/2019/qSEQ191113088.html",
+        "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025414776"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1872,15 +1897,18 @@
       ],
       "titleEn": "Admiral Yi Sun-sin Birthday Commemoration — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1967,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=49239",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1898,15 +1926,18 @@
       ],
       "titleEn": "Aerospace Day in Korea — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2024,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1924,15 +1955,18 @@
       ],
       "titleEn": "Aleksis Kivi and Finnish Literature Day — Finland",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1978,
+      "firstObservedYearVerified": 1950,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://almanakka.helsinki.fi/ajankohtaista/aleksis-kiven-paivana-juhlitaan-suomalaista-kirjallisuutta",
+        "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-finland/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -1950,15 +1984,18 @@
       ],
       "titleEn": "Alfred Nobel Day — SE",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
       "formalIntroductionYearVerified": null,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+        "https://www.nobelprize.org/ceremonies/the-nobel-prize-award-ceremony-1901/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2063,15 +2100,18 @@
       ],
       "titleEn": "Anniversary of the Statute of Westminster (Canada)",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
       "formalIntroductionYearVerified": null,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/anniversary-statute-westminster.html",
+        "https://justice.canada.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t171.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2149,15 +2189,18 @@
       ],
       "titleEn": "April 19 Revolution Day — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1973,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2175,15 +2218,19 @@
       ],
       "titleEn": "Araw ng Kagitingan — Day of Valor — Philippines",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1961,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/8049",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/9/5743"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2201,15 +2248,18 @@
       ],
       "titleEn": "Arbor Day in Korea — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1949,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2286,15 +2336,19 @@
       ],
       "titleEn": "Armenian Genocide Remembrance Day (Canada)",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2015,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.ourcommons.ca/members/en/brad-butt%2830314%29/motions/7892046",
+        "https://www.pm.gc.ca/en/news/statements/2022/04/24/statement-prime-minister-armenian-genocide-memorial-day",
+        "https://canada.mfa.am/en/news/2016/04/24/yeganian_parliamentspeech/3261"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2342,15 +2396,19 @@
       ],
       "titleEn": "Battle of Angamos Day — Peru",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1940,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.congreso.gob.pe/Docs/DGP/DIDP/procedimientos-autografas-ENVIADAS-2021-2026.html",
+        "https://www.gob.pe/27103-historia-de-la-marina-de-guerra-del-peru-siglo-xix",
+        "https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Mociones_de_Orden_del_Dia/Saludo/MC0710920181005.pdf"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2368,15 +2426,18 @@
       ],
       "titleEn": "Battle of Arica and Flag Day — Peru",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2023,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/2187453-1/",
+        "https://www.elperuano.pe/noticia/215409-ley-no-31788-declaran-feriado-nacional-el-7-de-junio-por-el-dia-de-la-bandera"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2394,15 +2455,18 @@
       ],
       "titleEn": "Battle of Ayacucho Day — Peru",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2013,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/1025734-1",
+        "https://comunicaciones.congreso.gob.pe/noticias/declaran-feriado-el-9-de-diciembre-al-conmemorarse-la-batalla-de-ayacucho/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2420,15 +2484,18 @@
       ],
       "titleEn": "Battle of Junín Day — Peru",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2022,
+      "firstObservedYearVerified": 2022,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://busquedas.elperuano.pe/dispositivo/NL/2089960-2",
+        "https://www.gob.pe/institucion/sunafil/noticias/637979-feriado-del-6-de-agosto-deberas-recibir-un-pago-adicional-si-trabajas-este-dia"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2475,15 +2542,19 @@
       ],
       "titleEn": "Bonifacio Day — Philippines",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1921,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://ldr.senate.gov.ph/legislative-issuance/act-no-2946",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/36191",
+        "https://www.nationalmuseum.gov.ph/2021/11/30/bonifacio-day-onthisday-feature/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2501,15 +2572,19 @@
       ],
       "titleEn": "British Home Child Day (Canada)",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2018,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.ourcommons.ca/members/en/25516/motions/8853980",
+        "https://www.ontario.ca/laws/statute/s11014",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2527,15 +2602,18 @@
       ],
       "titleEn": "Bu-Ma Democratic Protests Remembrance Day — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2019,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2582,15 +2660,19 @@
       ],
       "titleEn": "Canadian Armed Forces Day",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2002,
+      "firstObservedYearVerified": 2002,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.canada.ca/en/news/archive/2005/06/canadians-celebrate-canadian-forces-day-june-5.html",
+        "https://www.canada.ca/en/news/archive/2015/06/associate-minister-national-defence-julian-fantino-statement-celebrating-canadian-armed-forces-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2608,15 +2690,19 @@
       ],
       "titleEn": "Carpathian Dukla Operation Heroes Day — SK",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1993,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html",
+        "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2015/409/20160101.html",
+        "https://www.upn.gov.sk/sk/8-september-1944-zaciatok-karpatsko-duklianskej-operacie/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2634,15 +2720,20 @@
       ],
       "titleEn": "Cernova Tragedy Remembrance Day — SK",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1993,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html",
+        "https://www.nrsr.sk/web/Default.aspx?MasterID=33608&sid=udalosti%2Fudalost",
+        "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=267360",
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2660,15 +2751,19 @@
       ],
       "titleEn": "Children's Day — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1961,
+      "firstObservedYearVerified": 1923,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+        "https://contents.history.go.kr/front/hm/view.do?levelId=hm_136_0070"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2686,15 +2781,19 @@
       ],
       "titleEn": "Christopher Columbus Commemoration — Italy",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 2004,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=04A03601&atto.dataPubblicazioneGazzetta=2004-04-13&atto.tipoProvvedimento=DIRETTIVA+DEL+PRESIDENTE+DEL+CONSIGLIO+DEI+MINISTRI",
+        "https://archivio.quirinale.it/aspr/comunicati/PRESSRELEASE-001-004027/presidente/carlo-azeglio-ciampi/il-presidente-ciampi-ha-ricevuto-comitato-nazionale-celebrazioni-cristoforo-colombo",
+        "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2712,15 +2811,19 @@
       ],
       "titleEn": "Columbus Day — United States",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
-      "firstObservedYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1968,
+      "firstObservedYearVerified": 1971,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://text-message.blogs.archives.gov/2024/02/27/when-will-you-be-in-the-office-1959/",
+        "https://georgewbush-whitehouse.archives.gov/news/releases/2001/10/20011008-9.html",
+        "https://www.archives.gov/publications/prologue/2004/winter/gw-birthday-1.html"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     },
     {
       "countries": [
@@ -2738,16 +2841,19 @@
       ],
       "titleEn": "Coming of Age Day in Korea — South Korea",
       "workType": "RESEARCH_AND_DRAFT_NEW_ORIGIN_STORY",
-      "originResearchStage": "NOT_INDIVIDUALLY_VERIFIED_FOR_THIS_BATCH",
-      "formalIntroductionYearVerified": null,
+      "originResearchStage": "SOURCE_LINKED_IT_EN_ORIGIN_DRAFT_PENDING_QUALIFIED_EDITORIAL_REVIEW",
+      "formalIntroductionYearVerified": 1973,
       "firstObservedYearVerified": null,
       "verifiedFounderOrPromoter": null,
       "dateRationaleVerified": null,
       "primaryOriginActVerified": null,
-      "verifiedSourceUrls": [],
+      "verifiedSourceUrls": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
       "blockedReason": null,
-      "storyFile": null
+      "storyFile": "data/editorial/batches/origin_stories_wave20_20261113.json"
     }
   ],
-  "progressNote": "70/100 distinct canonical source-researched EN/IT draft origin stories; 30 outstanding in same frozen 100-ID cohort. No human six-language editorial signoff and no rich-runtime publishing."
+  "progressNote": "All 100 original IT/EN research drafts are individually source-linked and committed; each canonical ID has distinct history text, promoter/date/first-observance fields and specific references. These remain model-authored research rather than independently human certified six-locale rich editorial; no runtime article release."
 }
