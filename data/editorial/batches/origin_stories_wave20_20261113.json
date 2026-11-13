@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 95,
+  "count": 98,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -3259,6 +3259,111 @@
         }
       },
       "sourceReviewNote": "US National Archives 1968/1971 Monday holiday history and original White House proclamation citing 1934 joint resolution distinguish proclamations from the actual statutory federal holiday; original date 12 October 1492 and contested legacy contextualized. Individual primary-source-linked model-authored IT/EN text; independent human factual review and qualified native six-language editorial review pending; runtime rich editorial approval false."
+    },
+    {
+      "observanceId": "ca-armenian-genocide-remembrance",
+      "introducedYear": 2015,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.ourcommons.ca/members/en/brad-butt%2830314%29/motions/7892046",
+        "https://www.pm.gc.ca/en/news/statements/2022/04/24/statement-prime-minister-armenian-genocide-memorial-day",
+        "https://canada.mfa.am/en/news/2016/04/24/yeganian_parliamentspeech/3261"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24 April: Canada's parliamentary recognition of Armenian genocide remembrance",
+          "origin": "On 24 April 2015 the Canadian House of Commons adopted Motion M-587, moved by MP Brad Butt. It reaffirmed the House's earlier Armenian-genocide recognition resolution of 21 April 2004, recognized April as Genocide Remembrance, Condemnation and Prevention Month and expressly identified 24 April as Armenian Genocide Memorial Day. The date recalls the arrests of Armenian intellectuals in Constantinople on 24 April 1915, explained in a contemporary statement by the Armenian ambassador in Ottawa. The 2004 genocide recognition and 2015 explicit parliamentary memorial-day acknowledgment are separate milestones, and the 2015 motion is not itself an act establishing a nationwide statutory day off. A first community observance in Canada predating Parliament's acknowledgment cannot be fixed from those records.",
+          "promoter": "MP Brad Butt introduced House Motion M-587, accepted on 24 April 2015; Armenian Canadian remembrance precedes the parliamentary recognition.",
+          "purpose": "Honour Armenian genocide victims, survivors and descendants and promote education and prevention of mass atrocities.",
+          "facts": [
+            "Canada's Commons had recognized the Armenian genocide in April 2004.",
+            "Motion M-587 acknowledging 24 April as the memorial day was adopted in April 2015.",
+            "The date refers to the 1915 arrests of Armenian intellectuals in Constantinople."
+          ]
+        },
+        "it": {
+          "heading": "24 aprile: il riconoscimento parlamentare canadese della memoria armena",
+          "origin": "Il 24 aprile 2015 la Camera dei Comuni canadese approvò la mozione M-587, proposta dal deputato Brad Butt. Ribadiva il riconoscimento del genocidio armeno espresso dalla Camera il 21 aprile 2004, designava aprile come mese del ricordo, della condanna e della prevenzione dei genocidi e indicava il 24 aprile come Giornata della memoria del genocidio armeno. La data ricorda gli arresti di intellettuali armeni a Costantinopoli il 24 aprile 1915, richiamati anche in una dichiarazione dell'ambasciatore armeno a Ottawa. Il riconoscimento del genocidio nel 2004 e la menzione parlamentare della ricorrenza nel 2015 sono due passaggi distinti. La mozione non istituisce di per sé una festività federale non lavorativa; le fonti non individuano la primissima celebrazione comunitaria in Canada.",
+          "promoter": "Il deputato Brad Butt presentò la mozione M-587, adottata il 24 aprile 2015; la memoria nelle comunità armene canadesi è precedente.",
+          "purpose": "Ricordare vittime e sopravvissuti del genocidio armeno e sostenere educazione storica e prevenzione delle atrocità.",
+          "facts": [
+            "La Camera canadese riconobbe il genocidio armeno nell'aprile 2004.",
+            "La mozione M-587 del 2015 menziona il 24 aprile come giorno della memoria.",
+            "La data richiama gli arresti di intellettuali armeni del 1915 a Costantinopoli."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original 2015 Canadian House Motion M-587, subsequent prime-ministerial explanation and original Armenian embassy commemorative speech establish designation, distinction from 2004 and historical date. First Canadian community observance unknown; House motion not federal public holiday statute. IT/EN research needs independent human factual and qualified native six-language review; Rich Editorial not approved."
+    },
+    {
+      "observanceId": "ca-british-home-child-day",
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.ourcommons.ca/members/en/25516/motions/8853980",
+        "https://www.ontario.ca/laws/statute/s11014",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 September: Canada remembers the British Home Children",
+          "origin": "On 7 February 2018 the Canadian House of Commons approved Motion M-133, moved by MP Guy Lauzon, urging national recognition of British Home Child Day each 28 September. The motion honours over 100,000 children brought to Canada from Britain through child-migration programmes; many were separated from their families and placed in agricultural or domestic labour. The national parliamentary acknowledgment followed a provincial statute: Ontario's British Home Child Day Act received Royal Assent on 1 June 2011 and designated the same September date. The two legal milestones must not be conflated: Ontario enacted a binding provincial law, whereas M-133 expressed the federal House's view rather than legislating a new national public holiday. The original specific reason for selecting 28 September and the first nationally organized ceremony are not demonstrated in these two measures.",
+          "promoter": "MP Guy Lauzon brought the federal House motion in 2018; Ontario's provincial legislature established the day for that province in 2011.",
+          "purpose": "Honour the contributions and hardships of British Home Children and educate Canadians about the history of child migration.",
+          "facts": [
+            "Ontario's British Home Child Day Act received Royal Assent on 1 June 2011.",
+            "Canada's House of Commons adopted Motion M-133 on 7 February 2018.",
+            "The federal motion refers to more than 100,000 British Home Children sent to Canada."
+          ]
+        },
+        "it": {
+          "heading": "28 settembre: il Canada ricorda i British Home Children",
+          "origin": "Il 7 febbraio 2018 la Camera dei Comuni canadese approvò la mozione M-133 del deputato Guy Lauzon, chiedendo di riconoscere ogni 28 settembre la giornata dei British Home Children a livello nazionale. Il testo ricorda oltre 100.000 bambini trasferiti dalla Gran Bretagna in Canada tramite programmi di migrazione minorile; molti furono allontanati dai familiari e affidati a lavori agricoli o domestici. Il riconoscimento federale seguì una legge provinciale: il British Home Child Day Act dell'Ontario ricevette l'assenso reale il 1º giugno 2011 e stabilì la stessa data. I due atti hanno diversa natura: quello dell'Ontario è una legge, mentre la mozione esprime l'indirizzo della Camera e non crea una festività federale non lavorativa. Le fonti non provano perché fu scelto originariamente il 28 settembre né quando si tenne la prima cerimonia nazionale.",
+          "promoter": "Guy Lauzon presentò la mozione federale del 2018; il legislatore dell'Ontario aveva approvato una legge provinciale nel 2011.",
+          "purpose": "Riconoscere le esperienze e le difficoltà dei British Home Children e diffondere conoscenza sulla migrazione infantile.",
+          "facts": [
+            "L'Ontario approvò la legge provinciale il 1º giugno 2011.",
+            "La Camera dei Comuni adottò la mozione M-133 il 7 febbraio 2018.",
+            "La mozione ricorda oltre 100.000 bambini trasferiti in Canada."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Canadian House Motion M-133 of February 2018 and Ontario original 2011 British Home Child Day statute independently distinguish federal parliamentary endorsement from provincial legislation. The earliest Canadian national commemoration and the initial reason for the chosen date remain unverified. IT/EN research pending human factual and qualified native six-language editorial review; Rich Editorial not approved."
+    },
+    {
+      "observanceId": "ca-armed-forces-day",
+      "introducedYear": 2002,
+      "firstObservedYear": 2002,
+      "sources": [
+        "https://www.canada.ca/en/news/archive/2005/06/canadians-celebrate-canadian-forces-day-june-5.html",
+        "https://www.canada.ca/en/news/archive/2015/06/associate-minister-national-defence-julian-fantino-statement-celebrating-canadian-armed-forces-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "First Sunday in June: Canada's day to thank its armed forces",
+          "origin": "On 31 May 2002 Canada's prime minister proclaimed the first Sunday in June as Canadian Forces Day, responding to a unanimously supported private member's motion. The 2005 Department of National Defence announcement explicitly called that year's 5 June celebration the fourth annual Canadian Forces Day: this contemporaneous sequence independently confirms the inaugural year of 2002. Later public statements use the name Canadian Armed Forces Day. The annual commemoration recognizes regular and reserve personnel, their families and service at home and abroad, including disaster response, peace operations and humanitarian support. Because its recurrence is the first Sunday of June, the numbered date changes each year. It is a public recognition day rather than a fixed calendar anniversary or a substitute for Remembrance Day.",
+          "promoter": "The prime minister issued the 2002 proclamation following a unanimously adopted private member's motion; the Department of National Defence oversees public recognition events.",
+          "purpose": "Recognize the service of Canadian Armed Forces members and their families and increase public awareness of their work.",
+          "facts": [
+            "Canada's prime minister made the annual proclamation on 31 May 2002.",
+            "The federal 2005 announcement describes its edition as the fourth annual Canadian Forces Day.",
+            "The date is the first Sunday of June, not a permanently fixed numbered date."
+          ]
+        },
+        "it": {
+          "heading": "Prima domenica di giugno: il Canada ringrazia le proprie Forze armate",
+          "origin": "Il 31 maggio 2002 il primo ministro canadese proclamò la prima domenica di giugno Canadian Forces Day, accogliendo una mozione parlamentare d'iniziativa individuale approvata all'unanimità. Un comunicato del Ministero della difesa del 2005 definì la celebrazione del 5 giugno di quell'anno la quarta edizione annuale: la sequenza contemporanea conferma quindi il debutto nel 2002. In seguito si è diffuso il nome Canadian Armed Forces Day. La giornata riconosce il contributo del personale in servizio e di riserva, delle famiglie e delle missioni in Canada e all'estero, compresi soccorsi, operazioni di pace e aiuti umanitari. Poiché cade la prima domenica di giugno, il giorno del mese varia ogni anno. È una ricorrenza pubblica distinta dal Remembrance Day e non un anniversario numerico fisso.",
+          "promoter": "Il primo ministro emise la proclamazione nel 2002 dopo una mozione parlamentare unanime; il Ministero della difesa partecipa alle attività.",
+          "purpose": "Riconoscere il servizio del personale delle Forze armate e delle famiglie e spiegarne il ruolo alla popolazione.",
+          "facts": [
+            "Il primo ministro proclamò la giornata il 31 maggio 2002.",
+            "Il comunicato federale del 2005 parlava della quarta edizione annuale.",
+            "La data è la prima domenica di giugno, quindi cambia numero ogni anno."
+          ]
+        }
+      },
+      "sourceReviewNote": "Canadian National Defence first-party 2005 retrospective quotes original 31 May 2002 proclamation and calls 2005 fourth annual, grounding founding and initial observance; a separate 2015 official statement documents modern title. IT/EN draft remains subject to independent factual and qualified native six-language human review, not Rich Editorial approved."
     }
   ]
 }
