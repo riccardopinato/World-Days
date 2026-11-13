@@ -3,7 +3,7 @@
   "reviewedOn": "2026-11-13",
   "sourcePolicy": "Primary institution-specific evidence and original IT/EN model-authored narratives; human factual/native six-locale review not claimed.",
   "status": "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",
-  "count": 98,
+  "count": 100,
   "records": [
     {
       "observanceId": "african-world-heritage-day",
@@ -3364,6 +3364,77 @@
         }
       },
       "sourceReviewNote": "Canadian National Defence first-party 2005 retrospective quotes original 31 May 2002 proclamation and calls 2005 fourth annual, grounding founding and initial observance; a separate 2015 official statement documents modern title. IT/EN draft remains subject to independent factual and qualified native six-language human review, not Rich Editorial approved."
+    },
+    {
+      "observanceId": "sk-carpathian-dukla-operation-heroes-day",
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "sources": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html",
+        "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2015/409/20160101.html",
+        "https://www.upn.gov.sk/sk/8-september-1944-zaciatok-karpatsko-duklianskej-operacie/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 October: Slovak Dukla remembrance changes name but retains its wartime date",
+          "origin": "Slovakia's National Council adopted Act No. 241/1993 on 20 October 1993 and included 6 October among national memorial days under the original name Day of the Victims of Dukla. On 24 November 2015 lawmakers adopted Act No. 409/2015, effective 1 January 2016, which renamed the existing date Day of the Heroes of the Carpathian-Dukla Operation. The historical reference is the crossing of the Czechoslovak border by advance elements of the First Czechoslovak Army Corps at Dukla Pass on 6 October 1944 during the fight against Nazi Germany. The military operation itself began on 8 September 1944 and continued until late October. The National Memory Institute documents the campaign and its losses. The event of 1944, first memorial-day law of 1993, and change of official title in 2015/2016 must not be confused; an individually evidenced inaugural 1993 or 1994 memorial ceremony remains unknown.",
+          "promoter": "Slovakia's National Council formally recognized the October memorial through Act 241/1993 and renamed it in Act 409/2015.",
+          "purpose": "Remember people who fought and died during the Dukla operation while strengthening careful public historical understanding of World War II.",
+          "facts": [
+            "The original 1993 statutory name was Day of the Victims of Dukla.",
+            "Law 409/2015 renamed the date Day of the Heroes of the Carpathian-Dukla Operation from January 2016.",
+            "The commemoration recalls the Czechoslovak border crossing at Dukla Pass on 6 October 1944."
+          ]
+        },
+        "it": {
+          "heading": "6 ottobre: la Slovacchia cambia il nome della memoria di Dukla",
+          "origin": "Il Consiglio nazionale slovacco approvò il 20 ottobre 1993 la legge n. 241/1993, inserendo il 6 ottobre fra le giornate commemorative con il nome originale Giorno delle vittime di Dukla. Il 24 novembre 2015 il Parlamento adottò la legge n. 409/2015, efficace dal 1º gennaio 2016, che rinominò la stessa data Giorno degli eroi dell'operazione dei Carpazi-Dukla. L'episodio ricordato è il passaggio del confine cecoslovacco da parte delle avanguardie del Primo corpo d'armata cecoslovacco al passo di Dukla il 6 ottobre 1944, nella guerra contro la Germania nazista. L'operazione militare era iniziata l'8 settembre e proseguì fino a fine ottobre. L'Istituto slovacco per la memoria nazionale documenta la campagna e le perdite umane. Evento del 1944, prima legge commemorativa del 1993 e cambio di nome del 2015/2016 sono tappe distinte; non è provata una precisa cerimonia inaugurale dopo la legge.",
+          "promoter": "Il Consiglio nazionale slovacco riconobbe legalmente la ricorrenza nel 1993 e ne modificò il nome con la legge del 2015.",
+          "purpose": "Onorare i caduti dell'operazione di Dukla e promuovere una ricostruzione storica accurata della Seconda guerra mondiale.",
+          "facts": [
+            "Nel 1993 la legge parlava di Giorno delle vittime di Dukla.",
+            "La legge 409/2015 introdusse la denominazione attuale dal 2016.",
+            "Il 6 ottobre 1944 reparti cecoslovacchi varcarono il confine al passo di Dukla."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Slovak statute 241/1993 §3 designated October 6 Day of Dukla Victims; statute 409/2015 changed the name with effect from January 2016. National Memory Institute wartime history confirms October 6 border crossing and September operation start. No first annual post-enactment ceremony evidenced. Model-authored IT/EN source research, independent human factual and qualified native six-language editorial review pending; Rich Editorial not approved."
+    },
+    {
+      "observanceId": "sk-cernova-tragedy-remembrance-day",
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "sources": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/vyhlasene_znenie.print.html",
+        "https://www.nrsr.sk/web/Default.aspx?MasterID=33608&sid=udalosti%2Fudalost",
+        "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=267360",
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 October: Slovakia remembers the Černová shooting of 1907",
+          "origin": "The original Slovak Act 241/1993, adopted by the National Council on 20 October 1993, designated 27 October a national memorial day for the Černová tragedy. The date refers to 27 October 1907 in Černová, now a district of Ružomberok, when gendarmes of the Kingdom of Hungary shot into a crowd protesting the planned consecration of a new church without local-born priest Andrej Hlinka. Hlinka had been suspended, and villagers demanded the event be delayed. Fifteen people died and others were injured. In 2007, Slovakia's parliament marked the centenary, describing fifteen deaths, twelve serious injuries and subsequent prosecutions of residents. These events became central to Slovak historical memory and contemporary discussion of minority rights and government repression. The shooting in 1907, statutory memorial designation in 1993 and centenary resolution in 2007 are separate milestones; the first annual state ceremony under the 1993 law cannot be established from these documents.",
+          "promoter": "The National Council of the Slovak Republic established the commemorative date in Act 241/1993; its subject is the villagers affected by the 1907 shooting.",
+          "purpose": "Remember people killed in Černová and encourage historical study of civil rights, community identity and the consequences of repression.",
+          "facts": [
+            "The Černová shooting took place on 27 October 1907.",
+            "Act 241/1993 listed 27 October among Slovakia's national memorial dates.",
+            "The Slovak parliament's 2007 centenary text identified fifteen deaths and twelve seriously injured people."
+          ]
+        },
+        "it": {
+          "heading": "27 ottobre: la Slovacchia ricorda la tragedia di Černová",
+          "origin": "La legge slovacca 241/1993, adottata dal Consiglio nazionale il 20 ottobre 1993, designò il 27 ottobre come giornata commemorativa nazionale della tragedia di Černová. La data richiama il 27 ottobre 1907, quando a Černová, oggi parte di Ružomberok, i gendarmi del Regno d'Ungheria spararono contro una folla che protestava per la prevista consacrazione di una nuova chiesa senza il sacerdote locale Andrej Hlinka. Hlinka era stato sospeso e gli abitanti chiedevano di rinviare la cerimonia. Morirono quindici persone e altre furono ferite. Nel 2007 il Parlamento slovacco commemorò il centenario, ricordando quindici morti, dodici feriti gravi e successivi processi contro i residenti. L'episodio entrò nella memoria storica nazionale e nel dibattito sui diritti delle minoranze e sulla repressione. Sparatoria del 1907, riconoscimento legislativo del 1993 e risoluzione del centenario del 2007 sono passaggi distinti; la prima cerimonia annuale sotto la legge non è provata.",
+          "promoter": "Il Consiglio nazionale slovacco istituì la data commemorativa nella legge 241/1993, dedicandola alle vittime dell'episodio del 1907.",
+          "purpose": "Ricordare le persone uccise e promuovere la riflessione storica su diritti civili, identità culturale e violenza istituzionale.",
+          "facts": [
+            "La sparatoria di Černová avvenne il 27 ottobre 1907.",
+            "La legge 241/1993 riconobbe il 27 ottobre come data commemorativa nazionale.",
+            "Il Parlamento nel 2007 ricordò quindici morti e dodici feriti gravi."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Slovak Act 241/1993 §3 formally lists the 27 October Černová memorial; Slovak National Council original 2007 centenary account supports historical cause and casualty counts. First specific annual ceremony not independently documented. Model-authored original IT/EN research awaiting independent human historical and qualified six-language native review; Rich Editorial not approved."
     }
   ]
 }
