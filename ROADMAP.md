@@ -1,6 +1,15 @@
 # World Days — Active roadmap
 
 
+## AI editorial certification — second Canadian batch (14 November 2026)
+
+- [x] Individually cross-check 10 further Canadian civic histories against government/Parliament sources; inspect six AI-translated narratives, synchronized historical years, promoter, purpose, and three contextual facts in all six locales.
+- [x] Update AI source SHA-pinned ledger and live-PR/source-blob gate: **14 AI_CERTIFIED / 173**, **8 HOLD_SOURCE_DISPUTE**, **151 AI_REVIEW_QUEUED**.
+- [ ] Continue source-by-source AI review of remaining 151 (country grouping recommended), correcting source contradictions rather than blindly passing drafts.
+- [ ] App runtime publication remains separate from AI editorial source certification; preserve previous versions and user content.
+
+
+
 ## Owner-delegated AI editorial certification — 14 November 2026
 
 - [x] Owner explicitly delegates primary-source factual and six-locale editorial certification to AI rather than requiring repetitive manual human signoffs. Use **AI_CERTIFIED**, HOLD or AI_REVIEW_QUEUED with traceable evidence and distinct publication gates.
