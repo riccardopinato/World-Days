@@ -4,7 +4,7 @@
   "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
   "qualifiedEditorialApproval": false,
   "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
-  "count": 7,
+  "count": 10,
   "items": [
     {
       "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
@@ -70,6 +70,35 @@
       "otherSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/53270",
       "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "editorialDisposition": "DRAFT_HISTORICAL_OBSERVANCE_NO_MODERN_NONWORKING_HOLIDAY_CLAIM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-department-of-education-founding-anniversary",
+      "problem": "NCCA_DECEMBER20_FOUNDING_VS_DEPED_2026_JUNE23_1898_OFFICIAL_ANNIVERSARY",
+      "risk": "NCCA source indexes Department of Education founding on December 20. The official 2026 DepEd Citizen's Charter names 23 June 1898 under Aguinaldo's revolutionary decree as earliest Department and DepEd officially celebrated its 126th founding on June 23 2024. Historical December 20 1863 Educational Decree established Superior Commission of Primary Instruction rather than the same revolutionary government structure. These are separate milestones. Do not auto-apply December20 as today's founding anniversary without a primary official DepEd basis and event-identity decision.",
+      "legalSource": "https://www.deped.gov.ph/wp-content/uploads/DepEd-Citizens-Charter-2026-Edition.pdf",
+      "otherSource": "https://www.deped.gov.ph/2021/06/22/deped-kicks-off-celebration-of-123rd-founding-anniversary/",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_SOURCE_REVIEW; CORRECT_CANONICAL_DATE_OR_RENAME_HISTORICAL_PRECURSOR",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-made-in-the-philippines-product-week",
+      "problem": "1936_AUG17_23_RECURRENCE_OVERRIDDEN_BY_1941_PROCLAMATION_TO_FEB14_20_START_1942",
+      "risk": "NCCA date calendar keeps August17-23 tied to original Proclamation No.76 of Aug12 1936. But Proclamation No.756 of Sep30 1941 expressly changes the annual week to February14-20 from 1942 onward, superseding the 1936 dates. NCCA recurring market archive reflects the older August interval and cannot be auto-certified as the currently correct law without later repeal or revised instrument. Must cross-check current official annual practice and correct recurrence rules or mark historical-only.",
+      "legalSource": "https://www.lawphil.net/executive/proc/proc1941/proc_756_1941.html",
+      "otherSource": "https://lawphil.net/executive/proc/proc1936/proc_76_1936.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_DRAFT_AND_NEW_RUNTIME_DATE_UNTIL_LATEST_LAW_RECONCILIATION",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-volunteerism-month-philippines",
+      "problem": "MAY2009_PROCLAMATION_NOT_EXPLICITLY_PERMANENT_RECURRING",
+      "risk": "Proclamation No.1778 of May18 2009 declares 'the month of May as Volunteerism Month' but does not explicitly state 'of each year'. NCCA indexes the event as annual whole May. Separate National Volunteers Month is every December under Proc55 1998. Avoid assuming May is legally permanent without later official annual guidance; preserve distinct months and identities.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1778_2009.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_CERTIFICATION_RECURRING_MONTH_TO_CONFIRM",
       "resolved": false
     }
   ]
