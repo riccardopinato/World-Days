@@ -12,10 +12,10 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 75,
+        "six": 79,
         "two": 0,
-        "none": 16,
-        "categoryCrosschecked": 75
+        "none": 12,
+        "categoryCrosschecked": 79
       },
       "KR": {
         "all": 57,
@@ -32,13 +32,13 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 164,
+    "sixLocaleDrafts": 168,
     "bilingualDrafts": 0,
-    "withoutOriginDraft": 16,
-    "governmentCategorySpotChecks": 125,
+    "withoutOriginDraft": 12,
+    "governmentCategorySpotChecks": 129,
     "humanCertified": 0,
     "translationExtensions": 9,
-    "newOriginDrafts": 121
+    "newOriginDrafts": 125
   },
   "records": [
     {
@@ -5083,19 +5083,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2006/proc_1152_2006.html",
+        "https://lawphil.net/executive/proc/proc2006/pdf/proc_1152_2006.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2006,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_CIVIC_LAW_2006",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2006/proc_1152_2006.html",
+        "https://lawphil.net/executive/proc/proc2006/pdf/proc_1152_2006.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_CONFLICT_RESOLUTION_DAY_THIRD_THU_OCT_2006",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-conservation-and-protection-of-the-tamaraw-month",
@@ -6158,19 +6175,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/comacts/ca1936/ca_152_1936.html",
+        "https://lawphil.net/statutes/comacts/ca1936/ca1936.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1936,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_CIVIC_LAW_1936",
+      "governmentSources": [
+        "https://lawphil.net/statutes/comacts/ca1936/ca_152_1936.html",
+        "https://lawphil.net/statutes/comacts/ca1936/ca1936.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_UNKNOWN_CITIZENS_DAY_COMMONWEALTH_ACT152_1936",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-volunteerism-month-philippines",
@@ -6200,19 +6234,34 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2009,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_CIVIC_LAW_2009",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_WATCH_TIME_HONESTY_JUNE_MONTH_2009_SECOND_WEEK_ACTIVITIES",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-week-of-the-philippine-eagle",
@@ -6278,19 +6327,34 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc1993/proc_244_1993.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1993,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_CIVIC_LAW_1993",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc1993/proc_244_1993.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_CLEAN_GREEN_WEEK_SEPT17_23_SEPARATE_SEPT_CLEANUP_MONTH_1993",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     }
   ],
   "originNewDraftIds": [
@@ -6389,6 +6453,7 @@
     "ph-w13-18-day-campaign-to-end-violence-against-women-philippines",
     "ph-w13-buwan-ng-wikang-pambansa",
     "ph-w13-civil-service-month-philippines",
+    "ph-w13-conflict-resolution-day-philippines",
     "ph-w13-conservation-and-protection-of-the-tamaraw-month",
     "ph-w13-filipino-food-month",
     "ph-w13-filipino-values-month",
@@ -6414,7 +6479,10 @@
     "ph-w13-rizal-month",
     "ph-w13-rule-of-law-month-philippines",
     "ph-w13-traditional-and-alternative-health-month-philippines",
-    "ph-w13-women-s-role-in-history-month"
+    "ph-w13-unknown-citizens-day",
+    "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+    "ph-w13-women-s-role-in-history-month",
+    "ph-w13-world-clean-and-green-week-philippines"
   ],
   "baselineNotice": "PR #118 and #119 drafts remain separate and unmerged; PR #120 newly-authored research-only evidence has not been published or human-certified.",
   "newTranslationIds": [
@@ -6429,5 +6497,5 @@
     "ph-day-of-valor"
   ],
   "caveat": "Nine PR118 EN/IT original dossiers have four-locale additive extensions on PR120; they have not been merged to one main branch or native-approved. PH Day of Valor English/Italian base text needs correction for 1956 special public holiday.",
-  "incrementalEditorialNote": "2026-11-14 single-country PH research sprint +41 six-locale original stories (8+6+4+5+4+5+5+4) resulting PH75/91, remaining16; KR57, CA32; total164/180. 12 PH legal/origin conflicts documented and source-blocked where necessary (NCCA uses old product-week schedule; June23 official DepEd founding vs Dec20 NCCA; NHCP May26 vs signed May12; KWF 1991 vs NCCA 1981). Qualified human approvals ZERO; original PR118/119 and PR120 draft unmerged; runtime untouched."
+  "incrementalEditorialNote": "2026-11-14 Philippine-only historical research sprint added 45 full original six-language AI researched dossiers this turn (previous 41 plus four civic/eco originals). PH79/91, only 12 without original drafts; KR57/57, CA32/32; all 168/180. Two days movable, third Thursday October and second Sunday January. WATCH June recurrence remains unclear from original decree and held from qualified signoff; 13 PH documentary disputes registered. 0 qualified human approvals. PR Draft/unmerged, no app runtime changes."
 }
