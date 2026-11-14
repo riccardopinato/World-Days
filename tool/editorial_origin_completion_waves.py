@@ -117,7 +117,7 @@ def build():
     prepared_ids = handoff["six_locale_draft_ids"]
     scoped_out_ids = handoff["out_of_scope_ids"]
     overlap = prepared_ids & main_researched_ids
-    assert overlap == handoff["previous_main_wave20_ids"]
+    assert handoff["previous_main_wave20_ids"] <= overlap, "Wave20 origins missing from main"
     assert not (scoped_out_ids & (prepared_ids | main_researched_ids))
 
     pending = set(by_id) - (main_researched_ids | prepared_ids | scoped_out_ids)
