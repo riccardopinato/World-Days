@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==123
+assert matrix["counts"]["sixLocaleDrafts"]==141
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==57
-assert matrix["counts"]["governmentCategorySpotChecks"]==84
+assert matrix["counts"]["withoutOriginDraft"]==39
+assert matrix["counts"]["governmentCategorySpotChecks"]==102
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -84,6 +84,9 @@ new_files=[
 "ph_statutory_civic_4_six_locales_20261114.json",
 "ph_book_health_protection_4_six_locales_20261114.json",
 "ph_books_culture_ecology_5_six_locales_20261114.json",
+"ph_civic_holidays_8_six_locales_20261114.json",
+"ph_civic_months_6_six_locales_20261114.json",
+"ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -116,8 +119,8 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==80
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==82  # 80 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==98
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==100  # 98 new + 2 prior pilots
 
 # Twenty source-verified Philippine legal/monthly origins, checked against the
 # original national NCCA calendar instead of silently freezing movable or ranged dates.
@@ -127,6 +130,9 @@ ph_waves=[
 "ph_statutory_civic_4_six_locales_20261114.json",
 "ph_book_health_protection_4_six_locales_20261114.json",
 "ph_books_culture_ecology_5_six_locales_20261114.json",
+"ph_civic_holidays_8_six_locales_20261114.json",
+"ph_civic_months_6_six_locales_20261114.json",
+"ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
 ]
 ph_market_files=[
 ROOT/"data/market/wave13_ncca_eures_100_20261111.json",
@@ -143,7 +149,7 @@ months=("JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTE
 for filename in ph_waves:
     batch=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
     assert "DRAFT" in batch["status"] and "HUMAN" in batch["status"]
-    assert batch["count"] in (4,5,6)
+    assert batch["count"] in (4,5,6,8)
     for rec in batch["records"]:
         rid=rec["observanceId"]
         assert rid in ph_source and rid not in ph_new,rid
@@ -172,7 +178,7 @@ for filename in ph_waves:
         row=next(item for item in rows if item["id"]==rid)
         assert row["originDraftPath"]=="data/editorial/research_batches/"+filename
         assert row["originDraftPR"]==120 and row["qualifiedEditorialApproval"] is False
-assert len(ph_new)==25
+assert len(ph_new)==43
 assert ph_new.issubset(set(verified))
 assert verified["ph-w13-national-children-s-month-philippines"]["observanceDate"]=="NOVEMBER"
 assert verified["ph-w13-national-children-s-month-philippines"]["introducedYear"]==2015
@@ -184,20 +190,54 @@ assert verified["ph-w10-philippine-national-women-s-day"]["legalStatus"]=="SPECI
 assert verified["ph-w13-18-day-campaign-to-end-violence-against-women-philippines"]["observancePeriodKind"]=="CAMPAIGN_18_DAYS"
 assert verified["ph-w13-national-book-week-philippines"]["observanceDate"]=="NOV24_NOV30"
 
-assert matrix["counts"]["byCountry"]["PH"]["six"]==34
-assert matrix["counts"]["byCountry"]["PH"]["none"]==57
+assert matrix["counts"]["byCountry"]["PH"]["six"]==52
+assert matrix["counts"]["byCountry"]["PH"]["none"]==39
 assert verified["ph-w13-philippine-book-development-month"]["introducedYear"]==1999
 assert verified["ph-w13-philippine-book-development-month"]["firstObservedYear"]==1997
 assert verified["ph-w13-philippine-book-development-month"]["observanceDate"]=="NOVEMBER"
 assert verified["ph-w13-conservation-and-protection-of-the-tamaraw-month"]["introducedYear"]==2002
 assert verified["ph-w13-national-culture-consciousness-week"]["observanceDate"]=="JUL01_JUL07"
 
+# Enforce the three original PH-only legal-history source batches in this sprint.
+sprint_ph_ids=set()
+for filename,number in (
+    ("ph_civic_holidays_8_six_locales_20261114.json",8),
+    ("ph_civic_months_6_six_locales_20261114.json",6),
+    ("ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",4),
+):
+    b=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
+    assert b["count"]==len(b["records"])==number
+    for record in b["records"]:
+        assert record["observanceId"] not in sprint_ph_ids
+        sprint_ph_ids.add(record["observanceId"])
+        assert record["country"]=="PH"
+        assert len(record["locale"])==6
+assert len(sprint_ph_ids)==18
+assert sprint_ph_ids.issubset(ph_new)
+assert matrix["counts"]["byCountry"]["KR"]["six"]==57
+assert matrix["counts"]["byCountry"]["CA"]["six"]==32
+assert verified["ph-w10-araw-ng-pagbasa-philippines-national-reading-day"]["introducedYear"]==2013
+assert verified["ph-w10-araw-ng-pagbasa-philippines-national-reading-day"]["legalStatus"]=="PH_REGULAR_WORKING_HOLIDAY_WEEKEND_OBSERVED_PRECEDING_FRIDAY"
+assert verified["ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary"]["introducedYear"]==2013
+assert verified["ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary"]["legalStatus"]=="PH_NATIONAL_SPECIAL_WORKING_HOLIDAY_RA11014_2018"
+assert verified["ph-w10-philippine-spanish-friendship-day"]["legalStatus"]=="PH_SPECIAL_WORKING_NATIONWIDE_NONWORKING_AURORA_PROVINCE_RA9187"
+assert verified["ph-w10-philippines-national-teachers-day"]["introducedYear"]==2016
+assert verified["ph-w10-philippines-national-indigenous-peoples-day"]["introducedYear"]==2015
+assert verified["ph-w10-philippine-flag-days-commencement"]["introducedYear"]==1965
+assert verified["ph-w10-philippines-national-literacy-day"]["introducedYear"]==1969
+assert verified["ph-w10-philippine-republic-day-july-4"]["legalStatus"]=="PH_HISTORICAL_REPUBLIC_DAY_1964_LAW_NOT_IN_1987_REGULAR_HOLIDAY_LIST"
+assert verified["ph-w13-national-volunteers-month-philippines"]["introducedYear"]==1998
+assert verified["ph-w13-national-volunteers-month-philippines"]["observanceDate"]=="DECEMBER"
+assert verified["ph-w13-national-coconut-week-philippines"]["observanceDate"]=="AUG24_AUG30"
+assert verified["ph-w13-philippine-tropical-fabrics-month"]["introducedYear"]==2012
+
+
 # Do not count legally conflicted or unverified historical origin-years as approved.
 ph_issues=json.loads((AUDIT/"ph_open_legal_source_conflicts_20261114.json").read_text(encoding="utf-8"))
-assert ph_issues["count"]==len(ph_issues["items"])==4
+assert ph_issues["count"]==len(ph_issues["items"])==7
 assert ph_issues["qualifiedEditorialApproval"] is False
 assert ph_issues["status"]=="OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY"
-assert len({item["observanceId"] for item in ph_issues["items"]})==4
+assert len({item["observanceId"] for item in ph_issues["items"]})==7
 for issue in ph_issues["items"]:
     assert issue["resolved"] is False
     row=next(x for x in rows if x["id"]==issue["observanceId"])
@@ -210,6 +250,15 @@ for issue in ph_issues["items"]:
         assert row["originDraftPath"] is None and row["localeCoverage"]==[]
     else:
         assert row["originDraftPR"]==120 and len(row["localeCoverage"])==6
+
+assert {issue["observanceId"] for issue in ph_issues["items"] if issue["observanceId"].startswith("ph-w10-") and issue["problem"] in (
+    "NCCA_LEGISLATIVE_YEAR_2012_VS_APPROVED_RA10556_2013",
+    "REPUBLIC_DAY_HISTORIC_HOLIDAY_NOT_LISTED_AS_MODERN_REGULAR_HOLIDAY",
+)}=={
+    "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+    "ph-w10-philippine-republic-day-july-4",
+}
+
 
 
 
@@ -429,5 +478,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 80 new six-locale originals, 9 four-locale extensions (123 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 34/91; 57 pending, source errata gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 98 new six-locale originals, 9 four-locale extensions (141 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 52/91; 39 pending, 7 legal source discrepancies gated; 0 qualified human approvals.")
 
