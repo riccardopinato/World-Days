@@ -1,5 +1,13 @@
 # World Days — Active roadmap
 
+## Highest pending country stories — CZ, SK, IT, FI, EE (14 November 2026)
+
+- [x] Rank 1111 canonical entries by remaining national NEW authoring after main-researched origins, 173 prepared six-language dossiers and 153 PH out-of-scope anniversaries: **CZ28, SK27, IT24, FI22, EE20** (121 in five countries; national pending 461, global pending 17).
+- [x] Prepare 5 additional original source-linked histories, one per country, **30 locale drafts** in EN/IT/ES/FR/DE/PT, with legal/event year separation and explicit unknown first observation date. See `docs/WORLD_DAYS_TOP5_COUNTRY_FIRST_FIVE_20261114.md`.
+- [ ] Exact-head CI and six-language editorial review; **0 qualified approvals** for the five new dossiers. No rich runtime publication or false certification.
+- [ ] Complete additional top-five backlog of 116 stories without duplicates; after admissible source integration, regenerate queue and counts.
+
+
 ## Three-country PH/KR/CA research handoff — 14 November 2026 (review NOT complete)
 
 - [x] Record the 333 original canonical IDs without duplication: 153 Philippine biographical scope exclusions, 180 retained; the catalog itself is unchanged.
