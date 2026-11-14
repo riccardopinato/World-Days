@@ -12,10 +12,10 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 61,
+        "six": 71,
         "two": 0,
-        "none": 30,
-        "categoryCrosschecked": 61
+        "none": 20,
+        "categoryCrosschecked": 71
       },
       "KR": {
         "all": 57,
@@ -32,13 +32,13 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 150,
+    "sixLocaleDrafts": 160,
     "bilingualDrafts": 0,
-    "withoutOriginDraft": 30,
-    "governmentCategorySpotChecks": 111,
+    "withoutOriginDraft": 20,
+    "governmentCategorySpotChecks": 121,
     "humanCertified": 0,
     "translationExtensions": 9,
-    "newOriginDrafts": 107
+    "newOriginDrafts": 117
   },
   "records": [
     {
@@ -3934,19 +3934,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.dbm.gov.ph/wp-content/uploads/OPCCB/OPIF2012/NL%20of%20th.pdf",
+        "https://nlpdl.nlp.gov.ph/web/20220816/Beyond%20National%20Library.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1887,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1887",
+      "governmentSources": [
+        "https://www.dbm.gov.ph/wp-content/uploads/OPCCB/OPIF2012/NL%20of%20th.pdf",
+        "https://nlpdl.nlp.gov.ph/web/20220816/Beyond%20National%20Library.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_NATIONAL_LIBRARY_ROYAL_ORDER_AUG12_1887_AND_LATER_LIBRARY_HISTORY",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-ncca-establishment-anniversary",
@@ -4103,19 +4120,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc1989/proc_447_1989.html",
+        "https://lawphil.net/executive/proc/proc1983/proc_2325_1983.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1897,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1897",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc1989/proc_447_1989.html",
+        "https://lawphil.net/executive/proc/proc1983/proc_2325_1983.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_TEJEROS_REVOLUTIONARY_ARMY_MAR22_1897_1983_AFP_1989_ARMY_CORRECTED",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-british-friendship-day",
@@ -4124,19 +4158,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc2008/proc_1592_2008.html",
+        "https://lawphil.net/executive/proc/proc2000/proc_381_2000.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2000,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_2000",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc2008/proc_1592_2008.html",
+        "https://lawphil.net/executive/proc/proc2000/proc_381_2000.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_UK_FRIENDSHIP_DEC7_2000_OCT20_FROM_2008",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-department-of-education-founding-anniversary",
@@ -4166,19 +4217,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra2002/ra_9167_2002.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209167",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2002,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_2002",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra2002/ra_9167_2002.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209167",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_FDCP_JUNE7_2002_RA9167_FILM_REFORM",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-flag-days-commencement",
@@ -4225,19 +4293,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://econgress.gov.ph/legislative-history/",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-philippine-assembly/",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1916,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1916",
+      "governmentSources": [
+        "https://econgress.gov.ph/legislative-history/",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-philippine-assembly/",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_JONES_ACT_BICAMERAL_AUG29_1916_SENATE_HOUSE_DISTINCT_1907_ASSEMBLY",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-military-academy-establishment-anniversary",
@@ -4246,19 +4331,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc1998/proc_35_1998.html",
+        "https://pma.edu.ph/pages/aboutus.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1898,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1898",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc1998/proc_35_1998.html",
+        "https://pma.edu.ph/pages/aboutus.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_PMA_ACADEMIA_MILITAR_OCT25_1898_1905_FEB17_1998_REVISED",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-national-historical-commission-founding-anniversary",
@@ -4364,19 +4466,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-session-hall-of-the-senate-of-the-philippines/",
+        "https://legacy.senate.gov.ph/about/history.asp",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1916,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1916",
+      "governmentSources": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-session-hall-of-the-senate-of-the-philippines/",
+        "https://legacy.senate.gov.ph/about/history.asp",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_JONES_ACT_BICAMERAL_AUG29_1916_SENATE_HOUSE_DISTINCT_1907_ASSEMBLY",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippine-spanish-friendship-day",
@@ -4535,19 +4654,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
-      "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "originDraftPath": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc1995/proc_660_1995.html",
+        "https://lawphil.net/executive/proc/proc1995/pdf/proc_660_1995.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1995,
+      "proposedFirstObservedYear": 1901,
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1995",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc1995/proc_660_1995.html",
+        "https://lawphil.net/executive/proc/proc1995/pdf/proc_660_1995.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_ARCHIVES_BUREAU_OCT21_1901_NATIONAL_DAY_1995",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippines-national-indigenous-peoples-day",
@@ -4630,19 +4766,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.nationalmuseum.gov.ph/about-us/history/",
+        "https://www.nationalmuseum.gov.ph/wp-content/uploads/2022/06/About-National-Museum-of-the-Philippines.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1901,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_1901",
+      "governmentSources": [
+        "https://www.nationalmuseum.gov.ph/about-us/history/",
+        "https://www.nationalmuseum.gov.ph/wp-content/uploads/2022/06/About-National-Museum-of-the-Philippines.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_NATIONAL_MUSEUM_INSULAR_MUSEUM_OCT29_1901",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-philippines-national-teachers-day",
@@ -4689,19 +4842,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
-      "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "originDraftPath": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2014/proc_816_2014.html",
+        "https://lawphil.net/executive/proc/proc2025/proc_1059_2025.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2014,
+      "proposedFirstObservedYear": 2011,
+      "governmentCategory": "PH_OFFICIAL_INSTITUTIONAL_2014",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2014/proc_816_2014.html",
+        "https://lawphil.net/executive/proc/proc2025/proc_1059_2025.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_PUERTO_PRINCESA_UNDERGROUND_RIVER_NEW7WONDERS_2011_PROCLAMATION_2014",
+      "factualReviewStatus": "INSTITUTIONAL_PRIMARY_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-ramon-magsaysay-memorial-day",
@@ -6121,20 +6291,30 @@
     "ph-w10-jose-abad-santos-day",
     "ph-w10-julian-felipe-day",
     "ph-w10-kindness-to-animal-day-philippines",
+    "ph-w10-national-library-of-the-philippines-founding-anniversary",
     "ph-w10-ncca-establishment-anniversary",
     "ph-w10-order-of-gabriela-silang-founding-anniversary",
     "ph-w10-order-of-lakandula-founding-anniversary",
     "ph-w10-order-of-national-artists-establishment-anniversary",
+    "ph-w10-philippine-army-founding-anniversary",
+    "ph-w10-philippine-british-friendship-day",
+    "ph-w10-philippine-film-development-council-founding-anniversary",
     "ph-w10-philippine-flag-days-commencement",
+    "ph-w10-philippine-house-of-representatives-founding-anniversary",
+    "ph-w10-philippine-military-academy-establishment-anniversary",
     "ph-w10-philippine-national-women-s-day",
     "ph-w10-philippine-republic-day-july-4",
+    "ph-w10-philippine-senate-founding-anniversary",
     "ph-w10-philippine-spanish-friendship-day",
     "ph-w10-philippines-earth-day",
     "ph-w10-philippines-indigenous-peoples-thanksgiving-day",
     "ph-w10-philippines-local-government-day",
+    "ph-w10-philippines-national-archives-day",
     "ph-w10-philippines-national-indigenous-peoples-day",
     "ph-w10-philippines-national-literacy-day",
+    "ph-w10-philippines-national-museum-founding-anniversary",
     "ph-w10-philippines-national-teachers-day",
+    "ph-w10-puerto-princesa-underground-river-day",
     "ph-w13-18-day-campaign-to-end-violence-against-women-philippines",
     "ph-w13-buwan-ng-wikang-pambansa",
     "ph-w13-civil-service-month-philippines",
@@ -6177,5 +6357,5 @@
     "ph-day-of-valor"
   ],
   "caveat": "Nine PR118 EN/IT original dossiers have four-locale additive extensions on PR120; they have not been merged to one main branch or native-approved. PH Day of Valor English/Italian base text needs correction for 1956 special public holiday.",
-  "incrementalEditorialNote": "14 November 2026 PH-only source research: +27 Philippine original six-locale histories on PR120 this sprint (8+6+4+5+4), PH 61/91, 30 remain; KR57, CA32 fully draft-covered, total 150/180. At least 7 PH official-source discrepancies remain reviewed; 0 human certified; PR still draft, no public runtime."
+  "incrementalEditorialNote": "2026-11-14 Philippines-only: 37 new original six-locale histories this sprint (8+6+4+5+4+5+5), 222 substantial translated story narratives; PH71/91 (20 pending), KR57/57, CA32/32, aggregate160/180. 10 PH source discrepancies including revoked Aug products-week date, official June23 DepEd date and uncertain one-off months. All 0 qualified human certified; PR120 Draft, main/runtime untouched."
 }
