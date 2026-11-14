@@ -173,6 +173,8 @@ def build():
             "qualifiedHumanCertified": 0,
         },
         "outstandingOriginResearch": len(pending),
+        "outstandingNewStoryDrafting": len(pending),
+        "mainNotYetIntegratedOriginCount": len(by_id) - len(main_researched_ids),
         "legacyReviewedEditorialCount": audit["publishedEnglishRichStories"],
         "batchLimit": BATCH_SIZE,
         "batchCount": len(files),
