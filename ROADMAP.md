@@ -1,5 +1,13 @@
 # World Days — Active roadmap
 
+## 15 November 2026 — PH / KR / CA: complete AI editorial queue (99-of-99 final batch)
+
+- [x] Review **all 99 pending source-linked records** (91 queued + 8 disputed), comparing original EN narratives, translated IT/ES/FR/DE/PT dates and facts, primary legal chronology, country and recurring-date classifications. Exact frozen source PR HEAD and Git file blob recorded for each.
+- [x] Source-scoped result: **173 AI_CERTIFIED / 0 AI_REVIEW_QUEUED / 0 HOLD_SOURCE_DISPUTE**. Eight previously disputed items have per-record resolution evidence and documented legal-scope qualifications. This is **AI editorial review only**, not human signoff, source PR import, or runtime publication.
+- [ ] **Three publication-correction gates remain**: Raoul Wallenberg six-language source draft still describes the former 2001/2002 date ambiguity (2001 designated, first 2002, now evidenced by Canadian Parliament); Panagyaman April 2004 proclamation and June W.A.T.C.H. 2009 proclamation do not by themselves prove mandatory indefinite national recurrence. Their NCCA cultural calendar listing cannot be treated as a legal nationwide recurring paid holiday.
+- [ ] Only after source-correction and product/provenance gates, import certifiable stories into runtime and verify UI content/locale completeness. Counts in this editorial ledger must not be shown as actual in-app publication.
+
+
 ## AI editorial Korean civic-history batch (14 November 2026)
 
 - [x] AI-review 11 Korean memorial, civic and institutional dates and six-language narratives from six source-draft files; original source PR #120 and Git file blobs pinned.
