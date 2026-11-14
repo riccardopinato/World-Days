@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==150
+assert matrix["counts"]["sixLocaleDrafts"]==164
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==30
-assert matrix["counts"]["governmentCategorySpotChecks"]==111
+assert matrix["counts"]["withoutOriginDraft"]==16
+assert matrix["counts"]["governmentCategorySpotChecks"]==125
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -89,6 +89,9 @@ new_files=[
 "ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
 "ph_heroes_awards_5_six_locales_20261114.json",
 "ph_local_heritage_honors_4_six_locales_20261114.json",
+"ph_institutions_military_legislature_5_six_locales_20261114.json",
+"ph_heritage_friendship_archives_5_six_locales_20261114.json",
+"ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -121,8 +124,8 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==107
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==109  # 107 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==121
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==123  # 121 new + 2 prior pilots
 
 # Twenty source-verified Philippine legal/monthly origins, checked against the
 # original national NCCA calendar instead of silently freezing movable or ranged dates.
@@ -137,6 +140,9 @@ ph_waves=[
 "ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
 "ph_heroes_awards_5_six_locales_20261114.json",
 "ph_local_heritage_honors_4_six_locales_20261114.json",
+"ph_institutions_military_legislature_5_six_locales_20261114.json",
+"ph_heritage_friendship_archives_5_six_locales_20261114.json",
+"ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
 ]
 ph_market_files=[
 ROOT/"data/market/wave13_ncca_eures_100_20261111.json",
@@ -182,7 +188,7 @@ for filename in ph_waves:
         row=next(item for item in rows if item["id"]==rid)
         assert row["originDraftPath"]=="data/editorial/research_batches/"+filename
         assert row["originDraftPR"]==120 and row["qualifiedEditorialApproval"] is False
-assert len(ph_new)==52
+assert len(ph_new)==66
 assert ph_new.issubset(set(verified))
 assert verified["ph-w13-national-children-s-month-philippines"]["observanceDate"]=="NOVEMBER"
 assert verified["ph-w13-national-children-s-month-philippines"]["introducedYear"]==2015
@@ -194,8 +200,8 @@ assert verified["ph-w10-philippine-national-women-s-day"]["legalStatus"]=="SPECI
 assert verified["ph-w13-18-day-campaign-to-end-violence-against-women-philippines"]["observancePeriodKind"]=="CAMPAIGN_18_DAYS"
 assert verified["ph-w13-national-book-week-philippines"]["observanceDate"]=="NOV24_NOV30"
 
-assert matrix["counts"]["byCountry"]["PH"]["six"]==61
-assert matrix["counts"]["byCountry"]["PH"]["none"]==30
+assert matrix["counts"]["byCountry"]["PH"]["six"]==75
+assert matrix["counts"]["byCountry"]["PH"]["none"]==16
 assert verified["ph-w13-philippine-book-development-month"]["introducedYear"]==1999
 assert verified["ph-w13-philippine-book-development-month"]["firstObservedYear"]==1997
 assert verified["ph-w13-philippine-book-development-month"]["observanceDate"]=="NOVEMBER"
@@ -251,6 +257,41 @@ for name,expected_n in new_heritage_files.items():
         new_heritage_ids.add(ident)
         assert next(x for x in rows if x["id"]==ident)["originDraftPath"]=="data/editorial/research_batches/"+name
 assert len(new_heritage_ids)==9
+
+# New institution, heritage and civic-history originals belong to the PH-only
+# canonical inventory and preserve individually distinct event origin IDs.
+ph_institutional_sprint={
+    "ph_institutions_military_legislature_5_six_locales_20261114.json":5,
+    "ph_heritage_friendship_archives_5_six_locales_20261114.json":5,
+    "ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json":4,
+}
+sprint_ph_ids=set()
+for filename,expected_count in ph_institutional_sprint.items():
+    batch=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
+    assert batch["count"]==len(batch["records"])==expected_count
+    for item in batch["records"]:
+        rid=item["observanceId"]
+        assert rid not in sprint_ph_ids and rid in ph_new
+        sprint_ph_ids.add(rid)
+        assert next(r for r in rows if r["id"]==rid)["originDraftPath"]=="data/editorial/research_batches/"+filename
+assert len(sprint_ph_ids)==14
+assert verified["ph-w10-philippine-army-founding-anniversary"]["observanceDate"]=="03-22"
+assert verified["ph-w10-philippine-army-founding-anniversary"]["introducedYear"]==1897
+assert verified["ph-w10-philippine-senate-founding-anniversary"]["originClusterId"]==verified["ph-w10-philippine-house-of-representatives-founding-anniversary"]["originClusterId"]
+assert verified["ph-w10-philippine-senate-founding-anniversary"]["locale"]["en"]["origin"]!=verified["ph-w10-philippine-house-of-representatives-founding-anniversary"]["locale"]["en"]["origin"]
+assert verified["ph-w10-philippine-film-development-council-founding-anniversary"]["introducedYear"]==2002
+assert verified["ph-w10-philippines-national-museum-founding-anniversary"]["introducedYear"]==1901
+assert verified["ph-w10-national-library-of-the-philippines-founding-anniversary"]["introducedYear"]==1887
+assert verified["ph-w10-philippine-military-academy-establishment-anniversary"]["introducedYear"]==1898
+assert verified["ph-w10-philippines-national-archives-day"]["introducedYear"]==1995
+assert verified["ph-w10-philippines-national-archives-day"]["firstObservedYear"]==1901
+assert verified["ph-w10-philippine-british-friendship-day"]["observanceDate"]=="10-20"
+assert verified["ph-w10-puerto-princesa-underground-river-day"]["firstObservedYear"]==2011
+assert verified["ph-w10-komisyon-sa-wikang-filipino-founding-anniversary"]["introducedYear"]==1991
+assert verified["ph-w10-national-fisherfolks-day-philippines"]["introducedYear"]==2000
+assert verified["ph-w10-ramon-magsaysay-memorial-day"]["introducedYear"]==1966
+assert verified["ph-w13-linggo-ng-kalayaan"]["observanceDate"]=="JUN06_JUN12"
+
 assert verified["ph-w10-julian-felipe-day"]["legalStatus"]=="PH_CAVITE_CITY_SPECIAL_NONWORKING_HOLIDAY_RA7805_1994_NOT_NATIONAL"
 assert verified["ph-w10-apolinario-mabini-day"]["legalStatus"]=="PH_TANAUAN_SPECIAL_WORKING_HOLIDAY_RA9430_NOT_NATIONWIDE"
 assert verified["ph-w10-graciano-lopez-jaena-day"]["legalStatus"]=="PH_NATIONAL_SPECIAL_WORKING_RA9070_2001_LOCAL_EARLIER_ONLY_BY_YEAR"
@@ -265,10 +306,10 @@ assert verified["ph-w10-order-of-gabriela-silang-founding-anniversary"]["locale"
 
 # Do not count legally conflicted or unverified historical origin-years as approved.
 ph_issues=json.loads((AUDIT/"ph_open_legal_source_conflicts_20261114.json").read_text(encoding="utf-8"))
-assert ph_issues["count"]==len(ph_issues["items"])==7
+assert ph_issues["count"]==len(ph_issues["items"])==12
 assert ph_issues["qualifiedEditorialApproval"] is False
 assert ph_issues["status"]=="OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY"
-assert len({item["observanceId"] for item in ph_issues["items"]})==7
+assert len({item["observanceId"] for item in ph_issues["items"]})==12
 for issue in ph_issues["items"]:
     assert issue["resolved"] is False
     row=next(x for x in rows if x["id"]==issue["observanceId"])
@@ -277,6 +318,10 @@ for issue in ph_issues["items"]:
     if issue["observanceId"] in {
         "ph-w13-national-punctuality-and-civility-consciousness-month",
         "ph-w13-week-of-the-philippine-eagle",
+        "ph-w10-philippine-department-of-education-founding-anniversary",
+        "ph-w13-made-in-the-philippines-product-week",
+        "ph-w13-volunteerism-month-philippines",
+        "ph-w10-philippine-national-historical-commission-founding-anniversary",
     }:
         assert row["originDraftPath"] is None and row["localeCoverage"]==[]
     else:
@@ -509,5 +554,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 107 new six-locale originals, 9 four-locale extensions (150 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 61/91; 30 pending, 7 legal source discrepancies gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 121 new six-locale originals, 9 four-locale extensions (164 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 75/91; 16 pending, 12 source discrepancies gated; 0 qualified human approvals.")
 
