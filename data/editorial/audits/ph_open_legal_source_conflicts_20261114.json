@@ -4,7 +4,7 @@
   "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
   "qualifiedEditorialApproval": false,
   "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
@@ -128,6 +128,15 @@
       "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
       "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "editorialDisposition": "DRAFTED_WITH_EXPLICIT_RECURRENCE_UNCERTAINTY_PENDING_SPECIALIST_REVIEW",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-panagyaman-rice-festival-month",
+      "problem": "PANAGYAMAN_RICE_FESTIVAL_APRIL_2004_SINGLE_YEAR_PRESIDENTIAL_ACT_NCCA_ANNUAL_CALENDAR",
+      "risk": "Proclamation No.606, signed April19 2004, specifically declares 'the month of April' as Panagyaman Rice Festival, and its recitals frame the campaign around a particular hybrid rice and irrigation success in 2004. Unlike statutes which expressly state 'every April', no ongoing annual legal recurrence is proven by this 2004 text. The current NCCA significant dates calendar indexes a recurring April month. A year-by-year legal or institutional recurrence confirmation is required before treating it as a permanent annually statutory Philippine observance.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2004/proc_606_2004.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFTED_WITH_2004_EVENT_AND_CURRENT_MONTH_BUT_ANNUAL_RECURRENCE_UNCONFIRMED;HUMAN_REVIEW_PENDING",
       "resolved": false
     }
   ]
