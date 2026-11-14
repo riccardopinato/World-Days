@@ -143,3 +143,46 @@ All extension records pin the **one canonical English/Italian origin** on PR #11
 The three 1960 Korean movements **share a historical sequence** (and an explicit cluster ID), but are **distinct events with different local sites, dates, and statutory observance decisions**. They remain three distinct canonical commemorations, just as April 19 is separately official. Do not invent one new umbrella duplicate.
 
 **Current snapshot**: 59/180 candidate origin stories have six-locale AI drafts (32 CA, 18 KR, 9 PH), 0 bilingual-only, 121 without a draft. New original histories created on this PR: **16**, plus **9 four-locale Wave20 translation extensions**; 20 specific official status/date classifications cross-checked. All independent qualified factual/native-language approval gates remain **open**, with **0 new human-certified stories**. No main-branch content or runtime/published catalog changes.
+
+
+## Korean statutory chronology sprint — 14 November 2026, next twelve candidates
+
+Source-of-truth for this wave: [Republic of Korea Ministry of the Interior and Safety — official statutory commemorations timeline](https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do), plus linked Ministry of Patriots and Veterans Affairs reports and the [government's current commemorative-day index](https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do). The two MOIS pages are **one government authority**, not two independent authority confirmations.
+
+### Individual chronology fact patterns and source filenames
+
+All 12 are **original AI six-locale research drafts**, each with heading, evidence-linked narrative, originating institution, purpose, and 3 factual notes, with no invented first-ceremony year:
+
+| Canonical ID | Event or precursor | Government recognition or material date correction | New dossier |
+| --- | --- | --- | --- |
+| `kr-w10-june-10-democracy-movement-remembrance` | 10 June 1987 pro-democracy protests | Statutory day 2 May 2007 | `kr_june10_two_histories_six_locales_20261114.json` |
+| `kr-w10-june-10-independence-movement-remembrance` | 10 June 1926 anti-colonial independence protests | Statutory day 15 Dec 2020 | same file |
+| `kr-w10-provisional-government-establishment-day` | Provisional Charter 11 Apr 1919; later declaration 13 Apr 1919 | Statutory day 30 Dec 1989; date changed from 13 to 11 Apr in 2018 | `kr_provisional_jeju_two_six_locales_20261114.json` |
+| `kr-w10-jeju-april-3-victims-remembrance-day` | Jeju events of the late 1940s | Statutory memorial designation March 2014, after 2013 legislative process | same file |
+| `kr-w10-korean-war-remembrance-day` | War outbreak 25 June 1950; 1953 armistice | Statutory day 30 Mar 1973; designation renamed June 2013 | `kr_war_martyrs_two_six_locales_20261114.json` |
+| `kr-w10-patriotic-martyrs-remembrance-day` | 1905 Eulsa Treaty; 1939 Provisional Government collective remembrance | Statutory day 9 May 1997 | same file |
+| `kr-w10-railway-day-in-korea` | Gyeongin railway opening 18 Sep 1899 | Modern day 1964, integrated 1973; date changed to 28 June in 2018 | `kr_rail_cyber_two_six_locales_20261114.json` |
+| `kr-w10-information-security-day-in-korea` | National information-security awareness campaign | Statutory day 22 Oct 2012; **second Wednesday of July**, movable | same file |
+| `kr-w10-reserve-forces-day` | Reserve force established 1 Apr 1968; unit anniversary 1969 | Day legally established 1970; **first Friday of April** since 2006 | `kr_reserve_disability_two_six_locales_20261114.json` |
+| `kr-w10-day-of-persons-with-disabilities-in-korea` | Korean rehabilitation association chose 20 Apr in 1972; government observed from 1981 | Legal welfare basis 1989; statutory commemoration 9 Mar 1994 | same file |
+| `kr-w10-student-independence-movement-remembrance-day` | Gwangju student movement 3 Nov 1929 | Student Day 1953, statutory restoration 1984, renamed 2006 | `kr_students_law_two_six_locales_20261114.json` |
+| `kr-w10-law-day-in-korea` | Court organization law of 25 Apr 1895 | Law Day established 1964 on 1 May; moved to 25 Apr in 2003 | same file |
+
+**Canonical-origin decisions to preserve:**
+- **Same calendar date, distinct origins**: 10 June 1926 anti-colonial independence protests and 10 June 1987 democratic protests are *not* duplicates. Each retains its original ID, chronology, year, distinct organizing ministry and legal commemoration. The shared `originClusterId` enables showing both in a date view without merging their histories.
+- **Same topic, distinct national observance**: Korean 20 April Day of Persons with Disabilities is historically distinct from the UN's 3 December international observance. Do not blindly merge or rewrite a common origin.
+- **Same place name, distinct era and event**: the 1929 student independence movement at Gwangju is not the May 1980 Gwangju democracy movement. Both get individual historical stories.
+- **Moveable dates**: Information Security Day is second Wednesday in July; Reserve Forces Day is first Friday in April. The year-to-year calendar must compute the legal recurrence, not freeze the 2026 date.
+- **Corrected event-date pair**: Provisional Government foundation commemoration was shifted from 13 April to 11 April in **2018**; Railway Day shifted from 18 September to 28 June in **2018**; Law Day from 1 May to 25 April in **2003**.
+- **Legal status**: statutory commemorations must not be silently labeled regular public holidays. Human factual/native approval is still pending for every AI-authored locale.
+
+### Updated strict per-ID coverage after this wave
+
+| Country | Retained candidates | AI drafts in all six locales | No full origin history |
+| --- | ---: | ---: | ---: |
+| Philippines | 91 | 9 | 82 |
+| South Korea | 57 | **30** | **27** |
+| Canada | 32 | 32 | 0 |
+| **Total** | **180** | **71** | **109** |
+
+New six-locale original histories authored on PR #120 now **28** (previous 16 + these 12), in addition to 9 translations-overlay completions of prior PR #118 EN/IT records. Legal/date category spot-checks expanded from 20 to **32**. **Qualified native-language and independent historical approvals remain ZERO**. PR stays Draft, main runtime catalog unchanged. The next major research targets are the remaining 27 Korean official days plus the 82 Philippine candidate records; some may be rejected or linked to already existing global origins on detailed source examination.
