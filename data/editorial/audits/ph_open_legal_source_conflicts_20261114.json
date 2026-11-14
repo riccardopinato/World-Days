@@ -4,7 +4,7 @@
   "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
   "qualifiedEditorialApproval": false,
   "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
-  "count": 10,
+  "count": 12,
   "items": [
     {
       "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
@@ -99,6 +99,26 @@
       "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1778_2009.html",
       "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "editorialDisposition": "HOLD_CERTIFICATION_RECURRING_MONTH_TO_CONFIRM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
+      "problem": "NCCA_RA7104_YEAR_1981_VS_1991_ENACTMENT",
+      "risk": "NCCA calendar lists the Aug14 Commission founding as Republic Act No.7104 'of 1981'; however the official law directory and Section title show Republic Act No.7104 enacted 14 August 1991, confirmed by EO158 of 1999 and government ministry. 1981 in the NCCA table is a calendar-source error. Six-locale origin correctly uses 1991 and keeps it separate from 1997 Language Month.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra1991/ra_7104_1991.html",
+      "otherSource": "https://lawphil.net/executive/execord/eo1999/eo_158_1999.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_USE_PRIMARY_STATUTE_1991_NCCA_METADATA_ERRATUM_HUMAN_PENDING",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+      "problem": "NCCA_MAY26_RA10086_SENATE_SIGNED_MAY12_2010",
+      "risk": "NCCA calendar labels the NHCP founding May26 with Republic Act No.10086 of 2010 and a DBM summary also prints May26. But signed RA10086 and official Senate records show enactment on 12 May 2010; its implementation regulation says effective 13 June 2010 after publication. The earlier National Historical Institute was formed 1972 and the earlier National Historical Commission 1965. Cannot treat 26 May as the clear signed founding date without explaining a separate milestone with independent primary evidence.",
+      "legalSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21085",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010086",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_NEW_DRAFT_UNTIL_MAY26_ANCHOR_OR_CANONICAL_DATE_CORRECTED",
       "resolved": false
     }
   ]
