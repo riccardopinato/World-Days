@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "SOURCE_CHECKED_EDITORIAL_NOT_HUMAN_CERTIFIED",
+  "scope": "FIVE_COUNTRIES_ONE_STORY_EACH_SIX_LOCALES",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "count": 5,
+  "sourcePolicy": "Five first-party sourced original historical narratives; legislation/event years distinguished from first annual celebrations. This file contains AI-authored DRAFTS. Qualified native-language/historical reviewer signatures absent. No runtime insertion/publication.",
+  "records": [
+    {
+      "observanceId": "cz-independent-state-restoration",
+      "country": "CZ",
+      "observanceDate": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 1
+      },
+      "introducedYear": 2000,
+      "firstObservedYear": null,
+      "sources": [
+        "https://e-sbirka.gov.cz/eli/cz/sb/2000/245/2026-05-13",
+        "https://e-sbirka.gov.cz/sb/1993/1?odkazId=209235361&predmetneDatum=2027-07-01",
+        "https://portal.gov.cz/en/informace/organisation-of-the-school-year-INF-217"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 January: the return of an independent Czech state",
+          "origin": "On 1 January 1993, the Czech Republic became an independent state following the peaceful dissolution of Czechoslovakia. Its Constitution, adopted by the Czech National Council in December 1992, entered into force that day. The holiday looks back on this constitutional turning point without confusing the event with the creation of an annual holiday. Act No. 245/2000 later expressly listed 1 January as the Day of the Restoration of the Independent Czech State, while New Year's Day also falls on that date.",
+          "promoter": "The Czech National Council enacted the Constitution; the Czech Parliament later specified the holiday in Act No. 245/2000.",
+          "purpose": "Recall Czech constitutional independence and the peaceful transition from a shared Czechoslovak state.",
+          "facts": [
+            "The Czech Constitution took effect on 1 January 1993.",
+            "The Czech and Slovak republics separated peacefully.",
+            "Act No. 245/2000 names 1 January a Czech state holiday."
+          ]
+        },
+        "it": {
+          "heading": "1° gennaio: ritorna lo Stato ceco indipendente",
+          "origin": "Il 1° gennaio 1993 la Repubblica Ceca divenne uno Stato indipendente dopo lo scioglimento pacifico della Cecoslovacchia. La Costituzione, approvata dal Consiglio nazionale ceco nel dicembre 1992, entrò in vigore quel giorno. La ricorrenza ricorda questa svolta costituzionale, distinta dall'istituzione della festività annuale: la legge n. 245/2000 ha poi riconosciuto espressamente il 1° gennaio come Giornata della restaurazione dello Stato ceco indipendente, oltre che Capodanno.",
+          "promoter": "Il Consiglio nazionale ceco approvò la Costituzione; il Parlamento ceco disciplinò poi la festività con la legge n. 245/2000.",
+          "purpose": "Ricordare l'indipendenza costituzionale ceca e il passaggio pacifico dallo Stato cecoslovacco comune.",
+          "facts": [
+            "La Costituzione ceca entrò in vigore il 1° gennaio 1993.",
+            "La separazione fra Repubblica Ceca e Slovacchia fu pacifica.",
+            "La legge n. 245/2000 riconosce il 1° gennaio come festa statale."
+          ]
+        },
+        "es": {
+          "heading": "1 de enero: el retorno del Estado checo independiente",
+          "origin": "El 1 de enero de 1993, la República Checa se convirtió en un Estado independiente tras la disolución pacífica de Checoslovaquia. Su Constitución, aprobada por el Consejo Nacional Checo en diciembre de 1992, entró en vigor ese día. La conmemoración recuerda ese cambio constitucional, que no debe confundirse con la creación legal de la fiesta anual. La Ley 245/2000 incluyó después expresamente el 1 de enero como Día de la Restauración del Estado Checo Independiente, fecha que coincide con Año Nuevo.",
+          "promoter": "El Consejo Nacional Checo aprobó la Constitución; el Parlamento checo reguló después la fiesta mediante la Ley 245/2000.",
+          "purpose": "Recordar la independencia constitucional checa y la transición pacífica desde el Estado checoslovaco común.",
+          "facts": [
+            "La Constitución checa entró en vigor el 1 de enero de 1993.",
+            "La separación de las repúblicas checa y eslovaca fue pacífica.",
+            "La Ley 245/2000 reconoce el 1 de enero como fiesta estatal."
+          ]
+        },
+        "fr": {
+          "heading": "1er janvier : le retour d'un État tchèque indépendant",
+          "origin": "Le 1er janvier 1993, la République tchèque est devenue un État indépendant après la dissolution pacifique de la Tchécoslovaquie. Sa Constitution, adoptée en décembre 1992 par le Conseil national tchèque, est entrée en vigueur ce jour-là. La commémoration rappelle cette étape constitutionnelle, distincte de l'instauration légale du jour férié. La loi n° 245/2000 a ensuite inscrit le 1er janvier comme Journée du rétablissement de l'État tchèque indépendant, une date qui coïncide également avec le Nouvel An.",
+          "promoter": "Le Conseil national tchèque a adopté la Constitution ; le Parlement tchèque a ensuite inscrit la fête dans la loi n° 245/2000.",
+          "purpose": "Évoquer l'indépendance constitutionnelle tchèque et la transition pacifique depuis l'État tchécoslovaque commun.",
+          "facts": [
+            "La Constitution tchèque est entrée en vigueur le 1er janvier 1993.",
+            "La séparation des Républiques tchèque et slovaque fut pacifique.",
+            "La loi n° 245/2000 inscrit le 1er janvier comme fête nationale."
+          ]
+        },
+        "de": {
+          "heading": "1. Januar: Die Rückkehr des unabhängigen tschechischen Staates",
+          "origin": "Am 1. Januar 1993 wurde die Tschechische Republik nach der friedlichen Auflösung der Tschechoslowakei ein unabhängiger Staat. Die im Dezember 1992 vom Tschechischen Nationalrat verabschiedete Verfassung trat an diesem Tag in Kraft. Der Gedenktag erinnert an diesen verfassungsrechtlichen Einschnitt, nicht an das Datum seiner späteren gesetzlichen Festlegung. Gesetz Nr. 245/2000 nahm den 1. Januar als Tag der Wiederherstellung des unabhängigen tschechischen Staates auf; zugleich ist Neujahr.",
+          "promoter": "Der Tschechische Nationalrat verabschiedete die Verfassung; das Parlament verankerte den Feiertag später im Gesetz Nr. 245/2000.",
+          "purpose": "An die staatliche Unabhängigkeit Tschechiens und den friedlichen Übergang aus dem gemeinsamen Staat erinnern.",
+          "facts": [
+            "Die tschechische Verfassung trat am 1. Januar 1993 in Kraft.",
+            "Tschechien und die Slowakei trennten sich friedlich.",
+            "Gesetz Nr. 245/2000 führt den 1. Januar als staatlichen Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "1 de janeiro: o regresso do Estado checo independente",
+          "origin": "Em 1 de janeiro de 1993, a República Checa tornou-se um Estado independente após a dissolução pacífica da Checoslováquia. A Constituição, aprovada pelo Conselho Nacional Checo em dezembro de 1992, entrou em vigor nesse dia. A celebração recorda esta viragem constitucional, distinta da criação legal do feriado anual. A Lei n.º 245/2000 passou depois a reconhecer expressamente 1 de janeiro como Dia da Restauração do Estado Checo Independente, data que coincide com o Ano Novo.",
+          "promoter": "O Conselho Nacional Checo aprovou a Constituição; o Parlamento checo consagrou mais tarde o feriado na Lei n.º 245/2000.",
+          "purpose": "Recordar a independência constitucional checa e a transição pacífica do Estado checoslovaco comum.",
+          "facts": [
+            "A Constituição checa entrou em vigor em 1 de janeiro de 1993.",
+            "A separação das repúblicas checa e eslovaca foi pacífica.",
+            "A Lei n.º 245/2000 reconhece 1 de janeiro como feriado estatal."
+          ]
+        }
+      },
+      "sourceReviewNote": "1993 is the constitutional event; 2000 is the year of the cited holiday statute. Earliest commemorative ceremony unproven, so firstObservedYear null."
+    },
+    {
+      "observanceId": "sk-czechoslovak-state-day",
+      "country": "SK",
+      "observanceDate": {
+        "kind": "FIXED_DATE",
+        "month": 10,
+        "day": 28
+      },
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+        "https://www.vlada.gov.sk/tlacove-spravy/den-vzniku-samostatneho-ceskoslovenskeho-statu/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 October: remembering the founding of Czechoslovakia",
+          "origin": "On 28 October 1918, as Austria-Hungary was coming apart at the end of the First World War, the independent Czechoslovak state was proclaimed in Prague. Czech and Slovak political and diplomatic efforts, including work by Tomáš Garrigue Masaryk, Edvard Beneš and Milan Rastislav Štefánik, helped make independence possible. Slovak representatives expressed their support through the Martin Declaration on 30 October. Slovakia now marks 28 October as a state holiday, but its government's current calendar explicitly says that it is not a day off work.",
+          "promoter": "Czech and Slovak independence leaders and the Czechoslovak National Committee shaped the 1918 founding; Slovakia preserves its remembrance.",
+          "purpose": "Remember the shared state-building efforts of Czechs and Slovaks and their place in European history.",
+          "facts": [
+            "Czechoslovak independence was proclaimed on 28 October 1918.",
+            "Slovak representatives adopted the Martin Declaration two days later.",
+            "In Slovakia, this state holiday is not a non-working day."
+          ]
+        },
+        "it": {
+          "heading": "28 ottobre: la nascita della Cecoslovacchia",
+          "origin": "Il 28 ottobre 1918, mentre l'Impero austro-ungarico si disgregava alla fine della Prima guerra mondiale, a Praga fu proclamato lo Stato cecoslovacco indipendente. L'impegno politico e diplomatico di cechi e slovacchi, con figure come Tomáš Garrigue Masaryk, Edvard Beneš e Milan Rastislav Štefánik, contribuì alla nascita del nuovo Stato. Il 30 ottobre i rappresentanti slovacchi sostennero il progetto con la Dichiarazione di Martin. Oggi la Slovacchia ricorda il 28 ottobre come festa statale, che però il calendario governativo non considera giorno di riposo.",
+          "promoter": "I protagonisti dell'indipendenza ceca e slovacca e il Comitato nazionale cecoslovacco guidarono la nascita dello Stato nel 1918.",
+          "purpose": "Ricordare la costruzione dello Stato comune di cechi e slovacchi e il suo ruolo nella storia europea.",
+          "facts": [
+            "La Cecoslovacchia fu proclamata il 28 ottobre 1918.",
+            "La Dichiarazione di Martin fu adottata due giorni dopo.",
+            "In Slovacchia questa festa statale non comporta riposo lavorativo."
+          ]
+        },
+        "es": {
+          "heading": "28 de octubre: el nacimiento de Checoslovaquia",
+          "origin": "El 28 de octubre de 1918, mientras Austria-Hungría se desintegraba al final de la Primera Guerra Mundial, se proclamó en Praga el Estado checoslovaco independiente. Los esfuerzos políticos y diplomáticos checos y eslovacos, con figuras como Tomáš Garrigue Masaryk, Edvard Beneš y Milan Rastislav Štefánik, contribuyeron a su creación. El 30 de octubre, representantes eslovacos respaldaron el proyecto con la Declaración de Martin. Hoy Eslovaquia conmemora el 28 de octubre como fiesta estatal, pero su calendario oficial señala que no es un día no laborable.",
+          "promoter": "Los líderes independentistas checos y eslovacos y el Comité Nacional Checoslovaco impulsaron la fundación de 1918.",
+          "purpose": "Recordar la creación del Estado compartido de checos y eslovacos y su lugar en la historia europea.",
+          "facts": [
+            "La independencia checoslovaca se proclamó el 28 de octubre de 1918.",
+            "La Declaración de Martin fue adoptada dos días después.",
+            "En Eslovaquia esta fiesta estatal no es un día no laborable."
+          ]
+        },
+        "fr": {
+          "heading": "28 octobre : la naissance de la Tchécoslovaquie",
+          "origin": "Le 28 octobre 1918, alors que l'Autriche-Hongrie se désagrégeait à la fin de la Première Guerre mondiale, l'État tchécoslovaque indépendant fut proclamé à Prague. Les efforts politiques et diplomatiques tchèques et slovaques, notamment ceux de Tomáš Garrigue Masaryk, Edvard Beneš et Milan Rastislav Štefánik, avaient préparé cette étape. Le 30 octobre, des représentants slovaques soutinrent le nouvel État par la Déclaration de Martin. La Slovaquie commémore aujourd'hui le 28 octobre comme fête d'État, sans en faire un jour chômé selon son calendrier officiel.",
+          "promoter": "Les dirigeants de l'indépendance tchèque et slovaque et le Comité national tchécoslovaque ont porté le projet de 1918.",
+          "purpose": "Rappeler la construction d'un État commun aux Tchèques et aux Slovaques et sa place dans l'histoire européenne.",
+          "facts": [
+            "L'indépendance tchécoslovaque fut proclamée le 28 octobre 1918.",
+            "La Déclaration de Martin fut adoptée deux jours plus tard.",
+            "En Slovaquie, cette fête d'État n'est pas un jour chômé."
+          ]
+        },
+        "de": {
+          "heading": "28. Oktober: Erinnerung an die Gründung der Tschechoslowakei",
+          "origin": "Am 28. Oktober 1918 wurde in Prag ein unabhängiger tschechoslowakischer Staat ausgerufen, während Österreich-Ungarn am Ende des Ersten Weltkriegs zerfiel. Tschechische und slowakische politische sowie diplomatische Initiativen, darunter jene von Tomáš Garrigue Masaryk, Edvard Beneš und Milan Rastislav Štefánik, hatten dazu beigetragen. Am 30. Oktober unterstützten slowakische Vertreter den neuen Staat mit der Martiner Erklärung. Die Slowakei begeht den 28. Oktober heute als staatlichen Feiertag, der laut Regierungsübersicht aber kein arbeitsfreier Tag ist.",
+          "promoter": "Tschechische und slowakische Unabhängigkeitsführer sowie der tschechoslowakische Nationalausschuss prägten 1918 die Staatsgründung.",
+          "purpose": "An die gemeinsame tschechisch-slowakische Staatsgründung und ihre Bedeutung für Europa erinnern.",
+          "facts": [
+            "Die Unabhängigkeit wurde am 28. Oktober 1918 verkündet.",
+            "Zwei Tage später folgte die Erklärung von Martin.",
+            "In der Slowakei ist dieser Staatsfeiertag nicht arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "28 de outubro: a fundação da Checoslováquia",
+          "origin": "Em 28 de outubro de 1918, quando a Áustria-Hungria se desintegrava no final da Primeira Guerra Mundial, foi proclamado em Praga o Estado checoslovaco independente. Os esforços políticos e diplomáticos de checos e eslovacos, incluindo Tomáš Garrigue Masaryk, Edvard Beneš e Milan Rastislav Štefánik, ajudaram a concretizar a independência. Em 30 de outubro, representantes eslovacos apoiaram o novo Estado através da Declaração de Martin. A Eslováquia assinala atualmente 28 de outubro como feriado estatal, mas não como dia de descanso obrigatório.",
+          "promoter": "Líderes independentistas checos e eslovacos e o Comité Nacional Checoslovaco protagonizaram a fundação de 1918.",
+          "purpose": "Recordar a criação do Estado comum de checos e eslovacos e o seu lugar na história europeia.",
+          "facts": [
+            "A independência checoslovaca foi proclamada em 28 de outubro de 1918.",
+            "A Declaração de Martin foi aprovada dois dias depois.",
+            "Na Eslováquia, este feriado estatal não é um dia de descanso."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government sources confirm the historical 1918 event and current state-holiday-not-rest-day distinction. Earliest legal Slovak designation and first annual commemoration remain unverified/null."
+    },
+    {
+      "observanceId": "italian-republic-day",
+      "country": "IT",
+      "observanceDate": {
+        "kind": "FIXED_DATE",
+        "month": 6,
+        "day": 2
+      },
+      "introducedYear": 1949,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.senato.it/CESUS/2026/2giugno/",
+        "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=049U0260&atto.dataPubblicazioneGazzetta=1949-05-31&tipoDettaglio=vigente",
+        "https://archivio.quirinale.it/aspr/redazione/la-storia-e-le-funzioni",
+        "https://www.quirinale.it/allegati_statici/lezione-storia_2giugno/ASPR_Interventi_2017festaRepubblica.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 June: how Italy chose a republic",
+          "origin": "On 2 and 3 June 1946, Italians voted in a referendum to choose between monarchy and republic after the Second World War and the fall of Fascism. The republican option prevailed, and voters also elected a Constituent Assembly. Women participated in a national political vote, making the occasion a milestone in the country's democratic reconstruction. The national celebration recalls the date the voting began, not the final proclamation of the result. Parliament formally designated 2 June as the Festa della Repubblica with Law No. 260 of 27 May 1949.",
+          "promoter": "The Italian electorate chose the republic in 1946; the Italian Parliament legally established the national holiday in 1949.",
+          "purpose": "Remember the democratic choice of the republic and the role of universal suffrage in Italy's constitutional transition.",
+          "facts": [
+            "The referendum took place on 2 and 3 June 1946.",
+            "Voters also elected the Constituent Assembly in 1946.",
+            "Law No. 260/1949 formally made 2 June a national holiday."
+          ]
+        },
+        "it": {
+          "heading": "2 giugno: il giorno in cui l'Italia scelse la Repubblica",
+          "origin": "Il 2 e 3 giugno 1946 gli italiani votarono per scegliere tra monarchia e repubblica, dopo la Seconda guerra mondiale e la caduta del fascismo. Prevalse la scelta repubblicana e gli elettori designarono anche l'Assemblea Costituente. La partecipazione delle donne a una votazione politica nazionale rese quella consultazione un passaggio fondamentale nella ricostruzione democratica. La festa ricorda il primo giorno del voto, non la proclamazione definitiva del risultato. La legge n. 260 del 27 maggio 1949 riconobbe formalmente il 2 giugno come Festa della Repubblica.",
+          "promoter": "Gli elettori italiani scelsero la Repubblica nel 1946; il Parlamento istituì legalmente la festa nazionale nel 1949.",
+          "purpose": "Ricordare la scelta democratica della Repubblica e il ruolo del suffragio nella transizione costituzionale italiana.",
+          "facts": [
+            "Il referendum si svolse il 2 e 3 giugno 1946.",
+            "Nelle stesse date fu eletta anche l'Assemblea Costituente.",
+            "La legge n. 260/1949 dichiarò il 2 giugno festa nazionale."
+          ]
+        },
+        "es": {
+          "heading": "2 de junio: cuando Italia eligió la República",
+          "origin": "Los días 2 y 3 de junio de 1946, los italianos votaron en un referéndum para decidir entre monarquía y república tras la Segunda Guerra Mundial y la caída del fascismo. Ganó la opción republicana y se eligió también una Asamblea Constituyente. La participación de las mujeres en una votación política nacional convirtió la consulta en un hito de la reconstrucción democrática. La fiesta recuerda el comienzo de las votaciones, no la proclamación definitiva del resultado. La Ley 260, de 27 de mayo de 1949, declaró el 2 de junio Fiesta de la República.",
+          "promoter": "El electorado italiano escogió la república en 1946; el Parlamento estableció legalmente la fiesta nacional en 1949.",
+          "purpose": "Recordar la elección democrática de la república y el papel del sufragio en la transición constitucional italiana.",
+          "facts": [
+            "El referéndum se celebró el 2 y 3 de junio de 1946.",
+            "También se eligió una Asamblea Constituyente.",
+            "La Ley 260/1949 declaró fiesta nacional el 2 de junio."
+          ]
+        },
+        "fr": {
+          "heading": "2 juin : le jour où l'Italie choisit la République",
+          "origin": "Les 2 et 3 juin 1946, les Italiens votèrent pour choisir entre monarchie et république après la Seconde Guerre mondiale et la chute du fascisme. L'option républicaine l'emporta et les électeurs élurent également une Assemblée constituante. La participation des femmes à un scrutin politique national marqua une étape de la reconstruction démocratique. La fête commémore le début du vote, non la proclamation définitive des résultats. La loi n° 260 du 27 mai 1949 a officiellement fait du 2 juin la Fête de la République.",
+          "promoter": "Les électeurs italiens choisirent la république en 1946 ; le Parlement institua légalement la fête nationale en 1949.",
+          "purpose": "Rappeler le choix démocratique de la république et le rôle du suffrage dans la transition constitutionnelle italienne.",
+          "facts": [
+            "Le référendum eut lieu les 2 et 3 juin 1946.",
+            "Une Assemblée constituante fut élue lors du même scrutin.",
+            "La loi n° 260/1949 fit du 2 juin une fête nationale."
+          ]
+        },
+        "de": {
+          "heading": "2. Juni: Wie Italien sich für die Republik entschied",
+          "origin": "Am 2. und 3. Juni 1946 entschieden die Italiener nach dem Zweiten Weltkrieg und dem Ende des Faschismus in einem Referendum zwischen Monarchie und Republik. Die Mehrheit stimmte für die Republik; zugleich wurde eine verfassunggebende Versammlung gewählt. Die Teilnahme von Frauen an einer landesweiten politischen Wahl machte dies zu einem wichtigen Schritt des demokratischen Neubeginns. Der Feiertag erinnert an den Beginn der Abstimmung, nicht an die spätere endgültige Ergebnisverkündung. Gesetz Nr. 260 vom 27. Mai 1949 erklärte den 2. Juni zum Tag der Republik.",
+          "promoter": "Die italienischen Wähler entschieden sich 1946 für die Republik; das Parlament führte den Nationalfeiertag 1949 gesetzlich ein.",
+          "purpose": "An die demokratische Entscheidung für die Republik und das Wahlrecht als Grundlage des Verfassungswandels erinnern.",
+          "facts": [
+            "Das Referendum fand am 2. und 3. Juni 1946 statt.",
+            "Gleichzeitig wurde eine verfassunggebende Versammlung gewählt.",
+            "Gesetz Nr. 260/1949 erklärte den 2. Juni zum Nationalfeiertag."
+          ]
+        },
+        "pt": {
+          "heading": "2 de junho: o dia em que Itália escolheu a República",
+          "origin": "Nos dias 2 e 3 de junho de 1946, os italianos escolheram em referendo entre monarquia e república após a Segunda Guerra Mundial e a queda do fascismo. A opção republicana venceu, e foi também eleita uma Assembleia Constituinte. A participação das mulheres numa votação política nacional tornou este momento decisivo para a reconstrução democrática. A festa recorda o início da votação, e não a proclamação definitiva dos resultados. A Lei n.º 260, de 27 de maio de 1949, declarou oficialmente 2 de junho Festa da República.",
+          "promoter": "Os eleitores italianos escolheram a república em 1946; o Parlamento instituiu legalmente o feriado nacional em 1949.",
+          "purpose": "Recordar a escolha democrática da república e o papel do sufrágio na transição constitucional italiana.",
+          "facts": [
+            "O referendo realizou-se em 2 e 3 de junho de 1946.",
+            "Foi também eleita uma Assembleia Constituinte.",
+            "A Lei n.º 260/1949 declarou 2 de junho feriado nacional."
+          ]
+        }
+      },
+      "sourceReviewNote": "Event 1946 vs holiday legal designation 1949; ceremonial first 1948 has separate source, firstObservedYear left null rather than claim earliest national observation. Law 1977/2000 affecting observed date deliberately omitted from evergreen origin text."
+    },
+    {
+      "observanceId": "fi-finnish-independence-day",
+      "country": "FI",
+      "observanceDate": {
+        "kind": "FIXED_DATE",
+        "month": 12,
+        "day": 6
+      },
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+        "https://finland.fi/life-society/parliamentarism-in-finland/",
+        "https://www.finlex.fi/en/legislation/collection/2025/1259",
+        "https://finland.fi/life-society/finns-celebrate-freedom-every-december/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 December: Finland's parliamentary declaration of independence",
+          "origin": "On 6 December 1917, Finland's Parliament approved a declaration of independence presented by the Senate led by Pehr Evind Svinhufvud. The decision took place amid the upheavals affecting the Russian Empire, after more than a century in which Finland had been an autonomous grand duchy. Independence did not settle every political dispute: a civil war followed in 1918 and the republican form of government was consolidated in 1919. Every 6 December, Finland recalls the parliamentary turning point through flags, commemorations and candlelit windows, without confusing the 1917 declaration with the later history of the holiday.",
+          "promoter": "Finland's Senate under Pehr Evind Svinhufvud proposed the declaration, which Parliament approved on 6 December 1917.",
+          "purpose": "Commemorate Finland's independent statehood and the parliamentary decision that opened its modern constitutional era.",
+          "facts": [
+            "Parliament approved independence on 6 December 1917.",
+            "A Finnish civil war followed in 1918.",
+            "Finland consolidated its republican government in 1919."
+          ]
+        },
+        "it": {
+          "heading": "6 dicembre: il Parlamento dichiara indipendente la Finlandia",
+          "origin": "Il 6 dicembre 1917 il Parlamento finlandese approvò la dichiarazione d'indipendenza presentata dal Senato guidato da Pehr Evind Svinhufvud. La decisione maturò durante le trasformazioni dell'Impero russo, dopo oltre un secolo in cui la Finlandia era stata un granducato autonomo. L'indipendenza non risolse subito tutte le tensioni: nel 1918 seguì una guerra civile e nel 1919 si consolidò la forma repubblicana. Ogni 6 dicembre il Paese ricorda quella svolta parlamentare con bandiere, commemorazioni e candele alle finestre, distinguendo l'evento del 1917 dalla successiva storia della festa.",
+          "promoter": "Il Senato finlandese guidato da Pehr Evind Svinhufvud presentò la dichiarazione, approvata dal Parlamento il 6 dicembre 1917.",
+          "purpose": "Celebrare lo Stato finlandese indipendente e la scelta parlamentare che aprì la sua moderna storia costituzionale.",
+          "facts": [
+            "Il Parlamento approvò l'indipendenza il 6 dicembre 1917.",
+            "Nel 1918 la Finlandia attraversò una guerra civile.",
+            "Nel 1919 si consolidò il sistema repubblicano finlandese."
+          ]
+        },
+        "es": {
+          "heading": "6 de diciembre: la declaración parlamentaria de independencia de Finlandia",
+          "origin": "El 6 de diciembre de 1917, el Parlamento de Finlandia aprobó la declaración de independencia presentada por el Senado dirigido por Pehr Evind Svinhufvud. La decisión surgió en medio de los cambios del Imperio ruso, tras más de un siglo en el que Finlandia había sido un gran ducado autónomo. La independencia no resolvió todas las tensiones: en 1918 hubo una guerra civil y la forma republicana se consolidó en 1919. Cada 6 de diciembre, Finlandia recuerda aquel momento parlamentario con banderas, homenajes y velas en las ventanas, sin confundir el hecho de 1917 con la posterior historia de la fiesta.",
+          "promoter": "El Senado finlandés dirigido por Pehr Evind Svinhufvud presentó la declaración, aprobada por el Parlamento en 1917.",
+          "purpose": "Conmemorar el Estado finlandés independiente y la decisión parlamentaria que abrió su etapa constitucional moderna.",
+          "facts": [
+            "El Parlamento aprobó la independencia el 6 de diciembre de 1917.",
+            "En 1918 Finlandia atravesó una guerra civil.",
+            "La forma republicana se consolidó en 1919."
+          ]
+        },
+        "fr": {
+          "heading": "6 décembre : la déclaration d'indépendance de la Finlande",
+          "origin": "Le 6 décembre 1917, le Parlement finlandais approuva la déclaration d'indépendance présentée par le Sénat dirigé par Pehr Evind Svinhufvud. Cette décision intervint pendant les bouleversements de l'Empire russe, après plus d'un siècle durant lequel la Finlande était un grand-duché autonome. L'indépendance ne résolut pas toutes les tensions : une guerre civile suivit en 1918 et la forme républicaine fut consolidée en 1919. Chaque 6 décembre, le pays rappelle ce tournant parlementaire par des drapeaux, des cérémonies et des bougies aux fenêtres, sans confondre l'événement de 1917 avec la création ultérieure de la fête.",
+          "promoter": "Le Sénat dirigé par Pehr Evind Svinhufvud proposa la déclaration, approuvée par le Parlement le 6 décembre 1917.",
+          "purpose": "Commémorer l'État finlandais indépendant et la décision parlementaire à l'origine de son histoire constitutionnelle moderne.",
+          "facts": [
+            "Le Parlement approuva l'indépendance le 6 décembre 1917.",
+            "Une guerre civile eut lieu en Finlande en 1918.",
+            "La forme républicaine fut consolidée en 1919."
+          ]
+        },
+        "de": {
+          "heading": "6. Dezember: Finnlands parlamentarische Unabhängigkeitserklärung",
+          "origin": "Am 6. Dezember 1917 billigte das finnische Parlament die Unabhängigkeitserklärung des von Pehr Evind Svinhufvud geführten Senats. Dies geschah während der Umbrüche im Russischen Reich, nachdem Finnland über ein Jahrhundert lang ein autonomes Großfürstentum gewesen war. Die Unabhängigkeit beendete nicht alle Konflikte: 1918 folgte ein Bürgerkrieg, 1919 setzte sich die republikanische Staatsform durch. Jedes Jahr am 6. Dezember erinnert Finnland mit Flaggen, Gedenkveranstaltungen und Kerzen an Fenstern an diesen parlamentarischen Schritt, ohne das Ereignis von 1917 mit der späteren Feiertagsgeschichte gleichzusetzen.",
+          "promoter": "Der von Pehr Evind Svinhufvud geführte Senat legte die Erklärung vor, die das Parlament am 6. Dezember 1917 billigte.",
+          "purpose": "An Finnlands eigenständige Staatlichkeit und den parlamentarischen Beschluss für seine moderne Verfassungsgeschichte erinnern.",
+          "facts": [
+            "Das Parlament billigte die Unabhängigkeit am 6. Dezember 1917.",
+            "1918 folgte in Finnland ein Bürgerkrieg.",
+            "1919 etablierte sich die republikanische Staatsform."
+          ]
+        },
+        "pt": {
+          "heading": "6 de dezembro: a declaração de independência da Finlândia",
+          "origin": "Em 6 de dezembro de 1917, o Parlamento finlandês aprovou a declaração de independência apresentada pelo Senado liderado por Pehr Evind Svinhufvud. A decisão surgiu num período de mudanças no Império Russo, depois de mais de um século em que a Finlândia fora um grão-ducado autónomo. A independência não resolveu todas as tensões: em 1918 seguiu-se uma guerra civil e a forma republicana consolidou-se em 1919. Todos os anos, a 6 de dezembro, o país recorda esta viragem parlamentar com bandeiras, cerimónias e velas nas janelas, sem confundir a declaração de 1917 com a história posterior do feriado.",
+          "promoter": "O Senado liderado por Pehr Evind Svinhufvud apresentou a declaração, aprovada pelo Parlamento em 6 de dezembro de 1917.",
+          "purpose": "Comemorar a soberania finlandesa e a decisão parlamentar que abriu a sua história constitucional moderna.",
+          "facts": [
+            "O Parlamento aprovou a independência em 6 de dezembro de 1917.",
+            "Em 1918, a Finlândia atravessou uma guerra civil.",
+            "A forma republicana consolidou-se em 1919."
+          ]
+        }
+      },
+      "sourceReviewNote": "1917 historical independence act proven, but formal introduction/first annual holiday designation remains unspecified rather than inferred. Finnish state source and 2026 flag statute checked."
+    },
+    {
+      "observanceId": "ee-restoration-of-independence-day",
+      "country": "EE",
+      "observanceDate": {
+        "kind": "FIXED_DATE",
+        "month": 8,
+        "day": 20
+      },
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.riigikogu.ee/en/press-releases/celebrations-of-the-30th-anniversary-of-the-restoration-of-estonias-independence-at-toompea/",
+        "https://www.riigikogu.ee/en/introduction-and-history/history-riigikogu/supreme-soviet-essr-supreme-council-republic-estonia/",
+        "https://www.riigikogu.ee/en/pressiteated/20-august-flag-raising-ceremony-and-free-concert-on-the-day-of-restoration-of-independence/",
+        "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 August: Estonia restores its independence",
+          "origin": "On the evening of 20 August 1991, Estonia's Supreme Council voted to restore national independence as the Soviet Union was entering its final crisis. The resolution passed with 69 votes in favour and reaffirmed the legal continuity of the Estonian state first proclaimed on 24 February 1918. It was a restoration rather than the creation of an entirely new national identity. Today 20 August is marked by flag-raising ceremonies and public commemorations, recalling the people and institutions who maintained the claim to sovereignty through decades of occupation.",
+          "promoter": "The Supreme Council of the Republic of Estonia adopted the restoration resolution on 20 August 1991 with 69 votes in favour.",
+          "purpose": "Remember the restoration of Estonian sovereignty and the legal continuity of the republic founded in 1918.",
+          "facts": [
+            "The restoration resolution was adopted on 20 August 1991.",
+            "Estonia's Supreme Council approved it with 69 votes in favour.",
+            "The resolution reaffirmed the state proclaimed on 24 February 1918."
+          ]
+        },
+        "it": {
+          "heading": "20 agosto: l'Estonia ripristina la sua indipendenza",
+          "origin": "La sera del 20 agosto 1991 il Consiglio Supremo dell'Estonia votò per ripristinare l'indipendenza nazionale, mentre l'Unione Sovietica attraversava la sua crisi finale. La risoluzione ottenne 69 voti favorevoli e riaffermò la continuità giuridica dello Stato estone proclamato il 24 febbraio 1918. Si trattò quindi di un ripristino, non della nascita di un'identità nazionale completamente nuova. Il 20 agosto viene ricordato con cerimonie dell'alzabandiera e commemorazioni pubbliche dedicate a chi mantenne viva l'aspirazione alla sovranità durante l'occupazione.",
+          "promoter": "Il Consiglio Supremo della Repubblica d'Estonia approvò la risoluzione di ripristino il 20 agosto 1991 con 69 voti favorevoli.",
+          "purpose": "Ricordare il ripristino della sovranità estone e la continuità giuridica della repubblica fondata nel 1918.",
+          "facts": [
+            "La risoluzione fu approvata il 20 agosto 1991.",
+            "Il Consiglio Supremo espresse 69 voti favorevoli.",
+            "La decisione riaffermò lo Stato proclamato il 24 febbraio 1918."
+          ]
+        },
+        "es": {
+          "heading": "20 de agosto: Estonia restaura su independencia",
+          "origin": "La noche del 20 de agosto de 1991, el Consejo Supremo de Estonia votó para restaurar la independencia nacional durante la crisis final de la Unión Soviética. La resolución obtuvo 69 votos a favor y reafirmó la continuidad jurídica del Estado estonio proclamado el 24 de febrero de 1918. Fue una restauración, no la creación de una identidad nacional completamente nueva. Cada 20 de agosto se celebran izados de bandera y actos públicos para recordar a quienes mantuvieron viva la aspiración a la soberanía durante décadas de ocupación.",
+          "promoter": "El Consejo Supremo de la República de Estonia aprobó la resolución de restauración el 20 de agosto de 1991 con 69 votos a favor.",
+          "purpose": "Recordar la restauración de la soberanía estonia y la continuidad jurídica de la república fundada en 1918.",
+          "facts": [
+            "La resolución se aprobó el 20 de agosto de 1991.",
+            "El Consejo Supremo la apoyó con 69 votos a favor.",
+            "La decisión reafirmó el Estado proclamado el 24 de febrero de 1918."
+          ]
+        },
+        "fr": {
+          "heading": "20 août : l'Estonie rétablit son indépendance",
+          "origin": "Le soir du 20 août 1991, le Conseil suprême d'Estonie vota le rétablissement de l'indépendance nationale alors que l'Union soviétique traversait sa dernière crise. La résolution fut adoptée par 69 voix favorables et réaffirma la continuité juridique de l'État estonien proclamé le 24 février 1918. Il s'agissait d'une restauration, non de la création d'une identité nationale nouvelle. Le 20 août est aujourd'hui marqué par des levées de drapeau et des commémorations rappelant celles et ceux qui préservèrent l'aspiration à la souveraineté pendant l'occupation.",
+          "promoter": "Le Conseil suprême de la République d'Estonie adopta la résolution de restauration le 20 août 1991 par 69 voix.",
+          "purpose": "Rappeler le rétablissement de la souveraineté estonienne et la continuité juridique de la république de 1918.",
+          "facts": [
+            "La résolution fut adoptée le 20 août 1991.",
+            "Le Conseil suprême l'approuva par 69 voix favorables.",
+            "Elle réaffirma l'État proclamé le 24 février 1918."
+          ]
+        },
+        "de": {
+          "heading": "20. August: Estland stellt seine Unabhängigkeit wieder her",
+          "origin": "Am Abend des 20. August 1991 stimmte Estlands Oberster Rat während der letzten Krise der Sowjetunion für die Wiederherstellung der staatlichen Unabhängigkeit. Der Beschluss erhielt 69 Ja-Stimmen und bekräftigte die rechtliche Kontinuität des estnischen Staates, der am 24. Februar 1918 ausgerufen worden war. Es ging um eine Wiederherstellung, nicht um die Entstehung einer völlig neuen nationalen Identität. Heute erinnert Estland am 20. August mit Flaggenzeremonien und öffentlichen Gedenkveranstaltungen an diejenigen, die den Anspruch auf Souveränität während der Besatzungszeit bewahrten.",
+          "promoter": "Der Oberste Rat der Republik Estland verabschiedete die Wiederherstellungsresolution am 20. August 1991 mit 69 Ja-Stimmen.",
+          "purpose": "An die Wiederherstellung der Souveränität Estlands und die rechtliche Kontinuität der Republik von 1918 erinnern.",
+          "facts": [
+            "Die Resolution wurde am 20. August 1991 verabschiedet.",
+            "Der Oberste Rat stimmte ihr mit 69 Ja-Stimmen zu.",
+            "Sie bekräftigte den am 24. Februar 1918 ausgerufenen Staat."
+          ]
+        },
+        "pt": {
+          "heading": "20 de agosto: a Estónia restaura a independência",
+          "origin": "Na noite de 20 de agosto de 1991, o Conselho Supremo da Estónia votou a restauração da independência nacional, durante a crise final da União Soviética. A resolução recebeu 69 votos favoráveis e reafirmou a continuidade jurídica do Estado estónio proclamado em 24 de fevereiro de 1918. Foi uma restauração, não a criação de uma identidade nacional inteiramente nova. Hoje, o dia 20 de agosto é assinalado com cerimónias de hasteamento da bandeira e homenagens a quem preservou a reivindicação de soberania durante décadas de ocupação.",
+          "promoter": "O Conselho Supremo da República da Estónia aprovou a resolução de restauração em 20 de agosto de 1991 com 69 votos a favor.",
+          "purpose": "Recordar a restauração da soberania estónia e a continuidade jurídica da república fundada em 1918.",
+          "facts": [
+            "A resolução foi aprovada em 20 de agosto de 1991.",
+            "O Conselho Supremo votou a favor por 69 votos.",
+            "Reafirmou o Estado proclamado em 24 de fevereiro de 1918."
+          ]
+        }
+      },
+      "sourceReviewNote": "Estonian Riigikogu confirms 20 August 1991 resolution, 69 affirmative votes, restoration of 1918 state. First year of recurring holiday law not independently sourced; preserve null."
+    }
+  ]
+}
