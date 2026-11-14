@@ -186,3 +186,46 @@ All 12 are **original AI six-locale research drafts**, each with heading, eviden
 | **Total** | **180** | **71** | **109** |
 
 New six-locale original histories authored on PR #120 now **28** (previous 16 + these 12), in addition to 9 translations-overlay completions of prior PR #118 EN/IT records. Legal/date category spot-checks expanded from 20 to **32**. **Qualified native-language and independent historical approvals remain ZERO**. PR stays Draft, main runtime catalog unchanged. The next major research targets are the remaining 27 Korean official days plus the 82 Philippine candidate records; some may be rejected or linked to already existing global origins on detailed source examination.
+
+
+## South Korea candidate origin completion — 14 November 2026
+
+**Research milestone (NOT qualified editorial certification): all `57/57` retained South Korean national candidate IDs now have a traced six-language AI historical origin draft.**
+
+All original prior source dossiers remain on their source PRs, with exact-head provenance; added research on PR #120 remains additive, no copies of the source PR118 drafts into new canonical IDs. The initial 333-identity scope and the 153 excluded Philippine biographical entries remain unchanged.
+
+### Last 27 Korean origin dossiers authored in this sprint
+
+Five new sources batches under `data/editorial/research_batches/`:
+
+| Research file | Count | Distinct national origin records |
+| --- | ---: | --- |
+| `kr_contemporary_5_six_locales_20261114.json` | 5 | King Sejong Birthday (2024 legal day), North Korean Defectors Day (2024), Fallen Military Service Members (2023), Couples Day (2007), Culture Day (1973, third Saturday October since 2006) |
+| `kr_economy_6_six_locales_20261114.json` | 6 | Commerce and Industry Day (1964 precursor; third Wednesday March), Consumers Day (1979 law / 1982 civic / 1996 statutory), Trade Day (1964 / 1988 rename / 2012 move), Farmers Day (1996 / 1997 rename), Local Autonomy and Balanced Development Day (2012 / 2023 merger), Taxpayers Day (1969 / 1973 merger) |
+| `kr_social_6_six_locales_20261114.json` | 6 | Workers Day (1963 law / 1994 May 1 date), Korean Public Health Day (1953 WHO precursor / 1973 national merger), Science Day (1969), Teachers Day (1958 youth activities / 1965 May 15 / 1982 statutory), Parents Day (1956 Mothers Day / 1973 broadened), Seniors Day (1997, Oct 2 distinct from UN Oct 1) |
+| `kr_institutions_5_six_locales_20261114.json` | 5 | Corrections Day (1959 / 1973 merge / 2002 separate revival), Information and Communications Day (1956 / 1972 date / 1996 rename), Oceans Day (1996), Police Day (1957 / 1973 statutory), Armed Forces Day (1956) |
+| `kr_memory_society_5_six_locales_20261114.json` | 5 | Righteous Armies remembrance (2010), Sports Day (1969 / 2023 rename), Veterans Association Day (1965 / 2002 new date), West Sea Defense Day (2016 first national ceremony), World Koreans Day (2007) |
+| **Total newly authored** | **27** | **27 independent canonical candidate IDs** |
+
+The **West Sea Defense Day** legal decree was published **22 March 2016** and the first national ceremony took place **25 March 2016**; the movable date is **fourth Friday of March**. It commemorates distinct episodes from **2002** and **2010**, and does not imply these events share the same anniversary. Government source: [Ministry of Patriots and Veterans Affairs announcement](https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5130&pageIndex=1&searchCnd=all&searchCtgry=&searchKrwd=).
+
+**Source quality**: the [MOIS institutional history](https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do) and [MOIS commemorative-day list](https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do) are two views from **one** government institution, not two independent factual-review confirmations. Government milestone sources are attached per ID. Rich story bodies do not include internal QA status language; qualified-review flags stay in metadata.
+
+**Recurrence gate**: the newly authored 27 IDs are checked against the original `data/market/wave10_hundred_kr_ph_20261111.json` calendar rules, preserving movable dates: third Wednesday March (Commerce), fourth Friday April (fallen service members), third Saturday October (Culture), fourth Friday March (West Sea). Same-date distinct observances, particularly **King Sejong Birthday and Teachers Day (May 15)**, are not automatically merged.
+
+### Actual per-ID coverage as of this source branch
+
+| Country | Retained candidates | Source-linked AI story in all six languages | Missing source-linked origin |
+| --- | ---: | ---: | ---: |
+| Philippines | 91 | 9 | **82** |
+| South Korea | 57 | **57** | **0** |
+| Canada | 32 | **32** | **0** |
+| **All** | **180** | **98** | **82** |
+
+Since this PR began, **55** new source-backed six-locale originals were authored; **9** PR118 EN/IT originals were extended with four additional locale drafts. Two PH/KR source research pilots on PR120 predate the 55 new stories. Total source-scoped government chronology/category spot-check records: **59**. **Human-certified: 0**. None of PR118, PR119, PR120 have been merged into main; no downstream runtime has been updated by this source-research work.
+
+### Remaining release blockers and next factual work
+1. **82 Philippine candidate origins** require history research and six-locale drafts or source-proven equivalence mapping; do not certify by nationality merely because one international day has many country views.
+2. Official-source errata on the PR118 English/Italian Bonifacio Act 2946 date (Senate metadata discrepancy) and Bataan/Day of Valor (1956 presidential special holiday vs 1961 recurring legal-holiday act).
+3. Independent qualified factual and native-language review **for all six locales**, licensing/source-usage clearance and explicit human signoff where required.
+4. Reconciliation of original source branches PR118/119 into one deployable canonical data model, real app UI integration, and appropriate build/release gate. Successful CI on research files alone does **not** publish stories or approve them.
