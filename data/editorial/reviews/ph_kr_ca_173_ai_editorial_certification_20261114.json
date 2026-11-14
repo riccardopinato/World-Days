@@ -14,9 +14,9 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 10,
-    "AI_CERTIFIED": 161,
-    "HOLD_SOURCE_DISPUTE": 2,
+    "AI_REVIEW_QUEUED": 0,
+    "AI_CERTIFIED": 173,
+    "HOLD_SOURCE_DISPUTE": 0,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
   },
@@ -2494,27 +2494,42 @@
       "title": "Jeju April 3 Victims Remembrance Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_provisional_jeju_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "46075f00042ead20112f23fa7fa052a944fb1142",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2014,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=41459"
+      ],
+      "factsConfirmed": [
+        "The remembrance concerns the Jeju April 3 events of the late 1940s.",
+        "The government announced the new legal memorial day in March 2014.",
+        "Its stated purpose includes mourning, reconciliation and recognition of families."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. The 1940s decade and specific year 1948 are compatible historical descriptions in translations. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-june-10-democracy-movement-remembrance",
@@ -6122,27 +6137,42 @@
       "title": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "70845fb5a92feca980a6f1b0f2162172de535df2",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_490_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Day of Sanctity and Protection of Human Life is a Philippine civic observance framed around respect for life and family. Its presidential text uses a religiously informed moral argument and references constitutional language about protection of mothers and unborn life.",
+        "Proclamation No. 490, signed by President Gloria Macapagal-Arroyo on 22 October 2003, officially designated the third Sunday of January of every year, rather than a fixed numbered date or a whole month.",
+        "The proclamation cites Article II, sections 5 and 12 of the Philippine Constitution. It is not the same legal observance as an independent Children's Day entry on the same Sunday unless a separate, verifiable instrument is found, and it does not make that Sunday a regular national non-working holiday."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-edsa-people-power-commemoration-week",
@@ -6150,27 +6180,43 @@
       "title": "EDSA People Power Commemoration Week — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "70845fb5a92feca980a6f1b0f2162172de535df2",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2007,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2007/proc_1224_2007.html",
+        "https://lawphil.net/executive/execord/eo1999/eo_82_1999.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "EDSA People Power Commemoration Week remembers the four days of demonstrations from 22 to 25 February 1986, when a broad non-violent public movement ended the authoritarian rule of Ferdinand Marcos and renewed Philippine democratic institutions.",
+        "Executive Order No. 82 of 22 February 1999 created the EDSA People Power Commission to preserve and explain the legacy of that revolution. The government's commission was established years after the original 1986 events.",
+        "Presidential Proclamation No. 1224, signed 30 January 2007, specifically designated 22–25 February of each year as the commemorative week and asked authorities, civil organizations and the public to participate. Its name 'week' does not turn four days into a seven-day period or make them automatically non-working."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-filipino-food-month",
@@ -6178,27 +6224,42 @@
       "title": "Filipino Food Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2018,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2018/proc_469_2018.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Filipino Food Month celebrates dishes, preparation techniques and food traditions as expressions of Philippine cultural heritage, not only as products of the restaurant industry.",
+        "Proclamation No. 469, signed in April 2018, established April of every year as Buwan ng Kalutong Pilipino; it expressly links culinary traditions to the 2009 National Cultural Heritage Act's implementing rules.",
+        "The proclamation assigns leadership to the Department of Agriculture and NCCA and invites government, schools and local communities to take part; it explicitly recognizes farmers and agricultural livelihoods."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-filipino-values-month",
@@ -6249,27 +6310,42 @@
       "title": "History Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2012,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2012/proc_339_2012.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine History Month invites schools, museums and communities to examine the country's turning points, local memories and historical interpretation over an entire month.",
+        "Proclamation No. 339, signed on 16 February 2012, moved the older History Week of 15–21 September, created under Proclamation No. 1304 of 1974, to the whole of August and repealed that 1974 order.",
+        "The decree cited the concentration of important August events and argued a single week was insufficient; it must not be mistaken for the legal establishment of National Heroes Day itself."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-library-and-information-services-month",
@@ -6406,27 +6482,42 @@
       "title": "Museums and Galleries Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1991,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1991/proc_798_1991.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Museums and Galleries Month offers a national occasion to explore collections, archives, art, historic objects and the many cultural traditions that shape Philippine identity.",
+        "President Corazon Aquino signed Proclamation No. 798 on 12 September 1991, establishing October annually and linking the initiative to cultural preservation and the World Decade for Cultural Development.",
+        "The then Presidential Commission on Culture and Arts was designated to lead activities, with museums and galleries urged to participate; the proclamation precedes the later institutional framework of today's NCCA."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-bible-month",
@@ -6520,27 +6611,50 @@
       "title": "National Children's Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1993,
       "establishedYear": 2015,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "NCCA_CALENDAR_LEGISLATIVE_YEAR_VS_ACT_TEXT",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
+        "https://lawphil.net/executive/proc/proc1993/proc_267_1993.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Children's Month supports the rights and wellbeing of Filipino children and brings public attention to the UN Convention on the Rights of the Child, adopted on 20 November 1989.",
+        "A 1993 proclamation had declared October National Children's Month. Republic Act No. 10661, approved on 29 May 2015, explicitly changed the recurring month to November and repealed the earlier proclamations.",
+        "The law names social-welfare, youth and children's councils as leading agencies; the current November calendar must not be shown as if the October designation had never existed."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. Republic Act 10661 approved 29 May 2015 legally replaced the October national children month designated by Proclamation 267 of 1993 with November. NCCA calendar incorrectly lists a 2014 law year; maintain 1993 historic origin and 2015 current November designation. ",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "NCCA_CALENDAR_LEGISLATIVE_YEAR_VS_ACT_TEXT",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "source": "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
+        "finding": "Republic Act 10661 approved 29 May 2015 legally replaced the October national children month designated by Proclamation 267 of 1993 with November. NCCA calendar incorrectly lists a 2014 law year; maintain 1993 historic origin and 2015 current November designation.",
+        "legalStatus": "QUALIFIED_SOURCE_REVIEW_NOT_A_BLANKET_HOLIDAY_APPROVAL"
+      }
     },
     {
       "observanceId": "ph-w13-national-coconut-week-philippines",
@@ -6678,27 +6792,43 @@
       "title": "National Indigenous Peoples Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2009,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2009/proc_1906_2009.html",
+        "https://lawphil.net/executive/proc/proc2003/proc_486_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Indigenous Peoples Month celebrates the diverse cultures of Philippine indigenous peoples and calls for protection of their rights, traditions and participation in public life.",
+        "Proclamation No. 1906 of 5 October 2009 established the whole month of October, building on the 1997 Indigenous Peoples Rights Act and an October 29 Thanksgiving Day previously recognized in 2003.",
+        "The NCCA's Subcommission on Cultural Communities and Traditional Arts was assigned a leading role; month-long celebration and single-day Thanksgiving remain different legal observances."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-literature-month",
@@ -6706,27 +6836,42 @@
       "title": "National Literature Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_heritage_rights_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "ae748dcbc84579dd9f5f6087cb2ca3fedd46c5fe",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2015,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2015/proc_968_2015.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Literature Month, also called Buwan ng Panitikang Filipino, highlights writing and storytelling in the Philippines' different languages and the ways books carry history and collective memory.",
+        "President Benigno Aquino III issued Proclamation No. 968 on 10 February 2015 to designate April; the text mentions the April remembrance of poet Francisco Balagtas and other literary anniversaries.",
+        "The NCCA and the Commission on the Filipino Language were designated as coordinating institutions; this national month is distinct from individual authors' birthdays and from UNESCO's World Book Day."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-peace-consciousness-month",
@@ -6915,27 +7060,51 @@
       "title": "Panagyaman Rice Festival Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_panagyaman_theater_2_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "e0e44135bdf6f9209251ce1faae2b4f84cde84e2",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2004,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "PANAGYAMAN_RICE_FESTIVAL_APRIL_2004_SINGLE_YEAR_PRESIDENTIAL_ACT_NCCA_ANNUAL_CALENDAR",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2004/proc_606_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+        "https://issuances-library.senate.gov.ph/executive-issuance/proclamation-no-606-s-2004"
+      ],
+      "factsConfirmed": [
+        "Panagyaman is a Filipino thanksgiving expression associated with the rice harvest. The Panagyaman Rice Festival Month is described in the original presidential document as a national celebration of successful rice cultivation and the labour of small farmers.",
+        "Proclamation No. 606, signed by President Gloria Macapagal-Arroyo on 19 April 2004, declared 'the month of April' as Panagyaman Rice Festival. It referred to hybrid rice production and irrigation programmes as the context of that year's celebration.",
+        "The signed proclamation does not explicitly say 'April of every year' or create a recurring national non-working holiday. The NCCA cultural calendar continues to index an April month, but annual statutory recurrence and ongoing government adoption require an independent official check."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. Proclamation 606 on 19 April 2004 declared April as the Panagyaman Rice Festival, with no explicit recurring 'every year' in the legal text. The NCCA current official cultural calendar lists this as an April whole-month cultural observance. Certify the 2004 historical dossier and its present cultural-calendar listing, NOT a legal claim of annually mandated government festival or nationwide holiday. ",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "PANAGYAMAN_RICE_FESTIVAL_APRIL_2004_SINGLE_YEAR_PRESIDENTIAL_ACT_NCCA_ANNUAL_CALENDAR",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "source": "https://lawphil.net/executive/proc/proc2004/proc_606_2004.html",
+        "finding": "Proclamation 606 on 19 April 2004 declared April as the Panagyaman Rice Festival, with no explicit recurring 'every year' in the legal text. The NCCA current official cultural calendar lists this as an April whole-month cultural observance. Certify the 2004 historical dossier and its present cultural-calendar listing, NOT a legal claim of annually mandated government festival or nationwide holiday.",
+        "legalStatus": "QUALIFIED_SOURCE_REVIEW_NOT_A_BLANKET_HOLIDAY_APPROVAL"
+      },
+      "legalRecurrenceCaveat": "Annual official statutory recurrence NOT established by original 2004 proclamation. Listed each April by NCCA's cultural calendar; avoid labeling as current mandatory annual celebration until independently corroborated."
     },
     {
       "observanceId": "ph-w13-philippine-book-development-month",
@@ -7159,27 +7328,43 @@
       "title": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_panagyaman_theater_2_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "e0e44135bdf6f9209251ce1faae2b4f84cde84e2",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2007,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2007/proc_1262_2007.html",
+        "https://lawphil.net/executive/ao/ao2010/ao_281_2010.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine UNESCO–ITI World Theatre Week showcases dramatic performance, cultural diversity, education and the ability of live theatre to connect communities. The local week culminates on 27 March, the date associated with international World Theatre Day.",
+        "Proclamation No. 1262, signed on 21 March 2007 by President Gloria Macapagal-Arroyo, specifically designated 21–27 March 2007 and every year thereafter as the country's UNESCO–ITI World Theatre Week.",
+        "The proclamation placed theatre activities under NCCA and the Philippine ITI Centre and referred to the 2006 Manila-hosted ITI World Congress. A later 2010 administrative order again refers to this theatre week. The national seven-day programme is distinct from the worldwide single day on 27 March."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-united-nations-week-philippines",
@@ -7187,27 +7372,43 @@
       "title": "United Nations Week (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "70845fb5a92feca980a6f1b0f2162172de535df2",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_483_2003.html",
+        "https://lawphil.net/executive/proc/proc2002/proc_276_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "United Nations Week in the Philippines recalls the United Nations' establishment in 1945 and invites discussion of international peace, human dignity, cooperation, development and the Philippines' participation as an original UN member.",
+        "Proclamation No. 276 of 16 October 2002 declared 18–24 October 2002 a one-year Philippine United Nations Week, highlighting international themes including mountains, ecotourism and cultural heritage.",
+        "Proclamation No. 483, signed 6 October 2003, explicitly repeated the period 18–24 October and added 'every year thereafter', appointing the Department of Foreign Affairs to lead. United Nations Day on 24 October is related but not identical to a seven-day Philippine week."
+      ],
+      "notes": "2026-11-15 AI editorial historical fact and six-language parity review of source-linked origin, promoter, purpose and three localized facts. Preserves distinct historic event, legal designation, recurrence calendar and statutory holiday status. Source PR #120 head and Git file blob pinned. This is not human signoff or runtime publication. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-unknown-citizens-day",
@@ -7546,6 +7747,122 @@
         "kr-w10-student-independence-movement-remembrance-day",
         "kr-w10-law-day-in-korea"
       ]
+    },
+    {
+      "asOf": "2026-11-15",
+      "batch": "final-99-source-scoped-ai-editorial",
+      "count": 99,
+      "sourcePRs": [
+        118,
+        119,
+        120
+      ],
+      "sourceHeads": {
+        "118": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+        "119": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+        "120": "521a59452178b7e2f0b074e5057e964af8515feb"
+      },
+      "ids": [
+        "ca-raoul-wallenberg-day",
+        "kr-childrens-day",
+        "kr-constitution-day",
+        "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+        "kr-w10-aerospace-day-in-korea",
+        "kr-w10-april-19-revolution-day",
+        "kr-w10-arbor-day-in-korea",
+        "kr-w10-bu-ma-democratic-protests-remembrance-day",
+        "kr-w10-coming-of-age-day-in-korea",
+        "kr-w10-couples-day-in-korea",
+        "kr-w10-culture-day-in-korea",
+        "kr-w10-fallen-military-service-members-remembrance-day",
+        "kr-w10-jeju-april-3-victims-remembrance-day",
+        "kr-w10-king-sejong-birthday-commemoration",
+        "kr-w10-north-korean-defectors-day",
+        "kr-w10-senior-citizens-day-in-korea",
+        "kr-w10-veterans-association-day-in-korea",
+        "ph-bonifacio-day",
+        "ph-day-of-valor",
+        "ph-edsa-people-power-anniversary",
+        "ph-national-heroes-day",
+        "ph-rizal-day",
+        "ph-w10-apolinario-mabini-day",
+        "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+        "ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary",
+        "ph-w10-araw-ni-balagtas",
+        "ph-w10-day-of-the-filipino-seafarer",
+        "ph-w10-filipino-chinese-friendship-day",
+        "ph-w10-gawad-sa-manlilikha-ng-bayan-establishment-anniversary",
+        "ph-w10-graciano-lopez-jaena-day",
+        "ph-w10-iglesia-ni-cristo-day",
+        "ph-w10-jose-abad-santos-day",
+        "ph-w10-julian-felipe-day",
+        "ph-w10-kindness-to-animal-day-philippines",
+        "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
+        "ph-w10-national-fisherfolks-day-philippines",
+        "ph-w10-national-library-of-the-philippines-founding-anniversary",
+        "ph-w10-ncca-establishment-anniversary",
+        "ph-w10-order-of-gabriela-silang-founding-anniversary",
+        "ph-w10-order-of-lakandula-founding-anniversary",
+        "ph-w10-order-of-national-artists-establishment-anniversary",
+        "ph-w10-philippine-army-founding-anniversary",
+        "ph-w10-philippine-british-friendship-day",
+        "ph-w10-philippine-film-development-council-founding-anniversary",
+        "ph-w10-philippine-flag-days-commencement",
+        "ph-w10-philippine-house-of-representatives-founding-anniversary",
+        "ph-w10-philippine-military-academy-establishment-anniversary",
+        "ph-w10-philippine-national-women-s-day",
+        "ph-w10-philippine-republic-day-july-4",
+        "ph-w10-philippine-senate-founding-anniversary",
+        "ph-w10-philippine-spanish-friendship-day",
+        "ph-w10-philippines-earth-day",
+        "ph-w10-philippines-indigenous-peoples-thanksgiving-day",
+        "ph-w10-philippines-local-government-day",
+        "ph-w10-philippines-national-archives-day",
+        "ph-w10-philippines-national-indigenous-peoples-day",
+        "ph-w10-philippines-national-literacy-day",
+        "ph-w10-philippines-national-museum-founding-anniversary",
+        "ph-w10-philippines-national-teachers-day",
+        "ph-w10-puerto-princesa-underground-river-day",
+        "ph-w10-ramon-magsaysay-memorial-day",
+        "ph-w13-18-day-campaign-to-end-violence-against-women-philippines",
+        "ph-w13-buwan-ng-wikang-pambansa",
+        "ph-w13-civil-service-month-philippines",
+        "ph-w13-conflict-resolution-day-philippines",
+        "ph-w13-conservation-and-protection-of-the-tamaraw-month",
+        "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
+        "ph-w13-edsa-people-power-commemoration-week",
+        "ph-w13-filipino-food-month",
+        "ph-w13-filipino-values-month",
+        "ph-w13-history-month-philippines",
+        "ph-w13-library-and-information-services-month",
+        "ph-w13-linggo-ng-kalayaan",
+        "ph-w13-month-of-overseas-filipinos",
+        "ph-w13-museums-and-galleries-month-philippines",
+        "ph-w13-national-bible-month",
+        "ph-w13-national-book-week-philippines",
+        "ph-w13-national-children-s-month-philippines",
+        "ph-w13-national-coconut-week-philippines",
+        "ph-w13-national-culture-consciousness-week",
+        "ph-w13-national-heritage-month",
+        "ph-w13-national-indigenous-peoples-month-philippines",
+        "ph-w13-national-literature-month",
+        "ph-w13-national-peace-consciousness-month",
+        "ph-w13-national-rice-awareness-month",
+        "ph-w13-national-volunteers-month-philippines",
+        "ph-w13-nutrition-month-philippines",
+        "ph-w13-panagyaman-rice-festival-month",
+        "ph-w13-philippine-book-development-month",
+        "ph-w13-philippine-tropical-fabrics-month",
+        "ph-w13-rizal-month",
+        "ph-w13-rule-of-law-month-philippines",
+        "ph-w13-traditional-and-alternative-health-month-philippines",
+        "ph-w13-unesco-iti-world-theater-week-philippines",
+        "ph-w13-united-nations-week-philippines",
+        "ph-w13-unknown-citizens-day",
+        "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+        "ph-w13-women-s-role-in-history-month",
+        "ph-w13-world-clean-and-green-week-philippines"
+      ]
     }
   ],
   "sourceHeadRevalidation": {
@@ -7566,5 +7883,19 @@
       "canada-national-flag-day",
       "canada-truth-and-reconciliation-day"
     ]
-  }
+  },
+  "pendingPublicationCorrections": [
+    {
+      "id": "ca-raoul-wallenberg-day",
+      "issue": "Six-language original source draft retains 2001-versus-2002 uncertainty; AI certificate includes 2001 designation and 2002 first public commemoration supported by House 2001 debate. Update draft copy before runtime release."
+    },
+    {
+      "id": "ph-w13-panagyaman-rice-festival-month",
+      "issue": "2004 proclamation is not explicit about annual legal recurrence; NCCA cultural-calendar listing is NOT proof of mandatory yearly official holiday."
+    },
+    {
+      "id": "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+      "issue": "2009 decree does not explicitly mandate recurrence of every June month; NCCA cultural calendar and school programming document continued observation but do not confer nonworking legal status."
+    }
+  ]
 }
