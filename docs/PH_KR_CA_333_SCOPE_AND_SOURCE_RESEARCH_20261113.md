@@ -330,3 +330,29 @@ The scoped file `data/editorial/audits/ph_open_legal_source_conflicts_20261114.j
 | **TOTAL** | **180** | **164** | **16** |
 
 The remaining **16 PH candidate IDs** consist of six explicitly held legal/date source conflicts and ten other source investigation candidates; their status is traceable in the 180-ID matrix. The 164 six-locale histories include originals from linked draft source PRs #118/#119, **121 new original six-locale dossiers** on PR #120 and 2 earlier pilot originals, plus 9 four-locale overlays referencing original PR118 English/Italian stories. **Human-certified editorial 0, independently reviewed native-language 0, source PRs remain Draft/unmerged, runtime 0 new publication.** Do not treat mechanically passing code/dataset CI as historical approval.
+
+
+## Philippines-only movable civic dates — four more original six-locale histories
+
+After the previous **41** Philippine original narratives in this single-country sprint, a further **4** unique PH canonical source histories have been authored in `data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json`, all six languages (24 new article texts; sprint total **45 unique PH stories / 270 localized narratives**). Source primary legal documents and NCCA exact calendar entries were cross-referenced:
+
+| Canonical ID | Statutory/first historical year | Precise canonical recurrence | Primary authority |
+| --- | --- | --- | --- |
+| `ph-w13-conflict-resolution-day-philippines` | **2006**, Proc1152 | **THIRD_THURSDAY_OCTOBER**, not a fixed date | Presidential Proclamation 1152 of Oct9 2006, referring to RA9285 of 2004 |
+| `ph-w13-unknown-citizens-day` | **1936**, Commonwealth Act152 | **SECOND_SUNDAY_JANUARY**, not a fixed date | Commonwealth Act 152, Nov9 1936; honors ordinary citizens, not the birth of a named public figure |
+| `ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month` | **2009**, Proc1782 | `JUNE` in NCCA market catalog; **legal yearly recurrence not expressly stated** by original 2009 proclamation | [Presidential Proclamation 1782](https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html), with civic actions in the second June week; additional human review required |
+| `ph-w13-world-clean-and-green-week-philippines` | **1993**, Proc244 | **SEP17_SEP23** | Presidential Proclamation 244, also establishing the separate whole September cleanup month |
+
+**Important technical gate:** new Philippine original-history research runs a per-ID comparison to the source `NTH_WEEKDAY` recurrence rules in the original Wave13 market archive for both movable days. These are explicitly different from `FIXED_DATE` and `FIXED_RANGE`; the validator must not freeze a date from a single calendar year. The additional W.A.T.C.H. June annual legal recurrence uncertainty is recorded as an **unresolved** item in `data/editorial/audits/ph_open_legal_source_conflicts_20261114.json`, increasing the documented legal/source discrepancies from 12 to **13**. Its source-linked AI draft is **not human certified**.
+
+### Updated source-research matrix at this exact branch stage
+
+| Country | Retained ID candidates | Source-linked AI history in six languages | Still missing |
+| --- | ---: | ---: | ---: |
+| Philippines | **91** | **79** | **12** |
+| South Korea | 57 | 57 | 0 |
+| Canada | 32 | 32 | 0 |
+| **TOTAL** | **180** | **168** | **12** |
+
+PR #120 has **125 newly authored original six-locale AI dossiers** (plus 2 older pilot full original histories and 9 PR118 locale overlays; exact origin link and source ownership preserved), all pending independent native-language and historical human review. **Human-approved 0; PR remains Draft and unmerged; no runtime build publication.** Exactly 12 Philippine IDs still lack source-linked full originals, including six held specifically due to documentary contradictions.
+
