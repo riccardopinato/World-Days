@@ -44,7 +44,9 @@ assert d["reviewBatchHistory"][0]["count"] == 10
 assert len(d["reviewBatchHistory"][0]["ids"]) == 10
 assert len(d["reviewBatchHistory"]) >= 2
 assert d["reviewBatchHistory"][1]["count"] == 7
-assert len(d["reviewBatchHistory"]) == 4
+assert len(d["reviewBatchHistory"]) == 5
+assert d["reviewBatchHistory"][4]["count"] == 11
+assert len(d["reviewBatchHistory"][4]["ids"]) == 11
 assert d["reviewBatchHistory"][3]["count"] == 7
 assert d["sourceHeadRevalidation"]["pr"] == 118
 assert len(d["sourceHeadRevalidation"]["individuallyJsonIdenticalIds"]) == 9
@@ -90,6 +92,17 @@ expected = {
     "kr-liberation-day": ("KR", "e365bd21d656efbc8007397b8f6fe47c10dc304b", 1949, None),
     "kr-national-foundation-day": ("KR", "e365bd21d656efbc8007397b8f6fe47c10dc304b", 1949, None),
     "kr-memorial-day": ("KR", "e365bd21d656efbc8007397b8f6fe47c10dc304b", 1956, 1956),
+    "kr-w10-commerce-and-industry-day": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 1964, 1964),
+    "kr-w10-consumers-day-in-korea": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 1996, 1982),
+    "kr-w10-trade-day-in-korea": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 1964, None),
+    "kr-w10-farmers-day-in-korea": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 1996, None),
+    "kr-w10-local-autonomy-and-balanced-development-day": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 2012, None),
+    "kr-w10-taxpayers-day": ("KR", "9826b40968862f4950666d66b1fa5813b65e01f4", 1969, None),
+    "kr-w10-corrections-day-in-korea": ("KR", "c94ee83209c0a85a423ef52adcf6aa15eccff945", 2002, None),
+    "kr-w10-information-and-communications-day-in-korea": ("KR", "c94ee83209c0a85a423ef52adcf6aa15eccff945", 1956, None),
+    "kr-w10-oceans-day-in-korea": ("KR", "c94ee83209c0a85a423ef52adcf6aa15eccff945", 1996, None),
+    "kr-w10-police-day-in-korea": ("KR", "c94ee83209c0a85a423ef52adcf6aa15eccff945", 1957, None),
+    "kr-w10-republic-of-korea-armed-forces-day": ("KR", "c94ee83209c0a85a423ef52adcf6aa15eccff945", 1956, None),
 }
 count = Counter()
 for rid, row in rows.items():
@@ -124,7 +137,7 @@ for rid, row in rows.items():
         assert row["checks"] is None
         assert row["sourceBlobSha"] is None
         assert set(row["locales"].values()) == {"NOT_CHECKED"}
-assert count == {"AI_CERTIFIED":38,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":127}
+assert count == {"AI_CERTIFIED":49,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":116}
 for name,num in count.items():
     assert d["summary"][name] == num
 philippines = rows["ph-independence-day"]
@@ -175,5 +188,5 @@ if "--verify-remote" in sys.argv:
     print("PASS: live GitHub PR head and source blob verification for",
           len(certified), "AI-certified stories across", len(heads), "source PRs")
 
-print("PASS: 173 AI-research editorial decisions: 38 AI_CERTIFIED, 8 source-HOLD, "
-      "127 awaiting AI review, 0 human signoffs, 0 runtime publications")
+print("PASS: 173 AI-research editorial decisions: 49 AI_CERTIFIED, 8 source-HOLD, "
+      "116 awaiting AI review, 0 human signoffs, 0 runtime publications")
