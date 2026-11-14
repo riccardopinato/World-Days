@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 102,
-    "AI_CERTIFIED": 63,
+    "AI_REVIEW_QUEUED": 91,
+    "AI_CERTIFIED": 74,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -2021,27 +2021,42 @@
       "title": "Day of Persons with Disabilities in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_reserve_disability_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "2ec02ad71c50321511f8b0cbc7415ff7c2934345",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1994,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The rehabilitation association selected 20 April in 1972.",
+        "A government observance began on 20 April 1981.",
+        "The national statutory designation dates to 9 March 1994."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-donghak-peasant-revolution-remembrance-day",
@@ -2251,27 +2266,42 @@
       "title": "Information Security Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_rail_cyber_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "aff5009befe07c46e54f0bd169e6924f3650f7e9",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2012,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The government designated the day on 22 October 2012.",
+        "It falls on the second Wednesday of July each year.",
+        "It promotes cybersecurity awareness rather than recalling a single attack."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-jeju-april-3-victims-remembrance-day",
@@ -2307,27 +2337,42 @@
       "title": "June 10 Democracy Movement Remembrance — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_june10_two_histories_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6eae4c1bac5f07337f962ef100bed87be9d258a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2007,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29040"
+      ],
+      "factsConfirmed": [
+        "The June Democratic Struggle began on 10 June 1987.",
+        "The state established the commemorative day on 2 May 2007.",
+        "The separate 1926 June 10 Movement has a different origin and statutory day."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-june-10-independence-movement-remembrance",
@@ -2335,27 +2380,43 @@
       "title": "June 10 Independence Movement Remembrance — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_june10_two_histories_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6eae4c1bac5f07337f962ef100bed87be9d258a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2020,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://culture.mpva.go.kr/prgrm/evnt/17",
+        "https://e-gonghun.mpva.go.kr/user/IndepCrusaderDetail.do?goTocode=20003&indepMeritSeq=1406"
+      ],
+      "factsConfirmed": [
+        "The demonstrations occurred on 10 June 1926 in Seoul.",
+        "The date coincided with the funeral procession of Emperor Sunjong.",
+        "The statutory remembrance day was designated on 15 December 2020."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-king-sejong-birthday-commemoration",
@@ -2434,27 +2495,42 @@
       "title": "Korean War Remembrance Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_war_martyrs_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0153ec44d8fb99dfa849ca6095975119cc698a86",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1973,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=209&key=92&nttNo=273478"
+      ],
+      "factsConfirmed": [
+        "The war began on 25 June 1950.",
+        "The official statutory commemoration was established on 30 March 1973.",
+        "The government updated the name of the commemorative day in June 2013."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-korean-workers-day",
@@ -2505,27 +2581,42 @@
       "title": "Law Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_students_law_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f54c38d28f27ad597f36ef8cc5b5b2b0686e1a8d",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1964,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Law Day was legally introduced on 20 April 1964 with a 1 May schedule.",
+        "The government switched it to 25 April on 4 February 2003.",
+        "The modern date recalls court organization legislation from 25 April 1895."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-local-autonomy-and-balanced-development-day",
@@ -2820,27 +2911,42 @@
       "title": "Patriotic Martyrs Remembrance Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_war_martyrs_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0153ec44d8fb99dfa849ca6095975119cc698a86",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1997,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=44245"
+      ],
+      "factsConfirmed": [
+        "The remembrance date recalls the Eulsa Treaty of 17 November 1905.",
+        "The Provisional Government adopted the collective memorial observance in 1939.",
+        "The Republic of Korea recognized the statutory day on 9 May 1997."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-police-day-in-korea",
@@ -2891,27 +2997,43 @@
       "title": "Provisional Government Establishment Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_provisional_jeju_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "46075f00042ead20112f23fa7fa052a944fb1142",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1989,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5299&pageIndex=180&searchCnd=all&searchCtgry=&searchKrwd=",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5488&pageIndex=194&searchCnd=all&searchCtgry=&searchKrwd="
+      ],
+      "factsConfirmed": [
+        "The provisional charter was adopted on 11 April 1919.",
+        "The statutory anniversary was instituted in December 1989.",
+        "In November 2018 the official date moved from 13 to 11 April."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-railway-day-in-korea",
@@ -2919,27 +3041,42 @@
       "title": "Railway Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_rail_cyber_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "aff5009befe07c46e54f0bd169e6924f3650f7e9",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1964,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The Gyeongin line opened on 18 September 1899.",
+        "The 1964 regulation established 18 September as Railway Day.",
+        "In 2018 the government moved the commemoration to 28 June."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-republic-of-korea-armed-forces-day",
@@ -2990,27 +3127,42 @@
       "title": "Reserve Forces Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_reserve_disability_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "2ec02ad71c50321511f8b0cbc7415ff7c2934345",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1970,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The Homeland Reserve Forces were established on 1 April 1968.",
+        "A presidential regulation designated the day in February 1970.",
+        "The annual schedule became the first Friday of April in 2006."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-righteous-armies-remembrance-day",
@@ -3175,27 +3327,42 @@
       "title": "Student Independence Movement Remembrance Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_students_law_two_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f54c38d28f27ad597f36ef8cc5b5b2b0686e1a8d",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1953,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The student movement began in Gwangju on 3 November 1929.",
+        "Students' Day was designated by ordinance in October 1953.",
+        "The statutory day was restored in 1984 and renamed in 2006."
+      ],
+      "notes": "AI editorial historical-review of Korean MOIS statutory commemoration chronology and the six complete EN/IT/ES/FR/DE/PT narratives. The original event, adoption date, annual recurrence, renaming and distinction between commemoration and paid public holiday were individually checked with native government chronology. Matching year sets and three distinct facts in each locale were confirmed; unproven first ceremony dates remain unknown. This review is pinned to immutable research-file Git blob and live PR #120 source HEAD; no human signoff or app runtime publication is implied.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-taxpayers-day",
@@ -5955,6 +6122,30 @@
         "kr-w10-sports-day-in-korea",
         "kr-w10-west-sea-defense-day",
         "kr-w10-world-koreans-day"
+      ]
+    },
+    {
+      "asOf": "2026-11-14",
+      "batch": "korea-civic-memorial-movable-11",
+      "count": 11,
+      "sourcePRs": [
+        120
+      ],
+      "sourceHeads": {
+        "120": "521a59452178b7e2f0b074e5057e964af8515feb"
+      },
+      "ids": [
+        "kr-w10-reserve-forces-day",
+        "kr-w10-day-of-persons-with-disabilities-in-korea",
+        "kr-w10-railway-day-in-korea",
+        "kr-w10-information-security-day-in-korea",
+        "kr-w10-provisional-government-establishment-day",
+        "kr-w10-june-10-democracy-movement-remembrance",
+        "kr-w10-june-10-independence-movement-remembrance",
+        "kr-w10-korean-war-remembrance-day",
+        "kr-w10-patriotic-martyrs-remembrance-day",
+        "kr-w10-student-independence-movement-remembrance-day",
+        "kr-w10-law-day-in-korea"
       ]
     }
   ],
