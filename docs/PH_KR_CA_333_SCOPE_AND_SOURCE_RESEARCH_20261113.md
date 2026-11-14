@@ -282,3 +282,51 @@ Tracked in `data/editorial/audits/ph_open_legal_source_conflicts_20261114.json` 
 | **Combined** | **180** | **123** | **57** |
 
 The aggregate **123** includes earlier linked PR118/119 histories, original dossiers authored on PR120, and additional PR118 locale translations on PR120. All remain **source-linked AI drafts**, not qualified editorial approvals. **0 human-certified**; PR118, PR119 and this PR120 remain **Draft/unmerged**, and **nothing is released to main or the runtime**. Next priority is the other 57 Philippine IDs, including the two blocked by original legal-source conflicts.
+
+
+## Philippines-only law and institution sprint — 41 unique origins, 14 November 2026
+
+**Explicit geographical focus:** only Philippines this sprint. The Korean 57/57 and Canadian 32/32 candidate source drafts were not rewritten. **41** individual Philippine canonical candidate origin records were authored as six substantial AI research locales each (**246 source-linked locale narratives**), in eight new research batches on PR #120:
+
+| File under `data/editorial/research_batches/` | Original PH candidates | Focus |
+| --- | ---: | --- |
+| `ph_civic_holidays_8_six_locales_20261114.json` | 8 | First Republic, China/Spain diplomatic relationships, literacy, teaching, flag display, school reading, indigenous national day |
+| `ph_civic_months_6_six_locales_20261114.json` | 6 | Public service, rule of law, December volunteers, Oct10 local government, overseas Filipinos, tropical fabrics |
+| `ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json` | 4 | Seafarers, seven-day Coconut Week, historic July4 Republic Day, Balagtas |
+| `ph_heroes_awards_5_six_locales_20261114.json` | 5 | Mabini Tanauan law, Living Treasures award 1992, Graciano López Jaena, Iglesia ni Cristo, Jose Abad Santos |
+| `ph_local_heritage_honors_4_six_locales_20261114.json` | 4 | Julian Felipe **Cavite City only** legal nonworking, animal kindness 1958, Gabriela Silang and Lakandula honors 2003 (one code, different merit criteria) |
+| `ph_institutions_military_legislature_5_six_locales_20261114.json` | 5 | Philippine Army 1897, Film Council 2002, National Museum 1901, Senate and House 1916 bicameral Jones Act (House has 1907 predecessor) |
+| `ph_heritage_friendship_archives_5_six_locales_20261114.json` | 5 | British Friendship **2000 December → 2008 October**, National Archives Day 1995 after 1901 Archives Bureau, Puerto Princesa Nov11 following 2011 nature vote, Military Academy 1898 restored 1998, National Library 1887 |
+| `ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json` | 4 | Filipino Language Commission law **1991 not 1981**, Fisherfolks Day 2000 following 1999 community petition, Magsaysay annual memorial 1966 and 1968 pre-weekend school shift, Linggo ng Kalayaan June6–12 1992 |
+| **Sum** | **41** | **41 separate canonical IDs; 246 full drafted locale stories** |
+
+### Philippine source conflicts and publishing blocks
+
+The scoped file `data/editorial/audits/ph_open_legal_source_conflicts_20261114.json` documents **12** individual conflicting histories or date/year interpretations, cross-linked to primary public sources. **Six must not get a source-certified original until resolved or explicitly corrected in original national market dataset**:
+1. **DepEd founding**: NCCA says **20 December**, but DepEd officially celebrated its 126th foundation anniversary **23 June 2024** for the **23 June 1898** revolutionary government institution; 20 December 1863 is a different education-decree milestone.
+2. **Made-in-the-Philippines Products Week**: NCCA retains **17–23 August** from Proc76 **1936**, but Proc756 **30 Sept 1941** explicitly superseded it with **14–20 February from 1942**. An original source-supported current calendar cannot simply preserve the superseded August week.
+3. **Volunteerism Month (May)**: Proc1778 from **May 2009** uses "the month of May" without explicit annual recurrence; distinguish from **National Volunteers Month every December** under Proc55 **1998**; need later official confirmation for the May yearly calendar.
+4. **NHCP founding**: NCCA and a government budget summary use **26 May 2010**, while signed RA10086 (Senate and Supreme Court) was **12 May 2010**, and implementing rules record effectivity in June 2010; May26 requires a separately sourced historical referent, not an inferred passage date.
+5. **National punctuality/civility month**: signed Proc1638 says **November 2008**, unlike the recurring annual NCCA item.
+6. **Philippine Eagle Week**: Proc79 indexed/signed-heading **1999**, transcribed last line **1998**; exact signature year needs source reconciliation.
+
+**Another six** are written as transparent drafts but qualified editorial approval remains blocked by source metadata discrepancies or historical interpretation:
+- Commission on Filipino Language established through RA7104 **14 August 1991**, not “1981” as NCCA index; a 1999 Presidential executive order confirms 1991.
+- National Children's Month is **November since RA10661 approved 29 May 2015**, after October 1993, not “2014” in NCCA calendar.
+- Reading Day RA10556 was approved **15 May 2013**, not NCCA's “2012”; November27 is subject to preceding-Friday school observance if weekend.
+- National Women's Day RA6949 index vs signed exact **April 1990** approval-date discrepancy; draft reports the uncontroversial year.
+- December National Volunteers Month Proc55 **5 Dec 1998**, although a later DepEd memo erroneously reports 1988; primary decree 1998 controls draft.
+- July4 Republic Day RA4166 originally put it in the holiday list in **1964**, but **1987 Executive Order292** regular-holiday list omits July4; do not label it a permanent national nonworking holiday now.
+
+**Cross-jurisdiction boundaries that must be preserved**: Philippine–Spanish Friendship Jun30 **national special working** but **special nonworking in Aurora**; Mabini Jul23 **special working only in Tanauan**; Julian Felipe Jan28 **special nonworking only in Cavite City**; other provincial one-off historical proclamations are not national perpetual holidays. The two different honors in EO236 2003 share legal origin but not award criteria. Senate Aug29 1916 Jones Act legal creation vs Oct16 first sitting; House had a Philippine Assembly predecessor Oct16 1907. Military Academy Oct25 1898 founding line replaced prior Feb17 1905 anniversary under 1998 proclamation. Library Aug12 1887 Museo-Biblioteca is separate from public library opening March9 1900.
+
+### Latest mechanically checked candidate coverage on this branch
+
+| Country | Scope | Six-locale AI source drafts | Without full origin |
+| --- | ---: | ---: | ---: |
+| Philippines | **91** | **75** | **16** |
+| South Korea | 57 | 57 | 0 |
+| Canada | 32 | 32 | 0 |
+| **TOTAL** | **180** | **164** | **16** |
+
+The remaining **16 PH candidate IDs** consist of six explicitly held legal/date source conflicts and ten other source investigation candidates; their status is traceable in the 180-ID matrix. The 164 six-locale histories include originals from linked draft source PRs #118/#119, **121 new original six-locale dossiers** on PR #120 and 2 earlier pilot originals, plus 9 four-locale overlays referencing original PR118 English/Italian stories. **Human-certified editorial 0, independently reviewed native-language 0, source PRs remain Draft/unmerged, runtime 0 new publication.** Do not treat mechanically passing code/dataset CI as historical approval.
