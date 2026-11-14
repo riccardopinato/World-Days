@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==59
+assert matrix["counts"]["sixLocaleDrafts"]==71
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==121
-assert matrix["counts"]["governmentCategorySpotChecks"]==20
+assert matrix["counts"]["withoutOriginDraft"]==109
+assert matrix["counts"]["governmentCategorySpotChecks"]==32
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -68,6 +68,12 @@ new_files=[
 "ph_rizal_day_and_month_six_locales_20261114.json",
 "kr_1960_movements_three_six_locales_20261114.json",
 "kr_gwangju_donghak_two_six_locales_20261114.json",
+"kr_june10_two_histories_six_locales_20261114.json",
+"kr_provisional_jeju_two_six_locales_20261114.json",
+"kr_war_martyrs_two_six_locales_20261114.json",
+"kr_rail_cyber_two_six_locales_20261114.json",
+"kr_reserve_disability_two_six_locales_20261114.json",
+"kr_students_law_two_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -100,8 +106,40 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==16
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==18  # 16 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==28
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==30  # 28 new + 2 prior pilots
+
+# Protect the cross-origin non-duplication decisions and recurrence patterns for 12 new KR records.
+assert verified["kr-w10-june-10-democracy-movement-remembrance"]["introducedYear"]==2007
+assert verified["kr-w10-june-10-independence-movement-remembrance"]["introducedYear"]==2020
+assert verified["kr-w10-june-10-democracy-movement-remembrance"]["originClusterId"]==verified["kr-w10-june-10-independence-movement-remembrance"]["originClusterId"]
+assert verified["kr-w10-june-10-democracy-movement-remembrance"]["observanceDate"]=="06-10"
+assert verified["kr-w10-june-10-independence-movement-remembrance"]["observanceDate"]=="06-10"
+assert verified["kr-w10-provisional-government-establishment-day"]["observanceDate"]=="04-11"
+assert verified["kr-w10-provisional-government-establishment-day"]["introducedYear"]==1989
+assert verified["kr-w10-railway-day-in-korea"]["observanceDate"]=="06-28"
+assert verified["kr-w10-railway-day-in-korea"]["introducedYear"]==1964
+assert verified["kr-w10-information-security-day-in-korea"]["observanceDate"]=="SECOND_WEDNESDAY_JULY"
+assert verified["kr-w10-reserve-forces-day"]["observanceDate"]=="FIRST_FRIDAY_APRIL"
+assert verified["kr-w10-day-of-persons-with-disabilities-in-korea"]["observanceDate"]=="04-20"
+assert verified["kr-w10-student-independence-movement-remembrance-day"]["observanceDate"]=="11-03"
+assert verified["kr-w10-law-day-in-korea"]["observanceDate"]=="04-25"
+assert verified["kr-w10-jeju-april-3-victims-remembrance-day"]["introducedYear"]==2014
+assert all(verified[ident]["country"]=="KR" and verified[ident]["firstObservedYear"] is None for ident in (
+    "kr-w10-june-10-democracy-movement-remembrance",
+    "kr-w10-june-10-independence-movement-remembrance",
+    "kr-w10-provisional-government-establishment-day",
+    "kr-w10-jeju-april-3-victims-remembrance-day",
+    "kr-w10-korean-war-remembrance-day",
+    "kr-w10-patriotic-martyrs-remembrance-day",
+    "kr-w10-railway-day-in-korea",
+    "kr-w10-information-security-day-in-korea",
+    "kr-w10-reserve-forces-day",
+    "kr-w10-day-of-persons-with-disabilities-in-korea",
+    "kr-w10-student-independence-movement-remembrance-day",
+    "kr-w10-law-day-in-korea",
+))
+
 
 # Nine earlier Wave20 EN/IT canonical origins are extended, never replaced or duplicated.
 extensions=[
@@ -156,5 +194,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 16 new six-locale originals, 9 four-locale extensions (59 effective six-locale AI drafts); source errata gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 28 new six-locale originals, 9 four-locale extensions (71 effective six-locale AI drafts); source errata gated; 0 qualified human approvals.")
 
