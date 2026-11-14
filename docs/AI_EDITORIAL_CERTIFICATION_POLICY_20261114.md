@@ -45,6 +45,28 @@ Certified here means factual/editorial **AI-reviewed**, not human reviewed, not 
 - Korea Ministry of Foreign Affairs 2020 historic speech: https://overseas.mofa.go.kr/au-sydney-en/brd/m_2362/view.do?seq=760627
 - Korean National Holidays Act No. 53/1949: https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=19634&key=1&type=part
 
+## Second AI certification wave — 10 further Canadian items
+
+Ten original Canadian source-linked, six-language narratives were individually
+checked for historical event, adoption/first annual commemoration distinctions,
+source host and calendar identity, and six-language date/facts consistency on
+14 November 2026. The source PR is #119 at pinned
+`3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0`.
+New AI certificates:
+
+1. National Day of Remembrance for Victims of Air Disasters (2020 order / Jan 8 2021 first).
+2. National Day of Remembrance for Victims of Terrorism (2005 designation/first celebration).
+3. National Seniors Day (2010 law / 2011 first).
+4. National Child Day (1993 national recognition, first ceremony unknown).
+5. Emancipation Day (2021 parliamentary recognition; 1834 emancipation event).
+6. Remembrance Day (first armistice 1919 / modern statutory name 1931).
+7. National Day of Remembrance and Action on Violence Against Women (1991 act / 1989 murders).
+8. National Indigenous Peoples Day (SI/96-55 establishment / SI/2018-55 renaming).
+9. National Acadian Day (1881 tradition / national federal act 2003).
+10. Persons Day (1929 ruling / 1979 commemoration).
+
+Now **14 AI_CERTIFIED, 8 HOLD, 151 remaining AI review** out of 173. Human signoffs and app runtime publication are still separate counters. The unchanged existing four historical certifications are preserved, and the CI remote source-blob/head gate remains mandatory.
+
 ## Existing status reconciliation
 
 Keep historical `humanApprovalCount=0` truthful, but do not interpret this as evidence AI cannot certify. Three separate measures: *AI editorial certified*, *human externally certified* (where relevant), and *shipped in rich app runtime*. Each has independent counters. Do not overwrite old audit snapshots; add versioned new AI decision records.
