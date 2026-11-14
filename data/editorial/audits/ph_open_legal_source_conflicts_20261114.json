@@ -4,7 +4,7 @@
   "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
   "qualifiedEditorialApproval": false,
   "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
-  "count": 4,
+  "count": 7,
   "items": [
     {
       "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
@@ -40,6 +40,36 @@
       "legalSource": "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
       "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "editorialDisposition": "DRAFT_2015_STATUTE_GOVERNS_PRIMARY_MONTH;SOURCE_CALENDAR_YEAR_MISTAKE_DOCUMENTED",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+      "problem": "NCCA_LEGISLATIVE_YEAR_2012_VS_APPROVED_RA10556_2013",
+      "risk": "The NCCA published annual date calendar labels Araw ng Pagbasa as 'RA No. 10556 of 2012'. But the Republic Act No. 10556 signed text and Senate Legislative Reference Bureau identify approval on May 15, 2013 and explicitly name it the Araw ng Pagbasa Act of 2013. Its canonical fixed anniversary is November 27, subject to a preceding-Friday school observance if Nov 27 falls on the weekend. Date/approval in our six-locale research uses 2013 and documents the weekend exception; upstream inventory's mistaken year cannot overwrite the law.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010556",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_2013_APPROVAL_WITH_WEEKEND_SHIFT_NOT_APPLIED_TO_RUNTIME_CALENDAR_ENGINE;NCCA_INDEX_ERRATUM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-national-volunteers-month-philippines",
+      "problem": "DEPED_MEMORANDUM_PROCLAMATION_1998_AS_1988",
+      "risk": "The actual signed Proclamation No. 55 by President Joseph Estrada dated December 5, 1998, explicitly establishes December every year as National Volunteer Month. An unrelated DepEd circular DM139 s.2014 names 'Proclamation No. 55 dated December 5, 1988', which conflicts with both the presidential term and original signed document. PNVSCA and NCCA corroborate 1998; no need to rewrite true legal year to the DepEd typo. Keep May Volunteerism Month (Proc1778 of 2009) separate.",
+      "legalSource": "https://lawphil.net/executive/proc/proc1998/proc_55_1998.html",
+      "otherSource": "https://pnvsca.gov.ph/?page_id=92",
+      "inventorySource": "https://www.deped.gov.ph/wp-content/uploads/2014/12/DM_S2014_139.pdf",
+      "editorialDisposition": "DRAFTED_WITH_PRIMARY_SOURCE_1998_YEAR;DEPED_2014_SECONDARY_REFERENCE_TYP0;SPECIALIST_SIGNOFF_PENDING",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-republic-day-july-4",
+      "problem": "REPUBLIC_DAY_HISTORIC_HOLIDAY_NOT_LISTED_AS_MODERN_REGULAR_HOLIDAY",
+      "risk": "RA 4166 of August 4, 1964 declared July 4 Philippine Republic Day and listed it among legal holidays, but Executive Order 292's July 1987 Administrative Code regular-holiday list omits July 4. Do not claim current nationwide non-working regular-holiday status solely from the 1964 law. Per-year newer instruments may add a special status but must be checked separately.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html",
+      "otherSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/53270",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_HISTORICAL_OBSERVANCE_NO_MODERN_NONWORKING_HOLIDAY_CLAIM",
       "resolved": false
     }
   ]
