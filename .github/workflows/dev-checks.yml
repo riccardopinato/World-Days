@@ -61,6 +61,7 @@ jobs:
           python3 tool/editorial_origin_completion_waves.py
           python3 tool/validate_editorial_origin_completion_waves.py
           python3 tool/validate_editorial_research_handoff.py
+          python3 tool/validate_173_editorial_review_queue.py
           python3 tool/report_country_authoring_backlog.py
           python3 tool/validate_top5_country_first_five_six_locale_20261114.py
           python3 tool/export_origin_block100_20261113.py

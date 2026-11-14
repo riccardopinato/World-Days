@@ -8,6 +8,18 @@
 - [ ] Complete additional top-five backlog of 116 stories without duplicates; after admissible source integration, regenerate queue and counts.
 
 
+
+## PH/KR/CA — final editorial certification lane initiated (14 November 2026)
+
+- [x] Create 173 individual, source-pinned review dossiers (PH84/KR57/CA32) and dedicated six-locale historical and linguistic review gates; **0 qualified approvals** so far.
+- [x] Four first-party spot checks and six-locale structural parity checks recorded.
+- [x] Record blocking historical conflict: Philippine Independence Day was proclaimed on June 12 already in **1962**, while the existing PR120 draft states firstObservedYear **1964**. Require correction, then re-review.
+- [ ] Clear eight source/legal disputes among prepared drafts and seven Philippine candidates still lacking reliable origin dossiers; resolve 14 conflicts overall.
+- [ ] Obtain qualified historical and EN/IT/ES/FR/DE/PT native review signoffs for each ID, preserving source revision hashes. Human certification 0/173 and no rich publication until then.
+
+Current reviewer packet: `docs/PH_KR_CA_173_EDITORIAL_REVIEW_START_20261114.md`.
+
+
 ## Three-country PH/KR/CA research handoff — 14 November 2026 (review NOT complete)
 
 - [x] Record the 333 original canonical IDs without duplication: 153 Philippine biographical scope exclusions, 180 retained; the catalog itself is unchanged.
