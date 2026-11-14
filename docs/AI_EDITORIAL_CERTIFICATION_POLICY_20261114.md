@@ -67,6 +67,10 @@ New AI certificates:
 
 Now **14 AI_CERTIFIED, 8 HOLD, 151 remaining AI review** out of 173. Human signoffs and app runtime publication are still separate counters. The unchanged existing four historical certifications are preserved, and the CI remote source-blob/head gate remains mandatory.
 
+## Third Canadian AI source-review wave — seven additional dossiers
+
+Following the second wave, seven more original Canadian history dossiers were individually checked against government, Parliamentary, cultural calendars and statutory/provincial classification, with per-language chronology parity and stable origin draft blob SHA. 2026-11-14 approvals: `ca-lincoln-alexander-day`, `ca-red-dress-day`, `ca-dutch-heritage-day`, `ca-saint-jean-baptiste-day`, `ca-great-upheaval-commemoration`, `ca-indigenous-veterans-day`, `ca-sir-john-a-macdonald-day`. Confirmed distinctions include 2019 **House motion not statutory paid leave** for Dutch Heritage Day; Saint-Jean-Baptiste public holiday only in Quebec; the 1994 Winnipeg first Indigenous Veterans Day; and the 2010 Indigenous-led REDress origin. Unknown original establishment/first ceremony stays null. **21 AI_CERTIFIED / 8 source HOLD / 144 AI queued**. Runtime publication unchanged.
+
 ## Existing status reconciliation
 
 Keep historical `humanApprovalCount=0` truthful, but do not interpret this as evidence AI cannot certify. Three separate measures: *AI editorial certified*, *human externally certified* (where relevant), and *shipped in rich app runtime*. Each has independent counters. Do not overwrite old audit snapshots; add versioned new AI decision records.
