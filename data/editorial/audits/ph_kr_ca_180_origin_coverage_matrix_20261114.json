@@ -12,10 +12,10 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 79,
+        "six": 82,
         "two": 0,
-        "none": 12,
-        "categoryCrosschecked": 79
+        "none": 9,
+        "categoryCrosschecked": 82
       },
       "KR": {
         "all": 57,
@@ -32,13 +32,13 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 168,
+    "sixLocaleDrafts": 171,
     "bilingualDrafts": 0,
-    "withoutOriginDraft": 12,
-    "governmentCategorySpotChecks": 129,
+    "withoutOriginDraft": 9,
+    "governmentCategorySpotChecks": 132,
     "humanCertified": 0,
     "translationExtensions": 9,
-    "newOriginDrafts": 125
+    "newOriginDrafts": 128
   },
   "records": [
     {
@@ -5157,19 +5157,34 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_490_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2003,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRESIDENTIAL_PROCLAMATION_2003",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_490_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_HUMAN_LIFE_SANCTITY_THIRD_SUNDAY_JAN_2003_NOT_GENERAL_CHILDRENS_DAY",
+      "factualReviewStatus": "OFFICIAL_PRESIDENTIAL_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-edsa-people-power-commemoration-week",
@@ -5178,19 +5193,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2007/proc_1224_2007.html",
+        "https://lawphil.net/executive/execord/eo1999/eo_82_1999.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2007,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRESIDENTIAL_PROCLAMATION_2007",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2007/proc_1224_2007.html",
+        "https://lawphil.net/executive/execord/eo1999/eo_82_1999.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_EDSA_1986_FEB22_25_1999_COMMISSION_2007_4DAY_WEEK_SEPARATE_FEB25",
+      "factualReviewStatus": "OFFICIAL_PRESIDENTIAL_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-filipino-food-month",
@@ -6154,19 +6186,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave13_ncca_eures_100_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_edsa_life_unweek_3_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_483_2003.html",
+        "https://lawphil.net/executive/proc/proc2002/proc_276_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2003,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRESIDENTIAL_PROCLAMATION_2003",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_483_2003.html",
+        "https://lawphil.net/executive/proc/proc2002/proc_276_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_UN_WEEK_2002_ONE_OFF_2003_EVERY_YEAR_SEPARATE_UN_DAY_OCT24_1945",
+      "factualReviewStatus": "OFFICIAL_PRESIDENTIAL_SOURCE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w13-unknown-citizens-day",
@@ -6455,6 +6504,8 @@
     "ph-w13-civil-service-month-philippines",
     "ph-w13-conflict-resolution-day-philippines",
     "ph-w13-conservation-and-protection-of-the-tamaraw-month",
+    "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
+    "ph-w13-edsa-people-power-commemoration-week",
     "ph-w13-filipino-food-month",
     "ph-w13-filipino-values-month",
     "ph-w13-history-month-philippines",
@@ -6479,6 +6530,7 @@
     "ph-w13-rizal-month",
     "ph-w13-rule-of-law-month-philippines",
     "ph-w13-traditional-and-alternative-health-month-philippines",
+    "ph-w13-united-nations-week-philippines",
     "ph-w13-unknown-citizens-day",
     "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
     "ph-w13-women-s-role-in-history-month",
@@ -6497,5 +6549,5 @@
     "ph-day-of-valor"
   ],
   "caveat": "Nine PR118 EN/IT original dossiers have four-locale additive extensions on PR120; they have not been merged to one main branch or native-approved. PH Day of Valor English/Italian base text needs correction for 1956 special public holiday.",
-  "incrementalEditorialNote": "2026-11-14 Philippine-only historical research sprint added 45 full original six-language AI researched dossiers this turn (previous 41 plus four civic/eco originals). PH79/91, only 12 without original drafts; KR57/57, CA32/32; all 168/180. Two days movable, third Thursday October and second Sunday January. WATCH June recurrence remains unclear from original decree and held from qualified signoff; 13 PH documentary disputes registered. 0 qualified human approvals. PR Draft/unmerged, no app runtime changes."
+  "incrementalEditorialNote": "14 Nov 2026 Philippines only: 48 original six-locale AI histories this single-state sprint, PH82/91 (9 missing), KR57/57, CA32/32, aggregate171/180. New 3 official histories: EDSA February22-25 week 2007 distinct Feb25 holiday, Human Life third Sunday January 2003, UN Week Oct18-24 annual since 2003 after one-off 2002. 13 Philippine legal document conflicts remain, 0 human approved, source PRs all Draft and no public app/runtime change."
 }
