@@ -19,7 +19,8 @@
     "qualifiedSixLocaleCertified": 0,
     "publishedRichFromThisReview": 0,
     "sourceConflictsInTotalInventory": 14,
-    "sourceConflictsWithinDrafts": 8
+    "sourceConflictsWithinDrafts": 8,
+    "sixLocaleStructuralPrechecks": 4
   },
   "approvalPolicy": "No qualified historical/native-language human signoff from automated checks or AI self-review. Review must record named professional reviewer, date, immutable source content digest and six independent language decisions.",
   "records": [
@@ -835,7 +836,24 @@
         "Isabella Kulak and First Nation advocacy"
       ],
       "disputed": [],
-      "correctiveAction": "Qualified English and French (especially Indigenous cultural context) editorial review, then ES/IT/DE/PT native review."
+      "correctiveAction": "Qualified English and French (especially Indigenous cultural context) editorial review, then ES/IT/DE/PT native review.",
+      "sixLocaleDraftStructuralSpotCheck": {
+        "result": "SIX_LOCALES_CONTAIN_YEAR_PARITY_AND_THREE_FACTS_NOT_NATIVE_STYLE_CERTIFIED",
+        "originChars": {
+          "en": 529,
+          "it": 558,
+          "es": 531,
+          "fr": 564,
+          "de": 558,
+          "pt": 535
+        },
+        "yearTokensPresentInAllSix": [
+          "2020",
+          "2022",
+          "2023"
+        ],
+        "numberOfFactsPerLocale": 3
+      }
     },
     {
       "id": "ca-saint-jean-baptiste-day",
@@ -1463,7 +1481,24 @@
         "1920 inaugural commemoration"
       ],
       "disputed": [],
-      "correctiveAction": "Complete legislative 1949 statutory original-source review and six native-language editorial approvals."
+      "correctiveAction": "Complete legislative 1949 statutory original-source review and six native-language editorial approvals.",
+      "sixLocaleDraftStructuralSpotCheck": {
+        "result": "SIX_LOCALES_CONTAIN_YEAR_PARITY_AND_THREE_FACTS_NOT_NATIVE_STYLE_CERTIFIED",
+        "originChars": {
+          "en": 605,
+          "it": 612,
+          "es": 607,
+          "fr": 592,
+          "de": 592,
+          "pt": 555
+        },
+        "yearTokensPresentInAllSix": [
+          "1919",
+          "1920",
+          "1949"
+        ],
+        "numberOfFactsPerLocale": 3
+      }
     },
     {
       "id": "kr-memorial-day",
@@ -3621,7 +3656,23 @@
       "disputed": [
         "firstObservedYearDraft=1964"
       ],
-      "correctiveAction": "Set firstObservedYear to null unless a separate original-source historical review establishes the first-ever June 12 commemoration; document earlier 1962 proclamation."
+      "correctiveAction": "Set firstObservedYear to null unless a separate original-source historical review establishes the first-ever June 12 commemoration; document earlier 1962 proclamation.",
+      "sixLocaleDraftStructuralSpotCheck": {
+        "result": "SIX_LOCALES_CONTAIN_YEAR_PARITY_AND_THREE_FACTS_NOT_NATIVE_STYLE_CERTIFIED",
+        "originChars": {
+          "en": 576,
+          "it": 598,
+          "es": 602,
+          "fr": 614,
+          "de": 603,
+          "pt": 584
+        },
+        "yearTokensPresentInAllSix": [
+          "1898",
+          "1964"
+        ],
+        "numberOfFactsPerLocale": 3
+      }
     },
     {
       "id": "ph-national-heroes-day",
@@ -3712,7 +3763,24 @@
         "Special non-working statutory classification"
       ],
       "disputed": [],
-      "correctiveAction": "Confirm assassination chronology separately and native-language editorial signoff."
+      "correctiveAction": "Confirm assassination chronology separately and native-language editorial signoff.",
+      "sixLocaleDraftStructuralSpotCheck": {
+        "result": "SIX_LOCALES_CONTAIN_YEAR_PARITY_AND_THREE_FACTS_NOT_NATIVE_STYLE_CERTIFIED",
+        "originChars": {
+          "en": 589,
+          "it": 566,
+          "es": 550,
+          "fr": 562,
+          "de": 578,
+          "pt": 555
+        },
+        "yearTokensPresentInAllSix": [
+          "1983",
+          "2004",
+          "2026"
+        ],
+        "numberOfFactsPerLocale": 3
+      }
     },
     {
       "id": "ph-rizal-day",
