@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==98
+assert matrix["counts"]["sixLocaleDrafts"]==118
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==82
-assert matrix["counts"]["governmentCategorySpotChecks"]==59
+assert matrix["counts"]["withoutOriginDraft"]==62
+assert matrix["counts"]["governmentCategorySpotChecks"]==79
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -79,6 +79,10 @@ new_files=[
 "kr_social_6_six_locales_20261114.json",
 "kr_institutions_5_six_locales_20261114.json",
 "kr_memory_society_5_six_locales_20261114.json",
+"ph_months_heritage_rights_6_six_locales_20261114.json",
+"ph_months_language_society_6_six_locales_20261114.json",
+"ph_statutory_civic_4_six_locales_20261114.json",
+"ph_book_health_protection_4_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -111,8 +115,75 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==55
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==57  # 55 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==75
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==77  # 75 new + 2 prior pilots
+
+# Twenty source-verified Philippine legal/monthly origins, checked against the
+# original national NCCA calendar instead of silently freezing movable or ranged dates.
+ph_waves=[
+"ph_months_heritage_rights_6_six_locales_20261114.json",
+"ph_months_language_society_6_six_locales_20261114.json",
+"ph_statutory_civic_4_six_locales_20261114.json",
+"ph_book_health_protection_4_six_locales_20261114.json",
+]
+ph_market_files=[
+ROOT/"data/market/wave13_ncca_eures_100_20261111.json",
+ROOT/"data/market/wave10_hundred_kr_ph_20261111.json",
+]
+ph_source={}
+for source_path in ph_market_files:
+    for entry in json.loads(source_path.read_text(encoding="utf-8"))["records"]:
+        if entry["country"]=="PH":
+            assert entry["id"] not in ph_source,entry["id"]
+            ph_source[entry["id"]]=entry
+ph_new=set()
+months=("JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER")
+for filename in ph_waves:
+    batch=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
+    assert "DRAFT" in batch["status"] and "HUMAN" in batch["status"]
+    assert batch["count"] in (4,6)
+    for rec in batch["records"]:
+        rid=rec["observanceId"]
+        assert rid in ph_source and rid not in ph_new,rid
+        ph_new.add(rid)
+        src=ph_source[rid]
+        assert src["country"]==rec["country"]=="PH"
+        assert len(src["recurrenceRules"])==1
+        rule=src["recurrenceRules"][0]
+        if rule["kind"]=="FIXED_DATE":
+            expected=f'{rule["month"]:02d}-{rule["day"]:02d}'
+            assert rec["observancePeriodKind"]=="DAY"
+        else:
+            assert rule["kind"]=="FIXED_RANGE"
+            start=months[rule["startMonth"]-1]
+            end=months[rule["endMonth"]-1]
+            if rule["startMonth"]==rule["endMonth"] and rule["startDay"]==1 and rule["endDay"] in (28,29,30,31):
+                expected=start
+                assert rec["observancePeriodKind"]=="MONTH"
+            else:
+                expected=f'{start[:3]}{rule["startDay"]:02d}_{end[:3]}{rule["endDay"]:02d}'
+                assert rec["observancePeriodKind"] in ("WEEK","CAMPAIGN_18_DAYS")
+        assert rec["observanceDate"]==expected,(rid,expected,rec["observanceDate"])
+        assert isinstance(rec["introducedYear"],int)
+        assert rec["firstObservedYear"] is None or rec["firstObservedYear"]<=rec["introducedYear"]
+        assert rec["legalStatus"] and len(rec["sources"])>=2
+        row=next(item for item in rows if item["id"]==rid)
+        assert row["originDraftPath"]=="data/editorial/research_batches/"+filename
+        assert row["originDraftPR"]==120 and row["qualifiedEditorialApproval"] is False
+assert len(ph_new)==20
+assert ph_new.issubset(set(verified))
+assert verified["ph-w13-national-children-s-month-philippines"]["observanceDate"]=="NOVEMBER"
+assert verified["ph-w13-national-children-s-month-philippines"]["introducedYear"]==2015
+assert verified["ph-w13-national-children-s-month-philippines"]["firstObservedYear"]==1993
+assert verified["ph-w13-national-indigenous-peoples-month-philippines"]["introducedYear"]==2009
+assert verified["ph-w10-philippines-indigenous-peoples-thanksgiving-day"]["introducedYear"]==2003
+assert verified["ph-w13-national-indigenous-peoples-month-philippines"]["originClusterId"]==verified["ph-w10-philippines-indigenous-peoples-thanksgiving-day"]["originClusterId"]
+assert verified["ph-w10-philippine-national-women-s-day"]["legalStatus"]=="SPECIAL_WORKING_HOLIDAY_NOT_NONWORKING"
+assert verified["ph-w13-18-day-campaign-to-end-violence-against-women-philippines"]["observancePeriodKind"]=="CAMPAIGN_18_DAYS"
+assert verified["ph-w13-national-book-week-philippines"]["observanceDate"]=="NOV24_NOV30"
+assert matrix["counts"]["byCountry"]["PH"]["six"]==29
+assert matrix["counts"]["byCountry"]["PH"]["none"]==62
+
 
 # Verify the last ten KR six-locale dossiers and ensure all 57 retained Korean
 # candidates have an actual source-linked origin coverage entry, no hidden misses.
@@ -330,5 +401,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 55 new six-locale originals, 9 four-locale extensions (98 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 9/91; source errata gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 75 new six-locale originals, 9 four-locale extensions (118 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 29/91; source errata gated; 0 qualified human approvals.")
 
