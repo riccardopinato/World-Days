@@ -229,3 +229,56 @@ Since this PR began, **55** new source-backed six-locale originals were authored
 2. Official-source errata on the PR118 English/Italian Bonifacio Act 2946 date (Senate metadata discrepancy) and Bataan/Day of Valor (1956 presidential special holiday vs 1961 recurring legal-holiday act).
 3. Independent qualified factual and native-language review **for all six locales**, licensing/source-usage clearance and explicit human signoff where required.
 4. Reconciliation of original source branches PR118/119 into one deployable canonical data model, real app UI integration, and appropriate build/release gate. Successful CI on research files alone does **not** publish stories or approve them.
+
+
+## Philippines national proclamation sprint — 25 original origins, 14 November 2026
+
+**Scope:** after the previous Korean 57/57 and Canadian 32/32 research closure, the Philippine 91 retained candidate IDs were individually queued for new original histories. **25** uniquely sourced Philippine canonical origin records were added this turn, each in EN, IT, ES, FR, DE, PT; they remain AI-assisted **drafts pending qualified native-language and factual human reviews**.
+
+### Original source dossiers created on this PR
+
+| Six-locale research batch | Record count | Specific official/legal provenance |
+| --- | ---: | --- |
+| `ph_months_heritage_rights_6_six_locales_20261114.json` | 6 | Food Month 2018 Proc469, Literature Month 2015 Proc968, History Month 2012 Proc339, Museums/Galleries Month 1991 Proc798, Children's Month **2015 RA10661**, National Indigenous Peoples Month 2009 Proc1906 |
+| `ph_months_language_society_6_six_locales_20261114.json` | 6 | National Bible Month 2017 Proc124, Filipino Values Month 1994 Proc479, Peace Consciousness Month 2004 Proc675, Women's Role in History Month 1988 Proc227, Language Month 1997 Proc1041, Rice Awareness Month 2004 Proc524 |
+| `ph_statutory_civic_4_six_locales_20261114.json` | 4 | National Women's Day **RA6949 1990 working special holiday**, Indigenous Peoples Thanksgiving Day 2003 Proc486, Philippine Earth Day **annual since Proc1481 2008** after one-year proclamations in 1990 and 2007, NCCA founding anniversary **RA7356 1992** |
+| `ph_book_health_protection_4_six_locales_20261114.json` | 4 | National Book Week 24–30 Nov **1936 Proc109**, Nutrition Month July 1974 **PD491 sec 7** replacing March Nutrition Week, **18-day** VAW Campaign 25 Nov–12 Dec **2006 Proc1172**, Order of National Artists founding **1972 Proc1001** (distinct from individual artist biography) |
+| `ph_books_culture_ecology_5_six_locales_20261114.json` | 5 | Library/Information Services Month 1991 Proc837, Traditional/Alternative Health Month 2004 Proc698 (earlier RA8423 1997), Book Development Month **1999 Proc120** with earlier 1997/1998 campaigns and **move June→November from 2008 by Proc1436 s.2007**, Culture Consciousness Week 1–7 July **1973 Proc1148**, Tamaraw protection Month October **2002 Proc273** |
+| **New original Philippine AI drafts** | **25** | **25 distinct canonical IDs, 150 locale narratives** |
+
+*Source role:* Original presidential proclamations and statute text are linked per record. The NCCA calendar is used to cross-check **current month/day rules**, not as proof of every older introduction year. A law with a *specific year only* cannot be silently converted into a permanent annual designation. LawPhil reproduces government issuances; LawPhil and the original decree displayed there are not two independent editorial reviewers. Human source/translation signoff remains **zero**.
+
+### Fixed date/period and origin integrity
+
+The validator cross-checks all **25** records against the original `data/market/wave13_ncca_eures_100_20261111.json` and `data/market/wave10_hundred_kr_ph_20261111.json` recurrence rules. The set contains **17 month-long observances, 5 days or institutional anniversaries, 2 seven-day weeks, and 1 eighteen-day campaign**, with 1993 and 1990 earlier commemorations tracked distinctly in corresponding dossiers.
+
+- **National Children's Month**: 1993 **October** under Proc267; **Nov** since RA10661 approved **29 May 2015** (which repeals the previous proclamations). The NCCA date listing uses an inconsistent "2014" shorthand; primary enacted law 2015 takes precedence.
+- **Indigenous Peoples**: individual **29 October Thanksgiving Day** from 2003 Proc486 is *not the same original event* as the **whole month of October** under 2009 Proc1906. Both refer to the earlier 1997 Indigenous Peoples Rights Act and share a history cluster, but retain their own canonical IDs.
+- **Women's recognition**: March 1988 Women's Role in History Month (Proc227) differs from **8 March National Women's Day, a special *working* holiday** (RA6949 1990). Neither implies a general nonworking holiday. A Senate approval-date header conflicts with the signed text's exact day; our six-language copy uses year 1990, not a disputed day.
+- **Book history**: National Book Week **24–30 November** (1936 Proc109); National Book Development Month originally **June** (permanent from 1999, observed in earlier 1997/98 years), shifted to **November starting 2008** (2007 Proc1436); April 2015 National Literature Month (Proc968) is a separate literary-arts observance.
+- **Peace**: National Peace Consciousness Week was 28 February–6 March (2002 Proc161); September month **from 2004** (Proc675) replaced that older period.
+- **Anti-violence campaign**: Philippine **18 days from 25 November to 12 December** (2006 Proc1172) extends the earlier international **16 days from 25 November to 10 December**. The date crosses the month boundary; it is not a single week.
+- **Nutrition**: July month from **PD491 sec.7 1974** replaced the old Nutrition Week in March.
+- **Philippine Earth Day**: original one-year presidential proclamations in **1990** and **2007** precede the recurring **22 April from 2008 Proc1481**; the national decree does not create the international Earth Day.
+- **National Artists**: **27 April 1972 Proc1001** established a governmental artistic distinction and first named Fernando Amorsolo; this is distinct from the personal birth/death dates excluded from new PH editorial scope.
+- **Tamaraw**: special protection of an endemic Mindoro species, **October since 2002** Proc273; not a generic international endangered-species day.
+- **National culture**: annual 1–7 July Week designated **1973 Proc1148** and followed by official agency action Memorandum Circular No. 644 in June 1973.
+
+### Explicitly unresolved primary-source conflicts
+
+Tracked in `data/editorial/audits/ph_open_legal_source_conflicts_20261114.json` (4 individual IDs):
+1. `ph-w13-national-punctuality-and-civility-consciousness-month`: Proc1638 explicitly declares **November 2008**, but the current NCCA source lists the month as recurring annually. **Do not infer permanent statutory annual recurrence from the one-year decree**; no full source-verified origin draft yet.
+2. `ph-w13-week-of-the-philippine-eagle`: Proc79 under the **1999** index and heading is internally transcribed as signed **1998**. Exact legal sign-year must be checked against authoritative original, rather than guessing based on officeholder. No full source-verified six-locale draft yet.
+3. `ph-w10-philippine-national-women-s-day`: RA6949 Senate metadata date (9 Apr 1990) differs from signed statutory text (10 Apr 1990); **year-only used** in published-unapproved draft and human approval locked.
+4. `ph-w13-national-children-s-month-philippines`: NCCA calendar year shorthand 2014 differs from primary **RA10661 approved May 2015**; the six-language origin draft follows the act and documents older 1993 October status. Qualified approval still locked pending discrepancy signoff.
+
+### Count snapshot and release status
+
+| Country | Retained candidates | Six-locale original/history drafts | Lacking a linked six-locale original history |
+| --- | ---: | ---: | ---: |
+| Philippines | 91 | **34** | **57** |
+| South Korea | 57 | **57** | **0** |
+| Canada | 32 | **32** | **0** |
+| **Combined** | **180** | **123** | **57** |
+
+The aggregate **123** includes earlier linked PR118/119 histories, original dossiers authored on PR120, and additional PR118 locale translations on PR120. All remain **source-linked AI drafts**, not qualified editorial approvals. **0 human-certified**; PR118, PR119 and this PR120 remain **Draft/unmerged**, and **nothing is released to main or the runtime**. Next priority is the other 57 Philippine IDs, including the two blocked by original legal-source conflicts.
