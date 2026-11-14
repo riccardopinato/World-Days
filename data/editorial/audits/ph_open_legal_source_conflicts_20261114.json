@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
+  "qualifiedEditorialApproval": false,
+  "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
+  "count": 4,
+  "items": [
+    {
+      "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
+      "problem": "PERIODICITY_IN_LEGAL_TEXT_NOT_EXPLICITLY_RECURRING",
+      "risk": "The NCCA official current cultural calendar indexes a recurring whole month each November, but Proclamation No. 1638 dated 8 October 2008 says the month of November 2008, without the words 'every year thereafter'. A recurring year-to-year legal basis requires a separate, checked follow-up source. Do not promote one-time 2008 proclamation to proven permanent annual statute.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2008/proc_1638_2008.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_FULL_ORIGIN_DRAFT_PEND_RECURRENCE_CHECK",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-week-of-the-philippine-eagle",
+      "problem": "PRESIDENTIAL_PROCLAMATION_YEAR_CONFLICT",
+      "risk": "Proclamation No. 79 is filed in 1999 and its heading says 24 February 1999; the signed final line as transcribed says 24 February 1998, a year before President Joseph Estrada took office. Both pages show the internal mismatch. The intended recurring period June 4–10 may be supported, but the precise issuance year/date in the original manuscript needs a reliable official copy before signoff.",
+      "legalSource": "https://lawphil.net/executive/proc/proc1999/proc_79_1999.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_EXACT_YEAR_UNTIL_SIGNED_PRIMARY_COPY",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-women-s-day",
+      "problem": "SENATE_INDEX_APPROVAL_DATE_VS_FULL_STATUTE",
+      "risk": "Senate index metadata for RA6949 shows approval 9 April 1990, while the full statutory text and Supreme Court reproduction show Approved 10 April 1990. The six-locale origin uses securely documented year April 1990 only, and the act's legal working-special-holiday status, pending exact-day reconciliation.",
+      "legalSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/2456",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%206949",
+      "editorialDisposition": "DRAFTED_IN_PR120_WITH_EXACT_DAY_OMITTED_PENDING_RECONCILIATION",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-national-children-s-month-philippines",
+      "problem": "NCCA_CALENDAR_LEGISLATIVE_YEAR_VS_ACT_TEXT",
+      "risk": "The NCCA calendar labels National Children's Month as RA No. 10661 'of 2014', but Republic Act No. 10661 was approved on 29 May 2015. The 2015 act moved the annual month from October under 1993 Proclamation No. 267 to November. Our PR120 story uses 2015 as legal year, 1993 as predecessor history and November as current recurrence.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_2015_STATUTE_GOVERNS_PRIMARY_MONTH;SOURCE_CALENDAR_YEAR_MISTAKE_DOCUMENTED",
+      "resolved": false
+    }
+  ]
+}
