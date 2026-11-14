@@ -8,6 +8,7 @@ is a durable, inspectable research worklist, NOT 100 published stories.
 import json
 from pathlib import Path
 from editorial_1111_source_audit_queue import build as build_audit
+from editorial_research_handoff import load_handoff
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "reports/editorial_origin_wave100.json"
@@ -25,11 +26,12 @@ FIRST_FOUR = {
 
 def build():
     audit = build_audit()
+    handoff = load_handoff({r["id"] for r in audit["rows"]})
     # Future-proof: read the actual source-researched batch when integrated.
     root_batches = ROOT / "data/editorial/batches"
     origin_files = [root_batches / "origin_stories_primary_20261111.json"]
     origin_files += sorted(root_batches.glob("origin_stories_wave*.json"))
-    excluded = set(FIRST_FOUR)
+    excluded = set(FIRST_FOUR) | handoff["six_locale_draft_ids"] | handoff["out_of_scope_ids"]
     for origin_batch in origin_files:
         if origin_batch.exists():
             origin = json.loads(origin_batch.read_text(encoding="utf-8"))

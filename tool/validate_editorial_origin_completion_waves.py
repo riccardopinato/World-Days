@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from editorial_origin_completion_waves import build, OUTPUT, BATCH_SIZE, LANGUAGES
 from editorial_1111_source_audit_queue import build as build_audit
+from editorial_research_handoff import load_handoff
 
 index, files = build()
 stored_index = json.loads((OUTPUT / "index.json").read_text(encoding="utf-8"))
@@ -12,7 +13,12 @@ assert index["schemaVersion"] == 1
 assert index["batchLimit"] == BATCH_SIZE == 100
 assert index["catalogTotal"] >= 1111
 assert index["individuallyOriginResearched"] >= 4
-assert index["outstandingOriginResearch"] == index["catalogTotal"] - index["individuallyOriginResearched"]
+handoff = load_handoff({r["id"] for r in build_audit()["rows"]})
+from editorial_origin_completion_waves import _read_origin
+main_ids = set(_read_origin())
+assert index["individuallyOriginResearched"] == len(main_ids)
+assert index["outstandingOriginResearch"] == index["catalogTotal"] - len(main_ids | handoff["six_locale_draft_ids"] | handoff["out_of_scope_ids"])
+assert index["researchHandoff"]["qualifiedHumanCertified"] == 0
 assert index["batchCount"] == (index["outstandingOriginResearch"] + 99) // 100
 assert len(files) == index["batchCount"]
 assert index["progress"]["newHistoricalArticlesCertifiedByThisQueue"] == 0
@@ -52,7 +58,8 @@ for i, (name, expected) in enumerate(files.items(), start=1):
 assert len(ids) == len(set(ids)) == index["outstandingOriginResearch"]
 audit_ids = {r["id"] for r in build_audit()["rows"]}
 assert set(ids) <= audit_ids
-assert index["individuallyOriginResearched"] == len(audit_ids - set(ids))
+assert index["individuallyOriginResearched"] == len(main_ids)
+assert set(ids).isdisjoint(main_ids | handoff["six_locale_draft_ids"] | handoff["out_of_scope_ids"])
 assert index["batchSizes"] == [len(f["dossiers"]) for f in files.values()]
 assert sum(index["batchSizes"]) == len(ids)
 print(f"PASS: {len(ids)} outstanding identities, {len(files)} non-overlapping "

@@ -10,7 +10,9 @@ from editorial_origin_completion_waves import build
 index, batches = build()
 assert index["catalogTotal"] >= 1111
 assert index["individuallyOriginResearched"] >= 225
-assert index["outstandingOriginResearch"] == index["catalogTotal"] - index["individuallyOriginResearched"]
+assert index["outstandingOriginResearch"] == index["outstandingNewStoryDrafting"]
+assert index["mainNotYetIntegratedOriginCount"] == index["catalogTotal"] - index["individuallyOriginResearched"]
+assert index["outstandingOriginResearch"] <= index["mainNotYetIntegratedOriginCount"]
 first = batches["batch_001.json"]
 assert first["recordCount"] == first["batchLimit"] == 100
 ids = [d["observanceId"] for d in first["dossiers"]]
