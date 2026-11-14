@@ -125,6 +125,44 @@ assert verified["kr-w10-day-of-persons-with-disabilities-in-korea"]["observanceD
 assert verified["kr-w10-student-independence-movement-remembrance-day"]["observanceDate"]=="11-03"
 assert verified["kr-w10-law-day-in-korea"]["observanceDate"]=="04-25"
 assert verified["kr-w10-jeju-april-3-victims-remembrance-day"]["introducedYear"]==2014
+
+# The 12 new official Korean commemorations must agree with the original market source
+# on both the specific canonical ID and its fixed or relative yearly recurrence.
+origin_market=json.loads((ROOT/"data/market/wave10_hundred_kr_ph_20261111.json").read_text(encoding="utf-8"))
+market_by_id={record["id"]:record for record in origin_market["records"]}
+new_kr_names=[
+"kr_june10_two_histories_six_locales_20261114.json",
+"kr_provisional_jeju_two_six_locales_20261114.json",
+"kr_war_martyrs_two_six_locales_20261114.json",
+"kr_rail_cyber_two_six_locales_20261114.json",
+"kr_reserve_disability_two_six_locales_20261114.json",
+"kr_students_law_two_six_locales_20261114.json",
+]
+new_kr_ids=set()
+for filename in new_kr_names:
+    b=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
+    for rec in b["records"]:
+        ident=rec["observanceId"]
+        assert ident not in new_kr_ids,ident
+        new_kr_ids.add(ident)
+        assert ident in market_by_id
+        raw=market_by_id[ident]
+        assert raw["country"]=="KR" and len(raw["recurrenceRules"])==1
+        rule=raw["recurrenceRules"][0]
+        if rule["kind"]=="FIXED_DATE":
+            expected_date=f'{rule["month"]:02d}-{rule["day"]:02d}'
+        elif rule["kind"]=="NTH_WEEKDAY":
+            assert rule["month"] in (4,7) and rule["weekday"] in (3,5) and rule["occurrence"] in (1,2)
+            wd={3:"WEDNESDAY",5:"FRIDAY"}[rule["weekday"]]
+            occ={1:"FIRST",2:"SECOND"}[rule["occurrence"]]
+            expected_date=f'{occ}_{wd}_{["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"][rule["month"]-1]}'
+        else:
+            raise AssertionError(f"Unexpected recurrence for {ident}: {rule}")
+        assert rec["observanceDate"]==expected_date,(ident,expected_date,rec["observanceDate"])
+        assert rec["firstObservedYear"] is None
+assert len(new_kr_ids)==12
+assert new_kr_ids.issubset(set(verified))
+
 assert all(verified[ident]["country"]=="KR" and verified[ident]["firstObservedYear"] is None for ident in (
     "kr-w10-june-10-democracy-movement-remembrance",
     "kr-w10-june-10-independence-movement-remembrance",
