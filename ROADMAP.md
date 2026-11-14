@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+## Three-country PH/KR/CA research handoff — 14 November 2026 (review NOT complete)
+
+- [x] Record the 333 original canonical IDs without duplication: 153 Philippine biographical scope exclusions, 180 retained; the catalog itself is unchanged.
+- [x] Pin 173 research-ready six-locale AI dossiers (PH84, KR57, CA32) and 7 blocked Philippine IDs; do not count them again as **new story authoring**. Pin PRs #118/#119/#120; audit ledger under `data/editorial/registry/`.
+- [x] Recognize 18 of 173 as Wave20 bilingual histories **already** in main, leaving 155 additional unique external source drafts.
+- [x] Keep review/publication counters separate: **0/173 human-certified**, **0 published** from this handoff; reviews and unmerged source PRs remain OPEN.
+- [ ] Resolve the 7 Philippine source/date/legal identity blockers and the 14 documented source conflicts.
+- [ ] Complete qualified factual and six-native-language editorial reviews for all 173 before source-content integration and rich editorial publication.
+- [ ] Merge this bookkeeping/queue PR only after exact-head CI and main branch rules; the editorial PRs require their own separate reviews, source validation and merge gates.
+
+The snapshot calculation for **new authoring** is 1111 minus 325 already-source-researched origins on main, minus 155 additional draft origins, minus 153 excluded biographical IDs = **478**. This is not the number of stories already human-certified or published. See `docs/PH_KR_CA_RESEARCH_HANDOFF_AND_COUNTS_20261114.md`.
+
+
 ## Wave20 — frozen 100-ID source research completed (13 November 2026)
 
 - [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.
