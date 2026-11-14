@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 144,
-    "AI_CERTIFIED": 21,
+    "AI_REVIEW_QUEUED": 134,
+    "AI_CERTIFIED": 31,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -71,27 +71,43 @@
       "title": "Canadian Armed Forces Day",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2002,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2005/06/canadians-celebrate-canadian-forces-day-june-5.html",
+        "https://www.canada.ca/en/news/archive/2015/06/associate-minister-national-defence-julian-fantino-statement-celebrating-canadian-armed-forces-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "Canada's prime minister made the annual proclamation on 31 May 2002.",
+        "The federal 2005 announcement describes its edition as the fourth annual Canadian Forces Day.",
+        "The date is the first Sunday of June, not a permanently fixed numbered date."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-armenian-genocide-remembrance",
@@ -99,27 +115,43 @@
       "title": "Armenian Genocide Remembrance Day (Canada)",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2015,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.ourcommons.ca/members/en/brad-butt%2830314%29/motions/7892046",
+        "https://www.pm.gc.ca/en/news/statements/2022/04/24/statement-prime-minister-armenian-genocide-memorial-day",
+        "https://canada.mfa.am/en/news/2016/04/24/yeganian_parliamentspeech/3261"
+      ],
+      "factsConfirmed": [
+        "Canada's Commons had recognized the Armenian genocide in April 2004.",
+        "Motion M-587 acknowledging 24 April as the memorial day was adopted in April 2015.",
+        "The date refers to the 1915 arrests of Armenian intellectuals in Constantinople."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The original first observed year remains unknown rather than inferred.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-british-home-child-day",
@@ -127,27 +159,43 @@
       "title": "British Home Child Day (Canada)",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2018,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.ourcommons.ca/members/en/25516/motions/8853980",
+        "https://www.ontario.ca/laws/statute/s11014",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "Ontario's British Home Child Day Act received Royal Assent on 1 June 2011.",
+        "Canada's House of Commons adopted Motion M-133 on 7 February 2018.",
+        "The federal motion refers to more than 100,000 British Home Children sent to Canada."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The original first observed year remains unknown rather than inferred.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-canada-day",
@@ -155,27 +203,42 @@
       "title": "Canada Day",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1868,
       "establishedYear": 1879,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/canada-day/about/dominion-day.html"
+      ],
+      "factsConfirmed": [
+        "Canadian Confederation took effect on 1 July 1867.",
+        "The first official national anniversary proclamation is dated 20 June 1868.",
+        "Parliament made the day a statutory holiday in 1879 and renamed it Canada Day in 1982."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-covid-19-national-observance",
@@ -184,26 +247,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2021,
       "establishedYear": 2021,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/public-health/news/2021/03/statement-from-the-chief-public-health-officer-of-canada-on-march-11-2021.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "The federal designation was announced on 11 March 2021.",
+        "At that time the statement referred to over 22,000 deaths.",
+        "The Canadian observance followed the 2020 WHO pandemic declaration."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-dutch-heritage-day",
@@ -341,26 +419,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "318f42138b36bd8879ac949bbb43a934bdf51814",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2008,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2011/11/statement-prime-minister-canada-78th-anniversary-holodomor.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "The federal memorial legislation was adopted in 2008.",
+        "The date is the fourth Saturday of November, not a fixed numbered date.",
+        "The famine commemorated took place in 1932–33."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The original first observed year remains unknown rather than inferred.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-indigenous-languages-day",
@@ -954,27 +1047,42 @@
       "title": "Anniversary of the Battle of Vimy Ridge (Canada)",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2003,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2016/04/marking-99-years-since-the-battle-of-vimy-ridge.html",
+        "https://www.canada.ca/en/news/archive/2013/04/message-from-excellency-right-honourable-david-johnston-governor-general-canada-occasion-vimy-ridge-day.html"
+      ],
+      "factsConfirmed": [
+        "The first modern national designation of Vimy Ridge Day was on 3 April 2003.",
+        "The historical battle opened on 9 April 1917 in northern France.",
+        "Approximately 3,600 Canadian soldiers died and over 7,000 were wounded."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-violence-against-women-remembrance",
@@ -1025,27 +1133,42 @@
       "title": "Canadian Multiculturalism Day",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/news/2017/05/canadian_multiculturalismdayacelebrationofourdiversity.html",
+        "https://www.canada.ca/en/news/archive/2012/06/minister-kenney-issues-statement-celebrate-multiculturalism-day.html"
+      ],
+      "factsConfirmed": [
+        "Canada announced its federal multiculturalism policy in 1971.",
+        "The Canadian Multiculturalism Act became law in 1988.",
+        "The Government formally designated 27 June in a proclamation dated 13 November 2002."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The original first observed year remains unknown rather than inferred.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "canada-national-acadian-day",
@@ -1096,27 +1219,42 @@
       "title": "National Flag of Canada Day",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1996,
       "establishedYear": 1996,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day/about/declaration.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/national-flag-canada-day.html"
+      ],
+      "factsConfirmed": [
+        "Jean Chrétien declared National Flag of Canada Day on 15 February 1996.",
+        "The maple-leaf flag was first raised on Parliament Hill at noon on 15 February 1965.",
+        "The flag was adopted decades before the later annual commemorative day."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "canada-national-indigenous-peoples-day",
@@ -1168,27 +1306,42 @@
       "title": "National Day for Truth and Reconciliation — Canada",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2021,
       "establishedYear": 2021,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/army/services/events/truth-and-reconciliation.html",
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-canada.html"
+      ],
+      "factsConfirmed": [
+        "The federal National Day for Truth and Reconciliation began on 30 September 2021.",
+        "The observance coincides with the older Orange Shirt Day tradition.",
+        "The commemoration addresses the continuing impacts of Canada's residential-school system."
+      ],
+      "notes": "2026-11-14: Original-source Canadian government/parliamentary observance chronology and full EN/IT/ES/FR/DE/PT narrative consistency assessed; exact legal vs symbolic designation, year/date distinctions and first recorded ceremony are maintained. The certified draft is pinned to live source PR head and immutable file Git blob. Editorial AI verification only, not a claim of human signoff or published app runtime. The first observed year is recorded separately from the legal recognition date.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-childrens-day",
@@ -5222,6 +5375,31 @@
         "ca-great-upheaval-commemoration",
         "ca-indigenous-veterans-day",
         "ca-sir-john-a-macdonald-day"
+      ]
+    },
+    {
+      "asOf": "2026-11-14",
+      "batch": "canada-source-crosscheck-10-wave20",
+      "count": 10,
+      "sourcePRs": [
+        118,
+        119
+      ],
+      "sourceHeads": {
+        "118": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+        "119": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0"
+      },
+      "ids": [
+        "canada-national-flag-day",
+        "canada-truth-and-reconciliation-day",
+        "canada-multiculturalism-day",
+        "ca-canada-day",
+        "ca-vimy-ridge-battle-anniversary",
+        "ca-armenian-genocide-remembrance",
+        "ca-british-home-child-day",
+        "ca-armed-forces-day",
+        "ca-covid-19-national-observance",
+        "ca-holodomor-memorial-day"
       ]
     }
   ]

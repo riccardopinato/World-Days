@@ -1,5 +1,12 @@
 # World Days — Active roadmap
 
+## AI editorial Canada Wave20 + origin histories (14 November 2026)
+
+- [x] Review ten additional Canadian six-language originals from draft PR #118/#119: original dates, laws, official sources, distinctions between historical events and annual designation. SHA-pinned original draft files retained.
+- [x] Register **31 AI_CERTIFIED**, **8 HOLD**, **134 AI_REVIEW_QUEUED** in the 173 PH/KR/CA queue; never count human signoffs or runtime publication from AI editorial approval.
+- [ ] Continue remaining 134, prioritize source-backed national histories and fix eight source conflicts individually.
+
+
 ## AI editorial certification — third Canadian wave (14 November 2026)
 
 - [x] AI source history verification for seven further Canadian observances: Lincoln Alexander, Red Dress, Dutch Heritage, Saint-Jean-Baptiste, Great Upheaval, Indigenous Veterans, Sir John A. Macdonald. Six locale narratives checked for chronological parity and consistent facts.
