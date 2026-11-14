@@ -6,6 +6,10 @@ Source/version changes invalidate prior per-source certification. Unreviewed
 and disputed entries must remain unapproved.
 """
 import json
+import hashlib
+import os
+import sys
+from urllib.request import Request, urlopen
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -17,6 +21,13 @@ LEDGER = ROOT / "data/editorial/reviews/ph_kr_ca_173_ai_editorial_certification_
 q = json.loads(QUEUE.read_text(encoding="utf-8"))
 d = json.loads(LEDGER.read_text(encoding="utf-8"))
 handoff = load_handoff()
+queue_bytes = QUEUE.read_bytes()
+queue_git_blob_sha = hashlib.sha1(
+    b"blob " + str(len(queue_bytes)).encode("ascii") + b"\0" + queue_bytes
+).hexdigest()
+assert d["sourceReviewQueueBlobSha"] == queue_git_blob_sha, (
+    "historical queue changed: re-run AI review before accepting a certificate"
+)
 assert d["schemaVersion"] == 1 and d["asOf"] == "2026-11-14"
 assert d["reviewerIdentity"] == "GPT-6_AI_EDITORIAL_REVIEW"
 assert d["reviewAuthority"] == "USER_DELEGATED_AI_EDITORIAL_REVIEW_2026-11-14"
@@ -75,5 +86,49 @@ philippines = rows["ph-independence-day"]
 assert philippines["firstObservedYear"] is None
 assert any("84843" in url for url in philippines["sourceEvidence"])
 assert philippines["sourceHead"] == "521a59452178b7e2f0b074e5057e964af8515feb"
+# Exact live source-version gate: a once-correct AI certificate is never valid
+# after an unreviewed PR head or source blob update.  Uses the GitHub API on CI;
+# local static validation remains available without performing network requests.
+if "--verify-remote" in sys.argv:
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise AssertionError("--verify-remote requires GITHUB_TOKEN")
+    base = "https://api.github.com/repos/riccardopinato/World-Days"
+    def api(path):
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "World-Days-AI-Editorial-Source-Gate/1",
+            "Authorization": "Bearer " + token,
+            "X-GitHub-Api-Version": "2022-11-28",
+        }
+        req = Request(base + path, headers=headers)
+        with urlopen(req, timeout=25) as response:
+            return json.loads(response.read().decode("utf-8"))
+
+    # Only fetch reviewed source PRs; all other drafts are intentionally queued.
+    certified = [x for x in rows.values() if x["status"] == "AI_CERTIFIED"]
+    heads = {}
+    blob_cache = {}
+    for row in certified:
+        pr = row["sourcePR"]
+        if pr not in heads:
+            obj = api("/pulls/" + str(pr))
+            assert obj["state"] == "open" and not obj["merged"], ("source PR closed/merged", pr)
+            heads[pr] = obj["head"]["sha"]
+        assert heads[pr] == row["sourceHead"], (
+            "source PR changed after AI review; invalidate and recertify", pr,
+            row["sourceHead"], heads[pr])
+        key = (pr, row["sourceFile"])
+        if key not in blob_cache:
+            import urllib.parse
+            encoded = "/".join(urllib.parse.quote(p, safe="") for p in row["sourceFile"].split("/"))
+            obj = api("/contents/" + encoded + "?ref=" + heads[pr])
+            assert obj.get("type") == "file"
+            blob_cache[key] = obj["sha"]
+        assert blob_cache[key] == row["sourceBlobSha"], (
+            "source file blob changed after review", row["observanceId"])
+    print("PASS: live GitHub PR head and source blob verification for",
+          len(certified), "AI-certified stories across", len(heads), "source PRs")
+
 print("PASS: 173 AI-research editorial decisions: 4 AI_CERTIFIED, 8 source-HOLD, "
       "161 awaiting AI review, 0 human signoffs, 0 runtime publications")
