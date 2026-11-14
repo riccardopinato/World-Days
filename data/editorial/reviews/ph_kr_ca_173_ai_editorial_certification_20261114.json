@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 134,
-    "AI_CERTIFIED": 31,
+    "AI_REVIEW_QUEUED": 127,
+    "AI_CERTIFIED": 38,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -462,26 +462,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/celebrate-indigenous-languages/statement-national-indigenous-languages-day-2026.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "Canadian Heritage lists 31 March as the annual date.",
+        "A federal statement marked the occasion on 31 March 2026.",
+        "The original act and first annual event are not verified by these sources."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-indigenous-veterans-day",
@@ -705,26 +720,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/news/2021/01/the-government-of-canada-intends-to-create-national-day-of-remembrance-of-the-quebec-city-mosque-attack-and-action-against-islamophobia.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "The attack took place on 29 January 2017.",
+        "Six worshippers died and 19 people were seriously injured.",
+        "Canadian Heritage announced the proposed national day in January 2021."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-raoul-wallenberg-day",
@@ -976,27 +1006,43 @@
       "title": "Anniversary of the Statute of Westminster (Canada)",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "a59b9868a559859b0f2f657445d9eea7f774e5e2",
+      "sourceBlobSha": "951808461a115c768de29fa9c4696f28cf8b40b3",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/anniversary-statute-westminster.html",
+        "https://www.canada.ca/en/canadian-heritage/services/flag-canada-etiquette/foreign-flags.html",
+        "https://justice.canada.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t171.html"
+      ],
+      "factsConfirmed": [
+        "The Statute of Westminster received enactment on 11 December 1931.",
+        "It followed agreements reached at Imperial Conferences in 1926 and 1930.",
+        "Canada's federal flag protocol allows the Royal Union Flag alongside the National Flag where facilities permit."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-terrorism-victims-remembrance",
@@ -1405,27 +1451,42 @@
       "title": "Hangeul Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_hangeul_constitution_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f9daf3a869df6d24bdd48b635fcfcfc4f7c25dc5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2005,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29382"
+      ],
+      "factsConfirmed": [
+        "Hangeul Day is observed annually on 9 October.",
+        "It was added to the statutory national-days list in 2005.",
+        "It became a public holiday again in 2013."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-liberation-day",
@@ -1433,27 +1494,42 @@
       "title": "Liberation Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "e365bd21d656efbc8007397b8f6fe47c10dc304b",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1949,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/celebrationDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Liberation from colonial rule is remembered on 15 August 1945.",
+        "The Republic of Korea government was established on 15 August 1948.",
+        "The original National Days Act dates from 1949."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-march-first-independence-movement-day",
@@ -1506,27 +1582,42 @@
       "title": "National Memorial Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "e365bd21d656efbc8007397b8f6fe47c10dc304b",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1956,
       "establishedYear": 1956,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mpva.go.kr/mpva/selectCmmrInfoWebView.do?cmmrNo=10&key=214&pageIndex=1&pageUnit=12&searchCnd=all&searchUseAt=Y"
+      ],
+      "factsConfirmed": [
+        "6 June was designated by presidential decree in April 1956.",
+        "The day has been observed annually since 1956.",
+        "Formal commemorative-day regulations were added in 1982."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-national-foundation-day",
@@ -1534,27 +1625,42 @@
       "title": "National Foundation Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_liberation_foundation_memorial_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "e365bd21d656efbc8007397b8f6fe47c10dc304b",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1949,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/celebrationDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Gaecheonjeol is held annually on 3 October.",
+        "The Dangun foundation story is a cultural tradition, not a verified modern event.",
+        "The day appears in the 1949 National Days Act."
+      ],
+      "notes": "AI source review on 2026-11-14 against Canadian Heritage/Justice or Republic of Korea Ministry of the Interior and Safety/Patriots and Veterans Affairs. Independently examined the original six-locale narrative, promoter, purpose, three facts and dates, including ceremonial versus legal-recognition years. No annual foundation or first public observance guessed when absent. Source draft PR head and original Git blob are pinned and verified remotely in CI. This AI editorial certificate is not human signoff or app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
@@ -5400,6 +5506,25 @@
         "ca-armed-forces-day",
         "ca-covid-19-national-observance",
         "ca-holodomor-memorial-day"
+      ]
+    },
+    {
+      "asOf": "2026-11-14",
+      "batch": "ca-kr-7-official-source-six-locale",
+      "count": 7,
+      "sourcePRs": [
+        118,
+        119,
+        120
+      ],
+      "ids": [
+        "ca-indigenous-languages-day",
+        "ca-quebec-city-mosque-attack-remembrance",
+        "ca-statute-of-westminster-anniversary",
+        "kr-hangeul-day",
+        "kr-liberation-day",
+        "kr-national-foundation-day",
+        "kr-memorial-day"
       ]
     }
   ]
