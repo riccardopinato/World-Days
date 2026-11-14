@@ -14,9 +14,9 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 46,
-    "AI_CERTIFIED": 122,
-    "HOLD_SOURCE_DISPUTE": 5,
+    "AI_REVIEW_QUEUED": 10,
+    "AI_CERTIFIED": 161,
+    "HOLD_SOURCE_DISPUTE": 2,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
   },
@@ -4795,27 +4795,43 @@
       "title": "National Library of the Philippines Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "c46dfd074b22dac863e34d2d96ef26c5e69fa8b4",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1887,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.dbm.gov.ph/wp-content/uploads/OPCCB/OPIF2012/NL%20of%20th.pdf",
+        "https://nlpdl.nlp.gov.ph/web/20220816/Beyond%20National%20Library.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The National Library of the Philippines preserves printed and recorded materials, books and documentary heritage that support public research, reading and the transmission of Filipino cultural memory.",
+        "Royal Order No. 689 of 12 August 1887 established the Museo-Biblioteca de Filipinas in Manila, which the National Library identifies as its earliest institutional origin. This is the date used for the current founding anniversary.",
+        "A separate American Circulating Library opened publicly on 9 March 1900; Public Act No. 96 of 5 March 1901 then reorganized and transferred library functions. Later names included Philippine Library and National Library, so the 1887 date and the 1900 public-library movement remain distinct."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-ncca-establishment-anniversary",
@@ -4823,27 +4839,42 @@
       "title": "NCCA Establishment Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_statutory_civic_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "4306ebb4d6c46fd76b43317d6befd8ab09e948aa",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1992,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1992/ra_7356_1992.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The NCCA establishment anniversary marks the creation of the Philippines' principal public commission for supporting cultural and artistic development across the country's diverse communities.",
+        "Republic Act No. 7356 was approved on 3 April 1992 and created the National Commission for Culture and the Arts together with a national endowment fund for cultural and artistic work.",
+        "The statute recognizes culture as a human right and emphasizes pluralism and broad participation; its institutional anniversary is not the same origin as Museums and Galleries Month, created in 1991."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-order-of-gabriela-silang-founding-anniversary",
@@ -4939,27 +4970,42 @@
       "title": "Order of National Artists Establishment Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_book_health_protection_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "93a1f08f2eff949e26d13619dcac67853b95b518",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1972,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1972/proc_1001_1972.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The National Artist establishment anniversary commemorates the creation of a state distinction for Filipinos who made exceptional contributions to arts and letters. It is the origin of an honor, not a personal artist birthday.",
+        "Proclamation No. 1001, signed by President Ferdinand Marcos on 27 April 1972 upon the Cultural Center of the Philippines trustees' recommendation, created the category of Award and Decoration of National Artist.",
+        "The proclamation also named painter Fernando Amorsolo the first National Artist. The award's founding history remains separate from commemorations of the births or deaths of later individual awardees."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-army-founding-anniversary",
@@ -4967,27 +5013,43 @@
       "title": "Philippine Army Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "06eb0674ad27e77556c600a3cb89d9556b591898",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1897,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1989/proc_447_1989.html",
+        "https://lawphil.net/executive/proc/proc1983/proc_2325_1983.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine Army traces its institutional lineage to the Revolutionary Army associated with the Tejeros Convention on 22 March 1897 in Cavite, amid the struggle against Spanish colonial domination.",
+        "Proclamation No. 2325 of 14 December 1983 temporarily assigned the same 22 March date to the anniversary of the Armed Forces as a whole, although it had traditionally been associated with the Army.",
+        "Proclamation No. 447 of 15 August 1989 restored 22 March to Philippine Army Day and assigned 21 December to the Armed Forces anniversary, reflecting the Defense Act of 1935. This is a documented legal-date correction, not a second army founding."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-british-friendship-day",
@@ -4995,27 +5057,43 @@
       "title": "Philippine-British Friendship Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "c46dfd074b22dac863e34d2d96ef26c5e69fa8b4",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2000,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc2008/proc_1592_2008.html",
+        "https://lawphil.net/executive/proc/proc2000/proc_381_2000.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine-British Friendship Day highlights historical, cultural, political and economic links between the Philippines and the United Kingdom, including diplomacy and cooperation between communities.",
+        "Proclamation No. 381 established the annual day on 7 December in 2000. This was the first modern recurring presidential recognition, not the date used by today's national calendar.",
+        "Proclamation No. 1592, signed 20 August 2008, amended the earlier decree and moved the observance to 20 October from 2008 onward to coincide with the inauguration of a new British Embassy."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-film-development-council-founding-anniversary",
@@ -5023,27 +5101,43 @@
       "title": "Philippine Film Development Council Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "06eb0674ad27e77556c600a3cb89d9556b591898",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2002/ra_9167_2002.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209167",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Film Development Council of the Philippines supports local filmmaking, cinema education, film festivals and the development of Filipino talent as part of national cultural and economic life.",
+        "Republic Act No. 9167 was approved on 7 June 2002 and established the Film Development Council under the Office of the President, replacing the previous Film Development Foundation and Film Rating Board.",
+        "The founding legislation provided for evaluation of local films, incentives to quality productions and participation in festivals and international markets. The council's legal founding must not be confused with Philippine cinema's older artistic beginnings."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-flag-days-commencement",
@@ -5095,27 +5189,43 @@
       "title": "Philippine House of Representatives Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "06eb0674ad27e77556c600a3cb89d9556b591898",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1916,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://econgress.gov.ph/legislative-history/",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-philippine-assembly/",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The House of Representatives traces a predecessor to the Philippine Assembly, whose first session was held on 16 October 1907. This earlier elected body predates the bicameral Congress created under the Jones Act.",
+        "The United States Congress enacted the Philippine Autonomy Act, known as the Jones Act, on 29 August 1916. It established an all-Filipino bicameral legislature with a new Senate and House of Representatives.",
+        "The new legislative structure held its inaugural sessions in October 1916. Treating 29 August as a legal-framework anniversary must not erase the House's 1907 predecessor or be confused with the separate Senate institutional history."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-military-academy-establishment-anniversary",
@@ -5123,27 +5233,43 @@
       "title": "Philippine Military Academy Establishment Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "c46dfd074b22dac863e34d2d96ef26c5e69fa8b4",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1898,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc1998/proc_35_1998.html",
+        "https://pma.edu.ph/pages/aboutus.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine Military Academy traces its earliest roots to the Academia Militar founded in Malolos on 25 October 1898 under President Emilio Aguinaldo's revolutionary government, while the modern academy evolved through later institutions.",
+        "During the American colonial period an officers' school of the Philippine Constabulary was established on 17 February 1905. That later institution once supplied the Academy's official foundation-day calendar.",
+        "Proclamation No. 35 signed 13 October 1998 replaced the 17 February anniversary with 25 October, following historical research supported by the National Historical Institute. The 1998 decision corrected the commemorative date rather than founding a new academy."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-national-women-s-day",
@@ -5151,27 +5277,50 @@
       "title": "Philippine National Women's Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_statutory_civic_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "4306ebb4d6c46fd76b43317d6befd8ab09e948aa",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1990,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "SENATE_INDEX_APPROVAL_DATE_VS_FULL_STATUTE",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1990/ra_6949_1990.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/2456",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine National Women's Day highlights women's contributions to public life and work and creates opportunities for institutions to celebrate and discuss gender equality.",
+        "Republic Act No. 6949, approved in April 1990, established 8 March each year as a special working holiday; the statutory text does not grant a general day off.",
+        "The law encourages employers and public bodies to allow participation in workplace celebrations; it is distinct from the March Women’s Role in History Month proclaimed in 1988."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication. Reconciled documented source limitation: RA6949 official enacted text approved April 10 1990; March 8 is annual special WORKING holiday, not a nationwide non-working day. Conflicting metadata was for intermediate legislative indexing, not signed statute.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "SENATE_INDEX_APPROVAL_DATE_VS_FULL_STATUTE",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "primaryLaw": "https://lawphil.net/statutes/repacts/ra1990/ra_6949_1990.html",
+        "finding": "RA6949 official enacted text approved April 10 1990; March 8 is annual special WORKING holiday, not a nationwide non-working day. Conflicting metadata was for intermediate legislative indexing, not signed statute.",
+        "interpretation": "original law prevails over derivative calendar metadata; no unstated paid holiday status"
+      }
     },
     {
       "observanceId": "ph-w10-philippine-republic-day-july-4",
@@ -5230,27 +5379,43 @@
       "title": "Philippine Senate Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "06eb0674ad27e77556c600a3cb89d9556b591898",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1916,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-session-hall-of-the-senate-of-the-philippines/",
+        "https://legacy.senate.gov.ph/about/history.asp",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine Senate was created as the upper chamber of the elected bicameral Philippine Legislature under the Jones Act of 29 August 1916, replacing the earlier appointed Philippine Commission.",
+        "The National Historical Commission's Senate chamber marker says the Senate was inaugurated at the Intendencia Building in Intramuros, Manila on 16 October 1916. The founding law and first session thus fall on different dates.",
+        "The Senate's institutional history also records interruptions and relocations through war, constitutional change and later legislatures. Its anniversary shares the Jones Act with the House but is a distinct chamber's founding story."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-spanish-friendship-day",
@@ -5302,27 +5467,43 @@
       "title": "Philippines Earth Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_statutory_civic_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "4306ebb4d6c46fd76b43317d6befd8ab09e948aa",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1990,
       "establishedYear": 2008,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2008/proc_1481_2008.html",
+        "https://lawphil.net/executive/proc/proc2008/proc_1482_2008.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippines' Earth Day on 22 April is part of the wider international environmental-awareness movement and promotes activities addressing ecological damage and community protection.",
+        "The country's presidential precedents include Proclamation No. 553 for Earth Day 1990 and Proclamation No. 1276 for Earth Day 2007; each designated a particular year's observance.",
+        "Proclamation No. 1481 of 10 April 2008 established 22 April of every year as the Philippine observance and designated the environment department to coordinate activities; this annual decree is not the origin of global Earth Day."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-indigenous-peoples-thanksgiving-day",
@@ -5330,27 +5511,43 @@
       "title": "Philippines Indigenous Peoples Thanksgiving Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_statutory_civic_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "4306ebb4d6c46fd76b43317d6befd8ab09e948aa",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2003/proc_486_2003.html",
+        "https://lawphil.net/executive/proc/proc2009/proc_1906_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Indigenous Peoples Thanksgiving Day calls public attention to the rights and historical contributions of indigenous cultural communities throughout the Philippines.",
+        "Proclamation No. 486, signed on 13 October 2003, established 29 October annually, reflecting the date when Republic Act No. 8371, the Indigenous Peoples Rights Act, was approved in 1997.",
+        "The single-day observance preceded National Indigenous Peoples Month, introduced in October 2009; they share a rights context but have separate acts, scopes and origins."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-local-government-day",
@@ -5358,27 +5555,42 @@
       "title": "Philippines Local Government Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1992,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1992/proc_63_1992.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Local Government Day celebrates the role of provinces, cities, municipalities and barangays in Philippine governance and public services, with particular attention to the principle of local autonomy.",
+        "Republic Act No. 7160, known as the Local Government Code of 1991, was signed on 10 October 1991. The date of this law provides the historical reason for the later yearly anniversary.",
+        "Proclamation No. 63 of 2 October 1992 designated October Local Government Month, its second week Local Government Week and 10 October Local Government Day. These three durations are connected but not three interchangeable identical dates."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-national-archives-day",
@@ -5386,27 +5598,43 @@
       "title": "Philippines National Archives Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "c46dfd074b22dac863e34d2d96ef26c5e69fa8b4",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1901,
       "establishedYear": 1995,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1995/proc_660_1995.html",
+        "https://lawphil.net/executive/proc/proc1995/pdf/proc_660_1995.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Archives Day invites people to recognize the importance of public records, historical documents and careful preservation of government information for accountability and collective memory.",
+        "The Philippine Commission established a Bureau of Archives under the Department of Public Instruction on 21 October 1901. This founding event later supplied the historical anniversary for archives work.",
+        "Proclamation No. 660, signed 27 September 1995, officially made every 21 October National Archives Day. The original bureau's establishment in 1901 and the modern recurring proclamation in 1995 must not share one undifferentiated founding year."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-national-indigenous-peoples-day",
@@ -5501,27 +5729,43 @@
       "title": "Philippines National Museum Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_institutions_military_legislature_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "06eb0674ad27e77556c600a3cb89d9556b591898",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1901,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.nationalmuseum.gov.ph/about-us/history/",
+        "https://www.nationalmuseum.gov.ph/wp-content/uploads/2022/06/About-National-Museum-of-the-Philippines.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The National Museum of the Philippines preserves and researches art, archaeology, ethnography, history and natural-science collections that document the country's cultural and biological diversity.",
+        "The Philippine Commission created the Insular Museum of Ethnology, Natural History and Commerce on 29 October 1901 under the Department of Public Instruction, according to the Museum's own institutional history.",
+        "The institution evolved through reorganizations and new names during the twentieth century, including the Philippine Museum name adopted in 1905. Its current founding anniversary points to the 1901 museum's creation, not a later renaming."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-national-teachers-day",
@@ -5573,27 +5817,43 @@
       "title": "Puerto Princesa Underground River Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heritage_friendship_archives_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "c46dfd074b22dac863e34d2d96ef26c5e69fa8b4",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2011,
       "establishedYear": 2014,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2014/proc_816_2014.html",
+        "https://lawphil.net/executive/proc/proc2025/proc_1059_2025.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Puerto Princesa Underground River Day celebrates the protected natural site in Palawan, known for its underground river system and biodiversity. It draws on public interest in conserving the landscape.",
+        "On 11 November 2011 the site was chosen among the New Seven Wonders of Nature in a private international campaign. This selection event was not a Philippine presidential decree or the creation of the natural site.",
+        "Proclamation No. 816 of 3 July 2014 made every 11 November Puerto Princesa Underground River Day. Separate annual local proclamations, such as a special non-working day for 11 November 2025 in Puerto Princesa City, do not turn the national observance into a permanent nationwide holiday."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-ramon-magsaysay-memorial-day",
@@ -5646,27 +5906,42 @@
       "title": "18-Day Campaign to End Violence Against Women (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_book_health_protection_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "93a1f08f2eff949e26d13619dcac67853b95b518",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2006,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2006/proc_1172_2006.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine 18-Day Campaign to End Violence Against Women treats violence and exploitation as human-rights issues, encouraging prevention, victim protection and greater public understanding.",
+        "Proclamation No. 1172, signed on 17 November 2006, established the annual period from 25 November to 12 December; it built on the earlier international 16-Day Campaign observed from 25 November to 10 December.",
+        "The two extra days connect the campaign to 12 December, cited by the decree as the international anti-trafficking observance. The national 18-day period must not be collapsed into the original international 16-day schedule."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-buwan-ng-wikang-pambansa",
@@ -5674,27 +5949,42 @@
       "title": "Buwan ng Wikang Pambansa — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1997,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1997/proc_1041_1997.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Buwan ng Wikang Pambansa celebrates Filipino as a national language and invites schools, cultural groups and communities to reflect on language, communication and national identity.",
+        "President Fidel Ramos signed Proclamation No. 1041 on 15 July 1997, establishing annual celebrations for the complete period 1–31 August, not a single national-language day.",
+        "The proclamation points to earlier constitutional recognition of a national language and to 19 August, the birthday of former President Manuel Quezon, who is often called the Father of the National Language."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-civil-service-month-philippines",
@@ -5702,27 +5992,42 @@
       "title": "Civil Service Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1997,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1997/proc_1050_1997.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine Civil Service Month recognizes workers in public administration, their ethical responsibilities and their role in delivering services across an archipelago of communities.",
+        "Its historical reference is the creation of the Philippine civil service under Public Law No. 5 in September 1900. That institutional event is older than the modern month-long commemoration.",
+        "Proclamation No. 1050, signed 31 July 1997, declared September 1997 and every September thereafter Civil Service Month. It placed the programme under the Civil Service Commission, not a new paid holiday."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-conflict-resolution-day-philippines",
@@ -5730,27 +6035,43 @@
       "title": "Conflict Resolution Day (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "20d72f8ce5af30098441eef1e15e9c2f553f154a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2006,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2006/proc_1152_2006.html",
+        "https://lawphil.net/executive/proc/proc2006/pdf/proc_1152_2006.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Conflict Resolution Day encourages mediation, conciliation and other non-violent ways of handling disagreements in families, communities, institutions and workplaces rather than assuming every dispute must go to court.",
+        "Proclamation No. 1152, signed 9 October 2006, designates the third Thursday of October every year as the Philippine national day. Its occurrence moves on the calendar and cannot be frozen to one particular October date.",
+        "The proclamation expressly refers to the 2004 Alternative Dispute Resolution Act, Republic Act No. 9285, and to community programmes promoting fair resolutions. The 2006 day is an education initiative, not a national day off."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-conservation-and-protection-of-the-tamaraw-month",
@@ -5758,27 +6079,42 @@
       "title": "Conservation and Protection of the Tamaraw Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_books_culture_ecology_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "63f113c848a2a364a7838f453f2be31ffac07fa5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2002/proc_273_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Tamaraw Conservation Month focuses on protecting the tamaraw, Bubalus mindorensis, a small wild buffalo endemic to Mindoro in the Philippines and threatened by habitat loss and other pressures.",
+        "Proclamation No. 273 of 14 October 2002 designated October of every year as a special month for conservation and protection of the tamaraw and its habitats in Mindoro.",
+        "The provincial governments of Oriental and Occidental Mindoro lead implementation, with the environment department's Tamaraw Conservation Program coordinating; this month is distinct from generic global wildlife days."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
@@ -5870,27 +6206,42 @@
       "title": "Filipino Values Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1994,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1994/proc_479_1994.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Filipino Values Month focuses on everyday conduct, community solidarity and reflection on the values people associate with Philippine culture. It is framed as a civic participation campaign rather than a day commemorating a battle or leader.",
+        "Proclamation No. 479, signed by President Fidel V. Ramos on 7 October 1994, declared November the annual observance and placed it under the Kabisig People Movement.",
+        "The decree explicitly refers to the Moral Recovery Program announced in Proclamation No. 62 of 1992, separating the earlier campaign from the formal 1994 month-long designation."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-history-month-philippines",
@@ -5926,27 +6277,42 @@
       "title": "Library and Information Services Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_books_culture_ecology_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "63f113c848a2a364a7838f453f2be31ffac07fa5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1991,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1991/proc_837_1991.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Library and Information Services Month highlights the work of libraries and information centres in providing reliable material for lifelong learning, research and leisure in the Philippines.",
+        "President Corazon Aquino signed Proclamation No. 837 on 19 November 1991, declaring November 1991 and every subsequent November a national month for library and information services.",
+        "The decree assigned a leading role to the National Library and a committee of the then Presidential Commission on Culture and Arts. It differs from National Book Week even though both occur in November."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-linggo-ng-kalayaan",
@@ -5997,27 +6363,42 @@
       "title": "Month of Overseas Filipinos — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1988,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1988/proc_276_1988.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Month of Overseas Filipinos recognizes people who live, study or work outside the Philippines and their contributions through families, communities, remittances and participation in Philippine public life.",
+        "President Corazon Aquino signed Proclamation No. 276 on 21 June 1988, assigning December 1988 and each following December to diaspora recognition. The proclamation recalls overseas participation in the country's democratic restoration.",
+        "The 1988 proclamation expressly superseded Proclamation No. 91 of 1987. It is a month-long national acknowledgement, not a claim that every December date is a paid national holiday."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication. Minor contextual year mention differs but legal establishment and preceding proclamation semantically agree in six-language originals.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-museums-and-galleries-month-philippines",
@@ -6053,27 +6434,42 @@
       "title": "National Bible Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2017,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2017/proc_124_2017.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Bible Month invites people in the Philippines to read and discuss biblical texts in their cultural and religious context, while recognizing that the state must remain neutral in its treatment of different faiths.",
+        "Proclamation No. 124 was signed on 5 January 2017, creating an annual January observance. It explicitly states that the last week of January is National Bible Week, so the month and its culminating week have different scopes.",
+        "The presidential text links the initiative to ethical and spiritual education and recognizes previous public attention to Bible Week; it does not declare every day of January a non-working public holiday."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-book-week-philippines",
@@ -6081,27 +6477,42 @@
       "title": "National Book Week (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_book_health_protection_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "93a1f08f2eff949e26d13619dcac67853b95b518",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1936,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://issuances-library.senate.gov.ph/executive-issuance/proclamation-no-109-s-1936",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Book Week in the Philippines invites readers to explore books, public libraries and the value of reading and publishing. The celebration lasts seven days and is distinct from a single international book day.",
+        "President Manuel Quezon issued Proclamation No. 109 on 19 November 1936, establishing 24–30 November of every year as the national period for books and reading.",
+        "The legal period falls in November, not April's National Literature Month. Those observances both promote reading, but they have separate historical and legislative origins."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-children-s-month-philippines",
@@ -6180,27 +6591,43 @@
       "title": "National Culture Consciousness Week — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_books_culture_ecology_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "63f113c848a2a364a7838f453f2be31ffac07fa5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1973,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1973/proc_1148_1973.html",
+        "https://lawphil.net/executive/mc/mc1973/mc_644_1973.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Culture Consciousness Week highlights Philippine cultural heritage, arts, writing and the varied customs of its communities within a national conversation about shared identity.",
+        "Proclamation No. 1148 of 31 May 1973 designated 1–7 July of every year, referring to cultural preservation, national identity and the constitutional recognition of cultural communities.",
+        "Memorandum Circular No. 644 of 25 June 1973 directed government offices and schools to organize cultural displays, exhibitions and educational visits during the first week."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-heritage-month",
@@ -6307,27 +6734,42 @@
       "title": "National Peace Consciousness Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2004,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2004/proc_675_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Peace Consciousness Month in the Philippines encourages understanding of nonviolence, reconciliation and the difficult process of addressing armed conflicts and their social causes.",
+        "Proclamation No. 675 of 20 January 2004 declared every September the national month and superseded Proclamation No. 161 of 2002, which had prescribed a Peace Consciousness Week from 28 February to 6 March.",
+        "The presidential text referred to several September peace milestones, including the 1996 agreement with the Moro National Liberation Front, and assigned coordination to the presidential peace-process office."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-rice-awareness-month",
@@ -6335,27 +6777,43 @@
       "title": "National Rice Awareness Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2004,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2004/proc_524_2004.html",
+        "https://issuances-library.senate.gov.ph/executive-issuance/proclamation-no-524-s-2004",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Rice Awareness Month in the Philippines focuses on the importance of rice for food, farming livelihoods and efforts to address poverty and malnutrition.",
+        "President Gloria Macapagal-Arroyo signed Proclamation No. 524 on 5 January 2004, aligning the national campaign with the UN's International Year of Rice in 2004 and designating November every year.",
+        "The decree also notes the November anniversary of the Philippine Rice Research Institute, founded under Executive Order No. 1061 in 1985; this research-institution milestone is not the same event as the new annual month."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-volunteers-month-philippines",
@@ -6363,27 +6821,50 @@
       "title": "National Volunteers Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1998,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "DEPED_MEMORANDUM_PROCLAMATION_1998_AS_1988",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1998/proc_55_1998.html",
+        "https://pnvsca.gov.ph/?page_id=92",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Volunteer Month celebrates Filipinos who give time, skills and resources to their neighbours, from local community projects to emergency and welfare initiatives. It draws on the bayanihan tradition of mutual aid.",
+        "President Joseph Estrada signed Proclamation No. 55 on 5 December 1998, declaring December of every year National Volunteer Month under the Philippine National Volunteer Service Coordinating Agency.",
+        "The recurring December proclamation is distinct from a separate May Volunteerism Month proclamation issued in 2009. These names are similar, but their periods and source texts must not be silently combined."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication. Reconciled documented source limitation: Proclamation No. 55 dated December 5 1998 explicitly establishes every December National Volunteer Month. Secondary DepEd 1988 reference is mistaken.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "DEPED_MEMORANDUM_PROCLAMATION_1998_AS_1988",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "primaryLaw": "https://lawphil.net/executive/proc/proc1998/proc_55_1998.html",
+        "finding": "Proclamation No. 55 dated December 5 1998 explicitly establishes every December National Volunteer Month. Secondary DepEd 1988 reference is mistaken.",
+        "interpretation": "original law prevails over derivative calendar metadata; no unstated paid holiday status"
+      }
     },
     {
       "observanceId": "ph-w13-nutrition-month-philippines",
@@ -6391,27 +6872,42 @@
       "title": "Nutrition Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_book_health_protection_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "93a1f08f2eff949e26d13619dcac67853b95b518",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1974,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/24673",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Nutrition Month in the Philippines supports public understanding of adequate diets, healthy eating and malnutrition prevention; it takes place throughout July rather than on one health-awareness day.",
+        "Presidential Decree No. 491 of 25 June 1974 created the National Nutrition Council; section 7 explicitly designated July Nutrition Month and tasked the council with approving and coordinating activities.",
+        "The decree states that the new month replaced the previously declared Nutrition Week in March, making the earlier week a documented predecessor, not an extra current month-long observance."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-panagyaman-rice-festival-month",
@@ -6447,27 +6943,43 @@
       "title": "Philippine Book Development Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_books_culture_ecology_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "63f113c848a2a364a7838f453f2be31ffac07fa5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1997,
       "establishedYear": 1999,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1999/proc_120_1999.html",
+        "https://lawphil.net/executive/proc/proc2007/proc_1436_2007.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine Book Development Month supports book publishing, readership and cultural and educational access to printed and digital books. It is not identical to the seven-day National Book Week.",
+        "Earlier year-specific June campaigns took place in 1997 and 1998. Proclamation No. 120 of 25 June 1999 then established June as an annual Book Development Month, linked to the 1995 Book Publishing Industry Development Act.",
+        "Proclamation No. 1436 of 17 December 2007 moved the month from June to November starting in 2008, to improve student participation and align it with National Book Week on 24–30 November."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-philippine-tropical-fabrics-month",
@@ -6475,27 +6987,42 @@
       "title": "Philippine Tropical Fabrics Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2012,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2012/proc_313_2012.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Philippine Tropical Fabrics Month highlights locally grown or produced natural fibres and the textile industry's connection to agriculture, skilled work and cultural knowledge.",
+        "The 2004 Tropical Fabrics Law (Republic Act No. 9242) provided a policy framework, while Proclamation No. 86 of 2010 called for a Philippine Tropical Fabrics Day on 24 January 2011.",
+        "Proclamation No. 313, dated 12 January 2012, established the whole of January every year as Tropical Fabrics Month and tasked the Textile Research Institute with further research and engagement. It expanded an earlier single day."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-rizal-month",
@@ -6546,27 +7073,42 @@
       "title": "Rule of Law Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_months_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "36bb94b47c63841ec45ff1311be799401979021c",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2004,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2004/proc_713_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Rule of Law Month in the Philippines encourages young people to learn how courts, rights and public institutions function and why lawful, fair processes matter.",
+        "Proclamation No. 713 of 22 September 2004 declared every September Rule of Law Month and connected its educational purpose to the judiciary's programme of reform.",
+        "The Department of Education was directed to coordinate school activities with the Supreme Court. The statutory month is an educational campaign, not an assertion that every September date is a national holiday."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-traditional-and-alternative-health-month-philippines",
@@ -6574,27 +7116,42 @@
       "title": "Traditional and Alternative Health Month (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_books_culture_ecology_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "63f113c848a2a364a7838f453f2be31ffac07fa5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2004,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2004/proc_698_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Traditional and Alternative Health Month encourages public awareness of approaches to care discussed under Philippine health policy and the need to evaluate their safety, evidence and availability.",
+        "Republic Act No. 8423, the Traditional and Alternative Medicine Act of 1997, established an institutional policy framework and the Philippine Institute of Traditional and Alternative Health Care.",
+        "Proclamation No. 698 of 19 August 2004 declared November Traditional and Alternative Health Month and assigned activities to that institute and the Department of Health; the 1997 law is a predecessor, not the month's own enactment."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-unesco-iti-world-theater-week-philippines",
@@ -6658,27 +7215,43 @@
       "title": "Unknown Citizens' Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "20d72f8ce5af30098441eef1e15e9c2f553f154a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1936,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/comacts/ca1936/ca_152_1936.html",
+        "https://lawphil.net/statutes/comacts/ca1936/ca1936.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Unknown Citizens' Day recognizes ordinary Filipinos who contribute to the country through daily work, civic responsibility, kindness and service without receiving public fame or prestigious titles.",
+        "Commonwealth Act No. 152, enacted without executive approval on 9 November 1936, declared the second Sunday of January every year Unknown Citizens' Day to honour the rank and file of patriotic Filipino citizens.",
+        "The law's text praises people who quietly support national progress by fulfilling their obligations. Its legally defined second Sunday is movable and should not be presented as the birthday or death anniversary of a famous individual."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
@@ -6686,27 +7259,51 @@
       "title": "W.A.T.C.H. Time Consciousness and Honesty Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "20d72f8ce5af30098441eef1e15e9c2f553f154a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2009,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "WATCH_JUNE_2009_PROCLAMATION_MONTH_WITHOUT_EXPLICIT_YEARLY_PERIOD",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+        "https://issuances-library.senate.gov.ph/executive-issuance/proclamation-no-1782-s-2009"
+      ],
+      "factsConfirmed": [
+        "W.A.T.C.H. means We Advocate Time Consciousness and Honesty. Its Philippine programme encourages students and communities to treat punctuality, reliable public service and honesty as practical social responsibilities.",
+        "Proclamation No. 1782, signed 21 May 2009, declared June W.A.T.C.H. Month and identified JCI Senate Philippines alongside education agencies and universities as partners in the campaign.",
+        "The text asks schools and local government units to run activities every second week of June. It refers to a June month and a specific activity week, but does not explicitly say 'every year' for the month; continuing annual legal status should therefore be reviewed separately."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication. Reconciled documented source limitation: Proclamation 1782 of 2009 established a June WATCH month, without explicit 'every year' legal text. NCCA official cultural-calendar listing indexes a recurring June observation; DepEd documented activities again in 2022/2025. Editorial historical recognition only, NOT certified annually mandated nationwide non-working holiday.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "WATCH_JUNE_2009_PROCLAMATION_MONTH_WITHOUT_EXPLICIT_YEARLY_PERIOD",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "primaryLaw": "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+        "finding": "Proclamation 1782 of 2009 established a June WATCH month, without explicit 'every year' legal text. NCCA official cultural-calendar listing indexes a recurring June observation; DepEd documented activities again in 2022/2025. Editorial historical recognition only, NOT certified annually mandated nationwide non-working holiday.",
+        "interpretation": "original law prevails over derivative calendar metadata; no unstated paid holiday status"
+      },
+      "legalRecurrenceCaveat": "Monthly June cultural-calendar recurrence observed; original 2009 proclamation does not explicitly bind all subsequent years. Runtime legal status cannot be inferred."
     },
     {
       "observanceId": "ph-w13-women-s-role-in-history-month",
@@ -6714,27 +7311,42 @@
       "title": "Women's Role in History Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_months_language_society_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "6bf91890f83bbc74f327f4d1cf11049e0c1f1922",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1988,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1988/proc_227_1988.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Women's Role in History Month highlights the contributions of Filipino women across social classes, faiths and communities, including work in education, politics, social reform and voluntary organizations.",
+        "Proclamation No. 227 of 17 March 1988 called for observance throughout March and explicitly cited House Resolution No. 20, which proposed the annual history focus.",
+        "The National Commission on the Role of Filipino Women was designated secretariat; the month-long historical recognition is not identical to the separate March 8 National Women's Day established by law in 1990."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-world-clean-and-green-week-philippines",
@@ -6742,27 +7354,42 @@
       "title": "World Clean and Green Week (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_environment_movable_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "20d72f8ce5af30098441eef1e15e9c2f553f154a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1993,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc1993/proc_244_1993.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "World Clean and Green Week in the Philippines encourages communities to reduce waste, recycle materials and restore waterways, helping people connect environmental protection with practical local action.",
+        "Proclamation No. 244, signed 3 September 1993, designated September of each year National Clean-Up Month and simultaneously fixed 17–23 September every year as World Clean and Green Week.",
+        "The decree connected the programme to the international Clean Up the World movement and Philippine activities begun in 1990; the specific week and month share the 1993 act but are not the same period or independent global origins."
+      ],
+      "notes": "2026-11-15 AI review of original Philippine legal/cultural-calendar sources and individually localized origin/purpose/promoter, facts and historical-versus-legal chronology in EN IT ES FR DE PT. Distinguishes working from non-working and monthly cultural indexing from permanent statutory holidays. Original draft source PR #120 head and file Git blob pinned, no human/editor signoff and no app runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     }
   ],
   "reviewBatchHistory": [
