@@ -44,6 +44,8 @@ assert d["reviewBatchHistory"][0]["count"] == 10
 assert len(d["reviewBatchHistory"][0]["ids"]) == 10
 assert len(d["reviewBatchHistory"]) == 2
 assert d["reviewBatchHistory"][1]["count"] == 7
+assert len(d["reviewBatchHistory"]) == 3
+assert d["reviewBatchHistory"][2]["count"] == 10
 assert len(d["reviewBatchHistory"][1]["ids"]) == 7
 expected = {
     "ca-ribbon-skirt-day": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", 2022, 2023),
@@ -67,6 +69,16 @@ expected = {
     "ca-great-upheaval-commemoration": ("CA", "3a19b6c828f4a4b4502b946d599eefa4700cb865", None, None),
     "ca-indigenous-veterans-day": ("CA", "318f42138b36bd8879ac949bbb43a934bdf51814", 1994, 1994),
     "ca-sir-john-a-macdonald-day": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", 2002, None),
+    "canada-national-flag-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 1996, 1996),
+    "canada-truth-and-reconciliation-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2021, 2021),
+    "canada-multiculturalism-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2002, None),
+    "ca-canada-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 1879, 1868),
+    "ca-vimy-ridge-battle-anniversary": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2003, 2003),
+    "ca-armenian-genocide-remembrance": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2015, None),
+    "ca-british-home-child-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2018, None),
+    "ca-armed-forces-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2002, 2002),
+    "ca-covid-19-national-observance": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", 2021, 2021),
+    "ca-holodomor-memorial-day": ("CA", "318f42138b36bd8879ac949bbb43a934bdf51814", 2008, None),
 }
 count = Counter()
 for rid, row in rows.items():
@@ -101,7 +113,7 @@ for rid, row in rows.items():
         assert row["checks"] is None
         assert row["sourceBlobSha"] is None
         assert set(row["locales"].values()) == {"NOT_CHECKED"}
-assert count == {"AI_CERTIFIED":21,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":144}
+assert count == {"AI_CERTIFIED":31,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":134}
 for name,num in count.items():
     assert d["summary"][name] == num
 philippines = rows["ph-independence-day"]
@@ -152,5 +164,5 @@ if "--verify-remote" in sys.argv:
     print("PASS: live GitHub PR head and source blob verification for",
           len(certified), "AI-certified stories across", len(heads), "source PRs")
 
-print("PASS: 173 AI-research editorial decisions: 21 AI_CERTIFIED, 8 source-HOLD, "
-      "144 awaiting AI review, 0 human signoffs, 0 runtime publications")
+print("PASS: 173 AI-research editorial decisions: 31 AI_CERTIFIED, 8 source-HOLD, "
+      "134 awaiting AI review, 0 human signoffs, 0 runtime publications")
