@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "KOREAN_MOIS_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-student-independence-movement-remembrance-day",
+      "country": "KR",
+      "observanceDate": "11-03",
+      "introducedYear": 1953,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_GWANGJU_STUDENT_INDEPENDENCE_1929_NOT_1980",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 November: Korea remembers the student independence movement of 1929",
+          "origin": "Student Independence Movement Remembrance Day honours the student protests that began in Gwangju on 3 November 1929 under Japanese colonial rule. The official Korean chronology records a later commemorative path: a ministry ordinance designated 3 November as Students' Day on 30 October 1953; changes to student commemorations followed in 1956, and the day was omitted from the general commemorative list in 1973. The state restored statutory status on 22 September 1984 and renamed the observance Student Independence Movement Remembrance Day on 6 September 2006. These protests are distinct from the separate Gwangju democratization movement of 1980.",
+          "promoter": "Students in colonial Gwangju initiated the 1929 movement; later education authorities and the government regulated the commemorative day.",
+          "purpose": "Honour resistance to colonial rule led by students, while distinguishing the 1929 movement from later democratic protests.",
+          "facts": [
+            "The student movement began in Gwangju on 3 November 1929.",
+            "Students' Day was designated by ordinance in October 1953.",
+            "The statutory day was restored in 1984 and renamed in 2006."
+          ]
+        },
+        "it": {
+          "heading": "3 novembre: il movimento indipendentista degli studenti del 1929",
+          "origin": "La giornata del movimento studentesco per l'indipendenza ricorda le proteste iniziate a Gwangju il 3 novembre 1929 durante il dominio coloniale giapponese. La cronologia ufficiale sudcoreana distingue i successivi passaggi commemorativi: il 30 ottobre 1953 un'ordinanza ministeriale proclamò il 3 novembre Giornata degli studenti; nuove modifiche arrivarono nel 1956 e nel 1973 la ricorrenza non venne inclusa nell'elenco generale. Il governo ripristinò il riconoscimento legale il 22 settembre 1984, poi il 6 settembre 2006 adottò il nome attuale. Non si tratta della diversa mobilitazione democratica di Gwangju del 1980.",
+          "promoter": "Gli studenti di Gwangju guidarono la mobilitazione del 1929; le autorità educative e lo Stato definirono in seguito la giornata.",
+          "purpose": "Ricordare la resistenza studentesca anticoloniale senza confonderla con le proteste democratiche successive.",
+          "facts": [
+            "Le proteste studentesche iniziarono a Gwangju il 3 novembre 1929.",
+            "La prima designazione come Giornata degli studenti è del 1953.",
+            "Il riconoscimento fu ripristinato nel 1984 e il nome cambiò nel 2006."
+          ]
+        },
+        "es": {
+          "heading": "3 de noviembre: movimiento estudiantil por la independencia de 1929",
+          "origin": "El Día del Movimiento Estudiantil por la Independencia recuerda las protestas que comenzaron en Gwangju el 3 de noviembre de 1929 bajo la dominación colonial japonesa. La cronología oficial coreana distingue varias etapas posteriores: una orden ministerial estableció el 3 de noviembre como Día de los Estudiantes el 30 de octubre de 1953; hubo cambios en 1956 y la jornada quedó fuera de la lista general en 1973. El Gobierno restauró su reconocimiento legal el 22 de septiembre de 1984 y adoptó el nombre actual el 6 de septiembre de 2006. El episodio de 1929 no debe confundirse con el movimiento democrático de Gwangju de 1980.",
+          "promoter": "Los estudiantes de Gwangju encabezaron las protestas de 1929 y las instituciones educativas regularon posteriormente el aniversario.",
+          "purpose": "Recordar la lucha estudiantil anticolonial diferenciándola de las movilizaciones democráticas de décadas posteriores.",
+          "facts": [
+            "Las protestas comenzaron en Gwangju el 3 de noviembre de 1929.",
+            "La primera designación oficial como Día de los Estudiantes data de 1953.",
+            "La jornada se restableció en 1984 y cambió de nombre en 2006."
+          ]
+        },
+        "fr": {
+          "heading": "3 novembre : le mouvement indépendantiste étudiant de 1929",
+          "origin": "Cette journée rappelle les manifestations étudiantes qui ont commencé à Gwangju le 3 novembre 1929, durant la domination coloniale japonaise. La chronologie officielle coréenne retrace plusieurs décisions ultérieures : un arrêté ministériel du 30 octobre 1953 a proclamé le 3 novembre Journée des étudiants; des changements ont suivi en 1956 et la date n'a pas été retenue dans le règlement général de 1973. Le gouvernement a rétabli la commémoration légale le 22 septembre 1984, puis adopté son nom actuel le 6 septembre 2006. Le mouvement anticolonial de 1929 est différent de la mobilisation démocratique de Gwangju de 1980.",
+          "promoter": "Les étudiants de Gwangju ont porté les protestations de 1929; l'État et les autorités éducatives ont ensuite défini l'anniversaire.",
+          "purpose": "Honorer l'engagement étudiant contre la domination coloniale sans confondre les événements de 1929 et de 1980.",
+          "facts": [
+            "Les manifestations ont débuté à Gwangju le 3 novembre 1929.",
+            "La première reconnaissance de la Journée des étudiants remonte à 1953.",
+            "La commémoration a été rétablie en 1984 et renommée en 2006."
+          ]
+        },
+        "de": {
+          "heading": "3. November: Koreas studentische Unabhängigkeitsbewegung von 1929",
+          "origin": "Der Gedenktag der studentischen Unabhängigkeitsbewegung erinnert an Proteste, die am 3. November 1929 in Gwangju unter japanischer Kolonialherrschaft begannen. Die offizielle koreanische Chronologie zeigt einen wechselvollen Gedenkstatus: Eine Ministerialverordnung vom 30. Oktober 1953 machte den 3. November zum Studententag. Nach Änderungen 1956 erschien er nicht in den allgemeinen Regelungen von 1973. Am 22. September 1984 wurde er wieder gesetzlich anerkannt und am 6. September 2006 umbenannt. Diese antikolonialen Proteste von 1929 sind nicht mit der Gwangju-Demokratiebewegung von 1980 gleichzusetzen.",
+          "promoter": "Studierende in Gwangju trugen die Bewegung von 1929; Bildungseinrichtungen und Regierung regelten später den Gedenktag.",
+          "purpose": "An studentischen Widerstand gegen Kolonialherrschaft erinnern und die verschiedenen historischen Bewegungen trennen.",
+          "facts": [
+            "Die Proteste begannen am 3. November 1929 in Gwangju.",
+            "Der Studententag wurde im Oktober 1953 festgelegt.",
+            "Die Wiederaufnahme erfolgte 1984 und die Umbenennung 2006."
+          ]
+        },
+        "pt": {
+          "heading": "3 de novembro: movimento estudantil pela independência de 1929",
+          "origin": "O Dia do Movimento Estudantil pela Independência recorda os protestos iniciados em Gwangju em 3 de novembro de 1929, durante o domínio colonial japonês. A cronologia oficial coreana regista várias etapas: um despacho ministerial de 30 de outubro de 1953 estabeleceu 3 de novembro como Dia dos Estudantes; ocorreram alterações em 1956 e a data ficou fora da lista geral em 1973. O governo restabeleceu a comemoração legal em 22 de setembro de 1984 e adotou o nome atual em 6 de setembro de 2006. As manifestações anticoloniais de 1929 não devem ser confundidas com o movimento democrático de Gwangju de 1980.",
+          "promoter": "Os estudantes de Gwangju organizaram os protestos de 1929; as autoridades de ensino e o Estado regularam depois a data.",
+          "purpose": "Recordar a resistência estudantil ao colonialismo e distinguir os acontecimentos de 1929 dos de 1980.",
+          "facts": [
+            "As manifestações começaram em Gwangju em 3 de novembro de 1929.",
+            "A primeira designação como Dia dos Estudantes foi feita em 1953.",
+            "A data foi restabelecida em 1984 e renomeada em 2006."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Korean MOIS national commemorative-day timeline checked with current ministry index. Law and renamed dates distinguished from historic events. Original six-locale AI drafts await qualified native historical human review."
+    },
+    {
+      "observanceId": "kr-w10-law-day-in-korea",
+      "country": "KR",
+      "observanceDate": "04-25",
+      "introducedYear": 1964,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_LAW_DAY_1895_COURTS_REFORM_1964_2003",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 April: Korea's Law Day and the history of its date",
+          "origin": "South Korea observes Law Day on 25 April to encourage respect for law and civic responsibility. The Ministry of the Interior documents its modern introduction on 20 April 1964, when a presidential regulation established Law Day on 1 May. The government incorporated related corrections-officer commemorations into Law Day in March 1973. On 4 February 2003, it changed the annual date to 25 April, linking it to the court organization legislation introduced on 25 April 1895 during the Gabo Reform period. The historical court reform and the creation of a modern statutory day in 1964 are distinct; the present date is the result of a later decision.",
+          "promoter": "The South Korean legislature supported the proposal and the government established Law Day by presidential regulation in 1964.",
+          "purpose": "Encourage respect for the legal order and an informed understanding of rights, responsibilities and judicial institutions.",
+          "facts": [
+            "Law Day was legally introduced on 20 April 1964 with a 1 May schedule.",
+            "The government switched it to 25 April on 4 February 2003.",
+            "The modern date recalls court organization legislation from 25 April 1895."
+          ]
+        },
+        "it": {
+          "heading": "25 aprile: la Giornata della legge coreana e il cambio di data",
+          "origin": "La Corea del Sud celebra il Law Day il 25 aprile per promuovere rispetto delle norme e responsabilità civica. Il Ministero dell'Interno documenta l'istituzione moderna del 20 aprile 1964, quando un regolamento presidenziale fissò la giornata al 1º maggio. Nel marzo 1973 furono accorpate altre commemorazioni riguardanti gli operatori penitenziari. Il 4 febbraio 2003 il governo modificò la data annuale in 25 aprile, collegandola alla legge sull'organizzazione dei tribunali introdotta il 25 aprile 1895 durante le riforme Gabo. La riforma giudiziaria storica, la giornata del 1964 e la data attuale del 2003 sono passaggi diversi.",
+          "promoter": "Il legislatore sudcoreano sostenne la proposta e il governo istituì la giornata mediante regolamento nel 1964.",
+          "purpose": "Promuovere conoscenza delle istituzioni giudiziarie, diritti, doveri e rispetto dell'ordinamento giuridico.",
+          "facts": [
+            "La giornata venne istituita nel 1964, inizialmente il 1º maggio.",
+            "Il governo la spostò al 25 aprile nel febbraio 2003.",
+            "La data ricorda una legge sull'organizzazione dei tribunali del 1895."
+          ]
+        },
+        "es": {
+          "heading": "25 de abril: el Día de la Ley surcoreano y el cambio de fecha",
+          "origin": "Corea del Sur celebra el Día de la Ley el 25 de abril para promover el respeto a las normas y la responsabilidad cívica. El Ministerio del Interior documenta su creación el 20 de abril de 1964 mediante un reglamento presidencial que fijó inicialmente el 1 de mayo. En marzo de 1973 se integraron otras conmemoraciones relacionadas con el personal penitenciario. El 4 de febrero de 2003, el Gobierno trasladó la celebración al 25 de abril para recordar una ley sobre la organización de los tribunales de 25 de abril de 1895, durante las reformas Gabo. La reforma histórica, el día oficial de 1964 y el calendario adoptado en 2003 son hechos distintos.",
+          "promoter": "El Parlamento apoyó la propuesta y el Gobierno surcoreano estableció el día oficial por reglamento presidencial en 1964.",
+          "purpose": "Fomentar el conocimiento de la justicia, los derechos y las responsabilidades y el respeto a las instituciones legales.",
+          "facts": [
+            "El Día de la Ley se estableció en abril de 1964 para el 1 de mayo.",
+            "La fecha pasó al 25 de abril en febrero de 2003.",
+            "La referencia histórica es una ley de tribunales de abril de 1895."
+          ]
+        },
+        "fr": {
+          "heading": "25 avril : la Journée du droit et son changement de date en Corée",
+          "origin": "La Corée du Sud célèbre la Journée du droit le 25 avril pour promouvoir le respect des règles et la responsabilité civique. Selon le ministère de l'Intérieur, la journée moderne a été créée le 20 avril 1964 par un règlement présidentiel qui retenait d'abord le 1er mai. En mars 1973, certaines commémorations liées au personnel pénitentiaire y ont été intégrées. Le 4 février 2003, le gouvernement a déplacé la date au 25 avril, en référence à la loi d'organisation des tribunaux du 25 avril 1895 durant les réformes Gabo. La réforme judiciaire de 1895, l'institution du jour en 1964 et son calendrier actuel sont trois étapes distinctes.",
+          "promoter": "Le Parlement a soutenu le projet et le gouvernement sud-coréen a institué la journée par règlement en 1964.",
+          "purpose": "Promouvoir la connaissance des institutions judiciaires, des droits, des devoirs et de l'État de droit.",
+          "facts": [
+            "La journée a été créée en 1964 et fixée initialement au 1er mai.",
+            "Le calendrier a changé pour le 25 avril en février 2003.",
+            "La date rappelle une loi judiciaire du 25 avril 1895."
+          ]
+        },
+        "de": {
+          "heading": "25. April: Südkoreas Tag des Rechts und seine neue Datumsregel",
+          "origin": "Südkorea begeht den Tag des Rechts am 25. April, um Rechtsbewusstsein und staatsbürgerliche Verantwortung zu stärken. Das Innenministerium dokumentiert die Einführung am 20. April 1964 durch eine Präsidialverordnung, die zunächst den 1. Mai festlegte. Im März 1973 wurden Gedenkanlässe für Justizvollzugsbedienstete in diesen Tag integriert. Am 4. Februar 2003 verschob die Regierung das Datum auf den 25. April. Es erinnert an ein Gesetz zur Gerichtsorganisation vom 25. April 1895 während der Gabo-Reformen. Das Justizereignis von 1895, die Einführung von 1964 und die Verlegung von 2003 sind unterschiedliche Meilensteine.",
+          "promoter": "Das südkoreanische Parlament unterstützte die Initiative; die Regierung führte den Tag 1964 per Verordnung ein.",
+          "purpose": "Verständnis für Gerichte, Bürgerrechte und Pflichten sowie Respekt vor rechtsstaatlichen Institutionen fördern.",
+          "facts": [
+            "Der Tag des Rechts wurde 1964 für den 1. Mai eingeführt.",
+            "2003 wurde er auf den 25. April verlegt.",
+            "Das Datum erinnert an ein Gerichtsorganisationsgesetz von 1895."
+          ]
+        },
+        "pt": {
+          "heading": "25 de abril: Dia da Lei na Coreia e a mudança da data",
+          "origin": "A Coreia do Sul celebra o Dia da Lei em 25 de abril para reforçar o respeito pelas normas e a responsabilidade cívica. O Ministério do Interior documenta a criação moderna em 20 de abril de 1964, quando um regulamento presidencial fixou inicialmente a comemoração para 1 de maio. Em março de 1973 foram integradas outras datas ligadas aos profissionais dos serviços prisionais. Em 4 de fevereiro de 2003, o governo transferiu a jornada para 25 de abril, em referência a uma lei de organização dos tribunais de 25 de abril de 1895, durante as reformas Gabo. A lei histórica de 1895 e as decisões de 1964 e 2003 são marcos diferentes.",
+          "promoter": "O parlamento apoiou a proposta e o governo sul-coreano criou a data oficial por regulamento em 1964.",
+          "purpose": "Promover a compreensão da justiça, dos direitos e deveres e o respeito pelas instituições jurídicas.",
+          "facts": [
+            "O Dia da Lei foi instituído em abril de 1964 para o 1 de maio.",
+            "A data mudou para 25 de abril em fevereiro de 2003.",
+            "A referência histórica é uma lei de organização dos tribunais de 1895."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Korean MOIS national commemorative-day timeline checked with current ministry index. Law and renamed dates distinguished from historic events. Original six-locale AI drafts await qualified native historical human review."
+    }
+  ]
+}
