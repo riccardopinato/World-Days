@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 151,
-    "AI_CERTIFIED": 14,
+    "AI_REVIEW_QUEUED": 144,
+    "AI_CERTIFIED": 21,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -212,26 +212,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2019,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.ourcommons.ca/documentviewer/en/42-1/house/sitting-402/journals?col=2",
+        "https://www.ourcommons.ca/documentviewer/en/ChamberMeetingPublication?meetingNumber=438B&page=9&parliamentNumber=42&publicationType=status-business&sessionNumber=1"
+      ],
+      "factsConfirmed": [
+        "Motion M-207 was adopted on 10 April 2019.",
+        "The vote recorded 285 in favour and none against.",
+        "The date coincides with Dutch Liberation Day on 5 May."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-emancipation-day",
@@ -283,26 +298,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2005/06/government-canada-supports-commemoration-250th-anniversary-great-upheaval.html",
+        "https://www.canada.ca/en/canadian-heritage/news/2020/07/statement-by-minister-guilbeault-on-the-day-of-commemoration-of-the-great-upheaval.html"
+      ],
+      "factsConfirmed": [
+        "The deportations began in 1755.",
+        "A federal 2005 source confirmed recognition by Royal Proclamation.",
+        "Activities for the 250th anniversary received public support in 2005."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-holodomor-memorial-day",
@@ -367,26 +397,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "318f42138b36bd8879ac949bbb43a934bdf51814",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1994,
       "establishedYear": 1994,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/veterans-affairs-canada/news/2020/11/government-of-canada-marks-indigenous-veterans-day.html",
+        "https://www.canada.ca/en/department-national-defence/maple-leaf/defence/2025/11/beyond-remembrance-the-meaning-of-indigenous-veterans-day.html"
+      ],
+      "factsConfirmed": [
+        "The first recognized commemoration was held in Winnipeg in 1994.",
+        "The annual date is 8 November.",
+        "Indigenous military service spans more than two centuries of Canada's history."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-lincoln-alexander-day",
@@ -395,26 +440,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2015,
       "establishedYear": 2014,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2015/01/statement-minister-glover-honouring-exemplary-life-lincoln-alexander.html",
+        "https://www.canada.ca/en/news/archive/2015/01/speaking-notes-chris-alexander-canada-citizenship-immigration-minister-lincoln-alexander-day-event.html"
+      ],
+      "factsConfirmed": [
+        "The bill was introduced in December 2013 and enacted in 2014.",
+        "The first nationwide observance took place on 21 January 2015.",
+        "Alexander was the first Black Canadian federal MP."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-national-child-day",
@@ -608,26 +668,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2010,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/05/ministers-anandasangaree-hajdu-and-guilbeault-issue-statement-on-red-dress-day-2025.html",
+        "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2022/05/ministers-hajdu-miller-and-vandal-issue-a-statement-on-red-dress-day.html"
+      ],
+      "factsConfirmed": [
+        "The REDress Project dates to 2010.",
+        "The annual Canadian commemoration is listed for 5 May.",
+        "Empty red dresses symbolize the absence of people from their communities."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-remembrance-day",
@@ -723,26 +798,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://our-languages.canada.ca/en/writing-tips-plus/saint-jean-baptiste-day",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "The observance takes place on 24 June.",
+        "It is a statutory holiday in Quebec only.",
+        "The provincial legal name is Fête nationale du Québec."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-sir-john-a-macdonald-day",
@@ -751,26 +841,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "de": "AI_CHECKED",
+        "en": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days/sir-john-macdonald-day.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html"
+      ],
+      "factsConfirmed": [
+        "The commemorative act came into force in March 2002.",
+        "Macdonald was Canada's first prime minister.",
+        "The chosen date is 11 January, separate from Confederation on 1 July."
+      ],
+      "notes": "Individually source-checked 2026-11-14 against government, Parliament, original documents, source ID and six language narratives (origin, historical dates, promoter, purpose and three contextual facts). The national/Quebec provincial legal scope is preserved; no guessed founding or ceremony when source lacks evidence. Pinned to source PR119 head/file blob; AI research approval, not runtime publication.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-statute-of-westminster-anniversary",
@@ -5101,6 +5206,22 @@
         "canada-national-indigenous-peoples-day",
         "canada-national-acadian-day",
         "ca-persons-day"
+      ]
+    },
+    {
+      "asOf": "2026-11-14",
+      "batch": "canada-source-crosscheck-07",
+      "count": 7,
+      "sourcePR": 119,
+      "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+      "ids": [
+        "ca-lincoln-alexander-day",
+        "ca-red-dress-day",
+        "ca-dutch-heritage-day",
+        "ca-saint-jean-baptiste-day",
+        "ca-great-upheaval-commemoration",
+        "ca-indigenous-veterans-day",
+        "ca-sir-john-a-macdonald-day"
       ]
     }
   ]
