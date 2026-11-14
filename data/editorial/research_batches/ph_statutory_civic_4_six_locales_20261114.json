@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_LAW_DAILY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 4,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w10-philippine-national-women-s-day",
+      "country": "PH",
+      "observanceDate": "03-08",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1990,
+      "firstObservedYear": null,
+      "originClusterId": "PH_WOMENS_HISTORY_MONTH_1988_SEPARATE_WOMENS_DAY_1990",
+      "legalStatus": "SPECIAL_WORKING_HOLIDAY_NOT_NONWORKING",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1990/ra_6949_1990.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/2456",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 March: Philippine National Women's Day is a working special holiday",
+          "origin": "Philippine National Women's Day highlights women's contributions to public life and work and creates opportunities for institutions to celebrate and discuss gender equality. Republic Act No. 6949, approved in April 1990, established 8 March each year as a special working holiday; the statutory text does not grant a general day off. The law encourages employers and public bodies to allow participation in workplace celebrations; it is distinct from the March Women’s Role in History Month proclaimed in 1988.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 are the relevant public or institutional bodies for this legally documented Philippine day and its civic programmes.",
+          "purpose": "Recognize the role of women and encourage meaningful participation in gender-equality initiatives.",
+          "facts": [
+            "Philippine National Women's Day highlights women's contributions to public life and work and creates opportunities for institutions to celebrate and discuss gender equality.",
+            "Republic Act No. 6949, approved in April 1990, established 8 March each year as a special working holiday; the statutory text does not grant a general day off.",
+            "The law encourages employers and public bodies to allow participation in workplace celebrations; it is distinct from the March Women’s Role in History Month proclaimed in 1988."
+          ]
+        },
+        "it": {
+          "heading": "8 marzo: la Giornata nazionale della donna è una festività lavorativa",
+          "origin": "La Giornata nazionale della donna filippina valorizza il contributo delle donne alla vita pubblica e al lavoro, promuovendo occasioni di incontro e confronto sulla parità. La Legge della Repubblica n. 6949, approvata nell'aprile 1990, ha stabilito l'8 marzo come festività speciale lavorativa, senza prevedere un giorno di riposo generale. La legge invita datori di lavoro ed enti pubblici a favorire le iniziative; la giornata non coincide con il Mese del ruolo delle donne nella storia proclamato nel 1988.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 sono gli organismi pubblici o istituzionali coinvolti nella ricorrenza e nelle attività civiche documentate.",
+          "purpose": "Valorizzare il ruolo delle donne e favorire la partecipazione a iniziative per la parità.",
+          "facts": [
+            "La Giornata nazionale della donna filippina valorizza il contributo delle donne alla vita pubblica e al lavoro, promuovendo occasioni di incontro e confronto sulla parità.",
+            "La Legge della Repubblica n. 6949, approvata nell'aprile 1990, ha stabilito l'8 marzo come festività speciale lavorativa, senza prevedere un giorno di riposo generale.",
+            "La legge invita datori di lavoro ed enti pubblici a favorire le iniziative; la giornata non coincide con il Mese del ruolo delle donne nella storia proclamato nel 1988."
+          ]
+        },
+        "es": {
+          "heading": "8 de marzo: el Día Nacional de la Mujer es una fiesta laboral",
+          "origin": "El Día Nacional de la Mujer en Filipinas valora las aportaciones de las mujeres a la vida pública y al trabajo y fomenta debates sobre igualdad. La Ley de la República n.º 6949, aprobada en abril de 1990, declaró el 8 de marzo día especial laborable y no estableció descanso general. La norma pide a empleadores e instituciones favorecer las actividades; esta jornada es distinta del Mes del Papel de las Mujeres en la Historia de 1988.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 son los organismos públicos o institucionales correspondientes a esta jornada y sus actividades.",
+          "purpose": "Reconocer el papel de las mujeres y fomentar la participación en iniciativas de igualdad.",
+          "facts": [
+            "El Día Nacional de la Mujer en Filipinas valora las aportaciones de las mujeres a la vida pública y al trabajo y fomenta debates sobre igualdad.",
+            "La Ley de la República n.º 6949, aprobada en abril de 1990, declaró el 8 de marzo día especial laborable y no estableció descanso general.",
+            "La norma pide a empleadores e instituciones favorecer las actividades; esta jornada es distinta del Mes del Papel de las Mujeres en la Historia de 1988."
+          ]
+        },
+        "fr": {
+          "heading": "8 mars : la Journée nationale des femmes est un jour spécial travaillé",
+          "origin": "La Journée nationale des femmes aux Philippines reconnaît leurs contributions à la vie publique et professionnelle et encourage le débat sur l'égalité. La loi de la République nº 6949, adoptée en avril 1990, a fait du 8 mars une journée spéciale travaillée et non un congé national. La loi invite employeurs et organismes publics à faciliter les activités; cette journée diffère du Mois du rôle des femmes dans l'histoire institué en 1988.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 sont les organismes publics ou institutionnels concernés par cette journée et ses programmes.",
+          "purpose": "Reconnaître le rôle des femmes et favoriser les initiatives pour l'égalité.",
+          "facts": [
+            "La Journée nationale des femmes aux Philippines reconnaît leurs contributions à la vie publique et professionnelle et encourage le débat sur l'égalité.",
+            "La loi de la République nº 6949, adoptée en avril 1990, a fait du 8 mars une journée spéciale travaillée et non un congé national.",
+            "La loi invite employeurs et organismes publics à faciliter les activités; cette journée diffère du Mois du rôle des femmes dans l'histoire institué en 1988."
+          ]
+        },
+        "de": {
+          "heading": "8. März: Der nationale Frauentag ist ein besonderer Arbeitstag",
+          "origin": "Der nationale Frauentag der Philippinen würdigt Beiträge von Frauen zu Arbeit und öffentlichem Leben und fördert Gespräche über Gleichberechtigung. Republikgesetz Nr. 6949 vom April 1990 bestimmte den 8. März als besonderen Arbeitstag und gewährte keinen allgemeinen arbeitsfreien Feiertag. Das Gesetz fordert Arbeitgeber und Behörden zur Beteiligung auf; der Tag unterscheidet sich vom 1988 eingeführten Monat zur Geschichte der Frauen.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 sind die beteiligten staatlichen oder institutionellen Stellen dieses dokumentierten Anlasses.",
+          "purpose": "Die Rolle der Frauen würdigen und die Teilnahme an Gleichstellungsinitiativen ermöglichen.",
+          "facts": [
+            "Der nationale Frauentag der Philippinen würdigt Beiträge von Frauen zu Arbeit und öffentlichem Leben und fördert Gespräche über Gleichberechtigung.",
+            "Republikgesetz Nr. 6949 vom April 1990 bestimmte den 8. März als besonderen Arbeitstag und gewährte keinen allgemeinen arbeitsfreien Feiertag.",
+            "Das Gesetz fordert Arbeitgeber und Behörden zur Beteiligung auf; der Tag unterscheidet sich vom 1988 eingeführten Monat zur Geschichte der Frauen."
+          ]
+        },
+        "pt": {
+          "heading": "8 de março: o Dia Nacional da Mulher é uma data especial de trabalho",
+          "origin": "O Dia Nacional da Mulher nas Filipinas valoriza a participação feminina na vida pública e no trabalho e promove igualdade. A Lei da República n.º 6949, aprovada em abril de 1990, instituiu 8 de março como dia especial de trabalho, não como folga geral. A lei incentiva empregadores e entidades públicas a permitir atividades; a jornada é distinta do Mês do Papel das Mulheres na História de 1988.",
+          "promoter": "Public and private employers and government agencies under Republic Act No. 6949 são os organismos públicos ou institucionais responsáveis ou envolvidos nas atividades da data.",
+          "purpose": "Reconhecer o papel das mulheres e promover a participação em ações de igualdade.",
+          "facts": [
+            "O Dia Nacional da Mulher nas Filipinas valoriza a participação feminina na vida pública e no trabalho e promove igualdade.",
+            "A Lei da República n.º 6949, aprovada em abril de 1990, instituiu 8 de março como dia especial de trabalho, não como folga geral.",
+            "A lei incentiva empregadores e entidades públicas a permitir atividades; a jornada é distinta do Mês do Papel das Mulheres na História de 1988."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government primary Republic Act/Presidential Proclamation plus public institution or NCCA calendar; distinct legal status and date. Six-locale AI historical draft; no qualified historical or native-language human editorial approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-indigenous-peoples-thanksgiving-day",
+      "country": "PH",
+      "observanceDate": "10-29",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "originClusterId": "PH_IP_RIGHTS_1997_2003_2009",
+      "legalStatus": "OFFICIAL_COMMEMORATIVE_DAY_NOT_AUTOMATIC_NONWORKING",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2003/proc_486_2003.html",
+        "https://lawphil.net/executive/proc/proc2009/proc_1906_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 October: a separate Indigenous Peoples Thanksgiving Day",
+          "origin": "National Indigenous Peoples Thanksgiving Day calls public attention to the rights and historical contributions of indigenous cultural communities throughout the Philippines. Proclamation No. 486, signed on 13 October 2003, established 29 October annually, reflecting the date when Republic Act No. 8371, the Indigenous Peoples Rights Act, was approved in 1997. The single-day observance preceded National Indigenous Peoples Month, introduced in October 2009; they share a rights context but have separate acts, scopes and origins.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples are the relevant public or institutional bodies for this legally documented Philippine day and its civic programmes.",
+          "purpose": "Respect the rights of indigenous peoples and acknowledge the significance of the 1997 rights law.",
+          "facts": [
+            "National Indigenous Peoples Thanksgiving Day calls public attention to the rights and historical contributions of indigenous cultural communities throughout the Philippines.",
+            "Proclamation No. 486, signed on 13 October 2003, established 29 October annually, reflecting the date when Republic Act No. 8371, the Indigenous Peoples Rights Act, was approved in 1997.",
+            "The single-day observance preceded National Indigenous Peoples Month, introduced in October 2009; they share a rights context but have separate acts, scopes and origins."
+          ]
+        },
+        "it": {
+          "heading": "29 ottobre: una distinta giornata di ringraziamento ai popoli indigeni",
+          "origin": "La Giornata nazionale di ringraziamento ai popoli indigeni richiama l'attenzione sui diritti e sul contributo storico delle comunità culturali indigene filippine. La Proclamazione n. 486, firmata il 13 ottobre 2003, ha istituito il 29 ottobre per ricordare l'approvazione nel 1997 della Legge n. 8371 sui diritti dei popoli indigeni. La giornata del 2003 precede il Mese nazionale dei popoli indigeni introdotto nel 2009: condividono il tema dei diritti, ma hanno atti e durate differenti.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples sono gli organismi pubblici o istituzionali coinvolti nella ricorrenza e nelle attività civiche documentate.",
+          "purpose": "Rispettare i diritti delle comunità indigene e ricordare la legge nazionale del 1997.",
+          "facts": [
+            "La Giornata nazionale di ringraziamento ai popoli indigeni richiama l'attenzione sui diritti e sul contributo storico delle comunità culturali indigene filippine.",
+            "La Proclamazione n. 486, firmata il 13 ottobre 2003, ha istituito il 29 ottobre per ricordare l'approvazione nel 1997 della Legge n. 8371 sui diritti dei popoli indigeni.",
+            "La giornata del 2003 precede il Mese nazionale dei popoli indigeni introdotto nel 2009: condividono il tema dei diritti, ma hanno atti e durate differenti."
+          ]
+        },
+        "es": {
+          "heading": "29 de octubre: jornada de agradecimiento a los pueblos indígenas",
+          "origin": "El Día Nacional de Reconocimiento de los Pueblos Indígenas destaca los derechos y las aportaciones históricas de las comunidades culturales indígenas. La Proclamación n.º 486, firmada el 13 de octubre de 2003, estableció el 29 de octubre en recuerdo de la Ley n.º 8371 de derechos indígenas, aprobada en 1997. La jornada de 2003 precedió al Mes Nacional de los Pueblos Indígenas de 2009: comparten la defensa de derechos, pero son reconocimientos diferentes.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples son los organismos públicos o institucionales correspondientes a esta jornada y sus actividades.",
+          "purpose": "Respetar los derechos indígenas y recordar la ley nacional de 1997.",
+          "facts": [
+            "El Día Nacional de Reconocimiento de los Pueblos Indígenas destaca los derechos y las aportaciones históricas de las comunidades culturales indígenas.",
+            "La Proclamación n.º 486, firmada el 13 de octubre de 2003, estableció el 29 de octubre en recuerdo de la Ley n.º 8371 de derechos indígenas, aprobada en 1997.",
+            "La jornada de 2003 precedió al Mes Nacional de los Pueblos Indígenas de 2009: comparten la defensa de derechos, pero son reconocimientos diferentes."
+          ]
+        },
+        "fr": {
+          "heading": "29 octobre : hommage distinct aux peuples autochtones",
+          "origin": "La journée nationale de reconnaissance des peuples autochtones attire l'attention sur leurs droits et leurs contributions à la société philippine. La proclamation nº 486, signée le 13 octobre 2003, a retenu le 29 octobre en référence à la loi nº 8371 de 1997 sur les droits des peuples autochtones. La journée de 2003 précède le Mois national des peuples autochtones de 2009; ils partagent un sujet mais disposent d'actes distincts.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples sont les organismes publics ou institutionnels concernés par cette journée et ses programmes.",
+          "purpose": "Respecter les droits autochtones et rappeler l'importance de la loi nationale de 1997.",
+          "facts": [
+            "La journée nationale de reconnaissance des peuples autochtones attire l'attention sur leurs droits et leurs contributions à la société philippine.",
+            "La proclamation nº 486, signée le 13 octobre 2003, a retenu le 29 octobre en référence à la loi nº 8371 de 1997 sur les droits des peuples autochtones.",
+            "La journée de 2003 précède le Mois national des peuples autochtones de 2009; ils partagent un sujet mais disposent d'actes distincts."
+          ]
+        },
+        "de": {
+          "heading": "29. Oktober: Ein eigener Dankestag der indigenen Völker",
+          "origin": "Der Dankestag für indigene Völker macht auf Rechte und historische Beiträge indigener kultureller Gemeinschaften der Philippinen aufmerksam. Proklamation Nr. 486 vom 13. Oktober 2003 bestimmte den 29. Oktober, der an das 1997 verabschiedete Indigenenrechtegesetz Nr. 8371 erinnert. Der einzelne Gedenktag von 2003 liegt vor dem 2009 eingeführten Indigenenmonat; beide haben unterschiedliche Verordnungen und Zeiträume.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples sind die beteiligten staatlichen oder institutionellen Stellen dieses dokumentierten Anlasses.",
+          "purpose": "Indigene Rechte achten und die Bedeutung des Gesetzes von 1997 hervorheben.",
+          "facts": [
+            "Der Dankestag für indigene Völker macht auf Rechte und historische Beiträge indigener kultureller Gemeinschaften der Philippinen aufmerksam.",
+            "Proklamation Nr. 486 vom 13. Oktober 2003 bestimmte den 29. Oktober, der an das 1997 verabschiedete Indigenenrechtegesetz Nr. 8371 erinnert.",
+            "Der einzelne Gedenktag von 2003 liegt vor dem 2009 eingeführten Indigenenmonat; beide haben unterschiedliche Verordnungen und Zeiträume."
+          ]
+        },
+        "pt": {
+          "heading": "29 de outubro: dia próprio de reconhecimento dos povos indígenas",
+          "origin": "O Dia Nacional de Reconhecimento dos Povos Indígenas destaca direitos e contribuições históricas das comunidades indígenas filipinas. A Proclamação n.º 486, assinada em 13 de outubro de 2003, escolheu 29 de outubro pela Lei n.º 8371 dos direitos indígenas de 1997. O dia de 2003 antecede o Mês Nacional dos Povos Indígenas de 2009; têm temas comuns, mas atos e durações diferentes.",
+          "promoter": "Presidential institutions and National Commission on Indigenous Peoples são os organismos públicos ou institucionais responsáveis ou envolvidos nas atividades da data.",
+          "purpose": "Respeitar os direitos indígenas e recordar a importância da lei nacional de 1997.",
+          "facts": [
+            "O Dia Nacional de Reconhecimento dos Povos Indígenas destaca direitos e contribuições históricas das comunidades indígenas filipinas.",
+            "A Proclamação n.º 486, assinada em 13 de outubro de 2003, escolheu 29 de outubro pela Lei n.º 8371 dos direitos indígenas de 1997.",
+            "O dia de 2003 antecede o Mês Nacional dos Povos Indígenas de 2009; têm temas comuns, mas atos e durações diferentes."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government primary Republic Act/Presidential Proclamation plus public institution or NCCA calendar; distinct legal status and date. Six-locale AI historical draft; no qualified historical or native-language human editorial approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-earth-day",
+      "country": "PH",
+      "observanceDate": "04-22",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2008,
+      "firstObservedYear": 1990,
+      "originClusterId": "PH_EARTH_DAY_1990_2007_2008_DISTINCT_FROM_GLOBAL_APR22",
+      "legalStatus": "ENVIRONMENTAL_OBSERVANCE_NOT_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2008/proc_1481_2008.html",
+        "https://lawphil.net/executive/proc/proc2008/proc_1482_2008.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "22 April: the Philippines' Earth Day acquired an annual decree in 2008",
+          "origin": "The Philippines' Earth Day on 22 April is part of the wider international environmental-awareness movement and promotes activities addressing ecological damage and community protection. The country's presidential precedents include Proclamation No. 553 for Earth Day 1990 and Proclamation No. 1276 for Earth Day 2007; each designated a particular year's observance. Proclamation No. 1481 of 10 April 2008 established 22 April of every year as the Philippine observance and designated the environment department to coordinate activities; this annual decree is not the origin of global Earth Day.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners are the relevant public or institutional bodies for this legally documented Philippine day and its civic programmes.",
+          "purpose": "Engage citizens, schools and public institutions in environmental protection and practical ecological activities.",
+          "facts": [
+            "The Philippines' Earth Day on 22 April is part of the wider international environmental-awareness movement and promotes activities addressing ecological damage and community protection.",
+            "The country's presidential precedents include Proclamation No. 553 for Earth Day 1990 and Proclamation No. 1276 for Earth Day 2007; each designated a particular year's observance.",
+            "Proclamation No. 1481 of 10 April 2008 established 22 April of every year as the Philippine observance and designated the environment department to coordinate activities; this annual decree is not the origin of global Earth Day."
+          ]
+        },
+        "it": {
+          "heading": "22 aprile: l'Earth Day filippino è annuale per decreto dal 2008",
+          "origin": "L'Earth Day filippino del 22 aprile si inserisce nella mobilitazione ambientale internazionale e promuove iniziative contro il degrado ecologico e per la tutela delle comunità. Tra gli antecedenti nazionali ci sono la Proclamazione n. 553 per il 1990 e la n. 1276 per il 2007, riferite ciascuna alla celebrazione di un anno specifico. La Proclamazione n. 1481 del 10 aprile 2008 ha fissato l'osservanza nazionale ogni 22 aprile e il coordinamento ambientale: non ha creato l'Earth Day mondiale.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners sono gli organismi pubblici o istituzionali coinvolti nella ricorrenza e nelle attività civiche documentate.",
+          "purpose": "Coinvolgere cittadini, scuole e istituzioni in attività concrete di tutela ambientale.",
+          "facts": [
+            "L'Earth Day filippino del 22 aprile si inserisce nella mobilitazione ambientale internazionale e promuove iniziative contro il degrado ecologico e per la tutela delle comunità.",
+            "Tra gli antecedenti nazionali ci sono la Proclamazione n. 553 per il 1990 e la n. 1276 per il 2007, riferite ciascuna alla celebrazione di un anno specifico.",
+            "La Proclamazione n. 1481 del 10 aprile 2008 ha fissato l'osservanza nazionale ogni 22 aprile e il coordinamento ambientale: non ha creato l'Earth Day mondiale."
+          ]
+        },
+        "es": {
+          "heading": "22 de abril: el Día de la Tierra filipino es anual por decreto desde 2008",
+          "origin": "El Día de la Tierra filipino del 22 de abril forma parte del movimiento ambiental internacional y fomenta actividades contra la degradación ecológica. Entre los antecedentes están la Proclamación n.º 553 para 1990 y la n.º 1276 para 2007, destinadas a celebraciones de años concretos. La Proclamación n.º 1481 del 10 de abril de 2008 estableció cada 22 de abril para Filipinas y su coordinación ambiental; no creó el Día de la Tierra mundial.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners son los organismos públicos o institucionales correspondientes a esta jornada y sus actividades.",
+          "purpose": "Movilizar a ciudadanos, escuelas e instituciones en acciones prácticas de protección ambiental.",
+          "facts": [
+            "El Día de la Tierra filipino del 22 de abril forma parte del movimiento ambiental internacional y fomenta actividades contra la degradación ecológica.",
+            "Entre los antecedentes están la Proclamación n.º 553 para 1990 y la n.º 1276 para 2007, destinadas a celebraciones de años concretos.",
+            "La Proclamación n.º 1481 del 10 de abril de 2008 estableció cada 22 de abril para Filipinas y su coordinación ambiental; no creó el Día de la Tierra mundial."
+          ]
+        },
+        "fr": {
+          "heading": "22 avril : la Journée de la Terre annuelle aux Philippines date de 2008",
+          "origin": "La Journée de la Terre du 22 avril aux Philippines appartient au mouvement international de sensibilisation écologique et encourage la protection des milieux de vie. Parmi les précédents figurent la proclamation nº 553 pour 1990 et la nº 1276 pour 2007, chacune visant une année précise. La proclamation nº 1481 du 10 avril 2008 a institué chaque 22 avril aux Philippines et confié la coordination au ministère de l'Environnement; elle n'a pas créé la journée mondiale.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners sont les organismes publics ou institutionnels concernés par cette journée et ses programmes.",
+          "purpose": "Mobiliser citoyens, écoles et institutions autour d'actions concrètes pour l'environnement.",
+          "facts": [
+            "La Journée de la Terre du 22 avril aux Philippines appartient au mouvement international de sensibilisation écologique et encourage la protection des milieux de vie.",
+            "Parmi les précédents figurent la proclamation nº 553 pour 1990 et la nº 1276 pour 2007, chacune visant une année précise.",
+            "La proclamation nº 1481 du 10 avril 2008 a institué chaque 22 avril aux Philippines et confié la coordination au ministère de l'Environnement; elle n'a pas créé la journée mondiale."
+          ]
+        },
+        "de": {
+          "heading": "22. April: Der jährliche Earth Day der Philippinen wurde 2008 festgelegt",
+          "origin": "Der philippinische Earth Day am 22. April gehört zur internationalen Umweltbewegung und unterstützt den Schutz von Natur und Lebensräumen. Zu den nationalen Vorläufern zählen Proklamation Nr. 553 für 1990 und Nr. 1276 für 2007, die jeweils ein bestimmtes Jahr betrafen. Proklamation Nr. 1481 vom 10. April 2008 legte jeden 22. April als philippinischen Tag fest und übertrug die Koordination dem Umweltministerium; sie begründete nicht den globalen Earth Day.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners sind die beteiligten staatlichen oder institutionellen Stellen dieses dokumentierten Anlasses.",
+          "purpose": "Bürger, Schulen und Behörden zu praktischem Umwelt- und Naturschutz motivieren.",
+          "facts": [
+            "Der philippinische Earth Day am 22. April gehört zur internationalen Umweltbewegung und unterstützt den Schutz von Natur und Lebensräumen.",
+            "Zu den nationalen Vorläufern zählen Proklamation Nr. 553 für 1990 und Nr. 1276 für 2007, die jeweils ein bestimmtes Jahr betrafen.",
+            "Proklamation Nr. 1481 vom 10. April 2008 legte jeden 22. April als philippinischen Tag fest und übertrug die Koordination dem Umweltministerium; sie begründete nicht den globalen Earth Day."
+          ]
+        },
+        "pt": {
+          "heading": "22 de abril: o Dia da Terra filipino tornou-se anual em 2008",
+          "origin": "O Dia da Terra filipino de 22 de abril integra o movimento ambiental internacional e incentiva ações de proteção ecológica. Entre os antecedentes estão a Proclamação n.º 553 de 1990 e a n.º 1276 de 2007, referentes a anos concretos. A Proclamação n.º 1481 de 10 de abril de 2008 estabeleceu o 22 de abril anual e a coordenação ambiental no país; não criou a jornada global.",
+          "promoter": "Department of Environment and Natural Resources with public agencies and community partners são os organismos públicos ou institucionais responsáveis ou envolvidos nas atividades da data.",
+          "purpose": "Mobilizar cidadãos, escolas e instituições para ações práticas de proteção ambiental.",
+          "facts": [
+            "O Dia da Terra filipino de 22 de abril integra o movimento ambiental internacional e incentiva ações de proteção ecológica.",
+            "Entre os antecedentes estão a Proclamação n.º 553 de 1990 e a n.º 1276 de 2007, referentes a anos concretos.",
+            "A Proclamação n.º 1481 de 10 de abril de 2008 estabeleceu o 22 de abril anual e a coordenação ambiental no país; não criou a jornada global."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government primary Republic Act/Presidential Proclamation plus public institution or NCCA calendar; distinct legal status and date. Six-locale AI historical draft; no qualified historical or native-language human editorial approval."
+    },
+    {
+      "observanceId": "ph-w10-ncca-establishment-anniversary",
+      "country": "PH",
+      "observanceDate": "04-03",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1992,
+      "firstObservedYear": null,
+      "originClusterId": "PH_NCCA_INSTITUTION_1992_SEPARATE_FROM_CULTURAL_MONTHS",
+      "legalStatus": "INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1992/ra_7356_1992.html",
+        "https://ncca.gov.ph/about-ncca-3/",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 April: founding of the National Commission for Culture and the Arts",
+          "origin": "The NCCA establishment anniversary marks the creation of the Philippines' principal public commission for supporting cultural and artistic development across the country's diverse communities. Republic Act No. 7356 was approved on 3 April 1992 and created the National Commission for Culture and the Arts together with a national endowment fund for cultural and artistic work. The statute recognizes culture as a human right and emphasizes pluralism and broad participation; its institutional anniversary is not the same origin as Museums and Galleries Month, created in 1991.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector are the relevant public or institutional bodies for this legally documented Philippine day and its civic programmes.",
+          "purpose": "Explain the foundation of the NCCA and the role of public support for diverse arts and cultural heritage.",
+          "facts": [
+            "The NCCA establishment anniversary marks the creation of the Philippines' principal public commission for supporting cultural and artistic development across the country's diverse communities.",
+            "Republic Act No. 7356 was approved on 3 April 1992 and created the National Commission for Culture and the Arts together with a national endowment fund for cultural and artistic work.",
+            "The statute recognizes culture as a human right and emphasizes pluralism and broad participation; its institutional anniversary is not the same origin as Museums and Galleries Month, created in 1991."
+          ]
+        },
+        "it": {
+          "heading": "3 aprile: la nascita della Commissione nazionale per la cultura e le arti",
+          "origin": "L'anniversario della NCCA ricorda la nascita della principale commissione pubblica filippina per lo sviluppo culturale e artistico delle diverse comunità. La Legge della Repubblica n. 7356, approvata il 3 aprile 1992, istituì la Commissione nazionale per la cultura e le arti e un fondo nazionale per attività culturali. La legge riconosce la cultura come diritto umano e valorizza pluralismo e partecipazione; l'anniversario istituzionale non coincide con il Mese dei musei istituito nel 1991.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector sono gli organismi pubblici o istituzionali coinvolti nella ricorrenza e nelle attività civiche documentate.",
+          "purpose": "Conoscere la nascita della NCCA e il sostegno pubblico alle arti e al patrimonio culturale.",
+          "facts": [
+            "L'anniversario della NCCA ricorda la nascita della principale commissione pubblica filippina per lo sviluppo culturale e artistico delle diverse comunità.",
+            "La Legge della Repubblica n. 7356, approvata il 3 aprile 1992, istituì la Commissione nazionale per la cultura e le arti e un fondo nazionale per attività culturali.",
+            "La legge riconosce la cultura come diritto umano e valorizza pluralismo e partecipazione; l'anniversario istituzionale non coincide con il Mese dei musei istituito nel 1991."
+          ]
+        },
+        "es": {
+          "heading": "3 de abril: creación de la Comisión Nacional de Cultura y Artes",
+          "origin": "El aniversario de la NCCA recuerda la creación de la comisión pública dedicada a apoyar el desarrollo cultural y artístico de las comunidades filipinas. La Ley de la República n.º 7356, aprobada el 3 de abril de 1992, creó la Comisión Nacional de Cultura y Artes y un fondo de apoyo a la cultura. La ley reconoce la cultura como derecho humano y defiende pluralismo y participación; el aniversario es distinto del Mes de Museos y Galerías de 1991.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector son los organismos públicos o institucionales correspondientes a esta jornada y sus actividades.",
+          "purpose": "Explicar la creación de la NCCA y el apoyo público a las artes y al patrimonio cultural.",
+          "facts": [
+            "El aniversario de la NCCA recuerda la creación de la comisión pública dedicada a apoyar el desarrollo cultural y artístico de las comunidades filipinas.",
+            "La Ley de la República n.º 7356, aprobada el 3 de abril de 1992, creó la Comisión Nacional de Cultura y Artes y un fondo de apoyo a la cultura.",
+            "La ley reconoce la cultura como derecho humano y defiende pluralismo y participación; el aniversario es distinto del Mes de Museos y Galerías de 1991."
+          ]
+        },
+        "fr": {
+          "heading": "3 avril : création de la Commission nationale de la culture et des arts",
+          "origin": "L'anniversaire de la NCCA rappelle la création de l'institution publique chargée de soutenir le développement culturel et artistique des communautés philippines. La loi de la République nº 7356, approuvée le 3 avril 1992, a créé la Commission nationale pour la culture et les arts et un fonds de soutien culturel. La loi reconnaît la culture comme droit humain et défend le pluralisme; l'anniversaire institutionnel diffère du Mois des musées de 1991.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector sont les organismes publics ou institutionnels concernés par cette journée et ses programmes.",
+          "purpose": "Faire comprendre la création de la NCCA et le soutien public au patrimoine et aux arts.",
+          "facts": [
+            "L'anniversaire de la NCCA rappelle la création de l'institution publique chargée de soutenir le développement culturel et artistique des communautés philippines.",
+            "La loi de la République nº 7356, approuvée le 3 avril 1992, a créé la Commission nationale pour la culture et les arts et un fonds de soutien culturel.",
+            "La loi reconnaît la culture comme droit humain et défend le pluralisme; l'anniversaire institutionnel diffère du Mois des musées de 1991."
+          ]
+        },
+        "de": {
+          "heading": "3. April: Gründung der Nationalkommission für Kultur und Kunst",
+          "origin": "Der NCCA-Gründungstag erinnert an die Einrichtung der öffentlichen Kommission zur Förderung kultureller und künstlerischer Entwicklung in den Philippinen. Republikgesetz Nr. 7356 vom 3. April 1992 gründete die Nationalkommission für Kultur und Kunst und einen staatlichen Förderfonds. Das Gesetz versteht Kultur als Menschenrecht und betont Vielfalt und Teilhabe; die Gründung ist nicht mit dem Museumsmonat von 1991 gleichzusetzen.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector sind die beteiligten staatlichen oder institutionellen Stellen dieses dokumentierten Anlasses.",
+          "purpose": "Die NCCA-Gründung und öffentliche Förderung eines vielfältigen Kulturlebens erklären.",
+          "facts": [
+            "Der NCCA-Gründungstag erinnert an die Einrichtung der öffentlichen Kommission zur Förderung kultureller und künstlerischer Entwicklung in den Philippinen.",
+            "Republikgesetz Nr. 7356 vom 3. April 1992 gründete die Nationalkommission für Kultur und Kunst und einen staatlichen Förderfonds.",
+            "Das Gesetz versteht Kultur als Menschenrecht und betont Vielfalt und Teilhabe; die Gründung ist nicht mit dem Museumsmonat von 1991 gleichzusetzen."
+          ]
+        },
+        "pt": {
+          "heading": "3 de abril: criação da Comissão Nacional da Cultura e das Artes",
+          "origin": "O aniversário da NCCA recorda a criação da comissão pública para apoiar desenvolvimento cultural e artístico nas comunidades filipinas. A Lei da República n.º 7356, aprovada em 3 de abril de 1992, criou a Comissão Nacional da Cultura e das Artes e um fundo nacional de apoio cultural. A lei reconhece a cultura como direito humano e valoriza pluralismo e participação; o aniversário é distinto do Mês dos Museus de 1991.",
+          "promoter": "National Commission for Culture and the Arts and the Philippine cultural sector são os organismos públicos ou institucionais responsáveis ou envolvidos nas atividades da data.",
+          "purpose": "Explicar a criação da NCCA e o apoio público às artes e ao património cultural.",
+          "facts": [
+            "O aniversário da NCCA recorda a criação da comissão pública para apoiar desenvolvimento cultural e artístico nas comunidades filipinas.",
+            "A Lei da República n.º 7356, aprovada em 3 de abril de 1992, criou a Comissão Nacional da Cultura e das Artes e um fundo nacional de apoio cultural.",
+            "A lei reconhece a cultura como direito humano e valoriza pluralismo e participação; o aniversário é distinto do Mês dos Museus de 1991."
+          ]
+        }
+      },
+      "sourceReviewNote": "Government primary Republic Act/Presidential Proclamation plus public institution or NCCA calendar; distinct legal status and date. Six-locale AI historical draft; no qualified historical or native-language human editorial approval."
+    }
+  ]
+}
