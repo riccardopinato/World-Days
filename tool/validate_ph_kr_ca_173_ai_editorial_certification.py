@@ -42,7 +42,7 @@ assert Counter(x["country"] for x in rows.values()) == {"PH":84,"KR":57,"CA":32}
 assert d["summary"]["byCountry"] == {"PH":84,"KR":57,"CA":32}
 assert d["reviewBatchHistory"][0]["count"] == 10
 assert len(d["reviewBatchHistory"][0]["ids"]) == 10
-assert len(d["reviewBatchHistory"]) == 2
+assert len(d["reviewBatchHistory"]) >= 2
 assert d["reviewBatchHistory"][1]["count"] == 7
 assert len(d["reviewBatchHistory"]) == 3
 assert d["reviewBatchHistory"][2]["count"] == 10
