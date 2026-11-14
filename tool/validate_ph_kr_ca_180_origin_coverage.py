@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==164
+assert matrix["counts"]["sixLocaleDrafts"]==168
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==16
-assert matrix["counts"]["governmentCategorySpotChecks"]==125
+assert matrix["counts"]["withoutOriginDraft"]==12
+assert matrix["counts"]["governmentCategorySpotChecks"]==129
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -92,6 +92,7 @@ new_files=[
 "ph_institutions_military_legislature_5_six_locales_20261114.json",
 "ph_heritage_friendship_archives_5_six_locales_20261114.json",
 "ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
+"ph_civic_environment_movable_4_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -124,8 +125,8 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==121
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==123  # 121 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==125
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==127  # 125 new + 2 prior pilots
 
 # Twenty source-verified Philippine legal/monthly origins, checked against the
 # original national NCCA calendar instead of silently freezing movable or ranged dates.
@@ -143,6 +144,7 @@ ph_waves=[
 "ph_institutions_military_legislature_5_six_locales_20261114.json",
 "ph_heritage_friendship_archives_5_six_locales_20261114.json",
 "ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
+"ph_civic_environment_movable_4_six_locales_20261114.json",
 ]
 ph_market_files=[
 ROOT/"data/market/wave13_ncca_eures_100_20261111.json",
@@ -171,6 +173,12 @@ for filename in ph_waves:
         if rule["kind"]=="FIXED_DATE":
             expected=f'{rule["month"]:02d}-{rule["day"]:02d}'
             assert rec["observancePeriodKind"]=="DAY"
+        elif rule["kind"]=="NTH_WEEKDAY":
+            weekday_names={1:"MONDAY",2:"TUESDAY",3:"WEDNESDAY",4:"THURSDAY",5:"FRIDAY",6:"SATURDAY",7:"SUNDAY"}
+            occurrences={1:"FIRST",2:"SECOND",3:"THIRD",4:"FOURTH",5:"FIFTH"}
+            assert rule["weekday"] in weekday_names and rule["occurrence"] in occurrences
+            expected=f'{occurrences[rule["occurrence"]]}_{weekday_names[rule["weekday"]]}_{months[rule["month"]-1]}'
+            assert rec["observancePeriodKind"]=="DAY"
         else:
             assert rule["kind"]=="FIXED_RANGE"
             start=months[rule["startMonth"]-1]
@@ -188,7 +196,7 @@ for filename in ph_waves:
         row=next(item for item in rows if item["id"]==rid)
         assert row["originDraftPath"]=="data/editorial/research_batches/"+filename
         assert row["originDraftPR"]==120 and row["qualifiedEditorialApproval"] is False
-assert len(ph_new)==66
+assert len(ph_new)==70
 assert ph_new.issubset(set(verified))
 assert verified["ph-w13-national-children-s-month-philippines"]["observanceDate"]=="NOVEMBER"
 assert verified["ph-w13-national-children-s-month-philippines"]["introducedYear"]==2015
@@ -200,8 +208,8 @@ assert verified["ph-w10-philippine-national-women-s-day"]["legalStatus"]=="SPECI
 assert verified["ph-w13-18-day-campaign-to-end-violence-against-women-philippines"]["observancePeriodKind"]=="CAMPAIGN_18_DAYS"
 assert verified["ph-w13-national-book-week-philippines"]["observanceDate"]=="NOV24_NOV30"
 
-assert matrix["counts"]["byCountry"]["PH"]["six"]==75
-assert matrix["counts"]["byCountry"]["PH"]["none"]==16
+assert matrix["counts"]["byCountry"]["PH"]["six"]==79
+assert matrix["counts"]["byCountry"]["PH"]["none"]==12
 assert verified["ph-w13-philippine-book-development-month"]["introducedYear"]==1999
 assert verified["ph-w13-philippine-book-development-month"]["firstObservedYear"]==1997
 assert verified["ph-w13-philippine-book-development-month"]["observanceDate"]=="NOVEMBER"
@@ -292,6 +300,17 @@ assert verified["ph-w10-national-fisherfolks-day-philippines"]["introducedYear"]
 assert verified["ph-w10-ramon-magsaysay-memorial-day"]["introducedYear"]==1966
 assert verified["ph-w13-linggo-ng-kalayaan"]["observanceDate"]=="JUN06_JUN12"
 
+# Two new national movable weekday observances must follow the legal rule,
+# not a hardcoded civil date for a particular year.
+assert verified["ph-w13-conflict-resolution-day-philippines"]["observanceDate"]=="THIRD_THURSDAY_OCTOBER"
+assert verified["ph-w13-unknown-citizens-day"]["observanceDate"]=="SECOND_SUNDAY_JANUARY"
+assert verified["ph-w13-conflict-resolution-day-philippines"]["introducedYear"]==2006
+assert verified["ph-w13-unknown-citizens-day"]["introducedYear"]==1936
+assert verified["ph-w13-world-clean-and-green-week-philippines"]["observanceDate"]=="SEP17_SEP23"
+assert verified["ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month"]["observanceDate"]=="JUNE"
+assert verified["ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month"]["legalStatus"].endswith("_REQUIRES_INDEPENDENT_CHECK")
+
+
 assert verified["ph-w10-julian-felipe-day"]["legalStatus"]=="PH_CAVITE_CITY_SPECIAL_NONWORKING_HOLIDAY_RA7805_1994_NOT_NATIONAL"
 assert verified["ph-w10-apolinario-mabini-day"]["legalStatus"]=="PH_TANAUAN_SPECIAL_WORKING_HOLIDAY_RA9430_NOT_NATIONWIDE"
 assert verified["ph-w10-graciano-lopez-jaena-day"]["legalStatus"]=="PH_NATIONAL_SPECIAL_WORKING_RA9070_2001_LOCAL_EARLIER_ONLY_BY_YEAR"
@@ -306,10 +325,10 @@ assert verified["ph-w10-order-of-gabriela-silang-founding-anniversary"]["locale"
 
 # Do not count legally conflicted or unverified historical origin-years as approved.
 ph_issues=json.loads((AUDIT/"ph_open_legal_source_conflicts_20261114.json").read_text(encoding="utf-8"))
-assert ph_issues["count"]==len(ph_issues["items"])==12
+assert ph_issues["count"]==len(ph_issues["items"])==13
 assert ph_issues["qualifiedEditorialApproval"] is False
 assert ph_issues["status"]=="OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY"
-assert len({item["observanceId"] for item in ph_issues["items"]})==12
+assert len({item["observanceId"] for item in ph_issues["items"]})==13
 for issue in ph_issues["items"]:
     assert issue["resolved"] is False
     row=next(x for x in rows if x["id"]==issue["observanceId"])
@@ -554,5 +573,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 121 new six-locale originals, 9 four-locale extensions (164 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 75/91; 16 pending, 12 source discrepancies gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 125 new six-locale originals, 9 four-locale extensions (168 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 79/91; 12 pending, 13 source discrepancies gated; 0 qualified human approvals.")
 
