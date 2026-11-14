@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==171
+assert matrix["counts"]["sixLocaleDrafts"]==173
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==9
-assert matrix["counts"]["governmentCategorySpotChecks"]==132
+assert matrix["counts"]["withoutOriginDraft"]==7
+assert matrix["counts"]["governmentCategorySpotChecks"]==134
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -94,6 +94,7 @@ new_files=[
 "ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
 "ph_civic_environment_movable_4_six_locales_20261114.json",
 "ph_edsa_life_unweek_3_six_locales_20261114.json",
+"ph_panagyaman_theater_2_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -126,8 +127,8 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==128
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==130  # 128 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==130
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==132  # 130 new + 2 prior pilots
 
 # Twenty source-verified Philippine legal/monthly origins, checked against the
 # original national NCCA calendar instead of silently freezing movable or ranged dates.
@@ -147,6 +148,7 @@ ph_waves=[
 "ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
 "ph_civic_environment_movable_4_six_locales_20261114.json",
 "ph_edsa_life_unweek_3_six_locales_20261114.json",
+"ph_panagyaman_theater_2_six_locales_20261114.json",
 ]
 ph_market_files=[
 ROOT/"data/market/wave13_ncca_eures_100_20261111.json",
@@ -163,7 +165,7 @@ months=("JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTE
 for filename in ph_waves:
     batch=json.loads((RESEARCH/filename).read_text(encoding="utf-8"))
     assert "DRAFT" in batch["status"] and "HUMAN" in batch["status"]
-    assert batch["count"] in (3,4,5,6,8)
+    assert batch["count"] in (2,3,4,5,6,8)
     for rec in batch["records"]:
         rid=rec["observanceId"]
         assert rid in ph_source and rid not in ph_new,rid
@@ -198,7 +200,7 @@ for filename in ph_waves:
         row=next(item for item in rows if item["id"]==rid)
         assert row["originDraftPath"]=="data/editorial/research_batches/"+filename
         assert row["originDraftPR"]==120 and row["qualifiedEditorialApproval"] is False
-assert len(ph_new)==73
+assert len(ph_new)==75
 assert ph_new.issubset(set(verified))
 assert verified["ph-w13-national-children-s-month-philippines"]["observanceDate"]=="NOVEMBER"
 assert verified["ph-w13-national-children-s-month-philippines"]["introducedYear"]==2015
@@ -210,8 +212,8 @@ assert verified["ph-w10-philippine-national-women-s-day"]["legalStatus"]=="SPECI
 assert verified["ph-w13-18-day-campaign-to-end-violence-against-women-philippines"]["observancePeriodKind"]=="CAMPAIGN_18_DAYS"
 assert verified["ph-w13-national-book-week-philippines"]["observanceDate"]=="NOV24_NOV30"
 
-assert matrix["counts"]["byCountry"]["PH"]["six"]==82
-assert matrix["counts"]["byCountry"]["PH"]["none"]==9
+assert matrix["counts"]["byCountry"]["PH"]["six"]==84
+assert matrix["counts"]["byCountry"]["PH"]["none"]==7
 assert verified["ph-w13-philippine-book-development-month"]["introducedYear"]==1999
 assert verified["ph-w13-philippine-book-development-month"]["firstObservedYear"]==1997
 assert verified["ph-w13-philippine-book-development-month"]["observanceDate"]=="NOVEMBER"
@@ -324,6 +326,13 @@ assert verified["ph-w13-edsa-people-power-commemoration-week"]["observanceDate"]
 assert verified["ph-w13-edsa-people-power-commemoration-week"]["introducedYear"]==2007
 assert verified["ph-w13-united-nations-week-philippines"]["observanceDate"]=="OCT18_OCT24"
 assert verified["ph-w13-united-nations-week-philippines"]["introducedYear"]==2003
+# Source-anchored Philippine theatre week and single-year rice harvest festival.
+assert verified["ph-w13-unesco-iti-world-theater-week-philippines"]["observanceDate"]=="MAR21_MAR27"
+assert verified["ph-w13-unesco-iti-world-theater-week-philippines"]["introducedYear"]==2007
+assert verified["ph-w13-panagyaman-rice-festival-month"]["observanceDate"]=="APRIL"
+assert verified["ph-w13-panagyaman-rice-festival-month"]["introducedYear"]==2004
+assert "ANNUAL_UNVERIFIED" in verified["ph-w13-panagyaman-rice-festival-month"]["legalStatus"]
+
 assert all(next(row for row in rows if row["id"]==r["observanceId"])["qualifiedEditorialApproval"] is False for r in latest_source["records"])
 
 
@@ -342,10 +351,10 @@ assert verified["ph-w10-order-of-gabriela-silang-founding-anniversary"]["locale"
 
 # Do not count legally conflicted or unverified historical origin-years as approved.
 ph_issues=json.loads((AUDIT/"ph_open_legal_source_conflicts_20261114.json").read_text(encoding="utf-8"))
-assert ph_issues["count"]==len(ph_issues["items"])==13
+assert ph_issues["count"]==len(ph_issues["items"])==14
 assert ph_issues["qualifiedEditorialApproval"] is False
 assert ph_issues["status"]=="OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY"
-assert len({item["observanceId"] for item in ph_issues["items"]})==13
+assert len({item["observanceId"] for item in ph_issues["items"]})==14
 for issue in ph_issues["items"]:
     assert issue["resolved"] is False
     row=next(x for x in rows if x["id"]==issue["observanceId"])
@@ -590,5 +599,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 128 new six-locale originals, 9 four-locale extensions (171 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 82/91; 9 pending, 13 source discrepancies gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 130 new six-locale originals, 9 four-locale extensions (173 effective six-locale AI drafts); KR 57/57, CA 32/32, PH 84/91; 7 pending, 14 source discrepancies gated; 0 qualified human approvals.")
 
