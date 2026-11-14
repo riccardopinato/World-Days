@@ -1,5 +1,12 @@
 # World Days — Active roadmap
 
+## AI certification — Canada and Korea, 14 November 2026
+
+- [x] Individually review 7 primary-source and six-locale stories (CA 3 / KR 4); pin source draft PR head and per-file blob in AI certificate ledger.
+- [x] **38 AI_CERTIFIED**, 8 HOLD and 127 awaiting AI source review (173 total); preserve unknown historical origin dates and distinguish symbolic observances from enacted legal holidays.
+- [ ] Research remaining 127, specifically unresolved Raoul Wallenberg chronology and PH source conflicts. AI-certified drafts are not yet released into app runtime.
+
+
 ## AI editorial Canada Wave20 + origin histories (14 November 2026)
 
 - [x] Review ten additional Canadian six-language originals from draft PR #118/#119: original dates, laws, official sources, distinctions between historical events and annual designation. SHA-pinned original draft files retained.
