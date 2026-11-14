@@ -1,5 +1,12 @@
 # World Days — Active roadmap
 
+## AI editorial Korean civic-history batch (14 November 2026)
+
+- [x] AI-review 11 Korean memorial, civic and institutional dates and six-language narratives from six source-draft files; original source PR #120 and Git file blobs pinned.
+- [x] Ledger **74 AI_CERTIFIED / 8 HOLD / 91 AI_REVIEW_QUEUED** across 173 records; zero human signoffs or runtime publication.
+- [ ] Verify and repair remaining Korean locale chronology mismatches, then work through Philippine official histories and source-conflict HOLDs.
+
+
 ## AI editorial: Korean democracy, society and historical remembrance (14 November 2026)
 
 - [x] AI editorial source-reviewed 14 Korean records across EN/IT/ES/FR/DE/PT with Ministry of Interior, Veterans Affairs and Culture primary citations, chronology and immutable PR #120 source version.

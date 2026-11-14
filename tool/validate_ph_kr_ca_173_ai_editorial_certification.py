@@ -44,7 +44,9 @@ assert d["reviewBatchHistory"][0]["count"] == 10
 assert len(d["reviewBatchHistory"][0]["ids"]) == 10
 assert len(d["reviewBatchHistory"]) >= 2
 assert d["reviewBatchHistory"][1]["count"] == 7
-assert len(d["reviewBatchHistory"]) == 6
+assert len(d["reviewBatchHistory"]) == 7
+assert d["reviewBatchHistory"][6]["count"] == 11
+assert len(d["reviewBatchHistory"][6]["ids"]) == 11
 assert d["reviewBatchHistory"][5]["count"] == 14
 assert len(d["reviewBatchHistory"][5]["ids"]) == 14
 assert d["reviewBatchHistory"][4]["count"] == 11
@@ -119,6 +121,17 @@ expected = {
     "kr-w10-sports-day-in-korea": ("KR", "5c21da1d3bf055c1f1e33e9883cc6b4f07f32b90", 1969, None),
     "kr-w10-west-sea-defense-day": ("KR", "5c21da1d3bf055c1f1e33e9883cc6b4f07f32b90", 2016, 2016),
     "kr-w10-world-koreans-day": ("KR", "5c21da1d3bf055c1f1e33e9883cc6b4f07f32b90", 2007, None),
+    "kr-w10-reserve-forces-day": ("KR", "2ec02ad71c50321511f8b0cbc7415ff7c2934345", 1970, None),
+    "kr-w10-day-of-persons-with-disabilities-in-korea": ("KR", "2ec02ad71c50321511f8b0cbc7415ff7c2934345", 1994, None),
+    "kr-w10-railway-day-in-korea": ("KR", "aff5009befe07c46e54f0bd169e6924f3650f7e9", 1964, None),
+    "kr-w10-information-security-day-in-korea": ("KR", "aff5009befe07c46e54f0bd169e6924f3650f7e9", 2012, None),
+    "kr-w10-provisional-government-establishment-day": ("KR", "46075f00042ead20112f23fa7fa052a944fb1142", 1989, None),
+    "kr-w10-june-10-democracy-movement-remembrance": ("KR", "6eae4c1bac5f07337f962ef100bed87be9d258a6", 2007, None),
+    "kr-w10-june-10-independence-movement-remembrance": ("KR", "6eae4c1bac5f07337f962ef100bed87be9d258a6", 2020, None),
+    "kr-w10-korean-war-remembrance-day": ("KR", "0153ec44d8fb99dfa849ca6095975119cc698a86", 1973, None),
+    "kr-w10-patriotic-martyrs-remembrance-day": ("KR", "0153ec44d8fb99dfa849ca6095975119cc698a86", 1997, None),
+    "kr-w10-student-independence-movement-remembrance-day": ("KR", "f54c38d28f27ad597f36ef8cc5b5b2b0686e1a8d", 1953, None),
+    "kr-w10-law-day-in-korea": ("KR", "f54c38d28f27ad597f36ef8cc5b5b2b0686e1a8d", 1964, None),
 }
 count = Counter()
 for rid, row in rows.items():
@@ -153,7 +166,7 @@ for rid, row in rows.items():
         assert row["checks"] is None
         assert row["sourceBlobSha"] is None
         assert set(row["locales"].values()) == {"NOT_CHECKED"}
-assert count == {"AI_CERTIFIED":63,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":102}
+assert count == {"AI_CERTIFIED":74,"HOLD_SOURCE_DISPUTE":8,"AI_REVIEW_QUEUED":91}
 for name,num in count.items():
     assert d["summary"][name] == num
 philippines = rows["ph-independence-day"]
@@ -204,5 +217,5 @@ if "--verify-remote" in sys.argv:
     print("PASS: live GitHub PR head and source blob verification for",
           len(certified), "AI-certified stories across", len(heads), "source PRs")
 
-print("PASS: 173 AI-research editorial decisions: 63 AI_CERTIFIED, 8 source-HOLD, "
-      "102 awaiting AI review, 0 human signoffs, 0 runtime publications")
+print("PASS: 173 AI-research editorial decisions: 74 AI_CERTIFIED, 8 source-HOLD, "
+      "91 awaiting AI review, 0 human signoffs, 0 runtime publications")
