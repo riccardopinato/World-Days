@@ -356,3 +356,29 @@ After the previous **41** Philippine original narratives in this single-country 
 
 PR #120 has **125 newly authored original six-locale AI dossiers** (plus 2 older pilot full original histories and 9 PR118 locale overlays; exact origin link and source ownership preserved), all pending independent native-language and historical human review. **Human-approved 0; PR remains Draft and unmerged; no runtime build publication.** Exactly 12 Philippine IDs still lack source-linked full originals, including six held specifically due to documentary contradictions.
 
+
+
+## Final Philippine source-first sprint milestone: 84 of 91 originals
+
+The work in this continuous **Philippines-only** turn has now authored **50 unique PH six-language AI original-history research dossiers (300 new localized narratives)** across the nine original batches above plus the following:
+
+- `ph_civic_environment_movable_4_six_locales_20261114.json` (4): **third Thursday of October** Conflict Resolution Day (2006 Proc1152), **second Sunday in January** Unknown Citizens' Day (1936 Commonwealth Act152), June W.A.T.C.H. Month (2009 Proc1782, permanent annual legal recurrence not proven), **17–23 September** World Clean and Green Week (1993 Proc244).
+- `ph_edsa_life_unweek_3_six_locales_20261114.json` (3): **22–25 February** EDSA People Power Commemoration Week (2007 Proc1224, not four automatic days off); **third Sunday of January** Sanctity and Protection of Human Life Day (2003 Proc490, distinct from still-unverified Childrens Day on same Sunday); **18–24 October** United Nations Week (2003 Proc483 makes permanent the specific-week celebration after Proc276 in 2002).
+- `ph_panagyaman_theater_2_six_locales_20261114.json` (2): April **Panagyaman Rice Festival Month**, with Proc606 only declaring **April 2004** and the ongoing annual legal basis **unverified**, despite NCCA recurring calendar; **21–27 March** UNESCO–ITI World Theatre Week expressly established every year by 2007 Proc1262, connected but not identical to international single World Theatre Day on 27 March.
+
+**Research coverage now PH84/91, KR57/57 and CA32/32, total 173/180 six-locale source-linked AI historical drafts; 7 Philippines candidates remain without such a draft.** The branch PR120 now contains **130 new six-locale original records**, plus two prior pilots and nine translation overlays referencing source Wave20; *every* draft still requires independent qualified historical/native-language human signoff. Human certified **0**, PR **Draft**, main app unmodified. The legal discrepancy registry now contains **14** individual source conflicts, including annual-recurrence uncertainty for W.A.T.C.H. and Panagyaman.
+
+### Seven unresolved Philippine original-source IDs to handle separately before release
+
+| Source canonical ID | Why no six-locale source-certified history yet | Required evidence/next decision |
+| --- | --- | --- |
+| `ph-w10-philippine-department-of-education-founding-anniversary` | NCCA **20 December** vs DepEd institution anniversary **23 June 1898**; Dec20 refers to a different earlier school reform in 1863 | Match canonical observance identity to a single official event and correct national date or preserve a distinctly named 1863 predecessor |
+| `ph-w10-philippine-national-historical-commission-founding-anniversary` | NCCA **26 May** vs signed **RA10086 12 May 2010** (institution predecessors 1965/1972) | Identify an official 26 May event independent of the act or correct the canonical date |
+| `ph-w13-children-s-day-philippines-january` | NCCA shows **third Sunday of January**, same as Proc490 **Sanctity/Protection of Human Life Day**; no checked independent Philippine national Children's Day statute supporting this January recurrence | Verify distinct original law or mark catalog duplicate/mislabeled national observance. National Children's Month is separate November from RA10661 (2015) |
+| `ph-w13-made-in-the-philippines-product-week` | NCCA Aug17–23 from Proc76 1936 conflicts with the later **Proc756 1941**, which moved the week to **Feb14–20 from 1942** | Check the latest controlling statute before revising the canonical recurrence; cannot certify superseded August dates |
+| `ph-w13-national-punctuality-and-civility-consciousness-month` | Proc1638 says **November 2008**, not unambiguously **every** November | Obtain source for enduring annual government observance; otherwise classify the original as a year-specific 2008 campaign |
+| `ph-w13-volunteerism-month-philippines` | Proc1778 says **May 2009**, not explicitly **every May**; different from **December National Volunteers Month** (Proc55 1998) | Verify current annual May legal basis and retain separate canonical IDs for May and December |
+| `ph-w13-week-of-the-philippine-eagle` | Proc79 document indexed/headed **1999** but final transcribed signing year **1998**, so exact original date unverified | Inspect authentic official source signed version and confirm later annual continuity before full historical signoff |
+
+Technical validation of original `NTH_WEEKDAY`, `FIXED_RANGE`, and `FIXED_DATE` rules for all new PH research records is now required; 14 open-source conflicts remain separately gated. A Draft research story is *not* equivalent to certified historical information or an app release.
+
