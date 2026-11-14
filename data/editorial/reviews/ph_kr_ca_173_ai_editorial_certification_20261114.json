@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 91,
-    "AI_CERTIFIED": 74,
+    "AI_REVIEW_QUEUED": 73,
+    "AI_CERTIFIED": 92,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -763,26 +763,44 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
-      "firstObservedYear": null,
-      "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "firstObservedYear": 2002,
+      "establishedYear": 2001,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/news/2020/01/statement-by-minister-chagger-on-raoul-wallenberg-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/canada-holocaust/resources.html",
+        "https://www.pm.gc.ca/en/news/statements/2021/01/17/statement-prime-minister-raoul-wallenberg-day",
+        "https://www.ourcommons.ca/Content/House/371/Debates/072/han072-e.pdf"
+      ],
+      "factsConfirmed": [
+        "Wallenberg was taken into Soviet custody on 17 January 1945.",
+        "Canada gave him honorary citizenship in 1985.",
+        "Official summaries disagree between 2001 and 2002 for the designation."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. Canadian parliamentary records confirm 2001 government designation and 2002 first ceremony. Source draft retains outdated year uncertainty and requires editorial correction before publishing in app. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "editorialCorrectionNotice": "2001 government designation and first 17 January 2002 observance verified in contemporaneous House debate; frozen original six-locale draft still conservatively says founding unknown, update source story before runtime release."
     },
     {
       "observanceId": "ca-red-dress-day",
@@ -1395,27 +1413,43 @@
       "title": "Children's Day — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1923,
       "establishedYear": 1961,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+        "https://contents.history.go.kr/front/hm/view.do?levelId=hm_136_0070"
+      ],
+      "factsConfirmed": [
+        "The first Children's Day campaign took place around 1 May 1923.",
+        "The annual observance was restored on 5 May in 1946.",
+        "The 1961 Child Welfare Act set the modern date; public-holiday status came in 1975."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-constitution-day",
@@ -1423,27 +1457,43 @@
       "title": "Constitution Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_hangeul_constitution_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f9daf3a869df6d24bdd48b635fcfcfc4f7c25dc5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1949,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=29825",
+        "https://www.mois.go.kr/video/bbs/type019/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000255&nttId=123641"
+      ],
+      "factsConfirmed": [
+        "The constitution was promulgated on 17 July 1948.",
+        "Constitution Day was included in the 1949 National Days Act.",
+        "The public-holiday status was restored in 2026."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-hangeul-day",
@@ -1668,27 +1718,42 @@
       "title": "Admiral Yi Sun-sin Birthday Commemoration — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1967,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=49239",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The birthday observance was established in 1967 by Education Ministry Ordinance 179.",
+        "It entered the statutory commemorative list in 1973.",
+        "The annual date, 28 April, is the admiral's birthday rather than a battle anniversary."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-aerospace-day-in-korea",
@@ -1696,27 +1761,42 @@
       "title": "Aerospace Day in Korea — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2024,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The Korea AeroSpace Administration opened on 27 May 2024.",
+        "The agency requested a dedicated commemorative day in June 2024.",
+        "The government designated 27 May as Aerospace Day in November 2024."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-april-19-revolution-day",
@@ -1724,27 +1804,42 @@
       "title": "April 19 Revolution Day — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1973,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The protests associated with the day occurred on 19 April 1960.",
+        "Student remembrance ceremonies were encouraged in April 1962.",
+        "The day entered the statutory list in March 1973 and received its present name in 1994."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-arbor-day-in-korea",
@@ -1752,27 +1847,42 @@
       "title": "Arbor Day in Korea — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1949,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "A presidential decree made Arbor Day a public holiday in 1949.",
+        "The date shifted in 1960 and returned to 5 April in 1961.",
+        "Arbor Day ceased to be a general public holiday in 2005 but remains a commemorative day."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-bu-ma-democratic-protests-remembrance-day",
@@ -1780,27 +1890,42 @@
       "title": "Bu-Ma Democratic Protests Remembrance Day — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2019,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The initial Busan student protests began on 16 October 1979.",
+        "The movement spread to Masan and Changwon around 18 October 1979.",
+        "A local memorial day was established in 2017 and the national one in 2019."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-coming-of-age-day-in-korea",
@@ -1808,27 +1933,42 @@
       "title": "Coming of Age Day in Korea — South Korea",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1973,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "The government created the modern statutory day on 30 March 1973.",
+        "The date changed from 20 April to 6 May in 1975.",
+        "Since 1984 the day has fallen on the third Monday in May."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-commerce-and-industry-day",
@@ -1965,27 +2105,42 @@
       "title": "Couples Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_contemporary_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0552f899759644c79a269987b80c0761f9fc5544",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2007,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Couples Day in South Korea draws attention to marriage, mutual respect and an equitable partnership within family life. It grew from a campaign to recognize the social as well as personal significance of relationships.",
+        "The National Assembly approved a petition calling for a national Couples Day on 18 December 2003; the government later placed the occasion on the statutory commemorative calendar on 2 May 2007.",
+        "The annual date is 21 May. Legislative approval of the petition and the formal government designation are separate steps, and this is not a general public holiday."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-culture-day-in-korea",
@@ -1993,27 +2148,42 @@
       "title": "Culture Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_contemporary_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0552f899759644c79a269987b80c0761f9fc5544",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1973,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "South Korea's Culture Day encourages public engagement with culture and the arts. Its modern framework followed the 1972 Culture and Arts Promotion Act and consolidated several older dates concerning broadcasting, cinema and magazines.",
+        "On 30 March 1973 the government grouped these commemorations into Culture Day, initially observed on 20 October. A regulatory change on 6 September 2006 moved it to the third Saturday of October.",
+        "The unified day preserves links to separate historical cultural institutions; it is not identical to the earliest broadcasting, film or magazine anniversary."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-day-of-persons-with-disabilities-in-korea",
@@ -2109,27 +2279,42 @@
       "title": "Fallen Military Service Members Remembrance Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_contemporary_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0552f899759644c79a269987b80c0761f9fc5544",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2023,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Fallen Military Service Members Remembrance Day honours people who died while carrying out military or public-security duties arising from compulsory national service.",
+        "The Ministry of the Interior records legislative proposals from 2020 to 2022, discussion of the appropriate legal mechanism in 2023 and consultations with veterans' organizations.",
+        "The government recognized the statutory memorial in November 2023, assigning the fourth Friday of April. It must be kept distinct from the broader Memorial Day on 6 June."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-farmers-day-in-korea",
@@ -2424,27 +2609,42 @@
       "title": "King Sejong Birthday Commemoration — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_contemporary_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0552f899759644c79a269987b80c0761f9fc5544",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2024,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "King Sejong's Birthday Commemoration honours the Joseon monarch associated with the development of the Korean alphabet and public-minded cultural reforms.",
+        "In June 2024 the Ministry of Culture requested an official remembrance, consulting the Korea Heritage Service, scholarly groups and associations devoted to the Korean language.",
+        "The government designated 15 May in November 2024. It shares its calendar date with Teachers' Day but is a separate statutory observance, not a 2024 invention of the older teachers' celebration."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-korean-public-health-day",
@@ -2797,27 +2997,42 @@
       "title": "North Korean Defectors Day — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_contemporary_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0552f899759644c79a269987b80c0761f9fc5544",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2024,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "North Korean Defectors Day is a South Korean national commemoration concerning the rights, inclusion and social participation of people who have left North Korea and settled in the South.",
+        "The Ministry of the Interior documents a January 2024 instruction to create the day and Ministry of Unification consultations with defectors, associations and specialists in February.",
+        "The government formally established 14 July in May 2024. This is an inclusion and public-awareness observance, not the anniversary of one border-crossing incident or a general public holiday."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-oceans-day-in-korea",
@@ -3256,27 +3471,42 @@
       "title": "Senior Citizens Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_social_6_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "90a87fb6bad4c3eb34fd18218d227cc6b834e083",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1997,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "South Korea marks Seniors Day on 2 October to encourage respect for older people and public discussion of ageing. The international background includes the United Nations' International Day of Older Persons on 1 October.",
+        "UN activities began in 1991 following the General Assembly resolution on ageing awareness. South Korea's government created its own statutory Seniors Day on 9 May 1997.",
+        "The Korean national day is observed on 2 October, one day after the UN date. Its statutory year is 1997, not 1990 or 1991 when the international process began."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. Equivalent decade/year expressions between language versions were checked by meaning rather than naive regex string equality. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-sports-day-in-korea",
@@ -3499,27 +3729,42 @@
       "title": "Veterans Association Day in Korea — South Korea",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/kr_memory_society_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "5c21da1d3bf055c1f1e33e9883cc6b4f07f32b90",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1965,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "factsConfirmed": [
+        "Veterans Association Day recognizes former military personnel and the work of veterans' associations in South Korea. The national association was established in Busan on 1 February 1952.",
+        "After organizational changes during the 1950s and membership in an international veterans federation in 1961, the government designated a Veterans Association Day on 8 June 1965, originally linked to 8 May.",
+        "On 30 March 1973 it became a statutory commemoration, and on 19 June 2002 the government moved it from 8 May to 8 October. The association's founding and the modern date are distinct."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. Equivalent decade/year expressions between language versions were checked by meaning rather than naive regex string equality. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "kr-w10-west-sea-defense-day",
@@ -3614,27 +3859,43 @@
       "title": "Bonifacio Day — Philippines",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1921,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://ldr.senate.gov.ph/legislative-issuance/act-no-2946",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/36191",
+        "https://www.nationalmuseum.gov.ph/2021/11/30/bonifacio-day-onthisday-feature/"
+      ],
+      "factsConfirmed": [
+        "Act No. 2946 was approved on 16 February 1921.",
+        "The act made 30 November each year a legal holiday.",
+        "30 November is the birthday of Andrés Bonifacio, born in 1863."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-day-of-valor",
@@ -3642,27 +3903,43 @@
       "title": "Araw ng Kagitingan — Day of Valor — Philippines",
       "sourcePR": 118,
       "sourceFile": "data/editorial/batches/origin_stories_wave20_20261113.json",
-      "sourceHead": "d1440f6d8ec5b7f427dc4407d364ad90f2308283",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "47cff4c5b22e55156e9444a3240511530a6f01f9",
+      "sourceBlobSha": "6acc4ec387c53faf25aa517a74e8585a88f0eae5",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1961,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21818",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/8049",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/9/5743"
+      ],
+      "factsConfirmed": [
+        "Republic Act 3022 was approved on 6 April 1961.",
+        "The 1961 law called for one minute of silence at 4:30 p.m.",
+        "The 1987 holiday listing uses the name Araw ng Kagitingan, or Day of Valor."
+      ],
+      "notes": "2026-11-15 AI editorial source review of canonical record, six EN/IT/ES/FR/DE/PT historical narratives, three localized facts, chronology, event versus statute and official-date distinctions. Immutable original draft PR head and Git source file blob pinned. No human signoff or runtime publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-edsa-people-power-anniversary",
