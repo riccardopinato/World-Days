@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_SOURCE_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w13-library-and-information-services-month",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1991,
+      "firstObservedYear": null,
+      "legalStatus": "PH_SPECIFIC_NATIONAL_MONTH_OR_WEEK_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_NOVEMBER_LIBRARIES_MONTH_1991_DISTINCT_FROM_BOOK_MONTH",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1991/proc_837_1991.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Library and Information Services Month",
+          "origin": "Library and Information Services Month highlights the work of libraries and information centres in providing reliable material for lifelong learning, research and leisure in the Philippines. President Corazon Aquino signed Proclamation No. 837 on 19 November 1991, declaring November 1991 and every subsequent November a national month for library and information services. The decree assigned a leading role to the National Library and a committee of the then Presidential Commission on Culture and Arts. It differs from National Book Week even though both occur in November.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee are the institutions named or involved in the statutory Philippine programme and its public activities.",
+          "purpose": "Encourage access to information, library services and opportunities for learning throughout life.",
+          "facts": [
+            "Library and Information Services Month highlights the work of libraries and information centres in providing reliable material for lifelong learning, research and leisure in the Philippines.",
+            "President Corazon Aquino signed Proclamation No. 837 on 19 November 1991, declaring November 1991 and every subsequent November a national month for library and information services.",
+            "The decree assigned a leading role to the National Library and a committee of the then Presidential Commission on Culture and Arts. It differs from National Book Week even though both occur in November."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: il Mese delle biblioteche e dei servizi informativi",
+          "origin": "Il Mese delle biblioteche e dei servizi informativi valorizza l'accesso a materiali affidabili per apprendimento continuo, ricerca e tempo libero nelle Filippine. Corazon Aquino firmò la Proclamazione n. 837 il 19 novembre 1991, dichiarando novembre 1991 e ogni novembre successivo mese nazionale dedicato a biblioteche e informazione. Il decreto coinvolse la Biblioteca nazionale e una commissione culturale presidenziale; la ricorrenza resta distinta dalla Settimana nazionale del libro che cade anch'essa in novembre.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee sono gli enti indicati o coinvolti nella ricorrenza filippina e nelle relative attività pubbliche.",
+          "purpose": "Favorire accesso alle informazioni, biblioteche e occasioni di apprendimento lungo tutta la vita.",
+          "facts": [
+            "Il Mese delle biblioteche e dei servizi informativi valorizza l'accesso a materiali affidabili per apprendimento continuo, ricerca e tempo libero nelle Filippine.",
+            "Corazon Aquino firmò la Proclamazione n. 837 il 19 novembre 1991, dichiarando novembre 1991 e ogni novembre successivo mese nazionale dedicato a biblioteche e informazione.",
+            "Il decreto coinvolse la Biblioteca nazionale e una commissione culturale presidenziale; la ricorrenza resta distinta dalla Settimana nazionale del libro che cade anch'essa in novembre."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: Mes de Bibliotecas y Servicios de Información",
+          "origin": "El Mes de Bibliotecas y Servicios de Información destaca el acceso a materiales fiables para aprendizaje permanente, investigación y ocio en Filipinas. Corazon Aquino firmó la Proclamación n.º 837 el 19 de noviembre de 1991, estableciendo noviembre de 1991 y los años siguientes para bibliotecas y servicios de información. La norma encargó la celebración a la Biblioteca Nacional y una comisión cultural presidencial; no es lo mismo que la Semana Nacional del Libro de noviembre.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee son las instituciones designadas o vinculadas al programa filipino y sus actividades públicas.",
+          "purpose": "Promover el acceso a información, bibliotecas y aprendizaje durante toda la vida.",
+          "facts": [
+            "El Mes de Bibliotecas y Servicios de Información destaca el acceso a materiales fiables para aprendizaje permanente, investigación y ocio en Filipinas.",
+            "Corazon Aquino firmó la Proclamación n.º 837 el 19 de noviembre de 1991, estableciendo noviembre de 1991 y los años siguientes para bibliotecas y servicios de información.",
+            "La norma encargó la celebración a la Biblioteca Nacional y una comisión cultural presidencial; no es lo mismo que la Semana Nacional del Libro de noviembre."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : le Mois des bibliothèques et de l'information",
+          "origin": "Le Mois des bibliothèques et de l'information souligne l'accès à des ressources fiables pour apprendre, chercher et se cultiver tout au long de la vie. Corazon Aquino a signé la proclamation nº 837 le 19 novembre 1991, instituant novembre 1991 et chaque mois de novembre suivant pour les bibliothèques. Le décret a confié l'organisation à la Bibliothèque nationale et à un comité culturel présidentiel; cette célébration diffère de la Semaine nationale du livre.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee sont les organismes chargés ou associés à ce programme philippin et à ses activités.",
+          "purpose": "Favoriser l'accès à l'information, aux bibliothèques et à la formation tout au long de la vie.",
+          "facts": [
+            "Le Mois des bibliothèques et de l'information souligne l'accès à des ressources fiables pour apprendre, chercher et se cultiver tout au long de la vie.",
+            "Corazon Aquino a signé la proclamation nº 837 le 19 novembre 1991, instituant novembre 1991 et chaque mois de novembre suivant pour les bibliothèques.",
+            "Le décret a confié l'organisation à la Bibliothèque nationale et à un comité culturel présidentiel; cette célébration diffère de la Semaine nationale du livre."
+          ]
+        },
+        "de": {
+          "heading": "November: Monat der Bibliotheken und Informationsdienste",
+          "origin": "Der Monat der Bibliotheken und Informationsdienste unterstreicht den Zugang zu verlässlichen Materialien für lebenslanges Lernen, Forschung und Freizeit. Corazon Aquino unterzeichnete Proklamation Nr. 837 am 19. November 1991 und bestimmte November 1991 sowie jeden folgenden November als Bibliotheksmonat. Das Dekret beauftragte die Nationalbibliothek und ein Präsidialkomitee für Kultur; der Monat ist von der ebenfalls im November gefeierten Buchwoche zu unterscheiden.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee sind die genannten oder beteiligten Stellen für dieses philippinische Programm und seine Aktivitäten.",
+          "purpose": "Informationszugang, Bibliotheken und lebenslanges Lernen fördern.",
+          "facts": [
+            "Der Monat der Bibliotheken und Informationsdienste unterstreicht den Zugang zu verlässlichen Materialien für lebenslanges Lernen, Forschung und Freizeit.",
+            "Corazon Aquino unterzeichnete Proklamation Nr. 837 am 19. November 1991 und bestimmte November 1991 sowie jeden folgenden November als Bibliotheksmonat.",
+            "Das Dekret beauftragte die Nationalbibliothek und ein Präsidialkomitee für Kultur; der Monat ist von der ebenfalls im November gefeierten Buchwoche zu unterscheiden."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: Mês das Bibliotecas e dos Serviços de Informação",
+          "origin": "O Mês das Bibliotecas e dos Serviços de Informação destaca o acesso a materiais fiáveis para aprendizagem, investigação e lazer. Corazon Aquino assinou a Proclamação n.º 837 em 19 de novembro de 1991, instituindo novembro de 1991 e todos os anos seguintes como mês das bibliotecas. O decreto envolveu a Biblioteca Nacional e um comité cultural presidencial; o mês é distinto da Semana Nacional do Livro de novembro.",
+          "promoter": "National Library and Presidential Commission on Culture and Arts Library and Information Services Committee são as instituições designadas ou participantes no programa filipino e nas atividades públicas.",
+          "purpose": "Promover acesso à informação, bibliotecas e aprendizagem ao longo da vida.",
+          "facts": [
+            "O Mês das Bibliotecas e dos Serviços de Informação destaca o acesso a materiais fiáveis para aprendizagem, investigação e lazer.",
+            "Corazon Aquino assinou a Proclamação n.º 837 em 19 de novembro de 1991, instituindo novembro de 1991 e todos os anos seguintes como mês das bibliotecas.",
+            "O decreto envolveu a Biblioteca Nacional e um comité cultural presidencial; o mês é distinto da Semana Nacional do Livro de novembro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Lawphil/official government primary proclamation cross-read against NCCA recurring calendar, with separate historical legal dates and changed month where applicable. Six-language AI research narrative pending qualified human factual and native-language editorial review."
+    },
+    {
+      "observanceId": "ph-w13-traditional-and-alternative-health-month-philippines",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2004,
+      "firstObservedYear": null,
+      "legalStatus": "PH_SPECIFIC_NATIONAL_MONTH_OR_WEEK_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_TRADITIONAL_HEALTH_1997_LAW_2004_MONTH",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2004/proc_698_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Traditional and Alternative Health Month",
+          "origin": "Traditional and Alternative Health Month encourages public awareness of approaches to care discussed under Philippine health policy and the need to evaluate their safety, evidence and availability. Republic Act No. 8423, the Traditional and Alternative Medicine Act of 1997, established an institutional policy framework and the Philippine Institute of Traditional and Alternative Health Care. Proclamation No. 698 of 19 August 2004 declared November Traditional and Alternative Health Month and assigned activities to that institute and the Department of Health; the 1997 law is a predecessor, not the month's own enactment.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health are the institutions named or involved in the statutory Philippine programme and its public activities.",
+          "purpose": "Explain the policy history of traditional medicine and support evidence-informed, safe health decisions.",
+          "facts": [
+            "Traditional and Alternative Health Month encourages public awareness of approaches to care discussed under Philippine health policy and the need to evaluate their safety, evidence and availability.",
+            "Republic Act No. 8423, the Traditional and Alternative Medicine Act of 1997, established an institutional policy framework and the Philippine Institute of Traditional and Alternative Health Care.",
+            "Proclamation No. 698 of 19 August 2004 declared November Traditional and Alternative Health Month and assigned activities to that institute and the Department of Health; the 1997 law is a predecessor, not the month's own enactment."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: il Mese della salute tradizionale e complementare",
+          "origin": "Il Mese della salute tradizionale e alternativa promuove conoscenza delle pratiche previste dalle politiche sanitarie filippine e invita a valutarne sicurezza, prove e disponibilità. La Legge della Repubblica n. 8423 del 1997 definì un quadro istituzionale per la medicina tradizionale e alternativa e istituì il relativo istituto nazionale. La Proclamazione n. 698 del 19 agosto 2004 ha istituito novembre come mese dedicato, affidandolo all'istituto e al Dipartimento della salute: la legge del 1997 è un antecedente.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health sono gli enti indicati o coinvolti nella ricorrenza filippina e nelle relative attività pubbliche.",
+          "purpose": "Spiegare la storia delle politiche sanitarie e favorire decisioni sicure basate sulle prove.",
+          "facts": [
+            "Il Mese della salute tradizionale e alternativa promuove conoscenza delle pratiche previste dalle politiche sanitarie filippine e invita a valutarne sicurezza, prove e disponibilità.",
+            "La Legge della Repubblica n. 8423 del 1997 definì un quadro istituzionale per la medicina tradizionale e alternativa e istituì il relativo istituto nazionale.",
+            "La Proclamazione n. 698 del 19 agosto 2004 ha istituito novembre come mese dedicato, affidandolo all'istituto e al Dipartimento della salute: la legge del 1997 è un antecedente."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: Mes de la Salud Tradicional y Alternativa",
+          "origin": "El Mes de la Salud Tradicional y Alternativa promueve el conocimiento de enfoques de atención contemplados en la política sanitaria y su evaluación en seguridad y eficacia. La Ley de la República n.º 8423 de 1997 definió el marco de la medicina tradicional y alternativa y creó el instituto especializado. La Proclamación n.º 698 del 19 de agosto de 2004 estableció noviembre y encargó las actividades al instituto y al Ministerio de Salud; la ley de 1997 es anterior.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health son las instituciones designadas o vinculadas al programa filipino y sus actividades públicas.",
+          "purpose": "Explicar la política de salud y fomentar decisiones seguras basadas en evidencia.",
+          "facts": [
+            "El Mes de la Salud Tradicional y Alternativa promueve el conocimiento de enfoques de atención contemplados en la política sanitaria y su evaluación en seguridad y eficacia.",
+            "La Ley de la República n.º 8423 de 1997 definió el marco de la medicina tradicional y alternativa y creó el instituto especializado.",
+            "La Proclamación n.º 698 del 19 de agosto de 2004 estableció noviembre y encargó las actividades al instituto y al Ministerio de Salud; la ley de 1997 es anterior."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : le Mois de la santé traditionnelle et complémentaire",
+          "origin": "Le Mois de la santé traditionnelle et complémentaire invite à connaître les pratiques de soins abordées par la politique de santé et à examiner leurs preuves et leur sécurité. La loi de la République nº 8423 de 1997 a fixé un cadre institutionnel pour les soins traditionnels et complémentaires et créé l'institut spécialisé. La proclamation nº 698 du 19 août 2004 a institué novembre et confié les activités à l'institut et au ministère de la Santé; la loi de 1997 est antérieure.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health sont les organismes chargés ou associés à ce programme philippin et à ses activités.",
+          "purpose": "Expliquer l'histoire de cette politique sanitaire et soutenir des choix de santé éclairés.",
+          "facts": [
+            "Le Mois de la santé traditionnelle et complémentaire invite à connaître les pratiques de soins abordées par la politique de santé et à examiner leurs preuves et leur sécurité.",
+            "La loi de la République nº 8423 de 1997 a fixé un cadre institutionnel pour les soins traditionnels et complémentaires et créé l'institut spécialisé.",
+            "La proclamation nº 698 du 19 août 2004 a institué novembre et confié les activités à l'institut et au ministère de la Santé; la loi de 1997 est antérieure."
+          ]
+        },
+        "de": {
+          "heading": "November: Monat der traditionellen und alternativen Gesundheit",
+          "origin": "Der Monat der traditionellen und alternativen Gesundheit macht Versorgungsansätze bekannt und betont die Bedeutung ihrer wissenschaftlichen Bewertung und Sicherheit. Republikgesetz Nr. 8423 von 1997 schuf den institutionellen Rahmen für traditionelle und alternative Medizin und das zuständige Institut. Proklamation Nr. 698 vom 19. August 2004 bestimmte November als Aktionsmonat unter Leitung des Instituts und Gesundheitsministeriums; das Gesetz von 1997 ist der Vorläufer.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health sind die genannten oder beteiligten Stellen für dieses philippinische Programm und seine Aktivitäten.",
+          "purpose": "Die Gesundheitsgesetzgebung erläutern und sichere, evidenzbasierte Entscheidungen unterstützen.",
+          "facts": [
+            "Der Monat der traditionellen und alternativen Gesundheit macht Versorgungsansätze bekannt und betont die Bedeutung ihrer wissenschaftlichen Bewertung und Sicherheit.",
+            "Republikgesetz Nr. 8423 von 1997 schuf den institutionellen Rahmen für traditionelle und alternative Medizin und das zuständige Institut.",
+            "Proklamation Nr. 698 vom 19. August 2004 bestimmte November als Aktionsmonat unter Leitung des Instituts und Gesundheitsministeriums; das Gesetz von 1997 ist der Vorläufer."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: Mês da Saúde Tradicional e Alternativa",
+          "origin": "O Mês da Saúde Tradicional e Alternativa divulga práticas abrangidas pela política sanitária e destaca a necessidade de avaliar segurança e evidência. A Lei da República n.º 8423 de 1997 definiu o quadro institucional dos cuidados tradicionais e alternativos e criou um instituto específico. A Proclamação n.º 698 de 19 de agosto de 2004 instituiu novembro e atribuiu ações ao instituto e ao Departamento da Saúde; a lei de 1997 é anterior.",
+          "promoter": "Philippine Institute of Traditional and Alternative Health Care and Department of Health são as instituições designadas ou participantes no programa filipino e nas atividades públicas.",
+          "purpose": "Explicar a política de saúde e apoiar decisões seguras baseadas em evidências.",
+          "facts": [
+            "O Mês da Saúde Tradicional e Alternativa divulga práticas abrangidas pela política sanitária e destaca a necessidade de avaliar segurança e evidência.",
+            "A Lei da República n.º 8423 de 1997 definiu o quadro institucional dos cuidados tradicionais e alternativos e criou um instituto específico.",
+            "A Proclamação n.º 698 de 19 de agosto de 2004 instituiu novembro e atribuiu ações ao instituto e ao Departamento da Saúde; a lei de 1997 é anterior."
+          ]
+        }
+      },
+      "sourceReviewNote": "Lawphil/official government primary proclamation cross-read against NCCA recurring calendar, with separate historical legal dates and changed month where applicable. Six-language AI research narrative pending qualified human factual and native-language editorial review."
+    },
+    {
+      "observanceId": "ph-w13-philippine-book-development-month",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1999,
+      "firstObservedYear": 1997,
+      "legalStatus": "PH_SPECIFIC_NATIONAL_MONTH_OR_WEEK_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_BOOK_DEVELOPMENT_1997_1999_JUNE_TO_NOVEMBER_2008",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1999/proc_120_1999.html",
+        "https://lawphil.net/executive/proc/proc2007/proc_1436_2007.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Book Development Month moved from June in 2008",
+          "origin": "Philippine Book Development Month supports book publishing, readership and cultural and educational access to printed and digital books. It is not identical to the seven-day National Book Week. Earlier year-specific June campaigns took place in 1997 and 1998. Proclamation No. 120 of 25 June 1999 then established June as an annual Book Development Month, linked to the 1995 Book Publishing Industry Development Act. Proclamation No. 1436 of 17 December 2007 moved the month from June to November starting in 2008, to improve student participation and align it with National Book Week on 24–30 November.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers are the institutions named or involved in the statutory Philippine programme and its public activities.",
+          "purpose": "Promote Filipino publishing, reading, book access and participation in the national book sector.",
+          "facts": [
+            "Philippine Book Development Month supports book publishing, readership and cultural and educational access to printed and digital books. It is not identical to the seven-day National Book Week.",
+            "Earlier year-specific June campaigns took place in 1997 and 1998. Proclamation No. 120 of 25 June 1999 then established June as an annual Book Development Month, linked to the 1995 Book Publishing Industry Development Act.",
+            "Proclamation No. 1436 of 17 December 2007 moved the month from June to November starting in 2008, to improve student participation and align it with National Book Week on 24–30 November."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: il Mese dello sviluppo editoriale era in giugno",
+          "origin": "Il Mese dello sviluppo del libro filippino valorizza editoria, lettura e accesso ai libri stampati e digitali, ed è distinto dalla Settimana nazionale del libro di sette giorni. Campagne specifiche si svolsero a giugno nel 1997 e 1998. La Proclamazione n. 120 del 25 giugno 1999 istituì poi giugno ogni anno, richiamando la legge sull'editoria del 1995. La Proclamazione n. 1436 del 17 dicembre 2007 spostò il mese da giugno a novembre a partire dal 2008, per favorire gli studenti e allinearlo alla Settimana del libro del 24–30 novembre.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers sono gli enti indicati o coinvolti nella ricorrenza filippina e nelle relative attività pubbliche.",
+          "purpose": "Promuovere l'editoria filippina, la lettura e l'accesso ai libri.",
+          "facts": [
+            "Il Mese dello sviluppo del libro filippino valorizza editoria, lettura e accesso ai libri stampati e digitali, ed è distinto dalla Settimana nazionale del libro di sette giorni.",
+            "Campagne specifiche si svolsero a giugno nel 1997 e 1998. La Proclamazione n. 120 del 25 giugno 1999 istituì poi giugno ogni anno, richiamando la legge sull'editoria del 1995.",
+            "La Proclamazione n. 1436 del 17 dicembre 2007 spostò il mese da giugno a novembre a partire dal 2008, per favorire gli studenti e allinearlo alla Settimana del libro del 24–30 novembre."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: el Mes del Libro se celebraba antes en junio",
+          "origin": "El Mes del Desarrollo del Libro fomenta edición, lectura y acceso cultural y educativo a libros impresos y digitales; no equivale a la Semana Nacional del Libro. Hubo campañas en junio de 1997 y 1998. La Proclamación n.º 120 del 25 de junio de 1999 estableció junio cada año, vinculándolo con la ley editorial de 1995. La Proclamación n.º 1436 del 17 de diciembre de 2007 trasladó el mes a noviembre desde 2008 para facilitar la participación estudiantil y coincidir con la Semana del Libro.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers son las instituciones designadas o vinculadas al programa filipino y sus actividades públicas.",
+          "purpose": "Fomentar la edición filipina, la lectura y el acceso a libros.",
+          "facts": [
+            "El Mes del Desarrollo del Libro fomenta edición, lectura y acceso cultural y educativo a libros impresos y digitales; no equivale a la Semana Nacional del Libro.",
+            "Hubo campañas en junio de 1997 y 1998. La Proclamación n.º 120 del 25 de junio de 1999 estableció junio cada año, vinculándolo con la ley editorial de 1995.",
+            "La Proclamación n.º 1436 del 17 de diciembre de 2007 trasladó el mes a noviembre desde 2008 para facilitar la participación estudiantil y coincidir con la Semana del Libro."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : le Mois du développement du livre était auparavant en juin",
+          "origin": "Le Mois du développement du livre favorise l'édition, la lecture et l'accès aux ouvrages imprimés ou numériques, distinct de la Semaine nationale du livre. Des campagnes ont eu lieu en juin 1997 et 1998. La proclamation nº 120 du 25 juin 1999 a ensuite retenu juin chaque année, en lien avec la loi sur l'édition de 1995. La proclamation nº 1436 du 17 décembre 2007 a transféré ce mois en novembre dès 2008 pour améliorer la participation des élèves et rejoindre la Semaine du livre.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers sont les organismes chargés ou associés à ce programme philippin et à ses activités.",
+          "purpose": "Favoriser l'édition philippine, la lecture et l'accès aux livres.",
+          "facts": [
+            "Le Mois du développement du livre favorise l'édition, la lecture et l'accès aux ouvrages imprimés ou numériques, distinct de la Semaine nationale du livre.",
+            "Des campagnes ont eu lieu en juin 1997 et 1998. La proclamation nº 120 du 25 juin 1999 a ensuite retenu juin chaque année, en lien avec la loi sur l'édition de 1995.",
+            "La proclamation nº 1436 du 17 décembre 2007 a transféré ce mois en novembre dès 2008 pour améliorer la participation des élèves et rejoindre la Semaine du livre."
+          ]
+        },
+        "de": {
+          "heading": "November: Der Buchentwicklungsmonat lag früher im Juni",
+          "origin": "Der philippinische Buchentwicklungsmonat fördert Verlagswesen, Lesekultur und Zugang zu gedruckten und digitalen Büchern, getrennt von der nationalen Buchwoche. 1997 und 1998 gab es jeweils Buchkampagnen im Juni. Proklamation Nr. 120 vom 25. Juni 1999 führte den jährlichen Junimonat ein und verwies auf das Buchfördergesetz von 1995. Proklamation Nr. 1436 vom 17. Dezember 2007 verschob den Monat ab 2008 auf November, um Schüler stärker zu beteiligen und zur Buchwoche zu passen.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers sind die genannten oder beteiligten Stellen für dieses philippinische Programm und seine Aktivitäten.",
+          "purpose": "Philippinisches Verlagswesen, Lesen und Zugang zu Büchern fördern.",
+          "facts": [
+            "Der philippinische Buchentwicklungsmonat fördert Verlagswesen, Lesekultur und Zugang zu gedruckten und digitalen Büchern, getrennt von der nationalen Buchwoche.",
+            "1997 und 1998 gab es jeweils Buchkampagnen im Juni. Proklamation Nr. 120 vom 25. Juni 1999 führte den jährlichen Junimonat ein und verwies auf das Buchfördergesetz von 1995.",
+            "Proklamation Nr. 1436 vom 17. Dezember 2007 verschob den Monat ab 2008 auf November, um Schüler stärker zu beteiligen und zur Buchwoche zu passen."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: o Mês do Desenvolvimento do Livro era em junho",
+          "origin": "O Mês do Desenvolvimento do Livro promove edição, leitura e acesso a obras impressas e digitais, diferente da Semana Nacional do Livro. Houve campanhas em junho de 1997 e 1998. A Proclamação n.º 120 de 25 de junho de 1999 instituiu junho anualmente, ligada à lei editorial de 1995. A Proclamação n.º 1436 de 17 de dezembro de 2007 transferiu o mês para novembro desde 2008, facilitando a participação escolar e ligando-o à Semana do Livro.",
+          "promoter": "National Book Development Board and participating Philippine schools and publishers são as instituições designadas ou participantes no programa filipino e nas atividades públicas.",
+          "purpose": "Promover a edição filipina, a leitura e o acesso a livros.",
+          "facts": [
+            "O Mês do Desenvolvimento do Livro promove edição, leitura e acesso a obras impressas e digitais, diferente da Semana Nacional do Livro.",
+            "Houve campanhas em junho de 1997 e 1998. A Proclamação n.º 120 de 25 de junho de 1999 instituiu junho anualmente, ligada à lei editorial de 1995.",
+            "A Proclamação n.º 1436 de 17 de dezembro de 2007 transferiu o mês para novembro desde 2008, facilitando a participação escolar e ligando-o à Semana do Livro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Lawphil/official government primary proclamation cross-read against NCCA recurring calendar, with separate historical legal dates and changed month where applicable. Six-language AI research narrative pending qualified human factual and native-language editorial review."
+    },
+    {
+      "observanceId": "ph-w13-national-culture-consciousness-week",
+      "country": "PH",
+      "observanceDate": "JUL01_JUL07",
+      "observancePeriodKind": "WEEK",
+      "introducedYear": 1973,
+      "firstObservedYear": null,
+      "legalStatus": "PH_SPECIFIC_NATIONAL_MONTH_OR_WEEK_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_NATIONAL_CULTURE_AWARENESS_WEEK_1973",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1973/proc_1148_1973.html",
+        "https://lawphil.net/executive/mc/mc1973/mc_644_1973.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1–7 July: Philippine National Culture Consciousness Week",
+          "origin": "National Culture Consciousness Week highlights Philippine cultural heritage, arts, writing and the varied customs of its communities within a national conversation about shared identity. Proclamation No. 1148 of 31 May 1973 designated 1–7 July of every year, referring to cultural preservation, national identity and the constitutional recognition of cultural communities. Memorandum Circular No. 644 of 25 June 1973 directed government offices and schools to organize cultural displays, exhibitions and educational visits during the first week.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions are the institutions named or involved in the statutory Philippine programme and its public activities.",
+          "purpose": "Encourage awareness of cultural heritage and participation in arts, literature and local traditions.",
+          "facts": [
+            "National Culture Consciousness Week highlights Philippine cultural heritage, arts, writing and the varied customs of its communities within a national conversation about shared identity.",
+            "Proclamation No. 1148 of 31 May 1973 designated 1–7 July of every year, referring to cultural preservation, national identity and the constitutional recognition of cultural communities.",
+            "Memorandum Circular No. 644 of 25 June 1973 directed government offices and schools to organize cultural displays, exhibitions and educational visits during the first week."
+          ]
+        },
+        "it": {
+          "heading": "1–7 luglio: Settimana nazionale della consapevolezza culturale",
+          "origin": "La Settimana nazionale della consapevolezza culturale valorizza patrimonio, arti, letteratura e le diverse tradizioni delle comunità filippine in un dialogo sull'identità comune. La Proclamazione n. 1148 del 31 maggio 1973 fissò ogni anno il periodo 1–7 luglio, richiamando patrimonio culturale, identità nazionale e comunità culturali. La Circolare n. 644 del 25 giugno 1973 invitò uffici pubblici e scuole a organizzare mostre, attività culturali e visite educative durante la settimana.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions sono gli enti indicati o coinvolti nella ricorrenza filippina e nelle relative attività pubbliche.",
+          "purpose": "Favorire conoscenza del patrimonio culturale e partecipazione ad arti e tradizioni.",
+          "facts": [
+            "La Settimana nazionale della consapevolezza culturale valorizza patrimonio, arti, letteratura e le diverse tradizioni delle comunità filippine in un dialogo sull'identità comune.",
+            "La Proclamazione n. 1148 del 31 maggio 1973 fissò ogni anno il periodo 1–7 luglio, richiamando patrimonio culturale, identità nazionale e comunità culturali.",
+            "La Circolare n. 644 del 25 giugno 1973 invitò uffici pubblici e scuole a organizzare mostre, attività culturali e visite educative durante la settimana."
+          ]
+        },
+        "es": {
+          "heading": "1–7 de julio: Semana Nacional de Conciencia Cultural",
+          "origin": "La Semana Nacional de Conciencia Cultural destaca patrimonio, artes, letras y costumbres diversas de las comunidades filipinas en el debate sobre identidad compartida. La Proclamación n.º 1148 del 31 de mayo de 1973 fijó el periodo del 1 al 7 de julio de cada año, relacionado con patrimonio e identidad. La Circular n.º 644 del 25 de junio de 1973 encargó a oficinas y escuelas exposiciones, actos culturales y visitas educativas durante la semana.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions son las instituciones designadas o vinculadas al programa filipino y sus actividades públicas.",
+          "purpose": "Fomentar el conocimiento del patrimonio y la participación en artes y tradiciones.",
+          "facts": [
+            "La Semana Nacional de Conciencia Cultural destaca patrimonio, artes, letras y costumbres diversas de las comunidades filipinas en el debate sobre identidad compartida.",
+            "La Proclamación n.º 1148 del 31 de mayo de 1973 fijó el periodo del 1 al 7 de julio de cada año, relacionado con patrimonio e identidad.",
+            "La Circular n.º 644 del 25 de junio de 1973 encargó a oficinas y escuelas exposiciones, actos culturales y visitas educativas durante la semana."
+          ]
+        },
+        "fr": {
+          "heading": "1er–7 juillet : Semaine nationale de sensibilisation culturelle",
+          "origin": "La Semaine nationale de sensibilisation culturelle valorise patrimoine, arts, lettres et traditions des communautés philippines dans leur diversité. La proclamation nº 1148 du 31 mai 1973 a retenu du 1er au 7 juillet chaque année, en référence à la préservation du patrimoine et à l'identité nationale. La circulaire nº 644 du 25 juin 1973 a prévu des expositions, des activités culturelles et des visites pédagogiques dans les écoles et administrations.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions sont les organismes chargés ou associés à ce programme philippin et à ses activités.",
+          "purpose": "Favoriser la connaissance du patrimoine et la participation aux arts et traditions.",
+          "facts": [
+            "La Semaine nationale de sensibilisation culturelle valorise patrimoine, arts, lettres et traditions des communautés philippines dans leur diversité.",
+            "La proclamation nº 1148 du 31 mai 1973 a retenu du 1er au 7 juillet chaque année, en référence à la préservation du patrimoine et à l'identité nationale.",
+            "La circulaire nº 644 du 25 juin 1973 a prévu des expositions, des activités culturelles et des visites pédagogiques dans les écoles et administrations."
+          ]
+        },
+        "de": {
+          "heading": "1.–7. Juli: Nationale Woche des Kulturbewusstseins",
+          "origin": "Die nationale Woche des Kulturbewusstseins würdigt Erbe, Kunst, Literatur und unterschiedliche Traditionen philippinischer Gemeinschaften. Proklamation Nr. 1148 vom 31. Mai 1973 legte jährlich den 1. bis 7. Juli fest und bezog sich auf Kulturerbe und nationale Identität. Rundschreiben Nr. 644 vom 25. Juni 1973 wies Behörden und Schulen an, Ausstellungen, kulturelle Veranstaltungen und Bildungsbesuche zu organisieren.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions sind die genannten oder beteiligten Stellen für dieses philippinische Programm und seine Aktivitäten.",
+          "purpose": "Wissen über Kulturerbe sowie Teilnahme an Kunst und Traditionen fördern.",
+          "facts": [
+            "Die nationale Woche des Kulturbewusstseins würdigt Erbe, Kunst, Literatur und unterschiedliche Traditionen philippinischer Gemeinschaften.",
+            "Proklamation Nr. 1148 vom 31. Mai 1973 legte jährlich den 1. bis 7. Juli fest und bezog sich auf Kulturerbe und nationale Identität.",
+            "Rundschreiben Nr. 644 vom 25. Juni 1973 wies Behörden und Schulen an, Ausstellungen, kulturelle Veranstaltungen und Bildungsbesuche zu organisieren."
+          ]
+        },
+        "pt": {
+          "heading": "1–7 de julho: Semana Nacional de Consciência Cultural",
+          "origin": "A Semana Nacional de Consciência Cultural valoriza património, artes, literatura e tradições diversas das comunidades filipinas. A Proclamação n.º 1148 de 31 de maio de 1973 fixou 1 a 7 de julho todos os anos, referindo património e identidade nacional. A Circular n.º 644 de 25 de junho de 1973 orientou escolas e órgãos públicos para exposições, atividades culturais e visitas educativas.",
+          "promoter": "Presidential committee and Philippine government cultural and educational institutions são as instituições designadas ou participantes no programa filipino e nas atividades públicas.",
+          "purpose": "Promover conhecimento do património e participação nas artes e tradições.",
+          "facts": [
+            "A Semana Nacional de Consciência Cultural valoriza património, artes, literatura e tradições diversas das comunidades filipinas.",
+            "A Proclamação n.º 1148 de 31 de maio de 1973 fixou 1 a 7 de julho todos os anos, referindo património e identidade nacional.",
+            "A Circular n.º 644 de 25 de junho de 1973 orientou escolas e órgãos públicos para exposições, atividades culturais e visitas educativas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Lawphil/official government primary proclamation cross-read against NCCA recurring calendar, with separate historical legal dates and changed month where applicable. Six-language AI research narrative pending qualified human factual and native-language editorial review."
+    },
+    {
+      "observanceId": "ph-w13-conservation-and-protection-of-the-tamaraw-month",
+      "country": "PH",
+      "observanceDate": "OCTOBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "legalStatus": "PH_SPECIFIC_NATIONAL_MONTH_OR_WEEK_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_TAMARAW_MINDORO_ENDEMIC_CONSERVATION_2002",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2002/proc_273_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "October: a whole month for Mindoro's tamaraw",
+          "origin": "The Tamaraw Conservation Month focuses on protecting the tamaraw, Bubalus mindorensis, a small wild buffalo endemic to Mindoro in the Philippines and threatened by habitat loss and other pressures. Proclamation No. 273 of 14 October 2002 designated October of every year as a special month for conservation and protection of the tamaraw and its habitats in Mindoro. The provincial governments of Oriental and Occidental Mindoro lead implementation, with the environment department's Tamaraw Conservation Program coordinating; this month is distinct from generic global wildlife days.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program are the institutions named or involved in the statutory Philippine programme and its public activities.",
+          "purpose": "Protect the tamaraw and its natural habitat by engaging the communities and institutions of Mindoro.",
+          "facts": [
+            "The Tamaraw Conservation Month focuses on protecting the tamaraw, Bubalus mindorensis, a small wild buffalo endemic to Mindoro in the Philippines and threatened by habitat loss and other pressures.",
+            "Proclamation No. 273 of 14 October 2002 designated October of every year as a special month for conservation and protection of the tamaraw and its habitats in Mindoro.",
+            "The provincial governments of Oriental and Occidental Mindoro lead implementation, with the environment department's Tamaraw Conservation Program coordinating; this month is distinct from generic global wildlife days."
+          ]
+        },
+        "it": {
+          "heading": "Ottobre: un mese per il tamaraw di Mindoro",
+          "origin": "Il Mese di tutela del tamaraw protegge il Bubalus mindorensis, un piccolo bovide selvatico endemico di Mindoro, minacciato dalla perdita degli habitat e da altre pressioni. La Proclamazione n. 273 del 14 ottobre 2002 ha istituito ogni ottobre come mese speciale per la conservazione del tamaraw e del suo habitat a Mindoro. Le province di Mindoro Orientale e Occidentale guidano le iniziative con il Programma di conservazione del tamaraw del dipartimento ambientale; non è una generica giornata mondiale della fauna.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program sono gli enti indicati o coinvolti nella ricorrenza filippina e nelle relative attività pubbliche.",
+          "purpose": "Proteggere il tamaraw e i suoi habitat coinvolgendo comunità e istituzioni di Mindoro.",
+          "facts": [
+            "Il Mese di tutela del tamaraw protegge il Bubalus mindorensis, un piccolo bovide selvatico endemico di Mindoro, minacciato dalla perdita degli habitat e da altre pressioni.",
+            "La Proclamazione n. 273 del 14 ottobre 2002 ha istituito ogni ottobre come mese speciale per la conservazione del tamaraw e del suo habitat a Mindoro.",
+            "Le province di Mindoro Orientale e Occidentale guidano le iniziative con il Programma di conservazione del tamaraw del dipartimento ambientale; non è una generica giornata mondiale della fauna."
+          ]
+        },
+        "es": {
+          "heading": "Octubre: un mes para proteger al tamarao de Mindoro",
+          "origin": "El Mes de Conservación del Tamarao protege al Bubalus mindorensis, un bóvido salvaje endémico de Mindoro amenazado por la pérdida de hábitat. La Proclamación n.º 273 del 14 de octubre de 2002 estableció octubre como mes especial para conservar el tamarao y sus hábitats en Mindoro. Los gobiernos de Mindoro Oriental y Occidental organizan la iniciativa con el programa de conservación del departamento ambiental; no es una jornada mundial genérica.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program son las instituciones designadas o vinculadas al programa filipino y sus actividades públicas.",
+          "purpose": "Proteger el tamarao y su hábitat con participación de comunidades e instituciones de Mindoro.",
+          "facts": [
+            "El Mes de Conservación del Tamarao protege al Bubalus mindorensis, un bóvido salvaje endémico de Mindoro amenazado por la pérdida de hábitat.",
+            "La Proclamación n.º 273 del 14 de octubre de 2002 estableció octubre como mes especial para conservar el tamarao y sus hábitats en Mindoro.",
+            "Los gobiernos de Mindoro Oriental y Occidental organizan la iniciativa con el programa de conservación del departamento ambiental; no es una jornada mundial genérica."
+          ]
+        },
+        "fr": {
+          "heading": "Octobre : un mois pour le tamaraw de Mindoro",
+          "origin": "Le Mois de protection du tamaraw est consacré au Bubalus mindorensis, bovidé sauvage endémique de Mindoro menacé notamment par la dégradation de son habitat. La proclamation nº 273 du 14 octobre 2002 a institué octobre chaque année pour la conservation du tamaraw et de ses habitats sur Mindoro. Les gouvernements des provinces de Mindoro oriental et occidental pilotent les actions avec le programme de conservation du ministère de l'Environnement, distinct des journées mondiales de la faune.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program sont les organismes chargés ou associés à ce programme philippin et à ses activités.",
+          "purpose": "Protéger le tamaraw et son habitat avec les communautés et institutions de Mindoro.",
+          "facts": [
+            "Le Mois de protection du tamaraw est consacré au Bubalus mindorensis, bovidé sauvage endémique de Mindoro menacé notamment par la dégradation de son habitat.",
+            "La proclamation nº 273 du 14 octobre 2002 a institué octobre chaque année pour la conservation du tamaraw et de ses habitats sur Mindoro.",
+            "Les gouvernements des provinces de Mindoro oriental et occidental pilotent les actions avec le programme de conservation du ministère de l'Environnement, distinct des journées mondiales de la faune."
+          ]
+        },
+        "de": {
+          "heading": "Oktober: Ein Monat für Mindoros Tamaraw",
+          "origin": "Der Tamaraw-Schutzmonat widmet sich dem Bubalus mindorensis, einem nur auf Mindoro vorkommenden Wildrind, das durch Lebensraumverlust bedroht ist. Proklamation Nr. 273 vom 14. Oktober 2002 bestimmte jeden Oktober als besonderen Schutzmonat für Tamaraws und ihren Lebensraum auf Mindoro. Die Provinzregierungen von Oriental und Occidental Mindoro leiten die Maßnahmen zusammen mit dem Tamaraw-Schutzprogramm des Umweltministeriums; es ist kein allgemeiner Welttiertag.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program sind die genannten oder beteiligten Stellen für dieses philippinische Programm und seine Aktivitäten.",
+          "purpose": "Tamaraws und ihren Lebensraum mit Unterstützung von Gemeinden und Behörden Mindoros schützen.",
+          "facts": [
+            "Der Tamaraw-Schutzmonat widmet sich dem Bubalus mindorensis, einem nur auf Mindoro vorkommenden Wildrind, das durch Lebensraumverlust bedroht ist.",
+            "Proklamation Nr. 273 vom 14. Oktober 2002 bestimmte jeden Oktober als besonderen Schutzmonat für Tamaraws und ihren Lebensraum auf Mindoro.",
+            "Die Provinzregierungen von Oriental und Occidental Mindoro leiten die Maßnahmen zusammen mit dem Tamaraw-Schutzprogramm des Umweltministeriums; es ist kein allgemeiner Welttiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Outubro: um mês para o tamaraw de Mindoro",
+          "origin": "O Mês de Conservação do Tamaraw protege o Bubalus mindorensis, bovídeo selvagem endémico de Mindoro ameaçado pela perda de habitat. A Proclamação n.º 273 de 14 de outubro de 2002 instituiu outubro como mês especial de conservação do tamaraw e dos seus habitats em Mindoro. Os governos de Mindoro Oriental e Ocidental lideram as ações com o Programa de Conservação do Tamaraw do departamento ambiental; não é uma jornada global genérica.",
+          "promoter": "Provincial governments of Oriental and Occidental Mindoro and Department of Environment and Natural Resources Tamaraw Conservation Program são as instituições designadas ou participantes no programa filipino e nas atividades públicas.",
+          "purpose": "Proteger o tamaraw e os seus habitats com as comunidades e instituições de Mindoro.",
+          "facts": [
+            "O Mês de Conservação do Tamaraw protege o Bubalus mindorensis, bovídeo selvagem endémico de Mindoro ameaçado pela perda de habitat.",
+            "A Proclamação n.º 273 de 14 de outubro de 2002 instituiu outubro como mês especial de conservação do tamaraw e dos seus habitats em Mindoro.",
+            "Os governos de Mindoro Oriental e Ocidental lideram as ações com o Programa de Conservação do Tamaraw do departamento ambiental; não é uma jornada global genérica."
+          ]
+        }
+      },
+      "sourceReviewNote": "Lawphil/official government primary proclamation cross-read against NCCA recurring calendar, with separate historical legal dates and changed month where applicable. Six-language AI research narrative pending qualified human factual and native-language editorial review."
+    }
+  ]
+}

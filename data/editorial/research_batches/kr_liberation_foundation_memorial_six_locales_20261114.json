@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_GOVERNMENT_HISTORY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 3,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-liberation-day",
+      "country": "KR",
+      "observanceDate": "08-15",
+      "introducedYear": 1949,
+      "firstObservedYear": null,
+      "legalStatus": "STATUTORY_NATIONAL_DAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369",
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=128756"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 August: liberation and the founding of modern Korea",
+          "origin": "National Liberation Day in the Republic of Korea recalls the end of Japanese colonial rule on 15 August 1945. The date also marks the establishment of the Republic of Korea's government in 1948, a distinct later milestone. South Korea's National Days Act of 1949 established Liberation Day among the country's original four statutory national days. Government commemorations continue to recall the people who worked for independence and the significance of freedom regained. Historical liberation in 1945, government formation in 1948 and the legal national day in 1949 should not be reduced to a single event.",
+          "promoter": "The Korean independence movement and the new Republic of Korea are central to the history; the legislature formally recognized the annual national day in 1949.",
+          "purpose": "Remember the end of colonial rule, honour independence activists and reflect on the responsibilities of freedom.",
+          "facts": [
+            "Liberation from colonial rule is remembered on 15 August 1945.",
+            "The Republic of Korea government was established on 15 August 1948.",
+            "The original National Days Act dates from 1949."
+          ]
+        },
+        "it": {
+          "heading": "15 agosto: la liberazione e la Corea contemporanea",
+          "origin": "Il Giorno della liberazione della Repubblica di Corea ricorda la fine del dominio coloniale giapponese, avvenuta il 15 agosto 1945. La stessa data segna anche l'istituzione del governo della Repubblica di Corea nel 1948, un avvenimento successivo e distinto. La legge sulle giornate nazionali del 1949 inserì la Liberazione tra le quattro ricorrenze nazionali originarie. Le celebrazioni pubbliche ricordano le persone impegnate nella lotta indipendentista e il valore della libertà riconquistata. Liberazione del 1945, nascita del governo nel 1948 e riconoscimento legale nel 1949 non sono lo stesso evento.",
+          "promoter": "Il movimento indipendentista e le istituzioni della nuova Repubblica hanno un ruolo centrale; il legislatore riconobbe la giornata nel 1949.",
+          "purpose": "Ricordare la fine del dominio coloniale, onorare gli indipendentisti e riflettere sul valore della libertà.",
+          "facts": [
+            "La liberazione è ricordata il 15 agosto 1945.",
+            "Il governo della Repubblica di Corea fu istituito il 15 agosto 1948.",
+            "La legge sulle giornate nazionali risale al 1949."
+          ]
+        },
+        "es": {
+          "heading": "15 de agosto: liberación y Corea contemporánea",
+          "origin": "El Día de la Liberación de la República de Corea recuerda el final del dominio colonial japonés el 15 de agosto de 1945. La misma fecha señala también el establecimiento del Gobierno de la República de Corea en 1948, un hito posterior y diferente. La Ley de Días Nacionales de 1949 incluyó la Liberación entre las cuatro primeras fechas nacionales. Las ceremonias gubernamentales recuerdan a quienes lucharon por la independencia y el significado de recuperar la libertad. La liberación de 1945, la formación del Gobierno en 1948 y el reconocimiento legal en 1949 no deben confundirse.",
+          "promoter": "El movimiento independentista y las instituciones de la nueva República son protagonistas; la legislación reconoció la fecha en 1949.",
+          "purpose": "Recordar el final del dominio colonial, honrar a quienes lucharon por la independencia y reflexionar sobre la libertad.",
+          "facts": [
+            "La liberación se recuerda el 15 de agosto de 1945.",
+            "El Gobierno de la República de Corea se estableció el 15 de agosto de 1948.",
+            "La Ley de Días Nacionales se aprobó en 1949."
+          ]
+        },
+        "fr": {
+          "heading": "15 août : libération et naissance de la Corée moderne",
+          "origin": "La Journée de la libération en République de Corée rappelle la fin de la domination coloniale japonaise le 15 août 1945. Cette date marque également la création du gouvernement de la République de Corée en 1948, un jalon ultérieur bien distinct. La loi de 1949 sur les fêtes nationales a fait de la Libération l'une des quatre premières fêtes nationales légales. Les cérémonies officielles honorent les personnes engagées pour l'indépendance et soulignent la portée de la liberté retrouvée. La libération de 1945, l'installation du gouvernement en 1948 et la loi de 1949 sont trois étapes différentes.",
+          "promoter": "Le mouvement indépendantiste et les institutions de la République ont façonné la mémoire de la date; le Parlement l'a reconnue en 1949.",
+          "purpose": "Se souvenir de la fin de la domination coloniale et rendre hommage aux défenseurs de l'indépendance.",
+          "facts": [
+            "La libération est commémorée le 15 août 1945.",
+            "Le gouvernement de la République de Corée a été établi le 15 août 1948.",
+            "La loi sur les fêtes nationales remonte à 1949."
+          ]
+        },
+        "de": {
+          "heading": "15. August: Befreiung und Beginn des modernen Korea",
+          "origin": "Der Befreiungstag in der Republik Korea erinnert an das Ende der japanischen Kolonialherrschaft am 15. August 1945. Am selben Kalendertag im Jahr 1948 wurde außerdem die Regierung der Republik Korea gegründet – ein anderes, späteres Ereignis. Mit dem Nationaltagegesetz von 1949 wurde der Befreiungstag unter die vier ursprünglichen staatlichen Gedenktage aufgenommen. Regierungsfeiern würdigen die Menschen, die für Unabhängigkeit kämpften, und die Bedeutung der zurückgewonnenen Freiheit. Befreiung, Regierungsgründung und gesetzliche Anerkennung müssen zeitlich getrennt bleiben.",
+          "promoter": "Die Unabhängigkeitsbewegung und die neue Republik prägten den Anlass; das Parlament legte den staatlichen Tag 1949 fest.",
+          "purpose": "An das Ende der Kolonialherrschaft erinnern und das Engagement für Freiheit und Unabhängigkeit würdigen.",
+          "facts": [
+            "Die Befreiung wird auf den 15. August 1945 datiert.",
+            "Die Regierung der Republik Korea wurde am 15. August 1948 gegründet.",
+            "Das Nationaltagegesetz wurde 1949 erlassen."
+          ]
+        },
+        "pt": {
+          "heading": "15 de agosto: libertação e formação da Coreia moderna",
+          "origin": "O Dia da Libertação na República da Coreia recorda o fim do domínio colonial japonês em 15 de agosto de 1945. A mesma data também assinala a formação do governo da República da Coreia, em 1948, um acontecimento posterior e distinto. A Lei dos Dias Nacionais, de 1949, colocou a Libertação entre as quatro primeiras datas nacionais oficiais. As cerimónias públicas homenageiam quem lutou pela independência e refletem sobre o valor da liberdade recuperada. A libertação em 1945, a formação do governo em 1948 e o reconhecimento legal em 1949 não são o mesmo facto.",
+          "promoter": "O movimento pela independência e as instituições da nova República marcaram a data; o parlamento reconheceu-a em 1949.",
+          "purpose": "Recordar o fim do domínio colonial e homenagear a luta pela liberdade e independência.",
+          "facts": [
+            "A libertação é assinalada em 15 de agosto de 1945.",
+            "O governo da República da Coreia foi estabelecido em 15 de agosto de 1948.",
+            "A lei dos dias nacionais data de 1949."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS, government law and veterans' ministry primary historical sources reviewed; original six-locale AI copy, qualified human historical and native-language review not recorded."
+    },
+    {
+      "observanceId": "kr-national-foundation-day",
+      "country": "KR",
+      "observanceDate": "10-03",
+      "introducedYear": 1949,
+      "firstObservedYear": null,
+      "legalStatus": "STATUTORY_NATIONAL_DAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/celebrationDay/screen.do",
+        "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=33369"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 October: Korea's National Foundation Day",
+          "origin": "National Foundation Day, or Gaecheonjeol, marks the traditional foundation of Gojoseon associated with the legendary figure Dangun. The story belongs to Korea's cultural and mythic heritage; it is not an independently verified modern historical date. The Republic of Korea included 3 October among its four original statutory national days through the 1949 National Days Act. Government explanations connect the commemoration to a long cultural history and to the ideal of Hongik Ingan, the aspiration to benefit humanity broadly. The founding legend and the modern legal holiday are different kinds of historical evidence.",
+          "promoter": "The tradition of Dangun and the foundation of Gojoseon supplies the cultural origin; the Republic of Korea's legislature formalized the national observance.",
+          "purpose": "Reflect on Korean cultural identity and the ideal of benefiting others, while distinguishing cultural tradition from documented history.",
+          "facts": [
+            "Gaecheonjeol is held annually on 3 October.",
+            "The Dangun foundation story is a cultural tradition, not a verified modern event.",
+            "The day appears in the 1949 National Days Act."
+          ]
+        },
+        "it": {
+          "heading": "3 ottobre: il Giorno della fondazione nazionale coreana",
+          "origin": "Il Gaecheonjeol, o Giorno della fondazione nazionale, richiama la fondazione tradizionale di Gojoseon attribuita alla figura leggendaria di Dangun. Il racconto appartiene al patrimonio mitico e culturale coreano: non è una data storica moderna accertata con prove documentali. La Repubblica di Corea inserì il 3 ottobre tra le prime quattro giornate nazionali con la legge del 1949. Le spiegazioni istituzionali collegano la festa alla lunga tradizione del Paese e all'ideale di Hongik Ingan, cioè contribuire al bene dell'umanità. La narrazione delle origini e l'istituzione moderna della giornata sono piani diversi.",
+          "promoter": "La tradizione di Dangun costituisce l'origine culturale; il legislatore della Repubblica di Corea ne formalizzò la ricorrenza.",
+          "purpose": "Riflettere sull'identità culturale coreana e distinguere il racconto tradizionale dai fatti storici documentati.",
+          "facts": [
+            "La giornata ricorre il 3 ottobre.",
+            "La fondazione attribuita a Dangun è una tradizione mitica.",
+            "La legge nazionale che comprende la ricorrenza risale al 1949."
+          ]
+        },
+        "es": {
+          "heading": "3 de octubre: Día de la Fundación Nacional de Corea",
+          "origin": "El Día de la Fundación Nacional, llamado Gaecheonjeol, recuerda la fundación tradicional de Gojoseon vinculada a la figura legendaria de Dangun. Este relato forma parte del patrimonio cultural y mítico coreano; no equivale a una fecha histórica moderna demostrada documentalmente. La República de Corea incorporó el 3 de octubre entre sus cuatro primeros días nacionales mediante la ley de 1949. Las instituciones relacionan la fecha con la historia cultural del país y el ideal de Hongik Ingan, expresado como beneficiar ampliamente a la humanidad. El relato fundacional y el reconocimiento legal son hechos de distinta naturaleza.",
+          "promoter": "La tradición de Dangun aporta el origen cultural; el Parlamento de la República de Corea formalizó la celebración nacional.",
+          "purpose": "Reflexionar sobre la identidad cultural coreana y distinguir la tradición de la historia documentada.",
+          "facts": [
+            "Gaecheonjeol se celebra el 3 de octubre.",
+            "La historia de Dangun pertenece a una tradición legendaria.",
+            "El reconocimiento como día nacional se fijó en la ley de 1949."
+          ]
+        },
+        "fr": {
+          "heading": "3 octobre : la Journée de la fondation nationale de Corée",
+          "origin": "La Journée de la fondation nationale, appelée Gaecheonjeol, évoque la fondation traditionnelle de Gojoseon, associée au personnage légendaire de Dangun. Ce récit fait partie du patrimoine culturel et mythique coréen et ne constitue pas une date historique moderne démontrée. La République de Corée a inscrit le 3 octobre parmi ses quatre premières fêtes nationales par la loi de 1949. Les institutions associent cette journée à l'histoire culturelle du pays et à l'idéal Hongik Ingan, celui d'apporter largement des bienfaits à l'humanité. Le récit des origines et la reconnaissance légale moderne sont deux registres différents.",
+          "promoter": "La tradition de Dangun donne son sens culturel à la journée; le Parlement coréen l'a reconnue en droit.",
+          "purpose": "Réfléchir à l'identité culturelle coréenne en distinguant les traditions des faits historiques vérifiables.",
+          "facts": [
+            "La célébration a lieu le 3 octobre.",
+            "Le récit de Dangun relève de la tradition légendaire.",
+            "La reconnaissance légale figure dans la loi de 1949."
+          ]
+        },
+        "de": {
+          "heading": "3. Oktober: Koreas nationaler Gründungstag",
+          "origin": "Der nationale Gründungstag Gaecheonjeol erinnert an die traditionelle Gründung von Gojoseon, die mit der sagenhaften Gestalt Dangun verbunden wird. Diese Erzählung gehört zum kulturellen und mythologischen Erbe Koreas; sie ist kein unabhängig belegtes modernes Geschichtsdatum. Die Republik Korea nahm den 3. Oktober durch das Nationaltagegesetz von 1949 in die ursprünglichen vier nationalen Gedenktage auf. Staatliche Erläuterungen betonen die lange kulturelle Überlieferung und das Ideal Hongik Ingan, dem zufolge man der Menschheit umfassend nützen soll. Gründungslegende und modernes Feiertagsrecht sind unterschiedliche Ebenen.",
+          "promoter": "Die Dangun-Überlieferung bildet den kulturellen Ursprung; das Parlament der Republik Korea begründete den gesetzlichen Feiertag.",
+          "purpose": "Koreanische kulturelle Identität würdigen und Überlieferung von belegter Geschichte unterscheiden.",
+          "facts": [
+            "Gaecheonjeol wird am 3. Oktober begangen.",
+            "Die Dangun-Erzählung ist eine legendäre Überlieferung.",
+            "Der Tag gehört zum Nationaltagegesetz von 1949."
+          ]
+        },
+        "pt": {
+          "heading": "3 de outubro: Dia da Fundação Nacional da Coreia",
+          "origin": "O Dia da Fundação Nacional, ou Gaecheonjeol, evoca a fundação tradicional de Gojoseon, associada à figura lendária de Dangun. A narrativa pertence ao património cultural e mítico coreano e não constitui uma data histórica moderna comprovada por documentação. A República da Coreia incluiu 3 de outubro entre os quatro primeiros dias nacionais através da lei de 1949. As instituições ligam a celebração à longa história cultural e ao ideal Hongik Ingan, entendido como beneficiar amplamente a humanidade. É necessário distinguir o relato da fundação do reconhecimento legal moderno.",
+          "promoter": "A tradição de Dangun fornece a origem cultural; o parlamento da República da Coreia estabeleceu a comemoração nacional.",
+          "purpose": "Refletir sobre a identidade cultural coreana e distinguir a tradição dos acontecimentos históricos documentados.",
+          "facts": [
+            "Gaecheonjeol é celebrado em 3 de outubro.",
+            "O relato de Dangun pertence à tradição lendária.",
+            "O reconhecimento legal consta da lei de 1949."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS, government law and veterans' ministry primary historical sources reviewed; original six-locale AI copy, qualified human historical and native-language review not recorded."
+    },
+    {
+      "observanceId": "kr-memorial-day",
+      "country": "KR",
+      "observanceDate": "06-06",
+      "introducedYear": 1956,
+      "firstObservedYear": 1956,
+      "legalStatus": "OFFICIAL_GOVERNMENT_MEMORIAL_DAY_DISTINCT_FROM_FIVE_NATIONAL_DAYS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://edu.mpva.go.kr/learn/bohun/detail.do?bsrlNo=1191",
+        "https://www.mpva.go.kr/mpva/selectCmmrInfoWebView.do?cmmrNo=10&key=214&pageIndex=1&pageUnit=12&searchCnd=all&searchUseAt=Y"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 June: South Korea's Memorial Day",
+          "origin": "South Korea's Memorial Day, called Hyeonchungil, is a solemn day dedicated to those who lost their lives for the country, including independence patriots and fallen service members. The Ministry of the Interior and Safety records the designation of 6 June as a public holiday by presidential decree on 19 April 1956. It notes a later regulation of annual ceremonies in 1970 and formal commemorative-day designation in 1982. The Ministry of Patriots and Veterans Affairs confirms that 6 June has been observed since 1956. Memorial Day must not be confused with the country's five celebratory national days.",
+          "promoter": "The Republic of Korea's government established the observance; the Ministry of Patriots and Veterans Affairs organizes national memorial ceremonies.",
+          "purpose": "Remember those who gave their lives for the country and pay respectful tribute to their service and sacrifice.",
+          "facts": [
+            "6 June was designated by presidential decree in April 1956.",
+            "The day has been observed annually since 1956.",
+            "Formal commemorative-day regulations were added in 1982."
+          ]
+        },
+        "it": {
+          "heading": "6 giugno: il Giorno della memoria nazionale sudcoreano",
+          "origin": "Il Memorial Day della Corea del Sud, chiamato Hyeonchungil, è una giornata solenne dedicata alle persone morte per il Paese, fra cui patrioti dell'indipendenza e militari caduti. Il Ministero dell'Interno e della Sicurezza documenta la designazione del 6 giugno come festa pubblica con decreto presidenziale del 19 aprile 1956. Seguono norme sulle cerimonie annuali nel 1970 e il riconoscimento come giornata commemorativa nel 1982. Il Ministero dei Patrioti e dei Veterani conferma la celebrazione dal 1956. Non è una delle cinque giornate nazionali celebrative coreane.",
+          "promoter": "Il governo della Repubblica di Corea istituì la giornata; il Ministero dei Patrioti e dei Veterani organizza le cerimonie nazionali.",
+          "purpose": "Ricordare con rispetto chi ha perso la vita per il Paese e onorarne il servizio e il sacrificio.",
+          "facts": [
+            "Il decreto presidenziale risale all'aprile 1956.",
+            "La ricorrenza viene osservata dal 1956.",
+            "Nel 1982 ricevette un ulteriore riconoscimento commemorativo."
+          ]
+        },
+        "es": {
+          "heading": "6 de junio: Día de los Caídos en Corea del Sur",
+          "origin": "El Día de los Caídos de Corea del Sur, o Hyeonchungil, es una conmemoración solemne dedicada a quienes perdieron la vida por el país, incluidos patriotas de la independencia y militares fallecidos. El Ministerio del Interior y Seguridad documenta que el 6 de junio fue designado festivo mediante decreto presidencial del 19 de abril de 1956. Otras normas regularon las ceremonias anuales en 1970 y su carácter de día conmemorativo en 1982. El Ministerio de Patriotas y Veteranos confirma su celebración desde 1956. No debe confundirse con los cinco días nacionales de celebración.",
+          "promoter": "El Gobierno surcoreano estableció la jornada; el Ministerio de Patriotas y Veteranos dirige sus ceremonias de homenaje.",
+          "purpose": "Recordar con respeto a quienes dieron su vida por el país y honrar su servicio.",
+          "facts": [
+            "Un decreto de abril de 1956 estableció el 6 de junio.",
+            "La fecha se observa desde 1956.",
+            "En 1982 recibió reconocimiento reglamentario como conmemoración."
+          ]
+        },
+        "fr": {
+          "heading": "6 juin : Journée du souvenir en Corée du Sud",
+          "origin": "En Corée du Sud, le Memorial Day ou Hyeonchungil est consacré au souvenir des personnes mortes pour le pays, notamment des patriotes indépendantistes et des militaires tombés au service de la nation. Le ministère de l'Intérieur et de la Sécurité indique que le 6 juin a été institué comme jour férié par décret présidentiel le 19 avril 1956. Les cérémonies annuelles ont ensuite été encadrées en 1970, puis la journée officiellement classée comme commémoration en 1982. Le ministère des Patriotes et des Anciens combattants confirme la célébration depuis 1956. Ce n'est pas l'une des cinq fêtes nationales de réjouissance.",
+          "promoter": "Le gouvernement sud-coréen a instauré la journée; le ministère des Patriotes et des Anciens combattants organise les cérémonies.",
+          "purpose": "Rendre hommage avec respect aux personnes ayant perdu la vie pour le pays et à leur sacrifice.",
+          "facts": [
+            "Le décret fondateur date d'avril 1956.",
+            "La journée est commémorée depuis 1956.",
+            "Son statut commémoratif a été précisé en 1982."
+          ]
+        },
+        "de": {
+          "heading": "6. Juni: Gedenktag für die Gefallenen in Südkorea",
+          "origin": "Der südkoreanische Memorial Day, Hyeonchungil, ist ein stiller Gedenktag für Menschen, die für das Land ihr Leben verloren haben, darunter Unabhängigkeitskämpfer und gefallene Soldaten. Das Innen- und Sicherheitsministerium verzeichnet die Einführung des 6. Juni als Feiertag durch Präsidialverordnung vom 19. April 1956. Später wurden 1970 jährliche Gedenkfeiern und 1982 der Status als offizieller Gedenktag geregelt. Das Ministerium für Patrioten und Veteranen bestätigt Feierlichkeiten seit 1956. Dieser Gedenktag ist nicht mit den fünf festlichen Nationaltagen gleichzusetzen.",
+          "promoter": "Die Regierung der Republik Korea legte den Tag fest; das Ministerium für Patrioten und Veteranen organisiert zentrale Gedenkfeiern.",
+          "purpose": "Die Menschen würdigen, die für das Land starben, und ihrem Einsatz respektvoll gedenken.",
+          "facts": [
+            "Die Präsidialverordnung stammt vom April 1956.",
+            "Der Tag wird seit 1956 jährlich begangen.",
+            "1982 erfolgte eine weitere gesetzliche Einordnung als Gedenktag."
+          ]
+        },
+        "pt": {
+          "heading": "6 de junho: Dia da Memória na Coreia do Sul",
+          "origin": "O Memorial Day sul-coreano, chamado Hyeonchungil, é uma jornada solene dedicada às pessoas que perderam a vida pelo país, incluindo patriotas da independência e militares mortos em serviço. O Ministério do Interior e Segurança regista a designação de 6 de junho como feriado por decreto presidencial de 19 de abril de 1956. As cerimónias anuais foram depois regulamentadas em 1970, e o estatuto de dia comemorativo foi formalizado em 1982. O Ministério dos Patriotas e Veteranos confirma a celebração desde 1956. Não se deve confundir esta data com os cinco dias nacionais festivos.",
+          "promoter": "O governo sul-coreano instituiu a data; o Ministério dos Patriotas e Veteranos organiza as cerimónias nacionais.",
+          "purpose": "Homenagear com respeito quem perdeu a vida pelo país e recordar o seu serviço e sacrifício.",
+          "facts": [
+            "O decreto presidencial é de abril de 1956.",
+            "A data é observada desde 1956.",
+            "O estatuto comemorativo foi formalizado em 1982."
+          ]
+        }
+      },
+      "sourceReviewNote": "MOIS, government law and veterans' ministry primary historical sources reviewed; original six-locale AI copy, qualified human historical and native-language review not recorded."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_INSTITUTION_SOURCE_RESEARCH_SIX_LOCALE_AI_DRAFT_AWAITING_HUMAN_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "scope": "PH national commemorative event and official month, not personal cultural anniversaries",
+  "records": [
+    {
+      "observanceId": "ph-edsa-people-power-anniversary",
+      "country": "PH",
+      "observanceDate": "02-25",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "legalStatus": "SPECIAL_WORKING_DAY_2026",
+      "sources": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/edsa-people-power/",
+        "https://chief.lawphil.net/executive/proc/proc2025/proc_1006_2025.html",
+        "https://pco.gov.ph/news_releases/pbbm-declares-2027-regular-and-special-holidays/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 February: remembering the EDSA People Power Revolution",
+          "origin": "Between 22 and 25 February 1986, large crowds gathered on Epifanio de los Santos Avenue in Metro Manila during the People Power uprising. A National Historical Commission marker records how the protests culminated in Corazon Aquino taking her presidential oath on 25 February and the Marcos family's departure that evening. The annual anniversary recalls this political turning point. Its employment-law classification must be read from the proclamation for each year: the 2026 schedule designated 25 February a special working day, not a regular non-working holiday.",
+          "promoter": "Filipino citizens and civil society participated in the 1986 events; later presidents issued annual commemorative proclamations.",
+          "purpose": "Remember the civic mobilization of February 1986 and reflect on democratic participation and the country's political history.",
+          "facts": [
+            "The pivotal uprising unfolded over 22–25 February 1986.",
+            "The NHCP historical marker commemorates the events of EDSA.",
+            "The 2026 anniversary was classified as a special working day."
+          ]
+        },
+        "it": {
+          "heading": "25 febbraio: la rivoluzione pacifica di EDSA",
+          "origin": "Fra il 22 e il 25 febbraio 1986, grandi folle si riunirono lungo Epifanio de los Santos Avenue, nell'area di Manila, durante la rivolta detta People Power. Un'iscrizione della Commissione storica nazionale ricorda il giuramento presidenziale di Corazon Aquino il 25 febbraio e la partenza della famiglia Marcos nella stessa serata. L'anniversario richiama quella svolta politica. La classificazione lavorativa non è automaticamente identica ogni anno: il calendario governativo del 2026 ha indicato il 25 febbraio come giorno speciale lavorativo, non come festa non lavorativa.",
+          "promoter": "Cittadini e organizzazioni civiche filippine parteciparono agli eventi del 1986; successivamente le autorità ne hanno regolato le commemorazioni.",
+          "purpose": "Ricordare la mobilitazione civile del febbraio 1986 e riflettere sulla partecipazione democratica.",
+          "facts": [
+            "La rivolta si svolse dal 22 al 25 febbraio 1986.",
+            "La NHCP conserva un riferimento storico ufficiale agli eventi EDSA.",
+            "Nel 2026 la giornata è stata classificata come speciale lavorativa."
+          ]
+        },
+        "es": {
+          "heading": "25 de febrero: la Revolución del Poder Popular de EDSA",
+          "origin": "Del 22 al 25 de febrero de 1986, grandes multitudes se concentraron en la avenida Epifanio de los Santos, en el área de Manila, durante el levantamiento del Poder Popular. Un marcador de la Comisión Histórica Nacional recuerda la toma de posesión presidencial de Corazon Aquino el día 25 y la salida de la familia Marcos aquella noche. El aniversario evoca ese cambio político. Su tratamiento laboral depende de la proclamación de cada año: el calendario de 2026 clasificó el 25 de febrero como día especial laborable, no como feriado general no laborable.",
+          "promoter": "Ciudadanos y organizaciones de la sociedad civil filipina participaron en 1986; después las autoridades regularon su conmemoración.",
+          "purpose": "Recordar la movilización de 1986 y reflexionar sobre la participación democrática.",
+          "facts": [
+            "Las manifestaciones decisivas tuvieron lugar entre el 22 y el 25 de febrero de 1986.",
+            "La NHCP señala oficialmente el lugar y el acontecimiento.",
+            "En 2026 fue un día especial laborable."
+          ]
+        },
+        "fr": {
+          "heading": "25 février : la révolution du pouvoir populaire d'EDSA",
+          "origin": "Du 22 au 25 février 1986, des foules se sont rassemblées sur l'avenue Epifanio de los Santos, près de Manille, lors du soulèvement du « People Power ». Une plaque de la Commission historique nationale rappelle la prestation de serment de Corazon Aquino, le 25 février, puis le départ de la famille Marcos le même soir. La commémoration annuelle marque ce tournant politique. Son statut au regard du travail dépend des décisions annuelles : en 2026, le gouvernement a classé le 25 février comme journée spéciale travaillée, et non comme jour chômé.",
+          "promoter": "Des citoyens et des organisations civiles philippines ont participé en 1986; les autorités ont ensuite organisé la commémoration.",
+          "purpose": "Se souvenir de la mobilisation de 1986 et réfléchir à l'engagement démocratique.",
+          "facts": [
+            "Le soulèvement s'est déroulé du 22 au 25 février 1986.",
+            "La NHCP conserve une plaque historique consacrée à EDSA.",
+            "En 2026, la journée était spéciale mais travaillée."
+          ]
+        },
+        "de": {
+          "heading": "25. Februar: die EDSA-People-Power-Revolution",
+          "origin": "Vom 22. bis 25. Februar 1986 versammelten sich große Menschenmengen an der Epifanio-de-los-Santos-Avenue im Großraum Manila zur sogenannten People-Power-Bewegung. Eine Gedenktafel der philippinischen Geschichtskommission dokumentiert die Vereidigung von Corazon Aquino am 25. Februar und die Abreise der Familie Marcos am selben Abend. Der jährliche Gedenktag erinnert an den politischen Wendepunkt. Ob der Tag arbeitsfrei ist, muss für jedes Jahr geprüft werden: 2026 galt er als besonderer Arbeitstag, nicht als allgemeiner arbeitsfreier Feiertag.",
+          "promoter": "Philippinische Bürger und zivilgesellschaftliche Gruppen beteiligten sich 1986; spätere Regierungen regelten das jährliche Gedenken.",
+          "purpose": "An den zivilgesellschaftlichen Einsatz 1986 erinnern und über demokratische Teilhabe nachdenken.",
+          "facts": [
+            "Die Ereignisse dauerten vom 22. bis 25. Februar 1986.",
+            "Die NHCP dokumentiert den Aufstand auf einer historischen Tafel.",
+            "2026 war dies ein besonderer Arbeitstag."
+          ]
+        },
+        "pt": {
+          "heading": "25 de fevereiro: a Revolução do Poder Popular em EDSA",
+          "origin": "Entre 22 e 25 de fevereiro de 1986, multidões reuniram-se na avenida Epifanio de los Santos, na região de Manila, durante a revolta conhecida como People Power. Um marco da Comissão Histórica Nacional recorda a tomada de posse presidencial de Corazon Aquino no dia 25 e a partida da família Marcos nessa noite. A comemoração anual assinala essa mudança política. O estatuto laboral depende da proclamação de cada ano: em 2026, o dia 25 de fevereiro foi classificado como dia especial de trabalho, não como feriado não laboral.",
+          "promoter": "Cidadãos e organizações da sociedade civil participaram nos eventos de 1986; governos posteriores organizaram a lembrança anual.",
+          "purpose": "Recordar a mobilização de 1986 e refletir sobre participação democrática.",
+          "facts": [
+            "Os acontecimentos centrais decorreram entre 22 e 25 de fevereiro de 1986.",
+            "A NHCP conserva um marco histórico sobre EDSA.",
+            "Em 2026, o dia foi classificado como especial de trabalho."
+          ]
+        }
+      },
+      "sourceReviewNote": "Event and proclamation verified with original NHCP/government legal evidence; original AI drafts in six locales. No independent qualified human factual/native-language signoff."
+    },
+    {
+      "observanceId": "ph-w13-national-heritage-month",
+      "country": "PH",
+      "observanceDate": "05",
+      "periodKind": "MONTH",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "legalStatus": "NATIONAL_CULTURAL_AWARENESS_MONTH_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2003/proc_439_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "May: National Heritage Month across the Philippines",
+          "origin": "Philippine National Heritage Month takes place every May. President Gloria Macapagal-Arroyo declared it through Proclamation No. 439 on 11 August 2003, drawing on constitutional commitments to conserve cultural heritage and recognizing both tangible places and living traditions. The proclamation asked government agencies to undertake heritage activities and appointed the National Commission for Culture and the Arts as lead agency. May was chosen partly because community festivals and local celebrations have long taken place during that month. This is an awareness month, not a month-long public holiday.",
+          "promoter": "President Gloria Macapagal-Arroyo proclaimed the month; the National Commission for Culture and the Arts coordinates heritage-related activities.",
+          "purpose": "Encourage knowledge, care and participation in the protection of Philippine cultural heritage and diverse traditions.",
+          "facts": [
+            "Proclamation No. 439 is dated 11 August 2003.",
+            "The observance covers the entire month of May.",
+            "The National Commission for Culture and the Arts is the designated lead agency."
+          ]
+        },
+        "it": {
+          "heading": "Maggio: il Mese del patrimonio nazionale filippino",
+          "origin": "Nelle Filippine il National Heritage Month si svolge per tutto maggio. La presidente Gloria Macapagal-Arroyo lo istituì con il Proclama n. 439 dell'11 agosto 2003, richiamando la tutela costituzionale del patrimonio e valorizzando monumenti, paesaggi, luoghi e tradizioni viventi. Il provvedimento invitò le amministrazioni a organizzare attività culturali e affidò il coordinamento alla National Commission for Culture and the Arts. Il mese di maggio fu scelto anche per la presenza tradizionale di numerose feste locali. È un mese di sensibilizzazione, non un lungo periodo festivo non lavorativo.",
+          "promoter": "La presidente Gloria Macapagal-Arroyo proclamò la ricorrenza; la NCCA ne coordina le attività culturali.",
+          "purpose": "Favorire conoscenza, partecipazione e tutela del patrimonio culturale e delle molte tradizioni delle Filippine.",
+          "facts": [
+            "Il Proclama n. 439 porta la data dell'11 agosto 2003.",
+            "La ricorrenza copre tutto il mese di maggio.",
+            "La NCCA è designata come ente capofila."
+          ]
+        },
+        "es": {
+          "heading": "Mayo: Mes del Patrimonio Nacional en Filipinas",
+          "origin": "En Filipinas, el Mes del Patrimonio Nacional se celebra durante todo mayo. La presidenta Gloria Macapagal-Arroyo lo estableció mediante la Proclamación n.º 439 del 11 de agosto de 2003, vinculando la protección constitucional del patrimonio con los monumentos, paisajes y tradiciones vivas. La norma invitó a las instituciones públicas a organizar actividades culturales y designó a la Comisión Nacional para la Cultura y las Artes como entidad coordinadora. Mayo se eligió en parte por las numerosas fiestas comunitarias que tradicionalmente se celebran entonces. No constituye un mes entero de vacaciones laborales.",
+          "promoter": "La presidenta Gloria Macapagal-Arroyo proclamó el mes; la NCCA dirige la coordinación cultural.",
+          "purpose": "Fomentar el conocimiento, la participación y la protección del patrimonio cultural filipino.",
+          "facts": [
+            "La Proclamación n.º 439 fue firmada el 11 de agosto de 2003.",
+            "La campaña abarca todo el mes de mayo.",
+            "La NCCA es la entidad coordinadora designada."
+          ]
+        },
+        "fr": {
+          "heading": "Mai : mois du patrimoine national aux Philippines",
+          "origin": "Aux Philippines, le Mois du patrimoine national se déroule pendant tout le mois de mai. La présidente Gloria Macapagal-Arroyo l'a instauré par la proclamation nº 439 du 11 août 2003, rappelant la protection constitutionnelle du patrimoine, des sites historiques et des traditions vivantes. Le texte invite les organismes publics à organiser des activités culturelles et confie la coordination à la Commission nationale pour la culture et les arts. Le choix de mai renvoie notamment aux fêtes et célébrations communautaires traditionnellement nombreuses à cette période. Ce n'est pas un mois entier de congés.",
+          "promoter": "Gloria Macapagal-Arroyo a proclamé le mois; la NCCA coordonne les activités patrimoniales.",
+          "purpose": "Encourager la connaissance, la participation et la préservation de la diversité culturelle philippine.",
+          "facts": [
+            "La proclamation nº 439 date du 11 août 2003.",
+            "La période couvre l'intégralité du mois de mai.",
+            "La NCCA est chargée d'en diriger les activités."
+          ]
+        },
+        "de": {
+          "heading": "Mai: Monat des nationalen Kulturerbes auf den Philippinen",
+          "origin": "Auf den Philippinen ist der ganze Mai dem nationalen Kulturerbe gewidmet. Präsidentin Gloria Macapagal-Arroyo erklärte ihn mit Proklamation Nr. 439 vom 11. August 2003 zum National Heritage Month. Sie verwies auf den verfassungsmäßigen Schutz von historischen Stätten, Kulturlandschaften und lebendigen Traditionen. Die Behörden sollten Veranstaltungen organisieren; die nationale Kommission für Kultur und Kunst erhielt die Federführung. Der Monat Mai wurde auch wegen seiner vielen traditionellen Gemeindefeste gewählt. Der Gedenkmonat bedeutet nicht, dass alle Tage arbeitsfreie Feiertage sind.",
+          "promoter": "Präsidentin Gloria Macapagal-Arroyo führte den Monat ein; die NCCA koordiniert die kulturellen Aktivitäten.",
+          "purpose": "Bewusstsein, Beteiligung und Schutz des vielfältigen kulturellen Erbes auf den Philippinen stärken.",
+          "facts": [
+            "Proklamation Nr. 439 datiert vom 11. August 2003.",
+            "Die Kampagne findet während des gesamten Mai statt.",
+            "Die NCCA übernimmt laut Proklamation die Leitung."
+          ]
+        },
+        "pt": {
+          "heading": "Maio: Mês do Património Nacional nas Filipinas",
+          "origin": "Nas Filipinas, o Mês do Património Nacional decorre ao longo de maio. A presidente Gloria Macapagal-Arroyo instituiu-o pela Proclamação n.º 439, de 11 de agosto de 2003, salientando o dever constitucional de preservar lugares históricos, paisagens e tradições vivas. A medida convidou os organismos públicos a organizar iniciativas culturais e atribuiu à Comissão Nacional para a Cultura e as Artes a coordenação. A escolha de maio também está ligada à tradição de festas e celebrações locais nessa altura do ano. Trata-se de um mês de sensibilização, não de um mês inteiro de feriados.",
+          "promoter": "A presidente Gloria Macapagal-Arroyo proclamou a data; a NCCA coordena as atividades culturais.",
+          "purpose": "Promover o conhecimento, a participação e a proteção do património cultural e das tradições filipinas.",
+          "facts": [
+            "A Proclamação n.º 439 data de 11 de agosto de 2003.",
+            "A comemoração abrange todo o mês de maio.",
+            "A NCCA é a entidade coordenadora designada."
+          ]
+        }
+      },
+      "sourceReviewNote": "Event and proclamation verified with original NHCP/government legal evidence; original AI drafts in six locales. No independent qualified human factual/native-language signoff."
+    }
+  ]
+}

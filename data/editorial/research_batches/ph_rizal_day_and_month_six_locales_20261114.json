@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PRIMARY_ACT_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-rizal-day",
+      "country": "PH",
+      "observanceDate": "12-30",
+      "introducedYear": 1902,
+      "firstObservedYear": null,
+      "legalStatus": "NATIONAL_REGULAR_HOLIDAY_2026",
+      "sources": [
+        "https://ncca.gov.ph/about-culture-and-arts/culture-profile/selection-and-proclamation-of-national-heroes-and-laws-honoring-filipino-historical-figures/",
+        "https://lawphil.net/statutes/acts/act1902/act_345_1902.html",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 December: Rizal Day and the memory of reform",
+          "origin": "Rizal Day is the Philippine national remembrance of José Rizal and his execution on 30 December. The National Commission for Culture and the Arts traces an early public commemoration to Emilio Aguinaldo's decree of 20 December 1898, which designated 30 December as a day of national mourning for Rizal and other victims of the Revolution. Act No. 345 of 1 February 1902 subsequently included 30 December among public holidays. Later laws and annual proclamations maintain its status as a regular holiday; the 2026 calendar also lists it. The historical event, national mourning decree and public-holiday legislation are different stages.",
+          "promoter": "Emilio Aguinaldo's 1898 government proclaimed national mourning; later Philippine authorities preserved 30 December in holiday law.",
+          "purpose": "Remember José Rizal's contribution to civic thought and commemorate others who suffered in the movement for Philippine freedom.",
+          "facts": [
+            "A national mourning decree was issued in December 1898.",
+            "Act No. 345 designated 30 December among public holidays in 1902.",
+            "The national calendar lists Rizal Day as a regular holiday in 2026."
+          ]
+        },
+        "it": {
+          "heading": "30 dicembre: il Rizal Day e la memoria delle riforme",
+          "origin": "Il Rizal Day è la ricorrenza nazionale filippina dedicata a José Rizal e alla sua esecuzione del 30 dicembre. La National Commission for Culture and the Arts documenta un primo riconoscimento pubblico nel decreto del 20 dicembre 1898 di Emilio Aguinaldo, che dichiarò il 30 dicembre giornata di lutto nazionale per Rizal e altre vittime della Rivoluzione. La legge Act n. 345 del 1° febbraio 1902 inserì poi quella data fra le festività pubbliche. La normativa successiva e il calendario 2026 la mantengono tra le festività regolari. Il fatto storico, il lutto nazionale e la legislazione festiva sono tappe distinte.",
+          "promoter": "Il governo di Emilio Aguinaldo proclamò il lutto nazionale nel 1898; le autorità successive consolidarono la giornata con la legge.",
+          "purpose": "Ricordare il contributo civile di José Rizal e le altre persone colpite dalla lotta per la libertà filippina.",
+          "facts": [
+            "Il decreto di lutto nazionale risale al dicembre 1898.",
+            "L'Act n. 345 incluse il 30 dicembre tra le feste nel 1902.",
+            "Nel 2026 il Rizal Day è una festività regolare."
+          ]
+        },
+        "es": {
+          "heading": "30 de diciembre: Rizal y la memoria de las reformas",
+          "origin": "El Día de Rizal es la conmemoración nacional filipina de José Rizal y su ejecución un 30 de diciembre. La Comisión Nacional para la Cultura y las Artes documenta un reconocimiento público temprano en el decreto de Emilio Aguinaldo del 20 de diciembre de 1898, que declaró el 30 de diciembre jornada de duelo nacional por Rizal y otras víctimas de la Revolución. La Ley n.º 345 del 1 de febrero de 1902 incorporó después esa fecha entre las festividades públicas. Las normas posteriores y el calendario de 2026 la mantienen como festividad regular. El acontecimiento, el decreto y la ley no son lo mismo.",
+          "promoter": "El Gobierno de Emilio Aguinaldo proclamó el duelo en 1898; las autoridades posteriores conservaron la fecha legalmente.",
+          "purpose": "Recordar la aportación cívica de José Rizal y a otras víctimas del proceso histórico filipino.",
+          "facts": [
+            "El decreto de duelo nacional data de diciembre de 1898.",
+            "La Ley n.º 345 incluyó el 30 de diciembre en 1902.",
+            "En 2026, Rizal Day es una festividad regular."
+          ]
+        },
+        "fr": {
+          "heading": "30 décembre : la journée Rizal et la mémoire des réformes",
+          "origin": "La journée Rizal est une commémoration nationale philippine consacrée à José Rizal et à son exécution le 30 décembre. La Commission nationale pour la culture et les arts situe un premier hommage officiel dans le décret du 20 décembre 1898 d'Emilio Aguinaldo, faisant du 30 décembre une journée de deuil national pour Rizal et d'autres victimes de la Révolution. La loi nº 345 du 1er février 1902 a ensuite inscrit cette date parmi les jours fériés. La législation ultérieure et le calendrier de 2026 la maintiennent parmi les fêtes régulières. L'événement historique, le décret de deuil et la loi sont des étapes distinctes.",
+          "promoter": "Le gouvernement d'Emilio Aguinaldo a proclamé le deuil en 1898; les autorités suivantes ont inscrit la date dans la loi.",
+          "purpose": "Se souvenir de l'action civique de José Rizal et des victimes de la lutte pour les libertés philippines.",
+          "facts": [
+            "Le décret de deuil date de décembre 1898.",
+            "La loi nº 345 a retenu le 30 décembre en 1902.",
+            "En 2026, la journée est un jour férié régulier."
+          ]
+        },
+        "de": {
+          "heading": "30. Dezember: Rizal-Tag und die Erinnerung an Reformen",
+          "origin": "Der Rizal-Tag ist ein landesweiter philippinischer Gedenktag für José Rizal und seine Hinrichtung an einem 30. Dezember. Die nationale Kulturkommission führt frühes offizielles Gedenken auf ein Dekret Emilio Aguinaldos vom 20. Dezember 1898 zurück, das den 30. Dezember zum nationalen Trauertag für Rizal und andere Opfer der Revolution erklärte. Act Nr. 345 vom 1. Februar 1902 nahm das Datum danach in die Liste der öffentlichen Feiertage auf. Spätere Regelungen und der Staatskalender 2026 führen ihn als regulären Feiertag. Historisches Ereignis, Trauerdekret und Feiertagsgesetz sind verschiedene Schritte.",
+          "promoter": "Emilio Aguinaldos Regierung rief 1898 den Trauertag aus; spätere Behörden verankerten das Datum gesetzlich.",
+          "purpose": "An José Rizals gesellschaftlichen Beitrag und weitere Opfer des philippinischen Freiheitskampfes erinnern.",
+          "facts": [
+            "Ein nationales Trauerdekret wurde im Dezember 1898 erlassen.",
+            "Act Nr. 345 führte den 30. Dezember 1902 als Feiertag auf.",
+            "2026 gilt Rizal Day als regulärer Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "30 de dezembro: o Dia de Rizal e a memória das reformas",
+          "origin": "O Dia de Rizal é a comemoração nacional filipina dedicada a José Rizal e à sua execução num dia 30 de dezembro. A Comissão Nacional para a Cultura e as Artes documenta um reconhecimento inicial no decreto de Emilio Aguinaldo de 20 de dezembro de 1898, que declarou 30 de dezembro dia de luto nacional por Rizal e outras vítimas da Revolução. A Lei n.º 345 de 1 de fevereiro de 1902 incluiu depois a data entre os feriados públicos. A legislação posterior e o calendário de 2026 mantêm-na como feriado regular. O acontecimento histórico, o decreto de luto e a lei são etapas diferentes.",
+          "promoter": "O governo de Emilio Aguinaldo proclamou o luto em 1898; autoridades posteriores consagraram a data na legislação.",
+          "purpose": "Recordar a contribuição cívica de José Rizal e outras vítimas da história da liberdade filipina.",
+          "facts": [
+            "O decreto de luto nacional é de dezembro de 1898.",
+            "A Lei n.º 345 incluiu 30 de dezembro em 1902.",
+            "Em 2026, a data é feriado regular."
+          ]
+        }
+      },
+      "sourceReviewNote": "Early decree, Act No.345, Proclamation No.126 and official 2026 calendar examined. Original six-locale AI drafts, human factual/native editorial approval not claimed."
+    },
+    {
+      "observanceId": "ph-w13-rizal-month",
+      "country": "PH",
+      "observanceDate": "12",
+      "periodKind": "MONTH",
+      "introducedYear": 2001,
+      "firstObservedYear": null,
+      "legalStatus": "CULTURAL_AWARENESS_MONTH_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2001/proc_126_2001.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "December: Rizal Month in the Philippines",
+          "origin": "Rizal Month is a Philippine national cultural observance running throughout December. President Gloria Macapagal-Arroyo proclaimed it on 26 November 2001 through Proclamation No. 126. The measure explained that commemorations limited to the period near Rizal Day had not provided enough time for educational, historical and civic activities honouring José Rizal. It asked government bodies, education institutions and community organizations to support events across the whole month. Rizal Month is a commemorative program and must not be confused with the separate regular public holiday of Rizal Day on 30 December.",
+          "promoter": "President Gloria Macapagal-Arroyo issued Proclamation No. 126; education agencies and civic organizations were invited to support the observance.",
+          "purpose": "Provide more opportunities for reflection on José Rizal's ideas, historical legacy and contributions to Philippine civic life.",
+          "facts": [
+            "Proclamation No. 126 was signed on 26 November 2001.",
+            "Rizal Month covers December each year.",
+            "Rizal Day on 30 December is a separate regular public holiday."
+          ]
+        },
+        "it": {
+          "heading": "Dicembre: il Mese di Rizal nelle Filippine",
+          "origin": "Il Rizal Month è una ricorrenza culturale filippina che occupa tutto dicembre. La presidente Gloria Macapagal-Arroyo lo proclamò il 26 novembre 2001 con il Proclama n. 126. Il provvedimento spiegava che le commemorazioni concentrate nei giorni vicini al Rizal Day non offrivano tempo sufficiente per iniziative educative, storiche e civiche dedicate a José Rizal. Invitò quindi amministrazioni, scuole e organizzazioni a sostenere attività durante l'intero mese. Il Mese di Rizal è una campagna commemorativa e non deve essere confuso con la distinta festività nazionale del 30 dicembre.",
+          "promoter": "La presidente Gloria Macapagal-Arroyo firmò il Proclama n. 126 e coinvolse istituzioni educative e associazioni.",
+          "purpose": "Ampliare le occasioni per conoscere le idee di José Rizal e riflettere sulla sua eredità nella vita civile.",
+          "facts": [
+            "Il Proclama n. 126 risale al 26 novembre 2001.",
+            "La ricorrenza copre il mese di dicembre.",
+            "Il 30 dicembre rimane un giorno festivo nazionale distinto."
+          ]
+        },
+        "es": {
+          "heading": "Diciembre: Mes de Rizal en Filipinas",
+          "origin": "El Mes de Rizal es una conmemoración cultural filipina que ocupa todo diciembre. La presidenta Gloria Macapagal-Arroyo lo proclamó el 26 de noviembre de 2001 mediante la Proclamación n.º 126. La medida señalaba que las actividades limitadas a los días cercanos al Día de Rizal no ofrecían tiempo suficiente para propuestas educativas, históricas y cívicas sobre José Rizal. Por ello invitó a instituciones públicas, centros educativos y organizaciones a apoyar actos durante el mes completo. El Mes de Rizal es un programa conmemorativo y no debe confundirse con el feriado nacional del 30 de diciembre.",
+          "promoter": "La presidenta Gloria Macapagal-Arroyo firmó la proclamación e invitó a instituciones educativas y grupos cívicos.",
+          "purpose": "Ofrecer más ocasiones para conocer las ideas y la importancia histórica de José Rizal.",
+          "facts": [
+            "La Proclamación n.º 126 se firmó el 26 de noviembre de 2001.",
+            "La conmemoración abarca todo diciembre.",
+            "El Día de Rizal del 30 de diciembre es un festivo distinto."
+          ]
+        },
+        "fr": {
+          "heading": "Décembre : le mois de Rizal aux Philippines",
+          "origin": "Aux Philippines, le Mois de Rizal est une commémoration culturelle organisée pendant tout décembre. La présidente Gloria Macapagal-Arroyo l'a proclamé le 26 novembre 2001 par le texte nº 126. Selon ce document, les journées précédant immédiatement le Rizal Day ne suffisaient pas pour accueillir toutes les activités éducatives, historiques et civiques consacrées à José Rizal. Les administrations, les établissements scolaires et les associations ont donc été invités à soutenir un programme plus long. Le Mois de Rizal est une période de commémoration, distincte du jour férié national du 30 décembre.",
+          "promoter": "Gloria Macapagal-Arroyo a signé la proclamation et sollicité les institutions éducatives et civiques.",
+          "purpose": "Multiplier les occasions de découvrir les idées et l'héritage historique de José Rizal.",
+          "facts": [
+            "La proclamation nº 126 date du 26 novembre 2001.",
+            "L'observance couvre tout décembre.",
+            "Le 30 décembre est un jour férié national distinct."
+          ]
+        },
+        "de": {
+          "heading": "Dezember: Rizal-Monat auf den Philippinen",
+          "origin": "Der Rizal-Monat ist eine landesweite kulturelle Gedenkzeit während des gesamten Dezembers auf den Philippinen. Präsidentin Gloria Macapagal-Arroyo rief ihn am 26. November 2001 mit Proklamation Nr. 126 aus. Darin wurde erläutert, dass die wenigen Tage um den Rizal-Feiertag für die vorgesehenen Bildungs-, Geschichts- und Bürgerveranstaltungen nicht ausreichten. Staatliche Stellen, Schulen und gesellschaftliche Organisationen wurden deshalb gebeten, einen ganzen Monat lang Aktivitäten zu unterstützen. Der Rizal-Monat ist eine Gedenkperiode und nicht mit dem gesonderten gesetzlichen Feiertag am 30. Dezember gleichzusetzen.",
+          "promoter": "Präsidentin Gloria Macapagal-Arroyo unterzeichnete die Proklamation und rief Bildungs- und Bürgerorganisationen zur Teilnahme auf.",
+          "purpose": "Mehr Gelegenheiten schaffen, José Rizals Ideen und seine Bedeutung für das gesellschaftliche Leben kennenzulernen.",
+          "facts": [
+            "Proklamation Nr. 126 stammt vom 26. November 2001.",
+            "Die Gedenkperiode dauert den ganzen Dezember.",
+            "Der 30. Dezember bleibt ein eigener gesetzlicher Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Dezembro: Mês de Rizal nas Filipinas",
+          "origin": "O Mês de Rizal é uma comemoração cultural filipina que decorre durante todo dezembro. A presidente Gloria Macapagal-Arroyo proclamou-o em 26 de novembro de 2001, pela Proclamação n.º 126. O documento explicava que as atividades limitadas aos dias próximos do Dia de Rizal não davam tempo suficiente para as iniciativas educativas, históricas e cívicas dedicadas a José Rizal. Convidou, por isso, organismos públicos, instituições de ensino e associações a apoiar um programa durante o mês inteiro. O Mês de Rizal é uma campanha comemorativa, distinta do feriado nacional de 30 de dezembro.",
+          "promoter": "A presidente Gloria Macapagal-Arroyo assinou a proclamação e apelou à participação de escolas e associações.",
+          "purpose": "Criar mais oportunidades para conhecer as ideias e o legado histórico de José Rizal.",
+          "facts": [
+            "A Proclamação n.º 126 é de 26 de novembro de 2001.",
+            "A comemoração cobre todo o mês de dezembro.",
+            "O Dia de Rizal de 30 de dezembro é um feriado diferente."
+          ]
+        }
+      },
+      "sourceReviewNote": "Early decree, Act No.345, Proclamation No.126 and official 2026 calendar examined. Original six-locale AI drafts, human factual/native editorial approval not claimed."
+    }
+  ]
+}

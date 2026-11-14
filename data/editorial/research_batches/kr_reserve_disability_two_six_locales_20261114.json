@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "KOREAN_MOIS_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-reserve-forces-day",
+      "country": "KR",
+      "observanceDate": "FIRST_FRIDAY_APRIL",
+      "introducedYear": 1970,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_RESERVE_FORCES_1968_LEGAL_DAY_1970",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "First Friday of April: South Korea's Reserve Forces Day",
+          "origin": "Reserve Forces Day commemorates the service of South Korea's reserve defence personnel. The Ministry of the Interior traces the institution's origin to the establishment of the Homeland Reserve Forces on 1 April 1968; unit-level anniversary ceremonies were held on 1 April 1969. A presidential regulation of 4 February 1970 established a dedicated annual day on the first Saturday of April. The occasion entered general statutory commemorative rules in March 1973. On 6 September 2006, the government shifted the day to the first Friday of April. It is a movable commemorative date, not a fixed 1 April holiday.",
+          "promoter": "The South Korean government designated the modern Reserve Forces Day by presidential regulation in 1970, building on earlier unit anniversaries.",
+          "purpose": "Recognize the service of reserve personnel and reflect on the responsibilities and history of local defence preparedness.",
+          "facts": [
+            "The Homeland Reserve Forces were established on 1 April 1968.",
+            "A presidential regulation designated the day in February 1970.",
+            "The annual schedule became the first Friday of April in 2006."
+          ]
+        },
+        "it": {
+          "heading": "Primo venerdì di aprile: la Giornata dei riservisti sudcoreani",
+          "origin": "La Giornata dei riservisti riconosce il servizio del personale della riserva di difesa sudcoreana. Il Ministero dell'Interno ne collega l'origine alla costituzione delle forze di riserva territoriali il 1º aprile 1968; il 1º aprile 1969 furono organizzate cerimonie di anniversario presso le unità. Un regolamento presidenziale del 4 febbraio 1970 istituì la ricorrenza annuale nel primo sabato di aprile, poi inserita nelle norme generali nel marzo 1973. Il 6 settembre 2006 il governo la spostò al primo venerdì di aprile. Si tratta di una data mobile, non di una festività fissa il 1º aprile.",
+          "promoter": "Il governo sudcoreano stabilì la giornata ufficiale nel 1970, dopo le prime celebrazioni delle unità di riserva.",
+          "purpose": "Riconoscere il servizio dei riservisti e conoscere la storia e le responsabilità della difesa territoriale.",
+          "facts": [
+            "Le forze di riserva territoriali furono istituite nel 1968.",
+            "La prima norma sulla giornata risale al febbraio 1970.",
+            "Dal 2006 la ricorrenza cade il primo venerdì di aprile."
+          ]
+        },
+        "es": {
+          "heading": "Primer viernes de abril: Día de las Fuerzas de Reserva de Corea",
+          "origin": "El Día de las Fuerzas de Reserva reconoce el servicio de los reservistas de Corea del Sur. El Ministerio del Interior vincula sus orígenes con la creación de las fuerzas de reserva territorial el 1 de abril de 1968; el 1 de abril de 1969 se realizaron actos de aniversario en unidades militares. Un reglamento presidencial del 4 de febrero de 1970 estableció la fecha anual en el primer sábado de abril. La conmemoración se incorporó a la normativa general en marzo de 1973 y, el 6 de septiembre de 2006, se trasladó al primer viernes de abril. Por tanto, no es una festividad fija del 1 de abril.",
+          "promoter": "El Gobierno surcoreano creó el día oficial por reglamento de 1970 tras las primeras celebraciones de las unidades de reserva.",
+          "purpose": "Reconocer el trabajo de los reservistas y comprender la historia de la preparación para la defensa territorial.",
+          "facts": [
+            "Las fuerzas de reserva territorial fueron establecidas en 1968.",
+            "La primera reglamentación de esta jornada data de febrero de 1970.",
+            "Desde 2006 se celebra el primer viernes de abril."
+          ]
+        },
+        "fr": {
+          "heading": "Premier vendredi d'avril : hommage aux réservistes sud-coréens",
+          "origin": "La Journée des forces de réserve rend hommage aux personnels de réserve de la défense sud-coréenne. Le ministère de l'Intérieur relie ses origines à la création des forces territoriales de réserve le 1er avril 1968. Des cérémonies d'anniversaire ont été organisées par unités le 1er avril 1969. Un règlement présidentiel du 4 février 1970 a créé une journée annuelle le premier samedi d'avril, puis le dispositif a été intégré au cadre général des commémorations en mars 1973. Le 6 septembre 2006, la date a été déplacée au premier vendredi d'avril. La journée n'est donc pas fixée au 1er avril.",
+          "promoter": "Le gouvernement sud-coréen a instauré la commémoration en 1970 après les premières cérémonies des unités de réserve.",
+          "purpose": "Reconnaître le service des réservistes et présenter l'histoire de la préparation à la défense locale.",
+          "facts": [
+            "Les réserves territoriales ont été créées en avril 1968.",
+            "Le règlement fondateur de la journée date de février 1970.",
+            "Depuis 2006, le jour est le premier vendredi d'avril."
+          ]
+        },
+        "de": {
+          "heading": "Erster Freitag im April: Südkoreas Tag der Reservekräfte",
+          "origin": "Der Tag der Reservekräfte würdigt den Dienst südkoreanischer Reservisten. Das Innenministerium führt den Ursprung auf die Gründung der territorialen Reserve am 1. April 1968 zurück; am 1. April 1969 fanden Jubiläumsveranstaltungen in den Einheiten statt. Eine Präsidialverordnung vom 4. Februar 1970 bestimmte den ersten Samstag im April als jährlichen Gedenktag. Im März 1973 wurde er in die allgemeinen Gedenkregeln aufgenommen. Am 6. September 2006 verschob die Regierung den Termin auf den ersten Freitag im April. Damit ist es kein fester Feiertag am 1. April.",
+          "promoter": "Die südkoreanische Regierung schuf den offiziellen Gedenktag 1970 nach den ersten Jubiläumsfeiern der Reserveeinheiten.",
+          "purpose": "Die Arbeit der Reservisten würdigen und die Geschichte der territorialen Verteidigung erläutern.",
+          "facts": [
+            "Die territorialen Reservekräfte wurden im April 1968 gegründet.",
+            "Die Verordnung für den Gedenktag stammt von 1970.",
+            "Seit 2006 gilt der erste Freitag im April als Termin."
+          ]
+        },
+        "pt": {
+          "heading": "Primeira sexta-feira de abril: Dia das Forças de Reserva na Coreia",
+          "origin": "O Dia das Forças de Reserva reconhece o serviço dos reservistas da Coreia do Sul. O Ministério do Interior relaciona a origem com a criação das forças territoriais de reserva em 1 de abril de 1968; as unidades realizaram cerimónias de aniversário em 1 de abril de 1969. Um regulamento presidencial de 4 de fevereiro de 1970 estabeleceu o primeiro sábado de abril como data anual, mais tarde integrada nas regras gerais de comemorações em março de 1973. Em 6 de setembro de 2006, o governo transferiu a data para a primeira sexta-feira de abril. Não é um feriado fixo em 1 de abril.",
+          "promoter": "O governo sul-coreano criou a data oficial em 1970, após as primeiras celebrações das unidades de reserva.",
+          "purpose": "Reconhecer o serviço dos reservistas e divulgar a história e as responsabilidades da defesa territorial.",
+          "facts": [
+            "As forças de reserva territorial foram criadas em abril de 1968.",
+            "O regulamento inicial da data é de fevereiro de 1970.",
+            "Desde 2006 a comemoração ocorre na primeira sexta-feira de abril."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS primary historical chronology cross-checked against public commemorative index. Dates and legally distinct national/international commemorations noted; six AI-authored locales without qualified human signoff."
+    },
+    {
+      "observanceId": "kr-w10-day-of-persons-with-disabilities-in-korea",
+      "country": "KR",
+      "observanceDate": "04-20",
+      "introducedYear": 1994,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_DISABILITY_AWARENESS_1972_1981_1994_NOT_UN_DEC3",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "20 April: South Korea's national day of persons with disabilities",
+          "origin": "South Korea observes its national Day of Persons with Disabilities on 20 April, a date with a separate history from the United Nations' International Day on 3 December. The Ministry of the Interior traces a predecessor to an April 1972 decision by the Korean rehabilitation association to organize a Rehabilitation Day on 20 April. The government held its first Disabled Persons Day on 20 April 1981, reflecting the UN's International Year of Disabled Persons. Welfare legislation provided a legal basis in December 1989, and the day entered the statutory commemorations list on 9 March 1994. These stages must be distinguished.",
+          "promoter": "Korean rehabilitation organizations promoted early activities, and South Korea's welfare authorities subsequently established the statutory day.",
+          "purpose": "Promote accessibility, understanding, rights and inclusion of persons with disabilities while preserving the local history of the day.",
+          "facts": [
+            "The rehabilitation association selected 20 April in 1972.",
+            "A government observance began on 20 April 1981.",
+            "The national statutory designation dates to 9 March 1994."
+          ]
+        },
+        "it": {
+          "heading": "20 aprile: la giornata sudcoreana delle persone con disabilità",
+          "origin": "La Corea del Sud dedica il 20 aprile alle persone con disabilità. Questa ricorrenza nazionale ha una storia diversa dalla Giornata internazionale delle Nazioni Unite del 3 dicembre. Il Ministero dell'Interno ne rintraccia un antecedente nella decisione di un'associazione coreana per la riabilitazione, che nell'aprile 1972 scelse il 20 aprile come Giornata della riabilitazione. Il governo organizzò una prima giornata nazionale il 20 aprile 1981, nell'Anno internazionale delle persone con disabilità. La normativa sul benessere del 1989 ne fornì una base legale e il 9 marzo 1994 arrivò il riconoscimento tra le giornate commemorative ufficiali.",
+          "promoter": "Associazioni per la riabilitazione avviarono la ricorrenza; le autorità sudcoreane per il welfare la istituzionalizzarono.",
+          "purpose": "Promuovere accessibilità, diritti, inclusione e conoscenza della storia nazionale della ricorrenza.",
+          "facts": [
+            "L'associazione per la riabilitazione scelse il 20 aprile nel 1972.",
+            "La prima giornata organizzata dal governo risale al 1981.",
+            "Il riconoscimento commemorativo legale è del 9 marzo 1994."
+          ]
+        },
+        "es": {
+          "heading": "20 de abril: jornada surcoreana de las personas con discapacidad",
+          "origin": "Corea del Sur celebra el 20 de abril su día nacional de las personas con discapacidad, diferente del Día Internacional de la ONU del 3 de diciembre. Según el Ministerio del Interior, la historia local comenzó con una decisión de una asociación de rehabilitación en abril de 1972, cuando se eligió el 20 de abril para un Día de la Rehabilitación. El Gobierno organizó una primera jornada oficial el 20 de abril de 1981, durante el Año Internacional de las Personas con Discapacidad. La legislación de bienestar de diciembre de 1989 estableció una base legal y la fecha fue incorporada a las conmemoraciones reglamentarias el 9 de marzo de 1994.",
+          "promoter": "Asociaciones coreanas de rehabilitación promovieron los primeros actos y las autoridades de bienestar consolidaron la fecha.",
+          "purpose": "Promover accesibilidad, derechos, inclusión y comprensión de la historia nacional de esta jornada.",
+          "facts": [
+            "La fecha del 20 de abril fue seleccionada por una asociación en 1972.",
+            "La primera jornada gubernamental se realizó en 1981.",
+            "La designación reglamentaria fue aprobada el 9 de marzo de 1994."
+          ]
+        },
+        "fr": {
+          "heading": "20 avril : journée coréenne des personnes handicapées",
+          "origin": "En Corée du Sud, le 20 avril est consacré aux personnes handicapées. Cette journée nationale a une histoire distincte de la journée internationale des Nations unies du 3 décembre. Le ministère de l'Intérieur en situe un premier jalon en avril 1972, lorsqu'une association de réadaptation a choisi le 20 avril pour une Journée de la réadaptation. Le gouvernement a organisé une première journée officielle le 20 avril 1981, pendant l'Année internationale des personnes handicapées. Une loi sur la protection sociale a établi une base juridique en décembre 1989 et le jour a rejoint les commémorations légales le 9 mars 1994.",
+          "promoter": "Des associations de réadaptation ont lancé les premières initiatives; les autorités sociales ont ensuite reconnu la journée.",
+          "purpose": "Promouvoir l'accessibilité, les droits et l'inclusion sans confondre cette date nationale avec le 3 décembre de l'ONU.",
+          "facts": [
+            "Une association a retenu la date du 20 avril en 1972.",
+            "Le gouvernement a organisé la première journée officielle en 1981.",
+            "La reconnaissance réglementaire date du 9 mars 1994."
+          ]
+        },
+        "de": {
+          "heading": "20. April: Südkoreas nationaler Tag der Menschen mit Behinderungen",
+          "origin": "Südkorea begeht am 20. April seinen nationalen Tag der Menschen mit Behinderungen. Seine Geschichte unterscheidet sich vom internationalen Tag der Vereinten Nationen am 3. Dezember. Laut Innenministerium wählte ein koreanischer Rehabilitationsverband im April 1972 den 20. April für einen Rehabilitationstag. Die Regierung veranstaltete am 20. April 1981 erstmals einen staatlichen Tag für Menschen mit Behinderungen, im Internationalen Jahr der Behinderten. Im Dezember 1989 wurde im Sozialrecht eine gesetzliche Grundlage geschaffen; am 9. März 1994 folgte die Aufnahme in die staatliche Gedenktagsregelung. Diese Entwicklungsschritte sind voneinander zu trennen.",
+          "promoter": "Rehabilitationsverbände begannen mit der Initiative; spätere staatliche Sozialbehörden begründeten die Anerkennung.",
+          "purpose": "Teilhabe, Barrierefreiheit, Rechte und gesellschaftliches Verständnis fördern und die eigenständige Geschichte erklären.",
+          "facts": [
+            "Ein Rehabilitationsverband wählte den 20. April im Jahr 1972.",
+            "Die erste staatliche Veranstaltung folgte 1981.",
+            "Die Aufnahme in die Gedenktagsverordnung erfolgte 1994."
+          ]
+        },
+        "pt": {
+          "heading": "20 de abril: dia sul-coreano das pessoas com deficiência",
+          "origin": "A Coreia do Sul assinala o dia nacional das pessoas com deficiência em 20 de abril, com uma história diferente da data internacional das Nações Unidas de 3 de dezembro. Segundo o Ministério do Interior, uma associação coreana de reabilitação escolheu o 20 de abril em 1972 para um Dia da Reabilitação. O governo organizou uma primeira comemoração oficial em 20 de abril de 1981, durante o Ano Internacional das Pessoas com Deficiência. A legislação social de dezembro de 1989 forneceu uma base legal, e a data entrou na lista regulamentar de comemorações em 9 de março de 1994. As iniciativas iniciais e os atos oficiais posteriores não devem ser confundidos.",
+          "promoter": "Associações de reabilitação promoveram as primeiras iniciativas; as autoridades sociais instituíram o reconhecimento posterior.",
+          "purpose": "Promover acessibilidade, inclusão, direitos e compreensão pública, preservando a história específica da jornada nacional.",
+          "facts": [
+            "Uma associação escolheu a data de 20 de abril em 1972.",
+            "A primeira comemoração oficial realizou-se em 1981.",
+            "O reconhecimento regulamentar ocorreu em 9 de março de 1994."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean MOIS primary historical chronology cross-checked against public commemorative index. Dates and legally distinct national/international commemorations noted; six AI-authored locales without qualified human signoff."
+    }
+  ]
+}

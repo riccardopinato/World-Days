@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_LEGAL_CULTURAL_ORIGINS_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 4,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w10-day-of-the-filipino-seafarer",
+      "country": "PH",
+      "observanceDate": "06-25",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2011,
+      "firstObservedYear": null,
+      "originClusterId": "PH_IMO_DAY_SEAFARER_2010_NATIONAL_2011",
+      "legalStatus": "PH_NATIONAL_SEAFARER_OBSERVANCE_DISTINCT_FROM_GLOBAL_2010",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2011/proc_183_2011.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "25 June: Filipino seafarers and the Manila maritime agreement",
+          "origin": "The Day of the Filipino Seafarer recognizes workers who navigate commercial shipping routes and contribute to international transport, family livelihoods and the Philippine economy. At a June 2010 conference in Manila, parties to the maritime training convention adopted the Manila Amendments and an international resolution supporting 25 June as Day of the Seafarer. Proclamation No. 183, signed 3 June 2011, made 25 June each year a Philippine observance and called on maritime agencies and private organizations to join. The national 2011 act follows, rather than creates, the international reference.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners are the relevant authorities or participating organizations named or indicated by the historical national document.",
+          "purpose": "Recognize seafarers' work while distinguishing the international maritime decision from the national legal observance.",
+          "facts": [
+            "The Day of the Filipino Seafarer recognizes workers who navigate commercial shipping routes and contribute to international transport, family livelihoods and the Philippine economy.",
+            "At a June 2010 conference in Manila, parties to the maritime training convention adopted the Manila Amendments and an international resolution supporting 25 June as Day of the Seafarer.",
+            "Proclamation No. 183, signed 3 June 2011, made 25 June each year a Philippine observance and called on maritime agencies and private organizations to join. The national 2011 act follows, rather than creates, the international reference."
+          ]
+        },
+        "it": {
+          "heading": "25 giugno: i marittimi filippini e l'accordo marittimo di Manila",
+          "origin": "La Giornata dei marittimi filippini riconosce chi lavora sulle rotte commerciali, sostiene il trasporto internazionale, le famiglie e l'economia del paese. Durante una conferenza a Manila nel giugno 2010 furono adottati gli emendamenti alla convenzione sulla formazione marittima e una risoluzione internazionale sul 25 giugno. La Proclamazione n. 183 del 3 giugno 2011 istituì annualmente il 25 giugno nelle Filippine e coinvolse enti marittimi e privati. L'atto nazionale segue la decisione internazionale del 2010.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners sono gli organismi interessati dalla ricorrenza e dai relativi atti storici nazionali.",
+          "purpose": "Riconoscere il lavoro marittimo distinguendo la decisione internazionale dalla proclamazione nazionale.",
+          "facts": [
+            "La Giornata dei marittimi filippini riconosce chi lavora sulle rotte commerciali, sostiene il trasporto internazionale, le famiglie e l'economia del paese.",
+            "Durante una conferenza a Manila nel giugno 2010 furono adottati gli emendamenti alla convenzione sulla formazione marittima e una risoluzione internazionale sul 25 giugno.",
+            "La Proclamazione n. 183 del 3 giugno 2011 istituì annualmente il 25 giugno nelle Filippine e coinvolse enti marittimi e privati. L'atto nazionale segue la decisione internazionale del 2010."
+          ]
+        },
+        "es": {
+          "heading": "25 de junio: marinos filipinos y el acuerdo marítimo de Manila",
+          "origin": "El Día del Marino Filipino reconoce a quienes trabajan en rutas de transporte marítimo y contribuyen al comercio internacional, a sus familias y a la economía del país. En una conferencia en Manila en junio de 2010 se adoptaron las Enmiendas de Manila sobre formación marítima y una resolución internacional para el 25 de junio. La Proclamación n.º 183 del 3 de junio de 2011 estableció cada 25 de junio en Filipinas e invitó a entidades marítimas. La norma nacional sigue a la resolución internacional de 2010.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners son las entidades interesadas por la celebración y sus documentos históricos nacionales.",
+          "purpose": "Reconocer a los marinos distinguiendo la decisión internacional y el acto nacional.",
+          "facts": [
+            "El Día del Marino Filipino reconoce a quienes trabajan en rutas de transporte marítimo y contribuyen al comercio internacional, a sus familias y a la economía del país.",
+            "En una conferencia en Manila en junio de 2010 se adoptaron las Enmiendas de Manila sobre formación marítima y una resolución internacional para el 25 de junio.",
+            "La Proclamación n.º 183 del 3 de junio de 2011 estableció cada 25 de junio en Filipinas e invitó a entidades marítimas. La norma nacional sigue a la resolución internacional de 2010."
+          ]
+        },
+        "fr": {
+          "heading": "25 juin : les marins philippins et l'accord maritime de Manille",
+          "origin": "La Journée des marins philippins rend hommage à ceux qui naviguent sur les routes commerciales et contribuent au transport international, aux familles et à l'économie. Lors d'une conférence à Manille en juin 2010, les Amendements de Manille à la convention sur la formation maritime furent adoptés avec une résolution sur le 25 juin. La proclamation nº 183 du 3 juin 2011 a institué chaque 25 juin aux Philippines et invité institutions maritimes et acteurs privés. Le texte national suit la décision internationale de 2010.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners sont les organismes concernés par cette commémoration et les textes historiques nationaux.",
+          "purpose": "Reconnaître les marins en distinguant la décision internationale et la proclamation nationale.",
+          "facts": [
+            "La Journée des marins philippins rend hommage à ceux qui naviguent sur les routes commerciales et contribuent au transport international, aux familles et à l'économie.",
+            "Lors d'une conférence à Manille en juin 2010, les Amendements de Manille à la convention sur la formation maritime furent adoptés avec une résolution sur le 25 juin.",
+            "La proclamation nº 183 du 3 juin 2011 a institué chaque 25 juin aux Philippines et invité institutions maritimes et acteurs privés. Le texte national suit la décision internationale de 2010."
+          ]
+        },
+        "de": {
+          "heading": "25. Juni: Philippinische Seeleute und das Abkommen von Manila",
+          "origin": "Der Tag der philippinischen Seeleute würdigt Beschäftigte im internationalen Schiffsverkehr und ihren Beitrag zu Familien und Wirtschaft. Auf einer Konferenz in Manila im Juni 2010 wurden die Manila-Änderungen zum Übereinkommen über die Ausbildung von Seeleuten und eine Resolution zum 25. Juni angenommen. Proklamation Nr. 183 vom 3. Juni 2011 legte jeden 25. Juni fest und rief maritime Einrichtungen zur Beteiligung auf. Der nationale Akt folgte dem internationalen Anlass von 2010.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners sind die in den historischen nationalen Dokumenten benannten oder beteiligten Stellen.",
+          "purpose": "Die Arbeit der Seeleute würdigen und internationale sowie nationale Rechtsakte unterscheiden.",
+          "facts": [
+            "Der Tag der philippinischen Seeleute würdigt Beschäftigte im internationalen Schiffsverkehr und ihren Beitrag zu Familien und Wirtschaft.",
+            "Auf einer Konferenz in Manila im Juni 2010 wurden die Manila-Änderungen zum Übereinkommen über die Ausbildung von Seeleuten und eine Resolution zum 25. Juni angenommen.",
+            "Proklamation Nr. 183 vom 3. Juni 2011 legte jeden 25. Juni fest und rief maritime Einrichtungen zur Beteiligung auf. Der nationale Akt folgte dem internationalen Anlass von 2010."
+          ]
+        },
+        "pt": {
+          "heading": "25 de junho: marítimos filipinos e o acordo marítimo de Manila",
+          "origin": "O Dia do Marítimo Filipino reconhece quem trabalha nas rotas marítimas comerciais e contribui para o transporte internacional, as famílias e a economia. Numa conferência em Manila em junho de 2010 foram aprovadas as Emendas de Manila sobre formação marítima e uma resolução internacional para 25 de junho. A Proclamação n.º 183 de 3 de junho de 2011 instituiu 25 de junho anualmente nas Filipinas e envolveu entidades marítimas. O ato nacional seguiu a decisão internacional de 2010.",
+          "promoter": "Philippine maritime government agencies, seafarer groups and shipping-sector partners são os organismos envolvidos na comemoração e nos respetivos documentos históricos nacionais.",
+          "purpose": "Reconhecer os marítimos distinguindo a decisão internacional e o ato nacional.",
+          "facts": [
+            "O Dia do Marítimo Filipino reconhece quem trabalha nas rotas marítimas comerciais e contribui para o transporte internacional, as famílias e a economia.",
+            "Numa conferência em Manila em junho de 2010 foram aprovadas as Emendas de Manila sobre formação marítima e uma resolução internacional para 25 de junho.",
+            "A Proclamação n.º 183 de 3 de junho de 2011 instituiu 25 de junho anualmente nas Filipinas e envolveu entidades marítimas. O ato nacional seguiu a decisão internacional de 2010."
+          ]
+        }
+      },
+      "sourceReviewNote": "Historical Philippine law/proclamation text reviewed against national NCCA calendar; state a present-day holiday only when specifically supported. Machine six-language original draft, qualified factual and native-language human signoff pending."
+    },
+    {
+      "observanceId": "ph-w13-national-coconut-week-philippines",
+      "country": "PH",
+      "observanceDate": "AUG24_AUG30",
+      "observancePeriodKind": "WEEK",
+      "introducedYear": 1987,
+      "firstObservedYear": null,
+      "originClusterId": "PH_COCONUT_INDUSTRY_WEEK_1987_AUG24_30",
+      "legalStatus": "PH_COCONUT_INDUSTRY_NATIONAL_WEEK_NOT_GENERAL_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1987/proc_142_1987.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "24–30 August: National Coconut Week and agricultural livelihoods",
+          "origin": "National Coconut Week highlights the role of coconut farms and processing in Philippine rural livelihoods, including growers, labourers, traders and the industries using coconut products. President Corazon Aquino issued Proclamation No. 142 on 19 August 1987, declaring the period 24–30 August 1987 and every year thereafter National Coconut Week under the Philippine Coconut Authority. The original document says August is a peak coconut season and invites the whole industry, from growers to policy-makers, to participate. Its seven-day August period is not a general international coconut holiday.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors are the relevant authorities or participating organizations named or indicated by the historical national document.",
+          "purpose": "Recognize farmers and coconut-sector workers and explain why the week is fixed at 24–30 August.",
+          "facts": [
+            "National Coconut Week highlights the role of coconut farms and processing in Philippine rural livelihoods, including growers, labourers, traders and the industries using coconut products.",
+            "President Corazon Aquino issued Proclamation No. 142 on 19 August 1987, declaring the period 24–30 August 1987 and every year thereafter National Coconut Week under the Philippine Coconut Authority.",
+            "The original document says August is a peak coconut season and invites the whole industry, from growers to policy-makers, to participate. Its seven-day August period is not a general international coconut holiday."
+          ]
+        },
+        "it": {
+          "heading": "24–30 agosto: la Settimana del cocco e il lavoro agricolo",
+          "origin": "La Settimana nazionale del cocco valorizza coltivazioni e lavorazioni per le economie rurali filippine, ricordando produttori, operai, commercianti e industrie. Corazon Aquino emanò la Proclamazione n. 142 il 19 agosto 1987, fissando il 24–30 agosto 1987 e gli anni successivi sotto il coordinamento dell'Autorità filippina per il cocco. Il testo spiega che agosto è un periodo importante per la produzione e invita tutta la filiera, dai coltivatori alle istituzioni. La settimana non è una generica giornata internazionale.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors sono gli organismi interessati dalla ricorrenza e dai relativi atti storici nazionali.",
+          "purpose": "Valorizzare agricoltori e lavoratori del settore e spiegare il periodo 24–30 agosto.",
+          "facts": [
+            "La Settimana nazionale del cocco valorizza coltivazioni e lavorazioni per le economie rurali filippine, ricordando produttori, operai, commercianti e industrie.",
+            "Corazon Aquino emanò la Proclamazione n. 142 il 19 agosto 1987, fissando il 24–30 agosto 1987 e gli anni successivi sotto il coordinamento dell'Autorità filippina per il cocco.",
+            "Il testo spiega che agosto è un periodo importante per la produzione e invita tutta la filiera, dai coltivatori alle istituzioni. La settimana non è una generica giornata internazionale."
+          ]
+        },
+        "es": {
+          "heading": "24–30 de agosto: Semana del Coco y medios de vida rurales",
+          "origin": "La Semana Nacional del Coco destaca la importancia de los cultivos y su transformación para la economía rural filipina, agricultores, trabajadores y comerciantes. Corazon Aquino promulgó la Proclamación n.º 142 el 19 de agosto de 1987, fijando del 24 al 30 de agosto de 1987 y cada año posterior bajo la autoridad del coco. La norma señala agosto como temporada destacada del coco e invita a toda la cadena, de agricultores a autoridades. La semana no equivale a una jornada mundial.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors son las entidades interesadas por la celebración y sus documentos históricos nacionales.",
+          "purpose": "Reconocer a agricultores y trabajadores y explicar el periodo del 24 al 30 de agosto.",
+          "facts": [
+            "La Semana Nacional del Coco destaca la importancia de los cultivos y su transformación para la economía rural filipina, agricultores, trabajadores y comerciantes.",
+            "Corazon Aquino promulgó la Proclamación n.º 142 el 19 de agosto de 1987, fijando del 24 al 30 de agosto de 1987 y cada año posterior bajo la autoridad del coco.",
+            "La norma señala agosto como temporada destacada del coco e invita a toda la cadena, de agricultores a autoridades. La semana no equivale a una jornada mundial."
+          ]
+        },
+        "fr": {
+          "heading": "24–30 août : Semaine de la noix de coco et vie rurale",
+          "origin": "La Semaine de la noix de coco souligne la contribution des plantations et de leur transformation à la vie rurale, aux agriculteurs, employés et négociants. Corazon Aquino a signé la proclamation nº 142 le 19 août 1987, instituant du 24 au 30 août 1987 et les années suivantes avec la Philippine Coconut Authority. Le document rappelle qu'août est une période importante pour la noix de coco et associe toute la filière, des agriculteurs aux décideurs. Ce n'est pas une journée mondiale.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors sont les organismes concernés par cette commémoration et les textes historiques nationaux.",
+          "purpose": "Valoriser les agriculteurs et les employés du secteur et expliquer la période du 24 au 30 août.",
+          "facts": [
+            "La Semaine de la noix de coco souligne la contribution des plantations et de leur transformation à la vie rurale, aux agriculteurs, employés et négociants.",
+            "Corazon Aquino a signé la proclamation nº 142 le 19 août 1987, instituant du 24 au 30 août 1987 et les années suivantes avec la Philippine Coconut Authority.",
+            "Le document rappelle qu'août est une période importante pour la noix de coco et associe toute la filière, des agriculteurs aux décideurs. Ce n'est pas une journée mondiale."
+          ]
+        },
+        "de": {
+          "heading": "24.–30. August: Kokoswoche und ländliche Arbeit",
+          "origin": "Die nationale Kokoswoche würdigt Anbau und Verarbeitung in den ländlichen Regionen sowie Bauern, Beschäftigte, Handel und Industrie. Corazon Aquino erließ Proklamation Nr. 142 am 19. August 1987 und bestimmte den 24. bis 30. August 1987 sowie alle Folgejahre unter Leitung der Kokosbehörde. Das Dokument nennt August als wichtige Kokossaison und beteiligt die gesamte Branche von Anbau bis Politik. Die Woche ist kein allgemeiner internationaler Kokostag.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors sind die in den historischen nationalen Dokumenten benannten oder beteiligten Stellen.",
+          "purpose": "Landwirte und Beschäftigte der Kokosbranche würdigen und die Augustwoche erklären.",
+          "facts": [
+            "Die nationale Kokoswoche würdigt Anbau und Verarbeitung in den ländlichen Regionen sowie Bauern, Beschäftigte, Handel und Industrie.",
+            "Corazon Aquino erließ Proklamation Nr. 142 am 19. August 1987 und bestimmte den 24. bis 30. August 1987 sowie alle Folgejahre unter Leitung der Kokosbehörde.",
+            "Das Dokument nennt August als wichtige Kokossaison und beteiligt die gesamte Branche von Anbau bis Politik. Die Woche ist kein allgemeiner internationaler Kokostag."
+          ]
+        },
+        "pt": {
+          "heading": "24–30 de agosto: Semana do Coco e trabalho rural",
+          "origin": "A Semana Nacional do Coco destaca a importância dos cultivos e processamento para a vida rural, produtores, trabalhadores e comerciantes. Corazon Aquino emitiu a Proclamação n.º 142 em 19 de agosto de 1987, instituindo 24 a 30 de agosto e todos os anos seguintes sob coordenação da Autoridade do Coco. O documento associa agosto a uma fase importante da produção e envolve toda a cadeia, de produtores a decisores públicos. Não é uma jornada mundial.",
+          "promoter": "Philippine Coconut Authority and coconut farmers, processing and trade sectors são os organismos envolvidos na comemoração e nos respetivos documentos históricos nacionais.",
+          "purpose": "Reconhecer agricultores e trabalhadores do setor e explicar a semana de agosto.",
+          "facts": [
+            "A Semana Nacional do Coco destaca a importância dos cultivos e processamento para a vida rural, produtores, trabalhadores e comerciantes.",
+            "Corazon Aquino emitiu a Proclamação n.º 142 em 19 de agosto de 1987, instituindo 24 a 30 de agosto e todos os anos seguintes sob coordenação da Autoridade do Coco.",
+            "O documento associa agosto a uma fase importante da produção e envolve toda a cadeia, de produtores a decisores públicos. Não é uma jornada mundial."
+          ]
+        }
+      },
+      "sourceReviewNote": "Historical Philippine law/proclamation text reviewed against national NCCA calendar; state a present-day holiday only when specifically supported. Machine six-language original draft, qualified factual and native-language human signoff pending."
+    },
+    {
+      "observanceId": "ph-w10-philippine-republic-day-july-4",
+      "country": "PH",
+      "observanceDate": "07-04",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1964,
+      "firstObservedYear": null,
+      "originClusterId": "PH_1946_INDEPENDENCE_JUL4_RENAMED_REPUBLIC_DAY_1964_1987_HOLIDAY_REVISION",
+      "legalStatus": "PH_HISTORICAL_REPUBLIC_DAY_1964_LAW_NOT_IN_1987_REGULAR_HOLIDAY_LIST",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/53270",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "4 July: Republic Day and the transfer of Independence Day to June",
+          "origin": "The historical 4 July anniversary recalls the formal recognition of Philippine independence from the United States on 4 July 1946, after the Second World War. It must be distinguished from the 12 June 1898 declaration. Republic Act No. 4166, approved on 4 August 1964, moved the national Independence Day observance to 12 June and named 4 July Philippine Republic Day, listing it then among legal holidays. Executive Order No. 292, the 1987 Administrative Code, later listed national regular holidays without 4 July. A historical Republic Day entry therefore cannot be labeled a currently recurring regular non-working holiday on the basis of the 1964 law alone.",
+          "promoter": "Philippine historical and educational institutions are the relevant authorities or participating organizations named or indicated by the historical national document.",
+          "purpose": "Explain the sequence of 1898, 1946, 1964 and the later legal holiday calendar without an outdated holiday claim.",
+          "facts": [
+            "The historical 4 July anniversary recalls the formal recognition of Philippine independence from the United States on 4 July 1946, after the Second World War. It must be distinguished from the 12 June 1898 declaration.",
+            "Republic Act No. 4166, approved on 4 August 1964, moved the national Independence Day observance to 12 June and named 4 July Philippine Republic Day, listing it then among legal holidays.",
+            "Executive Order No. 292, the 1987 Administrative Code, later listed national regular holidays without 4 July. A historical Republic Day entry therefore cannot be labeled a currently recurring regular non-working holiday on the basis of the 1964 law alone."
+          ]
+        },
+        "it": {
+          "heading": "4 luglio: il Republic Day e lo spostamento dell'Indipendenza a giugno",
+          "origin": "L'anniversario del 4 luglio ricorda il riconoscimento formale dell'indipendenza filippina dagli Stati Uniti il 4 luglio 1946, dopo la seconda guerra mondiale, distinto dalla dichiarazione del 12 giugno 1898. La Legge della Repubblica n. 4166, approvata il 4 agosto 1964, spostò la Giornata dell'indipendenza al 12 giugno e chiamò il 4 luglio Philippine Republic Day, allora nell'elenco delle festività legali. L'Ordine esecutivo n. 292, Codice amministrativo del 1987, elencò le festività regolari senza il 4 luglio. La scheda storica non può definirlo oggi un giorno non lavorativo ordinario basandosi solo sulla legge del 1964.",
+          "promoter": "Philippine historical and educational institutions sono gli organismi interessati dalla ricorrenza e dai relativi atti storici nazionali.",
+          "purpose": "Spiegare la successione di 1898, 1946, 1964 e le norme successive senza indicare festività obsolete.",
+          "facts": [
+            "L'anniversario del 4 luglio ricorda il riconoscimento formale dell'indipendenza filippina dagli Stati Uniti il 4 luglio 1946, dopo la seconda guerra mondiale, distinto dalla dichiarazione del 12 giugno 1898.",
+            "La Legge della Repubblica n. 4166, approvata il 4 agosto 1964, spostò la Giornata dell'indipendenza al 12 giugno e chiamò il 4 luglio Philippine Republic Day, allora nell'elenco delle festività legali.",
+            "L'Ordine esecutivo n. 292, Codice amministrativo del 1987, elencò le festività regolari senza il 4 luglio. La scheda storica non può definirlo oggi un giorno non lavorativo ordinario basandosi solo sulla legge del 1964."
+          ]
+        },
+        "es": {
+          "heading": "4 de julio: Día de la República y cambio de la Independencia a junio",
+          "origin": "El 4 de julio recuerda el reconocimiento formal de la independencia filipina de Estados Unidos el 4 de julio de 1946, tras la Segunda Guerra Mundial, distinto de la declaración del 12 de junio de 1898. La Ley de la República n.º 4166, aprobada el 4 de agosto de 1964, trasladó la Independencia al 12 de junio y denominó el 4 de julio Día de la República, entonces festivo legal. La Orden Ejecutiva n.º 292, Código Administrativo de 1987, enumeró festivos regulares sin el 4 de julio. La historia no debe presentarlo hoy como festivo no laborable basándose solo en 1964.",
+          "promoter": "Philippine historical and educational institutions son las entidades interesadas por la celebración y sus documentos históricos nacionales.",
+          "purpose": "Explicar 1898, 1946, 1964 y el calendario posterior sin atribuir festivos obsoletos.",
+          "facts": [
+            "El 4 de julio recuerda el reconocimiento formal de la independencia filipina de Estados Unidos el 4 de julio de 1946, tras la Segunda Guerra Mundial, distinto de la declaración del 12 de junio de 1898.",
+            "La Ley de la República n.º 4166, aprobada el 4 de agosto de 1964, trasladó la Independencia al 12 de junio y denominó el 4 de julio Día de la República, entonces festivo legal.",
+            "La Orden Ejecutiva n.º 292, Código Administrativo de 1987, enumeró festivos regulares sin el 4 de julio. La historia no debe presentarlo hoy como festivo no laborable basándose solo en 1964."
+          ]
+        },
+        "fr": {
+          "heading": "4 juillet : Jour de la République et transfert de l'Indépendance en juin",
+          "origin": "Le 4 juillet rappelle la reconnaissance de l'indépendance des Philippines par les États-Unis le 4 juillet 1946 après la guerre, à distinguer de la déclaration du 12 juin 1898. La loi de la République nº 4166, adoptée le 4 août 1964, a déplacé la fête de l'Indépendance au 12 juin et nommé le 4 juillet Jour de la République, alors jour férié légal. L'ordre exécutif nº 292, Code administratif de 1987, a dressé une liste de jours fériés réguliers sans le 4 juillet. Une fiche historique ne peut donc le qualifier de congé régulier actuel sur la seule loi de 1964.",
+          "promoter": "Philippine historical and educational institutions sont les organismes concernés par cette commémoration et les textes historiques nationaux.",
+          "purpose": "Distinguer les étapes de 1898, 1946, 1964 et le calendrier juridique ultérieur.",
+          "facts": [
+            "Le 4 juillet rappelle la reconnaissance de l'indépendance des Philippines par les États-Unis le 4 juillet 1946 après la guerre, à distinguer de la déclaration du 12 juin 1898.",
+            "La loi de la République nº 4166, adoptée le 4 août 1964, a déplacé la fête de l'Indépendance au 12 juin et nommé le 4 juillet Jour de la République, alors jour férié légal.",
+            "L'ordre exécutif nº 292, Code administratif de 1987, a dressé une liste de jours fériés réguliers sans le 4 juillet. Une fiche historique ne peut donc le qualifier de congé régulier actuel sur la seule loi de 1964."
+          ]
+        },
+        "de": {
+          "heading": "4. Juli: Republiktag und Verlegung des Unabhängigkeitstags",
+          "origin": "Der 4. Juli erinnert an die formelle Anerkennung philippinischer Unabhängigkeit von den USA am 4. Juli 1946 nach dem Krieg, getrennt von der Erklärung am 12. Juni 1898. Republikgesetz Nr. 4166 vom 4. August 1964 verlegte den Unabhängigkeitstag auf den 12. Juni und benannte den 4. Juli Republiktag, damals als gesetzlichen Feiertag aufgeführt. Executive Order Nr. 292, das Verwaltungsgesetzbuch von 1987, listete regelmäßige Feiertage ohne den 4. Juli. Aus dem Gesetz von 1964 allein folgt daher kein heutiger arbeitsfreier Feiertag.",
+          "promoter": "Philippine historical and educational institutions sind die in den historischen nationalen Dokumenten benannten oder beteiligten Stellen.",
+          "purpose": "Die historischen Etappen 1898, 1946 und 1964 sowie spätere Feiertagsregeln erklären.",
+          "facts": [
+            "Der 4. Juli erinnert an die formelle Anerkennung philippinischer Unabhängigkeit von den USA am 4. Juli 1946 nach dem Krieg, getrennt von der Erklärung am 12. Juni 1898.",
+            "Republikgesetz Nr. 4166 vom 4. August 1964 verlegte den Unabhängigkeitstag auf den 12. Juni und benannte den 4. Juli Republiktag, damals als gesetzlichen Feiertag aufgeführt.",
+            "Executive Order Nr. 292, das Verwaltungsgesetzbuch von 1987, listete regelmäßige Feiertage ohne den 4. Juli. Aus dem Gesetz von 1964 allein folgt daher kein heutiger arbeitsfreier Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "4 de julho: Dia da República e transferência da Independência para junho",
+          "origin": "O dia 4 de julho recorda o reconhecimento formal da independência filipina pelos Estados Unidos em 4 de julho de 1946, após a guerra, distinto da declaração de 12 de junho de 1898. A Lei da República n.º 4166, aprovada em 4 de agosto de 1964, transferiu o Dia da Independência para 12 de junho e chamou 4 de julho Dia da República, então incluído nos feriados legais. A Ordem Executiva n.º 292, Código Administrativo de 1987, listou feriados regulares sem 4 de julho. O texto histórico não pode classificá-lo como feriado não laboral atual com base apenas em 1964.",
+          "promoter": "Philippine historical and educational institutions são os organismos envolvidos na comemoração e nos respetivos documentos históricos nacionais.",
+          "purpose": "Explicar as etapas de 1898, 1946, 1964 e o calendário posterior sem feriados desatualizados.",
+          "facts": [
+            "O dia 4 de julho recorda o reconhecimento formal da independência filipina pelos Estados Unidos em 4 de julho de 1946, após a guerra, distinto da declaração de 12 de junho de 1898.",
+            "A Lei da República n.º 4166, aprovada em 4 de agosto de 1964, transferiu o Dia da Independência para 12 de junho e chamou 4 de julho Dia da República, então incluído nos feriados legais.",
+            "A Ordem Executiva n.º 292, Código Administrativo de 1987, listou feriados regulares sem 4 de julho. O texto histórico não pode classificá-lo como feriado não laboral atual com base apenas em 1964."
+          ]
+        }
+      },
+      "sourceReviewNote": "Historical Philippine law/proclamation text reviewed against national NCCA calendar; state a present-day holiday only when specifically supported. Machine six-language original draft, qualified factual and native-language human signoff pending."
+    },
+    {
+      "observanceId": "ph-w10-araw-ni-balagtas",
+      "country": "PH",
+      "observanceDate": "04-02",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1974,
+      "firstObservedYear": null,
+      "originClusterId": "PH_BALAGTAS_1788_BIRTH_1974_PROCLAMATION_1986_REITERATION",
+      "legalStatus": "PH_BALAGTAS_NATIONAL_CULTURAL_DAY_SPECIAL_HOLIDAY_BULACAN_HISTORICAL_RULES_NEED_YEAR_CHECK",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1974/proc_1249_1974.html",
+        "https://lawphil.net/executive/proc/proc1986/proc_5_1986.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "2 April: Araw ni Balagtas honours a poet and the Filipino language",
+          "origin": "Araw ni Balagtas commemorates Francisco Balagtas Baltazar, a major poet born on 2 April 1788 and remembered for the literary work Florante at Laura. The specific national day honours his literary legacy, not a generic biography list. Proclamation No. 1249 of 1 April 1974 established the annual celebration on 2 April and described a special holiday in the province of Bulacan. The exact present-day provincial non-working status requires checking the annual calendar. President Corazon Aquino's Proclamation No. 5 of 1 April 1986 again called for an annual Araw ni Balagtas. The 1986 reiteration should not erase the earlier 1974 legal declaration or be mistaken for its first origin.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government are the relevant authorities or participating organizations named or indicated by the historical national document.",
+          "purpose": "Recognize Balagtas's literature and correctly distinguish the older 1974 and renewed 1986 national decrees.",
+          "facts": [
+            "Araw ni Balagtas commemorates Francisco Balagtas Baltazar, a major poet born on 2 April 1788 and remembered for the literary work Florante at Laura. The specific national day honours his literary legacy, not a generic biography list.",
+            "Proclamation No. 1249 of 1 April 1974 established the annual celebration on 2 April and described a special holiday in the province of Bulacan. The exact present-day provincial non-working status requires checking the annual calendar.",
+            "President Corazon Aquino's Proclamation No. 5 of 1 April 1986 again called for an annual Araw ni Balagtas. The 1986 reiteration should not erase the earlier 1974 legal declaration or be mistaken for its first origin."
+          ]
+        },
+        "it": {
+          "heading": "2 aprile: Araw ni Balagtas ricorda un poeta e la lingua filippina",
+          "origin": "Araw ni Balagtas ricorda Francisco Balagtas Baltazar, poeta nato il 2 aprile 1788 e autore di Florante at Laura. La giornata nazionale valorizza l'eredità letteraria e non è una generica scheda di compleanno. La Proclamazione n. 1249 del 1º aprile 1974 istituì la celebrazione annuale del 2 aprile e menzionò una festività speciale nella provincia di Bulacan. Lo status non lavorativo attuale va verificato anno per anno. La Proclamazione n. 5 del 1º aprile 1986, firmata da Corazon Aquino, richiamò la celebrazione annuale. La conferma del 1986 non elimina l'atto istitutivo del 1974.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government sono gli organismi interessati dalla ricorrenza e dai relativi atti storici nazionali.",
+          "purpose": "Valorizzare l'opera di Balagtas distinguendo i provvedimenti del 1974 e del 1986.",
+          "facts": [
+            "Araw ni Balagtas ricorda Francisco Balagtas Baltazar, poeta nato il 2 aprile 1788 e autore di Florante at Laura. La giornata nazionale valorizza l'eredità letteraria e non è una generica scheda di compleanno.",
+            "La Proclamazione n. 1249 del 1º aprile 1974 istituì la celebrazione annuale del 2 aprile e menzionò una festività speciale nella provincia di Bulacan. Lo status non lavorativo attuale va verificato anno per anno.",
+            "La Proclamazione n. 5 del 1º aprile 1986, firmata da Corazon Aquino, richiamò la celebrazione annuale. La conferma del 1986 non elimina l'atto istitutivo del 1974."
+          ]
+        },
+        "es": {
+          "heading": "2 de abril: Araw ni Balagtas honra a un poeta y la lengua filipina",
+          "origin": "Araw ni Balagtas recuerda a Francisco Balagtas Baltazar, poeta nacido el 2 de abril de 1788 y autor de Florante at Laura. La jornada reconoce un legado literario, no una lista de cumpleaños. La Proclamación n.º 1249 del 1 de abril de 1974 estableció cada 2 de abril y mencionó un día especial en Bulacan. Su condición de descanso actual debe comprobarse por año. La Proclamación n.º 5 del 1 de abril de 1986, firmada por Corazon Aquino, reiteró la jornada anual. La reafirmación de 1986 no sustituye su origen legal de 1974.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government son las entidades interesadas por la celebración y sus documentos históricos nacionales.",
+          "purpose": "Reconocer la literatura de Balagtas distinguiendo las normas de 1974 y 1986.",
+          "facts": [
+            "Araw ni Balagtas recuerda a Francisco Balagtas Baltazar, poeta nacido el 2 de abril de 1788 y autor de Florante at Laura. La jornada reconoce un legado literario, no una lista de cumpleaños.",
+            "La Proclamación n.º 1249 del 1 de abril de 1974 estableció cada 2 de abril y mencionó un día especial en Bulacan. Su condición de descanso actual debe comprobarse por año.",
+            "La Proclamación n.º 5 del 1 de abril de 1986, firmada por Corazon Aquino, reiteró la jornada anual. La reafirmación de 1986 no sustituye su origen legal de 1974."
+          ]
+        },
+        "fr": {
+          "heading": "2 avril : Araw ni Balagtas honore un poète et la langue philippine",
+          "origin": "Araw ni Balagtas rappelle Francisco Balagtas Baltazar, poète né le 2 avril 1788 et auteur de Florante at Laura. La commémoration met en valeur son héritage littéraire, pas une simple fiche biographique. La proclamation nº 1249 du 1er avril 1974 a institué chaque 2 avril et mentionné une journée spéciale dans la province de Bulacan. Le congé actuel doit être vérifié par année. La proclamation nº 5 du 1er avril 1986, signée par Corazon Aquino, a renouvelé l'hommage annuel. La décision de 1986 ne remplace pas le texte de 1974.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government sont les organismes concernés par cette commémoration et les textes historiques nationaux.",
+          "purpose": "Valoriser l'œuvre de Balagtas tout en séparant les textes de 1974 et 1986.",
+          "facts": [
+            "Araw ni Balagtas rappelle Francisco Balagtas Baltazar, poète né le 2 avril 1788 et auteur de Florante at Laura. La commémoration met en valeur son héritage littéraire, pas une simple fiche biographique.",
+            "La proclamation nº 1249 du 1er avril 1974 a institué chaque 2 avril et mentionné une journée spéciale dans la province de Bulacan. Le congé actuel doit être vérifié par année.",
+            "La proclamation nº 5 du 1er avril 1986, signée par Corazon Aquino, a renouvelé l'hommage annuel. La décision de 1986 ne remplace pas le texte de 1974."
+          ]
+        },
+        "de": {
+          "heading": "2. April: Araw ni Balagtas ehrt einen Dichter und die Sprache",
+          "origin": "Araw ni Balagtas erinnert an den am 2. April 1788 geborenen Dichter Francisco Balagtas Baltazar und sein Werk Florante at Laura. Der nationale Anlass würdigt sein literarisches Erbe. Proklamation Nr. 1249 vom 1. April 1974 bestimmte jeden 2. April und erwähnte einen besonderen Feiertag in Bulacan. Der heutige arbeitsfreie Status muss jährlich geprüft werden. Corazon Aquinos Proklamation Nr. 5 vom 1. April 1986 bekräftigte die jährliche Feier. Die Erklärung von 1986 ersetzt die frühere rechtliche Einführung von 1974 nicht.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government sind die in den historischen nationalen Dokumenten benannten oder beteiligten Stellen.",
+          "purpose": "Balagtas' Literatur würdigen und die Erlasse von 1974 und 1986 korrekt unterscheiden.",
+          "facts": [
+            "Araw ni Balagtas erinnert an den am 2. April 1788 geborenen Dichter Francisco Balagtas Baltazar und sein Werk Florante at Laura. Der nationale Anlass würdigt sein literarisches Erbe.",
+            "Proklamation Nr. 1249 vom 1. April 1974 bestimmte jeden 2. April und erwähnte einen besonderen Feiertag in Bulacan. Der heutige arbeitsfreie Status muss jährlich geprüft werden.",
+            "Corazon Aquinos Proklamation Nr. 5 vom 1. April 1986 bekräftigte die jährliche Feier. Die Erklärung von 1986 ersetzt die frühere rechtliche Einführung von 1974 nicht."
+          ]
+        },
+        "pt": {
+          "heading": "2 de abril: Araw ni Balagtas homenageia um poeta e a língua filipina",
+          "origin": "Araw ni Balagtas recorda Francisco Balagtas Baltazar, poeta nascido em 2 de abril de 1788 e autor de Florante at Laura. A data homenageia o legado literário e não é apenas uma biografia. A Proclamação n.º 1249 de 1 de abril de 1974 instituiu 2 de abril anualmente e mencionou um dia especial em Bulacan. A folga atual precisa de confirmação anual. A Proclamação n.º 5 de 1 de abril de 1986, assinada por Corazon Aquino, reafirmou a data anual. O ato de 1986 não substitui a origem legal de 1974.",
+          "promoter": "Philippine cultural and education institutions and Bulacan local government são os organismos envolvidos na comemoração e nos respetivos documentos históricos nacionais.",
+          "purpose": "Reconhecer a literatura de Balagtas distinguindo os atos de 1974 e 1986.",
+          "facts": [
+            "Araw ni Balagtas recorda Francisco Balagtas Baltazar, poeta nascido em 2 de abril de 1788 e autor de Florante at Laura. A data homenageia o legado literário e não é apenas uma biografia.",
+            "A Proclamação n.º 1249 de 1 de abril de 1974 instituiu 2 de abril anualmente e mencionou um dia especial em Bulacan. A folga atual precisa de confirmação anual.",
+            "A Proclamação n.º 5 de 1 de abril de 1986, assinada por Corazon Aquino, reafirmou a data anual. O ato de 1986 não substitui a origem legal de 1974."
+          ]
+        }
+      },
+      "sourceReviewNote": "Historical Philippine law/proclamation text reviewed against national NCCA calendar; state a present-day holiday only when specifically supported. Machine six-language original draft, qualified factual and native-language human signoff pending."
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "KOREAN_MOIS_SOURCE_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-king-sejong-birthday-commemoration",
+      "country": "KR",
+      "observanceDate": "05-15",
+      "introducedYear": 2024,
+      "firstObservedYear": null,
+      "originClusterId": "KR_MAY15_SEJONG_AND_TEACHERS_DISTINCT_ORIGINS",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 May: a new national day for King Sejong",
+          "origin": "King Sejong's Birthday Commemoration honours the Joseon monarch associated with the development of the Korean alphabet and public-minded cultural reforms. In June 2024 the Ministry of Culture requested an official remembrance, consulting the Korea Heritage Service, scholarly groups and associations devoted to the Korean language. The government designated 15 May in November 2024. It shares its calendar date with Teachers' Day but is a separate statutory observance, not a 2024 invention of the older teachers' celebration. For accurate interpretation, the historical starting point, early civic initiatives and the later government decision should remain distinguishable; a commemorative date is not automatically a general public holiday.",
+          "promoter": "South Korean government ministries formalized the current statutory observance after the documented earlier proposal or historical precedent.",
+          "purpose": "Promote understanding of King Sejong's cultural contributions and the historical importance of innovation and concern for the public.",
+          "facts": [
+            "King Sejong's Birthday Commemoration honours the Joseon monarch associated with the development of the Korean alphabet and public-minded cultural reforms.",
+            "In June 2024 the Ministry of Culture requested an official remembrance, consulting the Korea Heritage Service, scholarly groups and associations devoted to the Korean language.",
+            "The government designated 15 May in November 2024. It shares its calendar date with Teachers' Day but is a separate statutory observance, not a 2024 invention of the older teachers' celebration."
+          ]
+        },
+        "it": {
+          "heading": "15 maggio: una nuova ricorrenza nazionale per re Sejong",
+          "origin": "La commemorazione della nascita di re Sejong rende omaggio al sovrano Joseon legato allo sviluppo dell'alfabeto coreano e alle riforme culturali orientate al bene pubblico. Nel giugno 2024 il Ministero della Cultura propose una giornata ufficiale, consultando l'ente nazionale per il patrimonio, studiosi e associazioni dedicate alla lingua coreana. Il governo istituì il 15 maggio nel novembre 2024. La data coincide con la Giornata degli insegnanti, ma la nuova ricorrenza ha un'origine normativa distinta. Per ricostruire correttamente l'origine occorre distinguere l'evento storico, le prime iniziative e la successiva decisione del governo; una ricorrenza non è automaticamente un giorno festivo nazionale.",
+          "promoter": "Le istituzioni competenti del governo sudcoreano hanno formalizzato la ricorrenza dopo le proposte e gli antecedenti documentati.",
+          "purpose": "Far conoscere il contributo culturale di Sejong e il valore storico di innovazione, educazione e attenzione ai cittadini.",
+          "facts": [
+            "La commemorazione della nascita di re Sejong rende omaggio al sovrano Joseon legato allo sviluppo dell'alfabeto coreano e alle riforme culturali orientate al bene pubblico.",
+            "Nel giugno 2024 il Ministero della Cultura propose una giornata ufficiale, consultando l'ente nazionale per il patrimonio, studiosi e associazioni dedicate alla lingua coreana.",
+            "Il governo istituì il 15 maggio nel novembre 2024. La data coincide con la Giornata degli insegnanti, ma la nuova ricorrenza ha un'origine normativa distinta."
+          ]
+        },
+        "es": {
+          "heading": "15 de mayo: nueva conmemoración nacional de rey Sejong",
+          "origin": "La conmemoración del nacimiento del rey Sejong honra al monarca Joseon asociado con el desarrollo del alfabeto coreano y las reformas culturales de interés público. En junio de 2024 el Ministerio de Cultura solicitó una jornada oficial y consultó al servicio de patrimonio, a expertos y a asociaciones de la lengua coreana. El Gobierno la estableció en noviembre de 2024 para el 15 de mayo. Coincide con el Día del Maestro, pero ambas jornadas tienen orígenes legales diferentes. Para comprender bien la historia es necesario separar el hecho original, las primeras iniciativas y la decisión posterior del Gobierno; una conmemoración no significa necesariamente un día festivo general.",
+          "promoter": "Las instituciones competentes del Gobierno surcoreano formalizaron la jornada después de las iniciativas y antecedentes documentados.",
+          "purpose": "Divulgar las aportaciones culturales de Sejong y su relación con la innovación, la educación y el servicio público.",
+          "facts": [
+            "La conmemoración del nacimiento del rey Sejong honra al monarca Joseon asociado con el desarrollo del alfabeto coreano y las reformas culturales de interés público.",
+            "En junio de 2024 el Ministerio de Cultura solicitó una jornada oficial y consultó al servicio de patrimonio, a expertos y a asociaciones de la lengua coreana.",
+            "El Gobierno la estableció en noviembre de 2024 para el 15 de mayo. Coincide con el Día del Maestro, pero ambas jornadas tienen orígenes legales diferentes."
+          ]
+        },
+        "fr": {
+          "heading": "15 mai : une nouvelle commémoration nationale du roi Sejong",
+          "origin": "La Journée de la naissance du roi Sejong rend hommage au souverain Joseon associé à la création de l'alphabet coréen et à des réformes culturelles d'intérêt public. En juin 2024, le ministère de la Culture a proposé une journée officielle et consulté les services du patrimoine, des experts et des associations linguistiques. Le gouvernement l'a instituée en novembre 2024 pour le 15 mai. La date coïncide avec la Journée des enseignants, mais les deux fêtes ont des origines juridiques distinctes. Pour comprendre cette histoire, il faut distinguer l'événement initial, les premières initiatives et la décision ultérieure de l'État; une commémoration ne signifie pas automatiquement un jour férié général.",
+          "promoter": "Les institutions compétentes du gouvernement sud-coréen ont institué cette journée après les propositions et précédents documentés.",
+          "purpose": "Faire connaître l'héritage culturel du roi Sejong et l'importance de l'éducation, de l'innovation et du service de la population.",
+          "facts": [
+            "La Journée de la naissance du roi Sejong rend hommage au souverain Joseon associé à la création de l'alphabet coréen et à des réformes culturelles d'intérêt public.",
+            "En juin 2024, le ministère de la Culture a proposé une journée officielle et consulté les services du patrimoine, des experts et des associations linguistiques.",
+            "Le gouvernement l'a instituée en novembre 2024 pour le 15 mai. La date coïncide avec la Journée des enseignants, mais les deux fêtes ont des origines juridiques distinctes."
+          ]
+        },
+        "de": {
+          "heading": "15. Mai: ein neuer staatlicher Gedenktag für König Sejong",
+          "origin": "Der Gedenktag zu König Sejongs Geburtstag würdigt den Joseon-Herrscher, der mit der Entwicklung des koreanischen Alphabets und öffentlichen Kulturreformen verbunden ist. Im Juni 2024 beantragte das Kulturministerium einen amtlichen Gedenktag und konsultierte Denkmalschutzbehörden, Fachleute und Sprachverbände. Die Regierung beschloss den 15. Mai im November 2024. Er fällt mit dem Lehrertag zusammen, beruht aber auf einer anderen rechtlichen Grundlage. Für eine korrekte Einordnung sind der ursprüngliche historische Anlass, frühe Initiativen und die spätere staatliche Entscheidung zu unterscheiden; ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Ministerien führten den Gedenktag nach den dokumentierten Initiativen oder historischen Vorläufern ein.",
+          "purpose": "Sejongs kulturelles Erbe und seine Bedeutung für Innovation, Bildung und das Gemeinwohl bekannt machen.",
+          "facts": [
+            "Der Gedenktag zu König Sejongs Geburtstag würdigt den Joseon-Herrscher, der mit der Entwicklung des koreanischen Alphabets und öffentlichen Kulturreformen verbunden ist.",
+            "Im Juni 2024 beantragte das Kulturministerium einen amtlichen Gedenktag und konsultierte Denkmalschutzbehörden, Fachleute und Sprachverbände.",
+            "Die Regierung beschloss den 15. Mai im November 2024. Er fällt mit dem Lehrertag zusammen, beruht aber auf einer anderen rechtlichen Grundlage."
+          ]
+        },
+        "pt": {
+          "heading": "15 de maio: nova comemoração nacional do rei Sejong",
+          "origin": "A comemoração do nascimento do rei Sejong homenageia o monarca Joseon associado ao desenvolvimento do alfabeto coreano e a reformas culturais de interesse público. Em junho de 2024, o Ministério da Cultura propôs uma jornada oficial e consultou organismos do património, especialistas e associações da língua coreana. O governo designou o 15 de maio em novembro de 2024. A data coincide com o Dia dos Professores, mas as duas comemorações têm origens legais diferentes. Para compreender a origem, é preciso distinguir o acontecimento histórico, as primeiras iniciativas e a decisão governamental posterior; uma comemoração não cria automaticamente um feriado geral.",
+          "promoter": "As entidades competentes do governo sul-coreano oficializaram a jornada após as propostas e antecedentes documentados.",
+          "purpose": "Divulgar a herança cultural do rei Sejong e o papel da educação, inovação e preocupação com os cidadãos.",
+          "facts": [
+            "A comemoração do nascimento do rei Sejong homenageia o monarca Joseon associado ao desenvolvimento do alfabeto coreano e a reformas culturais de interesse público.",
+            "Em junho de 2024, o Ministério da Cultura propôs uma jornada oficial e consultou organismos do património, especialistas e associações da língua coreana.",
+            "O governo designou o 15 de maio em novembro de 2024. A data coincide com o Dia dos Professores, mas as duas comemorações têm origens legais diferentes."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Korean MOIS official chronological regulations and ministry public commemorations index; both same government source, not independent institutional corroboration. AI six-locale historical draft. Human historical verification and qualified native editorial review remain pending; qualifiedEditorialApproval=false."
+    },
+    {
+      "observanceId": "kr-w10-north-korean-defectors-day",
+      "country": "KR",
+      "observanceDate": "07-14",
+      "introducedYear": 2024,
+      "firstObservedYear": null,
+      "originClusterId": "KR_NORTH_KOREAN_DEFECTORS_INCLUSION_2024",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "14 July: a day recognizing people who have left North Korea",
+          "origin": "North Korean Defectors Day is a South Korean national commemoration concerning the rights, inclusion and social participation of people who have left North Korea and settled in the South. The Ministry of the Interior documents a January 2024 instruction to create the day and Ministry of Unification consultations with defectors, associations and specialists in February. The government formally established 14 July in May 2024. This is an inclusion and public-awareness observance, not the anniversary of one border-crossing incident or a general public holiday. For accurate interpretation, the historical starting point, early civic initiatives and the later government decision should remain distinguishable; a commemorative date is not automatically a general public holiday.",
+          "promoter": "South Korean government ministries formalized the current statutory observance after the documented earlier proposal or historical precedent.",
+          "purpose": "Support the rights and wellbeing of North Korean defectors, social integration and informed public understanding.",
+          "facts": [
+            "North Korean Defectors Day is a South Korean national commemoration concerning the rights, inclusion and social participation of people who have left North Korea and settled in the South.",
+            "The Ministry of the Interior documents a January 2024 instruction to create the day and Ministry of Unification consultations with defectors, associations and specialists in February.",
+            "The government formally established 14 July in May 2024. This is an inclusion and public-awareness observance, not the anniversary of one border-crossing incident or a general public holiday."
+          ]
+        },
+        "it": {
+          "heading": "14 luglio: una giornata dedicata a chi ha lasciato la Corea del Nord",
+          "origin": "La Giornata dei fuoriusciti dalla Corea del Nord è una ricorrenza sudcoreana dedicata ai diritti, all'inclusione e alla partecipazione sociale delle persone arrivate dal Nord. Il Ministero dell'Interno documenta una direttiva governativa del gennaio 2024 e le consultazioni svolte in febbraio dal Ministero dell'Unificazione con persone interessate, associazioni ed esperti. Il governo istituì il 14 luglio nel maggio 2024. È una giornata di sensibilizzazione e inclusione, non l'anniversario di una singola fuga o una festività generale. Per ricostruire correttamente l'origine occorre distinguere l'evento storico, le prime iniziative e la successiva decisione del governo; una ricorrenza non è automaticamente un giorno festivo nazionale.",
+          "promoter": "Le istituzioni competenti del governo sudcoreano hanno formalizzato la ricorrenza dopo le proposte e gli antecedenti documentati.",
+          "purpose": "Sostenere i diritti e il benessere delle persone provenienti dalla Corea del Nord e la loro integrazione nella società.",
+          "facts": [
+            "La Giornata dei fuoriusciti dalla Corea del Nord è una ricorrenza sudcoreana dedicata ai diritti, all'inclusione e alla partecipazione sociale delle persone arrivate dal Nord.",
+            "Il Ministero dell'Interno documenta una direttiva governativa del gennaio 2024 e le consultazioni svolte in febbraio dal Ministero dell'Unificazione con persone interessate, associazioni ed esperti.",
+            "Il governo istituì il 14 luglio nel maggio 2024. È una giornata di sensibilizzazione e inclusione, non l'anniversario di una singola fuga o una festività generale."
+          ]
+        },
+        "es": {
+          "heading": "14 de julio: reconocimiento a las personas que dejaron Corea del Norte",
+          "origin": "El Día de los Desertores Norcoreanos es una conmemoración de Corea del Sur centrada en los derechos, la inclusión y la participación social de quienes llegaron desde el Norte. El Ministerio del Interior documenta una instrucción gubernamental de enero de 2024 y consultas realizadas en febrero por el Ministerio de Unificación con afectados, asociaciones y especialistas. El Gobierno estableció oficialmente el 14 de julio en mayo de 2024. No es el aniversario de un caso individual de cruce de frontera ni un festivo general. Para comprender bien la historia es necesario separar el hecho original, las primeras iniciativas y la decisión posterior del Gobierno; una conmemoración no significa necesariamente un día festivo general.",
+          "promoter": "Las instituciones competentes del Gobierno surcoreano formalizaron la jornada después de las iniciativas y antecedentes documentados.",
+          "purpose": "Promover los derechos, el bienestar, la inclusión y la comprensión pública de quienes han dejado Corea del Norte.",
+          "facts": [
+            "El Día de los Desertores Norcoreanos es una conmemoración de Corea del Sur centrada en los derechos, la inclusión y la participación social de quienes llegaron desde el Norte.",
+            "El Ministerio del Interior documenta una instrucción gubernamental de enero de 2024 y consultas realizadas en febrero por el Ministerio de Unificación con afectados, asociaciones y especialistas.",
+            "El Gobierno estableció oficialmente el 14 de julio en mayo de 2024. No es el aniversario de un caso individual de cruce de frontera ni un festivo general."
+          ]
+        },
+        "fr": {
+          "heading": "14 juillet : une journée pour les personnes venues de Corée du Nord",
+          "origin": "La Journée des personnes ayant quitté la Corée du Nord est une commémoration sud-coréenne consacrée à leurs droits, à leur inclusion et à leur participation à la vie sociale. Le ministère de l'Intérieur signale une directive gouvernementale de janvier 2024 et des consultations conduites en février par le ministère de l'Unification avec des personnes concernées et des experts. Le gouvernement a institué officiellement le 14 juillet en mai 2024. Il ne s'agit ni de l'anniversaire d'une traversée particulière ni d'un jour férié général. Pour comprendre cette histoire, il faut distinguer l'événement initial, les premières initiatives et la décision ultérieure de l'État; une commémoration ne signifie pas automatiquement un jour férié général.",
+          "promoter": "Les institutions compétentes du gouvernement sud-coréen ont institué cette journée après les propositions et précédents documentés.",
+          "purpose": "Soutenir les droits, le bien-être et l'intégration des personnes ayant quitté la Corée du Nord.",
+          "facts": [
+            "La Journée des personnes ayant quitté la Corée du Nord est une commémoration sud-coréenne consacrée à leurs droits, à leur inclusion et à leur participation à la vie sociale.",
+            "Le ministère de l'Intérieur signale une directive gouvernementale de janvier 2024 et des consultations conduites en février par le ministère de l'Unification avec des personnes concernées et des experts.",
+            "Le gouvernement a institué officiellement le 14 juillet en mai 2024. Il ne s'agit ni de l'anniversaire d'une traversée particulière ni d'un jour férié général."
+          ]
+        },
+        "de": {
+          "heading": "14. Juli: ein Gedenktag für Menschen aus Nordkorea",
+          "origin": "Der südkoreanische Tag der nordkoreanischen Geflüchteten widmet sich den Rechten, der Inklusion und der gesellschaftlichen Teilhabe von Menschen, die Nordkorea verlassen haben. Das Innenministerium nennt eine Regierungsinitiative vom Januar 2024 und Beratungen des Vereinigungsministeriums im Februar mit Betroffenen, Verbänden und Fachleuten. Im Mai 2024 wurde der 14. Juli offiziell festgelegt. Der Tag erinnert nicht an eine einzelne Flucht und ist kein allgemeiner arbeitsfreier Feiertag. Für eine korrekte Einordnung sind der ursprüngliche historische Anlass, frühe Initiativen und die spätere staatliche Entscheidung zu unterscheiden; ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Ministerien führten den Gedenktag nach den dokumentierten Initiativen oder historischen Vorläufern ein.",
+          "purpose": "Rechte, Wohlergehen, gesellschaftliche Integration und öffentliches Verständnis für Menschen aus Nordkorea stärken.",
+          "facts": [
+            "Der südkoreanische Tag der nordkoreanischen Geflüchteten widmet sich den Rechten, der Inklusion und der gesellschaftlichen Teilhabe von Menschen, die Nordkorea verlassen haben.",
+            "Das Innenministerium nennt eine Regierungsinitiative vom Januar 2024 und Beratungen des Vereinigungsministeriums im Februar mit Betroffenen, Verbänden und Fachleuten.",
+            "Im Mai 2024 wurde der 14. Juli offiziell festgelegt. Der Tag erinnert nicht an eine einzelne Flucht und ist kein allgemeiner arbeitsfreier Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "14 de julho: reconhecimento das pessoas que deixaram a Coreia do Norte",
+          "origin": "O Dia das Pessoas que Deixaram a Coreia do Norte é uma comemoração sul-coreana dedicada aos direitos, inclusão e participação social de quem chegou do Norte. O Ministério do Interior regista uma iniciativa governamental de janeiro de 2024 e consultas promovidas em fevereiro pelo Ministério da Unificação com pessoas envolvidas, associações e especialistas. O governo estabeleceu oficialmente o 14 de julho em maio de 2024. Não se trata do aniversário de uma fuga individual nem de um feriado público geral. Para compreender a origem, é preciso distinguir o acontecimento histórico, as primeiras iniciativas e a decisão governamental posterior; uma comemoração não cria automaticamente um feriado geral.",
+          "promoter": "As entidades competentes do governo sul-coreano oficializaram a jornada após as propostas e antecedentes documentados.",
+          "purpose": "Promover direitos, bem-estar, integração social e compreensão pública das pessoas vindas da Coreia do Norte.",
+          "facts": [
+            "O Dia das Pessoas que Deixaram a Coreia do Norte é uma comemoração sul-coreana dedicada aos direitos, inclusão e participação social de quem chegou do Norte.",
+            "O Ministério do Interior regista uma iniciativa governamental de janeiro de 2024 e consultas promovidas em fevereiro pelo Ministério da Unificação com pessoas envolvidas, associações e especialistas.",
+            "O governo estabeleceu oficialmente o 14 de julho em maio de 2024. Não se trata do aniversário de uma fuga individual nem de um feriado público geral."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Korean MOIS official chronological regulations and ministry public commemorations index; both same government source, not independent institutional corroboration. AI six-locale historical draft. Human historical verification and qualified native editorial review remain pending; qualifiedEditorialApproval=false."
+    },
+    {
+      "observanceId": "kr-w10-fallen-military-service-members-remembrance-day",
+      "country": "KR",
+      "observanceDate": "FOURTH_FRIDAY_APRIL",
+      "introducedYear": 2023,
+      "firstObservedYear": null,
+      "originClusterId": "KR_MANDATORY_SERVICE_DEATH_MEMORIAL",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Fourth Friday of April: remembering those who died on compulsory service",
+          "origin": "Fallen Military Service Members Remembrance Day honours people who died while carrying out military or public-security duties arising from compulsory national service. The Ministry of the Interior records legislative proposals from 2020 to 2022, discussion of the appropriate legal mechanism in 2023 and consultations with veterans' organizations. The government recognized the statutory memorial in November 2023, assigning the fourth Friday of April. It must be kept distinct from the broader Memorial Day on 6 June. For accurate interpretation, the historical starting point, early civic initiatives and the later government decision should remain distinguishable; a commemorative date is not automatically a general public holiday.",
+          "promoter": "South Korean government ministries formalized the current statutory observance after the documented earlier proposal or historical precedent.",
+          "purpose": "Remember service members who died in duty, recognize the bereaved and preserve the public responsibility to honour their sacrifice.",
+          "facts": [
+            "Fallen Military Service Members Remembrance Day honours people who died while carrying out military or public-security duties arising from compulsory national service.",
+            "The Ministry of the Interior records legislative proposals from 2020 to 2022, discussion of the appropriate legal mechanism in 2023 and consultations with veterans' organizations.",
+            "The government recognized the statutory memorial in November 2023, assigning the fourth Friday of April. It must be kept distinct from the broader Memorial Day on 6 June."
+          ]
+        },
+        "it": {
+          "heading": "Quarto venerdì di aprile: il ricordo dei caduti durante il servizio obbligatorio",
+          "origin": "La giornata in memoria dei militari e degli agenti morti durante il servizio obbligatorio onora chi ha perso la vita nell'adempimento di doveri di difesa o pubblica sicurezza. Il Ministero dell'Interno riporta proposte legislative tra il 2020 e il 2022, discussioni parlamentari nel 2023 e consultazioni con le organizzazioni dei veterani. La ricorrenza legale fu riconosciuta nel novembre 2023 e cade il quarto venerdì di aprile. Non coincide con la più ampia Giornata della memoria del 6 giugno. Per ricostruire correttamente l'origine occorre distinguere l'evento storico, le prime iniziative e la successiva decisione del governo; una ricorrenza non è automaticamente un giorno festivo nazionale.",
+          "promoter": "Le istituzioni competenti del governo sudcoreano hanno formalizzato la ricorrenza dopo le proposte e gli antecedenti documentati.",
+          "purpose": "Ricordare i caduti in servizio, sostenere le famiglie e riconoscere pubblicamente il sacrificio compiuto.",
+          "facts": [
+            "La giornata in memoria dei militari e degli agenti morti durante il servizio obbligatorio onora chi ha perso la vita nell'adempimento di doveri di difesa o pubblica sicurezza.",
+            "Il Ministero dell'Interno riporta proposte legislative tra il 2020 e il 2022, discussioni parlamentari nel 2023 e consultazioni con le organizzazioni dei veterani.",
+            "La ricorrenza legale fu riconosciuta nel novembre 2023 e cade il quarto venerdì di aprile. Non coincide con la più ampia Giornata della memoria del 6 giugno."
+          ]
+        },
+        "es": {
+          "heading": "Cuarto viernes de abril: memoria de quienes murieron durante el servicio",
+          "origin": "Esta jornada honra a quienes fallecieron mientras cumplían obligaciones de defensa o seguridad pública derivadas del servicio nacional obligatorio en Corea del Sur. El Ministerio del Interior describe propuestas legislativas de 2020 a 2022, debates parlamentarios en 2023 y consultas con asociaciones de veteranos. La conmemoración reglamentaria fue reconocida en noviembre de 2023 para el cuarto viernes de abril. Es distinta del Día Nacional de los Caídos del 6 de junio. Para comprender bien la historia es necesario separar el hecho original, las primeras iniciativas y la decisión posterior del Gobierno; una conmemoración no significa necesariamente un día festivo general.",
+          "promoter": "Las instituciones competentes del Gobierno surcoreano formalizaron la jornada después de las iniciativas y antecedentes documentados.",
+          "purpose": "Recordar a las personas fallecidas en servicio y apoyar a sus familias reconociendo públicamente su sacrificio.",
+          "facts": [
+            "Esta jornada honra a quienes fallecieron mientras cumplían obligaciones de defensa o seguridad pública derivadas del servicio nacional obligatorio en Corea del Sur.",
+            "El Ministerio del Interior describe propuestas legislativas de 2020 a 2022, debates parlamentarios en 2023 y consultas con asociaciones de veteranos.",
+            "La conmemoración reglamentaria fue reconocida en noviembre de 2023 para el cuarto viernes de abril. Es distinta del Día Nacional de los Caídos del 6 de junio."
+          ]
+        },
+        "fr": {
+          "heading": "Quatrième vendredi d'avril : mémoire des morts en service obligatoire",
+          "origin": "Cette journée commémore les personnes décédées en accomplissant des devoirs militaires ou de sécurité publique liés au service national obligatoire en Corée du Sud. Le ministère de l'Intérieur décrit des propositions législatives entre 2020 et 2022, des débats parlementaires en 2023 et des consultations avec des associations d'anciens combattants. La journée légale a été reconnue en novembre 2023 pour le quatrième vendredi d'avril. Elle est distincte de la Journée nationale du souvenir du 6 juin. Pour comprendre cette histoire, il faut distinguer l'événement initial, les premières initiatives et la décision ultérieure de l'État; une commémoration ne signifie pas automatiquement un jour férié général.",
+          "promoter": "Les institutions compétentes du gouvernement sud-coréen ont institué cette journée après les propositions et précédents documentés.",
+          "purpose": "Honorer les personnes mortes en service, soutenir leurs proches et reconnaître l'importance de leur sacrifice.",
+          "facts": [
+            "Cette journée commémore les personnes décédées en accomplissant des devoirs militaires ou de sécurité publique liés au service national obligatoire en Corée du Sud.",
+            "Le ministère de l'Intérieur décrit des propositions législatives entre 2020 et 2022, des débats parlementaires en 2023 et des consultations avec des associations d'anciens combattants.",
+            "La journée légale a été reconnue en novembre 2023 pour le quatrième vendredi d'avril. Elle est distincte de la Journée nationale du souvenir du 6 juin."
+          ]
+        },
+        "de": {
+          "heading": "Vierter Freitag im April: Gedenken an Tote im Pflichtdienst",
+          "origin": "Der Gedenktag erinnert an Menschen, die während der Erfüllung militärischer oder öffentlicher Sicherheitsaufgaben im Rahmen des verpflichtenden nationalen Dienstes ums Leben kamen. Das Innenministerium dokumentiert Gesetzesvorschläge aus den Jahren 2020 bis 2022, parlamentarische Beratungen 2023 und Gespräche mit Veteranenverbänden. Im November 2023 wurde der vierte Freitag im April als offizieller Gedenktag eingeführt. Er ist vom umfassenderen nationalen Gedenktag am 6. Juni zu unterscheiden. Für eine korrekte Einordnung sind der ursprüngliche historische Anlass, frühe Initiativen und die spätere staatliche Entscheidung zu unterscheiden; ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Ministerien führten den Gedenktag nach den dokumentierten Initiativen oder historischen Vorläufern ein.",
+          "purpose": "Die im Dienst Verstorbenen würdigen, ihre Angehörigen unterstützen und ihre Opfer in Erinnerung halten.",
+          "facts": [
+            "Der Gedenktag erinnert an Menschen, die während der Erfüllung militärischer oder öffentlicher Sicherheitsaufgaben im Rahmen des verpflichtenden nationalen Dienstes ums Leben kamen.",
+            "Das Innenministerium dokumentiert Gesetzesvorschläge aus den Jahren 2020 bis 2022, parlamentarische Beratungen 2023 und Gespräche mit Veteranenverbänden.",
+            "Im November 2023 wurde der vierte Freitag im April als offizieller Gedenktag eingeführt. Er ist vom umfassenderen nationalen Gedenktag am 6. Juni zu unterscheiden."
+          ]
+        },
+        "pt": {
+          "heading": "Quarta sexta-feira de abril: memória dos falecidos no serviço obrigatório",
+          "origin": "Esta comemoração recorda as pessoas que morreram ao cumprir deveres militares ou de segurança pública associados ao serviço nacional obrigatório na Coreia do Sul. O Ministério do Interior documenta propostas legislativas entre 2020 e 2022, debates parlamentares em 2023 e consultas com associações de veteranos. A data oficial foi reconhecida em novembro de 2023 para a quarta sexta-feira de abril. É diferente do Dia Nacional da Memória de 6 de junho. Para compreender a origem, é preciso distinguir o acontecimento histórico, as primeiras iniciativas e a decisão governamental posterior; uma comemoração não cria automaticamente um feriado geral.",
+          "promoter": "As entidades competentes do governo sul-coreano oficializaram a jornada após as propostas e antecedentes documentados.",
+          "purpose": "Homenagear quem morreu em serviço, apoiar as famílias e reconhecer publicamente o seu sacrifício.",
+          "facts": [
+            "Esta comemoração recorda as pessoas que morreram ao cumprir deveres militares ou de segurança pública associados ao serviço nacional obrigatório na Coreia do Sul.",
+            "O Ministério do Interior documenta propostas legislativas entre 2020 e 2022, debates parlamentares em 2023 e consultas com associações de veteranos.",
+            "A data oficial foi reconhecida em novembro de 2023 para a quarta sexta-feira de abril. É diferente do Dia Nacional da Memória de 6 de junho."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Korean MOIS official chronological regulations and ministry public commemorations index; both same government source, not independent institutional corroboration. AI six-locale historical draft. Human historical verification and qualified native editorial review remain pending; qualifiedEditorialApproval=false."
+    },
+    {
+      "observanceId": "kr-w10-couples-day-in-korea",
+      "country": "KR",
+      "observanceDate": "05-21",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "originClusterId": "KR_MARRIED_COUPLES_PUBLIC_FAMILY_POLICY",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 May: a civic campaign becomes South Korea's Couples Day",
+          "origin": "Couples Day in South Korea draws attention to marriage, mutual respect and an equitable partnership within family life. It grew from a campaign to recognize the social as well as personal significance of relationships. The National Assembly approved a petition calling for a national Couples Day on 18 December 2003; the government later placed the occasion on the statutory commemorative calendar on 2 May 2007. The annual date is 21 May. Legislative approval of the petition and the formal government designation are separate steps, and this is not a general public holiday. For accurate interpretation, the historical starting point, early civic initiatives and the later government decision should remain distinguishable; a commemorative date is not automatically a general public holiday.",
+          "promoter": "South Korean government ministries formalized the current statutory observance after the documented earlier proposal or historical precedent.",
+          "purpose": "Encourage equitable and respectful marital relationships and the wellbeing of families and their members.",
+          "facts": [
+            "Couples Day in South Korea draws attention to marriage, mutual respect and an equitable partnership within family life. It grew from a campaign to recognize the social as well as personal significance of relationships.",
+            "The National Assembly approved a petition calling for a national Couples Day on 18 December 2003; the government later placed the occasion on the statutory commemorative calendar on 2 May 2007.",
+            "The annual date is 21 May. Legislative approval of the petition and the formal government designation are separate steps, and this is not a general public holiday."
+          ]
+        },
+        "it": {
+          "heading": "21 maggio: una campagna civica diventa la Giornata delle coppie",
+          "origin": "La Giornata delle coppie sudcoreana invita a riflettere sul matrimonio, sul rispetto reciproco e sull'uguaglianza nei rapporti familiari. Nacque come proposta di riconoscere l'importanza personale e sociale delle relazioni. Il 18 dicembre 2003 l'Assemblea nazionale approvò una petizione per istituire la ricorrenza; il governo la inserì nel calendario commemorativo legale il 2 maggio 2007. La data annuale è il 21 maggio. La petizione parlamentare e il successivo provvedimento normativo sono passaggi distinti, non una festività generale. Per ricostruire correttamente l'origine occorre distinguere l'evento storico, le prime iniziative e la successiva decisione del governo; una ricorrenza non è automaticamente un giorno festivo nazionale.",
+          "promoter": "Le istituzioni competenti del governo sudcoreano hanno formalizzato la ricorrenza dopo le proposte e gli antecedenti documentati.",
+          "purpose": "Promuovere relazioni coniugali paritarie e rispettose e il benessere delle famiglie e dei loro componenti.",
+          "facts": [
+            "La Giornata delle coppie sudcoreana invita a riflettere sul matrimonio, sul rispetto reciproco e sull'uguaglianza nei rapporti familiari. Nacque come proposta di riconoscere l'importanza personale e sociale delle relazioni.",
+            "Il 18 dicembre 2003 l'Assemblea nazionale approvò una petizione per istituire la ricorrenza; il governo la inserì nel calendario commemorativo legale il 2 maggio 2007.",
+            "La data annuale è il 21 maggio. La petizione parlamentare e il successivo provvedimento normativo sono passaggi distinti, non una festività generale."
+          ]
+        },
+        "es": {
+          "heading": "21 de mayo: una iniciativa civil se convierte en el Día de las Parejas",
+          "origin": "El Día de las Parejas surcoreano invita a reflexionar sobre el matrimonio, el respeto mutuo y la igualdad en la vida familiar. Surgió de una campaña para reconocer la importancia social y personal de las relaciones. La Asamblea Nacional aprobó una petición sobre esta jornada el 18 de diciembre de 2003; el Gobierno la incluyó entre las conmemoraciones oficiales el 2 de mayo de 2007. Se celebra el 21 de mayo. La aprobación parlamentaria de la petición y el reconocimiento legal posterior son etapas diferentes; no es un festivo general. Para comprender bien la historia es necesario separar el hecho original, las primeras iniciativas y la decisión posterior del Gobierno; una conmemoración no significa necesariamente un día festivo general.",
+          "promoter": "Las instituciones competentes del Gobierno surcoreano formalizaron la jornada después de las iniciativas y antecedentes documentados.",
+          "purpose": "Fomentar relaciones matrimoniales equilibradas y respetuosas y proteger el bienestar de las familias.",
+          "facts": [
+            "El Día de las Parejas surcoreano invita a reflexionar sobre el matrimonio, el respeto mutuo y la igualdad en la vida familiar. Surgió de una campaña para reconocer la importancia social y personal de las relaciones.",
+            "La Asamblea Nacional aprobó una petición sobre esta jornada el 18 de diciembre de 2003; el Gobierno la incluyó entre las conmemoraciones oficiales el 2 de mayo de 2007.",
+            "Se celebra el 21 de mayo. La aprobación parlamentaria de la petición y el reconocimiento legal posterior son etapas diferentes; no es un festivo general."
+          ]
+        },
+        "fr": {
+          "heading": "21 mai : une campagne citoyenne devient la Journée des couples",
+          "origin": "En Corée du Sud, la Journée des couples invite à réfléchir au mariage, au respect mutuel et à l'égalité dans les relations familiales. Elle est issue d'une campagne soulignant leur importance personnelle et sociale. L'Assemblée nationale a approuvé une pétition demandant cette journée le 18 décembre 2003; le gouvernement l'a inscrite au calendrier commémoratif le 2 mai 2007. La date annuelle est le 21 mai. L'adoption de la pétition et la désignation légale sont deux étapes distinctes, sans jour férié général. Pour comprendre cette histoire, il faut distinguer l'événement initial, les premières initiatives et la décision ultérieure de l'État; une commémoration ne signifie pas automatiquement un jour férié général.",
+          "promoter": "Les institutions compétentes du gouvernement sud-coréen ont institué cette journée après les propositions et précédents documentés.",
+          "purpose": "Promouvoir des relations conjugales équitables, respectueuses et favorables au bien-être des familles.",
+          "facts": [
+            "En Corée du Sud, la Journée des couples invite à réfléchir au mariage, au respect mutuel et à l'égalité dans les relations familiales. Elle est issue d'une campagne soulignant leur importance personnelle et sociale.",
+            "L'Assemblée nationale a approuvé une pétition demandant cette journée le 18 décembre 2003; le gouvernement l'a inscrite au calendrier commémoratif le 2 mai 2007.",
+            "La date annuelle est le 21 mai. L'adoption de la pétition et la désignation légale sont deux étapes distinctes, sans jour férié général."
+          ]
+        },
+        "de": {
+          "heading": "21. Mai: Aus einer Bürgerinitiative wird Südkoreas Tag der Paare",
+          "origin": "Der südkoreanische Tag der Paare regt zur Auseinandersetzung mit Ehe, gegenseitigem Respekt und Gleichberechtigung im Familienleben an. Er entstand aus einer Initiative zur Anerkennung der gesellschaftlichen Bedeutung von Partnerschaften. Die Nationalversammlung stimmte am 18. Dezember 2003 einer Petition für einen solchen Tag zu; die Regierung nahm ihn am 2. Mai 2007 in den gesetzlichen Gedenkkalender auf. Der jährliche Termin ist der 21. Mai. Die parlamentarische Petition und die spätere staatliche Anerkennung waren zwei verschiedene Schritte. Für eine korrekte Einordnung sind der ursprüngliche historische Anlass, frühe Initiativen und die spätere staatliche Entscheidung zu unterscheiden; ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Ministerien führten den Gedenktag nach den dokumentierten Initiativen oder historischen Vorläufern ein.",
+          "purpose": "Gleichberechtigte und respektvolle Beziehungen sowie das Wohlergehen aller Familienmitglieder stärken.",
+          "facts": [
+            "Der südkoreanische Tag der Paare regt zur Auseinandersetzung mit Ehe, gegenseitigem Respekt und Gleichberechtigung im Familienleben an. Er entstand aus einer Initiative zur Anerkennung der gesellschaftlichen Bedeutung von Partnerschaften.",
+            "Die Nationalversammlung stimmte am 18. Dezember 2003 einer Petition für einen solchen Tag zu; die Regierung nahm ihn am 2. Mai 2007 in den gesetzlichen Gedenkkalender auf.",
+            "Der jährliche Termin ist der 21. Mai. Die parlamentarische Petition und die spätere staatliche Anerkennung waren zwei verschiedene Schritte."
+          ]
+        },
+        "pt": {
+          "heading": "21 de maio: uma iniciativa cívica torna-se o Dia dos Casais",
+          "origin": "O Dia dos Casais na Coreia do Sul convida à reflexão sobre casamento, respeito mútuo e igualdade nas relações familiares. Surgiu de uma campanha para reconhecer a importância social e pessoal da vida conjugal. A Assembleia Nacional aprovou uma petição a favor da data em 18 de dezembro de 2003; o governo integrou-a no calendário oficial em 2 de maio de 2007. O dia anual é 21 de maio. A aprovação da petição e a designação legal foram etapas distintas e não criaram um feriado geral. Para compreender a origem, é preciso distinguir o acontecimento histórico, as primeiras iniciativas e a decisão governamental posterior; uma comemoração não cria automaticamente um feriado geral.",
+          "promoter": "As entidades competentes do governo sul-coreano oficializaram a jornada após as propostas e antecedentes documentados.",
+          "purpose": "Promover relações conjugais justas e respeitosas e o bem-estar dos diversos membros das famílias.",
+          "facts": [
+            "O Dia dos Casais na Coreia do Sul convida à reflexão sobre casamento, respeito mútuo e igualdade nas relações familiares. Surgiu de uma campanha para reconhecer a importância social e pessoal da vida conjugal.",
+            "A Assembleia Nacional aprovou uma petição a favor da data em 18 de dezembro de 2003; o governo integrou-a no calendário oficial em 2 de maio de 2007.",
+            "O dia anual é 21 de maio. A aprovação da petição e a designação legal foram etapas distintas e não criaram um feriado geral."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Korean MOIS official chronological regulations and ministry public commemorations index; both same government source, not independent institutional corroboration. AI six-locale historical draft. Human historical verification and qualified native editorial review remain pending; qualifiedEditorialApproval=false."
+    },
+    {
+      "observanceId": "kr-w10-culture-day-in-korea",
+      "country": "KR",
+      "observanceDate": "THIRD_SATURDAY_OCTOBER",
+      "introducedYear": 1973,
+      "firstObservedYear": null,
+      "originClusterId": "KR_CULTURE_DAY_MERGED_MEDIA_FILM_MAGAZINE_1973",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Saturday in October: Korea's changing Culture Day",
+          "origin": "South Korea's Culture Day encourages public engagement with culture and the arts. Its modern framework followed the 1972 Culture and Arts Promotion Act and consolidated several older dates concerning broadcasting, cinema and magazines. On 30 March 1973 the government grouped these commemorations into Culture Day, initially observed on 20 October. A regulatory change on 6 September 2006 moved it to the third Saturday of October. The unified day preserves links to separate historical cultural institutions; it is not identical to the earliest broadcasting, film or magazine anniversary. For accurate interpretation, the historical starting point, early civic initiatives and the later government decision should remain distinguishable; a commemorative date is not automatically a general public holiday.",
+          "promoter": "South Korean government ministries formalized the current statutory observance after the documented earlier proposal or historical precedent.",
+          "purpose": "Increase access to arts, cultural life and historical understanding of the country's media and creative institutions.",
+          "facts": [
+            "South Korea's Culture Day encourages public engagement with culture and the arts. Its modern framework followed the 1972 Culture and Arts Promotion Act and consolidated several older dates concerning broadcasting, cinema and magazines.",
+            "On 30 March 1973 the government grouped these commemorations into Culture Day, initially observed on 20 October. A regulatory change on 6 September 2006 moved it to the third Saturday of October.",
+            "The unified day preserves links to separate historical cultural institutions; it is not identical to the earliest broadcasting, film or magazine anniversary."
+          ]
+        },
+        "it": {
+          "heading": "Terzo sabato di ottobre: la Giornata della cultura cambia calendario",
+          "origin": "La Giornata della cultura sudcoreana promuove la partecipazione alla vita artistica e culturale. Il quadro moderno seguì la legge del 1972 per la promozione delle arti e accorpò precedenti ricorrenze dedicate a radio, cinema e riviste. Il 30 marzo 1973 il governo riunì queste celebrazioni in un'unica giornata, inizialmente fissata al 20 ottobre; il 6 settembre 2006 la spostò al terzo sabato di ottobre. La giornata comune mantiene il legame con più istituzioni culturali, ma non equivale all'anniversario originario di ciascuna di esse. Per ricostruire correttamente l'origine occorre distinguere l'evento storico, le prime iniziative e la successiva decisione del governo; una ricorrenza non è automaticamente un giorno festivo nazionale.",
+          "promoter": "Le istituzioni competenti del governo sudcoreano hanno formalizzato la ricorrenza dopo le proposte e gli antecedenti documentati.",
+          "purpose": "Favorire l'accesso alla cultura, alle arti e alla storia delle istituzioni mediatiche e creative coreane.",
+          "facts": [
+            "La Giornata della cultura sudcoreana promuove la partecipazione alla vita artistica e culturale. Il quadro moderno seguì la legge del 1972 per la promozione delle arti e accorpò precedenti ricorrenze dedicate a radio, cinema e riviste.",
+            "Il 30 marzo 1973 il governo riunì queste celebrazioni in un'unica giornata, inizialmente fissata al 20 ottobre; il 6 settembre 2006 la spostò al terzo sabato di ottobre.",
+            "La giornata comune mantiene il legame con più istituzioni culturali, ma non equivale all'anniversario originario di ciascuna di esse."
+          ]
+        },
+        "es": {
+          "heading": "Tercer sábado de octubre: la cambiante jornada cultural coreana",
+          "origin": "El Día de la Cultura surcoreano promueve la participación pública en las artes y la vida cultural. Su marco moderno siguió la ley de promoción cultural de 1972 y reunió fechas antiguas relacionadas con radio, cine y revistas. El 30 de marzo de 1973 el Gobierno unificó esas conmemoraciones en una jornada fijada inicialmente al 20 de octubre; el 6 de septiembre de 2006 la trasladó al tercer sábado de octubre. La fecha común conserva relación con varias tradiciones, pero no equivale al aniversario inicial de cada sector cultural. Para comprender bien la historia es necesario separar el hecho original, las primeras iniciativas y la decisión posterior del Gobierno; una conmemoración no significa necesariamente un día festivo general.",
+          "promoter": "Las instituciones competentes del Gobierno surcoreano formalizaron la jornada después de las iniciativas y antecedentes documentados.",
+          "purpose": "Acercar a la población al arte y a la cultura y explicar la evolución de las instituciones creativas coreanas.",
+          "facts": [
+            "El Día de la Cultura surcoreano promueve la participación pública en las artes y la vida cultural. Su marco moderno siguió la ley de promoción cultural de 1972 y reunió fechas antiguas relacionadas con radio, cine y revistas.",
+            "El 30 de marzo de 1973 el Gobierno unificó esas conmemoraciones en una jornada fijada inicialmente al 20 de octubre; el 6 de septiembre de 2006 la trasladó al tercer sábado de octubre.",
+            "La fecha común conserva relación con varias tradiciones, pero no equivale al aniversario inicial de cada sector cultural."
+          ]
+        },
+        "fr": {
+          "heading": "Troisième samedi d'octobre : l'évolution de la Journée de la culture",
+          "origin": "La Journée de la culture en Corée du Sud encourage le public à participer à la vie artistique et culturelle. Son cadre moderne a suivi la loi de 1972 sur la promotion des arts et a réuni plusieurs journées consacrées à la radiodiffusion, au cinéma et aux revues. Le 30 mars 1973, le gouvernement a unifié ces commémorations autour du 20 octobre; le 6 septembre 2006, il a transféré la journée au troisième samedi d'octobre. Cette journée commune n'efface pas les origines historiques différentes des médias et des institutions qu'elle regroupe. Pour comprendre cette histoire, il faut distinguer l'événement initial, les premières initiatives et la décision ultérieure de l'État; une commémoration ne signifie pas automatiquement un jour férié général.",
+          "promoter": "Les institutions compétentes du gouvernement sud-coréen ont institué cette journée après les propositions et précédents documentés.",
+          "purpose": "Favoriser l'accès aux arts, à la vie culturelle et à la mémoire des institutions créatives coréennes.",
+          "facts": [
+            "La Journée de la culture en Corée du Sud encourage le public à participer à la vie artistique et culturelle. Son cadre moderne a suivi la loi de 1972 sur la promotion des arts et a réuni plusieurs journées consacrées à la radiodiffusion, au cinéma et aux revues.",
+            "Le 30 mars 1973, le gouvernement a unifié ces commémorations autour du 20 octobre; le 6 septembre 2006, il a transféré la journée au troisième samedi d'octobre.",
+            "Cette journée commune n'efface pas les origines historiques différentes des médias et des institutions qu'elle regroupe."
+          ]
+        },
+        "de": {
+          "heading": "Dritter Samstag im Oktober: Südkoreas Kultur-Tag im Wandel",
+          "origin": "Der südkoreanische Kulturtag soll die öffentliche Teilnahme an Kunst und Kultur fördern. Sein heutiger Rahmen folgte dem Kultur- und Kunstförderungsgesetz von 1972 und fasste ältere Gedenktage für Rundfunk, Film und Zeitschriften zusammen. Am 30. März 1973 bündelte die Regierung diese Anlässe zu einem Kulturtag am 20. Oktober. Am 6. September 2006 wurde er auf den dritten Samstag im Oktober verschoben. Der gemeinsame Tag steht für mehrere kulturelle Traditionen, ist jedoch nicht mit den ursprünglichen Gründungsjubiläen einzelner Medien gleichzusetzen. Für eine korrekte Einordnung sind der ursprüngliche historische Anlass, frühe Initiativen und die spätere staatliche Entscheidung zu unterscheiden; ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Ministerien führten den Gedenktag nach den dokumentierten Initiativen oder historischen Vorläufern ein.",
+          "purpose": "Die Teilhabe am kulturellen Leben und das Verständnis für Koreas Kunst- und Mediengeschichte stärken.",
+          "facts": [
+            "Der südkoreanische Kulturtag soll die öffentliche Teilnahme an Kunst und Kultur fördern. Sein heutiger Rahmen folgte dem Kultur- und Kunstförderungsgesetz von 1972 und fasste ältere Gedenktage für Rundfunk, Film und Zeitschriften zusammen.",
+            "Am 30. März 1973 bündelte die Regierung diese Anlässe zu einem Kulturtag am 20. Oktober. Am 6. September 2006 wurde er auf den dritten Samstag im Oktober verschoben.",
+            "Der gemeinsame Tag steht für mehrere kulturelle Traditionen, ist jedoch nicht mit den ursprünglichen Gründungsjubiläen einzelner Medien gleichzusetzen."
+          ]
+        },
+        "pt": {
+          "heading": "Terceiro sábado de outubro: a evolução do Dia da Cultura coreano",
+          "origin": "O Dia da Cultura sul-coreano incentiva a participação do público nas artes e na vida cultural. O enquadramento moderno seguiu a lei de promoção cultural de 1972 e reuniu comemorações antigas ligadas à radiodifusão, ao cinema e às revistas. Em 30 de março de 1973, o governo integrou essas jornadas numa data única, inicialmente 20 de outubro; em 6 de setembro de 2006 passou para o terceiro sábado de outubro. A celebração conjunta mantém ligação a instituições diferentes, mas não substitui as datas históricas específicas de cada setor. Para compreender a origem, é preciso distinguir o acontecimento histórico, as primeiras iniciativas e a decisão governamental posterior; uma comemoração não cria automaticamente um feriado geral.",
+          "promoter": "As entidades competentes do governo sul-coreano oficializaram a jornada após as propostas e antecedentes documentados.",
+          "purpose": "Ampliar o acesso à cultura, às artes e à história das instituições criativas e mediáticas coreanas.",
+          "facts": [
+            "O Dia da Cultura sul-coreano incentiva a participação do público nas artes e na vida cultural. O enquadramento moderno seguiu a lei de promoção cultural de 1972 e reuniu comemorações antigas ligadas à radiodifusão, ao cinema e às revistas.",
+            "Em 30 de março de 1973, o governo integrou essas jornadas numa data única, inicialmente 20 de outubro; em 6 de setembro de 2006 passou para o terceiro sábado de outubro.",
+            "A celebração conjunta mantém ligação a instituições diferentes, mas não substitui as datas históricas específicas de cada setor."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary Korean MOIS official chronological regulations and ministry public commemorations index; both same government source, not independent institutional corroboration. AI six-locale historical draft. Human historical verification and qualified native editorial review remain pending; qualifiedEditorialApproval=false."
+    }
+  ]
+}

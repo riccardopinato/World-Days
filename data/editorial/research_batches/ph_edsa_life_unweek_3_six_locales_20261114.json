@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_PROCLAMATION_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 3,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w13-edsa-people-power-commemoration-week",
+      "country": "PH",
+      "observanceDate": "FEB22_FEB25",
+      "observancePeriodKind": "WEEK",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "originClusterId": "PH_EDSA_1986_FEB22_25_1999_COMMISSION_2007_4DAY_WEEK_SEPARATE_FEB25",
+      "legalStatus": "PH_FOUR_DAY_NATIONAL_EDSA_REMEMBRANCE_PERIOD_NOT_4_NONWORKING_HOLIDAYS",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2007/proc_1224_2007.html",
+        "https://lawphil.net/executive/execord/eo1999/eo_82_1999.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "22–25 February: four days of EDSA People Power remembrance",
+          "origin": "EDSA People Power Commemoration Week remembers the four days of demonstrations from 22 to 25 February 1986, when a broad non-violent public movement ended the authoritarian rule of Ferdinand Marcos and renewed Philippine democratic institutions. Executive Order No. 82 of 22 February 1999 created the EDSA People Power Commission to preserve and explain the legacy of that revolution. The government's commission was established years after the original 1986 events. Presidential Proclamation No. 1224, signed 30 January 2007, specifically designated 22–25 February of each year as the commemorative week and asked authorities, civil organizations and the public to participate. Its name 'week' does not turn four days into a seven-day period or make them automatically non-working.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions are the national authorities and civic organizations called upon in the original Philippine presidential proclamations to coordinate the described commemoration.",
+          "purpose": "Remember the 1986 non-violent democratic movement while accurately reporting the four-day anniversary and later legal chronology.",
+          "facts": [
+            "EDSA People Power Commemoration Week remembers the four days of demonstrations from 22 to 25 February 1986, when a broad non-violent public movement ended the authoritarian rule of Ferdinand Marcos and renewed Philippine democratic institutions.",
+            "Executive Order No. 82 of 22 February 1999 created the EDSA People Power Commission to preserve and explain the legacy of that revolution. The government's commission was established years after the original 1986 events.",
+            "Presidential Proclamation No. 1224, signed 30 January 2007, specifically designated 22–25 February of each year as the commemorative week and asked authorities, civil organizations and the public to participate. Its name 'week' does not turn four days into a seven-day period or make them automatically non-working."
+          ]
+        },
+        "it": {
+          "heading": "22–25 febbraio: quattro giorni in memoria di EDSA",
+          "origin": "La Settimana di commemorazione EDSA ricorda le manifestazioni dal 22 al 25 febbraio 1986, quando un ampio movimento civile non violento pose fine al regime autoritario di Ferdinand Marcos e avviò la ricostruzione democratica. L'Ordine esecutivo n. 82 del 22 febbraio 1999 ha creato la EDSA People Power Commission per conservare e raccontare l'eredità della rivoluzione. L'ente nacque anni dopo gli eventi storici. La Proclamazione n. 1224, firmata il 30 gennaio 2007, ha fissato il periodo 22–25 febbraio di ogni anno, coinvolgendo istituzioni e cittadini. Il nome 'settimana' non lo rende di sette giorni né crea quattro festività non lavorative.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions sono gli organismi invitati dagli atti presidenziali filippini a coordinare la ricorrenza e le attività pubbliche.",
+          "purpose": "Ricordare la mobilitazione democratica del 1986 rispettando i quattro giorni e la cronologia normativa.",
+          "facts": [
+            "La Settimana di commemorazione EDSA ricorda le manifestazioni dal 22 al 25 febbraio 1986, quando un ampio movimento civile non violento pose fine al regime autoritario di Ferdinand Marcos e avviò la ricostruzione democratica.",
+            "L'Ordine esecutivo n. 82 del 22 febbraio 1999 ha creato la EDSA People Power Commission per conservare e raccontare l'eredità della rivoluzione. L'ente nacque anni dopo gli eventi storici.",
+            "La Proclamazione n. 1224, firmata il 30 gennaio 2007, ha fissato il periodo 22–25 febbraio di ogni anno, coinvolgendo istituzioni e cittadini. Il nome 'settimana' non lo rende di sette giorni né crea quattro festività non lavorative."
+          ]
+        },
+        "es": {
+          "heading": "22–25 de febrero: cuatro días de memoria de EDSA",
+          "origin": "La Semana EDSA recuerda las manifestaciones del 22 al 25 de febrero de 1986, cuando una amplia movilización no violenta terminó con el régimen autoritario de Ferdinand Marcos y abrió una nueva etapa democrática. La Orden Ejecutiva n.º 82 del 22 de febrero de 1999 creó la Comisión EDSA People Power para preservar y explicar el legado de la revolución, años después de los hechos de 1986. La Proclamación n.º 1224 del 30 de enero de 2007 fijó cada año del 22 al 25 de febrero e invitó a instituciones y ciudadanos a participar. El nombre 'semana' no implica siete días ni cuatro festivos no laborables.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions son los organismos invitados por las proclamaciones presidenciales a coordinar esta conmemoración y las actividades públicas.",
+          "purpose": "Recordar la movilización democrática de 1986 y los cuatro días sin confundir los actos legales posteriores.",
+          "facts": [
+            "La Semana EDSA recuerda las manifestaciones del 22 al 25 de febrero de 1986, cuando una amplia movilización no violenta terminó con el régimen autoritario de Ferdinand Marcos y abrió una nueva etapa democrática.",
+            "La Orden Ejecutiva n.º 82 del 22 de febrero de 1999 creó la Comisión EDSA People Power para preservar y explicar el legado de la revolución, años después de los hechos de 1986.",
+            "La Proclamación n.º 1224 del 30 de enero de 2007 fijó cada año del 22 al 25 de febrero e invitó a instituciones y ciudadanos a participar. El nombre 'semana' no implica siete días ni cuatro festivos no laborables."
+          ]
+        },
+        "fr": {
+          "heading": "22–25 février : quatre jours pour rappeler EDSA",
+          "origin": "La semaine EDSA rappelle les manifestations du 22 au 25 février 1986, quand un vaste mouvement citoyen non violent mit fin au pouvoir autoritaire de Ferdinand Marcos et permit le retour des institutions démocratiques. L'ordre exécutif nº 82 du 22 février 1999 a créé la Commission EDSA People Power chargée de préserver et transmettre l'héritage de la révolution, après les événements de 1986. La proclamation nº 1224 du 30 janvier 2007 a fixé chaque année du 22 au 25 février en mobilisant institutions et citoyens. Le terme 'semaine' ne signifie ni sept jours ni quatre congés nationaux.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions sont les organismes que les proclamations présidentielles philippines appellent à coordonner cette commémoration.",
+          "purpose": "Rappeler le mouvement démocratique de 1986 et sa période commémorative de quatre jours.",
+          "facts": [
+            "La semaine EDSA rappelle les manifestations du 22 au 25 février 1986, quand un vaste mouvement citoyen non violent mit fin au pouvoir autoritaire de Ferdinand Marcos et permit le retour des institutions démocratiques.",
+            "L'ordre exécutif nº 82 du 22 février 1999 a créé la Commission EDSA People Power chargée de préserver et transmettre l'héritage de la révolution, après les événements de 1986.",
+            "La proclamation nº 1224 du 30 janvier 2007 a fixé chaque année du 22 au 25 février en mobilisant institutions et citoyens. Le terme 'semaine' ne signifie ni sept jours ni quatre congés nationaux."
+          ]
+        },
+        "de": {
+          "heading": "22.–25. Februar: Vier Gedenktage für die EDSA-Revolution",
+          "origin": "Die EDSA-Gedenkwoche erinnert an die Demonstrationen vom 22. bis 25. Februar 1986, als eine breite gewaltfreie Bewegung die autoritäre Herrschaft von Ferdinand Marcos beendete und demokratische Institutionen erneuerte. Executive Order Nr. 82 vom 22. Februar 1999 gründete die EDSA People Power Commission, die das Erbe der Revolution bewahren sollte. Die Institution entstand später als die Ereignisse von 1986. Proklamation Nr. 1224 vom 30. Januar 2007 bestimmte jährlich den 22. bis 25. Februar und lud Behörden und Bürger zur Teilnahme ein. Der Name 'Woche' bedeutet nicht sieben Tage oder vier arbeitsfreie Tage.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions sind die in philippinischen Präsidialerlassen zur Durchführung oder Unterstützung genannten Einrichtungen.",
+          "purpose": "Die Demokratiebewegung von 1986 und den genauen viertägigen Gedenkzeitraum vermitteln.",
+          "facts": [
+            "Die EDSA-Gedenkwoche erinnert an die Demonstrationen vom 22. bis 25. Februar 1986, als eine breite gewaltfreie Bewegung die autoritäre Herrschaft von Ferdinand Marcos beendete und demokratische Institutionen erneuerte.",
+            "Executive Order Nr. 82 vom 22. Februar 1999 gründete die EDSA People Power Commission, die das Erbe der Revolution bewahren sollte. Die Institution entstand später als die Ereignisse von 1986.",
+            "Proklamation Nr. 1224 vom 30. Januar 2007 bestimmte jährlich den 22. bis 25. Februar und lud Behörden und Bürger zur Teilnahme ein. Der Name 'Woche' bedeutet nicht sieben Tage oder vier arbeitsfreie Tage."
+          ]
+        },
+        "pt": {
+          "heading": "22–25 de fevereiro: quatro dias em memória de EDSA",
+          "origin": "A Semana EDSA recorda as manifestações de 22 a 25 de fevereiro de 1986, quando um amplo movimento cívico não violento terminou o regime autoritário de Ferdinand Marcos e recuperou instituições democráticas. A Ordem Executiva n.º 82 de 22 de fevereiro de 1999 criou a Comissão EDSA People Power para preservar e explicar a herança revolucionária, anos após os acontecimentos de 1986. A Proclamação n.º 1224 de 30 de janeiro de 2007 instituiu anualmente 22 a 25 de fevereiro e envolveu instituições e cidadãos. O nome 'semana' não significa sete dias nem quatro feriados.",
+          "promoter": "EDSA People Power Commission, Spirit of EDSA Foundation, national and local public institutions são as instituições chamadas pelas proclamações presidenciais filipinas a coordenar esta comemoração.",
+          "purpose": "Recordar o movimento democrático de 1986 e o período comemorativo de quatro dias.",
+          "facts": [
+            "A Semana EDSA recorda as manifestações de 22 a 25 de fevereiro de 1986, quando um amplo movimento cívico não violento terminou o regime autoritário de Ferdinand Marcos e recuperou instituições democráticas.",
+            "A Ordem Executiva n.º 82 de 22 de fevereiro de 1999 criou a Comissão EDSA People Power para preservar e explicar a herança revolucionária, anos após os acontecimentos de 1986.",
+            "A Proclamação n.º 1224 de 30 de janeiro de 2007 instituiu anualmente 22 a 25 de fevereiro e envolveu instituições e cidadãos. O nome 'semana' não significa sete dias nem quatro feriados."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Philippine presidential Proclamation 1224/2007, 490/2003, or 483/2003, and earlier historical decree, cross-checked against NCCA recurring day; distinct statuses and correct legal recurrence from primary source. Six translated AI researched original drafts; human historical/native-language approval pending."
+    },
+    {
+      "observanceId": "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
+      "country": "PH",
+      "observanceDate": "THIRD_SUNDAY_JANUARY",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "originClusterId": "PH_HUMAN_LIFE_SANCTITY_THIRD_SUNDAY_JAN_2003_NOT_GENERAL_CHILDRENS_DAY",
+      "legalStatus": "PH_PRESIDENTIAL_CIVIC_RELIGIOUSLY_FRAMED_DAY_NO_GENERAL_HOLIDAY",
+      "sources": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_490_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Third Sunday of January: the Philippines' day for the protection of human life",
+          "origin": "The Day of Sanctity and Protection of Human Life is a Philippine civic observance framed around respect for life and family. Its presidential text uses a religiously informed moral argument and references constitutional language about protection of mothers and unborn life. Proclamation No. 490, signed by President Gloria Macapagal-Arroyo on 22 October 2003, officially designated the third Sunday of January of every year, rather than a fixed numbered date or a whole month. The proclamation cites Article II, sections 5 and 12 of the Philippine Constitution. It is not the same legal observance as an independent Children's Day entry on the same Sunday unless a separate, verifiable instrument is found, and it does not make that Sunday a regular national non-working holiday.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation are the national authorities and civic organizations called upon in the original Philippine presidential proclamations to coordinate the described commemoration.",
+          "purpose": "Explain the source's religious and constitutional framing neutrally while preserving the movable Sunday and distinct Childrens Day uncertainty.",
+          "facts": [
+            "The Day of Sanctity and Protection of Human Life is a Philippine civic observance framed around respect for life and family. Its presidential text uses a religiously informed moral argument and references constitutional language about protection of mothers and unborn life.",
+            "Proclamation No. 490, signed by President Gloria Macapagal-Arroyo on 22 October 2003, officially designated the third Sunday of January of every year, rather than a fixed numbered date or a whole month.",
+            "The proclamation cites Article II, sections 5 and 12 of the Philippine Constitution. It is not the same legal observance as an independent Children's Day entry on the same Sunday unless a separate, verifiable instrument is found, and it does not make that Sunday a regular national non-working holiday."
+          ]
+        },
+        "it": {
+          "heading": "Terza domenica di gennaio: la tutela della vita umana nelle Filippine",
+          "origin": "La Giornata per la sacralità e protezione della vita umana è una ricorrenza filippina sul rispetto della vita e della famiglia. Il testo presidenziale usa argomenti morali religiosi e richiama le tutele costituzionali di madri e vita prenatale. La Proclamazione n. 490, firmata da Gloria Macapagal-Arroyo il 22 ottobre 2003, ha istituito la terza domenica di gennaio di ogni anno, non una data numerica fissa né l'intero mese. Il provvedimento richiama l'articolo II, sezioni 5 e 12 della Costituzione. Non dimostra che una distinta Giornata dei bambini nella stessa domenica abbia la medesima origine e non crea un giorno non lavorativo nazionale.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation sono gli organismi invitati dagli atti presidenziali filippini a coordinare la ricorrenza e le attività pubbliche.",
+          "purpose": "Descrivere con neutralità l'argomentazione religiosa e costituzionale, mantenendo la terza domenica mobile e la distinzione dalla giornata dei bambini.",
+          "facts": [
+            "La Giornata per la sacralità e protezione della vita umana è una ricorrenza filippina sul rispetto della vita e della famiglia. Il testo presidenziale usa argomenti morali religiosi e richiama le tutele costituzionali di madri e vita prenatale.",
+            "La Proclamazione n. 490, firmata da Gloria Macapagal-Arroyo il 22 ottobre 2003, ha istituito la terza domenica di gennaio di ogni anno, non una data numerica fissa né l'intero mese.",
+            "Il provvedimento richiama l'articolo II, sezioni 5 e 12 della Costituzione. Non dimostra che una distinta Giornata dei bambini nella stessa domenica abbia la medesima origine e non crea un giorno non lavorativo nazionale."
+          ]
+        },
+        "es": {
+          "heading": "Tercer domingo de enero: protección de la vida humana en Filipinas",
+          "origin": "El Día de la Santidad y Protección de la Vida Humana es una jornada filipina centrada en vida y familia. El texto presidencial emplea argumentos morales religiosos y remite a disposiciones constitucionales sobre madres y vida prenatal. La Proclamación n.º 490, firmada por Gloria Macapagal-Arroyo el 22 de octubre de 2003, estableció el tercer domingo de enero de cada año, no un día numérico fijo. La norma cita el artículo II, secciones 5 y 12 de la Constitución. No demuestra que otro Día del Niño celebrado el mismo domingo tenga el mismo origen legal ni crea un descanso nacional.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation son los organismos invitados por las proclamaciones presidenciales a coordinar esta conmemoración y las actividades públicas.",
+          "purpose": "Explicar de forma neutral los fundamentos religiosos y constitucionales y conservar la fecha móvil.",
+          "facts": [
+            "El Día de la Santidad y Protección de la Vida Humana es una jornada filipina centrada en vida y familia. El texto presidencial emplea argumentos morales religiosos y remite a disposiciones constitucionales sobre madres y vida prenatal.",
+            "La Proclamación n.º 490, firmada por Gloria Macapagal-Arroyo el 22 de octubre de 2003, estableció el tercer domingo de enero de cada año, no un día numérico fijo.",
+            "La norma cita el artículo II, secciones 5 y 12 de la Constitución. No demuestra que otro Día del Niño celebrado el mismo domingo tenga el mismo origen legal ni crea un descanso nacional."
+          ]
+        },
+        "fr": {
+          "heading": "Troisième dimanche de janvier : protection de la vie humaine",
+          "origin": "La Journée de la sacralité et de la protection de la vie humaine est une observance philippine consacrée à la vie et à la famille. Le texte présidentiel emploie un argument moral religieux et cite la protection constitutionnelle de la maternité et de la vie prénatale. La proclamation nº 490, signée par Gloria Macapagal-Arroyo le 22 octobre 2003, a institué le troisième dimanche de janvier chaque année, et non une date numérique fixe. Le texte cite l'article II, sections 5 et 12, de la Constitution. Il ne prouve pas qu'une autre Journée des enfants le même dimanche ait la même origine juridique et ne crée pas de congé national.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation sont les organismes que les proclamations présidentielles philippines appellent à coordonner cette commémoration.",
+          "purpose": "Présenter sans parti pris le contexte religieux et constitutionnel et la date mobile.",
+          "facts": [
+            "La Journée de la sacralité et de la protection de la vie humaine est une observance philippine consacrée à la vie et à la famille. Le texte présidentiel emploie un argument moral religieux et cite la protection constitutionnelle de la maternité et de la vie prénatale.",
+            "La proclamation nº 490, signée par Gloria Macapagal-Arroyo le 22 octobre 2003, a institué le troisième dimanche de janvier chaque année, et non une date numérique fixe.",
+            "Le texte cite l'article II, sections 5 et 12, de la Constitution. Il ne prouve pas qu'une autre Journée des enfants le même dimanche ait la même origine juridique et ne crée pas de congé national."
+          ]
+        },
+        "de": {
+          "heading": "Dritter Januarsonntag: Schutz des menschlichen Lebens auf den Philippinen",
+          "origin": "Der Tag der Heiligkeit und des Schutzes des menschlichen Lebens ist ein philippinischer Gedenkanlass zu Leben und Familie. Der Präsidialtext verwendet religiös geprägte Argumente und nennt verfassungsrechtliche Bestimmungen zu Müttern und ungeborenem Leben. Proklamation Nr. 490, am 22. Oktober 2003 von Gloria Macapagal-Arroyo unterzeichnet, bestimmte den dritten Sonntag jedes Januars statt eines festen Kalendertages. Die Proklamation bezieht sich auf Artikel II, Abschnitte 5 und 12, der Verfassung. Sie beweist keine identische Rechtsquelle für einen anderen Kindertag am selben Sonntag und schafft keinen allgemeinen Feiertag.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation sind die in philippinischen Präsidialerlassen zur Durchführung oder Unterstützung genannten Einrichtungen.",
+          "purpose": "Religiösen und verfassungsrechtlichen Rahmen neutral erklären und das bewegliche Datum bewahren.",
+          "facts": [
+            "Der Tag der Heiligkeit und des Schutzes des menschlichen Lebens ist ein philippinischer Gedenkanlass zu Leben und Familie. Der Präsidialtext verwendet religiös geprägte Argumente und nennt verfassungsrechtliche Bestimmungen zu Müttern und ungeborenem Leben.",
+            "Proklamation Nr. 490, am 22. Oktober 2003 von Gloria Macapagal-Arroyo unterzeichnet, bestimmte den dritten Sonntag jedes Januars statt eines festen Kalendertages.",
+            "Die Proklamation bezieht sich auf Artikel II, Abschnitte 5 und 12, der Verfassung. Sie beweist keine identische Rechtsquelle für einen anderen Kindertag am selben Sonntag und schafft keinen allgemeinen Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Terceiro domingo de janeiro: proteção da vida humana nas Filipinas",
+          "origin": "O Dia da Santidade e Proteção da Vida Humana é uma comemoração filipina sobre vida e família. O documento presidencial apresenta argumentos morais religiosos e cita normas constitucionais sobre proteção das mães e da vida pré-natal. A Proclamação n.º 490, assinada por Gloria Macapagal-Arroyo em 22 de outubro de 2003, instituiu o terceiro domingo de janeiro todos os anos, não um dia numérico fixo. O documento cita o artigo II, secções 5 e 12, da Constituição. Não demonstra que um outro Dia da Criança no mesmo domingo tenha a mesma origem jurídica nem cria feriado nacional.",
+          "promoter": "Office of the President and Philippine civic and faith communities observing the proclamation são as instituições chamadas pelas proclamações presidenciais filipinas a coordenar esta comemoração.",
+          "purpose": "Explicar de forma neutra o enquadramento religioso e constitucional e a data variável.",
+          "facts": [
+            "O Dia da Santidade e Proteção da Vida Humana é uma comemoração filipina sobre vida e família. O documento presidencial apresenta argumentos morais religiosos e cita normas constitucionais sobre proteção das mães e da vida pré-natal.",
+            "A Proclamação n.º 490, assinada por Gloria Macapagal-Arroyo em 22 de outubro de 2003, instituiu o terceiro domingo de janeiro todos os anos, não um dia numérico fixo.",
+            "O documento cita o artigo II, secções 5 e 12, da Constituição. Não demonstra que um outro Dia da Criança no mesmo domingo tenha a mesma origem jurídica nem cria feriado nacional."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Philippine presidential Proclamation 1224/2007, 490/2003, or 483/2003, and earlier historical decree, cross-checked against NCCA recurring day; distinct statuses and correct legal recurrence from primary source. Six translated AI researched original drafts; human historical/native-language approval pending."
+    },
+    {
+      "observanceId": "ph-w13-united-nations-week-philippines",
+      "country": "PH",
+      "observanceDate": "OCT18_OCT24",
+      "observancePeriodKind": "WEEK",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "originClusterId": "PH_UN_WEEK_2002_ONE_OFF_2003_EVERY_YEAR_SEPARATE_UN_DAY_OCT24_1945",
+      "legalStatus": "PH_NATIONAL_SEVEN_DAY_UN_AWARENESS_WEEK_NOT_SEVEN_PUBLIC_HOLIDAYS",
+      "sources": [
+        "https://www.lawphil.net/executive/proc/proc2003/proc_483_2003.html",
+        "https://lawphil.net/executive/proc/proc2002/proc_276_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "18–24 October: how United Nations Week became annual in the Philippines",
+          "origin": "United Nations Week in the Philippines recalls the United Nations' establishment in 1945 and invites discussion of international peace, human dignity, cooperation, development and the Philippines' participation as an original UN member. Proclamation No. 276 of 16 October 2002 declared 18–24 October 2002 a one-year Philippine United Nations Week, highlighting international themes including mountains, ecotourism and cultural heritage. Proclamation No. 483, signed 6 October 2003, explicitly repeated the period 18–24 October and added 'every year thereafter', appointing the Department of Foreign Affairs to lead. United Nations Day on 24 October is related but not identical to a seven-day Philippine week.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations are the national authorities and civic organizations called upon in the original Philippine presidential proclamations to coordinate the described commemoration.",
+          "purpose": "Promote UN principles and preserve the original 2002 one-off week versus the 2003 permanent national seven-day period.",
+          "facts": [
+            "United Nations Week in the Philippines recalls the United Nations' establishment in 1945 and invites discussion of international peace, human dignity, cooperation, development and the Philippines' participation as an original UN member.",
+            "Proclamation No. 276 of 16 October 2002 declared 18–24 October 2002 a one-year Philippine United Nations Week, highlighting international themes including mountains, ecotourism and cultural heritage.",
+            "Proclamation No. 483, signed 6 October 2003, explicitly repeated the period 18–24 October and added 'every year thereafter', appointing the Department of Foreign Affairs to lead. United Nations Day on 24 October is related but not identical to a seven-day Philippine week."
+          ]
+        },
+        "it": {
+          "heading": "18–24 ottobre: quando la Settimana ONU divenne annuale nelle Filippine",
+          "origin": "La Settimana delle Nazioni Unite nelle Filippine ricorda la nascita dell'ONU nel 1945 e invita a riflettere su pace, dignità umana, cooperazione, sviluppo e partecipazione del paese come membro fondatore. La Proclamazione n. 276 del 16 ottobre 2002 stabilì il 18–24 ottobre 2002 per la settimana ONU, con temi legati a montagne, ecoturismo e patrimonio culturale, riferiti a quell'anno. La Proclamazione n. 483 del 6 ottobre 2003 ribadì il 18–24 ottobre e aggiunse 'ogni anno successivo', affidando il coordinamento agli Affari esteri. Il 24 ottobre è la giornata ONU, non la stessa cosa della settimana nazionale.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations sono gli organismi invitati dagli atti presidenziali filippini a coordinare la ricorrenza e le attività pubbliche.",
+          "purpose": "Promuovere i principi ONU distinguendo la settimana del 2002 dalla ricorrenza annuale del 2003.",
+          "facts": [
+            "La Settimana delle Nazioni Unite nelle Filippine ricorda la nascita dell'ONU nel 1945 e invita a riflettere su pace, dignità umana, cooperazione, sviluppo e partecipazione del paese come membro fondatore.",
+            "La Proclamazione n. 276 del 16 ottobre 2002 stabilì il 18–24 ottobre 2002 per la settimana ONU, con temi legati a montagne, ecoturismo e patrimonio culturale, riferiti a quell'anno.",
+            "La Proclamazione n. 483 del 6 ottobre 2003 ribadì il 18–24 ottobre e aggiunse 'ogni anno successivo', affidando il coordinamento agli Affari esteri. Il 24 ottobre è la giornata ONU, non la stessa cosa della settimana nazionale."
+          ]
+        },
+        "es": {
+          "heading": "18–24 de octubre: el origen de la Semana de las Naciones Unidas",
+          "origin": "La Semana de las Naciones Unidas en Filipinas recuerda la creación de la ONU en 1945 y promueve diálogo sobre paz, dignidad, cooperación, desarrollo y la participación filipina como miembro fundador. La Proclamación n.º 276 del 16 de octubre de 2002 estableció del 18 al 24 de octubre de 2002, destacando montañas, ecoturismo y patrimonio cultural de aquel año. La Proclamación n.º 483 del 6 de octubre de 2003 estableció del 18 al 24 de octubre y 'cada año posterior', con coordinación de Exteriores. El Día de la ONU del 24 es diferente de la semana nacional.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations son los organismos invitados por las proclamaciones presidenciales a coordinar esta conmemoración y las actividades públicas.",
+          "purpose": "Promover los principios de la ONU diferenciando la semana de 2002 y el periodo anual de 2003.",
+          "facts": [
+            "La Semana de las Naciones Unidas en Filipinas recuerda la creación de la ONU en 1945 y promueve diálogo sobre paz, dignidad, cooperación, desarrollo y la participación filipina como miembro fundador.",
+            "La Proclamación n.º 276 del 16 de octubre de 2002 estableció del 18 al 24 de octubre de 2002, destacando montañas, ecoturismo y patrimonio cultural de aquel año.",
+            "La Proclamación n.º 483 del 6 de octubre de 2003 estableció del 18 al 24 de octubre y 'cada año posterior', con coordinación de Exteriores. El Día de la ONU del 24 es diferente de la semana nacional."
+          ]
+        },
+        "fr": {
+          "heading": "18–24 octobre : la Semaine des Nations unies aux Philippines",
+          "origin": "La Semaine des Nations unies aux Philippines rappelle l'ONU créée en 1945 et invite à réfléchir à la paix, à la dignité, à la coopération, au développement et à la participation philippine d'origine. La proclamation nº 276 du 16 octobre 2002 a établi la période du 18 au 24 octobre 2002, consacrée notamment aux montagnes, à l'écotourisme et au patrimoine culturel. La proclamation nº 483 du 6 octobre 2003 a confirmé les 18–24 octobre 'chaque année suivante', sous la direction des Affaires étrangères. La Journée des Nations unies du 24 est distincte de la semaine.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations sont les organismes que les proclamations présidentielles philippines appellent à coordonner cette commémoration.",
+          "purpose": "Promouvoir les valeurs de l'ONU en séparant les textes de 2002 et 2003.",
+          "facts": [
+            "La Semaine des Nations unies aux Philippines rappelle l'ONU créée en 1945 et invite à réfléchir à la paix, à la dignité, à la coopération, au développement et à la participation philippine d'origine.",
+            "La proclamation nº 276 du 16 octobre 2002 a établi la période du 18 au 24 octobre 2002, consacrée notamment aux montagnes, à l'écotourisme et au patrimoine culturel.",
+            "La proclamation nº 483 du 6 octobre 2003 a confirmé les 18–24 octobre 'chaque année suivante', sous la direction des Affaires étrangères. La Journée des Nations unies du 24 est distincte de la semaine."
+          ]
+        },
+        "de": {
+          "heading": "18.–24. Oktober: UN-Woche auf den Philippinen",
+          "origin": "Die UN-Woche auf den Philippinen erinnert an die Gründung der Vereinten Nationen 1945 und regt Gespräche über Frieden, Menschenwürde, Zusammenarbeit und philippinische Mitgliedschaft an. Proklamation Nr. 276 vom 16. Oktober 2002 legte den 18. bis 24. Oktober nur für 2002 fest und behandelte Berge, Ökotourismus und Kulturerbe. Proklamation Nr. 483 vom 6. Oktober 2003 führte den 18. bis 24. Oktober 'in jedem folgenden Jahr' ein und beauftragte das Außenministerium. Der UN-Tag am 24. ist vom nationalen Wochenzeitraum zu unterscheiden.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations sind die in philippinischen Präsidialerlassen zur Durchführung oder Unterstützung genannten Einrichtungen.",
+          "purpose": "UN-Prinzipien fördern und die einmalige Woche 2002 von der jährlichen Regelung 2003 trennen.",
+          "facts": [
+            "Die UN-Woche auf den Philippinen erinnert an die Gründung der Vereinten Nationen 1945 und regt Gespräche über Frieden, Menschenwürde, Zusammenarbeit und philippinische Mitgliedschaft an.",
+            "Proklamation Nr. 276 vom 16. Oktober 2002 legte den 18. bis 24. Oktober nur für 2002 fest und behandelte Berge, Ökotourismus und Kulturerbe.",
+            "Proklamation Nr. 483 vom 6. Oktober 2003 führte den 18. bis 24. Oktober 'in jedem folgenden Jahr' ein und beauftragte das Außenministerium. Der UN-Tag am 24. ist vom nationalen Wochenzeitraum zu unterscheiden."
+          ]
+        },
+        "pt": {
+          "heading": "18–24 de outubro: a Semana das Nações Unidas nas Filipinas",
+          "origin": "A Semana das Nações Unidas nas Filipinas recorda a criação da ONU em 1945 e promove reflexão sobre paz, dignidade, cooperação, desenvolvimento e participação filipina como membro fundador. A Proclamação n.º 276 de 16 de outubro de 2002 estabeleceu 18 a 24 de outubro de 2002, com temas de montanhas, ecoturismo e património cultural. A Proclamação n.º 483 de 6 de outubro de 2003 fixou 18 a 24 de outubro 'em todos os anos seguintes', com coordenação dos Negócios Estrangeiros. O Dia da ONU de 24 de outubro é distinto da semana.",
+          "promoter": "Department of Foreign Affairs and Philippine UN offices with government, local and civic organizations são as instituições chamadas pelas proclamações presidenciais filipinas a coordenar esta comemoração.",
+          "purpose": "Promover princípios da ONU distinguindo a semana única de 2002 da regra anual de 2003.",
+          "facts": [
+            "A Semana das Nações Unidas nas Filipinas recorda a criação da ONU em 1945 e promove reflexão sobre paz, dignidade, cooperação, desenvolvimento e participação filipina como membro fundador.",
+            "A Proclamação n.º 276 de 16 de outubro de 2002 estabeleceu 18 a 24 de outubro de 2002, com temas de montanhas, ecoturismo e património cultural.",
+            "A Proclamação n.º 483 de 6 de outubro de 2003 fixou 18 a 24 de outubro 'em todos os anos seguintes', com coordenação dos Negócios Estrangeiros. O Dia da ONU de 24 de outubro é distinto da semana."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Philippine presidential Proclamation 1224/2007, 490/2003, or 483/2003, and earlier historical decree, cross-checked against NCCA recurring day; distinct statuses and correct legal recurrence from primary source. Six translated AI researched original drafts; human historical/native-language approval pending."
+    }
+  ]
+}

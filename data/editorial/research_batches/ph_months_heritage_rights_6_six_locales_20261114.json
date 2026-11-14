@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_LEGISLATION_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 6,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w13-filipino-food-month",
+      "country": "PH",
+      "observanceDate": "APRIL",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2018,
+      "firstObservedYear": null,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_PRESIDENTIAL_CULTURAL_MONTH_2018",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2018/proc_469_2018.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "April: Filipino food as living cultural heritage",
+          "origin": "Filipino Food Month celebrates dishes, preparation techniques and food traditions as expressions of Philippine cultural heritage, not only as products of the restaurant industry. Proclamation No. 469, signed in April 2018, established April of every year as Buwan ng Kalutong Pilipino; it expressly links culinary traditions to the 2009 National Cultural Heritage Act's implementing rules. The proclamation assigns leadership to the Department of Agriculture and NCCA and invites government, schools and local communities to take part; it explicitly recognizes farmers and agricultural livelihoods.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Preserve food knowledge across generations while recognizing the communities and farmers behind traditional Philippine cuisine.",
+          "facts": [
+            "Filipino Food Month celebrates dishes, preparation techniques and food traditions as expressions of Philippine cultural heritage, not only as products of the restaurant industry.",
+            "Proclamation No. 469, signed in April 2018, established April of every year as Buwan ng Kalutong Pilipino; it expressly links culinary traditions to the 2009 National Cultural Heritage Act's implementing rules.",
+            "The proclamation assigns leadership to the Department of Agriculture and NCCA and invites government, schools and local communities to take part; it explicitly recognizes farmers and agricultural livelihoods."
+          ]
+        },
+        "it": {
+          "heading": "Aprile: la cucina filippina come patrimonio vivente",
+          "origin": "Il Mese della cucina filippina valorizza piatti, tecniche di preparazione e tradizioni alimentari come espressioni del patrimonio culturale, non solo come prodotti della ristorazione. La Proclamazione n. 469 del 2018 ha istituito ogni aprile il Buwan ng Kalutong Pilipino e collega espressamente la tradizione culinaria al quadro della legge sul patrimonio culturale del 2009. Il provvedimento affida il coordinamento al Dipartimento dell'Agricoltura e alla NCCA, invitando scuole e comunità locali e riconoscendo il contributo degli agricoltori.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Conservare i saperi culinari e riconoscere comunità e agricoltori che mantengono vive le tradizioni.",
+          "facts": [
+            "Il Mese della cucina filippina valorizza piatti, tecniche di preparazione e tradizioni alimentari come espressioni del patrimonio culturale, non solo come prodotti della ristorazione.",
+            "La Proclamazione n. 469 del 2018 ha istituito ogni aprile il Buwan ng Kalutong Pilipino e collega espressamente la tradizione culinaria al quadro della legge sul patrimonio culturale del 2009.",
+            "Il provvedimento affida il coordinamento al Dipartimento dell'Agricoltura e alla NCCA, invitando scuole e comunità locali e riconoscendo il contributo degli agricoltori."
+          ]
+        },
+        "es": {
+          "heading": "Abril: la cocina filipina como patrimonio cultural vivo",
+          "origin": "El Mes de la Comida Filipina reconoce platos, técnicas de preparación y tradiciones alimentarias como patrimonio cultural, no solo como productos de restaurantes. La Proclamación n.º 469 de 2018 estableció cada abril como Buwan ng Kalutong Pilipino y relaciona la tradición culinaria con la normativa del patrimonio cultural de 2009. La norma encomienda la coordinación al Departamento de Agricultura y a la NCCA, invita a escuelas y comunidades y reconoce el trabajo de los agricultores.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Preservar conocimientos culinarios y reconocer a las comunidades y agricultores que sostienen estas tradiciones.",
+          "facts": [
+            "El Mes de la Comida Filipina reconoce platos, técnicas de preparación y tradiciones alimentarias como patrimonio cultural, no solo como productos de restaurantes.",
+            "La Proclamación n.º 469 de 2018 estableció cada abril como Buwan ng Kalutong Pilipino y relaciona la tradición culinaria con la normativa del patrimonio cultural de 2009.",
+            "La norma encomienda la coordinación al Departamento de Agricultura y a la NCCA, invita a escuelas y comunidades y reconoce el trabajo de los agricultores."
+          ]
+        },
+        "fr": {
+          "heading": "Avril : la cuisine philippine, patrimoine culturel vivant",
+          "origin": "Le Mois de la cuisine philippine valorise les plats, les savoir-faire culinaires et les traditions alimentaires comme patrimoine culturel, au-delà de la restauration. La proclamation nº 469 de 2018 a institué chaque mois d'avril comme Buwan ng Kalutong Pilipino, en reliant les traditions culinaires au droit du patrimoine culturel de 2009. Le texte confie la coordination au ministère de l'Agriculture et à la NCCA, associe écoles et collectivités et souligne la contribution des agriculteurs.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Transmettre les savoirs culinaires et reconnaître les communautés et agriculteurs qui les entretiennent.",
+          "facts": [
+            "Le Mois de la cuisine philippine valorise les plats, les savoir-faire culinaires et les traditions alimentaires comme patrimoine culturel, au-delà de la restauration.",
+            "La proclamation nº 469 de 2018 a institué chaque mois d'avril comme Buwan ng Kalutong Pilipino, en reliant les traditions culinaires au droit du patrimoine culturel de 2009.",
+            "Le texte confie la coordination au ministère de l'Agriculture et à la NCCA, associe écoles et collectivités et souligne la contribution des agriculteurs."
+          ]
+        },
+        "de": {
+          "heading": "April: Filipino-Küche als lebendiges Kulturerbe",
+          "origin": "Der Monat der philippinischen Küche würdigt Gerichte, Zubereitungstechniken und Esskultur als Kulturerbe und nicht nur als gastronomische Produkte. Die Proklamation Nr. 469 von 2018 erklärte jeden April zum Buwan ng Kalutong Pilipino und verweist auf die Regeln des Kulturerbegesetzes von 2009. Die Verordnung beauftragt Landwirtschaftsministerium und NCCA mit der Leitung, lädt Schulen und Gemeinden ein und betont die Rolle der Landwirte.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Kulinarisches Wissen weitergeben und Gemeinden sowie Landwirte hinter den Traditionen würdigen.",
+          "facts": [
+            "Der Monat der philippinischen Küche würdigt Gerichte, Zubereitungstechniken und Esskultur als Kulturerbe und nicht nur als gastronomische Produkte.",
+            "Die Proklamation Nr. 469 von 2018 erklärte jeden April zum Buwan ng Kalutong Pilipino und verweist auf die Regeln des Kulturerbegesetzes von 2009.",
+            "Die Verordnung beauftragt Landwirtschaftsministerium und NCCA mit der Leitung, lädt Schulen und Gemeinden ein und betont die Rolle der Landwirte."
+          ]
+        },
+        "pt": {
+          "heading": "Abril: a culinária filipina como património cultural vivo",
+          "origin": "O Mês da Gastronomia Filipina valoriza pratos, técnicas e tradições alimentares como património cultural, para além da restauração. A Proclamação n.º 469 de 2018 instituiu abril como Buwan ng Kalutong Pilipino e relaciona as tradições culinárias com a lei do património cultural de 2009. O documento atribui a coordenação ao Departamento de Agricultura e à NCCA, envolve escolas e comunidades e reconhece os agricultores.",
+          "promoter": "Department of Agriculture and National Commission for Culture and the Arts são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Preservar saberes culinários e reconhecer comunidades e agricultores que mantêm as tradições.",
+          "facts": [
+            "O Mês da Gastronomia Filipina valoriza pratos, técnicas e tradições alimentares como património cultural, para além da restauração.",
+            "A Proclamação n.º 469 de 2018 instituiu abril como Buwan ng Kalutong Pilipino e relaciona as tradições culinárias com a lei do património cultural de 2009.",
+            "O documento atribui a coordenação ao Departamento de Agricultura e à NCCA, envolve escolas e comunidades e reconhece os agricultores."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    },
+    {
+      "observanceId": "ph-w13-national-literature-month",
+      "country": "PH",
+      "observanceDate": "APRIL",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2015,
+      "firstObservedYear": null,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_PRESIDENTIAL_CULTURAL_MONTH_2015",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2015/proc_968_2015.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "April: Philippine literature across many languages",
+          "origin": "National Literature Month, also called Buwan ng Panitikang Filipino, highlights writing and storytelling in the Philippines' different languages and the ways books carry history and collective memory. President Benigno Aquino III issued Proclamation No. 968 on 10 February 2015 to designate April; the text mentions the April remembrance of poet Francisco Balagtas and other literary anniversaries. The NCCA and the Commission on the Filipino Language were designated as coordinating institutions; this national month is distinct from individual authors' birthdays and from UNESCO's World Book Day.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Promote Philippine literary heritage and contemporary reading and writing in the country's many languages.",
+          "facts": [
+            "National Literature Month, also called Buwan ng Panitikang Filipino, highlights writing and storytelling in the Philippines' different languages and the ways books carry history and collective memory.",
+            "President Benigno Aquino III issued Proclamation No. 968 on 10 February 2015 to designate April; the text mentions the April remembrance of poet Francisco Balagtas and other literary anniversaries.",
+            "The NCCA and the Commission on the Filipino Language were designated as coordinating institutions; this national month is distinct from individual authors' birthdays and from UNESCO's World Book Day."
+          ]
+        },
+        "it": {
+          "heading": "Aprile: la letteratura filippina nelle sue molte lingue",
+          "origin": "Il Mese nazionale della letteratura, Buwan ng Panitikang Filipino, valorizza scrittura e narrazione nelle diverse lingue del paese e il ruolo dei libri nella memoria storica. Il presidente Benigno Aquino III ha firmato la Proclamazione n. 968 il 10 febbraio 2015, scegliendo aprile anche per le commemorazioni del poeta Francisco Balagtas e di altri autori. La NCCA e la Commissione per la lingua filippina coordinano le iniziative: il mese nazionale non coincide con i singoli anniversari degli autori né con la Giornata mondiale del libro.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Promuovere patrimonio letterario, lettura e scrittura nelle diverse lingue delle Filippine.",
+          "facts": [
+            "Il Mese nazionale della letteratura, Buwan ng Panitikang Filipino, valorizza scrittura e narrazione nelle diverse lingue del paese e il ruolo dei libri nella memoria storica.",
+            "Il presidente Benigno Aquino III ha firmato la Proclamazione n. 968 il 10 febbraio 2015, scegliendo aprile anche per le commemorazioni del poeta Francisco Balagtas e di altri autori.",
+            "La NCCA e la Commissione per la lingua filippina coordinano le iniziative: il mese nazionale non coincide con i singoli anniversari degli autori né con la Giornata mondiale del libro."
+          ]
+        },
+        "es": {
+          "heading": "Abril: literatura filipina en muchas lenguas",
+          "origin": "El Mes Nacional de la Literatura, Buwan ng Panitikang Filipino, destaca obras escritas en las distintas lenguas del país y cómo los libros conservan memoria e historia. El presidente Benigno Aquino III aprobó la Proclamación n.º 968 el 10 de febrero de 2015, eligiendo abril por el recuerdo del poeta Francisco Balagtas y otros autores. La NCCA y la Comisión de la Lengua Filipina coordinan las actividades: el mes nacional no es lo mismo que los cumpleaños de escritores ni el Día Mundial del Libro.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Promover el patrimonio literario y la lectura y escritura en las lenguas filipinas.",
+          "facts": [
+            "El Mes Nacional de la Literatura, Buwan ng Panitikang Filipino, destaca obras escritas en las distintas lenguas del país y cómo los libros conservan memoria e historia.",
+            "El presidente Benigno Aquino III aprobó la Proclamación n.º 968 el 10 de febrero de 2015, eligiendo abril por el recuerdo del poeta Francisco Balagtas y otros autores.",
+            "La NCCA y la Comisión de la Lengua Filipina coordinan las actividades: el mes nacional no es lo mismo que los cumpleaños de escritores ni el Día Mundial del Libro."
+          ]
+        },
+        "fr": {
+          "heading": "Avril : la littérature philippine dans toutes ses langues",
+          "origin": "Le Mois national de la littérature, Buwan ng Panitikang Filipino, célèbre les écrits dans les différentes langues du pays et la mémoire historique transmise par les livres. Le président Benigno Aquino III a signé la proclamation nº 968 le 10 février 2015, retenant avril notamment pour les hommages au poète Francisco Balagtas. La NCCA et la Commission de la langue philippine coordonnent les activités; ce mois ne se confond ni avec les anniversaires des écrivains ni avec la Journée mondiale du livre.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Encourager la lecture, l'écriture et la préservation du patrimoine littéraire multilingue.",
+          "facts": [
+            "Le Mois national de la littérature, Buwan ng Panitikang Filipino, célèbre les écrits dans les différentes langues du pays et la mémoire historique transmise par les livres.",
+            "Le président Benigno Aquino III a signé la proclamation nº 968 le 10 février 2015, retenant avril notamment pour les hommages au poète Francisco Balagtas.",
+            "La NCCA et la Commission de la langue philippine coordonnent les activités; ce mois ne se confond ni avec les anniversaires des écrivains ni avec la Journée mondiale du livre."
+          ]
+        },
+        "de": {
+          "heading": "April: Philippinische Literatur in vielen Sprachen",
+          "origin": "Der nationale Literaturmonat Buwan ng Panitikang Filipino würdigt Texte in verschiedenen Sprachen des Landes und ihre Rolle als Träger historischer Erinnerung. Präsident Benigno Aquino III erließ am 10. Februar 2015 die Proklamation Nr. 968; der April umfasst unter anderem das Gedenken an den Dichter Francisco Balagtas. NCCA und die Kommission für die philippinische Sprache koordinieren die Aktivitäten; der Monat ist weder ein einzelner Autoren-Geburtstag noch der Welttag des Buches.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Lesen, Schreiben und das mehrsprachige literarische Erbe der Philippinen fördern.",
+          "facts": [
+            "Der nationale Literaturmonat Buwan ng Panitikang Filipino würdigt Texte in verschiedenen Sprachen des Landes und ihre Rolle als Träger historischer Erinnerung.",
+            "Präsident Benigno Aquino III erließ am 10. Februar 2015 die Proklamation Nr. 968; der April umfasst unter anderem das Gedenken an den Dichter Francisco Balagtas.",
+            "NCCA und die Kommission für die philippinische Sprache koordinieren die Aktivitäten; der Monat ist weder ein einzelner Autoren-Geburtstag noch der Welttag des Buches."
+          ]
+        },
+        "pt": {
+          "heading": "Abril: literatura filipina em muitas línguas",
+          "origin": "O Mês Nacional da Literatura, Buwan ng Panitikang Filipino, valoriza a escrita nas várias línguas do país e a memória transmitida pelos livros. O presidente Benigno Aquino III assinou a Proclamação n.º 968 em 10 de fevereiro de 2015, escolhendo abril também pela memória do poeta Francisco Balagtas. A NCCA e a Comissão da Língua Filipina coordenam atividades; o mês não equivale aos aniversários individuais de autores nem ao Dia Mundial do Livro.",
+          "promoter": "National Commission for Culture and the Arts and Komisyon sa Wikang Filipino são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Promover leitura, escrita e o património literário nas diferentes línguas filipinas.",
+          "facts": [
+            "O Mês Nacional da Literatura, Buwan ng Panitikang Filipino, valoriza a escrita nas várias línguas do país e a memória transmitida pelos livros.",
+            "O presidente Benigno Aquino III assinou a Proclamação n.º 968 em 10 de fevereiro de 2015, escolhendo abril também pela memória do poeta Francisco Balagtas.",
+            "A NCCA e a Comissão da Língua Filipina coordenam atividades; o mês não equivale aos aniversários individuais de autores nem ao Dia Mundial do Livro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    },
+    {
+      "observanceId": "ph-w13-history-month-philippines",
+      "country": "PH",
+      "observanceDate": "AUGUST",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2012,
+      "firstObservedYear": null,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_PRESIDENTIAL_CULTURAL_MONTH_2012",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2012/proc_339_2012.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "August: a History Month that replaced a September week",
+          "origin": "Philippine History Month invites schools, museums and communities to examine the country's turning points, local memories and historical interpretation over an entire month. Proclamation No. 339, signed on 16 February 2012, moved the older History Week of 15–21 September, created under Proclamation No. 1304 of 1974, to the whole of August and repealed that 1974 order. The decree cited the concentration of important August events and argued a single week was insufficient; it must not be mistaken for the legal establishment of National Heroes Day itself.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Encourage accurate public history, local heritage research and awareness of national historical turning points.",
+          "facts": [
+            "Philippine History Month invites schools, museums and communities to examine the country's turning points, local memories and historical interpretation over an entire month.",
+            "Proclamation No. 339, signed on 16 February 2012, moved the older History Week of 15–21 September, created under Proclamation No. 1304 of 1974, to the whole of August and repealed that 1974 order.",
+            "The decree cited the concentration of important August events and argued a single week was insufficient; it must not be mistaken for the legal establishment of National Heroes Day itself."
+          ]
+        },
+        "it": {
+          "heading": "Agosto: il Mese della storia ha sostituito una settimana di settembre",
+          "origin": "Il Mese della storia invita scuole, musei e comunità a studiare eventi decisivi, memorie locali e interpretazioni del passato durante tutto agosto. La Proclamazione n. 339 del 16 febbraio 2012 ha trasformato la vecchia Settimana della storia del 15–21 settembre, istituita nel 1974, nel Mese della storia ad agosto, abrogando l'atto precedente. Il decreto richiamava i numerosi avvenimenti di agosto e la necessità di più tempo rispetto a una settimana; non istituisce la distinta Giornata degli eroi nazionali.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Promuovere ricerca storica, patrimonio locale e conoscenza critica della storia nazionale.",
+          "facts": [
+            "Il Mese della storia invita scuole, musei e comunità a studiare eventi decisivi, memorie locali e interpretazioni del passato durante tutto agosto.",
+            "La Proclamazione n. 339 del 16 febbraio 2012 ha trasformato la vecchia Settimana della storia del 15–21 settembre, istituita nel 1974, nel Mese della storia ad agosto, abrogando l'atto precedente.",
+            "Il decreto richiamava i numerosi avvenimenti di agosto e la necessità di più tempo rispetto a una settimana; non istituisce la distinta Giornata degli eroi nazionali."
+          ]
+        },
+        "es": {
+          "heading": "Agosto: el Mes de la Historia sustituyó a una semana de septiembre",
+          "origin": "El Mes de la Historia invita a escuelas, museos y comunidades a estudiar acontecimientos decisivos y memorias locales durante agosto. La Proclamación n.º 339 del 16 de febrero de 2012 trasladó la antigua Semana de la Historia del 15 al 21 de septiembre, creada en 1974, a todo agosto y derogó la norma anterior. El decreto destacó acontecimientos importantes de agosto y la insuficiencia de una sola semana; no es el acto que estableció el Día de los Héroes Nacionales.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Fomentar la investigación histórica y el conocimiento de la memoria local y nacional.",
+          "facts": [
+            "El Mes de la Historia invita a escuelas, museos y comunidades a estudiar acontecimientos decisivos y memorias locales durante agosto.",
+            "La Proclamación n.º 339 del 16 de febrero de 2012 trasladó la antigua Semana de la Historia del 15 al 21 de septiembre, creada en 1974, a todo agosto y derogó la norma anterior.",
+            "El decreto destacó acontecimientos importantes de agosto y la insuficiencia de una sola semana; no es el acto que estableció el Día de los Héroes Nacionales."
+          ]
+        },
+        "fr": {
+          "heading": "Août : le Mois de l'histoire a remplacé une semaine de septembre",
+          "origin": "Le Mois de l'histoire invite écoles, musées et collectivités à explorer les grands tournants et les mémoires locales pendant tout août. La proclamation nº 339 du 16 février 2012 a déplacé l'ancienne Semaine de l'histoire du 15 au 21 septembre, établie en 1974, vers tout le mois d'août et abrogé l'ancien texte. Le texte invoquait les nombreux événements d'août et jugeait une semaine insuffisante; il n'a pas créé la Journée des héros nationaux.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Encourager la recherche historique, les patrimoines locaux et la compréhension du passé national.",
+          "facts": [
+            "Le Mois de l'histoire invite écoles, musées et collectivités à explorer les grands tournants et les mémoires locales pendant tout août.",
+            "La proclamation nº 339 du 16 février 2012 a déplacé l'ancienne Semaine de l'histoire du 15 au 21 septembre, établie en 1974, vers tout le mois d'août et abrogé l'ancien texte.",
+            "Le texte invoquait les nombreux événements d'août et jugeait une semaine insuffisante; il n'a pas créé la Journée des héros nationaux."
+          ]
+        },
+        "de": {
+          "heading": "August: Der Geschichtsmonat ersetzte eine Septemberwoche",
+          "origin": "Der philippinische Geschichtsmonat lädt Schulen, Museen und Gemeinden ein, historische Wendepunkte und lokale Erinnerung im August zu erforschen. Proklamation Nr. 339 vom 16. Februar 2012 ersetzte die 1974 eingeführte Geschichtswoche vom 15. bis 21. September durch den gesamten August und hob die frühere Regelung auf. Die Begründung nennt wichtige Ereignisse im August und hält eine Woche für zu kurz; sie schuf nicht den separaten Nationalheldentag.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Historische Forschung, lokales Erbe und die kritische Auseinandersetzung mit der Landesgeschichte fördern.",
+          "facts": [
+            "Der philippinische Geschichtsmonat lädt Schulen, Museen und Gemeinden ein, historische Wendepunkte und lokale Erinnerung im August zu erforschen.",
+            "Proklamation Nr. 339 vom 16. Februar 2012 ersetzte die 1974 eingeführte Geschichtswoche vom 15. bis 21. September durch den gesamten August und hob die frühere Regelung auf.",
+            "Die Begründung nennt wichtige Ereignisse im August und hält eine Woche für zu kurz; sie schuf nicht den separaten Nationalheldentag."
+          ]
+        },
+        "pt": {
+          "heading": "Agosto: o Mês da História substituiu uma semana de setembro",
+          "origin": "O Mês da História convida escolas, museus e comunidades a conhecer momentos decisivos e memórias locais durante agosto. A Proclamação n.º 339 de 16 de fevereiro de 2012 substituiu a Semana da História de 15–21 de setembro, criada em 1974, pelo mês inteiro de agosto e revogou a norma anterior. O decreto citou acontecimentos importantes de agosto e considerou uma semana insuficiente; não criou o Dia dos Heróis Nacionais.",
+          "promoter": "National Historical Commission of the Philippines and cultural education institutions são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Incentivar investigação histórica, património local e conhecimento crítico da história nacional.",
+          "facts": [
+            "O Mês da História convida escolas, museus e comunidades a conhecer momentos decisivos e memórias locais durante agosto.",
+            "A Proclamação n.º 339 de 16 de fevereiro de 2012 substituiu a Semana da História de 15–21 de setembro, criada em 1974, pelo mês inteiro de agosto e revogou a norma anterior.",
+            "O decreto citou acontecimentos importantes de agosto e considerou uma semana insuficiente; não criou o Dia dos Heróis Nacionais."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    },
+    {
+      "observanceId": "ph-w13-museums-and-galleries-month-philippines",
+      "country": "PH",
+      "observanceDate": "OCTOBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1991,
+      "firstObservedYear": null,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_PRESIDENTIAL_CULTURAL_MONTH_1991",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1991/proc_798_1991.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "October: Museums and Galleries Month preserves cultural memory",
+          "origin": "Museums and Galleries Month offers a national occasion to explore collections, archives, art, historic objects and the many cultural traditions that shape Philippine identity. President Corazon Aquino signed Proclamation No. 798 on 12 September 1991, establishing October annually and linking the initiative to cultural preservation and the World Decade for Cultural Development. The then Presidential Commission on Culture and Arts was designated to lead activities, with museums and galleries urged to participate; the proclamation precedes the later institutional framework of today's NCCA.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Broaden access to collections and cultural learning and support preservation of Philippine heritage.",
+          "facts": [
+            "Museums and Galleries Month offers a national occasion to explore collections, archives, art, historic objects and the many cultural traditions that shape Philippine identity.",
+            "President Corazon Aquino signed Proclamation No. 798 on 12 September 1991, establishing October annually and linking the initiative to cultural preservation and the World Decade for Cultural Development.",
+            "The then Presidential Commission on Culture and Arts was designated to lead activities, with museums and galleries urged to participate; the proclamation precedes the later institutional framework of today's NCCA."
+          ]
+        },
+        "it": {
+          "heading": "Ottobre: musei e gallerie custodiscono la memoria culturale",
+          "origin": "Il Mese dei musei e delle gallerie invita a conoscere collezioni, archivi, opere d'arte, reperti e le diverse tradizioni che caratterizzano l'identità filippina. La presidente Corazon Aquino firmò la Proclamazione n. 798 il 12 settembre 1991, scegliendo ottobre per la tutela culturale nel contesto del Decennio mondiale per lo sviluppo culturale. La Commissione presidenziale per la cultura e le arti ricevette il coordinamento, invitando musei e gallerie; l'atto precede l'assetto istituzionale dell'attuale NCCA.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Ampliare l'accesso a collezioni e conoscenza culturale e sostenere la tutela del patrimonio.",
+          "facts": [
+            "Il Mese dei musei e delle gallerie invita a conoscere collezioni, archivi, opere d'arte, reperti e le diverse tradizioni che caratterizzano l'identità filippina.",
+            "La presidente Corazon Aquino firmò la Proclamazione n. 798 il 12 settembre 1991, scegliendo ottobre per la tutela culturale nel contesto del Decennio mondiale per lo sviluppo culturale.",
+            "La Commissione presidenziale per la cultura e le arti ricevette il coordinamento, invitando musei e gallerie; l'atto precede l'assetto istituzionale dell'attuale NCCA."
+          ]
+        },
+        "es": {
+          "heading": "Octubre: museos y galerías preservan la memoria cultural",
+          "origin": "El Mes de los Museos y Galerías invita a conocer colecciones, archivos, arte, objetos históricos y las tradiciones de la identidad filipina. La presidenta Corazon Aquino firmó la Proclamación n.º 798 el 12 de septiembre de 1991, eligiendo octubre en el contexto del Decenio Mundial para el Desarrollo Cultural. La Comisión Presidencial de Cultura y Artes recibió la coordinación e invitó a museos y galerías; la norma es anterior a la estructura actual de la NCCA.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Ampliar el acceso a colecciones y educación cultural y apoyar la conservación del patrimonio.",
+          "facts": [
+            "El Mes de los Museos y Galerías invita a conocer colecciones, archivos, arte, objetos históricos y las tradiciones de la identidad filipina.",
+            "La presidenta Corazon Aquino firmó la Proclamación n.º 798 el 12 de septiembre de 1991, eligiendo octubre en el contexto del Decenio Mundial para el Desarrollo Cultural.",
+            "La Comisión Presidencial de Cultura y Artes recibió la coordinación e invitó a museos y galerías; la norma es anterior a la estructura actual de la NCCA."
+          ]
+        },
+        "fr": {
+          "heading": "Octobre : musées et galeries conservent la mémoire culturelle",
+          "origin": "Le Mois des musées et galeries invite à découvrir collections, archives, art et objets historiques qui reflètent l'identité philippine. La présidente Corazon Aquino a signé la proclamation nº 798 le 12 septembre 1991, instituant octobre dans le contexte de la Décennie mondiale du développement culturel. La Commission présidentielle de la culture et des arts fut chargée de coordonner les activités des musées et galeries; le texte précède la NCCA actuelle.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Favoriser l'accès aux collections et aux savoirs et soutenir la conservation du patrimoine.",
+          "facts": [
+            "Le Mois des musées et galeries invite à découvrir collections, archives, art et objets historiques qui reflètent l'identité philippine.",
+            "La présidente Corazon Aquino a signé la proclamation nº 798 le 12 septembre 1991, instituant octobre dans le contexte de la Décennie mondiale du développement culturel.",
+            "La Commission présidentielle de la culture et des arts fut chargée de coordonner les activités des musées et galeries; le texte précède la NCCA actuelle."
+          ]
+        },
+        "de": {
+          "heading": "Oktober: Museen und Galerien bewahren kulturelle Erinnerung",
+          "origin": "Der Monat der Museen und Galerien lädt ein, Sammlungen, Archive, Kunst und historische Gegenstände als Teil philippinischer Identität zu erkunden. Präsidentin Corazon Aquino unterzeichnete am 12. September 1991 die Proklamation Nr. 798 und bestimmte Oktober im Rahmen der Weltdekade für kulturelle Entwicklung. Die damalige Präsidialkommission für Kultur und Kunst koordinierte die Aktivitäten; die Proklamation entstand vor der heutigen NCCA-Struktur.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Zugang zu Sammlungen und Kulturvermittlung eröffnen und die Erhaltung des Erbes unterstützen.",
+          "facts": [
+            "Der Monat der Museen und Galerien lädt ein, Sammlungen, Archive, Kunst und historische Gegenstände als Teil philippinischer Identität zu erkunden.",
+            "Präsidentin Corazon Aquino unterzeichnete am 12. September 1991 die Proklamation Nr. 798 und bestimmte Oktober im Rahmen der Weltdekade für kulturelle Entwicklung.",
+            "Die damalige Präsidialkommission für Kultur und Kunst koordinierte die Aktivitäten; die Proklamation entstand vor der heutigen NCCA-Struktur."
+          ]
+        },
+        "pt": {
+          "heading": "Outubro: museus e galerias preservam a memória cultural",
+          "origin": "O Mês dos Museus e Galerias convida a conhecer coleções, arquivos, arte, objetos históricos e tradições da identidade filipina. A presidente Corazon Aquino assinou a Proclamação n.º 798 em 12 de setembro de 1991, instituindo outubro no âmbito da Década Mundial do Desenvolvimento Cultural. A Comissão Presidencial da Cultura e das Artes ficou responsável pelas atividades; a proclamação antecede a estrutura atual da NCCA.",
+          "promoter": "Presidential Commission on Culture and Arts, now succeeded by National Commission for Culture and the Arts são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Ampliar o acesso a coleções e educação cultural e apoiar a conservação do património.",
+          "facts": [
+            "O Mês dos Museus e Galerias convida a conhecer coleções, arquivos, arte, objetos históricos e tradições da identidade filipina.",
+            "A presidente Corazon Aquino assinou a Proclamação n.º 798 em 12 de setembro de 1991, instituindo outubro no âmbito da Década Mundial do Desenvolvimento Cultural.",
+            "A Comissão Presidencial da Cultura e das Artes ficou responsável pelas atividades; a proclamação antecede a estrutura atual da NCCA."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    },
+    {
+      "observanceId": "ph-w13-national-children-s-month-philippines",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2015,
+      "firstObservedYear": 1993,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_CHILDREN_MONTH_OCT1993_NOV2015",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
+        "https://lawphil.net/executive/proc/proc1993/proc_267_1993.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Children's Month moved from October by a 2015 law",
+          "origin": "National Children's Month supports the rights and wellbeing of Filipino children and brings public attention to the UN Convention on the Rights of the Child, adopted on 20 November 1989. A 1993 proclamation had declared October National Children's Month. Republic Act No. 10661, approved on 29 May 2015, explicitly changed the recurring month to November and repealed the earlier proclamations. The law names social-welfare, youth and children's councils as leading agencies; the current November calendar must not be shown as if the October designation had never existed.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Strengthen children's rights and public understanding of the UN Convention through schools and communities.",
+          "facts": [
+            "National Children's Month supports the rights and wellbeing of Filipino children and brings public attention to the UN Convention on the Rights of the Child, adopted on 20 November 1989.",
+            "A 1993 proclamation had declared October National Children's Month. Republic Act No. 10661, approved on 29 May 2015, explicitly changed the recurring month to November and repealed the earlier proclamations.",
+            "The law names social-welfare, youth and children's councils as leading agencies; the current November calendar must not be shown as if the October designation had never existed."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: una legge del 2015 ha spostato il Mese dei bambini",
+          "origin": "Il Mese dei bambini promuove diritti e benessere dell'infanzia filippina, richiamando la Convenzione ONU sui diritti del fanciullo adottata il 20 novembre 1989. Una proclamazione del 1993 prevedeva ottobre. La Legge della Repubblica n. 10661, approvata il 29 maggio 2015, fissò novembre e abrogò espressamente le proclamazioni precedenti. La legge affida il coordinamento agli enti per benessere sociale, giovani e infanzia; il calendario di novembre non deve cancellare la precedente origine di ottobre.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Promuovere diritti dell'infanzia e conoscenza della Convenzione ONU attraverso scuole e comunità.",
+          "facts": [
+            "Il Mese dei bambini promuove diritti e benessere dell'infanzia filippina, richiamando la Convenzione ONU sui diritti del fanciullo adottata il 20 novembre 1989.",
+            "Una proclamazione del 1993 prevedeva ottobre. La Legge della Repubblica n. 10661, approvata il 29 maggio 2015, fissò novembre e abrogò espressamente le proclamazioni precedenti.",
+            "La legge affida il coordinamento agli enti per benessere sociale, giovani e infanzia; il calendario di novembre non deve cancellare la precedente origine di ottobre."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: la ley de 2015 cambió el Mes de la Infancia",
+          "origin": "El Mes de la Infancia fomenta derechos y bienestar de los niños filipinos y recuerda la Convención de la ONU sobre los Derechos del Niño de 20 de noviembre de 1989. Una proclamación de 1993 había fijado octubre. La Ley de la República n.º 10661, aprobada el 29 de mayo de 2015, trasladó el mes a noviembre y derogó las proclamaciones anteriores. La ley encarga la coordinación a organismos de bienestar, juventud e infancia; la fecha actual no debe ocultar el periodo anterior de octubre.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Fortalecer los derechos de la infancia y el conocimiento de la Convención de la ONU.",
+          "facts": [
+            "El Mes de la Infancia fomenta derechos y bienestar de los niños filipinos y recuerda la Convención de la ONU sobre los Derechos del Niño de 20 de noviembre de 1989.",
+            "Una proclamación de 1993 había fijado octubre. La Ley de la República n.º 10661, aprobada el 29 de mayo de 2015, trasladó el mes a noviembre y derogó las proclamaciones anteriores.",
+            "La ley encarga la coordinación a organismos de bienestar, juventud e infancia; la fecha actual no debe ocultar el periodo anterior de octubre."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : la loi de 2015 a déplacé le Mois de l'enfance",
+          "origin": "Le Mois de l'enfance promeut les droits des enfants philippins et rappelle la Convention des Nations unies adoptée le 20 novembre 1989. Une proclamation de 1993 retenait octobre. La loi de la République nº 10661, approuvée le 29 mai 2015, a choisi novembre et abrogé les anciennes proclamations. La loi confie l'organisation aux instances sociales, de jeunesse et de l'enfance; le calendrier actuel ne doit pas effacer la période d'octobre.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Renforcer les droits des enfants et la connaissance de la Convention par les écoles et communautés.",
+          "facts": [
+            "Le Mois de l'enfance promeut les droits des enfants philippins et rappelle la Convention des Nations unies adoptée le 20 novembre 1989.",
+            "Une proclamation de 1993 retenait octobre. La loi de la République nº 10661, approuvée le 29 mai 2015, a choisi novembre et abrogé les anciennes proclamations.",
+            "La loi confie l'organisation aux instances sociales, de jeunesse et de l'enfance; le calendrier actuel ne doit pas effacer la période d'octobre."
+          ]
+        },
+        "de": {
+          "heading": "November: Ein Gesetz von 2015 verlegte den Kindermonat",
+          "origin": "Der nationale Kindermonat stärkt Kinderrechte in den Philippinen und erinnert an die UN-Kinderrechtskonvention vom 20. November 1989. Eine Proklamation von 1993 hatte Oktober vorgesehen. Republikgesetz Nr. 10661 vom 29. Mai 2015 verlegte den Monat ausdrücklich auf November und hob die früheren Verordnungen auf. Das Gesetz beauftragt Sozial-, Jugend- und Kinderschutzstellen; die heutige Novemberregel darf die frühere Oktoberregelung nicht ausblenden.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Kinderrechte und das Verständnis der UN-Konvention in Schulen und Gemeinden stärken.",
+          "facts": [
+            "Der nationale Kindermonat stärkt Kinderrechte in den Philippinen und erinnert an die UN-Kinderrechtskonvention vom 20. November 1989.",
+            "Eine Proklamation von 1993 hatte Oktober vorgesehen. Republikgesetz Nr. 10661 vom 29. Mai 2015 verlegte den Monat ausdrücklich auf November und hob die früheren Verordnungen auf.",
+            "Das Gesetz beauftragt Sozial-, Jugend- und Kinderschutzstellen; die heutige Novemberregel darf die frühere Oktoberregelung nicht ausblenden."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: a lei de 2015 mudou o Mês da Infância",
+          "origin": "O Mês da Infância promove os direitos das crianças filipinas e recorda a Convenção da ONU adotada em 20 de novembro de 1989. Uma proclamação de 1993 fixara outubro. A Lei da República n.º 10661, aprovada em 29 de maio de 2015, transferiu o mês para novembro e revogou as normas anteriores. A lei atribui a coordenação às entidades sociais, juvenis e da infância; a data atual não deve apagar a etapa anterior de outubro.",
+          "promoter": "Department of Social Welfare and Development, National Youth Commission and Council for the Welfare of Children são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Reforçar os direitos das crianças e o conhecimento da Convenção nas escolas e comunidades.",
+          "facts": [
+            "O Mês da Infância promove os direitos das crianças filipinas e recorda a Convenção da ONU adotada em 20 de novembro de 1989.",
+            "Uma proclamação de 1993 fixara outubro. A Lei da República n.º 10661, aprovada em 29 de maio de 2015, transferiu o mês para novembro e revogou as normas anteriores.",
+            "A lei atribui a coordenação às entidades sociais, juvenis e da infância; a data atual não deve apagar a etapa anterior de outubro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    },
+    {
+      "observanceId": "ph-w13-national-indigenous-peoples-month-philippines",
+      "country": "PH",
+      "observanceDate": "OCTOBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2009,
+      "firstObservedYear": null,
+      "legalStatus": "PH_NATIONAL_CULTURAL_OBSERVANCE_NOT_STATUTORY_NONWORKING_HOLIDAY",
+      "originClusterId": "PH_IP_RIGHTS_1997_2003_2009",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2009/proc_1906_2009.html",
+        "https://lawphil.net/executive/proc/proc2003/proc_486_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "October: Indigenous Peoples Month has a separate 2009 origin",
+          "origin": "National Indigenous Peoples Month celebrates the diverse cultures of Philippine indigenous peoples and calls for protection of their rights, traditions and participation in public life. Proclamation No. 1906 of 5 October 2009 established the whole month of October, building on the 1997 Indigenous Peoples Rights Act and an October 29 Thanksgiving Day previously recognized in 2003. The NCCA's Subcommission on Cultural Communities and Traditional Arts was assigned a leading role; month-long celebration and single-day Thanksgiving remain different legal observances.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples were designated or identified as coordinating public institutions for this Philippine observance.",
+          "purpose": "Support indigenous cultural rights, community heritage and respectful public participation.",
+          "facts": [
+            "National Indigenous Peoples Month celebrates the diverse cultures of Philippine indigenous peoples and calls for protection of their rights, traditions and participation in public life.",
+            "Proclamation No. 1906 of 5 October 2009 established the whole month of October, building on the 1997 Indigenous Peoples Rights Act and an October 29 Thanksgiving Day previously recognized in 2003.",
+            "The NCCA's Subcommission on Cultural Communities and Traditional Arts was assigned a leading role; month-long celebration and single-day Thanksgiving remain different legal observances."
+          ]
+        },
+        "it": {
+          "heading": "Ottobre: il Mese dei popoli indigeni ha una propria origine nel 2009",
+          "origin": "Il Mese dei popoli indigeni riconosce la pluralità delle culture indigene filippine e richiama la tutela di diritti, tradizioni e partecipazione alla vita pubblica. La Proclamazione n. 1906 del 5 ottobre 2009 istituì l'intero ottobre, richiamando la legge sui diritti indigeni del 1997 e la distinta giornata di ringraziamento del 29 ottobre, riconosciuta nel 2003. La sottocommissione NCCA per comunità culturali e arti tradizionali ricevette un ruolo guida; il mese intero e la giornata del 29 ottobre restano ricorrenze giuridiche distinte.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples sono indicati come enti pubblici responsabili o coinvolti nel coordinamento della ricorrenza filippina.",
+          "purpose": "Sostenere diritti culturali, patrimonio delle comunità indigene e partecipazione rispettosa.",
+          "facts": [
+            "Il Mese dei popoli indigeni riconosce la pluralità delle culture indigene filippine e richiama la tutela di diritti, tradizioni e partecipazione alla vita pubblica.",
+            "La Proclamazione n. 1906 del 5 ottobre 2009 istituì l'intero ottobre, richiamando la legge sui diritti indigeni del 1997 e la distinta giornata di ringraziamento del 29 ottobre, riconosciuta nel 2003.",
+            "La sottocommissione NCCA per comunità culturali e arti tradizionali ricevette un ruolo guida; il mese intero e la giornata del 29 ottobre restano ricorrenze giuridiche distinte."
+          ]
+        },
+        "es": {
+          "heading": "Octubre: el Mes de los Pueblos Indígenas nació en 2009",
+          "origin": "El Mes de los Pueblos Indígenas destaca la diversidad cultural indígena de Filipinas y la defensa de sus derechos, tradiciones y participación. La Proclamación n.º 1906 del 5 de octubre de 2009 estableció todo octubre, sobre la base de la ley de derechos indígenas de 1997 y una jornada específica de agradecimiento creada en 2003. La subcomisión de comunidades culturales y artes tradicionales de la NCCA recibió la coordinación; el mes completo y el día 29 son conmemoraciones diferentes.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples son las instituciones públicas responsables o implicadas en la coordinación de esta jornada filipina.",
+          "purpose": "Apoyar derechos culturales y patrimonio comunitario y una participación respetuosa.",
+          "facts": [
+            "El Mes de los Pueblos Indígenas destaca la diversidad cultural indígena de Filipinas y la defensa de sus derechos, tradiciones y participación.",
+            "La Proclamación n.º 1906 del 5 de octubre de 2009 estableció todo octubre, sobre la base de la ley de derechos indígenas de 1997 y una jornada específica de agradecimiento creada en 2003.",
+            "La subcomisión de comunidades culturales y artes tradicionales de la NCCA recibió la coordinación; el mes completo y el día 29 son conmemoraciones diferentes."
+          ]
+        },
+        "fr": {
+          "heading": "Octobre : le Mois des peuples autochtones date de 2009",
+          "origin": "Le Mois des peuples autochtones valorise la diversité culturelle des Philippines et rappelle les droits, traditions et participation de ces communautés. La proclamation nº 1906 du 5 octobre 2009 a institué tout octobre en référence à la loi de 1997 et à une journée spécifique du 29 octobre reconnue en 2003. La sous-commission NCCA des communautés culturelles et des arts traditionnels coordonne le programme; le mois et la journée du 29 octobre sont distincts.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples sont les organismes publics responsables ou associés à la coordination de cette commémoration philippine.",
+          "purpose": "Soutenir les droits culturels et le patrimoine des communautés autochtones.",
+          "facts": [
+            "Le Mois des peuples autochtones valorise la diversité culturelle des Philippines et rappelle les droits, traditions et participation de ces communautés.",
+            "La proclamation nº 1906 du 5 octobre 2009 a institué tout octobre en référence à la loi de 1997 et à une journée spécifique du 29 octobre reconnue en 2003.",
+            "La sous-commission NCCA des communautés culturelles et des arts traditionnels coordonne le programme; le mois et la journée du 29 octobre sont distincts."
+          ]
+        },
+        "de": {
+          "heading": "Oktober: Der indigene Völkermonat wurde 2009 eingeführt",
+          "origin": "Der Monat der indigenen Völker würdigt die kulturelle Vielfalt der Philippinen und die Rechte, Traditionen und Teilhabe der Gemeinschaften. Proklamation Nr. 1906 vom 5. Oktober 2009 erklärte Oktober zum Monat, gestützt auf das Gesetz von 1997 und den gesonderten Dankestag vom 29. Oktober, anerkannt 2003. Die NCCA-Unterkommission für kulturelle Gemeinschaften und traditionelle Künste leitet das Programm; der Monat und der einzelne Tag bleiben verschieden.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples sind die benannten oder beteiligten staatlichen Stellen für die Koordination dieses philippinischen Anlasses.",
+          "purpose": "Indigene Kulturrechte, Gemeinschaftserbe und respektvolle Beteiligung stärken.",
+          "facts": [
+            "Der Monat der indigenen Völker würdigt die kulturelle Vielfalt der Philippinen und die Rechte, Traditionen und Teilhabe der Gemeinschaften.",
+            "Proklamation Nr. 1906 vom 5. Oktober 2009 erklärte Oktober zum Monat, gestützt auf das Gesetz von 1997 und den gesonderten Dankestag vom 29. Oktober, anerkannt 2003.",
+            "Die NCCA-Unterkommission für kulturelle Gemeinschaften und traditionelle Künste leitet das Programm; der Monat und der einzelne Tag bleiben verschieden."
+          ]
+        },
+        "pt": {
+          "heading": "Outubro: o Mês dos Povos Indígenas tem origem em 2009",
+          "origin": "O Mês dos Povos Indígenas valoriza a diversidade cultural das Filipinas e a proteção de direitos, tradições e participação. A Proclamação n.º 1906 de 5 de outubro de 2009 instituiu outubro, apoiada na lei de direitos indígenas de 1997 e na jornada separada de 29 de outubro criada em 2003. A subcomissão da NCCA para comunidades culturais e artes tradicionais coordena atividades; o mês e o dia 29 são comemorações distintas.",
+          "promoter": "National Commission for Culture and the Arts and National Commission on Indigenous Peoples são as instituições públicas responsáveis ou envolvidas na coordenação desta comemoração filipina.",
+          "purpose": "Apoiar direitos culturais, património comunitário e participação respeitosa.",
+          "facts": [
+            "O Mês dos Povos Indígenas valoriza a diversidade cultural das Filipinas e a proteção de direitos, tradições e participação.",
+            "A Proclamação n.º 1906 de 5 de outubro de 2009 instituiu outubro, apoiada na lei de direitos indígenas de 1997 e na jornada separada de 29 de outubro criada em 2003.",
+            "A subcomissão da NCCA para comunidades culturais e artes tradicionais coordena atividades; o mês e o dia 29 são comemorações distintas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Presidential proclamation / Republic Act primary text cross-read with official NCCA calendar; AI six-locale research draft. Underlying legal years and current months are separately attributed. No qualified human historical or native-language approval."
+    }
+  ]
+}

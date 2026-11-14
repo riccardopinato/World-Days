@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_LEGISLATION_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 6,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w13-national-bible-month",
+      "country": "PH",
+      "observanceDate": "JANUARY",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2017,
+      "firstObservedYear": null,
+      "originClusterId": "PH_BIBLE_MONTH_AND_FINAL_WEEK_2017",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2017/proc_124_2017.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "January: Bible Month builds on the final Bible Week",
+          "origin": "National Bible Month invites people in the Philippines to read and discuss biblical texts in their cultural and religious context, while recognizing that the state must remain neutral in its treatment of different faiths. Proclamation No. 124 was signed on 5 January 2017, creating an annual January observance. It explicitly states that the last week of January is National Bible Week, so the month and its culminating week have different scopes. The presidential text links the initiative to ethical and spiritual education and recognizes previous public attention to Bible Week; it does not declare every day of January a non-working public holiday.",
+          "promoter": "Office of the President and participating educational and faith organizations are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Support reading and reflection on biblical traditions while respecting religious diversity and civic neutrality.",
+          "facts": [
+            "National Bible Month invites people in the Philippines to read and discuss biblical texts in their cultural and religious context, while recognizing that the state must remain neutral in its treatment of different faiths.",
+            "Proclamation No. 124 was signed on 5 January 2017, creating an annual January observance. It explicitly states that the last week of January is National Bible Week, so the month and its culminating week have different scopes.",
+            "The presidential text links the initiative to ethical and spiritual education and recognizes previous public attention to Bible Week; it does not declare every day of January a non-working public holiday."
+          ]
+        },
+        "it": {
+          "heading": "Gennaio: il Mese della Bibbia culmina nella settimana conclusiva",
+          "origin": "Il Mese nazionale della Bibbia invita a leggere e discutere i testi biblici nel contesto culturale e religioso filippino, ricordando che lo Stato deve restare neutrale verso le diverse confessioni. La Proclamazione n. 124, firmata il 5 gennaio 2017, ha istituito gennaio come mese ricorrente e stabilito che l'ultima settimana sia la Settimana nazionale della Bibbia: due periodi distinti. Il testo presidenziale collega l'iniziativa all'educazione etica e spirituale e richiama la precedente Settimana della Bibbia, senza trasformare ogni giorno di gennaio in festività non lavorativa.",
+          "promoter": "Office of the President and participating educational and faith organizations sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Favorire lettura e riflessione sulle tradizioni bibliche rispettando pluralismo religioso e neutralità civile.",
+          "facts": [
+            "Il Mese nazionale della Bibbia invita a leggere e discutere i testi biblici nel contesto culturale e religioso filippino, ricordando che lo Stato deve restare neutrale verso le diverse confessioni.",
+            "La Proclamazione n. 124, firmata il 5 gennaio 2017, ha istituito gennaio come mese ricorrente e stabilito che l'ultima settimana sia la Settimana nazionale della Bibbia: due periodi distinti.",
+            "Il testo presidenziale collega l'iniziativa all'educazione etica e spirituale e richiama la precedente Settimana della Bibbia, senza trasformare ogni giorno di gennaio in festività non lavorativa."
+          ]
+        },
+        "es": {
+          "heading": "Enero: el Mes de la Biblia culmina en su última semana",
+          "origin": "El Mes de la Biblia invita a leer y debatir textos bíblicos en su contexto cultural y religioso, recordando que el Estado debe ser neutral ante las distintas confesiones. La Proclamación n.º 124, firmada el 5 de enero de 2017, estableció enero como mes anual y su última semana como Semana Nacional de la Biblia, con periodos diferentes. El texto relaciona la iniciativa con la educación ética y espiritual y la anterior Semana de la Biblia, sin declarar festivos no laborables todos los días del mes.",
+          "promoter": "Office of the President and participating educational and faith organizations figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Fomentar la lectura y reflexión sobre tradiciones bíblicas respetando la diversidad religiosa.",
+          "facts": [
+            "El Mes de la Biblia invita a leer y debatir textos bíblicos en su contexto cultural y religioso, recordando que el Estado debe ser neutral ante las distintas confesiones.",
+            "La Proclamación n.º 124, firmada el 5 de enero de 2017, estableció enero como mes anual y su última semana como Semana Nacional de la Biblia, con periodos diferentes.",
+            "El texto relaciona la iniciativa con la educación ética y espiritual y la anterior Semana de la Biblia, sin declarar festivos no laborables todos los días del mes."
+          ]
+        },
+        "fr": {
+          "heading": "Janvier : le Mois de la Bible culmine la dernière semaine",
+          "origin": "Le Mois national de la Bible invite à lire et discuter les textes bibliques dans leur contexte culturel et religieux, tout en rappelant la neutralité de l'État envers les différentes confessions. La proclamation nº 124, signée le 5 janvier 2017, a institué janvier chaque année et consacré sa dernière semaine à la Semaine nationale de la Bible : deux périodes distinctes. Le texte présidentiel associe la journée à l'éducation morale et spirituelle et à une Semaine de la Bible préexistante, sans créer de congé national pour tout janvier.",
+          "promoter": "Office of the President and participating educational and faith organizations sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Encourager la lecture et la réflexion sur la tradition biblique dans le respect du pluralisme religieux.",
+          "facts": [
+            "Le Mois national de la Bible invite à lire et discuter les textes bibliques dans leur contexte culturel et religieux, tout en rappelant la neutralité de l'État envers les différentes confessions.",
+            "La proclamation nº 124, signée le 5 janvier 2017, a institué janvier chaque année et consacré sa dernière semaine à la Semaine nationale de la Bible : deux périodes distinctes.",
+            "Le texte présidentiel associe la journée à l'éducation morale et spirituelle et à une Semaine de la Bible préexistante, sans créer de congé national pour tout janvier."
+          ]
+        },
+        "de": {
+          "heading": "Januar: Der Bibelmonat endet mit einer besonderen Bibelwoche",
+          "origin": "Der nationale Bibelmonat regt zur Lektüre und Diskussion biblischer Texte im philippinischen Kulturkontext an und verweist auf die staatliche Neutralität gegenüber Glaubensgemeinschaften. Proklamation Nr. 124 vom 5. Januar 2017 begründete den jährlichen Bibelmonat Januar und legte seine letzte Woche als nationale Bibelwoche fest; dies sind verschiedene Zeiträume. Die Präsidialverordnung begründet die Initiative mit ethischer und spiritueller Bildung und verweist auf die ältere Bibelwoche, ohne den Januar arbeitsfrei zu erklären.",
+          "promoter": "Office of the President and participating educational and faith organizations sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Lektüre und Reflexion über biblische Traditionen unter Achtung religiöser Vielfalt fördern.",
+          "facts": [
+            "Der nationale Bibelmonat regt zur Lektüre und Diskussion biblischer Texte im philippinischen Kulturkontext an und verweist auf die staatliche Neutralität gegenüber Glaubensgemeinschaften.",
+            "Proklamation Nr. 124 vom 5. Januar 2017 begründete den jährlichen Bibelmonat Januar und legte seine letzte Woche als nationale Bibelwoche fest; dies sind verschiedene Zeiträume.",
+            "Die Präsidialverordnung begründet die Initiative mit ethischer und spiritueller Bildung und verweist auf die ältere Bibelwoche, ohne den Januar arbeitsfrei zu erklären."
+          ]
+        },
+        "pt": {
+          "heading": "Janeiro: o Mês da Bíblia culmina na última semana",
+          "origin": "O Mês Nacional da Bíblia incentiva a leitura e discussão de textos bíblicos no contexto cultural e religioso, respeitando a neutralidade do Estado perante as diversas confissões. A Proclamação n.º 124, assinada em 5 de janeiro de 2017, instituiu janeiro anualmente e a última semana como Semana Nacional da Bíblia, com durações distintas. O texto presidencial liga a iniciativa à educação ética e espiritual e à semana já conhecida, sem transformar janeiro em feriado nacional.",
+          "promoter": "Office of the President and participating educational and faith organizations são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Promover leitura e reflexão sobre tradições bíblicas, respeitando a diversidade religiosa.",
+          "facts": [
+            "O Mês Nacional da Bíblia incentiva a leitura e discussão de textos bíblicos no contexto cultural e religioso, respeitando a neutralidade do Estado perante as diversas confissões.",
+            "A Proclamação n.º 124, assinada em 5 de janeiro de 2017, instituiu janeiro anualmente e a última semana como Semana Nacional da Bíblia, com durações distintas.",
+            "O texto presidencial liga a iniciativa à educação ética e espiritual e à semana já conhecida, sem transformar janeiro em feriado nacional."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    },
+    {
+      "observanceId": "ph-w13-filipino-values-month",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1994,
+      "firstObservedYear": null,
+      "originClusterId": "PH_LEGISLATIVE_MONTH_1994",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1994/proc_479_1994.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Filipino Values Month grew from a moral recovery programme",
+          "origin": "Filipino Values Month focuses on everyday conduct, community solidarity and reflection on the values people associate with Philippine culture. It is framed as a civic participation campaign rather than a day commemorating a battle or leader. Proclamation No. 479, signed by President Fidel V. Ramos on 7 October 1994, declared November the annual observance and placed it under the Kabisig People Movement. The decree explicitly refers to the Moral Recovery Program announced in Proclamation No. 62 of 1992, separating the earlier campaign from the formal 1994 month-long designation.",
+          "promoter": "Kabisig People Movement and participating public institutions are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Encourage community participation and reflection on shared ethical and civic values.",
+          "facts": [
+            "Filipino Values Month focuses on everyday conduct, community solidarity and reflection on the values people associate with Philippine culture. It is framed as a civic participation campaign rather than a day commemorating a battle or leader.",
+            "Proclamation No. 479, signed by President Fidel V. Ramos on 7 October 1994, declared November the annual observance and placed it under the Kabisig People Movement.",
+            "The decree explicitly refers to the Moral Recovery Program announced in Proclamation No. 62 of 1992, separating the earlier campaign from the formal 1994 month-long designation."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: il Mese dei valori filippini nasce da un programma civile",
+          "origin": "Il Mese dei valori filippini promuove comportamenti quotidiani, solidarietà comunitaria e riflessione sui valori culturali; è una campagna civile, non l'anniversario di una battaglia o di un personaggio. La Proclamazione n. 479, firmata da Fidel V. Ramos il 7 ottobre 1994, ha istituito novembre come mese annuale e affidato la promozione al Kabisig People Movement. Il provvedimento richiama il Moral Recovery Program della Proclamazione n. 62 del 1992: il programma precedente e la designazione ufficiale del mese nel 1994 sono tappe diverse.",
+          "promoter": "Kabisig People Movement and participating public institutions sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Stimolare partecipazione comunitaria e riflessione su valori etici e civici condivisi.",
+          "facts": [
+            "Il Mese dei valori filippini promuove comportamenti quotidiani, solidarietà comunitaria e riflessione sui valori culturali; è una campagna civile, non l'anniversario di una battaglia o di un personaggio.",
+            "La Proclamazione n. 479, firmata da Fidel V. Ramos il 7 ottobre 1994, ha istituito novembre come mese annuale e affidato la promozione al Kabisig People Movement.",
+            "Il provvedimento richiama il Moral Recovery Program della Proclamazione n. 62 del 1992: il programma precedente e la designazione ufficiale del mese nel 1994 sono tappe diverse."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: el Mes de los Valores Filipinos nació de un programa social",
+          "origin": "El Mes de los Valores Filipinos promueve conductas cotidianas, solidaridad y reflexión cultural; es una campaña cívica, no el aniversario de una batalla o un dirigente. La Proclamación n.º 479, firmada por Fidel V. Ramos el 7 de octubre de 1994, estableció noviembre y asignó la iniciativa al Kabisig People Movement. El decreto cita el Programa de Recuperación Moral de la Proclamación n.º 62 de 1992: la campaña anterior y el reconocimiento del mes en 1994 son etapas distintas.",
+          "promoter": "Kabisig People Movement and participating public institutions figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Fomentar participación comunitaria y reflexión sobre valores éticos y cívicos compartidos.",
+          "facts": [
+            "El Mes de los Valores Filipinos promueve conductas cotidianas, solidaridad y reflexión cultural; es una campaña cívica, no el aniversario de una batalla o un dirigente.",
+            "La Proclamación n.º 479, firmada por Fidel V. Ramos el 7 de octubre de 1994, estableció noviembre y asignó la iniciativa al Kabisig People Movement.",
+            "El decreto cita el Programa de Recuperación Moral de la Proclamación n.º 62 de 1992: la campaña anterior y el reconocimiento del mes en 1994 son etapas distintas."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : le Mois des valeurs philippines vient d'un programme civique",
+          "origin": "Le Mois des valeurs philippines encourage la solidarité, le comportement citoyen et la réflexion sur les valeurs culturelles, plutôt que de célébrer un événement militaire. La proclamation nº 479, signée le 7 octobre 1994 par Fidel V. Ramos, a choisi novembre et placé l'observance sous l'égide du Kabisig People Movement. Le décret renvoie au programme de renouveau moral de la proclamation nº 62 de 1992 : ce programme et l'institution du mois en 1994 sont deux étapes distinctes.",
+          "promoter": "Kabisig People Movement and participating public institutions sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Favoriser la participation des communautés et la réflexion sur les valeurs civiques.",
+          "facts": [
+            "Le Mois des valeurs philippines encourage la solidarité, le comportement citoyen et la réflexion sur les valeurs culturelles, plutôt que de célébrer un événement militaire.",
+            "La proclamation nº 479, signée le 7 octobre 1994 par Fidel V. Ramos, a choisi novembre et placé l'observance sous l'égide du Kabisig People Movement.",
+            "Le décret renvoie au programme de renouveau moral de la proclamation nº 62 de 1992 : ce programme et l'institution du mois en 1994 sont deux étapes distinctes."
+          ]
+        },
+        "de": {
+          "heading": "November: Der philippinische Werte-Monat entstand aus einem Bürgerprogramm",
+          "origin": "Der Monat der philippinischen Werte beschäftigt sich mit Alltagshandeln, Solidarität und kulturellen Werten; es handelt sich um eine Bürgerinitiative, nicht um ein Schlachtenjubiläum. Präsident Fidel V. Ramos erklärte mit Proklamation Nr. 479 vom 7. Oktober 1994 den November zum jährlichen Aktionsmonat unter der Ägide der Kabisig People Movement. Die Verordnung verweist auf das Moral Recovery Program der Proklamation Nr. 62 von 1992; der frühere Ansatz und die formale Monatsfestlegung 1994 sind zu trennen.",
+          "promoter": "Kabisig People Movement and participating public institutions sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Gesellschaftliche Teilhabe und Nachdenken über gemeinsame ethische und bürgerliche Werte fördern.",
+          "facts": [
+            "Der Monat der philippinischen Werte beschäftigt sich mit Alltagshandeln, Solidarität und kulturellen Werten; es handelt sich um eine Bürgerinitiative, nicht um ein Schlachtenjubiläum.",
+            "Präsident Fidel V. Ramos erklärte mit Proklamation Nr. 479 vom 7. Oktober 1994 den November zum jährlichen Aktionsmonat unter der Ägide der Kabisig People Movement.",
+            "Die Verordnung verweist auf das Moral Recovery Program der Proklamation Nr. 62 von 1992; der frühere Ansatz und die formale Monatsfestlegung 1994 sind zu trennen."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: o Mês dos Valores Filipinos nasceu de um programa cívico",
+          "origin": "O Mês dos Valores Filipinos promove comportamentos responsáveis, solidariedade e reflexão cultural; é uma campanha cívica, não um aniversário militar. A Proclamação n.º 479, assinada por Fidel V. Ramos em 7 de outubro de 1994, instituiu novembro com apoio do Kabisig People Movement. A norma remete para o Programa de Recuperação Moral da Proclamação n.º 62 de 1992; a campanha anterior e o mês de 1994 são etapas diferentes.",
+          "promoter": "Kabisig People Movement and participating public institutions são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Incentivar participação comunitária e reflexão sobre valores éticos e cívicos partilhados.",
+          "facts": [
+            "O Mês dos Valores Filipinos promove comportamentos responsáveis, solidariedade e reflexão cultural; é uma campanha cívica, não um aniversário militar.",
+            "A Proclamação n.º 479, assinada por Fidel V. Ramos em 7 de outubro de 1994, instituiu novembro com apoio do Kabisig People Movement.",
+            "A norma remete para o Programa de Recuperação Moral da Proclamação n.º 62 de 1992; a campanha anterior e o mês de 1994 são etapas diferentes."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    },
+    {
+      "observanceId": "ph-w13-national-peace-consciousness-month",
+      "country": "PH",
+      "observanceDate": "SEPTEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2004,
+      "firstObservedYear": null,
+      "originClusterId": "PH_PEACE_WEEK_2002_MONTH_2004",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2004/proc_675_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "September: Peace Consciousness Month replaced an earlier week",
+          "origin": "Peace Consciousness Month in the Philippines encourages understanding of nonviolence, reconciliation and the difficult process of addressing armed conflicts and their social causes. Proclamation No. 675 of 20 January 2004 declared every September the national month and superseded Proclamation No. 161 of 2002, which had prescribed a Peace Consciousness Week from 28 February to 6 March. The presidential text referred to several September peace milestones, including the 1996 agreement with the Moro National Liberation Front, and assigned coordination to the presidential peace-process office.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Build knowledge of peaceful conflict resolution and encourage informed participation in peace initiatives.",
+          "facts": [
+            "Peace Consciousness Month in the Philippines encourages understanding of nonviolence, reconciliation and the difficult process of addressing armed conflicts and their social causes.",
+            "Proclamation No. 675 of 20 January 2004 declared every September the national month and superseded Proclamation No. 161 of 2002, which had prescribed a Peace Consciousness Week from 28 February to 6 March.",
+            "The presidential text referred to several September peace milestones, including the 1996 agreement with the Moro National Liberation Front, and assigned coordination to the presidential peace-process office."
+          ]
+        },
+        "it": {
+          "heading": "Settembre: il Mese della consapevolezza per la pace sostituì una settimana",
+          "origin": "Il Mese della consapevolezza per la pace promuove conoscenza della nonviolenza, della riconciliazione e delle cause sociali dei conflitti armati nelle Filippine. La Proclamazione n. 675 del 20 gennaio 2004 ha istituito settembre e sostituito la Proclamazione n. 161 del 2002, che prevedeva una settimana dal 28 febbraio al 6 marzo. Il decreto richiama eventi di pace avvenuti in settembre, fra cui l'accordo del 1996 con il Moro National Liberation Front, e affida il coordinamento all'ufficio presidenziale per la pace.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Sostenere la conoscenza dei percorsi di pace e la partecipazione informata alla prevenzione dei conflitti.",
+          "facts": [
+            "Il Mese della consapevolezza per la pace promuove conoscenza della nonviolenza, della riconciliazione e delle cause sociali dei conflitti armati nelle Filippine.",
+            "La Proclamazione n. 675 del 20 gennaio 2004 ha istituito settembre e sostituito la Proclamazione n. 161 del 2002, che prevedeva una settimana dal 28 febbraio al 6 marzo.",
+            "Il decreto richiama eventi di pace avvenuti in settembre, fra cui l'accordo del 1996 con il Moro National Liberation Front, e affida il coordinamento all'ufficio presidenziale per la pace."
+          ]
+        },
+        "es": {
+          "heading": "Septiembre: el Mes de la Conciencia por la Paz sustituyó a una semana",
+          "origin": "El Mes de la Conciencia por la Paz fomenta comprensión de la no violencia, la reconciliación y las causas sociales de los conflictos armados en Filipinas. La Proclamación n.º 675 del 20 de enero de 2004 estableció septiembre y derogó la Proclamación n.º 161 de 2002, que había previsto una semana del 28 de febrero al 6 de marzo. El decreto cita hitos de paz en septiembre, incluido el acuerdo de 1996 con el Frente Moro de Liberación Nacional, y encomienda la coordinación a la oficina presidencial de paz.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Promover conocimiento de resolución pacífica de conflictos y participación en iniciativas de paz.",
+          "facts": [
+            "El Mes de la Conciencia por la Paz fomenta comprensión de la no violencia, la reconciliación y las causas sociales de los conflictos armados en Filipinas.",
+            "La Proclamación n.º 675 del 20 de enero de 2004 estableció septiembre y derogó la Proclamación n.º 161 de 2002, que había previsto una semana del 28 de febrero al 6 de marzo.",
+            "El decreto cita hitos de paz en septiembre, incluido el acuerdo de 1996 con el Frente Moro de Liberación Nacional, y encomienda la coordinación a la oficina presidencial de paz."
+          ]
+        },
+        "fr": {
+          "heading": "Septembre : le Mois de la sensibilisation à la paix a remplacé une semaine",
+          "origin": "Le Mois de sensibilisation à la paix encourage la non-violence, la réconciliation et la compréhension des causes sociales des conflits armés aux Philippines. La proclamation nº 675 du 20 janvier 2004 a institué septembre en remplacement de la proclamation nº 161 de 2002, qui prévoyait une semaine du 28 février au 6 mars. Le texte cite des jalons de paix de septembre, dont l'accord de 1996 avec le Front de libération nationale moro, et confie la coordination au bureau présidentiel pour la paix.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Développer la connaissance de la résolution pacifique des conflits et l'engagement citoyen.",
+          "facts": [
+            "Le Mois de sensibilisation à la paix encourage la non-violence, la réconciliation et la compréhension des causes sociales des conflits armés aux Philippines.",
+            "La proclamation nº 675 du 20 janvier 2004 a institué septembre en remplacement de la proclamation nº 161 de 2002, qui prévoyait une semaine du 28 février au 6 mars.",
+            "Le texte cite des jalons de paix de septembre, dont l'accord de 1996 avec le Front de libération nationale moro, et confie la coordination au bureau présidentiel pour la paix."
+          ]
+        },
+        "de": {
+          "heading": "September: Der Friedensbewusstseinsmonat ersetzte eine Woche",
+          "origin": "Der philippinische Friedensbewusstseinsmonat fördert Wissen über Gewaltfreiheit, Versöhnung und die sozialen Ursachen bewaffneter Konflikte. Proklamation Nr. 675 vom 20. Januar 2004 bestimmte September als Friedensmonat und ersetzte Proklamation Nr. 161 von 2002 über die Woche vom 28. Februar bis 6. März. Die Verordnung nennt Friedensereignisse im September, darunter das Abkommen von 1996 mit der Moro National Liberation Front, und beauftragt das Präsidialbüro für Friedensprozesse.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Wissen über friedliche Konfliktlösung und sachkundige Beteiligung an Friedensinitiativen fördern.",
+          "facts": [
+            "Der philippinische Friedensbewusstseinsmonat fördert Wissen über Gewaltfreiheit, Versöhnung und die sozialen Ursachen bewaffneter Konflikte.",
+            "Proklamation Nr. 675 vom 20. Januar 2004 bestimmte September als Friedensmonat und ersetzte Proklamation Nr. 161 von 2002 über die Woche vom 28. Februar bis 6. März.",
+            "Die Verordnung nennt Friedensereignisse im September, darunter das Abkommen von 1996 mit der Moro National Liberation Front, und beauftragt das Präsidialbüro für Friedensprozesse."
+          ]
+        },
+        "pt": {
+          "heading": "Setembro: o Mês da Consciência pela Paz substituiu uma semana",
+          "origin": "O Mês da Consciência pela Paz incentiva a não violência, a reconciliação e a compreensão das causas sociais dos conflitos armados. A Proclamação n.º 675 de 20 de janeiro de 2004 instituiu setembro e substituiu a Proclamação n.º 161 de 2002, que previa a semana de 28 de fevereiro a 6 de março. O texto cita marcos de paz em setembro, incluindo o acordo de 1996 com a Frente Moro de Libertação Nacional, e atribui a coordenação ao gabinete presidencial da paz.",
+          "promoter": "Office of the Presidential Adviser on the Peace Process são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Promover conhecimento sobre resolução pacífica de conflitos e participação nas iniciativas de paz.",
+          "facts": [
+            "O Mês da Consciência pela Paz incentiva a não violência, a reconciliação e a compreensão das causas sociais dos conflitos armados.",
+            "A Proclamação n.º 675 de 20 de janeiro de 2004 instituiu setembro e substituiu a Proclamação n.º 161 de 2002, que previa a semana de 28 de fevereiro a 6 de março.",
+            "O texto cita marcos de paz em setembro, incluindo o acordo de 1996 com a Frente Moro de Libertação Nacional, e atribui a coordenação ao gabinete presidencial da paz."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    },
+    {
+      "observanceId": "ph-w13-women-s-role-in-history-month",
+      "country": "PH",
+      "observanceDate": "MARCH",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1988,
+      "firstObservedYear": null,
+      "originClusterId": "PH_WOMENS_HISTORY_MONTH_1988_SEPARATE_WOMENS_DAY_1990",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1988/proc_227_1988.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "March: Women’s Role in History Month and overlooked contributions",
+          "origin": "Women's Role in History Month highlights the contributions of Filipino women across social classes, faiths and communities, including work in education, politics, social reform and voluntary organizations. Proclamation No. 227 of 17 March 1988 called for observance throughout March and explicitly cited House Resolution No. 20, which proposed the annual history focus. The National Commission on the Role of Filipino Women was designated secretariat; the month-long historical recognition is not identical to the separate March 8 National Women's Day established by law in 1990.",
+          "promoter": "National Commission on the Role of Filipino Women are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Recover and teach women's recorded and overlooked contributions to Philippine history.",
+          "facts": [
+            "Women's Role in History Month highlights the contributions of Filipino women across social classes, faiths and communities, including work in education, politics, social reform and voluntary organizations.",
+            "Proclamation No. 227 of 17 March 1988 called for observance throughout March and explicitly cited House Resolution No. 20, which proposed the annual history focus.",
+            "The National Commission on the Role of Filipino Women was designated secretariat; the month-long historical recognition is not identical to the separate March 8 National Women's Day established by law in 1990."
+          ]
+        },
+        "it": {
+          "heading": "Marzo: il ruolo delle donne nella storia filippina",
+          "origin": "Il Mese del ruolo delle donne nella storia valorizza il contributo delle filippine di diverse classi, fedi e comunità, nell'educazione, nella politica, nella riforma sociale e nel volontariato. La Proclamazione n. 227 del 17 marzo 1988 ha invitato a celebrare l'intero mese e richiamato la Risoluzione n. 20 della Camera, che proponeva l'iniziativa annuale. La Commissione nazionale sul ruolo delle donne fu designata segreteria; il mese storico non coincide con la distinta Giornata nazionale della donna dell'8 marzo, istituita per legge nel 1990.",
+          "promoter": "National Commission on the Role of Filipino Women sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Ricostruire e raccontare i contributi documentati e dimenticati delle donne alla storia filippina.",
+          "facts": [
+            "Il Mese del ruolo delle donne nella storia valorizza il contributo delle filippine di diverse classi, fedi e comunità, nell'educazione, nella politica, nella riforma sociale e nel volontariato.",
+            "La Proclamazione n. 227 del 17 marzo 1988 ha invitato a celebrare l'intero mese e richiamato la Risoluzione n. 20 della Camera, che proponeva l'iniziativa annuale.",
+            "La Commissione nazionale sul ruolo delle donne fu designata segreteria; il mese storico non coincide con la distinta Giornata nazionale della donna dell'8 marzo, istituita per legge nel 1990."
+          ]
+        },
+        "es": {
+          "heading": "Marzo: el papel de las mujeres en la historia de Filipinas",
+          "origin": "El Mes del Papel de las Mujeres en la Historia destaca las aportaciones de filipinas de distintas clases, creencias y comunidades a la educación, política y vida social. La Proclamación n.º 227 del 17 de marzo de 1988 pidió conmemorar todo marzo y citó la Resolución n.º 20 de la Cámara, que había propuesto la iniciativa. La Comisión Nacional sobre el Papel de las Mujeres fue designada secretaría; el mes no equivale al Día Nacional de la Mujer del 8 de marzo, establecido por ley en 1990.",
+          "promoter": "National Commission on the Role of Filipino Women figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Recuperar las contribuciones conocidas y olvidadas de las mujeres a la historia filipina.",
+          "facts": [
+            "El Mes del Papel de las Mujeres en la Historia destaca las aportaciones de filipinas de distintas clases, creencias y comunidades a la educación, política y vida social.",
+            "La Proclamación n.º 227 del 17 de marzo de 1988 pidió conmemorar todo marzo y citó la Resolución n.º 20 de la Cámara, que había propuesto la iniciativa.",
+            "La Comisión Nacional sobre el Papel de las Mujeres fue designada secretaría; el mes no equivale al Día Nacional de la Mujer del 8 de marzo, establecido por ley en 1990."
+          ]
+        },
+        "fr": {
+          "heading": "Mars : le rôle des femmes dans l'histoire des Philippines",
+          "origin": "Le Mois du rôle des femmes dans l'histoire valorise leurs contributions dans toutes les classes, religions et communautés, dans l'éducation, la politique et les réformes. La proclamation nº 227 du 17 mars 1988 a appelé à observer tout le mois et cité la résolution nº 20 de la Chambre qui proposait cette commémoration. La Commission nationale sur le rôle des femmes a été chargée de la coordination; ce mois diffère de la Journée nationale du 8 mars créée par une loi de 1990.",
+          "promoter": "National Commission on the Role of Filipino Women sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Transmettre les contributions documentées ou oubliées des femmes à l'histoire du pays.",
+          "facts": [
+            "Le Mois du rôle des femmes dans l'histoire valorise leurs contributions dans toutes les classes, religions et communautés, dans l'éducation, la politique et les réformes.",
+            "La proclamation nº 227 du 17 mars 1988 a appelé à observer tout le mois et cité la résolution nº 20 de la Chambre qui proposait cette commémoration.",
+            "La Commission nationale sur le rôle des femmes a été chargée de la coordination; ce mois diffère de la Journée nationale du 8 mars créée par une loi de 1990."
+          ]
+        },
+        "de": {
+          "heading": "März: Frauen und ihre Rolle in der philippinischen Geschichte",
+          "origin": "Der Monat über die Rolle der Frauen in der Geschichte würdigt philippinische Frauen unterschiedlicher Herkunft in Bildung, Politik, sozialer Reform und ehrenamtlicher Arbeit. Proklamation Nr. 227 vom 17. März 1988 rief zur Begehung im gesamten März auf und verwies auf die Resolution Nr. 20 des Repräsentantenhauses. Die nationale Kommission über die Rolle der Frauen übernahm die Koordination; der Monat unterscheidet sich vom gesetzlich 1990 anerkannten Frauentag am 8. März.",
+          "promoter": "National Commission on the Role of Filipino Women sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Überlieferte und übersehene Beiträge von Frauen zur philippinischen Geschichte sichtbar machen.",
+          "facts": [
+            "Der Monat über die Rolle der Frauen in der Geschichte würdigt philippinische Frauen unterschiedlicher Herkunft in Bildung, Politik, sozialer Reform und ehrenamtlicher Arbeit.",
+            "Proklamation Nr. 227 vom 17. März 1988 rief zur Begehung im gesamten März auf und verwies auf die Resolution Nr. 20 des Repräsentantenhauses.",
+            "Die nationale Kommission über die Rolle der Frauen übernahm die Koordination; der Monat unterscheidet sich vom gesetzlich 1990 anerkannten Frauentag am 8. März."
+          ]
+        },
+        "pt": {
+          "heading": "Março: o papel das mulheres na história das Filipinas",
+          "origin": "O Mês do Papel das Mulheres na História destaca as contribuições de filipinas de várias classes, religiões e comunidades para educação, política e reformas. A Proclamação n.º 227 de 17 de março de 1988 convocou atividades durante março e citou a Resolução n.º 20 da Câmara dos Representantes. A Comissão Nacional sobre o Papel das Mulheres foi nomeada para coordenar; o mês é distinto do Dia Nacional da Mulher de 8 de março, criado por lei em 1990.",
+          "promoter": "National Commission on the Role of Filipino Women são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Divulgar contribuições conhecidas e esquecidas das mulheres para a história filipina.",
+          "facts": [
+            "O Mês do Papel das Mulheres na História destaca as contribuições de filipinas de várias classes, religiões e comunidades para educação, política e reformas.",
+            "A Proclamação n.º 227 de 17 de março de 1988 convocou atividades durante março e citou a Resolução n.º 20 da Câmara dos Representantes.",
+            "A Comissão Nacional sobre o Papel das Mulheres foi nomeada para coordenar; o mês é distinto do Dia Nacional da Mulher de 8 de março, criado por lei em 1990."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    },
+    {
+      "observanceId": "ph-w13-buwan-ng-wikang-pambansa",
+      "country": "PH",
+      "observanceDate": "AUGUST",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1997,
+      "firstObservedYear": null,
+      "originClusterId": "PH_LEGISLATIVE_MONTH_1997",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1997/proc_1041_1997.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "August: a national month for the Filipino language",
+          "origin": "Buwan ng Wikang Pambansa celebrates Filipino as a national language and invites schools, cultural groups and communities to reflect on language, communication and national identity. President Fidel Ramos signed Proclamation No. 1041 on 15 July 1997, establishing annual celebrations for the complete period 1–31 August, not a single national-language day. The proclamation points to earlier constitutional recognition of a national language and to 19 August, the birthday of former President Manuel Quezon, who is often called the Father of the National Language.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Encourage the use, development and understanding of Filipino while acknowledging the nation's linguistic diversity.",
+          "facts": [
+            "Buwan ng Wikang Pambansa celebrates Filipino as a national language and invites schools, cultural groups and communities to reflect on language, communication and national identity.",
+            "President Fidel Ramos signed Proclamation No. 1041 on 15 July 1997, establishing annual celebrations for the complete period 1–31 August, not a single national-language day.",
+            "The proclamation points to earlier constitutional recognition of a national language and to 19 August, the birthday of former President Manuel Quezon, who is often called the Father of the National Language."
+          ]
+        },
+        "it": {
+          "heading": "Agosto: un mese nazionale dedicato alla lingua filippina",
+          "origin": "Il Buwan ng Wikang Pambansa celebra il filippino come lingua nazionale e invita scuole, associazioni e comunità a riflettere su comunicazione e identità. Fidel Ramos ha firmato la Proclamazione n. 1041 il 15 luglio 1997, istituendo la celebrazione annuale per tutto il periodo 1–31 agosto, non per una sola giornata. Il provvedimento richiama il riconoscimento della lingua nazionale nelle costituzioni precedenti e il 19 agosto, compleanno di Manuel Quezon, spesso chiamato padre della lingua nazionale.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Promuovere conoscenza e sviluppo del filippino nel rispetto della diversità linguistica del paese.",
+          "facts": [
+            "Il Buwan ng Wikang Pambansa celebra il filippino come lingua nazionale e invita scuole, associazioni e comunità a riflettere su comunicazione e identità.",
+            "Fidel Ramos ha firmato la Proclamazione n. 1041 il 15 luglio 1997, istituendo la celebrazione annuale per tutto il periodo 1–31 agosto, non per una sola giornata.",
+            "Il provvedimento richiama il riconoscimento della lingua nazionale nelle costituzioni precedenti e il 19 agosto, compleanno di Manuel Quezon, spesso chiamato padre della lingua nazionale."
+          ]
+        },
+        "es": {
+          "heading": "Agosto: un mes nacional dedicado a la lengua filipina",
+          "origin": "Buwan ng Wikang Pambansa celebra el filipino como lengua nacional e invita a escuelas y comunidades a reflexionar sobre comunicación e identidad. Fidel Ramos firmó la Proclamación n.º 1041 el 15 de julio de 1997 para celebrar cada año del 1 al 31 de agosto, no un único día. La norma cita constituciones anteriores y el 19 de agosto, cumpleaños de Manuel Quezon, conocido como padre de la lengua nacional.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Fomentar uso y conocimiento del filipino respetando la diversidad lingüística nacional.",
+          "facts": [
+            "Buwan ng Wikang Pambansa celebra el filipino como lengua nacional e invita a escuelas y comunidades a reflexionar sobre comunicación e identidad.",
+            "Fidel Ramos firmó la Proclamación n.º 1041 el 15 de julio de 1997 para celebrar cada año del 1 al 31 de agosto, no un único día.",
+            "La norma cita constituciones anteriores y el 19 de agosto, cumpleaños de Manuel Quezon, conocido como padre de la lengua nacional."
+          ]
+        },
+        "fr": {
+          "heading": "Août : un mois national consacré à la langue filipino",
+          "origin": "Le Buwan ng Wikang Pambansa célèbre le filipino comme langue nationale et invite écoles et communautés à réfléchir à la communication et à l'identité. Fidel Ramos a signé la proclamation nº 1041 le 15 juillet 1997, instituant chaque année toute la période du 1er au 31 août plutôt qu'un seul jour. Le texte rappelle les constitutions antérieures et le 19 août, anniversaire de Manuel Quezon, considéré comme le père de la langue nationale.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Favoriser l'usage et la connaissance du filipino dans le respect de la diversité linguistique.",
+          "facts": [
+            "Le Buwan ng Wikang Pambansa célèbre le filipino comme langue nationale et invite écoles et communautés à réfléchir à la communication et à l'identité.",
+            "Fidel Ramos a signé la proclamation nº 1041 le 15 juillet 1997, instituant chaque année toute la période du 1er au 31 août plutôt qu'un seul jour.",
+            "Le texte rappelle les constitutions antérieures et le 19 août, anniversaire de Manuel Quezon, considéré comme le père de la langue nationale."
+          ]
+        },
+        "de": {
+          "heading": "August: Ein nationaler Monat für die philippinische Sprache",
+          "origin": "Der Buwan ng Wikang Pambansa feiert Filipino als Nationalsprache und lädt Schulen und Gemeinschaften ein, über Sprache und Identität nachzudenken. Präsident Fidel Ramos unterzeichnete am 15. Juli 1997 die Proklamation Nr. 1041 für den gesamten Zeitraum vom 1. bis 31. August statt für einen einzelnen Sprachentag. Die Verordnung verweist auf frühere Verfassungen und den 19. August, den Geburtstag des als Vater der Nationalsprache bekannten Manuel Quezon.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Gebrauch und Entwicklung von Filipino unter Achtung der sprachlichen Vielfalt fördern.",
+          "facts": [
+            "Der Buwan ng Wikang Pambansa feiert Filipino als Nationalsprache und lädt Schulen und Gemeinschaften ein, über Sprache und Identität nachzudenken.",
+            "Präsident Fidel Ramos unterzeichnete am 15. Juli 1997 die Proklamation Nr. 1041 für den gesamten Zeitraum vom 1. bis 31. August statt für einen einzelnen Sprachentag.",
+            "Die Verordnung verweist auf frühere Verfassungen und den 19. August, den Geburtstag des als Vater der Nationalsprache bekannten Manuel Quezon."
+          ]
+        },
+        "pt": {
+          "heading": "Agosto: um mês nacional dedicado à língua filipina",
+          "origin": "O Buwan ng Wikang Pambansa celebra o filipino como língua nacional e convida escolas e comunidades a refletir sobre comunicação e identidade. Fidel Ramos assinou a Proclamação n.º 1041 em 15 de julho de 1997, instituindo a celebração anual de 1 a 31 de agosto em vez de um só dia. A norma recorda constituições anteriores e 19 de agosto, aniversário de Manuel Quezon, conhecido como pai da língua nacional.",
+          "promoter": "Komisyon sa Wikang Filipino, schools and language, cultural and civic organizations são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Promover uso e desenvolvimento do filipino, respeitando a diversidade linguística do país.",
+          "facts": [
+            "O Buwan ng Wikang Pambansa celebra o filipino como língua nacional e convida escolas e comunidades a refletir sobre comunicação e identidade.",
+            "Fidel Ramos assinou a Proclamação n.º 1041 em 15 de julho de 1997, instituindo a celebração anual de 1 a 31 de agosto em vez de um só dia.",
+            "A norma recorda constituições anteriores e 19 de agosto, aniversário de Manuel Quezon, conhecido como pai da língua nacional."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    },
+    {
+      "observanceId": "ph-w13-national-rice-awareness-month",
+      "country": "PH",
+      "observanceDate": "NOVEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2004,
+      "firstObservedYear": null,
+      "originClusterId": "PH_LEGISLATIVE_MONTH_2004",
+      "legalStatus": "PH_STATUTORY_MONTH_OBSERVANCE_NOT_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2004/proc_524_2004.html",
+        "https://issuances-library.senate.gov.ph/executive-issuance/proclamation-no-524-s-2004",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "November: Rice Awareness Month links food and public wellbeing",
+          "origin": "National Rice Awareness Month in the Philippines focuses on the importance of rice for food, farming livelihoods and efforts to address poverty and malnutrition. President Gloria Macapagal-Arroyo signed Proclamation No. 524 on 5 January 2004, aligning the national campaign with the UN's International Year of Rice in 2004 and designating November every year. The decree also notes the November anniversary of the Philippine Rice Research Institute, founded under Executive Order No. 1061 in 1985; this research-institution milestone is not the same event as the new annual month.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute are identified as leading or participating institutions in implementing the Philippine national observance and its public-awareness activities.",
+          "purpose": "Promote awareness of rice production, food security, nutrition and the economic challenges faced by farmers.",
+          "facts": [
+            "National Rice Awareness Month in the Philippines focuses on the importance of rice for food, farming livelihoods and efforts to address poverty and malnutrition.",
+            "President Gloria Macapagal-Arroyo signed Proclamation No. 524 on 5 January 2004, aligning the national campaign with the UN's International Year of Rice in 2004 and designating November every year.",
+            "The decree also notes the November anniversary of the Philippine Rice Research Institute, founded under Executive Order No. 1061 in 1985; this research-institution milestone is not the same event as the new annual month."
+          ]
+        },
+        "it": {
+          "heading": "Novembre: il Mese del riso collega alimentazione e benessere",
+          "origin": "Il Mese nazionale della consapevolezza del riso nelle Filippine richiama il ruolo del riso nell'alimentazione, nel lavoro agricolo e nella lotta a povertà e malnutrizione. La presidente Gloria Macapagal-Arroyo ha firmato la Proclamazione n. 524 il 5 gennaio 2004, collegando la campagna all'Anno internazionale del riso ONU del 2004 e scegliendo ogni novembre. Il decreto richiama anche l'anniversario di novembre del Philippine Rice Research Institute, fondato con l'Ordine esecutivo n. 1061 del 1985: la nascita dell'istituto non coincide con la giornata del 2004.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute sono gli enti guida o partecipanti indicati per realizzare la ricorrenza nazionale e le iniziative di sensibilizzazione.",
+          "purpose": "Sensibilizzare su produzione del riso, sicurezza alimentare, nutrizione e sfide degli agricoltori.",
+          "facts": [
+            "Il Mese nazionale della consapevolezza del riso nelle Filippine richiama il ruolo del riso nell'alimentazione, nel lavoro agricolo e nella lotta a povertà e malnutrizione.",
+            "La presidente Gloria Macapagal-Arroyo ha firmato la Proclamazione n. 524 il 5 gennaio 2004, collegando la campagna all'Anno internazionale del riso ONU del 2004 e scegliendo ogni novembre.",
+            "Il decreto richiama anche l'anniversario di novembre del Philippine Rice Research Institute, fondato con l'Ordine esecutivo n. 1061 del 1985: la nascita dell'istituto non coincide con la giornata del 2004."
+          ]
+        },
+        "es": {
+          "heading": "Noviembre: el Mes del Arroz relaciona alimentación y bienestar",
+          "origin": "El Mes Nacional de Conciencia sobre el Arroz destaca su importancia para la alimentación, el campo y la lucha contra pobreza y malnutrición. Gloria Macapagal-Arroyo firmó la Proclamación n.º 524 el 5 de enero de 2004, vinculando la campaña al Año Internacional del Arroz de la ONU y fijando cada noviembre. El texto recuerda el aniversario en noviembre del Instituto Filipino de Investigación del Arroz, creado por Orden Ejecutiva n.º 1061 de 1985; no equivale al mes creado en 2004.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute figuran como instituciones principales o participantes en la celebración nacional y sus actividades educativas.",
+          "purpose": "Concienciar sobre producción de arroz, seguridad alimentaria, nutrición y retos del sector agrícola.",
+          "facts": [
+            "El Mes Nacional de Conciencia sobre el Arroz destaca su importancia para la alimentación, el campo y la lucha contra pobreza y malnutrición.",
+            "Gloria Macapagal-Arroyo firmó la Proclamación n.º 524 el 5 de enero de 2004, vinculando la campaña al Año Internacional del Arroz de la ONU y fijando cada noviembre.",
+            "El texto recuerda el aniversario en noviembre del Instituto Filipino de Investigación del Arroz, creado por Orden Ejecutiva n.º 1061 de 1985; no equivale al mes creado en 2004."
+          ]
+        },
+        "fr": {
+          "heading": "Novembre : le Mois du riz relie alimentation et bien-être",
+          "origin": "Le Mois national du riz rappelle son importance pour l'alimentation, les moyens de subsistance ruraux et la lutte contre la pauvreté et la malnutrition. Gloria Macapagal-Arroyo a signé la proclamation nº 524 le 5 janvier 2004, associant la campagne à l'Année internationale du riz de l'ONU et retenant chaque novembre. Le décret mentionne aussi l'anniversaire de l'Institut philippin de recherche sur le riz, créé par l'ordre exécutif nº 1061 de 1985, un événement distinct du mois de 2004.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute sont les organismes chargés de coordonner ou de soutenir cette commémoration nationale et ses activités publiques.",
+          "purpose": "Sensibiliser à la production rizicole, à la nutrition, à la sécurité alimentaire et aux enjeux agricoles.",
+          "facts": [
+            "Le Mois national du riz rappelle son importance pour l'alimentation, les moyens de subsistance ruraux et la lutte contre la pauvreté et la malnutrition.",
+            "Gloria Macapagal-Arroyo a signé la proclamation nº 524 le 5 janvier 2004, associant la campagne à l'Année internationale du riz de l'ONU et retenant chaque novembre.",
+            "Le décret mentionne aussi l'anniversaire de l'Institut philippin de recherche sur le riz, créé par l'ordre exécutif nº 1061 de 1985, un événement distinct du mois de 2004."
+          ]
+        },
+        "de": {
+          "heading": "November: Der Reis-Monat verbindet Ernährung und gesellschaftliches Wohlergehen",
+          "origin": "Der nationale Reis-Monat zeigt die Bedeutung von Reis für Ernährung, bäuerliche Einkommen und die Bekämpfung von Armut und Mangelernährung. Gloria Macapagal-Arroyo unterzeichnete am 5. Januar 2004 die Proklamation Nr. 524 und verknüpfte den November mit dem UN-Jahr des Reises 2004. Die Verordnung nennt das Novemberjubiläum des Philippine Rice Research Institute, das 1985 per Executive Order Nr. 1061 geschaffen wurde; dieses Ereignis ist vom Monat 2004 zu trennen.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute sind als leitende oder beteiligte Einrichtungen für den nationalen Aktionsmonat und seine Öffentlichkeitsarbeit benannt.",
+          "purpose": "Bewusstsein für Reisproduktion, Ernährungssicherheit und die Herausforderungen landwirtschaftlicher Betriebe stärken.",
+          "facts": [
+            "Der nationale Reis-Monat zeigt die Bedeutung von Reis für Ernährung, bäuerliche Einkommen und die Bekämpfung von Armut und Mangelernährung.",
+            "Gloria Macapagal-Arroyo unterzeichnete am 5. Januar 2004 die Proklamation Nr. 524 und verknüpfte den November mit dem UN-Jahr des Reises 2004.",
+            "Die Verordnung nennt das Novemberjubiläum des Philippine Rice Research Institute, das 1985 per Executive Order Nr. 1061 geschaffen wurde; dieses Ereignis ist vom Monat 2004 zu trennen."
+          ]
+        },
+        "pt": {
+          "heading": "Novembro: o Mês do Arroz liga alimentação e bem-estar",
+          "origin": "O Mês Nacional do Arroz destaca a sua importância para alimentação, comunidades agrícolas e combate à pobreza e desnutrição. Gloria Macapagal-Arroyo assinou a Proclamação n.º 524 em 5 de janeiro de 2004, ligando novembro ao Ano Internacional do Arroz da ONU de 2004. O decreto recorda o aniversário em novembro do Instituto Filipino de Investigação do Arroz, criado pela Ordem Executiva n.º 1061 de 1985, distinto do mês instituído em 2004.",
+          "promoter": "Department of Agriculture and Philippine Rice Research Institute são as instituições principais ou participantes na realização da comemoração e nas atividades públicas.",
+          "purpose": "Promover conhecimento sobre produção de arroz, segurança alimentar, nutrição e desafios agrícolas.",
+          "facts": [
+            "O Mês Nacional do Arroz destaca a sua importância para alimentação, comunidades agrícolas e combate à pobreza e desnutrição.",
+            "Gloria Macapagal-Arroyo assinou a Proclamação n.º 524 em 5 de janeiro de 2004, ligando novembro ao Ano Internacional do Arroz da ONU de 2004.",
+            "O decreto recorda o aniversário em novembro do Instituto Filipino de Investigação do Arroz, criado pela Ordem Executiva n.º 1061 de 1985, distinto do mês instituído em 2004."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original Proclamation or related government legislative text read alongside Philippine NCCA current-date list. Prior precursor and national-month origin separated, qualified human historical and native-language review not yet done."
+    }
+  ]
+}

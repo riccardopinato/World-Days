@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "MOIS_OFFICIAL_RESEARCH_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_REVIEW",
+  "count": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-railway-day-in-korea",
+      "country": "KR",
+      "observanceDate": "06-28",
+      "introducedYear": 1964,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_RAILWAYS_GYEONGIN_1899_CALENDAR_SHIFT_2018",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 June: Korea's Railway Day and a changing commemorative calendar",
+          "origin": "Korea's Railway Day reviews the history and future of rail transport. The Ministry of the Interior traces an earlier commemorative tradition to 1937, when the opening of the Gyeongin railway line on 18 September 1899 was used as a historical reference. The modern legal holiday rules designated 18 September Railway Day by presidential regulation on 26 November 1964; a broader statutory commemorations regulation replaced that rule in March 1973. On 15 May 2018, the government changed the annual date from 18 September to 28 June. The nineteenth-century railway opening and modern commemorative dates must remain distinct.",
+          "promoter": "South Korean state authorities established the legal Railway Day in 1964; the transport ministry now oversees activities.",
+          "purpose": "Reflect on the history of railway development, the work of railway personnel and the future of sustainable mobility.",
+          "facts": [
+            "The Gyeongin line opened on 18 September 1899.",
+            "The 1964 regulation established 18 September as Railway Day.",
+            "In 2018 the government moved the commemoration to 28 June."
+          ]
+        },
+        "it": {
+          "heading": "28 giugno: la Giornata delle ferrovie coreane cambia data",
+          "origin": "La Giornata delle ferrovie coreane invita a ripercorrere passato e futuro del trasporto ferroviario. Il Ministero dell'Interno ricostruisce una precedente tradizione celebrativa risalente al 1937, quando si scelse come riferimento l'apertura della linea Gyeongin del 18 settembre 1899. Una normativa presidenziale del 26 novembre 1964 fissò ufficialmente al 18 settembre il Railway Day; nel marzo 1973 la ricorrenza entrò nel regolamento generale. Il 15 maggio 2018 il governo modificò la data annuale dal 18 settembre al 28 giugno. L'apertura ferroviaria dell'Ottocento e le successive decisioni sul calendario sono tappe distinte.",
+          "promoter": "Le autorità sudcoreane istituirono la giornata legale nel 1964; il ministero dei trasporti ne segue le attività.",
+          "purpose": "Riflettere sulla storia della ferrovia, sul lavoro degli addetti e sul futuro di una mobilità sostenibile.",
+          "facts": [
+            "La linea Gyeongin aprì il 18 settembre 1899.",
+            "La legge del 1964 fissò la data al 18 settembre.",
+            "Nel 2018 la ricorrenza fu spostata al 28 giugno."
+          ]
+        },
+        "es": {
+          "heading": "28 de junio: el Día del Ferrocarril coreano cambia de fecha",
+          "origin": "El Día del Ferrocarril de Corea sirve para reflexionar sobre la historia y el futuro del transporte ferroviario. El Ministerio del Interior sitúa un antecedente conmemorativo en 1937, cuando se tomó como referencia la apertura de la línea Gyeongin el 18 de septiembre de 1899. Un reglamento presidencial del 26 de noviembre de 1964 fijó legalmente el 18 de septiembre como fecha anual, incorporada después a la normativa general de conmemoraciones en marzo de 1973. El 15 de mayo de 2018 el Gobierno trasladó la celebración del 18 de septiembre al 28 de junio. Son decisiones legales distintas de la apertura histórica del ferrocarril.",
+          "promoter": "Las autoridades surcoreanas fijaron la fecha legal en 1964; el ministerio de transportes coordina las actividades.",
+          "purpose": "Recordar la evolución del ferrocarril, reconocer a sus trabajadores y reflexionar sobre la movilidad sostenible.",
+          "facts": [
+            "La línea Gyeongin se inauguró el 18 de septiembre de 1899.",
+            "La normativa de 1964 estableció el Día del Ferrocarril.",
+            "La fecha actual de 28 de junio fue adoptada en 2018."
+          ]
+        },
+        "fr": {
+          "heading": "28 juin : la Journée du chemin de fer change de date en Corée",
+          "origin": "La Journée du chemin de fer en Corée permet d'examiner l'histoire et l'avenir du transport ferroviaire. Le ministère de l'Intérieur fait remonter une tradition commémorative à 1937, lorsque l'ouverture de la ligne Gyeongin le 18 septembre 1899 a servi de référence. Un règlement présidentiel du 26 novembre 1964 a officiellement institué le 18 septembre comme date annuelle, avant son intégration dans le règlement général des commémorations en mars 1973. Le 15 mai 2018, le gouvernement a transféré la journée du 18 septembre au 28 juin. La mise en service du chemin de fer et les différentes décisions légales sont distinctes.",
+          "promoter": "Les autorités sud-coréennes ont institué la journée par règlement en 1964; le ministère des Transports en coordonne l'activité.",
+          "purpose": "Rappeler l'évolution du réseau ferroviaire et le travail de ses professionnels, ainsi que les défis futurs de mobilité.",
+          "facts": [
+            "La ligne Gyeongin a ouvert le 18 septembre 1899.",
+            "Un règlement de 1964 a fixé la journée au 18 septembre.",
+            "Le calendrier a changé pour le 28 juin en 2018."
+          ]
+        },
+        "de": {
+          "heading": "28. Juni: Südkoreas Eisenbahntag mit wechselndem Datum",
+          "origin": "Der südkoreanische Eisenbahntag würdigt Vergangenheit und Zukunft des Schienenverkehrs. Das Innenministerium verweist auf eine Erinnerungstradition von 1937, bei der die Eröffnung der Gyeongin-Bahnstrecke am 18. September 1899 als Bezugspunkt diente. Eine Präsidialverordnung vom 26. November 1964 bestimmte den 18. September als gesetzlichen Jahrestag. Im März 1973 wurde die Verordnung durch eine allgemeine Regelung für Gedenktage ersetzt. Am 15. Mai 2018 verlagerte die Regierung die Feier vom 18. September auf den 28. Juni. Die historische Streckeneröffnung und die späteren Datumsregeln dürfen nicht gleichgesetzt werden.",
+          "promoter": "Die südkoreanische Regierung schuf 1964 den rechtlichen Gedenktag; das Verkehrsministerium betreut das Thema.",
+          "purpose": "Die Entwicklung des Schienenverkehrs und den Beitrag seiner Beschäftigten würdigen sowie nachhaltige Mobilität betrachten.",
+          "facts": [
+            "Die Gyeongin-Strecke wurde am 18. September 1899 eröffnet.",
+            "Der gesetzliche Eisenbahntag entstand durch eine Regelung von 1964.",
+            "Seit 2018 liegt die Feier am 28. Juni."
+          ]
+        },
+        "pt": {
+          "heading": "28 de junho: o Dia dos Caminhos de Ferro muda de data na Coreia",
+          "origin": "O Dia dos Caminhos de Ferro coreanos convida a conhecer a história e o futuro do transporte ferroviário. O Ministério do Interior identifica uma tradição comemorativa desde 1937, que tomava como referência a abertura da linha Gyeongin em 18 de setembro de 1899. Uma regulamentação presidencial de 26 de novembro de 1964 instituiu oficialmente 18 de setembro como data anual, integrada depois nas regras gerais de comemorações em março de 1973. Em 15 de maio de 2018, o governo alterou a data de 18 de setembro para 28 de junho. A abertura da ferrovia e as posteriores decisões legais são marcos diferentes.",
+          "promoter": "As autoridades sul-coreanas criaram o dia legal em 1964; o ministério dos transportes acompanha a comemoração.",
+          "purpose": "Recordar a evolução dos caminhos de ferro e o trabalho dos profissionais, refletindo sobre uma mobilidade sustentável.",
+          "facts": [
+            "A linha Gyeongin foi inaugurada em 18 de setembro de 1899.",
+            "O regulamento de 1964 instituiu o Dia dos Caminhos de Ferro.",
+            "A comemoração passou para 28 de junho em 2018."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean Ministry of Interior statutory chronology and official government commemorative index compared. Both links are from MOIS, so not independent institutional confirmations. AI source-grounded six-locale research; no native/human approval."
+    },
+    {
+      "observanceId": "kr-w10-information-security-day-in-korea",
+      "country": "KR",
+      "observanceDate": "SECOND_WEDNESDAY_JULY",
+      "introducedYear": 2012,
+      "firstObservedYear": null,
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NOT_AUTOMATIC_PUBLIC_HOLIDAY",
+      "originClusterId": "KR_CYBERSECURITY_NATIONAL_AWARENESS",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Second Wednesday of July: South Korea's Information Security Day",
+          "origin": "Information Security Day in South Korea is observed on the second Wednesday of July, rather than on a fixed numerical date. The Ministry of the Interior states that the national government introduced the statutory observance on 22 October 2012 by Presidential Decree No. 24142. Its aim is to bring together national information-security capabilities and encourage safe everyday digital practices. The observance focuses on cyber hygiene, awareness and institutional cooperation; it does not correspond to a specific cyberattack anniversary. The legal recognition year is documented, but an independently confirmed first public ceremony has not been established here.",
+          "promoter": "The South Korean government created the day through a presidential decree; relevant ministries and national security bodies jointly oversee it.",
+          "purpose": "Encourage practical information security, informed digital behaviour and cooperation among institutions and citizens.",
+          "facts": [
+            "The government designated the day on 22 October 2012.",
+            "It falls on the second Wednesday of July each year.",
+            "It promotes cybersecurity awareness rather than recalling a single attack."
+          ]
+        },
+        "it": {
+          "heading": "Secondo mercoledì di luglio: la giornata coreana della sicurezza informatica",
+          "origin": "La Giornata della sicurezza delle informazioni in Corea del Sud cade il secondo mercoledì di luglio, non in una data numerica fissa. Secondo il Ministero dell'Interno, il governo istituì ufficialmente la ricorrenza il 22 ottobre 2012 mediante decreto presidenziale n. 24142. Lo scopo è coordinare le capacità nazionali di protezione digitale e favorire comportamenti sicuri nell'uso quotidiano della tecnologia. La giornata riguarda consapevolezza, prevenzione e collaborazione istituzionale: non è l'anniversario di un singolo attacco informatico. L'anno di riconoscimento è documentato; la prima cerimonia resta non verificata.",
+          "promoter": "Il governo sudcoreano istituì la giornata con un decreto; diversi ministeri e organismi di sicurezza ne seguono le iniziative.",
+          "purpose": "Promuovere sicurezza dei dati, buone pratiche digitali e collaborazione tra istituzioni e cittadini.",
+          "facts": [
+            "La giornata fu istituita il 22 ottobre 2012.",
+            "Ricorre il secondo mercoledì di luglio ogni anno.",
+            "Il tema è la prevenzione informatica, non un singolo attacco storico."
+          ]
+        },
+        "es": {
+          "heading": "Segundo miércoles de julio: Día de la Seguridad de la Información en Corea",
+          "origin": "El Día de la Seguridad de la Información en Corea del Sur se celebra el segundo miércoles de julio, por lo que su fecha numérica cambia cada año. El Ministerio del Interior indica que el Gobierno lo estableció oficialmente el 22 de octubre de 2012 mediante el Decreto Presidencial n.º 24142. El objetivo es coordinar las capacidades nacionales de ciberseguridad y difundir hábitos digitales seguros entre la población. Esta jornada fomenta prevención, conciencia pública y cooperación institucional; no conmemora el aniversario de un ciberataque concreto. El año legal está documentado, pero no se ha confirmado aquí la primera ceremonia pública.",
+          "promoter": "El Gobierno surcoreano creó la jornada por decreto y la coordinan ministerios y organismos nacionales de seguridad.",
+          "purpose": "Fomentar la protección de datos, la prevención de riesgos digitales y la cooperación institucional.",
+          "facts": [
+            "La designación oficial se realizó el 22 de octubre de 2012.",
+            "La jornada se celebra el segundo miércoles de julio.",
+            "Su propósito no es recordar un único ciberataque."
+          ]
+        },
+        "fr": {
+          "heading": "Deuxième mercredi de juillet : la sécurité de l'information en Corée",
+          "origin": "En Corée du Sud, la Journée de la sécurité de l'information a lieu le deuxième mercredi de juillet et non à une date chiffrée fixe. Selon le ministère de l'Intérieur, le gouvernement l'a instituée le 22 octobre 2012 par le décret présidentiel nº 24142. Cette journée vise à coordonner les moyens nationaux de cybersécurité et à encourager les comportements numériques prudents dans la vie quotidienne. Elle porte sur la prévention, les bonnes pratiques et la coopération entre institutions plutôt que sur l'anniversaire d'une cyberattaque particulière. La date juridique est connue, mais la première cérémonie publique n'est pas vérifiée.",
+          "promoter": "Le gouvernement sud-coréen a instauré la journée par décret et plusieurs organismes de sécurité participent à son organisation.",
+          "purpose": "Encourager la sécurité des données, les usages numériques responsables et la coopération des institutions.",
+          "facts": [
+            "Le décret fondateur date du 22 octobre 2012.",
+            "La journée se déroule le deuxième mercredi de juillet.",
+            "Elle met en avant la prévention plutôt qu'une cyberattaque précise."
+          ]
+        },
+        "de": {
+          "heading": "Zweiter Mittwoch im Juli: Südkoreas Informationssicherheitstag",
+          "origin": "Südkoreas Tag der Informationssicherheit wird jedes Jahr am zweiten Mittwoch im Juli begangen, nicht an einem festen Kalendertag. Das Innenministerium dokumentiert seine Einführung durch Präsidialverordnung Nr. 24142 vom 22. Oktober 2012. Der Gedenk- und Aktionstag soll die nationalen Fähigkeiten im Bereich Cybersicherheit bündeln und sichere digitale Alltagspraktiken vermitteln. Im Mittelpunkt stehen Vorsorge, öffentliche Aufklärung und Zusammenarbeit der Institutionen. Der Tag ist kein Jahrestag eines einzelnen Cyberangriffs. Das gesetzliche Jahr ist belegt, eine erste öffentliche Zeremonie hier jedoch nicht nachgewiesen.",
+          "promoter": "Die südkoreanische Regierung führte den Tag per Dekret ein; mehrere Ministerien und Sicherheitsbehörden betreuen ihn.",
+          "purpose": "Datenschutz, digitale Vorsorge und die Zusammenarbeit zwischen Behörden, Unternehmen und Bevölkerung fördern.",
+          "facts": [
+            "Der gesetzliche Beschluss stammt vom 22. Oktober 2012.",
+            "Der Termin ist der zweite Mittwoch im Juli.",
+            "Der Tag erinnert nicht an einen einzelnen Hackerangriff."
+          ]
+        },
+        "pt": {
+          "heading": "Segunda quarta-feira de julho: segurança da informação na Coreia",
+          "origin": "O Dia da Segurança da Informação na Coreia do Sul realiza-se na segunda quarta-feira de julho, sem uma data numérica fixa. O Ministério do Interior regista que o governo instituiu oficialmente a comemoração em 22 de outubro de 2012, através do Decreto Presidencial n.º 24142. A data visa reunir capacidades nacionais de cibersegurança e promover hábitos digitais seguros entre os cidadãos. O enfoque está na prevenção, sensibilização e cooperação entre entidades públicas e privadas, e não no aniversário de um único ataque informático. O ano legal encontra-se documentado, mas a primeira cerimónia pública não foi confirmada.",
+          "promoter": "O governo sul-coreano criou a comemoração por decreto; vários ministérios e organismos de segurança participam nela.",
+          "purpose": "Incentivar a proteção de dados, comportamentos digitais prudentes e colaboração institucional.",
+          "facts": [
+            "O decreto de instituição data de 22 de outubro de 2012.",
+            "A data é a segunda quarta-feira do mês de julho.",
+            "O objetivo é a prevenção e não a memória de um ataque específico."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean Ministry of Interior statutory chronology and official government commemorative index compared. Both links are from MOIS, so not independent institutional confirmations. AI source-grounded six-locale research; no native/human approval."
+    }
+  ]
+}

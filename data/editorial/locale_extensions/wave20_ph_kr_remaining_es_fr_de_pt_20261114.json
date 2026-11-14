@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "status": "FOUR_LOCALE_RESEARCH_EXTENSION_AI_DRAFT_NEEDS_QUALIFIED_REVIEW",
+  "baseRef": "editorial/wave20-six-locales-20261113@477557ee6a6115e2479c2009c6daecde5a590026",
+  "basePath": "data/editorial/batches/origin_stories_wave20_20261113.json",
+  "addedLocales": [
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-coming-of-age-day-in-korea",
+      "locale": {
+        "es": {
+          "heading": "Tercer lunes de mayo: la mayoría de edad en la tradición coreana",
+          "origin": "El Día de la Mayoría de Edad de Corea del Sur celebra el paso a la vida adulta y las responsabilidades que lo acompañan. El Ministerio del Interior relaciona la tradición con ceremonias antiguas e incluso con testimonios de la corte de Goryeo del año 965. La conmemoración estatal moderna, sin embargo, fue establecida el 30 de marzo de 1973 y originalmente correspondía al 20 de abril. En 1975 la fecha cambió al 6 de mayo y en septiembre de 1984 pasó al tercer lunes de mayo. La tradición medieval, la decisión legal de 1973 y el calendario móvil actual son hechos distintos; no se dispone de una primera ceremonia nacional verificada.",
+          "promoter": "El Gobierno de Corea del Sur reconoció la jornada reglamentaria en 1973 sobre la base de una tradición social anterior.",
+          "purpose": "Invitar a los jóvenes a reflexionar sobre autonomía, derechos, responsabilidad personal y participación cívica.",
+          "facts": [
+            "La jornada oficial moderna se instituyó el 30 de marzo de 1973.",
+            "En 1975 pasó del 20 de abril al 6 de mayo.",
+            "Desde 1984 se celebra el tercer lunes de mayo."
+          ]
+        },
+        "fr": {
+          "heading": "Troisième lundi de mai : devenir adulte en Corée",
+          "origin": "La Journée du passage à l'âge adulte en Corée du Sud invite à réfléchir aux droits et aux responsabilités des jeunes adultes. Le ministère de l'Intérieur relie cette tradition à des cérémonies anciennes, notamment à une mention de la cour de Goryeo datant de 965. Mais la commémoration officielle moderne a été instituée le 30 mars 1973, avec une date fixée d'abord au 20 avril. En 1975, celle-ci a été déplacée au 6 mai puis, en septembre 1984, au troisième lundi de mai. La tradition médiévale, l'inscription légale de 1973 et la règle mobile actuelle ne sont pas un événement unique. La première cérémonie nationale moderne reste non documentée.",
+          "promoter": "Le gouvernement sud-coréen a reconnu cette journée en 1973 en s'appuyant sur des coutumes sociales plus anciennes.",
+          "purpose": "Inciter les jeunes adultes à réfléchir à leur autonomie, à leurs droits et à leurs devoirs civiques.",
+          "facts": [
+            "La commémoration officielle moderne a été créée en mars 1973.",
+            "La date est passée du 20 avril au 6 mai en 1975.",
+            "Depuis 1984, elle tombe le troisième lundi de mai."
+          ]
+        },
+        "de": {
+          "heading": "Dritter Montag im Mai: Koreas Tag des Erwachsenwerdens",
+          "origin": "Der südkoreanische Tag des Erwachsenwerdens würdigt den Eintritt in die Erwachsenenwelt und die damit verbundenen Rechte und Pflichten. Das Innenministerium verbindet die Tradition mit alten Zeremonien, darunter einer Überlieferung am Hof von Goryeo aus dem Jahr 965. Der moderne staatliche Gedenktag wurde dagegen erst am 30. März 1973 eingeführt und lag zunächst am 20. April. 1975 verschob man ihn auf den 6. Mai; im September 1984 wurde der dritte Montag im Mai festgelegt. Mittelalterliche Familienriten, die gesetzliche Einführung und die heutige Datumsregel sind eigenständige Entwicklungen. Eine erste nationale Feier ist nicht sicher belegt.",
+          "promoter": "Die südkoreanische Regierung nahm 1973 einen modernen Gedenktag auf, der auf älteren gesellschaftlichen Bräuchen beruht.",
+          "purpose": "Junge Erwachsene zum Nachdenken über Selbstständigkeit, Rechte und gesellschaftliche Verantwortung anregen.",
+          "facts": [
+            "Die moderne gesetzliche Anerkennung erfolgte im März 1973.",
+            "1975 wurde das Datum vom 20. April auf den 6. Mai verschoben.",
+            "Seit 1984 gilt der dritte Montag im Mai."
+          ]
+        },
+        "pt": {
+          "heading": "Terceira segunda-feira de maio: a passagem à idade adulta na Coreia",
+          "origin": "O Dia da Maioridade na Coreia do Sul assinala a entrada na vida adulta e as responsabilidades que a acompanham. O Ministério do Interior relaciona essa tradição com cerimónias antigas, incluindo referências da corte de Goryeo do ano 965. A comemoração oficial moderna, porém, foi estabelecida em 30 de março de 1973, inicialmente em 20 de abril. Em 1975, a data passou para 6 de maio e, em setembro de 1984, foi alterada para a terceira segunda-feira de maio. Os rituais antigos, a decisão legal de 1973 e o calendário atual são fases distintas. A primeira cerimónia governamental moderna não está comprovada.",
+          "promoter": "O governo sul-coreano introduziu a comemoração oficial em 1973, reconhecendo uma tradição social muito anterior.",
+          "purpose": "Encorajar jovens adultos a refletir sobre autonomia, direitos, deveres e participação na sociedade.",
+          "facts": [
+            "O dia moderno foi oficializado em março de 1973.",
+            "A data passou de 20 de abril para 6 de maio em 1975.",
+            "Desde 1984 ocorre na terceira segunda-feira de maio."
+          ]
+        }
+      },
+      "humanApproved": false,
+      "additionalEvidenceUrls": []
+    },
+    {
+      "observanceId": "ph-bonifacio-day",
+      "locale": {
+        "es": {
+          "heading": "30 de noviembre: Filipinas honra por ley a Andrés Bonifacio",
+          "origin": "El Día de Bonifacio se celebra el 30 de noviembre, aniversario del nacimiento de Andrés Bonifacio en 1863. La Ley filipina n.º 2946, aprobada según el texto promulgado el 16 de febrero de 1921, modificó el Código Administrativo para declarar festivo cada 30 de noviembre. El Museo Nacional vincula la fecha al dirigente revolucionario y a su papel en la organización Katipunan contra el dominio colonial español. La creación legal de 1921 es distinta del nacimiento del líder y de los acontecimientos de la Revolución filipina. Los textos legislativos no identifican con certeza la primera ceremonia pública anual posterior a la aprobación.",
+          "promoter": "La Quinta Legislatura filipina estableció el feriado en febrero de 1921; Andrés Bonifacio es la figura histórica recordada.",
+          "purpose": "Recordar los aportes revolucionarios a la independencia y fomentar el conocimiento cívico e histórico.",
+          "facts": [
+            "La Ley n.º 2946 estableció el feriado en febrero de 1921.",
+            "El 30 de noviembre es la fecha anual de esta conmemoración.",
+            "Andrés Bonifacio nació un 30 de noviembre de 1863."
+          ]
+        },
+        "fr": {
+          "heading": "30 novembre : hommage légal au révolutionnaire Andrés Bonifacio",
+          "origin": "La Journée de Bonifacio est célébrée le 30 novembre, anniversaire de la naissance d'Andrés Bonifacio en 1863. La loi philippine nº 2946, approuvée selon son texte officiel le 16 février 1921, a modifié le Code administratif pour faire du 30 novembre un jour férié annuel. Le Musée national relie cette date à la figure révolutionnaire et à son engagement dans l'organisation Katipunan contre la domination coloniale espagnole. L'adoption de la loi en 1921, la naissance de Bonifacio et les événements de la révolution sont trois jalons distincts. La première cérémonie publique annuelle après l'adoption n'est pas établie par les sources.",
+          "promoter": "La cinquième législature philippine a créé le jour férié en février 1921 en hommage au révolutionnaire.",
+          "purpose": "Rappeler les contributions au mouvement pour l'indépendance et encourager l'éducation historique et civique.",
+          "facts": [
+            "La loi nº 2946 a créé la journée fériée en février 1921.",
+            "La commémoration a lieu chaque année le 30 novembre.",
+            "Andrés Bonifacio est né le 30 novembre 1863."
+          ]
+        },
+        "de": {
+          "heading": "30. November: Philippinen ehren Andrés Bonifacio gesetzlich",
+          "origin": "Der Bonifacio-Tag fällt auf den 30. November, den Geburtstag des Revolutionärs Andrés Bonifacio im Jahr 1863. Das philippinische Gesetz Nr. 2946, laut amtlichem Gesetzestext am 16. Februar 1921 verabschiedet, änderte das Verwaltungsgesetz und erklärte den 30. November eines jeden Jahres zum gesetzlichen Feiertag. Das Nationalmuseum erläutert den Zusammenhang mit Bonifacios Tätigkeit in der revolutionären Katipunan-Bewegung gegen die spanische Kolonialherrschaft. Der Geburtstag von 1863, die Revolutionsgeschichte und das Feiertagsgesetz von 1921 sind zu unterscheiden. Der erste tatsächlich abgehaltene jährliche Festakt ist nicht eindeutig dokumentiert.",
+          "promoter": "Die fünfte philippinische Legislative begründete den Feiertag im Februar 1921 zum Gedenken an Andrés Bonifacio.",
+          "purpose": "An Beiträge zur Unabhängigkeit erinnern und das historische und staatsbürgerliche Wissen vertiefen.",
+          "facts": [
+            "Gesetz Nr. 2946 wurde im Februar 1921 erlassen.",
+            "Der Bonifacio-Tag wird jährlich am 30. November begangen.",
+            "Andrés Bonifacio wurde am 30. November 1863 geboren."
+          ]
+        },
+        "pt": {
+          "heading": "30 de novembro: as Filipinas homenageiam Andrés Bonifacio",
+          "origin": "O Dia de Bonifacio realiza-se em 30 de novembro, aniversário do nascimento de Andrés Bonifacio em 1863. A Lei filipina n.º 2946, aprovada segundo o seu texto oficial em 16 de fevereiro de 1921, alterou o Código Administrativo para tornar essa data feriado anual. O Museu Nacional relaciona-a com o papel de Bonifacio no movimento revolucionário Katipunan contra o domínio colonial espanhol. A aprovação da lei em 1921, o nascimento do dirigente e os acontecimentos da Revolução Filipina são marcos diferentes. As fontes jurídicas não confirmam a primeira cerimónia pública anual depois da criação do feriado.",
+          "promoter": "A Quinta Legislatura filipina criou o feriado em fevereiro de 1921 em memória do revolucionário Andrés Bonifacio.",
+          "purpose": "Preservar a memória da luta pela independência e promover a educação histórica e cívica.",
+          "facts": [
+            "A Lei n.º 2946 instituiu o feriado em fevereiro de 1921.",
+            "A comemoração ocorre todos os anos em 30 de novembro.",
+            "Andrés Bonifacio nasceu em 30 de novembro de 1863."
+          ]
+        }
+      },
+      "humanApproved": false,
+      "additionalEvidenceUrls": []
+    },
+    {
+      "observanceId": "ph-day-of-valor",
+      "locale": {
+        "es": {
+          "heading": "9 de abril: Bataan y el Día del Valor en Filipinas",
+          "origin": "El 9 de abril recuerda la rendición de las fuerzas defensoras de Bataan en 1942, seguida por la brutal Marcha de la Muerte durante la Segunda Guerra Mundial. La conmemoración estatal precede a la ley general: una proclamación presidencial de 23 de marzo de 1956 declaró el 9 de abril de ese año Día de Bataan y festivo especial. La Ley de la República n.º 3022, aprobada el 6 de abril de 1961, estableció después el 9 de abril como festivo legal anual y pidió guardar un minuto de silencio a las 16:30. En 1987 la denominación Araw ng Kagitingan, Día del Valor, figuró en el calendario oficial. Son etapas distintas.",
+          "promoter": "Las autoridades filipinas promovieron actos conmemorativos antes de la Ley n.º 3022, que estableció el festivo anual en 1961.",
+          "purpose": "Recordar a militares y civiles de Bataan y honrar a quienes sufrieron durante la campaña y la marcha forzada.",
+          "facts": [
+            "La caída de Bataan ocurrió el 9 de abril de 1942.",
+            "Una proclamación de 1956 declaró el 9 de abril festivo especial.",
+            "La Ley n.º 3022 estableció el festivo anual en 1961 y pidió un minuto de silencio."
+          ]
+        },
+        "fr": {
+          "heading": "9 avril : Bataan et la Journée du courage aux Philippines",
+          "origin": "Le 9 avril rappelle la capitulation des défenseurs de Bataan en 1942, précédant la brutale marche de la mort pendant la Seconde Guerre mondiale. L'hommage officiel est antérieur à la loi annuelle : une proclamation présidentielle du 23 mars 1956 a fait du 9 avril 1956 un Bataan Day exceptionnellement férié. La loi de la République nº 3022, adoptée le 6 avril 1961, a ensuite fixé le 9 avril comme jour férié annuel, invitant à observer une minute de silence à 16 h 30. La dénomination Araw ng Kagitingan, ou Journée du courage, apparaît dans les textes officiels de 1987. La guerre, la proclamation de 1956 et la loi de 1961 sont des étapes distinctes.",
+          "promoter": "Les autorités philippines organisaient déjà l'hommage avant que le Congrès n'établisse le jour férié annuel en 1961.",
+          "purpose": "Honorer les défenseurs, les civils et les victimes de la campagne de Bataan et de la marche forcée.",
+          "facts": [
+            "La reddition de Bataan eut lieu le 9 avril 1942.",
+            "Une proclamation de 1956 créa un jour férié spécial pour cet anniversaire.",
+            "La loi nº 3022 de 1961 instaura un hommage annuel avec une minute de silence."
+          ]
+        },
+        "de": {
+          "heading": "9. April: Bataan und der Tag der Tapferkeit auf den Philippinen",
+          "origin": "Der 9. April erinnert an die Kapitulation der Verteidiger von Bataan im Jahr 1942 und an den anschließenden brutalen Todesmarsch im Zweiten Weltkrieg. Staatliches Gedenken gab es bereits vor der jährlichen Feiertagsregel: Eine Präsidialproklamation vom 23. März 1956 erklärte den 9. April 1956 zum besonderen gesetzlichen Bataan-Feiertag. Erst das Republikgesetz Nr. 3022 vom 6. April 1961 legte den 9. April als jährlich wiederkehrenden gesetzlichen Feiertag fest und rief zu einer Schweigeminute um 16:30 Uhr auf. Die Bezeichnung Araw ng Kagitingan, Tag der Tapferkeit, erschien 1987 im offiziellen Kalender. Diese Stationen sind zu trennen.",
+          "promoter": "Die philippinische Regierung förderte das Bataan-Gedenken vor dem Gesetz von 1961 über den jährlichen Feiertag.",
+          "purpose": "Der Soldaten und Zivilpersonen gedenken, die in Bataan kämpften oder auf dem Todesmarsch litten.",
+          "facts": [
+            "Die Kapitulation auf Bataan erfolgte am 9. April 1942.",
+            "Eine Proklamation von 1956 bestimmte einen besonderen Feiertag.",
+            "Republikgesetz Nr. 3022 schuf 1961 den jährlichen Feiertag und die Schweigeminute."
+          ]
+        },
+        "pt": {
+          "heading": "9 de abril: Bataan e o Dia da Coragem nas Filipinas",
+          "origin": "O dia 9 de abril recorda a rendição dos defensores de Bataan em 1942 e a brutal marcha da morte que se seguiu durante a Segunda Guerra Mundial. A comemoração oficial antecede a lei do feriado anual: uma proclamação presidencial de 23 de março de 1956 declarou 9 de abril desse ano como Dia de Bataan e feriado especial. A Lei da República n.º 3022, aprovada em 6 de abril de 1961, estabeleceu depois 9 de abril como feriado legal anual e apelou a um minuto de silêncio às 16h30. Em 1987, a designação Araw ng Kagitingan, Dia da Coragem, passou a constar do calendário oficial. Os acontecimentos da guerra e os atos de 1956 e 1961 são diferentes.",
+          "promoter": "As autoridades filipinas promoviam o Dia de Bataan antes de o Congresso instituir o feriado anual em 1961.",
+          "purpose": "Homenagear militares e civis que defenderam Bataan e recordar o sofrimento dos prisioneiros da marcha forçada.",
+          "facts": [
+            "A queda de Bataan ocorreu em 9 de abril de 1942.",
+            "Uma proclamação de 1956 declarou um feriado especial.",
+            "A lei de 1961 criou o feriado anual e recomendou um minuto de silêncio."
+          ]
+        }
+      },
+      "humanApproved": false,
+      "additionalEvidenceUrls": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/92421"
+      ]
+    }
+  ]
+}

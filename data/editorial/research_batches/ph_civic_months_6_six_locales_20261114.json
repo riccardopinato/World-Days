@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_PROCLAMATION_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 6,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w13-civil-service-month-philippines",
+      "country": "PH",
+      "observanceDate": "SEPTEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1997,
+      "firstObservedYear": null,
+      "originClusterId": "PH_CIVIL_SERVICE_1900_FOUNDATION_1997_SEPTEMBER_MONTH",
+      "legalStatus": "PH_NATIONAL_CIVIL_SERVICE_AWARENESS_MONTH",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1997/proc_1050_1997.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "September: Civil Service Month remembers public service since 1900",
+          "origin": "Philippine Civil Service Month recognizes workers in public administration, their ethical responsibilities and their role in delivering services across an archipelago of communities. Its historical reference is the creation of the Philippine civil service under Public Law No. 5 in September 1900. That institutional event is older than the modern month-long commemoration. Proclamation No. 1050, signed 31 July 1997, declared September 1997 and every September thereafter Civil Service Month. It placed the programme under the Civil Service Commission, not a new paid holiday.",
+          "promoter": "Civil Service Commission have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Recognize public workers and strengthen professionalism, integrity and citizen-oriented services.",
+          "facts": [
+            "Philippine Civil Service Month recognizes workers in public administration, their ethical responsibilities and their role in delivering services across an archipelago of communities.",
+            "Its historical reference is the creation of the Philippine civil service under Public Law No. 5 in September 1900. That institutional event is older than the modern month-long commemoration.",
+            "Proclamation No. 1050, signed 31 July 1997, declared September 1997 and every September thereafter Civil Service Month. It placed the programme under the Civil Service Commission, not a new paid holiday."
+          ]
+        },
+        "it": {
+          "heading": "Settembre: il Mese del servizio civile ricorda le origini del 1900",
+          "origin": "Il Mese del servizio civile filippino riconosce il lavoro degli impiegati pubblici, la responsabilità etica e i servizi garantiti alle comunità dell'arcipelago. Il riferimento è l'istituzione del servizio civile filippino tramite la Legge pubblica n. 5 del settembre 1900, un evento precedente al moderno mese commemorativo. La Proclamazione n. 1050, firmata il 31 luglio 1997, istituì settembre 1997 e ogni settembre successivo, affidando le attività alla Civil Service Commission senza creare una festività non lavorativa.",
+          "promoter": "Civil Service Commission sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Valorizzare il lavoro pubblico e rafforzare professionalità, integrità e servizi rivolti ai cittadini.",
+          "facts": [
+            "Il Mese del servizio civile filippino riconosce il lavoro degli impiegati pubblici, la responsabilità etica e i servizi garantiti alle comunità dell'arcipelago.",
+            "Il riferimento è l'istituzione del servizio civile filippino tramite la Legge pubblica n. 5 del settembre 1900, un evento precedente al moderno mese commemorativo.",
+            "La Proclamazione n. 1050, firmata il 31 luglio 1997, istituì settembre 1997 e ogni settembre successivo, affidando le attività alla Civil Service Commission senza creare una festività non lavorativa."
+          ]
+        },
+        "es": {
+          "heading": "Septiembre: el Mes del Servicio Civil recuerda sus orígenes de 1900",
+          "origin": "El Mes del Servicio Civil reconoce al personal de la administración pública, sus responsabilidades éticas y los servicios prestados en las comunidades. El antecedente histórico es la fundación del servicio civil mediante la Ley Pública n.º 5 de septiembre de 1900, anterior al mes conmemorativo moderno. La Proclamación n.º 1050, firmada el 31 de julio de 1997, estableció septiembre desde 1997 y encargó las actividades a la Comisión del Servicio Civil, sin crear un festivo no laborable.",
+          "promoter": "Civil Service Commission son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Reconocer a los servidores públicos y fortalecer profesionalidad, integridad y atención ciudadana.",
+          "facts": [
+            "El Mes del Servicio Civil reconoce al personal de la administración pública, sus responsabilidades éticas y los servicios prestados en las comunidades.",
+            "El antecedente histórico es la fundación del servicio civil mediante la Ley Pública n.º 5 de septiembre de 1900, anterior al mes conmemorativo moderno.",
+            "La Proclamación n.º 1050, firmada el 31 de julio de 1997, estableció septiembre desde 1997 y encargó las actividades a la Comisión del Servicio Civil, sin crear un festivo no laborable."
+          ]
+        },
+        "fr": {
+          "heading": "Septembre : le Mois de la fonction publique rappelle l'année 1900",
+          "origin": "Le Mois de la fonction publique rend hommage aux agents publics, à leurs obligations éthiques et aux services apportés aux communautés de l'archipel. Le point de départ est l'établissement de la fonction publique par la loi publique nº 5 de septembre 1900, bien antérieur au mois commémoratif actuel. La proclamation nº 1050, signée le 31 juillet 1997, a institué septembre 1997 et les années suivantes, en confiant les activités à la Commission de la fonction publique, sans congé national.",
+          "promoter": "Civil Service Commission sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Valoriser les agents publics, l'intégrité et les services rendus aux citoyens.",
+          "facts": [
+            "Le Mois de la fonction publique rend hommage aux agents publics, à leurs obligations éthiques et aux services apportés aux communautés de l'archipel.",
+            "Le point de départ est l'établissement de la fonction publique par la loi publique nº 5 de septembre 1900, bien antérieur au mois commémoratif actuel.",
+            "La proclamation nº 1050, signée le 31 juillet 1997, a institué septembre 1997 et les années suivantes, en confiant les activités à la Commission de la fonction publique, sans congé national."
+          ]
+        },
+        "de": {
+          "heading": "September: Der Monat des öffentlichen Dienstes erinnert an 1900",
+          "origin": "Der Monat des öffentlichen Dienstes würdigt Verwaltungsbeschäftigte, ihre ethische Verantwortung und die Versorgung der Gemeinden im Inselstaat. Historischer Ausgangspunkt ist das Gesetz Nr. 5 vom September 1900 zur Einrichtung des philippinischen öffentlichen Dienstes, lange vor dem heutigen Aktionsmonat. Proklamation Nr. 1050 vom 31. Juli 1997 führte den September als jährlichen Gedenkmonat ein und beauftragte die Civil Service Commission, ohne einen arbeitsfreien Feiertag einzuführen.",
+          "promoter": "Civil Service Commission sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Öffentliche Beschäftigte würdigen und Professionalität, Integrität und Bürgernähe stärken.",
+          "facts": [
+            "Der Monat des öffentlichen Dienstes würdigt Verwaltungsbeschäftigte, ihre ethische Verantwortung und die Versorgung der Gemeinden im Inselstaat.",
+            "Historischer Ausgangspunkt ist das Gesetz Nr. 5 vom September 1900 zur Einrichtung des philippinischen öffentlichen Dienstes, lange vor dem heutigen Aktionsmonat.",
+            "Proklamation Nr. 1050 vom 31. Juli 1997 führte den September als jährlichen Gedenkmonat ein und beauftragte die Civil Service Commission, ohne einen arbeitsfreien Feiertag einzuführen."
+          ]
+        },
+        "pt": {
+          "heading": "Setembro: o Mês do Serviço Público recorda as origens em 1900",
+          "origin": "O Mês do Serviço Público reconhece os funcionários públicos, as responsabilidades éticas e os serviços prestados às comunidades do arquipélago. O antecedente é a criação do serviço público através da Lei Pública n.º 5 de setembro de 1900, muito anterior ao mês comemorativo. A Proclamação n.º 1050 de 31 de julho de 1997 instituiu setembro de 1997 e os anos seguintes, sob coordenação da Comissão do Serviço Público, sem criar um feriado.",
+          "promoter": "Civil Service Commission são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Reconhecer funcionários públicos e reforçar profissionalismo, integridade e serviços aos cidadãos.",
+          "facts": [
+            "O Mês do Serviço Público reconhece os funcionários públicos, as responsabilidades éticas e os serviços prestados às comunidades do arquipélago.",
+            "O antecedente é a criação do serviço público através da Lei Pública n.º 5 de setembro de 1900, muito anterior ao mês comemorativo.",
+            "A Proclamação n.º 1050 de 31 de julho de 1997 instituiu setembro de 1997 e os anos seguintes, sob coordenação da Comissão do Serviço Público, sem criar um feriado."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    },
+    {
+      "observanceId": "ph-w13-rule-of-law-month-philippines",
+      "country": "PH",
+      "observanceDate": "SEPTEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2004,
+      "firstObservedYear": null,
+      "originClusterId": "PH_RULE_OF_LAW_SEPTEMBER_2004_SCHOOLS_JUDICIARY",
+      "legalStatus": "PH_NATIONAL_RULE_OF_LAW_EDUCATIONAL_MONTH",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2004/proc_713_2004.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "September: Rule of Law Month brings justice into schools",
+          "origin": "Rule of Law Month in the Philippines encourages young people to learn how courts, rights and public institutions function and why lawful, fair processes matter. Proclamation No. 713 of 22 September 2004 declared every September Rule of Law Month and connected its educational purpose to the judiciary's programme of reform. The Department of Education was directed to coordinate school activities with the Supreme Court. The statutory month is an educational campaign, not an assertion that every September date is a national holiday.",
+          "promoter": "Department of Education and Supreme Court of the Philippines have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Promote education about the courts, constitutional rights and the responsibilities of public institutions.",
+          "facts": [
+            "Rule of Law Month in the Philippines encourages young people to learn how courts, rights and public institutions function and why lawful, fair processes matter.",
+            "Proclamation No. 713 of 22 September 2004 declared every September Rule of Law Month and connected its educational purpose to the judiciary's programme of reform.",
+            "The Department of Education was directed to coordinate school activities with the Supreme Court. The statutory month is an educational campaign, not an assertion that every September date is a national holiday."
+          ]
+        },
+        "it": {
+          "heading": "Settembre: il Mese dello Stato di diritto porta la giustizia a scuola",
+          "origin": "Il Mese dello Stato di diritto aiuta i giovani filippini a conoscere tribunali, diritti e istituzioni e a comprendere il valore di procedure legali e giuste. La Proclamazione n. 713 del 22 settembre 2004 ha istituito ogni settembre come mese dedicato allo Stato di diritto, collegandolo al programma di riforma giudiziaria. Il Dipartimento dell'Istruzione deve coordinarsi con la Corte Suprema per le attività scolastiche. Il mese è una campagna educativa, non trasforma tutti i giorni di settembre in festività.",
+          "promoter": "Department of Education and Supreme Court of the Philippines sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Promuovere conoscenza dei tribunali, dei diritti costituzionali e delle responsabilità istituzionali.",
+          "facts": [
+            "Il Mese dello Stato di diritto aiuta i giovani filippini a conoscere tribunali, diritti e istituzioni e a comprendere il valore di procedure legali e giuste.",
+            "La Proclamazione n. 713 del 22 settembre 2004 ha istituito ogni settembre come mese dedicato allo Stato di diritto, collegandolo al programma di riforma giudiziaria.",
+            "Il Dipartimento dell'Istruzione deve coordinarsi con la Corte Suprema per le attività scolastiche. Il mese è una campagna educativa, non trasforma tutti i giorni di settembre in festività."
+          ]
+        },
+        "es": {
+          "heading": "Septiembre: el Mes del Estado de Derecho acerca la justicia a las escuelas",
+          "origin": "El Mes del Estado de Derecho enseña a los jóvenes cómo funcionan tribunales, derechos e instituciones y por qué importan los procedimientos justos. La Proclamación n.º 713 del 22 de septiembre de 2004 estableció septiembre anualmente y vinculó las actividades a la reforma judicial. El Departamento de Educación debe coordinar sus actividades con la Corte Suprema. El mes es una iniciativa educativa y no declara festivos todos los días de septiembre.",
+          "promoter": "Department of Education and Supreme Court of the Philippines son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Promover conocimiento de los tribunales, los derechos y las responsabilidades institucionales.",
+          "facts": [
+            "El Mes del Estado de Derecho enseña a los jóvenes cómo funcionan tribunales, derechos e instituciones y por qué importan los procedimientos justos.",
+            "La Proclamación n.º 713 del 22 de septiembre de 2004 estableció septiembre anualmente y vinculó las actividades a la reforma judicial.",
+            "El Departamento de Educación debe coordinar sus actividades con la Corte Suprema. El mes es una iniciativa educativa y no declara festivos todos los días de septiembre."
+          ]
+        },
+        "fr": {
+          "heading": "Septembre : le Mois de l'État de droit parle de justice aux élèves",
+          "origin": "Le Mois de l'État de droit explique aux jeunes le fonctionnement des tribunaux, des droits et des institutions et l'importance de procédures équitables. La proclamation nº 713 du 22 septembre 2004 a institué chaque septembre en reliant cette sensibilisation au programme de réforme judiciaire. Le ministère de l'Éducation doit travailler avec la Cour suprême pour les activités scolaires. Ce mois est pédagogique et non une succession de jours fériés.",
+          "promoter": "Department of Education and Supreme Court of the Philippines sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Faire connaître tribunaux, droits constitutionnels et devoirs des institutions.",
+          "facts": [
+            "Le Mois de l'État de droit explique aux jeunes le fonctionnement des tribunaux, des droits et des institutions et l'importance de procédures équitables.",
+            "La proclamation nº 713 du 22 septembre 2004 a institué chaque septembre en reliant cette sensibilisation au programme de réforme judiciaire.",
+            "Le ministère de l'Éducation doit travailler avec la Cour suprême pour les activités scolaires. Ce mois est pédagogique et non une succession de jours fériés."
+          ]
+        },
+        "de": {
+          "heading": "September: Der Monat der Rechtsstaatlichkeit bringt Justiz in Schulen",
+          "origin": "Der Monat der Rechtsstaatlichkeit erläutert Jugendlichen Gerichte, Rechte und Institutionen und die Bedeutung gerechter rechtlicher Verfahren. Proklamation Nr. 713 vom 22. September 2004 bestimmte jeden September und verband die Bildungsinitiative mit dem Reformprogramm der Justiz. Das Bildungsministerium soll mit dem Obersten Gericht die Schulaktivitäten koordinieren. Der Monat ist eine Bildungsinitiative und macht September nicht arbeitsfrei.",
+          "promoter": "Department of Education and Supreme Court of the Philippines sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Wissen über Gerichte, Grundrechte und Verantwortung öffentlicher Stellen fördern.",
+          "facts": [
+            "Der Monat der Rechtsstaatlichkeit erläutert Jugendlichen Gerichte, Rechte und Institutionen und die Bedeutung gerechter rechtlicher Verfahren.",
+            "Proklamation Nr. 713 vom 22. September 2004 bestimmte jeden September und verband die Bildungsinitiative mit dem Reformprogramm der Justiz.",
+            "Das Bildungsministerium soll mit dem Obersten Gericht die Schulaktivitäten koordinieren. Der Monat ist eine Bildungsinitiative und macht September nicht arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "Setembro: o Mês do Estado de Direito leva a justiça às escolas",
+          "origin": "O Mês do Estado de Direito explica aos jovens o funcionamento dos tribunais, direitos e instituições e a importância de processos justos. A Proclamação n.º 713 de 22 de setembro de 2004 instituiu setembro anualmente e ligou a iniciativa ao programa de reforma judicial. O Departamento de Educação coordena atividades com o Supremo Tribunal. O mês é educativo e não transforma todos os dias de setembro em feriados.",
+          "promoter": "Department of Education and Supreme Court of the Philippines são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Promover conhecimento dos tribunais, direitos constitucionais e responsabilidades públicas.",
+          "facts": [
+            "O Mês do Estado de Direito explica aos jovens o funcionamento dos tribunais, direitos e instituições e a importância de processos justos.",
+            "A Proclamação n.º 713 de 22 de setembro de 2004 instituiu setembro anualmente e ligou a iniciativa ao programa de reforma judicial.",
+            "O Departamento de Educação coordena atividades com o Supremo Tribunal. O mês é educativo e não transforma todos os dias de setembro em feriados."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    },
+    {
+      "observanceId": "ph-w13-national-volunteers-month-philippines",
+      "country": "PH",
+      "observanceDate": "DECEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1998,
+      "firstObservedYear": null,
+      "originClusterId": "PH_VOLUNTEER_BAYANIHAN_DECEMBER_1998_DISTINCT_MAY2009",
+      "legalStatus": "PH_NATIONAL_VOLUNTEER_MONTH_RECURRING_DECEMBER",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1998/proc_55_1998.html",
+        "https://pnvsca.gov.ph/?page_id=92",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "December: National Volunteer Month and the bayanihan spirit",
+          "origin": "National Volunteer Month celebrates Filipinos who give time, skills and resources to their neighbours, from local community projects to emergency and welfare initiatives. It draws on the bayanihan tradition of mutual aid. President Joseph Estrada signed Proclamation No. 55 on 5 December 1998, declaring December of every year National Volunteer Month under the Philippine National Volunteer Service Coordinating Agency. The recurring December proclamation is distinct from a separate May Volunteerism Month proclamation issued in 2009. These names are similar, but their periods and source texts must not be silently combined.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Recognize volunteer work and strengthen civic participation and mutual aid in local communities.",
+          "facts": [
+            "National Volunteer Month celebrates Filipinos who give time, skills and resources to their neighbours, from local community projects to emergency and welfare initiatives. It draws on the bayanihan tradition of mutual aid.",
+            "President Joseph Estrada signed Proclamation No. 55 on 5 December 1998, declaring December of every year National Volunteer Month under the Philippine National Volunteer Service Coordinating Agency.",
+            "The recurring December proclamation is distinct from a separate May Volunteerism Month proclamation issued in 2009. These names are similar, but their periods and source texts must not be silently combined."
+          ]
+        },
+        "it": {
+          "heading": "Dicembre: il Mese dei volontari e lo spirito bayanihan",
+          "origin": "Il Mese nazionale dei volontari riconosce chi dona tempo, competenze e risorse alle comunità, dai progetti locali alle emergenze e all'assistenza. Richiama il bayanihan, la tradizione dell'aiuto reciproco. Joseph Estrada firmò la Proclamazione n. 55 il 5 dicembre 1998, istituendo dicembre di ogni anno sotto il coordinamento dell'Agenzia nazionale per il volontariato. La proclamazione ricorrente di dicembre è diversa da quella sul Volontariato di maggio emanata nel 2009. I nomi sono simili, ma periodi e atti non vanno unificati automaticamente.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Riconoscere il volontariato e rafforzare partecipazione civica e aiuto reciproco nelle comunità.",
+          "facts": [
+            "Il Mese nazionale dei volontari riconosce chi dona tempo, competenze e risorse alle comunità, dai progetti locali alle emergenze e all'assistenza. Richiama il bayanihan, la tradizione dell'aiuto reciproco.",
+            "Joseph Estrada firmò la Proclamazione n. 55 il 5 dicembre 1998, istituendo dicembre di ogni anno sotto il coordinamento dell'Agenzia nazionale per il volontariato.",
+            "La proclamazione ricorrente di dicembre è diversa da quella sul Volontariato di maggio emanata nel 2009. I nomi sono simili, ma periodi e atti non vanno unificati automaticamente."
+          ]
+        },
+        "es": {
+          "heading": "Diciembre: el Mes del Voluntariado y el espíritu bayanihan",
+          "origin": "El Mes del Voluntariado reconoce a quienes aportan tiempo, habilidades y recursos a sus comunidades, desde proyectos locales hasta emergencias, y evoca la tradición bayanihan de ayuda mutua. Joseph Estrada firmó la Proclamación n.º 55 el 5 de diciembre de 1998, estableciendo diciembre anualmente bajo la agencia nacional de voluntariado. La norma recurrente de diciembre es distinta de otra proclamación del voluntariado de mayo de 2009. Sus nombres son similares, pero sus fechas y documentos no deben fusionarse.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Reconocer el voluntariado y reforzar participación cívica y apoyo mutuo.",
+          "facts": [
+            "El Mes del Voluntariado reconoce a quienes aportan tiempo, habilidades y recursos a sus comunidades, desde proyectos locales hasta emergencias, y evoca la tradición bayanihan de ayuda mutua.",
+            "Joseph Estrada firmó la Proclamación n.º 55 el 5 de diciembre de 1998, estableciendo diciembre anualmente bajo la agencia nacional de voluntariado.",
+            "La norma recurrente de diciembre es distinta de otra proclamación del voluntariado de mayo de 2009. Sus nombres son similares, pero sus fechas y documentos no deben fusionarse."
+          ]
+        },
+        "fr": {
+          "heading": "Décembre : le Mois des bénévoles et l'esprit bayanihan",
+          "origin": "Le Mois national du bénévolat rend hommage à ceux qui donnent temps, compétences et ressources à la communauté et rappelle le bayanihan, tradition d'entraide. Joseph Estrada a signé la proclamation nº 55 le 5 décembre 1998, instituant chaque décembre sous la coordination de l'agence nationale du volontariat. La proclamation annuelle de décembre diffère de celle consacrée au bénévolat en mai 2009. Les noms se ressemblent, mais les textes et calendriers sont distincts.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Reconnaître le bénévolat et renforcer l'entraide et la participation citoyenne.",
+          "facts": [
+            "Le Mois national du bénévolat rend hommage à ceux qui donnent temps, compétences et ressources à la communauté et rappelle le bayanihan, tradition d'entraide.",
+            "Joseph Estrada a signé la proclamation nº 55 le 5 décembre 1998, instituant chaque décembre sous la coordination de l'agence nationale du volontariat.",
+            "La proclamation annuelle de décembre diffère de celle consacrée au bénévolat en mai 2009. Les noms se ressemblent, mais les textes et calendriers sont distincts."
+          ]
+        },
+        "de": {
+          "heading": "Dezember: Freiwilligenmonat und die Tradition des Bayanihan",
+          "origin": "Der nationale Freiwilligenmonat würdigt Menschen, die Zeit, Wissen und Mittel für ihre Nachbarschaft einsetzen, und erinnert an Bayanihan als Tradition gegenseitiger Hilfe. Joseph Estrada unterzeichnete Proklamation Nr. 55 am 5. Dezember 1998 und legte jeden Dezember unter Koordination der staatlichen Freiwilligenagentur fest. Die wiederkehrende Dezemberregelung unterscheidet sich von einer anderen Erklärung zum freiwilligen Engagement im Mai 2009. Namen und Zeiträume dürfen nicht verschmolzen werden.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Freiwilligenarbeit würdigen sowie Mitwirkung und gegenseitige Hilfe stärken.",
+          "facts": [
+            "Der nationale Freiwilligenmonat würdigt Menschen, die Zeit, Wissen und Mittel für ihre Nachbarschaft einsetzen, und erinnert an Bayanihan als Tradition gegenseitiger Hilfe.",
+            "Joseph Estrada unterzeichnete Proklamation Nr. 55 am 5. Dezember 1998 und legte jeden Dezember unter Koordination der staatlichen Freiwilligenagentur fest.",
+            "Die wiederkehrende Dezemberregelung unterscheidet sich von einer anderen Erklärung zum freiwilligen Engagement im Mai 2009. Namen und Zeiträume dürfen nicht verschmolzen werden."
+          ]
+        },
+        "pt": {
+          "heading": "Dezembro: Mês do Voluntariado e o espírito bayanihan",
+          "origin": "O Mês Nacional do Voluntariado reconhece quem oferece tempo, capacidades e recursos às comunidades e recorda o bayanihan, tradição de ajuda mútua. Joseph Estrada assinou a Proclamação n.º 55 em 5 de dezembro de 1998, instituindo dezembro de cada ano sob coordenação da agência nacional do voluntariado. A proclamação anual de dezembro é distinta de uma iniciativa de voluntariado de maio de 2009. Os nomes semelhantes não justificam juntar os calendários.",
+          "promoter": "Philippine National Volunteer Service Coordinating Agency são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Reconhecer voluntários e reforçar participação cívica e entreajuda.",
+          "facts": [
+            "O Mês Nacional do Voluntariado reconhece quem oferece tempo, capacidades e recursos às comunidades e recorda o bayanihan, tradição de ajuda mútua.",
+            "Joseph Estrada assinou a Proclamação n.º 55 em 5 de dezembro de 1998, instituindo dezembro de cada ano sob coordenação da agência nacional do voluntariado.",
+            "A proclamação anual de dezembro é distinta de uma iniciativa de voluntariado de maio de 2009. Os nomes semelhantes não justificam juntar os calendários."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    },
+    {
+      "observanceId": "ph-w10-philippines-local-government-day",
+      "country": "PH",
+      "observanceDate": "10-10",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1992,
+      "firstObservedYear": null,
+      "originClusterId": "PH_LOCAL_GOVERNMENT_1991_CODE_1992_OCT10_DAY",
+      "legalStatus": "PH_LOCAL_GOVERNMENT_OBSERVANCE_NOT_AUTOMATIC_DAY_OFF",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1992/proc_63_1992.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "10 October: Local Government Day marks the 1991 Local Government Code",
+          "origin": "Local Government Day celebrates the role of provinces, cities, municipalities and barangays in Philippine governance and public services, with particular attention to the principle of local autonomy. Republic Act No. 7160, known as the Local Government Code of 1991, was signed on 10 October 1991. The date of this law provides the historical reason for the later yearly anniversary. Proclamation No. 63 of 2 October 1992 designated October Local Government Month, its second week Local Government Week and 10 October Local Government Day. These three durations are connected but not three interchangeable identical dates.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Explain the origins of local autonomy and keep the day distinct from the wider October week and month.",
+          "facts": [
+            "Local Government Day celebrates the role of provinces, cities, municipalities and barangays in Philippine governance and public services, with particular attention to the principle of local autonomy.",
+            "Republic Act No. 7160, known as the Local Government Code of 1991, was signed on 10 October 1991. The date of this law provides the historical reason for the later yearly anniversary.",
+            "Proclamation No. 63 of 2 October 1992 designated October Local Government Month, its second week Local Government Week and 10 October Local Government Day. These three durations are connected but not three interchangeable identical dates."
+          ]
+        },
+        "it": {
+          "heading": "10 ottobre: la Giornata degli enti locali ricorda il Codice del 1991",
+          "origin": "La Giornata degli enti locali riconosce province, città, comuni e barangay nell'amministrazione filippina e nella fornitura di servizi, valorizzando l'autonomia territoriale. La Legge della Repubblica n. 7160, il Codice degli enti locali del 1991, fu firmata il 10 ottobre 1991: da questo evento deriva la data della ricorrenza annuale. La Proclamazione n. 63 del 2 ottobre 1992 ha definito ottobre come mese degli enti locali, la seconda settimana come settimana dedicata e il 10 ottobre come giornata specifica.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Conoscere l'autonomia locale distinguendo la giornata dalla settimana e dal mese di ottobre.",
+          "facts": [
+            "La Giornata degli enti locali riconosce province, città, comuni e barangay nell'amministrazione filippina e nella fornitura di servizi, valorizzando l'autonomia territoriale.",
+            "La Legge della Repubblica n. 7160, il Codice degli enti locali del 1991, fu firmata il 10 ottobre 1991: da questo evento deriva la data della ricorrenza annuale.",
+            "La Proclamazione n. 63 del 2 ottobre 1992 ha definito ottobre come mese degli enti locali, la seconda settimana come settimana dedicata e il 10 ottobre come giornata specifica."
+          ]
+        },
+        "es": {
+          "heading": "10 de octubre: Día del Gobierno Local y el Código de 1991",
+          "origin": "El Día del Gobierno Local reconoce provincias, ciudades, municipios y barangays en la gestión pública filipina y en los servicios a los ciudadanos, destacando la autonomía. La Ley de la República n.º 7160, Código del Gobierno Local de 1991, se firmó el 10 de octubre de 1991: de ese hecho procede la fecha anual. La Proclamación n.º 63 del 2 de octubre de 1992 estableció octubre como mes, la segunda semana como semana y el día 10 como jornada del Gobierno Local.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Conocer la autonomía local y diferenciar día, semana y mes de octubre.",
+          "facts": [
+            "El Día del Gobierno Local reconoce provincias, ciudades, municipios y barangays en la gestión pública filipina y en los servicios a los ciudadanos, destacando la autonomía.",
+            "La Ley de la República n.º 7160, Código del Gobierno Local de 1991, se firmó el 10 de octubre de 1991: de ese hecho procede la fecha anual.",
+            "La Proclamación n.º 63 del 2 de octubre de 1992 estableció octubre como mes, la segunda semana como semana y el día 10 como jornada del Gobierno Local."
+          ]
+        },
+        "fr": {
+          "heading": "10 octobre : la Journée des collectivités locales et le Code de 1991",
+          "origin": "La Journée des collectivités locales valorise provinces, villes, municipalités et barangays dans la gestion publique et souligne l'autonomie locale. La loi de la République nº 7160, Code des collectivités locales de 1991, fut signée le 10 octobre 1991 : c'est la référence historique du jour commémoratif. La proclamation nº 63 du 2 octobre 1992 a institué tout octobre, sa deuxième semaine et le 10 octobre comme trois périodes commémoratives liées mais différentes.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Comprendre l'autonomie locale et distinguer journée, semaine et mois d'octobre.",
+          "facts": [
+            "La Journée des collectivités locales valorise provinces, villes, municipalités et barangays dans la gestion publique et souligne l'autonomie locale.",
+            "La loi de la République nº 7160, Code des collectivités locales de 1991, fut signée le 10 octobre 1991 : c'est la référence historique du jour commémoratif.",
+            "La proclamation nº 63 du 2 octobre 1992 a institué tout octobre, sa deuxième semaine et le 10 octobre comme trois périodes commémoratives liées mais différentes."
+          ]
+        },
+        "de": {
+          "heading": "10. Oktober: Kommunaltag und das Gesetzbuch von 1991",
+          "origin": "Der Kommunaltag würdigt Provinzen, Städte, Gemeinden und Barangays in der öffentlichen Verwaltung und das Prinzip lokaler Selbstverwaltung. Republikgesetz Nr. 7160, das Kommunalgesetzbuch von 1991, wurde am 10. Oktober 1991 unterzeichnet; dieses Datum bildet den historischen Anlass. Proklamation Nr. 63 vom 2. Oktober 1992 bestimmte den ganzen Oktober, seine zweite Woche und den 10. Oktober für verschiedene kommunale Anlässe.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Kommunale Selbstverwaltung erklären und Tag, Woche und Monat im Oktober unterscheiden.",
+          "facts": [
+            "Der Kommunaltag würdigt Provinzen, Städte, Gemeinden und Barangays in der öffentlichen Verwaltung und das Prinzip lokaler Selbstverwaltung.",
+            "Republikgesetz Nr. 7160, das Kommunalgesetzbuch von 1991, wurde am 10. Oktober 1991 unterzeichnet; dieses Datum bildet den historischen Anlass.",
+            "Proklamation Nr. 63 vom 2. Oktober 1992 bestimmte den ganzen Oktober, seine zweite Woche und den 10. Oktober für verschiedene kommunale Anlässe."
+          ]
+        },
+        "pt": {
+          "heading": "10 de outubro: Dia do Governo Local e o Código de 1991",
+          "origin": "O Dia do Governo Local reconhece províncias, cidades, municípios e barangays na administração pública e valoriza a autonomia local. A Lei da República n.º 7160, Código do Governo Local de 1991, foi assinada em 10 de outubro de 1991, data que inspirou a comemoração anual. A Proclamação n.º 63 de 2 de outubro de 1992 instituiu outubro, a segunda semana e o dia 10 como períodos relacionados, mas distintos.",
+          "promoter": "Department of the Interior and Local Government and Philippine local government units são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Conhecer a autonomia local e distinguir dia, semana e mês de outubro.",
+          "facts": [
+            "O Dia do Governo Local reconhece províncias, cidades, municípios e barangays na administração pública e valoriza a autonomia local.",
+            "A Lei da República n.º 7160, Código do Governo Local de 1991, foi assinada em 10 de outubro de 1991, data que inspirou a comemoração anual.",
+            "A Proclamação n.º 63 de 2 de outubro de 1992 instituiu outubro, a segunda semana e o dia 10 como períodos relacionados, mas distintos."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    },
+    {
+      "observanceId": "ph-w13-month-of-overseas-filipinos",
+      "country": "PH",
+      "observanceDate": "DECEMBER",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 1988,
+      "firstObservedYear": null,
+      "originClusterId": "PH_OVERSEAS_FILIPINOS_1987_PRECURSOR_1988_DEC_MONTH",
+      "legalStatus": "PH_OVERSEAS_FILIPINOS_CIVIC_MONTH_NO_GENERAL_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1988/proc_276_1988.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "December: a Month of Overseas Filipinos after the 1986 democratic transition",
+          "origin": "The Month of Overseas Filipinos recognizes people who live, study or work outside the Philippines and their contributions through families, communities, remittances and participation in Philippine public life. President Corazon Aquino signed Proclamation No. 276 on 21 June 1988, assigning December 1988 and each following December to diaspora recognition. The proclamation recalls overseas participation in the country's democratic restoration. The 1988 proclamation expressly superseded Proclamation No. 91 of 1987. It is a month-long national acknowledgement, not a claim that every December date is a paid national holiday.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Recognize the Filipino diaspora and its social, economic and democratic contributions.",
+          "facts": [
+            "The Month of Overseas Filipinos recognizes people who live, study or work outside the Philippines and their contributions through families, communities, remittances and participation in Philippine public life.",
+            "President Corazon Aquino signed Proclamation No. 276 on 21 June 1988, assigning December 1988 and each following December to diaspora recognition. The proclamation recalls overseas participation in the country's democratic restoration.",
+            "The 1988 proclamation expressly superseded Proclamation No. 91 of 1987. It is a month-long national acknowledgement, not a claim that every December date is a paid national holiday."
+          ]
+        },
+        "it": {
+          "heading": "Dicembre: un Mese dei filippini all'estero dopo la transizione democratica",
+          "origin": "Il Mese dei filippini all'estero riconosce chi vive, studia o lavora fuori dal paese e contribuisce tramite famiglie, comunità, rimesse e partecipazione alla vita pubblica. Corazon Aquino firmò la Proclamazione n. 276 il 21 giugno 1988, dedicando dicembre 1988 e i dicembre successivi alla diaspora. Il testo ricorda anche il suo contributo al ripristino della democrazia. La proclamazione del 1988 sostituì espressamente la n. 91 del 1987. Si tratta di un mese dedicato al riconoscimento e non di una festività retribuita per tutti i giorni di dicembre.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Valorizzare la diaspora filippina e i suoi contributi sociali, economici e democratici.",
+          "facts": [
+            "Il Mese dei filippini all'estero riconosce chi vive, studia o lavora fuori dal paese e contribuisce tramite famiglie, comunità, rimesse e partecipazione alla vita pubblica.",
+            "Corazon Aquino firmò la Proclamazione n. 276 il 21 giugno 1988, dedicando dicembre 1988 e i dicembre successivi alla diaspora. Il testo ricorda anche il suo contributo al ripristino della democrazia.",
+            "La proclamazione del 1988 sostituì espressamente la n. 91 del 1987. Si tratta di un mese dedicato al riconoscimento e non di una festività retribuita per tutti i giorni di dicembre."
+          ]
+        },
+        "es": {
+          "heading": "Diciembre: el Mes de los Filipinos en el Exterior tras la transición",
+          "origin": "El Mes de los Filipinos en el Exterior reconoce a quienes viven, estudian o trabajan fuera del país y contribuyen a sus familias, comunidades y economía. Corazon Aquino firmó la Proclamación n.º 276 el 21 de junio de 1988, reservando diciembre de 1988 y los siguientes a la diáspora. El texto recuerda su participación en la restauración democrática. La proclamación de 1988 derogó expresamente la n.º 91 de 1987. Es un mes de reconocimiento, no un feriado pagado durante todos los días de diciembre.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Reconocer la diáspora filipina y sus aportaciones sociales, económicas y democráticas.",
+          "facts": [
+            "El Mes de los Filipinos en el Exterior reconoce a quienes viven, estudian o trabajan fuera del país y contribuyen a sus familias, comunidades y economía.",
+            "Corazon Aquino firmó la Proclamación n.º 276 el 21 de junio de 1988, reservando diciembre de 1988 y los siguientes a la diáspora. El texto recuerda su participación en la restauración democrática.",
+            "La proclamación de 1988 derogó expresamente la n.º 91 de 1987. Es un mes de reconocimiento, no un feriado pagado durante todos los días de diciembre."
+          ]
+        },
+        "fr": {
+          "heading": "Décembre : le Mois des Philippins de l'étranger après la transition",
+          "origin": "Le Mois des Philippins de l'étranger honore les personnes vivant, étudiant ou travaillant hors du pays et leurs liens familiaux, économiques et communautaires. Corazon Aquino a signé la proclamation nº 276 le 21 juin 1988, instituant décembre 1988 et les suivants. Le texte rappelle l'implication des expatriés dans la restauration démocratique. Le texte de 1988 a remplacé expressément la proclamation nº 91 de 1987. Il s'agit d'un mois de reconnaissance, non d'une succession de jours fériés.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Valoriser la diaspora philippine et ses contributions sociales, économiques et civiques.",
+          "facts": [
+            "Le Mois des Philippins de l'étranger honore les personnes vivant, étudiant ou travaillant hors du pays et leurs liens familiaux, économiques et communautaires.",
+            "Corazon Aquino a signé la proclamation nº 276 le 21 juin 1988, instituant décembre 1988 et les suivants. Le texte rappelle l'implication des expatriés dans la restauration démocratique.",
+            "Le texte de 1988 a remplacé expressément la proclamation nº 91 de 1987. Il s'agit d'un mois de reconnaissance, non d'une succession de jours fériés."
+          ]
+        },
+        "de": {
+          "heading": "Dezember: Monat der Auslandphilippiner nach dem politischen Wandel",
+          "origin": "Der Monat der Auslandphilippiner würdigt Menschen, die außerhalb des Landes leben, lernen oder arbeiten, und ihre familiären und gesellschaftlichen Beziehungen. Corazon Aquino unterzeichnete Proklamation Nr. 276 am 21. Juni 1988 für Dezember 1988 und alle folgenden Dezembermonate. Der Text erinnert an die Rolle der Diaspora beim demokratischen Neubeginn. Die Verordnung von 1988 ersetzte ausdrücklich Proklamation Nr. 91 von 1987. Der Monat ist eine Anerkennung und macht nicht alle Dezembertage arbeitsfrei.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Die philippinische Diaspora und ihre sozialen, wirtschaftlichen und demokratischen Beiträge würdigen.",
+          "facts": [
+            "Der Monat der Auslandphilippiner würdigt Menschen, die außerhalb des Landes leben, lernen oder arbeiten, und ihre familiären und gesellschaftlichen Beziehungen.",
+            "Corazon Aquino unterzeichnete Proklamation Nr. 276 am 21. Juni 1988 für Dezember 1988 und alle folgenden Dezembermonate. Der Text erinnert an die Rolle der Diaspora beim demokratischen Neubeginn.",
+            "Die Verordnung von 1988 ersetzte ausdrücklich Proklamation Nr. 91 von 1987. Der Monat ist eine Anerkennung und macht nicht alle Dezembertage arbeitsfrei."
+          ]
+        },
+        "pt": {
+          "heading": "Dezembro: Mês dos Filipinos no Estrangeiro após a transição democrática",
+          "origin": "O Mês dos Filipinos no Estrangeiro reconhece quem vive, estuda ou trabalha fora do país e os seus laços familiares, económicos e comunitários. Corazon Aquino assinou a Proclamação n.º 276 em 21 de junho de 1988, instituindo dezembro de 1988 e os anos seguintes. O texto recorda a participação da diáspora na restauração democrática. A proclamação de 1988 substituiu expressamente a n.º 91 de 1987. É um mês de reconhecimento, não um período inteiro de feriados.",
+          "promoter": "Philippine national government, agencies serving overseas Filipinos and diaspora organizations são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Valorizar a diáspora filipina e os seus contributos sociais, económicos e democráticos.",
+          "facts": [
+            "O Mês dos Filipinos no Estrangeiro reconhece quem vive, estuda ou trabalha fora do país e os seus laços familiares, económicos e comunitários.",
+            "Corazon Aquino assinou a Proclamação n.º 276 em 21 de junho de 1988, instituindo dezembro de 1988 e os anos seguintes. O texto recorda a participação da diáspora na restauração democrática.",
+            "A proclamação de 1988 substituiu expressamente a n.º 91 de 1987. É um mês de reconhecimento, não um período inteiro de feriados."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    },
+    {
+      "observanceId": "ph-w13-philippine-tropical-fabrics-month",
+      "country": "PH",
+      "observanceDate": "JANUARY",
+      "observancePeriodKind": "MONTH",
+      "introducedYear": 2012,
+      "firstObservedYear": null,
+      "originClusterId": "PH_TROPICAL_FABRICS_2004_LAW_2011_DAY_2012_JAN_MONTH",
+      "legalStatus": "PH_CULTURAL_AND_INDUSTRIAL_AWARENESS_MONTH",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2012/proc_313_2012.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "January: Tropical Fabrics Month supports Philippine natural fibres",
+          "origin": "Philippine Tropical Fabrics Month highlights locally grown or produced natural fibres and the textile industry's connection to agriculture, skilled work and cultural knowledge. The 2004 Tropical Fabrics Law (Republic Act No. 9242) provided a policy framework, while Proclamation No. 86 of 2010 called for a Philippine Tropical Fabrics Day on 24 January 2011. Proclamation No. 313, dated 12 January 2012, established the whole of January every year as Tropical Fabrics Month and tasked the Textile Research Institute with further research and engagement. It expanded an earlier single day.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology have the leading institutional role, where assigned in the original Philippine proclamation or legal record, for the observance's public activities.",
+          "purpose": "Promote responsible development of local textile fibres, design and research.",
+          "facts": [
+            "Philippine Tropical Fabrics Month highlights locally grown or produced natural fibres and the textile industry's connection to agriculture, skilled work and cultural knowledge.",
+            "The 2004 Tropical Fabrics Law (Republic Act No. 9242) provided a policy framework, while Proclamation No. 86 of 2010 called for a Philippine Tropical Fabrics Day on 24 January 2011.",
+            "Proclamation No. 313, dated 12 January 2012, established the whole of January every year as Tropical Fabrics Month and tasked the Textile Research Institute with further research and engagement. It expanded an earlier single day."
+          ]
+        },
+        "it": {
+          "heading": "Gennaio: il Mese dei tessuti tropicali valorizza le fibre locali",
+          "origin": "Il Mese dei tessuti tropicali valorizza fibre naturali coltivate e lavorate localmente, collegando l'industria tessile all'agricoltura, al lavoro e ai saperi culturali. La legge sui tessuti tropicali n. 9242 del 2004 costituì il quadro normativo; la Proclamazione n. 86 del 2010 indisse una giornata il 24 gennaio 2011. La Proclamazione n. 313 del 12 gennaio 2012 estese la ricorrenza all'intero gennaio annuale e incaricò l'istituto tessile di ricerca e promozione, ampliando la precedente giornata.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology sono gli enti guida indicati nei provvedimenti per coordinare la ricorrenza e le attività pubbliche nelle Filippine.",
+          "purpose": "Promuovere ricerca, progettazione e sviluppo delle fibre tessili locali.",
+          "facts": [
+            "Il Mese dei tessuti tropicali valorizza fibre naturali coltivate e lavorate localmente, collegando l'industria tessile all'agricoltura, al lavoro e ai saperi culturali.",
+            "La legge sui tessuti tropicali n. 9242 del 2004 costituì il quadro normativo; la Proclamazione n. 86 del 2010 indisse una giornata il 24 gennaio 2011.",
+            "La Proclamazione n. 313 del 12 gennaio 2012 estese la ricorrenza all'intero gennaio annuale e incaricò l'istituto tessile di ricerca e promozione, ampliando la precedente giornata."
+          ]
+        },
+        "es": {
+          "heading": "Enero: el Mes de Tejidos Tropicales apoya las fibras locales",
+          "origin": "El Mes de los Tejidos Tropicales destaca fibras naturales locales y los vínculos entre industria textil, agricultura, empleo y conocimientos culturales. La Ley de Tejidos Tropicales n.º 9242 de 2004 dio una base legal; la Proclamación n.º 86 de 2010 anunció una jornada para el 24 de enero de 2011. La Proclamación n.º 313 del 12 de enero de 2012 extendió la celebración a todo enero anualmente y encargó al instituto textil más investigación y actividades.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology son los organismos principales, según los documentos legales, encargados de coordinar la celebración y las actividades públicas.",
+          "purpose": "Impulsar investigación, diseño y desarrollo de fibras textiles locales.",
+          "facts": [
+            "El Mes de los Tejidos Tropicales destaca fibras naturales locales y los vínculos entre industria textil, agricultura, empleo y conocimientos culturales.",
+            "La Ley de Tejidos Tropicales n.º 9242 de 2004 dio una base legal; la Proclamación n.º 86 de 2010 anunció una jornada para el 24 de enero de 2011.",
+            "La Proclamación n.º 313 del 12 de enero de 2012 extendió la celebración a todo enero anualmente y encargó al instituto textil más investigación y actividades."
+          ]
+        },
+        "fr": {
+          "heading": "Janvier : le Mois des textiles tropicaux valorise les fibres locales",
+          "origin": "Le Mois des textiles tropicaux met en valeur les fibres naturelles locales et les liens entre textile, agriculture, travail et savoirs culturels. La loi nº 9242 sur les tissus tropicaux de 2004 a créé le cadre juridique; la proclamation nº 86 de 2010 annonçait une journée le 24 janvier 2011. La proclamation nº 313 du 12 janvier 2012 a établi tout janvier chaque année et chargé l'institut textile de mener des recherches et des activités, élargissant l'ancienne journée.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology sont les organismes principaux chargés, selon les textes légaux, de coordonner les activités de cette commémoration.",
+          "purpose": "Encourager la recherche, le design et l'usage des fibres textiles locales.",
+          "facts": [
+            "Le Mois des textiles tropicaux met en valeur les fibres naturelles locales et les liens entre textile, agriculture, travail et savoirs culturels.",
+            "La loi nº 9242 sur les tissus tropicaux de 2004 a créé le cadre juridique; la proclamation nº 86 de 2010 annonçait une journée le 24 janvier 2011.",
+            "La proclamation nº 313 du 12 janvier 2012 a établi tout janvier chaque année et chargé l'institut textile de mener des recherches et des activités, élargissant l'ancienne journée."
+          ]
+        },
+        "de": {
+          "heading": "Januar: Tropenstoffmonat fördert philippinische Naturfasern",
+          "origin": "Der Tropenstoffmonat würdigt heimische Naturfasern und die Verbindung von Textilwirtschaft, Landwirtschaft, Handwerk und kulturellem Wissen. Das Tropenstoffgesetz Nr. 9242 von 2004 schuf den rechtlichen Rahmen; Proklamation Nr. 86 von 2010 bestimmte einen Tag am 24. Januar 2011. Proklamation Nr. 313 vom 12. Januar 2012 erklärte jeden Januar zum Monat und beauftragte das Textilforschungsinstitut mit Forschung und Aktionen; der frühere Einzeltag wurde erweitert.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology sind die in den philippinischen Rechtsquellen benannten federführenden Einrichtungen für den Gedenkanlass.",
+          "purpose": "Forschung, Gestaltung und verantwortliche Nutzung lokaler Textilfasern fördern.",
+          "facts": [
+            "Der Tropenstoffmonat würdigt heimische Naturfasern und die Verbindung von Textilwirtschaft, Landwirtschaft, Handwerk und kulturellem Wissen.",
+            "Das Tropenstoffgesetz Nr. 9242 von 2004 schuf den rechtlichen Rahmen; Proklamation Nr. 86 von 2010 bestimmte einen Tag am 24. Januar 2011.",
+            "Proklamation Nr. 313 vom 12. Januar 2012 erklärte jeden Januar zum Monat und beauftragte das Textilforschungsinstitut mit Forschung und Aktionen; der frühere Einzeltag wurde erweitert."
+          ]
+        },
+        "pt": {
+          "heading": "Janeiro: o Mês dos Tecidos Tropicais valoriza fibras locais",
+          "origin": "O Mês dos Tecidos Tropicais valoriza fibras naturais locais e as ligações entre indústria têxtil, agricultura, trabalho e conhecimento cultural. A Lei dos Tecidos Tropicais n.º 9242 de 2004 criou o quadro jurídico; a Proclamação n.º 86 de 2010 marcou um dia especial para 24 de janeiro de 2011. A Proclamação n.º 313 de 12 de janeiro de 2012 instituiu todo o mês de janeiro e encarregou o instituto têxtil de investigação e atividades, ampliando o dia anterior.",
+          "promoter": "Philippine Textile Research Institute of the Department of Science and Technology são as instituições principais identificadas nos documentos legais para coordenar esta comemoração nas Filipinas.",
+          "purpose": "Promover investigação, design e desenvolvimento de fibras têxteis locais.",
+          "facts": [
+            "O Mês dos Tecidos Tropicais valoriza fibras naturais locais e as ligações entre indústria têxtil, agricultura, trabalho e conhecimento cultural.",
+            "A Lei dos Tecidos Tropicais n.º 9242 de 2004 criou o quadro jurídico; a Proclamação n.º 86 de 2010 marcou um dia especial para 24 de janeiro de 2011.",
+            "A Proclamação n.º 313 de 12 de janeiro de 2012 instituiu todo o mês de janeiro e encarregou o instituto têxtil de investigação e atividades, ampliando o dia anterior."
+          ]
+        }
+      },
+      "sourceReviewNote": "Philippine presidential proclamation original legal text and national NCCA calendar; historical event and later act distinguished, annual recurrence explicit. Original six AI translations need qualified factual/native human editorial review and are not certified."
+    }
+  ]
+}

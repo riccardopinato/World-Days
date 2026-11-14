@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_PRIMARY_LAW_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 8,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary",
+      "country": "PH",
+      "observanceDate": "01-23",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2013,
+      "firstObservedYear": null,
+      "originClusterId": "PH_FIRST_REPUBLIC_1899_PROCLAMATION_2013_LAW_2018",
+      "legalStatus": "PH_NATIONAL_SPECIAL_WORKING_HOLIDAY_RA11014_2018",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2013/proc_533_2013.html",
+        "https://lawphil.net/statutes/repacts/ra2018/ra_11014_2018.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "23 January: the First Philippine Republic and two modern legal milestones",
+          "origin": "The First Philippine Republic was inaugurated at Barasoain Church in Malolos, Bulacan, on 23 January 1899, two days after the promulgation of the Malolos Constitution. The national date celebrates this founding event rather than a later president's birthday. Presidential Proclamation No. 533, signed on 9 January 2013, designated 23 January every year as Araw ng Republikang Filipino, 1899. It gave the event a recurring official anniversary without being the original 1899 declaration. Republic Act No. 11014, approved 5 April 2018, subsequently made 23 January a nationwide special working holiday and assigned educational activities to the Historical Commission and Education Department. Particular provincial non-working proclamations are separate and time-limited.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Explain the history of the Malolos Republic and the distinction between national working and provincial non-working holidays.",
+          "facts": [
+            "The First Philippine Republic was inaugurated at Barasoain Church in Malolos, Bulacan, on 23 January 1899, two days after the promulgation of the Malolos Constitution. The national date celebrates this founding event rather than a later president's birthday.",
+            "Presidential Proclamation No. 533, signed on 9 January 2013, designated 23 January every year as Araw ng Republikang Filipino, 1899. It gave the event a recurring official anniversary without being the original 1899 declaration.",
+            "Republic Act No. 11014, approved 5 April 2018, subsequently made 23 January a nationwide special working holiday and assigned educational activities to the Historical Commission and Education Department. Particular provincial non-working proclamations are separate and time-limited."
+          ]
+        },
+        "it": {
+          "heading": "23 gennaio: la Prima Repubblica filippina e due riconoscimenti moderni",
+          "origin": "La Prima Repubblica filippina fu inaugurata nella chiesa di Barasoain a Malolos, Bulacan, il 23 gennaio 1899, due giorni dopo la promulgazione della Costituzione di Malolos. La ricorrenza celebra la nascita delle istituzioni repubblicane. La Proclamazione presidenziale n. 533, firmata il 9 gennaio 2013, istituì ogni 23 gennaio come Araw ng Republikang Filipino, 1899. La scelta moderna non va confusa con l'evento del 1899. La Legge della Repubblica n. 11014, approvata il 5 aprile 2018, rese il 23 gennaio una festività speciale lavorativa nazionale e affidò le attività alla Commissione storica e al Dipartimento dell'Istruzione. Eventuali giorni non lavorativi provinciali richiedono atti separati.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Conoscere la Repubblica di Malolos e distinguere le festività nazionali lavorative dalle eccezioni provinciali.",
+          "facts": [
+            "La Prima Repubblica filippina fu inaugurata nella chiesa di Barasoain a Malolos, Bulacan, il 23 gennaio 1899, due giorni dopo la promulgazione della Costituzione di Malolos. La ricorrenza celebra la nascita delle istituzioni repubblicane.",
+            "La Proclamazione presidenziale n. 533, firmata il 9 gennaio 2013, istituì ogni 23 gennaio come Araw ng Republikang Filipino, 1899. La scelta moderna non va confusa con l'evento del 1899.",
+            "La Legge della Repubblica n. 11014, approvata il 5 aprile 2018, rese il 23 gennaio una festività speciale lavorativa nazionale e affidò le attività alla Commissione storica e al Dipartimento dell'Istruzione. Eventuali giorni non lavorativi provinciali richiedono atti separati."
+          ]
+        },
+        "es": {
+          "heading": "23 de enero: la Primera República Filipina y dos hitos legales",
+          "origin": "La Primera República Filipina fue inaugurada en la iglesia de Barasoain, Malolos, Bulacan, el 23 de enero de 1899, dos días después de promulgarse la Constitución de Malolos. La fecha recuerda la institución republicana. La Proclamación presidencial n.º 533, firmada el 9 de enero de 2013, fijó cada 23 de enero como Araw ng Republikang Filipino, 1899. La fecha legal moderna no es el acontecimiento de 1899. La Ley de la República n.º 11014, aprobada el 5 de abril de 2018, convirtió el 23 de enero en día especial laborable nacional y asignó actividades a las instituciones históricas y educativas. Los descansos provinciales dependen de decisiones distintas.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Conhecer la República de Malolos y distinguir días laborables nacionales de excepciones provinciales.",
+          "facts": [
+            "La Primera República Filipina fue inaugurada en la iglesia de Barasoain, Malolos, Bulacan, el 23 de enero de 1899, dos días después de promulgarse la Constitución de Malolos. La fecha recuerda la institución republicana.",
+            "La Proclamación presidencial n.º 533, firmada el 9 de enero de 2013, fijó cada 23 de enero como Araw ng Republikang Filipino, 1899. La fecha legal moderna no es el acontecimiento de 1899.",
+            "La Ley de la República n.º 11014, aprobada el 5 de abril de 2018, convirtió el 23 de enero en día especial laborable nacional y asignó actividades a las instituciones históricas y educativas. Los descansos provinciales dependen de decisiones distintas."
+          ]
+        },
+        "fr": {
+          "heading": "23 janvier : la Première République philippine et deux étapes juridiques",
+          "origin": "La Première République philippine fut inaugurée dans l'église de Barasoain à Malolos, Bulacan, le 23 janvier 1899, deux jours après la promulgation de la Constitution de Malolos. La date rappelle la fondation républicaine. La proclamation présidentielle nº 533, signée le 9 janvier 2013, a institué chaque 23 janvier comme Araw ng Republikang Filipino, 1899. Cette décision moderne est différente de l'événement historique. La loi de la République nº 11014, adoptée le 5 avril 2018, a fait du 23 janvier une journée spéciale travaillée dans tout le pays, avec des activités confiées aux organismes historiques et éducatifs. Les congés provinciaux relèvent de textes séparés.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Expliquer la République de Malolos et distinguer la journée nationale travaillée des dérogations provinciales.",
+          "facts": [
+            "La Première République philippine fut inaugurée dans l'église de Barasoain à Malolos, Bulacan, le 23 janvier 1899, deux jours après la promulgation de la Constitution de Malolos. La date rappelle la fondation républicaine.",
+            "La proclamation présidentielle nº 533, signée le 9 janvier 2013, a institué chaque 23 janvier comme Araw ng Republikang Filipino, 1899. Cette décision moderne est différente de l'événement historique.",
+            "La loi de la République nº 11014, adoptée le 5 avril 2018, a fait du 23 janvier une journée spéciale travaillée dans tout le pays, avec des activités confiées aux organismes historiques et éducatifs. Les congés provinciaux relèvent de textes séparés."
+          ]
+        },
+        "de": {
+          "heading": "23. Januar: Die Erste Philippinische Republik und zwei rechtliche Schritte",
+          "origin": "Die Erste Philippinische Republik wurde am 23. Januar 1899 in der Barasoain-Kirche in Malolos, Bulacan, ausgerufen, zwei Tage nach der Verkündung der Malolos-Verfassung. Der Jahrestag erinnert an die republikanische Gründung. Die Präsidialproklamation Nr. 533 vom 9. Januar 2013 erklärte jeden 23. Januar zum Araw ng Republikang Filipino, 1899. Die moderne Regelung ist vom historischen Ereignis zu unterscheiden. Republikgesetz Nr. 11014 vom 5. April 2018 machte den 23. Januar landesweit zum besonderen Arbeitstag und beauftragte Geschichts- und Bildungsbehörden. Provinzielle arbeitsfreie Tage beruhen auf getrennten Erlassen.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Die Malolos-Republik verstehen und nationale besondere Arbeitstage von provinziellen freien Tagen unterscheiden.",
+          "facts": [
+            "Die Erste Philippinische Republik wurde am 23. Januar 1899 in der Barasoain-Kirche in Malolos, Bulacan, ausgerufen, zwei Tage nach der Verkündung der Malolos-Verfassung. Der Jahrestag erinnert an die republikanische Gründung.",
+            "Die Präsidialproklamation Nr. 533 vom 9. Januar 2013 erklärte jeden 23. Januar zum Araw ng Republikang Filipino, 1899. Die moderne Regelung ist vom historischen Ereignis zu unterscheiden.",
+            "Republikgesetz Nr. 11014 vom 5. April 2018 machte den 23. Januar landesweit zum besonderen Arbeitstag und beauftragte Geschichts- und Bildungsbehörden. Provinzielle arbeitsfreie Tage beruhen auf getrennten Erlassen."
+          ]
+        },
+        "pt": {
+          "heading": "23 de janeiro: a Primeira República Filipina e duas etapas legais",
+          "origin": "A Primeira República Filipina foi inaugurada na Igreja de Barasoain, em Malolos, Bulacan, em 23 de janeiro de 1899, dois dias após a Constituição de Malolos. A data recorda a fundação republicana. A Proclamação presidencial n.º 533, assinada em 9 de janeiro de 2013, instituiu 23 de janeiro de cada ano como Araw ng Republikang Filipino, 1899. O ato moderno é distinto do evento histórico. A Lei da República n.º 11014, aprovada em 5 de abril de 2018, tornou 23 de janeiro um dia especial de trabalho em todo o país e atribuiu atividades às entidades de história e educação. Folgas provinciais exigem atos separados.",
+          "promoter": "National Historical Commission of the Philippines and Department of Education são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Conhecer a República de Malolos e distinguir a data nacional de trabalho das exceções provinciais.",
+          "facts": [
+            "A Primeira República Filipina foi inaugurada na Igreja de Barasoain, em Malolos, Bulacan, em 23 de janeiro de 1899, dois dias após a Constituição de Malolos. A data recorda a fundação republicana.",
+            "A Proclamação presidencial n.º 533, assinada em 9 de janeiro de 2013, instituiu 23 de janeiro de cada ano como Araw ng Republikang Filipino, 1899. O ato moderno é distinto do evento histórico.",
+            "A Lei da República n.º 11014, aprovada em 5 de abril de 2018, tornou 23 de janeiro um dia especial de trabalho em todo o país e atribuiu atividades às entidades de história e educação. Folgas provinciais exigem atos separados."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-filipino-chinese-friendship-day",
+      "country": "PH",
+      "observanceDate": "06-09",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "originClusterId": "PH_CHINA_DIPLOMATIC_RELATIONS_JUNE9_1975_PROCLAMATION_2002",
+      "legalStatus": "PH_ANNUAL_CIVIC_COMMEMORATION_NOT_GENERAL_DAY_OFF",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc2002/proc_148_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 June: Filipino-Chinese Friendship Day remembers diplomatic ties",
+          "origin": "Filipino-Chinese Friendship Day is associated with the establishment of formal diplomatic relations between the Philippines and China on 9 June 1975. Its wider cultural context also includes much older trade and migration exchanges. Proclamation No. 148 of 24 January 2002 formally designated 9 June of every year. The presidential text specifically speaks of social, cultural, educational and economic cooperation rather than a historical military victory. The underlying diplomatic anniversary from 1975, the 2002 Philippine proclamation and activities organized by communities are related but different events. The proclamation does not itself establish a general non-working public holiday.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Recognize people-to-people relations and educational, cultural and economic cooperation between the two countries.",
+          "facts": [
+            "Filipino-Chinese Friendship Day is associated with the establishment of formal diplomatic relations between the Philippines and China on 9 June 1975. Its wider cultural context also includes much older trade and migration exchanges.",
+            "Proclamation No. 148 of 24 January 2002 formally designated 9 June of every year. The presidential text specifically speaks of social, cultural, educational and economic cooperation rather than a historical military victory.",
+            "The underlying diplomatic anniversary from 1975, the 2002 Philippine proclamation and activities organized by communities are related but different events. The proclamation does not itself establish a general non-working public holiday."
+          ]
+        },
+        "it": {
+          "heading": "9 giugno: l'amicizia filippino-cinese ricorda le relazioni diplomatiche",
+          "origin": "La Giornata dell'amicizia filippino-cinese ricorda le relazioni diplomatiche formali avviate il 9 giugno 1975. Il contesto comprende anche scambi commerciali, culturali e migratori molto più antichi. La Proclamazione n. 148 del 24 gennaio 2002 ha istituito la ricorrenza annuale del 9 giugno. Il testo richiama cooperazione sociale, culturale, educativa ed economica e non una vittoria militare. L'anniversario diplomatico del 1975, la proclamazione del 2002 e le iniziative delle comunità sono momenti collegati ma distinti. L'atto non prevede una giornata generalmente non lavorativa.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Conoscere le relazioni tra le comunità e la cooperazione culturale, educativa ed economica fra i due paesi.",
+          "facts": [
+            "La Giornata dell'amicizia filippino-cinese ricorda le relazioni diplomatiche formali avviate il 9 giugno 1975. Il contesto comprende anche scambi commerciali, culturali e migratori molto più antichi.",
+            "La Proclamazione n. 148 del 24 gennaio 2002 ha istituito la ricorrenza annuale del 9 giugno. Il testo richiama cooperazione sociale, culturale, educativa ed economica e non una vittoria militare.",
+            "L'anniversario diplomatico del 1975, la proclamazione del 2002 e le iniziative delle comunità sono momenti collegati ma distinti. L'atto non prevede una giornata generalmente non lavorativa."
+          ]
+        },
+        "es": {
+          "heading": "9 de junio: la amistad filipino-china recuerda los vínculos diplomáticos",
+          "origin": "El Día de la Amistad Filipino-China recuerda el establecimiento de relaciones diplomáticas formales el 9 de junio de 1975, en un contexto de intercambios comerciales y culturales anteriores. La Proclamación n.º 148 del 24 de enero de 2002 estableció cada 9 de junio. El documento destaca la cooperación social, cultural, educativa y económica, no una victoria militar. El aniversario diplomático de 1975, la proclamación de 2002 y las actividades comunitarias son hechos relacionados, pero distintos. No se crea un descanso laboral general.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Reconocer los vínculos entre comunidades y la cooperación cultural, educativa y económica.",
+          "facts": [
+            "El Día de la Amistad Filipino-China recuerda el establecimiento de relaciones diplomáticas formales el 9 de junio de 1975, en un contexto de intercambios comerciales y culturales anteriores.",
+            "La Proclamación n.º 148 del 24 de enero de 2002 estableció cada 9 de junio. El documento destaca la cooperación social, cultural, educativa y económica, no una victoria militar.",
+            "El aniversario diplomático de 1975, la proclamación de 2002 y las actividades comunitarias son hechos relacionados, pero distintos. No se crea un descanso laboral general."
+          ]
+        },
+        "fr": {
+          "heading": "9 juin : l'amitié philippino-chinoise rappelle les relations diplomatiques",
+          "origin": "La Journée de l'amitié philippino-chinoise rappelle l'établissement des relations diplomatiques officielles le 9 juin 1975, sur fond d'échanges commerciaux et culturels beaucoup plus anciens. La proclamation nº 148 du 24 janvier 2002 a institué chaque 9 juin. Elle évoque la coopération sociale, culturelle, éducative et économique plutôt qu'une victoire militaire. L'anniversaire diplomatique de 1975, la proclamation de 2002 et les événements des communautés sont liés mais distincts. Le texte ne crée pas de congé national général.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Valoriser les relations entre communautés et les échanges culturels, éducatifs et économiques.",
+          "facts": [
+            "La Journée de l'amitié philippino-chinoise rappelle l'établissement des relations diplomatiques officielles le 9 juin 1975, sur fond d'échanges commerciaux et culturels beaucoup plus anciens.",
+            "La proclamation nº 148 du 24 janvier 2002 a institué chaque 9 juin. Elle évoque la coopération sociale, culturelle, éducative et économique plutôt qu'une victoire militaire.",
+            "L'anniversaire diplomatique de 1975, la proclamation de 2002 et les événements des communautés sont liés mais distincts. Le texte ne crée pas de congé national général."
+          ]
+        },
+        "de": {
+          "heading": "9. Juni: Der philippinisch-chinesische Freundschaftstag",
+          "origin": "Der philippinisch-chinesische Freundschaftstag erinnert an die Aufnahme formeller diplomatischer Beziehungen am 9. Juni 1975 vor dem Hintergrund älterer Handels- und Kulturkontakte. Proklamation Nr. 148 vom 24. Januar 2002 legte den jährlichen 9. Juni fest. Der Text betont soziale, kulturelle, pädagogische und wirtschaftliche Zusammenarbeit statt militärischer Ereignisse. Das diplomatische Jubiläum von 1975, die Proklamation von 2002 und Veranstaltungen der Gemeinschaften sind verwandt, aber verschieden. Es entsteht kein allgemeiner freier Feiertag.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Beziehungen zwischen Gemeinschaften und kulturellen, pädagogischen sowie wirtschaftlichen Austausch würdigen.",
+          "facts": [
+            "Der philippinisch-chinesische Freundschaftstag erinnert an die Aufnahme formeller diplomatischer Beziehungen am 9. Juni 1975 vor dem Hintergrund älterer Handels- und Kulturkontakte.",
+            "Proklamation Nr. 148 vom 24. Januar 2002 legte den jährlichen 9. Juni fest. Der Text betont soziale, kulturelle, pädagogische und wirtschaftliche Zusammenarbeit statt militärischer Ereignisse.",
+            "Das diplomatische Jubiläum von 1975, die Proklamation von 2002 und Veranstaltungen der Gemeinschaften sind verwandt, aber verschieden. Es entsteht kein allgemeiner freier Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "9 de junho: a amizade filipino-chinesa recorda laços diplomáticos",
+          "origin": "O Dia da Amizade Filipino-Chinesa recorda o estabelecimento de relações diplomáticas em 9 de junho de 1975, após contactos comerciais e culturais muito mais antigos. A Proclamação n.º 148 de 24 de janeiro de 2002 instituiu 9 de junho de cada ano. O texto destaca cooperação social, cultural, educativa e económica, não uma vitória militar. O aniversário diplomático de 1975, a proclamação de 2002 e as ações comunitárias são acontecimentos ligados mas diferentes. Não é criado um feriado geral.",
+          "promoter": "Office of the President and Philippine diplomatic and cultural institutions são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Valorizar os laços entre comunidades e a cooperação cultural, educativa e económica.",
+          "facts": [
+            "O Dia da Amizade Filipino-Chinesa recorda o estabelecimento de relações diplomáticas em 9 de junho de 1975, após contactos comerciais e culturais muito mais antigos.",
+            "A Proclamação n.º 148 de 24 de janeiro de 2002 instituiu 9 de junho de cada ano. O texto destaca cooperação social, cultural, educativa e económica, não uma vitória militar.",
+            "O aniversário diplomático de 1975, a proclamação de 2002 e as ações comunitárias são acontecimentos ligados mas diferentes. Não é criado um feriado geral."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippine-spanish-friendship-day",
+      "country": "PH",
+      "observanceDate": "06-30",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2003,
+      "firstObservedYear": null,
+      "originClusterId": "PH_BALER_1899_SPANISH_FRIENDSHIP_RA9187_2003",
+      "legalStatus": "PH_SPECIAL_WORKING_NATIONWIDE_NONWORKING_AURORA_PROVINCE_RA9187",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2003/ra_9187_2003.html",
+        "https://lawphil.net/executive/ao/ao2003/ao_76_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 June: Baler's 1899 encounter and Philippine-Spanish Friendship Day",
+          "origin": "The historical reference is 30 June 1899, when President Emilio Aguinaldo commended the Spanish garrison that had held out in Baler. The observance recalls a moment of respect following conflict, rather than treating the entire colonial era as one friendship celebration. Republic Act No. 9187 of 2003 declared 30 June each year Philippine-Spanish Friendship Day. Its legal status is a national special working holiday and, specifically, a special non-working holiday in Aurora Province. Administrative Order No. 76 provided implementation guidance through a historical-institute-led inter-agency committee. The special Aurora status must not be mistakenly applied to every Philippine province.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Explain the 1899 Baler episode and distinguish the special working national holiday from the Aurora-only non-working exception.",
+          "facts": [
+            "The historical reference is 30 June 1899, when President Emilio Aguinaldo commended the Spanish garrison that had held out in Baler. The observance recalls a moment of respect following conflict, rather than treating the entire colonial era as one friendship celebration.",
+            "Republic Act No. 9187 of 2003 declared 30 June each year Philippine-Spanish Friendship Day. Its legal status is a national special working holiday and, specifically, a special non-working holiday in Aurora Province.",
+            "Administrative Order No. 76 provided implementation guidance through a historical-institute-led inter-agency committee. The special Aurora status must not be mistakenly applied to every Philippine province."
+          ]
+        },
+        "it": {
+          "heading": "30 giugno: Baler nel 1899 e l'amicizia filippino-spagnola",
+          "origin": "Il riferimento storico è il 30 giugno 1899, quando Emilio Aguinaldo riconobbe il valore della guarnigione spagnola rimasta a Baler. La ricorrenza sottolinea il rispetto dopo il conflitto, non celebra indiscriminatamente l'epoca coloniale. La Legge della Repubblica n. 9187 del 2003 ha istituito il 30 giugno: festività speciale lavorativa a livello nazionale, ma giornata speciale non lavorativa nella sola provincia di Aurora. L'Ordine amministrativo n. 76 disciplinò le iniziative tramite un comitato guidato dall'istituto storico nazionale. L'eccezione di Aurora non deve essere estesa erroneamente a tutte le province.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Raccontare l'episodio di Baler del 1899 e distinguere la festività lavorativa nazionale dall'eccezione di Aurora.",
+          "facts": [
+            "Il riferimento storico è il 30 giugno 1899, quando Emilio Aguinaldo riconobbe il valore della guarnigione spagnola rimasta a Baler. La ricorrenza sottolinea il rispetto dopo il conflitto, non celebra indiscriminatamente l'epoca coloniale.",
+            "La Legge della Repubblica n. 9187 del 2003 ha istituito il 30 giugno: festività speciale lavorativa a livello nazionale, ma giornata speciale non lavorativa nella sola provincia di Aurora.",
+            "L'Ordine amministrativo n. 76 disciplinò le iniziative tramite un comitato guidato dall'istituto storico nazionale. L'eccezione di Aurora non deve essere estesa erroneamente a tutte le province."
+          ]
+        },
+        "es": {
+          "heading": "30 de junio: Baler en 1899 y la amistad filipino-española",
+          "origin": "El referente es el 30 de junio de 1899, cuando Emilio Aguinaldo reconoció a la guarnición española de Baler. La fecha destaca un gesto de respeto tras el conflicto, no una celebración indiscriminada del periodo colonial. La Ley de la República n.º 9187 de 2003 estableció el 30 de junio como día especial laborable nacional y día especial no laborable exclusivamente en la provincia de Aurora. La Orden Administrativa n.º 76 organizó la aplicación mediante un comité encabezado por el instituto histórico. La excepción de Aurora no se aplica al resto de provincias.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Explicar el episodio de Baler de 1899 y distinguir la condición laboral nacional de la excepción de Aurora.",
+          "facts": [
+            "El referente es el 30 de junio de 1899, cuando Emilio Aguinaldo reconoció a la guarnición española de Baler. La fecha destaca un gesto de respeto tras el conflicto, no una celebración indiscriminada del periodo colonial.",
+            "La Ley de la República n.º 9187 de 2003 estableció el 30 de junio como día especial laborable nacional y día especial no laborable exclusivamente en la provincia de Aurora.",
+            "La Orden Administrativa n.º 76 organizó la aplicación mediante un comité encabezado por el instituto histórico. La excepción de Aurora no se aplica al resto de provincias."
+          ]
+        },
+        "fr": {
+          "heading": "30 juin : Baler en 1899 et l'amitié philippino-espagnole",
+          "origin": "La référence est le 30 juin 1899, quand Emilio Aguinaldo rendit hommage à la garnison espagnole de Baler. La journée évoque un respect après le conflit, et non la célébration de toute la période coloniale. La loi de la République nº 9187 de 2003 a fixé le 30 juin comme journée spéciale travaillée dans le pays et journée spéciale chômée uniquement dans la province d'Aurora. L'ordre administratif nº 76 a organisé les activités avec un comité dirigé par l'institut historique. Le statut propre à Aurora ne doit pas être appliqué à toutes les provinces.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Expliquer l'épisode de Baler de 1899 et distinguer le calendrier national de l'exception d'Aurora.",
+          "facts": [
+            "La référence est le 30 juin 1899, quand Emilio Aguinaldo rendit hommage à la garnison espagnole de Baler. La journée évoque un respect après le conflit, et non la célébration de toute la période coloniale.",
+            "La loi de la République nº 9187 de 2003 a fixé le 30 juin comme journée spéciale travaillée dans le pays et journée spéciale chômée uniquement dans la province d'Aurora.",
+            "L'ordre administratif nº 76 a organisé les activités avec un comité dirigé par l'institut historique. Le statut propre à Aurora ne doit pas être appliqué à toutes les provinces."
+          ]
+        },
+        "de": {
+          "heading": "30. Juni: Baler 1899 und der philippinisch-spanische Freundschaftstag",
+          "origin": "Historischer Bezug ist der 30. Juni 1899, als Emilio Aguinaldo die spanische Garnison von Baler würdigte. Der Tag erinnert an Respekt nach einem Konflikt und nicht an eine pauschale Feier der Kolonialzeit. Republikgesetz Nr. 9187 von 2003 erklärte den 30. Juni landesweit zum besonderen Arbeitstag, jedoch in der Provinz Aurora zum besonderen arbeitsfreien Feiertag. Verwaltungsanordnung Nr. 76 regelte die Durchführung durch einen Ausschuss unter Leitung des historischen Instituts. Die Aurora-Ausnahme gilt nicht für sämtliche Provinzen.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Die Ereignisse von Baler 1899 erläutern und nationale Arbeitsregelung von der Aurora-Ausnahme unterscheiden.",
+          "facts": [
+            "Historischer Bezug ist der 30. Juni 1899, als Emilio Aguinaldo die spanische Garnison von Baler würdigte. Der Tag erinnert an Respekt nach einem Konflikt und nicht an eine pauschale Feier der Kolonialzeit.",
+            "Republikgesetz Nr. 9187 von 2003 erklärte den 30. Juni landesweit zum besonderen Arbeitstag, jedoch in der Provinz Aurora zum besonderen arbeitsfreien Feiertag.",
+            "Verwaltungsanordnung Nr. 76 regelte die Durchführung durch einen Ausschuss unter Leitung des historischen Instituts. Die Aurora-Ausnahme gilt nicht für sämtliche Provinzen."
+          ]
+        },
+        "pt": {
+          "heading": "30 de junho: Baler em 1899 e a amizade filipino-espanhola",
+          "origin": "O referente histórico é 30 de junho de 1899, quando Emilio Aguinaldo reconheceu a guarnição espanhola de Baler. A data recorda respeito após o conflito, não uma celebração indiscriminada do período colonial. A Lei da República n.º 9187 de 2003 estabeleceu 30 de junho como dia especial de trabalho nacional e feriado especial não laboral apenas na província de Aurora. A Ordem Administrativa n.º 76 organizou as ações com um comité dirigido pelo instituto histórico. A exceção de Aurora não se aplica às restantes províncias.",
+          "promoter": "National Historical Institute, Department of Foreign Affairs and inter-agency committee with the municipality of Baler são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Explicar o episódio de Baler em 1899 e distinguir a regra nacional da exceção da província de Aurora.",
+          "facts": [
+            "O referente histórico é 30 de junho de 1899, quando Emilio Aguinaldo reconheceu a guarnição espanhola de Baler. A data recorda respeito após o conflito, não uma celebração indiscriminada do período colonial.",
+            "A Lei da República n.º 9187 de 2003 estabeleceu 30 de junho como dia especial de trabalho nacional e feriado especial não laboral apenas na província de Aurora.",
+            "A Ordem Administrativa n.º 76 organizou as ações com um comité dirigido pelo instituto histórico. A exceção de Aurora não se aplica às restantes províncias."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-literacy-day",
+      "country": "PH",
+      "observanceDate": "09-08",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1969,
+      "firstObservedYear": null,
+      "originClusterId": "PH_UNESCO_SEPT8_LITERACY_1967_1969_1979",
+      "legalStatus": "PH_NATIONAL_LITERACY_OBSERVANCE_NO_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1969/proc_606_1969.html",
+        "https://lawphil.net/executive/proc/proc1979/proc_1886_1979.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 September: the Philippines' Literacy Day and two presidential proclamations",
+          "origin": "The Philippine observance shares 8 September with the international literacy movement promoted by UNESCO after the 1965 Tehran conference. Philippine groups had observed the international date since 1967. Proclamation No. 606, signed 8 September 1969, designated the date as Philippine National Literacy Day. The initiative encouraged public and private institutions to address basic and functional literacy. Proclamation No. 1886 of 17 August 1979 again designated 8 September and specified cooperation with education authorities and UNESCO's Philippine Commission. The year 1979 is not the first official local origin.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Promote literacy and distinguish the UNESCO international origin, the 1969 Philippine declaration and the 1979 reaffirmation.",
+          "facts": [
+            "The Philippine observance shares 8 September with the international literacy movement promoted by UNESCO after the 1965 Tehran conference. Philippine groups had observed the international date since 1967.",
+            "Proclamation No. 606, signed 8 September 1969, designated the date as Philippine National Literacy Day. The initiative encouraged public and private institutions to address basic and functional literacy.",
+            "Proclamation No. 1886 of 17 August 1979 again designated 8 September and specified cooperation with education authorities and UNESCO's Philippine Commission. The year 1979 is not the first official local origin."
+          ]
+        },
+        "it": {
+          "heading": "8 settembre: la Giornata dell'alfabetizzazione e due proclamazioni",
+          "origin": "La ricorrenza filippina condivide l'8 settembre con la mobilitazione internazionale promossa dall'UNESCO dopo la conferenza di Teheran del 1965. Associazioni locali la celebravano dal 1967. La Proclamazione n. 606, firmata l'8 settembre 1969, istituì la Giornata nazionale dell'alfabetizzazione e invitò enti pubblici e privati a contrastare l'analfabetismo. La Proclamazione n. 1886 del 17 agosto 1979 ribadì l'8 settembre e coinvolse le autorità educative e la commissione filippina UNESCO. Il 1979 non è la prima istituzione nazionale.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Promuovere l'alfabetizzazione distinguendo iniziativa UNESCO, proclamazione del 1969 e conferma del 1979.",
+          "facts": [
+            "La ricorrenza filippina condivide l'8 settembre con la mobilitazione internazionale promossa dall'UNESCO dopo la conferenza di Teheran del 1965. Associazioni locali la celebravano dal 1967.",
+            "La Proclamazione n. 606, firmata l'8 settembre 1969, istituì la Giornata nazionale dell'alfabetizzazione e invitò enti pubblici e privati a contrastare l'analfabetismo.",
+            "La Proclamazione n. 1886 del 17 agosto 1979 ribadì l'8 settembre e coinvolse le autorità educative e la commissione filippina UNESCO. Il 1979 non è la prima istituzione nazionale."
+          ]
+        },
+        "es": {
+          "heading": "8 de septiembre: Alfabetización y dos proclamaciones presidenciales",
+          "origin": "La fecha filipina coincide con la campaña internacional de alfabetización promovida por la UNESCO tras la conferencia de Teherán de 1965. Organizaciones locales la recordaban desde 1967. La Proclamación n.º 606, firmada el 8 de septiembre de 1969, estableció la jornada nacional e invitó a instituciones públicas y privadas a combatir el analfabetismo. La Proclamación n.º 1886 del 17 de agosto de 1979 reafirmó el 8 de septiembre y la colaboración educativa y de la comisión filipina de la UNESCO. El origen oficial no empezó en 1979.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Promover alfabetización distinguiendo el impulso de la UNESCO, la declaración de 1969 y la reafirmación de 1979.",
+          "facts": [
+            "La fecha filipina coincide con la campaña internacional de alfabetización promovida por la UNESCO tras la conferencia de Teherán de 1965. Organizaciones locales la recordaban desde 1967.",
+            "La Proclamación n.º 606, firmada el 8 de septiembre de 1969, estableció la jornada nacional e invitó a instituciones públicas y privadas a combatir el analfabetismo.",
+            "La Proclamación n.º 1886 del 17 de agosto de 1979 reafirmó el 8 de septiembre y la colaboración educativa y de la comisión filipina de la UNESCO. El origen oficial no empezó en 1979."
+          ]
+        },
+        "fr": {
+          "heading": "8 septembre : alphabétisation et deux proclamations présidentielles",
+          "origin": "La date philippine du 8 septembre partage son origine internationale avec la mobilisation de l'UNESCO après la conférence de Téhéran de 1965. Des organismes locaux la célébraient dès 1967. La proclamation nº 606, signée le 8 septembre 1969, a institué la journée nationale et appelé les institutions publiques et privées à combattre l'illettrisme. La proclamation nº 1886 du 17 août 1979 a confirmé le 8 septembre et la coopération des autorités éducatives avec la commission philippine de l'UNESCO. La date juridique première est antérieure.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Promouvoir l'alphabétisation et distinguer la source de l'UNESCO, la déclaration de 1969 et celle de 1979.",
+          "facts": [
+            "La date philippine du 8 septembre partage son origine internationale avec la mobilisation de l'UNESCO après la conférence de Téhéran de 1965. Des organismes locaux la célébraient dès 1967.",
+            "La proclamation nº 606, signée le 8 septembre 1969, a institué la journée nationale et appelé les institutions publiques et privées à combattre l'illettrisme.",
+            "La proclamation nº 1886 du 17 août 1979 a confirmé le 8 septembre et la coopération des autorités éducatives avec la commission philippine de l'UNESCO. La date juridique première est antérieure."
+          ]
+        },
+        "de": {
+          "heading": "8. September: Alphabetisierung und zwei philippinische Proklamationen",
+          "origin": "Der philippinische 8. September gehört zur UNESCO-Alphabetisierungsbewegung nach der Teheran-Konferenz von 1965. Philippinische Organisationen begingen das Datum bereits ab 1967. Proklamation Nr. 606 vom 8. September 1969 führte den nationalen Alphabetisierungstag ein und rief staatliche wie private Einrichtungen zum Handeln auf. Proklamation Nr. 1886 vom 17. August 1979 bekräftigte den 8. September und die Zusammenarbeit von Bildung und philippinischer UNESCO-Kommission. 1979 war nicht der erste nationale Rechtsakt.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Alphabetisierung fördern und UNESCO-Anstoß, philippinische Einführung 1969 und Bestätigung 1979 trennen.",
+          "facts": [
+            "Der philippinische 8. September gehört zur UNESCO-Alphabetisierungsbewegung nach der Teheran-Konferenz von 1965. Philippinische Organisationen begingen das Datum bereits ab 1967.",
+            "Proklamation Nr. 606 vom 8. September 1969 führte den nationalen Alphabetisierungstag ein und rief staatliche wie private Einrichtungen zum Handeln auf.",
+            "Proklamation Nr. 1886 vom 17. August 1979 bekräftigte den 8. September und die Zusammenarbeit von Bildung und philippinischer UNESCO-Kommission. 1979 war nicht der erste nationale Rechtsakt."
+          ]
+        },
+        "pt": {
+          "heading": "8 de setembro: alfabetização e duas proclamações presidenciais",
+          "origin": "A data filipina de 8 de setembro liga-se ao movimento de alfabetização da UNESCO após a conferência de Teerão de 1965. Organizações locais assinalavam-na desde 1967. A Proclamação n.º 606, assinada em 8 de setembro de 1969, instituiu a jornada nacional e mobilizou entidades públicas e privadas contra o analfabetismo. A Proclamação n.º 1886 de 17 de agosto de 1979 reafirmou 8 de setembro e a colaboração educativa com a Comissão Filipina da UNESCO. A primeira origem oficial é anterior a 1979.",
+          "promoter": "Department of Education and the Philippine UNESCO National Commission são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Promover alfabetização e distinguir a origem da UNESCO, a proclamação de 1969 e a reafirmação de 1979.",
+          "facts": [
+            "A data filipina de 8 de setembro liga-se ao movimento de alfabetização da UNESCO após a conferência de Teerão de 1965. Organizações locais assinalavam-na desde 1967.",
+            "A Proclamação n.º 606, assinada em 8 de setembro de 1969, instituiu a jornada nacional e mobilizou entidades públicas e privadas contra o analfabetismo.",
+            "A Proclamação n.º 1886 de 17 de agosto de 1979 reafirmou 8 de setembro e a colaboração educativa com a Comissão Filipina da UNESCO. A primeira origem oficial é anterior a 1979."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-teachers-day",
+      "country": "PH",
+      "observanceDate": "10-05",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2016,
+      "firstObservedYear": null,
+      "originClusterId": "PH_TEACHERS_OCT5_LAW2016_DISTINCT_FROM_GLOBAL",
+      "legalStatus": "PH_SPECIAL_WORKING_HOLIDAY_RA10743_2016",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2016/ra_10743_2016.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/66305",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 October: National Teachers' Day is a special working holiday",
+          "origin": "National Teachers' Day in the Philippines recognizes teachers' work in schools and their role in learning and community development. Its date coincides with the wider international calendar but has a specific Philippine legal basis. Republic Act No. 10743, approved 29 January 2016, designated 5 October of every year National Teachers' Day as a special working holiday. It is not automatically a nationwide day off. The law assigns the Department of Education the lead role and asks public institutions and private employers to make participation in commemorative activities possible. It does not itself establish a school closure.",
+          "promoter": "Department of Education and participating public and private employers are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Recognize teaching and ensure the statutory working-day classification is not mistaken for school closure or a general non-working holiday.",
+          "facts": [
+            "National Teachers' Day in the Philippines recognizes teachers' work in schools and their role in learning and community development. Its date coincides with the wider international calendar but has a specific Philippine legal basis.",
+            "Republic Act No. 10743, approved 29 January 2016, designated 5 October of every year National Teachers' Day as a special working holiday. It is not automatically a nationwide day off.",
+            "The law assigns the Department of Education the lead role and asks public institutions and private employers to make participation in commemorative activities possible. It does not itself establish a school closure."
+          ]
+        },
+        "it": {
+          "heading": "5 ottobre: la Giornata degli insegnanti è una ricorrenza lavorativa",
+          "origin": "La Giornata nazionale degli insegnanti riconosce il lavoro dei docenti nelle scuole e nello sviluppo delle comunità. La data coincide con un calendario internazionale ma ha una norma filippina specifica. La Legge della Repubblica n. 10743, approvata il 29 gennaio 2016, ha designato il 5 ottobre come festività speciale lavorativa nazionale: non è una giornata di riposo generale. La legge affida il coordinamento al Dipartimento dell'Istruzione e invita enti e aziende a favorire la partecipazione alle attività. Non stabilisce la chiusura obbligatoria delle scuole.",
+          "promoter": "Department of Education and participating public and private employers sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Valorizzare l'insegnamento senza confondere la festività lavorativa con la chiusura delle scuole.",
+          "facts": [
+            "La Giornata nazionale degli insegnanti riconosce il lavoro dei docenti nelle scuole e nello sviluppo delle comunità. La data coincide con un calendario internazionale ma ha una norma filippina specifica.",
+            "La Legge della Repubblica n. 10743, approvata il 29 gennaio 2016, ha designato il 5 ottobre come festività speciale lavorativa nazionale: non è una giornata di riposo generale.",
+            "La legge affida il coordinamento al Dipartimento dell'Istruzione e invita enti e aziende a favorire la partecipazione alle attività. Non stabilisce la chiusura obbligatoria delle scuole."
+          ]
+        },
+        "es": {
+          "heading": "5 de octubre: el Día del Maestro es un día especial laborable",
+          "origin": "El Día Nacional del Maestro reconoce a los docentes y su labor educativa y comunitaria. Coincide con el calendario internacional, pero posee una base jurídica filipina propia. La Ley de la República n.º 10743, aprobada el 29 de enero de 2016, estableció el 5 de octubre como día especial laborable, no descanso nacional general. La norma encarga la coordinación al Departamento de Educación y pide a entidades y empleadores facilitar las actividades. No ordena el cierre general de escuelas.",
+          "promoter": "Department of Education and participating public and private employers son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Reconocer la enseñanza sin confundir el día laborable con el cierre de escuelas.",
+          "facts": [
+            "El Día Nacional del Maestro reconoce a los docentes y su labor educativa y comunitaria. Coincide con el calendario internacional, pero posee una base jurídica filipina propia.",
+            "La Ley de la República n.º 10743, aprobada el 29 de enero de 2016, estableció el 5 de octubre como día especial laborable, no descanso nacional general.",
+            "La norma encarga la coordinación al Departamento de Educación y pide a entidades y empleadores facilitar las actividades. No ordena el cierre general de escuelas."
+          ]
+        },
+        "fr": {
+          "heading": "5 octobre : les enseignants célébrés lors d'une journée travaillée",
+          "origin": "La Journée nationale des enseignants reconnaît leur travail éducatif et leur rôle dans la société. Elle rejoint le calendrier international, mais possède un fondement légal philippin distinct. La loi de la République nº 10743, approuvée le 29 janvier 2016, a institué le 5 octobre comme journée spéciale travaillée, sans congé national général. Le texte charge le ministère de l'Éducation de l'organisation et demande aux employeurs de faciliter la participation. Il n'ordonne pas la fermeture générale des écoles.",
+          "promoter": "Department of Education and participating public and private employers sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Valoriser les enseignants sans confondre journée travaillée et fermeture des établissements.",
+          "facts": [
+            "La Journée nationale des enseignants reconnaît leur travail éducatif et leur rôle dans la société. Elle rejoint le calendrier international, mais possède un fondement légal philippin distinct.",
+            "La loi de la République nº 10743, approuvée le 29 janvier 2016, a institué le 5 octobre comme journée spéciale travaillée, sans congé national général.",
+            "Le texte charge le ministère de l'Éducation de l'organisation et demande aux employeurs de faciliter la participation. Il n'ordonne pas la fermeture générale des écoles."
+          ]
+        },
+        "de": {
+          "heading": "5. Oktober: Der philippinische Lehrertag bleibt ein Arbeitstag",
+          "origin": "Der philippinische Lehrertag würdigt Lehrkräfte und ihre Bedeutung für Bildung und Gesellschaft. Sein Datum entspricht der internationalen Feier, besitzt aber eine eigene nationale Rechtsgrundlage. Republikgesetz Nr. 10743 vom 29. Januar 2016 führte den 5. Oktober als besonderen Arbeitstag ein, nicht als landesweiten arbeitsfreien Feiertag. Das Gesetz macht das Bildungsministerium federführend und bittet Arbeitgeber, Teilnahme zu ermöglichen. Es schreibt keine allgemeine Schulschließung vor.",
+          "promoter": "Department of Education and participating public and private employers sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Lehrkräfte würdigen, ohne besonderen Arbeitstag und Schulschließung zu verwechseln.",
+          "facts": [
+            "Der philippinische Lehrertag würdigt Lehrkräfte und ihre Bedeutung für Bildung und Gesellschaft. Sein Datum entspricht der internationalen Feier, besitzt aber eine eigene nationale Rechtsgrundlage.",
+            "Republikgesetz Nr. 10743 vom 29. Januar 2016 führte den 5. Oktober als besonderen Arbeitstag ein, nicht als landesweiten arbeitsfreien Feiertag.",
+            "Das Gesetz macht das Bildungsministerium federführend und bittet Arbeitgeber, Teilnahme zu ermöglichen. Es schreibt keine allgemeine Schulschließung vor."
+          ]
+        },
+        "pt": {
+          "heading": "5 de outubro: o Dia dos Professores é um dia especial de trabalho",
+          "origin": "O Dia Nacional dos Professores reconhece o trabalho docente e o seu papel na educação e na comunidade. A data coincide com a internacional, mas tem fundamento legal filipino próprio. A Lei da República n.º 10743, aprovada em 29 de janeiro de 2016, instituiu 5 de outubro como dia especial de trabalho, não um feriado geral. A lei atribui a coordenação ao Departamento de Educação e incentiva empregadores a facilitar atividades. Não estabelece encerramento geral das escolas.",
+          "promoter": "Department of Education and participating public and private employers são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Reconhecer a docência sem confundir a data de trabalho com encerramento escolar.",
+          "facts": [
+            "O Dia Nacional dos Professores reconhece o trabalho docente e o seu papel na educação e na comunidade. A data coincide com a internacional, mas tem fundamento legal filipino próprio.",
+            "A Lei da República n.º 10743, aprovada em 29 de janeiro de 2016, instituiu 5 de outubro como dia especial de trabalho, não um feriado geral.",
+            "A lei atribui a coordenação ao Departamento de Educação e incentiva empregadores a facilitar atividades. Não estabelece encerramento geral das escolas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippine-flag-days-commencement",
+      "country": "PH",
+      "observanceDate": "05-28",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1965,
+      "firstObservedYear": null,
+      "originClusterId": "PH_FLAG_1898_ALAPAN_1965_RESTATEMENT_1998_DISPLAY_RANGE",
+      "legalStatus": "PH_FLAG_DAY_MAY28_ANNUAL_AND_FLAG_DAYS_UNTIL_JUNE12_RA8491",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1965/proc_374_1965.html",
+        "https://lawphil.net/statutes/repacts/ra1998/ra_8491_1998.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 May: Flag Day opens a national display period until 12 June",
+          "origin": "Flag Day begins on 28 May, commemorating the 1898 Battle of Alapan at Imus, Cavite, where the Philippine flag was raised during the struggle for independence. The historical episode is different from the date of a modern legal act. Proclamation No. 374 of 6 March 1965 declared 28 May of every year Flag Day, revoking an earlier 1949 proclamation. Its anniversary is not a single invention of flag symbolism. Republic Act No. 8491 of 1998 later specified that Flag Days span 28 May to 12 June and encourages government bodies, schools, businesses and homes to display the flag. This is a period with a clear opening day, not just a 24-hour celebration.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Explain the 1898 historical episode, Flag Day and the modern multi-day national display rule.",
+          "facts": [
+            "Flag Day begins on 28 May, commemorating the 1898 Battle of Alapan at Imus, Cavite, where the Philippine flag was raised during the struggle for independence. The historical episode is different from the date of a modern legal act.",
+            "Proclamation No. 374 of 6 March 1965 declared 28 May of every year Flag Day, revoking an earlier 1949 proclamation. Its anniversary is not a single invention of flag symbolism.",
+            "Republic Act No. 8491 of 1998 later specified that Flag Days span 28 May to 12 June and encourages government bodies, schools, businesses and homes to display the flag. This is a period with a clear opening day, not just a 24-hour celebration."
+          ]
+        },
+        "it": {
+          "heading": "28 maggio: inizia il periodo di esposizione della bandiera fino al 12 giugno",
+          "origin": "Il Giorno della bandiera inizia il 28 maggio e ricorda la battaglia di Alapan del 1898 a Imus, Cavite, durante la quale fu issata la bandiera nella lotta per l'indipendenza. L'evento precede le leggi moderne. La Proclamazione n. 374 del 6 marzo 1965 fissò annualmente il 28 maggio come Giorno della bandiera e abrogò una proclamazione del 1949. Non inventò il simbolo storico della bandiera. La Legge n. 8491 del 1998 ha poi definito i Flag Days dal 28 maggio al 12 giugno e invitato istituzioni, scuole, imprese e famiglie a esporre la bandiera. È un periodo con una data iniziale precisa.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Spiegare l'episodio del 1898 e la differenza fra Giorno della bandiera e periodo di esposizione.",
+          "facts": [
+            "Il Giorno della bandiera inizia il 28 maggio e ricorda la battaglia di Alapan del 1898 a Imus, Cavite, durante la quale fu issata la bandiera nella lotta per l'indipendenza. L'evento precede le leggi moderne.",
+            "La Proclamazione n. 374 del 6 marzo 1965 fissò annualmente il 28 maggio come Giorno della bandiera e abrogò una proclamazione del 1949. Non inventò il simbolo storico della bandiera.",
+            "La Legge n. 8491 del 1998 ha poi definito i Flag Days dal 28 maggio al 12 giugno e invitato istituzioni, scuole, imprese e famiglie a esporre la bandiera. È un periodo con una data iniziale precisa."
+          ]
+        },
+        "es": {
+          "heading": "28 de mayo: comienza el periodo de exhibición de la bandera hasta el 12 de junio",
+          "origin": "El Día de la Bandera comienza el 28 de mayo y recuerda la batalla de Alapan de 1898, en Imus, Cavite, donde se izó el pabellón durante la lucha por la independencia. El episodio precede a las normas modernas. La Proclamación n.º 374 del 6 de marzo de 1965 estableció cada 28 de mayo como Día de la Bandera y derogó una proclamación de 1949. No creó el símbolo nacional. La Ley n.º 8491 de 1998 fijó los Días de la Bandera del 28 de mayo al 12 de junio e invitó a oficinas, escuelas, empresas y hogares a exhibirla. Es un periodo y no solo un día.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Explicar el hecho histórico de 1898 y diferenciar el día inicial del periodo de exhibición.",
+          "facts": [
+            "El Día de la Bandera comienza el 28 de mayo y recuerda la batalla de Alapan de 1898, en Imus, Cavite, donde se izó el pabellón durante la lucha por la independencia. El episodio precede a las normas modernas.",
+            "La Proclamación n.º 374 del 6 de marzo de 1965 estableció cada 28 de mayo como Día de la Bandera y derogó una proclamación de 1949. No creó el símbolo nacional.",
+            "La Ley n.º 8491 de 1998 fijó los Días de la Bandera del 28 de mayo al 12 de junio e invitó a oficinas, escuelas, empresas y hogares a exhibirla. Es un periodo y no solo un día."
+          ]
+        },
+        "fr": {
+          "heading": "28 mai : début de la période du drapeau jusqu'au 12 juin",
+          "origin": "La Journée du drapeau commence le 28 mai et rappelle la bataille d'Alapan de 1898 à Imus, Cavite, où le drapeau fut hissé pendant la lutte pour l'indépendance. L'événement précède le droit moderne. La proclamation nº 374 du 6 mars 1965 a institué chaque 28 mai comme Journée du drapeau et abrogé un acte de 1949. Elle ne crée pas l'origine du symbole national. La loi nº 8491 de 1998 a fixé les Jours du drapeau du 28 mai au 12 juin et invité administrations, écoles, entreprises et foyers à l'exposer. Il s'agit d'une période et non d'un seul jour.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Expliquer le fait historique de 1898 et distinguer le jour initial de la période d'exposition.",
+          "facts": [
+            "La Journée du drapeau commence le 28 mai et rappelle la bataille d'Alapan de 1898 à Imus, Cavite, où le drapeau fut hissé pendant la lutte pour l'indépendance. L'événement précède le droit moderne.",
+            "La proclamation nº 374 du 6 mars 1965 a institué chaque 28 mai comme Journée du drapeau et abrogé un acte de 1949. Elle ne crée pas l'origine du symbole national.",
+            "La loi nº 8491 de 1998 a fixé les Jours du drapeau du 28 mai au 12 juin et invité administrations, écoles, entreprises et foyers à l'exposer. Il s'agit d'une période et non d'un seul jour."
+          ]
+        },
+        "de": {
+          "heading": "28. Mai: Der Flaggenzeitraum beginnt und reicht bis zum 12. Juni",
+          "origin": "Der Flaggentag beginnt am 28. Mai und erinnert an die Schlacht von Alapan 1898 in Imus, Cavite, wo die Flagge im Unabhängigkeitskampf gehisst wurde. Das Ereignis ist älter als heutige Gesetze. Proklamation Nr. 374 vom 6. März 1965 machte den 28. Mai zum jährlichen Flaggentag und hob eine Regelung von 1949 auf. Sie schuf nicht die historische Flagge. Republikgesetz Nr. 8491 von 1998 legte die Flaggentage vom 28. Mai bis 12. Juni fest und rief Behörden, Schulen, Unternehmen und Haushalte zum Zeigen der Flagge auf. Es ist ein Zeitraum.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Den historischen Bezug von 1898 sowie Flaggentag und Flaggenzeitraum erklären.",
+          "facts": [
+            "Der Flaggentag beginnt am 28. Mai und erinnert an die Schlacht von Alapan 1898 in Imus, Cavite, wo die Flagge im Unabhängigkeitskampf gehisst wurde. Das Ereignis ist älter als heutige Gesetze.",
+            "Proklamation Nr. 374 vom 6. März 1965 machte den 28. Mai zum jährlichen Flaggentag und hob eine Regelung von 1949 auf. Sie schuf nicht die historische Flagge.",
+            "Republikgesetz Nr. 8491 von 1998 legte die Flaggentage vom 28. Mai bis 12. Juni fest und rief Behörden, Schulen, Unternehmen und Haushalte zum Zeigen der Flagge auf. Es ist ein Zeitraum."
+          ]
+        },
+        "pt": {
+          "heading": "28 de maio: começa o período da bandeira até 12 de junho",
+          "origin": "O Dia da Bandeira começa em 28 de maio e recorda a Batalha de Alapan de 1898, em Imus, Cavite, onde a bandeira foi hasteada durante a luta pela independência. O evento antecede as normas modernas. A Proclamação n.º 374 de 6 de março de 1965 instituiu 28 de maio anualmente e revogou um ato de 1949. Não criou o símbolo nacional. A Lei n.º 8491 de 1998 definiu os Dias da Bandeira de 28 de maio a 12 de junho e incentivou órgãos públicos, escolas, empresas e lares a exibi-la. Trata-se de um período e não apenas um dia.",
+          "promoter": "National Historical Commission, government offices, schools and private institutions são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Explicar a história de 1898 e distinguir o dia inicial do período de exibição da bandeira.",
+          "facts": [
+            "O Dia da Bandeira começa em 28 de maio e recorda a Batalha de Alapan de 1898, em Imus, Cavite, onde a bandeira foi hasteada durante a luta pela independência. O evento antecede as normas modernas.",
+            "A Proclamação n.º 374 de 6 de março de 1965 instituiu 28 de maio anualmente e revogou um ato de 1949. Não criou o símbolo nacional.",
+            "A Lei n.º 8491 de 1998 definiu os Dias da Bandeira de 28 de maio a 12 de junho e incentivou órgãos públicos, escolas, empresas e lares a exibi-la. Trata-se de um período e não apenas um dia."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+      "country": "PH",
+      "observanceDate": "11-27",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2013,
+      "firstObservedYear": null,
+      "originClusterId": "PH_ARAW_NG_PAGBASA_2013_RA10556_FIXED_DATE_OBSERVED_FRIDAY_IF_WEEKEND",
+      "legalStatus": "PH_REGULAR_WORKING_HOLIDAY_WEEKEND_OBSERVED_PRECEDING_FRIDAY",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010556",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "27 November: Araw ng Pagbasa and a special rule for weekends",
+          "origin": "Araw ng Pagbasa is the Philippine national reading day, designed for elementary and secondary schools and for shared reading among children, teachers and families. Its date is 27 November each year, not a generic global book day. Republic Act No. 10556 was approved on 15 May 2013, making the day a regular working holiday; when 27 November falls on a weekend, school observances are moved to Friday of that week. The statute assigns leadership to the Department of Education and encourages storytelling, reading modules and regional languages as well as Filipino and English. An NCCA calendar label saying '2012' does not override the signed 2013 Act.",
+          "promoter": "Department of Education and National Book Development Board are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Promote reading in schools while preserving the 2013 legal year and the Friday-on-weekend observance rule.",
+          "facts": [
+            "Araw ng Pagbasa is the Philippine national reading day, designed for elementary and secondary schools and for shared reading among children, teachers and families. Its date is 27 November each year, not a generic global book day.",
+            "Republic Act No. 10556 was approved on 15 May 2013, making the day a regular working holiday; when 27 November falls on a weekend, school observances are moved to Friday of that week.",
+            "The statute assigns leadership to the Department of Education and encourages storytelling, reading modules and regional languages as well as Filipino and English. An NCCA calendar label saying '2012' does not override the signed 2013 Act."
+          ]
+        },
+        "it": {
+          "heading": "27 novembre: Araw ng Pagbasa e la regola per i fine settimana",
+          "origin": "Araw ng Pagbasa è la giornata filippina della lettura, pensata per scuole primarie e secondarie e per leggere insieme a studenti, docenti e famiglie. Cade il 27 novembre, distinto dalle giornate mondiali del libro. La Legge della Repubblica n. 10556, approvata il 15 maggio 2013, la definisce festività regolare lavorativa: se il 27 novembre cade nel fine settimana, le attività si tengono il venerdì precedente. La legge affida le attività al Dipartimento dell'Istruzione e promuove narrazione, moduli di lettura e lingue regionali oltre a filippino e inglese. Una dicitura NCCA '2012' non prevale sulla legge firmata nel 2013.",
+          "promoter": "Department of Education and National Book Development Board sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Promuovere lettura scolastica rispettando l'anno legale 2013 e la regola del venerdì.",
+          "facts": [
+            "Araw ng Pagbasa è la giornata filippina della lettura, pensata per scuole primarie e secondarie e per leggere insieme a studenti, docenti e famiglie. Cade il 27 novembre, distinto dalle giornate mondiali del libro.",
+            "La Legge della Repubblica n. 10556, approvata il 15 maggio 2013, la definisce festività regolare lavorativa: se il 27 novembre cade nel fine settimana, le attività si tengono il venerdì precedente.",
+            "La legge affida le attività al Dipartimento dell'Istruzione e promuove narrazione, moduli di lettura e lingue regionali oltre a filippino e inglese. Una dicitura NCCA '2012' non prevale sulla legge firmata nel 2013."
+          ]
+        },
+        "es": {
+          "heading": "27 de noviembre: Araw ng Pagbasa y su regla de fin de semana",
+          "origin": "Araw ng Pagbasa es el día filipino de la lectura, orientado a escuelas de primaria y secundaria y a la lectura compartida entre estudiantes, docentes y familias. Se fija el 27 de noviembre. La Ley de la República n.º 10556, aprobada el 15 de mayo de 2013, establece un día laborable: si el 27 de noviembre cae en fin de semana, la celebración escolar pasa al viernes. La norma encarga actividades al Departamento de Educación y promueve narración, lectura y lenguas regionales además de filipino e inglés. La mención '2012' de NCCA no sustituye la ley de 2013.",
+          "promoter": "Department of Education and National Book Development Board son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Promover lectura escolar respetando la ley de 2013 y la regla del viernes.",
+          "facts": [
+            "Araw ng Pagbasa es el día filipino de la lectura, orientado a escuelas de primaria y secundaria y a la lectura compartida entre estudiantes, docentes y familias. Se fija el 27 de noviembre.",
+            "La Ley de la República n.º 10556, aprobada el 15 de mayo de 2013, establece un día laborable: si el 27 de noviembre cae en fin de semana, la celebración escolar pasa al viernes.",
+            "La norma encarga actividades al Departamento de Educación y promueve narración, lectura y lenguas regionales además de filipino e inglés. La mención '2012' de NCCA no sustituye la ley de 2013."
+          ]
+        },
+        "fr": {
+          "heading": "27 novembre : Araw ng Pagbasa et sa règle pour le week-end",
+          "origin": "Araw ng Pagbasa est la journée philippine de la lecture, destinée aux écoles primaires et secondaires et aux lectures partagées entre enfants, professeurs et familles. Elle tombe le 27 novembre. La loi de la République nº 10556, approuvée le 15 mai 2013, en fait une journée travaillée : si le 27 novembre tombe un week-end, les activités scolaires ont lieu le vendredi de cette semaine. Le texte charge le ministère de l'Éducation d'organiser des lectures et des activités dans les langues régionales, le filipino et l'anglais. La mention '2012' du calendrier NCCA ne remplace pas la loi de 2013.",
+          "promoter": "Department of Education and National Book Development Board sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Promouvoir la lecture à l'école avec la date légale de 2013 et la règle du vendredi.",
+          "facts": [
+            "Araw ng Pagbasa est la journée philippine de la lecture, destinée aux écoles primaires et secondaires et aux lectures partagées entre enfants, professeurs et familles. Elle tombe le 27 novembre.",
+            "La loi de la République nº 10556, approuvée le 15 mai 2013, en fait une journée travaillée : si le 27 novembre tombe un week-end, les activités scolaires ont lieu le vendredi de cette semaine.",
+            "Le texte charge le ministère de l'Éducation d'organiser des lectures et des activités dans les langues régionales, le filipino et l'anglais. La mention '2012' du calendrier NCCA ne remplace pas la loi de 2013."
+          ]
+        },
+        "de": {
+          "heading": "27. November: Araw ng Pagbasa und seine Wochenendregel",
+          "origin": "Araw ng Pagbasa ist der philippinische Lesetag für Grund- und weiterführende Schulen sowie gemeinsames Lesen von Kindern, Lehrkräften und Familien. Der feste Bezugstag ist der 27. November. Republikgesetz Nr. 10556 vom 15. Mai 2013 erklärt den Tag zum regulären Arbeitstag. Fällt der 27. November auf ein Wochenende, wird die Schulfeier auf den Freitag der Woche verlegt. Das Gesetz beauftragt das Bildungsministerium mit Lesemodulen und Geschichten in regionalen Sprachen sowie Filipino und Englisch. Eine NCCA-Angabe '2012' ändert das Gesetz von 2013 nicht.",
+          "promoter": "Department of Education and National Book Development Board sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Lesen in Schulen fördern und Gesetzesjahr 2013 sowie Freitagsregel korrekt angeben.",
+          "facts": [
+            "Araw ng Pagbasa ist der philippinische Lesetag für Grund- und weiterführende Schulen sowie gemeinsames Lesen von Kindern, Lehrkräften und Familien. Der feste Bezugstag ist der 27. November.",
+            "Republikgesetz Nr. 10556 vom 15. Mai 2013 erklärt den Tag zum regulären Arbeitstag. Fällt der 27. November auf ein Wochenende, wird die Schulfeier auf den Freitag der Woche verlegt.",
+            "Das Gesetz beauftragt das Bildungsministerium mit Lesemodulen und Geschichten in regionalen Sprachen sowie Filipino und Englisch. Eine NCCA-Angabe '2012' ändert das Gesetz von 2013 nicht."
+          ]
+        },
+        "pt": {
+          "heading": "27 de novembro: Araw ng Pagbasa e a regra do fim de semana",
+          "origin": "Araw ng Pagbasa é o dia filipino da leitura, destinado às escolas básicas e secundárias e à leitura partilhada por crianças, professores e famílias. A data é 27 de novembro. A Lei da República n.º 10556, aprovada em 15 de maio de 2013, institui um dia normal de trabalho; se 27 de novembro cair no fim de semana, a celebração escolar passa para sexta-feira. A lei atribui atividades ao Departamento de Educação e promove leitura e línguas regionais além do filipino e inglês. A referência '2012' do calendário NCCA não altera a lei de 2013.",
+          "promoter": "Department of Education and National Book Development Board são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Promover leitura escolar com o ano legal 2013 e a regra de sexta-feira.",
+          "facts": [
+            "Araw ng Pagbasa é o dia filipino da leitura, destinado às escolas básicas e secundárias e à leitura partilhada por crianças, professores e famílias. A data é 27 de novembro.",
+            "A Lei da República n.º 10556, aprovada em 15 de maio de 2013, institui um dia normal de trabalho; se 27 de novembro cair no fim de semana, a celebração escolar passa para sexta-feira.",
+            "A lei atribui atividades ao Departamento de Educação e promove leitura e línguas regionais além do filipino e inglês. A referência '2012' do calendário NCCA não altera a lei de 2013."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-indigenous-peoples-day",
+      "country": "PH",
+      "observanceDate": "08-09",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2015,
+      "firstObservedYear": null,
+      "originClusterId": "PH_IP_RIGHTS_AUG9_2015_DISTINCT_FROM_OCTOBER",
+      "legalStatus": "PH_SPECIAL_WORKING_HOLIDAY_RA10689_2015",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2015/ra_10689_2015.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "9 August: Indigenous Peoples Day is distinct from October observances",
+          "origin": "The Philippine National Indigenous Peoples Day is held on 9 August to promote rights and the collective welfare of indigenous communities. The date is aligned with the wider international awareness day, but it is anchored in a national law. Republic Act No. 10689, approved on 23 October 2015, established 9 August each year as a special working holiday and tasked the National Commission on Indigenous Peoples with implementation. It did not make it a nationwide non-working day. The 9 August law is not the 29 October Indigenous Peoples Thanksgiving Day from 2003 nor the entire October Indigenous Peoples Month introduced in 2009. All three dates have different legal sources and should retain separate origin dossiers.",
+          "promoter": "National Commission on Indigenous Peoples are the institutions responsible for or connected with the legally established Philippine commemorative activities and public outreach.",
+          "purpose": "Support indigenous rights while maintaining three distinct August and October legal origins.",
+          "facts": [
+            "The Philippine National Indigenous Peoples Day is held on 9 August to promote rights and the collective welfare of indigenous communities. The date is aligned with the wider international awareness day, but it is anchored in a national law.",
+            "Republic Act No. 10689, approved on 23 October 2015, established 9 August each year as a special working holiday and tasked the National Commission on Indigenous Peoples with implementation. It did not make it a nationwide non-working day.",
+            "The 9 August law is not the 29 October Indigenous Peoples Thanksgiving Day from 2003 nor the entire October Indigenous Peoples Month introduced in 2009. All three dates have different legal sources and should retain separate origin dossiers."
+          ]
+        },
+        "it": {
+          "heading": "9 agosto: la Giornata dei popoli indigeni è distinta da ottobre",
+          "origin": "La Giornata nazionale dei popoli indigeni si tiene il 9 agosto per promuovere diritti e benessere delle comunità indigene. La data coincide con la ricorrenza internazionale, ma ha una base normativa nazionale. La Legge della Repubblica n. 10689, approvata il 23 ottobre 2015, ha istituito il 9 agosto come festività speciale lavorativa, affidando l'attuazione alla Commissione nazionale dei popoli indigeni. La legge del 9 agosto è diversa dalla Giornata del ringraziamento del 29 ottobre istituita nel 2003 e dal Mese dei popoli indigeni introdotto nel 2009. I tre atti conservano cronologie proprie.",
+          "promoter": "National Commission on Indigenous Peoples sono gli enti coinvolti nelle attività filippine previste dagli atti istitutivi e nella sensibilizzazione pubblica.",
+          "purpose": "Sostenere i diritti indigeni conservando le tre distinte ricorrenze di agosto e ottobre.",
+          "facts": [
+            "La Giornata nazionale dei popoli indigeni si tiene il 9 agosto per promuovere diritti e benessere delle comunità indigene. La data coincide con la ricorrenza internazionale, ma ha una base normativa nazionale.",
+            "La Legge della Repubblica n. 10689, approvata il 23 ottobre 2015, ha istituito il 9 agosto come festività speciale lavorativa, affidando l'attuazione alla Commissione nazionale dei popoli indigeni.",
+            "La legge del 9 agosto è diversa dalla Giornata del ringraziamento del 29 ottobre istituita nel 2003 e dal Mese dei popoli indigeni introdotto nel 2009. I tre atti conservano cronologie proprie."
+          ]
+        },
+        "es": {
+          "heading": "9 de agosto: el Día de los Pueblos Indígenas difiere de octubre",
+          "origin": "El Día Nacional de los Pueblos Indígenas se celebra el 9 de agosto para defender sus derechos y bienestar colectivo. Comparte fecha con la jornada internacional, pero se rige por una ley propia. La Ley de la República n.º 10689, aprobada el 23 de octubre de 2015, estableció el 9 de agosto como día especial laborable y encargó su ejecución a la Comisión Nacional de Pueblos Indígenas. La ley del 9 de agosto difiere del Día de Agradecimiento del 29 de octubre de 2003 y del Mes de los Pueblos Indígenas de octubre de 2009. Tienen fuentes jurídicas propias.",
+          "promoter": "National Commission on Indigenous Peoples son las instituciones responsables o vinculadas a las actividades filipinas y su difusión pública.",
+          "purpose": "Defender derechos indígenas manteniendo tres fechas legales distintas.",
+          "facts": [
+            "El Día Nacional de los Pueblos Indígenas se celebra el 9 de agosto para defender sus derechos y bienestar colectivo. Comparte fecha con la jornada internacional, pero se rige por una ley propia.",
+            "La Ley de la República n.º 10689, aprobada el 23 de octubre de 2015, estableció el 9 de agosto como día especial laborable y encargó su ejecución a la Comisión Nacional de Pueblos Indígenas.",
+            "La ley del 9 de agosto difiere del Día de Agradecimiento del 29 de octubre de 2003 y del Mes de los Pueblos Indígenas de octubre de 2009. Tienen fuentes jurídicas propias."
+          ]
+        },
+        "fr": {
+          "heading": "9 août : journée des peuples autochtones distincte d'octobre",
+          "origin": "La Journée nationale des peuples autochtones est célébrée le 9 août pour promouvoir leurs droits et leur bien-être. Elle coïncide avec la date internationale, tout en reposant sur une loi nationale. La loi de la République nº 10689, approuvée le 23 octobre 2015, a fait du 9 août une journée spéciale travaillée et confié sa mise en œuvre à la commission nationale compétente. La loi du 9 août est distincte de la Journée de reconnaissance du 29 octobre, créée en 2003, et du Mois des peuples autochtones d'octobre, institué en 2009. Leurs origines restent séparées.",
+          "promoter": "National Commission on Indigenous Peoples sont les institutions chargées ou associées aux activités légales et à la sensibilisation du public.",
+          "purpose": "Soutenir les droits autochtones tout en distinguant les trois actes d'août et d'octobre.",
+          "facts": [
+            "La Journée nationale des peuples autochtones est célébrée le 9 août pour promouvoir leurs droits et leur bien-être. Elle coïncide avec la date internationale, tout en reposant sur une loi nationale.",
+            "La loi de la République nº 10689, approuvée le 23 octobre 2015, a fait du 9 août une journée spéciale travaillée et confié sa mise en œuvre à la commission nationale compétente.",
+            "La loi du 9 août est distincte de la Journée de reconnaissance du 29 octobre, créée en 2003, et du Mois des peuples autochtones d'octobre, institué en 2009. Leurs origines restent séparées."
+          ]
+        },
+        "de": {
+          "heading": "9. August: Indigener Gedenktag getrennt von Oktoberanlässen",
+          "origin": "Der philippinische Tag der indigenen Völker am 9. August fördert Rechte und Wohlergehen indigener Gemeinschaften. Er liegt am internationalen Datum, besitzt aber eine nationale gesetzliche Grundlage. Republikgesetz Nr. 10689 vom 23. Oktober 2015 machte den 9. August zum besonderen Arbeitstag und beauftragte die Nationalkommission für indigene Völker mit der Durchführung. Das Gesetz zum 9. August unterscheidet sich vom Dankestag am 29. Oktober seit 2003 und dem gesamten indigenen Monat Oktober seit 2009. Die drei Anlässe haben eigene Rechtsquellen.",
+          "promoter": "National Commission on Indigenous Peoples sind die genannten oder beteiligten Stellen der gesetzlich vorgesehenen Aktivitäten und öffentlichen Vermittlung.",
+          "purpose": "Indigene Rechte stärken und drei eigenständige August- und Oktoberanlässe trennen.",
+          "facts": [
+            "Der philippinische Tag der indigenen Völker am 9. August fördert Rechte und Wohlergehen indigener Gemeinschaften. Er liegt am internationalen Datum, besitzt aber eine nationale gesetzliche Grundlage.",
+            "Republikgesetz Nr. 10689 vom 23. Oktober 2015 machte den 9. August zum besonderen Arbeitstag und beauftragte die Nationalkommission für indigene Völker mit der Durchführung.",
+            "Das Gesetz zum 9. August unterscheidet sich vom Dankestag am 29. Oktober seit 2003 und dem gesamten indigenen Monat Oktober seit 2009. Die drei Anlässe haben eigene Rechtsquellen."
+          ]
+        },
+        "pt": {
+          "heading": "9 de agosto: dia dos povos indígenas distinto de outubro",
+          "origin": "O Dia Nacional dos Povos Indígenas ocorre a 9 de agosto para promover direitos e bem-estar coletivo. Coincide com a data internacional, mas possui lei nacional própria. A Lei da República n.º 10689, aprovada em 23 de outubro de 2015, tornou 9 de agosto um dia especial de trabalho e atribuiu a implementação à comissão nacional. A lei de 9 de agosto é distinta do dia de agradecimento de 29 de outubro criado em 2003 e do mês dos povos indígenas de outubro introduzido em 2009. São origens separadas.",
+          "promoter": "National Commission on Indigenous Peoples são as instituições responsáveis ou ligadas às atividades legais e à sensibilização pública.",
+          "purpose": "Apoiar direitos indígenas mantendo três origens legais distintas de agosto e outubro.",
+          "facts": [
+            "O Dia Nacional dos Povos Indígenas ocorre a 9 de agosto para promover direitos e bem-estar coletivo. Coincide com a data internacional, mas possui lei nacional própria.",
+            "A Lei da República n.º 10689, aprovada em 23 de outubro de 2015, tornou 9 de agosto um dia especial de trabalho e atribuiu a implementação à comissão nacional.",
+            "A lei de 9 de agosto é distinta do dia de agradecimento de 29 de outubro criado em 2003 e do mês dos povos indígenas de outubro introduzido em 2009. São origens separadas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Read Philippine original law/presidential instrument and NCCA public calendar, and for RA10556 cross-checked Senate legislative metadata discrepancy. Six AI authored locales, legally distinct current working-holiday vs regional exception. No independent qualified factual or native human approval."
+    }
+  ]
+}

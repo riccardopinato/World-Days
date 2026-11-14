@@ -1,0 +1,436 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "PHILIPPINES_INSTITUTIONAL_PRIMARY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "ph-w10-philippine-army-founding-anniversary",
+      "country": "PH",
+      "observanceDate": "03-22",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1897,
+      "firstObservedYear": null,
+      "originClusterId": "PH_TEJEROS_REVOLUTIONARY_ARMY_MAR22_1897_1983_AFP_1989_ARMY_CORRECTED",
+      "legalStatus": "PH_INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/executive/proc/proc1989/proc_447_1989.html",
+        "https://lawphil.net/executive/proc/proc1983/proc_2325_1983.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "22 March: the Philippine Army anniversary traces to the Tejeros Convention",
+          "origin": "The Philippine Army traces its institutional lineage to the Revolutionary Army associated with the Tejeros Convention on 22 March 1897 in Cavite, amid the struggle against Spanish colonial domination. Proclamation No. 2325 of 14 December 1983 temporarily assigned the same 22 March date to the anniversary of the Armed Forces as a whole, although it had traditionally been associated with the Army. Proclamation No. 447 of 15 August 1989 restored 22 March to Philippine Army Day and assigned 21 December to the Armed Forces anniversary, reflecting the Defense Act of 1935. This is a documented legal-date correction, not a second army founding.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines are the relevant public institutions named in the primary official historical and legal documentation associated with the founding date.",
+          "purpose": "Explain the 1897 military origin and the 1983–1989 separation of Army and Armed Forces anniversaries.",
+          "facts": [
+            "The Philippine Army traces its institutional lineage to the Revolutionary Army associated with the Tejeros Convention on 22 March 1897 in Cavite, amid the struggle against Spanish colonial domination.",
+            "Proclamation No. 2325 of 14 December 1983 temporarily assigned the same 22 March date to the anniversary of the Armed Forces as a whole, although it had traditionally been associated with the Army.",
+            "Proclamation No. 447 of 15 August 1989 restored 22 March to Philippine Army Day and assigned 21 December to the Armed Forces anniversary, reflecting the Defense Act of 1935. This is a documented legal-date correction, not a second army founding."
+          ]
+        },
+        "it": {
+          "heading": "22 marzo: l'anniversario dell'Esercito filippino risale a Tejeros",
+          "origin": "L'Esercito filippino riconduce le proprie origini all'Armata rivoluzionaria collegata alla Convenzione di Tejeros del 22 marzo 1897 a Cavite, durante la lotta contro il dominio spagnolo. La Proclamazione n. 2325 del 14 dicembre 1983 attribuì temporaneamente il 22 marzo all'anniversario di tutte le Forze armate, benché fosse già associato all'Esercito. La Proclamazione n. 447 del 15 agosto 1989 restituì il 22 marzo all'Esercito e assegnò il 21 dicembre alle Forze armate, collegandolo alla legge sulla difesa del 1935. Non è una seconda fondazione.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines sono gli enti pubblici coinvolti nelle fonti ufficiali storiche e normative relative alla fondazione.",
+          "purpose": "Spiegare l'origine del 1897 e la separazione degli anniversari tra Esercito e Forze armate.",
+          "facts": [
+            "L'Esercito filippino riconduce le proprie origini all'Armata rivoluzionaria collegata alla Convenzione di Tejeros del 22 marzo 1897 a Cavite, durante la lotta contro il dominio spagnolo.",
+            "La Proclamazione n. 2325 del 14 dicembre 1983 attribuì temporaneamente il 22 marzo all'anniversario di tutte le Forze armate, benché fosse già associato all'Esercito.",
+            "La Proclamazione n. 447 del 15 agosto 1989 restituì il 22 marzo all'Esercito e assegnò il 21 dicembre alle Forze armate, collegandolo alla legge sulla difesa del 1935. Non è una seconda fondazione."
+          ]
+        },
+        "es": {
+          "heading": "22 de marzo: el Ejército filipino recuerda la Convención de Tejeros",
+          "origin": "El Ejército filipino vincula sus raíces al Ejército Revolucionario surgido de la Convención de Tejeros del 22 de marzo de 1897 en Cavite, durante la lucha contra el dominio español. La Proclamación n.º 2325 del 14 de diciembre de 1983 asignó temporalmente el 22 de marzo al aniversario de todas las Fuerzas Armadas, aunque estaba asociado con el Ejército. La Proclamación n.º 447 del 15 de agosto de 1989 devolvió el 22 de marzo al Ejército y fijó el 21 de diciembre para las Fuerzas Armadas, en relación con la Ley de Defensa de 1935.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines son los organismos públicos vinculados a la documentación histórica y jurídica oficial de esta institución.",
+          "purpose": "Explicar el origen de 1897 y la separación de los aniversarios del Ejército y de las Fuerzas Armadas.",
+          "facts": [
+            "El Ejército filipino vincula sus raíces al Ejército Revolucionario surgido de la Convención de Tejeros del 22 de marzo de 1897 en Cavite, durante la lucha contra el dominio español.",
+            "La Proclamación n.º 2325 del 14 de diciembre de 1983 asignó temporalmente el 22 de marzo al aniversario de todas las Fuerzas Armadas, aunque estaba asociado con el Ejército.",
+            "La Proclamación n.º 447 del 15 de agosto de 1989 devolvió el 22 de marzo al Ejército y fijó el 21 de diciembre para las Fuerzas Armadas, en relación con la Ley de Defensa de 1935."
+          ]
+        },
+        "fr": {
+          "heading": "22 mars : l'armée philippine rappelle la Convention de Tejeros",
+          "origin": "L'armée philippine situe ses racines dans l'armée révolutionnaire liée à la Convention de Tejeros du 22 mars 1897, à Cavite, pendant la lutte contre la domination espagnole. La proclamation nº 2325 du 14 décembre 1983 a temporairement attribué le 22 mars à l'anniversaire de toutes les forces armées, alors que la date était liée à l'armée de terre. La proclamation nº 447 du 15 août 1989 a rétabli le 22 mars pour l'armée et retenu le 21 décembre pour les forces armées, en lien avec la loi de défense de 1935.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines sont les organismes publics concernés par la documentation officielle historique et juridique de la fondation.",
+          "purpose": "Expliquer l'origine de 1897 et la séparation des anniversaires de l'armée et des forces armées.",
+          "facts": [
+            "L'armée philippine situe ses racines dans l'armée révolutionnaire liée à la Convention de Tejeros du 22 mars 1897, à Cavite, pendant la lutte contre la domination espagnole.",
+            "La proclamation nº 2325 du 14 décembre 1983 a temporairement attribué le 22 mars à l'anniversaire de toutes les forces armées, alors que la date était liée à l'armée de terre.",
+            "La proclamation nº 447 du 15 août 1989 a rétabli le 22 mars pour l'armée et retenu le 21 décembre pour les forces armées, en lien avec la loi de défense de 1935."
+          ]
+        },
+        "de": {
+          "heading": "22. März: Der Jahrestag der philippinischen Armee erinnert an Tejeros",
+          "origin": "Die philippinische Armee führt ihre Wurzeln auf die Revolutionsarmee im Umfeld des Tejeros-Konvents vom 22. März 1897 in Cavite zurück, während des Kampfes gegen die spanische Kolonialherrschaft. Proklamation Nr. 2325 vom 14. Dezember 1983 machte den 22. März vorübergehend zum Jahrestag aller Streitkräfte, obwohl das Datum der Armee zugeordnet war. Proklamation Nr. 447 vom 15. August 1989 ordnete den 22. März wieder der Armee zu und den 21. Dezember den Streitkräften, mit Bezug auf das Verteidigungsgesetz von 1935.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines sind die in den amtlichen Geschichts- und Rechtsquellen genannten oder betroffenen Institutionen.",
+          "purpose": "Die Entstehung 1897 und die Trennung der Jubiläen von Armee und Streitkräften erklären.",
+          "facts": [
+            "Die philippinische Armee führt ihre Wurzeln auf die Revolutionsarmee im Umfeld des Tejeros-Konvents vom 22. März 1897 in Cavite zurück, während des Kampfes gegen die spanische Kolonialherrschaft.",
+            "Proklamation Nr. 2325 vom 14. Dezember 1983 machte den 22. März vorübergehend zum Jahrestag aller Streitkräfte, obwohl das Datum der Armee zugeordnet war.",
+            "Proklamation Nr. 447 vom 15. August 1989 ordnete den 22. März wieder der Armee zu und den 21. Dezember den Streitkräften, mit Bezug auf das Verteidigungsgesetz von 1935."
+          ]
+        },
+        "pt": {
+          "heading": "22 de março: o Exército filipino recorda a Convenção de Tejeros",
+          "origin": "O Exército filipino liga as suas origens ao Exército Revolucionário associado à Convenção de Tejeros de 22 de março de 1897, em Cavite, durante a resistência ao domínio espanhol. A Proclamação n.º 2325 de 14 de dezembro de 1983 atribuiu temporariamente 22 de março ao aniversário de todas as Forças Armadas, embora fosse associado ao Exército. A Proclamação n.º 447 de 15 de agosto de 1989 devolveu 22 de março ao Exército e fixou 21 de dezembro para as Forças Armadas, recordando a lei de defesa de 1935.",
+          "promoter": "Philippine Army and Armed Forces of the Philippines são os organismos públicos envolvidos na documentação histórica e jurídica oficial sobre a fundação.",
+          "purpose": "Explicar a origem de 1897 e a separação dos aniversários do Exército e das Forças Armadas.",
+          "facts": [
+            "O Exército filipino liga as suas origens ao Exército Revolucionário associado à Convenção de Tejeros de 22 de março de 1897, em Cavite, durante a resistência ao domínio espanhol.",
+            "A Proclamação n.º 2325 de 14 de dezembro de 1983 atribuiu temporariamente 22 de março ao aniversário de todas as Forças Armadas, embora fosse associado ao Exército.",
+            "A Proclamação n.º 447 de 15 de agosto de 1989 devolveu 22 de março ao Exército e fixou 21 de dezembro para as Forças Armadas, recordando a lei de defesa de 1935."
+          ]
+        }
+      },
+      "sourceReviewNote": "Institution official history plus national statute and/or National Historical Commission marker cross-referenced to NCCA national calendar; use legal founding year versus earlier antecedent; six-locale AI research drafts still need independent qualified historical and native-language human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippine-film-development-council-founding-anniversary",
+      "country": "PH",
+      "observanceDate": "06-07",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "originClusterId": "PH_FDCP_JUNE7_2002_RA9167_FILM_REFORM",
+      "legalStatus": "PH_INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2002/ra_9167_2002.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209167",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "7 June: the Philippine Film Development Council was created by law",
+          "origin": "The Film Development Council of the Philippines supports local filmmaking, cinema education, film festivals and the development of Filipino talent as part of national cultural and economic life. Republic Act No. 9167 was approved on 7 June 2002 and established the Film Development Council under the Office of the President, replacing the previous Film Development Foundation and Film Rating Board. The founding legislation provided for evaluation of local films, incentives to quality productions and participation in festivals and international markets. The council's legal founding must not be confused with Philippine cinema's older artistic beginnings.",
+          "promoter": "Film Development Council of the Philippines are the relevant public institutions named in the primary official historical and legal documentation associated with the founding date.",
+          "purpose": "Understand the Council's legal origin and its film-development mandate without conflating it with cinema history.",
+          "facts": [
+            "The Film Development Council of the Philippines supports local filmmaking, cinema education, film festivals and the development of Filipino talent as part of national cultural and economic life.",
+            "Republic Act No. 9167 was approved on 7 June 2002 and established the Film Development Council under the Office of the President, replacing the previous Film Development Foundation and Film Rating Board.",
+            "The founding legislation provided for evaluation of local films, incentives to quality productions and participation in festivals and international markets. The council's legal founding must not be confused with Philippine cinema's older artistic beginnings."
+          ]
+        },
+        "it": {
+          "heading": "7 giugno: il Consiglio per lo sviluppo del cinema nasce per legge",
+          "origin": "Il Film Development Council of the Philippines sostiene produzione cinematografica, formazione, festival e talenti filippini, come parte della cultura e dell'economia nazionale. La Legge della Repubblica n. 9167, approvata il 7 giugno 2002, istituì il Consiglio sotto la Presidenza, sostituendo la Film Development Foundation e il Film Rating Board. La legge istitutiva prevedeva valutazione dei film, incentivi alle produzioni di qualità e partecipazione a festival e mercati internazionali. L'ente non coincide con la nascita storica del cinema filippino.",
+          "promoter": "Film Development Council of the Philippines sono gli enti pubblici coinvolti nelle fonti ufficiali storiche e normative relative alla fondazione.",
+          "purpose": "Conoscere l'istituzione del Consiglio e il suo ruolo senza confonderlo con la nascita del cinema.",
+          "facts": [
+            "Il Film Development Council of the Philippines sostiene produzione cinematografica, formazione, festival e talenti filippini, come parte della cultura e dell'economia nazionale.",
+            "La Legge della Repubblica n. 9167, approvata il 7 giugno 2002, istituì il Consiglio sotto la Presidenza, sostituendo la Film Development Foundation e il Film Rating Board.",
+            "La legge istitutiva prevedeva valutazione dei film, incentivi alle produzioni di qualità e partecipazione a festival e mercati internazionali. L'ente non coincide con la nascita storica del cinema filippino."
+          ]
+        },
+        "es": {
+          "heading": "7 de junio: el Consejo de Desarrollo Cinematográfico nació por ley",
+          "origin": "El Consejo de Desarrollo Cinematográfico de Filipinas apoya la producción local, la formación, los festivales y los profesionales del cine como parte de la vida cultural. La Ley de la República n.º 9167, aprobada el 7 de junio de 2002, creó el Consejo bajo la Presidencia y sustituyó la Fundación de Desarrollo del Cine y el Consejo de Clasificación. La norma previó evaluación de películas, incentivos a obras de calidad y participación en festivales y mercados internacionales. Crear el Consejo no equivale a inventar el cine filipino.",
+          "promoter": "Film Development Council of the Philippines son los organismos públicos vinculados a la documentación histórica y jurídica oficial de esta institución.",
+          "purpose": "Conocer la creación del Consejo y sus funciones sin confundirlas con el origen del cine.",
+          "facts": [
+            "El Consejo de Desarrollo Cinematográfico de Filipinas apoya la producción local, la formación, los festivales y los profesionales del cine como parte de la vida cultural.",
+            "La Ley de la República n.º 9167, aprobada el 7 de junio de 2002, creó el Consejo bajo la Presidencia y sustituyó la Fundación de Desarrollo del Cine y el Consejo de Clasificación.",
+            "La norma previó evaluación de películas, incentivos a obras de calidad y participación en festivales y mercados internacionales. Crear el Consejo no equivale a inventar el cine filipino."
+          ]
+        },
+        "fr": {
+          "heading": "7 juin : création légale du Conseil du cinéma philippin",
+          "origin": "Le Conseil du cinéma philippin soutient la production locale, la formation, les festivals et les talents du pays comme éléments de la vie culturelle et économique. La loi nº 9167, approuvée le 7 juin 2002, a créé le Conseil auprès de la Présidence en remplaçant les organismes précédents de développement et de classement du cinéma. La loi prévoit l'évaluation des films, des incitations à la qualité et la participation aux festivals et marchés internationaux. La naissance du Conseil est distincte de celle du cinéma philippin.",
+          "promoter": "Film Development Council of the Philippines sont les organismes publics concernés par la documentation officielle historique et juridique de la fondation.",
+          "purpose": "Comprendre la création légale du Conseil et son rôle dans le cinéma.",
+          "facts": [
+            "Le Conseil du cinéma philippin soutient la production locale, la formation, les festivals et les talents du pays comme éléments de la vie culturelle et économique.",
+            "La loi nº 9167, approuvée le 7 juin 2002, a créé le Conseil auprès de la Présidence en remplaçant les organismes précédents de développement et de classement du cinéma.",
+            "La loi prévoit l'évaluation des films, des incitations à la qualité et la participation aux festivals et marchés internationaux. La naissance du Conseil est distincte de celle du cinéma philippin."
+          ]
+        },
+        "de": {
+          "heading": "7. Juni: Gründung des philippinischen Filmförderungsrates",
+          "origin": "Der philippinische Filmförderungsrat unterstützt heimische Filmproduktion, Ausbildung, Festivals und Talente als Teil des kulturellen und wirtschaftlichen Lebens. Republikgesetz Nr. 9167 vom 7. Juni 2002 gründete den Rat beim Präsidialamt und ersetzte die bisherigen Filmförderungs- und Filmbewertungsinstitutionen. Das Gesetz regelte Filmbewertung, Förderanreize und Teilnahme an Festivals und internationalen Märkten. Die Gründung des Rats ist nicht die Erfindung des philippinischen Kinos.",
+          "promoter": "Film Development Council of the Philippines sind die in den amtlichen Geschichts- und Rechtsquellen genannten oder betroffenen Institutionen.",
+          "purpose": "Die gesetzliche Entstehung des Rats und seine Förderaufgaben verstehen.",
+          "facts": [
+            "Der philippinische Filmförderungsrat unterstützt heimische Filmproduktion, Ausbildung, Festivals und Talente als Teil des kulturellen und wirtschaftlichen Lebens.",
+            "Republikgesetz Nr. 9167 vom 7. Juni 2002 gründete den Rat beim Präsidialamt und ersetzte die bisherigen Filmförderungs- und Filmbewertungsinstitutionen.",
+            "Das Gesetz regelte Filmbewertung, Förderanreize und Teilnahme an Festivals und internationalen Märkten. Die Gründung des Rats ist nicht die Erfindung des philippinischen Kinos."
+          ]
+        },
+        "pt": {
+          "heading": "7 de junho: criação legal do Conselho do Cinema Filipino",
+          "origin": "O Conselho de Desenvolvimento Cinematográfico apoia cinema local, formação, festivais e talentos filipinos como parte da vida cultural e económica. A Lei da República n.º 9167, aprovada em 7 de junho de 2002, criou o Conselho sob a Presidência, substituindo entidades anteriores de desenvolvimento e classificação de filmes. A lei previu avaliação de filmes, incentivos à qualidade e participação em festivais e mercados internacionais. A criação do Conselho não é a origem do cinema filipino.",
+          "promoter": "Film Development Council of the Philippines são os organismos públicos envolvidos na documentação histórica e jurídica oficial sobre a fundação.",
+          "purpose": "Conhecer a criação do Conselho e as suas funções sem confundir com a origem do cinema.",
+          "facts": [
+            "O Conselho de Desenvolvimento Cinematográfico apoia cinema local, formação, festivais e talentos filipinos como parte da vida cultural e económica.",
+            "A Lei da República n.º 9167, aprovada em 7 de junho de 2002, criou o Conselho sob a Presidência, substituindo entidades anteriores de desenvolvimento e classificação de filmes.",
+            "A lei previu avaliação de filmes, incentivos à qualidade e participação em festivais e mercados internacionais. A criação do Conselho não é a origem do cinema filipino."
+          ]
+        }
+      },
+      "sourceReviewNote": "Institution official history plus national statute and/or National Historical Commission marker cross-referenced to NCCA national calendar; use legal founding year versus earlier antecedent; six-locale AI research drafts still need independent qualified historical and native-language human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-museum-founding-anniversary",
+      "country": "PH",
+      "observanceDate": "10-29",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1901,
+      "firstObservedYear": null,
+      "originClusterId": "PH_NATIONAL_MUSEUM_INSULAR_MUSEUM_OCT29_1901",
+      "legalStatus": "PH_INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.nationalmuseum.gov.ph/about-us/history/",
+        "https://www.nationalmuseum.gov.ph/wp-content/uploads/2022/06/About-National-Museum-of-the-Philippines.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 October: from the 1901 Insular Museum to the National Museum",
+          "origin": "The National Museum of the Philippines preserves and researches art, archaeology, ethnography, history and natural-science collections that document the country's cultural and biological diversity. The Philippine Commission created the Insular Museum of Ethnology, Natural History and Commerce on 29 October 1901 under the Department of Public Instruction, according to the Museum's own institutional history. The institution evolved through reorganizations and new names during the twentieth century, including the Philippine Museum name adopted in 1905. Its current founding anniversary points to the 1901 museum's creation, not a later renaming.",
+          "promoter": "National Museum of the Philippines are the relevant public institutions named in the primary official historical and legal documentation associated with the founding date.",
+          "purpose": "Recognize the Museum's 1901 origins and its continuing contribution to public heritage and research.",
+          "facts": [
+            "The National Museum of the Philippines preserves and researches art, archaeology, ethnography, history and natural-science collections that document the country's cultural and biological diversity.",
+            "The Philippine Commission created the Insular Museum of Ethnology, Natural History and Commerce on 29 October 1901 under the Department of Public Instruction, according to the Museum's own institutional history.",
+            "The institution evolved through reorganizations and new names during the twentieth century, including the Philippine Museum name adopted in 1905. Its current founding anniversary points to the 1901 museum's creation, not a later renaming."
+          ]
+        },
+        "it": {
+          "heading": "29 ottobre: dal museo insulare del 1901 al Museo nazionale",
+          "origin": "Il Museo nazionale delle Filippine conserva e studia collezioni d'arte, archeologia, etnografia, storia e scienze naturali che documentano la diversità del paese. Secondo la storia ufficiale, la Commissione filippina fondò il Museo insulare di etnologia, storia naturale e commercio il 29 ottobre 1901, sotto il Dipartimento dell'Istruzione pubblica. L'istituzione cambiò organizzazione e denominazione nel Novecento, assumendo il nome Philippine Museum nel 1905. L'anniversario richiama la nascita del 1901, non una successiva ridenominazione.",
+          "promoter": "National Museum of the Philippines sono gli enti pubblici coinvolti nelle fonti ufficiali storiche e normative relative alla fondazione.",
+          "purpose": "Conoscere le origini del 1901 e il contributo del Museo alla ricerca e al patrimonio.",
+          "facts": [
+            "Il Museo nazionale delle Filippine conserva e studia collezioni d'arte, archeologia, etnografia, storia e scienze naturali che documentano la diversità del paese.",
+            "Secondo la storia ufficiale, la Commissione filippina fondò il Museo insulare di etnologia, storia naturale e commercio il 29 ottobre 1901, sotto il Dipartimento dell'Istruzione pubblica.",
+            "L'istituzione cambiò organizzazione e denominazione nel Novecento, assumendo il nome Philippine Museum nel 1905. L'anniversario richiama la nascita del 1901, non una successiva ridenominazione."
+          ]
+        },
+        "es": {
+          "heading": "29 de octubre: del Museo Insular de 1901 al Museo Nacional",
+          "origin": "El Museo Nacional de Filipinas conserva y estudia colecciones de arte, arqueología, etnografía, historia y ciencias naturales que reflejan la diversidad del país. Según su historia oficial, la Comisión Filipina creó el Museo Insular de Etnología, Historia Natural y Comercio el 29 de octubre de 1901, bajo Instrucción Pública. La institución cambió de organización y nombre durante el siglo XX y pasó a llamarse Philippine Museum en 1905. El aniversario recuerda 1901, no un cambio posterior.",
+          "promoter": "National Museum of the Philippines son los organismos públicos vinculados a la documentación histórica y jurídica oficial de esta institución.",
+          "purpose": "Reconocer el origen de 1901 y el papel del Museo en patrimonio e investigación.",
+          "facts": [
+            "El Museo Nacional de Filipinas conserva y estudia colecciones de arte, arqueología, etnografía, historia y ciencias naturales que reflejan la diversidad del país.",
+            "Según su historia oficial, la Comisión Filipina creó el Museo Insular de Etnología, Historia Natural y Comercio el 29 de octubre de 1901, bajo Instrucción Pública.",
+            "La institución cambió de organización y nombre durante el siglo XX y pasó a llamarse Philippine Museum en 1905. El aniversario recuerda 1901, no un cambio posterior."
+          ]
+        },
+        "fr": {
+          "heading": "29 octobre : du musée insulaire de 1901 au Musée national",
+          "origin": "Le Musée national des Philippines conserve et étudie l'art, l'archéologie, l'ethnographie, l'histoire et les sciences naturelles, témoins de la diversité du pays. Selon l'histoire officielle, la Commission philippine a créé le Musée insulaire d'ethnologie, d'histoire naturelle et de commerce le 29 octobre 1901 auprès de l'Instruction publique. L'institution a connu des réorganisations et pris le nom de Philippine Museum en 1905. L'anniversaire rappelle la création de 1901 plutôt qu'une nouvelle dénomination.",
+          "promoter": "National Museum of the Philippines sont les organismes publics concernés par la documentation officielle historique et juridique de la fondation.",
+          "purpose": "Reconnaître ses origines de 1901 et son rôle scientifique et culturel.",
+          "facts": [
+            "Le Musée national des Philippines conserve et étudie l'art, l'archéologie, l'ethnographie, l'histoire et les sciences naturelles, témoins de la diversité du pays.",
+            "Selon l'histoire officielle, la Commission philippine a créé le Musée insulaire d'ethnologie, d'histoire naturelle et de commerce le 29 octobre 1901 auprès de l'Instruction publique.",
+            "L'institution a connu des réorganisations et pris le nom de Philippine Museum en 1905. L'anniversaire rappelle la création de 1901 plutôt qu'une nouvelle dénomination."
+          ]
+        },
+        "de": {
+          "heading": "29. Oktober: Vom Inselmuseum 1901 zum Nationalmuseum",
+          "origin": "Das Nationalmuseum der Philippinen bewahrt und erforscht Kunst, Archäologie, Ethnografie, Geschichte und Naturkunde als Ausdruck der Vielfalt des Landes. Nach seiner Eigengeschichte gründete die Philippinische Kommission am 29. Oktober 1901 das Inselmuseum für Ethnologie, Naturgeschichte und Handel beim Amt für öffentliche Bildung. Die Institution wurde mehrfach umgestaltet und erhielt 1905 den Namen Philippine Museum. Der Jahrestag bezieht sich auf die Gründung 1901, nicht auf spätere Umbenennungen.",
+          "promoter": "National Museum of the Philippines sind die in den amtlichen Geschichts- und Rechtsquellen genannten oder betroffenen Institutionen.",
+          "purpose": "Die Wurzeln von 1901 und die heutige Forschungs- und Kulturaufgabe des Museums verstehen.",
+          "facts": [
+            "Das Nationalmuseum der Philippinen bewahrt und erforscht Kunst, Archäologie, Ethnografie, Geschichte und Naturkunde als Ausdruck der Vielfalt des Landes.",
+            "Nach seiner Eigengeschichte gründete die Philippinische Kommission am 29. Oktober 1901 das Inselmuseum für Ethnologie, Naturgeschichte und Handel beim Amt für öffentliche Bildung.",
+            "Die Institution wurde mehrfach umgestaltet und erhielt 1905 den Namen Philippine Museum. Der Jahrestag bezieht sich auf die Gründung 1901, nicht auf spätere Umbenennungen."
+          ]
+        },
+        "pt": {
+          "heading": "29 de outubro: do Museu Insular de 1901 ao Museu Nacional",
+          "origin": "O Museu Nacional das Filipinas preserva e investiga arte, arqueologia, etnografia, história e ciências naturais, documentando a diversidade do país. Segundo a história oficial, a Comissão Filipina criou o Museu Insular de Etnologia, História Natural e Comércio em 29 de outubro de 1901, ligado à Instrução Pública. A instituição passou por reorganizações e recebeu o nome Philippine Museum em 1905. O aniversário recorda a criação de 1901, não uma alteração posterior.",
+          "promoter": "National Museum of the Philippines são os organismos públicos envolvidos na documentação histórica e jurídica oficial sobre a fundação.",
+          "purpose": "Reconhecer a origem de 1901 e o papel científico e cultural do Museu.",
+          "facts": [
+            "O Museu Nacional das Filipinas preserva e investiga arte, arqueologia, etnografia, história e ciências naturais, documentando a diversidade do país.",
+            "Segundo a história oficial, a Comissão Filipina criou o Museu Insular de Etnologia, História Natural e Comércio em 29 de outubro de 1901, ligado à Instrução Pública.",
+            "A instituição passou por reorganizações e recebeu o nome Philippine Museum em 1905. O aniversário recorda a criação de 1901, não uma alteração posterior."
+          ]
+        }
+      },
+      "sourceReviewNote": "Institution official history plus national statute and/or National Historical Commission marker cross-referenced to NCCA national calendar; use legal founding year versus earlier antecedent; six-locale AI research drafts still need independent qualified historical and native-language human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippine-house-of-representatives-founding-anniversary",
+      "country": "PH",
+      "observanceDate": "08-29",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1916,
+      "firstObservedYear": null,
+      "originClusterId": "PH_JONES_ACT_BICAMERAL_AUG29_1916_SENATE_HOUSE_DISTINCT_1907_ASSEMBLY",
+      "legalStatus": "PH_INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://econgress.gov.ph/legislative-history/",
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-philippine-assembly/",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 August: the Jones Act and the House's longer Assembly history",
+          "origin": "The House of Representatives traces a predecessor to the Philippine Assembly, whose first session was held on 16 October 1907. This earlier elected body predates the bicameral Congress created under the Jones Act. The United States Congress enacted the Philippine Autonomy Act, known as the Jones Act, on 29 August 1916. It established an all-Filipino bicameral legislature with a new Senate and House of Representatives. The new legislative structure held its inaugural sessions in October 1916. Treating 29 August as a legal-framework anniversary must not erase the House's 1907 predecessor or be confused with the separate Senate institutional history.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices are the relevant public institutions named in the primary official historical and legal documentation associated with the founding date.",
+          "purpose": "Explain the 1907 predecessor, 1916 Jones Act, and distinction between the two legislative chambers.",
+          "facts": [
+            "The House of Representatives traces a predecessor to the Philippine Assembly, whose first session was held on 16 October 1907. This earlier elected body predates the bicameral Congress created under the Jones Act.",
+            "The United States Congress enacted the Philippine Autonomy Act, known as the Jones Act, on 29 August 1916. It established an all-Filipino bicameral legislature with a new Senate and House of Representatives.",
+            "The new legislative structure held its inaugural sessions in October 1916. Treating 29 August as a legal-framework anniversary must not erase the House's 1907 predecessor or be confused with the separate Senate institutional history."
+          ]
+        },
+        "it": {
+          "heading": "29 agosto: la legge Jones e le radici della Camera nell'Assemblea",
+          "origin": "La Camera dei rappresentanti ha un precedente nell'Assemblea filippina, la cui prima seduta risale al 16 ottobre 1907. Questo organo eletto precede il Congresso bicamerale della legge Jones. Il Congresso statunitense approvò il Philippine Autonomy Act, detto legge Jones, il 29 agosto 1916, creando una legislatura bicamerale filippina con Senato e Camera dei rappresentanti. La nuova struttura si riunì nell'ottobre 1916. Il 29 agosto ricorda la base legale, senza cancellare il precedente del 1907 né confondersi con la storia propria del Senato.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices sono gli enti pubblici coinvolti nelle fonti ufficiali storiche e normative relative alla fondazione.",
+          "purpose": "Distinguere Assemblea del 1907, legge del 1916 e storia delle due camere.",
+          "facts": [
+            "La Camera dei rappresentanti ha un precedente nell'Assemblea filippina, la cui prima seduta risale al 16 ottobre 1907. Questo organo eletto precede il Congresso bicamerale della legge Jones.",
+            "Il Congresso statunitense approvò il Philippine Autonomy Act, detto legge Jones, il 29 agosto 1916, creando una legislatura bicamerale filippina con Senato e Camera dei rappresentanti.",
+            "La nuova struttura si riunì nell'ottobre 1916. Il 29 agosto ricorda la base legale, senza cancellare il precedente del 1907 né confondersi con la storia propria del Senato."
+          ]
+        },
+        "es": {
+          "heading": "29 de agosto: la Ley Jones y los antecedentes de la Cámara",
+          "origin": "La Cámara de Representantes tiene un antecedente en la Asamblea Filipina, que sesionó por primera vez el 16 de octubre de 1907, antes del Congreso bicameral de la Ley Jones. El Congreso estadounidense aprobó la Ley de Autonomía Filipina, Ley Jones, el 29 de agosto de 1916, creando una legislatura bicameral filipina con Senado y Cámara. La nueva estructura comenzó a sesionar en octubre de 1916. El 29 de agosto es un aniversario legal que no elimina la Asamblea de 1907 ni la historia propia del Senado.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices son los organismos públicos vinculados a la documentación histórica y jurídica oficial de esta institución.",
+          "purpose": "Distinguir la Asamblea de 1907, la ley de 1916 y las dos cámaras legislativas.",
+          "facts": [
+            "La Cámara de Representantes tiene un antecedente en la Asamblea Filipina, que sesionó por primera vez el 16 de octubre de 1907, antes del Congreso bicameral de la Ley Jones.",
+            "El Congreso estadounidense aprobó la Ley de Autonomía Filipina, Ley Jones, el 29 de agosto de 1916, creando una legislatura bicameral filipina con Senado y Cámara.",
+            "La nueva estructura comenzó a sesionar en octubre de 1916. El 29 de agosto es un aniversario legal que no elimina la Asamblea de 1907 ni la historia propia del Senado."
+          ]
+        },
+        "fr": {
+          "heading": "29 août : la loi Jones et l'histoire de l'Assemblée philippine",
+          "origin": "La Chambre des représentants a pour ancêtre l'Assemblée philippine, dont la première session eut lieu le 16 octobre 1907, avant le Congrès bicaméral de la loi Jones. Le Congrès américain a adopté la loi d'autonomie philippine, dite loi Jones, le 29 août 1916, créant une législature bicamérale composée d'un Sénat et d'une Chambre. La nouvelle assemblée a inauguré ses sessions en octobre 1916. Le 29 août rappelle le cadre juridique, sans effacer l'Assemblée de 1907 ni confondre les deux chambres.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices sont les organismes publics concernés par la documentation officielle historique et juridique de la fondation.",
+          "purpose": "Distinguer l'Assemblée de 1907, la loi de 1916 et les deux chambres.",
+          "facts": [
+            "La Chambre des représentants a pour ancêtre l'Assemblée philippine, dont la première session eut lieu le 16 octobre 1907, avant le Congrès bicaméral de la loi Jones.",
+            "Le Congrès américain a adopté la loi d'autonomie philippine, dite loi Jones, le 29 août 1916, créant une législature bicamérale composée d'un Sénat et d'une Chambre.",
+            "La nouvelle assemblée a inauguré ses sessions en octobre 1916. Le 29 août rappelle le cadre juridique, sans effacer l'Assemblée de 1907 ni confondre les deux chambres."
+          ]
+        },
+        "de": {
+          "heading": "29. August: Jones-Gesetz und die längere Geschichte des Unterhauses",
+          "origin": "Das Repräsentantenhaus geht auf die Philippinische Versammlung zurück, deren erste Sitzung am 16. Oktober 1907 stattfand, vor dem durch das Jones-Gesetz geschaffenen Zweikammerparlament. Der US-Kongress verabschiedete am 29. August 1916 den Philippine Autonomy Act, das Jones-Gesetz, und schuf eine philippinische Zweikammerlegislative mit Senat und Repräsentantenhaus. Die neue Legislative trat im Oktober 1916 zusammen. Der 29. August ist ein Rechtsjubiläum, das die Versammlung von 1907 und die eigene Geschichte des Senats nicht auslöscht.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices sind die in den amtlichen Geschichts- und Rechtsquellen genannten oder betroffenen Institutionen.",
+          "purpose": "Die Vorgängerinstitution 1907, das Gesetz von 1916 und die Kammern unterscheiden.",
+          "facts": [
+            "Das Repräsentantenhaus geht auf die Philippinische Versammlung zurück, deren erste Sitzung am 16. Oktober 1907 stattfand, vor dem durch das Jones-Gesetz geschaffenen Zweikammerparlament.",
+            "Der US-Kongress verabschiedete am 29. August 1916 den Philippine Autonomy Act, das Jones-Gesetz, und schuf eine philippinische Zweikammerlegislative mit Senat und Repräsentantenhaus.",
+            "Die neue Legislative trat im Oktober 1916 zusammen. Der 29. August ist ein Rechtsjubiläum, das die Versammlung von 1907 und die eigene Geschichte des Senats nicht auslöscht."
+          ]
+        },
+        "pt": {
+          "heading": "29 de agosto: a Lei Jones e a história anterior da Câmara",
+          "origin": "A Câmara dos Representantes tem um antecedente na Assembleia Filipina, cuja primeira sessão ocorreu em 16 de outubro de 1907, antes do Congresso bicameral da Lei Jones. O Congresso dos EUA aprovou o Philippine Autonomy Act, Lei Jones, em 29 de agosto de 1916, criando uma legislatura bicameral filipina com Senado e Câmara. A nova legislatura reuniu-se em outubro de 1916. O dia 29 de agosto recorda a base jurídica, sem apagar a Assembleia de 1907 nem confundir as duas câmaras.",
+          "promoter": "House of Representatives of the Philippines and Congressional historical offices são os organismos públicos envolvidos na documentação histórica e jurídica oficial sobre a fundação.",
+          "purpose": "Distinguir a Assembleia de 1907, a lei de 1916 e as duas câmaras.",
+          "facts": [
+            "A Câmara dos Representantes tem um antecedente na Assembleia Filipina, cuja primeira sessão ocorreu em 16 de outubro de 1907, antes do Congresso bicameral da Lei Jones.",
+            "O Congresso dos EUA aprovou o Philippine Autonomy Act, Lei Jones, em 29 de agosto de 1916, criando uma legislatura bicameral filipina com Senado e Câmara.",
+            "A nova legislatura reuniu-se em outubro de 1916. O dia 29 de agosto recorda a base jurídica, sem apagar a Assembleia de 1907 nem confundir as duas câmaras."
+          ]
+        }
+      },
+      "sourceReviewNote": "Institution official history plus national statute and/or National Historical Commission marker cross-referenced to NCCA national calendar; use legal founding year versus earlier antecedent; six-locale AI research drafts still need independent qualified historical and native-language human approval."
+    },
+    {
+      "observanceId": "ph-w10-philippine-senate-founding-anniversary",
+      "country": "PH",
+      "observanceDate": "08-29",
+      "observancePeriodKind": "DAY",
+      "introducedYear": 1916,
+      "firstObservedYear": null,
+      "originClusterId": "PH_JONES_ACT_BICAMERAL_AUG29_1916_SENATE_HOUSE_DISTINCT_1907_ASSEMBLY",
+      "legalStatus": "PH_INSTITUTIONAL_FOUNDING_ANNIVERSARY_NOT_GENERAL_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/the-session-hall-of-the-senate-of-the-philippines/",
+        "https://legacy.senate.gov.ph/about/history.asp",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "29 August: the Jones Act created the Philippine Senate",
+          "origin": "The Philippine Senate was created as the upper chamber of the elected bicameral Philippine Legislature under the Jones Act of 29 August 1916, replacing the earlier appointed Philippine Commission. The National Historical Commission's Senate chamber marker says the Senate was inaugurated at the Intendencia Building in Intramuros, Manila on 16 October 1916. The founding law and first session thus fall on different dates. The Senate's institutional history also records interruptions and relocations through war, constitutional change and later legislatures. Its anniversary shares the Jones Act with the House but is a distinct chamber's founding story.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines are the relevant public institutions named in the primary official historical and legal documentation associated with the founding date.",
+          "purpose": "Clarify the 29 August 1916 legal creation and 16 October inauguration of the Senate.",
+          "facts": [
+            "The Philippine Senate was created as the upper chamber of the elected bicameral Philippine Legislature under the Jones Act of 29 August 1916, replacing the earlier appointed Philippine Commission.",
+            "The National Historical Commission's Senate chamber marker says the Senate was inaugurated at the Intendencia Building in Intramuros, Manila on 16 October 1916. The founding law and first session thus fall on different dates.",
+            "The Senate's institutional history also records interruptions and relocations through war, constitutional change and later legislatures. Its anniversary shares the Jones Act with the House but is a distinct chamber's founding story."
+          ]
+        },
+        "it": {
+          "heading": "29 agosto: la legge Jones istituì il Senato filippino",
+          "origin": "Il Senato filippino nacque come camera alta della legislatura bicamerale con la legge Jones del 29 agosto 1916, sostituendo la precedente Commissione filippina nominata. L'iscrizione storica ufficiale indica l'insediamento del Senato all'Intendencia di Intramuros, Manila, il 16 ottobre 1916. La legge istitutiva e la prima seduta cadono in date diverse. La storia istituzionale del Senato comprende interruzioni e trasferimenti per guerra e cambi costituzionali. Condivide la legge Jones con la Camera, ma ha una storia propria.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines sono gli enti pubblici coinvolti nelle fonti ufficiali storiche e normative relative alla fondazione.",
+          "purpose": "Distinguere la nascita legale del 29 agosto dall'insediamento del 16 ottobre 1916.",
+          "facts": [
+            "Il Senato filippino nacque come camera alta della legislatura bicamerale con la legge Jones del 29 agosto 1916, sostituendo la precedente Commissione filippina nominata.",
+            "L'iscrizione storica ufficiale indica l'insediamento del Senato all'Intendencia di Intramuros, Manila, il 16 ottobre 1916. La legge istitutiva e la prima seduta cadono in date diverse.",
+            "La storia istituzionale del Senato comprende interruzioni e trasferimenti per guerra e cambi costituzionali. Condivide la legge Jones con la Camera, ma ha una storia propria."
+          ]
+        },
+        "es": {
+          "heading": "29 de agosto: la Ley Jones creó el Senado filipino",
+          "origin": "El Senado filipino nació como cámara alta de la legislatura bicameral mediante la Ley Jones del 29 de agosto de 1916, sustituyendo a la anterior Comisión Filipina designada. La placa histórica oficial sitúa la inauguración del Senado en el edificio Intendencia de Intramuros, Manila, el 16 de octubre de 1916. La ley y la primera sesión no coincidieron. La historia institucional del Senado incluye interrupciones y traslados por guerra y cambios constitucionales. Comparte la Ley Jones con la Cámara, pero posee trayectoria propia.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines son los organismos públicos vinculados a la documentación histórica y jurídica oficial de esta institución.",
+          "purpose": "Distinguir la creación legal de agosto de la inauguración de octubre de 1916.",
+          "facts": [
+            "El Senado filipino nació como cámara alta de la legislatura bicameral mediante la Ley Jones del 29 de agosto de 1916, sustituyendo a la anterior Comisión Filipina designada.",
+            "La placa histórica oficial sitúa la inauguración del Senado en el edificio Intendencia de Intramuros, Manila, el 16 de octubre de 1916. La ley y la primera sesión no coincidieron.",
+            "La historia institucional del Senado incluye interrupciones y traslados por guerra y cambios constitucionales. Comparte la Ley Jones con la Cámara, pero posee trayectoria propia."
+          ]
+        },
+        "fr": {
+          "heading": "29 août : la loi Jones a créé le Sénat philippin",
+          "origin": "Le Sénat philippin fut institué comme chambre haute de la législature bicamérale par la loi Jones du 29 août 1916, remplaçant la Commission philippine auparavant nommée. La plaque historique officielle situe l'inauguration du Sénat à l'Intendencia d'Intramuros, Manille, le 16 octobre 1916. La loi de création et l'ouverture diffèrent. L'histoire du Sénat comprend des interruptions et des déménagements liés aux guerres et aux changements constitutionnels. Il partage la loi Jones avec la Chambre, mais possède son histoire propre.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines sont les organismes publics concernés par la documentation officielle historique et juridique de la fondation.",
+          "purpose": "Distinguer la création juridique d'août et l'inauguration d'octobre 1916.",
+          "facts": [
+            "Le Sénat philippin fut institué comme chambre haute de la législature bicamérale par la loi Jones du 29 août 1916, remplaçant la Commission philippine auparavant nommée.",
+            "La plaque historique officielle situe l'inauguration du Sénat à l'Intendencia d'Intramuros, Manille, le 16 octobre 1916. La loi de création et l'ouverture diffèrent.",
+            "L'histoire du Sénat comprend des interruptions et des déménagements liés aux guerres et aux changements constitutionnels. Il partage la loi Jones avec la Chambre, mais possède son histoire propre."
+          ]
+        },
+        "de": {
+          "heading": "29. August: Das Jones-Gesetz schuf den philippinischen Senat",
+          "origin": "Der philippinische Senat wurde mit dem Jones-Gesetz vom 29. August 1916 als Oberhaus der Zweikammerlegislative gegründet und ersetzte die zuvor ernannte Kommission. Laut amtlicher Gedenktafel wurde der Senat am 16. Oktober 1916 im Intendencia-Gebäude in Intramuros, Manila, eröffnet. Gesetz und erste Sitzung haben unterschiedliche Daten. Die Geschichte des Senats umfasst kriegs- und verfassungsbedingte Unterbrechungen und Umzüge. Er teilt das Jones-Gesetz mit dem Unterhaus, ist aber eine eigene Institution.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines sind die in den amtlichen Geschichts- und Rechtsquellen genannten oder betroffenen Institutionen.",
+          "purpose": "Rechtsgründung im August und Eröffnung im Oktober 1916 unterscheiden.",
+          "facts": [
+            "Der philippinische Senat wurde mit dem Jones-Gesetz vom 29. August 1916 als Oberhaus der Zweikammerlegislative gegründet und ersetzte die zuvor ernannte Kommission.",
+            "Laut amtlicher Gedenktafel wurde der Senat am 16. Oktober 1916 im Intendencia-Gebäude in Intramuros, Manila, eröffnet. Gesetz und erste Sitzung haben unterschiedliche Daten.",
+            "Die Geschichte des Senats umfasst kriegs- und verfassungsbedingte Unterbrechungen und Umzüge. Er teilt das Jones-Gesetz mit dem Unterhaus, ist aber eine eigene Institution."
+          ]
+        },
+        "pt": {
+          "heading": "29 de agosto: a Lei Jones criou o Senado filipino",
+          "origin": "O Senado filipino foi criado como câmara alta da legislatura bicameral pela Lei Jones de 29 de agosto de 1916, substituindo a anterior Comissão nomeada. A placa histórica oficial indica que o Senado foi inaugurado no edifício Intendencia, em Intramuros, Manila, em 16 de outubro de 1916. Lei e primeira sessão têm datas diferentes. A história do Senado inclui interrupções e mudanças devido a guerras e reformas constitucionais. Partilha a Lei Jones com a Câmara, mas possui percurso próprio.",
+          "promoter": "Senate of the Philippines and National Historical Commission of the Philippines são os organismos públicos envolvidos na documentação histórica e jurídica oficial sobre a fundação.",
+          "purpose": "Distinguir a criação legal de agosto da inauguração de outubro de 1916.",
+          "facts": [
+            "O Senado filipino foi criado como câmara alta da legislatura bicameral pela Lei Jones de 29 de agosto de 1916, substituindo a anterior Comissão nomeada.",
+            "A placa histórica oficial indica que o Senado foi inaugurado no edifício Intendencia, em Intramuros, Manila, em 16 de outubro de 1916. Lei e primeira sessão têm datas diferentes.",
+            "A história do Senado inclui interrupções e mudanças devido a guerras e reformas constitucionais. Partilha a Lei Jones com a Câmara, mas possui percurso próprio."
+          ]
+        }
+      },
+      "sourceReviewNote": "Institution official history plus national statute and/or National Historical Commission marker cross-referenced to NCCA national calendar; use legal founding year versus earlier antecedent; six-locale AI research drafts still need independent qualified historical and native-language human approval."
+    }
+  ]
+}

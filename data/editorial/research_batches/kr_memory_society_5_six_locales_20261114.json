@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "KR_MOIS_MPVA_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-righteous-armies-remembrance-day",
+      "country": "KR",
+      "observanceDate": "06-01",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "originClusterId": "KR_RIGHTEOUS_ARMIES_HISTORICAL_VOLUNTEER_RESISTANCE",
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NO_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 June: remembering Korea's Righteous Armies",
+          "origin": "Righteous Armies Remembrance Day honours volunteer fighters, known in Korea as uibyeong, who resisted threats to Korean sovereignty during different periods of the country's history. The present South Korean government observance highlights their self-sacrifice and a commitment to preserving historical remembrance. The original militias existed long before a modern national commemorative calendar. On 25 May 2010 the government formally designated 1 June a statutory remembrance day. The legal date does not imply that the earliest Righteous Armies were first formed on 1 June 2010. It is important to distinguish the commemorated historical events and earlier public ceremonies from the later legal designation; the annual recurrence is governed by the national rules for this specific day.",
+          "promoter": "The South Korean government and relevant public bodies institutionalized this day through the commemorative-day regulation, following its own distinct historical background.",
+          "purpose": "Remember volunteer resistance to threats against sovereignty and examine its place in Korean public history.",
+          "facts": [
+            "Righteous Armies Remembrance Day honours volunteer fighters, known in Korea as uibyeong, who resisted threats to Korean sovereignty during different periods of the country's history.",
+            "The present South Korean government observance highlights their self-sacrifice and a commitment to preserving historical remembrance. The original militias existed long before a modern national commemorative calendar.",
+            "On 25 May 2010 the government formally designated 1 June a statutory remembrance day. The legal date does not imply that the earliest Righteous Armies were first formed on 1 June 2010."
+          ]
+        },
+        "it": {
+          "heading": "1º giugno: il ricordo delle milizie volontarie coreane",
+          "origin": "La giornata delle milizie patriottiche ricorda i combattenti volontari, detti uibyeong, che resistettero alle minacce contro la sovranità coreana in diversi periodi della storia. La moderna ricorrenza sudcoreana sottolinea il loro sacrificio e la conservazione della memoria storica. Le formazioni volontarie sono molto più antiche del calendario commemorativo nazionale. Il 25 maggio 2010 il governo istituì ufficialmente il 1º giugno come giornata commemorativa legale. Questo non significa che i primi gruppi di resistenza siano nati nel 2010. È importante distinguere gli eventi storici ricordati e le prime iniziative pubbliche dal successivo riconoscimento legale; il calendario annuale segue le regole nazionali della ricorrenza.",
+          "promoter": "Il governo sudcoreano e gli enti pubblici competenti hanno istituito questa giornata attraverso la normativa commemorativa, partendo dai suoi specifici antecedenti storici.",
+          "purpose": "Ricordare la resistenza volontaria in difesa della sovranità e il suo ruolo nella storia coreana.",
+          "facts": [
+            "La giornata delle milizie patriottiche ricorda i combattenti volontari, detti uibyeong, che resistettero alle minacce contro la sovranità coreana in diversi periodi della storia.",
+            "La moderna ricorrenza sudcoreana sottolinea il loro sacrificio e la conservazione della memoria storica. Le formazioni volontarie sono molto più antiche del calendario commemorativo nazionale.",
+            "Il 25 maggio 2010 il governo istituì ufficialmente il 1º giugno come giornata commemorativa legale. Questo non significa che i primi gruppi di resistenza siano nati nel 2010."
+          ]
+        },
+        "es": {
+          "heading": "1 de junio: memoria de los ejércitos voluntarios coreanos",
+          "origin": "El Día de los Ejércitos Justos recuerda a los combatientes voluntarios conocidos como uibyeong, que resistieron amenazas a la soberanía coreana en varios periodos históricos. La conmemoración nacional moderna destaca su sacrificio y la importancia de conservar esa memoria. Las milicias existieron mucho antes del calendario de celebraciones del Estado actual. El Gobierno reconoció oficialmente el 1 de junio como día conmemorativo el 25 de mayo de 2010. La decisión legal no marca la creación histórica de los primeros grupos. Es importante separar los acontecimientos históricos recordados y las primeras ceremonias de la designación legal posterior; el calendario anual sigue las reglas propias de esta jornada.",
+          "promoter": "El Gobierno surcoreano y las instituciones competentes establecieron la jornada en la normativa conmemorativa tras los antecedentes históricos propios.",
+          "purpose": "Recordar la resistencia voluntaria frente a amenazas a la soberanía y su lugar en la historia coreana.",
+          "facts": [
+            "El Día de los Ejércitos Justos recuerda a los combatientes voluntarios conocidos como uibyeong, que resistieron amenazas a la soberanía coreana en varios periodos históricos.",
+            "La conmemoración nacional moderna destaca su sacrificio y la importancia de conservar esa memoria. Las milicias existieron mucho antes del calendario de celebraciones del Estado actual.",
+            "El Gobierno reconoció oficialmente el 1 de junio como día conmemorativo el 25 de mayo de 2010. La decisión legal no marca la creación histórica de los primeros grupos."
+          ]
+        },
+        "fr": {
+          "heading": "1er juin : hommage aux armées volontaires coréennes",
+          "origin": "La Journée des armées volontaires rend hommage aux combattants appelés uibyeong, qui ont résisté à des menaces contre la souveraineté coréenne à différentes époques. La commémoration sud-coréenne actuelle insiste sur leur sacrifice et la transmission de cette mémoire. Les formations volontaires existaient bien avant le calendrier national moderne. Le gouvernement a officiellement établi le 1er juin comme journée légale le 25 mai 2010. Cette décision n'est pas la date de création historique des premières armées volontaires. Il faut séparer les faits historiques rappelés et les premières cérémonies de la reconnaissance juridique ultérieure; le calendrier annuel suit les règles nationales de cette journée.",
+          "promoter": "Le gouvernement sud-coréen et les institutions concernées ont institué cette journée dans le droit commémoratif après ses précédents historiques.",
+          "purpose": "Préserver la mémoire de la résistance volontaire et de la défense de la souveraineté dans l'histoire coréenne.",
+          "facts": [
+            "La Journée des armées volontaires rend hommage aux combattants appelés uibyeong, qui ont résisté à des menaces contre la souveraineté coréenne à différentes époques.",
+            "La commémoration sud-coréenne actuelle insiste sur leur sacrifice et la transmission de cette mémoire. Les formations volontaires existaient bien avant le calendrier national moderne.",
+            "Le gouvernement a officiellement établi le 1er juin comme journée légale le 25 mai 2010. Cette décision n'est pas la date de création historique des premières armées volontaires."
+          ]
+        },
+        "de": {
+          "heading": "1. Juni: Erinnerung an Koreas freiwillige Widerstandsarmeen",
+          "origin": "Der Gedenktag für die sogenannten gerechten Armeen ehrt freiwillige Kämpfer, uibyeong, die zu verschiedenen Zeiten gegen Bedrohungen der koreanischen Souveränität Widerstand leisteten. Der heutige südkoreanische Gedenktag würdigt ihre Opfer und die Bewahrung ihrer Geschichte. Die Freiwilligenverbände entstanden lange vor dem modernen staatlichen Gedenkkalender. Am 25. Mai 2010 legte die Regierung den 1. Juni als gesetzlichen Gedenktag fest. Diese Rechtsentscheidung war nicht die historische Gründung der ursprünglichen Verbände. Die historischen Ereignisse und frühen Veranstaltungen sind von der späteren gesetzlichen Anerkennung zu trennen; der jährliche Termin folgt der besonderen nationalen Regelung.",
+          "promoter": "Die südkoreanische Regierung und zuständige Stellen führten diesen Gedenktag auf Grundlage seiner besonderen historischen Vorläufer ein.",
+          "purpose": "An freiwilligen Widerstand zur Verteidigung der Souveränität und dessen historische Bedeutung erinnern.",
+          "facts": [
+            "Der Gedenktag für die sogenannten gerechten Armeen ehrt freiwillige Kämpfer, uibyeong, die zu verschiedenen Zeiten gegen Bedrohungen der koreanischen Souveränität Widerstand leisteten.",
+            "Der heutige südkoreanische Gedenktag würdigt ihre Opfer und die Bewahrung ihrer Geschichte. Die Freiwilligenverbände entstanden lange vor dem modernen staatlichen Gedenkkalender.",
+            "Am 25. Mai 2010 legte die Regierung den 1. Juni als gesetzlichen Gedenktag fest. Diese Rechtsentscheidung war nicht die historische Gründung der ursprünglichen Verbände."
+          ]
+        },
+        "pt": {
+          "heading": "1 de junho: memória dos exércitos voluntários coreanos",
+          "origin": "O Dia dos Exércitos Voluntários homenageia combatentes conhecidos como uibyeong, que resistiram a ameaças contra a soberania coreana em diferentes períodos da história. A comemoração moderna destaca o seu sacrifício e a necessidade de preservar essa memória. As formações voluntárias existiam muito antes do calendário nacional atual. Em 25 de maio de 2010 o governo instituiu oficialmente 1 de junho como data comemorativa. A decisão legal não representa a formação histórica dos primeiros grupos. É importante distinguir os acontecimentos históricos e as primeiras cerimónias do reconhecimento legal posterior; o calendário anual segue as regras próprias desta comemoração.",
+          "promoter": "O governo sul-coreano e os organismos competentes criaram a data nas regras comemorativas após os seus antecedentes históricos.",
+          "purpose": "Preservar a memória da resistência voluntária em defesa da soberania e do seu lugar na história coreana.",
+          "facts": [
+            "O Dia dos Exércitos Voluntários homenageia combatentes conhecidos como uibyeong, que resistiram a ameaças contra a soberania coreana em diferentes períodos da história.",
+            "A comemoração moderna destaca o seu sacrifício e a necessidade de preservar essa memória. As formações voluntárias existiam muito antes do calendário nacional atual.",
+            "Em 25 de maio de 2010 o governo instituiu oficialmente 1 de junho como data comemorativa. A decisão legal não representa a formação histórica dos primeiros grupos."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean official MOIS statutory chronology and government index; West Sea separately cross-checked against Ministry of Patriots and Veterans Affairs 2016 regulatory decision and first ceremony; sources otherwise one ministry, not independent. Six-language AI drafts pending qualified historical/native human review."
+    },
+    {
+      "observanceId": "kr-w10-sports-day-in-korea",
+      "country": "KR",
+      "observanceDate": "10-15",
+      "introducedYear": 1969,
+      "firstObservedYear": null,
+      "originClusterId": "KR_SPORTS_DAY_1969_PHYSICAL_2023_RENAME",
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NO_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "15 October: the Korean sports day changed its name in 2023",
+          "origin": "South Korea's Sports Day promotes physical activity, access to sport and healthy use of leisure time. Its legal background includes the National Sports Promotion Act of 1962. On 3 November 1969 the government designated 15 October as Physical Education Day under an implementing regulation. On 30 March 1973 it entered the general statutory commemorations framework. A regulatory change on 10 July 2023 renamed the occasion Sports Day. The 1969 founding of the earlier day and the 2023 renaming are different milestones, not two separate sports festivals. It is important to distinguish the commemorated historical events and earlier public ceremonies from the later legal designation; the annual recurrence is governed by the national rules for this specific day.",
+          "promoter": "The South Korean government and relevant public bodies institutionalized this day through the commemorative-day regulation, following its own distinct historical background.",
+          "purpose": "Encourage participation in sport and physical activity, wellbeing and access to recreation.",
+          "facts": [
+            "South Korea's Sports Day promotes physical activity, access to sport and healthy use of leisure time. Its legal background includes the National Sports Promotion Act of 1962.",
+            "On 3 November 1969 the government designated 15 October as Physical Education Day under an implementing regulation. On 30 March 1973 it entered the general statutory commemorations framework.",
+            "A regulatory change on 10 July 2023 renamed the occasion Sports Day. The 1969 founding of the earlier day and the 2023 renaming are different milestones, not two separate sports festivals."
+          ]
+        },
+        "it": {
+          "heading": "15 ottobre: la giornata coreana dello sport ha cambiato nome nel 2023",
+          "origin": "La Giornata dello sport in Corea del Sud promuove movimento, pratica sportiva e utilizzo sano del tempo libero. Tra i riferimenti normativi c'è la legge del 1962 per la promozione dello sport nazionale. Il 3 novembre 1969 il governo fissò il 15 ottobre come Giornata dell'educazione fisica. Il 30 marzo 1973 la ricorrenza entrò nelle norme commemorative generali. Una modifica del 10 luglio 2023 adottò il nome Giornata dello sport. L'istituzione del 1969 e la denominazione moderna del 2023 sono passaggi differenti. È importante distinguere gli eventi storici ricordati e le prime iniziative pubbliche dal successivo riconoscimento legale; il calendario annuale segue le regole nazionali della ricorrenza.",
+          "promoter": "Il governo sudcoreano e gli enti pubblici competenti hanno istituito questa giornata attraverso la normativa commemorativa, partendo dai suoi specifici antecedenti storici.",
+          "purpose": "Favorire attività fisica, accesso allo sport, benessere e tempo libero salutare.",
+          "facts": [
+            "La Giornata dello sport in Corea del Sud promuove movimento, pratica sportiva e utilizzo sano del tempo libero. Tra i riferimenti normativi c'è la legge del 1962 per la promozione dello sport nazionale.",
+            "Il 3 novembre 1969 il governo fissò il 15 ottobre come Giornata dell'educazione fisica. Il 30 marzo 1973 la ricorrenza entrò nelle norme commemorative generali.",
+            "Una modifica del 10 luglio 2023 adottò il nome Giornata dello sport. L'istituzione del 1969 e la denominazione moderna del 2023 sono passaggi differenti."
+          ]
+        },
+        "es": {
+          "heading": "15 de octubre: el Día del Deporte cambió de nombre en 2023",
+          "origin": "El Día del Deporte en Corea del Sur promueve actividad física, participación deportiva y ocio saludable. Entre sus antecedentes legales figura la ley nacional de promoción del deporte de 1962. El 3 de noviembre de 1969 el Gobierno estableció el 15 de octubre como Día de la Educación Física, incorporado a las conmemoraciones oficiales el 30 de marzo de 1973. Una reforma del 10 de julio de 2023 adoptó la denominación Día del Deporte. La creación de 1969 y el cambio de nombre de 2023 son hechos diferentes. Es importante separar los acontecimientos históricos recordados y las primeras ceremonias de la designación legal posterior; el calendario anual sigue las reglas propias de esta jornada.",
+          "promoter": "El Gobierno surcoreano y las instituciones competentes establecieron la jornada en la normativa conmemorativa tras los antecedentes históricos propios.",
+          "purpose": "Fomentar el deporte, la actividad física, la salud y el acceso a actividades recreativas.",
+          "facts": [
+            "El Día del Deporte en Corea del Sur promueve actividad física, participación deportiva y ocio saludable. Entre sus antecedentes legales figura la ley nacional de promoción del deporte de 1962.",
+            "El 3 de noviembre de 1969 el Gobierno estableció el 15 de octubre como Día de la Educación Física, incorporado a las conmemoraciones oficiales el 30 de marzo de 1973.",
+            "Una reforma del 10 de julio de 2023 adoptó la denominación Día del Deporte. La creación de 1969 y el cambio de nombre de 2023 son hechos diferentes."
+          ]
+        },
+        "fr": {
+          "heading": "15 octobre : la Journée du sport a changé de nom en 2023",
+          "origin": "En Corée du Sud, la Journée du sport encourage l'activité physique, la pratique sportive et l'emploi sain du temps libre. Elle s'inscrit dans le cadre de la loi de promotion sportive de 1962. Le 3 novembre 1969, le gouvernement a fixé le 15 octobre comme Journée de l'éducation physique, intégrée au calendrier commémoratif général le 30 mars 1973. Une réforme du 10 juillet 2023 lui a donné le nom de Journée du sport. La création initiale et le changement de nom ne sont pas deux journées indépendantes. Il faut séparer les faits historiques rappelés et les premières cérémonies de la reconnaissance juridique ultérieure; le calendrier annuel suit les règles nationales de cette journée.",
+          "promoter": "Le gouvernement sud-coréen et les institutions concernées ont institué cette journée dans le droit commémoratif après ses précédents historiques.",
+          "purpose": "Encourager la pratique sportive, le bien-être et l'accès aux loisirs et à l'activité physique.",
+          "facts": [
+            "En Corée du Sud, la Journée du sport encourage l'activité physique, la pratique sportive et l'emploi sain du temps libre. Elle s'inscrit dans le cadre de la loi de promotion sportive de 1962.",
+            "Le 3 novembre 1969, le gouvernement a fixé le 15 octobre comme Journée de l'éducation physique, intégrée au calendrier commémoratif général le 30 mars 1973.",
+            "Une réforme du 10 juillet 2023 lui a donné le nom de Journée du sport. La création initiale et le changement de nom ne sont pas deux journées indépendantes."
+          ]
+        },
+        "de": {
+          "heading": "15. Oktober: Der südkoreanische Sporttag erhielt 2023 einen neuen Namen",
+          "origin": "Südkoreas Sporttag fördert körperliche Bewegung, Sport und eine gesunde Freizeitgestaltung. Seine Rechtsgeschichte knüpft an das nationale Sportförderungsgesetz von 1962 an. Am 3. November 1969 legte die Regierung den 15. Oktober als Tag der Leibeserziehung fest, der am 30. März 1973 in den allgemeinen Gedenkkalender aufgenommen wurde. Eine Reform vom 10. Juli 2023 änderte den Namen in Sporttag. Die Einführung 1969 und die spätere Umbenennung sind keine zwei unabhängigen Sportfeste. Die historischen Ereignisse und frühen Veranstaltungen sind von der späteren gesetzlichen Anerkennung zu trennen; der jährliche Termin folgt der besonderen nationalen Regelung.",
+          "promoter": "Die südkoreanische Regierung und zuständige Stellen führten diesen Gedenktag auf Grundlage seiner besonderen historischen Vorläufer ein.",
+          "purpose": "Sport, Bewegung, Wohlbefinden und den Zugang zu Freizeitaktivitäten fördern.",
+          "facts": [
+            "Südkoreas Sporttag fördert körperliche Bewegung, Sport und eine gesunde Freizeitgestaltung. Seine Rechtsgeschichte knüpft an das nationale Sportförderungsgesetz von 1962 an.",
+            "Am 3. November 1969 legte die Regierung den 15. Oktober als Tag der Leibeserziehung fest, der am 30. März 1973 in den allgemeinen Gedenkkalender aufgenommen wurde.",
+            "Eine Reform vom 10. Juli 2023 änderte den Namen in Sporttag. Die Einführung 1969 und die spätere Umbenennung sind keine zwei unabhängigen Sportfeste."
+          ]
+        },
+        "pt": {
+          "heading": "15 de outubro: o Dia do Desporto mudou de nome em 2023",
+          "origin": "O Dia do Desporto sul-coreano promove atividade física, participação desportiva e lazer saudável. A sua história legal inclui a lei nacional de promoção do desporto de 1962. Em 3 de novembro de 1969, o governo escolheu 15 de outubro como Dia da Educação Física, integrado nas comemorações oficiais em 30 de março de 1973. Uma alteração de 10 de julho de 2023 deu-lhe a designação Dia do Desporto. A instituição em 1969 e o novo nome em 2023 são etapas diferentes. É importante distinguir os acontecimentos históricos e as primeiras cerimónias do reconhecimento legal posterior; o calendário anual segue as regras próprias desta comemoração.",
+          "promoter": "O governo sul-coreano e os organismos competentes criaram a data nas regras comemorativas após os seus antecedentes históricos.",
+          "purpose": "Incentivar exercício físico, desporto, saúde e acesso a atividades recreativas.",
+          "facts": [
+            "O Dia do Desporto sul-coreano promove atividade física, participação desportiva e lazer saudável. A sua história legal inclui a lei nacional de promoção do desporto de 1962.",
+            "Em 3 de novembro de 1969, o governo escolheu 15 de outubro como Dia da Educação Física, integrado nas comemorações oficiais em 30 de março de 1973.",
+            "Uma alteração de 10 de julho de 2023 deu-lhe a designação Dia do Desporto. A instituição em 1969 e o novo nome em 2023 são etapas diferentes."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean official MOIS statutory chronology and government index; West Sea separately cross-checked against Ministry of Patriots and Veterans Affairs 2016 regulatory decision and first ceremony; sources otherwise one ministry, not independent. Six-language AI drafts pending qualified historical/native human review."
+    },
+    {
+      "observanceId": "kr-w10-veterans-association-day-in-korea",
+      "country": "KR",
+      "observanceDate": "10-08",
+      "introducedYear": 1965,
+      "firstObservedYear": null,
+      "originClusterId": "KR_VETERANS_ASSOCIATION_1952_FORMED_1965_DAY_2002_MOVE",
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NO_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "8 October: Korea's Veterans Association Day changed its anniversary",
+          "origin": "Veterans Association Day recognizes former military personnel and the work of veterans' associations in South Korea. The national association was established in Busan on 1 February 1952. After organizational changes during the 1950s and membership in an international veterans federation in 1961, the government designated a Veterans Association Day on 8 June 1965, originally linked to 8 May. On 30 March 1973 it became a statutory commemoration, and on 19 June 2002 the government moved it from 8 May to 8 October. The association's founding and the modern date are distinct. It is important to distinguish the commemorated historical events and earlier public ceremonies from the later legal designation; the annual recurrence is governed by the national rules for this specific day.",
+          "promoter": "The South Korean government and relevant public bodies institutionalized this day through the commemorative-day regulation, following its own distinct historical background.",
+          "purpose": "Recognize veterans, their associations and the continuing social contributions of former service members.",
+          "facts": [
+            "Veterans Association Day recognizes former military personnel and the work of veterans' associations in South Korea. The national association was established in Busan on 1 February 1952.",
+            "After organizational changes during the 1950s and membership in an international veterans federation in 1961, the government designated a Veterans Association Day on 8 June 1965, originally linked to 8 May.",
+            "On 30 March 1973 it became a statutory commemoration, and on 19 June 2002 the government moved it from 8 May to 8 October. The association's founding and the modern date are distinct."
+          ]
+        },
+        "it": {
+          "heading": "8 ottobre: la Giornata dei veterani ha cambiato anniversario",
+          "origin": "La giornata delle associazioni dei veterani riconosce gli ex militari e le organizzazioni che li rappresentano in Corea del Sud. L'associazione nazionale nacque a Busan il 1º febbraio 1952. Dopo le trasformazioni degli anni Cinquanta e l'adesione a una federazione internazionale nel 1961, il governo istituì la ricorrenza l'8 giugno 1965, inizialmente riferita all'8 maggio. Il 30 marzo 1973 entrò fra le commemorazioni legali e il 19 giugno 2002 la data cambiò dall'8 maggio all'8 ottobre. Nascita dell'associazione e data attuale non coincidono. È importante distinguere gli eventi storici ricordati e le prime iniziative pubbliche dal successivo riconoscimento legale; il calendario annuale segue le regole nazionali della ricorrenza.",
+          "promoter": "Il governo sudcoreano e gli enti pubblici competenti hanno istituito questa giornata attraverso la normativa commemorativa, partendo dai suoi specifici antecedenti storici.",
+          "purpose": "Riconoscere il servizio e l'attività sociale dei veterani e delle loro associazioni.",
+          "facts": [
+            "La giornata delle associazioni dei veterani riconosce gli ex militari e le organizzazioni che li rappresentano in Corea del Sud. L'associazione nazionale nacque a Busan il 1º febbraio 1952.",
+            "Dopo le trasformazioni degli anni Cinquanta e l'adesione a una federazione internazionale nel 1961, il governo istituì la ricorrenza l'8 giugno 1965, inizialmente riferita all'8 maggio.",
+            "Il 30 marzo 1973 entrò fra le commemorazioni legali e il 19 giugno 2002 la data cambiò dall'8 maggio all'8 ottobre. Nascita dell'associazione e data attuale non coincidono."
+          ]
+        },
+        "es": {
+          "heading": "8 de octubre: el Día de los Veteranos cambió de aniversario",
+          "origin": "La jornada de las asociaciones de veteranos reconoce a antiguos militares y organizaciones de excombatientes de Corea del Sur. La asociación nacional fue fundada en Busan el 1 de febrero de 1952. Tras cambios organizativos en la década de 1950 y el ingreso en una federación internacional en 1961, el Gobierno creó la conmemoración el 8 de junio de 1965 con fecha original del 8 de mayo. El 30 de marzo de 1973 obtuvo reconocimiento reglamentario y el 19 de junio de 2002 se trasladó al 8 de octubre. El nacimiento de la asociación es distinto de la fecha actual. Es importante separar los acontecimientos históricos recordados y las primeras ceremonias de la designación legal posterior; el calendario anual sigue las reglas propias de esta jornada.",
+          "promoter": "El Gobierno surcoreano y las instituciones competentes establecieron la jornada en la normativa conmemorativa tras los antecedentes históricos propios.",
+          "purpose": "Reconocer a los veteranos y el trabajo de sus asociaciones y su participación en la comunidad.",
+          "facts": [
+            "La jornada de las asociaciones de veteranos reconoce a antiguos militares y organizaciones de excombatientes de Corea del Sur. La asociación nacional fue fundada en Busan el 1 de febrero de 1952.",
+            "Tras cambios organizativos en la década de 1950 y el ingreso en una federación internacional en 1961, el Gobierno creó la conmemoración el 8 de junio de 1965 con fecha original del 8 de mayo.",
+            "El 30 de marzo de 1973 obtuvo reconocimiento reglamentario y el 19 de junio de 2002 se trasladó al 8 de octubre. El nacimiento de la asociación es distinto de la fecha actual."
+          ]
+        },
+        "fr": {
+          "heading": "8 octobre : la Journée des anciens combattants a changé de date",
+          "origin": "La Journée des associations d'anciens combattants rend hommage aux anciens militaires de Corée du Sud et à leurs organismes. L'association nationale a été fondée à Busan le 1er février 1952. Après des changements durant les années 1950 et l'adhésion à une fédération internationale en 1961, le gouvernement a institué la journée le 8 juin 1965 pour une célébration au 8 mai. Elle a rejoint le calendrier légal le 30 mars 1973 et a été transférée au 8 octobre le 19 juin 2002. La fondation de l'association et la date actuelle sont distinctes. Il faut séparer les faits historiques rappelés et les premières cérémonies de la reconnaissance juridique ultérieure; le calendrier annuel suit les règles nationales de cette journée.",
+          "promoter": "Le gouvernement sud-coréen et les institutions concernées ont institué cette journée dans le droit commémoratif après ses précédents historiques.",
+          "purpose": "Reconnaître les anciens militaires et le rôle social et associatif de leurs organisations.",
+          "facts": [
+            "La Journée des associations d'anciens combattants rend hommage aux anciens militaires de Corée du Sud et à leurs organismes. L'association nationale a été fondée à Busan le 1er février 1952.",
+            "Après des changements durant les années 1950 et l'adhésion à une fédération internationale en 1961, le gouvernement a institué la journée le 8 juin 1965 pour une célébration au 8 mai.",
+            "Elle a rejoint le calendrier légal le 30 mars 1973 et a été transférée au 8 octobre le 19 juin 2002. La fondation de l'association et la date actuelle sont distinctes."
+          ]
+        },
+        "de": {
+          "heading": "8. Oktober: Südkoreas Veteranenverbandstag hat sein Datum geändert",
+          "origin": "Der Veteranenverbandstag würdigt ehemalige Militärangehörige und ihre Verbände in Südkorea. Die nationale Veteranenorganisation wurde am 1. Februar 1952 in Busan gegründet. Nach Umstrukturierungen in den 1950er Jahren und einem internationalen Verbandsbeitritt 1961 schuf die Regierung am 8. Juni 1965 einen eigenen Gedenktag, zunächst für den 8. Mai. Am 30. März 1973 erhielt er gesetzliche Anerkennung; am 19. Juni 2002 wurde der Termin auf den 8. Oktober verschoben. Vereinsgründung und heutiger Gedenktag sind verschieden. Die historischen Ereignisse und frühen Veranstaltungen sind von der späteren gesetzlichen Anerkennung zu trennen; der jährliche Termin folgt der besonderen nationalen Regelung.",
+          "promoter": "Die südkoreanische Regierung und zuständige Stellen führten diesen Gedenktag auf Grundlage seiner besonderen historischen Vorläufer ein.",
+          "purpose": "Ehemalige Militärangehörige und den gesellschaftlichen Beitrag ihrer Verbände würdigen.",
+          "facts": [
+            "Der Veteranenverbandstag würdigt ehemalige Militärangehörige und ihre Verbände in Südkorea. Die nationale Veteranenorganisation wurde am 1. Februar 1952 in Busan gegründet.",
+            "Nach Umstrukturierungen in den 1950er Jahren und einem internationalen Verbandsbeitritt 1961 schuf die Regierung am 8. Juni 1965 einen eigenen Gedenktag, zunächst für den 8. Mai.",
+            "Am 30. März 1973 erhielt er gesetzliche Anerkennung; am 19. Juni 2002 wurde der Termin auf den 8. Oktober verschoben. Vereinsgründung und heutiger Gedenktag sind verschieden."
+          ]
+        },
+        "pt": {
+          "heading": "8 de outubro: o Dia das Associações de Veteranos mudou de data",
+          "origin": "O Dia das Associações de Veteranos reconhece antigos militares e as organizações que os representam na Coreia do Sul. A associação nacional nasceu em Busan em 1 de fevereiro de 1952. Após transformações nos anos 1950 e adesão a uma federação internacional em 1961, o governo instituiu a comemoração em 8 de junho de 1965, inicialmente marcada para 8 de maio. Em 30 de março de 1973 foi reconhecida legalmente e, em 19 de junho de 2002, passou para 8 de outubro. A fundação da associação e a data moderna são distintas. É importante distinguir os acontecimentos históricos e as primeiras cerimónias do reconhecimento legal posterior; o calendário anual segue as regras próprias desta comemoração.",
+          "promoter": "O governo sul-coreano e os organismos competentes criaram a data nas regras comemorativas após os seus antecedentes históricos.",
+          "purpose": "Reconhecer os veteranos, as associações e a sua participação social após o serviço militar.",
+          "facts": [
+            "O Dia das Associações de Veteranos reconhece antigos militares e as organizações que os representam na Coreia do Sul. A associação nacional nasceu em Busan em 1 de fevereiro de 1952.",
+            "Após transformações nos anos 1950 e adesão a uma federação internacional em 1961, o governo instituiu a comemoração em 8 de junho de 1965, inicialmente marcada para 8 de maio.",
+            "Em 30 de março de 1973 foi reconhecida legalmente e, em 19 de junho de 2002, passou para 8 de outubro. A fundação da associação e a data moderna são distintas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean official MOIS statutory chronology and government index; West Sea separately cross-checked against Ministry of Patriots and Veterans Affairs 2016 regulatory decision and first ceremony; sources otherwise one ministry, not independent. Six-language AI drafts pending qualified historical/native human review."
+    },
+    {
+      "observanceId": "kr-w10-west-sea-defense-day",
+      "country": "KR",
+      "observanceDate": "FOURTH_FRIDAY_MARCH",
+      "introducedYear": 2016,
+      "firstObservedYear": 2016,
+      "originClusterId": "KR_WEST_SEA_DEFENSE_THREE_EPISODES_2002_2010",
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NO_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+        "https://www.mpva.go.kr/mpva/selectBbsNttView.do?bbsNo=16&integrDeptCode=&key=77&nttNo=5130&pageIndex=1&searchCnd=all&searchCtgry=&searchKrwd="
+      ],
+      "locale": {
+        "en": {
+          "heading": "Fourth Friday in March: one day for the defenders of the West Sea",
+          "origin": "West Sea Defense Day honours South Korean service members who died in several incidents at sea, including the 2002 Second Battle of Yeonpyeong, the 2010 sinking of the Cheonan and the 2010 shelling of Yeonpyeong. These are separate events and not one battle on the same date. The Ministry of Patriots and Veterans Affairs reports that the government adopted the commemorative regulation on 22 March 2016. The first government ceremony was held on 25 March 2016; the annual recurrence is the fourth Friday of March. It must not be mistaken for the exact anniversary of each original incident. It is important to distinguish the commemorated historical events and earlier public ceremonies from the later legal designation; the annual recurrence is governed by the national rules for this specific day.",
+          "promoter": "The South Korean government and relevant public bodies institutionalized this day through the commemorative-day regulation, following its own distinct historical background.",
+          "purpose": "Remember those killed defending the West Sea, support their families and explain the different historical episodes.",
+          "facts": [
+            "West Sea Defense Day honours South Korean service members who died in several incidents at sea, including the 2002 Second Battle of Yeonpyeong, the 2010 sinking of the Cheonan and the 2010 shelling of Yeonpyeong.",
+            "These are separate events and not one battle on the same date. The Ministry of Patriots and Veterans Affairs reports that the government adopted the commemorative regulation on 22 March 2016.",
+            "The first government ceremony was held on 25 March 2016; the annual recurrence is the fourth Friday of March. It must not be mistaken for the exact anniversary of each original incident."
+          ]
+        },
+        "it": {
+          "heading": "Quarto venerdì di marzo: una giornata per i difensori del Mar Occidentale",
+          "origin": "La giornata in memoria dei difensori del Mar Occidentale ricorda militari sudcoreani morti in diversi episodi, tra cui la seconda battaglia di Yeonpyeong del 2002, l'affondamento della Cheonan nel 2010 e i bombardamenti di Yeonpyeong del 2010. Sono eventi separati e non una sola battaglia avvenuta nello stesso giorno. Il Ministero dei Patrioti e dei Veterani riporta l'approvazione del regolamento commemorativo il 22 marzo 2016. La prima cerimonia governativa si tenne il 25 marzo 2016; la giornata cade il quarto venerdì di marzo. Non è l'anniversario esatto di tutti gli episodi. È importante distinguere gli eventi storici ricordati e le prime iniziative pubbliche dal successivo riconoscimento legale; il calendario annuale segue le regole nazionali della ricorrenza.",
+          "promoter": "Il governo sudcoreano e gli enti pubblici competenti hanno istituito questa giornata attraverso la normativa commemorativa, partendo dai suoi specifici antecedenti storici.",
+          "purpose": "Ricordare i caduti, sostenere le famiglie e spiegare le diverse vicende storiche legate al Mar Occidentale.",
+          "facts": [
+            "La giornata in memoria dei difensori del Mar Occidentale ricorda militari sudcoreani morti in diversi episodi, tra cui la seconda battaglia di Yeonpyeong del 2002, l'affondamento della Cheonan nel 2010 e i bombardamenti di Yeonpyeong del 2010.",
+            "Sono eventi separati e non una sola battaglia avvenuta nello stesso giorno. Il Ministero dei Patrioti e dei Veterani riporta l'approvazione del regolamento commemorativo il 22 marzo 2016.",
+            "La prima cerimonia governativa si tenne il 25 marzo 2016; la giornata cade il quarto venerdì di marzo. Non è l'anniversario esatto di tutti gli episodi."
+          ]
+        },
+        "es": {
+          "heading": "Cuarto viernes de marzo: homenaje a los defensores del Mar Occidental",
+          "origin": "El Día de la Defensa del Mar Occidental recuerda a militares surcoreanos fallecidos en distintos episodios, como la Segunda Batalla de Yeonpyeong de 2002, el hundimiento del Cheonan en 2010 y el bombardeo de Yeonpyeong en 2010. Son acontecimientos diferentes, no una única batalla en una fecha común. El Ministerio de Patriotas y Veteranos documenta que el Gobierno promulgó la norma conmemorativa el 22 de marzo de 2016. La primera ceremonia estatal tuvo lugar el 25 de marzo de 2016; se celebra el cuarto viernes de marzo y no en cada aniversario específico. Es importante separar los acontecimientos históricos recordados y las primeras ceremonias de la designación legal posterior; el calendario anual sigue las reglas propias de esta jornada.",
+          "promoter": "El Gobierno surcoreano y las instituciones competentes establecieron la jornada en la normativa conmemorativa tras los antecedentes históricos propios.",
+          "purpose": "Honrar a quienes murieron en el Mar Occidental, acompañar a las familias y explicar los episodios históricos.",
+          "facts": [
+            "El Día de la Defensa del Mar Occidental recuerda a militares surcoreanos fallecidos en distintos episodios, como la Segunda Batalla de Yeonpyeong de 2002, el hundimiento del Cheonan en 2010 y el bombardeo de Yeonpyeong en 2010.",
+            "Son acontecimientos diferentes, no una única batalla en una fecha común. El Ministerio de Patriotas y Veteranos documenta que el Gobierno promulgó la norma conmemorativa el 22 de marzo de 2016.",
+            "La primera ceremonia estatal tuvo lugar el 25 de marzo de 2016; se celebra el cuarto viernes de marzo y no en cada aniversario específico."
+          ]
+        },
+        "fr": {
+          "heading": "Quatrième vendredi de mars : hommage aux défenseurs de la mer de l'Ouest",
+          "origin": "Cette journée rend hommage aux militaires sud-coréens morts lors de plusieurs incidents en mer, dont la deuxième bataille de Yeonpyeong en 2002, le naufrage du Cheonan en 2010 et le bombardement de Yeonpyeong en 2010. Il s'agit de trois événements distincts et non d'une bataille unique. Le ministère des Patriotes et des Anciens combattants indique que le règlement commémoratif a été promulgué le 22 mars 2016. La première cérémonie gouvernementale a eu lieu le 25 mars 2016; la journée tombe le quatrième vendredi de mars, sans correspondre à chaque anniversaire particulier. Il faut séparer les faits historiques rappelés et les premières cérémonies de la reconnaissance juridique ultérieure; le calendrier annuel suit les règles nationales de cette journée.",
+          "promoter": "Le gouvernement sud-coréen et les institutions concernées ont institué cette journée dans le droit commémoratif après ses précédents historiques.",
+          "purpose": "Honorer les morts, soutenir les familles et expliquer les différentes histoires liées à la mer de l'Ouest.",
+          "facts": [
+            "Cette journée rend hommage aux militaires sud-coréens morts lors de plusieurs incidents en mer, dont la deuxième bataille de Yeonpyeong en 2002, le naufrage du Cheonan en 2010 et le bombardement de Yeonpyeong en 2010.",
+            "Il s'agit de trois événements distincts et non d'une bataille unique. Le ministère des Patriotes et des Anciens combattants indique que le règlement commémoratif a été promulgué le 22 mars 2016.",
+            "La première cérémonie gouvernementale a eu lieu le 25 mars 2016; la journée tombe le quatrième vendredi de mars, sans correspondre à chaque anniversaire particulier."
+          ]
+        },
+        "de": {
+          "heading": "Vierter Freitag im März: Gedenken an die Verteidiger des Westmeers",
+          "origin": "Der Gedenktag ehrt südkoreanische Soldaten, die bei verschiedenen Vorfällen im Westmeer starben: der zweiten Schlacht von Yeonpyeong 2002, dem Untergang der Cheonan 2010 und dem Beschuss von Yeonpyeong 2010. Diese Ereignisse waren keine einzelne Schlacht an einem gemeinsamen Datum. Das Ministerium für Patrioten und Veteranen dokumentiert die staatliche Verordnung vom 22. März 2016. Die erste Regierungszeremonie fand am 25. März 2016 statt; seitdem gilt der vierte Freitag im März. Der Tag ist nicht das exakte Jubiläum jedes Vorfalls. Die historischen Ereignisse und frühen Veranstaltungen sind von der späteren gesetzlichen Anerkennung zu trennen; der jährliche Termin folgt der besonderen nationalen Regelung.",
+          "promoter": "Die südkoreanische Regierung und zuständige Stellen führten diesen Gedenktag auf Grundlage seiner besonderen historischen Vorläufer ein.",
+          "purpose": "Der Verstorbenen gedenken, Angehörige unterstützen und die verschiedenen historischen Ereignisse erklären.",
+          "facts": [
+            "Der Gedenktag ehrt südkoreanische Soldaten, die bei verschiedenen Vorfällen im Westmeer starben: der zweiten Schlacht von Yeonpyeong 2002, dem Untergang der Cheonan 2010 und dem Beschuss von Yeonpyeong 2010.",
+            "Diese Ereignisse waren keine einzelne Schlacht an einem gemeinsamen Datum. Das Ministerium für Patrioten und Veteranen dokumentiert die staatliche Verordnung vom 22. März 2016.",
+            "Die erste Regierungszeremonie fand am 25. März 2016 statt; seitdem gilt der vierte Freitag im März. Der Tag ist nicht das exakte Jubiläum jedes Vorfalls."
+          ]
+        },
+        "pt": {
+          "heading": "Quarta sexta-feira de março: homenagem aos defensores do Mar Ocidental",
+          "origin": "O Dia da Defesa do Mar Ocidental homenageia militares sul-coreanos mortos em acontecimentos diferentes, como a Segunda Batalha de Yeonpyeong em 2002, o afundamento do Cheonan em 2010 e os bombardeamentos de Yeonpyeong em 2010. São episódios separados e não uma única batalha. O Ministério dos Patriotas e Veteranos documenta que o governo promulgou o regulamento comemorativo em 22 de março de 2016. A primeira cerimónia governamental ocorreu em 25 de março de 2016; a data anual é a quarta sexta-feira de março, não o aniversário de todos os eventos. É importante distinguir os acontecimentos históricos e as primeiras cerimónias do reconhecimento legal posterior; o calendário anual segue as regras próprias desta comemoração.",
+          "promoter": "O governo sul-coreano e os organismos competentes criaram a data nas regras comemorativas após os seus antecedentes históricos.",
+          "purpose": "Homenagear os mortos, apoiar as famílias e explicar os diferentes episódios históricos no Mar Ocidental.",
+          "facts": [
+            "O Dia da Defesa do Mar Ocidental homenageia militares sul-coreanos mortos em acontecimentos diferentes, como a Segunda Batalha de Yeonpyeong em 2002, o afundamento do Cheonan em 2010 e os bombardeamentos de Yeonpyeong em 2010.",
+            "São episódios separados e não uma única batalha. O Ministério dos Patriotas e Veteranos documenta que o governo promulgou o regulamento comemorativo em 22 de março de 2016.",
+            "A primeira cerimónia governamental ocorreu em 25 de março de 2016; a data anual é a quarta sexta-feira de março, não o aniversário de todos os eventos."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean official MOIS statutory chronology and government index; West Sea separately cross-checked against Ministry of Patriots and Veterans Affairs 2016 regulatory decision and first ceremony; sources otherwise one ministry, not independent. Six-language AI drafts pending qualified historical/native human review."
+    },
+    {
+      "observanceId": "kr-w10-world-koreans-day",
+      "country": "KR",
+      "observanceDate": "10-05",
+      "introducedYear": 2007,
+      "firstObservedYear": null,
+      "originClusterId": "KR_OVERSEAS_KOREANS_OCTOBER_CULTURAL_WEEK",
+      "legalStatus": "KR_STATUTORY_COMMEMORATIVE_DAY_NO_AUTOMATIC_NONWORKING_HOLIDAY",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 October: World Koreans Day connects overseas communities",
+          "origin": "World Koreans Day recognizes Korean communities living abroad and their ties with the Korean peninsula. Its place in the calendar was chosen in the week between National Foundation Day on 3 October and Hangeul Day on 9 October. The Ministry of the Interior explains that the government used the surrounding week to highlight the cultural identity of Korean communities overseas and exchanges with people in Korea. On 2 May 2007 the government formally established 5 October as a national statutory commemoration. The modern observance is not a United Nations world day, despite its international-sounding English title. It is important to distinguish the commemorated historical events and earlier public ceremonies from the later legal designation; the annual recurrence is governed by the national rules for this specific day.",
+          "promoter": "The South Korean government and relevant public bodies institutionalized this day through the commemorative-day regulation, following its own distinct historical background.",
+          "purpose": "Recognize overseas Korean communities, their cultural identity, their rights and their links with the country.",
+          "facts": [
+            "World Koreans Day recognizes Korean communities living abroad and their ties with the Korean peninsula. Its place in the calendar was chosen in the week between National Foundation Day on 3 October and Hangeul Day on 9 October.",
+            "The Ministry of the Interior explains that the government used the surrounding week to highlight the cultural identity of Korean communities overseas and exchanges with people in Korea.",
+            "On 2 May 2007 the government formally established 5 October as a national statutory commemoration. The modern observance is not a United Nations world day, despite its international-sounding English title."
+          ]
+        },
+        "it": {
+          "heading": "5 ottobre: la Giornata dei coreani nel mondo collega le comunità",
+          "origin": "La Giornata dei coreani nel mondo riconosce le comunità coreane all'estero e il loro rapporto con la penisola. La data fu scelta nella settimana tra la Giornata della fondazione nazionale del 3 ottobre e quella dell'alfabeto Hangeul del 9 ottobre. Il Ministero dell'Interno spiega che questa settimana culturale intende rafforzare l'identità delle comunità emigrate e gli scambi con chi vive in Corea. Il 2 maggio 2007 il governo istituì ufficialmente il 5 ottobre come ricorrenza nazionale. Non è una giornata delle Nazioni Unite, nonostante il nome internazionale. È importante distinguere gli eventi storici ricordati e le prime iniziative pubbliche dal successivo riconoscimento legale; il calendario annuale segue le regole nazionali della ricorrenza.",
+          "promoter": "Il governo sudcoreano e gli enti pubblici competenti hanno istituito questa giornata attraverso la normativa commemorativa, partendo dai suoi specifici antecedenti storici.",
+          "purpose": "Riconoscere le comunità coreane all'estero, la loro identità culturale e i collegamenti con il paese.",
+          "facts": [
+            "La Giornata dei coreani nel mondo riconosce le comunità coreane all'estero e il loro rapporto con la penisola. La data fu scelta nella settimana tra la Giornata della fondazione nazionale del 3 ottobre e quella dell'alfabeto Hangeul del 9 ottobre.",
+            "Il Ministero dell'Interno spiega che questa settimana culturale intende rafforzare l'identità delle comunità emigrate e gli scambi con chi vive in Corea.",
+            "Il 2 maggio 2007 il governo istituì ufficialmente il 5 ottobre come ricorrenza nazionale. Non è una giornata delle Nazioni Unite, nonostante il nome internazionale."
+          ]
+        },
+        "es": {
+          "heading": "5 de octubre: el Día de los Coreanos en el Mundo reúne comunidades",
+          "origin": "El Día de los Coreanos en el Mundo reconoce a las comunidades de origen coreano en el extranjero y sus vínculos con la península. Se eligió una semana entre el Día de la Fundación Nacional del 3 de octubre y el Día del Hangeul del 9 de octubre. El Ministerio del Interior explica que esa semana cultural busca reforzar la identidad de los residentes en el exterior y las relaciones con la sociedad coreana. El Gobierno estableció el 5 de octubre como conmemoración nacional el 2 de mayo de 2007. Pese a su nombre internacional, no es una jornada de las Naciones Unidas. Es importante separar los acontecimientos históricos recordados y las primeras ceremonias de la designación legal posterior; el calendario anual sigue las reglas propias de esta jornada.",
+          "promoter": "El Gobierno surcoreano y las instituciones competentes establecieron la jornada en la normativa conmemorativa tras los antecedentes históricos propios.",
+          "purpose": "Reconocer a las comunidades coreanas del exterior y sus derechos, identidad cultural y relaciones con Corea.",
+          "facts": [
+            "El Día de los Coreanos en el Mundo reconoce a las comunidades de origen coreano en el extranjero y sus vínculos con la península. Se eligió una semana entre el Día de la Fundación Nacional del 3 de octubre y el Día del Hangeul del 9 de octubre.",
+            "El Ministerio del Interior explica que esa semana cultural busca reforzar la identidad de los residentes en el exterior y las relaciones con la sociedad coreana.",
+            "El Gobierno estableció el 5 de octubre como conmemoración nacional el 2 de mayo de 2007. Pese a su nombre internacional, no es una jornada de las Naciones Unidas."
+          ]
+        },
+        "fr": {
+          "heading": "5 octobre : la Journée des Coréens du monde relie les communautés",
+          "origin": "La Journée des Coréens du monde reconnaît les communautés coréennes à l'étranger et leurs liens avec la péninsule. Elle a été placée entre la Fête de la fondation nationale du 3 octobre et la Journée du hangeul du 9 octobre. Le ministère de l'Intérieur explique que cette semaine culturelle favorise l'identité des communautés expatriées et les échanges avec la Corée. Le gouvernement a officiellement institué le 5 octobre comme commémoration nationale le 2 mai 2007. Malgré son titre, ce n'est pas une journée des Nations unies. Il faut séparer les faits historiques rappelés et les premières cérémonies de la reconnaissance juridique ultérieure; le calendrier annuel suit les règles nationales de cette journée.",
+          "promoter": "Le gouvernement sud-coréen et les institutions concernées ont institué cette journée dans le droit commémoratif après ses précédents historiques.",
+          "purpose": "Reconnaître les communautés coréennes à l'étranger, leurs droits, leur culture et leurs liens avec le pays.",
+          "facts": [
+            "La Journée des Coréens du monde reconnaît les communautés coréennes à l'étranger et leurs liens avec la péninsule. Elle a été placée entre la Fête de la fondation nationale du 3 octobre et la Journée du hangeul du 9 octobre.",
+            "Le ministère de l'Intérieur explique que cette semaine culturelle favorise l'identité des communautés expatriées et les échanges avec la Corée.",
+            "Le gouvernement a officiellement institué le 5 octobre comme commémoration nationale le 2 mai 2007. Malgré son titre, ce n'est pas une journée des Nations unies."
+          ]
+        },
+        "de": {
+          "heading": "5. Oktober: Welttag der Koreaner verbindet Gemeinschaften im Ausland",
+          "origin": "Der südkoreanische Welttag der Koreaner würdigt koreanische Gemeinschaften im Ausland und ihre Verbindung zur Halbinsel. Der Termin liegt zwischen dem Nationalen Gründungstag am 3. Oktober und dem Hangeul-Tag am 9. Oktober. Das Innenministerium erklärt, dass diese Kulturwoche die Identität von Auslandskoreanern und den Austausch mit Menschen in Korea stärken soll. Am 2. Mai 2007 führte die Regierung den 5. Oktober als gesetzlichen nationalen Gedenktag ein. Trotz des internationalen Namens handelt es sich nicht um einen UN-Welttag. Die historischen Ereignisse und frühen Veranstaltungen sind von der späteren gesetzlichen Anerkennung zu trennen; der jährliche Termin folgt der besonderen nationalen Regelung.",
+          "promoter": "Die südkoreanische Regierung und zuständige Stellen führten diesen Gedenktag auf Grundlage seiner besonderen historischen Vorläufer ein.",
+          "purpose": "Auslandskoreanische Gemeinschaften, ihre kulturelle Identität, Rechte und ihre Beziehungen zu Korea würdigen.",
+          "facts": [
+            "Der südkoreanische Welttag der Koreaner würdigt koreanische Gemeinschaften im Ausland und ihre Verbindung zur Halbinsel. Der Termin liegt zwischen dem Nationalen Gründungstag am 3. Oktober und dem Hangeul-Tag am 9. Oktober.",
+            "Das Innenministerium erklärt, dass diese Kulturwoche die Identität von Auslandskoreanern und den Austausch mit Menschen in Korea stärken soll.",
+            "Am 2. Mai 2007 führte die Regierung den 5. Oktober als gesetzlichen nationalen Gedenktag ein. Trotz des internationalen Namens handelt es sich nicht um einen UN-Welttag."
+          ]
+        },
+        "pt": {
+          "heading": "5 de outubro: o Dia dos Coreanos no Mundo aproxima comunidades",
+          "origin": "O Dia dos Coreanos no Mundo reconhece as comunidades de origem coreana no estrangeiro e os seus laços com a península. A data foi escolhida entre o Dia da Fundação Nacional de 3 de outubro e o Dia do Hangeul de 9 de outubro. O Ministério do Interior explica que esta semana cultural pretende reforçar a identidade das comunidades externas e os intercâmbios com a sociedade coreana. Em 2 de maio de 2007, o governo instituiu oficialmente 5 de outubro como comemoração nacional. Apesar do nome, não é uma jornada das Nações Unidas. É importante distinguir os acontecimentos históricos e as primeiras cerimónias do reconhecimento legal posterior; o calendário anual segue as regras próprias desta comemoração.",
+          "promoter": "O governo sul-coreano e os organismos competentes criaram a data nas regras comemorativas após os seus antecedentes históricos.",
+          "purpose": "Reconhecer comunidades coreanas no estrangeiro, identidade cultural, direitos e ligações com o país.",
+          "facts": [
+            "O Dia dos Coreanos no Mundo reconhece as comunidades de origem coreana no estrangeiro e os seus laços com a península. A data foi escolhida entre o Dia da Fundação Nacional de 3 de outubro e o Dia do Hangeul de 9 de outubro.",
+            "O Ministério do Interior explica que esta semana cultural pretende reforçar a identidade das comunidades externas e os intercâmbios com a sociedade coreana.",
+            "Em 2 de maio de 2007, o governo instituiu oficialmente 5 de outubro como comemoração nacional. Apesar do nome, não é uma jornada das Nações Unidas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Korean official MOIS statutory chronology and government index; West Sea separately cross-checked against Ministry of Patriots and Veterans Affairs 2016 regulatory decision and first ceremony; sources otherwise one ministry, not independent. Six-language AI drafts pending qualified historical/native human review."
+    }
+  ]
+}

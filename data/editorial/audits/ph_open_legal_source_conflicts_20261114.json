@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-14",
+  "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
+  "qualifiedEditorialApproval": false,
+  "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
+  "count": 14,
+  "items": [
+    {
+      "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
+      "problem": "PERIODICITY_IN_LEGAL_TEXT_NOT_EXPLICITLY_RECURRING",
+      "risk": "The NCCA official current cultural calendar indexes a recurring whole month each November, but Proclamation No. 1638 dated 8 October 2008 says the month of November 2008, without the words 'every year thereafter'. A recurring year-to-year legal basis requires a separate, checked follow-up source. Do not promote one-time 2008 proclamation to proven permanent annual statute.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2008/proc_1638_2008.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_FULL_ORIGIN_DRAFT_PEND_RECURRENCE_CHECK",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-week-of-the-philippine-eagle",
+      "problem": "PRESIDENTIAL_PROCLAMATION_YEAR_CONFLICT",
+      "risk": "Proclamation No. 79 is filed in 1999 and its heading says 24 February 1999; the signed final line as transcribed says 24 February 1998, a year before President Joseph Estrada took office. Both pages show the internal mismatch. The intended recurring period June 4–10 may be supported, but the precise issuance year/date in the original manuscript needs a reliable official copy before signoff.",
+      "legalSource": "https://lawphil.net/executive/proc/proc1999/proc_79_1999.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_EXACT_YEAR_UNTIL_SIGNED_PRIMARY_COPY",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-women-s-day",
+      "problem": "SENATE_INDEX_APPROVAL_DATE_VS_FULL_STATUTE",
+      "risk": "Senate index metadata for RA6949 shows approval 9 April 1990, while the full statutory text and Supreme Court reproduction show Approved 10 April 1990. The six-locale origin uses securely documented year April 1990 only, and the act's legal working-special-holiday status, pending exact-day reconciliation.",
+      "legalSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/2456",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%206949",
+      "editorialDisposition": "DRAFTED_IN_PR120_WITH_EXACT_DAY_OMITTED_PENDING_RECONCILIATION",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-national-children-s-month-philippines",
+      "problem": "NCCA_CALENDAR_LEGISLATIVE_YEAR_VS_ACT_TEXT",
+      "risk": "The NCCA calendar labels National Children's Month as RA No. 10661 'of 2014', but Republic Act No. 10661 was approved on 29 May 2015. The 2015 act moved the annual month from October under 1993 Proclamation No. 267 to November. Our PR120 story uses 2015 as legal year, 1993 as predecessor history and November as current recurrence.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_2015_STATUTE_GOVERNS_PRIMARY_MONTH;SOURCE_CALENDAR_YEAR_MISTAKE_DOCUMENTED",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+      "problem": "NCCA_LEGISLATIVE_YEAR_2012_VS_APPROVED_RA10556_2013",
+      "risk": "The NCCA published annual date calendar labels Araw ng Pagbasa as 'RA No. 10556 of 2012'. But the Republic Act No. 10556 signed text and Senate Legislative Reference Bureau identify approval on May 15, 2013 and explicitly name it the Araw ng Pagbasa Act of 2013. Its canonical fixed anniversary is November 27, subject to a preceding-Friday school observance if Nov 27 falls on the weekend. Date/approval in our six-locale research uses 2013 and documents the weekend exception; upstream inventory's mistaken year cannot overwrite the law.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010556",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_2013_APPROVAL_WITH_WEEKEND_SHIFT_NOT_APPLIED_TO_RUNTIME_CALENDAR_ENGINE;NCCA_INDEX_ERRATUM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-national-volunteers-month-philippines",
+      "problem": "DEPED_MEMORANDUM_PROCLAMATION_1998_AS_1988",
+      "risk": "The actual signed Proclamation No. 55 by President Joseph Estrada dated December 5, 1998, explicitly establishes December every year as National Volunteer Month. An unrelated DepEd circular DM139 s.2014 names 'Proclamation No. 55 dated December 5, 1988', which conflicts with both the presidential term and original signed document. PNVSCA and NCCA corroborate 1998; no need to rewrite true legal year to the DepEd typo. Keep May Volunteerism Month (Proc1778 of 2009) separate.",
+      "legalSource": "https://lawphil.net/executive/proc/proc1998/proc_55_1998.html",
+      "otherSource": "https://pnvsca.gov.ph/?page_id=92",
+      "inventorySource": "https://www.deped.gov.ph/wp-content/uploads/2014/12/DM_S2014_139.pdf",
+      "editorialDisposition": "DRAFTED_WITH_PRIMARY_SOURCE_1998_YEAR;DEPED_2014_SECONDARY_REFERENCE_TYP0;SPECIALIST_SIGNOFF_PENDING",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-republic-day-july-4",
+      "problem": "REPUBLIC_DAY_HISTORIC_HOLIDAY_NOT_LISTED_AS_MODERN_REGULAR_HOLIDAY",
+      "risk": "RA 4166 of August 4, 1964 declared July 4 Philippine Republic Day and listed it among legal holidays, but Executive Order 292's July 1987 Administrative Code regular-holiday list omits July 4. Do not claim current nationwide non-working regular-holiday status solely from the 1964 law. Per-year newer instruments may add a special status but must be checked separately.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html",
+      "otherSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/53270",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_HISTORICAL_OBSERVANCE_NO_MODERN_NONWORKING_HOLIDAY_CLAIM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-department-of-education-founding-anniversary",
+      "problem": "NCCA_DECEMBER20_FOUNDING_VS_DEPED_2026_JUNE23_1898_OFFICIAL_ANNIVERSARY",
+      "risk": "NCCA source indexes Department of Education founding on December 20. The official 2026 DepEd Citizen's Charter names 23 June 1898 under Aguinaldo's revolutionary decree as earliest Department and DepEd officially celebrated its 126th founding on June 23 2024. Historical December 20 1863 Educational Decree established Superior Commission of Primary Instruction rather than the same revolutionary government structure. These are separate milestones. Do not auto-apply December20 as today's founding anniversary without a primary official DepEd basis and event-identity decision.",
+      "legalSource": "https://www.deped.gov.ph/wp-content/uploads/DepEd-Citizens-Charter-2026-Edition.pdf",
+      "otherSource": "https://www.deped.gov.ph/2021/06/22/deped-kicks-off-celebration-of-123rd-founding-anniversary/",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_SOURCE_REVIEW; CORRECT_CANONICAL_DATE_OR_RENAME_HISTORICAL_PRECURSOR",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-made-in-the-philippines-product-week",
+      "problem": "1936_AUG17_23_RECURRENCE_OVERRIDDEN_BY_1941_PROCLAMATION_TO_FEB14_20_START_1942",
+      "risk": "NCCA date calendar keeps August17-23 tied to original Proclamation No.76 of Aug12 1936. But Proclamation No.756 of Sep30 1941 expressly changes the annual week to February14-20 from 1942 onward, superseding the 1936 dates. NCCA recurring market archive reflects the older August interval and cannot be auto-certified as the currently correct law without later repeal or revised instrument. Must cross-check current official annual practice and correct recurrence rules or mark historical-only.",
+      "legalSource": "https://www.lawphil.net/executive/proc/proc1941/proc_756_1941.html",
+      "otherSource": "https://lawphil.net/executive/proc/proc1936/proc_76_1936.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_DRAFT_AND_NEW_RUNTIME_DATE_UNTIL_LATEST_LAW_RECONCILIATION",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-volunteerism-month-philippines",
+      "problem": "MAY2009_PROCLAMATION_NOT_EXPLICITLY_PERMANENT_RECURRING",
+      "risk": "Proclamation No.1778 of May18 2009 declares 'the month of May as Volunteerism Month' but does not explicitly state 'of each year'. NCCA indexes the event as annual whole May. Separate National Volunteers Month is every December under Proc55 1998. Avoid assuming May is legally permanent without later official annual guidance; preserve distinct months and identities.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1778_2009.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_CERTIFICATION_RECURRING_MONTH_TO_CONFIRM",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
+      "problem": "NCCA_RA7104_YEAR_1981_VS_1991_ENACTMENT",
+      "risk": "NCCA calendar lists the Aug14 Commission founding as Republic Act No.7104 'of 1981'; however the official law directory and Section title show Republic Act No.7104 enacted 14 August 1991, confirmed by EO158 of 1999 and government ministry. 1981 in the NCCA table is a calendar-source error. Six-locale origin correctly uses 1991 and keeps it separate from 1997 Language Month.",
+      "legalSource": "https://lawphil.net/statutes/repacts/ra1991/ra_7104_1991.html",
+      "otherSource": "https://lawphil.net/executive/execord/eo1999/eo_158_1999.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFT_USE_PRIMARY_STATUTE_1991_NCCA_METADATA_ERRATUM_HUMAN_PENDING",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+      "problem": "NCCA_MAY26_RA10086_SENATE_SIGNED_MAY12_2010",
+      "risk": "NCCA calendar labels the NHCP founding May26 with Republic Act No.10086 of 2010 and a DBM summary also prints May26. But signed RA10086 and official Senate records show enactment on 12 May 2010; its implementation regulation says effective 13 June 2010 after publication. The earlier National Historical Institute was formed 1972 and the earlier National Historical Commission 1965. Cannot treat 26 May as the clear signed founding date without explaining a separate milestone with independent primary evidence.",
+      "legalSource": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/21085",
+      "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010086",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "HOLD_NEW_DRAFT_UNTIL_MAY26_ANCHOR_OR_CANONICAL_DATE_CORRECTED",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+      "problem": "WATCH_JUNE_2009_PROCLAMATION_MONTH_WITHOUT_EXPLICIT_YEARLY_PERIOD",
+      "risk": "Proclamation No. 1782 signed May 21 2009 designates 'the month of June' and directs public activities every second week of June. It does not explicitly state 'of every year' for the June month, although the NCCA calendar lists this as annually recurring. No qualified certification of a permanent statutory recurrence until a separate later government authority or continuous official practice has been verified. The six-locale draft honestly notes this uncertainty.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFTED_WITH_EXPLICIT_RECURRENCE_UNCERTAINTY_PENDING_SPECIALIST_REVIEW",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-panagyaman-rice-festival-month",
+      "problem": "PANAGYAMAN_RICE_FESTIVAL_APRIL_2004_SINGLE_YEAR_PRESIDENTIAL_ACT_NCCA_ANNUAL_CALENDAR",
+      "risk": "Proclamation No.606, signed April19 2004, specifically declares 'the month of April' as Panagyaman Rice Festival, and its recitals frame the campaign around a particular hybrid rice and irrigation success in 2004. Unlike statutes which expressly state 'every April', no ongoing annual legal recurrence is proven by this 2004 text. The current NCCA significant dates calendar indexes a recurring April month. A year-by-year legal or institutional recurrence confirmation is required before treating it as a permanent annually statutory Philippine observance.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2004/proc_606_2004.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFTED_WITH_2004_EVENT_AND_CURRENT_MONTH_BUT_ANNUAL_RECURRENCE_UNCONFIRMED;HUMAN_REVIEW_PENDING",
+      "resolved": false
+    }
+  ]
+}
