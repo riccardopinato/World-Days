@@ -61,6 +61,7 @@ jobs:
           python3 tool/editorial_origin_completion_waves.py
           python3 tool/validate_editorial_origin_completion_waves.py
           python3 tool/validate_editorial_research_handoff.py
+          python3 tool/report_country_authoring_backlog.py
           python3 tool/export_origin_block100_20261113.py
           python3 tool/test_editorial_origin_completion_partial.py
           python3 tool/build_origin_review_index.py
@@ -188,6 +189,14 @@ jobs:
         with:
           name: world-days-all-origin-waves-100
           path: reports/editorial_origin_completion/
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive country pending-authoring ranking
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-country-authoring-ranking
+          path: reports/country_authoring_backlog_20261114.json
           if-no-files-found: error
           retention-days: 20
 
