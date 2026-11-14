@@ -1,5 +1,12 @@
 # World Days — Active roadmap
 
+## AI editorial: Korean democracy, society and historical remembrance (14 November 2026)
+
+- [x] AI editorial source-reviewed 14 Korean records across EN/IT/ES/FR/DE/PT with Ministry of Interior, Veterans Affairs and Culture primary citations, chronology and immutable PR #120 source version.
+- [x] Ledger **63 AI_CERTIFIED / 8 HOLD / 102 AI_REVIEW_QUEUED** of 173; separate editorial review from actual runtime publication and human signoffs.
+- [ ] Continue 102 remaining entries; two records with cross-language year mismatch were not certified in this batch.
+
+
 ## AI editorial certification — Korean statutory observances (14 November 2026)
 
 - [x] Cross-check 11 Ministry of the Interior and Safety Korean histories against the official commemorative-day chronology and six locales; source versions pinned to PR #120.
