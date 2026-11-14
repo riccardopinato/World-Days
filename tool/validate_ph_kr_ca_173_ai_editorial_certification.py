@@ -46,6 +46,8 @@ assert len(d["reviewBatchHistory"]) >= 2
 assert d["reviewBatchHistory"][1]["count"] == 7
 assert len(d["reviewBatchHistory"]) == 4
 assert d["reviewBatchHistory"][3]["count"] == 7
+assert d["sourceHeadRevalidation"]["pr"] == 118
+assert len(d["sourceHeadRevalidation"]["individuallyJsonIdenticalIds"]) == 9
 assert len(d["reviewBatchHistory"][3]["ids"]) == 7
 assert d["reviewBatchHistory"][2]["count"] == 10
 assert len(d["reviewBatchHistory"][1]["ids"]) == 7
@@ -71,19 +73,19 @@ expected = {
     "ca-great-upheaval-commemoration": ("CA", "3a19b6c828f4a4b4502b946d599eefa4700cb865", None, None),
     "ca-indigenous-veterans-day": ("CA", "318f42138b36bd8879ac949bbb43a934bdf51814", 1994, 1994),
     "ca-sir-john-a-macdonald-day": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", 2002, None),
-    "canada-national-flag-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 1996, 1996),
-    "canada-truth-and-reconciliation-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2021, 2021),
-    "canada-multiculturalism-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2002, None),
-    "ca-canada-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 1879, 1868),
-    "ca-vimy-ridge-battle-anniversary": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2003, 2003),
-    "ca-armenian-genocide-remembrance": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2015, None),
-    "ca-british-home-child-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2018, None),
-    "ca-armed-forces-day": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", 2002, 2002),
+    "canada-national-flag-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 1996, 1996),
+    "canada-truth-and-reconciliation-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2021, 2021),
+    "canada-multiculturalism-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2002, None),
+    "ca-canada-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 1879, 1868),
+    "ca-vimy-ridge-battle-anniversary": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2003, 2003),
+    "ca-armenian-genocide-remembrance": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2015, None),
+    "ca-british-home-child-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2018, None),
+    "ca-armed-forces-day": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", 2002, 2002),
     "ca-covid-19-national-observance": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", 2021, 2021),
     "ca-holodomor-memorial-day": ("CA", "318f42138b36bd8879ac949bbb43a934bdf51814", 2008, None),
     "ca-indigenous-languages-day": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", None, None),
     "ca-quebec-city-mosque-attack-remembrance": ("CA", "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a", None, None),
-    "ca-statute-of-westminster-anniversary": ("CA", "951808461a115c768de29fa9c4696f28cf8b40b3", None, None),
+    "ca-statute-of-westminster-anniversary": ("CA", "6acc4ec387c53faf25aa517a74e8585a88f0eae5", None, None),
     "kr-hangeul-day": ("KR", "f9daf3a869df6d24bdd48b635fcfcfc4f7c25dc5", 2005, None),
     "kr-liberation-day": ("KR", "e365bd21d656efbc8007397b8f6fe47c10dc304b", 1949, None),
     "kr-national-foundation-day": ("KR", "e365bd21d656efbc8007397b8f6fe47c10dc304b", 1949, None),
