@@ -3316,16 +3316,17 @@
       ],
       "originSourceUrls": [
         "https://philhistoricsites.nhcp.gov.ph/registry_database/site-of-the-proclamation-of-philippine-independence/",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/84843",
         "https://lawphil.net/executive/proc/proc1964/proc_252_1964.html",
         "https://issuances-library.senate.gov.ph/legislative-issuance/republic-act-no-4166"
       ],
       "proposedIntroducedYear": 1964,
-      "proposedFirstObservedYear": 1964,
+      "proposedFirstObservedYear": null,
       "governmentCategory": "PH_REGULAR_HOLIDAY_2026",
       "governmentSources": [
         "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
       ],
-      "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
+      "factReview": "AI_SOURCE_CORRECTION_1962_APPLIED_PENDING_FRESH_CERTIFICATION",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
       "richEditorialPublished": false
