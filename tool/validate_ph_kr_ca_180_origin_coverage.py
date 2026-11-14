@@ -54,10 +54,10 @@ for row in rows:
 for country,stats in matrix["counts"]["byCountry"].items():
     for key,number in stats.items():
         assert tally[country,key]==number,(country,key,tally[country,key],number)
-assert matrix["counts"]["sixLocaleDrafts"]==71
+assert matrix["counts"]["sixLocaleDrafts"]==88
 assert matrix["counts"]["bilingualDrafts"]==0
-assert matrix["counts"]["withoutOriginDraft"]==109
-assert matrix["counts"]["governmentCategorySpotChecks"]==32
+assert matrix["counts"]["withoutOriginDraft"]==92
+assert matrix["counts"]["governmentCategorySpotChecks"]==49
 assert matrix["counts"]["humanCertified"]==0
 
 new_files=[
@@ -74,6 +74,9 @@ new_files=[
 "kr_rail_cyber_two_six_locales_20261114.json",
 "kr_reserve_disability_two_six_locales_20261114.json",
 "kr_students_law_two_six_locales_20261114.json",
+"kr_contemporary_5_six_locales_20261114.json",
+"kr_economy_6_six_locales_20261114.json",
+"kr_social_6_six_locales_20261114.json",
 ]
 verified={}
 for filename in new_files:
@@ -106,8 +109,53 @@ for filename in new_files:
             assert len(story["facts"])==3
             assert all(len(s)>=30 for s in story["facts"])
 
-assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==28
-assert len({r["id"] for r in rows if r["originDraftPR"]==120})==30  # 28 new + 2 prior pilots
+assert set(verified)==set(matrix["originNewDraftIds"]) and len(verified)==45
+assert len({r["id"] for r in rows if r["originDraftPR"]==120})==47  # 45 new + 2 prior pilots
+
+# Explicit source-to-record correspondence for the seventeen newly authored Korean days.
+new_sprint_names=[
+"kr_contemporary_5_six_locales_20261114.json",
+"kr_economy_6_six_locales_20261114.json",
+"kr_social_6_six_locales_20261114.json",
+]
+new_sprint_ids=set()
+for name in new_sprint_names:
+    b=json.loads((RESEARCH/name).read_text(encoding="utf-8"))
+    assert b["status"].endswith("PENDING_QUALIFIED_HUMAN_REVIEW")
+    for rec in b["records"]:
+        rid=rec["observanceId"]
+        assert rid not in new_sprint_ids
+        new_sprint_ids.add(rid)
+        row=next(x for x in rows if x["id"]==rid)
+        assert row["country"]=="KR" and row["originDraftPR"]==120
+        assert row["governmentCategory"]=="KR_STATUTORY_COMMEMORATIVE_DAY_"+str(rec["introducedYear"])
+        raw=market_by_id[rid] if "market_by_id" in globals() else None
+        if raw is None:
+            source=json.loads((ROOT/"data/market/wave10_hundred_kr_ph_20261111.json").read_text(encoding="utf-8"))
+            raw=next(v for v in source["records"] if v["id"]==rid)
+        rules=raw["recurrenceRules"]
+        assert len(rules)==1
+        rule=rules[0]
+        if rule["kind"]=="FIXED_DATE":
+            expected=f'{rule["month"]:02d}-{rule["day"]:02d}'
+        else:
+            assert rule["kind"]=="NTH_WEEKDAY"
+            weekdays={1:"MONDAY",2:"TUESDAY",3:"WEDNESDAY",4:"THURSDAY",5:"FRIDAY",6:"SATURDAY",7:"SUNDAY"}
+            ordinals={1:"FIRST",2:"SECOND",3:"THIRD",4:"FOURTH",5:"FIFTH"}
+            months=["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"]
+            expected=f'{ordinals[rule["occurrence"]]}_{weekdays[rule["weekday"]]}_{months[rule["month"]-1]}'
+        assert rec["observanceDate"]==expected,(rid,expected,rec["observanceDate"])
+        if rec["firstObservedYear"] is not None:
+            assert rec["firstObservedYear"]<=rec["introducedYear"]
+assert len(new_sprint_ids)==17
+assert new_sprint_ids.issubset(set(verified))
+assert verified["kr-w10-king-sejong-birthday-commemoration"]["introducedYear"]==2024
+assert verified["kr-w10-teachers-day-in-korea"]["introducedYear"]==1982
+assert verified["kr-w10-king-sejong-birthday-commemoration"]["originClusterId"]==verified["kr-w10-teachers-day-in-korea"]["originClusterId"]
+assert verified["kr-w10-culture-day-in-korea"]["observanceDate"]=="THIRD_SATURDAY_OCTOBER"
+assert verified["kr-w10-commerce-and-industry-day"]["observanceDate"]=="THIRD_WEDNESDAY_MARCH"
+assert verified["kr-w10-fallen-military-service-members-remembrance-day"]["observanceDate"]=="FOURTH_FRIDAY_APRIL"
+
 
 # Protect the cross-origin non-duplication decisions and recurrence patterns for 12 new KR records.
 assert verified["kr-w10-june-10-democracy-movement-remembrance"]["introducedYear"]==2007
@@ -232,5 +280,5 @@ for issue in errata["items"]:
     assert issue["published"] is False
 assert next(row for row in rows if row["id"]=="ph-day-of-valor")["factualCorrectionRequired"] is True
 
-print("PASS: 180-ID matrix, 28 new six-locale originals, 9 four-locale extensions (71 effective six-locale AI drafts); source errata gated; 0 qualified human approvals.")
+print("PASS: 180-ID matrix, 45 new six-locale originals, 9 four-locale extensions (88 effective six-locale AI drafts); source errata gated; 0 qualified human approvals.")
 
