@@ -12,10 +12,10 @@
     "byCountry": {
       "PH": {
         "all": 91,
-        "six": 52,
+        "six": 61,
         "two": 0,
-        "none": 39,
-        "categoryCrosschecked": 52
+        "none": 30,
+        "categoryCrosschecked": 61
       },
       "KR": {
         "all": 57,
@@ -32,13 +32,13 @@
         "categoryCrosschecked": 0
       }
     },
-    "sixLocaleDrafts": 141,
+    "sixLocaleDrafts": 150,
     "bilingualDrafts": 0,
-    "withoutOriginDraft": 39,
-    "governmentCategorySpotChecks": 102,
+    "withoutOriginDraft": 30,
+    "governmentCategorySpotChecks": 111,
     "humanCertified": 0,
     "translationExtensions": 9,
-    "newOriginDrafts": 98
+    "newOriginDrafts": 107
   },
   "records": [
     {
@@ -3440,19 +3440,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra2007/ra_9430_2007.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_312_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2007,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_2007",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra2007/ra_9430_2007.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_312_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_APOLINARIO_MABINI_JUL23_1864_1956_ONE_OFF_2007_TANAUAN",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
@@ -3647,19 +3664,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra1992/ra_7355_1992.html",
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1992,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_1992",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra1992/ra_7355_1992.html",
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_NATIONAL_LIVING_TREASURES_RA7355_1992_DISTINCT_NCCA_RA7356",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-graciano-lopez-jaena-day",
@@ -3668,19 +3702,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra2001/ra_9070_2001.html",
+        "https://lawphil.net/executive/proc/proc1986/proc_52_1986.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2001,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_2001",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra2001/ra_9070_2001.html",
+        "https://lawphil.net/executive/proc/proc1986/proc_52_1986.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_LOPEZ_JAENA_DEC18_1856_1962_LOCAL_2001_NATIONAL",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-iglesia-ni-cristo-day",
@@ -3689,19 +3740,34 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra2009/ra_9645_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2009,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_2009",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra2009/ra_9645_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_IGLESIA_NI_CRISTO_1914_FOUNDING_RA9645_2009",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-jose-abad-santos-day",
@@ -3710,19 +3776,38 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/proc/proc2000/proc_229_2000.html",
+        "https://lawphil.net/statutes/repacts/ra2000/ra_8815_2000.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_374_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1956,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_1956",
+      "governmentSources": [
+        "https://lawphil.net/executive/proc/proc2000/proc_229_2000.html",
+        "https://lawphil.net/statutes/repacts/ra2000/ra_8815_2000.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_374_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_ABAD_SANTOS_1949_MAY15_1956_FEB19_2000_REAFFIRM_LOCAL_MAY7",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-julian-felipe-day",
@@ -3731,19 +3816,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/statutes/repacts/ra1994/ra_7805_1994.html",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207805",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1994,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_1994",
+      "governmentSources": [
+        "https://lawphil.net/statutes/repacts/ra1994/ra_7805_1994.html",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207805",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_JULIAN_FELIPE_JAN28_CAVITE_CITY_ONLY_RA7805",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-kindness-to-animal-day-philippines",
@@ -3752,19 +3854,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://www.lawphil.net/executive/proc/proc1958/proc_537_1958.html",
+        "https://lawphil.net/executive/proc/proc2006/proc_1112_2006.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 1958,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_1958",
+      "governmentSources": [
+        "https://www.lawphil.net/executive/proc/proc1958/proc_537_1958.html",
+        "https://lawphil.net/executive/proc/proc2006/proc_1112_2006.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_OCT4_ANIMAL_KINDNESS_1958_REITERATED_2006",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
@@ -3872,19 +3991,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2003,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_2003",
+      "governmentSources": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_HONORS_CODE_2003_SEP19_MULTIPLE_DISTINCT_ORDERS",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-order-of-lakandula-founding-anniversary",
@@ -3893,19 +4029,36 @@
       "inventorySourceUrl": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "inventoryAuthority": "National Commission for Culture and the Arts of the Philippines",
       "sourceFile": "data/market/wave10_hundred_kr_ph_20261111.json",
-      "originDraftPath": null,
-      "originDraftBranch": null,
-      "originDraftPR": null,
-      "localeCoverage": [],
-      "originSourceUrls": [],
-      "proposedIntroducedYear": null,
+      "originDraftPath": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
+      "originDraftBranch": "audit/ph-kr-ca-333-editorial-20261113",
+      "originDraftPR": 120,
+      "localeCoverage": [
+        "en",
+        "it",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "originSourceUrls": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "proposedIntroducedYear": 2003,
       "proposedFirstObservedYear": null,
-      "governmentCategory": "NOT_INDEPENDENTLY_CROSSCHECKED",
-      "governmentSources": [],
+      "governmentCategory": "PH_PRIMARY_LAW_OR_PROCLAMATION_2003",
+      "governmentSources": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
       "factReview": "REQUIRES_FULL_INDIVIDUAL_CHRONOLOGY_REVIEW",
       "nativeTranslationReview": false,
       "qualifiedEditorialApproval": false,
-      "richEditorialPublished": false
+      "richEditorialPublished": false,
+      "originClusterId": "PH_HONORS_CODE_2003_SEP19_MULTIPLE_DISTINCT_ORDERS",
+      "factualReviewStatus": "PRIMARY_LEGAL_SOURCE_SIX_LOCALE_AI_DRAFT_HUMAN_PENDING"
     },
     {
       "id": "ph-w10-order-of-national-artists-establishment-anniversary",
@@ -5956,12 +6109,21 @@
     "ph-national-heroes-day",
     "ph-ninoy-aquino-day",
     "ph-rizal-day",
+    "ph-w10-apolinario-mabini-day",
     "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
     "ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary",
     "ph-w10-araw-ni-balagtas",
     "ph-w10-day-of-the-filipino-seafarer",
     "ph-w10-filipino-chinese-friendship-day",
+    "ph-w10-gawad-sa-manlilikha-ng-bayan-establishment-anniversary",
+    "ph-w10-graciano-lopez-jaena-day",
+    "ph-w10-iglesia-ni-cristo-day",
+    "ph-w10-jose-abad-santos-day",
+    "ph-w10-julian-felipe-day",
+    "ph-w10-kindness-to-animal-day-philippines",
     "ph-w10-ncca-establishment-anniversary",
+    "ph-w10-order-of-gabriela-silang-founding-anniversary",
+    "ph-w10-order-of-lakandula-founding-anniversary",
     "ph-w10-order-of-national-artists-establishment-anniversary",
     "ph-w10-philippine-flag-days-commencement",
     "ph-w10-philippine-national-women-s-day",
@@ -6015,5 +6177,5 @@
     "ph-day-of-valor"
   ],
   "caveat": "Nine PR118 EN/IT original dossiers have four-locale additive extensions on PR120; they have not been merged to one main branch or native-approved. PH Day of Valor English/Italian base text needs correction for 1956 special public holiday.",
-  "incrementalEditorialNote": "2026-11-14 PH-only sprint: 18 original official law/proclamation six-locale AI source dossiers added, covering statutory working day vs special regional nonworking status, movable reading-day Friday rule, June 25 seafarer shared international origins, 1964 July 4 Republic Day vs 1987 holiday code. PH 52/91 (39 missing), KR 57/57, CA 32/32; 141/180 overall AI six-locale drafts. 0 human historical or native certified; PR118/119 unmerged; no runtime change."
+  "incrementalEditorialNote": "14 November 2026 PH-only source research: +27 Philippine original six-locale histories on PR120 this sprint (8+6+4+5+4), PH 61/91, 30 remain; KR57, CA32 fully draft-covered, total 150/180. At least 7 PH official-source discrepancies remain reviewed; 0 human certified; PR still draft, no public runtime."
 }
