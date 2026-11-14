@@ -1,5 +1,65 @@
 # World Days — Active roadmap
 
+## AI editorial Canada Wave20 + origin histories (14 November 2026)
+
+- [x] Review ten additional Canadian six-language originals from draft PR #118/#119: original dates, laws, official sources, distinctions between historical events and annual designation. SHA-pinned original draft files retained.
+- [x] Register **31 AI_CERTIFIED**, **8 HOLD**, **134 AI_REVIEW_QUEUED** in the 173 PH/KR/CA queue; never count human signoffs or runtime publication from AI editorial approval.
+- [ ] Continue remaining 134, prioritize source-backed national histories and fix eight source conflicts individually.
+
+
+## AI editorial certification — third Canadian wave (14 November 2026)
+
+- [x] AI source history verification for seven further Canadian observances: Lincoln Alexander, Red Dress, Dutch Heritage, Saint-Jean-Baptiste, Great Upheaval, Indigenous Veterans, Sir John A. Macdonald. Six locale narratives checked for chronological parity and consistent facts.
+- [x] **21 AI_CERTIFIED**, **8 HOLD**, **144 AI_REVIEW_QUEUED** out of 173, each linked to unchanged source PR head/blob; no automatic rich runtime publication.
+- [ ] Continue with remaining 144 and source/date HOLD corrections, preserving exact evidence versions and product release gates.
+
+
+
+## AI editorial certification — second Canadian batch (14 November 2026)
+
+- [x] Individually cross-check 10 further Canadian civic histories against government/Parliament sources; inspect six AI-translated narratives, synchronized historical years, promoter, purpose, and three contextual facts in all six locales.
+- [x] Update AI source SHA-pinned ledger and live-PR/source-blob gate: **14 AI_CERTIFIED / 173**, **8 HOLD_SOURCE_DISPUTE**, **151 AI_REVIEW_QUEUED**.
+- [ ] Continue source-by-source AI review of remaining 151 (country grouping recommended), correcting source contradictions rather than blindly passing drafts.
+- [ ] App runtime publication remains separate from AI editorial source certification; preserve previous versions and user content.
+
+
+
+## Owner-delegated AI editorial certification — 14 November 2026
+
+- [x] Owner explicitly delegates primary-source factual and six-locale editorial certification to AI rather than requiring repetitive manual human signoffs. Use **AI_CERTIFIED**, HOLD or AI_REVIEW_QUEUED with traceable evidence and distinct publication gates.
+- [x] AI editorial decisions started on all 173 prior PH/KR/CA drafts: **4 AI_CERTIFIED**, **8 HOLD** for unresolved individual sources, **161 AI_REVIEW_QUEUED**. Certified examples CA Ribbon Skirt, KR March First, PH Ninoy Aquino, PH Independence Day after 1962 chronology correction on source PR #120.
+- [x] Add exact-source SHA/source evidence and CI validation, without falsely claiming human approval or publishing the research pack.
+- [ ] Continue source-by-source AI fact and EN/IT/ES/FR/DE/PT review for the next 161; resolve eight Philippine source conflicts and seven undrafted Philippine IDs.
+- [ ] Import validated rich editorial into runtime only after format/status/provenance/version + CI release compatibility. No routine end-user manual editor bottleneck.
+
+Evidence protocol: `docs/AI_EDITORIAL_CERTIFICATION_POLICY_20261114.md`.
+AI status ledger: `data/editorial/reviews/ph_kr_ca_173_ai_editorial_certification_20261114.json`.
+
+
+## PH/KR/CA — final editorial certification lane initiated (14 November 2026)
+
+- [x] Create 173 individual, source-pinned review dossiers (PH84/KR57/CA32) and dedicated six-locale historical and linguistic review gates; **0 qualified approvals** so far.
+- [x] Four first-party spot checks and six-locale structural parity checks recorded.
+- [x] Record blocking historical conflict: Philippine Independence Day was proclaimed on June 12 already in **1962**, while the existing PR120 draft states firstObservedYear **1964**. Require correction, then re-review.
+- [ ] Clear eight source/legal disputes among prepared drafts and seven Philippine candidates still lacking reliable origin dossiers; resolve 14 conflicts overall.
+- [ ] Obtain qualified historical and EN/IT/ES/FR/DE/PT native review signoffs for each ID, preserving source revision hashes. Human certification 0/173 and no rich publication until then.
+
+Current reviewer packet: `docs/PH_KR_CA_173_EDITORIAL_REVIEW_START_20261114.md`.
+
+
+## Three-country PH/KR/CA research handoff — 14 November 2026 (review NOT complete)
+
+- [x] Record the 333 original canonical IDs without duplication: 153 Philippine biographical scope exclusions, 180 retained; the catalog itself is unchanged.
+- [x] Pin 173 research-ready six-locale AI dossiers (PH84, KR57, CA32) and 7 blocked Philippine IDs; do not count them again as **new story authoring**. Pin PRs #118/#119/#120; audit ledger under `data/editorial/registry/`.
+- [x] Recognize 18 of 173 as Wave20 bilingual histories **already** in main, leaving 155 additional unique external source drafts.
+- [x] Keep review/publication counters separate: **0/173 human-certified**, **0 published** from this handoff; reviews and unmerged source PRs remain OPEN.
+- [ ] Resolve the 7 Philippine source/date/legal identity blockers and the 14 documented source conflicts.
+- [ ] Complete qualified factual and six-native-language editorial reviews for all 173 before source-content integration and rich editorial publication.
+- [ ] Merge this bookkeeping/queue PR only after exact-head CI and main branch rules; the editorial PRs require their own separate reviews, source validation and merge gates.
+
+The snapshot calculation for **new authoring** is 1111 minus 325 already-source-researched origins on main, minus 155 additional draft origins, minus 153 excluded biographical IDs = **478**. This is not the number of stories already human-certified or published. See `docs/PH_KR_CA_RESEARCH_HANDOFF_AND_COUNTS_20261114.md`.
+
+
 ## Wave20 — frozen 100-ID source research completed (13 November 2026)
 
 - [x] Fix exactly 100 distinct pending canonical IDs, 48 global and 52 national, preserving original country and institutional source leads.

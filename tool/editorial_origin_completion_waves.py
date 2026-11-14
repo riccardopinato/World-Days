@@ -13,6 +13,7 @@ from pathlib import Path
 
 from editorial_1111_source_audit_queue import build as build_audit
 from editorial_origin_wave100 import build as build_first_100
+from editorial_research_handoff import load_handoff
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = ROOT / "data/editorial/batches/origin_stories_primary_20261111.json"
@@ -110,10 +111,16 @@ def build():
     audit = build_audit()
     by_id = {r["id"]: r for r in audit["rows"]}
     assert len(by_id) == audit["catalogTotal"] >= 1111
-    certified_origin_ids = set(_read_origin())
-    assert certified_origin_ids <= set(by_id)
+    main_researched_ids = set(_read_origin())
+    assert main_researched_ids <= set(by_id)
+    handoff = load_handoff(set(by_id))
+    prepared_ids = handoff["six_locale_draft_ids"]
+    scoped_out_ids = handoff["out_of_scope_ids"]
+    overlap = prepared_ids & main_researched_ids
+    assert handoff["previous_main_wave20_ids"] <= overlap, "Wave20 origins missing from main"
+    assert not (scoped_out_ids & (prepared_ids | main_researched_ids))
 
-    pending = set(by_id) - certified_origin_ids
+    pending = set(by_id) - (main_researched_ids | prepared_ids | scoped_out_ids)
     first = build_first_100()
     first_ids = [d["observanceId"] for d in first["dossiers"]]
     # Preserve the first Wave100 selection where available. It becomes
@@ -126,7 +133,7 @@ def build():
     ordered = first_ids + [r["id"] for r in remaining]
     assert len(ordered) == len(pending)
     assert len(set(ordered)) == len(ordered)
-    assert set(ordered).isdisjoint(certified_origin_ids)
+    assert set(ordered).isdisjoint(main_researched_ids | prepared_ids | scoped_out_ids)
 
     files = {}
     work_types = Counter()
@@ -154,8 +161,20 @@ def build():
         "schemaVersion": 1,
         "datasetVersion": audit["catalogVersion"],
         "catalogTotal": audit["catalogTotal"],
-        "individuallyOriginResearched": len(certified_origin_ids),
+        "individuallyOriginResearched": len(main_researched_ids),
+        "researchHandoff": {
+            "registry": "data/editorial/registry/ph_kr_ca_source_research_handoff_20261114.json",
+            "auditSourceSha": handoff["source_ref"],
+            "unmergedSixLocaleResearchDrafts": len(prepared_ids),
+            "newDraftOriginsNotYetCountedOnMain": len(prepared_ids - main_researched_ids),
+            "alreadyCountedBilingualOnMain": len(overlap),
+            "scopeExcludedBiographical": len(scoped_out_ids),
+            "pendingQualifiedHumanReview": len(prepared_ids),
+            "qualifiedHumanCertified": 0,
+        },
         "outstandingOriginResearch": len(pending),
+        "outstandingNewStoryDrafting": len(pending),
+        "mainNotYetIntegratedOriginCount": len(by_id) - len(main_researched_ids),
         "legacyReviewedEditorialCount": audit["publishedEnglishRichStories"],
         "batchLimit": BATCH_SIZE,
         "batchCount": len(files),
@@ -172,6 +191,8 @@ def build():
             "Never treat listed source links as independent historical certification.",
             "Do not fabricate a proposer, introduced year, date rationale or customs.",
             "Existing reviewed articles remain separate from independently researched origin history.",
+            "Externally prepared six-locale AI drafts are excluded only from NEW AUTHORING, not editorial human review.",
+            "PH biographical anniversaries excluded by reviewed scope decisions remain in canonical data; no deletion.",
             "If new origin stories are approved, regenerate queue from main to remove their IDs.",
             "If catalog grows, regenerate; 1111 is a minimum, never a fixed maximum.",
             "Do not publish draft narratives or bypass human editorial/factual review.",

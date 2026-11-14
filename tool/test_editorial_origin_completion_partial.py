@@ -34,7 +34,10 @@ def fake_audit(n):
 for n in (99, 7, 0):
     audit = fake_audit(n)
     approved = [r["id"] for r in audit["rows"] if r["storyPublished"]]
-    with patch.object(first, "build_audit", return_value=audit), \
+    empty_handoff = {"six_locale_draft_ids": set(), "out_of_scope_ids": set(), "previous_main_wave20_ids": set(), "source_ref": "fixture"}
+    with patch.object(first, "load_handoff", return_value=empty_handoff), \
+         patch.object(full, "load_handoff", return_value=empty_handoff), \
+         patch.object(first, "build_audit", return_value=audit), \
          patch.object(full, "build_audit", return_value=audit), \
          patch.object(full, "_read_origin", return_value=approved):
         first_wave = first.build()
