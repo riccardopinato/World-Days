@@ -5982,9 +5982,53 @@
             "La legge rese festivo il 30 novembre di ogni anno.",
             "Il 30 novembre è l'anniversario della nascita di Andrés Bonifacio nel 1863."
           ]
+        },
+        "es": {
+          "heading": "30 de noviembre: homenaje a Andrés Bonifacio",
+          "origin": "La Ley filipina n.º 2946, aprobada el 16 de febrero de 1921, modificó el Código Administrativo para declarar festivo cada 30 de noviembre. El Museo Nacional de Filipinas vincula esa fecha con el nacimiento de Andrés Bonifacio, el 30 de noviembre de 1863, y su papel en el movimiento revolucionario Katipunan contra el dominio colonial español. La ley y el registro del Senado prueban la creación legal de la festividad. Se recuerda el nacimiento de Bonifacio, no el inicio de la Revolución filipina. Las fuentes no establecen cuándo tuvo lugar la primera ceremonia anual; ese año sigue siendo desconocido.",
+          "promoter": "La Quinta Legislatura filipina aprobó la ley en 1921; Bonifacio es la figura homenajeada, no el redactor individual documentado.",
+          "purpose": "Recordar las contribuciones revolucionarias a la independencia filipina y promover la educación histórica y cívica.",
+          "facts": [
+            "La Ley n.º 2946 fue aprobada el 16 de febrero de 1921.",
+            "La ley hizo festivo el 30 de noviembre de cada año.",
+            "Andrés Bonifacio nació el 30 de noviembre de 1863."
+          ]
+        },
+        "fr": {
+          "heading": "30 novembre : hommage à Andrés Bonifacio",
+          "origin": "La loi philippine n° 2946, approuvée le 16 février 1921, a modifié le Code administratif pour faire du 30 novembre un jour férié annuel. Le Musée national des Philippines relie cette date à la naissance d’Andrés Bonifacio, le 30 novembre 1863, et à son rôle dans le mouvement révolutionnaire Katipunan contre la domination coloniale espagnole. La loi et le registre du Sénat attestent l’origine juridique de la fête. Elle commémore sa naissance, et non le début de la révolution philippine. Les sources ne permettent pas de dater la première cérémonie annuelle ; cette année reste inconnue.",
+          "promoter": "La cinquième législature philippine a adopté la loi en 1921 ; Bonifacio est la personnalité honorée, non le rédacteur individuel attesté.",
+          "purpose": "Honorer les contributions révolutionnaires à l’indépendance philippine et favoriser l’éducation historique et civique.",
+          "facts": [
+            "La loi n° 2946 a été approuvée le 16 février 1921.",
+            "Elle a déclaré le 30 novembre jour férié annuel.",
+            "Andrés Bonifacio est né le 30 novembre 1863."
+          ]
+        },
+        "de": {
+          "heading": "30. November: Gedenken an Andrés Bonifacio",
+          "origin": "Das philippinische Gesetz Nr. 2946 wurde am 16. Februar 1921 verabschiedet und änderte das Verwaltungsgesetzbuch, sodass der 30. November jedes Jahres zum gesetzlichen Feiertag wurde. Das Nationalmuseum der Philippinen verbindet das Datum mit der Geburt von Andrés Bonifacio am 30. November 1863 und seiner Rolle in der revolutionären Katipunan-Bewegung gegen die spanische Kolonialherrschaft. Gesetzestext und Senatsregister belegen die rechtliche Grundlage. Der Feiertag erinnert an Bonifacios Geburt, nicht an den Beginn der philippinischen Revolution. Das Jahr der ersten jährlichen Gedenkveranstaltung ist nicht belegt und bleibt unbekannt.",
+          "promoter": "Die fünfte philippinische Legislative verabschiedete das Gesetz 1921; Bonifacio ist die geehrte Person, nicht der nachgewiesene persönliche Verfasser.",
+          "purpose": "An revolutionäre Beiträge zur philippinischen Unabhängigkeit erinnern und historische sowie politische Bildung fördern.",
+          "facts": [
+            "Gesetz Nr. 2946 wurde am 16. Februar 1921 verabschiedet.",
+            "Es erklärte den 30. November zum jährlichen Feiertag.",
+            "Andrés Bonifacio wurde am 30. November 1863 geboren."
+          ]
+        },
+        "pt": {
+          "heading": "30 de novembro: homenagem a Andrés Bonifacio",
+          "origin": "A Lei filipina n.º 2946, aprovada em 16 de fevereiro de 1921, alterou o Código Administrativo para tornar 30 de novembro um feriado anual. O Museu Nacional das Filipinas associa a data ao nascimento de Andrés Bonifacio, em 30 de novembro de 1863, e ao seu papel na organização revolucionária Katipunan contra o domínio colonial espanhol. O texto da lei e o registo do Senado comprovam a origem jurídica da celebração. A data recorda o nascimento de Bonifacio, não o início da Revolução Filipina. As fontes não comprovam o ano da primeira cerimónia anual, pelo que permanece desconhecido.",
+          "promoter": "A Quinta Legislatura filipina aprovou a lei em 1921; Bonifacio é a figura homenageada, não o redator individual comprovado.",
+          "purpose": "Recordar os contributos revolucionários para a independência filipina e promover a educação histórica e cívica.",
+          "facts": [
+            "A Lei n.º 2946 foi aprovada em 16 de fevereiro de 1921.",
+            "A lei tornou 30 de novembro um feriado anual.",
+            "Andrés Bonifacio nasceu em 30 de novembro de 1863."
+          ]
         }
       },
-      "sourceReviewNote": "Official Philippine Senate and Supreme Court original Act 2946 of February 1921 directly proves legal holiday; National Museum independently connects date to 1863 birth. Inaugural annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false."
+      "sourceReviewNote": "Official Philippine Senate and Supreme Court original Act 2946 of February 1921 directly proves legal holiday; National Museum independently connects date to 1863 birth. Inaugural annual ceremony unverified. Primary-source linked model-authored original English/Italian narrative. Independent human factual review and qualified six-language native editorial review remain pending; runtimeRichEditorialApproved=false. ES/FR/DE/PT AI drafts added 2026-11-14; independent human factual and native review PENDING; runtime approval false."
     },
     {
       "observanceId": "portugal-national-sea-day",
