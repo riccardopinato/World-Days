@@ -1,5 +1,18 @@
 # World Days — Active roadmap
 
+
+## Owner-delegated AI editorial certification — 14 November 2026
+
+- [x] Owner explicitly delegates primary-source factual and six-locale editorial certification to AI rather than requiring repetitive manual human signoffs. Use **AI_CERTIFIED**, HOLD or AI_REVIEW_QUEUED with traceable evidence and distinct publication gates.
+- [x] AI editorial decisions started on all 173 prior PH/KR/CA drafts: **4 AI_CERTIFIED**, **8 HOLD** for unresolved individual sources, **161 AI_REVIEW_QUEUED**. Certified examples CA Ribbon Skirt, KR March First, PH Ninoy Aquino, PH Independence Day after 1962 chronology correction on source PR #120.
+- [x] Add exact-source SHA/source evidence and CI validation, without falsely claiming human approval or publishing the research pack.
+- [ ] Continue source-by-source AI fact and EN/IT/ES/FR/DE/PT review for the next 161; resolve eight Philippine source conflicts and seven undrafted Philippine IDs.
+- [ ] Import validated rich editorial into runtime only after format/status/provenance/version + CI release compatibility. No routine end-user manual editor bottleneck.
+
+Evidence protocol: `docs/AI_EDITORIAL_CERTIFICATION_POLICY_20261114.md`.
+AI status ledger: `data/editorial/reviews/ph_kr_ca_173_ai_editorial_certification_20261114.json`.
+
+
 ## PH/KR/CA — final editorial certification lane initiated (14 November 2026)
 
 - [x] Create 173 individual, source-pinned review dossiers (PH84/KR57/CA32) and dedicated six-locale historical and linguistic review gates; **0 qualified approvals** so far.

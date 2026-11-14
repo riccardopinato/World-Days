@@ -62,6 +62,7 @@ jobs:
           python3 tool/validate_editorial_origin_completion_waves.py
           python3 tool/validate_editorial_research_handoff.py
           python3 tool/validate_173_editorial_review_queue.py
+          python3 tool/validate_ph_kr_ca_173_ai_editorial_certification.py
           python3 tool/export_origin_block100_20261113.py
           python3 tool/test_editorial_origin_completion_partial.py
           python3 tool/build_origin_review_index.py
@@ -97,6 +98,11 @@ jobs:
           python3 tool/test_release_evidence.py
           python3 tool/test_ruleset_guard.py
           python3 tool/test_saved_profile_report.py
+
+      - name: Verify certified editorial sources against current GitHub PR heads
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tool/validate_ph_kr_ca_173_ai_editorial_certification.py --verify-remote
 
       - name: Setup Flutter
         uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
