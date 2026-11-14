@@ -4,7 +4,7 @@
   "status": "OPEN_SOURCE_DISCREPANCIES_DO_NOT_AUTO_CERTIFY",
   "qualifiedEditorialApproval": false,
   "releaseGate": "BLOCKED_UNTIL_PRIMARY_SOURCE_RECONCILIATION_AND_QUALIFIED_EDITORIAL_SIGNOFF",
-  "count": 12,
+  "count": 13,
   "items": [
     {
       "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
@@ -119,6 +119,15 @@
       "otherSource": "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010086",
       "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
       "editorialDisposition": "HOLD_NEW_DRAFT_UNTIL_MAY26_ANCHOR_OR_CANONICAL_DATE_CORRECTED",
+      "resolved": false
+    },
+    {
+      "observanceId": "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+      "problem": "WATCH_JUNE_2009_PROCLAMATION_MONTH_WITHOUT_EXPLICIT_YEARLY_PERIOD",
+      "risk": "Proclamation No. 1782 signed May 21 2009 designates 'the month of June' and directs public activities every second week of June. It does not explicitly state 'of every year' for the June month, although the NCCA calendar lists this as annually recurring. No qualified certification of a permanent statutory recurrence until a separate later government authority or continuous official practice has been verified. The six-locale draft honestly notes this uncertainty.",
+      "legalSource": "https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html",
+      "inventorySource": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "editorialDisposition": "DRAFTED_WITH_EXPLICIT_RECURRENCE_UNCERTAINTY_PENDING_SPECIALIST_REVIEW",
       "resolved": false
     }
   ]
