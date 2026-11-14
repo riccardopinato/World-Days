@@ -14,9 +14,9 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 73,
-    "AI_CERTIFIED": 92,
-    "HOLD_SOURCE_DISPUTE": 8,
+    "AI_REVIEW_QUEUED": 46,
+    "AI_CERTIFIED": 122,
+    "HOLD_SOURCE_DISPUTE": 5,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
   },
@@ -3947,27 +3947,43 @@
       "title": "EDSA People Power Revolution Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_edsa_heritage_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0245e581aa61b340cd476da1eb1eabfe3e3b5e58",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": null,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/edsa-people-power/",
+        "https://chief.lawphil.net/executive/proc/proc2025/proc_1006_2025.html",
+        "https://pco.gov.ph/news_releases/pbbm-declares-2027-regular-and-special-holidays/"
+      ],
+      "factsConfirmed": [
+        "The pivotal uprising unfolded over 22–25 February 1986.",
+        "The NHCP historical marker commemorates the events of EDSA.",
+        "The 2026 anniversary was classified as a special working day."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-independence-day",
@@ -4019,27 +4035,43 @@
       "title": "National Heroes Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_national_law_02_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "dce081d073bad6dea6d471b5aa72224588802ea1",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1931,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/28/19930",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%209492",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "factsConfirmed": [
+        "The founding holiday act dates to 1931.",
+        "The original recurring date was the last Sunday of August.",
+        "The 2026 national calendar places the holiday on 31 August."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-ninoy-aquino-day",
@@ -4091,27 +4123,43 @@
       "title": "Rizal Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_rizal_day_and_month_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f03b9bb889c6d0542384b9ae89aba3ba8388f493",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1902,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://ncca.gov.ph/about-culture-and-arts/culture-profile/selection-and-proclamation-of-national-heroes-and-laws-honoring-filipino-historical-figures/",
+        "https://lawphil.net/statutes/acts/act1902/act_345_1902.html",
+        "https://pco.gov.ph/news_releases/pbbm-issues-proclamation-declaring-regular-holidays-special-non-working-days-for-2026/"
+      ],
+      "factsConfirmed": [
+        "A national mourning decree was issued in December 1898.",
+        "Act No. 345 designated 30 December among public holidays in 1902.",
+        "The national calendar lists Rizal Day as a regular holiday in 2026."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-apolinario-mabini-day",
@@ -4119,27 +4167,43 @@
       "title": "Apolinario Mabini Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1fcf1c7fe7e361c9918852801289fe4cf89bb9a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2007,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2007/ra_9430_2007.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_312_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The day honours Apolinario Mabini, a leader of the Philippine independence movement born on 23 July 1864 in Tanauan. His political writings and disability history make the date important beyond a simple personal birthday notice.",
+        "A national special public holiday was proclaimed for 23 July 1956 only by Proclamation No. 312. That one-year presidential decision cannot be treated as permanent nationwide non-working legislation.",
+        "Republic Act No. 9430, approved 10 April 2007, established 23 July annually as a special working holiday in the city of Tanauan, Batangas. The local working rule differs from the earlier one-off national decree."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
@@ -4147,27 +4211,50 @@
       "title": "Araw ng Pagbasa (Philippines National Reading Day) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2013,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "NCCA_LEGISLATIVE_YEAR_2012_VS_APPROVED_RA10556_2013",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html",
+        "https://issuances-library.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%2010556",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Araw ng Pagbasa is the Philippine national reading day, designed for elementary and secondary schools and for shared reading among children, teachers and families. Its date is 27 November each year, not a generic global book day.",
+        "Republic Act No. 10556 was approved on 15 May 2013, making the day a regular working holiday; when 27 November falls on a weekend, school observances are moved to Friday of that week.",
+        "The statute assigns leadership to the Department of Education and encourages storytelling, reading modules and regional languages as well as Filipino and English. An NCCA calendar label saying '2012' does not override the signed 2013 Act."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. Source discrepancy resolved by original legislation: RA 10556 approved 15 May 2013 overrides NCCA incorrect secondary label 2012; 27 November annual working holiday; weekend falls to Friday.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "NCCA_LEGISLATIVE_YEAR_2012_VS_APPROVED_RA10556_2013",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "authority": "https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html",
+        "conclusion": "RA 10556 approved 15 May 2013 overrides NCCA incorrect secondary label 2012; 27 November annual working holiday; weekend falls to Friday.",
+        "disposition": "RECONCILED_PRIMARY_ACT_OVERRIDES_SECONDARY_CALENDAR_METADATA"
+      }
     },
     {
       "observanceId": "ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary",
@@ -4175,27 +4262,43 @@
       "title": "Araw ng Republikang Filipino (First Philippine Republic Anniversary) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2013,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2013/proc_533_2013.html",
+        "https://lawphil.net/statutes/repacts/ra2018/ra_11014_2018.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The First Philippine Republic was inaugurated at Barasoain Church in Malolos, Bulacan, on 23 January 1899, two days after the promulgation of the Malolos Constitution. The national date celebrates this founding event rather than a later president's birthday.",
+        "Presidential Proclamation No. 533, signed on 9 January 2013, designated 23 January every year as Araw ng Republikang Filipino, 1899. It gave the event a recurring official anniversary without being the original 1899 declaration.",
+        "Republic Act No. 11014, approved 5 April 2018, subsequently made 23 January a nationwide special working holiday and assigned educational activities to the Historical Commission and Education Department. Particular provincial non-working proclamations are separate and time-limited."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-araw-ni-balagtas",
@@ -4203,27 +4306,43 @@
       "title": "Araw ni Balagtas — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "02759db2f38aade5a32c7d44b516c008104e27d0",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1974,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1974/proc_1249_1974.html",
+        "https://lawphil.net/executive/proc/proc1986/proc_5_1986.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Araw ni Balagtas commemorates Francisco Balagtas Baltazar, a major poet born on 2 April 1788 and remembered for the literary work Florante at Laura. The specific national day honours his literary legacy, not a generic biography list.",
+        "Proclamation No. 1249 of 1 April 1974 established the annual celebration on 2 April and described a special holiday in the province of Bulacan. The exact present-day provincial non-working status requires checking the annual calendar.",
+        "President Corazon Aquino's Proclamation No. 5 of 1 April 1986 again called for an annual Araw ni Balagtas. The 1986 reiteration should not erase the earlier 1974 legal declaration or be mistaken for its first origin."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-day-of-the-filipino-seafarer",
@@ -4231,27 +4350,42 @@
       "title": "Day of the Filipino Seafarer — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "02759db2f38aade5a32c7d44b516c008104e27d0",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2011,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2011/proc_183_2011.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Day of the Filipino Seafarer recognizes workers who navigate commercial shipping routes and contribute to international transport, family livelihoods and the Philippine economy.",
+        "At a June 2010 conference in Manila, parties to the maritime training convention adopted the Manila Amendments and an international resolution supporting 25 June as Day of the Seafarer.",
+        "Proclamation No. 183, signed 3 June 2011, made 25 June each year a Philippine observance and called on maritime agencies and private organizations to join. The national 2011 act follows, rather than creates, the international reference."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-filipino-chinese-friendship-day",
@@ -4259,27 +4393,42 @@
       "title": "Filipino-Chinese Friendship Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2002,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2002/proc_148_2002.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Filipino-Chinese Friendship Day is associated with the establishment of formal diplomatic relations between the Philippines and China on 9 June 1975. Its wider cultural context also includes much older trade and migration exchanges.",
+        "Proclamation No. 148 of 24 January 2002 formally designated 9 June of every year. The presidential text specifically speaks of social, cultural, educational and economic cooperation rather than a historical military victory.",
+        "The underlying diplomatic anniversary from 1975, the 2002 Philippine proclamation and activities organized by communities are related but different events. The proclamation does not itself establish a general non-working public holiday."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-gawad-sa-manlilikha-ng-bayan-establishment-anniversary",
@@ -4287,27 +4436,43 @@
       "title": "Gawad sa Manlilikha ng Bayan Establishment Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1fcf1c7fe7e361c9918852801289fe4cf89bb9a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1992,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1992/ra_7355_1992.html",
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Gawad sa Manlilikha ng Bayan recognizes masters of traditional Filipino arts who have transmitted skills to their communities, including weaving, carving, performance and other living practices.",
+        "Republic Act No. 7355, approved 3 April 1992, established recognition of national living treasures and mechanisms for safeguarding and passing on traditional folk arts to later generations.",
+        "The Honors Code introduced by Executive Order No. 236 in 2003 later placed this award within the hierarchy of national distinctions. The award's 1992 founding differs from the NCCA establishment under separate RA 7356 on the same date."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-graciano-lopez-jaena-day",
@@ -4315,27 +4480,43 @@
       "title": "Graciano Lopez-Jaena Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1fcf1c7fe7e361c9918852801289fe4cf89bb9a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2001,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2001/ra_9070_2001.html",
+        "https://lawphil.net/executive/proc/proc1986/proc_52_1986.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Graciano López Jaena Day remembers the Filipino writer and reform advocate associated with La Solidaridad. It falls on 18 December, the birth anniversary of a figure in the country's nineteenth-century reform movement.",
+        "Earlier proclamations, including Proclamation No. 52 of December 1986, granted a special non-working day in Iloilo for that particular year's celebrations, but did not establish permanent nationwide time off.",
+        "Republic Act No. 9070, approved 8 April 2001, set 18 December annually as a special working public holiday throughout the Philippines. This national classification is different from the older one-off local non-working proclamations."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-iglesia-ni-cristo-day",
@@ -4343,27 +4524,42 @@
       "title": "Iglesia ni Cristo Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1fcf1c7fe7e361c9918852801289fe4cf89bb9a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2009,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2009/ra_9645_2009.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Iglesia ni Cristo Day is a specific Philippine anniversary concerning the foundation of the Iglesia ni Cristo religious organization. The occasion is about the institution's history, not a universal date shared by all Philippine religions.",
+        "Republic Act No. 9645, approved 12 June 2009, established 27 July annually as a special national working holiday, amending the relevant Administrative Code rules. The word 'working' is part of its statutory classification.",
+        "The statute recognizes the religious group's founding anniversary in Philippine civic law but does not itself impose a general non-working holiday. Historical reporting should distinguish the organization's origin from the later government recognition."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-jose-abad-santos-day",
@@ -4371,27 +4567,44 @@
       "title": "Jose Abad Santos Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_heroes_awards_5_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1fcf1c7fe7e361c9918852801289fe4cf89bb9a6",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1956,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2000/proc_229_2000.html",
+        "https://lawphil.net/statutes/repacts/ra2000/ra_8815_2000.html",
+        "https://lawphil.net/executive/proc/proc1956/proc_374_1956.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Jose Abad Santos Day honours a Filipino jurist and Chief Justice remembered for refusing to cooperate with occupying Japanese forces during the Second World War. The official date is tied to his birth on 19 February 1886.",
+        "Proclamation No. 128 of 1949 had used 15 May; Proclamation No. 374, signed 26 December 1956, moved the annual commemoration to 19 February so schools could participate outside summer vacation.",
+        "Proclamation No. 229 reaffirmed 19 February annually in January 2000. Separately, Republic Act No. 8815 of August 2000 lists a special non-working day on 7 May in Pampanga and Angeles City; that local rule must not be silently substituted for the national 19 February commemoration."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-julian-felipe-day",
@@ -4399,27 +4612,43 @@
       "title": "Julian Felipe Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "b08c7b723f7594a8a44f9854875471585958c722",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1994,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1994/ra_7805_1994.html",
+        "https://ldr.senate.gov.ph/legislative%2Bissuances/Republic%20Act%20No.%207805",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Julian Felipe Day honours the composer of the music of the Philippine national anthem. Born on 28 January, Julian Felipe is closely associated with Cavite City and the history of the country's national symbols.",
+        "Republic Act No. 7805, which became law on 1 September 1994 without the President's signature, designated 28 January every year as a special non-working public holiday specifically in Cavite City.",
+        "The statute recognizes his role in creating the national anthem's music, but its local jurisdiction is explicit. The Cavite City non-working rule must not be repeated as if it granted a day off throughout the Philippines."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-kindness-to-animal-day-philippines",
@@ -4427,27 +4656,43 @@
       "title": "Kindness to Animal Day (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "b08c7b723f7594a8a44f9854875471585958c722",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1958,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc1958/proc_537_1958.html",
+        "https://lawphil.net/executive/proc/proc2006/proc_1112_2006.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Kindness to Animals Day invites Philippine communities to treat animals with compassion and to reject cruelty. Its calendar is aligned with the wider international animal-welfare observance on 4 October.",
+        "Proclamation No. 537, signed by President Carlos P. Garcia on 30 September 1958, established 4 October every year as Kindness to Animals Day in the Philippines, asking schools and civic bodies to participate.",
+        "Proclamation No. 1112, signed on 27 July 2006, reiterated the same annual date and broad civic participation. This later proclamation confirms the observance but does not make 2006 the year of its first national designation."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
@@ -4455,27 +4700,50 @@
       "title": "Komisyon sa Wikang Filipino Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1db0b82a8e5d5c9ab5d37757409b86926abaffdd",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1991,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "NCCA_RA7104_YEAR_1981_VS_1991_ENACTMENT",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1991/ra_7104_1991.html",
+        "https://lawphil.net/executive/execord/eo1999/eo_158_1999.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Komisyon sa Wikang Filipino is a public institution devoted to the development, preservation and promotion of Filipino and the country's other languages, recognizing the linguistic diversity of communities.",
+        "Republic Act No. 7104, approved 14 August 1991, established the Commission and defined its responsibilities for linguistic research, enrichment and public information. The law was enacted in 1991, not 1981 as printed in an NCCA calendar label.",
+        "Executive Order No. 158 of 1999 later returned the Commission to the administrative supervision of the President's Office. This management change is not the founding of a second language commission."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. Source discrepancy resolved by original legislation: RA7104 passed August 14 1991, not 1981 printed in NCCA calendar. The later EO158/1999 is only an administrative reorganization.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "NCCA_RA7104_YEAR_1981_VS_1991_ENACTMENT",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "authority": "https://lawphil.net/statutes/repacts/ra1991/ra_7104_1991.html",
+        "conclusion": "RA7104 passed August 14 1991, not 1981 printed in NCCA calendar. The later EO158/1999 is only an administrative reorganization.",
+        "disposition": "RECONCILED_PRIMARY_ACT_OVERRIDES_SECONDARY_CALENDAR_METADATA"
+      }
     },
     {
       "observanceId": "ph-w10-national-fisherfolks-day-philippines",
@@ -4483,27 +4751,43 @@
       "title": "National Fisherfolks Day (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1db0b82a8e5d5c9ab5d37757409b86926abaffdd",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2000,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc2000/proc_261_2000.html",
+        "https://lawphil.net/executive/proc/proc2000/pdf/proc_261_2000.pdf",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Fisherfolks Day recognizes small-scale fishing families and the contributions of coastal and inland fishing communities to food supply, livelihoods and stewardship of marine resources.",
+        "At a conference held from 26 to 28 May 1999, leaders of coastal local governments supported a resolution calling for a national day. The fisherfolks sector itself also petitioned the President through the National Anti-Poverty Commission.",
+        "Proclamation No. 261 signed 3 April 2000 established 31 May annually and named the fisheries bureau and the fisherfolks council as lead agencies, with support from local governments and educational institutions."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-national-library-of-the-philippines-founding-anniversary",
@@ -4567,27 +4851,43 @@
       "title": "Order of Gabriela Silang Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "b08c7b723f7594a8a44f9854875471585958c722",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Order of Gabriela Silang is one of the official honors listed by the Philippine state. It carries the name of Gabriela Silang, a figure of resistance against Spanish colonial rule in the eighteenth century.",
+        "Executive Order No. 236, dated 19 September 2003, established the Honors Code and placed the Order of Gabriela Silang in the third tier of civilian honors, separating its protocol status from other named orders.",
+        "The Code says that the order may be awarded to spouses of Filipino or foreign heads of state or government. Its purpose differs from the Order of Lakandula, which recognizes political and civic merit, even though both appear in the same 2003 code."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-order-of-lakandula-founding-anniversary",
@@ -4595,27 +4895,43 @@
       "title": "Order of Lakandula Founding Anniversary — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_local_heritage_honors_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "b08c7b723f7594a8a44f9854875471585958c722",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/execord/eo2003/eo_236_2003.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/5493",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Order of Lakandula is a major Philippine state honor named for a historical leader associated with prudent service to his people. Its categories recognize contributions to civic life, political responsibility, peace and public welfare.",
+        "Executive Order No. 236 of 19 September 2003 introduced the Honors Code ranking and placed the Order of Lakandula in the senior second tier alongside the Order of Sikatuna and the Philippine Legion of Honor.",
+        "The Code lists ranks from Grand Collar to Member and eligibility for Filipinos or foreigners who have demonstrated outstanding civic or political merit. This is not the Order of Gabriela Silang for spouses of heads of state, despite the identical code date."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-order-of-national-artists-establishment-anniversary",
@@ -4735,27 +5051,43 @@
       "title": "Philippine Flag Days Commencement — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1965,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1965/proc_374_1965.html",
+        "https://lawphil.net/statutes/repacts/ra1998/ra_8491_1998.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Flag Day begins on 28 May, commemorating the 1898 Battle of Alapan at Imus, Cavite, where the Philippine flag was raised during the struggle for independence. The historical episode is different from the date of a modern legal act.",
+        "Proclamation No. 374 of 6 March 1965 declared 28 May of every year Flag Day, revoking an earlier 1949 proclamation. Its anniversary is not a single invention of flag symbolism.",
+        "Republic Act No. 8491 of 1998 later specified that Flag Days span 28 May to 12 June and encourages government bodies, schools, businesses and homes to display the flag. This is a period with a clear opening day, not just a 24-hour celebration."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippine-house-of-representatives-founding-anniversary",
@@ -4847,27 +5179,50 @@
       "title": "Philippine Republic Day (July 4) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "HOLD_SOURCE_DISPUTE",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "02759db2f38aade5a32c7d44b516c008104e27d0",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1964,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
-      "sourceConflict": "REPUBLIC_DAY_HISTORIC_HOLIDAY_NOT_LISTED_AS_MODERN_REGULAR_HOLIDAY",
-      "checks": null
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/53270",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The historical 4 July anniversary recalls the formal recognition of Philippine independence from the United States on 4 July 1946, after the Second World War. It must be distinguished from the 12 June 1898 declaration.",
+        "Republic Act No. 4166, approved on 4 August 1964, moved the national Independence Day observance to 12 June and named 4 July Philippine Republic Day, listing it then among legal holidays.",
+        "Executive Order No. 292, the 1987 Administrative Code, later listed national regular holidays without 4 July. A historical Republic Day entry therefore cannot be labeled a currently recurring regular non-working holiday on the basis of the 1964 law alone."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. Source discrepancy resolved by original legislation: Republic Day designated July 4 in RA4166 of 1964, historically a legal holiday; modern 1987 Administrative Code excludes it from the regular national holiday list. Historical annual remembrance, NOT current national nonworking holiday.",
+      "sourceConflict": null,
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      },
+      "originalSourceConflictCode": "REPUBLIC_DAY_HISTORIC_HOLIDAY_NOT_LISTED_AS_MODERN_REGULAR_HOLIDAY",
+      "sourceConflictResolution": {
+        "reviewDate": "2026-11-15",
+        "authority": "https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html",
+        "conclusion": "Republic Day designated July 4 in RA4166 of 1964, historically a legal holiday; modern 1987 Administrative Code excludes it from the regular national holiday list. Historical annual remembrance, NOT current national nonworking holiday.",
+        "disposition": "RECONCILED_PRIMARY_ACT_OVERRIDES_SECONDARY_CALENDAR_METADATA"
+      }
     },
     {
       "observanceId": "ph-w10-philippine-senate-founding-anniversary",
@@ -4903,27 +5258,43 @@
       "title": "Philippine-Spanish Friendship Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2003/ra_9187_2003.html",
+        "https://lawphil.net/executive/ao/ao2003/ao_76_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The historical reference is 30 June 1899, when President Emilio Aguinaldo commended the Spanish garrison that had held out in Baler. The observance recalls a moment of respect following conflict, rather than treating the entire colonial era as one friendship celebration.",
+        "Republic Act No. 9187 of 2003 declared 30 June each year Philippine-Spanish Friendship Day. Its legal status is a national special working holiday and, specifically, a special non-working holiday in Aurora Province.",
+        "Administrative Order No. 76 provided implementation guidance through a historical-institute-led inter-agency committee. The special Aurora status must not be mistakenly applied to every Philippine province."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-earth-day",
@@ -5043,27 +5414,42 @@
       "title": "Philippines National Indigenous Peoples Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2015,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2015/ra_10689_2015.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine National Indigenous Peoples Day is held on 9 August to promote rights and the collective welfare of indigenous communities. The date is aligned with the wider international awareness day, but it is anchored in a national law.",
+        "Republic Act No. 10689, approved on 23 October 2015, established 9 August each year as a special working holiday and tasked the National Commission on Indigenous Peoples with implementation. It did not make it a nationwide non-working day.",
+        "The 9 August law is not the 29 October Indigenous Peoples Thanksgiving Day from 2003 nor the entire October Indigenous Peoples Month introduced in 2009. All three dates have different legal sources and should retain separate origin dossiers."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-national-literacy-day",
@@ -5071,27 +5457,43 @@
       "title": "Philippines National Literacy Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1969,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1969/proc_606_1969.html",
+        "https://lawphil.net/executive/proc/proc1979/proc_1886_1979.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "The Philippine observance shares 8 September with the international literacy movement promoted by UNESCO after the 1965 Tehran conference. Philippine groups had observed the international date since 1967.",
+        "Proclamation No. 606, signed 8 September 1969, designated the date as Philippine National Literacy Day. The initiative encouraged public and private institutions to address basic and functional literacy.",
+        "Proclamation No. 1886 of 17 August 1979 again designated 8 September and specified cooperation with education authorities and UNESCO's Philippine Commission. The year 1979 is not the first official local origin."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-philippines-national-museum-founding-anniversary",
@@ -5127,27 +5529,43 @@
       "title": "Philippines National Teachers Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_civic_holidays_8_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "048e4e5325425fa255182759cd0b2644eeb2b3c7",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2016,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/statutes/repacts/ra2016/ra_10743_2016.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/66305",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Teachers' Day in the Philippines recognizes teachers' work in schools and their role in learning and community development. Its date coincides with the wider international calendar but has a specific Philippine legal basis.",
+        "Republic Act No. 10743, approved 29 January 2016, designated 5 October of every year National Teachers' Day as a special working holiday. It is not automatically a nationwide day off.",
+        "The law assigns the Department of Education the lead role and asks public institutions and private employers to make participation in commemorative activities possible. It does not itself establish a school closure."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w10-puerto-princesa-underground-river-day",
@@ -5183,27 +5601,44 @@
       "title": "Ramon Magsaysay Memorial Day — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1db0b82a8e5d5c9ab5d37757409b86926abaffdd",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1957,
       "establishedYear": 1966,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1966/proc_15_1966.html",
+        "https://lawphil.net/executive/mc/mc1968/mc_165_1968.html",
+        "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/79978",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Ramon Magsaysay Memorial Day commemorates the Philippine President who died on 17 March 1957 in an aircraft crash. A separate one-month national mourning period was proclaimed immediately after his death.",
+        "Proclamation No. 15, signed 7 March 1966, created an annual 17 March memorial with half-mast flags, military salutes and short remembrance ceremonies in schools and public offices.",
+        "Memorandum Circular No. 165 of 12 March 1968 directed schools and government offices to hold their ceremonies on the preceding school or business day when 17 March falls on a Saturday or Sunday. The anniversary date itself remains 17 March."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-18-day-campaign-to-end-violence-against-women-philippines",
@@ -5519,27 +5954,42 @@
       "title": "Linggo ng Kalayaan — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_language_fisherfolk_magsaysay_independence_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "1db0b82a8e5d5c9ab5d37757409b86926abaffdd",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1992,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.lawphil.net/executive/proc/proc1992/proc_914_1992.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Linggo ng Kalayaan, or Independence Week, brings together civic projects, cultural activities and historical reflection in the week leading to Philippine Independence Day on 12 June.",
+        "Proclamation No. 914, signed by President Corazon Aquino on 1 June 1992, declared 6–12 June every year Linggo ng Kalayaan and invited government and society to celebrate freedom and democratic heritage.",
+        "The proclamation referred to the ninety-fourth independence anniversary and the centennial celebrations of the Katipunan and La Liga Filipina. The entire week is not a seven-day statutory non-working holiday; June 12 has its own separate national legal origin."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-month-of-overseas-filipinos",
@@ -5687,27 +6137,42 @@
       "title": "National Coconut Week (Philippines) — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_seafarer_coconut_republic_balagtas_4_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "02759db2f38aade5a32c7d44b516c008104e27d0",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1987,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc1987/proc_142_1987.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "National Coconut Week highlights the role of coconut farms and processing in Philippine rural livelihoods, including growers, labourers, traders and the industries using coconut products.",
+        "President Corazon Aquino issued Proclamation No. 142 on 19 August 1987, declaring the period 24–30 August 1987 and every year thereafter National Coconut Week under the Philippine Coconut Authority.",
+        "The original document says August is a peak coconut season and invites the whole industry, from growers to policy-makers, to participate. Its seven-day August period is not a general international coconut holiday."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-culture-consciousness-week",
@@ -5743,27 +6208,42 @@
       "title": "National Heritage Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_edsa_heritage_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "0245e581aa61b340cd476da1eb1eabfe3e3b5e58",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2003/proc_439_2003.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Proclamation No. 439 is dated 11 August 2003.",
+        "The observance covers the entire month of May.",
+        "The National Commission for Culture and the Arts is the designated lead agency."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-national-indigenous-peoples-month-philippines",
@@ -6023,27 +6503,42 @@
       "title": "Rizal Month — Philippines",
       "sourcePR": 120,
       "sourceFile": "data/editorial/research_batches/ph_rizal_day_and_month_six_locales_20261114.json",
-      "sourceHead": "957565e7f5467b778a6a7638ab74b1a0c6f6d127",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceHead": "521a59452178b7e2f0b074e5057e964af8515feb",
+      "sourceBlobSha": "f03b9bb889c6d0542384b9ae89aba3ba8388f493",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-15",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2001,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://lawphil.net/executive/proc/proc2001/proc_126_2001.html",
+        "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/"
+      ],
+      "factsConfirmed": [
+        "Proclamation No. 126 was signed on 26 November 2001.",
+        "Rizal Month covers December each year.",
+        "Rizal Day on 30 December is a separate regular public holiday."
+      ],
+      "notes": "2026-11-15 AI editorial review of original Philippine primary-source draft, statutory date and scope, six native-language versions EN/IT/ES/FR/DE/PT, chronology and three individual factual statements. Original source PR #120 head and immutable file Git SHA attested for reproducibility. Neither human signoff nor app publication is claimed. ",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ph-w13-rule-of-law-month-philippines",
