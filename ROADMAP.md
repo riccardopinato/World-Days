@@ -1,5 +1,12 @@
 # World Days — Active roadmap
 
+## AI editorial certification — Korean statutory observances (14 November 2026)
+
+- [x] Cross-check 11 Ministry of the Interior and Safety Korean histories against the official commemorative-day chronology and six locales; source versions pinned to PR #120.
+- [x] Ledger **49 AI_CERTIFIED / 8 HOLD / 116 AI_REVIEW_QUEUED** of 173; no human certification or rich runtime release implied.
+- [ ] Continue remaining 116 with primary-source checks; source conflicts stay HOLD pending actual correction.
+
+
 ## AI certification — Canada and Korea, 14 November 2026
 
 - [x] Individually review 7 primary-source and six-locale stories (CA 3 / KR 4); pin source draft PR head and per-file blob in AI certificate ledger.
