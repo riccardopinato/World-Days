@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-14",
+  "status": "KOREAN_MOIS_HISTORY_SIX_LOCALE_AI_DRAFT_PENDING_QUALIFIED_HUMAN_REVIEW",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-corrections-day-in-korea",
+      "country": "KR",
+      "observanceDate": "10-28",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "originClusterId": "KR_CORRECTIONS_1945_TRANSFER_1959_DAY_1973_MERGE_2002_REVIVAL",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_HOLIDAY_STATUS_REQUIRES_SEPARATE_CHECK",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "28 October: Korea's Corrections Day has a separate legal restoration",
+          "origin": "Corrections Day acknowledges employees working in prisons and rehabilitation services and the importance of reintegration. Its anniversary recalls 28 October 1945, when correctional facilities were taken over from Japanese colonial administration. The government created a Corrections Officers Day on 28 October 1959, then merged it into Law Day on 30 March 1973. For decades it was not a distinct statutory commemoration. On 19 June 2002, Corrections Day regained separate statutory status. This is different from Law Day on 25 April, even though the two commemorations once shared an administrative history. When presenting the origin, distinguish the original event, the first dedicated activities and the later legal framework. A commemorative day must not be assumed to create a general national holiday.",
+          "promoter": "South Korean government departments established the successive regulations that now govern this national commemoration, after earlier documented historical events.",
+          "purpose": "Recognize the work of corrections personnel and support responsible rehabilitation and reintegration.",
+          "facts": [
+            "Corrections Day acknowledges employees working in prisons and rehabilitation services and the importance of reintegration. Its anniversary recalls 28 October 1945, when correctional facilities were taken over from Japanese colonial administration.",
+            "The government created a Corrections Officers Day on 28 October 1959, then merged it into Law Day on 30 March 1973. For decades it was not a distinct statutory commemoration.",
+            "On 19 June 2002, Corrections Day regained separate statutory status. This is different from Law Day on 25 April, even though the two commemorations once shared an administrative history."
+          ]
+        },
+        "it": {
+          "heading": "28 ottobre: la Giornata penitenziaria coreana torna autonoma",
+          "origin": "La Giornata degli operatori penitenziari riconosce il lavoro nelle carceri e nei servizi di reinserimento. La data ricorda il 28 ottobre 1945, quando le strutture furono rilevate dall'amministrazione coloniale giapponese. Il governo istituì una Giornata degli agenti penitenziari il 28 ottobre 1959, poi la accorpò alla Giornata della legge il 30 marzo 1973. Per anni non fu una ricorrenza distinta. Il 19 giugno 2002 ottenne nuovamente un riconoscimento legale autonomo. Non coincide con la Giornata della legge del 25 aprile, pur avendo condiviso parte della storia amministrativa. Per raccontarne l'origine occorre distinguere evento iniziale, prime attività e quadro legislativo successivo. Una commemorazione non rende automaticamente festiva la giornata per tutti.",
+          "promoter": "I ministeri del governo sudcoreano hanno stabilito le successive norme di questa ricorrenza dopo gli antecedenti storici documentati.",
+          "purpose": "Riconoscere il lavoro degli operatori e sostenere il reinserimento e la riabilitazione delle persone detenute.",
+          "facts": [
+            "La Giornata degli operatori penitenziari riconosce il lavoro nelle carceri e nei servizi di reinserimento. La data ricorda il 28 ottobre 1945, quando le strutture furono rilevate dall'amministrazione coloniale giapponese.",
+            "Il governo istituì una Giornata degli agenti penitenziari il 28 ottobre 1959, poi la accorpò alla Giornata della legge il 30 marzo 1973. Per anni non fu una ricorrenza distinta.",
+            "Il 19 giugno 2002 ottenne nuovamente un riconoscimento legale autonomo. Non coincide con la Giornata della legge del 25 aprile, pur avendo condiviso parte della storia amministrativa."
+          ]
+        },
+        "es": {
+          "heading": "28 de octubre: el Día Penitenciario recuperó su autonomía",
+          "origin": "El Día de los Servicios Penitenciarios reconoce el trabajo de quienes gestionan centros de detención y programas de reinserción. La fecha recuerda el 28 de octubre de 1945, cuando las instalaciones dejaron la administración colonial japonesa. El Gobierno estableció un Día de los Funcionarios Penitenciarios en 1959, pero lo fusionó con el Día de la Ley el 30 de marzo de 1973. Durante años careció de reconocimiento separado. El 19 de junio de 2002 recuperó su estatuto legal autónomo. Aunque comparten parte de su historia, esta fecha es distinta del Día de la Ley del 25 de abril. Para contar su origen hay que separar el hecho inicial, las primeras actividades y las normas posteriores. Una conmemoración no convierte automáticamente la fecha en festivo general.",
+          "promoter": "Los ministerios surcoreanos establecieron las normas sucesivas de esta conmemoración después de los acontecimientos históricos documentados.",
+          "purpose": "Reconocer a los profesionales penitenciarios y apoyar la rehabilitación y reintegración social.",
+          "facts": [
+            "El Día de los Servicios Penitenciarios reconoce el trabajo de quienes gestionan centros de detención y programas de reinserción. La fecha recuerda el 28 de octubre de 1945, cuando las instalaciones dejaron la administración colonial japonesa.",
+            "El Gobierno estableció un Día de los Funcionarios Penitenciarios en 1959, pero lo fusionó con el Día de la Ley el 30 de marzo de 1973. Durante años careció de reconocimiento separado.",
+            "El 19 de junio de 2002 recuperó su estatuto legal autónomo. Aunque comparten parte de su historia, esta fecha es distinta del Día de la Ley del 25 de abril."
+          ]
+        },
+        "fr": {
+          "heading": "28 octobre : la Journée pénitentiaire retrouve son statut autonome",
+          "origin": "La Journée des services pénitentiaires met en valeur le travail dans les prisons et les dispositifs de réinsertion. Elle rappelle le 28 octobre 1945, date du transfert des établissements hors de l'administration coloniale japonaise. Le gouvernement a créé une Journée des agents pénitentiaires en 1959, puis l'a intégrée à la Journée du droit le 30 mars 1973. La commémoration a donc perdu son statut séparé. Le 19 juin 2002, elle a retrouvé une reconnaissance légale autonome. Elle ne doit pas être confondue avec la Journée du droit du 25 avril malgré leur histoire partagée. Pour retracer son origine, il faut séparer l'événement initial, les premières activités et le droit ultérieur. Une journée commémorative n'est pas automatiquement fériée.",
+          "promoter": "Les ministères sud-coréens ont adopté les réglementations successives après les événements historiques documentés pour cette commémoration.",
+          "purpose": "Reconnaître les personnels pénitentiaires et encourager la réinsertion et la réadaptation sociale.",
+          "facts": [
+            "La Journée des services pénitentiaires met en valeur le travail dans les prisons et les dispositifs de réinsertion. Elle rappelle le 28 octobre 1945, date du transfert des établissements hors de l'administration coloniale japonaise.",
+            "Le gouvernement a créé une Journée des agents pénitentiaires en 1959, puis l'a intégrée à la Journée du droit le 30 mars 1973. La commémoration a donc perdu son statut séparé.",
+            "Le 19 juin 2002, elle a retrouvé une reconnaissance légale autonome. Elle ne doit pas être confondue avec la Journée du droit du 25 avril malgré leur histoire partagée."
+          ]
+        },
+        "de": {
+          "heading": "28. Oktober: Koreas Tag des Justizvollzugs wird wieder eigenständig",
+          "origin": "Der Tag des Justizvollzugs würdigt Mitarbeitende in Haftanstalten und die Arbeit an Rehabilitation und Wiedereingliederung. Er erinnert an den 28. Oktober 1945, als Gefängniseinrichtungen aus der japanischen Kolonialverwaltung übernommen wurden. 1959 führte die Regierung einen eigenen Tag der Vollzugsbeamten ein, der am 30. März 1973 im Tag des Rechts aufging. Die eigenständige Anerkennung ging dadurch verloren. Am 19. Juni 2002 wurde der Tag erneut als gesetzlicher Anlass eingeführt. Er unterscheidet sich vom Tag des Rechts am 25. April, trotz gemeinsamer Vergangenheit. Bei der historischen Einordnung sind ursprüngliches Ereignis, erste Feiern und spätere Rechtsgrundlage getrennt zu betrachten. Ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Regierungsstellen erließen die einschlägigen Regeln nach den dokumentierten früheren Ereignissen.",
+          "purpose": "Die Arbeit des Vollzugspersonals und eine verantwortungsvolle Resozialisierung hervorheben.",
+          "facts": [
+            "Der Tag des Justizvollzugs würdigt Mitarbeitende in Haftanstalten und die Arbeit an Rehabilitation und Wiedereingliederung. Er erinnert an den 28. Oktober 1945, als Gefängniseinrichtungen aus der japanischen Kolonialverwaltung übernommen wurden.",
+            "1959 führte die Regierung einen eigenen Tag der Vollzugsbeamten ein, der am 30. März 1973 im Tag des Rechts aufging. Die eigenständige Anerkennung ging dadurch verloren.",
+            "Am 19. Juni 2002 wurde der Tag erneut als gesetzlicher Anlass eingeführt. Er unterscheidet sich vom Tag des Rechts am 25. April, trotz gemeinsamer Vergangenheit."
+          ]
+        },
+        "pt": {
+          "heading": "28 de outubro: o Dia dos Serviços Prisionais recupera autonomia",
+          "origin": "O Dia dos Serviços Prisionais reconhece o trabalho nas prisões e na reintegração social. A data recorda 28 de outubro de 1945, quando as instalações deixaram de estar sob a administração colonial japonesa. Em 1959, o governo instituiu um Dia dos Guardas Prisionais, mas integrou-o no Dia da Lei em 30 de março de 1973. Durante anos deixou de existir como comemoração separada. Em 19 de junho de 2002, recuperou o estatuto legal autónomo. Não é o mesmo dia que a Jornada da Lei de 25 de abril, embora partilhem parte da história. Para explicar a origem, devem distinguir-se o evento inicial, as primeiras atividades e a legislação posterior. Uma data comemorativa não cria automaticamente um feriado geral.",
+          "promoter": "Os ministérios do governo sul-coreano estabeleceram sucessivas regras da comemoração após os antecedentes históricos documentados.",
+          "purpose": "Valorizar os profissionais prisionais e apoiar a reabilitação e reintegração social.",
+          "facts": [
+            "O Dia dos Serviços Prisionais reconhece o trabalho nas prisões e na reintegração social. A data recorda 28 de outubro de 1945, quando as instalações deixaram de estar sob a administração colonial japonesa.",
+            "Em 1959, o governo instituiu um Dia dos Guardas Prisionais, mas integrou-o no Dia da Lei em 30 de março de 1973. Durante anos deixou de existir como comemoração separada.",
+            "Em 19 de junho de 2002, recuperou o estatuto legal autónomo. Não é o mesmo dia que a Jornada da Lei de 25 de abril, embora partilhem parte da história."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original official Korean MOIS chronological history and commemorations index, one government institution not two independent sources. All locales AI drafted; qualified factual and native language human review not yet passed."
+    },
+    {
+      "observanceId": "kr-w10-information-and-communications-day-in-korea",
+      "country": "KR",
+      "observanceDate": "04-22",
+      "introducedYear": 1956,
+      "firstObservedYear": null,
+      "originClusterId": "KR_POSTAL_DAY_1884_1956_1972_1996_MODERN",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_HOLIDAY_STATUS_REQUIRES_SEPARATE_CHECK",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "22 April: from postal services to Information and Communications Day",
+          "origin": "Information and Communications Day developed from Korea's postal-service history. In 1956, authorities created a Postal and Telecommunications Day associated with an 1884 ceremony celebrating the first Korean postal administration. On 7 July 1972 the date changed to 22 April, recalling the royal instruction to open the postal bureau in 1884. In 1973 postal carriers' commemorations were incorporated into the official day. On 30 May 1996 the government renamed it Information and Communications Day, extending the theme beyond traditional post. The 1884 event is a historical reference, not the modern statutory introduction date. When presenting the origin, distinguish the original event, the first dedicated activities and the later legal framework. A commemorative day must not be assumed to create a general national holiday.",
+          "promoter": "South Korean government departments established the successive regulations that now govern this national commemoration, after earlier documented historical events.",
+          "purpose": "Recognize communication services, digital infrastructure and the labour of people working in the sector.",
+          "facts": [
+            "Information and Communications Day developed from Korea's postal-service history. In 1956, authorities created a Postal and Telecommunications Day associated with an 1884 ceremony celebrating the first Korean postal administration.",
+            "On 7 July 1972 the date changed to 22 April, recalling the royal instruction to open the postal bureau in 1884. In 1973 postal carriers' commemorations were incorporated into the official day.",
+            "On 30 May 1996 the government renamed it Information and Communications Day, extending the theme beyond traditional post. The 1884 event is a historical reference, not the modern statutory introduction date."
+          ]
+        },
+        "it": {
+          "heading": "22 aprile: dai servizi postali alla giornata delle comunicazioni",
+          "origin": "La Giornata delle informazioni e comunicazioni deriva dalla storia dei servizi postali coreani. Nel 1956 le autorità crearono una giornata delle poste e telecomunicazioni legata a una cerimonia del 1884. Il 7 luglio 1972 la data fu spostata al 22 aprile, ricordando l'ordine reale di aprire l'ufficio postale nel 1884. Nel 1973 si unirono anche le commemorazioni dei portalettere. Il 30 maggio 1996 il governo adottò il nome attuale, estendendo il tema oltre la posta tradizionale. L'episodio del 1884 è un antecedente storico, non la legge moderna. Per raccontarne l'origine occorre distinguere evento iniziale, prime attività e quadro legislativo successivo. Una commemorazione non rende automaticamente festiva la giornata per tutti.",
+          "promoter": "I ministeri del governo sudcoreano hanno stabilito le successive norme di questa ricorrenza dopo gli antecedenti storici documentati.",
+          "purpose": "Valorizzare i servizi di comunicazione, le infrastrutture digitali e il personale del settore.",
+          "facts": [
+            "La Giornata delle informazioni e comunicazioni deriva dalla storia dei servizi postali coreani. Nel 1956 le autorità crearono una giornata delle poste e telecomunicazioni legata a una cerimonia del 1884.",
+            "Il 7 luglio 1972 la data fu spostata al 22 aprile, ricordando l'ordine reale di aprire l'ufficio postale nel 1884. Nel 1973 si unirono anche le commemorazioni dei portalettere.",
+            "Il 30 maggio 1996 il governo adottò il nome attuale, estendendo il tema oltre la posta tradizionale. L'episodio del 1884 è un antecedente storico, non la legge moderna."
+          ]
+        },
+        "es": {
+          "heading": "22 de abril: del correo al Día de las Comunicaciones",
+          "origin": "El Día de la Información y las Comunicaciones surgió de la historia de los servicios postales coreanos. En 1956 se creó una jornada postal vinculada a una ceremonia de 1884 sobre el comienzo de la administración de correos. El 7 de julio de 1972 se trasladó al 22 de abril, recordando la orden real de abrir la oficina postal en 1884. En 1973 se integraron los reconocimientos a los carteros. El Gobierno adoptó el nombre actual el 30 de mayo de 1996, ampliando el tema más allá del correo tradicional. El evento de 1884 no es la fecha de creación de la jornada moderna. Para contar su origen hay que separar el hecho inicial, las primeras actividades y las normas posteriores. Una conmemoración no convierte automáticamente la fecha en festivo general.",
+          "promoter": "Los ministerios surcoreanos establecieron las normas sucesivas de esta conmemoración después de los acontecimientos históricos documentados.",
+          "purpose": "Reconocer las comunicaciones, las infraestructuras digitales y el esfuerzo de sus profesionales.",
+          "facts": [
+            "El Día de la Información y las Comunicaciones surgió de la historia de los servicios postales coreanos. En 1956 se creó una jornada postal vinculada a una ceremonia de 1884 sobre el comienzo de la administración de correos.",
+            "El 7 de julio de 1972 se trasladó al 22 de abril, recordando la orden real de abrir la oficina postal en 1884. En 1973 se integraron los reconocimientos a los carteros.",
+            "El Gobierno adoptó el nombre actual el 30 de mayo de 1996, ampliando el tema más allá del correo tradicional. El evento de 1884 no es la fecha de creación de la jornada moderna."
+          ]
+        },
+        "fr": {
+          "heading": "22 avril : du service postal à la Journée des communications",
+          "origin": "La Journée de l'information et des communications découle de l'histoire des postes coréennes. En 1956, les autorités ont créé une journée postale liée à une cérémonie de 1884 marquant les débuts de l'administration du courrier. Le 7 juillet 1972, elle a été transférée au 22 avril, rappelant l'ordre royal d'ouvrir le bureau postal en 1884. Les hommages aux facteurs ont été intégrés en 1973. Le 30 mai 1996, le gouvernement a adopté le nom actuel, élargissant le sujet au-delà de la poste traditionnelle. L'histoire de 1884 précède la réglementation moderne. Pour retracer son origine, il faut séparer l'événement initial, les premières activités et le droit ultérieur. Une journée commémorative n'est pas automatiquement fériée.",
+          "promoter": "Les ministères sud-coréens ont adopté les réglementations successives après les événements historiques documentés pour cette commémoration.",
+          "purpose": "Reconnaître les services de communication, les infrastructures numériques et les travailleurs du secteur.",
+          "facts": [
+            "La Journée de l'information et des communications découle de l'histoire des postes coréennes. En 1956, les autorités ont créé une journée postale liée à une cérémonie de 1884 marquant les débuts de l'administration du courrier.",
+            "Le 7 juillet 1972, elle a été transférée au 22 avril, rappelant l'ordre royal d'ouvrir le bureau postal en 1884. Les hommages aux facteurs ont été intégrés en 1973.",
+            "Le 30 mai 1996, le gouvernement a adopté le nom actuel, élargissant le sujet au-delà de la poste traditionnelle. L'histoire de 1884 précède la réglementation moderne."
+          ]
+        },
+        "de": {
+          "heading": "22. April: Vom Postwesen zum Tag der Information und Kommunikation",
+          "origin": "Der Tag der Information und Kommunikation entstand aus Koreas Postgeschichte. 1956 führten die Behörden einen Post- und Fernmeldetag ein, der auf eine Zeremonie von 1884 im Zusammenhang mit der ersten Postverwaltung verwies. Am 7. Juli 1972 wurde das Datum auf den 22. April verlegt, um an den königlichen Auftrag zur Postgründung von 1884 zu erinnern. 1973 wurden weitere Gedenktage für Briefträger integriert. Am 30. Mai 1996 erhielt der Anlass seinen heutigen Namen und eine breitere Bedeutung. Der historische Bezug von 1884 ist keine gesetzliche Einführung. Bei der historischen Einordnung sind ursprüngliches Ereignis, erste Feiern und spätere Rechtsgrundlage getrennt zu betrachten. Ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Regierungsstellen erließen die einschlägigen Regeln nach den dokumentierten früheren Ereignissen.",
+          "purpose": "Kommunikationsdienste, digitale Infrastruktur und die Arbeit ihrer Beschäftigten würdigen.",
+          "facts": [
+            "Der Tag der Information und Kommunikation entstand aus Koreas Postgeschichte. 1956 führten die Behörden einen Post- und Fernmeldetag ein, der auf eine Zeremonie von 1884 im Zusammenhang mit der ersten Postverwaltung verwies.",
+            "Am 7. Juli 1972 wurde das Datum auf den 22. April verlegt, um an den königlichen Auftrag zur Postgründung von 1884 zu erinnern. 1973 wurden weitere Gedenktage für Briefträger integriert.",
+            "Am 30. Mai 1996 erhielt der Anlass seinen heutigen Namen und eine breitere Bedeutung. Der historische Bezug von 1884 ist keine gesetzliche Einführung."
+          ]
+        },
+        "pt": {
+          "heading": "22 de abril: dos correios ao Dia da Informação e Comunicações",
+          "origin": "O Dia da Informação e Comunicações nasceu da história dos serviços postais coreanos. Em 1956, as autoridades criaram uma data dos correios relacionada com uma cerimónia de 1884 sobre a administração postal. Em 7 de julho de 1972, a comemoração mudou para 22 de abril, evocando a ordem real de abertura do serviço postal em 1884. Em 1973 integrou também homenagens aos carteiros. Em 30 de maio de 1996, o governo adotou o nome atual, alargando o tema para além da correspondência tradicional. O evento de 1884 não é a data da lei moderna. Para explicar a origem, devem distinguir-se o evento inicial, as primeiras atividades e a legislação posterior. Uma data comemorativa não cria automaticamente um feriado geral.",
+          "promoter": "Os ministérios do governo sul-coreano estabeleceram sucessivas regras da comemoração após os antecedentes históricos documentados.",
+          "purpose": "Valorizar serviços de comunicação, infraestruturas digitais e o trabalho dos profissionais do setor.",
+          "facts": [
+            "O Dia da Informação e Comunicações nasceu da história dos serviços postais coreanos. Em 1956, as autoridades criaram uma data dos correios relacionada com uma cerimónia de 1884 sobre a administração postal.",
+            "Em 7 de julho de 1972, a comemoração mudou para 22 de abril, evocando a ordem real de abertura do serviço postal em 1884. Em 1973 integrou também homenagens aos carteiros.",
+            "Em 30 de maio de 1996, o governo adotou o nome atual, alargando o tema para além da correspondência tradicional. O evento de 1884 não é a data da lei moderna."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original official Korean MOIS chronological history and commemorations index, one government institution not two independent sources. All locales AI drafted; qualified factual and native language human review not yet passed."
+    },
+    {
+      "observanceId": "kr-w10-oceans-day-in-korea",
+      "country": "KR",
+      "observanceDate": "05-31",
+      "introducedYear": 1996,
+      "firstObservedYear": null,
+      "originClusterId": "KR_OCEANS_DAY_MARITIME_HERITAGE_1996",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_HOLIDAY_STATUS_REQUIRES_SEPARATE_CHECK",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "31 May: Korea's Oceans Day and its maritime heritage",
+          "origin": "Oceans Day in South Korea draws attention to the sea, marine livelihoods and maritime industries. The government's explanation also recalls the historic naval base at Cheonghaejin established by Jang Bogo during the Silla period. The Ministry of the Interior notes that May was chosen partly because it suited fishing communities and seasonal sea-related festivals. These customs preceded the modern commemorative law. The state designated 31 May as a statutory commemorative day on 30 May 1996. The historic maritime tradition and the government day have different timescales and should not be conflated. When presenting the origin, distinguish the original event, the first dedicated activities and the later legal framework. A commemorative day must not be assumed to create a general national holiday.",
+          "promoter": "South Korean government departments established the successive regulations that now govern this national commemoration, after earlier documented historical events.",
+          "purpose": "Promote understanding of marine industries and coastal livelihoods and appreciation for people working at sea.",
+          "facts": [
+            "Oceans Day in South Korea draws attention to the sea, marine livelihoods and maritime industries. The government's explanation also recalls the historic naval base at Cheonghaejin established by Jang Bogo during the Silla period.",
+            "The Ministry of the Interior notes that May was chosen partly because it suited fishing communities and seasonal sea-related festivals. These customs preceded the modern commemorative law.",
+            "The state designated 31 May as a statutory commemorative day on 30 May 1996. The historic maritime tradition and the government day have different timescales and should not be conflated."
+          ]
+        },
+        "it": {
+          "heading": "31 maggio: la Giornata del mare e la storia marittima coreana",
+          "origin": "La Giornata del mare in Corea del Sud richiama l'importanza dell'oceano, delle comunità costiere e delle attività marittime. La spiegazione ufficiale ricorda anche la base navale di Cheonghaejin fondata da Jang Bogo in epoca Silla. Il Ministero dell'Interno spiega che maggio fu scelto anche perché adatto alla partecipazione dei pescatori e alle feste stagionali del mare. Sono tradizioni precedenti alla legge moderna. Lo Stato istituì il 31 maggio come ricorrenza legale il 30 maggio 1996. L'eredità storica navale e la giornata nazionale appartengono a epoche diverse. Per raccontarne l'origine occorre distinguere evento iniziale, prime attività e quadro legislativo successivo. Una commemorazione non rende automaticamente festiva la giornata per tutti.",
+          "promoter": "I ministeri del governo sudcoreano hanno stabilito le successive norme di questa ricorrenza dopo gli antecedenti storici documentati.",
+          "purpose": "Valorizzare i mestieri del mare, le industrie marittime e la vita delle comunità costiere.",
+          "facts": [
+            "La Giornata del mare in Corea del Sud richiama l'importanza dell'oceano, delle comunità costiere e delle attività marittime. La spiegazione ufficiale ricorda anche la base navale di Cheonghaejin fondata da Jang Bogo in epoca Silla.",
+            "Il Ministero dell'Interno spiega che maggio fu scelto anche perché adatto alla partecipazione dei pescatori e alle feste stagionali del mare. Sono tradizioni precedenti alla legge moderna.",
+            "Lo Stato istituì il 31 maggio come ricorrenza legale il 30 maggio 1996. L'eredità storica navale e la giornata nazionale appartengono a epoche diverse."
+          ]
+        },
+        "es": {
+          "heading": "31 de mayo: el Día del Mar y la historia marítima coreana",
+          "origin": "El Día del Mar en Corea del Sur destaca el océano, las comunidades costeras y las actividades marítimas. La explicación oficial recuerda además la base naval de Cheonghaejin fundada por Jang Bogo durante el periodo de Silla. El Ministerio del Interior señala que mayo facilitaba la participación de pescadores y coincidía con fiestas marítimas de temporada. Estas costumbres son anteriores a la norma moderna. El Estado estableció el 31 de mayo como conmemoración legal el 30 de mayo de 1996. La tradición marítima histórica y la fecha estatal pertenecen a épocas diferentes. Para contar su origen hay que separar el hecho inicial, las primeras actividades y las normas posteriores. Una conmemoración no convierte automáticamente la fecha en festivo general.",
+          "promoter": "Los ministerios surcoreanos establecieron las normas sucesivas de esta conmemoración después de los acontecimientos históricos documentados.",
+          "purpose": "Valorar los oficios del mar, la industria marítima y el trabajo de las comunidades costeras.",
+          "facts": [
+            "El Día del Mar en Corea del Sur destaca el océano, las comunidades costeras y las actividades marítimas. La explicación oficial recuerda además la base naval de Cheonghaejin fundada por Jang Bogo durante el periodo de Silla.",
+            "El Ministerio del Interior señala que mayo facilitaba la participación de pescadores y coincidía con fiestas marítimas de temporada. Estas costumbres son anteriores a la norma moderna.",
+            "El Estado estableció el 31 de mayo como conmemoración legal el 30 de mayo de 1996. La tradición marítima histórica y la fecha estatal pertenecen a épocas diferentes."
+          ]
+        },
+        "fr": {
+          "heading": "31 mai : la Journée de la mer et l'héritage maritime coréen",
+          "origin": "La Journée de la mer en Corée du Sud met en lumière l'océan, les communautés côtières et les industries maritimes. L'explication officielle rappelle aussi la base navale de Cheonghaejin fondée par Jang Bogo sous Silla. Le ministère de l'Intérieur indique que mai permettait la participation des pêcheurs et coïncidait avec les fêtes saisonnières liées à la mer. Ces traditions précèdent la législation moderne. L'État a institué la journée légale du 31 mai le 30 mai 1996. Le patrimoine naval historique et la commémoration nationale ne datent pas de la même époque. Pour retracer son origine, il faut séparer l'événement initial, les premières activités et le droit ultérieur. Une journée commémorative n'est pas automatiquement fériée.",
+          "promoter": "Les ministères sud-coréens ont adopté les réglementations successives après les événements historiques documentés pour cette commémoration.",
+          "purpose": "Reconnaître les métiers de la mer, les secteurs maritimes et le travail des communautés côtières.",
+          "facts": [
+            "La Journée de la mer en Corée du Sud met en lumière l'océan, les communautés côtières et les industries maritimes. L'explication officielle rappelle aussi la base navale de Cheonghaejin fondée par Jang Bogo sous Silla.",
+            "Le ministère de l'Intérieur indique que mai permettait la participation des pêcheurs et coïncidait avec les fêtes saisonnières liées à la mer. Ces traditions précèdent la législation moderne.",
+            "L'État a institué la journée légale du 31 mai le 30 mai 1996. Le patrimoine naval historique et la commémoration nationale ne datent pas de la même époque."
+          ]
+        },
+        "de": {
+          "heading": "31. Mai: Südkoreas Tag der Meere und das maritime Erbe",
+          "origin": "Der südkoreanische Tag der Meere würdigt Ozeane, Küstenbevölkerung und maritime Wirtschaft. Die offizielle Erläuterung verweist auch auf den historischen Flottenstützpunkt Cheonghaejin, den Jang Bogo während der Silla-Zeit errichtete. Das Innenministerium erläutert, dass der Mai für Fischergemeinschaften günstig war und zu traditionellen Meeresfesten passte. Diese Bräuche sind älter als der staatliche Anlass. Am 30. Mai 1996 erklärte die Regierung den 31. Mai zum gesetzlichen Gedenktag. Die alte Seefahrtsgeschichte ist nicht mit dem rechtlichen Ursprung von 1996 gleichzusetzen. Bei der historischen Einordnung sind ursprüngliches Ereignis, erste Feiern und spätere Rechtsgrundlage getrennt zu betrachten. Ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Regierungsstellen erließen die einschlägigen Regeln nach den dokumentierten früheren Ereignissen.",
+          "purpose": "Meereswirtschaft, Küstenleben und die Arbeit von Menschen in maritimen Berufen würdigen.",
+          "facts": [
+            "Der südkoreanische Tag der Meere würdigt Ozeane, Küstenbevölkerung und maritime Wirtschaft. Die offizielle Erläuterung verweist auch auf den historischen Flottenstützpunkt Cheonghaejin, den Jang Bogo während der Silla-Zeit errichtete.",
+            "Das Innenministerium erläutert, dass der Mai für Fischergemeinschaften günstig war und zu traditionellen Meeresfesten passte. Diese Bräuche sind älter als der staatliche Anlass.",
+            "Am 30. Mai 1996 erklärte die Regierung den 31. Mai zum gesetzlichen Gedenktag. Die alte Seefahrtsgeschichte ist nicht mit dem rechtlichen Ursprung von 1996 gleichzusetzen."
+          ]
+        },
+        "pt": {
+          "heading": "31 de maio: o Dia do Mar e a herança marítima coreana",
+          "origin": "O Dia do Mar na Coreia do Sul destaca o oceano, as comunidades costeiras e os setores marítimos. A explicação oficial recorda também a base naval de Cheonghaejin fundada por Jang Bogo durante o período de Silla. O Ministério do Interior explica que maio facilitava a participação dos pescadores e coincidia com festas sazonais ligadas ao mar. Essas tradições antecedem a lei moderna. O Estado estabeleceu o 31 de maio como comemoração legal em 30 de maio de 1996. A antiga história naval e a jornada oficial pertencem a épocas diferentes. Para explicar a origem, devem distinguir-se o evento inicial, as primeiras atividades e a legislação posterior. Uma data comemorativa não cria automaticamente um feriado geral.",
+          "promoter": "Os ministérios do governo sul-coreano estabeleceram sucessivas regras da comemoração após os antecedentes históricos documentados.",
+          "purpose": "Reconhecer profissões ligadas ao mar, economia marítima e o papel das comunidades costeiras.",
+          "facts": [
+            "O Dia do Mar na Coreia do Sul destaca o oceano, as comunidades costeiras e os setores marítimos. A explicação oficial recorda também a base naval de Cheonghaejin fundada por Jang Bogo durante o período de Silla.",
+            "O Ministério do Interior explica que maio facilitava a participação dos pescadores e coincidia com festas sazonais ligadas ao mar. Essas tradições antecedem a lei moderna.",
+            "O Estado estabeleceu o 31 de maio como comemoração legal em 30 de maio de 1996. A antiga história naval e a jornada oficial pertencem a épocas diferentes."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original official Korean MOIS chronological history and commemorations index, one government institution not two independent sources. All locales AI drafted; qualified factual and native language human review not yet passed."
+    },
+    {
+      "observanceId": "kr-w10-police-day-in-korea",
+      "country": "KR",
+      "observanceDate": "10-21",
+      "introducedYear": 1957,
+      "firstObservedYear": null,
+      "originClusterId": "KR_POLICE_1945_ESTABLISHMENT_1957_DAY_1973_STATUTORY",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_HOLIDAY_STATUS_REQUIRES_SEPARATE_CHECK",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "21 October: Korean Police Day and the post-liberation institution",
+          "origin": "Police Day marks the establishment of South Korea's post-liberation policing institutions, with the original reference date of 21 October 1945 under the United States Military Government. The anniversary was recognized as National Police Foundation Day in 1948. The Ministry of the Interior issued a directive designating 21 October Police Day on 7 November 1957. A further institutional rule followed in 1971 and the day became a statutory commemoration on 30 March 1973. The 1945 organizational event, 1957 designation and 1973 legal status are separate milestones. When presenting the origin, distinguish the original event, the first dedicated activities and the later legal framework. A commemorative day must not be assumed to create a general national holiday.",
+          "promoter": "South Korean government departments established the successive regulations that now govern this national commemoration, after earlier documented historical events.",
+          "purpose": "Remember the history of policing institutions and reflect on professional responsibility and public service.",
+          "facts": [
+            "Police Day marks the establishment of South Korea's post-liberation policing institutions, with the original reference date of 21 October 1945 under the United States Military Government.",
+            "The anniversary was recognized as National Police Foundation Day in 1948. The Ministry of the Interior issued a directive designating 21 October Police Day on 7 November 1957.",
+            "A further institutional rule followed in 1971 and the day became a statutory commemoration on 30 March 1973. The 1945 organizational event, 1957 designation and 1973 legal status are separate milestones."
+          ]
+        },
+        "it": {
+          "heading": "21 ottobre: la Giornata della polizia e le istituzioni del dopoguerra",
+          "origin": "La Giornata della polizia ricorda la nascita delle strutture di polizia dopo la liberazione, con riferimento al 21 ottobre 1945 durante l'amministrazione militare statunitense. Nel 1948 l'anniversario venne ricordato come giornata della fondazione della polizia nazionale. Il Ministero dell'Interno designò il 21 ottobre come Giornata della polizia con una direttiva del 7 novembre 1957. Un nuovo regolamento seguì nel 1971 e il riconoscimento commemorativo legale arrivò il 30 marzo 1973. Organizzazione del 1945, decisione del 1957 e legge del 1973 sono distinte. Per raccontarne l'origine occorre distinguere evento iniziale, prime attività e quadro legislativo successivo. Una commemorazione non rende automaticamente festiva la giornata per tutti.",
+          "promoter": "I ministeri del governo sudcoreano hanno stabilito le successive norme di questa ricorrenza dopo gli antecedenti storici documentati.",
+          "purpose": "Ricordare la storia delle istituzioni di polizia e riflettere su responsabilità professionale e servizio pubblico.",
+          "facts": [
+            "La Giornata della polizia ricorda la nascita delle strutture di polizia dopo la liberazione, con riferimento al 21 ottobre 1945 durante l'amministrazione militare statunitense.",
+            "Nel 1948 l'anniversario venne ricordato come giornata della fondazione della polizia nazionale. Il Ministero dell'Interno designò il 21 ottobre come Giornata della polizia con una direttiva del 7 novembre 1957.",
+            "Un nuovo regolamento seguì nel 1971 e il riconoscimento commemorativo legale arrivò il 30 marzo 1973. Organizzazione del 1945, decisione del 1957 e legge del 1973 sono distinte."
+          ]
+        },
+        "es": {
+          "heading": "21 de octubre: el Día de la Policía y las instituciones de posguerra",
+          "origin": "El Día de la Policía recuerda la creación de las instituciones policiales tras la liberación, tomando como referencia el 21 de octubre de 1945 durante la administración militar estadounidense. En 1948 se reconoció el aniversario de la fundación de la policía nacional. El Ministerio del Interior estableció el 21 de octubre como Día de la Policía mediante una directiva del 7 de noviembre de 1957. Otra norma siguió en 1971 y la fecha se convirtió en conmemoración legal el 30 de marzo de 1973. Son momentos diferentes del desarrollo institucional. Para contar su origen hay que separar el hecho inicial, las primeras actividades y las normas posteriores. Una conmemoración no convierte automáticamente la fecha en festivo general.",
+          "promoter": "Los ministerios surcoreanos establecieron las normas sucesivas de esta conmemoración después de los acontecimientos históricos documentados.",
+          "purpose": "Recordar la historia de las instituciones policiales y reflexionar sobre la responsabilidad y el servicio público.",
+          "facts": [
+            "El Día de la Policía recuerda la creación de las instituciones policiales tras la liberación, tomando como referencia el 21 de octubre de 1945 durante la administración militar estadounidense.",
+            "En 1948 se reconoció el aniversario de la fundación de la policía nacional. El Ministerio del Interior estableció el 21 de octubre como Día de la Policía mediante una directiva del 7 de noviembre de 1957.",
+            "Otra norma siguió en 1971 y la fecha se convirtió en conmemoración legal el 30 de marzo de 1973. Son momentos diferentes del desarrollo institucional."
+          ]
+        },
+        "fr": {
+          "heading": "21 octobre : la Journée de la police et les institutions d'après-guerre",
+          "origin": "La Journée de la police rappelle la création des services policiers après la libération, en référence au 21 octobre 1945 sous l'administration militaire américaine. En 1948, cette date a été célébrée comme anniversaire de la police nationale. Le ministère de l'Intérieur a fixé le 21 octobre comme Journée de la police par une directive du 7 novembre 1957. Un autre règlement a suivi en 1971 et la journée est devenue commémoration légale le 30 mars 1973. La création, la directive et le statut juridique restent des étapes distinctes. Pour retracer son origine, il faut séparer l'événement initial, les premières activités et le droit ultérieur. Une journée commémorative n'est pas automatiquement fériée.",
+          "promoter": "Les ministères sud-coréens ont adopté les réglementations successives après les événements historiques documentés pour cette commémoration.",
+          "purpose": "Présenter l'histoire des institutions policières et réfléchir à la responsabilité professionnelle et au service public.",
+          "facts": [
+            "La Journée de la police rappelle la création des services policiers après la libération, en référence au 21 octobre 1945 sous l'administration militaire américaine.",
+            "En 1948, cette date a été célébrée comme anniversaire de la police nationale. Le ministère de l'Intérieur a fixé le 21 octobre comme Journée de la police par une directive du 7 novembre 1957.",
+            "Un autre règlement a suivi en 1971 et la journée est devenue commémoration légale le 30 mars 1973. La création, la directive et le statut juridique restent des étapes distinctes."
+          ]
+        },
+        "de": {
+          "heading": "21. Oktober: Südkoreas Polizeitag und die Nachkriegsbehörden",
+          "origin": "Der Polizeitag erinnert an den Aufbau der südkoreanischen Polizeistrukturen nach der Befreiung, mit Bezug auf den 21. Oktober 1945 unter der US-Militärverwaltung. 1948 wurde dieses Datum als Gründungstag der nationalen Polizei gewürdigt. Das Innenministerium erklärte den 21. Oktober durch eine Verfügung vom 7. November 1957 zum Polizeitag. Eine weitere Regelung folgte 1971; am 30. März 1973 wurde der Anlass als staatlicher Gedenktag aufgenommen. Die drei Meilensteine sind nicht gleichzusetzen. Bei der historischen Einordnung sind ursprüngliches Ereignis, erste Feiern und spätere Rechtsgrundlage getrennt zu betrachten. Ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Regierungsstellen erließen die einschlägigen Regeln nach den dokumentierten früheren Ereignissen.",
+          "purpose": "Die Geschichte der Polizeibehörden und professionelle Verantwortung im öffentlichen Dienst reflektieren.",
+          "facts": [
+            "Der Polizeitag erinnert an den Aufbau der südkoreanischen Polizeistrukturen nach der Befreiung, mit Bezug auf den 21. Oktober 1945 unter der US-Militärverwaltung.",
+            "1948 wurde dieses Datum als Gründungstag der nationalen Polizei gewürdigt. Das Innenministerium erklärte den 21. Oktober durch eine Verfügung vom 7. November 1957 zum Polizeitag.",
+            "Eine weitere Regelung folgte 1971; am 30. März 1973 wurde der Anlass als staatlicher Gedenktag aufgenommen. Die drei Meilensteine sind nicht gleichzusetzen."
+          ]
+        },
+        "pt": {
+          "heading": "21 de outubro: o Dia da Polícia e as instituições do pós-guerra",
+          "origin": "O Dia da Polícia recorda a criação das estruturas policiais depois da libertação, tendo como referência 21 de outubro de 1945 sob a administração militar norte-americana. Em 1948, a data foi assinalada como aniversário da polícia nacional. O Ministério do Interior designou 21 de outubro como Dia da Polícia numa diretiva de 7 de novembro de 1957. Outra regulamentação surgiu em 1971, e a comemoração tornou-se legal em 30 de março de 1973. A organização inicial e os reconhecimentos posteriores são etapas distintas. Para explicar a origem, devem distinguir-se o evento inicial, as primeiras atividades e a legislação posterior. Uma data comemorativa não cria automaticamente um feriado geral.",
+          "promoter": "Os ministérios do governo sul-coreano estabeleceram sucessivas regras da comemoração após os antecedentes históricos documentados.",
+          "purpose": "Recordar a história da polícia e refletir sobre responsabilidade profissional e serviço público.",
+          "facts": [
+            "O Dia da Polícia recorda a criação das estruturas policiais depois da libertação, tendo como referência 21 de outubro de 1945 sob a administração militar norte-americana.",
+            "Em 1948, a data foi assinalada como aniversário da polícia nacional. O Ministério do Interior designou 21 de outubro como Dia da Polícia numa diretiva de 7 de novembro de 1957.",
+            "Outra regulamentação surgiu em 1971, e a comemoração tornou-se legal em 30 de março de 1973. A organização inicial e os reconhecimentos posteriores são etapas distintas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original official Korean MOIS chronological history and commemorations index, one government institution not two independent sources. All locales AI drafted; qualified factual and native language human review not yet passed."
+    },
+    {
+      "observanceId": "kr-w10-republic-of-korea-armed-forces-day",
+      "country": "KR",
+      "observanceDate": "10-01",
+      "introducedYear": 1956,
+      "firstObservedYear": null,
+      "originClusterId": "KR_ARMED_FORCES_1950_CROSSING_1956_UNIFIED_DAY",
+      "legalStatus": "KR_STATUTORY_COMMEMORATION_HOLIDAY_STATUS_REQUIRES_SEPARATE_CHECK",
+      "sources": [
+        "https://www.mois.go.kr/frt/sub/a06/b08/nationalHoliday_4/screen.do",
+        "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do"
+      ],
+      "locale": {
+        "en": {
+          "heading": "1 October: the Korean Armed Forces Day unites military commemorations",
+          "origin": "Armed Forces Day in South Korea recognizes the country's military personnel and their service. The chosen date refers to 1 October 1950, when South Korean forces crossed the 38th parallel during the Korean War. Separate branch-level anniversaries were held before the government consolidated the observance through a presidential regulation dated 21 September 1956, creating Armed Forces Day on 1 October. In 1973 it entered the national statutory commemorations framework. Its classification as a general public holiday has changed over time and must be checked separately for each calendar year. When presenting the origin, distinguish the original event, the first dedicated activities and the later legal framework. A commemorative day must not be assumed to create a general national holiday.",
+          "promoter": "South Korean government departments established the successive regulations that now govern this national commemoration, after earlier documented historical events.",
+          "purpose": "Recognize military personnel and communicate the history of defence institutions and service.",
+          "facts": [
+            "Armed Forces Day in South Korea recognizes the country's military personnel and their service. The chosen date refers to 1 October 1950, when South Korean forces crossed the 38th parallel during the Korean War.",
+            "Separate branch-level anniversaries were held before the government consolidated the observance through a presidential regulation dated 21 September 1956, creating Armed Forces Day on 1 October.",
+            "In 1973 it entered the national statutory commemorations framework. Its classification as a general public holiday has changed over time and must be checked separately for each calendar year."
+          ]
+        },
+        "it": {
+          "heading": "1º ottobre: la Giornata delle Forze armate riunisce le ricorrenze militari",
+          "origin": "La Giornata delle Forze armate sudcoreane riconosce il servizio del personale militare. La data scelta ricorda il 1º ottobre 1950, quando le forze sudcoreane superarono il 38º parallelo durante la guerra di Corea. Prima esistevano ricorrenze separate per le diverse forze. Un regolamento presidenziale del 21 settembre 1956 le riunì nella Giornata delle Forze armate, fissata al 1º ottobre. Nel 1973 entrò tra le commemorazioni statutarie. Lo status come giorno festivo generale è cambiato nel tempo e va verificato anno per anno. Per raccontarne l'origine occorre distinguere evento iniziale, prime attività e quadro legislativo successivo. Una commemorazione non rende automaticamente festiva la giornata per tutti.",
+          "promoter": "I ministeri del governo sudcoreano hanno stabilito le successive norme di questa ricorrenza dopo gli antecedenti storici documentati.",
+          "purpose": "Riconoscere il servizio dei militari e conoscere la storia delle istituzioni e delle attività di difesa.",
+          "facts": [
+            "La Giornata delle Forze armate sudcoreane riconosce il servizio del personale militare. La data scelta ricorda il 1º ottobre 1950, quando le forze sudcoreane superarono il 38º parallelo durante la guerra di Corea.",
+            "Prima esistevano ricorrenze separate per le diverse forze. Un regolamento presidenziale del 21 settembre 1956 le riunì nella Giornata delle Forze armate, fissata al 1º ottobre.",
+            "Nel 1973 entrò tra le commemorazioni statutarie. Lo status come giorno festivo generale è cambiato nel tempo e va verificato anno per anno."
+          ]
+        },
+        "es": {
+          "heading": "1 de octubre: el Día de las Fuerzas Armadas reúne varios aniversarios",
+          "origin": "El Día de las Fuerzas Armadas de Corea del Sur reconoce el servicio de los militares. El 1 de octubre recuerda el paso de las fuerzas surcoreanas al norte del paralelo 38 durante la guerra de Corea en 1950. Antes se celebraban aniversarios separados de las diferentes ramas. Un reglamento presidencial del 21 de septiembre de 1956 los reunió en una jornada común el 1 de octubre. En 1973 entró en la lista de conmemoraciones oficiales. Su condición de festivo general ha cambiado y debe verificarse para cada año. Para contar su origen hay que separar el hecho inicial, las primeras actividades y las normas posteriores. Una conmemoración no convierte automáticamente la fecha en festivo general.",
+          "promoter": "Los ministerios surcoreanos establecieron las normas sucesivas de esta conmemoración después de los acontecimientos históricos documentados.",
+          "purpose": "Reconocer al personal militar y divulgar la historia de las instituciones de defensa y su servicio.",
+          "facts": [
+            "El Día de las Fuerzas Armadas de Corea del Sur reconoce el servicio de los militares. El 1 de octubre recuerda el paso de las fuerzas surcoreanas al norte del paralelo 38 durante la guerra de Corea en 1950.",
+            "Antes se celebraban aniversarios separados de las diferentes ramas. Un reglamento presidencial del 21 de septiembre de 1956 los reunió en una jornada común el 1 de octubre.",
+            "En 1973 entró en la lista de conmemoraciones oficiales. Su condición de festivo general ha cambiado y debe verificarse para cada año."
+          ]
+        },
+        "fr": {
+          "heading": "1er octobre : la Journée des forces armées réunit plusieurs anniversaires",
+          "origin": "La Journée des forces armées sud-coréennes rend hommage aux militaires. Le 1er octobre rappelle le franchissement du 38e parallèle par les forces sud-coréennes pendant la guerre de Corée en 1950. Des anniversaires séparés existaient pour les différentes armes. Un règlement présidentiel du 21 septembre 1956 les a réunis dans une journée commune fixée au 1er octobre. En 1973, celle-ci a rejoint les commémorations légales. Son éventuel statut férié a changé et doit être vérifié séparément pour chaque année. Pour retracer son origine, il faut séparer l'événement initial, les premières activités et le droit ultérieur. Une journée commémorative n'est pas automatiquement fériée.",
+          "promoter": "Les ministères sud-coréens ont adopté les réglementations successives après les événements historiques documentés pour cette commémoration.",
+          "purpose": "Reconnaître les militaires et expliquer l'histoire des institutions et du service de défense.",
+          "facts": [
+            "La Journée des forces armées sud-coréennes rend hommage aux militaires. Le 1er octobre rappelle le franchissement du 38e parallèle par les forces sud-coréennes pendant la guerre de Corée en 1950.",
+            "Des anniversaires séparés existaient pour les différentes armes. Un règlement présidentiel du 21 septembre 1956 les a réunis dans une journée commune fixée au 1er octobre.",
+            "En 1973, celle-ci a rejoint les commémorations légales. Son éventuel statut férié a changé et doit être vérifié séparément pour chaque année."
+          ]
+        },
+        "de": {
+          "heading": "1. Oktober: Südkoreas Tag der Streitkräfte vereint frühere Feiern",
+          "origin": "Der südkoreanische Tag der Streitkräfte würdigt Militärangehörige. Der 1. Oktober erinnert daran, dass südkoreanische Truppen an diesem Tag 1950 im Koreakrieg den 38. Breitengrad überschritten. Zunächst gab es getrennte Gedenkfeiern der Teilstreitkräfte. Eine Präsidialverordnung vom 21. September 1956 fasste sie am 1. Oktober zu einem einheitlichen Streitkräftetag zusammen. 1973 wurde der Anlass in die gesetzlichen Gedenkregelungen aufgenommen. Sein Status als allgemeiner Feiertag veränderte sich im Laufe der Zeit und muss jährlich geprüft werden. Bei der historischen Einordnung sind ursprüngliches Ereignis, erste Feiern und spätere Rechtsgrundlage getrennt zu betrachten. Ein Gedenktag ist nicht automatisch arbeitsfrei.",
+          "promoter": "Die zuständigen südkoreanischen Regierungsstellen erließen die einschlägigen Regeln nach den dokumentierten früheren Ereignissen.",
+          "purpose": "Militärangehörige würdigen und die Geschichte der Verteidigungsinstitutionen und ihres Dienstes darstellen.",
+          "facts": [
+            "Der südkoreanische Tag der Streitkräfte würdigt Militärangehörige. Der 1. Oktober erinnert daran, dass südkoreanische Truppen an diesem Tag 1950 im Koreakrieg den 38. Breitengrad überschritten.",
+            "Zunächst gab es getrennte Gedenkfeiern der Teilstreitkräfte. Eine Präsidialverordnung vom 21. September 1956 fasste sie am 1. Oktober zu einem einheitlichen Streitkräftetag zusammen.",
+            "1973 wurde der Anlass in die gesetzlichen Gedenkregelungen aufgenommen. Sein Status als allgemeiner Feiertag veränderte sich im Laufe der Zeit und muss jährlich geprüft werden."
+          ]
+        },
+        "pt": {
+          "heading": "1 de outubro: o Dia das Forças Armadas reúne comemorações anteriores",
+          "origin": "O Dia das Forças Armadas sul-coreanas homenageia o pessoal militar. O 1 de outubro recorda o momento em que forças sul-coreanas atravessaram o paralelo 38 durante a Guerra da Coreia em 1950. Existiam antes celebrações separadas para os vários ramos militares. Um regulamento presidencial de 21 de setembro de 1956 reuniu-as numa jornada comum a 1 de outubro. Em 1973 passou a integrar as comemorações legais. O estatuto como feriado geral mudou ao longo do tempo e requer verificação para cada ano. Para explicar a origem, devem distinguir-se o evento inicial, as primeiras atividades e a legislação posterior. Uma data comemorativa não cria automaticamente um feriado geral.",
+          "promoter": "Os ministérios do governo sul-coreano estabeleceram sucessivas regras da comemoração após os antecedentes históricos documentados.",
+          "purpose": "Reconhecer militares e divulgar a história das instituições de defesa e do seu serviço.",
+          "facts": [
+            "O Dia das Forças Armadas sul-coreanas homenageia o pessoal militar. O 1 de outubro recorda o momento em que forças sul-coreanas atravessaram o paralelo 38 durante a Guerra da Coreia em 1950.",
+            "Existiam antes celebrações separadas para os vários ramos militares. Um regulamento presidencial de 21 de setembro de 1956 reuniu-as numa jornada comum a 1 de outubro.",
+            "Em 1973 passou a integrar as comemorações legais. O estatuto como feriado geral mudou ao longo do tempo e requer verificação para cada ano."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original official Korean MOIS chronological history and commemorations index, one government institution not two independent sources. All locales AI drafted; qualified factual and native language human review not yet passed."
+    }
+  ]
+}
