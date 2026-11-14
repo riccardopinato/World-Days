@@ -14,8 +14,8 @@
       "KR": 57,
       "CA": 32
     },
-    "AI_REVIEW_QUEUED": 161,
-    "AI_CERTIFIED": 4,
+    "AI_REVIEW_QUEUED": 151,
+    "AI_CERTIFIED": 14,
     "HOLD_SOURCE_DISPUTE": 8,
     "qualifiedHumanSignoffs": 0,
     "appRuntimePublishedByThisLedger": 0
@@ -29,26 +29,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_a_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "d32c7d4e9cc1bfd6d87be8a71b0b3cfd00e66c3a",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2021,
       "establishedYear": 2020,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://orders-in-council.canada.ca/attachment.php?attach=40149&lang=en",
+        "https://www.canada.ca/en/office-federal-ombudsperson-victims-crime/news-nouvelles/statements-declarations/2020-21/20210108.html"
+      ],
+      "factsConfirmed": [
+        "PC 2020-1130 was dated 18 December 2020.",
+        "Flight PS752 was downed on 8 January 2020 with 176 deaths.",
+        "The founding order also cites the Air India 182 and Ethiopian Airlines 302 disasters."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-armed-forces-day",
@@ -225,26 +240,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 2021,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/canadian-heritage/campaigns/emancipation-day.html",
+        "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+      ],
+      "factsConfirmed": [
+        "The parliamentary recognition was voted on 24 March 2021.",
+        "The British abolition measure took effect on 1 August 1834.",
+        "Enslavement affected Black and Indigenous people in what is now Canada."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. First observed year deliberately unknown.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-great-upheaval-commemoration",
@@ -393,26 +423,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "318f42138b36bd8879ac949bbb43a934bdf51814",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1993,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/public-health/services/national-child-day/children-s-rights-activity-guide.html",
+        "https://www.canada.ca/en/public-health/services/national-child-day/celebrate-national-child-day-november-20.html"
+      ],
+      "factsConfirmed": [
+        "Canada ratified the Convention on the Rights of the Child in 1991.",
+        "National Child Day was designated in 1993.",
+        "The annual date is 20 November, an important UN children's rights anniversary."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. First observed year deliberately unknown.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-national-seniors-day",
@@ -421,26 +466,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2011,
       "establishedYear": 2010,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2010/11/government-canada-establishes-national-seniors-day.html",
+        "https://www.canada.ca/en/employment-social-development/campaigns/national-seniors-day/nsd-guide.html"
+      ],
+      "factsConfirmed": [
+        "Bill C-40 received Royal Assent on 18 November 2010.",
+        "The first National Seniors Day was observed on 1 October 2011.",
+        "The designated recurring date is 1 October."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-persons-day",
@@ -449,26 +509,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1979,
       "establishedYear": 1979,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/womens-history-month/persons-day.html",
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/governor-general-awards/about.html"
+      ],
+      "factsConfirmed": [
+        "The Privy Council decision was made on 18 October 1929.",
+        "The commemorative designation arose in 1979.",
+        "The Famous Five began their challenge in 1927."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-quebec-city-mosque-attack-remembrance",
@@ -561,26 +636,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "318f42138b36bd8879ac949bbb43a934bdf51814",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1919,
       "establishedYear": 1931,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/remembrance-ceremony/2.html",
+        "https://www.canada.ca/en/news/archive/2013/10/article-remembrance-day.html"
+      ],
+      "factsConfirmed": [
+        "The first Armistice Day commemoration was in 1919.",
+        "The modern Remembrance Day name and fixed date date from 1931.",
+        "The 1918 ceasefire took effect at 11 a.m. on 11 November."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-ribbon-skirt-day",
@@ -717,26 +807,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b1_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "3a19b6c828f4a4b4502b946d599eefa4700cb865",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 2005,
       "establishedYear": 2005,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/news/archive/2011/06/national-day-remembrance-victims-terrorism.html",
+        "https://www.canada.ca/en/news/archive/2005/06/prime-minister-pays-canadians-respects-victims-air-india-disaster.html"
+      ],
+      "factsConfirmed": [
+        "The federal commemoration began in 2005.",
+        "Air India Flight 182 was destroyed on 23 June 1985.",
+        "The bombing killed 329 passengers and crew."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "ca-vimy-ridge-battle-anniversary",
@@ -773,26 +878,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_b2_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "318f42138b36bd8879ac949bbb43a934bdf51814",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1991,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://www.canada.ca/en/women-gender-equality/commemorations-celebrations/gender-equality-week/gender-equality-timeline.html",
+        "https://www.canada.ca/en/department-justice/news/2016/12/statement-minister-wilson-raybould-national-remembrance-action-violence-against-women-canada.html"
+      ],
+      "factsConfirmed": [
+        "Parliament established the national day in 1991.",
+        "The anniversary recalls fourteen women murdered on 6 December 1989.",
+        "The original attack occurred at Polytechnique Montréal."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. First observed year deliberately unknown.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "canada-multiculturalism-day",
@@ -829,26 +949,41 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "863db0e6c7ff952ca060d5e8c6c2f0cae2c54494",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": 1881,
       "establishedYear": 2003,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://laws.justice.gc.ca/eng/acts/N-1.4/page-1.html",
+        "https://laws.justice.gc.ca/eng/AnnualStatutes/2003_11/page-1.html"
+      ],
+      "factsConfirmed": [
+        "Acadians have marked 15 August since the 1881 Memramcook convention.",
+        "The National Acadian Day Act received Royal Assent on 19 June 2003.",
+        "Section 3 designates 15 August annually throughout Canada."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. Original first observed year individually checked against source(s).",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "canada-national-flag-day",
@@ -885,26 +1020,42 @@
       "sourcePR": 119,
       "sourceFile": "data/editorial/batches/origin_stories_wave21_canada_c_20261113.json",
       "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
-      "sourceBlobSha": null,
-      "status": "AI_REVIEW_QUEUED",
-      "reviewedBy": null,
-      "reviewDate": null,
-      "reviewMethod": null,
+      "sourceBlobSha": "863db0e6c7ff952ca060d5e8c6c2f0cae2c54494",
+      "status": "AI_CERTIFIED",
+      "reviewedBy": "GPT-6",
+      "reviewDate": "2026-11-14",
+      "reviewMethod": "MODEL_EDITORIAL_FACT_AND_TRANSLATION_CHECK",
       "locales": {
-        "en": "NOT_CHECKED",
-        "it": "NOT_CHECKED",
-        "es": "NOT_CHECKED",
-        "fr": "NOT_CHECKED",
-        "de": "NOT_CHECKED",
-        "pt": "NOT_CHECKED"
+        "en": "AI_CHECKED",
+        "it": "AI_CHECKED",
+        "es": "AI_CHECKED",
+        "fr": "AI_CHECKED",
+        "de": "AI_CHECKED",
+        "pt": "AI_CHECKED"
       },
       "firstObservedYear": null,
       "establishedYear": 1996,
-      "sourceEvidence": [],
-      "factsConfirmed": [],
-      "notes": null,
+      "sourceEvidence": [
+        "https://laws-lois.justice.gc.ca/eng/regulations/si-96-55/page-1.html",
+        "https://laws-lois.justice.gc.ca/eng/regulations/SI-2018-55/page-1.html?txthl=aboriginal",
+        "https://www.canada.ca/en/canadian-heritage/services/anniversaries-significance/2021.html"
+      ],
+      "factsConfirmed": [
+        "Proclamation SI/96-55 was issued on 13 June 1996.",
+        "The chosen 21 June date corresponds to the summer solstice.",
+        "SI/2018-55 renamed the existing observance in 2018."
+      ],
+      "notes": "Reviewed source-linked original historical chronology against official Canadian source(s) and compared substantive six-language origin, dates, promoters, purposes, and three facts. Historical establishment vs first ceremony kept separate. Independent spot check on 2026-11-14; certification remains tied to the source PR head and file blob. First observed year deliberately unknown.",
       "sourceConflict": null,
-      "checks": null
+      "checks": {
+        "canonicalId": true,
+        "primaryEvidence": true,
+        "chronology": true,
+        "allSixLocalesPresent": true,
+        "translationParity": true,
+        "noKnownConflict": true,
+        "originalSourcePinned": true
+      }
     },
     {
       "observanceId": "canada-truth-and-reconciliation-day",
@@ -4930,6 +5081,27 @@
       "notes": null,
       "sourceConflict": null,
       "checks": null
+    }
+  ],
+  "reviewBatchHistory": [
+    {
+      "asOf": "2026-11-14",
+      "batch": "canada-source-crosscheck-10",
+      "count": 10,
+      "sourcePR": 119,
+      "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+      "ids": [
+        "ca-air-disaster-victims-remembrance",
+        "ca-terrorism-victims-remembrance",
+        "ca-national-seniors-day",
+        "ca-national-child-day",
+        "ca-emancipation-day",
+        "ca-remembrance-day",
+        "ca-violence-against-women-remembrance",
+        "canada-national-indigenous-peoples-day",
+        "canada-national-acadian-day",
+        "ca-persons-day"
+      ]
     }
   ]
 }
