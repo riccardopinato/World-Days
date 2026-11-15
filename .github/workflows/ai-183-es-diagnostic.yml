@@ -33,6 +33,11 @@ jobs:
           package.install_from_path(src.download())
           ls=translate.get_installed_languages()
           reverse=next(x for x in ls if x.code=='es').get_translation(next(x for x in ls if x.code=='en'))
+          forward=next(x for x in ls if x.code=='en').get_translation(next(x for x in ls if x.code=='es'))
+          english="Celebrate Arabic's diverse linguistic and cultural heritage and promote language access, learning and mutual understanding across communities."
+          generated=forward.translate(english)
+          print('MODEL_FORWARD:',repr(generated))
+          print('MODEL_REVERSE:',repr(reverse.translate(generated)))
           samples=[
               'La UNESCO ha celebrado el Día Mundial de la Lengua Árabe el 18 de diciembre desde 2012.',
               'La ONU agregó árabe como su sexto idioma oficial el 18 de diciembre de 1973.',
