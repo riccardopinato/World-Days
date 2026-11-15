@@ -138,7 +138,8 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
-            if (editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE') ...[
+            if (editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE' ||
+                editorial.status == 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE') ...[
               Text(
                 switch (localeCode.toLowerCase()) {
                   'it' => 'Testo verificato per fonti e cronologia con revisione AI; '

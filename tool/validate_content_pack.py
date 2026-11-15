@@ -16,7 +16,7 @@ manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
 assert manifest["schemaVersion"] == 1
 assert manifest["packId"] == "world-days-catalog"
 assert manifest["kind"] == "catalog"
-assert 0 < int(manifest["sizeBytes"]) <= 5 * 1024 * 1024
+assert 0 < int(manifest["sizeBytes"]) <= 9 * 1024 * 1024
 assert re.fullmatch(r"[0-9a-f]{64}", manifest["sha256"])
 
 uri = urlparse(manifest["payloadUrl"])
@@ -88,8 +88,8 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
     # never original source narratives or localized facts. Full metadata is
     # retained in the bundled generated editorials and Git review ledgers.
     bundled = json.loads((ROOT / f"assets/data/editorial_{locale}.json").read_text(encoding="utf-8"))
-    assert len(bundled["entries"]) == len(entries) == 319
-    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 263
+    assert len(bundled["entries"]) == len(entries) == 502
+    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
     assert pack == bundled, ("remote_payload_drift", locale)
