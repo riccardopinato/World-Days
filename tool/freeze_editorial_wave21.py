@@ -21,6 +21,12 @@ def freeze(output: Path, allow_dirty: bool = False):
         subprocess.run(["git", "diff", "--quiet"], cwd=ROOT, check=True)
         subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, check=True)
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+    remote = subprocess.check_output(
+        ["git", "ls-remote", "--exit-code", "origin", "refs/heads/main"],
+        cwd=ROOT, text=True, timeout=30
+    ).split()[0]
+    if remote != head:
+        raise SystemExit(f"Local main {head} differs from origin/main {remote}; fetch and fast-forward first")
     branch = subprocess.check_output(["git", "branch", "--show-current"], cwd=ROOT, text=True).strip()
     if branch != "main":
         raise SystemExit("Freeze must be generated from up-to-date main, not a PR branch")
