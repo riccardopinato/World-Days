@@ -95,6 +95,7 @@ jobs:
           python3 tool/publish_prepared_sixlocale_87.py
           python3 tool/publish_pr119_recovered_three.py
           python3 tool/validate_prepared_485_reachability.py
+          python3 tool/test_ai_183_corpus.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
