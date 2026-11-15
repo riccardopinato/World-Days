@@ -77,7 +77,7 @@ print("WORLD_DAYS_PREPARED_HISTORY_COVERAGE_OK",json.dumps({
  "catalog":1111,"existingBilingualResearch":325,
  "newAICertified":173,"researchCertificateOverlap":18,
  "newSixLocaleSourceReviewed":90,"newOutsideMain":5,
- "uniquePreparedStories":485,"richEditorial":316,
+ "uniquePreparedStories":485,"richEditorial":319,
  "bilingualPreviewOnly":len(untranslated),
  "humanCertifiedClaimed":0,
  "unresolvedPhilippineSourceIDs":7,
