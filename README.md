@@ -1,3 +1,12 @@
+## 15 November 2026 — 183/183 prewritten stories AI source+translation reviewed (READY FOR CI; not yet merged)
+
+- **AI editorial review completed for all 183** previously researched EN/IT-origin dossiers; 182 needed ES/FR/DE/PT translations (728 new texts), while one Irish St Brigid statutory holiday already had 4 original-language drafts, preserved in the publication importer.
+- Source/six-locale reviewed pack **`data/editorial/published/ai_183_sixlocale_reviewed.json`**, Git blob `4881950c43074159aba7327a4cad96622999ed69`, 183 distinct IDs, 6 languages per record, individual original Git source SHA and source URLs, pinned neural model versions and hashes, per-locale AI reviewer evidence.
+- GitHub Actions [source/translation review run #43663911118](https://github.com/riccardopinato/World-Days/actions/runs/43663911118) succeeded with **`AI183 COMPLETE: 183/183`** and independent isolated ES->EN model recomputation **`183/183`** after the original ES backtranslation metrics failed closed. No synthetic QA scores were inserted.
+- Original source-confirmed defects repaired in the review copy: FAO fisheries day PT `A/RES/72/72`, World Television Day PT `A/RES/51/205`, International Tea Day FR `A/RES/74/241`, and mistranslated French reference to alcohol in a tea-history sentence. Every unmodified English/Italian source remains pinned; unresolved/unknown first-observed dates are not fabricated.
+- Implementation code is **staged on draft PR #138, not yet on `main`**: `tool/publish_ai_183_translations.py`, `tool/validate_ai_183_translations.py`, Flutter UI/test integration and content-pack version `2026.11.15.4`. Full product CI exact-head checks and main merge remain outstanding. Target after all gates: **502** six-locale rich articles, **0** only-bilingual previews among the 485 original historical dossiers, unchanged catalog `1,111`.
+- **Certification scope strictly AI** (neural translation, independently re-inferred source semantics, language, years, resolution and provenance parity), no independent human native-language/history review and no automatic Web/Play release. The original individual institutional URLs are preserved but were not all individually re-fetched this run.
+
 ## 15 November 2026 — AI-only six-locale certification of 183 existing research stories (IN PROGRESS)
 
 - Baseline: 325 original primary-source EN/IT research dossiers; 319 existing Rich Editorial articles in all six languages; 183 exact remaining original dossiers requiring Spanish, French, German and Portuguese.
