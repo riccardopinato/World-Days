@@ -2,7 +2,7 @@
 """Fail-closed inventory: all 485 written histories are reachable without fake approval.
 
 Status levels are kept separate: 56 legacy reviewed editorial, 173 AI certified,
-87 AI source+chronology-reviewed six-locale, remaining older EN/IT research
+90 AI source+chronology-reviewed six-locale, remaining older EN/IT research
 available as labelled historical research with English fallback.
 """
 import json
@@ -49,15 +49,15 @@ for lang in LOC:
  pack=load(ROOT/f"assets/data/editorial_{lang}.json")
  rows=pack["entries"]
  ids=[r["observanceId"] for r in rows]
- assert len(ids)==len(set(ids))==pack["entryCount"]==316,(lang,len(ids))
+ assert len(ids)==len(set(ids))==pack["entryCount"]==319,(lang,len(ids))
  kinds={k:sum(r["status"]==k for r in rows) for k in
         ("AI_CERTIFIED","AI_SOURCE_REVIEWED_SIX_LOCALE")}
- assert kinds=={"AI_CERTIFIED":173,"AI_SOURCE_REVIEWED_SIX_LOCALE":87},(lang,kinds)
+ assert kinds=={"AI_CERTIFIED":173,"AI_SOURCE_REVIEWED_SIX_LOCALE":90},(lang,kinds)
  assert pack.get("aiEditorialCertifiedCount")==173
- assert pack.get("aiSourceReviewedSixLocaleCount")==87
+ assert pack.get("aiSourceReviewedSixLocaleCount")==90
  new={r["observanceId"] for r in rows if r["status"]=="AI_SOURCE_REVIEWED_SIX_LOCALE"}
- assert len(new)==87
- assert len(new & set(researched))==82
+ assert len(new)==90
+ assert len(new & set(researched))==85
  assert five <= new
  assert set(researched) | certs | five <= set(ids) | preview
  if en_ids is None:
@@ -65,19 +65,19 @@ for lang in LOC:
  else:
   assert en_ids==ids,("six-locale ordering drift",lang)
  assert all(r["origin"].strip() for r in rows if r["status"] in kinds)
-assert len(en_ids)==316
+assert len(en_ids)==319
 enriched=set(en_ids)
 assert all_prepared <= (enriched|preview)
 untranslated=sorted(preview-enriched)
 legacy=set(en_ids[:56])
 assert len(legacy)==56
-assert len(set(researched)&enriched)==100+len(set(researched)&legacy),("researched overlap",len(set(researched)&enriched))
-assert len(untranslated)==225-len(set(researched)&legacy),("bilingual preview count",len(untranslated))
+assert len(set(researched)&enriched)==103+len(set(researched)&legacy),("researched overlap",len(set(researched)&enriched))
+assert len(untranslated)==222-len(set(researched)&legacy),("bilingual preview count",len(untranslated))
 print("WORLD_DAYS_PREPARED_HISTORY_COVERAGE_OK",json.dumps({
  "catalog":1111,"existingBilingualResearch":325,
  "newAICertified":173,"researchCertificateOverlap":18,
- "newSixLocaleSourceReviewed":87,"newOutsideMain":5,
- "uniquePreparedStories":485,"richEditorial":316,
+ "newSixLocaleSourceReviewed":90,"newOutsideMain":5,
+ "uniquePreparedStories":485,"richEditorial":319,
  "bilingualPreviewOnly":len(untranslated),
  "humanCertifiedClaimed":0,
  "unresolvedPhilippineSourceIDs":7,

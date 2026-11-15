@@ -55,3 +55,12 @@ The CDN content pack retains the **5 MiB** limit unchanged. To avoid re-transmit
 - **Status caveat:** the prior 173 are AI editorial certified, 87 additional entries are AI-source-and-chronology reviewed in all six languages, while 186 remain individually source-researched bilingual notes awaiting ES/FR/DE/PT translations and further review. **No qualified independent human signoff asserted.**
 - Seven Philippine legal/identity cases remain blocked outside the 485 prepared histories. No automatic production APK, Google Play or public Web Preview deployment performed.
 
+
+---
+## 15 November 2026 — additional PR119 six-locale recovery (3 histories)
+
+- Recovered three previously drafted and source-linked six-language histories without new authoring: `world-day-for-african-and-afrodescendant-culture` (UNESCO: 2019 designation, 2006 AU charter), `international-day-to-combat-islamophobia` (UN: 2022 designation, 2019 Christchurch remembrance, 2023 first observance), and `international-day-of-the-girl-child` (UN: 2011 resolution, 2012 first edition).
+- Frozen source PR #119 at `3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0`; three file SHA identities and **byte-equivalent EN/IT source records** verified against already merged wave05/wave09/wave17. Six language year sets agree.
+- New audited import script `tool/publish_pr119_recovered_three.py`, additive after the 87 previous source-reviewed entries; no overwrite, original PR119 remains Draft. New richness target: **319 six-locale articles** (56 legacy + 173 AI-certified + 90 AI source-reviewed), with **183 remaining EN/IT-only previews**; historical union remains **485/1111** unique already authored IDs. Proposed content pack version: `2026.11.15.3`.
+- No qualified external human factual/native-language certification, physical APK, Play production or Pages deployment is claimed. Remaining 183 drafts require genuine ES/FR/DE/PT translation and review before upgrading from explicitly labelled EN/IT preview to six-locale article. Seven PH source/identity holds stay separate.
+

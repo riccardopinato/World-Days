@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 316);
+    expect(snapshot.editorialById.length, 319);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
@@ -223,14 +223,14 @@ void main() {
     }
   });
 
-  test('87 additional six-locale source-reviewed articles retain status parity', () async {
+  test('90 additional six-locale source-reviewed articles retain status parity', () async {
     final snapshot = await const CatalogRepository().load();
     const languages = ['en', 'it', 'es', 'fr', 'de', 'pt'];
     for (final lang in languages) {
       final pack = snapshot.editorialByLocale[lang]!;
       expect(pack.values.where(
         (entry) => entry.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE',
-      ).length, 87);
+      ).length, 90);
       for (final id in <String>[
         'sk-carpathian-dukla-operation-heroes-day',
         'spain-exile-victims-remembrance-day',
@@ -263,6 +263,25 @@ void main() {
     expect(annual.campaignUrl, isNotEmpty);
     expect(annual.verifiedAt, isNotEmpty);
     expect(snapshot.yearOverrideFor('world-health-day', 2027), isNull);
+  });
+
+  test('PR119 three recovered stories preserve six-locale source chronology', () async {
+    final snapshot = await const CatalogRepository().load();
+    const ids = <String>[
+      'world-day-for-african-and-afrodescendant-culture',
+      'international-day-to-combat-islamophobia',
+      'international-day-of-the-girl-child',
+    ];
+    for (final oid in ids) {
+      for (final locale in <String>['en', 'it', 'es', 'fr', 'de', 'pt']) {
+        final article = snapshot.editorialFor(oid, locale);
+        expect(article, isNotNull, reason: '$oid/$locale');
+        expect(article!.status, 'AI_SOURCE_REVIEWED_SIX_LOCALE');
+        expect(article.origin, isNotEmpty);
+        expect(article.quickFacts, hasLength(greaterThanOrEqualTo(2)));
+        expect(article.waysToTakePart, isEmpty);
+      }
+    }
   });
 
   test('remote content pack decoder preserves bundled catalog semantics', () async {
