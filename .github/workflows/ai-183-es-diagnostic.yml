@@ -37,6 +37,7 @@ jobs:
               'La UNESCO ha celebrado el Día Mundial de la Lengua Árabe el 18 de diciembre desde 2012.',
               'La ONU agregó árabe como su sexto idioma oficial el 18 de diciembre de 1973.',
               'Celebrar el patrimonio lingüístico y cultural de la lengua árabe.',
+              'Celebrar el diverso patrimonio lingüístico y cultural del árabe y promover el acceso al idioma, el aprendizaje y la comprensión mutua entre las comunidades.',
           ]
           for s in samples:
               print('SOURCE:',repr(s))
