@@ -38,6 +38,28 @@ jobs:
       - name: Resolve dependencies
         run: flutter pub get
 
+      - name: Rebuild and validate offline editorial content
+        run: |
+          python3 tool/market_wave04.py
+          python3 tool/market_wave06.py
+          python3 tool/market_wave07.py
+          python3 tool/market_wave08.py
+          python3 tool/market_wave09.py
+          python3 tool/market_wave10.py
+          python3 tool/market_wave11.py
+          python3 tool/market_wave12.py
+          python3 tool/market_wave13.py
+          python3 tool/build_dataset.py
+          python3 tool/validate_dataset.py
+          python3 tool/build_editorial.py
+          python3 tool/validate_editorial.py
+          python3 tool/build_origin_review_index.py
+          python3 tool/build_editorial_locales.py
+          python3 tool/validate_editorial_locales.py
+          python3 tool/publish_ai_173_editorial.py
+          python3 tool/validate_ai_173_publication.py
+          python3 tool/build_content_pack.py
+
       - name: Build Web
         run: |
           flutter build web --release --base-href "/World-Days/"

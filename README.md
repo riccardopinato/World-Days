@@ -1,3 +1,12 @@
+## 15 November 2026 — Proposed 173 AI-certified six-language runtime editorials
+
+- Proposed guarded import: **173 AI_CERTIFIED source-pinned records** across **CA 32 / KR 57 / PH 84**, after the existing 56 rich editorials. All six locales EN/IT/ES/FR/DE/PT remain native, local-first; resulting rich coverage is **229 editorial records** if tests and merge pass. The canonical observance catalog remains at **1,111 IDs**.
+- Authoritative AI source-review ledger: `data/editorial/reviews/ph_kr_ca_173_ai_editorial_certification_20261114.json`. Four vendored import snapshots in `data/editorial/published/` preserve source PR/commit/blob/evidence identity; three publication caveats are explicitly tracked.
+- Canada Raoul Wallenberg chronology is corrected to **2001 parliamentary recognition, first annual 17 January 2002** in six languages within the import copy; original source PR remains immutable. Panagyaman (2004) and W.A.T.C.H. (2009) retain the distinction between cultural recurrence and an unproven indefinite statutory or non-working national holiday.
+- Exactly **seven source-blocked Philippine candidate IDs remain outside this 173-record import**. Existing rich stories, favorites and user data are not replaced; no speculative participation actions are added.
+- New generator `tool/publish_ai_173_editorial.py` runs only after the existing 56-record editorial validators. `tool/validate_ai_173_publication.py` enforces 173 exact certified IDs, six locale parity, provenance and the three qualifications. Dataset/content-pack version planned: **2026.11.15.1**.
+- **Not an APK/Store certification or an automatic web deployment.** CI, exact PR head checks and merge must pass. Web deployment remains explicit/manual. Original Draft source PR #118/#119/#120 are not implicitly merged.
+
 # World Days
 
 ## Wave20 — complete 100-ID source-researched IT/EN cohort (13 November 2026)
