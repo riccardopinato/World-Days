@@ -1,4 +1,111 @@
+## 15 November 2026 — CLOSED: 183/183 historical dossiers AI-certified in six locales, integrated into main
+
+- **Merged:** [World Days PR #138](https://github.com/riccardopinato/World-Days/pull/138); protected `main` commit `8be150f39c83df90365fdd935382179713282d28`.
+- 183 existing EN/IT source-researched stories passed source-identity, date/resolution, language, AI translation and separately inferred ES/FR/DE/PT semantic-review gates; 182 needed 728 new translations and one original Irish St Brigid record already had its four language drafts preserved.
+- Result in **all six locales (EN/IT/ES/FR/DE/PT): 502 Rich Editorial IDs** = 56 original accepted + 173 country AI certified + 90 original six-locale AI source reviewed + 183 newly AI translation reviewed. **0** English/Italian-only preview cases remain. Exactly **485 distinct historical original dossiers** are covered; entire canonical catalog **1,111 unchanged**. The additional existing rich articles overlap research IDs and must not be summed as new source histories.
+- Source review evidence: `data/editorial/published/ai_183_sixlocale_reviewed.json` (Git blob `4881950c43074159aba7327a4cad96622999ed69`). [AI 183 run #43663911118](https://github.com/riccardopinato/World-Days/actions/runs/43663911118) passed **183/183**, with second AI inference on a pinned, hash-validated ES→EN model. Review logs record source-specific correction of three malformed UN founding resolution references and one wrong French sentence in International Tea Day.
+- **Exact-head CI passed:** [Development checks run #43667518738](https://github.com/riccardopinato/World-Days/actions/runs/43667518738): Python dataset/localization/provenance tests, `AI183_SIX_LOCALE_RUNTIME_PASS`, Flutter analyze, **201 Flutter tests**, **9 Rome civil-date tests**, and Flutter Web release build.
+- Content pack `2026.11.15.4`, 6,756,834 bytes, SHA-256 `dde5f60c98309bc0c8eb6b927eaf97d0f97f75cfd03e82cdfc5344925e13a262`; transport bound adjusted to **9 MiB** in both Flutter and source tests. Content source metadata are pinned in the audited original source files; remote payload strips redundant provenance only, not editorial prose.
+- **Status boundary:** This is source and translation **AI certification only**, **0 independent qualified human signoffs** and no claim that every upstream official URL was individually refetched on 15 November. **No APK, Google Play, or public Web Preview deployment** occurred; Flutter CI build is distinct from public release. Seven separate Philippine legal/source holds remain outside the imported histories, and 626 canonical IDs outside the 485 already-researched original histories still await research.
+
+## 15 November 2026 — 183/183 prewritten stories AI source+translation reviewed (READY FOR CI; not yet merged)
+
+- **AI editorial review completed for all 183** previously researched EN/IT-origin dossiers; 182 needed ES/FR/DE/PT translations (728 new texts), while one Irish St Brigid statutory holiday already had 4 original-language drafts, preserved in the publication importer.
+- Source/six-locale reviewed pack **`data/editorial/published/ai_183_sixlocale_reviewed.json`**, Git blob `4881950c43074159aba7327a4cad96622999ed69`, 183 distinct IDs, 6 languages per record, individual original Git source SHA and source URLs, pinned neural model versions and hashes, per-locale AI reviewer evidence.
+- GitHub Actions [source/translation review run #43663911118](https://github.com/riccardopinato/World-Days/actions/runs/43663911118) succeeded with **`AI183 COMPLETE: 183/183`** and independent isolated ES->EN model recomputation **`183/183`** after the original ES backtranslation metrics failed closed. No synthetic QA scores were inserted.
+- Original source-confirmed defects repaired in the review copy: FAO fisheries day PT `A/RES/72/72`, World Television Day PT `A/RES/51/205`, International Tea Day FR `A/RES/74/241`, and mistranslated French reference to alcohol in a tea-history sentence. Every unmodified English/Italian source remains pinned; unresolved/unknown first-observed dates are not fabricated.
+- Implementation code is **staged on draft PR #138, not yet on `main`**: `tool/publish_ai_183_translations.py`, `tool/validate_ai_183_translations.py`, Flutter UI/test integration and content-pack version `2026.11.15.4`. Full product CI exact-head checks and main merge remain outstanding. Target after all gates: **502** six-locale rich articles, **0** only-bilingual previews among the 485 original historical dossiers, unchanged catalog `1,111`.
+- **Certification scope strictly AI** (neural translation, independently re-inferred source semantics, language, years, resolution and provenance parity), no independent human native-language/history review and no automatic Web/Play release. The original individual institutional URLs are preserved but were not all individually re-fetched this run.
+
+## 15 November 2026 — AI-only six-locale certification of 183 existing research stories (IN PROGRESS)
+
+- Baseline: 325 original primary-source EN/IT research dossiers; 319 existing Rich Editorial articles in all six languages; 183 exact remaining original dossiers requiring Spanish, French, German and Portuguese.
+- This task **does not author 183 new canonical stories**: it translates the four missing locales of the already-written original EN/IT histories.
+- Implemented preparation tools: `tool/ai_183_translate.py` selects 183 exact ID-unmatched source dossiers, runs a locally downloaded neural ArgosTranslate model per language, independently back-translates purpose and facts through the inverse AI model, and emits four candidacy artifacts recording model versions and SHA-256.
+- `tool/ai_183_review.py` imposes deterministic ID/source file identity, founding chronology/year/resolution parity, language classification, field/fact completeness and second-model roundtrip factual keyword checks. **Fail closed**: any case with quality or legal-source problems is explicitly HOLD, never marked complete.
+- The build-time GitHub Action `.github/workflows/ai-183-generate.yml` runs ES/FR/DE/PT independently and writes the complete six-locale snapshot **only if all 183 pass**; no translation model or new paid remote provider is added to the Flutter app.
+- **No AI certification, main merge, six-language runtime integration or public release is claimed until the generated artifacts and exact-head CI actually pass.** Existing 183 English/Italian previews remain visible until then.
+- AI review here means **neural translation + independent inverse-neural check + chronology/source-field parity**. It is not qualified independent human native-linguist/history certification, and source URLs are not asserted to be individually re-fetched at this step.
+- Target after complete review and publication follow-up: 502 six-locale Rich Editorial articles (319 existing + 183), 485 unique prewritten historical dossiers, zero bilingual-only previews, catalog 1,111 unchanged. Content pack size/format and Flutter tests must be requalified separately.
+
+## 15 November 2026 — additional PR119 six-locale recovery (3 histories)
+
+- Recovered three previously drafted and source-linked six-language histories without new authoring: `world-day-for-african-and-afrodescendant-culture` (UNESCO: 2019 designation, 2006 AU charter), `international-day-to-combat-islamophobia` (UN: 2022 designation, 2019 Christchurch remembrance, 2023 first observance), and `international-day-of-the-girl-child` (UN: 2011 resolution, 2012 first edition).
+- Frozen source PR #119 at `3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0`; three file SHA identities and **byte-equivalent EN/IT source records** verified against already merged wave05/wave09/wave17. Six language year sets agree.
+- New audited import script `tool/publish_pr119_recovered_three.py`, additive after the 87 previous source-reviewed entries; no overwrite, original PR119 remains Draft. New richness target: **319 six-locale articles** (56 legacy + 173 AI-certified + 90 AI source-reviewed), with **183 remaining EN/IT-only previews**; historical union remains **485/1111** unique already authored IDs. Proposed content pack version: `2026.11.15.3`.
+- No qualified external human factual/native-language certification, physical APK, Play production or Pages deployment is claimed. Remaining 183 drafts require genuine ES/FR/DE/PT translation and review before upgrading from explicitly labelled EN/IT preview to six-locale article. Seven PH source/identity holds stay separate.
+
+### Verified merge and CI result — 15 November 2026
+
+- **Merged to protected main:** [PR #135](https://github.com/riccardopinato/World-Days/pull/135), merge commit `647d894e5871a1c5e79eff35642be91e5007b28b`; PR exact-head `bc8c6faea86c57f88c6f6468c64495f5c3eed56b`.
+- **CI passed:** [Development checks #1069](https://github.com/riccardopinato/World-Days/actions/runs/43660888145), including 485-identity inventory, 316 six-locale rich records, 186 source-research-only bilingual previews, 199 Flutter tests, 9 Rome-date tests, Flutter analyze and release Web compilation.
+- **Content pack:** `2026.11.15.2`, **4,681,021 bytes** (strict 5 MiB cap unchanged); SHA-256 `72c4faeddc5d928e2b0120c02d2b9638eb039042cfa01e9a1c281f77982ca005`. Source SHA/URL metadata is preserved in repository ledger, stripped only as unused duplicate from remote transport.
+- **Status caveat:** the prior 173 are AI editorial certified, 87 additional entries are AI-source-and-chronology reviewed in all six languages, while 186 remain individually source-researched bilingual notes awaiting ES/FR/DE/PT translations and further review. **No qualified independent human signoff asserted.**
+- Seven Philippine legal/identity cases remain blocked outside the 485 prepared histories. No automatic production APK, Google Play or public Web Preview deployment performed.
+
+## 15 November 2026 — Close *existing* story integration before new authoring
+
+- [x] Reconcile exactly **485 unique prepared historical IDs**: main origin batch **325**, AI 173 (18 already represented in Wave20), plus 5 source-linked six-language national histories on PR #122.
+- [x] Pin 82 remaining Wave20 six-locale source texts to PR #118 and exact EN/IT main parity; retain source SHA and correct speculative 1994 first-ceremony phrasing in four translations.
+- [x] Pin five top-country source histories to PR #122; preserve first-observation unknowns where source evidence does not establish the first edition.
+- [x] Introduce a transparent **research preview** for previously hidden 325 EN/IT origin dossiers without changing `runtimeRichEditorialApproved=false` or pretending ES/FR/DE/PT translations exist.
+- [x] Define new deterministic 87-entry six-locale importer, reachability/source/duplicate gates, Flutter tests, publication contract and catalog version `2026.11.15.2`.
+- [x] Exact-head CI passed: Development checks #1069 — Python source validation, 199 Flutter tests, nine Rome-date tests, Flutter analyze, Web build.
+- [x] Merged PR #135 to protected main at 647d894e5871a1c5e79eff35642be91e5007b28b; APK signing, Play production and public Web Preview deployment remain separate and unperformed.
+- [ ] Review/translate the remaining EN/IT-only research in ES/FR/DE/PT, with separate independent factual/native language qualification before a six-locale certification claim.
+- [ ] Resolve 7 additional Philippine legal/identity holds independently; then continue only remaining canonical story backlog without duplicating any of the 485 existing dossiers.
+- **If integrated:** 316 six-language rich editorials (56 curated, 173 AI-certified, 87 AI-source-reviewed), 325 bundled EN/IT researched history notes eligible for sourced research preview; union of historical dossiers **485/1111**. Six-locale human signoffs: not asserted.
+
+See `docs/WORLD_DAYS_485_PREPARED_RECONCILIATION_20261115.md`.
+
+---
+## 15 November 2026 — 173 AI-certified histories: guarded runtime import proposal
+
+- [x] Preserve immutable AI certification ledger (173/173) and match 173 individual canonical IDs to original PR HEAD + Git file blobs.
+- [x] Prepare four country-partitioned six-locale snapshots (CA32, KR57, PH39+45); include corrected 2001/2002 Raoul chronology and qualifying legal-status caveats for Panagyaman/W.A.T.C.H.
+- [x] Implement deterministic editorial pack importer after the 56 legacy source checks; add regression/translation/provenance guard, Android/Web build wiring, and version 2026.11.15.1.
+- [ ] Confirm exact-head GitHub CI (Python, Flutter analyze/test, Web) passes on this publication PR.
+- [ ] Merge reviewed import PR to main only when all branch and safety gates pass; source PR #118/#119/#120 remain Draft.
+- [ ] Explicitly deploy Web Preview / generate installable Android evidence separately. The seven extra Philippine source holds remain excluded.
+- Coverage if merged: 56 legacy + 173 AI-reviewed = 229 six-locale rich editorials; catalog total 1,111 unchanged. Do not equate AI review with human certification or physical/store approval.
+
 # World Days — Active roadmap
+
+## 15 November 2026 — PH / KR / CA: complete AI editorial queue (99-of-99 final batch)
+
+- [x] Review **all 99 pending source-linked records** (91 queued + 8 disputed), comparing original EN narratives, translated IT/ES/FR/DE/PT dates and facts, primary legal chronology, country and recurring-date classifications. Exact frozen source PR HEAD and Git file blob recorded for each.
+- [x] Source-scoped result: **173 AI_CERTIFIED / 0 AI_REVIEW_QUEUED / 0 HOLD_SOURCE_DISPUTE**. Eight previously disputed items have per-record resolution evidence and documented legal-scope qualifications. This is **AI editorial review only**, not human signoff, source PR import, or runtime publication.
+- [ ] **Three publication-correction gates remain**: Raoul Wallenberg six-language source draft still describes the former 2001/2002 date ambiguity (2001 designated, first 2002, now evidenced by Canadian Parliament); Panagyaman April 2004 proclamation and June W.A.T.C.H. 2009 proclamation do not by themselves prove mandatory indefinite national recurrence. Their NCCA cultural calendar listing cannot be treated as a legal nationwide recurring paid holiday.
+- [ ] Only after source-correction and product/provenance gates, import certifiable stories into runtime and verify UI content/locale completeness. Counts in this editorial ledger must not be shown as actual in-app publication.
+
+
+## AI editorial Korean civic-history batch (14 November 2026)
+
+- [x] AI-review 11 Korean memorial, civic and institutional dates and six-language narratives from six source-draft files; original source PR #120 and Git file blobs pinned.
+- [x] Ledger **74 AI_CERTIFIED / 8 HOLD / 91 AI_REVIEW_QUEUED** across 173 records; zero human signoffs or runtime publication.
+- [ ] Verify and repair remaining Korean locale chronology mismatches, then work through Philippine official histories and source-conflict HOLDs.
+
+
+## AI editorial: Korean democracy, society and historical remembrance (14 November 2026)
+
+- [x] AI editorial source-reviewed 14 Korean records across EN/IT/ES/FR/DE/PT with Ministry of Interior, Veterans Affairs and Culture primary citations, chronology and immutable PR #120 source version.
+- [x] Ledger **63 AI_CERTIFIED / 8 HOLD / 102 AI_REVIEW_QUEUED** of 173; separate editorial review from actual runtime publication and human signoffs.
+- [ ] Continue 102 remaining entries; two records with cross-language year mismatch were not certified in this batch.
+
+
+## AI editorial certification — Korean statutory observances (14 November 2026)
+
+- [x] Cross-check 11 Ministry of the Interior and Safety Korean histories against the official commemorative-day chronology and six locales; source versions pinned to PR #120.
+- [x] Ledger **49 AI_CERTIFIED / 8 HOLD / 116 AI_REVIEW_QUEUED** of 173; no human certification or rich runtime release implied.
+- [ ] Continue remaining 116 with primary-source checks; source conflicts stay HOLD pending actual correction.
+
+
+## AI certification — Canada and Korea, 14 November 2026
+
+- [x] Individually review 7 primary-source and six-locale stories (CA 3 / KR 4); pin source draft PR head and per-file blob in AI certificate ledger.
+- [x] **38 AI_CERTIFIED**, 8 HOLD and 127 awaiting AI source review (173 total); preserve unknown historical origin dates and distinguish symbolic observances from enacted legal holidays.
+- [ ] Research remaining 127, specifically unresolved Raoul Wallenberg chronology and PH source conflicts. AI-certified drafts are not yet released into app runtime.
+
 
 ## AI editorial Canada Wave20 + origin histories (14 November 2026)
 

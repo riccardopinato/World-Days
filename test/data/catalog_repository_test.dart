@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 56);
+    expect(snapshot.editorialById.length, 502);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
@@ -188,13 +188,89 @@ void main() {
       }
     }
 
-    expect(snapshot.editorialFor('world-habitat-day', 'en'), isNull);
+    expect(snapshot.editorialFor('world-habitat-day', 'en')?.status,
+        'AI_SOURCE_REVIEWED_SIX_LOCALE');
     final english =
         snapshot.verifiedMetadataFor('world-habitat-day', 'en')!;
     final italian =
         snapshot.verifiedMetadataFor('world-habitat-day', 'it')!;
     expect(english.title, isNot(italian.title));
     expect(english.authorityName, isNotEmpty);
+  });
+
+  test('173 AI-certified country histories appear in all six locales', () async {
+    final snapshot = await const CatalogRepository().load();
+    const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final locale in locales) {
+      final enriched = snapshot.editorialByLocale[locale]!.values
+          .where((entry) => entry.status == 'AI_CERTIFIED');
+      expect(enriched.length, 173, reason: locale);
+      expect(
+        snapshot.editorialFor('ca-raoul-wallenberg-day', locale)!.origin,
+        allOf(contains('2001'), contains('2002')),
+        reason: locale,
+      );
+      expect(
+        snapshot.editorialFor('kr-hangeul-day', locale)!.origin,
+        isNotEmpty,
+      );
+      expect(
+        snapshot.editorialFor(
+          'ph-w13-panagyaman-rice-festival-month', locale,
+        )!.origin,
+        isNotEmpty,
+      );
+    }
+  });
+
+  test('90 additional six-locale source-reviewed articles retain status parity', () async {
+    final snapshot = await const CatalogRepository().load();
+    const languages = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final lang in languages) {
+      final pack = snapshot.editorialByLocale[lang]!;
+      expect(pack.values.where(
+        (entry) => entry.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE',
+      ).length, 90);
+      for (final id in <String>[
+        'sk-carpathian-dukla-operation-heroes-day',
+        'spain-exile-victims-remembrance-day',
+        'italian-republic-day',
+        'fi-finnish-independence-day',
+        'cz-independent-state-restoration',
+      ]) {
+        final story = snapshot.editorialFor(id, lang)!;
+        expect(story.locale, lang);
+        expect(story.origin, isNotEmpty);
+        expect(story.status, 'AI_SOURCE_REVIEWED_SIX_LOCALE');
+      }
+    }
+  });
+
+  test('183 older source histories have AI-certified six-locale translations', () async {
+    final snapshot = await const CatalogRepository().load();
+    const languages = <String>['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final lang in languages) {
+      final pack = snapshot.editorialByLocale[lang]!;
+      expect(
+        pack.values.where((x) => x.status == 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE').length,
+        183,
+        reason: lang,
+      );
+      for (final id in <String>[
+        'world-wetlands-day',
+        'international-day-against-illicit-trafficking-in-cultural-property',
+        'world-day-for-glaciers',
+        'international-day-of-nowruz',
+      ]) {
+        final story = snapshot.editorialFor(id, lang);
+        expect(story, isNotNull, reason: '$id/$lang');
+        expect(story!.status, 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE');
+        expect(story.locale, lang);
+        expect(story.origin.length, greaterThan(75));
+        expect(story.quickFacts.length, greaterThanOrEqualTo(2));
+        expect(story.waysToTakePart, isEmpty);
+      }
+    }
   });
 
   test('extended editorial schema and annual override load safely', () async {
@@ -214,6 +290,25 @@ void main() {
     expect(annual.campaignUrl, isNotEmpty);
     expect(annual.verifiedAt, isNotEmpty);
     expect(snapshot.yearOverrideFor('world-health-day', 2027), isNull);
+  });
+
+  test('PR119 three recovered stories preserve six-locale source chronology', () async {
+    final snapshot = await const CatalogRepository().load();
+    const ids = <String>[
+      'world-day-for-african-and-afrodescendant-culture',
+      'international-day-to-combat-islamophobia',
+      'international-day-of-the-girl-child',
+    ];
+    for (final oid in ids) {
+      for (final locale in <String>['en', 'it', 'es', 'fr', 'de', 'pt']) {
+        final article = snapshot.editorialFor(oid, locale);
+        expect(article, isNotNull, reason: '$oid/$locale');
+        expect(article!.status, 'AI_SOURCE_REVIEWED_SIX_LOCALE');
+        expect(article.origin, isNotEmpty);
+        expect(article.quickFacts, hasLength(greaterThanOrEqualTo(2)));
+        expect(article.waysToTakePart, isEmpty);
+      }
+    }
   });
 
   test('remote content pack decoder preserves bundled catalog semantics', () async {

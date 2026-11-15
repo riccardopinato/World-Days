@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "scope": "PR119_SIX_LOCALE_RECOVERY_3",
+  "status": "AI_SOURCE_REVIEWED_SIX_LOCALE_NOT_INDEPENDENT_HUMAN_CERTIFIED",
+  "count": 3,
+  "reviewedAt": "2026-11-15",
+  "sourcesReviewed": [
+    "https://www.unesco.org/en/days/african-culture",
+    "https://www.un.org/en/observances/anti-islamophobia-day",
+    "https://www.un.org/en/observances/girl-child-day"
+  ],
+  "records": [
+    {
+      "observanceId": "world-day-for-african-and-afrodescendant-culture",
+      "sources": [
+        "https://www.unesco.org/en/days/african-culture",
+        "https://www.unesco.org/en/articles/world-day-african-and-afro-descendant-culture"
+      ],
+      "introducedYear": 2019,
+      "firstObservedYear": null,
+      "locale": {
+        "en": {
+          "heading": "Why 24 January links African cultures to a continental charter",
+          "origin": "African and Afrodescendant cultures are not a single tradition: languages, arts, knowledge and living practices connect communities across Africa and its diasporas. UNESCO made that diversity the focus of a distinct observance at the 40th session of its General Conference in 2019. The date, 24 January, is not random. It marks the adoption in 2006 of the Charter for African Cultural Renaissance by African Union Heads of State and Government. The UNESCO observance therefore recalls an earlier African-led cultural policy milestone, while encouraging States to ratify and implement the Charter rather than treating culture as a decorative afterthought.",
+          "promoter": "UNESCO's General Conference instituted the annual day in 2019. The African Union Heads of State and Government had adopted the 2006 Charter it commemorates; the cited UNESCO pages do not establish a single individual founder.",
+          "purpose": "Promote the diversity of cultures of the African continent and Afrodescendant communities as living heritage and as a foundation for sustainable development, mutual respect, dialogue and peace.",
+          "facts": [
+            "24 January commemorates adoption of the Charter for African Cultural Renaissance by African Union leaders in 2006.",
+            "UNESCO adopted the world day in 2019, thirteen years after the original African Union cultural-policy milestone.",
+            "The day includes the cultures of African diasporas and Afrodescendant communities around the world, not only those on the African continent.",
+            "UNESCO associates the observance with increasing ratification and implementation of the Charter by African States."
+          ]
+        },
+        "it": {
+          "heading": "Il 24 gennaio unisce culture africane e una Carta del 2006",
+          "origin": "Le culture africane e afrodiscendenti non costituiscono una tradizione unica: lingue, arti e saperi si intrecciano tra il continente e le diaspore. L'UNESCO dedicò a questa pluralità una giornata specifica durante la 40ª Conferenza generale nel 2019. Il 24 gennaio non è una scelta casuale: ricorda il giorno in cui, nel 2006, i capi di Stato e di governo dell'Unione Africana adottarono la Carta per il Rinascimento culturale africano. La ricorrenza UNESCO richiama dunque un precedente passaggio politico e culturale promosso dall'Africa, invitando gli Stati a ratificare e applicare la Carta.",
+          "promoter": "La Conferenza generale UNESCO istituì la giornata nel 2019. I capi di Stato e di governo dell'Unione Africana adottarono invece la Carta del 2006 ricordata dalla data; le fonti UNESCO non documentano un singolo ideatore della ricorrenza.",
+          "purpose": "Valorizzare la diversità delle culture africane e afrodiscendenti come patrimonio vivo e risorsa per sviluppo sostenibile, rispetto reciproco, dialogo e pace.",
+          "facts": [
+            "Il 24 gennaio ricorda l'adozione della Carta per il Rinascimento culturale africano da parte dei leader dell'Unione Africana nel 2006.",
+            "La giornata UNESCO fu istituita nel 2019, tredici anni dopo il passaggio culturale dell'Unione Africana.",
+            "La ricorrenza riguarda anche le diaspore e le comunità afrodiscendenti in tutto il mondo, non soltanto gli Stati africani.",
+            "L'UNESCO collega la giornata alla ratifica e all'attuazione della Carta per il Rinascimento culturale africano."
+          ]
+        },
+        "es": {
+          "heading": "24 de enero: una carta africana inspira una jornada mundial",
+          "origin": "Las culturas africanas y afrodescendientes abarcan numerosas lenguas, artes, conocimientos y formas de vida, tanto en África como en sus diásporas. En 2019, la Conferencia General de la UNESCO estableció el Día Mundial de la Cultura Africana y de los Afrodescendientes en su 40.ª reunión. Se eligió el 24 de enero para recordar la aprobación en 2006 de la Carta para el Renacimiento Cultural Africano por los jefes de Estado y de Gobierno de la Unión Africana. La carta continental de 2006 y la jornada de UNESCO de 2019 son actos diferentes. La celebración impulsa la protección del patrimonio vivo, el diálogo y la aplicación de la carta.",
+          "promoter": "La Conferencia General de la UNESCO instituyó la jornada en 2019; la Unión Africana había aprobado la carta que se recuerda.",
+          "purpose": "Valorar la diversidad cultural africana y afrodescendiente, el diálogo y el patrimonio vivo.",
+          "facts": [
+            "El 24 de enero recuerda la Carta para el Renacimiento Cultural Africano de 2006.",
+            "La UNESCO aprobó la jornada mundial en 2019.",
+            "La conmemoración incluye también a las comunidades afrodescendientes fuera de África."
+          ]
+        },
+        "fr": {
+          "heading": "24 janvier : une charte africaine inspire une journée mondiale",
+          "origin": "Les cultures africaines et afrodescendantes regroupent de nombreuses langues, formes artistiques, connaissances et traditions, en Afrique et dans les diasporas. En 2019, la Conférence générale de l'UNESCO a créé la Journée mondiale de la culture africaine et afrodescendante lors de sa 40e session. La date du 24 janvier rappelle l'adoption en 2006 de la Charte de la renaissance culturelle africaine par les chefs d'État et de gouvernement de l'Union africaine. La charte de 2006 et l'instauration de la journée en 2019 sont des actes distincts. La commémoration encourage la valorisation des patrimoines vivants, le dialogue et la mise en œuvre de la charte.",
+          "promoter": "La Conférence générale de l'UNESCO a instauré la journée en 2019; l'Union africaine avait adopté la charte auparavant.",
+          "purpose": "Reconnaître la diversité culturelle africaine et afrodescendante et soutenir le dialogue.",
+          "facts": [
+            "Le 24 janvier rappelle une charte de l'Union africaine adoptée en 2006.",
+            "La journée a été instituée par l'UNESCO en 2019.",
+            "Elle concerne aussi les cultures des diasporas africaines."
+          ]
+        },
+        "de": {
+          "heading": "24. Januar: eine afrikanische Charta wird zum Anlass eines Welttages",
+          "origin": "Afrikanische und afrodeszendente Kulturen bestehen aus zahlreichen Sprachen, Künsten, Wissensformen und lebendigen Traditionen auf dem Kontinent und in der Diaspora. Die UNESCO-Generalkonferenz erklärte 2019 auf ihrer 40. Tagung den 24. Januar zum Welttag der afrikanischen und afrodeszendenten Kultur. Das Datum erinnert an die Verabschiedung der Charta für die kulturelle Renaissance Afrikas durch Staats- und Regierungschefs der Afrikanischen Union im Jahr 2006. Die Charta von 2006 und der UNESCO-Gedenktag von 2019 sind getrennte Beschlüsse. Der Tag fördert kulturelle Vielfalt, die Pflege lebendigen Erbes und die Umsetzung der Charta.",
+          "promoter": "Die UNESCO-Generalkonferenz führte den Tag 2019 ein; die Afrikanische Union hatte die zugrunde liegende Charta zuvor angenommen.",
+          "purpose": "Kulturelle Vielfalt der afrikanischen Länder und ihrer Diaspora würdigen und den Dialog fördern.",
+          "facts": [
+            "Der 24. Januar erinnert an die afrikanische Kultur-Charta von 2006.",
+            "Die UNESCO beschloss den Welttag 2019.",
+            "Auch afrodeszendente Gemeinschaften außerhalb Afrikas sind einbezogen."
+          ]
+        },
+        "pt": {
+          "heading": "24 de janeiro: uma carta africana inspira um dia mundial",
+          "origin": "As culturas africanas e afrodescendentes incluem numerosas línguas, artes, saberes e tradições vivas no continente e nas diásporas. Em 2019, a Conferência Geral da UNESCO criou o Dia Mundial da Cultura Africana e Afrodescendente na sua 40.ª sessão. A data de 24 de janeiro recorda a adoção, em 2006, da Carta para o Renascimento Cultural Africano pelos chefes de Estado e de Governo da União Africana. A carta de 2006 e a criação do dia da UNESCO em 2019 são decisões distintas. A comemoração promove a diversidade cultural, a proteção do património vivo, o diálogo e a aplicação da carta.",
+          "promoter": "A Conferência Geral da UNESCO instituiu a data em 2019; a União Africana tinha aprovado a carta anterior.",
+          "purpose": "Valorizar culturas africanas e afrodescendentes, o património vivo e o diálogo.",
+          "facts": [
+            "O 24 de janeiro evoca a carta cultural africana de 2006.",
+            "A UNESCO instituiu o dia mundial em 2019.",
+            "A jornada inclui também as culturas das diásporas africanas."
+          ]
+        }
+      },
+      "sourceReviewNote": "Original first-party observance or resolution research cross-checked on 2026-11-12. Draft source: origin_100_original_bilingual_drafts_20261112.json #2. Institutional act: 40 C/Resolution 50. Dated act and rationale separated; dates without demonstrated anniversary explicitly non-inferred. Source-checked by model, not human-reviewed ES/FR/DE/PT.",
+      "sourcePR": 119,
+      "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+      "sourceFile": "data/editorial/batches/origin_stories_wave05_20261112.json",
+      "sourceBlobSha": "165103bb3a5dd69ef035fe03fd3248b82b98d36c",
+      "mainBlobSha": "eeff0f1e0cb34e54249a6fcdeae75a80122e56a1",
+      "reviewLevel": "AI_SOURCE_AND_CHRONOLOGY_REVIEWED",
+      "independentHumanReview": false
+    },
+    {
+      "observanceId": "international-day-to-combat-islamophobia",
+      "sources": [
+        "https://www.un.org/en/observances/anti-islamophobia-day",
+        "https://digitallibrary.un.org/record/3965353",
+        "https://webtv.un.org/en/asset/k1b/k1b5e0bu6t",
+        "https://turkiye.un.org/en/223089-un-observes-first-international-day-against-islamophobia",
+        "https://digitallibrary.un.org/nanna/record/4030568/files/A_78_591-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+      ],
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "locale": {
+        "en": {
+          "heading": "15 March: remembering Christchurch and confronting anti-Muslim hatred",
+          "origin": "On 15 March 2022, the UN General Assembly adopted resolution A/RES/76/254 establishing the International Day to Combat Islamophobia. The date recalls the attacks on two mosques in Christchurch, New Zealand, on 15 March 2019. The UN identifies the initiative as supported by states of the Organization of Islamic Cooperation; the UN Digital Library preserves the original draft addendum and its named sponsors. UN reporting identifies the March 2023 commemoration as the first observance. The founding resolution must not be confused with the earlier tragedy or the subsequent 2024 measures resolution.",
+          "promoter": "The resolution was sponsored by member states of the Organization of Islamic Cooperation; the UN General Assembly formally adopted it.",
+          "purpose": "Oppose anti-Muslim hatred, stereotyping and discrimination while protecting freedom of religion, human rights and peaceful coexistence.",
+          "facts": [
+            "Resolution A/RES/76/254 was adopted on 15 March 2022.",
+            "15 March marks the anniversary of the 2019 Christchurch mosque attacks.",
+            "The UN Digital Library lists named co-sponsors in A/76/L.41/Add.1.",
+            "The UN reported its first international commemoration in March 2023."
+          ]
+        },
+        "it": {
+          "heading": "Il 15 marzo, dalla memoria di Christchurch alla lotta contro l'islamofobia",
+          "origin": "Il 15 marzo 2022 l'Assemblea generale ONU ha adottato la risoluzione A/RES/76/254, istituendo la Giornata internazionale contro l'islamofobia. La data richiama gli attacchi alle moschee di Christchurch, in Nuova Zelanda, avvenuti il 15 marzo 2019. La pagina ufficiale ONU attribuisce il sostegno alla proposta agli Stati membri dell'Organizzazione della cooperazione islamica, mentre la Biblioteca digitale ONU conserva il documento con i Paesi firmatari. La prima commemorazione internazionale è documentata nel marzo 2023: va distinta sia dall'evento tragico del 2019 sia dalle successive misure approvate nel 2024.",
+          "promoter": "Gli Stati membri dell'Organizzazione della cooperazione islamica sostennero la proposta; l'Assemblea generale ONU la adottò formalmente.",
+          "purpose": "Contrastare odio e discriminazione contro le persone musulmane, tutelando libertà religiosa, diritti umani e convivenza pacifica.",
+          "facts": [
+            "La risoluzione A/RES/76/254 è stata adottata il 15 marzo 2022.",
+            "Il 15 marzo ricorda gli attacchi alle moschee di Christchurch del 2019.",
+            "Il documento A/76/L.41/Add.1 identifica diversi Stati sostenitori della proposta.",
+            "L'ONU ha documentato la prima commemorazione internazionale nel marzo 2023."
+          ]
+        },
+        "es": {
+          "heading": "15 de marzo: recordar Christchurch y combatir la islamofobia",
+          "origin": "El 15 de marzo de 2022, la Asamblea General de las Naciones Unidas adoptó la resolución A/RES/76/254 y creó el Día Internacional de la Lucha contra la Islamofobia. La fecha recuerda los ataques contra dos mezquitas de Christchurch, Nueva Zelanda, ocurridos el 15 de marzo de 2019. La iniciativa contó con el apoyo de Estados miembros de la Organización de Cooperación Islámica, y la Biblioteca Digital de la ONU conserva los documentos con los patrocinadores. La primera conmemoración internacional tuvo lugar en marzo de 2023. La tragedia de 2019, la resolución de 2022, el primer acto de 2023 y medidas posteriores de 2024 son etapas distintas.",
+          "promoter": "Estados de la Organización de Cooperación Islámica promovieron la propuesta; la Asamblea General de la ONU la aprobó.",
+          "purpose": "Combatir el odio antimusulmán y proteger la libertad de religión y los derechos humanos.",
+          "facts": [
+            "La resolución A/RES/76/254 fue aprobada el 15 de marzo de 2022.",
+            "La fecha recuerda los ataques de Christchurch de 2019.",
+            "La primera conmemoración de la ONU tuvo lugar en marzo de 2023."
+          ]
+        },
+        "fr": {
+          "heading": "15 mars : se souvenir de Christchurch et combattre l'islamophobie",
+          "origin": "Le 15 mars 2022, l'Assemblée générale des Nations unies a adopté la résolution A/RES/76/254 instituant la Journée internationale de lutte contre l'islamophobie. La date rappelle les attaques perpétrées contre deux mosquées de Christchurch, en Nouvelle-Zélande, le 15 mars 2019. La proposition était soutenue par des États membres de l'Organisation de la coopération islamique, et la Bibliothèque numérique de l'ONU conserve les documents identifiant les parrains. La première commémoration internationale a eu lieu en mars 2023. Les attaques de 2019, la décision de 2022, la première célébration de 2023 et les mesures ultérieures de 2024 sont des étapes distinctes.",
+          "promoter": "Des États de l'Organisation de la coopération islamique ont porté le projet, adopté par l'Assemblée générale de l'ONU.",
+          "purpose": "Combattre la haine antimusulmane et défendre la liberté de religion et les droits humains.",
+          "facts": [
+            "La résolution A/RES/76/254 a été adoptée le 15 mars 2022.",
+            "La date rappelle les attaques de Christchurch en 2019.",
+            "La première commémoration de l'ONU a eu lieu en mars 2023."
+          ]
+        },
+        "de": {
+          "heading": "15. März: an Christchurch erinnern und Islamfeindlichkeit bekämpfen",
+          "origin": "Die UN-Generalversammlung verabschiedete am 15. März 2022 die Resolution A/RES/76/254 und führte den Internationalen Tag zur Bekämpfung von Islamfeindlichkeit ein. Das Datum erinnert an die Angriffe auf zwei Moscheen in Christchurch, Neuseeland, am 15. März 2019. Der Vorschlag wurde von Mitgliedstaaten der Organisation für Islamische Zusammenarbeit unterstützt; die Digitale Bibliothek der UN dokumentiert die beteiligten Unterstützer. Die erste internationale Feier folgte im März 2023. Die Tat von 2019, der Beschluss von 2022, die erste Feier 2023 und spätere Maßnahmen von 2024 sind getrennte Ereignisse.",
+          "promoter": "Mitgliedstaaten der Organisation für Islamische Zusammenarbeit unterstützten den Vorschlag; die UN-Generalversammlung beschloss den Tag.",
+          "purpose": "Antimuslimischen Hass bekämpfen und Religionsfreiheit und Menschenrechte schützen.",
+          "facts": [
+            "Resolution A/RES/76/254 wurde am 15. März 2022 angenommen.",
+            "Der Tag erinnert an die Anschläge von Christchurch 2019.",
+            "Die erste UN-Begehung fand im März 2023 statt."
+          ]
+        },
+        "pt": {
+          "heading": "15 de março: recordar Christchurch e combater a islamofobia",
+          "origin": "Em 15 de março de 2022, a Assembleia Geral das Nações Unidas aprovou a resolução A/RES/76/254 e criou o Dia Internacional de Combate à Islamofobia. A data recorda os ataques a duas mesquitas em Christchurch, na Nova Zelândia, em 15 de março de 2019. A iniciativa contou com o apoio de Estados membros da Organização da Cooperação Islâmica, e a Biblioteca Digital da ONU conserva os documentos com os patrocinadores. A primeira comemoração internacional ocorreu em março de 2023. Os ataques de 2019, a resolução de 2022, a primeira celebração de 2023 e as medidas posteriores de 2024 são marcos distintos.",
+          "promoter": "Estados membros da Organização da Cooperação Islâmica apoiaram a proposta; a Assembleia Geral da ONU aprovou-a.",
+          "purpose": "Combater o ódio antimuçulmano e proteger a liberdade religiosa e os direitos humanos.",
+          "facts": [
+            "A resolução A/RES/76/254 foi aprovada em 15 de março de 2022.",
+            "A data recorda os ataques de Christchurch de 2019.",
+            "A primeira comemoração da ONU ocorreu em março de 2023."
+          ]
+        }
+      },
+      "sourceReviewNote": "Primary UN resolution record, UN observance, UN Web TV and UN 2023 report checked; formal designation 2022, first commemoration 2023, Christchurch date rationale documented. No human native review; ES/FR/DE/PT pending. UN A/78/591 explicitly records the first International Day commemoration in March 2023, convened by Pakistan.",
+      "sourcePR": 119,
+      "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+      "sourceFile": "data/editorial/batches/origin_stories_wave09_20261112.json",
+      "sourceBlobSha": "2f54ca7845806059bd967cfd5a2df4a63f2c3a44",
+      "mainBlobSha": "c43bd79df75af9cf0c9d27fbd65c6f19e455ebfa",
+      "reviewLevel": "AI_SOURCE_AND_CHRONOLOGY_REVIEWED",
+      "independentHumanReview": false
+    },
+    {
+      "observanceId": "international-day-of-the-girl-child",
+      "introducedYear": 2011,
+      "firstObservedYear": 2012,
+      "sources": [
+        "https://mandates.un.org/mandate/A/RES/66/170",
+        "https://www.un.org/en/observances/girl-child-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "11 October: girls' rights gain a dedicated UN observance",
+          "origin": "On 19 December 2011 the United Nations General Assembly adopted A/RES/66/170 and designated 11 October the International Day of the Girl Child. The first annual celebration followed in 2012, drawing attention to challenges that girls face in education, protection from violence, health and participation in social life. The day builds on earlier children's and women's rights instruments, including the Convention on the Rights of the Child. It does not imply that girls' activism began in 2011. The original UN resolution fixes 11 October, while a particular anniversary explaining the selection has not been individually verified here.",
+          "promoter": "The General Assembly established the UN day in 2011, following sustained work by girls' rights organisations and Member States on equality and protection.",
+          "purpose": "Advance girls' access to education, health and safety, and support their leadership and participation in decisions affecting their lives.",
+          "facts": [
+            "The founding resolution A/RES/66/170 was adopted on 19 December 2011.",
+            "The first annual UN International Day of the Girl Child took place in 2012.",
+            "The celebration explicitly addresses girls' rights, opportunities and protection against discrimination."
+          ]
+        },
+        "it": {
+          "heading": "11 ottobre: un giorno ONU dedicato ai diritti delle ragazze",
+          "origin": "Il 19 dicembre 2011 l'Assemblea generale ONU adottò A/RES/66/170, istituendo l'11 ottobre Giornata internazionale delle bambine e delle ragazze. La prima celebrazione si svolse nel 2012 e richiamò difficoltà riguardanti istruzione, violenza, salute e partecipazione alla vita sociale. La giornata si inserisce in un percorso di tutela dei diritti dell'infanzia e delle donne, compresa la Convenzione sui diritti del fanciullo, e non significa che l'impegno delle ragazze sia iniziato nel 2011. L'atto conferma l'11 ottobre, ma non è stato verificato qui un preciso anniversario storico che abbia determinato la scelta.",
+          "promoter": "L'Assemblea generale istituì la giornata nel 2011, dopo anni di lavoro di organizzazioni e Stati per uguaglianza, istruzione e protezione delle ragazze.",
+          "purpose": "Ampliare accesso a scuola, salute e sicurezza e sostenere leadership e partecipazione delle ragazze alle decisioni che le riguardano.",
+          "facts": [
+            "La risoluzione istitutiva A/RES/66/170 fu adottata il 19 dicembre 2011.",
+            "La prima Giornata internazionale ONU delle ragazze si svolse nel 2012.",
+            "La ricorrenza riguarda opportunità, diritti e protezione contro le discriminazioni."
+          ]
+        },
+        "es": {
+          "heading": "11 de octubre: los derechos de las niñas tienen una jornada propia",
+          "origin": "El 19 de diciembre de 2011, la Asamblea General de las Naciones Unidas aprobó la resolución A/RES/66/170 y estableció el 11 de octubre como Día Internacional de la Niña. La primera celebración anual se realizó en 2012 para llamar la atención sobre los obstáculos que afrontan las niñas en la educación, la salud, la seguridad y la participación social. La decisión se apoya en instrumentos anteriores sobre los derechos de la infancia y de las mujeres y no significa que el activismo de las niñas comenzara en 2011. La resolución fija el 11 de octubre, pero el expediente revisado no demuestra un aniversario histórico concreto que explique esa elección.",
+          "promoter": "La Asamblea General de la ONU aprobó la resolución en 2011 tras iniciativas sobre derechos e igualdad de las niñas.",
+          "purpose": "Mejorar educación, protección, salud y oportunidades de liderazgo para las niñas.",
+          "facts": [
+            "La resolución A/RES/66/170 se adoptó el 19 de diciembre de 2011.",
+            "La primera celebración internacional ocurrió en 2012.",
+            "La fecha anual establecida es el 11 de octubre."
+          ]
+        },
+        "fr": {
+          "heading": "11 octobre : les droits des filles ont leur propre journée",
+          "origin": "Le 19 décembre 2011, l'Assemblée générale des Nations unies a adopté la résolution A/RES/66/170 et institué le 11 octobre Journée internationale de la fille. La première célébration annuelle a suivi en 2012 afin de mettre en lumière les obstacles rencontrés par les filles dans l'éducation, la santé, la protection et la participation sociale. Cette décision prolonge des instruments plus anciens sur les droits des enfants et des femmes et ne signifie pas que la mobilisation des filles a commencé en 2011. Le texte fixe le 11 octobre, mais les documents consultés n'établissent pas un anniversaire historique précis expliquant cette date.",
+          "promoter": "L'Assemblée générale de l'ONU a créé la journée en 2011, après des initiatives pour les droits et l'égalité des filles.",
+          "purpose": "Promouvoir l'éducation, la santé, la protection et le leadership des filles.",
+          "facts": [
+            "La résolution A/RES/66/170 a été adoptée le 19 décembre 2011.",
+            "La première célébration internationale a eu lieu en 2012.",
+            "La date officielle est le 11 octobre."
+          ]
+        },
+        "de": {
+          "heading": "11. Oktober: Mädchenrechte erhalten einen eigenen UN-Tag",
+          "origin": "Am 19. Dezember 2011 verabschiedete die UN-Generalversammlung die Resolution A/RES/66/170 und bestimmte den 11. Oktober zum Internationalen Mädchentag. Die erste jährliche Begehung folgte 2012 und machte Hindernisse für Mädchen in Bildung, Gesundheit, Schutz vor Gewalt und gesellschaftlicher Teilhabe sichtbar. Der Beschluss stützt sich auf ältere Kinder- und Frauenrechtsinstrumente und bedeutet nicht, dass sich Mädchen erst seit 2011 für ihre Rechte einsetzen. Die Resolution legt den 11. Oktober fest; die ausgewerteten Dokumente belegen jedoch keinen konkreten historischen Jahrestag als Grund für die Wahl des Datums.",
+          "promoter": "Die UN-Generalversammlung führte den Tag 2011 nach Initiativen für Mädchenrechte und Gleichberechtigung ein.",
+          "purpose": "Bildung, Gesundheit, Sicherheit und Mitbestimmung von Mädchen stärken.",
+          "facts": [
+            "Resolution A/RES/66/170 wurde am 19. Dezember 2011 angenommen.",
+            "Die erste internationale Feier fand 2012 statt.",
+            "Der jährliche Termin ist der 11. Oktober."
+          ]
+        },
+        "pt": {
+          "heading": "11 de outubro: os direitos das raparigas ganham um dia próprio",
+          "origin": "Em 19 de dezembro de 2011, a Assembleia Geral das Nações Unidas aprovou a resolução A/RES/66/170 e instituiu 11 de outubro como Dia Internacional da Rapariga. A primeira celebração anual ocorreu em 2012, chamando a atenção para obstáculos na educação, saúde, proteção contra violência e participação social. A decisão dá continuidade a instrumentos anteriores sobre direitos das crianças e das mulheres e não significa que as raparigas tenham começado a reivindicar direitos apenas em 2011. A resolução fixa 11 de outubro, mas os documentos examinados não demonstram um aniversário histórico específico como motivo da escolha.",
+          "promoter": "A Assembleia Geral da ONU criou a data em 2011 após iniciativas em defesa dos direitos e da igualdade das raparigas.",
+          "purpose": "Promover educação, saúde, segurança e participação das raparigas.",
+          "facts": [
+            "A resolução A/RES/66/170 foi aprovada em 19 de dezembro de 2011.",
+            "A primeira celebração internacional ocorreu em 2012.",
+            "A data anual estabelecida é 11 de outubro."
+          ]
+        }
+      },
+      "sourceReviewNote": "Individual original source check for international-day-of-the-girl-child, act A/RES/66/170; original initiator, date-specific history, formal year and first observance distinguished. IT/EN model-authored drafts, pending qualified factual and native linguistic review. Other four locales pending.",
+      "sourcePR": 119,
+      "sourceHead": "3ece3c825efb6fe7e6ac42182c334e9dcd90f5f0",
+      "sourceFile": "data/editorial/batches/origin_stories_wave17_20261112.json",
+      "sourceBlobSha": "6cccfc2c817bc349c0fd10dffd0bacb2f69564e7",
+      "mainBlobSha": "8b8e68b3813f8950c5e7c8cd4a456eb61d7a175e",
+      "reviewLevel": "AI_SOURCE_AND_CHRONOLOGY_REVIEWED",
+      "independentHumanReview": false
+    }
+  ]
+}

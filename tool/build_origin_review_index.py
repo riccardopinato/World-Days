@@ -92,6 +92,10 @@ def run():
    # Factual source research is not qualified six-locale rich-editorial approval.
    # Fail closed until an independent approval record and reviewer gate exist.
    "runtimeRichEditorialApproved":False,
+   # A source-linked original history may be shown as explicitly labelled
+   # research while the six-language Rich Editorial gate stays closed.
+   "runtimeResearchPreviewAllowed":story is not None,
+   "researchPreviewStatus":"SOURCE_RESEARCHED_EN_IT_NOT_HUMAN_CERTIFIED" if story else None,
    "additionalTranslationDrafts":sorted(set(story["locale"])-{"it","en"}) if story else [],
    "primaryResearch":None,
   }

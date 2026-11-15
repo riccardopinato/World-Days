@@ -1,4 +1,28 @@
 # World Days — Owner-delegated AI editorial certification
+
+## 15 November 2026 — final 99-item AI editorial review
+
+- All **99** outstanding original-source six-language dossiers reviewed and recorded in one append-only ledger batch (91 queued, eight source disputes). Region queue: **173 AI_CERTIFIED, zero queued, zero source HOLD**. This is AI editorial approval only: no human signoffs and no app/runtime publication.
+- Each source ID stores original draft PR HEAD, file blob SHA, reviewed evidence links, six-language flags, key historical facts and review date. The validator freezes all 173 identity/date/source references separately and verifies current source PR versions remotely.
+- Eight original source conflicts remain in immutable historical queue, and are reconciled in AI ledger with explicit sourceConflictResolution. Primary laws take precedence over calendar misprints.
+- **Prepublication exception 1**: Raoul Wallenberg Day established 2001, first January 17 2002 per Canadian PM statements and June 2001 House debates. Ledger corrected; six original-language draft paragraphs still say the year is unresolved. Update source copy before app publication.
+- **Prepublication exceptions 2–3**: Panagyaman Rice Festival (April 2004 proclamation) and W.A.T.C.H. Month (June 2009 proclamation) lack an explicit indefinitely annual national legal-mandate clause. NCCA recurring cultural calendar supports editorial inclusion, not claims of a nationwide legally mandated or paid holiday. Preserve legalRecurrenceCaveat.
+- Language differences such as 1940s vs 1948 in Jeju, 1950s phrasing for veterans, and the extra contextual UN 1990 year for older-persons records are compatible rather than legal-year contradictions.
+- Do not equate 173 AI editorial approvals with imported, certified or published content in the 1,111-day runtime catalog.
+
+Primary-source dispute resolutions:
+- https://lawphil.net/statutes/repacts/ra2013/ra_10556_2013.html
+- https://lawphil.net/statutes/repacts/ra1991/ra_7104_1991.html
+- https://lawphil.net/statutes/repacts/ra1990/ra_6949_1990.html
+- https://lawphil.net/statutes/repacts/ra1964/ra_4166_1964.html
+- https://lawphil.net/statutes/repacts/ra2015/ra_10661_2015.html
+- https://lawphil.net/executive/proc/proc1998/proc_55_1998.html
+- https://lawphil.net/executive/proc/proc2004/proc_606_2004.html
+- https://lawphil.net/executive/proc/proc2009/proc_1782_2009.html
+- https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/
+- https://www.pm.gc.ca/en/news/statements/2021/01/17/statement-prime-minister-raoul-wallenberg-day
+- https://www.ourcommons.ca/Content/House/371/Debates/072/han072-e.pdf
+
 Effective: 2026-11-14. Scope: six-language World Days content (EN/IT/ES/FR/DE/PT).
 
 ## Decision

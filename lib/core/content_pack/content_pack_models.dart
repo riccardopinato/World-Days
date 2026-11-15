@@ -55,7 +55,7 @@ final class ContentPackManifest {
     final uri = Uri.tryParse(payloadUrl);
     final safeVersion = RegExp(r'^[A-Za-z0-9._-]+$').hasMatch(version);
     final safeSha = RegExp(r'^[0-9a-f]{64}$').hasMatch(sha256);
-    const maxPackBytes = 5 * 1024 * 1024;
+    const maxPackBytes = 9 * 1024 * 1024;
     const allowedHost = 'riccardopinato.github.io';
     const allowedPathPrefix = '/World-Days/content/';
 
