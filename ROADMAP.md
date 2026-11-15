@@ -1,3 +1,13 @@
+## 15 November 2026 — 173 AI-certified histories: guarded runtime import proposal
+
+- [x] Preserve immutable AI certification ledger (173/173) and match 173 individual canonical IDs to original PR HEAD + Git file blobs.
+- [x] Prepare four country-partitioned six-locale snapshots (CA32, KR57, PH39+45); include corrected 2001/2002 Raoul chronology and qualifying legal-status caveats for Panagyaman/W.A.T.C.H.
+- [x] Implement deterministic editorial pack importer after the 56 legacy source checks; add regression/translation/provenance guard, Android/Web build wiring, and version 2026.11.15.1.
+- [ ] Confirm exact-head GitHub CI (Python, Flutter analyze/test, Web) passes on this publication PR.
+- [ ] Merge reviewed import PR to main only when all branch and safety gates pass; source PR #118/#119/#120 remain Draft.
+- [ ] Explicitly deploy Web Preview / generate installable Android evidence separately. The seven extra Philippine source holds remain excluded.
+- Coverage if merged: 56 legacy + 173 AI-reviewed = 229 six-locale rich editorials; catalog total 1,111 unchanged. Do not equate AI review with human certification or physical/store approval.
+
 # World Days — Active roadmap
 
 ## 15 November 2026 — PH / KR / CA: complete AI editorial queue (99-of-99 final batch)

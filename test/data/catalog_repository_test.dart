@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 56);
+    expect(snapshot.editorialById.length, 229);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
@@ -195,6 +195,31 @@ void main() {
         snapshot.verifiedMetadataFor('world-habitat-day', 'it')!;
     expect(english.title, isNot(italian.title));
     expect(english.authorityName, isNotEmpty);
+  });
+
+  test('173 AI-certified country histories appear in all six locales', () async {
+    final snapshot = await const CatalogRepository().load();
+    const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final locale in locales) {
+      final enriched = snapshot.editorialByLocale[locale]!.values
+          .where((entry) => entry.status == 'AI_CERTIFIED');
+      expect(enriched.length, 173, reason: locale);
+      expect(
+        snapshot.editorialFor('ca-raoul-wallenberg-day', locale)!.origin,
+        allOf(contains('2001'), contains('2002')),
+        reason: locale,
+      );
+      expect(
+        snapshot.editorialFor('kr-hangeul-day', locale)!.origin,
+        isNotEmpty,
+      );
+      expect(
+        snapshot.editorialFor(
+          'ph-w13-panagyaman-rice-festival-month', locale,
+        )!.origin,
+        isNotEmpty,
+      );
+    }
   });
 
   test('extended editorial schema and annual override load safely', () async {

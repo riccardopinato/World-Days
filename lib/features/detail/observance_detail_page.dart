@@ -200,12 +200,14 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
                 body: editorial.origin,
               ),
             ],
-            const SizedBox(height: 22),
-            _EditorialSection(
-              icon: Icons.lightbulb_outline_rounded,
-              title: l10n.whyItMatters,
-              body: editorial.whyItMatters,
-            ),
+            if (editorial.whyItMatters.trim().isNotEmpty) ...[
+              const SizedBox(height: 22),
+              _EditorialSection(
+                icon: Icons.lightbulb_outline_rounded,
+                title: l10n.whyItMatters,
+                body: editorial.whyItMatters,
+              ),
+            ],
             if (editorial.quickFacts.isNotEmpty) ...[
               const SizedBox(height: 24),
               Text(
