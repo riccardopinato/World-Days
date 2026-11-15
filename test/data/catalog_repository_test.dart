@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 319);
+    expect(snapshot.editorialById.length, 502);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
@@ -242,6 +242,33 @@ void main() {
         expect(story.locale, lang);
         expect(story.origin, isNotEmpty);
         expect(story.status, 'AI_SOURCE_REVIEWED_SIX_LOCALE');
+      }
+    }
+  });
+
+  test('183 older source histories have AI-certified six-locale translations', () async {
+    final snapshot = await const CatalogRepository().load();
+    const languages = <String>['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final lang in languages) {
+      final pack = snapshot.editorialByLocale[lang]!;
+      expect(
+        pack.values.where((x) => x.status == 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE').length,
+        183,
+        reason: lang,
+      );
+      for (final id in <String>[
+        'world-wetlands-day',
+        'international-day-against-illicit-trafficking-in-cultural-property',
+        'world-day-for-glaciers',
+        'international-day-of-nowruz',
+      ]) {
+        final story = snapshot.editorialFor(id, lang);
+        expect(story, isNotNull, reason: '$id/$lang');
+        expect(story!.status, 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE');
+        expect(story.locale, lang);
+        expect(story.origin.length, greaterThan(75));
+        expect(story.quickFacts.length, greaterThanOrEqualTo(2));
+        expect(story.waysToTakePart, isEmpty);
       }
     }
   });
