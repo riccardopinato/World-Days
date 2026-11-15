@@ -25,6 +25,9 @@ jobs:
           import argostranslate.package as package
           import argostranslate.translate as translate
           package.update_package_index()
+          fwd=next(x for x in package.get_available_packages() if x.from_code=='en' and x.to_code=='es')
+          package.install_from_path(fwd.download())
+          print('installed forward en_es model', fwd.package_version)
           src=next(x for x in package.get_available_packages() if x.from_code=='es' and x.to_code=='en')
           print('selected version',src.package_version)
           package.install_from_path(src.download())
