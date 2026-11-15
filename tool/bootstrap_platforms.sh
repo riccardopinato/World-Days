@@ -7,6 +7,10 @@ python3 tool/build_editorial.py >/dev/null
 python3 tool/build_origin_review_index.py >/dev/null
 python3 tool/validate_origin_review_index.py >/dev/null
 python3 tool/build_editorial_locales.py >/dev/null
+# Reapply the reviewed 173-record six-locale snapshot after regeneration.
+# The app runtime, web, tests and release scripts must use the SAME pack.
+python3 tool/publish_ai_173_editorial.py >/dev/null
+python3 tool/validate_ai_173_publication.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then
