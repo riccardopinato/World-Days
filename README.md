@@ -1,6 +1,14 @@
-## 15 November 2026 — Restore all 485 prepared historical stories (six-language honesty preserved)
+### Verified merge and CI result — 15 November 2026
 
-**Current integration proposal:** deduplicated historical coverage is **485 canonical IDs**: 325 source-linked EN/IT dossiers already in main + 173 prior AI certificates - 18 overlapped Wave20 IDs + five six-language dossiers from PR #122. The source notes were previously bundled but hidden by a rich-approval gate; they now have their own explicitly labelled read-only research-preview lane without granting human certification or a rich-editorial approval.
+- **Merged to protected main:** [PR #135](https://github.com/riccardopinato/World-Days/pull/135), merge commit `647d894e5871a1c5e79eff35642be91e5007b28b`; PR exact-head `bc8c6faea86c57f88c6f6468c64495f5c3eed56b`.
+- **CI passed:** [Development checks #1069](https://github.com/riccardopinato/World-Days/actions/runs/43660888145), including 485-identity inventory, 316 six-locale rich records, 186 source-research-only bilingual previews, 199 Flutter tests, 9 Rome-date tests, Flutter analyze and release Web compilation.
+- **Content pack:** `2026.11.15.2`, **4,681,021 bytes** (strict 5 MiB cap unchanged); SHA-256 `72c4faeddc5d928e2b0120c02d2b9638eb039042cfa01e9a1c281f77982ca005`. Source SHA/URL metadata is preserved in repository ledger, stripped only as unused duplicate from remote transport.
+- **Status caveat:** the prior 173 are AI editorial certified, 87 additional entries are AI-source-and-chronology reviewed in all six languages, while 186 remain individually source-researched bilingual notes awaiting ES/FR/DE/PT translations and further review. **No qualified independent human signoff asserted.**
+- Seven Philippine legal/identity cases remain blocked outside the 485 prepared histories. No automatic production APK, Google Play or public Web Preview deployment performed.
+
+## 15 November 2026 — All 485 prepared historical stories integrated on main (#135)
+
+**Verified merged integration:** deduplicated historical coverage is **485 canonical IDs**: 325 source-linked EN/IT dossiers already in main + 173 prior AI certificates - 18 overlapped Wave20 IDs + five six-language dossiers from PR #122. The source notes were previously bundled but hidden by a rich-approval gate; they now have their own explicitly labelled read-only research-preview lane without granting human certification or a rich-editorial approval.
 
 The full six-locale rich editorial pack grows from **229 to 316** (56 curated + 173 AI-certified + 82 previously prepared Wave20 translations + 5 top-country articles); 87 new additions are labelled **AI_SOURCE_REVIEWED_SIX_LOCALE**, not independent human certification. Remaining older bilingual-only originals are shown in EN/IT, and clearly fall back to English in ES/FR/DE/PT — never disguised as translated. Seven disputed Philippine IDs remain outside this scope. The canonical catalog remains **1111**; no unapproved release or human/physical QA claim.
 
