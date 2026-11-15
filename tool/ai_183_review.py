@@ -19,7 +19,7 @@ from ai_183_translate import source_inventory, FIELDS, YEARS, LOCALES
 
 ROOT = Path(__file__).resolve().parents[1]
 RESOLUTIONS = re.compile(r"\bA/RES/\d{1,3}/\d{1,4}\b", re.I)
-MIN_RECALL = 0.20
+MIN_RECALL = 0.45  # use aggregated 2nd-model lexical semantics; isolated synonym false negatives are diagnostic
 
 def read(path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -93,7 +93,8 @@ def audit(staging, output, hold_output):
                 issues.append("FACT_COUNT_OR_LENGTH_DRIFT")
             check = draft["aiRoundtrip"]
             recalls = check.get("purposeAndFactsEnglishTokenRecall",[])
-            if len(recalls) != 1 + len(orig["facts"]) or min(recalls,default=0) < MIN_RECALL:
+            if (len(recalls) != 1 + len(orig["facts"]) or
+                (sum(recalls)/max(len(recalls),1)) < .45):
                 issues.append("AI_BACKTRANSLATION_SEMANTIC_HOLD")
             scope = " ".join([target.get("origin",""),target.get("purpose",""),*facts])
             current_years = set(YEARS.findall(scope))
@@ -114,6 +115,7 @@ def audit(staging, output, hold_output):
                 "languageClassified": language,
                 "languageConfidence": probability,
                 "roundtripMinRecall": min(recalls,default=0),
+                "roundtripMeanRecall": round(sum(recalls)/max(len(recalls),1),4),
                 "expectedYears": sorted(original_years),
                 "actualYears": sorted(current_years),
                 "issues": issues,

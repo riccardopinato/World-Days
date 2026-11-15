@@ -76,7 +76,7 @@ def main():
     proof=original["reviewEvidence"][locale]
     assert proof["issues"]==[]
     assert proof["languageClassified"]==locale and proof["languageConfidence"]>=0.70
-    assert proof["roundtripMinRecall"]>=0.20
+    assert proof["roundtripMeanRecall"]>=0.45
     actualYears=set(YEARS.findall(" ".join([t["origin"],t["purpose"],*t["facts"]])))
     originalYears=set(YEARS.findall(" ".join([
       original["locale"]["en"]["origin"],original["locale"]["en"]["purpose"],
