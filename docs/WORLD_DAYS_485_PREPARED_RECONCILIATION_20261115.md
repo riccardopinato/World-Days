@@ -42,3 +42,7 @@ Catalog baseline: 1111 canonical unique observance IDs.
 - Runtime verification requires exact-head CI green; APK signing/physical review and Web deployment remain distinct.
 
 This ledger is a content inventory and build integration record. Do not cite it as an independent human history review, physical-device certification or proof of public availability.
+
+## Remote-pack size optimization (15 November 2026)
+
+The CDN content pack retains the **5 MiB** limit unchanged. To avoid re-transmitting six copies per story of audit-only SHA/head/source URL metadata which `EditorialEntry.fromJson` never reads, `tool/build_content_pack.py` removes only `aiEditorialProvenance` from the remote payload. Full audit metadata and all localized prose/facts remain in the **bundled generated editorial JSON** and the **immutable Git review ledgers**; remote and bundle equality is validated after removing just that field. This preserves all displayed facts and does not weaken the source gate or increase the size cap.

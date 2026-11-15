@@ -188,7 +188,8 @@ void main() {
       }
     }
 
-    expect(snapshot.editorialFor('world-habitat-day', 'en'), isNull);
+    expect(snapshot.editorialFor('world-habitat-day', 'en')?.status,
+        'AI_SOURCE_REVIEWED_SIX_LOCALE');
     final english =
         snapshot.verifiedMetadataFor('world-habitat-day', 'en')!;
     final italian =
