@@ -81,10 +81,14 @@ jobs:
           python3 tool/validate_dataset.py
           python3 tool/build_editorial.py
           python3 tool/validate_editorial.py
+          python3 tool/build_origin_review_index.py
+          python3 tool/validate_origin_review_index.py
           python3 tool/build_editorial_locales.py
           python3 tool/validate_editorial_locales.py
           python3 tool/publish_ai_173_editorial.py
           python3 tool/validate_ai_173_publication.py
+          python3 tool/publish_prepared_sixlocale_87.py
+          python3 tool/validate_prepared_485_reachability.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py

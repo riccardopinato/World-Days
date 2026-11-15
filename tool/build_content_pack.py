@@ -26,7 +26,18 @@ def load_json(name):
         raise SystemExit(f"missing generated content file: {path}")
     return json.loads(path.read_text(encoding="utf-8"))
 
-files = {name: load_json(name) for name in FILES}
+# Provenance SHA/source URLs remain in source-controlled generated bundle and
+# immutable review ledgers; EditorialEntry.fromJson does not consume these.
+# Omitting this duplicated transport-only field from the remote payload is
+# lossless for runtime content and keeps the strict 5 MiB CDN pack size gate.
+files = {}
+for name in FILES:
+    doc = load_json(name)
+    if name.startswith("editorial_"):
+        assert doc["schemaVersion"] == 2
+        for item in doc["entries"]:
+            item.pop("aiEditorialProvenance", None)
+    files[name] = doc
 seed = files["official_core.json"]
 version = str(seed.get("datasetVersion", "")).strip()
 if not version or not re.fullmatch(r"[A-Za-z0-9._-]+", version):

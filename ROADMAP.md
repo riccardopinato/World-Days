@@ -1,3 +1,19 @@
+## 15 November 2026 — Close *existing* story integration before new authoring
+
+- [x] Reconcile exactly **485 unique prepared historical IDs**: main origin batch **325**, AI 173 (18 already represented in Wave20), plus 5 source-linked six-language national histories on PR #122.
+- [x] Pin 82 remaining Wave20 six-locale source texts to PR #118 and exact EN/IT main parity; retain source SHA and correct speculative 1994 first-ceremony phrasing in four translations.
+- [x] Pin five top-country source histories to PR #122; preserve first-observation unknowns where source evidence does not establish the first edition.
+- [x] Introduce a transparent **research preview** for previously hidden 325 EN/IT origin dossiers without changing `runtimeRichEditorialApproved=false` or pretending ES/FR/DE/PT translations exist.
+- [x] Define new deterministic 87-entry six-locale importer, reachability/source/duplicate gates, Flutter tests, publication contract and catalog version `2026.11.15.2`.
+- [ ] Exact-head CI and Flutter Web build for this PR, with source and locale gates.
+- [ ] Merge to protected main on green checks only; no automatic APK signing, Play production or public Web Preview deploy.
+- [ ] Review/translate the remaining EN/IT-only research in ES/FR/DE/PT, with separate independent factual/native language qualification before a six-locale certification claim.
+- [ ] Resolve 7 additional Philippine legal/identity holds independently; then continue only remaining canonical story backlog without duplicating any of the 485 existing dossiers.
+- **If integrated:** 316 six-language rich editorials (56 curated, 173 AI-certified, 87 AI-source-reviewed), 325 bundled EN/IT researched history notes eligible for sourced research preview; union of historical dossiers **485/1111**. Six-locale human signoffs: not asserted.
+
+See `docs/WORLD_DAYS_485_PREPARED_RECONCILIATION_20261115.md`.
+
+---
 ## 15 November 2026 — 173 AI-certified histories: guarded runtime import proposal
 
 - [x] Preserve immutable AI certification ledger (173/173) and match 173 individual canonical IDs to original PR HEAD + Git file blobs.

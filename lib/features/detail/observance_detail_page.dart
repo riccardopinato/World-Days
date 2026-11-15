@@ -134,9 +134,30 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           _OriginResearchPanel(
             observanceId: record.id,
             localeCode: localeCode,
+            hideWhenRichEditorialPresent: editorial != null,
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
+            if (editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE') ...[
+              Text(
+                switch (localeCode.toLowerCase()) {
+                  'it' => 'Testo verificato per fonti e cronologia con revisione AI; '
+                      'non ancora certificato da revisori indipendenti.',
+                  'es' => 'Texto comprobado con fuentes y revisión de IA; '
+                      'sin certificación editorial humana independiente.',
+                  'fr' => 'Texte vérifié avec des sources et une revue IA ; '
+                      'sans certification éditoriale humaine indépendante.',
+                  'de' => 'Quellengeprüfter Text mit KI-Review; '
+                      'ohne unabhängige menschliche Fachfreigabe.',
+                  'pt' => 'Texto verificado com fontes e revisão de IA; '
+                      'sem certificação editorial humana independente.',
+                  _ => 'Source-checked text with AI review; '
+                      'not independently human-editorial certified.',
+                },
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              const SizedBox(height: 12),
+            ],
             if (editorialFallback) ...[
               Card(
                 child: Padding(
@@ -552,20 +573,24 @@ class _OriginResearchPanel extends StatelessWidget {
   const _OriginResearchPanel({
     required this.observanceId,
     required this.localeCode,
+    required this.hideWhenRichEditorialPresent,
   });
 
   final String observanceId;
   final String localeCode;
+  final bool hideWhenRichEditorialPresent;
 
   @override
-  Widget build(BuildContext context) => FutureBuilder<Map<String, Map<String, dynamic>>>(
+  Widget build(BuildContext context) => hideWhenRichEditorialPresent
+      ? const SizedBox.shrink()
+      : FutureBuilder<Map<String, Map<String, dynamic>>>(
         future: OriginReviewRepository.load(),
         builder: (context, snapshot) {
           if (!snapshot.hasData) return const SizedBox.shrink();
           final entry = snapshot.data![observanceId];
           if (entry == null ||
               entry['originResearchStatus'] != 'PRIMARY_RESEARCHED_ORIGIN_IT_EN' ||
-              entry['runtimeRichEditorialApproved'] != true) {
+              entry['runtimeResearchPreviewAllowed'] != true) {
             return const SizedBox.shrink();
           }
           final research = entry['primaryResearch'];
@@ -573,6 +598,20 @@ class _OriginResearchPanel extends StatelessWidget {
           final locales = research['locale'];
           if (locales is! Map) return const SizedBox.shrink();
           final italian = localeCode.toLowerCase() == 'it';
+          final researchNotice = switch (localeCode.toLowerCase()) {
+            'it' => 'Ricerca storica basata sulle fonti indicate. '
+                'Non è una certificazione editoriale indipendente.',
+            'es' => 'Investigación histórica con fuentes citadas. '
+                'No cuenta con revisión editorial independiente.',
+            'fr' => 'Recherche historique fondée sur les sources citées. '
+                'Elle ne constitue pas une certification éditoriale indépendante.',
+            'de' => 'Historische Recherche mit Quellenbelegen; '
+                'keine unabhängige redaktionelle Zertifizierung.',
+            'pt' => 'Pesquisa histórica com fontes citadas; '
+                'não tem certificação editorial independente.',
+            _ => 'Historical research from cited sources; '
+                'not independently editorially certified.',
+          };
           final content = locales[italian ? 'it' : 'en'];
           if (content is! Map) return const SizedBox.shrink();
           final facts = (content['facts'] as List? ?? const <dynamic>[])
@@ -585,6 +624,7 @@ class _OriginResearchPanel extends StatelessWidget {
               .map((item) => item.toString())
               .toList(growable: false);
           return Card(
+            key: const ValueKey<String>('origin-research-preview'),
             child: Padding(
               padding: const EdgeInsets.all(18),
               child: Column(
@@ -596,6 +636,9 @@ class _OriginResearchPanel extends StatelessWidget {
                           fontWeight: FontWeight.w800,
                         ),
                   ),
+                  const SizedBox(height: 10),
+                  Text(researchNotice,
+                      style: Theme.of(context).textTheme.bodySmall),
                   if (!italian && localeCode.toLowerCase() != 'en') ...[
                     const SizedBox(height: 8),
                     const Text('Additional history is currently available in English.'),
@@ -655,7 +698,7 @@ class _PendingHistoryGate extends StatelessWidget {
           if (snapshot.connectionState != ConnectionState.done) {
             return const SizedBox.shrink();
           }
-          if (snapshot.data?[observanceId]?['runtimeRichEditorialApproved'] == true &&
+          if (snapshot.data?[observanceId]?['runtimeResearchPreviewAllowed'] == true &&
               snapshot.data?[observanceId]?['primaryResearch'] != null) {
             return const SizedBox.shrink();
           }
