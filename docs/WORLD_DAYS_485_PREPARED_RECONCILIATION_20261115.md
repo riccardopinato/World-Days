@@ -46,3 +46,12 @@ This ledger is a content inventory and build integration record. Do not cite it 
 ## Remote-pack size optimization (15 November 2026)
 
 The CDN content pack retains the **5 MiB** limit unchanged. To avoid re-transmitting six copies per story of audit-only SHA/head/source URL metadata which `EditorialEntry.fromJson` never reads, `tool/build_content_pack.py` removes only `aiEditorialProvenance` from the remote payload. Full audit metadata and all localized prose/facts remain in the **bundled generated editorial JSON** and the **immutable Git review ledgers**; remote and bundle equality is validated after removing just that field. This preserves all displayed facts and does not weaken the source gate or increase the size cap.
+
+### Verified merge and CI result — 15 November 2026
+
+- **Merged to protected main:** [PR #135](https://github.com/riccardopinato/World-Days/pull/135), merge commit `647d894e5871a1c5e79eff35642be91e5007b28b`; PR exact-head `bc8c6faea86c57f88c6f6468c64495f5c3eed56b`.
+- **CI passed:** [Development checks #1069](https://github.com/riccardopinato/World-Days/actions/runs/43660888145), including 485-identity inventory, 316 six-locale rich records, 186 source-research-only bilingual previews, 199 Flutter tests, 9 Rome-date tests, Flutter analyze and release Web compilation.
+- **Content pack:** `2026.11.15.2`, **4,681,021 bytes** (strict 5 MiB cap unchanged); SHA-256 `72c4faeddc5d928e2b0120c02d2b9638eb039042cfa01e9a1c281f77982ca005`. Source SHA/URL metadata is preserved in repository ledger, stripped only as unused duplicate from remote transport.
+- **Status caveat:** the prior 173 are AI editorial certified, 87 additional entries are AI-source-and-chronology reviewed in all six languages, while 186 remain individually source-researched bilingual notes awaiting ES/FR/DE/PT translations and further review. **No qualified independent human signoff asserted.**
+- Seven Philippine legal/identity cases remain blocked outside the 485 prepared histories. No automatic production APK, Google Play or public Web Preview deployment performed.
+

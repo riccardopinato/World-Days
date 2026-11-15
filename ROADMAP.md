@@ -1,3 +1,11 @@
+### Verified merge and CI result — 15 November 2026
+
+- **Merged to protected main:** [PR #135](https://github.com/riccardopinato/World-Days/pull/135), merge commit `647d894e5871a1c5e79eff35642be91e5007b28b`; PR exact-head `bc8c6faea86c57f88c6f6468c64495f5c3eed56b`.
+- **CI passed:** [Development checks #1069](https://github.com/riccardopinato/World-Days/actions/runs/43660888145), including 485-identity inventory, 316 six-locale rich records, 186 source-research-only bilingual previews, 199 Flutter tests, 9 Rome-date tests, Flutter analyze and release Web compilation.
+- **Content pack:** `2026.11.15.2`, **4,681,021 bytes** (strict 5 MiB cap unchanged); SHA-256 `72c4faeddc5d928e2b0120c02d2b9638eb039042cfa01e9a1c281f77982ca005`. Source SHA/URL metadata is preserved in repository ledger, stripped only as unused duplicate from remote transport.
+- **Status caveat:** the prior 173 are AI editorial certified, 87 additional entries are AI-source-and-chronology reviewed in all six languages, while 186 remain individually source-researched bilingual notes awaiting ES/FR/DE/PT translations and further review. **No qualified independent human signoff asserted.**
+- Seven Philippine legal/identity cases remain blocked outside the 485 prepared histories. No automatic production APK, Google Play or public Web Preview deployment performed.
+
 ## 15 November 2026 — Close *existing* story integration before new authoring
 
 - [x] Reconcile exactly **485 unique prepared historical IDs**: main origin batch **325**, AI 173 (18 already represented in Wave20), plus 5 source-linked six-language national histories on PR #122.
@@ -5,8 +13,8 @@
 - [x] Pin five top-country source histories to PR #122; preserve first-observation unknowns where source evidence does not establish the first edition.
 - [x] Introduce a transparent **research preview** for previously hidden 325 EN/IT origin dossiers without changing `runtimeRichEditorialApproved=false` or pretending ES/FR/DE/PT translations exist.
 - [x] Define new deterministic 87-entry six-locale importer, reachability/source/duplicate gates, Flutter tests, publication contract and catalog version `2026.11.15.2`.
-- [ ] Exact-head CI and Flutter Web build for this PR, with source and locale gates.
-- [ ] Merge to protected main on green checks only; no automatic APK signing, Play production or public Web Preview deploy.
+- [x] Exact-head CI passed: Development checks #1069 — Python source validation, 199 Flutter tests, nine Rome-date tests, Flutter analyze, Web build.
+- [x] Merged PR #135 to protected main at 647d894e5871a1c5e79eff35642be91e5007b28b; APK signing, Play production and public Web Preview deployment remain separate and unperformed.
 - [ ] Review/translate the remaining EN/IT-only research in ES/FR/DE/PT, with separate independent factual/native language qualification before a six-locale certification claim.
 - [ ] Resolve 7 additional Philippine legal/identity holds independently; then continue only remaining canonical story backlog without duplicating any of the 485 existing dossiers.
 - **If integrated:** 316 six-language rich editorials (56 curated, 173 AI-certified, 87 AI-source-reviewed), 325 bundled EN/IT researched history notes eligible for sourced research preview; union of historical dossiers **485/1111**. Six-locale human signoffs: not asserted.
