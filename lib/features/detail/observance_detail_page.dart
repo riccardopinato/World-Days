@@ -138,6 +138,26 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
+            if (editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE') ...[
+              Text(
+                switch (localeCode.toLowerCase()) {
+                  'it' => 'Testo verificato per fonti e cronologia con revisione AI; '
+                      'non ancora certificato da revisori indipendenti.',
+                  'es' => 'Texto comprobado con fuentes y revisión de IA; '
+                      'sin certificación editorial humana independiente.',
+                  'fr' => 'Texte vérifié avec des sources et une revue IA ; '
+                      'sans certification éditoriale humaine indépendante.',
+                  'de' => 'Quellengeprüfter Text mit KI-Review; '
+                      'ohne unabhängige menschliche Fachfreigabe.',
+                  'pt' => 'Texto verificado com fontes e revisão de IA; '
+                      'sem certificação editorial humana independente.',
+                  _ => 'Source-checked text with AI review; '
+                      'not independently human-editorial certified.',
+                },
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              const SizedBox(height: 12),
+            ],
             if (editorialFallback) ...[
               Card(
                 child: Padding(
@@ -604,6 +624,7 @@ class _OriginResearchPanel extends StatelessWidget {
               .map((item) => item.toString())
               .toList(growable: false);
           return Card(
+            key: const ValueKey<String>('origin-research-preview'),
             child: Padding(
               padding: const EdgeInsets.all(18),
               child: Column(
@@ -615,6 +636,9 @@ class _OriginResearchPanel extends StatelessWidget {
                           fontWeight: FontWeight.w800,
                         ),
                   ),
+                  const SizedBox(height: 10),
+                  Text(researchNotice,
+                      style: Theme.of(context).textTheme.bodySmall),
                   if (!italian && localeCode.toLowerCase() != 'en') ...[
                     const SizedBox(height: 8),
                     const Text('Additional history is currently available in English.'),

@@ -15,6 +15,8 @@ assert all(item.get("runtimeRichEditorialApproved") is False for item in entries
 assert "entry['runtimeResearchPreviewAllowed'] != true" in dart, "Research preview must have explicit source gate"
 assert "snapshot.data?[observanceId]?['runtimeResearchPreviewAllowed'] == true" in dart, "Fallback must disappear only when a sourced preview exists"
 assert "hideWhenRichEditorialPresent: editorial != null" in dart, "Do not duplicate rich editorial and research notes"
+assert "Text(researchNotice" in dart, "Research preview must visibly disclose independent-review status"
+assert "editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE'" in dart, "AI source-reviewed Rich Editorial must disclose review level"
 assert all(item.get("runtimeResearchPreviewAllowed") is (item["primaryResearch"] is not None) for item in entries), "Only source-researched origins can be previewed"
 assert all(item.get("researchPreviewStatus") == ("SOURCE_RESEARCHED_EN_IT_NOT_HUMAN_CERTIFIED" if item["primaryResearch"] is not None else None) for item in entries), "Research preview must not claim human certification"
 batches = registry["batches"]
