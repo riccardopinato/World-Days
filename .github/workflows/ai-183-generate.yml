@@ -1,0 +1,113 @@
+name: World Days AI translation — 183 existing stories (review before publication)
+
+on:
+  push:
+    branches:
+      - editorial/ai-certify-183-20261115
+    paths:
+      - .github/workflows/ai-183-generate.yml
+      - tool/ai_183_translate.py
+      - tool/ai_183_review.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: world-days-ai-183-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    name: Offline AI NMT ${{ matrix.locale }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 220
+    strategy:
+      fail-fast: false
+      matrix:
+        locale: [es, fr, de, pt]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.11'
+      - name: Install local neural translator (not bundled in app)
+        run: python -m pip install argostranslate==1.11.0 langdetect==1.0.9
+      - name: Generate exact 319-story baseline before selecting remaining 183
+        run: |
+          python tool/build_dataset.py
+          python tool/build_editorial.py
+          python tool/build_origin_review_index.py
+          python tool/build_editorial_locales.py
+          python tool/publish_ai_173_editorial.py
+          python tool/publish_prepared_sixlocale_87.py
+          python tool/publish_pr119_recovered_three.py
+      - name: AI translation + independent AI backtranslation
+        env:
+          ARGOS_DEVICE_TYPE: cpu
+          OMP_NUM_THREADS: '2'
+        run: |
+          python tool/ai_183_translate.py \
+            --locale "${{ matrix.locale }}" \
+            --output "staging/ai_183_${{ matrix.locale }}.json"
+      - name: Archive source/AI-model-specific translation candidates
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: ai-183-${{ matrix.locale }}
+          path: staging/ai_183_${{ matrix.locale }}.json
+          if-no-files-found: error
+          retention-days: 21
+
+  review:
+    name: Consolidate and fail-closed AI review (all 183)
+    needs: translate
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.11'
+      - name: Retrieve four neural-translated, independently backtranslated packs
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
+        with:
+          pattern: ai-183-*
+          path: staging
+          merge-multiple: true
+      - name: Install language detector for independent review
+        run: python -m pip install langdetect==1.0.9
+      - name: Rebuild immutable EN/IT baseline
+        run: |
+          python tool/build_dataset.py
+          python tool/build_editorial.py
+          python tool/build_origin_review_index.py
+          python tool/build_editorial_locales.py
+          python tool/publish_ai_173_editorial.py
+          python tool/publish_prepared_sixlocale_87.py
+          python tool/publish_pr119_recovered_three.py
+      - name: AI source, chronology, language, roundtrip, identity and completeness review
+        run: |
+          python tool/ai_183_review.py \
+            --input staging \
+            --output data/editorial/published/ai_183_sixlocale_reviewed.json \
+            --holds reports/ai_183_review_holds.json
+      - name: Save failure diagnostics or success proof
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: ai-183-review-outcome
+          path: reports/ai_183_review_holds.json
+          if-no-files-found: warn
+          retention-days: 21
+      - name: Commit only fully AI-reviewed 183/183 artifacts on research PR branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editorial/published/ai_183_sixlocale_reviewed.json
+          git commit -m "data(editorial): source-bound AI-review pass for 183 existing six-locale histories"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

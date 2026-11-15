@@ -1,3 +1,14 @@
+## 15 November 2026 — AI-only six-locale certification of 183 existing research stories (IN PROGRESS)
+
+- Baseline: 325 original primary-source EN/IT research dossiers; 319 existing Rich Editorial articles in all six languages; 183 exact remaining original dossiers requiring Spanish, French, German and Portuguese.
+- This task **does not author 183 new canonical stories**: it translates the four missing locales of the already-written original EN/IT histories.
+- Implemented preparation tools: `tool/ai_183_translate.py` selects 183 exact ID-unmatched source dossiers, runs a locally downloaded neural ArgosTranslate model per language, independently back-translates purpose and facts through the inverse AI model, and emits four candidacy artifacts recording model versions and SHA-256.
+- `tool/ai_183_review.py` imposes deterministic ID/source file identity, founding chronology/year/resolution parity, language classification, field/fact completeness and second-model roundtrip factual keyword checks. **Fail closed**: any case with quality or legal-source problems is explicitly HOLD, never marked complete.
+- The build-time GitHub Action `.github/workflows/ai-183-generate.yml` runs ES/FR/DE/PT independently and writes the complete six-locale snapshot **only if all 183 pass**; no translation model or new paid remote provider is added to the Flutter app.
+- **No AI certification, main merge, six-language runtime integration or public release is claimed until the generated artifacts and exact-head CI actually pass.** Existing 183 English/Italian previews remain visible until then.
+- AI review here means **neural translation + independent inverse-neural check + chronology/source-field parity**. It is not qualified independent human native-linguist/history certification, and source URLs are not asserted to be individually re-fetched at this step.
+- Target after complete review and publication follow-up: 502 six-locale Rich Editorial articles (319 existing + 183), 485 unique prewritten historical dossiers, zero bilingual-only previews, catalog 1,111 unchanged. Content pack size/format and Flutter tests must be requalified separately.
+
 ## 15 November 2026 — additional PR119 six-locale recovery (3 histories)
 
 - Recovered three previously drafted and source-linked six-language histories without new authoring: `world-day-for-african-and-afrodescendant-culture` (UNESCO: 2019 designation, 2006 AU charter), `international-day-to-combat-islamophobia` (UN: 2022 designation, 2019 Christchurch remembrance, 2023 first observance), and `international-day-of-the-girl-child` (UN: 2011 resolution, 2012 first edition).
