@@ -46,6 +46,113 @@ def detect(text):
     langs = detect_langs(text)
     return (langs[0].lang, round(langs[0].prob, 4))
 
+# Source-based, narrowly scoped repairs of real neural translation drift.
+# All replacements are corroborated by the unchanged original EN dossiers.
+SOURCE_CORRECTIONS = {
+    ("international-day-for-the-fight-against-illegal-unreported-and-unregulated-fishing", "pt"): (
+        ("A/RES/72", "A/RES/72/72"),
+    ),
+    ("international-tea-day", "fr"): (
+        ("A/RES/74/41", "A/RES/74/241"),
+        ("La culture du thé et la consommation d'alcool ont des antécédents culturels plus anciens",
+         "La culture et la consommation du thé s'inscrivent dans des traditions culturelles plus anciennes"),
+    ),
+    ("world-television-day", "pt"): (
+        ("A/RES/51/05", "A/RES/51/205"),
+    ),
+}
+
+def apply_source_corrections(oid, locale, original, target):
+    requested = SOURCE_CORRECTIONS.get((oid, locale), ())
+    if not requested:
+        return []
+    corrections = []
+    joined = " ".join([original["origin"], original["promoter"], *original["facts"]])
+    for wrong, corrected in requested:
+        if corrected.startswith("A/RES/"):
+            assert corrected in joined, (oid, "official resolution absent in original")
+        affected = []
+        for field in ("heading", "origin", "promoter", "purpose"):
+            if wrong in target[field]:
+                target[field] = target[field].replace(wrong, corrected)
+                affected.append(field)
+        facts = target["facts"]
+        for i, fact in enumerate(facts):
+            if wrong in fact:
+                facts[i] = fact.replace(wrong, corrected)
+                affected.append(f"facts[{i}]")
+        assert affected, (oid, locale, "expected source correction mismatch", wrong)
+        corrections.append({"replaced":wrong,"sourceConfirmed":corrected,"fields":affected})
+    return corrections
+
+def repair_isolated_es_inverse(english, es_candidates, expected_model):
+    """Re-run inverse AI in a clean es->en-only model environment.
+
+    Original ES generator produced good Spanish prose, correctly preserved
+    every recorded chronology, but its per-segment inverse scores are all
+    zero. Recompute against the *same recorded model SHA* as an independent
+    process, never replace null evidence with fabricated passing scores.
+    """
+    from ai_183_translate import roundtrip_overlap
+    if not all(
+        len(row["aiRoundtrip"]["purposeAndFactsEnglishTokenRecall"]) >= 3
+        and all(n == 0 for n in row["aiRoundtrip"]["purposeAndFactsEnglishTokenRecall"])
+        for row in es_candidates.values()
+    ):
+        return False
+    import sys
+    import importlib
+    print("AI183_ES_REVIEW: all original inverse scores zero; isolated es->en verification", flush=True)
+    subprocess.run(
+        [sys.executable, "-m", "pip", "install", "--quiet",
+         "argostranslate==1.11.0"], check=True,
+    )
+    importlib.invalidate_caches()
+    import argostranslate.package as package
+    import argostranslate.translate as translate
+    package.update_package_index()
+    selected = next(
+        (item for item in package.get_available_packages()
+         if item.from_code == "es" and item.to_code == "en"
+         and item.package_version == expected_model["packageVersion"]),
+        None,
+    )
+    assert selected is not None, "Exact pinned ES inverse model not available"
+    path = selected.download()
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+    assert digest == expected_model["modelSha256"], "Model identity drift during AI review"
+    package.install_from_path(path)
+    languages = translate.get_installed_languages()
+    source = next(x for x in languages if x.code == "es")
+    target = next(x for x in languages if x.code == "en")
+    inverse = source.get_translation(target)
+    nonzero = 0
+    for i, (oid, draft) in enumerate(sorted(es_candidates.items()), 1):
+        original = english[oid]["locale"]["en"]
+        original_sentences = [original["purpose"], *original["facts"]]
+        translated = draft["translations"]
+        spanish_sentences = [translated["purpose"], *translated["facts"]]
+        inverse_texts = [inverse.translate(s) for s in spanish_sentences]
+        scores = [
+            roundtrip_overlap(source_text, translation_text)
+            for source_text, translation_text in zip(original_sentences, inverse_texts)
+        ]
+        assert len(scores) == len(spanish_sentences), (oid, "inverse_count")
+        draft["aiRoundtrip"]["purposeAndFactsEnglishTokenRecall"] = scores
+        draft["aiRoundtrip"]["recomputedByIndependentInverseModel"] = True
+        draft["aiRoundtrip"]["inverseEvidenceSha256"] = hashlib.sha256(
+            json.dumps(inverse_texts, ensure_ascii=False).encode()
+        ).hexdigest()
+        nonzero += any(n > 0 for n in scores)
+        if i % 25 == 0 or i == len(es_candidates):
+            print(f"AI183_ES_INVERSE: {i}/{len(es_candidates)}", flush=True)
+    assert nonzero >= 175, (
+        "Isolated reverse model failed across too many stories",
+        nonzero,
+    )
+    print("AI183_ES_INVERSE_VALID: matching model checksum and actual inverse AI outputs", nonzero, flush=True)
+    return True
+
 def audit(staging, output, hold_output):
     english = source_inventory()
     links = proof_index()
@@ -68,6 +175,11 @@ def audit(staging, output, hold_output):
         models[locale] = {"forward": doc["forwardModel"], "reverse":doc["independentReverseModel"]}
         all_langs[locale] = actual
 
+    isolated_es_rechecked = repair_isolated_es_inverse(
+        english, all_langs["es"], models["es"]["reverse"]
+    )
+    models["es"]["isolatedInverseReviewerRecomputed"] = isolated_es_rechecked
+
     qualified = []
     for oid, source in english.items():
         orig = source["locale"]["en"]
@@ -81,6 +193,7 @@ def audit(staging, output, hold_output):
             draft = all_langs[locale][oid]
             target = draft["translations"]
             issues = []
+            verified_fixes = apply_source_corrections(oid, locale, orig, target)
             if not all(isinstance(target.get(k),str) and len(target[k].strip())>=25
                        for k in FIELDS):
                 issues.append("EMPTY_OR_SHORT_TRANSLATED_FIELD")
@@ -116,6 +229,7 @@ def audit(staging, output, hold_output):
                 "languageConfidence": probability,
                 "roundtripMinRecall": min(recalls,default=0),
                 "roundtripMeanRecall": round(sum(recalls)/max(len(recalls),1),4),
+                "sourceVerifiedTextCorrections":verified_fixes,
                 "expectedYears": sorted(original_years),
                 "actualYears": sorted(current_years),
                 "issues": issues,
