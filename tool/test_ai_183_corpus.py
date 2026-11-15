@@ -8,7 +8,8 @@ from ai_183_translate import source_inventory
 ROOT=Path(__file__).resolve().parents[1]
 rows=source_inventory()
 assert len(rows)==183
-assert all(set(x["locale"])=={"en","it"} for x in rows.values()), "unexpected pretranslated rows"
+assert all({"en","it"} <= set(x["locale"]) <= {"en","it","es","fr","de","pt"} for x in rows.values())
+existing_four={oid:sorted(set(r["locale"])-{"en","it"}) for oid,r in rows.items() if set(r["locale"])-{"en","it"}}
 assert all(x["sources"] for x in rows.values())
 counts=Counter(x["observanceId"].split("-")[0] for x in rows.values())
 manifest={
@@ -20,8 +21,9 @@ manifest={
  "translationsToAuthor":183*4,
  "outputLanguages":["es","fr","de","pt"],
  "ids":sorted(rows),
+ "previouslyLocalizedInsideResearchSource":existing_four,
 }
 out=ROOT/"reports/ai_183_canonical_input_manifest.json"
 out.parent.mkdir(parents=True,exist_ok=True)
 out.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-print("AI183_SOURCE_INVENTORY_PASS",len(rows),"stories",183*4,"missing translations")
+print("AI183_SOURCE_INVENTORY_PASS",len(rows),"stories",183*4,"target locales", "previously drafted:",existing_four)
