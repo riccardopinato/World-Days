@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 229);
+    expect(snapshot.editorialById.length, 316);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
@@ -219,6 +219,29 @@ void main() {
         )!.origin,
         isNotEmpty,
       );
+    }
+  });
+
+  test('87 additional six-locale source-reviewed articles retain status parity', () async {
+    final snapshot = await const CatalogRepository().load();
+    const languages = ['en', 'it', 'es', 'fr', 'de', 'pt'];
+    for (final lang in languages) {
+      final pack = snapshot.editorialByLocale[lang]!;
+      expect(pack.values.where(
+        (entry) => entry.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE',
+      ).length, 87);
+      for (final id in <String>[
+        'sk-carpathian-dukla-operation-heroes-day',
+        'spain-exile-victims-remembrance-day',
+        'italian-republic-day',
+        'fi-finnish-independence-day',
+        'cz-independent-state-restoration',
+      ]) {
+        final story = snapshot.editorialFor(id, lang)!;
+        expect(story.locale, lang);
+        expect(story.origin, isNotEmpty);
+        expect(story.status, 'AI_SOURCE_REVIEWED_SIX_LOCALE');
+      }
     }
   });
 

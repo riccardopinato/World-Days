@@ -11,6 +11,8 @@ python3 tool/build_editorial_locales.py >/dev/null
 # The app runtime, web, tests and release scripts must use the SAME pack.
 python3 tool/publish_ai_173_editorial.py >/dev/null
 python3 tool/validate_ai_173_publication.py >/dev/null
+python3 tool/publish_prepared_sixlocale_87.py >/dev/null
+python3 tool/validate_prepared_485_reachability.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then

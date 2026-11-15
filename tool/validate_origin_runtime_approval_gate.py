@@ -12,8 +12,11 @@ entries = index["records"]
 assert index["recordCount"] == len(entries) == len(catalog["records"])
 assert index["reviewedRichOriginCount"] >= 57
 assert all(item.get("runtimeRichEditorialApproved") is False for item in entries), "Unapproved origin content reached the rich-publication lane"
-assert "entry['runtimeRichEditorialApproved'] != true" in dart, "Origin panel missing approval gate"
-assert "snapshot.data?[observanceId]?['runtimeRichEditorialApproved'] == true" in dart, "Missing-history fallback must remain visible for drafts"
+assert "entry['runtimeResearchPreviewAllowed'] != true" in dart, "Research preview must have explicit source gate"
+assert "snapshot.data?[observanceId]?['runtimeResearchPreviewAllowed'] == true" in dart, "Fallback must disappear only when a sourced preview exists"
+assert "hideWhenRichEditorialPresent: editorial != null" in dart, "Do not duplicate rich editorial and research notes"
+assert all(item.get("runtimeResearchPreviewAllowed") is (item["primaryResearch"] is not None) for item in entries), "Only source-researched origins can be previewed"
+assert all(item.get("researchPreviewStatus") == ("SOURCE_RESEARCHED_EN_IT_NOT_HUMAN_CERTIFIED" if item["primaryResearch"] is not None else None) for item in entries), "Research preview must not claim human certification"
 batches = registry["batches"]
 assert len(batches) == registry["pendingPrCount"] and len(batches) >= 0
 assert len({batch["pr"] for batch in batches}) == len(batches)

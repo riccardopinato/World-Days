@@ -1,3 +1,12 @@
+## 15 November 2026 — Restore all 485 prepared historical stories (six-language honesty preserved)
+
+**Current integration proposal:** deduplicated historical coverage is **485 canonical IDs**: 325 source-linked EN/IT dossiers already in main + 173 prior AI certificates - 18 overlapped Wave20 IDs + five six-language dossiers from PR #122. The source notes were previously bundled but hidden by a rich-approval gate; they now have their own explicitly labelled read-only research-preview lane without granting human certification or a rich-editorial approval.
+
+The full six-locale rich editorial pack grows from **229 to 316** (56 curated + 173 AI-certified + 82 previously prepared Wave20 translations + 5 top-country articles); 87 new additions are labelled **AI_SOURCE_REVIEWED_SIX_LOCALE**, not independent human certification. Remaining older bilingual-only originals are shown in EN/IT, and clearly fall back to English in ES/FR/DE/PT — never disguised as translated. Seven disputed Philippine IDs remain outside this scope. The canonical catalog remains **1111**; no unapproved release or human/physical QA claim.
+
+Source-of-truth reconciliation and test gates: [485 prepared-history reconciliation](docs/WORLD_DAYS_485_PREPARED_RECONCILIATION_20261115.md), `tool/publish_prepared_sixlocale_87.py`, `tool/validate_prepared_485_reachability.py`, `tool/validate_origin_runtime_approval_gate.py`. Content pack version `2026.11.15.2`. Existing PRs #118/#119/#120/#122 remain independently gated, and no automatic Web/Play deployment is triggered.
+
+---
 ## 15 November 2026 — Proposed 173 AI-certified six-language runtime editorials
 
 - Proposed guarded import: **173 AI_CERTIFIED source-pinned records** across **CA 32 / KR 57 / PH 84**, after the existing 56 rich editorials. All six locales EN/IT/ES/FR/DE/PT remain native, local-first; resulting rich coverage is **229 editorial records** if tests and merge pass. The canonical observance catalog remains at **1,111 IDs**.
