@@ -20,6 +20,11 @@ def freeze(output: Path, allow_dirty: bool = False):
     if not allow_dirty:
         subprocess.run(["git", "diff", "--quiet"], cwd=ROOT, check=True)
         subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, check=True)
+        untracked = subprocess.check_output(
+            ["git", "ls-files", "--others", "--exclude-standard"], cwd=ROOT, text=True
+        ).splitlines()
+        if untracked:
+            raise SystemExit(f"Untracked files present; clean main before freezing: {untracked[:10]}")
     head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
     remote = subprocess.check_output(
         ["git", "ls-remote", "--exit-code", "origin", "refs/heads/main"],
@@ -33,10 +38,14 @@ def freeze(output: Path, allow_dirty: bool = False):
     index, batches = build()
     if not batches:
         raise SystemExit("No remaining canonical research IDs; do not create an empty wave")
+    if "batch_001.json" not in batches:
+        raise SystemExit("Canonical queue missing batch_001.json")
     first = batches["batch_001.json"]
     ids = [d["observanceId"] for d in first["dossiers"]]
     if len(ids) != min(100, index["outstandingOriginResearch"]) or len(ids) != len(set(ids)):
         raise SystemExit("Wave21 requires exactly 100 distinct IDs, except the final residual")
+    if any(not isinstance(x, str) or not x.strip() for x in ids):
+        raise SystemExit("Canonical queue contains empty/non-string observance IDs")
     if first["recordCount"] != len(ids):
         raise SystemExit("Cohort record count mismatch")
     payload = {
