@@ -47,7 +47,13 @@ def validate(drafts_path: Path, require_complete: bool) -> int:
         if row.get("status") in ("BLOCKED", "HOLD_SOURCE_DISPUTE"):
             blocked += 1
             continue
-        assert row.get("sources"), ("Missing individual sources", rid)
+        sources = row.get("sources")
+        assert isinstance(sources, list) and sources, ("Missing individual sources", rid)
+        assert all(isinstance(url, str) and url.startswith("https://") and len(url) > 8 for url in sources), ("Invalid source URL", rid)
+        assert len(set(sources)) == len(sources), ("Duplicate source URL", rid)
+        for year_field in ("introducedYear", "firstObservedYear"):
+            year = row.get(year_field)
+            assert year is None or (type(year) is int and 1800 <= year <= 2100), (rid, year_field, year)
         for lang, story in locale.items():
             assert isinstance(story, dict), (rid, lang)
             for field in FIELDS:
