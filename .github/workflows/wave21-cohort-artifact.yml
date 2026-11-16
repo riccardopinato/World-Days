@@ -67,6 +67,11 @@ jobs:
           assert x["runtimeRichEditorialApproved"] is False
           print("WAVE21_ARTIFACT_PASS",len(ids),x["frozenFromMainSha"],x["cohortIdSha256"])
           PY
+      - name: Emit machine-readable candidate for source-pinned repository registration
+        run: |
+          echo 'WAVE21_COHORT_JSON_BEGIN'
+          cat data/editorial/waves/wave21_cohort.json
+          echo 'WAVE21_COHORT_JSON_END'
       - name: Upload immutable candidate (not publication or approval)
         uses: actions/upload-artifact@v4
         with:
