@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "wave": 21,
+  "count": 1,
+  "records": [
+    {
+      "observanceId": "mexico-constitution-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1917,
+      "dateReason": "Anniversary of promulgation on 5 February 1917",
+      "dateRule": "February 5 (commemorative date; legal holiday observance may be moved)",
+      "institution": "Constituent Congress of 1916–1917 (constitution); modern annual holiday founding instrument unknown",
+      "sources": [
+        "https://www.gob.mx/defensa/documentos/5-de-febrero-aniversario-de-la-promulgacion-de-la-constitucion-de-1917",
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+        "https://www.gob.mx/presidencia/articulos/version-estenografica-109-aniversario-de-la-constitucion-de-1917-queretaro-queretaro"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Mexico's Constitution Day: a charter shaped by revolution",
+          "origin": "On 5 February 1917, in Querétaro, Mexico promulgated a new constitution after the upheaval of the Mexican Revolution. A constituent congress convened in 1916 to debate a constitutional settlement. The charter entered into force on 1 May 1917. The annual commemoration recalls its promulgation, rather than the later date it took effect.",
+          "promoter": "The 1916–17 Constituent Congress drafted the charter under the constitutionalist process initiated by Venustiano Carranza; Mexican public institutions commemorate its anniversary. A separate founding decree for the modern annual observance has not been established in these sources.",
+          "purpose": "The anniversary invites reflection on constitutional government and on the social rights written into the 1917 charter, including education, land and labour protections.",
+          "facts": [
+            "The constitution was promulgated on 5 February 1917 in Querétaro.",
+            "It entered into force on 1 May 1917.",
+            "Articles 3, 27 and 123 are associated with education, land and labour respectively."
+          ]
+        },
+        "it": {
+          "heading": "Giorno della Costituzione messicana: una carta nata dalla rivoluzione",
+          "origin": "Il 5 febbraio 1917, a Querétaro, il Messico promulgò una nuova Costituzione dopo la Rivoluzione messicana. Un congresso costituente, riunito nel 1916, ne discusse il testo. La Carta entrò in vigore il 1° maggio 1917: la ricorrenza ricorda la promulgazione, non l'entrata in vigore.",
+          "promoter": "Il Congresso costituente del 1916–1917 elaborò la Carta nel processo avviato da Venustiano Carranza. Le istituzioni messicane ne commemorano l'anniversario; le fonti consultate non stabiliscono un decreto istitutivo distinto della ricorrenza annuale moderna.",
+          "purpose": "La giornata invita a riflettere sul governo costituzionale e sui diritti sociali previsti dalla Carta del 1917, in particolare istruzione, terra e lavoro.",
+          "facts": [
+            "La Costituzione fu promulgata a Querétaro il 5 febbraio 1917.",
+            "Entrò in vigore il 1° maggio 1917.",
+            "Gli articoli 3, 27 e 123 riguardano rispettivamente istruzione, terra e lavoro."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Constitución de México: una carta surgida de la revolución",
+          "origin": "El 5 de febrero de 1917, en Querétaro, México promulgó una nueva Constitución tras la Revolución mexicana. Un Congreso Constituyente reunido en 1916 debatió el texto. La Constitución entró en vigor el 1 de mayo de 1917: la conmemoración recuerda su promulgación, no su entrada en vigor.",
+          "promoter": "El Congreso Constituyente de 1916–1917 redactó la Constitución dentro del proceso impulsado por Venustiano Carranza. Las instituciones mexicanas conmemoran su aniversario; estas fuentes no acreditan un decreto separado que creara la celebración anual moderna.",
+          "purpose": "La fecha invita a reflexionar sobre el orden constitucional y los derechos sociales incorporados en 1917, especialmente la educación, la tierra y el trabajo.",
+          "facts": [
+            "La Constitución fue promulgada en Querétaro el 5 de febrero de 1917.",
+            "Entró en vigor el 1 de mayo de 1917.",
+            "Los artículos 3, 27 y 123 se relacionan con educación, tierra y trabajo."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de la Constitution mexicaine : une charte issue de la révolution",
+          "origin": "Le 5 février 1917, à Querétaro, le Mexique promulgua une nouvelle Constitution après la Révolution mexicaine. Un congrès constituant réuni en 1916 en avait débattu. Le texte entra en vigueur le 1er mai 1917 : la commémoration marque sa promulgation, non son entrée en vigueur.",
+          "promoter": "Le Congrès constituant de 1916–1917 rédigea la Constitution dans le processus engagé par Venustiano Carranza. Les institutions mexicaines en commémorent l'anniversaire ; les sources consultées n'établissent pas de décret distinct créant la célébration annuelle actuelle.",
+          "purpose": "Cette date invite à réfléchir à l'ordre constitutionnel et aux droits sociaux inscrits dans le texte de 1917, notamment en matière d'éducation, de terre et de travail.",
+          "facts": [
+            "La Constitution fut promulguée à Querétaro le 5 février 1917.",
+            "Elle entra en vigueur le 1er mai 1917.",
+            "Les articles 3, 27 et 123 concernent respectivement l'éducation, la terre et le travail."
+          ]
+        },
+        "de": {
+          "heading": "Mexikos Verfassungstag: eine Verfassung aus der Revolution",
+          "origin": "Am 5. Februar 1917 verkündete Mexiko in Querétaro nach der Mexikanischen Revolution eine neue Verfassung. Ein 1916 zusammengetretener Verfassungskongress hatte den Text beraten. In Kraft trat er am 1. Mai 1917; der Gedenktag erinnert an die Verkündung, nicht an das Inkrafttreten.",
+          "promoter": "Der Verfassungskongress von 1916/17 erarbeitete den Text im von Venustiano Carranza angestoßenen Prozess. Mexikanische Institutionen begehen den Jahrestag; ein gesonderter Gründungserlass für den heutigen jährlichen Gedenktag ist durch diese Quellen nicht belegt.",
+          "purpose": "Der Tag lädt dazu ein, über die verfassungsmäßige Ordnung und die sozialen Rechte der Verfassung von 1917 nachzudenken, besonders in Bildung, Bodenrecht und Arbeit.",
+          "facts": [
+            "Die Verfassung wurde am 5. Februar 1917 in Querétaro verkündet.",
+            "Sie trat am 1. Mai 1917 in Kraft.",
+            "Die Artikel 3, 27 und 123 betreffen Bildung, Land und Arbeit."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Constituição do México: uma carta nascida da revolução",
+          "origin": "Em 5 de fevereiro de 1917, em Querétaro, o México promulgou uma nova Constituição após a Revolução Mexicana. Um Congresso Constituinte reunido em 1916 debateu o texto. A Carta entrou em vigor em 1.º de maio de 1917: a comemoração assinala a promulgação, não a entrada em vigor.",
+          "promoter": "O Congresso Constituinte de 1916–1917 elaborou a Carta no processo iniciado por Venustiano Carranza. Instituições mexicanas comemoram o aniversário; as fontes consultadas não comprovam um decreto separado que tenha criado a celebração anual atual.",
+          "purpose": "A data convida à reflexão sobre o governo constitucional e os direitos sociais previstos em 1917, sobretudo educação, terra e trabalho.",
+          "facts": [
+            "A Constituição foi promulgada em Querétaro em 5 de fevereiro de 1917.",
+            "Entrou em vigor em 1.º de maio de 1917.",
+            "Os artigos 3, 27 e 123 tratam, respectivamente, de educação, terra e trabalho."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    }
+  ]
+}
