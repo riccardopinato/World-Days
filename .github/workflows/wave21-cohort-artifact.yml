@@ -13,6 +13,8 @@ permissions:
 jobs:
   freeze-from-main:
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - name: Checkout exact current main
         uses: actions/checkout@v4
