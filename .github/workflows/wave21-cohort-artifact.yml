@@ -32,6 +32,19 @@ jobs:
           else
             cp tool/freeze_editorial_wave21.py /tmp/freeze_editorial_wave21.py
           fi
+      - name: Rebuild generated canonical catalog on pristine main
+        run: |
+          python3 tool/market_wave04.py
+          python3 tool/market_wave06.py
+          python3 tool/market_wave07.py
+          python3 tool/market_wave08.py
+          python3 tool/market_wave09.py
+          python3 tool/market_wave10.py
+          python3 tool/market_wave11.py
+          python3 tool/market_wave12.py
+          python3 tool/market_wave13.py
+          python3 tool/build_dataset.py
+          python3 tool/build_editorial.py
       - name: Generate from pristine main with canonical queue
         run: |
           python - <<'PY'
