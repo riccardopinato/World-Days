@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 2,
+  "count": 3,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -168,6 +168,92 @@
             "O documento constitucional tem a data de 17 de maio de 1814.",
             "A Assembleia Constituinte reuniu-se em Eidsvoll na primavera de 1814.",
             "Christian Frederik foi eleito rei em 17 de maio de 1814."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "constitution-day-spain",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1983,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1978,
+      "dateReason": "Anniversary of popular ratification by referendum on 6 December 1978",
+      "dateRule": "December 6",
+      "institution": "Government of Spain; Royal Decree 2964/1983 of 30 November",
+      "sources": [
+        "https://www.boe.es/eli/es/rd/1983/11/30/2964/con",
+        "https://constitucion.congreso.es/w/constituci%C3%B3n-de-1978",
+        "https://boe.es/diario_boe/txt.php?id=BOE-A-1985-26901"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Spain's Constitution Day: the vote that shaped a democracy",
+          "origin": "On 6 December 1978, Spanish voters ratified the new Constitution in a referendum during the transition to democracy. Parliament had approved the text in late October. The King sanctioned it on 27 December, and publication on 29 December brought it into force. The annual remembrance follows the referendum date, not the later publication.",
+          "promoter": "Spain's Government established Constitution Day through Royal Decree 2964/1983 of 30 November. Royal Decree 2403/1985 subsequently made 6 December a nationwide civic public holiday.",
+          "purpose": "The day recalls popular participation in the constitutional settlement and invites reflection on democratic institutions, rights and the rule of law.",
+          "facts": [
+            "The constitutional referendum took place on 6 December 1978.",
+            "Royal Decree 2964/1983 declared 6 December of each year Constitution Day.",
+            "A separate 1985 decree included the date among nationwide civic public holidays."
+          ]
+        },
+        "it": {
+          "heading": "Giorno della Costituzione spagnola: il voto della transizione democratica",
+          "origin": "Il 6 dicembre 1978 gli elettori spagnoli ratificarono con referendum la nuova Costituzione durante la transizione democratica. Le Cortes avevano approvato il testo a fine ottobre. Il re lo sanzionò il 27 dicembre e la pubblicazione del 29 dicembre ne determinò l'entrata in vigore. La ricorrenza celebra il referendum, non la successiva pubblicazione.",
+          "promoter": "Il Governo spagnolo istituì la giornata con il Regio decreto 2964/1983 del 30 novembre. Il Regio decreto 2403/1985 rese poi il 6 dicembre una festività civile nazionale.",
+          "purpose": "La giornata ricorda la partecipazione popolare alla nascita del nuovo ordinamento costituzionale e invita a riflettere sulle istituzioni democratiche, sui diritti e sullo Stato di diritto.",
+          "facts": [
+            "Il referendum costituzionale si tenne il 6 dicembre 1978.",
+            "Il Regio decreto 2964/1983 dichiarò il 6 dicembre di ogni anno Giorno della Costituzione.",
+            "Un distinto decreto del 1985 inserì la data tra le festività civili nazionali."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Constitución española: el voto de la transición democrática",
+          "origin": "El 6 de diciembre de 1978, la ciudadanía española ratificó la nueva Constitución en referéndum durante la transición democrática. Las Cortes habían aprobado el texto a finales de octubre. El rey lo sancionó el 27 de diciembre y su publicación el 29 de diciembre determinó su entrada en vigor. La celebración recuerda el referéndum, no la publicación posterior.",
+          "promoter": "El Gobierno de España estableció el Día de la Constitución mediante el Real Decreto 2964/1983, de 30 de noviembre. El Real Decreto 2403/1985 convirtió después el 6 de diciembre en fiesta cívica laboral de ámbito nacional.",
+          "purpose": "La fecha recuerda la participación popular en el nuevo marco constitucional e invita a reflexionar sobre las instituciones democráticas, los derechos y el Estado de derecho.",
+          "facts": [
+            "El referéndum constitucional se celebró el 6 de diciembre de 1978.",
+            "El Real Decreto 2964/1983 declaró Día de la Constitución el 6 de diciembre de cada año.",
+            "Un decreto distinto de 1985 incorporó la fecha a las fiestas cívicas nacionales."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de la Constitution espagnole : le vote de la transition démocratique",
+          "origin": "Le 6 décembre 1978, les électeurs espagnols ratifièrent la nouvelle Constitution par référendum durant la transition démocratique. Les Cortes avaient adopté le texte à la fin d'octobre. Le roi le sanctionna le 27 décembre et sa publication le 29 décembre entraîna son entrée en vigueur. La commémoration marque le référendum, non la publication ultérieure.",
+          "promoter": "Le gouvernement espagnol institua cette journée par le décret royal 2964/1983 du 30 novembre. Le décret royal 2403/1985 fit ensuite du 6 décembre un jour férié civique national.",
+          "purpose": "Cette date rappelle la participation populaire à l'établissement du nouvel ordre constitutionnel et invite à réfléchir aux institutions démocratiques, aux droits et à l'État de droit.",
+          "facts": [
+            "Le référendum constitutionnel eut lieu le 6 décembre 1978.",
+            "Le décret royal 2964/1983 institua la Journée de la Constitution chaque 6 décembre.",
+            "Un décret distinct de 1985 ajouta cette date aux jours fériés civiques nationaux."
+          ]
+        },
+        "de": {
+          "heading": "Spaniens Verfassungstag: das Votum des demokratischen Übergangs",
+          "origin": "Am 6. Dezember 1978 bestätigten Spaniens Wahlberechtigte die neue Verfassung in einem Referendum während des Übergangs zur Demokratie. Das Parlament hatte den Text Ende Oktober verabschiedet. Der König sanktionierte ihn am 27. Dezember; mit der Veröffentlichung am 29. Dezember trat er in Kraft. Der Gedenktag bezieht sich auf die Volksabstimmung, nicht auf die spätere Veröffentlichung.",
+          "promoter": "Die spanische Regierung führte den Verfassungstag durch Königliches Dekret 2964/1983 vom 30. November ein. Das Königliche Dekret 2403/1985 machte den 6. Dezember anschließend zu einem landesweiten staatsbürgerlichen Feiertag.",
+          "purpose": "Der Tag erinnert an die Beteiligung der Bevölkerung an der neuen Verfassungsordnung und lädt zur Auseinandersetzung mit demokratischen Institutionen, Rechten und Rechtsstaatlichkeit ein.",
+          "facts": [
+            "Das Verfassungsreferendum fand am 6. Dezember 1978 statt.",
+            "Das Königliche Dekret 2964/1983 erklärte den 6. Dezember jedes Jahres zum Verfassungstag.",
+            "Ein gesondertes Dekret von 1985 nahm den Tag in die landesweiten staatsbürgerlichen Feiertage auf."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Constituição espanhola: o voto da transição democrática",
+          "origin": "Em 6 de dezembro de 1978, os eleitores espanhóis ratificaram a nova Constituição em referendo durante a transição democrática. As Cortes tinham aprovado o texto no final de outubro. O rei sancionou-o em 27 de dezembro e a publicação em 29 de dezembro determinou a entrada em vigor. A comemoração assinala o referendo, não a publicação posterior.",
+          "promoter": "O Governo espanhol instituiu o Dia da Constituição pelo Real Decreto 2964/1983, de 30 de novembro. O Real Decreto 2403/1985 tornou depois o dia 6 de dezembro um feriado cívico nacional.",
+          "purpose": "A data recorda a participação popular na nova ordem constitucional e convida à reflexão sobre instituições democráticas, direitos e Estado de direito.",
+          "facts": [
+            "O referendo constitucional realizou-se em 6 de dezembro de 1978.",
+            "O Real Decreto 2964/1983 declarou o dia 6 de dezembro de cada ano Dia da Constituição.",
+            "Um decreto separado de 1985 incluiu a data entre os feriados cívicos nacionais."
           ]
         }
       },
