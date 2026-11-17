@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 6,
+  "count": 7,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -498,6 +498,85 @@
           "facts": [
             "O destacamento homenageado foi formado em 22 de junho de 1941.",
             "Segundo o Parlamento croata, a data é celebrada como feriado ao abrigo da legislação desde 2002."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "hr-homeland-war-remembrance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1991,
+      "dateReason": "Remembrance of Vukovar and Škabrnja victims, linked to events of November 1991",
+      "dateRule": "November 18",
+      "institution": "Croatian Parliament",
+      "sources": [
+        "https://sabor.hr/en/faq",
+        "https://sabor.hr/en/press/news/sabor-speaker-and-prime-minister-pay-tribute-all-fallen-defenders-and-civilians-who-lost"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Croatia remembers the victims of the Homeland War",
+          "origin": "Croatia observes 18 November in memory of those who died during the 1991–1995 Homeland War, with particular attention to Vukovar and Škabrnja. The date recalls the fall of Vukovar in November 1991 and the suffering of civilians and defenders. The Croatian Parliament lists this remembrance among the country's non-working national holidays.",
+          "promoter": "Croatia's Parliament recognizes the observance in the national holiday calendar; state representatives participate in commemorations.",
+          "purpose": "The day invites remembrance of the dead, respect for survivors and reflection on the human consequences of war.",
+          "facts": [
+            "The Croatian Parliament lists 18 November as a non-working public holiday.",
+            "Parliamentary representatives commemorated victims in Vukovar on 18 November 2025."
+          ]
+        },
+        "it": {
+          "heading": "La Croazia ricorda le vittime della Guerra d'indipendenza",
+          "origin": "Il 18 novembre la Croazia commemora le persone morte durante la Guerra d'indipendenza del 1991–1995, con particolare attenzione a Vukovar e Škabrnja. La data richiama la caduta di Vukovar nel novembre 1991 e le sofferenze dei civili e dei difensori. Il Parlamento croato include questa commemorazione tra le festività nazionali non lavorative.",
+          "promoter": "Il Parlamento croato riconosce la ricorrenza nel calendario nazionale; rappresentanti dello Stato partecipano alle commemorazioni.",
+          "purpose": "La giornata invita a ricordare le vittime, rispettare i sopravvissuti e riflettere sulle conseguenze umane della guerra.",
+          "facts": [
+            "Il Parlamento croato elenca il 18 novembre tra le festività non lavorative.",
+            "Il 18 novembre 2025 rappresentanti parlamentari hanno commemorato le vittime a Vukovar."
+          ]
+        },
+        "es": {
+          "heading": "Croacia recuerda a las víctimas de la Guerra de Independencia",
+          "origin": "Croacia conmemora el 18 de noviembre a quienes murieron durante la Guerra de Independencia de 1991–1995, especialmente en Vukovar y Škabrnja. La fecha recuerda la caída de Vukovar en noviembre de 1991 y el sufrimiento de civiles y defensores. El Parlamento croata incluye esta conmemoración entre los festivos nacionales no laborables.",
+          "promoter": "El Parlamento croata reconoce la fecha en el calendario nacional y representantes del Estado participan en los homenajes.",
+          "purpose": "La jornada invita a recordar a las víctimas, respetar a los supervivientes y reflexionar sobre las consecuencias humanas de la guerra.",
+          "facts": [
+            "El Parlamento croata incluye el 18 de noviembre entre los festivos no laborables.",
+            "Representantes parlamentarios homenajearon a las víctimas en Vukovar el 18 de noviembre de 2025."
+          ]
+        },
+        "fr": {
+          "heading": "La Croatie rend hommage aux victimes de la guerre d'indépendance",
+          "origin": "Le 18 novembre, la Croatie commémore les personnes mortes pendant la guerre d'indépendance de 1991 à 1995, notamment à Vukovar et Škabrnja. La date rappelle la chute de Vukovar en novembre 1991 et les souffrances des civils et des défenseurs. Le Parlement croate classe cette commémoration parmi les jours fériés nationaux chômés.",
+          "promoter": "Le Parlement croate reconnaît cette date dans le calendrier national et des représentants de l'État participent aux cérémonies.",
+          "purpose": "Cette journée invite à honorer les victimes, à respecter les survivants et à réfléchir aux conséquences humaines de la guerre.",
+          "facts": [
+            "Le Parlement croate inscrit le 18 novembre parmi les jours fériés chômés.",
+            "Des représentants parlementaires ont rendu hommage aux victimes à Vukovar le 18 novembre 2025."
+          ]
+        },
+        "de": {
+          "heading": "Kroatien gedenkt der Opfer des Unabhängigkeitskrieges",
+          "origin": "Am 18. November erinnert Kroatien an die Menschen, die im Unabhängigkeitskrieg von 1991 bis 1995 starben, insbesondere in Vukovar und Škabrnja. Das Datum erinnert an den Fall von Vukovar im November 1991 und das Leid von Zivilisten und Verteidigern. Das kroatische Parlament führt den Gedenktag als arbeitsfreien nationalen Feiertag.",
+          "promoter": "Das kroatische Parlament erkennt den Tag im nationalen Feiertagskalender an; Staatsvertreter nehmen an Gedenkveranstaltungen teil.",
+          "purpose": "Der Tag lädt dazu ein, der Opfer zu gedenken, Überlebende zu achten und über die menschlichen Folgen des Krieges nachzudenken.",
+          "facts": [
+            "Das kroatische Parlament führt den 18. November als arbeitsfreien Feiertag.",
+            "Parlamentsvertreter gedachten der Opfer am 18. November 2025 in Vukovar."
+          ]
+        },
+        "pt": {
+          "heading": "A Croácia homenageia as vítimas da Guerra da Independência",
+          "origin": "A 18 de novembro, a Croácia recorda as pessoas que morreram durante a Guerra da Independência de 1991 a 1995, especialmente em Vukovar e Škabrnja. A data evoca a queda de Vukovar em novembro de 1991 e o sofrimento de civis e defensores. O Parlamento croata inclui esta comemoração entre os feriados nacionais não laborais.",
+          "promoter": "O Parlamento croata reconhece a data no calendário nacional e representantes do Estado participam nas cerimónias.",
+          "purpose": "O dia convida a recordar as vítimas, respeitar os sobreviventes e refletir sobre as consequências humanas da guerra.",
+          "facts": [
+            "O Parlamento croata inclui 18 de novembro entre os feriados não laborais.",
+            "Representantes parlamentares homenagearam as vítimas em Vukovar em 18 de novembro de 2025."
           ]
         }
       },
