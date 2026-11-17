@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 3,
+  "count": 4,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -254,6 +254,92 @@
             "O referendo constitucional realizou-se em 6 de dezembro de 1978.",
             "O Real Decreto 2964/1983 declarou o dia 6 de dezembro de cada ano Dia da Constituição.",
             "Um decreto separado de 1985 incluiu a data entre os feriados cívicos nacionais."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "pl-constitution-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1919,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1791,
+      "dateReason": "Anniversary of adoption of the 3 May 1791 Constitution",
+      "dateRule": "May 3",
+      "institution": "Four-Year Sejm (1791 constitutional act); Polish national holiday restored in 1919 and by legislation in 1990",
+      "sources": [
+        "https://www.gov.pl/web/diplomacy/229th-anniversary-of-the-constitution-of-3-may",
+        "https://www.gov.pl/web/kultura/swieto-narodowe-trzeciego-maja",
+        "https://www.senat.gov.pl/aktualnoscilista/art,16173,swieto-konstytucji-3-maja.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Poland's 3 May Constitution Day: reform remembered across generations",
+          "origin": "On 3 May 1791, the Four-Year Sejm adopted a constitution for the Polish–Lithuanian Commonwealth in Warsaw. Its reforms sought to strengthen a state weakened by foreign pressure and the first partition. The anniversary was designated a holiday soon after adoption, reinstated in independent Poland in 1919, suppressed under later regimes and restored by law in 1990.",
+          "promoter": "The Four-Year Sejm enacted the constitution in 1791. Polish lawmakers established the modern national observance again in 1990, after an earlier restoration in 1919.",
+          "purpose": "The day honours constitutional reform, national sovereignty and the survival of civic memory despite partitions, occupation and political repression.",
+          "facts": [
+            "The constitution was adopted on 3 May 1791.",
+            "The national holiday was restored in 1919 and again in 1990.",
+            "The charter introduced a constitutional monarchy and reformed the separation of powers."
+          ]
+        },
+        "it": {
+          "heading": "3 maggio in Polonia: la Costituzione e la memoria delle riforme",
+          "origin": "Il 3 maggio 1791 il Sejm dei Quattro Anni approvò a Varsavia una Costituzione per la Confederazione polacco-lituana. Le riforme miravano a rafforzare uno Stato indebolito dalle pressioni straniere e dalla prima spartizione. La data fu riconosciuta come festa poco dopo l'approvazione, ripristinata nel 1919, poi ostacolata e infine ristabilita per legge nel 1990.",
+          "promoter": "Il Sejm dei Quattro Anni adottò la Costituzione nel 1791. Il legislatore polacco ripristinò la moderna festa nazionale nel 1990, dopo il precedente riconoscimento del 1919.",
+          "purpose": "La ricorrenza celebra le riforme costituzionali, la sovranità e una memoria civile sopravvissuta a spartizioni, occupazioni e repressione.",
+          "facts": [
+            "La Costituzione fu adottata il 3 maggio 1791.",
+            "La festa nazionale fu ripristinata nel 1919 e nel 1990.",
+            "La Carta introdusse una monarchia costituzionale e riformò la separazione dei poteri."
+          ]
+        },
+        "es": {
+          "heading": "3 de mayo en Polonia: la Constitución y la memoria de las reformas",
+          "origin": "El 3 de mayo de 1791, el Sejm de los Cuatro Años aprobó en Varsovia una constitución para la Mancomunidad polaco-lituana. Las reformas pretendían fortalecer un Estado debilitado por las presiones extranjeras y el primer reparto. La fecha se declaró festiva poco después, se recuperó en 1919, fue reprimida bajo regímenes posteriores y se restableció por ley en 1990.",
+          "promoter": "El Sejm de los Cuatro Años aprobó la constitución de 1791. Los legisladores polacos restablecieron la fiesta nacional moderna en 1990, tras su recuperación de 1919.",
+          "purpose": "La jornada recuerda la reforma constitucional, la soberanía y la memoria cívica preservada pese a repartos, ocupaciones y represión.",
+          "facts": [
+            "La constitución fue aprobada el 3 de mayo de 1791.",
+            "La fiesta nacional se recuperó en 1919 y en 1990.",
+            "El texto introdujo una monarquía constitucional y reformó la separación de poderes."
+          ]
+        },
+        "fr": {
+          "heading": "Le 3 mai en Pologne : la Constitution et la mémoire des réformes",
+          "origin": "Le 3 mai 1791, la Diète de quatre ans adopta à Varsovie une constitution pour la République des Deux Nations. Les réformes visaient à renforcer un État affaibli par les pressions étrangères et le premier partage. La date devint une fête peu après son adoption, fut rétablie en 1919, réprimée sous d'autres régimes puis restaurée par la loi en 1990.",
+          "promoter": "La Diète de quatre ans adopta la Constitution de 1791. Les législateurs polonais rétablirent la fête nationale moderne en 1990, après une première restauration en 1919.",
+          "purpose": "Cette journée rappelle la réforme constitutionnelle, la souveraineté et une mémoire civique préservée malgré les partages, les occupations et la répression.",
+          "facts": [
+            "La Constitution fut adoptée le 3 mai 1791.",
+            "La fête nationale fut rétablie en 1919 puis en 1990.",
+            "Le texte instaura une monarchie constitutionnelle et réforma la séparation des pouvoirs."
+          ]
+        },
+        "de": {
+          "heading": "Polens Verfassungstag am 3. Mai: Reformen und Erinnerung",
+          "origin": "Am 3. Mai 1791 verabschiedete der Vierjährige Sejm in Warschau eine Verfassung für Polen-Litauen. Die Reformen sollten den durch äußeren Druck und die erste Teilung geschwächten Staat stärken. Der Jahrestag wurde kurz darauf zum Feiertag erklärt, 1919 wieder eingeführt, später unterdrückt und 1990 gesetzlich erneut als Nationalfeiertag verankert.",
+          "promoter": "Der Vierjährige Sejm verabschiedete 1791 die Verfassung. Die polnische Gesetzgebung stellte den heutigen Nationalfeiertag 1990 wieder her, nach einer früheren Wiederherstellung 1919.",
+          "purpose": "Der Tag erinnert an Verfassungsreformen, staatliche Souveränität und ein bürgerliches Gedächtnis, das Teilungen, Besatzungen und Repression überdauerte.",
+          "facts": [
+            "Die Verfassung wurde am 3. Mai 1791 verabschiedet.",
+            "Der Nationalfeiertag wurde 1919 und 1990 wieder eingeführt.",
+            "Die Verfassung führte eine konstitutionelle Monarchie ein und reformierte die Gewaltenteilung."
+          ]
+        },
+        "pt": {
+          "heading": "3 de maio na Polónia: a Constituição e a memória das reformas",
+          "origin": "Em 3 de maio de 1791, o Sejm dos Quatro Anos aprovou em Varsóvia uma constituição para a Comunidade Polaco-Lituana. As reformas procuravam fortalecer um Estado enfraquecido pela pressão externa e pela primeira partilha. A data foi declarada feriado pouco depois, recuperada em 1919, reprimida por regimes posteriores e restabelecida por lei em 1990.",
+          "promoter": "O Sejm dos Quatro Anos aprovou a Constituição de 1791. Os legisladores polacos restabeleceram o feriado nacional moderno em 1990, depois da recuperação de 1919.",
+          "purpose": "A data recorda a reforma constitucional, a soberania e uma memória cívica preservada apesar de partilhas, ocupações e repressão.",
+          "facts": [
+            "A Constituição foi aprovada em 3 de maio de 1791.",
+            "O feriado nacional foi recuperado em 1919 e em 1990.",
+            "O texto introduziu uma monarquia constitucional e reformou a separação de poderes."
           ]
         }
       },
