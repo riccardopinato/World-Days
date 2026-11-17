@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 23,
+  "count": 24,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1796,6 +1796,92 @@
             "A data comemorativa checa é 12 de outubro.",
             "Em 1988, 92 editores assinaram a carta em defesa de Ivan Polanský.",
             "A comemoração legal entrou em vigor em 2025."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-national-resistance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1942,
+      "dateReason": "27 May commemorates the 1942 attack on Reinhard Heydrich (Operation Anthropoid)",
+      "dateRule": "May 27",
+      "institution": "Czech Parliament (statutory significant day); historical operation by Czechoslovak resistance",
+      "sources": [
+        "https://ppropo.mpsv.cz/zakon_245_2000",
+        "https://www.senat.cz/dokumenty/stenozaznamy/brozury/13_funkcni_obdobi/brozura_24_schuze.pdf",
+        "https://www.senat.cz/xqw/webdav/pssenat/original/101360/85067"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech National Resistance Day: remembering Operation Anthropoid",
+          "origin": "On 27 May 1942, Czechoslovak paratroopers Jozef Gabčík and Jan Kubiš attacked Reinhard Heydrich, the acting Nazi ruler of occupied Bohemia and Moravia, in Prague. The attack became a landmark of resistance to Nazi occupation. Czech law now marks 27 May as National Resistance Day, commemorating those who fought and helped the underground movement.",
+          "promoter": "The Czech Parliament added the commemorative day to the statutory list of significant days. The historical operation was carried out by Czechoslovak resistance soldiers supported by a wider network; neither should be confused with the legislative founder of the observance.",
+          "purpose": "The date recalls the 1942 attack and honors resistance fighters and civilians who risked their lives against Nazi occupation.",
+          "facts": [
+            "The attack took place on 27 May 1942.",
+            "Gabčík and Kubiš carried out the operation with help from other resistance supporters.",
+            "The observance is a significant commemorative day, not automatically a public holiday."
+          ]
+        },
+        "it": {
+          "heading": "Giornata della resistenza nazionale ceca: il ricordo dell'operazione Anthropoid",
+          "origin": "Il 27 maggio 1942 i paracadutisti cecoslovacchi Jozef Gabčík e Jan Kubiš attaccarono a Praga Reinhard Heydrich, dirigente nazista nel Protettorato di Boemia e Moravia. L'azione divenne un simbolo della resistenza all'occupazione. La legge ceca dedica oggi il 27 maggio alla memoria di chi combatté e sostenne la clandestinità.",
+          "promoter": "Il Parlamento ceco ha inserito la ricorrenza tra le giornate commemorative previste dalla legge. L'azione storica fu condotta da militari della resistenza cecoslovacca con una rete di sostenitori, distinta dall'istituzione legislativa della giornata.",
+          "purpose": "La data ricorda l'attacco del 1942 e rende omaggio ai resistenti e ai civili che rischiarono la vita contro l'occupazione nazista.",
+          "facts": [
+            "L'attacco avvenne il 27 maggio 1942.",
+            "Gabčík e Kubiš agirono con il sostegno di altri membri della resistenza.",
+            "È una giornata commemorativa riconosciuta dalla legge, non necessariamente un giorno festivo."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Resistencia Nacional checa: memoria de la Operación Antropoide",
+          "origin": "El 27 de mayo de 1942, los paracaidistas checoslovacos Jozef Gabčík y Jan Kubiš atacaron en Praga a Reinhard Heydrich, dirigente nazi en la Bohemia y Moravia ocupadas. La acción se convirtió en un símbolo de resistencia. La legislación checa recuerda cada 27 de mayo a quienes combatieron y apoyaron la clandestinidad.",
+          "promoter": "El Parlamento checo incorporó esta conmemoración a la lista legal de días significativos. La operación histórica fue realizada por soldados de la resistencia checoslovaca con apoyo civil; no debe confundirse su autoría con la institución legislativa del día.",
+          "purpose": "La fecha recuerda el ataque de 1942 y honra a combatientes y civiles que arriesgaron sus vidas frente a la ocupación nazi.",
+          "facts": [
+            "El ataque tuvo lugar el 27 de mayo de 1942.",
+            "Gabčík y Kubiš contaron con una red de apoyo de la resistencia.",
+            "Es un día conmemorativo legal, no necesariamente festivo."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de la résistance nationale tchèque : mémoire de l'opération Anthropoid",
+          "origin": "Le 27 mai 1942, les parachutistes tchécoslovaques Jozef Gabčík et Jan Kubiš attaquèrent à Prague Reinhard Heydrich, dirigeant nazi de la Bohême-Moravie occupée. Cette opération devint un symbole de la résistance. La loi tchèque consacre désormais le 27 mai au souvenir des résistants et de leurs soutiens.",
+          "promoter": "Le Parlement tchèque a inscrit cette commémoration parmi les journées importantes prévues par la loi. L'opération fut menée par des soldats de la résistance tchécoslovaque aidés par des civils ; ses acteurs historiques ne sont pas les auteurs de la loi commémorative.",
+          "purpose": "La date rappelle l'attaque de 1942 et rend hommage aux combattants et aux civils ayant risqué leur vie contre l'occupation nazie.",
+          "facts": [
+            "L'attaque eut lieu le 27 mai 1942.",
+            "Gabčík et Kubiš bénéficièrent de l'aide d'un réseau de résistance.",
+            "Il s'agit d'une journée commémorative légale, pas nécessairement d'un jour férié."
+          ]
+        },
+        "de": {
+          "heading": "Tschechischer Tag des nationalen Widerstands: Erinnerung an Operation Anthropoid",
+          "origin": "Am 27. Mai 1942 griffen die tschechoslowakischen Fallschirmjäger Jozef Gabčík und Jan Kubiš in Prag Reinhard Heydrich an, einen führenden NS-Funktionär im besetzten Böhmen und Mähren. Die Aktion wurde zu einem Symbol des Widerstands. Das tschechische Gesetz erinnert am 27. Mai an Widerstandskämpfer und ihre Helfer.",
+          "promoter": "Das tschechische Parlament nahm den Gedenktag in die gesetzliche Liste bedeutender Tage auf. Die historische Operation führten tschechoslowakische Widerstandssoldaten mit ziviler Unterstützung durch; sie sind nicht mit dem Gesetzgeber des Gedenktags gleichzusetzen.",
+          "purpose": "Das Datum erinnert an den Angriff von 1942 und würdigt Menschen, die im Kampf gegen die NS-Besatzung ihr Leben riskierten.",
+          "facts": [
+            "Der Angriff erfolgte am 27. Mai 1942.",
+            "Gabčík und Kubiš wurden von einem Widerstandsnetzwerk unterstützt.",
+            "Es handelt sich um einen gesetzlichen Gedenktag, nicht automatisch um einen arbeitsfreien Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Resistência Nacional checa: memória da Operação Anthropoid",
+          "origin": "Em 27 de maio de 1942, os paraquedistas checoslovacos Jozef Gabčík e Jan Kubiš atacaram em Praga Reinhard Heydrich, dirigente nazista na Boêmia e Morávia ocupadas. A ação tornou-se símbolo da resistência. A legislação checa dedica 27 de maio à memória dos resistentes e de quem os apoiou.",
+          "promoter": "O Parlamento checo incluiu a comemoração na lista legal de dias significativos. A operação histórica foi executada por militares da resistência checoslovaca com apoio civil; os seus participantes não devem ser confundidos com os legisladores que instituíram a data.",
+          "purpose": "A data recorda o ataque de 1942 e homenageia combatentes e civis que arriscaram a vida contra a ocupação nazista.",
+          "facts": [
+            "O ataque ocorreu em 27 de maio de 1942.",
+            "Gabčík e Kubiš receberam apoio de uma rede de resistência.",
+            "É um dia comemorativo previsto em lei, não necessariamente um feriado."
           ]
         }
       },
