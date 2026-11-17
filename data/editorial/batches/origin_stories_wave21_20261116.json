@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 16,
+  "count": 17,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1194,6 +1194,92 @@
             "A campanha recordada começou em 1 de abril de 1955.",
             "O conflito decorreu entre 1955 e 1959.",
             "Chipre tornou-se independente em 16 de agosto de 1960, outra efeméride."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-accession-to-nato-anniversary",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1999,
+      "dateReason": "Anniversary of Czech accession to NATO on 12 March 1999",
+      "dateRule": "March 12",
+      "institution": "Czech Republic and NATO (accession); separate founder of annual anniversary observance not established",
+      "sources": [
+        "https://www.nato.int/en/about-us/nato-history/history-by-theme/my-country-and-nato/czechia-and-nato",
+        "https://mzv.gov.cz/jnp/en/foreign_relations/security_policy/czechia_and_nato_1/index.html",
+        "https://vlada.gov.cz/cz/media-centrum/ocekavane-udalosti/12--brezna-2026-modre-nasviceny-urad-vlady-pripomene-vstup-cr-do-nato-225740/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czechia's NATO accession anniversary: 12 March 1999",
+          "origin": "On 12 March 1999, Czechia joined the North Atlantic Treaty Organization alongside Poland and Hungary. The accession followed years of efforts to integrate into Euro-Atlantic security structures after the Cold War. A separate legal act creating an annual commemorative day has not been verified.",
+          "promoter": "Czech and NATO authorities carried out the accession. Czech government institutions commemorate its anniversary, but the initiator of a distinct annual observance is not established by these sources.",
+          "purpose": "The anniversary offers an opportunity to examine the country's security policy, collective defence commitments and its post-1989 international orientation.",
+          "facts": [
+            "Czechia joined NATO on 12 March 1999 with Poland and Hungary.",
+            "President Václav Havel signed the Czech accession instrument on 26 February 1999.",
+            "A NATO flag-raising ceremony followed in Brussels on 16 March 1999."
+          ]
+        },
+        "it": {
+          "heading": "Anniversario dell'ingresso della Cechia nella NATO: 12 marzo 1999",
+          "origin": "Il 12 marzo 1999 la Cechia entrò nella NATO insieme a Polonia e Ungheria. L'adesione seguì anni di avvicinamento alle strutture di sicurezza euroatlantiche dopo la guerra fredda. Non è stato verificato un atto distinto che istituisca una giornata commemorativa annuale.",
+          "promoter": "Le autorità ceche e della NATO gestirono l'adesione. Le istituzioni del governo ceco ricordano l'anniversario, ma le fonti non identificano un promotore distinto della ricorrenza annuale.",
+          "purpose": "La data permette di approfondire la politica di sicurezza del paese, gli impegni di difesa collettiva e il suo orientamento internazionale dopo il 1989.",
+          "facts": [
+            "La Cechia aderì alla NATO il 12 marzo 1999 insieme a Polonia e Ungheria.",
+            "Il presidente Václav Havel firmò lo strumento di adesione il 26 febbraio 1999.",
+            "Il 16 marzo 1999 si svolse a Bruxelles una cerimonia di alzabandiera della NATO."
+          ]
+        },
+        "es": {
+          "heading": "Aniversario del ingreso de Chequia en la OTAN: 12 de marzo de 1999",
+          "origin": "El 12 de marzo de 1999, Chequia ingresó en la OTAN junto con Polonia y Hungría. La adhesión culminó años de acercamiento a las estructuras de seguridad euroatlánticas tras la Guerra Fría. No se ha verificado una norma independiente que establezca una conmemoración anual.",
+          "promoter": "Las autoridades checas y de la OTAN gestionaron la adhesión. Las instituciones gubernamentales checas recuerdan su aniversario, pero las fuentes no identifican al fundador de una celebración anual distinta.",
+          "purpose": "La fecha invita a examinar la política de seguridad del país, sus compromisos de defensa colectiva y su orientación internacional posterior a 1989.",
+          "facts": [
+            "Chequia ingresó en la OTAN el 12 de marzo de 1999 junto con Polonia y Hungría.",
+            "El presidente Václav Havel firmó el instrumento de adhesión el 26 de febrero de 1999.",
+            "El 16 de marzo de 1999 se celebró en Bruselas una ceremonia de izado de banderas."
+          ]
+        },
+        "fr": {
+          "heading": "Anniversaire de l'adhésion de la Tchéquie à l'OTAN : 12 mars 1999",
+          "origin": "Le 12 mars 1999, la Tchéquie adhéra à l'OTAN avec la Pologne et la Hongrie. Cette adhésion suivit plusieurs années de rapprochement avec les structures de sécurité euro-atlantiques après la guerre froide. Aucun acte distinct instituant une commémoration annuelle n'a été vérifié.",
+          "promoter": "Les autorités tchèques et celles de l'OTAN conduisirent l'adhésion. Les institutions gouvernementales tchèques en commémorent l'anniversaire, mais les sources ne désignent pas de fondateur d'une fête annuelle distincte.",
+          "purpose": "La date permet d'examiner la politique de sécurité du pays, ses engagements de défense collective et son orientation internationale après 1989.",
+          "facts": [
+            "La Tchéquie adhéra à l'OTAN le 12 mars 1999 avec la Pologne et la Hongrie.",
+            "Le président Václav Havel signa l'instrument d'adhésion le 26 février 1999.",
+            "Une cérémonie de lever des drapeaux eut lieu à Bruxelles le 16 mars 1999."
+          ]
+        },
+        "de": {
+          "heading": "Jahrestag des NATO-Beitritts Tschechiens: 12. März 1999",
+          "origin": "Am 12. März 1999 trat Tschechien gemeinsam mit Polen und Ungarn der NATO bei. Dem Beitritt gingen nach dem Kalten Krieg mehrjährige Bemühungen um die Einbindung in euroatlantische Sicherheitsstrukturen voraus. Ein gesonderter Rechtsakt zur Einführung eines jährlichen Gedenktags ist nicht nachgewiesen.",
+          "promoter": "Tschechische Stellen und die NATO vollzogen den Beitritt. Tschechische Regierungsinstitutionen erinnern an das Jubiläum; ein eigener Begründer des jährlichen Gedenkens ist in den Quellen nicht belegt.",
+          "purpose": "Der Jahrestag regt dazu an, die Sicherheitspolitik des Landes, seine Verpflichtungen zur kollektiven Verteidigung und seine internationale Ausrichtung nach 1989 zu betrachten.",
+          "facts": [
+            "Tschechien trat der NATO am 12. März 1999 zusammen mit Polen und Ungarn bei.",
+            "Präsident Václav Havel unterzeichnete die Beitrittsurkunde am 26. Februar 1999.",
+            "Am 16. März 1999 fand in Brüssel eine Flaggenzeremonie statt."
+          ]
+        },
+        "pt": {
+          "heading": "Aniversário da adesão da Chéquia à OTAN: 12 de março de 1999",
+          "origin": "Em 12 de março de 1999, a Chéquia aderiu à OTAN juntamente com a Polónia e a Hungria. A adesão resultou de anos de aproximação às estruturas de segurança euro-atlânticas após a Guerra Fria. Não foi comprovado um ato separado que institua uma comemoração anual.",
+          "promoter": "As autoridades checas e da OTAN conduziram a adesão. Instituições do governo checo assinalam o aniversário, mas as fontes não identificam um fundador de uma celebração anual distinta.",
+          "purpose": "A data convida a analisar a política de segurança do país, os compromissos de defesa coletiva e a sua orientação internacional após 1989.",
+          "facts": [
+            "A Chéquia aderiu à OTAN em 12 de março de 1999 com a Polónia e a Hungria.",
+            "O presidente Václav Havel assinou o instrumento de adesão em 26 de fevereiro de 1999.",
+            "Em 16 de março de 1999 realizou-se em Bruxelas uma cerimónia de hasteamento de bandeiras."
           ]
         }
       },
