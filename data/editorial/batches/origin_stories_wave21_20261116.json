@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 20,
+  "count": 21,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1538,6 +1538,92 @@
             "A lei checa 245/2000 Sb. inclui 15 de maio, Den rodin, entre os dias significativos.",
             "A ONU instituiu o Dia Internacional das Famílias em 1993, celebrado pela primeira vez em 1994.",
             "O Ministério checo do Trabalho e Assuntos Sociais assinala 15 de maio e relaciona-o com a política familiar."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-flag-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1920,
+      "dateReason": "30 March 1920 adoption of the Czechoslovak flag; separate commemorative-day legislation proposed in 2026",
+      "dateRule": "March 30",
+      "institution": "1920 Czechoslovak National Assembly; Czech government proposed commemorative-day legislation in January 2026",
+      "sources": [
+        "https://www.npu.cz/cs/novinky/59446-pamatky-ve-sprave-npu-vyvesily-ceskou-statni-vlajku",
+        "https://vlada.gov.cz/cz/media-centrum/aktualne/vlada-podporila-navrh-ustavit-30--brezen-novym-vyznamnym-dnem--dnem-ceske-vlajky-224943/",
+        "https://vlada.gov.cz/cz/media-centrum/ocekavane-udalosti/30--brezna-2026-urad-vlady-se-pripravuje-na-den-ceske-vlajky--novy-vyznamny-den-pripomene-statnost-a-narodni-hrdost--226074/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech Flag Day: a national symbol adopted in 1920",
+          "origin": "On 30 March 1920, Czechoslovakia approved the white-and-red flag with a blue triangle, designed after the state's creation in 1918. The Czech Republic retained this design after 1993. In 2026, the government proposed making the anniversary a statutory commemorative day; this is distinct from the flag's original adoption.",
+          "promoter": "The 1920 Czechoslovak parliament adopted the flag. The Czech government backed a separate commemorative-day proposal in January 2026; the later legislative outcome needs a dated legal cross-check.",
+          "purpose": "The date invites people to examine how national symbols carry historical memory, constitutional continuity and civic identity.",
+          "facts": [
+            "The flag design was adopted on 30 March 1920.",
+            "The Czech Republic retained the design in 1993.",
+            "The government proposed the new commemorative day in January 2026."
+          ]
+        },
+        "it": {
+          "heading": "Giornata della bandiera ceca: un simbolo adottato nel 1920",
+          "origin": "Il 30 marzo 1920 la Cecoslovacchia approvò la bandiera bianca e rossa con triangolo blu, elaborata dopo la nascita dello Stato nel 1918. La Repubblica Ceca mantenne il disegno nel 1993. Nel 2026 il governo propose di rendere l'anniversario una giornata commemorativa prevista dalla legge, distinta dall'adozione originaria della bandiera.",
+          "promoter": "Il Parlamento cecoslovacco approvò la bandiera nel 1920. Nel gennaio 2026 il governo ceco sostenne una distinta proposta di giornata commemorativa; l'esito legislativo successivo richiede una verifica giuridica datata.",
+          "purpose": "La ricorrenza invita a riflettere sul ruolo dei simboli nazionali nella memoria storica, nella continuità costituzionale e nell'identità civica.",
+          "facts": [
+            "Il disegno della bandiera fu approvato il 30 marzo 1920.",
+            "La Repubblica Ceca lo mantenne nel 1993.",
+            "Il governo propose la nuova ricorrenza nel gennaio 2026."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Bandera Checa: un símbolo adoptado en 1920",
+          "origin": "El 30 de marzo de 1920, Checoslovaquia aprobó la bandera blanca y roja con un triángulo azul, creada tras la formación del Estado en 1918. La República Checa conservó el diseño en 1993. En 2026, el Gobierno propuso convertir el aniversario en un día conmemorativo legal, distinto de la adopción original de la bandera.",
+          "promoter": "El Parlamento checoslovaco aprobó la bandera en 1920. En enero de 2026, el Gobierno checo respaldó otra propuesta para establecer la conmemoración; su resultado legislativo posterior requiere una comprobación jurídica fechada.",
+          "purpose": "La fecha invita a estudiar cómo los símbolos nacionales transmiten memoria histórica, continuidad constitucional e identidad cívica.",
+          "facts": [
+            "El diseño de la bandera fue aprobado el 30 de marzo de 1920.",
+            "La República Checa lo conservó en 1993.",
+            "El Gobierno propuso la nueva conmemoración en enero de 2026."
+          ]
+        },
+        "fr": {
+          "heading": "Journée du drapeau tchèque : un symbole adopté en 1920",
+          "origin": "Le 30 mars 1920, la Tchécoslovaquie approuva le drapeau blanc et rouge au triangle bleu, conçu après la création de l'État en 1918. La République tchèque conserva ce dessin en 1993. En 2026, le gouvernement proposa de faire de cet anniversaire une journée commémorative légale, distincte de l'adoption initiale du drapeau.",
+          "promoter": "Le Parlement tchécoslovaque adopta le drapeau en 1920. En janvier 2026, le gouvernement tchèque soutint une proposition distincte de journée commémorative ; son issue législative ultérieure demande une vérification juridique datée.",
+          "purpose": "Cette date invite à comprendre comment les symboles nationaux portent la mémoire historique, la continuité constitutionnelle et l'identité civique.",
+          "facts": [
+            "Le drapeau fut adopté le 30 mars 1920.",
+            "La République tchèque conserva son dessin en 1993.",
+            "Le gouvernement proposa la nouvelle commémoration en janvier 2026."
+          ]
+        },
+        "de": {
+          "heading": "Tag der tschechischen Flagge: ein 1920 angenommenes Staatssymbol",
+          "origin": "Am 30. März 1920 beschloss die Tschechoslowakei die weiß-rote Flagge mit blauem Dreieck, die nach der Staatsgründung von 1918 entstanden war. Die Tschechische Republik behielt das Muster 1993 bei. 2026 schlug die Regierung vor, den Jahrestag als gesetzlichen Gedenktag einzuführen; dies ist von der ursprünglichen Flaggenannahme zu unterscheiden.",
+          "promoter": "Das tschechoslowakische Parlament beschloss die Flagge 1920. Im Januar 2026 unterstützte die tschechische Regierung einen gesonderten Vorschlag für einen Gedenktag; der spätere Gesetzesstand muss anhand datierter Rechtsquellen geprüft werden.",
+          "purpose": "Der Tag regt dazu an, die Rolle staatlicher Symbole für historisches Gedächtnis, verfassungsrechtliche Kontinuität und bürgerliche Identität zu untersuchen.",
+          "facts": [
+            "Das Flaggendesign wurde am 30. März 1920 angenommen.",
+            "Die Tschechische Republik behielt es 1993 bei.",
+            "Die Regierung schlug den neuen Gedenktag im Januar 2026 vor."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Bandeira Checa: um símbolo adotado em 1920",
+          "origin": "Em 30 de março de 1920, a Checoslováquia aprovou a bandeira branca e vermelha com triângulo azul, criada após a formação do Estado em 1918. A República Checa manteve o desenho em 1993. Em 2026, o governo propôs transformar o aniversário num dia comemorativo previsto na lei, distinto da adoção original da bandeira.",
+          "promoter": "O Parlamento checoslovaco aprovou a bandeira em 1920. Em janeiro de 2026, o governo checo apoiou uma proposta separada para instituir a comemoração; o resultado legislativo posterior exige confirmação jurídica datada.",
+          "purpose": "A data convida a refletir sobre a memória histórica, a continuidade constitucional e a identidade cívica representadas pelos símbolos nacionais.",
+          "facts": [
+            "O desenho da bandeira foi aprovado em 30 de março de 1920.",
+            "A República Checa manteve-o em 1993.",
+            "O governo propôs a nova comemoração em janeiro de 2026."
           ]
         }
       },
