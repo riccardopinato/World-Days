@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 22,
+  "count": 23,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1710,6 +1710,92 @@
             "O levantamento de Praga começou em 5 de maio de 1945.",
             "A rádio ajudou a mobilizar a resistência.",
             "Os combates continuaram nos últimos dias da guerra."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-samizdat-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2025,
+      "firstObservedYear": 2025,
+      "commemoratedEventYear": 1988,
+      "dateReason": "12 October 1988 letter by 92 Czech and Slovak samizdat publishers defending Ivan Polanský",
+      "dateRule": "October 12",
+      "institution": "Parliament of the Czech Republic; Act No. 279/2024 effective 1 January 2025",
+      "sources": [
+        "https://csds.cz/cs/zpravy/6042-DS.html",
+        "https://english.radio.cz/october-12-become-day-samizdat-8828320",
+        "https://plus.rozhlas.cz/solidarita-s-ivanem-polanskym-proc-je-12-rijen-vyznamnym-dnem-samizdatu-9570108"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech Samizdat Day: words that crossed censorship",
+          "origin": "On 12 October 1988, 92 Czech and Slovak independent publishers appealed to communist president Gustáv Husák against the imprisonment of samizdat publisher Ivan Polanský. The date now recalls how forbidden books and journals circulated despite censorship. Czech law added 12 October as a significant commemorative day with effect from 1 January 2025.",
+          "promoter": "The Czech Parliament established the official commemorative day through Act No. 279/2024, amending the public-holidays law. Independent archival and publishing organisations had promoted a Samizdat Day since 2016.",
+          "purpose": "The observance honours people who risked repression to circulate independent writing and defends freedom of expression and access to uncensored ideas.",
+          "facts": [
+            "The Czech commemorative date is 12 October.",
+            "A letter defending Ivan Polanský was signed by 92 publishers in 1988.",
+            "The statutory Czech observance took effect in 2025."
+          ]
+        },
+        "it": {
+          "heading": "Giornata ceca del samizdat: parole contro la censura",
+          "origin": "Il 12 ottobre 1988, 92 editori indipendenti cechi e slovacchi scrissero al presidente comunista Gustáv Husák per protestare contro la detenzione dell'editore samizdat Ivan Polanský. La data ricorda la circolazione clandestina di libri e riviste nonostante la censura. La legge ceca ha introdotto la commemorazione ufficiale dal 1° gennaio 2025.",
+          "promoter": "Il Parlamento ceco ha istituito la giornata con la legge n. 279/2024, modificando la normativa sulle festività. Organizzazioni archivistiche e culturali indipendenti promuovevano una giornata del samizdat già dal 2016.",
+          "purpose": "La ricorrenza rende omaggio a chi rischiò persecuzioni per diffondere scritti indipendenti e difende la libertà di espressione.",
+          "facts": [
+            "La data commemorativa ceca è il 12 ottobre.",
+            "Nel 1988 la lettera a favore di Ivan Polanský ebbe 92 firmatari.",
+            "La commemorazione legale ceca è entrata in vigore nel 2025."
+          ]
+        },
+        "es": {
+          "heading": "Día checo del samizdat: palabras contra la censura",
+          "origin": "El 12 de octubre de 1988, 92 editores independientes checos y eslovacos dirigieron una carta al presidente comunista Gustáv Husák para protestar por el encarcelamiento del editor de samizdat Ivan Polanský. La fecha recuerda la circulación clandestina de libros y revistas frente a la censura. La conmemoración legal checa entró en vigor el 1 de enero de 2025.",
+          "promoter": "El Parlamento checo estableció la jornada mediante la Ley n.º 279/2024, que modificó la legislación sobre festividades. Organizaciones culturales y archivísticas ya promovían el Día del Samizdat desde 2016.",
+          "purpose": "La jornada honra a quienes arriesgaron la represión por difundir escritos independientes y defiende la libertad de expresión.",
+          "facts": [
+            "La fecha conmemorativa checa es el 12 de octubre.",
+            "En 1988, 92 editores firmaron la carta en defensa de Ivan Polanský.",
+            "La conmemoración legal entró en vigor en 2025."
+          ]
+        },
+        "fr": {
+          "heading": "Journée tchèque du samizdat : des mots contre la censure",
+          "origin": "Le 12 octobre 1988, 92 éditeurs indépendants tchèques et slovaques adressèrent une lettre au président communiste Gustáv Husák pour protester contre l'emprisonnement de l'éditeur samizdat Ivan Polanský. Cette date rappelle la diffusion clandestine de livres et de revues malgré la censure. La commémoration officielle tchèque est entrée en vigueur le 1er janvier 2025.",
+          "promoter": "Le Parlement tchèque a institué cette journée par la loi n° 279/2024 modifiant la législation sur les jours fériés. Des organisations culturelles et archivistiques la promouvaient déjà depuis 2016.",
+          "purpose": "La journée rend hommage à ceux qui risquaient la répression pour diffuser des écrits indépendants et défend la liberté d'expression.",
+          "facts": [
+            "La date commémorative tchèque est le 12 octobre.",
+            "En 1988, 92 éditeurs signèrent la lettre de soutien à Ivan Polanský.",
+            "La commémoration légale est entrée en vigueur en 2025."
+          ]
+        },
+        "de": {
+          "heading": "Tschechischer Samisdat-Tag: Worte gegen die Zensur",
+          "origin": "Am 12. Oktober 1988 wandten sich 92 tschechische und slowakische unabhängige Verleger in einem Brief an den kommunistischen Präsidenten Gustáv Husák. Sie protestierten gegen die Inhaftierung des Samisdat-Verlegers Ivan Polanský. Das Datum erinnert an die heimliche Verbreitung von Büchern und Zeitschriften trotz Zensur. Der gesetzliche Gedenktag gilt seit dem 1. Januar 2025.",
+          "promoter": "Das tschechische Parlament führte den Gedenktag durch Gesetz Nr. 279/2024 als Änderung des Feiertagsgesetzes ein. Unabhängige Kultur- und Archivorganisationen hatten ihn bereits seit 2016 gefördert.",
+          "purpose": "Der Tag ehrt Menschen, die für unabhängige Veröffentlichungen Verfolgung riskierten, und unterstreicht die Bedeutung der Meinungsfreiheit.",
+          "facts": [
+            "Der tschechische Gedenktag fällt auf den 12. Oktober.",
+            "1988 unterzeichneten 92 Verleger den Brief zur Unterstützung von Ivan Polanský.",
+            "Der gesetzliche Gedenktag trat 2025 in Kraft."
+          ]
+        },
+        "pt": {
+          "heading": "Dia checo do samizdat: palavras contra a censura",
+          "origin": "Em 12 de outubro de 1988, 92 editores independentes checos e eslovacos enviaram uma carta ao presidente comunista Gustáv Husák contra a prisão do editor de samizdat Ivan Polanský. A data recorda a circulação clandestina de livros e revistas apesar da censura. A comemoração legal checa entrou em vigor em 1 de janeiro de 2025.",
+          "promoter": "O Parlamento checo instituiu a data pela Lei n.º 279/2024, que alterou a legislação sobre feriados. Organizações culturais e de arquivo já promoviam o Dia do Samizdat desde 2016.",
+          "purpose": "A data homenageia quem arriscou a repressão para divulgar escritos independentes e defende a liberdade de expressão.",
+          "facts": [
+            "A data comemorativa checa é 12 de outubro.",
+            "Em 1988, 92 editores assinaram a carta em defesa de Ivan Polanský.",
+            "A comemoração legal entrou em vigor em 2025."
           ]
         }
       },
