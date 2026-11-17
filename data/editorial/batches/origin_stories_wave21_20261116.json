@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 14,
+  "count": 15,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1022,6 +1022,92 @@
             "A data é 1 de março.",
             "Sete dirigentes da WiN foram executados em 1951.",
             "O dia nacional foi instituído em 2011."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cy-independence-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1960,
+      "dateReason": "Official observance on 1 October, distinct from sovereignty on 16 August 1960; original October designation instrument not independently verified",
+      "dateRule": "October 1",
+      "institution": "Republic of Cyprus; original holiday designation decision not independently verified",
+      "sources": [
+        "https://www.parliament.cy/easyconsole.cfm/id/142/lang/en",
+        "https://www.gov.cy/cm/en/council-of-ministers/background/",
+        "https://publications.gov.cy/en/assets/user/publications/GAAG/CAAG_EN_2018/4/index.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Cyprus Independence Day: the republic founded in 1960",
+          "origin": "Cyprus became an independent republic on 16 August 1960 after British colonial rule. The Zürich–London agreements shaped its founding constitution and a bicommunal government. The official national celebration falls on 1 October, distinct from the date of the transfer of sovereignty.",
+          "promoter": "The Republic of Cyprus and its public institutions mark the national holiday. The exact original decision establishing the October celebration has not been confirmed from the primary sources cited here.",
+          "purpose": "The day recalls the creation of the republic and offers an opportunity to examine its constitutional history and the experiences of both Greek Cypriot and Turkish Cypriot communities.",
+          "facts": [
+            "The republic was established on 16 August 1960.",
+            "Its official Independence Day is 1 October.",
+            "Makarios III and Fazıl Küçük were its first president and vice-president."
+          ]
+        },
+        "it": {
+          "heading": "La festa dell'indipendenza di Cipro: una repubblica nata nel 1960",
+          "origin": "Cipro divenne una repubblica indipendente il 16 agosto 1960, al termine del dominio coloniale britannico. Gli accordi di Zurigo e Londra definirono il quadro della Costituzione e di un governo fondato sulla partecipazione delle due comunità. La festa nazionale si celebra il 1º ottobre, data diversa dal trasferimento della sovranità.",
+          "promoter": "La Repubblica di Cipro e le sue istituzioni celebrano la ricorrenza. Le fonti primarie qui citate non confermano il provvedimento originario che fissò la celebrazione a ottobre.",
+          "purpose": "La giornata ricorda la nascita della Repubblica e invita a conoscere la sua storia costituzionale e le esperienze delle comunità greco-cipriota e turco-cipriota.",
+          "facts": [
+            "La Repubblica nacque il 16 agosto 1960.",
+            "La festa ufficiale dell'indipendenza cade il 1º ottobre.",
+            "Makarios III e Fazıl Küçük furono i primi presidente e vicepresidente."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Independencia de Chipre: una república fundada en 1960",
+          "origin": "Chipre se convirtió en república independiente el 16 de agosto de 1960, tras el dominio colonial británico. Los acuerdos de Zúrich y Londres configuraron su Constitución y un gobierno bicomunal. La celebración nacional oficial tiene lugar el 1 de octubre, una fecha distinta de la transferencia de soberanía.",
+          "promoter": "La República de Chipre y sus instituciones públicas conmemoran la festividad. Las fuentes primarias citadas no confirman la decisión original que fijó la celebración en octubre.",
+          "purpose": "La jornada recuerda la creación de la república e invita a estudiar su historia constitucional y las experiencias de las comunidades grecochipriota y turcochipriota.",
+          "facts": [
+            "La república se estableció el 16 de agosto de 1960.",
+            "El Día de la Independencia oficial es el 1 de octubre.",
+            "Makarios III y Fazıl Küçük fueron su primer presidente y vicepresidente."
+          ]
+        },
+        "fr": {
+          "heading": "Fête de l'indépendance de Chypre : une république née en 1960",
+          "origin": "Chypre est devenue une république indépendante le 16 août 1960, après la domination coloniale britannique. Les accords de Zurich et de Londres ont encadré sa Constitution et un gouvernement bicommunautaire. La fête nationale officielle a lieu le 1er octobre, à une date différente du transfert de souveraineté.",
+          "promoter": "La République de Chypre et ses institutions publiques commémorent cette fête. Les sources primaires citées ne confirment pas la décision initiale fixant la célébration en octobre.",
+          "purpose": "Cette journée rappelle la création de la république et invite à étudier son histoire constitutionnelle et les expériences des communautés chypriote grecque et chypriote turque.",
+          "facts": [
+            "La république a été fondée le 16 août 1960.",
+            "La fête officielle de l'indépendance tombe le 1er octobre.",
+            "Makarios III et Fazıl Küçük furent ses premiers président et vice-président."
+          ]
+        },
+        "de": {
+          "heading": "Zyperns Unabhängigkeitstag: die Gründung der Republik 1960",
+          "origin": "Zypern wurde am 16. August 1960 nach der britischen Kolonialherrschaft eine unabhängige Republik. Die Abkommen von Zürich und London prägten die Verfassung und eine Regierung mit Beteiligung beider Gemeinschaften. Der offizielle Nationalfeiertag wird am 1. Oktober begangen, nicht am Tag der Souveränitätsübertragung.",
+          "promoter": "Die Republik Zypern und ihre staatlichen Institutionen begehen den Feiertag. Die angeführten Primärquellen belegen nicht den ursprünglichen Beschluss zur Festlegung des Oktobertermins.",
+          "purpose": "Der Tag erinnert an die Gründung der Republik und regt dazu an, ihre Verfassungsgeschichte und die Erfahrungen der griechisch- und türkischzyprischen Gemeinschaften kennenzulernen.",
+          "facts": [
+            "Die Republik entstand am 16. August 1960.",
+            "Der offizielle Unabhängigkeitstag ist der 1. Oktober.",
+            "Makarios III. und Fazıl Küçük waren der erste Präsident und Vizepräsident."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Independência de Chipre: uma república fundada em 1960",
+          "origin": "Chipre tornou-se uma república independente em 16 de agosto de 1960, após o domínio colonial britânico. Os acordos de Zurique e Londres moldaram a sua Constituição e um governo bicomunitário. A celebração nacional oficial realiza-se em 1 de outubro, data diferente da transferência de soberania.",
+          "promoter": "A República de Chipre e as suas instituições públicas assinalam a data. As fontes primárias citadas não confirmam a decisão original que estabeleceu a celebração em outubro.",
+          "purpose": "O dia recorda a criação da república e convida ao estudo da sua história constitucional e das experiências das comunidades cipriota grega e cipriota turca.",
+          "facts": [
+            "A república foi fundada em 16 de agosto de 1960.",
+            "O Dia da Independência oficial é 1 de outubro.",
+            "Makarios III e Fazıl Küçük foram os primeiros presidente e vice-presidente."
           ]
         }
       },
