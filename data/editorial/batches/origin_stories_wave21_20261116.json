@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 17,
+  "count": 18,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1280,6 +1280,92 @@
             "A Chéquia aderiu à OTAN em 12 de março de 1999 com a Polónia e a Hungria.",
             "O presidente Václav Havel assinou o instrumento de adesão em 26 de fevereiro de 1999.",
             "Em 16 de março de 1999 realizou-se em Bruxelas uma cerimónia de hasteamento de bandeiras."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-accession-to-the-european-union-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 2004,
+      "dateReason": "Anniversary of Czechia's accession to the European Union on 1 May 2004",
+      "dateRule": "May 1",
+      "institution": "Czech Republic and European Union (accession); separate founder of annual observance not established",
+      "sources": [
+        "https://www.consilium.europa.eu/en/policies/how-enlargement-works/timeline-accession-eu-member-states/",
+        "https://eur-lex.europa.eu/eli/dec/2003/923/oj/eng",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A12003T%2FTXT"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czechia's accession to the European Union — 1 May 2004",
+          "origin": "Czechia became a member of the European Union on 1 May 2004 as part of an enlargement involving ten countries. The Council approved the applications on 14 April 2003, and the accession treaty was signed in Athens on 16 April 2003. No separate legal act establishing an annual commemorative holiday has been verified.",
+          "promoter": "The accession was negotiated by Czech and EU authorities. The sources establish membership, not a distinct founder of a yearly observance.",
+          "purpose": "The anniversary invites reflection on European integration, the rights and obligations of membership and the transformation of Czechia's international relationships.",
+          "facts": [
+            "Czechia joined the EU on 1 May 2004.",
+            "The Council adopted its admission decision on 14 April 2003.",
+            "The accession treaty was signed in Athens on 16 April 2003."
+          ]
+        },
+        "it": {
+          "heading": "L'ingresso della Cechia nell'Unione europea — 1º maggio 2004",
+          "origin": "La Cechia divenne membro dell'Unione europea il 1º maggio 2004, nell'ambito di un allargamento a dieci paesi. Il Consiglio approvò le domande di adesione il 14 aprile 2003 e il trattato fu firmato ad Atene il 16 aprile 2003. Non è stato verificato un atto distinto che istituisca una festività commemorativa annuale.",
+          "promoter": "L'adesione fu negoziata dalle autorità ceche ed europee. Le fonti attestano l'ingresso nell'UE, non il fondatore di una ricorrenza annuale distinta.",
+          "purpose": "L'anniversario invita a riflettere sull'integrazione europea, sui diritti e doveri dell'adesione e sui cambiamenti nelle relazioni internazionali ceche.",
+          "facts": [
+            "La Cechia entrò nell'UE il 1º maggio 2004.",
+            "Il Consiglio adottò la decisione di ammissione il 14 aprile 2003.",
+            "Il trattato di adesione fu firmato ad Atene il 16 aprile 2003."
+          ]
+        },
+        "es": {
+          "heading": "Adhesión de Chequia a la Unión Europea — 1 de mayo de 2004",
+          "origin": "Chequia se convirtió en miembro de la Unión Europea el 1 de mayo de 2004, durante una ampliación de diez países. El Consejo aprobó las solicitudes el 14 de abril de 2003 y el tratado de adhesión se firmó en Atenas el 16 de abril de 2003. No se ha verificado una norma independiente que establezca una fiesta conmemorativa anual.",
+          "promoter": "La adhesión fue negociada por las autoridades checas y europeas. Las fuentes acreditan el ingreso, no un fundador de una conmemoración anual distinta.",
+          "purpose": "El aniversario permite reflexionar sobre la integración europea, los derechos y obligaciones de la pertenencia y la evolución de las relaciones internacionales checas.",
+          "facts": [
+            "Chequia ingresó en la UE el 1 de mayo de 2004.",
+            "El Consejo adoptó la decisión de admisión el 14 de abril de 2003.",
+            "El tratado de adhesión se firmó en Atenas el 16 de abril de 2003."
+          ]
+        },
+        "fr": {
+          "heading": "Adhésion de la Tchéquie à l'Union européenne — 1er mai 2004",
+          "origin": "La Tchéquie est devenue membre de l'Union européenne le 1er mai 2004, lors d'un élargissement concernant dix pays. Le Conseil a approuvé les candidatures le 14 avril 2003 et le traité d'adhésion a été signé à Athènes le 16 avril 2003. Aucun acte distinct instituant une fête commémorative annuelle n'a été vérifié.",
+          "promoter": "L'adhésion a été négociée par les autorités tchèques et européennes. Les sources établissent l'entrée dans l'UE, sans identifier le fondateur d'une commémoration annuelle distincte.",
+          "purpose": "Cet anniversaire invite à réfléchir à l'intégration européenne, aux droits et obligations des membres et à l'évolution des relations internationales tchèques.",
+          "facts": [
+            "La Tchéquie a adhéré à l'UE le 1er mai 2004.",
+            "Le Conseil a adopté la décision d'admission le 14 avril 2003.",
+            "Le traité d'adhésion a été signé à Athènes le 16 avril 2003."
+          ]
+        },
+        "de": {
+          "heading": "Tschechiens Beitritt zur Europäischen Union — 1. Mai 2004",
+          "origin": "Tschechien wurde am 1. Mai 2004 im Rahmen einer Erweiterung um zehn Staaten Mitglied der Europäischen Union. Der Rat billigte die Beitrittsanträge am 14. April 2003; der Beitrittsvertrag wurde am 16. April 2003 in Athen unterzeichnet. Ein gesonderter Rechtsakt zur Einführung eines jährlichen Gedenkfeiertags ist nicht nachgewiesen.",
+          "promoter": "Tschechische und europäische Behörden verhandelten den Beitritt. Die Quellen belegen die Mitgliedschaft, nicht den Gründer eines eigenen jährlichen Gedenktags.",
+          "purpose": "Der Jahrestag bietet Anlass, über europäische Integration, Rechte und Pflichten der Mitgliedschaft sowie Tschechiens internationale Beziehungen nachzudenken.",
+          "facts": [
+            "Tschechien trat der EU am 1. Mai 2004 bei.",
+            "Der Rat beschloss die Aufnahme am 14. April 2003.",
+            "Der Beitrittsvertrag wurde am 16. April 2003 in Athen unterzeichnet."
+          ]
+        },
+        "pt": {
+          "heading": "Adesão da Chéquia à União Europeia — 1 de maio de 2004",
+          "origin": "A Chéquia tornou-se membro da União Europeia em 1 de maio de 2004, numa ampliação que envolveu dez países. O Conselho aprovou os pedidos de adesão em 14 de abril de 2003 e o tratado foi assinado em Atenas em 16 de abril de 2003. Não foi comprovado um ato separado que institua um feriado comemorativo anual.",
+          "promoter": "A adesão foi negociada pelas autoridades checas e europeias. As fontes comprovam a entrada na UE, não o fundador de uma comemoração anual distinta.",
+          "purpose": "O aniversário convida a refletir sobre a integração europeia, os direitos e deveres dos membros e a evolução das relações internacionais checas.",
+          "facts": [
+            "A Chéquia aderiu à UE em 1 de maio de 2004.",
+            "O Conselho adotou a decisão de admissão em 14 de abril de 2003.",
+            "O tratado de adesão foi assinado em Atenas em 16 de abril de 2003."
           ]
         }
       },
