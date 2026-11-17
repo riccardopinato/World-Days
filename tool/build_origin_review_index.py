@@ -33,7 +33,13 @@ def run():
  story_reviewed_at={}
  for batch_file in batch_files:
   batch=json.loads(batch_file.read_text(encoding="utf-8"))
-  # Wave21+ may contain explicitly gated AI drafts and HOLD records. These are\n  # not yet merged source-researched histories; keep them out of the published index.\n  if batch.get("status") != "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE":\n   assert batch.get("wave", 0) >= 21 and isinstance(batch.get("records"), list), batch_file\n   assert batch.get("count") == len(batch["records"]), batch_file\n   assert all(item.get("runtimeRichEditorialApproved") is False for item in batch["records"]), batch_file\n   continue
+  # Wave21+ may contain explicitly gated AI drafts and HOLD records. These are
+  # not yet merged source-researched histories; keep them out of the published index.
+  if batch.get("status") != "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE":
+   assert batch.get("wave", 0) >= 21 and isinstance(batch.get("records"), list), batch_file
+   assert batch.get("count") == len(batch["records"]), batch_file
+   assert all(item.get("runtimeRichEditorialApproved") is False for item in batch["records"]), batch_file
+   continue
   assert batch["count"]==len(batch["records"]),batch_file
   assert batch["reviewedOn"] and len(batch["reviewedOn"])==10,batch_file
   for item in batch["records"]:
@@ -138,7 +144,8 @@ def run():
  }
  REPORT.parent.mkdir(parents=True,exist_ok=True)
  OUT.parent.mkdir(parents=True,exist_ok=True)
- OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"
+",encoding="utf-8")
  report={
   "schemaVersion":1,
   "datasetVersion":catalog["datasetVersion"],
@@ -154,7 +161,8 @@ def run():
   "sourceTierOccurrences":dict(source_tiers),
   "limitation":"Identifier/source/schema/recurrence validation is not human historical certification of individual entries; the outstanding history count is recorded separately.",
  }
- REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"
+",encoding="utf-8")
  print("ORIGIN_REVIEW_COVERAGE",json.dumps(report,ensure_ascii=False,sort_keys=True))
  return payload
 
