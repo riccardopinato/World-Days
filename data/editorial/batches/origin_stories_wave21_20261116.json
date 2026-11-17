@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 21,
+  "count": 22,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1624,6 +1624,92 @@
             "O desenho da bandeira foi aprovado em 30 de março de 1920.",
             "A República Checa manteve-o em 1993.",
             "O governo propôs a nova comemoração em janeiro de 2026."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-may-uprising-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1945,
+      "dateReason": "5 May 1945 beginning of the Prague uprising against Nazi occupation; anniversary remembrance, not independently verified statutory establishment",
+      "dateRule": "May 5",
+      "institution": "Czech resistance and Czech National Council in 1945; modern commemorations by Czech state institutions",
+      "sources": [
+        "https://mocr.mo.gov.cz/informacni-servis/zpravodajstvi/pred-budovou-ceskeho-rozhlasu-si-politici-a-verejnost-pripomneli-vyroci-kvetnoveho-povstani-263682/",
+        "https://www.vhu.cz/exhibit/pripominka-zacatku-prazskeho-povstani-v-kvetnu-1945/",
+        "https://www.ahmp.cz/povstani45/index.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech May Uprising: resistance at the end of the war",
+          "origin": "In early May 1945, Czech resistance to Nazi occupation grew into an uprising. In Prague, Czech-language radio broadcasts and appeals for help on 5 May became a rallying point; fighting continued through the final days of the war in Europe. The anniversary commemorates those who resisted and died, not a newly established international observance.",
+          "promoter": "Czech resistance groups and the Czech National Council helped organize the uprising; state institutions and historical museums now commemorate its participants.",
+          "purpose": "The remembrance connects liberation with the risks taken by civilians, radio staff and resistance fighters.",
+          "facts": [
+            "The Prague uprising began on 5 May 1945.",
+            "Radio broadcasts helped mobilize resistance.",
+            "Fighting continued during the last days of the war."
+          ]
+        },
+        "it": {
+          "heading": "Insurrezione ceca di maggio: la resistenza alla fine della guerra",
+          "origin": "All'inizio di maggio 1945 la resistenza ceca all'occupazione nazista sfociò in un'insurrezione. A Praga, il 5 maggio le trasmissioni radiofoniche in ceco e gli appelli all'aiuto divennero un punto di mobilitazione; i combattimenti proseguirono negli ultimi giorni della guerra in Europa. L'anniversario ricorda chi resistette e perse la vita, non una nuova giornata internazionale.",
+          "promoter": "Gruppi della resistenza e il Consiglio nazionale ceco contribuirono a organizzare la rivolta; oggi istituzioni e musei storici ne ricordano i protagonisti.",
+          "purpose": "La memoria della rivolta collega la liberazione ai rischi affrontati da civili, personale radiofonico e combattenti.",
+          "facts": [
+            "La rivolta di Praga iniziò il 5 maggio 1945.",
+            "Le trasmissioni radio contribuirono alla mobilitazione.",
+            "I combattimenti continuarono negli ultimi giorni della guerra."
+          ]
+        },
+        "es": {
+          "heading": "Levantamiento checo de mayo: resistencia al final de la guerra",
+          "origin": "A comienzos de mayo de 1945, la resistencia checa a la ocupación nazi desembocó en un levantamiento. En Praga, las emisiones en checo y las llamadas de auxilio por radio del 5 de mayo impulsaron la movilización; los combates continuaron durante los últimos días de la guerra en Europa. El aniversario recuerda a quienes resistieron y murieron, no la creación de una jornada internacional.",
+          "promoter": "Grupos de resistencia y el Consejo Nacional Checo ayudaron a organizar la revuelta; hoy la conmemoran instituciones y museos históricos.",
+          "purpose": "El recuerdo relaciona la liberación con los riesgos asumidos por civiles, trabajadores de radio y combatientes.",
+          "facts": [
+            "El levantamiento de Praga comenzó el 5 de mayo de 1945.",
+            "La radio contribuyó a movilizar la resistencia.",
+            "Los combates continuaron en los últimos días de la guerra."
+          ]
+        },
+        "fr": {
+          "heading": "Insurrection tchèque de mai : résister à la fin de la guerre",
+          "origin": "Au début de mai 1945, la résistance tchèque à l'occupation nazie déboucha sur une insurrection. À Prague, les émissions en tchèque et les appels à l'aide diffusés à la radio le 5 mai favorisèrent la mobilisation ; les combats se poursuivirent pendant les derniers jours de la guerre en Europe. Cet anniversaire rend hommage aux personnes qui résistèrent et périrent, sans constituer une nouvelle journée internationale.",
+          "promoter": "Des groupes de résistance et le Conseil national tchèque participèrent à l'organisation du soulèvement ; des institutions et musées historiques en entretiennent aujourd'hui la mémoire.",
+          "purpose": "La commémoration relie la libération aux risques encourus par les civils, les personnels de radio et les résistants.",
+          "facts": [
+            "L'insurrection de Prague commença le 5 mai 1945.",
+            "La radio contribua à mobiliser la résistance.",
+            "Les combats se poursuivirent dans les derniers jours de la guerre."
+          ]
+        },
+        "de": {
+          "heading": "Tschechischer Maiaufstand: Widerstand am Kriegsende",
+          "origin": "Anfang Mai 1945 weitete sich der tschechische Widerstand gegen die NS-Besatzung zu einem Aufstand aus. In Prag wurden tschechischsprachige Radiosendungen und Hilferufe am 5. Mai zum Signal der Mobilisierung; die Kämpfe dauerten in den letzten Kriegstagen Europas an. Der Jahrestag erinnert an Widerstand und Opfer, nicht an einen neu eingeführten internationalen Gedenktag.",
+          "promoter": "Widerstandsgruppen und der Tschechische Nationalrat wirkten an der Organisation mit; staatliche Einrichtungen und historische Museen erinnern heute an die Beteiligten.",
+          "purpose": "Das Gedenken verbindet die Befreiung mit den Gefahren für Zivilisten, Radiomitarbeiter und Widerstandskämpfer.",
+          "facts": [
+            "Der Prager Aufstand begann am 5. Mai 1945.",
+            "Radiosendungen halfen, den Widerstand zu mobilisieren.",
+            "Die Kämpfe dauerten in den letzten Kriegstagen an."
+          ]
+        },
+        "pt": {
+          "heading": "Levantamento checo de maio: resistência no fim da guerra",
+          "origin": "No início de maio de 1945, a resistência checa à ocupação nazi transformou-se num levantamento. Em Praga, as emissões em checo e os apelos de ajuda pela rádio em 5 de maio mobilizaram a população; os combates prosseguiram nos últimos dias da guerra na Europa. O aniversário homenageia quem resistiu e morreu, sem representar a criação de um novo dia internacional.",
+          "promoter": "Grupos da resistência e o Conselho Nacional Checo ajudaram a organizar o levantamento; instituições e museus históricos recordam hoje os participantes.",
+          "purpose": "A memória do levantamento liga a libertação aos riscos enfrentados por civis, profissionais da rádio e resistentes.",
+          "facts": [
+            "O levantamento de Praga começou em 5 de maio de 1945.",
+            "A rádio ajudou a mobilizar a resistência.",
+            "Os combates continuaram nos últimos dias da guerra."
           ]
         }
       },
