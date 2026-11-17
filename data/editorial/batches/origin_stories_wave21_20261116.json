@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 5,
+  "count": 6,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -419,6 +419,85 @@
           "facts": [
             "O Conselho Nacional aprovou a alteração em 8 de novembro de 2022.",
             "A primeira comemoração ocorreu em 6 de março de 2023."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "hr-antifascist-resistance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1941,
+      "dateReason": "Formation of the First Sisak Partisan Detachment on 22 June 1941",
+      "dateRule": "June 22",
+      "institution": "Croatian Parliament",
+      "sources": [
+        "https://www.sabor.hr/en/about-parliament/history/important-dates/22-june-anti-fascist-resistance-day",
+        "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja/vazni-datumi/22-lipnja-dan-antifasisticke-borbe"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Croatia remembers the beginning of anti-fascist resistance",
+          "origin": "Croatia marks 22 June to recall the formation of the First Sisak Partisan Detachment in Brezovica forest near Sisak on that date in 1941. The unit became an early symbol of organized resistance to fascism during the Second World War. Croatia's Parliament describes the commemoration as a national holiday under the holiday legislation in force since 2002.",
+          "promoter": "The Croatian Parliament recognizes the date through national holiday legislation and commemorates it in its official historical calendar.",
+          "purpose": "The day recalls those who opposed fascism and invites reflection on resistance, freedom and the complex history of wartime Croatia.",
+          "facts": [
+            "The remembered detachment was formed on 22 June 1941.",
+            "The Croatian Parliament states that the date has been celebrated as a holiday under legislation since 2002."
+          ]
+        },
+        "it": {
+          "heading": "La Croazia ricorda l'inizio della resistenza antifascista",
+          "origin": "Il 22 giugno la Croazia ricorda la formazione del Primo distaccamento partigiano di Sisak, avvenuta nel 1941 nella foresta di Brezovica vicino a Sisak. L'unità divenne un simbolo precoce della resistenza organizzata al fascismo durante la Seconda guerra mondiale. Il Parlamento croato descrive la ricorrenza come festività nazionale secondo la legislazione in vigore dal 2002.",
+          "promoter": "Il Parlamento croato riconosce la data attraverso la legge sulle festività e la include nel proprio calendario storico ufficiale.",
+          "purpose": "La giornata ricorda chi si oppose al fascismo e invita a riflettere sulla resistenza, sulla libertà e sulla complessa storia della Croazia in guerra.",
+          "facts": [
+            "Il distaccamento commemorato fu formato il 22 giugno 1941.",
+            "Secondo il Parlamento croato, la data è celebrata come festività in base alla legge dal 2002."
+          ]
+        },
+        "es": {
+          "heading": "Croacia recuerda el inicio de la resistencia antifascista",
+          "origin": "Croacia conmemora el 22 de junio la formación del Primer Destacamento Partisano de Sisak en el bosque de Brezovica, cerca de Sisak, en 1941. La unidad se convirtió en un símbolo temprano de la resistencia organizada al fascismo durante la Segunda Guerra Mundial. El Parlamento croata señala que la fecha es festiva conforme a la legislación vigente desde 2002.",
+          "promoter": "El Parlamento croata reconoce la fecha mediante la legislación sobre días festivos y la incluye en su calendario histórico oficial.",
+          "purpose": "La jornada recuerda a quienes se opusieron al fascismo e invita a reflexionar sobre la resistencia, la libertad y la compleja historia bélica de Croacia.",
+          "facts": [
+            "El destacamento recordado se formó el 22 de junio de 1941.",
+            "Según el Parlamento croata, la fecha se celebra como festivo bajo la legislación desde 2002."
+          ]
+        },
+        "fr": {
+          "heading": "La Croatie commémore les débuts de la résistance antifasciste",
+          "origin": "Le 22 juin, la Croatie rappelle la création du premier détachement partisan de Sisak dans la forêt de Brezovica, près de Sisak, en 1941. Cette unité est devenue un symbole précoce de la résistance organisée au fascisme pendant la Seconde Guerre mondiale. Le Parlement croate précise que cette date est fériée en vertu de la législation en vigueur depuis 2002.",
+          "promoter": "Le Parlement croate reconnaît cette date dans la législation sur les jours fériés et dans son calendrier historique officiel.",
+          "purpose": "Cette journée rend hommage à ceux qui ont résisté au fascisme et invite à réfléchir à la résistance, à la liberté et à l'histoire complexe de la Croatie en guerre.",
+          "facts": [
+            "Le détachement commémoré fut constitué le 22 juin 1941.",
+            "Selon le Parlement croate, cette date est célébrée comme jour férié dans le cadre de la loi depuis 2002."
+          ]
+        },
+        "de": {
+          "heading": "Kroatien erinnert an den Beginn des antifaschistischen Widerstands",
+          "origin": "Am 22. Juni erinnert Kroatien an die Gründung der ersten Partisanenabteilung von Sisak im Wald von Brezovica nahe Sisak im Jahr 1941. Die Einheit wurde zu einem frühen Symbol des organisierten Widerstands gegen den Faschismus im Zweiten Weltkrieg. Das kroatische Parlament beschreibt den Tag als gesetzlichen Feiertag nach den seit 2002 geltenden Bestimmungen.",
+          "promoter": "Das kroatische Parlament erkennt den Tag im Feiertagsrecht an und führt ihn in seinem offiziellen historischen Kalender.",
+          "purpose": "Der Gedenktag erinnert an Menschen, die sich dem Faschismus widersetzten, und regt zur Auseinandersetzung mit Widerstand, Freiheit und Kroatiens komplexer Kriegsgeschichte an.",
+          "facts": [
+            "Die gewürdigte Partisaneneinheit wurde am 22. Juni 1941 gegründet.",
+            "Laut kroatischem Parlament wird der Tag nach den seit 2002 geltenden gesetzlichen Bestimmungen als Feiertag begangen."
+          ]
+        },
+        "pt": {
+          "heading": "A Croácia recorda o início da resistência antifascista",
+          "origin": "A Croácia assinala a 22 de junho a formação do Primeiro Destacamento Partisan de Sisak, na floresta de Brezovica, perto de Sisak, em 1941. A unidade tornou-se um símbolo inicial da resistência organizada ao fascismo durante a Segunda Guerra Mundial. O Parlamento croata descreve a data como feriado nacional ao abrigo da legislação em vigor desde 2002.",
+          "promoter": "O Parlamento croata reconhece a data através da legislação dos feriados e inclui-a no seu calendário histórico oficial.",
+          "purpose": "O dia recorda quem se opôs ao fascismo e convida à reflexão sobre resistência, liberdade e a complexa história da Croácia durante a guerra.",
+          "facts": [
+            "O destacamento homenageado foi formado em 22 de junho de 1941.",
+            "Segundo o Parlamento croata, a data é celebrada como feriado ao abrigo da legislação desde 2002."
           ]
         }
       },
