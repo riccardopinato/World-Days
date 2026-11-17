@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 1,
+  "count": 2,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -82,6 +82,92 @@
             "A Constituição foi promulgada em Querétaro em 5 de fevereiro de 1917.",
             "Entrou em vigor em 1.º de maio de 1917.",
             "Os artigos 3, 27 e 123 tratam, respectivamente, de educação, terra e trabalho."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "no-constitution-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1814,
+      "dateReason": "Commemorates the Norwegian Constitution dated 17 May 1814 at Eidsvoll",
+      "dateRule": "May 17",
+      "institution": "Norwegian Constituent Assembly at Eidsvoll (1814); separate modern annual observance founding instrument not verified",
+      "sources": [
+        "https://stortinget.no/no/Stortinget-og-demokratiet/Grunnloven/Dokumentet-Grunnloven-av-17-mai-1814/",
+        "https://www.regjeringen.no/en/the-government/previous-governments/historiske-artikler/offices/the-establishing-of-the-norwegian-state/id410040/",
+        "https://eidsvoll1814.no/en/the-constituent-assembly"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Norway's Constitution Day: the Eidsvoll settlement",
+          "origin": "On 17 May 1814, the Norwegian Constituent Assembly at Eidsvoll completed the constitution dated that day and elected Christian Frederik king. The constitutional process followed the Treaty of Kiel and a debate about independence and union. The date became the country's national constitutional commemoration; the exact year in which today's annual observance was formally instituted is not established by these sources.",
+          "promoter": "The elected delegates at Eidsvoll drafted the constitution. Norwegian public institutions and communities now commemorate its legacy; the constituent assembly should not be confused with a verified founder of the modern annual holiday.",
+          "purpose": "The anniversary invites reflection on popular sovereignty, the separation of powers and the development of constitutional government in Norway.",
+          "facts": [
+            "The constitutional document is dated 17 May 1814.",
+            "The Constituent Assembly met at Eidsvoll in spring 1814.",
+            "Christian Frederik was elected king on 17 May 1814."
+          ]
+        },
+        "it": {
+          "heading": "Giornata della Costituzione norvegese: la svolta di Eidsvoll",
+          "origin": "Il 17 maggio 1814 l'Assemblea costituente norvegese riunita a Eidsvoll completò la Costituzione datata quel giorno ed elesse re Christian Frederik. Il processo seguì il trattato di Kiel e un confronto tra indipendenza e unione. La data è diventata la ricorrenza costituzionale nazionale; le fonti non identificano l'anno di istituzione formale dell'attuale celebrazione annuale.",
+          "promoter": "I delegati eletti a Eidsvoll elaborarono la Costituzione. Oggi istituzioni e comunità norvegesi ne ricordano l'eredità; l'Assemblea non va presentata come promotrice accertata della moderna festività.",
+          "purpose": "L'anniversario invita a riflettere sulla sovranità popolare, sulla separazione dei poteri e sullo sviluppo del governo costituzionale norvegese.",
+          "facts": [
+            "Il documento costituzionale reca la data del 17 maggio 1814.",
+            "L'Assemblea costituente si riunì a Eidsvoll nella primavera del 1814.",
+            "Christian Frederik fu eletto re il 17 maggio 1814."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Constitución de Noruega: el acuerdo de Eidsvoll",
+          "origin": "El 17 de mayo de 1814, la Asamblea Constituyente noruega reunida en Eidsvoll concluyó la Constitución fechada ese día y eligió rey a Christian Frederik. El proceso siguió al Tratado de Kiel y a un debate sobre independencia y unión. La fecha se convirtió en conmemoración constitucional nacional; estas fuentes no identifican el año de instauración formal de la celebración anual actual.",
+          "promoter": "Los delegados elegidos en Eidsvoll redactaron la Constitución. Hoy las instituciones y comunidades noruegas recuerdan su legado; la Asamblea no debe confundirse con un fundador acreditado de la festividad moderna.",
+          "purpose": "El aniversario invita a reflexionar sobre soberanía popular, separación de poderes y evolución del gobierno constitucional noruego.",
+          "facts": [
+            "El documento constitucional está fechado el 17 de mayo de 1814.",
+            "La Asamblea Constituyente se reunió en Eidsvoll en la primavera de 1814.",
+            "Christian Frederik fue elegido rey el 17 de mayo de 1814."
+          ]
+        },
+        "fr": {
+          "heading": "Fête de la Constitution norvégienne : le tournant d'Eidsvoll",
+          "origin": "Le 17 mai 1814, l'Assemblée constituante norvégienne réunie à Eidsvoll acheva la Constitution datée de ce jour et élut Christian Frederik roi. Ce processus suivit le traité de Kiel et un débat entre indépendance et union. La date est devenue une commémoration constitutionnelle nationale ; ces sources n'établissent pas l'année de création officielle de la célébration annuelle actuelle.",
+          "promoter": "Les délégués élus à Eidsvoll rédigèrent la Constitution. Les institutions et communautés norvégiennes en commémorent aujourd'hui l'héritage ; l'Assemblée ne saurait être présentée comme fondatrice attestée de la fête moderne.",
+          "purpose": "Cet anniversaire invite à réfléchir à la souveraineté populaire, à la séparation des pouvoirs et à l'évolution du gouvernement constitutionnel en Norvège.",
+          "facts": [
+            "Le document constitutionnel porte la date du 17 mai 1814.",
+            "L'Assemblée constituante siégea à Eidsvoll au printemps 1814.",
+            "Christian Frederik fut élu roi le 17 mai 1814."
+          ]
+        },
+        "de": {
+          "heading": "Norwegens Verfassungstag: die Entscheidung von Eidsvoll",
+          "origin": "Am 17. Mai 1814 vollendete die norwegische verfassunggebende Versammlung in Eidsvoll die auf diesen Tag datierte Verfassung und wählte Christian Frederik zum König. Vorausgegangen waren der Kieler Frieden und Debatten über Unabhängigkeit oder Union. Das Datum wurde zum nationalen Verfassungsgedenktag; das formelle Einführungsjahr der heutigen jährlichen Feier ist durch diese Quellen nicht belegt.",
+          "promoter": "Die gewählten Abgeordneten von Eidsvoll erarbeiteten die Verfassung. Norwegische Institutionen und Gemeinden erinnern heute daran; die Versammlung ist nicht automatisch als nachgewiesene Gründerin des modernen Feiertags anzusehen.",
+          "purpose": "Der Jahrestag regt zur Auseinandersetzung mit Volkssouveränität, Gewaltenteilung und der Entwicklung der norwegischen Verfassungsordnung an.",
+          "facts": [
+            "Das Verfassungsdokument ist auf den 17. Mai 1814 datiert.",
+            "Die verfassunggebende Versammlung tagte im Frühjahr 1814 in Eidsvoll.",
+            "Christian Frederik wurde am 17. Mai 1814 zum König gewählt."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Constituição da Noruega: o marco de Eidsvoll",
+          "origin": "Em 17 de maio de 1814, a Assembleia Constituinte norueguesa reunida em Eidsvoll concluiu a Constituição datada daquele dia e elegeu Christian Frederik rei. O processo ocorreu após o Tratado de Kiel e debates sobre independência e união. A data tornou-se uma comemoração constitucional nacional; estas fontes não identificam o ano de instituição formal da celebração anual atual.",
+          "promoter": "Os delegados eleitos em Eidsvoll elaboraram a Constituição. Hoje instituições e comunidades norueguesas recordam seu legado; a Assembleia não deve ser apresentada como fundadora comprovada do feriado moderno.",
+          "purpose": "O aniversário convida à reflexão sobre soberania popular, separação de poderes e desenvolvimento do governo constitucional na Noruega.",
+          "facts": [
+            "O documento constitucional tem a data de 17 de maio de 1814.",
+            "A Assembleia Constituinte reuniu-se em Eidsvoll na primavera de 1814.",
+            "Christian Frederik foi eleito rei em 17 de maio de 1814."
           ]
         }
       },
