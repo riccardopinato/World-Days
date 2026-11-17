@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 15,
+  "count": 16,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1108,6 +1108,92 @@
             "A república foi fundada em 16 de agosto de 1960.",
             "O Dia da Independência oficial é 1 de outubro.",
             "Makarios III e Fazıl Küçük foram os primeiros presidente e vice-presidente."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cy-national-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1955,
+      "dateReason": "Anniversary of the beginning of the EOKA armed campaign on 1 April 1955",
+      "dateRule": "April 1",
+      "institution": "Republic of Cyprus (official commemoration); original legal founding instrument unknown",
+      "sources": [
+        "https://www.gov.cy/proedros-proedria/ekprosopisi-kyvernisis-stis-doxologies-gia-tin-ethniki-epeteio-tis-1is-apriliou/",
+        "https://www.gov.cy/army/speeches/imerisia-diatagi-archigoy-ethnikis-froyras-tis-1is-aprilioy-2025/",
+        "https://www.gov.cy/proedros-proedria/chairetismos-tou-proedrou-tis-dimokratias-k-nikou-christodoulidi-ston-eortasmo-tis-epeteiou-tis-enarxis-tou-apeleftherotikou-agona-tis-eoka-1955-59-chthes/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Cyprus National Day: remembering 1 April 1955",
+          "origin": "On 1 April 1955, EOKA launched an armed campaign against British colonial rule in Cyprus. The campaign lasted until 1959, preceding the establishment of the independent Republic of Cyprus in August 1960. The April anniversary recalls the start of that conflict, not the republic's formal independence date.",
+          "promoter": "The Republic of Cyprus commemorates the anniversary through official ceremonies. EOKA initiated the 1955 campaign; the original legal act designating the annual holiday has not been verified.",
+          "purpose": "The commemoration recalls the anti-colonial struggle while inviting examination of the conflict's contested legacy and the differing experiences of Cyprus's communities.",
+          "facts": [
+            "The commemorated campaign began on 1 April 1955.",
+            "The conflict is generally dated 1955–1959.",
+            "Cyprus became independent on 16 August 1960, a separate anniversary."
+          ]
+        },
+        "it": {
+          "heading": "Festa nazionale di Cipro: il ricordo del 1º aprile 1955",
+          "origin": "Il 1º aprile 1955 l'EOKA avviò una campagna armata contro il dominio coloniale britannico a Cipro. Il conflitto proseguì fino al 1959 e precedette la nascita della Repubblica indipendente nell'agosto 1960. La ricorrenza di aprile ricorda l'inizio della lotta, non la data dell'indipendenza formale.",
+          "promoter": "La Repubblica di Cipro celebra l'anniversario con cerimonie ufficiali. L'EOKA avviò la campagna del 1955; non è stato verificato l'atto originario che istituì la festività annuale.",
+          "purpose": "La giornata ricorda la lotta anticoloniale e invita a conoscere anche l'eredità controversa del conflitto e le diverse esperienze delle comunità dell'isola.",
+          "facts": [
+            "La campagna commemorata iniziò il 1º aprile 1955.",
+            "Il conflitto si svolse nel periodo 1955–1959.",
+            "Cipro divenne indipendente il 16 agosto 1960, una ricorrenza distinta."
+          ]
+        },
+        "es": {
+          "heading": "Fiesta nacional de Chipre: memoria del 1 de abril de 1955",
+          "origin": "El 1 de abril de 1955, EOKA inició una campaña armada contra el dominio colonial británico en Chipre. El conflicto continuó hasta 1959, antes de la creación de la República independiente en agosto de 1960. La conmemoración de abril recuerda el inicio de aquella campaña, no la independencia formal.",
+          "promoter": "La República de Chipre conmemora el aniversario con ceremonias oficiales. EOKA inició la campaña de 1955; no se ha verificado el instrumento original que estableció la festividad anual.",
+          "purpose": "La fecha recuerda la lucha anticolonial e invita a examinar el legado controvertido del conflicto y las distintas experiencias de las comunidades de la isla.",
+          "facts": [
+            "La campaña conmemorada comenzó el 1 de abril de 1955.",
+            "El conflicto se desarrolló entre 1955 y 1959.",
+            "Chipre obtuvo la independencia el 16 de agosto de 1960, otra efeméride."
+          ]
+        },
+        "fr": {
+          "heading": "Fête nationale de Chypre : mémoire du 1er avril 1955",
+          "origin": "Le 1er avril 1955, l'EOKA lança une campagne armée contre l'administration coloniale britannique à Chypre. Le conflit se poursuivit jusqu'en 1959, avant la création de la République indépendante en août 1960. La commémoration d'avril marque le début de cette campagne et non l'indépendance officielle.",
+          "promoter": "La République de Chypre commémore cet anniversaire lors de cérémonies officielles. L'EOKA lança la campagne de 1955 ; l'acte initial instituant la fête annuelle n'a pas été vérifié.",
+          "purpose": "Cette journée rappelle la lutte anticoloniale tout en invitant à examiner l'héritage controversé du conflit et les expériences diverses des communautés de l'île.",
+          "facts": [
+            "La campagne commémorée débuta le 1er avril 1955.",
+            "Le conflit s'étendit de 1955 à 1959.",
+            "Chypre devint indépendante le 16 août 1960, date distincte."
+          ]
+        },
+        "de": {
+          "heading": "Zyperns Nationalfeiertag: Erinnerung an den 1. April 1955",
+          "origin": "Am 1. April 1955 begann die EOKA einen bewaffneten Kampf gegen die britische Kolonialherrschaft auf Zypern. Der Konflikt dauerte bis 1959 und ging der Gründung der unabhängigen Republik im August 1960 voraus. Der Gedenktag im April erinnert an den Beginn der Kampagne, nicht an die formelle Unabhängigkeit.",
+          "promoter": "Die Republik Zypern begeht den Jahrestag mit offiziellen Gedenkveranstaltungen. Die EOKA begann 1955 den bewaffneten Kampf; der ursprüngliche Rechtsakt zur Einführung des jährlichen Feiertags ist nicht verifiziert.",
+          "purpose": "Der Tag erinnert an den antikolonialen Kampf und regt dazu an, das umstrittene Erbe des Konflikts und die unterschiedlichen Erfahrungen der Inselgemeinschaften zu betrachten.",
+          "facts": [
+            "Die erinnerte Kampagne begann am 1. April 1955.",
+            "Der Konflikt dauerte von 1955 bis 1959.",
+            "Zypern wurde am 16. August 1960 unabhängig; dies ist ein anderer Jahrestag."
+          ]
+        },
+        "pt": {
+          "heading": "Dia nacional de Chipre: memória de 1 de abril de 1955",
+          "origin": "Em 1 de abril de 1955, a EOKA iniciou uma campanha armada contra o domínio colonial britânico em Chipre. O conflito prolongou-se até 1959, antes da criação da República independente em agosto de 1960. A comemoração de abril assinala o início dessa campanha, não a independência formal.",
+          "promoter": "A República de Chipre assinala o aniversário com cerimónias oficiais. A EOKA iniciou a campanha de 1955; não foi verificado o ato original que instituiu o feriado anual.",
+          "purpose": "A data recorda a luta anticolonial e convida à reflexão sobre o legado controverso do conflito e as diferentes experiências das comunidades da ilha.",
+          "facts": [
+            "A campanha recordada começou em 1 de abril de 1955.",
+            "O conflito decorreu entre 1955 e 1959.",
+            "Chipre tornou-se independente em 16 de agosto de 1960, outra efeméride."
           ]
         }
       },
