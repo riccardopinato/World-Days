@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 4,
+  "count": 5,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -340,6 +340,85 @@
             "A Constituição foi aprovada em 3 de maio de 1791.",
             "O feriado nacional foi recuperado em 1919 e em 1990.",
             "O texto introduziu uma monarquia constitucional e reformou a separação de poderes."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-covid-19-pandemic-victims-remembrance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "commemoratedEventYear": 2020,
+      "dateReason": "6 March 2020: first confirmed COVID-19 case in Slovakia",
+      "dateRule": "March 6",
+      "institution": "National Council of the Slovak Republic; advocacy by Skutočné obete",
+      "sources": [
+        "https://static.slov-lex.sk/pdf/SK/ZZ/1993/241/ZZ_1993_241_20251101.pdf",
+        "https://skutocneobete.sk/aktivita/6-marec-den-obeti-pandemie/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Slovakia remembers the victims of COVID-19",
+          "origin": "Slovakia observes 6 March in memory of people who died during the COVID-19 pandemic. Parliament amended the commemorative-days law in November 2022 and the first observance took place in 2023. The date recalls the first confirmed case in Slovakia on 6 March 2020.",
+          "promoter": "The National Council created the memorial day through legislation after bereaved families in the Skutočné obete association advocated for recognition.",
+          "purpose": "The day honors those who died, acknowledges bereaved families and encourages reflection on the pandemic's effects.",
+          "facts": [
+            "The National Council adopted the amendment on 8 November 2022.",
+            "The memorial day was first observed on 6 March 2023."
+          ]
+        },
+        "it": {
+          "heading": "La Slovacchia ricorda le vittime del COVID-19",
+          "origin": "Il 6 marzo la Slovacchia ricorda le persone morte durante la pandemia di COVID-19. Il Parlamento modificò la legge sulle giornate commemorative nel novembre 2022 e la prima celebrazione si tenne nel 2023. La data richiama il primo caso confermato nel Paese, il 6 marzo 2020.",
+          "promoter": "Il Consiglio nazionale istituì la giornata per legge dopo l'impegno dei familiari delle vittime riuniti nell'associazione Skutočné obete.",
+          "purpose": "La ricorrenza rende omaggio alle vittime, riconosce il dolore delle famiglie e invita a riflettere sugli effetti della pandemia.",
+          "facts": [
+            "Il Consiglio nazionale approvò la modifica l'8 novembre 2022.",
+            "La giornata fu celebrata per la prima volta il 6 marzo 2023."
+          ]
+        },
+        "es": {
+          "heading": "Eslovaquia recuerda a las víctimas del COVID-19",
+          "origin": "Eslovaquia dedica el 6 de marzo a las personas fallecidas durante la pandemia de COVID-19. El Parlamento reformó la ley de días conmemorativos en noviembre de 2022 y la primera conmemoración tuvo lugar en 2023. La fecha recuerda el primer caso confirmado en el país, el 6 de marzo de 2020.",
+          "promoter": "El Consejo Nacional creó la jornada mediante una ley tras la iniciativa de familias de víctimas agrupadas en Skutočné obete.",
+          "purpose": "La fecha honra a quienes murieron, reconoce el duelo familiar e invita a reflexionar sobre los efectos de la pandemia.",
+          "facts": [
+            "El Consejo Nacional aprobó la reforma el 8 de noviembre de 2022.",
+            "La primera conmemoración tuvo lugar el 6 de marzo de 2023."
+          ]
+        },
+        "fr": {
+          "heading": "La Slovaquie commémore les victimes du COVID-19",
+          "origin": "La Slovaquie consacre le 6 mars à la mémoire des personnes mortes pendant la pandémie de COVID-19. Le Parlement a modifié la loi sur les journées commémoratives en novembre 2022 et la première célébration a eu lieu en 2023. La date rappelle le premier cas confirmé dans le pays, le 6 mars 2020.",
+          "promoter": "Le Conseil national a institué cette journée par la loi après la mobilisation de familles de victimes réunies dans l'association Skutočné obete.",
+          "purpose": "Cette journée honore les personnes disparues, reconnaît le deuil des familles et invite à réfléchir aux conséquences de la pandémie.",
+          "facts": [
+            "Le Conseil national a adopté la modification le 8 novembre 2022.",
+            "La première commémoration a eu lieu le 6 mars 2023."
+          ]
+        },
+        "de": {
+          "heading": "Die Slowakei gedenkt der COVID-19-Opfer",
+          "origin": "Die Slowakei erinnert am 6. März an die Menschen, die während der COVID-19-Pandemie gestorben sind. Das Parlament änderte das Gedenktagsgesetz im November 2022; erstmals wurde der Tag 2023 begangen. Das Datum erinnert an den ersten bestätigten Fall im Land am 6. März 2020.",
+          "promoter": "Der Nationalrat führte den Gedenktag gesetzlich ein, nachdem Angehörige im Verein Skutočné obete dafür geworben hatten.",
+          "purpose": "Der Tag würdigt die Verstorbenen, nimmt die Trauer ihrer Familien ernst und regt zur Reflexion über die Folgen der Pandemie an.",
+          "facts": [
+            "Der Nationalrat verabschiedete die Änderung am 8. November 2022.",
+            "Der Gedenktag wurde erstmals am 6. März 2023 begangen."
+          ]
+        },
+        "pt": {
+          "heading": "A Eslováquia recorda as vítimas da COVID-19",
+          "origin": "A Eslováquia assinala a 6 de março a memória das pessoas que morreram durante a pandemia de COVID-19. O Parlamento alterou a lei dos dias comemorativos em novembro de 2022 e a primeira celebração ocorreu em 2023. A data recorda o primeiro caso confirmado no país, a 6 de março de 2020.",
+          "promoter": "O Conselho Nacional instituiu a data por lei após a mobilização de famílias das vítimas reunidas na associação Skutočné obete.",
+          "purpose": "O dia homenageia quem morreu, reconhece o luto das famílias e convida à reflexão sobre as consequências da pandemia.",
+          "facts": [
+            "O Conselho Nacional aprovou a alteração em 8 de novembro de 2022.",
+            "A primeira comemoração ocorreu em 6 de março de 2023."
           ]
         }
       },
