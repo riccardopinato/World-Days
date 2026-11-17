@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 12,
+  "count": 13,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -850,6 +850,92 @@
           "facts": [
             "Victoria nasceu em 14 de julho de 1977.",
             "A reforma da sucessão entrou em vigor em 1 de janeiro de 1980."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "se-crown-princess-victoria-name-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "12 March is Victoria's traditional name day; the Royal Court links the name-day date to a former Queen Victoria's engagement to the future King Gustaf V",
+      "dateRule": "March 12",
+      "institution": "Swedish Armed Forces and Royal Court; exact founding year unknown",
+      "sources": [
+        "https://www.kungahuset.se/arkiv/nyheter/2026-03-12-kronprinsessans-namnsdag-firades",
+        "https://www.kungahuset.se/arkiv/nyheter/2025-03-12-kronprinsessans-namnsdag-firades",
+        "https://www.kungahuset.se/arkiv/pressmeddelanden/2017-03-10-fira-kronprinsessans-namnsdag"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Crown Princess Victoria's name day in Stockholm",
+          "origin": "Every 12 March, Sweden's Crown Princess Victoria receives public greetings at the Royal Palace in Stockholm. According to the Royal Court, the Swedish Armed Forces have marked the occasion in the palace courtyard since the early 1990s. The name day is celebrated in the capital, while her birthday festivities normally take place on Öland.",
+          "promoter": "The Swedish Armed Forces organise the ceremony with the Royal Court; an exact founding year is not documented.",
+          "purpose": "The day illustrates Swedish name-day customs and the ceremonial role of the royal family.",
+          "facts": [
+            "The date is 12 March.",
+            "The military ceremony has taken place since the early 1990s.",
+            "The Royal Court documented the celebration in 2026."
+          ]
+        },
+        "it": {
+          "heading": "L'onomastico della principessa ereditaria Victoria a Stoccolma",
+          "origin": "Ogni 12 marzo la principessa ereditaria Victoria riceve gli auguri del pubblico al Palazzo Reale di Stoccolma. Secondo la Corte reale, le Forze armate svedesi celebrano la ricorrenza nel cortile del palazzo dai primi anni Novanta. L'onomastico viene festeggiato nella capitale, mentre il compleanno si celebra solitamente a Öland.",
+          "promoter": "Le Forze armate svedesi organizzano la cerimonia insieme alla Corte reale; non è documentato un anno esatto di istituzione.",
+          "purpose": "La giornata permette di conoscere la tradizione svedese degli onomastici e il ruolo cerimoniale della monarchia.",
+          "facts": [
+            "La data è il 12 marzo.",
+            "La cerimonia militare risale almeno ai primi anni Novanta.",
+            "La Corte reale ha documentato la celebrazione del 2026."
+          ]
+        },
+        "es": {
+          "heading": "La onomástica de la princesa heredera Victoria en Estocolmo",
+          "origin": "Cada 12 de marzo, la princesa heredera Victoria recibe felicitaciones públicas en el Palacio Real de Estocolmo. Según la Casa Real, las Fuerzas Armadas suecas celebran la ocasión en el patio del palacio desde principios de los años noventa. La onomástica se festeja en la capital, mientras que su cumpleaños suele celebrarse en Öland.",
+          "promoter": "Las Fuerzas Armadas suecas organizan la ceremonia con la Casa Real; no está documentado el año exacto de su fundación.",
+          "purpose": "La fecha permite conocer la tradición sueca de las onomásticas y el papel ceremonial de la monarquía.",
+          "facts": [
+            "La fecha es el 12 de marzo.",
+            "La ceremonia militar se celebra desde principios de los noventa.",
+            "La Casa Real documentó la celebración de 2026."
+          ]
+        },
+        "fr": {
+          "heading": "La fête du prénom de la princesse héritière Victoria à Stockholm",
+          "origin": "Chaque 12 mars, la princesse héritière Victoria reçoit les félicitations du public au Palais royal de Stockholm. Selon la Cour royale, les forces armées suédoises célèbrent l'occasion dans la cour du palais depuis le début des années 1990. Cette fête se tient dans la capitale, tandis que son anniversaire est généralement célébré à Öland.",
+          "promoter": "Les forces armées suédoises organisent la cérémonie avec la Cour royale ; son année exacte de création n'est pas documentée.",
+          "purpose": "Cette journée permet de découvrir la tradition suédoise des fêtes du prénom et le rôle cérémoniel de la monarchie.",
+          "facts": [
+            "La date est le 12 mars.",
+            "La cérémonie militaire existe depuis le début des années 1990.",
+            "La Cour royale a documenté la célébration de 2026."
+          ]
+        },
+        "de": {
+          "heading": "Namenstag von Kronprinzessin Victoria in Stockholm",
+          "origin": "Jedes Jahr am 12. März nimmt Kronprinzessin Victoria im Königlichen Schloss in Stockholm öffentliche Glückwünsche entgegen. Laut Königshof würdigen die schwedischen Streitkräfte den Anlass seit den frühen 1990er-Jahren mit einer Zeremonie im Schlosshof. Der Namenstag wird in der Hauptstadt begangen, während ihr Geburtstag gewöhnlich auf Öland gefeiert wird.",
+          "promoter": "Die schwedischen Streitkräfte organisieren die Zeremonie gemeinsam mit dem Königshof; ein genaues Gründungsjahr ist nicht dokumentiert.",
+          "purpose": "Der Tag vermittelt Einblicke in schwedische Namenstagsbräuche und die zeremonielle Rolle der Monarchie.",
+          "facts": [
+            "Der Termin ist der 12. März.",
+            "Die Militärzeremonie besteht seit den frühen 1990er-Jahren.",
+            "Der Königshof dokumentierte die Feier von 2026."
+          ]
+        },
+        "pt": {
+          "heading": "Dia do nome da princesa herdeira Victoria em Estocolmo",
+          "origin": "Todos os anos, em 12 de março, a princesa herdeira Victoria recebe felicitações do público no Palácio Real de Estocolmo. Segundo a Casa Real, as Forças Armadas suecas celebram a ocasião no pátio do palácio desde o início da década de 1990. A data é assinalada na capital, enquanto o aniversário costuma ser celebrado em Öland.",
+          "promoter": "As Forças Armadas suecas organizam a cerimónia com a Casa Real; não está documentado o ano exato da sua criação.",
+          "purpose": "O dia permite conhecer a tradição sueca dos dias do nome e o papel cerimonial da monarquia.",
+          "facts": [
+            "A data é 12 de março.",
+            "A cerimónia militar realiza-se desde o início da década de 1990.",
+            "A Casa Real documentou a celebração de 2026."
           ]
         }
       },
