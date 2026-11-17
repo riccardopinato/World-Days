@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 13,
+  "count": 14,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -936,6 +936,92 @@
             "A data é 12 de março.",
             "A cerimónia militar realiza-se desde o início da década de 1990.",
             "A Casa Real documentou a celebração de 2026."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "pl-cursed-soldiers-remembrance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2011,
+      "firstObservedYear": 2011,
+      "commemoratedEventYear": 1951,
+      "dateReason": "1 March marks the 1951 execution of seven leaders of the Freedom and Independence (WiN) association at Mokotów prison",
+      "dateRule": "March 1",
+      "institution": "Polish parliament (Sejm); Institute of National Remembrance supports commemorations",
+      "sources": [
+        "https://eng.ipn.gov.pl/en/news/12296%2CHonouring-the-Cursed-Soldiers.html",
+        "https://www.gov.pl/web/primeminister/prime-minister-mateusz-morawiecki-commemorated-the-cursed-soldiers",
+        "https://eng.ipn.gov.pl/en/news/3858%2CHistorians-talk-about-the-National-Day-of-Remembrance-of-the-Cursed-Soldiers.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Poland remembers the post-war anti-communist underground",
+          "origin": "After the Second World War, some Polish independence activists continued underground resistance to the Soviet-backed communist authorities. On 1 March 1951, seven leaders of the Freedom and Independence association were executed at Warsaw's Mokotów prison. Poland established a national remembrance day in 2011 to mark that anniversary.",
+          "promoter": "The Polish parliament established the observance; the Institute of National Remembrance supports commemorations.",
+          "purpose": "The day commemorates victims and participants of the post-war independence underground while inviting historical examination of a contested period.",
+          "facts": [
+            "The observance falls on 1 March.",
+            "The seven WiN leaders were executed in 1951.",
+            "The national remembrance day was established in 2011."
+          ]
+        },
+        "it": {
+          "heading": "La Polonia ricorda la resistenza clandestina anticomunista del dopoguerra",
+          "origin": "Dopo la Seconda guerra mondiale alcuni indipendentisti polacchi continuarono la resistenza clandestina contro le autorità comuniste sostenute dall'Unione Sovietica. Il 1º marzo 1951 sette dirigenti dell'associazione Libertà e Indipendenza furono giustiziati nel carcere di Mokotów a Varsavia. Nel 2011 la Polonia istituì una giornata nazionale della memoria in quella data.",
+          "promoter": "Il Parlamento polacco ha istituito la ricorrenza; l'Istituto della Memoria Nazionale promuove le commemorazioni.",
+          "purpose": "La giornata ricorda le vittime e i partecipanti alla resistenza del dopoguerra e invita ad approfondire criticamente questo periodo storico.",
+          "facts": [
+            "La ricorrenza cade il 1º marzo.",
+            "Sette dirigenti di WiN furono giustiziati nel 1951.",
+            "La giornata nazionale fu istituita nel 2011."
+          ]
+        },
+        "es": {
+          "heading": "Polonia recuerda a la resistencia anticomunista de posguerra",
+          "origin": "Tras la Segunda Guerra Mundial, algunos independentistas polacos continuaron la resistencia clandestina contra las autoridades comunistas respaldadas por la Unión Soviética. El 1 de marzo de 1951 fueron ejecutados siete dirigentes de la asociación Libertad e Independencia en la prisión de Mokotów, en Varsovia. Polonia instituyó esta conmemoración nacional en 2011.",
+          "promoter": "El Parlamento polaco estableció la fecha y el Instituto de la Memoria Nacional participa en los homenajes.",
+          "purpose": "La jornada recuerda a las víctimas y participantes de la resistencia de posguerra e invita a estudiar críticamente aquel periodo.",
+          "facts": [
+            "Se conmemora el 1 de marzo.",
+            "Siete dirigentes de WiN fueron ejecutados en 1951.",
+            "La conmemoración nacional se estableció en 2011."
+          ]
+        },
+        "fr": {
+          "heading": "La Pologne commémore la résistance anticommuniste de l'après-guerre",
+          "origin": "Après la Seconde Guerre mondiale, certains indépendantistes polonais ont poursuivi la résistance clandestine contre les autorités communistes soutenues par l'Union soviétique. Le 1er mars 1951, sept dirigeants de l'association Liberté et Indépendance ont été exécutés à la prison de Mokotów, à Varsovie. La Pologne a institué une journée nationale du souvenir en 2011.",
+          "promoter": "Le Parlement polonais a institué cette commémoration et l'Institut de la mémoire nationale participe aux cérémonies.",
+          "purpose": "Cette journée rappelle les victimes et les acteurs de la résistance d'après-guerre et encourage une étude critique de cette période.",
+          "facts": [
+            "La date est le 1er mars.",
+            "Sept dirigeants de WiN ont été exécutés en 1951.",
+            "La journée nationale a été instituée en 2011."
+          ]
+        },
+        "de": {
+          "heading": "Polen erinnert an den antikommunistischen Untergrund der Nachkriegszeit",
+          "origin": "Nach dem Zweiten Weltkrieg setzten einige polnische Unabhängigkeitskämpfer den Widerstand gegen die sowjetisch gestützte kommunistische Führung im Untergrund fort. Am 1. März 1951 wurden sieben führende Mitglieder der Vereinigung Freiheit und Unabhängigkeit im Warschauer Mokotów-Gefängnis hingerichtet. Polen führte 2011 einen nationalen Gedenktag zu diesem Jahrestag ein.",
+          "promoter": "Das polnische Parlament führte den Gedenktag ein; das Institut für Nationales Gedenken beteiligt sich an den Veranstaltungen.",
+          "purpose": "Der Tag erinnert an Opfer und Beteiligte des Nachkriegsuntergrunds und regt zur kritischen Auseinandersetzung mit dieser Epoche an.",
+          "facts": [
+            "Der Gedenktag findet am 1. März statt.",
+            "Sieben WiN-Führungsmitglieder wurden 1951 hingerichtet.",
+            "Der nationale Gedenktag wurde 2011 eingeführt."
+          ]
+        },
+        "pt": {
+          "heading": "A Polónia recorda a resistência anticomunista do pós-guerra",
+          "origin": "Depois da Segunda Guerra Mundial, alguns independentistas polacos continuaram a resistência clandestina contra as autoridades comunistas apoiadas pela União Soviética. Em 1 de março de 1951, sete dirigentes da associação Liberdade e Independência foram executados na prisão de Mokotów, em Varsóvia. A Polónia instituiu um dia nacional de memória em 2011.",
+          "promoter": "O Parlamento polaco instituiu a data e o Instituto da Memória Nacional participa nas cerimónias.",
+          "purpose": "O dia recorda vítimas e participantes da resistência do pós-guerra e incentiva uma análise crítica desse período.",
+          "facts": [
+            "A data é 1 de março.",
+            "Sete dirigentes da WiN foram executados em 1951.",
+            "O dia nacional foi instituído em 2011."
           ]
         }
       },
