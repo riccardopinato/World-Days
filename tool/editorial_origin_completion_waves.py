@@ -35,7 +35,15 @@ def _read_origin():
         doc = json.loads(path.read_text(encoding="utf-8"))
         entries = doc["records"]
         assert len(entries) == doc["count"], path
-        assert all({"en", "it"} <= set(r["locale"]) for r in entries), path
+        assert all(
+            ({"en", "it"} <= set(r["locale"]))
+            if "locale" in r else (
+                r.get("status") == "HOLD_SOURCE_DISPUTE"
+                and bool(r.get("blockReason"))
+                and r.get("runtimeRichEditorialApproved") is False
+            )
+            for r in entries
+        ), path
         ids.extend(r["observanceId"] for r in entries)
     assert len(ids) == len(set(ids)) >= 4, "duplicate or missing researched origins"
     return ids
