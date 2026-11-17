@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 19,
+  "count": 20,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1452,6 +1452,92 @@
             "A celebração ocorre em 28 de março.",
             "A data assinala o nascimento de Comenius em 1592.",
             "O Ministério da Educação checo situa o início da celebração em 1955."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-families-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "15 May coincides with the UN International Day of Families; original Czech statutory addition date not independently verified",
+      "dateRule": "May 15",
+      "institution": "Czech legislature (national significant-day designation); UN General Assembly (separate international observance)",
+      "sources": [
+        "https://ppropo.mpsv.cz/zakon_245_2000",
+        "https://mpsv.gov.cz/cms/documents/83a17be9-ec66-c29f-c1f6-062545702d39/15_05_2020_TZ_Mezin%C3%A1rodn%C3%AD%2Bden%2Brodiny.pdf",
+        "https://mpsv.gov.cz/cms/documents/00771d42-1a78-c3ad-79dc-c268f0b62a97/TZ_den_rodin.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Families Day in Czechia: a date in national law",
+          "origin": "On 15 May, Czechia marks Den rodin, a significant day listed in its national holidays and commemorations law. The date coincides with the United Nations International Day of Families, proclaimed in 1993 and first observed in 1994. Czech ministries have used the occasion to discuss support for households and family life.",
+          "promoter": "The United Nations established the international observance; Czech legislators separately placed Den rodin in the national list of significant days. The precise amending act and year that first added this Czech entry are not confirmed here.",
+          "purpose": "The date draws attention to different family circumstances, care responsibilities and the public services that help households thrive.",
+          "facts": [
+            "Czech law 245/2000 Sb. lists 15 May as Den rodin among significant days.",
+            "The United Nations established the International Day of Families in 1993, first observed in 1994.",
+            "The Czech Ministry of Labour and Social Affairs publicly marks 15 May and links it to family policy."
+          ]
+        },
+        "it": {
+          "heading": "Giornata delle famiglie in Cechia: una data riconosciuta dalla legge",
+          "origin": "Il 15 maggio la Cechia celebra il Den rodin, giornata significativa prevista dalla legislazione nazionale. La data coincide con la Giornata internazionale delle famiglie dell'ONU, proclamata nel 1993 e celebrata dal 1994. Le istituzioni ceche la utilizzano per discutere del sostegno ai nuclei familiari.",
+          "promoter": "L'ONU ha istituito la ricorrenza internazionale; il legislatore ceco ha inserito separatamente il Den rodin nell'elenco nazionale delle giornate significative. Non è qui accertato l'atto di modifica che lo ha aggiunto per la prima volta.",
+          "purpose": "La giornata richiama l'attenzione sulle diverse realtà familiari, sul lavoro di cura e sui servizi pubblici che sostengono le famiglie.",
+          "facts": [
+            "La legge ceca 245/2000 Sb. elenca il 15 maggio come Den rodin tra le giornate significative.",
+            "L'ONU ha istituito la Giornata internazionale delle famiglie nel 1993, celebrata per la prima volta nel 1994.",
+            "Il Ministero ceco del Lavoro e degli Affari sociali ricorda il 15 maggio e lo collega alle politiche familiari."
+          ]
+        },
+        "es": {
+          "heading": "Día de las Familias en Chequia: una fecha reconocida por ley",
+          "origin": "El 15 de mayo, Chequia conmemora Den rodin, un día significativo recogido en su legislación nacional. Coincide con el Día Internacional de las Familias de la ONU, proclamado en 1993 y celebrado desde 1994. Las instituciones checas aprovechan la fecha para hablar del apoyo a los hogares.",
+          "promoter": "La ONU instituyó la jornada internacional; los legisladores checos incluyeron por separado Den rodin en su lista nacional de días significativos. No se ha confirmado aquí la reforma y el año de su primera inclusión.",
+          "purpose": "La fecha invita a reconocer la diversidad familiar, las tareas de cuidado y los servicios públicos que apoyan a los hogares.",
+          "facts": [
+            "La ley checa 245/2000 Sb. incluye el 15 de mayo como Den rodin entre los días significativos.",
+            "La ONU estableció el Día Internacional de las Familias en 1993 y se celebró por primera vez en 1994.",
+            "El Ministerio checo de Trabajo y Asuntos Sociales conmemora el 15 de mayo y lo relaciona con la política familiar."
+          ]
+        },
+        "fr": {
+          "heading": "Journée des familles en Tchéquie : une date reconnue par la loi",
+          "origin": "Le 15 mai, la Tchéquie célèbre Den rodin, une journée importante inscrite dans sa législation. Elle coïncide avec la Journée internationale des familles de l'ONU, proclamée en 1993 et observée depuis 1994. Les institutions tchèques en profitent pour évoquer le soutien aux ménages.",
+          "promoter": "L'ONU a instauré la journée internationale ; les législateurs tchèques ont inscrit séparément Den rodin dans la liste nationale des journées importantes. L'amendement et l'année de cette première inscription ne sont pas établis ici.",
+          "purpose": "La date souligne la diversité des familles, les responsabilités de soin et les services publics qui les accompagnent.",
+          "facts": [
+            "La loi tchèque 245/2000 Sb. inscrit le 15 mai, Den rodin, parmi les journées importantes.",
+            "L'ONU a institué la Journée internationale des familles en 1993, célébrée pour la première fois en 1994.",
+            "Le ministère tchèque du Travail et des Affaires sociales marque le 15 mai et le relie à la politique familiale."
+          ]
+        },
+        "de": {
+          "heading": "Tag der Familien in Tschechien: gesetzlich anerkannter Gedenktag",
+          "origin": "Am 15. Mai begeht Tschechien den Den rodin, einen im nationalen Recht aufgeführten bedeutenden Tag. Er fällt mit dem Internationalen Tag der Familie der UN zusammen, der 1993 ausgerufen und 1994 erstmals begangen wurde. Tschechische Behörden nutzen ihn, um über die Unterstützung von Familien zu informieren.",
+          "promoter": "Die UN begründeten den internationalen Tag; tschechische Gesetzgeber nahmen Den rodin gesondert in die nationale Liste bedeutender Tage auf. Die ursprüngliche Gesetzesänderung und das Jahr der Aufnahme sind hier nicht belegt.",
+          "purpose": "Der Tag macht auf unterschiedliche Familienformen, Sorgearbeit und öffentliche Unterstützung aufmerksam.",
+          "facts": [
+            "Das tschechische Gesetz 245/2000 Sb. führt den 15. Mai als Den rodin unter den bedeutenden Tagen auf.",
+            "Die UN riefen den Internationalen Tag der Familie 1993 ins Leben; erstmals wurde er 1994 begangen.",
+            "Das tschechische Arbeits- und Sozialministerium würdigt den 15. Mai und verbindet ihn mit Familienpolitik."
+          ]
+        },
+        "pt": {
+          "heading": "Dia das Famílias na Chéquia: uma data reconhecida por lei",
+          "origin": "Em 15 de maio, a Chéquia assinala Den rodin, um dia significativo previsto na legislação nacional. Coincide com o Dia Internacional das Famílias da ONU, proclamado em 1993 e celebrado desde 1994. As instituições checas aproveitam a ocasião para abordar o apoio às famílias.",
+          "promoter": "A ONU instituiu a data internacional; os legisladores checos incluíram separadamente Den rodin na lista nacional de dias significativos. Não se confirmou aqui a alteração legislativa e o ano da primeira inclusão.",
+          "purpose": "A data destaca a diversidade familiar, as responsabilidades de cuidado e os serviços públicos que apoiam os agregados familiares.",
+          "facts": [
+            "A lei checa 245/2000 Sb. inclui 15 de maio, Den rodin, entre os dias significativos.",
+            "A ONU instituiu o Dia Internacional das Famílias em 1993, celebrado pela primeira vez em 1994.",
+            "O Ministério checo do Trabalho e Assuntos Sociais assinala 15 de maio e relaciona-o com a política familiar."
           ]
         }
       },
