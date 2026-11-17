@@ -144,8 +144,7 @@ def run():
  }
  REPORT.parent.mkdir(parents=True,exist_ok=True)
  OUT.parent.mkdir(parents=True,exist_ok=True)
- OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"
-",encoding="utf-8")
+ OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  report={
   "schemaVersion":1,
   "datasetVersion":catalog["datasetVersion"],
@@ -161,8 +160,7 @@ def run():
   "sourceTierOccurrences":dict(source_tiers),
   "limitation":"Identifier/source/schema/recurrence validation is not human historical certification of individual entries; the outstanding history count is recorded separately.",
  }
- REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"
-",encoding="utf-8")
+ REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print("ORIGIN_REVIEW_COVERAGE",json.dumps(report,ensure_ascii=False,sort_keys=True))
  return payload
 
