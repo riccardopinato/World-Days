@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 7,
+  "count": 9,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -577,6 +577,176 @@
           "facts": [
             "O Parlamento croata inclui 18 de novembro entre os feriados não laborais.",
             "Representantes parlamentares homenagearam as vítimas em Vukovar em 18 de novembro de 2025."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "hr-statehood-day",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1990,
+      "dateReason": "30 May marks the constitution of Croatia's first democratically elected multiparty parliament in 1990",
+      "dateRule": "May 30",
+      "institution": "Croatian Parliament; the 2019 Holidays Act restored the 30 May holiday from 2020",
+      "sources": [
+        "https://www.sabor.hr/en/about-parliament/history/important-dates/30-may-statehood-day",
+        "https://www.sabor.hr/en/press/news/croatia-marks-35-years-launching-its-disassociation-yugoslavia"
+      ],
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "locale": {
+        "en": {
+          "heading": "Croatia's Statehood Day: the parliament of 1990",
+          "origin": "On 30 May 1990, Croatia's first democratically elected multiparty parliament convened. The date became a symbol of political transition. Statehood Day later moved to 25 June; legislation adopted in November 2019 restored 30 May as the public holiday from 2020.",
+          "promoter": "Croatian lawmakers set the holiday calendar. The parliament constituted in 1990 is the event remembered, not the authority that enacted the 2019 restoration.",
+          "purpose": "The observance invites reflection on parliamentary representation, democratic change and Croatia's path to statehood.",
+          "facts": [
+            "The first multiparty parliament convened on 30 May 1990.",
+            "Between 2001 and 2019, 30 May was marked as Croatian Parliament Day.",
+            "A law adopted in 2019 restored Statehood Day on 30 May from 2020."
+          ]
+        },
+        "it": {
+          "heading": "Festa della statualità croata: il Parlamento del 1990",
+          "origin": "Il 30 maggio 1990 si insediò il primo Parlamento croato democraticamente eletto con più partiti. La data divenne simbolo della transizione politica. La festa della statualità fu poi spostata al 25 giugno; una legge del novembre 2019 ripristinò il 30 maggio come festività dal 2020.",
+          "promoter": "Il calendario delle festività è stabilito dal legislatore croato. Il Parlamento insediatosi nel 1990 è l'evento ricordato, non l'autorità che approvò la riforma del 2019.",
+          "purpose": "La ricorrenza invita a riflettere sulla rappresentanza parlamentare, sulla trasformazione democratica e sul percorso verso la statualità.",
+          "facts": [
+            "Il primo Parlamento multipartitico si insediò il 30 maggio 1990.",
+            "Dal 2001 al 2019 il 30 maggio era la Giornata del Parlamento croato.",
+            "La legge del 2019 ripristinò la festa della statualità il 30 maggio dal 2020."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Estatalidad croata: el Parlamento de 1990",
+          "origin": "El 30 de mayo de 1990 se constituyó el primer Parlamento croata elegido democráticamente con varios partidos. La fecha simbolizó el cambio político. Más tarde la fiesta se trasladó al 25 de junio; una ley de noviembre de 2019 restituyó el 30 de mayo como festivo desde 2020.",
+          "promoter": "El legislador croata regula las fiestas. El Parlamento constituido en 1990 es el acontecimiento recordado, no la autoridad que aprobó la reforma de 2019.",
+          "purpose": "La jornada invita a reflexionar sobre la representación parlamentaria, la transformación democrática y el camino hacia la estatalidad.",
+          "facts": [
+            "El primer Parlamento multipartidista se constituyó el 30 de mayo de 1990.",
+            "Entre 2001 y 2019, el 30 de mayo fue el Día del Parlamento croata.",
+            "La ley de 2019 restituyó el festivo del 30 de mayo desde 2020."
+          ]
+        },
+        "fr": {
+          "heading": "Fête de l'État croate : le Parlement de 1990",
+          "origin": "Le 30 mai 1990, le premier Parlement croate démocratiquement élu et multipartite fut constitué. Cette date symbolisa la transition politique. La fête nationale fut ensuite déplacée au 25 juin ; une loi de novembre 2019 rétablit le 30 mai comme jour férié à partir de 2020.",
+          "promoter": "Le législateur croate fixe le calendrier des fêtes. Le Parlement constitué en 1990 est l'événement commémoré, non l'autorité ayant adopté la réforme de 2019.",
+          "purpose": "Cette journée invite à réfléchir à la représentation parlementaire, au changement démocratique et à la construction de l'État.",
+          "facts": [
+            "Le premier Parlement multipartite fut constitué le 30 mai 1990.",
+            "De 2001 à 2019, le 30 mai fut la Journée du Parlement croate.",
+            "La loi de 2019 rétablit la fête du 30 mai à compter de 2020."
+          ]
+        },
+        "de": {
+          "heading": "Kroatiens Tag der Staatlichkeit: das Parlament von 1990",
+          "origin": "Am 30. Mai 1990 trat Kroatiens erstes demokratisch gewähltes Mehrparteienparlament zusammen. Das Datum wurde zum Symbol des politischen Wandels. Später wurde der Staatsfeiertag auf den 25. Juni verlegt; ein Gesetz vom November 2019 führte den 30. Mai ab 2020 wieder als Feiertag ein.",
+          "promoter": "Der kroatische Gesetzgeber bestimmt den Feiertagskalender. Das Parlament von 1990 ist das erinnerte Ereignis, nicht die Instanz, die 2019 die Rückverlegung beschloss.",
+          "purpose": "Der Tag regt zum Nachdenken über parlamentarische Vertretung, demokratischen Wandel und den Weg zur Staatlichkeit an.",
+          "facts": [
+            "Das erste Mehrparteienparlament trat am 30. Mai 1990 zusammen.",
+            "Von 2001 bis 2019 war der 30. Mai der Tag des kroatischen Parlaments.",
+            "Ein Gesetz von 2019 führte den 30. Mai ab 2020 als Staatsfeiertag wieder ein."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Estatalidade croata: o Parlamento de 1990",
+          "origin": "Em 30 de maio de 1990, constituiu-se o primeiro Parlamento croata democraticamente eleito e multipartidário. A data tornou-se símbolo da transição política. A festa foi depois transferida para 25 de junho; uma lei de novembro de 2019 restabeleceu 30 de maio como feriado a partir de 2020.",
+          "promoter": "O legislador croata define o calendário de feriados. O Parlamento de 1990 é o acontecimento lembrado, não a autoridade que aprovou a reforma de 2019.",
+          "purpose": "A data convida à reflexão sobre representação parlamentar, mudança democrática e construção do Estado.",
+          "facts": [
+            "O primeiro Parlamento multipartidário foi constituído em 30 de maio de 1990.",
+            "Entre 2001 e 2019, 30 de maio foi o Dia do Parlamento croata.",
+            "A lei de 2019 restabeleceu o feriado de 30 de maio a partir de 2020."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "hr-victory-and-homeland-thanksgiving-day",
+      "introducedYear": null,
+      "firstObservedYear": 1996,
+      "commemoratedEventYear": 1995,
+      "dateReason": "5 August commemorates the Croatian capture of Knin during Operation Storm in 1995",
+      "dateRule": "August 5",
+      "institution": "Croatian Parliament; 2008 statutory amendment added Croatian Defenders Day to the holiday name",
+      "sources": [
+        "https://www.sabor.hr/index.php/en/about-parliament/history/important-dates/5-august-victory-and-homeland-thanksgiving-day-and-day",
+        "https://sabor.hr/en/faq"
+      ],
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "locale": {
+        "en": {
+          "heading": "Croatia's Victory and Homeland Thanksgiving Day",
+          "origin": "On 5 August 1995, Croatian forces entered Knin during Operation Storm, a major military operation of the Croatian War of Independence. Croatia commemorates that date annually. From 1996 to 2008 the public holiday bore the Victory and Homeland Thanksgiving name; a 2008 amendment added the Day of Croatian Defenders.",
+          "promoter": "The Croatian Parliament establishes the statutory holiday and its designation. The event of 1995 is distinct from the later legislation naming the observance.",
+          "purpose": "The day recalls a decisive military event and honours Croatian defenders, while the history of the war also calls for careful attention to civilian suffering.",
+          "facts": [
+            "Knin was taken on 5 August 1995.",
+            "The holiday was observed under its earlier name from 1996 to 2008.",
+            "A 2008 law added the Day of Croatian Defenders to the name."
+          ]
+        },
+        "it": {
+          "heading": "Giornata croata della Vittoria e del Ringraziamento alla Patria",
+          "origin": "Il 5 agosto 1995 le forze croate entrarono a Knin durante l'operazione Tempesta, importante offensiva della guerra d'indipendenza croata. La Croazia commemora ogni anno questa data. Dal 1996 al 2008 la festività portava il nome di Giornata della Vittoria e del Ringraziamento alla Patria; nel 2008 fu aggiunta la Giornata dei difensori croati.",
+          "promoter": "Il Parlamento croato disciplina la festività e la sua denominazione. L'evento del 1995 è distinto dalla successiva normativa che ne stabilisce il nome.",
+          "purpose": "La giornata ricorda un evento militare decisivo e onora i difensori croati, senza trascurare le sofferenze dei civili durante la guerra.",
+          "facts": [
+            "Knin fu conquistata il 5 agosto 1995.",
+            "La festività ebbe la denominazione precedente dal 1996 al 2008.",
+            "Una modifica legislativa del 2008 aggiunse la Giornata dei difensori croati."
+          ]
+        },
+        "es": {
+          "heading": "Día croata de la Victoria y de Acción de Gracias a la Patria",
+          "origin": "El 5 de agosto de 1995, las fuerzas croatas entraron en Knin durante la operación Tormenta, una importante ofensiva de la guerra de independencia croata. El país conmemora anualmente esa fecha. Entre 1996 y 2008 la festividad llevaba el nombre de Día de la Victoria y de Acción de Gracias a la Patria; en 2008 se añadió el Día de los Defensores Croatas.",
+          "promoter": "El Parlamento croata regula la fiesta y su denominación. El acontecimiento de 1995 es distinto de las leyes posteriores que fijaron su nombre.",
+          "purpose": "La fecha recuerda un acontecimiento militar decisivo y honra a los defensores croatas, sin olvidar el sufrimiento de civiles durante la guerra.",
+          "facts": [
+            "Knin fue tomada el 5 de agosto de 1995.",
+            "La festividad conservó su nombre anterior entre 1996 y 2008.",
+            "Una reforma de 2008 añadió el Día de los Defensores Croatas."
+          ]
+        },
+        "fr": {
+          "heading": "Journée croate de la Victoire et de la Reconnaissance envers la patrie",
+          "origin": "Le 5 août 1995, les forces croates entrèrent à Knin lors de l'opération Tempête, offensive majeure de la guerre d'indépendance croate. Le pays commémore cette date chaque année. De 1996 à 2008, la fête portait le nom de Journée de la Victoire et de la Reconnaissance envers la patrie ; en 2008 s'y ajouta la Journée des défenseurs croates.",
+          "promoter": "Le Parlement croate définit la fête légale et son nom. L'événement de 1995 doit être distingué des textes législatifs ultérieurs.",
+          "purpose": "Cette journée rappelle un tournant militaire et honore les défenseurs croates, tout en reconnaissant les souffrances des civils pendant la guerre.",
+          "facts": [
+            "Knin fut prise le 5 août 1995.",
+            "La fête porta son ancien nom de 1996 à 2008.",
+            "Une modification législative de 2008 ajouta la Journée des défenseurs croates."
+          ]
+        },
+        "de": {
+          "heading": "Kroatiens Tag des Sieges und des Dankes an die Heimat",
+          "origin": "Am 5. August 1995 nahmen kroatische Truppen während der Operation Sturm die Stadt Knin ein, einer wichtigen Offensive im kroatischen Unabhängigkeitskrieg. Kroatien gedenkt dieses Datums jährlich. Von 1996 bis 2008 trug der Feiertag den Namen Tag des Sieges und des Dankes an die Heimat; 2008 kam der Tag der kroatischen Verteidiger hinzu.",
+          "promoter": "Das kroatische Parlament legt den gesetzlichen Feiertag und seinen Namen fest. Das Ereignis von 1995 ist von den späteren gesetzlichen Regelungen zu unterscheiden.",
+          "purpose": "Der Tag erinnert an einen entscheidenden militärischen Moment und ehrt kroatische Verteidiger, ohne das Leid der Zivilbevölkerung im Krieg auszublenden.",
+          "facts": [
+            "Knin wurde am 5. August 1995 eingenommen.",
+            "Von 1996 bis 2008 galt die frühere Feiertagsbezeichnung.",
+            "Eine Gesetzesänderung von 2008 ergänzte den Tag der kroatischen Verteidiger."
+          ]
+        },
+        "pt": {
+          "heading": "Dia croata da Vitória e da Gratidão à Pátria",
+          "origin": "Em 5 de agosto de 1995, forças croatas entraram em Knin durante a Operação Tempestade, uma importante ofensiva da Guerra da Independência da Croácia. O país recorda anualmente a data. Entre 1996 e 2008, o feriado chamava-se Dia da Vitória e da Gratidão à Pátria; em 2008 foi acrescentado o Dia dos Defensores Croatas.",
+          "promoter": "O Parlamento croata define o feriado e sua designação. O acontecimento de 1995 é distinto da legislação posterior que estabeleceu o nome.",
+          "purpose": "A data recorda um momento militar decisivo e homenageia os defensores croatas, sem ignorar o sofrimento dos civis durante a guerra.",
+          "facts": [
+            "Knin foi tomada em 5 de agosto de 1995.",
+            "O feriado manteve o nome anterior de 1996 a 2008.",
+            "Uma alteração legal de 2008 acrescentou o Dia dos Defensores Croatas."
           ]
         }
       },
