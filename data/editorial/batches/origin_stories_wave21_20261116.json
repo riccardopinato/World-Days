@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 9,
+  "count": 12,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -747,6 +747,109 @@
             "Knin foi tomada em 5 de agosto de 1995.",
             "O feriado manteve o nome anterior de 1996 a 2008.",
             "Uma alteração legal de 2008 acrescentou o Dia dos Defensores Croatas."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "no-crown-prince-haakon-birthday",
+      "status": "HOLD_SOURCE_DISPUTE",
+      "sources": [
+        "https://www.royalcourt.no/the-royal-house-of-norway/his-majesty-the-king"
+      ],
+      "blockReason": "Haakon became King on 2026-08-28; canonical Crown Prince title is stale. Requires canonical identity/title reconciliation before six-locale publication.",
+      "discoveredAt": "2026-11-17",
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "no-crown-princess-mette-marit-birthday",
+      "status": "HOLD_SOURCE_DISPUTE",
+      "sources": [
+        "https://www.royalcourt.no/the-royal-house-of-norway/his-majesty-the-king"
+      ],
+      "blockReason": "Mette-Marit became Queen consort on 2026-08-28; canonical Crown Princess title is stale. Requires canonical identity/title reconciliation before six-locale publication.",
+      "discoveredAt": "2026-11-17",
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "se-crown-princess-victoria-birthday",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1977,
+      "dateReason": "Victoria was born on 14 July 1977",
+      "dateRule": "July 14",
+      "institution": "Swedish Royal Court",
+      "sources": [
+        "https://www.kungahuset.se/english/royal-house/hrh-the-crown-princess",
+        "https://www.kungahuset.se/arkiv/aldre-nyheter/2014-07-14-kronprinsessan-victoria-fyller-37-ar"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Sweden celebrates Crown Princess Victoria on 14 July",
+          "origin": "Victoria was born on 14 July 1977. Sweden's royal court records that the 1979 succession reform, effective 1 January 1980, made the eldest child heir to the throne and Victoria Crown Princess. Her birthday is observed with public flag-flying and royal greetings; the event date is her birth, not the date of the succession reform.",
+          "promoter": "The Swedish Royal Court documents the royal birthday and public ceremonies.",
+          "purpose": "The occasion acknowledges the heir to the throne and provides an opportunity to reflect on the constitutional role of Sweden's monarchy.",
+          "facts": [
+            "Victoria was born on 14 July 1977.",
+            "The succession reform took effect on 1 January 1980."
+          ]
+        },
+        "it": {
+          "heading": "La Svezia festeggia la principessa ereditaria Victoria il 14 luglio",
+          "origin": "Victoria nacque il 14 luglio 1977. La Corte reale svedese spiega che la riforma della successione del 1979, entrata in vigore il 1º gennaio 1980, rese erede al trono il primogenito senza distinzione di sesso e Victoria divenne principessa ereditaria. Il compleanno è accompagnato dall'esposizione delle bandiere e da omaggi pubblici.",
+          "promoter": "La Corte reale svedese documenta il compleanno e le cerimonie pubbliche.",
+          "purpose": "La ricorrenza riconosce l'erede al trono e invita a conoscere il ruolo costituzionale della monarchia svedese.",
+          "facts": [
+            "Victoria nacque il 14 luglio 1977.",
+            "La riforma della successione entrò in vigore il 1º gennaio 1980."
+          ]
+        },
+        "es": {
+          "heading": "Suecia celebra el cumpleaños de la princesa heredera Victoria",
+          "origin": "Victoria nació el 14 de julio de 1977. La Casa Real sueca explica que la reforma sucesoria de 1979, vigente desde el 1 de enero de 1980, estableció que el primogénito heredaría el trono y convirtió a Victoria en princesa heredera. Su cumpleaños se conmemora con banderas y felicitaciones públicas.",
+          "promoter": "La Casa Real sueca documenta el cumpleaños y los actos públicos.",
+          "purpose": "La jornada reconoce a la heredera del trono e invita a conocer el papel constitucional de la monarquía sueca.",
+          "facts": [
+            "Victoria nació el 14 de julio de 1977.",
+            "La reforma sucesoria entró en vigor el 1 de enero de 1980."
+          ]
+        },
+        "fr": {
+          "heading": "La Suède célèbre l'anniversaire de la princesse héritière Victoria",
+          "origin": "Victoria est née le 14 juillet 1977. La Cour royale de Suède explique que la réforme successorale de 1979, entrée en vigueur le 1er janvier 1980, a fait de l'aîné des enfants l'héritier du trône et de Victoria la princesse héritière. Son anniversaire est marqué par des drapeaux et des hommages publics.",
+          "promoter": "La Cour royale suédoise documente l'anniversaire et les cérémonies publiques.",
+          "purpose": "Cette journée met en lumière l'héritière du trône et le rôle constitutionnel de la monarchie suédoise.",
+          "facts": [
+            "Victoria est née le 14 juillet 1977.",
+            "La réforme successorale est entrée en vigueur le 1er janvier 1980."
+          ]
+        },
+        "de": {
+          "heading": "Schweden feiert den Geburtstag von Kronprinzessin Victoria",
+          "origin": "Victoria wurde am 14. Juli 1977 geboren. Nach Angaben des schwedischen Königshauses bestimmte die Thronfolgereform von 1979, die am 1. Januar 1980 in Kraft trat, das älteste Kind zur Thronfolge; damit wurde Victoria Kronprinzessin. Ihr Geburtstag wird mit Beflaggung und öffentlichen Glückwünschen begangen.",
+          "promoter": "Das schwedische Königshaus dokumentiert den Geburtstag und öffentliche Feierlichkeiten.",
+          "purpose": "Der Tag würdigt die Thronfolgerin und regt zur Beschäftigung mit der verfassungsrechtlichen Rolle der schwedischen Monarchie an.",
+          "facts": [
+            "Victoria wurde am 14. Juli 1977 geboren.",
+            "Die Thronfolgereform trat am 1. Januar 1980 in Kraft."
+          ]
+        },
+        "pt": {
+          "heading": "A Suécia celebra o aniversário da princesa herdeira Victoria",
+          "origin": "Victoria nasceu em 14 de julho de 1977. Segundo a Casa Real sueca, a reforma da sucessão de 1979, em vigor desde 1 de janeiro de 1980, estabeleceu a primogenitura sem distinção de sexo e tornou Victoria princesa herdeira. O aniversário é assinalado com bandeiras e homenagens públicas.",
+          "promoter": "A Casa Real sueca documenta o aniversário e as cerimónias públicas.",
+          "purpose": "A data homenageia a herdeira do trono e convida à reflexão sobre o papel constitucional da monarquia sueca.",
+          "facts": [
+            "Victoria nasceu em 14 de julho de 1977.",
+            "A reforma da sucessão entrou em vigor em 1 de janeiro de 1980."
           ]
         }
       },
