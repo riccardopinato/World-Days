@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 33,
+  "count": 34,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2658,6 +2658,92 @@
             "12 de outubro remete à chegada de Colombo às Américas em 1492.",
             "O Decreto 1584/2010 estabeleceu a nova denominação em 2010.",
             "O feriado pode ser transferido conforme as regras legais aplicáveis."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-day-of-slovaks-living-abroad",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "5 July coincides with Slovakia's state holiday of Saints Cyril and Methodius; the memorial day was designated by Act 241/1993",
+      "dateRule": "5 July",
+      "institution": "National Council of the Slovak Republic (Act No. 241/1993 Coll.); Office for Slovaks Living Abroad supports commemorations",
+      "sources": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/19931027.print.html",
+        "https://www.uszz.sk/pamatny-den-zahranicnych-slovakov/",
+        "https://www.uszz.sk/event/pamatny-den-slovakov-zijucich-v-zahranici-v-bratislave/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Day of Slovaks Living Abroad: a connection across borders",
+          "origin": "Slovakia designated 5 July as the Day of Slovaks Living Abroad in Act No. 241/1993, adopted on 20 October 1993. The date coincides with the state holiday of Saints Cyril and Methodius, linking the commemoration to language and cultural inheritance. Cultural programmes for Slovak communities abroad developed through several institutions; the overseas Slovaks office records a 1994 programme under the name Days of Slovaks Abroad.",
+          "promoter": "The National Council established the memorial day by law. The Office for Slovaks Living Abroad subsequently supported public commemorations and meetings of diaspora communities, including ceremonies at the memorial foundation stone in Bratislava's Janko Kráľ Park.",
+          "purpose": "The day recognises people of Slovak heritage living outside Slovakia and encourages cultural exchange, language preservation and continuing ties with their communities of origin.",
+          "facts": [
+            "Act No. 241/1993 lists 5 July as the Day of Slovaks Living Abroad.",
+            "The date coincides with the Slovak state holiday of Saints Cyril and Methodius.",
+            "A red-marble memorial foundation stone donated by Slovaks from Hungary was installed in Bratislava in 2000."
+          ]
+        },
+        "it": {
+          "heading": "Giornata degli slovacchi all'estero: legami oltre i confini",
+          "origin": "La Slovacchia ha istituito il 5 luglio come Giornata degli slovacchi all'estero con la legge 241/1993, approvata il 20 ottobre 1993. La data coincide con la festa nazionale dei santi Cirillo e Metodio e richiama l'eredità linguistica e culturale. Le iniziative per le comunità slovacche all'estero sono state promosse da diverse istituzioni; l'ufficio dedicato ai connazionali documenta un programma del 1994 chiamato Giornate degli slovacchi all'estero.",
+          "promoter": "Il Consiglio nazionale slovacco ha istituito la ricorrenza per legge. L'Ufficio per gli slovacchi residenti all'estero sostiene commemorazioni e incontri della diaspora, anche presso la prima pietra del memoriale nel parco Janko Kráľ di Bratislava.",
+          "purpose": "La giornata riconosce le comunità di origine slovacca fuori dal paese e promuove scambi culturali, tutela della lingua e legami con le comunità di provenienza.",
+          "facts": [
+            "La legge 241/1993 indica il 5 luglio come Giornata degli slovacchi all'estero.",
+            "La data coincide con la festa nazionale dei santi Cirillo e Metodio.",
+            "Nel 2000 fu collocata a Bratislava una pietra commemorativa in marmo rosso donata da slovacchi residenti in Ungheria."
+          ]
+        },
+        "es": {
+          "heading": "Día de los eslovacos en el extranjero: vínculos más allá de las fronteras",
+          "origin": "Eslovaquia declaró el 5 de julio Día de los Eslovacos en el Extranjero mediante la Ley 241/1993, aprobada el 20 de octubre de 1993. La fecha coincide con la festividad nacional de los santos Cirilo y Metodio y evoca el patrimonio lingüístico y cultural. Diversas instituciones organizaron actividades para las comunidades eslovacas en el exterior; la oficina competente documenta un programa de 1994 denominado Días de los Eslovacos en el Extranjero.",
+          "promoter": "El Consejo Nacional de Eslovaquia estableció esta conmemoración por ley. La Oficina para los Eslovacos que Viven en el Extranjero apoya actos y encuentros de la diáspora, también junto a la primera piedra del monumento conmemorativo en el parque Janko Kráľ de Bratislava.",
+          "purpose": "La jornada reconoce a las comunidades de origen eslovaco fuera del país y fomenta el intercambio cultural, la conservación del idioma y los vínculos con sus lugares de origen.",
+          "facts": [
+            "La Ley 241/1993 fija el 5 de julio como Día de los Eslovacos en el Extranjero.",
+            "La fecha coincide con la festividad nacional de los santos Cirilo y Metodio.",
+            "En 2000 se instaló en Bratislava una piedra conmemorativa de mármol rojo donada por eslovacos de Hungría."
+          ]
+        },
+        "fr": {
+          "heading": "Journée des Slovaques de l'étranger : des liens au-delà des frontières",
+          "origin": "La Slovaquie a désigné le 5 juillet comme Journée des Slovaques de l'étranger par la loi 241/1993, adoptée le 20 octobre 1993. Cette date coïncide avec la fête nationale des saints Cyrille et Méthode et évoque l'héritage linguistique et culturel. Plusieurs institutions ont organisé des manifestations pour les communautés slovaques à l'étranger ; l'organisme chargé de la diaspora mentionne un programme de 1994 intitulé Journées des Slovaques de l'étranger.",
+          "promoter": "Le Conseil national slovaque a institué cette journée par la loi. L'Office des Slovaques vivant à l'étranger soutient des commémorations et des rencontres de la diaspora, notamment près de la première pierre du mémorial dans le parc Janko Kráľ à Bratislava.",
+          "purpose": "Cette journée rend hommage aux personnes d'origine slovaque vivant hors du pays et favorise les échanges culturels, la transmission de la langue et les liens avec les communautés d'origine.",
+          "facts": [
+            "La loi 241/1993 inscrit le 5 juillet comme Journée des Slovaques de l'étranger.",
+            "La date coïncide avec la fête nationale des saints Cyrille et Méthode.",
+            "Une pierre commémorative en marbre rouge offerte par des Slovaques de Hongrie a été installée à Bratislava en 2000."
+          ]
+        },
+        "de": {
+          "heading": "Tag der Auslandsslowaken: Verbundenheit über Grenzen hinweg",
+          "origin": "Die Slowakei erklärte den 5. Juli mit dem am 20. Oktober 1993 verabschiedeten Gesetz Nr. 241/1993 zum Tag der Auslandsslowaken. Das Datum fällt mit dem staatlichen Feiertag der Heiligen Kyrill und Method zusammen und verweist auf das sprachliche und kulturelle Erbe. Verschiedene Institutionen organisierten Veranstaltungen für slowakische Gemeinschaften im Ausland; die zuständige Behörde dokumentiert für 1994 ein Programm unter dem Namen Tage der Auslandsslowaken.",
+          "promoter": "Der slowakische Nationalrat führte den Gedenktag gesetzlich ein. Das Amt für im Ausland lebende Slowaken unterstützt Gedenkveranstaltungen und Begegnungen der Diaspora, unter anderem am Grundstein des Denkmals im Janko-Kráľ-Park in Bratislava.",
+          "purpose": "Der Tag würdigt Menschen slowakischer Herkunft außerhalb des Landes und fördert kulturellen Austausch, Sprachpflege und die Verbindung zu den Herkunftsgemeinschaften.",
+          "facts": [
+            "Gesetz Nr. 241/1993 nennt den 5. Juli als Tag der Auslandsslowaken.",
+            "Das Datum fällt mit dem staatlichen Feiertag der Heiligen Kyrill und Method zusammen.",
+            "Im Jahr 2000 wurde in Bratislava ein von Slowaken aus Ungarn gestifteter Gedenkstein aus rotem Marmor aufgestellt."
+          ]
+        },
+        "pt": {
+          "heading": "Dia dos Eslovacos no Estrangeiro: laços além das fronteiras",
+          "origin": "A Eslováquia instituiu o dia 5 de julho como Dia dos Eslovacos no Estrangeiro pela Lei 241/1993, aprovada em 20 de outubro de 1993. A data coincide com o feriado nacional dos santos Cirilo e Metódio e evoca o património linguístico e cultural. Diversas instituições organizaram atividades para as comunidades eslovacas fora do país; o órgão responsável pela diáspora regista um programa de 1994 chamado Dias dos Eslovacos no Estrangeiro.",
+          "promoter": "O Conselho Nacional da Eslováquia criou a data por lei. O Gabinete para os Eslovacos que Vivem no Estrangeiro apoia cerimónias e encontros da diáspora, incluindo eventos junto à pedra fundamental do memorial no parque Janko Kráľ, em Bratislava.",
+          "purpose": "A data reconhece as comunidades de origem eslovaca fora do país e promove o intercâmbio cultural, a preservação da língua e os vínculos com as comunidades de origem.",
+          "facts": [
+            "A Lei 241/1993 identifica 5 de julho como Dia dos Eslovacos no Estrangeiro.",
+            "A data coincide com o feriado nacional dos santos Cirilo e Metódio.",
+            "Em 2000 foi instalada em Bratislava uma pedra memorial de mármore vermelho oferecida por eslovacos da Hungria."
           ]
         }
       },
