@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 37,
+  "count": 38,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3002,6 +3002,92 @@
             "Celebra-se a 4 de junho.",
             "A data foi estabelecida em 1942.",
             "Desfiles e promoções militares integram a tradição."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-departure-of-soviet-occupation-troops-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2022,
+      "firstObservedYear": 2022,
+      "commemoratedEventYear": 1991,
+      "dateReason": "25 June 1991 signature of the bilateral protocol confirming Soviet troop withdrawal",
+      "dateRule": "June 25",
+      "institution": "Parliament of the Czech Republic, on a Senate legislative initiative (2022)",
+      "sources": [
+        "https://www.psp.cz/zprava/15660",
+        "https://www.psp.cz/zprava/14979",
+        "https://www.ustrcr.cz/data/pdf/za-vasi-nasi-svobodu/panely.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech Day of the Departure of Occupation Troops",
+          "origin": "After the Warsaw Pact invasion of Czechoslovakia in August 1968, Soviet troops remained in the country for more than two decades. Their withdrawal followed the democratic changes of 1989. On 25 June 1991, Czechoslovak and Soviet representatives signed the protocol confirming completion of the withdrawal. The Czech Republic later made this date a statutory remembrance day in 2022.",
+          "promoter": "The Czech Parliament adopted the commemorative amendment in 2022, following a Senate initiative. This was a later act of remembrance, not the 1991 withdrawal agreement itself.",
+          "purpose": "The day recalls the end of a prolonged foreign military presence and the importance of sovereignty and historical memory.",
+          "facts": [
+            "The occupation began in August 1968.",
+            "The withdrawal completion protocol was signed on 25 June 1991.",
+            "The Czech statutory remembrance day was added in 2022 and is not a day off work."
+          ]
+        },
+        "it": {
+          "heading": "Giornata ceca della partenza delle truppe di occupazione",
+          "origin": "Dopo l'invasione della Cecoslovacchia nell'agosto 1968 da parte del Patto di Varsavia, le truppe sovietiche rimasero nel paese per oltre vent'anni. Il ritiro seguì i cambiamenti democratici del 1989. Il 25 giugno 1991 i rappresentanti cecoslovacchi e sovietici firmarono il protocollo che ne attestava il completamento. Nel 2022 la Repubblica Ceca rese questa data una ricorrenza commemorativa prevista dalla legge.",
+          "promoter": "Il Parlamento ceco approvò nel 2022 la modifica legislativa proposta dal Senato. È un atto commemorativo successivo, distinto dall'accordo di ritiro del 1991.",
+          "purpose": "La giornata ricorda la fine di una lunga presenza militare straniera e il valore della sovranità e della memoria storica.",
+          "facts": [
+            "L'occupazione iniziò nell'agosto 1968.",
+            "Il protocollo conclusivo del ritiro fu firmato il 25 giugno 1991.",
+            "La ricorrenza fu introdotta per legge nel 2022 e non è un giorno festivo non lavorativo."
+          ]
+        },
+        "es": {
+          "heading": "Día checo de la salida de las tropas de ocupación",
+          "origin": "Tras la invasión de Checoslovaquia por el Pacto de Varsovia en agosto de 1968, las tropas soviéticas permanecieron en el país más de veinte años. Su retirada siguió a los cambios democráticos de 1989. El 25 de junio de 1991 representantes checoslovacos y soviéticos firmaron el protocolo que confirmó el fin de la retirada. En 2022, Chequia incorporó esa fecha a sus días conmemorativos legales.",
+          "promoter": "El Parlamento checo aprobó en 2022 una reforma impulsada desde el Senado. Esta decisión conmemorativa es distinta del acuerdo de retirada de 1991.",
+          "purpose": "La fecha recuerda el fin de una larga presencia militar extranjera y la importancia de la soberanía y la memoria histórica.",
+          "facts": [
+            "La ocupación comenzó en agosto de 1968.",
+            "El protocolo final se firmó el 25 de junio de 1991.",
+            "La conmemoración legal se añadió en 2022 y no es un día no laborable."
+          ]
+        },
+        "fr": {
+          "heading": "Journée tchèque du départ des troupes d'occupation",
+          "origin": "Après l'invasion de la Tchécoslovaquie par le pacte de Varsovie en août 1968, les troupes soviétiques restèrent dans le pays pendant plus de vingt ans. Leur retrait suivit les changements démocratiques de 1989. Le 25 juin 1991, des représentants tchécoslovaques et soviétiques signèrent le protocole constatant l'achèvement du retrait. En 2022, la Tchéquie inscrivit cette date parmi ses journées commémoratives légales.",
+          "promoter": "Le Parlement tchèque adopta en 2022 un amendement issu d'une initiative sénatoriale. Cette décision mémorielle est distincte de l'accord de retrait de 1991.",
+          "purpose": "Cette journée rappelle la fin d'une longue présence militaire étrangère et l'importance de la souveraineté et de la mémoire historique.",
+          "facts": [
+            "L'occupation commença en août 1968.",
+            "Le protocole final fut signé le 25 juin 1991.",
+            "La journée commémorative fut instituée en 2022 et n'est pas un jour chômé."
+          ]
+        },
+        "de": {
+          "heading": "Tschechischer Gedenktag für den Abzug der Besatzungstruppen",
+          "origin": "Nach dem Einmarsch der Warschauer-Pakt-Staaten in die Tschechoslowakei im August 1968 blieben sowjetische Truppen mehr als zwanzig Jahre im Land. Ihr Abzug folgte auf den demokratischen Umbruch von 1989. Am 25. Juni 1991 unterzeichneten tschechoslowakische und sowjetische Vertreter das Protokoll über den abgeschlossenen Abzug. 2022 nahm Tschechien dieses Datum als gesetzlichen Gedenktag auf.",
+          "promoter": "Das tschechische Parlament verabschiedete 2022 eine vom Senat angestoßene Gesetzesänderung. Diese spätere Erinnerungspolitik ist vom Abzugsabkommen von 1991 zu unterscheiden.",
+          "purpose": "Der Tag erinnert an das Ende einer langen ausländischen Militärpräsenz und an die Bedeutung von Souveränität und historischem Gedächtnis.",
+          "facts": [
+            "Die Besatzung begann im August 1968.",
+            "Das Abschlussprotokoll wurde am 25. Juni 1991 unterzeichnet.",
+            "Der gesetzliche Gedenktag wurde 2022 eingeführt und ist kein arbeitsfreier Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Dia checo da partida das tropas de ocupação",
+          "origin": "Após a invasão da Checoslováquia pelo Pacto de Varsóvia em agosto de 1968, as tropas soviéticas permaneceram no país durante mais de vinte anos. A retirada seguiu-se às mudanças democráticas de 1989. Em 25 de junho de 1991, representantes checoslovacos e soviéticos assinaram o protocolo que confirmou a conclusão da retirada. Em 2022, a Chéquia incluiu esta data entre os seus dias comemorativos previstos na lei.",
+          "promoter": "O Parlamento checo aprovou em 2022 uma alteração legislativa proposta pelo Senado. Esta decisão de memória histórica é distinta do acordo de retirada de 1991.",
+          "purpose": "A data recorda o fim de uma longa presença militar estrangeira e a importância da soberania e da memória histórica.",
+          "facts": [
+            "A ocupação começou em agosto de 1968.",
+            "O protocolo de conclusão foi assinado em 25 de junho de 1991.",
+            "O dia comemorativo foi instituído em 2022 e não é feriado com dispensa de trabalho."
           ]
         }
       },
