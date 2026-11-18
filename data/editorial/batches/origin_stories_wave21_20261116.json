@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 32,
+  "count": 33,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2572,6 +2572,92 @@
             "A Batalha de Blood River/Ncome ocorreu em 1838.",
             "Umkhonto we Sizwe foi fundado em 16 de dezembro de 1961.",
             "A primeira celebração do Dia da Reconciliação ocorreu em 1995."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ar-cultural-diversity-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2010,
+      "firstObservedYear": 2010,
+      "commemoratedEventYear": 1492,
+      "dateReason": "12 October marks Columbus's 1492 arrival in the Americas; the 2010 decree reframed an existing 1917 holiday",
+      "dateRule": "12 October (commemorative date; holiday may be transferred by law)",
+      "institution": "Argentine national executive (Decree 1584/2010)",
+      "sources": [
+        "https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto",
+        "https://www.argentina.gob.ar/normativa/nacional/norma-174389/normas-modificadas",
+        "https://www.cultura.gob.ar/dia-del-respeto-a-la-diversidad-cultural-en-argentina-9608/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Argentina's Cultural Diversity Day: rethinking 12 October",
+          "origin": "Argentina long marked 12 October under the name Día de la Raza, tied to Columbus's arrival in the Americas in 1492. Presidential Decree 1584/2010 renamed the national holiday Día del Respeto a la Diversidad Cultural, shifting the emphasis from a celebration of conquest to historical reflection and recognition of Indigenous peoples and the country's plural identities.",
+          "promoter": "Argentina's national executive adopted the new name through Decree 1584/2010, signed on 2 November 2010 and published the next day. The earlier 12 October national holiday had roots in a 1917 decree; 2010 changed its framing, not the underlying historical date.",
+          "purpose": "The observance encourages intercultural dialogue, acknowledgement of Indigenous histories and rights, and critical reflection on colonialism and discrimination.",
+          "facts": [
+            "12 October refers to Columbus's 1492 arrival in the Americas.",
+            "Decree 1584/2010 established the new holiday name in 2010.",
+            "The holiday's legal observance may be moved under applicable holiday-transfer rules."
+          ]
+        },
+        "it": {
+          "heading": "Argentina, Giornata del rispetto della diversità culturale",
+          "origin": "In Argentina il 12 ottobre era noto come Día de la Raza, collegato all'arrivo di Colombo nelle Americhe nel 1492. Il decreto presidenziale 1584/2010 ha rinominato la festività nazionale Día del Respeto a la Diversidad Cultural, spostando l'attenzione dalla celebrazione della conquista alla riflessione storica e al riconoscimento dei popoli indigeni e delle diverse identità del paese.",
+          "promoter": "Il potere esecutivo argentino ha adottato la nuova denominazione con il decreto 1584/2010, firmato il 2 novembre 2010 e pubblicato il giorno seguente. La festività nazionale del 12 ottobre risaliva a un decreto del 1917: nel 2010 ne è cambiato il significato, non la data storica.",
+          "purpose": "La ricorrenza promuove il dialogo interculturale, la conoscenza delle storie e dei diritti indigeni e una riflessione critica su colonialismo e discriminazione.",
+          "facts": [
+            "Il 12 ottobre richiama l'arrivo di Colombo nelle Americhe nel 1492.",
+            "Il decreto 1584/2010 ha introdotto la nuova denominazione nel 2010.",
+            "La festività può essere trasferita secondo le norme vigenti sui giorni festivi."
+          ]
+        },
+        "es": {
+          "heading": "Argentina: Día del Respeto a la Diversidad Cultural",
+          "origin": "En Argentina, el 12 de octubre se conocía como Día de la Raza, vinculado a la llegada de Colón a América en 1492. El Decreto 1584/2010 cambió el nombre del feriado nacional por Día del Respeto a la Diversidad Cultural, desplazando el enfoque desde la celebración de la conquista hacia la reflexión histórica y el reconocimiento de los pueblos indígenas y de las identidades plurales del país.",
+          "promoter": "El Poder Ejecutivo nacional aprobó la nueva denominación mediante el Decreto 1584/2010, firmado el 2 de noviembre de 2010 y publicado al día siguiente. El feriado del 12 de octubre tenía antecedentes legales desde 1917: en 2010 cambió su sentido oficial, no la fecha histórica.",
+          "purpose": "La jornada promueve el diálogo intercultural, el reconocimiento de las historias y los derechos indígenas y la reflexión crítica sobre el colonialismo y la discriminación.",
+          "facts": [
+            "El 12 de octubre remite a la llegada de Colón a América en 1492.",
+            "El Decreto 1584/2010 estableció la nueva denominación en 2010.",
+            "El feriado puede trasladarse según las reglas legales aplicables."
+          ]
+        },
+        "fr": {
+          "heading": "Argentine : Journée du respect de la diversité culturelle",
+          "origin": "En Argentine, le 12 octobre était appelé Día de la Raza et renvoyait à l'arrivée de Christophe Colomb dans les Amériques en 1492. Le décret présidentiel 1584/2010 a rebaptisé ce jour férié Día del Respeto a la Diversidad Cultural, privilégiant la réflexion historique et la reconnaissance des peuples autochtones et des identités plurielles du pays plutôt que la célébration de la conquête.",
+          "promoter": "L'exécutif national argentin a adopté ce nom par le décret 1584/2010, signé le 2 novembre 2010 et publié le lendemain. La fête nationale du 12 octobre avait des antécédents juridiques dès 1917 : en 2010, c'est son sens officiel qui a changé, non la date historique.",
+          "purpose": "Cette journée encourage le dialogue interculturel, la reconnaissance des histoires et des droits autochtones ainsi qu'une réflexion critique sur le colonialisme et les discriminations.",
+          "facts": [
+            "Le 12 octobre renvoie à l'arrivée de Colomb dans les Amériques en 1492.",
+            "Le décret 1584/2010 a instauré la nouvelle dénomination en 2010.",
+            "Le jour férié peut être déplacé selon les règles légales applicables."
+          ]
+        },
+        "de": {
+          "heading": "Argentinien: Tag des Respekts vor kultureller Vielfalt",
+          "origin": "In Argentinien hieß der 12. Oktober lange Día de la Raza und bezog sich auf Kolumbus' Ankunft in Amerika 1492. Mit dem Präsidialdekret 1584/2010 wurde der Feiertag in Día del Respeto a la Diversidad Cultural umbenannt. Statt die Eroberung zu feiern, soll er historische Reflexion und die Anerkennung indigener Völker und vielfältiger Identitäten fördern.",
+          "promoter": "Die argentinische Regierung führte den neuen Namen mit dem am 2. November 2010 unterzeichneten und am Folgetag veröffentlichten Dekret 1584/2010 ein. Der nationale Feiertag am 12. Oktober hatte bereits 1917 eine gesetzliche Grundlage; 2010 änderte sich seine offizielle Deutung, nicht das historische Datum.",
+          "purpose": "Der Gedenktag fördert interkulturellen Dialog, die Anerkennung indigener Geschichte und Rechte sowie die kritische Auseinandersetzung mit Kolonialismus und Diskriminierung.",
+          "facts": [
+            "Der 12. Oktober erinnert an Kolumbus' Ankunft in Amerika 1492.",
+            "Das Dekret 1584/2010 führte 2010 die neue Bezeichnung ein.",
+            "Der gesetzliche Feiertag kann nach den geltenden Verlegungsregeln verschoben werden."
+          ]
+        },
+        "pt": {
+          "heading": "Argentina: Dia do Respeito à Diversidade Cultural",
+          "origin": "Na Argentina, 12 de outubro era conhecido como Día de la Raza, associado à chegada de Colombo às Américas em 1492. O Decreto presidencial 1584/2010 renomeou o feriado nacional como Día del Respeto a la Diversidad Cultural, substituindo a celebração da conquista pela reflexão histórica e pelo reconhecimento dos povos indígenas e das identidades plurais do país.",
+          "promoter": "O Poder Executivo argentino adotou a nova denominação pelo Decreto 1584/2010, assinado em 2 de novembro de 2010 e publicado no dia seguinte. O feriado nacional de 12 de outubro tinha antecedentes legais desde 1917: em 2010 mudou o significado oficial, não a data histórica.",
+          "purpose": "A data incentiva o diálogo intercultural, o reconhecimento das histórias e dos direitos indígenas e a reflexão crítica sobre colonialismo e discriminação.",
+          "facts": [
+            "12 de outubro remete à chegada de Colombo às Américas em 1492.",
+            "O Decreto 1584/2010 estabeleceu a nova denominação em 2010.",
+            "O feriado pode ser transferido conforme as regras legais aplicáveis."
           ]
         }
       },
