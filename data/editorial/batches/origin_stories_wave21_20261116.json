@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 39,
+  "count": 40,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3173,6 +3173,92 @@
             "A Lei 54-415 foi promulgada em 14 de abril de 1954.",
             "A comemoração ocorre no último domingo de abril, pelo que a data varia.",
             "O artigo 2 prevê cerimónias oficiais para recordar o sofrimento dos deportados."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "fi-eino-leino-poetry-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": 1992,
+      "commemoratedEventYear": 1878,
+      "dateReason": "Birthday of poet Eino Leino, 6 July 1878",
+      "dateRule": "6 July, annually",
+      "institution": "Customary Finnish flag-day tradition; statutory founding authority unknown",
+      "sources": [
+        "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-finland/",
+        "https://yle.fi/a/74-20234980",
+        "https://info.paivyri.fi/liputuspaiva/eino-leinon-paiva-runon-ja-suven-paiva/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Eino Leino Day: poetry and the Finnish summer",
+          "origin": "The Finnish poet and journalist Eino Leino was born on 6 July 1878. His birthday became a customary Finnish flag day in 1992, also celebrating poetry and summer. The University of Helsinki's Almanac Office lists it among customary, not statutory, flag days.",
+          "promoter": "The observance honours Leino's literary legacy; it is a cultural flag-day tradition rather than a newly established public holiday.",
+          "purpose": "The date connects Finnish poetry, cultural memory and the short northern summer.",
+          "facts": [
+            "Leino was born on 6 July 1878.",
+            "The observance has been marked since 1992.",
+            "The Almanac Office classifies 6 July as a customary flag day."
+          ]
+        },
+        "it": {
+          "heading": "Eino Leino: la poesia e l'estate finlandese",
+          "origin": "Il poeta e giornalista finlandese Eino Leino nacque il 6 luglio 1878. Dal 1992 il suo compleanno è celebrato con una giornata tradizionale di esposizione della bandiera, dedicata anche alla poesia e all'estate. L'Almanacco dell'Università di Helsinki la distingue dalle giornate previste dalla legge.",
+          "promoter": "La ricorrenza rende omaggio all'eredità letteraria di Leino; è una tradizione culturale, non una nuova festività civile.",
+          "purpose": "La data unisce poesia, memoria culturale e la breve estate nordica.",
+          "facts": [
+            "Leino nacque il 6 luglio 1878.",
+            "La giornata si celebra dal 1992.",
+            "Il 6 luglio è classificato come giornata tradizionale della bandiera."
+          ]
+        },
+        "es": {
+          "heading": "Día de Eino Leino: poesía y verano finlandés",
+          "origin": "El poeta y periodista finlandés Eino Leino nació el 6 de julio de 1878. Desde 1992, su cumpleaños se conmemora como día tradicional de izado de la bandera, dedicado también a la poesía y al verano. El Almanaque de la Universidad de Helsinki lo distingue de los días de bandera establecidos por ley.",
+          "promoter": "La conmemoración honra su legado literario; es una tradición cultural y no un nuevo festivo legal.",
+          "purpose": "La fecha reúne poesía, memoria cultural y el breve verano nórdico.",
+          "facts": [
+            "Leino nació el 6 de julio de 1878.",
+            "La conmemoración se celebra desde 1992.",
+            "El 6 de julio figura entre los días tradicionales de bandera."
+          ]
+        },
+        "fr": {
+          "heading": "Journée Eino Leino : poésie et été finlandais",
+          "origin": "Le poète et journaliste finlandais Eino Leino est né le 6 juillet 1878. Depuis 1992, son anniversaire est célébré comme une journée traditionnelle de pavoisement, également consacrée à la poésie et à l'été. L'Almanach de l'Université d'Helsinki la distingue des journées de pavoisement légales.",
+          "promoter": "Cette commémoration honore son héritage littéraire ; il s'agit d'une tradition culturelle, non d'un nouveau jour férié légal.",
+          "purpose": "La date associe poésie, mémoire culturelle et bref été nordique.",
+          "facts": [
+            "Leino est né le 6 juillet 1878.",
+            "La journée est célébrée depuis 1992.",
+            "Le 6 juillet figure parmi les journées traditionnelles de pavoisement."
+          ]
+        },
+        "de": {
+          "heading": "Eino-Leino-Tag: Dichtung und finnischer Sommer",
+          "origin": "Der finnische Dichter und Journalist Eino Leino wurde am 6. Juli 1878 geboren. Seit 1992 wird sein Geburtstag als traditioneller finnischer Beflaggungstag begangen, der auch der Dichtung und dem Sommer gewidmet ist. Das Almanachbüro der Universität Helsinki unterscheidet ihn von gesetzlich vorgeschriebenen Beflaggungstagen.",
+          "promoter": "Der Tag würdigt Leinos literarisches Erbe; er ist eine kulturelle Tradition und kein neu eingeführter gesetzlicher Feiertag.",
+          "purpose": "Das Datum verbindet Dichtung, kulturelles Gedächtnis und den kurzen nordischen Sommer.",
+          "facts": [
+            "Leino wurde am 6. Juli 1878 geboren.",
+            "Der Gedenktag wird seit 1992 begangen.",
+            "Der 6. Juli ist als traditioneller Beflaggungstag eingestuft."
+          ]
+        },
+        "pt": {
+          "heading": "Dia de Eino Leino: poesia e verão finlandês",
+          "origin": "O poeta e jornalista finlandês Eino Leino nasceu a 6 de julho de 1878. Desde 1992, o seu aniversário é assinalado como dia tradicional de hasteamento da bandeira, também dedicado à poesia e ao verão. O Almanaque da Universidade de Helsínquia distingue-o dos dias de bandeira previstos na lei.",
+          "promoter": "A comemoração homenageia o seu legado literário; é uma tradição cultural, não um novo feriado legal.",
+          "purpose": "A data une poesia, memória cultural e o breve verão nórdico.",
+          "facts": [
+            "Leino nasceu a 6 de julho de 1878.",
+            "A comemoração realiza-se desde 1992.",
+            "O dia 6 de julho consta dos dias tradicionais de hasteamento da bandeira."
           ]
         }
       },
