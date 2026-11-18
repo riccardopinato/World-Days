@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 34,
+  "count": 35,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2744,6 +2744,92 @@
             "A Lei 241/1993 identifica 5 de julho como Dia dos Eslovacos no Estrangeiro.",
             "A data coincide com o feriado nacional dos santos Cirilo e Metódio.",
             "Em 2000 foi instalada em Bratislava uma pedra memorial de mármore vermelho oferecida por eslovacos da Hungria."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-day-of-the-struggle-for-human-rights",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1988,
+      "dateReason": "Anniversary of the 25 March 1988 Candle Demonstration in Bratislava",
+      "dateRule": "25 March",
+      "institution": "National Council of the Slovak Republic (Act 241/1993 Coll.); original protest organised by Slovak Catholic dissidents",
+      "sources": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/19931027.print.html",
+        "https://www.mzv.sk/en/web/en/slovakia/history/the-candle-demonstration-reminds-slovaks-of-the-power-of-the-people",
+        "https://www.upn.gov.sk/publikacie_web/pamat-naroda/pamat-naroda-01-2008.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Slovakia's Day of the Struggle for Human Rights: candles against repression",
+          "origin": "On 25 March 1988, thousands gathered peacefully in Bratislava's Hviezdoslav Square carrying lit candles. The demonstration demanded religious liberty and civil rights under communist Czechoslovakia. Police dispersed the gathering using force. The date now recalls a decisive act of civic resistance before the Velvet Revolution of November 1989.",
+          "promoter": "Slovak dissidents and members of the underground Catholic community organised the 1988 protest. The Slovak legislature subsequently designated 25 March a national memorial day; the precise date of the original legal designation is recorded in the 1993 public-holidays law.",
+          "purpose": "The commemoration honours peaceful civic courage and the defence of freedom of conscience, expression and assembly.",
+          "facts": [
+            "The Candle Demonstration took place in Bratislava on 25 March 1988.",
+            "Participants demanded religious freedom and respect for civil and human rights.",
+            "Police used batons and water cannon to disperse peaceful demonstrators."
+          ]
+        },
+        "it": {
+          "heading": "Giornata slovacca della lotta per i diritti umani: candele contro la repressione",
+          "origin": "Il 25 marzo 1988 migliaia di persone si riunirono pacificamente nella piazza Hviezdoslav di Bratislava con candele accese. Chiedevano libertà religiosa e diritti civili nella Cecoslovacchia comunista. La polizia disperse con la forza la manifestazione. La data ricorda una fondamentale prova di resistenza civile prima della Rivoluzione di velluto del novembre 1989.",
+          "promoter": "La protesta del 1988 fu organizzata da dissidenti slovacchi e membri della comunità cattolica clandestina. Il legislatore slovacco ha poi riconosciuto il 25 marzo come giornata commemorativa nazionale, prevista dalla legge sulle festività del 1993.",
+          "purpose": "La ricorrenza rende omaggio al coraggio civile pacifico e alla difesa delle libertà di coscienza, espressione e riunione.",
+          "facts": [
+            "La manifestazione delle candele si svolse a Bratislava il 25 marzo 1988.",
+            "I partecipanti chiedevano libertà religiosa e rispetto dei diritti civili e umani.",
+            "La polizia impiegò manganelli e idranti contro i manifestanti pacifici."
+          ]
+        },
+        "es": {
+          "heading": "Día eslovaco de la lucha por los derechos humanos: velas frente a la represión",
+          "origin": "El 25 de marzo de 1988 miles de personas se reunieron pacíficamente en la plaza Hviezdoslav de Bratislava con velas encendidas. Reclamaban libertad religiosa y derechos civiles en la Checoslovaquia comunista. La policía dispersó la concentración por la fuerza. La fecha recuerda una importante expresión de resistencia cívica anterior a la Revolución de Terciopelo de noviembre de 1989.",
+          "promoter": "Disidentes eslovacos y miembros de la comunidad católica clandestina organizaron la protesta de 1988. Posteriormente, el legislador eslovaco reconoció el 25 de marzo como día conmemorativo nacional en la ley de festividades de 1993.",
+          "purpose": "La conmemoración honra el valor cívico pacífico y la defensa de las libertades de conciencia, expresión y reunión.",
+          "facts": [
+            "La Manifestación de las Velas tuvo lugar en Bratislava el 25 de marzo de 1988.",
+            "Los participantes exigían libertad religiosa y respeto de los derechos civiles y humanos.",
+            "La policía utilizó porras y cañones de agua para dispersar a manifestantes pacíficos."
+          ]
+        },
+        "fr": {
+          "heading": "Journée slovaque de la lutte pour les droits humains : des bougies face à la répression",
+          "origin": "Le 25 mars 1988, des milliers de personnes se sont rassemblées pacifiquement sur la place Hviezdoslav à Bratislava, des bougies allumées à la main. Elles réclamaient la liberté religieuse et les droits civiques dans la Tchécoslovaquie communiste. La police a dispersé la manifestation par la force. Cette date rappelle un acte majeur de résistance civique avant la révolution de Velours de novembre 1989.",
+          "promoter": "Des dissidents slovaques et des membres de la communauté catholique clandestine ont organisé la protestation de 1988. Le législateur slovaque a ensuite inscrit le 25 mars parmi les journées commémoratives nationales dans la loi de 1993 sur les jours fériés.",
+          "purpose": "Cette commémoration honore le courage civique non violent et la défense des libertés de conscience, d'expression et de réunion.",
+          "facts": [
+            "La manifestation aux bougies a eu lieu à Bratislava le 25 mars 1988.",
+            "Les participants réclamaient la liberté religieuse et le respect des droits civiques et humains.",
+            "La police a utilisé des matraques et des canons à eau contre les manifestants pacifiques."
+          ]
+        },
+        "de": {
+          "heading": "Slowakischer Tag des Kampfes für Menschenrechte: Kerzen gegen Unterdrückung",
+          "origin": "Am 25. März 1988 versammelten sich Tausende Menschen friedlich mit brennenden Kerzen auf dem Hviezdoslav-Platz in Bratislava. Sie forderten Religionsfreiheit und Bürgerrechte in der kommunistischen Tschechoslowakei. Die Polizei löste die Versammlung gewaltsam auf. Das Datum erinnert an einen wichtigen Akt zivilen Widerstands vor der Samtenen Revolution im November 1989.",
+          "promoter": "Slowakische Dissidenten und Angehörige der katholischen Untergrundgemeinschaft organisierten den Protest von 1988. Der slowakische Gesetzgeber nahm den 25. März später im Feiertagsgesetz von 1993 als nationalen Gedenktag auf.",
+          "purpose": "Der Gedenktag würdigt friedlichen zivilen Mut und den Einsatz für Gewissens-, Meinungs- und Versammlungsfreiheit.",
+          "facts": [
+            "Die Kerzendemonstration fand am 25. März 1988 in Bratislava statt.",
+            "Die Teilnehmenden forderten Religionsfreiheit und die Achtung der Bürger- und Menschenrechte.",
+            "Die Polizei setzte Schlagstöcke und Wasserwerfer gegen friedliche Demonstrierende ein."
+          ]
+        },
+        "pt": {
+          "heading": "Dia eslovaco da luta pelos direitos humanos: velas contra a repressão",
+          "origin": "Em 25 de março de 1988, milhares de pessoas reuniram-se pacificamente na praça Hviezdoslav, em Bratislava, com velas acesas. Exigiam liberdade religiosa e direitos civis na Checoslováquia comunista. A polícia dispersou a manifestação pela força. A data recorda um importante ato de resistência cívica anterior à Revolução de Veludo de novembro de 1989.",
+          "promoter": "Dissidentes eslovacos e membros da comunidade católica clandestina organizaram o protesto de 1988. Posteriormente, o legislador eslovaco incluiu 25 de março como dia comemorativo nacional na lei de feriados de 1993.",
+          "purpose": "A comemoração homenageia a coragem cívica pacífica e a defesa das liberdades de consciência, expressão e reunião.",
+          "facts": [
+            "A Manifestação das Velas ocorreu em Bratislava em 25 de março de 1988.",
+            "Os participantes exigiam liberdade religiosa e respeito pelos direitos civis e humanos.",
+            "A polícia usou bastões e canhões de água contra manifestantes pacíficos."
           ]
         }
       },
