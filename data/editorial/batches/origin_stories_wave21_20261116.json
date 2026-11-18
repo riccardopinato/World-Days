@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 36,
+  "count": 37,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2916,6 +2916,92 @@
             "A Operação K começou na noite de 13 para 14 de abril de 1950.",
             "As operações visaram mosteiros e ordens religiosas masculinas.",
             "13 de abril é um dia nacional de memória na Eslováquia."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "fi-defence-forces-flag-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1942,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1867,
+      "dateReason": "4 June is Mannerheim's birthday; government designated the Defence Forces Flag Day on that date in 1942",
+      "dateRule": "June 4",
+      "institution": "Government of Finland (1942 designation); Finnish Defence Forces (current ceremonies)",
+      "sources": [
+        "https://finlandabroad.fi/web/aus/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/flag-day-of-the-finnish-defence-forces-marked-in-canberra/384951",
+        "https://finlandabroad.fi/web/tur/current-affairs/-/asset_publisher/h5w4iTUJhNne/content/flag-day-of-the-finnish-defense-forces-celebration/384951",
+        "https://www.mannerheim.fi/01_elama/e_lipjuh.htm"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Finland's Defence Forces Flag Day: a June tradition",
+          "origin": "Finland marks the Flag Day of its Defence Forces on 4 June. The date is also the birthday of Marshal Carl Gustaf Emil Mannerheim. The government designated this date in 1942, replacing an earlier military flag-day tradition held on 16 May.",
+          "promoter": "The Finnish government selected 4 June in 1942; the Finnish Defence Forces now organize commemorative ceremonies and parades.",
+          "purpose": "The day recognizes serving personnel and the country's defence tradition without confusing the 1942 designation with Mannerheim's birth in 1867.",
+          "facts": [
+            "The observance falls on 4 June.",
+            "The date was designated in 1942.",
+            "Military parades and promotions are among its traditions."
+          ]
+        },
+        "it": {
+          "heading": "Giornata della bandiera delle Forze di difesa finlandesi",
+          "origin": "La Finlandia celebra il 4 giugno la giornata della bandiera delle proprie Forze di difesa. La data coincide con il compleanno del maresciallo Carl Gustaf Emil Mannerheim. Il governo la scelse nel 1942, sostituendo la precedente tradizione militare del 16 maggio.",
+          "promoter": "Il governo finlandese stabilì la data nel 1942; oggi le Forze di difesa organizzano cerimonie e parate.",
+          "purpose": "La ricorrenza riconosce il personale in servizio e la tradizione di difesa nazionale, distinguendo la decisione del 1942 dalla nascita di Mannerheim nel 1867.",
+          "facts": [
+            "Si celebra il 4 giugno.",
+            "La data fu scelta nel 1942.",
+            "Parate e promozioni militari fanno parte della tradizione."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Bandera de las Fuerzas de Defensa de Finlandia",
+          "origin": "Finlandia celebra el 4 de junio el Día de la Bandera de sus Fuerzas de Defensa. La fecha coincide con el cumpleaños del mariscal Carl Gustaf Emil Mannerheim. El Gobierno la designó en 1942, sustituyendo la anterior celebración militar del 16 de mayo.",
+          "promoter": "El Gobierno finlandés fijó la fecha en 1942; las Fuerzas de Defensa organizan actualmente ceremonias y desfiles.",
+          "purpose": "La jornada reconoce al personal militar y la tradición defensiva del país, distinguiendo la decisión de 1942 del nacimiento de Mannerheim en 1867.",
+          "facts": [
+            "Se celebra el 4 de junio.",
+            "La fecha fue designada en 1942.",
+            "Los desfiles y ascensos militares forman parte de la tradición."
+          ]
+        },
+        "fr": {
+          "heading": "Journée du drapeau des Forces de défense finlandaises",
+          "origin": "La Finlande célèbre le 4 juin la journée du drapeau de ses Forces de défense. Cette date correspond à l'anniversaire du maréchal Carl Gustaf Emil Mannerheim. Le gouvernement l'a choisie en 1942, remplaçant une ancienne célébration militaire du 16 mai.",
+          "promoter": "Le gouvernement finlandais fixa cette date en 1942 ; les Forces de défense organisent aujourd'hui cérémonies et défilés.",
+          "purpose": "Cette journée rend hommage aux militaires et à la tradition de défense du pays, sans confondre la décision de 1942 avec la naissance de Mannerheim en 1867.",
+          "facts": [
+            "La journée a lieu le 4 juin.",
+            "La date a été fixée en 1942.",
+            "Défilés et promotions militaires font partie des traditions."
+          ]
+        },
+        "de": {
+          "heading": "Flaggentag der finnischen Verteidigungskräfte",
+          "origin": "Finnland begeht am 4. Juni den Flaggentag seiner Verteidigungskräfte. Das Datum ist zugleich der Geburtstag von Marschall Carl Gustaf Emil Mannerheim. Die Regierung legte es 1942 fest und ersetzte damit die frühere militärische Feier am 16. Mai.",
+          "promoter": "Die finnische Regierung bestimmte 1942 den Termin; die Verteidigungskräfte veranstalten heute Zeremonien und Paraden.",
+          "purpose": "Der Tag würdigt die Soldatinnen und Soldaten sowie die Verteidigungstradition des Landes und unterscheidet die Entscheidung von 1942 von Mannerheims Geburt 1867.",
+          "facts": [
+            "Der Tag fällt auf den 4. Juni.",
+            "Der Termin wurde 1942 festgelegt.",
+            "Paraden und Beförderungen gehören zur Tradition."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Bandeira das Forças de Defesa da Finlândia",
+          "origin": "A Finlândia assinala a 4 de junho o Dia da Bandeira das suas Forças de Defesa. A data coincide com o aniversário do marechal Carl Gustaf Emil Mannerheim. O governo escolheu-a em 1942, substituindo uma antiga celebração militar de 16 de maio.",
+          "promoter": "O governo finlandês definiu a data em 1942; atualmente, as Forças de Defesa organizam cerimónias e desfiles.",
+          "purpose": "A comemoração homenageia os militares e a tradição de defesa do país, distinguindo a decisão de 1942 do nascimento de Mannerheim em 1867.",
+          "facts": [
+            "Celebra-se a 4 de junho.",
+            "A data foi estabelecida em 1942.",
+            "Desfiles e promoções militares integram a tradição."
           ]
         }
       },
