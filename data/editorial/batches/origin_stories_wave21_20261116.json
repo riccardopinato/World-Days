@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 38,
+  "count": 39,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3088,6 +3088,91 @@
             "A ocupação começou em agosto de 1968.",
             "O protocolo de conclusão foi assinado em 25 de junho de 1991.",
             "O dia comemorativo foi instituído em 2022 e não é feriado com dispensa de trabalho."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "france-deportation-victims-remembrance-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1954,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "Last Sunday of April fixed by French Law 54-415 of 14 April 1954; not a single liberation anniversary",
+      "dateRule": "Last Sunday of April",
+      "institution": "French Parliament (Law 54-415); public remembrance ceremonies",
+      "sources": [
+        "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000312505",
+        "https://www.cheminsdememoire.gouv.fr/sites/default/files/2025-10/Guide_Commemorations_mode_d_emploi_DMCA_octobre_2025.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "France remembers the victims and heroes of deportation",
+          "origin": "France established this national remembrance day through Law 54-415 of 14 April 1954, selecting the last Sunday of April each year. The date is not the anniversary of one camp's liberation: it offers a shared occasion to remember those deported to Nazi concentration camps during the Second World War, including people persecuted for their identity and those punished for resistance.",
+          "promoter": "The French Parliament established the observance by law; public authorities and remembrance organizations organize ceremonies. Its legal creation in 1954 must not be confused with the wartime deportations it commemorates.",
+          "purpose": "The commemoration honors victims, survivors and acts of resistance while encouraging the transmission of testimony and vigilance against persecution.",
+          "facts": [
+            "Law 54-415 was enacted on 14 April 1954.",
+            "The observance falls on the last Sunday in April, so its calendar date changes.",
+            "Article 2 provides for official ceremonies remembering the suffering of deportees."
+          ]
+        },
+        "it": {
+          "heading": "La Francia ricorda le vittime e gli eroi della deportazione",
+          "origin": "La Francia istituì questa giornata nazionale con la legge 54-415 del 14 aprile 1954, scegliendo l'ultima domenica di aprile. Non è l'anniversario della liberazione di un singolo campo: è un momento comune per ricordare le persone deportate nei campi di concentramento nazisti durante la Seconda guerra mondiale, perseguitate per la propria identità o per la resistenza al regime.",
+          "promoter": "Il Parlamento francese istituì la ricorrenza per legge; autorità pubbliche e associazioni della memoria organizzano le cerimonie. L'istituzione del 1954 non coincide con gli eventi bellici commemorati.",
+          "purpose": "La commemorazione rende omaggio alle vittime, ai sopravvissuti e alla resistenza, promuovendo la trasmissione delle testimonianze e l'attenzione contro le persecuzioni.",
+          "facts": [
+            "La legge 54-415 è del 14 aprile 1954.",
+            "La data cade nell'ultima domenica di aprile e varia ogni anno.",
+            "L'articolo 2 prevede cerimonie ufficiali dedicate alle sofferenze dei deportati."
+          ]
+        },
+        "es": {
+          "heading": "Francia recuerda a las víctimas y héroes de la deportación",
+          "origin": "Francia instituyó esta jornada nacional mediante la Ley 54-415 del 14 de abril de 1954 y eligió el último domingo de abril. No conmemora la liberación de un único campo: reúne el recuerdo de quienes fueron deportados a campos de concentración nazis durante la Segunda Guerra Mundial, tanto por persecución como por su resistencia.",
+          "promoter": "El Parlamento francés creó la conmemoración por ley; las autoridades y asociaciones de memoria organizan actos. La creación legal de 1954 es distinta de los acontecimientos de guerra recordados.",
+          "purpose": "La jornada honra a las víctimas, supervivientes y resistentes, y promueve la transmisión de testimonios y la prevención de nuevas persecuciones.",
+          "facts": [
+            "La Ley 54-415 se promulgó el 14 de abril de 1954.",
+            "Se celebra el último domingo de abril y cambia de fecha cada año.",
+            "Su artículo 2 dispone ceremonias oficiales en memoria del sufrimiento de los deportados."
+          ]
+        },
+        "fr": {
+          "heading": "La France se souvient des victimes et des héros de la Déportation",
+          "origin": "La loi 54-415 du 14 avril 1954 a institué cette journée nationale le dernier dimanche d'avril. Elle ne correspond pas à la libération d'un seul camp : elle rassemble le souvenir des personnes déportées dans les camps de concentration nazis pendant la Seconde Guerre mondiale, victimes de persécutions ou engagées dans la Résistance.",
+          "promoter": "Le Parlement français a créé cette commémoration par la loi ; les pouvoirs publics et les associations mémorielles organisent des cérémonies. La décision de 1954 est distincte des événements de guerre commémorés.",
+          "purpose": "La journée honore les victimes, les survivants et les résistants, transmet leurs témoignages et rappelle les dangers de la persécution.",
+          "facts": [
+            "La loi 54-415 date du 14 avril 1954.",
+            "La journée a lieu le dernier dimanche d'avril et change donc de date.",
+            "Son article 2 prévoit des cérémonies officielles rappelant les souffrances des déportés."
+          ]
+        },
+        "de": {
+          "heading": "Frankreich gedenkt der Opfer und Helden der Deportation",
+          "origin": "Frankreich führte diesen nationalen Gedenktag mit Gesetz 54-415 vom 14. April 1954 ein und legte ihn auf den letzten Sonntag im April. Er erinnert nicht an die Befreiung eines einzelnen Lagers, sondern gemeinsam an Menschen, die im Zweiten Weltkrieg in nationalsozialistische Konzentrationslager deportiert wurden, weil sie verfolgt wurden oder Widerstand leisteten.",
+          "promoter": "Das französische Parlament schuf den Gedenktag per Gesetz; staatliche Stellen und Erinnerungsverbände veranstalten Gedenkfeiern. Die Einführung von 1954 ist von den Kriegsereignissen zu unterscheiden.",
+          "purpose": "Der Tag ehrt Opfer, Überlebende und Widerstandskämpfer und fördert die Weitergabe ihrer Zeugnisse sowie Wachsamkeit gegenüber Verfolgung.",
+          "facts": [
+            "Gesetz 54-415 stammt vom 14. April 1954.",
+            "Der Gedenktag fällt auf den letzten Sonntag im April; das Datum wechselt.",
+            "Artikel 2 sieht offizielle Zeremonien zum Gedenken an das Leid der Deportierten vor."
+          ]
+        },
+        "pt": {
+          "heading": "França recorda as vítimas e os heróis da deportação",
+          "origin": "A França instituiu este dia nacional pela Lei 54-415, de 14 de abril de 1954, escolhendo o último domingo de abril. Não assinala a libertação de um único campo: reúne a memória das pessoas deportadas para campos de concentração nazis durante a Segunda Guerra Mundial, perseguidas pela sua identidade ou pela resistência ao regime.",
+          "promoter": "O Parlamento francês criou a comemoração por lei; autoridades e associações de memória organizam cerimónias. A instituição legal de 1954 é distinta dos acontecimentos da guerra recordados.",
+          "purpose": "A data homenageia vítimas, sobreviventes e resistentes, promovendo a transmissão dos testemunhos e a vigilância contra a perseguição.",
+          "facts": [
+            "A Lei 54-415 foi promulgada em 14 de abril de 1954.",
+            "A comemoração ocorre no último domingo de abril, pelo que a data varia.",
+            "O artigo 2 prevê cerimónias oficiais para recordar o sofrimento dos deportados."
           ]
         }
       },
