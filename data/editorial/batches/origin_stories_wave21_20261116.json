@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 27,
+  "count": 28,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2140,6 +2140,92 @@
             "O armistício entrou em vigor às 11 horas de 11 de novembro de 1918.",
             "A primeira comemoração checa ocorreu em 2001; o reconhecimento como data significativa veio em 2004.",
             "A papoila vermelha é um símbolo amplamente usado de homenagem."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czechoslovak-independence-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2000,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1918,
+      "dateReason": "28 October 1918: the National Committee in Prague issued the first law establishing independent Czechoslovakia",
+      "dateRule": "October 28",
+      "institution": "Czechoslovak National Committee (1918 founding); Parliament of the Czech Republic (modern holiday law 245/2000)",
+      "sources": [
+        "https://mzv.gov.cz/jnp/cz/o_ministerstvu/prezentace_cr/den_vzniku_ceskoslovenska.html",
+        "https://ppropo.mpsv.cz/zakon_245_2000",
+        "https://e-sbirka.gov.cz/sb/2000/245/2019-04-01"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czechoslovak Independence Day: the state founded on 28 October",
+          "origin": "On 28 October 1918, as Austria-Hungary disintegrated at the end of the First World War, the Czechoslovak National Committee in Prague issued the first law establishing an independent Czechoslovak state. The process also involved Czechoslovak leaders abroad, including Tomáš Garrigue Masaryk, and Czech and Slovak political representatives. Today's Czech Republic commemorates that founding moment as a public holiday under Act 245/2000.",
+          "promoter": "The 1918 National Committee declared the state; the Czech Parliament subsequently defined the modern holiday in Act 245/2000.",
+          "purpose": "The date invites reflection on self-government, democratic aspirations and the shared yet complex history of Czechs and Slovaks.",
+          "facts": [
+            "The National Committee issued the first law of independent Czechoslovakia on 28 October 1918.",
+            "The new state emerged from the collapse of Austria-Hungary after the First World War.",
+            "Czech Act 245/2000 names 28 October as the holiday of the independent Czechoslovak state's foundation."
+          ]
+        },
+        "it": {
+          "heading": "Indipendenza cecoslovacca: lo Stato nato il 28 ottobre",
+          "origin": "Il 28 ottobre 1918, mentre l'Impero austro-ungarico si disgregava alla fine della Prima guerra mondiale, il Comitato nazionale cecoslovacco a Praga emanò la prima legge per la nascita di uno Stato indipendente. Il percorso coinvolse anche esponenti dell'indipendentismo all'estero, tra cui Tomáš Garrigue Masaryk, e rappresentanti cechi e slovacchi. Oggi la Repubblica Ceca ricorda quella svolta con una festività prevista dalla legge 245/2000.",
+          "promoter": "Il Comitato nazionale proclamò lo Stato nel 1918; il Parlamento ceco ha disciplinato la festività moderna con la legge 245/2000.",
+          "purpose": "La giornata invita a riflettere sull'autogoverno, sulle aspirazioni democratiche e sulla storia condivisa, ma complessa, di cechi e slovacchi.",
+          "facts": [
+            "Il 28 ottobre 1918 il Comitato nazionale emanò la prima legge dello Stato cecoslovacco indipendente.",
+            "Il nuovo Stato nacque dalla dissoluzione dell'Austria-Ungheria dopo la Prima guerra mondiale.",
+            "La legge ceca 245/2000 riconosce il 28 ottobre come festa della fondazione dello Stato cecoslovacco indipendente."
+          ]
+        },
+        "es": {
+          "heading": "Independencia checoslovaca: el Estado nacido el 28 de octubre",
+          "origin": "El 28 de octubre de 1918, durante la desintegración de Austria-Hungría al final de la Primera Guerra Mundial, el Comité Nacional Checoslovaco en Praga promulgó la primera ley del Estado checoslovaco independiente. El proceso contó también con dirigentes en el extranjero, como Tomáš Garrigue Masaryk, y representantes políticos checos y eslovacos. La República Checa actual recuerda ese momento mediante un festivo regulado por la Ley 245/2000.",
+          "promoter": "El Comité Nacional declaró el nuevo Estado en 1918; el Parlamento checo estableció el festivo moderno en la Ley 245/2000.",
+          "purpose": "La fecha permite reflexionar sobre el autogobierno, las aspiraciones democráticas y la historia compartida, aunque compleja, de checos y eslovacos.",
+          "facts": [
+            "El Comité Nacional promulgó la primera ley del Estado independiente el 28 de octubre de 1918.",
+            "El nuevo Estado surgió del derrumbe de Austria-Hungría tras la Primera Guerra Mundial.",
+            "La Ley checa 245/2000 reconoce el 28 de octubre como festivo de la fundación del Estado checoslovaco independiente."
+          ]
+        },
+        "fr": {
+          "heading": "Indépendance tchécoslovaque : l'État né le 28 octobre",
+          "origin": "Le 28 octobre 1918, tandis que l'Autriche-Hongrie se désagrégeait à la fin de la Première Guerre mondiale, le Comité national tchécoslovaque à Prague adopta la première loi fondant un État tchécoslovaque indépendant. Le processus impliquait aussi des responsables de l'indépendance à l'étranger, dont Tomáš Garrigue Masaryk, et des représentants tchèques et slovaques. La République tchèque commémore aujourd'hui cette naissance par un jour férié prévu par la loi 245/2000.",
+          "promoter": "Le Comité national proclama l'État en 1918 ; le Parlement tchèque définit le jour férié moderne dans la loi 245/2000.",
+          "purpose": "Cette date invite à réfléchir à l'autonomie politique, aux aspirations démocratiques et à l'histoire commune, parfois complexe, des Tchèques et des Slovaques.",
+          "facts": [
+            "Le Comité national adopta la première loi de l'État indépendant le 28 octobre 1918.",
+            "Le nouvel État naquit de la dissolution de l'Autriche-Hongrie après la Première Guerre mondiale.",
+            "La loi tchèque 245/2000 inscrit le 28 octobre comme fête de la fondation de l'État tchécoslovaque indépendant."
+          ]
+        },
+        "de": {
+          "heading": "Tschechoslowakischer Unabhängigkeitstag: Staatsgründung am 28. Oktober",
+          "origin": "Am 28. Oktober 1918, als Österreich-Ungarn am Ende des Ersten Weltkriegs zerfiel, erließ der Tschechoslowakische Nationalausschuss in Prag das erste Gesetz zur Errichtung eines unabhängigen tschechoslowakischen Staates. An der Entwicklung waren auch Unabhängigkeitsvertreter im Ausland, darunter Tomáš Garrigue Masaryk, sowie tschechische und slowakische Politiker beteiligt. Die heutige Tschechische Republik erinnert mit einem gesetzlichen Feiertag nach Gesetz 245/2000 an dieses Ereignis.",
+          "promoter": "Der Nationalausschuss erklärte 1918 die Staatsgründung; das tschechische Parlament regelte den heutigen Feiertag im Gesetz 245/2000.",
+          "purpose": "Der Tag regt dazu an, über Selbstbestimmung, demokratische Hoffnungen und die gemeinsame, vielschichtige Geschichte von Tschechen und Slowaken nachzudenken.",
+          "facts": [
+            "Am 28. Oktober 1918 erließ der Nationalausschuss das erste Gesetz des unabhängigen Staates.",
+            "Der neue Staat entstand beim Zerfall Österreich-Ungarns nach dem Ersten Weltkrieg.",
+            "Das tschechische Gesetz 245/2000 bestimmt den 28. Oktober zum Feiertag der Gründung des unabhängigen tschechoslowakischen Staates."
+          ]
+        },
+        "pt": {
+          "heading": "Independência checoslovaca: o Estado fundado em 28 de outubro",
+          "origin": "Em 28 de outubro de 1918, quando a Áustria-Hungria se desintegrava no fim da Primeira Guerra Mundial, o Comité Nacional Checoslovaco em Praga aprovou a primeira lei que estabelecia um Estado checoslovaco independente. O processo envolveu também líderes no estrangeiro, incluindo Tomáš Garrigue Masaryk, e representantes políticos checos e eslovacos. A atual República Checa assinala esse momento como feriado ao abrigo da Lei 245/2000.",
+          "promoter": "O Comité Nacional proclamou o Estado em 1918; o Parlamento checo regulamentou o feriado moderno na Lei 245/2000.",
+          "purpose": "A data convida a refletir sobre a autodeterminação, as aspirações democráticas e a história partilhada, mas complexa, de checos e eslovacos.",
+          "facts": [
+            "O Comité Nacional aprovou a primeira lei do Estado independente em 28 de outubro de 1918.",
+            "O novo Estado surgiu da desagregação da Áustria-Hungria após a Primeira Guerra Mundial.",
+            "A Lei checa 245/2000 reconhece 28 de outubro como feriado da fundação do Estado checoslovaco independente."
           ]
         }
       },
