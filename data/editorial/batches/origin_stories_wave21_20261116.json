@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 26,
+  "count": 27,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2054,6 +2054,92 @@
             "A Lei n.º 245/2000 estabelece 28 de setembro como Dia da Estatalidade Checa.",
             "A data coincide com a festa de São Venceslau, governante medieval da Boémia.",
             "O governo checo distingue esta tradição antiga do aniversário republicano de 28 de outubro."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-war-veterans-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2004,
+      "firstObservedYear": 2001,
+      "commemoratedEventYear": 1918,
+      "dateReason": "11 November recalls the armistice taking effect at 11:00 on 11 November 1918",
+      "dateRule": "November 11",
+      "institution": "Czech Ministry of Defence and veterans' associations; original sole founding decree unknown",
+      "sources": [
+        "https://vepozs.mo.gov.cz/cinnost-pozemnich-sil-acr/den-valecnych-veteranu/historie-11-listopadu",
+        "https://mocr.mo.gov.cz/informacni-servis/veterani/historie-dne-veteranu-15331/",
+        "https://mocr.mo.gov.cz/informacni-servis/den/den-valecnych-veteranu--216857"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech War Veterans Day: remembrance beyond the armistice",
+          "origin": "The armistice of 11 November 1918 ended fighting on the Western Front of the First World War at eleven o'clock. In the modern Czech Republic, veterans were first commemorated on this date in 2001. Czech legislation on war veterans followed in 2002; since 2004 the date has also been recognized among the country's significant days. These milestones should not be confused with the 1918 event.",
+          "promoter": "The Czech Ministry of Defence and veterans' organizations sustain commemorations, including ceremonies at Prague's Vítkov memorial. The original modern observance's single founding decree is not established here.",
+          "purpose": "The day remembers those who died in wars and acknowledges both historical and contemporary veterans and their families.",
+          "facts": [
+            "The armistice took effect at 11:00 on 11 November 1918.",
+            "The Czech Republic first marked the day in 2001; recognition as a significant day followed in 2004.",
+            "A red poppy is a widely used symbol of remembrance."
+          ]
+        },
+        "it": {
+          "heading": "Giornata ceca dei veterani di guerra: memoria oltre l'armistizio",
+          "origin": "L'armistizio dell'11 novembre 1918 fermò i combattimenti sul fronte occidentale della Prima guerra mondiale alle undici. Nella Repubblica Ceca moderna la commemorazione dei veterani in questa data iniziò nel 2001. Una legge sui veterani seguì nel 2002 e dal 2004 l'11 novembre figura tra le giornate significative del paese. Sono passaggi distinti dall'evento del 1918.",
+          "promoter": "Il Ministero della Difesa ceco e le associazioni dei veterani promuovono cerimonie, anche al memoriale di Vítkov a Praga. Le fonti non identificano un unico decreto istitutivo della commemorazione moderna.",
+          "purpose": "La ricorrenza ricorda i caduti e riconosce il servizio dei veterani storici e contemporanei e il ruolo delle loro famiglie.",
+          "facts": [
+            "L'armistizio entrò in vigore alle 11 dell'11 novembre 1918.",
+            "In Cechia la prima commemorazione risale al 2001; il riconoscimento come giornata significativa al 2004.",
+            "Il papavero rosso è un simbolo diffuso del ricordo."
+          ]
+        },
+        "es": {
+          "heading": "Día de los Veteranos de Guerra checo: memoria más allá del armisticio",
+          "origin": "El armisticio del 11 de noviembre de 1918 detuvo los combates en el frente occidental de la Primera Guerra Mundial a las once. En la República Checa moderna, la fecha se conmemoró por primera vez en 2001. En 2002 se aprobó una ley sobre veteranos y desde 2004 el día figura entre las fechas significativas del país. Estos hitos no son el acontecimiento de 1918.",
+          "promoter": "El Ministerio de Defensa checo y las asociaciones de veteranos mantienen actos conmemorativos, entre ellos ceremonias en Vítkov, Praga. Las fuentes consultadas no identifican un decreto único que fundara la conmemoración moderna.",
+          "purpose": "La fecha recuerda a quienes murieron en las guerras y reconoce a veteranos de distintas generaciones y a sus familias.",
+          "facts": [
+            "El armisticio entró en vigor a las 11:00 del 11 de noviembre de 1918.",
+            "La primera conmemoración checa fue en 2001; el reconocimiento como fecha significativa llegó en 2004.",
+            "La amapola roja es un símbolo habitual de recuerdo."
+          ]
+        },
+        "fr": {
+          "heading": "Journée tchèque des anciens combattants : au-delà de l'armistice",
+          "origin": "L'armistice du 11 novembre 1918 mit fin aux combats sur le front occidental de la Première Guerre mondiale à onze heures. Dans la République tchèque contemporaine, cette date fut commémorée pour la première fois en 2001. Une loi relative aux anciens combattants suivit en 2002 et, depuis 2004, le 11 novembre figure parmi les journées importantes du pays. Ces étapes ne doivent pas être confondues avec l'événement de 1918.",
+          "promoter": "Le ministère tchèque de la Défense et les associations d'anciens combattants organisent des cérémonies, notamment au mémorial de Vítkov à Prague. Les sources ne permettent pas d'identifier un décret fondateur unique de la commémoration moderne.",
+          "purpose": "Cette journée honore les morts des guerres, les anciens combattants de différentes générations et leurs familles.",
+          "facts": [
+            "L'armistice prit effet à 11 heures le 11 novembre 1918.",
+            "La première commémoration tchèque date de 2001 ; le statut de journée importante suivit en 2004.",
+            "Le coquelicot rouge est un symbole de mémoire largement utilisé."
+          ]
+        },
+        "de": {
+          "heading": "Tschechischer Kriegsveteranentag: Gedenken über den Waffenstillstand hinaus",
+          "origin": "Der Waffenstillstand vom 11. November 1918 beendete um elf Uhr die Kämpfe an der Westfront des Ersten Weltkriegs. In der heutigen Tschechischen Republik wurde der Tag erstmals 2001 begangen. Ein Gesetz über Kriegsveteranen folgte 2002; seit 2004 zählt der 11. November zu den bedeutenden Tagen des Landes. Diese Schritte sind vom Ereignis des Jahres 1918 zu unterscheiden.",
+          "promoter": "Das tschechische Verteidigungsministerium und Veteranenverbände gestalten Gedenkfeiern, darunter Zeremonien am Vítkov-Denkmal in Prag. Eine einzelne Gründungsverordnung für das moderne Gedenken ist durch die Quellen nicht belegt.",
+          "purpose": "Der Tag erinnert an Kriegstote und würdigt Veteraninnen und Veteranen verschiedener Generationen sowie ihre Familien.",
+          "facts": [
+            "Der Waffenstillstand trat am 11. November 1918 um 11 Uhr in Kraft.",
+            "Tschechien beging den Tag erstmals 2001; 2004 wurde er als bedeutender Tag anerkannt.",
+            "Der rote Klatschmohn ist ein verbreitetes Symbol des Gedenkens."
+          ]
+        },
+        "pt": {
+          "heading": "Dia checo dos Veteranos de Guerra: memória para além do armistício",
+          "origin": "O armistício de 11 de novembro de 1918 encerrou os combates na Frente Ocidental da Primeira Guerra Mundial às onze horas. Na atual República Checa, a data foi assinalada pela primeira vez em 2001. Uma lei relativa aos veteranos surgiu em 2002 e, desde 2004, o dia integra as datas significativas do país. Esses marcos são distintos do acontecimento de 1918.",
+          "promoter": "O Ministério da Defesa checo e associações de veteranos promovem cerimónias, incluindo homenagens no memorial de Vítkov, em Praga. As fontes não identificam um decreto fundador único da comemoração moderna.",
+          "purpose": "A data recorda os mortos nas guerras e reconhece veteranos de diferentes gerações e as suas famílias.",
+          "facts": [
+            "O armistício entrou em vigor às 11 horas de 11 de novembro de 1918.",
+            "A primeira comemoração checa ocorreu em 2001; o reconhecimento como data significativa veio em 2004.",
+            "A papoila vermelha é um símbolo amplamente usado de homenagem."
           ]
         }
       },
