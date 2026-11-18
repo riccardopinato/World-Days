@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 25,
+  "count": 26,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1968,6 +1968,92 @@
             "O cerco final ocorreu em Praga em 18 de junho de 1942.",
             "Sete paraquedistas morreram na igreja e na cripta.",
             "Os acontecimentos seguiram-se ao atentado contra Reinhard Heydrich de 27 de maio de 1942."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-statehood-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2000,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "28 September is the feast and traditional martyrdom anniversary of Saint Wenceslas; legal state holiday established by Act No. 245/2000",
+      "dateRule": "September 28",
+      "institution": "Parliament of the Czech Republic (Act No. 245/2000)",
+      "sources": [
+        "https://ppropo.mpsv.cz/zakon_245_2000",
+        "https://mzv.gov.cz/file/4409722/St._Wenceslas_Czech_National_Day_2021.pdf",
+        "https://vlada.gov.cz/assets/udalosti/Czech-Statehood-Day-28th-September-2009.pdf"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech Statehood Day: the legacy of Saint Wenceslas",
+          "origin": "Czech Statehood Day falls on 28 September, traditionally associated with the death and feast of Saint Wenceslas, the medieval Bohemian ruler who became a symbol of Czech political and cultural continuity. Parliament gave the date statutory public-holiday status in Act No. 245/2000. This is distinct from 28 October, which commemorates the foundation of Czechoslovakia in 1918.",
+          "promoter": "The Parliament of the Czech Republic established the modern statutory holiday through Act No. 245/2000; Saint Wenceslas is the historical figure commemorated, not the modern legal founder.",
+          "purpose": "The day invites reflection on the long development of Czech statehood and on how medieval symbols coexist with the modern democratic republic.",
+          "facts": [
+            "Act No. 245/2000 lists 28 September as Czech Statehood Day.",
+            "The date coincides with the feast of Saint Wenceslas, a medieval Bohemian ruler.",
+            "The Czech government distinguishes this older statehood tradition from the republican anniversary on 28 October."
+          ]
+        },
+        "it": {
+          "heading": "Giorno della statualità ceca: l'eredità di san Venceslao",
+          "origin": "Il 28 settembre, giorno della statualità ceca, è legato alla memoria e alla festa di san Venceslao, sovrano medievale della Boemia divenuto simbolo della continuità politica e culturale del Paese. Il Parlamento ha riconosciuto la data come festività statale con la legge n. 245/2000. È una ricorrenza distinta dal 28 ottobre, anniversario della nascita della Cecoslovacchia nel 1918.",
+          "promoter": "Il Parlamento della Repubblica Ceca ha istituito la festività legale moderna con la legge n. 245/2000; san Venceslao è la figura ricordata, non il promotore giuridico della ricorrenza.",
+          "purpose": "La giornata invita a riflettere sulla lunga formazione dello Stato ceco e sul rapporto tra simboli medievali e repubblica democratica moderna.",
+          "facts": [
+            "La legge n. 245/2000 indica il 28 settembre come Giorno della statualità ceca.",
+            "La data coincide con la festa di san Venceslao, sovrano medievale della Boemia.",
+            "Il governo ceco distingue questa tradizione più antica dall'anniversario repubblicano del 28 ottobre."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Estatalidad Checa: el legado de san Venceslao",
+          "origin": "El 28 de septiembre recuerda a san Venceslao, gobernante medieval de Bohemia cuya memoria se convirtió en símbolo de continuidad política y cultural checa. El Parlamento reconoció la fecha como fiesta estatal mediante la Ley 245/2000. No debe confundirse con el 28 de octubre, que conmemora la fundación de Checoslovaquia en 1918.",
+          "promoter": "El Parlamento de la República Checa estableció la festividad legal moderna mediante la Ley 245/2000; san Venceslao es la figura histórica recordada, no el fundador legal de la celebración.",
+          "purpose": "La fecha invita a reflexionar sobre la formación histórica del Estado checo y la convivencia de símbolos medievales con la república democrática actual.",
+          "facts": [
+            "La Ley 245/2000 establece el 28 de septiembre como Día de la Estatalidad Checa.",
+            "La fecha coincide con la festividad de san Venceslao, gobernante medieval de Bohemia.",
+            "El Gobierno checo distingue esta tradición antigua del aniversario republicano del 28 de octubre."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de l'État tchèque : l'héritage de saint Venceslas",
+          "origin": "Le 28 septembre rappelle saint Venceslas, souverain médiéval de Bohême devenu un symbole de continuité politique et culturelle tchèque. Le Parlement a inscrit cette date parmi les fêtes nationales par la loi 245/2000. Elle ne doit pas être confondue avec le 28 octobre, anniversaire de la création de la Tchécoslovaquie en 1918.",
+          "promoter": "Le Parlement de la République tchèque a institué la fête légale moderne par la loi 245/2000 ; saint Venceslas en est la figure historique, non le fondateur juridique.",
+          "purpose": "Cette journée invite à réfléchir à la longue histoire de l'État tchèque et à la place des symboles médiévaux dans une république démocratique moderne.",
+          "facts": [
+            "La loi 245/2000 classe le 28 septembre comme Journée de l'État tchèque.",
+            "Cette date coïncide avec la fête de saint Venceslas, souverain médiéval de Bohême.",
+            "Le gouvernement tchèque distingue cette tradition ancienne de l'anniversaire républicain du 28 octobre."
+          ]
+        },
+        "de": {
+          "heading": "Tag der tschechischen Staatlichkeit: das Erbe des heiligen Wenzel",
+          "origin": "Der 28. September erinnert an den heiligen Wenzel, einen mittelalterlichen Herrscher Böhmens, der zum Symbol tschechischer politischer und kultureller Kontinuität wurde. Das Parlament erklärte den Tag durch Gesetz Nr. 245/2000 zum Staatsfeiertag. Er ist vom 28. Oktober zu unterscheiden, der an die Gründung der Tschechoslowakei 1918 erinnert.",
+          "promoter": "Das Parlament der Tschechischen Republik begründete den heutigen gesetzlichen Feiertag durch Gesetz Nr. 245/2000; der heilige Wenzel ist die historische Gedenkfigur und nicht dessen rechtlicher Stifter.",
+          "purpose": "Der Tag regt dazu an, die lange Geschichte tschechischer Staatlichkeit und das Verhältnis mittelalterlicher Symbole zur heutigen demokratischen Republik zu betrachten.",
+          "facts": [
+            "Das Gesetz Nr. 245/2000 bestimmt den 28. September zum Tag der tschechischen Staatlichkeit.",
+            "Das Datum fällt auf den Gedenktag des heiligen Wenzel, eines mittelalterlichen Herrschers Böhmens.",
+            "Die tschechische Regierung unterscheidet diese ältere Tradition vom republikanischen Jahrestag am 28. Oktober."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Estatalidade Checa: o legado de São Venceslau",
+          "origin": "O dia 28 de setembro recorda São Venceslau, governante medieval da Boémia que se tornou símbolo da continuidade política e cultural checa. O Parlamento consagrou a data como feriado nacional na Lei n.º 245/2000. É distinta de 28 de outubro, aniversário da criação da Checoslováquia em 1918.",
+          "promoter": "O Parlamento da República Checa instituiu o feriado legal moderno pela Lei n.º 245/2000; São Venceslau é a figura histórica evocada, não o fundador jurídico da comemoração.",
+          "purpose": "A data convida à reflexão sobre a longa formação do Estado checo e a relação entre símbolos medievais e a república democrática atual.",
+          "facts": [
+            "A Lei n.º 245/2000 estabelece 28 de setembro como Dia da Estatalidade Checa.",
+            "A data coincide com a festa de São Venceslau, governante medieval da Boémia.",
+            "O governo checo distingue esta tradição antiga do aniversário republicano de 28 de outubro."
           ]
         }
       },
