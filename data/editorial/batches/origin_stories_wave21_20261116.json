@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 29,
+  "count": 30,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2318,6 +2318,88 @@
       "humanFactReview": "PENDING",
       "humanSixLocaleReview": "PENDING",
       "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-day-against-hate-speech-targeting-children",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2023,
+      "firstObservedYear": 2023,
+      "commemoratedEventYear": null,
+      "dateReason": "22 September falls near the beginning of the school year; the legislative initiative linked the date to prevention in schools.",
+      "dateRule": "September 22",
+      "institution": "National Council of the Slovak Republic, Act No. 414/2022 amending Act No. 241/1993; civic association Integrácia was among proponents",
+      "sources": [
+        "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2022/414/",
+        "https://www.teraz.sk/najnovsie/dnes-je-den-respektu-a-eliminacie-nen/907623-clanok.html"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Slovakia's day of respect: confronting hatred directed at children",
+          "origin": "Slovakia's parliament adopted Act 414/2022 on 8 November 2022, adding 22 September to the country's statutory memorial days. Published on 1 December, the amendment took effect on 1 January 2023; the observance was first marked that year. The date, near the beginning of the school term, was chosen to encourage early attention to hostility and bullying among children.",
+          "promoter": "The National Council enacted the memorial day. Civic association Integrácia was among the advocates and organizes respect-focused activities; it should not be confused with the lawmaking authority.",
+          "purpose": "The day encourages schools, families and communities to recognize degrading speech, bullying and online harassment, and to build respectful relationships without presenting one campaign as a nationwide measure of harm.",
+          "facts": [
+            "The statutory amendment is Act 414/2022, modifying Act 241/1993.",
+            "The memorial day falls on 22 September and was first observed in 2023.",
+            "The law was approved on 8 November 2022 and took effect on 1 January 2023."
+          ]
+        },
+        "it": {
+          "heading": "Slovacchia, una giornata di rispetto contro l'odio verso i bambini",
+          "origin": "Il Parlamento slovacco approvò la legge 414/2022 l'8 novembre 2022, inserendo il 22 settembre tra le giornate commemorative nazionali. Pubblicata il 1° dicembre, la modifica entrò in vigore il 1° gennaio 2023 e la ricorrenza fu celebrata per la prima volta nello stesso anno. La data, vicina all'inizio delle lezioni, richiama l'attenzione precoce su ostilità e bullismo.",
+          "promoter": "La giornata è stata istituita dal Consiglio nazionale slovacco. L'associazione civica Integrácia figurava tra i promotori e organizza iniziative sul rispetto, ma non è l'autorità legislativa.",
+          "purpose": "Sensibilizzare scuole, famiglie e comunità su linguaggio denigratorio, bullismo e molestie online, incoraggiando relazioni rispettose senza scambiare le campagne per statistiche nazionali.",
+          "facts": [
+            "La legge 414/2022 modifica la legge 241/1993.",
+            "La ricorrenza cade il 22 settembre ed è stata osservata per la prima volta nel 2023.",
+            "La legge fu approvata l'8 novembre 2022 ed entrò in vigore il 1° gennaio 2023."
+          ]
+        },
+        "es": {
+          "heading": "Eslovaquia: una jornada de respeto frente al odio hacia la infancia",
+          "origin": "El Parlamento eslovaco aprobó la Ley 414/2022 el 8 de noviembre de 2022 e incorporó el 22 de septiembre al calendario legal de días conmemorativos. La reforma se publicó el 1 de diciembre, entró en vigor el 1 de enero de 2023 y se conmemoró por primera vez ese año. La fecha, cercana al comienzo del curso, invita a detectar pronto el acoso y la hostilidad.",
+          "promoter": "El Consejo Nacional de Eslovaquia estableció la jornada por ley. La asociación Integrácia estuvo entre sus impulsores y organiza actividades de respeto, pero no es la autoridad legislativa.",
+          "purpose": "Concienciar a escuelas, familias y comunidades sobre expresiones degradantes, acoso escolar y hostigamiento digital, fomentando relaciones respetuosas sin confundir campañas con estadísticas nacionales.",
+          "facts": [
+            "La Ley 414/2022 modificó la Ley 241/1993.",
+            "La conmemoración se celebra el 22 de septiembre desde 2023.",
+            "Se aprobó el 8 de noviembre de 2022 y entró en vigor el 1 de enero de 2023."
+          ]
+        },
+        "fr": {
+          "heading": "Slovaquie : une journée de respect face à la haine visant les enfants",
+          "origin": "Le Parlement slovaque a adopté la loi 414/2022 le 8 novembre 2022, ajoutant le 22 septembre aux journées commémoratives prévues par la loi. Publiée le 1er décembre, la modification est entrée en vigueur le 1er janvier 2023 ; la journée a été observée pour la première fois cette année-là. Sa date, proche de la rentrée scolaire, souligne la prévention précoce du harcèlement.",
+          "promoter": "Le Conseil national slovaque a institué cette journée. L'association Integrácia comptait parmi ses défenseurs et organise des activités sur le respect, sans être l'autorité législative.",
+          "purpose": "Sensibiliser écoles, familles et communautés aux propos dégradants, au harcèlement et aux attaques en ligne, et promouvoir le respect sans assimiler une campagne à des statistiques nationales.",
+          "facts": [
+            "La loi 414/2022 modifie la loi 241/1993.",
+            "La journée a lieu le 22 septembre et a été célébrée pour la première fois en 2023.",
+            "Le texte a été adopté le 8 novembre 2022 et est entré en vigueur le 1er janvier 2023."
+          ]
+        },
+        "de": {
+          "heading": "Slowakei: ein Gedenktag für Respekt statt Hass gegen Kinder",
+          "origin": "Das slowakische Parlament verabschiedete am 8. November 2022 das Gesetz 414/2022 und nahm den 22. September in die gesetzlichen Gedenktage auf. Die Änderung wurde am 1. Dezember veröffentlicht, trat am 1. Januar 2023 in Kraft und wurde 2023 erstmals begangen. Der Termin zu Beginn des Schuljahres soll früh auf Mobbing und Feindseligkeit aufmerksam machen.",
+          "promoter": "Der Nationalrat der Slowakischen Republik schuf den Gedenktag gesetzlich. Der Verein Integrácia gehörte zu den Befürwortern und organisiert Aktionen für Respekt, ist aber nicht der Gesetzgeber.",
+          "purpose": "Schulen, Familien und Gemeinschaften für abwertende Sprache, Mobbing und digitale Belästigung sensibilisieren und respektvolles Miteinander fördern, ohne Kampagnenzahlen als nationale Statistik auszugeben.",
+          "facts": [
+            "Gesetz 414/2022 änderte Gesetz 241/1993.",
+            "Der Gedenktag ist der 22. September und wurde erstmals 2023 begangen.",
+            "Beschlossen wurde das Gesetz am 8. November 2022; es trat am 1. Januar 2023 in Kraft."
+          ]
+        },
+        "pt": {
+          "heading": "Eslováquia: um dia de respeito contra o ódio dirigido às crianças",
+          "origin": "O Parlamento eslovaco aprovou a Lei 414/2022 em 8 de novembro de 2022, incluindo 22 de setembro entre os dias comemorativos previstos na legislação. A alteração foi publicada em 1 de dezembro, entrou em vigor em 1 de janeiro de 2023 e foi assinalada pela primeira vez nesse ano. A data, próxima do início das aulas, incentiva a prevenção precoce do bullying.",
+          "promoter": "O Conselho Nacional da República Eslovaca instituiu a data. A associação Integrácia esteve entre os defensores da iniciativa e organiza atividades de respeito, mas não é a autoridade legislativa.",
+          "purpose": "Sensibilizar escolas, famílias e comunidades para linguagem humilhante, intimidação e assédio digital, promovendo relações respeitosas sem confundir campanhas com estatísticas nacionais.",
+          "facts": [
+            "A Lei 414/2022 alterou a Lei 241/1993.",
+            "A data é 22 de setembro e foi assinalada pela primeira vez em 2023.",
+            "A lei foi aprovada em 8 de novembro de 2022 e entrou em vigor em 1 de janeiro de 2023."
+          ]
+        }
+      }
     }
   ]
 }
