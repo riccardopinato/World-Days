@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 40,
+  "count": 41,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3265,6 +3265,93 @@
       "humanFactReview": "PENDING",
       "humanSixLocaleReview": "PENDING",
       "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-independence-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1918,
+      "dateReason": "24 February marks the proclamation and nationwide publication of the Estonian Declaration of Independence in 1918",
+      "dateRule": "24 February annually",
+      "institution": "Estonian Salvation Committee and Provincial Assembly elders; separate modern annual holiday founding instrument not established",
+      "sources": [
+        "https://riigikantselei.ee/en/national-holiday",
+        "https://www.riigikogu.ee/en/introduction-and-history/history-riigikogu/estonian-provisional-land-council-or-maapaev/declaration-of-independence/",
+        "https://www.riigikogu.ee/en/introduction-and-history/history-riigikogu/estonian-provisional-land-council-or-maapaev/",
+        "https://www.estemb.es/eng/frontpage/estonia/history/newwin/aid-349"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Independence Day: the declaration of 1918",
+          "origin": "On 23 February 1918, Estonia's declaration of independence was read publicly in Pärnu. On 24 February it was published across the country, proclaiming an independent democratic republic amid the retreat of Russian forces and the advance of German troops. The Salvation Committee appointed a provisional government that day. German occupation soon interrupted state-building, which resumed after the First World War. The 24 February national holiday commemorates this founding declaration, not Estonia's separate restoration of independence in 1991.",
+          "promoter": "The Estonian Salvation Committee acted under the Provincial Assembly's leadership. The historical founding event is established by parliamentary and government sources; a distinct founding year for the present annual holiday is not established here.",
+          "purpose": "Remember the declaration of democratic statehood and the people who maintained the idea of an independent Estonia.",
+          "facts": [
+            "The declaration was read publicly in Pärnu on 23 February 1918.",
+            "It was published nationally on 24 February 1918.",
+            "The Salvation Committee appointed the provisional government on 24 February."
+          ]
+        },
+        "it": {
+          "heading": "Festa dell'indipendenza estone: la dichiarazione del 1918",
+          "origin": "Il 23 febbraio 1918 la dichiarazione d'indipendenza estone fu letta pubblicamente a Pärnu. Il 24 febbraio venne diffusa nel paese, proclamando una repubblica democratica indipendente mentre le truppe russe si ritiravano e quelle tedesche avanzavano. Nello stesso giorno il Comitato di salvezza nominò un governo provvisorio. L'occupazione tedesca interruppe presto la costruzione dello Stato, ripresa dopo la Prima guerra mondiale. La festa nazionale ricorda questa proclamazione, distinta dal ripristino dell'indipendenza nel 1991.",
+          "promoter": "Il Comitato di salvezza agì sotto la guida dell'Assemblea provinciale estone. Le fonti istituzionali confermano l'evento del 1918, ma non documentano qui un anno istitutivo separato della festa annuale attuale.",
+          "purpose": "Ricordare la nascita dello Stato democratico e chi ne custodì l'aspirazione all'indipendenza.",
+          "facts": [
+            "La dichiarazione fu letta a Pärnu il 23 febbraio 1918.",
+            "Il testo fu diffuso nel paese il 24 febbraio 1918.",
+            "Il governo provvisorio fu nominato il 24 febbraio."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Independencia de Estonia: la declaración de 1918",
+          "origin": "El 23 de febrero de 1918 se leyó públicamente en Pärnu la declaración de independencia de Estonia. El 24 de febrero se difundió por el país y proclamó una república democrática independiente, mientras las fuerzas rusas se retiraban y las alemanas avanzaban. Ese día, el Comité de Salvación nombró un gobierno provisional. La ocupación alemana interrumpió pronto la construcción del Estado, reanudada tras la Primera Guerra Mundial. La fiesta nacional recuerda aquella proclamación, distinta de la restauración de la independencia de 1991.",
+          "promoter": "El Comité de Salvación actuó bajo la dirección de la Asamblea Provincial. Las fuentes oficiales documentan el acontecimiento de 1918, pero no establecen aquí un año de creación separado de la festividad anual actual.",
+          "purpose": "Recordar la proclamación del Estado democrático y a quienes mantuvieron viva la aspiración de independencia.",
+          "facts": [
+            "La declaración se leyó en Pärnu el 23 de febrero de 1918.",
+            "Se difundió por el país el 24 de febrero de 1918.",
+            "El gobierno provisional fue nombrado el 24 de febrero."
+          ]
+        },
+        "fr": {
+          "heading": "Fête de l'indépendance estonienne : la déclaration de 1918",
+          "origin": "Le 23 février 1918, la déclaration d'indépendance estonienne fut lue publiquement à Pärnu. Le 24 février, elle fut diffusée dans le pays et proclama une république démocratique indépendante, alors que les forces russes se retiraient et que les troupes allemandes avançaient. Le Comité de salut nomma ce jour-là un gouvernement provisoire. L'occupation allemande interrompit rapidement la construction de l'État, reprise après la Première Guerre mondiale. La fête nationale commémore cette proclamation, distincte du rétablissement de l'indépendance en 1991.",
+          "promoter": "Le Comité de salut agissait sous l'autorité de l'Assemblée provinciale. Les sources officielles établissent l'événement de 1918, mais ne précisent pas ici une année distincte d'institution de la fête annuelle actuelle.",
+          "purpose": "Commémorer la naissance de l'État démocratique et celles et ceux qui ont préservé l'aspiration à l'indépendance.",
+          "facts": [
+            "La déclaration fut lue à Pärnu le 23 février 1918.",
+            "Elle fut diffusée dans le pays le 24 février 1918.",
+            "Le gouvernement provisoire fut nommé le 24 février."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Unabhängigkeitstag: die Erklärung von 1918",
+          "origin": "Am 23. Februar 1918 wurde Estlands Unabhängigkeitserklärung in Pärnu öffentlich verlesen. Am 24. Februar wurde sie landesweit verbreitet und verkündete eine unabhängige demokratische Republik, während russische Truppen abzogen und deutsche Streitkräfte vorrückten. Der Rettungsausschuss ernannte am selben Tag eine provisorische Regierung. Die deutsche Besatzung unterbrach den Staatsaufbau, der nach dem Ersten Weltkrieg wieder aufgenommen wurde. Der Nationalfeiertag erinnert an diese Erklärung und ist von der Wiederherstellung der Unabhängigkeit 1991 zu unterscheiden.",
+          "promoter": "Der estnische Rettungsausschuss handelte unter Führung der Provinzialversammlung. Amtliche Quellen belegen das Ereignis von 1918, jedoch hier kein gesondertes Einführungsjahr des heutigen jährlichen Feiertags.",
+          "purpose": "An die Gründung des demokratischen Staates und an jene erinnern, die das Streben nach Unabhängigkeit bewahrten.",
+          "facts": [
+            "Die Erklärung wurde am 23. Februar 1918 in Pärnu verlesen.",
+            "Am 24. Februar 1918 wurde sie landesweit verbreitet.",
+            "Am 24. Februar wurde die provisorische Regierung ernannt."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Independência da Estónia: a declaração de 1918",
+          "origin": "Em 23 de fevereiro de 1918, a declaração de independência da Estónia foi lida publicamente em Pärnu. Em 24 de fevereiro, foi divulgada pelo país e proclamou uma república democrática independente, enquanto as forças russas recuavam e as tropas alemãs avançavam. Nesse dia, o Comité de Salvação nomeou um governo provisório. A ocupação alemã interrompeu a construção do Estado, retomada após a Primeira Guerra Mundial. O feriado nacional recorda esta proclamação, distinta da restauração da independência em 1991.",
+          "promoter": "O Comité de Salvação atuou sob a liderança da Assembleia Provincial. As fontes oficiais comprovam o acontecimento de 1918, mas não estabelecem aqui um ano separado de instituição do feriado anual atual.",
+          "purpose": "Recordar a proclamação do Estado democrático e quem preservou a aspiração à independência.",
+          "facts": [
+            "A declaração foi lida em Pärnu em 23 de fevereiro de 1918.",
+            "Foi divulgada pelo país em 24 de fevereiro de 1918.",
+            "O governo provisório foi nomeado em 24 de fevereiro."
+          ]
+        }
+      },
+      "runtimeRichEditorialApproved": false,
+      "humanFactualReview": "PENDING",
+      "humanNativeLocaleReview": "PENDING"
     }
   ]
 }
