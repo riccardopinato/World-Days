@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 24,
+  "count": 25,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -1882,6 +1882,91 @@
             "O ataque ocorreu em 27 de maio de 1942.",
             "Gabčík e Kubiš receberam apoio de uma rede de resistência.",
             "É um dia comemorativo previsto em lei, não necessariamente um feriado."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "cz-czech-second-resistance-heroes-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1942,
+      "dateReason": "18 June commemorates the 1942 final stand of Czechoslovak parachutists at the Prague church",
+      "dateRule": "June 18",
+      "institution": "Czechoslovak resistance; exact institution of annual observance unverified",
+      "sources": [
+        "https://www.army.cz/",
+        "https://www.vhu.cz/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Czech Second Resistance Heroes Day: the final stand in Prague",
+          "origin": "On 18 June 1942, seven Czechoslovak parachutists died after Nazi forces surrounded the Church of Saints Cyril and Methodius in Prague. The fighters included participants in Operation Anthropoid, the attack on Reinhard Heydrich on 27 May. The church's crypt became a lasting memorial to resistance against Nazi occupation.",
+          "promoter": "The commemoration honours the Czechoslovak soldiers and their civilian supporters. Czech defence and remembrance institutions preserve the history; the precise legal instrument establishing this named annual observance has not been confirmed.",
+          "purpose": "The day remembers the courage and sacrifice of the fighters, as well as the severe Nazi reprisals that followed the operation.",
+          "facts": [
+            "The final siege took place on 18 June 1942 in Prague.",
+            "Seven parachutists died in the church and its crypt.",
+            "The events followed the attack on Reinhard Heydrich on 27 May 1942."
+          ]
+        },
+        "it": {
+          "heading": "Giornata degli eroi della seconda resistenza ceca: l'ultima difesa a Praga",
+          "origin": "Il 18 giugno 1942 sette paracadutisti cecoslovacchi morirono dopo che le forze naziste circondarono la chiesa dei Santi Cirillo e Metodio a Praga. Tra loro vi erano partecipanti all'Operazione Anthropoid, l'attacco a Reinhard Heydrich del 27 maggio. La cripta della chiesa è diventata un luogo di memoria della resistenza all'occupazione nazista.",
+          "promoter": "La commemorazione rende omaggio ai militari cecoslovacchi e ai civili che li aiutarono. Le istituzioni ceche della difesa e della memoria ne conservano la storia; non è stato confermato l'atto giuridico che istituì questa specifica ricorrenza annuale.",
+          "purpose": "La giornata ricorda il coraggio e il sacrificio dei combattenti e le dure rappresaglie naziste seguite all'operazione.",
+          "facts": [
+            "L'assedio finale avvenne a Praga il 18 giugno 1942.",
+            "Nella chiesa e nella cripta morirono sette paracadutisti.",
+            "I fatti seguirono l'attacco a Reinhard Heydrich del 27 maggio 1942."
+          ]
+        },
+        "es": {
+          "heading": "Día de los héroes de la segunda resistencia checa: la última defensa en Praga",
+          "origin": "El 18 de junio de 1942 murieron siete paracaidistas checoslovacos cuando las fuerzas nazis rodearon la iglesia de San Cirilo y San Metodio en Praga. Entre ellos había participantes en la Operación Anthropoid, el ataque contra Reinhard Heydrich del 27 de mayo. La cripta se convirtió en un lugar de memoria de la resistencia a la ocupación nazi.",
+          "promoter": "La conmemoración honra a los soldados checoslovacos y a quienes los ayudaron. Las instituciones checas de defensa y memoria preservan esta historia; no se ha confirmado el instrumento jurídico que estableció esta celebración anual específica.",
+          "purpose": "La fecha recuerda el valor y sacrificio de los combatientes y las duras represalias nazis posteriores a la operación.",
+          "facts": [
+            "El asedio final ocurrió en Praga el 18 de junio de 1942.",
+            "Siete paracaidistas murieron en la iglesia y su cripta.",
+            "Los hechos siguieron al ataque contra Reinhard Heydrich del 27 de mayo de 1942."
+          ]
+        },
+        "fr": {
+          "heading": "Journée des héros de la seconde résistance tchèque : le dernier combat à Prague",
+          "origin": "Le 18 juin 1942, sept parachutistes tchécoslovaques moururent lorsque les forces nazies encerclèrent l'église Saints-Cyrille-et-Méthode à Prague. Certains avaient participé à l'opération Anthropoid, l'attaque contre Reinhard Heydrich du 27 mai. La crypte est devenue un lieu de mémoire de la résistance à l'occupation nazie.",
+          "promoter": "Cette commémoration rend hommage aux soldats tchécoslovaques et aux civils qui les aidèrent. Les institutions tchèques de défense et de mémoire en préservent l'histoire ; l'acte juridique instituant précisément cette journée annuelle n'a pas été confirmé.",
+          "purpose": "La date rappelle le courage et le sacrifice des combattants ainsi que les terribles représailles nazies qui suivirent.",
+          "facts": [
+            "Le dernier siège eut lieu à Prague le 18 juin 1942.",
+            "Sept parachutistes moururent dans l'église et sa crypte.",
+            "Ces événements suivirent l'attaque contre Reinhard Heydrich du 27 mai 1942."
+          ]
+        },
+        "de": {
+          "heading": "Gedenktag der Helden des zweiten tschechischen Widerstands: der letzte Kampf in Prag",
+          "origin": "Am 18. Juni 1942 starben sieben tschechoslowakische Fallschirmjäger, nachdem NS-Truppen die Prager Kirche der Heiligen Kyrill und Method umstellt hatten. Unter ihnen waren Beteiligte der Operation Anthropoid, des Anschlags auf Reinhard Heydrich am 27. Mai. Die Krypta wurde zu einem Erinnerungsort des Widerstands gegen die NS-Besatzung.",
+          "promoter": "Der Gedenktag ehrt die tschechoslowakischen Soldaten und ihre zivilen Helfer. Tschechische Verteidigungs- und Gedenkinstitutionen bewahren ihre Geschichte; ein konkreter Rechtsakt zur Einführung dieses jährlichen Gedenktags ist bislang nicht bestätigt.",
+          "purpose": "Er erinnert an Mut und Opfer der Kämpfer sowie an die schweren nationalsozialistischen Vergeltungsmaßnahmen nach der Operation.",
+          "facts": [
+            "Die letzte Belagerung fand am 18. Juni 1942 in Prag statt.",
+            "Sieben Fallschirmjäger starben in der Kirche und ihrer Krypta.",
+            "Die Ereignisse folgten dem Anschlag auf Reinhard Heydrich vom 27. Mai 1942."
+          ]
+        },
+        "pt": {
+          "heading": "Dia dos heróis da segunda resistência checa: a última defesa em Praga",
+          "origin": "Em 18 de junho de 1942, sete paraquedistas checoslovacos morreram depois de forças nazis cercarem a Igreja de São Cirilo e São Metódio, em Praga. Entre eles estavam participantes da Operação Anthropoid, o atentado contra Reinhard Heydrich de 27 de maio. A cripta tornou-se um lugar de memória da resistência à ocupação nazi.",
+          "promoter": "A comemoração homenageia os militares checoslovacos e os civis que os ajudaram. Instituições checas de defesa e memória preservam a história; ainda não foi confirmado o instrumento jurídico que instituiu esta data comemorativa anual específica.",
+          "purpose": "A data recorda a coragem e o sacrifício dos combatentes, bem como as duras represálias nazis que se seguiram.",
+          "facts": [
+            "O cerco final ocorreu em Praga em 18 de junho de 1942.",
+            "Sete paraquedistas morreram na igreja e na cripta.",
+            "Os acontecimentos seguiram-se ao atentado contra Reinhard Heydrich de 27 de maio de 1942."
           ]
         }
       },
