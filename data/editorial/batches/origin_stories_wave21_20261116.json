@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 28,
+  "count": 29,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2226,6 +2226,92 @@
             "O Comité Nacional aprovou a primeira lei do Estado independente em 28 de outubro de 1918.",
             "O novo Estado surgiu da desagregação da Áustria-Hungria após a Primeira Guerra Mundial.",
             "A Lei checa 245/2000 reconhece 28 de outubro como feriado da fundação do Estado checoslovaco independente."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-czechoslovak-state-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1918,
+      "dateReason": "28 October 1918: proclamation of independent Czechoslovakia in Prague; Slovak Martin Declaration followed on 30 October",
+      "dateRule": "October 28",
+      "institution": "Czechoslovak National Committee (1918); National Council of the Slovak Republic (modern holiday legislation)",
+      "sources": [
+        "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+        "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/",
+        "https://www.vhu.sk/103-vyrocie-deklaracie-slovenskeho-naroda/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Slovakia's Czechoslovak State Day: remembering 28 October 1918",
+          "origin": "On 28 October 1918, representatives in Prague proclaimed an independent Czechoslovak state as Austria-Hungary collapsed. Two days later, Slovak representatives meeting in Martin adopted the Declaration of the Slovak Nation, affirming their role in the emerging common state. Slovakia now marks 28 October as the Day of the Establishment of the Independent Czecho-Slovak State, a state holiday under Act 241/1993 as amended; it is not a day off work.",
+          "promoter": "The 1918 Czechoslovak National Committee was central to the proclamation; Slovakia's National Council legislated the modern commemorative status.",
+          "purpose": "The day recalls the formation of a common state and invites consideration of Czech and Slovak self-determination and their different political experiences.",
+          "facts": [
+            "The state was proclaimed in Prague on 28 October 1918.",
+            "The Slovak Martin Declaration followed on 30 October 1918.",
+            "Slovakia's government lists 28 October as a state holiday that is not a non-working day."
+          ]
+        },
+        "it": {
+          "heading": "Giornata dello Stato cecoslovacco in Slovacchia: il 28 ottobre 1918",
+          "origin": "Il 28 ottobre 1918, mentre l'Austria-Ungheria si disgregava, a Praga fu proclamato uno Stato cecoslovacco indipendente. Due giorni dopo, i rappresentanti slovacchi riuniti a Martin approvarono la Dichiarazione della nazione slovacca, esprimendo la partecipazione al nuovo Stato comune. La Slovacchia ricorda oggi il 28 ottobre come festa statale prevista dalla legge 241/1993 e successive modifiche, senza che sia un giorno di riposo lavorativo.",
+          "promoter": "Il Comitato nazionale cecoslovacco ebbe un ruolo centrale nel 1918; il Consiglio nazionale slovacco ha disciplinato la ricorrenza moderna.",
+          "purpose": "La giornata ricorda la nascita dello Stato comune e invita a riflettere sull'autodeterminazione e sulle diverse esperienze storiche di cechi e slovacchi.",
+          "facts": [
+            "Lo Stato fu proclamato a Praga il 28 ottobre 1918.",
+            "La Dichiarazione di Martin seguì il 30 ottobre 1918.",
+            "Il governo slovacco indica il 28 ottobre come festa statale che non comporta un giorno non lavorativo."
+          ]
+        },
+        "es": {
+          "heading": "Día del Estado checoslovaco en Eslovaquia: el 28 de octubre de 1918",
+          "origin": "El 28 de octubre de 1918, mientras se desintegraba Austria-Hungría, se proclamó en Praga un Estado checoslovaco independiente. Dos días después, representantes eslovacos reunidos en Martin aprobaron la Declaración de la Nación Eslovaca, manifestando su participación en el nuevo Estado común. Eslovaquia conmemora el 28 de octubre como fiesta estatal conforme a la Ley 241/1993 y sus modificaciones, aunque no es un día no laborable.",
+          "promoter": "El Comité Nacional Checoslovaco desempeñó un papel central en 1918; el Consejo Nacional eslovaco reguló la conmemoración moderna.",
+          "purpose": "La fecha recuerda la formación del Estado común e invita a reflexionar sobre la autodeterminación y las distintas experiencias de checos y eslovacos.",
+          "facts": [
+            "El Estado fue proclamado en Praga el 28 de octubre de 1918.",
+            "La Declaración de Martin se aprobó el 30 de octubre de 1918.",
+            "El Gobierno eslovaco identifica el 28 de octubre como fiesta estatal sin descanso laboral."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de l'État tchécoslovaque en Slovaquie : le 28 octobre 1918",
+          "origin": "Le 28 octobre 1918, alors que l'Autriche-Hongrie se désagrégeait, un État tchécoslovaque indépendant fut proclamé à Prague. Deux jours plus tard, des représentants slovaques réunis à Martin adoptèrent la Déclaration de la nation slovaque, affirmant leur participation au nouvel État commun. La Slovaquie commémore le 28 octobre comme fête d'État selon la loi 241/1993 modifiée, sans en faire un jour chômé.",
+          "promoter": "Le Comité national tchécoslovaque joua un rôle central en 1918 ; le Conseil national slovaque a fixé le statut commémoratif moderne.",
+          "purpose": "Cette journée rappelle la naissance de l'État commun et invite à réfléchir à l'autodétermination et aux expériences distinctes des Tchèques et des Slovaques.",
+          "facts": [
+            "L'État fut proclamé à Prague le 28 octobre 1918.",
+            "La Déclaration de Martin suivit le 30 octobre 1918.",
+            "Le gouvernement slovaque classe le 28 octobre comme fête d'État sans jour chômé."
+          ]
+        },
+        "de": {
+          "heading": "Tag des tschechoslowakischen Staates in der Slowakei: 28. Oktober 1918",
+          "origin": "Am 28. Oktober 1918 wurde in Prag während des Zerfalls Österreich-Ungarns ein unabhängiger tschechoslowakischer Staat ausgerufen. Zwei Tage später verabschiedeten slowakische Vertreter in Martin die Erklärung der slowakischen Nation und bekräftigten ihre Beteiligung am neuen gemeinsamen Staat. Die Slowakei begeht den 28. Oktober nach dem Gesetz 241/1993 in geänderter Fassung als Staatsfeiertag, jedoch nicht als arbeitsfreien Tag.",
+          "promoter": "Der Tschechoslowakische Nationalausschuss spielte 1918 eine zentrale Rolle; der slowakische Nationalrat regelte den heutigen Gedenkstatus.",
+          "purpose": "Der Tag erinnert an die Gründung des gemeinsamen Staates und regt zur Auseinandersetzung mit Selbstbestimmung und unterschiedlichen tschechischen und slowakischen Erfahrungen an.",
+          "facts": [
+            "Der Staat wurde am 28. Oktober 1918 in Prag ausgerufen.",
+            "Die Erklärung von Martin folgte am 30. Oktober 1918.",
+            "Die slowakische Regierung führt den 28. Oktober als Staatsfeiertag ohne Arbeitsruhe."
+          ]
+        },
+        "pt": {
+          "heading": "Dia do Estado Checoslovaco na Eslováquia: 28 de outubro de 1918",
+          "origin": "Em 28 de outubro de 1918, durante a desintegração da Áustria-Hungria, foi proclamado em Praga um Estado checoslovaco independente. Dois dias depois, representantes eslovacos reunidos em Martin aprovaram a Declaração da Nação Eslovaca, afirmando a participação no novo Estado comum. A Eslováquia assinala 28 de outubro como feriado de Estado ao abrigo da Lei 241/1993, com alterações posteriores, mas não como dia de dispensa do trabalho.",
+          "promoter": "O Comité Nacional Checoslovaco teve um papel central em 1918; o Conselho Nacional eslovaco definiu o estatuto comemorativo moderno.",
+          "purpose": "A data recorda a criação do Estado comum e convida a refletir sobre a autodeterminação e as diferentes experiências de checos e eslovacos.",
+          "facts": [
+            "O Estado foi proclamado em Praga em 28 de outubro de 1918.",
+            "A Declaração de Martin foi adotada em 30 de outubro de 1918.",
+            "O Governo eslovaco classifica 28 de outubro como feriado de Estado sem dispensa laboral."
           ]
         }
       },
