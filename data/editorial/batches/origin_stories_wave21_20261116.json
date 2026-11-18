@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 31,
+  "count": 32,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2480,6 +2480,98 @@
             "O golpe ocorreu em 24 de março de 1976.",
             "A Lei 25.633 instituiu a data nacional em 2002.",
             "A Lei 26.085 incluiu 24 de março entre os feriados nacionais em 2006."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "za-reconciliation-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": 1995,
+      "commemoratedEventYear": null,
+      "dateReason": "16 December recalls the 1838 Battle of Blood River/Ncome and the 1961 founding of Umkhonto we Sizwe; reinterpreted as reconciliation after democracy",
+      "dateRule": "December 16",
+      "institution": "First democratic Government of South Africa",
+      "sources": [
+        "https://www.gov.za/day-reconciliation",
+        "https://www.parliament.gov.za/press-releases/parliament-statement-national-reconciliation-day",
+        "https://www.gov.za/speeches/president-jacob-zuma-national-day-reconciliation-celebrations-16-dec-2016-0000"
+      ],
+      "locale": {
+        "en": {
+          "heading": "South Africa's Day of Reconciliation: transforming a divided date",
+          "origin": "The date of 16 December carried sharply different memories. In 1838, Voortrekkers defeated Zulu forces at the Battle of Blood River/Ncome. On 16 December 1961, the anti-apartheid movement's armed wing, Umkhonto we Sizwe, was founded. After democratic transition, the new government retained the public holiday but reframed it as a day for reconciliation; it was first celebrated under that name on 16 December 1995.",
+          "promoter": "South Africa's first democratic government established the reconciliation observance, seeking to acknowledge both histories rather than privilege one. A separate founding statutory instrument is not identified by these sources.",
+          "purpose": "The observance encourages South Africans to confront the legacy of apartheid, recognize past injustices and work toward equality and shared civic life.",
+          "facts": [
+            "The date is 16 December.",
+            "The Battle of Blood River/Ncome took place in 1838.",
+            "Umkhonto we Sizwe was founded on 16 December 1961.",
+            "The first Day of Reconciliation celebration was held in 1995."
+          ]
+        },
+        "it": {
+          "heading": "Sudafrica, Giorno della riconciliazione: dare un nuovo senso al 16 dicembre",
+          "origin": "Il 16 dicembre riunisce memorie storiche contrastanti. Nel 1838 i Voortrekker sconfissero le forze zulu nella battaglia del Blood River/Ncome. Il 16 dicembre 1961 nacque Umkhonto we Sizwe, braccio armato del movimento contro l'apartheid. Dopo la transizione democratica, il nuovo governo mantenne la festività ma la dedicò alla riconciliazione: la prima celebrazione con questo nome avvenne il 16 dicembre 1995.",
+          "promoter": "Il primo governo democratico sudafricano promosse la ricorrenza per riconoscere entrambe le memorie storiche. Le fonti consultate non individuano uno specifico atto legislativo istitutivo.",
+          "purpose": "La giornata invita a confrontarsi con le conseguenze dell'apartheid, riconoscere le ingiustizie e costruire una convivenza fondata sull'uguaglianza.",
+          "facts": [
+            "La ricorrenza cade il 16 dicembre.",
+            "La battaglia del Blood River/Ncome si svolse nel 1838.",
+            "Umkhonto we Sizwe nacque il 16 dicembre 1961.",
+            "La prima celebrazione del Giorno della riconciliazione fu nel 1995."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Reconciliación en Sudáfrica: resignificar el 16 de diciembre",
+          "origin": "El 16 de diciembre reúne memorias históricas opuestas. En 1838, los voortrekkers derrotaron a fuerzas zulúes en la batalla de Blood River/Ncome. El 16 de diciembre de 1961 se fundó Umkhonto we Sizwe, brazo armado del movimiento contra el apartheid. Tras la transición democrática, el nuevo Gobierno conservó el festivo, pero lo dedicó a la reconciliación; se celebró por primera vez con ese nombre el 16 de diciembre de 1995.",
+          "promoter": "El primer Gobierno democrático sudafricano impulsó la conmemoración para reconocer ambas historias. Las fuentes consultadas no identifican un instrumento legislativo fundacional específico.",
+          "purpose": "La jornada invita a afrontar las secuelas del apartheid, reconocer las injusticias y construir una sociedad basada en la igualdad.",
+          "facts": [
+            "Se celebra el 16 de diciembre.",
+            "La batalla de Blood River/Ncome ocurrió en 1838.",
+            "Umkhonto we Sizwe se fundó el 16 de diciembre de 1961.",
+            "La primera celebración del Día de la Reconciliación fue en 1995."
+          ]
+        },
+        "fr": {
+          "heading": "Afrique du Sud : la Journée de la réconciliation et le sens du 16 décembre",
+          "origin": "Le 16 décembre porte des mémoires historiques opposées. En 1838, les Voortrekkers vainquirent des forces zouloues lors de la bataille de Blood River/Ncome. Le 16 décembre 1961 fut fondé Umkhonto we Sizwe, branche armée du mouvement anti-apartheid. Après la transition démocratique, le nouveau gouvernement conserva ce jour férié en le consacrant à la réconciliation; il fut célébré sous ce nom pour la première fois le 16 décembre 1995.",
+          "promoter": "Le premier gouvernement démocratique sud-africain instaura cette commémoration pour reconnaître les deux héritages. Les sources consultées ne précisent pas d'acte législatif fondateur distinct.",
+          "purpose": "Cette journée invite à regarder en face les séquelles de l'apartheid, à reconnaître les injustices et à bâtir une vie commune fondée sur l'égalité.",
+          "facts": [
+            "La date est le 16 décembre.",
+            "La bataille de Blood River/Ncome eut lieu en 1838.",
+            "Umkhonto we Sizwe fut fondé le 16 décembre 1961.",
+            "La première Journée de la réconciliation fut célébrée en 1995."
+          ]
+        },
+        "de": {
+          "heading": "Südafrikas Tag der Versöhnung: der 16. Dezember erhält eine neue Bedeutung",
+          "origin": "Der 16. Dezember verbindet gegensätzliche Erinnerungen. 1838 besiegten Voortrekker Zulu-Truppen in der Schlacht am Blood River/Ncome. Am 16. Dezember 1961 wurde Umkhonto we Sizwe, der bewaffnete Arm der Anti-Apartheid-Bewegung, gegründet. Nach dem demokratischen Wandel behielt die neue Regierung den Feiertag bei, widmete ihn jedoch der Versöhnung. Unter diesem Namen wurde er erstmals am 16. Dezember 1995 begangen.",
+          "promoter": "Südafrikas erste demokratische Regierung führte den Versöhnungsgedenktag ein, um beide historischen Erfahrungen anzuerkennen. Ein gesondertes Gründungsgesetz ist durch die konsultierten Quellen nicht belegt.",
+          "purpose": "Der Tag ruft dazu auf, die Folgen der Apartheid aufzuarbeiten, Unrecht anzuerkennen und ein gleichberechtigtes Zusammenleben zu gestalten.",
+          "facts": [
+            "Der Gedenktag fällt auf den 16. Dezember.",
+            "Die Schlacht am Blood River/Ncome fand 1838 statt.",
+            "Umkhonto we Sizwe wurde am 16. Dezember 1961 gegründet.",
+            "Der Tag der Versöhnung wurde erstmals 1995 begangen."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Reconciliação na África do Sul: um novo significado para 16 de dezembro",
+          "origin": "O dia 16 de dezembro reúne memórias históricas divergentes. Em 1838, os voortrekkers derrotaram forças zulus na Batalha de Blood River/Ncome. Em 16 de dezembro de 1961 foi fundado o Umkhonto we Sizwe, braço armado do movimento contra o apartheid. Após a transição democrática, o novo governo manteve o feriado, mas passou a dedicá-lo à reconciliação. A primeira celebração com esse nome ocorreu em 16 de dezembro de 1995.",
+          "promoter": "O primeiro governo democrático sul-africano instituiu a comemoração para reconhecer ambas as histórias. As fontes consultadas não identificam um instrumento legislativo fundador específico.",
+          "purpose": "A data incentiva o enfrentamento do legado do apartheid, o reconhecimento das injustiças e a construção de uma convivência baseada na igualdade.",
+          "facts": [
+            "A data é 16 de dezembro.",
+            "A Batalha de Blood River/Ncome ocorreu em 1838.",
+            "Umkhonto we Sizwe foi fundado em 16 de dezembro de 1961.",
+            "A primeira celebração do Dia da Reconciliação ocorreu em 1995."
           ]
         }
       },
