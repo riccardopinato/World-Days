@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 35,
+  "count": 36,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2830,6 +2830,92 @@
             "A Manifestação das Velas ocorreu em Bratislava em 25 de março de 1988.",
             "Os participantes exigiam liberdade religiosa e respeito pelos direitos civis e humanos.",
             "A polícia usou bastões e canhões de água contra manifestantes pacíficos."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "sk-day-of-the-unjustly-prosecuted",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 1993,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1950,
+      "dateReason": "Anniversary of the beginning of Action K monastery raids on the night of 13–14 April 1950",
+      "dateRule": "13 April",
+      "institution": "National Council of the Slovak Republic (Act 241/1993 Coll.)",
+      "sources": [
+        "https://static.slov-lex.sk/static/SK/ZZ/1993/241/19931027.print.html",
+        "https://www.upn.gov.sk/sk/prenasledovanie-cirkvi/",
+        "https://mok.sk/kategorie_obeti/prenasledovanie-cirkvi/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Slovakia’s Day of the Unjustly Prosecuted: remembering the 1950 monastery raids",
+          "origin": "During the night of 13–14 April 1950, Czechoslovak communist security forces raided male monasteries in an operation known as Action K. Religious communities were dissolved or forcibly displaced, and many members were interned. Slovakia remembers 13 April as a warning against politically motivated persecution.",
+          "promoter": "The Slovak legislature lists 13 April among national remembrance days under Act 241/1993. The Nation’s Memory Institute documents the communist regime’s persecution of churches and religious orders.",
+          "purpose": "The day commemorates victims of unjust prosecution and encourages public scrutiny of abuses of state power.",
+          "facts": [
+            "Action K began on the night of 13–14 April 1950.",
+            "The raids targeted male religious orders and monasteries.",
+            "13 April is a Slovak national remembrance day."
+          ]
+        },
+        "it": {
+          "heading": "Giornata slovacca delle persone ingiustamente perseguitate: le incursioni del 1950",
+          "origin": "Nella notte tra il 13 e il 14 aprile 1950, le forze di sicurezza della Cecoslovacchia comunista assaltarono i monasteri maschili nell'operazione chiamata Azione K. Le comunità religiose furono sciolte o trasferite con la forza e molti membri internati. Il 13 aprile ricorda in Slovacchia i rischi della persecuzione politica.",
+          "promoter": "Il legislatore slovacco ha inserito il 13 aprile tra le giornate commemorative nazionali con la legge 241/1993. L'Istituto della memoria nazionale documenta la persecuzione delle chiese e degli ordini religiosi sotto il regime comunista.",
+          "purpose": "La ricorrenza ricorda le vittime di procedimenti ingiusti e invita a vigilare sugli abusi del potere statale.",
+          "facts": [
+            "L'Azione K iniziò nella notte tra il 13 e il 14 aprile 1950.",
+            "Le incursioni colpirono ordini religiosi maschili e monasteri.",
+            "Il 13 aprile è una giornata commemorativa nazionale slovacca."
+          ]
+        },
+        "es": {
+          "heading": "Día eslovaco de las personas injustamente perseguidas: las redadas de 1950",
+          "origin": "En la noche del 13 al 14 de abril de 1950, las fuerzas de seguridad de la Checoslovaquia comunista irrumpieron en monasterios masculinos durante la llamada Operación K. Las comunidades religiosas fueron disueltas o desplazadas por la fuerza y numerosos miembros fueron internados. Eslovaquia recuerda el 13 de abril como advertencia contra la persecución política.",
+          "promoter": "El legislador eslovaco incluyó el 13 de abril entre las jornadas nacionales de recuerdo mediante la Ley 241/1993. El Instituto de la Memoria Nacional documenta la persecución comunista de iglesias y órdenes religiosas.",
+          "purpose": "La fecha recuerda a las víctimas de procesos injustos y promueve la vigilancia ante los abusos del poder estatal.",
+          "facts": [
+            "La Operación K comenzó la noche del 13 al 14 de abril de 1950.",
+            "Las redadas afectaron a monasterios y órdenes religiosas masculinas.",
+            "El 13 de abril es una jornada nacional de recuerdo en Eslovaquia."
+          ]
+        },
+        "fr": {
+          "heading": "Journée slovaque des personnes injustement poursuivies : les raids de 1950",
+          "origin": "Dans la nuit du 13 au 14 avril 1950, les forces de sécurité de la Tchécoslovaquie communiste ont pris d'assaut des monastères masculins lors de l'opération K. Des communautés religieuses ont été dissoutes ou déplacées de force et de nombreux membres internés. En Slovaquie, le 13 avril rappelle les dangers de la persécution politique.",
+          "promoter": "Le législateur slovaque a inscrit le 13 avril parmi les journées nationales de commémoration par la loi 241/1993. L'Institut de la mémoire nationale documente la persécution des Églises et des ordres religieux sous le régime communiste.",
+          "purpose": "Cette journée honore les victimes de poursuites injustes et invite à rester vigilant face aux abus du pouvoir de l'État.",
+          "facts": [
+            "L'opération K a débuté dans la nuit du 13 au 14 avril 1950.",
+            "Les raids visaient des monastères et des ordres religieux masculins.",
+            "Le 13 avril est une journée nationale de commémoration en Slovaquie."
+          ]
+        },
+        "de": {
+          "heading": "Slowakischer Gedenktag für zu Unrecht Verfolgte: die Klosterrazzien von 1950",
+          "origin": "In der Nacht vom 13. auf den 14. April 1950 stürmten Sicherheitskräfte der kommunistischen Tschechoslowakei im Rahmen der Aktion K Männerklöster. Ordensgemeinschaften wurden aufgelöst oder gewaltsam vertrieben und zahlreiche Angehörige interniert. In der Slowakei erinnert der 13. April an die Gefahren politischer Verfolgung.",
+          "promoter": "Der slowakische Gesetzgeber erklärte den 13. April durch Gesetz 241/1993 zu einem nationalen Gedenktag. Das Institut für nationales Gedenken dokumentiert die Verfolgung von Kirchen und Ordensgemeinschaften unter dem kommunistischen Regime.",
+          "purpose": "Der Tag erinnert an Opfer ungerechter Strafverfolgung und mahnt zur Wachsamkeit gegenüber staatlichem Machtmissbrauch.",
+          "facts": [
+            "Die Aktion K begann in der Nacht vom 13. auf den 14. April 1950.",
+            "Die Razzien richteten sich gegen Männerklöster und religiöse Orden.",
+            "Der 13. April ist in der Slowakei ein nationaler Gedenktag."
+          ]
+        },
+        "pt": {
+          "heading": "Dia eslovaco das pessoas injustamente perseguidas: as operações de 1950",
+          "origin": "Na noite de 13 para 14 de abril de 1950, forças de segurança da Checoslováquia comunista invadiram mosteiros masculinos na chamada Operação K. Comunidades religiosas foram dissolvidas ou deslocadas à força e muitos dos seus membros internados. Na Eslováquia, 13 de abril recorda os perigos da perseguição política.",
+          "promoter": "O legislador eslovaco incluiu 13 de abril entre os dias nacionais de memória através da Lei 241/1993. O Instituto da Memória Nacional documenta a perseguição de igrejas e ordens religiosas pelo regime comunista.",
+          "purpose": "A data homenageia vítimas de processos injustos e incentiva a vigilância perante abusos do poder do Estado.",
+          "facts": [
+            "A Operação K começou na noite de 13 para 14 de abril de 1950.",
+            "As operações visaram mosteiros e ordens religiosas masculinas.",
+            "13 de abril é um dia nacional de memória na Eslováquia."
           ]
         }
       },
