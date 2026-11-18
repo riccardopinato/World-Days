@@ -1892,15 +1892,16 @@
     {
       "observanceId": "cz-czech-second-resistance-heroes-day",
       "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
-      "introducedYear": null,
+      "introducedYear": 2018,
       "firstObservedYear": null,
       "commemoratedEventYear": 1942,
       "dateReason": "18 June commemorates the 1942 final stand of Czechoslovak parachutists at the Prague church",
       "dateRule": "June 18",
-      "institution": "Czechoslovak resistance; exact institution of annual observance unverified",
+      "institution": "Czech Republic statutory significant day since 2018; original legislative act not yet individually checked",
       "sources": [
-        "https://www.army.cz/",
-        "https://www.vhu.cz/"
+        "https://www.vhu.cz/en/pripominka-boje-parasutistu-v-krypte-kostela-sv-cyrila-a-metodeje/",
+        "https://www.vhu.cz/muzea/ostatni-expozice/krypta/the-national-memorial-to-the-heroes-of-the-heydrich-terror/",
+        "https://www.vhu.cz/muzea/ostatni-expozice/krypta/historie-operace-anthropoid/"
       ],
       "locale": {
         "en": {
