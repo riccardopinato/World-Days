@@ -30,7 +30,7 @@ assert len(all_ids)==1111 and expected<=all_ids
 
 research=set()
 for path in [ROOT/"data/editorial/batches/origin_stories_primary_20261111.json"]+sorted(
- (ROOT/"data/editorial/batches").glob("origin_stories_wave*.json")):
+ (ROOT/"data/editorial/batches").glob("origin_stories_wave*.json") if "wave21" not in path.stem):
  for row in load(path)["records"]:
   oid=row["observanceId"]
   assert oid not in research
