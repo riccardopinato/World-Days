@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 30,
+  "count": 31,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -2400,6 +2400,92 @@
           ]
         }
       }
+    },
+    {
+      "observanceId": "ar-memory-truth-justice-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2002,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1976,
+      "dateReason": "Anniversary of the military coup of 24 March 1976; national day instituted by Law 25,633 (2002)",
+      "dateRule": "March 24",
+      "institution": "Argentine National Congress (Law 25,633 of 2002; national holiday Law 26,085 of 2006)",
+      "sources": [
+        "https://www.argentina.gob.ar/normativa/nacional/ley-25633-77081/texto",
+        "https://www.argentina.gob.ar/normativa/nacional/ley-26085-114811/texto",
+        "https://www.argentina.gob.ar/node/307245"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Argentina's Memory, Truth and Justice Day",
+          "origin": "The military coup of 24 March 1976 overthrew Argentina's constitutional government and began a dictatorship that lasted until December 1983. Congress established the annual national day in Law 25,633 in August 2002; Law 26,085 made it a national public holiday in March 2006.",
+          "promoter": "Argentina's National Congress created the observance in 2002. Human-rights organizations and public educational institutions had already worked to preserve testimony and demand accountability; the law provides for educational commemorations.",
+          "purpose": "The date honours victims of state terrorism, encourages public remembrance and supports democratic institutions, human rights and the pursuit of truth and justice.",
+          "facts": [
+            "The coup occurred on 24 March 1976.",
+            "Law 25,633 established the national remembrance day in 2002.",
+            "Law 26,085 added 24 March to the national public-holiday calendar in 2006."
+          ]
+        },
+        "it": {
+          "heading": "Argentina: Giornata della memoria, della verità e della giustizia",
+          "origin": "Il colpo di Stato militare del 24 marzo 1976 rovesciò il governo costituzionale argentino e aprì una dittatura durata fino al dicembre 1983. Il Congresso istituì la giornata nazionale con la legge 25.633 nell'agosto 2002; la legge 26.085 la rese festività nazionale nel marzo 2006.",
+          "promoter": "Il Congresso nazionale argentino istituì la ricorrenza nel 2002. Le organizzazioni per i diritti umani e le istituzioni educative avevano già lavorato per conservare testimonianze e chiedere giustizia; la legge prevede iniziative commemorative nelle scuole.",
+          "purpose": "La giornata rende omaggio alle vittime del terrorismo di Stato, promuove la memoria pubblica e sostiene la democrazia, i diritti umani e la ricerca di verità e giustizia.",
+          "facts": [
+            "Il golpe avvenne il 24 marzo 1976.",
+            "La legge 25.633 istituì la giornata nazionale nel 2002.",
+            "La legge 26.085 inserì il 24 marzo tra le festività nazionali nel 2006."
+          ]
+        },
+        "es": {
+          "heading": "Argentina: Día de la Memoria por la Verdad y la Justicia",
+          "origin": "El golpe militar del 24 de marzo de 1976 derrocó al gobierno constitucional argentino e inició una dictadura que duró hasta diciembre de 1983. El Congreso instituyó la fecha nacional mediante la Ley 25.633 en agosto de 2002; la Ley 26.085 la convirtió en feriado nacional en marzo de 2006.",
+          "promoter": "El Congreso de la Nación Argentina creó la conmemoración en 2002. Las organizaciones de derechos humanos y las instituciones educativas ya trabajaban para preservar testimonios y exigir justicia; la ley contempla jornadas escolares de memoria.",
+          "purpose": "La fecha homenajea a las víctimas del terrorismo de Estado, promueve la memoria colectiva y defiende la democracia, los derechos humanos y la búsqueda de verdad y justicia.",
+          "facts": [
+            "El golpe ocurrió el 24 de marzo de 1976.",
+            "La Ley 25.633 instituyó el día nacional en 2002.",
+            "La Ley 26.085 incorporó el 24 de marzo a los feriados nacionales en 2006."
+          ]
+        },
+        "fr": {
+          "heading": "Argentine : Journée de la mémoire, de la vérité et de la justice",
+          "origin": "Le coup d'État militaire du 24 mars 1976 renversa le gouvernement constitutionnel argentin et inaugura une dictature qui dura jusqu'en décembre 1983. Le Congrès institua cette journée nationale par la loi 25.633 en août 2002 ; la loi 26.085 en fit un jour férié national en mars 2006.",
+          "promoter": "Le Congrès national argentin créa cette commémoration en 2002. Les associations de défense des droits humains et les institutions éducatives œuvraient déjà à préserver les témoignages et à réclamer justice ; la loi prévoit des activités scolaires de mémoire.",
+          "purpose": "Cette journée rend hommage aux victimes du terrorisme d'État, entretient la mémoire collective et défend la démocratie, les droits humains et la recherche de la vérité et de la justice.",
+          "facts": [
+            "Le coup d'État eut lieu le 24 mars 1976.",
+            "La loi 25.633 institua cette journée nationale en 2002.",
+            "La loi 26.085 fit du 24 mars un jour férié national en 2006."
+          ]
+        },
+        "de": {
+          "heading": "Argentinien: Tag des Gedenkens, der Wahrheit und der Gerechtigkeit",
+          "origin": "Der Militärputsch vom 24. März 1976 stürzte Argentiniens verfassungsmäßige Regierung und leitete eine Diktatur ein, die bis Dezember 1983 dauerte. Der Kongress führte den nationalen Gedenktag im August 2002 mit Gesetz 25.633 ein; Gesetz 26.085 machte ihn im März 2006 zum landesweiten Feiertag.",
+          "promoter": "Der argentinische Nationalkongress schuf den Gedenktag 2002. Menschenrechtsorganisationen und Bildungseinrichtungen hatten bereits Zeugnisse bewahrt und Aufklärung gefordert; das Gesetz sieht Gedenkveranstaltungen an Schulen vor.",
+          "purpose": "Der Tag erinnert an die Opfer staatlichen Terrors, stärkt das öffentliche Gedächtnis und setzt sich für Demokratie, Menschenrechte sowie Wahrheit und Gerechtigkeit ein.",
+          "facts": [
+            "Der Staatsstreich fand am 24. März 1976 statt.",
+            "Gesetz 25.633 führte den nationalen Gedenktag 2002 ein.",
+            "Gesetz 26.085 erklärte den 24. März 2006 zum nationalen Feiertag."
+          ]
+        },
+        "pt": {
+          "heading": "Argentina: Dia da Memória pela Verdade e Justiça",
+          "origin": "O golpe militar de 24 de março de 1976 derrubou o governo constitucional argentino e iniciou uma ditadura que durou até dezembro de 1983. O Congresso instituiu a data nacional pela Lei 25.633 em agosto de 2002; a Lei 26.085 tornou-a feriado nacional em março de 2006.",
+          "promoter": "O Congresso Nacional argentino criou a comemoração em 2002. Organizações de direitos humanos e instituições de ensino já preservavam testemunhos e exigiam responsabilização; a lei prevê atividades escolares de memória.",
+          "purpose": "A data homenageia as vítimas do terrorismo de Estado, promove a memória coletiva e defende a democracia, os direitos humanos e a busca da verdade e da justiça.",
+          "facts": [
+            "O golpe ocorreu em 24 de março de 1976.",
+            "A Lei 25.633 instituiu a data nacional em 2002.",
+            "A Lei 26.085 incluiu 24 de março entre os feriados nacionais em 2006."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
     }
   ]
 }
