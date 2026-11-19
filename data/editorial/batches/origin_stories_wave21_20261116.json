@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 41,
+  "count": 42,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3352,6 +3352,92 @@
       "runtimeRichEditorialApproved": false,
       "humanFactualReview": "PENDING",
       "humanNativeLocaleReview": "PENDING"
+    },
+    {
+      "observanceId": "ee-restoration-of-independence-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1991,
+      "dateReason": "Anniversary of the Supreme Council resolution restoring independence on 20 August 1991",
+      "dateRule": "August 20",
+      "institution": "Supreme Council of the Republic of Estonia (1991 resolution); distinct legal founder of annual holiday unknown",
+      "sources": [
+        "https://www.riigikogu.ee/en/pressiteated/the-33rd-anniversary-of-restoration-of-independence-of-the-republic-of-estonia-was-celebrated-at-toompea/",
+        "https://www.riigikogu.ee/en/pressiteated/20-august-flag-raising-ceremony-and-free-concert-on-the-day-of-restoration-of-independence/",
+        "https://www.riigikogu.ee/en/press-releases/celebrations-of-the-30th-anniversary-of-the-restoration-of-estonias-independence-at-toompea/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Restoration of Independence Day: the decision of 20 August",
+          "origin": "On 20 August 1991, amid a Soviet coup attempt, Estonia's Supreme Council adopted a resolution restoring national independence. The vote reaffirmed the legal continuity of the republic proclaimed on 24 February 1918 rather than founding an entirely new state. The declaration followed years of civic mobilisation and was followed by renewed international recognition.",
+          "promoter": "The Supreme Council of the Republic of Estonia adopted the resolution, supported by the independence movement. The separate legal year establishing the annual public holiday has not been verified here.",
+          "purpose": "The day remembers the restoration of democratic self-government and the responsibility to protect independence.",
+          "facts": [
+            "The resolution was adopted on 20 August 1991.",
+            "The vote received 69 votes in favour.",
+            "Estonia's original independence was proclaimed on 24 February 1918."
+          ]
+        },
+        "it": {
+          "heading": "Estonia, giornata del ripristino dell'indipendenza: la decisione del 20 agosto",
+          "origin": "Il 20 agosto 1991, durante il tentativo di colpo di Stato sovietico, il Consiglio supremo estone approvò una risoluzione che ripristinava l'indipendenza nazionale. Il voto riaffermò la continuità giuridica della repubblica proclamata il 24 febbraio 1918, anziché fondare uno Stato del tutto nuovo. La decisione seguì anni di mobilitazione civile e precedette il rinnovato riconoscimento internazionale.",
+          "promoter": "La risoluzione fu adottata dal Consiglio supremo della Repubblica d'Estonia, nel contesto del movimento per l'indipendenza. Non è qui verificato l'anno della distinta istituzione legale della festività annuale.",
+          "purpose": "La ricorrenza ricorda il ritorno all'autogoverno democratico e la responsabilità di difendere l'indipendenza.",
+          "facts": [
+            "La risoluzione fu approvata il 20 agosto 1991.",
+            "I voti favorevoli furono 69.",
+            "L'indipendenza originaria era stata proclamata il 24 febbraio 1918."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Restauración de la Independencia de Estonia: la decisión del 20 de agosto",
+          "origin": "El 20 de agosto de 1991, durante el intento de golpe de Estado soviético, el Consejo Supremo estonio aprobó una resolución que restauró la independencia nacional. La votación reafirmó la continuidad jurídica de la república proclamada el 24 de febrero de 1918, en lugar de fundar un Estado nuevo. La decisión llegó tras años de movilización ciudadana y precedió al renovado reconocimiento internacional.",
+          "promoter": "El Consejo Supremo de la República de Estonia adoptó la resolución, en el contexto del movimiento independentista. No se ha verificado aquí el año de la norma distinta que estableció la festividad anual.",
+          "purpose": "La fecha recuerda la recuperación del autogobierno democrático y la responsabilidad de proteger la independencia.",
+          "facts": [
+            "La resolución se aprobó el 20 de agosto de 1991.",
+            "Recibió 69 votos favorables.",
+            "La independencia original se proclamó el 24 de febrero de 1918."
+          ]
+        },
+        "fr": {
+          "heading": "Journée du rétablissement de l'indépendance de l'Estonie : la décision du 20 août",
+          "origin": "Le 20 août 1991, pendant la tentative de coup d'État soviétique, le Conseil suprême estonien adopta une résolution rétablissant l'indépendance nationale. Le vote réaffirma la continuité juridique de la république proclamée le 24 février 1918, plutôt que de créer un nouvel État. Cette décision suivit des années de mobilisation citoyenne et précéda une nouvelle reconnaissance internationale.",
+          "promoter": "Le Conseil suprême de la République d'Estonie adopta la résolution dans le contexte du mouvement indépendantiste. L'année d'une éventuelle loi distincte instituant le jour férié annuel n'est pas vérifiée ici.",
+          "purpose": "La journée rappelle le retour à l'autonomie démocratique et la nécessité de préserver l'indépendance.",
+          "facts": [
+            "La résolution fut adoptée le 20 août 1991.",
+            "Elle recueillit 69 voix favorables.",
+            "L'indépendance initiale avait été proclamée le 24 février 1918."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Tag der Wiedererlangung der Unabhängigkeit: die Entscheidung vom 20. August",
+          "origin": "Am 20. August 1991 verabschiedete der Oberste Rat Estlands während des sowjetischen Putschversuchs einen Beschluss zur Wiederherstellung der staatlichen Unabhängigkeit. Die Abstimmung bekräftigte die rechtliche Kontinuität der am 24. Februar 1918 ausgerufenen Republik, statt einen völlig neuen Staat zu gründen. Der Entscheidung gingen Jahre bürgerschaftlicher Mobilisierung voraus; internationale Anerkennung folgte.",
+          "promoter": "Der Oberste Rat der Republik Estland fasste den Beschluss im Umfeld der Unabhängigkeitsbewegung. Das Jahr einer gesonderten gesetzlichen Einführung des jährlichen Feiertags ist hier nicht belegt.",
+          "purpose": "Der Gedenktag erinnert an die Rückgewinnung demokratischer Selbstbestimmung und die Verantwortung, Unabhängigkeit zu bewahren.",
+          "facts": [
+            "Der Beschluss wurde am 20. August 1991 gefasst.",
+            "69 Abgeordnete stimmten dafür.",
+            "Die ursprüngliche Unabhängigkeit wurde am 24. Februar 1918 ausgerufen."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Restauração da Independência da Estónia: a decisão de 20 de agosto",
+          "origin": "Em 20 de agosto de 1991, durante a tentativa de golpe soviético, o Conselho Supremo estónio aprovou uma resolução que restaurou a independência nacional. A votação reafirmou a continuidade jurídica da república proclamada em 24 de fevereiro de 1918, em vez de fundar um Estado inteiramente novo. A decisão sucedeu a anos de mobilização cívica e antecedeu novo reconhecimento internacional.",
+          "promoter": "O Conselho Supremo da República da Estónia adotou a resolução no contexto do movimento de independência. Não foi verificado aqui o ano de eventual lei distinta que instituiu o feriado anual.",
+          "purpose": "A data recorda a recuperação do autogoverno democrático e a responsabilidade de preservar a independência.",
+          "facts": [
+            "A resolução foi aprovada em 20 de agosto de 1991.",
+            "Recebeu 69 votos favoráveis.",
+            "A independência original foi proclamada em 24 de fevereiro de 1918."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
     }
   ]
 }
