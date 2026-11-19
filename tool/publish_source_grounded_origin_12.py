@@ -76,8 +76,8 @@ def main():
   assert sum(r["status"]==ORIGIN_STATUS for r in entries)==107
   assert sum(r["status"]==CONTEXT_STATUS for r in entries)==592
   path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
- report={"catalog":1111,"localeCount":6,"sourceGroundedExisting":507,
-         "newIndividualSourceGrounded":12,"sourceGroundedNow":519,
+ report={"catalog":1111,"localeCount":6,"existingNonContextualEditorial":507,
+         "newIndividualSourceGrounded":12,"nonContextualEditorialNow":519,
          "contextualStillAwaitingOrigin":592,"noEditorialLocale":0,
          "qualifiedSourceYearBefore":12,"sourceIds":sorted(rows)}
  out=ROOT/"reports/fasttrack_parallel_604/origin_enrichment_12.json"
