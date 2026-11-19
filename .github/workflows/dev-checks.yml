@@ -114,6 +114,7 @@ jobs:
           python3 tool/validate_royal11_and_title213.py
           python3 tool/apply_remaining_103_market_titles.py
           python3 tool/validate_remaining_103_titles.py
+          python3 tool/audit_final_title_fallbacks.py
           python3 tool/queue_curated_428_origins.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
