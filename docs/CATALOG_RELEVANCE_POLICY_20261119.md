@@ -30,3 +30,8 @@ A record can have complete EN/IT/ES/FR/DE/PT descriptive coverage and still have
 - All six editorial locale packs retain 958 entries, while 519 prior richer editorial entries are preserved; **439 records remain contextual** and require further original event/founding research, not translation completion.
 - Strict product QA and CI gates assert ID parity, real source pointers, absence of excluded IDs in active calendar, and no accidental loss of prior richer articles.
 
+
+### Second screening pass: individual royal flag-calendar dates
+- Six Swedish royal individual birthday/name-day flag dates and five Norwegian royal birthdays are retained **only as archived source identities**; they are not published as thematic World Days observances. This does **not** mean their original governmental calendars are invalid: they are real flag-protocol dates, simply outside this app's product scope.
+- Total consumer exclusions **164** out of 1,111 original source candidates. Published catalog **947**. The archive is reversible, with documented source and ID. Fully fledged national holidays, even where person-named, remain in scope.
+- Separate responsibility: six-language **editorial text completeness** for 947 records versus five target-language **display-title localization**. This release provides 1,280 additional curated title strings across 256 national and thematic items; remaining English fallback titles are tracked separately.
