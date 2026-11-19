@@ -13,7 +13,22 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d|s\b)")  # ignore decades: 1940s != 1940
+YEARS = re.compile(r"(?<!\\d)(?:1[5-9]\\d{2}|20\\d{2})(?!\\d|s\\b|er\\b|er-)")
+DECADE_BEFORE = re.compile(
+    r"(?:\\b(?:anni|années|annees|años|anos|década|decada|décennie|decennie|"
+    r"jahrzehnt|jahre|decade)\\s+(?:(?:de|del|di|dos|des|of|the)\\s+)?)$",
+    re.IGNORECASE,
+)
+
+def exact_years(text: str) -> set[str]:
+    """Exclude decade ranges (1940s/1940er/anni 1940), not exact calendar years."""
+    result = set()
+    for match in YEARS.finditer(text):
+        preceding = text[max(0, match.start()-45):match.start()]
+        if DECADE_BEFORE.search(preceding):
+            continue
+        result.add(match.group())
+    return result
 
 def flattened_strings(value: object) -> str:
     if isinstance(value, dict):
@@ -34,7 +49,7 @@ def triage(payload: dict) -> dict:
     for record in payload["records"]:
         rid = record["id"]
         source = flattened_strings(record["source"])
-        source_years = set(YEARS.findall(source))
+        source_years = exact_years(source)
         refs = record.get("sourceRefs")
         if not isinstance(refs, list) or not refs:
             findings.append({"id": rid, "locale": "*",
@@ -52,7 +67,7 @@ def triage(payload: dict) -> dict:
                                  "sourceYears": sorted(source_years),
                                  "targetYears": [], "evidence": "No translation record"})
                 continue
-            target_years = set(YEARS.findall(flattened_strings(target)))
+            target_years = exact_years(flattened_strings(target))
             missing = sorted(source_years-target_years)
             extra = sorted(target_years-source_years)
             if missing:
