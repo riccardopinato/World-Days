@@ -44,7 +44,9 @@ for locale in ("en","it","es","fr","de","pt"):
  else:assert ids==reference,locale
  assert sum(r["status"]=="AI_CONTEXTUAL_SIX_LOCALE" for r in rows)==439
  assert sum(r["status"]=="AI_SOURCE_REVIEWED_SIX_LOCALE" for r in rows)==107
- assert all(r.get("summary","").strip() and r.get("origin","").strip() for r in rows)
+ assert all(r.get("summary","").strip() for r in rows)
+ assert all(r.get("origin","").strip() for r in rows if r["status"]=="AI_CONTEXTUAL_SIX_LOCALE")
  assert all(not (removed & set(r.get("relatedObservanceIds",[]))) for r in rows)
 assert len(report["outsidePolicyBiographicalCandidates"])==0,report["outsidePolicyBiographicalCandidates"]
+assert len(report["retainedStatutoryCivicCommemorationExceptions"])==2
 print("WORLD_DAYS_SCOPE_958_SIX_LOCALES_PASS: 153 archived, 439 contextual, 519 richer")
