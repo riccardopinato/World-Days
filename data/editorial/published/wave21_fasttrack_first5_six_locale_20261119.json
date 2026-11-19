@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "status": "AI_REVIEWED_READY_FOR_APP_IMPORT",
+  "checkedOn": "2026-11-19",
+  "sourceBaseline": "d21a56fb195a15ca6588ebc4c53f7cdf2d13eb3d",
+  "sourceType": "INSTITUTIONAL_ORIGINATOR_EVIDENCE_SIX_LOCALE",
+  "count": 5,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "mexico-constitution-day",
+      "introducedYear": 1917,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.gob.mx/defensa/documentos/5-de-febrero-aniversario-de-la-promulgacion-de-la-constitucion-de-1917"
+      ],
+      "locale": {
+        "en": {
+          "heading": "5 February: Mexico's 1917 Constitution",
+          "origin": "On 5 February 1917, Mexico promulgated a new Constitution at Querétaro after the Mexican Revolution. The Constituent Congress, convened under Venustiano Carranza, built upon the 1857 charter and addressed rights and the country's political and social order. The text took effect on 1 May 1917. Constitution Day recalls the promulgation, not the later effective date.",
+          "promoter": "The Constituent Congress and Venustiano Carranza shaped the 1917 constitutional process.",
+          "purpose": "Remember the constitutional foundations of the republic and the social demands of the Revolution.",
+          "facts": [
+            "The charter was promulgated in Querétaro on 5 February 1917.",
+            "It came into force on 1 May 1917.",
+            "Its drafting followed the Mexican Revolution."
+          ]
+        },
+        "it": {
+          "heading": "5 febbraio: la Costituzione messicana del 1917",
+          "origin": "Il 5 febbraio 1917 il Messico promulgò a Querétaro una nuova Costituzione dopo la Rivoluzione messicana. Il Congresso costituente, convocato sotto Venustiano Carranza, rielaborò il testo del 1857 e affrontò diritti e ordinamento politico e sociale. La Carta entrò in vigore il 1º maggio 1917: la giornata ricorda la promulgazione, non l'entrata in vigore.",
+          "promoter": "Il Congresso costituente e Venustiano Carranza furono protagonisti del processo.",
+          "purpose": "Ricordare le basi costituzionali della repubblica e le rivendicazioni sociali della Rivoluzione.",
+          "facts": [
+            "La Carta fu promulgata a Querétaro il 5 febbraio 1917.",
+            "Entrò in vigore il 1º maggio 1917.",
+            "La stesura seguì la Rivoluzione messicana."
+          ]
+        },
+        "es": {
+          "heading": "5 de febrero: la Constitución mexicana de 1917",
+          "origin": "El 5 de febrero de 1917 México promulgó en Querétaro una nueva Constitución tras la Revolución mexicana. El Congreso Constituyente, convocado bajo Venustiano Carranza, reformuló la carta de 1857 y abordó derechos y organización política y social. El texto entró en vigor el 1 de mayo de 1917. La fecha recuerda su promulgación, no su entrada en vigor.",
+          "promoter": "El Congreso Constituyente y Venustiano Carranza impulsaron el proceso constitucional.",
+          "purpose": "Recordar las bases constitucionales de la república y las demandas sociales revolucionarias.",
+          "facts": [
+            "La Constitución fue promulgada en Querétaro el 5 de febrero de 1917.",
+            "Entró en vigor el 1 de mayo de 1917.",
+            "Su elaboración siguió a la Revolución mexicana."
+          ]
+        },
+        "fr": {
+          "heading": "5 février : la Constitution mexicaine de 1917",
+          "origin": "Le 5 février 1917, le Mexique promulgua à Querétaro une nouvelle Constitution après la Révolution mexicaine. Le Congrès constituant, convoqué sous Venustiano Carranza, reprit la charte de 1857 et traita des droits ainsi que de l'organisation politique et sociale. Le texte entra en vigueur le 1er mai 1917. La journée rappelle sa promulgation et non son entrée en vigueur.",
+          "promoter": "Le Congrès constituant et Venustiano Carranza ont porté le processus constitutionnel.",
+          "purpose": "Rappeler les fondements constitutionnels de la république et les revendications sociales de la Révolution.",
+          "facts": [
+            "La Constitution fut promulguée à Querétaro le 5 février 1917.",
+            "Elle entra en vigueur le 1er mai 1917.",
+            "Sa rédaction suivit la Révolution mexicaine."
+          ]
+        },
+        "de": {
+          "heading": "5. Februar: Mexikos Verfassung von 1917",
+          "origin": "Am 5. Februar 1917 verkündete Mexiko in Querétaro nach der Mexikanischen Revolution eine neue Verfassung. Der unter Venustiano Carranza einberufene Verfassungskongress knüpfte an die Verfassung von 1857 an und behandelte Rechte sowie die politische und soziale Ordnung. Die neue Verfassung trat am 1. Mai 1917 in Kraft. Der Gedenktag erinnert an ihre Verkündung.",
+          "promoter": "Der Verfassungskongress und Venustiano Carranza prägten den Verfassungsprozess.",
+          "purpose": "An die verfassungsrechtlichen Grundlagen der Republik und soziale Forderungen der Revolution erinnern.",
+          "facts": [
+            "Die Verfassung wurde am 5. Februar 1917 in Querétaro verkündet.",
+            "Sie trat am 1. Mai 1917 in Kraft.",
+            "Ihre Ausarbeitung folgte der Mexikanischen Revolution."
+          ]
+        },
+        "pt": {
+          "heading": "5 de fevereiro: a Constituição mexicana de 1917",
+          "origin": "Em 5 de fevereiro de 1917, o México promulgou uma nova Constituição em Querétaro após a Revolução Mexicana. O Congresso Constituinte, convocado sob Venustiano Carranza, reformulou a carta de 1857 e abordou direitos e organização política e social. O texto entrou em vigor em 1º de maio de 1917. A data recorda a promulgação, não a entrada em vigor.",
+          "promoter": "O Congresso Constituinte e Venustiano Carranza conduziram o processo constitucional.",
+          "purpose": "Recordar as bases constitucionais da república e as reivindicações sociais da Revolução.",
+          "facts": [
+            "A Constituição foi promulgada em Querétaro em 5 de fevereiro de 1917.",
+            "Entrou em vigor em 1º de maio de 1917.",
+            "Sua elaboração ocorreu após a Revolução Mexicana."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "no-constitution-day",
+      "introducedYear": 1814,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.stortinget.no/en/in-english/about-the-storting/historical-highlights/milestones-in-norways-democratic-history/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "17 May: Norway's Constitution and national day",
+          "origin": "On 17 May 1814 the constituent assembly at Eidsvoll adopted Norway's Constitution as the country sought greater independence after the Napoleonic wars. The delegates also elected Christian Frederik king. The Constitution was revised in November 1814 to accommodate a union with Sweden, but 17 May remained the central constitutional anniversary and later became Norway's national celebration.",
+          "promoter": "The elected constituent assembly at Eidsvoll adopted the Constitution.",
+          "purpose": "Celebrate Norway's constitutional tradition, democracy and national identity.",
+          "facts": [
+            "The Constitution dates from 17 May 1814.",
+            "The assembly met at Eidsvoll.",
+            "A revised text followed in November 1814 during the union with Sweden."
+          ]
+        },
+        "it": {
+          "heading": "17 maggio: la Costituzione e la festa nazionale norvegese",
+          "origin": "Il 17 maggio 1814 l'assemblea costituente riunita a Eidsvoll adottò la Costituzione norvegese mentre il paese cercava maggiore indipendenza dopo le guerre napoleoniche. I delegati elessero anche Christian Frederik re. Nel novembre 1814 la Carta fu rivista per adattarla all'unione con la Svezia, ma il 17 maggio rimase l'anniversario costituzionale e divenne la principale festa nazionale.",
+          "promoter": "La Costituzione fu adottata dall'assemblea costituente di Eidsvoll.",
+          "purpose": "Celebrare la tradizione costituzionale, la democrazia e l'identità norvegese.",
+          "facts": [
+            "La Costituzione risale al 17 maggio 1814.",
+            "L'assemblea si riunì a Eidsvoll.",
+            "Una revisione seguì nel novembre 1814 durante l'unione con la Svezia."
+          ]
+        },
+        "es": {
+          "heading": "17 de mayo: la Constitución y fiesta nacional de Noruega",
+          "origin": "El 17 de mayo de 1814 la asamblea constituyente reunida en Eidsvoll adoptó la Constitución de Noruega mientras el país buscaba mayor independencia tras las guerras napoleónicas. Los delegados también eligieron rey a Christian Frederik. En noviembre de 1814 el texto se revisó para adaptarlo a la unión con Suecia, pero el 17 de mayo siguió siendo el aniversario constitucional y acabó siendo la fiesta nacional.",
+          "promoter": "La asamblea constituyente reunida en Eidsvoll aprobó la Constitución.",
+          "purpose": "Celebrar la tradición constitucional, la democracia y la identidad noruega.",
+          "facts": [
+            "La Constitución fue aprobada el 17 de mayo de 1814.",
+            "La asamblea se reunió en Eidsvoll.",
+            "Hubo una revisión en noviembre de 1814 por la unión con Suecia."
+          ]
+        },
+        "fr": {
+          "heading": "17 mai : la Constitution et la fête nationale norvégienne",
+          "origin": "Le 17 mai 1814, l'assemblée constituante réunie à Eidsvoll adopta la Constitution norvégienne alors que le pays cherchait davantage d'indépendance après les guerres napoléoniennes. Les délégués élurent aussi Christian Frederik roi. Le texte fut révisé en novembre 1814 pour s'adapter à l'union avec la Suède, mais le 17 mai resta l'anniversaire constitutionnel et devint la fête nationale.",
+          "promoter": "L'assemblée constituante réunie à Eidsvoll a adopté la Constitution.",
+          "purpose": "Célébrer la tradition constitutionnelle, la démocratie et l'identité norvégienne.",
+          "facts": [
+            "La Constitution fut adoptée le 17 mai 1814.",
+            "L'assemblée siégea à Eidsvoll.",
+            "Une révision intervint en novembre 1814 dans le cadre de l'union avec la Suède."
+          ]
+        },
+        "de": {
+          "heading": "17. Mai: Norwegens Verfassung und Nationalfeiertag",
+          "origin": "Am 17. Mai 1814 verabschiedete die verfassunggebende Versammlung in Eidsvoll Norwegens Verfassung, während das Land nach den Napoleonischen Kriegen größere Unabhängigkeit anstrebte. Die Abgeordneten wählten auch Christian Frederik zum König. Im November 1814 wurde der Text für die Union mit Schweden überarbeitet. Der 17. Mai blieb dennoch Verfassungsjubiläum und wurde zum Nationalfeiertag.",
+          "promoter": "Die verfassunggebende Versammlung in Eidsvoll verabschiedete die Verfassung.",
+          "purpose": "Norwegens Verfassungstradition, Demokratie und nationale Identität würdigen.",
+          "facts": [
+            "Die Verfassung wurde am 17. Mai 1814 verabschiedet.",
+            "Die Versammlung tagte in Eidsvoll.",
+            "Im November 1814 folgte eine Überarbeitung für die Union mit Schweden."
+          ]
+        },
+        "pt": {
+          "heading": "17 de maio: a Constituição e a festa nacional da Noruega",
+          "origin": "Em 17 de maio de 1814, a Assembleia Constituinte reunida em Eidsvoll adotou a Constituição norueguesa enquanto o país procurava maior independência após as guerras napoleónicas. Os delegados também elegeram Christian Frederik como rei. O texto foi revisto em novembro de 1814 para acomodar a união com a Suécia, mas 17 de maio permaneceu o aniversário constitucional e tornou-se a festa nacional.",
+          "promoter": "A Assembleia Constituinte de Eidsvoll adotou a Constituição.",
+          "purpose": "Celebrar a tradição constitucional, a democracia e a identidade norueguesa.",
+          "facts": [
+            "A Constituição foi adotada em 17 de maio de 1814.",
+            "A assembleia reuniu-se em Eidsvoll.",
+            "Houve uma revisão em novembro de 1814 durante a união com a Suécia."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "constitution-day-spain",
+      "introducedYear": 1978,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.senado.es/web/conocersenado/normas/constitucion/index.html?lang=en"
+      ],
+      "locale": {
+        "en": {
+          "heading": "6 December: Spain votes on its Constitution",
+          "origin": "On 6 December 1978 Spanish voters approved a new democratic Constitution in a referendum during the transition after Franco's dictatorship. Parliament had approved the text on 31 October, and King Juan Carlos I sanctioned it on 27 December before publication on 29 December. Constitution Day honours the referendum that established public endorsement of Spain's constitutional democracy.",
+          "promoter": "The Cortes Generales approved the text and Spanish voters ratified it.",
+          "purpose": "Remember the democratic transition, constitutional rights and pluralism.",
+          "facts": [
+            "The referendum took place on 6 December 1978.",
+            "Parliament approved the text on 31 October 1978.",
+            "The Constitution was sanctioned on 27 December 1978."
+          ]
+        },
+        "it": {
+          "heading": "6 dicembre: la Spagna vota la Costituzione",
+          "origin": "Il 6 dicembre 1978 gli elettori spagnoli approvarono con referendum una nuova Costituzione democratica durante la transizione successiva alla dittatura franchista. Il Parlamento aveva approvato il testo il 31 ottobre; re Juan Carlos I lo sancì il 27 dicembre, prima della pubblicazione del 29 dicembre. La giornata ricorda il voto popolare che diede legittimazione alla democrazia costituzionale.",
+          "promoter": "Le Cortes Generales approvarono il testo, ratificato dagli elettori spagnoli.",
+          "purpose": "Ricordare la transizione democratica, i diritti costituzionali e il pluralismo.",
+          "facts": [
+            "Il referendum si tenne il 6 dicembre 1978.",
+            "Il Parlamento approvò il testo il 31 ottobre 1978.",
+            "La Costituzione fu sancita il 27 dicembre 1978."
+          ]
+        },
+        "es": {
+          "heading": "6 de diciembre: España vota su Constitución",
+          "origin": "El 6 de diciembre de 1978 los ciudadanos españoles aprobaron en referéndum una nueva Constitución democrática durante la transición tras la dictadura franquista. Las Cortes Generales habían aprobado el texto el 31 de octubre; el rey Juan Carlos I lo sancionó el 27 de diciembre y fue publicado el 29 de diciembre. El Día de la Constitución recuerda el respaldo popular al nuevo marco democrático.",
+          "promoter": "Las Cortes Generales aprobaron el texto y la ciudadanía lo ratificó.",
+          "purpose": "Recordar la transición democrática, los derechos constitucionales y el pluralismo.",
+          "facts": [
+            "El referéndum se celebró el 6 de diciembre de 1978.",
+            "Las Cortes aprobaron el texto el 31 de octubre de 1978.",
+            "La Constitución fue sancionada el 27 de diciembre de 1978."
+          ]
+        },
+        "fr": {
+          "heading": "6 décembre : l'Espagne vote sa Constitution",
+          "origin": "Le 6 décembre 1978, les Espagnols approuvèrent par référendum une nouvelle Constitution démocratique pendant la transition après la dictature franquiste. Les Cortes Generales avaient adopté le texte le 31 octobre; le roi Juan Carlos Ier le sanctionna le 27 décembre, avant sa publication le 29 décembre. La journée commémore l'approbation populaire du nouveau cadre démocratique.",
+          "promoter": "Les Cortes Generales ont adopté le texte et les électeurs l'ont ratifié.",
+          "purpose": "Rappeler la transition démocratique, les droits constitutionnels et le pluralisme.",
+          "facts": [
+            "Le référendum eut lieu le 6 décembre 1978.",
+            "Le Parlement avait adopté le texte le 31 octobre 1978.",
+            "La Constitution fut sanctionnée le 27 décembre 1978."
+          ]
+        },
+        "de": {
+          "heading": "6. Dezember: Spanien stimmt über die Verfassung ab",
+          "origin": "Am 6. Dezember 1978 billigten die spanischen Wähler in einem Referendum eine neue demokratische Verfassung während des Übergangs nach der Franco-Diktatur. Die Cortes Generales hatten den Text am 31. Oktober verabschiedet; König Juan Carlos I. bestätigte ihn am 27. Dezember vor der Veröffentlichung am 29. Dezember. Der Verfassungstag erinnert an die demokratische Zustimmung durch die Bevölkerung.",
+          "promoter": "Die Cortes Generales verabschiedeten den Text, die Wähler ratifizierten ihn.",
+          "purpose": "An den demokratischen Übergang, Verfassungsrechte und Pluralismus erinnern.",
+          "facts": [
+            "Das Referendum fand am 6. Dezember 1978 statt.",
+            "Das Parlament billigte den Text am 31. Oktober 1978.",
+            "Die Verfassung wurde am 27. Dezember 1978 bestätigt."
+          ]
+        },
+        "pt": {
+          "heading": "6 de dezembro: Espanha vota a sua Constituição",
+          "origin": "Em 6 de dezembro de 1978, os eleitores espanhóis aprovaram em referendo uma nova Constituição democrática durante a transição após a ditadura franquista. As Cortes Generales tinham aprovado o texto em 31 de outubro; o rei Juan Carlos I sancionou-o em 27 de dezembro, antes da publicação em 29 de dezembro. O Dia da Constituição recorda o apoio popular ao novo quadro democrático.",
+          "promoter": "As Cortes Generales aprovaram o texto e os eleitores ratificaram-no.",
+          "purpose": "Recordar a transição democrática, os direitos constitucionais e o pluralismo.",
+          "facts": [
+            "O referendo realizou-se em 6 de dezembro de 1978.",
+            "O Parlamento aprovou o texto em 31 de outubro de 1978.",
+            "A Constituição foi sancionada em 27 de dezembro de 1978."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "pl-constitution-day",
+      "introducedYear": 1791,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.gov.pl/web/diplomacy/229th-anniversary-of-the-constitution-of-3-may"
+      ],
+      "locale": {
+        "en": {
+          "heading": "3 May: Poland's historic Constitution",
+          "origin": "On 3 May 1791, the Great Sejm adopted a landmark Constitution in Warsaw for the Polish-Lithuanian Commonwealth. The reform sought to strengthen the state and its institutions during a period of political crisis. Poland later made 3 May a national holiday in 1919; remembrance faced restrictions under communist rule and was restored after the democratic transition. The anniversary refers to the 1791 act, distinct from later holiday legislation.",
+          "promoter": "The Great Sejm adopted the Constitution; King Stanisław August and reformers helped shape it.",
+          "purpose": "Celebrate constitutional reform, self-government and Poland's historical independence.",
+          "facts": [
+            "The Constitution was adopted in Warsaw on 3 May 1791.",
+            "The public holiday was established in 1919.",
+            "Its commemoration was restricted during communist rule."
+          ]
+        },
+        "it": {
+          "heading": "3 maggio: la storica Costituzione polacca",
+          "origin": "Il 3 maggio 1791 il Grande Sejm adottò a Varsavia una Costituzione innovativa per la Confederazione polacco-lituana. La riforma voleva rafforzare lo Stato e le istituzioni in un periodo di crisi politica. La Polonia istituì il 3 maggio come festa nazionale nel 1919; la celebrazione subì restrizioni durante il regime comunista e fu ripristinata dopo la transizione democratica. L'anniversario richiama l'atto del 1791, non la legge festiva successiva.",
+          "promoter": "Il Grande Sejm approvò la Carta, sostenuta da Stanislao Augusto e dai riformatori.",
+          "purpose": "Celebrare le riforme costituzionali, l'autogoverno e l'indipendenza storica polacca.",
+          "facts": [
+            "La Costituzione fu adottata a Varsavia il 3 maggio 1791.",
+            "La festa nazionale fu istituita nel 1919.",
+            "La sua celebrazione fu limitata durante il regime comunista."
+          ]
+        },
+        "es": {
+          "heading": "3 de mayo: la histórica Constitución polaca",
+          "origin": "El 3 de mayo de 1791 el Gran Sejm aprobó en Varsovia una Constitución reformista para la Mancomunidad polaco-lituana. La reforma pretendía fortalecer el Estado y sus instituciones durante una crisis política. Polonia convirtió el 3 de mayo en fiesta nacional en 1919; su conmemoración sufrió restricciones bajo el régimen comunista y se recuperó tras la transición democrática. El aniversario recuerda el acto de 1791, no la posterior ley festiva.",
+          "promoter": "El Gran Sejm aprobó la Constitución, impulsada por Estanislao Augusto y reformadores.",
+          "purpose": "Celebrar la reforma constitucional, el autogobierno y la independencia histórica polaca.",
+          "facts": [
+            "La Constitución fue aprobada en Varsovia el 3 de mayo de 1791.",
+            "La fiesta nacional se estableció en 1919.",
+            "La celebración se restringió durante el régimen comunista."
+          ]
+        },
+        "fr": {
+          "heading": "3 mai : la Constitution historique de la Pologne",
+          "origin": "Le 3 mai 1791, la Grande Diète adopta à Varsovie une Constitution réformatrice pour la République des Deux Nations. Cette réforme cherchait à renforcer l'État et ses institutions dans un contexte de crise politique. La Pologne fit du 3 mai une fête nationale en 1919; sa célébration fut restreinte sous le régime communiste avant d'être rétablie après la transition démocratique. L'anniversaire renvoie à l'acte de 1791 et non à une loi festive ultérieure.",
+          "promoter": "La Grande Diète adopta la Constitution avec l'appui de Stanislas Auguste et de réformateurs.",
+          "purpose": "Célébrer les réformes constitutionnelles, l'autonomie politique et l'indépendance historique.",
+          "facts": [
+            "La Constitution fut adoptée à Varsovie le 3 mai 1791.",
+            "La fête nationale fut instaurée en 1919.",
+            "Sa célébration fut restreinte sous le régime communiste."
+          ]
+        },
+        "de": {
+          "heading": "3. Mai: Polens historische Verfassung",
+          "origin": "Am 3. Mai 1791 verabschiedete der Große Sejm in Warschau eine wegweisende Verfassung für Polen-Litauen. Die Reform sollte Staat und Institutionen in einer politischen Krise stärken. Polen erklärte den 3. Mai 1919 zum nationalen Feiertag; unter kommunistischer Herrschaft war das Gedenken eingeschränkt und wurde nach dem demokratischen Wandel wieder aufgenommen. Das Jubiläum erinnert an die Verfassung von 1791, nicht an das spätere Feiertagsgesetz.",
+          "promoter": "Der Große Sejm verabschiedete die Verfassung; Stanisław August und Reformer wirkten daran mit.",
+          "purpose": "Verfassungsreformen, Selbstbestimmung und Polens historische Unabhängigkeit würdigen.",
+          "facts": [
+            "Die Verfassung wurde am 3. Mai 1791 in Warschau verabschiedet.",
+            "Der Feiertag wurde 1919 eingeführt.",
+            "Unter kommunistischer Herrschaft war das Gedenken eingeschränkt."
+          ]
+        },
+        "pt": {
+          "heading": "3 de maio: a Constituição histórica da Polónia",
+          "origin": "Em 3 de maio de 1791, o Grande Sejm adotou em Varsóvia uma Constituição reformadora para a Comunidade Polaco-Lituana. A reforma procurava fortalecer o Estado e as instituições durante uma crise política. A Polónia tornou 3 de maio feriado nacional em 1919; a comemoração sofreu restrições durante o regime comunista e foi retomada após a transição democrática. O aniversário recorda o ato de 1791, não a legislação festiva posterior.",
+          "promoter": "O Grande Sejm aprovou a Constituição, com apoio de Estanislau Augusto e reformadores.",
+          "purpose": "Celebrar a reforma constitucional, a autonomia política e a independência histórica.",
+          "facts": [
+            "A Constituição foi aprovada em Varsóvia em 3 de maio de 1791.",
+            "O feriado nacional foi instituído em 1919.",
+            "A comemoração foi restringida durante o regime comunista."
+          ]
+        }
+      }
+    },
+    {
+      "observanceId": "hr-statehood-day",
+      "introducedYear": 1990,
+      "firstObservedYear": null,
+      "sources": [
+        "https://www.sabor.hr/index.php/en/about-parliament/history/important-dates/30-may-statehood-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "30 May: Croatia's Statehood Day",
+          "origin": "Croatia's Statehood Day on 30 May remembers the first sitting of its democratically elected multiparty Parliament in 1990. That event marked a political transition, not the same date as the independence decisions of 1991. The holiday calendar changed over time: legislation adopted in 2019 restored 30 May as Statehood Day from 2020, while 25 June became a distinct Independence Day observance.",
+          "promoter": "The Croatian Parliament's democratic formation is commemorated; lawmakers later defined the holiday date.",
+          "purpose": "Remember democratic representation and the development of Croatian statehood.",
+          "facts": [
+            "The multiparty Parliament first convened on 30 May 1990.",
+            "A 2019 law restored the 30 May holiday from 2020.",
+            "The key independence decisions occurred separately in 1991."
+          ]
+        },
+        "it": {
+          "heading": "30 maggio: la Festa della statualità croata",
+          "origin": "Il 30 maggio la Croazia ricorda la prima seduta del Parlamento multipartitico eletto democraticamente nel 1990. Fu una tappa della transizione politica, distinta dalle decisioni sull'indipendenza del 1991. Il calendario delle festività cambiò più volte: una legge del 2019 ripristinò il 30 maggio come Festa della statualità a partire dal 2020, mentre il 25 giugno divenne una distinta ricorrenza dell'indipendenza.",
+          "promoter": "La formazione del Parlamento democratico è il fatto celebrato; il legislatore fissò poi la festa.",
+          "purpose": "Ricordare la rappresentanza democratica e la costruzione dello Stato croato.",
+          "facts": [
+            "Il Parlamento multipartitico si riunì il 30 maggio 1990.",
+            "Una legge del 2019 ripristinò la festa dal 2020.",
+            "Le decisioni sull'indipendenza risalgono separatamente al 1991."
+          ]
+        },
+        "es": {
+          "heading": "30 de mayo: Día de la Estatalidad de Croacia",
+          "origin": "El 30 de mayo Croacia recuerda la primera sesión de su Parlamento multipartidista elegido democráticamente en 1990. Fue un hito de transición política, distinto de las decisiones de independencia de 1991. El calendario festivo cambió varias veces: una ley de 2019 restableció el 30 de mayo como Día de la Estatalidad desde 2020, mientras el 25 de junio pasó a conmemorarse como Día de la Independencia.",
+          "promoter": "Se conmemora la formación democrática del Parlamento croata; la ley estableció posteriormente la fiesta.",
+          "purpose": "Recordar la representación democrática y la evolución del Estado croata.",
+          "facts": [
+            "El Parlamento multipartidista se reunió el 30 de mayo de 1990.",
+            "La ley de 2019 restableció la fiesta desde 2020.",
+            "Las decisiones de independencia se adoptaron por separado en 1991."
+          ]
+        },
+        "fr": {
+          "heading": "30 mai : la fête de l'État croate",
+          "origin": "Le 30 mai, la Croatie commémore la première séance de son Parlement multipartite démocratiquement élu en 1990. Il s'agissait d'une étape de transition politique, distincte des décisions d'indépendance de 1991. Le calendrier des jours fériés a changé : une loi de 2019 a rétabli le 30 mai comme fête de l'État à partir de 2020, tandis que le 25 juin est devenu une commémoration distincte de l'indépendance.",
+          "promoter": "La formation démocratique du Parlement est commémorée; le législateur a fixé ensuite le jour férié.",
+          "purpose": "Rappeler la représentation démocratique et la formation de l'État croate.",
+          "facts": [
+            "Le Parlement multipartite siégea le 30 mai 1990.",
+            "Une loi de 2019 a rétabli la fête à partir de 2020.",
+            "Les décisions d'indépendance datent séparément de 1991."
+          ]
+        },
+        "de": {
+          "heading": "30. Mai: Kroatiens Tag der Staatlichkeit",
+          "origin": "Der 30. Mai erinnert in Kroatien an die erste Sitzung des demokratisch gewählten Mehrparteienparlaments im Jahr 1990. Dieses Ereignis markierte einen politischen Übergang und ist von den Unabhängigkeitsbeschlüssen des Jahres 1991 zu unterscheiden. Das Feiertagsrecht änderte sich mehrfach: Ein Gesetz von 2019 führte den 30. Mai ab 2020 wieder als Tag der Staatlichkeit ein; der 25. Juni wurde ein eigener Unabhängigkeitstag.",
+          "promoter": "Gefeiert wird die demokratische Bildung des Parlaments; das Feiertagsdatum legte später der Gesetzgeber fest.",
+          "purpose": "Demokratische Vertretung und die Entwicklung kroatischer Staatlichkeit würdigen.",
+          "facts": [
+            "Das Mehrparteienparlament trat am 30. Mai 1990 zusammen.",
+            "Ein Gesetz von 2019 führte den Feiertag ab 2020 wieder ein.",
+            "Die Unabhängigkeitsentscheidungen erfolgten getrennt im Jahr 1991."
+          ]
+        },
+        "pt": {
+          "heading": "30 de maio: Dia da Estadualidade da Croácia",
+          "origin": "Em 30 de maio, a Croácia recorda a primeira sessão do Parlamento multipartidário eleito democraticamente em 1990. Esse acontecimento marcou a transição política e não coincide com as decisões de independência de 1991. O calendário dos feriados mudou: uma lei de 2019 restabeleceu 30 de maio como Dia da Estadualidade a partir de 2020, enquanto 25 de junho se tornou uma comemoração distinta da independência.",
+          "promoter": "Comemora-se a formação democrática do Parlamento; a lei definiu posteriormente o feriado.",
+          "purpose": "Recordar a representação democrática e o desenvolvimento do Estado croata.",
+          "facts": [
+            "O Parlamento multipartidário reuniu-se em 30 de maio de 1990.",
+            "Uma lei de 2019 restabeleceu o feriado a partir de 2020.",
+            "As decisões de independência ocorreram separadamente em 1991."
+          ]
+        }
+      }
+    }
+  ]
+}
