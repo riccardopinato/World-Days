@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-19",
+  "status": "AI_SOURCE_CHRONOLOGY_DATE_REVIEWED_SIX_LOCALE",
+  "count": 46,
+  "countryCount": 46,
+  "scope": "HISTORIC_INDEPENDENCE_CHRONOLOGY_UNVERIFIED_FIRST_OBSERVANCE_YEAR",
+  "records": [
+    {
+      "observanceId": "ht-dfat-national-day",
+      "country": "HT",
+      "canonicalTitleEn": "Independence Day — Haiti",
+      "calendarDate": {
+        "month": 1,
+        "day": 1
+      },
+      "historicalYear": 1804,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "haiti_revolution",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "mm-dfat-national-day",
+      "country": "MM",
+      "canonicalTitleEn": "Independence Day — Myanmar",
+      "calendarDate": {
+        "month": 1,
+        "day": 4
+      },
+      "historicalYear": 1948,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gd-dfat-national-day",
+      "country": "GD",
+      "canonicalTitleEn": "Independence Day — Grenada",
+      "calendarDate": {
+        "month": 2,
+        "day": 7
+      },
+      "historicalYear": 1974,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "do-dfat-national-day",
+      "country": "DO",
+      "canonicalTitleEn": "Independence Day — Dominican Republic",
+      "calendarDate": {
+        "month": 2,
+        "day": 27
+      },
+      "historicalYear": 1844,
+      "previousAdministrationCode": "HT",
+      "historicalNoteCode": "dominican_1844",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gh-dfat-national-day",
+      "country": "GH",
+      "canonicalTitleEn": "Independence Day — Ghana",
+      "calendarDate": {
+        "month": 3,
+        "day": 6
+      },
+      "historicalYear": 1957,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "tn-dfat-national-day",
+      "country": "TN",
+      "canonicalTitleEn": "Independence Day — Tunisia",
+      "calendarDate": {
+        "month": 3,
+        "day": 20
+      },
+      "historicalYear": 1956,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "na-dfat-national-day",
+      "country": "NA",
+      "canonicalTitleEn": "Independence Day — Namibia",
+      "calendarDate": {
+        "month": 3,
+        "day": 21
+      },
+      "historicalYear": 1990,
+      "previousAdministrationCode": "ZA",
+      "historicalNoteCode": "namibia_1990",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gr-dfat-national-day",
+      "country": "GR",
+      "canonicalTitleEn": "Independence Day — Greece",
+      "calendarDate": {
+        "month": 3,
+        "day": 25
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "OTTOMAN",
+      "historicalNoteCode": "greece_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence",
+        "https://www.mfa.gr/uk/en/about-greece/government-and-politics/greek-independence-day/"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "bd-dfat-national-day",
+      "country": "BD",
+      "canonicalTitleEn": "Independence Day — Bangladesh",
+      "calendarDate": {
+        "month": 3,
+        "day": 26
+      },
+      "historicalYear": 1971,
+      "previousAdministrationCode": "PK",
+      "historicalNoteCode": "bangladesh_1971",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "sn-dfat-national-day",
+      "country": "SN",
+      "canonicalTitleEn": "Independence Day — Senegal",
+      "calendarDate": {
+        "month": 4,
+        "day": 4
+      },
+      "historicalYear": 1960,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "senegal_1960",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "sl-dfat-national-day",
+      "country": "SL",
+      "canonicalTitleEn": "Independence Day — Sierra Leone",
+      "calendarDate": {
+        "month": 4,
+        "day": 27
+      },
+      "historicalYear": 1961,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ec-dfat-national-day",
+      "country": "EC",
+      "canonicalTitleEn": "Independence Day — Ecuador",
+      "calendarDate": {
+        "month": 5,
+        "day": 24
+      },
+      "historicalYear": 1822,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "ecuador_1822",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "er-dfat-national-day",
+      "country": "ER",
+      "canonicalTitleEn": "Independence Day — Eritrea",
+      "calendarDate": {
+        "month": 5,
+        "day": 24
+      },
+      "historicalYear": 1993,
+      "previousAdministrationCode": "ET",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "jo-dfat-national-day",
+      "country": "JO",
+      "canonicalTitleEn": "Independence Day — Jordan",
+      "calendarDate": {
+        "month": 5,
+        "day": 25
+      },
+      "historicalYear": 1946,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "jordan_1946",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ws-dfat-national-day",
+      "country": "WS",
+      "canonicalTitleEn": "Independence Day — Samoa",
+      "calendarDate": {
+        "month": 6,
+        "day": 1
+      },
+      "historicalYear": 1962,
+      "previousAdministrationCode": "NZ",
+      "historicalNoteCode": "samoa_1962",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence",
+        "https://www.samoa.travel/discover/our-history/"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "mz-dfat-national-day",
+      "country": "MZ",
+      "canonicalTitleEn": "Independence Day — Mozambique",
+      "calendarDate": {
+        "month": 6,
+        "day": 25
+      },
+      "historicalYear": 1975,
+      "previousAdministrationCode": "PT",
+      "historicalNoteCode": "mozambique_1975",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "dj-dfat-national-day",
+      "country": "DJ",
+      "canonicalTitleEn": "Independence Day — Djibouti",
+      "calendarDate": {
+        "month": 6,
+        "day": 27
+      },
+      "historicalYear": 1977,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "cd-dfat-national-day",
+      "country": "CD",
+      "canonicalTitleEn": "Independence Day — Democratic Republic of the Congo",
+      "calendarDate": {
+        "month": 6,
+        "day": 30
+      },
+      "historicalYear": 1960,
+      "previousAdministrationCode": "BE",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ss-dfat-national-day",
+      "country": "SS",
+      "canonicalTitleEn": "Independence Day — South Sudan",
+      "calendarDate": {
+        "month": 7,
+        "day": 9
+      },
+      "historicalYear": 2011,
+      "previousAdministrationCode": "SD",
+      "historicalNoteCode": "south_sudan_2011",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence",
+        "https://www.un.org/en/about-us/member-states/south-sudan"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "bs-dfat-national-day",
+      "country": "BS",
+      "canonicalTitleEn": "Independence Day — Bahamas",
+      "calendarDate": {
+        "month": 7,
+        "day": 10
+      },
+      "historicalYear": 1973,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "vu-dfat-national-day",
+      "country": "VU",
+      "canonicalTitleEn": "Independence Day — Vanuatu",
+      "calendarDate": {
+        "month": 7,
+        "day": 30
+      },
+      "historicalYear": 1980,
+      "previousAdministrationCode": "FR_UK",
+      "historicalNoteCode": "vanuatu_1980",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "bo-dfat-national-day",
+      "country": "BO",
+      "canonicalTitleEn": "Independence Day — Bolivia",
+      "calendarDate": {
+        "month": 8,
+        "day": 6
+      },
+      "historicalYear": 1825,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "cg-dfat-national-day",
+      "country": "CG",
+      "canonicalTitleEn": "Independence Day — Republic of the Congo",
+      "calendarDate": {
+        "month": 8,
+        "day": 15
+      },
+      "historicalYear": 1960,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "af-dfat-national-day",
+      "country": "AF",
+      "canonicalTitleEn": "Independence Day — Afghanistan",
+      "calendarDate": {
+        "month": 8,
+        "day": 19
+      },
+      "historicalYear": 1919,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "afghanistan_1919",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "uy-dfat-national-day",
+      "country": "UY",
+      "canonicalTitleEn": "Independence Day — Uruguay",
+      "calendarDate": {
+        "month": 8,
+        "day": 25
+      },
+      "historicalYear": 1825,
+      "previousAdministrationCode": "BR",
+      "historicalNoteCode": "uruguay_1825",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "mk-dfat-national-day",
+      "country": "MK",
+      "canonicalTitleEn": "Independence Day — North Macedonia",
+      "calendarDate": {
+        "month": 9,
+        "day": 8
+      },
+      "historicalYear": 1991,
+      "previousAdministrationCode": "YU",
+      "historicalNoteCode": "macedonia_1991",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "cr-dfat-national-day",
+      "country": "CR",
+      "canonicalTitleEn": "Independence Day — Costa Rica",
+      "calendarDate": {
+        "month": 9,
+        "day": 15
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "central_america_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "sv-dfat-national-day",
+      "country": "SV",
+      "canonicalTitleEn": "Independence Day — El Salvador",
+      "calendarDate": {
+        "month": 9,
+        "day": 15
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "central_america_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gt-dfat-national-day",
+      "country": "GT",
+      "canonicalTitleEn": "Independence Day — Guatemala",
+      "calendarDate": {
+        "month": 9,
+        "day": 15
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "central_america_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "hn-dfat-national-day",
+      "country": "HN",
+      "canonicalTitleEn": "Independence Day — Honduras",
+      "calendarDate": {
+        "month": 9,
+        "day": 15
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "central_america_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ni-dfat-national-day",
+      "country": "NI",
+      "canonicalTitleEn": "Independence Day — Nicaragua",
+      "calendarDate": {
+        "month": 9,
+        "day": 15
+      },
+      "historicalYear": 1821,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "central_america_1821",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "pg-dfat-national-day",
+      "country": "PG",
+      "canonicalTitleEn": "Independence Day — Papua New Guinea",
+      "calendarDate": {
+        "month": 9,
+        "day": 16
+      },
+      "historicalYear": 1975,
+      "previousAdministrationCode": "AU",
+      "historicalNoteCode": "papua_1975",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "kn-dfat-national-day",
+      "country": "KN",
+      "canonicalTitleEn": "Independence Day — Saint Kitts and Nevis",
+      "calendarDate": {
+        "month": 9,
+        "day": 19
+      },
+      "historicalYear": 1983,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ml-dfat-national-day",
+      "country": "ML",
+      "canonicalTitleEn": "Independence Day — Mali",
+      "calendarDate": {
+        "month": 9,
+        "day": 22
+      },
+      "historicalYear": 1960,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "mali_1960",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gw-dfat-national-day",
+      "country": "GW",
+      "canonicalTitleEn": "Independence Day — Guinea-Bissau",
+      "calendarDate": {
+        "month": 9,
+        "day": 24
+      },
+      "historicalYear": 1973,
+      "previousAdministrationCode": "PT",
+      "historicalNoteCode": "guineabissau_1973",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gn-dfat-national-day",
+      "country": "GN",
+      "canonicalTitleEn": "Independence Day — Guinea",
+      "calendarDate": {
+        "month": 10,
+        "day": 1
+      },
+      "historicalYear": 1958,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "guinea_1958",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence",
+        "https://um.fi/national-days"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "tv-dfat-national-day",
+      "country": "TV",
+      "canonicalTitleEn": "Independence Day — Tuvalu",
+      "calendarDate": {
+        "month": 10,
+        "day": 1
+      },
+      "historicalYear": 1978,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ls-dfat-national-day",
+      "country": "LS",
+      "canonicalTitleEn": "Independence Day — Lesotho",
+      "calendarDate": {
+        "month": 10,
+        "day": 4
+      },
+      "historicalYear": 1966,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "ug-dfat-national-day",
+      "country": "UG",
+      "canonicalTitleEn": "Independence Day — Uganda",
+      "calendarDate": {
+        "month": 10,
+        "day": 9
+      },
+      "historicalYear": 1962,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "gq-dfat-national-day",
+      "country": "GQ",
+      "canonicalTitleEn": "Independence Day — Equatorial Guinea",
+      "calendarDate": {
+        "month": 10,
+        "day": 12
+      },
+      "historicalYear": 1968,
+      "previousAdministrationCode": "ES",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "zm-dfat-national-day",
+      "country": "ZM",
+      "canonicalTitleEn": "Independence Day — Zambia",
+      "calendarDate": {
+        "month": 10,
+        "day": 24
+      },
+      "historicalYear": 1964,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "dm-dfat-national-day",
+      "country": "DM",
+      "canonicalTitleEn": "Independence Day — Dominica",
+      "calendarDate": {
+        "month": 11,
+        "day": 3
+      },
+      "historicalYear": 1978,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "kh-dfat-national-day",
+      "country": "KH",
+      "canonicalTitleEn": "Independence Day — Cambodia",
+      "calendarDate": {
+        "month": 11,
+        "day": 9
+      },
+      "historicalYear": 1953,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "lb-dfat-national-day",
+      "country": "LB",
+      "canonicalTitleEn": "Independence Day — Lebanon",
+      "calendarDate": {
+        "month": 11,
+        "day": 22
+      },
+      "historicalYear": 1943,
+      "previousAdministrationCode": "FR",
+      "historicalNoteCode": "lebanon_1943",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "sr-dfat-national-day",
+      "country": "SR",
+      "canonicalTitleEn": "Independence Day — Suriname",
+      "calendarDate": {
+        "month": 11,
+        "day": 25
+      },
+      "historicalYear": 1975,
+      "previousAdministrationCode": "NL",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    },
+    {
+      "observanceId": "bb-dfat-national-day",
+      "country": "BB",
+      "canonicalTitleEn": "Independence Day — Barbados",
+      "calendarDate": {
+        "month": 11,
+        "day": 30
+      },
+      "historicalYear": 1966,
+      "previousAdministrationCode": "UK",
+      "historicalNoteCode": "standard",
+      "sources": [
+        "https://protocol.dfat.gov.au/Public/NationalDays",
+        "https://www.thefactbook.org/fields/independence"
+      ],
+      "sourceScope": "DFAT_NATIONAL_DAY_INDEX_AND_CIA_HISTORICAL_INDEPENDENCE_FIELD_NOT_STATUTORY_HOLIDAY_PROOF"
+    }
+  ],
+  "warning": "The year refers to historical independence or its commemorated declaration/struggle, never automatically to the year an annual holiday was established. Guinea is corrected from source index 1 October to documented actual national day 2 October; Samoa celebrates June 1 but became independent January 1, 1962."
+}
