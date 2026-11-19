@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 LANG=("en","it","es","fr","de","pt")
 report=json.loads((ROOT/"reports/fasttrack_parallel_604/origin_enrichment_12.json").read_text(encoding="utf-8"))
 assert report["newIndividualSourceGrounded"]==12
-assert report["sourceGroundedNow"]==519
+assert report["nonContextualEditorialNow"]==519
 assert report["contextualStillAwaitingOrigin"]==592
 ids=report["sourceIds"]
 assert len(ids)==len(set(ids))==12
