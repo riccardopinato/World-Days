@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 43,
+  "count": 44,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3519,6 +3519,92 @@
             "A batalha de Võnnu foi vencida em 23 de junho de 1919.",
             "O Dia da Vitória é celebrado a 23 de junho, na véspera do Dia de São João.",
             "O fogo da Vitória é levado aos condados estónios durante as cerimónias."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-day-of-mourning",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": 1941,
+      "dateReason": "Anniversary of the Soviet mass deportation beginning 14 June 1941",
+      "dateRule": "June 14",
+      "institution": "Estonian public institutions and memorial organisations; founding legal act unknown",
+      "sources": [
+        "https://www.riigikogu.ee/en/pressiteated/riigikogu-adopted-statement-june-deportation/",
+        "https://www.riigikogu.ee/en/sitting-reviews/joint-statement-of-president-of-the-republic-president-of-the-riigikogu-and-prime-minister-on-day-of-mourning-14-june-2008/",
+        "https://www.valitsus.ee/en/news/commemoration-tallinn-victims-deportations-june-1941"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Day of Mourning: remembering the June deportation",
+          "origin": "On 14 June 1941, Soviet occupation authorities began a mass deportation from Estonia. More than 10,000 residents were forcibly removed from their homes and sent towards prisons, camps and settlements in the Soviet Union. Families were separated, and many deportees never returned. The date is remembered as a national day of mourning.",
+          "promoter": "Estonia's Parliament, government and civic memorial organisations mark the anniversary. Official statements document the observance by 2008, but the original legal act establishing an annual Day of Mourning has not been independently identified in these sources.",
+          "purpose": "The remembrance honours victims of deportation and political repression, preserves testimony and encourages the study of the human consequences of occupation.",
+          "facts": [
+            "The commemorated mass deportation began on 14 June 1941.",
+            "The Riigikogu adopted a statement on the 75th anniversary in 2016.",
+            "The Day of Mourning also remembers victims of later Soviet repression."
+          ]
+        },
+        "it": {
+          "heading": "Giornata del lutto in Estonia: ricordare la deportazione di giugno",
+          "origin": "Il 14 giugno 1941 le autorità sovietiche di occupazione avviarono una deportazione di massa dall'Estonia. Oltre 10.000 residenti furono strappati alle loro case e inviati verso prigioni, campi e insediamenti nell'Unione Sovietica. Le famiglie furono separate e molti deportati non tornarono mai. La data è ricordata come giornata nazionale di lutto.",
+          "promoter": "Il Parlamento estone, il governo e le associazioni della memoria commemorano l'anniversario. Dichiarazioni ufficiali attestano la ricorrenza almeno dal 2008, ma le fonti consultate non identificano l'atto giuridico originario che istituì la giornata annuale.",
+          "purpose": "La commemorazione onora le vittime delle deportazioni e della repressione politica, conserva le testimonianze e invita a studiare le conseguenze umane dell'occupazione.",
+          "facts": [
+            "La deportazione di massa commemorata iniziò il 14 giugno 1941.",
+            "Nel 2016 il Parlamento estone adottò una dichiarazione per il 75° anniversario.",
+            "La giornata ricorda anche le vittime delle successive repressioni sovietiche."
+          ]
+        },
+        "es": {
+          "heading": "Día de Duelo en Estonia: memoria de la deportación de junio",
+          "origin": "El 14 de junio de 1941, las autoridades soviéticas de ocupación iniciaron una deportación masiva desde Estonia. Más de 10.000 habitantes fueron sacados por la fuerza de sus hogares y enviados a prisiones, campos y asentamientos de la Unión Soviética. Se separó a familias y muchas personas nunca regresaron. La fecha se recuerda como día nacional de duelo.",
+          "promoter": "El Parlamento estonio, el Gobierno y las organizaciones memoriales conmemoran el aniversario. Las declaraciones oficiales documentan la jornada al menos desde 2008, pero estas fuentes no identifican el acto jurídico original que estableció la conmemoración anual.",
+          "purpose": "La jornada honra a las víctimas de la deportación y la represión política, preserva sus testimonios y fomenta el estudio de las consecuencias humanas de la ocupación.",
+          "facts": [
+            "La deportación masiva recordada comenzó el 14 de junio de 1941.",
+            "En 2016, el Parlamento estonio aprobó una declaración por el 75.º aniversario.",
+            "El día también recuerda a las víctimas de posteriores represiones soviéticas."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de deuil en Estonie : mémoire de la déportation de juin",
+          "origin": "Le 14 juin 1941, les autorités soviétiques d'occupation lancèrent une déportation massive depuis l'Estonie. Plus de 10 000 habitants furent arrachés à leur foyer et envoyés vers des prisons, des camps et des lieux de relégation en Union soviétique. Des familles furent séparées et de nombreuses personnes ne revinrent jamais. Cette date est une journée nationale de deuil.",
+          "promoter": "Le Parlement estonien, le gouvernement et les associations mémorielles commémorent cet anniversaire. Des déclarations officielles attestent cette journée dès 2008, mais les sources consultées ne permettent pas d'identifier l'acte juridique initial instituant la commémoration annuelle.",
+          "purpose": "La journée rend hommage aux victimes des déportations et de la répression politique, préserve leurs témoignages et invite à étudier les conséquences humaines de l'occupation.",
+          "facts": [
+            "La déportation massive commémorée débuta le 14 juin 1941.",
+            "En 2016, le Parlement estonien adopta une déclaration pour le 75e anniversaire.",
+            "La journée évoque aussi les victimes des répressions soviétiques ultérieures."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Trauertag: Erinnerung an die Junideportation",
+          "origin": "Am 14. Juni 1941 begannen die sowjetischen Besatzungsbehörden mit Massendeportationen aus Estland. Mehr als 10.000 Menschen wurden gewaltsam aus ihren Häusern geholt und in Gefängnisse, Lager und Verbannungsorte der Sowjetunion gebracht. Familien wurden getrennt; viele kehrten nie zurück. Das Datum wird als nationaler Trauertag begangen.",
+          "promoter": "Das estnische Parlament, die Regierung und Gedenkorganisationen erinnern an den Jahrestag. Amtliche Erklärungen belegen die Begehung spätestens 2008; der ursprüngliche Rechtsakt zur Einführung des jährlichen Trauertags ist anhand dieser Quellen jedoch nicht unabhängig nachgewiesen.",
+          "purpose": "Der Gedenktag ehrt die Opfer von Deportation und politischer Verfolgung, bewahrt Zeugnisse und regt zur Auseinandersetzung mit den menschlichen Folgen der Besatzung an.",
+          "facts": [
+            "Die erinnerte Massendeportation begann am 14. Juni 1941.",
+            "Das estnische Parlament verabschiedete 2016 eine Erklärung zum 75. Jahrestag.",
+            "Der Trauertag erinnert auch an Opfer späterer sowjetischer Repressionen."
+          ]
+        },
+        "pt": {
+          "heading": "Dia de Luto na Estónia: memória da deportação de junho",
+          "origin": "Em 14 de junho de 1941, as autoridades soviéticas de ocupação iniciaram uma deportação em massa da Estónia. Mais de 10 000 habitantes foram retirados à força das suas casas e enviados para prisões, campos e locais de exílio na União Soviética. Famílias foram separadas e muitos deportados nunca regressaram. A data é assinalada como dia nacional de luto.",
+          "promoter": "O Parlamento estónio, o Governo e as organizações de memória assinalam o aniversário. Declarações oficiais documentam a comemoração pelo menos desde 2008, mas estas fontes não identificam o ato jurídico original que instituiu a celebração anual.",
+          "purpose": "A data homenageia as vítimas da deportação e da repressão política, preserva testemunhos e incentiva o estudo das consequências humanas da ocupação.",
+          "facts": [
+            "A deportação em massa recordada começou em 14 de junho de 1941.",
+            "Em 2016, o Parlamento estónio aprovou uma declaração pelo 75.º aniversário.",
+            "O dia também recorda vítimas de repressões soviéticas posteriores."
           ]
         }
       },
