@@ -24,6 +24,13 @@ BEFORE=1111
 EXCLUDE=153
 AFTER=958
 STATUS="AI_CONTEXTUAL_SIX_LOCALE"
+# Explicit exceptions: public civic commemorations formally recognized by law.
+# An official memorial day can have a birth/death in its historical title
+# without being an indiscriminate almanac entry.
+CIVIC_EXCEPTION={
+    "martin-luther-king-jr-day":"United States federal holiday, 5 U.S.C. 6103",
+    "sk-milan-rastislav-stefanik-death-anniversary":"Slovakia Act 241/1993 §3 memorial day, 4 May; https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029",
+}
 
 def read(p):
     return json.loads(p.read_text(encoding="utf-8"))
@@ -79,7 +86,7 @@ def run():
         assert row["sources"] and row["recurrenceRules"]
         status_counts[str(row.get("editorialStatus","UNKNOWN"))]+=1
         known_years+=isinstance(row.get("introducedYear"),int)
-        if oid not in excluded and re.search(r"(?i)(?:^birth of |^death of |\bbirth anniversary\b|\bdeath anniversary\b|\bbirthday of\b|\bdeath of\b)",title):
+        if oid not in excluded and oid not in CIVIC_EXCEPTION and re.search(r"(?i)(?:^birth of |^death of |\bbirth anniversary\b|\bdeath anniversary\b|\bbirthday of\b|\bdeath of\b)",title):
             suspicious.append({"id":oid,"title":title,"auditStatus":"INDIVIDUAL_MANUAL_SCOPE_REVIEW"})
     assert sum(topic_counts.values())==BEFORE
     packs={}
@@ -169,6 +176,7 @@ def run():
         "introducedYearsInOriginalCatalog":known_years,
         "removed2026Occurrences":orig_occ-len(occ["occurrences"]),
         "outsidePolicyBiographicalCandidates":suspicious,
+        "retainedStatutoryCivicCommemorationExceptions":CIVIC_EXCEPTION,
         "excludedIDArchivalPolicy":"SOURCE_RECORDS_RETAINED_IN_DATA_MARKET_AND_RESEARCH_NOT_PUBLISHED_IN_APP",
         "methodology":"Full ID-title/scope/year/source/translation audit. Exact 144+9 NCCA birth/death IDs excluded; national civic commemorations and organizational founding anniversaries retained.",
         "limitation":"A fully translated contextual record is not necessarily an individually researched founding history. Source index listing alone does not establish a statutory public holiday."
