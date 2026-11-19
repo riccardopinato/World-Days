@@ -13,7 +13,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d)")
+YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d|s\b)")  # ignore decades: 1940s != 1940
 
 def flattened_strings(value: object) -> str:
     if isinstance(value, dict):
