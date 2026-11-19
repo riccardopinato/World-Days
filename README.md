@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Wave storiche individuali e coda massiva per Paese
+
+**Dodici** schede descrittive precedenti sono state sostituite con storie d'origine individuali, documentate e scritte in **EN, IT, ES, FR, DE e PT**: due ricorrenze tedesche, due italiane, tre portoghesi, tre spagnole, Windrush Day britannico e Juneteenth statunitense. Sono ricostruiti separatamente evento storico, istituzione formale e motivo della data, dalle leggi e dagli atti ufficiali citati per ogni ID in `data/editorial/published/origin_enrichment_12_*.json`. I controlli includono anno dalla fonte, sei lingue, deduplica e status AI source-reviewed con disclosure nel dettaglio.
+
+**Contatore previsto dopo CI e merge:** 1.111/1.111 ID con contenuti in sei lingue; **519** articoli non meramente contestuali (507 preesistenti + 12 nuovi); **592** schede contestuali ancora da trasformare in storie d'origine specifiche. La copertura di 1.111 non va confusa con 1.111 ricostruzioni storiche. Il controllo massivo ha trovato solo **12/604** ID con anno d'istituzione già collegato a fonte nel catalogo; la carenza di anno non costituisce prova che l'evento sia privo di storia, ma richiede nuove ricerche.
+
+Il backlog storico residuo è partizionato automaticamente per Paese in sei code **100/100/100/100/100/92**, prodotte da `tool/queue_remaining_592_origins.py`, pronte a corsie indipendenti senza duplicazioni e senza dichiarare falsamente completate le ricerche. Le corse generate non sono pubblicazioni storiche. Nessun deploy automatico.
+
 ## 19 novembre 2026 — Fast Track parallelo: 604 schede contestuali × 6 lingue
 
 Nuova corsia massiva **6 lotti da 100 ID + 1 da 4**, con sette task locali di elaborazione contemporanea su ID canonici disgiunti. Importazione deterministica e deduplicata dopo i **507 articoli storici/editoriali preesistenti**. Contenuto nel dataset e Web pack: titolo localizzato, narrazione contestuale, anno di introduzione se noto (altrimenti *), data valida per il 2026, ente riportato nel catalogo, tre fatti di catalogo, collegamento alle fonti canoniche e due inviti ad approfondire, nelle sei lingue EN/IT/ES/FR/DE/PT.
