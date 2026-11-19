@@ -1,0 +1,92 @@
+name: Semantic QA — World Days published stories x 6 languages
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/editorial/published/**'
+      - 'tool/semantic_qa_adapter.py'
+      - 'tool/test_semantic_qa_adapter.py'
+      - '.github/workflows/semantic-qa.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/editorial/published/**'
+      - 'tool/semantic_qa_adapter.py'
+      - 'tool/test_semantic_qa_adapter.py'
+      - '.github/workflows/semantic-qa.yml'
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: 'Offline by default; paid AI only with explicit dispatch and configured secret'
+        type: choice
+        options: [offline, openai]
+        default: offline
+      model:
+        description: 'Model name for explicitly approved remote semantic review'
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: world-semantic-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  semantic-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate World Days semantic source adapter
+        run: python3 tool/test_semantic_qa_adapter.py
+      - name: Download exact pinned central engine
+        env:
+          CORE_SHA: 827a271dcbd8f1608afabb60ca07184b20926991
+        run: |
+          mkdir -p build/semantic_qa
+          curl --fail --location --silent --show-error --retry 3 \
+            "https://raw.githubusercontent.com/riccardopinato/App-Factory-Core/$CORE_SHA/reference_engines/semantic_qa/semantic_qa.py" \
+            -o build/semantic_qa/semantic_qa.py
+          python3 -m py_compile build/semantic_qa/semantic_qa.py
+      - name: Restore only same-ref incremental semantic cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+        with:
+          path: .semantic-qa-cache/world.json
+          key: semantic-world-v1-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            semantic-world-v1-${{ github.ref_name }}-
+      - name: Normalize all published story dossiers without changing content
+        run: python3 tool/semantic_qa_adapter.py --output build/semantic_qa/input.json
+      - name: Compare English source with each available translation
+        env:
+          OPENAI_API_KEY: ${{ secrets.SEMANTIC_QA_OPENAI_API_KEY }}
+          INPUT_PROVIDER: ${{ inputs.provider || 'offline' }}
+          INPUT_MODEL: ${{ inputs.model || '' }}
+        run: |
+          set -euo pipefail
+          options=(--input build/semantic_qa/input.json --report build/semantic_qa/report.json \
+                   --cache .semantic-qa-cache/world.json --workers 4 --batch-size 100)
+          if [ "$INPUT_PROVIDER" = "openai" ]; then
+            [ -n "$OPENAI_API_KEY" ] || { echo "::error::SEMANTIC_QA_OPENAI_API_KEY not configured"; exit 1; }
+            [ -n "$INPUT_MODEL" ] || { echo "::error::Explicit semantic model required"; exit 1; }
+            options+=(--provider openai --allow-external --second-pass --model "$INPUT_MODEL")
+          else
+            options+=(--provider offline)
+          fi
+          python3 build/semantic_qa/semantic_qa.py "${options[@]}"
+          count=$(python3 -c 'import json; print(len(json.load(open("build/semantic_qa/input.json"))["records"]))')
+          python3 tool/semantic_qa_adapter.py --verify-report build/semantic_qa/report.json --expected-count "$count"
+          echo "Semantic QA report is advisory; missing or inconsistent published records require editorial review."
+      - name: Upload original scope and review findings
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-semantic-qa
+          path: |
+            build/semantic_qa/input.json
+            build/semantic_qa/report.json
+          if-no-files-found: ignore
+          retention-days: 14
