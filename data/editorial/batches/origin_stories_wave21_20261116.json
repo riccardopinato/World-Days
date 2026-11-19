@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 48,
+  "count": 49,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3949,6 +3949,92 @@
             "A data é 1 de setembro.",
             "A Agência de Educação e Juventude da Estónia associa-a ao início da escolaridade ou de um novo ano letivo.",
             "O Ministério da Educação anunciou cerimónias oficiais de abertura a 1 de setembro de 2026."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-estonian-literature-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2022,
+      "firstObservedYear": 2023,
+      "commemoratedEventYear": null,
+      "dateReason": "January 30 is the birthday of Estonian author Anton Hansen Tammsaare",
+      "dateRule": "January 30",
+      "institution": "Riigikogu (legal recognition); Tallinn Literary Centre (proposal); Ministry of Culture (promotion)",
+      "sources": [
+        "https://www.riigiteataja.ee/en/akt/530012023002",
+        "https://www.riigikantselei.ee/uudised/eesti-kirjanduse-paeva-uus-lipupaev",
+        "https://www.kul.ee/looming/kirjandus/eesti-kirjanduse-paev"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonian Literature Day: a birthday becomes a national celebration",
+          "origin": "Estonia first observed Estonian Literature Day as a national day of importance and flag day on 30 January 2023. Parliament adopted the relevant legislative changes in December 2022, effective 30 December. The date honors the birthday of writer Anton Hansen Tammsaare. The initiative to establish the day was proposed by the Tallinn Literary Centre.",
+          "promoter": "The Tallinn Literary Centre proposed the observance; the Riigikogu enacted the legal recognition and the Ministry of Culture promotes literary participation.",
+          "purpose": "To celebrate Estonian writing, strengthen the Estonian language and bring classic and contemporary authors to new readers.",
+          "facts": [
+            "The observance is held every 30 January.",
+            "The Estonian Flag Act lists Literature Day as a flag day, following a 2022 amendment.",
+            "The first official national observance and flag raising took place in 2023."
+          ]
+        },
+        "it": {
+          "heading": "Giornata della letteratura estone: un compleanno diventa festa nazionale",
+          "origin": "Il 30 gennaio 2023 l'Estonia ha celebrato per la prima volta la Giornata della letteratura estone come ricorrenza nazionale e giornata della bandiera. Il Parlamento aveva approvato le modifiche legislative nel dicembre 2022, entrate in vigore il 30 dicembre. La data coincide con il compleanno dello scrittore Anton Hansen Tammsaare. L'iniziativa fu proposta dal Centro letterario di Tallinn.",
+          "promoter": "Il Centro letterario di Tallinn propose la ricorrenza; il Riigikogu ne approvò il riconoscimento legale e il Ministero della Cultura promuove la partecipazione.",
+          "purpose": "Valorizzare la scrittura estone, rafforzare la lingua nazionale e avvicinare nuovi lettori agli autori classici e contemporanei.",
+          "facts": [
+            "La ricorrenza cade ogni 30 gennaio.",
+            "La legge sulla bandiera estone la include tra le giornate in cui si espone la bandiera, dopo una modifica del 2022.",
+            "La prima celebrazione nazionale ufficiale si svolse nel 2023."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Literatura Estonia: el cumpleaños de un escritor se convierte en celebración nacional",
+          "origin": "Estonia celebró por primera vez el Día de la Literatura Estonia como fecha nacional y día de la bandera el 30 de enero de 2023. El Parlamento aprobó los cambios legislativos en diciembre de 2022, vigentes desde el día 30. La fecha coincide con el nacimiento del escritor Anton Hansen Tammsaare. La iniciativa partió del Centro Literario de Tallin.",
+          "promoter": "El Centro Literario de Tallin propuso la conmemoración; el Riigikogu la reconoció por ley y el Ministerio de Cultura impulsa la participación.",
+          "purpose": "Celebrar las letras estonias, fortalecer el idioma y acercar tanto a los clásicos como a los autores actuales a nuevos lectores.",
+          "facts": [
+            "Se celebra cada 30 de enero.",
+            "La Ley de la Bandera de Estonia la incluye entre los días oficiales de izado tras la reforma de 2022.",
+            "Su primera celebración nacional oficial tuvo lugar en 2023."
+          ]
+        },
+        "fr": {
+          "heading": "Journée de la littérature estonienne : l'anniversaire d'un écrivain devient fête nationale",
+          "origin": "L'Estonie a célébré pour la première fois la Journée de la littérature estonienne comme journée nationale et jour du drapeau le 30 janvier 2023. Le Parlement avait adopté les modifications législatives en décembre 2022, entrées en vigueur le 30 décembre. Cette date correspond à l'anniversaire de naissance de l'écrivain Anton Hansen Tammsaare. L'initiative venait du Centre littéraire de Tallinn.",
+          "promoter": "Le Centre littéraire de Tallinn a proposé cette journée ; le Riigikogu l'a inscrite dans la loi et le ministère de la Culture encourage sa célébration.",
+          "purpose": "Mettre à l'honneur la littérature estonienne, soutenir la langue nationale et faire découvrir les auteurs classiques et contemporains.",
+          "facts": [
+            "La journée revient chaque 30 janvier.",
+            "La loi estonienne sur le drapeau l'inscrit parmi les journées officielles de pavoisement depuis une modification de 2022.",
+            "La première célébration nationale officielle a eu lieu en 2023."
+          ]
+        },
+        "de": {
+          "heading": "Tag der estnischen Literatur: ein Schriftstellergeburtstag wird zum nationalen Gedenktag",
+          "origin": "Am 30. Januar 2023 beging Estland den Tag der estnischen Literatur erstmals als nationalen Gedenk- und Flaggentag. Das Parlament hatte die Gesetzesänderungen im Dezember 2022 beschlossen; sie traten am 30. Dezember in Kraft. Das Datum ist der Geburtstag des Schriftstellers Anton Hansen Tammsaare. Den Vorschlag brachte das Literaturzentrum Tallinn ein.",
+          "promoter": "Das Literaturzentrum Tallinn regte den Tag an; das Parlament Riigikogu verankerte ihn gesetzlich, und das Kulturministerium fördert die Beteiligung.",
+          "purpose": "Estnische Literatur würdigen, die Landessprache stärken und klassische wie zeitgenössische Werke neuen Leserinnen und Lesern näherbringen.",
+          "facts": [
+            "Der Tag fällt jährlich auf den 30. Januar.",
+            "Das estnische Flaggengesetz führt ihn seit einer Änderung von 2022 als Flaggentag.",
+            "Die erste offizielle landesweite Feier fand 2023 statt."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Literatura Estónia: o aniversário de um escritor torna-se celebração nacional",
+          "origin": "A Estónia celebrou pela primeira vez o Dia da Literatura Estónia como data nacional e dia da bandeira em 30 de janeiro de 2023. O Parlamento aprovou as alterações legislativas em dezembro de 2022, que entraram em vigor no dia 30. A data coincide com o aniversário de nascimento do escritor Anton Hansen Tammsaare. A proposta partiu do Centro Literário de Tallinn.",
+          "promoter": "O Centro Literário de Tallinn propôs a data; o Riigikogu consagrou-a na lei e o Ministério da Cultura incentiva a participação.",
+          "purpose": "Celebrar a literatura estónia, fortalecer a língua nacional e aproximar os leitores de autores clássicos e contemporâneos.",
+          "facts": [
+            "A celebração ocorre todos os anos a 30 de janeiro.",
+            "A Lei da Bandeira da Estónia inclui-a entre os dias oficiais de hasteamento desde a alteração de 2022.",
+            "A primeira celebração nacional oficial ocorreu em 2023."
           ]
         }
       },
