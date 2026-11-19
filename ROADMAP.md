@@ -1,3 +1,13 @@
+## 19 novembre 2026 — Fast Track IA: 7 corsie da 100/100/100/100/100/100/4
+
+- [x] Registrate sette corsie indipendenti dalla differenza esatta **1.111 canonici - 507 già completi = 604**; sottoinsiemi disgiunti e ordinati, zero sovrascritture.
+- [x] Scritti generatori di micro-articoli descrittivi in **6 lingue**, basati su anno, fonte, istituzione, data 2026 e tema della scheda; anno/prime celebrazioni non documentati esplicitamente non vengono inventati.
+- [x] Importazione additiva e QA schema/ID/lingue/cronologia di catalogo, con un solo consolidamento, preservando i 507 articoli originali più approfonditi.
+- [x] Stato `AI_CONTEXTUAL_SIX_LOCALE` con disclosure visibile e differenziazione tra articolo di contesto e storia d'origine specificamente documentata.
+- [ ] CI exact-head e merge su main dei **604 articoli contestuali**; prima del merge la copertura runtime resta 507.
+- [ ] Trasformare parallelamente i **604 contestuali** in vere storie d'origine individualizzate quando si aggiungono fatti documentati; le schede contestuali sono una copertura utile immediata e non equivalgono a storie storiche già approfondite.
+- [ ] Nessun deploy pubblico/Play finché non richiesto e validato.
+
 ## 19 novembre 2026 — Wave21 Fast Track 5 nuove storie × 6 lingue
 
 - [x] Redatti 5 dossier storici originali in sei lingue, con fonti parlamentari/governative e cronologia per Messico, Norvegia, Spagna, Polonia, Croazia.
