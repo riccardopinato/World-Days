@@ -16,16 +16,6 @@ on:
       - 'tool/test_semantic_qa_adapter.py'
       - '.github/workflows/semantic-qa.yml'
   workflow_dispatch:
-    inputs:
-      provider:
-        description: 'Offline by default; paid AI only with explicit dispatch and configured secret'
-        type: choice
-        options: [offline, openai]
-        default: offline
-      model:
-        description: 'Model name for explicitly approved remote semantic review'
-        type: string
-        required: false
 
 permissions:
   contents: read
@@ -60,26 +50,17 @@ jobs:
             semantic-world-v1-${{ github.ref_name }}-
       - name: Normalize all published story dossiers without changing content
         run: python3 tool/semantic_qa_adapter.py --output build/semantic_qa/input.json
-      - name: Compare English source with each available translation
-        env:
-          OPENAI_API_KEY: ${{ secrets.SEMANTIC_QA_OPENAI_API_KEY }}
-          INPUT_PROVIDER: ${{ inputs.provider || 'offline' }}
-          INPUT_MODEL: ${{ inputs.model || '' }}
+      - name: Free offline structural audit (no API credentials or provider)
         run: |
           set -euo pipefail
-          options=(--input build/semantic_qa/input.json --report build/semantic_qa/report.json \
-                   --cache .semantic-qa-cache/world.json --workers 4 --batch-size 100)
-          if [ "$INPUT_PROVIDER" = "openai" ]; then
-            [ -n "$OPENAI_API_KEY" ] || { echo "::error::SEMANTIC_QA_OPENAI_API_KEY not configured"; exit 1; }
-            [ -n "$INPUT_MODEL" ] || { echo "::error::Explicit semantic model required"; exit 1; }
-            options+=(--provider openai --allow-external --second-pass --model "$INPUT_MODEL")
-          else
-            options+=(--provider offline)
-          fi
-          python3 build/semantic_qa/semantic_qa.py "${options[@]}"
+          python3 build/semantic_qa/semantic_qa.py \
+            --input build/semantic_qa/input.json \
+            --report build/semantic_qa/report.json \
+            --cache .semantic-qa-cache/world.json \
+            --workers 4 --batch-size 100 --provider offline
           count=$(python3 -c 'import json; print(len(json.load(open("build/semantic_qa/input.json"))["records"]))')
           python3 tool/semantic_qa_adapter.py --verify-report build/semantic_qa/report.json --expected-count "$count"
-          echo "Semantic QA report is advisory; missing or inconsistent published records require editorial review."
+          echo "Offline report is advisory, not semantic certification."
       - name: Upload original scope and review findings
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
