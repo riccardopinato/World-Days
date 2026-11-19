@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Audit totale catalogo e pulizia biografie (nuovo perimetro)
+
+Il catalogo sorgente censisce **1.111 ID**, mentre il catalogo **pubblicato nell'app** ne include ora **958**: esclusi con filtro deterministico **144 anniversari personali di nascita/morte Wave11 + 9 Wave10**. Sono storie da almanacco biografico, non giornate mondiali o ricorrenze civiche con un'autonoma designazione; restano archiviate con fonti e motivazione. Le vere giornate nazionali dedicate a una persona non sono automaticamente escluse. Fonte normativa: [Catalog Relevance Policy](docs/CATALOG_RELEVANCE_POLICY_20261119.md).
+
+**Contenuti al traguardo di questa PR, subordinati a CI/merge:** 958/958 schede descrittive presenti in **EN, IT, ES, FR, DE, PT**, 0 ID senza editoriale, **519** precedenti editoriali più approfonditi preservati e **439** schede contestuali ancora da approfondire nella specifica origine storica. Il risultato non equivale a 958 storie d'origine individuali ricercate. Le fonti dei 1.111 candidati restano archiviate, non pubblicate integralmente.
+
+Allineati generatori, catalogo offline, indice date, origine, content pack remoto, CI Web e build Android. I controlli anti-reinserimento mantengono l'esclusione anche alle rigenerazioni successive. Stato conclusivo solo dopo controlli GitHub sul commit finale.
+
 ## 19 novembre 2026 — Wave storiche individuali e coda massiva per Paese
 
 **Dodici** schede descrittive precedenti sono state sostituite con storie d'origine individuali, documentate e scritte in **EN, IT, ES, FR, DE e PT**: due ricorrenze tedesche, due italiane, tre portoghesi, tre spagnole, Windrush Day britannico e Juneteenth statunitense. Sono ricostruiti separatamente evento storico, istituzione formale e motivo della data, dalle leggi e dagli atti ufficiali citati per ogni ID in `data/editorial/published/origin_enrichment_12_*.json`. I controlli includono anno dalla fonte, sei lingue, deduplica e status AI source-reviewed con disclosure nel dettaglio.
