@@ -31,7 +31,6 @@ for loc in LOCALES[1:]:
  unchanged={r["id"] for r in items if r["localizedTitles"][loc]==r["localizedTitles"]["en"]}
  expected={"mt-sette-giugno"} if loc!="fr" else set()
  assert unchanged==expected,(loc,unchanged)
- assert set(r["localizedTitles"] for r in [])==set() # no dynamic fallback generated
 origin=rd(ASSETS/"origin_review_index.json")
 assert origin["datasetVersion"]==cat["datasetVersion"] and origin["recordCount"]==947
 excluded=rd(ROOT/"reports/world_days_excluded_birth_death_20261119.json")
