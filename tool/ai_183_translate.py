@@ -24,7 +24,9 @@ def load(path):
 
 def source_inventory():
     files = [BATCHES / "origin_stories_primary_20261111.json"]
-    files += sorted(BATCHES.glob("origin_stories_wave*.json"))
+    # Historical 183-story inventory is frozen at Wave20; Wave21+ are drafts.
+    files += sorted(p for p in BATCHES.glob("origin_stories_wave*.json")
+                    if re.fullmatch(r"origin_stories_wave(?:0[1-9]|1[0-9]|20)_\d{8}\.json", p.name))
     assert len(files) == 21, ("unexpected source files", len(files))
     all_records = {}
     for path in files:

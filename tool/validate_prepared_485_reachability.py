@@ -19,6 +19,16 @@ source_files=[BATCHES/"origin_stories_primary_20261111.json"]+sorted(BATCHES.glo
 researched={}
 for f in source_files:
  pack=load(f)
+ # Wave21 drafts are not part of the 325 main-branch researched histories.
+ if pack.get("wave")==21:
+  assert pack.get("schemaVersion")==1 and pack.get("count")==len(pack.get("records",[])),f
+  ids=[r["observanceId"] for r in pack["records"]]
+  assert len(ids)==len(set(ids)),f
+  assert all(r.get("status") in ("AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING","HOLD_SOURCE_DISPUTE") and
+             r.get("runtimeRichEditorialApproved") is False and
+             r.get("humanFactReview")=="PENDING" and
+             r.get("humanSixLocaleReview")=="PENDING" for r in pack["records"]),f
+  continue
  assert pack["status"]=="SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",f
  for rec in pack["records"]:
   oid=rec["observanceId"]

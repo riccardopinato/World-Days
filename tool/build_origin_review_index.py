@@ -33,7 +33,13 @@ def run():
  story_reviewed_at={}
  for batch_file in batch_files:
   batch=json.loads(batch_file.read_text(encoding="utf-8"))
-  assert batch["status"]=="SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE",batch_file
+  # Wave21+ may contain explicitly gated AI drafts and HOLD records. These are
+  # not yet merged source-researched histories; keep them out of the published index.
+  if batch.get("status") != "SOURCE_CHECKED_EDITORIAL_NOT_1111_ALL_COMPLETE":
+   assert batch.get("wave", 0) >= 21 and isinstance(batch.get("records"), list), batch_file
+   assert batch.get("count") == len(batch["records"]), batch_file
+   assert all(item.get("runtimeRichEditorialApproved") is False for item in batch["records"]), batch_file
+   continue
   assert batch["count"]==len(batch["records"]),batch_file
   assert batch["reviewedOn"] and len(batch["reviewedOn"])==10,batch_file
   for item in batch["records"]:
