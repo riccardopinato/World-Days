@@ -13,7 +13,7 @@ SRC = ROOT / "data/editorial/published/wave21_fasttrack_first5_six_locale_202611
 DATA = ROOT / "assets/data"
 LANG = ("en", "it", "es", "fr", "de", "pt")
 STATUS = "AI_REVIEWED_SIX_LOCALE"
-YEARS = re.compile(r"\\b(?:18|19|20)\\d{2}\\b")
+YEARS = re.compile(r"\b(?:18|19|20)\d{2}\b")
 LABELS = {
     "en": "Originating or supporting institutions",
     "it": "Enti promotori o sostenitori",
@@ -86,7 +86,7 @@ def main():
                 "hook": story["heading"].strip(),
                 "summary": story["purpose"].strip(),
                 "whyThisDate": "",
-                "origin": story["origin"].strip() + "\\n\\n" + LABELS[locale] + ": " + story["promoter"].strip(),
+                "origin": story["origin"].strip() + "\n\n" + LABELS[locale] + ": " + story["promoter"].strip(),
                 "whyItMatters": "",
                 "quickFacts": story["facts"],
                 "waysToTakePart": [],
@@ -98,7 +98,7 @@ def main():
         document["entries"] = existing + additions
         document["entryCount"] = len(document["entries"])
         assert document["entryCount"] == 507
-        path.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+        path.write_text(json.dumps(document, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("FASTTRACK_WAVE21_FIRST5_IMPORTED", json.dumps({
         "catalog": 1111, "sixLocaleComplete": 507, "onlyEnglishItalian": 0,
         "pending": 604, "newStories": 5, "locales": list(LANG)
