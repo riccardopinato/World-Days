@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "count": 43,
+  "reviewedOn": "2026-11-19",
+  "method": "AI-authored localized NCCA cultural period/observance names; Tagalog proper labels preserved where useful; CLDR Philippine country exonyms",
+  "entries": [
+    {
+      "observanceId": "ph-w13-national-bible-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Bible Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Bible Month — Philippines",
+        "it": "Mese nazionale della Bibbia — Filippine",
+        "es": "Mes Nacional de la Biblia — Filipinas",
+        "fr": "Mois national de la Bible — Philippines",
+        "de": "Nationaler Bibelmonat — Philippinen",
+        "pt": "Mês Nacional da Bíblia — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-philippine-tropical-fabrics-month",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Tropical Fabrics Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Tropical Fabrics Month — Philippines",
+        "it": "Mese dei tessuti tropicali filippini — Filippine",
+        "es": "Mes de los Tejidos Tropicales Filipinos — Filipinas",
+        "fr": "Mois des textiles tropicaux philippins — Philippines",
+        "de": "Monat der philippinischen Tropenstoffe — Philippinen",
+        "pt": "Mês dos Tecidos Tropicais Filipinos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-women-s-role-in-history-month",
+      "country": "PH",
+      "canonicalTitleEn": "Women's Role in History Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Women's Role in History Month — Philippines",
+        "it": "Mese del ruolo delle donne nella storia — Filippine",
+        "es": "Mes del Papel de la Mujer en la Historia — Filipinas",
+        "fr": "Mois du rôle des femmes dans l'histoire — Philippines",
+        "de": "Monat der Frauen in der Geschichte — Philippinen",
+        "pt": "Mês do Papel das Mulheres na História — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-literature-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Literature Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Literature Month — Philippines",
+        "it": "Mese nazionale della letteratura — Filippine",
+        "es": "Mes Nacional de la Literatura — Filipinas",
+        "fr": "Mois national de la littérature — Philippines",
+        "de": "Nationaler Literaturmonat — Philippinen",
+        "pt": "Mês Nacional da Literatura — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-panagyaman-rice-festival-month",
+      "country": "PH",
+      "canonicalTitleEn": "Panagyaman Rice Festival Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Panagyaman Rice Festival Month — Philippines",
+        "it": "Mese della festa del riso Panagyaman — Filippine",
+        "es": "Mes del Festival del Arroz Panagyaman — Filipinas",
+        "fr": "Mois de la fête du riz Panagyaman — Philippines",
+        "de": "Monat des Panagyaman-Reisfestes — Philippinen",
+        "pt": "Mês do Festival do Arroz Panagyaman — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-filipino-food-month",
+      "country": "PH",
+      "canonicalTitleEn": "Filipino Food Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Filipino Food Month — Philippines",
+        "it": "Mese della gastronomia filippina — Filippine",
+        "es": "Mes de la Gastronomía Filipina — Filipinas",
+        "fr": "Mois de la gastronomie philippine — Philippines",
+        "de": "Monat der philippinischen Küche — Philippinen",
+        "pt": "Mês da Gastronomia Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-heritage-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Heritage Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Heritage Month — Philippines",
+        "it": "Mese nazionale del patrimonio culturale — Filippine",
+        "es": "Mes Nacional del Patrimonio Cultural — Filipinas",
+        "fr": "Mois national du patrimoine — Philippines",
+        "de": "Nationaler Kulturerbemonat — Philippinen",
+        "pt": "Mês Nacional do Património Cultural — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-volunteerism-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Volunteerism Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Volunteerism Month (Philippines) — Philippines",
+        "it": "Mese del volontariato — Filippine",
+        "es": "Mes del Voluntariado — Filipinas",
+        "fr": "Mois du bénévolat — Philippines",
+        "de": "Monat des freiwilligen Engagements — Philippinen",
+        "pt": "Mês do Voluntariado — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-w-a-t-c-h-time-consciousness-and-honesty-month",
+      "country": "PH",
+      "canonicalTitleEn": "W.A.T.C.H. Time Consciousness and Honesty Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "W.A.T.C.H. Time Consciousness and Honesty Month — Philippines",
+        "it": "Mese W.A.T.C.H. della puntualità e dell'onestà — Filippine",
+        "es": "Mes W.A.T.C.H. de la Puntualidad y la Honestidad — Filipinas",
+        "fr": "Mois W.A.T.C.H. de la ponctualité et de l'honnêteté — Philippines",
+        "de": "W.A.T.C.H.-Monat für Pünktlichkeit und Ehrlichkeit — Philippinen",
+        "pt": "Mês W.A.T.C.H. da Pontualidade e da Honestidade — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-nutrition-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Nutrition Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Nutrition Month (Philippines) — Philippines",
+        "it": "Mese della nutrizione — Filippine",
+        "es": "Mes de la Nutrición — Filipinas",
+        "fr": "Mois de la nutrition — Philippines",
+        "de": "Monat der Ernährung — Philippinen",
+        "pt": "Mês da Nutrição — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-buwan-ng-wikang-pambansa",
+      "country": "PH",
+      "canonicalTitleEn": "Buwan ng Wikang Pambansa — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Buwan ng Wikang Pambansa — Philippines",
+        "it": "Mese della lingua nazionale (Buwan ng Wikang Pambansa) — Filippine",
+        "es": "Mes de la Lengua Nacional (Buwan ng Wikang Pambansa) — Filipinas",
+        "fr": "Mois de la langue nationale (Buwan ng Wikang Pambansa) — Philippines",
+        "de": "Monat der Nationalsprache (Buwan ng Wikang Pambansa) — Philippinen",
+        "pt": "Mês da Língua Nacional (Buwan ng Wikang Pambansa) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-history-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "History Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "History Month (Philippines) — Philippines",
+        "it": "Mese della storia — Filippine",
+        "es": "Mes de la Historia — Filipinas",
+        "fr": "Mois de l'histoire — Philippines",
+        "de": "Monat der Geschichte — Philippinen",
+        "pt": "Mês da História — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-civil-service-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Civil Service Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Civil Service Month (Philippines) — Philippines",
+        "it": "Mese della pubblica amministrazione — Filippine",
+        "es": "Mes de la Función Pública — Filipinas",
+        "fr": "Mois de la fonction publique — Philippines",
+        "de": "Monat des öffentlichen Dienstes — Philippinen",
+        "pt": "Mês da Função Pública — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-rule-of-law-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Rule of Law Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Rule of Law Month (Philippines) — Philippines",
+        "it": "Mese dello Stato di diritto — Filippine",
+        "es": "Mes del Estado de Derecho — Filipinas",
+        "fr": "Mois de l'État de droit — Philippines",
+        "de": "Monat der Rechtsstaatlichkeit — Philippinen",
+        "pt": "Mês do Estado de Direito — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-peace-consciousness-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Peace Consciousness Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Peace Consciousness Month — Philippines",
+        "it": "Mese nazionale della consapevolezza della pace — Filippine",
+        "es": "Mes Nacional de Concienciación sobre la Paz — Filipinas",
+        "fr": "Mois national de sensibilisation à la paix — Philippines",
+        "de": "Nationaler Monat des Friedensbewusstseins — Philippinen",
+        "pt": "Mês Nacional de Sensibilização para a Paz — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-museums-and-galleries-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Museums and Galleries Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Museums and Galleries Month (Philippines) — Philippines",
+        "it": "Mese dei musei e delle gallerie — Filippine",
+        "es": "Mes de los Museos y las Galerías — Filipinas",
+        "fr": "Mois des musées et des galeries — Philippines",
+        "de": "Monat der Museen und Galerien — Philippinen",
+        "pt": "Mês dos Museus e Galerias — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-conservation-and-protection-of-the-tamaraw-month",
+      "country": "PH",
+      "canonicalTitleEn": "Conservation and Protection of the Tamaraw Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Conservation and Protection of the Tamaraw Month — Philippines",
+        "it": "Mese della conservazione e tutela del tamaraw — Filippine",
+        "es": "Mes de Conservación y Protección del Tamaraw — Filipinas",
+        "fr": "Mois de la conservation et de la protection du tamarau — Philippines",
+        "de": "Monat für den Schutz des Tamarau — Philippinen",
+        "pt": "Mês da Conservação e Proteção do Tamarau — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-indigenous-peoples-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Indigenous Peoples Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Indigenous Peoples Month (Philippines) — Philippines",
+        "it": "Mese nazionale dei popoli indigeni — Filippine",
+        "es": "Mes Nacional de los Pueblos Indígenas — Filipinas",
+        "fr": "Mois national des peuples autochtones — Philippines",
+        "de": "Nationaler Monat indigener Völker — Philippinen",
+        "pt": "Mês Nacional dos Povos Indígenas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-library-and-information-services-month",
+      "country": "PH",
+      "canonicalTitleEn": "Library and Information Services Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Library and Information Services Month — Philippines",
+        "it": "Mese delle biblioteche e dei servizi informativi — Filippine",
+        "es": "Mes de las Bibliotecas y los Servicios de Información — Filipinas",
+        "fr": "Mois des bibliothèques et des services d'information — Philippines",
+        "de": "Monat der Bibliotheken und Informationsdienste — Philippinen",
+        "pt": "Mês das Bibliotecas e Serviços de Informação — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-filipino-values-month",
+      "country": "PH",
+      "canonicalTitleEn": "Filipino Values Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Filipino Values Month — Philippines",
+        "it": "Mese dei valori filippini — Filippine",
+        "es": "Mes de los Valores Filipinos — Filipinas",
+        "fr": "Mois des valeurs philippines — Philippines",
+        "de": "Monat der philippinischen Werte — Philippinen",
+        "pt": "Mês dos Valores Filipinos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-rice-awareness-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Rice Awareness Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Rice Awareness Month — Philippines",
+        "it": "Mese nazionale della sensibilizzazione sul riso — Filippine",
+        "es": "Mes Nacional de Concienciación sobre el Arroz — Filipinas",
+        "fr": "Mois national de sensibilisation au riz — Philippines",
+        "de": "Nationaler Monat des Reisbewusstseins — Philippinen",
+        "pt": "Mês Nacional de Sensibilização para o Arroz — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-traditional-and-alternative-health-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Traditional and Alternative Health Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Traditional and Alternative Health Month (Philippines) — Philippines",
+        "it": "Mese della salute tradizionale e alternativa — Filippine",
+        "es": "Mes de la Salud Tradicional y Alternativa — Filipinas",
+        "fr": "Mois de la santé traditionnelle et alternative — Philippines",
+        "de": "Monat der traditionellen und alternativen Heilkunde — Philippinen",
+        "pt": "Mês da Saúde Tradicional e Alternativa — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-philippine-book-development-month",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Book Development Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Book Development Month — Philippines",
+        "it": "Mese dello sviluppo editoriale filippino — Filippine",
+        "es": "Mes del Desarrollo del Libro Filipino — Filipinas",
+        "fr": "Mois du développement du livre philippin — Philippines",
+        "de": "Monat der philippinischen Buchförderung — Philippinen",
+        "pt": "Mês do Desenvolvimento do Livro Filipino — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-punctuality-and-civility-consciousness-month",
+      "country": "PH",
+      "canonicalTitleEn": "National Punctuality and Civility Consciousness Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Punctuality and Civility Consciousness Month — Philippines",
+        "it": "Mese nazionale della puntualità e della civiltà — Filippine",
+        "es": "Mes Nacional de la Puntualidad y la Convivencia — Filipinas",
+        "fr": "Mois national de la ponctualité et du civisme — Philippines",
+        "de": "Nationaler Monat für Pünktlichkeit und Höflichkeit — Philippinen",
+        "pt": "Mês Nacional da Pontualidade e do Civismo — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-children-s-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Children's Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Children's Month (Philippines) — Philippines",
+        "it": "Mese nazionale dei bambini — Filippine",
+        "es": "Mes Nacional de la Infancia — Filipinas",
+        "fr": "Mois national de l'enfance — Philippines",
+        "de": "Nationaler Monat der Kinder — Philippinen",
+        "pt": "Mês Nacional da Infância — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-volunteers-month-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Volunteers Month (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Volunteers Month (Philippines) — Philippines",
+        "it": "Mese nazionale dei volontari — Filippine",
+        "es": "Mes Nacional de los Voluntarios — Filipinas",
+        "fr": "Mois national du volontariat — Philippines",
+        "de": "Nationaler Freiwilligenmonat — Philippinen",
+        "pt": "Mês Nacional dos Voluntários — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-month-of-overseas-filipinos",
+      "country": "PH",
+      "canonicalTitleEn": "Month of Overseas Filipinos — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Month of Overseas Filipinos — Philippines",
+        "it": "Mese dei filippini all'estero — Filippine",
+        "es": "Mes de los Filipinos en el Extranjero — Filipinas",
+        "fr": "Mois des Philippins de l'étranger — Philippines",
+        "de": "Monat der im Ausland lebenden Philippiner — Philippinen",
+        "pt": "Mês dos Filipinos no Estrangeiro — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-rizal-month",
+      "country": "PH",
+      "canonicalTitleEn": "Rizal Month — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Rizal Month — Philippines",
+        "it": "Mese dedicato a José Rizal — Filippine",
+        "es": "Mes dedicado a José Rizal — Filipinas",
+        "fr": "Mois consacré à José Rizal — Philippines",
+        "de": "José-Rizal-Gedenkmonat — Philippinen",
+        "pt": "Mês dedicado a José Rizal — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-week-of-the-philippine-eagle",
+      "country": "PH",
+      "canonicalTitleEn": "Week of the Philippine Eagle — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Week of the Philippine Eagle — Philippines",
+        "it": "Settimana dell'aquila delle Filippine — Filippine",
+        "es": "Semana del Águila Filipina — Filipinas",
+        "fr": "Semaine de l'aigle des Philippines — Philippines",
+        "de": "Woche des Philippinenadlers — Philippinen",
+        "pt": "Semana da Águia-das-Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-linggo-ng-kalayaan",
+      "country": "PH",
+      "canonicalTitleEn": "Linggo ng Kalayaan — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Linggo ng Kalayaan — Philippines",
+        "it": "Settimana dell'indipendenza (Linggo ng Kalayaan) — Filippine",
+        "es": "Semana de la Independencia (Linggo ng Kalayaan) — Filipinas",
+        "fr": "Semaine de l'indépendance (Linggo ng Kalayaan) — Philippines",
+        "de": "Unabhängigkeitswoche (Linggo ng Kalayaan) — Philippinen",
+        "pt": "Semana da Independência (Linggo ng Kalayaan) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-culture-consciousness-week",
+      "country": "PH",
+      "canonicalTitleEn": "National Culture Consciousness Week — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Culture Consciousness Week — Philippines",
+        "it": "Settimana nazionale della consapevolezza culturale — Filippine",
+        "es": "Semana Nacional de Concienciación Cultural — Filipinas",
+        "fr": "Semaine nationale de sensibilisation culturelle — Philippines",
+        "de": "Nationale Woche des Kulturbewusstseins — Philippinen",
+        "pt": "Semana Nacional de Sensibilização Cultural — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-made-in-the-philippines-product-week",
+      "country": "PH",
+      "canonicalTitleEn": "Made in the Philippines Product Week — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Made in the Philippines Product Week — Philippines",
+        "it": "Settimana dei prodotti Made in the Philippines — Filippine",
+        "es": "Semana de los Productos Hechos en Filipinas — Filipinas",
+        "fr": "Semaine des produits fabriqués aux Philippines — Philippines",
+        "de": "Woche der Produkte aus den Philippinen — Philippinen",
+        "pt": "Semana dos Produtos Fabricados nas Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-coconut-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Coconut Week (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Coconut Week (Philippines) — Philippines",
+        "it": "Settimana nazionale del cocco — Filippine",
+        "es": "Semana Nacional del Coco — Filipinas",
+        "fr": "Semaine nationale de la noix de coco — Philippines",
+        "de": "Nationale Kokosnusswoche — Philippinen",
+        "pt": "Semana Nacional do Coco — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-world-clean-and-green-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "World Clean and Green Week (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "World Clean and Green Week (Philippines) — Philippines",
+        "it": "Settimana mondiale della pulizia e del verde — Filippine",
+        "es": "Semana Mundial de Limpieza y Medioambiente — Filipinas",
+        "fr": "Semaine mondiale de la propreté et de la verdure — Philippines",
+        "de": "Weltweite Woche für Sauberkeit und Grün — Philippinen",
+        "pt": "Semana Mundial da Limpeza e do Verde — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-united-nations-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "United Nations Week (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "United Nations Week (Philippines) — Philippines",
+        "it": "Settimana delle Nazioni Unite — Filippine",
+        "es": "Semana de las Naciones Unidas — Filipinas",
+        "fr": "Semaine des Nations unies — Philippines",
+        "de": "Woche der Vereinten Nationen — Philippinen",
+        "pt": "Semana das Nações Unidas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-national-book-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Book Week (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Book Week (Philippines) — Philippines",
+        "it": "Settimana nazionale del libro — Filippine",
+        "es": "Semana Nacional del Libro — Filipinas",
+        "fr": "Semaine nationale du livre — Philippines",
+        "de": "Nationale Buchwoche — Philippinen",
+        "pt": "Semana Nacional do Livro — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-18-day-campaign-to-end-violence-against-women-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "18-Day Campaign to End Violence Against Women (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "18-Day Campaign to End Violence Against Women (Philippines) — Philippines",
+        "it": "Campagna di 18 giorni contro la violenza sulle donne — Filippine",
+        "es": "Campaña de 18 Días contra la Violencia hacia las Mujeres — Filipinas",
+        "fr": "Campagne de 18 jours contre les violences faites aux femmes — Philippines",
+        "de": "18-tägige Kampagne gegen Gewalt an Frauen — Philippinen",
+        "pt": "Campanha de 18 Dias contra a Violência sobre as Mulheres — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-unknown-citizens-day",
+      "country": "PH",
+      "canonicalTitleEn": "Unknown Citizens' Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Unknown Citizens' Day — Philippines",
+        "it": "Giornata dei cittadini ignoti — Filippine",
+        "es": "Día de los Ciudadanos Desconocidos — Filipinas",
+        "fr": "Journée des citoyens inconnus — Philippines",
+        "de": "Tag der unbekannten Bürger — Philippinen",
+        "pt": "Dia dos Cidadãos Desconhecidos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-day-of-sanctity-and-protection-of-human-life-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Day of Sanctity and Protection of Human Life (Philippines) — Philippines",
+        "it": "Giornata della sacralità e tutela della vita umana — Filippine",
+        "es": "Día de la Santidad y Protección de la Vida Humana — Filipinas",
+        "fr": "Journée du caractère sacré et de la protection de la vie humaine — Philippines",
+        "de": "Tag der Unantastbarkeit und des Schutzes menschlichen Lebens — Philippinen",
+        "pt": "Dia da Santidade e Proteção da Vida Humana — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-children-s-day-philippines-january",
+      "country": "PH",
+      "canonicalTitleEn": "Children's Day (Philippines, January) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Children's Day (Philippines, January) — Philippines",
+        "it": "Giornata dei bambini (gennaio) — Filippine",
+        "es": "Día de la Infancia (enero) — Filipinas",
+        "fr": "Journée de l'enfance (janvier) — Philippines",
+        "de": "Kindertag (Januar) — Philippinen",
+        "pt": "Dia da Criança (janeiro) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-conflict-resolution-day-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Conflict Resolution Day (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Conflict Resolution Day (Philippines) — Philippines",
+        "it": "Giornata della risoluzione dei conflitti — Filippine",
+        "es": "Día de la Resolución de Conflictos — Filipinas",
+        "fr": "Journée de la résolution des conflits — Philippines",
+        "de": "Tag der Konfliktlösung — Philippinen",
+        "pt": "Dia da Resolução de Conflitos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-edsa-people-power-commemoration-week",
+      "country": "PH",
+      "canonicalTitleEn": "EDSA People Power Commemoration Week — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "EDSA People Power Commemoration Week — Philippines",
+        "it": "Settimana commemorativa della rivoluzione EDSA People Power — Filippine",
+        "es": "Semana de Conmemoración de la Revolución EDSA — Filipinas",
+        "fr": "Semaine commémorative de la révolution EDSA — Philippines",
+        "de": "Gedenkwoche der EDSA-People-Power-Revolution — Philippinen",
+        "pt": "Semana Comemorativa da Revolução EDSA — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w13-unesco-iti-world-theater-week-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "UNESCO–ITI World Theater Week (Philippines) — Philippines",
+        "it": "Settimana mondiale del teatro UNESCO–ITI — Filippine",
+        "es": "Semana Mundial del Teatro UNESCO–ITI — Filipinas",
+        "fr": "Semaine mondiale du théâtre UNESCO–ITI — Philippines",
+        "de": "UNESCO–ITI-Welt-Theaterwoche — Philippinen",
+        "pt": "Semana Mundial do Teatro UNESCO–ITI — Filipinas"
+      }
+    }
+  ]
+}
