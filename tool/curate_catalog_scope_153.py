@@ -121,6 +121,9 @@ def run():
     for loc in LOCALES:
         doc=packs[loc]
         doc["entries"]=[x for x in doc["entries"] if x["observanceId"] not in excluded]
+        for x in doc["entries"]:
+            if "relatedObservanceIds" in x:
+                x["relatedObservanceIds"]=[ref for ref in x["relatedObservanceIds"] if ref not in excluded]
         doc["entryCount"]=len(doc["entries"])
         assert doc["entryCount"]==AFTER
         write(ASSETS/f"editorial_{loc}.json",doc)
