@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Seconda pulizia + 1.280 traduzioni reali di titoli
+
+Dopo l'esclusione dei 153 anniversari biografici PH, una seconda scrematura archivia altri **11** compleanni/onomastici di singoli reali (6 SE e 5 NO): i calendari di esposizione della bandiera restano fonti archiviate, ma le loro date personali non vanno confuse con giornate mondiali o con festività civiche generali. Il catalogo consumer scende **da 958 a 947 ID**, sempre presenti nelle sei raccolte editoriali. I **164 ID esclusi** restano consultabili nelle fonti sorgente `data/market/`; 519 articoli precedenti più approfonditi sono conservati, mentre **428** sono ancora descrizioni contestuali senza ricostruzione individuale dell'origine storica.
+
+Completate e versionate **1.280 nuove traduzioni di titoli** in IT, ES, FR, DE, PT per **256 ID nazionali/culturali**: 156 date diplomatiche DFAT, 57 feste del calendario UE EURES e 43 periodi/campagne culturali NCCA delle Filippine. Titoli inglesi e ID immutati; gli esonimi dei Paesi provengono dai dati internazionali ICU/CLDR generati una tantum e registrati in JSON offline. Le schede contestuali con il vecchio titolo inglese vengono aggiornate nelle stesse lingue. Restano eventuali altri titoli da localizzare: l'audit genera il conteggio dei fallback inglesi residui, senza confonderli con la copertura editoriale (947/947 schede con corpo in sei lingue).
+
+Lotti disgiunti per **428** ricorrenze in attesa di una storia d'origine specifica: 100/100/100/100/28, per Paese. Questi sono pacchetti di ricerca, non nuove storie certificate o integrate. Target condizionato a CI exact-head/merge della relativa PR.
+
 ## 19 novembre 2026 — Audit totale catalogo e pulizia biografie (nuovo perimetro)
 
 Il catalogo sorgente censisce **1.111 ID**, mentre il catalogo **pubblicato nell'app** ne include ora **958**: esclusi con filtro deterministico **144 anniversari personali di nascita/morte Wave11 + 9 Wave10**. Sono storie da almanacco biografico, non giornate mondiali o ricorrenze civiche con un'autonoma designazione; restano archiviate con fonti e motivazione. Le vere giornate nazionali dedicate a una persona non sono automaticamente escluse. Fonte normativa: [Catalog Relevance Policy](docs/CATALOG_RELEVANCE_POLICY_20261119.md).
