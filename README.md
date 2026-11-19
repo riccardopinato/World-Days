@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Copertura titoli offline in tutte le sei lingue
+
+Completata l'ultima revisione dei titoli che risultavano identici all'inglese: **50 giornate civiche ufficiali della Corea del Sud** (fonte Ministry of Interior and Safety) localizzate in IT/ES/FR/DE/PT, oltre alla dicitura tedesca di *Safer Internet Day*. Si aggiungono **251 stringhe** alle 1.795 precedenti: **2.046 nuove localizzazioni di titoli** in totale; **409 ricorrenze nazionali/culturali con nuove cinque traduzioni** e una ricorrenza globale con un aggiornamento tedesco.
+
+L'audit di tutti i **947 ID** mostra come sola identità inglese residua il nome storico proprio **«Sette Giugno (Malta)»**, mantenuto nelle lingue in cui non necessita di traduzione; il francese ha già un titolo differente. Quindi **zero fallback inglesi impropri rilevati** nei titoli per IT/ES/FR/DE/PT. Canonical EN e ID invariati, anno d'istituzione mai inventato, archivi di 164 record non pertinenti preservati. La versione dei dati offline/OTA diventa `2026.11.19.6`.
+
+La presenza di descrizioni in **947 × 6 lingue** è completa per il catalogo consumer, ma rimangono **428 schede contestuali** senza una specifica ricerca storica individuale dell'origine; la revisione dei titoli non cambia tale status, né fabbrica 428 nuove storie.
+
 ## 19 novembre 2026 — Terza wave di titoli nazionali, 103 × 5 lingue
 
 Aggiunte e versionate altre **515 traduzioni di titoli** (103 ID × IT/ES/FR/DE/PT): **62** giornate e commemorazioni istituzionali di Slovacchia, Repubblica Ceca, Polonia, Svezia, Norvegia e Finlandia (Wave09) e **41** ricorrenze civiche filippine (Wave10). Gli **11** compleanni/onomastici reali e i **9** anniversari biografici filippini di queste wave rimangono esclusi, non rivivono. Titoli source-linked in `data/editorial/localizations/market_wave09_62_sixlocale_20261119.json` e `ph_wave10_41_sixlocale_20261119.json`.
