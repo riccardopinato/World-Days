@@ -22,6 +22,18 @@ DECADE_BEFORE = re.compile(
     re.IGNORECASE,
 )
 
+# Explicitly *unconfirmed* inaugural ceremony years are not established
+# chronology. This prevents a "1994 first event remains unknown" footnote from
+# becoming a false demand that every translation assert an inaugural 1994.
+# Scope is a small, evidence-bearing span, never all uses of that year.
+UNVERIFIED_FIRST_CEREMONY = re.compile(
+    r"\b(?:first|inaugural|earliest)\b.{0,70}?"
+    r"(?P<years>(?:1[5-9]\d{2}|20\d{2})"
+    r"(?:\s+(?:or|and)\s+(?:1[5-9]\d{2}|20\d{2}))*)"
+    r".{0,80}?\b(?:unknown|unverified|undocumented|not documented)\b",
+    re.IGNORECASE,
+)
+
 def exact_years(text: str) -> set[str]:
     """Do not count decade spans as exact years; preserve concrete years/ranges.
 
@@ -29,7 +41,11 @@ def exact_years(text: str) -> set[str]:
     2024-2033" names a precise bounded international programme.
     """
     result = set()
+    uncertain_spans = [m.span("years") for m in
+                       UNVERIFIED_FIRST_CEREMONY.finditer(text)]
     for match in YEARS.finditer(text):
+        if any(a <= match.start() < b for a, b in uncertain_spans):
+            continue
         year = int(match.group())
         preceding = text[max(0, match.start()-65):match.start()]
         if year % 10 == 0 and DECADE_BEFORE.search(preceding):
