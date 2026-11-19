@@ -43,7 +43,25 @@ class HistoricityTriageTests(unittest.TestCase):
         self.assertEqual(exact_years("dans les années 1940"), set())
         self.assertEqual(exact_years("en la década de 1940"), set())
         self.assertEqual(exact_years("na década de 1950"), set())
+        self.assertEqual(exact_years("en las décadas de 1930 y 1940"), set())
+        self.assertEqual(exact_years("nas décadas de 1930 e 1940"), set())
+        self.assertEqual(exact_years("des années 1930 et 1940"), set())
+        self.assertEqual(exact_years("Les années 2024-2033"), {"2024", "2033"})
+        self.assertEqual(exact_years("la Décennie couvre les années 2024–2033"),
+                         {"2024", "2033"})
+        self.assertEqual(exact_years("Proclamé en 2025"), {"2025"})
         self.assertEqual(exact_years("Law 20/2022 adopted in 2022"), {"2022"})
+
+    def test_unverified_first_ceremony_does_not_assert_year(self):
+        source = ("The event occurred in 1944. Act 241/1993 recognised it. "
+                  "An individually evidenced inaugural 1993 or 1994 memorial "
+                  "ceremony remains unknown.")
+        self.assertEqual(exact_years(source), {"1944", "1993"})
+        # Explicit chronology outside an uncertain first-ceremony clause persists.
+        self.assertEqual(exact_years("The first event was held in 1994."),
+                         {"1994"})
+        self.assertEqual(exact_years("The first ceremony in 1994 remains unverified."),
+                         set())
 
     def test_source_provenance_warnings(self):
         d = example()

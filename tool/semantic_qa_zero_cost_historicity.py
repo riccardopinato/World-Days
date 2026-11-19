@@ -15,17 +15,40 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d|s\b|er\b|er-)")
 DECADE_BEFORE = re.compile(
-    r"(?:\b(?:anni|années|annees|años|anos|década|decada|décennie|decennie|"
-    r"jahrzehnt|jahre|decade)\s+(?:(?:de|del|di|dos|des|of|the)\s+)?)$",
+    r"\b(?:anni|années|annees|años|anos|décadas?|decadas?|"
+    r"décennies?|decennies?|jahrzehnt|jahre|decades?)\s+"
+    r"(?:(?:de|del|di|dos|des|of|the)\s+)?"
+    r"(?:(?:1[5-9]\d{2}|20\d{2})\s*(?:y|e|et|and|und|or)\s*)?$",
+    re.IGNORECASE,
+)
+
+# Explicitly *unconfirmed* inaugural ceremony years are not established
+# chronology. This prevents a "1994 first event remains unknown" footnote from
+# becoming a false demand that every translation assert an inaugural 1994.
+# Scope is a small, evidence-bearing span, never all uses of that year.
+UNVERIFIED_FIRST_CEREMONY = re.compile(
+    r"\b(?:first|inaugural|earliest)\b.{0,70}?"
+    r"(?P<years>(?:1[5-9]\d{2}|20\d{2})"
+    r"(?:\s+(?:or|and)\s+(?:1[5-9]\d{2}|20\d{2}))*)"
+    r".{0,80}?\b(?:unknown|unverified|undocumented|not documented)\b",
     re.IGNORECASE,
 )
 
 def exact_years(text: str) -> set[str]:
-    """Exclude decades (1940s/1940er/anni 1940), not exact calendar years."""
+    """Do not count decade spans as exact years; preserve concrete years/ranges.
+
+    E.g. "décadas de 1930 y 1940" represents decades, while "années
+    2024-2033" names a precise bounded international programme.
+    """
     result = set()
+    uncertain_spans = [m.span("years") for m in
+                       UNVERIFIED_FIRST_CEREMONY.finditer(text)]
     for match in YEARS.finditer(text):
-        preceding = text[max(0, match.start()-45):match.start()]
-        if DECADE_BEFORE.search(preceding):
+        if any(a <= match.start() < b for a, b in uncertain_spans):
+            continue
+        year = int(match.group())
+        preceding = text[max(0, match.start()-65):match.start()]
+        if year % 10 == 0 and DECADE_BEFORE.search(preceding):
             continue
         result.add(match.group())
     return result
