@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 49,
+  "count": 50,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -4041,6 +4041,89 @@
       "humanFactReview": "PENDING",
       "humanSixLocaleReview": "PENDING",
       "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-local-government-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2018,
+      "firstObservedYear": 2016,
+      "commemoratedEventYear": null,
+      "dateReason": "1 October marks local self-government milestones in 1866 and 1990; first national gathering held on 4 October 2016",
+      "dateRule": "October 1",
+      "institution": "Riigikogu (legal designation); Polis association and partners (earlier observance)",
+      "sources": [
+        "https://www.riigikogu.ee/en/sitting-reviews/bill-local-government-day-passed-first-reading-riigikogu/",
+        "https://www.riigikogu.ee/pressiteated/riigikogus-tahistatakse-eesti-esimest-omavalitsuspaeva/",
+        "https://www.polismtu.ee/foorumid/omavalitsuspaevad/omavalitsuspaeva-kujunemine/"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Local Government Day: the roots of community self-rule",
+          "origin": "Estonia marks Local Government Day on 1 October. Community organizers held an early national gathering at the Riigikogu on 4 October 2016. Parliament adopted the legislation designating 1 October a day of national importance on 29 May 2018. The observance connects present-day municipal democracy with the history of local self-government.",
+          "promoter": "The Polis association and partners helped establish the public observance; six parliamentary factions initiated the 2018 legislative proposal, which the Riigikogu adopted.",
+          "purpose": "The day recognizes the role of municipalities in building, restoring and developing Estonia and encourages residents to engage with local decisions.",
+          "facts": [
+            "The Riigikogu hosted a first national Local Government Day event on 4 October 2016.",
+            "The Riigikogu adopted the national observance on 29 May 2018.",
+            "The date 1 October recalls local-administration milestones in 1866 and 1990."
+          ]
+        },
+        "it": {
+          "heading": "Giornata delle autonomie locali in Estonia: le radici dell'autogoverno",
+          "origin": "L'Estonia celebra il 1° ottobre la Giornata delle autonomie locali. Un primo incontro nazionale si svolse al Riigikogu il 4 ottobre 2016. Il 29 maggio 2018 il Parlamento approvò la legge che riconosce il 1° ottobre come ricorrenza di importanza nazionale. La giornata collega la democrazia municipale odierna alla storia dell'autogoverno locale.",
+          "promoter": "L'associazione Polis e i suoi partner contribuirono ad avviare la ricorrenza; sei gruppi parlamentari presentarono la proposta legislativa del 2018, poi approvata dal Riigikogu.",
+          "purpose": "Riconoscere il contributo dei comuni alla nascita, alla ricostituzione e allo sviluppo dell'Estonia e favorire la partecipazione alle decisioni locali.",
+          "facts": [
+            "Il Riigikogu ospitò un primo evento nazionale il 4 ottobre 2016.",
+            "Il Parlamento riconobbe la ricorrenza il 29 maggio 2018.",
+            "Il 1° ottobre richiama tappe dell'amministrazione locale del 1866 e del 1990."
+          ]
+        },
+        "es": {
+          "heading": "Día del Gobierno Local en Estonia: las raíces de la autonomía municipal",
+          "origin": "Estonia celebra el Día del Gobierno Local el 1 de octubre. Una primera reunión nacional se celebró en el Riigikogu el 4 de octubre de 2016. El Parlamento aprobó el 29 de mayo de 2018 la ley que reconoció el 1 de octubre como fecha de importancia nacional. La conmemoración vincula la democracia municipal actual con la historia del autogobierno.",
+          "promoter": "La asociación Polis y sus colaboradores impulsaron la celebración; seis grupos parlamentarios promovieron la iniciativa legislativa de 2018, aprobada por el Riigikogu.",
+          "purpose": "Reconocer la contribución de los municipios a la creación, recuperación y desarrollo de Estonia y fomentar la participación ciudadana en las decisiones locales.",
+          "facts": [
+            "El Riigikogu acogió un primer encuentro nacional el 4 de octubre de 2016.",
+            "El Parlamento aprobó la conmemoración el 29 de mayo de 2018.",
+            "El 1 de octubre recuerda hitos de la administración local de 1866 y 1990."
+          ]
+        },
+        "fr": {
+          "heading": "Journée des collectivités locales en Estonie : les racines de l'autonomie",
+          "origin": "L'Estonie célèbre la Journée des collectivités locales le 1er octobre. Une première rencontre nationale s'est tenue au Riigikogu le 4 octobre 2016. Le Parlement a adopté le 29 mai 2018 la loi reconnaissant le 1er octobre comme journée d'importance nationale. Cette commémoration relie la démocratie municipale actuelle à l'histoire de l'autonomie locale.",
+          "promoter": "L'association Polis et ses partenaires ont contribué à lancer la célébration ; six groupes parlementaires ont porté la proposition de loi de 2018, adoptée par le Riigikogu.",
+          "purpose": "Reconnaître le rôle des municipalités dans la création, le rétablissement et le développement de l'Estonie et encourager la participation aux décisions locales.",
+          "facts": [
+            "Le Riigikogu a accueilli une première rencontre nationale le 4 octobre 2016.",
+            "Le Parlement a adopté la reconnaissance officielle le 29 mai 2018.",
+            "Le 1er octobre évoque des étapes de l'administration locale en 1866 et 1990."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Tag der kommunalen Selbstverwaltung: Geschichte lokaler Demokratie",
+          "origin": "Estland begeht den Tag der kommunalen Selbstverwaltung am 1. Oktober. Eine erste landesweite Veranstaltung fand am 4. Oktober 2016 im Riigikogu statt. Am 29. Mai 2018 verabschiedete das Parlament das Gesetz, das den 1. Oktober als national bedeutsamen Gedenktag anerkennt. Der Tag verbindet heutige Kommunaldemokratie mit der Geschichte örtlicher Selbstverwaltung.",
+          "promoter": "Der Verein Polis und seine Partner förderten die Veranstaltung; sechs Parlamentsfraktionen brachten den Gesetzentwurf von 2018 ein, den das Riigikogu verabschiedete.",
+          "purpose": "Die Rolle der Gemeinden bei Gründung, Wiederherstellung und Entwicklung Estlands würdigen und die Beteiligung an kommunalen Entscheidungen stärken.",
+          "facts": [
+            "Am 4. Oktober 2016 fand im Riigikogu eine erste landesweite Veranstaltung statt.",
+            "Das Parlament beschloss die gesetzliche Anerkennung am 29. Mai 2018.",
+            "Der 1. Oktober erinnert an kommunale Meilensteine von 1866 und 1990."
+          ]
+        },
+        "pt": {
+          "heading": "Dia do Governo Local na Estónia: as raízes da autonomia municipal",
+          "origin": "A Estónia assinala o Dia do Governo Local em 1 de outubro. Um primeiro encontro nacional realizou-se no Riigikogu em 4 de outubro de 2016. Em 29 de maio de 2018, o Parlamento aprovou a lei que reconheceu 1 de outubro como data de importância nacional. A celebração liga a democracia municipal atual à história da autonomia local.",
+          "promoter": "A associação Polis e os seus parceiros ajudaram a lançar a celebração; seis grupos parlamentares apresentaram a proposta legislativa de 2018, aprovada pelo Riigikogu.",
+          "purpose": "Reconhecer o papel dos municípios na criação, recuperação e desenvolvimento da Estónia e incentivar a participação nas decisões locais.",
+          "facts": [
+            "O Riigikogu acolheu um primeiro encontro nacional em 4 de outubro de 2016.",
+            "O Parlamento aprovou o reconhecimento em 29 de maio de 2018.",
+            "O dia 1 de outubro recorda marcos da administração local de 1866 e 1990."
+          ]
+        }
+      }
     }
   ]
 }
