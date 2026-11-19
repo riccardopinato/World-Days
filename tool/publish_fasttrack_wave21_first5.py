@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data/editorial/published/wave21_fasttrack_first5_six_locale_20261119.json"
 DATA = ROOT / "assets/data"
 LANG = ("en", "it", "es", "fr", "de", "pt")
-STATUS = "AI_REVIEWED_SIX_LOCALE"
+STATUS = "AI_SOURCE_REVIEWED_SIX_LOCALE"
 YEARS = re.compile(r"\b(?:18|19|20)\d{2}\b")
 LABELS = {
     "en": "Originating or supporting institutions",
