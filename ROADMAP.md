@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Wave21 Fast Track 5 nuove storie × 6 lingue
+
+- [x] Redatti 5 dossier storici originali in sei lingue, con fonti parlamentari/governative e cronologia per Messico, Norvegia, Spagna, Polonia, Croazia.
+- [x] Aggiunto importatore additivo e controlli di coorte, duplicati, corrispondenza ID catalogo, parità delle lingue e degli anni.
+- [x] Collegati importazione e test a CI, deploy Web e build Android; incrementata versione del contenuto `2026.11.19.1`.
+- [ ] Verificare CI exact-head e merge della PR prima di dichiarare **507 complete / 0 bilingui / 604 sospese** integrate.
+- [ ] Proseguire con le altre 604 ID canoniche, senza certificazioni professionali esterne superflue.
+
 ## 15 November 2026 — CLOSED: 183/183 historical dossiers AI-certified in six locales, integrated into main
 
 - **Merged:** [World Days PR #138](https://github.com/riccardopinato/World-Days/pull/138); protected `main` commit `8be150f39c83df90365fdd935382179713282d28`.
