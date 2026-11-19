@@ -90,6 +90,10 @@ def main():
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k:v for k,v in result.items() if k!="findings"}, ensure_ascii=False))
+    print(json.dumps({"findingsBrief": [{"id": r["id"], "locale": r["locale"],
+              "code": r["code"], "sourceYears": r["sourceYears"],
+              "targetYears": r["targetYears"]} for r in result["findings"][:100]]},
+              ensure_ascii=False))
 
 if __name__ == "__main__":
     main()
