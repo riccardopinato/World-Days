@@ -72,7 +72,7 @@ def collect(root: Path = ROOT) -> dict:
                 "id": rid, "source": source, "translations": translations,
                 "protectedTerms": [
                     word for word in ("UNESCO", "UNICEF", "WHO", "FAO", "ILO",
-                                     "UNHCR", "UNESCO", "PS752")
+                                     "UNHCR", "PS752")
                     if word.casefold() in json.dumps(source, ensure_ascii=False).casefold()
                 ],
                 "sourceRefs": item.get("sources", []),
