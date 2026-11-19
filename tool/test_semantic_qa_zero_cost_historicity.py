@@ -25,6 +25,16 @@ class HistoricityTriageTests(unittest.TestCase):
         self.assertTrue(any(f["code"]=="CANONICAL_YEAR_NOT_PRESERVED"
                             and f["locale"]=="es" for f in x["findings"]))
 
+    def test_decade_is_not_a_single_calendar_year(self):
+        d = example()
+        d["records"][0]["source"] = {
+            "origin": "The initiative began during the early 1990s."}
+        d["records"][0]["translations"] = {
+            "it": {"origin": "L'iniziativa nacque negli anni Novanta."},
+            "es": {"origin": "La iniciativa empezó en los años noventa."}}
+        out = triage(d)
+        self.assertNotIn("CANONICAL_YEAR_NOT_PRESERVED", out["codes"])
+
     def test_source_provenance_warnings(self):
         d = example()
         d["records"][0]["sourceRefs"] = []
