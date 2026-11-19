@@ -63,6 +63,8 @@ jobs:
           python3 tool/validate_prepared_485_reachability.py
           python3 tool/publish_ai_183_translations.py
           python3 tool/validate_ai_183_translations.py
+          python3 tool/publish_fasttrack_wave21_first5.py
+          python3 tool/validate_fasttrack_wave21_first5.py
           python3 tool/build_content_pack.py
 
       - name: Build Web
