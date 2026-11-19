@@ -1,3 +1,13 @@
+## 19 novembre 2026 — Traduzione source-anchored di altre 103 ricorrenze
+
+- [x] Completati 62 titoli Wave09 (Slovacchia, Cechia, Polonia, Svezia, Norvegia, Finlandia), escluse le 11 date personali reali già archiviate.
+- [x] Completati 41 titoli Wave10 sulle giornate civiche delle Filippine, escluse le 9 date individuali di nascita/morte.
+- [x] Ulteriori 515 stringhe IT/ES/FR/DE/PT, per complessivi **359 ID** e **1.795 nuove stringhe** localizzate su 947 ID pubblicati; preservata la versione inglese e localizzati offline gli esonimi nazionali.
+- [x] Aggiornamento del titolo richiamato nel testo editoriale contestuale (non forzare riscritture delle 519 storie editoriali più approfondite).
+- [x] Dataset/versione content pack **2026.11.19.5**, importazione in cinque build path e QA dei 947 record/164 archiviati.
+- [ ] CI/merge exact-head, poi verificare il residuo di stringhe titolo ancora identiche all'inglese per distinguere nomi propri corretti da fallback.
+- [ ] Completare la documentazione storica *individuale* delle 428 schede contestuali con 100 ID non duplicati per wave; nessuna credenziale editoriale professionale obbligatoria per la normale app di intrattenimento.
+
 ## 19 novembre 2026 — Pulizia royal flags e localizzazione massiva 256 × 5
 
 - [x] Audit aggiuntivo dei calendari ufficiali SE/NO: **11** date individuali di compleanni e onomastici reali (6 Svezia, 5 Norvegia) senza autonoma funzione di giornata mondiale; ricorrenze di bandiera archiviate, non pubblicate come eventi World Days.

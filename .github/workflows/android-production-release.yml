@@ -104,6 +104,8 @@ jobs:
           python3 tool/apply_market_title_213_localizations.py
           python3 tool/apply_ph_ncca_title_43.py
           python3 tool/validate_royal11_and_title213.py
+          python3 tool/apply_remaining_103_market_titles.py
+          python3 tool/validate_remaining_103_titles.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
