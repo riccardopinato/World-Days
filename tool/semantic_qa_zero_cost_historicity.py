@@ -13,15 +13,15 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-YEARS = re.compile(r"(?<!\\d)(?:1[5-9]\\d{2}|20\\d{2})(?!\\d|s\\b|er\\b|er-)")
+YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d|s\b|er\b|er-)")
 DECADE_BEFORE = re.compile(
-    r"(?:\\b(?:anni|années|annees|años|anos|década|decada|décennie|decennie|"
-    r"jahrzehnt|jahre|decade)\\s+(?:(?:de|del|di|dos|des|of|the)\\s+)?)$",
+    r"(?:\b(?:anni|années|annees|años|anos|década|decada|décennie|decennie|"
+    r"jahrzehnt|jahre|decade)\s+(?:(?:de|del|di|dos|des|of|the)\s+)?)$",
     re.IGNORECASE,
 )
 
 def exact_years(text: str) -> set[str]:
-    """Exclude decade ranges (1940s/1940er/anni 1940), not exact calendar years."""
+    """Exclude decades (1940s/1940er/anni 1940), not exact calendar years."""
     result = set()
     for match in YEARS.finditer(text):
         preceding = text[max(0, match.start()-45):match.start()]
