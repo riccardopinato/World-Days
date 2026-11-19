@@ -16,7 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLISHED = ROOT / "data/editorial/published"
 INPUT = ROOT / "build/semantic_qa/world_days_input.json"
 LANGS = ("it", "es", "fr", "de", "pt")
-FIELDS = ("heading", "origin", "promoter", "purpose", "facts")
+FIELDS = ("heading", "hook", "summary", "origin", "promoter", "purpose",
+          "whyThisDate", "whyItMatters", "facts", "quickFacts",
+          "waysToTakePart")
 
 def read(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
@@ -32,6 +34,9 @@ def text_fields(record: dict) -> dict:
                 out[key] = value if isinstance(value, list) else [str(value)]
             else:
                 out[key] = value if isinstance(value, str) else str(value)
+    if "facts" not in out and "fact" in record:
+        value = record["fact"]
+        out["facts"] = [value] if isinstance(value, str) else value
     return out
 
 def collect(root: Path = ROOT) -> dict:
@@ -75,7 +80,7 @@ def collect(root: Path = ROOT) -> dict:
                                      "UNHCR", "PS752")
                     if word.casefold() in json.dumps(source, ensure_ascii=False).casefold()
                 ],
-                "sourceRefs": item.get("sources", []),
+                "sourceRefs": item.get("sources") or item.get("sourceUrls") or [],
                 "context": {
                     "introducedYear": item.get("introducedYear"),
                     "firstObservedYear": item.get("firstObservedYear"),
