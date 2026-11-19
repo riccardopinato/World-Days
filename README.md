@@ -1,3 +1,11 @@
+## 19 novembre 2026 — Fast Track parallelo: 604 schede contestuali × 6 lingue
+
+Nuova corsia massiva **6 lotti da 100 ID + 1 da 4**, con sette task locali di elaborazione contemporanea su ID canonici disgiunti. Importazione deterministica e deduplicata dopo i **507 articoli storici/editoriali preesistenti**. Contenuto nel dataset e Web pack: titolo localizzato, narrazione contestuale, anno di introduzione se noto (altrimenti *), data valida per il 2026, ente riportato nel catalogo, tre fatti di catalogo, collegamento alle fonti canoniche e due inviti ad approfondire, nelle sei lingue EN/IT/ES/FR/DE/PT.
+
+**Distinzione editoriale obbligatoria:** le **604 nuove schede sono contestuali e basate sui metadati del catalogo**, non 604 narrazioni storiche di origine ricostruite singolarmente. Il nuovo stato `AI_CONTEXTUAL_SIX_LOCALE` presenta nell'app un avviso localizzato; non devono essere indicate come storie d'origine verificate. La copertura *descrittiva* dei 1.111 ID in tutte le lingue è un obiettivo condizionato a CI e merge, non una dichiarazione di verifica storica individuale. Si continua a sviluppare gli approfondimenti storici veri per i 604 ID con questa modalità a lotti paralleli.
+
+La pipeline aggiorna `tool/fasttrack_parallel_604_contextual.py`, `tool/validate_fasttrack_parallel_604.py`, sei destinazioni editoriale, CI/Web/Android e limite del content pack a 16 MiB. Nessun rilascio store automatico.
+
 ## Wave21 Fast Track — cinque nuove storie in sei lingue (19 novembre 2026)
 
 Nuovo blocco **5 ID unici** in EN/IT/ES/FR/DE/PT: `mexico-constitution-day`, `no-constitution-day`, `constitution-day-spain`, `pl-constitution-day`, `hr-statehood-day`. L'importazione avviene **dopo** la pipeline esistente dei 502; il nuovo test impone **507/1.111 completi, 0 solo IT/EN, 604 in sospeso**. Le fonti sono i rispettivi governi/parlamenti; i testi sono stati creati e ricontrollati con IA senza fingere revisioni professionali esterne. La fonte e le sei traduzioni sono in `data/editorial/published/wave21_fasttrack_first5_six_locale_20261119.json`.

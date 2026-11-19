@@ -18,6 +18,8 @@ python3 tool/publish_ai_183_translations.py >/dev/null
 python3 tool/validate_ai_183_translations.py >/dev/null
 python3 tool/publish_fasttrack_wave21_first5.py >/dev/null
 python3 tool/validate_fasttrack_wave21_first5.py >/dev/null
+python3 tool/fasttrack_parallel_604_contextual.py >/dev/null
+python3 tool/validate_fasttrack_parallel_604.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then

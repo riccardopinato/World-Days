@@ -138,6 +138,20 @@ class _ObservanceDetailPageState extends State<ObservanceDetailPage> {
           ),
           const SizedBox(height: 24),
           if (editorial != null) ...[
+            if (editorial.status == 'AI_CONTEXTUAL_SIX_LOCALE') ...[
+              Text(
+                switch (localeCode.toLowerCase()) {
+                  'it' => 'Scheda descrittiva basata sui dati del catalogo e localizzata con IA. L\'origine storica specifica non è stata ricostruita individualmente.',
+                  'es' => 'Ficha descriptiva basada en datos del catálogo y localizada con IA. No se ha investigado individualmente su origen histórico.',
+                  'fr' => 'Fiche descriptive fondée sur les données du catalogue et localisée avec l\'IA. Son origine historique précise n\'a pas été recherchée individuellement.',
+                  'de' => 'Beschreibender Artikel auf Grundlage der Katalogdaten, mit KI lokalisiert. Die konkrete historische Entstehung wurde nicht einzeln recherchiert.',
+                  'pt' => 'Ficha descritiva baseada nos dados do catálogo e localizada com IA. A origem histórica específica não foi investigada individualmente.',
+                  _ => 'Contextual article based on catalog data and localized with AI. Its specific historical founding has not been individually researched.',
+                },
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              const SizedBox(height: 12),
+            ],
             if (editorial.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE' ||
                 editorial.status == 'AI_CERTIFIED_TRANSLATION_SIX_LOCALE') ...[
               Text(
