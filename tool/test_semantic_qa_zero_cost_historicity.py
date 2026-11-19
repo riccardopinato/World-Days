@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Offline historical-anchor triage tests; no provider or network."""
 import unittest
-from semantic_qa_zero_cost_historicity import triage
+from semantic_qa_zero_cost_historicity import triage, exact_years
 
 def example():
     return {"adapter": "world_days_published_editorial",
@@ -34,6 +34,16 @@ class HistoricityTriageTests(unittest.TestCase):
             "es": {"origin": "La iniciativa empezó en los años noventa."}}
         out = triage(d)
         self.assertNotIn("CANONICAL_YEAR_NOT_PRESERVED", out["codes"])
+
+    def test_exact_years_not_decade_language_noise(self):
+        self.assertEqual(exact_years("The day began in 1917."), {"1917"})
+        self.assertEqual(exact_years("The 1940s and 1950s were different."), set())
+        self.assertEqual(exact_years("in den 1940er-Jahren"), set())
+        self.assertEqual(exact_years("negli anni 1940"), set())
+        self.assertEqual(exact_years("dans les années 1940"), set())
+        self.assertEqual(exact_years("en la década de 1940"), set())
+        self.assertEqual(exact_years("na década de 1950"), set())
+        self.assertEqual(exact_years("Law 20/2022 adopted in 2022"), {"2022"})
 
     def test_source_provenance_warnings(self):
         d = example()
