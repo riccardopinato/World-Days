@@ -223,14 +223,14 @@ void main() {
     }
   });
 
-  test('95 six-locale source-reviewed articles retain status parity', () async {
+  test('107 six-locale source-reviewed articles retain status parity', () async {
     final snapshot = await const CatalogRepository().load();
     const languages = ['en', 'it', 'es', 'fr', 'de', 'pt'];
     for (final lang in languages) {
       final pack = snapshot.editorialByLocale[lang]!;
       expect(pack.values.where(
         (entry) => entry.status == 'AI_SOURCE_REVIEWED_SIX_LOCALE',
-      ).length, 95);
+      ).length, 107);
       for (final id in <String>[
         'sk-carpathian-dukla-operation-heroes-day',
         'spain-exile-victims-remembrance-day',
