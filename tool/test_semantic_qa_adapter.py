@@ -7,7 +7,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-PATH=Path(__file__).resolve().parents[1]/"semantic_qa_adapter.py"
+PATH=Path(__file__).resolve().parent/"semantic_qa_adapter.py"
 spec=importlib.util.spec_from_file_location("world_semantic_adapter", PATH)
 adapter=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(adapter)
