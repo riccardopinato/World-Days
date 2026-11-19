@@ -18,7 +18,7 @@ for locale in LANG:
     else: assert observed == sequence, ("translation order mismatch", locale)
     for row in records[-5:]:
         assert row["locale"] == locale
-        assert row["status"] == "AI_REVIEWED_SIX_LOCALE"
+        assert row["status"] == "AI_SOURCE_REVIEWED_SIX_LOCALE"
         assert row["hook"] and row["summary"] and len(row["origin"]) >= 140
         assert len(row["quickFacts"]) == 3
         assert row["institutionalSourceUrls"]
