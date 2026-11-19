@@ -108,6 +108,9 @@ jobs:
           python3 tool/queue_remaining_592_origins.py
           python3 tool/curate_catalog_scope_153.py
           python3 tool/validate_catalog_scope_153.py
+          python3 tool/curate_royal_personal_11.py
+          python3 tool/apply_market_title_213_localizations.py
+          python3 tool/validate_royal11_and_title213.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
