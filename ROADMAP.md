@@ -1,3 +1,13 @@
+## 19 novembre 2026 — Upgrade storico 604, prima wave verificata
+
+- [x] Audit fattuale di tutti i 604 ID descrittivi: **604 nazionali**, **12** con anno introduttivo collegato a fonte, **18** con riferimento formale e **10** con entrambi.
+- [x] Ricerca web mirata su fonti originarie (Gazzetta Ufficiale italiana, Governo federale tedesco, Diário da República portoghese, BOE e Moncloa spagnoli, Governo britannico, National Archives USA, Libera) e stesura di **12** storie specifiche originali localizzate in sei lingue.
+- [x] Importazione per sostituzione a ID immutabili: **507 articoli non contestuali precedenti + 12 nuove storie specifiche = 519**; il totale editoriale per lingua resta 1.111.
+- [x] QA dei riferimenti specifici e delle sei lingue, senza affermare certificazioni di revisori professionisti esterni.
+- [x] Generatore di backlog residuo per Paese con **592 ID**, sei lotti disgiunti da 100/100/100/100/100/92, fonti di partenza e campi storici da provare esplicitamente in sospeso.
+- [ ] CI exact-head e merge della PR prima di dichiarare integrazione dei dodici nuovi approfondimenti.
+- [ ] Ricercare in parallelo nuove fonti istituzionali per i 592 casi senza storia d'origine individuale; non promuovere schede generiche al livello di storia storica solo per completare un lotto numerico.
+
 ## 19 novembre 2026 — Fast Track IA: 7 corsie da 100/100/100/100/100/100/4
 
 - [x] Registrate sette corsie indipendenti dalla differenza esatta **1.111 canonici - 507 già completi = 604**; sottoinsiemi disgiunti e ordinati, zero sovrascritture.
