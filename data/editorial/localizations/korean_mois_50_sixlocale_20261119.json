@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-19",
+  "count": 50,
+  "source": "korean_mois_w10_official_commemorations",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "observanceId": "kr-w10-february-28-democracy-movement-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "February 28 Democracy Movement Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "February 28 Democracy Movement Remembrance — South Korea",
+        "it": "Commemorazione del movimento democratico del 28 febbraio — Corea del Sud",
+        "es": "Conmemoración del Movimiento Democrático del 28 de Febrero — Corea del Sur",
+        "fr": "Commémoration du mouvement démocratique du 28 février — Corée du Sud",
+        "de": "Gedenktag der Demokratiebewegung vom 28. Februar — Südkorea",
+        "pt": "Comemoração do Movimento Democrático de 28 de Fevereiro — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-taxpayers-day",
+      "country": "KR",
+      "canonicalTitleEn": "Taxpayers Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Taxpayers Day — South Korea",
+        "it": "Giornata dei contribuenti — Corea del Sud",
+        "es": "Día de los Contribuyentes — Corea del Sur",
+        "fr": "Journée des contribuables — Corée du Sud",
+        "de": "Tag der Steuerzahlenden — Südkorea",
+        "pt": "Dia dos Contribuintes — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-march-8-democracy-uprising-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "March 8 Democracy Uprising Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "March 8 Democracy Uprising Remembrance — South Korea",
+        "it": "Commemorazione dell'insurrezione democratica dell'8 marzo — Corea del Sud",
+        "es": "Conmemoración del Levantamiento Democrático del 8 de Marzo — Corea del Sur",
+        "fr": "Commémoration du soulèvement démocratique du 8 mars — Corée du Sud",
+        "de": "Gedenktag des demokratischen Aufstands vom 8. März — Südkorea",
+        "pt": "Comemoração da Revolta Democrática de 8 de Março — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-march-15-democratic-uprising-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "March 15 Democratic Uprising Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "March 15 Democratic Uprising Remembrance — South Korea",
+        "it": "Commemorazione dell'insurrezione democratica del 15 marzo — Corea del Sud",
+        "es": "Conmemoración del Levantamiento Democrático del 15 de Marzo — Corea del Sur",
+        "fr": "Commémoration du soulèvement démocratique du 15 mars — Corée du Sud",
+        "de": "Gedenktag des demokratischen Aufstands vom 15. März — Südkorea",
+        "pt": "Comemoração da Revolta Democrática de 15 de Março — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-commerce-and-industry-day",
+      "country": "KR",
+      "canonicalTitleEn": "Commerce and Industry Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Commerce and Industry Day — South Korea",
+        "it": "Giornata del commercio e dell'industria — Corea del Sud",
+        "es": "Día del Comercio y la Industria — Corea del Sur",
+        "fr": "Journée du commerce et de l'industrie — Corée du Sud",
+        "de": "Tag von Handel und Industrie — Südkorea",
+        "pt": "Dia do Comércio e da Indústria — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-west-sea-defense-day",
+      "country": "KR",
+      "canonicalTitleEn": "West Sea Defense Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "West Sea Defense Day — South Korea",
+        "it": "Giornata della difesa del Mare Occidentale — Corea del Sud",
+        "es": "Día de la Defensa del Mar Occidental — Corea del Sur",
+        "fr": "Journée de la défense de la mer de l'Ouest — Corée du Sud",
+        "de": "Tag der Verteidigung des Westmeers — Südkorea",
+        "pt": "Dia da Defesa do Mar Ocidental — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-jeju-april-3-victims-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Jeju April 3 Victims Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Jeju April 3 Victims Remembrance Day — South Korea",
+        "it": "Giornata in memoria delle vittime del 3 aprile a Jeju — Corea del Sud",
+        "es": "Día de recuerdo de las víctimas del 3 de abril de Jeju — Corea del Sur",
+        "fr": "Journée du souvenir des victimes du 3 avril à Jeju — Corée du Sud",
+        "de": "Gedenktag für die Opfer des 3. April auf Jeju — Südkorea",
+        "pt": "Dia em Memória das Vítimas de 3 de Abril em Jeju — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-reserve-forces-day",
+      "country": "KR",
+      "canonicalTitleEn": "Reserve Forces Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Reserve Forces Day — South Korea",
+        "it": "Giornata dei riservisti — Corea del Sud",
+        "es": "Día de las Fuerzas de Reserva — Corea del Sur",
+        "fr": "Journée des forces de réserve — Corée du Sud",
+        "de": "Tag der Reservekräfte — Südkorea",
+        "pt": "Dia das Forças de Reserva — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-arbor-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Arbor Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Arbor Day in Korea — South Korea",
+        "it": "Giornata degli alberi — Corea del Sud",
+        "es": "Día del Árbol — Corea del Sur",
+        "fr": "Journée de l'arbre — Corée du Sud",
+        "de": "Tag des Baumes — Südkorea",
+        "pt": "Dia da Árvore — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-korean-public-health-day",
+      "country": "KR",
+      "canonicalTitleEn": "Korean Public Health Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Korean Public Health Day — South Korea",
+        "it": "Giornata della sanità pubblica coreana — Corea del Sud",
+        "es": "Día de la Salud Pública Coreana — Corea del Sur",
+        "fr": "Journée coréenne de la santé publique — Corée du Sud",
+        "de": "Koreanischer Tag der öffentlichen Gesundheit — Südkorea",
+        "pt": "Dia da Saúde Pública Coreana — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-provisional-government-establishment-day",
+      "country": "KR",
+      "canonicalTitleEn": "Provisional Government Establishment Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Provisional Government Establishment Day — South Korea",
+        "it": "Giornata della fondazione del governo provvisorio — Corea del Sud",
+        "es": "Día de la Fundación del Gobierno Provisional — Corea del Sur",
+        "fr": "Journée de la fondation du gouvernement provisoire — Corée du Sud",
+        "de": "Gründungstag der provisorischen Regierung — Südkorea",
+        "pt": "Dia da Fundação do Governo Provisório — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-april-19-revolution-day",
+      "country": "KR",
+      "canonicalTitleEn": "April 19 Revolution Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "April 19 Revolution Day — South Korea",
+        "it": "Giornata della Rivoluzione del 19 aprile — Corea del Sud",
+        "es": "Día de la Revolución del 19 de Abril — Corea del Sur",
+        "fr": "Journée de la révolution du 19 avril — Corée du Sud",
+        "de": "Tag der Aprilrevolution vom 19. April — Südkorea",
+        "pt": "Dia da Revolução de 19 de Abril — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-day-of-persons-with-disabilities-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Day of Persons with Disabilities in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Day of Persons with Disabilities in Korea — South Korea",
+        "it": "Giornata delle persone con disabilità — Corea del Sud",
+        "es": "Día de las Personas con Discapacidad — Corea del Sur",
+        "fr": "Journée des personnes handicapées — Corée du Sud",
+        "de": "Tag der Menschen mit Behinderungen — Südkorea",
+        "pt": "Dia das Pessoas com Deficiência — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-science-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Science Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Science Day in Korea — South Korea",
+        "it": "Giornata della scienza — Corea del Sud",
+        "es": "Día de la Ciencia — Corea del Sur",
+        "fr": "Journée de la science — Corée du Sud",
+        "de": "Tag der Wissenschaft — Südkorea",
+        "pt": "Dia da Ciência — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-information-and-communications-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Information and Communications Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Information and Communications Day in Korea — South Korea",
+        "it": "Giornata dell'informazione e delle comunicazioni — Corea del Sud",
+        "es": "Día de la Información y las Comunicaciones — Corea del Sur",
+        "fr": "Journée de l'information et des communications — Corée du Sud",
+        "de": "Tag der Information und Kommunikation — Südkorea",
+        "pt": "Dia da Informação e das Comunicações — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-law-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Law Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Law Day in Korea — South Korea",
+        "it": "Giornata della legge — Corea del Sud",
+        "es": "Día de la Ley — Corea del Sur",
+        "fr": "Journée du droit — Corée du Sud",
+        "de": "Tag des Rechts — Südkorea",
+        "pt": "Dia da Lei — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-admiral-yi-sun-sin-birthday-commemoration",
+      "country": "KR",
+      "canonicalTitleEn": "Admiral Yi Sun-sin Birthday Commemoration — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Admiral Yi Sun-sin Birthday Commemoration — South Korea",
+        "it": "Giornata commemorativa della nascita dell'ammiraglio Yi Sun-sin — Corea del Sud",
+        "es": "Conmemoración del nacimiento del almirante Yi Sun-sin — Corea del Sur",
+        "fr": "Commémoration de la naissance de l'amiral Yi Sun-sin — Corée du Sud",
+        "de": "Gedenktag zur Geburt von Admiral Yi Sun-sin — Südkorea",
+        "pt": "Comemoração do nascimento do almirante Yi Sun-sin — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-fallen-military-service-members-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Fallen Military Service Members Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Fallen Military Service Members Remembrance Day — South Korea",
+        "it": "Giornata in memoria dei militari caduti — Corea del Sud",
+        "es": "Día de recuerdo de los militares caídos — Corea del Sur",
+        "fr": "Journée du souvenir des militaires morts en service — Corée du Sud",
+        "de": "Gedenktag für gefallene Soldaten — Südkorea",
+        "pt": "Dia em Memória dos Militares Mortos em Serviço — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-korean-workers-day",
+      "country": "KR",
+      "canonicalTitleEn": "Korean Workers Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Korean Workers Day — South Korea",
+        "it": "Giornata dei lavoratori coreani — Corea del Sud",
+        "es": "Día de los Trabajadores Coreanos — Corea del Sur",
+        "fr": "Journée des travailleurs coréens — Corée du Sud",
+        "de": "Koreanischer Tag der Arbeit — Südkorea",
+        "pt": "Dia dos Trabalhadores Coreanos — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-parents-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Parents Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Parents Day in Korea — South Korea",
+        "it": "Giornata dei genitori — Corea del Sud",
+        "es": "Día de los Padres y las Madres — Corea del Sur",
+        "fr": "Journée des parents — Corée du Sud",
+        "de": "Elterntag — Südkorea",
+        "pt": "Dia dos Pais e das Mães — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-donghak-peasant-revolution-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Donghak Peasant Revolution Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Donghak Peasant Revolution Remembrance Day — South Korea",
+        "it": "Giornata commemorativa della rivoluzione contadina Donghak — Corea del Sud",
+        "es": "Día de recuerdo de la Revolución Campesina Donghak — Corea del Sur",
+        "fr": "Journée du souvenir de la révolution paysanne Donghak — Corée du Sud",
+        "de": "Gedenktag der Donghak-Bauernrevolution — Südkorea",
+        "pt": "Dia em Memória da Revolução Camponesa Donghak — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-teachers-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Teachers Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Teachers Day in Korea — South Korea",
+        "it": "Giornata degli insegnanti — Corea del Sud",
+        "es": "Día del Profesorado — Corea del Sur",
+        "fr": "Journée des enseignants — Corée du Sud",
+        "de": "Tag der Lehrkräfte — Südkorea",
+        "pt": "Dia dos Professores — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-king-sejong-birthday-commemoration",
+      "country": "KR",
+      "canonicalTitleEn": "King Sejong Birthday Commemoration — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "King Sejong Birthday Commemoration — South Korea",
+        "it": "Commemorazione della nascita di re Sejong — Corea del Sud",
+        "es": "Conmemoración del nacimiento del rey Sejong — Corea del Sur",
+        "fr": "Commémoration de la naissance du roi Sejong — Corée du Sud",
+        "de": "Gedenktag zur Geburt von König Sejong — Südkorea",
+        "pt": "Comemoração do nascimento do rei Sejong — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-may-18-democratization-movement-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "May 18 Democratization Movement Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "May 18 Democratization Movement Remembrance — South Korea",
+        "it": "Commemorazione del movimento di democratizzazione del 18 maggio — Corea del Sud",
+        "es": "Conmemoración del Movimiento de Democratización del 18 de Mayo — Corea del Sur",
+        "fr": "Commémoration du mouvement de démocratisation du 18 mai — Corée du Sud",
+        "de": "Gedenktag der Demokratisierungsbewegung vom 18. Mai — Südkorea",
+        "pt": "Comemoração do Movimento de Democratização de 18 de Maio — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-couples-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Couples Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Couples Day in Korea — South Korea",
+        "it": "Giornata delle coppie — Corea del Sud",
+        "es": "Día de las Parejas — Corea del Sur",
+        "fr": "Journée des couples — Corée du Sud",
+        "de": "Tag der Paare — Südkorea",
+        "pt": "Dia dos Casais — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-coming-of-age-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Coming of Age Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Coming of Age Day in Korea — South Korea",
+        "it": "Giornata della maggiore età — Corea del Sud",
+        "es": "Día de la Mayoría de Edad — Corea del Sur",
+        "fr": "Journée du passage à l'âge adulte — Corée du Sud",
+        "de": "Tag der Volljährigkeit — Südkorea",
+        "pt": "Dia da Maioridade — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-aerospace-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Aerospace Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Aerospace Day in Korea — South Korea",
+        "it": "Giornata dell'aerospazio — Corea del Sud",
+        "es": "Día del Sector Aeroespacial — Corea del Sur",
+        "fr": "Journée de l'aérospatiale — Corée du Sud",
+        "de": "Tag der Luft- und Raumfahrt — Südkorea",
+        "pt": "Dia da Aeronáutica e do Espaço — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-oceans-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Oceans Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Oceans Day in Korea — South Korea",
+        "it": "Giornata degli oceani — Corea del Sud",
+        "es": "Día de los Océanos — Corea del Sur",
+        "fr": "Journée des océans — Corée du Sud",
+        "de": "Tag der Meere — Südkorea",
+        "pt": "Dia dos Oceanos — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-righteous-armies-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Righteous Armies Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Righteous Armies Remembrance Day — South Korea",
+        "it": "Giornata in memoria degli eserciti della giustizia — Corea del Sud",
+        "es": "Día de recuerdo de los Ejércitos de la Justicia — Corea del Sur",
+        "fr": "Journée du souvenir des armées de la justice — Corée du Sud",
+        "de": "Gedenktag der Rechtschaffenen Armeen — Südkorea",
+        "pt": "Dia em Memória dos Exércitos da Justiça — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-june-10-democracy-movement-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "June 10 Democracy Movement Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "June 10 Democracy Movement Remembrance — South Korea",
+        "it": "Commemorazione del movimento democratico del 10 giugno — Corea del Sud",
+        "es": "Conmemoración del Movimiento Democrático del 10 de Junio — Corea del Sur",
+        "fr": "Commémoration du mouvement démocratique du 10 juin — Corée du Sud",
+        "de": "Gedenktag der Demokratiebewegung vom 10. Juni — Südkorea",
+        "pt": "Comemoração do Movimento Democrático de 10 de Junho — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-june-10-independence-movement-remembrance",
+      "country": "KR",
+      "canonicalTitleEn": "June 10 Independence Movement Remembrance — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "June 10 Independence Movement Remembrance — South Korea",
+        "it": "Commemorazione del movimento per l'indipendenza del 10 giugno — Corea del Sud",
+        "es": "Conmemoración del Movimiento Independentista del 10 de Junio — Corea del Sur",
+        "fr": "Commémoration du mouvement indépendantiste du 10 juin — Corée du Sud",
+        "de": "Gedenktag der Unabhängigkeitsbewegung vom 10. Juni — Südkorea",
+        "pt": "Comemoração do Movimento de Independência de 10 de Junho — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-korean-war-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Korean War Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Korean War Remembrance Day — South Korea",
+        "it": "Giornata commemorativa della guerra di Corea — Corea del Sud",
+        "es": "Día de Recuerdo de la Guerra de Corea — Corea del Sur",
+        "fr": "Journée du souvenir de la guerre de Corée — Corée du Sud",
+        "de": "Gedenktag des Koreakriegs — Südkorea",
+        "pt": "Dia em Memória da Guerra da Coreia — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-railway-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Railway Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Railway Day in Korea — South Korea",
+        "it": "Giornata delle ferrovie — Corea del Sud",
+        "es": "Día del Ferrocarril — Corea del Sur",
+        "fr": "Journée du chemin de fer — Corée du Sud",
+        "de": "Tag der Eisenbahn — Südkorea",
+        "pt": "Dia dos Caminhos de Ferro — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-information-security-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Information Security Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Information Security Day in Korea — South Korea",
+        "it": "Giornata della sicurezza informatica — Corea del Sud",
+        "es": "Día de la Seguridad de la Información — Corea del Sur",
+        "fr": "Journée de la sécurité de l'information — Corée du Sud",
+        "de": "Tag der Informationssicherheit — Südkorea",
+        "pt": "Dia da Segurança da Informação — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-north-korean-defectors-day",
+      "country": "KR",
+      "canonicalTitleEn": "North Korean Defectors Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "North Korean Defectors Day — South Korea",
+        "it": "Giornata dei rifugiati e disertori nordcoreani — Corea del Sud",
+        "es": "Día de los Desertores de Corea del Norte — Corea del Sur",
+        "fr": "Journée des transfuges nord-coréens — Corée du Sud",
+        "de": "Tag der nordkoreanischen Überläufer — Südkorea",
+        "pt": "Dia dos Desertores da Coreia do Norte — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-republic-of-korea-armed-forces-day",
+      "country": "KR",
+      "canonicalTitleEn": "Republic of Korea Armed Forces Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Republic of Korea Armed Forces Day — South Korea",
+        "it": "Giornata delle forze armate della Repubblica di Corea — Corea del Sud",
+        "es": "Día de las Fuerzas Armadas de la República de Corea — Corea del Sur",
+        "fr": "Journée des forces armées de la République de Corée — Corée du Sud",
+        "de": "Tag der Streitkräfte der Republik Korea — Südkorea",
+        "pt": "Dia das Forças Armadas da República da Coreia — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-senior-citizens-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Senior Citizens Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Senior Citizens Day in Korea — South Korea",
+        "it": "Giornata delle persone anziane — Corea del Sud",
+        "es": "Día de las Personas Mayores — Corea del Sur",
+        "fr": "Journée des personnes âgées — Corée du Sud",
+        "de": "Tag der älteren Menschen — Südkorea",
+        "pt": "Dia das Pessoas Idosas — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-world-koreans-day",
+      "country": "KR",
+      "canonicalTitleEn": "World Koreans Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "World Koreans Day — South Korea",
+        "it": "Giornata dei coreani nel mondo — Corea del Sud",
+        "es": "Día de los Coreanos en el Mundo — Corea del Sur",
+        "fr": "Journée des Coréens dans le monde — Corée du Sud",
+        "de": "Tag der Koreaner weltweit — Südkorea",
+        "pt": "Dia dos Coreanos no Mundo — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-veterans-association-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Veterans Association Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Veterans Association Day in Korea — South Korea",
+        "it": "Giornata dell'associazione dei veterani — Corea del Sud",
+        "es": "Día de la Asociación de Veteranos — Corea del Sur",
+        "fr": "Journée de l'association des anciens combattants — Corée du Sud",
+        "de": "Tag des Veteranenverbandes — Südkorea",
+        "pt": "Dia da Associação dos Veteranos — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-sports-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Sports Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Sports Day in Korea — South Korea",
+        "it": "Giornata dello sport — Corea del Sud",
+        "es": "Día del Deporte — Corea del Sur",
+        "fr": "Journée du sport — Corée du Sud",
+        "de": "Tag des Sports — Südkorea",
+        "pt": "Dia do Desporto — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-bu-ma-democratic-protests-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Bu-Ma Democratic Protests Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Bu-Ma Democratic Protests Remembrance Day — South Korea",
+        "it": "Giornata in memoria delle proteste democratiche di Bu-Ma — Corea del Sud",
+        "es": "Día de recuerdo de las protestas democráticas de Bu-Ma — Corea del Sur",
+        "fr": "Journée du souvenir des manifestations démocratiques de Bu-Ma — Corée du Sud",
+        "de": "Gedenktag der demokratischen Bu-Ma-Proteste — Südkorea",
+        "pt": "Dia em Memória dos Protestos Democráticos de Bu-Ma — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-culture-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Culture Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Culture Day in Korea — South Korea",
+        "it": "Giornata della cultura — Corea del Sud",
+        "es": "Día de la Cultura — Corea del Sur",
+        "fr": "Journée de la culture — Corée du Sud",
+        "de": "Tag der Kultur — Südkorea",
+        "pt": "Dia da Cultura — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-police-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Police Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Police Day in Korea — South Korea",
+        "it": "Giornata della polizia — Corea del Sud",
+        "es": "Día de la Policía — Corea del Sur",
+        "fr": "Journée de la police — Corée du Sud",
+        "de": "Tag der Polizei — Südkorea",
+        "pt": "Dia da Polícia — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-corrections-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Corrections Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Corrections Day in Korea — South Korea",
+        "it": "Giornata dell'amministrazione penitenziaria — Corea del Sud",
+        "es": "Día de la Administración Penitenciaria — Corea del Sur",
+        "fr": "Journée de l'administration pénitentiaire — Corée du Sud",
+        "de": "Tag des Justizvollzugs — Südkorea",
+        "pt": "Dia da Administração Prisional — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-local-autonomy-and-balanced-development-day",
+      "country": "KR",
+      "canonicalTitleEn": "Local Autonomy and Balanced Development Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Local Autonomy and Balanced Development Day — South Korea",
+        "it": "Giornata dell'autonomia locale e dello sviluppo equilibrato — Corea del Sud",
+        "es": "Día de la Autonomía Local y el Desarrollo Equilibrado — Corea del Sur",
+        "fr": "Journée de l'autonomie locale et du développement équilibré — Corée du Sud",
+        "de": "Tag der lokalen Selbstverwaltung und ausgewogenen Entwicklung — Südkorea",
+        "pt": "Dia da Autonomia Local e do Desenvolvimento Equilibrado — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-student-independence-movement-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Student Independence Movement Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Student Independence Movement Remembrance Day — South Korea",
+        "it": "Giornata in memoria del movimento studentesco per l'indipendenza — Corea del Sud",
+        "es": "Día de recuerdo del Movimiento Estudiantil por la Independencia — Corea del Sur",
+        "fr": "Journée du souvenir du mouvement étudiant pour l'indépendance — Corée du Sud",
+        "de": "Gedenktag der studentischen Unabhängigkeitsbewegung — Südkorea",
+        "pt": "Dia em Memória do Movimento Estudantil pela Independência — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-farmers-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Farmers Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Farmers Day in Korea — South Korea",
+        "it": "Giornata degli agricoltori — Corea del Sud",
+        "es": "Día de los Agricultores — Corea del Sur",
+        "fr": "Journée des agriculteurs — Corée du Sud",
+        "de": "Tag der Landwirte — Südkorea",
+        "pt": "Dia dos Agricultores — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-patriotic-martyrs-remembrance-day",
+      "country": "KR",
+      "canonicalTitleEn": "Patriotic Martyrs Remembrance Day — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Patriotic Martyrs Remembrance Day — South Korea",
+        "it": "Giornata in memoria dei martiri patriottici — Corea del Sud",
+        "es": "Día de recuerdo de los mártires patriotas — Corea del Sur",
+        "fr": "Journée du souvenir des martyrs patriotes — Corée du Sud",
+        "de": "Gedenktag der patriotischen Märtyrer — Südkorea",
+        "pt": "Dia em Memória dos Mártires Patriotas — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-consumers-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Consumers Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Consumers Day in Korea — South Korea",
+        "it": "Giornata dei consumatori — Corea del Sud",
+        "es": "Día de los Consumidores — Corea del Sur",
+        "fr": "Journée des consommateurs — Corée du Sud",
+        "de": "Verbrauchertag — Südkorea",
+        "pt": "Dia dos Consumidores — Coreia do Sul"
+      }
+    },
+    {
+      "observanceId": "kr-w10-trade-day-in-korea",
+      "country": "KR",
+      "canonicalTitleEn": "Trade Day in Korea — South Korea",
+      "source": "https://www.mois.go.kr/chd/sub/a05/feteDay/screen.do",
+      "localizedTitles": {
+        "en": "Trade Day in Korea — South Korea",
+        "it": "Giornata del commercio internazionale — Corea del Sud",
+        "es": "Día del Comercio Internacional — Corea del Sur",
+        "fr": "Journée du commerce international — Corée du Sud",
+        "de": "Tag des Außenhandels — Südkorea",
+        "pt": "Dia do Comércio Internacional — Coreia do Sul"
+      }
+    }
+  ]
+}

@@ -1,3 +1,13 @@
+## 19 novembre 2026 — Ultimo audit completo dei titoli
+
+- [x] Audit comparativo di **947 canonical ID × 5 lingue non inglesi** dopo le precedenti 359 localizzazioni.
+- [x] Individuate e corrette tutte le **50** intestazioni inglesi delle giornate civiche sudcoreane (fonte MOIS, 250 stringhe nuove).
+- [x] Descrizione tedesca di Safer Internet Day, mantenendo il nome internazionale come parentesi (1 nuova stringa).
+- [x] Una sola eccezione lessicale legittima: **Sette Giugno (Malta)**, nome storico proprio, invariato in quattro lingue e localizzato in francese.
+- [x] Totalizzato **2.046 titoli tradotti nuovi**, 947 ID pubblicati × 6 lingue senza fallback impropri, **164 esclusi** per pertinenza. Versione del pack `2026.11.19.6`.
+- [ ] PASS su CI exact-head, build Web e controllo Android, merge PR; i job devono essere riportati come eseguiti soltanto se effettivamente completati.
+- [ ] Ricerca storica specifica delle 428 schede contestuali in lotti di 100, da fonti nazionali appropriate. Non confondere traduzione completa con storia d'origine completata.
+
 ## 19 novembre 2026 — Traduzione source-anchored di altre 103 ricorrenze
 
 - [x] Completati 62 titoli Wave09 (Slovacchia, Cechia, Polonia, Svezia, Norvegia, Finlandia), escluse le 11 date personali reali già archiviate.
