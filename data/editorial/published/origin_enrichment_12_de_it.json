@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "count": 4,
+  "status": "SOURCE_CHECKED_AI_SIX_LOCALE",
+  "reviewedOn": "2026-11-19",
+  "records": [
+    {
+      "observanceId": "germany-flight-and-expulsion-victims-day",
+      "introducedYear": 2015,
+      "sources": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/bundesregierung-gedenkt-zum-12-mal-der-opfer-von-flucht-und-vertreibung-2437922"
+      ],
+      "locale": {
+        "en": {
+          "origin": "The German federal government introduced an annual day of remembrance in 2015 for people affected by flight and expulsion. It connects the experiences of Germans displaced after the Second World War with forced displacement around the world today.",
+          "whyThisDate": "20 June is also World Refugee Day, linking national remembrance with international solidarity.",
+          "fact": "Historical displacement is remembered alongside the experiences of people seeking refuge today."
+        },
+        "it": {
+          "origin": "Il governo federale tedesco ha introdotto nel 2015 una giornata annuale per le vittime della fuga e delle espulsioni. Collega la storia dei tedeschi sfollati dopo la Seconda guerra mondiale alle migrazioni forzate che continuano nel mondo.",
+          "whyThisDate": "Il 20 giugno coincide con la Giornata mondiale del rifugiato, unendo memoria nazionale e solidarietà internazionale.",
+          "fact": "La commemorazione affianca la memoria degli sfollamenti storici alle esperienze odierne dei rifugiati."
+        },
+        "es": {
+          "origin": "El Gobierno federal alemán instauró en 2015 una jornada anual en memoria de las víctimas de la huida y la expulsión. Relaciona el desplazamiento de alemanes tras la Segunda Guerra Mundial con los desplazamientos forzosos actuales.",
+          "whyThisDate": "El 20 de junio coincide con el Día Mundial del Refugiado, vinculando memoria nacional y solidaridad internacional.",
+          "fact": "La conmemoración conecta los desplazamientos históricos con la situación actual de las personas refugiadas."
+        },
+        "fr": {
+          "origin": "En 2015, le gouvernement fédéral allemand a instauré une journée annuelle de mémoire des victimes de l'exil et de l'expulsion. Elle rapproche le sort des Allemands déplacés après la Seconde Guerre mondiale des déplacements forcés dans le monde actuel.",
+          "whyThisDate": "Le 20 juin coïncide avec la Journée mondiale des réfugiés, associant mémoire nationale et solidarité internationale.",
+          "fact": "La commémoration fait le lien entre les déplacements historiques et l'accueil actuel des réfugiés."
+        },
+        "de": {
+          "origin": "2015 führte die Bundesregierung einen jährlichen Gedenktag für die Opfer von Flucht und Vertreibung ein. Er verbindet das Schicksal deutscher Vertriebener nach dem Zweiten Weltkrieg mit dem Schicksal von Menschen, die heute weltweit zur Flucht gezwungen sind.",
+          "whyThisDate": "Der 20. Juni ist zugleich Weltflüchtlingstag und verbindet nationale Erinnerung mit internationaler Solidarität.",
+          "fact": "Historische Vertreibung und heutige Fluchterfahrungen werden gemeinsam in den Blick genommen."
+        },
+        "pt": {
+          "origin": "O Governo federal alemão instituiu em 2015 um dia anual em memória das vítimas da fuga e expulsão. A data relaciona o deslocamento de alemães após a Segunda Guerra Mundial com os movimentos forçados de população atuais.",
+          "whyThisDate": "O dia 20 de junho coincide com o Dia Mundial dos Refugiados, ligando memória nacional e solidariedade internacional.",
+          "fact": "A comemoração relaciona deslocações históricas com a situação atual das pessoas refugiadas."
+        }
+      }
+    },
+    {
+      "observanceId": "germany-nazi-persecution-victims-remembrance-day",
+      "introducedYear": 1996,
+      "sources": [
+        "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/27-januar-tag-des-gedenkens-fuer-die-opfer-des-nationalsozialismus-proklamation-des-bundespraesidenten-805822"
+      ],
+      "locale": {
+        "en": {
+          "origin": "Federal President Roman Herzog proclaimed 27 January a national remembrance day on 3 January 1996. The German commemoration honors the victims of National Socialist persecution and calls for active vigilance against antisemitism and dehumanization.",
+          "whyThisDate": "27 January marks the liberation of the Auschwitz concentration and extermination camp in 1945.",
+          "fact": "The 1996 proclamation made an existing historical anniversary an annual national remembrance day."
+        },
+        "it": {
+          "origin": "Il presidente federale Roman Herzog proclamò il 27 gennaio giornata nazionale della memoria il 3 gennaio 1996. La Germania ricorda così le vittime della persecuzione nazista e richiama alla responsabilità di contrastare antisemitismo e disumanizzazione.",
+          "whyThisDate": "Il 27 gennaio ricorda la liberazione del campo di concentramento e sterminio di Auschwitz nel 1945.",
+          "fact": "La proclamazione del 1996 trasformò l'anniversario storico in una commemorazione nazionale annuale."
+        },
+        "es": {
+          "origin": "El presidente federal Roman Herzog proclamó el 27 de enero día nacional de memoria el 3 de enero de 1996. Alemania honra así a las víctimas de la persecución nazi y recuerda la necesidad de combatir el antisemitismo y la deshumanización.",
+          "whyThisDate": "El 27 de enero recuerda la liberación del campo de concentración y exterminio de Auschwitz en 1945.",
+          "fact": "La proclamación de 1996 estableció una conmemoración nacional anual."
+        },
+        "fr": {
+          "origin": "Le président fédéral Roman Herzog a proclamé le 27 janvier journée nationale du souvenir le 3 janvier 1996. L'Allemagne honore les victimes des persécutions nazies et rappelle la nécessité de lutter contre l'antisémitisme et la déshumanisation.",
+          "whyThisDate": "Le 27 janvier marque la libération du camp de concentration et d'extermination d'Auschwitz en 1945.",
+          "fact": "La proclamation de 1996 a établi une commémoration nationale annuelle."
+        },
+        "de": {
+          "origin": "Bundespräsident Roman Herzog erklärte den 27. Januar am 3. Januar 1996 zum nationalen Gedenktag. Deutschland erinnert an die Opfer nationalsozialistischer Verfolgung und mahnt, Antisemitismus und Menschenverachtung entgegenzutreten.",
+          "whyThisDate": "Der 27. Januar erinnert an die Befreiung des Konzentrations- und Vernichtungslagers Auschwitz im Jahr 1945.",
+          "fact": "Die Proklamation von 1996 schuf einen jährlichen nationalen Gedenktag."
+        },
+        "pt": {
+          "origin": "O presidente federal Roman Herzog proclamou o dia 27 de janeiro como data nacional de memória em 3 de janeiro de 1996. A Alemanha homenageia as vítimas da perseguição nazi e reafirma a necessidade de combater o antissemitismo e a desumanização.",
+          "whyThisDate": "O dia 27 de janeiro assinala a libertação do campo de concentração e extermínio de Auschwitz em 1945.",
+          "fact": "A proclamação de 1996 criou uma comemoração nacional anual."
+        }
+      }
+    },
+    {
+      "observanceId": "italian-mafia-victims-remembrance-day",
+      "introducedYear": 2017,
+      "sources": [
+        "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=17G00034&atto.dataPubblicazioneGazzetta=2017-03-10&tipoSerie=serie_generale&tipoVigenza=originario",
+        "https://vivi.libera.it/it-21marzo"
+      ],
+      "locale": {
+        "en": {
+          "origin": "Italy formally recognized the National Day of Remembrance and Commitment for Innocent Victims of the Mafias through Law 20 of 8 March 2017. It built on the civil-society initiative of Libera, which had organized the first remembrance event in Rome on 21 March 1996.",
+          "whyThisDate": "21 March, the opening of spring, was already the date of the movement's yearly public reading of victims' names.",
+          "fact": "The first Libera commemoration took place in Rome in 1996, twenty-one years before legal recognition."
+        },
+        "it": {
+          "origin": "La legge italiana n. 20 dell'8 marzo 2017 ha riconosciuto la Giornata nazionale della memoria e dell'impegno per le vittime innocenti delle mafie. La ricorrenza nasce però dall'iniziativa civile di Libera, che organizzò il primo appuntamento a Roma il 21 marzo 1996.",
+          "whyThisDate": "Il 21 marzo, inizio della primavera, era già la data della lettura pubblica annuale dei nomi delle vittime.",
+          "fact": "La prima giornata promossa da Libera si tenne nel 1996, ventuno anni prima del riconoscimento legislativo."
+        },
+        "es": {
+          "origin": "La Ley italiana 20, de 8 de marzo de 2017, reconoció oficialmente el día de memoria y compromiso por las víctimas inocentes de las mafias. La celebración provenía de la iniciativa ciudadana de Libera, que organizó el primer acto en Roma el 21 de marzo de 1996.",
+          "whyThisDate": "El 21 de marzo, comienzo de la primavera, ya era la fecha de la lectura pública anual de los nombres de las víctimas.",
+          "fact": "La primera conmemoración de Libera fue en 1996, veintiún años antes del reconocimiento legal."
+        },
+        "fr": {
+          "origin": "La loi italienne no 20 du 8 mars 2017 a officiellement reconnu la journée de mémoire et d'engagement pour les victimes innocentes des mafias. Cette commémoration est issue de l'initiative citoyenne de Libera, qui organisa le premier rassemblement à Rome le 21 mars 1996.",
+          "whyThisDate": "Le 21 mars, au début du printemps, était déjà consacré à la lecture publique des noms des victimes.",
+          "fact": "La première commémoration organisée par Libera date de 1996, vingt et un ans avant la reconnaissance légale."
+        },
+        "de": {
+          "origin": "Mit Gesetz Nr. 20 vom 8. März 2017 erkannte Italien den Gedenk- und Aktionstag für unschuldige Opfer der Mafia offiziell an. Die Initiative stammte aus der Zivilgesellschaft: Libera hatte bereits am 21. März 1996 in Rom erstmals öffentlich an die Opfer erinnert.",
+          "whyThisDate": "Der 21. März, Frühlingsbeginn, war bereits der Termin für die jährliche öffentliche Verlesung der Namen der Opfer.",
+          "fact": "Libera veranstaltete die erste Gedenkfeier 1996, einundzwanzig Jahre vor der gesetzlichen Anerkennung."
+        },
+        "pt": {
+          "origin": "A Lei italiana n.º 20, de 8 de março de 2017, reconheceu oficialmente o dia de memória e compromisso pelas vítimas inocentes das máfias. A iniciativa nasceu na sociedade civil: a organização Libera realizou a primeira comemoração em Roma em 21 de março de 1996.",
+          "whyThisDate": "O dia 21 de março, início da primavera, já era dedicado à leitura pública anual dos nomes das vítimas.",
+          "fact": "A primeira comemoração da Libera ocorreu em 1996, vinte e um anos antes do reconhecimento legal."
+        }
+      }
+    },
+    {
+      "observanceId": "italian-unity-constitution-anthem-flag-day",
+      "introducedYear": 2012,
+      "sources": [
+        "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html"
+      ],
+      "locale": {
+        "en": {
+          "origin": "Law 222 of 23 November 2012 established Italy's Day of National Unity, the Constitution, the Anthem and the Flag as an annual civic observance. The day connects the emblems and constitutional values of the present republic with the proclamation of the Kingdom of Italy in 1861.",
+          "whyThisDate": "17 March commemorates the proclamation of Italian unification on that date in 1861.",
+          "fact": "The 2012 law established an annual civic observance rather than creating another public holiday."
+        },
+        "it": {
+          "origin": "La legge 222 del 23 novembre 2012 ha istituito la Giornata dell'Unità nazionale, della Costituzione, dell'inno e della bandiera. La ricorrenza collega i simboli e i valori costituzionali della Repubblica alla proclamazione del Regno d'Italia del 1861.",
+          "whyThisDate": "Il 17 marzo ricorda la proclamazione dell'Unità d'Italia avvenuta in quel giorno del 1861.",
+          "fact": "La legge del 2012 istituì una ricorrenza civile annuale, non una nuova festività nazionale con chiusura generale."
+        },
+        "es": {
+          "origin": "La Ley italiana 222, de 23 de noviembre de 2012, instituyó el Día de la Unidad Nacional, la Constitución, el Himno y la Bandera. Relaciona los símbolos y valores constitucionales de la República con la proclamación del Reino de Italia en 1861.",
+          "whyThisDate": "El 17 de marzo recuerda la proclamación de la unidad italiana en esa fecha de 1861.",
+          "fact": "La ley de 2012 instituyó una conmemoración cívica anual, no otro día festivo general."
+        },
+        "fr": {
+          "origin": "La loi italienne 222 du 23 novembre 2012 a institué la Journée de l'unité nationale, de la Constitution, de l'hymne et du drapeau. Elle relie les symboles et les valeurs de la République actuelle à la proclamation du royaume d'Italie en 1861.",
+          "whyThisDate": "Le 17 mars rappelle la proclamation de l'unité italienne à cette date en 1861.",
+          "fact": "La loi de 2012 a créé une commémoration civique annuelle et non un nouveau jour férié général."
+        },
+        "de": {
+          "origin": "Das italienische Gesetz Nr. 222 vom 23. November 2012 führte den Tag der nationalen Einheit, der Verfassung, der Hymne und der Flagge ein. Der Tag verbindet die Symbole und Verfassungswerte der heutigen Republik mit der Ausrufung des Königreichs Italien im Jahr 1861.",
+          "whyThisDate": "Der 17. März erinnert an die Ausrufung der italienischen Einheit an diesem Tag im Jahr 1861.",
+          "fact": "Das Gesetz von 2012 schuf einen jährlichen Gedenktag und keinen zusätzlichen allgemeinen Feiertag."
+        },
+        "pt": {
+          "origin": "A Lei italiana n.º 222, de 23 de novembro de 2012, instituiu o Dia da Unidade Nacional, da Constituição, do Hino e da Bandeira. A data liga os símbolos e os valores da República à proclamação do Reino de Itália em 1861.",
+          "whyThisDate": "O dia 17 de março recorda a proclamação da unidade italiana nessa data de 1861.",
+          "fact": "A lei de 2012 criou uma comemoração cívica anual, e não um novo feriado geral."
+        }
+      }
+    }
+  ]
+}

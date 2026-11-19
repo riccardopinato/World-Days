@@ -1,3 +1,59 @@
+## 19 novembre 2026 — Copertura titoli offline in tutte le sei lingue
+
+Completata l'ultima revisione dei titoli che risultavano identici all'inglese: **50 giornate civiche ufficiali della Corea del Sud** (fonte Ministry of Interior and Safety) localizzate in IT/ES/FR/DE/PT, oltre alla dicitura tedesca di *Safer Internet Day*. Si aggiungono **251 stringhe** alle 1.795 precedenti: **2.046 nuove localizzazioni di titoli** in totale; **409 ricorrenze nazionali/culturali con nuove cinque traduzioni** e una ricorrenza globale con un aggiornamento tedesco.
+
+L'audit di tutti i **947 ID** mostra come sola identità inglese residua il nome storico proprio **«Sette Giugno (Malta)»**, mantenuto nelle lingue in cui non necessita di traduzione; il francese ha già un titolo differente. Quindi **zero fallback inglesi impropri rilevati** nei titoli per IT/ES/FR/DE/PT. Canonical EN e ID invariati, anno d'istituzione mai inventato, archivi di 164 record non pertinenti preservati. La versione dei dati offline/OTA diventa `2026.11.19.6`.
+
+La presenza di descrizioni in **947 × 6 lingue** è completa per il catalogo consumer, ma rimangono **428 schede contestuali** senza una specifica ricerca storica individuale dell'origine; la revisione dei titoli non cambia tale status, né fabbrica 428 nuove storie.
+
+## 19 novembre 2026 — Terza wave di titoli nazionali, 103 × 5 lingue
+
+Aggiunte e versionate altre **515 traduzioni di titoli** (103 ID × IT/ES/FR/DE/PT): **62** giornate e commemorazioni istituzionali di Slovacchia, Repubblica Ceca, Polonia, Svezia, Norvegia e Finlandia (Wave09) e **41** ricorrenze civiche filippine (Wave10). Gli **11** compleanni/onomastici reali e i **9** anniversari biografici filippini di queste wave rimangono esclusi, non rivivono. Titoli source-linked in `data/editorial/localizations/market_wave09_62_sixlocale_20261119.json` e `ph_wave10_41_sixlocale_20261119.json`.
+
+Totale al PASS/merge della terza wave: **359 ID** con titoli nuovi localizzati nelle cinque lingue non inglesi (**1.795 nuove stringhe** sommando le wave precedenti), **947/947 schede con corpo multilingue**, **519 più approfondite** e **428 con storia d'origine individuale ancora da ricercare**. Gli eventuali titoli ancora identici all'inglese sono censiti dal report (un nome proprio identico può comunque essere corretto). Pipeline offline e contenuto OTA aggiornati alla versione `2026.11.19.5`, con QA di parità e senza toccare i record fonte archiviati.
+
+## 19 novembre 2026 — Seconda pulizia + 1.280 traduzioni reali di titoli
+
+Dopo l'esclusione dei 153 anniversari biografici PH, una seconda scrematura archivia altri **11** compleanni/onomastici di singoli reali (6 SE e 5 NO): i calendari di esposizione della bandiera restano fonti archiviate, ma le loro date personali non vanno confuse con giornate mondiali o con festività civiche generali. Il catalogo consumer scende **da 958 a 947 ID**, sempre presenti nelle sei raccolte editoriali. I **164 ID esclusi** restano consultabili nelle fonti sorgente `data/market/`; 519 articoli precedenti più approfonditi sono conservati, mentre **428** sono ancora descrizioni contestuali senza ricostruzione individuale dell'origine storica.
+
+Completate e versionate **1.280 nuove traduzioni di titoli** in IT, ES, FR, DE, PT per **256 ID nazionali/culturali**: 156 date diplomatiche DFAT, 57 feste del calendario UE EURES e 43 periodi/campagne culturali NCCA delle Filippine. Titoli inglesi e ID immutati; gli esonimi dei Paesi provengono dai dati internazionali ICU/CLDR generati una tantum e registrati in JSON offline. Le schede contestuali con il vecchio titolo inglese vengono aggiornate nelle stesse lingue. Restano eventuali altri titoli da localizzare: l'audit genera il conteggio dei fallback inglesi residui, senza confonderli con la copertura editoriale (947/947 schede con corpo in sei lingue).
+
+Lotti disgiunti per **428** ricorrenze in attesa di una storia d'origine specifica: 100/100/100/100/28, per Paese. Questi sono pacchetti di ricerca, non nuove storie certificate o integrate. Target condizionato a CI exact-head/merge della relativa PR.
+
+## 19 novembre 2026 — Audit totale catalogo e pulizia biografie (nuovo perimetro)
+
+Il catalogo sorgente censisce **1.111 ID**, mentre il catalogo **pubblicato nell'app** ne include ora **958**: esclusi con filtro deterministico **144 anniversari personali di nascita/morte Wave11 + 9 Wave10**. Sono storie da almanacco biografico, non giornate mondiali o ricorrenze civiche con un'autonoma designazione; restano archiviate con fonti e motivazione. Le vere giornate nazionali dedicate a una persona non sono automaticamente escluse. Fonte normativa: [Catalog Relevance Policy](docs/CATALOG_RELEVANCE_POLICY_20261119.md).
+
+**Contenuti al traguardo di questa PR, subordinati a CI/merge:** 958/958 schede descrittive presenti in **EN, IT, ES, FR, DE, PT**, 0 ID senza editoriale, **519** precedenti editoriali più approfonditi preservati e **439** schede contestuali ancora da approfondire nella specifica origine storica. Il risultato non equivale a 958 storie d'origine individuali ricercate. Le fonti dei 1.111 candidati restano archiviate, non pubblicate integralmente.
+
+Allineati generatori, catalogo offline, indice date, origine, content pack remoto, CI Web e build Android. I controlli anti-reinserimento mantengono l'esclusione anche alle rigenerazioni successive. Stato conclusivo solo dopo controlli GitHub sul commit finale.
+
+## 19 novembre 2026 — Wave storiche individuali e coda massiva per Paese
+
+**Dodici** schede descrittive precedenti sono state sostituite con storie d'origine individuali, documentate e scritte in **EN, IT, ES, FR, DE e PT**: due ricorrenze tedesche, due italiane, tre portoghesi, tre spagnole, Windrush Day britannico e Juneteenth statunitense. Sono ricostruiti separatamente evento storico, istituzione formale e motivo della data, dalle leggi e dagli atti ufficiali citati per ogni ID in `data/editorial/published/origin_enrichment_12_*.json`. I controlli includono anno dalla fonte, sei lingue, deduplica e status AI source-reviewed con disclosure nel dettaglio.
+
+**Contatore previsto dopo CI e merge:** 1.111/1.111 ID con contenuti in sei lingue; **519** articoli non meramente contestuali (507 preesistenti + 12 nuovi); **592** schede contestuali ancora da trasformare in storie d'origine specifiche. La copertura di 1.111 non va confusa con 1.111 ricostruzioni storiche. Il controllo massivo ha trovato solo **12/604** ID con anno d'istituzione già collegato a fonte nel catalogo; la carenza di anno non costituisce prova che l'evento sia privo di storia, ma richiede nuove ricerche.
+
+Il backlog storico residuo è partizionato automaticamente per Paese in sei code **100/100/100/100/100/92**, prodotte da `tool/queue_remaining_592_origins.py`, pronte a corsie indipendenti senza duplicazioni e senza dichiarare falsamente completate le ricerche. Le corse generate non sono pubblicazioni storiche. Nessun deploy automatico.
+
+## 19 novembre 2026 — Fast Track parallelo: 604 schede contestuali × 6 lingue
+
+Nuova corsia massiva **6 lotti da 100 ID + 1 da 4**, con sette task locali di elaborazione contemporanea su ID canonici disgiunti. Importazione deterministica e deduplicata dopo i **507 articoli storici/editoriali preesistenti**. Contenuto nel dataset e Web pack: titolo localizzato, narrazione contestuale, anno di introduzione se noto (altrimenti *), data valida per il 2026, ente riportato nel catalogo, tre fatti di catalogo, collegamento alle fonti canoniche e due inviti ad approfondire, nelle sei lingue EN/IT/ES/FR/DE/PT.
+
+**Distinzione editoriale obbligatoria:** le **604 nuove schede sono contestuali e basate sui metadati del catalogo**, non 604 narrazioni storiche di origine ricostruite singolarmente. Il nuovo stato `AI_CONTEXTUAL_SIX_LOCALE` presenta nell'app un avviso localizzato; non devono essere indicate come storie d'origine verificate. La copertura *descrittiva* dei 1.111 ID in tutte le lingue è un obiettivo condizionato a CI e merge, non una dichiarazione di verifica storica individuale. Si continua a sviluppare gli approfondimenti storici veri per i 604 ID con questa modalità a lotti paralleli.
+
+La pipeline aggiorna `tool/fasttrack_parallel_604_contextual.py`, `tool/validate_fasttrack_parallel_604.py`, sei destinazioni editoriale, CI/Web/Android e limite del content pack a 16 MiB. Nessun rilascio store automatico.
+
+## Wave21 Fast Track — cinque nuove storie in sei lingue (19 novembre 2026)
+
+Nuovo blocco **5 ID unici** in EN/IT/ES/FR/DE/PT: `mexico-constitution-day`, `no-constitution-day`, `constitution-day-spain`, `pl-constitution-day`, `hr-statehood-day`. L'importazione avviene **dopo** la pipeline esistente dei 502; il nuovo test impone **507/1.111 completi, 0 solo IT/EN, 604 in sospeso**. Le fonti sono i rispettivi governi/parlamenti; i testi sono stati creati e ricontrollati con IA senza fingere revisioni professionali esterne. La fonte e le sei traduzioni sono in `data/editorial/published/wave21_fasttrack_first5_six_locale_20261119.json`.
+
+Questa sezione descrive il target della PR finché non risulta CI PASS e merge su main; nessun deploy pubblico automatico.
+
+## Stato editoriale corrente — 19 novembre 2026
+
+**502/1.111 articoli completi in sei lingue; 0 solo IT/EN; 609 ID ancora senza storia editoriale completa.** Contare solo gli ID canonici unici su `main`, non le PR sorgente o le traduzioni come nuove storie. I 626 senza ricerca storica specifica sono una metrica diversa. I blocchi già pronti Wave20/PH-KR-CA/top-five sono inclusi nei 502. La prossima wave deve produrre solo contenuti mancanti usando il [prospetto editoriale pulito](docs/WORLD_DAYS_EDITORIAL_CLEAN_STATUS_20261119.md) e il Fast Track IA del Master Core; QA dei fatti e traduzioni, merge con CI, nessun certificatore professionale esterno obbligatorio per normali testi descrittivi.
+
 ## 15 November 2026 — CLOSED: 183/183 historical dossiers AI-certified in six locales, integrated into main
 
 - **Merged:** [World Days PR #138](https://github.com/riccardopinato/World-Days/pull/138); protected `main` commit `8be150f39c83df90365fdd935382179713282d28`.

@@ -31,14 +31,14 @@ void main() {
       'JP': 3,
       'CZ': 28,
       'SK': 29,
-      'NO': 12,
+      'NO': 7,
       'FI': 23,
-      'SE': 10,
+      'SE': 4,
       'PL': 20,
       'IE': 4,
       'NL': 4,
       'ZA': 6,
-      'PH': 244,
+      'PH': 91,
       'NZ': 3,
       'SG': 2,
       'KR': 57,
@@ -239,7 +239,7 @@ void main() {
       expect(all.map((x) => x.id).toSet().length, all.length);
       expect(all.where((x) => x.scope == 'NATIONAL').length, national.length);
     }
-    expect(controller.catalog!.records.length, 1111);
+    expect(controller.catalog!.records.length, 947);
     // initialize() may have an unawaited remote update probe; do not dispose
     // this controller during the current test zone while that probe runs.
   });

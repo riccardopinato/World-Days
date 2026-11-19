@@ -16,6 +16,22 @@ python3 tool/publish_pr119_recovered_three.py >/dev/null
 python3 tool/validate_prepared_485_reachability.py >/dev/null
 python3 tool/publish_ai_183_translations.py >/dev/null
 python3 tool/validate_ai_183_translations.py >/dev/null
+python3 tool/publish_fasttrack_wave21_first5.py >/dev/null
+python3 tool/validate_fasttrack_wave21_first5.py >/dev/null
+python3 tool/fasttrack_parallel_604_contextual.py >/dev/null
+python3 tool/validate_fasttrack_parallel_604.py >/dev/null
+python3 tool/publish_source_grounded_origin_12.py >/dev/null
+python3 tool/validate_origin_enrichment_12.py >/dev/null
+python3 tool/curate_catalog_scope_153.py >/dev/null
+python3 tool/validate_catalog_scope_153.py >/dev/null
+python3 tool/curate_royal_personal_11.py >/dev/null
+python3 tool/apply_market_title_213_localizations.py >/dev/null
+python3 tool/apply_ph_ncca_title_43.py >/dev/null
+python3 tool/validate_royal11_and_title213.py >/dev/null
+python3 tool/apply_remaining_103_market_titles.py >/dev/null
+python3 tool/validate_remaining_103_titles.py >/dev/null
+python3 tool/apply_korean_50_and_de_title.py >/dev/null
+python3 tool/validate_final_titles_947.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then

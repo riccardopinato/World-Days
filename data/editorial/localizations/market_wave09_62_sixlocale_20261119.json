@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-19",
+  "count": 62,
+  "source": "wave09_primary_sixcountries",
+  "records": [
+    {
+      "observanceId": "sk-covid-19-pandemic-victims-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "COVID-19 Pandemic Victims Remembrance Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "COVID-19 Pandemic Victims Remembrance Day — SK",
+        "it": "Giornata in memoria delle vittime della pandemia di COVID-19 — Slovacchia",
+        "es": "Día de recuerdo de las víctimas de la pandemia de COVID-19 — Eslovaquia",
+        "fr": "Journée du souvenir des victimes de la pandémie de COVID-19 — Slovaquie",
+        "de": "Gedenktag für die Opfer der COVID-19-Pandemie — Slowakei",
+        "pt": "Dia em memória das vítimas da pandemia de COVID-19 — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-day-of-the-struggle-for-human-rights",
+      "country": "SK",
+      "canonicalTitleEn": "Day of the Struggle for Human Rights — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Day of the Struggle for Human Rights — SK",
+        "it": "Giornata della lotta per i diritti umani — Slovacchia",
+        "es": "Día de la Lucha por los Derechos Humanos — Eslovaquia",
+        "fr": "Journée de la lutte pour les droits humains — Slovaquie",
+        "de": "Tag des Kampfes für Menschenrechte — Slowakei",
+        "pt": "Dia da Luta pelos Direitos Humanos — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-day-of-the-unjustly-prosecuted",
+      "country": "SK",
+      "canonicalTitleEn": "Day of the Unjustly Prosecuted — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Day of the Unjustly Prosecuted — SK",
+        "it": "Giornata delle persone ingiustamente perseguitate — Slovacchia",
+        "es": "Día de los Injustamente Perseguidos — Eslovaquia",
+        "fr": "Journée des personnes injustement poursuivies — Slovaquie",
+        "de": "Gedenktag für zu Unrecht Verfolgte — Slowakei",
+        "pt": "Dia das Pessoas Injustamente Perseguidas — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-slovakia-s-accession-to-the-european-union-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovakia's Accession to the European Union Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Slovakia's Accession to the European Union Day — SK",
+        "it": "Giornata dell'adesione della Slovacchia all'Unione europea — Slovacchia",
+        "es": "Día de la Adhesión de Eslovaquia a la Unión Europea — Eslovaquia",
+        "fr": "Journée de l'adhésion de la Slovaquie à l'Union européenne — Slovaquie",
+        "de": "Tag des EU-Beitritts der Slowakei — Slowakei",
+        "pt": "Dia da Adesão da Eslováquia à União Europeia — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-milan-rastislav-stefanik-death-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Milan Rastislav Stefanik Death Anniversary — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Milan Rastislav Stefanik Death Anniversary — SK",
+        "it": "Giornata commemorativa della morte di Milan Rastislav Štefánik — Slovacchia",
+        "es": "Conmemoración de la muerte de Milan Rastislav Štefánik — Eslovaquia",
+        "fr": "Commémoration de la mort de Milan Rastislav Štefánik — Slovaquie",
+        "de": "Gedenktag zum Tod von Milan Rastislav Štefánik — Slowakei",
+        "pt": "Comemoração da morte de Milan Rastislav Štefánik — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-slovak-nation-memorandum-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Nation Memorandum Anniversary — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Slovak Nation Memorandum Anniversary — SK",
+        "it": "Anniversario del Memorandum della nazione slovacca — Slovacchia",
+        "es": "Aniversario del Memorándum de la Nación Eslovaca — Eslovaquia",
+        "fr": "Anniversaire du mémorandum de la nation slovaque — Slovaquie",
+        "de": "Jahrestag des Memorandums der slowakischen Nation — Slowakei",
+        "pt": "Aniversário do Memorando da Nação Eslovaca — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-soviet-occupation-troops-departure-day",
+      "country": "SK",
+      "canonicalTitleEn": "Soviet Occupation Troops Departure Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Soviet Occupation Troops Departure Day — SK",
+        "it": "Giornata del ritiro delle truppe d'occupazione sovietiche — Slovacchia",
+        "es": "Día de la Retirada de las Tropas de Ocupación Soviéticas — Eslovaquia",
+        "fr": "Journée du départ des troupes d'occupation soviétiques — Slovaquie",
+        "de": "Tag des Abzugs sowjetischer Besatzungstruppen — Slowakei",
+        "pt": "Dia da Retirada das Tropas de Ocupação Soviéticas — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-victims-of-the-communist-regime-memorial-day",
+      "country": "SK",
+      "canonicalTitleEn": "Victims of the Communist Regime Memorial Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Victims of the Communist Regime Memorial Day — SK",
+        "it": "Giornata in memoria delle vittime del regime comunista — Slovacchia",
+        "es": "Día en Memoria de las Víctimas del Régimen Comunista — Eslovaquia",
+        "fr": "Journée de mémoire des victimes du régime communiste — Slovaquie",
+        "de": "Gedenktag für die Opfer des kommunistischen Regimes — Slowakei",
+        "pt": "Dia em Memória das Vítimas do Regime Comunista — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-day-of-slovaks-living-abroad",
+      "country": "SK",
+      "canonicalTitleEn": "Day of Slovaks Living Abroad — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Day of Slovaks Living Abroad — SK",
+        "it": "Giornata degli slovacchi all'estero — Slovacchia",
+        "es": "Día de los Eslovacos en el Extranjero — Eslovaquia",
+        "fr": "Journée des Slovaques de l'étranger — Slovaquie",
+        "de": "Tag der im Ausland lebenden Slowaken — Slowakei",
+        "pt": "Dia dos Eslovacos no Estrangeiro — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-slovak-sovereignty-declaration-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Sovereignty Declaration Anniversary — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Slovak Sovereignty Declaration Anniversary — SK",
+        "it": "Anniversario della dichiarazione di sovranità slovacca — Slovacchia",
+        "es": "Aniversario de la Declaración de Soberanía Eslovaca — Eslovaquia",
+        "fr": "Anniversaire de la déclaration de souveraineté slovaque — Slovaquie",
+        "de": "Jahrestag der slowakischen Souveränitätserklärung — Slowakei",
+        "pt": "Aniversário da Declaração de Soberania Eslovaca — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-matica-slovenska-day",
+      "country": "SK",
+      "canonicalTitleEn": "Matica Slovenska Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Matica Slovenska Day — SK",
+        "it": "Giornata della Matica slovenská — Slovacchia",
+        "es": "Día de Matica slovenská — Eslovaquia",
+        "fr": "Journée de Matica slovenská — Slovaquie",
+        "de": "Tag der Matica slovenská — Slowakei",
+        "pt": "Dia da Matica slovenská — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-mining-disaster-victims-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "Mining Disaster Victims Remembrance Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Mining Disaster Victims Remembrance Day — SK",
+        "it": "Giornata in memoria delle vittime dei disastri minerari — Slovacchia",
+        "es": "Día de recuerdo de las víctimas de desastres mineros — Eslovaquia",
+        "fr": "Journée du souvenir des victimes de catastrophes minières — Slovaquie",
+        "de": "Gedenktag für die Opfer von Bergwerksunglücken — Slowakei",
+        "pt": "Dia em Memória das Vítimas de Desastres Mineiros — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-victims-of-the-1968-czechoslovakia-occupation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Victims of the 1968 Czechoslovakia Occupation Day — SK",
+        "it": "Giornata delle vittime dell'occupazione della Cecoslovacchia nel 1968 — Slovacchia",
+        "es": "Día de las Víctimas de la Ocupación de Checoslovaquia en 1968 — Eslovaquia",
+        "fr": "Journée des victimes de l'occupation de la Tchécoslovaquie en 1968 — Slovaquie",
+        "de": "Gedenktag für die Opfer der Besetzung der Tschechoslowakei 1968 — Slowakei",
+        "pt": "Dia das Vítimas da Ocupação da Checoslováquia de 1968 — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-holocaust-and-racial-violence-victims-memorial-day",
+      "country": "SK",
+      "canonicalTitleEn": "Holocaust and Racial Violence Victims Memorial Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Holocaust and Racial Violence Victims Memorial Day — SK",
+        "it": "Giornata in memoria delle vittime dell'Olocausto e della violenza razziale — Slovacchia",
+        "es": "Día de Memoria de las Víctimas del Holocausto y la Violencia Racial — Eslovaquia",
+        "fr": "Journée de mémoire des victimes de la Shoah et des violences raciales — Slovaquie",
+        "de": "Gedenktag für die Opfer des Holocaust und rassistischer Gewalt — Slowakei",
+        "pt": "Dia em Memória das Vítimas do Holocausto e da Violência Racial — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-slovak-national-council-establishment-day",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak National Council Establishment Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Slovak National Council Establishment Day — SK",
+        "it": "Giornata della fondazione del Consiglio nazionale slovacco — Slovacchia",
+        "es": "Día de la Fundación del Consejo Nacional Eslovaco — Eslovaquia",
+        "fr": "Journée de la fondation du Conseil national slovaque — Slovaquie",
+        "de": "Gründungstag des Slowakischen Nationalrats — Slowakei",
+        "pt": "Dia da Fundação do Conselho Nacional Eslovaco — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-day-against-hate-speech-targeting-children",
+      "country": "SK",
+      "canonicalTitleEn": "Day Against Hate Speech Targeting Children — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Day Against Hate Speech Targeting Children — SK",
+        "it": "Giornata contro i discorsi d'odio rivolti ai bambini — Slovacchia",
+        "es": "Día contra los Discursos de Odio hacia los Niños — Eslovaquia",
+        "fr": "Journée contre les discours de haine visant les enfants — Slovaquie",
+        "de": "Tag gegen Hassrede gegen Kinder — Slowakei",
+        "pt": "Dia contra os Discursos de Ódio Dirigidos às Crianças — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-carpathian-dukla-operation-heroes-day",
+      "country": "SK",
+      "canonicalTitleEn": "Carpathian Dukla Operation Heroes Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Carpathian Dukla Operation Heroes Day — SK",
+        "it": "Giornata degli eroi dell'operazione dei Carpazi-Dukla — Slovacchia",
+        "es": "Día de los Héroes de la Operación Cárpato-Dukla — Eslovaquia",
+        "fr": "Journée des héros de l'opération des Carpates-Doukla — Slovaquie",
+        "de": "Gedenktag für die Helden der Karpaten-Dukla-Operation — Slowakei",
+        "pt": "Dia dos Heróis da Operação dos Cárpatos-Dukla — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-samizdat-day",
+      "country": "SK",
+      "canonicalTitleEn": "Samizdat Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Samizdat Day — SK",
+        "it": "Giornata del samizdat — Slovacchia",
+        "es": "Día del Samizdat — Eslovaquia",
+        "fr": "Journée du samizdat — Slovaquie",
+        "de": "Samisdat-Gedenktag — Slowakei",
+        "pt": "Dia do Samizdat — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-cernova-tragedy-remembrance-day",
+      "country": "SK",
+      "canonicalTitleEn": "Cernova Tragedy Remembrance Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Cernova Tragedy Remembrance Day — SK",
+        "it": "Giornata in memoria della tragedia di Černová — Slovacchia",
+        "es": "Día de recuerdo de la tragedia de Černová — Eslovaquia",
+        "fr": "Journée du souvenir de la tragédie de Černová — Slovaquie",
+        "de": "Gedenktag der Tragödie von Černová — Slowakei",
+        "pt": "Dia em Memória da Tragédia de Černová — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-ludovit-stur-birthday",
+      "country": "SK",
+      "canonicalTitleEn": "Ludovit Stur Birthday — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Ludovit Stur Birthday — SK",
+        "it": "Giornata commemorativa della nascita di Ľudovít Štúr — Slovacchia",
+        "es": "Conmemoración del nacimiento de Ľudovít Štúr — Eslovaquia",
+        "fr": "Commémoration de la naissance de Ľudovít Štúr — Slovaquie",
+        "de": "Gedenktag zur Geburt von Ľudovít Štúr — Slowakei",
+        "pt": "Comemoração do nascimento de Ľudovít Štúr — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-slovak-nation-declaration-anniversary",
+      "country": "SK",
+      "canonicalTitleEn": "Slovak Nation Declaration Anniversary — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Slovak Nation Declaration Anniversary — SK",
+        "it": "Anniversario della dichiarazione della nazione slovacca — Slovacchia",
+        "es": "Aniversario de la Declaración de la Nación Eslovaca — Eslovaquia",
+        "fr": "Anniversaire de la déclaration de la nation slovaque — Slovaquie",
+        "de": "Jahrestag der Erklärung der slowakischen Nation — Slowakei",
+        "pt": "Aniversário da Declaração da Nação Eslovaca — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-reformation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Reformation Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Reformation Day — SK",
+        "it": "Giornata della Riforma — Slovacchia",
+        "es": "Día de la Reforma — Eslovaquia",
+        "fr": "Fête de la Réformation — Slovaquie",
+        "de": "Reformationstag — Slowakei",
+        "pt": "Dia da Reforma — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "sk-independent-slovak-ecclesiastical-province-proclamation-day",
+      "country": "SK",
+      "canonicalTitleEn": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+      "source": "https://www.vlada.gov.sk/slovensko/statne-sviatky/",
+      "localizedTitles": {
+        "en": "Independent Slovak Ecclesiastical Province Proclamation Day — SK",
+        "it": "Giornata della proclamazione della provincia ecclesiastica slovacca indipendente — Slovacchia",
+        "es": "Día de la Proclamación de la Provincia Eclesiástica Eslovaca Independiente — Eslovaquia",
+        "fr": "Journée de la proclamation de la province ecclésiastique slovaque indépendante — Slovaquie",
+        "de": "Tag der Ausrufung der eigenständigen slowakischen Kirchenprovinz — Slowakei",
+        "pt": "Dia da Proclamação da Província Eclesiástica Eslovaca Independente — Eslováquia"
+      }
+    },
+    {
+      "observanceId": "cz-jan-palach-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Jan Palach Remembrance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Jan Palach Remembrance Day — CZ",
+        "it": "Giornata in memoria di Jan Palach — Cechia",
+        "es": "Día de recuerdo de Jan Palach — Chequia",
+        "fr": "Journée en mémoire de Jan Palach — Tchéquie",
+        "de": "Jan-Palach-Gedenktag — Tschechien",
+        "pt": "Dia em Memória de Jan Palach — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-terezin-family-camp-victims-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Terezin Family Camp Victims Remembrance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Terezin Family Camp Victims Remembrance Day — CZ",
+        "it": "Giornata in memoria delle vittime del campo familiare di Terezín — Cechia",
+        "es": "Día de recuerdo de las víctimas del campo familiar de Terezín — Chequia",
+        "fr": "Journée du souvenir des victimes du camp familial de Terezín — Tchéquie",
+        "de": "Gedenktag für die Opfer des Familienlagers Theresienstadt — Tschechien",
+        "pt": "Dia em Memória das Vítimas do Campo Familiar de Terezín — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-accession-to-nato-anniversary",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Accession to NATO Anniversary — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Accession to NATO Anniversary — CZ",
+        "it": "Anniversario dell'adesione della Repubblica Ceca alla NATO — Cechia",
+        "es": "Aniversario de la Adhesión Checa a la OTAN — Chequia",
+        "fr": "Anniversaire de l'adhésion de la Tchéquie à l'OTAN — Tchéquie",
+        "de": "Jahrestag des NATO-Beitritts Tschechiens — Tschechien",
+        "pt": "Aniversário da Adesão da Chéquia à NATO — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-jan-amos-comenius-birthday",
+      "country": "CZ",
+      "canonicalTitleEn": "Jan Amos Comenius Birthday — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Jan Amos Comenius Birthday — CZ",
+        "it": "Giornata commemorativa della nascita di Jan Amos Comenio — Cechia",
+        "es": "Conmemoración del nacimiento de Juan Amós Comenio — Chequia",
+        "fr": "Commémoration de la naissance de Jan Amos Comenius — Tchéquie",
+        "de": "Gedenktag zur Geburt von Johann Amos Comenius — Tschechien",
+        "pt": "Comemoração do nascimento de Jan Amos Comenius — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-flag-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Flag Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Flag Day — CZ",
+        "it": "Giornata della bandiera ceca — Cechia",
+        "es": "Día de la Bandera Checa — Chequia",
+        "fr": "Journée du drapeau tchèque — Tchéquie",
+        "de": "Tag der tschechischen Flagge — Tschechien",
+        "pt": "Dia da Bandeira Checa — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-education-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Education Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Education Day — CZ",
+        "it": "Giornata dell'istruzione ceca — Cechia",
+        "es": "Día de la Educación Checa — Chequia",
+        "fr": "Journée de l'éducation tchèque — Tchéquie",
+        "de": "Tag der tschechischen Bildung — Tschechien",
+        "pt": "Dia da Educação Checa — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-accession-to-the-european-union-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Accession to the European Union Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Accession to the European Union Day — CZ",
+        "it": "Giornata dell'adesione della Repubblica Ceca all'Unione europea — Cechia",
+        "es": "Día de la Adhesión de Chequia a la Unión Europea — Chequia",
+        "fr": "Journée de l'adhésion de la Tchéquie à l'Union européenne — Tchéquie",
+        "de": "Tag des EU-Beitritts Tschechiens — Tschechien",
+        "pt": "Dia da Adesão da Chéquia à União Europeia — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-may-uprising-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech May Uprising Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech May Uprising Day — CZ",
+        "it": "Giornata dell'insurrezione ceca di maggio — Cechia",
+        "es": "Día del Levantamiento Checo de Mayo — Chequia",
+        "fr": "Journée de l'insurrection tchèque de mai — Tchéquie",
+        "de": "Gedenktag des tschechischen Maiaufstands — Tschechien",
+        "pt": "Dia da Revolta Checa de Maio — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-families-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Families Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Families Day — CZ",
+        "it": "Giornata delle famiglie ceche — Cechia",
+        "es": "Día de las Familias Checas — Chequia",
+        "fr": "Journée des familles tchèques — Tchéquie",
+        "de": "Tschechischer Familientag — Tschechien",
+        "pt": "Dia das Famílias Checas — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-national-resistance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech National Resistance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech National Resistance Day — CZ",
+        "it": "Giornata della resistenza nazionale ceca — Cechia",
+        "es": "Día de la Resistencia Nacional Checa — Chequia",
+        "fr": "Journée de la résistance nationale tchèque — Tchéquie",
+        "de": "Tag des tschechischen nationalen Widerstands — Tschechien",
+        "pt": "Dia da Resistência Nacional Checa — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-lidice-destruction-victims-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Lidice Destruction Victims Remembrance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Lidice Destruction Victims Remembrance Day — CZ",
+        "it": "Giornata in memoria delle vittime della distruzione di Lidice — Cechia",
+        "es": "Día de recuerdo de las víctimas de la destrucción de Lídice — Chequia",
+        "fr": "Journée du souvenir des victimes de la destruction de Lidice — Tchéquie",
+        "de": "Gedenktag für die Opfer der Zerstörung von Lidice — Tschechien",
+        "pt": "Dia em Memória das Vítimas da Destruição de Lidice — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-second-resistance-heroes-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Second Resistance Heroes Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Second Resistance Heroes Day — CZ",
+        "it": "Giornata degli eroi della seconda resistenza ceca — Cechia",
+        "es": "Día de los Héroes de la Segunda Resistencia Checa — Chequia",
+        "fr": "Journée des héros de la deuxième résistance tchèque — Tchéquie",
+        "de": "Gedenktag der Helden des zweiten tschechischen Widerstands — Tschechien",
+        "pt": "Dia dos Heróis da Segunda Resistência Checa — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-departure-of-soviet-occupation-troops-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Departure of Soviet Occupation Troops Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Departure of Soviet Occupation Troops Day — CZ",
+        "it": "Giornata del ritiro delle truppe d'occupazione sovietiche — Cechia",
+        "es": "Día de la Retirada de las Tropas de Ocupación Soviéticas — Chequia",
+        "fr": "Journée du départ des troupes d'occupation soviétiques — Tchéquie",
+        "de": "Tag des Abzugs sowjetischer Besatzungstruppen — Tschechien",
+        "pt": "Dia da Retirada das Tropas de Ocupação Soviéticas — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-victims-of-communist-regime-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Victims of Communist Regime Remembrance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Victims of Communist Regime Remembrance Day — CZ",
+        "it": "Giornata in memoria delle vittime del regime comunista — Cechia",
+        "es": "Día de recuerdo de las víctimas del régimen comunista — Chequia",
+        "fr": "Journée en mémoire des victimes du régime communiste — Tchéquie",
+        "de": "Gedenktag für die Opfer des kommunistischen Regimes — Tschechien",
+        "pt": "Dia em Memória das Vítimas do Regime Comunista — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-warsaw-pact-invasion-remembrance-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Warsaw Pact Invasion Remembrance Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Warsaw Pact Invasion Remembrance Day — CZ",
+        "it": "Giornata in memoria dell'invasione del Patto di Varsavia — Cechia",
+        "es": "Día de recuerdo de la invasión del Pacto de Varsovia — Chequia",
+        "fr": "Journée du souvenir de l'invasion du Pacte de Varsovie — Tchéquie",
+        "de": "Gedenktag zur Invasion des Warschauer Pakts — Tschechien",
+        "pt": "Dia em Memória da Invasão do Pacto de Varsóvia — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-sokol-memorial-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Sokol Memorial Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Sokol Memorial Day — CZ",
+        "it": "Giornata commemorativa del movimento Sokol — Cechia",
+        "es": "Día de recuerdo del movimiento Sokol — Chequia",
+        "fr": "Journée commémorative du mouvement Sokol — Tchéquie",
+        "de": "Sokol-Gedenktag — Tschechien",
+        "pt": "Dia Comemorativo do Movimento Sokol — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-samizdat-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech Samizdat Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech Samizdat Day — CZ",
+        "it": "Giornata ceca del samizdat — Cechia",
+        "es": "Día Checo del Samizdat — Chequia",
+        "fr": "Journée tchèque du samizdat — Tchéquie",
+        "de": "Tschechischer Samisdat-Tag — Tschechien",
+        "pt": "Dia Checo do Samizdat — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "cz-czech-war-veterans-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Czech War Veterans Day — CZ",
+      "source": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "localizedTitles": {
+        "en": "Czech War Veterans Day — CZ",
+        "it": "Giornata ceca dei veterani di guerra — Cechia",
+        "es": "Día Checo de los Veteranos de Guerra — Chequia",
+        "fr": "Journée tchèque des anciens combattants — Tchéquie",
+        "de": "Tschechischer Veteranentag — Tschechien",
+        "pt": "Dia Checo dos Veteranos de Guerra — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "pl-home-army-soldiers-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Home Army Soldiers Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Home Army Soldiers Remembrance Day — PL",
+        "it": "Giornata in memoria dei soldati dell'Armia Krajowa — Polonia",
+        "es": "Día de recuerdo de los soldados del Ejército Nacional Polaco — Polonia",
+        "fr": "Journée du souvenir des soldats de l'Armia Krajowa — Pologne",
+        "de": "Gedenktag für die Soldaten der Heimatarmee — Polen",
+        "pt": "Dia em Memória dos Soldados do Exército Nacional Polaco — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-polish-science-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish Science Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Polish Science Day — PL",
+        "it": "Giornata della scienza polacca — Polonia",
+        "es": "Día de la Ciencia Polaca — Polonia",
+        "fr": "Journée de la science polonaise — Pologne",
+        "de": "Tag der polnischen Wissenschaft — Polen",
+        "pt": "Dia da Ciência Polaca — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-cursed-soldiers-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Cursed Soldiers Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Cursed Soldiers Remembrance Day — PL",
+        "it": "Giornata in memoria dei soldati maledetti — Polonia",
+        "es": "Día de recuerdo de los Soldados Malditos — Polonia",
+        "fr": "Journée du souvenir des soldats maudits — Pologne",
+        "de": "Gedenktag für die verfemten Soldaten — Polen",
+        "pt": "Dia em Memória dos Soldados Amaldiçoados — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-poles-who-saved-jews-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Poles Who Saved Jews Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Poles Who Saved Jews Remembrance Day — PL",
+        "it": "Giornata in memoria dei polacchi che salvarono gli ebrei — Polonia",
+        "es": "Día de recuerdo de los polacos que salvaron a judíos — Polonia",
+        "fr": "Journée du souvenir des Polonais ayant sauvé des Juifs — Pologne",
+        "de": "Gedenktag für Polen, die Juden retteten — Polen",
+        "pt": "Dia em Memória dos Polacos que Salvaram Judeus — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-war-invalids-day",
+      "country": "PL",
+      "canonicalTitleEn": "War Invalids Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "War Invalids Day — PL",
+        "it": "Giornata degli invalidi di guerra — Polonia",
+        "es": "Día de los Inválidos de Guerra — Polonia",
+        "fr": "Journée des invalides de guerre — Pologne",
+        "de": "Tag der Kriegsinvaliden — Polen",
+        "pt": "Dia dos Inválidos de Guerra — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-baptism-of-poland-day",
+      "country": "PL",
+      "canonicalTitleEn": "Baptism of Poland Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Baptism of Poland Day — PL",
+        "it": "Giornata del battesimo della Polonia — Polonia",
+        "es": "Día del Bautismo de Polonia — Polonia",
+        "fr": "Journée du baptême de la Pologne — Pologne",
+        "de": "Tag der Taufe Polens — Polen",
+        "pt": "Dia do Batismo da Polónia — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-polish-national-victory-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish National Victory Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Polish National Victory Day — PL",
+        "it": "Giornata nazionale polacca della vittoria — Polonia",
+        "es": "Día Nacional de la Victoria de Polonia — Polonia",
+        "fr": "Journée nationale de la victoire polonaise — Pologne",
+        "de": "Polnischer Nationaler Siegestag — Polen",
+        "pt": "Dia Nacional da Vitória Polaca — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-silesian-uprisings-national-day",
+      "country": "PL",
+      "canonicalTitleEn": "Silesian Uprisings National Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Silesian Uprisings National Day — PL",
+        "it": "Giornata nazionale delle insurrezioni slesiane — Polonia",
+        "es": "Día Nacional de los Levantamientos de Silesia — Polonia",
+        "fr": "Journée nationale des insurrections de Silésie — Pologne",
+        "de": "Nationaler Gedenktag der schlesischen Aufstände — Polen",
+        "pt": "Dia Nacional das Revoltas da Silésia — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-polish-victims-of-oun-upa-genocide-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Polish Victims of OUN-UPA Genocide Remembrance Day — PL",
+        "it": "Giornata in memoria delle vittime polacche dei massacri dell'OUN-UPA — Polonia",
+        "es": "Día de recuerdo de las víctimas polacas de las matanzas de la OUN-UPA — Polonia",
+        "fr": "Journée du souvenir des victimes polonaises des massacres de l'OUN-UPA — Pologne",
+        "de": "Gedenktag für polnische Opfer der OUN-UPA-Massaker — Polen",
+        "pt": "Dia em Memória das Vítimas Polacas dos Massacres da OUN-UPA — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-struggle-and-martyrdom-of-polish-villages-day",
+      "country": "PL",
+      "canonicalTitleEn": "Struggle and Martyrdom of Polish Villages Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Struggle and Martyrdom of Polish Villages Day — PL",
+        "it": "Giornata della lotta e del martirio dei villaggi polacchi — Polonia",
+        "es": "Día de la Lucha y el Martirio de las Aldeas Polacas — Polonia",
+        "fr": "Journée de lutte et de martyre des villages polonais — Pologne",
+        "de": "Gedenktag für Kampf und Martyrium polnischer Dörfer — Polen",
+        "pt": "Dia da Luta e do Martírio das Aldeias Polacas — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-warsaw-uprising-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Warsaw Uprising Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Warsaw Uprising Remembrance Day — PL",
+        "it": "Giornata in memoria dell'insurrezione di Varsavia — Polonia",
+        "es": "Día de recuerdo del Levantamiento de Varsovia — Polonia",
+        "fr": "Journée du souvenir de l'insurrection de Varsovie — Pologne",
+        "de": "Gedenktag des Warschauer Aufstands — Polen",
+        "pt": "Dia em Memória da Revolta de Varsóvia — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-solidarity-and-freedom-day",
+      "country": "PL",
+      "canonicalTitleEn": "Solidarity and Freedom Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Solidarity and Freedom Day — PL",
+        "it": "Giornata della solidarietà e della libertà — Polonia",
+        "es": "Día de la Solidaridad y la Libertad — Polonia",
+        "fr": "Journée de la solidarité et de la liberté — Pologne",
+        "de": "Tag der Solidarität und Freiheit — Polen",
+        "pt": "Dia da Solidariedade e da Liberdade — Polônia"
+      }
+    },
+    {
+      "observanceId": "pl-unbroken-clergy-remembrance-day",
+      "country": "PL",
+      "canonicalTitleEn": "Unbroken Clergy Remembrance Day — PL",
+      "source": "https://www.gov.pl/web/kultura/obowiazek-wywieszania-flagi-panstwowej-rp",
+      "localizedTitles": {
+        "en": "Unbroken Clergy Remembrance Day — PL",
+        "it": "Giornata in memoria del clero indomito — Polonia",
+        "es": "Día de recuerdo del Clero Inquebrantable — Polonia",
+        "fr": "Journée du souvenir du clergé insoumis — Pologne",
+        "de": "Gedenktag für standhafte Geistliche — Polen",
+        "pt": "Dia em Memória do Clero Insubmisso — Polônia"
+      }
+    },
+    {
+      "observanceId": "se-sweden-veterans-day",
+      "country": "SE",
+      "canonicalTitleEn": "Sweden Veterans Day — SE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "localizedTitles": {
+        "en": "Sweden Veterans Day — SE",
+        "it": "Giornata dei veterani svedesi — Svezia",
+        "es": "Día de los Veteranos de Suecia — Suecia",
+        "fr": "Journée des anciens combattants suédois — Suède",
+        "de": "Schwedischer Veteranentag — Schweden",
+        "pt": "Dia dos Veteranos Suecos — Suécia"
+      }
+    },
+    {
+      "observanceId": "se-gustavus-adolphus-day",
+      "country": "SE",
+      "canonicalTitleEn": "Gustavus Adolphus Day — SE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "localizedTitles": {
+        "en": "Gustavus Adolphus Day — SE",
+        "it": "Giornata di Gustavo II Adolfo — Svezia",
+        "es": "Día de Gustavo II Adolfo — Suecia",
+        "fr": "Journée de Gustave II Adolphe — Suède",
+        "de": "Gustav-Adolf-Tag — Schweden",
+        "pt": "Dia de Gustavo II Adolfo — Suécia"
+      }
+    },
+    {
+      "observanceId": "se-alfred-nobel-day",
+      "country": "SE",
+      "canonicalTitleEn": "Alfred Nobel Day — SE",
+      "source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-1982270-om-allmanna-flaggdagar_sfs-1982-270/",
+      "localizedTitles": {
+        "en": "Alfred Nobel Day — SE",
+        "it": "Giornata di Alfred Nobel — Svezia",
+        "es": "Día de Alfred Nobel — Suecia",
+        "fr": "Journée Alfred Nobel — Suède",
+        "de": "Alfred-Nobel-Tag — Schweden",
+        "pt": "Dia de Alfred Nobel — Suécia"
+      }
+    },
+    {
+      "observanceId": "fi-sami-national-day-observed-in-finland",
+      "country": "FI",
+      "canonicalTitleEn": "Sami National Day Observed in Finland — FI",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "localizedTitles": {
+        "en": "Sami National Day Observed in Finland — FI",
+        "it": "Giornata nazionale sami celebrata in Finlandia — Finlandia",
+        "es": "Día Nacional Sami celebrado en Finlandia — Finlandia",
+        "fr": "Journée nationale samie célébrée en Finlande — Finlande",
+        "de": "Samischer Nationaltag in Finnland — Finnland",
+        "pt": "Dia Nacional Sami celebrado na Finlândia — Finlândia"
+      }
+    },
+    {
+      "observanceId": "fi-evacuees-day-in-finland",
+      "country": "FI",
+      "canonicalTitleEn": "Evacuees Day in Finland — FI",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "localizedTitles": {
+        "en": "Evacuees Day in Finland — FI",
+        "it": "Giornata degli sfollati in Finlandia — Finlandia",
+        "es": "Día de los Evacuados en Finlandia — Finlandia",
+        "fr": "Journée des personnes évacuées en Finlande — Finlande",
+        "de": "Tag der Evakuierten in Finnland — Finnland",
+        "pt": "Dia dos Evacuados na Finlândia — Finlândia"
+      }
+    },
+    {
+      "observanceId": "fi-finnish-remembrance-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Remembrance Day — FI",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "localizedTitles": {
+        "en": "Finnish Remembrance Day — FI",
+        "it": "Giornata della memoria finlandese — Finlandia",
+        "es": "Día de la Memoria de Finlandia — Finlandia",
+        "fr": "Journée finlandaise du souvenir — Finlande",
+        "de": "Finnischer Gedenktag — Finnland",
+        "pt": "Dia da Memória Finlandesa — Finlândia"
+      }
+    },
+    {
+      "observanceId": "fi-finnish-flag-day-and-midsummer-day",
+      "country": "FI",
+      "canonicalTitleEn": "Finnish Flag Day and Midsummer Day — FI",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "localizedTitles": {
+        "en": "Finnish Flag Day and Midsummer Day — FI",
+        "it": "Giornata della bandiera finlandese e festa di mezza estate — Finlandia",
+        "es": "Día de la Bandera Finlandesa y Fiesta del Solsticio — Finlandia",
+        "fr": "Fête du drapeau finlandais et de la Saint-Jean — Finlande",
+        "de": "Finnischer Flaggentag und Mittsommer — Finnland",
+        "pt": "Dia da Bandeira Finlandesa e Festa do Solstício — Finlândia"
+      }
+    },
+    {
+      "observanceId": "fi-tove-jansson-and-finnish-art-day",
+      "country": "FI",
+      "canonicalTitleEn": "Tove Jansson and Finnish Art Day — FI",
+      "source": "https://almanakka.helsinki.fi/en/flag-days-and-holidays/flag-days-in-2026",
+      "localizedTitles": {
+        "en": "Tove Jansson and Finnish Art Day — FI",
+        "it": "Giornata di Tove Jansson e dell'arte finlandese — Finlandia",
+        "es": "Día de Tove Jansson y del Arte Finlandés — Finlandia",
+        "fr": "Journée de Tove Jansson et de l'art finlandais — Finlande",
+        "de": "Tove-Jansson-Tag und Tag der finnischen Kunst — Finnland",
+        "pt": "Dia de Tove Jansson e da Arte Finlandesa — Finlândia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-19",
+  "count": 41,
+  "source": "wave10_hundred_kr_ph",
+  "records": [
+    {
+      "observanceId": "ph-w10-araw-ng-republikang-filipino-first-philippine-republic-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Araw ng Republikang Filipino (First Philippine Republic Anniversary) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Araw ng Republikang Filipino (First Philippine Republic Anniversary) — Philippines",
+        "it": "Giornata della Prima Repubblica filippina (Araw ng Republikang Filipino) — Filippine",
+        "es": "Día de la Primera República Filipina (Araw ng Republikang Filipino) — Filipinas",
+        "fr": "Journée de la Première République philippine (Araw ng Republikang Filipino) — Philippines",
+        "de": "Tag der Ersten Philippinischen Republik (Araw ng Republikang Filipino) — Philippinen",
+        "pt": "Dia da Primeira República Filipina (Araw ng Republikang Filipino) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-julian-felipe-day",
+      "country": "PH",
+      "canonicalTitleEn": "Julian Felipe Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Julian Felipe Day — Philippines",
+        "it": "Giornata di Julián Felipe — Filippine",
+        "es": "Día de Julián Felipe — Filipinas",
+        "fr": "Journée Julián Felipe — Philippines",
+        "de": "Julián-Felipe-Tag — Philippinen",
+        "pt": "Dia de Julián Felipe — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-jose-abad-santos-day",
+      "country": "PH",
+      "canonicalTitleEn": "Jose Abad Santos Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Jose Abad Santos Day — Philippines",
+        "it": "Giornata di José Abad Santos — Filippine",
+        "es": "Día de José Abad Santos — Filipinas",
+        "fr": "Journée José Abad Santos — Philippines",
+        "de": "José-Abad-Santos-Tag — Philippinen",
+        "pt": "Dia de José Abad Santos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-women-s-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine National Women's Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine National Women's Day — Philippines",
+        "it": "Giornata nazionale delle donne filippine — Filippine",
+        "es": "Día Nacional de la Mujer Filipina — Filipinas",
+        "fr": "Journée nationale des femmes philippines — Philippines",
+        "de": "Nationaler Frauentag der Philippinen — Philippinen",
+        "pt": "Dia Nacional da Mulher Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-ramon-magsaysay-memorial-day",
+      "country": "PH",
+      "canonicalTitleEn": "Ramon Magsaysay Memorial Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Ramon Magsaysay Memorial Day — Philippines",
+        "it": "Giornata in memoria di Ramon Magsaysay — Filippine",
+        "es": "Día en Memoria de Ramon Magsaysay — Filipinas",
+        "fr": "Journée en mémoire de Ramon Magsaysay — Philippines",
+        "de": "Ramon-Magsaysay-Gedenktag — Philippinen",
+        "pt": "Dia em Memória de Ramon Magsaysay — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-army-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Army Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Army Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione dell'esercito filippino — Filippine",
+        "es": "Aniversario de la Fundación del Ejército Filipino — Filipinas",
+        "fr": "Anniversaire de la fondation de l'armée philippine — Philippines",
+        "de": "Gründungsjubiläum des philippinischen Heeres — Philippinen",
+        "pt": "Aniversário da Fundação do Exército Filipino — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-araw-ni-balagtas",
+      "country": "PH",
+      "canonicalTitleEn": "Araw ni Balagtas — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Araw ni Balagtas — Philippines",
+        "it": "Giornata di Balagtas (Araw ni Balagtas) — Filippine",
+        "es": "Día de Balagtas (Araw ni Balagtas) — Filipinas",
+        "fr": "Journée de Balagtas (Araw ni Balagtas) — Philippines",
+        "de": "Balagtas-Tag (Araw ni Balagtas) — Philippinen",
+        "pt": "Dia de Balagtas (Araw ni Balagtas) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-gawad-sa-manlilikha-ng-bayan-establishment-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Gawad sa Manlilikha ng Bayan Establishment Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Gawad sa Manlilikha ng Bayan Establishment Anniversary — Philippines",
+        "it": "Anniversario dell'istituzione del premio Gawad sa Manlilikha ng Bayan — Filippine",
+        "es": "Aniversario de la Institución del Premio Gawad sa Manlilikha ng Bayan — Filipinas",
+        "fr": "Anniversaire de la création du prix Gawad sa Manlilikha ng Bayan — Philippines",
+        "de": "Jahrestag der Einführung des Gawad-sa-Manlilikha-ng-Bayan-Preises — Philippinen",
+        "pt": "Aniversário da Criação do Prémio Gawad sa Manlilikha ng Bayan — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-ncca-establishment-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "NCCA Establishment Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "NCCA Establishment Anniversary — Philippines",
+        "it": "Anniversario della fondazione della NCCA — Filippine",
+        "es": "Aniversario de la Fundación de la NCCA — Filipinas",
+        "fr": "Anniversaire de la création de la NCCA — Philippines",
+        "de": "Gründungsjubiläum der NCCA — Philippinen",
+        "pt": "Aniversário da Fundação da NCCA — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-earth-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines Earth Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines Earth Day — Philippines",
+        "it": "Giornata della Terra nelle Filippine — Filippine",
+        "es": "Día de la Tierra en Filipinas — Filipinas",
+        "fr": "Journée de la Terre aux Philippines — Philippines",
+        "de": "Tag der Erde auf den Philippinen — Philippinen",
+        "pt": "Dia da Terra nas Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-order-of-national-artists-establishment-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Order of National Artists Establishment Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Order of National Artists Establishment Anniversary — Philippines",
+        "it": "Anniversario dell'istituzione dell'Ordine degli artisti nazionali — Filippine",
+        "es": "Aniversario de la Creación de la Orden de Artistas Nacionales — Filipinas",
+        "fr": "Anniversaire de la création de l'Ordre des artistes nationaux — Philippines",
+        "de": "Jahrestag der Gründung des Ordens der Nationalkünstler — Philippinen",
+        "pt": "Aniversário da Criação da Ordem dos Artistas Nacionais — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine National Historical Commission Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine National Historical Commission Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione della Commissione storica nazionale filippina — Filippine",
+        "es": "Aniversario de la Fundación de la Comisión Histórica Nacional Filipina — Filipinas",
+        "fr": "Anniversaire de la création de la Commission historique nationale des Philippines — Philippines",
+        "de": "Gründungsjubiläum der Nationalen Historischen Kommission der Philippinen — Philippinen",
+        "pt": "Aniversário da Fundação da Comissão Histórica Nacional das Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-flag-days-commencement",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Flag Days Commencement — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Flag Days Commencement — Philippines",
+        "it": "Inizio delle Giornate della bandiera filippina — Filippine",
+        "es": "Inicio de los Días de la Bandera Filipina — Filipinas",
+        "fr": "Début des Journées du drapeau philippin — Philippines",
+        "de": "Beginn der philippinischen Flaggentage — Philippinen",
+        "pt": "Início dos Dias da Bandeira Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-national-fisherfolks-day-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "National Fisherfolks Day (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Fisherfolks Day (Philippines) — Philippines",
+        "it": "Giornata nazionale dei pescatori — Filippine",
+        "es": "Día Nacional de las Comunidades Pesqueras — Filipinas",
+        "fr": "Journée nationale des communautés de pêcheurs — Philippines",
+        "de": "Nationaler Tag der Fischereigemeinden — Philippinen",
+        "pt": "Dia Nacional das Comunidades Piscatórias — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-film-development-council-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Film Development Council Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Film Development Council Founding Anniversary — Philippines",
+        "it": "Anniversario del Consiglio per lo sviluppo cinematografico filippino — Filippine",
+        "es": "Aniversario de la Fundación del Consejo de Desarrollo Cinematográfico Filipino — Filipinas",
+        "fr": "Anniversaire de la création du Conseil philippin pour le développement du cinéma — Philippines",
+        "de": "Gründungsjubiläum des philippinischen Filmförderungsrats — Philippinen",
+        "pt": "Aniversário da Fundação do Conselho Filipino para o Desenvolvimento do Cinema — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-filipino-chinese-friendship-day",
+      "country": "PH",
+      "canonicalTitleEn": "Filipino-Chinese Friendship Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Filipino-Chinese Friendship Day — Philippines",
+        "it": "Giornata dell'amicizia filippino-cinese — Filippine",
+        "es": "Día de la Amistad Filipino-China — Filipinas",
+        "fr": "Journée de l'amitié sino-philippine — Philippines",
+        "de": "Tag der philippinisch-chinesischen Freundschaft — Philippinen",
+        "pt": "Dia da Amizade Filipino-Chinesa — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-day-of-the-filipino-seafarer",
+      "country": "PH",
+      "canonicalTitleEn": "Day of the Filipino Seafarer — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Day of the Filipino Seafarer — Philippines",
+        "it": "Giornata del marittimo filippino — Filippine",
+        "es": "Día del Marinero Filipino — Filipinas",
+        "fr": "Journée des gens de mer philippins — Philippines",
+        "de": "Tag der philippinischen Seeleute — Philippinen",
+        "pt": "Dia do Marítimo Filipino — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-spanish-friendship-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine-Spanish Friendship Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine-Spanish Friendship Day — Philippines",
+        "it": "Giornata dell'amicizia filippino-spagnola — Filippine",
+        "es": "Día de la Amistad Hispano-Filipina — Filipinas",
+        "fr": "Journée de l'amitié hispano-philippine — Philippines",
+        "de": "Tag der philippinisch-spanischen Freundschaft — Philippinen",
+        "pt": "Dia da Amizade Hispano-Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-republic-day-july-4",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Republic Day (July 4) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Republic Day (July 4) — Philippines",
+        "it": "Giornata della Repubblica filippina (4 luglio) — Filippine",
+        "es": "Día de la República Filipina (4 de julio) — Filipinas",
+        "fr": "Journée de la République philippine (4 juillet) — Philippines",
+        "de": "Tag der Philippinischen Republik (4. Juli) — Philippinen",
+        "pt": "Dia da República Filipina (4 de julho) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-apolinario-mabini-day",
+      "country": "PH",
+      "canonicalTitleEn": "Apolinario Mabini Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Apolinario Mabini Day — Philippines",
+        "it": "Giornata di Apolinario Mabini — Filippine",
+        "es": "Día de Apolinario Mabini — Filipinas",
+        "fr": "Journée Apolinario Mabini — Philippines",
+        "de": "Apolinario-Mabini-Tag — Philippinen",
+        "pt": "Dia de Apolinario Mabini — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-iglesia-ni-cristo-day",
+      "country": "PH",
+      "canonicalTitleEn": "Iglesia ni Cristo Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Iglesia ni Cristo Day — Philippines",
+        "it": "Giornata dell'Iglesia ni Cristo — Filippine",
+        "es": "Día de Iglesia ni Cristo — Filipinas",
+        "fr": "Journée de l'Iglesia ni Cristo — Philippines",
+        "de": "Iglesia-ni-Cristo-Tag — Philippinen",
+        "pt": "Dia da Iglesia ni Cristo — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-indigenous-peoples-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines National Indigenous Peoples Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines National Indigenous Peoples Day — Philippines",
+        "it": "Giornata nazionale dei popoli indigeni filippini — Filippine",
+        "es": "Día Nacional de los Pueblos Indígenas de Filipinas — Filipinas",
+        "fr": "Journée nationale des peuples autochtones des Philippines — Philippines",
+        "de": "Nationaler Tag indigener Völker der Philippinen — Philippinen",
+        "pt": "Dia Nacional dos Povos Indígenas das Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-national-library-of-the-philippines-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "National Library of the Philippines Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "National Library of the Philippines Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione della Biblioteca nazionale filippina — Filippine",
+        "es": "Aniversario de la Fundación de la Biblioteca Nacional de Filipinas — Filipinas",
+        "fr": "Anniversaire de la création de la Bibliothèque nationale des Philippines — Philippines",
+        "de": "Gründungsjubiläum der Nationalbibliothek der Philippinen — Philippinen",
+        "pt": "Aniversário da Fundação da Biblioteca Nacional das Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-komisyon-sa-wikang-filipino-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Komisyon sa Wikang Filipino Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Komisyon sa Wikang Filipino Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione della Commissione per la lingua filippina — Filippine",
+        "es": "Aniversario de la Fundación de la Comisión de la Lengua Filipina — Filipinas",
+        "fr": "Anniversaire de la création de la Commission de la langue philippine — Philippines",
+        "de": "Gründungsjubiläum der Kommission für die philippinische Sprache — Philippinen",
+        "pt": "Aniversário da Fundação da Comissão da Língua Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-senate-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Senate Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Senate Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione del Senato filippino — Filippine",
+        "es": "Aniversario de la Fundación del Senado Filipino — Filipinas",
+        "fr": "Anniversaire de la fondation du Sénat philippin — Philippines",
+        "de": "Gründungsjubiläum des philippinischen Senats — Philippinen",
+        "pt": "Aniversário da Fundação do Senado Filipino — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-house-of-representatives-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine House of Representatives Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine House of Representatives Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione della Camera dei rappresentanti filippina — Filippine",
+        "es": "Aniversario de la Fundación de la Cámara de Representantes Filipina — Filipinas",
+        "fr": "Anniversaire de la fondation de la Chambre des représentants philippine — Philippines",
+        "de": "Gründungsjubiläum des philippinischen Repräsentantenhauses — Philippinen",
+        "pt": "Aniversário da Fundação da Câmara dos Representantes Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-literacy-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines National Literacy Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines National Literacy Day — Philippines",
+        "it": "Giornata nazionale dell'alfabetizzazione nelle Filippine — Filippine",
+        "es": "Día Nacional de la Alfabetización en Filipinas — Filipinas",
+        "fr": "Journée nationale de l'alphabétisation aux Philippines — Philippines",
+        "de": "Nationaler Alphabetisierungstag der Philippinen — Philippinen",
+        "pt": "Dia Nacional da Alfabetização nas Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-order-of-gabriela-silang-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Order of Gabriela Silang Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Order of Gabriela Silang Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione dell'Ordine di Gabriela Silang — Filippine",
+        "es": "Aniversario de la Creación de la Orden de Gabriela Silang — Filipinas",
+        "fr": "Anniversaire de la création de l'Ordre de Gabriela Silang — Philippines",
+        "de": "Jahrestag der Gründung des Gabriela-Silang-Ordens — Philippinen",
+        "pt": "Aniversário da Criação da Ordem de Gabriela Silang — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-order-of-lakandula-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Order of Lakandula Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Order of Lakandula Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione dell'Ordine di Lakandula — Filippine",
+        "es": "Aniversario de la Creación de la Orden de Lakandula — Filipinas",
+        "fr": "Anniversaire de la création de l'Ordre de Lakandula — Philippines",
+        "de": "Jahrestag der Gründung des Lakandula-Ordens — Philippinen",
+        "pt": "Aniversário da Criação da Ordem de Lakandula — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-kindness-to-animal-day-philippines",
+      "country": "PH",
+      "canonicalTitleEn": "Kindness to Animal Day (Philippines) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Kindness to Animal Day (Philippines) — Philippines",
+        "it": "Giornata della gentilezza verso gli animali — Filippine",
+        "es": "Día de la Bondad hacia los Animales — Filipinas",
+        "fr": "Journée de la bienveillance envers les animaux — Philippines",
+        "de": "Tag der Freundlichkeit gegenüber Tieren — Philippinen",
+        "pt": "Dia da Bondade para com os Animais — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-teachers-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines National Teachers Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines National Teachers Day — Philippines",
+        "it": "Giornata nazionale degli insegnanti filippini — Filippine",
+        "es": "Día Nacional del Profesorado Filipino — Filipinas",
+        "fr": "Journée nationale des enseignants philippins — Philippines",
+        "de": "Nationaler Lehrertag der Philippinen — Philippinen",
+        "pt": "Dia Nacional dos Professores Filipinos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-local-government-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines Local Government Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines Local Government Day — Philippines",
+        "it": "Giornata delle amministrazioni locali filippine — Filippine",
+        "es": "Día de los Gobiernos Locales de Filipinas — Filipinas",
+        "fr": "Journée des collectivités locales philippines — Philippines",
+        "de": "Tag der lokalen Verwaltung der Philippinen — Philippinen",
+        "pt": "Dia da Administração Local das Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-british-friendship-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine-British Friendship Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine-British Friendship Day — Philippines",
+        "it": "Giornata dell'amicizia filippino-britannica — Filippine",
+        "es": "Día de la Amistad Filipino-Británica — Filipinas",
+        "fr": "Journée de l'amitié britanno-philippine — Philippines",
+        "de": "Tag der philippinisch-britischen Freundschaft — Philippinen",
+        "pt": "Dia da Amizade Filipino-Britânica — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-archives-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines National Archives Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines National Archives Day — Philippines",
+        "it": "Giornata degli Archivi nazionali delle Filippine — Filippine",
+        "es": "Día de los Archivos Nacionales de Filipinas — Filipinas",
+        "fr": "Journée des Archives nationales des Philippines — Philippines",
+        "de": "Tag des Nationalarchivs der Philippinen — Philippinen",
+        "pt": "Dia dos Arquivos Nacionais das Filipinas — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-military-academy-establishment-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Military Academy Establishment Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Military Academy Establishment Anniversary — Philippines",
+        "it": "Anniversario della fondazione dell'Accademia militare filippina — Filippine",
+        "es": "Aniversario de la Fundación de la Academia Militar Filipina — Filipinas",
+        "fr": "Anniversaire de la création de l'Académie militaire philippine — Philippines",
+        "de": "Gründungsjubiläum der philippinischen Militärakademie — Philippinen",
+        "pt": "Aniversário da Fundação da Academia Militar Filipina — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-indigenous-peoples-thanksgiving-day",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines Indigenous Peoples Thanksgiving Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines Indigenous Peoples Thanksgiving Day — Philippines",
+        "it": "Giornata del ringraziamento dei popoli indigeni filippini — Filippine",
+        "es": "Día de Acción de Gracias de los Pueblos Indígenas Filipinos — Filipinas",
+        "fr": "Journée d'action de grâce des peuples autochtones philippins — Philippines",
+        "de": "Danktag indigener Völker der Philippinen — Philippinen",
+        "pt": "Dia de Ação de Graças dos Povos Indígenas Filipinos — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippines-national-museum-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippines National Museum Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippines National Museum Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione del Museo nazionale filippino — Filippine",
+        "es": "Aniversario de la Fundación del Museo Nacional Filipino — Filipinas",
+        "fr": "Anniversaire de la création du Musée national des Philippines — Philippines",
+        "de": "Gründungsjubiläum des Nationalmuseums der Philippinen — Philippinen",
+        "pt": "Aniversário da Fundação do Museu Nacional Filipino — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-puerto-princesa-underground-river-day",
+      "country": "PH",
+      "canonicalTitleEn": "Puerto Princesa Underground River Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Puerto Princesa Underground River Day — Philippines",
+        "it": "Giornata del fiume sotterraneo di Puerto Princesa — Filippine",
+        "es": "Día del Río Subterráneo de Puerto Princesa — Filipinas",
+        "fr": "Journée de la rivière souterraine de Puerto Princesa — Philippines",
+        "de": "Tag des unterirdischen Flusses von Puerto Princesa — Philippinen",
+        "pt": "Dia do Rio Subterrâneo de Puerto Princesa — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-araw-ng-pagbasa-philippines-national-reading-day",
+      "country": "PH",
+      "canonicalTitleEn": "Araw ng Pagbasa (Philippines National Reading Day) — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Araw ng Pagbasa (Philippines National Reading Day) — Philippines",
+        "it": "Araw ng Pagbasa (Giornata nazionale della lettura) — Filippine",
+        "es": "Araw ng Pagbasa (Día Nacional de la Lectura) — Filipinas",
+        "fr": "Araw ng Pagbasa (Journée nationale de la lecture) — Philippines",
+        "de": "Araw ng Pagbasa (Nationaler Lesetag) — Philippinen",
+        "pt": "Araw ng Pagbasa (Dia Nacional da Leitura) — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-graciano-lopez-jaena-day",
+      "country": "PH",
+      "canonicalTitleEn": "Graciano Lopez-Jaena Day — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Graciano Lopez-Jaena Day — Philippines",
+        "it": "Giornata di Graciano López Jaena — Filippine",
+        "es": "Día de Graciano López Jaena — Filipinas",
+        "fr": "Journée de Graciano López Jaena — Philippines",
+        "de": "Graciano-López-Jaena-Tag — Philippinen",
+        "pt": "Dia de Graciano López Jaena — Filipinas"
+      }
+    },
+    {
+      "observanceId": "ph-w10-philippine-department-of-education-founding-anniversary",
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Department of Education Founding Anniversary — Philippines",
+      "source": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "localizedTitles": {
+        "en": "Philippine Department of Education Founding Anniversary — Philippines",
+        "it": "Anniversario della fondazione del Dipartimento dell'istruzione filippino — Filippine",
+        "es": "Aniversario de la Fundación del Departamento de Educación de Filipinas — Filipinas",
+        "fr": "Anniversaire de la création du département de l'Éducation des Philippines — Philippines",
+        "de": "Gründungsjubiläum des philippinischen Bildungsministeriums — Philippinen",
+        "pt": "Aniversário da Fundação do Departamento de Educação das Filipinas — Filipinas"
+      }
+    }
+  ]
+}

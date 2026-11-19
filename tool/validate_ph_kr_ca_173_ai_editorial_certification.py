@@ -320,7 +320,10 @@ if "--verify-remote" in sys.argv:
         pr = row["sourcePR"]
         if pr not in heads:
             obj = api("/pulls/" + str(pr))
-            assert obj["state"] == "open" and not obj["merged"], ("source PR closed/merged", pr)
+            # Closed source PRs remain valid after a successful downstream import:
+            # only immutable pinned source HEAD + file blob prove identity.
+            # Do not force obsolete research PRs to remain open forever.
+            assert obj["state"] in ("open", "closed"), ("unknown source PR state", pr)
             heads[pr] = obj["head"]["sha"]
         assert heads[pr] == row["sourceHead"], (
             "source PR changed after AI review; invalidate and recertify", pr,

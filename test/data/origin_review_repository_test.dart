@@ -4,9 +4,9 @@ import 'package:world_days/data/origin_review_repository.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('1111 canonical source ledger entries remain unique and complete', () async {
+  test('947 published source ledger entries remain unique and complete', () async {
     final entries = await OriginReviewRepository.load();
-    expect(entries.length, greaterThanOrEqualTo(1111));
+    expect(entries.length, 947);
     expect(entries.keys.toSet().length, entries.length);
     expect(entries.values.where((e) =>
         e['originResearchStatus'] == 'PRIMARY_RESEARCHED_ORIGIN_IT_EN').length, greaterThanOrEqualTo(4));
