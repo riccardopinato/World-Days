@@ -8,6 +8,7 @@ World Days is a lightweight, visual and descriptive discovery app for world, int
 - National independence, constitutional, remembrance and institutional commemorations with public civic meaning.
 - Recognized cultural months/weeks and campaigns, transparently described as such, not misrepresented as general paid public holidays.
 - Person-named established civic remembrance days such as MLK Day or a formal memorial day. Distinguish founding act, annual date and earlier historical event.
+- **Explicit verified boundary cases:** retain Martin Luther King Jr. Day (US federal holiday) and Slovakia's 4 May memorial day for M. R. Štefánik (listed as *pamätný deň* under Slovak Act 241/1993 §3). These are legally designated public commemorations despite their birthday/death terminology; they are not merely NCCA cultural birthday index entries. Slov-Lex legal source: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029 .
 
 ### Exclude from published app
 - **Personal birth and death anniversaries**, including those of National Artists, National Living Treasures, writers, individual presidents and politicians, when a cultural institution merely lists a birth/death date. A calendar reference does not prove the anniversary is a national observance.
