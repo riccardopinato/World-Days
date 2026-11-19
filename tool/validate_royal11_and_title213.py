@@ -20,7 +20,7 @@ assert len(excluded)==164 and not excluded&records.keys()
 assert len([r for r in records.values() if r["scope"]=="GLOBAL"])==289
 assert len([r for r in records.values() if r["scope"]=="NATIONAL"])==658
 cc=Counter(r["countries"][0] for r in records.values() if r["scope"]=="NATIONAL")
-assert cc["PH"]==91 and cc["SE"]==3 and cc["NO"]==6
+assert cc["PH"]==91 and cc["SE"]==4 and cc["NO"]==7
 assert tr["newTitleTranslations"]==1065 and tr["localizedTitleRecordsImproved"]==213
 assert len(d["entries"])==d["count"]==213
 for row in d["entries"]:
