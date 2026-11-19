@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 47,
+  "count": 48,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3863,6 +3863,92 @@
             "O parlamento aprovou a alteração em 21 de janeiro de 2010 com 81 votos favoráveis.",
             "A norma entrou em vigor em 26 de fevereiro de 2010.",
             "A celebração ocorre no segundo domingo de setembro, e não numa data fixa."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-knowledge-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "Traditional opening of the school year on 1 September; current flag-day status recognized in Estonian law",
+      "dateRule": "September 1",
+      "institution": "Estonian education authorities; original promoter unknown",
+      "sources": [
+        "https://harno.ee/teadmistepaev",
+        "https://hm.ee/uudised/haridus-ja-teadusministeeriumi-36-nadala-eelinfo-2",
+        "https://www.riigiteataja.ee/en/eli/ee/527122022003/consolide"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Knowledge Day: a school year begins",
+          "origin": "On 1 September, Estonia marks Teadmistepäev, or Knowledge Day, as pupils and teachers begin a new school year. The occasion is also a national flag day under Estonia's flag legislation. Government and education authorities publicly mark the date, including school-opening ceremonies. The evidence consulted confirms the current observance but does not establish a separate original founding year.",
+          "promoter": "Estonian schools and education authorities observe the opening of the academic year; the Estonian state recognizes the date as a flag day. A single founder of the tradition is not established by the cited sources.",
+          "purpose": "To welcome learners and teachers and emphasize the value of education.",
+          "facts": [
+            "The date is 1 September.",
+            "The Estonian Education and Youth Board identifies it with the start of schooling or a new academic year.",
+            "The Estonian Ministry of Education and Research recorded official school-year opening events on 1 September 2026."
+          ]
+        },
+        "it": {
+          "heading": "La Giornata della conoscenza in Estonia: ricomincia la scuola",
+          "origin": "Il 1° settembre l'Estonia celebra il Teadmistepäev, la Giornata della conoscenza, quando alunni e insegnanti iniziano un nuovo anno scolastico. È anche una giornata nazionale di esposizione della bandiera. Governo e autorità scolastiche ricordano la ricorrenza con cerimonie di apertura. Le fonti confermano l'osservanza attuale, ma non permettono di stabilire un anno originario di istituzione distinto.",
+          "promoter": "Scuole e autorità educative estoni celebrano l'inizio dell'anno scolastico; lo Stato riconosce la data come giornata della bandiera. Le fonti non identificano un unico fondatore della tradizione.",
+          "purpose": "Accogliere studenti e insegnanti e valorizzare l'istruzione.",
+          "facts": [
+            "La data è il 1° settembre.",
+            "L'Agenzia estone per l'istruzione e la gioventù collega la giornata all'inizio della scuola o di un nuovo anno scolastico.",
+            "Il Ministero dell'istruzione ha documentato cerimonie ufficiali di apertura il 1° settembre 2026."
+          ]
+        },
+        "es": {
+          "heading": "Día del Conocimiento en Estonia: comienza el curso escolar",
+          "origin": "El 1 de septiembre Estonia celebra Teadmistepäev, el Día del Conocimiento, coincidiendo con el comienzo del curso para alumnos y docentes. También es una jornada nacional de izado de la bandera. El Gobierno y las autoridades educativas señalan la fecha con ceremonias de apertura. Las fuentes confirman la celebración actual, pero no permiten fijar un año fundacional independiente.",
+          "promoter": "Los centros escolares y las autoridades educativas celebran el inicio del curso; el Estado reconoce la fecha como día de la bandera. Las fuentes no identifican a un fundador único de la tradición.",
+          "purpose": "Dar la bienvenida al alumnado y al profesorado y destacar el valor de la educación.",
+          "facts": [
+            "Se celebra el 1 de septiembre.",
+            "La Agencia de Educación y Juventud de Estonia la vincula al inicio de la escolarización o de un nuevo curso.",
+            "El Ministerio de Educación registró actos oficiales de apertura el 1 de septiembre de 2026."
+          ]
+        },
+        "fr": {
+          "heading": "Journée du savoir en Estonie : la rentrée scolaire",
+          "origin": "Le 1er septembre, l'Estonie célèbre Teadmistepäev, la Journée du savoir, au début d'une nouvelle année scolaire pour les élèves et les enseignants. C'est aussi une journée nationale de pavoisement. Le gouvernement et les autorités éducatives marquent cette date par des cérémonies de rentrée. Les sources confirment la célébration actuelle sans établir une année de fondation distincte.",
+          "promoter": "Les établissements et autorités scolaires estoniens célèbrent la rentrée ; l'État reconnaît aussi cette date comme journée du drapeau. Aucun fondateur unique de la tradition n'est établi par les sources.",
+          "purpose": "Accueillir élèves et enseignants et rappeler l'importance de l'éducation.",
+          "facts": [
+            "La date est le 1er septembre.",
+            "L'Agence estonienne de l'éducation et de la jeunesse l'associe à l'entrée à l'école ou à une nouvelle année scolaire.",
+            "Le ministère de l'Éducation a annoncé des cérémonies officielles le 1er septembre 2026."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Tag des Wissens: Beginn des Schuljahres",
+          "origin": "Am 1. September begeht Estland den Teadmistepäev, den Tag des Wissens, zum Beginn des neuen Schuljahres für Lernende und Lehrkräfte. Der Termin ist zugleich ein staatlicher Beflaggungstag. Regierung und Bildungsbehörden würdigen ihn mit Schuljahreseröffnungen. Die Quellen belegen die heutige Begehung, aber kein gesondertes ursprüngliches Gründungsjahr.",
+          "promoter": "Schulen und Bildungsbehörden feiern den Schulbeginn; der Staat erkennt den Termin als Beflaggungstag an. Ein einzelner Begründer der Tradition ist nicht belegt.",
+          "purpose": "Schülerinnen, Schüler und Lehrkräfte begrüßen und die Bedeutung von Bildung hervorheben.",
+          "facts": [
+            "Der Tag fällt auf den 1. September.",
+            "Die estnische Bildungs- und Jugendbehörde verbindet ihn mit dem Schulbeginn oder dem neuen Schuljahr.",
+            "Das Bildungsministerium dokumentierte offizielle Eröffnungsfeiern am 1. September 2026."
+          ]
+        },
+        "pt": {
+          "heading": "Dia do Conhecimento na Estónia: início do ano letivo",
+          "origin": "A 1 de setembro, a Estónia assinala o Teadmistepäev, Dia do Conhecimento, quando alunos e professores iniciam um novo ano letivo. A data é também um dia nacional de hasteamento da bandeira. O governo e as autoridades educativas assinalam-na com cerimónias escolares. As fontes confirmam a celebração atual, mas não permitem determinar um ano de fundação autónomo.",
+          "promoter": "As escolas e autoridades educativas celebram o início do ano letivo; o Estado reconhece a data como dia da bandeira. As fontes não identificam um fundador único da tradição.",
+          "purpose": "Acolher alunos e professores e valorizar a educação.",
+          "facts": [
+            "A data é 1 de setembro.",
+            "A Agência de Educação e Juventude da Estónia associa-a ao início da escolaridade ou de um novo ano letivo.",
+            "O Ministério da Educação anunciou cerimónias oficiais de abertura a 1 de setembro de 2026."
           ]
         }
       },
