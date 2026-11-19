@@ -127,6 +127,16 @@ jobs:
           python3 tool/test_ruleset_guard.py
           python3 tool/test_saved_profile_report.py
 
+      - name: Archive curated published origin research cohorts
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-curated-428-origin-cohorts
+          path: |
+            reports/editorial_curated_428_origin_research/index.json
+            reports/editorial_curated_428_origin_research/cohort_*.json
+          if-no-files-found: error
+          retention-days: 20
+
       - name: Verify certified editorial sources against current GitHub PR heads
         env:
           GITHUB_TOKEN: ${{ github.token }}
