@@ -1,3 +1,9 @@
+## 19 novembre 2026 — Terza wave di titoli nazionali, 103 × 5 lingue
+
+Aggiunte e versionate altre **515 traduzioni di titoli** (103 ID × IT/ES/FR/DE/PT): **62** giornate e commemorazioni istituzionali di Slovacchia, Repubblica Ceca, Polonia, Svezia, Norvegia e Finlandia (Wave09) e **41** ricorrenze civiche filippine (Wave10). Gli **11** compleanni/onomastici reali e i **9** anniversari biografici filippini di queste wave rimangono esclusi, non rivivono. Titoli source-linked in `data/editorial/localizations/market_wave09_62_sixlocale_20261119.json` e `ph_wave10_41_sixlocale_20261119.json`.
+
+Totale al PASS/merge della terza wave: **359 ID** con titoli nuovi localizzati nelle cinque lingue non inglesi (**1.795 nuove stringhe** sommando le wave precedenti), **947/947 schede con corpo multilingue**, **519 più approfondite** e **428 con storia d'origine individuale ancora da ricercare**. Gli eventuali titoli ancora identici all'inglese sono censiti dal report (un nome proprio identico può comunque essere corretto). Pipeline offline e contenuto OTA aggiornati alla versione `2026.11.19.5`, con QA di parità e senza toccare i record fonte archiviati.
+
 ## 19 novembre 2026 — Seconda pulizia + 1.280 traduzioni reali di titoli
 
 Dopo l'esclusione dei 153 anniversari biografici PH, una seconda scrematura archivia altri **11** compleanni/onomastici di singoli reali (6 SE e 5 NO): i calendari di esposizione della bandiera restano fonti archiviate, ma le loro date personali non vanno confuse con giornate mondiali o con festività civiche generali. Il catalogo consumer scende **da 958 a 947 ID**, sempre presenti nelle sei raccolte editoriali. I **164 ID esclusi** restano consultabili nelle fonti sorgente `data/market/`; 519 articoli precedenti più approfonditi sono conservati, mentre **428** sono ancora descrizioni contestuali senza ricostruzione individuale dell'origine storica.
