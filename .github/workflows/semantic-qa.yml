@@ -7,6 +7,8 @@ on:
       - 'data/editorial/published/**'
       - 'tool/semantic_qa_adapter.py'
       - 'tool/test_semantic_qa_adapter.py'
+      - 'tool/semantic_qa_zero_cost_historicity.py'
+      - 'tool/test_semantic_qa_zero_cost_historicity.py'
       - '.github/workflows/semantic-qa.yml'
   push:
     branches: [main]
@@ -14,6 +16,8 @@ on:
       - 'data/editorial/published/**'
       - 'tool/semantic_qa_adapter.py'
       - 'tool/test_semantic_qa_adapter.py'
+      - 'tool/semantic_qa_zero_cost_historicity.py'
+      - 'tool/test_semantic_qa_zero_cost_historicity.py'
       - '.github/workflows/semantic-qa.yml'
   workflow_dispatch:
 
@@ -31,7 +35,9 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Validate World Days semantic source adapter
-        run: python3 tool/test_semantic_qa_adapter.py
+        run: |
+          python3 tool/test_semantic_qa_adapter.py
+          python3 tool/test_semantic_qa_zero_cost_historicity.py
       - name: Download exact pinned central engine
         env:
           CORE_SHA: 827a271dcbd8f1608afabb60ca07184b20926991
@@ -61,6 +67,8 @@ jobs:
           count=$(python3 -c 'import json; print(len(json.load(open("build/semantic_qa/input.json"))["records"]))')
           python3 tool/semantic_qa_adapter.py --verify-report build/semantic_qa/report.json --expected-count "$count"
           echo "Offline report is advisory, not semantic certification."
+      - name: Detect year and provenance deltas with zero AI API calls
+        run: python3 tool/semantic_qa_zero_cost_historicity.py --output build/semantic_qa/zero_cost_historicity.json
       - name: Upload original scope and review findings
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
@@ -69,5 +77,6 @@ jobs:
           path: |
             build/semantic_qa/input.json
             build/semantic_qa/report.json
+            build/semantic_qa/zero_cost_historicity.json
           if-no-files-found: ignore
           retention-days: 14
