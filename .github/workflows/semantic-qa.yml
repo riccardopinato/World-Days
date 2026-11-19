@@ -44,7 +44,7 @@ jobs:
         run: python3 tool/test_semantic_qa_adapter.py
       - name: Download exact pinned central engine
         env:
-          CORE_SHA: 2140c843c1d5e4d8b0b4ad20a8b6a827fbfc63db
+          CORE_SHA: 827a271dcbd8f1608afabb60ca07184b20926991
         run: |
           mkdir -p build/semantic_qa
           curl --fail --location --silent --show-error --retry 3 \
