@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 46,
+  "count": 47,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3777,6 +3777,92 @@
             "Em 4 de junho de 1884, a bandeira azul, preta e branca da Sociedade de Estudantes Estónios foi consagrada em Otepää.",
             "A Sociedade de Estudantes Estónios criou a bandeira original; instituições e associações comemoram o aniversário.",
             "O dia recorda como um emblema estudantil se tornou símbolo de independência e resistiu à repressão soviética."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-grandparents-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": 2010,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "Second Sunday of September designated by Estonian parliamentary amendment 582 SE in 2010",
+      "dateRule": "Second Sunday of September",
+      "institution": "Riigikogu (Estonian Parliament); proposal by Estonian Green Party parliamentary faction",
+      "sources": [
+        "https://www.riigikogu.ee/en/istungi-ulevaated/riigikogu-passed-act-providing-grandparents-day/",
+        "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+        "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Grandparents' Day: generations recognized by law",
+          "origin": "On 21 January 2010, Estonia's Riigikogu adopted amendment 582 SE to add Grandparents' Day to the national calendar. The measure entered into force on 26 February 2010. It established the second Sunday in September as a day of national importance, recognizing grandparents' contributions to families and children's upbringing.",
+          "promoter": "The Estonian Green Party parliamentary faction initiated the amendment, which passed with 81 votes in favour; the Riigikogu enacted it.",
+          "purpose": "To recognize grandparents' place in family life and honour older people in Estonia.",
+          "facts": [
+            "The Riigikogu approved the amendment on 21 January 2010 with 81 votes in favour.",
+            "The legal amendment entered into force on 26 February 2010.",
+            "The date is the second Sunday of September, not a fixed day of the month."
+          ]
+        },
+        "it": {
+          "heading": "La Giornata dei nonni in Estonia: un riconoscimento per legge",
+          "origin": "Il 21 gennaio 2010 il Riigikogu estone approvò l'emendamento 582 SE per inserire la Giornata dei nonni nel calendario nazionale. La norma entrò in vigore il 26 febbraio 2010 e fissò la ricorrenza alla seconda domenica di settembre, riconoscendo il contributo dei nonni alle famiglie e alla crescita dei nipoti.",
+          "promoter": "L'iniziativa fu presentata dal gruppo parlamentare del Partito dei Verdi estone e approvata dal Riigikogu con 81 voti favorevoli.",
+          "purpose": "Valorizzare il ruolo dei nonni nella vita familiare e rendere omaggio alle persone anziane in Estonia.",
+          "facts": [
+            "Il Parlamento approvò l'emendamento il 21 gennaio 2010 con 81 voti favorevoli.",
+            "La norma entrò in vigore il 26 febbraio 2010.",
+            "La ricorrenza cade la seconda domenica di settembre, non in un giorno fisso del mese."
+          ]
+        },
+        "es": {
+          "heading": "Día de los Abuelos en Estonia: un reconocimiento legal",
+          "origin": "El 21 de enero de 2010, el Riigikogu estonio aprobó la reforma 582 SE para incorporar el Día de los Abuelos al calendario nacional. La norma entró en vigor el 26 de febrero de 2010 y fijó su celebración el segundo domingo de septiembre, en reconocimiento de la aportación de los abuelos a las familias y a la crianza.",
+          "promoter": "La iniciativa partió del grupo parlamentario del Partido Verde estonio y fue aprobada por el Riigikogu con 81 votos favorables.",
+          "purpose": "Reconocer la función de los abuelos en la vida familiar y rendir homenaje a las personas mayores de Estonia.",
+          "facts": [
+            "El Parlamento aprobó la reforma el 21 de enero de 2010 por 81 votos.",
+            "La reforma entró en vigor el 26 de febrero de 2010.",
+            "La fecha es el segundo domingo de septiembre, no un día fijo del mes."
+          ]
+        },
+        "fr": {
+          "heading": "La Journée des grands-parents en Estonie : une reconnaissance légale",
+          "origin": "Le 21 janvier 2010, le Riigikogu estonien a adopté l'amendement 582 SE inscrivant la Journée des grands-parents au calendrier national. Entré en vigueur le 26 février 2010, le texte fixe cette journée au deuxième dimanche de septembre afin de reconnaître le rôle des grands-parents auprès des familles et des enfants.",
+          "promoter": "Le groupe parlementaire du Parti vert estonien a proposé la mesure, adoptée par le Riigikogu avec 81 voix favorables.",
+          "purpose": "Reconnaître la place des grands-parents dans la vie familiale et rendre hommage aux personnes âgées en Estonie.",
+          "facts": [
+            "Le Parlement a adopté l'amendement le 21 janvier 2010 par 81 voix.",
+            "La loi est entrée en vigueur le 26 février 2010.",
+            "La célébration tombe le deuxième dimanche de septembre, et non à une date fixe."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Großelterntag: gesetzliche Anerkennung der Generationen",
+          "origin": "Am 21. Januar 2010 verabschiedete das estnische Parlament Riigikogu die Gesetzesänderung 582 SE, die den Großelterntag in den nationalen Gedenkkalender aufnahm. Sie trat am 26. Februar 2010 in Kraft und bestimmte den zweiten Sonntag im September als Termin. Damit wird der Beitrag der Großeltern zu Familie und Erziehung gewürdigt.",
+          "promoter": "Die Fraktion der estnischen Grünen brachte die Änderung ein; der Riigikogu verabschiedete sie mit 81 Ja-Stimmen.",
+          "purpose": "Die Bedeutung der Großeltern für Familien anerkennen und älteren Menschen in Estland Respekt erweisen.",
+          "facts": [
+            "Das Parlament verabschiedete die Änderung am 21. Januar 2010 mit 81 Ja-Stimmen.",
+            "Die Regelung trat am 26. Februar 2010 in Kraft.",
+            "Der Tag fällt auf den zweiten Sonntag im September, nicht auf ein festes Kalenderdatum."
+          ]
+        },
+        "pt": {
+          "heading": "Dia dos Avós na Estónia: reconhecimento na lei",
+          "origin": "Em 21 de janeiro de 2010, o parlamento estónio, Riigikogu, aprovou a alteração legislativa 582 SE, incluindo o Dia dos Avós no calendário nacional. A norma entrou em vigor em 26 de fevereiro de 2010 e estabeleceu o segundo domingo de setembro como data da celebração, valorizando o contributo dos avós para a família e a educação das crianças.",
+          "promoter": "A iniciativa foi apresentada pelo grupo parlamentar do Partido Verde estónio e aprovada pelo Riigikogu com 81 votos favoráveis.",
+          "purpose": "Reconhecer o papel dos avós na vida familiar e prestar homenagem às pessoas mais velhas na Estónia.",
+          "facts": [
+            "O parlamento aprovou a alteração em 21 de janeiro de 2010 com 81 votos favoráveis.",
+            "A norma entrou em vigor em 26 de fevereiro de 2010.",
+            "A celebração ocorre no segundo domingo de setembro, e não numa data fixa."
           ]
         }
       },
