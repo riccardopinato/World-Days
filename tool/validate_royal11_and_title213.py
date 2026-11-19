@@ -11,6 +11,9 @@ audit=rd(R/"reports/world_days_royal_biographical_11_exclusions_20261119.json")
 tr=rd(R/"reports/market_title_213_localization.json")
 base=rd(R/"reports/world_days_excluded_birth_death_20261119.json")
 d=rd(R/"data/editorial/localizations/market_title_213_sixlocale_20261119.json")
+ph=rd(R/"data/editorial/localizations/ph_ncca_title_43_sixlocale_20261119.json")
+ph_report=rd(R/"reports/ph_ncca_title_43_localizations.json")
+assert ph_report["combinedNonEnglishTitleStrings"]==1280
 cat=rd(A/"official_core.json")
 records={r["id"]:r for r in cat["records"]}
 assert len(records)==audit["publishedIds"]==tr["catalog"]==947
@@ -23,6 +26,11 @@ cc=Counter(r["countries"][0] for r in records.values() if r["scope"]=="NATIONAL"
 assert cc["PH"]==91 and cc["SE"]==4 and cc["NO"]==7
 assert tr["newTitleTranslations"]==1065 and tr["localizedTitleRecordsImproved"]==213
 assert len(d["entries"])==d["count"]==213
+assert len(ph["entries"])==ph["count"]==43
+assert len({r["observanceId"] for r in ph["entries"]}&{r["observanceId"] for r in d["entries"]})==0
+for row in ph["entries"]:
+ rid=row["observanceId"]
+ assert rid in records and records[rid]["localizedTitles"]==row["localizedTitles"]
 for row in d["entries"]:
  rid=row["observanceId"]
  assert rid in records
