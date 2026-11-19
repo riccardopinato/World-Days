@@ -1,3 +1,15 @@
+## 19 novembre 2026 — Catalogo coerente: audit 1.111 e 153 anniversari personali esclusi
+
+- [x] Confine di prodotto fissato: focus su giornate mondiali, internazionali, civiche/nazionali e campagne tematiche; no anniversari personali di nascita/morte se soltanto ricorrenze da calendario biografico.
+- [x] Audit di **tutti 1.111 ID sorgente** su identità, titoli, categorie, Paese, fonte, anno di introduzione, stato editoriale e completezza delle lingue; inventario dei casi sospetti da rivedere.
+- [x] Primo lotto di esclusioni **153 ID PH** (144 Wave11 + 9 Wave10) con classificazione e archivio. Nessuna eliminazione dei dati sorgente o delle PR storiche.
+- [x] Pubblicazione consumer ridotta a **958 ID**, 289 globali e 669 nazionali; **91 filippini** al posto dei 244 precedenti. Sei lingue e offline date index filtrati con identico criterio.
+- [x] Conservazione **519** articoli più approfonditi e **439** descrizioni contestuali ancora prive di storia d'origine individualizzata; i 439 sono da approfondire, non da tradurre da zero.
+- [x] Importazione sicura ripetibile in tutti i percorsi CI, Web, Android/production, con versionamento nuovo del content pack e test anti-reinserimento.
+- [ ] Validazione CI exact-head e merge del filtro su `main`.
+- [ ] Nuovi lotti storici **da 100 ID** sulle **439** schede contestuali, scegliendo fonti istituzionali specifiche; le esclusioni riducono il backlog senza dover generare testi per biografie non pertinenti.
+- [ ] Audit di pertinenza su nuove tipologie ambigue ed eventuali duplicati semantici, distinguendo person-named civic days da compleanni/morti.
+
 ## 19 novembre 2026 — Upgrade storico 604, prima wave verificata
 
 - [x] Audit fattuale di tutti i 604 ID descrittivi: **604 nazionali**, **12** con anno introduttivo collegato a fonte, **18** con riferimento formale e **10** con entrambi.
