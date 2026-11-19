@@ -1,3 +1,7 @@
+## Stato editoriale corrente — 19 novembre 2026
+
+**502/1.111 articoli completi in sei lingue; 0 solo IT/EN; 609 ID ancora senza storia editoriale completa.** Contare solo gli ID canonici unici su `main`, non le PR sorgente o le traduzioni come nuove storie. I 626 senza ricerca storica specifica sono una metrica diversa. I blocchi già pronti Wave20/PH-KR-CA/top-five sono inclusi nei 502. La prossima wave deve produrre solo contenuti mancanti usando il [prospetto editoriale pulito](docs/WORLD_DAYS_EDITORIAL_CLEAN_STATUS_20261119.md) e il Fast Track IA del Master Core; QA dei fatti e traduzioni, merge con CI, nessun certificatore professionale esterno obbligatorio per normali testi descrittivi.
+
 ## 15 November 2026 — CLOSED: 183/183 historical dossiers AI-certified in six locales, integrated into main
 
 - **Merged:** [World Days PR #138](https://github.com/riccardopinato/World-Days/pull/138); protected `main` commit `8be150f39c83df90365fdd935382179713282d28`.
