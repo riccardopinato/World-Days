@@ -28,6 +28,8 @@ python3 tool/curate_royal_personal_11.py >/dev/null
 python3 tool/apply_market_title_213_localizations.py >/dev/null
 python3 tool/apply_ph_ncca_title_43.py >/dev/null
 python3 tool/validate_royal11_and_title213.py >/dev/null
+python3 tool/apply_remaining_103_market_titles.py >/dev/null
+python3 tool/validate_remaining_103_titles.py >/dev/null
 python3 tool/build_content_pack.py >/dev/null
 
 if ! command -v flutter >/dev/null 2>&1; then
