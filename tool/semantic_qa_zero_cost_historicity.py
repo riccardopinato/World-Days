@@ -15,17 +15,24 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 YEARS = re.compile(r"(?<!\d)(?:1[5-9]\d{2}|20\d{2})(?!\d|s\b|er\b|er-)")
 DECADE_BEFORE = re.compile(
-    r"(?:\b(?:anni|années|annees|años|anos|década|decada|décennie|decennie|"
-    r"jahrzehnt|jahre|decade)\s+(?:(?:de|del|di|dos|des|of|the)\s+)?)$",
+    r"\b(?:anni|années|annees|años|anos|décadas?|decadas?|"
+    r"décennies?|decennies?|jahrzehnt|jahre|decades?)\s+"
+    r"(?:(?:de|del|di|dos|des|of|the)\s+)?"
+    r"(?:(?:1[5-9]\d{2}|20\d{2})\s*(?:y|e|et|and|und|or)\s*)?$",
     re.IGNORECASE,
 )
 
 def exact_years(text: str) -> set[str]:
-    """Exclude decades (1940s/1940er/anni 1940), not exact calendar years."""
+    """Do not count decade spans as exact years; preserve concrete years/ranges.
+
+    E.g. "décadas de 1930 y 1940" represents decades, while "années
+    2024-2033" names a precise bounded international programme.
+    """
     result = set()
     for match in YEARS.finditer(text):
-        preceding = text[max(0, match.start()-45):match.start()]
-        if DECADE_BEFORE.search(preceding):
+        year = int(match.group())
+        preceding = text[max(0, match.start()-65):match.start()]
+        if year % 10 == 0 and DECADE_BEFORE.search(preceding):
             continue
         result.add(match.group())
     return result
