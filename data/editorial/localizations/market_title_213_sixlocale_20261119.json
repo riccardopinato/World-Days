@@ -1,0 +1,3003 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-19",
+  "count": 213,
+  "kind": "SOURCE_ANCHORED_OFFLINE_MARKET_TITLE_LOCALIZATIONS",
+  "sourceIdentityCount": {
+    "DFAT": 156,
+    "EURES": 57
+  },
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "translationMethod": "AI-authored glossary for 40 source subjects; ICU region names resolved at authoring and vendored as static strings. No runtime network or translation API.",
+  "entries": [
+    {
+      "observanceId": "cu-dfat-national-day",
+      "country": "CU",
+      "canonicalTitleEn": "Liberation Day — Cuba",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Liberation Day — Cuba",
+        "it": "Giornata della liberazione — Cuba",
+        "es": "Día de la Liberación — Cuba",
+        "fr": "Journée de la Libération — Cuba",
+        "de": "Tag der Befreiung — Kuba",
+        "pt": "Dia da Libertação — Cuba"
+      }
+    },
+    {
+      "observanceId": "ht-dfat-national-day",
+      "country": "HT",
+      "canonicalTitleEn": "Independence Day — Haiti",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Haiti",
+        "it": "Giornata dell'indipendenza — Haiti",
+        "es": "Día de la Independencia — Haití",
+        "fr": "Fête de l'indépendance — Haïti",
+        "de": "Unabhängigkeitstag — Haiti",
+        "pt": "Dia da Independência — Haiti"
+      }
+    },
+    {
+      "observanceId": "sd-dfat-national-day",
+      "country": "SD",
+      "canonicalTitleEn": "National Day — Sudan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Sudan",
+        "it": "Festa nazionale — Sudan",
+        "es": "Día nacional — Sudán",
+        "fr": "Fête nationale — Soudan",
+        "de": "Nationalfeiertag — Sudan",
+        "pt": "Dia Nacional — Sudão"
+      }
+    },
+    {
+      "observanceId": "mm-dfat-national-day",
+      "country": "MM",
+      "canonicalTitleEn": "Independence Day — Myanmar",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Myanmar",
+        "it": "Giornata dell'indipendenza — Myanmar (Birmania)",
+        "es": "Día de la Independencia — Myanmar (Birmania)",
+        "fr": "Fête de l'indépendance — Myanmar (Birmanie)",
+        "de": "Unabhängigkeitstag — Myanmar",
+        "pt": "Dia da Independência — Mianmar (Birmânia)"
+      }
+    },
+    {
+      "observanceId": "nr-dfat-national-day",
+      "country": "NR",
+      "canonicalTitleEn": "National Day — Nauru",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Nauru",
+        "it": "Festa nazionale — Nauru",
+        "es": "Día nacional — Nauru",
+        "fr": "Fête nationale — Nauru",
+        "de": "Nationalfeiertag — Nauru",
+        "pt": "Dia Nacional — Nauru"
+      }
+    },
+    {
+      "observanceId": "lk-dfat-national-day",
+      "country": "LK",
+      "canonicalTitleEn": "Independence Commemoration Day — Sri Lanka",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Commemoration Day — Sri Lanka",
+        "it": "Giornata della commemorazione dell'indipendenza — Sri Lanka",
+        "es": "Día de conmemoración de la independencia — Sri Lanka",
+        "fr": "Journée de commémoration de l'indépendance — Sri Lanka",
+        "de": "Gedenktag der Unabhängigkeit — Sri Lanka",
+        "pt": "Dia de comemoração da independência — Sri Lanka"
+      }
+    },
+    {
+      "observanceId": "gd-dfat-national-day",
+      "country": "GD",
+      "canonicalTitleEn": "Independence Day — Grenada",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Grenada",
+        "it": "Giornata dell'indipendenza — Grenada",
+        "es": "Día de la Independencia — Granada",
+        "fr": "Fête de l'indépendance — Grenade",
+        "de": "Unabhängigkeitstag — Grenada",
+        "pt": "Dia da Independência — Granada"
+      }
+    },
+    {
+      "observanceId": "ir-dfat-national-day",
+      "country": "IR",
+      "canonicalTitleEn": "Victory of the Islamic Revolution — Iran",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Victory of the Islamic Revolution — Iran",
+        "it": "Vittoria della Rivoluzione islamica — Iran",
+        "es": "Victoria de la Revolución Islámica — Irán",
+        "fr": "Victoire de la Révolution islamique — Iran",
+        "de": "Sieg der Islamischen Revolution — Iran",
+        "pt": "Vitória da Revolução Islâmica — Irã"
+      }
+    },
+    {
+      "observanceId": "rs-dfat-national-day",
+      "country": "RS",
+      "canonicalTitleEn": "National Day — Serbia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Serbia",
+        "it": "Festa nazionale — Serbia",
+        "es": "Día nacional — Serbia",
+        "fr": "Fête nationale — Serbie",
+        "de": "Nationalfeiertag — Serbien",
+        "pt": "Dia Nacional — Sérvia"
+      }
+    },
+    {
+      "observanceId": "gm-dfat-national-day",
+      "country": "GM",
+      "canonicalTitleEn": "National Day — The Gambia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — The Gambia",
+        "it": "Festa nazionale — Gambia",
+        "es": "Día nacional — Gambia",
+        "fr": "Fête nationale — Gambie",
+        "de": "Nationalfeiertag — Gambia",
+        "pt": "Dia Nacional — Gâmbia"
+      }
+    },
+    {
+      "observanceId": "lc-dfat-national-day",
+      "country": "LC",
+      "canonicalTitleEn": "National Day — Saint Lucia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Saint Lucia",
+        "it": "Festa nazionale — Saint Lucia",
+        "es": "Día nacional — Santa Lucía",
+        "fr": "Fête nationale — Sainte-Lucie",
+        "de": "Nationalfeiertag — St. Lucia",
+        "pt": "Dia Nacional — Santa Lúcia"
+      }
+    },
+    {
+      "observanceId": "bn-dfat-national-day",
+      "country": "BN",
+      "canonicalTitleEn": "National Day — Brunei",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Brunei",
+        "it": "Festa nazionale — Brunei",
+        "es": "Día nacional — Brunéi",
+        "fr": "Fête nationale — Brunei",
+        "de": "Nationalfeiertag — Brunei Darussalam",
+        "pt": "Dia Nacional — Brunei"
+      }
+    },
+    {
+      "observanceId": "gy-dfat-national-day",
+      "country": "GY",
+      "canonicalTitleEn": "National Day — Guyana",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Guyana",
+        "it": "Festa nazionale — Guyana",
+        "es": "Día nacional — Guyana",
+        "fr": "Fête nationale — Guyana",
+        "de": "Nationalfeiertag — Guyana",
+        "pt": "Dia Nacional — Guiana"
+      }
+    },
+    {
+      "observanceId": "kw-dfat-national-day",
+      "country": "KW",
+      "canonicalTitleEn": "National Day — Kuwait",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Kuwait",
+        "it": "Festa nazionale — Kuwait",
+        "es": "Día nacional — Kuwait",
+        "fr": "Fête nationale — Koweït",
+        "de": "Nationalfeiertag — Kuwait",
+        "pt": "Dia Nacional — Kuwait"
+      }
+    },
+    {
+      "observanceId": "do-dfat-national-day",
+      "country": "DO",
+      "canonicalTitleEn": "Independence Day — Dominican Republic",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Dominican Republic",
+        "it": "Giornata dell'indipendenza — Repubblica Dominicana",
+        "es": "Día de la Independencia — República Dominicana",
+        "fr": "Fête de l'indépendance — République dominicaine",
+        "de": "Unabhängigkeitstag — Dominikanische Republik",
+        "pt": "Dia da Independência — República Dominicana"
+      }
+    },
+    {
+      "observanceId": "bg-dfat-national-day",
+      "country": "BG",
+      "canonicalTitleEn": "National Day — Bulgaria",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Bulgaria",
+        "it": "Festa nazionale — Bulgaria",
+        "es": "Día nacional — Bulgaria",
+        "fr": "Fête nationale — Bulgarie",
+        "de": "Nationalfeiertag — Bulgarien",
+        "pt": "Dia Nacional — Bulgária"
+      }
+    },
+    {
+      "observanceId": "gh-dfat-national-day",
+      "country": "GH",
+      "canonicalTitleEn": "Independence Day — Ghana",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Ghana",
+        "it": "Giornata dell'indipendenza — Ghana",
+        "es": "Día de la Independencia — Ghana",
+        "fr": "Fête de l'indépendance — Ghana",
+        "de": "Unabhängigkeitstag — Ghana",
+        "pt": "Dia da Independência — Gana"
+      }
+    },
+    {
+      "observanceId": "mu-dfat-national-day",
+      "country": "MU",
+      "canonicalTitleEn": "National Day — Mauritius",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Mauritius",
+        "it": "Festa nazionale — Mauritius",
+        "es": "Día nacional — Mauricio",
+        "fr": "Fête nationale — Maurice",
+        "de": "Nationalfeiertag — Mauritius",
+        "pt": "Dia Nacional — Maurício"
+      }
+    },
+    {
+      "observanceId": "tn-dfat-national-day",
+      "country": "TN",
+      "canonicalTitleEn": "Independence Day — Tunisia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Tunisia",
+        "it": "Giornata dell'indipendenza — Tunisia",
+        "es": "Día de la Independencia — Túnez",
+        "fr": "Fête de l'indépendance — Tunisie",
+        "de": "Unabhängigkeitstag — Tunesien",
+        "pt": "Dia da Independência — Tunísia"
+      }
+    },
+    {
+      "observanceId": "na-dfat-national-day",
+      "country": "NA",
+      "canonicalTitleEn": "Independence Day — Namibia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Namibia",
+        "it": "Giornata dell'indipendenza — Namibia",
+        "es": "Día de la Independencia — Namibia",
+        "fr": "Fête de l'indépendance — Namibie",
+        "de": "Unabhängigkeitstag — Namibia",
+        "pt": "Dia da Independência — Namíbia"
+      }
+    },
+    {
+      "observanceId": "pk-dfat-national-day",
+      "country": "PK",
+      "canonicalTitleEn": "National Day — Pakistan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Pakistan",
+        "it": "Festa nazionale — Pakistan",
+        "es": "Día nacional — Pakistán",
+        "fr": "Fête nationale — Pakistan",
+        "de": "Nationalfeiertag — Pakistan",
+        "pt": "Dia Nacional — Paquistão"
+      }
+    },
+    {
+      "observanceId": "gr-dfat-national-day",
+      "country": "GR",
+      "canonicalTitleEn": "Independence Day — Greece",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Greece",
+        "it": "Giornata dell'indipendenza — Grecia",
+        "es": "Día de la Independencia — Grecia",
+        "fr": "Fête de l'indépendance — Grèce",
+        "de": "Unabhängigkeitstag — Griechenland",
+        "pt": "Dia da Independência — Grécia"
+      }
+    },
+    {
+      "observanceId": "bd-dfat-national-day",
+      "country": "BD",
+      "canonicalTitleEn": "Independence Day — Bangladesh",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Bangladesh",
+        "it": "Giornata dell'indipendenza — Bangladesh",
+        "es": "Día de la Independencia — Bangladés",
+        "fr": "Fête de l'indépendance — Bangladesh",
+        "de": "Unabhängigkeitstag — Bangladesch",
+        "pt": "Dia da Independência — Bangladesh"
+      }
+    },
+    {
+      "observanceId": "sn-dfat-national-day",
+      "country": "SN",
+      "canonicalTitleEn": "Independence Day — Senegal",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Senegal",
+        "it": "Giornata dell'indipendenza — Senegal",
+        "es": "Día de la Independencia — Senegal",
+        "fr": "Fête de l'indépendance — Sénégal",
+        "de": "Unabhängigkeitstag — Senegal",
+        "pt": "Dia da Independência — Senegal"
+      }
+    },
+    {
+      "observanceId": "zw-dfat-national-day",
+      "country": "ZW",
+      "canonicalTitleEn": "National Day — Zimbabwe",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Zimbabwe",
+        "it": "Festa nazionale — Zimbabwe",
+        "es": "Día nacional — Zimbabue",
+        "fr": "Fête nationale — Zimbabwe",
+        "de": "Nationalfeiertag — Simbabwe",
+        "pt": "Dia Nacional — Zimbábue"
+      }
+    },
+    {
+      "observanceId": "tz-dfat-national-day",
+      "country": "TZ",
+      "canonicalTitleEn": "Union Day — Tanzania",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Union Day — Tanzania",
+        "it": "Giornata dell'unione — Tanzania",
+        "es": "Día de la Unión — Tanzania",
+        "fr": "Fête de l'Union — Tanzanie",
+        "de": "Tag der Union — Tansania",
+        "pt": "Dia da União — Tanzânia"
+      }
+    },
+    {
+      "observanceId": "sl-dfat-national-day",
+      "country": "SL",
+      "canonicalTitleEn": "Independence Day — Sierra Leone",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Sierra Leone",
+        "it": "Giornata dell'indipendenza — Sierra Leone",
+        "es": "Día de la Independencia — Sierra Leona",
+        "fr": "Fête de l'indépendance — Sierra Leone",
+        "de": "Unabhängigkeitstag — Sierra Leone",
+        "pt": "Dia da Independência — Serra Leoa"
+      }
+    },
+    {
+      "observanceId": "tg-dfat-national-day",
+      "country": "TG",
+      "canonicalTitleEn": "National Day — Togo",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Togo",
+        "it": "Festa nazionale — Togo",
+        "es": "Día nacional — Togo",
+        "fr": "Fête nationale — Togo",
+        "de": "Nationalfeiertag — Togo",
+        "pt": "Dia Nacional — Togo"
+      }
+    },
+    {
+      "observanceId": "mh-dfat-national-day",
+      "country": "MH",
+      "canonicalTitleEn": "National Day — Marshall Islands",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Marshall Islands",
+        "it": "Festa nazionale — Isole Marshall",
+        "es": "Día nacional — Islas Marshall",
+        "fr": "Fête nationale — Îles Marshall",
+        "de": "Nationalfeiertag — Marshallinseln",
+        "pt": "Dia Nacional — Ilhas Marshall"
+      }
+    },
+    {
+      "observanceId": "py-dfat-national-day",
+      "country": "PY",
+      "canonicalTitleEn": "National Day — Paraguay",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Paraguay",
+        "it": "Festa nazionale — Paraguay",
+        "es": "Día nacional — Paraguay",
+        "fr": "Fête nationale — Paraguay",
+        "de": "Nationalfeiertag — Paraguay",
+        "pt": "Dia Nacional — Paraguai"
+      }
+    },
+    {
+      "observanceId": "cm-dfat-national-day",
+      "country": "CM",
+      "canonicalTitleEn": "National Day — Cameroon",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Cameroon",
+        "it": "Festa nazionale — Camerun",
+        "es": "Día nacional — Camerún",
+        "fr": "Fête nationale — Cameroun",
+        "de": "Nationalfeiertag — Kamerun",
+        "pt": "Dia Nacional — Camarões"
+      }
+    },
+    {
+      "observanceId": "tl-dfat-national-day",
+      "country": "TL",
+      "canonicalTitleEn": "Restoration of Independence — Timor-Leste",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Restoration of Independence — Timor-Leste",
+        "it": "Restaurazione dell'indipendenza — Timor Est",
+        "es": "Restauración de la Independencia — Timor-Leste",
+        "fr": "Rétablissement de l'indépendance — Timor oriental",
+        "de": "Wiederherstellung der Unabhängigkeit — Timor-Leste",
+        "pt": "Restauração da Independência — Timor-Leste"
+      }
+    },
+    {
+      "observanceId": "ye-dfat-national-day",
+      "country": "YE",
+      "canonicalTitleEn": "Unification Day — Yemen",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Unification Day — Yemen",
+        "it": "Giornata dell'unificazione — Yemen",
+        "es": "Día de la Unificación — Yemen",
+        "fr": "Journée de l'Unification — Yémen",
+        "de": "Tag der Wiedervereinigung — Jemen",
+        "pt": "Dia da Unificação — Iêmen"
+      }
+    },
+    {
+      "observanceId": "ec-dfat-national-day",
+      "country": "EC",
+      "canonicalTitleEn": "Independence Day — Ecuador",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Ecuador",
+        "it": "Giornata dell'indipendenza — Ecuador",
+        "es": "Día de la Independencia — Ecuador",
+        "fr": "Fête de l'indépendance — Équateur",
+        "de": "Unabhängigkeitstag — Ecuador",
+        "pt": "Dia da Independência — Equador"
+      }
+    },
+    {
+      "observanceId": "er-dfat-national-day",
+      "country": "ER",
+      "canonicalTitleEn": "Independence Day — Eritrea",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Eritrea",
+        "it": "Giornata dell'indipendenza — Eritrea",
+        "es": "Día de la Independencia — Eritrea",
+        "fr": "Fête de l'indépendance — Érythrée",
+        "de": "Unabhängigkeitstag — Eritrea",
+        "pt": "Dia da Independência — Eritreia"
+      }
+    },
+    {
+      "observanceId": "jo-dfat-national-day",
+      "country": "JO",
+      "canonicalTitleEn": "Independence Day — Jordan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Jordan",
+        "it": "Giornata dell'indipendenza — Giordania",
+        "es": "Día de la Independencia — Jordania",
+        "fr": "Fête de l'indépendance — Jordanie",
+        "de": "Unabhängigkeitstag — Jordanien",
+        "pt": "Dia da Independência — Jordânia"
+      }
+    },
+    {
+      "observanceId": "ge-dfat-national-day",
+      "country": "GE",
+      "canonicalTitleEn": "National Day — Georgia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Georgia",
+        "it": "Festa nazionale — Georgia",
+        "es": "Día nacional — Georgia",
+        "fr": "Fête nationale — Géorgie",
+        "de": "Nationalfeiertag — Georgien",
+        "pt": "Dia Nacional — Geórgia"
+      }
+    },
+    {
+      "observanceId": "az-dfat-national-day",
+      "country": "AZ",
+      "canonicalTitleEn": "National Day — Azerbaijan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Azerbaijan",
+        "it": "Festa nazionale — Azerbaigian",
+        "es": "Día nacional — Azerbaiyán",
+        "fr": "Fête nationale — Azerbaïdjan",
+        "de": "Nationalfeiertag — Aserbaidschan",
+        "pt": "Dia Nacional — Azerbaijão"
+      }
+    },
+    {
+      "observanceId": "et-dfat-national-day",
+      "country": "ET",
+      "canonicalTitleEn": "National Day — Ethiopia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Ethiopia",
+        "it": "Festa nazionale — Etiopia",
+        "es": "Día nacional — Etiopía",
+        "fr": "Fête nationale — Éthiopie",
+        "de": "Nationalfeiertag — Äthiopien",
+        "pt": "Dia Nacional — Etiópia"
+      }
+    },
+    {
+      "observanceId": "ws-dfat-national-day",
+      "country": "WS",
+      "canonicalTitleEn": "Independence Day — Samoa",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Samoa",
+        "it": "Giornata dell'indipendenza — Samoa",
+        "es": "Día de la Independencia — Samoa",
+        "fr": "Fête de l'indépendance — Samoa",
+        "de": "Unabhängigkeitstag — Samoa",
+        "pt": "Dia da Independência — Samoa"
+      }
+    },
+    {
+      "observanceId": "ru-dfat-national-day",
+      "country": "RU",
+      "canonicalTitleEn": "National Day — Russia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Russia",
+        "it": "Festa nazionale — Russia",
+        "es": "Día nacional — Rusia",
+        "fr": "Fête nationale — Russie",
+        "de": "Nationalfeiertag — Russland",
+        "pt": "Dia Nacional — Rússia"
+      }
+    },
+    {
+      "observanceId": "sc-dfat-national-day",
+      "country": "SC",
+      "canonicalTitleEn": "National Day — Seychelles",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Seychelles",
+        "it": "Festa nazionale — Seychelles",
+        "es": "Día nacional — Seychelles",
+        "fr": "Fête nationale — Seychelles",
+        "de": "Nationalfeiertag — Seychellen",
+        "pt": "Dia Nacional — Seicheles"
+      }
+    },
+    {
+      "observanceId": "mz-dfat-national-day",
+      "country": "MZ",
+      "canonicalTitleEn": "Independence Day — Mozambique",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Mozambique",
+        "it": "Giornata dell'indipendenza — Mozambico",
+        "es": "Día de la Independencia — Mozambique",
+        "fr": "Fête de l'indépendance — Mozambique",
+        "de": "Unabhängigkeitstag — Mosambik",
+        "pt": "Dia da Independência — Moçambique"
+      }
+    },
+    {
+      "observanceId": "si-dfat-national-day",
+      "country": "SI",
+      "canonicalTitleEn": "National Day — Slovenia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Slovenia",
+        "it": "Festa nazionale — Slovenia",
+        "es": "Día nacional — Eslovenia",
+        "fr": "Fête nationale — Slovénie",
+        "de": "Nationalfeiertag — Slowenien",
+        "pt": "Dia Nacional — Eslovênia"
+      }
+    },
+    {
+      "observanceId": "mg-dfat-national-day",
+      "country": "MG",
+      "canonicalTitleEn": "National Day — Madagascar",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Madagascar",
+        "it": "Festa nazionale — Madagascar",
+        "es": "Día nacional — Madagascar",
+        "fr": "Fête nationale — Madagascar",
+        "de": "Nationalfeiertag — Madagaskar",
+        "pt": "Dia Nacional — Madagascar"
+      }
+    },
+    {
+      "observanceId": "dj-dfat-national-day",
+      "country": "DJ",
+      "canonicalTitleEn": "Independence Day — Djibouti",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Djibouti",
+        "it": "Giornata dell'indipendenza — Gibuti",
+        "es": "Día de la Independencia — Yibuti",
+        "fr": "Fête de l'indépendance — Djibouti",
+        "de": "Unabhängigkeitstag — Dschibuti",
+        "pt": "Dia da Independência — Djibuti"
+      }
+    },
+    {
+      "observanceId": "cd-dfat-national-day",
+      "country": "CD",
+      "canonicalTitleEn": "Independence Day — Democratic Republic of the Congo",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Democratic Republic of the Congo",
+        "it": "Giornata dell'indipendenza — Congo - Kinshasa",
+        "es": "Día de la Independencia — República Democrática del Congo",
+        "fr": "Fête de l'indépendance — Congo-Kinshasa",
+        "de": "Unabhängigkeitstag — Kongo-Kinshasa",
+        "pt": "Dia da Independência — Congo - Kinshasa"
+      }
+    },
+    {
+      "observanceId": "bi-dfat-national-day",
+      "country": "BI",
+      "canonicalTitleEn": "National Day — Burundi",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Burundi",
+        "it": "Festa nazionale — Burundi",
+        "es": "Día nacional — Burundi",
+        "fr": "Fête nationale — Burundi",
+        "de": "Nationalfeiertag — Burundi",
+        "pt": "Dia Nacional — Burundi"
+      }
+    },
+    {
+      "observanceId": "so-dfat-national-day",
+      "country": "SO",
+      "canonicalTitleEn": "National Day — Somalia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Somalia",
+        "it": "Festa nazionale — Somalia",
+        "es": "Día nacional — Somalia",
+        "fr": "Fête nationale — Somalie",
+        "de": "Nationalfeiertag — Somalia",
+        "pt": "Dia Nacional — Somália"
+      }
+    },
+    {
+      "observanceId": "by-dfat-national-day",
+      "country": "BY",
+      "canonicalTitleEn": "National Day — Belarus",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Belarus",
+        "it": "Festa nazionale — Bielorussia",
+        "es": "Día nacional — Bielorrusia",
+        "fr": "Fête nationale — Biélorussie",
+        "de": "Nationalfeiertag — Belarus",
+        "pt": "Dia Nacional — Bielorrússia"
+      }
+    },
+    {
+      "observanceId": "cv-dfat-national-day",
+      "country": "CV",
+      "canonicalTitleEn": "National Day — Cape Verde",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Cape Verde",
+        "it": "Festa nazionale — Capo Verde",
+        "es": "Día nacional — Cabo Verde",
+        "fr": "Fête nationale — Cap-Vert",
+        "de": "Nationalfeiertag — Cabo Verde",
+        "pt": "Dia Nacional — Cabo Verde"
+      }
+    },
+    {
+      "observanceId": "rw-dfat-national-day",
+      "country": "RW",
+      "canonicalTitleEn": "Liberation Day — Rwanda",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Liberation Day — Rwanda",
+        "it": "Giornata della liberazione — Ruanda",
+        "es": "Día de la Liberación — Ruanda",
+        "fr": "Journée de la Libération — Rwanda",
+        "de": "Tag der Befreiung — Ruanda",
+        "pt": "Dia da Libertação — Ruanda"
+      }
+    },
+    {
+      "observanceId": "ve-dfat-national-day",
+      "country": "VE",
+      "canonicalTitleEn": "National Day — Venezuela",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Venezuela",
+        "it": "Festa nazionale — Venezuela",
+        "es": "Día nacional — Venezuela",
+        "fr": "Fête nationale — Venezuela",
+        "de": "Nationalfeiertag — Venezuela",
+        "pt": "Dia Nacional — Venezuela"
+      }
+    },
+    {
+      "observanceId": "km-dfat-national-day",
+      "country": "KM",
+      "canonicalTitleEn": "National Day — Comoros",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Comoros",
+        "it": "Festa nazionale — Comore",
+        "es": "Día nacional — Comoras",
+        "fr": "Fête nationale — Comores",
+        "de": "Nationalfeiertag — Komoren",
+        "pt": "Dia Nacional — Comores"
+      }
+    },
+    {
+      "observanceId": "mw-dfat-national-day",
+      "country": "MW",
+      "canonicalTitleEn": "National Day — Malawi",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Malawi",
+        "it": "Festa nazionale — Malawi",
+        "es": "Día nacional — Malaui",
+        "fr": "Fête nationale — Malawi",
+        "de": "Nationalfeiertag — Malawi",
+        "pt": "Dia Nacional — Malaui"
+      }
+    },
+    {
+      "observanceId": "sb-dfat-national-day",
+      "country": "SB",
+      "canonicalTitleEn": "National Day — Solomon Islands",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Solomon Islands",
+        "it": "Festa nazionale — Isole Salomone",
+        "es": "Día nacional — Islas Salomón",
+        "fr": "Fête nationale — Îles Salomon",
+        "de": "Nationalfeiertag — Salomonen",
+        "pt": "Dia Nacional — Ilhas Salomão"
+      }
+    },
+    {
+      "observanceId": "ss-dfat-national-day",
+      "country": "SS",
+      "canonicalTitleEn": "Independence Day — South Sudan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — South Sudan",
+        "it": "Giornata dell'indipendenza — Sud Sudan",
+        "es": "Día de la Independencia — Sudán del Sur",
+        "fr": "Fête de l'indépendance — Soudan du Sud",
+        "de": "Unabhängigkeitstag — Südsudan",
+        "pt": "Dia da Independência — Sudão do Sul"
+      }
+    },
+    {
+      "observanceId": "bs-dfat-national-day",
+      "country": "BS",
+      "canonicalTitleEn": "Independence Day — Bahamas",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Bahamas",
+        "it": "Giornata dell'indipendenza — Bahamas",
+        "es": "Día de la Independencia — Bahamas",
+        "fr": "Fête de l'indépendance — Bahamas",
+        "de": "Unabhängigkeitstag — Bahamas",
+        "pt": "Dia da Independência — Bahamas"
+      }
+    },
+    {
+      "observanceId": "mn-dfat-national-day",
+      "country": "MN",
+      "canonicalTitleEn": "Mongolian People's Revolution Anniversary — Mongolia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Mongolian People's Revolution Anniversary — Mongolia",
+        "it": "Anniversario della Rivoluzione popolare mongola — Mongolia",
+        "es": "Aniversario de la Revolución Popular de Mongolia — Mongolia",
+        "fr": "Anniversaire de la révolution populaire mongole — Mongolie",
+        "de": "Jahrestag der mongolischen Volksrevolution — Mongolei",
+        "pt": "Aniversário da Revolução Popular Mongol — Mongólia"
+      }
+    },
+    {
+      "observanceId": "ki-dfat-national-day",
+      "country": "KI",
+      "canonicalTitleEn": "National Day — Kiribati",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Kiribati",
+        "it": "Festa nazionale — Kiribati",
+        "es": "Día nacional — Kiribati",
+        "fr": "Fête nationale — Kiribati",
+        "de": "Nationalfeiertag — Kiribati",
+        "pt": "Dia Nacional — Quiribati"
+      }
+    },
+    {
+      "observanceId": "st-dfat-national-day",
+      "country": "ST",
+      "canonicalTitleEn": "National Day — São Tomé and Príncipe",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — São Tomé and Príncipe",
+        "it": "Festa nazionale — São Tomé e Príncipe",
+        "es": "Día nacional — Santo Tomé y Príncipe",
+        "fr": "Fête nationale — Sao Tomé-et-Principe",
+        "de": "Nationalfeiertag — São Tomé und Príncipe",
+        "pt": "Dia Nacional — São Tomé e Príncipe"
+      }
+    },
+    {
+      "observanceId": "me-dfat-national-day",
+      "country": "ME",
+      "canonicalTitleEn": "National Day — Montenegro",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Montenegro",
+        "it": "Festa nazionale — Montenegro",
+        "es": "Día nacional — Montenegro",
+        "fr": "Fête nationale — Monténégro",
+        "de": "Nationalfeiertag — Montenegro",
+        "pt": "Dia Nacional — Montenegro"
+      }
+    },
+    {
+      "observanceId": "co-dfat-national-day",
+      "country": "CO",
+      "canonicalTitleEn": "National Day — Colombia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Colombia",
+        "it": "Festa nazionale — Colombia",
+        "es": "Día nacional — Colombia",
+        "fr": "Fête nationale — Colombie",
+        "de": "Nationalfeiertag — Kolumbien",
+        "pt": "Dia Nacional — Colômbia"
+      }
+    },
+    {
+      "observanceId": "be-dfat-national-day",
+      "country": "BE",
+      "canonicalTitleEn": "Accession of King Leopold I — Belgium",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Accession of King Leopold I — Belgium",
+        "it": "Ascesa al trono di re Leopoldo I — Belgio",
+        "es": "Ascenso al trono del rey Leopoldo I — Bélgica",
+        "fr": "Avènement du roi Léopold Ier — Belgique",
+        "de": "Thronbesteigung König Leopolds I. — Belgien",
+        "pt": "Subida ao trono do rei Leopoldo I — Bélgica"
+      }
+    },
+    {
+      "observanceId": "eg-dfat-national-day",
+      "country": "EG",
+      "canonicalTitleEn": "Revolution Day — Egypt",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Revolution Day — Egypt",
+        "it": "Giornata della rivoluzione — Egitto",
+        "es": "Día de la Revolución — Egipto",
+        "fr": "Journée de la Révolution — Égypte",
+        "de": "Tag der Revolution — Ägypten",
+        "pt": "Dia da Revolução — Egito"
+      }
+    },
+    {
+      "observanceId": "lr-dfat-national-day",
+      "country": "LR",
+      "canonicalTitleEn": "National Day — Liberia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Liberia",
+        "it": "Festa nazionale — Liberia",
+        "es": "Día nacional — Liberia",
+        "fr": "Fête nationale — Liberia",
+        "de": "Nationalfeiertag — Liberia",
+        "pt": "Dia Nacional — Libéria"
+      }
+    },
+    {
+      "observanceId": "mv-dfat-national-day",
+      "country": "MV",
+      "canonicalTitleEn": "National Day — Maldives",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Maldives",
+        "it": "Festa nazionale — Maldive",
+        "es": "Día nacional — Maldivas",
+        "fr": "Fête nationale — Maldives",
+        "de": "Nationalfeiertag — Malediven",
+        "pt": "Dia Nacional — Maldivas"
+      }
+    },
+    {
+      "observanceId": "ma-dfat-national-day",
+      "country": "MA",
+      "canonicalTitleEn": "Throne Day — Morocco",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Throne Day — Morocco",
+        "it": "Festa del trono — Marocco",
+        "es": "Fiesta del Trono — Marruecos",
+        "fr": "Fête du Trône — Maroc",
+        "de": "Thronfest — Marokko",
+        "pt": "Festa do Trono — Marrocos"
+      }
+    },
+    {
+      "observanceId": "vu-dfat-national-day",
+      "country": "VU",
+      "canonicalTitleEn": "Independence Day — Vanuatu",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Vanuatu",
+        "it": "Giornata dell'indipendenza — Vanuatu",
+        "es": "Día de la Independencia — Vanuatu",
+        "fr": "Fête de l'indépendance — Vanuatu",
+        "de": "Unabhängigkeitstag — Vanuatu",
+        "pt": "Dia da Independência — Vanuatu"
+      }
+    },
+    {
+      "observanceId": "bj-dfat-national-day",
+      "country": "BJ",
+      "canonicalTitleEn": "National Day — Benin",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Benin",
+        "it": "Festa nazionale — Benin",
+        "es": "Día nacional — Benín",
+        "fr": "Fête nationale — Bénin",
+        "de": "Nationalfeiertag — Benin",
+        "pt": "Dia Nacional — Benin"
+      }
+    },
+    {
+      "observanceId": "ch-dfat-national-day",
+      "country": "CH",
+      "canonicalTitleEn": "Swiss Confederation Day — Switzerland",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Swiss Confederation Day — Switzerland",
+        "it": "Festa della Confederazione svizzera — Svizzera",
+        "es": "Día de la Confederación Suiza — Suiza",
+        "fr": "Fête de la Confédération suisse — Suisse",
+        "de": "Schweizer Bundesfeiertag — Schweiz",
+        "pt": "Dia da Confederação Suíça — Suíça"
+      }
+    },
+    {
+      "observanceId": "ck-dfat-national-day",
+      "country": "CK",
+      "canonicalTitleEn": "Constitution Day — Cook Islands",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Constitution Day — Cook Islands",
+        "it": "Giornata della Costituzione — Isole Cook",
+        "es": "Día de la Constitución — Islas Cook",
+        "fr": "Journée de la Constitution — Îles Cook",
+        "de": "Tag der Verfassung — Cookinseln",
+        "pt": "Dia da Constituição — Ilhas Cook"
+      }
+    },
+    {
+      "observanceId": "bo-dfat-national-day",
+      "country": "BO",
+      "canonicalTitleEn": "Independence Day — Bolivia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Bolivia",
+        "it": "Giornata dell'indipendenza — Bolivia",
+        "es": "Día de la Independencia — Bolivia",
+        "fr": "Fête de l'indépendance — Bolivie",
+        "de": "Unabhängigkeitstag — Bolivien",
+        "pt": "Dia da Independência — Bolívia"
+      }
+    },
+    {
+      "observanceId": "jm-dfat-national-day",
+      "country": "JM",
+      "canonicalTitleEn": "National Day — Jamaica",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Jamaica",
+        "it": "Festa nazionale — Giamaica",
+        "es": "Día nacional — Jamaica",
+        "fr": "Fête nationale — Jamaïque",
+        "de": "Nationalfeiertag — Jamaika",
+        "pt": "Dia Nacional — Jamaica"
+      }
+    },
+    {
+      "observanceId": "ci-dfat-national-day",
+      "country": "CI",
+      "canonicalTitleEn": "National Day — Côte d'Ivoire",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Côte d'Ivoire",
+        "it": "Festa nazionale — Costa d’Avorio",
+        "es": "Día nacional — Côte d’Ivoire",
+        "fr": "Fête nationale — Côte d’Ivoire",
+        "de": "Nationalfeiertag — Côte d’Ivoire",
+        "pt": "Dia Nacional — Costa do Marfim"
+      }
+    },
+    {
+      "observanceId": "td-dfat-national-day",
+      "country": "TD",
+      "canonicalTitleEn": "National Day — Chad",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Chad",
+        "it": "Festa nazionale — Ciad",
+        "es": "Día nacional — Chad",
+        "fr": "Fête nationale — Tchad",
+        "de": "Nationalfeiertag — Tschad",
+        "pt": "Dia Nacional — Chade"
+      }
+    },
+    {
+      "observanceId": "cg-dfat-national-day",
+      "country": "CG",
+      "canonicalTitleEn": "Independence Day — Republic of the Congo",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Republic of the Congo",
+        "it": "Giornata dell'indipendenza — Congo-Brazzaville",
+        "es": "Día de la Independencia — Congo",
+        "fr": "Fête de l'indépendance — Congo-Brazzaville",
+        "de": "Unabhängigkeitstag — Kongo-Brazzaville",
+        "pt": "Dia da Independência — República do Congo"
+      }
+    },
+    {
+      "observanceId": "li-dfat-national-day",
+      "country": "LI",
+      "canonicalTitleEn": "National Day — Liechtenstein",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Liechtenstein",
+        "it": "Festa nazionale — Liechtenstein",
+        "es": "Día nacional — Liechtenstein",
+        "fr": "Fête nationale — Liechtenstein",
+        "de": "Nationalfeiertag — Liechtenstein",
+        "pt": "Dia Nacional — Liechtenstein"
+      }
+    },
+    {
+      "observanceId": "ga-dfat-national-day",
+      "country": "GA",
+      "canonicalTitleEn": "National Day — Gabon",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Gabon",
+        "it": "Festa nazionale — Gabon",
+        "es": "Día nacional — Gabón",
+        "fr": "Fête nationale — Gabon",
+        "de": "Nationalfeiertag — Gabun",
+        "pt": "Dia Nacional — Gabão"
+      }
+    },
+    {
+      "observanceId": "id-dfat-national-day",
+      "country": "ID",
+      "canonicalTitleEn": "Proclamation of Independence — Indonesia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Proclamation of Independence — Indonesia",
+        "it": "Proclamazione dell'indipendenza — Indonesia",
+        "es": "Proclamación de la Independencia — Indonesia",
+        "fr": "Proclamation de l'indépendance — Indonésie",
+        "de": "Ausrufung der Unabhängigkeit — Indonesien",
+        "pt": "Proclamação da Independência — Indonésia"
+      }
+    },
+    {
+      "observanceId": "af-dfat-national-day",
+      "country": "AF",
+      "canonicalTitleEn": "Independence Day — Afghanistan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Afghanistan",
+        "it": "Giornata dell'indipendenza — Afghanistan",
+        "es": "Día de la Independencia — Afganistán",
+        "fr": "Fête de l'indépendance — Afghanistan",
+        "de": "Unabhängigkeitstag — Afghanistan",
+        "pt": "Dia da Independência — Afeganistão"
+      }
+    },
+    {
+      "observanceId": "hu-dfat-national-day",
+      "country": "HU",
+      "canonicalTitleEn": "Foundation of the State and St Stephen's Day — Hungary",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Foundation of the State and St Stephen's Day — Hungary",
+        "it": "Fondazione dello Stato e festa di Santo Stefano — Ungheria",
+        "es": "Fundación del Estado y fiesta de San Esteban — Hungría",
+        "fr": "Fondation de l'État et fête de saint Étienne — Hongrie",
+        "de": "Staatsgründung und Stephanstag — Ungarn",
+        "pt": "Fundação do Estado e dia de Santo Estêvão — Hungria"
+      }
+    },
+    {
+      "observanceId": "ua-dfat-national-day",
+      "country": "UA",
+      "canonicalTitleEn": "National Day — Ukraine",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Ukraine",
+        "it": "Festa nazionale — Ucraina",
+        "es": "Día nacional — Ucrania",
+        "fr": "Fête nationale — Ukraine",
+        "de": "Nationalfeiertag — Ukraine",
+        "pt": "Dia Nacional — Ucrânia"
+      }
+    },
+    {
+      "observanceId": "uy-dfat-national-day",
+      "country": "UY",
+      "canonicalTitleEn": "Independence Day — Uruguay",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Uruguay",
+        "it": "Giornata dell'indipendenza — Uruguay",
+        "es": "Día de la Independencia — Uruguay",
+        "fr": "Fête de l'indépendance — Uruguay",
+        "de": "Unabhängigkeitstag — Uruguay",
+        "pt": "Dia da Independência — Uruguai"
+      }
+    },
+    {
+      "observanceId": "md-dfat-national-day",
+      "country": "MD",
+      "canonicalTitleEn": "National Day — Moldova",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Moldova",
+        "it": "Festa nazionale — Moldavia",
+        "es": "Día nacional — Moldavia",
+        "fr": "Fête nationale — Moldavie",
+        "de": "Nationalfeiertag — Republik Moldau",
+        "pt": "Dia Nacional — Moldávia"
+      }
+    },
+    {
+      "observanceId": "kg-dfat-national-day",
+      "country": "KG",
+      "canonicalTitleEn": "National Day — Kyrgyzstan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Kyrgyzstan",
+        "it": "Festa nazionale — Kirghizistan",
+        "es": "Día nacional — Kirguistán",
+        "fr": "Fête nationale — Kirghizstan",
+        "de": "Nationalfeiertag — Kirgisistan",
+        "pt": "Dia Nacional — Quirguistão"
+      }
+    },
+    {
+      "observanceId": "my-dfat-national-day",
+      "country": "MY",
+      "canonicalTitleEn": "National Day — Malaysia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Malaysia",
+        "it": "Festa nazionale — Malaysia",
+        "es": "Día nacional — Malasia",
+        "fr": "Fête nationale — Malaisie",
+        "de": "Nationalfeiertag — Malaysia",
+        "pt": "Dia Nacional — Malásia"
+      }
+    },
+    {
+      "observanceId": "tt-dfat-national-day",
+      "country": "TT",
+      "canonicalTitleEn": "National Day — Trinidad and Tobago",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Trinidad and Tobago",
+        "it": "Festa nazionale — Trinidad e Tobago",
+        "es": "Día nacional — Trinidad y Tobago",
+        "fr": "Fête nationale — Trinité-et-Tobago",
+        "de": "Nationalfeiertag — Trinidad und Tobago",
+        "pt": "Dia Nacional — Trinidad e Tobago"
+      }
+    },
+    {
+      "observanceId": "uz-dfat-national-day",
+      "country": "UZ",
+      "canonicalTitleEn": "National Day — Uzbekistan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Uzbekistan",
+        "it": "Festa nazionale — Uzbekistan",
+        "es": "Día nacional — Uzbekistán",
+        "fr": "Fête nationale — Ouzbékistan",
+        "de": "Nationalfeiertag — Usbekistan",
+        "pt": "Dia Nacional — Uzbequistão"
+      }
+    },
+    {
+      "observanceId": "vn-dfat-national-day",
+      "country": "VN",
+      "canonicalTitleEn": "National Day — Vietnam",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Vietnam",
+        "it": "Festa nazionale — Vietnam",
+        "es": "Día nacional — Vietnam",
+        "fr": "Fête nationale — Viêt Nam",
+        "de": "Nationalfeiertag — Vietnam",
+        "pt": "Dia Nacional — Vietnã"
+      }
+    },
+    {
+      "observanceId": "sm-dfat-national-day",
+      "country": "SM",
+      "canonicalTitleEn": "National Foundation Day — San Marino",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Foundation Day — San Marino",
+        "it": "Giornata della fondazione nazionale — San Marino",
+        "es": "Día de la Fundación Nacional — San Marino",
+        "fr": "Journée de la fondation nationale — Saint-Marin",
+        "de": "Nationaler Gründungstag — San Marino",
+        "pt": "Dia da Fundação Nacional — San Marino"
+      }
+    },
+    {
+      "observanceId": "sz-dfat-national-day",
+      "country": "SZ",
+      "canonicalTitleEn": "National Day — Eswatini",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Eswatini",
+        "it": "Festa nazionale — Eswatini",
+        "es": "Día nacional — Esuatini",
+        "fr": "Fête nationale — Eswatini",
+        "de": "Nationalfeiertag — Eswatini",
+        "pt": "Dia Nacional — Essuatíni"
+      }
+    },
+    {
+      "observanceId": "ad-dfat-national-day",
+      "country": "AD",
+      "canonicalTitleEn": "National Day — Andorra",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Andorra",
+        "it": "Festa nazionale — Andorra",
+        "es": "Día nacional — Andorra",
+        "fr": "Fête nationale — Andorre",
+        "de": "Nationalfeiertag — Andorra",
+        "pt": "Dia Nacional — Andorra"
+      }
+    },
+    {
+      "observanceId": "mk-dfat-national-day",
+      "country": "MK",
+      "canonicalTitleEn": "Independence Day — North Macedonia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — North Macedonia",
+        "it": "Giornata dell'indipendenza — Macedonia del Nord",
+        "es": "Día de la Independencia — Macedonia del Norte",
+        "fr": "Fête de l'indépendance — Macédoine du Nord",
+        "de": "Unabhängigkeitstag — Nordmazedonien",
+        "pt": "Dia da Independência — Macedônia do Norte"
+      }
+    },
+    {
+      "observanceId": "kp-dfat-national-day",
+      "country": "KP",
+      "canonicalTitleEn": "National Day — North Korea",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — North Korea",
+        "it": "Festa nazionale — Corea del Nord",
+        "es": "Día nacional — Corea del Norte",
+        "fr": "Fête nationale — Corée du Nord",
+        "de": "Nationalfeiertag — Nordkorea",
+        "pt": "Dia Nacional — Coreia do Norte"
+      }
+    },
+    {
+      "observanceId": "tj-dfat-national-day",
+      "country": "TJ",
+      "canonicalTitleEn": "National Day — Tajikistan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Tajikistan",
+        "it": "Festa nazionale — Tagikistan",
+        "es": "Día nacional — Tayikistán",
+        "fr": "Fête nationale — Tadjikistan",
+        "de": "Nationalfeiertag — Tadschikistan",
+        "pt": "Dia Nacional — Tadjiquistão"
+      }
+    },
+    {
+      "observanceId": "cr-dfat-national-day",
+      "country": "CR",
+      "canonicalTitleEn": "Independence Day — Costa Rica",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Costa Rica",
+        "it": "Giornata dell'indipendenza — Costa Rica",
+        "es": "Día de la Independencia — Costa Rica",
+        "fr": "Fête de l'indépendance — Costa Rica",
+        "de": "Unabhängigkeitstag — Costa Rica",
+        "pt": "Dia da Independência — Costa Rica"
+      }
+    },
+    {
+      "observanceId": "sv-dfat-national-day",
+      "country": "SV",
+      "canonicalTitleEn": "Independence Day — El Salvador",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — El Salvador",
+        "it": "Giornata dell'indipendenza — El Salvador",
+        "es": "Día de la Independencia — El Salvador",
+        "fr": "Fête de l'indépendance — Salvador",
+        "de": "Unabhängigkeitstag — El Salvador",
+        "pt": "Dia da Independência — El Salvador"
+      }
+    },
+    {
+      "observanceId": "gt-dfat-national-day",
+      "country": "GT",
+      "canonicalTitleEn": "Independence Day — Guatemala",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Guatemala",
+        "it": "Giornata dell'indipendenza — Guatemala",
+        "es": "Día de la Independencia — Guatemala",
+        "fr": "Fête de l'indépendance — Guatemala",
+        "de": "Unabhängigkeitstag — Guatemala",
+        "pt": "Dia da Independência — Guatemala"
+      }
+    },
+    {
+      "observanceId": "hn-dfat-national-day",
+      "country": "HN",
+      "canonicalTitleEn": "Independence Day — Honduras",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Honduras",
+        "it": "Giornata dell'indipendenza — Honduras",
+        "es": "Día de la Independencia — Honduras",
+        "fr": "Fête de l'indépendance — Honduras",
+        "de": "Unabhängigkeitstag — Honduras",
+        "pt": "Dia da Independência — Honduras"
+      }
+    },
+    {
+      "observanceId": "ni-dfat-national-day",
+      "country": "NI",
+      "canonicalTitleEn": "Independence Day — Nicaragua",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Nicaragua",
+        "it": "Giornata dell'indipendenza — Nicaragua",
+        "es": "Día de la Independencia — Nicaragua",
+        "fr": "Fête de l'indépendance — Nicaragua",
+        "de": "Unabhängigkeitstag — Nicaragua",
+        "pt": "Dia da Independência — Nicarágua"
+      }
+    },
+    {
+      "observanceId": "pg-dfat-national-day",
+      "country": "PG",
+      "canonicalTitleEn": "Independence Day — Papua New Guinea",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Papua New Guinea",
+        "it": "Giornata dell'indipendenza — Papua Nuova Guinea",
+        "es": "Día de la Independencia — Papúa Nueva Guinea",
+        "fr": "Fête de l'indépendance — Papouasie-Nouvelle-Guinée",
+        "de": "Unabhängigkeitstag — Papua-Neuguinea",
+        "pt": "Dia da Independência — Papua-Nova Guiné"
+      }
+    },
+    {
+      "observanceId": "cl-dfat-national-day",
+      "country": "CL",
+      "canonicalTitleEn": "National Day — Chile",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Chile",
+        "it": "Festa nazionale — Cile",
+        "es": "Día nacional — Chile",
+        "fr": "Fête nationale — Chili",
+        "de": "Nationalfeiertag — Chile",
+        "pt": "Dia Nacional — Chile"
+      }
+    },
+    {
+      "observanceId": "kn-dfat-national-day",
+      "country": "KN",
+      "canonicalTitleEn": "Independence Day — Saint Kitts and Nevis",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Saint Kitts and Nevis",
+        "it": "Giornata dell'indipendenza — Saint Kitts e Nevis",
+        "es": "Día de la Independencia — San Cristóbal y Nieves",
+        "fr": "Fête de l'indépendance — Saint-Christophe-et-Niévès",
+        "de": "Unabhängigkeitstag — St. Kitts und Nevis",
+        "pt": "Dia da Independência — São Cristóvão e Névis"
+      }
+    },
+    {
+      "observanceId": "np-dfat-national-day",
+      "country": "NP",
+      "canonicalTitleEn": "National Day — Nepal",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Nepal",
+        "it": "Festa nazionale — Nepal",
+        "es": "Día nacional — Nepal",
+        "fr": "Fête nationale — Népal",
+        "de": "Nationalfeiertag — Nepal",
+        "pt": "Dia Nacional — Nepal"
+      }
+    },
+    {
+      "observanceId": "am-dfat-national-day",
+      "country": "AM",
+      "canonicalTitleEn": "National Day — Armenia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Armenia",
+        "it": "Festa nazionale — Armenia",
+        "es": "Día nacional — Armenia",
+        "fr": "Fête nationale — Arménie",
+        "de": "Nationalfeiertag — Armenien",
+        "pt": "Dia Nacional — Armênia"
+      }
+    },
+    {
+      "observanceId": "bz-dfat-national-day",
+      "country": "BZ",
+      "canonicalTitleEn": "National Day — Belize",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Belize",
+        "it": "Festa nazionale — Belize",
+        "es": "Día nacional — Belice",
+        "fr": "Fête nationale — Belize",
+        "de": "Nationalfeiertag — Belize",
+        "pt": "Dia Nacional — Belize"
+      }
+    },
+    {
+      "observanceId": "ml-dfat-national-day",
+      "country": "ML",
+      "canonicalTitleEn": "Independence Day — Mali",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Mali",
+        "it": "Giornata dell'indipendenza — Mali",
+        "es": "Día de la Independencia — Mali",
+        "fr": "Fête de l'indépendance — Mali",
+        "de": "Unabhängigkeitstag — Mali",
+        "pt": "Dia da Independência — Mali"
+      }
+    },
+    {
+      "observanceId": "sa-dfat-national-day",
+      "country": "SA",
+      "canonicalTitleEn": "National Day — Saudi Arabia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Saudi Arabia",
+        "it": "Festa nazionale — Arabia Saudita",
+        "es": "Día nacional — Arabia Saudí",
+        "fr": "Fête nationale — Arabie saoudite",
+        "de": "Nationalfeiertag — Saudi-Arabien",
+        "pt": "Dia Nacional — Arábia Saudita"
+      }
+    },
+    {
+      "observanceId": "gw-dfat-national-day",
+      "country": "GW",
+      "canonicalTitleEn": "Independence Day — Guinea-Bissau",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Guinea-Bissau",
+        "it": "Giornata dell'indipendenza — Guinea-Bissau",
+        "es": "Día de la Independencia — Guinea-Bisáu",
+        "fr": "Fête de l'indépendance — Guinée-Bissau",
+        "de": "Unabhängigkeitstag — Guinea-Bissau",
+        "pt": "Dia da Independência — Guiné-Bissau"
+      }
+    },
+    {
+      "observanceId": "tm-dfat-national-day",
+      "country": "TM",
+      "canonicalTitleEn": "National Day — Turkmenistan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Turkmenistan",
+        "it": "Festa nazionale — Turkmenistan",
+        "es": "Día nacional — Turkmenistán",
+        "fr": "Fête nationale — Turkménistan",
+        "de": "Nationalfeiertag — Turkmenistan",
+        "pt": "Dia Nacional — Turcomenistão"
+      }
+    },
+    {
+      "observanceId": "bw-dfat-national-day",
+      "country": "BW",
+      "canonicalTitleEn": "National Day — Botswana",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Botswana",
+        "it": "Festa nazionale — Botswana",
+        "es": "Día nacional — Botsuana",
+        "fr": "Fête nationale — Botswana",
+        "de": "Nationalfeiertag — Botsuana",
+        "pt": "Dia Nacional — Botsuana"
+      }
+    },
+    {
+      "observanceId": "cn-dfat-national-day",
+      "country": "CN",
+      "canonicalTitleEn": "National Day — China",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — China",
+        "it": "Festa nazionale — Cina",
+        "es": "Día nacional — China",
+        "fr": "Fête nationale — Chine",
+        "de": "Nationalfeiertag — China",
+        "pt": "Dia Nacional — China"
+      }
+    },
+    {
+      "observanceId": "gn-dfat-national-day",
+      "country": "GN",
+      "canonicalTitleEn": "Independence Day — Guinea",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Guinea",
+        "it": "Giornata dell'indipendenza — Guinea",
+        "es": "Día de la Independencia — Guinea",
+        "fr": "Fête de l'indépendance — Guinée",
+        "de": "Unabhängigkeitstag — Guinea",
+        "pt": "Dia da Independência — Guiné"
+      }
+    },
+    {
+      "observanceId": "ng-dfat-national-day",
+      "country": "NG",
+      "canonicalTitleEn": "National Day — Nigeria",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Nigeria",
+        "it": "Festa nazionale — Nigeria",
+        "es": "Día nacional — Nigeria",
+        "fr": "Fête nationale — Nigeria",
+        "de": "Nationalfeiertag — Nigeria",
+        "pt": "Dia Nacional — Nigéria"
+      }
+    },
+    {
+      "observanceId": "pw-dfat-national-day",
+      "country": "PW",
+      "canonicalTitleEn": "National Day — Palau",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Palau",
+        "it": "Festa nazionale — Palau",
+        "es": "Día nacional — Palaos",
+        "fr": "Fête nationale — Palaos",
+        "de": "Nationalfeiertag — Palau",
+        "pt": "Dia Nacional — Palau"
+      }
+    },
+    {
+      "observanceId": "tv-dfat-national-day",
+      "country": "TV",
+      "canonicalTitleEn": "Independence Day — Tuvalu",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Tuvalu",
+        "it": "Giornata dell'indipendenza — Tuvalu",
+        "es": "Día de la Independencia — Tuvalu",
+        "fr": "Fête de l'indépendance — Tuvalu",
+        "de": "Unabhängigkeitstag — Tuvalu",
+        "pt": "Dia da Independência — Tuvalu"
+      }
+    },
+    {
+      "observanceId": "iq-dfat-national-day",
+      "country": "IQ",
+      "canonicalTitleEn": "National Day — Iraq",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Iraq",
+        "it": "Festa nazionale — Iraq",
+        "es": "Día nacional — Irak",
+        "fr": "Fête nationale — Irak",
+        "de": "Nationalfeiertag — Irak",
+        "pt": "Dia Nacional — Iraque"
+      }
+    },
+    {
+      "observanceId": "ls-dfat-national-day",
+      "country": "LS",
+      "canonicalTitleEn": "Independence Day — Lesotho",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Lesotho",
+        "it": "Giornata dell'indipendenza — Lesotho",
+        "es": "Día de la Independencia — Lesoto",
+        "fr": "Fête de l'indépendance — Lesotho",
+        "de": "Unabhängigkeitstag — Lesotho",
+        "pt": "Dia da Independência — Lesoto"
+      }
+    },
+    {
+      "observanceId": "ug-dfat-national-day",
+      "country": "UG",
+      "canonicalTitleEn": "Independence Day — Uganda",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Uganda",
+        "it": "Giornata dell'indipendenza — Uganda",
+        "es": "Día de la Independencia — Uganda",
+        "fr": "Fête de l'indépendance — Ouganda",
+        "de": "Unabhängigkeitstag — Uganda",
+        "pt": "Dia da Independência — Uganda"
+      }
+    },
+    {
+      "observanceId": "fj-dfat-national-day",
+      "country": "FJ",
+      "canonicalTitleEn": "National Day — Fiji",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Fiji",
+        "it": "Festa nazionale — Figi",
+        "es": "Día nacional — Fiyi",
+        "fr": "Fête nationale — Fidji",
+        "de": "Nationalfeiertag — Fidschi",
+        "pt": "Dia Nacional — Fiji"
+      }
+    },
+    {
+      "observanceId": "gq-dfat-national-day",
+      "country": "GQ",
+      "canonicalTitleEn": "Independence Day — Equatorial Guinea",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Equatorial Guinea",
+        "it": "Giornata dell'indipendenza — Guinea Equatoriale",
+        "es": "Día de la Independencia — Guinea Ecuatorial",
+        "fr": "Fête de l'indépendance — Guinée équatoriale",
+        "de": "Unabhängigkeitstag — Äquatorialguinea",
+        "pt": "Dia da Independência — Guiné Equatorial"
+      }
+    },
+    {
+      "observanceId": "nu-dfat-national-day",
+      "country": "NU",
+      "canonicalTitleEn": "National Day — Niue",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Niue",
+        "it": "Festa nazionale — Niue",
+        "es": "Día nacional — Niue",
+        "fr": "Fête nationale — Niue",
+        "de": "Nationalfeiertag — Niue",
+        "pt": "Dia Nacional — Niue"
+      }
+    },
+    {
+      "observanceId": "zm-dfat-national-day",
+      "country": "ZM",
+      "canonicalTitleEn": "Independence Day — Zambia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Zambia",
+        "it": "Giornata dell'indipendenza — Zambia",
+        "es": "Día de la Independencia — Zambia",
+        "fr": "Fête de l'indépendance — Zambie",
+        "de": "Unabhängigkeitstag — Sambia",
+        "pt": "Dia da Independência — Zâmbia"
+      }
+    },
+    {
+      "observanceId": "kz-dfat-national-day",
+      "country": "KZ",
+      "canonicalTitleEn": "Republic Day — Kazakhstan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Republic Day — Kazakhstan",
+        "it": "Festa della Repubblica — Kazakistan",
+        "es": "Día de la República — Kazajistán",
+        "fr": "Fête de la République — Kazakhstan",
+        "de": "Tag der Republik — Kasachstan",
+        "pt": "Dia da República — Cazaquistão"
+      }
+    },
+    {
+      "observanceId": "at-dfat-national-day",
+      "country": "AT",
+      "canonicalTitleEn": "National Day — Austria",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Austria",
+        "it": "Festa nazionale — Austria",
+        "es": "Día nacional — Austria",
+        "fr": "Fête nationale — Autriche",
+        "de": "Nationalfeiertag — Österreich",
+        "pt": "Dia Nacional — Áustria"
+      }
+    },
+    {
+      "observanceId": "vc-dfat-national-day",
+      "country": "VC",
+      "canonicalTitleEn": "National Day — Saint Vincent and the Grenadines",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Saint Vincent and the Grenadines",
+        "it": "Festa nazionale — Saint Vincent e Grenadine",
+        "es": "Día nacional — San Vicente y las Granadinas",
+        "fr": "Fête nationale — Saint-Vincent-et-les Grenadines",
+        "de": "Nationalfeiertag — St. Vincent und die Grenadinen",
+        "pt": "Dia Nacional — São Vicente e Granadinas"
+      }
+    },
+    {
+      "observanceId": "tr-dfat-national-day",
+      "country": "TR",
+      "canonicalTitleEn": "National Day — Türkiye",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Türkiye",
+        "it": "Festa nazionale — Turchia",
+        "es": "Día nacional — Turquía",
+        "fr": "Fête nationale — Turquie",
+        "de": "Nationalfeiertag — Türkei",
+        "pt": "Dia Nacional — Turquia"
+      }
+    },
+    {
+      "observanceId": "dz-dfat-national-day",
+      "country": "DZ",
+      "canonicalTitleEn": "Revolution Anniversary — Algeria",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Revolution Anniversary — Algeria",
+        "it": "Anniversario della rivoluzione — Algeria",
+        "es": "Aniversario de la Revolución — Argelia",
+        "fr": "Anniversaire de la Révolution — Algérie",
+        "de": "Jahrestag der Revolution — Algerien",
+        "pt": "Aniversário da Revolução — Argélia"
+      }
+    },
+    {
+      "observanceId": "ag-dfat-national-day",
+      "country": "AG",
+      "canonicalTitleEn": "National Day — Antigua and Barbuda",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Antigua and Barbuda",
+        "it": "Festa nazionale — Antigua e Barbuda",
+        "es": "Día nacional — Antigua y Barbuda",
+        "fr": "Fête nationale — Antigua-et-Barbuda",
+        "de": "Nationalfeiertag — Antigua und Barbuda",
+        "pt": "Dia Nacional — Antígua e Barbuda"
+      }
+    },
+    {
+      "observanceId": "dm-dfat-national-day",
+      "country": "DM",
+      "canonicalTitleEn": "Independence Day — Dominica",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Dominica",
+        "it": "Giornata dell'indipendenza — Dominica",
+        "es": "Día de la Independencia — Dominica",
+        "fr": "Fête de l'indépendance — Dominique",
+        "de": "Unabhängigkeitstag — Dominica",
+        "pt": "Dia da Independência — Dominica"
+      }
+    },
+    {
+      "observanceId": "fm-dfat-national-day",
+      "country": "FM",
+      "canonicalTitleEn": "National Day — Micronesia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Micronesia",
+        "it": "Festa nazionale — Micronesia",
+        "es": "Día nacional — Micronesia",
+        "fr": "Fête nationale — Micronésie",
+        "de": "Nationalfeiertag — Mikronesien",
+        "pt": "Dia Nacional — Micronésia"
+      }
+    },
+    {
+      "observanceId": "pa-dfat-national-day",
+      "country": "PA",
+      "canonicalTitleEn": "National Day — Panama",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Panama",
+        "it": "Festa nazionale — Panama",
+        "es": "Día nacional — Panamá",
+        "fr": "Fête nationale — Panama",
+        "de": "Nationalfeiertag — Panama",
+        "pt": "Dia Nacional — Panamá"
+      }
+    },
+    {
+      "observanceId": "to-dfat-national-day",
+      "country": "TO",
+      "canonicalTitleEn": "National Day — Tonga",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Tonga",
+        "it": "Festa nazionale — Tonga",
+        "es": "Día nacional — Tonga",
+        "fr": "Fête nationale — Tonga",
+        "de": "Nationalfeiertag — Tonga",
+        "pt": "Dia Nacional — Tonga"
+      }
+    },
+    {
+      "observanceId": "kh-dfat-national-day",
+      "country": "KH",
+      "canonicalTitleEn": "Independence Day — Cambodia",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Cambodia",
+        "it": "Giornata dell'indipendenza — Cambogia",
+        "es": "Día de la Independencia — Camboya",
+        "fr": "Fête de l'indépendance — Cambodge",
+        "de": "Unabhängigkeitstag — Kambodscha",
+        "pt": "Dia da Independência — Camboja"
+      }
+    },
+    {
+      "observanceId": "ao-dfat-national-day",
+      "country": "AO",
+      "canonicalTitleEn": "National Day — Angola",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Angola",
+        "it": "Festa nazionale — Angola",
+        "es": "Día nacional — Angola",
+        "fr": "Fête nationale — Angola",
+        "de": "Nationalfeiertag — Angola",
+        "pt": "Dia Nacional — Angola"
+      }
+    },
+    {
+      "observanceId": "om-dfat-national-day",
+      "country": "OM",
+      "canonicalTitleEn": "National Day — Oman",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Oman",
+        "it": "Festa nazionale — Oman",
+        "es": "Día nacional — Omán",
+        "fr": "Fête nationale — Oman",
+        "de": "Nationalfeiertag — Oman",
+        "pt": "Dia Nacional — Omã"
+      }
+    },
+    {
+      "observanceId": "mc-dfat-national-day",
+      "country": "MC",
+      "canonicalTitleEn": "National Day — Monaco",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Monaco",
+        "it": "Festa nazionale — Monaco",
+        "es": "Día nacional — Mónaco",
+        "fr": "Fête nationale — Monaco",
+        "de": "Nationalfeiertag — Monaco",
+        "pt": "Dia Nacional — Mônaco"
+      }
+    },
+    {
+      "observanceId": "lb-dfat-national-day",
+      "country": "LB",
+      "canonicalTitleEn": "Independence Day — Lebanon",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Lebanon",
+        "it": "Giornata dell'indipendenza — Libano",
+        "es": "Día de la Independencia — Líbano",
+        "fr": "Fête de l'indépendance — Liban",
+        "de": "Unabhängigkeitstag — Libanon",
+        "pt": "Dia da Independência — Líbano"
+      }
+    },
+    {
+      "observanceId": "ba-dfat-national-day",
+      "country": "BA",
+      "canonicalTitleEn": "Statehood Day — Bosnia and Herzegovina",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Statehood Day — Bosnia and Herzegovina",
+        "it": "Giornata della sovranità statale — Bosnia ed Erzegovina",
+        "es": "Día de la estatalidad — Bosnia y Herzegovina",
+        "fr": "Journée de la souveraineté nationale — Bosnie-Herzégovine",
+        "de": "Tag der Staatlichkeit — Bosnien und Herzegowina",
+        "pt": "Dia da Estatalidade — Bósnia e Herzegovina"
+      }
+    },
+    {
+      "observanceId": "sr-dfat-national-day",
+      "country": "SR",
+      "canonicalTitleEn": "Independence Day — Suriname",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Suriname",
+        "it": "Giornata dell'indipendenza — Suriname",
+        "es": "Día de la Independencia — Surinam",
+        "fr": "Fête de l'indépendance — Suriname",
+        "de": "Unabhängigkeitstag — Suriname",
+        "pt": "Dia da Independência — Suriname"
+      }
+    },
+    {
+      "observanceId": "al-dfat-national-day",
+      "country": "AL",
+      "canonicalTitleEn": "National Day — Albania",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Albania",
+        "it": "Festa nazionale — Albania",
+        "es": "Día nacional — Albania",
+        "fr": "Fête nationale — Albanie",
+        "de": "Nationalfeiertag — Albanien",
+        "pt": "Dia Nacional — Albânia"
+      }
+    },
+    {
+      "observanceId": "mr-dfat-national-day",
+      "country": "MR",
+      "canonicalTitleEn": "National Day — Mauritania",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Mauritania",
+        "it": "Festa nazionale — Mauritania",
+        "es": "Día nacional — Mauritania",
+        "fr": "Fête nationale — Mauritanie",
+        "de": "Nationalfeiertag — Mauretanien",
+        "pt": "Dia Nacional — Mauritânia"
+      }
+    },
+    {
+      "observanceId": "bb-dfat-national-day",
+      "country": "BB",
+      "canonicalTitleEn": "Independence Day — Barbados",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Independence Day — Barbados",
+        "it": "Giornata dell'indipendenza — Barbados",
+        "es": "Día de la Independencia — Barbados",
+        "fr": "Fête de l'indépendance — Barbade",
+        "de": "Unabhängigkeitstag — Barbados",
+        "pt": "Dia da Independência — Barbados"
+      }
+    },
+    {
+      "observanceId": "cf-dfat-national-day",
+      "country": "CF",
+      "canonicalTitleEn": "National Day — Central African Republic",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Central African Republic",
+        "it": "Festa nazionale — Repubblica Centrafricana",
+        "es": "Día nacional — República Centroafricana",
+        "fr": "Fête nationale — République centrafricaine",
+        "de": "Nationalfeiertag — Zentralafrikanische Republik",
+        "pt": "Dia Nacional — República Centro-Africana"
+      }
+    },
+    {
+      "observanceId": "ro-dfat-national-day",
+      "country": "RO",
+      "canonicalTitleEn": "National Day — Romania",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Romania",
+        "it": "Festa nazionale — Romania",
+        "es": "Día nacional — Rumanía",
+        "fr": "Fête nationale — Roumanie",
+        "de": "Nationalfeiertag — Rumänien",
+        "pt": "Dia Nacional — Romênia"
+      }
+    },
+    {
+      "observanceId": "la-dfat-national-day",
+      "country": "LA",
+      "canonicalTitleEn": "National Day — Laos",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Laos",
+        "it": "Festa nazionale — Laos",
+        "es": "Día nacional — Laos",
+        "fr": "Fête nationale — Laos",
+        "de": "Nationalfeiertag — Laos",
+        "pt": "Dia Nacional — Laos"
+      }
+    },
+    {
+      "observanceId": "ae-dfat-national-day",
+      "country": "AE",
+      "canonicalTitleEn": "National Day — United Arab Emirates",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — United Arab Emirates",
+        "it": "Festa nazionale — Emirati Arabi Uniti",
+        "es": "Día nacional — Emiratos Árabes Unidos",
+        "fr": "Fête nationale — Émirats arabes unis",
+        "de": "Nationalfeiertag — Vereinigte Arabische Emirate",
+        "pt": "Dia Nacional — Emirados Árabes Unidos"
+      }
+    },
+    {
+      "observanceId": "th-dfat-national-day",
+      "country": "TH",
+      "canonicalTitleEn": "King's Birthday Anniversary — Thailand",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "King's Birthday Anniversary — Thailand",
+        "it": "Commemorazione del compleanno del re — Thailandia",
+        "es": "Conmemoración del cumpleaños del rey — Tailandia",
+        "fr": "Anniversaire du roi — Thaïlande",
+        "de": "Geburtstag des Königs — Thailand",
+        "pt": "Aniversário do rei — Tailândia"
+      }
+    },
+    {
+      "observanceId": "bf-dfat-national-day",
+      "country": "BF",
+      "canonicalTitleEn": "National Day — Burkina Faso",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Burkina Faso",
+        "it": "Festa nazionale — Burkina Faso",
+        "es": "Día nacional — Burkina Faso",
+        "fr": "Fête nationale — Burkina Faso",
+        "de": "Nationalfeiertag — Burkina Faso",
+        "pt": "Dia Nacional — Burquina Faso"
+      }
+    },
+    {
+      "observanceId": "ke-dfat-national-day",
+      "country": "KE",
+      "canonicalTitleEn": "Jamhuri Day — Kenya",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "Jamhuri Day — Kenya",
+        "it": "Giornata della Repubblica Jamhuri — Kenya",
+        "es": "Día de la República Jamhuri — Kenia",
+        "fr": "Journée de la République Jamhuri — Kenya",
+        "de": "Jamhuri-Republiktag — Kenia",
+        "pt": "Dia da República Jamhuri — Quênia"
+      }
+    },
+    {
+      "observanceId": "bh-dfat-national-day",
+      "country": "BH",
+      "canonicalTitleEn": "National Day — Bahrain",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Bahrain",
+        "it": "Festa nazionale — Bahrein",
+        "es": "Día nacional — Baréin",
+        "fr": "Fête nationale — Bahreïn",
+        "de": "Nationalfeiertag — Bahrain",
+        "pt": "Dia Nacional — Barein"
+      }
+    },
+    {
+      "observanceId": "bt-dfat-national-day",
+      "country": "BT",
+      "canonicalTitleEn": "National Day — Bhutan",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Bhutan",
+        "it": "Festa nazionale — Bhutan",
+        "es": "Día nacional — Bután",
+        "fr": "Fête nationale — Bhoutan",
+        "de": "Nationalfeiertag — Bhutan",
+        "pt": "Dia Nacional — Butão"
+      }
+    },
+    {
+      "observanceId": "ne-dfat-national-day",
+      "country": "NE",
+      "canonicalTitleEn": "National Day — Niger",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Niger",
+        "it": "Festa nazionale — Niger",
+        "es": "Día nacional — Níger",
+        "fr": "Fête nationale — Niger",
+        "de": "Nationalfeiertag — Niger",
+        "pt": "Dia Nacional — Níger"
+      }
+    },
+    {
+      "observanceId": "qa-dfat-national-day",
+      "country": "QA",
+      "canonicalTitleEn": "National Day — Qatar",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Qatar",
+        "it": "Festa nazionale — Qatar",
+        "es": "Día nacional — Catar",
+        "fr": "Fête nationale — Qatar",
+        "de": "Nationalfeiertag — Katar",
+        "pt": "Dia Nacional — Catar"
+      }
+    },
+    {
+      "observanceId": "ly-dfat-national-day",
+      "country": "LY",
+      "canonicalTitleEn": "National Day — Libya",
+      "source": "https://protocol.dfat.gov.au/Public/NationalDays",
+      "localizedTitles": {
+        "en": "National Day — Libya",
+        "it": "Festa nazionale — Libia",
+        "es": "Día nacional — Libia",
+        "fr": "Fête nationale — Libye",
+        "de": "Nationalfeiertag — Libyen",
+        "pt": "Dia Nacional — Líbia"
+      }
+    },
+    {
+      "observanceId": "be-w13-eures-flemish-holiday",
+      "country": "BE",
+      "canonicalTitleEn": "Flemish Holiday — Belgium",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Flemish Holiday — Belgium",
+        "it": "Festa della Comunità fiamminga — Belgio",
+        "es": "Fiesta de la Comunidad Flamenca — Bélgica",
+        "fr": "Fête de la Communauté flamande — Belgique",
+        "de": "Feiertag der Flämischen Gemeinschaft — Belgien",
+        "pt": "Dia da Comunidade Flamenga — Bélgica"
+      }
+    },
+    {
+      "observanceId": "bg-w13-eures-saint-george-s-day-army-day",
+      "country": "BG",
+      "canonicalTitleEn": "Saint George's Day / Army Day — Bulgaria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Saint George's Day / Army Day — Bulgaria",
+        "it": "San Giorgio / Giornata dell'esercito — Bulgaria",
+        "es": "San Jorge / Día del Ejército — Bulgaria",
+        "fr": "Saint Georges / Journée de l'armée — Bulgarie",
+        "de": "Georgstag / Tag der Armee — Bulgarien",
+        "pt": "São Jorge / Dia do Exército — Bulgária"
+      }
+    },
+    {
+      "observanceId": "dk-w13-eures-constitution-day",
+      "country": "DK",
+      "canonicalTitleEn": "Constitution Day — Denmark",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Constitution Day — Denmark",
+        "it": "Giornata della Costituzione — Danimarca",
+        "es": "Día de la Constitución — Dinamarca",
+        "fr": "Journée de la Constitution — Danemark",
+        "de": "Tag der Verfassung — Dänemark",
+        "pt": "Dia da Constituição — Dinamarca"
+      }
+    },
+    {
+      "observanceId": "ee-w13-eures-spring-day",
+      "country": "EE",
+      "canonicalTitleEn": "Spring Day — Estonia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Spring Day — Estonia",
+        "it": "Festa della primavera — Estonia",
+        "es": "Día de la Primavera — Estonia",
+        "fr": "Fête du Printemps — Estonie",
+        "de": "Frühlingstag — Estland",
+        "pt": "Dia da Primavera — Estônia"
+      }
+    },
+    {
+      "observanceId": "fi-w13-eures-may-day",
+      "country": "FI",
+      "canonicalTitleEn": "May Day — Finland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "May Day — Finland",
+        "it": "Primo maggio — Finlandia",
+        "es": "Primero de Mayo — Finlandia",
+        "fr": "Premier Mai — Finlande",
+        "de": "Maifeiertag — Finnland",
+        "pt": "Primeiro de Maio — Finlândia"
+      }
+    },
+    {
+      "observanceId": "gr-w13-eures-anniversary-of-the-ochi",
+      "country": "GR",
+      "canonicalTitleEn": "Anniversary of the “Ochi” — Greece",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Anniversary of the “Ochi” — Greece",
+        "it": "Anniversario del «No» (Ochi) — Grecia",
+        "es": "Aniversario del «No» (Ochi) — Grecia",
+        "fr": "Anniversaire du « Non » (Ochi) — Grèce",
+        "de": "Ochi-Gedenktag (Tag des Nein) — Griechenland",
+        "pt": "Aniversário do «Não» (Ochi) — Grécia"
+      }
+    },
+    {
+      "observanceId": "hu-w13-eures-semmelweis-day",
+      "country": "HU",
+      "canonicalTitleEn": "Semmelweis Day — Hungary",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Semmelweis Day — Hungary",
+        "it": "Giornata di Semmelweis — Ungheria",
+        "es": "Día de Semmelweis — Hungría",
+        "fr": "Journée Semmelweis — Hongrie",
+        "de": "Semmelweis-Tag — Ungarn",
+        "pt": "Dia de Semmelweis — Hungria"
+      }
+    },
+    {
+      "observanceId": "ie-w13-eures-st-brigid-s-day",
+      "country": "IE",
+      "canonicalTitleEn": "St Brigid’s Day — Ireland",
+      "source": "https://www.workplacerelations.ie/en/what_you_should_know/public-holidays/",
+      "localizedTitles": {
+        "en": "St Brigid’s Day — Ireland",
+        "it": "Giornata di Santa Brigida — Irlanda",
+        "es": "Día de Santa Brígida — Irlanda",
+        "fr": "Journée de sainte Brigitte — Irlande",
+        "de": "Brigidentag — Irland",
+        "pt": "Dia de Santa Brígida — Irlanda"
+      }
+    },
+    {
+      "observanceId": "lt-w13-eures-all-souls-day",
+      "country": "LT",
+      "canonicalTitleEn": "All Souls' Day — Lithuania",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "All Souls' Day — Lithuania",
+        "it": "Commemorazione dei defunti — Lituania",
+        "es": "Día de los Difuntos — Lituania",
+        "fr": "Commémoration des défunts — Lituanie",
+        "de": "Allerseelen — Litauen",
+        "pt": "Dia dos Fiéis Defuntos — Lituânia"
+      }
+    },
+    {
+      "observanceId": "lu-w13-eures-europe-day",
+      "country": "LU",
+      "canonicalTitleEn": "Europe Day — Luxembourg",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Europe Day — Luxembourg",
+        "it": "Giornata dell'Europa — Lussemburgo",
+        "es": "Día de Europa — Luxemburgo",
+        "fr": "Journée de l'Europe — Luxembourg",
+        "de": "Europatag — Luxemburg",
+        "pt": "Dia da Europa — Luxemburgo"
+      }
+    },
+    {
+      "observanceId": "pt-w13-eures-st-antonio-s-day",
+      "country": "PT",
+      "canonicalTitleEn": "St. Antonio's Day — Portugal",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "St. Antonio's Day — Portugal",
+        "it": "Giornata di Sant'Antonio — Portogallo",
+        "es": "Día de San Antonio — Portugal",
+        "fr": "Fête de saint Antoine — Portugal",
+        "de": "Antoniustag — Portugal",
+        "pt": "Dia de Santo António — Portugal"
+      }
+    },
+    {
+      "observanceId": "at-w13-eures-new-year-s-day",
+      "country": "AT",
+      "canonicalTitleEn": "New Year’s Day — Austria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Austria",
+        "it": "Capodanno — Austria",
+        "es": "Año Nuevo — Austria",
+        "fr": "Jour de l'An — Autriche",
+        "de": "Neujahr — Österreich",
+        "pt": "Dia de Ano Novo — Áustria"
+      }
+    },
+    {
+      "observanceId": "cy-w13-eures-new-year-s-day",
+      "country": "CY",
+      "canonicalTitleEn": "New Year’s Day — Cyprus",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Cyprus",
+        "it": "Capodanno — Cipro",
+        "es": "Año Nuevo — Chipre",
+        "fr": "Jour de l'An — Chypre",
+        "de": "Neujahr — Zypern",
+        "pt": "Dia de Ano Novo — Chipre"
+      }
+    },
+    {
+      "observanceId": "cz-w13-eures-christmas-eve",
+      "country": "CZ",
+      "canonicalTitleEn": "Christmas Eve — Czechia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Eve — Czechia",
+        "it": "Vigilia di Natale — Cechia",
+        "es": "Nochebuena — Chequia",
+        "fr": "Veille de Noël — Tchéquie",
+        "de": "Heiligabend — Tschechien",
+        "pt": "Véspera de Natal — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "de-w13-eures-new-year-s-day",
+      "country": "DE",
+      "canonicalTitleEn": "New Year’s Day — Germany",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Germany",
+        "it": "Capodanno — Germania",
+        "es": "Año Nuevo — Alemania",
+        "fr": "Jour de l'An — Allemagne",
+        "de": "Neujahr — Deutschland",
+        "pt": "Dia de Ano Novo — Alemanha"
+      }
+    },
+    {
+      "observanceId": "fr-w13-eures-new-year-s-day",
+      "country": "FR",
+      "canonicalTitleEn": "New Year’s Day — France",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — France",
+        "it": "Capodanno — Francia",
+        "es": "Año Nuevo — Francia",
+        "fr": "Jour de l'An — France",
+        "de": "Neujahr — Frankreich",
+        "pt": "Dia de Ano Novo — França"
+      }
+    },
+    {
+      "observanceId": "hr-w13-eures-new-year-s-day",
+      "country": "HR",
+      "canonicalTitleEn": "New Year’s Day — Croatia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Croatia",
+        "it": "Capodanno — Croazia",
+        "es": "Año Nuevo — Croacia",
+        "fr": "Jour de l'An — Croatie",
+        "de": "Neujahr — Kroatien",
+        "pt": "Dia de Ano Novo — Croácia"
+      }
+    },
+    {
+      "observanceId": "is-w13-eures-new-year-s-day",
+      "country": "IS",
+      "canonicalTitleEn": "New Year’s Day — Iceland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Iceland",
+        "it": "Capodanno — Islanda",
+        "es": "Año Nuevo — Islandia",
+        "fr": "Jour de l'An — Islande",
+        "de": "Neujahr — Island",
+        "pt": "Dia de Ano Novo — Islândia"
+      }
+    },
+    {
+      "observanceId": "it-w13-eures-new-year-s-day",
+      "country": "IT",
+      "canonicalTitleEn": "New Year’s Day — Italy",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Italy",
+        "it": "Capodanno — Italia",
+        "es": "Año Nuevo — Italia",
+        "fr": "Jour de l'An — Italie",
+        "de": "Neujahr — Italien",
+        "pt": "Dia de Ano Novo — Itália"
+      }
+    },
+    {
+      "observanceId": "lv-w13-eures-new-year-s-day",
+      "country": "LV",
+      "canonicalTitleEn": "New Year’s Day — Latvia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Latvia",
+        "it": "Capodanno — Lettonia",
+        "es": "Año Nuevo — Letonia",
+        "fr": "Jour de l'An — Lettonie",
+        "de": "Neujahr — Lettland",
+        "pt": "Dia de Ano Novo — Letônia"
+      }
+    },
+    {
+      "observanceId": "mt-w13-eures-new-year-s-day",
+      "country": "MT",
+      "canonicalTitleEn": "New Year's Day — Malta",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year's Day — Malta",
+        "it": "Capodanno — Malta",
+        "es": "Año Nuevo — Malta",
+        "fr": "Jour de l'An — Malte",
+        "de": "Neujahr — Malta",
+        "pt": "Dia de Ano Novo — Malta"
+      }
+    },
+    {
+      "observanceId": "nl-w13-eures-new-year-s-day",
+      "country": "NL",
+      "canonicalTitleEn": "New Year’s Day — Netherlands",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Netherlands",
+        "it": "Capodanno — Paesi Bassi",
+        "es": "Año Nuevo — Países Bajos",
+        "fr": "Jour de l'An — Pays-Bas",
+        "de": "Neujahr — Niederlande",
+        "pt": "Dia de Ano Novo — Países Baixos"
+      }
+    },
+    {
+      "observanceId": "no-w13-eures-new-year-s-day",
+      "country": "NO",
+      "canonicalTitleEn": "New Year’s Day — Norway",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Norway",
+        "it": "Capodanno — Norvegia",
+        "es": "Año Nuevo — Noruega",
+        "fr": "Jour de l'An — Norvège",
+        "de": "Neujahr — Norwegen",
+        "pt": "Dia de Ano Novo — Noruega"
+      }
+    },
+    {
+      "observanceId": "pl-w13-eures-new-year-s-day",
+      "country": "PL",
+      "canonicalTitleEn": "New Year’s Day — Poland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Poland",
+        "it": "Capodanno — Polonia",
+        "es": "Año Nuevo — Polonia",
+        "fr": "Jour de l'An — Pologne",
+        "de": "Neujahr — Polen",
+        "pt": "Dia de Ano Novo — Polônia"
+      }
+    },
+    {
+      "observanceId": "be-w13-eures-french-community-day",
+      "country": "BE",
+      "canonicalTitleEn": "French community Day — Belgium",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "French community Day — Belgium",
+        "it": "Festa della Comunità francese — Belgio",
+        "es": "Día de la Comunidad Francesa — Bélgica",
+        "fr": "Fête de la Communauté française — Belgique",
+        "de": "Feiertag der Französischen Gemeinschaft — Belgien",
+        "pt": "Dia da Comunidade Francesa — Bélgica"
+      }
+    },
+    {
+      "observanceId": "bg-w13-eures-independence-day",
+      "country": "BG",
+      "canonicalTitleEn": "Independence Day — Bulgaria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Independence Day — Bulgaria",
+        "it": "Giornata dell'indipendenza — Bulgaria",
+        "es": "Día de la Independencia — Bulgaria",
+        "fr": "Fête de l'indépendance — Bulgarie",
+        "de": "Unabhängigkeitstag — Bulgarien",
+        "pt": "Dia da Independência — Bulgária"
+      }
+    },
+    {
+      "observanceId": "hu-w13-eures-republic-day",
+      "country": "HU",
+      "canonicalTitleEn": "Republic Day — Hungary",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Republic Day — Hungary",
+        "it": "Festa della Repubblica — Ungheria",
+        "es": "Día de la República — Hungría",
+        "fr": "Fête de la République — Hongrie",
+        "de": "Tag der Republik — Ungarn",
+        "pt": "Dia da República — Hungria"
+      }
+    },
+    {
+      "observanceId": "at-w13-eures-epiphany",
+      "country": "AT",
+      "canonicalTitleEn": "Epiphany — Austria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Austria",
+        "it": "Epifania — Austria",
+        "es": "Epifanía — Austria",
+        "fr": "Épiphanie — Autriche",
+        "de": "Heilige Drei Könige — Österreich",
+        "pt": "Dia de Reis — Áustria"
+      }
+    },
+    {
+      "observanceId": "cy-w13-eures-epiphany",
+      "country": "CY",
+      "canonicalTitleEn": "Epiphany — Cyprus",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Cyprus",
+        "it": "Epifania — Cipro",
+        "es": "Epifanía — Chipre",
+        "fr": "Épiphanie — Chypre",
+        "de": "Heilige Drei Könige — Zypern",
+        "pt": "Dia de Reis — Chipre"
+      }
+    },
+    {
+      "observanceId": "cz-w13-eures-christmas-day",
+      "country": "CZ",
+      "canonicalTitleEn": "Christmas Day — Czechia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Day — Czechia",
+        "it": "Natale — Cechia",
+        "es": "Navidad — Chequia",
+        "fr": "Noël — Tchéquie",
+        "de": "Weihnachten — Tschechien",
+        "pt": "Natal — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "de-w13-eures-labour-day",
+      "country": "DE",
+      "canonicalTitleEn": "Labour Day — Germany",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Germany",
+        "it": "Festa del lavoro — Germania",
+        "es": "Día del Trabajo — Alemania",
+        "fr": "Fête du Travail — Allemagne",
+        "de": "Tag der Arbeit — Deutschland",
+        "pt": "Dia do Trabalhador — Alemanha"
+      }
+    },
+    {
+      "observanceId": "dk-w13-eures-new-year-s-day",
+      "country": "DK",
+      "canonicalTitleEn": "New Year’s Day — Denmark",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Denmark",
+        "it": "Capodanno — Danimarca",
+        "es": "Año Nuevo — Dinamarca",
+        "fr": "Jour de l'An — Danemark",
+        "de": "Neujahr — Dänemark",
+        "pt": "Dia de Ano Novo — Dinamarca"
+      }
+    },
+    {
+      "observanceId": "ee-w13-eures-new-year-s-day",
+      "country": "EE",
+      "canonicalTitleEn": "New Year’s Day — Estonia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Estonia",
+        "it": "Capodanno — Estonia",
+        "es": "Año Nuevo — Estonia",
+        "fr": "Jour de l'An — Estonie",
+        "de": "Neujahr — Estland",
+        "pt": "Dia de Ano Novo — Estônia"
+      }
+    },
+    {
+      "observanceId": "fi-w13-eures-new-year-s-day",
+      "country": "FI",
+      "canonicalTitleEn": "New Year’s Day — Finland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Finland",
+        "it": "Capodanno — Finlandia",
+        "es": "Año Nuevo — Finlandia",
+        "fr": "Jour de l'An — Finlande",
+        "de": "Neujahr — Finnland",
+        "pt": "Dia de Ano Novo — Finlândia"
+      }
+    },
+    {
+      "observanceId": "fr-w13-eures-labour-day",
+      "country": "FR",
+      "canonicalTitleEn": "Labour Day — France",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — France",
+        "it": "Festa del lavoro — Francia",
+        "es": "Día del Trabajo — Francia",
+        "fr": "Fête du Travail — France",
+        "de": "Tag der Arbeit — Frankreich",
+        "pt": "Dia do Trabalhador — França"
+      }
+    },
+    {
+      "observanceId": "gr-w13-eures-new-year-s-day",
+      "country": "GR",
+      "canonicalTitleEn": "New Year’s Day — Greece",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Greece",
+        "it": "Capodanno — Grecia",
+        "es": "Año Nuevo — Grecia",
+        "fr": "Jour de l'An — Grèce",
+        "de": "Neujahr — Griechenland",
+        "pt": "Dia de Ano Novo — Grécia"
+      }
+    },
+    {
+      "observanceId": "hr-w13-eures-epiphany",
+      "country": "HR",
+      "canonicalTitleEn": "Epiphany — Croatia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Croatia",
+        "it": "Epifania — Croazia",
+        "es": "Epifanía — Croacia",
+        "fr": "Épiphanie — Croatie",
+        "de": "Heilige Drei Könige — Kroatien",
+        "pt": "Dia de Reis — Croácia"
+      }
+    },
+    {
+      "observanceId": "ie-w13-eures-new-year-s-day",
+      "country": "IE",
+      "canonicalTitleEn": "New Year’s Day — Ireland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Ireland",
+        "it": "Capodanno — Irlanda",
+        "es": "Año Nuevo — Irlanda",
+        "fr": "Jour de l'An — Irlande",
+        "de": "Neujahr — Irland",
+        "pt": "Dia de Ano Novo — Irlanda"
+      }
+    },
+    {
+      "observanceId": "is-w13-eures-labour-day",
+      "country": "IS",
+      "canonicalTitleEn": "Labour Day — Iceland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Iceland",
+        "it": "Festa del lavoro — Islanda",
+        "es": "Día del Trabajo — Islandia",
+        "fr": "Fête du Travail — Islande",
+        "de": "Tag der Arbeit — Island",
+        "pt": "Dia do Trabalhador — Islândia"
+      }
+    },
+    {
+      "observanceId": "it-w13-eures-epiphany",
+      "country": "IT",
+      "canonicalTitleEn": "Epiphany — Italy",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Italy",
+        "it": "Epifania — Italia",
+        "es": "Epifanía — Italia",
+        "fr": "Épiphanie — Italie",
+        "de": "Heilige Drei Könige — Italien",
+        "pt": "Dia de Reis — Itália"
+      }
+    },
+    {
+      "observanceId": "lt-w13-eures-new-year-s-day",
+      "country": "LT",
+      "canonicalTitleEn": "New Year’s Day — Lithuania",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Lithuania",
+        "it": "Capodanno — Lituania",
+        "es": "Año Nuevo — Lituania",
+        "fr": "Jour de l'An — Lituanie",
+        "de": "Neujahr — Litauen",
+        "pt": "Dia de Ano Novo — Lituânia"
+      }
+    },
+    {
+      "observanceId": "lu-w13-eures-new-year-s-day",
+      "country": "LU",
+      "canonicalTitleEn": "New Year’s Day — Luxembourg",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Luxembourg",
+        "it": "Capodanno — Lussemburgo",
+        "es": "Año Nuevo — Luxemburgo",
+        "fr": "Jour de l'An — Luxembourg",
+        "de": "Neujahr — Luxemburg",
+        "pt": "Dia de Ano Novo — Luxemburgo"
+      }
+    },
+    {
+      "observanceId": "lv-w13-eures-christmas-eve",
+      "country": "LV",
+      "canonicalTitleEn": "Christmas Eve — Latvia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Eve — Latvia",
+        "it": "Vigilia di Natale — Lettonia",
+        "es": "Nochebuena — Letonia",
+        "fr": "Veille de Noël — Lettonie",
+        "de": "Heiligabend — Lettland",
+        "pt": "Véspera de Natal — Letônia"
+      }
+    },
+    {
+      "observanceId": "mt-w13-eures-labour-day",
+      "country": "MT",
+      "canonicalTitleEn": "Labour Day — Malta",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Malta",
+        "it": "Festa del lavoro — Malta",
+        "es": "Día del Trabajo — Malta",
+        "fr": "Fête du Travail — Malte",
+        "de": "Tag der Arbeit — Malta",
+        "pt": "Dia do Trabalhador — Malta"
+      }
+    },
+    {
+      "observanceId": "nl-w13-eures-christmas-day",
+      "country": "NL",
+      "canonicalTitleEn": "Christmas Day — Netherlands",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Day — Netherlands",
+        "it": "Natale — Paesi Bassi",
+        "es": "Navidad — Países Bajos",
+        "fr": "Noël — Pays-Bas",
+        "de": "Weihnachten — Niederlande",
+        "pt": "Natal — Países Baixos"
+      }
+    },
+    {
+      "observanceId": "no-w13-eures-labour-day",
+      "country": "NO",
+      "canonicalTitleEn": "Labour Day — Norway",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Norway",
+        "it": "Festa del lavoro — Norvegia",
+        "es": "Día del Trabajo — Noruega",
+        "fr": "Fête du Travail — Norvège",
+        "de": "Tag der Arbeit — Norwegen",
+        "pt": "Dia do Trabalhador — Noruega"
+      }
+    },
+    {
+      "observanceId": "pl-w13-eures-epiphany",
+      "country": "PL",
+      "canonicalTitleEn": "Epiphany — Poland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Poland",
+        "it": "Epifania — Polonia",
+        "es": "Epifanía — Polonia",
+        "fr": "Épiphanie — Pologne",
+        "de": "Heilige Drei Könige — Polen",
+        "pt": "Dia de Reis — Polônia"
+      }
+    },
+    {
+      "observanceId": "pt-w13-eures-new-year-s-day",
+      "country": "PT",
+      "canonicalTitleEn": "New Year’s Day — Portugal",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Portugal",
+        "it": "Capodanno — Portogallo",
+        "es": "Año Nuevo — Portugal",
+        "fr": "Jour de l'An — Portugal",
+        "de": "Neujahr — Portugal",
+        "pt": "Dia de Ano Novo — Portugal"
+      }
+    },
+    {
+      "observanceId": "be-w13-eures-armistice-day",
+      "country": "BE",
+      "canonicalTitleEn": "Armistice Day — Belgium",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Armistice Day — Belgium",
+        "it": "Giornata dell'armistizio — Belgio",
+        "es": "Día del Armisticio — Bélgica",
+        "fr": "Jour de l'Armistice — Belgique",
+        "de": "Waffenstillstandstag — Belgien",
+        "pt": "Dia do Armistício — Bélgica"
+      }
+    },
+    {
+      "observanceId": "at-w13-eures-labour-day",
+      "country": "AT",
+      "canonicalTitleEn": "Labour Day — Austria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Austria",
+        "it": "Festa del lavoro — Austria",
+        "es": "Día del Trabajo — Austria",
+        "fr": "Fête du Travail — Autriche",
+        "de": "Tag der Arbeit — Österreich",
+        "pt": "Dia do Trabalhador — Áustria"
+      }
+    },
+    {
+      "observanceId": "bg-w13-eures-new-year-s-day",
+      "country": "BG",
+      "canonicalTitleEn": "New Year’s Day — Bulgaria",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "New Year’s Day — Bulgaria",
+        "it": "Capodanno — Bulgaria",
+        "es": "Año Nuevo — Bulgaria",
+        "fr": "Jour de l'An — Bulgarie",
+        "de": "Neujahr — Bulgarien",
+        "pt": "Dia de Ano Novo — Bulgária"
+      }
+    },
+    {
+      "observanceId": "cy-w13-eures-labour-day",
+      "country": "CY",
+      "canonicalTitleEn": "Labour Day — Cyprus",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Labour Day — Cyprus",
+        "it": "Festa del lavoro — Cipro",
+        "es": "Día del Trabajo — Chipre",
+        "fr": "Fête du Travail — Chypre",
+        "de": "Tag der Arbeit — Zypern",
+        "pt": "Dia do Trabalhador — Chipre"
+      }
+    },
+    {
+      "observanceId": "cz-w13-eures-st-stephen-s-day",
+      "country": "CZ",
+      "canonicalTitleEn": "St. Stephen's Day — Czechia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "St. Stephen's Day — Czechia",
+        "it": "Giorno di Santo Stefano — Cechia",
+        "es": "Día de San Esteban — Chequia",
+        "fr": "Saint-Étienne — Tchéquie",
+        "de": "Stephanstag — Tschechien",
+        "pt": "Dia de Santo Estêvão — Tchéquia"
+      }
+    },
+    {
+      "observanceId": "de-w13-eures-christmas-day",
+      "country": "DE",
+      "canonicalTitleEn": "Christmas Day — Germany",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Day — Germany",
+        "it": "Natale — Germania",
+        "es": "Navidad — Alemania",
+        "fr": "Noël — Allemagne",
+        "de": "Weihnachten — Deutschland",
+        "pt": "Natal — Alemanha"
+      }
+    },
+    {
+      "observanceId": "dk-w13-eures-christmas-eve",
+      "country": "DK",
+      "canonicalTitleEn": "Christmas Eve — Denmark",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Eve — Denmark",
+        "it": "Vigilia di Natale — Danimarca",
+        "es": "Nochebuena — Dinamarca",
+        "fr": "Veille de Noël — Danemark",
+        "de": "Heiligabend — Dänemark",
+        "pt": "Véspera de Natal — Dinamarca"
+      }
+    },
+    {
+      "observanceId": "ee-w13-eures-christmas-eve",
+      "country": "EE",
+      "canonicalTitleEn": "Christmas Eve — Estonia",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Christmas Eve — Estonia",
+        "it": "Vigilia di Natale — Estonia",
+        "es": "Nochebuena — Estonia",
+        "fr": "Veille de Noël — Estonie",
+        "de": "Heiligabend — Estland",
+        "pt": "Véspera de Natal — Estônia"
+      }
+    },
+    {
+      "observanceId": "fi-w13-eures-epiphany",
+      "country": "FI",
+      "canonicalTitleEn": "Epiphany — Finland",
+      "source": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "localizedTitles": {
+        "en": "Epiphany — Finland",
+        "it": "Epifania — Finlandia",
+        "es": "Epifanía — Finlandia",
+        "fr": "Épiphanie — Finlande",
+        "de": "Heilige Drei Könige — Finnland",
+        "pt": "Dia de Reis — Finlândia"
+      }
+    }
+  ]
+}

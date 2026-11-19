@@ -1,3 +1,14 @@
+## 19 novembre 2026 — Pulizia royal flags e localizzazione massiva 256 × 5
+
+- [x] Audit aggiuntivo dei calendari ufficiali SE/NO: **11** date individuali di compleanni e onomastici reali (6 Svezia, 5 Norvegia) senza autonoma funzione di giornata mondiale; ricorrenze di bandiera archiviate, non pubblicate come eventi World Days.
+- [x] Totale **164 esclusioni di pertinenza**, **947 ID consumer** (289 globali, 658 nazionali); le commemorazioni pubbliche realmente riconosciute, incluse quelle dedicate a persone, restano.
+- [x] **256** titoli nazionali/culturali tradotti in IT/ES/FR/DE/PT: **1.280** stringhe locali archiviate nel repository, termini tradotti e Paesi espressi con esonimi CLDR. Zero rete/IA a runtime.
+- [x] Le 947 schede rimangono in sei lingue: **519 editoriali più approfondite**, **428 contestuali da completare nella storia d'origine individuale**.
+- [x] Backlog di ricerca storica pubblicabile a lotti **100/100/100/100/28** con ID, Paesi, fonte originale e motivi per HOLD.
+- [ ] Eseguire test exact-head, Flutter e Web e integrare su main soltanto dopo PASS.
+- [ ] Continuare traduzioni di *titoli* già localizzati solo in inglese su altre wave, mantenendo distinto il corpo già multilingue.
+- [ ] Ricostruire 428 origini storiche da fonti specifiche in più corsie parallele, evitando di chiamare nuova storia un testo contestuale già presente.
+
 ## 19 novembre 2026 — Catalogo coerente: audit 1.111 e 153 anniversari personali esclusi
 
 - [x] Confine di prodotto fissato: focus su giornate mondiali, internazionali, civiche/nazionali e campagne tematiche; no anniversari personali di nascita/morte se soltanto ricorrenze da calendario biografico.

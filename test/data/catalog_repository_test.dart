@@ -85,7 +85,7 @@ void main() {
     final snapshot = await const CatalogRepository().load();
     const locales = ['en', 'it', 'es', 'fr', 'de', 'pt'];
 
-    expect(snapshot.editorialById.length, 958);
+    expect(snapshot.editorialById.length, 947);
     for (final item in <String, int>{
       'international-day-of-commemoration-in-memory-of-the-victims-of-the-holocaust': 2005,
       'international-day-of-clean-energy': 2023,
