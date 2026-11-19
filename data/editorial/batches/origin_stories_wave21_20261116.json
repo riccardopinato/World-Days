@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 42,
+  "count": 43,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -3432,6 +3432,93 @@
             "A resolução foi aprovada em 20 de agosto de 1991.",
             "Recebeu 69 votos favoráveis.",
             "A independência original foi proclamada em 24 de fevereiro de 1918."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
+    },
+    {
+      "observanceId": "ee-victory-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": 1934,
+      "commemoratedEventYear": 1919,
+      "dateReason": "Victory at the Battle of Võnnu (Cēsis) on 23 June 1919",
+      "dateRule": "June 23",
+      "institution": "Estonian state institutions and Defence League; original founding legal instrument not independently verified",
+      "sources": [
+        "https://www.riigikogu.ee/en/press-releases/board-of-the-riigikogu/president-riigikogu-victory-day-duty-hold-protect-beautiful-country/",
+        "https://www.valitsus.ee/en/news/speech-prime-minister-kaja-kallas-victory-day-23-june-2021",
+        "https://www.valitsus.ee/en/news/speech-prime-minister-kaja-kallas-victory-day-narva",
+        "https://news.err.ee/1609378916/feature-june-23-estonia-s-victory-day"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Victory Day: remembering Võnnu in 1919",
+          "origin": "On 23 June 1919, Estonian and Latvian forces defeated the Baltic Landeswehr near Võnnu (Cēsis), in present-day Latvia. The battle was a decisive episode in Estonia's War of Independence. Victory Day commemorates this military success and the wider effort to defend the republic's sovereignty.",
+          "promoter": "The commemoration is observed by Estonia's state institutions and Defence League. Historical accounts place its first observance in 1934, but the original legal founding instrument has not been independently checked for this dossier.",
+          "purpose": "The day honours those who defended independence and invites reflection on freedom, civic responsibility and the human cost of war.",
+          "facts": [
+            "The Battle of Võnnu was won on 23 June 1919.",
+            "Estonia's Victory Day falls on 23 June, ahead of Midsummer Day.",
+            "The Victory Day fire is carried to Estonia's counties as part of the remembrance tradition."
+          ]
+        },
+        "it": {
+          "heading": "Giorno della Vittoria estone: il ricordo di Võnnu nel 1919",
+          "origin": "Il 23 giugno 1919 le forze estoni e lettoni sconfissero la Landeswehr baltica nei pressi di Võnnu (Cēsis), nell'attuale Lettonia. Fu un episodio decisivo della guerra d'indipendenza estone. La ricorrenza ricorda la vittoria e la difesa della sovranità della repubblica.",
+          "promoter": "La commemorazione è osservata dalle istituzioni estoni e dalla Lega di difesa. Le ricostruzioni storiche collocano la prima celebrazione nel 1934, ma il provvedimento istitutivo originario non è stato verificato autonomamente per questo dossier.",
+          "purpose": "La giornata rende omaggio a chi difese l'indipendenza e invita a riflettere sulla libertà, sulla responsabilità civica e sul costo umano della guerra.",
+          "facts": [
+            "La battaglia di Võnnu fu vinta il 23 giugno 1919.",
+            "Il Giorno della Vittoria cade il 23 giugno, alla vigilia della festa di mezza estate.",
+            "Il fuoco della Vittoria viene portato nelle contee estoni durante le commemorazioni."
+          ]
+        },
+        "es": {
+          "heading": "Día de la Victoria de Estonia: el recuerdo de Võnnu en 1919",
+          "origin": "El 23 de junio de 1919, fuerzas estonias y letonas derrotaron a la Landeswehr báltica cerca de Võnnu (Cēsis), en la actual Letonia. La batalla fue decisiva en la guerra de independencia de Estonia. La conmemoración recuerda aquella victoria y la defensa de la soberanía nacional.",
+          "promoter": "La jornada es observada por las instituciones de Estonia y su Liga de Defensa. Las fuentes históricas sitúan las primeras celebraciones en 1934, aunque el instrumento jurídico original no se ha comprobado de forma independiente para este expediente.",
+          "purpose": "La fecha honra a quienes defendieron la independencia e invita a reflexionar sobre la libertad, la responsabilidad cívica y el coste humano de la guerra.",
+          "facts": [
+            "La batalla de Võnnu terminó con la victoria del 23 de junio de 1919.",
+            "El Día de la Victoria se celebra el 23 de junio, antes de la fiesta de San Juan.",
+            "El fuego de la Victoria se distribuye entre los condados estonios durante las ceremonias."
+          ]
+        },
+        "fr": {
+          "heading": "Fête de la Victoire en Estonie : le souvenir de Võnnu en 1919",
+          "origin": "Le 23 juin 1919, les forces estoniennes et lettones vainquirent la Landeswehr balte près de Võnnu (Cēsis), dans l'actuelle Lettonie. Cette bataille fut décisive dans la guerre d'indépendance estonienne. La commémoration rappelle cette victoire et la défense de la souveraineté nationale.",
+          "promoter": "La journée est célébrée par les institutions estoniennes et la Ligue de défense. Les récits historiques situent les premières célébrations en 1934, mais l'acte juridique fondateur n'a pas été vérifié indépendamment pour ce dossier.",
+          "purpose": "Elle rend hommage aux défenseurs de l'indépendance et invite à réfléchir à la liberté, à la responsabilité civique et au coût humain de la guerre.",
+          "facts": [
+            "La bataille de Võnnu fut remportée le 23 juin 1919.",
+            "La fête de la Victoire a lieu le 23 juin, à la veille de la Saint-Jean.",
+            "Le feu de la Victoire est transmis aux comtés estoniens pendant les cérémonies."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Siegestag: Erinnerung an Võnnu 1919",
+          "origin": "Am 23. Juni 1919 besiegten estnische und lettische Truppen die Baltische Landeswehr bei Võnnu (Cēsis) im heutigen Lettland. Die Schlacht war ein entscheidender Abschnitt des estnischen Unabhängigkeitskrieges. Der Gedenktag erinnert an diesen Sieg und die Verteidigung der staatlichen Souveränität.",
+          "promoter": "Staatliche Einrichtungen Estlands und die Verteidigungsliga begehen den Tag. Historische Darstellungen nennen 1934 als Beginn der Feierlichkeiten; der ursprüngliche Rechtsakt wurde für dieses Dossier jedoch nicht unabhängig überprüft.",
+          "purpose": "Der Tag ehrt die Verteidiger der Unabhängigkeit und regt zum Nachdenken über Freiheit, staatsbürgerliche Verantwortung und die menschlichen Kosten des Krieges an.",
+          "facts": [
+            "Die Schlacht bei Võnnu wurde am 23. Juni 1919 gewonnen.",
+            "Der Siegestag fällt auf den 23. Juni, unmittelbar vor dem Johannistag.",
+            "Das Siegesfeuer wird bei den Gedenkfeiern in Estlands Landkreise getragen."
+          ]
+        },
+        "pt": {
+          "heading": "Dia da Vitória da Estónia: a memória de Võnnu em 1919",
+          "origin": "Em 23 de junho de 1919, forças estónias e letãs derrotaram a Landeswehr báltica perto de Võnnu (Cēsis), na atual Letónia. A batalha foi decisiva na Guerra da Independência da Estónia. A data recorda essa vitória e a defesa da soberania nacional.",
+          "promoter": "A comemoração é observada pelas instituições estónias e pela Liga de Defesa. Relatos históricos apontam 1934 como início das celebrações, mas o ato jurídico fundador não foi verificado de forma independente neste dossiê.",
+          "purpose": "A data homenageia quem defendeu a independência e convida à reflexão sobre liberdade, responsabilidade cívica e o custo humano da guerra.",
+          "facts": [
+            "A batalha de Võnnu foi vencida em 23 de junho de 1919.",
+            "O Dia da Vitória é celebrado a 23 de junho, na véspera do Dia de São João.",
+            "O fogo da Vitória é levado aos condados estónios durante as cerimónias."
           ]
         }
       },
