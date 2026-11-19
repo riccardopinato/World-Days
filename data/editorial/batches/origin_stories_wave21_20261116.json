@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "wave": 21,
-  "count": 50,
+  "count": 51,
   "records": [
     {
       "observanceId": "mexico-constitution-day",
@@ -4124,6 +4124,93 @@
           ]
         }
       }
+    },
+    {
+      "observanceId": "ee-midsummer-day",
+      "status": "AI_DRAFT_SOURCE_REVIEWED_HUMAN_PENDING",
+      "introducedYear": null,
+      "firstObservedYear": null,
+      "commemoratedEventYear": null,
+      "dateReason": "24 June is St John's Day and the traditional midsummer celebration; exact original selection date unknown",
+      "dateRule": "June 24",
+      "institution": "Riigikogu (statutory public holiday); traditional communities (historical celebration, no single founder)",
+      "sources": [
+        "https://www.eesti.ee/en/artikkel/republic-of-estonia/republic-of-estonia/national-public-and-school-holidays",
+        "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+        "https://www.riigiteataja.ee/en/akt/530012023002",
+        "https://www.visittallinn.ee/eng/professional/about-tallinn/newsletter/news/27369/tallinn-on-victory-day-and-st-johns-day-"
+      ],
+      "locale": {
+        "en": {
+          "heading": "Estonia's Midsummer Day: light, community and tradition",
+          "origin": "Estonia observes Midsummer Day, or Jaanipäev, on 24 June, with celebrations often beginning on the evening of 23 June. Rooted in seasonal customs and associated with St John's Day, the holiday brings people together around bonfires and summer gatherings. Its exact first celebration cannot be established from the official sources consulted.",
+          "promoter": "The tradition belongs to Estonian communities over many generations. Estonia's legislature recognizes 24 June as a public holiday; no single historical founder of the folk celebration is documented.",
+          "purpose": "The occasion marks the bright northern summer and maintains shared cultural traditions across generations.",
+          "facts": [
+            "24 June is a statutory public holiday in Estonia.",
+            "Midsummer Eve celebrations commonly begin on 23 June.",
+            "The Estonian flag remains raised through Midsummer Night under national flag rules."
+          ]
+        },
+        "it": {
+          "heading": "La festa di mezza estate in Estonia: luce e tradizione",
+          "origin": "In Estonia la festa di mezza estate, Jaanipäev, cade il 24 giugno e i festeggiamenti iniziano spesso la sera del 23. Legata alle antiche consuetudini stagionali e a san Giovanni, riunisce le comunità intorno ai falò. Le fonti istituzionali consultate non consentono di stabilire l'anno della prima celebrazione.",
+          "promoter": "La tradizione si è sviluppata nelle comunità estoni nel corso delle generazioni. Il Parlamento riconosce il 24 giugno come giorno festivo; non è documentato un unico fondatore della festa popolare.",
+          "purpose": "Celebrare la luce dell'estate nordica e tramandare pratiche culturali condivise.",
+          "facts": [
+            "Il 24 giugno è un giorno festivo previsto dalla legge estone.",
+            "Le celebrazioni iniziano spesso la sera del 23 giugno.",
+            "La bandiera estone rimane issata durante la notte di mezza estate."
+          ]
+        },
+        "es": {
+          "heading": "El solsticio festivo de Estonia: luz y tradición",
+          "origin": "Estonia celebra Jaanipäev el 24 de junio, aunque las reuniones suelen comenzar la noche del 23. Esta festividad, vinculada a costumbres estacionales y a san Juan, reúne a las comunidades alrededor de hogueras. Las fuentes institucionales consultadas no permiten determinar el año de su primera celebración.",
+          "promoter": "La tradición ha pasado por generaciones de comunidades estonias. El Parlamento reconoce el 24 de junio como festivo; no consta un fundador único de la celebración popular.",
+          "purpose": "Celebrar la luz del verano septentrional y mantener vivas las tradiciones compartidas.",
+          "facts": [
+            "El 24 de junio es festivo legal en Estonia.",
+            "Las celebraciones suelen comenzar la noche del 23 de junio.",
+            "La bandera estonia permanece izada durante la noche de San Juan."
+          ]
+        },
+        "fr": {
+          "heading": "La Saint-Jean en Estonie : lumière et traditions",
+          "origin": "L'Estonie célèbre Jaanipäev le 24 juin, avec des rassemblements qui commencent souvent le soir du 23. Associée aux coutumes saisonnières et à la Saint-Jean, cette fête réunit les communautés autour de feux de joie. Les sources institutionnelles consultées ne permettent pas d'en dater la première célébration.",
+          "promoter": "La tradition s'est transmise entre générations dans les communautés estoniennes. Le Parlement reconnaît le 24 juin comme jour férié ; aucun fondateur unique de la fête populaire n'est établi.",
+          "purpose": "Célébrer la lumière de l'été nordique et transmettre les traditions communes.",
+          "facts": [
+            "Le 24 juin est un jour férié légal en Estonie.",
+            "Les festivités commencent souvent le soir du 23 juin.",
+            "Le drapeau estonien reste hissé pendant la nuit de la Saint-Jean."
+          ]
+        },
+        "de": {
+          "heading": "Estlands Mittsommertag: Licht und Gemeinschaft",
+          "origin": "Estland feiert Jaanipäev am 24. Juni; die Feierlichkeiten beginnen häufig schon am Abend des 23. Juni. Das mit jahreszeitlichen Bräuchen und dem Johannistag verbundene Fest bringt Menschen an traditionellen Feuern zusammen. Aus den konsultierten amtlichen Quellen lässt sich kein Jahr der ersten Feier ableiten.",
+          "promoter": "Der Brauch wurde über Generationen in estnischen Gemeinschaften weitergegeben. Das Parlament erkennt den 24. Juni als Feiertag an; ein einzelner Begründer des Volksfestes ist nicht belegt.",
+          "purpose": "Das Licht des nordischen Sommers feiern und gemeinschaftliche Traditionen bewahren.",
+          "facts": [
+            "Der 24. Juni ist in Estland gesetzlicher Feiertag.",
+            "Die Feiern beginnen häufig am Abend des 23. Juni.",
+            "Die estnische Flagge bleibt während der Mittsommernacht gehisst."
+          ]
+        },
+        "pt": {
+          "heading": "O dia de verão da Estónia: luz e tradição",
+          "origin": "A Estónia celebra Jaanipäev a 24 de junho, com encontros que muitas vezes começam na noite de 23. Ligada aos costumes sazonais e a São João, a festa reúne comunidades à volta de fogueiras. As fontes institucionais consultadas não permitem determinar o ano da primeira celebração.",
+          "promoter": "A tradição foi transmitida entre gerações nas comunidades estónias. O Parlamento reconhece 24 de junho como feriado; não está documentado um fundador único da celebração popular.",
+          "purpose": "Celebrar a luz do verão nórdico e preservar tradições partilhadas.",
+          "facts": [
+            "24 de junho é feriado legal na Estónia.",
+            "As celebrações começam frequentemente na noite de 23 de junho.",
+            "A bandeira estónia permanece hasteada durante a noite de São João."
+          ]
+        }
+      },
+      "humanFactReview": "PENDING",
+      "humanSixLocaleReview": "PENDING",
+      "runtimeRichEditorialApproved": false
     }
   ]
 }
