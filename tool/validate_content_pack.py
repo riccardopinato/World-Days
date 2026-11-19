@@ -88,7 +88,7 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
     # never original source narratives or localized facts. Full metadata is
     # retained in the bundled generated editorials and Git review ledgers.
     bundled = json.loads((ROOT / f"assets/data/editorial_{locale}.json").read_text(encoding="utf-8"))
-    assert len(bundled["entries"]) == len(entries) == 958
+    assert len(bundled["entries"]) == len(entries) == 947
     assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
