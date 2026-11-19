@@ -1,3 +1,9 @@
+## Wave21 Fast Track — cinque nuove storie in sei lingue (19 novembre 2026)
+
+Nuovo blocco **5 ID unici** in EN/IT/ES/FR/DE/PT: `mexico-constitution-day`, `no-constitution-day`, `constitution-day-spain`, `pl-constitution-day`, `hr-statehood-day`. L'importazione avviene **dopo** la pipeline esistente dei 502; il nuovo test impone **507/1.111 completi, 0 solo IT/EN, 604 in sospeso**. Le fonti sono i rispettivi governi/parlamenti; i testi sono stati creati e ricontrollati con IA senza fingere revisioni professionali esterne. La fonte e le sei traduzioni sono in `data/editorial/published/wave21_fasttrack_first5_six_locale_20261119.json`.
+
+Questa sezione descrive il target della PR finché non risulta CI PASS e merge su main; nessun deploy pubblico automatico.
+
 ## Stato editoriale corrente — 19 novembre 2026
 
 **502/1.111 articoli completi in sei lingue; 0 solo IT/EN; 609 ID ancora senza storia editoriale completa.** Contare solo gli ID canonici unici su `main`, non le PR sorgente o le traduzioni come nuove storie. I 626 senza ricerca storica specifica sono una metrica diversa. I blocchi già pronti Wave20/PH-KR-CA/top-five sono inclusi nei 502. La prossima wave deve produrre solo contenuti mancanti usando il [prospetto editoriale pulito](docs/WORLD_DAYS_EDITORIAL_CLEAN_STATUS_20261119.md) e il Fast Track IA del Master Core; QA dei fatti e traduzioni, merge con CI, nessun certificatore professionale esterno obbligatorio per normali testi descrittivi.
