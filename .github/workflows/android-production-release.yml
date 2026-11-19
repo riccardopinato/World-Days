@@ -96,6 +96,8 @@ jobs:
           python3 tool/validate_fasttrack_wave21_first5.py
           python3 tool/fasttrack_parallel_604_contextual.py
           python3 tool/validate_fasttrack_parallel_604.py
+          python3 tool/publish_source_grounded_origin_12.py
+          python3 tool/validate_origin_enrichment_12.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
