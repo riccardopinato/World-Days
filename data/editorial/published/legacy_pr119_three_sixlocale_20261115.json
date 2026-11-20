@@ -51,7 +51,8 @@
           "facts": [
             "El 24 de enero recuerda la Carta para el Renacimiento Cultural Africano de 2006.",
             "La UNESCO aprobó la jornada mundial en 2019.",
-            "La conmemoración incluye también a las comunidades afrodescendientes fuera de África."
+            "La conmemoración incluye también a las comunidades afrodescendientes fuera de África.",
+            "La UNESCO vincula la jornada con impulsar la ratificación y la aplicación de la Carta por los Estados africanos."
           ]
         },
         "fr": {
@@ -62,7 +63,8 @@
           "facts": [
             "Le 24 janvier rappelle une charte de l'Union africaine adoptée en 2006.",
             "La journée a été instituée par l'UNESCO en 2019.",
-            "Elle concerne aussi les cultures des diasporas africaines."
+            "Elle concerne aussi les cultures des diasporas africaines.",
+            "L'UNESCO associe cette journée à une plus large ratification et à la mise en œuvre de la Charte par les États africains."
           ]
         },
         "de": {
@@ -73,7 +75,8 @@
           "facts": [
             "Der 24. Januar erinnert an die afrikanische Kultur-Charta von 2006.",
             "Die UNESCO beschloss den Welttag 2019.",
-            "Auch afrodeszendente Gemeinschaften außerhalb Afrikas sind einbezogen."
+            "Auch afrodeszendente Gemeinschaften außerhalb Afrikas sind einbezogen.",
+            "Die UNESCO verbindet den Welttag mit einer stärkeren Ratifizierung und Umsetzung der Charta durch afrikanische Staaten."
           ]
         },
         "pt": {
@@ -84,7 +87,8 @@
           "facts": [
             "O 24 de janeiro evoca a carta cultural africana de 2006.",
             "A UNESCO instituiu o dia mundial em 2019.",
-            "A jornada inclui também as culturas das diásporas africanas."
+            "A jornada inclui também as culturas das diásporas africanas.",
+            "A UNESCO associa esta data ao reforço da ratificação e da aplicação da Carta pelos Estados africanos."
           ]
         }
       },
@@ -141,6 +145,7 @@
           "facts": [
             "La resolución A/RES/76/254 fue aprobada el 15 de marzo de 2022.",
             "La fecha recuerda los ataques de Christchurch de 2019.",
+            "La Biblioteca Digital de la ONU identifica los Estados copatrocinadores en el documento A/76/L.41/Add.1.",
             "La primera conmemoración de la ONU tuvo lugar en marzo de 2023."
           ]
         },
@@ -152,6 +157,7 @@
           "facts": [
             "La résolution A/RES/76/254 a été adoptée le 15 mars 2022.",
             "La date rappelle les attaques de Christchurch en 2019.",
+            "La Bibliothèque numérique de l'ONU répertorie les États coparrains dans le document A/76/L.41/Add.1.",
             "La première commémoration de l'ONU a eu lieu en mars 2023."
           ]
         },
@@ -163,6 +169,7 @@
           "facts": [
             "Resolution A/RES/76/254 wurde am 15. März 2022 angenommen.",
             "Der Tag erinnert an die Anschläge von Christchurch 2019.",
+            "Die Digitale Bibliothek der UN nennt die Mitunterzeichnerstaaten im Dokument A/76/L.41/Add.1.",
             "Die erste UN-Begehung fand im März 2023 statt."
           ]
         },
@@ -174,6 +181,7 @@
           "facts": [
             "A resolução A/RES/76/254 foi aprovada em 15 de março de 2022.",
             "A data recorda os ataques de Christchurch de 2019.",
+            "A Biblioteca Digital da ONU identifica os Estados copatrocinadores no documento A/76/L.41/Add.1.",
             "A primeira comemoração da ONU ocorreu em março de 2023."
           ]
         }
@@ -272,5 +280,7 @@
       "reviewLevel": "AI_SOURCE_AND_CHRONOLOGY_REVIEWED",
       "independentHumanReview": false
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19",
+  "editorialRevision": "IN_CHAT_SOURCE_BOUND_FACT_PARITY_NO_INDEPENDENT_HUMAN_SIGNOFF"
 }
