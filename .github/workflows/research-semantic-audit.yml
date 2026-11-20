@@ -1,0 +1,71 @@
+name: Research candidates — generated catalog semantic overlap audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/research/**"
+      - "tool/audit_research_candidates.py"
+      - "tool/test_research_semantic_audit.py"
+      - "tool/validate_research_overlap_decisions.py"
+      - "tool/validate_research_certification_coverage.py"
+      - "tool/validate_additional_country_date_duplicates.py"
+      - "tool/triage_research_identities.py"
+      - "tool/test_research_identity_triage.py"
+      - "tool/score_source_consensus.py"
+      - "tool/test_source_consensus.py"
+      - "tool/plan_bulk_research_batches.py"
+      - "tool/validate_fast01_parallel_checks.py"
+      - ".github/workflows/research-semantic-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout exact candidate source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Build actual canonical 456-record dataset from repository generators
+        run: |
+          python3 tool/market_wave04.py
+          python3 tool/build_dataset.py > /tmp/world-days-dataset-build.log
+          python3 tool/validate_dataset.py
+      - name: Negative and positive collision screen tests
+        run: python3 -m unittest discover -s tool -p 'test_research_semantic_audit.py' -v
+      - name: Audit ALL candidate waves against generated IDs aliases titles locales
+        run: python3 tool/audit_research_candidates.py
+      - name: Verify all 20 flagged candidates against year/date and country
+        run: python3 tool/validate_research_overlap_decisions.py
+      - name: Gate seven newly identified canonical national duplicates
+        run: python3 tool/validate_additional_country_date_duplicates.py
+      - name: Verify provenance and certification boundaries for all 153 candidates
+        run: python3 tool/validate_research_certification_coverage.py
+      - name: Test semantic and movable-date safety cases
+        run: python3 -m unittest discover -s tool -p 'test_research_identity_triage.py' -v
+      - name: Generate all-candidate semantic triage queue (no auto-admission)
+        run: python3 tool/triage_research_identities.py
+      - name: Test batch source-origin scoring and contradiction gates
+        run: python3 -m unittest discover -s tool -p 'test_source_consensus.py' -v
+      - name: Verify actual 2026 event-date excerpts without site-count inflation
+        run: python3 tool/score_source_consensus.py
+      - name: Plan country-grouped research batches of 30 + 12
+        run: python3 tool/plan_bulk_research_batches.py
+      - name: Verify FAST-01 parallel 22-date country-and-scope register
+        run: python3 tool/validate_fast01_parallel_checks.py
+      - name: Upload inspectable research semantic-audit report
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-research-semantic-audit
+          path: |
+            reports/research_semantic_audit.json
+            reports/research_certification_coverage.json
+            reports/research_semantic_triage.json
+            reports/research_date_consensus_2026.json
+            reports/research_fast_batches.json
+          if-no-files-found: warn
+          retention-days: 21

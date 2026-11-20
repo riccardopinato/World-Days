@@ -1,0 +1,30 @@
+name: Wave05 research-only candidate screen
+
+on:
+  pull_request:
+    paths:
+      - 'tool/check_wave05_candidates.py'
+      - 'tool/build_dataset.py'
+      - 'data/research/wave05_four_official_candidates_20261109.json'
+      - 'data/market/**'
+      - '.github/workflows/wave05-research-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  candidate-screen:
+    name: Candidate ID and title collision screen (NOT admission)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile screening script
+        run: python -m py_compile tool/check_wave05_candidates.py
+      - name: Run candidate-only screening
+        run: python tool/check_wave05_candidates.py

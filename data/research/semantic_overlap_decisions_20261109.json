@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-09",
+  "basedOnGitHubAuditRun": "https://github.com/riccardopinato/World-Days/actions/runs/42696189459",
+  "catalogBaseCount": 456,
+  "scope": "RESOLVE_THE_20_AUTOMATED_FLAGS_ONLY",
+  "warning": "A matching date + country + observed subject can support research dedup but does not replace independent primary-source or translator validation. The three DISTINCT decisions apply only to the flagged reference IDs; they are NOT runtime admission.",
+  "reviewDecisions": [
+    {
+      "candidateFile": "wave05_canada_official_calendar_20261109.json",
+      "candidateTitle": "Canadian Multiculturalism Day",
+      "existingId": "canada-multiculturalism-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave05_canada_official_calendar_20261109.json",
+      "candidateTitle": "National Acadian Day",
+      "existingId": "canada-national-acadian-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "National Foundation Day",
+      "existingId": "japan-national-foundation-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Constitution Memorial Day (Japan)",
+      "existingId": "japan-constitution-memorial-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Culture Day (Japan)",
+      "existingId": "japan-culture-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "National Heroes Day (Philippines)",
+      "existingId": "ph-national-heroes-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Bonifacio Day",
+      "existingId": "ph-bonifacio-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Rizal Day",
+      "existingId": "ph-rizal-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Ninoy Aquino Day",
+      "existingId": "ph-ninoy-aquino-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "EDSA People Power Revolution Anniversary",
+      "existingId": "ph-edsa-people-power-anniversary",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "March 1 Independence Movement Day",
+      "existingId": "kr-march-first-independence-movement-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "Children's Day (South Korea)",
+      "existingId": "kr-childrens-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "Constitution Day (South Korea)",
+      "existingId": "kr-constitution-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "Liberation Day (South Korea)",
+      "existingId": "kr-liberation-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "National Foundation Day (South Korea)",
+      "existingId": "kr-national-foundation-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "Hangeul Day",
+      "existingId": "kr-hangeul-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave07_asia_th_kr_sg_2026.json",
+      "candidateTitle": "National Day (Singapore)",
+      "existingId": "sg-national-day",
+      "decision": "SAME_EXISTING_OBSERVANCE",
+      "reason": "Same commemorated subject, national jurisdiction and 2026 occurrence in verified catalog; retain existing ID."
+    },
+    {
+      "candidateFile": "wave05_canada_official_calendar_20261109.json",
+      "candidateTitle": "National Indigenous Languages Day",
+      "existingId": "canada-national-indigenous-peoples-day",
+      "decision": "DIFFERENT_FROM_FLAGGED_MATCH",
+      "reason": "31 March focuses on indigenous languages; the existing 21 June entry is National Indigenous Peoples Day."
+    },
+    {
+      "candidateFile": "wave05_four_official_candidates_20261109.json",
+      "candidateTitle": "International Day of Islamic Art",
+      "existingId": "international-day-of-charity",
+      "decision": "DIFFERENT_FROM_FLAGGED_MATCH",
+      "reason": "18 November cultural observance distinct from 5 September International Day of Charity."
+    },
+    {
+      "candidateFile": "wave06_japan_philippines_india_2026.json",
+      "candidateTitle": "Children's Day (Japan)",
+      "existingId": "world-children-s-day",
+      "decision": "DIFFERENT_FROM_FLAGGED_MATCH",
+      "reason": "5 May Japanese holiday distinct from UN World Children's Day on 20 November; country/authority differ."
+    }
+  ]
+}

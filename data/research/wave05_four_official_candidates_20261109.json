@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-wave05-three-remaining-candidates-2026-11-09",
+  "candidateOnly": true,
+  "baseMainSha": "9e312432b7fb46be1fc66437587d4cbe49033ad9",
+  "recordCount": 3,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "sourceReviewDate": "2026-11-09",
+  "notes": "Research only. 19/22 existing globally: 18 title matches plus antimicrobial-resistance synonym; Indigenous Women and Girls already present in tool/build_dataset.py via double-quoted fixed() call. Remaining three are candidate-only, pending full 456-ID semantic dedupe, localized review and CI.",
+  "records": [
+    {
+      "id": "world-day-of-romani-language",
+      "canonicalTitleEn": "World Day of Romani Language",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 5
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "38 C, 2015",
+      "source": "https://www.unesco.org/en/days/list",
+      "proclamationYear": 2015,
+      "localizedTitles": {
+        "en": "World Day of Romani Language",
+        "it": "Giornata mondiale della lingua romaní",
+        "es": "Día Mundial de la Lengua Romaní",
+        "fr": "Journée mondiale de la langue romani",
+        "de": "Welttag der Romani-Sprache",
+        "pt": "Dia Mundial da Língua Romani"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
+    },
+    {
+      "id": "international-day-against-illicit-trafficking-in-cultural-property",
+      "canonicalTitleEn": "International Day against Illicit Trafficking in Cultural Property",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 14
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "40 C, 2019",
+      "source": "https://www.unesco.org/en/days/against-illicit-trafficking",
+      "proclamationYear": 2019,
+      "localizedTitles": {
+        "en": "International Day against Illicit Trafficking in Cultural Property",
+        "it": "Giornata internazionale contro il traffico illecito di beni culturali",
+        "es": "Día Internacional contra el Tráfico Ilícito de Bienes Culturales",
+        "fr": "Journée internationale contre le trafic illicite de biens culturels",
+        "de": "Internationaler Tag gegen den illegalen Handel mit Kulturgut",
+        "pt": "Dia Internacional contra o Tráfico Ilícito de Bens Culturais"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
+    },
+    {
+      "id": "international-day-of-islamic-art",
+      "canonicalTitleEn": "International Day of Islamic Art",
+      "date": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 18
+      },
+      "authority": "UNESCO General Conference",
+      "officiality": "OFFICIAL_UNESCO",
+      "resolution": "40 C, 2019",
+      "source": "https://www.unesco.org/en/days/islamic-art",
+      "proclamationYear": 2019,
+      "localizedTitles": {
+        "en": "International Day of Islamic Art",
+        "it": "Giornata internazionale dell'arte islamica",
+        "es": "Día Internacional del Arte Islámico",
+        "fr": "Journée internationale de l'art islamique",
+        "de": "Internationaler Tag der islamischen Kunst",
+        "pt": "Dia Internacional da Arte Islâmica"
+      },
+      "scope": "GLOBAL",
+      "introYearStatus": "PROCLAMATION_YEAR_ONLY_NOT_RUNTIME_ADMITTED",
+      "titleReviewStatus": "DRAFT_TRANSLATIONS_NEED_NATIVE_REVIEW",
+      "runtimeAdmission": "BLOCKED_PENDING_FULL_DEDUPE_AND_CI",
+      "humanEditorialStatus": "NOT_REVIEWED",
+      "sourceReviewDate": "2026-11-09"
+    }
+  ]
+}
