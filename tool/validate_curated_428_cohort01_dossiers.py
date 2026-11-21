@@ -4,6 +4,7 @@
 This does not certify historical claims, translations, or human review.
 """
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +21,12 @@ def validate(record, path):
             problems.append(f"{path.name}: missing {field}")
     if problems:
         return problems
+    if not isinstance(record["id"], str) or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", record["id"]):
+        problems.append(f"{path.name}: invalid canonical ID")
+    if not isinstance(record["date"], str) or not re.fullmatch(r"(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])", record["date"]):
+        problems.append(f"{path.name}: date must be MM-DD")
+    if not isinstance(record["country"], str) or not re.fullmatch(r"[A-Z]{2}", record["country"]):
+        problems.append(f"{path.name}: country must be ISO alpha-2")
     if record["cohort"] != 1:
         problems.append(f"{path.name}: cohort must be 1")
     if record["runtimeRichEditorialApproved"] is not False:
@@ -34,6 +41,10 @@ def validate(record, path):
         for index, source in enumerate(record["sourceEvidence"]):
             if not isinstance(source, dict) or not str(source.get("url", "")).startswith("https://") or not str(source.get("claim", "")).strip():
                 problems.append(f"{path.name}: invalid sourceEvidence[{index}]")
+    if isinstance(record["sourceEvidence"], list):
+        urls = [source.get("url") for source in record["sourceEvidence"] if isinstance(source, dict)]
+        if len(urls) != len(set(urls)):
+            problems.append(f"{path.name}: duplicate source URLs")
     narratives = record["narratives"]
     if not isinstance(narratives, dict) or set(narratives) != set(LANGUAGES):
         problems.append(f"{path.name}: expected exactly six locale keys")
@@ -65,6 +76,8 @@ def main():
         if identity in ids:
             errors.append(f"{path.name}: duplicate canonical id {identity}")
         ids.add(identity)
+    if len(ids) > 100:
+        errors.append("cohort01: more than 100 distinct IDs")
     for error in errors:
         print("FAIL:", error)
     print(f"cohort01: {len(ids)} distinct dossier IDs, {len(errors)} structural errors; historical and linguistic review NOT certified")
