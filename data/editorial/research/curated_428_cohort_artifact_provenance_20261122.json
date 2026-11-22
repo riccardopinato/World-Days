@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "kind": "CURATED_428_COHORT_ARTIFACT_PROVENANCE",
+  "generatedAt": "2026-11-22",
+  "source": {
+    "repository": "riccardopinato/World-Days",
+    "workflowRunId": 44949303545,
+    "artifactId": 14725190786,
+    "artifactName": "world-days-curated-428-origin-cohorts",
+    "artifactDigest": "sha256:37819b79f7d75ce282c1548f7c24923a8415ac49e2d1ec9465fa2d9bff1381be",
+    "headSha": "af2d7303ff7a81435cac3e22e86cff0c76217321"
+  },
+  "cohorts": [
+    {
+      "number": 1,
+      "count": 100,
+      "uniqueIds": 100
+    },
+    {
+      "number": 2,
+      "count": 100,
+      "uniqueIds": 100
+    },
+    {
+      "number": 3,
+      "count": 100,
+      "uniqueIds": 100
+    },
+    {
+      "number": 4,
+      "count": 100,
+      "uniqueIds": 100
+    },
+    {
+      "number": 5,
+      "count": 28,
+      "uniqueIds": 28
+    }
+  ],
+  "cohort01": {
+    "firstId": "cz-cyril-methodius-day",
+    "countryCounts": {
+      "CZ": 27,
+      "SK": 26,
+      "FI": 21,
+      "IT": 21,
+      "EE": 5
+    },
+    "preparedSixLocaleDossiers": 1
+  },
+  "caveats": [
+    "Artifact is a research queue, not proof of 428 verified individual origins.",
+    "sourceIndex URLs are catalog pointers and do not by themselves substantiate each record's specific historical founding claim.",
+    "No runtime approval, source certification, or translation review is conferred by this provenance manifest.",
+    "Revalidate membership against published main catalog and exclusions before any publication."
+  ],
+  "runtimeRichEditorialApproved": false
+}
