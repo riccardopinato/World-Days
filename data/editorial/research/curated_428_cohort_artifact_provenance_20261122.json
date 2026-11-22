@@ -46,7 +46,17 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 1
+    "preparedSixLocaleDossiers": 3,
+    "preparedDossierIds": [
+      "cz-cyril-methodius-day",
+      "cz-czech-accession-to-nato-anniversary",
+      "cz-czech-accession-to-the-european-union-day"
+    ],
+    "relevanceHoldIds": [
+      "cz-czech-accession-to-nato-anniversary",
+      "cz-czech-accession-to-the-european-union-day"
+    ],
+    "integratedInMain": 0
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
