@@ -78,6 +78,24 @@ def main():
         ids.add(identity)
     if len(ids) > 100:
         errors.append("cohort01: more than 100 distinct IDs")
+    manifest_path = DIRECTORY / "curated_428_cohort_artifact_provenance_20261122.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        cohort = manifest["cohort01"]
+        recorded_ids = cohort["preparedDossierIds"]
+        hold_ids = cohort["relevanceHoldIds"]
+        if len(recorded_ids) != len(set(recorded_ids)):
+            errors.append("cohort01 manifest: duplicate prepared IDs")
+        if set(recorded_ids) != ids:
+            errors.append("cohort01 manifest: prepared IDs differ from dossier files")
+        if cohort["preparedSixLocaleDossiers"] != len(ids):
+            errors.append("cohort01 manifest: prepared count differs from dossier files")
+        if not set(hold_ids).issubset(ids):
+            errors.append("cohort01 manifest: HOLD references an absent dossier")
+        if cohort["integratedInMain"] != 0:
+            errors.append("cohort01 manifest: draft validator cannot assert main integration")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"cohort01 manifest unavailable or malformed: {exc}")
     for error in errors:
         print("FAIL:", error)
     print(f"cohort01: {len(ids)} distinct dossier IDs, {len(errors)} structural errors; historical and linguistic review NOT certified")
