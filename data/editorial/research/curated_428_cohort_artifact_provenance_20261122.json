@@ -59,13 +59,30 @@
       "cz-czech-accession-to-nato-anniversary",
       "cz-czech-accession-to-the-european-union-day"
     ],
-    "integratedInMain": 0
+    "integratedInMain": 0,
+    "artifactContentsRetrievedAt": "2026-11-24",
+    "artifactContentsVerified": true,
+    "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
+    "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
+    "nextUnpreparedId": "cz-czech-flag-day",
+    "relevanceRecheckRequiredIds": [
+      "cz-jan-amos-comenius-birthday"
+    ],
+    "artifactArchiveFiles": [
+      "index.json",
+      "cohort_01.json",
+      "cohort_02.json",
+      "cohort_03.json",
+      "cohort_04.json",
+      "cohort_05.json"
+    ]
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
     "sourceIndex URLs are catalog pointers and do not by themselves substantiate each record's specific historical founding claim.",
     "No runtime approval, source certification, or translation review is conferred by this provenance manifest.",
-    "Revalidate membership against published main catalog and exclusions before any publication."
+    "Revalidate membership against published main catalog and exclusions before any publication.",
+    "2026-11-24: Original cohort ZIP was downloaded and cohort_01.json parsed (100 unique ordered IDs); some records such as biographical birthdays must still pass product relevance filtering before any dossier work."
   ],
   "runtimeRichEditorialApproved": false
 }
