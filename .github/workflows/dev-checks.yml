@@ -46,6 +46,7 @@ jobs:
           python3 tool/test_discover_eures_institutional.py
           python3 tool/validate_eures_research_batch.py
           python3 tool/triage_bulk_institutional.py
+          python3 tool/validate_institutional_100_research.py
           python3 tool/validate_institutional_wave05.py
           python3 tool/validate_wave11_bulk_research.py
           python3 tool/validate_wave11_wikidata_300.py
