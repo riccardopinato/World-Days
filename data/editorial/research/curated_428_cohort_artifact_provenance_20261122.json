@@ -46,14 +46,13 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 18,
+    "preparedSixLocaleDossiers": 20,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
       "cz-czech-accession-to-the-european-union-day",
       "cz-czech-education-day",
       "cz-czech-families-day",
-      "cz-jan-hus-day",
       "cz-czech-flag-day",
       "cz-czech-may-uprising-day",
       "cz-czech-national-resistance-day",
@@ -64,8 +63,11 @@
       "cz-departure-of-soviet-occupation-troops-day",
       "cz-freedom-democracy-day",
       "cz-jan-amos-comenius-birthday",
+      "cz-jan-hus-day",
       "cz-jan-palach-remembrance-day",
-      "cz-lidice-destruction-victims-remembrance-day"
+      "cz-lidice-destruction-victims-remembrance-day",
+      "cz-sokol-memorial-day",
+      "cz-statehood-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -76,7 +78,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "cz-sokol-memorial-day",
+    "nextUnpreparedId": "cz-terezin-family-camp-victims-remembrance-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -86,7 +88,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Lidice dossier source-checked in six languages; establishment year unknown pending legal evidence; AI draft only."
+    "nextUnpreparedIdNote": "Czech Statehood Day 28 September: 2000 statutory holiday; six-language AI draft only, human review pending."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -101,7 +103,8 @@
     "2026-11-25: Czech Czechoslovak independence 28 October 1918 documented; Act 245/2000 statutory holiday, first observance year unknown; six-locale AI draft.",
     "2026-11-25: Czech Freedom and Democracy Day: 1939 student repression, 1989 Velvet Revolution trigger, Act 245/2000 legal designation; six-locale AI draft, no runtime approval.",
     "2026-11-25: Comenius 28 March qualifies as an expressly legislated Czech significant civic day (Act 245/2000 §4), also associated with Teachers' Day; six-locale AI draft, human review pending.",
-    "2026-11-25: Jan Palach 16 January civic remembrance introduced by Act 162/2013 effective 11 August 2013; six-locale AI draft, no runtime approval."
+    "2026-11-25: Jan Palach 16 January civic remembrance introduced by Act 162/2013 effective 11 August 2013; six-locale AI draft, no runtime approval.",
+    "2026-11-25: Czech Statehood Day 28 September verified against Act 245/2000 and Czech MFA; draft in six locales, not runtime approved."
   ],
   "runtimeRichEditorialApproved": false
 }
