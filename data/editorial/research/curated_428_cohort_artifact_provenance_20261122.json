@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 9,
+    "preparedSixLocaleDossiers": 12,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -56,7 +56,10 @@
       "cz-jan-hus-day",
       "cz-czech-flag-day",
       "cz-czech-may-uprising-day",
-      "cz-czech-national-resistance-day"
+      "cz-czech-national-resistance-day",
+      "cz-czech-samizdat-day",
+      "cz-czech-second-resistance-heroes-day",
+      "cz-czech-war-veterans-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -67,7 +70,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "cz-czech-samizdat-day",
+    "nextUnpreparedId": "cz-czechoslovak-independence-day",
     "relevanceRecheckRequiredIds": [
       "cz-jan-amos-comenius-birthday"
     ],
@@ -79,7 +82,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "First missing ID in committed ordered cohort after 9 draft dossier files; verify historical identity and relevance."
+    "nextUnpreparedIdNote": "First ID absent after 12 draft dossier files in canonical ordered cohort; must recheck published catalog and sources."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -89,7 +92,8 @@
     "2026-11-24: Original cohort ZIP was downloaded and cohort_01.json parsed (100 unique ordered IDs); some records such as biographical birthdays must still pass product relevance filtering before any dossier work.",
     "2026-11-25: Seven dossier files exist on draft branch; manifest synchronized after Czech Flag Day dossier. The next canonical ID requires cohort artifact lookup.",
     "2026-11-25: Czech May Uprising added as AI draft in six locales, legal establishment year remains unknown.",
-    "2026-11-25: Czech National Resistance Day: 27 May, Act 92/2022 effective 1 May 2022, primary legislative evidence; AI six-locale draft, no runtime approval."
+    "2026-11-25: Czech National Resistance Day: 27 May, Act 92/2022 effective 1 May 2022, primary legislative evidence; AI six-locale draft, no runtime approval.",
+    "2026-11-25: Czech War Veterans Day six-locale draft: 1918 armistice, 2001 first Czech remembrance, 2004 legal significant-day recognition; not runtime approved."
   ],
   "runtimeRichEditorialApproved": false
 }
