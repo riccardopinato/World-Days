@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 16,
+    "preparedSixLocaleDossiers": 17,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -63,7 +63,8 @@
       "cz-czechoslovak-independence-day",
       "cz-departure-of-soviet-occupation-troops-day",
       "cz-freedom-democracy-day",
-      "cz-jan-amos-comenius-birthday"
+      "cz-jan-amos-comenius-birthday",
+      "cz-jan-palach-remembrance-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -74,7 +75,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "cz-jan-palach-remembrance-day",
+    "nextUnpreparedId": "cz-lidice-destruction-victims-remembrance-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -98,7 +99,8 @@
     "2026-11-25: Czech War Veterans Day six-locale draft: 1918 armistice, 2001 first Czech remembrance, 2004 legal significant-day recognition; not runtime approved.",
     "2026-11-25: Czech Czechoslovak independence 28 October 1918 documented; Act 245/2000 statutory holiday, first observance year unknown; six-locale AI draft.",
     "2026-11-25: Czech Freedom and Democracy Day: 1939 student repression, 1989 Velvet Revolution trigger, Act 245/2000 legal designation; six-locale AI draft, no runtime approval.",
-    "2026-11-25: Comenius 28 March qualifies as an expressly legislated Czech significant civic day (Act 245/2000 §4), also associated with Teachers' Day; six-locale AI draft, human review pending."
+    "2026-11-25: Comenius 28 March qualifies as an expressly legislated Czech significant civic day (Act 245/2000 §4), also associated with Teachers' Day; six-locale AI draft, human review pending.",
+    "2026-11-25: Jan Palach 16 January civic remembrance introduced by Act 162/2013 effective 11 August 2013; six-locale AI draft, no runtime approval."
   ],
   "runtimeRichEditorialApproved": false
 }
