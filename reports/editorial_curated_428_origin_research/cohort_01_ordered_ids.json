@@ -6,7 +6,6 @@
   "sourceArtifactId": 14987069817,
   "sourceWorkflowRunId": 45537012918,
   "sourceHeadSha": "2212d5185addfe6323af0e50ddbbe37093b6bb88",
-  "artifactDigest": "sha256:945da2bd95c9e8ee67b5061fdb0e95c2415a33a9ce965f0d9b6b125403271ad3",
   "note": "Ordered IDs copied from cohort_01.json in the world-days-curated-428-origin-cohorts artifact. Identity only; not evidence of relevance, origin completion, or approval.",
   "ids": [
     "cz-cyril-methodius-day",
@@ -109,5 +108,6 @@
     "ee-finno-ugric-peoples-day",
     "ee-flag-day",
     "ee-grandparents-day"
-  ]
+  ],
+  "sourceArtifactName": "world-days-curated-428-origin-cohorts"
 }
