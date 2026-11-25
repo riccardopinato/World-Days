@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 21,
+    "preparedSixLocaleDossiers": 22,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -68,7 +68,8 @@
       "cz-lidice-destruction-victims-remembrance-day",
       "cz-sokol-memorial-day",
       "cz-statehood-day",
-      "cz-terezin-family-camp-victims-remembrance-day"
+      "cz-terezin-family-camp-victims-remembrance-day",
+      "cz-victims-of-communist-regime-remembrance-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -79,7 +80,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "cz-victims-of-communist-regime-remembrance-day",
+    "nextUnpreparedId": "cz-victory-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -89,7 +90,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Terezín family camp remembrance: 9 March, massacre night 8–9 March 1944, legal establishment year pending primary verification; six-language AI draft only."
+    "nextUnpreparedIdNote": "Czech victims of communist regime: June 27; Horáková execution 1950; Czech Academy of Sciences dates memorial day to 2004; six-language draft only."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -106,7 +107,8 @@
     "2026-11-25: Comenius 28 March qualifies as an expressly legislated Czech significant civic day (Act 245/2000 §4), also associated with Teachers' Day; six-locale AI draft, human review pending.",
     "2026-11-25: Jan Palach 16 January civic remembrance introduced by Act 162/2013 effective 11 August 2013; six-locale AI draft, no runtime approval.",
     "2026-11-25: Czech Statehood Day 28 September verified against Act 245/2000 and Czech MFA; draft in six locales, not runtime approved.",
-    "2026-11-25: Terezín family camp March 9 dossier added from IHRA and Czech Ministry of Culture; legal introduction year left null, no runtime approval."
+    "2026-11-25: Terezín family camp March 9 dossier added from IHRA and Czech Ministry of Culture; legal introduction year left null, no runtime approval.",
+    "2026-11-25: Czech victims of communist regime remembrance added in six languages; government and academic institutional sources, no runtime approval."
   ],
   "runtimeRichEditorialApproved": false
 }
