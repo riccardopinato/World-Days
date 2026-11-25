@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-czechoslovak-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-28",
+  "country": "CZ",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "1918 is the founding event, not a verified first observance year. Act 245/2000 confirms current statutory holiday status but does not establish when commemorations first began.",
+  "authority": "Czechoslovak National Committee (1918 founding); Czech Republic (modern statutory holiday)",
+  "dateReason": "28 October 1918 founding law and assumption of authority in Prague",
+  "sourceEvidence": [
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Official Czech ministry reproduction of Act 245/2000 §1 identifies 28 October as state holiday."
+    },
+    {
+      "url": "https://odpovedneobcanstvi.cz/wp-content/uploads/2020/01/V%C3%BDchova-k-ob%C4%8Danstv%C3%AD-St%C3%A1tn%C3%AD-sv%C3%A1tky.pdf",
+      "claim": "Civic education historical account identifies National Committee founding law of 28 October 1918 and its five signatories."
+    }
+  ],
+  "narratives": {
+    "en": "On 28 October, Czechia marks the establishment of independent Czechoslovakia in 1918, as the Austro-Hungarian Empire collapsed at the end of the First World War. In Prague, the Czechoslovak National Committee assumed authority and issued the new state's founding law. The Slovak political declaration at Martin followed on 30 October. Today the date is a Czech state holiday under Act No. 245/2000; the 1918 founding event and its recognition in the modern Czech holiday statute are different milestones.",
+    "it": "Il 28 ottobre la Repubblica Ceca ricorda la nascita della Cecoslovacchia indipendente nel 1918, durante il crollo dell'Impero austro-ungarico alla fine della Prima guerra mondiale. A Praga il Comitato nazionale cecoslovacco assunse il potere ed emanò la legge fondativa del nuovo Stato. La dichiarazione politica slovacca di Martin seguì il 30 ottobre. Oggi la data è festa nazionale ceca ai sensi della legge n. 245/2000: l'evento del 1918 e il suo riconoscimento nella legislazione attuale sono tappe distinte.",
+    "es": "El 28 de octubre, Chequia conmemora la creación de la Checoslovaquia independiente en 1918, durante la desintegración del Imperio austrohúngaro al final de la Primera Guerra Mundial. En Praga, el Comité Nacional Checoslovaco asumió el poder y promulgó la ley fundacional del nuevo Estado. La declaración política eslovaca de Martin llegó el 30 de octubre. Hoy la fecha es una fiesta nacional checa según la Ley 245/2000; la fundación de 1918 y su reconocimiento en la legislación moderna son hitos distintos.",
+    "fr": "Le 28 octobre, la Tchéquie commémore la naissance de la Tchécoslovaquie indépendante en 1918, lors de l'effondrement de l'Empire austro-hongrois à la fin de la Première Guerre mondiale. À Prague, le Comité national tchécoslovaque prit le pouvoir et promulgua la loi fondatrice du nouvel État. La déclaration politique slovaque de Martin suivit le 30 octobre. Cette date est aujourd'hui une fête nationale tchèque en vertu de la loi 245/2000 : l'événement de 1918 et sa reconnaissance dans la législation actuelle sont deux étapes distinctes.",
+    "de": "Am 28. Oktober erinnert Tschechien an die Gründung der unabhängigen Tschechoslowakei im Jahr 1918, als die österreichisch-ungarische Monarchie am Ende des Ersten Weltkriegs zerfiel. In Prag übernahm der Tschechoslowakische Nationalausschuss die Macht und erließ das Gründungsgesetz des neuen Staates. Die slowakische Erklärung von Martin folgte am 30. Oktober. Heute ist der Tag nach Gesetz Nr. 245/2000 ein tschechischer Staatsfeiertag; die Staatsgründung von 1918 und ihre Anerkennung im heutigen Feiertagsgesetz sind unterschiedliche Meilensteine.",
+    "pt": "A 28 de outubro, a Chéquia assinala a criação da Checoslováquia independente em 1918, durante o colapso do Império Austro-Húngaro no final da Primeira Guerra Mundial. Em Praga, o Comité Nacional Checoslovaco assumiu o poder e promulgou a lei fundadora do novo Estado. A declaração política eslovaca de Martin seguiu-se a 30 de outubro. Atualmente, a data é feriado nacional checo nos termos da Lei n.º 245/2000; a fundação de 1918 e o reconhecimento na legislação moderna são marcos distintos."
+  },
+  "runtimeRichEditorialApproved": false
+}
