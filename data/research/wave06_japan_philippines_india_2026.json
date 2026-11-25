@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "wave06-three-country-government-calendar-2026",
+  "candidateOnly": true,
+  "recordCount": 38,
+  "sourceCountryCount": 3,
+  "warning": "2026 occurrence is not a permanent recurrence rule. Lunar/equinox rules require jurisdictional calendars. Names include shared international holidays; no claim of uniqueness or 300 new additions. Must dedup all existing 456 generated records and aliases.",
+  "records": [
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Coming of Age Day",
+      "observedDate2026": {
+        "month": 1,
+        "day": 12
+      },
+      "recurrenceRuleType": "SECOND_MONDAY_JANUARY",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "National Foundation Day",
+      "observedDate2026": {
+        "month": 2,
+        "day": 11
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Emperor's Birthday",
+      "observedDate2026": {
+        "month": 2,
+        "day": 23
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Vernal Equinox Day",
+      "observedDate2026": {
+        "month": 3,
+        "day": 20
+      },
+      "recurrenceRuleType": "ASTRONOMICAL_EQUINOX",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Showa Day",
+      "observedDate2026": {
+        "month": 4,
+        "day": 29
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Constitution Memorial Day (Japan)",
+      "observedDate2026": {
+        "month": 5,
+        "day": 3
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Greenery Day",
+      "observedDate2026": {
+        "month": 5,
+        "day": 4
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Children's Day (Japan)",
+      "observedDate2026": {
+        "month": 5,
+        "day": 5
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Marine Day (Japan)",
+      "observedDate2026": {
+        "month": 7,
+        "day": 20
+      },
+      "recurrenceRuleType": "THIRD_MONDAY_JULY",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Mountain Day (Japan)",
+      "observedDate2026": {
+        "month": 8,
+        "day": 11
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Respect for the Aged Day",
+      "observedDate2026": {
+        "month": 9,
+        "day": 21
+      },
+      "recurrenceRuleType": "THIRD_MONDAY_SEPTEMBER",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Autumnal Equinox Day",
+      "observedDate2026": {
+        "month": 9,
+        "day": 23
+      },
+      "recurrenceRuleType": "ASTRONOMICAL_EQUINOX",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Sports Day (Japan)",
+      "observedDate2026": {
+        "month": 10,
+        "day": 12
+      },
+      "recurrenceRuleType": "SECOND_MONDAY_OCTOBER",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Culture Day (Japan)",
+      "observedDate2026": {
+        "month": 11,
+        "day": 3
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "JP",
+      "canonicalTitleEn": "Labor Thanksgiving Day (Japan)",
+      "observedDate2026": {
+        "month": 11,
+        "day": 23
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Araw ng Kagitingan",
+      "observedDate2026": {
+        "month": 4,
+        "day": 9
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Philippine Independence Day",
+      "observedDate2026": {
+        "month": 6,
+        "day": 12
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "National Heroes Day (Philippines)",
+      "observedDate2026": {
+        "month": 8,
+        "day": 31
+      },
+      "recurrenceRuleType": "LAST_MONDAY_AUGUST",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Bonifacio Day",
+      "observedDate2026": {
+        "month": 11,
+        "day": 30
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Rizal Day",
+      "observedDate2026": {
+        "month": 12,
+        "day": 30
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Ninoy Aquino Day",
+      "observedDate2026": {
+        "month": 8,
+        "day": 21
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "EDSA People Power Revolution Anniversary",
+      "observedDate2026": {
+        "month": 2,
+        "day": 25
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Immaculate Conception Day (Philippines)",
+      "observedDate2026": {
+        "month": 12,
+        "day": 8
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "All Souls Day (Philippines)",
+      "observedDate2026": {
+        "month": 11,
+        "day": 2
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "PH",
+      "canonicalTitleEn": "Black Saturday (Philippines)",
+      "observedDate2026": {
+        "month": 4,
+        "day": 4
+      },
+      "recurrenceRuleType": "EASTER_DEPENDENT",
+      "source": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/99678",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Republic Day (India)",
+      "observedDate2026": {
+        "month": 1,
+        "day": 26
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Holi",
+      "observedDate2026": {
+        "month": 3,
+        "day": 4
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Ram Navami",
+      "observedDate2026": {
+        "month": 3,
+        "day": 26
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Mahavir Jayanti",
+      "observedDate2026": {
+        "month": 3,
+        "day": 31
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Buddha Purnima",
+      "observedDate2026": {
+        "month": 5,
+        "day": 1
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Independence Day (India)",
+      "observedDate2026": {
+        "month": 8,
+        "day": 15
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Janmashtami",
+      "observedDate2026": {
+        "month": 9,
+        "day": 4
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Gandhi Jayanti",
+      "observedDate2026": {
+        "month": 10,
+        "day": 2
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Dussehra",
+      "observedDate2026": {
+        "month": 10,
+        "day": 20
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Diwali",
+      "observedDate2026": {
+        "month": 11,
+        "day": 8
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Guru Nanak Jayanti",
+      "observedDate2026": {
+        "month": 11,
+        "day": 24
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Guru Ravidas Jayanti",
+      "observedDate2026": {
+        "month": 2,
+        "day": 1
+      },
+      "recurrenceRuleType": "LUNISOLAR",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": true,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    },
+    {
+      "country": "IN",
+      "canonicalTitleEn": "Rabindranath Tagore Jayanti",
+      "observedDate2026": {
+        "month": 5,
+        "day": 9
+      },
+      "recurrenceRuleType": "FIXED",
+      "source": "https://cag.gov.in/en/pages/single/page-defence-new-delhi-holidaylist",
+      "scope": "NATIONAL",
+      "dateIs2026OccurrenceOnly": false,
+      "identityStatus": "PENDING_FULL_CATALOG_SEMANTIC_DEDUP",
+      "admission": "RESEARCH_ONLY",
+      "establishmentYear": null
+    }
+  ]
+}

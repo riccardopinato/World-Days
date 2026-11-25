@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "world-days-wave05-canada-south-africa-20261109",
+  "candidateOnly": true,
+  "recordCount": 18,
+  "notes": "Source register screened. Dates are canonical commemoration dates, not substituted public-holiday days. All candidate IDs and semantic uniqueness against the full 456-record catalog still pending. Easter-dependent Family Day needs a lunar recurrence implementation. No 6-locale translation or runtime admission.",
+  "records": [
+    {
+      "candidateKey": "w05-001",
+      "canonicalTitleEn": "National Ribbon Skirt Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 4
+      },
+      "source": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2022/12/bill-s-219-an-act-respecting-a-national-ribbon-skirt-day-receives-royal-assent.html",
+      "sourceTier": "FEDERAL_ACT",
+      "establishedYear": 2022,
+      "yearEvidence": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2022/12/bill-s-219-an-act-respecting-a-national-ribbon-skirt-day-receives-royal-assent.html",
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-002",
+      "canonicalTitleEn": "Raoul Wallenberg Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 17
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-003",
+      "canonicalTitleEn": "Lincoln Alexander Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 1,
+        "day": 21
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-004",
+      "canonicalTitleEn": "National Day of Observance for COVID-19",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 3,
+        "day": 11
+      },
+      "source": "https://www.canada.ca/en/public-health/news/2024/03/message-from-the-minister-of-health-on-canadas-fourth-national-day-of-observance-for-covid-19.html",
+      "sourceTier": "FEDERAL_OBSERVANCE",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-005",
+      "canonicalTitleEn": "Red Dress Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 5,
+        "day": 5
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-006",
+      "canonicalTitleEn": "Dutch Heritage Day",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 5,
+        "day": 5
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-007",
+      "canonicalTitleEn": "National Day of Remembrance for Victims of Terrorism",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 6,
+        "day": 23
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-008",
+      "canonicalTitleEn": "Day of Commemoration of the Great Upheaval",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 7,
+        "day": 28
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-009",
+      "canonicalTitleEn": "Emancipation Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 8,
+        "day": 1
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-010",
+      "canonicalTitleEn": "National Seniors Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 10,
+        "day": 1
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-011",
+      "canonicalTitleEn": "National Child Day (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 11,
+        "day": 20
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-012",
+      "canonicalTitleEn": "Anniversary of the Statute of Westminster (Canada)",
+      "country": "CA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 12,
+        "day": 11
+      },
+      "source": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html",
+      "sourceTier": "GOVERNMENT_REGISTER",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-013",
+      "canonicalTitleEn": "South Africa Freedom Day",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 4,
+        "day": 27
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "STATUTORY_HOLIDAY",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-014",
+      "canonicalTitleEn": "South Africa Youth Day",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 6,
+        "day": 16
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "STATUTORY_HOLIDAY",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-015",
+      "canonicalTitleEn": "South Africa National Women's Day",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 8,
+        "day": 9
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "STATUTORY_HOLIDAY",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-016",
+      "canonicalTitleEn": "South Africa Heritage Day",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 9,
+        "day": 24
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "STATUTORY_HOLIDAY",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-017",
+      "canonicalTitleEn": "South Africa Family Day",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "EASTER_DEPENDENT",
+        "rule": "Easter Monday",
+        "requiresCalendarEngine": true
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "EASTER_DEPENDENT",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    },
+    {
+      "candidateKey": "w05-018",
+      "canonicalTitleEn": "South Africa Day of Goodwill",
+      "country": "ZA",
+      "scope": "NATIONAL",
+      "recurrence": {
+        "kind": "FIXED_DATE",
+        "month": 12,
+        "day": 26
+      },
+      "source": "https://www.gov.za/about-sa/public-holidays",
+      "sourceTier": "STATUTORY_HOLIDAY",
+      "establishedYear": null,
+      "yearEvidence": null,
+      "semanticDedupeStatus": "NOT_CHECKED_FULL_456",
+      "runtimeAdmission": "BLOCKED_RESEARCH_ONLY"
+    }
+  ]
+}
