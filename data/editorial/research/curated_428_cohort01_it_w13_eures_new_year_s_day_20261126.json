@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "it-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "Italy celebrates New Year's Day on 1 January as a national public holiday, beginning the civil year. Families and communities gather after New Year's Eve festivities, and many people exchange wishes for health and good fortune. The modern date follows the Gregorian calendar, although marking a new year has far older roots. The government's holiday list verifies the Italian observance without identifying the first statutory designation year.",
+    "it": "Il 1° gennaio l'Italia celebra Capodanno come festività nazionale e inizio dell'anno civile. Famiglie e comunità si ritrovano dopo la sera di San Silvestro e si scambiano auguri per i mesi a venire. La data attuale segue il calendario gregoriano, mentre le celebrazioni dell'anno nuovo hanno origini più antiche. L'elenco governativo conferma la festività senza indicare l'anno della sua prima istituzione normativa.",
+    "es": "El 1 de enero Italia celebra Año Nuevo como festivo nacional y comienzo del año civil. Familias y comunidades se reúnen después de Nochevieja y comparten deseos para los próximos meses. La fecha moderna sigue el calendario gregoriano, aunque festejar el cambio de año tiene raíces anteriores. La lista gubernamental confirma el festivo sin indicar el primer año de reconocimiento legal.",
+    "fr": "Le 1er janvier, l'Italie célèbre le Nouvel An, jour férié national marquant le début de l'année civile. Familles et communautés se retrouvent après le réveillon et échangent leurs meilleurs vœux. La date moderne suit le calendrier grégorien, tandis que les fêtes du changement d'année ont des origines bien plus anciennes. La liste gouvernementale confirme le jour férié sans préciser son année de création juridique.",
+    "de": "Am 1. Januar feiert Italien Neujahr als staatlichen Feiertag und Beginn des bürgerlichen Jahres. Familien und Gemeinschaften kommen nach Silvester zusammen und tauschen gute Wünsche aus. Das moderne Datum folgt dem gregorianischen Kalender, während Neujahrsfeiern viel ältere Wurzeln haben. Die amtliche Feiertagsliste bestätigt den Tag ohne Angabe seines ersten gesetzlichen Einführungsjahres.",
+    "pt": "Em 1 de janeiro, a Itália celebra o Ano Novo como feriado nacional e início do ano civil. Famílias e comunidades reúnem-se após a passagem de ano e trocam votos para os meses seguintes. A data moderna segue o calendário gregoriano, embora as celebrações de mudança de ano sejam muito mais antigas. A lista governamental confirma o feriado sem indicar o primeiro ano de instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}
