@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 22,
+    "preparedSixLocaleDossiers": 27,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -69,7 +69,12 @@
       "cz-sokol-memorial-day",
       "cz-statehood-day",
       "cz-terezin-family-camp-victims-remembrance-day",
-      "cz-victims-of-communist-regime-remembrance-day"
+      "cz-victims-of-communist-regime-remembrance-day",
+      "cz-victory-day",
+      "cz-w13-eures-christmas-day",
+      "cz-w13-eures-christmas-eve",
+      "cz-w13-eures-st-stephen-s-day",
+      "cz-warsaw-pact-invasion-remembrance-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -80,7 +85,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "cz-victory-day",
+    "nextUnpreparedId": "sk-constitution-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -90,7 +95,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Czech victims of communist regime: June 27; Horáková execution 1950; Czech Academy of Sciences dates memorial day to 2004; six-language draft only."
+    "nextUnpreparedIdNote": "Next cohort ID after the 27 Czech entries; validate source and product relevance before drafting."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -108,7 +113,8 @@
     "2026-11-25: Jan Palach 16 January civic remembrance introduced by Act 162/2013 effective 11 August 2013; six-locale AI draft, no runtime approval.",
     "2026-11-25: Czech Statehood Day 28 September verified against Act 245/2000 and Czech MFA; draft in six locales, not runtime approved.",
     "2026-11-25: Terezín family camp March 9 dossier added from IHRA and Czech Ministry of Culture; legal introduction year left null, no runtime approval.",
-    "2026-11-25: Czech victims of communist regime remembrance added in six languages; government and academic institutional sources, no runtime approval."
+    "2026-11-25: Czech victims of communist regime remembrance added in six languages; government and academic institutional sources, no runtime approval.",
+    "2026-11-26: Czech 21 August invasion remembrance draft in six locales; legal designation 2019, historic event 1968, no runtime approval."
   ],
   "runtimeRichEditorialApproved": false
 }
