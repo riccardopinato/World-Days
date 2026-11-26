@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Finnish Ministry for Foreign Affairs / official Finnish traditions",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/life-society/new-year-begins-boisterously-in-finland/",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "New Year's Day on 1 January begins the Finnish civil calendar and is a public holiday. After gatherings and fireworks on New Year's Eve, many people spend the day with family, rest and consider plans for the months ahead. The date comes from the modern Gregorian calendar; the origin of Finland's statutory holiday treatment is separate from the ancient history of New Year celebrations.",
+    "it": "Il 1° gennaio in Finlandia inizia l'anno civile ed è un giorno festivo. Dopo incontri e fuochi d'artificio della sera precedente, molte persone si riposano in famiglia e pensano ai mesi futuri. La data segue il moderno calendario gregoriano; l'origine del suo riconoscimento festivo in Finlandia è distinta dalla storia antica delle celebrazioni di Capodanno.",
+    "es": "El 1 de enero comienza el año civil en Finlandia y es festivo. Tras las reuniones y los fuegos artificiales de Nochevieja, muchas personas descansan en familia y piensan en sus proyectos. La fecha corresponde al calendario gregoriano moderno; el origen de su reconocimiento legal como festivo es distinto de la antigua historia de las celebraciones de Año Nuevo.",
+    "fr": "Le 1er janvier marque le début de l'année civile en Finlande et constitue un jour férié. Après les réunions et les feux d'artifice du réveillon, beaucoup se reposent en famille et envisagent les mois à venir. La date appartient au calendrier grégorien moderne ; son statut légal de jour férié en Finlande est distinct de la longue histoire des fêtes du Nouvel An.",
+    "de": "Am 1. Januar beginnt in Finnland das bürgerliche Jahr; der Tag ist ein Feiertag. Nach Treffen und Feuerwerk an Silvester verbringen viele Menschen Zeit mit der Familie, ruhen sich aus und planen das neue Jahr. Das Datum folgt dem gregorianischen Kalender; die gesetzliche Feiertagsregelung in Finnland ist von der alten Geschichte der Neujahrsfeste zu unterscheiden.",
+    "pt": "Em 1 de janeiro começa o ano civil na Finlândia e é feriado. Depois dos encontros e fogos de artifício da passagem de ano, muitas pessoas descansam com a família e planeiam os meses seguintes. A data pertence ao calendário gregoriano moderno; o estatuto legal de feriado na Finlândia é distinto da longa história das celebrações de Ano Novo."
+  },
+  "runtimeRichEditorialApproved": false
+}
