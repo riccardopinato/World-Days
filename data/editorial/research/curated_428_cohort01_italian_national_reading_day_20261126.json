@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-reading-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-24",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government protocol office lists 24 March as the National Day for the Promotion of Reading."
+    }
+  ],
+  "narratives": {
+    "en": "Italy observes 24 March as the National Day for the Promotion of Reading. The day encourages schools, libraries, families and communities to make books and reading more accessible. Reading supports learning, cultural participation and the exchange of ideas across generations. The official state calendar explicitly lists 24 March as its date. The introductory year is kept unknown here because the calendar alone does not establish when the initiative began.",
+    "it": "Il 24 marzo l'Italia celebra la Giornata nazionale per la promozione della lettura. Scuole, biblioteche, famiglie e comunità sono invitate a rendere libri e lettura più accessibili. Leggere favorisce apprendimento, partecipazione culturale e scambio di idee tra generazioni. Il calendario dello Stato indica esplicitamente il 24 marzo. L'anno di istituzione resta sconosciuto, perché il solo elenco ufficiale non documenta l'origine.",
+    "es": "El 24 de marzo Italia celebra el Día Nacional de Promoción de la Lectura. Escuelas, bibliotecas, familias y comunidades buscan facilitar el acceso a libros y actividades lectoras. Leer favorece el aprendizaje, la participación cultural y el intercambio de ideas entre generaciones. El calendario estatal confirma expresamente la fecha. El año de creación queda sin determinar porque el listado oficial no documenta por sí solo el origen.",
+    "fr": "Le 24 mars, l'Italie célèbre la Journée nationale de promotion de la lecture. Écoles, bibliothèques, familles et collectivités cherchent à rendre les livres plus accessibles. La lecture favorise l'apprentissage, la participation culturelle et le partage d'idées entre générations. Le calendrier officiel de l'État confirme le 24 mars. L'année de création reste indéterminée, car cette liste ne documente pas l'origine de l'initiative.",
+    "de": "Am 24. März begeht Italien den Nationalen Tag zur Förderung des Lesens. Schulen, Bibliotheken, Familien und Gemeinden sollen Bücher und Lesemöglichkeiten leichter zugänglich machen. Lesen unterstützt Lernen, kulturelle Teilhabe und den Austausch zwischen Generationen. Der staatliche Kalender nennt ausdrücklich den 24. März. Das Einführungsjahr bleibt offen, da die amtliche Liste die Entstehung nicht belegt.",
+    "pt": "Em 24 de março, a Itália celebra o Dia Nacional de Promoção da Leitura. Escolas, bibliotecas, famílias e comunidades procuram tornar livros e leitura mais acessíveis. Ler favorece a aprendizagem, a participação cultural e a partilha de ideias entre gerações. O calendário oficial confirma expressamente a data. O ano de criação permanece desconhecido, pois a lista não documenta a origem da iniciativa."
+  },
+  "runtimeRichEditorialApproved": false
+}
