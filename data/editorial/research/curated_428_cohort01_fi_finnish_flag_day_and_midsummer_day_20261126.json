@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-finnish-flag-day-and-midsummer-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "weekday_on_or_after",
+    "month": 6,
+    "day": 20,
+    "weekday": "saturday"
+  },
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Finnish Ministry for Foreign Affairs",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/life-society/enjoying-midsummer-the-finnish-way/",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Finland celebrates Midsummer, also its national Flag Day, on the Saturday between 20 and 26 June. Rooted in pre-Christian seasonal festivities, the occasion now brings bonfires, summer cottages and long northern evenings. Many families begin their holidays then. The Saturday date moves annually, so treating it as 20 June every year would be inaccurate.",
+    "it": "La Finlandia celebra il solstizio d'estate, anche Giornata della bandiera, il sabato tra il 20 e il 26 giugno. La ricorrenza nasce da tradizioni stagionali anteriori al cristianesimo e oggi comprende falò, case di vacanza e lunghe serate nordiche. Molte famiglie iniziano allora le ferie. Il sabato cambia ogni anno e non coincide sempre con il 20 giugno.",
+    "es": "Finlandia celebra el solsticio de verano, también Día de la Bandera, el sábado comprendido entre el 20 y el 26 de junio. La fiesta procede de tradiciones estacionales anteriores al cristianismo y hoy reúne hogueras, casas de verano y largas tardes nórdicas. Muchas familias comienzan sus vacaciones. El sábado cambia cada año: no siempre es el 20 de junio.",
+    "fr": "La Finlande célèbre la Saint-Jean d'été, également Journée du drapeau, le samedi situé entre le 20 et le 26 juin. Issue de traditions saisonnières préchrétiennes, la fête réunit aujourd'hui feux de joie, maisons de vacances et longues soirées nordiques. Beaucoup de familles commencent alors leurs congés. Le samedi change chaque année et ne tombe pas toujours le 20 juin.",
+    "de": "Finnland feiert Mittsommer und zugleich den Tag der Nationalflagge am Samstag zwischen dem 20. und 26. Juni. Aus vorchristlichen jahreszeitlichen Bräuchen entstanden, gehören heute Freudenfeuer, Sommerhäuser und lange nordische Abende dazu. Viele Familien beginnen dann ihren Urlaub. Der Samstag wechselt jährlich und fällt nicht immer auf den 20. Juni.",
+    "pt": "A Finlândia celebra o solstício de verão, também Dia da Bandeira, no sábado entre 20 e 26 de junho. Com origens em tradições sazonais pré-cristãs, a festa inclui hoje fogueiras, casas de férias e longas noites nórdicas. Muitas famílias começam então as férias. O sábado muda todos os anos e nem sempre corresponde a 20 de junho."
+  },
+  "runtimeRichEditorialApproved": false
+}
