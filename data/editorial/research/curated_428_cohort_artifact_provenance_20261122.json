@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 41,
+    "preparedSixLocaleDossiers": 47,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -88,7 +88,13 @@
       "sk-ludovit-stur-birthday",
       "sk-matica-slovenska-day",
       "sk-milan-rastislav-stefanik-death-anniversary",
-      "sk-mining-disaster-victims-remembrance-day"
+      "sk-mining-disaster-victims-remembrance-day",
+      "sk-national-uprising-day",
+      "sk-reformation-day",
+      "sk-samizdat-day",
+      "sk-slovak-nation-declaration-anniversary",
+      "sk-slovak-nation-memorandum-anniversary",
+      "sk-slovak-national-council-establishment-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -99,7 +105,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-national-uprising-day",
+    "nextUnpreparedId": "sk-slovak-sovereignty-declaration-anniversary",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -137,7 +143,8 @@
     "2026-11-26: Reconciled two existing Slovak six-locale dossier files against the branch manifest; dossier count 36, no new historical verification or human approval claimed.",
     "2026-11-26: Slovak independent ecclesiastical province memorial (30 December) documented from Act 241/1993, historical 1977 event distinguished from 1993 legal recognition; six-locale AI draft, no runtime approval.",
     "2026-11-26: Reconciled Štúr civic memorial and added Matica slovenská 4 August, founding 1863, memorial in original Act 241/1993; six-locale AI draft, no runtime approval.",
-    "2026-11-26: Slovak mining-disaster victims memorial, 10 August: 2009 Handlová explosion, parliament approval 2010, legal effect and first official observance 2011; six-locale AI draft, no runtime approval."
+    "2026-11-26: Slovak mining-disaster victims memorial, 10 August: 2009 Handlová explosion, parliament approval 2010, legal effect and first official observance 2011; six-locale AI draft, no runtime approval.",
+    "2026-11-26: Synced 3 Slovak dossiers previously present but not recorded (National Uprising, Reformation, Samizdat), plus 3 newly sourced six-locale dossiers for the Martin Declaration, 1861 Memorandum and establishment of the first Slovak National Council. Research drafts only; no runtime changes, human certification, or release."
   ],
   "runtimeRichEditorialApproved": false
 }
