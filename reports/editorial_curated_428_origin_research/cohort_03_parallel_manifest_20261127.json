@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "AI_DRAFT_RESEARCH_QUEUE_NOT_RUNTIME_PUBLISHED",
+  "cohort": 3,
+  "totalCanonicalIds": 100,
+  "sourceArtifactId": 14987069817,
+  "sourceArtifactName": "world-days-curated-428-origin-cohorts",
+  "sourceArtifactDigest": "sha256:37819b79f7d75ce282c1548f7c24923a8415ac49e2d1ec9465fa2d9bff1381be",
+  "originalSourceHeadSha": "af2d7303ff7a81435cac3e22e86cff0c76217321",
+  "baseMainSha": "6820b1d1ff1bf8268c41e2b43f124c952a9ecb42",
+  "preparedDossierIds": [
+    "no-liberation-day",
+    "independence-day-us",
+    "za-freedom-day"
+  ],
+  "preparedSixLocaleDossiers": 3,
+  "remainingResearchIds": 97,
+  "review": "PENDING",
+  "humanCertified": 0,
+  "runtimeIntegrated": 0,
+  "translationLocales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion."
+}
