@@ -23,8 +23,29 @@ def validate(record, path):
         return problems
     if not isinstance(record["id"], str) or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", record["id"]):
         problems.append(f"{path.name}: invalid canonical ID")
-    if not isinstance(record["date"], str) or not re.fullmatch(r"(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])", record["date"]):
-        problems.append(f"{path.name}: date must be MM-DD")
+    fixed = isinstance(record["date"], str) and bool(re.fullmatch(r"(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])", record["date"]))
+    rule = record.get("dateRule")
+    if fixed:
+        if rule is not None:
+            problems.append(f"{path.name}: fixed date must not also specify dateRule")
+    elif record["date"] is None and isinstance(rule, dict):
+        kind = rule.get("kind")
+        month = rule.get("month")
+        weekday = rule.get("weekday")
+        if kind not in ("nth_weekday", "last_weekday", "weekday_on_or_after"):
+            problems.append(f"{path.name}: unsupported moving-date rule")
+        if not isinstance(month, int) or not 1 <= month <= 12:
+            problems.append(f"{path.name}: invalid dateRule month")
+        if weekday not in ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"):
+            problems.append(f"{path.name}: invalid dateRule weekday")
+        if kind == "nth_weekday" and (not isinstance(rule.get("nth"), int) or not 1 <= rule["nth"] <= 4):
+            problems.append(f"{path.name}: invalid nth weekday")
+        if kind == "weekday_on_or_after" and (not isinstance(rule.get("day"), int) or not 1 <= rule["day"] <= 28):
+            problems.append(f"{path.name}: invalid weekday_on_or_after anchor")
+        if not str(record.get("dateReason", "")).strip():
+            problems.append(f"{path.name}: moving date requires dateReason")
+    else:
+        problems.append(f"{path.name}: expected MM-DD fixed date or null with validated moving dateRule")
     if not isinstance(record["country"], str) or not re.fullmatch(r"[A-Z]{2}", record["country"]):
         problems.append(f"{path.name}: country must be ISO alpha-2")
     if record["cohort"] != 1:
