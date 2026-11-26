@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 34,
+    "preparedSixLocaleDossiers": 36,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -81,7 +81,9 @@
       "sk-day-against-hate-speech-targeting-children",
       "sk-day-of-slovaks-living-abroad",
       "sk-day-of-the-struggle-for-human-rights",
-      "sk-day-of-the-unjustly-prosecuted"
+      "sk-day-of-the-unjustly-prosecuted",
+      "sk-freedom-democracy-day",
+      "sk-holocaust-and-racial-violence-victims-memorial-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -92,7 +94,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-freedom-democracy-day",
+    "nextUnpreparedId": "sk-independent-slovak-ecclesiastical-province-proclamation-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -126,7 +128,8 @@
     "2026-11-26: Slovakia COVID-19 victims memorial six-locale AI draft; 2022 amendment effective 2023, 6 March recalls first case in 2020; source law and bereaved families' association; no runtime approval.",
     "2026-11-26: Slovak Cyril and Methodius Day: 5 July state holiday under Act 241/1993; statutory year not historical origin; six-locale AI draft, review pending.",
     "2026-11-26: Slovaks living abroad memorial day, 5 July, recognized by Act 241/1993; Slovak diaspora office and MFA sources; six-locale AI draft, review pending.",
-    "2026-11-26: Slovak 25 March human rights struggle memorial documented from Acts 88/1993 and 241/1993; 1988 candlelight demonstration, six-locale AI draft, human review pending."
+    "2026-11-26: Slovak 25 March human rights struggle memorial documented from Acts 88/1993 and 241/1993; 1988 candlelight demonstration, six-locale AI draft, human review pending.",
+    "2026-11-26: Reconciled two existing Slovak six-locale dossier files against the branch manifest; dossier count 36, no new historical verification or human approval claimed."
   ],
   "runtimeRichEditorialApproved": false
 }
