@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-braille-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-21",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government protocol office lists 21 February as National Braille Day."
+    }
+  ],
+  "narratives": {
+    "en": "On 21 February Italy celebrates National Braille Day, promoting literacy and accessible information for blind people. Braille's raised-dot writing system allows readers to learn independently, access literature and study through touch. Schools, libraries and disability organizations use the occasion to promote accessible formats. The national ceremonial calendar confirms the Italian date, while the original legal introduction year needs separate documentary verification.",
+    "it": "Il 21 febbraio l'Italia celebra la Giornata nazionale del Braille, dedicata all'alfabetizzazione e all'accesso alle informazioni per le persone cieche. La scrittura a punti in rilievo permette di leggere, studiare e accedere alla letteratura attraverso il tatto. Scuole, biblioteche e associazioni valorizzano i formati accessibili. Il calendario nazionale conferma il giorno, ma l'anno di istituzione legale richiede un riscontro documentale separato.",
+    "es": "El 21 de febrero Italia celebra el Día Nacional del Braille, dedicado a la alfabetización y el acceso a la información para personas ciegas. Este sistema de puntos en relieve permite leer, estudiar y acceder a libros mediante el tacto. Escuelas, bibliotecas y asociaciones promueven los formatos accesibles. El calendario nacional confirma la fecha, mientras que el año de establecimiento legal necesita otra comprobación documental.",
+    "fr": "Le 21 février, l'Italie célèbre la Journée nationale du braille, consacrée à l'alphabétisation et à l'accès à l'information des personnes aveugles. Ce système de points en relief permet de lire, d'étudier et de découvrir des livres par le toucher. Écoles, bibliothèques et associations promeuvent les formats accessibles. Le calendrier officiel confirme la date, mais l'année de création légale demande une vérification complémentaire.",
+    "de": "Am 21. Februar begeht Italien den Nationalen Brailletag und fördert Lesen und Informationszugang für blinde Menschen. Das Punktschriftsystem ermöglicht es, durch Tasten selbstständig zu lernen, zu lesen und Literatur zu entdecken. Schulen, Bibliotheken und Verbände machen auf barrierefreie Formate aufmerksam. Der nationale Kalender bestätigt das Datum; das gesetzliche Einführungsjahr benötigt einen eigenen Beleg.",
+    "pt": "Em 21 de fevereiro, a Itália celebra o Dia Nacional do Braille, dedicado à literacia e ao acesso à informação para pessoas cegas. O sistema de pontos em relevo permite ler, estudar e conhecer livros pelo tato. Escolas, bibliotecas e associações promovem formatos acessíveis. O calendário nacional confirma a data, mas o ano de instituição legal exige confirmação documental separada."
+  },
+  "runtimeRichEditorialApproved": false
+}
