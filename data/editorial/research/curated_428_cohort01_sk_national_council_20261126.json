@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-slovak-national-council-establishment-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-19",
+  "country": "SK",
+  "documentedIntroductionYear": 1991,
+  "yearMeaning": "The first Slovak National Council dates to 19 September 1848; Act 422/1991 first explicitly designated 19 September a memorial day, later superseded by Act 241/1993. The law's year is not the first historical commemoration.",
+  "authority": "Slovak National Council; subsequently National Council of the Slovak Republic",
+  "dateReason": "19 September is the date the first Slovak National Council was declared at Myjava in 1848.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.nrsr.sk/dl/Browser/DsDocumentVariant?documentVariantId=2551&ext=pdf&fileName=rozne_01.pdf",
+      "claim": "Primary 1991 Slovak National Council legislative document declares 19 September a national memorial day for establishment of the Council."
+    },
+    {
+      "url": "https://www.prezident.sk/en/short-history/",
+      "claim": "The President's official history places establishment of the first Slovak National Council at Myjava on 19 September 1848."
+    },
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/241/20261029.print.html",
+      "claim": "Act 241/1993 §3 maintains 19 September as the Day of the Establishment of the Slovak National Council and repeals Act 422/1991."
+    }
+  ],
+  "narratives": {
+    "en": "Every 19 September, Slovakia remembers the establishment of its first Slovak National Council. During the revolutions of 1848, Slovak leaders proclaimed the Council at Myjava as a political body representing their movement for national rights. Jozef Miloslav Hurban, Ľudovít Štúr and Michal Miloslav Hodža were among its leading figures. In 1991, the Slovak National Council formally designated the date a memorial day; Act 241/1993 later retained it. The commemoration recalls the origins of Slovak political representation, not the founding of today's parliament in 1993.",
+    "it": "Ogni 19 settembre la Slovacchia ricorda la nascita del primo Consiglio nazionale slovacco. Durante le rivoluzioni del 1848, i dirigenti slovacchi proclamarono a Myjava un organismo politico rappresentativo del movimento per i diritti nazionali. Fra i protagonisti figuravano Jozef Miloslav Hurban, Ľudovít Štúr e Michal Miloslav Hodža. Nel 1991 il Consiglio nazionale slovacco riconobbe formalmente la data come giornata commemorativa, mantenuta poi dalla legge 241/1993. Si ricordano le origini della rappresentanza politica slovacca, non la nascita del parlamento odierno nel 1993.",
+    "es": "Cada 19 de septiembre, Eslovaquia recuerda la creación de su primer Consejo Nacional Eslovaco. Durante las revoluciones de 1848, dirigentes eslovacos proclamaron en Myjava un órgano político representativo de su movimiento por los derechos nacionales. Entre sus líderes figuraban Jozef Miloslav Hurban, Ľudovít Štúr y Michal Miloslav Hodža. En 1991, el Consejo Nacional Eslovaco declaró formalmente la fecha día conmemorativo; la Ley 241/1993 la mantuvo. Se recuerdan los orígenes de la representación política eslovaca, no la creación del parlamento actual en 1993.",
+    "fr": "Chaque 19 septembre, la Slovaquie commémore la création de son premier Conseil national slovaque. Pendant les révolutions de 1848, des dirigeants slovaques proclamèrent à Myjava un organe politique représentant leur mouvement pour les droits nationaux. Jozef Miloslav Hurban, Ľudovít Štúr et Michal Miloslav Hodža figuraient parmi ses dirigeants. En 1991, le Conseil national slovaque institua officiellement cette date comme journée commémorative ; la loi 241/1993 l'a maintenue. Il s'agit des origines de la représentation politique slovaque, non de la création du parlement actuel en 1993.",
+    "de": "Am 19. September erinnert die Slowakei an die Gründung ihres ersten Slowakischen Nationalrats. Während der Revolutionen von 1848 riefen slowakische Politiker in Myjava ein politisches Organ als Vertretung ihrer Bewegung für nationale Rechte aus. Zu den führenden Persönlichkeiten gehörten Jozef Miloslav Hurban, Ľudovít Štúr und Michal Miloslav Hodža. 1991 erklärte der Slowakische Nationalrat den Tag offiziell zum Gedenktag; Gesetz 241/1993 behielt ihn bei. Er erinnert an den Beginn slowakischer politischer Vertretung, nicht an die Gründung des heutigen Parlaments im Jahr 1993.",
+    "pt": "Em 19 de setembro, a Eslováquia recorda a criação do primeiro Conselho Nacional Eslovaco. Durante as revoluções de 1848, dirigentes eslovacos proclamaram em Myjava um órgão político representativo do movimento pelos direitos nacionais. Entre os seus líderes estavam Jozef Miloslav Hurban, Ľudovít Štúr e Michal Miloslav Hodža. Em 1991, o Conselho Nacional Eslovaco declarou formalmente a data como dia comemorativo; a Lei 241/1993 manteve-a. A celebração recorda as origens da representação política eslovaca, não a criação do parlamento atual em 1993."
+  },
+  "runtimeRichEditorialApproved": false
+}
