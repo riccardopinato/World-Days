@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 47,
+    "preparedSixLocaleDossiers": 52,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -94,7 +94,12 @@
       "sk-samizdat-day",
       "sk-slovak-nation-declaration-anniversary",
       "sk-slovak-nation-memorandum-anniversary",
-      "sk-slovak-national-council-establishment-day"
+      "sk-slovak-national-council-establishment-day",
+      "sk-slovak-sovereignty-declaration-anniversary",
+      "sk-slovak-state-establishment-day",
+      "sk-slovakia-s-accession-to-the-european-union-day",
+      "sk-soviet-occupation-troops-departure-day",
+      "sk-victims-of-the-1968-czechoslovakia-occupation-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -105,7 +110,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-slovak-sovereignty-declaration-anniversary",
+    "nextUnpreparedId": "sk-victims-of-the-communist-regime-memorial-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -144,7 +149,8 @@
     "2026-11-26: Slovak independent ecclesiastical province memorial (30 December) documented from Act 241/1993, historical 1977 event distinguished from 1993 legal recognition; six-locale AI draft, no runtime approval.",
     "2026-11-26: Reconciled Štúr civic memorial and added Matica slovenská 4 August, founding 1863, memorial in original Act 241/1993; six-locale AI draft, no runtime approval.",
     "2026-11-26: Slovak mining-disaster victims memorial, 10 August: 2009 Handlová explosion, parliament approval 2010, legal effect and first official observance 2011; six-locale AI draft, no runtime approval.",
-    "2026-11-26: Synced 3 Slovak dossiers previously present but not recorded (National Uprising, Reformation, Samizdat), plus 3 newly sourced six-locale dossiers for the Martin Declaration, 1861 Memorandum and establishment of the first Slovak National Council. Research drafts only; no runtime changes, human certification, or release."
+    "2026-11-26: Synced 3 Slovak dossiers previously present but not recorded (National Uprising, Reformation, Samizdat), plus 3 newly sourced six-locale dossiers for the Martin Declaration, 1861 Memorandum and establishment of the first Slovak National Council. Research drafts only; no runtime changes, human certification, or release.",
+    "2026-11-26: Added five separate six-language research drafts for Slovakia's 1992 sovereignty declaration, 1993 statehood, 2004 EU accession, 1991 Soviet force departure, and 1968 occupation victims. Official law/EU sources are recorded; no runtime approval or human certification."
   ],
   "runtimeRichEditorialApproved": false
 }
