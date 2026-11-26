@@ -93,7 +93,8 @@ def main():
                 continue
             if entry.get("id") not in allowed:
                 continue
-            expected_country = entry["id"].split("-", 1)[0].upper()
+            prefix = entry["id"].split("-", 1)[0]
+            expected_country = {"italian": "IT", "italys": "IT"}.get(prefix, prefix.upper())
             if entry.get("country") != expected_country:
                 errors.append(f"{path.name}: country does not match canonical ID")
     except (OSError, ValueError, KeyError, TypeError) as exc:
