@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 88,
+    "preparedSixLocaleDossiers": 100,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -107,7 +107,10 @@
       "fi-equality-minna-canth-day",
       "fi-evacuees-day-in-finland",
       "fi-finnish-architecture-design-day",
+      "fi-finnish-flag-day-and-midsummer-day",
       "fi-finnish-language-day",
+      "fi-finnish-nature-day",
+      "fi-finnish-remembrance-day",
       "fi-kalevala-day",
       "fi-runeberg-day",
       "fi-sami-national-day-observed-in-finland",
@@ -123,19 +126,28 @@
       "it-w13-eures-new-year-s-day",
       "italian-awareness-day-vegetative-states",
       "italian-day-against-child-abuse",
+      "italian-folk-music-day",
       "italian-freedom-berlin-wall-day",
       "italian-liberation-anniversary",
       "italian-national-braille-day",
+      "italian-national-cancer-patients-day",
+      "italian-national-epilepsy-day",
       "italian-national-flag-day",
+      "italian-national-innovation-day",
+      "italian-national-pain-relief-day",
       "italian-national-reading-day",
+      "italian-national-sports-day",
       "italian-peace-fraternity-dialogue-day",
       "italian-spinal-cord-injury-day",
       "italian-terrorism-victims-remembrance",
+      "italian-work-accident-victims-day",
       "italian-workers-abroad-remembrance",
       "italys-day-of-remembrance",
       "ee-day-of-mourning",
       "ee-estonian-literature-day",
-      "ee-flag-day"
+      "ee-finno-ugric-peoples-day",
+      "ee-flag-day",
+      "ee-grandparents-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -146,7 +158,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "fi-finnish-flag-day-and-midsummer-day",
+    "nextUnpreparedId": null,
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -191,7 +203,8 @@
     "2026-11-26: Added three Finnish source-backed six-locale drafts for Sámi National Day, Finnish Art Day and National Veterans Day. No runtime promotion; no human review claimed.",
     "2026-11-26: Finnish Evacuee Flag Day added in six locales; Karjalan Liitto initiated annual observance in 2025, Interior Ministry recommended flags for 2026. Research draft only; not a statutory holiday or runtime-approved.",
     "2026-11-26: Added 15 source-attributed six-locale research dossiers in parallel (Finland 1, Italy 11, Estonia 3). Fixed dates verified in official ceremonial/statutory calendars; legal founding years remain unknown unless separately evidenced. Research only; six-language translation and human fact-check certification PENDING.",
-    "2026-11-26: Added six distinct six-locale fixed-date drafts for FI/IT New Year and Epiphany, Finland May Day and Italy Peace/Fraternity/Dialogue. Movable-date entries deliberately excluded from fixed MM-DD drafts."
+    "2026-11-26: Added six distinct six-locale fixed-date drafts for FI/IT New Year and Epiphany, Finland May Day and Italy Peace/Fraternity/Dialogue. Movable-date entries deliberately excluded from fixed MM-DD drafts.",
+    "2026-11-26: Added all 12 remaining moving-date research dossier drafts (FI 3, IT 7, EE 2) with explicit weekday recurrence rules and six original locale texts. Validator supports moving rules; this is a research-only schema, not automatic runtime date integration or approval. No human certification claimed."
   ],
   "runtimeRichEditorialApproved": false
 }
