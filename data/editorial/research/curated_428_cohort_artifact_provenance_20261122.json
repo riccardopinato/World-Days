@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 32,
+    "preparedSixLocaleDossiers": 33,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -79,7 +79,8 @@
       "sk-covid-19-pandemic-victims-remembrance-day",
       "sk-cyril-methodius-day",
       "sk-day-against-hate-speech-targeting-children",
-      "sk-day-of-slovaks-living-abroad"
+      "sk-day-of-slovaks-living-abroad",
+      "sk-day-of-the-struggle-for-human-rights"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -90,7 +91,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-day-of-the-struggle-for-human-rights",
+    "nextUnpreparedId": "sk-day-of-the-unjustly-prosecuted",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -100,7 +101,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Verify Slovak memorial statute and historical origin before drafting."
+    "nextUnpreparedIdNote": "Verify Slovak 13 April memorial and the 1950 monastery raids with primary sources."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -123,7 +124,8 @@
     "2026-11-26: Slovak Constitution Day six-locale AI draft: constitution adopted 1992, state holiday law 241/1993, currently not a day off work; no runtime approval.",
     "2026-11-26: Slovakia COVID-19 victims memorial six-locale AI draft; 2022 amendment effective 2023, 6 March recalls first case in 2020; source law and bereaved families' association; no runtime approval.",
     "2026-11-26: Slovak Cyril and Methodius Day: 5 July state holiday under Act 241/1993; statutory year not historical origin; six-locale AI draft, review pending.",
-    "2026-11-26: Slovaks living abroad memorial day, 5 July, recognized by Act 241/1993; Slovak diaspora office and MFA sources; six-locale AI draft, review pending."
+    "2026-11-26: Slovaks living abroad memorial day, 5 July, recognized by Act 241/1993; Slovak diaspora office and MFA sources; six-locale AI draft, review pending.",
+    "2026-11-26: Slovak 25 March human rights struggle memorial documented from Acts 88/1993 and 241/1993; 1988 candlelight demonstration, six-locale AI draft, human review pending."
   ],
   "runtimeRichEditorialApproved": false
 }
