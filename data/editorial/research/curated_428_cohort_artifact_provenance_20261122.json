@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 82,
+    "preparedSixLocaleDossiers": 88,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -115,7 +115,12 @@
       "fi-snellman-heritage-day",
       "fi-swedish-heritage-day",
       "fi-tove-jansson-and-finnish-art-day",
+      "fi-w13-eures-epiphany",
+      "fi-w13-eures-may-day",
+      "fi-w13-eures-new-year-s-day",
       "fi-war-veterans-day",
+      "it-w13-eures-epiphany",
+      "it-w13-eures-new-year-s-day",
       "italian-awareness-day-vegetative-states",
       "italian-day-against-child-abuse",
       "italian-freedom-berlin-wall-day",
@@ -123,6 +128,7 @@
       "italian-national-braille-day",
       "italian-national-flag-day",
       "italian-national-reading-day",
+      "italian-peace-fraternity-dialogue-day",
       "italian-spinal-cord-injury-day",
       "italian-terrorism-victims-remembrance",
       "italian-workers-abroad-remembrance",
@@ -184,7 +190,8 @@
     "2026-11-26: Added eleven distinct source-attributed six-locale origin narratives (one Slovak communist victims remembrance and ten Finnish civic/cultural flag days). Historically unverified first introduction years stay null. All remain AI research drafts, not certified or runtime published.",
     "2026-11-26: Added three Finnish source-backed six-locale drafts for Sámi National Day, Finnish Art Day and National Veterans Day. No runtime promotion; no human review claimed.",
     "2026-11-26: Finnish Evacuee Flag Day added in six locales; Karjalan Liitto initiated annual observance in 2025, Interior Ministry recommended flags for 2026. Research draft only; not a statutory holiday or runtime-approved.",
-    "2026-11-26: Added 15 source-attributed six-locale research dossiers in parallel (Finland 1, Italy 11, Estonia 3). Fixed dates verified in official ceremonial/statutory calendars; legal founding years remain unknown unless separately evidenced. Research only; six-language translation and human fact-check certification PENDING."
+    "2026-11-26: Added 15 source-attributed six-locale research dossiers in parallel (Finland 1, Italy 11, Estonia 3). Fixed dates verified in official ceremonial/statutory calendars; legal founding years remain unknown unless separately evidenced. Research only; six-language translation and human fact-check certification PENDING.",
+    "2026-11-26: Added six distinct six-locale fixed-date drafts for FI/IT New Year and Epiphany, Finland May Day and Italy Peace/Fraternity/Dialogue. Movable-date entries deliberately excluded from fixed MM-DD drafts."
   ],
   "runtimeRichEditorialApproved": false
 }
