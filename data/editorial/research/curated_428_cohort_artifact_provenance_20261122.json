@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 33,
+    "preparedSixLocaleDossiers": 34,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -80,7 +80,8 @@
       "sk-cyril-methodius-day",
       "sk-day-against-hate-speech-targeting-children",
       "sk-day-of-slovaks-living-abroad",
-      "sk-day-of-the-struggle-for-human-rights"
+      "sk-day-of-the-struggle-for-human-rights",
+      "sk-day-of-the-unjustly-prosecuted"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -91,7 +92,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-day-of-the-unjustly-prosecuted",
+    "nextUnpreparedId": "sk-freedom-democracy-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -101,7 +102,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Verify Slovak 13 April memorial and the 1950 monastery raids with primary sources."
+    "nextUnpreparedIdNote": "Check whether Slovak Freedom and Democracy Day is already covered by a separate canonical origin before creating a dossier."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
