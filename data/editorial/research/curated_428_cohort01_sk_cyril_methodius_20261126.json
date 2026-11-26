@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-cyril-methodius-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-05",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "Act 241/1993 recognizes 5 July as a Slovak state holiday; this is not the origin year of the older religious and cultural observance.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "5 July is the established feast date of Saints Cyril and Methodius in the Slovak and Czech tradition; it is not an independently verified date of their arrival in Great Moravia.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/241/20261029.print.html",
+      "claim": "Current Slovak Act 241/1993 section 1(b) explicitly lists 5 July as the state holiday of Saints Cyril and Methodius."
+    },
+    {
+      "url": "https://www.mzv.sk/en/web/en/slovakia/public-holidays",
+      "claim": "Slovak Ministry of Foreign and European Affairs lists St. Cyril and Methodius Day on 5 July among public holidays."
+    }
+  ],
+  "narratives": {
+    "en": "On 5 July, Slovakia honours Saints Cyril and Methodius, the Byzantine brothers whose ninth-century mission to Great Moravia helped shape Slavic Christian worship and written culture. Their work is associated with the use of a Slavic liturgical language and the development of early Slavic literacy. The date is a traditional feast day, not a verified anniversary of their arrival. Slovak Act 241/1993 formally lists 5 July as a state holiday; 1993 marks that statutory recognition, not the beginning of the centuries-old tradition.",
+    "it": "Il 5 luglio la Slovacchia celebra i santi Cirillo e Metodio, fratelli bizantini la cui missione nella Grande Moravia del IX secolo contribuì alla diffusione del cristianesimo e della cultura scritta slava. La loro opera è legata all'uso di una lingua slava nella liturgia e allo sviluppo della prima alfabetizzazione slava. Il 5 luglio è una data festiva tradizionale, non l'anniversario accertato del loro arrivo. La legge slovacca 241/1993 la riconosce come festa nazionale: il 1993 indica la codificazione, non l'origine della tradizione.",
+    "es": "El 5 de julio Eslovaquia honra a los santos Cirilo y Metodio, hermanos bizantinos cuya misión en la Gran Moravia del siglo IX contribuyó al cristianismo y a la cultura escrita eslava. Su legado está vinculado al uso de una lengua eslava en la liturgia y al desarrollo de la alfabetización eslava temprana. El 5 de julio es una fecha festiva tradicional, no el aniversario comprobado de su llegada. La Ley eslovaca 241/1993 reconoce este día como fiesta nacional: 1993 corresponde a su reconocimiento legal, no al inicio de la tradición.",
+    "fr": "Le 5 juillet, la Slovaquie honore les saints Cyrille et Méthode, deux frères byzantins dont la mission en Grande-Moravie au IXe siècle a contribué au christianisme et à la culture écrite slaves. Leur héritage est lié à l'usage d'une langue slave dans la liturgie et aux débuts de l'écriture slave. Le 5 juillet est une date de fête traditionnelle, et non l'anniversaire établi de leur arrivée. La loi slovaque 241/1993 en fait une fête nationale : 1993 désigne cette reconnaissance juridique, pas l'origine de la tradition.",
+    "de": "Am 5. Juli ehrt die Slowakei die Heiligen Kyrill und Method, zwei byzantinische Brüder, deren Mission im Großmährischen Reich des 9. Jahrhunderts die slawische christliche Tradition und Schriftkultur prägte. Ihr Wirken steht mit dem Gebrauch einer slawischen Liturgiesprache und der frühen slawischen Schriftlichkeit in Verbindung. Der 5. Juli ist ein überlieferter Festtag und kein gesichert belegtes Ankunftsdatum. Das slowakische Gesetz 241/1993 führt ihn als Staatsfeiertag; 1993 bezeichnet die gesetzliche Anerkennung, nicht den Ursprung der älteren Tradition.",
+    "pt": "Em 5 de julho, a Eslováquia homenageia os santos Cirilo e Metódio, irmãos bizantinos cuja missão na Grande Morávia, no século IX, marcou a tradição cristã e a cultura escrita eslavas. O seu legado está ligado ao uso de uma língua eslava na liturgia e ao desenvolvimento da escrita eslava antiga. O dia 5 de julho é uma data festiva tradicional, não o aniversário comprovado da sua chegada. A Lei eslovaca 241/1993 reconhece a data como feriado nacional: 1993 indica esse reconhecimento jurídico, não o início da tradição."
+  },
+  "runtimeRichEditorialApproved": false
+}
