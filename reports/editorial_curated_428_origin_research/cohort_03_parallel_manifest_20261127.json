@@ -11,10 +11,13 @@
   "preparedDossierIds": [
     "no-liberation-day",
     "independence-day-us",
-    "za-freedom-day"
+    "za-freedom-day",
+    "german-unity-day",
+    "no-union-dissolution-day",
+    "nz-waitangi-day"
   ],
-  "preparedSixLocaleDossiers": 3,
-  "remainingResearchIds": 97,
+  "preparedSixLocaleDossiers": 6,
+  "remainingResearchIds": 94,
   "review": "PENDING",
   "humanCertified": 0,
   "runtimeIntegrated": 0,
@@ -26,5 +29,5 @@
     "de",
     "pt"
   ],
-  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion."
+  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review."
 }
