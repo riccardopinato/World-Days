@@ -78,6 +78,27 @@ def main():
         ids.add(identity)
     if len(ids) > 100:
         errors.append("cohort01: more than 100 distinct IDs")
+    try:
+        queue_path = ROOT / "reports/editorial_curated_428_origin_research/cohort_01_ordered_ids.json"
+        queue = json.loads(queue_path.read_text(encoding="utf-8"))
+        allowed = queue["ids"]
+        if queue["count"] != 100 or len(allowed) != 100 or len(set(allowed)) != 100:
+            errors.append("cohort01 queue: expected 100 unique immutable IDs")
+        if not ids.issubset(set(allowed)):
+            errors.append(f"cohort01: dossier IDs outside canonical queue: {sorted(ids - set(allowed))}")
+        for path in files:
+            try:
+                entry = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                continue
+            if entry.get("id") not in allowed:
+                continue
+            expected_country = entry["id"].split("-", 1)[0].upper()
+            if entry.get("country") != expected_country:
+                errors.append(f"{path.name}: country does not match canonical ID")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"cohort01 canonical ordered ID queue invalid: {exc}")
+        allowed = []
     manifest_path = DIRECTORY / "curated_428_cohort_artifact_provenance_20261122.json"
     try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -94,6 +115,12 @@ def main():
             errors.append("cohort01 manifest: HOLD references an absent dossier")
         if cohort["integratedInMain"] != 0:
             errors.append("cohort01 manifest: draft validator cannot assert main integration")
+        if allowed:
+            next_unprepared = next((item for item in allowed if item not in ids), None)
+            if cohort.get("nextUnpreparedId") != next_unprepared:
+                errors.append("cohort01 manifest: nextUnpreparedId differs from canonical queue")
+            if recorded_ids != [item for item in allowed if item in ids]:
+                errors.append("cohort01 manifest: preparedDossierIds not in immutable queue order")
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f"cohort01 manifest unavailable or malformed: {exc}")
     for error in errors:
