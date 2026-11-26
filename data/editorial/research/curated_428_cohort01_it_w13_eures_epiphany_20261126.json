@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "it-w13-eures-epiphany",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-06",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "On 6 January Italy celebrates the Epiphany, a public holiday recalling the Christian visit of the Magi to Jesus. Italian family traditions also feature the Befana, a figure who brings sweets or small gifts to children. The day closes the Christmas holiday period for many households. The state's official calendar identifies Epiphany as a public holiday; its legal year of introduction is not inferred here.",
+    "it": "Il 6 gennaio l'Italia celebra l'Epifania, festa pubblica che ricorda la visita dei Magi a Gesù. Nelle tradizioni familiari compare anche la Befana, che porta dolci o piccoli doni ai bambini. Per molte famiglie la giornata conclude il periodo natalizio. Il calendario dello Stato conferma la festività, ma non permette da solo di stabilire l'anno della sua introduzione legale.",
+    "es": "El 6 de enero Italia celebra la Epifanía, un festivo que recuerda la visita cristiana de los Magos a Jesús. En las tradiciones familiares también aparece la Befana, figura que lleva dulces o pequeños regalos a los niños. Para muchas familias termina la época navideña. El calendario estatal confirma la festividad, pero no permite deducir por sí solo el año de introducción legal.",
+    "fr": "Le 6 janvier, l'Italie célèbre l'Épiphanie, fête rappelant la visite des mages à Jésus dans la tradition chrétienne. La Befana, personnage populaire, apporte aussi des friandises ou de petits cadeaux aux enfants. Cette journée clôt souvent la période de Noël. Le calendrier officiel confirme son statut férié, sans établir à lui seul l'année de son introduction légale.",
+    "de": "Am 6. Januar feiert Italien den Dreikönigstag als gesetzlichen Feiertag, der an den Besuch der Weisen bei Jesus erinnert. Zu italienischen Familientraditionen gehört auch die Befana, die Kindern Süßigkeiten oder kleine Geschenke bringt. Für viele endet damit die Weihnachtszeit. Der staatliche Kalender bestätigt den Feiertag, nicht jedoch sein erstes gesetzliches Einführungsjahr.",
+    "pt": "Em 6 de janeiro, a Itália celebra a Epifania, feriado que recorda a visita dos Reis Magos a Jesus na tradição cristã. A Befana, figura popular, também leva doces ou pequenas prendas às crianças. Para muitas famílias, a data encerra o período de Natal. O calendário oficial confirma o feriado, mas não permite estabelecer o ano da sua introdução legal."
+  },
+  "runtimeRichEditorialApproved": false
+}
