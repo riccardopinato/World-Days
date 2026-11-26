@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 28,
+    "preparedSixLocaleDossiers": 29,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -75,7 +75,8 @@
       "cz-w13-eures-christmas-eve",
       "cz-w13-eures-st-stephen-s-day",
       "cz-warsaw-pact-invasion-remembrance-day",
-      "sk-constitution-day"
+      "sk-constitution-day",
+      "sk-covid-19-pandemic-victims-remembrance-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -86,7 +87,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-covid-19-pandemic-victims-remembrance-day",
+    "nextUnpreparedId": "sk-cyril-methodius-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -96,7 +97,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Next cohort ID after the 27 Czech entries; validate source and product relevance before drafting."
+    "nextUnpreparedIdNote": "Next ordered canonical cohort ID after Slovakia COVID-19 victims memorial; verify individual primary sources."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -116,7 +117,8 @@
     "2026-11-25: Terezín family camp March 9 dossier added from IHRA and Czech Ministry of Culture; legal introduction year left null, no runtime approval.",
     "2026-11-25: Czech victims of communist regime remembrance added in six languages; government and academic institutional sources, no runtime approval.",
     "2026-11-26: Czech 21 August invasion remembrance draft in six locales; legal designation 2019, historic event 1968, no runtime approval.",
-    "2026-11-26: Slovak Constitution Day six-locale AI draft: constitution adopted 1992, state holiday law 241/1993, currently not a day off work; no runtime approval."
+    "2026-11-26: Slovak Constitution Day six-locale AI draft: constitution adopted 1992, state holiday law 241/1993, currently not a day off work; no runtime approval.",
+    "2026-11-26: Slovakia COVID-19 victims memorial six-locale AI draft; 2022 amendment effective 2023, 6 March recalls first case in 2020; source law and bereaved families' association; no runtime approval."
   ],
   "runtimeRichEditorialApproved": false
 }
