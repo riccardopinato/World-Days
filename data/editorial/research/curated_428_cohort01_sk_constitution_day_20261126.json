@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-constitution-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-01",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "Act 241/1993 established Constitution Day as a state holiday; 1992 is the adoption year of the Constitution, not the holiday law.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "The Slovak National Council adopted the Constitution on 1 September 1992.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029",
+      "claim": "Act 241/1993, section 1(d), designates 1 September as Constitution Day; section 2(3) excludes it from days off work."
+    },
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1992/460/",
+      "claim": "Constitutional Act 460/1992 is the foundational Slovak Constitution adopted in 1992."
+    }
+  ],
+  "narratives": {
+    "en": "Slovakia marks Constitution Day on 1 September, the date on which the Slovak National Council adopted the country's Constitution in 1992, before the independent Slovak Republic came into being in January 1993. The Constitution sets out the framework of the state and fundamental rights. Act 241/1993 subsequently designated 1 September a state holiday. Under current law it remains a state holiday but is not a day off work. The year 1992 identifies the constitutional decision; 1993 identifies its recognition in the holiday statute.",
+    "it": "La Slovacchia celebra la Giornata della Costituzione il 1° settembre, data in cui nel 1992 il Consiglio nazionale slovacco adottò la Costituzione, prima della nascita della Repubblica slovacca indipendente nel gennaio 1993. Il testo definisce l'ordinamento dello Stato e i diritti fondamentali. La legge 241/1993 ha poi riconosciuto il 1° settembre come festa nazionale. Oggi rimane tale, ma non è un giorno di riposo lavorativo. Il 1992 indica l'adozione costituzionale; il 1993 il riconoscimento nella legge sulle festività.",
+    "es": "Eslovaquia celebra el Día de la Constitución el 1 de septiembre, fecha en la que el Consejo Nacional Eslovaco aprobó la Constitución en 1992, antes de que surgiera la República Eslovaca independiente en enero de 1993. El texto establece la organización del Estado y los derechos fundamentales. La Ley 241/1993 reconoció después el 1 de septiembre como fiesta nacional. Sigue siéndolo, aunque ya no es día de descanso laboral. 1992 corresponde a la aprobación constitucional y 1993 a su reconocimiento en la ley de festividades.",
+    "fr": "La Slovaquie célèbre la Journée de la Constitution le 1er septembre, date à laquelle le Conseil national slovaque a adopté la Constitution en 1992, avant la naissance de la République slovaque indépendante en janvier 1993. Le texte définit les institutions de l'État et les droits fondamentaux. La loi 241/1993 a ensuite reconnu le 1er septembre comme fête nationale. Ce statut demeure, mais la journée n'est pas chômée. L'année 1992 renvoie à l'adoption de la Constitution et 1993 à sa reconnaissance dans la loi sur les fêtes.",
+    "de": "Die Slowakei begeht den Tag der Verfassung am 1. September. An diesem Datum verabschiedete der Slowakische Nationalrat 1992 die Verfassung, noch vor der Entstehung der unabhängigen Slowakischen Republik im Januar 1993. Sie legt die Staatsordnung und Grundrechte fest. Mit Gesetz 241/1993 wurde der 1. September anschließend zum Staatsfeiertag erklärt. Er bleibt ein Staatsfeiertag, ist heute jedoch kein arbeitsfreier Tag. 1992 bezeichnet die Verabschiedung der Verfassung, 1993 die gesetzliche Anerkennung als Feiertag.",
+    "pt": "A Eslováquia assinala o Dia da Constituição em 1 de setembro, data em que o Conselho Nacional Eslovaco aprovou a Constituição em 1992, antes da formação da República Eslovaca independente em janeiro de 1993. O texto define a organização do Estado e os direitos fundamentais. A Lei 241/1993 reconheceu posteriormente 1 de setembro como feriado nacional. A data mantém esse estatuto, mas já não é um dia de descanso laboral. 1992 refere-se à adoção da Constituição; 1993 ao reconhecimento na lei dos feriados."
+  },
+  "runtimeRichEditorialApproved": false
+}
