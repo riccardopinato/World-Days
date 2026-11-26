@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 37,
+    "preparedSixLocaleDossiers": 39,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -84,7 +84,9 @@
       "sk-day-of-the-unjustly-prosecuted",
       "sk-freedom-democracy-day",
       "sk-holocaust-and-racial-violence-victims-memorial-day",
-      "sk-independent-slovak-ecclesiastical-province-proclamation-day"
+      "sk-independent-slovak-ecclesiastical-province-proclamation-day",
+      "sk-ludovit-stur-birthday",
+      "sk-matica-slovenska-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -95,7 +97,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "sk-ludovit-stur-birthday",
+    "nextUnpreparedId": "sk-milan-rastislav-stefanik-death-anniversary",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -105,7 +107,7 @@
       "cohort_04.json",
       "cohort_05.json"
     ],
-    "nextUnpreparedIdNote": "Check whether Slovak Freedom and Democracy Day is already covered by a separate canonical origin before creating a dossier."
+    "nextUnpreparedIdNote": "Civic remembrance is expressly recognized by Slovak Act 241/1993 §3(e), despite the biographical-sounding ID; verify source and avoid duplication."
   },
   "caveats": [
     "Artifact is a research queue, not proof of 428 verified individual origins.",
@@ -131,7 +133,8 @@
     "2026-11-26: Slovaks living abroad memorial day, 5 July, recognized by Act 241/1993; Slovak diaspora office and MFA sources; six-locale AI draft, review pending.",
     "2026-11-26: Slovak 25 March human rights struggle memorial documented from Acts 88/1993 and 241/1993; 1988 candlelight demonstration, six-locale AI draft, human review pending.",
     "2026-11-26: Reconciled two existing Slovak six-locale dossier files against the branch manifest; dossier count 36, no new historical verification or human approval claimed.",
-    "2026-11-26: Slovak independent ecclesiastical province memorial (30 December) documented from Act 241/1993, historical 1977 event distinguished from 1993 legal recognition; six-locale AI draft, no runtime approval."
+    "2026-11-26: Slovak independent ecclesiastical province memorial (30 December) documented from Act 241/1993, historical 1977 event distinguished from 1993 legal recognition; six-locale AI draft, no runtime approval.",
+    "2026-11-26: Reconciled Štúr civic memorial and added Matica slovenská 4 August, founding 1863, memorial in original Act 241/1993; six-locale AI draft, no runtime approval."
   ],
   "runtimeRichEditorialApproved": false
 }
