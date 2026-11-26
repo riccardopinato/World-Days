@@ -46,7 +46,7 @@
       "IT": 21,
       "EE": 5
     },
-    "preparedSixLocaleDossiers": 67,
+    "preparedSixLocaleDossiers": 82,
     "preparedDossierIds": [
       "cz-cyril-methodius-day",
       "cz-czech-accession-to-nato-anniversary",
@@ -106,6 +106,7 @@
       "fi-eino-leino-poetry-day",
       "fi-equality-minna-canth-day",
       "fi-evacuees-day-in-finland",
+      "fi-finnish-architecture-design-day",
       "fi-finnish-language-day",
       "fi-kalevala-day",
       "fi-runeberg-day",
@@ -114,7 +115,21 @@
       "fi-snellman-heritage-day",
       "fi-swedish-heritage-day",
       "fi-tove-jansson-and-finnish-art-day",
-      "fi-war-veterans-day"
+      "fi-war-veterans-day",
+      "italian-awareness-day-vegetative-states",
+      "italian-day-against-child-abuse",
+      "italian-freedom-berlin-wall-day",
+      "italian-liberation-anniversary",
+      "italian-national-braille-day",
+      "italian-national-flag-day",
+      "italian-national-reading-day",
+      "italian-spinal-cord-injury-day",
+      "italian-terrorism-victims-remembrance",
+      "italian-workers-abroad-remembrance",
+      "italys-day-of-remembrance",
+      "ee-day-of-mourning",
+      "ee-estonian-literature-day",
+      "ee-flag-day"
     ],
     "relevanceHoldIds": [
       "cz-czech-accession-to-nato-anniversary",
@@ -125,7 +140,7 @@
     "artifactContentsVerified": true,
     "canonicalOrderedIdsSha256": "dff6d8d063b0d86ffe7bcc0f46301f9afadb6dfb0fb5489b762c2e604000d9bd",
     "canonicalOrderedIdsHashMethod": "SHA256 of newline-joined ordered 100 dossier ids, UTF-8, no trailing newline",
-    "nextUnpreparedId": "fi-finnish-architecture-design-day",
+    "nextUnpreparedId": "fi-finnish-flag-day-and-midsummer-day",
     "relevanceRecheckRequiredIds": [],
     "artifactArchiveFiles": [
       "index.json",
@@ -168,7 +183,8 @@
     "2026-11-26: Added five separate six-language research drafts for Slovakia's 1992 sovereignty declaration, 1993 statehood, 2004 EU accession, 1991 Soviet force departure, and 1968 occupation victims. Official law/EU sources are recorded; no runtime approval or human certification.",
     "2026-11-26: Added eleven distinct source-attributed six-locale origin narratives (one Slovak communist victims remembrance and ten Finnish civic/cultural flag days). Historically unverified first introduction years stay null. All remain AI research drafts, not certified or runtime published.",
     "2026-11-26: Added three Finnish source-backed six-locale drafts for Sámi National Day, Finnish Art Day and National Veterans Day. No runtime promotion; no human review claimed.",
-    "2026-11-26: Finnish Evacuee Flag Day added in six locales; Karjalan Liitto initiated annual observance in 2025, Interior Ministry recommended flags for 2026. Research draft only; not a statutory holiday or runtime-approved."
+    "2026-11-26: Finnish Evacuee Flag Day added in six locales; Karjalan Liitto initiated annual observance in 2025, Interior Ministry recommended flags for 2026. Research draft only; not a statutory holiday or runtime-approved.",
+    "2026-11-26: Added 15 source-attributed six-locale research dossiers in parallel (Finland 1, Italy 11, Estonia 3). Fixed dates verified in official ceremonial/statutory calendars; legal founding years remain unknown unless separately evidenced. Research only; six-language translation and human fact-check certification PENDING."
   ],
   "runtimeRichEditorialApproved": false
 }
