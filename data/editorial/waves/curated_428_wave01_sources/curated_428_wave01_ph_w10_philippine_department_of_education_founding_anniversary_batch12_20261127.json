@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w10-philippine-department-of-education-founding-anniversary",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-23",
+  "country": "PH",
+  "documentedIntroductionYear": 1997,
+  "yearMeaning": "1997 is the administrative order officially recognizing the earlier 1898 agency foundation date; separate 1863 precursor history.",
+  "authority": "Philippines Department of Education",
+  "dateReason": "Fixed annual date verified from issuing institution; distinguish establishment date from historical predecessor.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.deped.gov.ph/2018/11/09/statement-on-the-grant-of-anniversary-bonus-to-deped-teachers-personnel/",
+      "claim": "DepEd explains that AO 322 of 1997 adopted 23 June 1898 as founding date, while noting an older predecessor from 20 December 1863.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The Philippine Department of Education marks its founding anniversary on 23 June, referring to an education bureau established in 1898. An administrative order in 1997 adopted that date, while an official historical review also identified an older institutional predecessor from 1863. These dates describe different stages of educational administration, not a single uninterrupted agency.",
+    "it": "Il Dipartimento dell'Istruzione filippino celebra il proprio anniversario il 23 giugno, richiamando un ufficio educativo nato nel 1898. Un ordine amministrativo del 1997 ha adottato questa data, mentre una ricostruzione ufficiale ha individuato un predecessore del 1863. I diversi anni rappresentano fasi istituzionali distinte, non un unico ente rimasto invariato.",
+    "es": "El Departamento de Educación de Filipinas conmemora su fundación el 23 de junio, en referencia a un organismo educativo creado en 1898. Una orden administrativa de 1997 reconoció esa fecha, mientras una revisión histórica oficial señaló un predecesor de 1863. Los años corresponden a distintas etapas institucionales, no a una agencia idéntica a lo largo del tiempo.",
+    "fr": "Le ministère philippin de l'Éducation célèbre sa fondation le 23 juin, en référence à un organisme scolaire créé en 1898. Un arrêté administratif de 1997 a adopté cette date, tandis qu'une étude historique officielle signalait un prédécesseur de 1863. Ces années renvoient à des étapes différentes de l'administration éducative, non à une institution inchangée.",
+    "de": "Das philippinische Bildungsministerium erinnert am 23. Juni an die Gründung einer Bildungsbehörde im Jahr 1898. Eine Verwaltungsanordnung von 1997 bestätigte dieses Datum, während eine amtliche historische Prüfung auf einen Vorläufer von 1863 hinwies. Die Jahre stehen für unterschiedliche institutionelle Entwicklungsphasen und nicht für eine unveränderte Behörde.",
+    "pt": "O Departamento de Educação das Filipinas assinala a fundação em 23 de junho, recordando uma entidade educativa criada em 1898. Uma ordem administrativa de 1997 adotou essa data, enquanto uma análise histórica oficial identificou um antecessor de 1863. Os anos representam fases distintas da administração educativa e não uma instituição inalterada."
+  },
+  "runtimeRichEditorialApproved": false
+}
