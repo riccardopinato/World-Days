@@ -20,8 +20,8 @@
       "claim": "Museum chronology records 1990 federal commemoration, 1993 Slovak memorial status and 2001 national-holiday recognition."
     },
     {
-      "url": "https://www.upn.gov.sk/sk",
-      "claim": "Nation's Memory Institute describes student protests in Bratislava and Prague in November 1989 and Nazi repression in 1939."
+      "url": "https://www.upn.gov.sk/sk/16-17-november-1989---demonstracia-studentov-v-bratislave/",
+      "claim": "Slovak Nation's Memory Institute documents Bratislava student demonstrations on 16–17 November 1989, their link to 1939 student repression remembrance and protests against Communist rule."
     }
   ],
   "narratives": {
@@ -32,5 +32,10 @@
     "de": "Am 17. November begeht die Slowakei den Tag des Kampfes für Freiheit und Demokratie. Das Datum erinnert an die nationalsozialistische Unterdrückung tschechischer Studierender 1939 und besonders an die Studentendemonstrationen vom 17. November 1989, die die Samtene Revolution mit auslösten. Aus den Protesten in Prag und Bratislava entwickelte sich eine breite Bürgerbewegung gegen die kommunistische Herrschaft. Der Tag wurde 1990 auf föderaler Ebene anerkannt, 1993 als slowakischer Gedenktag geführt und 2001 zum Staatsfeiertag erhoben. Die historischen Ereignisse sind von diesen späteren gesetzlichen Schritten zu unterscheiden.",
     "pt": "A 17 de novembro, a Eslováquia assinala o Dia da Luta pela Liberdade e pela Democracia. A data recorda a repressão nazi contra estudantes universitários checos em 1939 e, sobretudo, as manifestações estudantis de 17 de novembro de 1989, que ajudaram a desencadear a Revolução de Veludo. Os protestos em Praga e Bratislava transformaram-se num amplo movimento cívico contra o regime comunista. A efeméride foi reconhecida a nível federal em 1990, tornou-se dia comemorativo eslovaco em 1993 e feriado nacional em 2001. Importa distinguir os acontecimentos históricos do reconhecimento legal posterior."
   },
-  "runtimeRichEditorialApproved": false
+  "runtimeRichEditorialApproved": false,
+  "sourceReviewEvidence": {
+    "specificInstitutionalPageCheckedOn": "2026-11-27",
+    "verifiedSpecificSourceUrl": "https://www.upn.gov.sk/sk/16-17-november-1989---demonstracia-studentov-v-bratislave/",
+    "note": "Replaces non-evidentiary institution homepage; six narratives and review=PENDING are unchanged."
+  }
 }
