@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "france-slavery-victims-tribute-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-23",
+  "country": "FR",
+  "documentedIntroductionYear": 2017,
+  "yearMeaning": "Year refers to legal institution or recognition, distinct from historic events.",
+  "authority": "French Republic / Légifrance",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000034103847",
+      "claim": "Article 75 of the French Law of 28 February 2017 designated 23 May as a national tribute to victims of slavery.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France marks 23 May as a national day paying tribute to the victims of slavery. The date recognises the experiences and memory of enslaved people and their descendants, alongside the country's wider history of the slave trade and abolition. A 2017 law formalised this tribute separately from the national remembrance day of 10 May.",
+    "it": "Il 23 maggio la Francia rende omaggio alle vittime della schiavitù, riconoscendo le esperienze e la memoria delle persone ridotte in schiavitù e dei loro discendenti. La giornata si affianca alla riflessione sulla tratta e sulle abolizioni. Una legge del 2017 ha istituito questo tributo nazionale, distinto dalla giornata del 10 maggio.",
+    "es": "Francia dedica el 23 de mayo un homenaje nacional a las víctimas de la esclavitud. La fecha reconoce la memoria de las personas esclavizadas y de sus descendientes, junto con la historia de la trata y de las aboliciones. Una ley de 2017 estableció este homenaje, diferenciado de la jornada nacional de memoria del 10 de mayo.",
+    "fr": "Le 23 mai, la France rend un hommage national aux victimes de l'esclavage, en reconnaissant la mémoire des personnes réduites en servitude et de leurs descendants. Cette journée complète le travail de mémoire sur la traite et les abolitions. Une loi de 2017 l'a instituée, distincte de la journée nationale du 10 mai.",
+    "de": "Frankreich gedenkt am 23. Mai landesweit der Opfer der Sklaverei. Der Tag würdigt die Erinnerung an versklavte Menschen und ihre Nachkommen und ergänzt die Auseinandersetzung mit Sklavenhandel und Abschaffung. Ein Gesetz von 2017 schuf diesen Gedenktag ausdrücklich neben dem nationalen Erinnerungstag am 10. Mai.",
+    "pt": "A França presta homenagem nacional às vítimas da escravatura em 23 de maio. A data reconhece a memória das pessoas escravizadas e dos seus descendentes, juntamente com a história do tráfico e das abolições. Uma lei de 2017 instituiu esta homenagem, separada do dia nacional de memória de 10 de maio."
+  },
+  "runtimeRichEditorialApproved": false
+}

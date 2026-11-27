@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-01",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No official source conclusively establishes original statutory introduction year.",
+  "authority": "Republic of Cyprus / Ministry of Education",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://kypros1955-59.moec.gov.cy/istoriko/",
+      "claim": "Cyprus education ministry documents 1 April 1955 as the beginning of the EOKA anti-colonial armed campaign.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.gov.cy/en/photo-galleries/president-of-the-republic-of-cyprus-celebration-for-the-national-anniversary-of-1-april-1955/",
+      "claim": "The Republic of Cyprus commemorates 1 April 1955 as a national anniversary.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus commemorates 1 April as the anniversary of the 1955 start of the EOKA armed campaign against British colonial rule. The movement sought union with Greece, while the island later became an independent republic in 1960. Official ceremonies recall a contested period of anti-colonial struggle; the year 1955 describes the events, not necessarily the legal founding of this public holiday.",
+    "it": "Il 1° aprile Cipro ricorda l'inizio nel 1955 della campagna armata dell'EOKA contro il dominio coloniale britannico. Il movimento mirava all'unione con la Grecia, mentre l'isola divenne una repubblica indipendente nel 1960. Le cerimonie ufficiali ricordano una fase complessa della lotta anticoloniale; il 1955 non prova l'anno di istituzione della festa.",
+    "es": "Chipre conmemora el 1 de abril el inicio en 1955 de la campaña armada de EOKA contra el dominio colonial británico. El movimiento buscaba la unión con Grecia, mientras la isla se convirtió en república independiente en 1960. Las ceremonias oficiales recuerdan este periodo complejo; 1955 corresponde a los hechos, no necesariamente a la creación legal del festivo.",
+    "fr": "Chypre commémore le 1er avril le début en 1955 de la campagne armée de l'EOKA contre la domination coloniale britannique. Le mouvement visait l'union avec la Grèce, tandis que l'île devint une république indépendante en 1960. Les cérémonies officielles évoquent cette période complexe; 1955 n'est pas forcément l'année d'institution de la fête.",
+    "de": "Zypern erinnert am 1. April an den Beginn des bewaffneten EOKA-Kampfes gegen die britische Kolonialherrschaft im Jahr 1955. Die Bewegung strebte den Anschluss an Griechenland an; 1960 wurde die Insel eine unabhängige Republik. Amtliche Gedenkfeiern erinnern an diese konfliktreiche Zeit. 1955 bezeichnet das Ereignis, nicht zwingend das Einführungsjahr des Feiertags.",
+    "pt": "Chipre recorda em 1 de abril o início, em 1955, da campanha armada da EOKA contra o domínio colonial britânico. O movimento procurava a união com a Grécia, enquanto a ilha se tornou uma república independente em 1960. As cerimónias oficiais evocam esse período complexo; 1955 não comprova o ano da criação legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}
