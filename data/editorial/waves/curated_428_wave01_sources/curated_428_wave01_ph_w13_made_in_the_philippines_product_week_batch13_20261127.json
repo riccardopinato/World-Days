@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "cohort": 2,
   "id": "ph-w13-made-in-the-philippines-product-week",
-  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CALENDAR_HOLD_NOT_RUNTIME_PUBLISHED",
   "review": "PENDING",
   "date": null,
   "country": "PH",
   "documentedIntroductionYear": 1955,
   "yearMeaning": "Legislative creation year of the recurring nationally defined month/week, not the original beginning of local cultural practice.",
   "authority": "Philippine Supreme Court E-Library / Presidential Proclamation No. 222",
-  "dateReason": "Month/week recurrence anchored in explicit primary proclamation; canonical recurrence rule and monthly interval must be checked before app publication.",
+  "dateReason": "1955 legal last-week-of-February calendar conflicts with canonical NCCA August 17-23 citing a superseded 1936 proclamation.",
   "sourceEvidence": [
     {
       "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/92308",
@@ -25,5 +25,9 @@
     "de": "Die Philippinen widmen nach einer Proklamation von 1955 die letzte Februarwoche der heimischen Industrie und den im Land hergestellten Produkten. Dabei wurden ältere Kampagnen mit anderen Terminen zusammengefasst, um lokale Unternehmen zu unterstützen. Die früheren Wochen wurden ersetzt und dürfen nicht als heutiger Jahreszeitraum gelten.",
     "pt": "As Filipinas dedicam a última semana de fevereiro à indústria e aos produtos fabricados no país, conforme proclamação de 1955. A medida reuniu campanhas anteriores com datas diferentes para apoiar produtores e empresas locais. Os períodos antigos foram substituídos e não devem ser apresentados como o calendário anual em vigor."
   },
-  "runtimeRichEditorialApproved": false
+  "runtimeRichEditorialApproved": false,
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "CANONICAL_AUGUST_17_23_1936_IS_SUPERSEDED_BY_1955_PROCLAMATION_LAST_WEEK_FEBRUARY; DATE_SCOPE_RECONCILIATION_REQUIRED"
+  }
 }
