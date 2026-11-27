@@ -12,8 +12,8 @@ from fasttrack_curated_428_qc import audit_row
 ROOT=Path(__file__).resolve().parents[1]
 ASSETS=ROOT/"assets/data"
 REPORT=ROOT/"reports/editorial_curated_428_origin_research"
-LEDGER=ROOT/"data/editorial/reviews/curated_428_fasttrack_wave01_cohort03_batch16_20261127.json"
-OUT=REPORT/"fasttrack_wave01_cohort03_batch16_runtime_import.json"
+LEDGER=ROOT/"data/editorial/reviews/curated_428_fasttrack_cohort03_batch16_20261127.json"
+OUT=REPORT/"fasttrack_cohort03_batch16_runtime_import.json"
 LANG=("en","it","es","fr","de","pt")
 CONTEXT="AI_CONTEXTUAL_SIX_LOCALE"
 REVIEWED="AI_SOURCE_REVIEWED_SIX_LOCALE"
@@ -29,7 +29,7 @@ def git_blob(b):
 
 def run():
     approval=load(LEDGER)
-    assert approval["mode"]=="APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_COHORT03_BATCH16"
+    assert approval["mode"]=="APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH16"
     assert approval["factoryBaseline"]=="9bec235b319963bc05f3c3c4d95d0f6b267bb309"
     assert approval["humanCertified"] is False
     assert approval["proposedBatch16"]==14
