@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "republic-day-portugal",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-05",
+  "country": "PT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Museum of the Presidency of the Portuguese Republic",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.museu.presidencia.pt/pt/conhecer/simbolos-nacionais/implantacao-da-republica/",
+      "claim": "Presidential museum documents proclamation of the Portuguese Republic on 5 October 1910 in Lisbon.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Portugal observes Republic Day on 5 October, remembering the revolution of 1910 that ended the monarchy and proclaimed the republic in Lisbon. The new political order created a provisional government and led to constitutional changes. The national anniversary marks this shift of regime rather than the country's independence, which had a much longer history. The modern holiday's first legal designation is a separate question.",
+    "it": "Il Portogallo celebra la Repubblica il 5 ottobre, ricordando la rivoluzione del 1910 che pose fine alla monarchia e proclamò la repubblica a Lisbona. Il nuovo ordine politico introdusse un governo provvisorio e portò a cambiamenti costituzionali. La ricorrenza segna il mutamento di regime, non l'indipendenza del Paese, molto più antica. L'anno della prima istituzione legislativa della festa è distinto.",
+    "es": "Portugal celebra el Día de la República el 5 de octubre, recordando la revolución de 1910 que terminó con la monarquía y proclamó la república en Lisboa. El nuevo sistema creó un gobierno provisional y abrió cambios constitucionales. La fecha conmemora el cambio de régimen, no la independencia nacional, de historia mucho más antigua. La primera creación legal del festivo es distinta.",
+    "fr": "Le Portugal fête la République le 5 octobre, rappelant la révolution de 1910 qui mit fin à la monarchie et proclama la république à Lisbonne. Le nouveau régime établit un gouvernement provisoire et engagea des changements constitutionnels. La date célèbre ce changement politique, et non l'indépendance du pays, bien antérieure. La première institution légale de la fête est une question distincte.",
+    "de": "Portugal feiert am 5. Oktober den Tag der Republik. Er erinnert an die Revolution von 1910, die die Monarchie beendete und in Lissabon die Republik ausrief. Die neue Ordnung schuf eine provisorische Regierung und führte zu Verfassungsänderungen. Das Datum kennzeichnet einen Regierungswechsel, nicht die viel ältere Unabhängigkeit Portugals. Die erste gesetzliche Feiertagsregelung ist davon zu unterscheiden.",
+    "pt": "Portugal celebra o Dia da República em 5 de outubro, recordando a revolução de 1910 que terminou com a monarquia e proclamou a república em Lisboa. O novo regime criou um governo provisório e conduziu a mudanças constitucionais. A data assinala a mudança política, não a independência do país, muito mais antiga. O ano da primeira instituição legal do feriado é diferente."
+  },
+  "runtimeRichEditorialApproved": false
+}

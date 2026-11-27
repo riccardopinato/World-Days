@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "portugal-restoration-of-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-01",
+  "country": "PT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Assembly of the Republic of Portugal",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://app.parlamento.pt/comunicar/Artigo.aspx?ID=1312",
+      "claim": "Portuguese Parliament explains Restoration of Independence Day on 1 December commemorates the revolt of 1640 ending Iberian Union rule.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Portugal marks Restoration of Independence Day on 1 December. In 1640, Portuguese conspirators moved against the government of the Spanish Habsburg monarchy and proclaimed a new Portuguese king, ending sixty years of Iberian dynastic union. The ensuing conflict secured Portugal's separate sovereignty. The annual public holiday recalls this political turning point, not the original creation of the Portuguese nation.",
+    "it": "Il Portogallo celebra il 1º dicembre il ripristino dell'indipendenza. Nel 1640 un gruppo di congiurati si ribellò al governo della monarchia asburgica spagnola e proclamò un nuovo re portoghese, ponendo fine a sessant'anni di unione dinastica iberica. Il successivo conflitto consolidò la sovranità del Paese. La festa ricorda questa svolta politica, non la nascita originaria del Portogallo.",
+    "es": "Portugal celebra el 1 de diciembre la Restauración de la Independencia. En 1640 un grupo de conspiradores se rebeló contra el gobierno de la monarquía hispánica y proclamó un nuevo rey portugués, acabando con sesenta años de unión dinástica ibérica. La guerra posterior consolidó la soberanía. La fiesta recuerda ese cambio político y no la fundación original de Portugal.",
+    "fr": "Le Portugal commémore le 1er décembre la Restauration de l'indépendance. En 1640, des conjurés se soulevèrent contre le pouvoir de la monarchie espagnole et proclamèrent un nouveau roi portugais, mettant fin à soixante années d'union dynastique ibérique. La guerre qui suivit consolida la souveraineté. La fête rappelle cette rupture politique, non la naissance initiale du Portugal.",
+    "de": "Portugal erinnert am 1. Dezember an die Wiederherstellung seiner Unabhängigkeit. 1640 erhoben sich Verschwörer gegen die Herrschaft der spanischen Habsburger und riefen einen neuen portugiesischen König aus. Damit endeten sechzig Jahre iberischer Dynastieunion. Der anschließende Konflikt sicherte die Eigenstaatlichkeit. Der Feiertag gedenkt dieses politischen Bruchs, nicht der ursprünglichen Staatsgründung.",
+    "pt": "Portugal assinala em 1 de dezembro a Restauração da Independência. Em 1640, conspiradores revoltaram-se contra o governo da monarquia espanhola e proclamaram um novo rei português, pondo fim a sessenta anos de união dinástica ibérica. A guerra posterior consolidou a soberania nacional. O feriado recorda essa mudança política, não a fundação original do país."
+  },
+  "runtimeRichEditorialApproved": false
+}
