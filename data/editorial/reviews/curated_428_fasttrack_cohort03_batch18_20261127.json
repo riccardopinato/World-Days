@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH18",
+  "factoryBaseline": "9bec235b319963bc05f3c3c4d95d0f6b267bb309",
+  "sourceMain": "0133e51b8a4c14caa33be53f672b982bbe56b3f1",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Four original fully distinct six-language histories for Greece, Ireland, Flemish Community of Belgium, Mexico. Government sources specifically support dates and legal scope. 1990 Flemish community decree is regional only; 1940 Mexican presidential Flag Day recognition distinct from older commemorations. All four source Git blobs immutably pinned. Individual HOLD on any evidence/date/year issues, no human expert certificate.",
+  "humanCertified": false,
+  "cohort": 3,
+  "alreadyIntegratedBeforeBatch18": 216,
+  "proposedBatch18": 4,
+  "records": [
+    {
+      "id": "be-w13-eures-flemish-holiday",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_be_w13_eures_flemish_holiday_batch18_20261127.json",
+      "sourceBlobSha": "f47262c6d7a2efbfb68a8021235e766d27811835",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "gr-dfat-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_gr_dfat_national_day_batch18_20261127.json",
+      "sourceBlobSha": "cc80d3347d3f5e1953c690e67f10e9907d00a5f4",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ie-st-patricks-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ie_st_patricks_day_batch18_20261127.json",
+      "sourceBlobSha": "ef106e0cfb016477d5387935a48f051722eac6c8",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mexico-national-flag-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mexico_national_flag_day_batch18_20261127.json",
+      "sourceBlobSha": "295841d881aecdfecd3b084036209f4d2c9e4935",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "gr-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-25",
+  "country": "GR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical anniversary date in official institutional source, but exact first modern statutory institution not established.",
+  "authority": "Hellenic Republic Ministry of Foreign Affairs",
+  "dateReason": "Specific government ministry or community decree fixes this jurisdiction-scoped observance to this Gregorian day.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gr/missionsabroad/en/about-greece/government-and-politics/greek-independence-day.html",
+      "claim": "Greek MFA confirms 25 March as Independence Day commemorating the beginning of the 1821-1830 struggle against Ottoman rule.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Greece celebrates Independence Day on 25 March, recalling the uprising against Ottoman rule that began in 1821 and eventually led to the creation of an independent Greek state. Public ceremonies and school parades commemorate the struggle and its historical cost. The national anniversary marks the beginning of the independence movement, not the date when every stage of statehood was completed.",
+    "it": "La Grecia celebra la Festa dell'indipendenza il 25 marzo, ricordando l'insurrezione contro il dominio ottomano iniziata nel 1821 e culminata nella nascita di uno Stato greco indipendente. Cerimonie pubbliche e sfilate scolastiche commemorano la lotta e il suo costo umano. La data richiama l'inizio del movimento, non il compimento di ogni fase della formazione dello Stato.",
+    "es": "Grecia celebra el Día de la Independencia el 25 de marzo, recordando la insurrección contra el dominio otomano iniciada en 1821, que condujo a la creación del Estado griego independiente. Ceremonias y desfiles escolares conmemoran la lucha y su coste humano. La jornada recuerda el comienzo del movimiento, no la conclusión de todas las etapas de la independencia.",
+    "fr": "La Grèce célèbre la fête de l'Indépendance le 25 mars, rappelant l'insurrection contre la domination ottomane commencée en 1821, qui mena à la formation d'un État grec indépendant. Cérémonies et défilés scolaires commémorent la lutte et ses sacrifices. La date marque le début du mouvement, non l'achèvement de toutes les étapes de l'indépendance.",
+    "de": "Griechenland begeht den Unabhängigkeitstag am 25. März und erinnert an den 1821 begonnenen Aufstand gegen die osmanische Herrschaft, der schließlich zur Gründung eines unabhängigen griechischen Staates führte. Öffentliche Feiern und Schulparaden würdigen den Kampf und seine Opfer. Das Datum bezeichnet den Beginn der Bewegung, nicht den Abschluss aller Schritte zur Staatlichkeit.",
+    "pt": "A Grécia celebra o Dia da Independência em 25 de março, evocando a insurreição contra o domínio otomano iniciada em 1821, que levou à criação de um Estado grego independente. Cerimónias e desfiles escolares recordam a luta e os seus sacrifícios. A data assinala o início do movimento, não a conclusão de todas as etapas da independência."
+  },
+  "runtimeRichEditorialApproved": false
+}
