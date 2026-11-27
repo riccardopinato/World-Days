@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "is-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-17",
+  "country": "IS",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical event years documented in primary source; year of original modern statutory festival introduction not asserted.",
+  "authority": "Government of Iceland / constitutional administration",
+  "dateReason": "Observed fixed annual date from official government or national calendar; source chronology distinct from statutory year.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.government.is/library/01-Ministries/Prime-Ministrers-Office/constitution_of_iceland.pdf",
+      "claim": "Iceland's official constitution is dated 17 June 1944, the date the independent republic was proclaimed and which is observed as National Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Iceland celebrates its National Day on 17 June, commemorating the foundation of the republic in 1944 and the end of the remaining royal union with Denmark. The constitution of the republic bears that date. Public ceremonies and community festivals mark self-government and national culture; the civic event, rather than a biographical anniversary, is the focus of the story.",
+    "it": "L'Islanda celebra la Festa nazionale il 17 giugno, ricordando la fondazione della repubblica nel 1944 e la fine dell'unione dinastica con la Danimarca. La costituzione repubblicana porta quella data. Cerimonie pubbliche e feste comunitarie valorizzano l'autogoverno e la cultura nazionale: il centro della ricorrenza è l'evento civico.",
+    "es": "Islandia celebra su Fiesta Nacional el 17 de junio, recordando la fundación de la república en 1944 y el fin de la unión dinástica con Dinamarca. La constitución republicana lleva esa fecha. Ceremonias y fiestas populares celebran el autogobierno y la cultura nacional, dando protagonismo al acontecimiento político y no a una biografía personal.",
+    "fr": "L'Islande célèbre sa fête nationale le 17 juin, en souvenir de la proclamation de la république en 1944 et de la fin de l'union dynastique avec le Danemark. La constitution républicaine porte cette date. Cérémonies et fêtes populaires valorisent l'autonomie politique et la culture nationale, au-delà d'une commémoration biographique.",
+    "de": "Island begeht seinen Nationalfeiertag am 17. Juni und erinnert an die Gründung der Republik 1944 sowie das Ende der Königspersonalunion mit Dänemark. Die republikanische Verfassung trägt dieses Datum. Öffentliche Feiern würdigen Selbstbestimmung und nationale Kultur, mit dem staatsrechtlichen Ereignis statt einer persönlichen Biografie im Mittelpunkt.",
+    "pt": "A Islândia celebra o Dia Nacional em 17 de junho, recordando a fundação da república em 1944 e o fim da união dinástica com a Dinamarca. A constituição republicana tem essa data. Cerimónias e festas comunitárias celebram o autogoverno e a cultura nacional, dando destaque ao acontecimento cívico e não a uma biografia."
+  },
+  "runtimeRichEditorialApproved": false
+}

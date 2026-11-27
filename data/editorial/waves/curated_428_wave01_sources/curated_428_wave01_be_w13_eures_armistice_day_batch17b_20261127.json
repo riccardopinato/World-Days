@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "be-w13-eures-armistice-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-11",
+  "country": "BE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical event years documented in primary source; year of original modern statutory festival introduction not asserted.",
+  "authority": "Belgian Federal Public Service Employment / Belgian federal government",
+  "dateReason": "Observed fixed annual date from official government or national calendar; source chronology distinct from statutory year.",
+  "sourceEvidence": [
+    {
+      "url": "https://employment.belgium.be/en/themes/international/posting/working-conditions-be-respected-case-posting-belgium/public-holidays",
+      "claim": "Belgian federal labour authority lists 11 November as Armistice Day, commemorating the First World War armistice that took effect in 1918.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Belgium observes Armistice Day on 11 November, commemorating the cessation of fighting on the Western Front in 1918 at the end of the First World War. The federal holiday provides a moment to remember soldiers and civilians affected by war. Wreath laying and ceremonies emphasise peace and remembrance; the observed anniversary is separate from any single person's life.",
+    "it": "Il Belgio celebra il Giorno dell'armistizio l'11 novembre, ricordando la fine dei combattimenti sul fronte occidentale nel 1918 durante la Prima guerra mondiale. La festività federale invita a ricordare militari e civili colpiti dal conflitto. Deposizioni di corone e cerimonie pubbliche richiamano pace e memoria collettiva, non un anniversario biografico.",
+    "es": "Bélgica conmemora el Día del Armisticio el 11 de noviembre, recordando el fin de los combates en el frente occidental en 1918 durante la Primera Guerra Mundial. El festivo federal invita a recordar a militares y civiles afectados. Ofrendas florales y ceremonias públicas destacan la paz y la memoria colectiva, no el aniversario de una persona.",
+    "fr": "La Belgique commémore l'Armistice le 11 novembre, en souvenir de la fin des combats sur le front occidental en 1918 pendant la Première Guerre mondiale. Ce jour férié fédéral rend hommage aux militaires et civils touchés par le conflit. Dépôts de gerbes et cérémonies publiques soulignent la paix et la mémoire collective.",
+    "de": "Belgien begeht am 11. November den Waffenstillstandstag und erinnert an das Ende der Kämpfe an der Westfront im Jahr 1918 während des Ersten Weltkriegs. Der föderale Feiertag würdigt vom Krieg betroffene Soldaten und Zivilisten. Kranzniederlegungen und öffentliche Gedenkfeiern betonen Frieden und gemeinschaftliche Erinnerung.",
+    "pt": "A Bélgica assinala o Dia do Armistício em 11 de novembro, recordando o fim dos combates na frente ocidental em 1918, durante a Primeira Guerra Mundial. O feriado federal homenageia militares e civis afetados pela guerra. Deposições de coroas e cerimónias públicas valorizam a paz e a memória coletiva."
+  },
+  "runtimeRichEditorialApproved": false
+}
