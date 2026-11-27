@@ -7,11 +7,11 @@ A=ROOT/"assets/data";R=ROOT/"reports/editorial_curated_428_origin_research"
 ld=lambda p:json.loads(p.read_text(encoding="utf-8"))
 x=ld(R/"fasttrack_cohort03_batch16_runtime_import.json")
 assert x["mode"]=="APP_FACTORY_CORE_V27_WAVE01_COHORT03_BATCH16_AI"
-assert x["numberOfNewSixLocaleDossiers"]==14 and x["integratedNew"]+x["heldNew"]==14
+assert x["numberOfNewSixLocaleDossiers"]==7 and x["integratedNew"]+x["heldNew"]==7
 assert x["previouslyIntegrated"]==204 and x["newTotalIntegrated"]==204+x["integratedNew"]
 assert x["richEditorialAfter"]==723+x["integratedNew"] and x["contextualAfter"]==224-x["integratedNew"]
-assert x["notYetAuthoredAfter"]==168 and x["humanSignoff"] is False and x["physicalRelease"] is False
-assert len(x["decisions"])==14 and len({d["id"] for d in x["decisions"]})==14
+assert x["notYetAuthoredAfter"]==175 and x["humanSignoff"] is False and x["physicalRelease"] is False
+assert len(x["decisions"])==7 and len({d["id"] for d in x["decisions"]})==7
 assert set(x["integratedIds"])=={d["id"] for d in x["decisions"] if d["outcome"]=="AI_EDITORIAL_REVIEWED_READY_FOR_APP_IMPORT"}
 core=ld(A/"official_core.json")
 assert core["datasetVersion"]==x["contentPackVersion"]=="2026.11.27.18"

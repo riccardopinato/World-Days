@@ -32,10 +32,10 @@ def run():
     assert approval["mode"]=="APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH16"
     assert approval["factoryBaseline"]=="9bec235b319963bc05f3c3c4d95d0f6b267bb309"
     assert approval["humanCertified"] is False
-    assert approval["proposedBatch16"]==14
+    assert approval["proposedBatch16"]==7
     assert approval["cohort"]==3
     assert approval["sourceMain"]=="1ff44f526c8bba885dba30a5d2c2f5cc97850b64"
-    assert approval["proposedBatch16"]==len(approval["records"])==14
+    assert approval["proposedBatch16"]==len(approval["records"])==7
     official=load(ASSETS/"official_core.json")
     assert len(official["records"])==947 and official["datasetVersion"]=="2026.11.27.17"
     catalog={r["id"]:r for r in official["records"]}
@@ -114,8 +114,8 @@ def run():
             continue
         selected[oid]=(row,item)
         decisions.append({"id":oid,"outcome":"AI_EDITORIAL_REVIEWED_READY_FOR_APP_IMPORT","gitBlobSha":item["sourceBlobSha"]})
-    assert len(visited)==len(decisions)==14
-    assert len(selected)+sum(z["outcome"].startswith("HOLD") for z in decisions)==14
+    assert len(visited)==len(decisions)==7
+    assert len(selected)+sum(z["outcome"].startswith("HOLD") for z in decisions)==7
     for loc,doc in packs.items():
         rows=lookup[loc]
         for oid,(research,item) in selected.items():
@@ -158,8 +158,8 @@ def run():
     result={
        "schemaVersion":1,"mode":"APP_FACTORY_CORE_V27_WAVE01_COHORT03_BATCH16_AI",
        "sourceMainCommit":approval["sourceMain"],
-       "numberOfNewSixLocaleDossiers":14,
-       "integratedNew":len(selected),"heldNew":14-len(selected),
+       "numberOfNewSixLocaleDossiers":7,
+       "integratedNew":len(selected),"heldNew":7-len(selected),
        "decisions":decisions,
        "integratedIds":sorted(selected),
        "holdIds":[z["id"] for z in decisions if z["outcome"].startswith("HOLD")],
@@ -167,13 +167,14 @@ def run():
        "newTotalIntegrated":204+before+len(selected),
        "richEditorialAfter":723+before+len(selected),
        "contextualAfter":224-before-len(selected),
-       "notYetAuthoredAfter":168,
+       "notYetAuthoredAfter":175,
        "humanSignoff":False,"physicalRelease":False,
        "contentPackVersion":VERSION
     }
     write(OUT,result)
+    print("FASTTRACK_WAVE01_COHORT03_BATCH16_DECISIONS",json.dumps(decisions,sort_keys=True))
     print("FASTTRACK_WAVE01_COHORT03_BATCH16_IMPORT",json.dumps({
-       "drafts":14,"integrated":len(selected),"held":result["heldNew"],
+       "drafts":7,"integrated":len(selected),"held":result["heldNew"],
        "totalRich":result["richEditorialAfter"],"contextual":result["contextualAfter"],
        "newTotal":result["newTotalIntegrated"]},sort_keys=True))
 if __name__=="__main__":run()

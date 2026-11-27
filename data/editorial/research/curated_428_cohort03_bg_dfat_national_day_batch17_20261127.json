@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "bg-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-03",
+  "country": "BG",
+  "documentedIntroductionYear": 1990,
+  "yearMeaning": "1990 establishment of modern national holiday, historically anchored in 1878.",
+  "authority": "Council of Ministers and Ministry of Tourism of Bulgaria",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://tourism.government.bg/en/kategorii/novini/happy-3rd-march",
+      "claim": "Bulgarian Ministry of Tourism traces 3 March to the 1878 preliminary San Stefano treaty and records the 1990 declaration as the Bulgarian national holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Bulgaria marks its National Day on 3 March, recalling the 1878 preliminary Treaty of San Stefano that ended the Russo-Turkish War and opened a new chapter of Bulgarian self-government. The date was formally designated a national holiday in 1990. The observance celebrates liberation while the later Treaty of Berlin also shaped the modern state's boundaries.",
+    "it": "La Bulgaria celebra la Festa nazionale il 3 marzo, ricordando il trattato preliminare di Santo Stefano del 1878, che pose fine alla guerra russo-turca e aprì una nuova fase di autogoverno. La data fu dichiarata festa nazionale nel 1990. La ricorrenza commemora la liberazione, mentre il successivo trattato di Berlino ridisegnò i confini.",
+    "es": "Bulgaria celebra su Fiesta Nacional el 3 de marzo, recordando el tratado preliminar de San Stefano de 1878 que puso fin a la guerra ruso-turca y abrió una etapa de autogobierno. La fecha fue declarada fiesta nacional en 1990. La conmemoración evoca la liberación, aunque el posterior Tratado de Berlín modificó las fronteras.",
+    "fr": "La Bulgarie célèbre sa fête nationale le 3 mars, rappelant le traité préliminaire de San Stefano de 1878, qui mit fin à la guerre russo-turque et ouvrit une période d'autonomie. La date fut déclarée fête nationale en 1990. La commémoration évoque la libération, tandis que le traité de Berlin ultérieur redessina les frontières.",
+    "de": "Bulgarien feiert seinen Nationalfeiertag am 3. März und erinnert an den Vorfrieden von San Stefano aus dem Jahr 1878, der den Russisch-Türkischen Krieg beendete und eine neue Selbstverwaltung einleitete. 1990 wurde das Datum zum Nationalfeiertag erklärt. Das Gedenken würdigt die Befreiung; der spätere Berliner Vertrag veränderte die Grenzen.",
+    "pt": "A Bulgária celebra o Dia Nacional em 3 de março, evocando o tratado preliminar de Santo Estêvão de 1878, que encerrou a guerra russo-turca e abriu uma fase de autonomia. A data foi declarada feriado nacional em 1990. A celebração assinala a libertação, embora o posterior Tratado de Berlim tenha alterado as fronteiras."
+  },
+  "runtimeRichEditorialApproved": false
+}
