@@ -19,6 +19,26 @@ STATUS = "AI_SOURCE_REVIEWED_SIX_LOCALE"
 CONTEXT = "AI_CONTEXTUAL_SIX_LOCALE"
 VERSION = "2026.11.27.1"
 
+WHY_THIS_DATE = {
+    "cz-czech-accession-to-nato-anniversary": {
+        "en": "On 12 March 1999, Czechia formally joined NATO when the accession instruments were deposited. The flag-raising in Brussels followed on 16 March.",
+        "it": "Il 12 marzo 1999 la Repubblica Ceca entrò formalmente nella NATO con il deposito degli strumenti di adesione. L'alzabandiera a Bruxelles avvenne il 16 marzo.",
+        "es": "El 12 de marzo de 1999 Chequia ingresó formalmente en la OTAN con el depósito de los instrumentos de adhesión. El izado de la bandera en Bruselas llegó el 16 de marzo.",
+        "fr": "Le 12 mars 1999, la Tchéquie a officiellement rejoint l'OTAN par le dépôt des instruments d'adhésion. Le drapeau a été hissé à Bruxelles le 16 mars.",
+        "de": "Am 12. März 1999 trat Tschechien durch Hinterlegung der Beitrittsurkunden formell der NATO bei. Die Flagge wurde erst am 16. März in Brüssel gehisst.",
+        "pt": "Em 12 de março de 1999, a Chéquia aderiu formalmente à NATO com o depósito dos instrumentos de adesão. O hastear da bandeira em Bruxelas ocorreu em 16 de março.",
+    },
+    "cz-czech-accession-to-the-european-union-day": {
+        "en": "The EU accession treaty signed on 16 April 2003 entered into force on 1 May 2004, when Czechia became an EU member. Czech law recognizes this date as a significant civic day.",
+        "it": "Il trattato di adesione all'UE, firmato il 16 aprile 2003, entrò in vigore il 1° maggio 2004, quando la Repubblica Ceca ne divenne membro. La legge ceca riconosce la ricorrenza civica.",
+        "es": "El tratado de adhesión a la UE firmado el 16 de abril de 2003 entró en vigor el 1 de mayo de 2004, cuando Chequia se convirtió en miembro. La ley checa reconoce esta fecha cívica.",
+        "fr": "Le traité d'adhésion à l'UE signé le 16 avril 2003 est entré en vigueur le 1er mai 2004, date de l'entrée de la Tchéquie. La loi tchèque reconnaît cette journée civique.",
+        "de": "Der am 16. April 2003 unterzeichnete EU-Beitrittsvertrag trat am 1. Mai 2004 in Kraft; Tschechien wurde EU-Mitglied. Das tschechische Gesetz erkennt diesen Gedenktag an.",
+        "pt": "O tratado de adesão à UE assinado em 16 de abril de 2003 entrou em vigor em 1 de maio de 2004, quando a Chéquia se tornou membro. A lei checa reconhece esta data cívica.",
+    },
+}
+
+
 
 def read(path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -95,6 +115,7 @@ def run():
             entry = by_id[oid]
             assert entry["status"] == CONTEXT, (oid, lang, "cannot overwrite non-contextual editorial")
             entry["origin"] = row["narratives"][lang].strip()
+            entry["whyThisDate"] = WHY_THIS_DATE[oid][lang]
             entry["status"] = STATUS
             entry["lastReviewedAt"] = approved["reviewedAt"]
             entry["sourcePolicy"] = (
