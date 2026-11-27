@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "uk-holocaust-memorial-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-27",
+  "country": "GB",
+  "documentedIntroductionYear": 2001,
+  "yearMeaning": "Event chronology is distinct from first legal or official annual observance.",
+  "authority": "Holocaust Memorial Day Trust (UK Government-established charity)",
+  "dateReason": "Country-specific institutional commemoration and anniversary date",
+  "sourceEvidence": [
+    {
+      "url": "https://hmd.org.uk/about-us/",
+      "claim": "Holocaust Memorial Day Trust confirms the UK has observed Holocaust Memorial Day annually on 27 January since 2001.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The United Kingdom observes Holocaust Memorial Day on 27 January, recalling the liberation of Auschwitz-Birkenau in 1945 and remembering victims of the Holocaust and subsequent genocides. The national observance began in 2001. Public ceremonies, schools and communities use the occasion to confront antisemitism, persecution and hatred, while recognising survivors and the importance of historical testimony.",
+    "it": "Nel Regno Unito il 27 gennaio si celebra il Giorno della memoria dell'Olocausto, nell'anniversario della liberazione di Auschwitz-Birkenau nel 1945. La commemorazione nazionale si svolge dal 2001 e ricorda le vittime della Shoah e dei genocidi successivi. Scuole, comunità e istituzioni riflettono su antisemitismo, persecuzioni e testimonianze dei sopravvissuti.",
+    "es": "El Reino Unido conmemora el Día de la Memoria del Holocausto el 27 de enero, aniversario de la liberación de Auschwitz-Birkenau en 1945. La jornada nacional se celebra desde 2001 y recuerda a las víctimas del Holocausto y de genocidios posteriores. Escuelas y comunidades reflexionan sobre el antisemitismo, la persecución y las voces de los supervivientes.",
+    "fr": "Au Royaume-Uni, la Journée de mémoire de l'Holocauste a lieu le 27 janvier, anniversaire de la libération d'Auschwitz-Birkenau en 1945. Cette commémoration nationale se tient depuis 2001 et rappelle les victimes de la Shoah et de génocides ultérieurs. Écoles et communautés réfléchissent à l'antisémitisme, aux persécutions et aux témoignages des survivants.",
+    "de": "Im Vereinigten Königreich wird am 27. Januar der Holocaust-Gedenktag begangen, am Jahrestag der Befreiung von Auschwitz-Birkenau 1945. Seit 2001 erinnert dieser nationale Tag an die Opfer des Holocaust und späterer Völkermorde. Schulen und Gemeinden setzen sich mit Antisemitismus, Verfolgung und den Berichten Überlebender auseinander.",
+    "pt": "No Reino Unido, o Dia da Memória do Holocausto realiza-se em 27 de janeiro, aniversário da libertação de Auschwitz-Birkenau em 1945. A comemoração nacional existe desde 2001 e recorda vítimas do Holocausto e de genocídios posteriores. Escolas e comunidades refletem sobre antissemitismo, perseguições e testemunhos dos sobreviventes."
+  },
+  "runtimeRichEditorialApproved": false
+}
