@@ -63,7 +63,7 @@ def run():
         assert oid not in visited and oid in allow and oid in catalog
         visited.add(oid)
         p=ROOT/item["sourceFile"]
-        assert p.is_file() and p.parent.name=="research"
+        assert p.is_file() and p.parent.name=="curated_428_wave01_sources"
         assert git_blob(p.read_bytes())==item["sourceBlobSha"],("stale_source_blob",oid)
         row=load(p)
         assert row["id"]==oid and row["cohort"]==cohorts[oid]
