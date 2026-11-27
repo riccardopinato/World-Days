@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 5,
+  "id": "zm-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-24",
+  "country": "ZM",
+  "documentedIntroductionYear": 1964,
+  "yearMeaning": "The Zambia Independence Act 1964 and its appointed day establish independent republican statehood on 24 October 1964. Treat this as the founding event year, without assuming first annual observance statute.",
+  "authority": "Parliament of the United Kingdom; Republic of Zambia",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/1964/65/enacted",
+      "claim": "Zambia Independence Act 1964 appoints 24 October 1964 as the day Northern Rhodesia became the independent Republic of Zambia."
+    }
+  ],
+  "narratives": {
+    "en": "Zambia celebrates Independence Day on 24 October, marking its emergence as an independent republic in 1964 after British colonial administration. The Zambia Independence Act specified that exact date for the transition from Northern Rhodesia to Zambia. The anniversary honors national self-government and the people who pursued political change. The year 1964 identifies the founding event, rather than claiming a separate date for the later holiday legislation.",
+    "it": "Il 24 ottobre lo Zambia celebra l'indipendenza, raggiunta nel 1964 dopo l'amministrazione coloniale britannica. Lo Zambia Independence Act stabilì quella data esatta per il passaggio dalla Rhodesia Settentrionale alla Repubblica dello Zambia. La ricorrenza onora l'autogoverno e quanti sostennero il cambiamento politico. Il 1964 indica l'evento fondativo, senza attribuire un anno inventato alla successiva normativa festiva.",
+    "es": "Zambia celebra su Independencia el 24 de octubre, cuando se convirtió en república independiente en 1964 tras la administración colonial británica. La Ley de Independencia de Zambia fijó expresamente esa fecha para la transición desde Rodesia del Norte. El aniversario honra el autogobierno y a quienes impulsaron el cambio político. El año 1964 corresponde al hecho fundacional, sin inventar una fecha distinta para la legislación del festivo.",
+    "fr": "La Zambie célèbre son indépendance le 24 octobre, date de sa naissance en tant que république indépendante en 1964 après l'administration coloniale britannique. La loi sur l'indépendance de la Zambie fixa précisément la transition de la Rhodésie du Nord vers la Zambie. La fête honore l'autonomie politique et ceux qui y contribuèrent. L'année 1964 désigne l'événement fondateur, sans préjuger de la législation ultérieure sur le jour férié.",
+    "de": "Sambia feiert seine Unabhängigkeit am 24. Oktober, als das Land 1964 nach britischer Kolonialverwaltung zur unabhängigen Republik wurde. Der Zambia Independence Act bestimmte dieses Datum ausdrücklich für den Übergang von Nordrhodesien zu Sambia. Der Jahrestag würdigt Selbstregierung und die Menschen, die den politischen Wandel vorantrieben. 1964 bezeichnet die Staatsgründung und kein gesondert behauptetes Feiertagsgesetz.",
+    "pt": "A Zâmbia celebra a independência em 24 de outubro, quando se tornou república independente em 1964 após a administração colonial britânica. O Zambia Independence Act fixou essa data para a transição da Rodésia do Norte para a Zâmbia. A comemoração homenageia o autogoverno e quem promoveu a mudança política. O ano 1964 refere-se ao acontecimento fundador, sem inventar outra data para a legislação do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}
