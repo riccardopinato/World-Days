@@ -60,5 +60,24 @@ class FastTrackGateTests(unittest.TestCase):
         row["narratives"]["es"] += " [TODO]"
         self.assertIn("PLACEHOLDER_ES", audit_row(row, catalog)["errors"])
 
+    def test_exact_canonical_movable_day(self):
+        row, catalog = fixture()
+        row["date"] = None
+        row["dateRule"] = {"kind": "nth_weekday", "month": 9,
+                           "weekday": "sunday", "nth": 2}
+        catalog["ee-example"]["recurrenceRules"] = [
+            {"kind": "NTH_WEEKDAY", "month": 9, "weekday": 7, "occurrence": 2}
+        ]
+        self.assertNotIn("DATE_NEEDS_RECURRENCE_CHECK", audit_row(row, catalog)["reviews"])
+    def test_incorrect_movable_day_is_review(self):
+        row, catalog = fixture()
+        row["date"] = None
+        row["dateRule"] = {"kind": "nth_weekday", "month": 9,
+                           "weekday": "sunday", "nth": 3}
+        catalog["ee-example"]["recurrenceRules"] = [
+            {"kind": "NTH_WEEKDAY", "month": 9, "weekday": 7, "occurrence": 2}
+        ]
+        self.assertIn("DATE_NEEDS_RECURRENCE_CHECK", audit_row(row, catalog)["reviews"])
+
 if __name__ == "__main__":
     unittest.main()
