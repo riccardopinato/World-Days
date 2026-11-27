@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "uk-merchant-navy-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-03",
+  "country": "GB",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Event chronology is distinct from first legal or official annual observance.",
+  "authority": "UK Department for Transport",
+  "dateReason": "Country-specific institutional commemoration and anniversary date",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.uk/government/news/flying-the-flag-for-merchant-navy-day",
+      "claim": "UK Department for Transport states Merchant Navy Day was initiated in 2000 and is observed annually on 3 September.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Britain marks Merchant Navy Day on 3 September to recognise civilian seafarers who carry essential supplies and served through wartime danger. The date recalls the outbreak of the Second World War in 1939 and the sinking of the merchant ship Athenia. The annual day was introduced in 2000; raising the Red Ensign honours past losses and today's maritime workforce.",
+    "it": "Il Regno Unito celebra la Giornata della marina mercantile il 3 settembre, rendendo omaggio ai marinai civili che hanno trasportato rifornimenti anche in guerra. La data richiama l'inizio della Seconda guerra mondiale nel 1939 e l'affondamento della nave Athenia. La ricorrenza è stata introdotta nel 2000 e si espone il Red Ensign in memoria del servizio marittimo.",
+    "es": "El Reino Unido celebra el Día de la Marina Mercante el 3 de septiembre, en reconocimiento a los marinos civiles que transportaron suministros incluso durante la guerra. La fecha recuerda el inicio de la Segunda Guerra Mundial en 1939 y el hundimiento del Athenia. La jornada se introdujo en 2000 y la bandera Red Ensign homenajea a quienes trabajaron en el mar.",
+    "fr": "Le Royaume-Uni célèbre la Journée de la marine marchande le 3 septembre pour honorer les marins civils ayant acheminé des fournitures, même en temps de guerre. La date rappelle le début de la Seconde Guerre mondiale en 1939 et le naufrage de l'Athenia. Instituée en 2000, la journée est marquée par le pavillon Red Ensign et le souvenir des équipages.",
+    "de": "Großbritannien begeht am 3. September den Tag der Handelsmarine und würdigt zivile Seeleute, die auch in Kriegszeiten lebenswichtige Güter transportierten. Das Datum erinnert an den Kriegsbeginn 1939 und den Untergang der Athenia. Der Gedenktag wurde 2000 eingeführt; die rote Handelsflagge erinnert an Verluste und den heutigen Seeverkehr.",
+    "pt": "O Reino Unido assinala o Dia da Marinha Mercante em 3 de setembro, homenageando marinheiros civis que transportaram bens essenciais mesmo durante guerras. A data recorda o início da Segunda Guerra Mundial em 1939 e o afundamento do Athenia. Instituído em 2000, o dia é marcado pela bandeira Red Ensign e pela memória dos tripulantes."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "hr-antifascist-resistance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-22",
+  "country": "HR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from formal or first observance year; null when unverified.",
+  "authority": "Government of the Republic of Croatia",
+  "dateReason": "Country-specific government record establishes observed date",
+  "sourceEvidence": [
+    {
+      "url": "https://vlada.gov.hr/print.aspx?id=35646&url=print",
+      "claim": "Croatian government confirms 22 June as Antifascist Struggle Day, recalling the first partisan detachment formed near Sisak in 1941.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Croatia observes Antifascist Struggle Day on 22 June, recalling the founding of a partisan detachment near Sisak in 1941 after Nazi Germany attacked the Soviet Union. The wartime resistance became part of the broader anti-fascist movement in Yugoslavia. The public holiday honours opposition to fascism and the people who resisted occupation; the formation date is distinct from the holiday's later legal status.",
+    "it": "La Croazia celebra il 22 giugno la Giornata della lotta antifascista. Ricorda la formazione di un distaccamento partigiano presso Sisak nel 1941, dopo l'attacco tedesco all'Unione Sovietica. La resistenza bellica confluì nel più ampio movimento antifascista jugoslavo. La festività onora chi si oppose al fascismo e all'occupazione, distinguendo l'evento storico dal successivo riconoscimento legale.",
+    "es": "Croacia celebra el Día de la Lucha Antifascista el 22 de junio, recordando la formación de un destacamento partisano cerca de Sisak en 1941, tras el ataque alemán a la Unión Soviética. La resistencia se integró en el movimiento antifascista yugoslavo. La fiesta honra a quienes combatieron el fascismo y la ocupación, sin confundir el acontecimiento con la posterior legislación.",
+    "fr": "La Croatie célèbre le 22 juin la Journée de la lutte antifasciste, rappelant la création d'un détachement de partisans près de Sisak en 1941, après l'attaque allemande contre l'Union soviétique. La résistance rejoignit le mouvement antifasciste yougoslave. Ce jour férié honore l'opposition au fascisme et à l'occupation, sans confondre l'événement et la reconnaissance juridique ultérieure.",
+    "de": "Kroatien begeht am 22. Juni den Tag des antifaschistischen Kampfes. Er erinnert an die Gründung einer Partisaneneinheit bei Sisak im Jahr 1941 nach dem deutschen Angriff auf die Sowjetunion. Der Widerstand wurde Teil der breiteren antifaschistischen Bewegung Jugoslawiens. Der Feiertag ehrt den Kampf gegen Faschismus und Besatzung; das historische Ereignis ist von späterem Feiertagsrecht zu trennen.",
+    "pt": "A Croácia celebra em 22 de junho o Dia da Luta Antifascista, recordando a criação de um destacamento partidário perto de Sisak em 1941, após o ataque alemão à União Soviética. A resistência integrou o movimento antifascista jugoslavo. O feriado homenageia quem combateu o fascismo e a ocupação, distinguindo o facto histórico do reconhecimento legal posterior."
+  },
+  "runtimeRichEditorialApproved": false
+}

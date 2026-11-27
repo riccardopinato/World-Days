@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH02",
+  "factoryBaseline": "a185c16000608b90c5db639f37903b49b059b10b",
+  "sourceMain": "f63f10fd4fe3d6aa59cd769e80479ec9f65f1f03",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "The 10 record-specific government/archive pages were located through live web search and dates, subject, history and six locale numeric anchors checked; not human certified, not all subordinate assertions independently verified.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedFromWave01": 18,
+  "alreadyPreparedAndNotIntegratedWave01": 1,
+  "proposedBatch02": 10,
+  "records": [
+    {
+      "id": "germany-basic-law-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_germany_basic_law_day_20261127.json",
+      "sourceBlobSha": "fe3e7705c684daf3c7716b471796e3e8de60f453",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "hr-antifascist-resistance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_hr_antifascist_resistance_day_20261127.json",
+      "sourceBlobSha": "8314e4e15b978f54e6b26c8f7b2271a194cba65a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "hr-homeland-war-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_hr_homeland_war_remembrance_day_20261127.json",
+      "sourceBlobSha": "38993e8958c511e2736df87c4d9ead9f31a7c370",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "hr-victory-and-homeland-thanksgiving-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_hr_victory_and_homeland_thanksgiving_day_20261127.json",
+      "sourceBlobSha": "3fa80b6283382a8bed471a05d4befbff0c1b60c6",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "uk-holocaust-memorial-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_holocaust_memorial_day_20261127.json",
+      "sourceBlobSha": "c57c3f4a8b26166c6163e209c683c4aa168d70a4",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "uk-merchant-navy-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_merchant_navy_day_20261127.json",
+      "sourceBlobSha": "cd0aaac49a5595dfc13b94aaffa798fb31fd6654",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "uk-stephen-lawrence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_stephen_lawrence_day_20261127.json",
+      "sourceBlobSha": "78fae4eb17df8ec33a47eaa2a474b9bc2dd66c2e",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "uk-victory-in-europe-commemoration",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_victory_in_europe_commemoration_20261127.json",
+      "sourceBlobSha": "251de4802ac1dabb161ec6e6ea5858c02e7b6cd0",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "uk-victory-over-japan-commemoration",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_victory_over_japan_commemoration_20261127.json",
+      "sourceBlobSha": "2a8a3628d8bcbf50704ef0c7f535ce1aa40a8f21",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "za-youth-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_za_youth_day_20261127.json",
+      "sourceBlobSha": "4ce8bf27cb8763e1428845f618e035d357a0218a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
