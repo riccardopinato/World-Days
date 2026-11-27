@@ -20,8 +20,8 @@
       "claim": "Current consolidated §3(k) retains 4 August as Deň Matice slovenskej."
     },
     {
-      "url": "https://www.matica.sk/",
-      "claim": "Official institution website for Matica slovenská; institutional background. The founding date is corroborated by the 1863 historical account, but no first annual commemoration is established."
+      "url": "https://matica.sk/o-matici-slovenskej/dejiny-ustanovizne/",
+      "claim": "Matica slovenská's own institutional history documents its founding general assembly held in Martin on 4 August 1863 and its early cultural and educational mission."
     }
   ],
   "narratives": {
@@ -32,5 +32,10 @@
     "de": "Am 4. August erinnert die Slowakei an Matica slovenská, die 1863 an diesem Tag bei einer Gründungsversammlung in Martin entstand. Die nationale Kulturinstitution förderte die slowakische Sprache, Literatur, Bildung und das kulturelle Leben und wurde für die Nationalbewegung bedeutsam. Bereits die ursprüngliche Fassung des Gesetzes 241/1993 erkennt den Tag ausdrücklich als staatlichen Gedenktag an. Die Gründung 1863 ist nicht mit der gesetzlichen Anerkennung 1993 gleichzusetzen; eine erste jährliche Feier ist nicht nachgewiesen.",
     "pt": "A 4 de agosto, a Eslováquia recorda a Matica slovenská, instituição cultural nacional fundada nesse dia de 1863 numa assembleia inaugural em Martin. A organização nasceu para promover a língua, a literatura, a educação e a vida cultural eslovacas, tornando-se importante no renascimento nacional. A Lei 241/1993 reconhece expressamente a data como dia cívico de memória desde a versão original. A fundação de 1863 e o reconhecimento legal de 1993 são marcos distintos; a primeira celebração anual não foi confirmada."
   },
-  "runtimeRichEditorialApproved": false
+  "runtimeRichEditorialApproved": false,
+  "sourceReviewEvidence": {
+    "specificInstitutionalPageCheckedOn": "2026-11-27",
+    "verifiedSpecificSourceUrl": "https://matica.sk/o-matici-slovenskej/dejiny-ustanovizne/",
+    "note": "Replaces non-evidentiary institution homepage; six narratives and review=PENDING are unchanged."
+  }
 }
