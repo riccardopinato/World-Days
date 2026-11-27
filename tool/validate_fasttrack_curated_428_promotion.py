@@ -36,6 +36,9 @@ for lang in LANGS:
     for oid, row in selected.items():
         assert row["status"] == "AI_SOURCE_REVIEWED_SIX_LOCALE", (lang, oid)
         assert len(row["origin"].strip()) >= 180, (lang, oid)
+        assert len(row["whyThisDate"].strip()) >= 85, (lang, oid)
+        assert "not independently established" not in row["whyThisDate"].lower(), (lang, oid)
+        assert "1999" in row["whyThisDate"] if "nato" in oid else "2004" in row["whyThisDate"], (lang, oid)
         assert row["aiEditorialProvenance"]["reviewLevel"] == "AI_EDITORIAL_REVIEWED"
         assert not row["aiEditorialProvenance"]["humanSignoff"]
     assert sum(r["status"] == "AI_CONTEXTUAL_SIX_LOCALE" for r in entries) == 426, lang
