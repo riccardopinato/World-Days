@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-volunteerism-month-philippines",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 1998,
+  "yearMeaning": "Legislative creation year of the recurring nationally defined month/week, not the original beginning of local cultural practice.",
+  "authority": "Philippine National Volunteer Service Coordinating Agency",
+  "dateReason": "Month/week recurrence anchored in explicit primary proclamation; canonical recurrence rule and monthly interval must be checked before app publication.",
+  "sourceEvidence": [
+    {
+      "url": "https://pnvsca.gov.ph/?page_id=92",
+      "claim": "The national government volunteer agency documents Proclamation No. 55 of 1998 designating every December as National Volunteer Month.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "December is National Volunteer Month in the Philippines, established by Presidential Proclamation No. 55 in 1998. It honours people who give time, skills and resources to communities and builds on the Filipino idea of bayanihan, helping one another. The initiative invites government, civic organisations and citizens to support volunteer work.",
+    "it": "Nelle Filippine dicembre è il Mese nazionale del volontariato, istituito con il Proclama presidenziale n. 55 del 1998. La ricorrenza valorizza chi dedica tempo, competenze e risorse alle comunità, richiamando lo spirito del bayanihan, l'aiuto reciproco. Enti pubblici, associazioni e cittadini sono invitati a partecipare.",
+    "es": "En Filipinas, diciembre es el Mes Nacional del Voluntariado, instituido por la Proclamación presidencial n.º 55 de 1998. Reconoce a quienes ofrecen tiempo, capacidades y recursos a las comunidades y retoma la tradición de ayuda mutua llamada bayanihan. Participan organismos públicos, asociaciones y ciudadanía.",
+    "fr": "Aux Philippines, décembre est le Mois national du bénévolat, institué par la proclamation présidentielle no 55 de 1998. Il honore celles et ceux qui offrent leur temps, leurs compétences et leurs ressources aux communautés, dans l'esprit du bayanihan, l'entraide traditionnelle. Les institutions, associations et citoyens sont invités à participer.",
+    "de": "Auf den Philippinen ist der Dezember seit der Präsidialproklamation Nr. 55 von 1998 der Nationale Monat der Freiwilligenarbeit. Er würdigt Menschen, die Gemeinschaften Zeit, Fähigkeiten und Mittel schenken, und knüpft an den Gedanken des Bayanihan, gegenseitiger Hilfe, an. Behörden, Vereine und Bürger sollen sich beteiligen.",
+    "pt": "Nas Filipinas, dezembro é o Mês Nacional do Voluntariado, instituído pela Proclamação presidencial n.º 55 de 1998. Homenageia quem dedica tempo, competências e recursos às comunidades e valoriza o bayanihan, a tradição de ajuda mútua. Instituições públicas, associações e cidadãos são convidados a participar."
+  },
+  "runtimeRichEditorialApproved": false
+}
