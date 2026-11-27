@@ -140,6 +140,22 @@ def run():
     }
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     write(REPORT_PATH, report)
+    queue_index_path = ROOT / "reports/editorial_curated_428_origin_research/index.json"
+    if queue_index_path.exists():
+        original_queue = read(queue_index_path)
+        assert original_queue["contextualOriginPending"] == 428
+        original_queue["sourceQueueOriginalTotal"] = 428
+        original_queue["cohortsAreOriginalResearchAssignments"] = True
+        original_queue["fastTrackIntegratedIds"] = ids
+        original_queue["nonContextualRich"] = report["originRichInAppBuild"]
+        original_queue["contextualOriginPending"] = report["contextualOriginsRemainingInAppBuild"]
+        original_queue["notYetPersonallyResearched"] = report["contextualOriginsRemainingInAppBuild"]
+        by_country = original_queue.get("countriesPending", {})
+        for oid in ids:
+            country = row_by_id[oid][0]["country"]
+            assert by_country[country] > 0
+            by_country[country] -= 1
+        write(queue_index_path, original_queue)
     print("FASTTRACK_CURATED_428_IMPORTED", json.dumps(report, sort_keys=True))
 
 
