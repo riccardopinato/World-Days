@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 5,
+  "id": "ua-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-24",
+  "country": "UA",
+  "documentedIntroductionYear": 1992,
+  "yearMeaning": "The independence declaration was adopted 24 August 1991; the 24 August national holiday is recorded in law from 1992. This year is statutory recognition, not the declaration's year.",
+  "authority": "Verkhovna Rada of Ukraine",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://dn.gov.ua/en/news/narodzhennia-sviata-vidznachennia-dnia-nezalezhnosti-ukrainy-u-1991-rotsi",
+      "claim": "Ukrainian regional government history documents 24 August 1991 declaration and that 24 August was enshrined as legal holiday from 1992."
+    }
+  ],
+  "narratives": {
+    "en": "Ukraine celebrates Independence Day on 24 August, the anniversary of its parliament's 1991 Act of Declaration of Independence. The decision was later confirmed by a nationwide referendum in December 1991. A government historical account identifies 1992 as the year the 24 August holiday was enshrined in law. The distinction between the declaration in 1991 and its statutory annual commemoration in 1992 is important.",
+    "it": "Il 24 agosto l'Ucraina celebra l'indipendenza, ricordando l'atto approvato dal Parlamento nel 1991. La scelta fu confermata da un referendum nazionale nel dicembre dello stesso anno. Una ricostruzione governativa indica nel 1992 l'anno in cui il 24 agosto venne formalizzato per legge come festa. Occorre distinguere la dichiarazione storica del 1991 dall'istituzione della ricorrenza annuale nel 1992.",
+    "es": "Ucrania celebra la Independencia el 24 de agosto, aniversario del acto aprobado por su Parlamento en 1991. La decisión se confirmó en un referéndum nacional en diciembre de aquel año. Una reconstrucción gubernamental sitúa en 1992 el reconocimiento legal del 24 de agosto como día festivo. Es importante distinguir la declaración de 1991 de la conmemoración anual instituida en 1992.",
+    "fr": "L'Ukraine célèbre son indépendance le 24 août, anniversaire de l'acte adopté par son Parlement en 1991. La décision fut confirmée par référendum national en décembre de la même année. Un récit historique gouvernemental indique que le 24 août devint légalement férié en 1992. Il importe de distinguer la déclaration de 1991 de sa commémoration annuelle instituée en 1992.",
+    "de": "Die Ukraine feiert ihre Unabhängigkeit am 24. August, dem Jahrestag des Parlamentsbeschlusses von 1991. Die Entscheidung wurde im Dezember desselben Jahres durch eine landesweite Volksabstimmung bestätigt. Eine Darstellung der Regierung nennt 1992 als Jahr der gesetzlichen Festlegung des Feiertags am 24. August. Die Erklärung von 1991 und die jährliche gesetzliche Feier seit 1992 sind zu unterscheiden.",
+    "pt": "A Ucrânia celebra a independência em 24 de agosto, aniversário do ato aprovado pelo Parlamento em 1991. A decisão foi confirmada por referendo nacional em dezembro do mesmo ano. Uma fonte governamental aponta 1992 como o ano da consagração legal do feriado de 24 de agosto. Importa distinguir a declaração de 1991 da comemoração anual instituída em 1992."
+  },
+  "runtimeRichEditorialApproved": false
+}
