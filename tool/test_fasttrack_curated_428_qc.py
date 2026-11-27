@@ -48,5 +48,17 @@ class FastTrackGateTests(unittest.TestCase):
         row["narratives"]["it"] = row["narratives"]["en"]
         self.assertEqual(audit_row(row, catalog)["outcome"], "HOLD")
 
+    def test_todo_as_normal_spanish_portuguese_word(self):
+        row, catalog = fixture()
+        row["narratives"]["es"] += " Todo el pueblo conserva memoria del acontecimiento."
+        row["narratives"]["pt"] += " Todo o país recorda essa memória coletiva."
+        result = audit_row(row, catalog)
+        self.assertNotIn("PLACEHOLDER_ES", result["errors"])
+        self.assertNotIn("PLACEHOLDER_PT", result["errors"])
+    def test_explicit_todo_marker_remains_hold(self):
+        row, catalog = fixture()
+        row["narratives"]["es"] += " [TODO]"
+        self.assertIn("PLACEHOLDER_ES", audit_row(row, catalog)["errors"])
+
 if __name__ == "__main__":
     unittest.main()
