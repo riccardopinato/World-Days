@@ -161,6 +161,8 @@ jobs:
           python3 tool/validate_fasttrack_cohort03_batch17.py
           python3 tool/promote_curated_428_fasttrack_cohort03_batch18.py
           python3 tool/validate_fasttrack_cohort03_batch18.py
+          python3 tool/promote_curated_428_fasttrack_cohort03_batch19.py
+          python3 tool/validate_fasttrack_cohort03_batch19.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py

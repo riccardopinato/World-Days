@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "is-commerce-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "FIRST_MONDAY_AUGUST",
+  "country": "IS",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First celebration in 1894 and weekday selection in 1931; legal enactment year not established.",
+  "authority": "VR Icelandic trade union",
+  "dateReason": "The first celebration was 13 September 1894; the first Monday of August was selected in 1931.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.vr.is/en/employment-terms/working-hours/public-holidays-and-major-public-holidays/fridagur-verslunarmanna-august-bank-holiday/",
+      "claim": "VR documents the first celebration on 13 September 1894 and adoption of the first Monday in August in 1931.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Iceland's Commerce Day began as a day off for shop assistants in Reykjavík. Following an agreement with major merchants, workers gathered on 13 September 1894 for a procession, speeches and festivities. The date moved during the early decades, until the first Monday of August was chosen in 1931. Its long weekend now connects a labour-history achievement with nationwide summer gatherings.",
+    "it": "La Giornata del commercio islandese nacque come riposo per i commessi di Reykjavík. Dopo un accordo con i principali commercianti, il 13 settembre 1894 i lavoratori parteciparono a un corteo e a festeggiamenti. La data cambiò più volte, finché nel 1931 fu scelto il primo lunedì di agosto. Oggi il lungo fine settimana unisce una conquista lavorativa alle feste estive.",
+    "es": "El Día del Comercio de Islandia nació como descanso para los dependientes de Reykjavík. Tras un acuerdo con los principales comerciantes, el 13 de septiembre de 1894 hubo una marcha, discursos y celebraciones. La fecha cambió varias veces hasta que en 1931 se fijó el primer lunes de agosto. El fin de semana largo une hoy una conquista laboral con las fiestas estivales.",
+    "fr": "La fête du Commerce islandaise est née d'un congé accordé aux employés des magasins de Reykjavík. Après un accord avec de grands commerçants, ils défilèrent et célébrèrent cette journée le 13 septembre 1894. La date varia avant d'être fixée au premier lundi d'août en 1931. Ce long week-end relie désormais une avancée sociale aux fêtes estivales.",
+    "de": "Der isländische Handelstag entstand als freier Tag für Ladenangestellte in Reykjavík. Nach einer Vereinbarung mit größeren Kaufleuten feierten Beschäftigte am 13. September 1894 mit Umzug und Reden. Das Datum wechselte mehrfach, bis 1931 der erste Montag im August festgelegt wurde. Heute verbindet das lange Wochenende eine Errungenschaft der Arbeitsgeschichte mit Sommerfesten.",
+    "pt": "O Dia do Comércio da Islândia começou como folga para empregados de lojas de Reykjavík. Após um acordo com comerciantes, em 13 de setembro de 1894 houve desfile, discursos e celebrações. A data variou até à escolha da primeira segunda-feira de agosto, em 1931. Hoje, o fim de semana prolongado liga uma conquista laboral às festas de verão."
+  },
+  "runtimeRichEditorialApproved": false
+}

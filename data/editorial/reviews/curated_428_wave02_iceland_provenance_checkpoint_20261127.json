@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "wave02 research-only",
+  "sourceCommit": "ff7ec9caa4745773cfc09330bb86a659234a25a0",
+  "localeRequirement": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "records": [
+    {
+      "id": "is-commerce-day",
+      "sourcePath": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_commerce_day_20261127.json",
+      "sourceBlobSha": "2ffe8f7ece7d247c388c807dc0011ec12f8240ce",
+      "structuralSixLocale": "PASS",
+      "historicalSourceVerification": "PENDING_INDEPENDENT_REVIEW",
+      "editorialReview": "PENDING",
+      "runtimePromotion": false
+    },
+    {
+      "id": "is-first-day-of-summer",
+      "sourcePath": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_first_day_of_summer_20261127.json",
+      "sourceBlobSha": "d9abf413820f7c954f5402b89026c0d02d64de59",
+      "structuralSixLocale": "PASS",
+      "historicalSourceVerification": "PENDING_INDEPENDENT_REVIEW",
+      "editorialReview": "PENDING",
+      "runtimePromotion": false
+    },
+    {
+      "id": "is-independence-day",
+      "sourcePath": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_independence_day_20261127.json",
+      "sourceBlobSha": "13e3915842516bf64f2b860886467640101baf05",
+      "structuralSixLocale": "PASS",
+      "historicalSourceVerification": "PENDING_INDEPENDENT_REVIEW",
+      "editorialReview": "PENDING",
+      "runtimePromotion": false
+    }
+  ],
+  "counts": {
+    "sourceAuthored6": 3,
+    "sourceHold6": 0,
+    "runtimeIntegrated6": 0
+  },
+  "note": "Git blob identities and six-locale key presence checked on PR #190. This is not a factual certification or authorization to import."
+}
