@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "us-thanksgiving-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "US",
+  "documentedIntroductionYear": 1941,
+  "yearMeaning": "1941 established current federal fourth-Thursday rule, not origins of Thanksgiving as cultural practice.",
+  "authority": "United States National Archives",
+  "dateReason": "Official recurring nth-weekday rule; requires matching canonical recurrenceRules before publication.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.archives.gov/legislative/features/thanksgiving",
+      "claim": "US National Archives confirm that the federal Thanksgiving holiday was fixed on the fourth Thursday of November by a law signed December 26, 1941.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The United States celebrates Thanksgiving on the fourth Thursday in November. Families and communities gather for meals and expressions of gratitude, while the holiday also prompts reflection on Indigenous history and the complex colonial past. Congress settled the modern federal date in 1941 after earlier presidential proclamations and disputes over its placement.",
+    "it": "Gli Stati Uniti celebrano il Giorno del Ringraziamento il quarto giovedì di novembre. Famiglie e comunità si riuniscono per un pasto ed esprimere gratitudine, mentre la ricorrenza invita anche a riflettere sulla storia indigena e sul passato coloniale. Il Congresso fissò l'attuale data federale nel 1941, dopo precedenti proclami e cambiamenti di calendario.",
+    "es": "Estados Unidos celebra Acción de Gracias el cuarto jueves de noviembre. Familias y comunidades se reúnen para compartir una comida y expresar gratitud, mientras la fecha invita a reflexionar sobre la historia indígena y el pasado colonial. El Congreso fijó la fecha federal moderna en 1941 después de proclamaciones y controversias anteriores.",
+    "fr": "Les États-Unis célèbrent Thanksgiving le quatrième jeudi de novembre. Familles et communautés partagent un repas et expriment leur gratitude, tandis que la journée invite aussi à réfléchir à l'histoire autochtone et au passé colonial. Le Congrès a fixé la date fédérale actuelle en 1941 après des proclamations et des débats antérieurs.",
+    "de": "Die Vereinigten Staaten feiern Thanksgiving am vierten Donnerstag im November. Familien und Gemeinschaften kommen zu Mahlzeiten zusammen und drücken Dankbarkeit aus; der Tag regt auch zum Nachdenken über indigene Geschichte und die koloniale Vergangenheit an. Der Kongress legte den heutigen bundesweiten Termin 1941 nach früheren Änderungen verbindlich fest.",
+    "pt": "Os Estados Unidos celebram o Dia de Ação de Graças na quarta quinta-feira de novembro. Famílias e comunidades reúnem-se para refeições e agradecimentos, enquanto a data também convida à reflexão sobre a história indígena e o passado colonial. O Congresso fixou a data federal moderna em 1941, após proclamações e controvérsias anteriores."
+  },
+  "runtimeRichEditorialApproved": false
+}
