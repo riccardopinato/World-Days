@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-republic-proclamation-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-18",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Latvian Ministry of Foreign Affairs",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gov.lv/en/11-national-hollidays-and-remembrance-days",
+      "claim": "Latvian Ministry of Foreign Affairs lists 18 November 1918 as the proclamation of the Republic of Latvia.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia celebrates its National Day on 18 November, the anniversary of the proclamation of the Republic in Riga in 1918. The new state emerged as the First World War ended and the Russian and German empires lost control. Independence then had to be defended through armed conflict. The holiday marks the republic's founding declaration, distinct from the restoration of statehood in May 1990.",
+    "it": "La Lettonia celebra la festa nazionale il 18 novembre, anniversario della proclamazione della Repubblica a Riga nel 1918. Il nuovo Stato nacque alla fine della Prima guerra mondiale, nel crollo dei poteri imperiali russo e tedesco, e dovette poi difendere l'indipendenza con le armi. La ricorrenza distingue la fondazione della repubblica dal ripristino della sovranità nel maggio 1990.",
+    "es": "Letonia celebra su Día Nacional el 18 de noviembre, aniversario de la proclamación de la República en Riga en 1918. El nuevo Estado surgió al finalizar la Primera Guerra Mundial, cuando perdían poder los imperios ruso y alemán, y tuvo que defender su independencia. La fecha distingue la fundación republicana de la restauración de la soberanía en mayo de 1990.",
+    "fr": "La Lettonie célèbre sa fête nationale le 18 novembre, anniversaire de la proclamation de la République à Riga en 1918. Le nouvel État naquit à la fin de la Première Guerre mondiale, lors de l'effondrement des pouvoirs impériaux russe et allemand, puis dut défendre son indépendance. La date distingue la fondation de la république du rétablissement de la souveraineté en mai 1990.",
+    "de": "Lettland feiert seinen Nationaltag am 18. November, dem Jahrestag der Ausrufung der Republik in Riga 1918. Der neue Staat entstand am Ende des Ersten Weltkriegs, als russische und deutsche Imperien an Macht verloren, und musste seine Unabhängigkeit anschließend verteidigen. Das Datum unterscheidet die Staatsgründung von der Wiederherstellung der Souveränität im Mai 1990.",
+    "pt": "A Letónia celebra o Dia Nacional em 18 de novembro, aniversário da proclamação da República em Riga em 1918. O novo Estado nasceu no fim da Primeira Guerra Mundial, quando os impérios russo e alemão perderam poder, e teve de defender a independência. A data distingue a fundação republicana da restauração da soberania em maio de 1990."
+  },
+  "runtimeRichEditorialApproved": false
+}
