@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "portugal-freedom-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-25",
+  "country": "PT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "25 April 1974 marks the Carnation Revolution; the year of first statutory designation as a public holiday has not been separately verified.",
+  "authority": "Assembly of the Republic of Portugal",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.parlamento.pt/Parlamento/Paginas/dias-democracia.aspx",
+      "claim": "The Portuguese parliament identifies the Armed Forces Movement's overthrow of the Estado Novo regime on 25 April 1974."
+    }
+  ],
+  "narratives": {
+    "en": "Portugal celebrates Freedom Day on 25 April, recalling the Carnation Revolution of 1974. The Armed Forces Movement ended the Estado Novo dictatorship, opening the way to democratic institutions and an end to the colonial wars. The carnation became a symbol of the peaceful public celebrations around the change of power. The holiday remembers the democratic transition, while 1974 denotes the revolutionary event rather than a separately verified holiday-law date.",
+    "it": "Il 25 aprile il Portogallo celebra la libertà ricordando la Rivoluzione dei garofani del 1974. Il Movimento delle Forze Armate pose fine alla dittatura dell'Estado Novo, aprendo la strada alle istituzioni democratiche e alla conclusione delle guerre coloniali. Il garofano divenne simbolo delle manifestazioni popolari. La festa ricorda la transizione democratica: il 1974 è l'anno della rivoluzione, non necessariamente quello della sua istituzione legislativa.",
+    "es": "El 25 de abril Portugal celebra la libertad recordando la Revolución de los Claveles de 1974. El Movimiento de las Fuerzas Armadas puso fin a la dictadura del Estado Novo, dando paso a instituciones democráticas y al final de las guerras coloniales. El clavel se convirtió en símbolo de las celebraciones populares. La fiesta recuerda la transición democrática; 1974 es el año de la revolución, no necesariamente el de su reconocimiento legal.",
+    "fr": "Le 25 avril, le Portugal célèbre la liberté en rappelant la révolution des Œillets de 1974. Le Mouvement des forces armées mit fin à la dictature de l'Estado Novo, ouvrant la voie aux institutions démocratiques et à la fin des guerres coloniales. L'œillet devint le symbole des rassemblements populaires. La fête commémore la transition démocratique ; 1974 est l'année de la révolution, non nécessairement celle de la loi créant le jour férié.",
+    "de": "Am 25. April feiert Portugal den Tag der Freiheit im Gedenken an die Nelkenrevolution von 1974. Die Bewegung der Streitkräfte beendete die Estado-Novo-Diktatur und öffnete den Weg zu demokratischen Institutionen und zum Ende der Kolonialkriege. Die Nelke wurde zum Symbol der Volksfeiern. Der Tag erinnert an den demokratischen Wandel; 1974 bezeichnet das Revolutionsjahr und nicht zwingend das gesetzliche Einführungsjahr.",
+    "pt": "Em 25 de abril, Portugal celebra a liberdade e recorda a Revolução dos Cravos de 1974. O Movimento das Forças Armadas pôs fim à ditadura do Estado Novo, abrindo caminho às instituições democráticas e ao fim da guerra colonial. O cravo tornou-se símbolo das comemorações populares. O feriado recorda a transição democrática; 1974 é o ano da revolução, não necessariamente o da sua criação legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

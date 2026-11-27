@@ -1,0 +1,1180 @@
+{
+  "schemaVersion": 1,
+  "kind": "RESEARCH_BLOCK_ASSIGNMENT_ONLY",
+  "baseMainSha": "6820b1d1ff1bf8268c41e2b43f124c952a9ecb42",
+  "snapshotPrepared": 141,
+  "snapshotRemaining": 287,
+  "sourceArtifactId": 14987069817,
+  "blocks": [
+    {
+      "blockId": "B001",
+      "target": 100,
+      "status": "NOT_COMPLETE",
+      "assignments": [
+        {
+          "id": "ee-midsummer-day",
+          "cohort": 2
+        },
+        {
+          "id": "no-w13-eures-labour-day",
+          "cohort": 3
+        },
+        {
+          "id": "cg-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "st-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-mother-tongue-day",
+          "cohort": 2
+        },
+        {
+          "id": "no-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "ci-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "sv-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-resistance-day",
+          "cohort": 2
+        },
+        {
+          "id": "us-labor-day",
+          "cohort": 3
+        },
+        {
+          "id": "ck-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "sz-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-veterans-day",
+          "cohort": 2
+        },
+        {
+          "id": "us-thanksgiving-day",
+          "cohort": 3
+        },
+        {
+          "id": "cm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "td-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-victory-day",
+          "cohort": 2
+        },
+        {
+          "id": "us-washingtons-birthday",
+          "cohort": 3
+        },
+        {
+          "id": "cv-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tg-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-w13-eures-christmas-eve",
+          "cohort": 2
+        },
+        {
+          "id": "za-heritage-day",
+          "cohort": 3
+        },
+        {
+          "id": "dj-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "th-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "za-reconciliation-day",
+          "cohort": 3
+        },
+        {
+          "id": "dm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tj-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-w13-eures-spring-day",
+          "cohort": 2
+        },
+        {
+          "id": "za-youth-day",
+          "cohort": 3
+        },
+        {
+          "id": "do-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tm-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "ee-war-of-independence-remembrance",
+          "cohort": 2
+        },
+        {
+          "id": "de-w13-eures-christmas-day",
+          "cohort": 3
+        },
+        {
+          "id": "dz-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "to-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-armed-forces-day",
+          "cohort": 2
+        },
+        {
+          "id": "de-w13-eures-labour-day",
+          "cohort": 3
+        },
+        {
+          "id": "ec-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tt-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-cursed-soldiers-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "de-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "eg-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tv-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-greater-poland-uprising-victory-day",
+          "cohort": 2
+        },
+        {
+          "id": "germany-basic-law-day",
+          "cohort": 3
+        },
+        {
+          "id": "er-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "tz-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-home-army-soldiers-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "hr-antifascist-resistance-day",
+          "cohort": 3
+        },
+        {
+          "id": "et-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ug-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-poles-who-saved-jews-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "hr-homeland-war-remembrance-day",
+          "cohort": 3
+        },
+        {
+          "id": "fj-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uz-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-polish-national-victory-day",
+          "cohort": 2
+        },
+        {
+          "id": "hr-victory-and-homeland-thanksgiving-day",
+          "cohort": 3
+        },
+        {
+          "id": "fm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "vc-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-polish-science-day",
+          "cohort": 2
+        },
+        {
+          "id": "hr-w13-eures-epiphany",
+          "cohort": 3
+        },
+        {
+          "id": "ga-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ve-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-polish-victims-of-oun-upa-genocide-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "hr-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "gd-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "vu-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-silesian-uprisings-national-day",
+          "cohort": 2
+        },
+        {
+          "id": "is-commerce-day",
+          "cohort": 3
+        },
+        {
+          "id": "ge-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ws-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-solidarity-and-freedom-day",
+          "cohort": 2
+        },
+        {
+          "id": "is-first-day-of-summer",
+          "cohort": 3
+        },
+        {
+          "id": "gm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ye-dfat-national-day",
+          "cohort": 5
+        },
+        {
+          "id": "pl-struggle-and-martyrdom-of-polish-villages-day",
+          "cohort": 2
+        },
+        {
+          "id": "is-independence-day",
+          "cohort": 3
+        },
+        {
+          "id": "gn-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pl-unbroken-clergy-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "is-w13-eures-labour-day",
+          "cohort": 3
+        },
+        {
+          "id": "gq-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pl-w13-eures-epiphany",
+          "cohort": 2
+        },
+        {
+          "id": "is-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "gt-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pl-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "at-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "gw-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pl-war-invalids-day",
+          "cohort": 2
+        },
+        {
+          "id": "at-w13-eures-epiphany",
+          "cohort": 3
+        },
+        {
+          "id": "gy-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pl-warsaw-uprising-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "at-w13-eures-labour-day",
+          "cohort": 3
+        },
+        {
+          "id": "hn-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-feast-of-st-joseph",
+          "cohort": 2
+        },
+        {
+          "id": "at-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "ht-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-feast-of-st-peter-and-paul",
+          "cohort": 2
+        },
+        {
+          "id": "be-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "iq-dfat-national-day",
+          "cohort": 4
+        }
+      ]
+    },
+    {
+      "blockId": "B002",
+      "target": 100,
+      "status": "NOT_COMPLETE",
+      "assignments": [
+        {
+          "id": "mt-sette-giugno",
+          "cohort": 2
+        },
+        {
+          "id": "be-w13-eures-armistice-day",
+          "cohort": 3
+        },
+        {
+          "id": "ir-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-st-pauls-shipwreck-day",
+          "cohort": 2
+        },
+        {
+          "id": "be-w13-eures-flemish-holiday",
+          "cohort": 3
+        },
+        {
+          "id": "jm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-victory-day",
+          "cohort": 2
+        },
+        {
+          "id": "be-w13-eures-french-community-day",
+          "cohort": 3
+        },
+        {
+          "id": "jo-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-w13-eures-labour-day",
+          "cohort": 2
+        },
+        {
+          "id": "bg-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ke-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "mt-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "bg-w13-eures-independence-day",
+          "cohort": 3
+        },
+        {
+          "id": "kg-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "fr-w13-eures-labour-day",
+          "cohort": 2
+        },
+        {
+          "id": "bg-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "kh-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "fr-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "bg-w13-eures-saint-george-s-day-army-day",
+          "cohort": 3
+        },
+        {
+          "id": "ki-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "france-deportation-victims-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "nl-kings-day",
+          "cohort": 3
+        },
+        {
+          "id": "km-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "france-harkis-remembrance-day",
+          "cohort": 2
+        },
+        {
+          "id": "nl-liberation-day",
+          "cohort": 3
+        },
+        {
+          "id": "kn-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "france-national-slavery-memory-day",
+          "cohort": 2
+        },
+        {
+          "id": "nl-w13-eures-christmas-day",
+          "cohort": 3
+        },
+        {
+          "id": "kp-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "france-slavery-victims-tribute-day",
+          "cohort": 2
+        },
+        {
+          "id": "nl-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "kw-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "france-victory-1945-day",
+          "cohort": 2
+        },
+        {
+          "id": "dk-w13-eures-christmas-eve",
+          "cohort": 3
+        },
+        {
+          "id": "kz-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "national-day-of-the-resistance-france",
+          "cohort": 2
+        },
+        {
+          "id": "dk-w13-eures-constitution-day",
+          "cohort": 3
+        },
+        {
+          "id": "la-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-cultural-diversity-day",
+          "cohort": 2
+        },
+        {
+          "id": "dk-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "lb-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-independence-day",
+          "cohort": 2
+        },
+        {
+          "id": "gr-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "lc-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-malvinas-veterans-day",
+          "cohort": 2
+        },
+        {
+          "id": "gr-w13-eures-anniversary-of-the-ochi",
+          "cohort": 3
+        },
+        {
+          "id": "li-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-manuel-belgrano-remembrance",
+          "cohort": 2
+        },
+        {
+          "id": "gr-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "lk-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-may-revolution-day",
+          "cohort": 2
+        },
+        {
+          "id": "hu-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "lr-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-memory-truth-justice-day",
+          "cohort": 2
+        },
+        {
+          "id": "hu-w13-eures-republic-day",
+          "cohort": 3
+        },
+        {
+          "id": "ls-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-national-sovereignty-day",
+          "cohort": 2
+        },
+        {
+          "id": "hu-w13-eures-semmelweis-day",
+          "cohort": 3
+        },
+        {
+          "id": "ly-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ar-san-martin-remembrance",
+          "cohort": 2
+        },
+        {
+          "id": "ie-st-brigids-day",
+          "cohort": 3
+        },
+        {
+          "id": "ma-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-fathers-day",
+          "cohort": 2
+        },
+        {
+          "id": "ie-st-patricks-day",
+          "cohort": 3
+        },
+        {
+          "id": "mc-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-independence-restoration-day",
+          "cohort": 2
+        },
+        {
+          "id": "ie-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "md-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-jonines-day",
+          "cohort": 2
+        },
+        {
+          "id": "lu-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "me-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-mindaugas-coronation-day",
+          "cohort": 2
+        },
+        {
+          "id": "lu-w13-eures-europe-day",
+          "cohort": 3
+        },
+        {
+          "id": "mg-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-mothers-day",
+          "cohort": 2
+        },
+        {
+          "id": "lu-w13-eures-new-year-s-day",
+          "cohort": 3
+        },
+        {
+          "id": "mh-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-state-restoration-day",
+          "cohort": 2
+        },
+        {
+          "id": "pe-air-force-day",
+          "cohort": 3
+        },
+        {
+          "id": "mk-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-w13-eures-all-souls-day",
+          "cohort": 2
+        },
+        {
+          "id": "pe-independence-day",
+          "cohort": 3
+        },
+        {
+          "id": "ml-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lt-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "pe-santa-rosa-de-lima-day",
+          "cohort": 3
+        },
+        {
+          "id": "mm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-greek-national-day",
+          "cohort": 2
+        },
+        {
+          "id": "se-gustavus-adolphus-day",
+          "cohort": 3
+        },
+        {
+          "id": "mn-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-independence-day",
+          "cohort": 2
+        },
+        {
+          "id": "se-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "mr-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-national-day",
+          "cohort": 2
+        },
+        {
+          "id": "se-sweden-veterans-day",
+          "cohort": 3
+        },
+        {
+          "id": "mu-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-ochi-day",
+          "cohort": 2
+        },
+        {
+          "id": "mexico-independence-day",
+          "cohort": 3
+        },
+        {
+          "id": "mv-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-w13-eures-epiphany",
+          "cohort": 2
+        }
+      ]
+    },
+    {
+      "blockId": "B003",
+      "target": 87,
+      "status": "NOT_COMPLETE",
+      "assignments": [
+        {
+          "id": "mexico-national-flag-day",
+          "cohort": 3
+        },
+        {
+          "id": "mw-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-w13-eures-labour-day",
+          "cohort": 2
+        },
+        {
+          "id": "nz-labour-day",
+          "cohort": 3
+        },
+        {
+          "id": "my-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "cy-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "sg-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "mz-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-constituent-assembly-day",
+          "cohort": 2
+        },
+        {
+          "id": "sg-total-defence-day",
+          "cohort": 3
+        },
+        {
+          "id": "na-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-declaration-of-independence-day",
+          "cohort": 2
+        },
+        {
+          "id": "ad-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ne-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-jani-day",
+          "cohort": 2
+        },
+        {
+          "id": "ae-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ng-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-ligo-evening",
+          "cohort": 2
+        },
+        {
+          "id": "af-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ni-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-republic-proclamation-day",
+          "cohort": 2
+        },
+        {
+          "id": "ag-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "np-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-w13-eures-christmas-eve",
+          "cohort": 2
+        },
+        {
+          "id": "al-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "nr-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "lv-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "am-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "nu-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w10-philippine-department-of-education-founding-anniversary",
+          "cohort": 2
+        },
+        {
+          "id": "ao-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "om-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+          "cohort": 2
+        },
+        {
+          "id": "az-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "pa-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w13-children-s-day-philippines-january",
+          "cohort": 2
+        },
+        {
+          "id": "ba-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "pg-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w13-made-in-the-philippines-product-week",
+          "cohort": 2
+        },
+        {
+          "id": "bb-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "pk-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w13-national-punctuality-and-civility-consciousness-month",
+          "cohort": 2
+        },
+        {
+          "id": "bd-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "pw-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w13-volunteerism-month-philippines",
+          "cohort": 2
+        },
+        {
+          "id": "bf-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "py-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "ph-w13-week-of-the-philippine-eagle",
+          "cohort": 2
+        },
+        {
+          "id": "bh-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "qa-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "portugal-day",
+          "cohort": 2
+        },
+        {
+          "id": "bi-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ro-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "portugal-national-historic-centres-day",
+          "cohort": 2
+        },
+        {
+          "id": "bj-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "rs-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "portugal-restoration-of-independence-day",
+          "cohort": 2
+        },
+        {
+          "id": "bn-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "ru-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pt-w13-eures-new-year-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "bo-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "rw-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "pt-w13-eures-st-antonio-s-day",
+          "cohort": 2
+        },
+        {
+          "id": "bs-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sa-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "republic-day-portugal",
+          "cohort": 2
+        },
+        {
+          "id": "bt-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sb-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-holocaust-memorial-day",
+          "cohort": 2
+        },
+        {
+          "id": "bw-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sc-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-merchant-navy-day",
+          "cohort": 2
+        },
+        {
+          "id": "by-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sd-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-remembrance-sunday",
+          "cohort": 2
+        },
+        {
+          "id": "bz-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "si-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-stephen-lawrence-day",
+          "cohort": 2
+        },
+        {
+          "id": "cd-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sl-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-victory-in-europe-commemoration",
+          "cohort": 2
+        },
+        {
+          "id": "cf-dfat-national-day",
+          "cohort": 3
+        },
+        {
+          "id": "sm-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "uk-victory-over-japan-commemoration",
+          "cohort": 2
+        },
+        {
+          "id": "sn-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "so-dfat-national-day",
+          "cohort": 4
+        },
+        {
+          "id": "sr-dfat-national-day",
+          "cohort": 4
+        }
+      ]
+    }
+  ],
+  "note": "Allocation only. No dossier or source evidence is implied. Reconcile against live manifests before writing; skip already prepared IDs. Human approval and runtime publication remain separate."
+}
