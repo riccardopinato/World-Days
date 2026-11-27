@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-fathers-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal creation year not established by cited sources.",
+  "authority": "Seimas of the Republic of Lithuania",
+  "dateReason": "Recurring rule verified from specific national legislation; requires canonical recurrence validation before runtime import.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/6eea48d294ea11eea70ce7cabd08f150/",
+      "claim": "The Lithuanian Labour Code explicitly lists the first Sunday of June as Father's Day and a national public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania marks Father's Day on the first Sunday of June, inviting families to thank fathers and other people who fulfil a paternal role. As a Sunday-based holiday, the date is different every year rather than fixed to a particular day of June. Lithuanian labour legislation recognises this occasion as a public holiday.",
+    "it": "La Lituania celebra la Festa del papà la prima domenica di giugno, occasione in cui le famiglie ringraziano i padri e altre figure paterne. La data varia ogni anno perché segue la prima domenica, invece di un giorno fisso di giugno. La legislazione del lavoro riconosce ufficialmente la ricorrenza come festività.",
+    "es": "Lituania celebra el Día del Padre el primer domingo de junio, una ocasión para agradecer a los padres y a otras figuras paternas. La fecha varía cada año al depender del primer domingo y no de un número fijo del mes. La legislación laboral lituana reconoce esta celebración como un día festivo nacional.",
+    "fr": "La Lituanie célèbre la fête des Pères le premier dimanche de juin, pour remercier les pères et les autres figures paternelles. La date varie chaque année puisqu'elle est liée au premier dimanche plutôt qu'à un jour fixe du mois. La législation du travail reconnaît cette fête comme jour férié.",
+    "de": "Litauen begeht den Vatertag am ersten Sonntag im Juni und würdigt Väter sowie andere Menschen in einer väterlichen Rolle. Das Datum verschiebt sich jährlich, da der Feiertag an den ersten Sonntag und nicht an einen festen Monatstag gebunden ist. Das litauische Arbeitsrecht erkennt ihn als gesetzlichen Feiertag an.",
+    "pt": "A Lituânia celebra o Dia do Pai no primeiro domingo de junho, homenageando os pais e outras figuras paternas. A data varia todos os anos porque depende do primeiro domingo, não de um dia fixo do mês. A legislação laboral lituana reconhece oficialmente esta celebração como feriado público."
+  },
+  "runtimeRichEditorialApproved": false
+}

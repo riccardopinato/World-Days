@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "france-deportation-victims-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "FR",
+  "documentedIntroductionYear": 1954,
+  "yearMeaning": "1954 is statutory institution of France's moving memorial Sunday.",
+  "authority": "République française / ministère des Armées",
+  "dateReason": "Recurring rule verified from specific national legislation; requires canonical recurrence validation before runtime import.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.cheminsdememoire.gouv.fr/sites/default/files/editeur/MC13.pdf",
+      "claim": "French Law 54-415 dated 14 April 1954 designated the last Sunday in April for remembrance of deportation victims and heroes.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France remembers victims and heroes of deportation on the last Sunday in April. Established by a law in 1954, the national commemoration honours people deported during the Second World War and those who died in Nazi concentration camps. It is a moving Sunday observance, not a fixed calendar date.",
+    "it": "La Francia ricorda le vittime e gli eroi della deportazione nell'ultima domenica di aprile. Una legge del 1954 ha istituito questa commemorazione nazionale per onorare le persone deportate durante la Seconda guerra mondiale e coloro che morirono nei campi di concentramento nazisti. La ricorrenza è mobile, non a data fissa.",
+    "es": "Francia recuerda a las víctimas y los héroes de la deportación el último domingo de abril. Una ley de 1954 instituyó la jornada nacional para honrar a las personas deportadas durante la Segunda Guerra Mundial y a quienes murieron en campos de concentración nazis. Es una fecha dominical variable, no un día fijo del calendario.",
+    "fr": "La France honore les victimes et les héros de la déportation le dernier dimanche d'avril. Une loi de 1954 a institué cette journée nationale en mémoire des personnes déportées pendant la Seconde Guerre mondiale et de celles mortes dans les camps de concentration nazis. Il s'agit d'une commémoration mobile, non d'une date fixe.",
+    "de": "Frankreich gedenkt der Opfer und Helden der Deportation am letzten Sonntag im April. Ein Gesetz von 1954 führte den nationalen Gedenktag für die im Zweiten Weltkrieg Deportierten und die Toten der nationalsozialistischen Konzentrationslager ein. Der Sonntag wechselt jedes Jahr; er ist kein festes Kalenderdatum.",
+    "pt": "A França homenageia as vítimas e os heróis da deportação no último domingo de abril. Uma lei de 1954 instituiu a comemoração nacional para recordar as pessoas deportadas durante a Segunda Guerra Mundial e aquelas que morreram nos campos de concentração nazis. A data varia de ano para ano, não sendo um dia fixo."
+  },
+  "runtimeRichEditorialApproved": false
+}

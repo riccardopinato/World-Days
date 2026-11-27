@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-volunteerism-month-philippines",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_SCOPE_HOLD_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 2009,
+  "yearMeaning": "2009 is the specific May proclamation; annual continuity is not established by that text. Do not confuse with a separate National Volunteer Month in December.",
+  "authority": "President of the Philippines / Proclamation No. 1778",
+  "dateReason": "The source proclaims May 2009; the year-to-year recurrence in this canonical ID needs separate confirmation.",
+  "sourceEvidence": [
+    {
+      "url": "https://lawphil.net/executive/proc/proc2009/proc_1778_2009.html",
+      "claim": "Proclamation No. 1778 on 18 May 2009 explicitly declared May as Volunteerism Month; the separate December National Volunteer Month comes from Proclamation No. 55 of 1998.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "In May 2009, the Philippines proclaimed Volunteerism Month to encourage citizens, civic groups and public institutions to share time and skills with communities. The declaration promoted neighbourhood improvement, environmental care and literacy. Its May designation is distinct from National Volunteer Month observed in December; annual repetition of this particular May proclamation needs separate verification.",
+    "it": "Nel maggio 2009 le Filippine proclamarono il Mese del volontariato, invitando cittadini, associazioni e istituzioni a mettere tempo e competenze al servizio delle comunità. La dichiarazione incoraggiava cura dell'ambiente, sostegno sociale e alfabetizzazione. La ricorrenza di maggio è distinta dal Mese nazionale del volontariato di dicembre; la sua ripetizione annuale richiede verifica.",
+    "es": "En mayo de 2009 Filipinas proclamó el Mes del Voluntariado para animar a ciudadanos, asociaciones e instituciones a dedicar tiempo y capacidades a las comunidades. La declaración impulsaba mejoras ambientales, ayuda social y alfabetización. Esta celebración de mayo es distinta del Mes Nacional del Voluntariado de diciembre; su continuidad anual requiere comprobación.",
+    "fr": "En mai 2009, les Philippines ont proclamé le Mois du bénévolat pour encourager citoyens, associations et institutions à offrir du temps et des compétences aux communautés. Le texte favorisait l'environnement, l'entraide et l'alphabétisation. Cette initiative de mai diffère du Mois national du bénévolat de décembre; sa reconduction annuelle reste à vérifier.",
+    "de": "Im Mai 2009 riefen die Philippinen den Monat der Freiwilligenarbeit aus, um Bürger, Vereine und Behörden zu gemeinschaftlichem Engagement zu ermutigen. Die Erklärung förderte Umweltschutz, soziale Hilfe und Alphabetisierung. Dieser Mai-Monat ist vom Nationalen Freiwilligenmonat im Dezember zu unterscheiden; eine jährliche Fortsetzung muss gesondert belegt werden.",
+    "pt": "Em maio de 2009, as Filipinas proclamaram o Mês do Voluntariado para incentivar cidadãos, associações e instituições a oferecer tempo e competências às comunidades. O texto promoveu proteção ambiental, apoio social e alfabetização. A iniciativa de maio difere do Mês Nacional do Voluntariado de dezembro; a sua continuidade anual exige verificação adicional."
+  },
+  "runtimeRichEditorialApproved": false,
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "MAY_2009_LEGAL_PROCLAMATION_NOT_EXPLICIT_ANNUAL_CONTINUITY; DISTINCT_FROM_DECEMBER_NATIONAL_VOLUNTEER_MONTH"
+  }
+}
