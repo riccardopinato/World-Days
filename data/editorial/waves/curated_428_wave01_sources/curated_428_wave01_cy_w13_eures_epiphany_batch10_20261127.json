@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-w13-eures-epiphany",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-06",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Government of Cyprus / Ministry of Foreign Affairs",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.cy/mfa-embassyvienna/en/the-embassy/working-hours-and-holidays/",
+      "claim": "Cyprus embassy calendar for 2026 records Epiphany on 6 January as an official holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.gov.cy/mfa-embassysofia/en/the-embassy/working-hours-and-holidays/",
+      "claim": "Cyprus governmental embassy calendar documents Epiphany in the annual public-holiday schedule.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus observes Epiphany on 6 January as a public holiday in its national calendar. The Christian festival remembers the revelation of Jesus and, in Eastern traditions, is associated especially with his baptism in the Jordan River. The holiday follows New Year's Day but is a separate religious occasion recognised by the Republic of Cyprus.",
+    "it": "Il 6 gennaio Cipro celebra l'Epifania come festività pubblica del calendario nazionale. La ricorrenza cristiana ricorda la manifestazione di Gesù e, nella tradizione orientale, è legata soprattutto al suo battesimo nel Giordano. Segue il Capodanno ma costituisce una festa religiosa distinta, riconosciuta dalla Repubblica di Cipro.",
+    "es": "Chipre celebra la Epifanía el 6 de enero como festivo oficial del calendario nacional. La fiesta cristiana recuerda la manifestación de Jesús y, en las tradiciones orientales, se relaciona especialmente con su bautismo en el río Jordán. Sigue al Año Nuevo, pero constituye una festividad religiosa propia reconocida por la República de Chipre.",
+    "fr": "Chypre célèbre l'Épiphanie le 6 janvier comme jour férié national. La fête chrétienne rappelle la manifestation de Jésus et, dans les traditions orientales, est particulièrement liée à son baptême dans le Jourdain. Elle suit le Nouvel An, mais demeure une célébration religieuse distincte reconnue par la République de Chypre.",
+    "de": "Zypern begeht die Epiphanie am 6. Januar als gesetzlichen Feiertag. Das christliche Fest erinnert an die Offenbarung Jesu und ist in östlichen Traditionen besonders mit seiner Taufe im Jordan verbunden. Es folgt auf den Neujahrstag, bildet jedoch einen eigenständigen religiösen Feiertag im Kalender der Republik Zypern.",
+    "pt": "Chipre celebra a Epifania em 6 de janeiro como feriado nacional. A festa cristã recorda a manifestação de Jesus e, nas tradições orientais, está especialmente associada ao seu batismo no rio Jordão. Segue-se ao Ano Novo, mas constitui uma celebração religiosa distinta reconhecida pela República de Chipre."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "no-w13-eures-labour-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "NO",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Norwegian Labour Inspection Authority / Ministry of Foreign Affairs",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.arbeidstilsynet.no/regelverk/lover/lov-om-1-og-17-mai/",
+      "claim": "Norwegian legislation grants special national holiday treatment to 1 May alongside 17 May.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "claim": "Norwegian foreign ministry lists 1 May Labour Day separately from 17 May Constitution Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Norway marks Labour Day on 1 May, a date associated with the rights and history of working people. Norwegian legislation gives both 1 May and 17 May special public-holiday treatment, but the two dates commemorate different things: Labour Day concerns work and social movements, while 17 May is Constitution Day.",
+    "it": "La Norvegia celebra la Festa del lavoro il 1° maggio, data legata ai diritti e alla storia dei lavoratori. Una legge nazionale attribuisce un particolare regime festivo sia al 1° maggio sia al 17 maggio, ma le ricorrenze sono diverse: la prima riguarda il lavoro e i movimenti sociali, la seconda è la Festa della Costituzione.",
+    "es": "Noruega celebra el Día del Trabajo el 1 de mayo, asociado a los derechos y la historia de los trabajadores. Una ley nacional concede un régimen festivo especial tanto al 1 como al 17 de mayo, pero las fechas recuerdan hechos distintos: la primera se vincula al trabajo y los movimientos sociales, la segunda es el Día de la Constitución.",
+    "fr": "La Norvège célèbre la fête du Travail le 1er mai, liée aux droits et à l'histoire des travailleurs. La loi nationale accorde un statut férié particulier au 1er et au 17 mai, mais les deux dates ont des significations différentes : la première concerne le travail et les mouvements sociaux, la seconde est la fête de la Constitution.",
+    "de": "Norwegen begeht den Tag der Arbeit am 1. Mai im Zusammenhang mit der Geschichte und den Rechten der Beschäftigten. Ein Gesetz regelt sowohl den 1. als auch den 17. Mai als besondere Feiertage, doch die Anlässe unterscheiden sich: Der erste steht für Arbeit und soziale Bewegungen, der zweite ist der Verfassungstag.",
+    "pt": "A Noruega celebra o Dia do Trabalhador em 1 de maio, ligado aos direitos e à história dos trabalhadores. A legislação atribui estatuto especial de feriado tanto a 1 como a 17 de maio, mas as datas são distintas: a primeira está ligada ao trabalho e aos movimentos sociais, a segunda é o Dia da Constituição."
+  },
+  "runtimeRichEditorialApproved": false
+}

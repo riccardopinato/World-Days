@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "PL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Polish Government / 1951 Public Holidays Act",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.pl/web/chiny/harmonogram-dni-wolnych-w-roku-2025",
+      "claim": "Polish embassy's 2026 calendar lists 1 January as Nowy Rok, a statutory day off.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://eli.gov.pl/eli/DU/1951/28",
+      "claim": "Poland's national public holidays act includes 1 January among statutory days off.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland celebrates New Year's Day on 1 January, beginning the Gregorian calendar year after the festivities of the preceding night. It is included among statutory days off in Polish law and appears on the government's public-holiday calendar. The civil New Year is separate from Epiphany on 6 January, another public holiday in Poland.",
+    "it": "La Polonia celebra il Capodanno del 1° gennaio, inizio dell'anno gregoriano dopo i festeggiamenti della notte precedente. La legge polacca lo include tra i giorni festivi e il calendario governativo lo conferma. La ricorrenza civile dell'anno nuovo è distinta dall'Epifania del 6 gennaio, anch'essa festività pubblica nel paese.",
+    "es": "Polonia celebra el Año Nuevo el 1 de enero, inicio del calendario gregoriano tras las fiestas de la noche anterior. La legislación polaca lo incluye entre los días no laborables y el calendario gubernamental lo confirma. Esta celebración civil es distinta de la Epifanía del 6 de enero, también festivo oficial en el país.",
+    "fr": "La Pologne fête le Nouvel An le 1er janvier, début de l'année grégorienne après les festivités de la veille. La loi polonaise le classe parmi les jours fériés et le calendrier gouvernemental le confirme. Cette fête civile se distingue de l'Épiphanie du 6 janvier, autre jour férié reconnu dans le pays.",
+    "de": "Polen feiert den Neujahrstag am 1. Januar als Beginn des gregorianischen Kalenderjahres nach den Silvesterfeiern. Das polnische Gesetz führt ihn als arbeitsfreien Feiertag, und der staatliche Kalender bestätigt das Datum. Der zivile Jahresbeginn ist vom Dreikönigstag am 6. Januar zu unterscheiden, der ebenfalls gesetzlicher Feiertag ist.",
+    "pt": "A Polónia celebra o Dia de Ano Novo em 1 de janeiro, início do calendário gregoriano após os festejos da noite anterior. A lei polaca inclui a data entre os feriados e o calendário governamental confirma-a. Esta celebração civil é distinta da Epifania de 6 de janeiro, também feriado oficial no país."
+  },
+  "runtimeRichEditorialApproved": false
+}
