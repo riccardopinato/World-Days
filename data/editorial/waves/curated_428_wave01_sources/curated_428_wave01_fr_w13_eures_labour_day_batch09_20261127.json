@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "fr-w13-eures-labour-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "FR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year is unverified; any historical context in six-locale prose is separate.",
+  "authority": "French Service Public",
+  "dateReason": "Country-specific legal or government public-holiday list substantiates the recurrence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405",
+      "claim": "French government distinguishes the 1 May Labour Day from other public holidays in employment law and wage protection.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France observes Labour Day on 1 May. The date brings together the history of the workers' movement and a distinctive place in French employment law: unlike most public holidays, 1 May has specific protections for pay and time off. Public gatherings and lily-of-the-valley traditions also shape its social character.",
+    "it": "Il 1° maggio la Francia celebra la Festa del lavoro. La data richiama la storia del movimento operaio e occupa un posto particolare nel diritto del lavoro francese: rispetto ad altre festività, prevede tutele specifiche per retribuzione e riposo. Cortei pubblici e tradizioni legate al mughetto completano la ricorrenza.",
+    "es": "Francia celebra el Día del Trabajo el 1 de mayo. La fecha recuerda la historia del movimiento obrero y tiene un lugar particular en la legislación laboral francesa: a diferencia de otros festivos, cuenta con protecciones específicas para el descanso y el salario. Manifestaciones y tradiciones del muguete forman parte de la jornada.",
+    "fr": "La France célèbre la fête du Travail le 1er mai. Cette date rappelle l'histoire du mouvement ouvrier et occupe une place particulière dans le droit français : contrairement à de nombreux autres jours fériés, le repos et la rémunération y bénéficient de protections spécifiques. Manifestations et brins de muguet accompagnent la journée.",
+    "de": "Frankreich begeht am 1. Mai den Tag der Arbeit. Das Datum erinnert an die Geschichte der Arbeiterbewegung und nimmt im französischen Arbeitsrecht eine Sonderstellung ein: Anders als viele andere Feiertage unterliegt es besonderen Regeln für Freizeit und Bezahlung. Kundgebungen und Maiglöckchen prägen den Tag zusätzlich.",
+    "pt": "A França celebra o Dia do Trabalhador em 1 de maio. A data recorda a história do movimento operário e ocupa lugar especial no direito laboral francês: ao contrário de muitos outros feriados, existem proteções próprias para descanso e remuneração. Manifestações e a tradição dos lírios-do-vale também marcam o dia."
+  },
+  "runtimeRichEditorialApproved": false
+}
