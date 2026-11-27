@@ -29,6 +29,43 @@ def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+
+WEEKDAYS = {"monday": 1, "tuesday": 2, "wednesday": 3, "thursday": 4,
+            "friday": 5, "saturday": 6, "sunday": 7}
+
+
+def canonical_movable_date_matches(row, rules):
+    """Match movable dates to the immutable canonical recurrence; never infer a date."""
+    value = row.get("dateRule")
+    if value is None:
+        shorthand = str(row.get("date", ""))
+        shorthands = {
+            "LAST_MONDAY_OF_MAY": {"kind": "last_weekday", "month": 5, "weekday": "monday"},
+            "FIRST_MONDAY_SEPTEMBER": {"kind": "nth_weekday", "month": 9,
+                                        "weekday": "monday", "nth": 1},
+        }
+        value = shorthands.get(shorthand)
+    if not isinstance(value, dict):
+        return False
+    kind = str(value.get("kind", "")).upper()
+    if kind not in {"NTH_WEEKDAY", "LAST_WEEKDAY", "WEEKDAY_ON_OR_AFTER"}:
+        return False
+    weekday = WEEKDAYS.get(str(value.get("weekday", "")).lower())
+    if not weekday or type(value.get("month")) is not int:
+        return False
+    for canonical_rule in rules:
+        if str(canonical_rule.get("kind", "")).upper() != kind:
+            continue
+        if canonical_rule.get("month") != value["month"] or canonical_rule.get("weekday") != weekday:
+            continue
+        if kind == "NTH_WEEKDAY" and canonical_rule.get("occurrence") != value.get("nth"):
+            continue
+        if kind == "WEEKDAY_ON_OR_AFTER" and canonical_rule.get("day") != value.get("day"):
+            continue
+        return True
+    return False
+
+
 def audit_row(row, canonical):
     errors, review, flags = [], [], []
     oid = row.get("id")
@@ -79,7 +116,8 @@ def audit_row(row, canonical):
             if fixed and not any(date == f'{r["month"]:02d}-{r["day"]:02d}' for r in fixed):
                 review.append("CALENDAR_DATE_CONFLICT")
         else:
-            review.append("DATE_NEEDS_RECURRENCE_CHECK")
+            if not canonical_movable_date_matches(row, rec.get("recurrenceRules", [])):
+                review.append("DATE_NEEDS_RECURRENCE_CHECK")
     texts = row.get("narratives")
     if not isinstance(texts, dict) or set(texts) != set(LANGUAGES):
         errors.append("INCOMPLETE_LOCALES")
