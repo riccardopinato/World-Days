@@ -15,10 +15,12 @@
     "ee-tartu-peace-treaty-day",
     "pl-independence-day",
     "french-national-day",
-    "ee-knowledge-day"
+    "ee-knowledge-day",
+    "mt-republic-day",
+    "mt-freedom-day"
   ],
-  "preparedSixLocaleDossiers": 7,
-  "remainingResearchIds": 93,
+  "preparedSixLocaleDossiers": 9,
+  "remainingResearchIds": 91,
   "review": "PENDING",
   "humanCertified": 0,
   "runtimeIntegrated": 0,
@@ -30,5 +32,5 @@
     "de",
     "pt"
   ],
-  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review. Added ee-knowledge-day with six-language draft and institutional source; no human review."
+  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review. Added ee-knowledge-day with six-language draft and institutional source; no human review. 2026-11-27: two additional independent six-locale historical dossiers researched against national institutions; review PENDING and not runtime-published."
 }
