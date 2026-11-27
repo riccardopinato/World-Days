@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH17",
+  "factoryBaseline": "9bec235b319963bc05f3c3c4d95d0f6b267bb309",
+  "sourceMain": "6f170ef1abf9cd3a82f2d02ca2094845709fc40c",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Five wholly new six-locale origin histories researched using official primary institutions of Denmark, Greece, Iceland, Sweden and Belgium. Source claims/date/year scope checked independently; original legal holiday introduction unknown and not invented. Individual QA/HOLD, no human expert certificate.",
+  "humanCertified": false,
+  "cohort": 3,
+  "alreadyIntegratedBeforeBatch17": 211,
+  "proposedBatch17": 5,
+  "records": [
+    {
+      "id": "be-w13-eures-armistice-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_be_w13_eures_armistice_day_batch17b_20261127.json",
+      "sourceBlobSha": "fb5f05769c8701571e8fd13a92a37d99ef17ed5c",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "dk-w13-eures-constitution-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_dk_w13_eures_constitution_day_batch17b_20261127.json",
+      "sourceBlobSha": "28ae4e5878ef3ee79d7e18d620c429d2a7046781",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "gr-w13-eures-anniversary-of-the-ochi",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_gr_w13_eures_anniversary_of_the_ochi_batch17b_20261127.json",
+      "sourceBlobSha": "f4b156ea221ee6430e8188808558fa761192b595",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "is-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_is_independence_day_batch17b_20261127.json",
+      "sourceBlobSha": "78364aa30e04c0e17ce504e3e715e05164aecd5b",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "se-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_se_national_day_batch17b_20261127.json",
+      "sourceBlobSha": "1da516632a69c7b67f7b3fa2ad34aeca2c579aa9",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

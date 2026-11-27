@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "se-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-06",
+  "country": "SE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical event years documented in primary source; year of original modern statutory festival introduction not asserted.",
+  "authority": "Government Offices of Sweden",
+  "dateReason": "Observed fixed annual date from official government or national calendar; source chronology distinct from statutory year.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.government.se/government-of-sweden/ministry-for-foreign-affairs/diplomatic-portal/diplomatic-guide/22.-ceremonial-procedures",
+      "claim": "Swedish government official diplomatic guidance lists 6 June as Sweden's National Day and Flag Day; national historical accounts connect the date to state formation in 1523.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Sweden celebrates National Day on 6 June. The date is associated with the election of Gustav Vasa as king in 1523, a turning point in the formation of an independent Swedish state, and with later constitutional milestones. Flag ceremonies and community gatherings highlight democratic institutions and national culture rather than treating it as a personal birthday anniversary.",
+    "it": "La Svezia celebra la Festa nazionale il 6 giugno. La data richiama l'elezione di Gustavo Vasa a re nel 1523, momento decisivo per la formazione di uno Stato svedese autonomo, e successive tappe costituzionali. Cerimonie con la bandiera e incontri pubblici valorizzano istituzioni e cultura nazionale, non un compleanno personale.",
+    "es": "Suecia celebra su Fiesta Nacional el 6 de junio. La fecha recuerda la elección de Gustavo Vasa como rey en 1523, un punto decisivo para la formación del Estado sueco independiente, y posteriores hitos constitucionales. Ceremonias con banderas y reuniones públicas resaltan las instituciones y la cultura nacional, no un cumpleaños personal.",
+    "fr": "La Suède célèbre sa fête nationale le 6 juin. La date évoque l'élection de Gustave Vasa comme roi en 1523, étape décisive dans la formation d'un État suédois indépendant, ainsi que des jalons constitutionnels ultérieurs. Cérémonies du drapeau et rencontres publiques mettent à l'honneur institutions et culture, non un anniversaire personnel.",
+    "de": "Schweden begeht seinen Nationalfeiertag am 6. Juni. Das Datum erinnert an die Wahl Gustav Wasas zum König im Jahr 1523, einen Wendepunkt für die Herausbildung des unabhängigen schwedischen Staates, sowie spätere verfassungsrechtliche Meilensteine. Flaggenfeiern und Begegnungen würdigen Institutionen und Kultur, nicht einen persönlichen Geburtstag.",
+    "pt": "A Suécia celebra o Dia Nacional em 6 de junho. A data recorda a eleição de Gustavo Vasa como rei em 1523, momento decisivo na formação de um Estado sueco independente, e marcos constitucionais posteriores. Cerimónias da bandeira e encontros públicos valorizam as instituições e a cultura, não um aniversário pessoal."
+  },
+  "runtimeRichEditorialApproved": false
+}
