@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-state-restoration-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-16",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Ministry of Foreign Affairs of Lithuania",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.urm.lt/en/travel-and-residence/about-lithuania/history-of-lithuania/1339",
+      "claim": "Lithuanian MFA documents the Act of Independence signed by the Council on 16 February 1918 restoring the state.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania celebrates the Restoration of the State on 16 February, recalling the declaration signed by twenty members of the Lithuanian Council in Vilnius in 1918. The act proclaimed an independent democratic state during the First World War and became a foundation of modern statehood. The date differs from 11 March, which commemorates the restoration of independence after Soviet occupation in 1990.",
+    "it": "La Lituania celebra il ripristino dello Stato il 16 febbraio, ricordando la dichiarazione firmata a Vilnius da venti membri del Consiglio lituano nel 1918. L'atto proclamò uno Stato democratico indipendente durante la Prima guerra mondiale e fondò la statualità moderna. La data è diversa dall'11 marzo, che ricorda il ripristino dell'indipendenza dopo l'occupazione sovietica nel 1990.",
+    "es": "Lituania celebra la Restauración del Estado el 16 de febrero, recordando la declaración firmada en Vilna por veinte miembros del Consejo de Lituania en 1918. El documento proclamó un Estado democrático independiente durante la Primera Guerra Mundial. La fecha es distinta del 11 de marzo, que recuerda la restauración de la independencia tras la ocupación soviética en 1990.",
+    "fr": "La Lituanie fête la restauration de l'État le 16 février, en souvenir de la déclaration signée à Vilnius par vingt membres du Conseil lituanien en 1918. L'acte proclama un État démocratique indépendant pendant la Première Guerre mondiale. La date diffère du 11 mars, qui commémore la restauration de l'indépendance après l'occupation soviétique en 1990.",
+    "de": "Litauen feiert am 16. Februar die Wiederherstellung seines Staates. 1918 unterzeichneten zwanzig Mitglieder des Litauischen Rates in Vilnius eine Erklärung für einen unabhängigen demokratischen Staat während des Ersten Weltkriegs. Das Datum ist vom 11. März zu unterscheiden: Dieser Tag erinnert an die erneute Unabhängigkeit nach der sowjetischen Besatzung im Jahr 1990.",
+    "pt": "A Lituânia celebra a Restauração do Estado em 16 de fevereiro, recordando a declaração assinada em Vilnius por vinte membros do Conselho lituano em 1918. O ato proclamou um Estado democrático independente durante a Primeira Guerra Mundial. A data difere de 11 de março, que recorda a restauração da independência após a ocupação soviética em 1990."
+  },
+  "runtimeRichEditorialApproved": false
+}

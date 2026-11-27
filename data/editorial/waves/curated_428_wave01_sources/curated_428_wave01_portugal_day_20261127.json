@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "portugal-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-10",
+  "country": "PT",
+  "documentedIntroductionYear": 1978,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Presidency of the Portuguese Republic",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.arquivo.presidencia.pt/details?id=13500",
+      "claim": "Presidential archive explains Decree-Law 39-B/78 of 2 March 1978 designated 10 June as the Day of Portugal, Camões and Portuguese Communities.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Portugal Day is celebrated on 10 June, linking the country, the poet Luís de Camões and Portuguese communities throughout the world. The date traditionally marks Camões's death and has become a symbol of shared language and cultural memory. Decree-Law 39-B/78 gave the modern national day its present dedication in 1978. Official ceremonies take place both in Portugal and among communities abroad.",
+    "it": "Il Portogallo celebra il 10 giugno la Giornata del Portogallo, di Camões e delle comunità portoghesi nel mondo. La data richiama tradizionalmente la morte del poeta e simboleggia lingua e memoria culturale condivise. Il decreto-legge 39-B/78 fissò nel 1978 l'attuale dedicazione nazionale. Le cerimonie si svolgono nel Paese e presso le comunità all'estero.",
+    "es": "Portugal celebra el 10 de junio el Día de Portugal, de Camões y de las comunidades portuguesas. La fecha recuerda tradicionalmente la muerte del poeta y representa una lengua y una memoria cultural compartidas. El decreto ley 39-B/78 fijó en 1978 la dedicación nacional actual. Se celebran actos oficiales tanto en Portugal como entre comunidades emigrantes.",
+    "fr": "Le Portugal célèbre le 10 juin la Journée du Portugal, de Camões et des communautés portugaises. La date rappelle traditionnellement la mort du poète et symbolise une langue et une mémoire culturelle communes. Le décret-loi 39-B/78 fixa en 1978 la dénomination nationale actuelle. Des cérémonies ont lieu au Portugal et au sein des communautés à l'étranger.",
+    "de": "Portugal begeht am 10. Juni den Tag Portugals, des Dichters Camões und der portugiesischen Gemeinschaften. Das Datum erinnert traditionell an den Tod des Dichters und steht für eine gemeinsame Sprache und Kultur. Das Gesetzesdekret 39-B/78 legte 1978 die heutige Widmung fest. Offizielle Feiern finden im Land und bei Gemeinschaften im Ausland statt.",
+    "pt": "Portugal celebra a 10 de junho o Dia de Portugal, de Camões e das Comunidades Portuguesas. A data recorda tradicionalmente a morte do poeta e simboliza a língua e a memória cultural partilhadas. O Decreto-Lei 39-B/78 fixou em 1978 a dedicação nacional atual. As cerimónias oficiais decorrem em Portugal e junto das comunidades no estrangeiro."
+  },
+  "runtimeRichEditorialApproved": false
+}

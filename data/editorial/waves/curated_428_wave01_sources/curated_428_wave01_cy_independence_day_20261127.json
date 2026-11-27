@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-01",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Government of Cyprus / Ministry of Foreign Affairs",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://publications.gov.cy/en/assets/user/publications/GAAG/CAAG_EN_2018/4/index.html",
+      "claim": "Official Cyprus government publication identifies 1 October as Independence Day and 1960 as the independence year.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus observes Independence Day on 1 October, celebrating its emergence as a sovereign republic in 1960 after British colonial administration. The modern state was established through negotiated constitutional arrangements involving Greek Cypriot and Turkish Cypriot communities. The October celebration should be distinguished from the formal independence date in August. Commemorations highlight statehood amid the island's continuing political division.",
+    "it": "Cipro celebra l'indipendenza il 1º ottobre, ricordando la nascita della repubblica sovrana nel 1960 dopo l'amministrazione coloniale britannica. Lo Stato nacque da accordi costituzionali negoziati fra comunità greco-cipriota e turco-cipriota. La festa di ottobre è distinta dalla data formale dell'indipendenza in agosto. Le cerimonie ricordano la sovranità nel contesto della persistente divisione politica dell'isola.",
+    "es": "Chipre celebra el Día de la Independencia el 1 de octubre, recordando el nacimiento de la república soberana en 1960 tras el dominio colonial británico. El Estado surgió de acuerdos constitucionales entre las comunidades grecochipriota y turcochipriota. La celebración de octubre no coincide con la fecha formal de independencia en agosto. Los actos destacan la soberanía en una isla aún dividida políticamente.",
+    "fr": "Chypre célèbre l'indépendance le 1er octobre, rappelant la naissance de la république souveraine en 1960 après l'administration coloniale britannique. Le nouvel État résulta d'accords constitutionnels associant Chypriotes grecs et turcs. La célébration d'octobre diffère de la date officielle d'indépendance en août. Les cérémonies évoquent la souveraineté dans une île toujours divisée politiquement.",
+    "de": "Zypern feiert am 1. Oktober den Unabhängigkeitstag und erinnert an die Gründung einer souveränen Republik 1960 nach britischer Kolonialherrschaft. Der Staat entstand durch ausgehandelte Verfassungsvereinbarungen zwischen griechischen und türkischen Zyprern. Der Feiertag im Oktober unterscheidet sich vom formellen Unabhängigkeitsdatum im August. Die Feier würdigt die Staatlichkeit trotz anhaltender Teilung der Insel.",
+    "pt": "Chipre celebra o Dia da Independência em 1 de outubro, recordando a formação da república soberana em 1960 após o domínio colonial britânico. O Estado surgiu de acordos constitucionais entre comunidades cipriotas gregas e turcas. A comemoração em outubro distingue-se da data formal da independência em agosto. As cerimónias valorizam a soberania numa ilha ainda politicamente dividida."
+  },
+  "runtimeRichEditorialApproved": false
+}
