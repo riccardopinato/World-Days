@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-11",
+  "country": "PL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "11 November 1918 is the historical date of restored Polish independence; the statutory institution year of National Independence Day is distinct.",
+  "authority": "Ministry of Foreign Affairs of Poland",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.pl/web/diplomacy/national-independence-day",
+      "claim": "The Polish Ministry of Foreign Affairs describes 11 November 1918 as the date the country regained independence following partition."
+    }
+  ],
+  "narratives": {
+    "en": "Poland celebrates National Independence Day on 11 November, recalling the restoration of an independent Polish state in 1918 after more than a century of partition. The end of the First World War opened the way for the return of Polish institutions and sovereignty. The holiday honors generations who worked for self-determination. The historical year 1918 should not be confused with the later legal designation of the annual observance.",
+    "it": "L'11 novembre la Polonia celebra l'indipendenza recuperata nel 1918, dopo oltre un secolo di spartizioni territoriali. La fine della Prima guerra mondiale aprì la strada al ritorno di istituzioni polacche e sovranità nazionale. La festa ricorda le generazioni impegnate nell'autodeterminazione. Il 1918 indica l'evento storico, non necessariamente l'anno della successiva istituzione legale della ricorrenza.",
+    "es": "El 11 de noviembre Polonia celebra la recuperación de su independencia en 1918, tras más de un siglo de particiones territoriales. El final de la Primera Guerra Mundial permitió restablecer las instituciones polacas y la soberanía. La fiesta reconoce a generaciones que lucharon por la autodeterminación. El año 1918 corresponde al acontecimiento histórico y no necesariamente a la posterior designación legal.",
+    "fr": "Le 11 novembre, la Pologne célèbre le rétablissement de son indépendance en 1918, après plus d'un siècle de partitions territoriales. La fin de la Première Guerre mondiale permit le retour d'institutions polonaises et de la souveraineté. Cette fête honore les générations engagées pour l'autodétermination. L'année 1918 désigne l'événement historique, distinct de la désignation légale ultérieure.",
+    "de": "Am 11. November feiert Polen die Wiedererlangung seiner Unabhängigkeit 1918 nach mehr als einem Jahrhundert territorialer Teilungen. Das Ende des Ersten Weltkriegs ermöglichte die Rückkehr polnischer Institutionen und staatlicher Souveränität. Der Feiertag würdigt Generationen, die sich für Selbstbestimmung einsetzten. Das historische Jahr 1918 ist vom späteren gesetzlichen Einführungsjahr zu unterscheiden.",
+    "pt": "Em 11 de novembro, a Polónia celebra a recuperação da independência em 1918, após mais de um século de partilhas territoriais. O fim da Primeira Guerra Mundial abriu caminho ao regresso das instituições polacas e da soberania. O feriado homenageia gerações empenhadas na autodeterminação. O ano histórico 1918 é distinto da posterior instituição legal da comemoração."
+  },
+  "runtimeRichEditorialApproved": false
+}

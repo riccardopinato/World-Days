@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-veterans-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-23",
+  "country": "EE",
+  "documentedIntroductionYear": 2013,
+  "yearMeaning": "The Estonian government announced the first Veterans' Day for 23 April 2013; the 2014 Riigikogu press release calls that year's observance the second.",
+  "authority": "Estonian Ministry of Defence",
+  "dateReason": "Fixed annual date established by the cited national institutional source.",
+  "sourceEvidence": [
+    {
+      "url": "https://kaitseministeerium.ee/en/news/23-april-flags-will-be-flown-support-veterans",
+      "claim": "Ministry of Defence announcement dated 18 April 2013 confirms the first observance on 23 April 2013 and the governmental flag initiative."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia first marked Veterans' Day on 23 April 2013, honouring people who served on international missions or were injured in military service. The Ministry of Defence announced that state institutions would fly flags and invited residents to do the same. The date became an occasion to recognize service members and their families rather than commemorate a particular battle.",
+    "it": "L'Estonia celebrò per la prima volta la Giornata dei veterani il 23 aprile 2013, per rendere omaggio a chi aveva partecipato a missioni internazionali o riportato ferite durante il servizio militare. Il Ministero della Difesa annunciò l'esposizione della bandiera negli uffici pubblici e invitò i cittadini a partecipare. La ricorrenza riconosce il servizio e le famiglie, non una singola battaglia.",
+    "es": "Estonia celebró por primera vez el Día de los Veteranos el 23 de abril de 2013, en homenaje a quienes participaron en misiones internacionales o resultaron heridos durante el servicio militar. El Ministerio de Defensa dispuso el izado de banderas en instituciones públicas e invitó a la población a sumarse. La jornada reconoce a los militares y sus familias, no una batalla concreta.",
+    "fr": "L'Estonie a célébré pour la première fois la Journée des vétérans le 23 avril 2013, en hommage aux personnes ayant participé à des missions internationales ou ayant été blessées en service. Le ministère de la Défense a annoncé le pavoisement des bâtiments publics et invité la population à faire de même. Cette journée honore les militaires et leurs proches, sans commémorer une bataille précise.",
+    "de": "Estland beging den Veteranentag erstmals am 23. April 2013. Geehrt werden Menschen, die an Auslandseinsätzen teilgenommen haben oder im Militärdienst verletzt wurden. Das Verteidigungsministerium kündigte die Beflaggung staatlicher Einrichtungen an und rief die Bevölkerung zur Teilnahme auf. Im Mittelpunkt stehen die Dienstleistenden und ihre Familien, nicht eine bestimmte Schlacht.",
+    "pt": "A Estónia assinalou pela primeira vez o Dia dos Veteranos em 23 de abril de 2013, homenageando quem participou em missões internacionais ou sofreu ferimentos durante o serviço militar. O Ministério da Defesa anunciou o hasteamento da bandeira nos organismos públicos e convidou a população a participar. A data reconhece os militares e as suas famílias, não uma batalha específica."
+  },
+  "runtimeRichEditorialApproved": false
+}

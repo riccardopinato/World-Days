@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "co-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-20",
+  "country": "CO",
+  "documentedIntroductionYear": 1873,
+  "yearMeaning": "The revolutionary events in Santafé occurred on 20 July 1810. Article 1 of Law 60 of 8 May 1873 explicitly declared the annual 20 July national holiday; this is the legislative recognition year.",
+  "authority": "Congress of the United States of Colombia; General Archive of the Nation",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%201873/Ley%20060%20de%201873.pdf",
+      "claim": "Law 60 of 8 May 1873, Article 1 declares 20 July a public holiday for the republic in memory of the 1810 proclamation of independence."
+    }
+  ],
+  "narratives": {
+    "en": "Colombia celebrates Independence Day on 20 July, recalling political events in Santafé in 1810 that launched a longer struggle for self-government. The declaration and formation of a local governing junta did not complete independence immediately. The national anniversary was legally designated by Law 60 on 8 May 1873. The year 1873 therefore identifies formal holiday recognition, while 1810 marks the historical beginning of the independence process.",
+    "it": "Il 20 luglio la Colombia celebra l'indipendenza ricordando gli eventi politici di Santafé nel 1810, che avviarono un lungo processo di emancipazione. La formazione di una giunta di governo non completò immediatamente l'indipendenza. La legge 60 dell'8 maggio 1873 riconobbe formalmente la festa nazionale. Il 1873 indica quindi l'istituzione legislativa, mentre il 1810 segna l'inizio storico del processo.",
+    "es": "El 20 de julio Colombia celebra la Independencia en recuerdo de los hechos de Santafé de 1810, que iniciaron un largo proceso de emancipación. La creación de una junta de gobierno no completó la independencia inmediatamente. La Ley 60 del 8 de mayo de 1873 declaró oficialmente el festivo nacional. Así, 1873 es el reconocimiento legal, mientras que 1810 señala el comienzo histórico del proceso.",
+    "fr": "Le 20 juillet, la Colombie célèbre son indépendance en mémoire des événements politiques de Santafé en 1810, qui lancèrent un long processus d'émancipation. La création d'une junte gouvernementale ne signifia pas une indépendance immédiate. La loi 60 du 8 mai 1873 institua officiellement la fête nationale. L'année 1873 correspond donc à la reconnaissance juridique et 1810 au début historique du processus.",
+    "de": "Kolumbien feiert am 20. Juli seine Unabhängigkeit und erinnert an die politischen Ereignisse von 1810 in Santafé, die einen längeren Emanzipationsprozess einleiteten. Die Bildung einer Regierungsjunta bedeutete noch keine vollständige Unabhängigkeit. Gesetz 60 vom 8. Mai 1873 erklärte den Tag offiziell zum Nationalfeiertag. 1873 bezeichnet daher die gesetzliche Anerkennung und 1810 den historischen Beginn.",
+    "pt": "A Colômbia celebra a independência em 20 de julho, recordando os acontecimentos políticos de Santafé em 1810 que iniciaram um longo processo de emancipação. A formação de uma junta governativa não concluiu imediatamente a independência. A Lei 60 de 8 de maio de 1873 declarou oficialmente o feriado nacional. Assim, 1873 corresponde à instituição legal e 1810 ao início histórico do processo."
+  },
+  "runtimeRichEditorialApproved": false
+}

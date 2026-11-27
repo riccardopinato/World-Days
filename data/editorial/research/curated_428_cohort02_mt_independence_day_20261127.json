@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-21",
+  "country": "MT",
+  "documentedIntroductionYear": 1964,
+  "yearMeaning": "21 September 1964 was the constitutional independence date, independently documented by the official Independence Order. It is the historical date, not proof of the initial celebration schedule.",
+  "authority": "Government of Malta",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://legislation.mt/MediaCenter/PDFs/ORD/MaltaIndependenceOrder1964.pdf",
+      "claim": "Malta Independence Order 1964 establishes 21 September 1964 as the appointed date for independence."
+    }
+  ],
+  "narratives": {
+    "en": "Malta celebrates Independence Day on 21 September, the date the islands became independent in 1964 after a long period of British rule. The Malta Independence Order explicitly fixed that day for constitutional independence. The milestone began a new era of self-government and international relations, although Malta subsequently changed its constitutional status to a republic in 1974. Independence Day must therefore be distinguished from Republic Day.",
+    "it": "Il 21 settembre Malta celebra l'indipendenza, ottenuta nel 1964 dopo una lunga fase di dominio britannico. Il Malta Independence Order stabilì esplicitamente quella data per l'indipendenza costituzionale. Il passaggio aprì una nuova fase di autogoverno e relazioni internazionali, mentre nel 1974 Malta divenne una repubblica. La Giornata dell'indipendenza va quindi distinta dalla Giornata della Repubblica.",
+    "es": "El 21 de septiembre Malta celebra su independencia de 1964, tras un largo período de administración británica. La Orden de Independencia de Malta fijó expresamente esa fecha para el cambio constitucional. El acontecimiento abrió una nueva etapa de autogobierno y relaciones internacionales; en 1974 Malta pasó a ser una república. El Día de la Independencia no debe confundirse con el Día de la República.",
+    "fr": "Le 21 septembre, Malte célèbre son indépendance obtenue en 1964 après une longue période de domination britannique. L'ordonnance sur l'indépendance de Malte fixa expressément cette date pour le changement constitutionnel. Ce moment ouvrit une nouvelle période d'autonomie et de relations internationales ; Malte devint ensuite une république en 1974. La fête de l'indépendance est donc distincte de celle de la République.",
+    "de": "Am 21. September feiert Malta seine Unabhängigkeit von 1964 nach langer britischer Herrschaft. Die Malta Independence Order bestimmte dieses Datum ausdrücklich als Tag der verfassungsrechtlichen Unabhängigkeit. Damit begann eine neue Zeit der Selbstregierung und internationaler Beziehungen; 1974 wurde Malta zur Republik. Der Unabhängigkeitstag ist daher vom Tag der Republik zu unterscheiden.",
+    "pt": "Em 21 de setembro, Malta celebra a independência alcançada em 1964 após um longo período de domínio britânico. A Ordem da Independência de Malta fixou expressamente essa data para a mudança constitucional. Iniciou-se uma nova fase de autogoverno e relações internacionais; em 1974 Malta tornou-se república. O Dia da Independência é, por isso, distinto do Dia da República."
+  },
+  "runtimeRichEditorialApproved": false
+}

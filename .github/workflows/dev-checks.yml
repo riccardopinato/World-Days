@@ -124,6 +124,9 @@ jobs:
           python3 tool/validate_fasttrack_curated_428_promotion.py
           python3 tool/promote_curated_428_fasttrack_batch.py
           python3 tool/validate_fasttrack_curated_428_batch.py
+          python3 tool/promote_curated_428_fasttrack_prepared85.py
+          python3 tool/validate_fasttrack_prepared85.py
+          python3 tool/validate_curated_428_unwritten_fasttrack_blocks.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
@@ -140,6 +143,17 @@ jobs:
           path: |
             reports/editorial_curated_428_origin_research/index.json
             reports/editorial_curated_428_origin_research/cohort_*.json
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive Fast Track reviewed 85 and remaining 281 block worklists
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-fasttrack-prepared85-and-281-blocks
+          path: |
+            reports/editorial_curated_428_origin_research/fasttrack_prepared85_runtime_import.json
+            data/editorial/waves/curated_428_unwritten_fasttrack_block_*.json
+            data/editorial/waves/curated_428_unwritten_fasttrack_index_20261127.json
           if-no-files-found: error
           retention-days: 20
 

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 5,
+  "id": "vn-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-02",
+  "country": "VN",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "2 September 1945 marks the declaration of independence and founding of the Democratic Republic of Vietnam; the statutory origin of today's annual holiday is a separate claim.",
+  "authority": "Ministry of Foreign Affairs of Vietnam",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://mofa.gov.vn/en/web/ky-niem-80-nam-ngoai-giao-viet-nam",
+      "claim": "Vietnamese Foreign Ministry timeline identifies Ho Chi Minh's declaration at Ba Dinh Square on 2 September 1945 and the birth of the Democratic Republic of Vietnam."
+    }
+  ],
+  "narratives": {
+    "en": "Vietnam celebrates National Day on 2 September, recalling Ho Chi Minh's reading of the Declaration of Independence at Ba Dinh Square in Hanoi in 1945. The proclamation announced the Democratic Republic of Vietnam at the end of the Second World War. It began a complex period of struggles over sovereignty and national reunification. The holiday commemorates the founding declaration, while its legal establishment year should be documented separately.",
+    "it": "Il 2 settembre il Vietnam celebra la Giornata nazionale, ricordando la lettura della Dichiarazione d'indipendenza da parte di Ho Chi Minh nella piazza Ba Dinh di Hanoi nel 1945. Il proclama annunciò la Repubblica Democratica del Vietnam alla fine della Seconda guerra mondiale. Seguirono lunghi conflitti legati alla sovranità e alla riunificazione. La festa ricorda la dichiarazione originaria, mentre l'anno della sua istituzione legale va accertato a parte.",
+    "es": "El 2 de septiembre Vietnam celebra el Día Nacional, recordando la lectura de la Declaración de Independencia por Ho Chi Minh en la plaza Ba Dinh de Hanói en 1945. La proclamación anunció la República Democrática de Vietnam al final de la Segunda Guerra Mundial. Después siguieron conflictos por la soberanía y la reunificación. La fecha recuerda la declaración fundacional, mientras que la institución legal del festivo debe verificarse por separado.",
+    "fr": "Le 2 septembre, le Vietnam célèbre sa fête nationale en mémoire de la lecture de la Déclaration d'indépendance par Hô Chi Minh sur la place Ba Dinh à Hanoï en 1945. La proclamation annonça la République démocratique du Vietnam à la fin de la Seconde Guerre mondiale. De longs conflits suivirent autour de la souveraineté et de la réunification. La fête rappelle la déclaration fondatrice ; son année de création légale demande une preuve distincte.",
+    "de": "Vietnam feiert seinen Nationalfeiertag am 2. September und erinnert an die 1945 von Ho Chi Minh auf dem Ba-Dinh-Platz in Hanoi verlesene Unabhängigkeitserklärung. Die Proklamation verkündete am Ende des Zweiten Weltkriegs die Demokratische Republik Vietnam. Es folgte eine lange Phase von Konflikten um Souveränität und Wiedervereinigung. Der Tag erinnert an die Gründungserklärung; das gesetzliche Feiertagsjahr ist gesondert nachzuweisen.",
+    "pt": "O Vietname celebra o Dia Nacional em 2 de setembro, recordando a leitura da Declaração de Independência por Ho Chi Minh na praça Ba Dinh, em Hanói, em 1945. A proclamação anunciou a República Democrática do Vietname no final da Segunda Guerra Mundial. Seguiram-se conflitos prolongados sobre soberania e reunificação. O feriado recorda a declaração fundadora; o ano da instituição legal deve ser demonstrado separadamente."
+  },
+  "runtimeRichEditorialApproved": false
+}

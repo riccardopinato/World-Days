@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "gh-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-06",
+  "country": "GH",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "6 March 1957 is the historical date of Ghana's independence from British rule, rather than a separately documented statutory institution of the annual holiday.",
+  "authority": "Bank of Ghana; Ghana High Commission",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.bog.gov.gh/holidays_calendar/independence-day/",
+      "claim": "Bank of Ghana describes 6 March Independence Day as the commemoration of independence from the United Kingdom on 6 March 1957."
+    }
+  ],
+  "narratives": {
+    "en": "Ghana celebrates Independence Day on 6 March, recalling its emergence from British colonial rule in 1957. The occasion marks a milestone for the Gold Coast and inspired other movements for African self-government. Public ceremonies emphasize freedom, national unity and the responsibility of democratic citizenship. The documented date of independence is 1957; the year when the annual holiday was first established legally is a separate matter.",
+    "it": "Il 6 marzo il Ghana celebra l'indipendenza dal dominio coloniale britannico raggiunta nel 1957. La nascita del nuovo Stato segnò una svolta per la Costa d'Oro e ispirò altri movimenti africani di autogoverno. Le cerimonie pubbliche richiamano libertà, unità nazionale e responsabilità civica. Il 1957 è l'anno dell'indipendenza, mentre quello della prima istituzione legislativa della ricorrenza è distinto.",
+    "es": "El 6 de marzo Ghana celebra su independencia del dominio colonial británico en 1957. El nacimiento del nuevo Estado fue un hito para la Costa de Oro e inspiró otros movimientos africanos de autogobierno. Las ceremonias públicas evocan libertad, unidad nacional y responsabilidad cívica. El año 1957 corresponde a la independencia; la primera institución legal de la fiesta es una cuestión diferente.",
+    "fr": "Le 6 mars, le Ghana célèbre son indépendance obtenue en 1957 après la domination coloniale britannique. La naissance du nouvel État marqua un tournant pour la Côte-de-l'Or et inspira d'autres mouvements d'autonomie en Afrique. Les cérémonies rappellent liberté, unité nationale et responsabilité civique. L'année 1957 désigne l'indépendance, non nécessairement la première institution légale de la fête.",
+    "de": "Ghana feiert am 6. März seine Unabhängigkeit von britischer Kolonialherrschaft im Jahr 1957. Die Entstehung des neuen Staates war ein Meilenstein für die Goldküste und inspirierte weitere afrikanische Unabhängigkeitsbewegungen. Öffentliche Feiern betonen Freiheit, nationale Einheit und bürgerliche Verantwortung. 1957 ist das Unabhängigkeitsjahr; das erste gesetzliche Feiertagsjahr ist gesondert zu prüfen.",
+    "pt": "O Gana celebra a independência do domínio colonial britânico em 6 de março, alcançada em 1957. O nascimento do novo Estado foi um marco para a Costa do Ouro e inspirou outros movimentos africanos de autogoverno. As cerimónias públicas valorizam liberdade, unidade e responsabilidade cívica. O ano 1957 corresponde à independência; a primeira instituição legal do feriado é uma questão distinta."
+  },
+  "runtimeRichEditorialApproved": false
+}
