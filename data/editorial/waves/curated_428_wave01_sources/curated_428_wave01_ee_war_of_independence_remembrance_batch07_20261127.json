@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-war-of-independence-remembrance",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-03",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original year of statutory establishment not proven by cited institutional material.",
+  "authority": "Ministry of Defence of Estonia",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://kaitseministeerium.ee/uudised/vabadussoja-relvarahu-aastapaeval-malestati-eesti-vabaduse-eest-langenuid",
+      "claim": "Ministry commemorates those fallen in the Estonian War of Independence on 3 January at 10:30, when the 1920 armistice took effect.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia remembers those who died in its War of Independence on 3 January. At 10:30, the hour when the armistice with Soviet Russia took effect in 1920, people honour those who fought for the country's independence. The moment of remembrance recalls the end of active hostilities; the historic year is not evidence of the original date of legal designation.",
+    "it": "Il 3 gennaio l'Estonia ricorda i caduti nella Guerra d'indipendenza. Alle 10:30, ora in cui nel 1920 entrò in vigore l'armistizio con la Russia sovietica, si rende omaggio a chi combatté per la sovranità del paese. Il raccoglimento ricorda la fine delle ostilità attive; l'anno storico non certifica la prima istituzione legislativa della giornata.",
+    "es": "Estonia recuerda el 3 de enero a los caídos en su Guerra de Independencia. A las 10:30, hora en que entró en vigor el armisticio con la Rusia soviética en 1920, se rinde homenaje a quienes defendieron el país. El silencio recuerda el fin de las hostilidades activas; el año histórico no demuestra cuándo se creó legalmente la conmemoración.",
+    "fr": "L'Estonie rend hommage aux morts de sa guerre d'indépendance le 3 janvier. À 10 h 30, heure d'entrée en vigueur de l'armistice avec la Russie soviétique en 1920, elle honore celles et ceux qui défendirent sa souveraineté. Ce moment rappelle la fin des combats actifs; l'année historique n'établit pas la date de création juridique de la commémoration.",
+    "de": "Estland gedenkt am 3. Januar der Gefallenen seines Unabhängigkeitskrieges. Um 10:30 Uhr, als 1920 der Waffenstillstand mit Sowjetrussland in Kraft trat, wird der Menschen gedacht, die für die Unabhängigkeit kämpften. Der Gedenkmoment erinnert an das Ende der Kampfhandlungen; das historische Jahr belegt nicht das gesetzliche Einführungsjahr.",
+    "pt": "A Estónia recorda em 3 de janeiro os mortos na Guerra da Independência. Às 10h30, hora em que entrou em vigor o armistício com a Rússia soviética em 1920, homenageiam-se aqueles que lutaram pela soberania do país. O momento assinala o fim dos combates ativos; o ano histórico não comprova a criação legal da comemoração."
+  },
+  "runtimeRichEditorialApproved": false
+}

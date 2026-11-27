@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-war-invalids-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-12",
+  "country": "PL",
+  "documentedIntroductionYear": 2026,
+  "yearMeaning": "Year refers to formal legal establishment rather than the historical event.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/eli/DU/2026/179/ogl",
+      "claim": "Act of 23 January 2026 officially establishes 12 April as War Invalids Day in recognition of people permanently injured by warfare.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.senat.gov.pl/aktualnoscilista/art%2C17453%2Cobchody-dnia-inwalidy-wojennego.html",
+      "claim": "Senate explains that 12 April refers to the first unification congress of the war invalids association in April 1919.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland observes War Invalids Day on 12 April to honour people who sustained lasting injuries through warfare and to recognise their service and sacrifice. The date is associated with a national gathering of war invalids in 1919. A parliamentary act adopted in 2026 established the official day, distinguishing the contemporary legal recognition from the earlier historical event.",
+    "it": "Il 12 aprile la Polonia rende omaggio alle persone che hanno riportato lesioni permanenti a causa delle guerre, riconoscendone il servizio e il sacrificio. La data è collegata a un incontro nazionale degli invalidi di guerra del 1919. Una legge del 2026 ha istituito la giornata ufficiale, distinta dall'evento storico a cui si riferisce.",
+    "es": "Polonia celebra el Día de los Inválidos de Guerra el 12 de abril para honrar a quienes sufrieron lesiones permanentes a causa de los conflictos y reconocer su sacrificio. La fecha recuerda una reunión nacional de veteranos heridos en 1919. Una ley de 2026 estableció la conmemoración oficial, distinta del acontecimiento histórico anterior.",
+    "fr": "La Pologne célèbre le 12 avril la Journée des invalides de guerre en hommage aux personnes ayant subi des blessures durables lors des conflits. La date rappelle un rassemblement national d'anciens combattants blessés en 1919. Une loi de 2026 a institué cette journée officielle, distincte de l'événement historique commémoré.",
+    "de": "Polen begeht am 12. April den Tag der Kriegsversehrten, um Menschen mit dauerhaften Kriegsverletzungen und ihren Einsatz zu würdigen. Das Datum erinnert an ein landesweites Treffen von Kriegsversehrten im Jahr 1919. Ein Gesetz von 2026 führte den heutigen Gedenktag ein und unterscheidet damit die rechtliche Anerkennung vom früheren Ereignis.",
+    "pt": "A Polónia celebra o Dia dos Inválidos de Guerra em 12 de abril para homenagear pessoas com lesões permanentes causadas por conflitos e reconhecer o seu sacrifício. A data remete para um encontro nacional de veteranos feridos em 1919. Uma lei de 2026 criou a comemoração oficial, distinta do acontecimento histórico anterior."
+  },
+  "runtimeRichEditorialApproved": false
+}

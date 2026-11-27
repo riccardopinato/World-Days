@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-struggle-and-martyrdom-of-polish-villages-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-12",
+  "country": "PL",
+  "documentedIntroductionYear": 2017,
+  "yearMeaning": "Year refers to formal legal establishment rather than the historical event.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2017/1953/text.html",
+      "claim": "Act of 29 September 2017 creates 12 July Day of Struggle and Martyrdom of Polish Villages, recalling the pacification of Michniów in 1943.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland honours the struggle and suffering of its rural communities on 12 July. The date recalls the destruction of the village of Michniów by German occupation forces in 1943, while also recognising villagers who resisted persecution and helped others during the Second World War. Parliament established the national commemorative day in 2017.",
+    "it": "Il 12 luglio la Polonia ricorda la lotta e il martirio delle comunità rurali. La data richiama la distruzione del villaggio di Michniów da parte delle forze di occupazione tedesche nel 1943 e rende omaggio agli abitanti dei villaggi che resistettero o prestarono aiuto durante la Seconda guerra mondiale. Il Parlamento istituì la giornata nel 2017.",
+    "es": "Polonia recuerda el 12 de julio la lucha y el sufrimiento de sus comunidades rurales. La fecha evoca la destrucción de Michniów por las fuerzas de ocupación alemanas en 1943 y homenajea a los habitantes que resistieron o prestaron ayuda durante la Segunda Guerra Mundial. El Parlamento instituyó la jornada nacional en 2017.",
+    "fr": "La Pologne honore le 12 juillet la lutte et le martyre de ses communautés rurales. Cette date rappelle la destruction du village de Michniów par les forces d'occupation allemandes en 1943 et les habitants qui résistèrent ou aidèrent autrui pendant la Seconde Guerre mondiale. Le Parlement a créé cette journée nationale en 2017.",
+    "de": "Polen gedenkt am 12. Juli des Kampfes und Leidens seiner ländlichen Gemeinden. Das Datum erinnert an die Zerstörung des Dorfes Michniów durch deutsche Besatzungstruppen 1943 und würdigt Dorfbewohner, die im Zweiten Weltkrieg Widerstand leisteten oder anderen halfen. Das Parlament führte den nationalen Gedenktag 2017 ein.",
+    "pt": "A Polónia homenageia em 12 de julho a luta e o sofrimento das comunidades rurais. A data recorda a destruição de Michniów pelas forças de ocupação alemãs em 1943 e os aldeões que resistiram ou ajudaram outras pessoas durante a Segunda Guerra Mundial. O Parlamento instituiu a comemoração nacional em 2017."
+  },
+  "runtimeRichEditorialApproved": false
+}

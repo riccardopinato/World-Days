@@ -139,6 +139,8 @@ jobs:
           python3 tool/validate_fasttrack_wave01_batch05.py
           python3 tool/promote_curated_428_fasttrack_wave01_batch06.py
           python3 tool/validate_fasttrack_wave01_batch06.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch07.py
+          python3 tool/validate_fasttrack_wave01_batch07.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
