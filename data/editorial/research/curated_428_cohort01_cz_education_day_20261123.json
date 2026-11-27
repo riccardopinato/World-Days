@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-czech-education-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_SCOPE_REVIEW_PENDING",
+  "review": "PENDING",
+  "date": "04-07",
+  "country": "CZ",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "1348 is the university foundation event, not the establishment of the modern civic observance; exact first statutory introduction not established by this research",
+  "authority": "Czech Republic, Act No. 245/2000 Sb. as amended, §4 (significant days)",
+  "dateReason": "7 April 1348 is the date of Charles IV's foundation charter for Charles University in Prague",
+  "sourceEvidence": [
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Current Czech statutory text §4 explicitly lists 7 April as Den vzdělanosti; §4(2) says significant days are working days unless separately holidays"
+    },
+    {
+      "url": "https://cuni.cz/UKEN-116.html",
+      "claim": "Charles University's own founding charter is dated Prague, 7 April 1348 and establishes a studium generale"
+    },
+    {
+      "url": "https://cerge-ei.cz/news/day-of-education-czech-republic",
+      "claim": "Charles University-affiliated academic institution explicitly connects Czech Education Day on 7 April with the 1348 foundation"
+    }
+  ],
+  "narratives": {
+    "en": "Czech Education Day is observed on 7 April, recalling the foundation charter issued in Prague by Charles IV on 7 April 1348 for the university now known as Charles University. The charter established a centre of higher learning in the Bohemian kingdom and promised protection and privileges to its teachers and students. Czech law 245/2000, as amended, lists 7 April as Den vzdělanosti, a significant civic day rather than a public holiday. The date therefore commemorates the medieval educational foundation; 1348 is not the year the modern observance was established.",
+    "it": "La Giornata dell'istruzione in Cechia ricorre il 7 aprile e ricorda l'atto di fondazione emanato a Praga da Carlo IV il 7 aprile 1348 per l'attuale Università Carlo. Il documento istituiva un centro di studi superiori nel regno di Boemia e garantiva protezione e privilegi a docenti e studenti. La legge ceca 245/2000, nel testo vigente, include il 7 aprile come Den vzdělanosti, giornata civica significativa ma non festiva. Il 1348 è dunque l'anno dell'evento ricordato, non quello di istituzione della ricorrenza moderna.",
+    "es": "El Día de la Educación en Chequia se celebra el 7 de abril y recuerda la carta fundacional expedida en Praga por Carlos IV el 7 de abril de 1348 para la actual Universidad Carolina. El documento establecía un centro de enseñanza superior en el reino de Bohemia y concedía protección y privilegios a docentes y estudiantes. La Ley checa 245/2000, en su versión vigente, incluye el 7 de abril como Den vzdělanosti, día cívico significativo pero no festivo. Por tanto, 1348 corresponde al acontecimiento recordado, no al año de instauración de la conmemoración moderna.",
+    "fr": "La Journée de l'éducation en Tchéquie est célébrée le 7 avril en mémoire de la charte de fondation délivrée à Prague par Charles IV le 7 avril 1348 pour l'actuelle université Charles. Ce texte créait un établissement d'enseignement supérieur dans le royaume de Bohême et accordait protection et privilèges aux enseignants et aux étudiants. La loi tchèque 245/2000, dans sa version en vigueur, inscrit le 7 avril comme Den vzdělanosti, journée civique importante mais non fériée. L'année 1348 désigne donc l'événement commémoré, et non la création de la journée moderne.",
+    "de": "Der tschechische Tag der Bildung am 7. April erinnert an die Gründungsurkunde, die Karl IV. am 7. April 1348 in Prag für die heutige Karls-Universität ausstellte. Die Urkunde schuf eine Hochschule im Königreich Böhmen und gewährte Lehrenden und Studierenden Schutz und Privilegien. Das tschechische Gesetz 245/2000 führt den 7. April in seiner geltenden Fassung als Den vzdělanosti, einen bedeutsamen Gedenktag, aber keinen arbeitsfreien Feiertag. 1348 bezeichnet somit das historische Ereignis, nicht das Einführungsjahr des heutigen Gedenktags.",
+    "pt": "O Dia da Educação na Chéquia assinala-se a 7 de abril e recorda a carta de fundação emitida em Praga por Carlos IV em 7 de abril de 1348 para a atual Universidade Carolina. O documento estabeleceu um centro de ensino superior no reino da Boémia e concedeu proteção e privilégios a docentes e estudantes. A Lei checa 245/2000, na redação em vigor, inclui 7 de abril como Den vzdělanosti, um dia cívico significativo, mas não feriado. Assim, 1348 é o ano do acontecimento recordado, não o da instituição da comemoração moderna."
+  },
+  "scopeDecision": "KEEP_RECOGNIZED_CIVIC_OBSERVANCE",
+  "runtimeRichEditorialApproved": false
+}

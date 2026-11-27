@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-w13-eures-christmas-eve",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-24",
+  "country": "CZ",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Act 245/2000 codifies 24 December as a Czech public holiday; it does not establish the historical origin of Christmas Eve.",
+  "authority": "Parliament of the Czech Republic",
+  "dateReason": "24 December is Christmas Eve in the Western Christian calendar; Czech law names it Štědrý den.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245",
+      "claim": "Section 2 of Act 245/2000 lists 24 December (Štědrý den) as a public holiday."
+    },
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Official Czech Ministry of Labour legal text reproduces the statutory listing of Christmas Eve among other holidays."
+    }
+  ],
+  "narratives": {
+    "en": "In Czechia, 24 December is Christmas Eve (Štědrý den), a statutory public holiday and a central day of family Christmas celebrations. Czech Act 245/2000 explicitly lists it among the country's public holidays, alongside 25 and 26 December. Many families gather for an evening meal and exchange gifts on Christmas Eve. The year 2000 marks the cited law's codification, not the historical beginning of the custom.",
+    "it": "In Cechia il 24 dicembre è la vigilia di Natale (Štědrý den), festività pubblica e giornata centrale delle celebrazioni natalizie in famiglia. La legge ceca 245/2000 la elenca espressamente tra i giorni festivi, insieme al 25 e al 26 dicembre. Molte famiglie si riuniscono per la cena e si scambiano i regali già alla vigilia. Il 2000 indica la codificazione della legge citata, non l'origine storica della tradizione.",
+    "es": "En Chequia, el 24 de diciembre es Nochebuena (Štědrý den), festivo oficial y día central de las celebraciones familiares de Navidad. La Ley checa 245/2000 lo incluye expresamente entre los festivos, junto con el 25 y el 26 de diciembre. Muchas familias se reúnen para cenar e intercambian regalos esa noche. El año 2000 corresponde a la codificación de la ley citada, no al origen histórico de la costumbre.",
+    "fr": "En Tchéquie, le 24 décembre est le réveillon de Noël (Štědrý den), un jour férié légal et un moment central des célébrations familiales. La loi tchèque 245/2000 le mentionne expressément parmi les jours fériés, avec les 25 et 26 décembre. De nombreuses familles se réunissent pour le repas du soir et échangent leurs cadeaux dès la veille de Noël. L'année 2000 correspond à la codification de cette loi, et non à l'origine historique de la tradition.",
+    "de": "In Tschechien ist der 24. Dezember Heiligabend (Štědrý den), ein gesetzlicher Feiertag und ein zentraler Tag familiärer Weihnachtsfeiern. Das tschechische Gesetz 245/2000 nennt ihn ausdrücklich als Feiertag, ebenso wie den 25. und 26. Dezember. Viele Familien kommen am Abend zum Essen zusammen und tauschen bereits an Heiligabend Geschenke aus. Das Jahr 2000 bezeichnet die gesetzliche Kodifizierung, nicht den historischen Ursprung des Brauchs.",
+    "pt": "Na Chéquia, 24 de dezembro é a véspera de Natal (Štědrý den), feriado legal e um dia central das celebrações familiares. A Lei checa 245/2000 inclui expressamente esta data entre os feriados, juntamente com 25 e 26 de dezembro. Muitas famílias reúnem-se para jantar e trocam presentes na própria véspera. O ano 2000 corresponde à codificação da lei citada, não à origem histórica da tradição."
+  },
+  "runtimeRichEditorialApproved": false
+}

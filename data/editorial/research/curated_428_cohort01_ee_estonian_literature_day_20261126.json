@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "ee-estonian-literature-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-30",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Republic of Estonia, Riigi Teataja",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "claim": "Estonian Flag Act lists 30 January as Estonian Literature Day."
+    }
+  ],
+  "narratives": {
+    "en": "On 30 January Estonia celebrates Estonian Literature Day, a national occasion honoring books and writing in the Estonian language. The date is associated with the writer A. H. Tammsaare, whose novels helped shape modern literary identity. Public libraries, schools and readers highlight authors past and present. The Estonian Flag Act explicitly recognizes the date. Its legislative introduction year is kept separate from Tammsaare's biography and the broader history of Estonian literature.",
+    "it": "Il 30 gennaio l'Estonia celebra la Giornata della letteratura estone, dedicata ai libri e alla scrittura nella lingua nazionale. La data è associata allo scrittore A. H. Tammsaare, i cui romanzi contribuirono a definire l'identità letteraria moderna. Biblioteche, scuole e lettori valorizzano autori del passato e del presente. La legge estone sulla bandiera riconosce la ricorrenza. L'anno della sua istituzione legislativa è distinto dalla biografia dello scrittore.",
+    "es": "El 30 de enero Estonia celebra el Día de la Literatura Estonia, dedicado a los libros y a la escritura en su lengua nacional. La fecha está asociada con el escritor A. H. Tammsaare, cuyas novelas ayudaron a formar la identidad literaria moderna. Bibliotecas, escuelas y lectores destacan a autores antiguos y actuales. La Ley de la Bandera reconoce la jornada. Su año de creación legal debe diferenciarse de la biografía del escritor.",
+    "fr": "Le 30 janvier, l'Estonie célèbre la Journée de la littérature estonienne, consacrée aux livres et aux œuvres écrites dans sa langue nationale. La date est associée à A. H. Tammsaare, dont les romans ont contribué à façonner l'identité littéraire moderne. Bibliothèques, écoles et lecteurs mettent les auteurs à l'honneur. La loi estonienne sur le drapeau reconnaît cette journée. Son année de création juridique est distincte de la biographie de l'écrivain.",
+    "de": "Am 30. Januar feiert Estland den Tag der estnischen Literatur und würdigt Bücher und Schriftstellerei in der Landessprache. Das Datum ist mit A. H. Tammsaare verbunden, dessen Romane die moderne literarische Identität prägten. Bibliotheken, Schulen und Lesende stellen frühere und heutige Autoren vor. Das estnische Flaggengesetz erkennt den Tag an. Sein gesetzliches Einführungsjahr ist von der Biografie des Schriftstellers zu unterscheiden.",
+    "pt": "Em 30 de janeiro, a Estónia celebra o Dia da Literatura Estónia, dedicado aos livros e à escrita na língua nacional. A data está associada a A. H. Tammsaare, cujos romances ajudaram a moldar a identidade literária moderna. Bibliotecas, escolas e leitores valorizam autores antigos e contemporâneos. A Lei da Bandeira reconhece a celebração. O ano da instituição legal é distinto da biografia do escritor."
+  },
+  "runtimeRichEditorialApproved": false
+}

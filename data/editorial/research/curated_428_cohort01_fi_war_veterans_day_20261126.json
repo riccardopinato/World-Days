@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-war-veterans-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-27",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The date is official or recommended, but the introduction year is unverified.",
+  "authority": "Finnish Ministry for Foreign Affairs / official Finnish flag calendar",
+  "dateReason": "Official Finnish flag calendar gives the annual date.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/facts-stats-and-info/the-finnish-flag/",
+      "claim": "Finnish government calendar lists this annual observance and its recognized name."
+    },
+    {
+      "url": "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+      "claim": "Finland's twentieth-century conflicts include the Winter War and Continuation War, which provide historical context for the national veterans observance."
+    }
+  ],
+  "narratives": {
+    "en": "On 27 April, Finland observes National War Veterans' Day to honor those who served in the country's twentieth-century conflicts. The Winter War and the Continuation War remain central to how Finns remember wartime sacrifice and national defence. Public ceremonies acknowledge former service members and the experiences of the war generation. The Finnish official flag-day calendar confirms the annual date; the year when the observance was formally introduced remains unverified here.",
+    "it": "Il 27 aprile la Finlandia celebra la Giornata nazionale dei veterani di guerra, dedicata a chi prestò servizio nei conflitti del Novecento. La Guerra d'inverno e la Guerra di continuazione sono centrali nella memoria dei sacrifici e della difesa del Paese. Le cerimonie pubbliche riconoscono i veterani e le esperienze della generazione della guerra. Il calendario ufficiale conferma la data annuale, ma l'anno della prima istituzione rimane da verificare.",
+    "es": "El 27 de abril, Finlandia celebra el Día Nacional de los Veteranos de Guerra para honrar a quienes sirvieron en los conflictos del siglo XX. La Guerra de Invierno y la Guerra de Continuación son fundamentales para la memoria del sacrificio y la defensa nacional. Los actos públicos reconocen a los veteranos y las experiencias de la generación de la guerra. El calendario oficial confirma la fecha anual, pero no el año de su primera institución.",
+    "fr": "Le 27 avril, la Finlande célèbre la Journée nationale des anciens combattants pour honorer les personnes ayant servi lors des conflits du XXe siècle. La guerre d'Hiver et la guerre de Continuation occupent une place essentielle dans la mémoire des sacrifices et de la défense nationale. Les cérémonies publiques rendent hommage aux vétérans et à la génération de la guerre. Le calendrier officiel confirme la date, mais pas l'année de première institution.",
+    "de": "Am 27. April begeht Finnland den Nationalen Tag der Kriegsveteranen und ehrt Menschen, die in den Konflikten des 20. Jahrhunderts gedient haben. Winterkrieg und Fortsetzungskrieg prägen die Erinnerung an Opfer und Landesverteidigung. Öffentliche Gedenkfeiern würdigen ehemalige Soldaten und die Erfahrungen der Kriegsgeneration. Der offizielle Flaggentagskalender bestätigt den Termin, nicht jedoch das erste Einführungsjahr.",
+    "pt": "Em 27 de abril, a Finlândia celebra o Dia Nacional dos Veteranos de Guerra em homenagem a quem serviu nos conflitos do século XX. A Guerra de Inverno e a Guerra da Continuação são centrais na memória do sacrifício e da defesa nacional. Cerimónias públicas reconhecem os veteranos e as experiências da geração da guerra. O calendário oficial confirma a data anual, mas não o ano da primeira instituição."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-warsaw-pact-invasion-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-21",
+  "country": "CZ",
+  "documentedIntroductionYear": 2019,
+  "yearMeaning": "The Czech parliament approved and president signed the amendment establishing 21 August as a memorial day in 2019; 1968 is the historical invasion year, not the legal establishment year.",
+  "authority": "Parliament of the Czech Republic",
+  "dateReason": "The invasion of Czechoslovakia by Warsaw Pact forces began overnight on 20–21 August 1968; the Czech civic remembrance is observed on 21 August.",
+  "sourceEvidence": [
+    {
+      "url": "https://mzv.gov.cz/jnp/cz/udalosti_a_media/archiv_zprav/rok_2019/tiskove_zpravy/x2019_12_19_prohlaseni_mzv_k_ustanoveni_dne_pamatky.html",
+      "claim": "Czech Ministry of Foreign Affairs statement dated 19 December 2019 confirms the new remembrance and its connection to the 21 August 1968 invasion and civilian victims."
+    },
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245",
+      "claim": "Official Czech legal collection contains the amended public holidays and significant days statute."
+    },
+    {
+      "url": "https://www.mk.gov.cz/novinky-a-media-cs-4/4904cs-pietni-akt-srpen-1968",
+      "claim": "Czech Ministry of Culture documents annual remembrance at Czechoslovak Radio and the August 1968 events."
+    }
+  ],
+  "narratives": {
+    "en": "On 21 August, Czechia remembers the victims of the 1968 invasion of Czechoslovakia and the occupation that followed. Warsaw Pact forces crossed the border during the night of 20–21 August, interrupting the Prague Spring reform movement. Civilians were killed, and the occupation left a lasting mark on society. In December 2019, Czech authorities formally recognized 21 August as a memorial day. The date marks the invasion itself; 2019 refers to the legal designation, not the historical event.",
+    "it": "Il 21 agosto la Cechia ricorda le vittime dell'invasione della Cecoslovacchia del 1968 e dell'occupazione successiva. Le truppe del Patto di Varsavia attraversarono il confine nella notte tra il 20 e il 21 agosto, interrompendo le riforme della Primavera di Praga. Morirono anche civili e l'occupazione segnò profondamente la società. Nel dicembre 2019 le autorità ceche riconobbero formalmente il 21 agosto come giornata commemorativa. La data richiama l'invasione; il 2019 indica il riconoscimento giuridico.",
+    "es": "Cada 21 de agosto, Chequia recuerda a las víctimas de la invasión de Checoslovaquia de 1968 y de la ocupación posterior. Las tropas del Pacto de Varsovia cruzaron la frontera durante la noche del 20 al 21 de agosto e interrumpieron las reformas de la Primavera de Praga. Murieron civiles y la ocupación dejó una profunda huella social. En diciembre de 2019, las autoridades checas reconocieron oficialmente el 21 de agosto como día conmemorativo. La fecha recuerda la invasión; 2019 corresponde a su reconocimiento legal.",
+    "fr": "Le 21 août, la Tchéquie rend hommage aux victimes de l'invasion de la Tchécoslovaquie en 1968 et de l'occupation qui a suivi. Les forces du pacte de Varsovie ont franchi la frontière dans la nuit du 20 au 21 août, mettant fin aux réformes du Printemps de Prague. Des civils ont perdu la vie et l'occupation a durablement marqué la société. En décembre 2019, les autorités tchèques ont officiellement reconnu le 21 août comme journée de commémoration. Cette date rappelle l'invasion; 2019 désigne la reconnaissance juridique.",
+    "de": "Am 21. August gedenkt Tschechien der Opfer des Einmarschs in die Tschechoslowakei 1968 und der anschließenden Besatzung. Truppen des Warschauer Pakts überschritten in der Nacht vom 20. auf den 21. August die Grenze und beendeten die Reformbewegung des Prager Frühlings. Auch Zivilisten starben; die Besatzung prägte die Gesellschaft nachhaltig. Im Dezember 2019 wurde der 21. August offiziell als Gedenktag anerkannt. Das Datum erinnert an den Einmarsch; 2019 bezeichnet die gesetzliche Anerkennung.",
+    "pt": "Em 21 de agosto, a Chéquia recorda as vítimas da invasão da Checoslováquia em 1968 e da ocupação que se seguiu. As tropas do Pacto de Varsóvia atravessaram a fronteira na noite de 20 para 21 de agosto, interrompendo as reformas da Primavera de Praga. Morreram civis e a ocupação marcou profundamente a sociedade. Em dezembro de 2019, as autoridades checas reconheceram oficialmente 21 de agosto como dia de memória. A data recorda a invasão; 2019 corresponde ao reconhecimento legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-slovak-nation-declaration-anniversary",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-30",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "1918 is the year of the Martin Declaration, while Act 241/1993 established the independent Slovak Republic's commemorative calendar effective 1 January 1994. The 2018 centenary was exceptionally a state holiday; 1993 is a statutory designation, not proof of the first celebration.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "30 October commemorates the adoption of the Declaration of the Slovak Nation at Martin on 30 October 1918.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/241/20261029.print.html",
+      "claim": "Act 241/1993 §3 lists 30 October as anniversary of the Declaration of the Slovak Nation; §4a gives special state-holiday status only in 2018."
+    },
+    {
+      "url": "https://www.prezident.sk/en/short-history/",
+      "claim": "The Slovak President's historical overview describes the Martin Declaration of 30 October 1918 and the decision to join a Czech-Slovak state."
+    },
+    {
+      "url": "https://enrsi.stvr.sk/articles/topical-issue/381708/the-adoption-of-the-declaration-of-the-slovak-nation-from-1918-is-commemorated-as-a-memorial-day",
+      "claim": "Slovak public broadcaster documents the 1918 meeting in Martin and official memorial status since 1993."
+    }
+  ],
+  "narratives": {
+    "en": "On 30 October Slovakia remembers the Martin Declaration, adopted in 1918 as the Habsburg Empire collapsed. Slovak political representatives met in Martin and declared their intention to share a state with the Czechs. Their declaration became one of the founding political acts of Czechoslovakia. Slovak law 241/1993 recognizes this anniversary as a memorial day; the centenary in 2018 was exceptionally a state holiday. The historical event in 1918 and later legal recognition must not be confused.",
+    "it": "Il 30 ottobre la Slovacchia ricorda la Dichiarazione di Martin, approvata nel 1918 mentre si disgregava l'Impero asburgico. I rappresentanti politici slovacchi si riunirono a Martin ed espressero la volontà di unirsi ai cechi in uno Stato comune. La dichiarazione divenne uno degli atti politici fondativi della Cecoslovacchia. La legge slovacca 241/1993 riconosce l'anniversario come giornata commemorativa; solo per il centenario del 2018 fu festa nazionale. L'evento del 1918 non coincide con il successivo riconoscimento legale.",
+    "es": "El 30 de octubre, Eslovaquia recuerda la Declaración de Martin, aprobada en 1918 durante la desintegración del Imperio de los Habsburgo. Representantes políticos eslovacos se reunieron en Martin y expresaron su voluntad de formar un Estado común con los checos. La declaración fue uno de los actos políticos fundacionales de Checoslovaquia. La Ley 241/1993 reconoce el aniversario como día conmemorativo; excepcionalmente, el centenario de 2018 fue fiesta nacional. El acontecimiento de 1918 no debe confundirse con su reconocimiento legal posterior.",
+    "fr": "Le 30 octobre, la Slovaquie commémore la Déclaration de Martin, adoptée en 1918 lors de l'effondrement de l'Empire des Habsbourg. Des représentants politiques slovaques se réunirent à Martin et affirmèrent leur volonté de former un État commun avec les Tchèques. Cette déclaration devint l'un des actes politiques fondateurs de la Tchécoslovaquie. La loi 241/1993 reconnaît cet anniversaire comme journée commémorative ; le centenaire de 2018 fut exceptionnellement une fête nationale. La date de l'événement et celle de sa reconnaissance légale sont distinctes.",
+    "de": "Am 30. Oktober erinnert die Slowakei an die Erklärung von Martin, die 1918 während des Zerfalls der Habsburgermonarchie verabschiedet wurde. Slowakische politische Vertreter versammelten sich in Martin und bekannten sich zu einem gemeinsamen Staat mit den Tschechen. Die Erklärung zählt zu den politischen Gründungsakten der Tschechoslowakei. Gesetz 241/1993 erkennt den Jahrestag als Gedenktag an; nur zum hundertjährigen Jubiläum 2018 wurde er ausnahmsweise zum Staatsfeiertag. Das historische Ereignis ist von seiner späteren gesetzlichen Anerkennung zu unterscheiden.",
+    "pt": "Em 30 de outubro, a Eslováquia recorda a Declaração de Martin, adotada em 1918 durante a desagregação do Império dos Habsburgos. Representantes políticos eslovacos reuniram-se em Martin e manifestaram a vontade de formar um Estado comum com os checos. A declaração tornou-se um dos atos políticos fundadores da Checoslováquia. A Lei 241/1993 reconhece o aniversário como dia comemorativo; apenas no centenário de 2018 foi excecionalmente feriado nacional. O acontecimento de 1918 não deve confundir-se com o reconhecimento legal posterior."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-day-of-the-unjustly-prosecuted",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-13",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "Act 241/1993 lists 13 April as a Slovak memorial day; 1950 is the year of the event, not the law.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "The night of 13–14 April 1950 marked the communist security forces' Action K raids against male monasteries in Czechoslovakia.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029",
+      "claim": "Slovak memorial-day legislation identifies 13 April as the Day of the Unjustly Prosecuted."
+    },
+    {
+      "url": "https://www.upn.gov.sk/sk/13-april---den-nespravodlivo-stihanych/",
+      "claim": "Slovakia's Nation's Memory Institute explains Action K on 13–14 April 1950 and the subsequent persecution."
+    },
+    {
+      "url": "https://mok.sk/en/kategorie_obeti/persecution-of-the-churches/",
+      "claim": "Museum of Victims of Communism documents the raid, forced transfers and wider persecution of religious orders."
+    }
+  ],
+  "narratives": {
+    "en": "Slovakia observes the Day of the Unjustly Prosecuted on 13 April, recalling victims of political and religious repression. The date refers specifically to the night of 13–14 April 1950, when communist security forces launched Action K against male monasteries across Czechoslovakia. Religious communities were forcibly removed and many members were interned. The commemoration extends beyond that event to people persecuted unjustly by state power. Slovakia's memorial-day legislation, Act 241/1993, records the observance; 1950 is the historical event, while 1993 is its statutory recognition.",
+    "it": "Il 13 aprile la Slovacchia celebra la Giornata delle persone ingiustamente perseguitate, in memoria delle vittime della repressione politica e religiosa. La data richiama la notte tra il 13 e il 14 aprile 1950, quando le forze di sicurezza comuniste avviarono l'Operazione K contro i monasteri maschili della Cecoslovacchia. Le comunità religiose furono sgomberate con la forza e molti membri internati. La commemorazione comprende anche altre vittime di persecuzioni arbitrarie dello Stato. La legge slovacca 241/1993 riconosce la ricorrenza: il 1950 è l'anno dei fatti, il 1993 quello del riconoscimento legislativo.",
+    "es": "El 13 de abril, Eslovaquia conmemora el Día de las Personas Injustamente Perseguidas, dedicado a las víctimas de la represión política y religiosa. La fecha recuerda la noche del 13 al 14 de abril de 1950, cuando las fuerzas de seguridad comunistas iniciaron la Operación K contra los monasterios masculinos de Checoslovaquia. Las comunidades religiosas fueron desalojadas por la fuerza y muchos de sus miembros internados. La conmemoración también honra a otras víctimas de persecución estatal injusta. La Ley eslovaca 241/1993 reconoce la jornada: 1950 corresponde a los hechos y 1993 a su reconocimiento legal.",
+    "fr": "Le 13 avril, la Slovaquie célèbre la Journée des personnes injustement persécutées, en mémoire des victimes de la répression politique et religieuse. Cette date rappelle la nuit du 13 au 14 avril 1950, lorsque les forces de sécurité communistes lancèrent l'opération K contre les monastères masculins de Tchécoslovaquie. Les communautés religieuses furent expulsées de force et de nombreux membres internés. La commémoration rend aussi hommage aux autres victimes de persécutions arbitraires de l'État. La loi slovaque 241/1993 reconnaît cette journée : 1950 désigne les événements, 1993 leur reconnaissance légale.",
+    "de": "Am 13. April begeht die Slowakei den Gedenktag für zu Unrecht Verfolgte und erinnert an Opfer politischer und religiöser Unterdrückung. Das Datum verweist auf die Nacht vom 13. auf den 14. April 1950, als kommunistische Sicherheitskräfte mit der Aktion K gegen Männerklöster in der Tschechoslowakei vorgingen. Ordensgemeinschaften wurden gewaltsam vertrieben und zahlreiche Mitglieder interniert. Der Gedenktag gilt darüber hinaus allen Menschen, die staatlicher Willkür zum Opfer fielen. Das slowakische Gesetz 241/1993 verankerte den Tag; 1950 bezeichnet das Ereignis, 1993 seine gesetzliche Anerkennung.",
+    "pt": "A 13 de abril, a Eslováquia assinala o Dia das Pessoas Injustamente Perseguidas, recordando vítimas da repressão política e religiosa. A data remete para a noite de 13 para 14 de abril de 1950, quando as forças de segurança comunistas lançaram a Operação K contra os mosteiros masculinos da Checoslováquia. As comunidades religiosas foram expulsas à força e muitos dos seus membros internados. A homenagem abrange também outras vítimas de perseguição arbitrária pelo Estado. A Lei eslovaca 241/1993 reconhece a data: 1950 corresponde aos acontecimentos e 1993 ao reconhecimento legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

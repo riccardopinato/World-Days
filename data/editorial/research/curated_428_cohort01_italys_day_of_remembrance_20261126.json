@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italys-day-of-remembrance",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-10",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government lists 10 February as the Day of Remembrance for the Istrian, Fiuman and Dalmatian population."
+    }
+  ],
+  "narratives": {
+    "en": "On 10 February Italy observes the Day of Remembrance for victims of the foibe killings and the Istrian-Dalmatian exodus linked to the upheavals around the Second World War and the postwar border settlement. The occasion acknowledges persecution, displacement and the memories of families forced to leave their homes. Italy's ceremonial calendar confirms the annual date. The memorial's creation year must be distinguished from the historical tragedies it recalls.",
+    "it": "Il 10 febbraio l'Italia celebra il Giorno del ricordo delle vittime delle foibe e dell'esodo giuliano-dalmata, legati agli sconvolgimenti della Seconda guerra mondiale e del dopoguerra. La ricorrenza riconosce persecuzioni, sfollamenti e memorie delle famiglie costrette ad abbandonare le proprie case. Il calendario ufficiale conferma la data. L'anno di istituzione della giornata va distinto dai fatti storici commemorati.",
+    "es": "El 10 de febrero Italia celebra el Día del Recuerdo de las víctimas de las foibe y del éxodo istrio-dálmata, vinculados a los cambios de la Segunda Guerra Mundial y la posguerra. La jornada reconoce persecución, desplazamientos y recuerdos de familias obligadas a abandonar sus hogares. El calendario oficial confirma la fecha. El año de creación del día debe distinguirse de los hechos históricos que conmemora.",
+    "fr": "Le 10 février, l'Italie célèbre la Journée du souvenir des victimes des foibe et de l'exode d'Istrie et de Dalmatie, liés aux bouleversements de la Seconde Guerre mondiale et de l'après-guerre. La commémoration reconnaît les persécutions, les déplacements et la mémoire des familles contraintes de quitter leur foyer. Le calendrier officiel confirme la date. L'année de création de la journée est distincte des événements rappelés.",
+    "de": "Am 10. Februar begeht Italien den Tag der Erinnerung an die Opfer der Foibe-Verbrechen und den istrisch-dalmatinischen Exodus im Umfeld des Zweiten Weltkriegs und der Nachkriegszeit. Das Gedenken würdigt Verfolgung, Vertreibung und die Erinnerung der Familien, die ihre Heimat verlassen mussten. Der staatliche Kalender bestätigt das Datum. Das Einführungsjahr des Gedenktags ist von den historischen Ereignissen zu unterscheiden.",
+    "pt": "Em 10 de fevereiro, a Itália celebra o Dia da Memória das vítimas das foibe e do êxodo istriano-dálmata, associados às transformações da Segunda Guerra Mundial e do pós-guerra. A jornada reconhece perseguição, deslocação e memória de famílias obrigadas a abandonar as suas casas. O calendário oficial confirma a data. O ano da instituição da celebração é distinto dos acontecimentos históricos lembrados."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -122,6 +122,8 @@ jobs:
           python3 tool/queue_curated_428_origins.py
           python3 tool/promote_curated_428_fasttrack_reviewed.py
           python3 tool/validate_fasttrack_curated_428_promotion.py
+          python3 tool/promote_curated_428_fasttrack_batch.py
+          python3 tool/validate_fasttrack_curated_428_batch.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py

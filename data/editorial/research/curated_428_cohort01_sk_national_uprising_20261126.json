@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-national-uprising-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-29",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "1993 is the documented statutory recognition in Act 241/1993, not the first historical observance.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "29 August marks the beginning of the 1944 Slovak National Uprising.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/pdf/SK/ZZ/1993/241/ZZ_1993_241_20251101.pdf",
+      "claim": "Section 1(c) identifies 29 August as the state holiday commemorating the Slovak National Uprising."
+    },
+    {
+      "url": "https://www.mod.gov.sk/start-the-evacuation/",
+      "claim": "Defence Ministry historical account identifies Ján Golian's signal on 29 August 1944, Banská Bystrica and the continuation of partisan resistance."
+    },
+    {
+      "url": "https://www.mzv.sk/documents/10182/2369491/BROZURA_70_VYROCIE_SNP_indd.pdf/007d0f33-4aa1-4e3a-95ae-5ef5096360d3",
+      "claim": "Foreign Ministry publication explains the uprising's anti-occupation significance and public remembrance."
+    }
+  ],
+  "narratives": {
+    "en": "On 29 August Slovakia commemorates the start of the 1944 Slovak National Uprising. As German forces entered Slovakia, Lieutenant Colonel Ján Golian issued the signal to begin armed resistance. Banská Bystrica became the uprising's centre, with Czechoslovak soldiers, partisans and civilians opposing Nazi occupation and the collaborationist regime. German forces captured the insurgent centre in October, but partisan resistance continued. The date is a state holiday under Slovakia's 1993 holiday law; the law establishes its modern legal status, not the first historical commemoration.",
+    "it": "Il 29 agosto la Slovacchia ricorda l'inizio dell'Insurrezione nazionale slovacca del 1944. Mentre le truppe tedesche entravano nel paese, il tenente colonnello Ján Golian diede il segnale di avviare la resistenza armata. Banská Bystrica divenne il centro della rivolta, che riunì soldati cecoslovacchi, partigiani e civili contro l'occupazione nazista e il regime collaborazionista. Le forze tedesche conquistarono il centro insorto in ottobre, ma la resistenza partigiana continuò. Il 29 agosto è festa nazionale ai sensi della legge slovacca del 1993, che non prova però la data della prima commemorazione.",
+    "es": "El 29 de agosto Eslovaquia recuerda el inicio del Levantamiento Nacional Eslovaco de 1944. Cuando las tropas alemanas entraron en el país, el teniente coronel Ján Golian dio la señal para comenzar la resistencia armada. Banská Bystrica se convirtió en el centro de una insurrección de soldados checoslovacos, partisanos y civiles contra la ocupación nazi y el régimen colaboracionista. Las fuerzas alemanas tomaron el centro insurgente en octubre, pero la resistencia partisana continuó. La fecha es fiesta nacional conforme a la ley eslovaca de 1993, que no demuestra cuándo se celebró por primera vez.",
+    "fr": "Le 29 août, la Slovaquie commémore le début du Soulèvement national slovaque de 1944. Alors que les troupes allemandes entraient dans le pays, le lieutenant-colonel Ján Golian donna le signal de la résistance armée. Banská Bystrica devint le centre de l'insurrection, réunissant soldats tchécoslovaques, partisans et civils contre l'occupation nazie et le régime collaborationniste. Les forces allemandes prirent le centre insurgé en octobre, mais la résistance des partisans se poursuivit. Cette date est une fête nationale selon la loi slovaque de 1993, sans que celle-ci établisse la première commémoration.",
+    "de": "Am 29. August erinnert die Slowakei an den Beginn des Slowakischen Nationalaufstands von 1944. Als deutsche Truppen in das Land einrückten, gab Oberstleutnant Ján Golian das Signal zum bewaffneten Widerstand. Banská Bystrica wurde zum Zentrum des Aufstands, in dem tschechoslowakische Soldaten, Partisanen und Zivilisten gegen die nationalsozialistische Besatzung und das kollaborierende Regime kämpften. Im Oktober eroberten deutsche Truppen das Aufstandszentrum, doch der Partisanenwiderstand ging weiter. Der 29. August ist nach dem slowakischen Gesetz von 1993 Staatsfeiertag; das Gesetz belegt nicht die erste Gedenkfeier.",
+    "pt": "A 29 de agosto, a Eslováquia assinala o início da Revolta Nacional Eslovaca de 1944. Quando as tropas alemãs entraram no país, o tenente-coronel Ján Golian deu o sinal para começar a resistência armada. Banská Bystrica tornou-se o centro da revolta, que reuniu soldados checoslovacos, guerrilheiros e civis contra a ocupação nazi e o regime colaboracionista. As forças alemãs conquistaram o centro insurgente em outubro, mas a resistência guerrilheira prosseguiu. A data é feriado nacional segundo a lei eslovaca de 1993, que não comprova quando ocorreu a primeira comemoração."
+  },
+  "runtimeRichEditorialApproved": false
+}

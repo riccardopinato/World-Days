@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-finnish-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 5,
+    "weekday": "sunday",
+    "nth": 3
+  },
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Finnish Ministry for Foreign Affairs",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/facts-stats-and-info/the-finnish-flag/",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Finland marks Remembrance Day on the third Sunday in May, honoring those who lost their lives in wars and national struggles. Flags and commemorative ceremonies turn attention to sacrifice, grief and peace. The official flag calendar confirms this annual observance, but its Sunday moves between calendar dates. The year of the original statutory designation is not demonstrated by the flag-day list.",
+    "it": "La Finlandia celebra la Giornata della memoria la terza domenica di maggio, ricordando chi perse la vita nelle guerre e nelle lotte nazionali. Bandiere e cerimonie richiamano sacrificio, lutto e pace. Il calendario della bandiera conferma la ricorrenza, ma il giorno del mese cambia ogni anno. L'anno della sua prima istituzione legislativa non emerge dal solo elenco ufficiale.",
+    "es": "Finlandia celebra el Día del Recuerdo el tercer domingo de mayo, en homenaje a quienes perdieron la vida en guerras y luchas nacionales. Banderas y ceremonias invitan a reflexionar sobre sacrificio, duelo y paz. El calendario de la bandera confirma la fecha anual, pero el día exacto cambia. El año de la primera designación legal no queda probado por ese registro.",
+    "fr": "La Finlande célèbre la Journée du souvenir le troisième dimanche de mai, rendant hommage aux personnes mortes pendant les guerres et les luttes nationales. Drapeaux et cérémonies évoquent sacrifices, deuil et paix. Le calendrier du drapeau confirme la commémoration, mais la date exacte varie chaque année. La liste ne démontre pas l'année de sa première création légale.",
+    "de": "Finnland begeht den Gedenktag am dritten Sonntag im Mai und erinnert an Menschen, die in Kriegen und nationalen Auseinandersetzungen starben. Flaggen und Zeremonien rücken Opfer, Trauer und Frieden in den Mittelpunkt. Der offizielle Flaggentagskalender bestätigt den jährlichen Anlass, doch das Tagesdatum wechselt. Das ursprüngliche gesetzliche Einführungsjahr bleibt unbelegt.",
+    "pt": "A Finlândia assinala o Dia da Memória no terceiro domingo de maio, homenageando os que morreram nas guerras e nas lutas nacionais. Bandeiras e cerimónias recordam sacrifício, luto e paz. O calendário oficial confirma a comemoração, mas o dia exato varia todos os anos. A lista não comprova o ano da sua primeira instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

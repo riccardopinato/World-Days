@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-w13-eures-may-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Finnish Ministry for Foreign Affairs / official Finnish traditions",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/life-society/mayday-mayday-things-get-crazy-in-finland-around-may-1/",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "Finland celebrates Vappu on 1 May, combining workers' traditions, student festivities and the arrival of spring. University graduates often wear white caps, while public squares fill with picnics and gatherings. Celebrations begin on the evening of 30 April and continue through May Day. The modern holiday brings together labor history and a lively community festival.",
+    "it": "Il 1° maggio la Finlandia celebra Vappu, una festa che unisce tradizioni del lavoro, studenti e arrivo della primavera. I diplomati indossano spesso il berretto bianco e piazze e parchi ospitano picnic e incontri. I festeggiamenti iniziano la sera del 30 aprile e proseguono il giorno successivo. La ricorrenza intreccia storia dei lavoratori e festa popolare.",
+    "es": "El 1 de mayo Finlandia celebra Vappu, una fiesta que une tradiciones obreras, estudiantes y llegada de la primavera. Los graduados suelen llevar gorras blancas y las plazas se llenan de encuentros y comidas al aire libre. Los festejos empiezan la noche del 30 de abril y continúan el Primero de Mayo. La jornada mezcla historia laboral y celebración popular.",
+    "fr": "Le 1er mai, la Finlande célèbre Vappu, qui associe traditions ouvrières, fêtes étudiantes et arrivée du printemps. Les diplômés portent souvent leur casquette blanche et les places accueillent pique-niques et rassemblements. Les célébrations commencent le soir du 30 avril et continuent le lendemain. La journée mêle histoire du travail et fête collective.",
+    "de": "Am 1. Mai feiert Finnland Vappu, eine Verbindung aus Arbeitertraditionen, Studentenfesten und Frühlingsbeginn. Absolventen tragen häufig weiße Mützen, während Plätze und Parks zum gemeinsamen Feiern einladen. Die Veranstaltungen beginnen am Abend des 30. April und setzen sich am Maifeiertag fort. Der Tag verbindet Arbeitsgeschichte mit einem lebendigen Volksfest.",
+    "pt": "Em 1 de maio, a Finlândia celebra Vappu, combinando tradições laborais, festas estudantis e chegada da primavera. Os diplomados usam muitas vezes bonés brancos, enquanto praças e parques recebem encontros e piqueniques. As festividades começam na noite de 30 de abril e continuam no dia seguinte. A data junta história laboral e festa popular."
+  },
+  "runtimeRichEditorialApproved": false
+}

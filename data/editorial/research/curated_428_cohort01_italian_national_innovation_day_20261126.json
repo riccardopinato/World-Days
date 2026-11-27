@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-innovation-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 6,
+    "weekday": "tuesday",
+    "nth": 2
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Italy observes the National Day of Innovation on the second Tuesday of June. The occasion highlights research, new technologies and practical ideas that improve public services, enterprises and daily life. Institutions and innovators showcase achievements and encourage collaboration. The government's ceremonial calendar specifies a moving Tuesday, not a fixed date in June; an original introduction year requires separate evidence.",
+    "it": "L'Italia celebra la Giornata nazionale dell'innovazione il secondo martedì di giugno. La ricorrenza valorizza ricerca, nuove tecnologie e idee capaci di migliorare servizi pubblici, imprese e vita quotidiana. Istituzioni e innovatori presentano risultati e collaborazioni. Il calendario governativo indica un martedì mobile, non un giorno fisso di giugno; l'anno di istituzione va documentato a parte.",
+    "es": "Italia celebra el Día Nacional de la Innovación el segundo martes de junio. La jornada destaca investigación, tecnologías e ideas que mejoran servicios públicos, empresas y vida cotidiana. Instituciones e innovadores presentan resultados y fomentan alianzas. El calendario gubernamental establece un martes variable, no una fecha fija; el año de creación requiere otra fuente.",
+    "fr": "L'Italie célèbre la Journée nationale de l'innovation le deuxième mardi de juin. Elle valorise recherche, nouvelles technologies et idées capables d'améliorer services publics, entreprises et vie quotidienne. Institutions et innovateurs présentent leurs résultats et encouragent la coopération. Le calendrier gouvernemental prévoit un mardi mobile, sans date fixe ; l'année de création doit être vérifiée séparément.",
+    "de": "Italien feiert den Nationalen Innovationstag am zweiten Dienstag im Juni. Gewürdigt werden Forschung, neue Technologien und Ideen, die öffentliche Dienste, Unternehmen und den Alltag verbessern. Institutionen und Innovatoren präsentieren Ergebnisse und fördern Zusammenarbeit. Der staatliche Kalender legt einen beweglichen Dienstag fest; das Einführungsjahr ist gesondert zu belegen.",
+    "pt": "A Itália celebra o Dia Nacional da Inovação na segunda terça-feira de junho. A data valoriza investigação, tecnologias e ideias que melhoram serviços públicos, empresas e vida quotidiana. Instituições e inovadores apresentam resultados e promovem colaboração. O calendário governamental indica uma terça-feira móvel; o ano de instituição exige documentação própria."
+  },
+  "runtimeRichEditorialApproved": false
+}

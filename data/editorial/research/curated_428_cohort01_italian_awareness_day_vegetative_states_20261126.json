@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-awareness-day-vegetative-states",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-09",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government protocol office lists 9 February as National Day of Vegetative States."
+    }
+  ],
+  "narratives": {
+    "en": "Italy observes 9 February as a national day dedicated to people in vegetative states and their families. The occasion encourages public discussion of long-term care, communication with caregivers, dignity and support for those living with severe disorders of consciousness. The Presidency of the Council of Ministers lists this day in the national calendar. The official list confirms its date, not the precise original designation year.",
+    "it": "Il 9 febbraio l'Italia dedica una giornata nazionale alle persone in stato vegetativo e alle loro famiglie. La ricorrenza richiama l'assistenza di lungo periodo, l'ascolto dei caregiver, la dignità personale e il sostegno nelle gravi alterazioni della coscienza. La Presidenza del Consiglio la include nel calendario delle giornate nazionali. L'elenco ufficiale conferma la data, ma non l'anno esatto della prima istituzione.",
+    "es": "El 9 de febrero Italia dedica una jornada nacional a las personas en estado vegetativo y a sus familias. La fecha invita a debatir sobre la atención a largo plazo, el apoyo a cuidadores, la dignidad y los trastornos graves de conciencia. La Presidencia del Consejo de Ministros la incluye en el calendario nacional. El listado oficial confirma la fecha, pero no el año exacto de su primera designación.",
+    "fr": "Le 9 février, l'Italie consacre une journée nationale aux personnes en état végétatif et à leurs familles. Cette journée sensibilise aux soins de longue durée, à l'accompagnement des proches, à la dignité et aux troubles graves de la conscience. La présidence du Conseil des ministres l'inscrit au calendrier national. La liste officielle confirme la date, mais pas l'année précise de sa première création.",
+    "de": "Am 9. Februar widmet Italien einen nationalen Gedenktag Menschen im vegetativen Zustand und ihren Angehörigen. Er lenkt die Aufmerksamkeit auf Langzeitpflege, Unterstützung pflegender Familien, Würde und schwere Bewusstseinsstörungen. Das Präsidium des Ministerrats führt den Tag im nationalen Kalender. Die offizielle Liste belegt das Datum, nicht jedoch das genaue ursprüngliche Einführungsjahr.",
+    "pt": "Em 9 de fevereiro, a Itália dedica um dia nacional às pessoas em estado vegetativo e às suas famílias. A data promove a reflexão sobre cuidados prolongados, apoio a cuidadores, dignidade e perturbações graves da consciência. A Presidência do Conselho de Ministros inclui-o no calendário nacional. A lista oficial confirma a data, mas não o ano exato da sua primeira instituição."
+  },
+  "runtimeRichEditorialApproved": false
+}

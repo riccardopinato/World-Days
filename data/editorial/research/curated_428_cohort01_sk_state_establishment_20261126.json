@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-slovak-state-establishment-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "1 January 1993 is both the formation date of the independent Slovak Republic and the historical origin of the national holiday. Act 241/1993 formally recognizes the date; it does not prove first celebration.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "1 January is the date independent Slovakia emerged from the peaceful dissolution of Czechoslovakia in 1993.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029",
+      "claim": "Act 241/1993 §1 identifies 1 January as Day of the Establishment of the Slovak Republic, a state holiday."
+    },
+    {
+      "url": "https://www.prezident.sk/en/short-history/",
+      "claim": "Official presidential historical overview documents establishment of the independent Slovak Republic on 1 January 1993."
+    }
+  ],
+  "narratives": {
+    "en": "On 1 January, Slovakia celebrates the establishment of the independent Slovak Republic in 1993. The holiday marks the peaceful dissolution of Czechoslovakia, which led to two separate states, Slovakia and the Czech Republic. Independence followed political decisions and constitutional negotiations rather than armed conflict. The Slovak National Council later codified the anniversary among state holidays in Act 241/1993. The date commemorates statehood and should not be confused with the much earlier history of the Slovak people.",
+    "it": "Il 1° gennaio la Slovacchia celebra la nascita della Repubblica slovacca indipendente, avvenuta nel 1993. La festa ricorda la dissoluzione pacifica della Cecoslovacchia e la formazione di due Stati distinti, Slovacchia e Repubblica Ceca. L'indipendenza derivò da decisioni politiche e negoziati costituzionali, non da una guerra. Il Consiglio nazionale slovacco codificò successivamente la ricorrenza fra le festività statali nella legge 241/1993. La data celebra la nascita dello Stato, non l'origine storica del popolo slovacco.",
+    "es": "El 1 de enero, Eslovaquia celebra el nacimiento de la República Eslovaca independiente en 1993. La festividad recuerda la disolución pacífica de Checoslovaquia y la formación de dos Estados distintos: Eslovaquia y la República Checa. La independencia fue resultado de decisiones políticas y negociaciones constitucionales, no de una guerra. El Consejo Nacional Eslovaco incluyó posteriormente el aniversario entre los días festivos oficiales mediante la Ley 241/1993. La fecha celebra el Estado moderno, no el origen histórico del pueblo eslovaco.",
+    "fr": "Le 1er janvier, la Slovaquie célèbre la naissance de la République slovaque indépendante en 1993. Cette fête rappelle la dissolution pacifique de la Tchécoslovaquie et la création de deux États distincts, la Slovaquie et la République tchèque. L'indépendance résulta de décisions politiques et de négociations constitutionnelles, non d'une guerre. Le Conseil national slovaque inscrivit ensuite cet anniversaire parmi les fêtes d'État par la loi 241/1993. La date célèbre l'État moderne, non l'origine historique du peuple slovaque.",
+    "de": "Am 1. Januar feiert die Slowakei die Gründung der unabhängigen Slowakischen Republik im Jahr 1993. Der Feiertag erinnert an die friedliche Auflösung der Tschechoslowakei, aus der zwei eigenständige Staaten hervorgingen: die Slowakei und die Tschechische Republik. Die Unabhängigkeit folgte politischen Entscheidungen und Verfassungsverhandlungen, keinem Krieg. Der Slowakische Nationalrat nahm den Jahrestag später mit Gesetz 241/1993 in den Feiertagskalender auf. Gefeiert wird die moderne Staatlichkeit, nicht der historische Ursprung des slowakischen Volkes.",
+    "pt": "Em 1 de janeiro, a Eslováquia celebra a criação da República Eslovaca independente, em 1993. O feriado recorda a dissolução pacífica da Checoslováquia e o surgimento de dois Estados distintos: a Eslováquia e a República Checa. A independência resultou de decisões políticas e negociações constitucionais, não de uma guerra. O Conselho Nacional Eslovaco incluiu depois o aniversário entre os feriados estatais pela Lei 241/1993. A data celebra o Estado moderno, não a origem histórica do povo eslovaco."
+  },
+  "runtimeRichEditorialApproved": false
+}

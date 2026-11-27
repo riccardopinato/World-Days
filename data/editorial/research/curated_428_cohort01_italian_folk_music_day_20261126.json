@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-folk-music-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 5,
+    "weekday": "sunday",
+    "nth": 3
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Italy celebrates the National Day of Folk Music on the third Sunday of May. It draws attention to traditional songs, regional instruments and musical practices passed between generations. Community concerts and cultural initiatives can help preserve local oral heritage. The Presidency of the Council of Ministers lists this moving Sunday; there is no fixed date in May that applies every year.",
+    "it": "L'Italia celebra la Giornata nazionale della musica popolare la terza domenica di maggio. Valorizza canti tradizionali, strumenti regionali e pratiche musicali trasmesse fra generazioni. Concerti e iniziative culturali aiutano a preservare il patrimonio orale locale. La Presidenza del Consiglio indica una domenica mobile, non un giorno fisso del mese.",
+    "es": "Italia celebra el Día Nacional de la Música Popular el tercer domingo de mayo. Destaca cantos tradicionales, instrumentos regionales y prácticas transmitidas entre generaciones. Conciertos comunitarios e iniciativas culturales ayudan a preservar el patrimonio oral local. La Presidencia del Consejo establece un domingo variable, no una fecha fija del mes.",
+    "fr": "L'Italie célèbre la Journée nationale de la musique populaire le troisième dimanche de mai. Elle met en lumière chants traditionnels, instruments régionaux et pratiques transmises entre générations. Concerts et initiatives culturelles contribuent à préserver le patrimoine oral local. La présidence du Conseil indique un dimanche mobile, et non une date fixe.",
+    "de": "Italien feiert den Nationalen Tag der Volksmusik am dritten Sonntag im Mai. Im Mittelpunkt stehen überlieferte Lieder, regionale Instrumente und musikalische Praktiken, die Generationen verbinden. Konzerte und Kulturveranstaltungen tragen zum Erhalt lokaler mündlicher Traditionen bei. Die Regierung nennt einen beweglichen Sonntag und kein festes Tagesdatum.",
+    "pt": "A Itália celebra o Dia Nacional da Música Popular no terceiro domingo de maio. A data valoriza canções tradicionais, instrumentos regionais e práticas transmitidas entre gerações. Concertos e iniciativas culturais ajudam a preservar o património oral local. A Presidência do Conselho indica um domingo móvel, e não um dia fixo do mês."
+  },
+  "runtimeRichEditorialApproved": false
+}

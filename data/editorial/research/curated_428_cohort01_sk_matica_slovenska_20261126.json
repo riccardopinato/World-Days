@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-matica-slovenska-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-04",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "1863 is the foundation of Matica slovenská, not the institution year of the civic memorial. The original 1993 text of Act 241/1993 §3(h) already lists 4 August as Deň Matice slovenskej. This establishes statutory recognition in 1993 but does not prove the first public celebration.",
+  "authority": "National Council of the Slovak Republic, Act 241/1993 §3(h) original text; current §3(k)",
+  "dateReason": "4 August commemorates the founding general assembly of Matica slovenská in Martin on 4 August 1863.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/pdf/SK/ZZ/1993/241/ZZ_1993_241.pdf",
+      "claim": "Original 1993 statutory text §3(h) expressly lists 4 August, Deň Matice slovenskej, as a memorial day."
+    },
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/",
+      "claim": "Current consolidated §3(k) retains 4 August as Deň Matice slovenskej."
+    },
+    {
+      "url": "https://matica.sk/o-matici-slovenskej/dejiny-ustanovizne/",
+      "claim": "Matica slovenská's own institutional history documents its founding general assembly held in Martin on 4 August 1863 and its early cultural and educational mission."
+    }
+  ],
+  "narratives": {
+    "en": "On 4 August, Slovakia commemorates Matica slovenská, the national cultural institution founded at an inaugural assembly in Martin on that date in 1863. Its mission was to develop Slovak language, literature, learning and cultural life at a time when national institutions mattered deeply. The day is explicitly recognized as a civic memorial in Act 241/1993, including the original 1993 text. The institution's founding in 1863 and the legal recognition of its commemorative day in 1993 are separate milestones; the first annual celebration has not been independently established.",
+    "it": "Il 4 agosto la Slovacchia ricorda la Matica slovenská, istituzione culturale nazionale fondata a Martin durante l'assemblea inaugurale del 1863. Nata per sostenere lingua, letteratura, istruzione e vita culturale slovacca, divenne un riferimento del risveglio nazionale. La legge 241/1993 riconosce espressamente la giornata come commemorazione civica, già nel testo originario del 1993. La fondazione del 1863 non va confusa con il riconoscimento legislativo del 1993; la prima celebrazione annuale non è stata accertata.",
+    "es": "El 4 de agosto, Eslovaquia recuerda a Matica slovenská, institución cultural nacional fundada ese día de 1863 en una asamblea inaugural en Martin. Nació para impulsar la lengua, la literatura, la educación y la cultura eslovacas, y se convirtió en un referente del renacimiento nacional. La Ley 241/1993 reconoce expresamente la fecha como día cívico conmemorativo desde su texto original. La fundación de 1863 no es la fecha de reconocimiento legal de 1993; no se ha podido confirmar la primera celebración anual.",
+    "fr": "Le 4 août, la Slovaquie rend hommage à Matica slovenská, institution culturelle nationale fondée ce jour-là en 1863 lors d'une assemblée inaugurale à Martin. Elle visait à promouvoir la langue, la littérature, l'éducation et la vie culturelle slovaques, au cœur du renouveau national. La loi 241/1993 reconnaît expressément cette date comme journée commémorative civique dès son texte initial. La fondation de 1863 et la reconnaissance légale de 1993 sont distinctes; la première célébration annuelle n'est pas établie.",
+    "de": "Am 4. August erinnert die Slowakei an Matica slovenská, die 1863 an diesem Tag bei einer Gründungsversammlung in Martin entstand. Die nationale Kulturinstitution förderte die slowakische Sprache, Literatur, Bildung und das kulturelle Leben und wurde für die Nationalbewegung bedeutsam. Bereits die ursprüngliche Fassung des Gesetzes 241/1993 erkennt den Tag ausdrücklich als staatlichen Gedenktag an. Die Gründung 1863 ist nicht mit der gesetzlichen Anerkennung 1993 gleichzusetzen; eine erste jährliche Feier ist nicht nachgewiesen.",
+    "pt": "A 4 de agosto, a Eslováquia recorda a Matica slovenská, instituição cultural nacional fundada nesse dia de 1863 numa assembleia inaugural em Martin. A organização nasceu para promover a língua, a literatura, a educação e a vida cultural eslovacas, tornando-se importante no renascimento nacional. A Lei 241/1993 reconhece expressamente a data como dia cívico de memória desde a versão original. A fundação de 1863 e o reconhecimento legal de 1993 são marcos distintos; a primeira celebração anual não foi confirmada."
+  },
+  "runtimeRichEditorialApproved": false,
+  "sourceReviewEvidence": {
+    "specificInstitutionalPageCheckedOn": "2026-11-27",
+    "verifiedSpecificSourceUrl": "https://matica.sk/o-matici-slovenskej/dejiny-ustanovizne/",
+    "note": "Replaces non-evidentiary institution homepage; six narratives and review=PENDING are unchanged."
+  }
+}

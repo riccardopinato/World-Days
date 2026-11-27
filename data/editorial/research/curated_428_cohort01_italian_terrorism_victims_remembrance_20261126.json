@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-terrorism-victims-remembrance",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-09",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government lists 9 May as national remembrance of victims of terrorism and related massacres."
+    }
+  ],
+  "narratives": {
+    "en": "On 9 May Italy remembers victims of domestic and international terrorism and of terrorist massacres. The date also recalls the discovery of Aldo Moro's body in Rome in 1978, after his kidnapping by the Red Brigades. The commemorative day invites reflection on political violence and the protection of democratic institutions. The government confirms the annual date; Moro's death year is a historical reference, not proof of when the memorial day was instituted.",
+    "it": "Il 9 maggio l'Italia ricorda le vittime del terrorismo interno e internazionale e delle stragi di matrice terroristica. La data richiama anche il ritrovamento del corpo di Aldo Moro a Roma nel 1978, dopo il sequestro delle Brigate Rosse. La giornata invita a riflettere sulla violenza politica e sulla difesa delle istituzioni democratiche. Il calendario governativo conferma il giorno; il 1978 è il riferimento storico, non l'anno d'istituzione della ricorrenza.",
+    "es": "El 9 de mayo Italia recuerda a las víctimas del terrorismo nacional e internacional y de las masacres relacionadas. La fecha también evoca el hallazgo del cuerpo de Aldo Moro en Roma en 1978, tras su secuestro por las Brigadas Rojas. La jornada invita a reflexionar sobre la violencia política y la defensa de las instituciones democráticas. El calendario oficial confirma la fecha; 1978 es el acontecimiento histórico y no el año de creación del día.",
+    "fr": "Le 9 mai, l'Italie rend hommage aux victimes du terrorisme intérieur et international et des massacres liés au terrorisme. La date rappelle aussi la découverte du corps d'Aldo Moro à Rome en 1978, après son enlèvement par les Brigades rouges. La journée invite à réfléchir à la violence politique et à la défense des institutions démocratiques. Le calendrier officiel confirme la date ; 1978 est le repère historique, non l'année de création de la journée.",
+    "de": "Am 9. Mai gedenkt Italien der Opfer des in- und ausländischen Terrorismus und terroristischer Massaker. Das Datum erinnert auch an den Fund der Leiche Aldo Moros in Rom 1978 nach seiner Entführung durch die Roten Brigaden. Der Gedenktag regt zum Nachdenken über politische Gewalt und den Schutz demokratischer Institutionen an. Der Regierungskalender bestätigt das Datum; 1978 ist der historische Bezug, nicht das Gründungsjahr.",
+    "pt": "Em 9 de maio, a Itália homenageia as vítimas do terrorismo interno e internacional e dos massacres terroristas. A data recorda também a descoberta do corpo de Aldo Moro em Roma, em 1978, após o sequestro pelas Brigadas Vermelhas. A jornada convida à reflexão sobre a violência política e a defesa das instituições democráticas. O calendário oficial confirma o dia; 1978 é a referência histórica, não o ano de criação da comemoração."
+  },
+  "runtimeRichEditorialApproved": false
+}
