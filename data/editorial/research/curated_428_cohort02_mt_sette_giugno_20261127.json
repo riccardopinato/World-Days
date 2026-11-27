@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-sette-giugno",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-07",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Heritage Malta / National Archives of Malta",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://heritagemalta.mt/whats-on/culhat-al-belt-sette-giugno-1919-2019-2/",
+      "claim": "Heritage Malta records the 7 June 1919 protests against colonial authorities and four deaths.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Malta remembers Sette Giugno on 7 June. During unrest in Valletta in 1919, Maltese people protested hardship and colonial rule; British troops fired and four protesters were killed. The events helped strengthen demands for self-government. The national holiday commemorates the victims and a turning point in the island's political history.",
+    "it": "Malta ricorda il Sette Giugno il 7 giugno. Nel 1919, durante proteste a La Valletta contro difficoltà sociali e dominio coloniale, i soldati britannici aprirono il fuoco e morirono quattro manifestanti. Quegli eventi rafforzarono le richieste di autogoverno. La festa nazionale ricorda le vittime e una svolta politica per le isole.",
+    "es": "Malta conmemora Sette Giugno el 7 de junio. Durante las protestas en La Valeta en 1919 contra las dificultades sociales y el régimen colonial, soldados británicos dispararon y murieron cuatro manifestantes. Los hechos reforzaron las demandas de autogobierno. La fiesta nacional recuerda a las víctimas y un cambio político importante.",
+    "fr": "Malte commémore Sette Giugno le 7 juin. Lors de protestations à La Valette en 1919 contre les difficultés sociales et la domination coloniale, des soldats britanniques tirèrent et quatre manifestants furent tués. Ces événements renforcèrent les revendications d'autonomie. La fête nationale honore les victimes et un tournant politique.",
+    "de": "Malta gedenkt am 7. Juni des Sette Giugno. Bei Protesten in Valletta gegen soziale Not und Kolonialherrschaft schossen 1919 britische Soldaten auf die Menge; vier Demonstranten starben. Die Ereignisse stärkten die Forderung nach Selbstverwaltung. Der Nationalfeiertag erinnert an die Opfer und einen Wendepunkt der politischen Geschichte.",
+    "pt": "Malta recorda o Sette Giugno em 7 de junho. Durante protestos em Valeta em 1919 contra dificuldades sociais e o domínio colonial, soldados britânicos dispararam e quatro manifestantes morreram. Os acontecimentos reforçaram as reivindicações de autonomia. O feriado nacional homenageia as vítimas e uma mudança política importante."
+  },
+  "runtimeRichEditorialApproved": false
+}

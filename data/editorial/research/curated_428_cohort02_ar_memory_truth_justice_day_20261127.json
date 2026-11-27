@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-memory-truth-justice-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-24",
+  "country": "AR",
+  "documentedIntroductionYear": 2002,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Argentine Congress / legal registry",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25633-77081/texto",
+      "claim": "Law 25.633 of 2002 establishes 24 March as the National Day of Memory for Truth and Justice, recalling the 1976 coup.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina marks the National Day of Memory for Truth and Justice on 24 March, the anniversary of the military coup in 1976. The dictatorship that followed carried out systematic repression and forced disappearances. Law 25.633 established the commemorative day in 2002 to honour victims and sustain demands for accountability. The memorial is distinct from the coup it condemns.",
+    "it": "Il 24 marzo l'Argentina celebra la Giornata della memoria per la verità e la giustizia, nell'anniversario del colpo di Stato militare del 1976. La dittatura praticò repressione e sparizioni forzate. La legge 25.633 istituì la giornata nel 2002 per ricordare le vittime e chiedere responsabilità. La ricorrenza condanna il golpe, non lo celebra.",
+    "es": "Argentina conmemora el Día Nacional de la Memoria por la Verdad y la Justicia el 24 de marzo, aniversario del golpe militar de 1976. La dictadura ejerció represión y desapariciones forzadas. La Ley 25.633 creó la jornada en 2002 para recordar a las víctimas y reclamar responsabilidad. La fecha condena el golpe y no lo celebra.",
+    "fr": "L'Argentine célèbre le 24 mars la Journée de la mémoire, de la vérité et de la justice, anniversaire du coup d'État militaire de 1976. La dictature qui suivit pratiqua la répression et les disparitions forcées. La loi 25.633 institua la commémoration en 2002 pour honorer les victimes et demander justice. Elle condamne le coup d'État, sans le célébrer.",
+    "de": "Argentinien begeht am 24. März den Tag des Gedenkens für Wahrheit und Gerechtigkeit, am Jahrestag des Militärputsches von 1976. Die folgende Diktatur setzte Repression und erzwungenes Verschwindenlassen ein. Das Gesetz 25.633 führte den Gedenktag 2002 ein, um der Opfer zu erinnern und Verantwortung einzufordern. Der Putsch wird verurteilt, nicht gefeiert.",
+    "pt": "A Argentina celebra em 24 de março o Dia da Memória pela Verdade e Justiça, aniversário do golpe militar de 1976. A ditadura seguinte praticou repressão e desaparecimentos forçados. A Lei 25.633 instituiu a comemoração em 2002 para homenagear as vítimas e exigir responsabilização. A data condena o golpe, não o celebra."
+  },
+  "runtimeRichEditorialApproved": false
+}

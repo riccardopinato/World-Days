@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-09",
+  "country": "AR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Government of Argentina / Ministry of Culture",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/noticias/9-de-julio-de-1816-declaracion-de-la-independencia-de-la-argentina",
+      "claim": "Argentine government documents the Congress of Tucumán declaration of independence on 9 July 1816.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina celebrates Independence Day on 9 July, remembering the declaration adopted by the Congress of Tucumán in 1816. Representatives of the United Provinces formally broke political ties with the Spanish monarchy. The declaration followed the May Revolution and preceded further struggles over territory and government. The year of independence is not automatically the founding year of every subsequent holiday law.",
+    "it": "L'Argentina celebra l'indipendenza il 9 luglio. Nel 1816 i rappresentanti riuniti nel Congresso di Tucumán dichiararono la rottura politica con la monarchia spagnola. La decisione seguì la Rivoluzione di Maggio e precedette ulteriori lotte per lo Stato. L'anno della dichiarazione non coincide necessariamente con quello dell'istituzione della festività moderna.",
+    "es": "Argentina celebra la Independencia el 9 de julio. En 1816 los representantes reunidos en el Congreso de Tucumán declararon la ruptura política con la monarquía española. La decisión siguió a la Revolución de Mayo y precedió otros conflictos por el Estado. El año de la declaración no equivale necesariamente al de la creación de la fiesta moderna.",
+    "fr": "L'Argentine célèbre son indépendance le 9 juillet. En 1816, les représentants réunis au Congrès de Tucumán proclamèrent la rupture politique avec la monarchie espagnole. La décision suivit la révolution de Mai et précéda d'autres combats pour l'État. L'année de la déclaration ne prouve pas celle de l'instauration juridique de la fête actuelle.",
+    "de": "Argentinien feiert am 9. Juli seine Unabhängigkeit. 1816 erklärten die Delegierten des Kongresses von Tucumán die politische Loslösung von der spanischen Monarchie. Der Beschluss folgte auf die Mairevolution und weitere Konflikte um die Staatsbildung. Das Erklärungsjahr belegt nicht automatisch das gesetzliche Gründungsjahr des heutigen Feiertags.",
+    "pt": "A Argentina celebra a Independência em 9 de julho. Em 1816, representantes reunidos no Congresso de Tucumán declararam a ruptura política com a monarquia espanhola. A decisão seguiu a Revolução de Maio e antecedeu outras lutas pela formação do Estado. O ano da declaração não comprova a criação legal da festa atual."
+  },
+  "runtimeRichEditorialApproved": false
+}

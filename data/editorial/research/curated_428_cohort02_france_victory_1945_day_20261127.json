@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "france-victory-1945-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-08",
+  "country": "FR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "French Ministry for the Armed Forces, Chemins de Mémoire",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.cheminsdememoire.gouv.fr/fr/seconde-guerre-mondiale-80e-anniversaire-de-lannee-1945",
+      "claim": "Official French remembrance service documents the German capitulation on 8 May 1945 and its commemoration.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France commemorates victory in Europe on 8 May, recalling Nazi Germany's unconditional surrender in 1945. The end of fighting in Europe followed years of occupation, resistance and immense civilian suffering. Ceremonies honour combatants, victims and survivors. The war continued in the Pacific afterward, so the date does not mark the worldwide end of the Second World War.",
+    "it": "La Francia celebra la vittoria in Europa l'8 maggio, ricordando la resa incondizionata della Germania nazista nel 1945. La fine della guerra in Europa seguì occupazione, resistenza e immense sofferenze civili. Le cerimonie onorano combattenti, vittime e sopravvissuti. Il conflitto proseguì nel Pacifico: non è la fine mondiale della Seconda guerra.",
+    "es": "Francia conmemora la victoria en Europa el 8 de mayo, tras la rendición incondicional de la Alemania nazi en 1945. El fin de los combates europeos llegó después de ocupación, resistencia y enormes sufrimientos civiles. Los actos honran a combatientes y víctimas. La guerra continuó en el Pacífico y aún no había terminado en todo el mundo.",
+    "fr": "La France commémore la victoire en Europe le 8 mai, après la capitulation sans condition de l'Allemagne nazie en 1945. La fin des combats suivit occupation, Résistance et immenses souffrances civiles. Les cérémonies honorent combattants, victimes et survivants. La guerre continua dans le Pacifique; elle n'était pas encore achevée partout.",
+    "de": "Frankreich gedenkt am 8. Mai des Sieges in Europa nach der bedingungslosen Kapitulation NS-Deutschlands 1945. Dem Kriegsende in Europa gingen Besatzung, Widerstand und großes Leid der Zivilbevölkerung voraus. Zeremonien ehren Kämpfer und Opfer. Im Pazifik dauerte der Krieg noch an; weltweit war er noch nicht beendet.",
+    "pt": "A França assinala a vitória na Europa em 8 de maio, após a rendição incondicional da Alemanha nazi em 1945. O fim dos combates europeus veio depois de ocupação, resistência e enorme sofrimento civil. Cerimónias homenageiam combatentes, vítimas e sobreviventes. A guerra continuou no Pacífico e ainda não terminara em todo o mundo."
+  },
+  "runtimeRichEditorialApproved": false
+}

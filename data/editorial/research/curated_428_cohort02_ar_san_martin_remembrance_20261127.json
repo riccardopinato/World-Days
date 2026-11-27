@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-san-martin-remembrance",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-17",
+  "country": "AR",
+  "documentedIntroductionYear": 1938,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Argentine Congress / legal registry",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/normativa/nacional/ley-12387-231841/texto",
+      "claim": "Law 12.387 of 12 August 1938 declared 17 August a national holiday remembering the death of José de San Martín.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina honours José de San Martín on 17 August, the date of his death in 1850. His military campaigns contributed to independence movements in Argentina, Chile and Peru. Unlike a private biographical anniversary, this is a nationally designated public commemoration: Law 12.387 made 17 August a national holiday in 1938. The general's death and the holiday's legal introduction are distinct dates.",
+    "it": "L'Argentina ricorda José de San Martín il 17 agosto, anniversario della sua morte nel 1850. Le sue campagne militari contribuirono all'indipendenza di Argentina, Cile e Perù. Non è un semplice anniversario biografico: la legge 12.387 rese la data una festa nazionale nel 1938. La morte del generale e l'istituzione della ricorrenza sono eventi diversi.",
+    "es": "Argentina homenajea a José de San Martín el 17 de agosto, aniversario de su muerte en 1850. Sus campañas militares contribuyeron a la independencia de Argentina, Chile y Perú. No es solo un aniversario privado: la Ley 12.387 declaró la fecha fiesta nacional en 1938. La muerte del general y la creación legal del feriado son hechos distintos.",
+    "fr": "L'Argentine honore José de San Martín le 17 août, anniversaire de sa mort en 1850. Ses campagnes militaires contribuèrent aux indépendances de l'Argentine, du Chili et du Pérou. Ce n'est pas une simple date biographique: la loi 12.387 en fit une fête nationale en 1938. La mort du général et l'instauration juridique de la fête sont distinctes.",
+    "de": "Argentinien ehrt José de San Martín am 17. August, seinem Todestag im Jahr 1850. Seine Feldzüge trugen zur Unabhängigkeit Argentiniens, Chiles und Perus bei. Der Tag ist nicht bloß ein privater Jahrestag: Das Gesetz 12.387 erklärte ihn 1938 zum Nationalfeiertag. Der Tod des Generals und die gesetzliche Einführung sind getrennte Ereignisse.",
+    "pt": "A Argentina homenageia José de San Martín em 17 de agosto, aniversário da sua morte em 1850. As campanhas militares contribuíram para a independência da Argentina, Chile e Peru. Não é apenas uma data biográfica: a Lei 12.387 tornou-a feriado nacional em 1938. A morte do general e a criação legal da comemoração são acontecimentos distintos."
+  },
+  "runtimeRichEditorialApproved": false
+}

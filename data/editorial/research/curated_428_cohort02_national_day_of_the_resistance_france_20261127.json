@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "national-day-of-the-resistance-france",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-27",
+  "country": "FR",
+  "documentedIntroductionYear": 2013,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Légifrance / French Parliament",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027730576/",
+      "claim": "Law 2013-642 institutes 27 May as National Resistance Day, anniversary of the National Council of Resistance formation in 1943.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France marks National Resistance Day on 27 May, the anniversary of the first meeting of the National Council of the Resistance in 1943. Under Jean Moulin, different movements sought coordination against Nazi occupation. Law 2013-642 created the national remembrance day in 2013. It honours collective courage without treating the wartime founding year as the day’s legal establishment date.",
+    "it": "Il 27 maggio la Francia celebra la Giornata nazionale della Resistenza, anniversario della prima riunione del Consiglio nazionale della Resistenza nel 1943. Sotto Jean Moulin, movimenti diversi cercarono di coordinarsi contro l'occupazione nazista. La legge 2013-642 istituì la ricorrenza nel 2013, separando la memoria della guerra dalla sua designazione legale.",
+    "es": "Francia conmemora el Día Nacional de la Resistencia el 27 de mayo, aniversario de la primera reunión del Consejo Nacional de la Resistencia en 1943. Bajo Jean Moulin, distintos movimientos buscaron coordinarse contra la ocupación nazi. La Ley 2013-642 creó la jornada en 2013, distinguiendo el hecho de guerra de su reconocimiento legal.",
+    "fr": "La France célèbre la Journée nationale de la Résistance le 27 mai, anniversaire de la première réunion du Conseil national de la Résistance en 1943. Sous Jean Moulin, plusieurs mouvements cherchaient à s'unir contre l'occupation nazie. La loi 2013-642 institua cette journée en 2013, bien après l'événement commémoré.",
+    "de": "Frankreich begeht am 27. Mai den Nationalen Tag der Résistance. Er erinnert an die erste Sitzung des Nationalen Widerstandsrats 1943, als verschiedene Bewegungen unter Jean Moulin die Koordination gegen die NS-Besatzung suchten. Das Gesetz 2013-642 führte den Gedenktag 2013 ein und trennt damit das Ereignisjahr von der gesetzlichen Einführung.",
+    "pt": "A França celebra o Dia Nacional da Resistência em 27 de maio, aniversário da primeira reunião do Conselho Nacional da Resistência em 1943. Sob Jean Moulin, diferentes movimentos procuraram coordenar-se contra a ocupação nazi. A lei 2013-642 instituiu a comemoração em 2013, distinguindo o facto histórico do reconhecimento legal."
+  },
+  "runtimeRichEditorialApproved": false
+}
