@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01",
+  "factoryBaseline": "8b3d9263ad1a72f3b8a43273550fe43646780d78",
+  "mainBaseline": "0a6922dfb5eace9a4c8ab8f88e6569525caa3a3b",
+  "reviewedAt": "2026-11-27",
+  "humanSignoffClaim": false,
+  "webEvidenceScope": "Per-story public government/legal/institutional pages looked up, critical date/origin claims reviewed; not every historical statement independently re-proven.",
+  "blockSize": 100,
+  "candidateCount": 19,
+  "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+  "records": [
+    {
+      "id": "ar-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_independence_day_20261127.json",
+      "sourceBlobSha": "6da0fc46161e1ae60b7ca71f00b2d0036a02464a",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "ar-may-revolution-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_may_revolution_day_20261127.json",
+      "sourceBlobSha": "b4de0e57e3bfd2ce93cc3720201ce3aaaabc12c3",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "ar-memory-truth-justice-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_memory_truth_justice_day_20261127.json",
+      "sourceBlobSha": "926e34b8551f6c53bcfc391a90d76c4e009c47de",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "ar-san-martin-remembrance",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_san_martin_remembrance_20261127.json",
+      "sourceBlobSha": "0a7547ee7155bccd66251f362be582723a82dbd6",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "ee-victory-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_victory_day_20261127.json",
+      "sourceBlobSha": "76fc8e91be0b7eadf080ab1efe27cebf10f5a8ac",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "france-national-slavery-memory-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_france_national_slavery_memory_day_20261127.json",
+      "sourceBlobSha": "c7a44ce35a416c66cecc10dbd3461b9fb579a11e",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "france-victory-1945-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_france_victory_1945_day_20261127.json",
+      "sourceBlobSha": "75de0587630f50a3881d5b4ee13a96e0c3f0222f",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "lt-independence-restoration-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_independence_restoration_day_20261127.json",
+      "sourceBlobSha": "1fc3725127b08a400cb36eb70010169c2f5231ec",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "mt-sette-giugno",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_sette_giugno_20261127.json",
+      "sourceBlobSha": "11f175bc824efeba9817037da9c7bde6866c22df",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "mt-victory-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_victory_day_20261127.json",
+      "sourceBlobSha": "cccd4cbbcac751a74fd86db991800caa03e8bf92",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "national-day-of-the-resistance-france",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_national_day_of_the_resistance_france_20261127.json",
+      "sourceBlobSha": "1480f842e101198225ef67bb1c19f290ff25db15",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-armed-forces-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_armed_forces_day_20261127.json",
+      "sourceBlobSha": "77f44b0379e5dcf854a4f60ef3c3b01acac5b400",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-cursed-soldiers-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_cursed_soldiers_remembrance_day_20261127.json",
+      "sourceBlobSha": "11d586b5915f13ba5b1c2d3e5c8b1b26a8ef468b",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-greater-poland-uprising-victory-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_greater_poland_uprising_victory_day_20261127.json",
+      "sourceBlobSha": "a4afceb89b7472285576d783e63d0db94730c3cf",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-home-army-soldiers-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_home_army_soldiers_remembrance_day_20261127.json",
+      "sourceBlobSha": "1eef333e240d3b99430d84852402d3bc2be265b9",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-polish-science-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_polish_science_day_20261127.json",
+      "sourceBlobSha": "e2203649d35195bc5dcbc93682318ba4602498b9",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-silesian-uprisings-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_silesian_uprisings_national_day_20261127.json",
+      "sourceBlobSha": "c6bb2355f415bb97e7928e80c262865b0e48ee60",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-solidarity-and-freedom-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_solidarity_and_freedom_day_20261127.json",
+      "sourceBlobSha": "6052594c4c27263d9eefe5c3508e4c362114e2a1",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    },
+    {
+      "id": "pl-warsaw-uprising-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_warsaw_uprising_remembrance_day_20261127.json",
+      "sourceBlobSha": "ed5874fa46e75a6a3949b5714c24dcfa896a45b4",
+      "review": "AI_EDITORIAL_REVIEWED_HISTORY_DATE_TRANSLATIONS",
+      "sixLocaleChecked": true,
+      "sourceClaimsWebChecked": true,
+      "humanSignoff": false
+    }
+  ]
+}
