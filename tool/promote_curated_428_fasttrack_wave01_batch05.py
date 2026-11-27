@@ -43,6 +43,8 @@ def run():
     for n in (2,3):
         q=load(REPORT/f"cohort_{n:02d}_ordered_ids.json")
         for oid in q["ids"]: cohorts[oid]=n
+    before=load(REPORT/"fasttrack_wave01_batch04_runtime_import.json")["integratedNew"]
+    assert 0<=before<=4
     packs={loc:load(ASSETS/f"editorial_{loc}.json") for loc in LANG}
     lookup={}
     first=None
@@ -53,8 +55,6 @@ def run():
         else: assert ids==first
         assert sum(r["status"]==CONTEXT for r in doc["entries"])==278-before
         lookup[loc]={r["observanceId"]:r for r in doc["entries"]}
-    before=load(REPORT/"fasttrack_wave01_batch04_runtime_import.json")["integratedNew"]
-    assert 0<=before<=4
     selected={}
     decisions=[]
     visited=set()
