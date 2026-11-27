@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH14",
+  "factoryBaseline": "3e663a1a2a77142ab755e0fa645f14c74991e367",
+  "sourceMain": "3661d99c77e8b2f7913af4eb67d892ce98bb9b74",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Original UK government second Sunday November and US National Archives fourth Thursday Thanksgiving 1941 federal law, six translated narratives each. Source year applies only to modern law, not cultural origin. Canonical recurrence must match; no human expert certificate.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch14": 201,
+  "proposedBatch14": 2,
+  "records": [
+    {
+      "id": "uk-remembrance-sunday",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_uk_remembrance_sunday_batch14_20261127.json",
+      "sourceBlobSha": "2d3203e44f3fd8f1955ca2f128d727a9e0e0e80b",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "us-thanksgiving-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_us_thanksgiving_day_batch14_20261127.json",
+      "sourceBlobSha": "9ab482fbfe08755b28ffa47858f9b3f2033a9af5",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
