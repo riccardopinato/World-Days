@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "national-day-of-spain",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-12",
+  "country": "ES",
+  "documentedIntroductionYear": 1987,
+  "yearMeaning": "Spain's Law 18/1987, adopted 7 October 1987, formally established 12 October as the national holiday.",
+  "authority": "Cortes Generales of Spain",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.boe.es/eli/es/l/1987/10/07/18/con",
+      "claim": "Spanish official law 18/1987 establishes the National Day of Spain on 12 October."
+    }
+  ],
+  "narratives": {
+    "en": "Spain celebrates National Day on 12 October, a date designated explicitly by Law 18/1987. The holiday relates to the 1492 arrival of Columbus in the Americas and the beginning of a shared but deeply contested transatlantic history. Modern commemorations include state ceremonies and public debate about colonial legacies. The year 1987 is the date of the contemporary legal designation, not the year of the historical event.",
+    "it": "La Spagna celebra la Festa nazionale il 12 ottobre, data stabilita espressamente dalla legge 18/1987. La ricorrenza richiama l'arrivo di Colombo nelle Americhe nel 1492 e l'inizio di una storia transatlantica condivisa ma controversa. Oggi comprende cerimonie statali e riflessioni sull'eredità coloniale. Il 1987 indica il riconoscimento legislativo moderno, non l'anno dell'evento storico.",
+    "es": "España celebra la Fiesta Nacional el 12 de octubre, fecha establecida expresamente por la Ley 18/1987. La conmemoración se relaciona con la llegada de Colón a América en 1492 y el inicio de una historia transatlántica compartida pero controvertida. Hoy incluye ceremonias del Estado y reflexiones sobre el legado colonial. El año 1987 corresponde a la designación legal moderna, no al acontecimiento histórico.",
+    "fr": "L'Espagne célèbre sa fête nationale le 12 octobre, date fixée explicitement par la loi 18/1987. Elle renvoie à l'arrivée de Colomb dans les Amériques en 1492 et au début d'une histoire transatlantique commune mais controversée. Les commémorations actuelles comprennent cérémonies officielles et débats sur les héritages coloniaux. L'année 1987 est celle de la désignation légale moderne, non de l'événement historique.",
+    "de": "Spanien feiert seinen Nationalfeiertag am 12. Oktober, der durch Gesetz 18/1987 ausdrücklich festgelegt wurde. Das Datum verweist auf Kolumbus' Ankunft in Amerika 1492 und den Beginn einer gemeinsamen, aber umstrittenen transatlantischen Geschichte. Heute gehören Staatszeremonien und Debatten über koloniale Folgen dazu. 1987 bezeichnet die moderne gesetzliche Festlegung, nicht das historische Ereignis.",
+    "pt": "A Espanha celebra o Dia Nacional em 12 de outubro, data fixada expressamente pela Lei 18/1987. A comemoração remete para a chegada de Colombo às Américas em 1492 e para o início de uma história transatlântica comum, mas controversa. Hoje há cerimónias estatais e debates sobre legados coloniais. O ano 1987 é o da instituição legal moderna, não o do acontecimento histórico."
+  },
+  "runtimeRichEditorialApproved": false
+}

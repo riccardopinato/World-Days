@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-sovereignty-declaration-day",
+  "status": "AI_DRAFT_SIX_LOCALE_EVIDENCE_PENDING_REVIEW_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-16",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year is not evidence of the statutory founding year of the annual holiday.",
+  "authority": "Riigikogu (Estonian Parliament)",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigikogu.ee/en/",
+      "claim": "On 16 November 1988 the Supreme Soviet of the Estonian SSR adopted a declaration asserting Estonian sovereignty.",
+      "verificationStatus": "PENDING_DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia remembers 16 November 1988 as a turning point in its restoration of independence. The Supreme Soviet of the Estonian SSR adopted a declaration of sovereignty, challenging the supremacy of Soviet central authority. The decision formed part of the broader Singing Revolution and preceded the restoration of independence in August 1991. The historical event date does not establish when an annual commemoration was first introduced.",
+    "it": "Il 16 novembre l'Estonia ricorda la dichiarazione di sovranità del 1988, adottata dal Soviet supremo della repubblica estone. La decisione contestava la supremazia del potere centrale sovietico e rappresentò una tappa della Rivoluzione cantata. Precedette il ripristino dell'indipendenza nell'agosto 1991. La data dell'evento non dimostra l'anno di istituzione dell'odierna ricorrenza.",
+    "es": "El 16 de noviembre Estonia recuerda la declaración de soberanía de 1988, aprobada por el Sóviet Supremo de la república estonia. La decisión cuestionó la supremacía del poder central soviético y formó parte de la Revolución Cantada. Precedió al restablecimiento de la independencia en agosto de 1991. La fecha del acontecimiento no prueba cuándo se instituyó la conmemoración anual.",
+    "fr": "Le 16 novembre, l'Estonie rappelle la déclaration de souveraineté adoptée en 1988 par le Soviet suprême de la république estonienne. Cette décision contestait la primauté du pouvoir central soviétique et s'inscrivait dans la Révolution chantante. Elle précéda le rétablissement de l'indépendance en août 1991. La date historique ne prouve pas l'année de création de la commémoration actuelle.",
+    "de": "Estland erinnert am 16. November an die Souveränitätserklärung von 1988, die der Oberste Sowjet der estnischen Republik verabschiedete. Sie stellte den Vorrang der sowjetischen Zentralmacht infrage und war Teil der Singenden Revolution. Der Beschluss ging der Wiederherstellung der Unabhängigkeit im August 1991 voraus. Das Ereignisdatum belegt nicht das Einführungsjahr des heutigen Gedenktags.",
+    "pt": "A Estónia recorda em 16 de novembro a declaração de soberania aprovada em 1988 pelo Soviete Supremo da república estónia. A decisão contestou a supremacia do poder central soviético e integrou a Revolução Cantada. Antecedeu a restauração da independência em agosto de 1991. A data histórica não demonstra quando foi instituída a comemoração anual."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "independence-day-us",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-04",
+  "country": "US",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "4 July 1776 is the adoption date of the Declaration of Independence; a distinct federal holiday's first legal introduction year is not demonstrated in these sources.",
+  "authority": "United States Continental Congress; National Archives",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.archives.gov/founding-docs/declaration/how-did-it-happen",
+      "claim": "The National Archives explains that Congress voted for independence on 2 July 1776 and adopted the Declaration on 4 July."
+    }
+  ],
+  "narratives": {
+    "en": "The United States celebrates Independence Day on 4 July, recalling the Continental Congress's adoption of the Declaration of Independence in 1776. Congress voted for independence two days earlier, on 2 July, while the famous text was adopted on the fourth. The declaration asserted a break with British rule and laid out principles of rights and government. The anniversary is not evidence that every delegate signed the parchment on 4 July.",
+    "it": "Gli Stati Uniti celebrano l'indipendenza il 4 luglio, ricordando l'approvazione della Dichiarazione d'indipendenza nel 1776. Il Congresso continentale aveva votato l'indipendenza il 2 luglio, mentre il testo fu adottato due giorni dopo. La dichiarazione sanciva la rottura con il dominio britannico e formulava principi di diritti e governo. L'anniversario non significa che tutti i delegati firmarono la pergamena il 4 luglio.",
+    "es": "Estados Unidos celebra la Independencia el 4 de julio, recordando la aprobación de la Declaración en 1776. El Congreso Continental votó por la independencia el 2 de julio, mientras que el texto se adoptó el día 4. La declaración anunció la ruptura con el dominio británico y expuso principios sobre derechos y gobierno. La fecha no significa que todos los delegados firmaran el documento ese mismo día.",
+    "fr": "Les États-Unis célèbrent l'indépendance le 4 juillet, date de l'adoption de la Déclaration en 1776. Le Congrès continental avait voté pour l'indépendance le 2 juillet ; le texte fut adopté deux jours plus tard. La déclaration annonçait la rupture avec le pouvoir britannique et exposait des principes de droits et de gouvernement. L'anniversaire ne signifie pas que tous les délégués signèrent le parchemin ce jour-là.",
+    "de": "Die Vereinigten Staaten feiern den Unabhängigkeitstag am 4. Juli und erinnern an die Annahme der Erklärung von 1776. Der Kontinentalkongress hatte bereits am 2. Juli für die Unabhängigkeit gestimmt; der Text wurde am 4. Juli verabschiedet. Die Erklärung verkündete die Loslösung von Großbritannien und formulierte Grundsätze zu Rechten und Regierung. Das Datum bedeutet nicht, dass alle Delegierten an diesem Tag unterschrieben.",
+    "pt": "Os Estados Unidos celebram a Independência em 4 de julho, recordando a aprovação da Declaração em 1776. O Congresso Continental votou pela independência em 2 de julho, enquanto o texto foi adotado dois dias depois. A declaração anunciou a separação do domínio britânico e expôs princípios de direitos e governo. A data não significa que todos os delegados assinaram o documento nesse dia."
+  },
+  "runtimeRichEditorialApproved": false
+}

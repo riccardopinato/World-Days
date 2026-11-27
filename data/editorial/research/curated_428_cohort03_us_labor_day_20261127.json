@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "us-labor-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "FIRST_MONDAY_SEPTEMBER",
+  "country": "US",
+  "documentedIntroductionYear": 1894,
+  "yearMeaning": "Federal holiday enacted on 28 June 1894; the first local Labor Day procession was on 5 September 1882.",
+  "authority": "United States Congress / Department of Labor",
+  "dateReason": "Federal holiday enacted on 28 June 1894; the first local Labor Day procession was on 5 September 1882.",
+  "sourceEvidence": [
+    {
+      "url": "https://beta.dol.gov/about/history/labor-day",
+      "claim": "Department of Labor dates first New York celebration to 1882 and federal establishment to 1894."
+    }
+  ],
+  "narratives": {
+    "en": "American Labor Day falls on the first Monday of September. The Central Labor Union organized an early celebration in New York on 5 September 1882, combining a workers' parade with public festivities. After recognition by many states, Congress established the federal holiday in 1894. The day recognizes workers' contributions, while historians still debate which labor organizer first proposed it.",
+    "it": "Negli Stati Uniti il Labor Day cade il primo lunedì di settembre. Nel 1882 la Central Labor Union organizzò a New York una delle prime celebrazioni, con corteo e festa pubblica. Dopo il riconoscimento di numerosi Stati, nel 1894 il Congresso istituì la festività federale. La ricorrenza valorizza il contributo dei lavoratori; l'identità del primo promotore rimane dibattuta.",
+    "es": "El Labor Day estadounidense se celebra el primer lunes de septiembre. En 1882, la Central Labor Union organizó en Nueva York una de las primeras jornadas, con desfile y festejos. Tras su adopción en varios estados, el Congreso lo convirtió en feriado federal en 1894. Reconoce la aportación de los trabajadores; la autoría de la propuesta inicial sigue debatida.",
+    "fr": "Aux États-Unis, le Labor Day tombe le premier lundi de septembre. En 1882, la Central Labor Union organisa à New York une première célébration associant défilé ouvrier et festivités. Après sa reconnaissance par plusieurs États, le Congrès en fit un jour férié fédéral en 1894. Il honore les travailleurs, même si l'initiateur exact reste discuté.",
+    "de": "Der US-amerikanische Labor Day fällt auf den ersten Montag im September. 1882 veranstaltete die Central Labor Union in New York eine frühe Feier mit Arbeiterumzug. Nachdem zahlreiche Bundesstaaten den Tag anerkannt hatten, wurde er 1894 zum Bundesfeiertag. Er würdigt die Leistungen der Beschäftigten; wer ihn zuerst vorschlug, ist umstritten.",
+    "pt": "Nos Estados Unidos, o Labor Day celebra-se na primeira segunda-feira de setembro. Em 1882, a Central Labor Union organizou em Nova Iorque uma celebração com desfile de trabalhadores. Após o reconhecimento em vários estados, o Congresso tornou-o feriado federal em 1894. A data valoriza os trabalhadores; a autoria da proposta inicial continua debatida."
+  },
+  "runtimeRichEditorialApproved": false
+}

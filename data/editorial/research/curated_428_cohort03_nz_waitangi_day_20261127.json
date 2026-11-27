@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "nz-waitangi-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-06",
+  "country": "NZ",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "6 February 1840 is the first signing of Te Tiriti o Waitangi, while the first statutory holiday adoption is a separate legal event not established by this treaty source.",
+  "authority": "Waitangi Tribunal of New Zealand",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://waitangitribunal.govt.nz/en/about/the-treaty/about-the-treaty",
+      "claim": "The Waitangi Tribunal reports the treaty was first signed at Waitangi on 6 February 1840 by Hobson and Māori rangatira."
+    }
+  ],
+  "narratives": {
+    "en": "New Zealand marks Waitangi Day on 6 February, the anniversary of the first signing of Te Tiriti o Waitangi in 1840 between representatives of the British Crown and Māori chiefs. The treaty remains central to discussions about sovereignty, land and the relationship between Māori and the state. Māori and English versions have been interpreted differently. The anniversary is a civic occasion for reflection and public dialogue, not simply an uncontroversial founding celebration.",
+    "it": "Il 6 febbraio la Nuova Zelanda celebra il Waitangi Day, anniversario della prima firma di Te Tiriti o Waitangi nel 1840 fra rappresentanti della Corona britannica e capi māori. Il trattato è centrale nel dibattito su sovranità, terra e rapporti fra Māori e Stato. Le versioni māori e inglese sono state interpretate diversamente. La giornata è un'occasione di riflessione civica e dialogo, non una semplice celebrazione priva di controversie.",
+    "es": "El 6 de febrero Nueva Zelanda celebra Waitangi Day, aniversario de la primera firma de Te Tiriti o Waitangi en 1840 por representantes de la Corona británica y jefes maoríes. El tratado es central en los debates sobre soberanía, tierra y relaciones con el Estado. Las versiones maorí e inglesa han recibido interpretaciones diferentes. Es una jornada de reflexión y diálogo, no solo una celebración fundacional sin controversia.",
+    "fr": "Le 6 février, la Nouvelle-Zélande célèbre Waitangi Day, anniversaire de la première signature de Te Tiriti o Waitangi en 1840 entre représentants de la Couronne britannique et chefs maoris. Le traité reste central dans les débats sur la souveraineté, les terres et les relations avec l'État. Les versions maorie et anglaise ont été interprétées différemment. Cette journée invite à la réflexion et au dialogue plutôt qu'à une célébration sans controverse.",
+    "de": "Neuseeland begeht am 6. Februar den Waitangi-Tag, den Jahrestag der ersten Unterzeichnung von Te Tiriti o Waitangi im Jahr 1840 zwischen Vertretern der britischen Krone und Māori-Anführern. Der Vertrag ist zentral für Debatten über Souveränität, Land und das Verhältnis zum Staat. Die Māori- und die englische Fassung wurden unterschiedlich ausgelegt. Der Tag dient der Reflexion und dem Dialog, nicht nur unstrittiger Staatsgründungsfeier.",
+    "pt": "A Nova Zelândia celebra o Dia de Waitangi em 6 de fevereiro, aniversário da primeira assinatura de Te Tiriti o Waitangi, em 1840, entre representantes da Coroa britânica e chefes māori. O tratado continua central nos debates sobre soberania, terras e relações com o Estado. As versões māori e inglesa tiveram interpretações diferentes. É um dia de reflexão e diálogo, não apenas uma celebração fundadora sem controvérsias."
+  },
+  "runtimeRichEditorialApproved": false
+}

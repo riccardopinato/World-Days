@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-24",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "24 February 1918 is the proclamation date; the year when the present statutory holiday was first established has not been separately established.",
+  "authority": "Government Office of Estonia",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigikantselei.ee/en/national-holiday",
+      "claim": "Estonia's Government Office documents publication of the independence manifesto on 24 February 1918."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia celebrates Independence Day on 24 February, recalling the publication of its declaration of independence in 1918. The Manifesto to the Peoples of Estonia proclaimed a democratic republic amid the collapse of imperial rule and the First World War. Independence was later interrupted by occupation before being restored in 1991. The modern holiday celebrates the founding declaration, not the later restoration date.",
+    "it": "Il 24 febbraio l'Estonia celebra l'indipendenza ricordando la proclamazione del 1918. Il Manifesto ai popoli dell'Estonia annunciò una repubblica democratica durante il crollo dell'ordine imperiale e la Prima guerra mondiale. L'indipendenza fu poi interrotta dalle occupazioni, prima del ripristino nel 1991. La festa ricorda la dichiarazione originaria e non la successiva restaurazione.",
+    "es": "El 24 de febrero Estonia celebra su independencia recordando la proclamación de 1918. El Manifiesto a los Pueblos de Estonia anunció una república democrática durante la crisis del orden imperial y la Primera Guerra Mundial. La independencia fue interrumpida por ocupaciones antes de recuperarse en 1991. La fiesta recuerda la declaración fundacional, no la posterior restauración.",
+    "fr": "Le 24 février, l'Estonie célèbre son indépendance en rappelant la proclamation de 1918. Le Manifeste aux peuples d'Estonie annonça une république démocratique lors de l'effondrement du pouvoir impérial et de la Première Guerre mondiale. L'indépendance fut interrompue par des occupations avant d'être rétablie en 1991. La fête rappelle la déclaration fondatrice, non la restauration ultérieure.",
+    "de": "Am 24. Februar feiert Estland seine Unabhängigkeit und erinnert an die Erklärung von 1918. Das Manifest an die Völker Estlands proklamierte während des Zerfalls der imperialen Ordnung und des Ersten Weltkriegs eine demokratische Republik. Die Unabhängigkeit wurde später durch Besatzungen unterbrochen und 1991 wiederhergestellt. Der Feiertag gedenkt der ursprünglichen Erklärung, nicht der späteren Wiederherstellung.",
+    "pt": "Em 24 de fevereiro, a Estónia celebra a independência recordando a proclamação de 1918. O Manifesto aos Povos da Estónia anunciou uma república democrática durante o colapso da ordem imperial e a Primeira Guerra Mundial. A independência foi interrompida por ocupações antes de ser restaurada em 1991. O feriado recorda a declaração inicial, não a posterior restauração."
+  },
+  "runtimeRichEditorialApproved": false
+}

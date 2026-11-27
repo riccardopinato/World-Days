@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 5,
+  "id": "tr-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-29",
+  "country": "TR",
+  "documentedIntroductionYear": 1923,
+  "yearMeaning": "The Turkish Grand National Assembly proclaimed the Republic on 29 October 1923. This establishes the founding event; no separate first national holiday statute is claimed.",
+  "authority": "Grand National Assembly of Türkiye",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://tbmm.gov.tr/history",
+      "claim": "Turkish Parliament history documents proclamation of republican government on 29 October 1923 and election of Mustafa Kemal as first president."
+    }
+  ],
+  "narratives": {
+    "en": "Türkiye celebrates Republic Day on 29 October, commemorating the proclamation of the republic in 1923. The Grand National Assembly approved republican government after the War of Independence and elected Mustafa Kemal as the first president. The date marks a change in the state's constitutional form and the beginning of the modern republic. The founding year is verified, while a distinct first holiday statute is not asserted from this source.",
+    "it": "Il 29 ottobre la Turchia celebra la Festa della Repubblica, ricordando la proclamazione del 1923. La Grande Assemblea nazionale approvò la forma repubblicana dopo la guerra d'indipendenza ed elesse Mustafa Kemal primo presidente. La data segna una svolta nella struttura costituzionale e l'avvio della repubblica moderna. L'anno di fondazione è documentato; la prima legge festiva distinta non viene dedotta da questa fonte.",
+    "es": "Turquía celebra el Día de la República el 29 de octubre, en recuerdo de la proclamación de 1923. La Gran Asamblea Nacional aprobó el gobierno republicano después de la guerra de independencia y eligió a Mustafa Kemal como primer presidente. La fecha marca una transformación constitucional y el comienzo de la república moderna. El año fundacional está documentado; no se presupone una ley festiva diferente.",
+    "fr": "La Turquie célèbre la fête de la République le 29 octobre, commémorant la proclamation de 1923. La Grande Assemblée nationale adopta la forme républicaine après la guerre d'indépendance et élut Mustafa Kemal premier président. La date marque une transformation constitutionnelle et le début de la république moderne. L'année fondatrice est attestée ; une loi ultérieure distincte sur les jours fériés n'est pas déduite de cette source.",
+    "de": "Die Türkei feiert am 29. Oktober den Tag der Republik und erinnert an ihre Ausrufung 1923. Die Große Nationalversammlung beschloss nach dem Unabhängigkeitskrieg die republikanische Staatsform und wählte Mustafa Kemal zum ersten Präsidenten. Das Datum kennzeichnet einen Verfassungswandel und den Beginn der modernen Republik. Das Gründungsjahr ist belegt; ein gesondertes Feiertagsgesetz wird aus dieser Quelle nicht abgeleitet.",
+    "pt": "A Turquia celebra o Dia da República em 29 de outubro, recordando a proclamação de 1923. A Grande Assembleia Nacional aprovou a forma republicana após a guerra de independência e elegeu Mustafa Kemal primeiro presidente. A data marca uma mudança constitucional e o início da república moderna. O ano fundador está documentado; não se presume uma lei de feriado separada a partir desta fonte."
+  },
+  "runtimeRichEditorialApproved": false
+}

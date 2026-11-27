@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "za-national-womens-day",
+  "status": "AI_DRAFT_SIX_LOCALE_EVIDENCE_PENDING_REVIEW_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-09",
+  "country": "ZA",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year is not evidence of the statutory founding year of the annual holiday.",
+  "authority": "South African Government",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.za/about-sa/public-holidays",
+      "claim": "National Women's Day is observed on 9 August in remembrance of the 1956 women's march against pass laws.",
+      "verificationStatus": "PENDING_DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "South Africa observes National Women's Day on 9 August, remembering the 1956 march of thousands of women to the Union Buildings in Pretoria. They protested apartheid pass laws that restricted movement and daily life. The march became an enduring symbol of women's political leadership and collective resistance. The anniversary recognizes their role in the struggle for rights; 1956 is the protest year, not automatically the holiday's legal introduction year.",
+    "it": "Il 9 agosto il Sudafrica celebra la Giornata nazionale delle donne, ricordando la marcia del 1956 verso gli Union Buildings di Pretoria. Migliaia di donne protestarono contro le leggi dell'apartheid sui lasciapassare, che limitavano movimento e vita quotidiana. La manifestazione divenne un simbolo della leadership politica femminile. Il 1956 indica la protesta storica, non necessariamente l'anno di istituzione della festa.",
+    "es": "El 9 de agosto Sudáfrica celebra el Día Nacional de la Mujer, recordando la marcha de miles de mujeres a los Union Buildings de Pretoria en 1956. Protestaron contra las leyes de pases del apartheid, que restringían el movimiento y la vida cotidiana. La marcha se convirtió en símbolo del liderazgo político femenino. El año 1956 corresponde a la protesta, no necesariamente a la creación legal del festivo.",
+    "fr": "Le 9 août, l'Afrique du Sud célèbre la Journée nationale des femmes en mémoire de la marche de milliers de femmes vers les Union Buildings de Pretoria en 1956. Elles protestaient contre les lois de laissez-passer de l'apartheid. Cette mobilisation devint un symbole du leadership politique féminin et de la résistance collective. L'année 1956 est celle de la manifestation, non nécessairement de la création du jour férié.",
+    "de": "Südafrika begeht am 9. August den Nationalen Frauentag und erinnert an den Marsch Tausender Frauen zu den Union Buildings in Pretoria im Jahr 1956. Sie protestierten gegen die Passgesetze der Apartheid, die Bewegungsfreiheit und Alltag einschränkten. Der Marsch wurde zum Symbol politischer Führung durch Frauen. 1956 ist das Jahr des Protests, nicht zwingend das gesetzliche Einführungsjahr des Feiertags.",
+    "pt": "A África do Sul celebra o Dia Nacional da Mulher em 9 de agosto, recordando a marcha de milhares de mulheres aos Union Buildings de Pretória em 1956. Protestaram contra as leis de passes do apartheid, que limitavam a circulação e a vida quotidiana. A marcha tornou-se símbolo da liderança política feminina. O ano 1956 corresponde ao protesto, não necessariamente à criação legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

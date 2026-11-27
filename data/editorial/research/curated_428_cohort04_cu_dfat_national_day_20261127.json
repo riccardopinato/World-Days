@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "cu-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_EVIDENCE_PENDING_REVIEW_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "CU",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year is not evidence of the statutory founding year of the annual holiday.",
+  "authority": "Historical reference (secondary; primary-source verification pending)",
+  "sourceEvidence": [
+    {
+      "url": "https://www.britannica.com/place/Cuba/The-Cuban-Revolution",
+      "claim": "The Cuban revolutionary government came to power on 1 January 1959 after the collapse of Batista's government.",
+      "verificationStatus": "PENDING_DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cuba commemorates the Triumph of the Revolution on 1 January. On that date in 1959, Fulgencio Batista's government collapsed and revolutionary forces led by Fidel Castro achieved victory. The day marks a major political transformation rather than Cuba's original independence from Spain. The historical milestone is 1959, while the legal establishment of the present public holiday requires separate documentary confirmation.",
+    "it": "Il 1º gennaio Cuba ricorda il trionfo della Rivoluzione. In quel giorno del 1959 il governo di Fulgencio Batista crollò e le forze rivoluzionarie guidate da Fidel Castro ottennero la vittoria. La data segna una trasformazione politica, non l'indipendenza originaria dalla Spagna. Il 1959 è l'anno dell'evento, mentre l'istituzione legale della festività richiede una verifica documentale separata.",
+    "es": "El 1 de enero Cuba conmemora el Triunfo de la Revolución. Ese día de 1959 cayó el gobierno de Fulgencio Batista y triunfaron las fuerzas revolucionarias dirigidas por Fidel Castro. La fecha marca una transformación política, no la independencia original de España. El año 1959 corresponde al acontecimiento, mientras que la creación legal del festivo requiere documentación aparte.",
+    "fr": "Le 1er janvier, Cuba commémore le triomphe de la Révolution. En 1959, le gouvernement de Fulgencio Batista s'effondra et les forces révolutionnaires dirigées par Fidel Castro remportèrent la victoire. Cette date marque une transformation politique et non l'indépendance initiale vis-à-vis de l'Espagne. L'année 1959 désigne l'événement; la création légale du jour férié exige une vérification distincte.",
+    "de": "Kuba gedenkt am 1. Januar des Sieges der Revolution. An diesem Tag 1959 brach die Regierung von Fulgencio Batista zusammen und die von Fidel Castro geführten revolutionären Kräfte siegten. Das Datum bezeichnet einen politischen Umbruch, nicht die ursprüngliche Unabhängigkeit von Spanien. 1959 ist das Ereignisjahr; die gesetzliche Einführung des heutigen Feiertags muss gesondert belegt werden.",
+    "pt": "Cuba comemora o Triunfo da Revolução em 1 de janeiro. Nesse dia de 1959, o governo de Fulgencio Batista caiu e as forças revolucionárias lideradas por Fidel Castro alcançaram a vitória. A data marca uma transformação política, não a independência original de Espanha. O ano 1959 refere-se ao acontecimento; a criação legal do feriado exige confirmação documental separada."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 5,
+  "id": "tl-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_EVIDENCE_PENDING_REVIEW_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-20",
+  "country": "TL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year is not evidence of the statutory founding year of the annual holiday.",
+  "authority": "United Nations",
+  "sourceEvidence": [
+    {
+      "url": "https://www.un.org/press/en/2002/sgsm8234.doc.htm",
+      "claim": "Timor-Leste became an internationally recognized independent state on 20 May 2002 after the United Nations transitional administration.",
+      "verificationStatus": "PENDING_DIRECT_SOURCE_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Timor-Leste celebrates Restoration of Independence Day on 20 May, remembering the internationally recognized restoration of sovereignty in 2002. The date followed a period of United Nations transitional administration after the 1999 vote for separation from Indonesia. It differs from the proclamation of independence on 28 November 1975. The 2002 milestone is the restoration event, not necessarily the legal founding year of the annual holiday.",
+    "it": "Il 20 maggio Timor Est celebra il ripristino dell'indipendenza, riconosciuta internazionalmente nel 2002. La data seguì l'amministrazione transitoria delle Nazioni Unite dopo il voto del 1999 per separarsi dall'Indonesia. È distinta dalla proclamazione d'indipendenza del 28 novembre 1975. Il 2002 indica l'evento di ripristino della sovranità, non necessariamente l'anno di istituzione legale della ricorrenza.",
+    "es": "El 20 de mayo Timor Oriental celebra la Restauración de la Independencia, reconocida internacionalmente en 2002. La fecha siguió a la administración transitoria de Naciones Unidas tras la votación de 1999 para separarse de Indonesia. Es diferente de la proclamación de independencia del 28 de noviembre de 1975. El año 2002 es el del restablecimiento de la soberanía, no necesariamente el de creación legal del festivo.",
+    "fr": "Le 20 mai, le Timor oriental célèbre le rétablissement de son indépendance, reconnu internationalement en 2002. Cette date suivit l'administration transitoire des Nations unies après le vote de 1999 en faveur de la séparation de l'Indonésie. Elle se distingue de la proclamation du 28 novembre 1975. L'année 2002 désigne le rétablissement de la souveraineté, non nécessairement la création légale du jour férié.",
+    "de": "Osttimor feiert am 20. Mai die Wiederherstellung seiner Unabhängigkeit, die 2002 international anerkannt wurde. Vorausgegangen waren eine Übergangsverwaltung der Vereinten Nationen und die Abstimmung von 1999 über die Trennung von Indonesien. Das Datum unterscheidet sich von der Unabhängigkeitserklärung vom 28. November 1975. 2002 bezeichnet die Wiederherstellung der Souveränität, nicht zwingend die gesetzliche Einführung des Feiertags.",
+    "pt": "Timor-Leste celebra a Restauração da Independência em 20 de maio, reconhecida internacionalmente em 2002. A data seguiu a administração transitória das Nações Unidas após a votação de 1999 sobre a separação da Indonésia. Distingue-se da proclamação de independência de 28 de novembro de 1975. O ano 2002 corresponde à restauração da soberania, não necessariamente à instituição legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "ch-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-01",
+  "country": "CH",
+  "documentedIntroductionYear": 1899,
+  "yearMeaning": "The Swiss Federal Council organized jubilee festivities in 1891 and established 1 August as national day in 1899, inspired by the 1291 Federal Charter.",
+  "authority": "Swiss Federal Council",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.admin.ch/en/federal-charter-1291",
+      "claim": "Swiss Confederation authority documents Federal Charter of 1291, 1891 jubilee celebrations and the 1899 designation of 1 August as National Day."
+    }
+  ],
+  "narratives": {
+    "en": "Switzerland celebrates National Day on 1 August, recalling the early August 1291 Federal Charter among founding Alpine communities. The modern holiday does not date from 1291: the Federal Council organized national celebrations in 1891 and designated 1 August as National Day in 1899. The distinction matters because a medieval founding tradition became a nationwide civic commemoration centuries later.",
+    "it": "La Svizzera celebra la Giornata nazionale il 1° agosto, ricordando la Carta federale dell'inizio di agosto 1291 fra comunità alpine. La festa moderna non risale al 1291: il Consiglio federale organizzò celebrazioni nazionali nel 1891 e riconobbe il 1° agosto come giornata nazionale nel 1899. La distinzione è importante: una tradizione medievale diventò commemorazione civica nazionale soltanto secoli dopo.",
+    "es": "Suiza celebra el Día Nacional el 1 de agosto, recordando la Carta Federal de comienzos de agosto de 1291 entre comunidades alpinas. La fiesta moderna no se creó en 1291: el Consejo Federal organizó celebraciones nacionales en 1891 y designó el 1 de agosto como Día Nacional en 1899. La diferencia es importante porque una tradición medieval se convirtió en conmemoración cívica muchos siglos después.",
+    "fr": "La Suisse célèbre sa fête nationale le 1er août, en référence à la Charte fédérale du début d'août 1291 entre communautés alpines. La fête moderne ne date pas de 1291 : le Conseil fédéral organisa des célébrations nationales en 1891 puis désigna le 1er août comme fête nationale en 1899. Cette distinction rappelle qu'une tradition médiévale devint une commémoration civique plusieurs siècles plus tard.",
+    "de": "Die Schweiz feiert den Nationalfeiertag am 1. August und erinnert an den Bundesbrief von Anfang August 1291 zwischen alpinen Gemeinschaften. Der moderne Feiertag stammt aber nicht aus dem Jahr 1291: Der Bundesrat organisierte 1891 nationale Jubiläumsfeiern und bestimmte 1899 den 1. August zum Nationalfeiertag. Aus einer mittelalterlichen Tradition wurde erst Jahrhunderte später ein landesweiter Gedenktag.",
+    "pt": "A Suíça celebra o Dia Nacional em 1 de agosto, recordando a Carta Federal do início de agosto de 1291 entre comunidades alpinas. O feriado moderno não foi criado em 1291: o Conselho Federal organizou celebrações nacionais em 1891 e designou 1 de agosto como Dia Nacional em 1899. A distinção mostra como uma tradição medieval se tornou comemoração cívica séculos depois."
+  },
+  "runtimeRichEditorialApproved": false
+}
