@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-republic-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-13",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Republic of Malta constitutional change took effect 13 December 1974; exact first statutory national holiday designation is not proven separately.",
+  "authority": "Festivals Malta / Government of Malta",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.festivals.mt/national-feasts",
+      "claim": "Malta's public festival authority records 13 December 1974 as the date Malta became a Republic, and the former Governor-General became its first President."
+    }
+  ],
+  "narratives": {
+    "en": "On 13 December Malta celebrates Republic Day, recalling the constitutional change of 1974. The country had already gained independence in 1964, but it then replaced the British monarch as head of state with a Maltese president. Sir Anthony Mamo became the first president of the republic. This anniversary therefore marks a separate constitutional milestone from Independence Day and Freedom Day.",
+    "it": "Il 13 dicembre Malta celebra la Festa della Repubblica e ricorda il cambiamento costituzionale del 1974. Il Paese era indipendente dal 1964, ma in quell'anno sostituì il monarca britannico come capo dello Stato con un presidente maltese. Sir Anthony Mamo divenne il primo presidente. È una tappa diversa sia dall'indipendenza sia dalla successiva Giornata della libertà.",
+    "es": "El 13 de diciembre Malta celebra el Día de la República, que recuerda el cambio constitucional de 1974. El país era independiente desde 1964, pero sustituyó entonces al monarca británico como jefe del Estado por un presidente maltés. Sir Anthony Mamo fue el primer presidente. Esta fecha es distinta del Día de la Independencia y del Día de la Libertad.",
+    "fr": "Le 13 décembre, Malte célèbre la fête de la République et le changement constitutionnel de 1974. Déjà indépendant depuis 1964, le pays remplaça alors le monarque britannique comme chef de l'État par un président maltais. Sir Anthony Mamo devint le premier président. Cette date se distingue de la fête de l'Indépendance comme de la Journée de la liberté.",
+    "de": "Am 13. Dezember feiert Malta den Tag der Republik und erinnert an die Verfassungsänderung von 1974. Das Land war bereits seit 1964 unabhängig, ersetzte nun aber den britischen Monarchen als Staatsoberhaupt durch einen maltesischen Präsidenten. Sir Anthony Mamo wurde erster Präsident. Der Jahrestag unterscheidet sich vom Unabhängigkeits- und vom Freiheitstag.",
+    "pt": "Em 13 de dezembro, Malta celebra o Dia da República e a mudança constitucional de 1974. O país já era independente desde 1964, mas substituiu então o monarca britânico como chefe de Estado por um presidente maltês. Sir Anthony Mamo tornou-se o primeiro presidente. A comemoração é distinta do Dia da Independência e do Dia da Liberdade."
+  },
+  "runtimeRichEditorialApproved": false
+}
