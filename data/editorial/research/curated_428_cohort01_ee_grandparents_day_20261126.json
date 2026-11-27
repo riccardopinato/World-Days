@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "ee-grandparents-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 9,
+    "weekday": "sunday",
+    "nth": 2
+  },
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Republic of Estonia, Riigi Teataja",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia celebrates Grandparents' Day on the second Sunday in September, highlighting relationships between generations. Families and communities recognize older relatives, shared memories and the transmission of life experiences. The official flag-day calendar explicitly lists the movable Sunday. The observance can be marked in schools, homes and local events, but no fixed date in September is valid for every year.",
+    "it": "L'Estonia celebra la Giornata dei nonni la seconda domenica di settembre, valorizzando i legami tra generazioni. Famiglie e comunità riconoscono il ruolo dei parenti anziani, dei ricordi condivisi e della trasmissione di esperienze. La legge sulla bandiera indica espressamente la domenica mobile. Scuole, case e iniziative locali possono partecipare, ma non esiste un giorno fisso di settembre valido ogni anno.",
+    "es": "Estonia celebra el Día de los Abuelos el segundo domingo de septiembre para destacar los vínculos entre generaciones. Familias y comunidades reconocen el papel de los mayores, los recuerdos compartidos y la transmisión de experiencias. La ley de la bandera establece expresamente un domingo variable. Puede celebrarse en escuelas y hogares, pero no existe una fecha fija para todos los años.",
+    "fr": "L'Estonie célèbre la Journée des grands-parents le deuxième dimanche de septembre pour mettre en valeur les liens intergénérationnels. Familles et collectivités saluent les proches âgés, les souvenirs communs et la transmission d'expériences. La loi sur le drapeau prévoit expressément un dimanche mobile. La fête peut se tenir à l'école ou à la maison, mais sa date change d'une année à l'autre.",
+    "de": "Estland feiert den Großelterntag am zweiten Sonntag im September und würdigt die Beziehungen zwischen Generationen. Familien und Gemeinden achten ältere Angehörige, gemeinsame Erinnerungen und weitergegebenes Wissen. Das Flaggengesetz nennt ausdrücklich einen beweglichen Sonntag. Schulen und Haushalte können mitfeiern, doch ein festes Septemberdatum gilt nicht für jedes Jahr.",
+    "pt": "A Estónia celebra o Dia dos Avós no segundo domingo de setembro, destacando os laços entre gerações. Famílias e comunidades reconhecem familiares mais velhos, memórias partilhadas e experiências transmitidas. A Lei da Bandeira determina expressamente um domingo móvel. A celebração pode ocorrer em escolas e famílias, mas não existe um dia fixo de setembro."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-cyril-methodius-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-05",
+  "country": "CZ",
+  "documentedIntroductionYear": 1990,
+  "yearMeaning": "First statutory designation verified in Act 167/1990; not the beginning of the religious tradition",
+  "authority": "Federal Assembly of the Czech and Slovak Federative Republic (1990); Parliament of the Czech Republic (2000)",
+  "dateReason": "July 5 is explicitly designated by both laws; the legislative texts do not explain why this particular calendar date was selected",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/sb/1990/167",
+      "claim": "Act 167/1990, effective 10 May 1990, §1 declares 5 July a state holiday honoring Cyril and Methodius"
+    },
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Act 245/2000 §1 retains 5 July as a Czech national holiday; §5 repeals Act 167/1990"
+    }
+  ],
+  "narratives": {
+    "en": "Every 5 July, the Czech Republic marks the Day of the Slavic Missionaries Cyril and Methodius. The holiday honors the two figures associated with the spread of Christianity and Slavic literacy in Great Moravia. Its modern legal history is distinct from that older tradition: a Czechoslovak law effective on 10 May 1990 declared 5 July a state holiday, and Czech Act 245/2000 retained the date after the federation's dissolution. The statutes establish the holiday's legal status, but do not explain the original choice of 5 July.",
+    "it": "Ogni 5 luglio la Repubblica Ceca celebra la Giornata dei missionari slavi Cirillo e Metodio, legata alla diffusione del cristianesimo e della cultura scritta slava nella Grande Moravia. La tradizione storica è più antica del suo riconoscimento giuridico moderno: una legge cecoslovacca in vigore dal 10 maggio 1990 dichiarò il 5 luglio festa nazionale, poi confermata dalla legge ceca 245/2000. I testi legislativi attestano la data e lo status della festa, ma non spiegano l'origine della scelta del 5 luglio.",
+    "es": "Cada 5 de julio, Chequia celebra el Día de los Misioneros Eslavos Cirilo y Metodio, vinculados a la expansión del cristianismo y de la cultura escrita eslava en la Gran Moravia. La tradición es mucho más antigua que su reconocimiento jurídico moderno: una ley checoslovaca vigente desde el 10 de mayo de 1990 declaró festivo nacional el 5 de julio, fecha mantenida por la ley checa 245/2000. Ambas normas confirman la fecha y el carácter oficial, pero no explican por qué se eligió originalmente ese día.",
+    "fr": "Chaque 5 juillet, la Tchéquie célèbre la Journée des missionnaires slaves Cyrille et Méthode, associés à la diffusion du christianisme et de la culture écrite slave en Grande-Moravie. Cette tradition précède largement sa reconnaissance juridique moderne : une loi tchécoslovaque entrée en vigueur le 10 mai 1990 a fait du 5 juillet une fête nationale, maintenue ensuite par la loi tchèque 245/2000. Ces textes confirment la date et le statut officiel, sans expliquer le choix initial du 5 juillet.",
+    "de": "Am 5. Juli begeht Tschechien den Tag der slawischen Glaubensboten Kyrill und Method. Die beiden stehen für die Verbreitung des Christentums und der slawischen Schriftkultur in Großmähren. Die historische Tradition ist wesentlich älter als ihre moderne gesetzliche Anerkennung: Ein am 10. Mai 1990 in Kraft getretenes tschechoslowakisches Gesetz erklärte den 5. Juli zum Staatsfeiertag; das tschechische Gesetz 245/2000 behielt ihn bei. Die Gesetze belegen Datum und Status, erläutern aber nicht die ursprüngliche Wahl des 5. Juli.",
+    "pt": "Em 5 de julho, a Chéquia assinala o Dia dos Missionários Eslavos Cirilo e Metódio, associados à difusão do cristianismo e da cultura escrita eslava na Grande Morávia. A tradição é muito anterior ao seu reconhecimento jurídico moderno: uma lei checoslovaca em vigor desde 10 de maio de 1990 declarou 5 de julho feriado nacional, posteriormente mantido pela lei checa 245/2000. Os diplomas confirmam a data e o estatuto oficial, mas não explicam a escolha original de 5 de julho."
+  },
+  "runtimeRichEditorialApproved": false
+}

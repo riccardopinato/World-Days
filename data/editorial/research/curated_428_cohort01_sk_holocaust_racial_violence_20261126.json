@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-holocaust-and-racial-violence-victims-memorial-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-09",
+  "country": "SK",
+  "documentedIntroductionYear": 2001,
+  "yearMeaning": "2001 is the year of formal Slovak parliamentary recognition according to the Slovak foreign ministry; 1941 is the year of the wartime Jewish Code, not the introduction of the commemorative day. Some secondary OSCE reports give 2000, so the parliamentary enactment chronology merits a later legislative cross-check.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "The wartime Slovak government adopted the anti-Jewish decree known as the Jewish Code on 9 September 1941.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mzv.sk/sk/web/sk/diplomacia/ludske-prava/medzinarodna-aliancia-pre-pripominanie-holokaustu",
+      "claim": "Slovak Ministry of Foreign Affairs confirms the parliamentary designation in 2001, the September 1941 Jewish Code connection and educational commemorations."
+    },
+    {
+      "url": "https://2021-2025.state.gov/reports/just-act-report-to-congress/slovakia/",
+      "claim": "US State Department historical report independently confirms 1941 Code, 2001 parliamentary memorial designation, and deportations."
+    },
+    {
+      "url": "https://odihr.osce.org/sites/default/files/f/documents/e/7/463938_3.pdf",
+      "claim": "OSCE/ODIHR describes the remembrance of Jewish, Roma and Sinti victims; its 2000 establishment dating differs from the Slovak ministry and needs legislative reconciliation."
+    }
+  ],
+  "narratives": {
+    "en": "On 9 September Slovakia commemorates the victims of the Holocaust and racial violence. The date recalls 9 September 1941, when the wartime Slovak government adopted the so-called Jewish Code, a decree stripping Jewish people of fundamental rights and deepening their exclusion from public life. Persecution escalated into deportations and mass murder. Slovakia's parliament formally established this national remembrance in 2001. The observance also honours Roma and Sinti victims and encourages education against antisemitism, racism and persecution.",
+    "it": "Il 9 settembre la Slovacchia ricorda le vittime dell'Olocausto e della violenza razziale. La data rimanda al 9 settembre 1941, quando il governo slovacco del periodo bellico adottò il cosiddetto Codice ebraico, un decreto che privò gli ebrei di diritti fondamentali e aggravò la loro esclusione dalla vita pubblica. Le persecuzioni sfociarono in deportazioni e uccisioni di massa. Il Parlamento slovacco istituì formalmente la commemorazione nazionale nel 2001. La giornata onora anche le vittime rom e sinte e promuove l'educazione contro antisemitismo, razzismo e persecuzioni.",
+    "es": "El 9 de septiembre Eslovaquia recuerda a las víctimas del Holocausto y de la violencia racial. La fecha remite al 9 de septiembre de 1941, cuando el gobierno eslovaco de la época de guerra aprobó el llamado Código Judío, un decreto que privó a la población judía de derechos fundamentales y profundizó su exclusión de la vida pública. La persecución desembocó en deportaciones y asesinatos masivos. El Parlamento eslovaco estableció formalmente esta conmemoración nacional en 2001. La jornada también honra a las víctimas romaníes y sinti y fomenta la educación contra el antisemitismo, el racismo y la persecución.",
+    "fr": "Le 9 septembre, la Slovaquie rend hommage aux victimes de la Shoah et des violences raciales. Cette date rappelle le 9 septembre 1941, lorsque le gouvernement slovaque en temps de guerre adopta le « Code juif », un décret privant les Juifs de droits fondamentaux et renforçant leur exclusion de la vie publique. Les persécutions débouchèrent sur des déportations et des massacres. Le Parlement slovaque institua officiellement cette commémoration nationale en 2001. La journée honore également les victimes roms et sintis et encourage l'éducation contre l'antisémitisme, le racisme et les persécutions.",
+    "de": "Am 9. September gedenkt die Slowakei der Opfer des Holocaust und rassistischer Gewalt. Das Datum erinnert an den 9. September 1941, als die slowakische Kriegsregierung den sogenannten Judenkodex verabschiedete. Dieser Erlass entzog jüdischen Menschen grundlegende Rechte und verschärfte ihren Ausschluss aus dem öffentlichen Leben. Die Verfolgung mündete in Deportationen und Massenmord. Das slowakische Parlament führte den nationalen Gedenktag 2001 offiziell ein. Er erinnert auch an die Opfer unter Roma und Sinti und fördert die Aufklärung gegen Antisemitismus, Rassismus und Verfolgung.",
+    "pt": "A 9 de setembro, a Eslováquia homenageia as vítimas do Holocausto e da violência racial. A data recorda 9 de setembro de 1941, quando o governo eslovaco durante a guerra aprovou o chamado Código Judaico, um decreto que retirou direitos fundamentais aos judeus e aprofundou a sua exclusão da vida pública. A perseguição culminou em deportações e assassínios em massa. O Parlamento eslovaco instituiu formalmente esta comemoração nacional em 2001. O dia homenageia também as vítimas roma e sinti e promove a educação contra o antissemitismo, o racismo e a perseguição."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-ludovit-stur-birthday",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-29",
+  "country": "SK",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "1815 is Ľudovít Štúr's birth year, not the institution year. The statutory civic memorial is confirmed in Act 241/1993 §3(u), current 29 October 2026 consolidation; an earlier official statutory version from 1998 also lists it. The precise initial legislative introduction and first celebration have not been independently established.",
+  "authority": "National Council of the Slovak Republic (Act 241/1993 §3(u))",
+  "dateReason": "29 October is the legally designated civic memorial day for the birth of Ľudovít Štúr; his historical birth date was 28 October 1815. Do not conflate this memorial with the separate 28 October Czechoslovak statehood holiday.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/241/20261029.print.html",
+      "claim": "Current Slov-Lex statutory consolidation §3(u) expressly lists 29 October, Deň narodenia Ľudovíta Štúra, as a Slovak memorial day; §1(e) separately lists 28 October as the founding day of the Czecho-Slovak state."
+    },
+    {
+      "url": "https://static.slov-lex.sk/pdf/SK/ZZ/1993/241/ZZ_1993_241_19980701.pdf",
+      "claim": "Historical 1998 Slov-Lex text §3(l) already lists 29 October as Deň narodenia Ľudovíta Štúra, establishing recognition by 1998 without establishing the first commemoration."
+    }
+  ],
+  "narratives": {
+    "en": "Slovakia marks 29 October as a statutory memorial day dedicated to Ľudovít Štúr, a central figure in the Slovak national revival and the development of literary Slovak. Although the name refers to his birth, this is not merely a private birthday entry: section 3 of Act 241/1993 explicitly recognizes it as a civic day of remembrance. Štúr was born in 1815; that date is not the year the observance was established. The exact first celebration remains unverified. The 29 October memorial must also be distinguished from the separate 28 October Czechoslovak statehood holiday.",
+    "it": "Il 29 ottobre la Slovacchia dedica una giornata commemorativa ufficiale a Ľudovít Štúr, figura del risveglio nazionale slovacco e dello sviluppo della lingua letteraria slovacca. Benché il nome richiami la sua nascita, non si tratta di un semplice compleanno biografico: l'articolo 3 della legge 241/1993 riconosce espressamente la ricorrenza come giornata civica. Štúr nacque nel 1815, anno che non indica l'istituzione della commemorazione. La prima celebrazione non è accertata. La giornata del 29 ottobre è distinta dalla festa statale cecoslovacca del 28 ottobre.",
+    "es": "El 29 de octubre, Eslovaquia dedica una jornada conmemorativa oficial a Ľudovít Štúr, figura del renacimiento nacional eslovaco y del desarrollo de la lengua literaria eslovaca. Aunque su nombre alude al nacimiento, no es una simple efeméride privada: el artículo 3 de la Ley 241/1993 la reconoce expresamente como día cívico de memoria. Štúr nació en 1815, año que no corresponde a la creación de la conmemoración. La primera celebración no está documentada. El 29 de octubre es distinto de la festividad estatal checoslovaca del día 28.",
+    "fr": "Le 29 octobre, la Slovaquie consacre une journée commémorative officielle à Ľudovít Štúr, acteur du renouveau national slovaque et de l'élaboration de la langue littéraire slovaque. Malgré la référence à sa naissance, il ne s'agit pas d'un simple anniversaire privé : l'article 3 de la loi 241/1993 reconnaît expressément cette date comme journée civique de mémoire. Štúr est né en 1815, année qui n'est pas celle de l'institution de la commémoration. La première célébration n'est pas établie. Le 29 octobre se distingue de la fête d'État tchécoslovaque du 28 octobre.",
+    "de": "Die Slowakei begeht am 29. Oktober einen gesetzlich anerkannten Gedenktag für Ľudovít Štúr, eine Schlüsselfigur der slowakischen Nationalbewegung und der Entwicklung der slowakischen Schriftsprache. Obwohl der Name auf seine Geburt verweist, handelt es sich nicht bloß um einen privaten Geburtstag: § 3 des Gesetzes 241/1993 nennt den Tag ausdrücklich als staatlichen Gedenktag. Štúr wurde 1815 geboren; dieses Jahr ist nicht das Einführungsjahr des Gedenktags. Wann die erste Feier stattfand, ist nicht belegt. Der 29. Oktober ist vom tschechoslowakischen Staatsgründungstag am 28. Oktober zu unterscheiden.",
+    "pt": "A 29 de outubro, a Eslováquia assinala um dia oficial de memória dedicado a Ľudovít Štúr, figura do renascimento nacional eslovaco e do desenvolvimento da língua literária eslovaca. Embora o nome remeta para o nascimento, não é apenas um aniversário privado: o artigo 3.º da Lei 241/1993 reconhece expressamente a data como comemoração cívica. Štúr nasceu em 1815, ano que não corresponde à instituição da efeméride. A primeira celebração não está comprovada. O dia 29 de outubro distingue-se do feriado de fundação do Estado checoslovaco, a 28 de outubro."
+  },
+  "runtimeRichEditorialApproved": false
+}

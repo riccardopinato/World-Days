@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-czech-families-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-15",
+  "country": "CZ",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The current amended Act 245/2000 names 15 May as a significant day, but the original amendment introducing this entry has not been verified; 2000 is not assumed to be its establishment year.",
+  "authority": "Parliament of the Czech Republic, Act 245/2000 §4 as amended",
+  "dateReason": "The current statutory list explicitly designates 15 May as Den rodin; the cited statute does not independently document the historical rationale for selecting this date.",
+  "sourceEvidence": [
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Current consolidated Act 245/2000 §4 lists 15 May — Den rodin among Czech significant days; §4(2) clarifies that significant days remain working days unless separately holidays."
+    },
+    {
+      "url": "https://e-sbirka.gov.cz/eli/cz/sb/2000/245/2026-05-13",
+      "claim": "Official Czech legislative text confirms the statutory framework for significant days; the original amending act establishing Den rodin still requires historical verification."
+    }
+  ],
+  "narratives": {
+    "en": "Czech Families Day falls on 15 May. Czech Act 245/2000, in its amended form, lists Den rodin among the country's significant civic days rather than its public holidays; these significant days normally remain working days. The law confirms the current observance and its date, but this research has not established which amendment first introduced Families Day or why lawmakers chose 15 May. Its establishment year therefore remains unknown.",
+    "it": "La Giornata delle famiglie in Cechia ricorre il 15 maggio. La legge ceca 245/2000, nel testo modificato, include Den rodin fra le giornate civiche significative e non fra le festività nazionali: normalmente restano giorni lavorativi. La legge conferma la ricorrenza e la data, ma questa ricerca non ha ancora individuato l'emendamento che la introdusse per primo né il motivo della scelta del 15 maggio. L'anno di istituzione rimane quindi sconosciuto.",
+    "es": "El Día de las Familias en Chequia se celebra el 15 de mayo. La Ley checa 245/2000, en su versión modificada, incluye Den rodin entre los días cívicos significativos y no entre los festivos nacionales; normalmente son días laborables. La ley confirma la fecha y el reconocimiento actual, pero esta investigación no ha identificado todavía la reforma que introdujo la jornada ni la razón de elegir el 15 de mayo. Por ello, su año de instauración sigue sin determinarse.",
+    "fr": "La Journée des familles en Tchéquie a lieu le 15 mai. La loi tchèque 245/2000, dans sa version modifiée, classe Den rodin parmi les journées civiques significatives et non parmi les jours fériés ; ce sont normalement des jours ouvrés. La loi confirme la date et la reconnaissance actuelle, mais cette recherche n'a pas établi quel amendement a instauré la journée ni pourquoi le 15 mai a été choisi. L'année de création reste donc inconnue.",
+    "de": "Der tschechische Tag der Familien findet am 15. Mai statt. Das geänderte Gesetz 245/2000 führt Den rodin als bedeutsamen Gedenktag und nicht als gesetzlichen Feiertag; solche Tage sind grundsätzlich Arbeitstage. Das Gesetz bestätigt die heutige Anerkennung und das Datum. Welche Gesetzesänderung den Tag erstmals einführte und warum der 15. Mai gewählt wurde, konnte diese Recherche jedoch nicht belegen. Das Einführungsjahr bleibt daher unbekannt.",
+    "pt": "O Dia das Famílias na Chéquia assinala-se a 15 de maio. A Lei checa 245/2000, na redação alterada, inclui Den rodin entre os dias cívicos significativos, não entre os feriados nacionais; normalmente são dias úteis. A lei confirma a data e o reconhecimento atual, mas esta investigação ainda não identificou a alteração legislativa que instituiu a jornada nem o motivo da escolha de 15 de maio. O ano de instituição permanece, por isso, desconhecido."
+  },
+  "runtimeRichEditorialApproved": false
+}

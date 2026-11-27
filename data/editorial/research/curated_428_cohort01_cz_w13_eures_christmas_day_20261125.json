@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-w13-eures-christmas-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-25",
+  "country": "CZ",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Czech Act 245/2000 lists 25 December as the first Christmas holiday; 2000 dates this statutory framework, not the origin of Christmas.",
+  "authority": "Parliament of the Czech Republic",
+  "dateReason": "25 December is the traditional date of Christmas Day in the Western Christian calendar; Czech law designates it the first Christmas holiday.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245",
+      "claim": "Act 245/2000 section 2 lists 25 December as the first Christmas holiday (1. svátek vánoční)."
+    },
+    {
+      "url": "https://eures.europa.eu/eures-services/chat-eures-advisers/public-holidays-calendar_en",
+      "claim": "European Commission EURES country holiday calendar independently indexes the Czech holiday; it is a secondary calendar source."
+    }
+  ],
+  "narratives": {
+    "en": "In Czechia, 25 December is the First Christmas Holiday (první svátek vánoční), a public holiday following Christmas Eve on 24 December. It belongs to the Christian Christmas season commemorating the birth of Jesus, while Czech celebrations also involve family visits and time together. Czech Act 245/2000 expressly lists 25 December among the country's other public holidays. The year 2000 identifies the legal codification, not the beginning of Christmas observance.",
+    "it": "In Cechia il 25 dicembre è il primo giorno festivo di Natale (první svátek vánoční), successivo alla vigilia del 24 dicembre. Fa parte del periodo natalizio cristiano che commemora la nascita di Gesù, ma è anche un'occasione per incontrare familiari e trascorrere tempo insieme. La legge ceca 245/2000 include espressamente il 25 dicembre tra le festività pubbliche. Il 2000 indica la codificazione legislativa, non l'inizio della celebrazione del Natale.",
+    "es": "En Chequia, el 25 de diciembre es el primer festivo de Navidad (první svátek vánoční), después de la Nochebuena del 24 de diciembre. Forma parte del tiempo navideño cristiano que conmemora el nacimiento de Jesús y también es una ocasión para reunirse con familiares. La Ley checa 245/2000 incluye expresamente el 25 de diciembre entre los días festivos. El año 2000 corresponde a esa codificación legal, no al comienzo de la celebración de la Navidad.",
+    "fr": "En Tchéquie, le 25 décembre est le premier jour férié de Noël (první svátek vánoční), après le réveillon du 24 décembre. Il s'inscrit dans la période chrétienne de Noël, qui commémore la naissance de Jésus, et constitue aussi un moment de retrouvailles familiales. La loi tchèque 245/2000 inscrit expressément le 25 décembre parmi les jours fériés. L'année 2000 désigne cette codification juridique, et non le début de la célébration de Noël.",
+    "de": "In Tschechien ist der 25. Dezember der erste Weihnachtsfeiertag (první svátek vánoční), der auf Heiligabend am 24. Dezember folgt. Er gehört zur christlichen Weihnachtszeit, in der an die Geburt Jesu erinnert wird, und bietet zugleich Gelegenheit für Familienbesuche. Das tschechische Gesetz 245/2000 führt den 25. Dezember ausdrücklich als gesetzlichen Feiertag auf. Das Jahr 2000 bezeichnet diese gesetzliche Regelung, nicht den Beginn des Weihnachtsfestes.",
+    "pt": "Na Chéquia, 25 de dezembro é o primeiro feriado de Natal (první svátek vánoční), depois da véspera de Natal, a 24 de dezembro. Integra o período natalício cristão, que recorda o nascimento de Jesus, e é também uma ocasião para convívios familiares. A Lei checa 245/2000 inclui expressamente 25 de dezembro entre os feriados. O ano 2000 refere-se a essa codificação legal, não ao início das celebrações do Natal."
+  },
+  "runtimeRichEditorialApproved": false
+}

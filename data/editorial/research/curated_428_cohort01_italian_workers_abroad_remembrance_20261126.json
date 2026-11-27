@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-workers-abroad-remembrance",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-08",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Italian governmental list identifies 8 August as National Day of the Sacrifice of Italian Work in the World."
+    }
+  ],
+  "narratives": {
+    "en": "Italy observes 8 August as a remembrance of Italians who died while working abroad. The date is associated with the Marcinelle mining disaster in Belgium in 1956, when many Italian migrant miners were among the victims. The occasion reflects on workplace safety, migration and the human cost of labor. Italy's national calendar confirms the annual date. The disaster's year is not automatically the year of legal institution of the remembrance.",
+    "it": "L'8 agosto l'Italia ricorda il sacrificio dei lavoratori italiani nel mondo. La data è legata alla tragedia mineraria di Marcinelle, in Belgio, nel 1956, nella quale morirono numerosi emigrati italiani. La giornata invita a riflettere su sicurezza sul lavoro, migrazioni e costo umano del lavoro. Il calendario nazionale conferma la ricorrenza annuale. L'anno della tragedia non coincide necessariamente con quello dell'istituzione legale.",
+    "es": "El 8 de agosto Italia recuerda a los trabajadores italianos fallecidos en el extranjero. La fecha se asocia a la tragedia minera de Marcinelle, en Bélgica, en 1956, en la que murieron numerosos emigrantes italianos. La jornada invita a reflexionar sobre seguridad laboral, migración y el coste humano del trabajo. El calendario nacional confirma la fecha anual. El año del desastre no equivale automáticamente al de creación legal del recuerdo.",
+    "fr": "Le 8 août, l'Italie rend hommage aux travailleurs italiens morts à l'étranger. Cette date évoque la catastrophe minière de Marcinelle, en Belgique, en 1956, qui coûta la vie à de nombreux mineurs italiens expatriés. La journée invite à réfléchir à la sécurité au travail, aux migrations et au coût humain du travail. Le calendrier national confirme la date. L'année du drame ne correspond pas nécessairement à la création juridique de la commémoration.",
+    "de": "Am 8. August gedenkt Italien seiner im Ausland ums Leben gekommenen Arbeiter. Der Tag erinnert an das Grubenunglück von Marcinelle in Belgien im Jahr 1956, bei dem zahlreiche italienische Migranten starben. Er regt zum Nachdenken über Arbeitssicherheit, Migration und den menschlichen Preis der Arbeit an. Der nationale Kalender bestätigt das Datum. Das Unglücksjahr ist nicht automatisch das Jahr der gesetzlichen Einführung.",
+    "pt": "Em 8 de agosto, a Itália recorda os trabalhadores italianos que morreram no estrangeiro. A data está ligada à tragédia mineira de Marcinelle, na Bélgica, em 1956, que vitimou muitos mineiros emigrantes italianos. A jornada convida à reflexão sobre segurança laboral, migração e custo humano do trabalho. O calendário nacional confirma o dia anual. O ano da tragédia não corresponde necessariamente ao da instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-evacuees-day-in-finland",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-20",
+  "country": "FI",
+  "documentedIntroductionYear": 2025,
+  "yearMeaning": "2025 is the first annual Evacuee Flag Day organized by Karjalan Liitto, not the founding year of the association (1940) or the first Finnish wartime evacuation. The Finnish Interior Ministry recommended nationwide flag-flying in 2026; this is not an established statutory public holiday.",
+  "authority": "Karjalan Liitto (initiator); Finnish Ministry of the Interior (2026 flag recommendation)",
+  "dateReason": "20 April is the anniversary of Karjalan Liitto's foundation on 20 April 1940, chosen by the initiator as the annual date for remembering wartime evacuees.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.karjalanliitto.fi/karjalan-liitto/karjalan-liiton-toiminta/evakkojen-liputuspaiva.html",
+      "claim": "Initiating organization confirms the first annual Evacuee Flag Day on 20 April 2025, the founding-date rationale, and the distinction from official flag days."
+    },
+    {
+      "url": "https://valtioneuvosto.fi/-/1410869/maanantaina-20.4.-liputetaan-evakkojen-kunniaksi",
+      "claim": "Finnish Ministry of the Interior announcement dated 16 December 2025 recommends nationwide flag flying on 20 April 2026, links the date to Karjalan Liitto founded in 1940, and describes the commemoration."
+    },
+    {
+      "url": "https://www.kuntaliitto.fi/ajankohtaista/2026/kuntaliitto-kutsuu-kuntia-liputtamaan-evakkojen-liputuspaivana-2042026",
+      "claim": "Association of Finnish Local and Regional Authorities confirms that observance began in spring 2025 at Karjalan Liitto's initiative and municipalities were invited to participate in 2026."
+    }
+  ],
+  "narratives": {
+    "en": "On 20 April, Finland remembers people who had to leave their homes because of war. Karjalan Liitto initiated the annual Evacuee Flag Day in 2025, choosing the anniversary of its own foundation on 20 April 1940. The remembrance includes families permanently displaced from ceded territories and those evacuated temporarily during the Second World War. In 2026 the Finnish Ministry of the Interior recommended flag-flying across the country. This recommendation did not turn the observance into a statutory public holiday.",
+    "it": "Il 20 aprile la Finlandia ricorda le persone costrette ad abbandonare la propria casa a causa della guerra. Karjalan Liitto ha promosso per la prima volta la Giornata della bandiera degli sfollati nel 2025, scegliendo l'anniversario della propria fondazione, avvenuta il 20 aprile 1940. La ricorrenza rende omaggio sia a chi perse definitivamente la propria terra sia a chi fu evacuato temporaneamente durante la Seconda guerra mondiale. Nel 2026 il Ministero dell'Interno ha raccomandato l'esposizione delle bandiere, senza trasformare la giornata in una festività legale.",
+    "es": "Cada 20 de abril, Finlandia recuerda a quienes tuvieron que abandonar sus hogares a causa de la guerra. Karjalan Liitto impulsó por primera vez el Día de la Bandera de los Evacuados en 2025 y eligió el aniversario de su fundación, el 20 de abril de 1940. La conmemoración honra tanto a las familias desplazadas definitivamente de los territorios cedidos como a quienes fueron evacuados temporalmente durante la Segunda Guerra Mundial. En 2026, el Ministerio del Interior recomendó izar la bandera en todo el país, sin convertir la fecha en un festivo legal.",
+    "fr": "Le 20 avril, la Finlande rend hommage aux personnes contraintes de quitter leur foyer à cause de la guerre. L'association Karjalan Liitto a lancé la Journée du drapeau des évacués en 2025, en choisissant l'anniversaire de sa fondation, le 20 avril 1940. Cette commémoration concerne les familles définitivement déplacées des territoires cédés ainsi que celles évacuées temporairement pendant la Seconde Guerre mondiale. En 2026, le ministère finlandais de l'Intérieur a recommandé le pavoisement dans tout le pays, sans faire de cette journée un jour férié légal.",
+    "de": "Am 20. April erinnert Finnland an Menschen, die wegen des Krieges ihre Heimat verlassen mussten. Der Verband Karjalan Liitto rief den jährlichen Beflaggungstag für Evakuierte 2025 ins Leben und wählte dafür seinen eigenen Gründungstag, den 20. April 1940. Gewürdigt werden sowohl Familien, die aus abgetretenen Gebieten dauerhaft vertrieben wurden, als auch Menschen, die während des Zweiten Weltkriegs vorübergehend evakuiert werden mussten. Für 2026 empfahl das finnische Innenministerium landesweite Beflaggung; ein gesetzlicher arbeitsfreier Feiertag entstand dadurch nicht.",
+    "pt": "A 20 de abril, a Finlândia recorda as pessoas obrigadas a abandonar as suas casas por causa da guerra. A associação Karjalan Liitto iniciou o Dia da Bandeira dos Evacuados em 2025, escolhendo o aniversário da sua fundação, em 20 de abril de 1940. A homenagem abrange famílias deslocadas permanentemente dos territórios cedidos e pessoas evacuadas temporariamente durante a Segunda Guerra Mundial. Em 2026, o Ministério do Interior finlandês recomendou o hastear da bandeira em todo o país, sem transformar a data num feriado legal."
+  },
+  "runtimeRichEditorialApproved": false
+}
