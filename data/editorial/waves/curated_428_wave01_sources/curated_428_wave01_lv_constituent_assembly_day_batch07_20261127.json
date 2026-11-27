@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-constituent-assembly-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original year of statutory establishment not proven by cited institutional material.",
+  "authority": "Latvian Ministry of Foreign Affairs / Latvian public holidays law",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gov.lv/en/11-national-hollidays-and-remembrance-days",
+      "claim": "Latvian foreign ministry describes 1 May as convocation of the Republic's Constituent Assembly.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://likumi.lv/ta/en/en/id/72608-on-holidays-remembrance-and-celebration-days",
+      "claim": "Latvian law explicitly lists 1 May as Labour Day and Day of the Convocation of the Constitutional Assembly.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia marks the convocation of its Constituent Assembly on 1 May, recalling the first meeting of the elected assembly in 1920. The body laid foundations for the country's parliamentary and constitutional order after independence. The date is now shared with Labour Day on the official holiday calendar. The founding of the assembly does not establish when the modern holiday was first enacted.",
+    "it": "Il 1° maggio la Lettonia ricorda la convocazione dell'Assemblea costituente, riunitasi per la prima volta nel 1920. L'organo eletto contribuì a definire le basi dell'ordinamento parlamentare e costituzionale dopo l'indipendenza. La data coincide oggi con la Festa del lavoro. L'evento storico non indica quando la festività moderna venne istituita.",
+    "es": "Letonia recuerda el 1 de mayo la convocatoria de su Asamblea Constituyente, reunida por primera vez en 1920. El órgano elegido contribuyó a establecer las bases del sistema parlamentario y constitucional después de la independencia. La fecha coincide hoy con el Día del Trabajo. El acontecimiento de 1920 no determina cuándo se creó legalmente el festivo actual.",
+    "fr": "La Lettonie commémore le 1er mai la convocation de son Assemblée constituante, réunie pour la première fois en 1920. Cette institution élue posa les bases du système parlementaire et constitutionnel après l'indépendance. La date est aujourd'hui partagée avec la fête du Travail. L'événement historique ne prouve pas l'année de création juridique du jour férié.",
+    "de": "Lettland erinnert am 1. Mai an die Einberufung seiner Verfassunggebenden Versammlung, die 1920 erstmals zusammentrat. Das gewählte Gremium schuf Grundlagen der parlamentarischen und verfassungsrechtlichen Ordnung nach der Unabhängigkeit. Der Tag fällt heute mit dem Tag der Arbeit zusammen. Das Ereignisjahr ist nicht automatisch das gesetzliche Einführungsjahr.",
+    "pt": "A Letónia assinala em 1 de maio a convocação da Assembleia Constituinte, reunida pela primeira vez em 1920. O órgão eleito lançou bases da ordem parlamentar e constitucional após a independência. A data coincide atualmente com o Dia do Trabalhador no calendário oficial. O ano histórico não demonstra quando o feriado moderno foi legalmente criado."
+  },
+  "runtimeRichEditorialApproved": false
+}

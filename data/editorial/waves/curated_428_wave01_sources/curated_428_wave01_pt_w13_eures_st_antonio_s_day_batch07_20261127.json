@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pt-w13-eures-st-antonio-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-13",
+  "country": "PT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original year of statutory establishment not proven by cited institutional material.",
+  "authority": "Portuguese Government / Visit Lisboa",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.pt/locais-de-atendimento/espaco-cidadao-de-santo-antonio",
+      "claim": "Portuguese government marks 13 June as the municipal public holiday of Lisbon.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.visitlisboa.com/en/events/st-anthonys-night-12-13th-june",
+      "claim": "Lisbon's official tourism portal describes popular marches, neighbourhood street parties and grilled sardines on 12–13 June.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lisbon celebrates Saint Anthony on 13 June, its municipal holiday, with festivities that begin the previous evening. Popular marches, neighbourhood street parties, grilled sardines and basil pots are characteristic of the city's June celebrations. This is a local holiday, not a nationwide public holiday throughout Portugal. Its earliest statutory introduction year is not established by the cited calendar.",
+    "it": "Il 13 giugno Lisbona festeggia sant'Antonio, nella giornata di festa municipale, con celebrazioni che iniziano già la sera precedente. Sfilate popolari, feste di quartiere, sardine alla griglia e piantine di basilico animano la città. È una festività locale e non un giorno festivo nazionale in tutto il Portogallo. La prima istituzione legislativa non è documentata qui.",
+    "es": "Lisboa celebra a San Antonio el 13 de junio como fiesta municipal, con festejos que empiezan la noche anterior. Desfiles populares, fiestas de barrio, sardinas asadas y macetas de albahaca llenan sus calles. Es un festivo local, no una jornada no laborable en todo Portugal. Las fuentes citadas no establecen el año de su primera declaración legal.",
+    "fr": "Lisbonne célèbre saint Antoine le 13 juin, jour férié municipal, avec des festivités dès la veille. Défilés populaires, fêtes de quartier, sardines grillées et pots de basilic animent la ville. Il s'agit d'une fête locale, et non d'un jour férié national dans tout le Portugal. Les sources ne précisent pas l'année de sa première création juridique.",
+    "de": "Lissabon feiert den heiligen Antonius am 13. Juni als kommunalen Feiertag; die Feste beginnen bereits am Vorabend. Volksumzüge, Straßenfeste in den Vierteln, gegrillte Sardinen und Basilikumtöpfe prägen das Stadtbild. Es handelt sich nicht um einen landesweiten Feiertag Portugals. Das erste gesetzliche Einführungsjahr geht aus den Quellen nicht hervor.",
+    "pt": "Lisboa celebra Santo António em 13 de junho, feriado municipal, com festas que começam na véspera. Marchas populares, arraiais nos bairros, sardinhas assadas e vasos de manjerico marcam as comemorações. É um feriado local, não um dia feriado nacional em todo o Portugal. As fontes citadas não indicam o ano da sua primeira instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}
