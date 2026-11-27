@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH16",
+  "factoryBaseline": "9bec235b319963bc05f3c3c4d95d0f6b267bb309",
+  "sourceMain": "1ff44f526c8bba885dba30a5d2c2f5cc97850b64",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Seven genuinely new original six-language government-scoped national-day histories, including historical/legal distinction in AT BE BG LU MX NL SG, with pinned Git blob SHAs. Excludes already-rich older cohort03 original dossiers. Per-ID HOLD and exact six-locale year parity; no human expert certificate.",
+  "humanCertified": false,
+  "cohort": 3,
+  "alreadyIntegratedBeforeBatch16": 204,
+  "proposedBatch16": 7,
+  "records": [
+    {
+      "id": "at-dfat-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_at_dfat_national_day_batch16_20261127.json",
+      "sourceBlobSha": "34d7d8d1ff700ff855401540509cea2b24bb42e6",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "be-dfat-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_be_dfat_national_day_batch16_20261127.json",
+      "sourceBlobSha": "ae3065b36205f3c41df4af8e32c72628aa417656",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "bg-dfat-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_bg_dfat_national_day_batch16_20261127.json",
+      "sourceBlobSha": "68bbc52474881f89c303267c0c5e90787b9534c3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lu-w13-eures-europe-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lu_w13_eures_europe_day_batch16_20261127.json",
+      "sourceBlobSha": "458bc59b2dc7c77ec40b1a3c42c117c02c5bf707",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mexico-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mexico_independence_day_batch16_20261127.json",
+      "sourceBlobSha": "5bb01c32c96e205e780e94636550e0147ea7204e",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "nl-liberation-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_nl_liberation_day_batch16_20261127.json",
+      "sourceBlobSha": "2ef37b3d5116a9152fa17ebeb4041747ebf55d84",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "sg-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_sg_national_day_batch16_20261127.json",
+      "sourceBlobSha": "e72f22a171e8f5744cb85eb240311c40f92b8ef3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

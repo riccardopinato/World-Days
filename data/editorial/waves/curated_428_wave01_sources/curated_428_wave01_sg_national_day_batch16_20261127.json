@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "sg-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-09",
+  "country": "SG",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical years in narrative describe the event; first designation year not established here.",
+  "authority": "Attorney-General's Chambers Singapore / National Archives",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://sso.agc.gov.sg/Act/RSIA1965",
+      "claim": "The Republic of Singapore Independence Act 1965 has effect from 9 August 1965, when Singapore became independent from Malaysia.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Singapore celebrates National Day on 9 August, the date it became an independent republic in 1965 after separating from Malaysia. The Republic of Singapore Independence Act legally records the change in sovereignty. Parades, community gatherings and public messages recall how the new nation began building its own institutions and a shared future.",
+    "it": "Singapore celebra la Festa nazionale il 9 agosto, giorno in cui nel 1965 divenne una repubblica indipendente dopo la separazione dalla Malaysia. La legge sull'indipendenza documenta il cambiamento di sovranità. Sfilate, incontri comunitari e messaggi pubblici ricordano la nascita delle nuove istituzioni e la costruzione di un futuro comune.",
+    "es": "Singapur celebra el Día Nacional el 9 de agosto, fecha en que se convirtió en república independiente en 1965 tras separarse de Malasia. La ley de independencia registra el cambio de soberanía. Desfiles, reuniones comunitarias y mensajes públicos recuerdan el comienzo de las instituciones propias y la construcción de un futuro compartido.",
+    "fr": "Singapour célèbre sa fête nationale le 9 août, jour où la cité-État devint une république indépendante en 1965 après sa séparation de la Malaisie. La loi sur l'indépendance atteste le changement de souveraineté. Défilés et rassemblements rappellent la naissance des institutions nationales et la construction d'un avenir commun.",
+    "de": "Singapur feiert seinen Nationalfeiertag am 9. August, dem Tag der Unabhängigkeit als Republik im Jahr 1965 nach der Trennung von Malaysia. Das Unabhängigkeitsgesetz hält den Souveränitätswechsel fest. Paraden und Gemeinschaftsveranstaltungen erinnern an den Aufbau eigener staatlicher Institutionen und eine gemeinsame Zukunft.",
+    "pt": "Singapura celebra o Dia Nacional em 9 de agosto, data em que se tornou uma república independente em 1965 após a separação da Malásia. A lei de independência regista a mudança de soberania. Desfiles e encontros comunitários recordam a criação das instituições nacionais e a construção de um futuro partilhado."
+  },
+  "runtimeRichEditorialApproved": false
+}

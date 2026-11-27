@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "be-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-21",
+  "country": "BE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical years in narrative describe the event; first designation year not established here.",
+  "authority": "Belgian federal government",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.belgium.be/en/about_belgium/country/belgium_in_nutshell/symbols/national_holiday",
+      "claim": "Belgian federal government explains that National Day on 21 July recalls Leopold I taking the constitutional oath as Belgium's first king in 1831.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Belgium observes its National Day on 21 July, recalling the constitutional oath taken by Leopold I as the first king in 1831. The occasion marks a step in the formation of the independent Belgian state after its revolution. Celebrations bring together the country's communities with civic events and public ceremonies; the date commemorates an oath, not the monarch's birth.",
+    "it": "Il Belgio celebra la Festa nazionale il 21 luglio, anniversario del giuramento costituzionale prestato nel 1831 da Leopoldo I come primo re. L'evento rappresentò una tappa nella formazione dello Stato belga indipendente dopo la rivoluzione. Le celebrazioni riuniscono le comunità del paese con iniziative civiche e cerimonie: si ricorda un giuramento, non una nascita.",
+    "es": "Bélgica celebra su Fiesta Nacional el 21 de julio, recordando el juramento constitucional de Leopoldo I como primer rey en 1831. El acto marcó una etapa en la construcción del Estado belga independiente tras la revolución. Las celebraciones reúnen a sus comunidades con actos cívicos y ceremonias; se conmemora un juramento, no un nacimiento.",
+    "fr": "La Belgique célèbre sa fête nationale le 21 juillet, date du serment constitutionnel prêté par Léopold Ier, premier roi du pays, en 1831. Cet acte marqua une étape de la création de l'État belge indépendant après la révolution. Les communautés se retrouvent lors de cérémonies civiques : la journée rappelle un serment, non une naissance.",
+    "de": "Belgien begeht seinen Nationalfeiertag am 21. Juli und erinnert an den Verfassungseid, den Leopold I. als erster König im Jahr 1831 ablegte. Der Eid war ein wichtiger Schritt beim Aufbau des unabhängigen belgischen Staates nach der Revolution. Öffentliche Feiern verbinden die Gemeinschaften des Landes; geehrt wird ein Verfassungsakt, kein Geburtstag.",
+    "pt": "A Bélgica celebra o Dia Nacional em 21 de julho, recordando o juramento constitucional prestado por Leopoldo I como primeiro rei em 1831. O ato marcou uma etapa na formação do Estado belga independente após a revolução. As comunidades participam em cerimónias e eventos cívicos; a data assinala um juramento, não um nascimento."
+  },
+  "runtimeRichEditorialApproved": false
+}
