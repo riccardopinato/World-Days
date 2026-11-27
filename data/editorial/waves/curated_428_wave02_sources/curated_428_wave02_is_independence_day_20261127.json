@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "is-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-17",
+  "country": "IS",
+  "documentedIntroductionYear": 1944,
+  "yearMeaning": "Republic proclaimed on 17 June 1944; the date also commemorates Jón Sigurðsson's birthday, but the civic holiday concerns the republic.",
+  "authority": "United States Department of State, Office of the Historian",
+  "dateReason": "Republic proclaimed on 17 June 1944; the date also commemorates Jón Sigurðsson's birthday, but the civic holiday concerns the republic.",
+  "sourceEvidence": [
+    {
+      "url": "https://history.state.gov/countries/iceland",
+      "claim": "The US Office of the Historian confirms Iceland became an independent republic on 17 June 1944 after a plebiscite.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Iceland's National Day commemorates the founding of the republic on 17 June 1944. After the 1918 union arrangement with Denmark and a referendum during the Second World War, Iceland ended its remaining constitutional link to the Danish crown. The date also recalls independence advocate Jón Sigurðsson, but the civic celebration marks the establishment of the republic, not merely a personal birthday.",
+    "it": "La Festa nazionale islandese ricorda la nascita della repubblica il 17 giugno 1944. Dopo l'accordo di unione del 1918 con la Danimarca e un referendum durante la Seconda guerra mondiale, l'Islanda sciolse il legame costituzionale con la corona danese. La data ricorda anche Jón Sigurðsson, ma la ricorrenza civica celebra la repubblica, non soltanto un compleanno.",
+    "es": "La Fiesta Nacional de Islandia recuerda la fundación de la república el 17 de junio de 1944. Tras el acuerdo de unión de 1918 con Dinamarca y un referéndum durante la Segunda Guerra Mundial, el país rompió su vínculo constitucional con la corona danesa. La fecha también evoca a Jón Sigurðsson, pero la fiesta cívica celebra la república, no solo un cumpleaños.",
+    "fr": "La fête nationale islandaise commémore la fondation de la république le 17 juin 1944. Après l'union de 1918 avec le Danemark et un référendum pendant la Seconde Guerre mondiale, l'Islande mit fin à son lien constitutionnel avec la couronne danoise. La date rappelle aussi Jón Sigurðsson, mais la fête civique célèbre la république plutôt qu'un simple anniversaire personnel.",
+    "de": "Islands Nationalfeiertag erinnert an die Gründung der Republik am 17. Juni 1944. Nach dem Unionsvertrag von 1918 mit Dänemark und einer Volksabstimmung während des Zweiten Weltkriegs löste Island die letzte verfassungsrechtliche Bindung an die dänische Krone. Das Datum erinnert auch an Jón Sigurðsson, doch gefeiert wird die Republik, nicht bloß ein Geburtstag.",
+    "pt": "O Dia Nacional da Islândia recorda a fundação da república em 17 de junho de 1944. Após a união de 1918 com a Dinamarca e um referendo durante a Segunda Guerra Mundial, a Islândia encerrou o vínculo constitucional com a coroa dinamarquesa. A data também recorda Jón Sigurðsson, mas a celebração cívica assinala a república, não apenas um aniversário pessoal."
+  },
+  "runtimeRichEditorialApproved": false
+}
