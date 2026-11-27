@@ -35,7 +35,7 @@ def run():
     assert approval["proposedBatch18"]==4
     assert approval["cohort"]==3
     assert approval["sourceMain"]=="0133e51b8a4c14caa33be53f672b982bbe56b3f1"
-    assert approval["proposedBatch18"]==len(approval["records"])==5
+    assert approval["proposedBatch18"]==len(approval["records"])==4
     official=load(ASSETS/"official_core.json")
     assert len(official["records"])==947 and official["datasetVersion"]=="2026.11.27.19"
     catalog={r["id"]:r for r in official["records"]}
