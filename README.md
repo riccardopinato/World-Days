@@ -1,3 +1,13 @@
+## 27 novembre 2026 — Fast Track IA: due ricorrenze ceche con verifica della fonte primaria
+
+**PR #164 (proposta per main, non un rilascio):** due origini storiche individualmente revisionate dall'IA secondo App Factory Core v27 e verificate con fonti puntuali: l'adesione della Repubblica Ceca alla NATO il **12 marzo 1999** e all'Unione europea il **1° maggio 2004**. Il §4 della legge ceca 245/2000 riconosce entrambe le date come giornate civiche significative; la seconda coincide separatamente con la festa del Lavoro. Documenti, sei traduzioni e decisioni sono registrati nel ledger `data/editorial/reviews/curated_428_fasttrack_czech_civic_ai_review_20261127.json` con SHA dei dossier originali.
+
+**Conteggi attesi nella build della PR:** 947 schede in ciascuna delle sei lingue, **521 storie d'origine specifiche** (519 preesistenti + 2) e **426 schede contestuali** ancora da approfondire. Nessun nuovo ID; i 98 altri dossier della coorte 01 restano bozze nella PR #156. La verifica automatica dei 100 ID è distinta dalla revisione storico-fattuale. Nessuna certificazione umana dichiarata.
+
+Il processo idempotente e fail-closed `tool/promote_curated_428_fasttrack_reviewed.py` verifica il ledger e importa **solo** gli ID AI-reviewed dopo la generazione del catalogo, quindi `tool/validate_fasttrack_curated_428_promotion.py` verifica sei lingue, provenienza e testi della data. Il passaggio è collegato a **Development checks**, **Deploy Web Preview**, **Production Android Release** e **Signed Android QA**. Questi ultimi workflow restano a esecuzione manuale e soggetti alle rispettive protezioni; la CI del ramo non equivale a rilascio pubblico. Versione contenuto prevista: `2026.11.27.1`.
+
+---
+
 ## 19 novembre 2026 — Copertura titoli offline in tutte le sei lingue
 
 Completata l'ultima revisione dei titoli che risultavano identici all'inglese: **50 giornate civiche ufficiali della Corea del Sud** (fonte Ministry of Interior and Safety) localizzate in IT/ES/FR/DE/PT, oltre alla dicitura tedesca di *Safer Internet Day*. Si aggiungono **251 stringhe** alle 1.795 precedenti: **2.046 nuove localizzazioni di titoli** in totale; **409 ricorrenze nazionali/culturali con nuove cinque traduzioni** e una ricorrenza globale con un aggiornamento tedesco.

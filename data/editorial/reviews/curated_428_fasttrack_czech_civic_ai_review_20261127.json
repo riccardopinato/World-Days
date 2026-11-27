@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_AI",
+  "asOf": "2026-11-27",
+  "sourceBranch": "editorial/curated-428-origin-evidence-20261121",
+  "sourcePr": 156,
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "humanSignoffClaim": false,
+  "notes": "Only the two formerly HOLD civic-significant days have been reviewed against the current Czech holiday law and NATO/EU accession dates. Other draft dossiers are NOT included or approved by implication.",
+  "records": [
+    {
+      "observanceId": "cz-czech-accession-to-nato-anniversary",
+      "sourceFile": "data/editorial/research/curated_428_cohort01_cz_nato_accession_20261122.json",
+      "sourceBlobSha": "489541a609f401a101ac36b72bee761002cf58f5",
+      "scope": "ACCEPT_STATUTORILY_RECOGNIZED_CZECH_SIGNIFICANT_DAY",
+      "reviewStatus": "AI_EDITORIAL_REVIEWED",
+      "reviewedAt": "2026-11-27",
+      "officialCivicDesignationSource": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "officialCivicDesignation": "12 March NATO accession day, §4(1); ordinary working day under §4(2)",
+      "historicalSource": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1999/03/12/welcoming-statement",
+      "runtimeImportAllowed": true
+    },
+    {
+      "observanceId": "cz-czech-accession-to-the-european-union-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort01_cz_eu_accession_20261122.json",
+      "sourceBlobSha": "bc6e186097227e46998e456be1db835c88620ee5",
+      "scope": "ACCEPT_STATUTORILY_RECOGNIZED_CZECH_SIGNIFICANT_DAY",
+      "reviewStatus": "AI_EDITORIAL_REVIEWED",
+      "reviewedAt": "2026-11-27",
+      "officialCivicDesignationSource": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "officialCivicDesignation": "1 May EU accession day, §4(1); simultaneously the separate public holiday Labour Day under §2",
+      "historicalSource": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A12003T%2FTXT",
+      "runtimeImportAllowed": true
+    }
+  ]
+}
