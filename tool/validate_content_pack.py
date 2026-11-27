@@ -99,7 +99,12 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
         json.loads(bulk_report.read_text(encoding="utf-8"))["batchAiEditorialReviewedIntegrated"]
         if bulk_report.exists() else 0
     )
-    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack + bulk_count
+    prepared85_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_prepared85_runtime_import.json"
+    prepared85_count = (
+        json.loads(prepared85_report.read_text(encoding="utf-8"))["fasttrackNewIntegrated"]
+        if prepared85_report.exists() else 0
+    )
+    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack + bulk_count + prepared85_count
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
     assert pack == bundled, ("remote_payload_drift", locale)
