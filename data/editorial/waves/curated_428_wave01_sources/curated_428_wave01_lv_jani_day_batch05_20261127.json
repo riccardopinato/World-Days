@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "lv-jani-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-24",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Republic of Latvia legislation / Latvian tourism board",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+      "claim": "Latvian holiday law names 24 June Jāņi Day, the summer-solstice celebration.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.latvia.travel/en/summer-solstice-celebrations",
+      "claim": "Official tourism material explains the Jāņi traditions around the night of 23–24 June.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Jāņi Day falls on 24 June in Latvia and completes the midsummer celebrations that begin on Līgo Eve. Folk songs, bonfires and wreaths mark one of the country's best-known seasonal traditions. The name is also associated with Saint John, while the customs preserve older solstice elements. Latvia's holiday law explicitly recognises 24 June.",
+    "it": "Il 24 giugno in Lettonia ricorre Jāņi, conclusione delle celebrazioni di mezza estate iniziate alla vigilia di Līgo. Canti popolari, falò e corone vegetali caratterizzano una delle tradizioni stagionali più sentite. Il nome richiama anche san Giovanni, mentre i riti conservano elementi del solstizio. La legge lettone riconosce il 24 giugno.",
+    "es": "El 24 de junio Letonia celebra Jāņi, culminación de las fiestas de verano iniciadas con Līgo. Canciones populares, hogueras y coronas vegetales marcan una de sus tradiciones estacionales más conocidas. El nombre también recuerda a san Juan, mientras los ritos conservan elementos del solsticio. La ley reconoce oficialmente el 24 de junio.",
+    "fr": "Le 24 juin, la Lettonie célèbre Jāņi, point culminant des fêtes du solstice commencées lors de Līgo. Chants traditionnels, feux et couronnes végétales marquent cette grande tradition saisonnière. Le nom évoque également saint Jean, tandis que les coutumes conservent des éléments plus anciens. La loi reconnaît officiellement cette date.",
+    "de": "Am 24. Juni feiert Lettland Jāņi als Abschluss der Mittsommerfeste, die am Līgo-Abend beginnen. Volkslieder, Feuer und Blumenkränze prägen einen der bekanntesten Jahreszeitenbräuche des Landes. Der Name verweist auch auf Johannes, während ältere Sonnenwendetraditionen fortleben. Das Feiertagsgesetz nennt ausdrücklich den 24. Juni.",
+    "pt": "A Letónia celebra Jāņi em 24 de junho, culminando as festas do solstício iniciadas na véspera de Līgo. Canções populares, fogueiras e coroas de plantas marcam uma tradição sazonal central. O nome também remete para São João, enquanto os costumes mantêm elementos mais antigos. A lei reconhece expressamente esta data."
+  },
+  "runtimeRichEditorialApproved": false
+}
