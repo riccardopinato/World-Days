@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-national-punctuality-and-civility-consciousness-month",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_SCOPE_HOLD_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 2008,
+  "yearMeaning": "Specific statutory enactment year; does not determine the disputed or annual observance date.",
+  "authority": "President of the Philippines",
+  "dateReason": "Institutional scope and recurrence documented as unresolved, no runtime approval.",
+  "sourceEvidence": [
+    {
+      "url": "https://lawphil.net/executive/proc/proc2008/proc_1638_2008.html",
+      "claim": "Proclamation No. 1638 specifically declared November 2008 National Consciousness Month for Punctuality and Civility; separately dated one-year proclamations also exist for 2006, 2007 and 2009, not one clear annual law.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "HOLD_MULTIPLE_YEAR_SPECIFIC_NOVEMBER_PROCLAMATIONS_NO_STABLE_YEARLY_RECURRENCE"
+  },
+  "narratives": {
+    "en": "The Philippines proclaimed November 2008 a national month promoting punctuality and civility. The campaign encouraged respect for people's time and for the rights of others, involving government offices, schools and communities. Separate presidential proclamations recognised similar campaigns in other years, but the cited 2008 text does not by itself establish a permanent annual observance.",
+    "it": "Le Filippine proclamarono novembre 2008 mese nazionale della puntualità e della cortesia civile. La campagna incoraggiava il rispetto del tempo delle persone e dei diritti altrui, coinvolgendo uffici pubblici, scuole e comunità. Esistono proclami distinti per altri anni, ma il testo del 2008 non dimostra da solo una ricorrenza permanente.",
+    "es": "Filipinas declaró noviembre de 2008 mes nacional de concienciación sobre la puntualidad y la civismo. La campaña promovía el respeto por el tiempo y por los derechos de los demás en instituciones, escuelas y comunidades. Existen proclamaciones separadas en otros años, pero la norma de 2008 no prueba por sí sola una celebración anual permanente.",
+    "fr": "Les Philippines ont proclamé novembre 2008 mois national de sensibilisation à la ponctualité et au civisme. La campagne encourageait le respect du temps et des droits d'autrui dans les écoles, les administrations et les communautés. Des proclamations distinctes existent pour d'autres années, mais le texte de 2008 ne prouve pas une récurrence annuelle permanente.",
+    "de": "Die Philippinen erklärten den November 2008 zum nationalen Bewusstseinsmonat für Pünktlichkeit und Rücksichtnahme. Die Kampagne förderte Respekt vor der Zeit und den Rechten anderer in Schulen, Behörden und Gemeinden. Ähnliche Aktionen wurden auch für andere Jahre gesondert ausgerufen; das Gesetz von 2008 belegt keine dauerhafte jährliche Wiederholung.",
+    "pt": "As Filipinas proclamaram novembro de 2008 como mês nacional de consciencialização para a pontualidade e a civilidade. A campanha promovia o respeito pelo tempo e pelos direitos dos outros em escolas, serviços e comunidades. Há proclamações separadas noutros anos, mas o texto de 2008 não prova uma comemoração anual permanente."
+  },
+  "runtimeRichEditorialApproved": false
+}
