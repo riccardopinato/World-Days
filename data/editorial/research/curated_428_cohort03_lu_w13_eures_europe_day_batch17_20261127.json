@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "lu-w13-eures-europe-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-09",
+  "country": "LU",
+  "documentedIntroductionYear": 2019,
+  "yearMeaning": "2019 first Luxembourg statutory public-holiday designation.",
+  "authority": "Grand Duchy of Luxembourg official portal",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://luxembourg.public.lu/en/society-and-culture/festivals-and-traditions/europe-day.html",
+      "claim": "Luxembourg's official government portal says Europe Day on 9 May celebrates the Schuman Declaration and became a legal public holiday in Luxembourg in 2019.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Luxembourg observes Europe Day on 9 May, recalling the 1950 Schuman Declaration that proposed cooperation over coal and steel as a foundation for European integration. In 2019 the country made Europe Day a statutory public holiday. The commemoration highlights peace, cooperation and Luxembourg's role in European institutions.",
+    "it": "Il Lussemburgo celebra la Giornata dell'Europa il 9 maggio, ricordando la dichiarazione Schuman del 1950, che propose una cooperazione su carbone e acciaio come base dell'integrazione europea. Nel 2019 il paese rese la data una festività legale. La ricorrenza richiama pace, collaborazione e ruolo del Lussemburgo nelle istituzioni europee.",
+    "es": "Luxemburgo celebra el Día de Europa el 9 de mayo, recordando la Declaración Schuman de 1950, que propuso cooperar en carbón y acero como base de la integración europea. En 2019 el país convirtió la fecha en festivo legal. La jornada destaca la paz, la cooperación y el papel de Luxemburgo en las instituciones europeas.",
+    "fr": "Le Luxembourg célèbre la Journée de l'Europe le 9 mai, date de la déclaration Schuman de 1950 proposant une coopération dans le charbon et l'acier comme fondement de l'intégration européenne. En 2019, le pays en a fait un jour férié légal. La célébration met en valeur la paix et le rôle du Luxembourg dans les institutions européennes.",
+    "de": "Luxemburg begeht am 9. Mai den Europatag und erinnert an die Schuman-Erklärung von 1950, die eine Zusammenarbeit bei Kohle und Stahl als Grundlage europäischer Integration vorschlug. 2019 wurde der Tag zum gesetzlichen Feiertag. Die Feier würdigt Frieden, Zusammenarbeit und Luxemburgs Rolle in europäischen Institutionen.",
+    "pt": "O Luxemburgo celebra o Dia da Europa em 9 de maio, recordando a Declaração Schuman de 1950, que propôs cooperação no carvão e no aço como base da integração europeia. Em 2019, o país tornou a data feriado legal. A comemoração valoriza a paz, a cooperação e o papel do Luxemburgo nas instituições europeias."
+  },
+  "runtimeRichEditorialApproved": false
+}

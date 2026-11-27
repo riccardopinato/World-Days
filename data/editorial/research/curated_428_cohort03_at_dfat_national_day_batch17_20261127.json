@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "at-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-26",
+  "country": "AT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical years in narrative describe the event; first designation year not established here.",
+  "authority": "Parliament of Austria",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.parlament.gv.at/fachinfos/parlamentsarchiv/Eine-freiwillige-Verpflichtung",
+      "claim": "Austrian Parliament records the adoption of the Neutrality Act on 26 October 1955 as the historical event underpinning Austria's national day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Austria celebrates its National Day on 26 October, commemorating the declaration of permanent neutrality adopted by Parliament in 1955. The decision followed the end of Allied occupation and became a defining symbol of the restored republic. Public ceremonies recall the country's post-war independence and constitutional choices, not a ruler's birthday.",
+    "it": "L'Austria celebra la Festa nazionale il 26 ottobre, ricordando la neutralità permanente approvata dal Parlamento nel 1955. La decisione seguì la fine dell'occupazione alleata e divenne un simbolo della repubblica ritornata sovrana. Le cerimonie pubbliche richiamano l'indipendenza del dopoguerra e le scelte costituzionali, non un compleanno dinastico.",
+    "es": "Austria celebra su Fiesta Nacional el 26 de octubre, recordando la neutralidad permanente aprobada por el Parlamento en 1955. La decisión siguió al final de la ocupación aliada y se convirtió en símbolo de la república soberana. Los actos públicos evocan la independencia de la posguerra y las decisiones constitucionales, no el cumpleaños de un gobernante.",
+    "fr": "L'Autriche célèbre sa fête nationale le 26 octobre, en souvenir de la neutralité permanente adoptée par le Parlement en 1955. Cette décision suivit la fin de l'occupation alliée et devint un symbole de la république souveraine. Les cérémonies rappellent l'indépendance d'après-guerre et les choix constitutionnels plutôt qu'un anniversaire royal.",
+    "de": "Österreich begeht seinen Nationalfeiertag am 26. Oktober und erinnert an den Beschluss der immerwährenden Neutralität durch das Parlament im Jahr 1955. Die Entscheidung folgte auf das Ende der alliierten Besatzung und wurde zum Sinnbild der wiedergewonnenen Souveränität. Öffentliche Feiern würdigen die Nachkriegsordnung und Verfassungsentscheidungen.",
+    "pt": "A Áustria celebra o Dia Nacional em 26 de outubro, recordando a neutralidade permanente aprovada pelo Parlamento em 1955. A decisão surgiu após o fim da ocupação aliada e tornou-se um símbolo da república soberana. As cerimónias públicas evocam a independência do pós-guerra e as escolhas constitucionais, não o aniversário de um governante."
+  },
+  "runtimeRichEditorialApproved": false
+}
