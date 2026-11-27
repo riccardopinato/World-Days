@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "uk-remembrance-sunday",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "GB",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No original founding year asserted; current Sunday and national service evidence documented.",
+  "authority": "United Kingdom Government",
+  "dateReason": "Official recurring nth-weekday rule; requires matching canonical recurrenceRules before publication.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.uk/guidance/national-service-of-remembrance-sunday-8-november-2026",
+      "claim": "UK Government schedules Remembrance Sunday service at the Cenotaph on Sunday 8 November 2026; the event recurs on the second Sunday of November.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The United Kingdom observes Remembrance Sunday on the second Sunday in November, honouring service members and civilians who died in wars and conflicts. The national ceremony at London's Cenotaph includes a two-minute silence and wreath laying. The Sunday varies from year to year and is distinct from Armistice Day on 11 November.",
+    "it": "Nel Regno Unito la Domenica della Memoria cade la seconda domenica di novembre e rende omaggio ai militari e ai civili morti nelle guerre. La cerimonia nazionale al Cenotaph di Londra prevede due minuti di silenzio e la deposizione di corone. La data domenicale varia ogni anno ed è distinta dal Giorno dell'armistizio dell'11 novembre.",
+    "es": "El Reino Unido celebra el Domingo del Recuerdo el segundo domingo de noviembre para honrar a militares y civiles muertos en guerras. La ceremonia nacional en el Cenotafio de Londres incluye dos minutos de silencio y ofrendas florales. La fecha dominical cambia cada año y es distinta del Día del Armisticio del 11 de noviembre.",
+    "fr": "Le Royaume-Uni célèbre le dimanche du Souvenir le deuxième dimanche de novembre pour honorer les militaires et civils morts dans les conflits. La cérémonie nationale au Cénotaphe de Londres comprend deux minutes de silence et le dépôt de couronnes. La date change selon l'année et se distingue du jour de l'Armistice du 11 novembre.",
+    "de": "Das Vereinigte Königreich begeht den Remembrance Sunday am zweiten Sonntag im November und erinnert an gefallene Militärangehörige und Zivilisten. Die nationale Zeremonie am Londoner Cenotaph umfasst zwei Schweigeminuten und Kranzniederlegungen. Das Sonntagsdatum ändert sich jährlich und ist vom Waffenstillstandstag am 11. November zu unterscheiden.",
+    "pt": "O Reino Unido celebra o Domingo da Memória no segundo domingo de novembro, homenageando militares e civis mortos em guerras. A cerimónia nacional no Cenotáfio de Londres inclui dois minutos de silêncio e a deposição de coroas. A data varia de ano para ano e é distinta do Dia do Armistício, em 11 de novembro."
+  },
+  "runtimeRichEditorialApproved": false
+}
