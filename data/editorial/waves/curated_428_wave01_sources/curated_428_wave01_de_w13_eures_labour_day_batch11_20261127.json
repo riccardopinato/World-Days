@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "de-w13-eures-labour-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "DE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "State of Berlin / official holiday calendar",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.berlin.de/tourismus/infos/1887651-1721039-feiertage-schulferien.html",
+      "claim": "The German state capital's official holiday calendar lists 1 May as Tag der Arbeit (Labour Day).",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Germany observes Labour Day on 1 May as a public holiday associated with workers' rights and the history of the labour movement. Trade unions organise rallies and events in many cities, while others use the day for rest. The international origins of May Day should not be confused with the specific laws that recognise the holiday in Germany.",
+    "it": "La Germania celebra la Festa del lavoro il 1° maggio, ricorrenza pubblica legata ai diritti dei lavoratori e alla storia del movimento sindacale. In numerose città si tengono manifestazioni e iniziative, mentre altri riposano. L'origine internazionale del Primo maggio è distinta dalle norme tedesche che lo riconoscono.",
+    "es": "Alemania celebra el Día del Trabajo el 1 de mayo, festivo vinculado a los derechos laborales y a la historia del movimiento obrero. Los sindicatos organizan actos y manifestaciones, mientras otras personas descansan. El origen internacional del Primero de Mayo no debe confundirse con las leyes que lo reconocen en Alemania.",
+    "fr": "L'Allemagne célèbre la fête du Travail le 1er mai, jour férié associé aux droits des salariés et à l'histoire du mouvement ouvrier. Les syndicats organisent des rassemblements dans de nombreuses villes, tandis que d'autres se reposent. Son histoire internationale se distingue des règles allemandes qui lui donnent un statut légal.",
+    "de": "Deutschland begeht den Tag der Arbeit am 1. Mai als gesetzlichen Feiertag mit Bezug zu Arbeitnehmerrechten und der Gewerkschaftsbewegung. In vielen Städten finden Kundgebungen und Veranstaltungen statt; andere nutzen den Tag zur Erholung. Die internationale Geschichte des Maifeiertags ist von seiner gesetzlichen Anerkennung zu trennen.",
+    "pt": "A Alemanha celebra o Dia do Trabalhador em 1 de maio, feriado associado aos direitos laborais e à história do movimento sindical. Os sindicatos organizam manifestações em muitas cidades, enquanto outras pessoas descansam. A origem internacional do Primeiro de Maio é distinta das leis alemãs que reconhecem o feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

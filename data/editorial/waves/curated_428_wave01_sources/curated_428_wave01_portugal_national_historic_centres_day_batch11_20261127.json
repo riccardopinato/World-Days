@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "portugal-national-historic-centres-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-28",
+  "country": "PT",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "1993 is the documented creation year of this particular heritage observance.",
+  "authority": "Museu Nacional Soares dos Reis",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://museusoaresdosreis.gov.pt/alexandre-herculano-um-dos-maiores-defensores-do-patrimonio-nacional/",
+      "claim": "Portugal's national museum documents the 1993 creation of National Day of Historic Centres, held on 28 March.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Portugal observes the National Day of Historic Centres on 28 March to celebrate old streets, buildings and communities that preserve urban heritage. Created in 1993, the observance honours the importance of safeguarding historic urban landscapes and is associated with heritage advocate Alexandre Herculano. Museums and cities organise cultural initiatives.",
+    "it": "Il 28 marzo il Portogallo celebra la Giornata nazionale dei centri storici, dedicata a strade, edifici e comunità che conservano la memoria delle città. Istituita nel 1993, la ricorrenza valorizza il patrimonio urbano ed è associata ad Alexandre Herculano. Musei e comuni propongono iniziative culturali e visite.",
+    "es": "Portugal celebra el Día Nacional de los Centros Históricos el 28 de marzo para reconocer las calles, edificios y comunidades que conservan la memoria urbana. Creada en 1993, la jornada destaca el valor del patrimonio y se asocia a Alexandre Herculano. Museos y ciudades organizan actividades culturales y visitas.",
+    "fr": "Le Portugal célèbre la Journée nationale des centres historiques le 28 mars, valorisant les rues, bâtiments et communautés qui préservent la mémoire urbaine. Créée en 1993, elle souligne la sauvegarde du patrimoine et est liée à Alexandre Herculano. Musées et villes proposent des activités culturelles et des visites.",
+    "de": "Portugal begeht am 28. März den Nationalen Tag der historischen Stadtzentren, der Straßen, Gebäude und Gemeinschaften als Träger des städtischen Erbes würdigt. Der Tag wurde 1993 geschaffen und ist mit Alexandre Herculano verbunden. Museen und Städte veranstalten Kulturangebote und Besichtigungen historischer Viertel.",
+    "pt": "Portugal assinala o Dia Nacional dos Centros Históricos em 28 de março, valorizando ruas, edifícios e comunidades que preservam a memória urbana. Criada em 1993, a data destaca a proteção do património e está associada a Alexandre Herculano. Museus e municípios promovem visitas e atividades culturais."
+  },
+  "runtimeRichEditorialApproved": false
+}

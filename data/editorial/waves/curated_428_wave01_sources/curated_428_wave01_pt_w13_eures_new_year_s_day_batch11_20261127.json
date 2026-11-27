@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pt-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "PT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "Turismo de Portugal",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.visitportugal.com/en/node/470987",
+      "claim": "Portugal's official tourism authority lists New Year's Day on 1 January among national public holidays.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Portugal observes New Year's Day on 1 January as a national public holiday, beginning the Gregorian calendar year. Celebrations on the preceding evening may include music, fireworks and public gatherings before a quieter day for many families. The official calendar confirms the date, but not the original enactment year.",
+    "it": "Il Portogallo celebra Capodanno il 1° gennaio come festività nazionale che inaugura l'anno gregoriano. La sera precedente può essere animata da musica, fuochi d'artificio e ritrovi pubblici, seguiti da una giornata più tranquilla. Il calendario ufficiale conferma la data, non l'anno della prima istituzione.",
+    "es": "Portugal celebra el Año Nuevo el 1 de enero como festivo nacional que abre el año gregoriano. La noche anterior puede incluir música, fuegos artificiales y reuniones, antes de una jornada más tranquila. El calendario oficial confirma la fecha anual, pero no identifica el año de su primera institución legal.",
+    "fr": "Le Portugal fête le Nouvel An le 1er janvier, jour férié national ouvrant l'année grégorienne. La veille peut être marquée par de la musique, des feux d'artifice et des rassemblements, avant une journée plus calme. Le calendrier officiel confirme la date sans préciser l'année de sa création juridique initiale.",
+    "de": "Portugal feiert Neujahr am 1. Januar als landesweiten Feiertag zum Beginn des gregorianischen Kalenderjahres. Am Vorabend gibt es vielerorts Musik, Feuerwerk und Treffen, gefolgt von einem ruhigeren Tag. Der amtliche Kalender bestätigt das Datum, nicht aber das ursprüngliche gesetzliche Einführungsjahr.",
+    "pt": "Portugal celebra o Dia de Ano Novo em 1 de janeiro, feriado nacional que abre o calendário gregoriano. Na noite anterior há, em várias cidades, música, fogo de artifício e encontros, seguindo-se um dia mais tranquilo. O calendário oficial confirma a data, mas não identifica o ano da sua primeira instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

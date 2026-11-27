@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "Seimas of Lithuania",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/6eea48d294ea11eea70ce7cabd08f150/",
+      "claim": "The Lithuanian Labour Code lists 1 January as New Year's Day, a statutory national public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania observes New Year's Day on 1 January as a public holiday under the national Labour Code. The date begins the Gregorian calendar year after the celebrations of the preceding evening. The law documents its present status without proving the original year in which the holiday was introduced.",
+    "it": "La Lituania celebra Capodanno il 1° gennaio, festività pubblica riconosciuta dal Codice del lavoro. La data inaugura l'anno gregoriano dopo i festeggiamenti della sera precedente. La norma documenta lo status attuale senza dimostrare l'anno della prima istituzione della ricorrenza.",
+    "es": "Lituania celebra el Año Nuevo el 1 de enero como festivo oficial del Código del Trabajo. La fecha abre el calendario gregoriano tras las celebraciones de la noche anterior. La norma acredita su condición actual, pero no demuestra cuándo se estableció por primera vez este día festivo.",
+    "fr": "La Lituanie fête le Nouvel An le 1er janvier comme jour férié prévu par le Code du travail. Cette date ouvre l'année grégorienne après les célébrations de la veille. La loi confirme son statut actuel sans établir l'année à laquelle la journée a été instituée pour la première fois.",
+    "de": "Litauen begeht den Neujahrstag am 1. Januar als gesetzlichen Feiertag nach dem Arbeitsgesetzbuch. Der Tag eröffnet das gregorianische Kalenderjahr nach den Feiern am Vorabend. Das Gesetz bestätigt den heutigen Feiertagsstatus, belegt aber nicht das Jahr seiner ersten Einführung.",
+    "pt": "A Lituânia celebra o Ano Novo em 1 de janeiro, feriado previsto no Código do Trabalho. A data abre o ano do calendário gregoriano depois das celebrações da noite anterior. A lei documenta o estatuto atual, sem comprovar o ano da primeira instituição do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}
