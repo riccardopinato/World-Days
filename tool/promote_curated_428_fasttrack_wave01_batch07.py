@@ -32,7 +32,7 @@ def run():
     assert approval["mode"]=="APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH07"
     assert approval["factoryBaseline"]=="52a7e1c3a84edf942ad80a022ba6f67e80186921"
     assert approval["humanCertified"] is False
-    assert approval["proposedBatch06"]==len(approval["records"])==6
+    assert approval["proposedBatch07"]==len(approval["records"])==6
     official=load(ASSETS/"official_core.json")
     assert len(official["records"])==947 and official["datasetVersion"]=="2026.11.27.9"
     catalog={r["id"]:r for r in official["records"]}
