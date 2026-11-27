@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-w13-eures-spring-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year of local observance not established by cited sources; any years in prose describe distinct changes in holiday status.",
+  "authority": "Riigikogu / Visit Estonia",
+  "dateReason": "Country-specific date supported by public holiday legislation or a competent national employment authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+      "claim": "Estonian public holidays law lists 1 May as May Day, the holiday called Spring Day in local usage.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://visitestonia.com/en/planning",
+      "claim": "Visit Estonia confirms May Day on 1 May on its national public holidays calendar.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "On 1 May, Estonia observes Spring Day, also known as May Day, as an official public holiday. The date sits at the beginning of the bright northern spring and carries both seasonal associations and the wider European history of May Day. Its statutory status is fixed to 1 May, regardless of which weekday it falls on.",
+    "it": "Il 1° maggio l'Estonia celebra la Giornata di primavera, nota anche come Primo maggio, quale festività pubblica ufficiale. La data richiama la stagione luminosa del Nord e la più ampia storia europea delle ricorrenze di maggio. Lo status previsto dalla legge è fissato al 1° maggio, indipendentemente dal giorno della settimana.",
+    "es": "El 1 de mayo Estonia celebra el Día de la Primavera, también conocido como Primero de Mayo, como festivo oficial. La fecha está ligada al comienzo de la estación luminosa del norte y a la historia europea de las fiestas de mayo. La ley lo sitúa el 1 de mayo de cada año, con independencia del día de la semana.",
+    "fr": "Le 1er mai, l'Estonie célèbre la Journée du printemps, aussi appelée fête de Mai, comme jour férié officiel. La date évoque la saison lumineuse du nord et l'histoire européenne des célébrations de mai. La loi fixe le jour férié au 1er mai, quel que soit le jour de la semaine.",
+    "de": "Am 1. Mai begeht Estland den Frühlingstag, auch als Maifeiertag bekannt, als offiziellen gesetzlichen Feiertag. Das Datum verbindet den Beginn der hellen nördlichen Jahreszeit mit der breiteren europäischen Geschichte des Maifeiertags. Das Gesetz legt ihn unabhängig vom Wochentag stets auf den 1. Mai.",
+    "pt": "A Estónia celebra em 1 de maio o Dia da Primavera, também chamado Dia de Maio, como feriado oficial. A data remete para a estação luminosa no norte da Europa e para a história europeia das festas de maio. A lei fixa o feriado em 1 de maio, independentemente do dia da semana."
+  },
+  "runtimeRichEditorialApproved": false
+}
