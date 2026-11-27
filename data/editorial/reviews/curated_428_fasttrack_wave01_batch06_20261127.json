@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH06",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "9830778cd2300288b41b909e9530c2f68e83a34b",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Seven primary government/legislative historical narratives and six language equivalents each, no professional human signoff or claim that all assertions are independently verified.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch06": 161,
+  "proposedBatch06": 7,
+  "records": [
+    {
+      "id": "cy-greek-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_greek_national_day_batch06_20261127.json",
+      "sourceBlobSha": "fa185c84dd24969a3059976d0d0187f5242b2795",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "cy-national-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_national_day_batch06_20261127.json",
+      "sourceBlobSha": "0a1d9c383b53cbf9a05e3d8ba69e19fe1d85fa18",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "cy-ochi-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_ochi_day_batch06_20261127.json",
+      "sourceBlobSha": "6fa552e8d7cabd223579e78ab50eb5c7d6421a1c",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "france-harkis-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_france_harkis_remembrance_day_batch06_20261127.json",
+      "sourceBlobSha": "3f70a8990f9c7abd079fa2bca2e950caeff442c1",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "france-slavery-victims-tribute-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_france_slavery_victims_tribute_day_batch06_20261127.json",
+      "sourceBlobSha": "5ad0ef267717ba4245cb8e016fe77ce1f51ffd3b",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-polish-national-victory-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_polish_national_victory_day_batch06_20261127.json",
+      "sourceBlobSha": "b4a9bce364dcb9f8c4cbbd6e009f7cc46fa3f113",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-unbroken-clergy-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_unbroken_clergy_remembrance_day_batch06_20261127.json",
+      "sourceBlobSha": "3c66918b5bf5ea958e6bbc5ae77bd95f4f51f3a3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

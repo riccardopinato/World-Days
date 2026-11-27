@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "france-harkis-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-25",
+  "country": "FR",
+  "documentedIntroductionYear": 2003,
+  "yearMeaning": "Year refers to legal institution or recognition, distinct from historic events.",
+  "authority": "French Republic / Légifrance",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000419142",
+      "claim": "The French decree of 31 March 2003 created a national tribute to harkis and other auxiliary formations on 25 September.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045220741",
+      "claim": "The 2022 law addresses recognition and reparations for harkis and families after the Algerian War.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France pays tribute to the harkis and other auxiliary personnel on 25 September. Many served alongside French forces during the Algerian War and later faced violence, displacement and difficult conditions of reception. A decree established the commemorative day in 2003; legislation in 2022 further addressed recognition and reparations. This is a day of remembrance rather than a celebration of the conflict.",
+    "it": "Il 25 settembre la Francia rende omaggio agli harkis e agli altri ausiliari che servirono nelle forze francesi durante la guerra d'Algeria. Molti subirono violenze, sradicamento e difficili condizioni di accoglienza. Un decreto del 2003 istituì la giornata; una legge del 2022 ha affrontato ulteriormente riconoscimento e riparazioni.",
+    "es": "Francia homenajea el 25 de septiembre a los harkis y a otros auxiliares que sirvieron junto a las fuerzas francesas durante la guerra de Argelia. Muchos sufrieron violencia, desplazamiento y duras condiciones de acogida. Un decreto de 2003 instituyó la jornada; una ley de 2022 abordó de nuevo el reconocimiento y las reparaciones.",
+    "fr": "La France rend hommage aux harkis et aux autres supplétifs le 25 septembre. Beaucoup ont servi auprès des forces françaises durant la guerre d'Algérie, puis subi violences, déplacements et conditions d'accueil difficiles. Un décret de 2003 a créé la journée, tandis qu'une loi de 2022 a renforcé la reconnaissance et la réparation de préjudices.",
+    "de": "Frankreich ehrt am 25. September die Harkis und andere Hilfskräfte, die im Algerienkrieg an der Seite französischer Truppen dienten. Viele erlebten später Gewalt, Vertreibung und schwierige Aufnahmebedingungen. Ein Dekret von 2003 führte den Gedenktag ein; ein Gesetz von 2022 behandelte Anerkennung und Wiedergutmachung.",
+    "pt": "A França homenageia os harkis e outros auxiliares em 25 de setembro. Muitos serviram ao lado das forças francesas durante a Guerra da Argélia e depois sofreram violência, deslocação e difíceis condições de acolhimento. Um decreto de 2003 criou a data comemorativa; uma lei de 2022 tratou do reconhecimento e da reparação."
+  },
+  "runtimeRichEditorialApproved": false
+}
