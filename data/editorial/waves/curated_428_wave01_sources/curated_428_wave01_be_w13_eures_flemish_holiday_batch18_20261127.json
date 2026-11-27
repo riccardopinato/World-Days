@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "be-w13-eures-flemish-holiday",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-11",
+  "country": "BE",
+  "documentedIntroductionYear": 1990,
+  "yearMeaning": "1990 is the formal Flemish Community holiday decree, not the 1302 historical battle or a Belgian national holiday.",
+  "authority": "Government of Flanders / Flemish Codex",
+  "dateReason": "Specific government ministry or community decree fixes this jurisdiction-scoped observance to this Gregorian day.",
+  "sourceEvidence": [
+    {
+      "url": "https://codex.vlaanderen.be/PrintDocument.ashx?geannoteerd=false&id=1003263",
+      "claim": "The Flemish Community decree of 7 November 1990 formally designates 11 July as its community holiday, commemorating the 1302 Battle of the Golden Spurs.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Flanders celebrates the Flemish Community Day on 11 July, recalling the Battle of the Golden Spurs in 1302. A Flemish decree of 1990 formalised the community's holiday. Flags, local events and civic gatherings mark its language and cultural identity. The celebration is regional to the Flemish Community, not an additional nationwide Belgian public holiday for every employee.",
+    "it": "Le Fiandre celebrano la Festa della Comunità fiamminga l'11 luglio, ricordando la Battaglia degli speroni d'oro del 1302. Un decreto fiammingo del 1990 ha formalizzato la ricorrenza. Bandiere e iniziative locali valorizzano lingua e identità culturale. È una festa della Comunità fiamminga, non un ulteriore giorno festivo nazionale per tutti i lavoratori belgi.",
+    "es": "Flandes celebra el Día de la Comunidad Flamenca el 11 de julio, recordando la Batalla de las Espuelas de Oro de 1302. Un decreto flamenco de 1990 formalizó la festividad. Banderas y actos locales destacan la lengua y la identidad cultural. Es una celebración de la Comunidad Flamenca y no otro festivo nacional obligatorio para todos los trabajadores belgas.",
+    "fr": "La Flandre célèbre la fête de la Communauté flamande le 11 juillet, rappelant la bataille des Éperons d'or de 1302. Un décret flamand de 1990 a officialisé cette fête communautaire. Drapeaux et manifestations locales valorisent langue et identité culturelle. Il ne s'agit pas d'un jour férié national supplémentaire pour tous les travailleurs belges.",
+    "de": "Flandern begeht am 11. Juli den Feiertag der Flämischen Gemeinschaft und erinnert an die Sporenschlacht von 1302. Ein flämisches Dekret von 1990 legte diesen Gemeinschaftsfeiertag fest. Flaggen und lokale Veranstaltungen würdigen Sprache und kulturelle Identität. Er ist kein zusätzlicher landesweiter gesetzlicher Feiertag für sämtliche belgischen Beschäftigten.",
+    "pt": "A Flandres celebra o Dia da Comunidade Flamenga em 11 de julho, recordando a Batalha das Esporas de Ouro de 1302. Um decreto flamengo de 1990 oficializou a data comunitária. Bandeiras e eventos locais valorizam a língua e a identidade cultural. Não se trata de um feriado nacional adicional obrigatório para todos os trabalhadores belgas."
+  },
+  "runtimeRichEditorialApproved": false
+}

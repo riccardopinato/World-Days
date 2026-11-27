@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "ie-st-patricks-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-17",
+  "country": "IE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical anniversary date in official institutional source, but exact first modern statutory institution not established.",
+  "authority": "Government of Ireland / Department of Foreign Affairs",
+  "dateReason": "Specific government ministry or community decree fixes this jurisdiction-scoped observance to this Gregorian day.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/publications/st-patricks-day-2020/",
+      "claim": "Irish Department of Foreign Affairs describes 17 March, Saint Patrick's Day, as Ireland's national holiday celebrating the patron saint.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Ireland celebrates Saint Patrick's Day on 17 March, honouring its patron saint and the cultural traditions associated with him. The occasion has become a national holiday and a celebration shared with Irish communities around the world. Parades, music and gatherings highlight Irish identity, while the ancient religious observance should not be confused with the date of modern statutory recognition.",
+    "it": "L'Irlanda festeggia San Patrizio il 17 marzo, rendendo omaggio al proprio santo patrono e alle tradizioni culturali legate alla sua figura. La ricorrenza è diventata una festa nazionale condivisa anche dalle comunità irlandesi nel mondo. Sfilate, musica e incontri celebrano l'identità irlandese; l'antica festa religiosa è distinta dal suo riconoscimento legislativo moderno.",
+    "es": "Irlanda celebra el Día de San Patricio el 17 de marzo para honrar a su patrón y las tradiciones culturales vinculadas a él. La fecha es una fiesta nacional compartida también por comunidades irlandesas en todo el mundo. Desfiles, música y encuentros destacan la identidad de Irlanda; la celebración religiosa antigua no equivale a su reconocimiento legal moderno.",
+    "fr": "L'Irlande célèbre la Saint-Patrick le 17 mars en l'honneur de son saint patron et des traditions culturelles qui lui sont associées. La fête est devenue une journée nationale partagée avec les communautés irlandaises du monde entier. Défilés, musique et rassemblements valorisent l'identité irlandaise; l'ancien rite religieux précède sa reconnaissance légale moderne.",
+    "de": "Irland feiert den St. Patrick's Day am 17. März zu Ehren seines Schutzpatrons und der mit ihm verbundenen kulturellen Traditionen. Der Tag ist heute ein nationaler Feiertag, den irische Gemeinschaften weltweit begehen. Umzüge, Musik und Begegnungen betonen irische Identität; die alte religiöse Feier ist nicht mit ihrer modernen gesetzlichen Anerkennung gleichzusetzen.",
+    "pt": "A Irlanda celebra o Dia de São Patrício em 17 de março, homenageando o padroeiro e as tradições culturais associadas à sua figura. A data tornou-se um feriado nacional celebrado também por comunidades irlandesas em todo o mundo. Desfiles, música e encontros destacam a identidade do país, distinguindo a antiga festa religiosa do reconhecimento legal moderno."
+  },
+  "runtimeRichEditorialApproved": false
+}
