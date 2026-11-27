@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "memorial-day-us",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "LAST_MONDAY_OF_MAY",
+  "country": "US",
+  "documentedIntroductionYear": 1868,
+  "yearMeaning": "General Order No. 11 established Decoration Day in 1868; the last-Monday-of-May federal observance dates to 1971.",
+  "authority": "Grand Army of the Republic; United States Congress",
+  "dateReason": "Originally 30 May, now the last Monday in May.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.nps.gov/articles/000/john-logan-war-hero-public-servant-founder-of-memorial-day.htm",
+      "claim": "National Park Service documents the 1868 order and 1971 date change."
+    }
+  ],
+  "narratives": {
+    "en": "Memorial Day honours US military personnel who died in service. In 1868 John A. Logan issued General Order No. 11, establishing 30 May as Decoration Day for decorating Civil War soldiers' graves. The commemoration later expanded to the dead of all American wars. Since 1971 the federal holiday has fallen on the last Monday in May, a movable date.",
+    "it": "Il Memorial Day ricorda i militari statunitensi morti in servizio. Nel 1868 John A. Logan emanò l'Ordine generale n. 11, fissando al 30 maggio il Decoration Day per ornare le tombe dei caduti della guerra civile. La commemorazione si estese poi ai morti di tutte le guerre americane. Dal 1971 la festa federale cade l'ultimo lunedì di maggio, una data mobile.",
+    "es": "Memorial Day recuerda a los militares estadounidenses fallecidos en servicio. En 1868 John A. Logan dictó la Orden General n.º 11, que fijó el 30 de mayo como Decoration Day para adornar las tumbas de los caídos de la Guerra Civil. Después se amplió a los muertos de todas las guerras estadounidenses. Desde 1971 el festivo federal cae el último lunes de mayo, una fecha variable.",
+    "fr": "Memorial Day rend hommage aux militaires américains morts en service. En 1868, John A. Logan publia l'ordre général nº 11, fixant au 30 mai Decoration Day pour fleurir les tombes des soldats de la guerre de Sécession. L'hommage s'étendit ensuite aux morts de toutes les guerres américaines. Depuis 1971, le jour férié fédéral tombe le dernier lundi de mai, une date mobile.",
+    "de": "Der Memorial Day erinnert an US-Militärangehörige, die im Dienst starben. 1868 bestimmte John A. Logan mit Generalbefehl Nr. 11 den 30. Mai zum Decoration Day, an dem die Gräber der Bürgerkriegsgefallenen geschmückt wurden. Später gedachte man der Toten aller amerikanischen Kriege. Seit 1971 fällt der Bundesfeiertag auf den letzten Montag im Mai und hat ein bewegliches Datum.",
+    "pt": "O Memorial Day homenageia militares norte-americanos mortos em serviço. Em 1868, John A. Logan publicou a Ordem Geral n.º 11, fixando 30 de maio como Decoration Day para decorar sepulturas de soldados da Guerra Civil. A homenagem alargou-se depois aos mortos de todas as guerras dos EUA. Desde 1971, o feriado federal ocorre na última segunda-feira de maio, uma data móvel."
+  },
+  "runtimeRichEditorialApproved": false
+}

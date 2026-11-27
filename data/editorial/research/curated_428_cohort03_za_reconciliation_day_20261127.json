@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "za-reconciliation-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-16",
+  "country": "ZA",
+  "documentedIntroductionYear": 1995,
+  "yearMeaning": "The democratic government retained 16 December, previously associated with the 1838 Battle of Blood River and the founding of Umkhonto we Sizwe in 1961, and repurposed it for reconciliation; the first celebration under the new name was in 1995.",
+  "authority": "South African Government of National Unity",
+  "dateReason": "Fixed annual date established by the cited national institutional source.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.za/events/reconciliation-day",
+      "claim": "South African Government account documents the two historic associations of 16 December and the first Day of Reconciliation observance in 1995."
+    }
+  ],
+  "narratives": {
+    "en": "South Africa observes the Day of Reconciliation on 16 December. The date carried opposing historical memories: the 1838 Battle of Blood River in Afrikaner tradition and the 1961 founding of the ANC's armed wing, Umkhonto we Sizwe. After apartheid, the democratic government kept the public holiday but gave it a new purpose. First celebrated as Reconciliation Day in 1995, it calls for national unity without erasing the country's divided past.",
+    "it": "Il Sudafrica celebra il Giorno della riconciliazione il 16 dicembre. La data racchiude memorie contrapposte: la battaglia di Blood River del 1838 nella tradizione afrikaner e la fondazione nel 1961 di Umkhonto we Sizwe, ala armata dell'ANC. Dopo l'apartheid, il governo democratico mantenne la festività ma ne cambiò il significato. Celebrata con il nuovo nome per la prima volta nel 1995, invita all'unità senza cancellare il passato.",
+    "es": "Sudáfrica celebra el Día de la Reconciliación el 16 de diciembre. La fecha reúne memorias contrapuestas: la batalla de Blood River de 1838 en la tradición afrikáner y la fundación en 1961 de Umkhonto we Sizwe, brazo armado del ANC. Tras el apartheid, el gobierno democrático conservó el festivo, pero le dio otro sentido. Celebrado por primera vez con su nuevo nombre en 1995, promueve la unidad sin borrar el pasado dividido.",
+    "fr": "L'Afrique du Sud célèbre la Journée de la réconciliation le 16 décembre. Cette date évoquait des mémoires opposées : la bataille de Blood River en 1838 dans la tradition afrikaner et la fondation en 1961 d'Umkhonto we Sizwe, branche armée de l'ANC. Après l'apartheid, le gouvernement démocratique conserva ce jour férié tout en lui donnant un nouveau sens. Célébrée sous son nouveau nom dès 1995, la journée encourage l'unité sans effacer l'histoire.",
+    "de": "Südafrika begeht den Tag der Versöhnung am 16. Dezember. Das Datum war mit gegensätzlichen Erinnerungen verbunden: der Schlacht am Blood River von 1838 in der burischen Tradition und der Gründung des bewaffneten ANC-Arms Umkhonto we Sizwe im Jahr 1961. Nach der Apartheid behielt die demokratische Regierung den Feiertag bei, gab ihm aber eine neue Bedeutung. Seit der ersten Feier unter diesem Namen 1995 steht er für Einheit ohne Verdrängung der Vergangenheit.",
+    "pt": "A África do Sul celebra o Dia da Reconciliação em 16 de dezembro. A data reunia memórias opostas: a Batalha de Blood River, em 1838, na tradição africânder, e a criação, em 1961, de Umkhonto we Sizwe, braço armado do ANC. Após o apartheid, o governo democrático manteve o feriado, mas deu-lhe novo significado. Celebrado pela primeira vez com o novo nome em 1995, promove a unidade sem apagar o passado dividido."
+  },
+  "runtimeRichEditorialApproved": false
+}

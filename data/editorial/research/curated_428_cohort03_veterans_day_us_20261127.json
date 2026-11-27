@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "veterans-day-us",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-11",
+  "country": "US",
+  "documentedIntroductionYear": 1954,
+  "yearMeaning": "The federal Armistice Day holiday was established in 1938; Public Law 83-380 of 1 June 1954 changed its name and purpose to Veterans Day for all U.S. veterans.",
+  "authority": "United States Department of Veterans Affairs; U.S. Congress",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://department.va.gov/veterans-day/history-of-veterans-day/",
+      "claim": "The Department of Veterans Affairs traces the holiday from 1919 Armistice Day to the 1938 federal holiday and June 1, 1954 law changing its name to Veterans Day."
+    }
+  ],
+  "narratives": {
+    "en": "Veterans Day in the United States falls on 11 November. Its roots are in the armistice ending fighting in the First World War in 1918, commemorated as Armistice Day from 1919 and made a federal holiday in 1938. In 1954, Congress renamed the holiday Veterans Day to honor American veterans of all wars. It differs from Memorial Day, which specifically remembers those who died while serving in the armed forces.",
+    "it": "L'11 novembre gli Stati Uniti celebrano il Veterans Day. La ricorrenza nasce dall'armistizio del 1918 che fermò i combattimenti della Prima guerra mondiale: fu commemorato dal 1919 e divenne festa federale nel 1938. Nel 1954 il Congresso cambiò il nome in Veterans Day per onorare i veterani di tutte le guerre. È distinto dal Memorial Day, dedicato in particolare ai militari morti in servizio.",
+    "es": "El 11 de noviembre Estados Unidos celebra el Día de los Veteranos. Tiene su origen en el armisticio de 1918 que puso fin a los combates de la Primera Guerra Mundial; se conmemoró desde 1919 y fue festivo federal desde 1938. En 1954 el Congreso lo llamó Veterans Day para honrar a veteranos de todas las guerras. Es diferente del Memorial Day, dedicado a quienes murieron en servicio militar.",
+    "fr": "Le 11 novembre, les États-Unis célèbrent Veterans Day. La journée prend sa source dans l'armistice de 1918 qui mit fin aux combats de la Première Guerre mondiale, commémoré dès 1919 puis devenu jour férié fédéral en 1938. En 1954, le Congrès le rebaptisa pour honorer les anciens combattants de toutes les guerres. Elle se distingue de Memorial Day, consacré aux militaires morts en service.",
+    "de": "Am 11. November feiern die Vereinigten Staaten den Veterans Day. Der Tag geht auf den Waffenstillstand von 1918 zurück, der die Kämpfe des Ersten Weltkriegs beendete. Ab 1919 wurde er als Armistice Day begangen, 1938 Bundesfeiertag. 1954 benannte ihn der Kongress um, um Veteranen aller Kriege zu ehren. Er unterscheidet sich vom Memorial Day für im Militärdienst Gefallene.",
+    "pt": "Em 11 de novembro, os Estados Unidos celebram o Dia dos Veteranos. A data tem origem no armistício de 1918 que terminou os combates da Primeira Guerra Mundial, recordado desde 1919 e feriado federal desde 1938. Em 1954, o Congresso mudou o nome para homenagear veteranos de todas as guerras. É diferente do Memorial Day, dedicado aos militares que morreram em serviço."
+  },
+  "runtimeRichEditorialApproved": false
+}

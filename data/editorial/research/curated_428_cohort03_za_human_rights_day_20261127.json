@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "za-human-rights-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-21",
+  "country": "ZA",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "21 March 1960 was the Sharpeville massacre; today's democratic-state public holiday was designated later, not in 1960.",
+  "authority": "South African Government",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.za/news/events/commemorative-events/human-rights-day-1",
+      "claim": "Government confirms the annual 21 March Human Rights Day and its link to protests against pass laws in Sharpeville and Langa in 1960."
+    }
+  ],
+  "narratives": {
+    "en": "South Africa marks Human Rights Day on 21 March, honoring those who resisted apartheid and especially the victims of the Sharpeville massacre of 1960. Police opened fire on people protesting discriminatory pass laws, killing 69 demonstrators. The democratic state later chose this date to promote constitutional rights and dignity. The 1960 tragedy is the historical origin; it is not the year of the modern public holiday's creation.",
+    "it": "Il 21 marzo il Sudafrica celebra la Giornata dei diritti umani, ricordando chi si oppose all'apartheid e soprattutto le vittime del massacro di Sharpeville del 1960. La polizia sparò sui manifestanti contro le leggi discriminatorie sui lasciapassare, uccidendo 69 persone. Lo Stato democratico scelse poi questa data per valorizzare diritti costituzionali e dignità. Il 1960 è l'evento storico, non l'istituzione della festa moderna.",
+    "es": "Sudáfrica celebra el Día de los Derechos Humanos el 21 de marzo, honrando a quienes resistieron el apartheid y especialmente a las víctimas de la masacre de Sharpeville de 1960. La policía disparó contra manifestantes que protestaban por las leyes de pases, causando 69 muertos. El Estado democrático eligió después la fecha para promover derechos y dignidad. La tragedia de 1960 no es el año de creación del festivo actual.",
+    "fr": "Le 21 mars, l'Afrique du Sud célèbre la Journée des droits humains en hommage aux opposants à l'apartheid et aux victimes du massacre de Sharpeville en 1960. La police tira sur des manifestants contre les lois de laissez-passer et tua 69 personnes. L'État démocratique retint ensuite cette date pour défendre les droits constitutionnels et la dignité. La tragédie de 1960 n'est pas l'année de création du jour férié actuel.",
+    "de": "Südafrika begeht den Tag der Menschenrechte am 21. März und erinnert an den Widerstand gegen die Apartheid sowie die Opfer des Massakers von Sharpeville 1960. Die Polizei schoss auf Demonstrierende gegen diskriminierende Passgesetze und tötete 69 Menschen. Der demokratische Staat wählte den Tag später, um Grundrechte und Würde hervorzuheben. Das Ereignis 1960 ist nicht das Einführungsjahr des heutigen Feiertags.",
+    "pt": "A África do Sul celebra o Dia dos Direitos Humanos em 21 de março, homenageando a resistência ao apartheid e as vítimas do massacre de Sharpeville de 1960. A polícia disparou sobre manifestantes contra as leis discriminatórias de passes, matando 69 pessoas. O Estado democrático escolheu depois a data para promover direitos constitucionais e dignidade. A tragédia de 1960 não é o ano de criação do feriado moderno."
+  },
+  "runtimeRichEditorialApproved": false
+}
