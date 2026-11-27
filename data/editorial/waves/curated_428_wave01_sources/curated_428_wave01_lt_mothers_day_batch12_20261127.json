@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-mothers-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal creation year not established by cited sources.",
+  "authority": "Seimas of the Republic of Lithuania",
+  "dateReason": "Recurring rule verified from specific national legislation; requires canonical recurrence validation before runtime import.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/6eea48d294ea11eea70ce7cabd08f150/",
+      "claim": "The Lithuanian Labour Code explicitly establishes the first Sunday of May as Mother's Day public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania celebrates Mother's Day on the first Sunday of May, when families recognise mothers and other figures who provide care. Its date changes each year because it follows a weekday rule rather than a fixed day of the month. The national Labour Code specifically lists this Sunday as a public holiday.",
+    "it": "La Lituania celebra la Festa della mamma la prima domenica di maggio, quando le famiglie ringraziano le madri e le persone che svolgono un ruolo di cura. La data cambia ogni anno, perché dipende dalla domenica e non da un numero fisso del mese. Il Codice del lavoro la riconosce come festività pubblica.",
+    "es": "Lituania celebra el Día de la Madre el primer domingo de mayo, cuando las familias homenajean a las madres y a otras personas que cuidan de ellas. La fecha cambia cada año porque depende del día de la semana y no de un número fijo. El Código del Trabajo nacional reconoce esta jornada como festiva.",
+    "fr": "La Lituanie célèbre la fête des Mères le premier dimanche de mai, lorsque les familles rendent hommage aux mères et à celles qui prennent soin de leurs proches. La date change selon l'année, car elle dépend du dimanche plutôt que d'un jour fixe. Le Code du travail reconnaît cette journée comme fériée.",
+    "de": "Litauen feiert den Muttertag am ersten Sonntag im Mai und würdigt damit Mütter und andere Menschen, die Fürsorge leisten. Das Datum ändert sich jedes Jahr, weil es sich nach dem Wochentag und nicht nach einem festen Monatstag richtet. Das Arbeitsgesetzbuch führt diesen Sonntag als gesetzlichen Feiertag.",
+    "pt": "A Lituânia celebra o Dia da Mãe no primeiro domingo de maio, homenageando as mães e outras pessoas que prestam cuidados à família. A data muda todos os anos, pois depende do domingo e não de um dia fixo do mês. O Código do Trabalho nacional reconhece esta celebração como feriado público."
+  },
+  "runtimeRichEditorialApproved": false
+}

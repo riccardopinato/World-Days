@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-made-in-the-philippines-product-week",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CALENDAR_HOLD_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 1955,
+  "yearMeaning": "Legislative creation year of the recurring nationally defined month/week, not the original beginning of local cultural practice.",
+  "authority": "Philippine Supreme Court E-Library / Presidential Proclamation No. 222",
+  "dateReason": "1955 legal last-week-of-February calendar conflicts with canonical NCCA August 17-23 citing a superseded 1936 proclamation.",
+  "sourceEvidence": [
+    {
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/7/92308",
+      "claim": "The Philippine Supreme Court E-Library reproduces Proclamation No. 222 from 1955, consolidating earlier industry/product weeks into the last week of February each year.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The Philippines set the last week of February aside for Philippine Industry and Made-in-the-Philippines Products Week under a proclamation in 1955. It combined older campaigns that had used other dates, encouraging support for local producers and industries. The earlier product week calendar was superseded, so its original dates must not be presented as the current annual period.",
+    "it": "Le Filippine dedicano l'ultima settimana di febbraio all'industria e ai prodotti realizzati nel paese, secondo un proclama del 1955. La misura riunì iniziative precedenti, svolte in periodi diversi, per sostenere produttori e imprese locali. Le vecchie date furono superate e non devono essere presentate come calendario attuale.",
+    "es": "Filipinas dedica la última semana de febrero a la Industria Filipina y los Productos Hechos en Filipinas, según una proclamación de 1955. La norma unificó campañas anteriores que se celebraban en otras fechas, para apoyar a productores y empresas locales. El calendario previo fue sustituido y no debe confundirse con el periodo anual vigente.",
+    "fr": "Aux Philippines, la dernière semaine de février est consacrée à l'industrie et aux produits fabriqués dans le pays, selon une proclamation de 1955. Celle-ci a réuni des campagnes plus anciennes organisées à d'autres dates pour soutenir les entreprises locales. Les périodes précédentes ont été remplacées et ne constituent plus le calendrier annuel établi.",
+    "de": "Die Philippinen widmen nach einer Proklamation von 1955 die letzte Februarwoche der heimischen Industrie und den im Land hergestellten Produkten. Dabei wurden ältere Kampagnen mit anderen Terminen zusammengefasst, um lokale Unternehmen zu unterstützen. Die früheren Wochen wurden ersetzt und dürfen nicht als heutiger Jahreszeitraum gelten.",
+    "pt": "As Filipinas dedicam a última semana de fevereiro à indústria e aos produtos fabricados no país, conforme proclamação de 1955. A medida reuniu campanhas anteriores com datas diferentes para apoiar produtores e empresas locais. Os períodos antigos foram substituídos e não devem ser apresentados como o calendário anual em vigor."
+  },
+  "runtimeRichEditorialApproved": false,
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "CANONICAL_AUGUST_17_23_1936_IS_SUPERSEDED_BY_1955_PROCLAMATION_LAST_WEEK_FEBRUARY; DATE_SCOPE_RECONCILIATION_REQUIRED"
+  }
+}

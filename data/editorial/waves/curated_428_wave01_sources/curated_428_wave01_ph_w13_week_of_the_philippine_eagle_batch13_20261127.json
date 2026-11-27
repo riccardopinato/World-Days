@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-week-of-the-philippine-eagle",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 1998,
+  "yearMeaning": "Legislative creation year of the recurring nationally defined month/week, not the original beginning of local cultural practice.",
+  "authority": "President of the Philippines / Proclamation No. 79",
+  "dateReason": "Month/week recurrence anchored in explicit primary proclamation; canonical recurrence rule and monthly interval must be checked before app publication.",
+  "sourceEvidence": [
+    {
+      "url": "https://lawphil.net/executive/proc/proc1998/proc_79_1998.html",
+      "claim": "Proclamation No. 79 of February 1998 declares Philippine Eagle Week from 4 to 10 June every year, focused on protection of species and forest habitat.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The Philippines observes Philippine Eagle Week from 4 to 10 June under a presidential proclamation issued in 1998. The campaign draws attention to the critically endangered national bird and the forests it needs to survive. Government offices, schools, conservation groups and communities are encouraged to protect its habitat and address illegal capture.",
+    "it": "Le Filippine celebrano la Settimana dell'aquila filippina dal 4 al 10 giugno, secondo un proclama presidenziale del 1998. La campagna richiama l'attenzione su questo uccello nazionale gravemente minacciato e sulle foreste necessarie alla sua sopravvivenza. Enti, scuole e associazioni sono invitati a proteggerne l'habitat.",
+    "es": "Filipinas celebra la Semana del Águila Filipina del 4 al 10 de junio mediante una proclamación presidencial de 1998. La iniciativa alerta sobre el peligro de extinción de esta ave nacional y sobre la importancia de los bosques donde vive. Instituciones, escuelas y grupos ecologistas promueven la defensa del hábitat y contra las capturas ilegales.",
+    "fr": "Les Philippines célèbrent la Semaine de l'aigle des Philippines du 4 au 10 juin, selon une proclamation présidentielle de 1998. La campagne sensibilise au risque critique d'extinction de l'oiseau national et à la préservation des forêts dont il dépend. Institutions, écoles et associations soutiennent la protection de son habitat.",
+    "de": "Die Philippinen begehen vom 4. bis 10. Juni die Woche des Philippinenadlers nach einer Präsidialproklamation von 1998. Sie macht auf die kritische Gefährdung des Nationalvogels und die Bedeutung seiner Waldlebensräume aufmerksam. Behörden, Schulen und Naturschutzgruppen werben für Schutzmaßnahmen und gegen illegale Fänge.",
+    "pt": "As Filipinas celebram a Semana da Águia-Filipina de 4 a 10 de junho, conforme proclamação presidencial de 1998. A campanha alerta para o estado criticamente ameaçado da ave nacional e para a importância das florestas onde vive. Escolas, instituições e grupos de conservação promovem a proteção do habitat e o combate à captura ilegal."
+  },
+  "runtimeRichEditorialApproved": false
+}
