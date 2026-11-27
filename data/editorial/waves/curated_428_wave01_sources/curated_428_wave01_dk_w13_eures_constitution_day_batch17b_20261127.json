@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "dk-w13-eures-constitution-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-05",
+  "country": "DK",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical event years documented in primary source; year of original modern statutory festival introduction not asserted.",
+  "authority": "Official Denmark national portal",
+  "dateReason": "Observed fixed annual date from official government or national calendar; source chronology distinct from statutory year.",
+  "sourceEvidence": [
+    {
+      "url": "https://denmark.dk/society-and-business/government-and-politics/",
+      "claim": "Official Denmark government-facing information states that Constitution Day is celebrated every 5 June and commemorates Denmark's first constitution of 1849.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Denmark marks Constitution Day on 5 June, recalling the first constitution signed in 1849. It transformed the kingdom into a constitutional monarchy and established a framework for representative government. Political speeches and civic gatherings reflect on democratic institutions; Denmark treats the day as an important national observance rather than calling it a separate independence day.",
+    "it": "La Danimarca celebra la Giornata della Costituzione il 5 giugno, ricordando la prima carta firmata nel 1849. Il testo trasformò il regno in una monarchia costituzionale e pose le basi della rappresentanza politica. Discorsi e incontri civici riflettono sulle istituzioni democratiche: non è una distinta festa dell'indipendenza.",
+    "es": "Dinamarca celebra el Día de la Constitución el 5 de junio, recordando la primera carta firmada en 1849. Transformó el reino en monarquía constitucional y sentó bases para la representación política. Discursos y encuentros ciudadanos reflexionan sobre las instituciones democráticas; no se trata de una fiesta de independencia diferente.",
+    "fr": "Le Danemark célèbre la fête de la Constitution le 5 juin, en souvenir du premier texte constitutionnel signé en 1849. Celui-ci transforma le royaume en monarchie constitutionnelle et posa les bases de la représentation politique. Discours et rassemblements citoyens célèbrent les institutions démocratiques, sans en faire une fête distincte de l'indépendance.",
+    "de": "Dänemark begeht am 5. Juni den Verfassungstag und erinnert an die erste, 1849 unterzeichnete Verfassung. Sie machte das Königreich zur konstitutionellen Monarchie und schuf Grundlagen politischer Vertretung. Reden und Bürgertreffen würdigen demokratische Institutionen; es handelt sich nicht um einen eigenständigen Unabhängigkeitstag.",
+    "pt": "A Dinamarca celebra o Dia da Constituição em 5 de junho, recordando a primeira constituição assinada em 1849. O texto transformou o reino numa monarquia constitucional e lançou bases para a representação política. Discursos e encontros cívicos refletem sobre as instituições democráticas, sem o confundir com um dia separado de independência."
+  },
+  "runtimeRichEditorialApproved": false
+}
