@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "fasttrack_source_provenance_checkpoint",
+  "createdDate": "2026-11-27",
+  "canonicalId": "jo-dfat-national-day",
+  "wave": 3,
+  "cohort": 4,
+  "source": {
+    "path": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave03_jo_independence_20261127.json",
+    "gitBlobSha": "fe97cd75ef802721e2eafc2f378b964cbc45812c",
+    "branch": "editorial/wave03-jordan-independence-20261127"
+  },
+  "checks": {
+    "canonicalWaveMembership": "CONFIRMED_BLOCK03",
+    "cohortMembership": "CONFIRMED_COHORT04_SEARCH",
+    "sixLocales": [
+      "en",
+      "it",
+      "es",
+      "fr",
+      "de",
+      "pt"
+    ],
+    "date": "05-25",
+    "legalAnnualInstitutionYear": null,
+    "sourceUrlsPresent": 2,
+    "sourceEvidenceIndependentReverification": "PENDING",
+    "runtimeApproval": false,
+    "exactHeadCi": "NOT_VERIFIED",
+    "mainIntegrated": false
+  },
+  "decision": "HOLD_UNTIL_SOURCE_REVERIFICATION_IMPORTER_VALIDATOR_AND_EXACT_HEAD_CI",
+  "notes": "Source SHA pins the exact draft; it is not proof of factual verification. Historical declaration year 1946 must not be used as annual holiday legal-introduction year without a separate primary legal source."
+}
