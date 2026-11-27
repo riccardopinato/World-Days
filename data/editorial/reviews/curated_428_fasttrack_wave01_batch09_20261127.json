@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH09",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "cff58aeaa849cd8121f09f45456f0d13b90aaebf",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Six specific governmental/legislative public-holiday records for France Croatia and Latvia; six unique localized texts each, source specific, legal introduction year kept null where not verified; no human expert certificate.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch09": 179,
+  "proposedBatch09": 6,
+  "records": [
+    {
+      "id": "fr-w13-eures-labour-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_fr_w13_eures_labour_day_batch09_20261127.json",
+      "sourceBlobSha": "5eb39eaac26c478838af094d6c2cd1d86d87bced",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "fr-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_fr_w13_eures_new_year_s_day_batch09_20261127.json",
+      "sourceBlobSha": "5506ebe5badb7146b595e8bd59e216576fc00734",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "hr-w13-eures-epiphany",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_hr_w13_eures_epiphany_batch09_20261127.json",
+      "sourceBlobSha": "a941b0cfdd00cda6017c2a3248350b238bc2ac03",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "hr-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_hr_w13_eures_new_year_s_day_batch09_20261127.json",
+      "sourceBlobSha": "847fde83638b4b5c8050d71b8619ddae65464bb0",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-w13-eures-christmas-eve",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_w13_eures_christmas_eve_batch09_20261127.json",
+      "sourceBlobSha": "29e12816672a7e4eba9685c740d269cfd48ffe45",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_w13_eures_new_year_s_day_batch09_20261127.json",
+      "sourceBlobSha": "5b6b38eb978e03ff020875b1e5a41da8db96616e",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
