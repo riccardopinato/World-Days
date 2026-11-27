@@ -144,7 +144,7 @@ def run():
     index_path=REPORT/"index.json"
     if index_path.exists():
         idx=load(index_path)
-        assert idx["contextualOriginPending"]==217-before and idx["nonContextualRich"]==523+before
+        assert idx["contextualOriginPending"]==217-before and idx["nonContextualRich"]==730+before
         previous=set(idx["fastTrackIntegratedIds"])
         assert len(previous)==211+before and not (set(selected)&previous)
         idx["fastTrackIntegratedIds"]=sorted(previous|set(selected))
