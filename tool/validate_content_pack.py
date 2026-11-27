@@ -168,7 +168,9 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
     cohort03_batch17_count = json.loads(cohort03_batch17_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch17_report.exists() else 0
     cohort03_batch18_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch18_runtime_import.json"
     cohort03_batch18_count = json.loads(cohort03_batch18_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch18_report.exists() else 0
-    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack + bulk_count + prepared85_count + wave01_count + batch02_count + batch03_count + batch04_count + batch05_count + batch06_count + batch07_count + batch08_count + batch09_count + batch10_count + batch11_count + batch12_13_count + batch14_count + batch15_count + cohort03_batch16_count + cohort03_batch17_count + cohort03_batch18_count
+    cohort03_batch19_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch19_runtime_import.json"
+    cohort03_batch19_count = json.loads(cohort03_batch19_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch19_report.exists() else 0
+    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack + bulk_count + prepared85_count + wave01_count + batch02_count + batch03_count + batch04_count + batch05_count + batch06_count + batch07_count + batch08_count + batch09_count + batch10_count + batch11_count + batch12_13_count + batch14_count + batch15_count + cohort03_batch16_count + cohort03_batch17_count + cohort03_batch18_count + cohort03_batch19_count
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
     assert pack == bundled, ("remote_payload_drift", locale)

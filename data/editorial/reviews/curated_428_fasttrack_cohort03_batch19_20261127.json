@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH19",
+  "factoryBaseline": "a68d5ab2a45c30b1f46a91eb79f32685b81df73b",
+  "sourceMain": "c6891debd88be327719511154df9a8df872d0d6f",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Iceland Commerce Day original VR union page verifies 13 Sep 1894 and 1931 first Monday of August; first Summer Day independently cross-checked with municipal Reykjavik / tourism primary source for first Thursday after Apr 18; National Day U.S. Office of Historian supports constitutional founding 17 June 1944. All year fields stay null as modern legal institution unproven; three six-locale dossiers inspected for year anchors and source specificity. Not an expert certification.",
+  "humanCertified": false,
+  "cohort": 3,
+  "alreadyIntegratedBeforeBatch19": 220,
+  "proposedBatch19": 3,
+  "records": [
+    {
+      "id": "is-commerce-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_commerce_day_20261127.json",
+      "sourceBlobSha": "2ffe8f7ece7d247c388c807dc0011ec12f8240ce",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "is-first-day-of-summer",
+      "sourceFile": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_first_day_of_summer_20261127.json",
+      "sourceBlobSha": "d9abf413820f7c954f5402b89026c0d02d64de59",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "is-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave02_sources/curated_428_wave02_is_independence_day_20261127.json",
+      "sourceBlobSha": "13e3915842516bf64f2b860886467640101baf05",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
