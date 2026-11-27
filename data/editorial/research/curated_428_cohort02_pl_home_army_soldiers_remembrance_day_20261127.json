@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-home-army-soldiers-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-14",
+  "country": "PL",
+  "documentedIntroductionYear": 2025,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/eli/DU/2025/165/ogl",
+      "claim": "Act of 9 January 2025 established 14 February as the national remembrance day of Home Army soldiers.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland remembers Home Army soldiers on 14 February, the anniversary of the underground army's formation in 1942. The force operated under the authority of the Polish Underground State during German occupation. Parliament legally established the national remembrance in 2025. The wartime organization's founding and its modern civic recognition are separate milestones.",
+    "it": "Il 14 febbraio la Polonia ricorda i soldati dell'Armia Krajowa, nata nel 1942 come esercito clandestino durante l'occupazione tedesca. L'organizzazione agiva nel quadro dello Stato polacco sotterraneo. Il Parlamento ha istituito la ricorrenza nazionale nel 2025: la fondazione militare e il riconoscimento civile sono eventi distinti.",
+    "es": "El 14 de febrero Polonia recuerda a los soldados del Ejército Nacional, formado en 1942 como fuerza clandestina durante la ocupación alemana. Actuaba dentro del Estado polaco subterráneo. El Parlamento creó legalmente la jornada nacional en 2025: la fundación militar y el reconocimiento cívico actual son hitos diferentes.",
+    "fr": "Le 14 février, la Pologne commémore les soldats de l'Armia Krajowa, armée clandestine créée en 1942 sous l'occupation allemande. Elle agissait au sein de l'État polonais souterrain. Le Parlement a institué cette journée nationale en 2025; la fondation militaire et la reconnaissance civique contemporaine sont deux événements distincts.",
+    "de": "Am 14. Februar gedenkt Polen der Soldaten der Heimatarmee, die 1942 als Untergrundstreitmacht unter deutscher Besatzung gegründet wurde. Sie gehörte zum polnischen Untergrundstaat. Das Parlament führte den nationalen Gedenktag 2025 ein; militärische Gründung und heutige staatliche Anerkennung sind getrennte Ereignisse.",
+    "pt": "A 14 de fevereiro, a Polónia recorda os soldados do Exército Nacional, criado em 1942 como força clandestina durante a ocupação alemã. Integrava o Estado polaco subterrâneo. O Parlamento instituiu o dia nacional de memória em 2025; a fundação militar e o reconhecimento cívico contemporâneo são acontecimentos distintos."
+  },
+  "runtimeRichEditorialApproved": false
+}

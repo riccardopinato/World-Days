@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-solidarity-and-freedom-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-31",
+  "country": "PL",
+  "documentedIntroductionYear": 2005,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Polish Parliament",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2005/1295/text.html",
+      "claim": "Act of 27 July 2005 created Solidarity and Freedom Day on 31 August, linked to the Gdansk Agreements of 1980.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland observes Solidarity and Freedom Day on 31 August. The 1980 Gdańsk Agreement between striking shipyard workers and communist authorities helped open the way for the independent Solidarity union. The movement was central to Poland's democratic transformation. Parliament established the national commemoration by law in 2005.",
+    "it": "Il 31 agosto la Polonia celebra Solidarietà e Libertà. L'accordo di Danzica del 1980 fra operai dei cantieri in sciopero e autorità comuniste aprì la strada al sindacato indipendente Solidarność. Il movimento contribuì alla trasformazione democratica. Il Parlamento istituì la giornata con una legge del 2005.",
+    "es": "Polonia celebra Solidaridad y Libertad el 31 de agosto. El Acuerdo de Gdańsk de 1980 entre trabajadores de astilleros en huelga y autoridades comunistas abrió paso al sindicato independiente Solidaridad. El movimiento impulsó la transformación democrática. El Parlamento creó la conmemoración mediante una ley de 2005.",
+    "fr": "La Pologne célèbre Solidarité et Liberté le 31 août. L'accord de Gdańsk de 1980 entre ouvriers des chantiers navals en grève et autorités communistes permit l'essor du syndicat indépendant Solidarność. Le mouvement contribua à la transition démocratique. Le Parlement créa la commémoration par une loi de 2005.",
+    "de": "Polen begeht am 31. August den Tag der Solidarität und Freiheit. Das Danziger Abkommen von 1980 zwischen streikenden Werftarbeitern und kommunistischen Behörden ermöglichte die unabhängige Gewerkschaft Solidarność. Sie prägte den demokratischen Wandel. Das Parlament führte den Gedenktag mit einem Gesetz von 2005 ein.",
+    "pt": "A Polónia celebra Solidariedade e Liberdade em 31 de agosto. O Acordo de Gdańsk de 1980 entre operários dos estaleiros em greve e autoridades comunistas permitiu o sindicato independente Solidarność. O movimento marcou a transição democrática. O Parlamento instituiu a comemoração por lei de 2005."
+  },
+  "runtimeRichEditorialApproved": false
+}

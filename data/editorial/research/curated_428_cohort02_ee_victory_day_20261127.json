@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-victory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-23",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Riigikogu / Riigi Teataja",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+      "claim": "The Estonian Public Holidays Act lists 23 June as Victory Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia celebrates Victory Day on 23 June, recalling its army's victory over the Landeswehr near Võnnu in 1919. The battle helped defend independence during the War of Independence. The date is recognized in Estonia's public-holiday law. The battle year does not identify the first legal institution of the present observance.",
+    "it": "Il 23 giugno l'Estonia celebra la Vittoria del 1919 sulla Landeswehr presso Võnnu. La battaglia contribuì a difendere l'indipendenza durante la guerra di liberazione. La legge estone riconosce questa festività nazionale. L'anno dello scontro non identifica l'istituzione originaria della commemorazione attuale.",
+    "es": "Estonia celebra el 23 de junio la victoria de 1919 frente a la Landeswehr cerca de Võnnu. La batalla contribuyó a defender la independencia durante la guerra nacional. La legislación estonia reconoce esta fiesta pública. El año de la batalla no determina cuándo se estableció legalmente la conmemoración actual.",
+    "fr": "L'Estonie célèbre le 23 juin la victoire de 1919 contre la Landeswehr près de Võnnu. Cette bataille contribua à défendre l'indépendance du pays. La loi estonienne reconnaît cette fête nationale. La date de la victoire ne démontre pas à elle seule l'année de création juridique de la commémoration actuelle.",
+    "de": "Estland feiert am 23. Juni den Sieg von 1919 gegen die Landeswehr bei Võnnu. Die Schlacht trug zur Verteidigung der Unabhängigkeit bei. Das estnische Feiertagsgesetz erkennt den Siegestag ausdrücklich an. Aus dem Jahr der Schlacht ergibt sich jedoch nicht das ursprüngliche gesetzliche Einführungsjahr des heutigen Feiertags.",
+    "pt": "A Estónia assinala em 23 de junho a vitória de 1919 sobre a Landeswehr perto de Võnnu. A batalha ajudou a defender a independência nacional. A legislação estónia reconhece esta festa pública. O ano do acontecimento militar não comprova quando foi instituída legalmente a comemoração atual."
+  },
+  "runtimeRichEditorialApproved": false
+}

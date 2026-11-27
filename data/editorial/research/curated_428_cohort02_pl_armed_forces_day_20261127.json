@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-armed-forces-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-15",
+  "country": "PL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Polish Ministry of National Defence",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.pl/web/national-defence/polish-army-day---lets-thank-the-soldiers-for-their-service",
+      "claim": "The Ministry confirms 15 August as Armed Forces Day commemorating the 1920 Battle of Warsaw.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland honours its Armed Forces on 15 August, recalling the Battle of Warsaw of 1920, when Polish troops halted the Red Army's advance. The victory became a symbol of national independence and defence. Military ceremonies honour service members and the fallen; the historical battle year is not proof of the modern holiday's first statutory designation.",
+    "it": "Il 15 agosto la Polonia rende omaggio alle Forze armate, ricordando la battaglia di Varsavia del 1920, che fermò l'avanzata dell'Armata Rossa. La vittoria simboleggia la difesa dell'indipendenza. Cerimonie militari ricordano soldati e caduti; l'anno della battaglia non documenta la prima istituzione legislativa della festa attuale.",
+    "es": "Polonia homenajea a sus Fuerzas Armadas el 15 de agosto, fecha ligada a la batalla de Varsovia de 1920, cuando se frenó el avance del Ejército Rojo. La victoria simboliza la defensa de la independencia. Las ceremonias recuerdan a militares y caídos; el año de la batalla no prueba cuándo se creó legalmente la fiesta actual.",
+    "fr": "La Pologne honore ses forces armées le 15 août, date liée à la bataille de Varsovie de 1920, qui arrêta l'avance de l'Armée rouge. La victoire symbolise la défense de l'indépendance. Les cérémonies saluent militaires et morts au combat; l'année de la bataille n'établit pas celle de la première création légale de la fête.",
+    "de": "Polen ehrt seine Streitkräfte am 15. August und erinnert an die Schlacht bei Warschau 1920, in der der Vormarsch der Roten Armee gestoppt wurde. Der Sieg steht für die Verteidigung der Unabhängigkeit. Zeremonien würdigen Soldaten und Gefallene; das Schlachtjahr beweist nicht das ursprüngliche gesetzliche Einführungsjahr.",
+    "pt": "A Polónia homenageia as suas Forças Armadas em 15 de agosto, recordando a Batalha de Varsóvia de 1920, que travou o Exército Vermelho. A vitória simboliza a defesa da independência. As cerimónias honram militares e mortos em combate; o ano da batalha não comprova a criação legal da festa atual."
+  },
+  "runtimeRichEditorialApproved": false
+}
