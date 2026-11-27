@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-feast-of-st-joseph",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-19",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Government of Malta public service",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://publicservice.gov.mt/Media/PSMC%20Documents/PSMC_2.pdf?v=202606232300",
+      "claim": "Maltese public service holiday list confirms Feast of St Joseph as a public holiday on 19 March.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Malta observes the Feast of St Joseph on 19 March as an official public holiday. The Catholic celebration honours Joseph, traditionally regarded as the husband of Mary and the guardian of Jesus. It forms part of the islands' religious calendar alongside other feasts. The official holiday list confirms its present date but not the original year of its legal introduction.",
+    "it": "Il 19 marzo Malta celebra la Festa di san Giuseppe, riconosciuta come festività pubblica. La ricorrenza cattolica onora Giuseppe, tradizionalmente considerato sposo di Maria e custode di Gesù. È una delle feste del calendario religioso maltese. L'elenco ufficiale conferma la data, ma non l'anno della sua prima istituzione legislativa.",
+    "es": "Malta celebra la Fiesta de San José el 19 de marzo como festivo oficial. La celebración católica honra a José, considerado tradicionalmente esposo de María y protector de Jesús. Forma parte del calendario religioso de las islas. La lista oficial acredita su fecha actual, pero no determina cuándo se estableció por primera vez como festivo.",
+    "fr": "Malte célèbre la fête de saint Joseph le 19 mars en tant que jour férié officiel. Cette célébration catholique honore Joseph, traditionnellement considéré comme l'époux de Marie et le protecteur de Jésus. Elle s'inscrit dans le calendrier religieux maltais. La liste publique confirme la date actuelle, mais non l'année de sa création juridique initiale.",
+    "de": "Malta begeht am 19. März das Fest des heiligen Josef als gesetzlichen Feiertag. Die katholische Feier ehrt Josef, der traditionell als Ehemann Marias und Beschützer Jesu gilt. Das Fest gehört zum religiösen Kalender der Inseln. Die amtliche Feiertagsliste bestätigt das Datum, nicht aber das Jahr seiner ersten gesetzlichen Einführung.",
+    "pt": "Malta celebra a Festa de São José em 19 de março como feriado oficial. A celebração católica homenageia José, tradicionalmente considerado esposo de Maria e protetor de Jesus. Integra o calendário religioso das ilhas. A lista oficial confirma a data atual, mas não permite identificar o ano da primeira instituição legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

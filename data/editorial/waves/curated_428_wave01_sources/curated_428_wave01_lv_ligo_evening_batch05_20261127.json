@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-ligo-evening",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-23",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Republic of Latvia legislation / Latvian tourism board",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+      "claim": "Latvian public holiday law lists 23 June as Līgo Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.latvia.travel/en/culture-and-traditions-latvia",
+      "claim": "Latvia's tourism board documents wreaths, herbs, bonfires, folk songs and Midsummer Eve traditions.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia celebrates Līgo on 23 June, the eve of Jāņi, as a public holiday linked to midsummer. Families gather, sing traditional songs, make flower wreaths and light bonfires through the short summer night. The celebration reflects older seasonal customs that survived within modern national culture. Latvian law lists 23 June as Līgo Day.",
+    "it": "Il 23 giugno la Lettonia celebra Līgo, la vigilia di Jāņi, come festività pubblica legata al solstizio d'estate. Famiglie e amici cantano, intrecciano corone di fiori e accendono falò nella breve notte estiva. La festa conserva antiche tradizioni stagionali. La legge lettone riconosce ufficialmente il 23 giugno come giorno di Līgo.",
+    "es": "Letonia celebra Līgo el 23 de junio, víspera de Jāņi y festivo público ligado al solsticio de verano. Las familias se reúnen para cantar, trenzar coronas de flores y encender hogueras durante la breve noche. La celebración mantiene antiguas costumbres estacionales. La legislación letona reconoce oficialmente esta fecha.",
+    "fr": "La Lettonie fête Līgo le 23 juin, veille de Jāņi et jour férié lié au solstice d'été. Familles et amis chantent, tressent des couronnes de fleurs et allument des feux durant la courte nuit estivale. La célébration perpétue des coutumes saisonnières anciennes. La loi lettone inscrit officiellement cette date parmi les jours fériés.",
+    "de": "Lettland feiert Līgo am 23. Juni, am Vorabend von Jāņi und als gesetzlichen Feiertag zur Mittsommerzeit. Familien singen traditionelle Lieder, flechten Blumenkränze und entzünden Feuer in der kurzen Sommernacht. Das Fest bewahrt alte Jahreszeitenbräuche. Das lettische Feiertagsgesetz nennt den 23. Juni ausdrücklich als Līgo-Tag.",
+    "pt": "A Letónia celebra Līgo em 23 de junho, véspera de Jāņi e feriado ligado ao solstício de verão. Famílias e amigos cantam, fazem coroas de flores e acendem fogueiras durante a curta noite estival. A festa preserva antigos costumes sazonais. A lei letã reconhece oficialmente esta data como Dia de Līgo."
+  },
+  "runtimeRichEditorialApproved": false
+}

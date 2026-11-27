@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH04",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "c81d3c4a802fc5798843f94864f3339479303b55",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Four six-locale dossiers for historical observances cross-checked against Polish legislation, Argentine Law 25.370, and Maltese public-holiday listing; no human expert certificate.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch04": 150,
+  "proposedBatch04": 4,
+  "records": [
+    {
+      "id": "ar-malvinas-veterans-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_malvinas_veterans_day_batch04_20261127.json",
+      "sourceBlobSha": "f070d878c07fc6a3fbde8fba0e8dff0155758b8e",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mt-st-pauls-shipwreck-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_st_pauls_shipwreck_day_batch04_20261127.json",
+      "sourceBlobSha": "8d35fe8a0f2aad47e0564d8d8f2d889ba0f993ef",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-poles-who-saved-jews-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_poles_who_saved_jews_remembrance_day_batch04_20261127.json",
+      "sourceBlobSha": "e3a373918325d1adf5718948d5da9dababf6729d",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-warsaw-uprising-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_warsaw_uprising_remembrance_day_batch04_20261127.json",
+      "sourceBlobSha": "0e6a34482ae7d49fc6f4fc3625ad0472e7e6a2cc",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

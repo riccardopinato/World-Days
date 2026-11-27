@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-st-pauls-shipwreck-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-10",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Year of legal introduction where explicitly documented; historical event date is separate; null means not documented.",
+  "authority": "Government of Malta and Transport Malta",
+  "dateReason": "Primary governmental or legislative source establishes the annual commemoration date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "claim": "Government of Malta lists the Feast of St Paul's Shipwreck on 10 February as a public holiday; Maltese institutional material links the tradition to Paul's shipwreck on Malta.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Malta celebrates the Feast of St Paul's Shipwreck on 10 February as a public holiday. The tradition recalls the biblical account of Paul's arrival after a shipwreck on the island, an important story in Maltese Christian heritage. The official calendar confirms the date, but does not by itself establish the year when the holiday was first introduced.",
+    "it": "Il 10 febbraio Malta celebra la Festa del naufragio di san Paolo, riconosciuta come festività pubblica. La tradizione ricorda il racconto biblico dell'arrivo dell'apostolo sull'isola dopo un naufragio, centrale nella memoria cristiana maltese. Il calendario ufficiale conferma la data, ma non l'anno della prima istituzione della festa.",
+    "es": "Malta celebra el 10 de febrero la Fiesta del Naufragio de San Pablo, reconocida como festivo público. La tradición recuerda el relato bíblico de la llegada del apóstol a la isla tras un naufragio, importante para la herencia cristiana maltesa. El calendario oficial confirma la fecha, no el año de creación legal de la festividad.",
+    "fr": "Malte célèbre le 10 février la fête du naufrage de saint Paul, reconnue comme jour férié. La tradition évoque le récit biblique de son arrivée sur l'île après un naufrage, un épisode majeur de l'héritage chrétien maltais. Le calendrier officiel confirme la date, sans établir l'année de la première instauration de la fête.",
+    "de": "Malta begeht am 10. Februar das Fest des Schiffbruchs des heiligen Paulus als gesetzlichen Feiertag. Die Tradition erinnert an den biblischen Bericht seiner Ankunft auf der Insel nach einem Schiffbruch, der für Maltas christliches Erbe bedeutend ist. Der amtliche Feiertagskalender bestätigt das Datum, nicht das ursprüngliche Einführungsjahr.",
+    "pt": "Malta celebra em 10 de fevereiro a Festa do Naufrágio de São Paulo como feriado público. A tradição recorda o relato bíblico da chegada do apóstolo à ilha após um naufrágio, importante no património cristão maltês. O calendário oficial confirma a data, mas não determina o ano em que o feriado foi inicialmente instituído."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-cultural-diversity-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-12",
+  "country": "AR",
+  "documentedIntroductionYear": 2010,
+  "yearMeaning": "Legal institution or denomination change year; distinguish from historical event year.",
+  "authority": "Argentine Presidency / National Executive Decree 1584/2010",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-1584-2010-174389/texto",
+      "claim": "Decree 1584/2010 names 12 October the Day of Respect for Cultural Diversity, explicitly changing the preceding name.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina observes the Day of Respect for Cultural Diversity on 12 October. A 2010 decree replaced the former holiday name, shifting its official emphasis towards historical reflection and respect for Indigenous peoples and cultural plurality. The date remains associated with the encounter and colonisation of the Americas; 2010 marks the change of name, not the beginning of that history.",
+    "it": "Il 12 ottobre l'Argentina celebra la Giornata del rispetto della diversità culturale. Un decreto del 2010 ha sostituito la precedente denominazione della festa, spostando l'attenzione ufficiale sulla riflessione storica e sul rispetto dei popoli indigeni. Il 2010 indica il cambiamento del nome, non l'inizio degli eventi ricordati.",
+    "es": "El 12 de octubre Argentina conmemora el Día del Respeto a la Diversidad Cultural. Un decreto de 2010 sustituyó el nombre anterior y orientó la fecha hacia la reflexión histórica y el respeto por los pueblos originarios y la diversidad cultural. El año 2010 corresponde al cambio de denominación, no al comienzo de la historia recordada.",
+    "fr": "Le 12 octobre, l'Argentine célèbre la Journée du respect de la diversité culturelle. Un décret de 2010 a remplacé l'ancien nom de la fête afin de privilégier la réflexion historique et le respect des peuples autochtones et de la diversité. L'année 2010 marque ce changement officiel, non le début des événements historiques évoqués.",
+    "de": "Am 12. Oktober begeht Argentinien den Tag des Respekts vor kultureller Vielfalt. Ein Dekret von 2010 ersetzte den früheren Feiertagsnamen und stellte historische Reflexion sowie den Respekt gegenüber indigenen Völkern in den Mittelpunkt. 2010 bezeichnet die amtliche Umbenennung und nicht den Beginn der historischen Ereignisse.",
+    "pt": "Em 12 de outubro, a Argentina assinala o Dia do Respeito pela Diversidade Cultural. Um decreto de 2010 substituiu a designação anterior do feriado, promovendo reflexão histórica e respeito pelos povos indígenas e pela diversidade cultural. O ano de 2010 refere-se à mudança oficial do nome, não ao início da história evocada."
+  },
+  "runtimeRichEditorialApproved": false
+}

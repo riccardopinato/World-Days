@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-jonines-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-24",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Seimas of Lithuania / Lithuania Travel",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-seimas.lrs.lt/rs/actualedition/10c6bfd07bd511e6a0f68fd135e6f40c/gOhafIfuki/",
+      "claim": "Lithuanian Labour Code lists 24 June as Rasos and Joninės public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://lithuania.travel/en/where-to-visit/seasonal-highlights/summer/midsummer-in-lithuania",
+      "claim": "Lithuania's national tourism portal describes bonfires, songs, wreaths and fern-flower legends of Joninės.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania celebrates Joninės, also called Rasos or Saint John's Day, on 24 June. Midsummer gatherings bring bonfires, songs, flower wreaths and stories about the mythical fern blossom. The traditions blend pre-Christian seasonal customs with the later Christian name. The Lithuanian Labour Code names this date as a public holiday.",
+    "it": "Il 24 giugno la Lituania celebra Joninės, detta anche Rasos o festa di san Giovanni. Le riunioni di mezza estate comprendono falò, canti, corone di fiori e leggende sul mitico fiore della felce. La tradizione intreccia antichi riti stagionali e un nome cristiano successivo. Il Codice del lavoro lituano riconosce la festività.",
+    "es": "Lituania celebra Joninės, también llamada Rasos o fiesta de San Juan, el 24 de junio. Las reuniones de verano incluyen hogueras, canciones, coronas florales y la leyenda de la flor del helecho. La tradición reúne costumbres estacionales anteriores al cristianismo y una denominación cristiana posterior. La legislación laboral reconoce el festivo.",
+    "fr": "La Lituanie fête Joninės, également appelée Rasos ou Saint-Jean, le 24 juin. Les rassemblements d'été mêlent feux de joie, chants, couronnes de fleurs et légende de la fleur de fougère. Cette tradition associe des rites saisonniers anciens à un nom chrétien ultérieur. Le Code du travail lituanien reconnaît cette date comme jour férié.",
+    "de": "Litauen feiert am 24. Juni Joninės, auch Rasos oder Johannistag genannt. Mittsommerfeste verbinden Feuer, Gesang, Blumenkränze und die Legende von der Farnblüte. Die Bräuche vereinen vorchristliche Jahreszeitenriten mit einer späteren christlichen Bezeichnung. Das litauische Arbeitsgesetz führt den Tag als gesetzlichen Feiertag.",
+    "pt": "A Lituânia celebra Joninės, também chamada Rasos ou Dia de São João, em 24 de junho. As festas de verão incluem fogueiras, cantos, coroas de flores e a lenda da flor do feto. A tradição junta costumes sazonais pré-cristãos a uma designação cristã posterior. O Código do Trabalho lituano reconhece a data como feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}
