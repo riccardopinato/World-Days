@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "ee-day-of-mourning",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-14",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Republic of Estonia, Riigi Teataja",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "claim": "Estonian Flag Act lists 14 June as Day of Mourning, requiring the national flag in mourning configuration."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia observes 14 June as the Day of Mourning, remembering mass deportations under Soviet rule in June 1941. Families were removed from their homes, separated and sent to remote areas of the Soviet Union. Flags are flown in mourning and public ceremonies honor those who suffered. The Estonian Flag Act identifies the date among commemorative flag days. The year 1941 describes the deportations, not necessarily the first legal designation of the memorial.",
+    "it": "Il 14 giugno l'Estonia celebra la Giornata del lutto, ricordando le deportazioni di massa sotto il dominio sovietico nel giugno 1941. Famiglie furono strappate alle case, separate e inviate in regioni remote dell'Unione Sovietica. Le bandiere sono esposte a lutto e le cerimonie ricordano le vittime. La legge estone sulla bandiera include la data tra le commemorazioni. Il 1941 indica gli eventi storici, non necessariamente l'anno d'istituzione della giornata.",
+    "es": "El 14 de junio Estonia observa el Día de Duelo en recuerdo de las deportaciones masivas bajo el dominio soviético en junio de 1941. Familias fueron expulsadas de sus hogares, separadas y enviadas a regiones lejanas de la Unión Soviética. Se izan banderas de luto y se honra a las víctimas. La Ley estonia de la Bandera incluye la fecha entre las conmemoraciones. El año 1941 corresponde a los hechos, no necesariamente a la designación legal del día.",
+    "fr": "Le 14 juin, l'Estonie observe la Journée de deuil en mémoire des déportations massives perpétrées sous le régime soviétique en juin 1941. Des familles furent arrachées à leurs foyers, séparées et envoyées dans des régions éloignées de l'Union soviétique. Les drapeaux sont mis en berne et des cérémonies rendent hommage aux victimes. La loi estonienne sur le drapeau prévoit cette date. L'année 1941 désigne les faits historiques, pas nécessairement la création du jour commémoratif.",
+    "de": "Am 14. Juni begeht Estland den Trauertag im Gedenken an die Massendeportationen unter sowjetischer Herrschaft im Juni 1941. Familien wurden aus ihren Häusern verschleppt, getrennt und in entlegene Gebiete der Sowjetunion gebracht. Trauerbeflaggung und Gedenkfeiern würdigen die Opfer. Das estnische Flaggengesetz führt das Datum als Gedenktag. 1941 bezeichnet das historische Ereignis, nicht zwingend das gesetzliche Einführungsjahr.",
+    "pt": "Em 14 de junho, a Estónia assinala o Dia de Luto em memória das deportações em massa sob domínio soviético em junho de 1941. Famílias foram retiradas das suas casas, separadas e enviadas para regiões distantes da União Soviética. Bandeiras de luto e cerimónias públicas homenageiam as vítimas. A Lei da Bandeira estónia inclui a data no calendário comemorativo. O ano 1941 refere-se aos acontecimentos, não necessariamente à instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-czech-flag-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-30",
+  "country": "CZ",
+  "documentedIntroductionYear": 2026,
+  "yearMeaning": "Act 59/2026 amended Czech Act 245/2000, effective in May 2026. Distinguish first ceremonial observance on 30 March 2026, before legislative enactment, from statutory recognition later that year.",
+  "authority": "Parliament of the Czech Republic; Act 245/2000 as amended by Act 59/2026",
+  "dateReason": "30 March commemorates the legal adoption of the Czechoslovak flag on 30 March 1920; the same design continued as the Czech flag after 1993.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/eli/cz/sb/2000/245/2026-05-13",
+      "claim": "Official consolidated Act 245/2000 reflects amendment 59/2026, establishing the legal framework for the new significant day."
+    },
+    {
+      "url": "https://vlada.gov.cz/cz/media-centrum/ocekavane-udalosti/30--brezna-2026-urad-vlady-se-pripravuje-na-den-ceske-vlajky--novy-vyznamny-den-pripomene-statnost-a-narodni-hrdost--226074/",
+      "claim": "Czech Government announcement dated 26 March 2026 identifies the 30 March observance, its connection to the flag's 1920 legal adoption and its 2026 inaugural commemoration."
+    }
+  ],
+  "narratives": {
+    "en": "Czech Flag Day falls on 30 March, recalling the formal adoption of the Czechoslovak flag on that date in 1920. The white-and-red flag with its blue triangle remained the Czech Republic's national flag after the federation dissolved in 1993. Czech authorities marked the date in March 2026 while legislation was still being debated; an amendment enacted later in 2026 added it to the country's statutory significant days. It is a civic observance, not a day off work.",
+    "it": "La Giornata della bandiera ceca ricorre il 30 marzo e ricorda l'adozione ufficiale della bandiera cecoslovacca in quella data nel 1920. Il vessillo bianco e rosso con il triangolo blu è rimasto la bandiera della Repubblica Ceca dopo la dissoluzione della federazione nel 1993. Le istituzioni celebrarono la ricorrenza nel marzo 2026, mentre la legge era ancora in discussione; una modifica legislativa successiva nello stesso anno la inserì tra le giornate civiche significative. Non è un giorno festivo.",
+    "es": "El Día de la Bandera Checa se celebra el 30 de marzo y recuerda la adopción oficial de la bandera checoslovaca ese día de 1920. La enseña blanca y roja con un triángulo azul siguió siendo la bandera de Chequia tras la disolución de la federación en 1993. Las autoridades conmemoraron la fecha en marzo de 2026, cuando la reforma legal aún se debatía; una modificación aprobada posteriormente ese año la incorporó a los días cívicos significativos. No es festivo laboral.",
+    "fr": "La Journée du drapeau tchèque a lieu le 30 mars, date de l'adoption officielle du drapeau tchécoslovaque en 1920. Le drapeau blanc et rouge au triangle bleu est resté celui de la République tchèque après la dissolution de la fédération en 1993. Les autorités ont célébré cette date en mars 2026, alors que la réforme était encore débattue ; une modification législative adoptée plus tard dans l'année l'a ajoutée aux journées civiques reconnues. Ce n'est pas un jour férié.",
+    "de": "Der tschechische Flaggentag findet am 30. März statt und erinnert an die offizielle Annahme der tschechoslowakischen Flagge an diesem Tag im Jahr 1920. Die weiß-rote Flagge mit dem blauen Dreieck blieb nach der Auflösung der Föderation 1993 die Staatsflagge Tschechiens. Behörden begingen den Tag im März 2026, als die gesetzliche Anerkennung noch beraten wurde; eine spätere Gesetzesänderung im selben Jahr nahm ihn in die Liste der bedeutsamen Gedenktage auf. Er ist kein arbeitsfreier Feiertag.",
+    "pt": "O Dia da Bandeira Checa assinala-se a 30 de março, recordando a adoção oficial da bandeira checoslovaca nessa data, em 1920. A bandeira branca e vermelha com um triângulo azul manteve-se como símbolo nacional da Chéquia após a dissolução da federação em 1993. As autoridades assinalaram a data em março de 2026, quando a alteração legislativa ainda estava em discussão; uma lei aprovada mais tarde nesse ano incluiu-a entre os dias cívicos significativos. Não é feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

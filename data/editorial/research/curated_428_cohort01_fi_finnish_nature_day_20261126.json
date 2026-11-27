@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-finnish-nature-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "last_weekday",
+    "month": 8,
+    "weekday": "saturday"
+  },
+  "country": "FI",
+  "documentedIntroductionYear": 2013,
+  "yearMeaning": "The first Finnish Nature Day was held in 2013, with recommended flag status since 2017.",
+  "authority": "Finnish Ministry for Foreign Affairs",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/life-society/celebrating-finlands-natural-assets/",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Finland's Nature Day takes place on the last Saturday of August. First celebrated in 2013, it became a recommended national flag day in 2017. The occasion encourages people to appreciate forests, lakes and nearby natural places and their role in everyday wellbeing. Its exact date changes each year; 2013 marks the first celebration, while 2017 marks formal flag-day recognition.",
+    "it": "La Giornata della natura finlandese cade l'ultimo sabato di agosto. Celebrata per la prima volta nel 2013, dal 2017 è una giornata raccomandata per esporre la bandiera. Invita a conoscere boschi, laghi e paesaggi vicini, importanti nella vita quotidiana. La data cambia ogni anno: il 2013 indica la prima celebrazione, il 2017 il riconoscimento della bandiera.",
+    "es": "El Día de la Naturaleza Finlandesa se celebra el último sábado de agosto. Se festejó por primera vez en 2013 y desde 2017 es una jornada recomendada para izar la bandera. Invita a apreciar bosques, lagos y espacios naturales cercanos y su importancia cotidiana. La fecha varía: 2013 marca la primera celebración y 2017 el reconocimiento oficial de la bandera.",
+    "fr": "La Journée de la nature finlandaise a lieu le dernier samedi d'août. Célébrée pour la première fois en 2013, elle est devenue en 2017 une journée de pavoisement recommandée. Elle invite à apprécier forêts, lacs et espaces naturels proches. La date change chaque année : 2013 marque la première fête et 2017 la reconnaissance officielle du pavoisement.",
+    "de": "Der Tag der finnischen Natur findet am letzten Samstag im August statt. Er wurde erstmals 2013 gefeiert und gilt seit 2017 als empfohlener Beflaggungstag. Der Tag lädt dazu ein, Wälder, Seen und nahe Naturräume wertzuschätzen. Das Datum wandert jährlich: 2013 bezeichnet die erste Feier, 2017 die Anerkennung als Beflaggungstag.",
+    "pt": "O Dia da Natureza Finlandesa realiza-se no último sábado de agosto. Foi celebrado pela primeira vez em 2013 e tornou-se um dia recomendado para hastear a bandeira em 2017. Convida a valorizar florestas, lagos e espaços naturais próximos. A data varia: 2013 assinala a primeira celebração e 2017 o reconhecimento como dia de bandeira."
+  },
+  "runtimeRichEditorialApproved": false
+}

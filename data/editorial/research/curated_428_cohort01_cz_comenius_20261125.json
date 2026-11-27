@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-jan-amos-comenius-birthday",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-28",
+  "country": "CZ",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "1592 is Comenius's birth year, not the date the observance was introduced. Czech Act 245/2000, effective 9 August 2000, already names 28 March a significant day. Earlier Teachers' Day celebrations may predate the law; the first-ever observance is not established.",
+  "authority": "Parliament of the Czech Republic (Act 245/2000 §4)",
+  "dateReason": "28 March is the birthday of educator Jan Amos Komenský (Comenius) and is also associated with Czech Teachers' Day; the date is a legally recognized civic observance rather than an unrecognized private birthday.",
+  "sourceEvidence": [
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Czech Ministry of Labour and Social Affairs publishes consolidated Act 245/2000, §4: 28 March is Den narození Jana Ámose Komenského, a legally designated significant day; §4(2) says significant days remain working days."
+    },
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245/2019-04-01",
+      "claim": "Official Czech legislative historical version includes 28 March among significant days; the law was promulgated and effective 9 August 2000."
+    }
+  ],
+  "narratives": {
+    "en": "Every 28 March, Czechia marks the birth of educator Jan Amos Comenius (1592–1670), a figure closely associated with the country's Teachers' Day. Unlike an ordinary biographical anniversary, the date has a public civic designation: §4 of Czech Act 245/2000 explicitly lists the Day of the Birth of Jan Amos Komenský among national significant days. It is a working day, not a statutory day off. The 1592 birth date explains the calendar choice; 2000 documents the legal designation, not the first-ever celebration of teachers.",
+    "it": "Ogni 28 marzo la Repubblica Ceca ricorda la nascita del pedagogista Jan Amos Comenius (1592–1670), figura legata alla Giornata degli insegnanti nel Paese. Non è un semplice anniversario biografico: l'articolo 4 della legge ceca 245/2000 riconosce espressamente il Giorno della nascita di Jan Amos Komenský tra le giornate civiche significative. È una giornata lavorativa, non una festività con riposo obbligatorio. Il 1592 spiega la scelta della data; il 2000 documenta il riconoscimento legislativo, non la prima celebrazione degli insegnanti.",
+    "es": "Cada 28 de marzo, Chequia recuerda el nacimiento del pedagogo Jan Amos Comenius (1592–1670), vinculado al Día del Profesorado en el país. No se trata de un mero aniversario biográfico: el artículo 4 de la Ley checa 245/2000 incluye expresamente el Día del Nacimiento de Jan Amos Komenský entre las jornadas cívicas significativas. Es un día laborable, no un festivo de descanso obligatorio. El año 1592 explica la elección de la fecha; 2000 documenta su reconocimiento legal, no la primera celebración del profesorado.",
+    "fr": "Chaque 28 mars, la Tchéquie commémore la naissance du pédagogue Jan Amos Comenius (1592–1670), associé à la Journée des enseignants dans le pays. Il ne s'agit pas d'un simple anniversaire biographique : l'article 4 de la loi tchèque 245/2000 classe explicitement la Journée de la naissance de Jan Amos Komenský parmi les journées civiques importantes. C'est un jour ouvré, et non un jour férié chômé. L'année 1592 explique le choix de la date ; 2000 atteste sa reconnaissance légale, pas la première célébration des enseignants.",
+    "de": "Am 28. März erinnert Tschechien an die Geburt des Pädagogen Jan Amos Comenius (1592–1670), der eng mit dem tschechischen Lehrertag verbunden ist. Es handelt sich nicht bloß um einen privaten Geburtstag: §4 des tschechischen Gesetzes 245/2000 führt den Geburtstag von Jan Amos Komenský ausdrücklich als staatlich anerkannten bedeutsamen Tag auf. Er ist ein regulärer Arbeitstag, kein arbeitsfreier Feiertag. Das Jahr 1592 erklärt die Wahl des Datums; 2000 belegt die gesetzliche Anerkennung, nicht die allererste Feier des Lehrertags.",
+    "pt": "A 28 de março, a Chéquia assinala o nascimento do pedagogo Jan Amos Comenius (1592–1670), associado ao Dia dos Professores no país. Não é apenas um aniversário biográfico: o artigo 4.º da Lei checa 245/2000 inclui expressamente o Dia do Nascimento de Jan Amos Komenský entre as datas cívicas significativas. É um dia de trabalho, não um feriado obrigatório. O ano de 1592 explica a escolha da data; 2000 documenta o reconhecimento legal, não a primeira celebração dos professores."
+  },
+  "runtimeRichEditorialApproved": false
+}

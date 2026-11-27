@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-liberation-anniversary",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-25",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government lists 25 April among public holidays as liberation from Nazi-Fascism in 1945."
+    }
+  ],
+  "narratives": {
+    "en": "Italy celebrates Liberation Day on 25 April, recalling the 1945 uprising and the collapse of Nazi-Fascist occupation in northern Italy. Partisan resistance, Allied advances and the efforts of civilians contributed to liberation and the end of dictatorship. The public holiday honors resistance and democratic freedom. The government's official calendar identifies both the annual date and the historical year 1945, which is not necessarily the year of formal holiday legislation.",
+    "it": "Il 25 aprile l'Italia celebra la Liberazione, ricordando l'insurrezione del 1945 e la fine dell'occupazione nazifascista nel Nord. La Resistenza partigiana, l'avanzata alleata e l'impegno dei civili contribuirono alla liberazione e alla caduta della dittatura. La festa nazionale onora la libertà democratica e la Resistenza. Il calendario ufficiale indica il 1945 come anno dell'evento storico, non necessariamente come data della successiva istituzione legislativa.",
+    "es": "El 25 de abril Italia celebra la Liberación, recordando el levantamiento de 1945 y el final de la ocupación nazi-fascista en el norte. La resistencia partisana, el avance aliado y la acción civil contribuyeron a la derrota de la dictadura. El festivo nacional honra la resistencia y la libertad democrática. El calendario oficial identifica 1945 como año del hecho histórico, no necesariamente como año de la legislación que creó la festividad.",
+    "fr": "Le 25 avril, l'Italie célèbre la Libération, rappelant l'insurrection de 1945 et la fin de l'occupation nazie-fasciste dans le Nord. La Résistance, les avancées alliées et l'action des civils contribuèrent à la fin de la dictature. Cette fête nationale honore la liberté démocratique et la résistance. Le calendrier officiel indique 1945 comme année de l'événement, et non nécessairement comme celle de l'institution juridique du jour férié.",
+    "de": "Am 25. April feiert Italien den Tag der Befreiung und erinnert an den Aufstand von 1945 sowie das Ende der nationalsozialistisch-faschistischen Besatzung im Norden. Partisanen, alliierte Truppen und Zivilisten trugen zum Ende der Diktatur bei. Der staatliche Feiertag würdigt Widerstand und demokratische Freiheit. Der amtliche Kalender nennt 1945 als historisches Ereignisjahr, nicht zwingend als Jahr der gesetzlichen Einführung.",
+    "pt": "Em 25 de abril, a Itália celebra a Libertação, recordando a insurreição de 1945 e o fim da ocupação nazi-fascista no norte. A resistência dos partisans, o avanço aliado e a ação civil contribuíram para acabar com a ditadura. O feriado nacional homenageia a resistência e a liberdade democrática. O calendário oficial indica 1945 como ano do acontecimento, não necessariamente como ano da instituição legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

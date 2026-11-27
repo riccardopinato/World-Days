@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-cancer-patients-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 5,
+    "weekday": "sunday",
+    "nth": 3
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "On the third Sunday of May, Italy observes the National Day of Cancer Patients. The occasion recognizes the voices and needs of people undergoing treatment, survivors and their families. Associations and health institutions use it to promote information, dignity and supportive care. The national ceremonial list gives a moving Sunday; it does not support assigning the same May date every year.",
+    "it": "La terza domenica di maggio l'Italia celebra la Giornata nazionale del malato oncologico. La ricorrenza dà voce alle persone in cura, a chi ha superato la malattia e alle famiglie. Associazioni e strutture sanitarie promuovono informazione, dignità e sostegno. L'elenco del Cerimoniale di Stato indica una domenica mobile, non una data di maggio immutabile.",
+    "es": "El tercer domingo de mayo Italia celebra el Día Nacional de los Pacientes con Cáncer. La jornada reconoce las necesidades de personas en tratamiento, supervivientes y familias. Asociaciones e instituciones sanitarias fomentan información, dignidad y apoyo. El calendario nacional establece un domingo variable; no permite fijar siempre el mismo día del mes.",
+    "fr": "Le troisième dimanche de mai, l'Italie célèbre la Journée nationale des patients atteints de cancer. Elle reconnaît les besoins des personnes en traitement, des survivants et de leurs familles. Associations et institutions de santé favorisent information, dignité et soutien. Le calendrier national indique un dimanche mobile, sans date de mai identique chaque année.",
+    "de": "Am dritten Sonntag im Mai begeht Italien den Nationalen Tag der Krebspatienten. Er würdigt die Anliegen von Menschen in Behandlung, Überlebenden und Angehörigen. Verbände und Gesundheitseinrichtungen fördern Information, Würde und Unterstützung. Der staatliche Kalender nennt einen beweglichen Sonntag, nicht in jedem Jahr dasselbe Tagesdatum.",
+    "pt": "Em Itália, o Dia Nacional dos Doentes Oncológicos celebra-se no terceiro domingo de maio. A data reconhece as necessidades de pessoas em tratamento, sobreviventes e famílias. Associações e instituições de saúde promovem informação, dignidade e apoio. O calendário nacional indica um domingo móvel, não o mesmo dia de maio todos os anos."
+  },
+  "runtimeRichEditorialApproved": false
+}

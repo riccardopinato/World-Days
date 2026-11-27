@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-spinal-cord-injury-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-04",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Government ceremonial calendar lists 4 April as National Day of People with Spinal Cord Injury."
+    }
+  ],
+  "narratives": {
+    "en": "On 4 April Italy marks the National Day of People with Spinal Cord Injury. The event draws attention to rehabilitation, accessibility, independent living and social inclusion after spinal cord damage. It also recognizes the experiences of families, care teams and disability advocates. The official government calendar identifies the annual date. A specific original founding year is not inferred from the date or from general health information.",
+    "it": "Il 4 aprile l'Italia celebra la Giornata nazionale della persona con lesione al midollo spinale. La ricorrenza richiama riabilitazione, accessibilità, vita indipendente e inclusione sociale dopo una lesione midollare. Riconosce inoltre il ruolo di famiglie, operatori e associazioni. Il calendario governativo indica la data annuale. L'anno preciso della prima istituzione non viene dedotto dal giorno o da informazioni mediche generali.",
+    "es": "El 4 de abril Italia celebra el Día Nacional de las Personas con Lesión Medular. La jornada destaca rehabilitación, accesibilidad, vida independiente e inclusión social tras una lesión de médula espinal. También reconoce a las familias, profesionales y asociaciones. El calendario gubernamental establece la fecha anual. No se deduce un año de primera creación a partir de la fecha o de información médica general.",
+    "fr": "Le 4 avril, l'Italie célèbre la Journée nationale des personnes ayant une lésion de la moelle épinière. Elle met en lumière la rééducation, l'accessibilité, l'autonomie et l'inclusion sociale après une lésion médullaire. Elle reconnaît aussi le rôle des familles, des équipes soignantes et des associations. Le calendrier gouvernemental confirme le jour annuel. Aucune année de création n'est déduite de la date ou d'informations médicales générales.",
+    "de": "Am 4. April begeht Italien den Nationalen Tag der Menschen mit Rückenmarksverletzung. Im Mittelpunkt stehen Rehabilitation, Barrierefreiheit, selbstbestimmtes Leben und gesellschaftliche Teilhabe nach einer solchen Verletzung. Auch Familien, Fachkräfte und Interessenverbände werden gewürdigt. Der Regierungskalender bestätigt den jährlichen Termin. Aus dem Datum oder allgemeinen Gesundheitsinformationen wird kein Gründungsjahr abgeleitet.",
+    "pt": "Em 4 de abril, a Itália celebra o Dia Nacional da Pessoa com Lesão Medular. A data destaca reabilitação, acessibilidade, vida independente e inclusão social após uma lesão da medula espinal. Reconhece ainda o papel de famílias, profissionais e associações. O calendário governamental confirma o dia anual. Não se deduz um ano de criação a partir da data nem de informações clínicas genéricas."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "ee-flag-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-04",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Republic of Estonia, Riigi Teataja",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "claim": "Estonian Flag Act lists 4 June as Flag Day."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia celebrates Flag Day on 4 June, honoring the blue, black and white national flag. The date recalls the consecration of an early Estonian student tricolour in Otepää in 1884, before the country gained independence. The banner later became an enduring symbol of national identity and freedom, including during the Soviet occupation. Estonia's Flag Act explicitly identifies 4 June as the annual day; the historical 1884 event is not the year the present legal observance was introduced.",
+    "it": "Il 4 giugno l'Estonia celebra la Giornata della bandiera blu, nera e bianca. La data ricorda la consacrazione di un tricolore studentesco estone a Otepää nel 1884, prima dell'indipendenza del Paese. Il vessillo divenne poi simbolo d'identità nazionale e libertà anche durante l'occupazione sovietica. La legge estone sulla bandiera indica il 4 giugno come ricorrenza annuale; l'evento del 1884 non coincide con l'anno d'istituzione legislativa attuale.",
+    "es": "El 4 de junio Estonia celebra el Día de la Bandera azul, negra y blanca. La fecha recuerda la consagración de una temprana bandera tricolor estudiantil en Otepää en 1884, antes de la independencia del país. Más tarde el símbolo representó identidad nacional y libertad incluso durante la ocupación soviética. La Ley estonia de la Bandera confirma el 4 de junio. El hecho de 1884 no es el año de creación legal de la jornada actual.",
+    "fr": "Le 4 juin, l'Estonie célèbre la Journée de son drapeau bleu, noir et blanc. La date rappelle la consécration d'un premier drapeau tricolore d'étudiants estoniens à Otepää en 1884, avant l'indépendance du pays. L'emblème devint ensuite un symbole d'identité nationale et de liberté, notamment pendant l'occupation soviétique. La loi estonienne sur le drapeau confirme le 4 juin. L'événement de 1884 n'est pas l'année de création juridique de la célébration actuelle.",
+    "de": "Am 4. Juni feiert Estland den Tag seiner blau-schwarz-weißen Nationalflagge. Das Datum erinnert an die Weihe einer frühen estnischen Studenten-Trikolore 1884 in Otepää, noch vor der Unabhängigkeit. Später wurde die Flagge zum Symbol nationaler Identität und Freiheit, auch während sowjetischer Herrschaft. Das Flaggengesetz bestätigt den 4. Juni als Jahrestag. Das Ereignis 1884 ist nicht das heutige gesetzliche Einführungsjahr.",
+    "pt": "Em 4 de junho, a Estónia celebra o Dia da Bandeira azul, preta e branca. A data recorda a consagração de um tricolor estudantil em Otepää, em 1884, antes da independência. A bandeira tornou-se depois símbolo da identidade nacional e da liberdade, inclusive durante a ocupação soviética. A Lei da Bandeira confirma 4 de junho como data anual. O acontecimento de 1884 não corresponde ao ano da atual instituição legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-freedom-democracy-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-17",
+  "country": "SK",
+  "documentedIntroductionYear": 2001,
+  "yearMeaning": "2001 national-holiday designation; earlier federal recognition in 1990 and Slovak memorial status in 1993; historical events in 1939 and 1989.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "17 November recalls student resistance to Nazi repression in 1939 and demonstrations that sparked the Velvet Revolution in 1989.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1993/241/20261029",
+      "claim": "Current Slovak law §1(f) recognizes 17 November as the Day of the Struggle for Freedom and Democracy; §2(3) specifies its non-rest-day status."
+    },
+    {
+      "url": "https://mok.sk/kalendarium/den-boja-za-slobodu-a-demokraciu-ss/",
+      "claim": "Museum chronology records 1990 federal commemoration, 1993 Slovak memorial status and 2001 national-holiday recognition."
+    },
+    {
+      "url": "https://www.upn.gov.sk/sk/16-17-november-1989---demonstracia-studentov-v-bratislave/",
+      "claim": "Slovak Nation's Memory Institute documents Bratislava student demonstrations on 16–17 November 1989, their link to 1939 student repression remembrance and protests against Communist rule."
+    }
+  ],
+  "narratives": {
+    "en": "Slovakia marks the Day of the Struggle for Freedom and Democracy on 17 November. The date recalls the Nazi repression of Czech university students in 1939 and, especially, the student demonstrations of 17 November 1989 that helped trigger the Velvet Revolution. Protests in Prague and Bratislava spread into a broad civic movement against communist rule. The day was recognized federally in 1990, became a Slovak memorial day under the 1993 law, and gained national-holiday status in 2001. These dates distinguish the historical events from their later legal recognition.",
+    "it": "Il 17 novembre la Slovacchia celebra la Giornata della lotta per la libertà e la democrazia. La data ricorda la repressione nazista degli studenti universitari cechi nel 1939 e soprattutto le manifestazioni studentesche del 17 novembre 1989, che contribuirono ad avviare la Rivoluzione di velluto. Le proteste a Praga e Bratislava si estesero a un ampio movimento civile contro il regime comunista. Riconosciuta a livello federale nel 1990 e come giornata commemorativa slovacca nel 1993, la ricorrenza divenne festa nazionale nel 2001. Gli anni degli eventi non vanno confusi con quelli del riconoscimento legislativo.",
+    "es": "El 17 de noviembre Eslovaquia celebra el Día de la Lucha por la Libertad y la Democracia. La fecha recuerda la represión nazi contra estudiantes universitarios checos en 1939 y, sobre todo, las protestas estudiantiles del 17 de noviembre de 1989 que impulsaron la Revolución de Terciopelo. Las manifestaciones en Praga y Bratislava se extendieron hasta convertirse en un amplio movimiento cívico contra el régimen comunista. La jornada obtuvo reconocimiento federal en 1990, fue día conmemorativo eslovaco en 1993 y se convirtió en fiesta nacional en 2001. Es importante distinguir los acontecimientos de su posterior reconocimiento legal.",
+    "fr": "Le 17 novembre, la Slovaquie célèbre la Journée de la lutte pour la liberté et la démocratie. La date rappelle la répression nazie contre les étudiants des universités tchèques en 1939 et surtout les manifestations étudiantes du 17 novembre 1989, qui contribuèrent au déclenchement de la révolution de Velours. À Prague et à Bratislava, les protestations devinrent un vaste mouvement civique contre le régime communiste. La journée fut reconnue au niveau fédéral en 1990, inscrite comme journée commémorative slovaque en 1993 puis élevée au rang de fête nationale en 2001. Ces dates légales ne sont pas celles des événements historiques.",
+    "de": "Am 17. November begeht die Slowakei den Tag des Kampfes für Freiheit und Demokratie. Das Datum erinnert an die nationalsozialistische Unterdrückung tschechischer Studierender 1939 und besonders an die Studentendemonstrationen vom 17. November 1989, die die Samtene Revolution mit auslösten. Aus den Protesten in Prag und Bratislava entwickelte sich eine breite Bürgerbewegung gegen die kommunistische Herrschaft. Der Tag wurde 1990 auf föderaler Ebene anerkannt, 1993 als slowakischer Gedenktag geführt und 2001 zum Staatsfeiertag erhoben. Die historischen Ereignisse sind von diesen späteren gesetzlichen Schritten zu unterscheiden.",
+    "pt": "A 17 de novembro, a Eslováquia assinala o Dia da Luta pela Liberdade e pela Democracia. A data recorda a repressão nazi contra estudantes universitários checos em 1939 e, sobretudo, as manifestações estudantis de 17 de novembro de 1989, que ajudaram a desencadear a Revolução de Veludo. Os protestos em Praga e Bratislava transformaram-se num amplo movimento cívico contra o regime comunista. A efeméride foi reconhecida a nível federal em 1990, tornou-se dia comemorativo eslovaco em 1993 e feriado nacional em 2001. Importa distinguir os acontecimentos históricos do reconhecimento legal posterior."
+  },
+  "runtimeRichEditorialApproved": false,
+  "sourceReviewEvidence": {
+    "specificInstitutionalPageCheckedOn": "2026-11-27",
+    "verifiedSpecificSourceUrl": "https://www.upn.gov.sk/sk/16-17-november-1989---demonstracia-studentov-v-bratislave/",
+    "note": "Replaces non-evidentiary institution homepage; six narratives and review=PENDING are unchanged."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-mining-disaster-victims-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-10",
+  "country": "SK",
+  "documentedIntroductionYear": 2011,
+  "yearMeaning": "Parliament approved the memorial day on 26 October 2010; the amendment took effect 1 April 2011. The first official observance was in 2011 according to TASR.",
+  "authority": "National Council of the Slovak Republic; City of Handlová",
+  "dateReason": "10 August recalls the 2009 Handlová mine explosion that killed nine miners and eleven mine rescuers.",
+  "sourceEvidence": [
+    {
+      "url": "https://handlova-v2.moderneobce.sk/novinka/137932/den-bielych-ruzi-17-rokov-po-banskom-nestasti",
+      "claim": "City of Handlová documents the 2009 tragedy, parliamentary approval in 2010, legal effectiveness in 2011 and initiators."
+    },
+    {
+      "url": "https://www.mosr.sk/47693-en/minister-nad-si-v-handlovej-uctil-pamiatku-obeti-banskych-nestasti/",
+      "claim": "Defence Ministry documents the memorial's civic purpose and 20 victims."
+    },
+    {
+      "url": "https://www.teraz.sk/slovensko/pamatny-den-obeti-banskych-nestas/983735-clanok.html",
+      "claim": "TASR's 2026 retrospective states first official observance in 2011."
+    }
+  ],
+  "narratives": {
+    "en": "Every 10 August, Slovakia remembers people who died in mining accidents. The date recalls the Handlová mine explosion of 2009, which killed nine miners and eleven mine rescuers responding to an underground fire. Parliament approved a national memorial day in October 2010, and the law took effect in April 2011. First officially observed in 2011, it is also known in Handlová as White Roses Day. White roses placed at miners' memorials honour victims throughout Slovakia, not only those of the Handlová disaster.",
+    "it": "Ogni 10 agosto la Slovacchia ricorda le vittime degli incidenti minerari. La data richiama l'esplosione del 2009 nella miniera di Handlová, in cui morirono nove minatori e undici soccorritori intervenuti per un incendio sotterraneo. Il Parlamento approvò la giornata commemorativa nazionale nell'ottobre 2010 e la legge entrò in vigore nell'aprile 2011. Celebrata ufficialmente dal 2011, a Handlová è conosciuta anche come Giornata delle rose bianche. Le rose deposte ai monumenti ricordano le vittime delle miniere di tutta la Slovacchia.",
+    "es": "Cada 10 de agosto, Eslovaquia recuerda a las víctimas de los accidentes mineros. La fecha remite a la explosión de 2009 en la mina de Handlová, donde murieron nueve mineros y once rescatistas que acudieron a un incendio subterráneo. El Parlamento aprobó la jornada conmemorativa nacional en octubre de 2010 y la ley entró en vigor en abril de 2011. Celebrada oficialmente desde 2011, en Handlová también se conoce como Día de las Rosas Blancas. Las rosas depositadas en monumentos honran a las víctimas de la minería de todo el país.",
+    "fr": "Chaque 10 août, la Slovaquie rend hommage aux victimes des accidents miniers. La date rappelle l'explosion survenue en 2009 dans la mine de Handlová, qui coûta la vie à neuf mineurs et onze sauveteurs intervenus contre un incendie souterrain. Le Parlement adopta cette journée nationale de mémoire en octobre 2010 et la loi entra en vigueur en avril 2011. Officiellement observée depuis 2011, elle est aussi appelée Journée des roses blanches à Handlová. Les roses déposées aux monuments honorent les victimes des mines de toute la Slovaquie.",
+    "de": "Am 10. August gedenkt die Slowakei der Opfer von Bergwerksunglücken. Das Datum erinnert an die Explosion von 2009 im Bergwerk Handlová, bei der neun Bergleute und elf Grubenretter starben, die einen unterirdischen Brand bekämpften. Das Parlament beschloss den nationalen Gedenktag im Oktober 2010; das Gesetz trat im April 2011 in Kraft. Seit 2011 offiziell begangen, heißt er in Handlová auch Tag der weißen Rosen. An Bergarbeiterdenkmälern niedergelegte Rosen ehren Opfer aus der gesamten Slowakei.",
+    "pt": "Todos os anos, a 10 de agosto, a Eslováquia recorda as vítimas de acidentes mineiros. A data evoca a explosão de 2009 na mina de Handlová, que matou nove mineiros e onze socorristas chamados a combater um incêndio subterrâneo. O Parlamento aprovou o dia nacional de memória em outubro de 2010 e a lei entrou em vigor em abril de 2011. Assinalado oficialmente desde 2011, é também conhecido em Handlová como Dia das Rosas Brancas. As rosas colocadas nos memoriais homenageiam vítimas da mineração de toda a Eslováquia."
+  },
+  "runtimeRichEditorialApproved": false
+}

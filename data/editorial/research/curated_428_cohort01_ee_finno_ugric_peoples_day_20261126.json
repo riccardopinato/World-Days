@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "ee-finno-ugric-peoples-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 10,
+    "weekday": "saturday",
+    "nth": 3
+  },
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Republic of Estonia, Riigi Teataja",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia observes Finno-Ugric Peoples' Day on the third Saturday in October. The occasion recognizes related linguistic and cultural communities, including Estonians, Finns, Hungarians and smaller Finno-Ugric peoples. Cultural meetings, language initiatives and performances highlight their diversity and traditions. Estonia's Flag Act explicitly establishes the movable Saturday as a flag day; the day of the month changes each year.",
+    "it": "L'Estonia celebra la Giornata dei popoli ugrofinnici il terzo sabato di ottobre. La ricorrenza valorizza comunità linguistiche e culturali imparentate, fra cui estoni, finlandesi, ungheresi e popoli ugrofinnici più piccoli. Incontri, progetti linguistici e spettacoli illustrano la loro diversità. La legge estone sulla bandiera indica il terzo sabato come giorno mobile e non una data fissa.",
+    "es": "Estonia celebra el Día de los Pueblos Finoúgricos el tercer sábado de octubre. La jornada reconoce comunidades lingüísticas y culturales emparentadas, incluidos estonios, finlandeses, húngaros y pueblos finoúgricos menores. Encuentros, actividades lingüísticas y actuaciones destacan su diversidad. La Ley estonia de la Bandera establece un sábado variable, cuyo día del mes cambia cada año.",
+    "fr": "L'Estonie célèbre la Journée des peuples finno-ougriens le troisième samedi d'octobre. Elle honore des communautés linguistiques et culturelles apparentées, notamment Estoniens, Finlandais, Hongrois et peuples finno-ougriens moins nombreux. Rencontres, projets linguistiques et spectacles montrent leur diversité. La loi estonienne sur le drapeau retient ce samedi mobile, et non une date fixe.",
+    "de": "Estland begeht den Tag der finno-ugrischen Völker am dritten Samstag im Oktober. Gewürdigt werden verwandte Sprach- und Kulturgemeinschaften, darunter Esten, Finnen, Ungarn und kleinere finno-ugrische Völker. Treffen, Sprachprojekte und Aufführungen zeigen ihre Vielfalt. Das estnische Flaggengesetz legt einen beweglichen Samstag fest, dessen Tagesdatum jährlich wechselt.",
+    "pt": "A Estónia celebra o Dia dos Povos Fino-Úgricos no terceiro sábado de outubro. A data reconhece comunidades linguísticas e culturais aparentadas, incluindo estónios, finlandeses, húngaros e povos menores. Encontros, projetos linguísticos e apresentações mostram a sua diversidade. A Lei da Bandeira estabelece um sábado móvel, cujo dia do mês muda anualmente."
+  },
+  "runtimeRichEditorialApproved": false
+}

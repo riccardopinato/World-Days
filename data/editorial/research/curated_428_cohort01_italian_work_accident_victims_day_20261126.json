@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-work-accident-victims-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 10,
+    "weekday": "sunday",
+    "nth": 2
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Italy remembers victims of workplace accidents on the second Sunday of October. The occasion recognizes people killed or injured while working and the effects on families and communities. Unions, safety organizations and public institutions draw attention to prevention and safe working conditions. The government calendar explicitly gives the second Sunday of October, so no single day of the month should be treated as permanent.",
+    "it": "L'Italia ricorda le vittime degli incidenti sul lavoro la seconda domenica di ottobre. La giornata rende omaggio alle persone morte o ferite mentre lavoravano e alle conseguenze per famiglie e comunità. Sindacati, associazioni e istituzioni richiamano la prevenzione e la sicurezza. Il calendario governativo indica esplicitamente la seconda domenica, quindi non esiste un giorno fisso del mese.",
+    "es": "El segundo domingo de octubre Italia recuerda a las víctimas de accidentes laborales. La jornada reconoce a personas fallecidas o heridas mientras trabajaban y las consecuencias para sus familias. Sindicatos, organizaciones e instituciones fomentan prevención y seguridad. El calendario gubernamental establece el segundo domingo de octubre, por lo que la fecha del mes no es fija.",
+    "fr": "Le deuxième dimanche d'octobre, l'Italie rend hommage aux victimes d'accidents du travail. La journée reconnaît les personnes mortes ou blessées au travail et les conséquences pour leurs familles. Syndicats, associations et institutions sensibilisent à la prévention et à la sécurité. Le calendrier gouvernemental indique le deuxième dimanche d'octobre, sans date fixe dans le mois.",
+    "de": "Am zweiten Sonntag im Oktober gedenkt Italien der Opfer von Arbeitsunfällen. Die Veranstaltung würdigt Menschen, die bei der Arbeit starben oder verletzt wurden, und die Folgen für ihre Angehörigen. Gewerkschaften, Verbände und Behörden betonen Prävention und sichere Arbeitsbedingungen. Der Kalender nennt den zweiten Sonntag im Oktober und kein festes Tagesdatum.",
+    "pt": "Em Itália, as vítimas de acidentes de trabalho são lembradas no segundo domingo de outubro. A data homenageia pessoas mortas ou feridas no trabalho e reconhece o impacto nas famílias. Sindicatos, associações e instituições promovem prevenção e segurança. O calendário governamental indica o segundo domingo de outubro, sem um dia fixo do mês."
+  },
+  "runtimeRichEditorialApproved": false
+}

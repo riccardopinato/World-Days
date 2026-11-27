@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-peace-fraternity-dialogue-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-04",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "On 4 October Italy observes a national day of peace, fraternity and dialogue among people of different cultures and religions. It is associated with Francis of Assisi and Catherine of Siena, patrons of Italy. The event highlights coexistence, mutual respect and the importance of constructive encounters across beliefs. The national calendar confirms the date; its contemporary legal origin is a distinct question from the lives of the historic saints.",
+    "it": "Il 4 ottobre l'Italia celebra la Giornata della pace, della fraternità e del dialogo fra culture e religioni. La ricorrenza è associata a San Francesco d'Assisi e Santa Caterina da Siena, patroni d'Italia. Il messaggio civico riguarda convivenza, rispetto reciproco e confronto costruttivo tra convinzioni diverse. Il calendario nazionale conferma la data; l'origine legislativa moderna è distinta dalle vicende storiche dei santi.",
+    "es": "El 4 de octubre Italia celebra una jornada nacional de paz, fraternidad y diálogo entre culturas y religiones. Se relaciona con Francisco de Asís y Catalina de Siena, patronos del país. El mensaje cívico trata de convivencia, respeto mutuo y encuentros constructivos entre distintas creencias. El calendario nacional confirma la fecha; el origen legal moderno es distinto de la vida histórica de los santos.",
+    "fr": "Le 4 octobre, l'Italie célèbre une journée nationale de paix, de fraternité et de dialogue entre cultures et religions. Elle est associée à François d'Assise et Catherine de Sienne, patrons du pays. Sa portée civique concerne la coexistence, le respect mutuel et les échanges entre différentes convictions. Le calendrier national confirme la date ; la création juridique moderne est distincte de l'histoire des saints.",
+    "de": "Am 4. Oktober begeht Italien einen nationalen Tag des Friedens, der Brüderlichkeit und des Dialogs zwischen Kulturen und Religionen. Er ist mit Franz von Assisi und Katharina von Siena verbunden, Schutzheiligen des Landes. Im Mittelpunkt stehen Zusammenleben, gegenseitiger Respekt und Verständigung zwischen Überzeugungen. Der staatliche Kalender bestätigt das Datum; der moderne Rechtsakt ist von den Lebenszeiten der Heiligen zu unterscheiden.",
+    "pt": "Em 4 de outubro, a Itália celebra o Dia da Paz, da Fraternidade e do Diálogo entre culturas e religiões. A data está associada a Francisco de Assis e Catarina de Siena, padroeiros do país. A mensagem cívica valoriza convivência, respeito mútuo e diálogo entre diferentes crenças. O calendário nacional confirma a data; a instituição legal moderna é distinta da história dos santos."
+  },
+  "runtimeRichEditorialApproved": false
+}

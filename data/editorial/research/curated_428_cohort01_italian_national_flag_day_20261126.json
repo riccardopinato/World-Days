@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-flag-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-07",
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legal adoption; the first statutory introduction year was not independently established.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Annual fixed date verified against the national ceremonial or statutory calendar.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "The government lists 7 January as Italy's National Flag Day."
+    }
+  ],
+  "narratives": {
+    "en": "On 7 January Italy celebrates the Tricolour, the green, white and red national flag. The anniversary recalls the adoption of the tricolour banner in Reggio Emilia in January 1797 by the Cispadane Republic. It connects a revolutionary symbol with the later unification and the modern republic. Italy's ceremonial calendar confirms National Flag Day on 7 January; the historical 1797 event must not be confused with the statutory year when the modern celebration was created.",
+    "it": "Il 7 gennaio l'Italia celebra il Tricolore verde, bianco e rosso. L'anniversario richiama l'adozione del vessillo tricolore a Reggio Emilia nel gennaio 1797 da parte della Repubblica Cispadana. Il simbolo rivoluzionario accompagnò poi il Risorgimento e la nascita dello Stato moderno. Il calendario ufficiale conferma la Giornata nazionale della Bandiera; l'evento storico del 1797 non va confuso con l'anno d'istituzione della celebrazione odierna.",
+    "es": "El 7 de enero Italia celebra su bandera tricolor verde, blanca y roja. El aniversario recuerda la adopción de la enseña en Reggio Emilia, en enero de 1797, por la República Cispadana. El símbolo revolucionario se vinculó más tarde con la unificación y la Italia moderna. El calendario estatal confirma el Día Nacional de la Bandera; el hecho de 1797 no debe confundirse con el año de creación de la fiesta actual.",
+    "fr": "Le 7 janvier, l'Italie célèbre son drapeau vert, blanc et rouge. L'anniversaire rappelle l'adoption du tricolore à Reggio d'Émilie en janvier 1797 par la République cispadane. Ce symbole révolutionnaire accompagna ensuite l'unification et l'État moderne. Le calendrier officiel confirme la Journée nationale du drapeau ; l'événement de 1797 ne doit pas être confondu avec l'année de création de la célébration actuelle.",
+    "de": "Am 7. Januar feiert Italien seine grün-weiß-rote Nationalflagge. Der Jahrestag erinnert an die Annahme der Trikolore im Januar 1797 in Reggio Emilia durch die Cispadanische Republik. Das revolutionäre Symbol verband sich später mit der Einigung und dem modernen Staat. Der staatliche Kalender bestätigt den Nationalen Flaggentag. Das Ereignis von 1797 ist jedoch nicht mit dem Einführungsjahr der heutigen Feier gleichzusetzen.",
+    "pt": "Em 7 de janeiro, a Itália celebra a sua bandeira verde, branca e vermelha. A data recorda a adoção do tricolor em Reggio Emilia, em janeiro de 1797, pela República Cispadana. O símbolo revolucionário tornou-se depois ligado à unificação e ao Estado moderno. O calendário oficial confirma o Dia Nacional da Bandeira; o acontecimento de 1797 não equivale ao ano de criação da comemoração atual."
+  },
+  "runtimeRichEditorialApproved": false
+}
