@@ -52,8 +52,9 @@ def run():
         ids=order
         assert sum(x["status"]==CONTEXT for x in pack["entries"])==313
     originals={x["observanceId"]:x for x in packs["en"]["entries"]}
-    files=sorted(D.glob("curated_428_wave01_*.json"))
+    files=sorted(ROOT / item["sourceFile"] for item in ledger["records"])
     assert len(files)==19 and len({load(p)["id"] for p in files})==19
+    assert all(p.is_file() and p.parent==D for p in files)
     selected={}
     decisions=[]
     source_blobs={row["sourceFile"]:row for row in ledger["records"]}
