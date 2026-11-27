@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-mindaugas-coronation-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-06",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Ministry of Foreign Affairs of Lithuania",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.urm.lt/en/news/928/world-lithuanians-join-in-singing-the-national-anthem-on-the-day-of-the-state%3A32596",
+      "claim": "Lithuanian Foreign Ministry documents State Day on 6 July, anniversary of King Mindaugas' coronation in 1253.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania marks Statehood Day on 6 July, recalling the coronation of King Mindaugas in 1253. His reign symbolises the consolidation of a medieval Lithuanian state and its recognition within European diplomacy. Today people gather to sing the national anthem, including Lithuanian communities abroad. The medieval coronation is the historical reference, not evidence that the present annual holiday existed in the thirteenth century.",
+    "it": "La Lituania celebra la Giornata dello Stato il 6 luglio, ricordando l'incoronazione di re Mindaugas nel 1253. Il suo regno simboleggia il consolidamento dello Stato medievale e il riconoscimento diplomatico europeo. Oggi i cittadini cantano insieme l'inno nazionale, anche all'estero. L'incoronazione è il riferimento storico, non la prova che la festa attuale esistesse già nel Medioevo.",
+    "es": "Lituania celebra el Día del Estado el 6 de julio, recordando la coronación del rey Mindaugas en 1253. Su reinado simboliza la consolidación del Estado medieval y su reconocimiento en Europa. Hoy las comunidades lituanas cantan juntas el himno nacional, incluso en el extranjero. La coronación es el referente histórico, no prueba de que la fiesta actual existiera en la Edad Media.",
+    "fr": "La Lituanie célèbre la Journée de l'État le 6 juillet, en souvenir du couronnement du roi Mindaugas en 1253. Son règne symbolise la consolidation de l'État médiéval et sa reconnaissance en Europe. Aujourd'hui les communautés lituaniennes chantent ensemble l'hymne national, même à l'étranger. Le couronnement est un repère historique, non la preuve de l'existence ancienne de la fête actuelle.",
+    "de": "Litauen begeht am 6. Juli den Tag des Staates zur Erinnerung an die Krönung von König Mindaugas 1253. Seine Herrschaft steht für die Festigung des mittelalterlichen Staates und dessen Anerkennung in Europa. Heute singen litauische Gemeinschaften weltweit gemeinsam die Nationalhymne. Die Krönung ist ein historischer Bezugspunkt und kein Nachweis für einen damals bereits bestehenden Feiertag.",
+    "pt": "A Lituânia celebra o Dia do Estado em 6 de julho, recordando a coroação do rei Mindaugas em 1253. O seu reinado simboliza a consolidação do Estado medieval e o reconhecimento europeu. Atualmente as comunidades lituanas cantam juntas o hino nacional, mesmo no estrangeiro. A coroação é uma referência histórica e não prova que o feriado moderno existisse na Idade Média."
+  },
+  "runtimeRichEditorialApproved": false
+}
