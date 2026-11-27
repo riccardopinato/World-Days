@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-ochi-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-28",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No official source conclusively establishes original statutory introduction year.",
+  "authority": "Republic of Cyprus and Hellenic Republic Ministries of Foreign Affairs",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.cy/mfa-embassysofia/en/the-embassy/working-hours-and-holidays/",
+      "claim": "Cyprus embassy calendar lists Ohi Day on 28 October as an observed holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.mfa.gr/en/deputy-minister-of-foreign-affairs-yiannis-loverdos-message-to-diaspora-greeks-on-the-occasion-of-the-anniversary-of-28-october-1940/",
+      "claim": "Greek foreign ministry documents the refusal of the Italian ultimatum on 28 October 1940.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus observes Ohi Day on 28 October, recalling Greece's refusal of the Italian ultimatum in 1940 and the beginning of its resistance in the Second World War. The Greek word 'ohi' means 'no'. The commemoration is shared across Greek communities, including Cyprus. Official Cypriot holiday calendars confirm the date, without establishing the first year of local statutory recognition.",
+    "it": "Il 28 ottobre Cipro celebra il Giorno dell'Ochi, che ricorda il rifiuto della Grecia all'ultimatum italiano nel 1940 e l'inizio della sua resistenza nella Seconda guerra mondiale. In greco 'ochi' significa 'no'. La memoria è condivisa nelle comunità greche, anche a Cipro. Il calendario cipriota conferma la data, non l'anno della prima istituzione legislativa.",
+    "es": "Chipre celebra el Día del Ohi el 28 de octubre, recordando el rechazo griego al ultimátum italiano de 1940 y el comienzo de su resistencia en la Segunda Guerra Mundial. 'Ohi' significa 'no' en griego. La memoria se comparte en comunidades helénicas, incluida Chipre. El calendario oficial confirma la fecha, pero no su primera declaración legal local.",
+    "fr": "Chypre célèbre la Journée du Ohi le 28 octobre, rappelant le refus par la Grèce de l'ultimatum italien en 1940 et le début de sa résistance durant la Seconde Guerre mondiale. « Ohi » signifie « non » en grec. Cette mémoire est partagée avec les communautés helléniques de Chypre. Le calendrier officiel confirme la date, non l'année de sa première reconnaissance légale.",
+    "de": "Zypern begeht den Ohi-Tag am 28. Oktober zum Gedenken an die griechische Ablehnung des italienischen Ultimatums 1940 und den Beginn des Widerstands im Zweiten Weltkrieg. 'Ohi' bedeutet auf Griechisch 'Nein'. Der Gedenktag wird auch von griechischen Gemeinschaften auf Zypern begangen. Der amtliche Kalender bestätigt das Datum, nicht das ursprüngliche Einführungsjahr.",
+    "pt": "Chipre assinala o Dia do Ohi em 28 de outubro, recordando a rejeição grega do ultimato italiano em 1940 e o início da resistência na Segunda Guerra Mundial. 'Ohi' significa 'não' em grego. A memória é partilhada com comunidades helénicas em Chipre. O calendário oficial confirma a data, mas não o ano da primeira instituição legal local."
+  },
+  "runtimeRichEditorialApproved": false
+}

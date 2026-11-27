@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-unbroken-clergy-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-19",
+  "country": "PL",
+  "documentedIntroductionYear": 2018,
+  "yearMeaning": "Year refers to legal institution or recognition, distinct from historic events.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://dziennikustaw.gov.pl/D2018000215601.pdf",
+      "claim": "The 2018 Polish Act established 19 October as the National Day of Remembrance for Steadfast Clergy.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://eng.ipn.gov.pl/en/news/12117%2CThe-National-Day-of-Remembrance-for-Steadfast-Clergy-19-October.html",
+      "claim": "Poland's Institute of National Remembrance explains the connection to the kidnapping of Father Jerzy Popiełuszko on 19 October 1984.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland remembers steadfast clergy on 19 October, honouring religious figures who resisted persecution and defended human dignity in different periods of Polish history. The date recalls the 1984 abduction of Father Jerzy Popiełuszko, a chaplain associated with Solidarity. Parliament established the national remembrance day in 2018.",
+    "it": "Il 19 ottobre la Polonia ricorda il clero rimasto saldo davanti alle persecuzioni e impegnato nella difesa della dignità umana. La data richiama il rapimento nel 1984 di padre Jerzy Popiełuszko, legato al movimento Solidarność. Il Parlamento ha istituito la giornata nazionale di memoria nel 2018, distinguendola dall'evento storico.",
+    "es": "Polonia recuerda el 19 de octubre a los religiosos que resistieron la persecución y defendieron la dignidad humana en distintas etapas de su historia. La fecha evoca el secuestro en 1984 del padre Jerzy Popiełuszko, vinculado a Solidaridad. El Parlamento instituyó la jornada nacional de memoria en 2018.",
+    "fr": "La Pologne rend hommage le 19 octobre aux membres du clergé restés fermes face aux persécutions et engagés pour la dignité humaine. La date rappelle l'enlèvement en 1984 du père Jerzy Popiełuszko, lié à Solidarność. Le Parlement a créé cette journée nationale de mémoire en 2018, bien après les événements commémorés.",
+    "de": "Polen gedenkt am 19. Oktober Geistlicher, die Verfolgung widerstanden und sich für Menschenwürde einsetzten. Das Datum erinnert an die Entführung von Pfarrer Jerzy Popiełuszko im Jahr 1984, der mit Solidarność verbunden war. Das Parlament führte den nationalen Gedenktag 2018 ein, lange nach dem historischen Ereignis.",
+    "pt": "A Polónia homenageia em 19 de outubro religiosos que resistiram à perseguição e defenderam a dignidade humana. A data recorda o rapto em 1984 do padre Jerzy Popiełuszko, ligado ao movimento Solidarność. O Parlamento instituiu o dia nacional de memória em 2018, separando o acontecimento histórico da comemoração oficial."
+  },
+  "runtimeRichEditorialApproved": false
+}

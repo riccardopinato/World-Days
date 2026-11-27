@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-polish-national-victory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-08",
+  "country": "PL",
+  "documentedIntroductionYear": 2015,
+  "yearMeaning": "Year refers to legal institution or recognition, distinct from historic events.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2015/622/text.html",
+      "claim": "Polish Act of 24 April 2015 establishes National Victory Day on 8 May, replacing the older Victory and Freedom holiday framework.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland observes National Victory Day on 8 May, marking the end of the Second World War in Europe in 1945. The commemoration remembers the defeat of Nazi Germany and the immense losses suffered by Polish civilians and soldiers. A 2015 act established the present national day on 8 May, replacing an earlier postwar holiday arrangement.",
+    "it": "L'8 maggio la Polonia celebra la Giornata nazionale della vittoria, legata alla fine della Seconda guerra mondiale in Europa nel 1945. La ricorrenza ricorda la sconfitta della Germania nazista e le enormi perdite dei civili e dei militari polacchi. Una legge del 2015 ha istituito l'attuale giornata nazionale, sostituendo una precedente disciplina.",
+    "es": "Polonia conmemora el Día Nacional de la Victoria el 8 de mayo, fecha vinculada al final de la Segunda Guerra Mundial en Europa en 1945. Recuerda la derrota de la Alemania nazi y las enormes pérdidas de civiles y militares polacos. Una ley de 2015 estableció la celebración actual, sustituyendo un régimen conmemorativo anterior.",
+    "fr": "La Pologne célèbre la Journée nationale de la Victoire le 8 mai, en lien avec la fin de la Seconde Guerre mondiale en Europe en 1945. Elle rappelle la défaite de l'Allemagne nazie et les lourdes pertes subies par les civils et militaires polonais. Une loi de 2015 a institué cette journée en remplaçant le régime commémoratif précédent.",
+    "de": "Polen begeht den Nationalen Tag des Sieges am 8. Mai zum Gedenken an das Ende des Zweiten Weltkriegs in Europa 1945. Er erinnert an die Niederlage des NS-Regimes und die gewaltigen Verluste polnischer Zivilisten und Soldaten. Ein Gesetz von 2015 führte den heutigen Gedenktag ein und ersetzte eine ältere Feiertagsregelung.",
+    "pt": "A Polónia assinala o Dia Nacional da Vitória em 8 de maio, ligado ao fim da Segunda Guerra Mundial na Europa em 1945. A data recorda a derrota da Alemanha nazi e as enormes perdas de civis e militares polacos. Uma lei de 2015 instituiu a comemoração atual, substituindo um regime de feriado anterior."
+  },
+  "runtimeRichEditorialApproved": false
+}
