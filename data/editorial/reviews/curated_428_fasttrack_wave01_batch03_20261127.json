@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH03",
+  "factoryBaseline": "a185c16000608b90c5db639f37903b49b059b10b",
+  "sourceMain": "d161875d81180dc3d0ff59d5911fa23a663a7fde",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Eight distinct historical narratives and six translations: primary institutional pages confirmed for date and relevant historical claim, numeric parity checked; no human expert certificate or claim that all details were independently verified.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch03": 143,
+  "proposedBatch03": 8,
+  "records": [
+    {
+      "id": "cy-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_independence_day_20261127.json",
+      "sourceBlobSha": "640bf1c7e578ff9f0959667da3ad23eef8f552cc",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-mindaugas-coronation-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_mindaugas_coronation_day_20261127.json",
+      "sourceBlobSha": "12cecd4378cb9ce0742ca50ac374dc109be15c58",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-state-restoration-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_state_restoration_day_20261127.json",
+      "sourceBlobSha": "85ae6305d1da1820fddde9e4252e57806fe01967",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-declaration-of-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_declaration_of_independence_day_20261127.json",
+      "sourceBlobSha": "f6b4a1baf80b3ba1f88d9cb40e38a88ea6224e47",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-republic-proclamation-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_republic_proclamation_day_20261127.json",
+      "sourceBlobSha": "70f0037c997b1974fef1e705caa6ce6e323c947a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "portugal-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_portugal_day_20261127.json",
+      "sourceBlobSha": "5fa9a72f1cd2565a46822b98d75719c72261ae0e",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "portugal-restoration-of-independence-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_portugal_restoration_of_independence_day_20261127.json",
+      "sourceBlobSha": "56431c4dd9fe96696c041dad00ab525278b5becb",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "republic-day-portugal",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_republic_day_portugal_20261127.json",
+      "sourceBlobSha": "496980be27e29b1693ea32ea66ad07350a417cbe",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
