@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "mexico-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-16",
+  "country": "MX",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical years in narrative describe the event; first designation year not established here.",
+  "authority": "Mexico Secretariat of National Defence / National Historical Studies Institute",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.inehrm.gob.mx/es/inehrm/Independencia",
+      "claim": "Mexican federal historical institute distinguishes the Grito de Dolores on 16 September 1810, the start of the independence war, from its completion in 1821.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Mexico celebrates Independence Day on 16 September, recalling the 1810 call to revolt in Dolores associated with Miguel Hidalgo and the beginning of the struggle against Spanish colonial rule. Independence was achieved after a long conflict in 1821. The celebrations often begin with a public Grito ceremony the previous evening, but the national date marks the start of the movement.",
+    "it": "Il Messico celebra la Festa dell'indipendenza il 16 settembre, ricordando il grido di rivolta lanciato a Dolores nel 1810 e associato a Miguel Hidalgo contro il dominio coloniale spagnolo. L'indipendenza arrivò dopo un lungo conflitto nel 1821. I festeggiamenti iniziano spesso la sera precedente con il Grito, ma la data nazionale ricorda l'inizio del movimento.",
+    "es": "México celebra el Día de la Independencia el 16 de septiembre, recordando el Grito de Dolores de 1810, asociado a Miguel Hidalgo y al inicio de la lucha contra el dominio colonial español. La independencia se consumó tras una larga guerra en 1821. Los festejos suelen comenzar con el Grito la noche anterior, pero la fecha nacional evoca el comienzo de la insurgencia.",
+    "fr": "Le Mexique célèbre la fête de l'Indépendance le 16 septembre, rappelant l'appel au soulèvement lancé à Dolores en 1810 et associé à Miguel Hidalgo, au début de la lutte contre la domination coloniale espagnole. L'indépendance fut acquise en 1821. Les festivités commencent souvent la veille avec le Grito, mais la date rappelle le début du mouvement.",
+    "de": "Mexiko feiert seinen Unabhängigkeitstag am 16. September und erinnert an den Aufruf zum Aufstand in Dolores im Jahr 1810, der mit Miguel Hidalgo und dem Beginn des Kampfes gegen die spanische Kolonialherrschaft verbunden ist. Die Unabhängigkeit wurde 1821 erreicht. Die Feiern beginnen oft am Vorabend mit dem Grito; der Gedenktag markiert den Beginn der Bewegung.",
+    "pt": "O México celebra o Dia da Independência em 16 de setembro, recordando o apelo à revolta em Dolores em 1810, associado a Miguel Hidalgo e ao início da luta contra o domínio colonial espanhol. A independência foi alcançada em 1821. As festas costumam começar na véspera com o Grito, mas a data nacional assinala o início do movimento."
+  },
+  "runtimeRichEditorialApproved": false
+}

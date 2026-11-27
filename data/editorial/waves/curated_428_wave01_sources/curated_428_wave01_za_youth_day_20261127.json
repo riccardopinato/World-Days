@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "za-youth-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-16",
+  "country": "ZA",
+  "documentedIntroductionYear": 1994,
+  "yearMeaning": "Event chronology is distinct from formal or first observance year; null when unverified.",
+  "authority": "South African Government",
+  "dateReason": "Country-specific government record establishes observed date",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.za/YouthMonth2024",
+      "claim": "South African government confirms Youth Day commemorates the student uprising of 16 June 1976 and has been observed as National Youth Day since 1994.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "South Africa marks Youth Day on 16 June in memory of the 1976 student uprising in Soweto. Pupils protested against apartheid education policies and the imposition of Afrikaans as a teaching language; police violence killed young people and sparked wider resistance. Observed nationally since 1994, the day honours their courage while drawing attention to education, rights and opportunities for today's youth.",
+    "it": "Il Sudafrica ricorda il 16 giugno la Giornata della gioventù, legata alla rivolta studentesca di Soweto del 1976. Gli studenti protestavano contro la scuola dell'apartheid e l'imposizione dell'afrikaans; la repressione della polizia causò vittime e alimentò la resistenza. Celebrata a livello nazionale dal 1994, la giornata invita a riflettere su istruzione, diritti e opportunità dei giovani.",
+    "es": "Sudáfrica celebra el Día de la Juventud el 16 de junio, en memoria de la revuelta estudiantil de Soweto de 1976. Los alumnos protestaron contra la educación del apartheid y la imposición del afrikáans; la violencia policial causó víctimas y amplió la resistencia. Conmemorado nacionalmente desde 1994, el día invita a reflexionar sobre educación, derechos y oportunidades de los jóvenes.",
+    "fr": "L'Afrique du Sud célèbre la Journée de la jeunesse le 16 juin, en mémoire de la révolte scolaire de Soweto en 1976. Les élèves protestaient contre l'enseignement de l'apartheid et l'imposition de l'afrikaans; la répression policière fit des victimes et renforça la résistance. Commémorée nationalement depuis 1994, la journée évoque l'éducation, les droits et l'avenir des jeunes.",
+    "de": "Südafrika begeht am 16. Juni den Jugendtag zur Erinnerung an den Schüleraufstand in Soweto 1976. Junge Menschen protestierten gegen die Bildungspolitik der Apartheid und die erzwungene Unterrichtssprache Afrikaans; Polizeigewalt forderte Opfer und verstärkte den Widerstand. Seit 1994 wird der Tag landesweit begangen und mahnt zu Bildung, Rechten und Chancen für Jugendliche.",
+    "pt": "A África do Sul assinala o Dia da Juventude em 16 de junho, recordando a revolta estudantil de Soweto em 1976. Os alunos protestavam contra o ensino do apartheid e a imposição do africâner; a repressão policial causou mortes e ampliou a resistência. Celebrado nacionalmente desde 1994, o dia destaca a educação, os direitos e as oportunidades dos jovens."
+  },
+  "runtimeRichEditorialApproved": false
+}

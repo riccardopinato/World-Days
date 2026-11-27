@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-midsummer-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-24",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Riigikogu / Visit Estonia",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+      "claim": "Estonian Public Holidays and Days of National Importance Act includes 24 June as Midsummer Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://visitestonia.com/en/what-to-do/midsummers-eve-when-dusk-meets-dawn-jaanipaev",
+      "claim": "Estonia's tourism portal documents the festivities from 23 to 24 June, including bonfires and long twilight.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia celebrates Midsummer Day, Jaanipäev, on 24 June, following the bright Midsummer Eve of 23 June. Bonfires, gatherings outdoors and long northern twilight are central to a tradition older than its Christian association with Saint John. Estonian public-holiday legislation recognises 24 June, while the celebrations often span the preceding night.",
+    "it": "Il 24 giugno l'Estonia celebra Jaanipäev, il giorno di mezza estate, dopo la luminosa vigilia del 23 giugno. Falò, incontri all'aperto e il lungo crepuscolo nordico caratterizzano una tradizione più antica dell'associazione cristiana con san Giovanni. La legislazione estone riconosce il 24 giugno, anche se la festa comincia spesso la sera prima.",
+    "es": "Estonia celebra Jaanipäev, el día de verano, el 24 de junio tras la luminosa víspera del 23. Las hogueras, reuniones al aire libre y largos crepúsculos nórdicos forman parte de una tradición anterior a su asociación cristiana con san Juan. La ley estonia reconoce el 24 de junio, aunque los festejos suelen comenzar la noche anterior.",
+    "fr": "L'Estonie célèbre Jaanipäev, la fête de la mi-été, le 24 juin après la lumineuse veille du 23. Feux de joie, réunions en plein air et long crépuscule nordique caractérisent une tradition antérieure à son association chrétienne avec saint Jean. La loi estonienne reconnaît le 24 juin, même si les festivités commencent souvent la veille.",
+    "de": "Estland feiert am 24. Juni den Mittsommertag Jaanipäev nach dem hellen Vorabend des 23. Juni. Feuer, Treffen im Freien und die lange nördliche Dämmerung prägen eine Tradition, die älter als ihre christliche Verbindung zum Johannistag ist. Das estnische Feiertagsgesetz nennt den 24. Juni, obwohl viele Feiern bereits am Vorabend beginnen.",
+    "pt": "A Estónia celebra Jaanipäev, o Dia de São João e do meio do verão, em 24 de junho, depois da luminosa véspera de 23 de junho. Fogueiras, encontros ao ar livre e o longo crepúsculo nórdico marcam uma tradição anterior à ligação cristã a São João. A lei reconhece o dia 24, embora as festas comecem muitas vezes na noite anterior."
+  },
+  "runtimeRichEditorialApproved": false
+}

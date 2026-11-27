@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-may-revolution-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-25",
+  "country": "AR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Argentine Ministry of Culture",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/node/431366",
+      "claim": "Government explains the First Junta established in Buenos Aires on 25 May 1810, after viceroy Cisneros resigned.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina commemorates the May Revolution on 25 May, recalling the establishment of the First Junta in Buenos Aires in 1810 after Viceroy Cisneros lost authority. This step opened a path toward local self-government, although formal independence came later. The national holiday marks the beginning of a political transformation, not the signing of the eventual independence declaration.",
+    "it": "Il 25 maggio l'Argentina ricorda la Rivoluzione di Maggio. Nel 1810 a Buenos Aires fu costituita la Prima Giunta dopo la caduta del viceré Cisneros. La svolta aprì il cammino verso l'autogoverno, anche se l'indipendenza formale arrivò più tardi. La festa celebra l'inizio di un processo politico, non la firma della dichiarazione finale.",
+    "es": "Argentina recuerda la Revolución de Mayo el 25 de mayo. En 1810 se formó la Primera Junta en Buenos Aires tras la salida del virrey Cisneros. El cambio abrió el camino al autogobierno, aunque la independencia formal llegó después. La fiesta conmemora el inicio de una transformación política y no la posterior declaración de independencia.",
+    "fr": "L'Argentine rappelle la révolution de Mai le 25 mai. En 1810, la Première Junte fut établie à Buenos Aires après la chute du vice-roi Cisneros. Ce changement ouvrit la voie à l'autonomie politique, même si l'indépendance formelle vint ensuite. La fête marque le début d'une transformation, pas la signature ultérieure de l'indépendance.",
+    "de": "Argentinien erinnert am 25. Mai an die Mairevolution. 1810 wurde in Buenos Aires nach dem Machtverlust des Vizekönigs Cisneros die Erste Junta gebildet. Dies eröffnete den Weg zur Selbstregierung, doch die formelle Unabhängigkeit folgte später. Der Feiertag erinnert an den Beginn des politischen Wandels, nicht an die spätere Unabhängigkeitserklärung.",
+    "pt": "A Argentina recorda a Revolução de Maio em 25 de maio. Em 1810, foi criada em Buenos Aires a Primeira Junta após a queda do vice-rei Cisneros. A mudança abriu caminho ao autogoverno, embora a independência formal viesse depois. O feriado recorda o início de uma transformação política, não a posterior declaração de independência."
+  },
+  "runtimeRichEditorialApproved": false
+}

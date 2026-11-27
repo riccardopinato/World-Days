@@ -1,3 +1,23 @@
+## 27 novembre 2026 — Fast Track IA massivo su prima coorte
+
+- [x] 100 dossier identificati, 2 già integrati su main tramite PR #164.
+- [x] 98 dossier originali trasferiti per SHA senza duplicazione nel ramo `editorial/fasttrack-428-c01-bulk-20261127`.
+- [x] Registro di revisione IA con per-file blob SHA, fonti legislative nazionali e HOLD individuali; nessun requisito di firma umana record-per-record.
+- [x] Importatore deterministico delle sole storie con QA idoneo in sei lingue, senza sovrascrivere ID o dati utente.
+- [ ] CI exact-head, build Web/Android se pertinente, revisione, merge e riconciliazione conteggi su main: **non attribuire PASS finché non evidenziato**.
+- [ ] Restano esclusi i dossier troppo generici, con fonte storica non individualizzata o con contenuti particolarmente sensibili: migliorare solo quelli, poi nuovo batch.
+
+## 27 novembre 2026 — Fast Track IA: promozione verificabile di due ricorrenze ceche (PR #164)
+
+- [x] Accertata la pertinenza annuale delle ricorrenze NATO (12 marzo) e UE (1º maggio) nell'articolo 4 della legge ceca 245/2000; conservata la distinzione fra data storica e anno di istituzione.
+- [x] Due storie EN/IT/ES/FR/DE/PT revisionate, fonti puntuali e ledger con identità SHA; nessuna delle altre 98 bozze della coorte 01 automaticamente approvata.
+- [x] Importatore deterministico e validatore per la build: **947** ID invariati, **521** storie specifiche e **426** contestuali dopo il passaggio; contenuto `2026.11.27.1`.
+- [x] Collegamento del nuovo importatore a CI sviluppo, deploy Web, release Android di produzione e QA Android firmato. I workflow di rilascio sono manuali e restano protetti.
+- [ ] Verificare CI exact-head della PR #164 dopo le correzioni di code review, poi procedere al merge senza aggirare i required checks o le review threads.
+- [ ] Esaminare in parallelo i restanti dossier in lotti da 100: QA automatica non coincide con certificazione storico-fattuale; HOLD individuali quando fonti o lingue sono insufficienti. Non dichiarare store release senza esecuzione effettiva.
+
+---
+
 ## 19 novembre 2026 — Ultimo audit completo dei titoli
 
 - [x] Audit comparativo di **947 canonical ID × 5 lingue non inglesi** dopo le precedenti 359 localizzazioni.

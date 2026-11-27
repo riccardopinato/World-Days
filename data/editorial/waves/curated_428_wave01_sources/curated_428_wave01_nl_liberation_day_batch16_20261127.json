@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "nl-liberation-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-05",
+  "country": "NL",
+  "documentedIntroductionYear": 1946,
+  "yearMeaning": "1946 national celebration, historically anchored in 1945 liberation.",
+  "authority": "Nationaal Comité 4 en 5 mei",
+  "dateReason": "Jurisdiction-specific annually observed date confirmed by named official government or national cultural body.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.4en5mei.nl/vieren/geschiedenis-5-mei",
+      "claim": "Dutch National Committee documents the first national celebration of liberation on 5 May in 1946, following liberation from wartime occupation in 1945.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The Netherlands celebrates Liberation Day on 5 May, remembering freedom restored in 1945 after German occupation during the Second World War. The national celebration was established in 1946. Festivals and Freedom Meals invite people to consider what liberty and democracy require today, while a public holiday does not automatically guarantee every employee a day off.",
+    "it": "Il 5 maggio i Paesi Bassi celebrano la Giornata della liberazione, ricordando la libertà riconquistata nel 1945 dopo l'occupazione tedesca. La celebrazione nazionale fu istituita nel 1946. Festival e pasti condivisi invitano a riflettere su democrazia e libertà; la festività pubblica non garantisce automaticamente un giorno libero a ogni lavoratore.",
+    "es": "Los Países Bajos celebran el Día de la Liberación el 5 de mayo, recordando la libertad recuperada en 1945 tras la ocupación alemana. La celebración nacional se instituyó en 1946. Festivales y comidas comunitarias invitan a reflexionar sobre democracia y libertad; el festivo no garantiza automáticamente descanso laboral a todos los empleados.",
+    "fr": "Les Pays-Bas célèbrent la Libération le 5 mai, rappelant le retour à la liberté en 1945 après l'occupation allemande. La célébration nationale a été instituée en 1946. Festivals et repas partagés invitent à réfléchir à la démocratie et à la liberté; le statut férié n'accorde pas automatiquement un jour de congé à chaque salarié.",
+    "de": "Die Niederlande feiern den Befreiungstag am 5. Mai und erinnern an die wiedergewonnene Freiheit von 1945 nach der deutschen Besatzung. Die nationale Feier wurde 1946 eingeführt. Festivals und gemeinsame Mahlzeiten regen zum Nachdenken über Demokratie und Freiheit an; der Feiertag bedeutet nicht automatisch arbeitsfrei für alle Beschäftigten.",
+    "pt": "Os Países Baixos celebram o Dia da Libertação em 5 de maio, recordando a liberdade recuperada em 1945 após a ocupação alemã. A celebração nacional foi instituída em 1946. Festivais e refeições comunitárias convidam à reflexão sobre democracia e liberdade; o feriado não garante automaticamente descanso a todos os trabalhadores."
+  },
+  "runtimeRichEditorialApproved": false
+}

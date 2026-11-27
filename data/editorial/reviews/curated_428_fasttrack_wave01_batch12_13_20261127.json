@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH12_13",
+  "factoryBaseline": "3e663a1a2a77142ab755e0fa645f14c74991e367",
+  "sourceMain": "03f19b94e1570fdfcbbe173bc2017e63ff4a489f",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Seven specific original six-locale narratives. Three individual calendar/institutional source conflicts explicitly HOLD and four date recurrences need exact canonical rule check; no human specialist review certification.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch12_13": 197,
+  "proposedBatch12_13": 7,
+  "records": [
+    {
+      "id": "france-deportation-victims-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_france_deportation_victims_remembrance_day_batch12_20261127.json",
+      "sourceBlobSha": "b9b4da8a94b1a8a252e4a2afc7d8380435174101",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-fathers-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_fathers_day_batch12_20261127.json",
+      "sourceBlobSha": "104743f57373c390758af983baeba91884a5bb26",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-mothers-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_mothers_day_batch12_20261127.json",
+      "sourceBlobSha": "70a95503b1f3fd18b5e45d77bc4cb9b3cc2f75b0",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w10-philippine-department-of-education-founding-anniversary",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w10_philippine_department_of_education_founding_anniversary_batch12_20261127.json",
+      "sourceBlobSha": "ac5a43717e77020d97978bb123c97b5b0ca816cd",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w13-made-in-the-philippines-product-week",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w13_made_in_the_philippines_product_week_batch13_20261127.json",
+      "sourceBlobSha": "54cd9d89d57d684cab4cc811a630fc8d8a8e8f26",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w13-volunteerism-month-philippines",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w13_volunteerism_month_philippines_batch13_20261127.json",
+      "sourceBlobSha": "4cf18d80cfd60c62179e60a2c9ae0e62ab8ae130",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w13-week-of-the-philippine-eagle",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w13_week_of_the_philippine_eagle_batch13_20261127.json",
+      "sourceBlobSha": "c7ca9ec566436df078ed2073078fccae7d51ceec",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

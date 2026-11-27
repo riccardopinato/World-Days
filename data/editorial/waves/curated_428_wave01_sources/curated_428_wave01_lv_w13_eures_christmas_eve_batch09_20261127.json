@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-w13-eures-christmas-eve",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-24",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year is unverified; any historical context in six-locale prose is separate.",
+  "authority": "Legislation of the Republic of Latvia",
+  "dateReason": "Country-specific legal or government public-holiday list substantiates the recurrence.",
+  "sourceEvidence": [
+    {
+      "url": "https://likumi.lv/ta/en/en/id/72608-on-holidays-remembrance-and-celebration-days",
+      "claim": "Latvian public holiday statute lists 24, 25 and 26 December as the Christmas holiday period, including Christmas Eve.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia observes Christmas Eve on 24 December as an official public holiday. The country's legislation groups 24, 25 and 26 December into the Christmas period, which connects Christian celebrations with local winter-season traditions. The first evening of the holiday is therefore legally distinct from the following two days, rather than merely an informal preparation day.",
+    "it": "La Lettonia riconosce la vigilia di Natale del 24 dicembre come festività pubblica. La legge riunisce il 24, 25 e 26 dicembre nel periodo natalizio, in cui tradizioni cristiane e usanze della stagione invernale convivono. La prima sera della festa è quindi un giorno festivo a sé, non soltanto un momento informale di preparazione.",
+    "es": "Letonia reconoce la Nochebuena del 24 de diciembre como festivo oficial. Su legislación agrupa los días 24, 25 y 26 de diciembre dentro del periodo navideño, donde conviven tradiciones cristianas y costumbres invernales locales. La víspera tiene así rango de festivo propio y no es simplemente un día informal de preparación.",
+    "fr": "La Lettonie reconnaît le réveillon de Noël du 24 décembre comme jour férié officiel. La loi regroupe les 24, 25 et 26 décembre dans la période de Noël, associant célébrations chrétiennes et coutumes hivernales locales. La veille possède donc un statut férié distinct et n'est pas seulement une journée de préparation.",
+    "de": "Lettland erkennt den Heiligabend am 24. Dezember als gesetzlichen Feiertag an. Das Gesetz fasst den 24., 25. und 26. Dezember zur Weihnachtszeit zusammen, in der christliche Feiern und lokale Winterbräuche aufeinandertreffen. Der erste Abend hat damit einen eigenen Feiertagsstatus und ist nicht nur ein informeller Vorbereitungstag.",
+    "pt": "A Letónia reconhece a véspera de Natal de 24 de dezembro como feriado oficial. A lei reúne os dias 24, 25 e 26 de dezembro no período natalício, combinando celebrações cristãs com costumes locais de inverno. A véspera possui assim estatuto de feriado próprio, não sendo apenas um dia informal de preparação."
+  },
+  "runtimeRichEditorialApproved": false
+}

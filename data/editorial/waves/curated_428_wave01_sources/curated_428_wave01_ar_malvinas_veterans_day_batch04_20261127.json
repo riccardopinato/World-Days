@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-malvinas-veterans-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "04-02",
+  "country": "AR",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Year of legal introduction where explicitly documented; historical event date is separate; null means not documented.",
+  "authority": "Argentine National Congress",
+  "dateReason": "Primary governmental or legislative source establishes the annual commemoration date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/normativa/nacional/ley-25370-65442/texto",
+      "claim": "Argentina's Law 25.370, adopted in 2000, declares 2 April a national holiday honouring veterans and those who died in the Malvinas war; the conflict began in 1982.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina observes Veterans and Fallen of the Malvinas War Day on 2 April. The date recalls the beginning of the 1982 conflict over the islands and honours veterans and those who died. National Law 25,370, adopted in 2000, formalised the commemorative holiday. The conflict's year and the holiday's legal introduction must not be confused.",
+    "it": "Il 2 aprile l'Argentina commemora i veterani e i caduti della guerra delle Malvinas. La data richiama l'inizio del conflitto del 1982 per le isole e onora chi vi partecipò e chi perse la vita. La legge nazionale 25.370, adottata nel 2000, ha istituito la festività commemorativa: i due anni hanno significati differenti.",
+    "es": "El 2 de abril Argentina recuerda a los veteranos y caídos de la Guerra de Malvinas. La fecha remite al inicio del conflicto de 1982 por las islas y homenajea a quienes participaron y perdieron la vida. La Ley nacional 25.370, aprobada en 2000, declaró el feriado conmemorativo: ambas fechas tienen significados distintos.",
+    "fr": "Le 2 avril, l'Argentine rend hommage aux anciens combattants et aux morts de la guerre des Malouines. La date évoque le début du conflit de 1982 autour des îles. La loi nationale 25 370, adoptée en 2000, a établi ce jour férié commémoratif. Il faut distinguer l'année de la guerre de celle de l'institution de la fête.",
+    "de": "Am 2. April erinnert Argentinien an Veteranen und Gefallene des Malvinas-Krieges. Das Datum verweist auf den Beginn des Konflikts um die Inseln im Jahr 1982. Das nationale Gesetz 25.370 aus dem Jahr 2000 erklärte den Tag zum gesetzlichen Gedenkfeiertag. Kriegsbeginn und Einführung des Feiertags sind getrennte Ereignisse.",
+    "pt": "Em 2 de abril, a Argentina homenageia os veteranos e os mortos da Guerra das Malvinas. A data recorda o início do conflito de 1982 pelas ilhas. A Lei nacional 25.370, aprovada em 2000, estabeleceu o feriado comemorativo. O ano do conflito e o da instituição legal da celebração não devem ser confundidos."
+  },
+  "runtimeRichEditorialApproved": false
+}

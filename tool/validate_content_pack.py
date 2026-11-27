@@ -89,7 +89,88 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
     # retained in the bundled generated editorials and Git review ledgers.
     bundled = json.loads((ROOT / f"assets/data/editorial_{locale}.json").read_text(encoding="utf-8"))
     assert len(bundled["entries"]) == len(entries) == 947
-    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446
+    fasttrack_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_runtime_import.json"
+    additional_fasttrack = (
+        json.loads(fasttrack_report.read_text(encoding="utf-8"))["aiReviewedAndAppBuildIntegrated"]
+        if fasttrack_report.exists() else 0
+    )
+    bulk_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_bulk_c01_runtime_import.json"
+    bulk_count = (
+        json.loads(bulk_report.read_text(encoding="utf-8"))["batchAiEditorialReviewedIntegrated"]
+        if bulk_report.exists() else 0
+    )
+    prepared85_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_prepared85_runtime_import.json"
+    prepared85_count = (
+        json.loads(prepared85_report.read_text(encoding="utf-8"))["fasttrackNewIntegrated"]
+        if prepared85_report.exists() else 0
+    )
+    wave01_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_runtime_import.json"
+    wave01_count = (
+        json.loads(wave01_report.read_text(encoding="utf-8"))["aiReviewedIntegrated"]
+        if wave01_report.exists() else 0
+    )
+    batch02_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch02_runtime_import.json"
+    batch02_count = (
+        json.loads(batch02_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch02_report.exists() else 0
+    )
+    batch03_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch03_runtime_import.json"
+    batch03_count = (
+        json.loads(batch03_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch03_report.exists() else 0
+    )
+    batch04_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch04_runtime_import.json"
+    batch04_count = (
+        json.loads(batch04_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch04_report.exists() else 0
+    )
+    batch05_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch05_runtime_import.json"
+    batch05_count = (
+        json.loads(batch05_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch05_report.exists() else 0
+    )
+    batch06_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch06_runtime_import.json"
+    batch06_count = (
+        json.loads(batch06_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch06_report.exists() else 0
+    )
+    batch07_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch07_runtime_import.json"
+    batch07_count = (
+        json.loads(batch07_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch07_report.exists() else 0
+    )
+    batch08_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch08_runtime_import.json"
+    batch08_count = (
+        json.loads(batch08_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch08_report.exists() else 0
+    )
+    batch09_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch09_runtime_import.json"
+    batch09_count = (
+        json.loads(batch09_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch09_report.exists() else 0
+    )
+    batch10_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch10_runtime_import.json"
+    batch10_count = (
+        json.loads(batch10_report.read_text(encoding="utf-8"))["integratedNew"]
+        if batch10_report.exists() else 0
+    )
+    batch11_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch11_runtime_import.json"
+    batch11_count = json.loads(batch11_report.read_text(encoding="utf-8"))["integratedNew"] if batch11_report.exists() else 0
+    batch12_13_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch12_13_runtime_import.json"
+    batch12_13_count = json.loads(batch12_13_report.read_text(encoding="utf-8"))["integratedNew"] if batch12_13_report.exists() else 0
+    batch14_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch14_runtime_import.json"
+    batch14_count = json.loads(batch14_report.read_text(encoding="utf-8"))["integratedNew"] if batch14_report.exists() else 0
+    batch15_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_wave01_batch15_runtime_import.json"
+    batch15_count = json.loads(batch15_report.read_text(encoding="utf-8"))["integratedNew"] if batch15_report.exists() else 0
+    cohort03_batch16_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch16_runtime_import.json"
+    cohort03_batch16_count = json.loads(cohort03_batch16_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch16_report.exists() else 0
+    cohort03_batch17_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch17_runtime_import.json"
+    cohort03_batch17_count = json.loads(cohort03_batch17_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch17_report.exists() else 0
+    cohort03_batch18_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch18_runtime_import.json"
+    cohort03_batch18_count = json.loads(cohort03_batch18_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch18_report.exists() else 0
+    cohort03_batch19_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_cohort03_batch19_runtime_import.json"
+    cohort03_batch19_count = json.loads(cohort03_batch19_report.read_text(encoding="utf-8"))["integratedNew"] if cohort03_batch19_report.exists() else 0
+    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack + bulk_count + prepared85_count + wave01_count + batch02_count + batch03_count + batch04_count + batch05_count + batch06_count + batch07_count + batch08_count + batch09_count + batch10_count + batch11_count + batch12_13_count + batch14_count + batch15_count + cohort03_batch16_count + cohort03_batch17_count + cohort03_batch18_count + cohort03_batch19_count
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
     assert pack == bundled, ("remote_payload_drift", locale)

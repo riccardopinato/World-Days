@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-jan-hus-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-06",
+  "country": "CZ",
+  "documentedIntroductionYear": 1990,
+  "yearMeaning": "Act 204/1990 explicitly declared 6 July a Czech state holiday; 1415 is the commemorated historical event, not the legal establishment year.",
+  "authority": "Czech National Council (1990); Parliament of the Czech Republic (2000)",
+  "dateReason": "6 July commemorates the execution of Jan Hus in 1415; the statute expressly names the burning of Jan Hus.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/eli/cz/sb/2000/245/2026-05-13",
+      "claim": "Act 245/2000 §1 explicitly designates 6 July as Den upálení mistra Jana Husa; §5 repeals Act 204/1990, which had declared that day a Czech state holiday."
+    },
+    {
+      "url": "https://www.cnb.cz/en/public/media-service/schedules-and-other-info/bank-holidays-in-the-czech-republic/index.html",
+      "claim": "Czech National Bank confirms 6 July as a public/bank holiday in 2026 and 2027."
+    }
+  ],
+  "narratives": {
+    "en": "Czechia marks 6 July as Jan Hus Day, a state holiday recalling the execution of the religious reformer in 1415. The modern legal designation is separate from that historical event: Act 204/1990 declared the date a Czech state holiday, and Act 245/2000 retained it while repealing the earlier statute. The law explicitly identifies the burning of Jan Hus as the event commemorated, so 1415 must not be confused with the year the modern holiday was established.",
+    "it": "Il 6 luglio la Cechia celebra la Giornata di Jan Hus, festa nazionale che ricorda l'esecuzione del riformatore religioso nel 1415. Il riconoscimento giuridico moderno è distinto dall'evento storico: la legge 204/1990 dichiarò la data festa nazionale ceca e la legge 245/2000 la mantenne, abrogando la precedente. Il testo legislativo identifica esplicitamente il rogo di Jan Hus come evento commemorato: il 1415 non è l'anno di istituzione della festa moderna.",
+    "es": "Chequia conmemora el 6 de julio el Día de Jan Hus, fiesta nacional que recuerda la ejecución del reformador religioso en 1415. Su reconocimiento jurídico moderno es distinto del acontecimiento histórico: la Ley 204/1990 declaró esa fecha fiesta nacional checa y la Ley 245/2000 la mantuvo, derogando la anterior. La legislación identifica expresamente la quema de Jan Hus como el hecho recordado; 1415 no es el año de creación de la festividad moderna.",
+    "fr": "La Tchéquie célèbre le 6 juillet la Journée de Jan Hus, fête nationale commémorant l'exécution du réformateur religieux en 1415. Sa reconnaissance juridique moderne est distincte de cet événement : la loi 204/1990 a déclaré cette date fête nationale tchèque, et la loi 245/2000 l'a maintenue tout en abrogeant le texte antérieur. La loi désigne explicitement le bûcher de Jan Hus comme l'événement commémoré ; 1415 n'est pas l'année d'institution de la fête actuelle.",
+    "de": "Tschechien begeht am 6. Juli den Jan-Hus-Tag als Staatsfeiertag zum Gedenken an die Hinrichtung des religiösen Reformators im Jahr 1415. Die heutige gesetzliche Anerkennung ist davon zu unterscheiden: Gesetz 204/1990 erklärte den Tag zum tschechischen Staatsfeiertag; Gesetz 245/2000 behielt ihn bei und hob das frühere Gesetz auf. Das Gesetz nennt ausdrücklich die Verbrennung von Jan Hus als Anlass. 1415 ist daher nicht das Einführungsjahr des modernen Feiertags.",
+    "pt": "A Chéquia assinala a 6 de julho o Dia de Jan Hus, feriado nacional que recorda a execução do reformador religioso em 1415. O reconhecimento jurídico moderno é distinto do acontecimento histórico: a Lei 204/1990 declarou a data feriado nacional checo e a Lei 245/2000 manteve-a, revogando a anterior. A legislação identifica expressamente a morte de Jan Hus na fogueira como o acontecimento recordado; 1415 não é o ano de criação do feriado moderno."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-independence-restoration-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-11",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Seimas of the Republic of Lithuania",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.lrs.lt/sip/portal.show?p_k=2&p_r=35660",
+      "claim": "Lithuanian Parliament documents the 11 March 1990 Act on the Re-establishment of the Independent State.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania marks the Restoration of Independence on 11 March, recalling its parliament's 1990 act restoring sovereignty after Soviet occupation. The act referred to the continuity of the Lithuanian state despite foreign control. It set a course for independence amid pressure from Moscow. The date of the political act does not by itself establish the year the present annual holiday was introduced.",
+    "it": "La Lituania celebra il ripristino dell'indipendenza l'11 marzo. Nel 1990 il Parlamento proclamò il ritorno alla sovranità dopo l'occupazione sovietica, richiamando la continuità dello Stato nonostante il controllo straniero. La decisione affrontò forti pressioni da Mosca. La data dell'atto non dimostra l'anno di istituzione della festività attuale.",
+    "es": "Lituania celebra la Restauración de la Independencia el 11 de marzo. En 1990 su Parlamento proclamó el restablecimiento de la soberanía tras la ocupación soviética y afirmó la continuidad del Estado pese al dominio extranjero. La decisión afrontó presiones de Moscú. La fecha del acto político no prueba cuándo se creó la fiesta anual actual.",
+    "fr": "La Lituanie célèbre le rétablissement de son indépendance le 11 mars. En 1990, son Parlement réaffirma la souveraineté après l'occupation soviétique et la continuité de l'État malgré la domination étrangère. La décision rencontra la pression de Moscou. La date de cet acte ne prouve pas l'année d'institution de la fête annuelle actuelle.",
+    "de": "Litauen feiert am 11. März die Wiederherstellung seiner Unabhängigkeit. 1990 erklärte das Parlament die Souveränität nach sowjetischer Besatzung wiederhergestellt und betonte die Kontinuität des Staates trotz Fremdherrschaft. Der Beschluss stieß auf Druck aus Moskau. Das Datum des Staatsakts belegt nicht das gesetzliche Gründungsjahr des heutigen Feiertags.",
+    "pt": "A Lituânia celebra a Restauração da Independência em 11 de março. Em 1990, o Parlamento reafirmou a soberania após a ocupação soviética e a continuidade do Estado apesar do domínio estrangeiro. A decisão enfrentou pressão de Moscovo. A data do ato político não comprova quando se instituiu o feriado anual atual."
+  },
+  "runtimeRichEditorialApproved": false
+}

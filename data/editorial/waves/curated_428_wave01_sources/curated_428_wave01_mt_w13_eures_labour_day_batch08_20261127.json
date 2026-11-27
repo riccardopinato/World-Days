@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-w13-eures-labour-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year of local observance not established by cited sources; any years in prose describe distinct changes in holiday status.",
+  "authority": "Malta Department of Industrial and Employment Relations",
+  "dateReason": "Country-specific date supported by public holiday legislation or a competent national employment authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://dier.gov.mt/en/services/employment-conditions/national-and-public-holidays/",
+      "claim": "Malta's DIER lists Labour Day as a national public holiday every 1 May.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.gov.mt/en/About%20Malta/Pages/Public%20Holidays.aspx",
+      "claim": "Government of Malta publishes 1 May Labour Day among the recognised public holidays.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Malta observes Labour Day on 1 May as a public holiday recognising work and the contribution of employees to society. It shares the date with international May Day observances but is governed by Malta's own holiday and employment rules. The official list identifies the fixed date; it does not establish the year the local holiday was first introduced.",
+    "it": "Il 1° maggio Malta celebra la Festa del lavoro come festività pubblica, riconoscendo il ruolo dei lavoratori nella società. La data coincide con le celebrazioni internazionali del Primo maggio, ma è disciplinata dalla normativa maltese sulle festività e sul lavoro. L'elenco ufficiale documenta il giorno, non l'anno della prima istituzione locale.",
+    "es": "Malta celebra el Día del Trabajo el 1 de mayo como festivo oficial que reconoce la aportación de los trabajadores a la sociedad. La fecha coincide con el Primero de Mayo internacional, pero se regula mediante la normativa laboral y de festivos de Malta. El calendario confirma la fecha, no el año de su primera introducción legal en el país.",
+    "fr": "Malte célèbre la fête du Travail le 1er mai comme jour férié reconnaissant la contribution des salariés à la société. La date coïncide avec le Premier Mai international, mais son application relève du droit maltais du travail et des jours fériés. Le calendrier officiel confirme la date, non l'année de sa première création locale.",
+    "de": "Malta begeht den Tag der Arbeit am 1. Mai als gesetzlichen Feiertag, um die Bedeutung der Beschäftigten für die Gesellschaft zu würdigen. Das Datum stimmt mit dem internationalen Maifeiertag überein, seine Regelung richtet sich aber nach maltesischem Arbeitsrecht. Die offizielle Liste belegt das Datum, nicht das ursprüngliche Einführungsjahr.",
+    "pt": "Malta celebra o Dia do Trabalhador em 1 de maio como feriado público, reconhecendo o contributo dos trabalhadores para a sociedade. A data coincide com o Primeiro de Maio internacional, mas obedece à legislação laboral e de feriados de Malta. A lista oficial confirma a data, não o ano da sua primeira instituição local."
+  },
+  "runtimeRichEditorialApproved": false
+}

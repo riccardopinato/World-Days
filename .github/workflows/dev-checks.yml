@@ -68,6 +68,8 @@ jobs:
           python3 tool/build_origin_review_index.py
           python3 tool/validate_origin_review_index.py
           python3 tool/validate_origin_runtime_approval_gate.py
+          python3 tool/test_fasttrack_curated_428_qc.py
+          python3 tool/fasttrack_curated_428_qc.py
           python3 tool/validate_editorial_origin_wave14_20261112.py
           python3 tool/validate_editorial_origin_wave15_20261112.py
           python3 tool/validate_editorial_origin_wave16_20261112.py
@@ -118,6 +120,49 @@ jobs:
           python3 tool/validate_final_titles_947.py
           python3 tool/audit_final_title_fallbacks.py
           python3 tool/queue_curated_428_origins.py
+          python3 tool/promote_curated_428_fasttrack_reviewed.py
+          python3 tool/validate_fasttrack_curated_428_promotion.py
+          python3 tool/promote_curated_428_fasttrack_batch.py
+          python3 tool/validate_fasttrack_curated_428_batch.py
+          python3 tool/promote_curated_428_fasttrack_prepared85.py
+          python3 tool/validate_fasttrack_prepared85.py
+          python3 tool/validate_curated_428_unwritten_fasttrack_blocks.py
+          python3 tool/promote_curated_428_fasttrack_wave01.py
+          python3 tool/validate_fasttrack_wave01.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch02.py
+          python3 tool/validate_fasttrack_wave01_batch02.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch03.py
+          python3 tool/validate_fasttrack_wave01_batch03.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch04.py
+          python3 tool/validate_fasttrack_wave01_batch04.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch05.py
+          python3 tool/validate_fasttrack_wave01_batch05.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch06.py
+          python3 tool/validate_fasttrack_wave01_batch06.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch07.py
+          python3 tool/validate_fasttrack_wave01_batch07.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch08.py
+          python3 tool/validate_fasttrack_wave01_batch08.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch09.py
+          python3 tool/validate_fasttrack_wave01_batch09.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch10.py
+          python3 tool/validate_fasttrack_wave01_batch10.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch11.py
+          python3 tool/validate_fasttrack_wave01_batch11.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch12_13.py
+          python3 tool/validate_fasttrack_wave01_batch12_13.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch14.py
+          python3 tool/validate_fasttrack_wave01_batch14.py
+          python3 tool/promote_curated_428_fasttrack_wave01_batch15.py
+          python3 tool/validate_fasttrack_wave01_batch15.py
+          python3 tool/promote_curated_428_fasttrack_cohort03_batch16.py
+          python3 tool/validate_fasttrack_cohort03_batch16.py
+          python3 tool/promote_curated_428_fasttrack_cohort03_batch17.py
+          python3 tool/validate_fasttrack_cohort03_batch17.py
+          python3 tool/promote_curated_428_fasttrack_cohort03_batch18.py
+          python3 tool/validate_fasttrack_cohort03_batch18.py
+          python3 tool/promote_curated_428_fasttrack_cohort03_batch19.py
+          python3 tool/validate_fasttrack_cohort03_batch19.py
           python3 tool/build_content_pack.py
           python3 tool/validate_content_pack.py
           python3 tool/validate_discovery.py
@@ -134,6 +179,17 @@ jobs:
           path: |
             reports/editorial_curated_428_origin_research/index.json
             reports/editorial_curated_428_origin_research/cohort_*.json
+          if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive Fast Track reviewed 85 and remaining 281 block worklists
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-fasttrack-prepared85-and-281-blocks
+          path: |
+            reports/editorial_curated_428_origin_research/fasttrack_prepared85_runtime_import.json
+            data/editorial/waves/curated_428_unwritten_fasttrack_block_*.json
+            data/editorial/waves/curated_428_unwritten_fasttrack_index_20261127.json
           if-no-files-found: error
           retention-days: 20
 
@@ -234,6 +290,15 @@ jobs:
           name: world-days-all-origin-waves-100
           path: reports/editorial_origin_completion/
           if-no-files-found: error
+          retention-days: 20
+
+      - name: Archive Fast Track 428 per-record QA decisions
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: world-days-fasttrack-428-qa
+          path: reports/editorial_curated_428_origin_research/fasttrack_qa_cohort_*.json
+          if-no-files-found: warn
           retention-days: 20
 
       - name: Build Android ARM64 gate

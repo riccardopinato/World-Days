@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-greater-poland-uprising-victory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-27",
+  "country": "PL",
+  "documentedIntroductionYear": 2021,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2021/2156/text.html",
+      "claim": "The 2021 law created a national commemoration on 27 December of the Greater Poland Uprising.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland remembers the victorious Greater Poland Uprising on 27 December. The revolt began in Poznań in 1918 as the German Empire collapsed and helped secure the region's place in the restored Polish state. Parliament established the national day in 2021. The year of the uprising is distinct from the legal creation of this annual remembrance.",
+    "it": "Il 27 dicembre la Polonia ricorda la vittoriosa insurrezione della Grande Polonia. La rivolta iniziò a Poznań nel 1918 durante il crollo dell'Impero tedesco e contribuì all'integrazione della regione nello Stato polacco. Il Parlamento istituì la giornata nazionale nel 2021, distinguendola dall'evento storico.",
+    "es": "El 27 de diciembre Polonia recuerda el victorioso Levantamiento de Gran Polonia. La revuelta comenzó en Poznań en 1918 durante la caída del Imperio alemán y ayudó a integrar la región en el Estado polaco restaurado. El Parlamento creó el día nacional en 2021, mucho después del hecho histórico.",
+    "fr": "La Pologne commémore le 27 décembre l'insurrection victorieuse de Grande-Pologne. La révolte commença à Poznań en 1918 lors de l'effondrement de l'Empire allemand et contribua au rattachement de la région à la Pologne restaurée. Le Parlement institua la journée nationale en 2021.",
+    "de": "Polen gedenkt am 27. Dezember des siegreichen Großpolnischen Aufstands. Er begann 1918 in Posen während des Zusammenbruchs des Deutschen Kaiserreichs und förderte die Eingliederung der Region in den wiederhergestellten polnischen Staat. Erst 2021 schuf das Parlament den nationalen Gedenktag.",
+    "pt": "A Polónia recorda em 27 de dezembro a vitoriosa Revolta da Grande Polónia. Começou em Poznań em 1918, durante a queda do Império Alemão, e contribuiu para integrar a região no Estado polaco restaurado. O Parlamento instituiu o dia nacional em 2021, muito depois do acontecimento."
+  },
+  "runtimeRichEditorialApproved": false
+}

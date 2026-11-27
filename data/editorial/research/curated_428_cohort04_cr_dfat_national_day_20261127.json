@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "cr-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-15",
+  "country": "CR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "15 September 1821 marks Central American independence from Spain, but Costa Rica's own local signing and oath took place later. This is not evidence of a specific modern national holiday founding law.",
+  "authority": "Organization of American States; Costa Rican Ministry of Education",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.oas.org/ext/en/main/oas/member-states/government-authorities/country/id/616",
+      "claim": "The Organization of American States officially lists 15 September as Costa Rica's National Independence Day."
+    }
+  ],
+  "narratives": {
+    "en": "Costa Rica celebrates Independence Day on 15 September, reflecting the Central American independence process of 1821. The decision to separate from Spanish rule emerged in Guatemala, while news and local political acts reached Costa Rican communities later. The modern public holiday honors sovereignty and Central American shared history. The date must not be misrepresented as the day every Costa Rican town signed its own independence act.",
+    "it": "Il 15 settembre la Costa Rica celebra l'indipendenza nel contesto del processo centroamericano del 1821. La decisione di separarsi dalla Spagna maturò in Guatemala, mentre le notizie e gli atti politici locali raggiunsero in seguito le comunità costaricane. La festa moderna celebra sovranità e storia condivisa. Non significa che ogni città del Paese firmò il proprio atto d'indipendenza quel giorno.",
+    "es": "El 15 de septiembre Costa Rica celebra la Independencia dentro del proceso centroamericano de 1821. La decisión de separarse de España surgió en Guatemala; las noticias y los acuerdos políticos locales llegaron después a las comunidades costarricenses. El festivo celebra soberanía e historia compartida. No significa que todas las ciudades de Costa Rica firmaran su acta de independencia ese día.",
+    "fr": "Le Costa Rica célèbre son indépendance le 15 septembre, dans le cadre du processus centraméricain de 1821. La décision de se séparer de l'Espagne fut prise au Guatemala, tandis que les nouvelles et les décisions locales parvinrent ensuite aux communautés costariciennes. La fête honore la souveraineté et une histoire régionale partagée. Elle ne signifie pas que chaque ville signa son acte d'indépendance ce jour-là.",
+    "de": "Costa Rica feiert seinen Unabhängigkeitstag am 15. September im Zusammenhang mit der zentralamerikanischen Unabhängigkeit von 1821. Die Trennung von Spanien wurde in Guatemala beschlossen, während die Nachricht und örtliche Entscheidungen Costa Rica erst später erreichten. Der Feiertag würdigt Souveränität und gemeinsame regionale Geschichte. Nicht jede costa-ricanische Stadt unterzeichnete an diesem Tag ein Unabhängigkeitsdokument.",
+    "pt": "A Costa Rica celebra a independência em 15 de setembro no contexto do processo centro-americano de 1821. A decisão de separação de Espanha surgiu na Guatemala, enquanto a notícia e os atos políticos locais chegaram mais tarde às comunidades costa-riquenhas. O feriado celebra a soberania e a história regional partilhada. Não significa que todas as localidades assinaram a independência nesse dia."
+  },
+  "runtimeRichEditorialApproved": false
+}

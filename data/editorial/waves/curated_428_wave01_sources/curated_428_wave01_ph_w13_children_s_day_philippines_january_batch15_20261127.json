@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w13-children-s-day-philippines-january",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 1959,
+  "yearMeaning": "1959 proclamation explicitly annual and sets the third Sunday of January.",
+  "authority": "President of the Philippines",
+  "dateReason": "Annual third Sunday of January in Proclamation 552 of 1959; check canonical recurrence rule before publication.",
+  "sourceEvidence": [
+    {
+      "url": "https://lawphil.net/executive/proc/proc1959/proc_552_1959.html",
+      "claim": "Presidential Proclamation No. 552 of 14 January 1959 explicitly designates the third Sunday in January of every year as Children's Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "In the Philippines, a 1959 presidential proclamation set the third Sunday of every January aside as Children's Day. The observance was designed to encourage greater attention to children's welfare and care, with the Children's Library and Museum tasked with organising celebrations. It is a moving Sunday date and should not be confused with other children's days celebrated later in the year.",
+    "it": "Nelle Filippine un proclama presidenziale del 1959 ha destinato la terza domenica di gennaio di ogni anno alla Giornata dei bambini. La ricorrenza vuole richiamare l'attenzione sulla loro tutela e sul loro benessere, affidando alla Biblioteca e Museo dei Bambini l'organizzazione delle celebrazioni. È una domenica mobile, distinta da altre giornate dell'infanzia.",
+    "es": "En Filipinas, una proclamación presidencial de 1959 estableció el tercer domingo de enero de cada año como Día del Niño. La fecha buscaba fomentar el cuidado y bienestar de la infancia, encargando su celebración a la Biblioteca y Museo Infantil. Se trata de un domingo variable y no debe confundirse con otras jornadas dedicadas a los niños durante el año.",
+    "fr": "Aux Philippines, une proclamation présidentielle de 1959 a institué la Journée des enfants le troisième dimanche de janvier de chaque année. Elle visait à renforcer l'attention portée à leur bien-être, en confiant les célébrations à la bibliothèque et au musée des enfants. C'est une date dominicale mobile, différente d'autres journées consacrées à l'enfance.",
+    "de": "Auf den Philippinen bestimmte eine Präsidialproklamation von 1959 den dritten Sonntag jedes Januars zum Kindertag. Damit sollte die Sorge um das Wohlergehen von Kindern gefördert werden; die Kinderbibliothek und das Kindermuseum erhielten die Aufgabe, Feiern zu organisieren. Der Sonntag ist beweglich und nicht mit anderen Kindertagen im Jahr gleichzusetzen.",
+    "pt": "Nas Filipinas, uma proclamação presidencial de 1959 instituiu o terceiro domingo de janeiro de cada ano como Dia da Criança. A medida procurava promover o bem-estar infantil e atribuiu à Biblioteca e Museu das Crianças a organização das celebrações. É um domingo de data variável, distinto de outras jornadas dedicadas à infância ao longo do ano."
+  },
+  "runtimeRichEditorialApproved": false
+}

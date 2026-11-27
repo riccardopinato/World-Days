@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-slovak-nation-memorandum-anniversary",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-07",
+  "country": "SK",
+  "documentedIntroductionYear": 1993,
+  "yearMeaning": "The Memorandum was adopted on 7 June 1861; its recognition in independent Slovakia's commemorative statute 241/1993 dates to 1993, effective from 1994. No first public commemoration year is demonstrated by the sources.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "The National Assembly in Turčiansky Svätý Martin met on 6–7 June 1861 and adopted the Memorandum on 7 June.",
+  "sourceEvidence": [
+    {
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/241/20261029.print.html",
+      "claim": "Act 241/1993 §3 names 7 June as the anniversary of the Memorandum of the Slovak Nation."
+    },
+    {
+      "url": "https://www.culture.gov.sk/sk/aktualita/pripominame-si-165-vyrocie-prijatia-memoranda-naroda-slovenskeho",
+      "claim": "Slovak Ministry of Culture describes the June 6–7 1861 assembly in Martin and the demands for national equality."
+    },
+    {
+      "url": "https://www.nbs.sk/_img/documents/_bankovkymince/zberatelske/memorandum/memorandum-a.pdf",
+      "claim": "National Bank of Slovakia historical material explains the 1861 Memorandum and its political-cultural significance."
+    }
+  ],
+  "narratives": {
+    "en": "Slovakia marks 7 June as the anniversary of the Memorandum of the Slovak Nation. At an assembly in Turčiansky Svätý Martin on 6–7 June 1861, Slovak representatives formulated demands for linguistic and national equality within the Kingdom of Hungary. The document became a landmark in the Slovak national emancipation movement and anticipated the campaign to establish Matica slovenská. Act 241/1993 includes the anniversary in Slovakia's memorial calendar. The 1861 document and the later statutory recognition are separate milestones.",
+    "it": "Il 7 giugno la Slovacchia ricorda il Memorandum della nazione slovacca. Durante un'assemblea a Turčiansky Svätý Martin, il 6 e 7 giugno 1861, rappresentanti slovacchi formularono richieste di uguaglianza linguistica e nazionale nel Regno d'Ungheria. Il documento divenne una tappa decisiva dell'emancipazione nazionale slovacca e anticipò il movimento per fondare la Matica slovenská. La legge 241/1993 inserisce l'anniversario nel calendario commemorativo nazionale. Il testo del 1861 e il successivo riconoscimento legislativo sono momenti diversi.",
+    "es": "El 7 de junio, Eslovaquia conmemora el Memorándum de la Nación Eslovaca. Durante una asamblea en Turčiansky Svätý Martin, celebrada los días 6 y 7 de junio de 1861, representantes eslovacos reclamaron igualdad lingüística y nacional en el Reino de Hungría. El documento se convirtió en un hito de la emancipación nacional eslovaca y anticipó los esfuerzos por crear Matica slovenská. La Ley 241/1993 incluyó el aniversario en el calendario conmemorativo nacional. El documento de 1861 y su reconocimiento legal posterior son hechos distintos.",
+    "fr": "Le 7 juin, la Slovaquie commémore le Mémorandum de la nation slovaque. Lors d'une assemblée réunie à Turčiansky Svätý Martin les 6 et 7 juin 1861, des représentants slovaques revendiquèrent l'égalité linguistique et nationale au sein du royaume de Hongrie. Le document marqua une étape de l'émancipation nationale slovaque et préfigura le mouvement visant à fonder Matica slovenská. La loi 241/1993 a inscrit cet anniversaire au calendrier commémoratif. Le texte de 1861 et sa reconnaissance légale ultérieure sont deux étapes distinctes.",
+    "de": "Am 7. Juni erinnert die Slowakei an das Memorandum der slowakischen Nation. Auf einer Versammlung am 6. und 7. Juni 1861 in Turčiansky Svätý Martin forderten slowakische Vertreter sprachliche und nationale Gleichberechtigung im Königreich Ungarn. Das Dokument wurde zu einem Meilenstein der slowakischen Nationalbewegung und bereitete den Weg für Bestrebungen zur Gründung der Matica slovenská. Gesetz 241/1993 nahm den Jahrestag in den Gedenkkalender auf. Das Memorandum von 1861 und seine spätere gesetzliche Anerkennung sind zu unterscheiden.",
+    "pt": "Em 7 de junho, a Eslováquia assinala o aniversário do Memorando da Nação Eslovaca. Numa assembleia realizada em Turčiansky Svätý Martin em 6 e 7 de junho de 1861, representantes eslovacos reivindicaram igualdade linguística e nacional no Reino da Hungria. O documento tornou-se um marco da emancipação nacional eslovaca e antecedeu os esforços para fundar a Matica slovenská. A Lei 241/1993 incluiu o aniversário no calendário comemorativo. O documento de 1861 e o reconhecimento legal posterior são marcos distintos."
+  },
+  "runtimeRichEditorialApproved": false
+}

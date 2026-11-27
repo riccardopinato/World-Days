@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "hr-homeland-war-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-18",
+  "country": "HR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from formal or first observance year; null when unverified.",
+  "authority": "Croatian Ministry of Veterans / Croatian Firefighting Association",
+  "dateReason": "Country-specific government record establishes observed date",
+  "sourceEvidence": [
+    {
+      "url": "https://hvz.gov.hr/vijesti/dan-sjecanja-na-zrtve-domovinskog-rata-i-dan-sjecanja-na-zrtvu-vukovara-i-skabrnje-6295/6295?big=0",
+      "claim": "Croatian state commemorations identify 18 November 1991 with the fall of Vukovar and attacks on civilians in Škabrnja.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Croatia commemorates the victims of the Homeland War on 18 November, particularly those of Vukovar and Škabrnja in 1991. After a prolonged siege, Vukovar fell and civilians and prisoners were killed; atrocities also struck Škabrnja that day. Memorial processions and services honour the dead and missing. The occasion is about remembrance of suffering, not a celebration of military violence.",
+    "it": "La Croazia ricorda il 18 novembre le vittime della guerra d'indipendenza, in particolare a Vukovar e Škabrnja nel 1991. Dopo un lungo assedio Vukovar cadde e civili e prigionieri furono uccisi; anche Škabrnja subì atrocità. Cortei e cerimonie rendono omaggio ai morti e ai dispersi. È una giornata di memoria del dolore, non di celebrazione della violenza.",
+    "es": "Croacia recuerda el 18 de noviembre a las víctimas de la Guerra de Independencia, especialmente en Vukovar y Škabrnja en 1991. Tras un largo asedio cayó Vukovar y murieron civiles y prisioneros; Škabrnja también sufrió atrocidades. Procesiones y ceremonias honran a muertos y desaparecidos. La jornada recuerda el sufrimiento, no celebra la violencia militar.",
+    "fr": "La Croatie commémore le 18 novembre les victimes de la guerre d'indépendance, notamment à Vukovar et Škabrnja en 1991. Après un long siège, Vukovar tomba et des civils et prisonniers furent tués; Škabrnja connut aussi des atrocités. Les cérémonies honorent morts et disparus. Il s'agit d'une journée de mémoire de la souffrance, et non d'une célébration de la violence.",
+    "de": "Kroatien gedenkt am 18. November der Opfer des Heimatkriegs, besonders in Vukovar und Škabrnja 1991. Nach langer Belagerung fiel Vukovar; Zivilisten und Gefangene wurden getötet. Auch in Škabrnja kam es zu Gräueltaten. Gedenkzüge und Zeremonien erinnern an Tote und Vermisste. Der Tag dient dem Gedenken an Leid, nicht der Verherrlichung militärischer Gewalt.",
+    "pt": "A Croácia recorda em 18 de novembro as vítimas da Guerra da Independência, sobretudo em Vukovar e Škabrnja em 1991. Após longo cerco, Vukovar caiu e civis e prisioneiros foram mortos; Škabrnja também sofreu atrocidades. Cerimónias homenageiam mortos e desaparecidos. É um dia de memória do sofrimento, não de celebração da violência militar."
+  },
+  "runtimeRichEditorialApproved": false
+}

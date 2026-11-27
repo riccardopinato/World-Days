@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "mexico-national-flag-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-24",
+  "country": "MX",
+  "documentedIntroductionYear": 1940,
+  "yearMeaning": "1940 is official presidential recognition, distinct from earlier 1934/1935 celebrations and 1821 historical flag.",
+  "authority": "Government of Mexico / Ministry of the Interior",
+  "dateReason": "Specific government ministry or community decree fixes this jurisdiction-scoped observance to this Gregorian day.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gob.mx/segob/es/articulos/dia-de-la-bandera-148585",
+      "claim": "Mexican government confirms 24 February Flag Day recognised officially by presidential decree in 1940, recalling the 1821 three-guarantees banner and Plan of Iguala.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Mexico celebrates Flag Day on 24 February, honouring the national flag as a symbol of independence and unity. The date recalls the Plan of Iguala and the Trigarante flag of 1821; the modern observance received official presidential recognition in 1940 after earlier public commemorations. Schools and public institutions organise ceremonies centred on the flag and its changing historical design.",
+    "it": "Il Messico celebra il Giorno della bandiera il 24 febbraio, rendendo omaggio al vessillo come simbolo di indipendenza e unità. La data richiama il Piano di Iguala e la bandiera delle Tre Garanzie del 1821; la ricorrenza moderna ottenne il riconoscimento presidenziale nel 1940, dopo commemorazioni precedenti. Scuole e istituzioni organizzano cerimonie dedicate al tricolore.",
+    "es": "México celebra el Día de la Bandera el 24 de febrero, honrando el símbolo de la independencia y la unidad del país. La fecha evoca el Plan de Iguala y la bandera del Ejército Trigarante de 1821; la conmemoración obtuvo reconocimiento presidencial oficial en 1940, después de celebraciones anteriores. Escuelas e instituciones públicas organizan actos dedicados al lábaro patrio.",
+    "fr": "Le Mexique célèbre la fête du Drapeau le 24 février, honorant un symbole d'indépendance et d'unité nationale. La date rappelle le plan d'Iguala et le drapeau des Trois Garanties de 1821; la commémoration moderne fut officiellement reconnue par décret présidentiel en 1940, après des célébrations antérieures. Écoles et institutions organisent des cérémonies consacrées au drapeau.",
+    "de": "Mexiko begeht am 24. Februar den Tag der Flagge und würdigt ein Symbol von Unabhängigkeit und Einheit. Das Datum erinnert an den Plan von Iguala und die Trigarante-Flagge von 1821; die moderne Gedenkfeier wurde 1940 nach früheren Veranstaltungen durch Präsidialerlass offiziell anerkannt. Schulen und Behörden veranstalten Zeremonien zur Geschichte der Nationalflagge.",
+    "pt": "O México celebra o Dia da Bandeira em 24 de fevereiro, homenageando um símbolo de independência e unidade. A data recorda o Plano de Iguala e a bandeira das Três Garantias de 1821; a comemoração moderna recebeu reconhecimento presidencial oficial em 1940, após celebrações anteriores. Escolas e instituições realizam cerimónias dedicadas à bandeira e à sua história."
+  },
+  "runtimeRichEditorialApproved": false
+}

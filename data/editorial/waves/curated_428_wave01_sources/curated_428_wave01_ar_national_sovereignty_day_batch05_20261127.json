@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ar-national-sovereignty-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-20",
+  "country": "AR",
+  "documentedIntroductionYear": 1974,
+  "yearMeaning": "Legal institution or denomination change year; distinguish from historical event year.",
+  "authority": "Argentine National Congress",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.argentina.gob.ar/normativa/nacional/ley-20770-174390/texto",
+      "claim": "Law 20.770 declared 20 November Sovereignty Day in commemoration of the Battle of Vuelta de Obligado of 20 November 1845.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Argentina commemorates National Sovereignty Day on 20 November, remembering the Battle of Vuelta de Obligado fought on the Paraná River in 1845. Argentine forces resisted an Anglo-French fleet in a conflict over river navigation and national authority. Law 20,770 established the commemorative date in 1974; public-holiday arrangements have since changed.",
+    "it": "Il 20 novembre l'Argentina ricorda la Giornata della sovranità nazionale, legata alla battaglia della Vuelta de Obligado sul Paraná nel 1845. Le forze argentine resistettero a una flotta anglo-francese in una disputa sulla navigazione fluviale e l'autorità nazionale. La legge 20.770 ha istituito la ricorrenza nel 1974.",
+    "es": "El 20 de noviembre Argentina recuerda el Día de la Soberanía Nacional por la batalla de la Vuelta de Obligado, librada en el río Paraná en 1845. Las fuerzas argentinas resistieron a una flota anglo-francesa en un conflicto sobre navegación y soberanía. La Ley 20.770 estableció la conmemoración en 1974; el régimen de feriados cambió posteriormente.",
+    "fr": "Le 20 novembre, l'Argentine commémore la Journée de la souveraineté nationale, liée à la bataille de Vuelta de Obligado sur le Paraná en 1845. Les forces argentines résistèrent à une flotte franco-britannique dans un conflit de navigation et de souveraineté. La loi 20 770 institua la commémoration en 1974.",
+    "de": "Argentinien erinnert am 20. November mit dem Tag der nationalen Souveränität an die Schlacht von Vuelta de Obligado am Paraná im Jahr 1845. Argentinische Truppen leisteten einer britisch-französischen Flotte Widerstand. Das Gesetz 20.770 legte den Gedenktag 1974 fest; die Feiertagsregelungen wurden später verändert.",
+    "pt": "A Argentina assinala o Dia da Soberania Nacional em 20 de novembro, recordando a Batalha de Vuelta de Obligado, travada no rio Paraná em 1845. Forças argentinas resistiram a uma frota anglo-francesa num conflito sobre navegação e soberania. A Lei 20.770 instituiu a comemoração em 1974; as regras do feriado mudaram depois."
+  },
+  "runtimeRichEditorialApproved": false
+}

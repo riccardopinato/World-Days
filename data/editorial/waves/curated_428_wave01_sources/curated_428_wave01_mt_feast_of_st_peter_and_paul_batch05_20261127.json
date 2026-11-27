@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-feast-of-st-peter-and-paul",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-29",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Traditional origin or original legislation year not established by cited sources.",
+  "authority": "Government of Malta / Visit Malta",
+  "dateReason": "Linked primary government, statutory or national tourism documentation confirms official annual date and relevant cultural history.",
+  "sourceEvidence": [
+    {
+      "url": "https://publicservice.gov.mt/Media/PSMC%20Documents/PSMC_2.pdf?v=202606232300",
+      "claim": "Maltese official public holiday list records the Feast of St Peter and St Paul on 29 June.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.visitmalta.com/it/events-in-malta-and-gozo/event/feast-of-st.-peter-and-st.-paul-l-imnarja/",
+      "claim": "The national tourism portal names the feast L-Imnarja and presents it as a Maltese cultural celebration.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "On 29 June, Malta celebrates the Feast of Saints Peter and Paul, also known locally as L-Imnarja. It combines the Catholic feast of two apostles with Maltese community and rural traditions. The day is listed among Malta's official public holidays. The available calendars establish its date but do not prove the year of the feast's first legal recognition.",
+    "it": "Il 29 giugno Malta celebra la Festa dei santi Pietro e Paolo, conosciuta localmente come L-Imnarja. Alla ricorrenza cattolica dei due apostoli si uniscono tradizioni comunitarie e rurali maltesi. La giornata compare tra le festività pubbliche ufficiali. Le fonti confermano la data, non l'anno del primo riconoscimento legislativo.",
+    "es": "El 29 de junio Malta celebra la Fiesta de San Pedro y San Pablo, conocida como L-Imnarja. La festividad católica de los dos apóstoles se une a tradiciones comunitarias y rurales maltesas. Figura entre los festivos públicos oficiales. Las fuentes confirman su fecha actual, pero no el año de su primera declaración legal.",
+    "fr": "Le 29 juin, Malte célèbre la fête de saint Pierre et saint Paul, appelée localement L-Imnarja. La fête catholique des deux apôtres s'accompagne de traditions communautaires et rurales maltaises. Elle figure parmi les jours fériés officiels. Les sources confirment sa date, sans établir l'année de sa première reconnaissance légale.",
+    "de": "Am 29. Juni feiert Malta das Fest der Apostel Petrus und Paulus, das vor Ort L-Imnarja heißt. Der katholische Festtag verbindet sich mit maltesischen Gemeinschafts- und ländlichen Traditionen. Er zählt zu den offiziellen Feiertagen. Die Quellen belegen das Datum, nicht aber das Jahr der ursprünglichen gesetzlichen Anerkennung.",
+    "pt": "Em 29 de junho, Malta celebra a Festa de São Pedro e São Paulo, conhecida localmente como L-Imnarja. A celebração católica dos dois apóstolos junta-se a tradições comunitárias e rurais maltesas. O dia integra os feriados oficiais. As fontes confirmam a data, mas não o ano do primeiro reconhecimento legal."
+  },
+  "runtimeRichEditorialApproved": false
+}

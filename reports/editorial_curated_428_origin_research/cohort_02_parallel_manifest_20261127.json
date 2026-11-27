@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "status": "AI_DRAFT_RESEARCH_QUEUE_NOT_RUNTIME_PUBLISHED",
+  "cohort": 2,
+  "totalCanonicalIds": 100,
+  "sourceArtifactId": 14987069817,
+  "sourceArtifactName": "world-days-curated-428-origin-cohorts",
+  "sourceArtifactDigest": "sha256:37819b79f7d75ce282c1548f7c24923a8415ac49e2d1ec9465fa2d9bff1381be",
+  "originalSourceHeadSha": "af2d7303ff7a81435cac3e22e86cff0c76217321",
+  "baseMainSha": "6820b1d1ff1bf8268c41e2b43f124c952a9ecb42",
+  "preparedDossierIds": [
+    "ee-independence-day",
+    "mt-independence-day",
+    "portugal-freedom-day",
+    "ee-tartu-peace-treaty-day",
+    "pl-independence-day",
+    "french-national-day",
+    "ee-knowledge-day",
+    "mt-republic-day",
+    "mt-freedom-day",
+    "ee-sovereignty-declaration-day",
+    "ee-local-government-day",
+    "ee-resistance-day",
+    "ee-mother-tongue-day",
+    "ee-veterans-day"
+  ],
+  "preparedSixLocaleDossiers": 14,
+  "remainingResearchIds": 86,
+  "review": "PENDING",
+  "humanCertified": 0,
+  "runtimeIntegrated": 0,
+  "translationLocales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review. Added ee-knowledge-day with six-language draft and institutional source; no human review. 2026-11-27: two additional independent six-locale historical dossiers researched against national institutions; review PENDING and not runtime-published. One six-locale draft added with source direct-verification pending; not certified. 2026-11-27: ee-local-government-day added as six-locale research draft, human review pending. 2026-11-27: two source-anchored six-locale AI drafts added; human review and runtime promotion remain pending. 2026-11-27: ee-veterans-day source-anchored six-locale AI draft added; human review and runtime pending."
+}

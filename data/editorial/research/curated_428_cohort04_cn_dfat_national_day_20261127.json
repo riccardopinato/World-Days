@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "cn-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-01",
+  "country": "CN",
+  "documentedIntroductionYear": 1949,
+  "yearMeaning": "China's government designated October 1 National Day by a resolution passed on 2 December 1949, distinct from the 1 October founding proclamation.",
+  "authority": "Central People's Government of China",
+  "dateReason": "Annual calendar date independently supported by an institutional primary or authoritative historical source.",
+  "sourceEvidence": [
+    {
+      "url": "https://english.www.gov.cn/archive/china_abc/2014/08/27/content_281474983873427.htm",
+      "claim": "Chinese official account reports resolution of 2 December 1949 designating 1 October National Day after founding of the PRC."
+    }
+  ],
+  "narratives": {
+    "en": "China's National Day falls on 1 October, remembering the proclamation of the People's Republic of China in 1949. The Central People's Government formally selected the date as National Day in a resolution adopted on 2 December of the same year. Ceremonies and public holidays recall the founding of the new state. The distinction between the October event and December legal designation clarifies what the introduction year means.",
+    "it": "Il 1° ottobre la Cina celebra la Giornata nazionale, che ricorda la proclamazione della Repubblica Popolare Cinese nel 1949. Il Governo centrale stabilì formalmente la data con una risoluzione del 2 dicembre dello stesso anno. Cerimonie e festività pubbliche celebrano la nascita del nuovo Stato. È importante distinguere l'evento di ottobre dalla successiva designazione legale di dicembre.",
+    "es": "El 1 de octubre China celebra su Día Nacional, en recuerdo de la proclamación de la República Popular China en 1949. El Gobierno Popular Central estableció oficialmente la fecha mediante una resolución del 2 de diciembre del mismo año. Ceremonias y festivos conmemoran la fundación del nuevo Estado. Hay que distinguir la proclamación de octubre de la designación legal posterior de diciembre.",
+    "fr": "Le 1er octobre, la Chine célèbre sa fête nationale, rappelant la proclamation de la République populaire de Chine en 1949. Le gouvernement populaire central fixa officiellement cette date par une résolution du 2 décembre de la même année. Cérémonies et jours fériés commémorent la création du nouvel État. Il faut distinguer l'événement d'octobre de sa désignation juridique en décembre.",
+    "de": "China feiert seinen Nationalfeiertag am 1. Oktober und erinnert an die Proklamation der Volksrepublik China im Jahr 1949. Die Zentrale Volksregierung legte den Termin durch einen Beschluss vom 2. Dezember desselben Jahres offiziell fest. Zeremonien und Feiertage gedenken der Gründung des neuen Staates. Die Proklamation im Oktober und die rechtliche Festlegung im Dezember sind zu unterscheiden.",
+    "pt": "A China celebra o Dia Nacional em 1 de outubro, recordando a proclamação da República Popular da China em 1949. O Governo Popular Central fixou oficialmente a data por resolução de 2 de dezembro do mesmo ano. Cerimónias e feriados recordam a fundação do novo Estado. Importa distinguir a proclamação de outubro da designação legal de dezembro."
+  },
+  "runtimeRichEditorialApproved": false
+}

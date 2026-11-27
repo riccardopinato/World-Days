@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-defence-forces-flag-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-04",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The date matches C. G. E. Mannerheim's birthday; the first official designation of Defence Forces Flag Day was not established from checked sources.",
+  "authority": "Finnish Defence Forces / Finnish flag-day calendar",
+  "dateReason": "The date is given in the cited national official commemorative calendar or statute for fi-defence-forces-flag-day; historical origin and official adoption are distinct.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/facts-stats-and-info/the-finnish-flag/",
+      "claim": "The Finnish official flag-day list identifies 4 June as Defence Forces Flag Day."
+    },
+    {
+      "url": "https://finland.fi/life-society/soldier-president-mannerheim-took-finland-war-peace/",
+      "claim": "Finnish governmental cultural information contextualizes the observance and its historic figure or founding event."
+    }
+  ],
+  "narratives": {
+    "en": "On 4 June, Finland marks Defence Forces Flag Day with ceremonies, parades and recognition of military service. The date also coincides with the birthday of Marshal C. G. E. Mannerheim, a central military figure in the country's twentieth-century history. The modern observance honors the defence institution rather than treating the anniversary as a private birthday. The official flag calendar confirms the date, but the first designation year remains unverified here.",
+    "it": "Il 4 giugno la Finlandia celebra la Giornata della bandiera delle Forze di difesa con cerimonie, parate e riconoscimenti al servizio militare. La data coincide con la nascita del maresciallo C. G. E. Mannerheim, figura fondamentale della storia militare del Novecento. La ricorrenza odierna celebra un'istituzione pubblica, non soltanto un compleanno. Il calendario ufficiale conferma la data, ma non l'anno della prima istituzione.",
+    "es": "El 4 de junio, Finlandia celebra el Día de la Bandera de las Fuerzas de Defensa con ceremonias, desfiles y reconocimiento al servicio militar. La fecha coincide con el nacimiento del mariscal C. G. E. Mannerheim, figura central de la historia militar del siglo XX. La jornada actual honra una institución pública y no solo un cumpleaños. El calendario oficial confirma la fecha, pero aquí no se ha verificado el año de su primera designación.",
+    "fr": "Le 4 juin, la Finlande célèbre la Journée du drapeau des Forces de défense par des cérémonies, défilés et hommages au service militaire. La date coïncide avec la naissance du maréchal C. G. E. Mannerheim, figure marquante de l'histoire militaire du XXe siècle. La journée actuelle honore une institution publique et non simplement un anniversaire personnel. Le calendrier officiel confirme la date, sans établir ici l'année de sa création.",
+    "de": "Am 4. Juni begeht Finnland den Flaggentag der Verteidigungskräfte mit Zeremonien, Paraden und Ehrungen für den Militärdienst. Das Datum fällt mit dem Geburtstag von Marschall C. G. E. Mannerheim zusammen, einer prägenden Gestalt der Militärgeschichte des 20. Jahrhunderts. Der heutige Feiertag würdigt eine öffentliche Institution und nicht nur einen Geburtstag. Das offizielle Verzeichnis bestätigt das Datum, nicht aber das Jahr seiner erstmaligen Einführung.",
+    "pt": "Em 4 de junho, a Finlândia assinala o Dia da Bandeira das Forças de Defesa com cerimónias, desfiles e reconhecimento do serviço militar. A data coincide com o nascimento do marechal C. G. E. Mannerheim, figura central da história militar do século XX. A comemoração atual homenageia uma instituição pública, não apenas um aniversário pessoal. O calendário oficial confirma a data, mas não permite identificar o ano da primeira instituição."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-polish-victims-of-oun-upa-genocide-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-11",
+  "country": "PL",
+  "documentedIntroductionYear": 2025,
+  "yearMeaning": "Year refers to formal legal establishment rather than the historical event.",
+  "authority": "Sejm of the Republic of Poland / Ministry of Foreign Affairs of Ukraine",
+  "dateReason": "Observed date verified against specific government or law, not inferred from personal life anniversary.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/eli/DU/2025/891/ogl/pol",
+      "claim": "Polish law of 4 June 2025 designates 11 July as its national day of remembrance for Poles killed in the ethnic violence perpetrated by OUN-UPA in eastern prewar territories.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://mfa.gov.ua/en/news/zayava-mzs-shchodo-rishennya-sejmu-respubliki-polshcha",
+      "claim": "Ukraine's foreign ministry publicly challenges the unilateral genocide designation and calls for bilateral historical reconciliation.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland marks 11 July as a remembrance day for Poles killed in wartime ethnic violence committed by Ukrainian nationalist formations in the former eastern territories of the Second Polish Republic. A 2025 law formally adopted the term genocide for this commemoration. Ukraine's foreign ministry disputes this unilateral designation and stresses dialogue and historical reconciliation.",
+    "it": "L'11 luglio la Polonia ricorda i polacchi uccisi nelle violenze etniche del periodo bellico da formazioni nazionaliste ucraine nei territori orientali della Seconda Repubblica polacca. Una legge del 2025 ha adottato ufficialmente per la ricorrenza il termine genocidio. Il ministero degli Esteri ucraino contesta questa qualificazione unilaterale e chiede dialogo storico.",
+    "es": "Polonia recuerda el 11 de julio a los polacos asesinados durante la violencia étnica de la guerra por formaciones nacionalistas ucranianas en los antiguos territorios orientales de la Segunda República Polaca. Una ley de 2025 calificó oficialmente la conmemoración de genocidio. El Ministerio de Exteriores ucraniano cuestiona esa designación unilateral y pide diálogo histórico.",
+    "fr": "La Pologne commémore le 11 juillet les Polonais tués lors des violences ethniques commises pendant la guerre par des formations nationalistes ukrainiennes dans les anciens territoires orientaux de la Deuxième République. Une loi de 2025 emploie officiellement le terme génocide. Le ministère ukrainien des Affaires étrangères conteste cette désignation unilatérale et appelle au dialogue.",
+    "de": "Polen erinnert am 11. Juli an Polen, die während des Krieges bei ethnischer Gewalt ukrainischer nationalistischer Verbände in den früheren Ostgebieten der Zweiten Republik getötet wurden. Ein Gesetz von 2025 bezeichnet die Gedenkereignisse offiziell als Völkermord. Das ukrainische Außenministerium widerspricht dieser einseitigen Einordnung und fordert historischen Dialog.",
+    "pt": "A Polónia recorda em 11 de julho os polacos mortos durante a violência étnica da guerra por formações nacionalistas ucranianas nos antigos territórios orientais da Segunda República. Uma lei de 2025 adotou oficialmente a designação de genocídio. O Ministério dos Negócios Estrangeiros ucraniano contesta essa qualificação unilateral e defende o diálogo histórico."
+  },
+  "runtimeRichEditorialApproved": false
+}

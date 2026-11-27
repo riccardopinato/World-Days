@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "german-unity-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-03",
+  "country": "DE",
+  "documentedIntroductionYear": 1990,
+  "yearMeaning": "The German unification became legally effective on 3 October 1990; this is the commemorated state-unification date, rather than a separate claim about when annual ceremonies began.",
+  "authority": "Federal Government of Germany",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-einheit-ist-wirklichkeit-432814",
+      "claim": "The Federal Government documents German reunification on 3 October 1990 after division into the FRG and GDR."
+    }
+  ],
+  "narratives": {
+    "en": "Germany celebrates Unity Day on 3 October, commemorating reunification in 1990 after decades of division between the Federal Republic and the German Democratic Republic. Peaceful protests in East Germany and negotiations between governments helped make unification possible. The day marks the formal accession of the eastern states to the unified country. The 1990 date is the unification milestone, not the fall of the Berlin Wall in November 1989.",
+    "it": "Il 3 ottobre la Germania celebra l'Unità, ricordando la riunificazione del 1990 dopo decenni di divisione fra Repubblica federale e Repubblica democratica tedesca. Le proteste pacifiche nella Germania Est e i negoziati favorirono il cambiamento. La data segna l'ingresso formale dei Länder orientali nello Stato riunificato. Non va confusa con la caduta del Muro di Berlino del novembre 1989.",
+    "es": "El 3 de octubre Alemania celebra la Unidad, recordando la reunificación de 1990 tras décadas de división entre la República Federal y la República Democrática Alemana. Las protestas pacíficas en el este y las negociaciones permitieron el cambio. La fecha marca la integración formal de los estados orientales. No debe confundirse con la caída del Muro de Berlín en noviembre de 1989.",
+    "fr": "Le 3 octobre, l'Allemagne célèbre l'Unité en souvenir de la réunification de 1990 après des décennies de division entre RFA et RDA. Les manifestations pacifiques à l'Est et les négociations gouvernementales rendirent ce changement possible. La date marque l'intégration officielle des Länder orientaux dans le pays réunifié. Elle ne doit pas être confondue avec la chute du mur de Berlin en novembre 1989.",
+    "de": "Deutschland feiert am 3. Oktober den Tag der Deutschen Einheit und erinnert an die Wiedervereinigung 1990 nach Jahrzehnten der Teilung in Bundesrepublik und DDR. Friedliche Proteste im Osten und Verhandlungen ebneten den Weg. Das Datum bezeichnet den formellen Beitritt der östlichen Länder zum vereinten Staat. Es ist nicht mit dem Mauerfall im November 1989 gleichzusetzen.",
+    "pt": "Em 3 de outubro, a Alemanha celebra a Unidade, recordando a reunificação de 1990 após décadas de divisão entre a República Federal e a República Democrática Alemã. Protestos pacíficos no leste e negociações abriram caminho à mudança. A data assinala a integração formal dos estados orientais. Não deve ser confundida com a queda do Muro de Berlim em novembro de 1989."
+  },
+  "runtimeRichEditorialApproved": false
+}

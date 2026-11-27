@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-27",
+  "sourceMainSHA": "c95663d99eadb9258041b94dee0c70c483b5dfc9",
+  "originalBacklog": 428,
+  "integratedOnMainAtBootstrap": 62,
+  "preparedOnOtherBranchesOrNotYetPublished": 85,
+  "unwrittenCount": 281,
+  "preparedResearchIds": 147,
+  "uniqueCanonicalIds": 428,
+  "disjoint": true,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "blocks": [
+    {
+      "path": "data/editorial/waves/curated_428_unwritten_fasttrack_block_01.json",
+      "block": 1,
+      "count": 100,
+      "authoringStatus": "RESEARCH_REQUIRED_NO_SIX_LOCALE_DOSSIER_WRITTEN"
+    },
+    {
+      "path": "data/editorial/waves/curated_428_unwritten_fasttrack_block_02.json",
+      "block": 2,
+      "count": 100,
+      "authoringStatus": "RESEARCH_REQUIRED_NO_SIX_LOCALE_DOSSIER_WRITTEN"
+    },
+    {
+      "path": "data/editorial/waves/curated_428_unwritten_fasttrack_block_03.json",
+      "block": 3,
+      "count": 81,
+      "authoringStatus": "RESEARCH_REQUIRED_NO_SIX_LOCALE_DOSSIER_WRITTEN"
+    }
+  ],
+  "note": "A block is a canonical production queue, not proof of written stories, checked sources, translated narratives or completed reviews. Excludes every source dossier already prepared."
+}

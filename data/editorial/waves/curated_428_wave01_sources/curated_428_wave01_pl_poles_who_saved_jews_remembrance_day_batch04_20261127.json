@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-poles-who-saved-jews-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-24",
+  "country": "PL",
+  "documentedIntroductionYear": 2018,
+  "yearMeaning": "Year of legal introduction where explicitly documented; historical event date is separate; null means not documented.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Primary governmental or legislative source establishes the annual commemoration date.",
+  "sourceEvidence": [
+    {
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2018/589/text.html",
+      "claim": "Polish Act of 6 March 2018 established 24 March to commemorate Poles who rescued Jews under German occupation; it is the anniversary of the 1944 murder of the Ulma family.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "On 24 March, Poland remembers people who rescued Jews under German occupation, often risking their own lives. The date recalls the murder of the Ulma family in Markowa in 1944. A law adopted in 2018 established this national day of remembrance, distinguishing the wartime events from the modern commemoration.",
+    "it": "Il 24 marzo la Polonia ricorda chi salvò persone ebree durante l'occupazione tedesca, spesso rischiando la propria vita. La data richiama l'uccisione della famiglia Ulma a Markowa nel 1944. Una legge del 2018 ha istituito questa giornata nazionale, distinguendo gli eventi storici dalla commemorazione moderna.",
+    "es": "El 24 de marzo Polonia recuerda a quienes salvaron a personas judías durante la ocupación alemana, a menudo con riesgo de su vida. La fecha evoca el asesinato de la familia Ulma en Markowa en 1944. Una ley de 2018 instituyó esta jornada nacional, distinta de los sucesos históricos que conmemora.",
+    "fr": "Le 24 mars, la Pologne rend hommage à ceux qui ont sauvé des Juifs sous l'occupation allemande, parfois au péril de leur vie. La date rappelle le meurtre de la famille Ulma à Markowa en 1944. Une loi de 2018 a instauré cette journée nationale, distincte des événements historiques commémorés.",
+    "de": "Am 24. März erinnert Polen an Menschen, die während der deutschen Besatzung Juden retteten und dabei oft ihr Leben riskierten. Das Datum erinnert an die Ermordung der Familie Ulma in Markowa 1944. Ein Gesetz von 2018 führte diesen nationalen Gedenktag ein; Ereignis und rechtliche Einführung sind verschieden.",
+    "pt": "Em 24 de março, a Polónia homenageia quem salvou judeus durante a ocupação alemã, muitas vezes arriscando a própria vida. A data recorda o assassinato da família Ulma em Markowa, em 1944. Uma lei de 2018 instituiu este dia nacional de memória, distinto dos acontecimentos históricos lembrados."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Government of Cyprus / Ministry of Foreign Affairs",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.cy/mfa-embassybrasilia/en/the-embassy/working-hours-and-holidays/",
+      "claim": "Government of Cyprus embassy public holidays for 2026 include New Year's Day on 1 January.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus recognises New Year's Day on 1 January as a nationwide public holiday beginning the Gregorian calendar year. It follows the celebrations of the previous evening and precedes Epiphany on 6 January, another separate holiday in the country's calendar. This is a civil New Year observance, not the anniversary of Cypriot independence.",
+    "it": "Cipro riconosce il Capodanno del 1° gennaio come festività nazionale che inaugura l'anno del calendario gregoriano. Segue i festeggiamenti della sera precedente e precede l'Epifania del 6 gennaio, altra ricorrenza distinta. È una celebrazione civile dell'anno nuovo, non l'anniversario dell'indipendenza cipriota.",
+    "es": "Chipre reconoce el Año Nuevo del 1 de enero como festivo nacional que inicia el calendario gregoriano. Sigue a las celebraciones de la víspera y precede a la Epifanía del 6 de enero, otra fecha festiva separada. Es una celebración civil del nuevo año y no el aniversario de la independencia chipriota.",
+    "fr": "Chypre reconnaît le jour de l'An du 1er janvier comme fête nationale marquant le début du calendrier grégorien. Il succède aux célébrations de la veille et précède l'Épiphanie du 6 janvier, autre jour férié distinct. Cette fête civile du Nouvel An n'est pas l'anniversaire de l'indépendance chypriote.",
+    "de": "Zypern erkennt den Neujahrstag am 1. Januar als landesweiten Feiertag zum Beginn des gregorianischen Kalenderjahres an. Er folgt auf die Silvesterfeiern und liegt vor dem eigenständigen Epiphaniasfest am 6. Januar. Es handelt sich um ein ziviles Neujahrsfest und nicht um den Jahrestag der zyprischen Unabhängigkeit.",
+    "pt": "Chipre reconhece o Dia de Ano Novo em 1 de janeiro como feriado nacional que inicia o calendário gregoriano. Segue os festejos da noite anterior e antecede a Epifania de 6 de janeiro, outra celebração distinta. Trata-se de uma festa civil do novo ano e não do aniversário da independência cipriota."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "id-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-17",
+  "country": "ID",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "17 August 1945 is the independence proclamation. The separate first legal holiday designation year is not established by this source.",
+  "authority": "Ministry of Foreign Affairs of Indonesia",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://kemlu.go.id/files/repositori/74504/Business%20Guide%20Indonesia-EN.pdf",
+      "claim": "Indonesian government historical guide states that Soekarno and Mohammad Hatta proclaimed independence on 17 August 1945."
+    }
+  ],
+  "narratives": {
+    "en": "Indonesia celebrates Independence Day on 17 August, remembering the proclamation read by Soekarno and Mohammad Hatta in 1945 after the Second World War. The declaration marked a decisive break from colonial rule, although the struggle for international recognition continued in the following years. Ceremonies and flag-raising honor national self-determination. The founding event in 1945 must be distinguished from the later legal framework of the public holiday.",
+    "it": "Il 17 agosto l'Indonesia celebra l'indipendenza ricordando la proclamazione letta nel 1945 da Soekarno e Mohammad Hatta dopo la Seconda guerra mondiale. La dichiarazione segnò una rottura decisiva con il dominio coloniale, anche se la lotta per il riconoscimento internazionale continuò. Cerimonie e alzabandiera ricordano l'autodeterminazione. L'evento del 1945 va distinto dalla successiva disciplina della festività.",
+    "es": "El 17 de agosto Indonesia celebra su independencia en recuerdo de la proclamación realizada por Soekarno y Mohammad Hatta en 1945, tras la Segunda Guerra Mundial. La declaración marcó la ruptura con el dominio colonial, aunque continuó la lucha por el reconocimiento internacional. Ceremonias y banderas recuerdan la autodeterminación. El hecho de 1945 es distinto de la posterior legislación festiva.",
+    "fr": "Le 17 août, l'Indonésie célèbre son indépendance en mémoire de la proclamation faite en 1945 par Soekarno et Mohammad Hatta après la Seconde Guerre mondiale. Elle marqua une rupture décisive avec la domination coloniale, même si la reconnaissance internationale prit encore du temps. Cérémonies et drapeaux honorent l'autodétermination. L'événement de 1945 est distinct du statut légal ultérieur du jour férié.",
+    "de": "Indonesien feiert am 17. August seine Unabhängigkeit und erinnert an die 1945 von Soekarno und Mohammad Hatta verlesene Erklärung nach dem Zweiten Weltkrieg. Sie markierte einen entscheidenden Bruch mit der Kolonialherrschaft, obwohl der Kampf um internationale Anerkennung weiterging. Zeremonien und Flaggen ehren Selbstbestimmung. Das historische Ereignis 1945 ist vom späteren Feiertagsrecht zu unterscheiden.",
+    "pt": "A Indonésia celebra a independência em 17 de agosto, recordando a proclamação lida por Soekarno e Mohammad Hatta em 1945, após a Segunda Guerra Mundial. A declaração marcou a rutura com o domínio colonial, embora a luta pelo reconhecimento internacional continuasse. Cerimónias e bandeiras homenageiam a autodeterminação. O acontecimento de 1945 distingue-se da legislação posterior do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

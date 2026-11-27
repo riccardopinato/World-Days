@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH07",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "8e9536cb0ac0555bff4a39b45fda7ef339d245ab",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Six specific primary-government or legislative records, historic origin and fixed observance date, six localized texts each. One Polish historical legal designation disputed by Ukraine clearly attributed in all six locales. No human expert signoff or independently-verified-every-assertion claim.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch07": 168,
+  "proposedBatch07": 6,
+  "records": [
+    {
+      "id": "ee-war-of-independence-remembrance",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_war_of_independence_remembrance_batch07_20261127.json",
+      "sourceBlobSha": "84523d931c6ab988a82fd29ef4064ae63648661a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-constituent-assembly-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_constituent_assembly_day_batch07_20261127.json",
+      "sourceBlobSha": "29db91668ec2403c89f2bb56328b73fe39998a18",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-polish-victims-of-oun-upa-genocide-remembrance-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_polish_victims_of_oun_upa_genocide_remembrance_day_batch07_20261127.json",
+      "sourceBlobSha": "7ab5c1b5fbad577568f25b91c6b8628a1defec24",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-struggle-and-martyrdom-of-polish-villages-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_struggle_and_martyrdom_of_polish_villages_day_batch07_20261127.json",
+      "sourceBlobSha": "053be16b86cfe33539cfe94a20dbe356a1ad9f27",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-war-invalids-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_war_invalids_day_batch07_20261127.json",
+      "sourceBlobSha": "611034d0825138be47923c3e5ab0c922c2fe81fe",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pt-w13-eures-st-antonio-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pt_w13_eures_st_antonio_s_day_batch07_20261127.json",
+      "sourceBlobSha": "9777f603585a00615684c90d61befb3a67168ec5",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH15",
+  "factoryBaseline": "3e663a1a2a77142ab755e0fa645f14c74991e367",
+  "sourceMain": "cab0debcfd63190b16a26f85fff368e39277ee3d",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Three original Philippine six-locale institutional histories with primary legal evidence: annual January children's day 1959, NHCP 2010 vs 1933 institutional predecessor anniversary scope HOLD, 2008 punctuality/civility November year-specific only HOLD. No human expert certificate.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch15": 203,
+  "proposedBatch15": 3,
+  "records": [
+    {
+      "id": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w10_philippine_national_historical_commission_founding_anniversary_batch15_20261127.json",
+      "sourceBlobSha": "1dbe5d52b277f9a5dabe226a78d617e8601fcb29",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w13-children-s-day-philippines-january",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w13_children_s_day_philippines_january_batch15_20261127.json",
+      "sourceBlobSha": "53925ad7acf80a8ebcf0527948bc0f49880d0ae4",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ph-w13-national-punctuality-and-civility-consciousness-month",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ph_w13_national_punctuality_and_civility_consciousness_month_batch15_20261127.json",
+      "sourceBlobSha": "552f56db9b57e4c8db96bf38d400c3740592fa2a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

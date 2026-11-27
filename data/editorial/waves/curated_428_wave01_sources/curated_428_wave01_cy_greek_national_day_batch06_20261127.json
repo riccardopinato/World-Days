@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-greek-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-25",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No official source conclusively establishes original statutory introduction year.",
+  "authority": "Republic of Cyprus Ministry of Education",
+  "dateReason": "Primary legislative, government or institutional source confirms national observation date and historical context.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.cy/en/event/education-minister-celebration-of-the-national-anniversaries/",
+      "claim": "Cyprus Ministry of Education confirms official observance of Greek Independence Day on 25 March 1821 alongside 1 April 1955.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus marks Greek Independence Day on 25 March, commemorating the beginning of the Greek struggle for independence from Ottoman rule in 1821. The occasion is part of the public commemorative calendar of Greek Cypriot communities and is often observed with ceremonies and school events. The historical year 1821 is not evidence of when the Cypriot holiday was legally introduced.",
+    "it": "Il 25 marzo Cipro ricorda la Giornata dell'indipendenza greca, legata all'inizio della lotta per liberarsi dal dominio ottomano nel 1821. La ricorrenza fa parte del calendario commemorativo delle comunità greco-cipriote ed è celebrata con cerimonie e iniziative scolastiche. L'anno storico 1821 non indica quando la festività fu introdotta legalmente a Cipro.",
+    "es": "Chipre conmemora la Independencia de Grecia el 25 de marzo, vinculada al comienzo de la lucha contra el dominio otomano en 1821. Forma parte del calendario público de las comunidades grecochipriotas y suele recordarse con ceremonias y actos escolares. El año 1821 describe el acontecimiento histórico, no prueba cuándo se estableció legalmente la festividad en Chipre.",
+    "fr": "Chypre commémore l'indépendance grecque le 25 mars, date liée au début de la lutte contre la domination ottomane en 1821. La journée appartient au calendrier commémoratif des communautés chypriotes grecques et s'accompagne de cérémonies ou d'activités scolaires. L'année 1821 concerne l'histoire, non la création juridique de la fête à Chypre.",
+    "de": "Zypern begeht am 25. März den griechischen Unabhängigkeitstag im Gedenken an den Beginn des Kampfes gegen die osmanische Herrschaft 1821. Der Tag gehört zum öffentlichen Gedenkkalender griechisch-zyprischer Gemeinschaften und wird mit Feiern und Schulveranstaltungen begangen. Das historische Jahr 1821 beweist nicht das Jahr der gesetzlichen Einführung auf Zypern.",
+    "pt": "Chipre assinala a Independência da Grécia em 25 de março, evocando o início da luta contra o domínio otomano em 1821. A data integra o calendário comemorativo das comunidades greco-cipriotas, com cerimónias e atividades escolares. O ano histórico 1821 não demonstra quando o feriado foi legalmente instituído em Chipre."
+  },
+  "runtimeRichEditorialApproved": false
+}

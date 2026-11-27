@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "cy-w13-eures-labour-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-01",
+  "country": "CY",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Government of Cyprus / Ministry of Foreign Affairs",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gov.cy/mfa-embassybrasilia/en/the-embassy/working-hours-and-holidays/",
+      "claim": "Government of Cyprus holiday calendar records 1 May Labour Day as a public holiday in 2026.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Cyprus observes Labour Day on 1 May as part of its official public-holiday calendar. The occasion shares its date with international May Day and recalls the contribution and rights of working people. In Cyprus it is a separate civil holiday from both the Easter period and the national independence anniversary of 1 October.",
+    "it": "Cipro celebra la Festa del lavoro il 1° maggio nel proprio calendario ufficiale delle festività pubbliche. La data coincide con il Primo maggio internazionale e richiama il contributo e i diritti dei lavoratori. A Cipro è una ricorrenza civile distinta sia dal periodo pasquale sia dall'anniversario dell'indipendenza del 1° ottobre.",
+    "es": "Chipre celebra el Día del Trabajo el 1 de mayo, incluido en su calendario oficial de festivos. Coincide con el Primero de Mayo internacional y recuerda la contribución y los derechos de los trabajadores. En Chipre es una fecha civil separada tanto de la Pascua como del aniversario de la independencia nacional del 1 de octubre.",
+    "fr": "Chypre célèbre la fête du Travail le 1er mai, date inscrite parmi ses jours fériés officiels. Elle coïncide avec le Premier Mai international et rappelle les droits et la contribution des travailleurs. À Chypre, cette journée civile se distingue à la fois de la période de Pâques et de l'anniversaire de l'indépendance du 1er octobre.",
+    "de": "Zypern begeht den Tag der Arbeit am 1. Mai als offiziellen gesetzlichen Feiertag. Das Datum entspricht dem internationalen Maifeiertag und würdigt die Rechte und den Beitrag der Beschäftigten. Auf Zypern ist er ein eigenständiger ziviler Feiertag, getrennt von Ostern und dem Unabhängigkeitstag am 1. Oktober.",
+    "pt": "Chipre celebra o Dia do Trabalhador em 1 de maio, integrado no calendário oficial de feriados. A data coincide com o Primeiro de Maio internacional e recorda os direitos e o contributo dos trabalhadores. Em Chipre é uma festa civil distinta da Páscoa e do aniversário da independência nacional de 1 de outubro."
+  },
+  "runtimeRichEditorialApproved": false
+}

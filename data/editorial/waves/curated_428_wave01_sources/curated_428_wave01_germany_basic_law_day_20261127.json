@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "germany-basic-law-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-23",
+  "country": "DE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from formal or first observance year; null when unverified.",
+  "authority": "German Bundestag",
+  "dateReason": "Country-specific government record establishes observed date",
+  "sourceEvidence": [
+    {
+      "url": "https://www.bundestag.de/dokumente/textarchiv/1949-05-23-grundgesetz-641776",
+      "claim": "German Bundestag records promulgation of the Basic Law in Bonn on 23 May 1949.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Germany remembers the Basic Law on 23 May, anniversary of its promulgation in Bonn in 1949. Drafted after the Nazi dictatorship and the Second World War, the constitution placed human dignity and democratic institutions at the centre of the new Federal Republic. Initially conceived for West Germany, it became the constitutional framework of reunified Germany. The commemorated event is not proof of when an annual civic day was first introduced.",
+    "it": "La Germania ricorda la Legge fondamentale il 23 maggio, anniversario della promulgazione a Bonn nel 1949. Elaborata dopo la dittatura nazista e la Seconda guerra mondiale, la costituzione pose la dignità umana e le istituzioni democratiche al centro della nuova Repubblica federale. Nata per la Germania occidentale, divenne il quadro costituzionale del Paese riunificato. La data storica non prova l'anno di istituzione della ricorrenza annuale.",
+    "es": "Alemania recuerda la Ley Fundamental el 23 de mayo, aniversario de su promulgación en Bonn en 1949. Redactada después de la dictadura nazi y la Segunda Guerra Mundial, situó la dignidad humana y la democracia en el centro de la nueva República Federal. Pensada inicialmente para Alemania Occidental, pasó a regir la Alemania reunificada. La fecha histórica no demuestra cuándo se creó la conmemoración anual.",
+    "fr": "L'Allemagne rappelle la Loi fondamentale le 23 mai, anniversaire de sa promulgation à Bonn en 1949. Rédigée après la dictature nazie et la Seconde Guerre mondiale, elle plaça la dignité humaine et les institutions démocratiques au cœur de la nouvelle République fédérale. D'abord conçue pour l'Allemagne de l'Ouest, elle devint le cadre constitutionnel du pays réunifié. La date n'établit pas l'origine d'une journée annuelle.",
+    "de": "Deutschland erinnert am 23. Mai an das Grundgesetz, das 1949 in Bonn verkündet wurde. Nach der NS-Diktatur und dem Zweiten Weltkrieg stellte es Menschenwürde und Demokratie in den Mittelpunkt der neuen Bundesrepublik. Ursprünglich für Westdeutschland geschaffen, wurde es zur Verfassung des wiedervereinigten Landes. Das historische Datum belegt nicht, wann ein jährlicher Gedenktag eingeführt wurde.",
+    "pt": "A Alemanha recorda a Lei Fundamental em 23 de maio, aniversário da sua proclamação em Bona em 1949. Elaborada após a ditadura nazi e a Segunda Guerra Mundial, colocou a dignidade humana e a democracia no centro da nova República Federal. Inicialmente destinada à Alemanha Ocidental, tornou-se o quadro constitucional do país reunificado. A data não prova a criação de uma comemoração anual."
+  },
+  "runtimeRichEditorialApproved": false
+}

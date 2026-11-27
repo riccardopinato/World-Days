@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-w13-eures-epiphany",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-06",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original legal introduction of the holiday has not been independently documented.",
+  "authority": "Finnish Ministry for Foreign Affairs / official Finnish traditions",
+  "dateReason": "Fixed annual date confirmed by the cited governmental calendar or historical description.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/facts-stats-and-info/the-finnish-flag/",
+      "claim": "Governmental source confirms the holiday, country and annual date or national tradition."
+    }
+  ],
+  "narratives": {
+    "en": "Epiphany on 6 January is a public holiday in Finland, linked to the Christian account of the wise men visiting the infant Jesus. In Finnish traditions it also closes the Christmas period for many families. The observance has a long religious history, whereas the legal origin of Finland's contemporary holiday calendar must be studied separately.",
+    "it": "L'Epifania del 6 gennaio è festiva in Finlandia e richiama il racconto cristiano dei Magi in visita a Gesù bambino. Per molte famiglie segna inoltre la conclusione del periodo natalizio. La ricorrenza ha radici religiose antiche, ma l'anno della sua codificazione nel moderno calendario finlandese richiede una verifica separata.",
+    "es": "La Epifanía del 6 de enero es festiva en Finlandia y recuerda el relato cristiano de los sabios que visitaron al niño Jesús. Para muchas familias también señala el final de la temporada navideña. La celebración tiene raíces religiosas antiguas, pero la fecha de su reconocimiento en el calendario moderno finlandés necesita una investigación distinta.",
+    "fr": "L'Épiphanie du 6 janvier est fériée en Finlande et évoque le récit chrétien des mages venus voir l'enfant Jésus. Dans de nombreuses familles, elle marque aussi la fin de la période de Noël. Cette fête possède une histoire religieuse ancienne, mais l'année de son inscription au calendrier légal finlandais actuel demande une recherche distincte.",
+    "de": "Der Dreikönigstag am 6. Januar ist in Finnland ein Feiertag und erinnert an die christliche Erzählung vom Besuch der Weisen beim Jesuskind. In vielen Familien beendet er auch die Weihnachtszeit. Der Brauch hat eine lange religiöse Geschichte; das gesetzliche Einführungsjahr im heutigen finnischen Kalender muss gesondert geprüft werden.",
+    "pt": "A Epifania de 6 de janeiro é feriado na Finlândia e recorda a narrativa cristã dos magos que visitaram o menino Jesus. Para muitas famílias também assinala o fim da época natalícia. A celebração tem antigas raízes religiosas, mas o ano de inclusão no calendário legal finlandês moderno exige investigação própria."
+  },
+  "runtimeRichEditorialApproved": false
+}

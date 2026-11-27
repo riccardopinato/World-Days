@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "france-national-slavery-memory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-10",
+  "country": "FR",
+  "documentedIntroductionYear": 2006,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Légifrance / French Republic",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006053508/2026-05-10",
+      "claim": "Decree 2006-388 establishes 10 May as metropolitan France's annual remembrance of the abolition of slavery.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "France observes 10 May as a national day remembering the slave trade, slavery and abolition. The 2006 decree established this date for annual ceremonies in metropolitan France. The commemoration addresses the violence of enslavement and the long struggle for human dignity, while recognizing different historical experiences in overseas territories. It is not a celebration of the trade itself.",
+    "it": "Il 10 maggio la Francia ricorda la tratta degli schiavi, la schiavitù e le abolizioni. Un decreto del 2006 fissò questa data per le cerimonie annuali nella Francia metropolitana. La ricorrenza affronta la violenza della riduzione in schiavitù e il lungo cammino verso i diritti, rispettando le diverse memorie dei territori d'oltremare. Non celebra la tratta.",
+    "es": "Francia recuerda el 10 de mayo la trata de esclavos, la esclavitud y sus aboliciones. Un decreto de 2006 fijó la fecha para actos anuales en la Francia metropolitana. La jornada aborda la violencia de la esclavización y la lucha por la dignidad, reconociendo memorias distintas en los territorios de ultramar. No celebra el comercio de personas.",
+    "fr": "La France commémore le 10 mai la traite, l'esclavage et leurs abolitions. Un décret de 2006 fixa cette date pour les cérémonies annuelles dans l'Hexagone. La journée rappelle la violence de l'asservissement et la lutte pour la dignité, tout en reconnaissant les mémoires diverses des outre-mer. Elle ne célèbre évidemment pas la traite.",
+    "de": "Frankreich gedenkt am 10. Mai des Sklavenhandels, der Sklaverei und ihrer Abschaffung. Ein Erlass von 2006 bestimmte das Datum für jährliche Gedenkfeiern im französischen Mutterland. Der Tag erinnert an Gewalt und den Kampf um Menschenwürde und berücksichtigt unterschiedliche Erfahrungen der Überseegebiete. Er feiert den Handel nicht.",
+    "pt": "A França recorda em 10 de maio o tráfico de escravos, a escravatura e as abolições. Um decreto de 2006 fixou a data para cerimónias anuais na França metropolitana. A comemoração aborda a violência da escravização e a luta pela dignidade, reconhecendo memórias distintas nos territórios ultramarinos. Não celebra o tráfico."
+  },
+  "runtimeRichEditorialApproved": false
+}

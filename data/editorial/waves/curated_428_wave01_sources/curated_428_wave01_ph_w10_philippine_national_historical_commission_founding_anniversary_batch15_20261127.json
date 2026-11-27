@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ph-w10-philippine-national-historical-commission-founding-anniversary",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_SCOPE_HOLD_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "country": "PH",
+  "documentedIntroductionYear": 2010,
+  "yearMeaning": "Specific statutory enactment year; does not determine the disputed or annual observance date.",
+  "authority": "Philippine Congress / National Historical Commission",
+  "dateReason": "Institutional scope and recurrence documented as unresolved, no runtime approval.",
+  "sourceEvidence": [
+    {
+      "url": "https://lawphil.net/statutes/repacts/ra2010/ra_10086_2010.html",
+      "claim": "Republic Act No. 10086 approved 12 May 2010 renamed and strengthened the NHCP; its lineage traces to the historical committee founded 23 October 1933, while NCCA lists May 26 anniversary.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "HOLD_NCCA_MAY26_VS_RA10086_MAY12_VS_HISTORICAL_PREDECESSOR_OCT23_1933"
+  },
+  "narratives": {
+    "en": "The National Historical Commission of the Philippines protects historic sites, promotes research and preserves the country's memory. Republic Act 10086, approved in 2010, established the commission's present statutory identity; its institutional lineage reaches a historical markers committee from 1933. Government calendars cite different anniversary dates, so the founding day requires reconciliation before publication.",
+    "it": "La Commissione storica nazionale delle Filippine tutela i siti storici e sostiene ricerca e conservazione della memoria del paese. La legge 10086, approvata nel 2010, definì l'attuale identità giuridica, mentre la sua tradizione istituzionale risale a un comitato del 1933. I calendari pubblici riportano anniversari diversi: la data va riconciliata prima della pubblicazione.",
+    "es": "La Comisión Histórica Nacional de Filipinas protege lugares históricos, impulsa la investigación y conserva la memoria colectiva. La Ley 10086, aprobada en 2010, estableció su identidad jurídica actual; sus antecedentes se remontan a un comité de 1933. Los calendarios oficiales señalan aniversarios distintos, por lo que la fecha de fundación necesita verificación adicional.",
+    "fr": "La Commission historique nationale des Philippines préserve les sites historiques, soutient la recherche et la mémoire du pays. La loi 10086, adoptée en 2010, a établi son identité juridique actuelle, tandis que son histoire institutionnelle remonte à un comité de 1933. Plusieurs dates anniversaires circulent dans les calendriers publics et doivent être conciliées avant publication.",
+    "de": "Die Nationale Historische Kommission der Philippinen schützt historische Stätten und fördert Forschung sowie Erinnerungskultur. Das Gesetz 10086 von 2010 begründete ihre heutige Rechtsstellung; eine Vorgängereinrichtung geht auf 1933 zurück. Öffentliche Kalender nennen unterschiedliche Gründungsdaten, sodass der Jahrestag vor der Veröffentlichung geklärt werden muss.",
+    "pt": "A Comissão Histórica Nacional das Filipinas protege locais históricos, promove investigação e preserva a memória do país. A Lei 10086, aprovada em 2010, definiu a identidade jurídica atual, com antecedentes institucionais num comité de 1933. Calendários oficiais indicam datas comemorativas diferentes, que precisam de reconciliação antes da publicação."
+  },
+  "runtimeRichEditorialApproved": false
+}

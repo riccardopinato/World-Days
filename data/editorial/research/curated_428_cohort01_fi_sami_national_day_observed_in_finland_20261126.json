@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "fi-sami-national-day-observed-in-finland",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-06",
+  "country": "FI",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The date is official or recommended, but the introduction year is unverified.",
+  "authority": "Finnish Ministry for Foreign Affairs / official Finnish flag calendar",
+  "dateReason": "Official Finnish flag calendar gives the annual date.",
+  "sourceEvidence": [
+    {
+      "url": "https://finland.fi/facts-stats-and-info/the-finnish-flag/",
+      "claim": "Finnish government calendar lists this annual observance and its recognized name."
+    },
+    {
+      "url": "https://finland.fi/life-society/sami-fly-their-flag-in-helsinki/",
+      "claim": "Sámi National Day is observed in Finland on 6 February with Sámi flags and cultural gatherings."
+    }
+  ],
+  "narratives": {
+    "en": "On 6 February, Sámi National Day brings together Indigenous Sámi communities across northern Europe, including Finland. People raise the Sámi flag, celebrate their languages and cultural traditions, and discuss Indigenous rights. The occasion is also marked in Helsinki, showing that Sámi culture is part of urban and northern Finland alike. The official flag calendar confirms the date, but the year of first institution is not established by that listing.",
+    "it": "Il 6 febbraio le comunità indigene sámi del Nord Europa, comprese quelle finlandesi, celebrano la propria Giornata nazionale. Espongono la bandiera sámi, valorizzano lingue e tradizioni e richiamano i diritti dei popoli indigeni. Le celebrazioni si tengono anche a Helsinki, a conferma della presenza sámi oltre le regioni settentrionali. Il calendario ufficiale conferma la data, ma non l'anno della prima istituzione.",
+    "es": "El 6 de febrero, las comunidades indígenas sami del norte de Europa, incluidas las de Finlandia, celebran su Día Nacional. Izan la bandera sami, promueven sus lenguas y tradiciones y reivindican los derechos indígenas. También se celebra en Helsinki, mostrando que la cultura sami está presente más allá de las regiones septentrionales. El calendario oficial confirma la fecha, pero no el año de creación.",
+    "fr": "Le 6 février, les communautés autochtones samies d'Europe du Nord, notamment en Finlande, célèbrent leur Journée nationale. Elles hissent le drapeau sami, mettent à l'honneur leurs langues et traditions et rappellent les droits autochtones. Des célébrations ont aussi lieu à Helsinki, signe que la culture samie ne se limite pas aux régions septentrionales. Le calendrier officiel confirme la date, sans établir l'année de création.",
+    "de": "Am 6. Februar feiern indigene samische Gemeinschaften in Nordeuropa, auch in Finnland, ihren Nationaltag. Sie hissen die samische Flagge, pflegen Sprachen und Traditionen und setzen sich für indigene Rechte ein. Veranstaltungen finden auch in Helsinki statt und zeigen, dass samische Kultur nicht nur im Norden zu Hause ist. Der offizielle Kalender bestätigt das Datum, nicht aber das erstmalige Einführungsjahr.",
+    "pt": "Em 6 de fevereiro, as comunidades indígenas sámi do norte da Europa, incluindo a Finlândia, celebram o Dia Nacional Sámi. Hasteiam a bandeira, valorizam as suas línguas e tradições e salientam os direitos indígenas. Há também celebrações em Helsínquia, demonstrando que a cultura sámi não se limita às regiões setentrionais. O calendário oficial confirma a data, mas não o ano da primeira instituição."
+  },
+  "runtimeRichEditorialApproved": false
+}

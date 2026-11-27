@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 4,
+  "id": "cl-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-18",
+  "country": "CL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "18 September 1810 was the First Government Junta; Chilean independence was proclaimed 12 February 1818. The precise legal introduction of 18 September as today's national celebration is a separate question.",
+  "authority": "Government of Chile",
+  "dateReason": "Fixed annual national date confirmed through cited primary or official evidence.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.gob.cl/noticias/que-celebra-dieciocho-septiembre-fiestas-patrias/",
+      "claim": "Chile's government explains that 18 September commemorates the first National Government Junta in 1810 rather than the 1818 proclamation of independence."
+    }
+  ],
+  "narratives": {
+    "en": "Chile celebrates its national festivities on 18 September, recalling the creation of the First Government Junta in Santiago in 1810. This began a process of self-government during the crisis of Spanish imperial authority. Chile's formal declaration of independence followed in 1818, on a different date. The national celebration therefore commemorates the early political step, not the precise anniversary of the later independence declaration.",
+    "it": "Il 18 settembre il Cile celebra le feste nazionali, ricordando la prima Giunta di governo costituita a Santiago nel 1810. L'evento avviò un percorso di autogoverno durante la crisi dell'autorità imperiale spagnola. La dichiarazione formale d'indipendenza arrivò invece nel 1818, in un'altra data. La festa nazionale ricorda quindi l'inizio politico del processo e non la dichiarazione successiva.",
+    "es": "Chile celebra sus Fiestas Patrias el 18 de septiembre, recordando la formación de la Primera Junta Nacional de Gobierno en Santiago en 1810. Ese hecho inició un proceso de autogobierno durante la crisis de la autoridad española. La declaración formal de independencia llegó en 1818, en otra fecha. La celebración nacional recuerda el inicio político del proceso y no el aniversario exacto de la declaración posterior.",
+    "fr": "Le Chili célèbre ses fêtes nationales le 18 septembre, en rappelant la création de la Première Junte de gouvernement à Santiago en 1810. Elle lança un processus d'autonomie durant la crise du pouvoir impérial espagnol. La déclaration officielle d'indépendance intervint en 1818, à une autre date. La fête nationale évoque donc une première étape politique et non l'anniversaire de la déclaration ultérieure.",
+    "de": "Chile feiert seine Nationalfeste am 18. September und erinnert an die Gründung der ersten Regierungsjunta in Santiago 1810. Damit begann während der Krise der spanischen Kolonialherrschaft ein Prozess der Selbstregierung. Die formelle Unabhängigkeitserklärung erfolgte erst 1818 an einem anderen Datum. Der Nationalfeiertag gedenkt somit des politischen Anfangs und nicht des späteren Erklärungstags.",
+    "pt": "O Chile celebra as Festas Pátrias em 18 de setembro, recordando a criação da Primeira Junta de Governo em Santiago em 1810. Iniciou-se assim um processo de autogoverno durante a crise da autoridade colonial espanhola. A declaração formal de independência ocorreu em 1818, noutra data. O feriado recorda o início político e não o aniversário da declaração posterior."
+  },
+  "runtimeRichEditorialApproved": false
+}

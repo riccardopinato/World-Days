@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH05",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "c81d3c4a802fc5798843f94864f3339479303b55",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Eight independent primary-government/statutory/national tourism fact-checked narratives, six localized texts each; no human expert signoff.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch05": "BATCH04_RESULT",
+  "proposedBatch05": 8,
+  "records": [
+    {
+      "id": "ar-cultural-diversity-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_cultural_diversity_day_batch05_20261127.json",
+      "sourceBlobSha": "40b7ca0ebd01b6f7382d59b12f11dc55d522b404",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ar-national-sovereignty-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ar_national_sovereignty_day_batch05_20261127.json",
+      "sourceBlobSha": "877abfe2d7e78db347432c928e8dfc922859cf64",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ee-midsummer-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_midsummer_day_batch05_20261127.json",
+      "sourceBlobSha": "eca5860d7660e3ba6309003c64911655856b1f5d",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-jonines-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_jonines_day_batch05_20261127.json",
+      "sourceBlobSha": "c5827603c8b2ddcd38281f018ab3bb9db20227cf",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-jani-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_jani_day_batch05_20261127.json",
+      "sourceBlobSha": "4b9a603142041cbbe3335fd4e98a5caab74d7670",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lv-ligo-evening",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lv_ligo_evening_batch05_20261127.json",
+      "sourceBlobSha": "784090080dbbdebf7ce598572a1ef580eb6579a5",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mt-feast-of-st-joseph",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_feast_of_st_joseph_batch05_20261127.json",
+      "sourceBlobSha": "02e8b5d94264b8a0b52048fe19088391a2cf0ab7",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mt-feast-of-st-peter-and-paul",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_feast_of_st_peter_and_paul_batch05_20261127.json",
+      "sourceBlobSha": "4e08c57ab7d698aa63838846926c0c45f7f1ddcc",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

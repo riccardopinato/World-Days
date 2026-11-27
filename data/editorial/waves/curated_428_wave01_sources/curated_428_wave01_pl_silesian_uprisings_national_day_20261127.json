@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-silesian-uprisings-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "06-20",
+  "country": "PL",
+  "documentedIntroductionYear": 2022,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2022/1229/text.html",
+      "claim": "Act of 12 May 2022 made 20 June the National Day of the Silesian Uprisings.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland observes the National Day of the Silesian Uprisings on 20 June. Three uprisings between 1919 and 1921 were linked to rival claims over Upper Silesia. The chosen date recalls the transfer of part of the territory to Poland in 1922. A law of 2022 formally created the national remembrance day.",
+    "it": "Il 20 giugno la Polonia ricorda le insurrezioni slesiane. Tre rivolte tra il 1919 e il 1921 furono legate alle rivendicazioni sull'Alta Slesia. La data richiama il passaggio di parte della regione alla Polonia nel 1922. Una legge del 2022 istituì formalmente la giornata nazionale della memoria.",
+    "es": "Polonia recuerda el 20 de junio los levantamientos de Silesia. Tres revueltas entre 1919 y 1921 reflejaron disputas nacionales sobre Alta Silesia. La fecha evoca la incorporación de parte de la región a Polonia en 1922. Una ley de 2022 estableció oficialmente la jornada nacional de memoria.",
+    "fr": "La Pologne commémore le 20 juin les insurrections de Silésie. Trois soulèvements entre 1919 et 1921 reflétèrent les rivalités nationales en Haute-Silésie. La date rappelle le transfert à la Pologne d'une partie de la région en 1922. Une loi de 2022 créa officiellement la journée nationale du souvenir.",
+    "de": "Polen erinnert am 20. Juni an die schlesischen Aufstände. Drei Erhebungen zwischen 1919 und 1921 betrafen die nationalen Ansprüche auf Oberschlesien. Das Datum erinnert an die Übernahme eines Teils der Region durch Polen im Jahr 1922. Ein Gesetz von 2022 schuf den nationalen Gedenktag.",
+    "pt": "A Polónia recorda em 20 de junho as Revoltas da Silésia. Três levantamentos entre 1919 e 1921 refletiram reivindicações nacionais sobre a Alta Silésia. A data evoca a passagem de parte da região para a Polónia em 1922. Uma lei de 2022 instituiu a comemoração nacional."
+  },
+  "runtimeRichEditorialApproved": false
+}

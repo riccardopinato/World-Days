@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "hr-victory-and-homeland-thanksgiving-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-05",
+  "country": "HR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from formal or first observance year; null when unverified.",
+  "authority": "Government of the Republic of Croatia",
+  "dateReason": "Country-specific government record establishes observed date",
+  "sourceEvidence": [
+    {
+      "url": "https://vlada.gov.hr/print.aspx?id=19331&url=print",
+      "claim": "Croatian government documents 5 August as Victory and Homeland Thanksgiving Day commemorating Operation Storm of 1995.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Croatia marks Victory and Homeland Thanksgiving Day on 5 August, recalling the Croatian military and police Operation Storm in 1995 and the recovery of much territory held by rebel Serb forces. Celebrations honour Croatian defenders and the restoration of state control. A full account must also acknowledge civilian suffering, displacement and crimes committed during and after the operation, without treating remembrance as a simple military spectacle.",
+    "it": "La Croazia celebra il 5 agosto la Giornata della vittoria e del ringraziamento alla patria, legata all'operazione militare e di polizia Tempesta del 1995 e al recupero di territori controllati dai ribelli serbi. Le cerimonie ricordano i difensori croati e il ritorno dell'autorità statale. La memoria storica comprende anche sofferenze civili, sfollamenti e crimini durante e dopo l'operazione.",
+    "es": "Croacia conmemora el 5 de agosto el Día de la Victoria y la Gratitud a la Patria, relacionado con la operación militar y policial Tormenta de 1995 y la recuperación de territorios controlados por rebeldes serbios. Los actos honran a defensores croatas y el restablecimiento del control estatal. El recuerdo histórico también exige reconocer el sufrimiento civil, los desplazamientos y los crímenes cometidos durante y después.",
+    "fr": "La Croatie célèbre le 5 août la Journée de la victoire et de la gratitude à la patrie, liée à l'opération militaire et policière Tempête de 1995 et à la reprise de territoires tenus par des rebelles serbes. Les cérémonies honorent les défenseurs croates et le rétablissement du contrôle de l'État. La mémoire doit également reconnaître les souffrances civiles, les déplacements et les crimes pendant et après l'opération.",
+    "de": "Kroatien begeht am 5. August den Tag des Sieges und der Dankbarkeit gegenüber der Heimat. Er erinnert an die Militär- und Polizeioperation Sturm von 1995 und die Rückeroberung von Gebieten, die serbische Rebellen kontrolliert hatten. Feiern würdigen kroatische Verteidiger und die staatliche Kontrolle. Zur Geschichte gehören auch ziviles Leid, Vertreibung und Verbrechen während und nach der Operation.",
+    "pt": "A Croácia assinala em 5 de agosto o Dia da Vitória e da Gratidão à Pátria, ligado à operação militar e policial Tempestade de 1995 e à recuperação de territórios controlados por rebeldes sérvios. As cerimónias homenageiam os defensores croatas e o restabelecimento do controlo estatal. A memória histórica também deve reconhecer sofrimento civil, deslocações e crimes durante e após a operação."
+  },
+  "runtimeRichEditorialApproved": false
+}

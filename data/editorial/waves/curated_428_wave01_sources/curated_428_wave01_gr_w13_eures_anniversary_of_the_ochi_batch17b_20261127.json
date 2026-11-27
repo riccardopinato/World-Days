@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "gr-w13-eures-anniversary-of-the-ochi",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-28",
+  "country": "GR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Historical event years documented in primary source; year of original modern statutory festival introduction not asserted.",
+  "authority": "Hellenic Republic Ministry of Foreign Affairs",
+  "dateReason": "Observed fixed annual date from official government or national calendar; source chronology distinct from statutory year.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gr/en/deputy-minister-of-foreign-affairs-yiannis-loverdos-message-to-diaspora-greeks-on-the-occasion-of-the-anniversary-of-28-october-1940/",
+      "claim": "Greece's Ministry of Foreign Affairs commemorates the 28 October 1940 refusal of Mussolini's ultimatum, remembered as Ohi or Ochi Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Greece observes Ohi Day on 28 October, remembering the refusal of an Italian ultimatum in 1940, shortly before Italian forces invaded. The Greek response became a symbol of resistance to fascist aggression during the Second World War. Schools, communities and public ceremonies honour courage and the costs of conflict; the day recalls a national decision, not a ruler's birthday.",
+    "it": "La Grecia celebra il Giorno del No il 28 ottobre, ricordando il rifiuto dell'ultimatum italiano nel 1940, poco prima dell'invasione. La risposta greca divenne simbolo della resistenza all'aggressione fascista nella Seconda guerra mondiale. Scuole, comunità e cerimonie pubbliche commemorano il coraggio e il costo del conflitto.",
+    "es": "Grecia celebra el Día del No el 28 de octubre, recordando el rechazo del ultimátum italiano en 1940, poco antes de la invasión. La respuesta griega se convirtió en símbolo de resistencia a la agresión fascista durante la Segunda Guerra Mundial. Escuelas y ceremonias públicas evocan el valor y las consecuencias del conflicto.",
+    "fr": "La Grèce célèbre le Jour du Non le 28 octobre, en souvenir du rejet de l'ultimatum italien en 1940, peu avant l'invasion. La réponse grecque devint un symbole de résistance à l'agression fasciste durant la Seconde Guerre mondiale. Écoles et cérémonies publiques rappellent le courage et le coût humain du conflit.",
+    "de": "Griechenland begeht am 28. Oktober den Ochi-Tag und erinnert an die Ablehnung eines italienischen Ultimatums im Jahr 1940, kurz vor der Invasion. Die griechische Antwort wurde zum Symbol des Widerstands gegen faschistische Aggression im Zweiten Weltkrieg. Schulen und öffentliche Feiern erinnern an Mut und Folgen des Krieges.",
+    "pt": "A Grécia celebra o Dia do Não em 28 de outubro, recordando a rejeição do ultimato italiano em 1940, pouco antes da invasão. A resposta grega tornou-se símbolo de resistência à agressão fascista durante a Segunda Guerra Mundial. Escolas, comunidades e cerimónias públicas evocam a coragem e os custos humanos do conflito."
+  },
+  "runtimeRichEditorialApproved": false
+}

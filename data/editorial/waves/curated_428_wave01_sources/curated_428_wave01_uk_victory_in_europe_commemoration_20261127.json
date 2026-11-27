@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "uk-victory-in-europe-commemoration",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-08",
+  "country": "GB",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from first legal or official annual observance.",
+  "authority": "The National Archives, United Kingdom",
+  "dateReason": "Country-specific institutional commemoration and anniversary date",
+  "sourceEvidence": [
+    {
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/second-world-war/ve-day-8-may-1945/",
+      "claim": "UK National Archives records Victory in Europe Day on 8 May 1945 after the German surrender.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "The United Kingdom remembers Victory in Europe Day on 8 May. In 1945, Nazi Germany's surrender ended the Second World War in Europe after occupation, destruction and great civilian suffering. People celebrated in streets and public squares, but the fighting against Japan continued. Today's commemoration remembers veterans, civilians and those who did not return; it does not mark the global end of the war.",
+    "it": "Nel Regno Unito l'8 maggio si ricorda la Vittoria in Europa. Nel 1945 la resa della Germania nazista pose fine alla Seconda guerra mondiale sul fronte europeo, dopo occupazioni e immense sofferenze civili. La popolazione festeggiò nelle piazze, ma la guerra contro il Giappone proseguì. Oggi la ricorrenza ricorda veterani, civili e caduti, non la conclusione mondiale del conflitto.",
+    "es": "El Reino Unido recuerda el Día de la Victoria en Europa el 8 de mayo. En 1945 la rendición de la Alemania nazi puso fin a la guerra en Europa tras ocupación y sufrimiento civil. La población celebró en las calles, pero la lucha contra Japón continuó. Hoy se recuerda a veteranos, civiles y fallecidos; la fecha no significa el final mundial de la Segunda Guerra Mundial.",
+    "fr": "Le Royaume-Uni commémore la victoire en Europe le 8 mai. En 1945, la capitulation de l'Allemagne nazie mit fin à la guerre sur le continent, après l'occupation et d'immenses souffrances civiles. La population célébra l'événement, mais les combats contre le Japon continuèrent. La journée honore anciens combattants, civils et morts, sans marquer la fin mondiale du conflit.",
+    "de": "Großbritannien gedenkt am 8. Mai des Sieges in Europa. 1945 beendete die Kapitulation NS-Deutschlands den Zweiten Weltkrieg in Europa nach Besatzung und großem Leid der Zivilbevölkerung. Menschen feierten auf den Straßen, doch der Krieg gegen Japan dauerte an. Heute erinnert der Tag an Veteranen, Zivilisten und Gefallene, nicht an das weltweite Kriegsende.",
+    "pt": "O Reino Unido recorda o Dia da Vitória na Europa em 8 de maio. Em 1945, a rendição da Alemanha nazi terminou a guerra no continente após ocupação e sofrimento civil. A população festejou nas ruas, mas o combate contra o Japão prosseguiu. Hoje a data homenageia veteranos, civis e mortos; não assinala o fim mundial da Segunda Guerra."
+  },
+  "runtimeRichEditorialApproved": false
+}

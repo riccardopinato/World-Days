@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lt-w13-eures-all-souls-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-02",
+  "country": "LT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "Seimas of Lithuania",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/6eea48d294ea11eea70ce7cabd08f150/",
+      "claim": "The Lithuanian Labour Code lists 2 November as Commemoration of All the Faithful Departed, a public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Lithuania marks All Souls' Day on 2 November, remembering deceased relatives and members of the community. Families often visit cemeteries and light candles near graves after All Saints' Day on 1 November. The Lithuanian Labour Code names 2 November as a public holiday, without dating the religious custom itself.",
+    "it": "Il 2 novembre la Lituania ricorda i defunti. Le famiglie visitano spesso i cimiteri e accendono candele presso le tombe, dopo la festa di Tutti i Santi del 1° novembre. Il Codice del lavoro lituano riconosce il 2 novembre come festività pubblica, senza datare l'origine della tradizione.",
+    "es": "Lituania conmemora a los fieles difuntos el 2 de noviembre. Muchas familias visitan los cementerios y encienden velas en las tumbas, después de Todos los Santos del 1 de noviembre. El Código del Trabajo reconoce el día 2 como festivo, sin establecer cuándo comenzó la tradición religiosa.",
+    "fr": "La Lituanie commémore les fidèles défunts le 2 novembre. Les familles visitent souvent les cimetières et allument des bougies sur les tombes, après la Toussaint du 1er novembre. Le Code du travail reconnaît le 2 novembre comme jour férié sans dater l'origine de la tradition religieuse.",
+    "de": "Litauen gedenkt am 2. November zu Allerseelen der Verstorbenen. Viele Familien besuchen Friedhöfe und entzünden Kerzen an Gräbern, nach Allerheiligen am 1. November. Das Arbeitsgesetzbuch erkennt den 2. November als Feiertag an, ohne den Beginn des religiösen Brauchs zu datieren.",
+    "pt": "A Lituânia assinala o Dia de Finados em 2 de novembro. Muitas famílias visitam cemitérios e acendem velas junto às sepulturas, depois do Dia de Todos os Santos de 1 de novembro. O Código do Trabalho reconhece a data como feriado, sem determinar a origem histórica da tradição."
+  },
+  "runtimeRichEditorialApproved": false
+}

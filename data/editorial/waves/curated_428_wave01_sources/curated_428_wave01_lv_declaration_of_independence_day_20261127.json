@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-declaration-of-independence-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-04",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "History event year is distinguished from formal modern holiday recognition.",
+  "authority": "Ministry of Foreign Affairs of Latvia",
+  "dateReason": "Country-specific state/legislative document on annual holiday",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gov.lv/en/11-national-hollidays-and-remembrance-days",
+      "claim": "Latvian Ministry of Foreign Affairs documents the Supreme Soviet declaration restoring independence on 4 May 1990.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia marks the Restoration of Independence on 4 May. In 1990, the Supreme Council adopted a declaration announcing the restoration of Latvia's pre-war statehood, following decades of Soviet occupation. Independence was consolidated through further political changes in 1991. The holiday remembers the parliamentary decision and the country's legal continuity rather than its original proclamation in 1918.",
+    "it": "La Lettonia celebra il ripristino dell'indipendenza il 4 maggio. Nel 1990 il Consiglio supremo approvò una dichiarazione che riaffermava lo Stato lettone precedente all'occupazione sovietica. La sovranità fu consolidata con ulteriori passaggi politici nel 1991. La festa ricorda la decisione parlamentare e la continuità giuridica, non la prima proclamazione del 1918.",
+    "es": "Letonia celebra la Restauración de la Independencia el 4 de mayo. En 1990 el Consejo Supremo adoptó una declaración que reafirmaba el Estado letón anterior a la ocupación soviética. La soberanía se consolidó mediante otros cambios en 1991. La fiesta recuerda la decisión parlamentaria y la continuidad jurídica, no la proclamación original de 1918.",
+    "fr": "La Lettonie célèbre le rétablissement de son indépendance le 4 mai. En 1990, le Conseil suprême adopta une déclaration réaffirmant l'État letton d'avant l'occupation soviétique. La souveraineté fut consolidée par d'autres évolutions en 1991. La fête rappelle cette décision parlementaire et la continuité juridique, non la première proclamation de 1918.",
+    "de": "Lettland begeht am 4. Mai die Wiederherstellung seiner Unabhängigkeit. 1990 verabschiedete der Oberste Rat eine Erklärung, die an den lettischen Staat vor der sowjetischen Besatzung anknüpfte. Weitere politische Schritte festigten 1991 die Souveränität. Der Feiertag würdigt diesen Parlamentsbeschluss und die rechtliche Kontinuität, nicht die ursprüngliche Ausrufung 1918.",
+    "pt": "A Letónia celebra a Restauração da Independência em 4 de maio. Em 1990, o Conselho Supremo adotou uma declaração reafirmando o Estado letão anterior à ocupação soviética. Outros passos políticos consolidaram a soberania em 1991. O feriado recorda a decisão parlamentar e a continuidade jurídica, não a primeira proclamação de 1918."
+  },
+  "runtimeRichEditorialApproved": false
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-sports-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "nth_weekday",
+    "month": 6,
+    "weekday": "sunday",
+    "nth": 1
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "On the first Sunday of June Italy celebrates National Sports Day, encouraging movement, participation and community activities. Local associations, schools and sports organizations promote accessible opportunities to try different disciplines. The event highlights sport as a social and educational practice, not only elite competition. The government's ceremonial calendar specifies the first Sunday, so the calendar date varies annually.",
+    "it": "La prima domenica di giugno l'Italia celebra la Giornata nazionale dello sport, per incoraggiare movimento, partecipazione e attività comunitarie. Associazioni, scuole ed enti sportivi promuovono occasioni accessibili per provare diverse discipline. La giornata valorizza lo sport come esperienza sociale ed educativa, non solo agonismo. Il calendario governativo indica la prima domenica, quindi la data cambia ogni anno.",
+    "es": "El primer domingo de junio Italia celebra el Día Nacional del Deporte para fomentar el movimiento, la participación y las actividades comunitarias. Asociaciones, escuelas y entidades deportivas ofrecen oportunidades accesibles para probar distintas disciplinas. La jornada destaca el deporte como práctica social y educativa, más allá de la élite. El calendario oficial fija el primer domingo y la fecha varía cada año.",
+    "fr": "Le premier dimanche de juin, l'Italie célèbre la Journée nationale du sport pour encourager activité physique, participation et initiatives locales. Associations, écoles et organismes sportifs rendent plusieurs disciplines accessibles. La journée valorise le sport comme pratique sociale et éducative au-delà de la compétition d'élite. Le calendrier officiel retient le premier dimanche et la date varie selon l'année.",
+    "de": "Am ersten Sonntag im Juni feiert Italien den Nationalen Sporttag, der Bewegung, Teilhabe und gemeinschaftliche Aktivitäten fördert. Vereine, Schulen und Sportorganisationen ermöglichen den Zugang zu verschiedenen Disziplinen. Der Tag zeigt Sport als soziale und pädagogische Praxis, nicht nur als Spitzenwettkampf. Der Regierungskalender bestimmt den ersten Sonntag; das Tagesdatum wechselt jährlich.",
+    "pt": "A Itália celebra o Dia Nacional do Desporto no primeiro domingo de junho para incentivar movimento, participação e atividades comunitárias. Associações, escolas e organizações desportivas oferecem oportunidades acessíveis para experimentar modalidades. A data valoriza o desporto como prática social e educativa, além da competição de elite. O calendário oficial indica o primeiro domingo, que varia anualmente."
+  },
+  "runtimeRichEditorialApproved": false
+}

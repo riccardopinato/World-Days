@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-statehood-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-28",
+  "country": "CZ",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Act 245/2000 established 28 September as Czech Statehood Day; the medieval Saint Wenceslas tradition is older.",
+  "authority": "Parliament of the Czech Republic",
+  "dateReason": "28 September is the traditional feast day of Saint Wenceslas, patron of the Czech lands.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245",
+      "claim": "Section 1 lists 28 September as Den české státnosti, a state holiday established in 2000."
+    },
+    {
+      "url": "https://mzv.gov.cz/file/4409722/St._Wenceslas_Czech_National_Day_2021.pdf",
+      "claim": "Czech Ministry of Foreign Affairs explains the link to Saint Wenceslas and the observance since 2000."
+    },
+    {
+      "url": "https://vlada.gov.cz/assets/udalosti/Czech-Statehood-Day-28th-September-2009.pdf",
+      "claim": "Czech government explains the civic and historical significance of the date."
+    }
+  ],
+  "narratives": {
+    "en": "On 28 September, Czechia celebrates Czech Statehood Day. The date draws on the long tradition of Saint Wenceslas, a medieval Bohemian ruler and patron of the Czech lands, whose feast falls on this day. It marks the historical continuity of Czech statehood rather than the creation of modern Czechoslovakia, which is commemorated separately on 28 October. Act 245/2000 established 28 September as a national public holiday; 2000 is the modern legal designation year, not the beginning of the older tradition.",
+    "it": "Il 28 settembre la Repubblica Ceca celebra la Giornata della statualità ceca. La data richiama la tradizione di san Venceslao, sovrano medievale della Boemia e patrono delle terre ceche, la cui festa cade in questo giorno. La ricorrenza sottolinea la continuità storica dello Stato ceco, distinta dalla fondazione della Cecoslovacchia moderna, ricordata il 28 ottobre. La legge 245/2000 ha istituito il 28 settembre come festa nazionale: il 2000 indica il riconoscimento giuridico moderno, non l'inizio della tradizione.",
+    "es": "El 28 de septiembre, Chequia celebra el Día de la Estatalidad Checa. La fecha remite a la tradición de san Wenceslao, gobernante medieval de Bohemia y patrono de las tierras checas, cuya festividad se celebra ese día. La jornada destaca la continuidad histórica del Estado checo, distinta de la fundación de la Checoslovaquia moderna, recordada el 28 de octubre. La Ley 245/2000 estableció el 28 de septiembre como fiesta nacional: 2000 es el año de reconocimiento jurídico moderno, no el origen de la tradición.",
+    "fr": "Le 28 septembre, la Tchéquie célèbre la Journée de l'État tchèque. Cette date s'inscrit dans la tradition de saint Venceslas, souverain médiéval de Bohême et patron des terres tchèques, dont la fête tombe ce jour-là. Elle souligne la continuité historique de l'État tchèque, distincte de la fondation de la Tchécoslovaquie moderne, commémorée le 28 octobre. La loi 245/2000 a fait du 28 septembre une fête nationale : 2000 correspond à sa reconnaissance juridique moderne, non au début de cette tradition.",
+    "de": "Am 28. September begeht Tschechien den Tag der tschechischen Staatlichkeit. Das Datum knüpft an die Tradition des heiligen Wenzel an, eines mittelalterlichen böhmischen Herrschers und Schutzpatrons der böhmischen Länder, dessen Gedenktag auf diesen Tag fällt. Der Feiertag betont die historische Kontinuität tschechischer Staatlichkeit und ist vom Gedenken an die Gründung der modernen Tschechoslowakei am 28. Oktober zu unterscheiden. Gesetz 245/2000 erklärte den 28. September zum Staatsfeiertag; 2000 bezeichnet die moderne gesetzliche Festlegung, nicht den Beginn der älteren Tradition.",
+    "pt": "A 28 de setembro, a Chéquia celebra o Dia da Estatalidade Checa. A data evoca a tradição de São Venceslau, governante medieval da Boémia e padroeiro das terras checas, cuja festa se assinala nesse dia. A comemoração destaca a continuidade histórica do Estado checo, distinta da fundação da Checoslováquia moderna, recordada a 28 de outubro. A Lei 245/2000 estabeleceu o dia 28 de setembro como feriado nacional: 2000 é o ano do reconhecimento jurídico moderno, não o início da tradição."
+  },
+  "runtimeRichEditorialApproved": false
+}

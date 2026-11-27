@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "cz-victory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "05-08",
+  "country": "CZ",
+  "documentedIntroductionYear": 2000,
+  "yearMeaning": "Act 245/2000 codifies 8 May as a Czech state holiday; this is the legal framework year, not the first commemoration of the 1945 victory.",
+  "authority": "Parliament of the Czech Republic",
+  "dateReason": "8 May marks the end of World War II in Europe in 1945, following the German surrender.",
+  "sourceEvidence": [
+    {
+      "url": "https://e-sbirka.gov.cz/sb/2000/245",
+      "claim": "Section 1 establishes 8 May as Den vítězství, a Czech state holiday."
+    },
+    {
+      "url": "https://www.bundesarchiv.de/EN/Content/Artikel/Find/Second-World-War/second-world-war-end.html",
+      "claim": "Historical documentation of German surrender and the end of the war in Europe in May 1945."
+    }
+  ],
+  "narratives": {
+    "en": "Czechia marks Victory Day on 8 May, commemorating the defeat of Nazi Germany and the end of the Second World War in Europe in 1945. The date follows Germany's unconditional surrender, which took effect late on 8 May in Central European time; some countries remember the victory on 9 May because of the time difference. Czech Act 245/2000 lists 8 May as a state holiday. The year 2000 identifies this legal framework, not the beginning of public remembrance.",
+    "it": "La Repubblica Ceca celebra la Giornata della Vittoria l'8 maggio, ricordando la sconfitta della Germania nazista e la fine della Seconda guerra mondiale in Europa nel 1945. La data segue la resa incondizionata tedesca, entrata in vigore nella tarda serata dell'8 maggio nell'Europa centrale; in altri paesi la vittoria viene ricordata il 9 maggio per la differenza di fuso orario. La legge ceca 245/2000 indica l'8 maggio come festa nazionale. Il 2000 è l'anno del quadro normativo, non l'inizio delle commemorazioni.",
+    "es": "Chequia celebra el Día de la Victoria el 8 de mayo, en recuerdo de la derrota de la Alemania nazi y del fin de la Segunda Guerra Mundial en Europa en 1945. La fecha sigue a la rendición incondicional alemana, que entró en vigor a última hora del 8 de mayo en Europa central; algunos países recuerdan la victoria el 9 de mayo debido a la diferencia horaria. La Ley checa 245/2000 reconoce el 8 de mayo como fiesta nacional. El año 2000 corresponde a ese marco legal, no al comienzo de las conmemoraciones.",
+    "fr": "La Tchéquie célèbre la Journée de la victoire le 8 mai, en mémoire de la défaite de l'Allemagne nazie et de la fin de la Seconde Guerre mondiale en Europe en 1945. Cette date suit la capitulation sans condition de l'Allemagne, entrée en vigueur tard le 8 mai en Europe centrale ; certains pays commémorent la victoire le 9 mai en raison du décalage horaire. La loi tchèque 245/2000 inscrit le 8 mai parmi les fêtes nationales. L'année 2000 correspond à ce cadre juridique, non au début des commémorations.",
+    "de": "Tschechien begeht den Tag des Sieges am 8. Mai und erinnert damit an die Niederlage des nationalsozialistischen Deutschlands und das Ende des Zweiten Weltkriegs in Europa 1945. Das Datum folgt auf die bedingungslose deutsche Kapitulation, die am späten 8. Mai mitteleuropäischer Zeit wirksam wurde; wegen der Zeitverschiebung gedenken manche Länder des Sieges am 9. Mai. Das tschechische Gesetz 245/2000 führt den 8. Mai als Staatsfeiertag auf. Das Jahr 2000 bezeichnet diesen Rechtsrahmen, nicht den Beginn des Gedenkens.",
+    "pt": "A Chéquia assinala o Dia da Vitória a 8 de maio, recordando a derrota da Alemanha nazi e o fim da Segunda Guerra Mundial na Europa, em 1945. A data segue a rendição incondicional alemã, que entrou em vigor no final do dia 8 de maio na Europa Central; alguns países recordam a vitória a 9 de maio devido à diferença horária. A Lei checa 245/2000 reconhece 8 de maio como feriado nacional. O ano 2000 corresponde a esse enquadramento jurídico, não ao início das comemorações."
+  },
+  "runtimeRichEditorialApproved": false
+}

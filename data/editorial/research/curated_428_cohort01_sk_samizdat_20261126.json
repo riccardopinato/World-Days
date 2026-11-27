@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "sk-samizdat-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "10-12",
+  "country": "SK",
+  "documentedIntroductionYear": 2020,
+  "yearMeaning": "Act 325/2020 was adopted on 3 November 2020, effective 1 January 2021; first official national observance was 12 October 2021. An informal Samizdat Day was marked from 2016, so 2020 is the legislative designation, not the beginning of informal commemoration.",
+  "authority": "National Council of the Slovak Republic",
+  "dateReason": "12 October is the date named in Act 325/2020; an earlier informal annual commemoration is documented from 12 October 2016, but the statute itself does not explain the original calendar choice.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2020/325/",
+      "claim": "Primary legislation Act 325/2020, adopted 3 November 2020, inserted 12 October Deň samizdatu in §3 of Act 241/1993, effective 1 January 2021."
+    },
+    {
+      "url": "https://www.upn.gov.sk/sk/konferencia-a-pamatny-den-sr-den-samizdatu-2021-pocta-samizdatu/",
+      "claim": "Slovak Nation's Memory Institute announced the first 12 October 2021 national memorial observance and a conference with former samizdat authors and distributors."
+    },
+    {
+      "url": "https://spravy.stvr.sk/2021/10/slovensko-si-po-prvy-raz-pripomina-den-samizdatu-ako-pamatny-den/",
+      "claim": "Slovak public broadcaster reports informal commemorations since 2016 and explains the remembrance of persecuted independent publishers under communist rule."
+    }
+  ],
+  "narratives": {
+    "en": "On 12 October, Slovakia commemorates Samizdat Day, honoring people who secretly wrote, reproduced and circulated books and journals outside communist censorship. Independent publishers risked surveillance, interrogation and imprisonment to preserve cultural, religious and political expression. An informal commemoration existed from 2016; Act 325/2020 added the date to Slovakia's official memorial calendar from 1 January 2021. The Nation's Memory Institute marked the first official observance in October 2021 with a conference bringing together samizdat creators, distributors and historians.",
+    "it": "Il 12 ottobre la Slovacchia celebra la Giornata del samizdat, dedicata a chi scriveva, riproduceva e diffondeva clandestinamente libri e riviste fuori dalla censura comunista. Gli editori indipendenti rischiavano sorveglianza, interrogatori e carcere per difendere l'espressione culturale, religiosa e politica. La ricorrenza informale esisteva dal 2016; la legge 325/2020 ha inserito la data nel calendario commemorativo ufficiale dal 1° gennaio 2021. Nell'ottobre 2021 l'Istituto della memoria nazionale ha organizzato un incontro con autori, distributori e storici del samizdat.",
+    "es": "El 12 de octubre, Eslovaquia celebra el Día del Samizdat en homenaje a quienes escribieron, copiaron y distribuyeron clandestinamente libros y revistas al margen de la censura comunista. Los editores independientes se exponían a vigilancia, interrogatorios y prisión para defender la expresión cultural, religiosa y política. La conmemoración informal existía desde 2016; la Ley 325/2020 incorporó la fecha al calendario oficial a partir del 1 de enero de 2021. En octubre de 2021, el Instituto de la Memoria Nacional reunió en una conferencia a autores, distribuidores e historiadores del samizdat.",
+    "fr": "Le 12 octobre, la Slovaquie célèbre la Journée du samizdat en hommage aux personnes qui écrivaient, reproduisaient et diffusaient clandestinement des livres et revues hors de la censure communiste. Les éditeurs indépendants risquaient surveillance, interrogatoires et prison pour défendre l'expression culturelle, religieuse et politique. Une commémoration informelle existait depuis 2016 ; la loi 325/2020 a inscrit cette date au calendrier officiel à compter du 1er janvier 2021. En octobre 2021, l'Institut de la mémoire nationale a réuni auteurs, diffuseurs et historiens du samizdat lors d'une conférence.",
+    "de": "Am 12. Oktober begeht die Slowakei den Samisdat-Gedenktag. Er würdigt Menschen, die unter kommunistischer Zensur Bücher und Zeitschriften heimlich verfassten, vervielfältigten und verbreiteten. Unabhängige Herausgeber riskierten Überwachung, Verhöre und Haft, um kulturelle, religiöse und politische Meinungsäußerung zu ermöglichen. Eine inoffizielle Erinnerung gab es seit 2016; Gesetz 325/2020 nahm den Tag mit Wirkung vom 1. Januar 2021 in den staatlichen Gedenkkalender auf. Im Oktober 2021 versammelte das Institut für nationales Gedenken Autoren, Verteiler und Historiker zu einer Konferenz.",
+    "pt": "Em 12 de outubro, a Eslováquia assinala o Dia do Samizdat, homenageando quem escrevia, reproduzia e distribuía clandestinamente livros e revistas à margem da censura comunista. Os editores independentes arriscavam vigilância, interrogatórios e prisão para defender a expressão cultural, religiosa e política. A comemoração informal existia desde 2016; a Lei 325/2020 integrou a data no calendário oficial a partir de 1 de janeiro de 2021. Em outubro de 2021, o Instituto da Memória Nacional reuniu autores, distribuidores e historiadores do samizdat numa conferência."
+  },
+  "runtimeRichEditorialApproved": false
+}

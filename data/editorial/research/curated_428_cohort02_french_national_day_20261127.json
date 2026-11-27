@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "french-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "07-14",
+  "country": "FR",
+  "documentedIntroductionYear": 1880,
+  "yearMeaning": "The annual 14 July national holiday was established by the French law of 6 July 1880; 1789 and 1790 are the historical reference dates.",
+  "authority": "French Republic",
+  "dateReason": "Annual commemorative date documented in the cited government or institutional history.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet",
+      "claim": "French presidency describes the 14 July national festival, its revolutionary background and establishment in 1880."
+    }
+  ],
+  "narratives": {
+    "en": "France celebrates National Day on 14 July, connecting the storming of the Bastille in 1789 with the Festival of the Federation in 1790. The holiday expresses revolutionary memory, national unity and republican citizenship. It was formally instituted as an annual national festival by the law of 6 July 1880. Thus 1880 is the legal establishment year; the two earlier dates are historical references.",
+    "it": "Il 14 luglio la Francia celebra la Festa nazionale, collegando la presa della Bastiglia del 1789 alla Festa della Federazione del 1790. La ricorrenza richiama memoria rivoluzionaria, unità nazionale e cittadinanza repubblicana. Fu istituita come festa nazionale annuale dalla legge del 6 luglio 1880. Il 1880 è quindi l'anno della norma, mentre le date precedenti sono riferimenti storici.",
+    "es": "El 14 de julio Francia celebra su Fiesta Nacional, que vincula la toma de la Bastilla de 1789 con la Fiesta de la Federación de 1790. La fecha evoca la memoria revolucionaria, la unidad nacional y la ciudadanía republicana. Se estableció como fiesta anual mediante la ley del 6 de julio de 1880. Así, 1880 es el año legal y las fechas anteriores son referencias históricas.",
+    "fr": "Le 14 juillet, la France célèbre sa fête nationale, associant la prise de la Bastille de 1789 à la fête de la Fédération de 1790. Cette journée évoque la mémoire révolutionnaire, l'unité nationale et la citoyenneté républicaine. Elle fut instituée comme fête nationale annuelle par la loi du 6 juillet 1880. L'année 1880 correspond donc à la création légale, les deux dates antérieures aux événements rappelés.",
+    "de": "Am 14. Juli feiert Frankreich seinen Nationalfeiertag und verbindet den Sturm auf die Bastille 1789 mit dem Föderationsfest 1790. Der Tag steht für die Erinnerung an die Revolution, nationale Einheit und republikanische Bürgerschaft. Als jährlicher Nationalfeiertag wurde er durch das Gesetz vom 6. Juli 1880 eingeführt. 1880 ist somit das Einführungsjahr, die früheren Jahre sind historische Bezüge.",
+    "pt": "Em 14 de julho, a França celebra o Dia Nacional, ligando a tomada da Bastilha em 1789 à Festa da Federação de 1790. A data evoca memória revolucionária, unidade nacional e cidadania republicana. Foi instituída como festa nacional anual pela lei de 6 de julho de 1880. Assim, 1880 é o ano da criação legal, enquanto 1789 e 1790 são referências históricas."
+  },
+  "runtimeRichEditorialApproved": false
+}

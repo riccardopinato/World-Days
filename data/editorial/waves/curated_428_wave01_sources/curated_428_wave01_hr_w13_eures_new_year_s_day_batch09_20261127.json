@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "hr-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "HR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year is unverified; any historical context in six-locale prose is separate.",
+  "authority": "Croatian Ministry of Foreign Affairs",
+  "dateReason": "Country-specific legal or government public-holiday list substantiates the recurrence.",
+  "sourceEvidence": [
+    {
+      "url": "https://mvep.gov.hr/print.aspx?id=180280&url=print",
+      "claim": "Croatian Ministry of Foreign Affairs calendar for 2026 lists New Year's Day as a national nonworking holiday on 1 January.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Croatia observes New Year's Day on 1 January as a nationwide public holiday. The date marks the beginning of the Gregorian calendar year, following celebrations on New Year's Eve. It is included in the official nonworking-day calendar published by Croatia's foreign ministry and should not be confused with the separate Epiphany holiday on 6 January.",
+    "it": "La Croazia riconosce il Capodanno del 1° gennaio come festività pubblica nazionale. La giornata inaugura il nuovo anno del calendario gregoriano, dopo i festeggiamenti della vigilia. Compare nell'elenco ufficiale dei giorni non lavorativi diffuso dal ministero degli Esteri e va distinta dall'Epifania del 6 gennaio.",
+    "es": "Croacia reconoce el Año Nuevo del 1 de enero como festivo nacional. La fecha inicia el año del calendario gregoriano después de las celebraciones de Nochevieja. Figura en la lista oficial de días no laborables publicada por el Ministerio de Exteriores croata y no debe confundirse con la Epifanía del 6 de enero.",
+    "fr": "La Croatie reconnaît le jour de l'An du 1er janvier comme fête nationale non travaillée. La date ouvre l'année du calendrier grégorien après les festivités du réveillon. Elle figure dans le calendrier officiel du ministère croate des Affaires étrangères et se distingue de l'Épiphanie du 6 janvier.",
+    "de": "Kroatien erkennt den Neujahrstag am 1. Januar als landesweiten gesetzlichen Feiertag an. Das Datum beginnt das gregorianische Kalenderjahr nach den Feiern am Silvesterabend. Es steht im offiziellen Feiertagskalender des kroatischen Außenministeriums und ist vom Dreikönigstag am 6. Januar zu unterscheiden.",
+    "pt": "A Croácia reconhece o Dia de Ano Novo em 1 de janeiro como feriado nacional. A data inicia o ano do calendário gregoriano após os festejos da passagem de ano. Consta da lista oficial de dias não úteis publicada pelo Ministério dos Negócios Estrangeiros e é distinta da Epifania de 6 de janeiro."
+  },
+  "runtimeRichEditorialApproved": false
+}

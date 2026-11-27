@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 1,
+  "id": "italian-national-pain-relief-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": null,
+  "dateRule": {
+    "kind": "last_weekday",
+    "month": 5,
+    "weekday": "sunday"
+  },
+  "country": "IT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The original statutory introduction year was not independently verified.",
+  "authority": "Presidenza del Consiglio dei Ministri",
+  "dateReason": "Official source confirms the annual movable-date recurrence; dateRule encodes it without inventing a fixed MM-DD.",
+  "sourceEvidence": [
+    {
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/cerimoniale/giornate.html",
+      "claim": "Governmental cultural/calendar source confirms this observance and its moving weekday recurrence."
+    }
+  ],
+  "narratives": {
+    "en": "Italy dedicates the last Sunday of May to the National Day of Relief. The observance promotes compassionate care and better attention to suffering in illness, including palliative support when appropriate. Healthcare institutions and volunteer organizations participate in awareness initiatives. The official list confirms the final Sunday of May, which changes date each year; it does not determine the original establishment year.",
+    "it": "L'Italia dedica l'ultima domenica di maggio alla Giornata nazionale del sollievo. La ricorrenza promuove cure attente alla sofferenza e sostegno alla qualità della vita, comprese le cure palliative quando appropriate. Strutture sanitarie e volontari partecipano alle iniziative. L'elenco ufficiale indica l'ultima domenica del mese, che cambia data ogni anno, senza provare l'anno della prima istituzione.",
+    "es": "Italia dedica el último domingo de mayo al Día Nacional del Alivio. La jornada promueve una atención compasiva al sufrimiento causado por la enfermedad, incluido el apoyo paliativo cuando procede. Instituciones sanitarias y voluntariado participan en acciones de sensibilización. El listado oficial confirma el último domingo del mes, que varía de fecha, sin establecer el año fundacional.",
+    "fr": "L'Italie consacre le dernier dimanche de mai à la Journée nationale du soulagement. Elle promeut des soins attentifs à la souffrance liée à la maladie, notamment l'accompagnement palliatif lorsque cela convient. Établissements de santé et bénévoles participent aux initiatives. La liste officielle indique le dernier dimanche du mois, dont la date varie, sans fixer l'année de création.",
+    "de": "Italien widmet den letzten Sonntag im Mai dem Nationalen Tag der Linderung. Er fördert eine mitfühlende Versorgung bei krankheitsbedingtem Leiden, einschließlich palliativer Unterstützung, wenn diese angemessen ist. Gesundheitseinrichtungen und Ehrenamtliche engagieren sich in Aufklärungsaktionen. Der staatliche Kalender nennt den letzten Sonntag des Monats; das Gründungsjahr wird dadurch nicht belegt.",
+    "pt": "A Itália dedica o último domingo de maio ao Dia Nacional do Alívio. A data promove cuidados atentos ao sofrimento associado à doença, incluindo apoio paliativo quando adequado. Instituições de saúde e voluntários participam em iniciativas de sensibilização. A lista oficial indica o último domingo do mês, cuja data varia, sem comprovar o ano de criação."
+  },
+  "runtimeRichEditorialApproved": false
+}

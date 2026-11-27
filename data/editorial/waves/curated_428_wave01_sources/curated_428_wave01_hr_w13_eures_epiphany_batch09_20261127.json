@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "hr-w13-eures-epiphany",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-06",
+  "country": "HR",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year is unverified; any historical context in six-locale prose is separate.",
+  "authority": "Croatian Ministry of Economy / Ministry of Foreign Affairs",
+  "dateReason": "Country-specific legal or government public-holiday list substantiates the recurrence.",
+  "sourceEvidence": [
+    {
+      "url": "https://mingo.gov.hr/vijesti/pojasnjenje-odredbi-zakona-o-trgovini-vezano-uz-rad-trgovina-nedjeljom-i-blagdanima/9354",
+      "claim": "The ministry quotes Croatia's 2019 holiday act explicitly listing 6 January as Epiphany or Three Kings as a nonworking holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://mvep.gov.hr/useful-information/public-holidays/168762",
+      "claim": "Croatian foreign ministry's calendar confirms Epiphany among national holidays in 2026.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Croatia celebrates Epiphany, also called the Feast of the Three Kings, on 6 January. The Christian observance recalls the visit of the wise men to Jesus and closes the Christmas period in many local calendars. Croatian public-holiday law recognises it as a nationwide nonworking holiday, distinct from the January New Year's celebration.",
+    "it": "La Croazia celebra il 6 gennaio l'Epifania, chiamata anche Festa dei Tre Re. La ricorrenza cristiana ricorda la visita dei Magi a Gesù e conclude il periodo natalizio in molti calendari locali. La legge croata sulle festività la riconosce come giornata non lavorativa nazionale, distinta dal Capodanno del 1° gennaio.",
+    "es": "Croacia celebra el 6 de enero la Epifanía o Fiesta de los Tres Reyes. La tradición cristiana recuerda la visita de los magos a Jesús y cierra las fiestas navideñas en muchos calendarios. La ley croata reconoce esta fecha como día no laborable nacional, diferenciado de la celebración de Año Nuevo del 1 de enero.",
+    "fr": "La Croatie célèbre le 6 janvier l'Épiphanie, ou fête des Trois Rois. La tradition chrétienne rappelle la visite des mages à Jésus et clôt la période de Noël dans de nombreux calendriers. La législation croate reconnaît ce jour comme férié non travaillé sur tout le territoire, distinct du Nouvel An du 1er janvier.",
+    "de": "Kroatien feiert am 6. Januar die Erscheinung des Herrn, auch Dreikönigstag genannt. Das christliche Fest erinnert an den Besuch der Weisen bei Jesus und beendet in vielen lokalen Kalendern die Weihnachtszeit. Das kroatische Feiertagsgesetz erkennt den Tag landesweit als arbeitsfrei an, getrennt vom Neujahrsfest am 1. Januar.",
+    "pt": "A Croácia celebra a Epifania, ou Dia dos Três Reis, em 6 de janeiro. A tradição cristã recorda a visita dos magos a Jesus e encerra o período de Natal em muitos calendários locais. A lei croata reconhece a data como feriado nacional não laboral, distinto da celebração de Ano Novo em 1 de janeiro."
+  },
+  "runtimeRichEditorialApproved": false
+}

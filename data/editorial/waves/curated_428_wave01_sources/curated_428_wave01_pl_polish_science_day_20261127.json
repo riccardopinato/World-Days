@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-polish-science-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "02-19",
+  "country": "PL",
+  "documentedIntroductionYear": 2020,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2020/181/text/O/D20200181.pdf",
+      "claim": "Act of 9 January 2020 established Polish Science Day on 19 February.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland celebrates Polish Science Day on 19 February, honouring researchers and their contribution to knowledge. Parliament instituted the date in 2020, choosing the birthday of astronomer Nicolaus Copernicus. The public purpose reaches beyond one person: schools, laboratories and universities reflect on scientific discovery and education.",
+    "it": "Il 19 febbraio la Polonia celebra la Giornata della scienza, dedicata ai ricercatori e al loro contributo. Il Parlamento la istituì nel 2020 scegliendo il compleanno di Niccolò Copernico. Non è solo un anniversario personale: scuole, laboratori e università valorizzano scoperte ed educazione scientifica.",
+    "es": "Polonia celebra el Día de la Ciencia el 19 de febrero, reconociendo a los investigadores y sus aportes. El Parlamento lo instituyó en 2020 eligiendo el cumpleaños de Nicolás Copérnico. No es solo un aniversario personal: escuelas, laboratorios y universidades celebran la investigación y la educación científica.",
+    "fr": "La Pologne célèbre le 19 février la Journée de la science, en hommage aux chercheurs et à leurs contributions. Le Parlement l'institua en 2020 en choisissant la date de naissance de Nicolas Copernic. Au-delà d'un anniversaire personnel, écoles, laboratoires et universités valorisent la découverte et l'enseignement scientifique.",
+    "de": "Polen begeht am 19. Februar den Tag der Wissenschaft und würdigt damit Forschung und Erkenntnis. Das Parlament führte ihn 2020 am Geburtstag von Nikolaus Kopernikus ein. Es geht nicht nur um ein persönliches Jubiläum: Schulen, Labore und Universitäten machen wissenschaftliche Entdeckungen sichtbar.",
+    "pt": "A Polónia celebra o Dia da Ciência em 19 de fevereiro, homenageando os investigadores e as suas contribuições. O Parlamento instituiu a data em 2020, escolhendo o aniversário de Nicolau Copérnico. A finalidade vai além de uma homenagem pessoal: escolas, laboratórios e universidades valorizam as descobertas."
+  },
+  "runtimeRichEditorialApproved": false
+}
