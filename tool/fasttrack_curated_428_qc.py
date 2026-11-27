@@ -21,7 +21,8 @@ OUTPUT = QUEUES
 URL_BAD = {"example.com", "localhost"}
 DATE = re.compile(r"^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$")
 YEAR = re.compile(r"(?<![0-9])(?:18|19|20)[0-9]{2}(?![0-9])")
-PLACEHOLDER = re.compile(r"\b(?:TODO|TBD|LOREM IPSUM|TRANSLATE ME|PLACEHOLDER)\b", re.I)
+PLACEHOLDER = re.compile(r"\b(?:TBD|LOREM IPSUM|TRANSLATE ME|PLACEHOLDER)\b", re.I)
+TODO_PLACEHOLDER = re.compile(r"(?:\[TODO\]|\{\{TODO\}\}|(?:^|\s)TODO:)", re.M)
 
 
 def load(path):
@@ -87,7 +88,7 @@ def audit_row(row, canonical):
             value = texts[loc]
             if not isinstance(value, str) or len(value.strip()) < 150:
                 errors.append("SHORT_OR_EMPTY_TEXT_" + loc.upper())
-            elif PLACEHOLDER.search(value):
+            elif PLACEHOLDER.search(value) or TODO_PLACEHOLDER.search(value):
                 errors.append("PLACEHOLDER_" + loc.upper())
         originals = {loc: str(texts[loc]).strip().lower() for loc in LANGUAGES}
         for loc in LANGUAGES[1:]:
