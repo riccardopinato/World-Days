@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "lv-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "LV",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year is unverified; any historical context in six-locale prose is separate.",
+  "authority": "Legislation of the Republic of Latvia",
+  "dateReason": "Country-specific legal or government public-holiday list substantiates the recurrence.",
+  "sourceEvidence": [
+    {
+      "url": "https://likumi.lv/ta/en/en/id/72608-on-holidays-remembrance-and-celebration-days",
+      "claim": "Latvian public holidays statute lists 1 January as New Year's Day and 31 December separately as New Year's Eve.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Latvia marks the beginning of the Gregorian calendar year on 1 January, a statutory New Year's Day holiday. Its public-holiday law also recognises 31 December as New Year's Eve, giving the transition between years two separately named dates. The holiday belongs to the civic calendar and is not the same as Latvia's national independence commemorations.",
+    "it": "La Lettonia celebra l'inizio dell'anno gregoriano il 1° gennaio, festività di Capodanno prevista dalla legge. La normativa riconosce separatamente anche il 31 dicembre come vigilia dell'anno nuovo, attribuendo due date distinte al passaggio di calendario. È una ricorrenza civile, diversa dalle celebrazioni lettoni dell'indipendenza nazionale.",
+    "es": "Letonia celebra el comienzo del año gregoriano el 1 de enero como festivo legal. La legislación reconoce también el 31 de diciembre, Nochevieja, como día festivo separado, dando dos fechas propias al cambio de año. Esta celebración pertenece al calendario civil y no debe confundirse con las conmemoraciones de la independencia nacional.",
+    "fr": "La Lettonie marque le début de l'année grégorienne le 1er janvier, jour de l'An férié. La loi reconnaît aussi le 31 décembre comme veille du Nouvel An distincte, donnant deux dates séparées au changement de calendrier. Cette célébration relève du calendrier civil et ne correspond pas aux commémorations de l'indépendance lettone.",
+    "de": "Lettland begeht den Beginn des gregorianischen Kalenderjahres am 1. Januar als gesetzlichen Neujahrsfeiertag. Das Gesetz erkennt auch den 31. Dezember als eigenständigen Silvestertag an. Damit haben beide Seiten des Jahreswechsels einen eigenen Platz im Feiertagskalender, unabhängig von den nationalen Unabhängigkeitsgedenktagen.",
+    "pt": "A Letónia assinala o início do ano gregoriano em 1 de janeiro como feriado legal. A lei reconhece também o dia 31 de dezembro, véspera de Ano Novo, como data festiva separada, atribuindo dois dias distintos à passagem do calendário. Trata-se de uma festa civil, diferente das comemorações da independência nacional."
+  },
+  "runtimeRichEditorialApproved": false
+}
