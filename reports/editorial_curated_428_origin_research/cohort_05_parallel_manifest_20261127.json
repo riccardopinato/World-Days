@@ -16,10 +16,11 @@
     "uy-dfat-national-day",
     "vn-dfat-national-day",
     "zm-dfat-national-day",
-    "zw-dfat-national-day"
+    "zw-dfat-national-day",
+    "tl-dfat-national-day"
   ],
-  "preparedSixLocaleDossiers": 8,
-  "remainingResearchIds": 20,
+  "preparedSixLocaleDossiers": 9,
+  "remainingResearchIds": 19,
   "review": "PENDING",
   "humanCertified": 0,
   "runtimeIntegrated": 0,
@@ -31,5 +32,5 @@
     "de",
     "pt"
   ],
-  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review. 2026-11-27: two additional independent six-locale historical dossiers researched against national institutions; review PENDING and not runtime-published."
+  "notes": "The original artifact is a research queue. Individual dossier evidence is independent from sourceIndex. The original source listing does not establish historical origin. No automatic runtime promotion. 2026-11-27: three more historical dossiers and six-locale texts with cited primary institutional sources; no runtime promotion or human review. 2026-11-27: two additional independent six-locale historical dossiers researched against national institutions; review PENDING and not runtime-published. One six-locale draft added with source direct-verification pending; not certified."
 }
