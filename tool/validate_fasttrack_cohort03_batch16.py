@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 A=ROOT/"assets/data";R=ROOT/"reports/editorial_curated_428_origin_research"
 ld=lambda p:json.loads(p.read_text(encoding="utf-8"))
-x=ld(R/"fasttrack_wave01_cohort03_batch16_runtime_import.json")
+x=ld(R/"fasttrack_cohort03_batch16_runtime_import.json")
 assert x["mode"]=="APP_FACTORY_CORE_V27_WAVE01_COHORT03_BATCH16_AI"
 assert x["numberOfNewSixLocaleDossiers"]==14 and x["integratedNew"]+x["heldNew"]==14
 assert x["previouslyIntegrated"]==204 and x["newTotalIntegrated"]==204+x["integratedNew"]
