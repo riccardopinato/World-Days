@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_COHORT03_BATCH16",
+  "factoryBaseline": "9bec235b319963bc05f3c3c4d95d0f6b267bb309",
+  "sourceMain": "1ff44f526c8bba885dba30a5d2c2f5cc97850b64",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Batch of fourteen extant substantial six-language government/institution-scoped original historical dossiers from canonical cohort03. Existing one extra women's day dossier excluded because evidence status pending review. Historical evidence and legal/recurrence date reviewed proportionately; fail closed on ID/year/source/date/semantic uncertainty. No human expert signoff.",
+  "humanCertified": false,
+  "cohort": 3,
+  "alreadyIntegratedBeforeBatch16": 204,
+  "proposedBatch16": 14,
+  "records": [
+    {
+      "id": "no-liberation-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_no_liberation_day_20261127.json",
+      "sourceBlobSha": "8b6fbe72db1a7b66f3c21dea1bbf3dac00a98ff3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "no-sami-peoples-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_no_sami_peoples_day_20261127.json",
+      "sourceBlobSha": "3807bbedf946142ff2b2ecf8ae8b20b445ecaa3a",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "no-st-olav-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_no_st_olav_day_20261127.json",
+      "sourceBlobSha": "e5faf16e593cfe145e08fc635041c1ae3a75b130",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "no-union-dissolution-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_no_union_dissolution_day_20261127.json",
+      "sourceBlobSha": "8713d53671abb93cc5b2d22229d93aef8af8d653",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "independence-day-us",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_independence_day_us_20261127.json",
+      "sourceBlobSha": "7742e62e84ca11e6f2f676abdba7d53dcb288b85",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "memorial-day-us",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_memorial_day_us_20261127.json",
+      "sourceBlobSha": "17815134ad26d62c1004d66db6d1184c4ce1666f",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "us-labor-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_us_labor_day_20261127.json",
+      "sourceBlobSha": "1602f8649c5468a4fac80cc88e33f0a231188c5c",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "veterans-day-us",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_veterans_day_us_20261127.json",
+      "sourceBlobSha": "125b3e556fea6d89e8c6647571d28f19ac3aae73",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "german-unity-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_german_unity_day_20261127.json",
+      "sourceBlobSha": "e6958a8a5fb4017f7e6525b64a8760ce7ade4965",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "za-freedom-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_za_freedom_day_20261127.json",
+      "sourceBlobSha": "8467b5f1af976c75db7d8cc4ad363e7a4904f44b",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "za-heritage-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_za_heritage_day_20261127.json",
+      "sourceBlobSha": "4f83e0cac1e309422b618794c7c665de9fcbcf51",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "za-human-rights-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_za_human_rights_day_20261127.json",
+      "sourceBlobSha": "3b51b1ac9d215aa2fe83eabb93f957c27af300c3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "za-reconciliation-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_za_reconciliation_day_20261127.json",
+      "sourceBlobSha": "05d12bad3046274a523839531d44cc8554620f99",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "nz-waitangi-day",
+      "sourceFile": "data/editorial/research/curated_428_cohort03_nz_waitangi_day_20261127.json",
+      "sourceBlobSha": "bb06afbf22e21b66efd2e55b02ceb601de044363",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
