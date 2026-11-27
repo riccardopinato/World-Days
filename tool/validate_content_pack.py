@@ -89,7 +89,12 @@ for locale in ("en", "it", "es", "fr", "de", "pt"):
     # retained in the bundled generated editorials and Git review ledgers.
     bundled = json.loads((ROOT / f"assets/data/editorial_{locale}.json").read_text(encoding="utf-8"))
     assert len(bundled["entries"]) == len(entries) == 947
-    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446
+    fasttrack_report = ROOT / "reports/editorial_curated_428_origin_research/fasttrack_runtime_import.json"
+    additional_fasttrack = (
+        json.loads(fasttrack_report.read_text(encoding="utf-8"))["aiReviewedAndAppBuildIntegrated"]
+        if fasttrack_report.exists() else 0
+    )
+    assert sum("aiEditorialProvenance" in row for row in bundled["entries"]) == 446 + additional_fasttrack
     for row in bundled["entries"]:
         row.pop("aiEditorialProvenance", None)
     assert pack == bundled, ("remote_payload_drift", locale)
