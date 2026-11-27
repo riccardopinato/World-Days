@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "cohort": 1,
   "id": "cz-czech-accession-to-nato-anniversary",
-  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_SCOPE_REVIEW_PENDING",
-  "review": "PENDING",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_AI_REVIEWED_NOT_RUNTIME_PUBLISHED",
+  "review": "AI_REVIEWED",
   "date": "03-12",
   "country": "CZ",
   "documentedIntroductionYear": null,
-  "yearMeaning": "1999 is the year of accession, not a verified establishment year for a formally designated annual observance",
-  "authority": "NATO and Czech Ministry of Foreign Affairs (historical event); annual observance establishing authority unverified",
+  "yearMeaning": "1999 is the year of accession, not a verified establishment year for a formally designated annual observance. Czech Act 245/2000 current consolidated version confirms the civic designation but does not prove its first-ever legal introduction year.",
+  "authority": "Parliament of the Czech Republic (Act 245/2000 §4) and historical accession institutions",
   "dateReason": "12 March commemorates the formal deposit of accession instruments on 12 March 1999; the Brussels flag-raising occurred on 16 March",
   "sourceEvidence": [
     {
@@ -22,16 +22,27 @@
     {
       "url": "https://mzv.gov.cz/nato.brussels/en/news_events/the_czech_republic_celebrated_20_years.html",
       "claim": "Czech permanent delegation documents official 20th-anniversary commemorations in 2019; does not establish a permanent national holiday"
+    },
+    {
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "claim": "Official consolidated Czech Act 245/2000 §4(1) explicitly lists 12 March as NATO accession significant day; §4(2) states significant days remain working days unless otherwise holidays."
     }
   ],
   "narratives": {
-    "en": "On 12 March 1999, Czechia joined NATO alongside Poland and Hungary, becoming part of the Alliance's first post-Cold War enlargement. The three foreign ministers deposited their instruments of accession in Independence, Missouri; their flags were raised at NATO headquarters in Brussels four days later. Czech officials publicly commemorated the twentieth anniversary in 2019. These sources verify the historical anniversary, but do not establish 12 March as a legally designated annual Czech holiday or recurring civic observance.",
-    "it": "Il 12 marzo 1999 la Repubblica Ceca entrò nella NATO insieme a Polonia e Ungheria, nel primo allargamento dell'Alleanza dopo la Guerra fredda. I tre ministri degli Esteri depositarono gli strumenti di adesione a Independence, nel Missouri; le bandiere furono issate alla sede NATO di Bruxelles quattro giorni dopo. Nel 2019 le autorità ceche celebrarono ufficialmente il ventesimo anniversario. Le fonti confermano la ricorrenza storica, ma non attestano che il 12 marzo sia una festività nazionale o una giornata civica annuale istituita per legge.",
-    "es": "El 12 de marzo de 1999, Chequia ingresó en la OTAN junto con Polonia y Hungría, en la primera ampliación de la Alianza tras la Guerra Fría. Los ministros de Exteriores depositaron los instrumentos de adhesión en Independence, Misuri; las banderas se izaron en la sede de la OTAN en Bruselas cuatro días después. Las autoridades checas conmemoraron oficialmente el vigésimo aniversario en 2019. Las fuentes acreditan el aniversario histórico, pero no establecen que el 12 de marzo sea una fiesta nacional o una jornada cívica anual reconocida por ley.",
-    "fr": "Le 12 mars 1999, la Tchéquie a rejoint l'OTAN avec la Pologne et la Hongrie, lors du premier élargissement de l'Alliance après la guerre froide. Les ministres des Affaires étrangères ont déposé les instruments d'adhésion à Independence, dans le Missouri ; les drapeaux ont été hissés au siège de l'OTAN à Bruxelles quatre jours plus tard. Les autorités tchèques ont officiellement commémoré le vingtième anniversaire en 2019. Ces sources établissent la date historique, mais ne prouvent pas l'existence d'une fête nationale ou d'une journée civique annuelle instituée le 12 mars.",
-    "de": "Am 12. März 1999 trat Tschechien gemeinsam mit Polen und Ungarn der NATO bei – bei der ersten Erweiterung des Bündnisses nach dem Kalten Krieg. Die Außenminister hinterlegten die Beitrittsurkunden in Independence im US-Bundesstaat Missouri; vier Tage später wurden die Flaggen am NATO-Hauptquartier in Brüssel gehisst. Tschechische Behörden begingen 2019 offiziell den zwanzigsten Jahrestag. Die Quellen belegen das historische Datum, jedoch keinen gesetzlich eingeführten jährlichen Staatsfeiertag oder Gedenktag am 12. März.",
-    "pt": "Em 12 de março de 1999, a Chéquia aderiu à NATO juntamente com a Polónia e a Hungria, no primeiro alargamento da Aliança após a Guerra Fria. Os ministros dos Negócios Estrangeiros depositaram os instrumentos de adesão em Independence, no Missouri; as bandeiras foram hasteadas na sede da NATO, em Bruxelas, quatro dias depois. As autoridades checas assinalaram oficialmente o vigésimo aniversário em 2019. As fontes confirmam o aniversário histórico, mas não demonstram a existência de um feriado nacional ou dia cívico anual instituído para 12 de março."
+    "en": "On 12 March 1999, Czechia joined NATO alongside Poland and Hungary, becoming part of the Alliance's first post-Cold War enlargement. The three foreign ministers deposited their instruments of accession in Independence, Missouri; their flags were raised at NATO headquarters in Brussels four days later. Czech officials publicly commemorated the twentieth anniversary in 2019. Czech Act 245/2000, section 4, expressly recognizes 12 March as a significant civic day marking accession to NATO. The commemorative designation does not make it a day off work.",
+    "it": "Il 12 marzo 1999 la Repubblica Ceca entrò nella NATO insieme a Polonia e Ungheria, nel primo allargamento dell'Alleanza dopo la Guerra fredda. I tre ministri degli Esteri depositarono gli strumenti di adesione a Independence, nel Missouri; le bandiere furono issate alla sede NATO di Bruxelles quattro giorni dopo. Nel 2019 le autorità ceche celebrarono ufficialmente il ventesimo anniversario. La legge ceca 245/2000, articolo 4, riconosce espressamente il 12 marzo come giornata civica significativa per l'adesione alla NATO. Questo riconoscimento non ne fa un giorno di riposo lavorativo.",
+    "es": "El 12 de marzo de 1999, Chequia ingresó en la OTAN junto con Polonia y Hungría, en la primera ampliación de la Alianza tras la Guerra Fría. Los ministros de Exteriores depositaron los instrumentos de adhesión en Independence, Misuri; las banderas se izaron en la sede de la OTAN en Bruselas cuatro días después. Las autoridades checas conmemoraron oficialmente el vigésimo aniversario en 2019. La Ley checa 245/2000, artículo 4, reconoce expresamente el 12 de marzo como día cívico significativo por la adhesión a la OTAN. Este reconocimiento no lo convierte en festivo con descanso laboral.",
+    "fr": "Le 12 mars 1999, la Tchéquie a rejoint l'OTAN avec la Pologne et la Hongrie, lors du premier élargissement de l'Alliance après la guerre froide. Les ministres des Affaires étrangères ont déposé les instruments d'adhésion à Independence, dans le Missouri ; les drapeaux ont été hissés au siège de l'OTAN à Bruxelles quatre jours plus tard. Les autorités tchèques ont officiellement commémoré le vingtième anniversaire en 2019. La loi tchèque 245/2000, article 4, reconnaît expressément le 12 mars comme journée civique significative de l'adhésion à l'OTAN. Cette désignation ne crée pas un jour chômé.",
+    "de": "Am 12. März 1999 trat Tschechien gemeinsam mit Polen und Ungarn der NATO bei – bei der ersten Erweiterung des Bündnisses nach dem Kalten Krieg. Die Außenminister hinterlegten die Beitrittsurkunden in Independence im US-Bundesstaat Missouri; vier Tage später wurden die Flaggen am NATO-Hauptquartier in Brüssel gehisst. Tschechische Behörden begingen 2019 offiziell den zwanzigsten Jahrestag. Das tschechische Gesetz 245/2000, Paragraf 4, nennt den 12. März ausdrücklich als bedeutsamen Gedenktag des NATO-Beitritts. Die Bezeichnung macht ihn nicht zu einem arbeitsfreien Feiertag.",
+    "pt": "Em 12 de março de 1999, a Chéquia aderiu à NATO juntamente com a Polónia e a Hungria, no primeiro alargamento da Aliança após a Guerra Fria. Os ministros dos Negócios Estrangeiros depositaram os instrumentos de adesão em Independence, no Missouri; as bandeiras foram hasteadas na sede da NATO, em Bruxelas, quatro dias depois. As autoridades checas assinalaram oficialmente o vigésimo aniversário em 2019. A lei checa 245/2000, artigo 4, reconhece expressamente 12 de março como dia cívico significativo da adesão à NATO. Esta designação não o transforma num feriado com dispensa de trabalho."
   },
-  "scopeDecision": "HOLD_PENDING_FORMAL_ANNUAL_OBSERVANCE_EVIDENCE",
-  "runtimeRichEditorialApproved": false
+  "scopeDecision": "ACCEPT_STATUTORILY_RECOGNIZED_CZECH_SIGNIFICANT_DAY",
+  "runtimeRichEditorialApproved": false,
+  "reviewEvidence": {
+    "reviewedOn": "2026-11-27",
+    "method": "AI_FAST_TRACK_CROSS_CHECK_ORIGINAL_HISTORICAL_INSTITUTIONS_WITH_CZECH_STATUTE_SIX_LOCALE",
+    "sourceChecked": "https://ppropo.mpsv.cz/zakon_245_2000",
+    "scopeCorrection": "Former relevance HOLD invalidated by official consolidated Czech statutory significant-day list",
+    "factAndLocaleReview": "All six narratives amended to reflect statutory recognition; event years not reclassified as first holiday years"
+  }
 }
