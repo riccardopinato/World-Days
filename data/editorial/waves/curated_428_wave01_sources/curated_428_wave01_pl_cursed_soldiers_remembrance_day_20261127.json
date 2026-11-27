@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-cursed-soldiers-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "03-01",
+  "country": "PL",
+  "documentedIntroductionYear": 2011,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland and Institute of National Remembrance",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://eli.gov.pl/api/acts/DU/2011/160/text.html",
+      "claim": "Act of 3 February 2011 established 1 March as National Remembrance Day of the Cursed Soldiers.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland remembers the so-called Cursed Soldiers on 1 March. The date recalls the execution of anti-communist underground leaders in Warsaw in 1951. Parliament created the national commemoration in 2011. Historical assessment also examines the varied actions of underground groups and violence against civilians; remembrance must not erase those experiences.",
+    "it": "Il 1º marzo la Polonia ricorda i cosiddetti soldati maledetti. La data richiama l'esecuzione a Varsavia di dirigenti della resistenza anticomunista nel 1951. Il Parlamento istituì la giornata nel 2011. La ricerca storica considera anche le azioni dei diversi gruppi clandestini e le violenze contro i civili.",
+    "es": "Polonia recuerda el 1 de marzo a los llamados soldados malditos. La fecha evoca la ejecución de dirigentes clandestinos anticomunistas en Varsovia en 1951. El Parlamento creó la jornada en 2011. La investigación histórica también estudia las actuaciones de distintos grupos y la violencia contra civiles.",
+    "fr": "La Pologne commémore le 1er mars les « soldats maudits ». La date rappelle l'exécution à Varsovie de responsables clandestins anticommunistes en 1951. Le Parlement institua cette journée en 2011. L'histoire examine aussi les actes de divers groupes et les violences commises contre des civils.",
+    "de": "Polen gedenkt am 1. März der sogenannten verfemten Soldaten. Das Datum erinnert an die Hinrichtung antikommunistischer Untergrundführer 1951 in Warschau. Das Parlament führte den Gedenktag 2011 ein. Die Geschichtsforschung untersucht ebenso die unterschiedlichen Gruppen und Gewalt gegen Zivilisten.",
+    "pt": "A Polónia recorda em 1 de março os chamados soldados malditos. A data evoca a execução em Varsóvia de dirigentes clandestinos anticomunistas em 1951. O Parlamento instituiu a comemoração em 2011. A investigação histórica também analisa diferentes grupos e a violência contra civis."
+  },
+  "runtimeRichEditorialApproved": false
+}

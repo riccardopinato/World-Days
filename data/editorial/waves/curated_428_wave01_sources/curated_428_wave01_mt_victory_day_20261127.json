@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "mt-victory-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-08",
+  "country": "MT",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Event chronology is distinct from legally established annual day; keep unknown as null.",
+  "authority": "Heritage Malta",
+  "dateReason": "Country-specific state calendar, institutional document, or law establishes the commemorated date.",
+  "sourceEvidence": [
+    {
+      "url": "https://heritagemalta.mt/news/a-tale-of-two-sieges-at-fort-st-angelo-on-victory-day/",
+      "claim": "Heritage Malta links 8 September to the end of the Great Siege of 1565 and the public announcement of the Italian armistice in 1943.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Malta's Victory Day falls on 8 September. It recalls the end of the Great Siege in 1565, when Ottoman forces withdrew, and the announcement of Italy's armistice in 1943, easing Malta's suffering during the Second World War. The same day also carries a Marian religious tradition. These are historical references, not proof of the first statute creating the holiday.",
+    "it": "Malta celebra la Vittoria l'8 settembre. Ricorda la fine del Grande Assedio nel 1565, quando le forze ottomane si ritirarono, e l'annuncio dell'armistizio italiano nel 1943, che alleggerì le sofferenze maltesi nella Seconda guerra mondiale. La data ha anche una tradizione religiosa mariana. Quegli eventi non dimostrano l'anno di istituzione della festa.",
+    "es": "Malta celebra el Día de la Victoria el 8 de septiembre. Recuerda el fin del Gran Sitio en 1565, cuando se retiraron las fuerzas otomanas, y el anuncio del armisticio italiano en 1943, que alivió el sufrimiento durante la Segunda Guerra Mundial. También existe una tradición religiosa mariana. Esos hechos no prueban el año de creación legal del festivo.",
+    "fr": "Malte célèbre la Victoire le 8 septembre. La date rappelle la fin du Grand Siège en 1565, lorsque les forces ottomanes se retirèrent, et l'annonce de l'armistice italien en 1943, qui soulagea l'archipel pendant la Seconde Guerre mondiale. Une tradition mariale y est aussi associée. Ces événements ne prouvent pas l'année de création juridique de la fête.",
+    "de": "Malta feiert den Siegestag am 8. September. Er erinnert an das Ende der Großen Belagerung von 1565, als die osmanischen Truppen abzogen, sowie an die Bekanntgabe des italienischen Waffenstillstands 1943, der Malta im Zweiten Weltkrieg entlastete. Dazu kommt eine marianische Tradition. Die Ereignisse belegen nicht das gesetzliche Gründungsjahr des Feiertags.",
+    "pt": "Malta celebra a Vitória em 8 de setembro. A data recorda o fim do Grande Cerco em 1565, quando as forças otomanas se retiraram, e o anúncio do armistício italiano em 1943, que aliviou o sofrimento durante a Segunda Guerra Mundial. Existe ainda uma tradição religiosa mariana. Estes factos não provam o ano da criação legal do feriado."
+  },
+  "runtimeRichEditorialApproved": false
+}

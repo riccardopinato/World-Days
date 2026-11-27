@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-warsaw-uprising-remembrance-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "08-01",
+  "country": "PL",
+  "documentedIntroductionYear": 2009,
+  "yearMeaning": "Event year and legally established day are distinguished; unknown years stay null.",
+  "authority": "Sejm of Poland",
+  "dateReason": "Country-specific state calendar or legislative date is evidenced.",
+  "sourceEvidence": [
+    {
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2009/1588/text.html",
+      "claim": "Act of 9 October 2009 establishes 1 August as Warsaw Uprising National Remembrance Day.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland commemorates the Warsaw Uprising on 1 August. At 5 p.m. on that day in 1944, Home Army forces launched a revolt against German occupation. The city suffered devastating destruction and civilian losses. Parliament legally created the national remembrance day in 2009. The insurrection and its later official recognition must not be confused.",
+    "it": "Il 1º agosto la Polonia ricorda l'insurrezione di Varsavia, iniziata alle 17 del 1944 dalle forze dell'Armia Krajowa contro l'occupazione tedesca. La capitale subì distruzioni e gravissime perdite civili. Nel 2009 il Parlamento istituì la giornata nazionale della memoria, distinta dall'evento bellico.",
+    "es": "El 1 de agosto Polonia recuerda el Levantamiento de Varsovia, iniciado a las cinco de la tarde de 1944 por el Ejército Nacional contra la ocupación alemana. La ciudad sufrió destrucción y graves pérdidas civiles. En 2009 el Parlamento instituyó la jornada nacional de recuerdo, distinta del acontecimiento bélico.",
+    "fr": "La Pologne commémore le 1er août l'insurrection de Varsovie, lancée à 17 heures en 1944 par l'Armia Krajowa contre l'occupation allemande. La capitale subit destructions et lourdes pertes civiles. Le Parlement institua la journée nationale du souvenir en 2009, bien après la révolte.",
+    "de": "Polen gedenkt am 1. August des Warschauer Aufstands, der 1944 um 17 Uhr von der Heimatarmee gegen die deutsche Besatzung begonnen wurde. Die Stadt erlitt Verwüstungen und hohe zivile Verluste. 2009 führte das Parlament den nationalen Gedenktag ein; Kriegsereignis und Gesetz sind zu unterscheiden.",
+    "pt": "A Polónia recorda em 1 de agosto a Insurreição de Varsóvia, iniciada em 1944 às 17 horas pelo Exército Nacional contra a ocupação alemã. A capital sofreu destruição e enormes perdas civis. Em 2009 o Parlamento instituiu o dia nacional de memória, distinto da revolta histórica."
+  },
+  "runtimeRichEditorialApproved": false
+}
