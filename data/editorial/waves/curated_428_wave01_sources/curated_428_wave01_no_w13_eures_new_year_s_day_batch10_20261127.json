@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "no-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "NO",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "First legal introduction of the national observance not established from cited institutional documents.",
+  "authority": "Norwegian Ministry of Foreign Affairs",
+  "dateReason": "Competent country government calendar and/or holiday act confirms annual fixed date.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.regjeringen.no/en/dep/ud/about_mfa/diplomatic-relations/diplomat-in-norway/id2354407/",
+      "claim": "Norwegian foreign ministry official calendar lists 1 January as New Year's Day public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Norway begins the Gregorian calendar year on 1 January, a recognised New Year's Day public holiday. The date follows the celebrations of New Year's Eve and provides a pause in the middle of the Nordic winter. The official state calendar treats it separately from Labour Day on 1 May and the Norwegian Constitution Day on 17 May.",
+    "it": "La Norvegia inaugura l'anno del calendario gregoriano il 1° gennaio, festività pubblica riconosciuta come Capodanno. La data segue i festeggiamenti della vigilia e offre una pausa nel pieno dell'inverno nordico. Il calendario statale la distingue dalla Festa del lavoro del 1° maggio e dalla Festa della Costituzione del 17 maggio.",
+    "es": "Noruega comienza el año del calendario gregoriano el 1 de enero, festivo reconocido como Año Nuevo. Sigue a la celebración de Nochevieja y representa una pausa en pleno invierno nórdico. El calendario estatal lo diferencia del Día del Trabajo del 1 de mayo y del Día de la Constitución noruega del 17 de mayo.",
+    "fr": "La Norvège commence l'année du calendrier grégorien le 1er janvier, jour férié du Nouvel An. Cette date suit les festivités du réveillon et constitue une pause au cœur de l'hiver nordique. Le calendrier officiel la distingue de la fête du Travail du 1er mai et de la fête de la Constitution du 17 mai.",
+    "de": "Norwegen beginnt das gregorianische Kalenderjahr am 1. Januar mit einem anerkannten gesetzlichen Neujahrsfeiertag. Er folgt auf die Silvesterfeiern und bietet eine Pause mitten im nordischen Winter. Der staatliche Kalender unterscheidet ihn vom Tag der Arbeit am 1. Mai und vom norwegischen Verfassungstag am 17. Mai.",
+    "pt": "A Noruega inicia o ano do calendário gregoriano em 1 de janeiro, feriado reconhecido como Ano Novo. A data segue os festejos da passagem de ano e oferece uma pausa em pleno inverno nórdico. O calendário oficial distingue-a do Dia do Trabalhador de 1 de maio e do Dia da Constituição norueguesa de 17 de maio."
+  },
+  "runtimeRichEditorialApproved": false
+}

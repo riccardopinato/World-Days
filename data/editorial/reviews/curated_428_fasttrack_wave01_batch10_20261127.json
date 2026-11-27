@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH10",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "47aaebe369e0928173df818f633b0b1ecea7c673",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Six specific government or national legal holiday source dossiers for Cyprus Norway Poland in six authored locales, cohort pinning and no human expert certificate.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch10": 184,
+  "proposedBatch10": 6,
+  "records": [
+    {
+      "id": "cy-w13-eures-epiphany",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_w13_eures_epiphany_batch10_20261127.json",
+      "sourceBlobSha": "9784b8bcfc3ca07ecdc15e58b426d991f450ffe4",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "cy-w13-eures-labour-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_w13_eures_labour_day_batch10_20261127.json",
+      "sourceBlobSha": "9fecd097db3b91725e819282b239aef75cefd899",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "cy-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_cy_w13_eures_new_year_s_day_batch10_20261127.json",
+      "sourceBlobSha": "34ffb486107642044940d521243c116cfe222320",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "no-w13-eures-labour-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_no_w13_eures_labour_day_batch10_20261127.json",
+      "sourceBlobSha": "1755f100bd624daa359a74b96bb300f0dd2dcee8",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "no-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_no_w13_eures_new_year_s_day_batch10_20261127.json",
+      "sourceBlobSha": "a9753948e1919b9fc17c1320a7d3d399a4a3ab3d",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_w13_eures_new_year_s_day_batch10_20261127.json",
+      "sourceBlobSha": "5adc6b38521e1d58a0411512019fa80a3c299212",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
