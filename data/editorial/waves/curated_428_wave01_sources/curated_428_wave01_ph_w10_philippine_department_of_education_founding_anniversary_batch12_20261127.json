@@ -2,18 +2,23 @@
   "schemaVersion": 1,
   "cohort": 2,
   "id": "ph-w10-philippine-department-of-education-founding-anniversary",
-  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_SCOPE_HOLD_NOT_RUNTIME_PUBLISHED",
   "review": "PENDING",
   "date": "06-23",
   "country": "PH",
   "documentedIntroductionYear": 1997,
   "yearMeaning": "1997 is the administrative order officially recognizing the earlier 1898 agency foundation date; separate 1863 precursor history.",
   "authority": "Philippines Department of Education",
-  "dateReason": "Fixed annual date verified from issuing institution; distinguish establishment date from historical predecessor.",
+  "dateReason": "The current DepEd founding anniversary follows June 23, 1898 as recognized in 1997; NCCA calendar cites December 20 tied to 1863 predecessor. Not safe to treat both as one canonical date.",
   "sourceEvidence": [
     {
       "url": "https://www.deped.gov.ph/2018/11/09/statement-on-the-grant-of-anniversary-bonus-to-deped-teachers-personnel/",
       "claim": "DepEd explains that AO 322 of 1997 adopted 23 June 1898 as founding date, while noting an older predecessor from 20 December 1863.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://ncca.gov.ph/events-calendar/monthly-observances-and-significant-dates/",
+      "claim": "NCCA official calendar places the Department of Education founding anniversary on December 20, while DepEd itself uses June 23 for its institutional founding anniversary.",
       "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
     }
   ],
@@ -25,5 +30,9 @@
     "de": "Das philippinische Bildungsministerium erinnert am 23. Juni an die Gründung einer Bildungsbehörde im Jahr 1898. Eine Verwaltungsanordnung von 1997 bestätigte dieses Datum, während eine amtliche historische Prüfung auf einen Vorläufer von 1863 hinwies. Die Jahre stehen für unterschiedliche institutionelle Entwicklungsphasen und nicht für eine unveränderte Behörde.",
     "pt": "O Departamento de Educação das Filipinas assinala a fundação em 23 de junho, recordando uma entidade educativa criada em 1898. Uma ordem administrativa de 1997 adotou essa data, enquanto uma análise histórica oficial identificou um antecessor de 1863. Os anos representam fases distintas da administração educativa e não uma instituição inalterada."
   },
-  "runtimeRichEditorialApproved": false
+  "runtimeRichEditorialApproved": false,
+  "scopeDecision": {
+    "state": "HOLD",
+    "reason": "NCCA_CALENDAR_LABELS_DECEMBER_20_1863_PREDECESSOR; CURRENT_DEPED_AO_322_1997_ADOPTED_JUNE_23_1898; CANONICAL_DATE_AND_FOUNDATION_SCOPE_CONFLICT_REQUIRES_RECONCILIATION"
+  }
 }
