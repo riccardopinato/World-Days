@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-knowledge-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-01",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "The year of first institution is not established by the cited presidential address.",
+  "authority": "Office of the President of Estonia",
+  "dateReason": "Institutional source supports the annual date and historical meaning.",
+  "sourceEvidence": [
+    {
+      "url": "https://news.err.ee/1608703180/president-alar-karis-we-study-and-learn-for-the-sake-of-freedom",
+      "claim": "President Alar Karis's 1 September 2022 address identifies the start of the academic year as Teadmistepäev."
+    }
+  ],
+  "narratives": {
+    "en": "Estonia marks Knowledge Day on 1 September, when the academic year traditionally begins. In a 2022 address for the occasion, President Alar Karis linked study and learning to the country's freedom and civic resilience. The day welcomes pupils back to schools and celebrates education as a public good. The date marks the school-year opening, not an independently verified founding anniversary.",
+    "it": "Il 1° settembre l'Estonia celebra la Giornata della conoscenza, che coincide tradizionalmente con l'inizio dell'anno scolastico. Nel discorso del 2022 per la ricorrenza, il presidente Alar Karis collegò lo studio alla libertà e alla solidità civile del Paese. La giornata accoglie gli studenti e valorizza l'istruzione. La data indica l'apertura delle scuole, non un anniversario di fondazione accertato.",
+    "es": "Estonia celebra el Día del Conocimiento el 1 de septiembre, fecha tradicional de inicio del curso escolar. En su discurso de 2022, el presidente Alar Karis vinculó el aprendizaje con la libertad y la fortaleza cívica del país. La jornada recibe al alumnado y destaca el valor público de la educación. La fecha corresponde al comienzo de las clases, no a un aniversario fundacional verificado.",
+    "fr": "L'Estonie célèbre la Journée du savoir le 1er septembre, date traditionnelle de la rentrée scolaire. Dans son discours de 2022, le président Alar Karis a relié l'apprentissage à la liberté et à la résilience civique du pays. Cette journée accueille les élèves et souligne la valeur publique de l'éducation. La date marque la rentrée, et non un anniversaire de fondation établi.",
+    "de": "Estland begeht den Tag des Wissens am 1. September, dem traditionellen Beginn des Schuljahres. In seiner Ansprache 2022 verband Präsident Alar Karis Bildung mit Freiheit und gesellschaftlicher Widerstandskraft. Der Tag begrüßt die Schülerinnen und Schüler und betont den öffentlichen Wert von Bildung. Das Datum bezeichnet den Schulbeginn, kein nachgewiesenes Gründungsjubiläum.",
+    "pt": "A Estónia assinala o Dia do Conhecimento em 1 de setembro, início tradicional do ano letivo. Num discurso de 2022, o presidente Alar Karis relacionou a aprendizagem com a liberdade e a resiliência cívica do país. A data acolhe os alunos e valoriza a educação como bem público. Assinala o regresso às aulas, não um aniversário de fundação comprovado."
+  },
+  "runtimeRichEditorialApproved": false
+}
