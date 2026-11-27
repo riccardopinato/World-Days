@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH11",
+  "factoryBaseline": "3e663a1a2a77142ab755e0fa645f14c74991e367",
+  "sourceMain": "cb9405aea8c8c398a6080a397b38519273f2e2b9",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Seven six-locale narratives supported by public law, cultural authorities and regional statutory holiday guidance. Original legal enactment years unknown except documented 1993 historic-centres observance. No professional human sign-off or independent validation of every historical claim.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch11": 190,
+  "proposedBatch11": 7,
+  "records": [
+    {
+      "id": "de-w13-eures-christmas-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_de_w13_eures_christmas_day_batch11_20261127.json",
+      "sourceBlobSha": "3574725d611b1b99ebf6f26ecba81c0cee0f4369",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "de-w13-eures-labour-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_de_w13_eures_labour_day_batch11_20261127.json",
+      "sourceBlobSha": "ff9698e7168f80fe243708bfa9568132b1e07218",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "de-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_de_w13_eures_new_year_s_day_batch11_20261127.json",
+      "sourceBlobSha": "38ed3a40914e73ddec54199f2a30fb4842b03d58",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-w13-eures-all-souls-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_w13_eures_all_souls_day_batch11_20261127.json",
+      "sourceBlobSha": "3969b7315c7b11078b2e2e3dcd0c1e80284def05",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "lt-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_lt_w13_eures_new_year_s_day_batch11_20261127.json",
+      "sourceBlobSha": "bd9282db2bf8b5002956b2cfc2238b432dafbcfb",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "portugal-national-historic-centres-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_portugal_national_historic_centres_day_batch11_20261127.json",
+      "sourceBlobSha": "9a83428f76f7d5f8908ddbac4acc3a30d1b427d3",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pt-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pt_w13_eures_new_year_s_day_batch11_20261127.json",
+      "sourceBlobSha": "75baacd2995e8d5c29e0645aa8799a47f2750cb7",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}

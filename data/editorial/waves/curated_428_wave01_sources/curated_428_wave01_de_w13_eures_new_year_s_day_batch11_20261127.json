@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "de-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "DE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "Senate of Berlin / official German state holiday law",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/artikel.1435639.php",
+      "claim": "Berlin's official holiday-law explanation lists New Year's Day as a statutory holiday under state law.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Germany starts the calendar year on 1 January with New Year's Day, a legal holiday in every federal state. Celebrations on the preceding evening often include gatherings and fireworks. The German holiday framework is administered through state laws; the current listing does not determine the historical origin or first enactment of the holiday.",
+    "it": "La Germania inaugura l'anno il 1° gennaio con Capodanno, festività legale riconosciuta nei Länder. La sera precedente è spesso segnata da ritrovi e fuochi d'artificio. Le ricorrenze sono disciplinate dalle leggi dei singoli Stati federati, che non documentano l'anno della prima istituzione di questa festa.",
+    "es": "Alemania recibe el nuevo año el 1 de enero con un festivo legal en sus estados federados. La víspera suele reunir a familias y amigos entre celebraciones y fuegos artificiales. Las normas de festivos se dictan en cada estado y no establecen cuándo comenzó históricamente esta celebración.",
+    "fr": "L'Allemagne accueille la nouvelle année le 1er janvier, jour férié légal dans ses États fédérés. La veille est souvent marquée par des rassemblements et des feux d'artifice. Les lois relatives aux jours fériés relèvent des Länder et ne permettent pas de dater la première institution de cette fête.",
+    "de": "Deutschland begrüßt das neue Kalenderjahr am 1. Januar mit einem gesetzlichen Feiertag in allen Bundesländern. Der Vorabend ist häufig von Treffen und Feuerwerk geprägt. Die Feiertagsregeln beruhen auf Landesrecht; die aktuellen Listen belegen nicht, wann dieser Feiertag erstmals eingeführt wurde.",
+    "pt": "A Alemanha acolhe o novo ano em 1 de janeiro, feriado legal nos seus estados federados. A véspera é frequentemente marcada por encontros e fogo de artifício. A legislação dos feriados é definida pelos Länder e não permite estabelecer o ano em que esta celebração foi instituída pela primeira vez."
+  },
+  "runtimeRichEditorialApproved": false
+}

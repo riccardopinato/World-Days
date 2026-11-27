@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "de-w13-eures-christmas-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-25",
+  "country": "DE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "No specific first statutory introduction year established by the quoted institution.",
+  "authority": "State of Berlin / official German holiday law",
+  "dateReason": "Observed date confirmed by official legislation or cultural authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/artikel.1435639.php",
+      "claim": "Berlin's official statutory holiday explanation lists the first Christmas Day, observed on 25 December.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Germany observes the first Christmas Day on 25 December as a legal holiday. The Christian tradition commemorates the birth of Jesus, and many families gather after Christmas Eve. German laws distinguish this day from the second Christmas holiday on 26 December; the religious celebration predates modern holiday legislation.",
+    "it": "Il 25 dicembre la Germania celebra il primo giorno di Natale come festività pubblica. La tradizione cristiana ricorda la nascita di Gesù e molte famiglie si ritrovano dopo la vigilia. La normativa tedesca distingue questo giorno dal secondo giorno di Natale del 26 dicembre; il rito religioso precede le leggi moderne.",
+    "es": "Alemania celebra el primer día de Navidad el 25 de diciembre como festivo legal. La tradición cristiana conmemora el nacimiento de Jesús y las familias suelen reunirse después de Nochebuena. Las leyes distinguen el día 25 del segundo día de Navidad, el 26 de diciembre; la fiesta religiosa es mucho más antigua.",
+    "fr": "L'Allemagne célèbre le premier jour de Noël le 25 décembre comme jour férié légal. La tradition chrétienne commémore la naissance de Jésus et les familles se retrouvent après le réveillon. La loi distingue cette journée du deuxième jour de Noël, le 26 décembre; la fête religieuse est bien antérieure à la législation actuelle.",
+    "de": "Deutschland begeht am 25. Dezember den ersten Weihnachtstag als gesetzlichen Feiertag. Die christliche Tradition erinnert an die Geburt Jesu und Familien treffen sich nach Heiligabend. Das Recht unterscheidet den ersten vom zweiten Weihnachtstag am 26. Dezember; die religiöse Feier ist viel älter als das heutige Feiertagsrecht.",
+    "pt": "A Alemanha celebra o primeiro dia de Natal em 25 de dezembro como feriado legal. A tradição cristã recorda o nascimento de Jesus e as famílias reúnem-se após a véspera. A lei distingue o dia 25 do segundo dia de Natal, em 26 de dezembro; a celebração religiosa é anterior à legislação moderna."
+  },
+  "runtimeRichEditorialApproved": false
+}
