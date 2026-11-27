@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "pl-w13-eures-epiphany",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-06",
+  "country": "PL",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year of local observance not established by cited sources; any years in prose describe distinct changes in holiday status.",
+  "authority": "Sejm of the Republic of Poland",
+  "dateReason": "Country-specific date supported by public holiday legislation or a competent national employment authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.sejm.gov.pl/sejm9.nsf/komunikat.xsp?documentId=3EFD8D0CE7F08DFDC12587C0004BDD22",
+      "claim": "Sejm documents restoration of Epiphany's day-off status from 2011, after removal from the official Polish calendar in 1960.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/2020/1920/text.html",
+      "claim": "Consolidated Polish holidays legislation lists 6 January as Epiphany (Święto Trzech Króli).",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Poland celebrates Epiphany, the Feast of the Three Kings, on 6 January. The Christian commemoration evokes the wise men visiting Jesus; Polish communities may mark it through church services and public processions. The holiday was removed from the official calendar in 1960 and became a statutory day off again in 2011, distinguishing religious origins from modern employment law.",
+    "it": "Il 6 gennaio la Polonia celebra l'Epifania, chiamata anche Festa dei Tre Re. La ricorrenza cristiana richiama i Magi che visitano Gesù; le comunità possono celebrarla con funzioni religiose e cortei. Eliminata dal calendario dei giorni festivi nel 1960, tornò a essere un giorno libero per legge nel 2011, ben dopo le sue origini religiose.",
+    "es": "Polonia celebra la Epifanía o Fiesta de los Tres Reyes el 6 de enero. La tradición cristiana recuerda la visita de los magos a Jesús, con celebraciones religiosas y procesiones. La jornada dejó de ser festivo oficial en 1960 y recuperó su carácter de día no laborable en 2011, muchos siglos después del origen religioso de la fiesta.",
+    "fr": "La Pologne fête l'Épiphanie, ou fête des Trois Rois, le 6 janvier. La tradition chrétienne rappelle la visite des mages à Jésus, avec des offices et des processions. Retirée du calendrier des jours chômés en 1960, cette fête est redevenue un jour férié légal en 2011, bien après son origine religieuse.",
+    "de": "Polen feiert am 6. Januar die Erscheinung des Herrn, auch Dreikönigstag genannt. Das christliche Fest erinnert an den Besuch der Weisen bei Jesus und wird teils mit Gottesdiensten und Umzügen begangen. 1960 wurde es als gesetzlicher arbeitsfreier Tag gestrichen und 2011 wieder eingeführt, lange nach seinem religiösen Ursprung.",
+    "pt": "A Polónia celebra a Epifania, ou Dia dos Três Reis, em 6 de janeiro. A tradição cristã recorda a visita dos magos a Jesus, com cerimónias religiosas e cortejos. O dia perdeu o estatuto de feriado oficial em 1960 e voltou a ser dia de descanso legal em 2011, muito depois da origem religiosa da celebração."
+  },
+  "runtimeRichEditorialApproved": false
+}

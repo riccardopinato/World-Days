@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-w13-eures-new-year-s-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "01-01",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year of local observance not established by cited sources; any years in prose describe distinct changes in holiday status.",
+  "authority": "Riigikogu / Visit Estonia",
+  "dateReason": "Country-specific date supported by public holiday legislation or a competent national employment authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+      "claim": "Estonian legislation lists 1 January as New Year's Day public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://visitestonia.com/en/planning",
+      "claim": "Visit Estonia confirms that New Year's Day on 1 January is a public holiday when many businesses are closed.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia welcomes the Gregorian New Year on 1 January, a public holiday recognised in national legislation. It follows the celebrations of 31 December and gives residents a day of rest at the start of the calendar year. Tourism guidance notes that many businesses close on this date; the celebration is distinct from Estonia's February independence anniversary.",
+    "it": "L'Estonia accoglie il nuovo anno del calendario gregoriano il 1° gennaio, festività pubblica prevista dalla legge. Segue i festeggiamenti del 31 dicembre e offre una giornata di riposo all'inizio dell'anno. Le indicazioni turistiche segnalano molte attività chiuse; la ricorrenza è distinta dall'anniversario nazionale dell'indipendenza di febbraio.",
+    "es": "Estonia recibe el año nuevo del calendario gregoriano el 1 de enero, festivo reconocido por la ley nacional. Sigue a las celebraciones del 31 de diciembre y permite un día de descanso al comienzo del año. La información turística advierte que muchos negocios cierran; esta fecha no debe confundirse con la independencia nacional de febrero.",
+    "fr": "L'Estonie accueille la nouvelle année grégorienne le 1er janvier, jour férié prévu par la législation nationale. Après les festivités du 31 décembre, cette journée marque une pause au début de l'année. Les informations touristiques signalent la fermeture de nombreux commerces; cette fête diffère de l'anniversaire de l'indépendance célébré en février.",
+    "de": "Estland begrüßt das neue gregorianische Jahr am 1. Januar, der gesetzlich als Feiertag anerkannt ist. Nach den Feiern am 31. Dezember bietet er eine Ruhepause zum Jahresbeginn. Touristische Hinweise vermerken, dass viele Geschäfte geschlossen sind. Der Tag ist nicht mit dem Unabhängigkeitstag im Februar gleichzusetzen.",
+    "pt": "A Estónia acolhe o novo ano do calendário gregoriano em 1 de janeiro, feriado previsto na lei nacional. Após as celebrações de 31 de dezembro, o dia oferece uma pausa no início do ano. A informação turística indica o encerramento de muitos estabelecimentos. A data é diferente do aniversário da independência em fevereiro."
+  },
+  "runtimeRichEditorialApproved": false
+}

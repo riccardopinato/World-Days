@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "cohort": 2,
+  "id": "ee-w13-eures-christmas-eve",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "12-24",
+  "country": "EE",
+  "documentedIntroductionYear": null,
+  "yearMeaning": "Original legal introduction year of local observance not established by cited sources; any years in prose describe distinct changes in holiday status.",
+  "authority": "Riigikogu / Visit Estonia",
+  "dateReason": "Country-specific date supported by public holiday legislation or a competent national employment authority.",
+  "sourceEvidence": [
+    {
+      "url": "https://www.riigiteataja.ee/en/tolge/pdf/527122022003",
+      "claim": "Estonia Public Holidays and Days of National Importance Act establishes 24 December as Christmas Eve public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://visitestonia.com/en/planning",
+      "claim": "Estonia national tourism planning calendar identifies the Christmas public-holiday period from 24 to 26 December.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Estonia recognises Christmas Eve on 24 December as a public holiday, beginning a three-day Christmas holiday period. Families often use the evening for quiet gatherings and the traditions of the winter season. The official law distinguishes Christmas Eve from the following Christmas days, making 24 December a separate civil holiday.",
+    "it": "L'Estonia riconosce la vigilia di Natale del 24 dicembre come festività pubblica, all'inizio di tre giorni di vacanza natalizia. La sera è legata ai ritrovi familiari e alle consuetudini della stagione invernale. La legge distingue la vigilia dai successivi giorni di Natale, assegnandole una propria ricorrenza civile.",
+    "es": "Estonia reconoce la Nochebuena del 24 de diciembre como festivo oficial, al comienzo de un periodo navideño de tres días. La tarde y la noche se asocian a reuniones familiares y costumbres de invierno. La legislación diferencia la víspera de los días posteriores de Navidad y la trata como un festivo civil separado.",
+    "fr": "L'Estonie reconnaît le réveillon de Noël du 24 décembre comme jour férié, ouvrant une période de trois jours consacrée à Noël. La soirée est liée aux réunions familiales et aux coutumes hivernales. La loi distingue cette veille des jours de Noël qui suivent et lui accorde un statut férié propre.",
+    "de": "Estland erkennt den Heiligabend am 24. Dezember als gesetzlichen Feiertag an, der eine dreitägige Weihnachtszeit eröffnet. Der Abend ist mit Familientreffen und winterlichen Bräuchen verbunden. Das Gesetz unterscheidet den Heiligabend von den folgenden Weihnachtstagen und behandelt ihn als eigenständigen Feiertag.",
+    "pt": "A Estónia reconhece a véspera de Natal de 24 de dezembro como feriado público, iniciando um período natalício de três dias. A noite está ligada a encontros familiares e costumes do inverno. A lei distingue a véspera dos dias de Natal seguintes e atribui-lhe estatuto de feriado próprio."
+  },
+  "runtimeRichEditorialApproved": false
+}

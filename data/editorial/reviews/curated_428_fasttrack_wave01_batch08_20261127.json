@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "mode": "APP_FACTORY_CORE_V27_FAST_TRACK_WAVE01_BATCH08",
+  "factoryBaseline": "52a7e1c3a84edf942ad80a022ba6f67e80186921",
+  "sourceMain": "e1050ac3b8b32d6889e72f6ff5084d96c55e4d36",
+  "reviewedAt": "2026-11-27",
+  "reviewAuthority": "USER_DELEGATED_AI_EDITORIAL_REVIEW",
+  "sourceReview": "Six specific primary-government or statutory country holiday sources and six coherent authored texts each; no specialist human signoff; original statutory introduction years left unknown where unproven.",
+  "humanCertified": false,
+  "blockNumber": 1,
+  "originalBlockSize": 100,
+  "alreadyIntegratedBeforeBatch08": 173,
+  "proposedBatch08": 6,
+  "records": [
+    {
+      "id": "ee-w13-eures-christmas-eve",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_w13_eures_christmas_eve_batch08_20261127.json",
+      "sourceBlobSha": "01c67a96deb8aae8258cdf93debb6238b57b6848",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ee-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_w13_eures_new_year_s_day_batch08_20261127.json",
+      "sourceBlobSha": "563142ff6427d9bc6432897419a80aaf2a4a2568",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "ee-w13-eures-spring-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_ee_w13_eures_spring_day_batch08_20261127.json",
+      "sourceBlobSha": "acab65d9ddd2760b2570ef894a14b98e99574960",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mt-w13-eures-labour-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_w13_eures_labour_day_batch08_20261127.json",
+      "sourceBlobSha": "94f32016c482252ac6f065a136d7532f08565aa1",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "mt-w13-eures-new-year-s-day",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_mt_w13_eures_new_year_s_day_batch08_20261127.json",
+      "sourceBlobSha": "e2cc21794d7dc2296161b72349b7529717c86022",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    },
+    {
+      "id": "pl-w13-eures-epiphany",
+      "sourceFile": "data/editorial/waves/curated_428_wave01_sources/curated_428_wave01_pl_w13_eures_epiphany_batch08_20261127.json",
+      "sourceBlobSha": "01b08d55be43e6f56aec5c32fba0222e707db580",
+      "reviewStatus": "AI_SOURCE_SCOPED_PENDING_FINAL_CI_QA",
+      "humanSignoff": false,
+      "allSixLocalesAuthored": true
+    }
+  ]
+}
