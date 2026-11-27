@@ -1,3 +1,12 @@
+## 27 novembre 2026 — Fast Track IA massivo su prima coorte
+
+- [x] 100 dossier identificati, 2 già integrati su main tramite PR #164.
+- [x] 98 dossier originali trasferiti per SHA senza duplicazione nel ramo `editorial/fasttrack-428-c01-bulk-20261127`.
+- [x] Registro di revisione IA con per-file blob SHA, fonti legislative nazionali e HOLD individuali; nessun requisito di firma umana record-per-record.
+- [x] Importatore deterministico delle sole storie con QA idoneo in sei lingue, senza sovrascrivere ID o dati utente.
+- [ ] CI exact-head, build Web/Android se pertinente, revisione, merge e riconciliazione conteggi su main: **non attribuire PASS finché non evidenziato**.
+- [ ] Restano esclusi i dossier troppo generici, con fonte storica non individualizzata o con contenuti particolarmente sensibili: migliorare solo quelli, poi nuovo batch.
+
 ## 27 novembre 2026 — Fast Track IA: promozione verificabile di due ricorrenze ceche (PR #164)
 
 - [x] Accertata la pertinenza annuale delle ricorrenze NATO (12 marzo) e UE (1º maggio) nell'articolo 4 della legge ceca 245/2000; conservata la distinzione fra data storica e anno di istituzione.
