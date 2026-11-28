@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "canonicalId": "ad-dfat-national-day",
+  "cohort": "UNVERIFIED_PENDING_CANONICAL_COHORT_LEDGER",
+  "date": "09-08",
+  "legalInstitutionYear": null,
+  "legalYearStatus": "UNVERIFIED_DO_NOT_INFER_FROM_1873_OR_1921",
+  "status": "RESEARCH_ONLY_HOLD_NOT_RUNTIME_APPROVED",
+  "scope": "National public holiday, not a personal birth/death anniversary",
+  "sources": [
+    {
+      "url": "https://www.govern.ad/en/tematiques/cultura-i-esports/patrimoni-cultural/que-es-el-patrimoni-immaterial/les-festes-d-interes-cultural/l-aplec-de-la-mare-de-deu-de-meritxell",
+      "type": "Andorran government cultural heritage"
+    },
+    {
+      "url": "https://www.culturapopular.ad/items/dia-de-meritxell",
+      "type": "Andorran cultural heritage inventory"
+    },
+    {
+      "url": "https://www.consellgeneral.ad/ca/noticies/discurs-del-sindic-general-amb-motiu-del-dia-de-meritxell",
+      "type": "Andorran parliament 2026"
+    }
+  ],
+  "narratives": {
+    "en": "On 8 September, Andorra marks its national day through the feast of Our Lady of Meritxell. The General Council recognised her as patroness in 1873; the image was canonically crowned in 1921, when the national anthem was first performed. Pilgrimage and official ceremonies still converge at Meritxell. A fire destroyed the old sanctuary in 1972, and the new sanctuary opened in 1976.",
+    "it": "L'8 settembre Andorra celebra la festa nazionale dedicata alla Madonna di Meritxell. Il Consiglio generale la riconobbe patrona nel 1873; nel 1921 l'immagine fu incoronata e venne eseguito per la prima volta l'inno nazionale. Il santuario ospita pellegrinaggi e cerimonie istituzionali. Dopo l'incendio che distrusse il vecchio edificio nel 1972, il nuovo santuario fu inaugurato nel 1976.",
+    "es": "Cada 8 de septiembre, Andorra celebra su fiesta nacional en honor a la Virgen de Meritxell. El Consell General la reconoció como patrona en 1873 y su imagen recibió la coronación canónica en 1921, año de la primera interpretación del himno nacional. La peregrinación convive con actos institucionales. El antiguo santuario ardió en 1972 y el nuevo abrió en 1976.",
+    "fr": "Le 8 septembre, Andorre célèbre sa fête nationale autour de Notre-Dame de Meritxell. Le Conseil général l'a reconnue comme patronne en 1873; son image a été couronnée en 1921, année de la première interprétation de l'hymne national. Pèlerinages et cérémonies officielles se rejoignent au sanctuaire. L'ancien édifice a brûlé en 1972; le nouveau a ouvert en 1976.",
+    "de": "Am 8. September begeht Andorra seinen Nationalfeiertag zu Ehren Unserer Lieben Frau von Meritxell. Der Generalrat erkannte sie 1873 als Schutzpatronin an; 1921 wurde das Marienbild gekrönt und die Nationalhymne erstmals aufgeführt. Wallfahrten und staatliche Feiern prägen den Tag. Nach dem Brand des alten Heiligtums 1972 wurde 1976 ein Neubau eröffnet.",
+    "pt": "Em 8 de setembro, Andorra celebra o seu dia nacional em honra de Nossa Senhora de Meritxell. O Conselho Geral reconheceu-a como padroeira em 1873; a imagem recebeu a coroação canónica em 1921, ano da primeira execução do hino nacional. Peregrinações e cerimónias oficiais marcam a data. O antigo santuário ardeu em 1972 e o novo foi inaugurado em 1976."
+  },
+  "qa": {
+    "localesComplete": [
+      "en",
+      "it",
+      "es",
+      "fr",
+      "de",
+      "pt"
+    ],
+    "historicalFactsCrossChecked": true,
+    "sourceBlobPin": "PENDING_FETCH_AFTER_COMMIT",
+    "runtimePromotion": false,
+    "reviewRequired": [
+      "verify cohort from ordered IDs",
+      "verify legal institution year independently",
+      "pin git blob SHA and import ledger",
+      "run deterministic CI and editorial review"
+    ]
+  }
+}
