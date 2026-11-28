@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "canonicalId": "ae-dfat-national-day",
+  "cohort": "wave02",
+  "status": "SOURCE_AUTHORED_6_PENDING_IMPORT_QA",
+  "date": {
+    "month": 12,
+    "day": 2
+  },
+  "historicalAnchorYear": 1971,
+  "legalAnnualEstablishmentYear": null,
+  "sources": [
+    {
+      "url": "https://www.nla.ae/en/our-history/historical-periods/the-formation-of-the-federation/",
+      "publisher": "UAE National Library and Archives",
+      "supports": "18 July 1971 decision; 2 December 1971 proclamation; 10 February 1972 accession"
+    },
+    {
+      "url": "https://u.ae/en/about-uae/founders-of-the-union",
+      "publisher": "Official UAE Government Portal",
+      "supports": "1968 union talks, six founding emirates and 1972 seventh accession"
+    },
+    {
+      "url": "https://www.protocol.dubai.ae/en/uae-dubai/about-uae/",
+      "publisher": "Government of Dubai Protocol Department",
+      "supports": "National Day observed December 2"
+    }
+  ],
+  "narratives": {
+    "en": "On 2 December 1971, six Gulf emirates proclaimed the United Arab Emirates after years of negotiations about their shared future. The union began with Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain and Fujairah. Ras Al Khaimah joined on 10 February 1972, completing the federation of seven. National Day marks the founding proclamation, rather than the later accession of the seventh emirate.",
+    "it": "Il 2 dicembre 1971 sei emirati proclamarono la nascita degli Emirati Arabi Uniti, al termine di negoziati sul futuro comune della regione. Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain e Fujairah costituirono il primo nucleo della federazione. Ras Al Khaimah aderì il 10 febbraio 1972. La festa nazionale ricorda dunque la proclamazione iniziale, non il giorno in cui l'unione raggiunse sette membri.",
+    "es": "El 2 de diciembre de 1971 se proclamaron los Emiratos Árabes Unidos, fruto de conversaciones sobre la unión política de los territorios del Golfo. Abu Dabi, Dubái, Sharjah, Ajmán, Umm Al Quwain y Fujairah fueron los seis miembros fundadores. Ras Al Khaimah se incorporó el 10 de febrero de 1972. La fiesta nacional recuerda el nacimiento del Estado, anterior a la adhesión del séptimo emirato.",
+    "fr": "Le 2 décembre 1971, six émirats proclamèrent la création des Émirats arabes unis, après plusieurs années de discussions sur une fédération. Abou Dhabi, Dubaï, Charjah, Ajman, Oumm al Qaïwaïn et Fujaïrah formèrent le nouvel État. Ras el Khaïmah les rejoignit le 10 février 1972. La fête nationale commémore la proclamation de 1971, distincte de l'achèvement de la fédération à sept membres.",
+    "de": "Am 2. Dezember 1971 riefen sechs Emirate nach längeren Verhandlungen die Vereinigten Arabischen Emirate aus. Abu Dhabi, Dubai, Schardscha, Adschman, Umm al-Qaiwain und Fudschaira bildeten den neuen Bundesstaat. Ra’s al-Chaima trat erst am 10. Februar 1972 bei. Der Nationalfeiertag erinnert deshalb an die Staatsgründung mit sechs Mitgliedern und nicht an den späteren Beitritt des siebten Emirats.",
+    "pt": "Em 2 de dezembro de 1971, seis emirados proclamaram os Emirados Árabes Unidos, após negociações sobre a criação de uma federação. Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain e Fujairah integraram a união inicial. Ras Al Khaimah aderiu em 10 de fevereiro de 1972, completando os sete emirados. O dia nacional assinala a proclamação do Estado em 1971, e não a adesão posterior do sétimo membro."
+  },
+  "qa": {
+    "distinctLocales": true,
+    "chronologyReviewed": true,
+    "sourceReviewed": "AI editorial only; no human certification",
+    "runtimeIntegrated": false,
+    "exactHeadCi": "PENDING",
+    "holdReason": "Annual legal establishment year not independently verified; importer and runtime validation pending"
+  }
+}
