@@ -1,0 +1,25 @@
+{
+  "canonicalId": "bt-dfat-national-day",
+  "wave": 2,
+  "sourcePath": "data/editorial/waves/curated_428_wave01_sources/bt-dfat-national-day.json",
+  "sourceBlobSha": "682a96fb87be15c66e75a62cbf5cbfdda5bc9e6a",
+  "sourceCommit": "b9200b1e8f79cd53e8ce0321003453d72f512d24",
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "status": "HOLD",
+  "runtimeIntegrated": false,
+  "checks": {
+    "sourceEvidence": "three references including Bhutan MFA and official transport department",
+    "semanticQA": "PENDING",
+    "canonicalLedgerReconciliation": "PENDING",
+    "exactHeadCI": "PENDING",
+    "importer": "NOT_CREATED",
+    "legalIntroductionYear": "UNVERIFIED"
+  }
+}
