@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Unit tests for conservative Fast Track queue reconciliation."""
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reconcile_fasttrack_queues as module
 
 
