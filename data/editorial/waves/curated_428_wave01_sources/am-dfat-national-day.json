@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "am-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-21",
+  "country": "AM",
+  "documentedIntroductionYear": 1991,
+  "yearMeaning": "1991 denotes the independence referendum being commemorated; it is not asserted as the statutory establishment year of the recurring holiday.",
+  "authority": "Government of the Republic of Armenia; Office of the Prime Minister of the Republic of Armenia",
+  "sourceEvidence": [
+    {
+      "url": "https://gov.am/en/general-information-1",
+      "claim": "Government confirms referendum on 21 September 1991, 23 August 1990 declaration, and national observance.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.primeminister.am/en/statements-and-messages/item/2022/09/21/nikol-pashinyan-speech",
+      "claim": "Prime Minister confirms referendum question and participation and yes-vote figures.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Armenia marks Independence Day on 21 September, the date of the 1991 referendum in which voters endorsed an independent democratic republic outside the Soviet Union. The vote followed the Declaration of Independence adopted by the Supreme Council on 23 August 1990. The Armenian government identifies the referendum as the decisive step toward restored statehood. The anniversary therefore recalls a public choice made at the end of the Soviet period, not the earlier declaration's date.",
+    "it": "Il 21 settembre l'Armenia celebra il referendum del 1991 con cui gli elettori scelsero una repubblica democratica indipendente dall'Unione Sovietica. La consultazione arrivò dopo la Dichiarazione d'indipendenza adottata dal Consiglio supremo il 23 agosto 1990. Secondo il governo armeno, il voto segnò il passaggio decisivo verso il ripristino della sovranità statale. La festa ricorda dunque una scelta popolare precisa, distinguendola dalla data della dichiarazione precedente.",
+    "es": "Cada 21 de septiembre, Armenia recuerda el referéndum de 1991 en el que los votantes respaldaron una república democrática independiente y fuera de la Unión Soviética. La consulta siguió a la Declaración de Independencia aprobada por el Consejo Supremo el 23 de agosto de 1990. El Gobierno armenio sitúa en aquel voto el momento decisivo de la recuperación de la soberanía estatal. La conmemoración distingue así la decisión ciudadana de la declaración política del año anterior.",
+    "fr": "Le 21 septembre, l'Arménie commémore le référendum de 1991 par lequel les électeurs ont choisi une république démocratique indépendante de l'Union soviétique. Ce scrutin avait été précédé par la Déclaration d'indépendance adoptée par le Conseil suprême le 23 août 1990. Le gouvernement arménien présente le vote comme une étape déterminante du rétablissement de l'État souverain. La fête distingue ainsi la décision populaire de la déclaration adoptée l'année précédente.",
+    "de": "Am 21. September erinnert Armenien an das Referendum von 1991, bei dem die Wähler für eine unabhängige demokratische Republik außerhalb der Sowjetunion stimmten. Vorausgegangen war die Unabhängigkeitserklärung des Obersten Rates vom 23. August 1990. Die armenische Regierung bezeichnet die Volksabstimmung als entscheidenden Schritt zur Wiederherstellung staatlicher Souveränität. Der Feiertag würdigt damit die Entscheidung der Bevölkerung und unterscheidet sie vom Datum der früheren Erklärung.",
+    "pt": "Em 21 de setembro, a Arménia recorda o referendo de 1991 em que os eleitores apoiaram uma república democrática independente da União Soviética. A votação ocorreu depois da Declaração de Independência aprovada pelo Conselho Supremo em 23 de agosto de 1990. O Governo arménio identifica o referendo como o passo decisivo para a recuperação da soberania do Estado. A celebração distingue, portanto, a escolha popular da declaração política do ano anterior."
+  },
+  "qa": {
+    "localeCount": 6,
+    "chronology": "1990 declaration precedes 1991 referendum",
+    "individualHold": "PENDING_LEDGER_RECONCILIATION_AND_SOURCE_SHA_PIN",
+    "humanCertified": false,
+    "runtimeIntegrated": false
+  }
+}
