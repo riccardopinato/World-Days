@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "ag-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-01",
+  "country": "AG",
+  "documentedIntroductionYear": 1981,
+  "yearMeaning": "1981 is the year of independence being commemorated, not an independently established enactment year for the recurring holiday.",
+  "authority": "Government of Antigua and Barbuda; Antigua and Barbuda Public Holidays (Amendment) Act 2005; High Commission of Antigua and Barbuda",
+  "sourceEvidence": [
+    {
+      "url": "https://cpoise.gov.ag/2023/12/12/cheers-to-1981/",
+      "claim": "Government historical feature confirms full sovereign independence on 1 November 1981.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://laws.gov.ag/wp-content/uploads/2018/08/a2005-8.pdf",
+      "claim": "The 2005 statutory schedule expressly sets Independence Day on 1 November annually and provides Monday observance when it falls on a weekend.",
+      "verificationStatus": "PRIMARY_LEGISLATION_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://antigua-barbuda.com/wp-content/uploads/2021/11/INDEPENDENCE-2021-STATEMENT-H.E.-Karen-Mae-Hill%5EJ-High-Commissioner-of-Antigua-and-Barbuda-to-the-United-Kingdom.pdf",
+      "claim": "High Commission statement confirms 40th independence anniversary in 2021, first prime minister Vere Cornwall Bird and the 1981 transition.",
+      "verificationStatus": "OFFICIAL_DIPLOMATIC_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "On 1 November 1981, Antigua and Barbuda became an independent sovereign state, ending its constitutional association with Britain. The transition placed responsibility for the country's political future in its own institutions, with Vere Cornwall Bird serving as its first prime minister. Independence Day recalls this transfer of authority rather than the earlier period of associated statehood. Its annual observance is also reflected in the Public Holidays (Amendment) Act 2005, which specifies 1 November and provides for official celebrations on the following Monday when that date falls on a weekend.",
+    "it": "Il 1º novembre 1981 Antigua e Barbuda divennero uno Stato sovrano indipendente, concludendo il precedente rapporto costituzionale con il Regno Unito. Vere Cornwall Bird assunse la carica di primo ministro del nuovo paese. La ricorrenza celebra il passaggio alla piena sovranità, distinto dalla precedente autonomia come Stato associato. La legge sulle festività modificata nel 2005 indica espressamente il 1º novembre di ogni anno e dispone che, quando cade nel fine settimana, le celebrazioni ufficiali si svolgano il lunedì successivo.",
+    "es": "El 1 de noviembre de 1981, Antigua y Barbuda alcanzó la independencia como Estado soberano y puso fin a su anterior asociación constitucional con el Reino Unido. Vere Cornwall Bird fue el primer jefe de Gobierno del país independiente. La fecha recuerda la soberanía plena, no la etapa previa de autonomía como Estado asociado. Una reforma de la ley de festivos de 2005 establece el 1 de noviembre como Día de la Independencia y dispone que, cuando coincide con sábado o domingo, los actos oficiales se celebren el lunes siguiente.",
+    "fr": "Le 1er novembre 1981, Antigua-et-Barbuda accéda à la souveraineté, mettant fin à son association constitutionnelle avec le Royaume-Uni. Vere Cornwall Bird devint le premier Premier ministre de l'État indépendant. Cette journée marque donc l'indépendance complète, et non le statut d'État associé qui l'avait précédée. La loi sur les jours fériés, modifiée en 2005, fixe la fête de l'indépendance au 1er novembre et prévoit le report des cérémonies officielles au lundi suivant lorsque cette date tombe un samedi ou un dimanche.",
+    "de": "Am 1. November 1981 wurde Antigua und Barbuda ein unabhängiger souveräner Staat. Damit endete die bisherige verfassungsrechtliche Assoziierung mit Großbritannien. Vere Cornwall Bird übernahm das Amt des ersten Premierministers des unabhängigen Landes. Der Nationalfeiertag erinnert an diesen Schritt zur vollen Souveränität und nicht an die frühere Teilautonomie als assoziierter Staat. Das Feiertagsänderungsgesetz von 2005 nennt den 1. November ausdrücklich und legt fest, dass offizielle Feierlichkeiten bei einem Wochenendtermin am folgenden Montag stattfinden.",
+    "pt": "Em 1 de novembro de 1981, Antígua e Barbuda tornou-se um Estado soberano independente, encerrando a anterior associação constitucional com o Reino Unido. Vere Cornwall Bird assumiu como primeiro chefe de Governo do país independente. A data assinala a soberania plena, distinta da autonomia limitada que existira antes. A alteração de 2005 à lei dos feriados estabelece o Dia da Independência em 1 de novembro e determina que, quando a data coincide com sábado ou domingo, as cerimónias oficiais ocorram na segunda-feira seguinte."
+  },
+  "runtimeRichEditorialApproved": false
+}
