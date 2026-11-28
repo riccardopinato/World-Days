@@ -6,6 +6,7 @@ The expected SHA must be obtained independently from the GitHub blob being promo
 This validates structure, not the historical truth of cited sources or runtime eligibility.
 """
 import argparse
+import calendar
 import hashlib
 import json
 import re
@@ -47,7 +48,8 @@ def validate(raw, expected_sha):
         elif key in seen:
             errors.append(prefix + ": DUPLICATE_ID")
         seen.add(key)
-        if not isinstance(record.get("date"), str) or not DATE.fullmatch(record["date"]):
+        if (not isinstance(record.get("date"), str) or not DATE.fullmatch(record["date"]) or
+                int(record["date"][3:]) > calendar.monthrange(2024, int(record["date"][:2]))[1]):
             errors.append(prefix + ": INVALID_DATE")
         if not isinstance(record.get("eventYear"), int) or isinstance(record.get("eventYear"), bool):
             errors.append(prefix + ": INVALID_EVENT_YEAR")
