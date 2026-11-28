@@ -35,12 +35,25 @@ def reconcile(integrated, holds):
     occurrences = {item: [i + 1 for i, block in enumerate(blocks) if item in block] for item in set(queue)}
     duplicates = {item: waves for item, waves in occurrences.items() if len(waves) > 1}
     unique = set(queue)
+    per_block = []
+    for index, block in enumerate(blocks, 1):
+        ids = set(block)
+        per_block.append({
+            "block": index,
+            "raw": len(block),
+            "unique": len(ids),
+            "integrated": len(ids & integrated),
+            "hold": len(ids & holds),
+            "unresolved": len(ids - integrated - holds),
+            "unresolvedIds": sorted(ids - integrated - holds),
+        })
     outside = (integrated | holds) - unique
     # These are queue-relative, not necessarily the complete 428-ID catalog.
     return {
         "queueRaw": len(queue),
         "queueUnique": len(unique),
         "blockSizes": [len(b) for b in blocks],
+        "perBlock": per_block,
         "duplicateAcrossBlocks": duplicates,
         "integratedInQueue": len(integrated & unique),
         "holdInQueue": len(holds & unique),
