@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "ad-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "09-08",
+  "country": "AD",
+  "documentedIntroductionYear": 1914,
+  "yearMeaning": "1914 refers to the first national festival following the patronage declaration, not to the medieval origin of devotion or to the 1873 civil recognition.",
+  "authority": "Government of Andorra; Andorra Turisme",
+  "dateReason": "The government confirms 8 September as the country's national festival.",
+  "sourceEvidence": [
+    {
+      "url": "https://visitandorra.com/en/culture/sanctuary-of-meritxell/",
+      "claim": "General Council recognised the Virgin as patron in 1873; canonical recognition in 1914 led to the national festival on 8 September; fire destroyed the old sanctuary in 1972.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.govern.ad/en/tematiques/cultura-i-esports/patrimoni-cultural/que-es-el-patrimoni-immaterial/les-festes-d-interes-cultural/l-aplec-de-la-mare-de-deu-de-meritxell",
+      "claim": "Government describes 8 September as a national festival and public holiday.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.govern.ad/ca/w/salutacio-dia-de-meritxell-8-de-setembre-del-2021-1",
+      "claim": "Government distinguishes the 1914 first national celebration and 1921 canonical coronation and hymn performance.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "Andorra's National Day falls on 8 September, the feast of Our Lady of Meritxell. The General Council recognised her as patron of the valleys in 1873, while ecclesiastical recognition led to a national celebration in 1914. The sanctuary became a place where devotion and civic identity meet. A fire destroyed its old church and medieval image in 1972, but the pilgrimage endured. Today's festival combines ceremonies, gatherings and a shared sense of belonging.",
+    "it": "La festa nazionale di Andorra cade l'8 settembre, giorno della Madonna di Meritxell. Il Consiglio Generale la riconobbe patrona delle valli nel 1873; il riconoscimento ecclesiastico portò alla celebrazione nazionale del 1914. Il santuario divenne un punto d'incontro tra devozione e identità civica. Nel 1972 un incendio distrusse la chiesa antica e l'immagine medievale, ma il pellegrinaggio continuò. Oggi la ricorrenza unisce cerimonie, incontri e appartenenza.",
+    "es": "La fiesta nacional de Andorra se celebra el 8 de septiembre, día de Nuestra Señora de Meritxell. El Consejo General la reconoció como patrona de los valles en 1873; el reconocimiento eclesiástico dio paso a la celebración nacional de 1914. El santuario unió devoción e identidad colectiva. En 1972 un incendio destruyó la antigua iglesia y la imagen medieval, pero la peregrinación sobrevivió. Hoy se combinan ceremonias, encuentros familiares y memoria compartida.",
+    "fr": "La fête nationale d'Andorre a lieu le 8 septembre, jour de Notre-Dame de Meritxell. Le Conseil général la reconnut patronne des vallées en 1873; la reconnaissance ecclésiastique conduisit à la célébration nationale de 1914. Le sanctuaire devint un lieu de rencontre entre foi et identité civique. Un incendie détruisit l'ancienne église et la statue médiévale en 1972, sans interrompre durablement le pèlerinage. La journée associe cérémonies et rassemblements.",
+    "de": "Andorras Nationalfeiertag fällt auf den 8. September, das Fest Unserer Lieben Frau von Meritxell. Der Generalrat erkannte sie 1873 als Schutzpatronin der Täler an; auf die kirchliche Anerkennung folgte 1914 die nationale Feier. Das Heiligtum verband religiöse Verehrung mit gesellschaftlicher Identität. Ein Brand zerstörte 1972 die alte Kirche und die mittelalterliche Marienfigur, doch die Wallfahrt blieb lebendig. Heute prägen Zeremonien und gemeinsame Begegnungen den Tag.",
+    "pt": "O Dia Nacional de Andorra celebra-se a 8 de setembro, festa de Nossa Senhora de Meritxell. O Conselho Geral reconheceu-a como padroeira dos vales em 1873; o reconhecimento eclesiástico conduziu à celebração nacional de 1914. O santuário passou a reunir devoção e identidade coletiva. Um incêndio destruiu a igreja antiga e a imagem medieval em 1972, mas a peregrinação continuou. Atualmente, a data combina cerimónias, encontros e sentimento de pertença."
+  },
+  "runtimeRichEditorialApproved": false
+}
