@@ -33,6 +33,8 @@ def validate(raw, expected_sha):
         data = json.loads(raw)
     except (ValueError, UnicodeDecodeError) as exc:
         return ["INVALID_JSON: " + str(exc)]
+    if not isinstance(data, dict):
+        return errors + ["INVALID_ROOT_OBJECT"]
     records = data.get("records")
     if not isinstance(records, list) or not records:
         return errors + ["MISSING_RECORDS"]
