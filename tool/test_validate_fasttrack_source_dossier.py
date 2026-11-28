@@ -74,6 +74,21 @@ class FastTrackSourceDossierTests(unittest.TestCase):
         item["date"] = "13-40"
         self.assertIn("records[0]: INVALID_DATE", check([item]))
 
+    def test_impossible_february_30_rejected(self):
+        item = record()
+        item["date"] = "02-30"
+        self.assertIn("records[0]: INVALID_DATE", check([item]))
+
+    def test_valid_february_29_allowed(self):
+        item = record()
+        item["date"] = "02-29"
+        self.assertEqual(check([item]), [])
+
+    def test_april_31_rejected(self):
+        item = record()
+        item["date"] = "04-31"
+        self.assertIn("records[0]: INVALID_DATE", check([item]))
+
     def test_non_https_source_rejected(self):
         item = record()
         item["sources"] = ["http://example.org"]
