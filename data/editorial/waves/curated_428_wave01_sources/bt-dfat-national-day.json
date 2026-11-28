@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "canonicalId": "bt-dfat-national-day",
+  "wave": 2,
+  "locales": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "pt"
+  ],
+  "eventDate": "12-17",
+  "historicalEventYear": 1907,
+  "annualLegalIntroductionYear": null,
+  "editorialStatus": "HOLD_PENDING_CANONICAL_LEDGER_AND_RUNTIME_QA",
+  "humanCertified": false,
+  "runtimeApproved": false,
+  "sourceEvidence": [
+    {
+      "url": "https://www.mfa.gov.bt/wp-content/uploads/2021/12/Window-on-Bhutan-2021.pdf",
+      "publisher": "Royal Government of Bhutan, Ministry of Foreign Affairs",
+      "claim": "17 December 1907 hereditary monarchy; oath by clergy, governors and representatives"
+    },
+    {
+      "url": "https://archive.unesco-ichcap.org/eng/ek/sub11/pdf_down/chapter03/03.4.2.Secular%20Festive%20Events.pdf",
+      "publisher": "Intangible Cultural Heritage of Bhutan",
+      "claim": "Annual 17 December National Day, historical national solidarity and monarchy"
+    },
+    {
+      "url": "https://www.doat.gov.bt/112th-national-day/",
+      "publisher": "Royal Government of Bhutan, Department of Air Transport",
+      "claim": "Official commemoration and public address"
+    }
+  ],
+  "narratives": {
+    "en": "On 17 December 1907, Bhutan's religious leaders, regional governors and representatives gathered at Punakha and agreed to establish a hereditary monarchy. Their oath entrusted the kingdom to Ugyen Wangchuck, the first Druk Gyalpo, after a long period of competing regional authority. Bhutan's National Day commemorates this political turning point, not the country's independence from a colonial power. The annual observance recalls the search for peace and common government while giving citizens an occasion to reflect on their shared responsibilities and the kingdom's future.",
+    "it": "Il 17 dicembre 1907, a Punakha, autorità religiose, governatori regionali e rappresentanti del Bhutan concordarono l'istituzione della monarchia ereditaria. Con un giuramento affidarono il regno a Ugyen Wangchuck, primo Druk Gyalpo, dopo un lungo periodo di rivalità tra poteri locali. La Festa nazionale ricorda questa svolta istituzionale: non celebra un'indipendenza da una potenza coloniale. Ogni anno la ricorrenza richiama il valore della stabilità raggiunta e invita a riflettere sul legame tra le comunità, la storia del paese e le responsabilità verso il futuro.",
+    "es": "El 17 de diciembre de 1907, dirigentes religiosos, gobernadores regionales y representantes de Bután se reunieron en Punakha para establecer una monarquía hereditaria. Mediante un juramento reconocieron a Ugyen Wangchuck como primer Druk Gyalpo, tras décadas de disputas por el poder entre autoridades locales. La Fiesta Nacional recuerda aquella transformación política, no una independencia frente a una potencia colonial. Su celebración anual vincula la memoria de la búsqueda de estabilidad con la unidad del país y la responsabilidad de las generaciones actuales ante su porvenir.",
+    "fr": "Le 17 décembre 1907, à Punakha, des responsables religieux, des gouverneurs régionaux et des représentants du Bhoutan décidèrent d'établir une monarchie héréditaire. Un serment confia le royaume à Ugyen Wangchuck, premier Druk Gyalpo, après une longue période de rivalités entre autorités locales. La fête nationale commémore ce changement politique, et non une indépendance obtenue d'une puissance coloniale. Chaque année, elle rappelle la recherche de paix et de stabilité et invite les citoyens à réfléchir à leur histoire commune ainsi qu'à l'avenir du royaume.",
+    "de": "Am 17. Dezember 1907 versammelten sich in Punakha religiöse Würdenträger, regionale Gouverneure und Vertreter Bhutans. Sie beschlossen die Einführung einer erblichen Monarchie und übertrugen die Herrschaft durch einen Treueeid an Ugyen Wangchuck, den ersten Druk Gyalpo. Vorausgegangen waren lange Machtkämpfe zwischen regionalen Autoritäten. Der Nationalfeiertag erinnert daher an eine staatliche Neuordnung und nicht an die Unabhängigkeit von einer Kolonialmacht. Die jährliche Feier verbindet das Gedenken an Frieden und Stabilität mit dem Nachdenken über gemeinsame Verantwortung und die Zukunft des Königreichs.",
+    "pt": "Em 17 de dezembro de 1907, líderes religiosos, governadores regionais e representantes do Butão reuniram-se em Punakha e concordaram em instituir uma monarquia hereditária. Por meio de um juramento, confiaram o reino a Ugyen Wangchuck, primeiro Druk Gyalpo, após um longo período de disputas entre autoridades locais. O Dia Nacional recorda essa mudança política, e não uma independência perante uma potência colonial. A celebração anual associa a memória da procura de paz e estabilidade à união das comunidades e à responsabilidade coletiva pelo futuro do país."
+  },
+  "qa": {
+    "chronology": "1907 enthronement distinct from unverified annual legal introduction",
+    "scope": "National Day commemorates formation of monarchy; not an individual birth/death anniversary",
+    "semantic": "six original localized narratives; awaiting automated and independent editorial checks",
+    "sourcePin": "TO_BE_RECORDED_FROM_GITHUB_BLOB_AFTER_COMMIT"
+  }
+}
