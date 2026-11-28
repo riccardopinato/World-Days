@@ -55,6 +55,11 @@ def main():
   for lang in ("en","it"):
    assert row["locale"][lang]==base["locale"][lang],(oid,lang)
   assert set(row["locale"])==set(LANG)
+  # One fact per canonical fact in every locale: independent wording, not omission.
+  # This is a structural parity gate, never proof of semantic equivalence.
+  canonical_fact_count=len(row["locale"]["en"]["facts"])
+  for locale in LANG:
+   assert len(row["locale"][locale]["facts"])==canonical_fact_count,(oid,locale,"fact_count",canonical_fact_count)
   assert preview[oid]["primaryResearch"] is not None and preview[oid]["runtimeResearchPreviewAllowed"] is True
   assert row["sources"] and all(urlsplit(url).scheme=="https" and urlsplit(url).netloc for url in row["sources"])
   refyears=None
