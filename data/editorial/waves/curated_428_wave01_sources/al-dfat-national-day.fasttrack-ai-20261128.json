@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "cohort": 3,
+  "id": "al-dfat-national-day",
+  "status": "AI_DRAFT_SIX_LOCALE_SOURCE_CHECKED_NOT_RUNTIME_PUBLISHED",
+  "review": "PENDING",
+  "date": "11-28",
+  "country": "AL",
+  "documentedIntroductionYear": 1912,
+  "yearMeaning": "1912 dates the independence declaration commemorated by the national holiday; no separate annual-holiday enactment date is established here.",
+  "authority": "Albanian National Historical Museum; Albanian Armed Forces Museum",
+  "sourceEvidence": [
+    {
+      "url": "https://www.mhk.gov.al/portfolio/pavijoni-i-pavaresise/",
+      "claim": "Vlora National Assembly declared independence on 28 November 1912; provisional government elected on 4 December 1912.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    },
+    {
+      "url": "https://www.muzeu-fa.gov.al/english/independence-era",
+      "claim": "Albanian independence flag raised at Vlora on 28 November 1912 and Defence Ministry established on 4 December.",
+      "verificationStatus": "PRIMARY_SOURCE_FOUND_WEB_REVIEW"
+    }
+  ],
+  "narratives": {
+    "en": "On 28 November 1912, delegates meeting in the coastal city of Vlora declared Albania independent as the Ottoman Empire's position in the Balkans collapsed. The red flag bearing the black double-headed eagle became the visible emblem of the new state's claim to self-government. Independence did not instantly settle borders or create functioning institutions. On 4 December, the provisional government was chosen, beginning the difficult task of building an administration. Albania's National Day commemorates the declaration itself, a turning point distinct from the subsequent work of securing recognition and governing the country.",
+    "it": "Il 28 novembre 1912, a Valona, i delegati riuniti in assemblea proclamarono l'indipendenza dell'Albania mentre l'Impero ottomano perdeva il controllo dei Balcani. La bandiera rossa con l'aquila nera bicipite divenne il simbolo della nuova aspirazione statale. La proclamazione non risolse subito la questione dei confini né creò un'amministrazione funzionante. Il 4 dicembre fu scelto il governo provvisorio, incaricato di costruire le prime istituzioni. La festa nazionale ricorda soprattutto la decisione del 28 novembre, distinguendola dalle successive trattative diplomatiche e dalla difficile organizzazione del paese.",
+    "es": "El 28 de noviembre de 1912, una asamblea reunida en la ciudad costera de Vlora proclamó la independencia de Albania en medio de la crisis del dominio otomano en los Balcanes. La bandera roja con el águila negra de dos cabezas representó públicamente la voluntad de crear un Estado propio. La declaración no resolvió de inmediato las fronteras ni garantizó instituciones estables. El 4 de diciembre se eligió un gobierno provisional que debía organizar la administración. La fiesta nacional recuerda aquel acto fundacional, diferente de las negociaciones internacionales y de los esfuerzos posteriores para consolidar el país.",
+    "fr": "Le 28 novembre 1912, à Vlora, une assemblée de délégués proclama l'indépendance de l'Albanie alors que l'autorité ottomane reculait dans les Balkans. Le drapeau rouge à l'aigle noir bicéphale devint le signe public de cette volonté d'autonomie politique. La déclaration ne fixa pourtant ni toutes les frontières ni les institutions du nouvel État. Le 4 décembre, un gouvernement provisoire fut choisi pour commencer à organiser l'administration. La fête nationale célèbre d'abord la décision prise à Vlora, sans la confondre avec les négociations diplomatiques et la consolidation politique qui suivirent.",
+    "de": "Am 28. November 1912 erklärten Delegierte in der Küstenstadt Vlora Albanien für unabhängig. Die osmanische Herrschaft auf dem Balkan befand sich damals in einer schweren Krise. Die rote Fahne mit dem schwarzen Doppeladler stand fortan für den Anspruch auf einen eigenen Staat. Mit der Erklärung waren jedoch weder die Grenzfragen noch der Aufbau staatlicher Einrichtungen gelöst. Am 4. Dezember wurde eine provisorische Regierung gewählt, die eine Verwaltung schaffen sollte. Der Nationalfeiertag erinnert an die Entscheidung von Vlora und unterscheidet sie von der späteren diplomatischen Anerkennung und dem schwierigen Staatsaufbau.",
+    "pt": "Em 28 de novembro de 1912, representantes reunidos na cidade costeira de Vlora proclamaram a independência da Albânia, num momento de recuo do domínio otomano nos Balcãs. A bandeira vermelha com a águia negra de duas cabeças tornou-se o símbolo da reivindicação de um Estado próprio. A declaração não resolveu imediatamente as fronteiras nem estabeleceu uma administração estável. Em 4 de dezembro foi escolhido um governo provisório para iniciar a construção das instituições. O Dia Nacional recorda a decisão tomada em Vlora, distinta das negociações diplomáticas e dos esforços posteriores para consolidar o país."
+  },
+  "runtimeRichEditorialApproved": false
+}
