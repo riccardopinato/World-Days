@@ -1,0 +1,80 @@
+name: Wave21 canonical cohort artifact
+
+on:
+  pull_request:
+    paths:
+      - 'tool/freeze_editorial_wave21.py'
+      - '.github/workflows/wave21-cohort-artifact.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  freeze-from-main:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Checkout exact current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Overlay proposed freezer from PR
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [ -n "$PR_HEAD" ]; then
+            git fetch --no-tags origin "$PR_HEAD"
+            git show "$PR_HEAD:tool/freeze_editorial_wave21.py" > /tmp/freeze_editorial_wave21.py
+          else
+            cp tool/freeze_editorial_wave21.py /tmp/freeze_editorial_wave21.py
+          fi
+      - name: Rebuild generated canonical catalog on pristine main
+        run: |
+          python3 tool/market_wave04.py
+          python3 tool/market_wave06.py
+          python3 tool/market_wave07.py
+          python3 tool/market_wave08.py
+          python3 tool/market_wave09.py
+          python3 tool/market_wave10.py
+          python3 tool/market_wave11.py
+          python3 tool/market_wave12.py
+          python3 tool/market_wave13.py
+          python3 tool/build_dataset.py
+          python3 tool/build_editorial.py
+      - name: Generate from pristine main with canonical queue
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("freeze_editorial_wave21", "/tmp/freeze_editorial_wave21.py")
+          module = importlib.util.module_from_spec(spec)
+          import sys
+          sys.path.insert(0, str(Path("tool").resolve()))
+          spec.loader.exec_module(module)
+          module.ROOT = Path.cwd()
+          module.freeze(Path("data/editorial/waves/wave21_cohort.json"))
+          PY
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path("data/editorial/waves/wave21_cohort.json").read_text())
+          ids=x["observanceIds"]
+          assert len(ids)==x["recordCount"]==100 and len(set(ids))==100
+          assert x["runtimeRichEditorialApproved"] is False
+          print("WAVE21_ARTIFACT_PASS",len(ids),x["frozenFromMainSha"],x["cohortIdSha256"])
+          PY
+      - name: Emit machine-readable candidate for source-pinned repository registration
+        run: |
+          echo 'WAVE21_COHORT_JSON_BEGIN'
+          cat data/editorial/waves/wave21_cohort.json
+          echo 'WAVE21_COHORT_JSON_END'
+      - name: Upload immutable candidate (not publication or approval)
+        uses: actions/upload-artifact@v4
+        with:
+          name: wave21-canonical-cohort-candidate
+          path: data/editorial/waves/wave21_cohort.json
+          if-no-files-found: error
