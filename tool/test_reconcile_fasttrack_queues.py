@@ -35,6 +35,14 @@ class ReconcileQueuesTests(unittest.TestCase):
         self.assertEqual(result["unresolvedIds"], ["b", "d"])
         self.assertEqual(result["unresolvedInQueue"], 2)
 
+    def test_per_block_unresolved_are_disjoint_from_status(self):
+        result = module.reconcile({"a"}, {"c"})
+        self.assertEqual([x["unresolvedIds"] for x in result["perBlock"]], [["b"], ["b"], ["d"]])
+        self.assertEqual([x["integrated"] for x in result["perBlock"]], [1, 0, 0])
+        self.assertEqual([x["hold"] for x in result["perBlock"]], [0, 1, 0])
+        # Cross-block duplicate b must not inflate unique unresolved total.
+        self.assertEqual(result["unresolvedInQueue"], 2)
+
     def test_overlap_fails_closed(self):
         with self.assertRaisesRegex(ValueError, "Integrated/HOLD overlap"):
             module.reconcile({"a"}, {"a"})
