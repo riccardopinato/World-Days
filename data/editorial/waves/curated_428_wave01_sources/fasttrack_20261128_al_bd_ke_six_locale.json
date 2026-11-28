@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "cohort": "fasttrack-wave02-wave03-20261128",
+  "status": "SOURCE_AUTHORED_6_PENDING_CANONICAL_LEDGER_AND_RUNTIME_QA",
+  "sourcePinPolicy": "Pin Git blob SHA of this file before importer; no runtime promotion until exact-head CI PASS",
+  "records": [
+    {
+      "id": "al-dfat-national-day",
+      "date": "11-28",
+      "eventYear": 1912,
+      "sources": [
+        "https://www.muzeu-fa.gov.al/english/independence-era/14-pavaresia",
+        "https://www.visit-tirana.com/news/28-november-1912-the-day-that-changed-albanias-history/"
+      ],
+      "texts": {
+        "en": "On 28 November 1912, delegates meeting in Vlora declared Albania independent as Ottoman authority in the Balkans was collapsing. Ismail Qemali led the initiative, and the Albanian flag was raised in the city. The provisional government formed on 4 December faced the immediate challenge of building institutions amid foreign military pressure. Independence Day remembers the declaration itself, rather than the later international decisions about the state's borders.",
+        "it": "Il 28 novembre 1912, a Valona, i delegati proclamarono l'indipendenza dell'Albania mentre il potere ottomano nei Balcani si disgregava. Ismail Qemali guidò l'iniziativa e in città venne innalzata la bandiera albanese. Il governo provvisorio, costituito il 4 dicembre, dovette creare nuove istituzioni in un contesto di pressioni militari straniere. La festa ricorda la dichiarazione, distinta dalle successive decisioni internazionali sui confini.",
+        "es": "El 28 de noviembre de 1912, una asamblea reunida en Vlorë proclamó la independencia de Albania durante el derrumbe del dominio otomano en los Balcanes. Ismail Qemali impulsó la declaración y se izó la bandera albanesa. El gobierno provisional, formado el 4 de diciembre, tuvo que organizar instituciones mientras persistían las presiones militares extranjeras. La fiesta recuerda aquel acto político, anterior a las decisiones internacionales sobre las fronteras.",
+        "fr": "Le 28 novembre 1912, des délégués réunis à Vlora proclamèrent l'indépendance de l'Albanie alors que l'autorité ottomane reculait dans les Balkans. Ismail Qemali conduisit cette initiative, marquée par la levée du drapeau albanais. Formé le 4 décembre, le gouvernement provisoire dut construire ses institutions dans un contexte de pressions militaires extérieures. La fête commémore la proclamation, distincte des décisions internationales ultérieures sur les frontières.",
+        "de": "Am 28. November 1912 erklärten Delegierte in Vlora Albanien für unabhängig, während die osmanische Herrschaft auf dem Balkan zerfiel. Ismail Qemali führte die Initiative an; in der Stadt wurde die albanische Flagge gehisst. Die am 4. Dezember gebildete provisorische Regierung musste unter ausländischem militärischem Druck staatliche Institutionen aufbauen. Der Feiertag erinnert an die Erklärung selbst, nicht an die späteren internationalen Grenzentscheidungen.",
+        "pt": "Em 28 de novembro de 1912, delegados reunidos em Vlorë proclamaram a independência da Albânia, quando o domínio otomano nos Balcãs entrava em colapso. Ismail Qemali liderou a iniciativa e a bandeira albanesa foi hasteada na cidade. Formado em 4 de dezembro, o governo provisório enfrentou a tarefa de criar instituições sob pressão militar externa. A data celebra a declaração, distinta das decisões internacionais posteriores sobre as fronteiras."
+      },
+      "annualLegalEstablishmentYear": null,
+      "editorialState": "HOLD_PENDING_CANONICAL_LEDGER_RECONCILIATION",
+      "sourceReviewedAt": "2026-11-28",
+      "aiAuthored": true,
+      "humanCertified": false
+    },
+    {
+      "id": "bd-dfat-national-day",
+      "date": "03-26",
+      "eventYear": 1971,
+      "sources": [
+        "https://beautifulbangladesh.gov.bd/district-destination/dhaka/events/157",
+        "https://bdnews24.com/bangladesh/dec-18-1971-government-s-vanguard-arrives-in-free-dhaka"
+      ],
+      "texts": {
+        "en": "Bangladesh marks 26 March as Independence Day, recalling the declaration of independence in 1971 after the Pakistani army's crackdown began on the night of 25 March. The declaration opened a nine-month liberation struggle; victory came on 16 December, a separate national commemoration. At the National Martyrs' Memorial in Savar, ceremonies honour those who died during the war. The two dates therefore mark different stages of the country's birth.",
+        "it": "Il Bangladesh celebra il 26 marzo come Giorno dell'indipendenza, ricordando la dichiarazione del 1971 dopo l'inizio della repressione dell'esercito pakistano nella notte del 25 marzo. Seguì una guerra di liberazione durata nove mesi, conclusa con la vittoria del 16 dicembre, commemorata separatamente. Al Memoriale nazionale dei martiri di Savar si rende omaggio alle vittime. Le due date rappresentano momenti distinti della nascita del Paese.",
+        "es": "Bangladés conmemora su independencia el 26 de marzo, fecha vinculada a la declaración de 1971 tras el inicio de la ofensiva del ejército pakistaní durante la noche del día 25. Comenzó entonces una guerra de liberación de nueve meses, cuyo desenlace victorioso llegó el 16 de diciembre y se recuerda por separado. En el Monumento Nacional a los Mártires de Savar se honra a quienes perdieron la vida. Ambas fechas representan etapas diferentes de la independencia.",
+        "fr": "Le Bangladesh célèbre son indépendance le 26 mars, en souvenir de la déclaration de 1971 après le début de la répression menée par l'armée pakistanaise dans la nuit du 25 mars. Une guerre de libération de neuf mois suivit, jusqu'à la victoire du 16 décembre, commémorée séparément. Au Mémorial national des martyrs de Savar, des cérémonies rendent hommage aux victimes. Ces deux dates désignent donc des étapes différentes de la naissance du pays.",
+        "de": "Bangladesch begeht seinen Unabhängigkeitstag am 26. März. Das Datum erinnert an die Erklärung von 1971 nach Beginn des pakistanischen Militäreinsatzes in der Nacht zum 26. März. Es folgte ein neunmonatiger Befreiungskrieg, der am 16. Dezember mit dem Sieg endete; dieser Tag wird gesondert gefeiert. Am Nationalen Märtyrerdenkmal in Savar wird der Kriegstoten gedacht. Beide Gedenktage stehen somit für unterschiedliche Etappen der Staatsgründung.",
+        "pt": "Bangladesh assinala a independência em 26 de março, recordando a declaração de 1971 após o início da repressão do exército paquistanês na noite de 25 de março. Seguiu-se uma guerra de libertação de nove meses, encerrada com a vitória de 16 de dezembro, lembrada noutra celebração nacional. No Memorial Nacional dos Mártires, em Savar, realizam-se homenagens às vítimas. As duas datas representam etapas diferentes da formação do país."
+      },
+      "annualLegalEstablishmentYear": null,
+      "editorialState": "HOLD_PENDING_CANONICAL_LEDGER_RECONCILIATION",
+      "sourceReviewedAt": "2026-11-28",
+      "aiAuthored": true,
+      "humanCertified": false
+    },
+    {
+      "id": "ke-dfat-national-day",
+      "date": "12-12",
+      "eventYear": 1963,
+      "sources": [
+        "https://www.presidentiallibrary.go.ke/events/independence-celebrations-december-12-1963",
+        "https://klrc.go.ke/index.php/constitution-of-kenya/108-chapter-two-the-republic/175-9-national-symbols-and-national-days",
+        "https://kntsite.presidentiallibrary.go.ke/index.php/"
+      ],
+      "texts": {
+        "en": "On 12 December 1963, Kenya gained full independence from Britain, following internal self-government on 1 June. At the Nairobi independence ceremony the British flag was lowered and Kenya's flag raised. Exactly one year later, on 12 December 1964, the country became a republic. Jamhuri Day links these two milestones; Kenya's constitution names it a national day and public holiday, distinct from June's Madaraka Day.",
+        "it": "Il 12 dicembre 1963 il Kenya ottenne la piena indipendenza dal Regno Unito, dopo aver raggiunto l'autogoverno interno il 1º giugno. Durante la cerimonia a Nairobi la bandiera britannica fu ammainata e quella kenyana innalzata. Esattamente un anno dopo, il 12 dicembre 1964, il Paese divenne una repubblica. Il Jamhuri Day unisce questi due passaggi ed è riconosciuto dalla Costituzione come festa nazionale, distinta dal Madaraka Day di giugno.",
+        "es": "El 12 de diciembre de 1963 Kenia alcanzó la independencia plena del Reino Unido, después de obtener el autogobierno interno el 1 de junio. En la ceremonia celebrada en Nairobi se arrió la bandera británica y se izó la keniana. Exactamente un año después, el 12 de diciembre de 1964, el país se convirtió en república. Jamhuri Day recuerda ambos hitos y figura en la Constitución como fiesta nacional, distinta de Madaraka Day en junio.",
+        "fr": "Le 12 décembre 1963, le Kenya accéda à l'indépendance complète vis-à-vis du Royaume-Uni, après l'autonomie interne obtenue le 1er juin. Lors de la cérémonie à Nairobi, le drapeau britannique fut abaissé et celui du Kenya hissé. Un an plus tard, le 12 décembre 1964, le pays devint une république. Jamhuri Day associe ces deux étapes et figure dans la Constitution parmi les journées nationales, à distinguer de Madaraka Day en juin.",
+        "de": "Am 12. Dezember 1963 wurde Kenia vollständig von Großbritannien unabhängig, nachdem es am 1. Juni die innere Selbstverwaltung erlangt hatte. Bei der Feier in Nairobi wurde die britische Flagge eingeholt und die kenianische gehisst. Genau ein Jahr später, am 12. Dezember 1964, wurde Kenia zur Republik. Der Jamhuri Day verbindet beide Ereignisse und ist in der Verfassung als Nationalfeiertag verankert; der Madaraka Day im Juni erinnert dagegen an die Selbstverwaltung.",
+        "pt": "Em 12 de dezembro de 1963, o Quénia conquistou a independência plena do Reino Unido, depois de obter autonomia interna em 1 de junho. Na cerimónia em Nairobi, a bandeira britânica foi arriada e a queniana hasteada. Exatamente um ano depois, em 12 de dezembro de 1964, o país tornou-se uma república. O Jamhuri Day reúne estes dois marcos e é reconhecido pela Constituição como feriado nacional, distinto do Madaraka Day de junho."
+      },
+      "annualLegalEstablishmentYear": null,
+      "editorialState": "HOLD_PENDING_CANONICAL_LEDGER_RECONCILIATION",
+      "sourceReviewedAt": "2026-11-28",
+      "aiAuthored": true,
+      "humanCertified": false
+    }
+  ]
+}
