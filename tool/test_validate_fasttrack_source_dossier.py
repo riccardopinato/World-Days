@@ -38,6 +38,11 @@ class FastTrackSourceDossierTests(unittest.TestCase):
     def test_valid_six_locales_remains_structure_only(self):
         self.assertEqual(check([record()]), [])
 
+    def test_non_object_root_fails_closed(self):
+        for root in ([], None, "invalid", 42):
+            raw = json.dumps(root).encode("utf-8")
+            self.assertIn("INVALID_ROOT_OBJECT", validate(raw, git_blob_sha(raw)))
+
     def test_source_sha_mismatch_fails_closed(self):
         self.assertIn("SOURCE_SHA_MISMATCH", check([record()], "0" * 40))
 
